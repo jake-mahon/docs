@@ -1,3 +1,9 @@
+---
+title: databases sql sensitivedata overview
+sidebar_label: overview
+description: Solution guide for databases sql sensitivedata overview including implementation steps, configuration, and best practices.
+---
+
 # 5.Sensitive Data Job Group
 
 The 5.Sensitive Data Job Group provides information on where sensitive data exists, and who has

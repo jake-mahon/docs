@@ -1,3 +1,9 @@
+---
+title: SQL Server Network Ports Configuration
+sidebar_label: Network Ports
+description: Required protocols and ports for Netwrix 1Secure SQL Server monitoring and connectivity configuration.
+---
+
 # SQL Server Ports
 
 Review a full list of protocols and ports required for Netwrix 1Secure for SQL Server.

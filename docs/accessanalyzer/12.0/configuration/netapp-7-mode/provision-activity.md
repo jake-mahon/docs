@@ -1,3 +1,9 @@
+---
+title: provision activity
+sidebar_label: provision activity
+description: Documentation for provision activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # Provision FPolicy Account
 
 This topic describes the steps needed to create a user account with the privileges required to

@@ -1,3 +1,9 @@
+---
+title: sharepoint directpermissions sp highriskpermissions
+sidebar_label: sp highriskpermissions
+description: Solution guide for sharepoint directpermissions sp highriskpermissions including implementation steps, configuration, and best practices.
+---
+
 # SP_HighRiskPermissions Job
 
 The SP_HighRiskPermissions Job identifies where Authenticated Users, Everyone Except External Users,

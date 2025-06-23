@@ -1,3 +1,9 @@
+---
+title: Admin Approval Secret Key Creation
+sidebar_label: Secret Key
+description: Create and configure secret keys for admin approval policies through Group Policy to enable secure privilege elevation request workflows.
+---
+
 # Creating the Secret Key
 
 On the Computer side of the GPO, use the Endpoint Policy Manager (formerly PolicyPak) Least

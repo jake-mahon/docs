@@ -1,3 +1,9 @@
+---
+title: File Monitor Settings Window
+sidebar_label: File Monitor Settings Window
+description: The File Monitor Settings window provides global settings for managing log retention, the ability to disable office file filtering, inherited permissions for...
+---
+
 # File Monitor Settings Window
 
 The File Monitor Settings window provides global settings for managing log retention, the ability to

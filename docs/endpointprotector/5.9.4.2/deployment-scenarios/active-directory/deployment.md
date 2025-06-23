@@ -1,3 +1,9 @@
+---
+title: Creating the Deployment GPO
+sidebar_label: Deployment GPO
+description: Step-by-step guide to create deployment Group Policy Objects (GPO) for Endpoint Protector in Active Directory environments.
+---
+
 # Creating the Deployment GPO
 
 To create the deployment Group Policy Objects (GPO), follow these steps:

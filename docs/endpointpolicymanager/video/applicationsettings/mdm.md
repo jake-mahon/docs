@@ -1,3 +1,9 @@
+---
+title: Application Settings for MDM Machines
+sidebar_label: MDM Management
+description: Learn to manage application settings on MDM enrolled machines using Endpoint Policy Manager for mobile device and modern workplace scenarios.
+---
+
 # Managing Application Settings on your MDM enrolled machines
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TAU2CareRu4" title="Managing Application Settings on your MDM enrolled machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

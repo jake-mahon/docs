@@ -1,3 +1,9 @@
+---
+title: sql views
+sidebar_label: sql views
+description: Documentation for sql views functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLViewCreations: Columns
 
 The Result Columns page lists the tables selected on the Input Select page.

@@ -1,3 +1,9 @@
+---
+title: entraidinventory overview
+sidebar_label: overview
+description: Solution guide for entraidinventory overview including implementation steps, configuration, and best practices.
+---
+
 # .Entra ID Inventory Solution
 
 The .Entra ID Inventory Solution is designed to inventory, analyze, and report on Microsoft Entra

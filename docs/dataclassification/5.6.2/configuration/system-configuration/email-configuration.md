@@ -1,3 +1,9 @@
+---
+title: Communication Settings
+sidebar_label: Email Configuration
+description: This section contains information on how to configure settings for external communication, including configuring email groups and health service notification...
+---
+
 # Communication Settings
 
 This section contains information on how to configure settings for external communication, including

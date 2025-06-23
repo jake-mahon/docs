@@ -1,3 +1,9 @@
+---
+title: Predefined Investigations Page
+sidebar_label: Predefined Investigations Page
+description: The Predefined Investigations page in the Investigations interface provides a list of saved out-of-the-box investigations with applied filters for Computers,...
+---
+
 # Predefined Investigations Page
 
 The Predefined Investigations page in the Investigations interface provides a list of saved

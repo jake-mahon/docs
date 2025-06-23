@@ -1,3 +1,9 @@
+---
+title: windows hello
+sidebar_label: windows-hello
+description: Directory Manager 11.1 documentation for windows hello with configuration details, usage instructions, and implementation guidance.
+---
+
 # Set up Authentication via Windows Hello
 
 The Windows Hello authentication type can be used on Windows 10 devices only with specialized

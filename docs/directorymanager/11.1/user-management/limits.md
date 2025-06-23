@@ -1,3 +1,9 @@
+---
+title: limits
+sidebar_label: limits
+description: Directory Manager 11.1 documentation for limits with configuration details, usage instructions, and implementation guidance.
+---
+
 # Mailbox properties - Limits tab
 
 This tab applies to mailboxes only. It allows you to set the storage quota for the object's mailbox,

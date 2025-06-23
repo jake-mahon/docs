@@ -1,3 +1,9 @@
+---
+title: Configure a Workflow using Advanced dialog
+sidebar_label: Advanced Configuration
+description: This section contains information on how to add or edit workflows using the Advanced dialog window. To configure a workflow: 1. On the Workflow tab, click Ad...
+---
+
 # Configure a Workflow using Advanced dialog
 
 This section contains information on how to add or edit workflows using the **Advanced** dialog

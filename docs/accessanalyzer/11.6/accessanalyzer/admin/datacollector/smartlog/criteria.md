@@ -1,3 +1,9 @@
+---
+title: SmartLog Criteria Configuration
+sidebar_label: Criteria
+description: Criteria configuration for SmartLog data collector including filtering and search parameters for log analysis.
+---
+
 # SMARTLog: Criteria
 
 The Criteria page is used to specify the search criteria. A test query can be run with the sample

@@ -1,3 +1,9 @@
+---
+title: History Tab for Domain
+sidebar_label: history
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # History Tab for Domain
 
 The History tab shows information about the synchronization history of the selected resource.

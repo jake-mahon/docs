@@ -1,3 +1,9 @@
+---
+title: Using Privilege Secure with Lin
+sidebar_label: linux and ad
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Using Privilege Secure with Lin
 
 Using Privilege Secure with Lin

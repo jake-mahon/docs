@@ -1,3 +1,9 @@
+---
+title: exchange Administration
+sidebar_label: exchange
+description: Administration guide for exchange including configuration, management, and best practices for Access Analyzer.
+---
+
 # Exchange
 
 The Exchange node is for configuring the settings needed to query Microsoft® Exchange Servers.

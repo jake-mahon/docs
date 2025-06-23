@@ -1,3 +1,9 @@
+---
+title: sharepoint activity usagestatistics sp mostactiveusers
+sidebar_label: sp mostactiveusers
+description: Solution guide for sharepoint activity usagestatistics sp mostactiveusers including implementation steps, configuration, and best practices.
+---
+
 # SP_MostActiveUsers Job
 
 This job identifies the most active users from the last 30 days on all monitored SharePoint servers

@@ -1,3 +1,9 @@
+---
+title: windows applications sg_runatboot
+sidebar_label: sg_runatboot
+description: Solution guide for windows applications sg_runatboot including implementation steps, configuration, and best practices.
+---
+
 # SG_RunAtBoot Job
 
 The SG_RunAtBoot job lists applications which are set to **Run** or **Run Once** on all targeted

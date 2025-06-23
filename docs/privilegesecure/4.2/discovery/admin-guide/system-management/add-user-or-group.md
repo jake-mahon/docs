@@ -1,3 +1,9 @@
+---
+title: Add a User or Group to a Systems' Administrator Account Inventory
+sidebar_label: add user or group
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Add a User or Group to a Systems' Administrator Account Inventory
 
 Add a User or Group to a Systems' Administrator Account Inventory

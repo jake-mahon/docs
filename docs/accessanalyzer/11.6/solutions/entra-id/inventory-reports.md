@@ -1,3 +1,9 @@
+---
+title: entra id inventory reports
+sidebar_label: inventory reports
+description: Solution guide for entra id inventory reports including implementation steps, configuration, and best practices.
+---
+
 # Entra ID Solution
 
 The Entra ID Solution is a comprehensive set of audit jobs and reports that provide the information

@@ -1,3 +1,9 @@
+---
+title: troubleshooting
+sidebar_label: troubleshooting
+description: Auditor 10.7 documentation for troubleshooting with configuration details, usage instructions, and implementation guidance.
+---
+
 # Update Credential Passwords
 
 Credential passwords occasionally need to be updated due to various reasons, such as security

@@ -1,3 +1,9 @@
+---
+title: Local Storage Extension DLLs
+sidebar_label: Local Storage
+description: Store compiled AppSet extension DLLs locally in Program Files and AppData directories for individual administrator access.
+---
+
 # Local Storage for Endpoint Policy Manager Extension DLLs
 
 When you compiled your AppSet, the output (the extension DLL) was placed in one of three

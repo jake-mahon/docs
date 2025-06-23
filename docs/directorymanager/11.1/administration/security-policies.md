@@ -1,3 +1,9 @@
+---
+title: security policies
+sidebar_label: security-policies
+description: Directory Manager 11.1 documentation for security policies with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group Owners Policy
 
 The Group Owners policy enables you to specify a group ownership criterion that role members must

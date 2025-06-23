@@ -1,3 +1,9 @@
+---
+title: organization
+sidebar_label: organization
+description: Directory Manager 11.1 documentation for organization with configuration details, usage instructions, and implementation guidance.
+---
+
 # Object properties - Organization tab
 
 Use this tab to add or change the primary manager for this user or contact. You can also remove the

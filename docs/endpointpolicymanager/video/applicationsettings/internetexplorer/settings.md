@@ -1,3 +1,9 @@
+---
+title: Internet Explorer Settings Management Tutorial
+sidebar_label: Settings
+description: Learn to manage Internet Explorer settings using Endpoint Policy Manager Application Settings Manager for comprehensive browser configuration control.
+---
+
 # Manage Internet Explorer Settings With Endpoint Policy Manager Application Settings Manager
 
 The truth is, without Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager, you

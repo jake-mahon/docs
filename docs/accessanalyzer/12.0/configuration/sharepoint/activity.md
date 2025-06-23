@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePoint On-Premise Activity Auditing Configuration
 
 SharePoint Event Auditing must be enabled for each site collection to be monitored by the Netwrix

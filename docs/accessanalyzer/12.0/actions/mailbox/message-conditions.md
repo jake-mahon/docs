@@ -1,3 +1,9 @@
+---
+title: message conditions
+sidebar_label: message conditions
+description: Documentation for message conditions functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Message Conditions
 
 Use the Message Conditions page to customize message search filter conditions. It is a wizard page

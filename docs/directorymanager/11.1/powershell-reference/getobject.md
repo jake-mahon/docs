@@ -1,3 +1,9 @@
+---
+title: Get object Cmdlet
+sidebar_label: getobject
+description: PowerShell cmdlet reference for getobject with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-Object
 
 Use this commandlet to retrieve objects from one or more containers in a domain that match the given

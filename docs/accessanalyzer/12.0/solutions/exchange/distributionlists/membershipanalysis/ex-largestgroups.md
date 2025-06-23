@@ -1,3 +1,9 @@
+---
+title: exchange distributionlists membershipanalysis ex largestgroups
+sidebar_label: ex largestgroups
+description: Solution guide for exchange distributionlists membershipanalysis ex largestgroups including implementation steps, configuration, and best practices.
+---
+
 # EX_LargestGroups Job
 
 The EX_LargestGroups job identifies distribution groups with a high member count.

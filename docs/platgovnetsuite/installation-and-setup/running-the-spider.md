@@ -1,3 +1,9 @@
+---
+title: Running the Spider Process
+sidebar_label: Running Spider
+description: How to run the Platform Governance spider to document NetSuite customizations including manual spider, timing considerations, and monitoring.
+---
+
 # Running the Spider
 
 The first time the spider is run the entire account is scanned. Subsequent spider runs scan the

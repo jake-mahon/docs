@@ -1,3 +1,9 @@
+---
+title: windows recommended
+sidebar_label: recommended
+description: Solution guide for windows recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the Windows Solution
 
 Dependencies

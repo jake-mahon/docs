@@ -1,3 +1,9 @@
+---
+title: active directory activity operations ad hardcoded dcs
+sidebar_label: ad hardcoded dcs
+description: Solution guide for active directory activity operations ad hardcoded dcs including implementation steps, configuration, and best practices.
+---
+
 # AD_HardcodedDCs Job
 
 The AD_HardcodedDCs Job highlights machines that have communicated with only one domain controller.

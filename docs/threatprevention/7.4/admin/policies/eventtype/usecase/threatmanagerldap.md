@@ -1,3 +1,9 @@
+---
+title: Netwrix Threat Manager Honeytoken Threats Use Case
+sidebar_label: Netwrix Threat Manager Honeytoken
+description: Follow these steps to configure LDAP monitoring. Follow the steps to obtain the LDAP monitoring configuration string.
+---
+
 # Netwrix Threat Manager Honeytoken Threats Use Case
 
 Follow these steps to configure LDAP monitoring.

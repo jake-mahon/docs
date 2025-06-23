@@ -1,3 +1,9 @@
+---
+title: Built-in Taxonomies Overview
+sidebar_label: Standalone Taxonomies
+description: Netwrix Data Classification comes with eight taxonomies with hundreds of classification rules out-of-the-box. The four core taxonomies cover a broad range of...
+---
+
 # Built-in Taxonomies Overview
 
 Netwrix Data Classification comes with eight taxonomies with hundreds of classification rules

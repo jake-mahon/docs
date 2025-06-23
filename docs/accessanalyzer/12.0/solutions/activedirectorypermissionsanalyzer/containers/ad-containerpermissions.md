@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer containers ad containerpermissions
+sidebar_label: ad containerpermissions
+description: Solution guide for activedirectorypermissionsanalyzer containers ad containerpermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_ContainerPermissions Job
 
 The AD_ContainerPermissions Job is responsible for reporting on all Active Directory permissions

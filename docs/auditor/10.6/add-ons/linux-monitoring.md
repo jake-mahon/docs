@@ -1,3 +1,9 @@
+---
+title: Linux Monitoring Add-on
+sidebar_label: Linux Monitoring
+description: Deploy and configure Netwrix Auditor Linux monitoring add-on for comprehensive audit data collection from Linux systems.
+---
+
 # Work with Collected Data
 
 Follow the steps to search for collected data:

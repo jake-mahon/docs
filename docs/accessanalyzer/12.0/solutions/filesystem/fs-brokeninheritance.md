@@ -1,3 +1,9 @@
+---
+title: filesystem fs brokeninheritance
+sidebar_label: fs brokeninheritance
+description: Solution guide for filesystem fs brokeninheritance including implementation steps, configuration, and best practices.
+---
+
 # 3.Broken Inheritance > FS_BrokenInheritance Job
 
 The FS_BrokenInheritance job is designed to report on resources with Broken Inheritance from

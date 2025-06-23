@@ -1,3 +1,9 @@
+---
+title: windows securityutilities openportscan remoteopenport
+sidebar_label: remoteopenport
+description: Solution guide for windows securityutilities openportscan remoteopenport including implementation steps, configuration, and best practices.
+---
+
 # RemoteOpenPort Job
 
 The RemoteOpenPort job remotely executes a `netstat -a -b -n` command to gather information about
@@ -28,4 +34,4 @@ preconfigured for this job.
 
 The default analysis task is:
 
--   1. Impose 30 Second Wait Timer – Slows processing down to allow remote command to complete
+- 1. Impose 30 Second Wait Timer – Slows processing down to allow remote command to complete

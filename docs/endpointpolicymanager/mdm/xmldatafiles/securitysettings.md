@@ -1,3 +1,9 @@
+---
+title: Security Settings Manager XML Data Files
+sidebar_label: Security Settings
+description: Export Endpoint Policy Manager Security Settings Manager computer-side security settings as XML files for MDM deployment using the Export Wizard.
+---
+
 # XML Data Files from Endpoint Policy Manager Security Settings Manager
 
 Endpoint Policy Manager Security Settings Manager will export the computer-side security within a

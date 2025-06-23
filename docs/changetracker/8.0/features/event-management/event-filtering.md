@@ -1,3 +1,9 @@
+---
+title: Event Filtering and Controls
+sidebar_label: Event Filtering
+description: Powerful filter panel controls for focusing on specific events including device selection, date ranges, and dynamic filtering capabilities.
+---
+
 # Using the Filter Panel
 
 The **Filter** panel is extremely powerful for focusing attention on events of interest, even in

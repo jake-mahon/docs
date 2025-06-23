@@ -1,3 +1,9 @@
+---
+title: exchange metrics analysis
+sidebar_label: metrics analysis
+description: Solution guide for exchange metrics analysis including implementation steps, configuration, and best practices.
+---
+
 # ActiveSync > EX_ActiveSync Job
 
 The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.

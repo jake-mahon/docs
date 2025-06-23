@@ -1,3 +1,9 @@
+---
+title: Archive Data
+sidebar_label: Archive Data
+description: To use the Move operation on the Database Maintenance Window, you must specify a database where data is archived.
+---
+
 # Archive Data
 
 To use the Move operation on the
@@ -17,9 +23,9 @@ Maintenance window is displayed. Click the **Archive DB** tab.
 - Port – Instance port number, by default this is set to 0
 - Database – Name of the archive database
 - Authentication
-    - For Windows Authentication – Check the Use Windows Authentication box
-    - For SQL Authentication – Enter theuser name and password of an account to use for SQL
-      authentication
+  - For Windows Authentication – Check the Use Windows Authentication box
+  - For SQL Authentication – Enter theuser name and password of an account to use for SQL
+    authentication
 
 **Step 3 –** Click **Save** to save the configurations.
 

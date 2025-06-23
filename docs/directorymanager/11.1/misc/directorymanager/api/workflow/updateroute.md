@@ -1,3 +1,9 @@
+---
+title: workflow updateroute API
+sidebar_label: updateroute
+description: API reference for updateroute operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Update a Route
 
 You can use this API to update a workflow route in a specified identity store.

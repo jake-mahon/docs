@@ -1,3 +1,9 @@
+---
+title: user profiles
+sidebar_label: user-profiles
+description: Auditor 10.7 documentation for user profiles with configuration details, usage instructions, and implementation guidance.
+---
+
 # Review User Profiles and Process Anomalies
 
 The user profile enables you to investigate user behavior and take a closer look at anomalies.

@@ -1,3 +1,9 @@
+---
+title: Authentication Connector Tab
+sidebar_label: authentication connector
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Authentication Connector Tab
 
 The Authentication Connector tab for a user or group shows the type of multi-factor authentication

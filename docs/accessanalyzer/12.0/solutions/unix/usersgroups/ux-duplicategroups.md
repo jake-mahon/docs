@@ -1,3 +1,9 @@
+---
+title: unix usersgroups ux duplicategroups
+sidebar_label: ux duplicategroups
+description: Solution guide for unix usersgroups ux duplicategroups including implementation steps, configuration, and best practices.
+---
+
 # UX_DuplicateGroups Job
 
 The UX_DuplicateGroups job identifies duplicate groups within the audited Unix or Linux environment.

@@ -1,3 +1,9 @@
+---
+title: sharepoint directpermissions overview
+sidebar_label: overview
+description: Solution guide for sharepoint directpermissions overview including implementation steps, configuration, and best practices.
+---
+
 # 1.Direct Permissions Job Group
 
 The **SharePoint** > **1.Direct Permissions** Job Group provides insight into how directly applied

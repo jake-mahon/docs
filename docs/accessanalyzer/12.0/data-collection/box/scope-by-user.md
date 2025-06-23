@@ -1,3 +1,9 @@
+---
+title: scope by user
+sidebar_label: scope by user
+description: Documentation for scope by user functionality in Access Analyzer including configuration and usage information.
+---
+
 # Box: Scope by User Page
 
 The User Scope Settings page (ScopeByUserPage) is where the scope of the scan can be limited to

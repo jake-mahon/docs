@@ -1,3 +1,9 @@
+---
+title: OpenID Authentication Provider
+sidebar_label: OpenID Authentication Provider
+description: OpenID is an open standard for authentication that allows users to log into multiple websites using a single set of credentials, eliminating the need for mul...
+---
+
 # OpenID Authentication Provider
 
 OpenID is an open standard for authentication that allows users to log into multiple websites using
@@ -65,13 +71,13 @@ The table displays the following information:
 - Authentication Type – Type of MFA authentication assigned to the user or group
 - Action – This column has the following icons for conducting actions on the user or group:
 
-    - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
-      The edit icon changes to a save icon while in edit mode.
-    - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
-      Removing a user or group removes console access for it.
-    - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
-      login. This option is only available if an MFA authentication type is applied to the user or
-      group.
+  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
+    The edit icon changes to a save icon while in edit mode.
+  - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
+    Removing a user or group removes console access for it.
+  - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
+    login. This option is only available if an MFA authentication type is applied to the user or
+    group.
 
 See the
 [User Access Page](/docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/useraccess.md)

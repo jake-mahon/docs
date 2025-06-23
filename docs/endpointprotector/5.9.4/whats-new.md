@@ -1,3 +1,9 @@
+---
+title: What's New in Version 5.9.4
+sidebar_label: What's New
+description: Latest features, enhancements, and improvements introduced in Netwrix Endpoint Protector version 5.9.4 for enhanced data protection.
+---
+
 # What's New
 
 ## New Netwrix Community!

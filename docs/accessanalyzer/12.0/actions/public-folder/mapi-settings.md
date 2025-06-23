@@ -1,3 +1,9 @@
+---
+title: mapi settings
+sidebar_label: mapi settings
+description: Documentation for mapi settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: MAPI Settings
 
 Use the MAPI Settings page to specify the proper MAPI settings.

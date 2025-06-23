@@ -1,3 +1,9 @@
+---
+title: result constraints
+sidebar_label: result constraints
+description: Documentation for result constraints functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLViewCreation: Result Constraints
 
 Use the Result Constraints page to impose restraints on the dataset.

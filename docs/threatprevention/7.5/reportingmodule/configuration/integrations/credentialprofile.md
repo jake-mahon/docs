@@ -1,3 +1,9 @@
+---
+title: Credential Profile Page
+sidebar_label: Credential Profile Page
+description: The Credential Profile page within the Integrations interface lists all of the credentials used by the application to complete tasks. These credentials are s...
+---
+
 # Credential Profile Page
 
 The Credential Profile page within the Integrations interface lists all of the credentials used by
@@ -45,8 +51,8 @@ Add New Integration window opens.
 - Description – Provide a description for the Credential Profile
 - Platform – Select the account type for the credential:
 
-    - SQL – For SQL Server accounts
-    - Windows – For local and Active Directory accounts
+  - SQL – For SQL Server accounts
+  - Windows – For local and Active Directory accounts
 
 - User Name – Enter the account user name in the required format. For Windows accounts, it is:
   [DOMAIN]\[USERNAME], e.g. NWXTech\svc-netwrix
@@ -76,21 +82,21 @@ for a Credential Profile:
 
 - Name and Description – The box at the top displays the name and description of the profile
 
-    - Edit – The edit button in the upper right corner of the box changes those fields from
-      read-only to editable. See the Edit Profile topic for additional information.
-    - Delete – The delete button in the upper right corner of the box opens the Delete Profile
-      window to confirm the action
+  - Edit – The edit button in the upper right corner of the box changes those fields from
+    read-only to editable. See the Edit Profile topic for additional information.
+  - Delete – The delete button in the upper right corner of the box opens the Delete Profile
+    window to confirm the action
 
 - Credentials – This section displays the credentials
 
-    - Edit Credential – The edit button to the right of the credentials opens the Credentials
-      Settings window, where you canupdate the Platform, User Name, or Password. See the Edit
-      Credential topic for additional information.
-    - Delete Credential – The delete button to the right of the credentials opens the Delete
-      Credential window to confirm the action
-    - Add Credential – This button allows you to add additional credentials to this profile. This
-      functionality is available for a full Netwrix Threat Manager implementation, and does not
-      apply to the Netwrix Threat Manager Reporting Module.
+  - Edit Credential – The edit button to the right of the credentials opens the Credentials
+    Settings window, where you canupdate the Platform, User Name, or Password. See the Edit
+    Credential topic for additional information.
+  - Delete Credential – The delete button to the right of the credentials opens the Delete
+    Credential window to confirm the action
+  - Add Credential – This button allows you to add additional credentials to this profile. This
+    functionality is available for a full Netwrix Threat Manager implementation, and does not
+    apply to the Netwrix Threat Manager Reporting Module.
 
 ## Edit Profile
 

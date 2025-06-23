@@ -1,3 +1,9 @@
+---
+title: Resource Repository Management
+sidebar_label: Resources
+description: Understand how Usercube stores managed systems data and identities as resources including repository management and data loading methods.
+---
+
 # Resources
 
 Usercube stores managed systems' data and identities as resources within a resource repository.

@@ -1,3 +1,9 @@
+---
+title: Secret Vault Configuration
+sidebar_label: secret vault config
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Secret Vault Configuration
 
 This topic walks through the steps necessary to configure a Netwrix Privilege Secure Secret Vault.

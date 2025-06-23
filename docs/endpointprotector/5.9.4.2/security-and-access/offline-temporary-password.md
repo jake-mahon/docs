@@ -1,3 +1,9 @@
+---
+title: Offline Temporary Password Management
+sidebar_label: Offline Password
+description: Generate offline temporary passwords (OTPs) and grant temporary access rights when standard authentication methods are unavailable.
+---
+
 # Offline Temporary Password
 
 In this section, you can generate Oﬄine Temporary Passwords (or OTPs) and grant temporary access

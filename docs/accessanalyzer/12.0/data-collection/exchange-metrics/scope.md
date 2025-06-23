@@ -1,3 +1,9 @@
+---
+title: scope
+sidebar_label: scope
+description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMetrics: Scope
 
 The Scope page is used to define where to search. It is a wizard page for the categories of:

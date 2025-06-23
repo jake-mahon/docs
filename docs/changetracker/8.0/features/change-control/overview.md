@@ -1,3 +1,9 @@
+---
+title: Change Control Overview
+sidebar_label: Overview
+description: Closed-loop intelligent change control reconciling security benefits with automated planned change assessment and breach detection capabilities.
+---
+
 # Planned Changes Tab
 
 Change Tracker’s Closed-Loop Intelligent Change Control reconciles the security benefits of forensic

@@ -1,3 +1,9 @@
+---
+title: history Administration
+sidebar_label: history
+description: Administration guide for history including configuration, management, and best practices for Access Analyzer.
+---
+
 # History Tab
 
 The History tab is for configuring the Data Retention and Log Retention periods. Choose either to

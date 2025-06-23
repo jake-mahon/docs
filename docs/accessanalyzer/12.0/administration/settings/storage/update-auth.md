@@ -1,3 +1,9 @@
+---
+title: update auth Administration
+sidebar_label: update auth
+description: Administration guide for update auth including configuration, management, and best practices for Access Analyzer.
+---
+
 # Update Authentication Credentials in a Storage Profile
 
 Follow the steps to update authentication credentials for a Storage Profile in the Access Analyzer

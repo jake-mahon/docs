@@ -1,3 +1,9 @@
+---
+title: Active Directory Configuration
+sidebar_label: AD Configuration
+description: Active Directory configuration guide for integrating Threat Prevention with domain controllers and directory services.
+---
+
 # Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the
@@ -22,10 +28,10 @@ Threat Manager Configuration** on the menu. The Netwrix Threat Manager Configura
 - Netwrix Threat Manager URI – Enter the name of the Activity Monitor agent host and port, which is
   4499 by default, in the following format:
 
-    `amqp://localhost:4499`
+  `amqp://localhost:4499`
 
-    You must use localhost, even if Activity Monitor and Threat Prevention are installed on
-    different servers.
+  You must use localhost, even if Activity Monitor and Threat Prevention are installed on
+  different servers.
 
 - App Token – Leave this field blank for integration with Activity Monitor
 - Policies – The table displays all policies created in Threat Prevention along with a State icon

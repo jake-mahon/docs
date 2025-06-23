@@ -1,3 +1,9 @@
+---
+title: Getting Data from NTP for AD Activity Reporting
+sidebar_label: Getting Data NTP AD
+description: When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the policies can be provided to Netwrix Access Analyzer (former...
+---
+
 # Getting Data from NTP for AD Activity Reporting
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the
@@ -23,10 +29,10 @@ Threat Manager Configuration** on the menu. The Netwrix Threat Manager Configura
 - Netwrix Threat Manager URI – Enter the name of the Activity Monitor agent host and port, which is
   4499 by default, in the following format:
 
-    `amqp://localhost:4499`
+  `amqp://localhost:4499`
 
-    You must use localhost, even if Activity Monitor and Threat Prevention are installed on
-    different servers.
+  You must use localhost, even if Activity Monitor and Threat Prevention are installed on
+  different servers.
 
 - App Token – Leave this field blank for integration with Activity Monitor
 - Policies – The table displays all policies created in Threat Prevention along with a State icon

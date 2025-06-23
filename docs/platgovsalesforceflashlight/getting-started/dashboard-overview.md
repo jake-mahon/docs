@@ -1,3 +1,9 @@
+---
+title: Using the Flashlight Dashboard
+sidebar_label: Dashboard
+description: Comprehensive overview of the Flashlight dashboard including scanner status, recent customization updates, key tools, and DRD generator features.
+---
+
 # Using the Dashboard
 
 Flashlight comes with a comprehensive dashboard with everything to manage your org at your

@@ -1,3 +1,9 @@
+---
+title: Certificate Management and Security
+sidebar_label: Certificates
+description: Manage various security certificates essential for Password Secure operation including backup procedures and certificate type descriptions.
+---
+
 # Certificates
 
 Various different certificates are used to guarantee the security of Netwrix Password Secure. The

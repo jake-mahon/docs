@@ -1,3 +1,9 @@
+---
+title: databases oracle configuration oracle remoteosauthentication
+sidebar_label: oracle remoteosauthentication
+description: Solution guide for databases oracle configuration oracle remoteosauthentication including implementation steps, configuration, and best practices.
+---
+
 # Oracle_RemoteOSAuthentication Job
 
 The Oracle_RemoteOSAuthentication Job is designed to discover if remote OS authentication is enabled

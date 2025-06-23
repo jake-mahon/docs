@@ -1,3 +1,9 @@
+---
+title: group policy deployment
+sidebar_label: group-policy-deployment
+description: Auditor 10.7 documentation for group policy deployment with configuration details, usage instructions, and implementation guidance.
+---
+
 # Install Client via Group Policy
 
 The Netwrix Auditor client can be deployed on multiple computers via Group Policy. This can be

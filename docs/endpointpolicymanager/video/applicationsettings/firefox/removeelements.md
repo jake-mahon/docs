@@ -1,3 +1,9 @@
+---
+title: Remove Firefox Preferences Elements
+sidebar_label: Remove Elements
+description: Learn how to individually remove specific UI elements from Firefox's about:preferences panel using Endpoint Policy Manager for precise user control.
+---
+
 # Firefox Remove Specific Elements from about:preferences panel
 
 More power than ever before; now you can individually remove specific UI elements from Firefox in

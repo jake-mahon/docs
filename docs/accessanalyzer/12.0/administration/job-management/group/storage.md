@@ -1,3 +1,9 @@
+---
+title: storage Administration
+sidebar_label: storage
+description: Administration guide for storage including configuration, management, and best practices for Access Analyzer.
+---
+
 # Storage Node
 
 At the job group level, the Storage node identifies the Storage Profile assigned for the job group.

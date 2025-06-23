@@ -1,3 +1,9 @@
+---
+title: Report Wizard Publish Security Configuration
+sidebar_label: Publish Security
+description: Publish security configuration in the report wizard for setting access controls and permissions for published reports.
+---
+
 # Publish Security Page
 
 The Publish Security page of the Report Configuration wizard contains the account names of users

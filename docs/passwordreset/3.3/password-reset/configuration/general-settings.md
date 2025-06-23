@@ -1,6 +1,8 @@
-# About Tab
-
-About Tab
+---
+title: General Settings Configuration
+sidebar_label: General Settings
+description: Configuration guide for Password Reset general settings including license management, domain setup, and Password Policy Enforcer integration options.
+---
 
 # About Tab
 

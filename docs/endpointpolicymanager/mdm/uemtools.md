@@ -1,3 +1,9 @@
+---
+title: Using PolicyPak with MDM UEM Tools
+sidebar_label: UEM Tools
+description: Integrate Netwrix Endpoint Policy Manager with mobile device management and unified endpoint management tools like SCCM, KACE, LANDesk, and Microsoft Intune.
+---
+
 # Using Endpoint Policy Manager with MDM and UEM Tools
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) works with your mobile device management (MDM)

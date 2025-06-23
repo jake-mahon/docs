@@ -1,3 +1,9 @@
+---
+title: Managing list of exclusions
+sidebar_label: Exclusions
+description: When indexing SharePoint files, you can specify the list of file locations that will be ignored. For that, in the list of sources, select SharePoint, then...
+---
+
 # Managing list of exclusions
 
 When indexing SharePoint files, you can specify the list of file locations that will be ignored. For

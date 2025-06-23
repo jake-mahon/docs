@@ -1,3 +1,9 @@
+---
+title: syncjobs createnewjobcollection API
+sidebar_label: createnewjobcollection
+description: API reference for createnewjobcollection operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a New Job Collection
 
 Using this API you can create a new job collection which is a group of individual jobs that run in a

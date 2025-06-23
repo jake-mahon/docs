@@ -1,3 +1,9 @@
+---
+title: transferdirectreports Cmdlet
+sidebar_label: transferdirectreports
+description: PowerShell cmdlet reference for transferdirectreports with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Transfer-DirectReports
 
 Use the Transfer-DirectReports commandlet to transfer direct report(s) in the connected identity

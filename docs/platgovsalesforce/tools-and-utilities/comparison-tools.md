@@ -1,3 +1,9 @@
+---
+title: Environment Comparison Tools
+sidebar_label: Comparison Tools
+description: Compare environments and generate detailed reports for troubleshooting, data migration planning, and cross-environment configuration analysis.
+---
+
 # Environment Comparison
 
 Administrators use this tool to compare environments and generate an Excel report file with the

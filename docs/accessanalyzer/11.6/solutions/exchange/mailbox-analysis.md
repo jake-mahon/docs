@@ -1,3 +1,9 @@
+---
+title: exchange mailbox analysis
+sidebar_label: mailbox analysis
+description: Solution guide for exchange mailbox analysis including implementation steps, configuration, and best practices.
+---
+
 # Features > EX_Features Job
 
 The EX_Features job is comprised of data collection and a report that provides information around

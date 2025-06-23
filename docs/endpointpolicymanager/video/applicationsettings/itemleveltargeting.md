@@ -1,3 +1,9 @@
+---
+title: Item Level Targeting for Applications
+sidebar_label: Item Level Targeting
+description: Learn to use Item Level Targeting to apply application settings to specific users, computers, or groups using Endpoint Policy Manager targeting features.
+---
+
 # Using Item Level Targeting
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJH4MJxMhOo" title="Endpoint Policy Manager: Using Item Level Targeting with Applications Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

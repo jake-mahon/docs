@@ -1,3 +1,9 @@
+---
+title: Password Reset Database Management
+sidebar_label: Database Management
+description: Manage Password Reset database including moving to SQL Server, planning considerations, and database administration procedures.
+---
+
 # Moving to SQL Server
 
 Some planning is needed before moving the database to SQL Server. A trial run on a lab network is

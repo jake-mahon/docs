@@ -1,3 +1,9 @@
+---
+title: active directory cleanup recommended
+sidebar_label: recommended
+description: Solution guide for active directory cleanup recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for AD Cleanup Job Group
 
 The recommended configurations for the Cleanup Job Group are:

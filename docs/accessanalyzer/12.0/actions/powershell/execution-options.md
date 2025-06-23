@@ -1,3 +1,9 @@
+---
+title: execution options
+sidebar_label: execution options
+description: Documentation for execution options functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell Action: Execution Options
 
 Specify the execution options for the PowerShell script using the Execution Options page.

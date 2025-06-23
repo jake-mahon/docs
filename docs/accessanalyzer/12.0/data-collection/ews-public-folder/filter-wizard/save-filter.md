@@ -1,3 +1,9 @@
+---
+title: save filter
+sidebar_label: save filter
+description: Documentation for save filter functionality in Access Analyzer including configuration and usage information.
+---
+
 # EWSPublicFolder FW: Save Filter
 
 Use the Save Filter Page to name and describe the custom filter created in the wizard.

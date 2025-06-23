@@ -1,3 +1,9 @@
+---
+title: Change the Default/Maximum JITA Session Duration
+sidebar_label: jita session duration
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Change the Default/Maximum JITA Session Duration
 
 Change the Default/Maximum JITA Session Duration

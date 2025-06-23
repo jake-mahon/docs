@@ -1,3 +1,9 @@
+---
+title: Supported Content Types
+sidebar_label: Supported Content
+description: The table below lists types of content and their default extensions supported out of the box. NOTE: To review the full list of available content types,...
+---
+
 # Supported Content Types
 
 The table below lists types of content and their default extensions supported out of the box.

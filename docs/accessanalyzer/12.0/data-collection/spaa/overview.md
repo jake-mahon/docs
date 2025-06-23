@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePointAccess Data Collector
 
 The SharePointAccess (SPAA) Data Collector audits access, group membership, and content within a

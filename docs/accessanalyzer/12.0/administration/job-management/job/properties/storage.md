@@ -1,3 +1,9 @@
+---
+title: storage Administration
+sidebar_label: storage
+description: Administration guide for storage including configuration, management, and best practices for Access Analyzer.
+---
+
 # Storage Tab
 
 The Storage tab is for configuring the Storage Profile. Choose either to use the default settings,

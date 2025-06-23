@@ -1,3 +1,9 @@
+---
+title: File Integrity Monitoring Troubleshooting
+sidebar_label: Troubleshooting
+description: Common troubleshooting tips for file integrity monitoring including permission denied errors, path issues, and Proxy Agent configuration problems.
+---
+
 # Common Troubleshooting Tips
 
 ## Permission Denied

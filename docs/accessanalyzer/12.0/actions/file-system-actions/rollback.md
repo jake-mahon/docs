@@ -1,3 +1,9 @@
+---
+title: rollback
+sidebar_label: rollback
+description: Documentation for rollback functionality in Access Analyzer including configuration and usage information.
+---
+
 # File System Action: Rollback
 
 Use the Rollback page to apply rollback support to the action. This option provides the ability to

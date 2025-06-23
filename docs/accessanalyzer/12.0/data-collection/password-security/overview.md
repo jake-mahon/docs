@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # PasswordSecurity Data Collector
 
 The PasswordSecurity Data Collector compares passwords stored in Active Directory to known, breached

@@ -1,3 +1,9 @@
+---
+title: Binding Syntax Reference
+sidebar_label: Bindings
+description: Learn Usercube's binding syntax for specifying paths in the entity model using property references and entity type navigation.
+---
+
 # Bindings
 
 Some configuration's XML attribute must respect the Usercube's binding syntax. This syntax allow to

@@ -1,3 +1,9 @@
+---
+title: rename wizard Administration
+sidebar_label: rename wizard
+description: Administration guide for rename wizard including configuration, management, and best practices for Access Analyzer.
+---
+
 # Rename Scheduled Task Wizard
 
 If a scheduled task has custom credentials set, then the Rename Scheduled Task wizard displays when

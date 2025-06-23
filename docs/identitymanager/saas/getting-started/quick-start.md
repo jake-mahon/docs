@@ -1,3 +1,9 @@
+---
+title: SaaS Quick Start Guide
+sidebar_label: Quick Start
+description: Step-by-step guide to quickly install Identity Manager SaaS bootstrap version including prerequisites and cloud-based configuration setup.
+---
+
 # Quick Start Guide
 
 This guide leads the reader through the steps to quickly install Identity Manager's bootstrap

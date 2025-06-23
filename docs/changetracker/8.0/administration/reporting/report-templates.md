@@ -1,3 +1,7 @@
+title: Template Management Configuration
+sidebar_label: Report Templates
+description: Manage CIS-certified configuration audit templates in ChangeTracker for compliance reporting and security configuration monitoring templates.
+
 # Template Management
 
 As a Center for Internet Security (CIS) Certified Vendor, Netwrix provides configuration audit

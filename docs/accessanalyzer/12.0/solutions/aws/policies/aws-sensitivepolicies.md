@@ -1,3 +1,9 @@
+---
+title: aws policies aws sensitivepolicies
+sidebar_label: aws sensitivepolicies
+description: Solution guide for aws policies aws sensitivepolicies including implementation steps, configuration, and best practices.
+---
+
 # AWS_SensitivePolicies Job
 
 The AWS_SensitivePolicies job provides details on users, groups, and roles as well as the policies

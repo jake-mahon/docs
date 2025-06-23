@@ -1,3 +1,9 @@
+---
+title: Navigation and Dashboard Interface Guide
+sidebar_label: Navigation Basics
+description: Learn to navigate the Netwrix Dashboard, access key features, and use the main interface components for Platform Governance in Salesforce.
+---
+
 # Launch Platform Governance for Salesforce
 
 To access Platform Governance for Salesforce:

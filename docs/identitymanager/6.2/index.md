@@ -1,3 +1,9 @@
+---
+title: Identity Manager 6.2 Documentation
+sidebar_label: Identity Manager 6.2
+description: Advanced identity governance and administration solution with AI-powered features, cloud integration, and enhanced analytics for modern enterprises.
+---
+
 # Identity Manager 6.2
 
 > Next-generation identity governance and administration for modern enterprises

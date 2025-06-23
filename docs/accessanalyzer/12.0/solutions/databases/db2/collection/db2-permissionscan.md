@@ -1,3 +1,9 @@
+---
+title: databases db2 collection db2 permissionscan
+sidebar_label: db2 permissionscan
+description: Solution guide for databases db2 collection db2 permissionscan including implementation steps, configuration, and best practices.
+---
+
 # 2-Db2_PermissionScan Job
 
 This job collects Db2 database level permissions from all the targeted Db2 database servers.

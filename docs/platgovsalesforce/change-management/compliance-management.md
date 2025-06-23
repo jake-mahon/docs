@@ -1,3 +1,9 @@
+---
+title: Compliance Management and Non-Compliant Changes
+sidebar_label: Compliance Management
+description: Identify, investigate, and resolve non-compliant changes by retroactively attaching change requests and obtaining necessary approvals for compliance.
+---
+
 # Resolving Non-Compliant Changes
 
 Open **Netwrix Dashboard** > **Reports** > **Change Enablement** > **Open NonCompliant Changes**  

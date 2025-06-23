@@ -1,3 +1,9 @@
+---
+title: endpoints
+sidebar_label: endpoints
+description: Auditor 10.7 documentation for endpoints with configuration details, usage instructions, and implementation guidance.
+---
+
 # API Endpoints
 
 | Method | Endpoint                                | POST Data                                                                                   | Description                                                                                                                                                                  |

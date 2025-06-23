@@ -1,3 +1,9 @@
+---
+title: data service
+sidebar_label: data-service
+description: Directory Manager 11.1 documentation for data service with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create a Data Service
 
 You can create a Data service in native IIS, remote IIS, and Docker.

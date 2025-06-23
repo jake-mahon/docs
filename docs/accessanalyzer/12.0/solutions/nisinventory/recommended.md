@@ -1,3 +1,9 @@
+---
+title: nisinventory recommended
+sidebar_label: recommended
+description: Solution guide for nisinventory recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration for the .NIS Inventory Solution
 
 The .NIS Inventory Solution requires some configuration for the target environment. It can be run

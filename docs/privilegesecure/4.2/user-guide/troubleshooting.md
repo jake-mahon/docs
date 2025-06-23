@@ -1,3 +1,9 @@
+---
+title: Troubleshooting Guide and Solutions
+sidebar_label: Troubleshooting
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Troubleshooting
 
 The purpose of this section is to detail solutions to common problems when using the Netwrix

@@ -1,3 +1,9 @@
+---
+title: edit reports
+sidebar_label: edit reports
+description: Documentation for edit reports functionality in Access Analyzer reporting including configuration options and usage guidelines.
+---
+
 # Editing Existing Reports
 
 It is not recommended to edit existing reports unless there are changes to a job’s settings at the

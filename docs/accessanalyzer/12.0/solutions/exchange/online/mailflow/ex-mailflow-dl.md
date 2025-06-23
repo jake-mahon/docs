@@ -1,3 +1,9 @@
+---
+title: exchange online mailflow ex mailflow dl
+sidebar_label: ex mailflow dl
+description: Solution guide for exchange online mailflow ex mailflow dl including implementation steps, configuration, and best practices.
+---
+
 # EX_Mailflow_DL Job
 
 The EX_Mailflow_DL job provides information around distribution list usage.

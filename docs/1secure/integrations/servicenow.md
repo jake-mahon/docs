@@ -1,3 +1,9 @@
+---
+title: ServiceNow Integration Configuration
+sidebar_label: ServiceNow
+description: Configure ServiceNow integration with 1Secure for automated incident management and service ticket workflows.
+---
+
 # ServiceNow
 
 ServiceNow is a flexible platform for Managed Service Providers that provides integrated services.

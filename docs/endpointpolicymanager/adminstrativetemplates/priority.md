@@ -1,3 +1,9 @@
+---
+title: Understanding Priority
+sidebar_label: Priority
+description: Learn how priority works in Administrative Templates Manager when using policy directives within collections and Item-Level Targeting.
+---
+
 # Understanding Priority
 
 Endpoint Policy Manager Admin Templates Manager enables you to put policy directives inside a single

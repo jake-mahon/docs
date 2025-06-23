@@ -1,6 +1,7 @@
 ---
 title: Admin Center
 sidebar_label: Admin Center
+description: Directory Manager Admin Center configuration for authentication types, security settings, and administrative access management.
 ---
 
 # Admin Center

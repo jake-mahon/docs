@@ -1,3 +1,9 @@
+---
+title: sharepoint sp sensitivedata
+sidebar_label: sp sensitivedata
+description: Solution guide for sharepoint sp sensitivedata including implementation steps, configuration, and best practices.
+---
+
 # 6.Sensitive Data > SP_SensitiveData Job
 
 The SP_SensitiveData Job identifies where sensitive data is located inside SharePoint farms. Special

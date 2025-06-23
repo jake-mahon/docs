@@ -1,3 +1,9 @@
+---
+title: navigation customization
+sidebar_label: customization
+description: Auditor 10.6 administration guide for navigation customization configuration and management.
+---
+
 # Customization Examples
 
 Here are several examples of why and how you might customize the Netwrix Auditor main page.

@@ -1,3 +1,9 @@
+---
+title: Available Actions
+sidebar_label: File Actions
+description: This section lists workflow actions available for the certain content source types. | Content source type | Available actions | | ----------------------- |...
+---
+
 # Available Actions
 
 This section lists workflow actions available for the certain content source types.

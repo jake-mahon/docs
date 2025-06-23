@@ -1,3 +1,9 @@
+---
+title: Activity Agent Server Requirements
+sidebar_label: Requirements
+description: System requirements for Activity Monitor including supported Windows Server versions, RAM, processor, and disk space specifications for optimal performance.
+---
+
 # Activity Agent Server Requirements
 
 The Activity Agent is installed on Windows servers to monitor Microsoft Entra ID, Network Attached

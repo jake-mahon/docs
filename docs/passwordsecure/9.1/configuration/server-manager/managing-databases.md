@@ -1,3 +1,9 @@
+---
+title: Managing Databases Operations
+sidebar_label: Managing Databases
+description: Manage database operations through context menu and ribbon interface for Password Secure server manager database administration tasks.
+---
+
 # Managing databases
 
 ## Managing a database

@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Business Rules Analysis Module
 
 The Business Rules analysis module measures and evaluates a configured value from an object (the

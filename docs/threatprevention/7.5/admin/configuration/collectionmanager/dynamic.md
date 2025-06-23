@@ -1,3 +1,9 @@
+---
+title: Dynamic Collections
+sidebar_label: Dynamic
+description: Dynamic collection configuration for automatically updating collections based on Active Directory groups and organizational units.
+---
+
 # Dynamic Collections
 
 Certain options in the upper-left corner of the

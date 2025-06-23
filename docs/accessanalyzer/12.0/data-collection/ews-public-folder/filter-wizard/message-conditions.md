@@ -1,3 +1,9 @@
+---
+title: message conditions
+sidebar_label: message conditions
+description: Documentation for message conditions functionality in Access Analyzer including configuration and usage information.
+---
+
 # EWSPublicFolder FW: Message Conditions
 
 Use the Message Conditions page to apply filters to the message category part of the search.

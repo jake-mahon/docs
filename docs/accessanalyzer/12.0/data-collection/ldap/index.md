@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Documentation for index functionality in Access Analyzer including configuration and usage information.
+---
+
 # LDAP Data Collector
 
 The LDAP Data Collector uses LDAP to query Active Directory returning the specified objects and

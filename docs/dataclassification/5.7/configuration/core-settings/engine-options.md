@@ -1,3 +1,9 @@
+---
+title: Engine Options
+sidebar_label: Engine Options
+description: By default, only basic options are displayed. To view advanced options, click the "wrench" icon at Settings in the bottom-right corner. Each option has an...
+---
+
 # Engine Options
 
 By default, only basic options are displayed. To view advanced options, click the "wrench" icon at

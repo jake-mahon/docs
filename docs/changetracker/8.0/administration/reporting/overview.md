@@ -1,3 +1,7 @@
+title: Reports Tab Overview
+sidebar_label: Overview
+description: View compliance reports and executive summaries in ChangeTracker including default CIS compliance reports and additional report type options.
+
 # Reports Tab
 
 To view all the reports from compliance to the executive summary click on the **Reports** tab.

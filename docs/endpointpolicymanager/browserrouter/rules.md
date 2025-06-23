@@ -1,3 +1,9 @@
+---
+title: Browser Router URL Rules Configuration
+sidebar_label: URL Rules
+description: Configure browser routing rules using URL patterns, wildcards, RegEx, and Internet Security Zones to route websites to specific browsers automatically.
+---
+
 # Understanding Browser Router Rules
 
 When you make a new Browser Router policy, you have several ways to make site rules: **URL**,

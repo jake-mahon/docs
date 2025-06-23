@@ -1,3 +1,9 @@
+---
+title: Alerts Interface Overview
+sidebar_label: Alerts
+description: Alert management interface for viewing, exporting, and comparing policy alerts with cleanup and notification configuration options.
+---
+
 # Alerts Interface
 
 The Alerts interface allows you to quickly view recent Security events, Operations events, and
@@ -45,19 +51,19 @@ The data grid displays the following information for each event:
   Hover over the data in this column to view the local time (of the Enterprise Manager) and UTC time
   simultaneously.
 - Severity – Classification of the significance of the event indicated by the alert:
-    - Critical – Might include data loss or other events with unexpected conditions
-    - Error – Indicates a situation where Threat Prevention fails to complete an operation, for
-      example, when it fails to connect to a SEIM server
-    - Warning – Indicates change events that affect the global operations of Threat Prevention
-    - Info – Covers all other system events
+  - Critical – Might include data loss or other events with unexpected conditions
+  - Error – Indicates a situation where Threat Prevention fails to complete an operation, for
+    example, when it fails to connect to a SEIM server
+  - Warning – Indicates change events that affect the global operations of Threat Prevention
+  - Info – Covers all other system events
 - Component – The type of system event for which the alert is triggered:
 
-    - Threat Prevention Security events
-    - Threat Prevention Operations events
-    - Threat Prevention Configuration events
+  - Threat Prevention Security events
+  - Threat Prevention Operations events
+  - Threat Prevention Configuration events
 
-    For a list of the events that fall under each component, see the
-    [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md)
+  For a list of the events that fall under each component, see the
+  [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md)
 
 - Machine – Name of the originating host
 - Alert – Name of the event that triggered the alert
@@ -89,10 +95,10 @@ Below are some considerations:
   SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
   [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
-    **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
-    the
-    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
-    topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  the
+  [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+  topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -107,6 +113,6 @@ Below are some considerations:
   ADMonitor DLL) to resolve the issue permanently. See the
   [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md) topic for additional information.
 
-    **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
-    topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+  topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.

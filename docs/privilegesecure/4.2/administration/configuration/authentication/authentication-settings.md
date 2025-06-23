@@ -1,3 +1,9 @@
+---
+title: Authentication Page
+sidebar_label: authentication settings
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Authentication Page
 
 The Authentication page is accessible from the Navigation pane under Configuration. It shows the

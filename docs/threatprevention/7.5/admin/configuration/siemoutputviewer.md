@@ -1,3 +1,9 @@
+---
+title: SIEM Output Viewer
+sidebar_label: SIEM Viewer
+description: Real-time SIEM output viewer for monitoring data streams sent to external SIEM platforms and troubleshooting integration issues.
+---
+
 # SIEM Output Viewer
 
 The SIEM Output Viewer window displays the event data (messages) that Threat Prevention writes to

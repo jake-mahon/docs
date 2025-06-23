@@ -1,3 +1,9 @@
+---
+title: Okta Cloud Integration
+sidebar_label: Okta
+description: Integrate Netwrix Auditor with Okta identity management for comprehensive user authentication and access monitoring.
+---
+
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

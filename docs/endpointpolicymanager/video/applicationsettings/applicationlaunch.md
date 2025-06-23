@@ -1,3 +1,9 @@
+---
+title: Re-Deploy Settings Application Launch
+sidebar_label: Application Launch
+description: Learn how Endpoint Policy Manager automatically re-delivers settings when applications are launched, ensuring consistent configuration management per Pak.
+---
+
 # Re-Deploy Settings at application launch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qNVCkgWfGDo" title="Endpoint Policy Manager: Manage Acrobat Reader using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

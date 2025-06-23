@@ -1,3 +1,9 @@
+---
+title: Add Reviewers Window
+sidebar_label: add reviewers
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Reviewers Window
 
 The Add Reviewers window provides a list of users that have been onboarded. Users are onboarded in

@@ -1,3 +1,9 @@
+---
+title: windows sg_securityassessment
+sidebar_label: sg_securityassessment
+description: Solution guide for windows sg_securityassessment including implementation steps, configuration, and best practices.
+---
+
 # SG_SecurityAssessment Job
 
 The SG_SecurityAssessment job performs checks against Windows security best practices in order to
@@ -15,24 +21,24 @@ One or more of the following jobs must be run to generate data for the report:
 
 - Authentication
 
-    - **SG_LSASettings**
-    - **SG_SecuritySupportProviders**
-    - **SG_WDigestSettings**
+  - **SG_LSASettings**
+  - **SG_SecuritySupportProviders**
+  - **SG_WDigestSettings**
 
 - Open Access > **SG_OpenFolders**
 - Privileged Accounts
 
-    - Local Administrators
+  - Local Administrators
 
-        - **SG_LocalAdmins**
-        - **SG_MicrosoftLAPS**
+    - **SG_LocalAdmins**
+    - **SG_MicrosoftLAPS**
 
-    - Logon Rights
+  - Logon Rights
 
-        - **SG_AccountPrivileges**
-        - **SG_LocalPolicies**
+    - **SG_AccountPrivileges**
+    - **SG_LocalPolicies**
 
-    - Service Accounts > **SG_ServiceAccounts**
+  - Service Accounts > **SG_ServiceAccounts**
 
 - Security Utilities > **SG_PowerShellCommands**
 

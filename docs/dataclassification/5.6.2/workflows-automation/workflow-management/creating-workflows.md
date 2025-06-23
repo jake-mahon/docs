@@ -1,3 +1,9 @@
+---
+title: Managing Workflows
+sidebar_label: Creating Workflows
+description: Authorized users can create, modify or delete automated workflows that apply to the certain content. For that, in the administrative web console select Conte...
+---
+
 # Managing Workflows
 
 Authorized users can create, modify or delete automated workflows that apply to the certain content.

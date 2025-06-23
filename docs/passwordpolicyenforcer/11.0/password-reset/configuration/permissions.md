@@ -1,3 +1,9 @@
+---
+title: Password Reset Permissions Configuration
+sidebar_label: Permissions
+description: Configure user permissions for Password Reset including access controls and user restrictions for password reset functionality.
+---
+
 # Permissions Tab
 
 Use the **Permissions** tab to control which users can use Password Reset.

@@ -1,3 +1,9 @@
+---
+title: Change Permission Assignment
+sidebar_label: policy permissions
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Change Permission Assignment
 
 Follow the steps to add or remove permission assignments from a custom role.

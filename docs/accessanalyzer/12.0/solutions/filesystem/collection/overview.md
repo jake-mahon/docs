@@ -1,3 +1,9 @@
+---
+title: filesystem collection overview
+sidebar_label: overview
+description: Solution guide for filesystem collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group is designed to collect information from targeted file servers.

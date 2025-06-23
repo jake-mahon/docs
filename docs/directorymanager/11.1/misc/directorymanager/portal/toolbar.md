@@ -1,3 +1,9 @@
+---
+title: Portal . 11.1 misc directorymanager portal toolbar
+sidebar_label: toolbar
+description: Directory Manager portal documentation for . 11.1 misc directorymanager portal functionality including user interface, navigation, and operational procedures.
+---
+
 # Toolbar
 
 Use the toolbar to perform different actions on the portal pages. Buttons on the toolbar vary,

@@ -1,3 +1,9 @@
+---
+title: active directory inventory 1 ad scan
+sidebar_label: 1 ad scan
+description: Solution guide for active directory inventory 1 ad scan including implementation steps, configuration, and best practices.
+---
+
 # 1-AD_Scan Job
 
 The 1-AD_Scan Job collects data from Active Directory. In most environments, this job requires no

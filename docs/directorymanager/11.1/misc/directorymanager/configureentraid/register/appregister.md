@@ -1,3 +1,9 @@
+---
+title: appregister
+sidebar_label: appregister
+description: Directory Manager 11.1 documentation for appregister with configuration details, usage instructions, and implementation guidance.
+---
+
 # Registration and Permissions Assignment
 
 This section discusses the Directory Manager application registration and permission assignment

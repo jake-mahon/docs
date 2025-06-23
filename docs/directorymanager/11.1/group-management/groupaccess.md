@@ -1,3 +1,9 @@
+---
+title: groupaccess
+sidebar_label: groupaccess
+description: Directory Manager 11.1 documentation for groupaccess with configuration details, usage instructions, and implementation guidance.
+---
+
 # Manage Group Access
 
 A group's security type determines how non-members can access the group and become its members.

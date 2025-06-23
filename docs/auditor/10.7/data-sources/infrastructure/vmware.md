@@ -1,3 +1,9 @@
+---
+title: vmware
+sidebar_label: vmware
+description: Auditor 10.7 documentation for vmware with configuration details, usage instructions, and implementation guidance.
+---
+
 # VMware
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

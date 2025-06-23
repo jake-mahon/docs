@@ -1,3 +1,9 @@
+---
+title: First Launch Configuration
+sidebar_label: First Launch
+description: Initial configuration steps after installation including user setup, database connectivity, and basic system settings.
+---
+
 # First Launch
 
 Once Threat Prevention is installed, the Administration Console administrator is the only user who

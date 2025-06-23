@@ -1,3 +1,9 @@
+---
+title: Action Types
+sidebar_label: activity types
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Action Types
 
 The following tables list all available actions that can be added to an activity.

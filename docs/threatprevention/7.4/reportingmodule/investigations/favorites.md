@@ -1,3 +1,9 @@
+---
+title: Favorites Page
+sidebar_label: Favorites Page
+description: The Favorites page in the Investigations interface lists all saved investigations the logged in user has identified as a favorite.
+---
+
 # Favorites Page
 
 The Favorites page in the Investigations interface lists all saved investigations the logged in user

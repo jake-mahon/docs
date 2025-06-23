@@ -1,3 +1,9 @@
+---
+title: databases postgresql collection overview
+sidebar_label: overview
+description: Solution guide for databases postgresql collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The PostgreSQL Solution Collection Job Group is designed to collect high level summary information

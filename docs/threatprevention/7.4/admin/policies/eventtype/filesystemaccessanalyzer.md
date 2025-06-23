@@ -1,3 +1,9 @@
+---
+title: File System Enterprise Auditor Event Type
+sidebar_label: File System Enterprise Auditor
+description: The File System Enterprise Auditor event type is used to send File System activity to Netwrix Access Analyzer (formerly Enterprise Auditor).
+---
+
 # File System Enterprise Auditor Event Type
 
 The File System Enterprise Auditor event type is used to send File System activity to Netwrix Access
@@ -77,8 +83,8 @@ Agents/Domains list on the right displays Agents and domains included in the pol
 - Use the **Refresh** button to update the lists.
 - Use the arrow buttons to move individual Agents and/or domains between the lists.
 
-    - The single arrow buttons will move the selected item to the other list.
-    - The double arrows will move all items to the other list.
+  - The single arrow buttons will move the selected item to the other list.
+  - The double arrows will move all items to the other list.
 
 **NOTE:** There is no impact if a selected path does not exist on the server where an Agent resides.
 

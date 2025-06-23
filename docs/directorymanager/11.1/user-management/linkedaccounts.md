@@ -1,3 +1,9 @@
+---
+title: linkedaccounts
+sidebar_label: linkedaccounts
+description: Directory Manager 11.1 documentation for linkedaccounts with configuration details, usage instructions, and implementation guidance.
+---
+
 # Linked Accounts
 
 A user can have accounts in multiple identity stores in Directory Manager. They have to enroll each

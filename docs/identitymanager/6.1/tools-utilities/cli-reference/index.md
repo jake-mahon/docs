@@ -1,3 +1,9 @@
+---
+title: Command-Line Tools Reference
+sidebar_label: CLI Reference
+description: Data anonymization tool for safely sharing database information with development teams while protecting user privacy through deterministic substitution.
+---
+
 # Usercube-Anonymize
 
 This tool anonymizes data based on a certain knowledge of the database and the data structure.

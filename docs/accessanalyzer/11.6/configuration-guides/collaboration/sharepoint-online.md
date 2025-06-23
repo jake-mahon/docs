@@ -1,3 +1,9 @@
+---
+title: sharepoint online
+sidebar_label: sharepoint online
+description: Documentation for sharepoint online functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePoint Online Access & Sensitive Data Auditing Configuration
 
 Netwrix Enterprise Auditor uses Modern Authentication to execute Access Auditing (SPAA) and/or

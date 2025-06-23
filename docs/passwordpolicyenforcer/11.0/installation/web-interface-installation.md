@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer Web Installation
+sidebar_label: Web Interface Installation
+description: Installation guide for Password Policy Enforcer Web V7.11 web server for Windows domain password changes.
+---
+
 # Install Password Policy Enforcer Web
 
 Password Policy Enforcer Web V7.11 is a web server enabling users to change their Windows domain

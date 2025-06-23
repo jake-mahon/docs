@@ -1,3 +1,9 @@
+---
+title: Data Collection Output Types
+sidebar_label: Data Collection
+description: Configure Activity Monitor data collection outputs including file logs, syslog forwarding, and Netwrix Threat Manager integration for event processing.
+---
+
 # Output Types
 
 Once a domain or a host is being monitored the event stream can be sent to multiple outputs. There

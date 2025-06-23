@@ -1,3 +1,9 @@
+---
+title: box collection overview
+sidebar_label: overview
+description: Solution guide for box collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The 0.Collection Job Group collects data which will be further analyzed in order to provide details

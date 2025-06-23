@@ -1,3 +1,9 @@
+---
+title: contact deletecontact API
+sidebar_label: deletecontact
+description: API reference for deletecontact operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Delete a Contact
 
 Using this API you can delete a specified contact from the specified identity store.

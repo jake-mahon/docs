@@ -1,3 +1,9 @@
+---
+title: target hosts
+sidebar_label: target hosts
+description: Documentation for target hosts functionality in Access Analyzer including configuration and usage information.
+---
+
 # Registry: Target Hosts
 
 Use the Target Hosts page to identify the target hosts whose registries the action examines or

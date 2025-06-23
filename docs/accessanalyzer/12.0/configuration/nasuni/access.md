@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # Nasuni Edge Appliance Access & Sensitive Data Auditing Configuration
 
 It is necessary to generate an API Key Name and Passcode for each on-premise Nasuni Edge Appliance

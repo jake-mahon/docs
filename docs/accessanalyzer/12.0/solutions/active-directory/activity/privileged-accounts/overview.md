@@ -1,3 +1,9 @@
+---
+title: active directory activity privileged accounts overview
+sidebar_label: overview
+description: Solution guide for active directory activity privileged accounts overview including implementation steps, configuration, and best practices.
+---
+
 # Privileged Accounts Job Group
 
 The Privileged Accounts Job Group highlights the activity performed by this accounts, to identify

@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # File System Action: Options
 
 The Options page provides access to additional options for the action. Based on the selection on the

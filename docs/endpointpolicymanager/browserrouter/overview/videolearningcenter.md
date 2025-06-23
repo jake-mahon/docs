@@ -1,3 +1,9 @@
+---
+title: Browser Router Video Learning Center
+sidebar_label: Video Center
+description: Comprehensive video tutorials for Browser Router covering getting started, MDM deployment, Citrix integration, and advanced routing configurations.
+---
+
 # Video Learning Center
 
 See the following Video topics for Browser Router.

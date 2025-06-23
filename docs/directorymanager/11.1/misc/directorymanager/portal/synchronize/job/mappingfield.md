@@ -1,3 +1,9 @@
+---
+title: Portal synchronize job mappingfield
+sidebar_label: mappingfield
+description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
+---
+
 # Map Fields
 
 When creating a job, you select any of the following destination providers.

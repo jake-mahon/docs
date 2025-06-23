@@ -1,3 +1,9 @@
+---
+title: Have I Been Pwned Database Updater
+sidebar_label: HIBP Updater
+description: HIBP Updater tool for Password Policy Enforcer to maintain and update the Have I Been Pwned compromised password database.
+---
+
 # HIBP Updater
 
 Password Policy Enforcer can be configured to use the Have I Been Pwnd (HIBP) database. A copy of

@@ -1,3 +1,9 @@
+---
+title: View Search Query Results
+sidebar_label: View Results
+description: Depending on assigned DSAR role, a user can view his / her searches or searches submitted by other users even when its status is "_queued_" or "_in progress_...
+---
+
 # View Search Query Results
 
 Depending on assigned DSAR role, a user can view his / her searches or searches submitted by other

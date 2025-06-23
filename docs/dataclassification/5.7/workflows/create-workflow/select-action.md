@@ -1,3 +1,9 @@
+---
+title: Step 2. Select Action
+sidebar_label: Select Action
+description: After you select the required type of content source, you will be offered the number of automated actions available for such content, for example, send an...
+---
+
 # Step 2. Select Action
 
 After you select the required type of content source, you will be offered the number of automated

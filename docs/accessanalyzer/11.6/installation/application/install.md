@@ -1,3 +1,9 @@
+---
+title: Installation: install
+sidebar_label: install
+description: Installation guide for install including system requirements, setup procedures, and configuration options.
+---
+
 # Installation & Configuration Overview
 
 This section provides instructions for installing Enterprise Auditor and the initial configuration

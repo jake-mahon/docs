@@ -1,3 +1,9 @@
+---
+title: Creating and Configuring Password Policies
+sidebar_label: Creating Policies
+description: Step-by-step guide for creating new password policies from scratch with unique policy names and configuration options.
+---
+
 # Creating a Policy
 
 There are no password policies defined when Password Policy Enforcer is first installed. Password

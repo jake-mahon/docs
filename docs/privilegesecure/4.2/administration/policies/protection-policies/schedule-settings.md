@@ -1,3 +1,9 @@
+---
+title: Schedule Tab for Protection Policies
+sidebar_label: schedule settings
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Schedule Tab for Protection Policies
 
 The Schedule tab shows the schedule tasks for the resources in the selected protection policy. The

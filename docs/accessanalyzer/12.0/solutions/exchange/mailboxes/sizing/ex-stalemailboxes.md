@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes sizing ex stalemailboxes
+sidebar_label: ex stalemailboxes
+description: Solution guide for exchange mailboxes sizing ex stalemailboxes including implementation steps, configuration, and best practices.
+---
+
 # EX_StaleMailboxes Job
 
 The EX_StaleMailboxes job provides analysis and reporting around orphaned and stale mailboxes.

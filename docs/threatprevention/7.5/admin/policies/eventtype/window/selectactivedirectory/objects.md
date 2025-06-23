@@ -1,3 +1,9 @@
+---
+title: Select Active Directory Objects Window
+sidebar_label: Select Active Directory Objects
+description: The Select Active Directory Objects window provides a list of available AD objects. Selected objects are added to the filter from where you clicked the Add (...
+---
+
 # Select Active Directory Objects Window
 
 The Select Active Directory Objects window provides a list of available AD objects. Selected objects

@@ -1,3 +1,9 @@
+---
+title: Devices and Computers Management
+sidebar_label: Devices
+description: Comprehensive management of devices and computers in Endpoint Protector system including monitoring and control features.
+---
+
 # Devices and Computers
 
 ## Devices

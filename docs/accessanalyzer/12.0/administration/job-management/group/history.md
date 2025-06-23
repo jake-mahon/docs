@@ -1,3 +1,9 @@
+---
+title: history Administration
+sidebar_label: history
+description: Administration guide for history including configuration, management, and best practices for Access Analyzer.
+---
+
 # History Node
 
 At the job group level, the History node identifies data retention and log retention periods

@@ -1,3 +1,9 @@
+---
+title: databases oracle analysis
+sidebar_label: oracle analysis
+description: Solution guide for databases oracle analysis including implementation steps, configuration, and best practices.
+---
+
 # Oracle_Activity Job
 
 The Oracle_Activity Job is designed to provide insight into user activity in target Oracle database

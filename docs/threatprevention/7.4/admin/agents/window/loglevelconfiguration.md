@@ -1,3 +1,9 @@
+---
+title: Log Level Configuration
+sidebar_label: Log Level Config
+description: Agent logging configuration interface for adjusting log verbosity and accessing agent log files for troubleshooting.
+---
+
 # Log Level Configuration Window
 
 The Log Level Configuration window displays the current log levels for the Agents, Enterprise
@@ -19,27 +25,27 @@ Logging Levels** on the top bar to launch the Log Level Configuration window.
 
 - The Active Agent List data grid lists the active Agents with the following information:
 
-    - Platform – Operating system platform for the machine where the Agent is deployed, for example,
-      Windows
-    - Domain – Targeted Active Directory domain
-    - Machine Name – Server where the Agent is deployed
-    - Agent Address – IP address of the server where the Agent is deployed
-    - Version – Agent build version
-    - Log Level – The current log level set for the Agent
+  - Platform – Operating system platform for the machine where the Agent is deployed, for example,
+    Windows
+  - Domain – Targeted Active Directory domain
+  - Machine Name – Server where the Agent is deployed
+  - Agent Address – IP address of the server where the Agent is deployed
+  - Version – Agent build version
+  - Log Level – The current log level set for the Agent
 
 - Select an Agent in the data grid and choose a new log level from the New Agent Log Level dropdown
   menu. Then click Update Log Levels to assign the log level to the Agent. Available file log levels
   are:
 
-    - Debug – Records everything that happens, most verbose level of logging
-    - Info – Records information about individual APIs called, in addition to warnings and errors
-    - Warn – Records all warnings that occur, in addition to errors
-    - Error – Records all errors that occur
-    - Fatal – Records only when catastrophic system failures/crashes occur
+  - Debug – Records everything that happens, most verbose level of logging
+  - Info – Records information about individual APIs called, in addition to warnings and errors
+  - Warn – Records all warnings that occur, in addition to errors
+  - Error – Records all errors that occur
+  - Fatal – Records only when catastrophic system failures/crashes occur
 
-    No matter what log level is selected, the logs have a maximum cap size of 55 MB. When a log file
-    reaches 50 MB, it is closed and a new file is started. No more than ten closed files (50 MB) are
-    kept. When the eleventh file reaches 50 MB, the oldest closed file is overwritten.
+  No matter what log level is selected, the logs have a maximum cap size of 55 MB. When a log file
+  reaches 50 MB, it is closed and a new file is started. No more than ten closed files (50 MB) are
+  kept. When the eleventh file reaches 50 MB, the oldest closed file is overwritten.
 
 **Step 3 –** To update the logging level for Enterprise Manager and the Administration Console:
 

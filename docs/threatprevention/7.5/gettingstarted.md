@@ -1,3 +1,9 @@
+---
+title: Getting Started with Threat Prevention
+sidebar_label: Getting Started
+description: Initial configuration guide for Threat Prevention 7.5 including users, alerts, collections, policies, and database maintenance with SIEM output viewer support.
+---
+
 # Getting Started
 
 After launching the Threat Prevention Administration Console, the administrator must configure some

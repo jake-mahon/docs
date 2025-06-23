@@ -1,3 +1,9 @@
+---
+title: filesystem resourcebasedgroups fs traversegroups
+sidebar_label: fs traversegroups
+description: Solution guide for filesystem resourcebasedgroups fs traversegroups including implementation steps, configuration, and best practices.
+---
+
 # FS_TraverseGroups Job
 
 The **FS_TraverseGroups** Job can be used to create and apply permissions for traverse groups based

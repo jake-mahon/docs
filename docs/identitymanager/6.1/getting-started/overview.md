@@ -1,3 +1,9 @@
+---
+title: System Architecture Overview
+sidebar_label: Overview
+description: Comprehensive overview of Usercube's components, requirements, and interconnection schemes to help choose the best installation setup for your organization.
+---
+
 # Overview
 
 This section will give you an overview of Usercube's components, their requirements and constraints,

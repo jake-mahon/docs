@@ -1,3 +1,9 @@
+---
+title: active directory groups ad mail security groups
+sidebar_label: ad mail security groups
+description: Solution guide for active directory groups ad mail security groups including implementation steps, configuration, and best practices.
+---
+
 # AD_MailSecurityGroups Job
 
 The AD_MailSecurityGroups Job identifies mail-enabled security groups within Active Directory.

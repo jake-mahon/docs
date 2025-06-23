@@ -1,3 +1,9 @@
+---
+title: Box
+sidebar_label: Add
+description: Use the Box source configuration window to set up the crawling and classification operations for content stored in a Box Enterprise account. By default,...
+---
+
 # Box
 
 Use the **Box** source configuration window to set up the crawling and classification operations for

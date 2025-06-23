@@ -1,3 +1,9 @@
+---
+title: Dependency Relationship Diagram
+sidebar_label: Dependencies
+description: Visualize objects, customizations, and their relationships using Strongpoint's graphical DRD tool including scripts, reports, and workflows.
+---
+
 # Dependency Relationship Diagram
 
 Strongpoint's Dependency Relationship Diagram (DRD) displays objects, customizations and their

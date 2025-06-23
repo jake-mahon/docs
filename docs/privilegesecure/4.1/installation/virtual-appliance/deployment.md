@@ -1,3 +1,9 @@
+---
+title: Deployment
+sidebar_label: deployment
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Deployment
 
 In addition to traditional on-premises deployment, Netwrix Privilege Secure now offers new

@@ -1,3 +1,9 @@
+---
+title: target files
+sidebar_label: target files
+description: Documentation for target files functionality in Access Analyzer including configuration and usage information.
+---
+
 # File: Target Files
 
 The Target Files page provides filters to scope the data collection. This can provide better search

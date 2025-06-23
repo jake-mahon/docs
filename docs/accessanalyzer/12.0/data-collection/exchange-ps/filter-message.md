@@ -1,3 +1,9 @@
+---
+title: filter message
+sidebar_label: filter message
+description: Documentation for filter message functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangePS: Filter by Message
 
 The Filter by Message page is used to define the filter conditions of the search. It is a wizard

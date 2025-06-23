@@ -1,3 +1,10 @@
+---
+title: Active Directory Changes Dashboard
+sidebar_label: Active Directory Changes Dashboard
+description: The Active Directory Changes dashboard contains the following cards: !Active Directory Changes Dashboard
+
+---
+
 # Active Directory Changes Dashboard
 
 The Active Directory Changes dashboard contains the following cards:

@@ -1,3 +1,9 @@
+---
+title: Portal history mydirectreport
+sidebar_label: mydirectreport
+description: Directory Manager portal documentation for history functionality including user interface, navigation, and operational procedures.
+---
+
 # My Direct Reports' History
 
 To view the history of updates and changes made to your direct reports, click **History** on the

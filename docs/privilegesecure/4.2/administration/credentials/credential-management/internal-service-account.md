@@ -1,3 +1,9 @@
+---
+title: Manage Internal Service Accounts
+sidebar_label: internal service account
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Manage Internal Service Accounts
 
 An internal service account is a type of service account used by Privilege Secure with no

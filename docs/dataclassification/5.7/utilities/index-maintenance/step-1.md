@@ -1,3 +1,9 @@
+---
+title: Step 1: Maintenance Operation
+sidebar_label: Step 1
+description: Select the operation you want to perform: index will be truncated. Then the program will re-do all indexing/classification (during that process, search resul...
+---
+
 # Step 1: Maintenance Operation
 
 Select the operation you want to perform:

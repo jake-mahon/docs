@@ -1,3 +1,9 @@
+---
+title: discovery Administration
+sidebar_label: discovery
+description: Administration guide for discovery including configuration, management, and best practices for Access Analyzer.
+---
+
 # Host Discovery Queries Activities Pane
 
 The Activities pane provides several options for managing Host Discovery queries.

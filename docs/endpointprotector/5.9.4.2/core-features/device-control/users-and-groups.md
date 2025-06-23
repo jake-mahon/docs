@@ -1,3 +1,9 @@
+---
+title: Users and Groups Management
+sidebar_label: Users Groups
+description: Comprehensive management of users and groups in Endpoint Protector system with detailed control over access permissions and policies.
+---
+
 # Users and Groups
 
 ## Users

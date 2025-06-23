@@ -1,3 +1,9 @@
+---
+title: risk dashboard
+sidebar_label: risk-dashboard
+description: Auditor 10.7 documentation for risk dashboard with configuration details, usage instructions, and implementation guidance.
+---
+
 # IT Risk Assessment Dashboard
 
 To access the Risk Assessment dashboard, click the corresponding tile in the main window.

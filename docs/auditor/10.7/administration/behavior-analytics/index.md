@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Behavior Anomalies
 
 Netwrix Auditor enables you to detect behavior anomalies in your IT environment, such as activity

@@ -1,3 +1,9 @@
+---
+title: Unix Sharing Collection Overview
+sidebar_label: Overview
+description: Overview of Unix sharing collection jobs including file sharing analysis and network resource monitoring.
+---
+
 # 0.Collection Job Group
 
 The jobs within this group collect NFS and Samba configuration information which will be further

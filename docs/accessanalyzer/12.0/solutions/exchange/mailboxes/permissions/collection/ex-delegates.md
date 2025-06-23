@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes permissions collection ex delegates
+sidebar_label: ex delegates
+description: Solution guide for exchange mailboxes permissions collection ex delegates including implementation steps, configuration, and best practices.
+---
+
 # EX_Delegates Job
 
 The EX_Delegates job collects data from Active Directory to identify the delegates applied to a

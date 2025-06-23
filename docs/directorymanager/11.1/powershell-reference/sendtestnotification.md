@@ -1,3 +1,9 @@
+---
+title: Send Test Notification Cmdlet
+sidebar_label: Send-TestNotification
+description: PowerShell cmdlet to send test notifications via SMTP server to validate email settings before configuring notifications.
+---
+
 # Send-TestNotification
 
 The commandlet Send-TestNotification sends a test notification using the email addresses (specified

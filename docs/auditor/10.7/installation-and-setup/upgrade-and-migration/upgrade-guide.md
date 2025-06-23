@@ -1,3 +1,9 @@
+---
+title: upgrade guide
+sidebar_label: upgrade-guide
+description: Auditor 10.7 documentation for upgrade guide with configuration details, usage instructions, and implementation guidance.
+---
+
 # Upgrade to the Latest Version
 
 Netwrix recommends that you upgrade from the older versions of Netwrix Auditor to the latest version

@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Action Modules
 
 This guide describes the **Actions** node and the various action modules available for use in

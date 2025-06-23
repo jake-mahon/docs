@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer sites ad sitepermissions
+sidebar_label: ad sitepermissions
+description: Solution guide for activedirectorypermissionsanalyzer sites ad sitepermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_SitePermissions Job
 
 The AD_SitePermissions Job reports on all Active Directory permissions applied to site objects

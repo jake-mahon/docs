@@ -1,3 +1,9 @@
+---
+title: features Administration
+sidebar_label: features
+description: Administration guide for features including configuration, management, and best practices for Access Analyzer.
+---
+
 # Special Features & Functions
 
 There are several special features and functions available for jobs and job components with which

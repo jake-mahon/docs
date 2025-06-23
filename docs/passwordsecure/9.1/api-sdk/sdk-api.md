@@ -1,3 +1,9 @@
+---
+title: Password Secure SDK and API
+sidebar_label: SDK / API
+description: Developer guide for Password Secure API access using C# and JavaScript wrappers for external integration and data retrieval capabilities.
+---
+
 # SDK / API
 
 API: This interface can be used to "address Netwrix Password Secure externally" in order to, for

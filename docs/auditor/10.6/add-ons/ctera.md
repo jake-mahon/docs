@@ -1,3 +1,9 @@
+---
+title: Ctera Add-on for Auditor
+sidebar_label: Ctera
+description: Deploy and configure Netwrix Auditor Ctera add-on for monitoring cloud storage gateway and file synchronization activities.
+---
+
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

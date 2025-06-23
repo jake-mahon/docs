@@ -1,3 +1,9 @@
+---
+title: Select Computers Window
+sidebar_label: Select Computers Window
+description: The Deploy Agents wizard's Select Computer window is the first in a sequence of four windows to deploy the Agent on a computer. It provides three methods for...
+---
+
 # Select Computers Window
 
 The Deploy Agents wizard's Select Computer window is the first in a sequence of four windows to

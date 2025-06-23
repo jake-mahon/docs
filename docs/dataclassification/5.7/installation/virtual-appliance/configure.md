@@ -1,3 +1,9 @@
+---
+title: Configure Virtual Appliance
+sidebar_label: Configure
+description: Follow the steps below to configure your virtual appliance with Netwrix Data Classification. 1. For Windows Server, the EULA will be displayed in the License...
+---
+
 # Configure Virtual Appliance
 
 Follow the steps below to configure your virtual appliance with Netwrix Data Classification.

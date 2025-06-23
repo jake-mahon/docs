@@ -1,3 +1,9 @@
+---
+title: Client Configuration Requirements
+sidebar_label: Client Configuration
+description: System components and configuration requirements for Password Secure client installation including MSP customer considerations.
+---
+
 # Client configuration
 
 #### System Components

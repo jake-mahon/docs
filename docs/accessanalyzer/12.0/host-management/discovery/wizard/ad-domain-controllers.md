@@ -1,3 +1,9 @@
+---
+title: ad domain controllers
+sidebar_label: ad domain controllers
+description: Documentation for ad domain controllers functionality in Access Analyzer including configuration and usage information.
+---
+
 # Query an Active Directory server (Discover Domain Controllers)
 
 Follow the steps to create a Host Discovery query using the **Query an Active Directory server

@@ -1,3 +1,9 @@
+---
+title: active directory groups ad dc logon groups
+sidebar_label: ad dc logon groups
+description: Solution guide for active directory groups ad dc logon groups including implementation steps, configuration, and best practices.
+---
+
 # AD_DCLogonGroups Job
 
 The AD_DCLogonGroups Job identifies users who are able to log on to Domain Controllers through

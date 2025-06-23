@@ -1,3 +1,9 @@
+---
+title: Labels
+sidebar_label: Create Taxonomies
+description: This section contains information on how to configure SharePoint and Office 365 labels. SharePoint labels (Alternate Term Labels) are alternate labels...
+---
+
 # Labels
 
 This section contains information on how to configure SharePoint and Office 365 labels.

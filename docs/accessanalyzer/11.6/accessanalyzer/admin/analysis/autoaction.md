@@ -1,3 +1,9 @@
+---
+title: AutoAction Analysis Module
+sidebar_label: AutoAction
+description: Analysis module that executes pre-configured actions automatically as part of analysis task execution within the current job scope.
+---
+
 # AutoAction Analysis Module
 
 The Auto Action analysis module executes a pre-configured action as part of the analysis task

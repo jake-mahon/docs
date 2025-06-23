@@ -1,3 +1,9 @@
+---
+title: What's New in Activity Monitor 8.0
+sidebar_label: What's New
+description: Latest features and improvements in Activity Monitor 8.0 including CTERA platform support, enhanced monitoring capabilities, and new security features.
+---
+
 # What's New
 
 The following information highlights the new and enhanced features introduced in this Netwrix

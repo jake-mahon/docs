@@ -1,3 +1,7 @@
+title: Active Directory Object Recovery
+sidebar_label: Object Recovery
+description: Recover deleted Active Directory objects using the Recycle Bin interface with domain monitoring and object restoration capabilities.
+
 # Recover Objects
 
 The Recycle Bin enables you to view the objects deleted in domains monitored by Recovery for Active

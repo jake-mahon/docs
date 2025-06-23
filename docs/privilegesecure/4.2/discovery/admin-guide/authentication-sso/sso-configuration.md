@@ -1,3 +1,9 @@
+---
+title: SSO Configuration
+sidebar_label: sso configuration
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # SSO Configuration
 
 SSO Configuration

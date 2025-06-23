@@ -1,3 +1,7 @@
+title: Device Groups Management
+sidebar_label: Device Groups
+description: Configure device tracking templates and compliance reports for ChangeTracker device groups with merged policies and reporting schedules.
+
 # Device Groups
 
 Click on a Device Group to edit the assigned Device Tracking template and Compliance Report, and to

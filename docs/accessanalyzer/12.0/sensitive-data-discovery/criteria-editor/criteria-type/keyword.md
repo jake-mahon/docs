@@ -1,3 +1,9 @@
+---
+title: keyword
+sidebar_label: keyword
+description: Documentation for keyword functionality in Access Analyzer including configuration and usage information.
+---
+
 # Keyword Criteria
 
 Keyword criteria consists of a list of comma-separated words. If any word in the list is found in

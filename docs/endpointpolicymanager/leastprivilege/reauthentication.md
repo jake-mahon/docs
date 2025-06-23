@@ -1,3 +1,9 @@
+---
+title: Re-authentication and Justification Text
+sidebar_label: Re-authentication
+description: Configure user re-authentication and justification text requirements for privilege elevation with audit logging for security compliance monitoring.
+---
+
 # Understanding Re-authentication & Justification Text
 
 There might be times you want users to re-authenticate and/or provide justification text about their

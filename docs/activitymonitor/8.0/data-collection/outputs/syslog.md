@@ -1,3 +1,9 @@
+---
+title: Data Collection Syslog Output
+sidebar_label: Syslog
+description: Configure syslog output for Activity Monitor data collection including SIEM integration and Netwrix Threat Manager connectivity settings.
+---
+
 # Syslog Tab
 
 The Syslog tab on an output Properties window is where the SIEM integration settings can be

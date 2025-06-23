@@ -1,3 +1,9 @@
+---
+title: Azure SQL Server Settings Collection
+sidebar_label: Server Settings
+description: Azure SQL server settings collection job for gathering database configuration and security settings information.
+---
+
 # 4-AzureSQL_ServerSettings Job
 
 The 4–AzureSQL_ServerSettings Job is designed to collect Azure SQL instance and database

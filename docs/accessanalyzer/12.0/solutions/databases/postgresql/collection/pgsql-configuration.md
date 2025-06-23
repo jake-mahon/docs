@@ -1,3 +1,9 @@
+---
+title: databases postgresql collection pgsql configuration
+sidebar_label: pgsql configuration
+description: Solution guide for databases postgresql collection pgsql configuration including implementation steps, configuration, and best practices.
+---
+
 # PgSQL_Configuration Job
 
 The PgSQL_Configuration Job is designed to return additional configuration settings from

@@ -1,3 +1,9 @@
+---
+title: view host
+sidebar_label: view host
+description: Documentation for view host functionality in Access Analyzer including configuration and usage information.
+---
+
 # View/Edit Host
 
 Use the **View/Edit Host** option to open the Host Details View. This view displays the collected

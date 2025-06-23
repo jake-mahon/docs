@@ -1,3 +1,9 @@
+---
+title: datasource dssql API
+sidebar_label: dssql
+description: API reference for dssql operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a Data Source for SQL Server
 
 Use this API to create a new data source.

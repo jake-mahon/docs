@@ -1,3 +1,9 @@
+---
+title: Settings and Credentials Management
+sidebar_label: Settings & Credentials
+description: Manage Platform Governance settings, configure credentials for connected apps, test connections, and access configuration tools and wizards.
+---
+
 # Settings Overview
 
 The Settings menu is located on the Netwrix Dashboard page.

@@ -1,3 +1,9 @@
+---
+title: Main Components and Architecture
+sidebar_label: Components
+description: Detailed overview of Endpoint Protector system components including server, client, and architectural elements for comprehensive DLP deployment.
+---
+
 # Main Components
 
 Endpoint Protector is designed around several physical entities:

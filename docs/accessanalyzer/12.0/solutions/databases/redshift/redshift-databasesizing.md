@@ -1,3 +1,9 @@
+---
+title: databases redshift redshift databasesizing
+sidebar_label: redshift databasesizing
+description: Solution guide for databases redshift redshift databasesizing including implementation steps, configuration, and best practices.
+---
+
 # Configuration > Redshift_DatabaseSizing Job
 
 This group provides insight into details about the Redshift environment and potential

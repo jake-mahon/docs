@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # NetApp Data ONTAP Cluster-Mode Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for configuring NetApp Data ONTAP Cluster-Mode devices.

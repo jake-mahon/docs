@@ -1,3 +1,9 @@
+---
+title: High Availability (HA) and Disaster Recovery (DR) Options
+sidebar_label: ha and dr
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # High Availability (HA) and Disaster Recovery (DR) Options
 
 High Availability (HA) and Disaster Recovery (DR) Options

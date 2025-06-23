@@ -1,3 +1,9 @@
+---
+title: hostinventory
+sidebar_label: hostinventory
+description: Documentation for hostinventory functionality in Access Analyzer including configuration and usage information.
+---
+
 # Host Inventory
 
 The Host Inventory node is for selecting what information to collect from the target host during the

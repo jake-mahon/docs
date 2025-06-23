@@ -1,3 +1,9 @@
+---
+title: Go-Live Checklist
+sidebar_label: go live checklist
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Go-Live Checklist
 
 Go-Live Checklist

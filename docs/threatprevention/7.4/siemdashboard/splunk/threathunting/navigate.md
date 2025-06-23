@@ -1,3 +1,9 @@
+---
+title: Navigate the Threat Hunting App for Splunk
+sidebar_label: Navigate Threat Hunting App
+description: The Netwrix Threat Hunting App for Splunk contains only one dashboard called Threat Hunting. !ribbon - The Timeframe interval is identified in the upper-left...
+---
+
 # Navigate the Threat Hunting App for Splunk
 
 The Netwrix Threat Hunting App for Splunk contains only one dashboard called Threat Hunting.
@@ -11,10 +17,10 @@ The Netwrix Threat Hunting App for Splunk contains only one dashboard called Thr
   Data Hunting, and Privilege Creep/Escalation. The textbox changes based on the selection as
   follows:
 
-    - Perpetrator Hunting – Perpetrator Name (A Perpetrator is any security principal that is making
-      a change)
-    - Sensitive Data Hunting – File Name
-    - Privilege Creep/Escalation – Account Name
+  - Perpetrator Hunting – Perpetrator Name (A Perpetrator is any security principal that is making
+    a change)
+  - Sensitive Data Hunting – File Name
+  - Privilege Creep/Escalation – Account Name
 
 - The Day of Week checklist provides the option to choose which days of the week will be filtered
   out when looking for threats. By default, all of the days are checked. When a day is unchecked,

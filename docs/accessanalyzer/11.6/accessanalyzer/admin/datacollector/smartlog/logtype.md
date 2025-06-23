@@ -1,3 +1,9 @@
+---
+title: SmartLog Log Type Configuration
+sidebar_label: Log Type
+description: Log type configuration for SmartLog data collector including supported log formats and parsing options.
+---
+
 # SMARTLog: Log Type
 
 The Log Type page is used to select the log type to be processed.
@@ -13,10 +19,10 @@ The log types are:
 - Internet Information Server Log – An Exchange query that returns information from Outlook Web
   Access IIS logs found on CAS servers
 
-    - The IIS log must be configured to generate specific columns in order for the SMARTLog Data
-      Collector to audit them. See the
-      [IIS Log Auditing Requirements](#iis-log-auditing-requirements) topic for additional
-      information.
+  - The IIS log must be configured to generate specific columns in order for the SMARTLog Data
+    Collector to audit them. See the
+    [IIS Log Auditing Requirements](#iis-log-auditing-requirements) topic for additional
+    information.
 
 - File Change Detection Log – This is a legacy option. It should not be selected.
 

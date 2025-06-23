@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes permissions collection ex mbrights
+sidebar_label: ex mbrights
+description: Solution guide for exchange mailboxes permissions collection ex mbrights including implementation steps, configuration, and best practices.
+---
+
 # EX_MBRights Job
 
 The EX_MBRights job collects data from Active Directory to identify the mailbox rights applied to a

@@ -1,3 +1,9 @@
+---
+title: questions
+sidebar_label: questions
+description: Documentation for questions functionality in Access Analyzer including configuration and usage information.
+---
+
 # Survey: Questions
 
 Use this page to specify the questions on the survey. Configure the following for each question:

@@ -1,3 +1,9 @@
+---
+title: Java Enterprise Rules XML Data Files
+sidebar_label: Java Enterprise Rules
+description: Export Endpoint Policy Manager Java Enterprise Rules Manager settings as XML files for MDM deployment. Learn to export single policies, collections, or entire nodes.
+---
+
 # XML Data Files from Endpoint Policy Manager Java Enterprise Rules Manager
 
 Endpoint Policy Manager Java Enterprise Rules Manager settings can be exported as an XML file. You

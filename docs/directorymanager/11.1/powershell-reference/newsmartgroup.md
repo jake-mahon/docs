@@ -1,3 +1,9 @@
+---
+title: New smartgroup Cmdlet
+sidebar_label: newsmartgroup
+description: PowerShell cmdlet reference for newsmartgroup with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # New-SmartGroup
 
 This commandlet helps you to create a new Smart Group (managed group) in Directory. A Smart Group is

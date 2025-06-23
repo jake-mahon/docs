@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePoint Online Access & Sensitive Data Auditing Configuration
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) uses Modern Authentication to execute Access

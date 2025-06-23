@@ -1,3 +1,9 @@
+---
+title: dashboard
+sidebar_label: dashboard
+description: Directory Manager 11.0 documentation for dashboard with configuration details, usage instructions, and implementation guidance.
+---
+
 # Dashboard
 
 The interface of the portal is designed in a manner that you can quickly access the main functions

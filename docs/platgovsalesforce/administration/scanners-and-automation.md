@@ -1,3 +1,9 @@
+---
+title: Manual Scanners and Automation Setup
+sidebar_label: Scanners & Automation
+description: Run on-demand scans for specific metadata types, schedule automated scanning, and manage Platform Governance scanning processes efficiently.
+---
+
 # Manual Scanners
 
 When the initial scan is complete, you can run additional on demand scans as required.

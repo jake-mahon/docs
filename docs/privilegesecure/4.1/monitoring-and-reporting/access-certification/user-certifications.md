@@ -1,3 +1,9 @@
+---
+title: Users Tab for Access Certification
+sidebar_label: user certifications
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Users Tab for Access Certification
 
 The Users tab shows the users and groups in the selected access certification task for which the

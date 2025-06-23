@@ -1,3 +1,7 @@
+title: Recovery Console Navigation Guide
+sidebar_label: Navigation
+description: Guide to navigating the Recovery Console interface including application header, left navigation pane, and available navigation options.
+
 # Navigate the Console
 
 In the Recovery Console, navigation options are displayed in the:

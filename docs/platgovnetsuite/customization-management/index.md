@@ -1,3 +1,9 @@
+---
+title: Customization Management Overview
+sidebar_label: Overview
+description: Automated documentation and management of NetSuite customizations including dependency tracking, impact analysis, and change risk assessment.
+---
+
 # Customizations Overview
 
 Customization records are documentation about each customization. They are automatically built and

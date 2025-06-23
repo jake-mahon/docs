@@ -1,3 +1,9 @@
+---
+title: active directory users ad duplicate users
+sidebar_label: ad duplicate users
+description: Solution guide for active directory users ad duplicate users including implementation steps, configuration, and best practices.
+---
+
 # AD_DuplicateUsers Job
 
 The AD_DuplicateUsers Job helps to identify multiple user accounts which may be owned by a single

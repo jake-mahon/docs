@@ -1,3 +1,9 @@
+---
+title: Password Policy Properties Configuration
+sidebar_label: Policy Properties
+description: Configure password policy properties including rules, assignments, messages, and settings for Password Policy Enforcer policies.
+---
+
 # Policy Properties
 
 Sets the properties for the selected policy.

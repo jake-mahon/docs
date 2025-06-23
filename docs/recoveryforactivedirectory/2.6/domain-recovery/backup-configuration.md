@@ -1,3 +1,7 @@
+title: Domain Backup Configuration Setup
+sidebar_label: Backup Configuration
+description: Initial domain backup configuration interface for first-time setup including Add Domain Configuration wizard and backup settings.
+
 # Domain Backup Configuration Page
 
 When you sign into the Recovery Console for the first time, the Domain Backup Configuration

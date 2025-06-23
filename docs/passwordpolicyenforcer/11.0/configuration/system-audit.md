@@ -1,3 +1,9 @@
+---
+title: System Audit and Support Tools
+sidebar_label: System Audit
+description: System audit tools for Password Policy Enforcer including discovery testing of domain controllers and comprehensive system overview.
+---
+
 # System Audit and Support
 
 Password Policy Enforcer can run a discovery and testing of your domain controllers for an overview

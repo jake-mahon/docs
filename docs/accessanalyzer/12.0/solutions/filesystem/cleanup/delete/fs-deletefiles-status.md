@@ -1,3 +1,9 @@
+---
+title: filesystem cleanup delete fs deletefiles status
+sidebar_label: fs deletefiles status
+description: Solution guide for filesystem cleanup delete fs deletefiles status including implementation steps, configuration, and best practices.
+---
+
 # FS_DeleteFiles_Status Job
 
 The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers

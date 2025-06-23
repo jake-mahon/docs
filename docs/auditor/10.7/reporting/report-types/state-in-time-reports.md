@@ -1,3 +1,9 @@
+---
+title: state in time reports
+sidebar_label: state-in-time-reports
+description: Auditor 10.7 documentation for state in time reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory State-In-Time Reports
 
 Examine the Active Directory state-in-time data on the user account attributes:

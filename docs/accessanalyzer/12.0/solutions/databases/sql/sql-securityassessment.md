@@ -1,3 +1,9 @@
+---
+title: databases sql sql securityassessment
+sidebar_label: sql securityassessment
+description: Solution guide for databases sql sql securityassessment including implementation steps, configuration, and best practices.
+---
+
 # SQL_SecurityAssessment Job
 
 The SQL_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW,

@@ -1,3 +1,9 @@
+---
+title: Browse
+sidebar_label: Browse Taxonomies
+description: To view the documents classified for each term, click on the Browse tab. This will display a list of documents achieving the minimum score set for... Learn m...
+---
+
 # Browse
 
 To view the documents classified for each term, click on the Browse tab. This will display a list of

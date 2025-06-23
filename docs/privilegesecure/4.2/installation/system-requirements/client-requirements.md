@@ -1,3 +1,9 @@
+---
+title: Client
+sidebar_label: client requirements
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Client
 
 Privilege Secure is a web service which can be accessed locally or remotely if the server’s firewall

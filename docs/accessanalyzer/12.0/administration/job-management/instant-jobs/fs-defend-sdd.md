@@ -1,3 +1,9 @@
+---
+title: fs defend sdd Administration
+sidebar_label: fs defend sdd
+description: Administration guide for fs defend sdd including configuration, management, and best practices for Access Analyzer.
+---
+
 # FS_DEFEND_SDD Job
 
 The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive

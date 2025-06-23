@@ -1,3 +1,9 @@
+---
+title: Installing the Flashlight Bundle
+sidebar_label: Installation
+description: Step-by-step guide to install the Flashlight SuiteApp bundle in your NetSuite account using Suite Bundler and completing the setup process.
+---
+
 # Installing the Flashlight Bundle
 
 Flashlight by Strongpoint is a SuiteApp integrated into NetSuite. Use this procedure to install the

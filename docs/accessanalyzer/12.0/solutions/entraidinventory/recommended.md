@@ -1,3 +1,9 @@
+---
+title: entraidinventory recommended
+sidebar_label: recommended
+description: Solution guide for entraidinventory recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the .Entra ID Inventory Job Group
 
 The .Entra ID Inventory Solution is configured to inherit settings from the Global Settings node.

@@ -1,3 +1,9 @@
+---
+title: License Import Process
+sidebar_label: License Import
+description: License import procedure for activating Threat Prevention features and managing software licensing requirements.
+---
+
 # Import the License
 
 Threat Prevention comes with a temporary 6-day license.

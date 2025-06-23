@@ -1,3 +1,9 @@
+---
+title: Scan GPO Guide (Server 2016+ Domain Controllers)
+sidebar_label: server 2016 plus
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Scan GPO Guide (Server 2016+ Domain Controllers)
 
 Scan GPO Guide (Server 2016+ Domain Controllers)

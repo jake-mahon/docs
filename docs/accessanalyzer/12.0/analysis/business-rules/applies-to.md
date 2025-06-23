@@ -1,3 +1,9 @@
+---
+title: applies to
+sidebar_label: applies to
+description: Documentation for applies to functionality in Access Analyzer including configuration and usage information.
+---
+
 # Applies To Tab
 
 Use the Applies To tab to specify the scope for application of the analysis rules. Rules are applied

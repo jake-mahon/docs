@@ -1,3 +1,9 @@
+---
+title: uninstall
+sidebar_label: uninstall
+description: Documentation for uninstall functionality in Access Analyzer including configuration and usage information.
+---
+
 # Uninstall Proxy Service Process
 
 The process to properly uninstall the File System Proxy Service is completed through the

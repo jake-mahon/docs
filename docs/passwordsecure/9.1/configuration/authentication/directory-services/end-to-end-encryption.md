@@ -1,3 +1,9 @@
+---
+title: End-to-End Encryption Configuration
+sidebar_label: End-to-End Encryption
+description: Configure maximum security with end-to-end encryption for Active Directory integration, providing secure gateway protection and access control.
+---
+
 # End-to-end encryption
 
 ## Maximum encryption

@@ -1,3 +1,9 @@
+---
+title: Linux Platform Policy Configuration
+sidebar_label: linux
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Linux Platform Policy Configuration
 
 The Linux menu displays the configuration options for Linux platforms.

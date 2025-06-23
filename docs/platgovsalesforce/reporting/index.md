@@ -1,3 +1,9 @@
+---
+title: Reporting System Overview
+sidebar_label: Overview
+description: Access comprehensive predefined reports for security, customizations, cleanup, change enablement, deployments, and audit compliance tracking.
+---
+
 # Reports
 
 The Netwrix Dashboard **Reports** tab has links to all of the predefined reports and log files.

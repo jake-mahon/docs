@@ -1,3 +1,9 @@
+---
+title: Viewing the Status Report
+sidebar_label: Status Report
+description: Live status updates and results of the Strongpoint automated documentation system including scanner status, documentation stats, and scanner logs.
+---
+
 # Viewing the Status Report
 
 The Configuration and Stats report is a live update on the status and results of the Strongpoint

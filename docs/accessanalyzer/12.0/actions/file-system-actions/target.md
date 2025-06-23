@@ -1,3 +1,9 @@
+---
+title: target
+sidebar_label: target
+description: Documentation for target functionality in Access Analyzer including configuration and usage information.
+---
+
 # File System Action: Target
 
 Use the Target page to point the action module towards a file path on the specified host.

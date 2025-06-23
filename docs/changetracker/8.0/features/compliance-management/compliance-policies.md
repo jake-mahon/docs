@@ -1,3 +1,9 @@
+---
+title: Compliance Policy Assessment Details
+sidebar_label: Policies
+description: Detailed compliance assessment views showing current and previous results with timeline history and group performance comparisons.
+---
+
 # Policy Tab
 
 Detail on current and previous compliance assessments can be seen here with details of failures

@@ -1,3 +1,7 @@
+title: Hub Installation Guide
+sidebar_label: Hub Installation
+description: Install ChangeTracker Hub with system requirements verification and OS updates ensuring proper server configuration for central management.
+
 # Hub
 
 **NOTE:** Ensure the Hub's requirements are met and that the server has had any OS updates applied

@@ -1,3 +1,9 @@
+---
+title: HSM Connection PKCS 11
+sidebar_label: HSM Connection
+description: Configure Hardware Security Module connection via PKCS 11 for enhanced certificate protection by outsourcing certificates from server access.
+---
+
 # HSM connection via PKCS # 11
 
 ## What is the HSM connection?

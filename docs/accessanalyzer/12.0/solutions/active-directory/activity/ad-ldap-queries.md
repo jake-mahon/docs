@@ -1,3 +1,9 @@
+---
+title: active directory activity ad ldap queries
+sidebar_label: ad ldap queries
+description: Solution guide for active directory activity ad ldap queries including implementation steps, configuration, and best practices.
+---
+
 # LDAP > AD_LDAPQueries Job
 
 The **LDAP** > **AD_LDAPQueries** Job analyzes LDAP traffic to determine trends such as most

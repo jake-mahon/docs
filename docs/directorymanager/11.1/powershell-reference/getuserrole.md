@@ -1,3 +1,9 @@
+---
+title: Get userrole Cmdlet
+sidebar_label: getuserrole
+description: PowerShell cmdlet reference for getuserrole with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-UserRole
 
 The commandlet Get-UserRole displays information about the role of the specified user in an identity

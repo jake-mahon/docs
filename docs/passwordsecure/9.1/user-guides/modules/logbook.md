@@ -1,3 +1,9 @@
+---
+title: Logbook Module Management
+sidebar_label: Logbook
+description: Track Discovery Service Task progress through logbook footer and module interface with detailed information and user rights configuration.
+---
+
 # Logbook
 
 The logbook in the footer of the **Discovery Service Task** is extremely helpful for checking the

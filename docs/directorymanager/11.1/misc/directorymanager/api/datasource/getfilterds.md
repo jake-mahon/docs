@@ -1,3 +1,9 @@
+---
+title: datasource getfilterds API
+sidebar_label: getfilterds
+description: API reference for getfilterds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Filtered Data Sources by isSource
 
 This API is for getting information of data sources filtered on the basis of your role policy. if

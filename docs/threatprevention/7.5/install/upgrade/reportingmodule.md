@@ -1,3 +1,9 @@
+---
+title: Upgrade Threat Manager Reporting Module
+sidebar_label: Reporting Module Upgrade
+description: Complete upgrade process for Netwrix Threat Manager Reporting Module from v2.8 to 3.0, including PostgreSQL database upgrade and application update steps.
+---
+
 # Upgrade the Reporting Module
 
 This topic provides the steps needed to upgrade the Netwrix Threat Manager Reporting Module from

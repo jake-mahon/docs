@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes logons ex mailboxlogons
+sidebar_label: ex mailboxlogons
+description: Solution guide for exchange mailboxes logons ex mailboxlogons including implementation steps, configuration, and best practices.
+---
+
 # EX_MailboxLogons Job
 
 The EX_MailboxLogons Job provides details around Mailbox logon activity occurring within the

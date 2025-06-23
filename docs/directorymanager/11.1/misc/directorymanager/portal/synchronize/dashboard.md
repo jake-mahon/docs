@@ -1,3 +1,9 @@
+---
+title: Portal synchronize dashboard
+sidebar_label: dashboard
+description: Directory Manager portal documentation for synchronize functionality including user interface, navigation, and operational procedures.
+---
+
 # Dashboard
 
 After signing into the Directory Manager portal, from the left pane select **Synchronize** to land

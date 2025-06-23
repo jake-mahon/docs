@@ -1,3 +1,9 @@
+---
+title: filesystem adhocaudits fs shareaudit
+sidebar_label: fs shareaudit
+description: Solution guide for filesystem adhocaudits fs shareaudit including implementation steps, configuration, and best practices.
+---
+
 # FS_ShareAudit Job
 
 The FS_ShareAudit Job is designed to report on shares from targeted file servers based on user

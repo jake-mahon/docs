@@ -1,3 +1,9 @@
+---
+title: Getting Started: local mode ports
+sidebar_label: local mode ports
+description: Getting started guide for local mode ports in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Local Mode Port Requirements
 
 The following are the firewall settings are required when executing the Access Auditing (FSAA)

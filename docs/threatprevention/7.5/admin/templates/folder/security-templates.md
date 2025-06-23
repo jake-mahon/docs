@@ -1,3 +1,10 @@
+---
+title: Security Templates
+sidebar_label: Security Templates
+description: This section contains templates for detecting and preventing various security threats. The Ransomware folder contains the following templates:
+
+---
+
 # Security Templates
 
 This section contains templates for detecting and preventing various security threats.

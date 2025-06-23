@@ -1,3 +1,9 @@
+---
+title: Troubleshooting and Maintenance Guide
+sidebar_label: Troubleshooting
+description: Comprehensive troubleshooting and maintenance procedures for Activity Monitor including credential updates, trace logs, performance monitoring, and backup.
+---
+
 # Troubleshooting and Maintenance
 
 This section provides an overview of troubleshooting and maintenance steps and processes for

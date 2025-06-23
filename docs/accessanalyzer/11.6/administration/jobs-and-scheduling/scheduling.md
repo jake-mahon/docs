@@ -1,3 +1,9 @@
+---
+title: scheduling Administration
+sidebar_label: scheduling
+description: Administration guide for scheduling including configuration, management, and best practices for Access Analyzer.
+---
+
 # Schedules
 
 The Enterprise Auditor Console can only run one task at a time. However, with the Schedule Service

@@ -1,3 +1,9 @@
+---
+title: exchange publicfolders pf overview
+sidebar_label: pf overview
+description: Solution guide for exchange publicfolders pf overview including implementation steps, configuration, and best practices.
+---
+
 # PF_Overview Job
 
 The PF_Overview job is comprised of analyses and reports that provide a top level summary of each

@@ -1,3 +1,9 @@
+---
+title: databases db2 collection db2 sensitivedatascan
+sidebar_label: db2 sensitivedatascan
+description: Solution guide for databases db2 collection db2 sensitivedatascan including implementation steps, configuration, and best practices.
+---
+
 # 1-Db2_SensitiveDataScan
 
 This job discovers sensitive data in the Db2 databases across all the targeted Db2 database servers

@@ -1,3 +1,9 @@
+---
+title: Share-Based Storage Extension DLLs
+sidebar_label: Share-Based Storage
+description: Store Endpoint Policy Manager extension DLLs on network shares or DFS shares as an alternative to central storage on domain controllers.
+---
+
 # Share-Based Storage for Endpoint Policy Manager Extension DLLs
 
 **NOTE:** For an overview of Share-Based Storage for Endpoint Policy Manager extension DLLs, see

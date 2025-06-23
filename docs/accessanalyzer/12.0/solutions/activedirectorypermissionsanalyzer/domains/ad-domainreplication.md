@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer domains ad domainreplication
+sidebar_label: ad domainreplication
+description: Solution guide for activedirectorypermissionsanalyzer domains ad domainreplication including implementation steps, configuration, and best practices.
+---
+
 # AD_DomainReplication Job
 
 The AD_DomainReplication Job highlights all Active Directory permissions applied to domain objects

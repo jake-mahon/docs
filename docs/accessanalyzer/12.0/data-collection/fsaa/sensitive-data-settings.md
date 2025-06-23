@@ -1,3 +1,9 @@
+---
+title: sensitive data settings
+sidebar_label: sensitive data settings
+description: Documentation for sensitive data settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Sensitive Data Settings
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a

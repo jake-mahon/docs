@@ -1,3 +1,9 @@
+---
+title: databases postgresql recommended
+sidebar_label: recommended
+description: Solution guide for databases postgresql recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration for the PostgreSQL Solution
 
 The jobs in the PostgreSQL Solution has been configured to inherit down from the **PostgreSQL** >

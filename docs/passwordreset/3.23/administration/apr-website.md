@@ -1,3 +1,9 @@
+---
+title: Password Reset Web Interface
+sidebar_label: Web Interface
+description: Web-based password management interface that allows users to change domain passwords from browsers with optional Password Policy Enforcer integration.
+---
+
 # Web
 
 PPE/Web allows users to change their Windows domain password from a web browser. It can optionally

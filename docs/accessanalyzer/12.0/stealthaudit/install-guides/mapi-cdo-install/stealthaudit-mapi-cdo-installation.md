@@ -1,3 +1,9 @@
+---
+title: stealthaudit mapi cdo installation
+sidebar_label: stealthaudit mapi cdo installation
+description: Documentation for stealthaudit mapi cdo installation functionality in Access Analyzer including configuration and usage information.
+---
+
 # StealthAUDIT MAPI CDO Installation
 
 Both the Access Analyzer MAPI CDO and the Microsoft® Exchange MAPI CDO must to be installed in

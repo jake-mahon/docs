@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: Options
 
 Use the Options page to edit the thread settings.

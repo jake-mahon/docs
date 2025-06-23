@@ -1,3 +1,9 @@
+---
+title: Auditor Quick Start Guide
+sidebar_label: Quick Start
+description: Step-by-step guide for getting started with Netwrix Auditor covering installation, configuration, data collection, and operational procedures.
+---
+
 # Getting Started
 
 In this section, we will cover:

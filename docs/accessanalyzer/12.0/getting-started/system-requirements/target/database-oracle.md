@@ -1,3 +1,9 @@
+---
+title: Getting Started: database oracle
+sidebar_label: database oracle
+description: Getting started guide for database oracle in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Target Oracle Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor Oracle database

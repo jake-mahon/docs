@@ -1,3 +1,9 @@
+---
+title: Browser Router Item Level Targeting
+sidebar_label: Item Targeting
+description: Configure item-level targeting for Browser Router policies to apply specific routing rules based on user groups, computer attributes, and environmental conditions.
+---
+
 # Using Item-Level Targeting with Collections and Policies
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Endpoint

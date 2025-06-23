@@ -1,3 +1,9 @@
+---
+title: Access Information Center Upgrade Guide
+sidebar_label: Upgrade Guide
+description: Step-by-step procedure for upgrading Access Information Center to maintain compatibility with Netwrix Access Analyzer core application versions.
+---
+
 # Upgrade Procedure
 
 It is necessary for Netwrix Access Analyzer (formerly Enterprise Auditor) and the Access Information

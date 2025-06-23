@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # Change Detection: Options
 
 Use the Options page to specify whether to save history, including a running tally of all changes

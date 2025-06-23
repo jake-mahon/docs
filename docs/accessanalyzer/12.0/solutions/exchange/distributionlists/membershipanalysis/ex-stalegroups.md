@@ -1,3 +1,9 @@
+---
+title: exchange distributionlists membershipanalysis ex stalegroups
+sidebar_label: ex stalegroups
+description: Solution guide for exchange distributionlists membershipanalysis ex stalegroups including implementation steps, configuration, and best practices.
+---
+
 # EX_StaleGroups Job
 
 The EX_StaleGroups job identifies potentially stale distribution groups based on the last domain

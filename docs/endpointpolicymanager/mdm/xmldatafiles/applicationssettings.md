@@ -1,3 +1,9 @@
+---
+title: Application Settings Manager XML Data Files
+sidebar_label: Application Settings
+description: Export Endpoint Policy Manager Application Settings Manager directives as XML files for MDM deployment. Use existing GPO settings or create new ones.
+---
+
 # XML Data Files from Endpoint Policy Manager Applications Settings Manager
 
 If you have a Group Policy Object (GPO) with an existing Endpoint Policy Manager Application

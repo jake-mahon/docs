@@ -1,3 +1,9 @@
+---
+title: Plugins for Additional Actions
+sidebar_label: Workflows Overview
+description: In addition to the common workflow actions provided out-of-the-box, you can set up additional actions using the plugins. Either use sample plugins from the...
+---
+
 # Plugins for Additional Actions
 
 In addition to the common workflow actions provided out-of-the-box, you can set up additional

@@ -1,3 +1,9 @@
+---
+title: mobile services
+sidebar_label: mobile-services
+description: Directory Manager 11.0 documentation for mobile services with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create a Mobile Service
 
 You can create a Mobile service in native IIS, remote IIS, and Docker.

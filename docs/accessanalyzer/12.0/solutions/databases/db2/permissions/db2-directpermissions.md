@@ -1,3 +1,9 @@
+---
+title: databases db2 permissions db2 directpermissions
+sidebar_label: db2 directpermissions
+description: Solution guide for databases db2 permissions db2 directpermissions including implementation steps, configuration, and best practices.
+---
+
 # Db2_DirectPermissions Job
 
 This job provides insight into direct user and role permissions to all the database objects in the

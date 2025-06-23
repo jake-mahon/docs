@@ -1,3 +1,9 @@
+---
+title: Auditor Add-Ons Overview
+sidebar_label: Add-Ons
+description: Integrate Netwrix Auditor with third-party applications using free add-ons from the Netwrix Add-on Store for extended functionality.
+---
+
 # Add-Ons
 
 The [Netwrix Auditor Add-on Store](https://www.netwrix.com/netwrix_addons.html) contains free

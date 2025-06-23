@@ -1,3 +1,9 @@
+---
+title: sharepoint m365 sp staleteamsites
+sidebar_label: sp staleteamsites
+description: Solution guide for sharepoint m365 sp staleteamsites including implementation steps, configuration, and best practices.
+---
+
 # SP_StaleTeamSites Job
 
 The SP_StaleTeamSites Job identifies Teams that have not had activity for a number of days that can

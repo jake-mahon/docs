@@ -1,3 +1,9 @@
+---
+title: Policies Interface Overview
+sidebar_label: Policies
+description: Central interface for managing all Threat Prevention policies with sorting, organization, and configuration options for monitoring and blocking rules.
+---
+
 # Policies Interface
 
 The Policies interface lists all policies that you have defined in Threat Prevention.
@@ -14,7 +20,7 @@ The columns are (left to right):
 
 - Policy State – Indicates whether the policy is enabled (green) or disabled (gray)
 
-    **NOTE:** This only displays the state of the policy. It does not change its state.
+  **NOTE:** This only displays the state of the policy. It does not change its state.
 
 - Customized Schedule Icon – A clock symbol displays when the policy has been customized
 - Name – Name of the policy
@@ -53,12 +59,12 @@ to open this menu.
 
 It contains the following options:
 
-| Right-Click Command | Description                                                                                                                                                                                                    |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enable              | Enables disabled policies. Nothing happens if selected for an enabled policy.                                                                                                                                  |
-| Disable             | Disables enabled policies. Nothing happens if selected for a disabled policy.                                                                                                                                  |
+| Right-Click Command | Description                                                                                                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable              | Enables disabled policies. Nothing happens if selected for an enabled policy.                                                                                                       |
+| Disable             | Disables enabled policies. Nothing happens if selected for a disabled policy.                                                                                                       |
 | Export              | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.4/admin/policies/exportpoliciestemplates.md) |
-| Remove              | Deletes the selected policy                                                                                                                                                                                    |
+| Remove              | Deletes the selected policy                                                                                                                                                         |
 
 **NOTE:** If the selected policy is protected and the current user does not have the Manage Policies
 permission for it, these options are grayed-out. See the

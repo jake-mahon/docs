@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS: Category
 
 Use the Category page to select the type of scan for the targeted AWS instance or maintenance task

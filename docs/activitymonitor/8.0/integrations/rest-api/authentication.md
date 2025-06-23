@@ -1,3 +1,9 @@
+---
+title: REST API Security and Authentication
+sidebar_label: Authentication
+description: Security configuration and authentication for Activity Monitor REST API including TLS settings, access control, and OAuth 2.0 implementation.
+---
+
 # Security and Access Control
 
 ## Security

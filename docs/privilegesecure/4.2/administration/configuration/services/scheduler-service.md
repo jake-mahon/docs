@@ -1,3 +1,9 @@
+---
+title: Scheduler Service
+sidebar_label: scheduler service
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Scheduler Service
 
 On the Scheduler Service page, view information for scheduled services.

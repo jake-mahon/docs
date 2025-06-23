@@ -1,3 +1,9 @@
+---
+title: obtain token Administration
+sidebar_label: obtain token
+description: Administration guide for obtain token including configuration, management, and best practices for Access Analyzer.
+---
+
 # Use the Client Credentials Grant to Obtain an Access Token
 
 An access token is a credential that can be used by an application to access an API. To obtain an

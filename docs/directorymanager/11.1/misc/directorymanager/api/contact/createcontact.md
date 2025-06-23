@@ -1,3 +1,9 @@
+---
+title: contact createcontact API
+sidebar_label: createcontact
+description: API reference for createcontact operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a Contact
 
 Using this API you can create a contact in the specified identity store.

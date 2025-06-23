@@ -1,6 +1,8 @@
-# Moving to SQL Server
-
-Moving to SQL Server
+---
+title: SQL Server Migration Guide
+sidebar_label: SQL Server Migration
+description: Advanced guide for migrating Password Reset from SQL Server Compact to full SQL Server for improved performance and enterprise features.
+---
 
 # Moving to SQL Server
 

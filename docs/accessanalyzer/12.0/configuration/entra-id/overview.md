@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Microsoft Entra ID Tenant Target Requirements
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) can execute scans on Microsoft Entra ID,

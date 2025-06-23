@@ -1,3 +1,9 @@
+---
+title: Application Settings Manager Modes
+sidebar_label: Modes Overview
+description: Configure application enforcement modes per-attribute including enforcement, reversion, ACL Lockdown, and AppLock modes for flexible desktop management.
+---
+
 # Modes
 
 If you used the Quick Start guides, you now have a feel for some of the special modes in Endpoint

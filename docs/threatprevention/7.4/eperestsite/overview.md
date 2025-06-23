@@ -1,3 +1,9 @@
+---
+title: EPE Rest Site
+sidebar_label: EPE Rest Site
+description: The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat Prevention Enterprise Password Enforcer (EPE) solution. I...
+---
+
 # EPE Rest Site
 
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat

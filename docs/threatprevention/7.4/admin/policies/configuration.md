@@ -1,3 +1,9 @@
+---
+title: Policy Configuration
+sidebar_label: Policy Configuration
+description: A Threat Prevention policy has many elements that define the objects and events it monitors or blocks, where it looks in networks, and when it is active. The...
+---
+
 # Policy Configuration
 
 A Threat Prevention policy has many elements that define the objects and events it monitors or

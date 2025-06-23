@@ -1,3 +1,9 @@
+---
+title: Admin Approval Getting Started Guide
+sidebar_label: Getting Started
+description: Configure admin approval workflows for privilege elevation requests using secret keys and the Admin Approval Tool for secure privilege management.
+---
+
 # Getting Started with Admin Approval
 
 If there’s no Endpoint Policy ManagerLeast Privilege Manager rule to automatically elevate an

@@ -1,3 +1,9 @@
+---
+title: Delivering Application Settings Values
+sidebar_label: Settings Delivery
+description: Understand how Endpoint Policy Manager delivers application settings and values with visual underline indicators for configured elements.
+---
+
 # Delivering Settings and Values
 
 In the previous section, we placed a check inside the "at least one symbol character

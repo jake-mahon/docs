@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # CLU: Results
 
 The Results page is where the properties to be returned as columns in the results table are

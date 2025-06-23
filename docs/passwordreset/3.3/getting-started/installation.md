@@ -1,6 +1,8 @@
-# Installation
-
-Installation
+---
+title: Password Reset Installation Guide
+sidebar_label: Installation
+description: Comprehensive installation guide for Password Reset 3.30 including system requirements, components, and server configuration options.
+---
 
 # Installation
 

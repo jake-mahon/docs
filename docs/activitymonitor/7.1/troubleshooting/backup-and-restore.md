@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Backup and Restoration
+sidebar_label: Backup Restore
+description: Backup and restoration procedures for Activity Monitor including console configuration settings and deployed agent management best practices.
+---
+
 # Backup & Restoration
 
 The Netwrix Activity Monitor is comprised of the following components:

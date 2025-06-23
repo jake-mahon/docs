@@ -1,3 +1,9 @@
+---
+title: hitachi
+sidebar_label: hitachi
+description: Documentation for hitachi functionality in Access Analyzer including configuration and usage information.
+---
+
 # Hitachi Activity Auditing Configuration
 
 The Hitachi NAS (HNAS) server can host multiple Enterprise Virtual Servers (EVS). Each EVS has

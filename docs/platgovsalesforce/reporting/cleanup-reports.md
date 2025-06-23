@@ -1,3 +1,9 @@
+---
+title: Cleanup Reports and Optimization Analysis
+sidebar_label: Cleanup Reports
+description: Identify unused customizations, fields, code, and optimization opportunities with predefined cleanup reports for Salesforce instance maintenance.
+---
+
 # Running Clean Up Reports
 
 Platform Governance for Salesforce provides predefined reports to help you clean up your Salesforce

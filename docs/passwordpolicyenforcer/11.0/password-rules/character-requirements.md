@@ -1,3 +1,9 @@
+---
+title: Granular Character Requirements Rules
+sidebar_label: Character Requirements
+description: Configure granular character rules in Password Policy Enforcer for specific character requirements including uppercase, lowercase, and symbols.
+---
+
 # Character (Granular) Rules
 
 Password Policy Enforcer has seven Character rules that reject passwords if they contain, or do not

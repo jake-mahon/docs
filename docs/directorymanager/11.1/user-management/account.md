@@ -1,3 +1,9 @@
+---
+title: account
+sidebar_label: account
+description: Directory Manager 11.1 documentation for account with configuration details, usage instructions, and implementation guidance.
+---
+
 # Account page
 
 (of Create User and Create Mailbox wizards)

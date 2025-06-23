@@ -1,3 +1,9 @@
+---
+title: identity
+sidebar_label: identity
+description: Directory Manager 11.1 documentation for identity with configuration details, usage instructions, and implementation guidance.
+---
+
 # User properties - Identity tab
 
 Use this tab to view or update the general information for a user and mailbox in a Microsoft Entra

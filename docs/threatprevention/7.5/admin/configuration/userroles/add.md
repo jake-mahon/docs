@@ -1,3 +1,9 @@
+---
+title: Add User Roles
+sidebar_label: Add
+description: User role creation procedure for defining new administrative roles with specific permissions and access levels.
+---
+
 # Add Users
 
 Follow the steps to add a user and assign access rights.

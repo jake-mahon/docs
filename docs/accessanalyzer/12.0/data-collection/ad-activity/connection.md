@@ -1,3 +1,9 @@
+---
+title: connection
+sidebar_label: connection
+description: Documentation for connection functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADActivity: SAM Connection
 
 The SAM connection page is where the port number is configured to send Active Directory data from

@@ -1,3 +1,9 @@
+---
+title: Classification Rules (Clues)
+sidebar_label: Clues
+description: Each taxonomy contains a set of terms. Terms are defined by set of configuration rules (also called clues). Clues are used to describe the language found in...
+---
+
 # Classification Rules (Clues)
 
 Each taxonomy contains a set of terms. **Terms** are defined by set of configuration **rules** (also

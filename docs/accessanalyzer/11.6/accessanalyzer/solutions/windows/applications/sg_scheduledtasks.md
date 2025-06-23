@@ -1,3 +1,9 @@
+---
+title: windows applications sg_scheduledtasks
+sidebar_label: sg_scheduledtasks
+description: Solution guide for windows applications sg_scheduledtasks including implementation steps, configuration, and best practices.
+---
+
 # SG_ScheduledTasks Job
 
 The SG_ScheduledTasks job lists scheduled task details on all targeted hosts.

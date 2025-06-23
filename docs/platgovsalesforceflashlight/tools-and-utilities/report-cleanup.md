@@ -1,3 +1,9 @@
+---
+title: Automated Report Clean Up
+sidebar_label: Report Cleanup
+description: Rules-based tool to identify and archive Salesforce reports automatically or on-demand to improve organization efficiency and performance.
+---
+
 # Automated Report Clean Up
 
 Reports are powerful tools used throughout Salesforce and interconnected to other customizations. As

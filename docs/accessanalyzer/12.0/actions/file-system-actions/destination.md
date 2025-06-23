@@ -1,3 +1,9 @@
+---
+title: destination
+sidebar_label: destination
+description: Documentation for destination functionality in Access Analyzer including configuration and usage information.
+---
+
 # File System Action: Destination
 
 The Destination page is available only if the following operations are selected:

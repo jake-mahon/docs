@@ -1,3 +1,9 @@
+---
+title: exchange databases ex dbtrending
+sidebar_label: ex dbtrending
+description: Solution guide for exchange databases ex dbtrending including implementation steps, configuration, and best practices.
+---
+
 # EX_DBTrending
 
 The EX_DBTrending Job creates trend projections for mailbox and public folder databases for the

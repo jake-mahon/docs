@@ -1,3 +1,9 @@
+---
+title: Authentication Tab
+sidebar_label: authentication settings
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Authentication Tab
 
 The Authentication tab for applications shows authentication information about the application.

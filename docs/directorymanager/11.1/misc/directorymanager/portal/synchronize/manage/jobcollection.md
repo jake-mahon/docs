@@ -1,3 +1,9 @@
+---
+title: Portal synchronize manage jobcollection
+sidebar_label: jobcollection
+description: Directory Manager portal documentation for synchronize manage functionality including user interface, navigation, and operational procedures.
+---
+
 # Manage a Job Collection
 
 You can do the following in a job collection:

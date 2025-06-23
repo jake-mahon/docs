@@ -1,3 +1,9 @@
+---
+title: monitored object types
+sidebar_label: monitored-object-types
+description: Auditor 10.7 documentation for monitored object types with configuration details, usage instructions, and implementation guidance.
+---
+
 # Monitored Object Types, Actions, and Attributes
 
 Netwrix Auditor monitored object types, actions, attributes and components for each data source are

@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Documentation for index functionality in Access Analyzer including configuration and usage information.
+---
+
 # Services Data Collector
 
 The Services Data Collector enumerates status and settings from remote services. The Services Data

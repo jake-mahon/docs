@@ -1,3 +1,9 @@
+---
+title: API Key Revocation
+sidebar_label: api key revocation
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # API Key Revocation
 
 API Key Revocation

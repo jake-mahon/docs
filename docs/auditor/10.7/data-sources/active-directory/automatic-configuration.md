@@ -1,3 +1,9 @@
+---
+title: automatic configuration
+sidebar_label: automatic-configuration
+description: Auditor 10.7 documentation for automatic configuration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory: Automatic Configuration
 
 This is a recommended method of applying Active Directory audit settings required by Auditor to

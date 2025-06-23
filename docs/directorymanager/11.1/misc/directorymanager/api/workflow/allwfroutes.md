@@ -1,3 +1,9 @@
+---
+title: workflow allwfroutes API
+sidebar_label: allwfroutes
+description: API reference for allwfroutes operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # All Workflow Routes
 
 Use this API to get information about all workflow routes, system defined and user defined, in a

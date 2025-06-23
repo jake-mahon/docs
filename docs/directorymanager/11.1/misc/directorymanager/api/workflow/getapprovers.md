@@ -1,3 +1,9 @@
+---
+title: workflow getapprovers API
+sidebar_label: getapprovers
+description: API reference for getapprovers operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Approvers
 
 This API provides information about the approver(s) of a workflow request.

@@ -1,3 +1,9 @@
+---
+title: aws groups aws groupmembers
+sidebar_label: aws groupmembers
+description: Solution guide for aws groups aws groupmembers including implementation steps, configuration, and best practices.
+---
+
 # AWS_GroupMembers Job
 
 The AWS_GroupMembers job group provides details on AWS IAM group membership, orphaned groups (those

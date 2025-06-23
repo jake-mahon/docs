@@ -1,3 +1,9 @@
+---
+title: Add Activities and Groups Window
+sidebar_label: add users groups
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Activities and Groups Window
 
 The Add Activities and Groups window provides a list of Activities that have been created.

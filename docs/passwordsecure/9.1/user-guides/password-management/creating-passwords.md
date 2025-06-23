@@ -1,3 +1,9 @@
+---
+title: Creating New Password Records
+sidebar_label: Creating Passwords
+description: Create new password records in MSSQL database through Passwords module using ribbon icons, keyboard shortcuts, or context menu interfaces.
+---
+
 # Creating new passwords
 
 ## What does creating new passwords/records mean?

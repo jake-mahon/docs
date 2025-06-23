@@ -1,3 +1,9 @@
+---
+title: Credentials Management Page Overview
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Credentials Page
 
 The Credentials page shows all accounts discovered within your environment. It is specifically

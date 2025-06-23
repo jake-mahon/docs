@@ -1,3 +1,9 @@
+---
+title: Classifier Configuration Settings for Data Classification
+sidebar_label: Classifier
+description: Configure classification engine settings including general options, monitored content, and engine options for Netwrix Data Classification classifier.
+---
+
 # Classifier
 
 The **Classifier** configuration tab contains the classification engine settings. By default, only

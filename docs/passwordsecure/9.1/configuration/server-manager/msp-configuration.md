@@ -1,3 +1,9 @@
+---
+title: MSP Server Manager Changes
+sidebar_label: MSP Configuration
+description: Navigate changes in Server Manager modules including Databases and Backups for MSP configuration compared to previous on-premises versions.
+---
+
 # Changes in the Server Manager
 
 #### Navigation

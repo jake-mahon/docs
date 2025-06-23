@@ -1,3 +1,9 @@
+---
+title: implementation
+sidebar_label: implementation
+description: Directory Manager 11.1 documentation for implementation with configuration details, usage instructions, and implementation guidance.
+---
+
 # Implement Workflows
 
 To create a workflow, you have to specify the following:

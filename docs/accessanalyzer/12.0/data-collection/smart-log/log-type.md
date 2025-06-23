@@ -1,3 +1,9 @@
+---
+title: log type
+sidebar_label: log type
+description: Documentation for log type functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Log Type
 
 The Log Type page is used to select the log type to be processed.

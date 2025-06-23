@@ -1,3 +1,9 @@
+---
+title: Remove mailbox Cmdlet
+sidebar_label: removemailbox
+description: PowerShell cmdlet reference for removemailbox with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Remove-Mailbox
 
 Use the Remove-Mailbox commandlet to delete mailbox from the connected identifty store.

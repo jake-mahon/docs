@@ -1,3 +1,9 @@
+---
+title: Log Changes 2.20+
+sidebar_label: log changes
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Log Changes 2.20+
 
 Log Changes 2.20+

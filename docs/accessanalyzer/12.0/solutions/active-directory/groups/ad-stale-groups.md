@@ -1,3 +1,9 @@
+---
+title: active directory groups ad stale groups
+sidebar_label: ad stale groups
+description: Solution guide for active directory groups ad stale groups including implementation steps, configuration, and best practices.
+---
+
 # AD_StaleGroups Job
 
 The AD_StaleGroups Job identifies groups that contain potentially stale users. Users are considered

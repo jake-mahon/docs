@@ -1,3 +1,9 @@
+---
+title: Reporting Overview
+sidebar_label: Overview
+description: Report on collected data using tables, views, graphs, and emails with various configuration options and interactive viewing capabilities.
+---
+
 # Reporting
 
 Access Analyzer provides the ability to report on collected data in multiple ways such as tables,

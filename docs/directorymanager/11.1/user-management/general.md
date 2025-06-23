@@ -1,3 +1,9 @@
+---
+title: general
+sidebar_label: general
+description: Directory Manager 11.1 documentation for general with configuration details, usage instructions, and implementation guidance.
+---
+
 # Object properties - General tab
 
 Use this tab to view or update the general information for a user, mailbox, or contact.

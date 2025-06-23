@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Documentation for index functionality in Access Analyzer including configuration and usage information.
+---
+
 # Registry Data Collector
 
 The Registry Data Collector queries the registry and returns keys, key values, and permissions on

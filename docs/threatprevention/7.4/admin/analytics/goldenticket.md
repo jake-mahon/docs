@@ -1,3 +1,9 @@
+---
+title: Golden Ticket Analytics
+sidebar_label: Golden Ticket
+description: Detection of Kerberos Golden Ticket attacks by monitoring for tickets exceeding maximum lifetime thresholds and renewal limits.
+---
+
 # Golden Ticket Analytic Type
 
 The **Golden Tickets** analytic type identifies Kerberos tickets that exceed the specified maximum
@@ -64,26 +70,26 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   [Authentication Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/eventtype/authenticationmonitoring.md)
   is hard coded, and the Success filter cannot be modified.
 
-    **_RECOMMENDED:_** Do not configure any filters for this analytic type.
+  **_RECOMMENDED:_** Do not configure any filters for this analytic type.
 
-    - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
-      enabling the analytic on a domain controller, also scope the login type.
+  - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
+    enabling the analytic on a domain controller, also scope the login type.
 
-        **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
-        within the organization be configured to ‘Enforce password history’ with a setting of a
-        minimum of ‘3 passwords remembered’ or it will not have an effect.
+    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    within the organization be configured to ‘Enforce password history’ with a setting of a
+    minimum of ‘3 passwords remembered’ or it will not have an effect.
 
-    - _Optional:_Scope the domains to be included in or excluded from monitoring on the
-      Domains/Servers filter.
-    - _Optional:_Scope the accounts to include in or exclude from being monitored on the AD
-      Perpetrator filter.
-    - _Optional:_Scope the servers to be included in or excluded from monitoring on the IP
-      Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
-      (to) filter.
+  - \_Optional:\_Scope the domains to be included in or excluded from monitoring on the
+    Domains/Servers filter.
+  - \_Optional:\_Scope the accounts to include in or exclude from being monitored on the AD
+    Perpetrator filter.
+  - \_Optional:\_Scope the servers to be included in or excluded from monitoring on the IP
+    Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
+    (to) filter.
 
-        **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
-        may return only an IP address. It is recommended to take this into account when entering
-        filter values.
+    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    may return only an IP address. It is recommended to take this into account when entering
+    filter values.
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.4/admin/policies/actions/overview.md)

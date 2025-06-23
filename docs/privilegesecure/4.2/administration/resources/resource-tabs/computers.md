@@ -1,3 +1,9 @@
+---
+title: Access Policies Tab for Host
+sidebar_label: computers
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Access Policies Tab for Host
 
 The Access Policies tab shows information about the policies associated with the selected resource.

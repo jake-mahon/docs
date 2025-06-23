@@ -1,3 +1,9 @@
+---
+title: Email Configuration and Mailer
+sidebar_label: Email Configuration
+description: Configuration guide for Password Policy Enforcer Mailer to send automated email reminders to users before password expiration with setup instructions.
+---
+
 # Mailer
 
 Netwrix Password Policy Enforcer can send email reminders to domain users before their passwords

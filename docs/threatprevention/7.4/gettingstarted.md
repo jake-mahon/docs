@@ -1,3 +1,9 @@
+---
+title: Getting Started with Threat Prevention
+sidebar_label: Getting Started
+description: Initial configuration steps for Threat Prevention including users, alerts, collections, policies, and database maintenance setup for administrators.
+---
+
 # Getting Started
 
 After launching the Threat Prevention Administration Console, the administrator must configure some
@@ -117,8 +123,8 @@ Configure the following:
   [Credential Profile Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/credentialprofile.md)
   topic for additional information.
 
-    - Configure one Credential Profile for Active Directory Sync
-    - Configure one Credential Profile for connection to the Threat Prevention database
+  - Configure one Credential Profile for Active Directory Sync
+  - Configure one Credential Profile for connection to the Threat Prevention database
 
 - Active Directory Sync – Configure the application to sync with Active Directory. See the
   [Active Directory Sync Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/activedirectorysync.md)

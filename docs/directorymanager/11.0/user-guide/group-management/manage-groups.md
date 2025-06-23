@@ -1,6 +1,7 @@
 ---
 title: Manage Groups
 sidebar_label: Manage Groups
+description: Directory Manager group management interface for viewing, organizing, and administering all groups, dynasties, and smart groups in the identity store.
 ---
 
 # Manage Groups

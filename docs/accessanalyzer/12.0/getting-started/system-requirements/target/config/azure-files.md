@@ -1,3 +1,9 @@
+---
+title: Getting Started: azure files
+sidebar_label: azure files
+description: Getting started guide for azure files in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Azure Files Target Requirements
 
 Azure Files is a fully managed, cloud-based file sharing service from Microsoft that allows users to

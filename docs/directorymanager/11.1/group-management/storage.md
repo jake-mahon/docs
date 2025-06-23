@@ -1,3 +1,9 @@
+---
+title: Query Designer Storage Tab
+sidebar_label: Storage
+description: Configure storage tab settings for messaging system recipients queries to filter mailboxes by server or mailbox store in Directory Manager.
+---
+
 # Query Designer - Storage tab
 
 Settings on the Storage tab are available when the ‘Messaging System Recipients’ option is selected

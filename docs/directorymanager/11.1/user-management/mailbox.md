@@ -1,3 +1,9 @@
+---
+title: mailbox
+sidebar_label: mailbox
+description: Directory Manager 11.1 documentation for mailbox with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create an AD Mailbox
 
 You can create a mailbox using Directory Manager portal when a messaging provider has been

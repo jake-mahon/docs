@@ -1,3 +1,9 @@
+---
+title: Identity Stores Configuration Guide
+sidebar_label: Identity Stores
+description: Configure Active Directory and Microsoft Entra ID identity stores including group lifecycle policies, naming conventions, and dynamic group management.
+---
+
 # Microsoft Entra ID vs. Active Directory Identity Stores
 
 This topic discusses the differences between an Active Directory and Microsoft Entra ID identity

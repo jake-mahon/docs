@@ -1,3 +1,9 @@
+---
+title: CPQ Support and Data Tracking
+sidebar_label: CPQ Support
+description: Monitor Salesforce CPQ configuration data changes for SOX compliance with automated tracking of product, pricing, and discount rule modifications.
+---
+
 # Data Tracking
 
 Salesforce CPQ (Configure, Price, Quote Software) sales tool provides accurate pricing with any

@@ -1,3 +1,9 @@
+---
+title: Report Editing Guide
+sidebar_label: Edit
+description: Guide for editing existing reports including modification options, versioning, and update procedures.
+---
+
 # Editing Existing Reports
 
 It is not recommended to edit existing reports unless there are changes to a job’s settings at the

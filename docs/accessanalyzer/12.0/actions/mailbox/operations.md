@@ -1,3 +1,9 @@
+---
+title: operations
+sidebar_label: operations
+description: Documentation for operations functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Operations
 
 Use the Operations page to specify the operation to be performed as part of the action.

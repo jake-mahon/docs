@@ -1,3 +1,9 @@
+---
+title: Data Grid Features for Reviews
+sidebar_label: Entitlement Reviews
+description: Utilize data grid features in Netwrix Auditor for comprehensive entitlement reviews and access governance workflows.
+---
+
 # Data Grid Features
 
 The data grids within various tables have several features to improve your experience.

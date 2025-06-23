@@ -1,3 +1,9 @@
+---
+title: Reports and Analysis
+sidebar_label: Reports
+description: Overview of system logs, device control logs, shadows, and content aware protection logs for comprehensive monitoring and analysis.
+---
+
 # Reports and Analysis
 
 This section offers an overview of the System Logs, Device Control Logs and Shadows, Content Aware

@@ -1,3 +1,9 @@
+---
+title: Ins and Outs of Remote Work Delivery Manager
+sidebar_label: Overview
+description: Learn about Remote Work Delivery Manager capabilities for delivering files from SMB shares or HTTP sources. Compare with Group Policy Preferences limitations.
+---
+
 # Ins and Outs of Remote Work Delivery Manager
 
 Endpoint Policy Manager Remote Work Delivery Manager (PPRWDM) solves several huge Windows 10 issues.

@@ -1,3 +1,9 @@
+---
+title: dlp audit settings
+sidebar_label: dlp audit settings
+description: Documentation for dlp audit settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # SPAA: DLP Audit Settings
 
 The DLP Audit Settings page is where sensitive data discovery settings are configured. It is a

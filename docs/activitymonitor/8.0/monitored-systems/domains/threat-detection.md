@@ -1,3 +1,9 @@
+---
+title: LSASS Guardian Threat Detection
+sidebar_label: Threat Detection
+description: Configure LSASS Guardian threat detection to prevent, monitor, and block LSASS code injections with customizable event filters and settings.
+---
+
 # LSASS Guardian Tab
 
 The LSASS Guardian tab allows users to modify settings that were populated with the information

@@ -1,3 +1,9 @@
+---
+title: Browser Router User Selectable Browser Storage
+sidebar_label: User Selectable
+description: Understand where Browser Router stores user-selected browser preferences and how to configure registry values for HTTP and HTTPS protocols.
+---
+
 # Where does Browser Router store user selected browser (and how can I fake it if I need to) in versions 2536 and later?
 
 **CAUTION:** This article pertains to build 2536 and later. For earlier builds, the instructions are

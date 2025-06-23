@@ -1,3 +1,9 @@
+---
+title: Portal setting portal
+sidebar_label: portal
+description: Directory Manager portal documentation for setting functionality including user interface, navigation, and operational procedures.
+---
+
 # Portal Settings
 
 You can fine-tune your portal pages by customizing display options. This also enables you to

@@ -1,3 +1,9 @@
+---
+title: System Health Interface
+sidebar_label: System Health Interface
+description: The System Health interface has one page, Services, that displays the services associated with the application server. See the
+---
+
 # System Health Interface
 
 The System Health interface has one page, Services, that displays the services associated with the

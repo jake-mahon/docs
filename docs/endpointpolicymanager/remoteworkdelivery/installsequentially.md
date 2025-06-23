@@ -1,3 +1,9 @@
+---
+title: Sequential Application Installation Control
+sidebar_label: Sequential Install
+description: Configure Remote Work Delivery Manager collections to process policies sequentially for ordered application deployment and endpoint management.
+---
+
 # How can I make applications install sequentially / in order (and how does it work?)
 
 By default, Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager will

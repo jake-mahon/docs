@@ -1,3 +1,9 @@
+---
+title: Oracle Server
+sidebar_label: Oracle
+description: Once you choose to add SQL server source, you opt to add Oracle server as a source. For more information, go to the main articleSQL Server . To connect to an...
+---
+
 # Oracle Server
 
 Once you choose to add SQL server source, you opt to add Oracle server as a source. For more

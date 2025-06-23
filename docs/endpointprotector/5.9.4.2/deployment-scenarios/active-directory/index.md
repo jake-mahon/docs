@@ -1,3 +1,9 @@
+---
+title: Active Directory Deployment
+sidebar_label: Active Directory
+description: Deploy Netwrix Endpoint Protector Client software using Microsoft Installer files in Active Directory environments.
+---
+
 # Active Directory
 
 Netwrix Endpoint Protector Client software is delivered as a Microsoft Installer file ‘msi’, to be

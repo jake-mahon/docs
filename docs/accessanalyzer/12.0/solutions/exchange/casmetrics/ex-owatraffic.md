@@ -1,3 +1,9 @@
+---
+title: exchange casmetrics ex owatraffic
+sidebar_label: ex owatraffic
+description: Solution guide for exchange casmetrics ex owatraffic including implementation steps, configuration, and best practices.
+---
+
 # Outlook Web Access > EX_OWATraffic Job
 
 The EX_OWATraffic Job provides visibility into Outlook Web Access Traffic in the organization.

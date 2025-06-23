@@ -1,3 +1,9 @@
+---
+title: configure empty fpolicy
+sidebar_label: configure empty fpolicy
+description: Documentation for configure empty fpolicy functionality in Access Analyzer including configuration and usage information.
+---
+
 # Configure Empty FPolicy
 
 The credential used to just run Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing

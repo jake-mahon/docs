@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer Support Tools
+sidebar_label: Support Tools
+description: Support tools for Password Policy Enforcer including configuration reports and diagnostic utilities for troubleshooting and support.
+---
+
 # Support Tools
 
 Use the Support Tools page to create a Configuration Report that you can send to Netwrix Support, or

@@ -1,3 +1,9 @@
+---
+title: Data Subject Access Requests
+sidebar_label: DSAR Overview
+description: Starting with version 5.5.3, Netwrix Data Classification offers support for Data Subject Access Requests (DSAR) against the indexed content sources. It...
+---
+
 # Data Subject Access Requests
 
 Starting with version 5.5.3, Netwrix Data Classification offers support for Data Subject Access

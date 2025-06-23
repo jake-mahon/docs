@@ -1,3 +1,9 @@
+---
+title: windows openaccess sg_openfolders
+sidebar_label: sg_openfolders
+description: Solution guide for windows openaccess sg_openfolders including implementation steps, configuration, and best practices.
+---
+
 # SG_OpenFolders Job
 
 The SG_OpenFolders job enumerates folders with open access across the audited environment.

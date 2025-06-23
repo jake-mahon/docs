@@ -1,3 +1,9 @@
+---
+title: contactinfo
+sidebar_label: contactinfo
+description: Directory Manager 11.1 documentation for contactinfo with configuration details, usage instructions, and implementation guidance.
+---
+
 # User properties - Contact Info tab
 
 Use this tab to view or update the contact information of the user/mailbox.

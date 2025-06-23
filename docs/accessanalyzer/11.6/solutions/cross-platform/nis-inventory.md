@@ -1,3 +1,9 @@
+---
+title: cross platform nis inventory
+sidebar_label: nis inventory
+description: Solution guide for cross platform nis inventory including implementation steps, configuration, and best practices.
+---
+
 # NIS Scan Job
 
 The NIS Scan job collects data from the targeted NIS server and then analyzes that data to inventory

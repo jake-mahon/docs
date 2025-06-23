@@ -1,3 +1,9 @@
+---
+title: summary
+sidebar_label: summary
+description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # Summary Criteria
 
 Summary criteria are designed as a way of combining Regular Expression (Pattern) criteria and

@@ -1,3 +1,9 @@
+---
+title: Copying and Pasting Policy Manager Items
+sidebar_label: Copy and Paste
+description: Learn to paste XML data directly from clipboard in Endpoint Policy Manager Exporter instead of importing files. Streamlines policy deployment workflow.
+---
+
 # Copying and Pasting Valid Endpoint Policy Manager Items
 
 When using the Endpoint Policy Manager Exporter, you can select Add Existing Files to bring in files

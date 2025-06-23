@@ -1,3 +1,9 @@
+---
+title: Access Review Email Templates
+sidebar_label: Review Administration
+description: Configure email templates for access review notifications and administration workflows in Netwrix Auditor access governance.
+---
+
 # Email Templates
 
 The HTML templates used to format notification email can be customized. These templates are designed

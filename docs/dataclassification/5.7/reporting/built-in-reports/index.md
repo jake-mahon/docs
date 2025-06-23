@@ -1,3 +1,9 @@
+---
+title: Built-in Reports
+sidebar_label: Built In Reports
+description: There are a number of reports provided that can be run in browser, as well as exported to excel, these are described below: classifications. Assists in...
+---
+
 # Built-in Reports
 
 There are a number of reports provided that can be run in browser, as well as exported to excel,

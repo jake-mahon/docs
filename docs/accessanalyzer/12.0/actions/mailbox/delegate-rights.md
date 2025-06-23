@@ -1,3 +1,9 @@
+---
+title: delegate rights
+sidebar_label: delegate rights
+description: Documentation for delegate rights functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Delegate Rights
 
 Use the Delegate Rights page to specify folder permissions for the selected delegates. A permission

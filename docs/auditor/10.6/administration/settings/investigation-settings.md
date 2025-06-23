@@ -1,3 +1,9 @@
+---
+title: settings investigation settings
+sidebar_label: investigation-settings
+description: Auditor 10.6 administration guide for settings investigation settings configuration and management.
+---
+
 # Investigations
 
 By default, the Audit Database stores data up to 180 days. Once the retention period is over, the

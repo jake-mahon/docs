@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Directory Manager 11.0 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # History in GroupID
 
 In GroupID, history is tracked for:

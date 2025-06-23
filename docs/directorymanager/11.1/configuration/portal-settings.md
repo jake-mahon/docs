@@ -1,3 +1,9 @@
+---
+title: portal settings
+sidebar_label: portal-settings
+description: Directory Manager 11.1 documentation for portal settings with configuration details, usage instructions, and implementation guidance.
+---
+
 # Directory Manage Applications
 
 Using Admin Center, you can create and manage the following Directory Manager applications:

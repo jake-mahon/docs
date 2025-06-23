@@ -1,3 +1,9 @@
+---
+title: MongoDB Database Reports
+sidebar_label: MongoDB
+description: Access MongoDB database reports through Resource Audit interface with data collected by Access Analyzer MongoDB solution for NoSQL database monitoring.
+---
+
 # MongoDB Reports
 
 MongoDB reports are accessed through the Resource Audit interface. Explore the MongoDB resources by

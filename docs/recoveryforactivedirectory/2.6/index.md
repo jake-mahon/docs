@@ -1,3 +1,7 @@
+title: Recovery for Active Directory 2.6
+sidebar_label: Overview
+description: Comprehensive backup and granular recovery solution for Microsoft Active Directory environments with instant recovery and rollback capabilities.
+
 # Recovery for Active Directory 2.6
 
 > Instant recovery and rollback for Active Directory disasters

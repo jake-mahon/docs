@@ -1,3 +1,9 @@
+---
+title: Working with SharePoint templates
+sidebar_label: Templates
+description: In SharePoint, a site template is like a blueprint for a site. Creating a site template allows you to capture your customizations, so that they can be quickl...
+---
+
 # Working with SharePoint templates
 
 In SharePoint, a site template is like a blueprint for a site. Creating a site template allows you

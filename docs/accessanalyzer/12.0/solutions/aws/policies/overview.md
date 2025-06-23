@@ -1,3 +1,9 @@
+---
+title: aws policies overview
+sidebar_label: overview
+description: Solution guide for aws policies overview including implementation steps, configuration, and best practices.
+---
+
 # 5.Policies Job Group
 
 The 5.Policies job group provides details on AWS IAM policies including the various types of

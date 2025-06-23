@@ -1,3 +1,9 @@
+---
+title: Configuration Options
+sidebar_label: General Settings
+description: The Config administration area allows you to specify global system configuration settings. The default screen shows the most commonly amended settings....
+---
+
 # Configuration Options
 
 The Config administration area allows you to specify global system configuration settings. The

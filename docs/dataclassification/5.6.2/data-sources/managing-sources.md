@@ -1,3 +1,9 @@
+---
+title: Add a Content Source
+sidebar_label: Managing Sources
+description: To start processing your data, you need to add a corresponding content source to the Netwrix Data Classification scope. To add a content source 1. In...
+---
+
 # Add a Content Source
 
 To start processing your data, you need to add a corresponding content source to the Netwrix Data

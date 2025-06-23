@@ -1,3 +1,9 @@
+---
+title: Get tarGet schedule Cmdlet
+sidebar_label: gettargetschedule
+description: PowerShell cmdlet reference for gettargetschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-TargetSchedules
 
 The commandlet Get-TargetSchedules retrieves the scheduled jobs of the given target (group/OU).

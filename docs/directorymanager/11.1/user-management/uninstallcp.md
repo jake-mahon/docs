@@ -1,3 +1,9 @@
+---
+title: uninstallcp
+sidebar_label: uninstallcp
+description: Directory Manager 11.1 documentation for uninstallcp with configuration details, usage instructions, and implementation guidance.
+---
+
 # Uninstall Credential Provider
 
 You can uninstall Credential Provider using one of the following:

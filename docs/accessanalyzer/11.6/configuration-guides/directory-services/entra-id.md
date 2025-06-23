@@ -1,3 +1,9 @@
+---
+title: entra id
+sidebar_label: entra id
+description: Documentation for entra id functionality in Access Analyzer including configuration and usage information.
+---
+
 # Microsoft Entra ID Auditing Configuration
 
 The Enterprise Auditor for Entra ID Solution provides the ability to audit Microsoft Entra ID,

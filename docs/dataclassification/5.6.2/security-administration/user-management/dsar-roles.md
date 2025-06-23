@@ -1,3 +1,9 @@
+---
+title: DSAR Roles
+sidebar_label: DSAR Roles
+description: To keep the DSAR request process secure, Netwrix suggests configuring role-based access. Delegating control ensures that only appropriate users can modify DS...
+---
+
 # DSAR Roles
 
 To keep the DSAR request process secure, Netwrix suggests configuring role-based access. Delegating

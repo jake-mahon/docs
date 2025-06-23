@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts localadministrators sg_localadmins
+sidebar_label: sg_localadmins
+description: Solution guide for windows privilegedaccounts localadministrators sg_localadmins including implementation steps, configuration, and best practices.
+---
+
 # SG_LocalAdmins Job
 
 The SG_LocalAdmins job identifies the effective membership for all local administrator groups. The

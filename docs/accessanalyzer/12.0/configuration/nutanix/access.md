@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # Nutanix Appliance Access & Sensitive Data Auditing Configuration
 
 The credentials used to run Access Analyzer scans on Nutanix appliances must have the **Backup

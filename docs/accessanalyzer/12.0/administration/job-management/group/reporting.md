@@ -1,3 +1,9 @@
+---
+title: reporting Administration
+sidebar_label: reporting
+description: Administration guide for reporting including configuration, management, and best practices for Access Analyzer.
+---
+
 # Reporting Node
 
 At the job group level, the **Reporting** node identifies the report publishing and email

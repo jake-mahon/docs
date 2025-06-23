@@ -1,3 +1,9 @@
+---
+title: Browser Router Chrome Edge Flags
+sidebar_label: Flags
+description: Configure Chrome and Edge command-line flags and switches through Browser Router policies to enable special browser features and functionality.
+---
+
 # Does Endpoint Policy Manager Manage Chrome or Edge "Flags"?
 
 Chrome supports command-line switches, also called flags. They allow you to run Chrome with special

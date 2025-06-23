@@ -1,3 +1,9 @@
+---
+title: Windows Security Utilities Configuration
+sidebar_label: Security Utilities
+description: Recommended configurations for the Security Utilities job group including dependencies, scheduling, and workflow steps for security analysis tools.
+---
+
 # Recommended Configurations for the Security Utilities Job Group
 
 Dependencies

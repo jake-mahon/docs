@@ -1,3 +1,9 @@
+---
+title: semiprivategroups
+sidebar_label: semiprivategroups
+description: Directory Manager 11.1 documentation for semiprivategroups with configuration details, usage instructions, and implementation guidance.
+---
+
 # Semi Private Groups
 
 This view lists only the semi-private groups created using Directory Manager in the connected

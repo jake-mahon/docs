@@ -1,3 +1,9 @@
+---
+title: Spider Performance Troubleshooting
+sidebar_label: Performance
+description: Resolve spider performance issues including infinite spinning, IP restrictions, browser tab closures, and how to stop running spider scripts.
+---
+
 # Spider Spins and Does Not Finish
 
 If you kick off a spider and the gears on the page spin for more than an hour, there are two likely

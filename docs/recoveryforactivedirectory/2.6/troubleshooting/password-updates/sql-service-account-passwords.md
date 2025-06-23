@@ -1,3 +1,7 @@
+title: Update SQL Service Account Password
+sidebar_label: SQL Service Account
+description: Step-by-step instructions for updating the SQL Server service account password using the Recovery Configuration Utility for database connectivity.
+
 # Update SQL Server Service Account Password
 
 Follow the steps to update the password for the SQL Server service account.

@@ -1,3 +1,9 @@
+---
+title: connectwise
+sidebar_label: connectwise
+description: Auditor 10.7 documentation for connectwise with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure ConnectWise
 
 This section describes how to configure settings of the main add-on component, Netwrix Auditor

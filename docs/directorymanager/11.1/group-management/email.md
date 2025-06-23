@@ -1,3 +1,9 @@
+---
+title: Group Properties Email Tab
+sidebar_label: Email
+description: Configure email addresses and Exchange additional owners for groups with Exchange 2013/2016/2019 integration in Directory Manager.
+---
+
 # Group properties - Email tab
 
 Use this tab to view the email addresses assigned to this group. If your portal is connected to an

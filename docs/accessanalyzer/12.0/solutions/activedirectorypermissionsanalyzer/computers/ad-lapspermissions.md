@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer computers ad lapspermissions
+sidebar_label: ad lapspermissions
+description: Solution guide for activedirectorypermissionsanalyzer computers ad lapspermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_LAPSPermissions Job
 
 The AD_LAPSPermissions Job identifies Active Directory objects that have access to LAPS attributes

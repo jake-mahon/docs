@@ -1,3 +1,9 @@
+---
+title: Disable Firefox Developer Features Tutorial
+sidebar_label: Disable Features
+description: Learn to disable about:config, about:addons, Developer Menu, and Preferences menu items in Firefox using Endpoint Policy Manager with one click.
+---
+
 # Disable the following about:config, about:addons, pages, Developer Menu, and any Preferences in one click
 
 Need to remove about:config, about:addons, and the Australis button? How about entire menu items

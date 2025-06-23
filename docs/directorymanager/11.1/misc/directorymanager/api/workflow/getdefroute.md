@@ -1,3 +1,9 @@
+---
+title: workflow getdefroute API
+sidebar_label: getdefroute
+description: API reference for getdefroute operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Default Routes
 
 Use this API to retrieve information about Directory Manager default workflows. These workflows are

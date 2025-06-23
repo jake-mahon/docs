@@ -1,3 +1,9 @@
+---
+title: Multiple Files Copy Standard Policies
+sidebar_label: Multiple Files
+description: Configure standard policies to copy multiple files from the same directory with filters and overwrite options for remote endpoint deployment.
+---
+
 # Advanced Standard Policies: Copying Multiple Files Wizard
 
 The second type of standard policy you can create is called Copy multiple files from same directory.

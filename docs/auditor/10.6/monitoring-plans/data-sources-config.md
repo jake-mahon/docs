@@ -1,3 +1,9 @@
+---
+title: data sources config
+sidebar_label: data-sources-config
+description: Auditor 10.6 documentation for data sources config with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

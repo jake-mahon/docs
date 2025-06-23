@@ -1,3 +1,9 @@
+---
+title: Entra ID Sync Configuration
+sidebar_label: Entra ID Sync
+description: Configure Microsoft Entra ID tenant synchronization for continuous data collection, credential profiles, and sync policy management.
+---
+
 # Entra ID Sync Page
 
 The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which

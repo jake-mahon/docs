@@ -1,3 +1,9 @@
+---
+title: Linux Registrations Prerequisites
+sidebar_label: linux prerequisites
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Linux Registrations Prerequisites
 
 Linux Registrations Prerequisites

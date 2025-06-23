@@ -1,3 +1,9 @@
+---
+title: exchange publicfolders ownership pf owners
+sidebar_label: pf owners
+description: Solution guide for exchange publicfolders ownership pf owners including implementation steps, configuration, and best practices.
+---
+
 # PF_Owners Job
 
 The PF_Owners job is comprised of analysis and reports that focus on public folder ownership, and

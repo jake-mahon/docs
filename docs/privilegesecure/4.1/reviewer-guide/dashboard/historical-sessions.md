@@ -1,3 +1,9 @@
+---
+title: Historical Dashboard
+sidebar_label: historical sessions
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Historical Dashboard
 
 The Historical sessions dashboard shows all created sessions and their status.

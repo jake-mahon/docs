@@ -1,3 +1,9 @@
+---
+title: Common Issues and Solutions
+sidebar_label: Common Issues
+description: Troubleshooting guide for Platform Governance common issues including list segments configuration, spider problems, and installation errors.
+---
+
 # List Segments Field Cannot be Edited
 
 When setting the Number of Rows in List segments, sometimes the field cannot be edited.

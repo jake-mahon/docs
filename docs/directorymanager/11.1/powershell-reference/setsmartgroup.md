@@ -1,3 +1,9 @@
+---
+title: Set smartgroup Cmdlet
+sidebar_label: setsmartgroup
+description: PowerShell cmdlet reference for setsmartgroup with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Set-SmartGroup
 
 The Set-SmartGroup commandlet modifies a Smart Group in Directory. Attributes that are common to

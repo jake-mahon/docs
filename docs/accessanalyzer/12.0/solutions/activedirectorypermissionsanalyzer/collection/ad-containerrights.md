@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection ad containerrights
+sidebar_label: ad containerrights
+description: Solution guide for activedirectorypermissionsanalyzer collection ad containerrights including implementation steps, configuration, and best practices.
+---
+
 # AD_ContainerRights Job
 
 The AD_ContainerRights Job provides data collection to identify permissions applied to Containers in

@@ -1,3 +1,9 @@
+---
+title: Session Timeout Configuration
+sidebar_label: Session Timeout
+description: Configure individual client session timeout settings for automatic termination of inactive connections to Password Secure application server.
+---
+
 # Session timeout
 
 Here you can set individually for each client when an inactive connection to the application server

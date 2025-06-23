@@ -1,3 +1,9 @@
+---
+title: host lists assignment Administration
+sidebar_label: host lists assignment
+description: Administration guide for host lists assignment including configuration, management, and best practices for Access Analyzer.
+---
+
 # Host Lists Assignment
 
 At the job group level, the Host Lists Assignment node identifies target host lists assigned for the

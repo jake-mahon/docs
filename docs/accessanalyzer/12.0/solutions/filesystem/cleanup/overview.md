@@ -1,3 +1,9 @@
+---
+title: filesystem cleanup overview
+sidebar_label: overview
+description: Solution guide for filesystem cleanup overview including implementation steps, configuration, and best practices.
+---
+
 # Cleanup Job Group
 
 The Cleanup job group is designed to report on and take action against resources from targeted file

@@ -1,3 +1,9 @@
+---
+title: datasource getallds API
+sidebar_label: getallds
+description: API reference for getallds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get All Data Sources
 
 Using this API you can get information of all data source defined so far in Directory Manager.

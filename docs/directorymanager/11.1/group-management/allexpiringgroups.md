@@ -1,3 +1,9 @@
+---
+title: allexpiringgroups
+sidebar_label: allexpiringgroups
+description: Directory Manager 11.1 documentation for allexpiringgroups with configuration details, usage instructions, and implementation guidance.
+---
+
 # Expiring Groups
 
 This page shows only the expiring groups in the connected identity store.

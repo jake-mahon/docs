@@ -1,3 +1,9 @@
+---
+title: Dell R430/R440 iDrac 9 LOM Network Configuration via Reboot
+sidebar_label: dell idrac9
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Dell R430/R440 iDrac 9 LOM Network Configuration via Reboot
 
 Dell R430/R440 iDrac 9 LOM Network Configuration via Reboot

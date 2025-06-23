@@ -1,3 +1,9 @@
+---
+title: Database Properties Configuration
+sidebar_label: Database Properties
+description: Access and edit database properties without login requirements including configuration options and settings for Password Secure databases.
+---
+
 # Database properties
 
 The properties of a database can be opened by double-clicking on the database. No login to the

@@ -1,3 +1,9 @@
+---
+title: Manage Search Requests
+sidebar_label: Searches
+description: The Searches interface may contain multiple requests. This section contains information on how to work with searches to address specific tasks. NOTE: To mana...
+---
+
 # Manage Search Requests
 
 The **Searches** interface may contain multiple requests. This section contains information on how

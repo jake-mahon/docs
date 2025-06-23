@@ -1,3 +1,9 @@
+---
+title: box collection 1 box activity scans
+sidebar_label: 1 box activity scans
+description: Solution guide for box collection 1 box activity scans including implementation steps, configuration, and best practices.
+---
+
 # 1-Box_Activity Scans Job
 
 The 1-Box_Activity Scans Job collects the data which will be further analyzed in order to provide

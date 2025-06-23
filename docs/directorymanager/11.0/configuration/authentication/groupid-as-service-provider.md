@@ -1,3 +1,9 @@
+---
+title: groupid as service provider
+sidebar_label: groupid-as-service-provider
+description: Directory Manager 11.0 documentation for groupid as service provider with configuration details, usage instructions, and implementation guidance.
+---
+
 # GroupID as a Service Provider
 
 You can configureGroupID as a service provider with the following identity providers:

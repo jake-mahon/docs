@@ -1,3 +1,9 @@
+---
+title: active directory users ad orphaned users
+sidebar_label: ad orphaned users
+description: Solution guide for active directory users ad orphaned users including implementation steps, configuration, and best practices.
+---
+
 # AD_OrphanedUsers Job
 
 The AD_OrphanedUsers Job identifies users whose managers are stale or disabled. These user accounts

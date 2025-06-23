@@ -1,3 +1,9 @@
+---
+title: target files
+sidebar_label: target files
+description: Documentation for target files functionality in Access Analyzer including configuration and usage information.
+---
+
 # INIFile: Target Files
 
 The Target Files page identifies the location and name of the INI file from which to collect

@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts logonrights overview
+sidebar_label: overview
+description: Solution guide for windows privilegedaccounts logonrights overview including implementation steps, configuration, and best practices.
+---
+
 # Logon Rights Job Group
 
 The Logon Rights job group collects local policy information and reports on privileged users.

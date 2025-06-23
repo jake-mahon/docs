@@ -1,3 +1,9 @@
+---
+title: general Administration
+sidebar_label: general
+description: Administration guide for general including configuration, management, and best practices for Access Analyzer.
+---
+
 # General Tab
 
 The General tab is for changing the job name and description.

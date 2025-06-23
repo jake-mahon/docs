@@ -1,3 +1,9 @@
+---
+title: Using Remote Work Delivery Manager on Computer Side
+sidebar_label: Computer Side
+description: Deploy files and scripts using Remote Work Delivery Manager on the Computer side. Learn System context vs User context deployment options.
+---
+
 # Using Remote Work Delivery Manager on the Computer Side
 
 In the Quickstart example, we delivered a file to users, but Endpoint Policy Manager can also

@@ -1,3 +1,9 @@
+---
+title: Common Issues and Solutions
+sidebar_label: Common Issues
+description: Troubleshooting guide for resolving Spider Page Not Found errors, List Segments field editing issues, and System Maintenance Period problems.
+---
+
 # Spider Page Not Found
 
 If you see a **Spider Page Not Found** error:

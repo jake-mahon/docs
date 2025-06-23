@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts logonrights sg localpolicies
+sidebar_label: sg localpolicies
+description: Solution guide for windows privilegedaccounts logonrights sg localpolicies including implementation steps, configuration, and best practices.
+---
+
 # SG_LocalPolicies Job
 
 The SG_LocalPolicies job identifies privileged accounts with high levels of server access.

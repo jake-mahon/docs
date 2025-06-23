@@ -1,3 +1,9 @@
+---
+title: Computer-Side Policy Configuration
+sidebar_label: Computer Side
+description: Learn how to configure Administrative Templates policies on the computer side, accessing both computer and user policy settings.
+---
+
 # Adding a Policy on the Computer Side
 
 When using Endpoint Policy Manager Admin Templates Manager to create a policy on the Computer side,

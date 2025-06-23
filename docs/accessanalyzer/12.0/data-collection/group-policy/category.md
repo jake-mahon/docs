@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # GroupPolicy: Category
 
 On the GroupPolicy Data Collector Category page, select the required query category to be executed.

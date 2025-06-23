@@ -1,3 +1,9 @@
+---
+title: Action Libraries Overview
+sidebar_label: Libraries
+description: Pre-configured action tasks with table input, script body, and parameters for building custom remediation workflows and common use cases.
+---
+
 # Action Libraries
 
 When creating a new action on a job, you have the ability to load action tasks that have been
@@ -7,9 +13,9 @@ preconfigured with table input, script body, and parameters. This helps you:
 - Build custom action workflows to satisfy common use cases
 - Build custom remediation workflows, such as:
 
-    - PowerShell Script / Action Body
-    - Table references
-    - Parameters
+  - PowerShell Script / Action Body
+  - Table references
+  - Parameters
 
 On the job's **Configure** > **Action** node, the **Add from Library** option opens the Libraries
 window with the available Action Libraries and operations:

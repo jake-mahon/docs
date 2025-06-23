@@ -1,3 +1,9 @@
+---
+title: Migration Guide API Changes
+sidebar_label: Migration Guide
+description: API login authentication breaking changes guide for enhanced security with dynamic authentication methods for server versions 8.12 onwards.
+---
+
 ## Migration Guide: Breaking Changes - API Login
 
 Overview: We've enhanced the login authentication process to offer a more dynamic and secure

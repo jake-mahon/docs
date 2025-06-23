@@ -1,3 +1,9 @@
+---
+title: manual configuration
+sidebar_label: manual configuration
+description: Documentation for manual configuration functionality in Access Analyzer including configuration and usage information.
+---
+
 # Manually Configure Auditing in OneFS
 
 Manual configuration for auditing is optional for newer versions as the Activity Agent can configure

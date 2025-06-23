@@ -1,3 +1,9 @@
+---
+title: SmartLog Target Log Configuration
+sidebar_label: Target Log
+description: Target log configuration for SmartLog data collector including log file selection and location settings.
+---
+
 # SMARTLog: Target Log
 
 The Target Log page is where logs are selected to be collected. There are three versions of this
@@ -22,6 +28,6 @@ The configurable options are:
   is set, all files from the listed path are returned.
 - Log files to be processed – Select from the following options:
 
-    - All
-    - Today
-    - For the last – Select the number of days or hours
+  - All
+  - Today
+  - For the last – Select the number of days or hours

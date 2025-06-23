@@ -1,3 +1,9 @@
+---
+title: Set thecredential Cmdlet
+sidebar_label: setthecredential
+description: PowerShell cmdlet reference for setthecredential with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Set the $Credentials Environment Variable
 
 By default, the Directory Manager Management Shell uses the credentials of the logged-in user for

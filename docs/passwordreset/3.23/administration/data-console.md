@@ -1,3 +1,9 @@
+---
+title: Using the Data Console
+sidebar_label: Data Console
+description: Comprehensive guide to viewing, filtering, and exporting activity data and audit logs collected by Password Reset using the Data Console interface.
+---
+
 # Using the Data Console
 
 The Data Console allows you to view and export data collected by Password Reset. Click **Start** >

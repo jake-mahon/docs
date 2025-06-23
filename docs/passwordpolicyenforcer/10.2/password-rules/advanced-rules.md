@@ -1,3 +1,9 @@
+---
+title: Compromised Password Rule Configuration
+sidebar_label: Advanced Rules
+description: Configure the Compromised rule to reject passwords from prior breaches and protect against credential stuffing attacks in Password Policy Enforcer.
+---
+
 # Compromised Rule
 
 The Compromised rule rejects passwords from prior breaches. These passwords should not be used as

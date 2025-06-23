@@ -1,3 +1,9 @@
+---
+title: Password Secure Client Installation Guide
+sidebar_label: Client Installation
+description: Step-by-step guide for installing Password Secure client including MSI setup, components selection, database integration, and registry configuration.
+---
+
 # Installation Client
 
 ## Guide

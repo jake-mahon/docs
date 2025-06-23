@@ -1,3 +1,9 @@
+---
+title: CIS Compliance Templates
+sidebar_label: Templates
+description: Compliance templates mapping to Center for Internet Security (CIS) benchmarks for cloud platforms, operating systems, and network devices.
+---
+
 # Compliance Templates
 
 Change Tracker's compliance templates map directly to the prescriptive configuration recommendations

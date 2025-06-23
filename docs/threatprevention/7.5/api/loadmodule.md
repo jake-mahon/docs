@@ -1,3 +1,9 @@
+---
+title: Load Module API
+sidebar_label: Load Module
+description: PowerShell API for loading and managing Threat Prevention modules and extensions for enhanced functionality.
+---
+
 # Load the PowerShell Module
 
 The following steps are provided to load the Threat Prevention PowerShell module. These steps are

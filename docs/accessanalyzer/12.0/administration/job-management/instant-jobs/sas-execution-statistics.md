@@ -1,3 +1,9 @@
+---
+title: sas execution statistics Administration
+sidebar_label: sas execution statistics
+description: Administration guide for sas execution statistics including configuration, management, and best practices for Access Analyzer.
+---
+
 # SAS_ExecutionStatistics Job
 
 The SAS_ExecutionStatistics Job tracks historical performance of Access Analyzer job and analysis

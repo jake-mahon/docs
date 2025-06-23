@@ -1,3 +1,9 @@
+---
+title: group properties
+sidebar_label: group-properties
+description: Directory Manager 11.0 documentation for group properties with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group properties - Advanced tab
 
 Use this tab to control the group's visibility in the messaging provider's address book and manage

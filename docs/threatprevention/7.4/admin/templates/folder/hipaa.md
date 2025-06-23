@@ -1,3 +1,10 @@
+---
+title: HIPAA Folder Templates
+sidebar_label: HIPAA Folder Templates
+description: The HIPAA folder contains the following templates: 164.306 – Security Standards Folder | Template                                | Description               ...
+
+---
+
 # HIPAA Folder Templates
 
 The HIPAA folder contains the following templates:

@@ -1,3 +1,9 @@
+---
+title: eDiscovery Module
+sidebar_label: eDiscovery
+description: Data discovery and inspection policies for finding sensitive information on endpoints including PII, financial data, and confidential files.
+---
+
 # eDiscovery
 
 This module allows you to create policies that inspect data residing on protected Windows, Macs, and

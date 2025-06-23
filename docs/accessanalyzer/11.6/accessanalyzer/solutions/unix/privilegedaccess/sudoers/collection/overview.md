@@ -1,3 +1,9 @@
+---
+title: Unix Sudoers Collection Overview
+sidebar_label: Overview
+description: Overview of Unix sudoers collection jobs including sudo configuration analysis and privilege escalation monitoring.
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group collects details on all rights granted via sudoers within audited Unix

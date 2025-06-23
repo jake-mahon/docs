@@ -1,3 +1,9 @@
+---
+title: folder identification
+sidebar_label: folder identification
+description: Documentation for folder identification functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Folder Identification
 
 Use the Folder Identification page to specify folders to target. It is a wizard page for the Delete

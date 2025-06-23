@@ -1,3 +1,7 @@
+title: Allowed Commands Configuration
+sidebar_label: Allowed Commands
+description: Configure allowed commands for ChangeTracker agents to run on devices for baseline analysis and configuration monitoring operations.
+
 # Allowed Commands
 
 The Change Tracker agent is designed to run commands on devices to baseline and analyze

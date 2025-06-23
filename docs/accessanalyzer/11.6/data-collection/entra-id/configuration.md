@@ -1,3 +1,9 @@
+---
+title: configuration
+sidebar_label: configuration
+description: Documentation for configuration functionality in Access Analyzer including configuration and usage information.
+---
+
 # AzureADInventory: Category
 
 The Category page identifies which Inventory task to perform.

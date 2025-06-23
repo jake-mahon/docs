@@ -1,3 +1,9 @@
+---
+title: Privilege Creep/Escalation
+sidebar_label: Privilege Creep/Escalation
+description: The Privilege Creep/Escalation option uses the Account Name field to determine which user is targeted when searching for threats. Wildcard characters (%) are...
+---
+
 # Privilege Creep/Escalation
 
 The Privilege Creep/Escalation option uses the Account Name field to determine which user is

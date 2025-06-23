@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer 10.2 Overview
+sidebar_label: Overview
+description: Enterprise-grade password policy management for Active Directory environments with granular policies and comprehensive reporting capabilities.
+---
+
 # Password Policy Enforcer 10.2
 
 > Enterprise-grade password policy management for Active Directory environments

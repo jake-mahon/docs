@@ -1,3 +1,9 @@
+---
+title: whatsnew
+sidebar_label: whatsnew
+description: Directory Manager 11.1 documentation for whatsnew with configuration details, usage instructions, and implementation guidance.
+---
+
 # What's New
 
 ## New Netwrix Community!

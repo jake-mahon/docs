@@ -1,3 +1,9 @@
+---
+title: lists
+sidebar_label: lists
+description: Documentation for lists functionality in Access Analyzer including configuration and usage information.
+---
+
 # Hosts Lists
 
 A host list is a grouping of hosts for the purpose of executing jobs against. Every host list

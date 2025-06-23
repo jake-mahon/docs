@@ -1,3 +1,9 @@
+---
+title: Agent Installer Update
+sidebar_label: Installer Update
+description: Agent installer update interface for downloading and deploying the latest agent versions from Netwrix.
+---
+
 # Agent Installer Update Window
 
 Netwrix periodically releases updated Agent installation packages. Typically these updates are

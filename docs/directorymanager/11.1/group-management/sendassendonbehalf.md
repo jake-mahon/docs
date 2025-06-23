@@ -1,3 +1,9 @@
+---
+title: sendassendonbehalf
+sidebar_label: sendassendonbehalf
+description: Directory Manager 11.1 documentation for sendassendonbehalf with configuration details, usage instructions, and implementation guidance.
+---
+
 # The Send As and Send on Behalf features
 
 The administrator can configure the Send As and Send on Behalf features for a Directory Manager

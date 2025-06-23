@@ -1,3 +1,9 @@
+---
+title: Add Credential Group
+sidebar_label: credential groups
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Credential Group
 
 Follow the steps to add credential groups to the Privilege Secure Console.

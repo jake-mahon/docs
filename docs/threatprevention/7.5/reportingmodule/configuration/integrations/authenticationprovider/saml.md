@@ -1,3 +1,9 @@
+---
+title: SAML Authentication Provider
+sidebar_label: SAML Authentication Provider
+description: The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and authorization information. It provides functions to descr...
+---
+
 # SAML Authentication Provider
 
 The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and

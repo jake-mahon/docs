@@ -1,3 +1,9 @@
+---
+title: Remote Work Delivery with Cloud
+sidebar_label: Cloud MDM
+description: Integrate Remote Work Delivery Manager with Endpoint Policy Manager Cloud and MDM services for comprehensive file delivery.
+---
+
 # Remote Work Delivery Manager with Endpoint Policy Manager Cloud and MDM Services
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager works with

@@ -1,3 +1,9 @@
+---
+title: bulk import
+sidebar_label: bulk import
+description: Documentation for bulk import functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Bulk Import Settings
 
 The Bulk Import Settings page is where the bulk import process settings are configured. It is a

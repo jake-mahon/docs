@@ -1,3 +1,9 @@
+---
+title: treeview
+sidebar_label: treeview
+description: Directory Manager 11.1 documentation for treeview with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group properties - Tree View
 
 Using the Directory Managerportal, you can view the hierarchy for a group. This hierarchy is

@@ -1,3 +1,9 @@
+---
+title: Web Service Security
+sidebar_label: Web Service Security
+description: Web Service Security can be used to restrict external access to the Netwrix Data Classification APIs, we recommend when using this functionality that you lis...
+---
+
 # Web Service Security
 
 Web Service Security can be used to restrict external access to the Netwrix Data Classification

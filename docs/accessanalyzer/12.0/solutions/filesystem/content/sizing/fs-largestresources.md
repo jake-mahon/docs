@@ -1,3 +1,9 @@
+---
+title: filesystem content sizing fs largestresources
+sidebar_label: fs largestresources
+description: Solution guide for filesystem content sizing fs largestresources including implementation steps, configuration, and best practices.
+---
+
 # FS_LargestResources Job
 
 The FS_LargestResources job is designed to report on the largest resources from targeted file

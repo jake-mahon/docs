@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # NetApp Data ONTAP 7-Mode Activity Auditing Configuration
 
 The Activity Monitor agent employed to monitor NetApp leverages 128-bit encrypted Remote Procedure

@@ -1,3 +1,9 @@
+---
+title: Understanding Customization Records
+sidebar_label: Best Practices
+description: Complete guide to Flashlight Customization Records with summary information, dependent objects, and tabbed data for managing NetSuite customizations.
+---
+
 # Understanding the Customization Record
 
 A Flashlight Customization Record contains all the information about a given customization in one

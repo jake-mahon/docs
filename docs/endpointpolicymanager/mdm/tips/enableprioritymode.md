@@ -1,3 +1,9 @@
+---
+title: Enabling Priority Mode for Multiple XML Items
+sidebar_label: Priority Mode
+description: Control execution order of multiple XML items using Priority Mode in Endpoint Policy Manager Exporter. Use Process Layer fields for predictable deployment sequences.
+---
+
 # Enabling Priority Mode for Multiple XML Items
 
 When wrapping multiple XMLs into an MSI, you may want them to execute in a predictable order. There

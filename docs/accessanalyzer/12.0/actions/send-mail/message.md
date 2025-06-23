@@ -1,3 +1,9 @@
+---
+title: message
+sidebar_label: message
+description: Documentation for message functionality in Access Analyzer including configuration and usage information.
+---
+
 # SendMail Action: Message
 
 Use the Message page to specify the text of the email.

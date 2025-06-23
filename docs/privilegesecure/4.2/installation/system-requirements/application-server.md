@@ -1,3 +1,9 @@
+---
+title: Application Server
+sidebar_label: application server
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Application Server
 
 The requirements for the (Privilege Secure) application server are:

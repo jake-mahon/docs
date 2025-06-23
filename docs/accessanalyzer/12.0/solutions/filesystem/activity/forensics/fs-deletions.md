@@ -1,3 +1,9 @@
+---
+title: filesystem activity forensics fs deletions
+sidebar_label: fs deletions
+description: Solution guide for filesystem activity forensics fs deletions including implementation steps, configuration, and best practices.
+---
+
 # FS_Deletions Job
 
 The FS_Deletions job is designed to report on deletion activity event information from targeted file

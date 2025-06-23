@@ -1,3 +1,9 @@
+---
+title: Content Aware Protection Overview
+sidebar_label: Content Protection
+description: Set up and enforce strong content filtering policies for comprehensive data loss prevention across all endpoints and applications.
+---
+
 # Content Aware Protection
 
 This module allows the Administrator to set up and enforce strong content ﬁltering policies for

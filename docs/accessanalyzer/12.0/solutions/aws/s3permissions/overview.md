@@ -1,3 +1,9 @@
+---
+title: aws s3permissions overview
+sidebar_label: overview
+description: Solution guide for aws s3permissions overview including implementation steps, configuration, and best practices.
+---
+
 # 6.S3 Permissions Job Group
 
 The 6.S3 Permissions job group provides details on permissions assigned to AWS S3 buckets,

@@ -1,3 +1,9 @@
+---
+title: box recommended
+sidebar_label: recommended
+description: Solution guide for box recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the Box Solution
 
 The jobs that run analysis tasks in the Box Solution requires the host list to be assigned.

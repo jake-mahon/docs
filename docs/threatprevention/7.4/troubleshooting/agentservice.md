@@ -1,3 +1,9 @@
+---
+title: Agent Service Troubleshooting
+sidebar_label: Agent Service
+description: Agent service troubleshooting for startup issues, module loading problems, and service management on monitored systems.
+---
+
 # Agent Service Fails to Start Due to Service Timeout
 
 If an Agent service fails to start due to a service timeout, setting the NT Service timeout higher

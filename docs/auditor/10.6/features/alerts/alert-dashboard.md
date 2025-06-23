@@ -1,3 +1,9 @@
+---
+title: Alerts Overview Dashboard
+sidebar_label: Alert Dashboard
+description: Monitor and manage security alerts with Netwrix Auditor alerts overview dashboard for comprehensive threat response and incident tracking.
+---
+
 # Alerts Overview Dashboard
 
 Aggregated statistics on the alerts is provided in the Alerts overview widget. It displays currently

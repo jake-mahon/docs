@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Alerts Overview Dashboard
 
 Aggregated statistics on the alerts is provided in the Alerts overview widget. It displays currently

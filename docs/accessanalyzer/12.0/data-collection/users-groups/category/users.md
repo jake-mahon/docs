@@ -1,3 +1,9 @@
+---
+title: users
+sidebar_label: users
+description: Documentation for users functionality in Access Analyzer including configuration and usage information.
+---
+
 # UsersGroups: Users Category
 
 The Users Query category collects information for users in different contexts.

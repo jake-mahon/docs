@@ -1,3 +1,9 @@
+---
+title: Version 9.1.0.30996 Release Notes
+sidebar_label: Version 9.1.0
+description: Password Secure version 9.1.0.30996 changelog featuring browser extension improvements, OTP retrieval, and enhanced autofill functionality.
+---
+
 # Version 9.1.0.30996
 
 ## New

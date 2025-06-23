@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection ad domainrights
+sidebar_label: ad domainrights
+description: Solution guide for activedirectorypermissionsanalyzer collection ad domainrights including implementation steps, configuration, and best practices.
+---
+
 # AD_DomainRights Job
 
 The AD_DomainRights Job provides data collection to identify permissions applied to Domains in

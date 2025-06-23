@@ -1,3 +1,9 @@
+---
+title: custom query sql
+sidebar_label: custom query sql
+description: Documentation for custom query sql functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQL: Custom SQL Query
 
 The Custom Query page for a Custom SQL Query contains the following configuration options. It is a

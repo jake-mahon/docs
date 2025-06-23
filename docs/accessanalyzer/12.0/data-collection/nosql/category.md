@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # NoSQL: Category
 
 The Category page in the NoSQL Data Collector Wizard lists the following query categories,

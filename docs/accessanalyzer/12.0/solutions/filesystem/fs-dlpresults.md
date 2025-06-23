@@ -1,3 +1,9 @@
+---
+title: filesystem fs dlpresults
+sidebar_label: fs dlpresults
+description: Solution guide for filesystem fs dlpresults including implementation steps, configuration, and best practices.
+---
+
 # 7.Sensitive Data > FS_DLPResults Job
 
 The FS_DLPResults job is designed to report on resources that have been identified to contain

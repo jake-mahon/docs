@@ -1,3 +1,9 @@
+---
+title: Export Logs to Management Systems
+sidebar_label: QRadar Integration
+description: Configure Serilog logging to export Identity Manager logs to QRadar and other log management systems for centralized monitoring.
+---
+
 # Export Logs to a Log Management System
 
 This guide shows how to use the logging configuration (Serilog) to send Usercube's logs into a log

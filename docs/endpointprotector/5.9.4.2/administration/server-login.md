@@ -1,3 +1,9 @@
+---
+title: Server Login Access Guide
+sidebar_label: Server Login
+description: Step-by-step instructions for accessing the Endpoint Protector server web interface and managing policies in preparation for agent deployment.
+---
+
 # Logging in to the Server
 
 After provisioning the Endpoint Protector Server, you can configure the feature modules. To manage

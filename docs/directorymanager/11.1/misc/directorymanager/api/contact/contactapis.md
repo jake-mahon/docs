@@ -1,3 +1,9 @@
+---
+title: contact contactapis API
+sidebar_label: contactapis
+description: API reference for contactapis operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Contact APIs
 
 Directory Manager provides the following APIs to perform contact-specific functions:

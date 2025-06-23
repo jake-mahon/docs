@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePoint Online Activity Auditing Configuration
 
 In order to collect logs and monitor SharePoint Online activity using the Netwrix Activity Monitor,

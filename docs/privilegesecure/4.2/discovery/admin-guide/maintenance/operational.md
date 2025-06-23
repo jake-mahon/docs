@@ -1,3 +1,9 @@
+---
+title: Operational Maintenance
+sidebar_label: operational
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Operational Maintenance
 
 Operational Maintenance

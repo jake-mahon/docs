@@ -1,3 +1,9 @@
+---
+title: syncjobs jobsapis API
+sidebar_label: jobsapis
+description: API reference for jobsapis operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Synchronize Jobs APIs
 
 Directory Manager Synchronize is used for transferring data from one data source to another. The

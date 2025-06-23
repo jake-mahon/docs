@@ -1,3 +1,10 @@
+---
+title: GPO Monitoring Dashboard
+sidebar_label: GPO Monitoring Dashboard
+description: The GPO Monitoring dashboard contains the following cards: !GPO Monitoring Dashboard - Top GPOs – Displays up to the top five (5) Group Policy Objects relate...
+
+---
+
 # GPO Monitoring Dashboard
 
 The GPO Monitoring dashboard contains the following cards:

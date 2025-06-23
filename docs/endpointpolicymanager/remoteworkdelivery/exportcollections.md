@@ -1,3 +1,9 @@
+---
+title: Exporting Remote Work Delivery Collections
+sidebar_label: Export Collections
+description: Export Endpoint Policy Manager Remote Work Delivery Manager collections for use with Cloud, MDM services, or non-Group Policy deployment methods.
+---
+
 # Exporting Collections
 
 In Appendix A:[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md), you can

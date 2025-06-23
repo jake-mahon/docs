@@ -1,3 +1,9 @@
+---
+title: navigation index
+sidebar_label: index
+description: Auditor 10.6 administration guide for navigation index configuration and management.
+---
+
 # Navigation
 
 Starting with version 10, the home screen in Netwrix Auditor is customizable so you can instantly

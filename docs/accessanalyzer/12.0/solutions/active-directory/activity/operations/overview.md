@@ -1,3 +1,9 @@
+---
+title: active directory activity operations overview
+sidebar_label: overview
+description: Solution guide for active directory activity operations overview including implementation steps, configuration, and best practices.
+---
+
 # Operations Job Group
 
 The Operations Job Group reports on Active Directory activity events related to operational

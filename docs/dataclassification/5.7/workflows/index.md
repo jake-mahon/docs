@@ -1,3 +1,9 @@
+---
+title: Understanding Workflows in Data Classification
+sidebar_label: Workflows
+description: Configure automated actions following classification decisions including email alerts, document migration, and rule-based workflow triggers.
+---
+
 # Understanding Workflows
 
 A workflow allows you to configure an automated action that will be performed on a document,

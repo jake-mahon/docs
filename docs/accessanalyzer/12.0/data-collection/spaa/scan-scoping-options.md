@@ -1,3 +1,9 @@
+---
+title: scan scoping options
+sidebar_label: scan scoping options
+description: Documentation for scan scoping options functionality in Access Analyzer including configuration and usage information.
+---
+
 # SPAA: Scan Scoping Options
 
 The Scan Scoping Options page provides scoping options to specify the list of URLs to be scanned. It

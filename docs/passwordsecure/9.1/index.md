@@ -1,3 +1,9 @@
+---
+title: Password Secure 9.1 Documentation
+sidebar_label: Overview
+description: Enterprise password vault and privileged credential management solution for centralized credential security and compliance across IT infrastructure.
+---
+
 # Password Secure 9.1
 
 > Enterprise password vault and privileged credential management

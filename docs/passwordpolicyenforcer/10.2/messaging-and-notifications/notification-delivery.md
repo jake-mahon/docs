@@ -1,3 +1,9 @@
+---
+title: Email Notification Delivery Configuration
+sidebar_label: Notification Delivery
+description: Configuration guide for Password Policy Enforcer email delivery options including SMTP server setup and pickup folder configuration for notifications.
+---
+
 # Email Delivery Options
 
 You must configure the email delivery options in the PPS Properties page before the Password Policy

@@ -1,3 +1,9 @@
+---
+title: ex register azure app auth Administration
+sidebar_label: ex register azure app auth
+description: Administration guide for ex register azure app auth including configuration, management, and best practices for Access Analyzer.
+---
+
 # EX_RegisterAzureAppAuth Job
 
 EX_RegisterAzureAppAuth will register an Microsoft Entra ID (formerly Azure AD) application for

@@ -1,3 +1,9 @@
+---
+title: Platform Governance for NetSuite
+sidebar_label: Overview
+description: Comprehensive governance and change management solution for NetSuite environments with automated documentation and compliance capabilities.
+---
+
 # Platform Governance for NetSuite
 
 > Comprehensive governance and change management for NetSuite environments

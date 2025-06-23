@@ -1,3 +1,9 @@
+---
+title: report roles Administration
+sidebar_label: report roles
+description: Administration guide for report roles including configuration, management, and best practices for Access Analyzer.
+---
+
 # Report Roles Tab
 
 The Report Roles tab is part of the Role Bases Access feature of Access Analyzer. If Role Based

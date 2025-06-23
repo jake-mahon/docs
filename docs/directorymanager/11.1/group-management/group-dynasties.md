@@ -1,3 +1,9 @@
+---
+title: group dynasties
+sidebar_label: group-dynasties
+description: Directory Manager 11.1 documentation for group dynasties with configuration details, usage instructions, and implementation guidance.
+---
+
 # Dynasty Options page (Managerial Dynasty)
 
 On the **Dynasty Options** page, select whether you want to create separate Smart Groups for the

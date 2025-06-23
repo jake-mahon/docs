@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # Exchange Online Auditing Configuration
 
 It is necessary to register Access Analyzer as a web application to the targeted Microsoft Entra ID,

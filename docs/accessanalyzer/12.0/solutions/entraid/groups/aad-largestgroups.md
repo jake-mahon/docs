@@ -1,3 +1,9 @@
+---
+title: entraid groups aad largestgroups
+sidebar_label: aad largestgroups
+description: Solution guide for entraid groups aad largestgroups including implementation steps, configuration, and best practices.
+---
+
 # AAD_LargestGroups Job
 
 The AAD_LargestGroups Job identifies groups with large effective member counts. These groups may

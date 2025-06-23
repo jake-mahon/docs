@@ -1,3 +1,9 @@
+---
+title: memberof
+sidebar_label: memberof
+description: Directory Manager 11.1 documentation for memberof with configuration details, usage instructions, and implementation guidance.
+---
+
 # Contact properties - Member Of tab
 
 Use this tab to view the groups that the contact is a member of. You can also add and remove this

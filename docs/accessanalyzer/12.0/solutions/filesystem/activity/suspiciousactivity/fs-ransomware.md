@@ -1,3 +1,9 @@
+---
+title: filesystem activity suspiciousactivity fs ransomware
+sidebar_label: fs ransomware
+description: Solution guide for filesystem activity suspiciousactivity fs ransomware including implementation steps, configuration, and best practices.
+---
+
 # FS_Ransomware Job
 
 The FS_Ransomware job is comprised of analysis and reports which use the data collected by the

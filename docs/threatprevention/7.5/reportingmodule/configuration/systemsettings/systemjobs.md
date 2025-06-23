@@ -1,3 +1,9 @@
+---
+title: System Jobs Page
+sidebar_label: System Jobs Page
+description: The System Jobs page within the System Settings interface contains information and configuration options for the application system jobs.
+---
+
 # System Jobs Page
 
 The System Jobs page within the System Settings interface contains information and configuration

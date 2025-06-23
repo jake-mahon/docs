@@ -1,3 +1,9 @@
+---
+title: dropbox recommended
+sidebar_label: recommended
+description: Solution guide for dropbox recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the Dropbox Solution
 
 The Dropbox Solution requires the host list to be assigned and the Connection Profile configured

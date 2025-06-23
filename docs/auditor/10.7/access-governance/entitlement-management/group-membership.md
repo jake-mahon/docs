@@ -1,3 +1,9 @@
+---
+title: group membership
+sidebar_label: group-membership
+description: Auditor 10.7 documentation for group membership with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group Membership Window
 
 When a group trustee appears in the Trustee Name column of a review, it appears as a blue hyperlink

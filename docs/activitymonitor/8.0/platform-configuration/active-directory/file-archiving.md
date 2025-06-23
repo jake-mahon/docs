@@ -1,3 +1,9 @@
+---
+title: Active Directory File Archive Repository
+sidebar_label: File Archiving
+description: Configure file archive repository for Active Directory logs with network share storage and Access Analyzer integration for centralized data collection.
+---
+
 # File Archive Repository Option
 
 As an alternative to using an API Server, Netwrix Activity Monitor can be configured to store all

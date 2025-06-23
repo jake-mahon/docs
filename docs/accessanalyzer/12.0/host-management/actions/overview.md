@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Host Management Activities
 
 The Activities pane available at the Host Management node and at the individual host list nodes

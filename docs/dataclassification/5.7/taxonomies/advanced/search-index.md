@@ -1,3 +1,9 @@
+---
+title: Search Index
+sidebar_label: Search Index
+description: Netwrix Data Classification uses two mathematical principles to achieve its results: Bayesian inference is used to determine the weightings to be applied to...
+---
+
 # Search Index
 
 Netwrix Data Classification uses two mathematical principles to achieve its results:

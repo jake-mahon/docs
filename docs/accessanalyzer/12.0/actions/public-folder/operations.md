@@ -1,3 +1,9 @@
+---
+title: operations
+sidebar_label: operations
+description: Documentation for operations functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: Operations
 
 Use the Operations page to specify the operations to perform as part of the action.

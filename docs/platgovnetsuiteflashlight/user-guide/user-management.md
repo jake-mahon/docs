@@ -1,3 +1,9 @@
+---
+title: User Management Reports
+sidebar_label: User Management
+description: Employee-related reports for managing NetSuite users, including standard roles, unused logins, access grants, and inactive user analysis.
+---
+
 # User Management Reports
 
 Flashlight provides a set of reports that give you insight into Employee-related changes and

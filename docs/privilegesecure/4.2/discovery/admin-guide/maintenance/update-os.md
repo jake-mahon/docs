@@ -1,3 +1,9 @@
+---
+title: Update Privilege Secure OS on Appliances
+sidebar_label: update os
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Update Privilege Secure OS on Appliances
 
 Update Privilege Secure OS on Appliances

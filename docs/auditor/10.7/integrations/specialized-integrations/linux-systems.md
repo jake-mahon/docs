@@ -1,3 +1,9 @@
+---
+title: linux systems
+sidebar_label: linux-systems
+description: Auditor 10.7 documentation for linux systems with configuration details, usage instructions, and implementation guidance.
+---
+
 # Work with Collected Data
 
 Follow the steps to search for collected data:

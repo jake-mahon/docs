@@ -1,3 +1,9 @@
+---
+title: save view
+sidebar_label: save view
+description: Documentation for save view functionality in Access Analyzer including configuration and usage information.
+---
+
 # Save Current View
 
 Use the **Save Current View** option to create a dynamic host list. This option is available from

@@ -1,3 +1,9 @@
+---
+title: certificate management
+sidebar_label: certificate management
+description: Documentation for certificate management functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA Applet Certificate Management Overview
 
 Communication between the FSAA Data Collector and the FSAA Applet is secure by default using HTTPS.

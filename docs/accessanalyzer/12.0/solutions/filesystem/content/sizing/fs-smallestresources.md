@@ -1,3 +1,9 @@
+---
+title: filesystem content sizing fs smallestresources
+sidebar_label: fs smallestresources
+description: Solution guide for filesystem content sizing fs smallestresources including implementation steps, configuration, and best practices.
+---
+
 # FS_SmallestResources Job
 
 The FS_SmallestResources job is designed to report on the smallest resources from targeted file

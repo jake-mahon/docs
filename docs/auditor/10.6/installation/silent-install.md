@@ -1,3 +1,9 @@
+---
+title: Silent Installation Guide
+sidebar_label: Silent Install
+description: Command-line installation procedures for Netwrix Auditor including silent mode deployment options for server and client components.
+---
+
 # Install in Silent Mode
 
 Silent installation provides a convenient method for deploying Netwrix Auditor without UI.

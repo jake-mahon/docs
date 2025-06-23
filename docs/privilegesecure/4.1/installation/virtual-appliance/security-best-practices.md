@@ -1,3 +1,9 @@
+---
+title: Security Best Practices
+sidebar_label: security best practices
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Security Best Practices
 
 Review the following recommendations to harden the solution security:

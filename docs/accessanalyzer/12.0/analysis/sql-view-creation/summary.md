@@ -1,3 +1,9 @@
+---
+title: summary
+sidebar_label: summary
+description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLViewCreation: Summary
 
 This page provides an overview of all the settings configured in the wizard.

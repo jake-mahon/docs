@@ -1,3 +1,9 @@
+---
+title: Elevated Process Account Context
+sidebar_label: Account Context
+description: Learn how Least Privilege Manager handles process elevation in the actual user context without creating special admin accounts or temporary users.
+---
+
 # Which account does an elevated process run within?
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager does not need a special

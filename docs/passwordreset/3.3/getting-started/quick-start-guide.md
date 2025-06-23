@@ -1,6 +1,8 @@
-# Conclusion
-
-Conclusion
+---
+title: Password Reset Quick Start Guide
+sidebar_label: Quick Start
+description: Complete quick start guide for Password Reset including conclusion, advanced configuration options, and next steps for full implementation.
+---
 
 # Conclusion
 

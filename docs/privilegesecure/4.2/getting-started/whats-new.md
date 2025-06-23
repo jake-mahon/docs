@@ -1,3 +1,9 @@
+---
+title: What's New in Latest Version
+sidebar_label: What's New
+description: Initial setup and configuration steps to enable activity-based sessions and privileged access management functionality.
+---
+
 # What's New
 
 ## New Netwrix Community!

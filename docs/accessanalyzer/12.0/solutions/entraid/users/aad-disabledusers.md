@@ -1,3 +1,9 @@
+---
+title: entraid users aad disabledusers
+sidebar_label: aad disabledusers
+description: Solution guide for entraid users aad disabledusers including implementation steps, configuration, and best practices.
+---
+
 # AAD_DisabledUsers Job
 
 The AAD_DisabledUsers Job identifies disabled user accounts within Microsoft Entra ID. These

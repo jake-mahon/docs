@@ -1,3 +1,9 @@
+---
+title: SharePoint Content Type Hubs
+sidebar_label: Sharepoint Content Hubs
+description: SharePoint 2010+ supports Enterprise Content Types allowing Content Types to be defined on a Publishing SharePoint site with one or more secondary sites...
+---
+
 # SharePoint Content Type Hubs
 
 SharePoint 2010+ supports Enterprise Content Types allowing Content Types to be defined on a

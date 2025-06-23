@@ -1,3 +1,9 @@
+---
+title: summary
+sidebar_label: summary
+description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # WMICollector: Summary (Results)
 
 The Summary page, or Results page, displays a summary of the configured query.

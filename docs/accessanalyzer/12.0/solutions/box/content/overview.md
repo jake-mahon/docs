@@ -1,3 +1,9 @@
+---
+title: box content overview
+sidebar_label: overview
+description: Solution guide for box content overview including implementation steps, configuration, and best practices.
+---
+
 # 2.Content Job Group
 
 The 2.Content Job Group analyzes and summarizes the content of the targeted Box environment,

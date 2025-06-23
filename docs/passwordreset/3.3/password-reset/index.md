@@ -1,6 +1,8 @@
-# Administration
-
-Administration
+---
+title: Password Reset Administration Overview
+sidebar_label: Administration
+description: Overview of Password Reset administration benefits including reduced costs, increased productivity, improved security, and higher availability for organizations.
+---
 
 # Administration
 

@@ -1,3 +1,9 @@
+---
+title: active directory activity changes ad user modifications
+sidebar_label: ad user modifications
+description: Solution guide for active directory activity changes ad user modifications including implementation steps, configuration, and best practices.
+---
+
 # AD_UserModifications Job
 
 The AD_UserModifications Job provides a report of all changes to user objects.

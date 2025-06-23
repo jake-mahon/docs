@@ -1,3 +1,9 @@
+---
+title: Report Wizard Overview
+sidebar_label: Overview
+description: Overview of the report wizard providing step-by-step guidance for creating custom reports in Access Analyzer.
+---
+
 # Report Configuration Wizard
 
 You can use the Report Configuration Wizard to configure reports. The wizard can be launched for an

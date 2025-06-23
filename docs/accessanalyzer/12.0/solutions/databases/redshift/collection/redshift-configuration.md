@@ -1,3 +1,9 @@
+---
+title: databases redshift collection redshift configuration
+sidebar_label: redshift configuration
+description: Solution guide for databases redshift collection redshift configuration including implementation steps, configuration, and best practices.
+---
+
 # Redshift_Configuration Job
 
 The Redshift_Configuration job returns additional configuration settings from Redshift servers.

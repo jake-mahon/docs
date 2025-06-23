@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Installation Overview
+sidebar_label: Installation
+description: Comprehensive guide for installing Activity Monitor console and deploying agents with software compatibility requirements and version information.
+---
+
 # Installation
 
 This topic describes the console installation and agent deployment the process for Activity Monitor.

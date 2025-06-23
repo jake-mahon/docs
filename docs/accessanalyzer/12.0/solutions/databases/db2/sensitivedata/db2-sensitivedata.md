@@ -1,3 +1,9 @@
+---
+title: databases db2 sensitivedata db2 sensitivedata
+sidebar_label: db2 sensitivedata
+description: Solution guide for databases db2 sensitivedata db2 sensitivedata including implementation steps, configuration, and best practices.
+---
+
 # Db2_SensitiveData Job
 
 This job provides information on all the sensitive data that was discovered in the targeted Db2

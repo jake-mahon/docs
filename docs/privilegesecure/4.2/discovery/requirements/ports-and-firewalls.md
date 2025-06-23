@@ -1,3 +1,9 @@
+---
+title: Port, Firewall, and Datacenter Requirements
+sidebar_label: ports and firewalls
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Port, Firewall, and Datacenter Requirements
 
 Port, Firewall, and Datacenter Requirements

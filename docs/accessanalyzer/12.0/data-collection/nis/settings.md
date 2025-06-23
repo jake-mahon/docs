@@ -1,3 +1,9 @@
+---
+title: settings
+sidebar_label: settings
+description: Documentation for settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # NIS: NIS Settings
 
 The NIS Settings page is where the NIS domain and a NIS server are configured for testing. It is a

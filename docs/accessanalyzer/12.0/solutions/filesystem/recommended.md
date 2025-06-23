@@ -1,3 +1,9 @@
+---
+title: filesystem recommended
+sidebar_label: recommended
+description: Solution guide for filesystem recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration for the File System Solution
 
 The File System Solution has been configured to inherit down from the **FileSystem** > **Settings**

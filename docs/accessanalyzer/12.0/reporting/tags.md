@@ -1,3 +1,9 @@
+---
+title: Report Tags Management
+sidebar_label: Tags
+description: Report tags management for organizing and categorizing reports with metadata labels and keywords.
+---
+
 # Tags
 
 Tags can be added to reports to describe the content of the report and use cases for the report. For

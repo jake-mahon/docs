@@ -1,3 +1,9 @@
+---
+title: Working Others Using Central Store
+sidebar_label: Central Store Work
+description: Learn how to share PAKs with other administrators by using the Central Store, enabling collaborative management and consistent policy deployment across teams.
+---
+
 # Working with Others and using the Central Store
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SPH1IrHpgDM" title="Endpoint Policy Manager: Working with Others and using the Central Store" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

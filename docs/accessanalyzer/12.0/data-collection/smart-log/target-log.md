@@ -1,3 +1,9 @@
+---
+title: target log
+sidebar_label: target log
+description: Documentation for target log functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Target Log
 
 The Target Log page is where logs are selected to be collected. There are three versions of this

@@ -1,3 +1,9 @@
+---
+title: Password Rules Configuration Overview
+sidebar_label: Rules Overview
+description: Overview of Password Policy Enforcer rules for password validation including character substitution detection and tolerance settings.
+---
+
 # Rules
 
 Netwrix Password Policy Enforcer uses rules to decide if it should accept or reject a password. Each

@@ -1,3 +1,9 @@
+---
+title: Additional Configuration
+sidebar_label: Additional Config
+description: This section contains information on additional and / or optional tabs. Review the following for additional information: | Tab | Description | |... Learn mor...
+---
+
 # Additional Configuration
 
 This section contains information on additional and / or optional tabs. Review the following for

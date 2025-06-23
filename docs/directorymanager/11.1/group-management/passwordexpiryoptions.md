@@ -1,3 +1,9 @@
+---
+title: passwordexpiryoptions
+sidebar_label: passwordexpiryoptions
+description: Directory Manager 11.1 documentation for passwordexpiryoptions with configuration details, usage instructions, and implementation guidance.
+---
+
 # Query Designer - Password Expiry Options tab
 
 The **Password Expiry Options** tab is only available for password expiry groups. You can create a

@@ -1,3 +1,9 @@
+---
+title: databases mongodb collection mongodb configuration
+sidebar_label: mongodb configuration
+description: Solution guide for databases mongodb collection mongodb configuration including implementation steps, configuration, and best practices.
+---
+
 # MongoDB_Configuration Job
 
 The MongoDB_Configuration job is designed to collect MongoDB server instance and database

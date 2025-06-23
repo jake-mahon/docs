@@ -1,3 +1,9 @@
+---
+title: Enforced Encryption Module
+sidebar_label: Enforced Encryption
+description: Cross-platform USB encryption solution with 256-bit AES encryption for secure data transfer and storage on portable devices.
+---
+
 # Enforced Encryption
 
 Enforced Encryption, Formerly known as EasyLock, is a cross-platform solution that protects data

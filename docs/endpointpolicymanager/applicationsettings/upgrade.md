@@ -1,3 +1,9 @@
+---
+title: Upgrading Application Manager
+sidebar_label: Upgrade
+description: Learn how to upgrade Application Manager components when upgrading domain controllers and servers in your environment.
+---
+
 # How do I upgrade Application Manager when I upgrade my DCs / servers?
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) isn't "running" on any server.

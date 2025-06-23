@@ -1,3 +1,9 @@
+---
+title: Threat Manager API
+sidebar_label: Threat Manager
+description: Threat Manager integration API for reporting module connectivity, data synchronization, and configuration management.
+---
+
 # Netwrix Threat Manager APIs
 
 The following APIs are related to where Threat Prevention sends the event data to, and how to
@@ -30,7 +36,7 @@ There are three methods available for data output:
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-    _Remember,_ the port number for Activity Monitor is 4498.
+  _Remember,_ the port number for Activity Monitor is 4498.
 
 The following parameter(s) are required:
 
@@ -79,13 +85,13 @@ Honey Token threat.
 The following parameter(s) are required:
 
 - Enable [Bool]
-    - 1 to enable
-    - 0 to disable
+  - 1 to enable
+  - 0 to disable
 - ReplacementSamAccountName
 - SourceSamAccountName
 - SubstitutionType
-    - 1 for exact match
-    - 2 for a substring
+  - 1 for exact match
+  - 2 for a substring
 
 Example of LDAP Deception parameters:
 

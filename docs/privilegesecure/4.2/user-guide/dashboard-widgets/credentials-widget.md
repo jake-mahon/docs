@@ -1,3 +1,9 @@
+---
+title: Credentials Dashboard
+sidebar_label: credentials widget
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Credentials Dashboard
 
 The Credentials dashboard shows all accounts discovered within your environment. It is specifically

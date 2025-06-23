@@ -1,3 +1,9 @@
+---
+title: Use Tagging
+sidebar_label: Tagging
+description: Tagging in Netwrix Data Classification means writing classification attributes back to the content files. Tagging enables external systems (that is, not...
+---
+
 # Use Tagging
 
 ## Overview

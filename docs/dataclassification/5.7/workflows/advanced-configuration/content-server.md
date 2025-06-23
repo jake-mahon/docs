@@ -1,3 +1,9 @@
+---
+title: Advanced Actions for Content Server
+sidebar_label: Content Server
+description: In addition to the Email Alert ,Migrate Document and additional classification actions, for the documents stored on your Content Server you can instruct the...
+---
+
 # Advanced Actions for Content Server
 
 In addition to the **Email Alert** ,**Migrate Document** and additional classification actions, for

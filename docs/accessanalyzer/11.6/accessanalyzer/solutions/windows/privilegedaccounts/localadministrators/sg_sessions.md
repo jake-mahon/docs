@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts localadministrators sg_sessions
+sidebar_label: sg_sessions
+description: Solution guide for windows privilegedaccounts localadministrators sg_sessions including implementation steps, configuration, and best practices.
+---
+
 # SG_Sessions Job
 
 The SG_Sessions job lists sessions and logged on users from all targeted hosts. These active

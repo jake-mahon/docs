@@ -1,3 +1,9 @@
+---
+title: active directory group policy overview
+sidebar_label: overview
+description: Solution guide for active directory group policy overview including implementation steps, configuration, and best practices.
+---
+
 # 4.Group Policy Job Group
 
 The 4.Group Policy Job Group audits GPOs and their settings, and provides in depth analysis of

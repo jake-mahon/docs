@@ -1,3 +1,9 @@
+---
+title: Template Configuration
+sidebar_label: Template Configuration
+description: A Threat Prevention template has many elements that define the objects and events it monitors or blocks, where it looks in networks, and when it is active. T...
+---
+
 # Template Configuration
 
 A Threat Prevention template has many elements that define the objects and events it monitors or

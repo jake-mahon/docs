@@ -1,3 +1,9 @@
+---
+title: MDM and UEM Tools Overview
+sidebar_label: Overview
+description: Deploy PolicyPak directives without Group Policy using Microsoft Intune, SCCM, KACE, and other mobile device management and unified endpoint management tools.
+---
+
 # MDM & UEM Tools
 
 Deploying PolicyPak Directives without Group Policy

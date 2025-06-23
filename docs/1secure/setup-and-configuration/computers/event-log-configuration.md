@@ -1,3 +1,9 @@
+---
+title: Event Log Size and Retention
+sidebar_label: Event Log Configuration
+description: Configure event log size and retention settings for optimal computer monitoring and audit data collection performance.
+---
+
 # Configure Event Log Size and Retention Settings
 
 The procedure below describes one of the possible ways to adjust event log settings. If you have

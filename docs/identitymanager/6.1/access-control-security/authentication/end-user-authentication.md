@@ -1,3 +1,9 @@
+---
+title: End-User Authentication Configuration
+sidebar_label: Authentication
+description: Configure authentication methods for Usercube including internal and external providers supporting OAuth 2.0, SAML2, and Windows authentication.
+---
+
 # End-User Authentication
 
 ## Overview

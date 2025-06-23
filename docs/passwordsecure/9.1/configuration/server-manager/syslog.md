@@ -1,3 +1,9 @@
+---
+title: Syslog Server Configuration
+sidebar_label: Syslog
+description: Configure Syslog server integration for transferring Password Secure server logs and logbook entries through database settings interface.
+---
+
 # Syslog
 
 If desired, the server logs and also the

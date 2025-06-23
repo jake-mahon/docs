@@ -1,3 +1,7 @@
+title: Command Line Agent Installation
+sidebar_label: Command Line Options
+description: Use ChangeTracker Gen 7 Agent EXE installer via command line with pre-configured HubDetails.xml for scripted deployment options.
+
 # Scripted/Command Line Use of Gen 7 Agent EXE Installer
 
 By co-locating a pre-configured **HubDetails.xml** file in the same folder as the Gen 7 Agent

@@ -1,3 +1,9 @@
+---
+title: Getting Started: wizard
+sidebar_label: wizard
+description: Getting started guide for wizard in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Installing the SharePoint Agent
 
 The installer will prompt for credentials which are used to set the identity that the SharePoint

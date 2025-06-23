@@ -1,3 +1,9 @@
+---
+title: sharepoint activity usagestatistics overview
+sidebar_label: overview
+description: Solution guide for sharepoint activity usagestatistics overview including implementation steps, configuration, and best practices.
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics job group identifies long term trends of activity across your SharePoint

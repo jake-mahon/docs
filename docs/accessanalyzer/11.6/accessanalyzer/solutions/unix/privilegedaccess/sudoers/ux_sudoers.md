@@ -1,3 +1,9 @@
+---
+title: Unix Sudoers Configuration Analysis
+sidebar_label: Sudoers
+description: Unix sudoers configuration analysis for monitoring sudo access privileges and administrative command permissions.
+---
+
 # UX_Sudoers Job
 
 The UX_Sudoers job provides visibility into all rights granted via sudoers within audited Unix and

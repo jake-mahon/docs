@@ -1,3 +1,9 @@
+---
+title: Scheduled Tasks Page
+sidebar_label: scheduled tasks
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Scheduled Tasks Page
 
 On the Scheduled Tasks page, view scheduled tasks run by the console.

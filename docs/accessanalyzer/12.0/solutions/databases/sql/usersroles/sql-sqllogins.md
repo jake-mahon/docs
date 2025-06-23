@@ -1,3 +1,9 @@
+---
+title: databases sql usersroles sql sqllogins
+sidebar_label: sql sqllogins
+description: Solution guide for databases sql usersroles sql sqllogins including implementation steps, configuration, and best practices.
+---
+
 # SQL_SQLLogins Job
 
 The SQL_SQLLogins Job provides information on successful and failed SQL server logins across all

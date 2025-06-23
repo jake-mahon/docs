@@ -1,3 +1,9 @@
+---
+title: Import the License File
+sidebar_label: license management
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Import the License File
 
 Netwrix Privilege Secure comes with a temporary 30-day trial license. a banner at the top indicates

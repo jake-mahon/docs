@@ -1,3 +1,9 @@
+---
+title: filesystem cleanup delete fs deletefiles
+sidebar_label: fs deletefiles
+description: Solution guide for filesystem cleanup delete fs deletefiles including implementation steps, configuration, and best practices.
+---
+
 # FS_DeleteFiles Job
 
 The FS_DeleteFiles job is designed to delete resources from targeted file servers that were

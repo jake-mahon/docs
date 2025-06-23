@@ -1,3 +1,9 @@
+---
+title: sms gateway
+sidebar_label: sms-gateway
+description: Directory Manager 11.0 documentation for sms gateway with configuration details, usage instructions, and implementation guidance.
+---
+
 # ISmsGateway.AccountId
 
 Gets or sets the account ID for connecting with the SMS gateway.

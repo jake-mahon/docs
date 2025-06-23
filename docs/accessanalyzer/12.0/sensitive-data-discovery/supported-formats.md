@@ -1,3 +1,9 @@
+---
+title: supported formats
+sidebar_label: supported formats
+description: Documentation for supported formats functionality in Access Analyzer including configuration and usage information.
+---
+
 # Supported Formats for Scanning & Metadata
 
 This topic provides a comprehensive listing of all formats supported by Sensitive Data Discovery.

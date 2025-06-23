@@ -1,3 +1,9 @@
+---
+title: settings notification settings
+sidebar_label: notification-settings
+description: Auditor 10.6 administration guide for settings notification settings configuration and management.
+---
+
 # Notifications
 
 SMTP settings are configured when you create the first monitoring plan in the New monitoring plan

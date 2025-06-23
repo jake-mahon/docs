@@ -1,3 +1,9 @@
+---
+title: permissions
+sidebar_label: permissions
+description: Auditor 10.6 documentation for permissions with configuration details, usage instructions, and implementation guidance.
+---
+
 # Permissions for Active Directory Auditing
 
 Before you start creating a monitoring plan to audit your Active Directory, plan for the account

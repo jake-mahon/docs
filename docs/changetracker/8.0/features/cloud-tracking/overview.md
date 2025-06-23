@@ -1,3 +1,9 @@
+---
+title: Cloud Tracking Overview
+sidebar_label: Overview
+description: Automated container and cloud security posture management with continuous monitoring for agile cloud environments and container deployments.
+---
+
 # Cloud Tracker
 
 When it comes to Automated Container and Cloud Security Posture Management, in contrast to the

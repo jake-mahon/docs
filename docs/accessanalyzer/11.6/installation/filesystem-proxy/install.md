@@ -1,3 +1,9 @@
+---
+title: Installation: install
+sidebar_label: install
+description: Installation guide for install including system requirements, setup procedures, and configuration options.
+---
+
 # File System Proxy as a Service Overview
 
 The File System Solution can be enabled to use proxy servers for scanning targeted file systems in

@@ -1,3 +1,9 @@
+---
+title: Splunk (JSON) Source Type
+sidebar_label: splunk json
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Splunk (JSON) Source Type
 
 Splunk (JSON) Source Type

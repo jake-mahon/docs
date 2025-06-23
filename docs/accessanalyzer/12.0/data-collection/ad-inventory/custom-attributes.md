@@ -1,3 +1,9 @@
+---
+title: custom attributes
+sidebar_label: custom attributes
+description: Documentation for custom attributes functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADInventory: Custom Attributes
 
 The Custom Attributes page provides ability to add Active Directory attributes that are unique to

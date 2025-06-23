@@ -1,3 +1,10 @@
+---
+title: Reconnaissance Folder Templates
+sidebar_label: Reconnaissance Folder Templates
+description: The Reconnaissance folder contains the following templates: | Template                                                        | Description                  ...
+
+---
+
 # Reconnaissance Folder Templates
 
 The Reconnaissance folder contains the following templates:

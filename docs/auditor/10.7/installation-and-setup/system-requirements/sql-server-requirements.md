@@ -1,3 +1,9 @@
+---
+title: sql server requirements
+sidebar_label: sql-server-requirements
+description: Auditor 10.7 documentation for sql server requirements with configuration details, usage instructions, and implementation guidance.
+---
+
 # Requirements for SQL Server to Store Audit Data
 
 If you plan to generate reports, use alerts and run search queries in Netwrix Auditor, consider that

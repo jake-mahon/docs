@@ -1,3 +1,9 @@
+---
+title: test survey
+sidebar_label: test survey
+description: Documentation for test survey functionality in Access Analyzer including configuration and usage information.
+---
+
 # Survey: Test Survey
 
 Use this page to test a survey and verify proper configuration.

@@ -1,3 +1,9 @@
+---
+title: Least Privilege Manager Best Practices
+sidebar_label: Best Practices
+description: Best practices for Endpoint Policy Manager Least Privilege Manager. Use signature and file info conditions to overcome UAC prompts securely.
+---
+
 # Best Practices
 
 **NOTE:** See the

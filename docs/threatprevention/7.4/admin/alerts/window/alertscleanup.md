@@ -1,3 +1,9 @@
+---
+title: Alerts Cleanup Window
+sidebar_label: Alerts Cleanup Window
+description: You can clear alert data displayed on the Alerts Interface as well as schedule cleanups for this data.
+---
+
 # Alerts Cleanup Window
 
 You can clear alert data displayed on the
@@ -26,7 +32,7 @@ Follow the steps to clear the alerts data.
   [Alerts Interface](/docs/threatprevention/7.4/admin/alerts/overview.md).
 - Save deleted to File – Saves alert data to a CSV file before it is deleted from the database. On
   clicking Start, the Save As window appears. Specify a file name and location; the default name is
-  “Alerts*Backup*[date]_[timestamp]”. Then click Save.
+  “Alerts*Backup*[date]\_[timestamp]”. Then click Save.
 - Analytics Alerts – Choose to display Threat Prevention analytics alerts in the database and/or
   show them in the Alerts interface. If you choose to display them on the Alerts interface, then
   this data will also be deleted in the cleanup function.

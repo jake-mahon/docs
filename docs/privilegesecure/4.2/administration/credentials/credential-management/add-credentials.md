@@ -1,3 +1,9 @@
+---
+title: Add Credentials Window
+sidebar_label: add credentials
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Credentials Window
 
 The Add Credentials window provides a list of Credentials that have been onboarded and are not

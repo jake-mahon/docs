@@ -1,3 +1,9 @@
+---
+title: suspend
+sidebar_label: suspend
+description: Documentation for suspend functionality in Access Analyzer including configuration and usage information.
+---
+
 # Suspend/Resume Host Inventory
 
 Use the **Suspend Host Inventory** option to pause an in progress inventory.

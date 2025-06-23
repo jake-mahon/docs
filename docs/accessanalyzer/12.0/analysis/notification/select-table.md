@@ -1,3 +1,9 @@
+---
+title: select table
+sidebar_label: select table
+description: Documentation for select table functionality in Access Analyzer including configuration and usage information.
+---
+
 # Notification: Select Table
 
 Select the table containing data on which to trigger a notification. The selection on the Table Type

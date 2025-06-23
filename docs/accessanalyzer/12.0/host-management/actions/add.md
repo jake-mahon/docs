@@ -1,3 +1,9 @@
+---
+title: add
+sidebar_label: add
+description: Documentation for add functionality in Access Analyzer including configuration and usage information.
+---
+
 # Add Hosts
 
 The **Add Hosts** option creates a new host list. It can be accessed through the **Host Management**

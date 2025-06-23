@@ -1,3 +1,9 @@
+---
+title: RADIUS Server Integration
+sidebar_label: RADIUS
+description: Integrate Netwrix Auditor with RADIUS servers for centralized authentication monitoring and security event tracking.
+---
+
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

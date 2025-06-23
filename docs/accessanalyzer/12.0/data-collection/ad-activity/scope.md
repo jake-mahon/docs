@@ -1,3 +1,9 @@
+---
+title: scope
+sidebar_label: scope
+description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADActivity: Scope
 
 Use the Scoping and Retention page to configure additional settings. This page is a wizard page for

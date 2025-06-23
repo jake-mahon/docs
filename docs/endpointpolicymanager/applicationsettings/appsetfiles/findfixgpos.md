@@ -1,3 +1,9 @@
+---
+title: Finding and Fixing DLL Orphans
+sidebar_label: DLL Orphans
+description: Locate and fix Group Policy Objects with missing DLL files using the GPOTouch utility to resolve Endpoint Policy Manager orphan issues.
+---
+
 # Finding and Fixing GPOs with Endpoint Policy Manager DLL Orphans
 
 If someone deletes the DLL for a GPO (either within the Central Storage or Local Store), when you're

@@ -1,3 +1,9 @@
+---
+title: Add Credential Policy Override
+sidebar_label: credential policy overrides
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Credential Policy Override
 
 Follow the steps to add Credential Policy Override to the Privilege Secure Console.

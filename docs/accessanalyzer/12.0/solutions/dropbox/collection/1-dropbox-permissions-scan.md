@@ -1,3 +1,9 @@
+---
+title: dropbox collection 1 dropbox permissions scan
+sidebar_label: 1 dropbox permissions scan
+description: Solution guide for dropbox collection 1 dropbox permissions scan including implementation steps, configuration, and best practices.
+---
+
 # 1-Dropbox_Permissions Scan Job
 
 The 1-Dropbox_Permissions Scan job collects data from the Dropbox environment on access rights,

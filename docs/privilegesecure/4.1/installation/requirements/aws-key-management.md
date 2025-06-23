@@ -1,3 +1,9 @@
+---
+title: AWS Key Management Service
+sidebar_label: aws key management
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # AWS Key Management Service
 
 AWS Key Management Service (AWS KMS) is a managed service that makes it easy for you to create and

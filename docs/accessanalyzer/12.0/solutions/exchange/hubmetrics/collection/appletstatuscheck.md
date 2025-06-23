@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics collection appletstatuscheck
+sidebar_label: appletstatuscheck
+description: Solution guide for exchange hubmetrics collection appletstatuscheck including implementation steps, configuration, and best practices.
+---
+
 # .AppletStatusCheck Job
 
 The .AppletStatusCheck Job checks the health and status of the applet deployed to the target

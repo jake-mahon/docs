@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts sg_serviceaccounts
+sidebar_label: sg_serviceaccounts
+description: Solution guide for windows privilegedaccounts sg_serviceaccounts including implementation steps, configuration, and best practices.
+---
+
 # Service Accounts > SG_ServiceAccounts Job
 
 The SG_ServiceAccounts job determines which domain accounts are being used to run services on member

@@ -1,3 +1,9 @@
+---
+title: anomaly detection
+sidebar_label: anomaly-detection
+description: Auditor 10.7 documentation for anomaly detection with configuration details, usage instructions, and implementation guidance.
+---
+
 # Review Behavior Anomalies Dashboard
 
 To review the Behavior Anomalies dashboard, process and filter anomalies in user profiles, you must

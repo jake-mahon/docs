@@ -1,3 +1,9 @@
+---
+title: Clue Building Reports
+sidebar_label: Clue Building Reports
+description: Review the list of the built-in clue building reports: classifications. For full debugging detail, the trace mode "Classification Calculations" must be enabl...
+---
+
 # Clue Building Reports
 
 Review the list of the built-in clue building reports:

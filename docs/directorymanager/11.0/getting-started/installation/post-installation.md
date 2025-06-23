@@ -1,3 +1,9 @@
+---
+title: post installation
+sidebar_label: post-installation
+description: Directory Manager 11.0 documentation for post installation with configuration details, usage instructions, and implementation guidance.
+---
+
 # Back Up and Restore GroupID Data
 
 This topic provides instructions for backing up and restoring the data from previous versions of

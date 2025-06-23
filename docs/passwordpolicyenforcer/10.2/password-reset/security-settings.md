@@ -1,3 +1,9 @@
+---
+title: Password Reset Security and Permissions
+sidebar_label: Security Settings
+description: Configure permissions and security settings for Password Reset including user access controls and enrollment restrictions.
+---
+
 # Permissions Tab
 
 Use the **Permissions** tab to control which users can use Password Reset.

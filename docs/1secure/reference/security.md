@@ -1,3 +1,9 @@
+---
+title: Security Architecture and Implementation
+sidebar_label: Security
+description: Multi-layer security implementation details for data protection and industry compliance standards in Netwrix 1Secure.
+---
+
 # Security
 
 Netwrix 1Secure implements multiple layers of security to protect your data and ensure compliance with industry standards.

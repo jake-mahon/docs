@@ -1,3 +1,9 @@
+---
+title: Endpoint Policy Manager and MobileIron MDM
+sidebar_label: MobileIron MDM
+description: Deploy Endpoint Policy Manager using MobileIron MDM. Learn to upload MSI files, configure product codes, and set up silent installations.
+---
+
 # Endpoint Policy Manager and MobileIron MDM
 
 **NOTE:** [Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/video/mdm/mobileiron.md) for a video

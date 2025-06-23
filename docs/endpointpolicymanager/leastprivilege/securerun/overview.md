@@ -1,3 +1,9 @@
+---
+title: SecureRun Quick Start Guide
+sidebar_label: Overview
+description: Block unknown software and malware with SecureRun technology while allowing approved applications to run with standard user rights and admin approval.
+---
+
 # Quick Start - Using SecureRun™ to Block Threats and Unknown Software
 
 **NOTE:** For an overview of how to block threats and unknown software like malware and similar

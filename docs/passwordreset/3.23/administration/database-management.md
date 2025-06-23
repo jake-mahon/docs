@@ -1,3 +1,9 @@
+---
+title: Database Management for Password Reset
+sidebar_label: Database Management
+description: Guide to managing Password Reset databases including SQL Server Compact setup, backups, and migration to full SQL Server for enhanced capabilities.
+---
+
 # Working with the Database
 
 The APR Server stores user and event information in a database. The default database is Microsoft

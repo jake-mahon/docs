@@ -1,3 +1,9 @@
+---
+title: Resources Dashboard
+sidebar_label: resources widget
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Resources Dashboard
 
 The Resources dashboard shows information for onboarded resources, such as active and scheduled

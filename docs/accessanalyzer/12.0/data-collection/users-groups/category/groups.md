@@ -1,3 +1,9 @@
+---
+title: groups
+sidebar_label: groups
+description: Documentation for groups functionality in Access Analyzer including configuration and usage information.
+---
+
 # UsersGroups: Groups Category
 
 The Groups Query category collects information for groups in different contexts.

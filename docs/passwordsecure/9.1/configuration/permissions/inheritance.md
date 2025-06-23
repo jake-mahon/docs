@@ -1,3 +1,9 @@
+---
+title: Permission Inheritance from Organizational Structures
+sidebar_label: Permission Inheritance
+description: Configure permission inheritance through organizational structures to reflect company hierarchies and employee dependencies with automated access control.
+---
+
 # Inheritance from organisational structures
 
 ## Organisational structures as a basis

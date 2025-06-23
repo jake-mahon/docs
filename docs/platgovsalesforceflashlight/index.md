@@ -1,3 +1,9 @@
+---
+title: Platform Governance for Salesforce Flashlight
+sidebar_label: Overview
+description: Instant documentation and visibility for Salesforce organizations with automatic documentation, dependency analysis, and visual relationship diagrams.
+---
+
 # Platform Governance for Salesforce Flashlight
 
 > Instant documentation and visibility for Salesforce organizations

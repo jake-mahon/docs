@@ -1,3 +1,9 @@
+---
+title: Install Platform Governance for Salesforce
+sidebar_label: Installation
+description: Step-by-step installation guide for Platform Governance including package installation, connected app configuration, and initial setup requirements.
+---
+
 # Install Platform Governance for Salesforce
 
 Platform Governance for Salesforce is installed with package installation file sent to you by our

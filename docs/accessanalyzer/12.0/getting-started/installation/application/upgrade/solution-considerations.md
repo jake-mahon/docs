@@ -1,3 +1,9 @@
+---
+title: Getting Started: solution considerations
+sidebar_label: solution considerations
+description: Getting started guide for solution considerations in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Solution Upgrade Considerations
 
 The following items must be taken into consideration for upgrades:

@@ -1,3 +1,9 @@
+---
+title: Saved Investigations
+sidebar_label: Saved Investigations
+description: You can apply filters on the Investigate Interface to filter event data as desired. Filters settings can be saved. Follow the steps to save a filtered view.
+---
+
 # Saved Investigations
 
 You can apply filters on the [Investigate Interface](/docs/threatprevention/7.5/admin/investigate/overview.md) to filter event data as desired.

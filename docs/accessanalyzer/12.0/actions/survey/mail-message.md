@@ -1,3 +1,9 @@
+---
+title: mail message
+sidebar_label: mail message
+description: Documentation for mail message functionality in Access Analyzer including configuration and usage information.
+---
+
 # Survey: Mail – Message
 
 Use this page to specify the text of the email. When first accessing this page, the cursor appears

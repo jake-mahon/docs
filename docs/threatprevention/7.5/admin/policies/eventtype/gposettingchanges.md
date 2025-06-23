@@ -1,3 +1,9 @@
+---
+title: GPO Setting Changes Event Type
+sidebar_label: GPO Setting Changes Event
+description: The GPO Setting Changes event type generates events based on rules for specified (or all) GPOs, to report what setting(s) in a GPO are modified.
+---
+
 # GPO Setting Changes Event Type
 
 The GPO Setting Changes event type generates events based on rules for specified (or all) GPOs, to
@@ -33,9 +39,9 @@ In the Group Policy Objects section, scope to specific GPOs:
 - Watch All Group Policy Objects – Includes all GPOs
 - List – Scopes to the specified GPOs
 
-    - The **Add** (+) button opens the
-      [Select Active Directory Group Policy Objects Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/grouppolicyobjects.md).
-    - The Remove (x) button deletes the selected item(s) from that box.
+  - The **Add** (+) button opens the
+    [Select Active Directory Group Policy Objects Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/grouppolicyobjects.md).
+  - The Remove (x) button deletes the selected item(s) from that box.
 
 ## AD Perpetrator Filter
 

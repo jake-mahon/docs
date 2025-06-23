@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # NIS: Category
 
 The Category page is used to identify which type of NIS information to retrieve.

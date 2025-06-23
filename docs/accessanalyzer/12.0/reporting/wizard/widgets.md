@@ -1,3 +1,9 @@
+---
+title: Report Wizard Widgets Configuration
+sidebar_label: Widgets
+description: Widgets configuration in the report wizard for adding and customizing report components and visual elements.
+---
+
 # Widgets Page
 
 The Widgets page of the Report Configuration wizard allows you to configure the tables, charts, and

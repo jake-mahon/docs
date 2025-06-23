@@ -1,3 +1,9 @@
+---
+title: datasource dsodbc API
+sidebar_label: dsodbc
+description: API reference for dsodbc operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a Data Source for ODBC
 
 Use this APi to create a new data source.

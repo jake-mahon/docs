@@ -1,3 +1,9 @@
+---
+title: Application Manager Knowledge Base
+sidebar_label: Knowledge Base
+description: Access Application Manager knowledge base articles covering configuration, operation, troubleshooting, and best practices.
+---
+
 # Knowledge Base
 
 See the following Knowledge Base articles for Application Manager.

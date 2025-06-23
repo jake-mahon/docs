@@ -1,3 +1,9 @@
+---
+title: Installation: license
+sidebar_label: license
+description: Installation guide for license including system requirements, setup procedures, and configuration options.
+---
+
 # Update License Key
 
 It is necessary to install a new license key for an existing Enterprise Auditor installation due to

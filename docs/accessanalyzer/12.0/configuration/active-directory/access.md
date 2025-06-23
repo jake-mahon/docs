@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # Active Directory Auditing Configuration
 
 The Access Analyzer for Active Directory Solution is compatible with the following Active Directory

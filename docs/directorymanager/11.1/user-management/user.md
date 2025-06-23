@@ -1,3 +1,9 @@
+---
+title: user
+sidebar_label: user
+description: Directory Manager 11.1 documentation for user with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create an AD User
 
 In Directory Manager portal, you can create mail-enabled and non mail-enabled users.

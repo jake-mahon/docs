@@ -1,3 +1,9 @@
+---
+title: Target Environments
+sidebar_label: target systems
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Target Environments
 
 Netwrix Privilege Secure supports management of the following target environments:

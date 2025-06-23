@@ -1,3 +1,9 @@
+---
+title: .NET Script Actions
+sidebar_label: .NET Script Actions
+description: A Visual Basic or C# script can be written and assigned to a policy by users or a Netwrix Engineer via engaging Netwrix Professional Services. The script wil...
+---
+
 # .NET Script Actions
 
 A Visual Basic or C# script can be written and assigned to a policy by users or a Netwrix Engineer
@@ -22,8 +28,8 @@ window.
 - Description – Provide a clear and detailed description for this .NET Script action. This is
   optional but recommended.
 - Select the radio button for the script language being used:
-    - Visual Basic
-    - C#
+  - Visual Basic
+  - C#
 - Click **Edit…** to open the Threat Prevention Script Editor window and provide the script
 
 ![Script Editor for .Net Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorfornet.webp)

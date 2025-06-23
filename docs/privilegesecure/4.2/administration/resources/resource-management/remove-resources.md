@@ -1,3 +1,9 @@
+---
+title: Remove Resource Window
+sidebar_label: remove resources
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Remove Resource Window
 
 Use the Remove Resources window to remove a selected resource from the database.

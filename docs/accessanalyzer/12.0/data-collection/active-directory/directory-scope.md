@@ -1,3 +1,9 @@
+---
+title: directory scope
+sidebar_label: directory scope
+description: Documentation for directory scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ActiveDirectory: Directory Scope
 
 The Directory Scope page provides configuration settings for the directory connection and the scope

@@ -1,3 +1,9 @@
+---
+title: User Behavior Analytics Dashboard
+sidebar_label: User Behavior Analytics Dashboard
+description: The User Behavior Analytics dashboard uses the functionality of the Machine Learning Toolkit app to analyze authentication behavior recorded by Threat Preven...
+---
+
 # User Behavior Analytics Dashboard
 
 The User Behavior Analytics dashboard uses the functionality of the Machine Learning Toolkit app to

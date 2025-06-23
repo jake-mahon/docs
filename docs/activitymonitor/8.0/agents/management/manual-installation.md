@@ -1,3 +1,9 @@
+---
+title: Manually Install Activity Agent
+sidebar_label: Manual Installation
+description: Step-by-step guide for manually installing Activity Monitor agents including MSI package location and installation parameters.
+---
+
 # Manually Install the Activity Agent
 
 The Netwrix Activity Monitor Agent can be deployed via the console or manually.

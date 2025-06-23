@@ -1,3 +1,7 @@
+title: Getting Started Overview
+sidebar_label: Getting Started
+description: Complete guide to installing, configuring, and implementing Recovery for Active Directory including initial setup and configuration steps.
+
 # Getting Started
 
 This topic provides information on installing and configuring Netwrix Recovery for Active Directory,

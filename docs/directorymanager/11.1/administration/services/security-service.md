@@ -1,3 +1,9 @@
+---
+title: security service
+sidebar_label: security-service
+description: Directory Manager 11.1 documentation for security service with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create a Security Service
 
 You can create a Security service in native IIS, remote IIS, and Docker.

@@ -1,3 +1,9 @@
+---
+title: Getting Started: online ports
+sidebar_label: online ports
+description: Getting started guide for online ports in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # SharePoint Online Ports
 
 One of the following ports must be open for communication between Access Analyzer and the SharePoint

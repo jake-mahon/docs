@@ -1,3 +1,9 @@
+---
+title: description
+sidebar_label: description
+description: Documentation for description functionality in Access Analyzer including configuration and usage information.
+---
+
 # ServiceNow Action: Description
 
 The Description page provides details on the incidents entered into a field on the Incident Creation

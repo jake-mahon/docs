@@ -1,3 +1,9 @@
+---
+title: Application Log CheatSheet Basics
+sidebar_label: application log basics
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Application Log CheatSheet Basics
 
 Application Log CheatSheet Basics

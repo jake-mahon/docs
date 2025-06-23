@@ -1,3 +1,9 @@
+---
+title: Remove Contact PowerShell Cmdlet
+sidebar_label: Remove-Contact
+description: PowerShell cmdlet reference for Remove-Contact that deletes contacts from the directory with parameter details and syntax examples.
+---
+
 # Remove-Contact
 
 Use the Remove-Contact cmdlet to delete a contact from the directory.

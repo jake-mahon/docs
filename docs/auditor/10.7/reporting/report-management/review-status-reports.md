@@ -1,3 +1,9 @@
+---
+title: review status reports
+sidebar_label: review-status-reports
+description: Auditor 10.7 documentation for review status reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Interactive Reports for Change Management Workflow
 
 Change management is one of the critical processes for many companies referring to such areas as

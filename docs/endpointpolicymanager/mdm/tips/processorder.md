@@ -1,3 +1,9 @@
+---
+title: Understanding XML Data Files Processing Order
+sidebar_label: Processing Order
+description: Learn how Endpoint Policy Manager processes XML data files. Understand precedence rules where groups process first, then users, then computer settings.
+---
+
 # Understanding Processing Order of XML Data Files
 
 Once a Endpoint Policy Manager license XML file or Endpoint Policy Manager XML data file is

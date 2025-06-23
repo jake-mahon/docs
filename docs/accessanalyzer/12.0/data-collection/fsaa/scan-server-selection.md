@@ -1,3 +1,9 @@
+---
+title: scan server selection
+sidebar_label: scan server selection
+description: Documentation for scan server selection functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Scan Server Selection
 
 The Scan Server Selection page is where the server that executes the scan is configured. It is a

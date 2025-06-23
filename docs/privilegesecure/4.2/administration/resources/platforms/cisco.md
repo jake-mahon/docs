@@ -1,3 +1,9 @@
+---
+title: Cisco Platform Policy Configuration
+sidebar_label: cisco
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Cisco Platform Policy Configuration
 
 The Cisco menu displays the configuration options for Cisco platforms.

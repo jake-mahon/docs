@@ -1,3 +1,9 @@
+---
+title: Uninstalling Password Policy Enforcer
+sidebar_label: Uninstalling
+description: Step-by-step guide to uninstalling Password Policy Enforcer from your environment including cleanup procedures.
+---
+
 # Uninstall Netwrix Password Policy Enforcer
 
 Follow the steps to uninstall Password Policy Enforcer.

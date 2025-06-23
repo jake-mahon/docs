@@ -1,3 +1,9 @@
+---
+title: box activity usagestatistics overview
+sidebar_label: overview
+description: Solution guide for box activity usagestatistics overview including implementation steps, configuration, and best practices.
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics Job Group identifies long term trends of activity and usage statistics across

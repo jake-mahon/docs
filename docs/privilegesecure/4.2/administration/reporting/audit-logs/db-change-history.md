@@ -1,3 +1,9 @@
+---
+title: DB Change History Page
+sidebar_label: db change history
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # DB Change History Page
 
 The DB Change History page shows the database entries (Additions, Updates, Deletes). From here,

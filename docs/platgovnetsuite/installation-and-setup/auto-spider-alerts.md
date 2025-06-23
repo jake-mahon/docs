@@ -1,3 +1,9 @@
+---
+title: Setting Up AutoSpider and Alerts
+sidebar_label: AutoSpider Setup
+description: Configure AutoSpider portlet and alerts to monitor NetSuite customization changes automatically and maintain accurate change tracking.
+---
+
 # Setting Up the AutoSpider and Alerts
 
 After you have run your initial spider, the AutoSpider monitors your account on an ongoing basis to

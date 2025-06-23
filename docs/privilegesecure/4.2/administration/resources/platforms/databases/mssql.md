@@ -1,3 +1,9 @@
+---
+title: Add New Database
+sidebar_label: mssql
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add New Database
 
 Follow the steps to add a database to the Privilege SecureConsole. Supported database platforms

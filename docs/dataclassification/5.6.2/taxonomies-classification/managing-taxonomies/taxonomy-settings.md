@@ -1,3 +1,9 @@
+---
+title: Multi-User Environments
+sidebar_label: Taxonomy Settings
+description: When several users are maintaining the taxonomy structure simultaneously there is a need to prevent concurrent access to individual classes so that one user’...
+---
+
 # Multi-User Environments
 
 When several users are maintaining the taxonomy structure simultaneously there is a need to prevent

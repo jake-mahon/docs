@@ -1,3 +1,9 @@
+---
+title: Change and Approval Policy Concepts
+sidebar_label: Approval Policies
+description: Understanding change and approval policies that define approval requirements, risk levels, and compliance management for NetSuite customizations.
+---
+
 # Change and Approval Policy
 
 The Advanced Change Management system uses a set of policy records called Change and Approval

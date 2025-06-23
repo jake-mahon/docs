@@ -1,3 +1,9 @@
+---
+title: role based access Administration
+sidebar_label: role based access
+description: Administration guide for role based access including configuration, management, and best practices for Access Analyzer.
+---
+
 # Assign User to Role Members
 
 Role Based Access becomes enabled within Enterprise Auditor as soon as the first role has been

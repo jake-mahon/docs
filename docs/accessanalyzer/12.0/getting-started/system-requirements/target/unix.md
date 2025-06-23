@@ -1,3 +1,9 @@
+---
+title: Getting Started: unix
+sidebar_label: unix
+description: Getting started guide for unix in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Target Unix Requirements, Permissions, and Ports
 
 The Access Analyzer for Unix Solution provides the ability to audit Unix servers. It scans:

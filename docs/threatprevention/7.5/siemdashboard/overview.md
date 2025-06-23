@@ -1,3 +1,9 @@
+---
+title: SIEM Dashboard Integrations
+sidebar_label: SIEM Dashboards
+description: Integration guide for Threat Prevention with IBM QRadar and Splunk SIEM platforms including custom apps and output viewer capabilities.
+---
+
 # SIEM Dashboards
 
 Threat Prevention (formerly StealthINTERCEPT) can seamlessly integrate with all SIEM dashboards that

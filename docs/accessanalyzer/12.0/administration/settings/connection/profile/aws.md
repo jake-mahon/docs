@@ -1,3 +1,9 @@
+---
+title: aws Administration
+sidebar_label: aws
+description: Administration guide for aws including configuration, management, and best practices for Access Analyzer.
+---
+
 # Amazon Web Services for User Credentials
 
 The information in this section applies to **Select Account Type > Amazon Web Services** account

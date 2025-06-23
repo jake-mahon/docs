@@ -1,3 +1,9 @@
+---
+title: EPE REST Site Overview
+sidebar_label: EPE REST Site
+description: Enterprise Password Enforcer REST Site configuration for third-party integrations, account management, and password validation services.
+---
+
 # EPE Rest Site
 
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat

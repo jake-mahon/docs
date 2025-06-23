@@ -1,3 +1,9 @@
+---
+title: Threat Manager First Launch Setup
+sidebar_label: First Launch
+description: Initial configuration setup for Threat Manager including administrator account creation, password requirements, and MFA configuration options.
+---
+
 # First Launch
 
 The installer places the following icon on the desktop, which opens the Threat Manager console:

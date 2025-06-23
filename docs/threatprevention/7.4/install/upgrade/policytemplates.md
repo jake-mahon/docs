@@ -1,3 +1,9 @@
+---
+title: Upgrade Policy Templates
+sidebar_label: Upgrade Policy Templates
+description: When new or updated policy templates are available with a Threat Prevention upgrade, they are not automatically imported when you install the latest version....
+---
+
 # Upgrade Policy Templates
 
 When new or updated policy templates are available with a Threat Prevention upgrade, they are not

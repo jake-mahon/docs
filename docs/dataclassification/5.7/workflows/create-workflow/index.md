@@ -1,3 +1,9 @@
+---
+title: Create a Workflow using Add Workflow Wizard
+sidebar_label: Create Workflow
+description: To create an automated workflow for certain type of documents, you can use the Add Workflow wizard or Advanced dialogs. To launch the Add Workflow wizard: 1....
+---
+
 # Create a Workflow using Add Workflow Wizard
 
 To create an automated workflow for certain type of documents, you can use the Add Workflow wizard

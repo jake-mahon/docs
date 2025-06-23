@@ -1,3 +1,9 @@
+---
+title: variables
+sidebar_label: variables
+description: Documentation for variables functionality in Access Analyzer including configuration and usage information.
+---
+
 # Variables Tab
 
 Use the Variables tab to specify values to substitute in the rule logic at run time.

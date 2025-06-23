@@ -1,3 +1,9 @@
+---
+title: active directory activity changes overview
+sidebar_label: overview
+description: Solution guide for active directory activity changes overview including implementation steps, configuration, and best practices.
+---
+
 # Changes Job Group
 
 The Changes Job Group provides an audit trail for changes made to Computer, Group and User objects

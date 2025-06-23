@@ -1,3 +1,9 @@
+---
+title: Deploy to AWS
+sidebar_label: aws deployment
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Deploy to AWS
 
 Connect to the instance where Netwrix Privilege Secure is going to be deployed. The Windows

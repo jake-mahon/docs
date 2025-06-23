@@ -1,3 +1,9 @@
+---
+title: Select Processing Mode
+sidebar_label: Modes
+description: At this step of the wizard, select processing (indexing) mode for your environment. !processing_modes For starter and evaluation purposes, select Keyword mod...
+---
+
 # Select Processing Mode
 
 At this step of the wizard, select processing (indexing) mode for your environment.

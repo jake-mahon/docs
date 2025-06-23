@@ -1,3 +1,9 @@
+---
+title: confirmation process
+sidebar_label: confirmation-process
+description: Auditor 10.7 documentation for confirmation process with configuration details, usage instructions, and implementation guidance.
+---
+
 # Ownership Confirmation
 
 The reason for assigning owners to resources is to enable those resources to be included in reviews,

@@ -1,3 +1,9 @@
+---
+title: Report View Configuration
+sidebar_label: View
+description: Report view configuration and management including viewing options, filters, and display settings for Access Analyzer reports.
+---
+
 # Viewing Generated Reports
 
 Reports can be viewed either in the Access Analyzer Console in the Results Node of the related job,

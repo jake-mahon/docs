@@ -1,3 +1,9 @@
+---
+title: Item-Level Targeting Guide
+sidebar_label: Item-Level Targeting
+description: Configure Item-Level Targeting for Administrative Templates collections and policies to apply settings only to specific users or computers.
+---
+
 # Using Item-Level Targeting with Collections and Policies
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Endpoint

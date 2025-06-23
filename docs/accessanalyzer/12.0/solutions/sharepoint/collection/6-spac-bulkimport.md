@@ -1,3 +1,9 @@
+---
+title: sharepoint collection 6 spac bulkimport
+sidebar_label: 6 spac bulkimport
+description: Solution guide for sharepoint collection 6 spac bulkimport including implementation steps, configuration, and best practices.
+---
+
 # 6-SPAC_BulkImport Job
 
 This job is responsible for retrieving the SPAC Tier 2 database information and import it to the

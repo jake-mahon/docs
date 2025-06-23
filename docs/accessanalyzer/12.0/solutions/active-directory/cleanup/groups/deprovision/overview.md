@@ -1,3 +1,9 @@
+---
+title: active directory cleanup groups deprovision overview
+sidebar_label: overview
+description: Solution guide for active directory cleanup groups deprovision overview including implementation steps, configuration, and best practices.
+---
+
 # 1.Deprovision Job Group
 
 The 1. Deprovision Groups Job Group provides a simple, automated workflow to deprovision stale

@@ -1,3 +1,9 @@
+---
+title: exchange modern auth Administration
+sidebar_label: exchange modern auth
+description: Administration guide for exchange modern auth including configuration, management, and best practices for Access Analyzer.
+---
+
 # Exchange Modern Authentication for User Credentials
 
 The information in this topic applies to **Select Account Type** > **Exchange Modern

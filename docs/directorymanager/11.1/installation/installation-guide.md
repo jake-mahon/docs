@@ -1,3 +1,9 @@
+---
+title: Directory Manager Installation Guide
+sidebar_label: Installation Guide
+description: Complete installation guide for Directory Manager including prerequisites, backup procedures, and seamless upgrade processes from previous GroupID versions.
+---
+
 # Installation
 
 The Directory Manager installer auto detects the prerequisite software and Windows features that

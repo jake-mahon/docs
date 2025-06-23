@@ -1,3 +1,9 @@
+---
+title: attributes
+sidebar_label: attributes
+description: Directory Manager 11.1 documentation for attributes with configuration details, usage instructions, and implementation guidance.
+---
+
 # Object properties - Attributes tab
 
 Use this tab to manage custom attributes for this object. These attributes are used to store

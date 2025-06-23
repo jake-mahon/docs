@@ -1,3 +1,9 @@
+---
+title: general settings
+sidebar_label: general-settings
+description: Auditor 10.7 documentation for general settings with configuration details, usage instructions, and implementation guidance.
+---
+
 # About Netwrix Auditor
 
 The About Netwrix Auditor tab contains complete information on the product:

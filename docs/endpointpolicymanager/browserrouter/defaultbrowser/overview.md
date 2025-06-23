@@ -1,3 +1,9 @@
+---
+title: Browser Router Default Browser Policies
+sidebar_label: Overview
+description: Configure default browser policies including User Selectable options and drift settings to manage browser assignments effectively across your organization.
+---
+
 # Understanding Default Browser Policies
 
 In the previous example, you used the **New Default Browser** policy to set the default browser to

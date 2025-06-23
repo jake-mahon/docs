@@ -1,3 +1,9 @@
+---
+title: Scheduler Service Install
+sidebar_label: scheduler service
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Scheduler Service Install
 
 The Scheduler Service is installed with Privilege Secure and can also be installed remotely on other

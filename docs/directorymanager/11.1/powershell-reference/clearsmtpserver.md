@@ -1,3 +1,9 @@
+---
+title: Clear smtpserver Cmdlet
+sidebar_label: clearsmtpserver
+description: PowerShell cmdlet reference for clearsmtpserver with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Clear-SmtpServer
 
 The commandlet Clear-SmtpServer removes the SMTP server configurations from an identity store.

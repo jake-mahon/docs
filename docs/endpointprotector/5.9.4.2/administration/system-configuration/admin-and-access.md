@@ -1,3 +1,9 @@
+---
+title: Administration and Access Control
+sidebar_label: Admin Access
+description: Manage system administrators, roles, and access permissions for Endpoint Protector server with comprehensive control over user privileges.
+---
+
 # Administration and Access Control
 
 This section allows you to manage system administrators, their roles, and access permissions. It

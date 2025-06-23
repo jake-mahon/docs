@@ -1,3 +1,9 @@
+---
+title: Role Model Configuration
+sidebar_label: Role Model
+description: Configure the core role model with roles representing entitlements and rules enforcing company assignment policies at the heart of Usercube's engine.
+---
+
 # How-Tos
 
 These guides will help you set up the role model with practical step-by-step procedures.

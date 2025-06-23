@@ -1,3 +1,9 @@
+---
+title: User Management
+sidebar_label: Users Roles
+description: This section contains information on how to configure user authentication mechanisms, their permissions and manage existing users. Review the following for...
+---
+
 # User Management
 
 This section contains information on how to configure user authentication mechanisms, their

@@ -1,3 +1,9 @@
+---
+title: Groups Tab for Domain
+sidebar_label: groups
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Groups Tab for Domain
 
 The Groups tab shows information about the domain groups on the selected resource.

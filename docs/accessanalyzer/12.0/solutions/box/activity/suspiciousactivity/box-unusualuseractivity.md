@@ -1,3 +1,9 @@
+---
+title: box activity suspiciousactivity box unusualuseractivity
+sidebar_label: box unusualuseractivity
+description: Solution guide for box activity suspiciousactivity box unusualuseractivity including implementation steps, configuration, and best practices.
+---
+
 # Box_UnusualUserActivity Job
 
 The Box_UnusualUserActivity Job highlights unusual download activity for a user on a specific day by

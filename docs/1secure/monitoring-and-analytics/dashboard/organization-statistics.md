@@ -1,3 +1,9 @@
+---
+title: Organization Statistics and Metrics
+sidebar_label: Organization Statistics
+description: View comprehensive organization statistics including health status, risk levels, and key performance metrics.
+---
+
 # Organization Statistics
 
 You can view various statistics related to an organization, such as health status, risk level,

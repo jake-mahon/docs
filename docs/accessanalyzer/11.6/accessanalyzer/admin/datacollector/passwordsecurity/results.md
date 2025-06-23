@@ -1,3 +1,9 @@
+---
+title: Password Security Results Configuration
+sidebar_label: Results
+description: Configuration page for selecting Password Security data collector results including password strength analysis and policy compliance.
+---
+
 # PasswordSecurity: Results
 
 The Results page is where Active Directory properties to be gathered are selected.

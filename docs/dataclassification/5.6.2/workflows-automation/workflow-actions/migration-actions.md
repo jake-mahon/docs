@@ -1,3 +1,9 @@
+---
+title: Migrate Document
+sidebar_label: Migration Actions
+description: This action can be used to copy or move a document between content sources (from 'source' to 'destination'). Simple migration copies the file and any documen...
+---
+
 # Migrate Document
 
 This action can be used to copy or move a document between content sources (from 'source' to

@@ -1,3 +1,9 @@
+---
+title: Linux Agent Deployment
+sidebar_label: Linux Deployment
+description: Deploy Activity Monitor agents on Linux systems including file activity monitoring configuration and integration with other Netwrix products.
+---
+
 # Linux Agent Deployment
 
 Understanding Linux File Activity Monitoring

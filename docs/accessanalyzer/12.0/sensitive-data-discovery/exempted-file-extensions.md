@@ -1,3 +1,9 @@
+---
+title: exempted file extensions
+sidebar_label: exempted file extensions
+description: Documentation for exempted file extensions functionality in Access Analyzer including configuration and usage information.
+---
+
 # Exempted File Extensions
 
 The following file extensions are always exempted from Sensitive Data Discovery scans:

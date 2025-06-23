@@ -1,3 +1,7 @@
+title: Update Backup Account Passwords
+sidebar_label: Backup Accounts
+description: Update passwords for domain controller backup accounts including changing account credentials and specifying different backup accounts.
+
 # Update Domain Controller Backup Account Password
 
 While adding backup configurations for a domain controller on the Forest page, an account is

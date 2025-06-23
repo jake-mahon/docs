@@ -1,3 +1,9 @@
+---
+title: Content Distribution Map
+sidebar_label: Content Distribution
+description: The Content Distribution treemap allows you to interrogate your data in two different ways: largest numbers of documents tagged to the selected taxonomies /...
+---
+
 # Content Distribution Map
 
 The Content Distribution treemap allows you to interrogate your data in two different ways:

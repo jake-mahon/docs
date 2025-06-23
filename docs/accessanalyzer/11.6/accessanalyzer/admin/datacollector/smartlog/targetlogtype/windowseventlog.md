@@ -1,3 +1,9 @@
+---
+title: SmartLog Windows Event Log Configuration
+sidebar_label: Windows Event Log
+description: Windows Event Log configuration for SmartLog data collector with specific settings for Windows event log collection.
+---
+
 # SMARTLog: Target Log for Windows Event Log Type
 
 The Target Log page is where logs are selected to be collected. This version is a wizard page for

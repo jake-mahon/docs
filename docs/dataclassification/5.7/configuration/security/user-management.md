@@ -1,3 +1,9 @@
+---
+title: User Management
+sidebar_label: User Management
+description: This topic contains information on how to configure user authentication mechanisms, their permissions and manage existing users. On first install the QS will...
+---
+
 # User Management
 
 This topic contains information on how to configure user authentication mechanisms, their

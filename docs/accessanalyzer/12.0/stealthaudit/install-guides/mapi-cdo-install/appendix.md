@@ -1,3 +1,9 @@
+---
+title: appendix
+sidebar_label: appendix
+description: Documentation for appendix functionality in Access Analyzer including configuration and usage information.
+---
+
 # Appendix for the StealthAUDIT MAPI CDO Installation Guide
 
 **CAUTION:** The Access Analyzer MAPI CDO must be installed first before installing the Microsoft

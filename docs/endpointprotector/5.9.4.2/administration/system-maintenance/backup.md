@@ -1,3 +1,9 @@
+---
+title: Backup and Recovery Solutions
+sidebar_label: Backup
+description: Essential backup and recovery solutions for safeguarding Endpoint Protector system data and ensuring business continuity.
+---
+
 # Backup and Recovery Solutions
 
 Implementing effective backup and recovery solutions is essential for safeguarding your system data

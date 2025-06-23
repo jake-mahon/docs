@@ -1,3 +1,9 @@
+---
+title: eDiscovery Data Inspection
+sidebar_label: eDiscovery
+description: Create policies that inspect data residing on protected Windows, Mac, and Linux systems for comprehensive data discovery and analysis.
+---
+
 # eDiscovery
 
 This module allows you to create policies that inspect data residing on protected Windows, Macs, and

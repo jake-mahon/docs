@@ -1,3 +1,9 @@
+---
+title: datasource parsecs API
+sidebar_label: parsecs
+description: API reference for parsecs operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Parse a Connection String
 
 This API parses the connection string given in one line format.

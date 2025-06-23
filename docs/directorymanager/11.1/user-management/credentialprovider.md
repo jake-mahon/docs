@@ -1,3 +1,9 @@
+---
+title: credentialprovider
+sidebar_label: credentialprovider
+description: Directory Manager 11.1 documentation for credentialprovider with configuration details, usage instructions, and implementation guidance.
+---
+
 # Credential Provider
 
 Directory Manager Credential Provider is a web interface for unlocking user accounts and resetting

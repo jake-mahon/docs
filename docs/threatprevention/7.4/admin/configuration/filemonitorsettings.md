@@ -1,3 +1,9 @@
+---
+title: File Monitor Settings
+sidebar_label: File Monitor Settings
+description: File system monitoring configuration including file types, paths, and monitoring scope for security analysis.
+---
+
 # File Monitor Settings Window
 
 The File Monitor Settings window provides global settings for managing log retention, the ability to

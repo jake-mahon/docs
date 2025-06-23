@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer ad openaccess
+sidebar_label: ad openaccess
+description: Solution guide for activedirectorypermissionsanalyzer ad openaccess including implementation steps, configuration, and best practices.
+---
+
 # 5.Open Access > AD_OpenAccess Job
 
 The AD_OpenAccess Job reports on all Active Directory permissions granting open access within the

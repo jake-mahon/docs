@@ -1,3 +1,9 @@
+---
+title: probable owner
+sidebar_label: probable owner
+description: Documentation for probable owner functionality in Access Analyzer including configuration and usage information.
+---
+
 # SystemInfo: Probable Owner
 
 On the Probable Owner page, select options for determining the owner using weighted calculations.

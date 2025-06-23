@@ -1,3 +1,9 @@
+---
+title: CyberArk Integration with Auditor
+sidebar_label: CyberArk
+description: Integrate Netwrix Auditor with CyberArk privileged access management for comprehensive monitoring of privileged account activities.
+---
+
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

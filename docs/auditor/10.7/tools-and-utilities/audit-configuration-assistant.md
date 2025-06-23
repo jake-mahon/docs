@@ -1,3 +1,9 @@
+---
+title: audit configuration assistant
+sidebar_label: audit-configuration-assistant
+description: Auditor 10.7 documentation for audit configuration assistant with configuration details, usage instructions, and implementation guidance.
+---
+
 # Audit Configuration Assistant
 
 Auditor Audit Configuration Assistant utility helps you to assess your environment readiness to

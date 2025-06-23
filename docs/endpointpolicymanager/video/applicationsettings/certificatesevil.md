@@ -1,3 +1,9 @@
+---
+title: Wipe Evil Certificates Privdog
+sidebar_label: Evil Certificates
+description: Learn to remove dangerous certificates like Privdog and Superfish from your network using Group Policy and Endpoint Policy Manager's preconfigured PAKs.
+---
+
 # Wipe Privdog (and other evil certificates) off your network using Group Policy and Endpoint Policy Manager.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K40cLgikAt8" title="Wipe Privdog and other evil certificates off your network using Group Policy and PolicyPak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

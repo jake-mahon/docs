@@ -1,3 +1,9 @@
+---
+title: Application Settings Manager Extras
+sidebar_label: Extras Overview
+description: Explore advanced Application Settings Manager features including item-level targeting, priority management, comments, and managed application branding.
+---
+
 # Extras
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager has some extra

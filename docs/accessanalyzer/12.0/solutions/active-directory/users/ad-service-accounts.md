@@ -1,3 +1,9 @@
+---
+title: active directory users ad service accounts
+sidebar_label: ad service accounts
+description: Solution guide for active directory users ad service accounts including implementation steps, configuration, and best practices.
+---
+
 # AD_ServiceAccounts Job
 
 The AD_ServiceAccounts Job offers information about service accounts and if they are vulnerable to

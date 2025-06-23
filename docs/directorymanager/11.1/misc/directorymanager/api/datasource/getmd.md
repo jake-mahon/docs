@@ -1,3 +1,9 @@
+---
+title: datasource getmd API
+sidebar_label: getmd
+description: API reference for getmd operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Metadata of Data Sources
 
 Using this API, you can get metadata information of data sources defined so far in Directory

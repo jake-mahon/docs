@@ -1,3 +1,9 @@
+---
+title: windows file systems
+sidebar_label: windows file systems
+description: Documentation for windows file systems functionality in Access Analyzer including configuration and usage information.
+---
+
 # Windows File Server Access & Sensitive Data Auditing Configuration
 
 Permissions required for Enterprise Auditor to execute Access Auditing (SPAA) and/or Sensitive Data

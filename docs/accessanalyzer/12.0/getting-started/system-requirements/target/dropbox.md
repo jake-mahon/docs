@@ -1,3 +1,9 @@
+---
+title: Getting Started: dropbox
+sidebar_label: dropbox
+description: Getting started guide for dropbox in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Target Dropbox Requirements, Permissions, and Ports
 
 The Access Analyzer for AWS Solution provides the ability to audit Dropbox. It scans:

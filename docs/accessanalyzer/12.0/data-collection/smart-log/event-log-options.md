@@ -1,3 +1,9 @@
+---
+title: event log options
+sidebar_label: event log options
+description: Documentation for event log options functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Event Log Options
 
 The Event Log Options page is used to configure additional options. It is a wizard page for all log

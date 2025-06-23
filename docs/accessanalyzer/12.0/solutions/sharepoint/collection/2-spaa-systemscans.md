@@ -1,3 +1,9 @@
+---
+title: sharepoint collection 2 spaa systemscans
+sidebar_label: 2 spaa systemscans
+description: Solution guide for sharepoint collection 2 spaa systemscans including implementation steps, configuration, and best practices.
+---
+
 # 2-SPAA_SystemScans Job
 
 The job collects information on permissions, users, and groups to determine who has access to each

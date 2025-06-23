@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer Server Installation
+sidebar_label: Server Installation
+description: Installation guide for Password Policy Enforcer Configuration Console and server components for domain password policy management.
+---
+
 # Install the Configuration Console
 
 The Configuration Console is used to configure and manage Netwrix Password Policy Enforcer on your

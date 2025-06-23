@@ -1,3 +1,9 @@
+---
+title: activities pane Administration
+sidebar_label: activities pane
+description: Administration guide for activities pane including configuration, management, and best practices for Access Analyzer.
+---
+
 # Activities Pane
 
 The Activities pane displays a list of activities which can be conducted within the currently

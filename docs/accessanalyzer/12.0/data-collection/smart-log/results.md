@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Results
 
 The Results page is where the events to be returned by the query are selected. It is a wizard page

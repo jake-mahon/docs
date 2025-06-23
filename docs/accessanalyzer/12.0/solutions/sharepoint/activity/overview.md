@@ -1,3 +1,9 @@
+---
+title: sharepoint activity overview
+sidebar_label: overview
+description: Solution guide for sharepoint activity overview including implementation steps, configuration, and best practices.
+---
+
 # 7.Activity Job Group
 
 The 7.Activity job group generates summary and detail reports of SharePoint activity on the

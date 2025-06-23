@@ -1,3 +1,9 @@
+---
+title: active directory cleanup groups stamping ad group stamping
+sidebar_label: ad group stamping
+description: Solution guide for active directory cleanup groups stamping ad group stamping including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupStamping Job
 
 The AD_GroupStamping Job updates the Notes attribute for all security groups to show where the group

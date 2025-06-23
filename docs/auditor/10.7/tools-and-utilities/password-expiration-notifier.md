@@ -1,3 +1,9 @@
+---
+title: password expiration notifier
+sidebar_label: password-expiration-notifier
+description: Auditor 10.7 documentation for password expiration notifier with configuration details, usage instructions, and implementation guidance.
+---
+
 # Password Expiration Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from monitoring and

@@ -1,3 +1,9 @@
+---
+title: sharepoint sp overview
+sidebar_label: sp overview
+description: Solution guide for sharepoint sp overview including implementation steps, configuration, and best practices.
+---
+
 # SP_Overview Job
 
 The SP_Overview job provides an overview of the SharePoint Environment, providing a high level view

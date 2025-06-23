@@ -1,3 +1,9 @@
+---
+title: Support Resources
+sidebar_label: Support
+description: Additional support resources and contact information for Netwrix Endpoint Protector including website links and assistance options.
+---
+
 # Support
 
 For additional support resources, please visit our [website](https://www.netwrix.com/support.html)

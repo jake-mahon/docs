@@ -1,3 +1,9 @@
+---
+title: SQL Server Database Reports
+sidebar_label: SQL Server
+description: Access SQL Server database reports through Resource Audit interface with data collected by Access Analyzer SQL solution for database security analysis.
+---
+
 # SQL Server Reports
 
 SQL Server reports are accessed through the Resource Audit interface. Explore the SQL Server

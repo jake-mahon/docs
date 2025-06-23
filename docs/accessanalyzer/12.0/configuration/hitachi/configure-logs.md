@@ -1,3 +1,9 @@
+---
+title: configure logs
+sidebar_label: configure logs
+description: Documentation for configure logs functionality in Access Analyzer including configuration and usage information.
+---
+
 # Configure Audit Logs on HNAS
 
 Follow the steps to configure access to the HNAS audit logs on the Hitachi device.

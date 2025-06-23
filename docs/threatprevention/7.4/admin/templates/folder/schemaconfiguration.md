@@ -1,3 +1,10 @@
+---
+title: Schema and Configuration Folder Templates
+sidebar_label: Schema Configuration Folder Templates
+description: The Schema and Configuration folder contains the following templates: | Subfolder          | Template                                   | Description        ...
+
+---
+
 # Schema and Configuration Folder Templates
 
 The Schema and Configuration folder contains the following templates:

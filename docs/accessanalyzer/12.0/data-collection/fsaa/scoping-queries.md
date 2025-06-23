@@ -1,3 +1,9 @@
+---
+title: scoping queries
+sidebar_label: scoping queries
+description: Documentation for scoping queries functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Scoping Queries
 
 Use the Scoping Queries page to query the SQL database and return exclude and include resources from

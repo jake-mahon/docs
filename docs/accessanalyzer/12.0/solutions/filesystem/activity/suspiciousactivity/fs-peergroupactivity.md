@@ -1,3 +1,9 @@
+---
+title: filesystem activity suspiciousactivity fs peergroupactivity
+sidebar_label: fs peergroupactivity
+description: Solution guide for filesystem activity suspiciousactivity fs peergroupactivity including implementation steps, configuration, and best practices.
+---
+
 # FS_PeerGroupActivity Job
 
 The FS_PeerGroupActivity job is designed to report on abnormal activity event information based on

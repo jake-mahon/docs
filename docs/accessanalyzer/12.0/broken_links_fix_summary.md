@@ -1,3 +1,9 @@
+---
+title: broken_links_fix_summary
+sidebar_label: broken_links_fix_summary
+description: Documentation for broken_links_fix_summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # Broken Links Fix Summary
 
 ## Overview

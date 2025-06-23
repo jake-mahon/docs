@@ -1,3 +1,9 @@
+---
+title: instant jobs Administration
+sidebar_label: instant jobs
+description: Administration guide for instant jobs including configuration, management, and best practices for Access Analyzer.
+---
+
 # AD_PasswordExpirationNotification Job
 
 The AD_PasswordExpirationNotification Job determines when Active Directory user passwords are about

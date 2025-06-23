@@ -1,3 +1,9 @@
+---
+title: active directory activity monitoring
+sidebar_label: activity monitoring
+description: Solution guide for active directory activity monitoring including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection > AD_ActivityCollection Job
 
 The AD_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix

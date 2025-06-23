@@ -1,3 +1,9 @@
+---
+title: active directory groups ad empty groups
+sidebar_label: ad empty groups
+description: Solution guide for active directory groups ad empty groups including implementation steps, configuration, and best practices.
+---
+
 # AD_EmptyGroups Job
 
 The AD_EmptyGroups Job identifies empty and single member groups which are suitable candidates for

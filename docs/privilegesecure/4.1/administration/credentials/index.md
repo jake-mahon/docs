@@ -1,3 +1,9 @@
+---
+title: Credentials Management Page Overview
+sidebar_label: Credentials
+description: Comprehensive credential management interface for managing service account password rotation, managed accounts, and credential security policies.
+---
+
 # Credentials Page
 
 The Credentials page shows all accounts discovered within your environment. It is specifically

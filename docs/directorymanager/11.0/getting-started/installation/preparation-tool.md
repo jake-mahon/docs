@@ -1,3 +1,9 @@
+---
+title: preparation tool
+sidebar_label: preparation-tool
+description: Directory Manager 11.0 documentation for preparation tool with configuration details, usage instructions, and implementation guidance.
+---
+
 # Preparation Tool
 
 The preparation tool installs all prerequisites software on a machine to prepare it for GroupID.

@@ -1,3 +1,9 @@
+---
+title: entraid users overview
+sidebar_label: overview
+description: Solution guide for entraid users overview including implementation steps, configuration, and best practices.
+---
+
 # 2.Users Job Group
 
 The jobs in the 2.Users group identify user conditions and pinpoint potential areas of

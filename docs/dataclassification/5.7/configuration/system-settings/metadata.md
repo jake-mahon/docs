@@ -1,3 +1,9 @@
+---
+title: Metadata Configuration
+sidebar_label: Metadata
+description: This section contains information on how to configure metadata of your documents. Review the following for additional information: This list specifies which...
+---
+
 # Metadata Configuration
 
 This section contains information on how to configure metadata of your documents. Review the

@@ -1,3 +1,9 @@
+---
+title: active directory Administration
+sidebar_label: active directory
+description: Administration guide for active directory including configuration, management, and best practices for Access Analyzer.
+---
+
 # Active Directory Account for User Credentials
 
 If the account type selected on the User Credentials window is **Active Directory Account**, the

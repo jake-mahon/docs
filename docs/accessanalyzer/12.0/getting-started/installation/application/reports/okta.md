@@ -1,3 +1,9 @@
+---
+title: Getting Started: okta
+sidebar_label: okta
+description: Getting started guide for okta in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Creating an Application and Attributes in Okta
 
 Create an Access Analyzer Application in Okta Using the WS-Fed Template

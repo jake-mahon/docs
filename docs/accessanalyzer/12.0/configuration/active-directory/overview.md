@@ -1,3 +1,9 @@
+---
+title: Active Directory Domain Target Requirements
+sidebar_label: Overview
+description: Requirements and permissions for configuring Access Analyzer to execute scans on Active Directory domains with activity monitoring capabilities.
+---
+
 # Active Directory Domain Target Requirements
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) can execute scans on Active Directory domains.

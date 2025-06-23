@@ -1,3 +1,9 @@
+---
+title: REST API Endpoints Reference
+sidebar_label: API Endpoints
+description: Complete reference for Activity Monitor REST API endpoints including agent, host, domain, and monitoring resource attributes and functionality.
+---
+
 # Agent
 
 | Attribute                                | Type     | Detailed Only | Description                                                                                                                                                                                         |

@@ -1,3 +1,9 @@
+---
+title: host discovery Administration
+sidebar_label: host discovery
+description: Administration guide for host discovery including configuration, management, and best practices for Access Analyzer.
+---
+
 # Host Discovery
 
 The Host Discovery node is for configuring the settings which dictate how Access Analyzer handles

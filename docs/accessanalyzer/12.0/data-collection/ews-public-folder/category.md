@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # EWSPublicFolder: Category
 
 The Category page contains the following Exchange Web Service categories to search:

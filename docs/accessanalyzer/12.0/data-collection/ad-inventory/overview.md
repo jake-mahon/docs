@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADInventory Data Collector
 
 The extraction and correlation of user, group, and computer attributes drastically transforms the

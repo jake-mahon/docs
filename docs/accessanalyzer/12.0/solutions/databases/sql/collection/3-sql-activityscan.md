@@ -1,3 +1,9 @@
+---
+title: databases sql collection 3 sql activityscan
+sidebar_label: 3 sql activityscan
+description: Solution guide for databases sql collection 3 sql activityscan including implementation steps, configuration, and best practices.
+---
+
 # 3-SQL_ActivityScan Job
 
 The 3-SQL_ActivityScan Job captures user activity from targeted SQL server instances and databases.

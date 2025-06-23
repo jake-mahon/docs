@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # SendMail Action Module
 
 Use this action module to send dynamic and static content from selected audit data to targeted

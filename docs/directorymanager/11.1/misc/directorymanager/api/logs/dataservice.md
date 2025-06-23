@@ -1,3 +1,9 @@
+---
+title: logs dataservice API
+sidebar_label: dataservice
+description: API reference for dataservice operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Data Service Logs
 
 Use this API to get Directory Manager Data service log. See the

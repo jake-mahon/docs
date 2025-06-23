@@ -1,3 +1,9 @@
+---
+title: Working Set
+sidebar_label: Working Sets
+description: A Working Set of documents can be defined and used to test the accuracy of classification rules against a controlled set of documents. The Working Set is mod...
+---
+
 # Working Set
 
 A Working Set of documents can be defined and used to test the accuracy of classification rules

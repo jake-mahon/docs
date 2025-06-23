@@ -1,3 +1,9 @@
+---
+title: File Summary Configuration
+sidebar_label: Summary
+description: Summary page displaying the configured File data collector query with all selected settings and parameters for review.
+---
+
 # File: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

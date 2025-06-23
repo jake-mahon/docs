@@ -1,3 +1,9 @@
+---
+title: synchronization
+sidebar_label: synchronization
+description: Directory Manager 11.1 documentation for synchronization with configuration details, usage instructions, and implementation guidance.
+---
+
 # Synchronize Schedule
 
 The Directory Manager scheduling function enables you to set any Synchronize job or job collection

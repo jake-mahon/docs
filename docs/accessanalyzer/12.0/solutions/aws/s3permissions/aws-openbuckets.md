@@ -1,3 +1,9 @@
+---
+title: aws s3permissions aws openbuckets
+sidebar_label: aws openbuckets
+description: Solution guide for aws s3permissions aws openbuckets including implementation steps, configuration, and best practices.
+---
+
 # AWS_OpenBuckets Job
 
 The AWS_OpenBuckets job identifies buckets that have permissions assigned to everyone at the top

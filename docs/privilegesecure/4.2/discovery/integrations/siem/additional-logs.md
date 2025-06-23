@@ -1,3 +1,9 @@
+---
+title: Additional Logs
+sidebar_label: additional logs
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Additional Logs
 
 Additional Logs

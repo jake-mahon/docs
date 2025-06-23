@@ -1,3 +1,9 @@
+---
+title: Java Enterprise Rules Quick Start
+sidebar_label: Getting Started
+description: Configure Java version mapping for specific websites. Create rules to control which Java versions run on specific URLs using deployment rule sets.
+---
+
 # Quick Start
 
 **NOTE:** Watch this video for an overview of Java Rules Manager: See

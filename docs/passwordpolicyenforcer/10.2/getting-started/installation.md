@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer Installation Guide
+sidebar_label: Installation
+description: Step-by-step guide for manually installing Password Policy Enforcer or automating installation with software distribution tools.
+---
+
 # Installation
 
 You can install Password Policy Enforcer manually, or you can automate the installation with a

@@ -1,3 +1,7 @@
+title: Policy Template Administration
+sidebar_label: Policy Templates
+description: Edit, upload, and download ChangeTracker configuration policy templates with default alignments to device groups and monitoring settings.
+
 # Policy Template Administration
 
 Edit and upload/download configuration policy templates – the default templates provided with

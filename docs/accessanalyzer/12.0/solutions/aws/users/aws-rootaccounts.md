@@ -1,3 +1,9 @@
+---
+title: aws users aws rootaccounts
+sidebar_label: aws rootaccounts
+description: Solution guide for aws users aws rootaccounts including implementation steps, configuration, and best practices.
+---
+
 # AWS_RootAccounts Job
 
 The AWS_RootAccounts job provides details on AWS root accounts and how they conform to recommended

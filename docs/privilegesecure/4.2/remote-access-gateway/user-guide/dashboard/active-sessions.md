@@ -1,3 +1,9 @@
+---
+title: Active Dashboard
+sidebar_label: active sessions
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Active Dashboard
 
 The Active sessions dashboard shows all currently active sessions. Create an Activity Session to

@@ -1,3 +1,9 @@
+---
+title: Apply a Service Account from an existing AD group Directly to a Machine
+sidebar_label: apply service account
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Apply a Service Account from an existing AD group Directly to a Machine
 
 Apply a Service Account from an existing AD group Directly to a Machine

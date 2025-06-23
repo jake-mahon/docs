@@ -1,3 +1,9 @@
+---
+title: prior actions
+sidebar_label: prior actions
+description: Documentation for prior actions functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: Prior Actions
 
 The Prior Actions page selects previously executed actions for rollback. It is a wizard page when

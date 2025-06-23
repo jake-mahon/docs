@@ -1,3 +1,9 @@
+---
+title: Add Authentication Connector
+sidebar_label: authentication connectors
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Authentication Connector
 
 Follow the steps to add an authentication connector to the console.

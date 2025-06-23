@@ -1,3 +1,9 @@
+---
+title: Postman Linux Registration
+sidebar_label: postman linux registration
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Postman Linux Registration
 
 Postman Linux Registration

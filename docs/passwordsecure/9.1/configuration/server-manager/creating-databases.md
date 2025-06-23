@@ -1,3 +1,9 @@
+---
+title: Creating Password Secure Databases
+sidebar_label: Creating Databases
+description: Step-by-step guide for creating new databases in Password Secure server manager including configuration options and setup procedures.
+---
+
 # Creating databases
 
 ![installation_with_parameters_216](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/creatingdatabase/installation_with_parameters_216.webp)

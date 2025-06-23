@@ -1,3 +1,9 @@
+---
+title: Secure Netwrix Data Classification
+sidebar_label: Securing NDC
+description: The steps described within this article can be used to review the security of your Netwrix Data Classification deployment and apply any changes you feel...
+---
+
 # Secure Netwrix Data Classification
 
 The steps described within this article can be used to review the security of your Netwrix Data

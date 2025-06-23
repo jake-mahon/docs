@@ -1,3 +1,9 @@
+---
+title: System Settings Configuration
+sidebar_label: Settings
+description: Manage general settings that apply to the entire Endpoint Protector system including server parameters and operational configurations.
+---
+
 # System Settings
 
 From this section, you can manage general settings that apply to the entire Endpoint Protector

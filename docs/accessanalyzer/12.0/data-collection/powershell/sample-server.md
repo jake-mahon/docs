@@ -1,3 +1,9 @@
+---
+title: sample server
+sidebar_label: sample server
+description: Documentation for sample server functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell: Sample Server
 
 The Sample Server page provides a box to select a server to generate the result columns.

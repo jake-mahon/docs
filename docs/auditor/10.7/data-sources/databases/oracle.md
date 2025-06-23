@@ -1,3 +1,9 @@
+---
+title: oracle
+sidebar_label: oracle
+description: Auditor 10.7 documentation for oracle with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure Oracle Database for Auditing
 
 This topic explains how to configure Oracle Database for the following versions of the Oracle

@@ -1,3 +1,9 @@
+---
+title: Interactive Grids Search Filter
+sidebar_label: Search Filter
+description: Search and filter functionality in interactive grids for finding and narrowing down specific data in reports.
+---
+
 # Searching and Filtering Data
 
 When dealing with large sets of data, it may be useful to search for a desired attribute. This can

@@ -1,3 +1,9 @@
+---
+title: Exchange Lockdown Troubleshooting
+sidebar_label: Exchange Lockdown
+description: Troubleshooting guide for Exchange lockdown policies including permission issues and mailbox access restrictions.
+---
+
 # Exchange Lockdown Considerations
 
 When an Exchange Lockdown policy is first enabled, operations that are expected to be locked down by
@@ -31,11 +37,11 @@ policy:
 
 - On the AD Event Filter tab:
 
-    - Operations – All (Object Add, Object Deleted, Object Modified, and Object Moved or Renamed)
+  - Operations – All (Object Add, Object Deleted, Object Modified, and Object Moved or Renamed)
 
 - On the AD Classes and Attributes Filter tab:
 
-    - Block Attributes – publicDelegates
+  - Block Attributes – publicDelegates
 
 Impact of Lockdown Policies
 

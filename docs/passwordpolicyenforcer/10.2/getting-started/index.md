@@ -1,3 +1,9 @@
+---
+title: Getting Started with Password Policy Enforcer
+sidebar_label: Getting Started
+description: Introduction to Netwrix Password Policy Enforcer v10.2 for securing networks by ensuring users choose strong passwords with policy compliance.
+---
+
 # Netwrix Password Policy Enforcer v10.2
 
 Netwrix Password Policy Enforcer helps you to secure your network by ensuring that users choose

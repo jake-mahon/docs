@@ -1,3 +1,9 @@
+---
+title: databases mysql sensitivedata mysql sensitivedatapermissions
+sidebar_label: mysql sensitivedatapermissions
+description: Solution guide for databases mysql sensitivedata mysql sensitivedatapermissions including implementation steps, configuration, and best practices.
+---
+
 # MySQL_SensitiveDataPermissions Job
 
 The MySQL_SensitiveDataPermissions Job is designed to provide information on all types of

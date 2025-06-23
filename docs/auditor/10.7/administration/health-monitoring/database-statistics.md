@@ -1,3 +1,9 @@
+---
+title: database statistics
+sidebar_label: database-statistics
+description: Auditor 10.7 documentation for database statistics with configuration details, usage instructions, and implementation guidance.
+---
+
 # Database Statistics
 
 Databases may tend to run out of free space due to poor capacity provisioning or to retention

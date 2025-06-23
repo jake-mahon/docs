@@ -1,3 +1,9 @@
+---
+title: Users Dashboard
+sidebar_label: users
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Users Dashboard
 
 The Users dashboard shows session information for onboarded users and groups. Onboarded users and

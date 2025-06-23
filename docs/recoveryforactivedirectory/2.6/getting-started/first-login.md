@@ -1,3 +1,7 @@
+title: First Login to Recovery Console
+sidebar_label: First Login
+description: Instructions for accessing and logging into the Recovery Console locally and remotely after installation for first-time user setup.
+
 # Log into the Recovery Console
 
 When Recovery for Active Directory is installed, the following icon is displayed on the desktop.

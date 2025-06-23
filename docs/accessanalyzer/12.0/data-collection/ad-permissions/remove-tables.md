@@ -1,3 +1,9 @@
+---
+title: remove tables
+sidebar_label: remove tables
+description: Documentation for remove tables functionality in Access Analyzer including configuration and usage information.
+---
+
 # Remove ADPermissions Tables
 
 If it becomes necessary to clear the ADPermissions Data Collector tables and views to resolve an

@@ -1,3 +1,9 @@
+---
+title: databases sql configuration sql bestpractices
+sidebar_label: sql bestpractices
+description: Solution guide for databases sql configuration sql bestpractices including implementation steps, configuration, and best practices.
+---
+
 # SQL_BestPractices Job
 
 The SQL_BestPractices Job analyzes SQL and Azure SQL server configuration settings and reports any

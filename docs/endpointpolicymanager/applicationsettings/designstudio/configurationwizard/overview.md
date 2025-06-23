@@ -1,3 +1,9 @@
+---
+title: Configuration Wizard Element Setup
+sidebar_label: Configuration Wizard
+description: Configure AppSet user interface elements with the Configuration Wizard to implement element details and behavior in DesignStudio.
+---
+
 # Configuring Elements Using the Configuration Wizard
 
 After you've captured and modified your AppSet's user interface (UI), it's time to configure each

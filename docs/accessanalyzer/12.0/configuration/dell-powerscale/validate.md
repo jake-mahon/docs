@@ -1,3 +1,9 @@
+---
+title: validate
+sidebar_label: validate
+description: Documentation for validate functionality in Access Analyzer including configuration and usage information.
+---
+
 # Validate Setup
 
 Once the Activity Monitor agent is configured to monitor the Dell device, the automated

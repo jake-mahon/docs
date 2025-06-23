@@ -1,3 +1,9 @@
+---
+title: sharepoint m365 sp externalusers
+sidebar_label: sp externalusers
+description: Solution guide for sharepoint m365 sp externalusers including implementation steps, configuration, and best practices.
+---
+
 # SP_ExternalUsers Job
 
 The SP_TeamsExternalUsers Job identifies activity of external users on all monitored SharePoint

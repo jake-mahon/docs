@@ -1,3 +1,9 @@
+---
+title: Browser Extensions Overview
+sidebar_label: Extensions Overview
+description: Overview of Password Secure browser add-ons for Chrome, Edge, Firefox, and Safari with automatic login and password management capabilities.
+---
+
 # Browser Add-ons
 
 Passwords can also be used in the browser using the browser add-on. You can search for passwords in

@@ -1,3 +1,9 @@
+---
+title: Risk Metrics Management
+sidebar_label: Risk Metrics
+description: Manage risk metrics within profiles including preconfigured thresholds and custom metric configurations for security assessment.
+---
+
 # Manage Risk Metrics
 
 A risk profile includes a set of risk metrics, each with preconfigured risk thresholds. A risk

@@ -1,3 +1,9 @@
+---
+title: Reporting Module
+sidebar_label: Reporting Module
+description: Threat Prevention leverages the user-friendly, HTML-5 based Netwrix Threat Manager Reporting Module for reporting.
+---
+
 # Reporting Module
 
 Threat Prevention leverages the user-friendly, HTML-5 based Netwrix Threat Manager Reporting Module

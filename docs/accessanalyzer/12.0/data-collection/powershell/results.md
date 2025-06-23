@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell: Results
 
 The Results page provides configuration settings for the Properties to return and ROWKEY's

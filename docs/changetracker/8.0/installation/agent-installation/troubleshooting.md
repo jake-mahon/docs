@@ -1,3 +1,7 @@
+title: Express Agent Troubleshooting
+sidebar_label: Troubleshooting
+description: Troubleshoot ChangeTracker Express Agent issues using log files and diagnostic information for problem resolution and support assistance.
+
 # Express Agent Troubleshooting
 
 If you experience problem with the Express Agent then please sent the express agent log files found

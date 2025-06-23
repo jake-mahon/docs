@@ -1,3 +1,9 @@
+---
+title: Active Directory App for Splunk
+sidebar_label: Active Directory App Splunk
+description: The Netwrix Active Directory security monitoring solution enables organizations to efficiently monitor and prevent Active Directory changes, authentications,...
+---
+
 # Active Directory App for Splunk
 
 The Netwrix Active Directory security monitoring solution enables organizations to efficiently

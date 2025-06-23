@@ -1,3 +1,9 @@
+---
+title: public folder
+sidebar_label: public folder
+description: Documentation for public folder functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: Action
 
 The Action page specifies the basic action to perform on public folders. The pages available for

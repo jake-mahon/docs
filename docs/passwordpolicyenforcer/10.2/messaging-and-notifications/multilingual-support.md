@@ -1,3 +1,9 @@
+---
+title: Multilingual Password Policy Client Messages
+sidebar_label: Multilingual Support
+description: Configuration guide for setting up multilingual messages in Password Policy Client supporting 30 languages with customizable templates and inserts.
+---
+
 # Multilingual Messages
 
 The Password Policy Client initially displays all messages in English, but you can configure it to

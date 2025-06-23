@@ -1,3 +1,9 @@
+---
+title: Step 2: Maintenance Options
+sidebar_label: Step 2
+description: Specify options for the operation you have selected. | Operation selected | Available options | Details | | ------------------ | ----------------------------...
+---
+
 # Step 2: Maintenance Options
 
 Specify options for the operation you have selected.

@@ -1,3 +1,9 @@
+---
+title: windows servers
+sidebar_label: windows-servers
+description: Auditor 10.6 documentation for windows servers with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure Advanced Audit Policies
 
 Advanced audit policies can be configured instead of local policies. Any of them are required if you

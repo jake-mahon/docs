@@ -1,3 +1,9 @@
+---
+title: Privilege Secure Product Overview
+sidebar_label: Overview
+description: Next-generation privileged access management solution focusing on activity-based access control rather than traditional account mapping for improved security.
+---
+
 # Netwrix Privilege Secure for Access Management v4.1 Documentation
 
 Netwrix Privilege Secure for Access Management enables administrators and help desk professionals to

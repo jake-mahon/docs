@@ -1,3 +1,9 @@
+---
+title: Getting Started: filesystem
+sidebar_label: filesystem
+description: Getting started guide for filesystem in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # File System Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

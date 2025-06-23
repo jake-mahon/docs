@@ -1,3 +1,9 @@
+---
+title: Network Traffic Compression Configuration
+sidebar_label: Network Configuration
+description: Configure network traffic compression to reduce bandwidth usage in distributed deployments and multi-site networks.
+---
+
 # Network Traffic Compression
 
 To reduce network traffic in distributed deployments, multi-site networks and other environments

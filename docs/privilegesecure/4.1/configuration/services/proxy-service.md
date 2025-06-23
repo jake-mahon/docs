@@ -1,3 +1,9 @@
+---
+title: Proxy Service
+sidebar_label: proxy service
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Proxy Service
 
 The Proxy Service page shows the details of the selected service on the host.

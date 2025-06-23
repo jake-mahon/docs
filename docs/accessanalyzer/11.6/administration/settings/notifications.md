@@ -1,3 +1,9 @@
+---
+title: notifications Administration
+sidebar_label: notifications
+description: Administration guide for notifications including configuration, management, and best practices for Access Analyzer.
+---
+
 # Notification
 
 The Notification node is where email notifications are configured. Emails can be sent from the

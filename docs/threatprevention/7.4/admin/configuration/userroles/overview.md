@@ -1,3 +1,9 @@
+---
+title: Users and Roles Window
+sidebar_label: Users Roles Window
+description: On the Users and Roles window, you can grant role based access to users on the Administration Console. See the
+---
+
 # Users and Roles Window
 
 On the Users and Roles window, you can grant role based access to users on the Administration
@@ -56,14 +62,14 @@ NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 
 - Administrator Role
 
-    - Read/Write data
-    - If using
-      [Database Maintenance Window](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/overview.md)
-      – SQL Admin (sa) rights are required
+  - Read/Write data
+  - If using
+    [Database Maintenance Window](/docs/threatprevention/7.4/admin/configuration/databasemaintenance/overview.md)
+    – SQL Admin (sa) rights are required
 
 - Console Operator Role
 
-    - Read/Write data
+  - Read/Write data
 
 ## Administrator Permissions
 

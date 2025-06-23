@@ -1,3 +1,9 @@
+---
+title: How To Videos
+sidebar_label: Tutorial Videos
+description: Video tutorial series for learning Flashlight features including troubleshooting, cleanup, spider documentation, account analysis, and metrics.
+---
+
 # How To Videos
 
 We have a series of videos to help you learn to use Flashlight to get the most out of your account

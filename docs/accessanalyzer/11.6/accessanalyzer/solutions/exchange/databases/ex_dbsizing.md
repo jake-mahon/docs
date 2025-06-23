@@ -1,3 +1,9 @@
+---
+title: exchange databases ex_dbsizing
+sidebar_label: ex_dbsizing
+description: Solution guide for exchange databases ex_dbsizing including implementation steps, configuration, and best practices.
+---
+
 # EX_DBSizing Job
 
 The EX_DBSizing Job provides visibility into current database sizes, growth statistics, and

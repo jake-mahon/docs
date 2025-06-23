@@ -1,3 +1,9 @@
+---
+title: endpoints API Reference
+sidebar_label: endpoints
+description: Auditor 10.6 API reference for endpoints functionality with endpoint details, authentication, and implementation examples.
+---
+
 # API Endpoints
 
 | Method | Endpoint                                | POST Data                                                       | Description                                                                                                                                      |

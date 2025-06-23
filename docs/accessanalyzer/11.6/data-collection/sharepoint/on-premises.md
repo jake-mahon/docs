@@ -1,3 +1,9 @@
+---
+title: on premises
+sidebar_label: on premises
+description: Documentation for on premises functionality in Access Analyzer including configuration and usage information.
+---
+
 # SPAA: Activity Date Scope
 
 The Activity Date Scope page is where the range of dates for which the SharePoint activity scan will

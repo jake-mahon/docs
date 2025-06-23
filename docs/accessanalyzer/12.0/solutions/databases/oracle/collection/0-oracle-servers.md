@@ -1,3 +1,9 @@
+---
+title: databases oracle collection 0 oracle servers
+sidebar_label: 0 oracle servers
+description: Solution guide for databases oracle collection 0 oracle servers including implementation steps, configuration, and best practices.
+---
+
 # 0-Oracle_Servers Job
 
 The 0-Oracle_Servers job is designed to enumerate and store the list of Oracle Database Instances

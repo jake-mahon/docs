@@ -1,3 +1,9 @@
+---
+title: Oracle Database Reports
+sidebar_label: Oracle
+description: Access Oracle database reports through Resource Audit interface with data collected by Access Analyzer Oracle solution for database security auditing.
+---
+
 # Oracle Reports
 
 Oracle reports are accessed through the Resource Audit interface. Explore the Oracle resources by

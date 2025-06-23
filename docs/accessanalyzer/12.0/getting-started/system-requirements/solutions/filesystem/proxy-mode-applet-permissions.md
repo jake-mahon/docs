@@ -1,3 +1,9 @@
+---
+title: Getting Started: proxy mode applet permissions
+sidebar_label: proxy mode applet permissions
+description: Getting started guide for proxy mode applet permissions in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Proxy Mode with Applet Permissions
 
 When File System scans are run in proxy mode with applet, it means the File System applet is

@@ -1,3 +1,9 @@
+---
+title: LSASS Guardian – Protect Event Type
+sidebar_label: LSASS Guardian – Protect
+description: Based on policy rules, the LSASS Guardian – Protect event type can prevent processes not ‘white listed’ from accessing LSASS by preventing the Write, Read an...
+---
+
 # LSASS Guardian – Protect Event Type
 
 Based on policy rules, the LSASS Guardian – Protect event type can prevent processes not ‘white
@@ -113,8 +119,8 @@ the requesting process.
 - PROCESS_VM_WRITE – Select this checkbox to write to memory in a process
 - PROCESS_CREATE_THREAD – Select this checkbox to create a thread
 - PROCESS_VM_READ – Select this checkbox to remove the read flag
-    - Among other things, this would prevent the creation of an LSASS dump file by Task Manager or
-      other processes.
+  - Among other things, this would prevent the creation of an LSASS dump file by Task Manager or
+    other processes.
 
 **_RECOMMENDED:_** Leave these filters enabled. Do not deselect these options.
 

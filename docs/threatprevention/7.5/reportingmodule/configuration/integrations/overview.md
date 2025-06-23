@@ -1,3 +1,9 @@
+---
+title: Integrations Interface
+sidebar_label: Integrations Interface
+description: The Integrations interface allows you to configure integrations with a variety of Netwrix products and third-party systems and applications.
+---
+
 # Integrations Interface
 
 The Integrations interface allows you to configure integrations with a variety of Netwrix products

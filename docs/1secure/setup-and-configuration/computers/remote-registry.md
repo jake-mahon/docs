@@ -1,3 +1,9 @@
+---
+title: Remote Registry Service Configuration
+sidebar_label: Remote Registry
+description: Enable and configure Remote Registry service for computer monitoring and remote access to registry data.
+---
+
 # Enable Remote Registry Service
 
 Follow the steps to enable the Remote Registry service.

@@ -1,3 +1,9 @@
+---
+title: Scheduled Dashboard
+sidebar_label: scheduled sessions
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Scheduled Dashboard
 
 The Scheduled sessions dashboard shows all scheduled sessions.

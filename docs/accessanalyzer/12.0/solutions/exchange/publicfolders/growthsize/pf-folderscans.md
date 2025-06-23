@@ -1,3 +1,9 @@
+---
+title: exchange publicfolders growthsize pf folderscans
+sidebar_label: pf folderscans
+description: Solution guide for exchange publicfolders growthsize pf folderscans including implementation steps, configuration, and best practices.
+---
+
 # Collection > PF_FolderScans Job
 
 The PF_FolderScans job is comprised of data collection that focuses on collecting sizing information

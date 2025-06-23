@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # AzureADInventory Data Collector
 
 The AzureADInventory Data Collector catalogs user and group object information from Microsoft Entra

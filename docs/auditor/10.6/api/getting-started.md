@@ -1,3 +1,9 @@
+---
+title: getting started API Reference
+sidebar_label: getting started
+description: Auditor 10.6 API reference for getting started functionality with endpoint details, authentication, and implementation examples.
+---
+
 # Prerequisites
 
 Netwrix Auditor Integration API uses HTTPS for communication with the automatically generated

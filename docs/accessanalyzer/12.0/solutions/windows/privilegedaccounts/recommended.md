@@ -1,3 +1,9 @@
+---
+title: Windows Privileged Accounts Configuration
+sidebar_label: Privileged Accounts
+description: Recommended configurations for the Privileged Accounts job group including dependencies, scheduling, and workflows for local administrators analysis.
+---
+
 # Recommended Configurations for the Privileged Accounts Job Group
 
 Dependencies

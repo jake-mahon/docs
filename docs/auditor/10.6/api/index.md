@@ -1,3 +1,9 @@
+---
+title: Integration API Overview
+sidebar_label: API Overview
+description: REST API endpoints for Netwrix Auditor providing access to audit data, custom integrations, and third-party application connectivity.
+---
+
 # Integration API
 
 Netwrix Auditor Netwrix Risk Insights leverages Netwrix Auditor Integration API. Although you can

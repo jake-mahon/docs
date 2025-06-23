@@ -1,3 +1,9 @@
+---
+title: filesystem activity forensics fs permissionchanges
+sidebar_label: fs permissionchanges
+description: Solution guide for filesystem activity forensics fs permissionchanges including implementation steps, configuration, and best practices.
+---
+
 # FS_PermissionChanges Job
 
 The FS_PermissionChanges job is designed to report on permission change activity event information

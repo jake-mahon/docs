@@ -1,3 +1,9 @@
+---
+title: nisinventory overview
+sidebar_label: overview
+description: Solution guide for nisinventory overview including implementation steps, configuration, and best practices.
+---
+
 # .NIS Inventory Solution
 
 Network Information Service (NIS) for Unix provides a central repository for user, group, and other

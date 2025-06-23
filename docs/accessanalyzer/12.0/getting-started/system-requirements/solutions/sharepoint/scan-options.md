@@ -1,3 +1,9 @@
+---
+title: Getting Started: scan options
+sidebar_label: scan options
+description: Getting started guide for scan options in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # SharePoint Scan Options
 
 Required permissions on the targeted SharePoint environment are dependent upon not only the type of

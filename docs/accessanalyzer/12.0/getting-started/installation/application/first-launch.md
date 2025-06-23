@@ -1,3 +1,9 @@
+---
+title: Getting Started: first launch
+sidebar_label: first launch
+description: Getting started guide for first launch in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Access Analyzer Initial Configuration
 
 Once the Access Analyzer installation process is complete, and before performing actions within

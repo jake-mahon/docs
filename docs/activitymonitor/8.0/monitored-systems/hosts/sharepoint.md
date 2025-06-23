@@ -1,3 +1,9 @@
+---
+title: SharePoint Activity Monitoring
+sidebar_label: SharePoint
+description: Monitor SharePoint activity including site changes, content modifications, and user interactions with comprehensive tracking and security monitoring.
+---
+
 # SharePoint
 
 Understanding SharePoint Activity Monitoring

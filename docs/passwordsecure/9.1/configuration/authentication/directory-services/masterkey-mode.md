@@ -1,3 +1,9 @@
+---
+title: Masterkey Mode Configuration
+sidebar_label: Masterkey Mode
+description: Configure maximum convenience with Masterkey mode for Active Directory synchronization including users, organizational units, roles, and affiliations.
+---
+
 # Masterkey mode
 
 ## Maximum convenience

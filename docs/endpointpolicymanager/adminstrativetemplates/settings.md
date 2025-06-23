@@ -1,3 +1,9 @@
+---
+title: Admin Templates Manager Settings
+sidebar_label: Settings
+description: Overview of Group Policy Administrative Template settings that can be managed including user-side and computer-side configurations.
+---
+
 # Which settings can be managed with the Admin Templates Manager component?
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Templates Manager delivers all types of

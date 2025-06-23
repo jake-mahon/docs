@@ -1,3 +1,9 @@
+---
+title: aws sensitivedata aws sensitivedata permissions
+sidebar_label: aws sensitivedata permissions
+description: Solution guide for aws sensitivedata aws sensitivedata permissions including implementation steps, configuration, and best practices.
+---
+
 # AWS_SensitiveData_Permissions Job
 
 The AWS_SensitiveData_Permissions job provides details on the permissions assigned to AWS S3 buckets

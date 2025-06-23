@@ -1,3 +1,9 @@
+---
+title: Data Source APIs Overview
+sidebar_label: Data Source APIs
+description: Complete reference for Directory Manager data source APIs including creation, configuration, and management operations.
+---
+
 # Data Source APIs
 
 Directory Manager provides the following APIs to perform functions related to data sources:

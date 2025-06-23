@@ -1,3 +1,9 @@
+---
+title: Avoid Admin Approval Pop-ups
+sidebar_label: Avoid Pop-ups
+description: Prevent unwanted admin approval pop-ups when applications auto-update by configuring installer detection and auto-update settings appropriately.
+---
+
 # Avoid Pop-ups with Admin Approval
 
 You might find that end users report that the Admin Approval pop-up appears even if they do not

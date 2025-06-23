@@ -1,3 +1,9 @@
+---
+title: DSAR Settings
+sidebar_label: DSAR Configuration
+description: This section describes Netwrix Data Classification configuration required to run Data Subject Access Requests (DSAR). NOTE: Only users with 'Super User'...
+---
+
 # DSAR Settings
 
 This section describes Netwrix Data Classification configuration required to run Data Subject Access

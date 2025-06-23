@@ -1,3 +1,9 @@
+---
+title: Auditor Tools Overview
+sidebar_label: Tools
+description: Utility tools included with Netwrix Auditor for configuration assistance, event log management, user tracking, and Active Directory object restore.
+---
+
 # Tools
 
 There are several tools available with Netwrix Auditor:

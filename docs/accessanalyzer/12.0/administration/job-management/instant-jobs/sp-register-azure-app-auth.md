@@ -1,3 +1,9 @@
+---
+title: sp register azure app auth Administration
+sidebar_label: sp register azure app auth
+description: Administration guide for sp register azure app auth including configuration, management, and best practices for Access Analyzer.
+---
+
 # SP_RegisterAzureAppAuth Job
 
 SP_RegisterAzureAppAuth will register an Microsoft Entra ID (formerly Azure AD) application for

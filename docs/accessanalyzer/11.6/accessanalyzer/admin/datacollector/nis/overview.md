@@ -1,3 +1,9 @@
+---
+title: nis Data Collector overview
+sidebar_label: overview
+description: Data collector documentation for nis overview including configuration options and collection settings.
+---
+
 # NIS Data Collector
 
 The NIS Data Collector inventories a NIS domain for user and group information, mapping to

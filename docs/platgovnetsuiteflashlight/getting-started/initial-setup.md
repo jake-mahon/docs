@@ -1,3 +1,9 @@
+---
+title: Configuring Your NetSuite Account
+sidebar_label: Initial Setup
+description: Configure your NetSuite account for Flashlight by updating the Number of Rows in List Segments preference to enable proper documentation functionality.
+---
+
 # Configuring your Account
 
 Before you can start documenting your system, you need to apply a configuration change to your

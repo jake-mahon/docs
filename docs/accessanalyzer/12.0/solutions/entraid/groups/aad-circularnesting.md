@@ -1,3 +1,9 @@
+---
+title: entraid groups aad circularnesting
+sidebar_label: aad circularnesting
+description: Solution guide for entraid groups aad circularnesting including implementation steps, configuration, and best practices.
+---
+
 # AAD_CircularNesting Job
 
 The AAD_CircularNesting Job identifies circularly nested groups within Microsoft Entra ID which can

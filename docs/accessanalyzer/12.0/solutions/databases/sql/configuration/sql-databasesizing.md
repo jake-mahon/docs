@@ -1,3 +1,9 @@
+---
+title: databases sql configuration sql databasesizing
+sidebar_label: sql databasesizing
+description: Solution guide for databases sql configuration sql databasesizing including implementation steps, configuration, and best practices.
+---
+
 # SQL_DatabaseSizing Job
 
 The SQL_DatabaseSizing Job provides details on database file sizes and overall database sizes.

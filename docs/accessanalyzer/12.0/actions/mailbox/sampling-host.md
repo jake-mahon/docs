@@ -1,3 +1,9 @@
+---
+title: sampling host
+sidebar_label: sampling host
+description: Documentation for sampling host functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Sampling Host
 
 Use the Sampling Host page to specify the Exchange server to target. It is a wizard page for all

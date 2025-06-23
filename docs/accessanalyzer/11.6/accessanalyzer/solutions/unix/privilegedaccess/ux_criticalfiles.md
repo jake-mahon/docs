@@ -1,3 +1,9 @@
+---
+title: Unix Critical Files Analysis
+sidebar_label: Critical Files
+description: Unix critical files analysis for monitoring access to system-critical files and configuration changes.
+---
+
 # UX_CriticalFiles Job
 
 The UX_CriticalFiles job provides visibility into owners of critical files within audited Unix and
@@ -29,10 +35,10 @@ The default analysis task is:
 
 - Details critical file ownership, highlights top users
 
-    - Creates SA_UX_PrivilegedAccess_CriticalFileOwnership table accessible under the job’s Results
-      node
-    - Creates SA_UX_PrivilegedAccess_CriticalFileOwners table accessible under the job’s Results
-      node
+  - Creates SA_UX_PrivilegedAccess_CriticalFileOwnership table accessible under the job’s Results
+    node
+  - Creates SA_UX_PrivilegedAccess_CriticalFileOwners table accessible under the job’s Results
+    node
 
 In addition to the tables and views created by the analysis task, the UX_CriticalFiles job produces
 the following preconfigured report:

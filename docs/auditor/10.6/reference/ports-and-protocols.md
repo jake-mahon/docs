@@ -1,3 +1,9 @@
+---
+title: ports and protocols
+sidebar_label: ports-and-protocols
+description: Auditor 10.6 documentation for ports and protocols with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory Ports
 
 Review a full list of protocols and ports required for monitoring Active Directory.

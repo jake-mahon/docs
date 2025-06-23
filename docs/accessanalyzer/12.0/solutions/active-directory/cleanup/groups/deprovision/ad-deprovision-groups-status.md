@@ -1,3 +1,9 @@
+---
+title: active directory cleanup groups deprovision ad deprovision groups status
+sidebar_label: ad deprovision groups status
+description: Solution guide for active directory cleanup groups deprovision ad deprovision groups status including implementation steps, configuration, and best practices.
+---
+
 # AD_DeprovisionGroups_Status Job
 
 The AD_DeprovisionGroups_Status Job tracks all actions taken by the Deprovisioning workflow.

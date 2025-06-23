@@ -1,3 +1,9 @@
+---
+title: Least Privilege Manager XML Data Files
+sidebar_label: Least Privilege
+description: Export Endpoint Policy Manager Least Privilege Manager settings as XML files for MDM deployment. Export single policies, collections, or entire nodes.
+---
+
 # XML Data Files from Endpoint Privilege Manager
 
 Endpoint Policy Manager Least Privilege Manager settings can be exported as an XML file. You can

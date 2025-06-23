@@ -1,3 +1,9 @@
+---
+title: Activity Reports Guide
+sidebar_label: Activity Reports
+description: Monitor, track, and analyze user activities across your environment with comprehensive activity reporting capabilities.
+---
+
 # Activity Reports
 
 Activity reports help administrators monitor, track, and analyze various user activities across

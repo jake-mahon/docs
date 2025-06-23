@@ -1,3 +1,9 @@
+---
+title: time window
+sidebar_label: time window
+description: Documentation for time window functionality in Access Analyzer including configuration and usage information.
+---
+
 # Notification: Time Window
 
 Use this page to specify whether to include only rows collected in the last execution.

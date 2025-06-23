@@ -1,3 +1,9 @@
+---
+title: Windows Password Rules Integration
+sidebar_label: Windows Rules Integration
+description: Configure Windows password rules integration in Password Policy Enforcer including disabling native Windows rules and policy coordination.
+---
+
 # Disable Windows Rules
 
 The Windows password policy rules can place restrictions on password history, age, length, and

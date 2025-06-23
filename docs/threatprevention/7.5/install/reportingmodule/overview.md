@@ -1,3 +1,9 @@
+---
+title: Reporting Module Installation
+sidebar_label: Reporting Module Install
+description: Installation guide for Netwrix Threat Manager Reporting Module including application setup, database configuration, and security settings.
+---
+
 # Reporting Module Installation
 
 Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the

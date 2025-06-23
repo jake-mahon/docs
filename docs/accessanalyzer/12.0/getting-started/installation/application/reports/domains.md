@@ -1,3 +1,9 @@
+---
+title: Getting Started: domains
+sidebar_label: domains
+description: Getting started guide for domains in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Enable Multiple Domain Access
 
 When the `AuthenticationDomains` parameter in the **WebServer.exe.config** file is blank, only

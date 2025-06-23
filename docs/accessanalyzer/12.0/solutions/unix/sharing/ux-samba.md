@@ -1,3 +1,9 @@
+---
+title: unix sharing ux samba
+sidebar_label: ux samba
+description: Solution guide for unix sharing ux samba including implementation steps, configuration, and best practices.
+---
+
 # UX_Samba Job
 
 The UX_Samba job identifies potentially insecure Samba share configurations which are categorized by

@@ -1,3 +1,9 @@
+---
+title: Dynamic Source Groups — File Servers
+sidebar_label: File
+description: This section contains information on how to configure File Servers dynamic source groups. Toggle between Basic and Advanced configuration settings by clickin...
+---
+
 # Dynamic Source Groups — File Servers
 
 This section contains information on how to configure File Servers dynamic source groups. Toggle

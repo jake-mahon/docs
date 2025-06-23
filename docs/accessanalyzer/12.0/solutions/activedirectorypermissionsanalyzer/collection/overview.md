@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection overview
+sidebar_label: overview
+description: Solution guide for activedirectorypermissionsanalyzer collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group collects data on permissions applied to certificates, computers, groups,

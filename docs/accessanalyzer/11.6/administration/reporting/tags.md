@@ -1,3 +1,9 @@
+---
+title: tags
+sidebar_label: tags
+description: Documentation for tags functionality in Access Analyzer reporting including configuration options and usage guidelines.
+---
+
 # Tags
 
 Tags can be added to reports to describe the content of the report and use cases for the report. For

@@ -1,3 +1,9 @@
+---
+title: management Administration
+sidebar_label: management
+description: Administration guide for management including configuration, management, and best practices for Access Analyzer.
+---
+
 # Add Hosts
 
 The **Add Hosts** option creates a new host list. It can be accessed through the **Host Management**

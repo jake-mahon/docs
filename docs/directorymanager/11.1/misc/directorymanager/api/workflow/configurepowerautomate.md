@@ -1,3 +1,9 @@
+---
+title: workflow configurepowerautomate API
+sidebar_label: configurepowerautomate
+description: API reference for configurepowerautomate operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Configure Power Automate
 
 You can link an identity store in Directory Manager to Power Automate to trigger a flow from

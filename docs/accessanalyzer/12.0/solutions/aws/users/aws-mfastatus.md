@@ -1,3 +1,9 @@
+---
+title: aws users aws mfastatus
+sidebar_label: aws mfastatus
+description: Solution guide for aws users aws mfastatus including implementation steps, configuration, and best practices.
+---
+
 # AWS_MFAStatus Job
 
 The AWS_MFAStatus job provides details on each user's MFA status, highlighting users that have it

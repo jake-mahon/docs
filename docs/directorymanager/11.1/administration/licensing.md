@@ -1,3 +1,9 @@
+---
+title: licensing
+sidebar_label: licensing
+description: Directory Manager 11.1 documentation for licensing with configuration details, usage instructions, and implementation guidance.
+---
+
 # Licensing
 
 You can license Directory Manager under one or more of these license types:

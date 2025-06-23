@@ -1,3 +1,9 @@
+---
+title: Active Dashboard
+sidebar_label: active sessions
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Active Dashboard
 
 The Active sessions dashboard shows all currently active sessions. Create an Activity Session to

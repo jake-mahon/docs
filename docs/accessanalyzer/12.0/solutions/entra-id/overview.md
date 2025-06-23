@@ -1,3 +1,9 @@
+---
+title: entra id overview
+sidebar_label: overview
+description: Solution guide for entra id overview including implementation steps, configuration, and best practices.
+---
+
 # Entra ID Solution
 
 The Entra ID Solution is a comprehensive set of audit jobs and reports that provide the information

@@ -1,3 +1,9 @@
+---
+title: Configure NFS File Share for Crawling
+sidebar_label: File System Configuration
+description: To enable processing Network File System (NFS) file shares it is necessary to enable specific Windows features. The steps to enable these features differ...
+---
+
 # Configure NFS File Share for Crawling
 
 To enable processing Network File System (NFS) file shares it is necessary to enable specific

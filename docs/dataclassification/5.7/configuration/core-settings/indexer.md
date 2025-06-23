@@ -1,3 +1,9 @@
+---
+title: Indexer Configuration Settings for Data Classification
+sidebar_label: Indexer
+description: Configure indexing engine settings including thread management, near duplicate detection, and advanced indexer options for Netwrix Data Classification.
+---
+
 # Indexer
 
 This configuration tab contains the indexing engine settings. Each configuration option has an

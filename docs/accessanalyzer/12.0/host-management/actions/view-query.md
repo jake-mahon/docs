@@ -1,3 +1,9 @@
+---
+title: view query
+sidebar_label: view query
+description: Documentation for view query functionality in Access Analyzer including configuration and usage information.
+---
+
 # View Query
 
 Use the **View Query** option to open the Host Discovery Queries pane.

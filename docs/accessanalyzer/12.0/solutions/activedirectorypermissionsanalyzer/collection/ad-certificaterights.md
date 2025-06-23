@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection ad certificaterights
+sidebar_label: ad certificaterights
+description: Solution guide for activedirectorypermissionsanalyzer collection ad certificaterights including implementation steps, configuration, and best practices.
+---
+
 # AD_CertificateRights Job
 
 The AD_CertificateRights job collects all Active Directory permissions applied to certificate

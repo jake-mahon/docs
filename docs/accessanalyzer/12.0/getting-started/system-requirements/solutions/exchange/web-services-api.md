@@ -1,3 +1,9 @@
+---
+title: Getting Started: web services api
+sidebar_label: web services api
+description: Getting started guide for web services api in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Exchange Web Services API Permissions
 
 The EWSMailbox and EWSPublicFolder data collectors utilizes Exchange Web Services API to access and

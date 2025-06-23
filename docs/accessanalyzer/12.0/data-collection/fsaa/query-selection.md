@@ -1,3 +1,9 @@
+---
+title: query selection
+sidebar_label: query selection
+description: Documentation for query selection functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Query Selection
 
 The FSAA Data Collector Query Selection page contains the following query categories, sub-divided by

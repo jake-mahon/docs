@@ -1,3 +1,9 @@
+---
+title: Threat Prevention 7.4
+sidebar_label: Threat Prevention 7.4
+description: Real-time security firewall that monitors and protects Active Directory, Exchange, and file systems from internal and external threats with automated blocking.
+---
+
 # Threat Prevention 7.4
 
 > Proactive security firewall for critical IT infrastructure

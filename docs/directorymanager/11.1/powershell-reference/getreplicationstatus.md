@@ -1,3 +1,9 @@
+---
+title: Get replicationstatus Cmdlet
+sidebar_label: getreplicationstatus
+description: PowerShell cmdlet reference for getreplicationstatus with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-ReplicationStatus
 
 The Get-ReplicationStatus commandlet retrieves the replication status of the connected identity

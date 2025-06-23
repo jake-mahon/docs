@@ -1,3 +1,9 @@
+---
+title: Password Policy Client Configuration Guide
+sidebar_label: Password Policy Client
+description: Guide for configuring the Password Policy Client including manual configuration, display settings, and communication options.
+---
+
 # Configuring the Password Policy Client
 
 The Password Policy Client is self-configuring and does not require manual configuration in most

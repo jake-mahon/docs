@@ -1,3 +1,9 @@
+---
+title: filesystem activity usagestatistics overview
+sidebar_label: overview
+description: Solution guide for filesystem activity usagestatistics overview including implementation steps, configuration, and best practices.
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics job group is designed to report on usage statistics from targeted file servers.

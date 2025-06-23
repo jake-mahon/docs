@@ -1,3 +1,9 @@
+---
+title: parameters
+sidebar_label: parameters
+description: Documentation for parameters functionality in Access Analyzer including configuration and usage information.
+---
+
 # Web Request: Parameters
 
 Use the Parameters page to enter the parameter values.

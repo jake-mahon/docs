@@ -1,3 +1,9 @@
+---
+title: Email Based Admin Approval
+sidebar_label: Use Email
+description: Configure email-based admin approval workflows to allow users to request privilege elevation through automated email notifications to IT support.
+---
+
 # Using Email for Admin Approval
 
 If needed, you can use email to authorize items using Endpoint Policy Manager (formerly PolicyPak)

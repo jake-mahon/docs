@@ -1,3 +1,9 @@
+---
+title: Invoke Schedule PowerShell Cmdlet
+sidebar_label: Invoke-Schedule
+description: PowerShell cmdlet to execute specified schedule jobs in Directory Manager with parameter details and syntax examples.
+---
+
 # Invoke-Schedule
 
 The commandlet Invoke-Schedule executes the specified schedule job.

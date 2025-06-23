@@ -1,3 +1,9 @@
+---
+title: import location
+sidebar_label: import location
+description: Documentation for import location functionality in Access Analyzer including configuration and usage information.
+---
+
 # Import Location
 
 Use the **Import Location** option to import the physical location data for hosts and opens a

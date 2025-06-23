@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # Nasuni Edge Appliance Activity Auditing Configuration
 
 Generation of an API Access Key is required for Nasuni activity monitoring. The Nasuni Edge

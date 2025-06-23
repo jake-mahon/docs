@@ -1,3 +1,9 @@
+---
+title: Passphrase Rule Configuration
+sidebar_label: Custom Rules
+description: Configure passphrase rules in Password Policy Enforcer for enhanced security with longer, more complex password requirements.
+---
+
 # Passphrases
 
 Passphrases have gained popularity in recent years as they can be more difficult to crack and easier

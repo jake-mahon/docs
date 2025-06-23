@@ -1,3 +1,9 @@
+---
+title: search criteria
+sidebar_label: search criteria
+description: Documentation for search criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # TextSearch: Search Criteria
 
 The Search Criteria page provides configuration options to specify the text to search for across the

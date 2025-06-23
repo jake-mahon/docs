@@ -1,3 +1,9 @@
+---
+title: completion
+sidebar_label: completion
+description: Documentation for completion functionality in Access Analyzer including configuration and usage information.
+---
+
 # DropboxAccess: Summary (Completion)
 
 The Completion page, is where configuration settings are summarized. This page is a wizard page for

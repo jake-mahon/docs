@@ -1,3 +1,9 @@
+---
+title: Scripts Triggers Manager Configuration Guide
+sidebar_label: Overview
+description: Deploy Batch, PowerShell, VB, and JavaScript scripts to Windows endpoints. Configure conditional script execution with on/off triggers for user and computer sides.
+---
+
 # Scripts & Triggers Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:

@@ -1,3 +1,9 @@
+---
+title: SSO: Duo Access Gateway (DAG)
+sidebar_label: duo access gateway
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # SSO: Duo Access Gateway (DAG)
 
 SSO: Duo Access Gateway (DAG)

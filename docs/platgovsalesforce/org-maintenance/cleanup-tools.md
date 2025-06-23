@@ -1,3 +1,9 @@
+---
+title: Cleanup Tools and Optimization
+sidebar_label: Cleanup Tools
+description: Identify and remove unused customizations, fix improperly configured items, and optimize Salesforce org efficiency with built-in cleanup tools.
+---
+
 # Clean Up Overview
 
 Clean up involves some or all of the following steps:

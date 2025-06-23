@@ -1,3 +1,9 @@
+---
+title: Upgrade Threat Prevention Agent
+sidebar_label: Agent Upgrade
+description: Step-by-step guide to upgrade deployed Threat Prevention Agents from the Administration Console, including compatibility checks and troubleshooting.
+---
+
 # Upgrade Agent
 
 The Threat Prevention Agent is updated from the Agents interface.

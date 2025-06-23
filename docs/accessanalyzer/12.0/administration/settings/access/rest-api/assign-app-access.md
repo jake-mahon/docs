@@ -1,3 +1,9 @@
+---
+title: assign app access Administration
+sidebar_label: assign app access
+description: Administration guide for assign app access including configuration, management, and best practices for Access Analyzer.
+---
+
 # Assign Application Access through the Web Service
 
 An application can be assigned to access data remotely through the Web Service. Follow the steps to

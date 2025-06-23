@@ -1,3 +1,9 @@
+---
+title: Policy API
+sidebar_label: Policy
+description: Comprehensive policy management API for creating, configuring, enabling, and managing Threat Prevention security policies.
+---
+
 # Policy APIs
 
 Policies are used in Threat Prevention to define the objects and events to be monitored or blocked

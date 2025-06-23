@@ -1,3 +1,9 @@
+---
+title: Navigation
+sidebar_label: Navigation
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Navigation
 
 At the top of the Privilege Secure Console lists available in interfaces and provides access to the

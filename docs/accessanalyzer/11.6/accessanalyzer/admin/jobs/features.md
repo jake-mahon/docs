@@ -1,3 +1,9 @@
+---
+title: features
+sidebar_label: features
+description: Documentation for features functionality in Access Analyzer including configuration and usage information.
+---
+
 # Special Features & Functions
 
 There are several special features and functions available for jobs and job components with which

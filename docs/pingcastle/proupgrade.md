@@ -1,3 +1,9 @@
+---
+title: PingCastle Pro Upgrade Guide
+sidebar_label: Pro Upgrade
+description: Step-by-step upgrade procedures for PingCastle Pro including version checks, database backup requirements, and software dependency updates.
+---
+
 # Before proceeding to the upgrade
 
 Version check

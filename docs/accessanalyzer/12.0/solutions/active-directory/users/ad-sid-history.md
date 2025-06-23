@@ -1,3 +1,9 @@
+---
+title: active directory users ad sid history
+sidebar_label: ad sid history
+description: Solution guide for active directory users ad sid history including implementation steps, configuration, and best practices.
+---
+
 # AD_SIDHistory Job
 
 The AD_SIDHistory Job enumerates historical SIDs in the audited environment and highlights

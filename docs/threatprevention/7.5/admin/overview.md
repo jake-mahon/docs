@@ -1,3 +1,9 @@
+---
+title: Threat Prevention Administration Overview
+sidebar_label: Administration
+description: Comprehensive overview of Threat Prevention 7.5 components including Enterprise Manager, agents, policies, analytics, and enhanced database architecture.
+---
+
 # Administration
 
 Threat Prevention monitors events in real‐time, gathers and processes event data, then outputs that

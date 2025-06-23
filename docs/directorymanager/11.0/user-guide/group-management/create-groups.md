@@ -1,3 +1,9 @@
+---
+title: create groups
+sidebar_label: create-groups
+description: Directory Manager 11.0 documentation for create groups with configuration details, usage instructions, and implementation guidance.
+---
+
 # General page
 
 Use this page to specify basic information about the group.

@@ -1,3 +1,9 @@
+---
+title: aws organizations overview
+sidebar_label: overview
+description: Solution guide for aws organizations overview including implementation steps, configuration, and best practices.
+---
+
 # 1.Organizations Job Group
 
 The 1.Organizations job group analyzes and reports on the AWS Organization including password

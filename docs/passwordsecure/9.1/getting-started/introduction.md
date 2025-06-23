@@ -1,3 +1,9 @@
+---
+title: Introduction to Password Secure
+sidebar_label: Introduction
+description: Welcome to Password Secure documentation - start here to learn about our enterprise password vault and privileged credential management solution.
+---
+
 # Introduction
 
 ## Welcome to the official Netwrix Password Secure documentation!

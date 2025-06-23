@@ -1,3 +1,9 @@
+---
+title: syncjobs updatjobcollection API
+sidebar_label: updatjobcollection
+description: API reference for updatjobcollection operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Update a Job Collection
 
 Use this API to update information of a job collection.

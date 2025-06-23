@@ -1,3 +1,9 @@
+---
+title: box activity forensics box permissionchanges
+sidebar_label: box permissionchanges
+description: Solution guide for box activity forensics box permissionchanges including implementation steps, configuration, and best practices.
+---
+
 # Box_PermissionChanges Job
 
 The Box_PermissionChannges Job provides details on permission changes that have occurred over the

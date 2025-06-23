@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts logonrights collection sg grouppolicy
+sidebar_label: sg grouppolicy
+description: Solution guide for windows privilegedaccounts logonrights collection sg grouppolicy including implementation steps, configuration, and best practices.
+---
+
 # SG_GroupPolicy Job
 
 The SG_GroupPolicy job collects policy assignments from all targeted servers. The following policy

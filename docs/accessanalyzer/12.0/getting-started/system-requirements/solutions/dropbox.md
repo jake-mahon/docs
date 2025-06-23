@@ -1,3 +1,9 @@
+---
+title: Getting Started: dropbox
+sidebar_label: dropbox
+description: Getting started guide for dropbox in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Dropbox Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

@@ -1,3 +1,9 @@
+---
+title: Microsoft Entra ID Activity Monitoring
+sidebar_label: Entra ID
+description: Configure Activity Monitor to track Microsoft Entra ID sign-in events and over 800 audit events across administrative, authentication, and policy categories.
+---
+
 # Microsoft Entra ID
 
 Understanding Microsoft Entra ID Activity Monitoring

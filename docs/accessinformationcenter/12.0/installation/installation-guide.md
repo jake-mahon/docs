@@ -1,3 +1,9 @@
+---
+title: Access Information Center Installation Guide
+sidebar_label: Installation Guide
+description: Complete step-by-step installation procedure for Access Information Center including SSL certificate setup and configuration requirements.
+---
+
 # Install the Access Information Center
 
 Once the prerequisites have been met, follow the steps to install the Access Information Center.

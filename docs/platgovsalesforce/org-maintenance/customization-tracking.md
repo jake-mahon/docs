@@ -1,3 +1,9 @@
+---
+title: Customization Tracking and Documentation
+sidebar_label: Customization Tracking
+description: Track and document all Salesforce customizations with automatically generated records showing usage, dependencies, and junction relationships.
+---
+
 # Customizations Overview
 
 Customization records are documentation about each customization. They are automatically built and

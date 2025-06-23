@@ -1,3 +1,9 @@
+---
+title: message activity filter
+sidebar_label: message activity filter
+description: Documentation for message activity filter functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMetrics: Message Activity Filter
 
 The Message Activity Filter page configures which domains the data collector should return mail flow

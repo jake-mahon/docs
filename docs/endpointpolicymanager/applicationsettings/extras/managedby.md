@@ -1,3 +1,9 @@
+---
+title: Managed By Branding Feature
+sidebar_label: Managed By
+description: Add "Managed by Endpoint Policy Manager" branding to applications under management to signal IT control to users.
+---
+
 # Managed By Endpoint Policy Manager
 
 Because Endpoint Policy Manager Application Settings Manager can perform user-interface (UI) lockout

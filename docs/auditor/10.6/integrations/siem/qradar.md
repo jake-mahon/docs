@@ -1,3 +1,9 @@
+---
+title: QRadar SIEM Integration
+sidebar_label: QRadar
+description: Integrate Netwrix Auditor with IBM QRadar SIEM for enterprise security intelligence and automated incident response.
+---
+
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

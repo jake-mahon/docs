@@ -1,3 +1,9 @@
+---
+title: Password Policy Testing and Validation
+sidebar_label: Testing Policies
+description: Test and validate Password Policy Enforcer configurations by simulating password changes and checking policy enforcement.
+---
+
 # Testing Policies
 
 You can quickly test your Password Policy Enforcer configuration by simulating a password change

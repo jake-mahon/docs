@@ -1,3 +1,9 @@
+---
+title: windows securityutilities openportscan retrievenetstat
+sidebar_label: retrievenetstat
+description: Solution guide for windows securityutilities openportscan retrievenetstat including implementation steps, configuration, and best practices.
+---
+
 # RetrieveNetstat Job
 
 The RetrieveNetstat job reveals all open ports along with associated executables on targeted
@@ -28,8 +34,8 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. NETSTAT Result – Creates the SA_RetrieveNetstat_NETSTAT table accessible under the job’s
-       Results node
+- 1. NETSTAT Result – Creates the SA_RetrieveNetstat_NETSTAT table accessible under the job’s
+     Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces
 the following pre-configured report.

@@ -1,3 +1,9 @@
+---
+title: Portal report contact
+sidebar_label: contact
+description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
+---
+
 # Contact Reports
 
 Contact Reports contains reports for the Contact objects in the directory. Search a specific report

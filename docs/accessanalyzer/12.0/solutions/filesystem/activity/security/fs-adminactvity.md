@@ -1,3 +1,9 @@
+---
+title: filesystem activity security fs adminactvity
+sidebar_label: fs adminactvity
+description: Solution guide for filesystem activity security fs adminactvity including implementation steps, configuration, and best practices.
+---
+
 # FS_AdminActvity Job
 
 The FS_AdminActivity job is designed to report on administrator related activity event information

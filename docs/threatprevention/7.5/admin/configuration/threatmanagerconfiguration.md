@@ -1,3 +1,9 @@
+---
+title: Netwrix Threat Manager Configuration Window
+sidebar_label: Netwrix Threat Manager Configuration
+description: The Netwrix Threat Manager Configuration window is a global setting to enable integration between Threat Prevention and Threat Manager. This window is only a...
+---
+
 # Netwrix Threat Manager Configuration Window
 
 The Netwrix Threat Manager Configuration window is a global setting to enable integration between
@@ -33,8 +39,8 @@ Sink tab displayed by default.
 and port in the following format. The default port for Threat Manager is **10001**.
 
 - amqp://[HOSTNAME | IPADDRESS]:[PORT]
-    - For an example with the host name – amqp://ExampleHost:10001
-    - For an example with the host address – amqp://192.168.9.52:10001
+  - For an example with the host name – amqp://ExampleHost:10001
+  - For an example with the host address – amqp://192.168.9.52:10001
 
 **CAUTION:** Do not use localhost for the hostname or 127.0.0.1 for the IP address.
 

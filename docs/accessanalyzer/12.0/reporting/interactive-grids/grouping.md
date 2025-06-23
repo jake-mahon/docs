@@ -1,3 +1,9 @@
+---
+title: Interactive Grids Grouping Configuration
+sidebar_label: Grouping
+description: Grouping configuration for interactive grids including data aggregation and hierarchical organization options.
+---
+
 # Grouping Data
 
 If grouping is enabled, the **Group by** field provides a drop-down list of categories by which the

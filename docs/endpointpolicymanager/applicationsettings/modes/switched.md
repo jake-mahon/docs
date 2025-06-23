@@ -1,3 +1,9 @@
+---
+title: Switched Mode Computer Policies
+sidebar_label: Switched Mode
+description: Apply user-based registry settings to computer side with Switched mode for call centers, classrooms, kiosks, and Terminal Services machines.
+---
+
 # Switched Mode
 
 Endpoint Policy Manager Application Settings Manager has a special mode, called Switched mode, which

@@ -1,3 +1,9 @@
+---
+title: SmartLog Event Log Options Configuration
+sidebar_label: Event Log Options
+description: Event log options configuration for SmartLog data collector including log sources and collection preferences.
+---
+
 # SMARTLog: Event Log Options
 
 The Event Log Options page is used to configure additional options. It is a wizard page for all log

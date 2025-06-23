@@ -1,3 +1,9 @@
+---
+title: SIEM Alert Configuration
+sidebar_label: SIEM
+description: SIEM integration configuration for sending real-time security alerts and event data to external SIEM platforms.
+---
+
 # SIEM Tab
 
 Alert notification via SIEM sends event notifications to a SIEM product using UDP or TCP protocol.

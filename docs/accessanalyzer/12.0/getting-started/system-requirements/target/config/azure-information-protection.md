@@ -1,3 +1,9 @@
+---
+title: Getting Started: azure information protection
+sidebar_label: azure information protection
+description: Getting started guide for azure information protection in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Azure Information Protection Target Requirements
 
 Microsoft® Azure is a cloud-based computing platform that provides a range of services, such as

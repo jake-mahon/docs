@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell: Options
 
 The Options page provides the option to execute the script remotely on the target host.

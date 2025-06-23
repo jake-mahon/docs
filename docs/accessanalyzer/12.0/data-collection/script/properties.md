@@ -1,3 +1,9 @@
+---
+title: properties
+sidebar_label: properties
+description: Documentation for properties functionality in Access Analyzer including configuration and usage information.
+---
+
 # Script Properties
 
 The Data Source tab is used to select the data collector to be used. The configurable options are:

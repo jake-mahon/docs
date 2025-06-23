@@ -1,3 +1,9 @@
+---
+title: Installation: sso setup
+sidebar_label: sso setup
+description: Installation guide for sso setup including system requirements, setup procedures, and configuration options.
+---
+
 # Configuring the Web Console to use ADFS
 
 The Enterprise Auditor Webserver and Access Information Center are able to support Single-Sign-On

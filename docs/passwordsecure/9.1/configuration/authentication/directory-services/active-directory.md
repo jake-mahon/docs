@@ -1,3 +1,9 @@
+---
+title: Active Directory Integration
+sidebar_label: Active Directory
+description: Configure Active Directory profiles for user import, synchronization, and organizational unit management with end-to-end encryption support.
+---
+
 # Active Directory link
 
 ## What are active directory profiles?

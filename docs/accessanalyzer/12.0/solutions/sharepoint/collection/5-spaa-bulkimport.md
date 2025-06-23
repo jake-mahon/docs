@@ -1,3 +1,9 @@
+---
+title: sharepoint collection 5 spaa bulkimport
+sidebar_label: 5 spaa bulkimport
+description: Solution guide for sharepoint collection 5 spaa bulkimport including implementation steps, configuration, and best practices.
+---
+
 # 5-SPAA_BulkImport Job
 
 This job is responsible for retrieving the SPAA Tier 2 database information and import it to the

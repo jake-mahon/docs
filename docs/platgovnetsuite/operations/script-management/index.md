@@ -1,3 +1,9 @@
+---
+title: Script Management and Analysis
+sidebar_label: Overview
+description: Critical script analysis tools for NetSuite including performance monitoring, error tracking, and script optimization for improved system efficiency.
+---
+
 # Script Management
 
 With the Platform Governance for NetSuite tools and the Critical Script Analysis methodology you

@@ -1,3 +1,9 @@
+---
+title: Change Operations and Control
+sidebar_label: Operations
+description: Planned change operations with closed-loop intelligent control including event acknowledgment and file system change management.
+---
+
 # Planned Change Operation – Closed-Loop Intelligent Planned Change Control
 
 ## Acknowledging Events

@@ -1,3 +1,9 @@
+---
+title: Remove Server
+sidebar_label: Remove Server
+description: Server removal procedure for cleaning up agent listings and managing decommissioned systems.
+---
+
 # Remove Server from List
 
 The Agents Interface displays a list of servers where the Agent has been deployed. You may want to

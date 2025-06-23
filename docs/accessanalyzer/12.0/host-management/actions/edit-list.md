@@ -1,3 +1,9 @@
+---
+title: edit list
+sidebar_label: edit list
+description: Documentation for edit list functionality in Access Analyzer including configuration and usage information.
+---
+
 # Edit List
 
 Use the **Edit List** option to edit properties for the selected host list. This option is available

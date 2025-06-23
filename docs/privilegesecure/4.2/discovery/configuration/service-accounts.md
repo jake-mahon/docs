@@ -1,3 +1,9 @@
+---
+title: Service Accounts
+sidebar_label: service accounts
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Service Accounts
 
 Service Accounts

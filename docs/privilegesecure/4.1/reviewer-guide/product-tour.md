@@ -1,3 +1,9 @@
+---
+title: Product Tour
+sidebar_label: Product Tour
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Product Tour
 
 New users now experience a product tour on first login. Standard users and users with the Privilege

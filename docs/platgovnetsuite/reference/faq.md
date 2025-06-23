@@ -1,3 +1,9 @@
+---
+title: Frequently Asked Questions
+sidebar_label: FAQ
+description: Common questions about Platform Governance for NetSuite including SOC1 compliance, installation, data privacy, licensing, and implementation effort.
+---
+
 # FAQ
 
 Platform Governance for NetSuite is a stress-free change management and compliance software for

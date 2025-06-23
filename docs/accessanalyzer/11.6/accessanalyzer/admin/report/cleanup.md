@@ -1,3 +1,9 @@
+---
+title: Report Cleanup Configuration
+sidebar_label: Cleanup
+description: Report cleanup configuration for managing report retention policies and automatic cleanup procedures.
+---
+
 # Report Cleanup when Deleting a Job or Job Group
 
 When deleting a job or job group, the Delete Job and Delete Group wizards allow you to delete any

@@ -1,3 +1,9 @@
+---
+title: SolarWinds SIEM Integration
+sidebar_label: SolarWinds
+description: Integrate Netwrix Auditor with SolarWinds Log & Event Manager for centralized security monitoring and compliance reporting.
+---
+
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

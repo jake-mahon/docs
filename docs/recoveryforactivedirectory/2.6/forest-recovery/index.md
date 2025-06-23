@@ -1,3 +1,7 @@
+title: Forest Recovery Management Interface
+sidebar_label: Forest Recovery
+description: Manage forest configuration, domain controller backups, and forest recovery operations with comprehensive forest tree structure management.
+
 # Forest Page
 
 The Forest page allows administrators to:

@@ -1,3 +1,9 @@
+---
+title: custom branding
+sidebar_label: custom-branding
+description: Auditor 10.7 documentation for custom branding with configuration details, usage instructions, and implementation guidance.
+---
+
 # Customize Branding
 
 Netwrix Auditor allows customizing look and feel of your reports, search subscriptions and exported

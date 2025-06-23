@@ -1,3 +1,9 @@
+---
+title: Password Reset Administration Overview
+sidebar_label: Administration
+description: Overview of Password Policy Enforcer and Password Reset administration, including benefits of reduced costs, increased productivity, and improved security.
+---
+
 # Administration
 
 Netwrix Password Policy Enforcer helps you to secure your network by ensuring that users choose

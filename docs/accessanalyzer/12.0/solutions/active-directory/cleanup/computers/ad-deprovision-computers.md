@@ -1,3 +1,9 @@
+---
+title: active directory cleanup computers ad deprovision computers
+sidebar_label: ad deprovision computers
+description: Solution guide for active directory cleanup computers ad deprovision computers including implementation steps, configuration, and best practices.
+---
+
 # AD_DeprovisionComputers Job
 
 The AD_DeprovisionComputers Job provides a simple automated workflow deprovision stale computers.

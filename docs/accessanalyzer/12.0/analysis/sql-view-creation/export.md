@@ -1,3 +1,9 @@
+---
+title: export
+sidebar_label: export
+description: Documentation for export functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLViewCreation: Export
 
 Use the Export settings page to specify data export settings.

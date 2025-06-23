@@ -1,3 +1,9 @@
+---
+title: SQL Server Trace Logging Configuration
+sidebar_label: Trace Logging
+description: Configure trace logging settings and storage locations for SQL Server audit data collection and management.
+---
+
 # Configure Trace Logging
 
 By default, the SQL Server trace logs are stored to the predefined location (depending on the SQL

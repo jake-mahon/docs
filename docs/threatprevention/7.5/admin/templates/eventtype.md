@@ -1,3 +1,9 @@
+---
+title: Event Type Tab
+sidebar_label: Event Type Tab
+description: The Event Type tab enables you to define the objects and events that Threat Prevention monitors/blocks.
+---
+
 # Event Type Tab
 
 The Event Type tab enables you to define the objects and events that Threat Prevention

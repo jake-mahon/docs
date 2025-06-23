@@ -1,3 +1,9 @@
+---
+title: Enable Database Maintenance
+sidebar_label: Enable Database Maintenance
+description: Database maintenance can be enabled for all or specific event types, analytics, and/or policies. It can be enabled for any combination of event type data, an...
+---
+
 # Enable Database Maintenance
 
 Database maintenance can be enabled for all or specific event types, analytics, and/or policies. It

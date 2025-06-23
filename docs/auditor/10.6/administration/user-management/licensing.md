@@ -1,3 +1,9 @@
+---
+title: user-management licensing
+sidebar_label: licensing
+description: Auditor 10.6 administration guide for user-management licensing configuration and management.
+---
+
 # Licenses
 
 The Licenses tab allows you to review the status of your current licenses, update them and add new

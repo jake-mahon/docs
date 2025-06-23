@@ -1,3 +1,9 @@
+---
+title: Entity Model Design
+sidebar_label: Entity Model
+description: Design efficient data models for IGA projects using Entity-Relationship modeling to adapt data structures to organizational needs rather than fixed schemas.
+---
+
 # Entity Model
 
 At the heart of any successful IGA project, dwells an efficient data model.

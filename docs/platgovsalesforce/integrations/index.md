@@ -1,3 +1,9 @@
+---
+title: External System Integrations Overview
+sidebar_label: Overview
+description: Integrate Platform Governance with external ticketing systems like Jira for improved workflows, impact analysis, and synchronized change management.
+---
+
 # Integrations
 
 Many customers use ticketing and change approval systems in the management of changes to all of

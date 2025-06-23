@@ -1,3 +1,7 @@
+title: User Notifications Overview
+sidebar_label: Overview
+description: Configure personalized email and syslog alerts for device changes in ChangeTracker with device groups and notification types for each user account.
+
 # User Notifications
 
 Once devices have been assigned to Device Groups and a Configuration Template has been assigned, a

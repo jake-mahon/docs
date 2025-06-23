@@ -1,3 +1,9 @@
+---
+title: StealthAUDIT Integration
+sidebar_label: access governance
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # StealthAUDIT Integration
 
 Netwrix Enterprise Auditor can be configured to send administrator information to Privilege Secure.

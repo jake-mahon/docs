@@ -1,3 +1,9 @@
+---
+title: Portal synchronize job selectedfield
+sidebar_label: selectedfield
+description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
+---
+
 # Selected Fields for object types
 
 On the Selected Fields for Object type section, click Add/Edit Fields. You can specify the action to

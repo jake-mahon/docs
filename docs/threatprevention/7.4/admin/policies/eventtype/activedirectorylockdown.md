@@ -1,3 +1,9 @@
+---
+title: Active Directory Lockdown Event Type
+sidebar_label: Active Directory Lockdown Event
+description: Based on policy rules, the Active Directory Lockdown event type can prevent a change in Active Directory. Every time a change is prevented, an event with det...
+---
+
 # Active Directory Lockdown Event Type
 
 Based on policy rules, the Active Directory Lockdown event type can prevent a change in Active

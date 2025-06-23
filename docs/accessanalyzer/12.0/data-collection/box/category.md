@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # Box: Category
 
 Use the Category page to select the type of scan or import for the Box Enterprise targeted.

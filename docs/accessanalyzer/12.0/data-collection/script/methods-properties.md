@@ -1,3 +1,9 @@
+---
+title: methods properties
+sidebar_label: methods properties
+description: Documentation for methods properties functionality in Access Analyzer including configuration and usage information.
+---
+
 # Script Methods and Properties
 
 The Query and Working Query objects support the following methods and properties.

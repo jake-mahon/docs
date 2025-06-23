@@ -1,3 +1,9 @@
+---
+title: Enroll Hosts in Management Window
+sidebar_label: enrollment
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Enroll Hosts in Management Window
 
 Follow these steps to add a computer as NPS Managed Resource:

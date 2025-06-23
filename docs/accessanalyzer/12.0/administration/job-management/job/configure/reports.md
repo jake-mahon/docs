@@ -1,3 +1,9 @@
+---
+title: reports Administration
+sidebar_label: reports
+description: Administration guide for reports including configuration, management, and best practices for Access Analyzer.
+---
+
 # Reports Node
 
 The Reports node is for configuring reports to be generated during job execution.

@@ -1,3 +1,9 @@
+---
+title: Users & Groups Page
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Users & Groups Page
 
 The Users & Groups page shows session information for onboarded users and groups. Onboarded users

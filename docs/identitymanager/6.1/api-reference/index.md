@@ -1,3 +1,9 @@
+---
+title: API Reference Overview
+sidebar_label: API Reference
+description: REST API documentation for Usercube agents and server including OpenAPI definitions, Swagger UI access, and practical implementation guides.
+---
+
 # How-Tos
 
 These guides will help you use Usercube's API with practical step-by-step procedures.

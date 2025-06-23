@@ -1,3 +1,9 @@
+---
+title: Installing Flashlight by Strongpoint
+sidebar_label: Installation
+description: Step-by-step guide to install the Flashlight app from Salesforce AppExchange and use the Getting Started Wizard to begin documenting your org.
+---
+
 # Installing Flashlight by Strongpoint
 
 The Flashlight app package is available on the Salesforce AppExchange. To install Flashlight by

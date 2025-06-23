@@ -1,3 +1,7 @@
+title: Active Directory Rollback Operations
+sidebar_label: Rollback Operations
+description: Revert Active Directory objects to previous states including user accounts, groups, and organizational units with step-by-step procedures.
+
 # Rollback Objects
 
 You can revert an Active Directory object to its previous state.

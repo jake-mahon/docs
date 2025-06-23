@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Console Administration
+sidebar_label: Administration
+description: Use the Activity Monitor Console to deploy and manage agents, configure host monitoring, and search events within activity log files for comprehensive monitoring.
+---
+
 # Administration
 
 The Activity Monitor Console is used to deploy and manage activity agents, configure host

@@ -1,3 +1,9 @@
+---
+title: Identity Manager 6.1 Documentation
+sidebar_label: Identity Manager 6.1
+description: Comprehensive identity governance and administration platform for enterprise security with automated workflows, access controls, and compliance reporting.
+---
+
 # Identity Manager 6.1
 
 > Comprehensive identity governance and administration for enterprise security

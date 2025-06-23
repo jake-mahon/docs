@@ -1,3 +1,9 @@
+---
+title: databases sql permissions sql directpermissions
+sidebar_label: sql directpermissions
+description: Solution guide for databases sql permissions sql directpermissions including implementation steps, configuration, and best practices.
+---
+
 # SQL_DirectPermissions Job
 
 The SQL_DirectPermissions Job provides information on permissions granted to users at the schema,

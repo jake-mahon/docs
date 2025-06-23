@@ -1,3 +1,9 @@
+---
+title: Group Policy Target Configuration
+sidebar_label: Target
+description: Target configuration for Group Policy data collector including domain and organizational unit selection for GPO analysis.
+---
+
 # GroupPolicy: Target
 
 The Target page is where a host from which to get data (in wizard only) and .admx source are

@@ -1,3 +1,9 @@
+---
+title: aws s3content aws s3buckettags
+sidebar_label: aws s3buckettags
+description: Solution guide for aws s3content aws s3buckettags including implementation steps, configuration, and best practices.
+---
+
 # AWS_S3BucketTags Job
 
 The AWS_S3BucketTags job identifies tags associated with AWS S3 Buckets. Tagging can be helpful to

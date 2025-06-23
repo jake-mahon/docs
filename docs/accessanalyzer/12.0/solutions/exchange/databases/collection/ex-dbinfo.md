@@ -1,3 +1,9 @@
+---
+title: exchange databases collection ex dbinfo
+sidebar_label: ex dbinfo
+description: Solution guide for exchange databases collection ex dbinfo including implementation steps, configuration, and best practices.
+---
+
 # 1.Local > EX_DBInfo Job
 
 The EX_DBInfo job utilizes Exchange PowerShell to gather 2010/2013 Mailbox Size information.

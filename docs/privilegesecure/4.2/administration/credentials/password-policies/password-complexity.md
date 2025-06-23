@@ -1,3 +1,9 @@
+---
+title: Add Password Complexity Policy
+sidebar_label: password complexity
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Password Complexity Policy
 
 Follow the steps to add a password policy to the console.

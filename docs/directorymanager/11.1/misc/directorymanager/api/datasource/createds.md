@@ -1,3 +1,9 @@
+---
+title: datasource createds API
+sidebar_label: createds
+description: API reference for createds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a Data Source
 
 Using this API, you can create data sources for the supported providers. The data sources are

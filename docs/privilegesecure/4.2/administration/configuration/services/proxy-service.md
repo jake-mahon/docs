@@ -1,3 +1,9 @@
+---
+title: Proxy Service
+sidebar_label: proxy service
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Proxy Service
 
 The Proxy Service page shows the details of the selected service on the host.

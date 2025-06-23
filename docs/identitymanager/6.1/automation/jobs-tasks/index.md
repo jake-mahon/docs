@@ -1,3 +1,9 @@
+---
+title: Jobs and Tasks Automation
+sidebar_label: Jobs & Tasks
+description: Comprehensive guide to orchestrating IGA tasks and jobs including complete/incremental synchronization, fulfillment tasks, and job configuration.
+---
+
 # Configure Jobs
 
 This guide shows how to define the permissions for creating and using jobs thanks to scaffoldings.

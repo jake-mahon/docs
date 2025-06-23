@@ -1,3 +1,9 @@
+---
+title: Email Reminder and Mailer Configuration
+sidebar_label: Email Configuration
+description: Guide to configuring Password Policy Enforcer email reminders, mailer installation, and email message options for password expiration notifications.
+---
+
 # Email Message Options
 
 Email message options are set for each password policy from the

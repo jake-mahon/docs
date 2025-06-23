@@ -1,3 +1,9 @@
+---
+title: Web Application Functional Scope
+sidebar_label: Web App Overview
+description: Password Secure Web Application functional scope overview with general functions and module descriptions for constant enhancement.
+---
+
 # Functional scope
 
 The **Web Application** will act as the basis for a constant enhancement. The current functional

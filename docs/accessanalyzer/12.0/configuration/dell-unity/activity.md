@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # Dell Unity Activity Auditing Configuration
 
 A Dell Unity device can be configured to audit Server Message Block (SMB) protocol access events.

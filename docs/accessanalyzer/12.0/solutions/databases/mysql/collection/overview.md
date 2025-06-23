@@ -1,3 +1,9 @@
+---
+title: databases mysql collection overview
+sidebar_label: overview
+description: Solution guide for databases mysql collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The MySQL Solution Collection group is designed to collect high level summary information from

@@ -1,3 +1,9 @@
+---
+title: Installing Platform Governance Bundle
+sidebar_label: Installation Guide
+description: Complete installation guide for Platform Governance for NetSuite bundle including SuiteBundler installation, configuration, and license assignment.
+---
+
 # Installing Platform Governance for NetSuite
 
 To get Platform Governance for NetSuite up and running, you need to do the following:

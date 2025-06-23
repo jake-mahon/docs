@@ -1,3 +1,9 @@
+---
+title: Get groupmember Cmdlet
+sidebar_label: getgroupmember
+description: PowerShell cmdlet reference for getgroupmember with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-GroupMember
 
 Use this commandlet to retrieve members of a particular group from directory. You can apply filters

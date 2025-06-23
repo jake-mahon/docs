@@ -1,3 +1,9 @@
+---
+title: First Launch
+sidebar_label: first launch
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # First Launch
 
 Once the database and application are installed, the next step is to walk through the Setup Wizard.

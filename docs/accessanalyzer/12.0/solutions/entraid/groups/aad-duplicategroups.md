@@ -1,3 +1,9 @@
+---
+title: entraid groups aad duplicategroups
+sidebar_label: aad duplicategroups
+description: Solution guide for entraid groups aad duplicategroups including implementation steps, configuration, and best practices.
+---
+
 # AAD_DuplicateGroups Job
 
 The AAD_DuplicateGroups Job identifies duplicate groups within Microsoft Entra ID. Duplicate groups

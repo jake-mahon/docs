@@ -1,3 +1,9 @@
+---
+title: Add Portal Secondary Accounting Contacts
+sidebar_label: Add Users
+description: Create secondary and accounting contacts in the Endpoint Policy Manager portal. Enable additional users to access downloads, updates, and renewal information.
+---
+
 # How do I create a Secondary (or Accounting) contact within the Portal to enable another person to participate in Endpoint Policy Manager (including downloads, updates, etc.)?
 
 **NOTE:** This article pertains to portal.endpointpolicymanager.com.  If you need to manage users in the Netwrix

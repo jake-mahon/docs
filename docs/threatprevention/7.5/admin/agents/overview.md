@@ -1,3 +1,9 @@
+---
+title: Agents Interface Overview
+sidebar_label: Agents
+description: Central interface for viewing, deploying, and managing Threat Prevention agents across domain controllers with automated and manual deployment options.
+---
+
 # Agents Interface
 
 The Agents interface allows you to quickly view, deploy, and manage Agents from a centralized

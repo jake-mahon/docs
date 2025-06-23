@@ -1,3 +1,9 @@
+---
+title: databases sql overview
+sidebar_label: overview
+description: Solution guide for databases sql overview including implementation steps, configuration, and best practices.
+---
+
 # SQL Job Group
 
 The SQL Job Group reports on SQL Server, AzureSQL, or both depending on which collection jobs were

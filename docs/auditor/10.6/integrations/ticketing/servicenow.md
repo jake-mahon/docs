@@ -1,3 +1,9 @@
+---
+title: servicenow
+sidebar_label: servicenow
+description: Auditor 10.6 documentation for servicenow with configuration details, usage instructions, and implementation guidance.
+---
+
 # Integrate Alerts with Add-On
 
 The add-on is shipped with a special set of alerts developed by Netwrixindustry experts. These

@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # PasswordSecurity: Options
 
 The Options page provides format options for returned data.

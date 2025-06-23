@@ -1,3 +1,9 @@
+---
+title: Document Reports
+sidebar_label: Documentation Reports
+description: Review the list of the built-in document reports: classifications. Supports filtering by URL and source group. index, using checksum matching. Supports...
+---
+
 # Document Reports
 
 Review the list of the built-in document reports:

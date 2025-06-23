@@ -1,3 +1,9 @@
+---
+title: member operations
+sidebar_label: member-operations
+description: Directory Manager 11.1 documentation for member operations with configuration details, usage instructions, and implementation guidance.
+---
+
 # Get Preview of a Smart Group Membership
 
 Using this API, you can preview membership changes that will occur in a Smart Group membership as

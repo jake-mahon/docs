@@ -1,3 +1,9 @@
+---
+title: Execute PS Script
+sidebar_label: Execute PS Script
+description: The Execute PS script right-click option in the Recent Events tab of a policy opens a Windows Explorer window to the scripts folder within the Threat Prevent...
+---
+
 # Execute PS Script
 
 The Execute PS script right-click option in the Recent Events tab of a policy opens a Windows

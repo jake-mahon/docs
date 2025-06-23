@@ -1,3 +1,9 @@
+---
+title: File Associations Manager XML Data Files
+sidebar_label: File Associations
+description: Export Endpoint Policy Manager File Associations Manager settings as XML files for MDM deployment. Export single entries or entire collections.
+---
+
 # XML Data Files from Endpoint Policy Manager File Associations Manager
 
 You can export a single Endpoint Policy Manager File Associations Manager entry, as shown in

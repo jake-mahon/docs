@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer groups ad groupmembershippermissions
+sidebar_label: ad groupmembershippermissions
+description: Solution guide for activedirectorypermissionsanalyzer groups ad groupmembershippermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupMembershipPermissions Job
 
 The AD_GroupMembershipPermissions Job highlights all Active Directory users that are capable of

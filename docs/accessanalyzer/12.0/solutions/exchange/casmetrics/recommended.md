@@ -1,3 +1,9 @@
+---
+title: exchange casmetrics recommended
+sidebar_label: recommended
+description: Solution guide for exchange casmetrics recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the 2. CAS Metrics Job Group
 
 Dependencies

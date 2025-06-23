@@ -1,3 +1,9 @@
+---
+title: actions Administration
+sidebar_label: actions
+description: Administration guide for actions including configuration, management, and best practices for Access Analyzer.
+---
+
 # Actions Node
 
 The Actions node uses Access Analyzer action modules to take action on collected and analyzed data.

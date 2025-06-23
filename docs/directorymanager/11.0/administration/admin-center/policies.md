@@ -1,3 +1,9 @@
+---
+title: policies
+sidebar_label: policies
+description: Directory Manager 11.0 documentation for policies with configuration details, usage instructions, and implementation guidance.
+---
+
 # Authentication Policy for Security Roles
 
 Having enabled and configured authentication types for an identity store, you can:

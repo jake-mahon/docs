@@ -1,3 +1,9 @@
+---
+title: Getting Started: online permissions
+sidebar_label: online permissions
+description: Getting started guide for online permissions in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # SharePoint Online Permissions
 
 SharePoint Online environments can only be scanned in Agent-less mode. When SharePoint agent-less

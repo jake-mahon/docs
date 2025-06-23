@@ -1,3 +1,9 @@
+---
+title: Profiles and Permissions Management
+sidebar_label: Profiles & Permissions
+description: Configure access control through profiles and permissions including profile creation, assignment rules, and user rights restrictions.
+---
+
 # How-Tos
 
 These guides will help you set up profiles and permissions with practical step-by-step procedures.

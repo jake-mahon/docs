@@ -1,3 +1,9 @@
+---
+title: web request
+sidebar_label: web request
+description: Documentation for web request functionality in Access Analyzer including configuration and usage information.
+---
+
 # Web Request: Destination
 
 Use the Destination page to specify all settings for the destination of the web request.

@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox Action Module
 
 The Mailbox action module allows you to perform bulk operations on Microsoft Exchange mailboxes, for

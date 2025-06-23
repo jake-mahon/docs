@@ -1,3 +1,9 @@
+---
+title: SharePoint Online
+sidebar_label: Sharepoint Online
+description: Microsoft OneDrive is the default document library in a user's MySite in SharePoint Server or in Microsoft 365. The contents of this library can optionally b...
+---
+
 # SharePoint Online
 
 Microsoft OneDrive is the default document library in a user's MySite in SharePoint Server or in

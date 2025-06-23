@@ -1,3 +1,9 @@
+---
+title: datasource dsexcel API
+sidebar_label: dsexcel
+description: API reference for dsexcel operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Create a Data Source for MS Excel
 
 Use this API to create a new data source.

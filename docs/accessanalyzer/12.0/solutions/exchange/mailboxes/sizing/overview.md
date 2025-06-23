@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes sizing overview
+sidebar_label: overview
+description: Solution guide for exchange mailboxes sizing overview including implementation steps, configuration, and best practices.
+---
+
 # Sizing Job Group
 
 The Sizing job group provides data collection, analyses, and reports which focus on mailbox sizing,

@@ -1,3 +1,9 @@
+---
+title: Integration Connectors Page
+sidebar_label: Overview
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Integration Connectors Page
 
 The Integration Connectors page is accessible from the Navigation pane under Configuration. It shows

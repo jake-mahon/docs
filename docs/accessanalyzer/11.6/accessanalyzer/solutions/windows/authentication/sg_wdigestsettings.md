@@ -1,3 +1,9 @@
+---
+title: windows authentication sg_wdigestsettings
+sidebar_label: sg_wdigestsettings
+description: Solution guide for windows authentication sg_wdigestsettings including implementation steps, configuration, and best practices.
+---
+
 # SG_WDigestSettings Job
 
 The SG_WDigestSettings job lists WDigest settings on all targeted hosts. In particular, the

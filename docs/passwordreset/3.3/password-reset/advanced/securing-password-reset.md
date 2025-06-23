@@ -1,6 +1,8 @@
-# Securing Password Reset
-
-Securing Password Reset
+---
+title: Securing Password Reset
+sidebar_label: Security
+description: Advanced security configuration for Password Reset including SSL certificate installation and delegated permissions for enhanced production protection.
+---
 
 # Securing Password Reset
 

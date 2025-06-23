@@ -1,3 +1,9 @@
+---
+title: Alert Management Configuration
+sidebar_label: Alerts
+description: Define email alerts for main events detected by Endpoint Protector including system notifications and monitoring configurations.
+---
+
 # Alerts
 
 From this section, you can deﬁne E-mail Alerts for the main events detected by Endpoint Protector:

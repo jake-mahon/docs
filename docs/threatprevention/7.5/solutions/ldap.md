@@ -1,3 +1,9 @@
+---
+title: LDAP Solution
+sidebar_label: LDAP
+description: LDAP monitoring solution for directory services including bind monitoring, query tracking, and unauthorized access detection.
+---
+
 # LDAP
 
 Threat Prevention for LDAP provides real-time monitoring of Active Directory LDAP queries without

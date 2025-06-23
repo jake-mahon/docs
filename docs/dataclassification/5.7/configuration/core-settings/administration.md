@@ -1,3 +1,9 @@
+---
+title: Administration Configuration Settings for Data Classification
+sidebar_label: Administration
+description: Configure general administration options, taxonomies settings, and Concept Classifier app features for Netwrix Data Classification core settings.
+---
+
 # Administration
 
 This configuration tab contains general options, as well as those that apply to taxonomies area and

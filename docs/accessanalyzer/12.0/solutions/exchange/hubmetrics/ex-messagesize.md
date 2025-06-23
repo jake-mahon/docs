@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics ex messagesize
+sidebar_label: ex messagesize
+description: Solution guide for exchange hubmetrics ex messagesize including implementation steps, configuration, and best practices.
+---
+
 # EX_MessageSize Job
 
 The EX_MessageSize Job provides information around the size of sent and received messages.

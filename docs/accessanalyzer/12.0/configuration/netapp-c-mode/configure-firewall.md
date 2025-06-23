@@ -1,3 +1,9 @@
+---
+title: configure firewall
+sidebar_label: configure firewall
+description: Documentation for configure firewall functionality in Access Analyzer including configuration and usage information.
+---
+
 # Configure Network
 
 Activity Monitor requires two communication channels for ONTAP monitoring:

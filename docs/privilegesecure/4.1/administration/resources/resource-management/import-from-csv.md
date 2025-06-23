@@ -1,3 +1,9 @@
+---
+title: Create Resource Import CSV File
+sidebar_label: import from csv
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Create Resource Import CSV File
 
 Resources can be onboarded via a CSV import process. Create a CSV file with the following values:

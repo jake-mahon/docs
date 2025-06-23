@@ -1,3 +1,9 @@
+---
+title: custom roles Administration
+sidebar_label: custom roles
+description: Administration guide for custom roles including configuration, management, and best practices for Access Analyzer.
+---
+
 # Custom Roles
 
 A custom role can be created within Access Analyzer to combine the rights of other defined roles.

@@ -1,3 +1,9 @@
+---
+title: Manage Sources and Control Data Processing
+sidebar_label: Manage Sources
+description: Manage data processing with delete, re-collect, re-index, re-classify, pause, resume operations for content sources in Netwrix Data Classification.
+---
+
 # Manage Sources and Control Data Processing
 
 The following commands are available on the **General** tab of the **Sources** section:

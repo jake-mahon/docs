@@ -1,3 +1,9 @@
+---
+title: Getting Started: database mysql
+sidebar_label: database mysql
+description: Getting started guide for database mysql in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Target MySQL Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor MySQL database

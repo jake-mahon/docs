@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics collection ex metricscollection
+sidebar_label: ex metricscollection
+description: Solution guide for exchange hubmetrics collection ex metricscollection including implementation steps, configuration, and best practices.
+---
+
 # EX_MetricsCollection Job
 
 The EX_MetricsCollection Job is comprised of multiple queries that utilize the ExchangeMetrics Data

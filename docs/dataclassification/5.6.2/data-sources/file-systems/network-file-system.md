@@ -1,3 +1,9 @@
+---
+title: File System
+sidebar_label: Network File System
+description: This section contains information on how to include or exclude files or folders from being crawled, and how to configure writing classification attributes ba...
+---
+
 # File System
 
 This section contains information on how to include or exclude files or folders from being crawled,

@@ -1,3 +1,9 @@
+---
+title: Installation: install
+sidebar_label: install
+description: Installation guide for install including system requirements, setup procedures, and configuration options.
+---
+
 # SharePoint Agent Installation
 
 The SharePoint Agent is capable of auditing permissions and content, or Access Auditing (SPAA) and

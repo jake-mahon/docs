@@ -1,3 +1,9 @@
+---
+title: Compliance Reports Details View
+sidebar_label: Reports
+description: Detailed compliance report interface with score filters and full report output access for comprehensive compliance analysis.
+---
+
 # Details Tab
 
 Description

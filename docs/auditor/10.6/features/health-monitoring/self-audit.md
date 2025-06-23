@@ -1,3 +1,9 @@
+---
+title: Self-Audit Capabilities
+sidebar_label: Self-Audit
+description: Enable and configure self-audit features in Netwrix Auditor to monitor administrative activities and system configuration changes.
+---
+
 # Self-Audit
 
 Built-in Netwrix Auditor self-audit allows you to track changes to the product configuration,

@@ -1,3 +1,9 @@
+---
+title: filtercriteria
+sidebar_label: filtercriteria
+description: Directory Manager 11.1 documentation for filtercriteria with configuration details, usage instructions, and implementation guidance.
+---
+
 # Query Designer - Filter Criteria tab
 
 Use this tab to add custom criteria to your query that do not fit any of the categories represented

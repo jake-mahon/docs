@@ -1,3 +1,9 @@
+---
+title: aws policies aws userpolicies
+sidebar_label: aws userpolicies
+description: Solution guide for aws policies aws userpolicies including implementation steps, configuration, and best practices.
+---
+
 # AWS_UserPolicies Job
 
 The AWS_UserPolicies job provides details outlining user policy assignment. This includes where the

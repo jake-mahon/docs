@@ -1,3 +1,9 @@
+---
+title: Using Change Logs for Tracking
+sidebar_label: Change Logs
+description: Track and analyze change logs to monitor who made changes, when changes occurred, and view system notes for NetSuite customizations.
+---
+
 # Using Change Logs
 
 Change Logs allow you to see the type of change, who made the change and view the system notes of

@@ -1,3 +1,9 @@
+---
+title: Auditing Page
+sidebar_label: Auditing Page
+description: The Auditing page within the System Settings interface contains the Audit History table with information about all application events.
+---
+
 # Auditing Page
 
 The Auditing page within the System Settings interface contains the Audit History table with
@@ -15,9 +21,9 @@ The Audit History table displays the following information:
 - Log Level – The relative impact of the action. This feature is auto-assigned by the application.
 - Log Type – The overall type of activity source of the change:
 
-    - Audit – User-performed action
-    - System – Change made by the application
-    - Security – Log into the console
+  - Audit – User-performed action
+  - System – Change made by the application
+  - Security – Log into the console
 
 - Time Stamp – The date timestamp for when the changed occurred
 - Description – A summary of the event that occurred
@@ -40,22 +46,22 @@ You can filter the records in the Audit History table on the Auditing interface.
 - Select an option from the drop-down menu next to the search box. The options correspond to column
   headers in the Audit History table:
 
-    - Log Level
-    - Log Type
-    - Username
-    - IP Address
-    - Category
-    - Sub-Category
-    - Status
+  - Log Level
+  - Log Type
+  - Username
+  - IP Address
+  - Category
+  - Sub-Category
+  - Status
 
-    Then enter a search string in the search box to display records that contain the given text in
-    the selected column.
+  Then enter a search string in the search box to display records that contain the given text in
+  the selected column.
 
 - Click on **Today** to open the calendar along with several other options to filter the data for a
   specific time period. For example:
 
-    - Click _Last 7 Days_ to view the audit data for the last week
-    - Click _Custom Range_ and then use the calendar to specify a time range to view audit data for
-      that period
+  - Click _Last 7 Days_ to view the audit data for the last week
+  - Click _Custom Range_ and then use the calendar to specify a time range to view audit data for
+    that period
 
-    Click **Apply** after making a selection.
+  Click **Apply** after making a selection.

@@ -1,3 +1,9 @@
+---
+title: unix usersgroups ux emptygroups
+sidebar_label: ux emptygroups
+description: Solution guide for unix usersgroups ux emptygroups including implementation steps, configuration, and best practices.
+---
+
 # UX_EmptyGroups Job
 
 The UX_EmptyGroups job identifies empty groups found within the audited Unix or Linux environment.

@@ -1,3 +1,9 @@
+---
+title: sharepoint content analysis
+sidebar_label: content analysis
+description: Solution guide for sharepoint content analysis including implementation steps, configuration, and best practices.
+---
+
 # 4.Content Job Group
 
 This group provides insight into content stored across SharePoint farms in order to help more

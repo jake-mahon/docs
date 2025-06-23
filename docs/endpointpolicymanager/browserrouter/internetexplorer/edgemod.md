@@ -1,3 +1,9 @@
+---
+title: Browser Router IE Edge Mode
+sidebar_label: IE Edge Mode
+description: Configure Internet Explorer mode within Edge browser using Browser Router to provide legacy intranet site compatibility while maintaining modern browser experience.
+---
+
 ## Internet Explorer in Edge Mode
 
 **NOTE:** To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge

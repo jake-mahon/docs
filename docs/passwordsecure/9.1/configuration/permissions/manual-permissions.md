@@ -1,3 +1,9 @@
+---
+title: Manual Permission Assignment
+sidebar_label: Manual Permissions
+description: Configure manual permission settings for individual records providing granular access control beyond automated permission assignment methods.
+---
+
 # Manual setting of permissions
 
 ## What is the manual setting of permissions for records?

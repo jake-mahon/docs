@@ -1,3 +1,9 @@
+---
+title: filesystem collection 3 fsac exceptions
+sidebar_label: 3 fsac exceptions
+description: Solution guide for filesystem collection 3 fsac exceptions including implementation steps, configuration, and best practices.
+---
+
 # 3-FSAC Exceptions Job
 
 The 3-FSAC Exceptions job is designed to analyze collected access information for exceptions.

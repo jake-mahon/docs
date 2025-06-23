@@ -1,3 +1,9 @@
+---
+title: sharepoint sp openaccess
+sidebar_label: sp openaccess
+description: Solution guide for sharepoint sp openaccess including implementation steps, configuration, and best practices.
+---
+
 # 2.High Risk Sites > SP_OpenAccess Job
 
 The 2.High Risk Sites Job Group provides insight into any high risk repositories and high risk data

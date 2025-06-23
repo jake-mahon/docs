@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # AzureADInventory: Options
 
 The Options page provides scan options to use when gathering Microsoft Entra ID information. It is a

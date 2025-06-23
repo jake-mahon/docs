@@ -1,3 +1,9 @@
+---
+title: Disable Office Interface Elements
+sidebar_label: Office Elements
+description: Step-by-step guide to disable Office interface elements using Endpoint Policy Manager and ADMX templates with command IDs.
+---
+
 # How do I disable elements in Office (Outlook, etc.) using Endpoint Policy Manager and ADMX files?
 
 First, download the Microsoft Office ADMX templates and disable any command from any group using

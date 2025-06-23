@@ -1,3 +1,9 @@
+---
+title: Documented Metadata Types
+sidebar_label: Metadata Reference
+description: Complete reference list of over 120 Salesforce metadata types documented by Flashlight, organized by type and category for easy reference.
+---
+
 # Documented Metadata Types
 
 You can view the documented Metadata by **Type** or by Category.

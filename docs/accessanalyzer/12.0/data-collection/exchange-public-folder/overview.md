@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangePublicFolder Data Collector
 
 The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents,

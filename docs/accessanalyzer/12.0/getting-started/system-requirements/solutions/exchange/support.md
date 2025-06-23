@@ -1,3 +1,9 @@
+---
+title: Getting Started: support
+sidebar_label: support
+description: Getting started guide for support in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Exchange Support and Permissions Explained
 
 This topic outlines what is supported for each type of Exchange version.

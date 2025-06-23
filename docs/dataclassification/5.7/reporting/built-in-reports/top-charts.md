@@ -1,3 +1,9 @@
+---
+title: Top Reports and Charts
+sidebar_label: Top Charts
+description: Several reports and charts do not belong to any group; they are on top of the list as they provide the most frequently requested information:... Learn more a...
+---
+
 # Top Reports and Charts
 
 Several reports and charts do not belong to any group; they are on top of the list as they provide

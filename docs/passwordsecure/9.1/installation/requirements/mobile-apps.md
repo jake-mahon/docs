@@ -1,3 +1,9 @@
+---
+title: Mobile Apps Requirements
+sidebar_label: Mobile Requirements
+description: Version requirements and device compatibility for Password Secure mobile apps including official OS support and jailbreak restrictions.
+---
+
 # Mobile Apps
 
 #### Required Version

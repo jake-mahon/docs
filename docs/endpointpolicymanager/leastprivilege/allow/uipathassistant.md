@@ -1,3 +1,9 @@
+---
+title: Allow UiPath Assistant with Blocked PowerShell
+sidebar_label: UiPath Assistant
+description: Configure LPM rules to allow UiPath Assistant commands to function properly when PowerShell execution is blocked for security purposes.
+---
+
 # How to Allow UiPath Assistant to run when running PowerShell is blocked for all Users
 
 Blocking PowerShell for everyone can also cause applications that depend on PowerShell to not run

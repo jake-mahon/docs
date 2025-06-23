@@ -1,3 +1,9 @@
+---
+title: criteria
+sidebar_label: criteria
+description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Criteria
 
 The Criteria page is used to specify the search criteria. A test query can be run with the sample

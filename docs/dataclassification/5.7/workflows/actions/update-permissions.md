@@ -1,3 +1,9 @@
+---
+title: Update Permissions
+sidebar_label: Update Permissions
+description: This action updates the file system permissions for the classified document. You can use this approach to automatically restrict access to sensitive document...
+---
+
 # Update Permissions
 
 This action updates the file system permissions for the classified document. You can use this

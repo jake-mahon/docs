@@ -1,3 +1,9 @@
+---
+title: Active Directory Solution
+sidebar_label: Active Directory
+description: Comprehensive Active Directory monitoring and protection solution including change tracking, lockdown policies, and authentication security.
+---
+
 # Active Directory
 
 Threat Prevention for Active Directory is a real-time change monitoring and security threat
@@ -30,9 +36,9 @@ Some important events Threat Prevention captures are:
 - Active Directory Read Monitoring
 - Authentication (Kerberos & NTLM)
 
-    - Authentication-based Attacks (e.g. Horizontal/Lateral Movement, Brute Force Attacks, User
-      Account Hacking, Breached Passwords, Golden Tickets, and more)
-    - Privileged Account Authentications
+  - Authentication-based Attacks (e.g. Horizontal/Lateral Movement, Brute Force Attacks, User
+    Account Hacking, Breached Passwords, Golden Tickets, and more)
+  - Privileged Account Authentications
 
 ## Active Directory Event Types
 

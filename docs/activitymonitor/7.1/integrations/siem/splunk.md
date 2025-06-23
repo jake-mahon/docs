@@ -1,3 +1,9 @@
+---
+title: File Activity Monitor App for Splunk
+sidebar_label: Splunk
+description: Integrate Activity Monitor with Splunk using the File Activity Monitor App for real-time file access monitoring and threat detection capabilities.
+---
+
 # File Activity Monitor App for Splunk
 
 Stealthbits File Activity monitoring solutions enable organizations to successfully, efficiently,

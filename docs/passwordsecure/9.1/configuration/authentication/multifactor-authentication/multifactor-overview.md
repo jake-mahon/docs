@@ -1,3 +1,9 @@
+---
+title: Multifactor Authentication Overview
+sidebar_label: MFA Overview
+description: Overview of multifactor authentication setup for additional login security factors beyond passwords, configurable by administrators or users.
+---
+
 # Multifactor authentication
 
 ## What is multifactor authentication?

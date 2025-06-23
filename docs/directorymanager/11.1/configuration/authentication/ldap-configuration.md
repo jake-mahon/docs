@@ -1,3 +1,9 @@
+---
+title: ldap configuration
+sidebar_label: ldap-configuration
+description: Directory Manager 11.1 documentation for ldap configuration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Authenticate your Identity Store Account
 
 To authenticate your identity store account in Directory Manager for multifactor authentication or

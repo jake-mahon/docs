@@ -1,3 +1,9 @@
+---
+title: Host Investigation Dashboard
+sidebar_label: Host Investigation Dashboard
+description: The Host Investigation dashboard only appears when a search is conducted. This can be done by clicking a computer-account hyperlink within the Source IP or D...
+---
+
 # Host Investigation Dashboard
 
 The Host Investigation dashboard only appears when a search is conducted. This can be done by

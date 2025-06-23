@@ -1,3 +1,9 @@
+---
+title: New container Cmdlet
+sidebar_label: newcontainer
+description: PowerShell cmdlet reference for newcontainer with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # New-Container
 
 The New-Container commandlet creates a new organizational unit in Directory. You can also use it to

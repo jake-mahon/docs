@@ -1,3 +1,9 @@
+---
+title: Threat Manager Installation Guide
+sidebar_label: Installation
+description: Complete installation guide for Threat Manager including prerequisites, PostgreSQL database setup, application installation, and post-configuration.
+---
+
 # Installation
 
 Prior to installing Threat Manager, please ensure that all of the prerequisites have been met in

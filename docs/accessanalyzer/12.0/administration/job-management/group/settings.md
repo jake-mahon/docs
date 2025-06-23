@@ -1,3 +1,9 @@
+---
+title: settings Administration
+sidebar_label: settings
+description: Administration guide for settings including configuration, management, and best practices for Access Analyzer.
+---
+
 # Job Groups Settings Node
 
 A job group’s Settings node is where custom configurations can be set and where the host lists are

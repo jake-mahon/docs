@@ -1,3 +1,9 @@
+---
+title: Threat Prevention Overview
+sidebar_label: Overview
+description: Comprehensive overview of Netwrix Threat Prevention 7.5 capabilities including real-time monitoring, proactive blocking, and enhanced SIEM integration features.
+---
+
 # Netwrix Threat Prevention v7.5 Documentation
 
 Netwrix Threat Prevention strengthens an organization’s defense against internal and external

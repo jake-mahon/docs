@@ -1,3 +1,9 @@
+---
+title: Microsoft Entra ID App Registration
+sidebar_label: entra id registration
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Microsoft Entra ID App Registration
 
 To create a Microsoft Entra ID (formerly Azure AD) service account and add an Microsoft Entra ID

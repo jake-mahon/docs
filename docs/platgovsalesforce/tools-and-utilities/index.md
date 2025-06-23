@@ -1,3 +1,9 @@
+---
+title: Tools and Utilities Overview
+sidebar_label: Overview
+description: Access powerful analysis tools including dependency diagrams, environment comparison, permissions comparison, and automated cleanup utilities.
+---
+
 # Tools Overview
 
 There are links to access **Key Tools** on the Netwrix Dashboard page:

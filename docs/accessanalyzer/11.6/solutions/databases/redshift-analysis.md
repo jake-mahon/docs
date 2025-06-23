@@ -1,3 +1,9 @@
+---
+title: databases redshift analysis
+sidebar_label: redshift analysis
+description: Solution guide for databases redshift analysis including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The Redshift Solution Collection group collects high level summary information from targeted

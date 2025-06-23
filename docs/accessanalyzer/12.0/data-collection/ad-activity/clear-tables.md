@@ -1,3 +1,9 @@
+---
+title: clear tables
+sidebar_label: clear tables
+description: Documentation for clear tables functionality in Access Analyzer including configuration and usage information.
+---
+
 # Clear ADActivity Tables
 
 Sometimes when troubleshooting an ADActivity issue, it becomes necessary to clear the standard

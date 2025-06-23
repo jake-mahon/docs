@@ -1,3 +1,9 @@
+---
+title: dropbox Administration
+sidebar_label: dropbox
+description: Administration guide for dropbox including configuration, management, and best practices for Access Analyzer.
+---
+
 # Dropbox for User Credentials
 
 The information in this topic applies to **Select Account Type** > **Dropbox** in the User

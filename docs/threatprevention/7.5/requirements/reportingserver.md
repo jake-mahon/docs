@@ -1,3 +1,9 @@
+---
+title: Reporting Server Requirements
+sidebar_label: Reporting Server
+description: Reporting module server requirements including hardware specifications, software prerequisites, and database connectivity requirements.
+---
+
 # Reporting Module Server Requirements
 
 **CAUTION:** Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager

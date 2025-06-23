@@ -1,3 +1,9 @@
+---
+title: Stack MSIs for Predictable Execution Order
+sidebar_label: Stack MSIs
+description: Configure Endpoint Policy Manager MSI execution order using Policy Layer settings and Priority Mode to ensure XML items process in a predictable sequence.
+---
+
 # How can I "stack" Endpoint Policy Manager MSIs so the XML items inside the MSI execute in a predictable order?
 
 You use Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter tool to wrap up XMLs into an

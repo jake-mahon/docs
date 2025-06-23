@@ -1,3 +1,9 @@
+---
+title: disableduser
+sidebar_label: disableduser
+description: Directory Manager 11.1 documentation for disableduser with configuration details, usage instructions, and implementation guidance.
+---
+
 # Disabled Users
 
 In Directory Manager portal, you can view a list of disabled users.

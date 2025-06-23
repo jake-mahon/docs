@@ -1,3 +1,7 @@
+title: Application Server Requirements
+sidebar_label: System Requirements
+description: Hardware and software requirements for the Recovery for Active Directory application server including RAM, disk space, and operating systems.
+
 # Application Server Requirements
 
 The Windows Server can be physical or virtual. The following Windows Server operating systems are

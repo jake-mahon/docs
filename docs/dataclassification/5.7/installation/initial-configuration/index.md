@@ -1,3 +1,9 @@
+---
+title: Initial Product Configuration
+sidebar_label: Initial Configuration
+description: The Product Configuration Wizard allows you quickly configure basic Netwrix Data Classification settings such as processing mode, taxonomies, etc. In your we...
+---
+
 # Initial Product Configuration
 
 The Product Configuration Wizard allows you quickly configure basic Netwrix Data Classification

@@ -1,3 +1,9 @@
+---
+title: Advanced Configuration Interface Guide
+sidebar_label: Configuration
+description: Advanced configuration settings interface for service accounts, system settings, authentication, integrations, and scheduled tasks management.
+---
+
 # Configuration Interface
 
 The Configuration interface provides information and management options for advanced configuration

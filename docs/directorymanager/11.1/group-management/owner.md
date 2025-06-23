@@ -1,3 +1,9 @@
+---
+title: owner
+sidebar_label: owner
+description: Directory Manager 11.1 documentation for owner with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group properties - Owner tab
 
 This tab displays the primary and additional owners of the group. You can do the following,

@@ -1,3 +1,9 @@
+---
+title: create reports
+sidebar_label: create reports
+description: Documentation for create reports functionality in Access Analyzer reporting including configuration options and usage guidelines.
+---
+
 # Creating a Report
 
 Creating and customizing reports allows you to design outputs uniquely crafted to your requirements.

@@ -1,3 +1,9 @@
+---
+title: Dashboard and Monitoring Overview
+sidebar_label: Dashboard
+description: Visual dashboard providing change volume indicators, activity times, and dynamic estate monitoring with interactive event filtering.
+---
+
 # Dashboard Tab
 
 The **Dashboard** gives a visual indicator of both unusual change volumes and change activity times.

@@ -1,3 +1,9 @@
+---
+title: Portal . 11.1 misc directorymanager portal generalfeatures
+sidebar_label: generalfeatures
+description: Directory Manager portal documentation for . 11.1 misc directorymanager portal functionality including user interface, navigation, and operational procedures.
+---
+
 # General Portal Features
 
 Directory Manager portal encompasses various functionalities available for the users that are:

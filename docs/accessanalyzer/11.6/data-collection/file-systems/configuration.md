@@ -1,3 +1,9 @@
+---
+title: configuration
+sidebar_label: configuration
+description: Documentation for configuration functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Activity Settings
 
 The File System Activity Auditor Scan Filter Settings page is where activity scan filter settings

@@ -1,3 +1,9 @@
+---
+title: settings database settings
+sidebar_label: database-settings
+description: Auditor 10.6 administration guide for settings database settings configuration and management.
+---
+
 # Audit Database
 
 If you want to generate reports and run interactive search queries, you should configure Auditor to

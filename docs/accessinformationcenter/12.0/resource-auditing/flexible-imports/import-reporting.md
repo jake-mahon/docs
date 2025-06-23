@@ -1,3 +1,9 @@
+---
+title: Flexible Import Activity Reports
+sidebar_label: Import Reporting
+description: Activity reports for imported data showing resource activity during selected date ranges with configurable subfolder options and detailed analysis.
+---
+
 # Activity Report
 
 The Activity report for imported data displays activity on the resource during the selected date

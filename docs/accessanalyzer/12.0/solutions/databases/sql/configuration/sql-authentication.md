@@ -1,3 +1,9 @@
+---
+title: databases sql configuration sql authentication
+sidebar_label: sql authentication
+description: Solution guide for databases sql configuration sql authentication including implementation steps, configuration, and best practices.
+---
+
 # SQL_Authentication Job
 
 The SQL_Authentication Job identifies authentication settings on targeted SQL and Azure SQL servers

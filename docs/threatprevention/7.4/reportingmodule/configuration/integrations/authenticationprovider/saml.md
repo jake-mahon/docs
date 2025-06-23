@@ -1,3 +1,9 @@
+---
+title: SAML Authentication Provider
+sidebar_label: SAML Authentication Provider
+description: The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and authorization information. It provides functions to descr...
+---
+
 # SAML Authentication Provider
 
 The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and
@@ -74,13 +80,13 @@ The table displays the following information:
 - Authentication Type – Type of MFA authentication assigned to the user or group
 - Action – This column has the following icons for conducting actions on the user or group:
 
-    - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
-      The edit icon changes to a save icon while in edit mode.
-    - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
-      Removing a user or group removes console access for it.
-    - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
-      login. This option is only available if an MFA authentication type is applied to the user or
-      group.
+  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
+    The edit icon changes to a save icon while in edit mode.
+  - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
+    Removing a user or group removes console access for it.
+  - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
+    login. This option is only available if an MFA authentication type is applied to the user or
+    group.
 
 See the
 [User Access Page](/docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/useraccess.md)

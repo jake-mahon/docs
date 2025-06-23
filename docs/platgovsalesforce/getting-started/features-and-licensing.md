@@ -1,3 +1,9 @@
+---
+title: Features and Licensing Options Guide
+sidebar_label: Features & Licensing
+description: Compare Automated Documentation, Intelligent Change Enablement, and Enterprise Compliance license types with feature comparison matrix.
+---
+
 # Features by License Type
 
 Platform Governance for Salesforce offers three license types:

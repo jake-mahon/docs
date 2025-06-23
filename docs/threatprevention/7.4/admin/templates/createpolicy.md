@@ -1,3 +1,9 @@
+---
+title: Use a Template to Create a Policy
+sidebar_label: Use a Template Create
+description: You can use a policy template to create a policy. All settings in the template are copied to the policy. You can customize the settings as required.
+---
+
 # Use a Template to Create a Policy
 
 You can use a policy template to create a policy. All settings in the template are copied to the

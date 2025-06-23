@@ -1,3 +1,9 @@
+---
+title: entraid groups aad nestedgroups
+sidebar_label: aad nestedgroups
+description: Solution guide for entraid groups aad nestedgroups including implementation steps, configuration, and best practices.
+---
+
 # AAD_NestedGroups Job
 
 The AAD_NestedGroups Job identifies nested groups within Microsoft Entra ID and provides details

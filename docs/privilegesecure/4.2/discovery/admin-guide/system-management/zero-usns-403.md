@@ -1,3 +1,9 @@
+---
+title: 403 - Zero USNs by Domain
+sidebar_label: zero usns 403
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # 403 - Zero USNs by Domain
 
 403 - Zero USNs by Domain

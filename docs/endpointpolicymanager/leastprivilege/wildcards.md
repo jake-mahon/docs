@@ -1,3 +1,9 @@
+---
+title: Wildcard Certificate Matching Patterns
+sidebar_label: Wildcards
+description: Use wildcard patterns in certificate matching to handle applications with frequently changing certificates like Zoom, Webex, and remote meeting tools.
+---
+
 # Using Wildcards with Endpoint Privilege Manager and Certificates
 
 **NOTE:** See the

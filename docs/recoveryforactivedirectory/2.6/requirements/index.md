@@ -1,3 +1,7 @@
+title: System Requirements Overview
+sidebar_label: Requirements
+description: Complete overview of server requirements and architecture needed for Recovery for Active Directory production deployment and installation.
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install Recovery for

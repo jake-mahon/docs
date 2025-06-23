@@ -1,3 +1,9 @@
+---
+title: netapp cmode
+sidebar_label: netapp cmode
+description: Documentation for netapp cmode functionality in Access Analyzer including configuration and usage information.
+---
+
 # NetApp Data ONTAP Cluster-Mode Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for configuring NetApp Data ONTAP Cluster-Mode devices.

@@ -1,3 +1,9 @@
+---
+title: LAPS Integration
+sidebar_label: laps
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # LAPS Integration
 
 Privilege Secure contains a built-in vault for credential management, but can uniquely map to a LAPS

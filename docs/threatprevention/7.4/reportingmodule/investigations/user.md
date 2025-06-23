@@ -1,3 +1,9 @@
+---
+title: User Details Page
+sidebar_label: User Details Page
+description: The User Details page displays group membership details for a user. In an investigation report, user names appear as links under the Perpetrator column in th...
+---
+
 # User Details Page
 
 The User Details page displays group membership details for a user.

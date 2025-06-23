@@ -1,3 +1,9 @@
+---
+title: PowerShell API Integration
+sidebar_label: API Overview
+description: PowerShell API documentation for Threat Prevention including policy management, collection manipulation, and remote Enterprise Manager configuration.
+---
+
 # PowerShell API Integration
 
 Using PowerShell, you can obtain information on or manipulate specific policy, collection, and
@@ -6,44 +12,44 @@ without having it open. This can be done on the same machine or from a remote se
 Enterprise Manager is not located. The following PowerShell APIs can be used:
 
 - Initial Configuration:
-    - Connect-SIEnterpriseManager
+  - Connect-SIEnterpriseManager
 - Informative APIs
 
-    **NOTE:** These APIs do not require any additional configuration. They display Agent status from
-    the
-    [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
-    and a list of available PowerShell APIs the user can utilize.
+  **NOTE:** These APIs do not require any additional configuration. They display Agent status from
+  the
+  [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
+  and a list of available PowerShell APIs the user can utilize.
 
-    - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
-      [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
-    - Get-SI Help – Lists available PowerShell APIs for Threat Prevention
-    - Get-SIHelp [API Name] – Displays detailed information about the PowerShell API
+  - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
+    [Agents Interface](/docs/threatprevention/7.4/admin/agents/overview.md)
+  - Get-SI Help – Lists available PowerShell APIs for Threat Prevention
+  - Get-SIHelp [API Name] – Displays detailed information about the PowerShell API
 
 - Policies and Collections:
-    - Get-SIPolicy
-    - Enable-SIPolicy
-    - Remove-SIPolicy
-    - Export-SIPolicy
-    - Import-SIPolicy
-    - Get-SICollection
-    - Remove-SICollection
-    - Export-SICollection
-    - Import-SICollection
+  - Get-SIPolicy
+  - Enable-SIPolicy
+  - Remove-SIPolicy
+  - Export-SIPolicy
+  - Import-SIPolicy
+  - Get-SICollection
+  - Remove-SICollection
+  - Export-SICollection
+  - Import-SICollection
 - Enterprise Password Enforcement (EPE):
-    - Test-ValidatePassword
-    - Export-SICharacterSubstitution
-    - Import-SICharacterSubstitution
-    - Export-SICharacterSubstitutionWords
-    - Import-SICharacterSubstitutionWords
-    - Export-SIPasswordsDictionary
-    - Import-SIPasswordsDictionary
-    - Set-SIPwnedDB
+  - Test-ValidatePassword
+  - Export-SICharacterSubstitution
+  - Import-SICharacterSubstitution
+  - Export-SICharacterSubstitutionWords
+  - Import-SICharacterSubstitutionWords
+  - Export-SIPasswordsDictionary
+  - Import-SIPasswordsDictionary
+  - Set-SIPwnedDB
 - Threat Manager Event Sink Tab
-    - Get-SIDefendConfig
-    - Set-SIDefendConfig
+  - Get-SIDefendConfig
+  - Set-SIDefendConfig
 - LDAP Deception for Threat Manager:
-    - Get-SILdapDeception
-    - Set-SILdapDeception
+  - Get-SILdapDeception
+  - Set-SILdapDeception
 
 ## Prerequisites
 
@@ -56,10 +62,10 @@ The following prerequisites must be met before using the APIs:
   PowerShell. This module is stored in the installation directory within the Enterprise Manager
   folder:
 
-    …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\
+  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\
 
-    To disallow the use of the PowerShell module, remove the module from the Enterprise Manager
-    folder.
+  To disallow the use of the PowerShell module, remove the module from the Enterprise Manager
+  folder.
 
 - PowerShell commands are executed through a PowerShell console on either the Enterprise Manager
   server or on a remote server. When PowerShell is used on a remote server without the Enterprise

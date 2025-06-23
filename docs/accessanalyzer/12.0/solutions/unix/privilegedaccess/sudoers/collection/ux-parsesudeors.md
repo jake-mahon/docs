@@ -1,3 +1,9 @@
+---
+title: unix privilegedaccess sudoers collection ux parsesudeors
+sidebar_label: ux parsesudeors
+description: Solution guide for unix privilegedaccess sudoers collection ux parsesudeors including implementation steps, configuration, and best practices.
+---
+
 # UX_ParseSudeors Job
 
 The UX_ParseSudoers job parses all rights granted via sudoers in the audited environments.

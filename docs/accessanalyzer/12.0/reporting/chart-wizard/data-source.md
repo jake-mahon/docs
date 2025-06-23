@@ -1,3 +1,9 @@
+---
+title: Chart Wizard Data Source Configuration
+sidebar_label: Data Source
+description: Data source configuration for the chart wizard including dataset selection and data mapping options.
+---
+
 # Data Source
 
 On the Data Source page of the Chart Configuration wizard configure the data source for the chart.

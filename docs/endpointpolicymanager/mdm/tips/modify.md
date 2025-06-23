@@ -1,3 +1,9 @@
+---
+title: Modifying Existing MSI Files with Exporter
+sidebar_label: Modify MSI Files
+description: Use Endpoint Policy Manager Exporter to open, edit, and update previously created MSI files. Add users, replace XML files, and perform MSI upgrades.
+---
+
 # Modifying Existing MSI Files with Endpoint Policy Manager Exporter
 
 Endpoint Policy Manager Exporter enables you to quickly open and edit previously created MSI files.

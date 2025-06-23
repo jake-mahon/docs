@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes permissions ex mailboxaccess
+sidebar_label: ex mailboxaccess
+description: Solution guide for exchange mailboxes permissions ex mailboxaccess including implementation steps, configuration, and best practices.
+---
+
 # EX_MailboxAccess Job
 
 The EX_MailboxAccess job provides visibility into access granted to each mailbox in the environment

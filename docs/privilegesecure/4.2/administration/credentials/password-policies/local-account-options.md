@@ -1,3 +1,9 @@
+---
+title: Local Account Password Options Page
+sidebar_label: local account options
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Local Account Password Options Page
 
 The Local Account Password Options page is accessible from the Navigation pane under Configuration >

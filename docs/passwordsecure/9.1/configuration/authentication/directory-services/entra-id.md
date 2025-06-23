@@ -1,3 +1,9 @@
+---
+title: Microsoft Entra ID Integration
+sidebar_label: Entra ID
+description: Configure Microsoft Entra ID (Azure AD) integration for cloud-based user authentication and directory services with Password Secure.
+---
+
 # Microsoft Entra ID connection
 
 More and more companies use cloud services. Therefore, also the management of users is outsourced.

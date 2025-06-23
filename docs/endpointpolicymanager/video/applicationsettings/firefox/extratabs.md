@@ -1,3 +1,9 @@
+---
+title: Remove Firefox First Launch Tabs
+sidebar_label: Extra Tabs
+description: Learn to remove Firefox's extra tabs that appear at first launch using Endpoint Policy Manager for a cleaner user experience and reduced distractions.
+---
+
 # Remove Firefox's Extra Tabs at First Launch
 
 When Firefox runs the first time, it shows extra tabs. But using Netwrix Endpoint Policy Manager

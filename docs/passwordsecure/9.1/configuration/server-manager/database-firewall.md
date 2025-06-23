@@ -1,3 +1,9 @@
+---
+title: Database Firewall Access Control
+sidebar_label: Database Firewall
+description: Configure database access regulation using whitelist policy and firewall rules to control Password Secure database connections and security.
+---
+
 # Database firewall
 
 ## What is the database firewall?

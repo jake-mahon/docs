@@ -1,3 +1,10 @@
+---
+title: SIEM Folder Templates
+sidebar_label: SIEM Folder Templates
+description: The SIEM folder contains the following templates: | Template                      | Description                                                              ...
+
+---
+
 # SIEM Folder Templates
 
 The SIEM folder contains the following templates:

@@ -1,3 +1,9 @@
+---
+title: login roles
+sidebar_label: login roles
+description: Documentation for login roles functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS: Login Roles
 
 The Login Roles page is where the previously created AWS Roles are added. It is a wizard page for

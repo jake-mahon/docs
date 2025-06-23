@@ -1,3 +1,9 @@
+---
+title: Applying Filters to Search Results
+sidebar_label: Applying Filters
+description: Use custom and predefined filters to narrow search results and focus on specific security events and activities.
+---
+
 # Apply Filters
 
 Filters are used to narrow your search results. You can create your own filters or select one of the

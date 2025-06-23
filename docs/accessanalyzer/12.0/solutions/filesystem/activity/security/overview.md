@@ -1,3 +1,9 @@
+---
+title: filesystem activity security overview
+sidebar_label: overview
+description: Solution guide for filesystem activity security overview including implementation steps, configuration, and best practices.
+---
+
 # Security Job Group
 
 The Security job group is designed to report on security related activity event information from

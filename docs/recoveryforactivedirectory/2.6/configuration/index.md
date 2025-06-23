@@ -1,3 +1,7 @@
+title: Configuration Interface Overview
+sidebar_label: Configuration
+description: Overview of the Configuration interface for managing domains, users, notifications, integrations, and licensing in Recovery for Active Directory.
+
 # Configuration Interface
 
 The Configuration interface provides access to configure the domains, users and roles,

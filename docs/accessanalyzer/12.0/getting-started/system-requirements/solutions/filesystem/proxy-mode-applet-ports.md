@@ -1,3 +1,9 @@
+---
+title: Getting Started: proxy mode applet ports
+sidebar_label: proxy mode applet ports
+description: Getting started guide for proxy mode applet ports in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Proxy Mode with Applet Port Requirements
 
 The following are the firewall settings are required when executing the Access Auditing (FSAA)

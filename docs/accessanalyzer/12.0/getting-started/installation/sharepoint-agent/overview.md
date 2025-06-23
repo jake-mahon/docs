@@ -1,3 +1,9 @@
+---
+title: Getting Started: overview
+sidebar_label: overview
+description: Getting started guide for overview in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # SharePoint Agent Installation
 
 The SharePoint Agent is capable of auditing permissions and content, or Access Auditing (SPAA) and

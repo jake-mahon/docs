@@ -1,3 +1,9 @@
+---
+title: SQL Server
+sidebar_label: SQL Server
+description: The SQL Server source configuration screen allows you to enable the crawling and classification of content stored in your MS SQL and Oracle servers. In...
+---
+
 # SQL Server
 
 The SQL Server source configuration screen allows you to enable the crawling and classification of

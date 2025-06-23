@@ -1,3 +1,9 @@
+---
+title: manual configuration
+sidebar_label: manual-configuration
+description: Auditor 10.7 documentation for manual configuration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory: Manual Configuration
 
 To configure your domain for monitoring manually, you will need:

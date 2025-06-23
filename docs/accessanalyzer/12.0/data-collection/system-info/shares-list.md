@@ -1,3 +1,9 @@
+---
+title: shares list
+sidebar_label: shares list
+description: Documentation for shares list functionality in Access Analyzer including configuration and usage information.
+---
+
 # SystemInfo: Shares List
 
 On the Shares List page, configure the shares to include and exclude. It is a wizard page for the

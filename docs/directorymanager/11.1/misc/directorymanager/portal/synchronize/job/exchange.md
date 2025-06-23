@@ -1,3 +1,9 @@
+---
+title: Portal synchronize job exchange
+sidebar_label: exchange
+description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
+---
+
 # Exchange Subscription
 
 While creating or editing mail enabled objects through a Synchronize job, Directory Manager provides

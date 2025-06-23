@@ -1,3 +1,9 @@
+---
+title: result sample
+sidebar_label: result sample
+description: Documentation for result sample functionality in Access Analyzer including configuration and usage information.
+---
+
 # Change Detection: Result Sample
 
 The Result Sample page generates a preview of the output based on the configurations selected on the

@@ -1,3 +1,9 @@
+---
+title: Browser Applications Configuration
+sidebar_label: Applications
+description: Configure browser applications for automatic data entry on websites including custom scripts and field mapping for secure credential input.
+---
+
 # Applications
 
 ## What are applications?

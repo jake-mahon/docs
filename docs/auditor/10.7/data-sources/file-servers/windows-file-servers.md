@@ -1,3 +1,9 @@
+---
+title: windows file servers
+sidebar_label: windows-file-servers
+description: Auditor 10.7 documentation for windows file servers with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure Advanced Audit Policies
 
 Configure advanced audit policies to limit the range of events tracked and recorded by the product,

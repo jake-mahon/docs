@@ -1,3 +1,9 @@
+---
+title: Internet Explorer Programs Tab Management
+sidebar_label: Programs Tab
+description: Learn to manage Internet Explorer programs tab settings including default browser, add-ons, and HTML editor configurations using Endpoint Policy Manager.
+---
+
 # Manage IE Programs Tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Programs Tab

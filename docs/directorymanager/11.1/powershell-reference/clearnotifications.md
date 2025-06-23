@@ -1,3 +1,9 @@
+---
+title: Clear notifications Cmdlet
+sidebar_label: clearnotifications
+description: PowerShell cmdlet reference for clearnotifications with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Clear-Notifications
 
 The commandlet Clear-Notifications removes notifications settings from an identity store. The

@@ -1,3 +1,9 @@
+---
+title: What's New in Auditor 10.6
+sidebar_label: What's New
+description: New features and enhancements in Netwrix Auditor 10.6 including improved risk assessment, Add-on Store, and Microsoft Entra ID reporting.
+---
+
 # What's New
 
 ## New Netwrix Community!

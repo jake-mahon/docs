@@ -1,3 +1,9 @@
+---
+title: Requirements and Licensing Information
+sidebar_label: Licensing
+description: Platform Governance for NetSuite license types, features by license, and license management including Documentation, Change Management, and Enterprise editions.
+---
+
 # Features by License Type
 
 Lists the menus and menu items based on license type.

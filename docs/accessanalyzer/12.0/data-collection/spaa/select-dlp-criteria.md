@@ -1,3 +1,9 @@
+---
+title: select dlp criteria
+sidebar_label: select dlp criteria
+description: Documentation for select dlp criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # SPAA: Select DLP Criteria
 
 The Select Criteria page is where criteria to be used for discovering sensitive data are configured.

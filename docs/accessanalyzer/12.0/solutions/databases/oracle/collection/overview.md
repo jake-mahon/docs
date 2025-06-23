@@ -1,3 +1,9 @@
+---
+title: databases oracle collection overview
+sidebar_label: overview
+description: Solution guide for databases oracle collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The Oracle Job Group is designed to collect a high level summary of information from the targeted

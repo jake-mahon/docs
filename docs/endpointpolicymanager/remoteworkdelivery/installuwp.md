@@ -1,3 +1,9 @@
+---
+title: Install UWP Applications Using Remote Work Delivery
+sidebar_label: UWP Applications
+description: Install UWP applications like Azure VPN Client using Remote Work Delivery Manager. Learn Standard Policy SMB/UNC and Web Policy methods.
+---
+
 # How to Install UWP applications using Endpoint Policy Manager Remote Work Delivery Manager
 
 Using the Azure VPN Client UWP application as an example, this article will cover the steps needed

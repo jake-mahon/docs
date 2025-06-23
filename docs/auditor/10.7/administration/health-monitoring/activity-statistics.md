@@ -1,3 +1,9 @@
+---
+title: activity statistics
+sidebar_label: activity-statistics
+description: Auditor 10.7 documentation for activity statistics with configuration details, usage instructions, and implementation guidance.
+---
+
 # Activity Records Statistics
 
 Aggregated statistics on the activity records is provided in the Activity records by date widget.

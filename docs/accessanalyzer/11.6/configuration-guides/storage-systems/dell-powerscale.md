@@ -1,3 +1,9 @@
+---
+title: dell powerscale
+sidebar_label: dell powerscale
+description: Documentation for dell powerscale functionality in Access Analyzer including configuration and usage information.
+---
+
 # Dell Isilon/PowerScale Activity Auditing Configuration
 
 Dell Isilon/PowerScale can be configured to audit Server Message Block (SMB) and NFS protocol access

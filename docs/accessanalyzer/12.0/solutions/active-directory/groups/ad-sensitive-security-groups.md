@@ -1,3 +1,9 @@
+---
+title: active directory groups ad sensitive security groups
+sidebar_label: ad sensitive security groups
+description: Solution guide for active directory groups ad sensitive security groups including implementation steps, configuration, and best practices.
+---
+
 # AD_SensitiveSecurityGroups Job
 
 The AD_SensitiveSecurityGroups Job identifies users who are granted administrative access within

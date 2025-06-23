@@ -1,3 +1,9 @@
+---
+title: exchange distributionlists ex groupexpansion
+sidebar_label: ex groupexpansion
+description: Solution guide for exchange distributionlists ex groupexpansion including implementation steps, configuration, and best practices.
+---
+
 # Effective Membership > EX_GroupExpansion Job
 
 The EX_GroupExpansion job expands the direct membership of distribution groups in the environment.

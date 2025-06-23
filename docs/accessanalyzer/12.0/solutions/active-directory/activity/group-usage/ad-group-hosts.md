@@ -1,3 +1,9 @@
+---
+title: active directory activity group usage ad group hosts
+sidebar_label: ad group hosts
+description: Solution guide for active directory activity group usage ad group hosts including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupHosts Job
 
 The AD_GroupHosts Job attempts to identify where groups may be used to provide access.

@@ -1,3 +1,9 @@
+---
+title: Resource Ownership Confirmation
+sidebar_label: Resource Owners
+description: Configure and manage resource ownership confirmation workflows in Netwrix Auditor access reviews for accurate access governance.
+---
+
 # Ownership Confirmation
 
 The reason for assigning owners to resources is to enable those resources to be included in reviews,

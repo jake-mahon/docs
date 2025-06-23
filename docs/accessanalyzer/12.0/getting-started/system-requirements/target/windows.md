@@ -1,3 +1,9 @@
+---
+title: Getting Started: windows
+sidebar_label: windows
+description: Getting started guide for windows in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Target Windows Server and Desktop Requirements, Permissions, and Ports
 
 The Access Analyzer for Windows Solution is compatible with the following Microsoft Windows versions

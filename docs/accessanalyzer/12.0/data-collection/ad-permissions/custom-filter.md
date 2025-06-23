@@ -1,3 +1,9 @@
+---
+title: custom filter
+sidebar_label: custom filter
+description: Documentation for custom filter functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADPermissions: Custom Filter
 
 The Custom Filter page provides options to configure settings for object permission collection. It

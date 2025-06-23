@@ -1,3 +1,9 @@
+---
+title: Admin Templates Collections Item Level Targeting
+sidebar_label: Collections
+description: Learn how to consolidate multiple GPOs using Admin Templates Manager with collections and item level targeting to deliver different policies to various organizational units.
+---
+
 # Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i2EUI7wU0aY" title="Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

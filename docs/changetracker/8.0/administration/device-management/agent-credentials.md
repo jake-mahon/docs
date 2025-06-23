@@ -1,3 +1,7 @@
+title: Agent Credential Rotation
+sidebar_label: Agent Credentials
+description: Rotate ChangeTracker agent authentication credentials securely using out-of-band scripts for Windows and Linux devices to maintain hub communication.
+
 # Agent Credential Rotation
 
 There are two ways to change the credentials that agents use to authenticate with the Hub. If it is

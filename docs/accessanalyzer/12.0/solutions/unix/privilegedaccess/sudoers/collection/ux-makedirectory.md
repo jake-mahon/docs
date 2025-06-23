@@ -1,3 +1,9 @@
+---
+title: unix privilegedaccess sudoers collection ux makedirectory
+sidebar_label: ux makedirectory
+description: Solution guide for unix privilegedaccess sudoers collection ux makedirectory including implementation steps, configuration, and best practices.
+---
+
 # UX_MakeDirectory Job
 
 The UX_MakeDirectory job creates a temporary Access Analyzer directory on the target host to be used

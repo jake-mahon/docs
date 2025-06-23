@@ -1,3 +1,9 @@
+---
+title: High Availability Configuration
+sidebar_label: High Availability
+description: Configure high availability for Password Secure continued operation during damage events with complex implementation requirements and setup procedures.
+---
+
 # High availability
 
 ## What is high availability?

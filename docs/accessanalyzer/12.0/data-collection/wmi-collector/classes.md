@@ -1,3 +1,9 @@
+---
+title: classes
+sidebar_label: classes
+description: Documentation for classes functionality in Access Analyzer including configuration and usage information.
+---
+
 # WMICollector: Classes
 
 On the Classes page, configure the WMICollector namespaces and classes to use as a data source.

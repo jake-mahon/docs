@@ -1,3 +1,9 @@
+---
+title: Access Certification Page
+sidebar_label: Overview
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Access Certification Page
 
 On the Access Certification page, create or review access certification tasks to audit and remediate

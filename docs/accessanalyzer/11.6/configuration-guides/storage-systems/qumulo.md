@@ -1,3 +1,9 @@
+---
+title: qumulo
+sidebar_label: qumulo
+description: Documentation for qumulo functionality in Access Analyzer including configuration and usage information.
+---
+
 # Qumulo Activity Auditing Configuration
 
 The Netwrix Activity Monitor can be configured to monitor activity on Qumulo devices. To prepare

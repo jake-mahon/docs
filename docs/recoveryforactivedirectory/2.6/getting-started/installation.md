@@ -1,3 +1,7 @@
+title: Installation Guide
+sidebar_label: Installation
+description: Step-by-step instructions for installing Recovery for Active Directory components including server, web console, and RSAT extension.
+
 # Installation
 
 Recovery for Active Directory consists of the following components:

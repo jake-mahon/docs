@@ -1,3 +1,9 @@
+---
+title: entra id Administration
+sidebar_label: entra id
+description: Administration guide for entra id including configuration, management, and best practices for Access Analyzer.
+---
+
 # Azure Active Directory for User Credentials
 
 The information in this topic applies to **Select Account Type** > **Azure Active Directory** in the

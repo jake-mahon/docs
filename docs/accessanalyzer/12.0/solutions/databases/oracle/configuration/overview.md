@@ -1,3 +1,9 @@
+---
+title: databases oracle configuration overview
+sidebar_label: overview
+description: Solution guide for databases oracle configuration overview including implementation steps, configuration, and best practices.
+---
+
 # 4.Configuration Job Group
 
 The SQL > 4.Configuration Job Group Is designed to provide insight into potential vulnerabilities

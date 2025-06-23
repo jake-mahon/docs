@@ -1,3 +1,9 @@
+---
+title: fine tuning
+sidebar_label: fine-tuning
+description: Auditor 10.7 documentation for fine tuning with configuration details, usage instructions, and implementation guidance.
+---
+
 # Fine-Tune Your Plan and Edit Settings
 
 At any time, you can review your plan settings and fine-tune Audit Database, notification and data

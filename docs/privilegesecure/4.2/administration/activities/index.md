@@ -1,3 +1,9 @@
+---
+title: Activities Management Page Overview
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Activities Page
 
 The Activities page is accessible from the Navigation pane under Activities. It shows the configured

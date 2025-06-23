@@ -1,3 +1,9 @@
+---
+title: databases redshift overview
+sidebar_label: overview
+description: Solution guide for databases redshift overview including implementation steps, configuration, and best practices.
+---
+
 # Redshift Solution
 
 The Access Analyzer Redshift Solution Set is a comprehensive set of pre-configured audit jobs and

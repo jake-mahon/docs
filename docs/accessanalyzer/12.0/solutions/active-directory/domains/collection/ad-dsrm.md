@@ -1,3 +1,9 @@
+---
+title: active directory domains collection ad dsrm
+sidebar_label: ad dsrm
+description: Solution guide for active directory domains collection ad dsrm including implementation steps, configuration, and best practices.
+---
+
 # AD_DSRM Job
 
 The **0.Collection > AD_DSRM** Job collects data related to domain controller registry settings for

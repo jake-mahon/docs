@@ -1,3 +1,9 @@
+---
+title: databases oracle usersroles oracle users
+sidebar_label: oracle users
+description: Solution guide for databases oracle usersroles oracle users including implementation steps, configuration, and best practices.
+---
+
 # Oracle_Users Job
 
 The Oracle_Users Job is designed to provide insight into all attributes associated with users in all

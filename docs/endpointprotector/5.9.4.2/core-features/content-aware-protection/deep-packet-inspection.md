@@ -1,3 +1,9 @@
+---
+title: Deep Packet Inspection Features
+sidebar_label: Packet Inspection
+description: Advanced deep packet inspection functionality providing granular network traffic analysis and content monitoring capabilities.
+---
+
 # Deep Packet Inspection
 
 The Deep Packet Inspection functionality provides a certain degree of granularity, allowing you to

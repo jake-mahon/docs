@@ -1,3 +1,9 @@
+---
+title: Data Collection Account Exclusions
+sidebar_label: Account Exclusions
+description: Configure account exclusions for Activity Monitor data collection including user and service account filtering for various host types.
+---
+
 # Account Exclusions Tab
 
 The Account Exclusions tab on an output Properties window is where monitoring scope by account name

@@ -1,4 +1,10 @@
-# Privilege Secure Reviewer User Overview
+---
+title: Reviewer User Guide Overview
+sidebar_label: Reviewer Guide
+description: Complete guide for Privilege Secure reviewers covering login procedures, MFA registration, dashboard access, and role-specific functionality.
+---
+
+# Privilege Secure Reviewer User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure
 Reviewer.
@@ -23,13 +29,13 @@ into a supported browser address bar. For example, if Privilege Secure is instal
 
 https://ExampleServer01:6500
 
-Depending on the organization’s network environment, use the NetBIOS name, fully qualified domain
+Depending on the organization's network environment, use the NetBIOS name, fully qualified domain
 name (FQDN), or IP Address of the server in the browser. Also, access can be restricted through
 firewalls.
 
 Follow the steps to log in to the Privilege Secure.
 
-**Step 1 –** Open Privilege Secure in a browser window. The Login screen will show the
+**Step 1 –** Open Privilege Secure in a browser window. The Login screen will show the
 Authentication Connector that is set as the default.
 
 **NOTE:** Privilege Secure requires a multi-factor authentication (MFA) solution (Authenticator,

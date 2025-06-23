@@ -1,3 +1,9 @@
+---
+title: Troubleshooting Guide and Solutions
+sidebar_label: Troubleshooting
+description: Common problems and solutions for Privilege Secure including enablement toolkit usage, testing scenarios, and configuration troubleshooting.
+---
+
 # Troubleshooting
 
 The purpose of this section is to detail solutions to common problems when using the Netwrix

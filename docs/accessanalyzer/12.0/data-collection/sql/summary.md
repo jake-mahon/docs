@@ -1,3 +1,9 @@
+---
+title: summary
+sidebar_label: summary
+description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQL: Summary
 
 The Summary page is where the configuration settings are summarized. It is a wizard page for all of

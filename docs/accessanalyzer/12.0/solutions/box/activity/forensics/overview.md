@@ -1,3 +1,9 @@
+---
+title: box activity forensics overview
+sidebar_label: overview
+description: Solution guide for box activity forensics overview including implementation steps, configuration, and best practices.
+---
+
 # Forensics Job Group
 
 The Forensics Job Group highlights deletions, file downloads, permissions changes, external user

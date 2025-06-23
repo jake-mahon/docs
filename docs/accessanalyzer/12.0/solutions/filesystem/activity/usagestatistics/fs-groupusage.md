@@ -1,3 +1,9 @@
+---
+title: filesystem activity usagestatistics fs groupusage
+sidebar_label: fs groupusage
+description: Solution guide for filesystem activity usagestatistics fs groupusage including implementation steps, configuration, and best practices.
+---
+
 # FS_GroupUsage Job
 
 The FS_GroupUsage job is designed to report on group usage from targeted file servers.

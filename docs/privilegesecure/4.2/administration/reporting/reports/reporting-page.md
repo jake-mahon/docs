@@ -1,3 +1,9 @@
+---
+title: Reporting
+sidebar_label: reporting page
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Reporting
 
 Reports can be viewed and configured on the Reporting page. Predefined reports are available, as

@@ -1,3 +1,9 @@
+---
+title: databases sql sensitivedata sql sensitivedatapermissions
+sidebar_label: sql sensitivedatapermissions
+description: Solution guide for databases sql sensitivedata sql sensitivedatapermissions including implementation steps, configuration, and best practices.
+---
+
 # SQL_SensitiveDataPermissions Job
 
 The SQL_SensitiveDataPermissions Job is designed to provide all types of permissions on database

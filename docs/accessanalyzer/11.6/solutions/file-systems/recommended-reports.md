@@ -1,3 +1,9 @@
+---
+title: file systems recommended reports
+sidebar_label: recommended reports
+description: Solution guide for file systems recommended reports including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration for the File System Solution
 
 The File System Solution has been configured to inherit down from the **FileSystem** > **Settings**

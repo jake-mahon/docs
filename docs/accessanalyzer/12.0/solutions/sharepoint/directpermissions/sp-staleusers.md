@@ -1,3 +1,9 @@
+---
+title: sharepoint directpermissions sp staleusers
+sidebar_label: sp staleusers
+description: Solution guide for sharepoint directpermissions sp staleusers including implementation steps, configuration, and best practices.
+---
+
 # SP_StaleUsers Job
 
 A stale user is defined as either currently disabled within Active Directory, or has not logged onto

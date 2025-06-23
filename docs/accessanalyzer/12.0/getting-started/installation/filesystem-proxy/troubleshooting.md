@@ -1,3 +1,9 @@
+---
+title: Getting Started: troubleshooting
+sidebar_label: troubleshooting
+description: Getting started guide for troubleshooting in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Troubleshooting Proxy Service
 
 The following are potential errors that may occur during installation and how to resolve each.

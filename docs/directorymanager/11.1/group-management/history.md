@@ -1,3 +1,9 @@
+---
+title: history
+sidebar_label: history
+description: Directory Manager 11.1 documentation for history with configuration details, usage instructions, and implementation guidance.
+---
+
 # Object properties - History tab
 
 This tab displays the object's history, which includes all changes to the object since its creation.

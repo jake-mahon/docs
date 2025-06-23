@@ -1,3 +1,9 @@
+---
+title: Automate Client Sign-in Process
+sidebar_label: Client Sign-in
+description: Configure automated sign-in for Netwrix Auditor client including shortcuts for connecting to multiple servers and MSP scenarios.
+---
+
 # Automate Sign-in to the Client
 
 When you launch Netwrix Auditor client installed on the same machine as Netwrix Auditor server,

@@ -1,3 +1,9 @@
+---
+title: databases redshift recommended
+sidebar_label: recommended
+description: Solution guide for databases redshift recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration for the Redshift Solution
 
 The Redshift Solution is configured to inherit settings from the global Settings node. However, it

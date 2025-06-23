@@ -1,3 +1,9 @@
+---
+title: scheduled reports
+sidebar_label: scheduled-reports
+description: Directory Manager 11.1 documentation for scheduled reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Reports Schedule
 
 Directory Manager can generate reports for an identity store on a scheduled basis.

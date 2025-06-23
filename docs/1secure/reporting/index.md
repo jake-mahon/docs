@@ -1,3 +1,9 @@
+---
+title: Search and Reports Overview
+sidebar_label: Reporting
+description: Use 1Secure's search interface and reporting tools to investigate incidents, create custom reports, and analyze security activities.
+---
+
 # Search and Reports
 
 Netwrix 1Secure provides a convenient search interface for investigating incidents, suspicious

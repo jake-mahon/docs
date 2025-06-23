@@ -1,3 +1,9 @@
+---
+title: Configuring Tagging
+sidebar_label: Tagging
+description: For a SharePoint source, tagging means the automatic population of managed metadata fields with classification attributes from SharePoint Term Sets that were...
+---
+
 # Configuring Tagging
 
 For a SharePoint source, tagging means the automatic population of

@@ -1,3 +1,9 @@
+---
+title: Step 3. Specify Conditions for Processing
+sidebar_label: Workflow Conditions
+description: At this step, you can specify whether workflow actions should be performed with the classified documents only, or with any documents from the content source,...
+---
+
 # Step 3. Specify Conditions for Processing
 
 At this step, you can specify whether workflow actions should be performed with the classified

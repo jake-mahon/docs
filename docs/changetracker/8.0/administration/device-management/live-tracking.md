@@ -1,3 +1,7 @@
+title: Live Tracking Configuration
+sidebar_label: Live Tracking
+description: Configure real-time change tracking using Gen 7 Agent minifilter driver for capturing file system changes in ChangeTracker policies.
+
 # Live Tracking
 
 Live Tracking is a style of tracking to capture all changes in real-time that can be set when

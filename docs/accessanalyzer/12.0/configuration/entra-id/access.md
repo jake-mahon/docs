@@ -1,3 +1,9 @@
+---
+title: access
+sidebar_label: access
+description: Documentation for access functionality in Access Analyzer including configuration and usage information.
+---
+
 # Microsoft Entra ID Auditing Configuration
 
 The Access Analyzer for Entra ID Solution provides the ability to audit Microsoft Entra ID, formerly

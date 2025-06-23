@@ -1,3 +1,9 @@
+---
+title: settings index
+sidebar_label: index
+description: Auditor 10.6 administration guide for settings index configuration and management.
+---
+
 # Netwrix Auditor Settings
 
 In the Settings section, you can configure product settings, such as default SQL Server instance for

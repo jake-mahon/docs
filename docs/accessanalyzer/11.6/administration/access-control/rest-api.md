@@ -1,3 +1,9 @@
+---
+title: rest api Administration
+sidebar_label: rest api
+description: Administration guide for rest api including configuration, management, and best practices for Access Analyzer.
+---
+
 # Assign Application Access through the Web Service
 
 An application can be assigned to access data remotely through the Web Service. Follow the steps to

@@ -1,3 +1,9 @@
+---
+title: sharepoint collection 1 spseek systemscans
+sidebar_label: 1 spseek systemscans
+description: Solution guide for sharepoint collection 1 spseek systemscans including implementation steps, configuration, and best practices.
+---
+
 # 1-SPSEEK_SystemScans Job
 
 This job is responsible for building the Tier2 SPDLP database repositories, which contain

@@ -1,3 +1,9 @@
+---
+title: Configuration Backup
+sidebar_label: Backup Restore
+description: NOTE: Only available for ‘Superusers’ The Backup utility allows for the migration of complex Netwrix Data Classification instance configurations. This allows...
+---
+
 # Configuration Backup
 
 **NOTE:** Only available for ‘Superusers’

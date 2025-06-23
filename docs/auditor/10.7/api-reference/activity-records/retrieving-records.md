@@ -1,3 +1,9 @@
+---
+title: retrieving records
+sidebar_label: retrieving-records
+description: Auditor 10.7 documentation for retrieving records with configuration details, usage instructions, and implementation guidance.
+---
+
 # Retrieve Activity Records
 
 ## Endpoint

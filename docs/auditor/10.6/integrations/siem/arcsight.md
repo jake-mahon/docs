@@ -1,3 +1,9 @@
+---
+title: ArcSight SIEM Integration
+sidebar_label: ArcSight
+description: Integrate Netwrix Auditor with HP ArcSight SIEM for enterprise security monitoring and automated threat detection workflows.
+---
+
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to ArcSight, Netwrix recommends scheduling a daily task for

@@ -1,3 +1,9 @@
+---
+title: Approving NetSuite Change Requests
+sidebar_label: Approving Changes
+description: Process change request approvals with populated approvers from policy settings and notification workflows for Platform Governance NetSuite users.
+---
+
 # Approving a Change Request
 
 Approvers are populated from the Change/Approval Policy for the Change Request. Approval

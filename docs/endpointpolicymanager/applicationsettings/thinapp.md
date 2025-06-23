@@ -1,3 +1,9 @@
+---
+title: Managing Java in ThinApp Packages
+sidebar_label: ThinApp Java
+description: Manage Java versions and settings inside ThinApp packages using Application Settings Manager for virtualized applications.
+---
+
 # How can I manage a version of Java inside a ThinApp package ?
 
 You can use Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager to

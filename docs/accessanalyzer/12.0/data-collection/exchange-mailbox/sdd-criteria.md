@@ -1,3 +1,9 @@
+---
+title: sdd criteria
+sidebar_label: sdd criteria
+description: Documentation for sdd criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMailbox: SDD Criteria
 
 The SDD Criteria page is where criteria to be used for discovering sensitive data are configured. It

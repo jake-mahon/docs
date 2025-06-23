@@ -1,3 +1,9 @@
+---
+title: Active Dashboard
+sidebar_label: active sessions
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Active Dashboard
 
 The Active sessions dashboard shows all currently active sessions. Create an Activity Session to

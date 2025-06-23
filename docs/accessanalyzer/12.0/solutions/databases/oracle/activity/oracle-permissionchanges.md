@@ -1,3 +1,9 @@
+---
+title: databases oracle activity oracle permissionchanges
+sidebar_label: oracle permissionchanges
+description: Solution guide for databases oracle activity oracle permissionchanges including implementation steps, configuration, and best practices.
+---
+
 # Oracle_PermissionChanges Job
 
 The Oracle_PermissionsChanges Job is designed to provide detailed information about changes in

@@ -1,3 +1,9 @@
+---
+title: Splunk Active Directory Integration
+sidebar_label: Splunk AD Integration
+description: Splunk integration for Active Directory monitoring including dashboard configuration, user behavior analytics, and policy reporting.
+---
+
 # Active Directory App for Splunk
 
 The Netwrix Active Directory security monitoring solution enables organizations to efficiently

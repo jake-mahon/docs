@@ -1,3 +1,9 @@
+---
+title: inactive user tracker
+sidebar_label: inactive-user-tracker
+description: Auditor 10.7 documentation for inactive user tracker with configuration details, usage instructions, and implementation guidance.
+---
+
 # Inactive User Tracker
 
 Auditor Inactive User Tracker standalone tool discovers inactive user and computer accounts. It

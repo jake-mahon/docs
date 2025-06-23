@@ -1,3 +1,9 @@
+---
+title: Workflow Operations Log
+sidebar_label: Workflow Logs
+description: When workflow actions are performed, the corresponding operations are logged to the web-based log file. Click the Logs tab to view the corresponding audit...
+---
+
 # Workflow Operations Log
 
 When workflow actions are performed, the corresponding operations are logged to the web-based log

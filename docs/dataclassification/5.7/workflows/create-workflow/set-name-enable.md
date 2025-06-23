@@ -1,3 +1,9 @@
+---
+title: Step 4. Enter Name and Review Settings
+sidebar_label: Set Name Enable
+description: At this step, you need to provide workflow name, review its settings, and disable or enable the workflow (to start immediate processing). Do the following: 1...
+---
+
 # Step 4. Enter Name and Review Settings
 
 At this step, you need to provide workflow name, review its settings, and disable or enable the

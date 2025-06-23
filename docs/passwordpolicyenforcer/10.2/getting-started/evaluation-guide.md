@@ -1,3 +1,9 @@
+---
+title: Evaluation Guide Conclusion and Next Steps
+sidebar_label: Evaluation Guide
+description: Conclusion of the Password Policy Enforcer evaluation guide with next steps for administration and integration with related products.
+---
+
 # Conclusion
 
 Congratulations! You have successfully installed, configured, and tested Netwrix Password Policy

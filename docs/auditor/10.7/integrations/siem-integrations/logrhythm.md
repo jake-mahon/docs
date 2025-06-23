@@ -1,3 +1,9 @@
+---
+title: logrhythm
+sidebar_label: logrhythm
+description: Auditor 10.7 documentation for logrhythm with configuration details, usage instructions, and implementation guidance.
+---
+
 # Automate Add-On Execution
 
 After creating a task, wait for the next scheduled run or navigate to **Task Scheduler** and run the

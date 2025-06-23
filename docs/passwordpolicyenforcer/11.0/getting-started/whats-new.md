@@ -1,3 +1,9 @@
+---
+title: What's New in Password Policy Enforcer 11.0
+sidebar_label: What's New
+description: New features and improvements in Password Policy Enforcer 11.0 including UI enhancements and Windows Server 2012 compatibility.
+---
+
 # What's New
 
 User Interface

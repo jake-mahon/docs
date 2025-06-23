@@ -1,3 +1,9 @@
+---
+title: pane Administration
+sidebar_label: pane
+description: Administration guide for pane including configuration, management, and best practices for Access Analyzer.
+---
+
 # Navigation Pane
 
 The Navigation Pane, located on the left-hand side of the Access Analyzer Console, lists all the

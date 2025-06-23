@@ -1,3 +1,9 @@
+---
+title: box activity forensics box deletions
+sidebar_label: box deletions
+description: Solution guide for box activity forensics box deletions including implementation steps, configuration, and best practices.
+---
+
 # Box_Deletions Job
 
 The Box_Deletions Job is comprised of analysis and reports, which use the data collected by the

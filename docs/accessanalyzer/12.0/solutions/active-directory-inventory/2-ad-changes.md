@@ -1,3 +1,9 @@
+---
+title: active directory inventory 2 ad changes
+sidebar_label: 2 ad changes
+description: Solution guide for active directory inventory 2 ad changes including implementation steps, configuration, and best practices.
+---
+
 # 2-AD_Changes Job
 
 The 2-AD_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active

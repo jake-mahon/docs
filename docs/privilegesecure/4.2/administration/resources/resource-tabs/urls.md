@@ -1,3 +1,9 @@
+---
+title: Access Policies Tab for Website
+sidebar_label: urls
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Access Policies Tab for Website
 
 The Access Policies tab shows information about the policies associated with the selected resource.

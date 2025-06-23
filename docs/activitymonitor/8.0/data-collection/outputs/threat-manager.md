@@ -1,3 +1,9 @@
+---
+title: Data Collection Threat Manager Output
+sidebar_label: Threat Manager
+description: Configure Threat Manager output for Activity Monitor data collection including app token authentication and connection settings.
+---
+
 # Threat Manager Tab
 
 The Threat Manager tab on an output Properties window is where the connection between Activity

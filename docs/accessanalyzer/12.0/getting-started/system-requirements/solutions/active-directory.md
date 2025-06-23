@@ -1,3 +1,9 @@
+---
+title: Getting Started: active directory
+sidebar_label: active directory
+description: Getting started guide for active directory in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Active Directory Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

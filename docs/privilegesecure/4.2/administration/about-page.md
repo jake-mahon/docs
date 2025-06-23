@@ -1,3 +1,9 @@
+---
+title: About Page
+sidebar_label: about page
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # About Page
 
 The About page is accessed by selecting About from the User Options menu (icon beside the logged in

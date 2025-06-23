@@ -1,3 +1,9 @@
+---
+title: Restore a System
+sidebar_label: restore system
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Restore a System
 
 Restore a System

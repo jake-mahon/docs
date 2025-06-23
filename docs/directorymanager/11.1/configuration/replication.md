@@ -1,3 +1,9 @@
+---
+title: Manage Local Replication Settings
+sidebar_label: Replication
+description: Configure replication settings for identity stores including object attributes, service scheduling, and data restoration to Elasticsearch.
+---
+
 # Manage Local Replication Settings
 
 You can manage the following replication settings for an identity store:

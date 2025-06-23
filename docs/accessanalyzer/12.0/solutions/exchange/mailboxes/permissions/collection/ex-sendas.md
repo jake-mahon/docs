@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes permissions collection ex sendas
+sidebar_label: ex sendas
+description: Solution guide for exchange mailboxes permissions collection ex sendas including implementation steps, configuration, and best practices.
+---
+
 # EX_SendAs Job
 
 The EX_SendAs job collects data from Active Directory to identify the Active Directory rights

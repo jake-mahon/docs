@@ -1,3 +1,9 @@
+---
+title: anyid anyid salesforce
+sidebar_label: anyid salesforce
+description: Solution guide for anyid anyid salesforce including implementation steps, configuration, and best practices.
+---
+
 # AnyID_Salesforce Job
 
 The AnyID_Salesforce job collects Salesforce contact details including phone, address, email, and

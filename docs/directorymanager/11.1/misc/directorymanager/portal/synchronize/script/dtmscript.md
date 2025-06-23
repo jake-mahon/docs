@@ -1,3 +1,9 @@
+---
+title: Portal synchronize script dtmscript
+sidebar_label: dtmscript
+description: Directory Manager portal documentation for synchronize script functionality including user interface, navigation, and operational procedures.
+---
+
 # Script
 
 Synchronize scripts are written in Visual Basic .NET. A script is run after having established a

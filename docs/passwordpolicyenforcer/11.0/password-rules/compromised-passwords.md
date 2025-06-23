@@ -1,3 +1,9 @@
+---
+title: Compromised Password Rule Configuration
+sidebar_label: Compromised Passwords
+description: Configure compromised password rules in Password Policy Enforcer to reject passwords from prior breaches and protect against credential attacks.
+---
+
 # Compromised Rule
 
 The Compromised rule rejects passwords from prior breaches. These passwords should not be used as

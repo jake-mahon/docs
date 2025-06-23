@@ -1,3 +1,9 @@
+---
+title: System Reports
+sidebar_label: System Reports
+description: Review the list of the built-in system reports: their classifications written to the source system (such as SharePoint Managed Metadata Columns). Supports...
+---
+
 # System Reports
 
 Review the list of the built-in system reports:

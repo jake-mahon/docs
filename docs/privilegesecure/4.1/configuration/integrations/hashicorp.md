@@ -1,3 +1,9 @@
+---
+title: HashiCorp Integration
+sidebar_label: hashicorp
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # HashiCorp Integration
 
 Privilege Secure contains a built-in vault for credential management, but can uniquely map to a

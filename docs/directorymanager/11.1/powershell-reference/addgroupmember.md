@@ -1,3 +1,9 @@
+---
+title: Add groupmember Cmdlet
+sidebar_label: addgroupmember
+description: PowerShell cmdlet reference for addgroupmember with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Add-GroupMember
 
 The Add-GroupMember commandlet helps you to add one or more objects to the membership of a group in

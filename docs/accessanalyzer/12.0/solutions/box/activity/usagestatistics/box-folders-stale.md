@@ -1,3 +1,9 @@
+---
+title: box activity usagestatistics box folders stale
+sidebar_label: box folders stale
+description: Solution guide for box activity usagestatistics box folders stale including implementation steps, configuration, and best practices.
+---
+
 # Box_Folders_Stale Job
 
 The Box_Folders_Stale Job identifies the last time activity occurred for each folder in the Box

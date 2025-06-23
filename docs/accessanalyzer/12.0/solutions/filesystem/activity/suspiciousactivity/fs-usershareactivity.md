@@ -1,3 +1,9 @@
+---
+title: filesystem activity suspiciousactivity fs usershareactivity
+sidebar_label: fs usershareactivity
+description: Solution guide for filesystem activity suspiciousactivity fs usershareactivity including implementation steps, configuration, and best practices.
+---
+
 # FS_UserShareActivity Job
 
 The FS_UserShareActivity job is designed to report on normal user activity within a share from

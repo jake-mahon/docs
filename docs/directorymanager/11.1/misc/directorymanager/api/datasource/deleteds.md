@@ -1,3 +1,9 @@
+---
+title: datasource deleteds API
+sidebar_label: deleteds
+description: API reference for deleteds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Delete a Data Source
 
 This API can be used for deleting a specified data source.

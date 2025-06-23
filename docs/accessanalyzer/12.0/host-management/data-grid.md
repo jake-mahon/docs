@@ -1,3 +1,9 @@
+---
+title: data grid
+sidebar_label: data grid
+description: Documentation for data grid functionality in Access Analyzer including configuration and usage information.
+---
+
 # Host Inventory Data Grid
 
 The data grid provides all host inventory information collected on the hosts. View this information

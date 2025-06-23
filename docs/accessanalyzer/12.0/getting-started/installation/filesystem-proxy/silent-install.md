@@ -1,3 +1,9 @@
+---
+title: Getting Started: silent install
+sidebar_label: silent install
+description: Getting started guide for silent install in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Silent Installer Option for Proxy
 
 It is possible to use one of the following methods to complete a silent installation of the File

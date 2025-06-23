@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection ad grouprights
+sidebar_label: ad grouprights
+description: Solution guide for activedirectorypermissionsanalyzer collection ad grouprights including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupRights Job
 
 The AD_GroupRights Job provides data collection to identify permissions applied to groups in Active

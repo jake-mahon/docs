@@ -1,3 +1,9 @@
+---
+title: Pre-Created Templates
+sidebar_label: Pre-Created Templates
+description: Collection of pre-configured policy templates including security, infrastructure, Microsoft, and SIEM templates for rapid deployment.
+---
+
 # Pre-Created Templates
 
 Threat Prevention comes with several policy templates that cover a wide range of event monitoring
@@ -25,39 +31,39 @@ Templates in the [Templates Interface](/docs/threatprevention/7.5/admin/template
 - The templates that Netwrix engineers deem most useful are located within subfolders in the Best
   Practices folder:
 
-    - Active Directory
-    - Exchange
-    - File System
-    - Object Lockdown
+  - Active Directory
+  - Exchange
+  - File System
+  - Object Lockdown
 
 - The Domain Persistence folder contains templates of policies that detect an attacker's attempt to
   gain persistent administrative access to Active Directory.
 - Templates focused on monitoring for HIPAA regulations are located within subfolders in the HIPAA
   folder:
 
-    - 164.306 – Security Standards
-    - 164.308 (a)(1)(i) – Security Management Process
-    - 164.308 (a)(1)(ii) – Implementation Specifications
-    - 164.308 (a)(3)(i) – Workforce Security
-    - 164.308 (a)(3)(ii) – Authorization and Supervision
-    - 164.308 (a)(4) – Information Access Management
-    - 164.308 (a)(5)(ii)(C) – Log-In Monitoring
-    - 164.308 (a)(5)(ii)(D) – Password Management
-    - 164.312 (a)(1) – Access Control
-    - 164.312 (b) – Audit Controls
-    - 164.312 (c) – Integrity
-    - 164.312 (d) – Authentication
+  - 164.306 – Security Standards
+  - 164.308 (a)(1)(i) – Security Management Process
+  - 164.308 (a)(1)(ii) – Implementation Specifications
+  - 164.308 (a)(3)(i) – Workforce Security
+  - 164.308 (a)(3)(ii) – Authorization and Supervision
+  - 164.308 (a)(4) – Information Access Management
+  - 164.308 (a)(5)(ii)(C) – Log-In Monitoring
+  - 164.308 (a)(5)(ii)(D) – Password Management
+  - 164.312 (a)(1) – Access Control
+  - 164.312 (b) – Audit Controls
+  - 164.312 (c) – Integrity
+  - 164.312 (d) – Authentication
 
 - The LDAP folder contains templates that monitor LDAP queries.
 - Templates that are focused on monitoring and locking down events in a Microsoft environment are
   located within subfolders in the Microsoft folder:
 
-    - Active Directory
-    - DNS
-    - Exchange
-    - File System
-    - Group Policy Objects
-    - LSASS
+  - Active Directory
+  - DNS
+  - Exchange
+  - File System
+  - Group Policy Objects
+  - LSASS
 
 - The Netwrix Threat Manager folder contains templates used by Netwrix Threat Manager to perform
   threat detection.

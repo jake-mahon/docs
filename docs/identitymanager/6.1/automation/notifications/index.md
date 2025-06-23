@@ -1,3 +1,9 @@
+---
+title: Notification Management Overview
+sidebar_label: Notifications
+description: Configure email notifications for provisioning reviews, job errors, and custom triggers including native and custom notification templates.
+---
+
 # How-Tos
 
 These guides will help you set up notifications with practical step-by-step procedures.

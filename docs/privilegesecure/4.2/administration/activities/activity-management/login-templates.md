@@ -1,3 +1,9 @@
+---
+title: Login Account Templates
+sidebar_label: login templates
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Login Account Templates
 
 There are three options for Login Account Templates in an Activity:

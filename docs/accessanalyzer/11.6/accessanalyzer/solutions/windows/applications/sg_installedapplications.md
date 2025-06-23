@@ -1,3 +1,9 @@
+---
+title: windows applications sg_installedapplications
+sidebar_label: sg_installedapplications
+description: Solution guide for windows applications sg_installedapplications including implementation steps, configuration, and best practices.
+---
+
 # SG_InstalledApplications Job
 
 The SG_InstalledApplications job identifies installed applications on all targeted hosts.

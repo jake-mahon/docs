@@ -1,3 +1,9 @@
+---
+title: databases sql collection 0 sql instancediscovery
+sidebar_label: 0 sql instancediscovery
+description: Solution guide for databases sql collection 0 sql instancediscovery including implementation steps, configuration, and best practices.
+---
+
 # 0-SQL_InstanceDiscovery Job
 
 The 0-SQL_InstanceDiscovery job enumerates and stores the list of SQL Server Instances running on

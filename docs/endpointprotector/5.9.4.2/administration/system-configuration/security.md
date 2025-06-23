@@ -1,3 +1,9 @@
+---
+title: System Security Configuration
+sidebar_label: Security
+description: Configure security settings including client uninstall protection, authentication methods, and system-wide security policies for Endpoint Protector.
+---
+
 # System Security
 
 This section enables you to configure various security settings, including client uninstall

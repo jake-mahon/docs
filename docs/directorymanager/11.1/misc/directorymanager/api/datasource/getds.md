@@ -1,3 +1,9 @@
+---
+title: datasource getds API
+sidebar_label: getds
+description: API reference for getds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get a Data Source
 
 Using this API you can retrieve information of a specific data source specified in the end point

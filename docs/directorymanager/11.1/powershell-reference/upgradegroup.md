@@ -1,3 +1,9 @@
+---
+title: upgradegroup Cmdlet
+sidebar_label: upgradegroup
+description: PowerShell cmdlet reference for upgradegroup with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Upgrade-Group
 
 The Upgrade-Group commandlet upgrades managed (Smart Groups and Dynasties) and non-managed Groups of

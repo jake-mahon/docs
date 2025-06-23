@@ -1,3 +1,9 @@
+---
+title: Password History Window
+sidebar_label: password history
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Password History Window
 
 The Password History window shows all historical passwords for the selected managed account.

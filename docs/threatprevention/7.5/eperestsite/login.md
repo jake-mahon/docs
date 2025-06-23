@@ -1,3 +1,9 @@
+---
+title: EPE Login Interface
+sidebar_label: Login Interface
+description: Login interface configuration for Enterprise Password Enforcer REST site including authentication and access management.
+---
+
 # Login to EPE REST Service APIs
 
 You can use APIs to login to the EPE REST Service:

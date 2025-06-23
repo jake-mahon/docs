@@ -1,3 +1,9 @@
+---
+title: sharepoint effectiveaccessaudits sp trusteeaccess
+sidebar_label: sp trusteeaccess
+description: Solution guide for sharepoint effectiveaccessaudits sp trusteeaccess including implementation steps, configuration, and best practices.
+---
+
 # Scoping > SP_TrusteeAccess Job
 
 The SP_TrusteeAccess job allows you to scope a list of users to audit their access across the

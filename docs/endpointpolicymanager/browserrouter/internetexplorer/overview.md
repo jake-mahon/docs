@@ -1,3 +1,9 @@
+---
+title: Browser Router Internet Explorer Management
+sidebar_label: IE Overview
+description: Manage Internet Explorer Enterprise Mode and Document Modes through Browser Router for legacy web application compatibility and rendering optimization.
+---
+
 # Understanding Browser Router and Internet Explorer
 
 Endpoint Policy Manager Browser Router has special functions for managing Internet Explorer. First,

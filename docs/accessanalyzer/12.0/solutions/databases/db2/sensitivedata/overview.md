@@ -1,3 +1,9 @@
+---
+title: databases db2 sensitivedata overview
+sidebar_label: overview
+description: Solution guide for databases db2 sensitivedata overview including implementation steps, configuration, and best practices.
+---
+
 # Sensitive Data Job Group
 
 This job group provides insight into where sensitive data exists and who has access to it across all

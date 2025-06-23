@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Search Features
+sidebar_label: Search & Analysis
+description: Use the search feature to query and analyze activity data across file systems, Active Directory, Azure AD, and SharePoint with filtering and export options.
+---
+
 # Search Feature
 
 The search feature consolidates and compartmentalizes search results based on events, time, objects,

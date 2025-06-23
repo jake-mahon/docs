@@ -1,3 +1,9 @@
+---
+title: scripting
+sidebar_label: scripting
+description: Documentation for scripting functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLscripting Analysis Module
 
 Use the SQLscripting analysis module to apply SQL scripting to the selected job.

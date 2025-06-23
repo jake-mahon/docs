@@ -1,3 +1,9 @@
+---
+title: Microsoft SQL Server Platform Policy Configuration
+sidebar_label: sql server
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Microsoft SQL Server Platform Policy Configuration
 
 The Microsoft SQL Server menu displays the configuration options for Microsoft SQL Server platforms.

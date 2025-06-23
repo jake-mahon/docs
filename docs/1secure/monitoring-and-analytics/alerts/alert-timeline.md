@@ -1,3 +1,9 @@
+---
+title: Alerts Timeline View
+sidebar_label: Alert Timeline
+description: View triggered alerts timeline with key statistics, historical data, and detailed alert analysis for security monitoring.
+---
+
 # Alerts Timeline
 
 The Alerts Timeline page provides a view of triggered alerts. It highlights key statistics,

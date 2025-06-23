@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS Data Collector
 
 The AWS Data Collector collects IAM users, groups, roles, and policies, as well as S3 permissions,

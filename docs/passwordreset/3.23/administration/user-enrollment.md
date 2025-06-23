@@ -1,3 +1,9 @@
+---
+title: User Enrollment Strategies
+sidebar_label: User Enrollment
+description: Guide to encouraging user enrollment in Password Reset through REST API integration and web application prompts with security considerations.
+---
+
 # Persuading Users to Enroll
 
 The Web Interface includes a REST API which your web sites and applications can query to determine

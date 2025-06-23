@@ -1,3 +1,9 @@
+---
+title: Auditor Administration Overview
+sidebar_label: Administration
+description: Comprehensive guide for administering Netwrix Auditor including data collection, navigation, search, reports, alerts, and risk assessment.
+---
+
 # Administration
 
 This section contains information on how to use collected data with Netwrix Auditor:

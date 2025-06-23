@@ -1,3 +1,9 @@
+---
+title: Getting Started: proxy mode service permissions
+sidebar_label: proxy mode service permissions
+description: Getting started guide for proxy mode service permissions in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Proxy Mode as a Service Permissions
 
 When File System scans are run in proxy mode as a service, there are two methods available for

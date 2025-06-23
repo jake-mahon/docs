@@ -1,3 +1,9 @@
+---
+title: active directory activity operations ad load balancing
+sidebar_label: ad load balancing
+description: Solution guide for active directory activity operations ad load balancing including implementation steps, configuration, and best practices.
+---
+
 # AD_LoadBalancing Job
 
 The AD_LoadBalancing Job analyzes each domain controller's traffic to show what percent of all LDAP,

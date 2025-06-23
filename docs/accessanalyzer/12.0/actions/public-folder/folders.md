@@ -1,3 +1,9 @@
+---
+title: folders
+sidebar_label: folders
+description: Documentation for folders functionality in Access Analyzer including configuration and usage information.
+---
+
 # Public Folder: Folders
 
 The Folders page identifies which public folders are targeted by this action.

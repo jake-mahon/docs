@@ -1,3 +1,9 @@
+---
+title: system criteria
+sidebar_label: system criteria
+description: Documentation for system criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # Sensitive Data System Criteria
 
 The following is a list of default Sensitive Data System Criteria:

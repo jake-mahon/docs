@@ -1,3 +1,9 @@
+---
+title: activity timeframe scope
+sidebar_label: activity timeframe scope
+description: Documentation for activity timeframe scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # Box: Activity Timeframe Scope
 
 The Activity Timespan Scope page (ActivityTimeframeScope) is where Box activity data collection is

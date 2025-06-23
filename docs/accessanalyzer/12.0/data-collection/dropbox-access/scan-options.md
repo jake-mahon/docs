@@ -1,3 +1,9 @@
+---
+title: scan options
+sidebar_label: scan options
+description: Documentation for scan options functionality in Access Analyzer including configuration and usage information.
+---
+
 # DropboxAccess: Scan Options
 
 Use the Scan Options page to authorize Access Analyzer to generate an Access Token allowing the

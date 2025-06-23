@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Analysis Modules
 
 The Enterprise Auditor analysis modules are capable of finding unique data and notifying users of

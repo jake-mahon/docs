@@ -1,3 +1,9 @@
+---
+title: Proxy Service Install
+sidebar_label: proxy service
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Proxy Service Install
 
 Logging directly onto managed systems from desktops leaves artifacts that can be compromised and

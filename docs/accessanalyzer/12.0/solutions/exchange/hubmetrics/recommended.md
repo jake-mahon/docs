@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics recommended
+sidebar_label: recommended
+description: Solution guide for exchange hubmetrics recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the 1. HUB Metrics Job Group
 
 Dependencies

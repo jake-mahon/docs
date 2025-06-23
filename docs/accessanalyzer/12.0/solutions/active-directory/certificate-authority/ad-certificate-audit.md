@@ -1,3 +1,9 @@
+---
+title: active directory certificate authority ad certificate audit
+sidebar_label: ad certificate audit
+description: Solution guide for active directory certificate authority ad certificate audit including implementation steps, configuration, and best practices.
+---
+
 # AD_CertificateAudit Job
 
 The AD_CertificateAudit job provides details on access rights to the Certificate Authority.

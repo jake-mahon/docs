@@ -1,3 +1,9 @@
+---
+title: advanced criteria
+sidebar_label: advanced criteria
+description: Documentation for advanced criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # TextSearch: Advanced Criteria
 
 The Advanced Criteria page is displayed if the **Use advanced criteria (instead of simple

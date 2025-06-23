@@ -1,3 +1,9 @@
+---
+title: Deployment Planning
+sidebar_label: Deployment Overview
+description: This section provides recommendations and considerations for Netwrix Data Classification deployment planning. Review these recommendations and choose the mos...
+---
+
 # Deployment Planning
 
 This section provides recommendations and considerations for Netwrix Data Classification deployment

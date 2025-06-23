@@ -1,3 +1,9 @@
+---
+title: Active Directory Read Monitoring Event Type
+sidebar_label: Active Directory Read Monitoring
+description: The Active Directory Read Monitoring event type reports on a user's accessing or reading specific security-related Active Directory attributes. Active Direct...
+---
+
 # Active Directory Read Monitoring Event Type
 
 The Active Directory Read Monitoring event type reports on a user's accessing or reading specific

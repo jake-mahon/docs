@@ -1,3 +1,9 @@
+---
+title: Add Secret Vault
+sidebar_label: secret vaults
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Secret Vault
 
 Follow the steps below to add a new secret vault to the console.

@@ -1,3 +1,9 @@
+---
+title: Add Activity
+sidebar_label: add activity
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Activity
 
 Follow the steps to add activities to the console.

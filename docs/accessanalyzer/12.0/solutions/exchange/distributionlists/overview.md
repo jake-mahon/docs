@@ -1,3 +1,9 @@
+---
+title: exchange distributionlists overview
+sidebar_label: overview
+description: Solution guide for exchange distributionlists overview including implementation steps, configuration, and best practices.
+---
+
 # 6. Distribution Lists Job Group
 
 The 6. Distribution Lists job group lists the direct and effective membership to distribution lists,

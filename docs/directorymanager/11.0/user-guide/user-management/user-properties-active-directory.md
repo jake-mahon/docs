@@ -1,3 +1,9 @@
+---
+title: user properties active directory
+sidebar_label: user-properties-active-directory
+description: Directory Manager 11.0 documentation for user properties active directory with configuration details, usage instructions, and implementation guidance.
+---
+
 # User properties - Account tab
 
 This tab enables administrators to manage the account status and expiry policy of a user.

@@ -1,3 +1,9 @@
+---
+title: troubleshooting
+sidebar_label: troubleshooting
+description: Documentation for troubleshooting functionality in Access Analyzer including configuration and usage information.
+---
+
 # Troubleshooting AzureADInventory Data Collector
 
 ## Clear AzureADInventory Tables

@@ -1,3 +1,9 @@
+---
+title: configure job
+sidebar_label: configure job
+description: Documentation for configure job functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQL Custom Connection Profile & Default Dynamic Host List
 
 The SQL Data Collector requires a custom Connection Profile and Host List. The **SQL SERVERS**

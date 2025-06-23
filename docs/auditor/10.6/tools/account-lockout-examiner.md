@@ -1,3 +1,9 @@
+---
+title: Account Lockout Examiner Tool
+sidebar_label: Account Lockout Examiner
+description: Investigate and analyze account lockout events in Active Directory with Netwrix Account Lockout Examiner standalone diagnostic tool.
+---
+
 # Planning and Preparation
 
 Before you start using Netwrix Account Lockout Examiner, check the prerequisites and set up your

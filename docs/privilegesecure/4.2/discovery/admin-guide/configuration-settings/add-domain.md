@@ -1,3 +1,9 @@
+---
+title: Add a Domain
+sidebar_label: add domain
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Add a Domain
 
 Add a Domain

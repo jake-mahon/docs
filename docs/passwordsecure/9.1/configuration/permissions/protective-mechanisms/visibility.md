@@ -1,3 +1,9 @@
+---
+title: Data Visibility Control
+sidebar_label: Visibility
+description: Configure data visibility controls and filtering mechanisms to manage what information users can see within Password Secure interface.
+---
+
 # Visibility
 
 ## Visibility of data

@@ -1,3 +1,9 @@
+---
+title: aws policies aws custommanagedpolicies
+sidebar_label: aws custommanagedpolicies
+description: Solution guide for aws policies aws custommanagedpolicies including implementation steps, configuration, and best practices.
+---
+
 # AWS_CustomManagedPolicies Job
 
 The AWS_CustomManagedPolicies job provides details on customer managed policies created in the AWS

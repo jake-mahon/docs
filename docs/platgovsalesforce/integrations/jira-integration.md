@@ -1,3 +1,9 @@
+---
+title: Set Up Jira Integration
+sidebar_label: Jira Integration
+description: Configure Jira integration to synchronize change tickets, perform impact analysis, and manage changes between Jira and Platform Governance systems.
+---
+
 # Set Up the Jira Integration
 
 Platform Governance for Salesforce's Change Enablement capabilities are integrated with Jira, one of

@@ -1,3 +1,9 @@
+---
+title: Dashboard Interface
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Dashboard Interface
 
 The Dashboard interface displays an overview of activity sessions, users, resources and related

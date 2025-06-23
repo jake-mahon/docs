@@ -1,3 +1,9 @@
+---
+title: Entitlements Tab for Access Certification
+sidebar_label: entitlements
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Entitlements Tab for Access Certification
 
 The Entitlements tab shows the activities associated with the users in the selected access

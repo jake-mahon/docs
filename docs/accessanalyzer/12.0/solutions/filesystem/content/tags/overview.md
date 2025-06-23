@@ -1,3 +1,9 @@
+---
+title: filesystem content tags overview
+sidebar_label: overview
+description: Solution guide for filesystem content tags overview including implementation steps, configuration, and best practices.
+---
+
 # Tags Job Group
 
 The Tags job group is designed to report on content classification information from targeted file

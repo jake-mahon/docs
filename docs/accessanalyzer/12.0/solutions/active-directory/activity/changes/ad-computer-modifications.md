@@ -1,3 +1,9 @@
+---
+title: active directory activity changes ad computer modifications
+sidebar_label: ad computer modifications
+description: Solution guide for active directory activity changes ad computer modifications including implementation steps, configuration, and best practices.
+---
+
 # AD_ComputerModifications Job
 
 The AD_ComputerModifications Job provides a report of all changes to computer objects.

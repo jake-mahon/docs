@@ -1,3 +1,9 @@
+---
+title: WinZip Deployment with PDQ Deploy
+sidebar_label: PDQ Deploy
+description: Learn to deploy and manage WinZip using PDQ Deploy and Endpoint Policy Manager integration for streamlined application deployment and configuration.
+---
+
 # Deploy and Manage WinZip with PDQ Deploy and Endpoint Policy Manager
 
 Microsoft MVP Jeremy Moskowitz and Shane from Admin Arsenal show how to easily deploy Winzip with

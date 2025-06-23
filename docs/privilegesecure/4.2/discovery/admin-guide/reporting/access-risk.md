@@ -1,3 +1,9 @@
+---
+title: Access Risk
+sidebar_label: access risk
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Access Risk
 
 Access Risk

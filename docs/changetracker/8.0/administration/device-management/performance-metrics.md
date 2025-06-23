@@ -1,3 +1,7 @@
+title: Agent Performance Metrics
+sidebar_label: Performance Metrics
+description: ChangeTracker Gen7 Agent resource usage metrics including CPU, memory, disk I/O, and network statistics across polling, monitoring, and load phases.
+
 # Agent Performance Metrics
 
 This document depicts the resource usage of the Netwrix Change Tracker Gen7 Agent in its different

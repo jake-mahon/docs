@@ -1,3 +1,9 @@
+---
+title: QuickStart Advanced Fields
+sidebar_label: advanced fields
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # QuickStart Advanced Fields
 
 QuickStart Advanced Fields

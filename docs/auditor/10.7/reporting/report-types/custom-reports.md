@@ -1,3 +1,9 @@
+---
+title: custom reports
+sidebar_label: custom-reports
+description: Auditor 10.7 documentation for custom reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Custom Search-Based Reports
 
 Netwrix Auditor allows you to save your favorite searches as reports to access them instantly. For

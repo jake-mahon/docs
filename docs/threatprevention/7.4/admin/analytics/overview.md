@@ -1,3 +1,9 @@
+---
+title: Analytics Interface Overview
+sidebar_label: Analytics
+description: Real-time authentication traffic analysis for Active Directory environments to detect attack patterns and security compromise attempts with customizable triggers.
+---
+
 # Analytics Interface
 
 Analytics provide organizations with the ability to capture and analyze authentication traffic

@@ -1,3 +1,9 @@
+---
+title: box overview
+sidebar_label: overview
+description: Solution guide for box overview including implementation steps, configuration, and best practices.
+---
+
 # Box Solution
 
 The Box solution set contains jobs to provide visibility into Box access rights, policies,

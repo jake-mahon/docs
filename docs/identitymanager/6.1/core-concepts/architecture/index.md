@@ -1,3 +1,9 @@
+---
+title: Architecture Design Principles
+sidebar_label: Architecture
+description: Understand Usercube's two-tier architecture design focusing on security and flexibility with server and agent components and protected communication.
+---
+
 # How-Tos
 
 These guides will help you set up Usercube's architecture with practical step-by-step procedures.

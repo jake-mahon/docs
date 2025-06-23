@@ -1,3 +1,9 @@
+---
+title: filesystem activity suspiciousactivity fs deniedactivity
+sidebar_label: fs deniedactivity
+description: Solution guide for filesystem activity suspiciousactivity fs deniedactivity including implementation steps, configuration, and best practices.
+---
+
 # FS_DeniedActivity Job
 
 The FS_DeniedActivity job is designed to report on denied activity event information from targeted

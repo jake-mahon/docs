@@ -1,3 +1,9 @@
+---
+title: policies list
+sidebar_label: policies list
+description: Documentation for policies list functionality in Access Analyzer including configuration and usage information.
+---
+
 # GroupPolicy: Policies List
 
 The Policies List page is where the policies from the desired GPOs to be queried are selected. It is

@@ -1,3 +1,9 @@
+---
+title: ConnectWise Ticketing Integration
+sidebar_label: ConnectWise
+description: Configure ConnectWise Manage integration with Netwrix Auditor for automated service ticket creation and incident management workflows.
+---
+
 # Configure ConnectWise
 
 This section describes how to configure settings of the main add-on component, Netwrix Auditor

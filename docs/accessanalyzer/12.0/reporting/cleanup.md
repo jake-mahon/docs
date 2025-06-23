@@ -1,3 +1,9 @@
+---
+title: Report Cleanup Management
+sidebar_label: Cleanup
+description: Report cleanup management including retention policies, archival procedures, and storage optimization.
+---
+
 # Report Cleanup when Deleting a Job or Job Group
 
 When deleting a job or job group, the Delete Job and Delete Group wizards allow you to delete any

@@ -1,3 +1,9 @@
+---
+title: datasource updateds API
+sidebar_label: updateds
+description: API reference for updateds operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Update a Data Source
 
 Using this API you can update information of an already created data source.

@@ -1,3 +1,10 @@
+---
+title: Export Policies and Templates Window
+sidebar_label: Export Policies Templates Window
+description: The Export Policies and Templates window, opened from the Policies interface and the Templates interfaces, enables you to:
+
+---
+
 # Export Policies and Templates Window
 
 The Export Policies and Templates window, opened from the Policies interface and the Templates

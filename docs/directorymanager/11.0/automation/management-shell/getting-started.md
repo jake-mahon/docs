@@ -1,6 +1,7 @@
 ---
 title: Getting Started with Management Shell
 sidebar_label: Getting Started
+description: Directory Manager Management Shell introduction with cmdlet overview, command reference, and PowerShell automation setup guide.
 ---
 
 # Getting Started with Management Shell

@@ -1,3 +1,9 @@
+---
+title: filter
+sidebar_label: filter
+description: Documentation for filter functionality in Access Analyzer including configuration and usage information.
+---
+
 # SQLViewCreation: Filter
 
 Use this page to add custom filters to the table using the Filter Builder.

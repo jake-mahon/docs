@@ -1,3 +1,9 @@
+---
+title: Auditor Product Editions Overview
+sidebar_label: Product Editions
+description: Compare Netwrix Auditor Enterprise Advanced and Community Edition features, licensing options, and upgrade paths for choosing the right edition.
+---
+
 # Product Editions
 
 Netwrix Auditor is available in two editions:

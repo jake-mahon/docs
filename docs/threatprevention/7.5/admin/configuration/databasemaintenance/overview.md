@@ -1,3 +1,9 @@
+---
+title: Database Maintenance Overview
+sidebar_label: Database Maintenance
+description: Automated database maintenance configuration for managing event data retention, archiving, and performance optimization in Threat Prevention.
+---
+
 # Database Maintenance Window
 
 The database maintenance function grooms the NVMonitorData database to optimize performance. It
@@ -46,14 +52,14 @@ The following information is displayed at the top of the window:
 > - Oldest Data – Date of the oldest data in the database
 
 - Job Information:
-    - Last run – Date timestamp when the last database maintenance job was executed
-    - Status – Status of the job. Different statuses are:
-        - Idle – Indicates that no database maintenance task is running
-        - Succeeded – Indicates that the most recent job finished without error
-        - Running – Indicates that a job is running
-        - Error – Indicates that the job started but terminated on an error
-    - Running Step – During job execution, this field populates with the step being executed
-    - Elapsed Time – Overall elapsed time of job execution
+  - Last run – Date timestamp when the last database maintenance job was executed
+  - Status – Status of the job. Different statuses are:
+    - Idle – Indicates that no database maintenance task is running
+    - Succeeded – Indicates that the most recent job finished without error
+    - Running – Indicates that a job is running
+    - Error – Indicates that the job started but terminated on an error
+  - Running Step – During job execution, this field populates with the step being executed
+  - Elapsed Time – Overall elapsed time of job execution
 
 The Refresh button in the upper-right corner refreshes this database and job information.
 
@@ -86,20 +92,20 @@ the following information:
 
 - Enable – Checked box indicates database maintenance is enabled for the event type
 - Event Type – Data is grouped by the following event types:
-    - Active Directory – Configure maintenance for all event data collected by the Active Directory
-      Changes, Active Directory Lockdown, Active Directory Read Monitoring, AD Replication
-      Monitoring, AD Replication Lockdown, Effective Group Membership, FSMO Role Monitoring, GPO
-      Setting Lockdown, GPO Setting Changes, LSASS Guardian – Monitor, LSASS Guardian – Protect, and
-      Password Enforcement Event Types
-    - Authentications – Configure maintenance for all event data collected by the Authentication
-      Monitoring and Authentication Lockdown Event Types. This does not apply to Analytics policy
-      data
-    - Exchange – Configure maintenance for all event data collected by the Exchange Changes and
-      Exchange Lockdown Event Types
-    - File System – Configure maintenance for all event data collected by the File System Changes,
-      File System Lockdown, and File System Enterprise Auditor Event Types
-    - LDAP – Configure maintenance for all event data collected by the LDAP Monitoring, LDAP
-      Lockdown, and LDAP Bind Monitoring Event Types
+  - Active Directory – Configure maintenance for all event data collected by the Active Directory
+    Changes, Active Directory Lockdown, Active Directory Read Monitoring, AD Replication
+    Monitoring, AD Replication Lockdown, Effective Group Membership, FSMO Role Monitoring, GPO
+    Setting Lockdown, GPO Setting Changes, LSASS Guardian – Monitor, LSASS Guardian – Protect, and
+    Password Enforcement Event Types
+  - Authentications – Configure maintenance for all event data collected by the Authentication
+    Monitoring and Authentication Lockdown Event Types. This does not apply to Analytics policy
+    data
+  - Exchange – Configure maintenance for all event data collected by the Exchange Changes and
+    Exchange Lockdown Event Types
+  - File System – Configure maintenance for all event data collected by the File System Changes,
+    File System Lockdown, and File System Enterprise Auditor Event Types
+  - LDAP – Configure maintenance for all event data collected by the LDAP Monitoring, LDAP
+    Lockdown, and LDAP Bind Monitoring Event Types
 - Operation – The operation set for the event type: Move (for archiving) or Delete
 - Retention Period – The age of data to be retained when the database maintenance job is executed
   for the event type

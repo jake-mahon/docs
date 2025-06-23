@@ -1,3 +1,7 @@
+title: Agent Installation Overview
+sidebar_label: Overview
+description: Overview of ChangeTracker agent installation procedures and methods for deploying monitoring agents across various operating systems and platforms.
+
 # Agent Installation
 
 (missing or bad snippet)

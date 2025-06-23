@@ -1,3 +1,9 @@
+---
+title: active directory users ad stale users
+sidebar_label: ad stale users
+description: Solution guide for active directory users ad stale users including implementation steps, configuration, and best practices.
+---
+
 # AD_StaleUsers Job
 
 The AD_StaleUsers job identifies potentially stale users based on the amount of time since their

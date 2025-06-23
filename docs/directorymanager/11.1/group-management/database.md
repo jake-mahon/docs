@@ -1,3 +1,9 @@
+---
+title: database
+sidebar_label: database
+description: Directory Manager 11.1 documentation for database with configuration details, usage instructions, and implementation guidance.
+---
+
 # Query Designer - Database tab
 
 You can combine an external data provider with the directory to determine a group's membership.

@@ -1,3 +1,9 @@
+---
+title: System Configuration Overview
+sidebar_label: Configuration
+description: Essential system configuration elements including Endpoint Protector clients, licensing, security settings, and administrative controls.
+---
+
 # System Configuration
 
 This section includes essential elements such as Endpoint Protector Clients, System Licensing, and

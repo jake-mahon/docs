@@ -1,3 +1,9 @@
+---
+title: target
+sidebar_label: target
+description: Documentation for target functionality in Access Analyzer including configuration and usage information.
+---
+
 # GroupPolicy: Target
 
 The Target page is where a host from which to get data (in wizard only) and .admx source are

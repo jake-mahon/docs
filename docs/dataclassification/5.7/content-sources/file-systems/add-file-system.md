@@ -1,3 +1,9 @@
+---
+title: File System
+sidebar_label: Add File System
+description: There are two ways to add file system content: as individual files, as folders. Review the following for additional information: The Folders section can be...
+---
+
 # File System
 
 There are two ways to add file system content: as individual files, as folders.

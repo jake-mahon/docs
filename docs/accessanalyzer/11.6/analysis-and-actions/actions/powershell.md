@@ -1,3 +1,9 @@
+---
+title: powershell
+sidebar_label: powershell
+description: Documentation for powershell functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell Action: Execution Options
 
 Specify the execution options for the PowerShell script using the Execution Options page.

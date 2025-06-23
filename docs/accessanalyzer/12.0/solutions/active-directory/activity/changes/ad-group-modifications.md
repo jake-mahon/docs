@@ -1,3 +1,9 @@
+---
+title: active directory activity changes ad group modifications
+sidebar_label: ad group modifications
+description: Solution guide for active directory activity changes ad group modifications including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupModifications Job
 
 The AD_GroupModifications Job provides a report of all changes to group objects. A separate report

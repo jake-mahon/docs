@@ -1,3 +1,9 @@
+---
+title: Services Page
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Services Page
 
 The Services page is accessible from the Navigation pane under Configuration > System Settings.

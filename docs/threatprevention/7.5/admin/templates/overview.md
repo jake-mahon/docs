@@ -1,3 +1,9 @@
+---
+title: Policy Templates Overview
+sidebar_label: Templates
+description: Policy template management interface for creating, configuring, and deploying pre-defined security policies across Threat Prevention environments.
+---
+
 # Templates Interface
 
 The Templates interface provides a list of all the pre-created policy templates in Threat
@@ -39,9 +45,9 @@ right-click to open this menu.
 
 It contains the following options:
 
-| Right-Click Command  | Description                                                                                                                                             |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enable (grayed-out)  | [Does not apply to templates]                                                                                                                           |
-| Disable (grayed-out) | [Does not apply to templates]                                                                                                                           |
+| Right-Click Command  | Description                                                                                                                                                                           |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable (grayed-out)  | [Does not apply to templates]                                                                                                                                                         |
+| Disable (grayed-out) | [Does not apply to templates]                                                                                                                                                         |
 | Export               | Exports the selected template’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.5/admin/policies/exportpoliciestemplates.md) |
-| Remove               | Deletes the selected template                                                                                                                           |
+| Remove               | Deletes the selected template                                                                                                                                                         |

@@ -1,3 +1,9 @@
+---
+title: Clear messagingserver Cmdlet
+sidebar_label: clearmessagingserver
+description: PowerShell cmdlet reference for clearmessagingserver with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Clear-MessagingServer
 
 The commandlet Clear-MessagingServer removes the configured messaging server from the specified

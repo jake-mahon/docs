@@ -1,3 +1,9 @@
+---
+title: reference
+sidebar_label: reference
+description: Documentation for reference functionality in Access Analyzer including configuration and usage information.
+---
+
 # Script Reference
 
 Access Analyzer provides extensions to standard Visual Basic Script. These extensions allow access

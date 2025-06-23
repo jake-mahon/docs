@@ -1,3 +1,9 @@
+---
+title: syncjobs getjobsdetails API
+sidebar_label: getjobsdetails
+description: API reference for getjobsdetails operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get a Job Details
 
 Use this API to get details of a job specified in endpoint URL.

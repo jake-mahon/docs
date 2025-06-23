@@ -1,3 +1,9 @@
+---
+title: Character Pattern Rule Configuration
+sidebar_label: Pattern Rules
+description: Configure the Character Pattern rule to reject passwords containing weak character patterns and sequences in Password Policy Enforcer.
+---
+
 # Character Pattern Rule
 
 The Character Pattern rule rejects passwords that contain character patterns such as "abcde".

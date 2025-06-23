@@ -1,3 +1,9 @@
+---
+title: Set object Cmdlet
+sidebar_label: setobject
+description: PowerShell cmdlet reference for setobject with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Set-Object
 
 The Set-Object commandlet modifies any object such as a user, contact, group (managed or unmanaged),

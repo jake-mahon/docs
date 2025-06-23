@@ -1,3 +1,9 @@
+---
+title: instantiate Administration
+sidebar_label: instantiate
+description: Administration guide for instantiate including configuration, management, and best practices for Access Analyzer.
+---
+
 # Instantiating Jobs into the Jobs Tree
 
 Access Analyzer jobs and solutions are comprised of files contained within the file system of the

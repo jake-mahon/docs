@@ -1,3 +1,10 @@
+---
+title: Login to EPE REST Service APIs
+sidebar_label: Login EPE REST Service
+description: You can use APIs to login to the EPE REST Service: - POST api/account/login (Digest) - POST api/account/logoff (Digest)
+
+---
+
 # Login to EPE REST Service APIs
 
 You can use APIs to login to the EPE REST Service:

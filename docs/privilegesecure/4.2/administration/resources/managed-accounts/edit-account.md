@@ -1,3 +1,9 @@
+---
+title: Edit a Managed Account Window
+sidebar_label: edit account
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Edit a Managed Account Window
 
 Follow the steps below to edit a managed account in a secret vault.

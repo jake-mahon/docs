@@ -1,3 +1,9 @@
+---
+title: Customizations API Reference
+sidebar_label: Customizations API
+description: External API for retrieving NetSuite customizations with filtering capabilities and Postman integration for testing and development.
+---
+
 # Customizations API
 
 The Customizations API provides external access to retrieve customization from a NetSuite account.

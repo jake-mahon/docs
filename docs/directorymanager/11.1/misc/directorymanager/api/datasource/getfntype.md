@@ -1,3 +1,9 @@
+---
+title: datasource getfntype API
+sidebar_label: getfntype
+description: API reference for getfntype operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Filenames by Type
 
 Use this API to get source file name(s) residing on local server(s) or in cloud for a specific type

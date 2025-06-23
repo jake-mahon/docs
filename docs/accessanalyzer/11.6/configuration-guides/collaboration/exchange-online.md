@@ -1,3 +1,9 @@
+---
+title: exchange online
+sidebar_label: exchange online
+description: Documentation for exchange online functionality in Access Analyzer including configuration and usage information.
+---
+
 # Exchange Online Auditing Configuration
 
 It is necessary to register Enterprise Auditor as a web application to the targeted Microsoft Entra

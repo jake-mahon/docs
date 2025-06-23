@@ -1,3 +1,9 @@
+---
+title: Report Wizard Authoring Configuration
+sidebar_label: Authoring
+description: Authoring configuration in the report wizard for creating and customizing report content and structure.
+---
+
 # Authoring Page
 
 On the Authoring page of the Report Configuration wizard, you can configure the name, header

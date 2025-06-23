@@ -1,3 +1,9 @@
+---
+title: alldynasties
+sidebar_label: alldynasties
+description: Directory Manager 11.1 documentation for alldynasties with configuration details, usage instructions, and implementation guidance.
+---
+
 # Dynasties
 
 A [Dynasty](/docs/directorymanager/11.1/group-management/overview.md)is a Smart Group that creates and manages other Smart Groups using

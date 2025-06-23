@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADInventory: Options
 
 The Options page provides options for Active Directory data collection. It is a wizard page for the

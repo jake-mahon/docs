@@ -1,3 +1,9 @@
+---
+title: INI File Target Files Configuration
+sidebar_label: Target Files
+description: Configuration page for selecting target INI files and directories for data collection and analysis.
+---
+
 # INIFile: Target Files
 
 The Target Files page identifies the location and name of the INI file from which to collect
@@ -13,9 +19,9 @@ Configure the Target Files options:
   target host in the environment. Click the ellipsis (**…**) to open the Enterprise Auditor Registry
   Browser and connect to a host to select a registry key and path to be used for the lookup.
 
-    - Registry Value – This value is automatically populated from the registry key
-    - Levels – The Levels slider can be used to truncate the path for the key value in the Adjust
-      Path dialog box
-    - Current value – Displays the current value for the registry key
+  - Registry Value – This value is automatically populated from the registry key
+  - Levels – The Levels slider can be used to truncate the path for the key value in the Adjust
+    Path dialog box
+  - Current value – Displays the current value for the registry key
 
 - INI File Name – Name of the INI file

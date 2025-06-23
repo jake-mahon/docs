@@ -1,3 +1,9 @@
+---
+title: Set Deployment Options
+sidebar_label: Set Deployment Options
+description: Agent deployment configuration options including modules, communication settings, and monitoring preferences.
+---
+
 # Set Options Window
 
 The Deploy Agents wizard's Set Options window is the second in a sequence of four windows to deploy
@@ -11,30 +17,30 @@ information, modules, DNS host name resolution, and safe mode.
 The Set Options window provides the following options:
 
 - Use These Credentials – Credentials to be used to deploy the Agent on the selected computers
-    - Username – Must be in the DOMAIN\Username format
-    - Password – Username password
+  - Username – Must be in the DOMAIN\Username format
+  - Password – Username password
 - Enterprise Manager – IP address/name and port where the Enterprise Manager is located
 - Modules to Install – Select the check boxes for the modules to be installed on the selected
   computers:
-    - Windows AD Events – Installs the Threat Prevention for Active Directory Solution and Threat
-      Prevention for LDAP Solution
-    - Windows File System – Installs the Threat Prevention for File System Solution
-    - Exchange Server Monitoring – Installs the Threat Prevention for Exchange Solution
-    - Windows Event Logs – Deprecated functionality for v7.0+ Agents
+  - Windows AD Events – Installs the Threat Prevention for Active Directory Solution and Threat
+    Prevention for LDAP Solution
+  - Windows File System – Installs the Threat Prevention for File System Solution
+  - Exchange Server Monitoring – Installs the Threat Prevention for Exchange Solution
+  - Windows Event Logs – Deprecated functionality for v7.0+ Agents
 - Agent Service
 
-    - Safe Mode – The Agent checks LSASS versions on start up. Any changes in LSASS since the
-      previous start prevents the AD Events monitoring module from loading. See the
-      [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
-      topic for additional information.
-    - Use local Pwned hash DB – A local copy of the Pwned hash database is sent to the Agent after
-      installation from the Enterprise Manager. Any updates to the database are sent from the
-      Enterprise Manager to the Agent(s) as long as the Agent service is enabled.
-    - Start Agent Service – Starts the Threat Prevention Agent service on host after installation
+  - Safe Mode – The Agent checks LSASS versions on start up. Any changes in LSASS since the
+    previous start prevents the AD Events monitoring module from loading. See the
+    [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
+    topic for additional information.
+  - Use local Pwned hash DB – A local copy of the Pwned hash database is sent to the Agent after
+    installation from the Enterprise Manager. Any updates to the database are sent from the
+    Enterprise Manager to the Agent(s) as long as the Agent service is enabled.
+  - Start Agent Service – Starts the Threat Prevention Agent service on host after installation
 
-        **NOTE:** If the Agent Service is not started at the time of deployment, the Agent requires
-        a manual start or will be started automatically after a server reboot. Until the Agent is
-        started, no activity is monitored or blocked.
+    **NOTE:** If the Agent Service is not started at the time of deployment, the Agent requires
+    a manual start or will be started automatically after a server reboot. Until the Agent is
+    started, no activity is monitored or blocked.
 
 - Create Windows Firewall Rules – Creates firewall rules on the selected computers for Agent
   communication
@@ -102,7 +108,7 @@ This Set Options window is the same as discussed above, with the exception of th
   are grayed out and cannot be changed, indicating that the same current settings are retained for
   the Agent.
 
-    This setting has no impact on the Use These Credentials and Enterprise Manager areas.
+  This setting has no impact on the Use These Credentials and Enterprise Manager areas.
 
 **CAUTION:** Make sure you select the desired settings for the Agent on this window, such as the
 Enable DNS Host Name Resolution and Safe Mode options, even when they are currently enabled for the

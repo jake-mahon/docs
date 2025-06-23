@@ -1,3 +1,9 @@
+---
+title: job management Administration
+sidebar_label: job management
+description: Administration guide for job management including configuration, management, and best practices for Access Analyzer.
+---
+
 # Actions Node
 
 The Actions node uses Enterprise Auditor action modules to take action on collected and analyzed

@@ -1,3 +1,9 @@
+---
+title: silent installation
+sidebar_label: silent-installation
+description: Auditor 10.7 documentation for silent installation with configuration details, usage instructions, and implementation guidance.
+---
+
 # Install in Silent Mode
 
 Silent installation provides a convenient method for deploying Netwrix Auditor without UI.

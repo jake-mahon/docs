@@ -1,3 +1,9 @@
+---
+title: FSMO Role Monitoring Event Type
+sidebar_label: FSMO Role Monitoring Event
+description: The FSMO Role Monitoring event type generates events based on policy rules when domain controllers acquire or relinquish specified FSMO (Flexible Single Mast...
+---
+
 # FSMO Role Monitoring Event Type
 
 The FSMO Role Monitoring event type generates events based on policy rules when domain controllers
@@ -44,15 +50,15 @@ Check the **All** checkbox to include all FSMO roles for monitoring or select sp
 - Forest – Select this checkbox to include the following FSMO roles that function at the forest
   level
 
-    - Schema Master
-    - Domain Naming Master
+  - Schema Master
+  - Domain Naming Master
 
 - Domain – Select this checkbox to include the following FSMO roles that function at the domain
   level
 
-    - PDC Emulator
-    - RID Master
-    - Infrastructure Master
+  - PDC Emulator
+  - RID Master
+  - Infrastructure Master
 
 See the Netwrix
 [Understanding the Five FSMO Roles and Their Impact on Active Directory](https://blog.netwrix.com/2021/11/30/what-are-fsmo-roles-active-directory/)

@@ -1,3 +1,9 @@
+---
+title: history Administration
+sidebar_label: history
+description: Administration guide for history including configuration, management, and best practices for Access Analyzer.
+---
+
 # History
 
 The History node is where the history retention of job data and job logs are configured. The setting

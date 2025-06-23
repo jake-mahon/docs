@@ -1,3 +1,9 @@
+---
+title: Host Details Page
+sidebar_label: Host Details Page
+description: The Host Details page displays the groups that a host is a member of. In an investigation report, host names appear as links under the Target column in the E...
+---
+
 # Host Details Page
 
 The Host Details page displays the groups that a host is a member of.

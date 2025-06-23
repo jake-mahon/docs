@@ -1,3 +1,9 @@
+---
+title: License Settings Management
+sidebar_label: License Settings
+description: Manage Password Secure licenses and view current license details through the dedicated license settings interface and management window.
+---
+
 # License settings
 
 ## What are license settings?

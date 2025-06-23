@@ -1,3 +1,9 @@
+---
+title: What's New in Threat Prevention
+sidebar_label: What's New
+description: Latest features and enhancements in Threat Prevention 7.4 including rebranding from StealthINTERCEPT and new security capabilities.
+---
+
 # What's New
 
 ## New Netwrix Community!
@@ -24,13 +30,13 @@ Netwrix StealthINTERCEPT is now Netwrix Threat Prevention. As part of rebranding
   Prevention\
 - The names of services remain the same, though their display names have changed.
 
-    | Service Name        | New Display Name                               |
-    | ------------------- | ---------------------------------------------- |
-    | SIWindowsAgent      | Netwrix Threat Prevention Windows Agent        |
-    | SIAgentUpdater      | Netwrix Threat Prevention AgentUpdater Service |
-    | SIGPOSvc            | Netwrix Threat Prevention Group Policy Service |
-    | SBTService          | Netwrix Windows File Monitoring Service        |
-    | SIEnterpriseManager | Netwrix Threat Prevention Enterprise Manager   |
+  | Service Name        | New Display Name                               |
+  | ------------------- | ---------------------------------------------- |
+  | SIWindowsAgent      | Netwrix Threat Prevention Windows Agent        |
+  | SIAgentUpdater      | Netwrix Threat Prevention AgentUpdater Service |
+  | SIGPOSvc            | Netwrix Threat Prevention Group Policy Service |
+  | SBTService          | Netwrix Windows File Monitoring Service        |
+  | SIEnterpriseManager | Netwrix Threat Prevention Enterprise Manager   |
 
 Remote Administration Console Instances
 
@@ -45,21 +51,21 @@ EPE (Enterprise Password Enforcer) Updates
   and consistent password rejection messages regardless of their location. This simplifies password
   compliance enforcement across your global organization. String tables are provided for:
 
-    - Chinese Simplified
-    - Chinese Traditional
-    - Czech
-    - Dutch
-    - English
-    - French
-    - German
-    - Hungarian
-    - Italian
-    - Japanese
-    - Korean
-    - Polish
-    - Portuguese
-    - Spanish
-    - Thai
+  - Chinese Simplified
+  - Chinese Traditional
+  - Czech
+  - Dutch
+  - English
+  - French
+  - German
+  - Hungarian
+  - Italian
+  - Japanese
+  - Korean
+  - Polish
+  - Portuguese
+  - Spanish
+  - Thai
 
 - Third-Party Integration with EPE REST Server – Third-party applications can now leverage the EPE
   REST server to verify passwords against your EPE rules, ensuring consistent password strength
@@ -124,7 +130,7 @@ Security infrastructure improvements are the primary focus of the 7.4 release.
 
 - The Enterprise Manager (server) is backwards compatible with the 7.3.9 Agent only.
 
-    **NOTE:** Existing customers must upgrade to SI 7.3.9 first; else pre 7.3.9 Agents are orphaned
+  **NOTE:** Existing customers must upgrade to SI 7.3.9 first; else pre 7.3.9 Agents are orphaned
 
 - Replaced insecure BinaryFormatter with more secure ProtoBuf over encrypted gRPC connection. The
   Enterprise Manager in v7.4 talks over the new interface in 7.3.9 Agents.
@@ -137,10 +143,10 @@ Security infrastructure improvements are the primary focus of the 7.4 release.
 - The Administration Console no longer connects to SQL Server. All SQL access is performed by the
   Enterprise Manager as proxy for the console, reducing database exposure risks.
 
-    - Console users no longer require any SQL Server rights. For example, for database maintenance,
-      no SQL user rights are needed. Moreover, for Recent events, Investigate, and Alerts, the
-      console asks the Enterprise Manager instead of SQL Server for results. The Enterprise Manager
-      gets data from SQL Server and returns it to the console.
+  - Console users no longer require any SQL Server rights. For example, for database maintenance,
+    no SQL user rights are needed. Moreover, for Recent events, Investigate, and Alerts, the
+    console asks the Enterprise Manager instead of SQL Server for results. The Enterprise Manager
+    gets data from SQL Server and returns it to the console.
 
 - Enhanced security for secondary Enterprise Manager setup with Secure Secret Manager export/import
 

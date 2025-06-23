@@ -1,3 +1,9 @@
+---
+title: configure job
+sidebar_label: configure job
+description: Documentation for configure job functionality in Access Analyzer including configuration and usage information.
+---
+
 # SharePoint Custom Connection Profile & Host List
 
 The SPAA Data Collector requires a custom Connection Profile and a custom host list to be created

@@ -1,3 +1,9 @@
+---
+title: Scheduled Tasks Page
+sidebar_label: scheduled tasks
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Scheduled Tasks Page
 
 On the Scheduled Tasks page, view scheduled tasks run by the console.

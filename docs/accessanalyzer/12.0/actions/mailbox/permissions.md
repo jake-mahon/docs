@@ -1,3 +1,9 @@
+---
+title: permissions
+sidebar_label: permissions
+description: Documentation for permissions functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Permissions
 
 Use the Permissions page to determine which permissions to remove. It is a wizard page for the

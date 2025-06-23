@@ -1,3 +1,9 @@
+---
+title: file detection log
+sidebar_label: file detection log
+description: Documentation for file detection log functionality in Access Analyzer including configuration and usage information.
+---
+
 # SMARTLog: Target Log for File Detection Log Type
 
 The Target Log page is where logs are selected to be collected. This version is a wizard page for

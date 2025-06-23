@@ -1,3 +1,9 @@
+---
+title: ip network
+sidebar_label: ip network
+description: Documentation for ip network functionality in Access Analyzer including configuration and usage information.
+---
+
 # Scan IP Network
 
 Follow the steps to create a Host Discovery query using the Scan your IP network source option. This

@@ -1,3 +1,9 @@
+---
+title: Get User Status Cmdlet
+sidebar_label: Get-Status
+description: PowerShell cmdlet to retrieve user status based on profile validation criteria defined for the identity store.
+---
+
 # Get-Status
 
 Use the Get-Status command to know the status of a specified user as per the profile validation

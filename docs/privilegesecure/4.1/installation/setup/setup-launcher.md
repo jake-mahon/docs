@@ -1,3 +1,9 @@
+---
+title: Netwrix Setup Launcher
+sidebar_label: setup launcher
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Netwrix Setup Launcher
 
 **CAUTION:** The PostgreSQL database must be installed before installing the application. It can be

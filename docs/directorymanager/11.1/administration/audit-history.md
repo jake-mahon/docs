@@ -1,3 +1,9 @@
+---
+title: audit history
+sidebar_label: audit-history
+description: Directory Manager 11.1 documentation for audit history with configuration details, usage instructions, and implementation guidance.
+---
+
 # History in Directory Manager
 
 In Directory Manager, history is tracked for:

@@ -1,3 +1,9 @@
+---
+title: Entitlement Assignment Management
+sidebar_label: Role Assignment
+description: Manage role-based entitlement assignments including automatic and manual assignments, approval workflows, and assignment policies.
+---
+
 # Entitlement Assignment
 
 Assigning entitlements means giving users specific permissions, or access rights, etc.

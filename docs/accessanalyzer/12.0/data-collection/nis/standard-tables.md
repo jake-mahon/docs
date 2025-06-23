@@ -1,3 +1,9 @@
+---
+title: standard tables
+sidebar_label: standard tables
+description: Documentation for standard tables functionality in Access Analyzer including configuration and usage information.
+---
+
 # Standard Reference Tables & Views for the NIS Data Collector
 
 The NIS Data Collector gathers essential user and group inventory information into standard

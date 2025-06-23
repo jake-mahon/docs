@@ -1,3 +1,9 @@
+---
+title: Password Reset Email Configuration
+sidebar_label: Email Configuration
+description: Configure email settings for Password Reset including email delivery, notifications, and message customization for password reset operations.
+---
+
 # E-mail Tab
 
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit

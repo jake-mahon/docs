@@ -1,3 +1,9 @@
+---
+title: active directory domains overview
+sidebar_label: overview
+description: Solution guide for active directory domains overview including implementation steps, configuration, and best practices.
+---
+
 # 5.Domains Job Group
 
 The 5.Domains job group provides details on domains, sites, and trusts, and highlights domain level

@@ -1,3 +1,9 @@
+---
+title: Getting Started: databases
+sidebar_label: databases
+description: Getting started guide for databases in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Databases Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

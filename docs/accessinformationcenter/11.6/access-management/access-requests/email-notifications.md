@@ -1,3 +1,9 @@
+---
+title: Access Request Email Notifications
+sidebar_label: Email Notifications
+description: Email notifications for access requests including request alerts, approval confirmations, denial notices, and expiration warnings in Access Information Center.
+---
+
 # User Access Request Email
 
 When a domain user submits a request, you receive an email notification.

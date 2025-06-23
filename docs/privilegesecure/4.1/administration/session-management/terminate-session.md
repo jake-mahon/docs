@@ -1,3 +1,9 @@
+---
+title: Terminate Proxy Session Window
+sidebar_label: terminate session
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Terminate Proxy Session Window
 
 When viewing a session with the live session viewer, it is possible to disconnect the session in the

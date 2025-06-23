@@ -1,3 +1,9 @@
+---
+title: active directory computers overview
+sidebar_label: overview
+description: Solution guide for active directory computers overview including implementation steps, configuration, and best practices.
+---
+
 # 3.Computers Job Group
 
 The 3.Computers Job Group help to pinpoint potential areas of administrative concern related to

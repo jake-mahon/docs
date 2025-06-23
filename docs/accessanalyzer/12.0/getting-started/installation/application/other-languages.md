@@ -1,3 +1,9 @@
+---
+title: Getting Started: other languages
+sidebar_label: other languages
+description: Getting started guide for other languages in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Non-English Language Environments
 
 There are specific SQL Server requirements when installing Access Analyzer in a non-English Language

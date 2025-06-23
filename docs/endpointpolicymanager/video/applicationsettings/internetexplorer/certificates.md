@@ -1,3 +1,9 @@
+---
+title: Internet Explorer Certificate Management Tutorial
+sidebar_label: Certificates
+description: Learn to manage Internet Explorer certificates for secure authentication and encrypted connections using Endpoint Policy Manager certificate deployment.
+---
+
 # Manage IE Certificates
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Certificates

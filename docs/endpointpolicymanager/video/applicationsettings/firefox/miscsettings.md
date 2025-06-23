@@ -1,3 +1,9 @@
+---
+title: Firefox Miscellaneous Settings Management Tutorial
+sidebar_label: Misc Settings
+description: Learn to manage Firefox miscellaneous settings and buttons using Endpoint Policy Manager's Extras features for comprehensive browser control.
+---
+
 # Manage Firefox Misc Settings and Buttons Using Endpoint Policy Manager
 
 In this video, we show you Netwrix Endpoint Policy Manager (formerly PolicyPak)'s "Extras" that can

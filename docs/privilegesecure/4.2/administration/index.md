@@ -1,3 +1,9 @@
+---
+title: Privilege Secure 4.2 Administration Guide
+sidebar_label: Administration
+description: Comprehensive administration guide for Privilege Secure 4.2 covering activity-based PAM, zero-trust architecture, and delegated permissions management.
+---
+
 # Administration
 
 Netwrix Privilege Secure enables administrators and helpdesk professionals to perform their

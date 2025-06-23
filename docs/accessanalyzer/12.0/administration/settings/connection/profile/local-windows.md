@@ -1,3 +1,9 @@
+---
+title: local windows Administration
+sidebar_label: local windows
+description: Administration guide for local windows including configuration, management, and best practices for Access Analyzer.
+---
+
 # Local Windows Account for User Credentials
 
 The information in this topic applies to **Select Account Type** > **Local Windows Account** in the

@@ -1,3 +1,9 @@
+---
+title: share
+sidebar_label: share
+description: Documentation for share functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADActivity: Share
 
 The Share page provides options for configuring share settings. It is a wizard page for the category

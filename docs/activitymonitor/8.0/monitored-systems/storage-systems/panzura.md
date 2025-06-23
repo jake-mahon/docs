@@ -1,3 +1,9 @@
+---
+title: Panzura Storage System Monitoring
+sidebar_label: Panzura
+description: Configure Panzura CloudFS storage system monitoring settings including device configuration and cloud storage activity tracking.
+---
+
 # Panzura Tab
 
 The Panzura Tab provides features to configure settings for monitoring Panzura devices.

@@ -1,3 +1,9 @@
+---
+title: creating reviews
+sidebar_label: creating-reviews
+description: Auditor 10.7 documentation for creating reviews with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create Review Wizard
 
 The Create Review wizard is opened with the **Create** button on the Entitlement Reviews interface.

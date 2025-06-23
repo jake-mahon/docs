@@ -1,3 +1,9 @@
+---
+title: Auditor System Requirements Overview
+sidebar_label: Requirements
+description: Hardware and software requirements for Netwrix Auditor installation including server specifications, network requirements, and deployment considerations.
+---
+
 # Hardware Requirements
 
 This topic covers hardware requirements for Netwrix Auditor installation and provides estimations of

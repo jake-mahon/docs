@@ -1,3 +1,9 @@
+---
+title: View Password Window
+sidebar_label: view password
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # View Password Window
 
 The View Password window shows the current passwords for the selected managed account. This window

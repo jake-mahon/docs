@@ -1,10 +1,16 @@
+---
+title: windows privilegedaccounts localadministrators sg_microsoftlaps
+sidebar_label: sg_microsoftlaps
+description: Solution guide for windows privilegedaccounts localadministrators sg_microsoftlaps including implementation steps, configuration, and best practices.
+---
+
 # SG_MicrosoftLAPS Job
 
 The SG_MicrosoftLAPS job assesses the Local Administrator Password Solution (LAPS) local policies on
 all targeted hosts. This offers insight into LAPS enablement and configuration across an
 environment. LAPS allows for centralized local administrator password management within Active
 Directory. See the Microsoft
-[Local Administrator Password Solution](https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10))
+[Local Administrator Password Solution](<https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10)>)
 article for additional information.
 
 ## Queries for the SG_MicrosoftLAPS Job

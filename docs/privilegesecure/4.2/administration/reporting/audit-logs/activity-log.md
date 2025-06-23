@@ -1,3 +1,9 @@
+---
+title: Activity Log Page
+sidebar_label: activity log
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Activity Log Page
 
 The Activity Log page shows the activity logs for users and resources. From here, search and

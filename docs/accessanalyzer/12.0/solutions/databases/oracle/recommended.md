@@ -1,3 +1,9 @@
+---
+title: databases oracle recommended
+sidebar_label: recommended
+description: Solution guide for databases oracle recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configuration
 
 The Oracle Solution has been configured to inherit down from the Oracle > Settings node. However, it

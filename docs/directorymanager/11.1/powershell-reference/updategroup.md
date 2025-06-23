@@ -1,3 +1,9 @@
+---
+title: updategroup Cmdlet
+sidebar_label: updategroup
+description: PowerShell cmdlet reference for updategroup with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Update-Group
 
 The Update-Group commandlet modifies the membership of a Smart Group or Dynasty according to the

@@ -1,3 +1,9 @@
+---
+title: cloud platforms box analysis
+sidebar_label: box analysis
+description: Solution guide for cloud platforms box analysis including implementation steps, configuration, and best practices.
+---
+
 # Box_Deletions Job
 
 The Box_Deletions Job is comprised of analysis and reports, which use the data collected by the

@@ -1,3 +1,9 @@
+---
+title: Risk Level Estimation Methods
+sidebar_label: Risk Levels
+description: Understanding how risk levels are calculated and estimated in Netwrix Auditor for accurate security vulnerability assessment.
+---
+
 # How Risk Levels Are Estimated
 
 As mentioned, dashboard and built-in reports give you a bird's eye view of the following high-risk

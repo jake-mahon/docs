@@ -1,3 +1,9 @@
+---
+title: Email Notification Configuration Setup
+sidebar_label: Email Configuration
+description: Configure email notifications for Threat Manager including mail server settings, TLS protocol, authentication, and notification preferences.
+---
+
 # Email Page
 
 The Email page within the Integrations interface allows users to configure the application to send

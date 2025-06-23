@@ -1,3 +1,9 @@
+---
+title: sql server
+sidebar_label: sql-server
+description: Auditor 10.7 documentation for sql server with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configuring Trace Logging
 
 If trace logging is disabled in SQL Server, then changes will be reported in Netwrix Auditor as made

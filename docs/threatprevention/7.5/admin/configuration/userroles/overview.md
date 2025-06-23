@@ -1,3 +1,9 @@
+---
+title: User Roles Configuration
+sidebar_label: User Roles
+description: User role management interface for configuring access permissions and administrative privileges in Threat Prevention.
+---
+
 # Users and Roles Window
 
 On the Users and Roles window, you can grant role based access to users on the Administration
@@ -54,13 +60,13 @@ NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 
 - Administrator Role
 
-    - Read/Write data
-    - If using [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) – SQL Admin (sa)
-      rights are required
+  - Read/Write data
+  - If using [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) – SQL Admin (sa)
+    rights are required
 
 - Console Operator Role
 
-    - Read/Write data
+  - Read/Write data
 
 ## Administrator Permissions
 

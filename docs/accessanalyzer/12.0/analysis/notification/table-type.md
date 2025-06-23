@@ -1,3 +1,9 @@
+---
+title: table type
+sidebar_label: table type
+description: Documentation for table type functionality in Access Analyzer including configuration and usage information.
+---
+
 # Notification: Table Type
 
 Use the Source Table Selection page to choose the type of table to use as the data source for

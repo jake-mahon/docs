@@ -1,3 +1,9 @@
+---
+title: Temporary Permission Configuration
+sidebar_label: Temporary Permissions
+description: Configure time-restricted permissions for temporary access control including advance permission grants with automatic expiration for enhanced security.
+---
+
 # Temporary permissions
 
 ## What are temporary permissions?

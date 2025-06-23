@@ -1,3 +1,9 @@
+---
+title: Netwrix File Activity Monitor App for QRadar
+sidebar_label: QRadar
+description: Integrate Activity Monitor with IBM QRadar using the File Activity Monitor App for comprehensive security information and event management.
+---
+
 # Netwrix File Activity Monitor App for QRadar
 
 Netwrix File Activity monitoring solutions enable organizations to successfully, efficiently, and

@@ -1,3 +1,9 @@
+---
+title: filesystem adhocaudits overview
+sidebar_label: overview
+description: Solution guide for filesystem adhocaudits overview including implementation steps, configuration, and best practices.
+---
+
 # Ad Hoc Audits Job Group
 
 The Ad Hoc Audits Job Group is designed to report on resources and trustees that have been provided

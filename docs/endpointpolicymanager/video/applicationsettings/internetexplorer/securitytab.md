@@ -1,3 +1,9 @@
+---
+title: Internet Explorer Security Tab Management
+sidebar_label: Security Tab
+description: Learn to manage Internet Explorer security tab settings using Endpoint Policy Manager for enhanced browser security and zone configuration.
+---
+
 # Manage Internet Explorer Security tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Security

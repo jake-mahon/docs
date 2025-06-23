@@ -1,3 +1,9 @@
+---
+title: integration
+sidebar_label: integration
+description: Directory Manager 11.1 documentation for integration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Integrate with Power Automate
 
 You can link an identity store in Directory Manager to Power Automate to achieve the following:

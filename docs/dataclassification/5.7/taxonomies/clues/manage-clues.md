@@ -1,3 +1,9 @@
+---
+title: Manage Clues
+sidebar_label: Manage Clues
+description: This section describes how you can edit, import, move and delete clues for the selected taxonomy term set. clue type and provide the appropriate settings. Se...
+---
+
 # Manage Clues
 
 This section describes how you can edit, import, move and delete clues for the selected taxonomy

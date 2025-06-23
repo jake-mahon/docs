@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Requirements
 
 This topic provides the requirements for the server where Netwrix Auditor will be installed. See the

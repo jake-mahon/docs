@@ -1,3 +1,9 @@
+---
+title: Ports Requirements
+sidebar_label: ports
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Ports Requirements
 
 Configure appropriate firewall rules to allow these connections to Privilege Secure.

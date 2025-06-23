@@ -1,3 +1,9 @@
+---
+title: password management
+sidebar_label: password-management
+description: Directory Manager 11.1 documentation for password management with configuration details, usage instructions, and implementation guidance.
+---
+
 # Reset Passwords
 
 The Directory Manager portal enables enrolled users in an identity store reset their account

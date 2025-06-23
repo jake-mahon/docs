@@ -1,3 +1,9 @@
+---
+title: How It Works
+sidebar_label: How It Works
+description: 1. The user enters data sources using the administrative web console. 2. The configured data sources are added in the NDC SQL database. 3. The NDC Collector...
+---
+
 # How It Works
 
 1. The user enters data sources using the administrative web console.

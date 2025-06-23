@@ -1,3 +1,9 @@
+---
+title: DiskInfo Results Configuration
+sidebar_label: Results
+description: Configuration page for selecting DiskInfo data collector results including disk properties, free space, fragmentation, and file system information.
+---
+
 # DiskInfo: Results
 
 The Results page provides a checklist of the data that is available for return by the query. Any

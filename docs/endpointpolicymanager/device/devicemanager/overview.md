@@ -1,3 +1,9 @@
+---
+title: Device Manager Configuration Guide
+sidebar_label: Overview
+description: Configure USB and removable media device controls. Manage CD-ROMs, DVD-ROMs, phones, and storage devices with comprehensive device management policies.
+---
+
 # Device Manager
 
 This manual is designed to be both an overview of what you can do with Endpoint Policy Manager

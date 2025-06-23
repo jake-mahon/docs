@@ -1,3 +1,9 @@
+---
+title: Saving Passwords via Browser Extension
+sidebar_label: Saving Passwords
+description: Learn how to automatically save new passwords and access data through Password Secure browser add-on in server mode with web application integration.
+---
+
 # How to save passwords
 
 This chapter describes how to store passwords via add-on.

@@ -1,3 +1,9 @@
+---
+title: Scheduled Dashboard
+sidebar_label: scheduled sessions
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Scheduled Dashboard
 
 The Scheduled sessions dashboard shows all scheduled sessions.

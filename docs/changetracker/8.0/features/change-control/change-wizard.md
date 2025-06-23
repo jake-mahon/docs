@@ -1,3 +1,9 @@
+---
+title: Planned Change Wizard
+sidebar_label: Wizard
+description: Guided wizard for setting up planned change schedules and rule sets in a single streamlined process with reusable configurations.
+---
+
 # Planned Change Wizard
 
 The **Planned Change** wizard helps guide the set-up of a new Planned Change Schedule and Rule Set

@@ -1,3 +1,9 @@
+---
+title: Installation Overview
+sidebar_label: Installation
+description: Complete installation guide for Threat Prevention 7.5 components including Enterprise Manager, Administration Console, agents, and reporting module setup.
+---
+
 # Installation
 
 Threat Prevention consists of a number of components that work together to monitor activity in
@@ -22,8 +28,8 @@ The following components are installed by the Threat Prevention installation pac
   find it already installed, it will install .NET Framework 4.7.2.
 - Enterprise Manager
 
-    - Creates the NVMonitorConfig and NVMonitorData databases on the designated SQL Server
-    - Installs the Threat Prevention Enterprise Manager service
+  - Creates the NVMonitorConfig and NVMonitorData databases on the designated SQL Server
+  - Installs the Threat Prevention Enterprise Manager service
 
 - Administration Console – Installs the user application for administering the Threat Prevention
   application

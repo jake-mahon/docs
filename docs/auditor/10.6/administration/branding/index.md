@@ -1,3 +1,9 @@
+---
+title: branding index
+sidebar_label: index
+description: Auditor 10.6 administration guide for branding index configuration and management.
+---
+
 # Customize Branding
 
 Netwrix Auditor allows customizing look and feel of your reports, search subscriptions and exported

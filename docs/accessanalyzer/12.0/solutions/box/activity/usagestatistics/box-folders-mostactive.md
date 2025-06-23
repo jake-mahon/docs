@@ -1,3 +1,9 @@
+---
+title: box activity usagestatistics box folders mostactive
+sidebar_label: box folders mostactive
+description: Solution guide for box activity usagestatistics box folders mostactive including implementation steps, configuration, and best practices.
+---
+
 # Box_Folders_MostActive Job
 
 The Box_Folders_MostActive Job identifies long-term trends of activity and usage statistics across

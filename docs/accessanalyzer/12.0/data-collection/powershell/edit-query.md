@@ -1,3 +1,9 @@
+---
+title: edit query
+sidebar_label: edit query
+description: Documentation for edit query functionality in Access Analyzer including configuration and usage information.
+---
+
 # PowerShell: Edit Query
 
 The Edit Query page provides a screen to edit the query to execute. Users can import PowerShell

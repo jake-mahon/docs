@@ -1,3 +1,9 @@
+---
+title: databases postgresql overview
+sidebar_label: overview
+description: Solution guide for databases postgresql overview including implementation steps, configuration, and best practices.
+---
+
 # PostgreSQL Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security

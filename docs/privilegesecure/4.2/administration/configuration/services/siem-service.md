@@ -1,3 +1,9 @@
+---
+title: SIEM Service
+sidebar_label: siem service
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # SIEM Service
 
 The SIEM Service shows the SIEM-specific details for the selected service.

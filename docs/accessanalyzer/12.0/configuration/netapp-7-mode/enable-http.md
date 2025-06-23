@@ -1,3 +1,9 @@
+---
+title: enable http
+sidebar_label: enable http
+description: Documentation for enable http functionality in Access Analyzer including configuration and usage information.
+---
+
 # Enable HTTP or HTTPS
 
 The Activity Monitor Activity Agent must be able to send ONTAPI calls to the vFiler’s data LIF over

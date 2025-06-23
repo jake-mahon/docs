@@ -1,3 +1,9 @@
+---
+title: sensitive data
+sidebar_label: sensitive data
+description: Documentation for sensitive data functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS: Sensitive Data Settings
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a

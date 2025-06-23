@@ -1,3 +1,9 @@
+---
+title: active directory computers ad computer delegation
+sidebar_label: ad computer delegation
+description: Solution guide for active directory computers ad computer delegation including implementation steps, configuration, and best practices.
+---
+
 # AD_ComputerDelegation Job
 
 The AD_ComputerDelegation Job provides details on computer accounts that have been enabled for

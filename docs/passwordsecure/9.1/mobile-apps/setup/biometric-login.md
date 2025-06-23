@@ -1,3 +1,9 @@
+---
+title: Biometric Login Setup
+sidebar_label: Biometric Login
+description: Configure fingerprint, facial recognition, Touch ID, or Face ID biometric authentication for Password Secure mobile app login on iOS and Android.
+---
+
 # Biometric login
 
 Depending on the operating system used (iOS or Android), logging in to the app can also be done

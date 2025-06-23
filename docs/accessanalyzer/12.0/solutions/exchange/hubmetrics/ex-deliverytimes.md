@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics ex deliverytimes
+sidebar_label: ex deliverytimes
+description: Solution guide for exchange hubmetrics ex deliverytimes including implementation steps, configuration, and best practices.
+---
+
 # EX_DeliveryTimes Job
 
 The EX_DeliveryTimes Job provides information around organizational and server-level delivery times.

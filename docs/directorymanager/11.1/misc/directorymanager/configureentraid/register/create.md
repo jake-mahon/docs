@@ -1,3 +1,9 @@
+---
+title: create
+sidebar_label: create
+description: Directory Manager 11.1 documentation for create with configuration details, usage instructions, and implementation guidance.
+---
+
 # Microsoft Entra ID User
 
 Once your application has been registered with Microsoft Entra ID, formerly Azure Active Directory,

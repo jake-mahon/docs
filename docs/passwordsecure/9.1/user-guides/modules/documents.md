@@ -1,3 +1,9 @@
+---
+title: Document Management Module
+sidebar_label: Documents
+description: Secure storage and sharing of sensitive documents and files with professional handling tools and permission-based access in Password Secure.
+---
+
 # Documents
 
 ## What are documents?

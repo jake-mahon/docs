@@ -1,3 +1,9 @@
+---
+title: options
+sidebar_label: options
+description: Documentation for options functionality in Access Analyzer including configuration and usage information.
+---
+
 # GroupPolicy: Options
 
 The Options page is used to configure how to return multi-valued properties and how policy results

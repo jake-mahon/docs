@@ -1,3 +1,9 @@
+---
+title: view status
+sidebar_label: view status
+description: Documentation for view status functionality in Access Analyzer including configuration and usage information.
+---
+
 # Viewing the Status of SendMail Actions
 
 Follow the steps to view the status of an executed SendMail action:

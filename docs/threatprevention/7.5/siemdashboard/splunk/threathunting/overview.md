@@ -1,3 +1,9 @@
+---
+title: Splunk Threat Hunting Integration
+sidebar_label: Threat Hunting
+description: Splunk threat hunting integration for advanced security analysis including perpetrator hunting and privilege escalation detection.
+---
+
 # Threat Hunting App for Splunk
 
 The Netwrix Threat Hunting solution enables organizations to target and hunt active cyber threats.
@@ -63,8 +69,8 @@ not blocked by the network.
 
 - Source Type – Enter one of the following options:
 
-    - For data coming from Threat Prevention – Threat Prevention
-    - For data coming from the Netwrix File Activity Monitor – **SFAM**
+  - For data coming from Threat Prevention – Threat Prevention
+  - For data coming from the Netwrix File Activity Monitor – **SFAM**
 
 - App context – Select Search and Reporting
 - Host – Select IP

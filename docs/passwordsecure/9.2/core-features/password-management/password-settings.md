@@ -1,3 +1,9 @@
+---
+title: Password Settings Configuration
+sidebar_label: Password Settings
+description: Configure diverse password options through ribbon interface Extras subsection for Password Secure password management customization.
+---
+
 # Password settings
 
 ## What are password settings?

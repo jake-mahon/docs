@@ -1,3 +1,9 @@
+---
+title: databases oracle activity overview
+sidebar_label: overview
+description: Solution guide for databases oracle activity overview including implementation steps, configuration, and best practices.
+---
+
 # 2.Activity Job Group
 
 The 2.Activity Job Group is designed to provide insight into user login activity, object permission

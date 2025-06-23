@@ -1,3 +1,9 @@
+---
+title: Process Scoping and Filter Rules
+sidebar_label: Overview
+description: Configure scope filters for precise rule targeting across explicit elevation rules and SecureRun policies for enhanced security control.
+---
+
 # Understanding Process Scoping & Filters
 
 The **Scope** filter section can be found in various rule types in Endpoint Policy Manager Least

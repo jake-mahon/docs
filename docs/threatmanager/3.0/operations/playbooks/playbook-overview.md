@@ -1,3 +1,9 @@
+---
+title: Threat Response Playbooks Overview
+sidebar_label: Playbook Overview
+description: Configure automated threat response playbooks with sequential steps and actions including manual testing and production environment deployment strategies.
+---
+
 # Playbooks
 
 The first step in designating steps to run in response to a threat is to add a playbook. A playbook

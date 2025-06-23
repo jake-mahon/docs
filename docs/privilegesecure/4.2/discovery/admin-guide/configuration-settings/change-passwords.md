@@ -1,3 +1,9 @@
+---
+title: Change Privilege Secure Passwords (SSH and UI)
+sidebar_label: change passwords
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Change Privilege Secure Passwords (SSH and UI)
 
 Change Privilege Secure Passwords (SSH and UI)

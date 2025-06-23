@@ -1,3 +1,9 @@
+---
+title: connections Administration
+sidebar_label: connections
+description: Administration guide for connections including configuration, management, and best practices for Access Analyzer.
+---
+
 # CyberArk Integration
 
 In order for Enterprise Auditor to be able to retrieve service account passwords from the CyberArk

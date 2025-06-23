@@ -1,3 +1,9 @@
+---
+title: Export Report
+sidebar_label: Export Report
+description: The Export option provides choices for how you can export the report results for an investigation. The report can be exported in a specified format and can b...
+---
+
 # Export Report
 
 The Export option provides choices for how you can export the report results for an investigation.
@@ -18,11 +24,11 @@ drop-down menu:
 - Export as JSON – Generates and downloads the report as a JSON file to your Downloads folder
 - Send as Email – Opens the Send as Email window to send the report to recipients
 
-    **NOTE:** This option requires an email server to be configured.
+  **NOTE:** This option requires an email server to be configured.
 
 - Schedule Export – Opens the Schedule export window to save a copy of the report to a shared folder
 
-    **NOTE:** This option requires a shared folder to be configured.
+  **NOTE:** This option requires a shared folder to be configured.
 
 Reports will be downloaded to the Downloads folder on your local machine, according to your browser
 settings. You can configure a folder on the application server to place copies of all exported

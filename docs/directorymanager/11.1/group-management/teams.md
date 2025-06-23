@@ -1,3 +1,9 @@
+---
+title: teams
+sidebar_label: teams
+description: Directory Manager 11.1 documentation for teams with configuration details, usage instructions, and implementation guidance.
+---
+
 # Teams
 
 This page lists all the Microsoft Teams groups.

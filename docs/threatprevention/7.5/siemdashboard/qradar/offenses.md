@@ -1,3 +1,9 @@
+---
+title: INTERCEPT Offenses in QRadar
+sidebar_label: INTERCEPT Offenses QRadar
+description: The Netwrix Active Directory App for QRadar feeds several QRadar Offenses. !INTERCEPT Offenses in QRadar
+---
+
 # INTERCEPT Offenses in QRadar
 
 The Netwrix Active Directory App for QRadar feeds several QRadar Offenses.

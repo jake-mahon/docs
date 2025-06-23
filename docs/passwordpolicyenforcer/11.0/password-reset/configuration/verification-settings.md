@@ -1,3 +1,9 @@
+---
+title: Password Reset Verification Settings
+sidebar_label: Verification Settings
+description: Configure verification settings for Password Reset including verification codes for resets and unlocks with mobile phone integration.
+---
+
 # Verification Tab
 
 Use the **Verification** tab to enable verification codes for resets and unlocks. Verification codes

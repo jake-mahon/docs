@@ -1,3 +1,9 @@
+---
+title: Stop Agent
+sidebar_label: Stop Agent
+description: You may want to stop the Agent on a server for any reason, such as troubleshooting. Follow the steps to stop the Agent on a server.
+---
+
 # Stop Agent
 
 You may want to stop the Agent on a server for any reason, such as troubleshooting.

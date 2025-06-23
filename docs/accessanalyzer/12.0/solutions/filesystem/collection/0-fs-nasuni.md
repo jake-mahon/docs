@@ -1,3 +1,9 @@
+---
+title: filesystem collection 0 fs nasuni
+sidebar_label: 0 fs nasuni
+description: Solution guide for filesystem collection 0 fs nasuni including implementation steps, configuration, and best practices.
+---
+
 # 0-FS_Nasuni Job
 
 The 0-FS_Nasuni job is required in order to target Nasuni Edge Appliances. The job can be added from

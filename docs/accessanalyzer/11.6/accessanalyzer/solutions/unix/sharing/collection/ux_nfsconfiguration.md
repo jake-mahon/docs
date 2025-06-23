@@ -1,3 +1,9 @@
+---
+title: unix sharing collection ux_nfsconfiguration
+sidebar_label: ux_nfsconfiguration
+description: Solution guide for unix sharing collection ux_nfsconfiguration including implementation steps, configuration, and best practices.
+---
+
 # UX_NFSConfiguration Job
 
 The **0.Collection** > **UX_NFSConfiguration** job collects NFS configuration information which will

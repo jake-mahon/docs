@@ -1,3 +1,9 @@
+---
+title: file systems activity monitoring
+sidebar_label: activity monitoring
+description: Solution guide for file systems activity monitoring including implementation steps, configuration, and best practices.
+---
+
 # FS_Deletions Job
 
 The FS_Deletions job is designed to report on deletion activity event information from targeted file

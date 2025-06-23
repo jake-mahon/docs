@@ -1,3 +1,9 @@
+---
+title: Upgrade ADMonitor
+sidebar_label: Upgrade ADMonitor
+description: You can update the instrumentation DLL, SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor DLL), in LSASS without having to upgrade the entire Agent....
+---
+
 # Upgrade ADMonitor
 
 You can update the instrumentation DLL, SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor

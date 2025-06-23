@@ -1,3 +1,9 @@
+---
+title: RADIUS
+sidebar_label: radius
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # RADIUS
 
 RADIUS

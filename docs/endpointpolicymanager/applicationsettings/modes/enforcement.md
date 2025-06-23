@@ -1,3 +1,9 @@
+---
+title: Application Settings Enforcement Modes
+sidebar_label: Enforcement
+description: Control how application settings are enforced including always reapply, apply once, and background refresh options for desktop application management.
+---
+
 # Enforcement Modes
 
 When actions are set for an element (using Endpoint Policy Manager DesignStudio), enforcement modes

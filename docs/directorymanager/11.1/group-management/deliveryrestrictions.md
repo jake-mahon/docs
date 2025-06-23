@@ -1,3 +1,9 @@
+---
+title: deliveryrestrictions
+sidebar_label: deliveryrestrictions
+description: Directory Manager 11.1 documentation for deliveryrestrictions with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group properties - Delivery Restrictions tab
 
 Use this tab to apply email restrictions to this group. You can manage the list of objects (users,

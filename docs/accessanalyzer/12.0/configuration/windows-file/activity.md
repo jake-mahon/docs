@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # Windows File Server Activity Auditing Configuration
 
 In order for the Netwrix Activity Monitor to monitor Windows file server activity, an Activity Agent

@@ -1,3 +1,9 @@
+---
+title: Delete User Roles
+sidebar_label: Delete
+description: User role deletion procedure for removing unused roles and managing administrative access permissions.
+---
+
 # Delete User
 
 The Administration Console prevents you from deleting the last user with Administrator rights. There

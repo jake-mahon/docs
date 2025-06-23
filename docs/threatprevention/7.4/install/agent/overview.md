@@ -1,3 +1,9 @@
+---
+title: Agent Information
+sidebar_label: Agent Information
+description: The Threat Prevention Agent performs real-time monitoring of the events occurring across supported systems and applications. The modules to be installed duri...
+---
+
 # Agent Information
 
 The Threat Prevention Agent performs real-time monitoring of the events occurring across supported
@@ -7,34 +13,34 @@ the Threat Prevention solutions:
 - Threat Prevention for Active Directory – Monitoring and blocking Active Directory and Group Policy
   Objects (GPO)
 
-    - Deploy Agents on all domain controllers with the Windows AD Events module
-    - For GPO monitoring and blocking, the Threat Prevention Agent on all domain controllers must
-      also have the Windows File System module
+  - Deploy Agents on all domain controllers with the Windows AD Events module
+  - For GPO monitoring and blocking, the Threat Prevention Agent on all domain controllers must
+    also have the Windows File System module
 
 - Threat Prevention for Enterprise Password Enforcer – Blocking creation of passwords that do not
   meet requirements
 
-    - Deploy Agents on all domain controllers with the Windows AD Events module
+  - Deploy Agents on all domain controllers with the Windows AD Events module
 
 - Threat Prevention for Exchange – Monitoring and blocking Exchange environments
 
-    - Deploy Agents on all HUB, CAS, and Mailbox Exchange Servers with the Exchange Server
-      Monitoring module
-    - Must also deploy Agents on one Active Directory domain controller with the Windows AD Events
-      module
+  - Deploy Agents on all HUB, CAS, and Mailbox Exchange Servers with the Exchange Server
+    Monitoring module
+  - Must also deploy Agents on one Active Directory domain controller with the Windows AD Events
+    module
 
 - Threat Prevention for File System – Monitoring Windows and NAS file systems, blocking Windows file
   systems
 
-    - For Windows file systems – Deploy Agents on Windows file servers with the Windows File System
-      module
-    - For NAS file systems – Deploy Agents on the Windows server acting as a proxy server for NAS
-      activity (where the Activity Monitor activity agent is deployed) with the Windows File System
-      module
+  - For Windows file systems – Deploy Agents on Windows file servers with the Windows File System
+    module
+  - For NAS file systems – Deploy Agents on the Windows server acting as a proxy server for NAS
+    activity (where the Activity Monitor activity agent is deployed) with the Windows File System
+    module
 
 - Threat Prevention for LDAP – Monitoring LDAP bind and LDAP queries, blocking LDAP queries
 
-    - Deploy Agents on all domain controllers with the Windows AD Events module
+  - Deploy Agents on all domain controllers with the Windows AD Events module
 
 WMI Requirement
 

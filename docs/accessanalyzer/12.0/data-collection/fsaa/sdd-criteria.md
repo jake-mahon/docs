@@ -1,3 +1,9 @@
+---
+title: sdd criteria
+sidebar_label: sdd criteria
+description: Documentation for sdd criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: SDD Criteria Settings
 
 The SDD Criteria Settings page is where criteria to be used for discovering sensitive data during a

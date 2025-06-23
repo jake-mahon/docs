@@ -1,3 +1,9 @@
+---
+title: Starting and Managing JITA Sessions for Another User
+sidebar_label: jita sessions
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Starting and Managing JITA Sessions for Another User
 
 Starting and Managing JITA Sessions for Another User

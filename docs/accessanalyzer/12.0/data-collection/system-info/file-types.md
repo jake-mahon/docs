@@ -1,3 +1,9 @@
+---
+title: file types
+sidebar_label: file types
+description: Documentation for file types functionality in Access Analyzer including configuration and usage information.
+---
+
 # SystemInfo: File Types
 
 The File Types page is where to enable count file types and specify filename masks if it is desired

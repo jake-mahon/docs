@@ -1,3 +1,9 @@
+---
+title: scope
+sidebar_label: scope
+description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangePublicFolder: Scope
 
 The Scope page is used to define which folders will be included will be searched by this query. It

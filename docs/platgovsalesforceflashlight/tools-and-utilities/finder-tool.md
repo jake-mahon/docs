@@ -1,3 +1,9 @@
+---
+title: Using the Finder Tool
+sidebar_label: Finder
+description: Search and find standard and customized Salesforce objects with powerful filtering options and Excel export capabilities for analysis and updates.
+---
+
 # Using the Finder
 
 Strongpoint's **Finder** searches and finds standard and customized objects created by the scanner.

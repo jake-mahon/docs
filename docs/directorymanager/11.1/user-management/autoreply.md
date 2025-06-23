@@ -1,3 +1,9 @@
+---
+title: autoreply
+sidebar_label: autoreply
+description: Directory Manager 11.1 documentation for autoreply with configuration details, usage instructions, and implementation guidance.
+---
+
 # Mailbox properties - Auto Reply tab
 
 Use this tab to configure automatic replies for the emails sent to a mailbox object. You can:

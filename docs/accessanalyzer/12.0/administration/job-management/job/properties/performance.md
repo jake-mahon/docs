@@ -1,3 +1,9 @@
+---
+title: performance Administration
+sidebar_label: performance
+description: Administration guide for performance including configuration, management, and best practices for Access Analyzer.
+---
+
 # Performance Tab
 
 The Performance tab provides options that can be used to improve job performance and runtime.

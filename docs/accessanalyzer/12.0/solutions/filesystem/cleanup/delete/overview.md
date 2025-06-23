@@ -1,3 +1,9 @@
+---
+title: filesystem cleanup delete overview
+sidebar_label: overview
+description: Solution guide for filesystem cleanup delete overview including implementation steps, configuration, and best practices.
+---
+
 # 4. Delete Job Group
 
 The 4. Delete job group is designed to report on and take action against resources from targeted

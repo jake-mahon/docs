@@ -1,3 +1,9 @@
+---
+title: Change and Approval Policies Configuration
+sidebar_label: Policies & Approval
+description: Define change management requirements and approval workflows with configurable policies based on IT risk and process requirements for compliance.
+---
+
 # Change and Approval Policy
 
 The Advanced Change Management system uses a set of policy records called Change and Approval

@@ -1,3 +1,9 @@
+---
+title: Password Policy Priority Management
+sidebar_label: Policy Priorities
+description: Configure policy priorities in Password Policy Enforcer to resolve assignment conflicts and manage multiple password policies effectively.
+---
+
 # Policy Priorities
 
 Policy priorities help Password Policy Enforcer to resolve policy assignment conflicts. If more than

@@ -1,3 +1,9 @@
+---
+title: sharepoint activity monitoring
+sidebar_label: activity monitoring
+description: Solution guide for sharepoint activity monitoring including implementation steps, configuration, and best practices.
+---
+
 # Forensics Job Group
 
 This group will highlight deletions, group membership changes, permission changes, and activity

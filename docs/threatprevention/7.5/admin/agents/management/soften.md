@@ -1,3 +1,9 @@
+---
+title: Soften Agent
+sidebar_label: Soften Agent
+description: You can soften a previously hardened Agent. Softening unlocks the Agent so it can be controlled from within the local Service Control Manager.
+---
+
 # Soften Agent
 
 You can soften a previously hardened Agent. Softening unlocks the Agent so it can be controlled from

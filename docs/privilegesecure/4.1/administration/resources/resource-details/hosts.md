@@ -1,3 +1,9 @@
+---
+title: Host Details Page
+sidebar_label: hosts
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Host Details Page
 
 The Host Details page shows additional information for the selected host resource. This page is

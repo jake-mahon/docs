@@ -1,3 +1,9 @@
+---
+title: Taskbar Manager XML Data Files
+sidebar_label: Taskbar
+description: Export Endpoint Policy Manager Taskbar Manager settings as XML files for MDM deployment. Learn to export single policies, collections, or entire nodes.
+---
+
 # XML Data Files from Endpoint Policy Taskbar Manager
 
 Endpoint Policy Manager Taskbar Manager settings can be exported as an XML file. You can export a

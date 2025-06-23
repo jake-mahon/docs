@@ -1,3 +1,9 @@
+---
+title: View Content Source Processing Results
+sidebar_label: View Results
+description: View data processing statistics, content crawling results, and classification outcomes for content sources in Netwrix Data Classification.
+---
+
 # View Results
 
 ## Data Processing Statistics

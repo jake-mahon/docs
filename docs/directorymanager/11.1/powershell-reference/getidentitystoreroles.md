@@ -1,3 +1,9 @@
+---
+title: Get identitystoreroles Cmdlet
+sidebar_label: getidentitystoreroles
+description: PowerShell cmdlet reference for getidentitystoreroles with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-IdentityStoreRoles
 
 The commandlet Get-IdentityStoreRoles retrieves information about the security roles associated with

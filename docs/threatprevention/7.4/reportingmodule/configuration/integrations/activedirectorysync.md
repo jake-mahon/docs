@@ -1,3 +1,9 @@
+---
+title: Active Directory Sync Page
+sidebar_label: Active Directory Sync Page
+description: The Active Directory Sync page within the Integrations interface lists the domains that are synced to theNetwrix Threat Manager Reporting Module database. Th...
+---
+
 # Active Directory Sync Page
 
 The Active Directory Sync page within the Integrations interface lists the domains that are synced
@@ -19,8 +25,8 @@ table provides the following information:
 - Name – Name of the domain. This may be either the domain DNS name or domain controller hostname.
 - Enabled – The icon indicates the enabled state:
 
-    - Checkmark icon – Enabled
-    - X icon – Disabled
+  - Checkmark icon – Enabled
+  - X icon – Disabled
 
 - Profile – Name of the Credential Profile assigned to the policy. As mentioned earlier, each added
   domain represents a sync policy.
@@ -103,8 +109,8 @@ The following information is displayed for a sync policy:
 
 - Name – The box at the top displays the name of the domain
 
-    - Delete – The delete button in the upper right corner of the box opens the Delete Domain window
-      to confirm the action
+  - Delete – The delete button in the upper right corner of the box opens the Delete Domain window
+    to confirm the action
 
 - Domain Configuration – Displays the sync policy settings entered for the selected domain. These
   settings can be modified on this tab. See the

@@ -1,3 +1,9 @@
+---
+title: filter s3 objects
+sidebar_label: filter s3 objects
+description: Documentation for filter s3 objects functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS: Filter S3 Objects
 
 The Filter S3 Objects page provides the options to filter which objects stored in S3 should be

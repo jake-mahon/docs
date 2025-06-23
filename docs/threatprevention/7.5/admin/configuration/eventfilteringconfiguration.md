@@ -1,3 +1,9 @@
+---
+title: Event Filtering Configuration Window
+sidebar_label: Event Filtering
+description: Configure event filtering to exclude specific Active Directory and authentication events from monitoring, set latency thresholds, and manage noise reduction.
+---
+
 # Event Filtering Configuration Window
 
 The Event Filtering Configuration window enables you to exclude specific Active Directory and
@@ -38,26 +44,26 @@ option can be scoped to include any combination of the following ‘noise’ eve
 
 - Successful AD User Logins – Excludes events with the following attributes where ‘objectClass’ does
   not equal computer:
-    - logonCount
-    - lastLogon
-    - badPwdCount
-    - lastLogonTimestamp
+  - logonCount
+  - lastLogon
+  - badPwdCount
+  - lastLogonTimestamp
 - AD User Logins with Bad Password – Excludes events with the following set of attributes where
   ‘objectClass’ does not equal computer:
-    - badPwdCount
-    - badPasswordTime
+  - badPwdCount
+  - badPasswordTime
 - AD Computer Logins – Excludes events with the following set of attributes where ‘objectClass’
   equals computer:
-    - logonCount
-    - lastLogon
-    - badPwdCount
-    - lastLogonTimestamp
-    - badPasswordTime
-    - badPwdCount
+  - logonCount
+  - lastLogon
+  - badPwdCount
+  - lastLogonTimestamp
+  - badPasswordTime
+  - badPwdCount
 - Low Level Attributes – Excludes the following attributes from event:
-    - ImPwdHistory
-    - dBCSPwd
-    - ntPwdHistory
+  - ImPwdHistory
+  - dBCSPwd
+  - ntPwdHistory
 
 ## Exclude AD DNS Events Option
 

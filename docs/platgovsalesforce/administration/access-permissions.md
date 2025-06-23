@@ -1,3 +1,9 @@
+---
+title: Set Access and Permissions
+sidebar_label: Access Permissions
+description: Configure user access to Platform Governance by assigning permission sets and extending access beyond system administrators to other users.
+---
+
 # Set Access and Permissions
 
 Platform Governance for Salesforce access is only granted to system administrations. To extend

@@ -1,3 +1,9 @@
+---
+title: active directory
+sidebar_label: active-directory
+description: Directory Manager 11.0 documentation for active directory with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure an Identity Store
 
 Various configurations can be defined for an identity store.

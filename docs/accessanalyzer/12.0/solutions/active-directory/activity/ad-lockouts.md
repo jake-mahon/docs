@@ -1,3 +1,9 @@
+---
+title: active directory activity ad lockouts
+sidebar_label: ad lockouts
+description: Solution guide for active directory activity ad lockouts including implementation steps, configuration, and best practices.
+---
+
 # Lockouts > AD_Lockouts Job
 
 The **Lockouts** > **AD_Lockouts** Job provides a listing of all account lockouts. For any lockout

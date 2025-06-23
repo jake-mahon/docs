@@ -1,3 +1,9 @@
+---
+title: entraid users aad directmembership
+sidebar_label: aad directmembership
+description: Solution guide for entraid users aad directmembership including implementation steps, configuration, and best practices.
+---
+
 # AAD_DirectMembership Job
 
 The AAD_DirectMembership Job identifies Microsoft Entra ID users who do not have any group

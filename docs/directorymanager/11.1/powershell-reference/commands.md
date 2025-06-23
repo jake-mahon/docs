@@ -1,3 +1,9 @@
+---
+title: commands Cmdlet
+sidebar_label: commands
+description: PowerShell cmdlet reference for commands with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # All Commands
 
 You can get a list of all Directory Manager Management Shell cmdlets using the _Get-ImanamiCommand_

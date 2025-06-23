@@ -1,3 +1,9 @@
+---
+title: Integration Connectors Page
+sidebar_label: Overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Integration Connectors Page
 
 The Integration Connectors page is accessible from the Navigation pane under Configuration. It shows

@@ -1,3 +1,9 @@
+---
+title: Privilege Secure Administration Guide
+sidebar_label: Administration
+description: Complete administrative guide covering activity-based PAM, policy interface, session management, and zero-trust security architecture configuration.
+---
+
 # Administration
 
 Netwrix Privilege Secure enables administrators and helpdesk professionals to perform their

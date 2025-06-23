@@ -1,3 +1,9 @@
+---
+title: Agent Active Directory Settings
+sidebar_label: AD Settings
+description: Configure Active Directory monitoring settings for Activity Monitor agents including domain controller properties and AD agent configurations.
+---
+
 # Active Directory Tab
 
 The Active Directory tab provides options to configure the agent settings for monitoring an Active

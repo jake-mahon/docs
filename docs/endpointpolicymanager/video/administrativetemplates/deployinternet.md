@@ -1,3 +1,9 @@
+---
+title: Deploy Admin Templates Over Internet
+sidebar_label: Deploy Internet
+description: Learn to deploy Group Policy admin template settings over the internet using Endpoint Policy Manager Cloud for domain-joined and non-domain-joined machines.
+---
+
 # Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mXvgyaRcaY4" title="Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

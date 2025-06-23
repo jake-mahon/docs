@@ -1,3 +1,9 @@
+---
+title: job scope
+sidebar_label: job scope
+description: Documentation for job scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # SystemInfo: Job Scope
 
 The Job Scope page is where to select whether or not scoping should be used during execution. It is

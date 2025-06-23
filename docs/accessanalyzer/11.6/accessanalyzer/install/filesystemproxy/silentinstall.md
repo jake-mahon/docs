@@ -1,3 +1,9 @@
+---
+title: File System Proxy Silent Installation
+sidebar_label: Silent Install
+description: Silent installation guide for File System Proxy component including automated deployment and configuration options.
+---
+
 # Silent Installer Option for Proxy
 
 It is possible to use one of the following methods to complete a silent installation of the File
@@ -34,14 +40,14 @@ msiexec /i FileSystemProxy.msi /qb /l*v install.log SVC_ACCOUNT_TYPE=SYSTEM
 
 - To add a non-default install directory, append `PRODUCTDIR="[path]"` to the command.
 
-    - `path` – The path to the desired installation directory and must include
-      `...\STEALTHbits\StealthAUDIT\FSAA\...`
+  - `path` – The path to the desired installation directory and must include
+    `...\STEALTHbits\StealthAUDIT\FSAA\...`
 
-    For example:
+  For example:
 
-    ```
-    msiexec /i FileSystemProxy.msi /qb /l*v install.log SVC_ACCOUNT_TYPE=SYSTEM PRODUCTDIR="E:\STEALTHbits\StealthAUDIT\FSAA"
-    ```
+  ```
+  msiexec /i FileSystemProxy.msi /qb /l*v install.log SVC_ACCOUNT_TYPE=SYSTEM PRODUCTDIR="E:\STEALTHbits\StealthAUDIT\FSAA"
+  ```
 
 The SPN value is automatically added to the computer object in Active Directory with this option.
 
@@ -66,11 +72,11 @@ msiexec /i FileSystemProxy.msi /qb /l*v install.log SVC_ACCOUNT_TYPE=DOMAIN SVC_
 
 - To add a non-default install directory, append `PRODUCTDIR="[path]"` to the command.
 
-    - `path` – The path to the desired installation directory and must include
-      `...\STEALTHbits\StealthAUDIT\FSAA\...`
+  - `path` – The path to the desired installation directory and must include
+    `...\STEALTHbits\StealthAUDIT\FSAA\...`
 
-    For example:
+  For example:
 
-    ```
-    msiexec /i FileSystemProxy.msi/qb /l*v install.log SVC_ACCOUNT_TYPE=DOMAIN SVC_USERNAME=DOMAIN\USERNAME SVC_PASSWORD="secret" PRODUCTDIR="E:\STEALTHbits\StealthAUDIT\FSAA"
-    ```
+  ```
+  msiexec /i FileSystemProxy.msi/qb /l*v install.log SVC_ACCOUNT_TYPE=DOMAIN SVC_USERNAME=DOMAIN\USERNAME SVC_PASSWORD="secret" PRODUCTDIR="E:\STEALTHbits\StealthAUDIT\FSAA"
+  ```

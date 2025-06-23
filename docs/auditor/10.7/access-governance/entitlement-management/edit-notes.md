@@ -1,3 +1,9 @@
+---
+title: edit notes
+sidebar_label: edit-notes
+description: Auditor 10.7 documentation for edit notes with configuration details, usage instructions, and implementation guidance.
+---
+
 # Edit Notes Window
 
 The Edit Note window can be opened from a variety of interfaces. Follow the steps to add or edit a

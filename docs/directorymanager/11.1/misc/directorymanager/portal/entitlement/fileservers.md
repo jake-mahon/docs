@@ -1,3 +1,9 @@
+---
+title: Portal entitlement fileservers
+sidebar_label: fileservers
+description: Directory Manager portal documentation for entitlement functionality including user interface, navigation, and operational procedures.
+---
+
 # File Servers
 
 The [ Entitlement](/docs/directorymanager/11.1/index.md) page lists the servers specified for permission analysis in the

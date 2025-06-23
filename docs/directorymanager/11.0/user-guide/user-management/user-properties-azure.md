@@ -1,3 +1,9 @@
+---
+title: user properties azure
+sidebar_label: user-properties-azure
+description: Directory Manager 11.0 documentation for user properties azure with configuration details, usage instructions, and implementation guidance.
+---
+
 # User properties - Contact Info tab
 
 Use this tab to view or update the contact information of the user/mailbox.

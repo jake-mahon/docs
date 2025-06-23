@@ -1,3 +1,9 @@
+---
+title: SharePoint
+sidebar_label: Sharepoint
+description: This section contains information on how to configure tagging of your SharePoint content, exclude a site from being processed, define custom configuration to...
+---
+
 # SharePoint
 
 This section contains information on how to configure tagging of your SharePoint content, exclude a

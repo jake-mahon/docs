@@ -1,3 +1,9 @@
+---
+title: export Administration
+sidebar_label: export
+description: Administration guide for export including configuration, management, and best practices for Access Analyzer.
+---
+
 # Exporting False Positive Exclusion Filters
 
 Follow the steps to export selected False Positive Exclusion Filters into a TXT file.

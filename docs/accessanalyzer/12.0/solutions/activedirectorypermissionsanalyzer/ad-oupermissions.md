@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer ad oupermissions
+sidebar_label: ad oupermissions
+description: Solution guide for activedirectorypermissionsanalyzer ad oupermissions including implementation steps, configuration, and best practices.
+---
+
 # 3.OUs > AD_OUPermissions Job
 
 The AD_OUPermissions job reports on all Active Directory permissions and ownership applied to

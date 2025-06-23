@@ -1,3 +1,9 @@
+---
+title: Browser Extension Installation Guide
+sidebar_label: Browser Extensions
+description: Install Password Secure browser extensions for Chrome, Edge, Firefox, and Safari with comprehensive installation guides for each platform.
+---
+
 # Installation Browser Extension
 
 Following browser extensions can be installed: 

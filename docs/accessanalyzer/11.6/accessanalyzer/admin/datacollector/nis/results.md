@@ -1,3 +1,9 @@
+---
+title: NIS Results Configuration
+sidebar_label: Results
+description: Configuration page for selecting NIS data collector results including maps, users, groups, and network service information.
+---
+
 # NIS: Results
 
 The Results page is where properties from Unix to be gathered are selected. It is a wizard page for

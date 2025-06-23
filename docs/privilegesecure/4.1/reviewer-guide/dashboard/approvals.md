@@ -1,3 +1,9 @@
+---
+title: Approvals Dashboard
+sidebar_label: approvals
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Approvals Dashboard
 
 The Approvals Dashboard displays requested sessions that require approval. Users and group members

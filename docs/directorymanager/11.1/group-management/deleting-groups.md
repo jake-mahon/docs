@@ -1,3 +1,9 @@
+---
+title: deleting groups
+sidebar_label: deleting-groups
+description: Directory Manager 11.1 documentation for deleting groups with configuration details, usage instructions, and implementation guidance.
+---
+
 # My Deleted Groups
 
 To view a list of deleted groups, click **Groups** on the left navigation pane and select **My

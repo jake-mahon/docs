@@ -1,3 +1,9 @@
+---
+title: Access Certification Page
+sidebar_label: certification overview
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Access Certification Page
 
 On the Access Certification page, create or review access certification tasks to audit and remediate

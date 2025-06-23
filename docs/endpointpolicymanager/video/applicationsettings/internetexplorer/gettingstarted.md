@@ -1,3 +1,9 @@
+---
+title: Internet Explorer Management Getting Started
+sidebar_label: Getting Started
+description: Learn to get started managing Internet Explorer settings using Endpoint Policy Manager for comprehensive browser control and configuration management.
+---
+
 # Getting Started Managing Internet Explorer
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Getting Started Managing Internet Explorer

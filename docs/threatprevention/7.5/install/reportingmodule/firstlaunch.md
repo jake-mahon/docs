@@ -1,3 +1,9 @@
+---
+title: First Launch Configuration
+sidebar_label: First Launch
+description: Initial configuration steps after installation including user setup, database connectivity, and basic system settings.
+---
+
 # First Launch
 
 On installing the Netwrix Threat Manager Reporting Module, the following icon appears on the

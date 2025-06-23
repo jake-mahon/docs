@@ -1,3 +1,9 @@
+---
+title: Create Data Sources Configuration
+sidebar_label: Data Sources
+description: Configure data sources for synchronization jobs and directory object queries across different providers in Directory Manager.
+---
+
 # Create a Data Source
 
 You can create Synchronize jobs to synchronize data across different providers. As a prerequisite,

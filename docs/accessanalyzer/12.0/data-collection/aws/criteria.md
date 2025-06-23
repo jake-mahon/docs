@@ -1,3 +1,9 @@
+---
+title: criteria
+sidebar_label: criteria
+description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # AWS: Criteria
 
 The Criteria (Select DLP criteria for this scan) page is where criteria to be used for discovering

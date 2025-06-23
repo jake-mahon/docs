@@ -1,3 +1,9 @@
+---
+title: filesystem collection 3 fsaa exceptions
+sidebar_label: 3 fsaa exceptions
+description: Solution guide for filesystem collection 3 fsaa exceptions including implementation steps, configuration, and best practices.
+---
+
 # 3-FSAA Exceptions Job
 
 The 3-FSAA Exceptions job does not use the FSAA Data Collector. Instead it runs analysis on the data

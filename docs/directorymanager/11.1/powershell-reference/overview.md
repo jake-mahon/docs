@@ -1,3 +1,9 @@
+---
+title: Directory Manager PowerShell Reference Overview
+sidebar_label: Overview
+description: Complete PowerShell cmdlet reference for Directory Manager including contact, dynasty, general, identity store, and group management commands.
+---
+
 # Contact Commands
 
 Directory Manager provides the following cmdlets to perform contact-related tasks, such as:

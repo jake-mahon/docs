@@ -1,3 +1,9 @@
+---
+title: databases mongodb mongodb sensitivedata
+sidebar_label: mongodb sensitivedata
+description: Solution guide for databases mongodb mongodb sensitivedata including implementation steps, configuration, and best practices.
+---
+
 # Sensitive Data > MongoDB_SensitiveData Job
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who

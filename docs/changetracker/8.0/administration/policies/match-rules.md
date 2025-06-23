@@ -1,3 +1,7 @@
+title: Match Rules Overview
+sidebar_label: Match Rules
+description: Configure file, folder, and registry inclusion/exclusion match filters and rules for ChangeTracker policy templates with prebuilt options.
+
 # Match Rules Overview
 
 (missing or bad snippet)

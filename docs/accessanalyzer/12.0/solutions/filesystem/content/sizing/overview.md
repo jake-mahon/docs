@@ -1,3 +1,9 @@
+---
+title: filesystem content sizing overview
+sidebar_label: overview
+description: Solution guide for filesystem content sizing overview including implementation steps, configuration, and best practices.
+---
+
 # Sizing Job Group
 
 The Sizing job group is designed to report on file sizing information from targeted file servers.

@@ -1,3 +1,9 @@
+---
+title: What's New in 5.6.2
+sidebar_label: Whats New
+description: All Netwrix product announcements have moved to the new Netwrix Community. See announcements for Netwrix Data Classification in the Data Classification area ...
+---
+
 # What's New in 5.6.2
 
 ## New Netwrix Community!

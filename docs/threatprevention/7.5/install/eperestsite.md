@@ -1,3 +1,9 @@
+---
+title: EPE REST Site Installation
+sidebar_label: EPE REST Site
+description: Enterprise Password Enforcer REST Site installation for web service integration and third-party password validation capabilities.
+---
+
 # EPE Rest Site Install
 
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat
@@ -85,26 +91,26 @@ the installer will create a database for the EPE Rest Site.
 - Select the **Windows authentication** or **SQL Server Credentials** option button (for SQL Server
   authentication) and enter the credentials:
 
-    - Windows authentication uses the credentials provided on the Logon page, which is displayed if
-      this option is selected.
-    - For SQL Server authentication, provide SQL credentials in the **Login ID** and **Password**
-      boxes.
+  - Windows authentication uses the credentials provided on the Logon page, which is displayed if
+    this option is selected.
+  - For SQL Server authentication, provide SQL credentials in the **Login ID** and **Password**
+    boxes.
 
-    **NOTE:** The account used for authentication, either a Windows or SQL account, requires a
-    minimum of the following permissions on the SQL Server:
+  **NOTE:** The account used for authentication, either a Windows or SQL account, requires a
+  minimum of the following permissions on the SQL Server:
 
-    - Create schema
-    - Read
-    - Write
+  - Create schema
+  - Read
+  - Write
 
 - Click **Next**.
 
-    - If using Windows authentication, continue with the next step.
-    - If using SQL Server authentication, skip the next step.
+  - If using Windows authentication, continue with the next step.
+  - If using SQL Server authentication, skip the next step.
 
-        **NOTE:** In case of SQL Server authentication, the credentials are tested on clicking
-        **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
-        window displays failure details.
+    **NOTE:** In case of SQL Server authentication, the credentials are tested on clicking
+    **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
+    window displays failure details.
 
 ![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/img/product_docs/threatprevention/threatprevention/install/windowsauthentication.webp)
 
@@ -115,9 +121,9 @@ the installer will create a database for the EPE Rest Site.
   credentials must have elevated privileges with rights to create and modify the database.
 - Click **Next**.
 
-    **NOTE:** For Windows authentication,the credentials are tested on clicking **Next**. If the
-    credential authentication fails, the setup does not proceed and a pop-up window displays failure
-    details.
+  **NOTE:** For Windows authentication,the credentials are tested on clicking **Next**. If the
+  credential authentication fails, the setup does not proceed and a pop-up window displays failure
+  details.
 
 ![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
 

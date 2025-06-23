@@ -1,3 +1,9 @@
+---
+title: Portal synchronize job scheduleandnotification
+sidebar_label: scheduleandnotification
+description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
+---
+
 # Schedule Job and Notifications
 
 On **Schedule Job and Notifications**, you can set the schedule on the basis of which the job can

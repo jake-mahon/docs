@@ -1,3 +1,9 @@
+---
+title: Managing Adobe Acrobat Reader
+sidebar_label: Acrobat Reader
+description: Learn to manage Adobe Acrobat Reader's 800+ settings using Endpoint Policy Manager to control updates, security features, and JavaScript settings for better security.
+---
+
 # Endpoint Policy Manager for Adobe Acrobat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qNVCkgWfGDo" title="Endpoint Policy Manager: Manage Acrobat Reader using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

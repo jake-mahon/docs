@@ -1,3 +1,9 @@
+---
+title: Getting Started: system requirements
+sidebar_label: system requirements
+description: Getting started guide for system requirements in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the application

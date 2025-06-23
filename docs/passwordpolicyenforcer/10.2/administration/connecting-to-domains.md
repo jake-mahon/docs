@@ -1,3 +1,9 @@
+---
+title: Connect to Domain and Local Configurations
+sidebar_label: Connecting to Domains
+description: Guide to connecting Password Policy Enforcer to domain configurations stored in Active Directory or local configurations in the registry.
+---
+
 # Connect to a Configuration
 
 Password Policy Enforcer's configuration settings are stored in Active Directory or the registry. An

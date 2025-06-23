@@ -1,3 +1,9 @@
+---
+title: leavegroup
+sidebar_label: leavegroup
+description: Directory Manager 11.1 documentation for leavegroup with configuration details, usage instructions, and implementation guidance.
+---
+
 # Leave a Group
 
 Using this API, you can leave a group according to the parameters specified in the body, such as

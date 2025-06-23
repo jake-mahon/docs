@@ -1,3 +1,9 @@
+---
+title: Central Storage Extension DLL Management
+sidebar_label: Central Storage
+description: Store Endpoint Policy Manager extension DLLs in Active Directory SYSVOL for centralized management and automatic availability to administrators.
+---
+
 # Central Storage for Endpoint Policy Manager Extension DLLs
 
 As you've just learned in the previous section, there is no way to edit an existing GPO with

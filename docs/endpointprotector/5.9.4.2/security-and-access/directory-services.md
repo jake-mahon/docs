@@ -1,3 +1,9 @@
+---
+title: Directory Services Integration
+sidebar_label: Directory Services
+description: Import and synchronize entities including users, computers, and groups from external directory services for authentication management.
+---
+
 # Directory Services
 
 From this section, you can import and synchronize the entities (Users, Computers, and Groups) from

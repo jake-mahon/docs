@@ -1,3 +1,9 @@
+---
+title: profile type
+sidebar_label: profile type
+description: Documentation for profile type functionality in Access Analyzer including configuration and usage information.
+---
+
 # CLU: Profile Type
 
 The Profile Type page contains options to select a new or existing profile.

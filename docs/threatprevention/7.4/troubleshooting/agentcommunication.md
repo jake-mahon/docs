@@ -1,3 +1,9 @@
+---
+title: Agent Communication Troubleshooting
+sidebar_label: Agent Communication
+description: Troubleshooting guide for resolving agent communication issues with Enterprise Manager including network and certificate problems.
+---
+
 # Agent Not Communicating with the Enterprise Manager
 
 If the Agent is not communicating with the Enterprise Manager, the following questions should be
@@ -5,16 +11,16 @@ addressed:
 
 - Is there a firewall blocking communication?
 
-    - If yes, ensure the Windows Firewall has an ‘inbound’ rule to open port 3136 and an ‘outbound’
-      rule to open port 3136.
-    - Alternatively, have an ‘inbound’ rule to ‘allow connection’ (General tab) for the Agent,
-      (default path is `…\Netwrix\Threat Prevention\SIWindowsAgent\SIWindowsAgent.exe`) specified on
-      the **Program and Services** tab along with selecting the **This Program** radio button.
+  - If yes, ensure the Windows Firewall has an ‘inbound’ rule to open port 3136 and an ‘outbound’
+    rule to open port 3136.
+  - Alternatively, have an ‘inbound’ rule to ‘allow connection’ (General tab) for the Agent,
+    (default path is `…\Netwrix\Threat Prevention\SIWindowsAgent\SIWindowsAgent.exe`) specified on
+    the **Program and Services** tab along with selecting the **This Program** radio button.
 
 - Does the server where the Agent has been deployed have multiple network adapters (multi-homed)?
 
-    - If yes, then the Agent is likely trying to communicate with the Enterprise Manager through the
-      wrong network. See the [Bind To](#bind-to) topic to resolve this issue.
+  - If yes, then the Agent is likely trying to communicate with the Enterprise Manager through the
+    wrong network. See the [Bind To](#bind-to) topic to resolve this issue.
 
 Please contact [Netwrix Support](https://www.netwrix.com/support.html) if these recommendations do
 not resolve the issue.

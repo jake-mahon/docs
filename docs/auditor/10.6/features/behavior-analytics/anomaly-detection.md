@@ -1,3 +1,9 @@
+---
+title: Behavior Anomalies Dashboard Review
+sidebar_label: Anomaly Detection
+description: Monitor and investigate behavior anomalies dashboard in Netwrix Auditor to identify suspicious user activity and security incidents.
+---
+
 # Review Behavior Anomalies Dashboard
 
 To review the Behavior Anomalies dashboard, process and filter anomalies in user profiles, you must

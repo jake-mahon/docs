@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # ActiveDirectory: Category
 
 The ActiveDirectory Data Collector Category page contains the following query categories,

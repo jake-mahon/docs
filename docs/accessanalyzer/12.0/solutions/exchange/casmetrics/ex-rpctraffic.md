@@ -1,3 +1,9 @@
+---
+title: exchange casmetrics ex rpctraffic
+sidebar_label: ex rpctraffic
+description: Solution guide for exchange casmetrics ex rpctraffic including implementation steps, configuration, and best practices.
+---
+
 # Outlook Anywhere > EX_RPCTraffic Job
 
 The EX_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the

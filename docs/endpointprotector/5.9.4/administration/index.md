@@ -1,3 +1,9 @@
+---
+title: Administration and Management Guide
+sidebar_label: Administration
+description: Comprehensive system administration guide for managing Netwrix Endpoint Protector components, functionality, and best practices.
+---
+
 # Administration
 
 This document provides a comprehensive resource for system administrators tasked with managing

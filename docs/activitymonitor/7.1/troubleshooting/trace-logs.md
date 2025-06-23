@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Trace Logs
+sidebar_label: Trace Logs
+description: Configure and use trace logs for troubleshooting Activity Monitor issues with different log levels including trace, debug, info, warn, and error options.
+---
+
 # Trace Logs
 
 While activity agents store activity logs on the servers where they are deployed, the Activity

@@ -1,3 +1,9 @@
+---
+title: active directory computers ad stale computers
+sidebar_label: ad stale computers
+description: Solution guide for active directory computers ad stale computers including implementation steps, configuration, and best practices.
+---
+
 # AD_StaleComputers Job
 
 The AD_StaleComputers Job provides details on stale computers that may be candidates for cleanup.

@@ -1,3 +1,9 @@
+---
+title: Prevent Weak Passwords Use Case
+sidebar_label: Prevent Weak Passwords Use
+description: Any Threat Prevention license can use the Password Enforcement Event type to prevent the creation of weak passwords in your environment.
+---
+
 # Prevent Weak Passwords Use Case
 
 Any Threat Prevention license can use the Password Enforcement Event type to prevent the creation of
@@ -47,17 +53,17 @@ environment.
 
 - Password Rules tab:
 
-    - Mode – Set to Blocking
-    - Pwned DB – Check the Block if password hash is in Pwned DB box
-    - Character Substitution – Check the Block if exact match substituted password box
-    - Username in Password – Check all options in this category and modify values as desired
-    - Repeating Patterns – Check the Block if password contains repeating pattern box and set length
-      value as desired
-    - Sequential Characters – Check the Block if contains sequential characters box and set size
-      value as desired
-    - Keyboard Layout Sequence – Check the Block if contains characters in keyboard layout sequence
-      box and set size value as desired
-    - Configure additional settings as desired
+  - Mode – Set to Blocking
+  - Pwned DB – Check the Block if password hash is in Pwned DB box
+  - Character Substitution – Check the Block if exact match substituted password box
+  - Username in Password – Check all options in this category and modify values as desired
+  - Repeating Patterns – Check the Block if password contains repeating pattern box and set length
+    value as desired
+  - Sequential Characters – Check the Block if contains sequential characters box and set size
+    value as desired
+  - Keyboard Layout Sequence – Check the Block if contains characters in keyboard layout sequence
+    box and set size value as desired
+  - Configure additional settings as desired
 
 - Optionally scope the policy further by applying Domain/Servers, AD Account, AD Perpetrator, and/or
   Hosts (from) filters.

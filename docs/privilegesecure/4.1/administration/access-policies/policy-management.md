@@ -1,3 +1,9 @@
+---
+title: Add Access Policy
+sidebar_label: policy management
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Access Policy
 
 Follow the steps to add access policies to the console.

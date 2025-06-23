@@ -1,3 +1,9 @@
+---
+title: Chart Wizard Configure Settings
+sidebar_label: Configure
+description: Configuration settings for the chart wizard including chart type selection and parameter customization.
+---
+
 # Configure
 
 The Configure page of the Chart Configuration wizard allows you to configure the chart as required.

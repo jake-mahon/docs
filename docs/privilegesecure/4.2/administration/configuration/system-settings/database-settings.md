@@ -1,3 +1,9 @@
+---
+title: Database Page
+sidebar_label: database settings
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Database Page
 
 The Database page is accessible from the Navigation pane under Configuration > System Settings. It

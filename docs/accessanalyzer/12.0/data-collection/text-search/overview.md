@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # TextSearch Data Collector
 
 The TextSearch Data Collector enables searches through text based log files. The TextSearch Data

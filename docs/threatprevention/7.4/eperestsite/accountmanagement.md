@@ -1,3 +1,10 @@
+---
+title: Site Account Management APIs
+sidebar_label: Site Account Management APIs
+description: You can use APIs to perform the following functions for user accounts that can access the EPE Rest Service:
+
+---
+
 # Site Account Management APIs
 
 You can use APIs to perform the following functions for user accounts that can access the EPE Rest

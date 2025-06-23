@@ -1,3 +1,9 @@
+---
+title: configure fpolicy
+sidebar_label: configure fpolicy
+description: Documentation for configure fpolicy functionality in Access Analyzer including configuration and usage information.
+---
+
 # Configure FPolicy
 
 Activity Monitor relies on the NetApp FPolicy framework for monitoring of file access events on

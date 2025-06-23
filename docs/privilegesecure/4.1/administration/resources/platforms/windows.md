@@ -1,3 +1,9 @@
+---
+title: Windows Platform Policy Configuration
+sidebar_label: windows
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Windows Platform Policy Configuration
 
 The Windows menu displays the configuration options for Windows platforms.

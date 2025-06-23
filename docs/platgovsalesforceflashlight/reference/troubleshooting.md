@@ -1,3 +1,9 @@
+---
+title: Troubleshooting and Support
+sidebar_label: Troubleshooting
+description: Report bugs, validate data accuracy, and troubleshoot Flashlight issues using status reports, DRD tools, and direct support contact options.
+---
+
 # Report a Bug
 
 If you encounter any problems using Flashlight or you have suggested improvements, we would love to

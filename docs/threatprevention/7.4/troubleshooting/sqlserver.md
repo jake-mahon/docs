@@ -1,3 +1,9 @@
+---
+title: SQL Server Troubleshooting
+sidebar_label: SQL Server
+description: SQL Server troubleshooting guide for database connectivity, performance issues, and configuration problems.
+---
+
 # Restrict SQL Server Maximum Server Memory
 
 For SQL Server 2012+, it is necessary to restrict the maximum server memory value to 60-70% of the

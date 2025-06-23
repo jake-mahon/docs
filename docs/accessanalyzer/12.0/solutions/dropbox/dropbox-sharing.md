@@ -1,3 +1,9 @@
+---
+title: dropbox dropbox sharing
+sidebar_label: dropbox sharing
+description: Solution guide for dropbox dropbox sharing including implementation steps, configuration, and best practices.
+---
+
 # 2.Sharing > Dropbox_Sharing Job
 
 The Dropbox_Sharing job provides insight into the sharing of resources within the targeted Dropbox

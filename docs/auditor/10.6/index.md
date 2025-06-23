@@ -1,3 +1,9 @@
+---
+title: Netwrix Auditor 10.6 Documentation
+sidebar_label: Auditor 10.6
+description: Complete visibility into IT system changes and data access with comprehensive auditing platform for security teams and compliance reporting.
+---
+
 # Netwrix Auditor 10.6
 
 > **Complete visibility into IT system changes and data access**

@@ -1,3 +1,9 @@
+---
+title: filesystem collection 1 seek system scans
+sidebar_label: 1 seek system scans
+description: Solution guide for filesystem collection 1 seek system scans including implementation steps, configuration, and best practices.
+---
+
 # 1-SEEK System Scans Job
 
 The 1-SEEK System Scans job is designed to collect sensitive data from the targeted file servers.

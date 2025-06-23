@@ -1,3 +1,9 @@
+---
+title: MDM and UEM Tools Quick Start
+sidebar_label: Getting Started
+description: Quick start guide for using Endpoint Policy Manager with SCCM, Microsoft Intune, KACE, PDQ Deploy and other unified endpoint management tools.
+---
+
 # MDM and UEM Tools Quick Start
 
 You might want to use Endpoint Policy Manager along with the following UEM tools:

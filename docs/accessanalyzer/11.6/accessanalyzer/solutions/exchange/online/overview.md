@@ -1,3 +1,9 @@
+---
+title: Exchange Online Solutions Overview
+sidebar_label: Overview
+description: Overview of Exchange Online solutions including mailflow analysis and cloud-based Exchange monitoring capabilities.
+---
+
 # 8.Exchange Online Job Group
 
 The 8. Exchange Online job group collects message trace data from Office 365.

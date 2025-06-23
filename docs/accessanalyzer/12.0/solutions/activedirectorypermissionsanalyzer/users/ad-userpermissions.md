@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer users ad userpermissions
+sidebar_label: ad userpermissions
+description: Solution guide for activedirectorypermissionsanalyzer users ad userpermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_UserPermissions Job
 
 The AD_UserPermissions job is comprised of analysis tasks and reports which use the data collected

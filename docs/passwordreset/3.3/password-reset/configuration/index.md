@@ -1,6 +1,8 @@
-# Configuring Password Reset
-
-Configuring Password Reset
+---
+title: Password Reset Configuration Guide
+sidebar_label: Configuration
+description: Comprehensive configuration guide for Password Reset using the Configuration Console with tabs for general, enrollment, email, verification, and security settings.
+---
 
 # Configuring Password Reset
 

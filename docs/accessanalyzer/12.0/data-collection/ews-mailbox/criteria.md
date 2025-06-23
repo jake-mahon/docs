@@ -1,3 +1,9 @@
+---
+title: criteria
+sidebar_label: criteria
+description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
+---
+
 # EWSMailbox: Criteria
 
 The Select DLP criteria for this scan page is where to select the criteria to use for the sensitive

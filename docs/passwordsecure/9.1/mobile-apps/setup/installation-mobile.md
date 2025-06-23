@@ -1,3 +1,9 @@
+---
+title: Mobile App Installation Requirements
+sidebar_label: Mobile Installation
+description: Install Password Secure mobile app from Apple Store or Google Play Store with system requirements and platform-specific installation links.
+---
+
 # Installation of the App / Requirements
 
 The Netwrix Password Secure app is installed as usual via the Apple Store or Google Playstore. The

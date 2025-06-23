@@ -1,3 +1,7 @@
+title: Export Reports Options
+sidebar_label: Export Options
+description: Export filtered events and reports from ChangeTracker using the Report/Export button with various field settings and configuration options.
+
 # Export Reports
 
 In order to export filtered events, just use the **Report/Export** button and menu presented. Most

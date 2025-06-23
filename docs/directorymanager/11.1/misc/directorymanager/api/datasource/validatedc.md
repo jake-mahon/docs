@@ -1,3 +1,9 @@
+---
+title: datasource validatedc API
+sidebar_label: validatedc
+description: API reference for validatedc operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Validate Data Connectivity of a Data Source
 
 Use this API to validate connection of a data source with the provider or with a source file.

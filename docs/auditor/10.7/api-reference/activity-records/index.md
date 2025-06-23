@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Post Data
 
 While running requests to Netwrix Auditor Integration API endpoints, you will need to post data,

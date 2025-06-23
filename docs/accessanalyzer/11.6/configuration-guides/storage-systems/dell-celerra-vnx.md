@@ -1,3 +1,9 @@
+---
+title: dell celerra vnx
+sidebar_label: dell celerra vnx
+description: Documentation for dell celerra vnx functionality in Access Analyzer including configuration and usage information.
+---
+
 # Dell Celerra & Dell VNX Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for assigning group membership for Dell Celerra & Dell VNX devices.

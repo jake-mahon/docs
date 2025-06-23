@@ -1,3 +1,9 @@
+---
+title: DLL Storage Central and Local Options
+sidebar_label: DLL Storage
+description: Store Netwrix Endpoint Policy Manager DLL extensions in central location and locally. GPO editor lists both locations for administrator selection.
+---
+
 # Can I store the DLL extensions in a central location AND locally on the machine I create my Paks on and if so which one is utilized?
 
 Although storing the Netwrix Endpoint Policy Manager (formerly PolicyPak) DLL extensions in a

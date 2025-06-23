@@ -1,3 +1,9 @@
+---
+title: Custom Reports Creation
+sidebar_label: Custom Reports
+description: Create custom reports with defined filter sets for recurring investigations and automated security monitoring workflows.
+---
+
 # Custom Reports
 
 You can define a filter set and create a custom report based on the filter so that you will not have

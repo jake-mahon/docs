@@ -1,3 +1,9 @@
+---
+title: Computer Configuration Overview
+sidebar_label: Computers
+description: Configure backup files and directories policy for computer monitoring with Local Security Policy Snap-in and Group Policy.
+---
+
 # Configure the Back up Files and Directories Policy
 
 Configure this Back up Files and Directories policy via the **Local Security Policy Snap-in** or

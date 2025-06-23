@@ -1,3 +1,9 @@
+---
+title: filesystem collection 0 create schema
+sidebar_label: 0 create schema
+description: Solution guide for filesystem collection 0 create schema including implementation steps, configuration, and best practices.
+---
+
 # 0-Create Schema Job
 
 The 0-Create Schema job within the 0.Collection job group creates and updates the schema for the

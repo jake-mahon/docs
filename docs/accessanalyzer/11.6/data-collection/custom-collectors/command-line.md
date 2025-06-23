@@ -1,3 +1,9 @@
+---
+title: command line
+sidebar_label: command line
+description: Documentation for command line functionality in Access Analyzer including configuration and usage information.
+---
+
 # CLU: Define Fields
 
 The Define Fields page provides options to define and configure fields for the Command Line Utility

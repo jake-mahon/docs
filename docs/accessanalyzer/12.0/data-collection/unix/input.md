@@ -1,3 +1,9 @@
+---
+title: input
+sidebar_label: input
+description: Documentation for input functionality in Access Analyzer including configuration and usage information.
+---
+
 # Unix: Input
 
 The Input page configures the source for input data.

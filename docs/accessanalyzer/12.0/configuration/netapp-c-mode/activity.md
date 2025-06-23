@@ -1,3 +1,9 @@
+---
+title: activity
+sidebar_label: activity
+description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
+---
+
 # NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration
 
 The Activity Monitor agent employed to monitor NetApp leverages NetApp ONTAP API, and the NetApp

@@ -1,3 +1,9 @@
+---
+title: Installing Agents
+sidebar_label: Installing Agents
+description: Agent installation procedure with detailed steps for deploying Threat Prevention monitoring agents to domain controllers and servers.
+---
+
 # Installing Window
 
 The Deploy Agents wizard's Installing window is the last in a sequence of four windows to deploy the

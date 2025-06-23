@@ -1,3 +1,9 @@
+---
+title: Password Secure Update Procedures
+sidebar_label: Updates
+description: Regular update recommendations with development team improvements including problem fixes and new feature development for customer requirements.
+---
+
 # Update
 
 ## Reasons for regular updates

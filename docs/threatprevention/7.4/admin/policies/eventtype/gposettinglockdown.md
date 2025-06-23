@@ -1,3 +1,9 @@
+---
+title: GPO Setting Lockdown Event Type
+sidebar_label: GPO Setting Lockdown Event
+description: The GPO Setting Lockdown event type can prevent all changes against specified GPOs. Note that this is for the entire GPO (file) and not specific settings in ...
+---
+
 # GPO Setting Lockdown Event Type
 
 The GPO Setting Lockdown event type can prevent all changes against specified GPOs. Note that this
@@ -39,9 +45,9 @@ In the Group Policy Objects section, scope to specific GPOs:
 - Apply to All Group Policy Objects – Includes all GPOs
 - List – Scopes to the specified GPOs
 
-    - The **Add** (+) button opens the
-      [Select Active Directory Group Policy Objects Window](/docs/threatprevention/7.4/admin/policies/eventtype/window/selectactivedirectory/grouppolicyobjects.md).
-    - The Remove (x) button deletes the selected item(s) from that box.
+  - The **Add** (+) button opens the
+    [Select Active Directory Group Policy Objects Window](/docs/threatprevention/7.4/admin/policies/eventtype/window/selectactivedirectory/grouppolicyobjects.md).
+  - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Domains/Servers Filter
 

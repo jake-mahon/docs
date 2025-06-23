@@ -1,3 +1,9 @@
+---
+title: Preferences Manager Setup Guide
+sidebar_label: Setup
+description: Set up Preferences Manager for Group Policy Preferences deployment. Prepare client systems, management stations, and Endpoint Policy Manager components.
+---
+
 # Getting Set Up
 
 In the next section, you'll learn more about Netwrix Endpoint Policy Manager (formerly PolicyPak)

@@ -1,3 +1,9 @@
+---
+title: databases postgresql collection pgsql sensitivedatascan
+sidebar_label: pgsql sensitivedatascan
+description: Solution guide for databases postgresql collection pgsql sensitivedatascan including implementation steps, configuration, and best practices.
+---
+
 # PgSQL_SensitiveDataScan Job
 
 The PgSQL_SensitiveDataScan Job is designed to discover sensitive data in PostgreSQL databases based

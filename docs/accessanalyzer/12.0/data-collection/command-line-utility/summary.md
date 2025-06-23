@@ -1,3 +1,9 @@
+---
+title: summary
+sidebar_label: summary
+description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
+---
+
 # CLU: Summary
 
 The Summary page provides a summary of the query that has been created or edited. It is a wizard

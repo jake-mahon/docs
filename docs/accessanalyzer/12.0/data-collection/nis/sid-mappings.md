@@ -1,3 +1,9 @@
+---
+title: sid mappings
+sidebar_label: sid mappings
+description: Documentation for sid mappings functionality in Access Analyzer including configuration and usage information.
+---
+
 # NIS: SID Mappings
 
 The SID Mappings page is where the Windows-style SID mappings for the Unix User ID and Group ID are

@@ -1,3 +1,9 @@
+---
+title: Configuring subsite and list processing
+sidebar_label: Subsite And List
+description: The Entity Configuration tab displays configuration for the site collection. You can navigate to the subsites/lists to configure their settings.... Learn mor...
+---
+
 # Configuring subsite and list processing
 
 The **Entity Configuration** tab displays configuration for the site collection. You can navigate to

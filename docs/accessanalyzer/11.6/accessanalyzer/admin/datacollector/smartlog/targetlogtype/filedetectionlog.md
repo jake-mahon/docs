@@ -1,3 +1,9 @@
+---
+title: SmartLog File Detection Log Configuration
+sidebar_label: File Detection Log
+description: File detection log configuration for SmartLog data collector with specific settings for file-based log detection.
+---
+
 # SMARTLog: Target Log for File Detection Log Type
 
 The Target Log page is where logs are selected to be collected. This version is a wizard page for

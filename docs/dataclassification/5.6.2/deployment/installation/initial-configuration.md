@@ -1,3 +1,9 @@
+---
+title: Configure Health Alerting
+sidebar_label: Initial Configuration
+description: On this step, you will be prompted to email settings for health reporting and select immediate health alerts. !initial_config_health Complete the following...
+---
+
 # Configure Health Alerting
 
 On this step, you will be prompted to email settings for health reporting and select immediate

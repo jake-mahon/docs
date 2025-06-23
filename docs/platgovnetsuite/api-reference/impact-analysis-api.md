@@ -1,3 +1,9 @@
+---
+title: Impact Analysis API
+sidebar_label: Impact Analysis
+description: API to retrieve impact analysis data for change request customizations categorized as safe to modify, not safe to modify, or inactive.
+---
+
 # Get Impact Analysis
 
 Returns the impact analysis data of the customizations attached to a Change Request. Customization

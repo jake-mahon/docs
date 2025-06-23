@@ -1,3 +1,9 @@
+---
+title: web services Administration
+sidebar_label: web services
+description: Administration guide for web services including configuration, management, and best practices for Access Analyzer.
+---
+
 # Web Services (JWT) for User Credentials
 
 The information in this section applies to Select Account Type > Web Services (JWT) in the User

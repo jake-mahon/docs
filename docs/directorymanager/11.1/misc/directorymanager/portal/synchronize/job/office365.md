@@ -1,3 +1,9 @@
+---
+title: Portal synchronize job office365
+sidebar_label: office365
+description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
+---
+
 # Office 365 Subscription
 
 While creating or editing mail enabled objects through a Synchronize job, Directory Manager provides

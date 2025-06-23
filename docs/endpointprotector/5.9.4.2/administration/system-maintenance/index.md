@@ -1,3 +1,9 @@
+---
+title: System Maintenance Overview
+sidebar_label: Maintenance
+description: System maintenance guidelines for optimal performance and reliability of your Endpoint Protector server including backup and updates.
+---
+
 # System Maintenance
 
 System Maintenance is crucial for ensuring the optimal performance and reliability of your server.

@@ -1,3 +1,9 @@
+---
+title: Add a Certificate Authority to the Ubuntu Trusted Authorities Repository
+sidebar_label: certificate authority
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Add a Certificate Authority to the Ubuntu Trusted Authorities Repository
 
 Add a Certificate Authority to the Ubuntu Trusted Authorities Repository

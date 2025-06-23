@@ -1,3 +1,9 @@
+---
+title: Change Management Overview
+sidebar_label: Overview
+description: Comprehensive change management system for Salesforce with closed-loop compliance, change policies, approval workflows, and deployment tracking.
+---
+
 # Change Management Overview
 
 Platform Governance for Salesforce Closed Loop Change Management and Compliance is an enhanced

@@ -1,3 +1,9 @@
+---
+title: Action Service Install
+sidebar_label: action service
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Action Service Install
 
 The NPS Action Service is installed on the application server as part of Privilege Secure install.

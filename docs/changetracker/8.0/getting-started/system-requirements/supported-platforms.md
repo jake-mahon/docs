@@ -1,3 +1,7 @@
+title: OS Support Matrix
+sidebar_label: Supported Platforms
+description: Verified operating system platforms and use cases for ChangeTracker including Express Agent compatibility and supported configurations.
+
 # OS Support Matrix
 
 This page lists the platforms and use cases that Netwrix has verified. However, the Express Agent

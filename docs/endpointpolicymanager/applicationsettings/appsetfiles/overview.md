@@ -1,3 +1,9 @@
+---
+title: AppSet Files Management Overview
+sidebar_label: AppSet Files
+description: Manage AppSet XML source files and extension DLL files for creating, editing, and sharing application configurations in Group Policy.
+---
+
 # AppSet Files
 
 When you use AppSets (your own or our pre-created ones) you need two files.

@@ -1,3 +1,9 @@
+---
+title: Assigning Policies to Users and Groups
+sidebar_label: Users and Groups
+description: Guide to assigning Password Policy Enforcer policies to users, groups, and organizational units with conflict resolution strategies.
+---
+
 # Assign Policies to Users & Groups
 
 Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user.

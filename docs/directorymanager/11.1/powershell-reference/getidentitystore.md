@@ -1,3 +1,9 @@
+---
+title: Get identitystore Cmdlet
+sidebar_label: getidentitystore
+description: PowerShell cmdlet reference for getidentitystore with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-IdentityStore
 
 The commandlet Get-IdentityStore retrieves information about the specified identity store or

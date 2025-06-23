@@ -1,3 +1,9 @@
+---
+title: Jobs Instantiate Configuration
+sidebar_label: Instantiate
+description: Job instantiation configuration for creating and managing Enterprise Auditor jobs and schedules.
+---
+
 # Instantiating Jobs into the Jobs Tree
 
 Enterprise Auditor jobs and solutions are comprised of files contained within the file system of the
@@ -43,8 +49,8 @@ colleague, or other entity, it is most likely in one of two formats:
 
 - If in archive format, extract the desired content to the Jobs directory
 
-    - Use the default path or specify a specific path using the browse button (…)
-    - Select whether to **Show extracted files when complete**. This option is selected by default.
+  - Use the default path or specify a specific path using the browse button (…)
+  - Select whether to **Show extracted files when complete**. This option is selected by default.
 
 - If in a folder format, copy and paste the job or job group folder into the Jobs directory
 

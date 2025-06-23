@@ -1,3 +1,9 @@
+---
+title: parameters
+sidebar_label: parameters
+description: Documentation for parameters functionality in Access Analyzer including configuration and usage information.
+---
+
 # File System Action: Parameters
 
 The Parameters page is available for some of the selections on the Operation page. The list of

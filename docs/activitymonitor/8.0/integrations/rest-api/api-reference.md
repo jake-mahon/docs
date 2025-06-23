@@ -1,3 +1,9 @@
+---
+title: Activity Monitor REST API Reference
+sidebar_label: API Reference
+description: Complete REST API reference for Activity Monitor including overview, schema information, and comprehensive API functionality documentation.
+---
+
 # REST API
 
 ## Overview

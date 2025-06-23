@@ -1,3 +1,9 @@
+---
+title: Modify MIP Label
+sidebar_label: Modify MIP Labels
+description: This action applies or removes a Microsoft Information Protection label for the classified file. You can use this approach to automatically apply protection...
+---
+
 # Modify MIP Label
 
 This action applies or removes a Microsoft Information Protection label for the classified file. You

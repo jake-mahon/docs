@@ -1,3 +1,9 @@
+---
+title: EPE Settings Configuration
+sidebar_label: EPE Settings Config
+description: Enterprise Password Enforcer settings configuration for password policy enforcement and validation rules.
+---
+
 # EPE Settings Window
 
 Threat Prevention can be configured with Enterprise Password Enforcer (EPE) to use the Have I Been
@@ -44,15 +50,15 @@ If the HIBP database is kept only on the Enterprise Manager:
 - The database takes up space only on the Enterprise Manager machine, not on the Agent machine
 - Requires a working network connection from the Agent to the Enterprise Manager to check:
 
-    - The pending password candidate from the Agent
-    - For and obtain updates to the HIBP database
+  - The pending password candidate from the Agent
+  - For and obtain updates to the HIBP database
 
 - The Agent sends the candidate hash value to the Enterprise Manager to compare against the
   Enterprise Manager’s copy of the HIBP database
 
-    - The advantage of this approach is that the HIBP database space is not required on the domain
-      controllers. The disadvantage is that at the time of a password change, if the Enterprise
-      Manager is not available, the Agent must assume the hash is okay.
+  - The advantage of this approach is that the HIBP database space is not required on the domain
+    controllers. The disadvantage is that at the time of a password change, if the Enterprise
+    Manager is not available, the Agent must assume the hash is okay.
 
 ## Configuration Settings
 
@@ -94,7 +100,7 @@ Configure the following options:
   HIBP database. If only this option is selected, then an alert is generated in the Administration
   Console when a new version is detected.
 
-    **NOTE:** This checkbox does not automatically download the new HIBP database version.
+  **NOTE:** This checkbox does not automatically download the new HIBP database version.
 
 - Update pwned DB on new version – Checks the Netwrix website for HIBP updates and then updates the
   Enterprise Manager server if a new version is detected
@@ -118,40 +124,40 @@ size of the hash file, this download takes up a significant amount of CPU and do
 - Passwords Hash Database Folder (path on Threat Prevention Server) – Central location of the Pwned
   database on the application server. The default path is:
 
-    …\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore
+  …\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore
 
 - Update Type:
 
-    - Full Download – Download all data from the HIBP database hosted on the Netwrix website
-    - Incremental Update – Download updates from the HIBP database hosted on the Netwrix website
-      instead of downloading the full HIBP database. This option is enabled after a full download of
-      the HIBP database has completed.
+  - Full Download – Download all data from the HIBP database hosted on the Netwrix website
+  - Incremental Update – Download updates from the HIBP database hosted on the Netwrix website
+    instead of downloading the full HIBP database. This option is enabled after a full download of
+    the HIBP database has completed.
 
-        **NOTE:** Only the full HIBP database file obtained from the Netwrix website has version
-        information. That full HIBP database file can be obtained using the Website option.
-        Alternately, the HIBP database can be obtained outside of the application by downloading it
-        directly from the Netwrix website using an FTP connection:
+    **NOTE:** Only the full HIBP database file obtained from the Netwrix website has version
+    information. That full HIBP database file can be obtained using the Website option.
+    Alternately, the HIBP database can be obtained outside of the application by downloading it
+    directly from the Netwrix website using an FTP connection:
 
-        - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip)
-        - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt)
+    - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip)
+    - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt)
 
-        Then, the File option can be used and incremental updates will be enabled.
+    Then, the File option can be used and incremental updates will be enabled.
 
 - Location:
 
-    - File – If the application server does not have internet access, you can manually download the
-      HIBP database and select the **File** radio button to browse to your local copy of the
-      database
-    - Website – This option points to the Netwrix website that hosts a copy of the latest HIBP
-      database. This is the default option and the preferred method if the application server has
-      internet access.
+  - File – If the application server does not have internet access, you can manually download the
+    HIBP database and select the **File** radio button to browse to your local copy of the
+    database
+  - Website – This option points to the Netwrix website that hosts a copy of the latest HIBP
+    database. This is the default option and the preferred method if the application server has
+    internet access.
 
 - Apply:
 
-    - If Website is selected, then clicking **Apply** downloads the HIBP database from the Netwrix
-      website and then processes the database for use by the application
-    - If File is selected, then clicking **Apply** will process the local copy of the (manually
-      obtained) database for use by the application
+  - If Website is selected, then clicking **Apply** downloads the HIBP database from the Netwrix
+    website and then processes the database for use by the application
+  - If File is selected, then clicking **Apply** will process the local copy of the (manually
+    obtained) database for use by the application
 
 ### User Feedback Module
 
@@ -300,7 +306,7 @@ The Substitutions Editor has the following options:
   installation. Any modifications are discarded.
 - Insert – Displays a custom row for the user to enter Sequence and Replacement values
 
-    **NOTE:** The new row is inserted underneath the current highlighted row.
+  **NOTE:** The new row is inserted underneath the current highlighted row.
 
 - Delete – Removes a single row from the Substitutions Editor list. Only one row can be deleted at a
   time.

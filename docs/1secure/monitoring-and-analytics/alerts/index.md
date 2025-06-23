@@ -1,3 +1,9 @@
+---
+title: Alerts Configuration and Management
+sidebar_label: Alerts
+description: Configure and manage alert profiles with preconfigured alerts for proactive security monitoring and threat detection.
+---
+
 # Alerts
 
 When you create an alert profile, several alerts are preconfigured for it. You can, however, choose

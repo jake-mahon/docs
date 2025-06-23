@@ -1,3 +1,9 @@
+---
+title: databases mongodb mongodb databasesizing
+sidebar_label: mongodb databasesizing
+description: Solution guide for databases mongodb mongodb databasesizing including implementation steps, configuration, and best practices.
+---
+
 ### Analysis Tasks for the MongoDB_Database_Sizing Job
 
 Navigate to the **Jobs > Databases > MongoDB > Configuration > MongoDB_DatabaseSizing > Configure**

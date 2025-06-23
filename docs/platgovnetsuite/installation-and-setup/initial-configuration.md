@@ -1,3 +1,9 @@
+---
+title: Installation Settings and Configuration
+sidebar_label: Initial Configuration
+description: View and configure Platform Governance installation settings report including configuration stats and optimization recommendations.
+---
+
 # Installation Settings Report
 
 Your **Installation Settings** report provides a comprehensive and live view of the Platform

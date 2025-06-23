@@ -1,3 +1,7 @@
+title: Target Domain Requirements
+sidebar_label: Target Domains
+description: Requirements and service account permissions for Active Directory target domains that can be backed up and recovered by Recovery for AD.
+
 # Target Domains
 
 Target domains include the Active Directory domains that can be added through the

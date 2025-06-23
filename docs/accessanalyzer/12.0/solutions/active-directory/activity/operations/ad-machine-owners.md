@@ -1,3 +1,9 @@
+---
+title: active directory activity operations ad machine owners
+sidebar_label: ad machine owners
+description: Solution guide for active directory activity operations ad machine owners including implementation steps, configuration, and best practices.
+---
+
 # AD_MachineOwners Job
 
 The AD_MachineOwners Job helps to identify the owner of a particular host.

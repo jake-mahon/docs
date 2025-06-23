@@ -1,3 +1,9 @@
+---
+title: activity reports
+sidebar_label: activity-reports
+description: Auditor 10.7 documentation for activity reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Change and Activity Reports
 
 Change and activity reports provide information on changes to different aspects of the audited

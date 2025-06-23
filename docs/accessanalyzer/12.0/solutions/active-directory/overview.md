@@ -1,3 +1,9 @@
+---
+title: active directory overview
+sidebar_label: overview
+description: Solution guide for active directory overview including implementation steps, configuration, and best practices.
+---
+
 # Active Directory Solution
 
 The Active Directory solution is a comprehensive set of audit jobs and reports that provide the

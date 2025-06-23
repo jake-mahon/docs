@@ -1,3 +1,9 @@
+---
+title: Windows Applications Job Configuration
+sidebar_label: Applications
+description: Recommended configurations for the Windows Applications job group including dependencies, scheduling, and workflow steps for application inventory analysis.
+---
+
 # Recommended Configurations for the Applications Job Group
 
 Dependencies

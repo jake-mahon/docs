@@ -1,3 +1,9 @@
+---
+title: What's New in Latest Version
+sidebar_label: What's New
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # What's New
 
 What's New

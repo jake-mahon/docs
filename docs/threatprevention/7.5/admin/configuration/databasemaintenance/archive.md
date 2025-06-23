@@ -1,3 +1,9 @@
+---
+title: Database Archive Configuration
+sidebar_label: Archive
+description: Database archiving configuration for moving older event data to archive storage while maintaining query capabilities.
+---
+
 # Archive Data
 
 To use the Move operation on the [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md), you must specify a

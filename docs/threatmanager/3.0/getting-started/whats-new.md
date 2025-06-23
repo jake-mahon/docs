@@ -1,3 +1,9 @@
+---
+title: Threat Manager What's New Features
+sidebar_label: What's New
+description: Latest features in Threat Manager 3.0 including Microsoft Entra ID threat detection, automated response actions, and enhanced RBAC capabilities.
+---
+
 # What's New
 
 ## New Netwrix Community!

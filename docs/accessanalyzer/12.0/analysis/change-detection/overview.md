@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Change Detection Analysis Module
 
 Use the Change Detection analysis module to track changes within a specific Access Analyzer view or

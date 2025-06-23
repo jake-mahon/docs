@@ -1,3 +1,9 @@
+---
+title: queries
+sidebar_label: queries
+description: Documentation for queries functionality in Access Analyzer including configuration and usage information.
+---
+
 # Host Discovery Queries
 
 The Host Discovery Queries Pane contains a list of previously-configured queries.

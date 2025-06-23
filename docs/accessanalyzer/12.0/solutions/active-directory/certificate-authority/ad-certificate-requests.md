@@ -1,3 +1,9 @@
+---
+title: active directory certificate authority ad certificate requests
+sidebar_label: ad certificate requests
+description: Solution guide for active directory certificate authority ad certificate requests including implementation steps, configuration, and best practices.
+---
+
 # AD_CertificateRequests Job
 
 The AD_CertificateRequests job provides details about certificate requests, and highlights any that

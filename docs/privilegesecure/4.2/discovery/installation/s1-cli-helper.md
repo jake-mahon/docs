@@ -1,3 +1,9 @@
+---
+title: Install the S1 CLI Helper Utility
+sidebar_label: s1 cli helper
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Install the S1 CLI Helper Utility
 
 Install the S1 CLI Helper Utility

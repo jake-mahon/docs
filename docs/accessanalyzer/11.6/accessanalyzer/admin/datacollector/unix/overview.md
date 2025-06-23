@@ -1,3 +1,9 @@
+---
+title: unix Data Collector overview
+sidebar_label: overview
+description: Data collector documentation for unix overview including configuration options and collection settings.
+---
+
 # Unix Data Collector
 
 The Unix Data collector provides host inventory, software inventory, and logical volume inventory on

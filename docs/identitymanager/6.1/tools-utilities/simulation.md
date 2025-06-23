@@ -1,3 +1,9 @@
+---
+title: Identity Manager Simulation
+sidebar_label: Simulation
+description: Assess impact of role model modifications including role and rule changes before implementation using Identity Manager simulation tools.
+---
+
 # Simulation
 
 Simulations aim to assess the impact of a modification in the role model, i.e. any modification of a

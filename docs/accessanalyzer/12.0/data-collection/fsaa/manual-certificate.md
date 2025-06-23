@@ -1,3 +1,9 @@
+---
+title: manual certificate
+sidebar_label: manual certificate
+description: Documentation for manual certificate functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA Manual Certificate Configuration
 
 To create and store the certificates needed to set up FSAA scans using manual certificate exchange,

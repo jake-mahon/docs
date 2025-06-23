@@ -1,3 +1,9 @@
+---
+title: databases db2 permissions overview
+sidebar_label: overview
+description: Solution guide for databases db2 permissions overview including implementation steps, configuration, and best practices.
+---
+
 # Permissions Job Group
 
 This job group provides insight into all types of permissions at the database and object level

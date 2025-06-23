@@ -1,3 +1,9 @@
+---
+title: Add Service Account
+sidebar_label: service accounts
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Add Service Account
 
 Follow the steps to add a service account to the console.

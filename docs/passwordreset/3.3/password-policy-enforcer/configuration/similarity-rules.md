@@ -1,6 +1,8 @@
-# Similarity Rule
-
-Similarity Rule
+---
+title: Similarity Rule Configuration
+sidebar_label: Similarity Rules
+description: Configuration guide for Similarity rules to prevent password serialization by rejecting passwords similar to current passwords or user information.
+---
 
 # Similarity Rule
 

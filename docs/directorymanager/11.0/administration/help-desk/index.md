@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Directory Manager 11.0 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # History in Helpdesk
 
 GroupID tracks the following actions performed by end-users and helpdesk users in an identity store

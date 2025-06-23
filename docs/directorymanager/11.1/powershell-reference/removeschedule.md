@@ -1,3 +1,9 @@
+---
+title: Remove schedule Cmdlet
+sidebar_label: removeschedule
+description: PowerShell cmdlet reference for removeschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Remove-Schedule
 
 The commandlet Remove-Schedule removes a schedule (by its name or ID) from the identity store

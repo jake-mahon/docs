@@ -1,3 +1,10 @@
+---
+title: Dynamic Collections
+sidebar_label: Dynamic Collections
+description: Certain options in the upper-left corner of the Add New Collection Window are only enabled for the following collection categories:
+
+---
+
 # Dynamic Collections
 
 Certain options in the upper-left corner of the

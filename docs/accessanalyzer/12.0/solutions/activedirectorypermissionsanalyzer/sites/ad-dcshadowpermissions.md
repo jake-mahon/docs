@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer sites ad dcshadowpermissions
+sidebar_label: ad dcshadowpermissions
+description: Solution guide for activedirectorypermissionsanalyzer sites ad dcshadowpermissions including implementation steps, configuration, and best practices.
+---
+
 # AD_DCShadowPermissions Job
 
 The AD_DCShadowPermissions Job highlights all Active Directory users that are capable of potentially

@@ -1,3 +1,9 @@
+---
+title: update passwords Administration
+sidebar_label: update passwords
+description: Administration guide for update passwords including configuration, management, and best practices for Access Analyzer.
+---
+
 # Updating Passwords
 
 Credential passwords in Enterprise Auditor occasionally need to be updated due to reasons such as

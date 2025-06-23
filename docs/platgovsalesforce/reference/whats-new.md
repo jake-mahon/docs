@@ -1,3 +1,9 @@
+---
+title: What's New and Product Updates
+sidebar_label: What's New
+description: Latest Platform Governance for Salesforce announcements, updates, and new features available through the Netwrix Community platform.
+---
+
 # What's New
 
 ## New Netwrix Community!

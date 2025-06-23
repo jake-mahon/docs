@@ -1,3 +1,9 @@
+---
+title: Installation and Setup Overview
+sidebar_label: Overview
+description: Step-by-step installation guide for Platform Governance for NetSuite including bundle installation, spider setup, and user access configuration.
+---
+
 # Installation Overview
 
 Installing Platform Governance for NetSuite is straight forward. Follow the steps in these topics to

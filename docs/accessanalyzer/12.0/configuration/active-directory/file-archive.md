@@ -1,3 +1,9 @@
+---
+title: file archive
+sidebar_label: file archive
+description: Documentation for file archive functionality in Access Analyzer including configuration and usage information.
+---
+
 # File Archive Repository Option
 
 As an alternative to using an API Server, Netwrix Activity Monitor can be configured to store all

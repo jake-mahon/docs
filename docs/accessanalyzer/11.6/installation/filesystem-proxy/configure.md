@@ -1,3 +1,9 @@
+---
+title: Installation: configure
+sidebar_label: configure
+description: Installation guide for configure including system requirements, setup procedures, and configuration options.
+---
+
 # File System Data Collection Configuration for Proxy as a Service
 
 To employ the proxy mode as a service scan for collecting file system data from the target host,

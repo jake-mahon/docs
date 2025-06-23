@@ -1,3 +1,9 @@
+---
+title: results pane Administration
+sidebar_label: results pane
+description: Administration guide for results pane including configuration, management, and best practices for Access Analyzer.
+---
+
 # Results Pane
 
 The Results pane displays all views for the selected console section.

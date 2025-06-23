@@ -1,3 +1,9 @@
+---
+title: Import Virtual Machine from Image to Hyper-V
+sidebar_label: Deploy Hyperv
+description: 1. On your Hyper-V server, unzip the Netwrix Data Classification virtual appliance package to the specified location. 2. Navigate to Start → All Apps → Hyper...
+---
+
 # Import Virtual Machine from Image to Hyper-V
 
 1. On your Hyper-V server, unzip the Netwrix Data Classification virtual appliance package to the

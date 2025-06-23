@@ -1,3 +1,9 @@
+---
+title: Getting Started with Flashlight
+sidebar_label: Getting Started
+description: Quick overview of installation steps and key features to help you get up and running with Flashlight for Salesforce documentation and analysis.
+---
+
 # Getting Started Overview
 
 It is easy to be up and running with Flashlight by Strongpoint for Salesforce.

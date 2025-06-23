@@ -1,3 +1,9 @@
+---
+title: smart groups
+sidebar_label: smart-groups
+description: Directory Manager 11.0 documentation for smart groups with configuration details, usage instructions, and implementation guidance.
+---
+
 # Smart Groups
 
 This view lists only the Smart Groups created using GroupID in the connected identity store. It does

@@ -1,3 +1,9 @@
+---
+title: User-Side Policy Configuration
+sidebar_label: User Side
+description: Configure Administrative Templates policies on the user side using Microsoft Central Storage or local ADMX files.
+---
+
 # Adding a Policy on the User Side
 
 When you add a Endpoint Policy Manager Admin Template policy setting on the User side, you see the

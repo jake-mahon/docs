@@ -1,3 +1,9 @@
+---
+title: databases overview
+sidebar_label: overview
+description: Solution guide for databases overview including implementation steps, configuration, and best practices.
+---
+
 # Databases Solutions
 
 Enterprise Auditor Databases Solution Set is a comprehensive set of pre-configured audit jobs and

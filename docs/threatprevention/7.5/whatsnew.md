@@ -1,3 +1,9 @@
+---
+title: What's New in Threat Prevention
+sidebar_label: What's New
+description: Latest features and enhancements in Threat Prevention 7.5 including SIEM output viewer, ADMonitor updates, and improved reporting capabilities.
+---
+
 # What's New
 
 ## New Netwrix Community!

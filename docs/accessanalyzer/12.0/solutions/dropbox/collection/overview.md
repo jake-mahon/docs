@@ -1,3 +1,9 @@
+---
+title: dropbox collection overview
+sidebar_label: overview
+description: Solution guide for dropbox collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The **Dropbox** > **0.Collection** job group scans the targeted Dropbox site using the DropboxAccess

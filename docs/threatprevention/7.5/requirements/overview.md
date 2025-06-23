@@ -1,3 +1,9 @@
+---
+title: System Requirements Overview
+sidebar_label: Requirements
+description: Comprehensive system requirements for Threat Prevention 7.5 deployment including application servers, agents, reporting module, and SQL Server specifications.
+---
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the Threat
@@ -14,8 +20,8 @@ Core Component
 - Threat Prevention Application Server – The following v7.5 application components are installed
   here:
 
-    - Enterprise Manager
-    - Administration Console
+  - Enterprise Manager
+  - Administration Console
 
 - Agents – The Agents are deployed in the target environment to monitor and/or block activity
 - Netwrix Threat Manager Reporting Module Server – The Reporting Console is installed here. This can
@@ -41,8 +47,8 @@ Optional Components
   to submit a candidate password to check whether it complies with the current EPE rules defined on
   the [EPE Settings Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md).
 
-    **NOTE:** This interface does not change the password; it only validates it against the EPE
-    rules.
+  **NOTE:** This interface does not change the password; it only validates it against the EPE
+  rules.
 
 See the following topics for additional information:
 
@@ -58,9 +64,9 @@ protected by Threat Prevention:
 - Exchange – Deploy an Agent to all HUB, CAS, and Mailbox Exchange servers and one domain controller
 - File System:
 
-    - Windows – Deploy an Agent to all file servers containing objects that need to be protected
-    - Network Attached Storage (NAS) Devices – This requires integration with Netwrix Activity
-      Monitor. Deploy an Agent to the proxy server where the Netwrix Activity Monitor Activity Agent
-      is deployed. See the
-      [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
-      for installation requirements and information on collecting activity data.
+  - Windows – Deploy an Agent to all file servers containing objects that need to be protected
+  - Network Attached Storage (NAS) Devices – This requires integration with Netwrix Activity
+    Monitor. Deploy an Agent to the proxy server where the Netwrix Activity Monitor Activity Agent
+    is deployed. See the
+    [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
+    for installation requirements and information on collecting activity data.

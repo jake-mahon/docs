@@ -1,3 +1,9 @@
+---
+title: Portal history myhistory
+sidebar_label: myhistory
+description: Directory Manager portal documentation for history functionality including user interface, navigation, and operational procedures.
+---
+
 # My History
 
 To view a log of all actions you have performed in the identity store using the following: , click

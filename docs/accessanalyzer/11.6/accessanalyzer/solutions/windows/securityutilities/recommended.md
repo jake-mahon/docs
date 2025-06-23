@@ -1,3 +1,9 @@
+---
+title: windows securityutilities recommended
+sidebar_label: recommended
+description: Solution guide for windows securityutilities recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the Security Utilities Job Group
 
 Dependencies

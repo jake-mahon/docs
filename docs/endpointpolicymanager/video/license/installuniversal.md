@@ -1,3 +1,9 @@
+---
+title: Install Universal Licenses New Customers
+sidebar_label: Install Universal
+description: Complete guide to installing universal license files for new customers via Group Policy, SCCM, or MDM tools like Intune - your one-stop licensing solution.
+---
+
 # How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BXlR3yVoMxQ?si=BHZuzZDTOo9DsXoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

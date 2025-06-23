@@ -1,3 +1,9 @@
+---
+title: user-cmdlets Cmdlet
+sidebar_label: user-cmdlets
+description: PowerShell cmdlet reference for user-cmdlets with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Get-User
 
 Use the Get-User commandlet to retrieve basic information about a user that match your given

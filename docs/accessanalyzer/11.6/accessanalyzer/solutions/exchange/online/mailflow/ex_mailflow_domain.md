@@ -1,3 +1,9 @@
+---
+title: exchange online mailflow ex_mailflow_domain
+sidebar_label: ex_mailflow_domain
+description: Solution guide for exchange online mailflow ex_mailflow_domain including implementation steps, configuration, and best practices.
+---
+
 # EX_Mailflow_Domain Job
 
 The EX_Mailflow_Domain job provides information about which domain’s mail-flow is going to and

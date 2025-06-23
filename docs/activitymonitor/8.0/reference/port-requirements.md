@@ -1,3 +1,9 @@
+---
+title: Activity Agent Port Requirements
+sidebar_label: Port Requirements
+description: Network port configuration requirements for Activity Monitor including firewall settings and communication between agents and console.
+---
+
 # Activity Agent Ports
 
 Firewall settings depend on the type of environment being targeted. The following firewall settings

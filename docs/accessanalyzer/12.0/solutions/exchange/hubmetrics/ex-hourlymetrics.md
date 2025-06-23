@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics ex hourlymetrics
+sidebar_label: ex hourlymetrics
+description: Solution guide for exchange hubmetrics ex hourlymetrics including implementation steps, configuration, and best practices.
+---
+
 # EX_HourlyMetrics Job
 
 The EX_HourlyMetrics Job provides visibility into how much mail-flow the organization sends and

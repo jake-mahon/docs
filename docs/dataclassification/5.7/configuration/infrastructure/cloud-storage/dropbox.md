@@ -1,3 +1,9 @@
+---
+title: Configure Dropbox for Crawling
+sidebar_label: Dropbox
+description: Netwrix Data Classification connects to and crawls a Dropbox source via a custom Dropbox app, created within Dropbox management console. You will need to...
+---
+
 # Configure Dropbox for Crawling
 
 Netwrix Data Classification connects to and crawls a Dropbox source via a custom Dropbox app,

@@ -1,3 +1,9 @@
+---
+title: Change Platform Window
+sidebar_label: adding resources
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Change Platform Window
 
 Follow the steps to change the platform type for a host resource.

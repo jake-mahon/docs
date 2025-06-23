@@ -1,3 +1,9 @@
+---
+title: delegation
+sidebar_label: delegation
+description: Auditor 10.6 documentation for delegation with configuration details, usage instructions, and implementation guidance.
+---
+
 # Role-Based Access and Delegation
 
 Security and awareness of _who_ has access to _what_ is crucial for every organization. Besides

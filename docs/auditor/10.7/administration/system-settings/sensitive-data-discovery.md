@@ -1,3 +1,9 @@
+---
+title: sensitive data discovery
+sidebar_label: sensitive-data-discovery
+description: Auditor 10.7 documentation for sensitive data discovery with configuration details, usage instructions, and implementation guidance.
+---
+
 # Sensitive Data Discovery
 
 Sensitive Data Discovery is an integration module between Auditor and Netwrix Data Classification.

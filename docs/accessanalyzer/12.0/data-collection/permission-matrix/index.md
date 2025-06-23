@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Documentation for index functionality in Access Analyzer including configuration and usage information.
+---
+
 # Permissions by Data Collector (Matrix)
 
 The Access Analyzer data collectors are capable of collecting information from a variety of sources.

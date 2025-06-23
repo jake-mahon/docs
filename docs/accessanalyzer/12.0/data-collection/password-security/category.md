@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # PasswordSecurity: Category
 
 This Category page in the Password Security Data Collection Wizard identifies the kind of password

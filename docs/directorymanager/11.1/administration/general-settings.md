@@ -1,3 +1,9 @@
+---
+title: general settings
+sidebar_label: general-settings
+description: Directory Manager 11.1 documentation for general settings with configuration details, usage instructions, and implementation guidance.
+---
+
 # Access your Applications
 
 Directory Manager users can have access to Directory Manager applications such as:

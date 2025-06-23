@@ -1,3 +1,9 @@
+---
+title: databases oracle activity oracle sensitivedataactivity
+sidebar_label: oracle sensitivedataactivity
+description: Solution guide for databases oracle activity oracle sensitivedataactivity including implementation steps, configuration, and best practices.
+---
+
 # Oracle_SensitiveDataActivity Job
 
 The Oracle_SensitiveDataActivity Job is designed to provide detailed information about DML (UPDATE,

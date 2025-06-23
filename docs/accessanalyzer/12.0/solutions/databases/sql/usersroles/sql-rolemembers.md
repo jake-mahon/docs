@@ -1,3 +1,9 @@
+---
+title: databases sql usersroles sql rolemembers
+sidebar_label: sql rolemembers
+description: Solution guide for databases sql usersroles sql rolemembers including implementation steps, configuration, and best practices.
+---
+
 # SQL_RoleMembers Job
 
 The SQL_RoleMembers Job analyzes and provides information on role members in each SQL server role

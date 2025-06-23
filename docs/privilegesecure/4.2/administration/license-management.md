@@ -1,3 +1,9 @@
+---
+title: Import the License File
+sidebar_label: license management
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Import the License File
 
 Netwrix Privilege Secure comes with a temporary 30-day trial license. a banner at the top indicates

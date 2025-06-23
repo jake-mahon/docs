@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.6 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Active Directory
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

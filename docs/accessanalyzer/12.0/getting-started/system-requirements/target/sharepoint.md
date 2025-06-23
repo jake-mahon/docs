@@ -1,3 +1,9 @@
+---
+title: Getting Started: sharepoint
+sidebar_label: sharepoint
+description: Getting started guide for sharepoint in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # SharePoint Support
 
 Netwrix products audit and monitor Microsoft® SharePoint® environments. Access Analyzer employs

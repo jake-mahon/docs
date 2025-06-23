@@ -1,3 +1,9 @@
+---
+title: Getting Started: wizard
+sidebar_label: wizard
+description: Getting started guide for wizard in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # File System Proxy Service Installation
 
 The File System Proxy installer is designed to simplify the process of setting up File System

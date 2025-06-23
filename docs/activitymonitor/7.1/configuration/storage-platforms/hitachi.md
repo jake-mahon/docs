@@ -1,3 +1,9 @@
+---
+title: Hitachi Activity Auditing Configuration
+sidebar_label: Hitachi
+description: Configure activity monitoring for Hitachi NAS (HNAS) servers with Enterprise Virtual Servers, file system auditing, and log collection setup.
+---
+
 # Hitachi Activity Auditing Configuration
 
 The Hitachi NAS (HNAS) server can host multiple Enterprise Virtual Servers (EVS). Each EVS has

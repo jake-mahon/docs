@@ -1,3 +1,9 @@
+---
+title: bulk import settings
+sidebar_label: bulk import settings
+description: Documentation for bulk import settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # SPAA: Bulk Import Settings
 
 The Bulk Import Settings page is where the bulk import process settings are configured. It is a

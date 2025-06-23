@@ -1,3 +1,9 @@
+---
+title: Log Parsing & Reporting: Top 5 End-User Activity Log Data
+sidebar_label: log parsing
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Log Parsing & Reporting: Top 5 End-User Activity Log Data
 
 Log Parsing & Reporting: Top 5 End-User Activity Log Data

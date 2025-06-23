@@ -1,3 +1,9 @@
+---
+title: sharepoint core service
+sidebar_label: sharepoint-core-service
+description: Auditor 10.7 documentation for sharepoint core service with configuration details, usage instructions, and implementation guidance.
+---
+
 # Configure Data Collection Settings
 
 To successfully track user activity, make sure that the following settings are configured on the

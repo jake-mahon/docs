@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Active Directory Action Module
 
 Use the Active Directory Action Module to make bulk changes to objects in Microsoft Active Directory

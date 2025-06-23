@@ -1,3 +1,9 @@
+---
+title: manage users
+sidebar_label: manage-users
+description: Directory Manager 11.0 documentation for manage users with configuration details, usage instructions, and implementation guidance.
+---
+
 # Set up Authentication via Authenticator
 
 Users must install an authenticator app, such as Google Authenticator or Microsoft Authenticator, on

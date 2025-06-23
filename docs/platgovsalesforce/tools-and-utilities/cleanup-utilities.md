@@ -1,3 +1,9 @@
+---
+title: Automated Cleanup Utilities
+sidebar_label: Cleanup Utilities
+description: Automate report cleanup with rules-based tools for archiving unused reports, improving performance, and maintaining organized Salesforce accounts.
+---
+
 # Automated Report Clean Up
 
 Reports are powerful tools used throughout Salesforce and interconnected to other customizations. As

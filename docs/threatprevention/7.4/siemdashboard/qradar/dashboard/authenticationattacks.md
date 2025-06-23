@@ -1,3 +1,10 @@
+---
+title: Authentication Attacks Dashboard
+sidebar_label: Authentication Attacks Dashboard
+description: The Authentication Attacks dashboard contains information on triggered authentication attack incidents within the past week. It contains the following cards:
+
+---
+
 # Authentication Attacks Dashboard
 
 The Authentication Attacks dashboard contains information on triggered authentication attack

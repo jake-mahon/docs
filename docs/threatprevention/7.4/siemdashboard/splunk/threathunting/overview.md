@@ -1,3 +1,9 @@
+---
+title: Threat Hunting App for Splunk
+sidebar_label: Threat Hunting App Splunk
+description: The Netwrix Threat Hunting solution enables organizations to target and hunt active cyber threats. Using the preconfigured Netwrix Threat Hunting App for Spl...
+---
+
 # Threat Hunting App for Splunk
 
 The Netwrix Threat Hunting solution enables organizations to target and hunt active cyber threats.
@@ -64,8 +70,8 @@ not blocked by the network.
 
 - Source Type – Enter one of the following options:
 
-    - For data coming from Threat Prevention – Threat Prevention
-    - For data coming from the Netwrix File Activity Monitor – **SFAM**
+  - For data coming from Threat Prevention – Threat Prevention
+  - For data coming from the Netwrix File Activity Monitor – **SFAM**
 
 - App context – Select Search and Reporting
 - Host – Select IP

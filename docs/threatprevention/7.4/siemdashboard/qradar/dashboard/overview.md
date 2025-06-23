@@ -1,3 +1,10 @@
+---
+title: Overview Dashboard
+sidebar_label: Overview Dashboard
+description: The Active Directory Overview dashboard contains information on monitored Active Directory events within the past three (3) hours. It has the following cards:
+
+---
+
 # Overview Dashboard
 
 The Active Directory Overview dashboard contains information on monitored Active Directory events

@@ -1,3 +1,9 @@
+---
+title: dropbox dropbox access
+sidebar_label: dropbox access
+description: Solution guide for dropbox dropbox access including implementation steps, configuration, and best practices.
+---
+
 # 1.Access > Dropbox_Access Job
 
 The Dropbox_Access job provides insight into effective access to resources within the targeted

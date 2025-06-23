@@ -1,3 +1,9 @@
+---
+title: hosts Administration
+sidebar_label: hosts
+description: Administration guide for hosts including configuration, management, and best practices for Access Analyzer.
+---
+
 # Hosts Node
 
 The Hosts node provides the option to assign a preconfigured host list at the job level. It also

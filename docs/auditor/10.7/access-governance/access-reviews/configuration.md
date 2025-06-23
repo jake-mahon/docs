@@ -1,3 +1,9 @@
+---
+title: configuration
+sidebar_label: configuration
+description: Auditor 10.7 documentation for configuration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Email Templates
 
 The HTML templates used to format notification email can be customized. These templates are designed

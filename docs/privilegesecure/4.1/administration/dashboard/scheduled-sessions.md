@@ -1,3 +1,9 @@
+---
+title: Scheduled Dashboard
+sidebar_label: scheduled sessions
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Scheduled Dashboard
 
 The Scheduled sessions dashboard shows all scheduled sessions.

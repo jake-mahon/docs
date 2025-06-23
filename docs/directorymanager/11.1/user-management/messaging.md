@@ -1,3 +1,9 @@
+---
+title: messaging
+sidebar_label: messaging
+description: Directory Manager 11.1 documentation for messaging with configuration details, usage instructions, and implementation guidance.
+---
+
 # Exchange page
 
 (of Create User and Create Mailbox wizards)

@@ -1,3 +1,9 @@
+---
+title: Microsoft Platform Templates
+sidebar_label: Microsoft Platform Templates
+description: This section contains templates for monitoring and protecting Microsoft platform components. The Templates > Microsoft > DNS folder contains the following te...
+---
+
 # Microsoft Platform Templates
 
 This section contains templates for monitoring and protecting Microsoft platform components.

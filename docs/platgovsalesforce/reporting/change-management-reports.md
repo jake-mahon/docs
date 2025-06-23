@@ -1,3 +1,9 @@
+---
+title: Change Enablement Reports
+sidebar_label: Change Management Reports
+description: Monitor and analyze changes with compliant changes, non-compliant changes, and comprehensive change tracking reports for audit and compliance purposes.
+---
+
 # Change Enablement Reports
 
 Platform Governance for Salesforce has many different reports you can use to view your changes,

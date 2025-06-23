@@ -1,3 +1,10 @@
+---
+title: Navigate the Active Directory App for Splunk
+sidebar_label: Navigate Active Directory App
+description: The Netwrix Active Directory App for Splunk contains several predefined dashboards: - Active Directory (Overview)
+
+---
+
 # Navigate the Active Directory App for Splunk
 
 The Netwrix Active Directory App for Splunk contains several predefined dashboards:

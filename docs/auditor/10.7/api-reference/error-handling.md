@@ -1,3 +1,9 @@
+---
+title: error handling
+sidebar_label: error-handling
+description: Auditor 10.7 documentation for error handling with configuration details, usage instructions, and implementation guidance.
+---
+
 # Error Details
 
 On error, most requests contain an error description in the response body (except some requests with

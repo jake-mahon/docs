@@ -1,3 +1,9 @@
+---
+title: Getting Started: entra id
+sidebar_label: entra id
+description: Getting started guide for entra id in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Entra ID Solution
 
 **NOTE:** The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.

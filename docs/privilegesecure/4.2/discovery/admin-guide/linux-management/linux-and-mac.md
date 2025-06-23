@@ -1,3 +1,9 @@
+---
+title: Privilege Secure and Linux
+sidebar_label: linux and mac
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Privilege Secure and Linux
 
 Privilege Secure and Linux

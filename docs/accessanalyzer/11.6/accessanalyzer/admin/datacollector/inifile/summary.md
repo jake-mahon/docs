@@ -1,3 +1,9 @@
+---
+title: INI File Summary Configuration
+sidebar_label: Summary
+description: Summary page displaying the configured INI File data collector query with all selected settings and parameters for review.
+---
+
 # INIFile: Summary
 
 The Summary page is where the selected configuration settings are listed.

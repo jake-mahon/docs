@@ -1,3 +1,9 @@
+---
+title: acceleration
+sidebar_label: acceleration
+description: Directory Manager 11.1 documentation for acceleration with configuration details, usage instructions, and implementation guidance.
+---
+
 # Workflow Approver Acceleration
 
 The workflow approver acceleration feature ensures that no workflow request remains undecided. It

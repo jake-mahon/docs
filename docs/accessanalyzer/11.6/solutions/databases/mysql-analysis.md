@@ -1,3 +1,9 @@
+---
+title: databases mysql analysis
+sidebar_label: mysql analysis
+description: Solution guide for databases mysql analysis including implementation steps, configuration, and best practices.
+---
+
 # MySQL_Configuration Job
 
 The MySQL_Configuration Job is designed to collect MySQL server instance and database configuration

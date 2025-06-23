@@ -1,3 +1,9 @@
+---
+title: Auditor Configuration Assistant Tool
+sidebar_label: Configuration Assistant
+description: Automatically configure Windows audit policies for optimal data collection with Netwrix Auditor Configuration Assistant standalone tool.
+---
+
 # Audit Configuration Assistant
 
 Auditor **Audit Configuration Assistant** utility helps you to assess your environment readiness to

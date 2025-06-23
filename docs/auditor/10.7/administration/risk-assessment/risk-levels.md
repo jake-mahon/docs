@@ -1,3 +1,9 @@
+---
+title: risk levels
+sidebar_label: risk-levels
+description: Auditor 10.7 documentation for risk levels with configuration details, usage instructions, and implementation guidance.
+---
+
 # How Risk Levels Are Estimated
 
 As mentioned, dashboard and built-in reports give you a bird's eye view of the following high-risk

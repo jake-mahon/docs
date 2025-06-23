@@ -1,3 +1,9 @@
+---
+title: Qumulo Storage System Monitoring
+sidebar_label: Qumulo
+description: Configure Qumulo storage system monitoring settings including device configuration and activity monitoring for file system operations.
+---
+
 # Qumulo Tab
 
 The Qumulo tab provides features to configure settings for monitoring Qumulo devices.

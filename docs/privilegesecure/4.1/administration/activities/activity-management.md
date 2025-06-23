@@ -1,3 +1,9 @@
+---
+title: Access > My Activities Page
+sidebar_label: activity management
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Access > My Activities Page
 
 The Access > My Activities page displays activities mapped to the user as individual cards,

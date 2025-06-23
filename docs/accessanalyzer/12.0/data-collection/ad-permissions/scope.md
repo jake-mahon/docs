@@ -1,3 +1,9 @@
+---
+title: scope
+sidebar_label: scope
+description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADPermissions: Scope
 
 The Scope page is where the scope for the Active Directory permissions scan is configured. It is a

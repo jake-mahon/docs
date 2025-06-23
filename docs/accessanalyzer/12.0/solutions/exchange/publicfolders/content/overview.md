@@ -1,3 +1,9 @@
+---
+title: exchange publicfolders content overview
+sidebar_label: overview
+description: Solution guide for exchange publicfolders content overview including implementation steps, configuration, and best practices.
+---
+
 # Content Job Group
 
 The Content job group provides visibility into public folder sizing and content aging.

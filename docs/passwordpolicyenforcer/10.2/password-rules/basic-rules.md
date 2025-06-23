@@ -1,3 +1,9 @@
+---
+title: Basic Password Rules Configuration
+sidebar_label: Basic Rules
+description: Configure basic password rules in Password Policy Enforcer including history, length, age, and character requirements for strong password policies.
+---
+
 # History Rule
 
 The History rule rejects passwords that are identical to recently used passwords. Password reuse

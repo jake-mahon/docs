@@ -1,3 +1,9 @@
+---
+title: databases oracle collection 3 oracle activityscan
+sidebar_label: 3 oracle activityscan
+description: Solution guide for databases oracle collection 3 oracle activityscan including implementation steps, configuration, and best practices.
+---
+
 # 3-Oracle_ActivityScan Job
 
 The 3-Oracle_ActivityScan Job captures user activity from all the targeted Oracle database servers.

@@ -1,3 +1,9 @@
+---
+title: Security Hardening for Access Information Center
+sidebar_label: Security Hardening
+description: Configure SSL encryption and security settings to protect Access Information Center with Web Console or direct website access options.
+---
+
 # Securing the Access Information Center
 
 There are two options for accessing the Access Information Center. You can either go to the Access

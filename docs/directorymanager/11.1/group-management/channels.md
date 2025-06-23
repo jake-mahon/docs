@@ -1,3 +1,9 @@
+---
+title: channels
+sidebar_label: channels
+description: Directory Manager 11.1 documentation for channels with configuration details, usage instructions, and implementation guidance.
+---
+
 # Teams Properties - Channels
 
 Use this tab to view, add, and remove the channels in a Teams group.

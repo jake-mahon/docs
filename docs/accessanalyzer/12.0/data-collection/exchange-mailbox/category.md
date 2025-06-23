@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMailbox: Category
 
 The Exchange Mailbox Data Collector contains the following Exchange Mailbox categories for

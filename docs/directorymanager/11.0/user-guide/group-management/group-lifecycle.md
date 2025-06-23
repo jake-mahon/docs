@@ -1,3 +1,9 @@
+---
+title: group lifecycle
+sidebar_label: group-lifecycle
+description: Directory Manager 11.0 documentation for group lifecycle with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group Life Cycle Schedule
 
 GroupID enables you to define group lifecycle settings for an identity store (see the

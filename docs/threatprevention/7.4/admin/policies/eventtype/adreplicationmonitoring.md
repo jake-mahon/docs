@@ -1,3 +1,9 @@
+---
+title: AD Replication Monitoring Event Type
+sidebar_label: AD Replication Monitoring Event
+description: The AD Replication Monitoring event type monitors domain controller syncing/replication. The primary use case is to capture events only for non-domain contro...
+---
+
 # AD Replication Monitoring Event Type
 
 The AD Replication Monitoring event type monitors domain controller syncing/replication. The primary
@@ -24,19 +30,19 @@ through one of the following methods:
 
 - AD Perpetrator filter
 
-    - Use this filter for a dynamic list of domain controllers
-    - Add domain controllers to the Exclude list(s)
-    - Add the Users OU > Domain Controllers group
-    - Add any other groups containing domain controllers. It triggers an error message reminding the
-      user that only domain controllers should be excluded
-    - Any domain controller not included in the groups are monitored for syncing/replication
-      requests
+  - Use this filter for a dynamic list of domain controllers
+  - Add domain controllers to the Exclude list(s)
+  - Add the Users OU > Domain Controllers group
+  - Add any other groups containing domain controllers. It triggers an error message reminding the
+    user that only domain controllers should be excluded
+  - Any domain controller not included in the groups are monitored for syncing/replication
+    requests
 
 - Domains/Servers filter
 
-    - Use this filter for a static list of domain controllers
-    - Add domain controllers to the Exclude list
-    - Any domain controller not excluded are monitored for syncing/replication requests
+  - Use this filter for a static list of domain controllers
+  - Add domain controllers to the Exclude list
+  - Any domain controller not excluded are monitored for syncing/replication requests
 
 The Threat Manager DC Sync threat is sourced by a Threat Prevention AD Replication Monitoring
 policy. It is necessary for the policy to be configured to exclude domain controllers on the Host
@@ -92,12 +98,12 @@ The Permissions filter has two sections:
   specified or has any of the permissions specified.
 - Permissions – Permission level associated with the replication request:
 
-    - Replicate Directory Changes – Base permission and is required to use RPC and LDAP DIRSYNC
-      replication mechanisms
-    - Replicate Directory Changes All – Permission required for replication of credentials and
-      secret data
-    - Replicate Directory Changes in Filtered Set – Replicates attributes protected by filtered
-      attribute sets (FAS). Read-only Domain Controllers (RODCs) should not have this permission.
+  - Replicate Directory Changes – Base permission and is required to use RPC and LDAP DIRSYNC
+    replication mechanisms
+  - Replicate Directory Changes All – Permission required for replication of credentials and
+    secret data
+  - Replicate Directory Changes in Filtered Set – Replicates attributes protected by filtered
+    attribute sets (FAS). Read-only Domain Controllers (RODCs) should not have this permission.
 
 ## Domains/Servers Filter
 

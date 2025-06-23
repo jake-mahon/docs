@@ -1,3 +1,9 @@
+---
+title: New Identity Store Cmdlet
+sidebar_label: New-IdentityStore
+description: PowerShell cmdlet to create new identity stores in Directory Manager with connection validation and parameter options.
+---
+
 # New-IdentityStore
 
 The commandlet New-IdentityStore creates a new identity store. This commandlet requires valid

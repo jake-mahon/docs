@@ -1,3 +1,9 @@
+---
+title: Endpoint Policy Manager Explained Two Minutes
+sidebar_label: EPM Explained
+description: Quick two-minute overview of how Endpoint Policy Manager enhances security, management, automation, remote work capabilities, and reporting for IT administrators.
+---
+
 # Endpoint Policy Manager Explained: In about two minutes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yTcN57wz3Fg" title="PP On Prem &amp; MDM Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

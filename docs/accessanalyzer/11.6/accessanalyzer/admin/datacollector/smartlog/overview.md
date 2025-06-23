@@ -1,3 +1,9 @@
+---
+title: smartlog Data Collector overview
+sidebar_label: overview
+description: Data collector documentation for smartlog overview including configuration options and collection settings.
+---
+
 # SMARTLog Data Collector
 
 The SMARTLog Data Collector provides search and extraction of details from Windows Event Logs

@@ -1,3 +1,9 @@
+---
+title: SharePoint Online Integration Guide
+sidebar_label: SharePoint Integration
+description: Configure SharePoint Online integration for activity and risk assessment reports with automated workflow capabilities.
+---
+
 # SharePoint Online
 
 You can use the SharePoint Online integration for the report (Activity and Risk Assessment

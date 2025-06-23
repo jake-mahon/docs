@@ -1,3 +1,9 @@
+---
+title: Password Secure Version History
+sidebar_label: Version History
+description: Complete changelog and release history for Password Secure versions with detailed information about features and improvements.
+---
+
 # Version History
 
 The previously released versions and the corresponding changelogs can be found in the following

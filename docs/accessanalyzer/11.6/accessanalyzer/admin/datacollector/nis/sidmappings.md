@@ -1,3 +1,9 @@
+---
+title: NIS SID Mappings Configuration
+sidebar_label: SID Mappings
+description: SID mappings configuration for NIS data collector showing user and group security identifier relationships.
+---
+
 # NIS: SID Mappings
 
 The SID Mappings page is where the Windows-style SID mappings for the Unix User ID and Group ID are

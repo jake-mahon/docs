@@ -1,3 +1,9 @@
+---
+title: libraries
+sidebar_label: libraries
+description: Documentation for libraries functionality in Access Analyzer including configuration and usage information.
+---
+
 # Action Libraries
 
 When creating a new action on a job, you have the ability to load action tasks that have been

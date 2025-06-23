@@ -1,3 +1,9 @@
+---
+title: Reporting Module Overview
+sidebar_label: Reporting Module
+description: HTML5-based Netwrix Threat Manager Reporting Module for ad-hoc investigations, scheduled reports, and recurring subscriptions with user-friendly interface.
+---
+
 # Reporting Module
 
 Threat Prevention leverages the user-friendly, HTML-5 based Netwrix Threat Manager Reporting Module

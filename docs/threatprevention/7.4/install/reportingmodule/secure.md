@@ -1,3 +1,10 @@
+---
+title: Secure the Reporting Module Console
+sidebar_label: Secure Reporting Module Console
+description: To support HTTPS, do the following: - Import an SSL certificate to the Netwrix Threat Manager Reporting Module server
+
+---
+
 # Secure the Reporting Module Console
 
 To support HTTPS, do the following:

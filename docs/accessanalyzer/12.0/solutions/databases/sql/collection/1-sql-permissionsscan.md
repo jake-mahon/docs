@@ -1,3 +1,9 @@
+---
+title: databases sql collection 1 sql permissionsscan
+sidebar_label: 1 sql permissionsscan
+description: Solution guide for databases sql collection 1 sql permissionsscan including implementation steps, configuration, and best practices.
+---
+
 # 1-SQL_PermissionsScan
 
 The 1-SQL_PermissionsScan Job collects SQL server instance and database level permissions from

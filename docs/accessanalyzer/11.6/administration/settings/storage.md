@@ -1,3 +1,9 @@
+---
+title: storage Administration
+sidebar_label: storage
+description: Administration guide for storage including configuration, management, and best practices for Access Analyzer.
+---
+
 # Add a Storage Profile
 
 Follow the steps to create a Storage Profile.

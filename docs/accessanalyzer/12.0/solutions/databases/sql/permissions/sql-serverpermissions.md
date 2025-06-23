@@ -1,3 +1,9 @@
+---
+title: databases sql permissions sql serverpermissions
+sidebar_label: sql serverpermissions
+description: Solution guide for databases sql permissions sql serverpermissions including implementation steps, configuration, and best practices.
+---
+
 # SQL_ServerPermissions Job
 
 The SQL_ServerPermissions Job analyzes permissions granted at the server level and reports on

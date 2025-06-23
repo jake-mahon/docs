@@ -1,3 +1,9 @@
+---
+title: Threats
+sidebar_label: Threats
+description: Threat data is available in the full version of Netwrix Threat Manager. !Threats interface The Threats interface in the Netwrix Threat Manager Reporting Modu...
+---
+
 # Threats
 
 Threat data is available in the full version of Netwrix Threat Manager.

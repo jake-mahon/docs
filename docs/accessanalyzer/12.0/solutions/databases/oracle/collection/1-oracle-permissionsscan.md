@@ -1,3 +1,9 @@
+---
+title: databases oracle collection 1 oracle permissionsscan
+sidebar_label: 1 oracle permissionsscan
+description: Solution guide for databases oracle collection 1 oracle permissionsscan including implementation steps, configuration, and best practices.
+---
+
 # 1-Oracle_PermissionsScan Job
 
 The 1-Oracle_PermissionsScan Job is designed to collect Oracle database level permissions from all

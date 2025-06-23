@@ -1,3 +1,9 @@
+---
+title: ad password expiration notification Administration
+sidebar_label: ad password expiration notification
+description: Administration guide for ad password expiration notification including configuration, management, and best practices for Access Analyzer.
+---
+
 # AD_PasswordExpirationNotification Job
 
 The AD_PasswordExpirationNotification Job determines when Active Directory user passwords are about

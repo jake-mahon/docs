@@ -1,3 +1,9 @@
+---
+title: Feature Manager XML Data Files
+sidebar_label: Feature Manager
+description: Export Endpoint Policy Manager Feature Manager settings as XML files for MDM deployment. Supports computer rules for install and uninstall operations.
+---
+
 # XML Data Files from Endpoint Policy Feature Manager
 
 Endpoint Policy Manager Feature Manager settings can be exported as an XML file. You can export a

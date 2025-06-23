@@ -1,3 +1,9 @@
+---
+title: active directory activity operations ad authentication protocol
+sidebar_label: ad authentication protocol
+description: Solution guide for active directory activity operations ad authentication protocol including implementation steps, configuration, and best practices.
+---
+
 # AD_AuthenticationProtocol Job
 
 The AD_Authentication Job shows what protocols are being used to authenticate across the environment

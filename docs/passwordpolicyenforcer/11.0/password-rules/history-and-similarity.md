@@ -1,3 +1,9 @@
+---
+title: Password History and Similarity Rules
+sidebar_label: History and Similarity
+description: Configure password history and similarity rules in Password Policy Enforcer to prevent password reuse and enforce password uniqueness.
+---
+
 # History Rule
 
 The History rule rejects passwords that are identical to recently used passwords. Password reuse

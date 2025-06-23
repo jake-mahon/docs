@@ -1,3 +1,9 @@
+---
+title: Tag Management Page
+sidebar_label: Tag Management Page
+description: The Tag Management page displays all tags that are currently managed by the application, including out-of-the-box and custom tags. You can add tags and assig...
+---
+
 # Tag Management Page
 
 The Tag Management page displays all tags that are currently managed by the application, including

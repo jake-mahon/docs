@@ -1,3 +1,9 @@
+---
+title: contact updatecontact API
+sidebar_label: updatecontact
+description: API reference for updatecontact operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Update a Contact
 
 Use this API if you want to update a contact's attribute(s) and their value(s) in a specified

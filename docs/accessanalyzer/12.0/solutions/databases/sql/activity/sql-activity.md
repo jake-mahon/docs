@@ -1,3 +1,9 @@
+---
+title: databases sql activity sql activity
+sidebar_label: sql activity
+description: Solution guide for databases sql activity sql activity including implementation steps, configuration, and best practices.
+---
+
 # SQL_Activity Job
 
 The SQL_Activity Job provides insight into user activity in target SQL server instances and

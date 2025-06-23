@@ -1,3 +1,9 @@
+---
+title: Local Rights Tab
+sidebar_label: permissions
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Local Rights Tab
 
 The Local Rights tab shows information about the local rights granted for the selected user.

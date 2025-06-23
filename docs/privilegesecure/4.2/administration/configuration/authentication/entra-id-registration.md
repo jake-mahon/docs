@@ -1,3 +1,9 @@
+---
+title: Microsoft Entra ID App Registration
+sidebar_label: entra id registration
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Microsoft Entra ID App Registration
 
 To create a Microsoft Entra ID (formerly Azure AD) service account and add an Microsoft Entra ID

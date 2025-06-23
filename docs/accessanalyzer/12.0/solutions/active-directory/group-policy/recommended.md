@@ -1,3 +1,9 @@
+---
+title: active directory group policy recommended
+sidebar_label: recommended
+description: Solution guide for active directory group policy recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the 4.Group Policy Job Group
 
 The **Active Directory** > **4.Group Policy** Job Group has been configured to run with the default

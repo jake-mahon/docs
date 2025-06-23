@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADPermissions Data Collector
 
 The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is

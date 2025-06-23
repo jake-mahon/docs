@@ -1,3 +1,9 @@
+---
+title: databases sql collection 4 sql serverlogons
+sidebar_label: 4 sql serverlogons
+description: Solution guide for databases sql collection 4 sql serverlogons including implementation steps, configuration, and best practices.
+---
+
 # 4-SQL_ServerLogons Job
 
 The 4-SQL_ServerLogons Job captures SQL server logon activity, which includes successful or failed

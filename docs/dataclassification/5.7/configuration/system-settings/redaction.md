@@ -1,3 +1,9 @@
+---
+title: Redaction
+sidebar_label: Redaction
+description: This topic contains information on configuring redaction plans and entities. Redaction plans can be used as an optional migration step to remove specific...
+---
+
 # Redaction
 
 This topic contains information on configuring redaction plans and entities.

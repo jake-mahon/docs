@@ -1,3 +1,9 @@
+---
+title: compliance mappings
+sidebar_label: compliance-mappings
+description: Auditor 10.7 documentation for compliance mappings with configuration details, usage instructions, and implementation guidance.
+---
+
 # Compliance Mappings
 
 This tile contains links to the practical guides on how to comply with different standards using

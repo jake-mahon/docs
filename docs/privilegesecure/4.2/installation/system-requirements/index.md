@@ -1,3 +1,9 @@
+---
+title: Requirements
+sidebar_label: Overview
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Requirements
 
 This document describes the recommended configuration of the servers needed to install this product

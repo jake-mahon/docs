@@ -1,3 +1,9 @@
+---
+title: Monitor NAS Devices
+sidebar_label: Monitor NAS Devices
+description: Monitoring a NAS device first requires the Netwrix Activity Monitor to have an Activity agent deployed and configured to monitor the device. A Threat Prevent...
+---
+
 # Monitor NAS Devices
 
 Monitoring a NAS device first requires the Netwrix Activity Monitor to have an Activity agent

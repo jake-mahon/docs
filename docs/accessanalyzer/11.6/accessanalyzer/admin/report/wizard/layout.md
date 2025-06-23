@@ -1,3 +1,9 @@
+---
+title: Report Wizard Layout Configuration
+sidebar_label: Layout
+description: Layout configuration for the report wizard including report structure, formatting, and presentation options.
+---
+
 # Layout Page
 
 The Layout page allows you to configure the layout of the report's content.

@@ -1,3 +1,9 @@
+---
+title: Suggestions
+sidebar_label: Suggestions
+description: Clues can be used to statistically produce a list of suggested clues that can be assigned to the term. !bulkedit Clues can be suggested for a term via the...
+---
+
 # Suggestions
 
 Clues can be used to statistically produce a list of suggested clues that can be assigned to the

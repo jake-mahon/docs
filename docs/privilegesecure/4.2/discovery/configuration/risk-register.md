@@ -1,3 +1,9 @@
+---
+title: Risk Register
+sidebar_label: risk register
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Risk Register
 
 Risk Register

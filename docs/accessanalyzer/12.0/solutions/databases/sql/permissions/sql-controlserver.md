@@ -1,3 +1,9 @@
+---
+title: databases sql permissions sql controlserver
+sidebar_label: sql controlserver
+description: Solution guide for databases sql permissions sql controlserver including implementation steps, configuration, and best practices.
+---
+
 # SQL_ControlServer Job
 
 The SQL_ControlServer Job provides information on control server permissions. Users with control

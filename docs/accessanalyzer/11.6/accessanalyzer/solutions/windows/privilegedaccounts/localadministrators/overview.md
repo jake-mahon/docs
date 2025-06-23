@@ -1,3 +1,9 @@
+---
+title: windows privilegedaccounts localadministrators overview
+sidebar_label: overview
+description: Solution guide for windows privilegedaccounts localadministrators overview including implementation steps, configuration, and best practices.
+---
+
 # Local Administrators Job Group
 
 ![Local Administrators Job Group in the Jobs Tree](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/hostmanagement/jobstree.webp)
@@ -13,7 +19,7 @@ The jobs in the Local Administrators group are:
   targeted hosts. This offers insight into LAPS enablement and configuration across an environment.
   LAPS allows for centralized local administrator password management within Active Directory. See
   the Microsoft
-  [Local Administrator Password Solution](https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10))
+  [Local Administrator Password Solution](<https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10)>)
   article for additional information.
 - [SG_Sessions Job](/docs/accessanalyzer/11.6/accessanalyzer/solutions/windows/privilegedaccounts/localadministrators/sg_sessions.md)
   – This job lists sessions and logged on users from all targeted hosts. These active sessions and

@@ -1,3 +1,9 @@
+---
+title: Access SharePoint Online using modern authentication
+sidebar_label: Sharepoint Configuration
+description: This option is recommended for organizations that use modern authentication as the identity management approach, having multi-factor authentication (MFA)...
+---
+
 # Access SharePoint Online using modern authentication
 
 This option is recommended for organizations that use modern authentication as the identity

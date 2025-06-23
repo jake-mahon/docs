@@ -1,3 +1,9 @@
+---
+title: Adding Collections
+sidebar_label: Collections
+description: Create and manage Administrative Templates Manager collections to group policies together with Item-Level Targeting capabilities.
+---
+
 # Adding a Collection
 
 A Endpoint Policy Manager Admin Templates Manager collection enables you to assemble multiple

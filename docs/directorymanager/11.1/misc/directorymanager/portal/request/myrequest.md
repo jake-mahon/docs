@@ -1,3 +1,9 @@
+---
+title: Portal request myrequest
+sidebar_label: myrequest
+description: Directory Manager portal documentation for request functionality including user interface, navigation, and operational procedures.
+---
+
 # My Requests
 
 To view the workflow requests that you initiated, expand the **Requests** node on the left

@@ -1,3 +1,9 @@
+---
+title: What Does Flashlight Document?
+sidebar_label: Metadata Types
+description: Comprehensive overview of over 120 Salesforce metadata types documented by Flashlight, organized into eight categories from code to configuration.
+---
+
 # What Does Flashlight Document?
 
 Flashlight documents over 120 Salesforce metadata types. For display within the Flashlight

@@ -1,3 +1,9 @@
+---
+title: Administration and Configuration
+sidebar_label: Administration
+description: Configure Identity Manager network settings including database connections, authentication, managed systems, and monitoring capabilities.
+---
+
 # Network Configuration
 
 Identity Manager's network technical configuration includes:

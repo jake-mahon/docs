@@ -1,3 +1,9 @@
+---
+title: Netwrix Privilege Secure for Discovery v2.21 Documentation
+sidebar_label: Overview
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Netwrix Privilege Secure for Discovery v2.21 Documentation
 
 Netwrix Privilege Secure for Discovery v2.21 Documentation

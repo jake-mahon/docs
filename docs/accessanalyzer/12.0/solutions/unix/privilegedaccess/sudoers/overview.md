@@ -1,3 +1,9 @@
+---
+title: unix privilegedaccess sudoers overview
+sidebar_label: overview
+description: Solution guide for unix privilegedaccess sudoers overview including implementation steps, configuration, and best practices.
+---
+
 # Sudoers Job Group
 
 The Sudoers job group provides visibility into all rights granted via sudoers within audited Unix

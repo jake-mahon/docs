@@ -1,3 +1,9 @@
+---
+title: Monitoring Plans Configuration Guide
+sidebar_label: Monitoring Plans
+description: Create and configure monitoring plans for auditing IT environments and analyzing user behavior with Netwrix Auditor data collection settings.
+---
+
 # Monitoring Plans
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

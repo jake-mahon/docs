@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Reporting
 
 Enterprise Auditor provides the ability to report on collected data in multiple ways such as tables,

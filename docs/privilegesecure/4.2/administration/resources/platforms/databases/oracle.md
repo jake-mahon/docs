@@ -1,3 +1,9 @@
+---
+title: Oracle Platform Policy Configuration
+sidebar_label: oracle
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Oracle Platform Policy Configuration
 
 The Oracle menu displays the configuration options for Oracle platforms.

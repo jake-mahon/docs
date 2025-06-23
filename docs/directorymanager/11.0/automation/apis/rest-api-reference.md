@@ -1,6 +1,7 @@
 ---
 title: REST API Reference
 sidebar_label: REST API Reference
+description: Complete REST API reference for Directory Manager with contact APIs, group operations, user management, and authentication endpoints.
 ---
 
 # REST API Reference

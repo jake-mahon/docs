@@ -1,3 +1,9 @@
+---
+title: System
+sidebar_label: Processing Settings
+description: This configuration tab contains the settings related to system health, operation and logging. Each configuration option has an associated “i” which describes...
+---
+
 # System
 
 This configuration tab contains the settings related to system health, operation and logging. Each

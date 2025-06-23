@@ -1,3 +1,9 @@
+---
+title: helpdesk operations
+sidebar_label: helpdesk-operations
+description: Directory Manager 11.1 documentation for helpdesk operations with configuration details, usage instructions, and implementation guidance.
+---
+
 # History in Helpdesk
 
 Directory Manager tracks the following actions performed by end-users and helpdesk users in an

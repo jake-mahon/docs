@@ -1,3 +1,9 @@
+---
+title: Merging and Reducing Existing GPOs
+sidebar_label: Existing GPOs
+description: Use the Group Policy Merge Utility to combine multiple GPOs into collections and reduce GPO count for streamlined management.
+---
+
 # Merging and Reducing Existing GPOs
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) ships with the Endpoint Policy Manager Group

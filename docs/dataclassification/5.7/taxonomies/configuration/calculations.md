@@ -1,3 +1,9 @@
+---
+title: Calculations
+sidebar_label: Calculations
+description: Follow the steps to review the calculations for taxonomy: 1. Select Content > Taxonomies. 2. Choose the required taxonomy. 3. Select Browse. !calculationscal...
+---
+
 # Calculations
 
 Follow the steps to review the calculations for taxonomy:

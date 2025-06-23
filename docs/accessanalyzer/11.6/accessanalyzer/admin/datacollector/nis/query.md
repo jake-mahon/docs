@@ -1,3 +1,9 @@
+---
+title: NIS Query Configuration
+sidebar_label: Query
+description: Query configuration for NIS data collector including search parameters and filtering options for Network Information Service data.
+---
+
 # NIS: NIS Query
 
 The NIS Query page is where the NIS query regular expressions are configured and tested. It is a

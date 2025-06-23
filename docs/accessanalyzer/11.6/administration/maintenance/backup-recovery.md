@@ -1,3 +1,9 @@
+---
+title: backup recovery Administration
+sidebar_label: backup recovery
+description: Administration guide for backup recovery including configuration, management, and best practices for Access Analyzer.
+---
+
 # Backup and Recovery
 
 For data recovery purposes, the Enterprise Auditor does not need a complete image back up of the

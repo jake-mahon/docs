@@ -1,3 +1,9 @@
+---
+title: DesignStudio Quick Start Guide
+sidebar_label: Quick Start
+description: Get started with DesignStudio to create custom AppSets by scraping application interfaces and converting them to Group Policy format.
+---
+
 # Quick Start
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) DesignStudio is where you can create your own

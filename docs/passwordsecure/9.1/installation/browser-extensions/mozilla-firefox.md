@@ -1,3 +1,9 @@
+---
+title: Mozilla Firefox Extension Installation
+sidebar_label: Mozilla Firefox
+description: Install Password Secure add-on for Mozilla Firefox directly from official store using provided download link and installation procedures.
+---
+
 # Mozilla Firefox
 
 ## Installing the add-on

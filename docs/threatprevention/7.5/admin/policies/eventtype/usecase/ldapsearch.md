@@ -1,3 +1,9 @@
+---
+title: LDAP Search Operations Use Case
+sidebar_label: LDAP Search Operations Use
+description: Use the LDAP Search operation to search for and identify activity that does not conform to your security configurations.
+---
+
 # LDAP Search Operations Use Case
 
 Use the LDAP Search operation to search for and identify activity that does not conform to your

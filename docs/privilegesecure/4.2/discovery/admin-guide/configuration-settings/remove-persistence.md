@@ -1,3 +1,9 @@
+---
+title: Remove Persistence on Machines
+sidebar_label: remove persistence
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Remove Persistence on Machines
 
 Remove Persistence on Machines

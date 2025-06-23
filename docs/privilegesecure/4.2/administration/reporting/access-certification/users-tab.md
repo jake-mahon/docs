@@ -1,3 +1,9 @@
+---
+title: Users Tab for Access Certification
+sidebar_label: users tab
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Users Tab for Access Certification
 
 The Users tab shows the users and groups in the selected access certification task for which the

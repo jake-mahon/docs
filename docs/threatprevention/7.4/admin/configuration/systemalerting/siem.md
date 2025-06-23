@@ -1,3 +1,9 @@
+---
+title: SIEM Tab
+sidebar_label: SIEM Tab
+description: Alert notification via SIEM sends event notifications to a SIEM product using UDP or TCP protocol. Before SIEM alerting can be enabled, the SIEM server must ...
+---
+
 # SIEM Tab
 
 Alert notification via SIEM sends event notifications to a SIEM product using UDP or TCP protocol.

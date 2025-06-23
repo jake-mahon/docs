@@ -1,3 +1,9 @@
+---
+title: exchange hubmetrics ex servermetrics
+sidebar_label: ex servermetrics
+description: Solution guide for exchange hubmetrics ex servermetrics including implementation steps, configuration, and best practices.
+---
+
 # EX_ServerMetrics Job
 
 The EX_ServerMetrics Job provides visibility into server mail flow statistics, such as, sent,

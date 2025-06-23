@@ -1,3 +1,9 @@
+---
+title: Upgrade Procedure
+sidebar_label: Upgrade Procedure
+description: This topic provides the basic steps needed to upgrade StealthINTERCEPT 7.3.7+. For older versions, please reach out to Netwrix Support for assistance.
+---
+
 # Upgrade Procedure
 
 This topic provides the basic steps needed to upgrade StealthINTERCEPT 7.3.7+. For older versions,

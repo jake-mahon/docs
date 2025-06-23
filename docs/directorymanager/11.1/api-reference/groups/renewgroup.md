@@ -1,3 +1,9 @@
+---
+title: renewgroup
+sidebar_label: renewgroup
+description: Directory Manager 11.1 documentation for renewgroup with configuration details, usage instructions, and implementation guidance.
+---
+
 # Renew a Group
 
 It renews a group, identity of which is provided in the endpoint URL.

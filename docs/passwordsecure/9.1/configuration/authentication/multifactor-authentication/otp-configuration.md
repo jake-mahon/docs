@@ -1,3 +1,9 @@
+---
+title: OTP One-Time Password Configuration
+sidebar_label: OTP Configuration
+description: Configure one-time password authentication for secure single-use credentials in Password Secure multifactor authentication setup.
+---
+
 # OTP (One-Time-Password)
 
 ## Using OTP in Netwrix Password Secure

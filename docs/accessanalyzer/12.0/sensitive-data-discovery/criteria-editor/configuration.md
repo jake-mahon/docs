@@ -1,3 +1,9 @@
+---
+title: configuration
+sidebar_label: configuration
+description: Documentation for configuration functionality in Access Analyzer including configuration and usage information.
+---
+
 # Configuration Pane
 
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add,

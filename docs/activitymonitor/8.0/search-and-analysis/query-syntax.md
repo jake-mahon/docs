@@ -1,3 +1,9 @@
+---
+title: Activity Monitor Query Syntax
+sidebar_label: Query Syntax
+description: Query syntax and search capabilities for Activity Monitor including Active Directory searches with filters and query construction methods.
+---
+
 # Active Directory Search Query
 
 You can search domain activity that has been monitored and recorded to a File output. When you

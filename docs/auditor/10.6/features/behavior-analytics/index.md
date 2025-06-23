@@ -1,3 +1,9 @@
+---
+title: Behavior Analytics and Anomalies
+sidebar_label: Behavior Analytics
+description: Analyze user behavior patterns and detect anomalies in Netwrix Auditor using machine learning algorithms for advanced threat detection.
+---
+
 # Behavior Anomalies
 
 Netwrix Auditor enables you to detect behavior anomalies in your IT environment, such as activity

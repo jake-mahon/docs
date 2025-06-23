@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # UsersGroups: Results
 
 The Results page is where the type of data to be returned is configured. Each type has a different

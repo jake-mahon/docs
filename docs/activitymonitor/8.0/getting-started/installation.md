@@ -1,3 +1,9 @@
+---
+title: Install Activity Monitor Application
+sidebar_label: Installation
+description: Step-by-step installation guide for Activity Monitor 8.0 console including setup wizard navigation, license configuration, and initial setup.
+---
+
 # Install Application
 
 Netwrix Activity Monitor comes with a 10-day trial license to start. If an organization's license

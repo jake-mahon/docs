@@ -1,3 +1,9 @@
+---
+title: Getting Started: applet mode ports
+sidebar_label: applet mode ports
+description: Getting started guide for applet mode ports in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Applet Mode Port Requirements
 
 The following are the firewall settings are required when executing the Access Auditing (FSAA)

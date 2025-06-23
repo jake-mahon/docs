@@ -1,3 +1,9 @@
+---
+title: Getting Started: aws
+sidebar_label: aws
+description: Getting started guide for aws in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Amazon Web Services (AWS) Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

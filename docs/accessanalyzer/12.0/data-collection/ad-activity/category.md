@@ -1,3 +1,9 @@
+---
+title: category
+sidebar_label: category
+description: Documentation for category functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADActivity: Category
 
 Use the Category page to identify how activity data is retrieved or removed.

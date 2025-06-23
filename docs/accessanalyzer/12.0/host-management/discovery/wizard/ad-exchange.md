@@ -1,3 +1,9 @@
+---
+title: ad exchange
+sidebar_label: ad exchange
+description: Documentation for ad exchange functionality in Access Analyzer including configuration and usage information.
+---
+
 # Query an Active Directory Server (Discover Exchange servers)
 
 Follow the steps to create a Host Discovery query using the Query an Active Directory server

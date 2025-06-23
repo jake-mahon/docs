@@ -1,3 +1,9 @@
+---
+title: Action Service Remote Installation
+sidebar_label: Action Service Setup
+description: Install and configure Action Service on additional servers for distributed threat response actions and remote service registration.
+---
+
 # Optionally Install the Action Service on Additional Servers
 
 The Action Service is installed with Threat Manager and is configured in the Threat Manager Console.

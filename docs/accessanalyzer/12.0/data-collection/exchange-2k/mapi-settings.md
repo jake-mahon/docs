@@ -1,3 +1,9 @@
+---
+title: mapi settings
+sidebar_label: mapi settings
+description: Documentation for mapi settings functionality in Access Analyzer including configuration and usage information.
+---
+
 # Exchange2K: MAPI Settings
 
 The MAPI Settings page is used to enter configurations to connect to target Exchange servers. By

@@ -1,3 +1,9 @@
+---
+title: filesystem fs securityassessment
+sidebar_label: fs securityassessment
+description: Solution guide for filesystem fs securityassessment including implementation steps, configuration, and best practices.
+---
+
 # FS_SecurityAssessment Job
 
 The FS_SecurityAssessment job is designed to provide a security assessment of all relevant

@@ -1,3 +1,9 @@
+---
+title: owner management
+sidebar_label: owner-management
+description: Auditor 10.7 documentation for owner management with configuration details, usage instructions, and implementation guidance.
+---
+
 # Resource Owners Interface
 
 The Resource Owners interface opened by the Resource Owners tab is where Ownership Administrators

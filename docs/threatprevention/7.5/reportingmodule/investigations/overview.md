@@ -1,3 +1,9 @@
+---
+title: Investigations Overview
+sidebar_label: Investigations
+description: Threat Manager investigations interface for creating custom reports, analyzing data, and managing investigation workflows.
+---
+
 # Investigations Interface
 
 The Investigation interface allows administrators to investigate all data available to the

@@ -1,3 +1,9 @@
+---
+title: searching records
+sidebar_label: searching-records
+description: Auditor 10.7 documentation for searching records with configuration details, usage instructions, and implementation guidance.
+---
+
 # Continuation Mark
 
 When exporting data from the Audit Database, a successful response includes:

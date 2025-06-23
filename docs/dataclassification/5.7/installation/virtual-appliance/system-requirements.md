@@ -1,3 +1,9 @@
+---
+title: Requirements to Deploy Virtual Appliance
+sidebar_label: System Requirements
+description: This section provides the software requirements and represents the default hardware configuration for the virtual machine where Netwrix Data Classification...
+---
+
 # Requirements to Deploy Virtual Appliance
 
 This section provides the software requirements and represents the default hardware configuration

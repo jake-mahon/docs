@@ -1,3 +1,9 @@
+---
+title: Standard Policies Getting Started Guide
+sidebar_label: Standard Policies
+description: Step-by-step guide to create standard policies for deploying applications from SMB shares with Remote Work Delivery Manager configuration.
+---
+
 # Getting Started with Standard Policies
 
 In the following examples, we'll copy and install Notepad++ using Endpoint Policy Manager Remote

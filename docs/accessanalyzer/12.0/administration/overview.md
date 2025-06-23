@@ -1,3 +1,9 @@
+---
+title: Administration Overview
+sidebar_label: Overview
+description: Administration features including automation, management, and integration building blocks for advanced data collection and analysis capabilities.
+---
+
 # Administration
 
 The Access Analyzer application is the power behind the solutions. It has the automation,

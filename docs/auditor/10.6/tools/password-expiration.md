@@ -1,3 +1,9 @@
+---
+title: Password Expiration Notifier Tool Guide
+sidebar_label: Password Expiration
+description: Configure password expiration alerting and monitoring with Netwrix Auditor Password Expiration Notifier standalone tool for domain accounts.
+---
+
 # Password Expiration Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from monitoring and

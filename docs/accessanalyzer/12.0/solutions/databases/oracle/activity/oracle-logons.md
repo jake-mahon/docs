@@ -1,3 +1,9 @@
+---
+title: databases oracle activity oracle logons
+sidebar_label: oracle logons
+description: Solution guide for databases oracle activity oracle logons including implementation steps, configuration, and best practices.
+---
+
 # Oracle_Logons Job
 
 The Oracle_Logons Job is designed to provide insight into failed and successful Oracle database

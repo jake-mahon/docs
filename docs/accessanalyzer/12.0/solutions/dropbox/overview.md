@@ -1,3 +1,9 @@
+---
+title: dropbox overview
+sidebar_label: overview
+description: Solution guide for dropbox overview including implementation steps, configuration, and best practices.
+---
+
 # Dropbox Solution
 
 The Dropbox Solution is an auditing, compliance, and governance solution for Dropbox for Business.

@@ -1,3 +1,9 @@
+---
+title: Exporting Directives as XML Data Files
+sidebar_label: XML Data Files Overview
+description: Learn how to create and export Endpoint Policy Manager XML data files for MDM deployment. Use the Exporter utility to bundle directives into MSI files for distribution.
+---
+
 # Exporting Directives as XML Data Files
 
 Creating Endpoint Policy Manager XML data files is easy. But each Endpoint Policy Manager component

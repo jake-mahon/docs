@@ -1,3 +1,9 @@
+---
+title: ad general
+sidebar_label: ad general
+description: Documentation for ad general functionality in Access Analyzer including configuration and usage information.
+---
+
 # Query an Active Directory Server (General)
 
 Follow the steps to create a Host Discovery query using the Query an Active Directory server

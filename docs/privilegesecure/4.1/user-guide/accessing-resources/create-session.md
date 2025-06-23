@@ -1,3 +1,9 @@
+---
+title: Create My Activity Session
+sidebar_label: create session
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Create My Activity Session
 
 Follow the steps to create an activity session.

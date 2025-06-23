@@ -1,3 +1,9 @@
+---
+title: unix sharing collection overview
+sidebar_label: overview
+description: Solution guide for unix sharing collection overview including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection Job Group
 
 The jobs within this group collect NFS and Samba configuration information which will be further

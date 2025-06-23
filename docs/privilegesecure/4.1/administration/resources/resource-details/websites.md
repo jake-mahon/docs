@@ -1,3 +1,9 @@
+---
+title: Add New Website
+sidebar_label: websites
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add New Website
 
 Follow the steps to add a Website Resource to the Privilege Secure Console.

@@ -1,3 +1,9 @@
+---
+title: List of Collections Window
+sidebar_label: List Collections Window
+description: Use the List of Collections window to add new items to a collection as well as edit and remove existing items.
+---
+
 # List of Collections Window
 
 Use the List of Collections window to add new items to a collection as well as edit and remove

@@ -1,3 +1,9 @@
+---
+title: Search and Filter Guide
+sidebar_label: Search & Filter
+description: Use filters and search capabilities in Netwrix Auditor to narrow results and find specific audit data with logical conjunctions and multiple values.
+---
+
 # Use Filters in Simple Mode
 
 Filters are used to narrow your search results. To create a unique set of filters, you can:

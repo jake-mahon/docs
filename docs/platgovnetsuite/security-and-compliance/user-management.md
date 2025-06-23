@@ -1,3 +1,9 @@
+---
+title: Enhanced User Provisioning Management
+sidebar_label: User Management
+description: Streamlined user access management including onboarding, offboarding, and access changes through User Access Change Request workflows.
+---
+
 # Using Enhanced User Provisioning
 
 Access management for onboarding/offboarding and access change is streamlined into a new, efficient

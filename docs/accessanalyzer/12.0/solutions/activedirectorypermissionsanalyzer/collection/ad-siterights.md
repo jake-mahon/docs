@@ -1,3 +1,9 @@
+---
+title: activedirectorypermissionsanalyzer collection ad siterights
+sidebar_label: ad siterights
+description: Solution guide for activedirectorypermissionsanalyzer collection ad siterights including implementation steps, configuration, and best practices.
+---
+
 # AD_SiteRights Job
 
 The AD_SiteRights Job provides data collection to identify permissions applied to sites in Active

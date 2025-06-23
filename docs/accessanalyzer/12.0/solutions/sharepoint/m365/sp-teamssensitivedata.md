@@ -1,3 +1,9 @@
+---
+title: sharepoint m365 sp teamssensitivedata
+sidebar_label: sp teamssensitivedata
+description: Solution guide for sharepoint m365 sp teamssensitivedata including implementation steps, configuration, and best practices.
+---
+
 # SP_TeamsSensitiveData Job
 
 The SP_TeamsSensitiveData Job analyzes sensitive data activity within Teams Sites.

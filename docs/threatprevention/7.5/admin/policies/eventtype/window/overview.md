@@ -1,3 +1,9 @@
+---
+title: Selection Windows
+sidebar_label: Selection Windows
+description: Many event type filters have selections windows for populating filter values. It may be necessary to select a specific Agent to populate values in the select...
+---
+
 # Selection Windows
 
 Many event type filters have selections windows for populating filter values. It may be necessary to
@@ -46,15 +52,15 @@ Select a server/Agent from the drop-down menu and click **Connect**.
 - Expand the domain tree in the Navigation pane to select the starting point for the search, which
   auto-populates the Start in field. Use the following scoping options:
 
-    - Scope all – Includes all sub-containers in the search
-    - Attribute – Scope to the ‘objectClass’, name, or SAMAccountName attribute
-    - Condition – Set the scoping condition to:
+  - Scope all – Includes all sub-containers in the search
+  - Attribute – Scope to the ‘objectClass’, name, or SAMAccountName attribute
+  - Condition – Set the scoping condition to:
 
-        - Starts with
-        - Contains
-        - Exact Match (this is the only condition available for objectClass)
+    - Starts with
+    - Contains
+    - Exact Match (this is the only condition available for objectClass)
 
-    - Value – Search string
+  - Value – Search string
 
 - After selecting the desired options, click **Search Now**. The Results pane begins to populate
   with matching results.

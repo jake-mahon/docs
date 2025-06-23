@@ -1,3 +1,9 @@
+---
+title: active directory computers recommended
+sidebar_label: recommended
+description: Solution guide for active directory computers recommended including implementation steps, configuration, and best practices.
+---
+
 # Recommended Configurations for the 3.Computers Job Group
 
 The **Active Directory** > **3.Computers** Job Group has been configured by default to run with the

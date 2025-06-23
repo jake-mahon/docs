@@ -1,6 +1,8 @@
-# Working with the Database
-
-Working with the Database
+---
+title: Database Management for Password Reset
+sidebar_label: Database Management
+description: Guide to managing Password Reset databases including SQL Server Compact benefits, backup procedures, and migration to full SQL Server.
+---
 
 # Working with the Database
 

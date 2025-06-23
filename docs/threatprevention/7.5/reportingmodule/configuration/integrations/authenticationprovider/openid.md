@@ -1,3 +1,9 @@
+---
+title: OpenID Authentication Provider
+sidebar_label: OpenID Authentication Provider
+description: OpenID is an open standard for authentication that allows users to log into multiple websites using a single set of credentials, eliminating the need for mul...
+---
+
 # OpenID Authentication Provider
 
 OpenID is an open standard for authentication that allows users to log into multiple websites using

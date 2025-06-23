@@ -1,3 +1,9 @@
+---
+title: Privileged User Linux Monitoring
+sidebar_label: Privileged User Linux
+description: Configure privileged user monitoring for Linux systems with Netwrix Auditor to track administrative activities and security events.
+---
+
 # Work with Collected Data
 
 Follow the steps to work with collected data:

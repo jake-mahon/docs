@@ -1,3 +1,9 @@
+---
+title: writing records
+sidebar_label: writing-records
+description: Auditor 10.7 documentation for writing records with configuration details, usage instructions, and implementation guidance.
+---
+
 # Activity Records
 
 In Netwrix terms, one operable chunk of information is called the Activity Record. Netwrix Auditor

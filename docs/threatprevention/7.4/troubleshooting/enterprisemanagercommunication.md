@@ -1,3 +1,9 @@
+---
+title: Enterprise Manager Communication
+sidebar_label: Enterprise Manager Communication
+description: Enterprise Manager communication troubleshooting including database connectivity, agent registration, and service communication issues.
+---
+
 # Administration Console and Agent Not Communicating with the Enterprise Manager
 
 As a requirement for configuring custom managed certificates, the Threat Prevention Administration

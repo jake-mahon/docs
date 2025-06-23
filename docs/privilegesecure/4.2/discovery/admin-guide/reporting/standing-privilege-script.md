@@ -1,3 +1,9 @@
+---
+title: Standing Privilege Reduction Metric Script
+sidebar_label: standing privilege script
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Standing Privilege Reduction Metric Script
 
 Standing Privilege Reduction Metric Script

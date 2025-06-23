@@ -1,3 +1,9 @@
+---
+title: Account Enablement Custom Script
+sidebar_label: Account Enablement Custom Script
+description: The following C# script sends an email notification to the specified administrator when an Active Directory account is enabled.
+---
+
 # Account Enablement Custom Script
 
 The following C# script sends an email notification to the specified administrator when an Active
@@ -8,8 +14,8 @@ The following environmental variables must be added to the script prior to execu
 - SMTPHOST – Name of the organization’s SMTP server
 - SMTPPORT – Port used by the organization’s SMTP server
 - SMTPENABLESSL – Indicates whether SSL is enabled or disabled on the SMTP server
-    - False = Do not use SSL
-    - True = Use SSL
+  - False = Do not use SSL
+  - True = Use SSL
 - SMTPFROM – Valid email account sending the email to the recipient
 - SMTPID – Valid username for SMTP server within the user's environment
 - SMTPPwD – Valid password for the username above

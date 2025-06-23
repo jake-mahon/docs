@@ -1,3 +1,9 @@
+---
+title: Device Control Overview
+sidebar_label: Device Control
+description: Manage all entities in the system including their rights and settings for comprehensive device control and access management.
+---
+
 # Device Control
 
 From this section, you can manage all entities in the system, their subsequent rights, and settings.

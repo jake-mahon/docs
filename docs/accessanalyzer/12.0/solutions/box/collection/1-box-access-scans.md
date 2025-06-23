@@ -1,3 +1,9 @@
+---
+title: box collection 1 box access scans
+sidebar_label: 1 box access scans
+description: Solution guide for box collection 1 box access scans including implementation steps, configuration, and best practices.
+---
+
 # 1-Box_Access Scans Job
 
 The 1-Box_Access Scans Job collects the data which will be further analyzed in order to provide

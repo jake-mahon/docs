@@ -1,3 +1,9 @@
+---
+title: groupexpiryfunction
+sidebar_label: groupexpiryfunction
+description: Directory Manager 11.1 documentation for groupexpiryfunction with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group Expiry Functions
 
 You can expire, renew or delete a group using Directory Manager portal. You can change expiry policy

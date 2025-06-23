@@ -1,3 +1,9 @@
+---
+title: workflow updatepowerautomatesettings API
+sidebar_label: updatepowerautomatesettings
+description: API reference for updatepowerautomatesettings operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Update Power Automate Settings
 
 If you have defined Power-Automate settings for an identity store, you can use this API to update

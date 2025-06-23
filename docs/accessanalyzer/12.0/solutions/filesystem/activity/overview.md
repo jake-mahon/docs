@@ -1,3 +1,9 @@
+---
+title: filesystem activity overview
+sidebar_label: overview
+description: Solution guide for filesystem activity overview including implementation steps, configuration, and best practices.
+---
+
 # 5.Activity Job Group
 
 The 5.Activity job group is designed to report on activity event information from targeted file

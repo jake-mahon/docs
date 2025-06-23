@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer PowerShell Cmdlets
+sidebar_label: PowerShell Overview
+description: Overview of Password Policy Enforcer PowerShell cmdlets for managing PPE from Windows PowerShell command line interface.
+---
+
 # PPE cmdlets
 
 The PPE Cmdlets are available to manage Password Policy Enforcer from a Windows PowerShell. The

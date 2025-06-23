@@ -1,3 +1,9 @@
+---
+title: edit query
+sidebar_label: edit query
+description: Documentation for edit query functionality in Access Analyzer including configuration and usage information.
+---
+
 # Edit Query
 
 Use the **Edit Query** option to modify host lists created by a Host Discovery query.

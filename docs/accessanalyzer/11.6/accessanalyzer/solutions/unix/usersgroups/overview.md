@@ -1,3 +1,9 @@
+---
+title: unix usersgroups overview
+sidebar_label: overview
+description: Solution guide for unix usersgroups overview including implementation steps, configuration, and best practices.
+---
+
 # 1.Users and Groups Job Group
 
 The jobs within the 1.Users and Groups job group provide visibility into users and groups, helping

@@ -1,3 +1,9 @@
+---
+title: exchange public folder analysis
+sidebar_label: public folder analysis
+description: Solution guide for exchange public folder analysis including implementation steps, configuration, and best practices.
+---
+
 # Content Job Group
 
 The Content job group provides visibility into public folder sizing and content aging.

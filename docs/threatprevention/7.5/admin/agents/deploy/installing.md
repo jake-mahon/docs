@@ -1,3 +1,9 @@
+---
+title: Installing Window
+sidebar_label: Installing Window
+description: The Deploy Agents wizard's Installing window is the last in a sequence of four windows to deploy the Agent on a computer. This window performs the desired ac...
+---
+
 # Installing Window
 
 The Deploy Agents wizard's Installing window is the last in a sequence of four windows to deploy the

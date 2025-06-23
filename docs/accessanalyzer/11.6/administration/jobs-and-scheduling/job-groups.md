@@ -1,3 +1,9 @@
+---
+title: job groups Administration
+sidebar_label: job groups
+description: Administration guide for job groups including configuration, management, and best practices for Access Analyzer.
+---
+
 # Connection Node
 
 At the job group level, the **Connection** node identifies the Connection Profile assigned for the

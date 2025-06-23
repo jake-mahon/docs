@@ -1,3 +1,9 @@
+---
+title: Configure Alert Response Actions
+sidebar_label: Response Actions
+description: Set up automated response actions for alerts in Netwrix Auditor to enable immediate threat response and incident remediation.
+---
+
 # Configure a Response Action for Alert
 
 Upon the alert triggering, you can instruct Auditor to perform several actions such as run a

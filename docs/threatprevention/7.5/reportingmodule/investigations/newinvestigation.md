@@ -1,3 +1,9 @@
+---
+title: New Investigation Page
+sidebar_label: New Investigation Page
+description: The New Investigation page within the Investigations interface enables you to run queries on available data with desired filters for a specific timeframe.
+---
+
 # New Investigation Page
 
 The New Investigation page within the Investigations interface enables you to run queries on

@@ -1,3 +1,9 @@
+---
+title: logging
+sidebar_label: logging
+description: Directory Manager 11.1 documentation for logging with configuration details, usage instructions, and implementation guidance.
+---
+
 # Get Logs
 
 Directory Manager generates logs for its services, clients, and Windows events, which are saved at

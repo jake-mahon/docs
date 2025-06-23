@@ -1,3 +1,9 @@
+---
+title: Authentication Monitoring Event Type
+sidebar_label: Authentication Monitoring Event Type
+description: The Authentication Monitoring event type captures events according to policy filters for Kerberos, TGT, TGS and/or NTLM authentication requests.
+---
+
 # Authentication Monitoring Event Type
 
 The Authentication Monitoring event type captures events according to policy filters for Kerberos,
@@ -36,8 +42,8 @@ being monitored.
 - In the Monitor These Protocols section, check the **All** box to include all protocols or select
   specific protocols:
 
-    - Kerberos (TGT and/or TGS)
-    - NTLM
+  - Kerberos (TGT and/or TGS)
+  - NTLM
 
 > > **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
 > > Prevention database. Configure policy filters and use Database Maintenance while monitoring
@@ -54,13 +60,13 @@ being monitored.
   allows the Authentication policy or Analytic policy to ignore failed authentications that failed
   due to use of a previously valid, but now expired, password.
 
-    You must configure a GPO within the organization to Enforce password history with a setting of a
-    minimum of 3 passwords remembered in order for the Threat Prevention policy to exclude failed
-    authentications for N-2. This policy is located within a **GPO** > **Computer Configuration** >
-    **Windows Settings** > **Security Settings** > **Account Policies** > **Password Policy** (shown
-    in the example GPO > Default DomainPolicy).
+  You must configure a GPO within the organization to Enforce password history with a setting of a
+  minimum of 3 passwords remembered in order for the Threat Prevention policy to exclude failed
+  authentications for N-2. This policy is located within a **GPO** > **Computer Configuration** >
+  **Windows Settings** > **Security Settings** > **Account Policies** > **Password Policy** (shown
+  in the example GPO > Default DomainPolicy).
 
-    ![Default Domain Policy](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/gpo.webp)
+  ![Default Domain Policy](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/gpo.webp)
 
 - When enabled, the **Exclude failed authentications with expired passwords** option allows the
   Authentication or Analytic policy to ignore failed authentications with a newly expired password

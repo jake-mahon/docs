@@ -1,3 +1,9 @@
+---
+title: Update AD Agent Installer
+sidebar_label: Agent Upgrade
+description: Update and upgrade Activity Monitor AD agent installers including downloading updates from Customer Portal and installation procedures.
+---
+
 # Update AD Agent Installer
 
 Netwrix periodically releases updated AD Agent installation packages. Typically these updates are

@@ -1,3 +1,9 @@
+---
+title: General Tab
+sidebar_label: General Tab
+description: The General tab is for editing the basic attributes of the policy. !Policy - General tab Policy Status
+---
+
 # General Tab
 
 The General tab is for editing the basic attributes of the policy.
@@ -44,8 +50,8 @@ occurred (Modified on).
 
 The schedule is for setting the time period for an enabled policy to monitor or block events.
 
-| Icon                                                                                                                     | Label                     | Represents                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Icon                                                                                                                      | Label                     | Represents                                                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![alwaysactivebutton](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/alwaysactivebutton.webp)   | Always Active             | Indicates the policy will be active at all times when enabled. This is the default setting                                                                                                                                                                                         |
 | ![specifictimesbutton](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/specifictimesbutton.webp) | Active at Specified Times | Indicates the policy will be active only at the specified times when enabled. There are two options for setting the specified times: - Local Server Time – Schedule is set according to the local server’s time - UTC Time – Schedule is set according to the Universal Time (UTC) |
 

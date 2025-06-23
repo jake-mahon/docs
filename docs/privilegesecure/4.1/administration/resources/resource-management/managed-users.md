@@ -1,3 +1,9 @@
+---
+title: Add a Managed User Window
+sidebar_label: managed users
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add a Managed User Window
 
 Manually managed user accounts may be added to the website resource. These accounts can be used for

@@ -1,3 +1,9 @@
+---
+title: notifications
+sidebar_label: notifications
+description: Directory Manager 11.1 documentation for notifications with configuration details, usage instructions, and implementation guidance.
+---
+
 # Customize Notifications
 
 Directory Manager generates a variety of notifications for different events, such as when changes

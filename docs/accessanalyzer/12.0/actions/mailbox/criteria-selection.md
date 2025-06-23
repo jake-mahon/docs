@@ -1,3 +1,9 @@
+---
+title: criteria selection
+sidebar_label: criteria selection
+description: Documentation for criteria selection functionality in Access Analyzer including configuration and usage information.
+---
+
 # Mailbox: Criteria Selection
 
 Use the Criteria Selection page to choose search criteria saved in a previous Exchange Mailbox Data

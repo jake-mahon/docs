@@ -1,3 +1,9 @@
+---
+title: Troubleshoot Connector Jobs
+sidebar_label: Connector Troubleshooting
+description: Understand synchronization and provisioning task behavior in Identity Manager to identify and resolve connector errors and issues.
+---
+
 # Troubleshoot Connector Jobs
 
 This guide helps understand the behavior of synchronization and provisioning tasks in order to spot

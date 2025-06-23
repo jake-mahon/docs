@@ -1,3 +1,9 @@
+---
+title: Global Settings Configuration
+sidebar_label: Global Settings
+description: Apply settings globally to all Endpoint Protector entities with comprehensive system-wide configuration options.
+---
+
 # Global Settings
 
 From this section, you can apply settings globally to all Endpoint Protector entities.

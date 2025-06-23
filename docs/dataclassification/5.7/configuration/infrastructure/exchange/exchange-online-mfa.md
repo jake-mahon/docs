@@ -1,3 +1,9 @@
+---
+title: Create Azure AD app for Modern Authentication
+sidebar_label: Exchange Online Mfa
+description: To connect to Exchange Online organization that uses Modern authentication, you need to create an Azure AD application, as described in this section. Prepare...
+---
+
 # Create Azure AD app for Modern Authentication
 
 To connect to Exchange Online organization that uses Modern authentication, you need to create an

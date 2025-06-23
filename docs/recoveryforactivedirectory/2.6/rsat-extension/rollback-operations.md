@@ -1,3 +1,9 @@
+---
+title: RSAT Extension Object Rollback
+sidebar_label: Rollback Operations
+description: Revert Active Directory objects to previous states using the RSAT Extension rollback feature within Active Directory Users and Computers.
+---
+
 # Object Rollback
 
 The Rollback feature in the Active Directory Users and Computers (ADUC) console allows you to revert

@@ -1,3 +1,9 @@
+---
+title: terminatedirectreports Cmdlet
+sidebar_label: terminatedirectreports
+description: PowerShell cmdlet reference for terminatedirectreports with parameter details, syntax examples, and usage instructions for Directory Manager.
+---
+
 # Terminate-DirectReports
 
 Use the Terminate-DirectRreports command to terminate user(s). Specify manager of the user you want

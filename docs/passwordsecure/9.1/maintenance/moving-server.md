@@ -1,3 +1,9 @@
+---
+title: Server Migration Procedures
+sidebar_label: Moving Server
+description: Complete server migration preparations including SQL server installation and step-by-step procedures for seamless Password Secure relocation.
+---
+
 # Moving the server
 
 ## Preparations

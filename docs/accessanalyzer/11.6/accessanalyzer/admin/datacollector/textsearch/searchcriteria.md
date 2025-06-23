@@ -1,3 +1,9 @@
+---
+title: Text Search Criteria Configuration
+sidebar_label: Search Criteria
+description: Search criteria configuration for Text Search data collector including patterns, keywords, and filtering options.
+---
+
 # TextSearch: Search Criteria
 
 The Search Criteria page provides configuration options to specify the text to search for across the
@@ -14,5 +20,5 @@ The configurable functions are:
   for additional information.
 - Simple Criteria
 
-    - Text to match – Find files that contain the text string entered
-    - Exact match – Select this option to find files that contain only the exact text string entered
+  - Text to match – Find files that contain the text string entered
+  - Exact match – Select this option to find files that contain only the exact text string entered

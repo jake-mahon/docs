@@ -1,3 +1,9 @@
+---
+title: GPOs
+sidebar_label: gpos
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # GPOs
 
 GPOs

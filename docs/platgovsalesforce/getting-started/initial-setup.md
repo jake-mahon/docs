@@ -1,3 +1,9 @@
+---
+title: Initial Setup and Scanner Configuration
+sidebar_label: Initial Setup
+description: Configure Platform Governance scanners, set up automated scans, and run the getting started wizard to complete your initial implementation.
+---
+
 # Set Up the Initial Scan
 
 The Metadata Scanner form is displayed.

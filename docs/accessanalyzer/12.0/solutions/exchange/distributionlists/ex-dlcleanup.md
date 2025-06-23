@@ -1,3 +1,9 @@
+---
+title: exchange distributionlists ex dlcleanup
+sidebar_label: ex dlcleanup
+description: Solution guide for exchange distributionlists ex dlcleanup including implementation steps, configuration, and best practices.
+---
+
 # EX_DLCleanup Job
 
 The EX_DLCleanup job identifies potentially stale Distribution Groups based on the last domain logon

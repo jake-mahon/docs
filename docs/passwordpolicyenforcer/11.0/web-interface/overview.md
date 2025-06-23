@@ -1,3 +1,9 @@
+---
+title: Password Policy Enforcer Web Overview
+sidebar_label: Web Overview
+description: Password Policy Enforcer Web enables users to change Windows domain passwords from a web browser with customizable password policies.
+---
+
 # Password Policy Enforcer Web
 
 Password Policy Enforcer Web enables users to change their Windows domain password from a web

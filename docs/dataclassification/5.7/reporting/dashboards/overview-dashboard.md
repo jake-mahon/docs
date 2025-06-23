@@ -1,3 +1,9 @@
+---
+title: Sensitive Documents Dashboard
+sidebar_label: Overview Dashboard
+description: The dashboard provides a top-level overview of the security classifications tagged against the content and allows users to drill down into the data to gain...
+---
+
 # Sensitive Documents Dashboard
 
 The dashboard provides a top-level overview of the security classifications tagged against the

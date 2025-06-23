@@ -1,3 +1,9 @@
+---
+title: hardware and software
+sidebar_label: hardware-and-software
+description: Auditor 10.7 documentation for hardware and software with configuration details, usage instructions, and implementation guidance.
+---
+
 # Hardware Requirements
 
 This topic covers hardware requirements for Netwrix Auditor installation and provides estimations of

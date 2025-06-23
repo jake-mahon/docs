@@ -1,3 +1,9 @@
+---
+title: exchange mailboxes logons ex mailboxactivity
+sidebar_label: ex mailboxactivity
+description: Solution guide for exchange mailboxes logons ex mailboxactivity including implementation steps, configuration, and best practices.
+---
+
 # 0.Collection > EX_MailboxActivity Job
 
 The EX_MailboxActivity job collects logs of Native Mailbox Access Auditing from Exchange to provide

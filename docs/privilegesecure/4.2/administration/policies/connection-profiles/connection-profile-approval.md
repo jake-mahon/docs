@@ -1,3 +1,9 @@
+---
+title: Add Approval Workflow
+sidebar_label: connection profile approval
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Approval Workflow
 
 An approval workflow requires that the session must be approved before the requestor of the session

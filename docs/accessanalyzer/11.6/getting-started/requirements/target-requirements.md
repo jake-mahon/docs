@@ -1,3 +1,9 @@
+---
+title: Getting Started: target requirements
+sidebar_label: target requirements
+description: Getting started guide for target requirements in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Domain Target Requirements, Permissions, and Ports
 
 The Enterprise Auditor for Active Directory Permissions Analyzer Solution is compatible with the

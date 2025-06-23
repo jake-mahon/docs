@@ -1,3 +1,9 @@
+---
+title: ACL File System Registry Management
+sidebar_label: ACL Traverse
+description: Enable standard users to perform file system and registry operations normally requiring admin rights through ACL traverse privilege elevation policies.
+---
+
 # Understanding ACL Manage File System and Registry (ACL Traverse)
 
 Endpoint Policy Manager Least Privilege Manager enables Standard Users to perform operations in the

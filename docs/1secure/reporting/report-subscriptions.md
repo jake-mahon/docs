@@ -1,3 +1,9 @@
+---
+title: Report Subscriptions Management
+sidebar_label: Report Subscriptions
+description: Schedule automated report delivery for MSPs with configurable timing, frequency, and recipient settings for continuous monitoring.
+---
+
 # Subscriptions
 
 The Subscriptions feature allows Managed Service Providers (MSPs) to schedule certain reports

@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Jobs Tree
 
 Jobs are the fundamental unit of Enterprise Auditor. It is through jobs that all data collection

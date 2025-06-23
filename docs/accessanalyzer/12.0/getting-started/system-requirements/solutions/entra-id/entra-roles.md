@@ -1,3 +1,9 @@
+---
+title: Getting Started: entra roles
+sidebar_label: entra roles
+description: Getting started guide for entra roles in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Microsoft Entra Roles Auditing Configuration
 
 Access Analyzer can scan for Microsoft Entra roles information. It scans:

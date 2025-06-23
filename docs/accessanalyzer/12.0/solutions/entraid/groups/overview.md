@@ -1,3 +1,9 @@
+---
+title: entraid groups overview
+sidebar_label: overview
+description: Solution guide for entraid groups overview including implementation steps, configuration, and best practices.
+---
+
 # 1.Groups Job Group
 
 The jobs in the 1.Groups group identify group conditions and areas of administrative concern within

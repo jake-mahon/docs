@@ -1,3 +1,9 @@
+---
+title: entraid users aad staleusers
+sidebar_label: aad staleusers
+description: Solution guide for entraid users aad staleusers including implementation steps, configuration, and best practices.
+---
+
 # AAD_StaleUsers Job
 
 The AAD_StaleUsers Job identifies potentially stale users based on a variety of factors. These

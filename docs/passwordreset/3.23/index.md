@@ -1,3 +1,9 @@
+---
+title: Password Reset 3.23 Overview
+sidebar_label: Overview
+description: Secure self-service password management solution that reduces help desk workload through multi-factor authentication and intelligent verification methods.
+---
+
 # Password Reset 3.23
 
 > Secure self-service password management for enterprise productivity

@@ -1,3 +1,9 @@
+---
+title: Endpoint Policy Manager and Microsoft Intune MDM
+sidebar_label: Microsoft Intune
+description: Deploy Endpoint Policy Manager using Microsoft Intune MDM. Learn to add apps, make assignments, and configure deployment actions for Windows 10 machines.
+---
+
 # Endpoint Policy Manager and Microsoft Intune MDM
 
 **NOTE:** See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/video/mdm/microsoftintune.md) for

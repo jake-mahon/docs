@@ -1,3 +1,9 @@
+---
+title: Add Administrators Window
+sidebar_label: add administrators
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Administrators Window
 
 The Add Administrators window provides a list of users that have been onboarded. Users are onboarded

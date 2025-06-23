@@ -1,3 +1,9 @@
+---
+title: Configure G Suite and Google Drive for Crawling
+sidebar_label: Google Drive
+description: Netwrix Data Classification can crawl both: Personal Google Drives and G Suite domains. Netwrix Data Classification for Google Drive uses the OAuth 2.0...
+---
+
 # Configure G Suite and Google Drive for Crawling
 
 Netwrix Data Classification can crawl both: Personal Google Drives and G Suite domains. Netwrix Data

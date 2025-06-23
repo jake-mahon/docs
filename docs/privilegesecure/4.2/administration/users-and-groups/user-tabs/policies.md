@@ -1,3 +1,9 @@
+---
+title: Policies Tab
+sidebar_label: policies
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Policies Tab
 
 The Policies tab shows information about the session policies for the selected user, group, or

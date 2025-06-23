@@ -1,3 +1,9 @@
+---
+title: Policy API
+sidebar_label: Policy
+description: Comprehensive policy management API for creating, configuring, enabling, and managing Threat Prevention security policies.
+---
+
 # Policy APIs
 
 Policies are used in Threat Prevention to define the objects and events to be monitored or blocked
@@ -24,8 +30,8 @@ the `Get-SIPolicy` command. Both the following parameters are required:
 
 - PolicyID [uint32] – Policy ID
 - Enable [Bool]
-    - 1 to enable
-    - 0 to disable
+  - 1 to enable
+  - 0 to disable
 
 Example of an enable policy command:
 

@@ -1,3 +1,9 @@
+---
+title: aws users aws accesskeys
+sidebar_label: aws accesskeys
+description: Solution guide for aws users aws accesskeys including implementation steps, configuration, and best practices.
+---
+
 # AWS_AccessKeys Job
 
 The AWS_AccessKeys job provides details on the last time an access key was rotated or used,

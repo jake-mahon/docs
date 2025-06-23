@@ -1,3 +1,9 @@
+---
+title: Dashboard Interface
+sidebar_label: Overview
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Dashboard Interface
 
 The Dashboard interface displays an overview of activity sessions, users, resources and related

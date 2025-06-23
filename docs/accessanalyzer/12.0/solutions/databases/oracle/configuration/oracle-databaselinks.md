@@ -1,3 +1,9 @@
+---
+title: databases oracle configuration oracle databaselinks
+sidebar_label: oracle databaselinks
+description: Solution guide for databases oracle configuration oracle databaselinks including implementation steps, configuration, and best practices.
+---
+
 # Oracle_DatabaseLinks Job
 
 The Oracle_DatabaseLinks Job contains a report that provides information on Database Links where the

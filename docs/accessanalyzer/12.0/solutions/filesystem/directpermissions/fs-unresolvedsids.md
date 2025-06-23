@@ -1,3 +1,9 @@
+---
+title: filesystem directpermissions fs unresolvedsids
+sidebar_label: fs unresolvedsids
+description: Solution guide for filesystem directpermissions fs unresolvedsids including implementation steps, configuration, and best practices.
+---
+
 # FS_UnresolvedSIDs Job
 
 The FS_UnresolvedSIDs job is designed to report on unresolved SIDs that have been granted direct

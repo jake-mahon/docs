@@ -1,3 +1,9 @@
+---
+title: LSASS Guardian – Monitor Event Type
+sidebar_label: LSASS Guardian – Monitor
+description: Based on policy rules, the LSASS Guardian – Monitor event type generates an event when a process not in the ‘white list’ attempts to access the LSASS process...
+---
+
 # LSASS Guardian – Monitor Event Type
 
 Based on policy rules, the LSASS Guardian – Monitor event type generates an event when a process not
@@ -104,9 +110,9 @@ request for an LSASS handle contains one or more of the selected process flags.
 - PROCESS_CREATE_THREAD – Select this checkbox to create a thread
 - PROCESS_VM_READ – Select this checkbox to report if the calling process, such as an application,
   wants to read LSASS memory
-    - A typical use case for this is the creation of an LSASS dump file, since read rights are
-      required to create a dump file of the process.
-    - Uncheck this checkbox to not generate an event if the calling process, such as an application,
-      requests LSASS memory read access.
+  - A typical use case for this is the creation of an LSASS dump file, since read rights are
+    required to create a dump file of the process.
+  - Uncheck this checkbox to not generate an event if the calling process, such as an application,
+    requests LSASS memory read access.
 
 **_RECOMMENDED:_** Leave these filters enabled. Do not deselect these options.

@@ -1,3 +1,9 @@
+---
+title: databases postgresql collection pgsql tableprivileges
+sidebar_label: pgsql tableprivileges
+description: Solution guide for databases postgresql collection pgsql tableprivileges including implementation steps, configuration, and best practices.
+---
+
 # PgSQL_TablePrivileges Job
 
 The PgSQL_TablePrivileges job is designed to collect PostgreSQL table privileges from all the

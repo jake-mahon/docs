@@ -1,3 +1,9 @@
+---
+title: Change Management and Compliance Overview
+sidebar_label: Overview
+description: Closed loop change management system for NetSuite including change policies, approval workflows, compliance tracking, and deployment management.
+---
+
 # Change Management Overview
 
 Closed Loop Change Management and Compliance is an enhanced change management system for changes to

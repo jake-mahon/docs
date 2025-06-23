@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # INIFile Data Collector
 
 The INIFile Data Collector provides options to configure a task to collect information about log

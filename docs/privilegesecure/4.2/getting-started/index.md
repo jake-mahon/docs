@@ -1,3 +1,9 @@
+---
+title: Getting Started with Privilege Secure 4.2
+sidebar_label: Getting Started
+description: Initial configuration guide for Privilege Secure 4.2 including MFA setup, licensing, service accounts, and activity-based session configuration.
+---
+
 # Getting Started
 
 Once Privilege Secure is installed, complete the following configuration sections to enable users to

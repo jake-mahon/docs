@@ -1,3 +1,9 @@
+---
+title: System Parameters Configuration
+sidebar_label: Parameters
+description: Configure system parameters including device types, notifications, and other operational settings for Endpoint Protector system management.
+---
+
 # System Parameters
 
 ## Device Types and Notiﬁcations

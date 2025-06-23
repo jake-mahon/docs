@@ -1,3 +1,7 @@
+title: Policy Templates Overview
+sidebar_label: Overview
+description: Configuration monitoring policy templates for ChangeTracker including file integrity, registry, software, processes, and network port tracking options.
+
 # Policy Templates
 
 Review the following for additional information:

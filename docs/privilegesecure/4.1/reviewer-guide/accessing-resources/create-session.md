@@ -1,3 +1,9 @@
+---
+title: Create My Activity Session
+sidebar_label: create session
+description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
+---
+
 # Create My Activity Session
 
 Follow the steps to create an activity session.

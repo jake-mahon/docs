@@ -1,3 +1,9 @@
+---
+title: Password Enforcement Event Type
+sidebar_label: Password Enforcement Event Type
+description: The Password Enforcement event type prevents changing a password if the supplied password string does not meet the requirements specified in the policy rules...
+---
+
 # Password Enforcement Event Type
 
 The Password Enforcement event type prevents changing a password if the supplied password string
@@ -267,10 +273,10 @@ scoping can be enabled:
   [Words List Dictionary Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#words-list-dictionary-window)
   topic for additional information.
 
-    _Remember,_ the substitutions themselves are kept in the Character Substitution list.
+  _Remember,_ the substitutions themselves are kept in the Character Substitution list.
 
-    - Case sensitive – Differentiates between lowercase and capital text
-    - Reversed text also – Password patterns typed in backwards is blocked
+  - Case sensitive – Differentiates between lowercase and capital text
+  - Reversed text also – Password patterns typed in backwards is blocked
 
 Username in Password Section
 
@@ -310,14 +316,14 @@ enabled:
 - Minimum pattern length – Type or use the arrows to choose the minimum pattern length. The default
   is set to a pattern of three characters.
 
-    For Example: If the minimum pattern length is three, then “ArcArc” is blocked, “Arc” is allowed
+  For Example: If the minimum pattern length is three, then “ArcArc” is blocked, “Arc” is allowed
 
-    - Case sensitive – Differentiates between lowercase and capital text
-    - Reversed text also – Password patterns typed in backwards is blocked
-    - Character Substitution – Blocks a password if it contains a substituted character in a
-      password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
-      topic for additional information.
+  - Case sensitive – Differentiates between lowercase and capital text
+  - Reversed text also – Password patterns typed in backwards is blocked
+  - Character Substitution – Blocks a password if it contains a substituted character in a
+    password string listed in the Substitution Editor window. See the
+    [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
+    topic for additional information.
 
 Sequential Characters Section
 
@@ -330,15 +336,15 @@ Additional scoping can be enabled:
 - Minimum sequence size – Type or use the arrows to choose the minimum sequence length. The default
   is set to a pattern three sequential characters.
 
-    For Example: If the minimum sequence size is three, then “ABC” and “123” are blocked, “ABD” and
-    “124” are allowed.
+  For Example: If the minimum sequence size is three, then “ABC” and “123” are blocked, “ABD” and
+  “124” are allowed.
 
-    - Case sensitive – Differentiates between lowercase and capital text
-    - Descending order – Standard order is blocked if reversed, e.g. “321” and “CBA” are blocked
-    - Character Substitution – Blocks a password if it contains a substituted character in a
-      password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
-      topic for additional information.
+  - Case sensitive – Differentiates between lowercase and capital text
+  - Descending order – Standard order is blocked if reversed, e.g. “321” and “CBA” are blocked
+  - Character Substitution – Blocks a password if it contains a substituted character in a
+    password string listed in the Substitution Editor window. See the
+    [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
+    topic for additional information.
 
 Defined Text Section
 
@@ -354,15 +360,15 @@ Additional scoping can be enabled:
 
 - Block if contains defined text – Manually enter the desired text for a sub string search
 
-    For Example: If “day” is entered, then “M0nday47” is blocked, “M0n47” is allowed
+  For Example: If “day” is entered, then “M0nday47” is blocked, “M0n47” is allowed
 
-    - Case sensitive – Differentiates between lowercase and capital text
-    - Reverse order also – Blocks the reversed order of characters typed in the text box, e.g.
-      “74yadn0M”
-    - Character Substitution – Blocks a password if it contains a substituted character in a
-      password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
-      topic for additional information.
+  - Case sensitive – Differentiates between lowercase and capital text
+  - Reverse order also – Blocks the reversed order of characters typed in the text box, e.g.
+    “74yadn0M”
+  - Character Substitution – Blocks a password if it contains a substituted character in a
+    password string listed in the Substitution Editor window. See the
+    [Substitutions Editor Window](/docs/threatprevention/7.4/admin/configuration/epesettings.md#substitutions-editor-window)
+    topic for additional information.
 
 Keyboard Layout Sequence Section
 
@@ -375,10 +381,10 @@ scoping can be enabled:
 - Minimum sequence size – Type or use the arrows to choose the number of characters the filter will
   count up to. The default is three.
 
-    For Example: “QWERTY” is blocked, “ADGJL” is allowed
+  For Example: “QWERTY” is blocked, “ADGJL” is allowed
 
-    - Reverse order also – Standard order is reversed and blocked in keeping with the minimum
-      sequence size.
+  - Reverse order also – Standard order is reversed and blocked in keeping with the minimum
+    sequence size.
 
 Character Rules Section
 
@@ -391,21 +397,21 @@ characteristics within a password to be blocked or allowed. Additional scoping c
   applies an OR statement to multiple characters. Passwords not including at least one of these
   specified characters will be blocked.
 
-    - For Example: If “!@” is typed into the textbox,
+  - For Example: If “!@” is typed into the textbox,
 
-        - “Pass!word” is allowed
-        - “P@ssword” is allowed
-        - “Passw@!rd” is allowed
+    - “Pass!word” is allowed
+    - “P@ssword” is allowed
+    - “Passw@!rd” is allowed
 
 - Disallow specific character(s) – Enter one or more desired character(s) in the text box. The logic
   applies an OR statement to multiple characters. Passwords including at least one of these
   specified characters will be blocked.
 
-    - For Example: If “% or @” is typed into the textbox:
+  - For Example: If “% or @” is typed into the textbox:
 
-        - “Pas@sw0rd” is blocked
-        - “7Password%” is blocked
-        - “Pa$$word9” is allowed
+    - “Pas@sw0rd” is blocked
+    - “7Password%” is blocked
+    - “Pa$$word9” is allowed
 
 The following options can be set to a minimum and/or maximum threshold. If the password fails to
 meet the range requirements, it is blocked.

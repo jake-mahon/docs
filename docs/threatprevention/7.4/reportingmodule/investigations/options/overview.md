@@ -1,3 +1,9 @@
+---
+title: Investigation Options
+sidebar_label: Investigation Options
+description: You can view a saved investigation. Click Investigate in the application header bar to open the Investigations interface. Then click
+---
+
 # Investigation Options
 
 You can view a saved investigation.
@@ -25,14 +31,14 @@ Every investigation has the following options at the top of the page:
   scheduled as desired. See the Export Report topic for additional information.
 - Click the three dots to open a menu with the following options:
 
-    - Copy link – The Copy link option copies the URL of the investigation to your clipboard, so
-      that you can share it with users who have access to the report
-    - Open as new – The Open as New option opens the investigation in Duplicate mode. The filter is
-      the same as that of the base investigation. You can save it as a new investigation. See the
-      [Edit or Duplicate an Investigation](/docs/threatprevention/7.4/reportingmodule/investigations/options/edit.md)
-      topic for additional information.
-    - Delete – This option is available for a custom investigation. It is not possible to delete an
-      out-of-the-box investigation.
+  - Copy link – The Copy link option copies the URL of the investigation to your clipboard, so
+    that you can share it with users who have access to the report
+  - Open as new – The Open as New option opens the investigation in Duplicate mode. The filter is
+    the same as that of the base investigation. You can save it as a new investigation. See the
+    [Edit or Duplicate an Investigation](/docs/threatprevention/7.4/reportingmodule/investigations/options/edit.md)
+    topic for additional information.
+  - Delete – This option is available for a custom investigation. It is not possible to delete an
+    out-of-the-box investigation.
 
 - Run Query – The Run Query button pulls available activity data that match the set filters and
   timeframe. The data is displayed on the Event Details, Events Over Time, and Top Resources tabs.

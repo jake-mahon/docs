@@ -1,3 +1,9 @@
+---
+title: aws groups aws stalegroups
+sidebar_label: aws stalegroups
+description: Solution guide for aws groups aws stalegroups including implementation steps, configuration, and best practices.
+---
+
 # AWS_StaleGroups Job
 
 The AWS_StaleGroups job highlights groups that have members that are considered stale. The

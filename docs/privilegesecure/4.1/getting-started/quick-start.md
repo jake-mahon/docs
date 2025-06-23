@@ -1,3 +1,9 @@
+---
+title: Console Login Quick Start Guide
+sidebar_label: Quick Start
+description: Step-by-step instructions for accessing and logging into the Privilege Secure web console locally or remotely with browser requirements.
+---
+
 # Log Into the Privilege Secure Console
 
 Once installation is complete, Privilege Secure is accessible locally on the default port:

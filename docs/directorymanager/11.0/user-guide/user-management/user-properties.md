@@ -1,3 +1,9 @@
+---
+title: user properties
+sidebar_label: user-properties
+description: Directory Manager 11.0 documentation for user properties with configuration details, usage instructions, and implementation guidance.
+---
+
 # User Properties
 
 You can view and manipulate the properties of directory objects (users, mailboxes, and contacts) in

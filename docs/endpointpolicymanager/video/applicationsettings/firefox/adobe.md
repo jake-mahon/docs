@@ -1,3 +1,9 @@
+---
+title: Configure Firefox PDF Handler Tutorial
+sidebar_label: Adobe PDF
+description: Learn to change Firefox's default PDF viewer from internal viewer to Adobe Reader using Endpoint Policy Manager application handler settings.
+---
+
 # Change Firefox application handler (like PDF) to Adobe Reader
 
 Firefox always opens PDF files in it's own internal viewer. Most customers want to change this to an

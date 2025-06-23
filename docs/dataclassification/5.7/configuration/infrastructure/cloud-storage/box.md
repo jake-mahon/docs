@@ -1,3 +1,9 @@
+---
+title: Configure Box for Crawling
+sidebar_label: Box
+description: Netwrix Data Classification connects to and crawls a Box source via a custom Box app, created within Box management portal. 1. Check if your Box license plan...
+---
+
 # Configure Box for Crawling
 
 Netwrix Data Classification connects to and crawls a Box source via a custom Box app, created within

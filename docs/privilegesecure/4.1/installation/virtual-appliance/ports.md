@@ -1,3 +1,9 @@
+---
+title: Ports for the Virtual Appliance
+sidebar_label: ports
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Ports for the Virtual Appliance
 
 Review the following network port requirements for the virtual appliance:

@@ -1,3 +1,9 @@
+---
+title: Privilege Secure Installation Guide
+sidebar_label: Overview
+description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
+---
+
 # Installation
 
 These topics describes the installation and initial configuration process of Netwrix Privilege

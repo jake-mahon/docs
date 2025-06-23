@@ -1,3 +1,9 @@
+---
+title: scope
+sidebar_label: scope
+description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMailbox: Scope
 
 The Scope page is used to define which mailboxes are to be queried. It is a wizard page for all of

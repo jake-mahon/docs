@@ -1,3 +1,9 @@
+---
+title: Sessions Tab for Microsoft Entra ID
+sidebar_label: sessions
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Sessions Tab for Microsoft Entra ID
 
 The Sessions tab for Microsoft Entra ID (formerly Azure AD) shows information about the sessions of

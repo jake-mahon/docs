@@ -1,3 +1,9 @@
+---
+title: windows applications overview
+sidebar_label: overview
+description: Solution guide for windows applications overview including implementation steps, configuration, and best practices.
+---
+
 # Applications Job Group
 
 The Applications job group tracks various aspects of installed application management, identifying

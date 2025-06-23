@@ -1,3 +1,9 @@
+---
+title: Self-Audit Report Generation
+sidebar_label: Audit Log Reports
+description: Generate self-audit reports to track changes to Netwrix 1Secure configuration and monitor administrative activities.
+---
+
 # Generate a Self-Audit Report
 
 Built-in Netwrix 1Secure self-audit allows you to track changes to the product configuration,

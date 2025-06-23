@@ -1,3 +1,9 @@
+---
+title: connection Administration
+sidebar_label: connection
+description: Administration guide for connection including configuration, management, and best practices for Access Analyzer.
+---
+
 # Connection Tab
 
 The Connection tab is for configuring the Connection Profile. Choose to use the default settings

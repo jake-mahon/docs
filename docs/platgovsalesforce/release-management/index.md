@@ -1,3 +1,9 @@
+---
+title: Release Management Overview
+sidebar_label: Overview
+description: Plan, schedule, and control deployment movements between development, testing, and production environments with comprehensive release management tools.
+---
+
 # Release Management Overview
 
 Platform Governance for Salesforce’s release management assists with planning, scheduling and

@@ -1,3 +1,9 @@
+---
+title: License Generator Tool and Management
+sidebar_label: License Management
+description: Guide to using the License Generator tool to create and configure licenses for Password Policy Enforcer and related products.
+---
+
 # License Generator
 
 The License Generator tool allows users to create licenses for the Netwrix Password Policy Enforcer,

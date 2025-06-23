@@ -1,3 +1,9 @@
+---
+title: splunk
+sidebar_label: splunk
+description: Auditor 10.7 documentation for splunk with configuration details, usage instructions, and implementation guidance.
+---
+
 # Work with Collected Data
 
 Review the examples below for the possible scenarios on how to work with collected data.

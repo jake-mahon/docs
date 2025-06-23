@@ -1,3 +1,9 @@
+---
+title: compliance reports
+sidebar_label: compliance-reports
+description: Auditor 10.7 documentation for compliance reports with configuration details, usage instructions, and implementation guidance.
+---
+
 # Compliance Reports
 
 For your convenience, besides grouping by data source the reports are grouped by compliance

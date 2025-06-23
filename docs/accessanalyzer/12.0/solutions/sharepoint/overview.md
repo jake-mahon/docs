@@ -1,3 +1,9 @@
+---
+title: sharepoint overview
+sidebar_label: overview
+description: Solution guide for sharepoint overview including implementation steps, configuration, and best practices.
+---
+
 # SharePoint Solution
 
 The SharePoint Solution is a comprehensive set of audit jobs and reports which provide the

@@ -1,3 +1,9 @@
+---
+title: groupid as identity provider
+sidebar_label: groupid-as-identity-provider
+description: Directory Manager 11.0 documentation for groupid as identity provider with configuration details, usage instructions, and implementation guidance.
+---
+
 # Specify Default Metadata Values
 
 You can specify default values for the following GroupID metadata:

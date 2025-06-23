@@ -1,3 +1,9 @@
+---
+title: Quickstart Fields Demystified
+sidebar_label: quickstart fields
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Quickstart Fields Demystified
 
 Quickstart Fields Demystified

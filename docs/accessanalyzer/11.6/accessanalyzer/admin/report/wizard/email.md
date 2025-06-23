@@ -1,3 +1,9 @@
+---
+title: email
+sidebar_label: email
+description: Documentation for email functionality in Access Analyzer including configuration and usage information.
+---
+
 # E-mail Page
 
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and

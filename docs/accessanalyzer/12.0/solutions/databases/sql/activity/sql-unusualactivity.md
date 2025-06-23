@@ -1,3 +1,9 @@
+---
+title: databases sql activity sql unusualactivity
+sidebar_label: sql unusualactivity
+description: Solution guide for databases sql activity sql unusualactivity including implementation steps, configuration, and best practices.
+---
+
 # SQL_UnusualActivity Job
 
 The SQL_UnusualActivity Job identifies anomalies related to outlier user activity by database for

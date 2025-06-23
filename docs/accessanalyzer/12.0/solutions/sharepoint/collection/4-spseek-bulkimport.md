@@ -1,3 +1,9 @@
+---
+title: sharepoint collection 4 spseek bulkimport
+sidebar_label: 4 spseek bulkimport
+description: Solution guide for sharepoint collection 4 spseek bulkimport including implementation steps, configuration, and best practices.
+---
+
 # 4-SPSEEK_BulkImport Job
 
 This job is responsible for retrieving the Tier 2 SPDLP database information and importing it to the

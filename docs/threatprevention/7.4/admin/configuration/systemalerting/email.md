@@ -1,3 +1,9 @@
+---
+title: Email Tab
+sidebar_label: Email Tab
+description: Alert notification via email sends messages through an SMTP gateway. Alerts are designed to send email notifications to individuals or groups.
+---
+
 # Email Tab
 
 Alert notification via email sends messages through an SMTP gateway. Alerts are designed to send

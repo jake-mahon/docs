@@ -1,3 +1,9 @@
+---
+title: File System Solution
+sidebar_label: File System
+description: File system monitoring solution for Windows and NAS devices including access analysis, change tracking, and security enforcement.
+---
+
 # File System
 
 Threat Prevention for File System provides organizations with real-time visibility into and control

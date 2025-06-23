@@ -1,3 +1,9 @@
+---
+title: schedule
+sidebar_label: schedule
+description: Documentation for schedule functionality in Access Analyzer including configuration and usage information.
+---
+
 # Schedule (Activities Pane Option)
 
 Use the **Schedule** option in the Activities pane to schedule a host inventory query to run for any

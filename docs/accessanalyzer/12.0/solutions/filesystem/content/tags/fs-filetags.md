@@ -1,3 +1,9 @@
+---
+title: filesystem content tags fs filetags
+sidebar_label: fs filetags
+description: Solution guide for filesystem content tags fs filetags including implementation steps, configuration, and best practices.
+---
+
 # FS_FileTags Job
 
 The FS_FileTags job is designed to report on resources classified with metadata file tags from

@@ -1,3 +1,9 @@
+---
+title: linked accounts
+sidebar_label: linked-accounts
+description: Directory Manager 11.1 documentation for linked accounts with configuration details, usage instructions, and implementation guidance.
+---
+
 # Set up Authentication via Linked Account
 
 The Directory Manager portal enables a user to link accounts that he or she may have in different

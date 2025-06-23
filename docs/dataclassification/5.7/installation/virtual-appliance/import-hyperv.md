@@ -1,3 +1,9 @@
+---
+title: Import Virtual Machine from Image to Hyper-V
+sidebar_label: Import Hyperv
+description: Follow the steps to import Virtual Machine from Image to Hyper-V. Step 1 – On your Hyper-V server, unzip the Netwrix Data Classification virtual appliance...
+---
+
 # Import Virtual Machine from Image to Hyper-V
 
 Follow the steps to import Virtual Machine from Image to Hyper-V.

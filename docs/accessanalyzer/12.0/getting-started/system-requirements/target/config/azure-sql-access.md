@@ -1,3 +1,9 @@
+---
+title: Getting Started: azure sql access
+sidebar_label: azure sql access
+description: Getting started guide for azure sql access in Access Analyzer including setup instructions and initial configuration steps.
+---
+
 # Azure SQL Auditing Configuration
 
 Access Analyzer for Azure SQL relies on the native Azure SQL auditing capabilities to collect and

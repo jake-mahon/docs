@@ -1,3 +1,7 @@
+title: Baseline Tab Management
+sidebar_label: Baseline Creation
+description: Manage and create device baselines in ChangeTracker through the Baseline tab with configuration and monitoring setup options.
+
 # Baseline Tab
 
 ![baselinetab](/img/versioned_docs/changetracker_8.0/changetracker/baseline/baselinetab.webp)

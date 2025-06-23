@@ -1,3 +1,9 @@
+---
+title: Password Policy Configuration Options
+sidebar_label: Policy Configuration
+description: Configure Password Policy Enforcer settings including Windows rules management, domain policies, and local configuration options.
+---
+
 # Disable Windows Rules
 
 The Windows password policy rules can place restrictions on password history, age, length, and

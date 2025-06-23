@@ -1,3 +1,9 @@
+---
+title: delete Administration
+sidebar_label: delete
+description: Administration guide for delete including configuration, management, and best practices for Access Analyzer.
+---
+
 # Deleting False Positive Exclusion Filters
 
 Follow the steps to delete a False Positive Exclusion Filter.

@@ -1,3 +1,9 @@
+---
+title: Bulk Edit
+sidebar_label: Bulk Operations
+description: The Bulk Edit link can be used to make changes to several clues at one time: !bulkedit When this link is used the form changes into a grid editor and many...
+---
+
 # Bulk Edit
 
 The Bulk Edit link can be used to make changes to several clues at one time:

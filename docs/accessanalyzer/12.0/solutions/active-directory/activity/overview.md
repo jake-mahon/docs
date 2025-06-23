@@ -1,3 +1,9 @@
+---
+title: active directory activity overview
+sidebar_label: overview
+description: Solution guide for active directory activity overview including implementation steps, configuration, and best practices.
+---
+
 # 6.Activity Job Group
 
 The 6.Activity Job Group provides insights into access sprawl, privileged account usage, and

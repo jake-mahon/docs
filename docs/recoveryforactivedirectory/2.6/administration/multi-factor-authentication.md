@@ -1,3 +1,7 @@
+title: Multi-Factor Authentication Configuration
+sidebar_label: MFA
+description: Configure multi-factor authentication for Recovery for Active Directory accounts using authenticator apps for enhanced security access.
+
 # Configure Multi-Factor Authentication
 
 You can configure multi-factor authentication (MFA) for your Recovery for Active Directory account

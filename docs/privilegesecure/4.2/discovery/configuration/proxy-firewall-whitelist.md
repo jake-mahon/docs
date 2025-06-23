@@ -1,3 +1,9 @@
+---
+title: Proxy/Firewall Whitelist Servers
+sidebar_label: proxy firewall whitelist
+description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
+---
+
 # Proxy/Firewall Whitelist Servers
 
 Proxy/Firewall Whitelist Servers

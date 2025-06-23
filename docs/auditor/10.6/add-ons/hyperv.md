@@ -1,3 +1,9 @@
+---
+title: Hyper-V Add-on for Auditor
+sidebar_label: Hyper-V
+description: Deploy and configure Netwrix Auditor Hyper-V add-on for monitoring virtualization infrastructure changes and security events.
+---
+
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

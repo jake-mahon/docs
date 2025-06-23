@@ -1,3 +1,9 @@
+---
+title: Virtual Deployment
+sidebar_label: Appliance Overview
+description: In addition to traditional on-premises deployment, Netwrix Data Classification now offers new deployment options that can speed time-to-value by getting you ...
+---
+
 # Virtual Deployment
 
 In addition to traditional on-premises deployment, Netwrix Data Classification now offers new

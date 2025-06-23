@@ -1,3 +1,9 @@
+---
+title: filesystem directpermissions fs sidhistory
+sidebar_label: fs sidhistory
+description: Solution guide for filesystem directpermissions fs sidhistory including implementation steps, configuration, and best practices.
+---
+
 # FS_SIDHistory Job
 
 The **2.Direct Permissions** > **FS_SIDHistory** job is designed to report on trustees that have a

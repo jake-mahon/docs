@@ -1,3 +1,9 @@
+---
+title: Product Tour
+sidebar_label: Product Tour
+description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
+---
+
 # Product Tour
 
 New users now experience a product tour on first login. Standard users and users with the Privilege

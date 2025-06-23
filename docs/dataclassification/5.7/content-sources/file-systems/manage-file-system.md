@@ -1,3 +1,9 @@
+---
+title: Manage File System
+sidebar_label: Manage File System
+description: This section contains information on how to include or exclude files or folders from being crawled, and how to configure writing classification attributes ba...
+---
+
 # Manage File System
 
 This section contains information on how to include or exclude files or folders from being crawled,

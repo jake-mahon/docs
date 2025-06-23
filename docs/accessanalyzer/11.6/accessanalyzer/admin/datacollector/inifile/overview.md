@@ -1,3 +1,9 @@
+---
+title: INI File Data Collector Overview
+sidebar_label: Overview
+description: Overview of the INI File Data Collector for enumerating INI configuration files and their properties on target systems.
+---
+
 # INIFile Data Collector
 
 The INIFile Data Collector provides options to configure a task to collect information about log

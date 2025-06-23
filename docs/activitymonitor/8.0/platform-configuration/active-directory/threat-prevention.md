@@ -1,3 +1,9 @@
+---
+title: Active Directory Threat Prevention Integration
+sidebar_label: Threat Prevention
+description: Configure Netwrix Threat Prevention integration for Active Directory activity reporting with data collection and Access Analyzer connectivity.
+---
+
 # Getting Data from NTP for AD Activity Reporting
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the

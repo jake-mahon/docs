@@ -1,3 +1,9 @@
+---
+title: SIEM Templates Page
+sidebar_label: siem templates
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # SIEM Templates Page
 
 The SIEM Templates page is accessible from the Navigation pane under Configuration > SIEM. Privilege

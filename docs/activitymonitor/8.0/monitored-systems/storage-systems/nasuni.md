@@ -1,3 +1,9 @@
+---
+title: Nasuni Storage System Monitoring
+sidebar_label: Nasuni
+description: Monitor file activity on Nasuni Edge Appliances with comprehensive data collection and activity monitoring for cloud-connected file systems.
+---
+
 # Nasuni
 
 Understanding File Activity Monitoring

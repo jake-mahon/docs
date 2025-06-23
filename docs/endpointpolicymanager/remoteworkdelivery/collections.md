@@ -1,3 +1,9 @@
+---
+title: Using Collections for Groupings and Advanced Configuration
+sidebar_label: Collections
+description: Group Remote Work Delivery Manager policies using collections. Configure sequential and synchronous processing for organized policy deployment.
+---
+
 # Using Collections for Groupings and Advanced Configuration
 
 When you make a Endpoint Policy Manager Remote Work Delivery Manager collection, it enables you to

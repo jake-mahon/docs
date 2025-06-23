@@ -1,3 +1,9 @@
+---
+title: scripting
+sidebar_label: scripting
+description: Documentation for scripting functionality in Access Analyzer including configuration and usage information.
+---
+
 # Add a Script to an Existing Query
 
 The Query Properties window provides the ability to add a script to an existing query. Typically, a

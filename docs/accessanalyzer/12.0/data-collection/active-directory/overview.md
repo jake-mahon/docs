@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # ActiveDirectory Data Collector
 
 The ActiveDirectory Data Collector audits objects published in Active Directory. It has been

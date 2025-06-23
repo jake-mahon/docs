@@ -1,3 +1,9 @@
+---
+title: overview
+sidebar_label: overview
+description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
+---
+
 # Registry Action Module
 
 The Registry action module allows users to make bulk changes to the Microsoft Windows Registry. Use

@@ -1,3 +1,9 @@
+---
+title: Password Secure Setup Wizard
+sidebar_label: Setup Wizard
+description: Complete initial Password Secure configuration using the setup wizard including administrator password definition and essential system settings.
+---
+
 # Setup wizard
 
 ## What is the setup wizard?

@@ -1,3 +1,9 @@
+---
+title: box content box foldermetrics
+sidebar_label: box foldermetrics
+description: Solution guide for box content box foldermetrics including implementation steps, configuration, and best practices.
+---
+
 # Box_FolderMetrics Job
 
 The Box_FolderMetrics Job offers insight into content sizing, staleness, and ownership of folders in

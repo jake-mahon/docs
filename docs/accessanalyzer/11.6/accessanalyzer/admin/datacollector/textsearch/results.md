@@ -1,3 +1,9 @@
+---
+title: Text Search Results Configuration
+sidebar_label: Results
+description: Configuration page for selecting Text Search data collector results including search matches and content analysis.
+---
+
 # TextSearch: Results
 
 The Results page is where properties that will be gathered are selected.
@@ -10,9 +16,9 @@ based on the category selected.
 
 - Size units – Select from the following:
 
-    - Bytes
-    - KBytes
-    - MBytes
-    - GBytes
+  - Bytes
+  - KBytes
+  - MBytes
+  - GBytes
 
 - Only return results for files with at least one match

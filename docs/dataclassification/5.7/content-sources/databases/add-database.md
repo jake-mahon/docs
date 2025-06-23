@@ -1,3 +1,9 @@
+---
+title: Add Single Database
+sidebar_label: Add Database
+description: The Database source configuration screen allows you to enable the crawling and classification of content stored in your Microsoft SQL Server, MySQL, and Orac...
+---
+
 # Add Single Database
 
 The Database source configuration screen allows you to enable the crawling and classification of

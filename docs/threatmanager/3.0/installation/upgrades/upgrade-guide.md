@@ -1,3 +1,9 @@
+---
+title: Threat Manager Upgrade Procedure
+sidebar_label: Upgrade Guide
+description: Complete upgrade procedure for Threat Manager including compatibility considerations with Activity Monitor, Threat Prevention, and Access Analyzer.
+---
+
 # Upgrade Procedure
 
 This topic describes the steps needed for upgrading Threat Manager to the latest version.

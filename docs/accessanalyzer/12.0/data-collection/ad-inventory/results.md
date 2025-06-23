@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # ADInventory: Results
 
 The Results page is where properties from Active Directory to be gathered are selected. It is a

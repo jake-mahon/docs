@@ -1,3 +1,9 @@
+---
+title: CTERA Activity Auditing Configuration
+sidebar_label: Other Storage
+description: Configure CTERA Edge Filer activity monitoring and other storage platform integrations for comprehensive file system activity tracking.
+---
+
 # CTERA Activity Auditing Configuration
 
 The Netwrix Activity Monitor can be configured to monitor file system activity on CTERA Edge Filer

@@ -1,3 +1,9 @@
+---
+title: grouptype
+sidebar_label: grouptype
+description: Directory Manager 11.1 documentation for grouptype with configuration details, usage instructions, and implementation guidance.
+---
+
 # Group Type page
 
 Select the type of group you want to create and click **Next**. Options are:

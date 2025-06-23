@@ -1,3 +1,9 @@
+---
+title: permissions and access
+sidebar_label: permissions-and-access
+description: Auditor 10.7 documentation for permissions and access with configuration details, usage instructions, and implementation guidance.
+---
+
 # Permissions for Active Directory Auditing
 
 Before you start creating a monitoring plan to audit your Active Directory, plan for the account

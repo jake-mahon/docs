@@ -1,3 +1,9 @@
+---
+title: Adding a Clue
+sidebar_label: Add Clue
+description: To add a new clue, go to the topmost row in the list and specify clue properties, as explained below: When ready, click Insert on the right. !doccounts_thumb...
+---
+
 # Adding a Clue
 
 To add a new clue, go to the topmost row in the list and specify clue properties, as explained

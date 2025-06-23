@@ -1,3 +1,9 @@
+---
+title: best practices Administration
+sidebar_label: best practices
+description: Administration guide for best practices including configuration, management, and best practices for Access Analyzer.
+---
+
 # Best Practices
 
 With any new product, a few pointers can really get us started on the right foot. In the spirit of

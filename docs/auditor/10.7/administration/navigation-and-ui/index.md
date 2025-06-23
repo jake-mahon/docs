@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # Navigation
 
 Starting with version 10, the home screen in Netwrix Auditor is customizable so you can instantly

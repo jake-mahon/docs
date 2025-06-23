@@ -1,3 +1,9 @@
+---
+title: Search Documents by Clue
+sidebar_label: Search Taxonomies
+description: You can search for documents based on the class clues. For that, click on the name of any single clue in the clue list in the management console (or even any...
+---
+
 # Search Documents by Clue
 
 You can search for documents based on the class clues. For that, click on the name of any single

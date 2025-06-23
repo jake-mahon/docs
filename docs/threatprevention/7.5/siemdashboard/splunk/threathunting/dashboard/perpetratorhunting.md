@@ -1,3 +1,9 @@
+---
+title: Perpetrator Hunting
+sidebar_label: Perpetrator Hunting
+description: The Perpetrator Hunting option uses the Perpetrator Name field to determine which user is targeted when searching for threats. Wildcard characters (%) are al...
+---
+
 # Perpetrator Hunting
 
 The Perpetrator Hunting option uses the Perpetrator Name field to determine which user is targeted

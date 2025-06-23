@@ -1,3 +1,9 @@
+---
+title: file systems permissions analysis
+sidebar_label: permissions analysis
+description: Solution guide for file systems permissions analysis including implementation steps, configuration, and best practices.
+---
+
 # FS_ShareAudit Job
 
 The FS_ShareAudit Job is designed to report on shares from targeted file servers based on user

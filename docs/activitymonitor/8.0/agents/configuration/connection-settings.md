@@ -1,3 +1,9 @@
+---
+title: Agent Connection and Properties Settings
+sidebar_label: Connection Settings
+description: Configure agent connection settings and additional properties including comments, trace levels, and debugging options for Activity Monitor agents.
+---
+
 # Additional Properties Tab
 
 The Additional Properties Tab provides additional configuration options for the agent. The tab

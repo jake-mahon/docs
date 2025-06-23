@@ -1,3 +1,9 @@
+---
+title: active directory group policy ad group policy
+sidebar_label: ad group policy
+description: Solution guide for active directory group policy ad group policy including implementation steps, configuration, and best practices.
+---
+
 # AD_GroupPolicy Job
 
 The AD_GroupPolicy Job audits all Group Policies that are present on the Domain Controller, and

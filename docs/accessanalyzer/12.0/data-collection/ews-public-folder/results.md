@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # EWSPublicFolder: Results
 
 The Results page is used to select which properties will be gathered out of those available for the

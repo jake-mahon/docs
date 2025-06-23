@@ -1,3 +1,9 @@
+---
+title: Class List Window
+sidebar_label: Class List Window
+description: The Class List window provides a list of available classes to either include or exclude. Selected classes are added to the filter from where you clicked the ...
+---
+
 # Class List Window
 
 The Class List window provides a list of available classes to either include or exclude. Selected

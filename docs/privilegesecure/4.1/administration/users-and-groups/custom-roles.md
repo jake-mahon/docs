@@ -1,3 +1,9 @@
+---
+title: Add Custom Role
+sidebar_label: custom roles
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Add Custom Role
 
 The Add Role window allows users to add a role to Privilege Secure's Users & Groups Role Management

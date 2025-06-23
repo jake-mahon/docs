@@ -1,3 +1,9 @@
+---
+title: Report Creation Guide
+sidebar_label: Create
+description: Comprehensive guide for creating custom reports in Access Analyzer including setup, configuration, and best practices.
+---
+
 # Creating a Report
 
 Creating and customizing reports allows you to design outputs uniquely crafted to your requirements.

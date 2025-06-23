@@ -1,3 +1,9 @@
+---
+title: Logon Activity Auditing Overview
+sidebar_label: Logon Activity
+description: Configure logon activity monitoring with proper domain account planning and connector settings for comprehensive authentication tracking.
+---
+
 # Logon Activity Auditing
 
 Before you start adding the logon activity connector in your domain, plan for the domain account

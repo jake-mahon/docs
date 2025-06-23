@@ -1,3 +1,9 @@
+---
+title: Data Collection Process Exclusions
+sidebar_label: Process Exclusions
+description: Configure process exclusions for Activity Monitor data collection on Windows file servers with automatic Netwrix product exclusions.
+---
+
 # Process Exclusions Tab
 
 The Process Exclusions tab on an output Properties window is where monitoring scope by Windows

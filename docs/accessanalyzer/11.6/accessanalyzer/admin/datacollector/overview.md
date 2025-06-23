@@ -1,3 +1,9 @@
+---
+title: Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector Data Collector overview
+sidebar_label: overview
+description: Data collector documentation for  Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector overview including configuration options and collection settings.
+---
+
 # Data Collectors
 
 This topic covers the configuration wizards that are unique to each data collector. See the

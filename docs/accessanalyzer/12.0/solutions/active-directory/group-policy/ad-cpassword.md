@@ -1,3 +1,9 @@
+---
+title: active directory group policy ad cpassword
+sidebar_label: ad cpassword
+description: Solution guide for active directory group policy ad cpassword including implementation steps, configuration, and best practices.
+---
+
 # AD_CPassword Job
 
 The AD_CPassword Job identifies passwords that are stored in Group Policy Preferences which present

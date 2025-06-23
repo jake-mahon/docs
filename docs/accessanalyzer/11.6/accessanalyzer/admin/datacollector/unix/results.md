@@ -1,3 +1,9 @@
+---
+title: Unix Results Configuration
+sidebar_label: Results
+description: Configuration page for selecting Unix data collector results including command output and system information.
+---
+
 # Unix: Results
 
 On the Results page, select which properties will be gathered out of those available for the query.

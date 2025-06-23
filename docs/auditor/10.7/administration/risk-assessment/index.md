@@ -1,3 +1,9 @@
+---
+title: index
+sidebar_label: index
+description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
+---
+
 # IT Risk Assessment Overview
 
 To help you identify configuration gaps in your environment and understand their impact on overall

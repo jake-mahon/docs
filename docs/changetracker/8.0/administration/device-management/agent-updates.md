@@ -1,3 +1,7 @@
+title: Agent Updates Management
+sidebar_label: Agent Updates
+description: Deploy ChangeTracker agent updates to devices from the hub console with instant or scheduled deployment using verified zip files and integrity signatures.
+
 # Agent Updates
 
 When a new agent version is released and downloaded from the customer portal, it can be uploaded to

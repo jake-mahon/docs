@@ -1,3 +1,9 @@
+---
+title: Workflow Actions
+sidebar_label: Actions
+description: Actions are automated operation to be performed with the documents when rule conditions are triggered. There are two types of workflow actions: - Email Alert...
+---
+
 # Workflow Actions
 
 Actions are automated operation to be performed with the documents when rule conditions are

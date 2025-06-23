@@ -1,3 +1,9 @@
+---
+title: Export Reports and Investigation Results
+sidebar_label: Exporting Reports
+description: Export investigation results and reports to files for easier review, sharing, and analysis of security findings.
+---
+
 # Export a Report or Investigation Results
 
 You can export the results of a new investigation or a report to a file for easier review. The

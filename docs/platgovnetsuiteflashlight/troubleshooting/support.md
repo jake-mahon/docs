@@ -1,3 +1,9 @@
+---
+title: Report a Bug
+sidebar_label: Support
+description: Submit feedback and bug reports to Netwrix Support for Flashlight improvements and issue resolution through the integrated support system.
+---
+
 # Report a Bug
 
 If you encounter any problems using Flashlight or you have suggested improvements, we would love to

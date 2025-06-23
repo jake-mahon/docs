@@ -1,3 +1,9 @@
+---
+title: delete Administration
+sidebar_label: delete
+description: Administration guide for delete including configuration, management, and best practices for Access Analyzer.
+---
+
 # Delete a Storage Profile
 
 Follow the steps to delete a Storage Profile.

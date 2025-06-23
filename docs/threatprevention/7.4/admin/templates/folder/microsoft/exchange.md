@@ -1,3 +1,10 @@
+---
+title: Exchange Folder Templates
+sidebar_label: Exchange Folder Templates
+description: The Templates > Microsoft > Exchange folder in the Navigation pane contains the following templates: Managed Folders Folder
+
+---
+
 # Exchange Folder Templates
 
 The **Templates** > **Microsoft** > **Exchange** folder in the Navigation pane contains the

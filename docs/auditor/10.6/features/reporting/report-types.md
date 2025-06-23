@@ -1,3 +1,9 @@
+---
+title: Interactive Reports for Change Management
+sidebar_label: Report Types
+description: Navigate interactive reports in Netwrix Auditor for comprehensive change management workflow analysis and audit trail review.
+---
+
 # Interactive Reports for Change Management Workflow
 
 Change management is one of the critical processes for many companies referring to such areas as

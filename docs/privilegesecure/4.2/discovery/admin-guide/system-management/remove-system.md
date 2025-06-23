@@ -1,3 +1,9 @@
+---
+title: Remove a System from Privilege Secure
+sidebar_label: remove system
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Remove a System from Privilege Secure
 
 Remove a System from Privilege Secure

@@ -1,3 +1,9 @@
+---
+title: Password Reset Security Configuration
+sidebar_label: Security Settings
+description: Configure security settings for Password Reset including built-in security features and recommended security practices.
+---
+
 # Securing Password Reset
 
 Password Reset has many inbuilt security features, but there are some things you should do to secure

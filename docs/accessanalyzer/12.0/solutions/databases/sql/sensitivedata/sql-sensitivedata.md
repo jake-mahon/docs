@@ -1,3 +1,9 @@
+---
+title: databases sql sensitivedata sql sensitivedata
+sidebar_label: sql sensitivedata
+description: Solution guide for databases sql sensitivedata sql sensitivedata including implementation steps, configuration, and best practices.
+---
+
 # SQL_SensitiveData Job
 
 The SQL_SensitiveData Job designed to provide information on all the sensitive data that was

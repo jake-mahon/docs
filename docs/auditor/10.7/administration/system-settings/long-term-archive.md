@@ -1,3 +1,9 @@
+---
+title: long term archive
+sidebar_label: long-term-archive
+description: Auditor 10.7 documentation for long term archive with configuration details, usage instructions, and implementation guidance.
+---
+
 # Long-Term Archive
 
 The Long-Term Archive is configured by default, irrespective of your subscription plan and settings

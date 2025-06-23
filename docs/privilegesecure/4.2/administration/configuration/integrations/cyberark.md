@@ -1,3 +1,9 @@
+---
+title: CyberArk Integration
+sidebar_label: cyberark
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # CyberArk Integration
 
 Privilege Secure contains a built-in vault for credential management, but can uniquely map to a

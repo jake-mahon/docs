@@ -1,3 +1,9 @@
+---
+title: Bring Your Own Vault (BYOV) Connector Configuration
+sidebar_label: byov
+description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
+---
+
 # Bring Your Own Vault (BYOV) Connector Configuration
 
 This topic walks through the steps necessary to configure Netwrix Privilege Secure as a BYOV

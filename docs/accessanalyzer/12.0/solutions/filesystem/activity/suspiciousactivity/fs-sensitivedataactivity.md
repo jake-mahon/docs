@@ -1,3 +1,9 @@
+---
+title: filesystem activity suspiciousactivity fs sensitivedataactivity
+sidebar_label: fs sensitivedataactivity
+description: Solution guide for filesystem activity suspiciousactivity fs sensitivedataactivity including implementation steps, configuration, and best practices.
+---
+
 # FS_SensitiveDataActivity Job
 
 The FS_SensitiveDataActivity job is designed to report on activity event information on resources

@@ -1,3 +1,7 @@
+title: System Settings Configuration
+sidebar_label: General Settings
+description: Configure ChangeTracker system settings including SMTP, Active Directory, syslog server details, and UI reset options for system administration.
+
 # System Settings
 
 Edit settings such as SMTP, Active Directory and Syslog server details, and to reset the UI to

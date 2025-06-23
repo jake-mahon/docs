@@ -1,3 +1,9 @@
+---
+title: top Administration
+sidebar_label: top
+description: Administration guide for top including configuration, management, and best practices for Access Analyzer.
+---
+
 # Top Navigation
 
 The Top Navigation bars provide users quick access to various options and functions in Access

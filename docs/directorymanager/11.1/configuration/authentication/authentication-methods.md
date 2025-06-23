@@ -1,3 +1,9 @@
+---
+title: authentication methods
+sidebar_label: authentication-methods
+description: Directory Manager 11.1 documentation for authentication methods with configuration details, usage instructions, and implementation guidance.
+---
+
 # Set up Authentication via Email
 
 Users can enroll and authenticate their identity store accounts using Email. An email sent to a

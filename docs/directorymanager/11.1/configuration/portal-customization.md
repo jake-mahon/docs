@@ -1,3 +1,9 @@
+---
+title: portal customization
+sidebar_label: portal-customization
+description: Directory Manager 11.1 documentation for portal customization with configuration details, usage instructions, and implementation guidance.
+---
+
 # Manage the Bad Words List
 
 Directory Manager enables you to restrict portal users from saving data containing words that might

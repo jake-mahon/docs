@@ -1,3 +1,9 @@
+---
+title: Citrix Endpoint Manager Integration
+sidebar_label: Citrix CEM
+description: Learn to deploy real Group Policy and Endpoint Policy Manager settings through Citrix Endpoint Manager, combining CEM with MDM for enhanced endpoint management.
+---
+
 # Endpoint Policy Managerand Citrix Endpoint Manager: Deploy real Group Policy and Endpoint Policy Manager settings via CEM
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PLwimJ92PUg" title="Endpoint Policy Manager and Citrix Endpoint Manager: Deploy real Group Policy and Endpoint Policy Manager settings via CEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -1,3 +1,9 @@
+---
+title: Configuring defaults
+sidebar_label: Defaults
+description: The Source Defaults tab allows you to configure defaults that will be used in the absence of list / subsite configurations. Available options are listed in t...
+---
+
 # Configuring defaults
 
 The Source Defaults tab allows you to configure defaults that will be used in the absence of list /

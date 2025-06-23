@@ -1,3 +1,9 @@
+---
+title: properties
+sidebar_label: properties
+description: Documentation for properties functionality in Access Analyzer including configuration and usage information.
+---
+
 # ExchangeMailbox: Properties
 
 The Properties page is where properties that will be gathered are selected. The available properties

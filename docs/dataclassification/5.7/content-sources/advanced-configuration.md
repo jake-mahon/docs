@@ -1,3 +1,9 @@
+---
+title: Setting advanced configuration
+sidebar_label: Advanced Configuration
+description: Advanced SharePoint Configuration allows you to define which content within the SharePoint site collection will be crawled and to specify metadata mapping...
+---
+
 # Setting advanced configuration
 
 **Advanced SharePoint Configuration** allows you to define which content within the SharePoint site

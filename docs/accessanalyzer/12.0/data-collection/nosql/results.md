@@ -1,3 +1,9 @@
+---
+title: results
+sidebar_label: results
+description: Documentation for results functionality in Access Analyzer including configuration and usage information.
+---
+
 # NoSQL: Results
 
 The Results page is where the properties that will be gathered are selected. It is a wizard page for

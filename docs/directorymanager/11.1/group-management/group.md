@@ -1,3 +1,9 @@
+---
+title: group
+sidebar_label: group
+description: Directory Manager 11.1 documentation for group with configuration details, usage instructions, and implementation guidance.
+---
+
 # Create Active Directory Groups
 
 Using Directory Manager portal, you can create static groups and Smart Groups in an Active Directory

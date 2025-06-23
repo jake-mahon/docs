@@ -1,3 +1,9 @@
+---
+title: unix usersgroups ux localusers
+sidebar_label: ux localusers
+description: Solution guide for unix usersgroups ux localusers including implementation steps, configuration, and best practices.
+---
+
 # UX_LocalUsers Job
 
 The UX_LocalUsers job provides an overview of all local users within the audited Unix and Linux

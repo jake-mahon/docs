@@ -1,3 +1,9 @@
+---
+title: PostgreSQL Database Reports
+sidebar_label: PostgreSQL
+description: Access PostgreSQL database reports through Resource Audit interface with data collected by Access Analyzer PostgreSQL solution for database monitoring.
+---
+
 # PostgreSQL Reports
 
 PostgreSQL reports are accessed through the Resource Audit interface. Explore the PostgreSQL

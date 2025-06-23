@@ -1,3 +1,9 @@
+---
+title: search byattribute API
+sidebar_label: byattribute
+description: API reference for byattribute operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Search an Object By a Single Value Attribute
 
 Use this API to search a directory object in an identity store based on the specified attribute. For

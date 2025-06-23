@@ -1,3 +1,9 @@
+---
+title: Start Pending Modules
+sidebar_label: Start Pending Modules
+description: If the Agent was deployed using the Safe Mode option, then it could enter a  Start Pending Modules  state, in which the AD Events monitoring module is not lo...
+---
+
 # Start Pending Modules
 
 If the Agent was deployed using the Safe Mode option, then it could enter a _Start Pending Modules_

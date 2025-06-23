@@ -1,3 +1,9 @@
+---
+title: contact getcontacts API
+sidebar_label: getcontacts
+description: API reference for getcontacts operations in Directory Manager with request parameters, response examples, and implementation details.
+---
+
 # Get Contacts
 
 Use this API to retrieve information of multiple contacts from a specified identity store.

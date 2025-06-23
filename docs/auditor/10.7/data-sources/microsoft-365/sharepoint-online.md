@@ -1,3 +1,9 @@
+---
+title: sharepoint online
+sidebar_label: sharepoint-online
+description: Auditor 10.7 documentation for sharepoint online with configuration details, usage instructions, and implementation guidance.
+---
+
 # Using Basic Authentication with SharePoint Online
 
 With basic authentication, your SharePoint Online will be accessed on behalf of a user. You will

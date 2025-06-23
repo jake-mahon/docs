@@ -1,3 +1,9 @@
+---
+title: supported data sources
+sidebar_label: supported-data-sources
+description: Auditor 10.7 documentation for supported data sources with configuration details, usage instructions, and implementation guidance.
+---
+
 # Supported Data Sources
 
 This section lists platforms and systems that can be monitored with Netwrix Auditor.

@@ -1,3 +1,9 @@
+---
+title: PingCastle Enterprise Edition User Guide
+sidebar_label: Enterprise User Guide
+description: Comprehensive user guide for PingCastle Enterprise featuring maturity assessment, role-based access, dashboard management, and advanced security analytics.
+---
+
 # Description
 
 PingCastle Enterprise is a tool designed to improve and follow the

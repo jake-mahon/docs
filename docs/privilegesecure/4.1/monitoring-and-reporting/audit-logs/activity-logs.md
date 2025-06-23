@@ -1,3 +1,9 @@
+---
+title: Activity Log Page
+sidebar_label: activity logs
+description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
+---
+
 # Activity Log Page
 
 The Activity Log page shows the activity logs for users and resources. From here, search and

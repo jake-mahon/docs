@@ -1,3 +1,9 @@
+---
+title: Update Client Side Extension
+sidebar_label: Update CSE
+description: Use Remote Work Delivery Manager to update the Client Side Extension when no existing software distribution solution is available.
+---
+
 # How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?
 
 If you do not have an existing software distribution solution, delivery of software and updates can

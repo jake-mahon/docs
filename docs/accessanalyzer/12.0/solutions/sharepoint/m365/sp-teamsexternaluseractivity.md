@@ -1,3 +1,9 @@
+---
+title: sharepoint m365 sp teamsexternaluseractivity
+sidebar_label: sp teamsexternaluseractivity
+description: Solution guide for sharepoint m365 sp teamsexternaluseractivity including implementation steps, configuration, and best practices.
+---
+
 # SP_TeamsExternalUserActivity Job
 
 The SP_TeamsExternalUserActivity Job identifies all activity events performed by external users in

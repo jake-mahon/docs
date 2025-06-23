@@ -1,3 +1,9 @@
+---
+title: default scoping options
+sidebar_label: default scoping options
+description: Documentation for default scoping options functionality in Access Analyzer including configuration and usage information.
+---
+
 # FSAA: Default Scoping Options
 
 The Default Scoping Options page is where scan settings, file details, and file properties settings

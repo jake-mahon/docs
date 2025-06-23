@@ -1,3 +1,9 @@
+---
+title: File Extension Mapping Quick Start
+sidebar_label: Map Extensions
+description: Map file extensions to applications using File Associations Manager. Configure PDF, MAILTO, and MP4 associations for desktop and UWP applications.
+---
+
 # Quick Start - Mapping Extensions to Applications
 
 **NOTE:** For some video overviews of Endpoint Policy Manager File Associations Manager, see the
