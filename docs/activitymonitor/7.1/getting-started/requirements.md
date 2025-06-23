@@ -1,3 +1,9 @@
+---
+title: System Requirements and Architecture Overview
+sidebar_label: Requirements
+description: Server configuration recommendations and architecture requirements for deploying Activity Monitor console and agents in production environments.
+---
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the application

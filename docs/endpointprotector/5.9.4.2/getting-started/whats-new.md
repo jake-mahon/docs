@@ -1,3 +1,9 @@
+---
+title: What's New in Version 5.9.4
+sidebar_label: What's New
+description: Latest features and enhancements in Netwrix Endpoint Protector including rebranding, improved CAP integration, and enhanced device control.
+---
+
 # What's New
 
 ## New Netwrix Community!

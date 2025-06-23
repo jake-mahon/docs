@@ -1,3 +1,9 @@
+---
+title: Administration Overview
+sidebar_label: Overview
+description: Navigate the Change Tracker console including Dashboard, Events, Device, Overview, Planned Changes, Reports, and Settings tabs for system administration.
+---
+
 # Administration
 
 The Change Tracker console contains several pages that can be selected from the tabs at the top:

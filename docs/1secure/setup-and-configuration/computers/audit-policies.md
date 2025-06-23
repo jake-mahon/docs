@@ -1,3 +1,9 @@
+---
+title: Computer Advanced Audit Policies
+sidebar_label: Audit Policies
+description: Configure advanced audit policies to control event tracking and recording for computer monitoring with optimized performance.
+---
+
 # Configure Advanced Audit Policies
 
 Configure advanced audit policies to limit the range of events tracked and recorded by the product,

@@ -1,3 +1,9 @@
+---
+title: Supported Content Types
+sidebar_label: Content Types
+description: File types and extensions supported by Netwrix Data Classification for automated discovery and classification processes.
+---
+
 # Supported Content Types
 
 The table below lists types of content and their default extensions supported out of the box.

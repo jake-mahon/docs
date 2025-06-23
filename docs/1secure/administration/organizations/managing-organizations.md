@@ -1,3 +1,9 @@
+---
+title: Adding and Managing Organizations
+sidebar_label: Managing Organizations
+description: Step-by-step guide to add organizations in 1Secure, configure data sources, and manage organization settings for MSP environments.
+---
+
 # Add Organizations
 
 Follow the steps to add an organization.
@@ -71,16 +77,7 @@ organization.
 
 ## The organization is now added.
 
-id: manage-my-organization
-title: "Manage My Organization"
-pagination_label: "Manage My Organization"
-sidebar_label: "Manage My Organization"
-sidebar_position: 35
-description: "Learn how to review and edit your organization profile settings and manage deletion requests."
-
----
-
-# Manage My Organization
+## Manage My Organization
 
 After you added your organization, you can review or edit your profile on Configuration > My
 Organization page.

@@ -1,3 +1,9 @@
+---
+title: Getting Started with Directory Manager
+sidebar_label: Getting Started
+description: Learn Directory Manager fundamentals including clients, Admin Center configuration, device compatibility, and language support for successful deployment.
+---
+
 # Getting Started
 
 To get started with GroupID, it would be helpful to get an understanding of the following:

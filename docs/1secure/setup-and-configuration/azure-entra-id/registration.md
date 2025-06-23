@@ -1,3 +1,9 @@
+---
+title: App Registration in Microsoft Entra ID
+sidebar_label: Registration
+description: Configure Microsoft Entra ID application registration with proper settings and client secrets for Office 365 and Azure auditing.
+---
+
 # App Registration and Configuration in Microsoft Entra ID
 
 This topic explains how to configure an app in Microsoft Entra ID (formerly Azure AD) to audit

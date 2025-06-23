@@ -1,3 +1,9 @@
+---
+title: What's New in Version 7.1
+sidebar_label: What's New
+description: New features and enhancements in Netwrix Activity Monitor 7.1 including NetApp improvements, API support, and enhanced reporting capabilities.
+---
+
 # What's New
 
 The following information highlights the new and enhanced features introduced in this Netwrix

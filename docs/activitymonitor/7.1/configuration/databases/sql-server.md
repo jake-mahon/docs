@@ -1,3 +1,9 @@
+---
+title: SQL Server Monitoring Configuration
+sidebar_label: SQL Server
+description: Configure SQL login permissions and database mappings to enable Activity Monitor for comprehensive SQL Server activity tracking and auditing.
+---
+
 # SQL Server Activity Auditing Configuration
 
 In order for the Netwrix Activity Monitor to monitor SQL Server activity, a SQL login with certain

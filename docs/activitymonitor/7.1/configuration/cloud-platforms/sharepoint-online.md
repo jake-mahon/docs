@@ -1,3 +1,9 @@
+---
+title: SharePoint Online Monitoring Configuration
+sidebar_label: SharePoint Online
+description: Setup Activity Monitor to track SharePoint Online activity through Microsoft Entra ID registration with Global Administrator permissions.
+---
+
 # SharePoint Online Activity Auditing Configuration
 
 In order to collect logs and monitor SharePoint Online activity using the Netwrix Activity Monitor,

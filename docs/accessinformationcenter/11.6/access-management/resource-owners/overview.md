@@ -1,3 +1,9 @@
+---
+title: Resource Owners Overview
+sidebar_label: Overview
+description: Assign and manage resource owners for file systems, SharePoint sites, and Active Directory groups to enable access requests and review workflows.
+---
+
 # Resource Owners Overview
 
 The Resource Owners interface is where Access Information Center users with either the Security Team

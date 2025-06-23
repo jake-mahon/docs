@@ -1,3 +1,9 @@
+---
+title: Deployment Planning for Data Classification
+sidebar_label: Deployment Planning
+description: Recommendations and considerations for Netwrix Data Classification deployment planning including scalability and storage requirements.
+---
+
 # Deployment Planning
 
 This section provides recommendations and considerations for Netwrix Data Classification deployment

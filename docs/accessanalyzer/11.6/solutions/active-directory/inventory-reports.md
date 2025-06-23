@@ -1,3 +1,9 @@
+---
+title: AD Inventory Reports
+sidebar_label: Inventory Reports
+description: Active Directory inventory reporting jobs including computer delegation analysis and stale computer detection for security assessment.
+---
+
 # AD_ComputerDelegation Job
 
 The AD_ComputerDelegation Job provides details on computer accounts that have been enabled for

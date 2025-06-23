@@ -1,3 +1,9 @@
+---
+title: Introduction and Basic Concepts
+sidebar_label: Basic Concepts
+description: Overview of Netwrix Endpoint Policy Manager components and capabilities. Learn about Application Settings, Least Privilege, Browser Router, and other managers.
+---
+
 # Introduction and Basic Concepts
 
 Thank you for trying Netwrix Endpoint Policy Manager (formerly PolicyPak) Software. This manual will

@@ -36,11 +36,11 @@ cd docs
 npm install
 
 # Start development server (all products)
-npm start
+npm run start
 
 # Single product mode (recommended for development)
-npm start 1secure
-npm start accessanalyzer/12.0
+npm run start 1secure
+npm run start accessanalyzer/12.0
 ```
 
 ## 📁 Project Structure
@@ -110,7 +110,7 @@ npm run serve                     # Serve production build after `npm run build`
 
 The new centralized system makes development much simpler:
 
-1. **Start development server**: `npm start`
+1. **Start development server**: `npm run start`
 2. **Make changes** to documentation or configuration
 3. **Hot reload** automatically updates the site
 4. **All products and versions** work seamlessly
@@ -121,9 +121,9 @@ For backward compatibility, single-product scripts still work:
 
 ```bash
 # Examples (optional - full site starts quickly now)
-npm start 1secure
-npm start accessanalyzer/12.0
-npm start identitymanager/saas
+npm run start 1secure
+npm run start accessanalyzer/12.0
+npm run start identitymanager/saas
 ```
 
 ## ⚙️ Centralized Configuration System
@@ -343,7 +343,7 @@ description: 'SEO description'
 - **Paths**: Always absolute from project root
 
 ```markdown
-![Description](/img/product_docs/productname/feature.webp)
+![Description](/img/product_docs/productname/image.webp)
 ```
 
 ## 🚀 Deployment
@@ -353,34 +353,37 @@ description: 'SEO description'
 - **Production**: Auto-deploys from `main` branch
 - **Development**: Auto-deploys from `dev` branch
 
-### Environment Configuration
-
-- **URL**: Uses `RENDER_EXTERNAL_URL` environment variable
-- **Memory**: 8GB limit for large builds
-- **Analytics**: Google Analytics with tracking ID `G-FZPWSDMTEX`
-- **Search**: Algolia search with app ID `KPMSCF6G6J`
-
 ## 🤝 Contributing
 
 ### Simplified Development Workflow
 
-Thanks to the centralized configuration system, contributing is now much easier:
+Contributing is easy:
 
 1. **Start development server**:
 
 ```bash
-npm start
+npm run start
 ```
 
 2. **Make changes** to documentation or configuration
 
 3. **Format code** before committing:
 
+If this isn't done, a pre-commit hook will do it for you anyways.
+
 ```bash
 npm run format
 ```
 
-4. **Test build**:
+4. **Test builds**:
+
+Test a build of the docs you edited:
+
+```bash
+npm run build [product][/version]
+```
+
+Test a build of all docs:
 
 ```bash
 npm run build
@@ -388,126 +391,23 @@ npm run build
 
 5. **Submit pull request**
 
-### Adding New Products (3-Step Process)
-
-1. **Add product to `src/config/products.js`**
-2. **Create documentation folder and files**
-3. **Create sidebar configuration**
-
-That's it! No more editing multiple files or complex configurations.
-
-### Code Style Guidelines
-
-- **Format with Prettier**: `npm run format`
-- **TypeScript validation**: `npm run typecheck`
-- **Follow existing naming conventions**
-- **Add JSDoc comments for complex functions**
-- **Keep components focused and reusable**
+Create a PR to the dev branch, and then main when ready for production.
 
 ## 🔍 Testing & Quality Assurance
-
-### Pre-Deployment Checklist
-
-Before submitting changes:
-
-```bash
-# 1. Code formatting
-npm run format:check
-
-# 2. TypeScript validation
-npm run typecheck
-
-# 3. Build validation
-npm run build
-
-# 4. Manual testing
-npm start
-# Test navigation, search, and product pages
-```
 
 ### Common Testing Scenarios
 
 - ✅ **Homepage loads** with all product categories
 - ✅ **Product pages accessible** from homepage links
 - ✅ **Version badges work** for multi-version products
-- ✅ **Search functionality** finds relevant content
-- ✅ **Mobile responsive** design works
-- ✅ **Dark mode toggle** functions properly
-
-## 🛠️ Troubleshooting
-
-### Build Issues
-
-```bash
-# Clear cache and rebuild
-npm run clear
-npm run build
-
-# Check for configuration errors
-npm run typecheck
-```
-
-### Common Problems
-
-**"Cannot find module" errors**
-
-- Verify sidebar file paths in `src/config/products.js`
-- Check that referenced sidebar files exist
-
-**Products missing from homepage**
-
-- Ensure product category matches exactly with `PRODUCT_CATEGORIES`
-- Verify `generateProductCategories()` import
-
-**Routing problems**
-
-- Check `path` and version configurations in `products.js`
-- Look for conflicting route definitions
-
-### Performance Issues
-
-- Use `npm run clear` to clear cache
-- Restart development server for configuration changes
-- Check browser developer tools for specific errors
-
-## 🔄 Migration Guide
-
-### From Old Architecture
-
-If you're familiar with the previous setup:
-
-- **Product configs** moved from `docusaurus.config.js` → `src/config/products.js`
-- **Homepage products** moved from `HomepageFeatures/index.js` → `src/config/products.js`
-- **Meta tag mappings** moved from `ProductMetaTags/index.js` → `src/config/products.js`
-
-### Benefits of New System
-
-- ✅ **80% fewer lines** of configuration code
-- ✅ **Single source of truth** for all product data
-- ✅ **Automatic consistency** across components
-- ✅ **Faster development** and easier maintenance
-- ✅ **Nearly impossible** to create configuration errors
 
 ## 📚 Resources
 
 - **Docusaurus Documentation**: [docusaurus.io](https://docusaurus.io/)
 - **MDX Guide**: [mdxjs.com](https://mdxjs.com/)
 - **React Documentation**: [react.dev](https://react.dev/)
-- **Netwrix Products**: [netwrix.com](https://www.netwrix.com/)
-
-## 📞 Support & Community
-
-- **Documentation Issues**: Create an issue in this repository
-- **Product Support**: [Netwrix Support Portal](https://www.netwrix.com/support.html)
-- **Community**: [Netwrix Community](https://community.netwrix.com)
-- **GitHub**: [github.com/netwrix](https://github.com/netwrix)
+- **Algolia Documentation**: [algolia.com](https://www.algolia.com/doc/)
 
 ## 📄 License
 
-This documentation site is maintained by Netwrix Corporation.
-
-For licensing information and product inquiries, visit [netwrix.com](https://www.netwrix.com/).
-
----
-
-**Built with ❤️ using [Docusaurus](https://docusaurus.io/) and powered by the revolutionary centralized configuration system.**
+This documentation site is MIT licensed and open source, and is maintained by Netwrix Corporation.

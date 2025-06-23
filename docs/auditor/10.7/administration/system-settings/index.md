@@ -1,3 +1,9 @@
+---
+title: Netwrix Auditor API Integrations
+sidebar_label: Integrations
+description: Configure Integration API settings, port configuration, and third-party application connections for data input and output capabilities.
+---
+
 # Integrations
 
 Netwrix Auditor Integration API—endless integration, auditing and reporting capabilities.

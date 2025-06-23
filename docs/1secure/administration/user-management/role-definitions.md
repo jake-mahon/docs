@@ -1,3 +1,9 @@
+---
+title: User Role Permissions Reference
+sidebar_label: Role Definitions
+description: Comprehensive permissions matrix for MSP, Business Viewer, and Co-managing Administrator roles across all 1Secure features and screens.
+---
+
 # Permissions by Role
 
 The following tables describe permissions by role for each type of screen or action.

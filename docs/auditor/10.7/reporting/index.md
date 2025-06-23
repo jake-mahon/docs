@@ -1,3 +1,9 @@
+---
+title: Netwrix Auditor Reporting Overview
+sidebar_label: Reporting
+description: Comprehensive reporting capabilities including predefined reports, compliance reports, and custom reports for tracking IT infrastructure changes.
+---
+
 # Reports
 
 Netwrix Auditor provides a variety of reports for each data source. This helps you keep track of all

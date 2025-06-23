@@ -1,3 +1,9 @@
+---
+title: System Requirements Overview
+sidebar_label: Overview
+description: Complete system requirements including OS support matrix, network ports, hub installation, and agent requirements for Netwrix Change Tracker.
+---
+
 # Requirements
 
 (missing or bad snippet)

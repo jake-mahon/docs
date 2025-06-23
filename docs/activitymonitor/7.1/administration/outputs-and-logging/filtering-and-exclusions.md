@@ -1,3 +1,9 @@
+---
+title: Account Filtering and Exclusions
+sidebar_label: Filtering
+description: Configure monitoring scope by excluding specific accounts from activity tracking using the Account Exclusions settings for outputs.
+---
+
 # Account Exclusions Tab
 
 The Account Exclusions tab on an output Properties window is where monitoring scope by account name

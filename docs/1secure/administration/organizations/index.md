@@ -1,3 +1,9 @@
+---
+title: Organization Management Overview
+sidebar_label: Organizations
+description: Overview of organization management in 1Secure, including parent and child tenants, MSP configurations, and organizational structure setup.
+---
+
 # Manage Organizations
 
 Netwrix 1Secure operates as a service, providing data analysis and reporting capabilities for the

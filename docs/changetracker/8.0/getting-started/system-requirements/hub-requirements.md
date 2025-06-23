@@ -1,3 +1,9 @@
+---
+title: Hub Installation Requirements
+sidebar_label: Hub Requirements
+description: Hardware and software requirements for installing Netwrix Change Tracker Hub on Windows Server including specifications for different deployment sizes.
+---
+
 # Hub Installation for Windows
 
 This topic lists the hardware requirements and software requirements for Netwrix Change Tracker.

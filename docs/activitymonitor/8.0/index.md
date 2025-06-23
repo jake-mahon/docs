@@ -1,3 +1,9 @@
+---
+title: Netwrix Activity Monitor 8.0 Overview
+sidebar_label: Overview
+description: Enhanced real-time activity monitoring with improved performance, cloud platform support, and advanced filtering capabilities for security teams.
+---
+
 # Netwrix Activity Monitor 8.0
 
 > **Real-time visibility into critical activities across your IT infrastructure**

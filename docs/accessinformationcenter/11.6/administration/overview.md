@@ -1,3 +1,9 @@
+---
+title: Administrator Overview
+sidebar_label: Overview
+description: Administrative access to configuration interface, application settings, navigation, troubleshooting, and user access management for Access Information Center.
+---
+
 # Administrator Overview
 
 Access Information Center administrators have access to the Configuration interface where there

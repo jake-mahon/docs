@@ -1,3 +1,9 @@
+---
+title: Exchange Online Data Source Setup
+sidebar_label: Exchange Online
+description: Configure Exchange Online auditing with Microsoft Entra ID application registration and proper permissions for Office 365 monitoring.
+---
+
 # Exchange Online Auditing
 
 Before adding an Exchange Online data source for your organization, plan for the account that will

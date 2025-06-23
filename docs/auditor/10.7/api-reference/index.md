@@ -1,3 +1,9 @@
+---
+title: Netwrix Auditor Integration API Reference
+sidebar_label: API Reference
+description: REST API endpoints for accessing audit data, writing activity records, and integrating Netwrix Auditor with third-party applications.
+---
+
 # Compatibility Notice
 
 Make sure to check your product version, and then review and update your add-ons and scripts

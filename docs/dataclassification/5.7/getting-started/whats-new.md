@@ -1,3 +1,9 @@
+---
+title: What's New in Version 5.7
+sidebar_label: What's New
+description: Discover new features and enhancements in Netwrix Data Classification 5.7 including SQL database crawling, improved workflows, and bug fixes.
+---
+
 # What's New in 5.7
 
 ## New Netwrix Community!

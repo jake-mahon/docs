@@ -1,3 +1,9 @@
+---
+title: Active Directory Audit Policies Configuration
+sidebar_label: Audit Policies
+description: Configure audit policies and account permissions required for Active Directory data collection and comprehensive security monitoring.
+---
+
 # Active Directory Auditing
 
 To collect data from Active Directory, you need an account with specific permissions. The following

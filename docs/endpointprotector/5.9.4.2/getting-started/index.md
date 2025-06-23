@@ -1,3 +1,9 @@
+---
+title: Getting Started Guide
+sidebar_label: Getting Started
+description: Complete setup guide for Netwrix Endpoint Protector including system requirements, server staging, and initial configuration steps.
+---
+
 # Netwrix Endpoint Protector v5.9.4.2
 
 Netwrix Endpoint Protector is a comprehensive Data Loss Prevention (DLP) solution designed to

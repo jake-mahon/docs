@@ -1,3 +1,9 @@
+---
+title: Directory Manager 11.1 Overview
+sidebar_label: Overview
+description: Enhanced Directory Manager 11.1 with improved Azure AD integration, mobile approval workflows, advanced analytics, and better performance for large directories.
+---
+
 # Directory Manager 11.1
 
 > **Simplify Active Directory and Azure AD group management**

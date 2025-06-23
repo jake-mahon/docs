@@ -1,6 +1,12 @@
+---
+title: Agent Installation and Deployment
+sidebar_label: Agent
+description: Complete guide for installing and deploying Endpoint Protector agents across Windows, macOS, and Linux platforms including platform-specific configurations.
+---
+
 # Agent
 
-The Endpoint Protector Agent enforces the Rights and Settings received from the Endpoint Protector
+The Endpoint Protector Agent enforces the Rights and Settings received from the Endpoint Protector
 Server on the protected endpoints (Windows, Mac, and Linux).
 
 You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed
@@ -199,9 +205,9 @@ section within the Endpoint Protector Console.
 **Step 3 –** In the **Application Name field**, specify the WSL application you want to control.
 This could be:
 
-- `wsl *` – This wildcard entry will match all WSL applications.
+- `wsl *` – This wildcard entry will match all WSL applications.
 - `wsl.exe` – This entry will specifically target the `wsl.exe` executable.
-- `wsl.exe --help` – This entry will target the specific command `wsl.exe --help`.
+- `wsl.exe --help` – This entry will target the specific command `wsl.exe --help`.
 - `wsl --list`– This entry will target the `wsl --list` command.
 
 **NOTE:** Endpoint Protector Client cannot directly control the usage of WSL Bash command-line tools

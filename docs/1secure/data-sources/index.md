@@ -1,3 +1,9 @@
+---
+title: Data Sources and Connectors
+sidebar_label: Data Sources
+description: Configure data sources to collect security data from Active Directory, computers, Exchange Online, Microsoft Entra ID, SharePoint Online, and SQL Server.
+---
+
 # Sources and Connectors
 
 In Netwrix 1Secure, you can add data sources and their connectors to collect data from the following

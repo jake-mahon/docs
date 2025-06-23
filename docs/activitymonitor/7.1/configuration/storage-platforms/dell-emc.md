@@ -1,3 +1,9 @@
+---
+title: Dell Celerra and VNX Configuration
+sidebar_label: Dell EMC
+description: Configure Dell Celerra and VNX storage devices for SMB protocol auditing through Dell Common Event Enabler integration with Activity Monitor.
+---
+
 # Dell Celerra & Dell VNX Activity Auditing Configuration
 
 An Dell Celerra or VNX device can be configured to audit Server Message Block (SMB) protocol access

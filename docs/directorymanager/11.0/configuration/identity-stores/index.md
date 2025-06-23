@@ -1,3 +1,9 @@
+---
+title: Identity Store Configuration Guide
+sidebar_label: Identity Stores
+description: Step-by-step guide to create and configure identity stores for Active Directory, Microsoft Entra ID, Generic LDAP, and Google Workspace providers.
+---
+
 # Create an Identity Store
 
 To perform group and identity management operations in an identity provider using GroupID, the first

@@ -1,3 +1,9 @@
+---
+title: Resource Audit Overview
+sidebar_label: Overview
+description: View comprehensive reports on resources, permissions, effective access, and user activity across file systems, SharePoint, and other audited environments.
+---
+
 # Resource Audit Overview
 
 The Resource Audit interface is where Netwrix Access Information Center users view reports on

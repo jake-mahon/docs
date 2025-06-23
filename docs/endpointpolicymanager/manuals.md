@@ -1,3 +1,9 @@
+---
+title: Endpoint Policy Manager User Manuals
+sidebar_label: User Manuals
+description: Complete user manual directory for Netwrix Endpoint Policy Manager. Access guides for Least Privilege, Device Management, Application Settings, Browser Router, and more.
+---
+
 # Netwrix Endpoint Policy Manager (formerly PolicyPak) User Manuals
 
 The following topics provide information on using Endpoint Policy Manager:

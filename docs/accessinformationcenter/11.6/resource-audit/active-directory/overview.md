@@ -1,3 +1,9 @@
+---
+title: Active Directory Reports
+sidebar_label: Overview
+description: Comprehensive Active Directory auditing including domain controllers, user accounts, group memberships, and security permissions analysis reports.
+---
+
 # Active Directory Reports
 
 Active Directory reports are accessed through the Resource Audit interface. Explore the Active

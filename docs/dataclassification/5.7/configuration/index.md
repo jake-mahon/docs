@@ -1,3 +1,9 @@
+---
+title: Configuration Options for Data Classification
+sidebar_label: Configuration
+description: Global system configuration settings and administration options for Netwrix Data Classification with core and advanced settings.
+---
+
 # Configuration Options
 
 The Config administration area allows you to specify global system configuration settings. The

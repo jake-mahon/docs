@@ -1,3 +1,9 @@
+---
+title: Agent Installation Overview
+sidebar_label: Overview
+description: Complete guide for installing Change Tracker agents including Gen 7 Agent for Windows/Linux and Express Agent for Solaris/AIX with troubleshooting.
+---
+
 # Agent Installation
 
 Review the following for additional information:
