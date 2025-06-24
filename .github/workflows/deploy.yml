@@ -103,11 +103,11 @@ jobs:
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ vars.RENDER_SERVICE_ID }}
+          service_id: ${{ secrets.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
           wait_deploy: true
           github_deployment: true
-          deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
+          deployment_environment: ${{ secrets.RENDER_DEPLOY_ENVIRONMENT }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment on PR
@@ -116,7 +116,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ vars.SITE_URL }}';
+            const deployUrl = '${{ secrets.SITE_URL }}';
             const environment = 'Development';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             
@@ -183,11 +183,11 @@ jobs:
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ vars.RENDER_SERVICE_ID }}
+          service_id: ${{ secrets.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
           wait_deploy: true
           github_deployment: true
-          deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
+          deployment_environment: ${{ secrets.RENDER_DEPLOY_ENVIRONMENT }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment on PR
@@ -196,7 +196,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ vars.SITE_URL }}';
+            const deployUrl = '${{ secrets.SITE_URL }}';
             const environment = 'Production';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             

@@ -54,8 +54,8 @@ jobs:
       
       - name: Validate site is accessible
         run: |
-          echo "🔍 Checking if site is accessible at ${{ vars.SITE_URL }}..."
-          response=$(curl -s -o /dev/null -w "%{http_code}" "${{ vars.SITE_URL }}")
+          echo "🔍 Checking if site is accessible at ${{ secrets.SITE_URL }}..."
+          response=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.SITE_URL }}")
           if [ "$response" -eq 200 ]; then
             echo "✅ Site is accessible (HTTP $response)"
           else
@@ -67,12 +67,12 @@ jobs:
         uses: algolia/algoliasearch-crawler-github-actions@v1
         id: algolia_crawler
         with:
-          crawler-user-id: ${{ vars.CRAWLER_USER_ID }}
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          crawler-name: ${{ vars.CRAWLER_NAME }}
-          site-url: ${{ vars.SITE_URL }}
+          crawler-name: ${{ secrets.CRAWLER_NAME }}
+          site-url: ${{ secrets.SITE_URL }}
       
       - name: Get workflow run details
         if: github.event_name == 'workflow_run'
@@ -118,7 +118,7 @@ jobs:
             
             | Status | Index | Environment | Time |
             |--------|-------|-------------|------|
-            | ✅ Success | ${{ vars.INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
+            | ✅ Success | ${{ secrets.INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
             
             Your documentation changes are now searchable in production.
             
@@ -137,8 +137,8 @@ jobs:
         run: |
           if [ "${{ steps.algolia_crawler.outcome }}" == "success" ]; then
             echo "✅ Algolia reindexing completed successfully for ${{ steps.set-env.outputs.environment }} environment"
-            echo "📍 Index: ${{ vars.INDEX_NAME }}"
-            echo "🌐 Site URL: ${{ vars.SITE_URL }}"
+            echo "📍 Index: ${{ secrets.INDEX_NAME }}"
+            echo "🌐 Site URL: ${{ secrets.SITE_URL }}"
           else
             echo "❌ Algolia reindexing failed"
             exit 1
