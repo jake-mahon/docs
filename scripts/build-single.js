@@ -58,17 +58,30 @@ function getPluginId(product, version) {
 
 // Function to check if plugin exists in docusaurus config
 function validatePlugin(pluginId, product, version) {
-  const configPath = path.join(__dirname, '..', 'docusaurus.config.js');
-  const configContent = fs.readFileSync(configPath, 'utf8');
+  // Import the products configuration to validate against actual product definitions
+  const productsPath = path.join(__dirname, '..', 'src', 'config', 'products.js');
+  const { PRODUCTS } = require(productsPath);
 
-  // Check if plugin ID exists in config
-  if (!configContent.includes(`id: '${pluginId}'`)) {
-    console.error(`Plugin "${pluginId}" not found in docusaurus.config.js`);
-    if (version) {
-      console.error(`Product "${product}" version "${version}" is not configured.`);
-    } else {
-      console.error(`Product "${product}" is not configured.`);
+  // Find the product
+  const productConfig = PRODUCTS.find((p) => p.id === product);
+  if (!productConfig) {
+    console.error(`Product "${product}" not found in products configuration.`);
+    console.error('Available products:', PRODUCTS.map((p) => p.id).join(', '));
+    process.exit(1);
+  }
+
+  // If version is provided, check if it exists
+  if (version) {
+    const versionExists = productConfig.versions.some((v) => v.version === version);
+    if (!versionExists) {
+      console.error(`Version "${version}" not found for product "${product}".`);
+      console.error(`Available versions: ${productConfig.versions.map((v) => v.version).join(', ')}`);
+      process.exit(1);
     }
+  } else if (!versionlessProducts.includes(product)) {
+    // If no version provided for a versioned product, error
+    console.error(`Product "${product}" requires a version number.`);
+    console.error(`Available versions: ${productConfig.versions.map((v) => v.version).join(', ')}`);
     process.exit(1);
   }
 }
@@ -77,28 +90,38 @@ function validatePlugin(pluginId, product, version) {
 function createTempConfig(pluginId, product, version) {
   const tempConfigPath = path.join(__dirname, '..', 'docusaurus.single.config.js');
 
+  // Import the products configuration to get the correct paths
+  const productsPath = path.join(__dirname, '..', 'src', 'config', 'products.js');
+  const { PRODUCTS } = require(productsPath);
+
+  // Find the product configuration
+  const productConfig = PRODUCTS.find((p) => p.id === product);
+
   // Get the path and sidebar for this specific product
   let docPath, routeBasePath, sidebarPath;
 
   if (version) {
     docPath = `docs/${product}/${version}`;
     routeBasePath = '/'; // Serve at root for single product builds
+
+    // Find the version configuration to get the sidebar path
+    const versionConfig = productConfig.versions.find((v) => v.version === version);
+    sidebarPath = versionConfig.sidebarFile;
   } else {
     // Handle special cases
     if (pluginId === 'identitymanager_saas') {
       docPath = 'docs/identitymanager/saas';
       routeBasePath = '/'; // Serve at root for single product builds
+      const versionConfig = productConfig.versions.find((v) => v.version === 'saas');
+      sidebarPath = versionConfig.sidebarFile;
     } else {
       docPath = `docs/${product}`;
       routeBasePath = '/'; // Serve at root for single product builds
-    }
-  }
 
-  // Determine sidebar path
-  if (product === 'threatprevention' && version) {
-    sidebarPath = `./sidebars/threatprevention-${version}-sidebar.js`;
-  } else {
-    sidebarPath = './sidebars/sidebar.js';
+      // For versionless products, get the sidebar from the 'current' version
+      const versionConfig = productConfig.versions.find((v) => v.version === 'current');
+      sidebarPath = versionConfig.sidebarFile;
+    }
   }
 
   // Create minimal config with just the single plugin
