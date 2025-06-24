@@ -31,6 +31,7 @@ jobs:
   reindex-algolia:
     name: Reindex Algolia Search
     runs-on: ubuntu-latest
+    environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || 'production' }}
     # Only run if the deployment workflow succeeded on main branch or manual trigger
     if: |
       github.event_name == 'workflow_dispatch' ||
@@ -41,23 +42,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Set environment variables
+      - name: Set environment
         id: set-env
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            if [[ "${{ inputs.environment }}" == "development" ]]; then
-              echo "SITE_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
-              echo "INDEX_NAME=Dev Docs" >> $GITHUB_ENV
-              echo "environment=development" >> $GITHUB_OUTPUT
-            else
-              echo "SITE_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
-              echo "INDEX_NAME=Production Docs" >> $GITHUB_ENV
-              echo "environment=production" >> $GITHUB_OUTPUT
-            fi
+            echo "environment=${{ inputs.environment }}" >> $GITHUB_OUTPUT
           else
             # Workflow run trigger - always production
-            echo "SITE_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
-            echo "INDEX_NAME=Production Docs" >> $GITHUB_ENV
             echo "environment=production" >> $GITHUB_OUTPUT
           fi
       
@@ -68,8 +59,8 @@ jobs:
       
       - name: Validate site is accessible
         run: |
-          echo "🔍 Checking if site is accessible at ${{ env.SITE_URL }}..."
-          response=$(curl -s -o /dev/null -w "%{http_code}" "${{ env.SITE_URL }}")
+          echo "🔍 Checking if site is accessible at ${{ vars.SITE_URL }}..."
+          response=$(curl -s -o /dev/null -w "%{http_code}" "${{ vars.SITE_URL }}")
           if [ "$response" -eq 200 ]; then
             echo "✅ Site is accessible (HTTP $response)"
           else
@@ -81,12 +72,12 @@ jobs:
         uses: algolia/algoliasearch-crawler-github-actions@v1
         id: algolia_crawler
         with:
-          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-user-id: ${{ vars.CRAWLER_USER_ID }}
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          crawler-name: ${{ secrets.ALGOLIA_CRAWLER_NAME_PROD }}
-          site-url: ${{ env.SITE_URL }}
+          crawler-name: ${{ vars.CRAWLER_NAME }}
+          site-url: ${{ vars.SITE_URL }}
       
       - name: Get workflow run details
         if: github.event_name == 'workflow_run'
@@ -132,7 +123,7 @@ jobs:
             
             | Status | Index | Environment | Time |
             |--------|-------|-------------|------|
-            | ✅ Success | ${{ env.INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
+            | ✅ Success | ${{ vars.INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
             
             Your documentation changes are now searchable in production.
             
@@ -151,8 +142,8 @@ jobs:
         run: |
           if [ "${{ steps.algolia_crawler.outcome }}" == "success" ]; then
             echo "✅ Algolia reindexing completed successfully for ${{ steps.set-env.outputs.environment }} environment"
-            echo "📍 Index: ${{ env.INDEX_NAME }}"
-            echo "🌐 Site URL: ${{ env.SITE_URL }}"
+            echo "📍 Index: ${{ vars.INDEX_NAME }}"
+            echo "🌐 Site URL: ${{ vars.SITE_URL }}"
           else
             echo "❌ Algolia reindexing failed"
             exit 1
