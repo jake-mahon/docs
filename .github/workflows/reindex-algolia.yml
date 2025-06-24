@@ -52,11 +52,6 @@ jobs:
             echo "environment=production" >> $GITHUB_OUTPUT
           fi
       
-      - name: Wait for deployment to propagate
-        run: |
-          echo "🕐 Waiting 30 seconds for deployment to be fully available..."
-          sleep 30
-      
       - name: Validate site is accessible
         run: |
           echo "🔍 Checking if site is accessible at ${{ vars.SITE_URL }}..."
