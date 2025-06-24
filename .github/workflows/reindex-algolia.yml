@@ -21,6 +21,12 @@ on:
     branches:
       - main
 
+# Add permissions for the workflow
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   reindex-algolia:
     name: Reindex Algolia Search
@@ -79,6 +85,7 @@ jobs:
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          crawler-name: ${{ secrets.ALGOLIA_CRAWLER_NAME_PROD }}
           site-url: ${{ env.SITE_URL }}
       
       - name: Get workflow run details
