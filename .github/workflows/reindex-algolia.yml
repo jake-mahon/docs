@@ -71,8 +71,9 @@ jobs:
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
           algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
-          crawler-name: ${{ secrets.CRAWLER_NAME }}
+          crawler-name: ${{ secrets.ALGOLIA_CRAWLER_NAME }}
           site-url: ${{ secrets.SITE_URL }}
+          override-config: true
       
       - name: Get workflow run details
         if: github.event_name == 'workflow_run'
@@ -118,7 +119,7 @@ jobs:
             
             | Status | Index | Environment | Time |
             |--------|-------|-------------|------|
-            | ✅ Success | ${{ secrets.INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
+            | ✅ Success | ${{ secrets.ALGOLIA_INDEX_NAME }} | ${{ steps.set-env.outputs.environment }} | ${new Date().toISOString()} |
             
             Your documentation changes are now searchable in production.
             
@@ -137,7 +138,7 @@ jobs:
         run: |
           if [ "${{ steps.algolia_crawler.outcome }}" == "success" ]; then
             echo "✅ Algolia reindexing completed successfully for ${{ steps.set-env.outputs.environment }} environment"
-            echo "📍 Index: ${{ secrets.INDEX_NAME }}"
+            echo "📍 Index: ${{ secrets.ALGOLIA_INDEX_NAME }}"
             echo "🌐 Site URL: ${{ secrets.SITE_URL }}"
           else
             echo "❌ Algolia reindexing failed"
