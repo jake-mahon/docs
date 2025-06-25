@@ -22,6 +22,43 @@ jobs:
       deployments: write
       pull-requests: write
     steps:
+      - name: Debug Secrets and Environment
+        run: |
+          echo "=== DEBUGGING DEVELOPMENT DEPLOYMENT ==="
+          echo "GitHub Ref: ${{ github.ref }}"
+          echo "GitHub Event: ${{ github.event_name }}"
+          echo "GitHub Base Ref: ${{ github.base_ref }}"
+          echo "Environment: Development"
+          echo ""
+          echo "=== CHECKING SECRETS ==="
+          echo "RENDER_SERVICE_ID exists: ${{ secrets.RENDER_SERVICE_ID != '' }}"
+          echo "RENDER_SERVICE_ID length: ${#RENDER_SERVICE_ID}"
+          echo "RENDER_SERVICE_ID value: ${{ secrets.RENDER_SERVICE_ID }}"
+          echo "RENDER_SERVICE_ID (first 10 chars): ${RENDER_SERVICE_ID:0:10}..."
+          echo ""
+          echo "RENDER_API_KEY exists: ${{ secrets.RENDER_API_KEY != '' }}"
+          echo "RENDER_API_KEY length: ${#RENDER_API_KEY}"
+          echo "RENDER_API_KEY value: ${{ secrets.RENDER_API_KEY }}"
+          echo "RENDER_API_KEY (first 10 chars): ${RENDER_API_KEY:0:10}..."
+          echo ""
+          echo "SITE_URL exists: ${{ secrets.SITE_URL != '' }}"
+          echo "SITE_URL value: ${{ secrets.SITE_URL }}"
+          echo ""
+          echo "=== ENVIRONMENT VARIABLES ==="
+          env | grep -E "(RENDER|GITHUB)" || true
+          echo ""
+          echo "=== TESTING RENDER API ==="
+          echo "Testing API connection with service ID: ${{ secrets.RENDER_SERVICE_ID }}"
+          curl -v -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}" || true
+          echo ""
+          echo "=== LISTING ALL SERVICES (for debugging) ==="
+          curl -v -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            "https://api.render.com/v1/services?limit=100" || true
+        env:
+          RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+
       - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
@@ -96,6 +133,43 @@ jobs:
       deployments: write
       pull-requests: write
     steps:
+      - name: Debug Secrets and Environment
+        run: |
+          echo "=== DEBUGGING PRODUCTION DEPLOYMENT ==="
+          echo "GitHub Ref: ${{ github.ref }}"
+          echo "GitHub Event: ${{ github.event_name }}"
+          echo "GitHub Base Ref: ${{ github.base_ref }}"
+          echo "Environment: Production"
+          echo ""
+          echo "=== CHECKING SECRETS ==="
+          echo "RENDER_SERVICE_ID exists: ${{ secrets.RENDER_SERVICE_ID != '' }}"
+          echo "RENDER_SERVICE_ID length: ${#RENDER_SERVICE_ID}"
+          echo "RENDER_SERVICE_ID value: ${{ secrets.RENDER_SERVICE_ID }}"
+          echo "RENDER_SERVICE_ID (first 10 chars): ${RENDER_SERVICE_ID:0:10}..."
+          echo ""
+          echo "RENDER_API_KEY exists: ${{ secrets.RENDER_API_KEY != '' }}"
+          echo "RENDER_API_KEY length: ${#RENDER_API_KEY}"
+          echo "RENDER_API_KEY value: ${{ secrets.RENDER_API_KEY }}"
+          echo "RENDER_API_KEY (first 10 chars): ${RENDER_API_KEY:0:10}..."
+          echo ""
+          echo "SITE_URL exists: ${{ secrets.SITE_URL != '' }}"
+          echo "SITE_URL value: ${{ secrets.SITE_URL }}"
+          echo ""
+          echo "=== ENVIRONMENT VARIABLES ==="
+          env | grep -E "(RENDER|GITHUB)" || true
+          echo ""
+          echo "=== TESTING RENDER API ==="
+          echo "Testing API connection with service ID: ${{ secrets.RENDER_SERVICE_ID }}"
+          curl -v -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}" || true
+          echo ""
+          echo "=== LISTING ALL SERVICES (for debugging) ==="
+          curl -v -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            "https://api.render.com/v1/services?limit=100" || true
+        env:
+          RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+
       - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
