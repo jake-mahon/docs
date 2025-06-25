@@ -41,6 +41,7 @@ jobs:
         with:
           service_id: ${{ vars.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
+          clear_cache: true
           wait_deploy: true
           github_deployment: true
           deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
@@ -118,6 +119,7 @@ jobs:
         with:
           service_id: ${{ vars.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
+          clear_cache: true
           wait_deploy: true
           github_deployment: true
           deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
