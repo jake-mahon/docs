@@ -12,65 +12,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build Documentation
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Cache Docusaurus build
-        uses: actions/cache@v4
-        with:
-          path: |
-            .docusaurus
-            .cache
-            build/.cache
-          key: ${{ runner.os }}-docusaurus-build-${{ github.ref_name }}-${{ hashFiles('**/package-lock.json', '**/docusaurus.config.js', 'docs/**/*.md', 'docs/**/*.mdx') }}
-          restore-keys: |
-            ${{ runner.os }}-docusaurus-build-${{ github.ref_name }}-
-            ${{ runner.os }}-docusaurus-build-
-
-      - name: Cache webpack
-        uses: actions/cache@v4
-        with:
-          path: node_modules/.cache
-          key: ${{ runner.os }}-webpack-${{ github.ref_name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-webpack-${{ github.ref_name }}-
-            ${{ runner.os }}-webpack-
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build site
-        run: npm run build
-
-      - name: Validate build output
-        run: |
-          if [ ! -d "build" ]; then
-            echo "❌ Build directory not found!"
-            exit 1
-          fi
-          echo "✅ Build directory exists with $(find build -type f | wc -l) files"
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-${{ github.run_id }}
-          path: build/
-          retention-days: 1
-
   deploy-dev:
     name: Deploy to Development
-    needs: build
     runs-on: ubuntu-latest
     environment: Development
     # ONLY run for dev branch pushes or PRs targeting dev
@@ -79,13 +22,7 @@ jobs:
       deployments: write
       pull-requests: write
     steps:
-      - name: Download build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: build-${{ github.run_id }}
-          path: build/
-
-      - name: Deploy to Render Dev
+      - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
@@ -151,7 +88,6 @@ jobs:
 
   deploy-prod:
     name: Deploy to Production
-    needs: build
     runs-on: ubuntu-latest
     environment: Production
     # ONLY run for main branch pushes or PRs targeting main
@@ -160,13 +96,7 @@ jobs:
       deployments: write
       pull-requests: write
     steps:
-      - name: Download build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: build-${{ github.run_id }}
-          path: build/
-
-      - name: Deploy to Render Prod
+      - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
