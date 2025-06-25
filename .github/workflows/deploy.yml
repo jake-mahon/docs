@@ -20,19 +20,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Determine environment and URL
-        id: set-env
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
-            echo "SITE_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
-          elif [[ "${{ github.ref }}" == "refs/heads/dev" ]]; then
-            echo "SITE_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
-          elif [[ "${{ github.event_name }}" == "pull_request" && "${{ github.base_ref }}" == "main" ]]; then
-            echo "SITE_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
-          elif [[ "${{ github.event_name }}" == "pull_request" && "${{ github.base_ref }}" == "dev" ]]; then
-            echo "SITE_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
-          fi
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -65,8 +52,6 @@ jobs:
 
       - name: Build site
         run: npm run build
-        env:
-          RENDER_EXTERNAL_URL: ${{ env.SITE_URL }}
 
       - name: Validate build output
         run: |
@@ -104,7 +89,7 @@ jobs:
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ secrets.RENDER_DEV_SERVICE_ID }}  # Use separate dev service ID
+          service_id: ${{ secrets.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
           wait_deploy: true
           github_deployment: true
@@ -117,7 +102,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ secrets.DEV_URL }}';
+            const deployUrl = '${{ secrets.SITE_URL }}';
             const environment = 'Development';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             
@@ -185,7 +170,7 @@ jobs:
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ secrets.RENDER_PROD_SERVICE_ID }}  # Use separate prod service ID
+          service_id: ${{ secrets.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
           wait_deploy: true
           github_deployment: true
@@ -198,7 +183,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ secrets.PROD_URL }}';
+            const deployUrl = '${{ secrets.SITE_URL }}';
             const environment = 'Production';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             
