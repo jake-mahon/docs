@@ -5,9 +5,9 @@
   "main": "docusaurus.config.js",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node scripts/start-wrapper.js",
+    "start": "cross-env NODE_OPTIONS=--max-old-space-size=8192 scripts/start-wrapper.js",
     "start:all": "docusaurus start",
-    "build": "NODE_OPTIONS=--max-old-space-size=8192 npx docusaurus build",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 npx docusaurus build",
     "build-render": "npm install @rspack/binding-linux-x64-gnu; npm install; npx docusaurus build",
     "build:single": "node scripts/build-single.js",
     "swizzle": "docusaurus swizzle",
@@ -19,7 +19,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
-    "update-mappings": "node scripts/generate-product-mappings.js"
+    "update-mappings": "node scripts/generate-product-mappings.js",
+    "postinstall": "node scripts/windows-install.js"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json,css,scss,md}": [
@@ -35,6 +36,9 @@
     "@docusaurus/plugin-rsdoctor": "^3.8.1",
     "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.0.0",
+    "@rspack/binding-win32-x64-msvc": "^1.4.0-beta.1",
+    "@swc/html-win32-x64-msvc": "^1.12.7",
+    "lightningcss-win32-x64-msvc": "^1.30.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -44,12 +48,14 @@
     "@docusaurus/module-type-aliases": "^3.8.1",
     "@docusaurus/types": "^3.8.1",
     "@mdx-js/mdx": "^3.1.0",
+    "cross-env": "^7.0.3",
     "husky": "^9.1.7",
     "ora": "^8.2.0",
     "prettier": "3.5.3",
     "table": "^6.9.0",
     "to-vfile": "^8.0.0",
-    "vfile-reporter": "^8.1.1"
+    "vfile-reporter": "^8.1.1",
+    "watchman": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0"
