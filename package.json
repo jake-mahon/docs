@@ -16,16 +16,9 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
     "prepare": "husky",
     "update-mappings": "node scripts/generate-product-mappings.js",
     "postinstall": "node scripts/windows-install.js"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ]
   },
   "dependencies": {
     "@docusaurus/babel": "^3.8.1",
@@ -48,7 +41,6 @@
     "cross-env": "^7.0.3",
     "husky": "^9.1.7",
     "ora": "^8.2.0",
-    "prettier": "3.5.3",
     "table": "^6.9.0",
     "to-vfile": "^8.0.0",
     "vfile-reporter": "^8.1.1",
