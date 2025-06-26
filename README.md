@@ -103,8 +103,6 @@ npm run start [product]/[version] # start a versioned product docs only
 npm run build                     # Full production build
 npm run build [product]           # Full production build
 npm run build [product]/[version] # Full production build
-npm run format:check              # Check code formatting
-npm run format                    # Auto-format with Prettier
 # Utilities
 npm run clear                     # Clear Docusaurus cache
 npm run serve                     # Serve production build after `npm run build`
@@ -369,17 +367,9 @@ Contributing is easy:
 npm run start
 ```
 
-2. **Make changes** to documentation or configuration
+2. **Make your changes** to documentation or configuration
 
-3. **Format code** before committing:
-
-If this isn't done, a pre-commit hook will do it for you anyways.
-
-```bash
-npm run format
-```
-
-4. **Test builds**:
+3. **Test builds**:
 
 Test a build of the docs you edited:
 
@@ -393,7 +383,7 @@ Test a build of all docs:
 npm run build
 ```
 
-5. **Submit pull request**
+4. **Submit pull request**
 
 Create a PR to the dev branch, and then main when ready for production.
 

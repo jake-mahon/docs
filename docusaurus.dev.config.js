@@ -11,7 +11,7 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
-
+  
   future: {
     experimental_faster: {
       swcJsLoader: true,
@@ -27,7 +27,7 @@ const config = {
       removeLegacyPostBuildHeadAttribute: true,
     },
   },
-
+  
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -105,7 +105,9 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
   },
-  stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'],
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
+  ],
 };
 
 export default config;
