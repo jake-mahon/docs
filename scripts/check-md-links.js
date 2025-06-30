@@ -40,6 +40,11 @@ function extractMarkdownLinks(content) {
     let match;
     
     while ((match = linkRegex.exec(content)) !== null) {
+        // Check if this is an image link (preceded by '!')
+        const isImage = content[match.index - 1] === '!';
+        if (isImage) {
+            continue;
+        }
         const linkText = match[1];
         const linkUrl = match[2].trim();
         
