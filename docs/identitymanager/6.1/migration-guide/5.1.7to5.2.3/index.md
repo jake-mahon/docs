@@ -235,7 +235,7 @@ This installation should be performed only after the server has been upgraded.
     3. Run the move files utility.
 
         ```
-          If encryption is activated in your Usercube then add the settings corresponding to your certificate (see Usercube-Encrypt-File [generic arguments](/integration-guide/executables/references/encrypt-file/index.html#generic-argument)).
+          If encryption is activated in your Usercube then add the settings corresponding to your certificate (see Usercube-Encrypt-File [generic arguments](/docs/identitymanager/6.1/integration-guide/executables/references/encrypt-file/index.md)).
 
         ```
 

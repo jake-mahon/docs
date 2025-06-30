@@ -6,8 +6,6 @@ several resources from the Directory_User entity type.
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
-[Copy](javascript:void(0);)
-
 ```
 <BulkResourceReconciliationAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
 ```

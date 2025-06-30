@@ -2,7 +2,7 @@
 
 Description of the MS Excel template for the creation of the identities repository.
 
-[Click here to download a template example](/docs/static/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
+[Click here to download a template example](/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
 ![Template Model](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.webp)
 

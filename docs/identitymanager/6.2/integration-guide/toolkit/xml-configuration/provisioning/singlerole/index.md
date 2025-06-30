@@ -21,7 +21,6 @@ for resources from `Directory_User` with one approval needed.
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
-[Copy](javascript:void(0);)
 
 ```
   <SingleRole Identifier="DL-INTERNET-ALL" DisplayName_L1="Unlimited Internet access"
@@ -45,7 +44,6 @@ entitlement, using the dimension as a required parameter.
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
-[Copy](javascript:void(0);)
 
 ```
 
