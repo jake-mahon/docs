@@ -25,6 +25,14 @@ if (args.includes('--help') || args.includes('-h') || !oldImageRelPath || !newIm
     process.exit(0);
 }
 
+// Normalize paths to use forward slashes for markdown matching
+function toForwardSlashes(p) {
+    return p.replace(/\\/g, '/');
+}
+
+const oldImageRelPathNorm = toForwardSlashes(oldImageRelPath);
+const newImageRelPathNorm = toForwardSlashes(newImageRelPath);
+
 const oldImageAbsPath = path.join(STATIC_DIR, oldImageRelPath);
 const newImageAbsPath = path.join(STATIC_DIR, newImageRelPath);
 
@@ -76,8 +84,8 @@ let refsUpdated = 0;
 for (const filePath of markdownFiles) {
     let content = fs.readFileSync(filePath, 'utf8');
     // Replace all references to the old image path (with or without leading slash)
-    const oldPathPattern = new RegExp(`([!\[][^\]]*\]\()\/?${oldImageRelPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\))`, 'g');
-    const newPath = `/${newImageRelPath}`;
+    const oldPathPattern = new RegExp(`([!\[][^\]]*\]\()/?${oldImageRelPathNorm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\))`, 'g');
+    const newPath = `/${newImageRelPathNorm}`;
     const newContent = content.replace(oldPathPattern, `$1${newPath}$2`);
     if (newContent !== content) {
         fs.writeFileSync(filePath, newContent, 'utf8');
