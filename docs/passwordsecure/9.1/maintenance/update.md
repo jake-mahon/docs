@@ -31,12 +31,12 @@ still active. If the software maintenance package has expired, you are only perm
 versions that were released during the term of the software maintenance package. Therefore, you
 should check whether the software maintenance package is still active before an update. This can be
 easily checked on the Server Manager under
-[License settings](/docs/passwordsecure/9.1/configuration/server-manager/license-settings.md).
+[License settings](/docs/passwordsecure/9.1/configuration/server_manager/main_menu/license_settings.md).
 
 ### Creating a backup
 
 An update always involves making a profound change to the existing software. A corresponding
-[Backup management](/docs/passwordsecure/9.1/configuration/server-manager/backup-settings.md)
+[Backup management](/docs/passwordsecure/9.1/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md)
 should thus be created directly before the update to ensure that no data is lost if a serious
 problem arises.
 
@@ -71,7 +71,7 @@ to be restarted. It is thus recommended that the Netwrix Password Secure service
 the update.
 
 Further information on the installation wizard can be found in the section
-[Installation Server Manager](/docs/passwordsecure/9.1/installation/server-manager/installation-server-manager.md).
+[Installation Server Manager](/docs/passwordsecure/9.1/installation/installation_server_manager/installation_server_manager.md).
 
 ### Patch level update for the databases
 
@@ -90,7 +90,7 @@ be carried out using the installation parameters.
 ### Updating the Web Application
 
 The application server must firstly be updated. A new Web Application
-([Installation Web Application](/docs/passwordsecure/9.1/installation/web-application/installation-web-application.md)
+([Installation Web Application](/docs/passwordsecure/9.1/installation/installation_web_application/installation_web_application.md)
 is then created according to the instructions for the web server being used. The document directory
 on the web server should now be completely emptied. The Web Application is then unzipped and copied
 to the document directory on the corresponding web server.
