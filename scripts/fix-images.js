@@ -202,6 +202,18 @@ function getCandidateImagePaths(productFolder, mdFile, origImgPath) {
         return [...new Set(foundSub)];
       }
     }
+    // Extra check for overview.md: look for image named after the last folder
+    if (path.basename(mdRelPath) === 'overview.md') {
+      const lastFolder = path.basename(currDir);
+      if (lastFolder && lastFolder !== '.' && lastFolder !== path.sep) {
+        const overviewImg = lastFolder + ext;
+        const overviewImgPath = parentDir + '/' + overviewImg;
+        const overviewImgFs = path.join('static', overviewImgPath.replace(/^\/?img\//, 'img/').replace(/^\/?/, ''));
+        if (fs.existsSync(overviewImgFs)) {
+          return [overviewImgPath.replace(/\\/g, '/').replace(/\/\//g, '/')];
+        }
+      }
+    }
     if (currDir === '' || currDir === '.' || currDir === path.sep) break;
     currDir = path.dirname(currDir);
   }

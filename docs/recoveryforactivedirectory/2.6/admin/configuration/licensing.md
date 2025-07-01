@@ -6,7 +6,7 @@ import a license file.
 Click **Configuration** in the left pane. Then click the **Licensing tab** on the Configuration page
 to open the Licensing page.
 
-![Licensing page](/img/product_docs/dataclassification/5.7/configuration/licensing.webp)
+![Licensing page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/licensing.webp)
 
 You can view whether the license is valid and when it will expire.
 

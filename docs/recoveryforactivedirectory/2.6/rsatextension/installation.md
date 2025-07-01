@@ -14,16 +14,16 @@ install it.
 
 **Step 2 –** Run `NetwrixRecovery_RSAT_Extension.msi` . The RSAT Extension Setup wizard opens.
 
-![RSAT Extension Installation Wizard - Welcome Page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![RSAT Extension Installation Wizard - Welcome Page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/welcome.webp)
 
 **Step 3 –** On the Welcome page, click **Next**.
 
-![RSAT Extension Installation Wizard - License Agreement page](/img/product_docs/threatprevention/7.5/install/licenseagreement.webp)
+![RSAT Extension Installation Wizard - License Agreement page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/licenseagreement.webp)
 
 **Step 4 –** On the End-User License Agreement page, read the End User License Agreement and check
 the **I accept the terms in the License Agreement** box. Click **Next**.
 
-![RSAT Extension Installation Wizard - Destination Folder page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
+![RSAT Extension Installation Wizard - Destination Folder page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/destinationfolder.webp)
 
 **Step 5 –** On the Destination Folder page, specify the file path to install the RSAT Extension.
 The default path is:
@@ -33,14 +33,14 @@ C:\Program Files\Netwrix\Recovery for Active Directory RSAT Extension\
 Optionally, you can change the installation directory location for the RSAT Extension. Click
 **Change** to open the Change destination folder page.
 
-![RSAT Extension Setup Wizard - Change destination folder page](/img/product_docs/threatprevention/7.5/install/changedestinationfolder.webp)
+![RSAT Extension Setup Wizard - Change destination folder page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
 
 The wizard returns to the Destination Folder page. Click **Next** to proceed.
 
-![RSAT Extension Installation Wizard - Netwrix Recovery Server Connection page](/img/product_docs/recoveryforactivedirectory/rsatextension/serverconnection.webp)
+![RSAT Extension Installation Wizard - Netwrix Recovery Server Connection page](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/serverconnection.webp)
 
 **Step 6 –** In the Server name field, enter the name or IP address of the Recovery Application
 Server, so the RSAT Extension identifies it in the environment.
@@ -51,11 +51,11 @@ application, then that specific port is applicable here.
 
 Click **Next**.
 
-![ready](/img/product_docs/activitymonitor/8.0/install/ready.webp)
+![ready](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/ready.webp)
 
 **Step 7 –** Click **Install** to begin the installation process.
 
-![RSAT Extension Installation Complete](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![RSAT Extension Installation Complete](/img/product_docs/recoveryforactivedirectory/2.6/rsatextension/completed.webp)
 
 **Step 8 –** The installation process begins and the Setup Wizard displays the Setup Progress. When
 installation is complete, click Finish to exit the wizard.
