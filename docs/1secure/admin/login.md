@@ -133,7 +133,7 @@ When the Netwrix team adds a new user account for your organization, you will re
 invitation. This email will be sent from "noreply-account@netwrix.com" and will have the subject
 "Welcome to Netwrix 1Secure".
 
-![1Secure Invitation Email](/img/product_docs/1secure/admin/login/1secureinvitation(sso).webp)
+![1Secure Invitation Email](/img/product_docs/1secure/admin/login/1secureinvitation-sso.webp)
 
 **Step 1 –** Click **Access 1Secure** button in the invitation email. You are navigated to the
 1Secure login page.

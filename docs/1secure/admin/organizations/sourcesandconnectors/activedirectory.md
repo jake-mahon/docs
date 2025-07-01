@@ -24,7 +24,7 @@ pane is displayed.
 
 **Step 4 –** Select **Active Directory** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3).webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -44,7 +44,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails(step2of3).webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails_step2of3.webp)
 
 **Step 7 –** Specify the following settings:
 

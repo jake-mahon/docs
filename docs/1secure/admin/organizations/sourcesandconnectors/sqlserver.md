@@ -24,7 +24,7 @@ pane is displayed.
 
 **Step 4 –** Select **SQL Server** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3).webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3.webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -44,7 +44,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3)a.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails_step2-3a.webp)
 
 **Step 7 –** Specify the following settings:
 
@@ -66,7 +66,7 @@ the drop-down menu or click the **Add** icon.
 
 **Step 8 –** Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector(step3of3).webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector_step3of3.webp)
 
 **Step 9 –** The Choose new connector (Step 3 of 3) pane lists one connector for SQL Server. Toggle
 the **SQL Logons** switch to ON to collect and monitor data for this connector. With this, you can
