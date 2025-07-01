@@ -34,7 +34,7 @@ Settings**, **Account Policies**, and **Password Policy** items.
 
 **Step 10 –** Close the Group Policy Management Editor.
 
-![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/preparing_the_computer.webp)
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/preparing_the_computer.webp)
 
 **NOTE:** You do not have to disable all the Windows password policy rules to use Password Policy
 Enforcer. You can use a combination of Password Policy Enforcer and Windows rules together if you

@@ -24,17 +24,17 @@ have the group policy management console available.
 (x86)\Password Policy Enforcer) and copy the **PPEClt.adml** and **PPEClt.admx** files (highlighted
 in yellow):
 
-![ppc_configuration](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration.webp)
+![ppc_configuration](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration.webp)
 
 **Step 3 –** Go to C:\Windows\Policy Definitions and paste the .admx file in the root of this
 folder.
 
-![ppc_configuration2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration2.webp)
+![ppc_configuration2](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration2.webp)
 
 **Step 4 –** Go to C:\Windows\Policy Definitions\en-US and paste the .adml file in the root of this
 folder.
 
-![ppc_configuration1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration1.webp)
+![ppc_configuration1](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration1.webp)
 
 **Step 5 –** Open **Group Policy Management** console and check if you have a GPO created for
 Client. If not, see the topic's section for additional information.
@@ -45,18 +45,18 @@ it here.
 
 Once the GPO is configured, this view is available:
 
-![ppc_configuration3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration3.webp)
+![ppc_configuration3](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration3.webp)
 
 **Step 7 –** Right-click the newly created GPO and select **Edit** from the pop-up menu.
 
 **Step 8 –** Expand **Computer Configuration** > **Policies** > **Administrative Templates** >
 **Netwrix Password Policy Enforcer**
 
-![ppc_configuration4](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration4.webp)
+![ppc_configuration4](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration4.webp)
 
 **Step 9 –** Click on **Netwrix Password Policy Client** to open a list of modification settings.
 
-![ppc_configuration5](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppc_configuration5.webp)
+![ppc_configuration5](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppc_configuration5.webp)
 
 **Step 10 –** Select the one you need, then modify and save it.
 
@@ -70,7 +70,7 @@ The Password Policy Client for Windows 10 and 11 maximizes the available screen 
 non-essential user interface elements on small screens. It can also display the Password Policy
 message in a message box to draw attention to the password policy.
 
-![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client_3.webp)
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/11.0/administration/the_password_policy_client_3.webp)
 
 You can change the default display settings to control which user interface elements are hidden, and
 the point at which they are hidden. The display of the Password Policy message box is also

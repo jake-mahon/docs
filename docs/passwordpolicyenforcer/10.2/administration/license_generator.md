@@ -6,7 +6,7 @@ configured and customized based on individual security polices. Each license gen
 locally as a .txt file. Use the license generated from this tool when configuring the Password
 Policy Enforcer console.
 
-![License Generator](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/licensegenerator.webp)
+![License Generator](/img/product_docs/passwordpolicyenforcer/10.2/administration/licensegenerator.webp)
 
 ## Using the License Generator
 

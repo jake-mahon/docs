@@ -13,24 +13,24 @@ is thus an indispensable component of every security concept.
 The optional footer area can be used to already display the history when in the reading pane. All of
 the historical entries are listed and sorted in chronological order.
 
-![history in footer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_1-en.webp)
+![history in footer](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_1-en.webp)
 
 The different versions are displayed one below the other on the left. The info for each respective
 version can then be seen alongside on the right. A quick view can be displayed via the **History**
 in the ribbon or via a double click.
 
-![quick view history](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_2-en.webp)
+![quick view history](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_2-en.webp)
 
 ## Detailed history in the Extras
 
 The detailed history for the record marked in list view can be called up in the Start/Extras tab.
 
-![History](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_3-en.webp)
+![History](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_3-en.webp)
 
 The history for the marked record opens in a separate tab. In list view, all of the available
 versions with the date and time of their last change are sorted in chronological order.
 
-![history list view](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_4-en.webp)
+![history list view](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_4-en.webp)
 
 ## Comparison of versions
 
@@ -38,11 +38,11 @@ At least two versions need to be selected in order to carry out a comparison. In
 first version and then add another version via the “Add” button on the right of the reading pane to
 compare with the first one.
 
-![comparison of history versions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_5-en.webp)
+![comparison of history versions](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_5-en.webp)
 
 If deviations exist between the two versions, these will be highlighted in color.
 
-![difference between password history](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/history_6-en.webp)
+![difference between password history](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/history_6-en.webp)
 
 ## Restoring versions
 

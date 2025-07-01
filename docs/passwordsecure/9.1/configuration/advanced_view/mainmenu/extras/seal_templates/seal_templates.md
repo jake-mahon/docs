@@ -10,7 +10,7 @@ extremely speed up the timing of the work. Once defined, templates can be attach
 in a few simple steps. The adaptation of already created stencils is presented in the seal templates
 as clear and very fast.
 
-![Seal templates](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/seal_templates/installation_with_parameters_101-en.webp)
+![Seal templates](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/seal_templates/installation_with_parameters_101-en.webp)
 
 NOTE: A separate tab opens in the active module in order to edit the default templates
 
@@ -23,6 +23,6 @@ this way are listed in the overview of the seal templates. Furthermore, it is po
 existing templates directly or create new ones via the button in the ribbon. This is done in the
 same way as the seal assistant.
 
-![installation_with_parameters_102](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/seal_templates/installation_with_parameters_102.webp)
+![installation_with_parameters_102](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/seal_templates/installation_with_parameters_102.webp)
 
 Once templates have been added, they can be immediately used for the creation of new seals.

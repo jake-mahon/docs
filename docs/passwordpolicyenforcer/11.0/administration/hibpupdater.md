@@ -32,7 +32,7 @@ The HIBP Updater is installed when you install the Password Policy Enforcer Conf
 
 ...\Program Files\Password Policy Enforcer\HIBP\
 
-![hibpfolder](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpfolder.webp)
+![hibpfolder](/img/product_docs/passwordpolicyenforcer/11.0/administration/hibpfolder.webp)
 
 **Step 2 –** Click HIBPWINUpdater.
 
@@ -45,7 +45,7 @@ breach.
 **NOTE:** First-time configuration of this window requires downloading the HIBP database from the
 Netwrix website.
 
-![HIBP Updater](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.webp)
+![HIBP Updater](/img/product_docs/passwordpolicyenforcer/11.0/administration/hibpupdater.webp)
 
 **CAUTION:** Ensure the initial update of the database occurs during non-office hours. Due to the
 size of the hash file, this download takes up a significant amount of CPU and download time.
@@ -124,7 +124,7 @@ Follow the steps to schedule a task.
 **Step 2 –** Click **Add Schedule**. An Edit Schedule window appears that looks similar to the HIBP
 Updater window.
 
-![editschedule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/editschedule.webp)
+![editschedule](/img/product_docs/passwordpolicyenforcer/11.0/administration/editschedule.webp)
 
 **Step 3 –** Enter the Name and Description of the schedule.
 
@@ -143,6 +143,6 @@ The HIBP database will be updated according to the configurations.
 The Schedule List window shows the names, run times, next run times, and whether the schedule is
 enabled or not.
 
-![schedulelist](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/schedulelist.webp)
+![schedulelist](/img/product_docs/passwordpolicyenforcer/11.0/administration/schedulelist.webp)
 
 Use this window to Add, Edit, or Delete schedules for the HIBP Updater.

@@ -130,7 +130,7 @@ text_short classes are used in page instructions to tailor content to the screen
 Validation error messages are shown in a red box below the page instructions. Validation errors are
 normally caused by invalid user input.
 
-![using_npr_12](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.webp)
+![using_npr_12](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_npr_12.webp)
 
 Validation error messages are defined in the relevant template (en_enroll.htm, en_reset.htm,
 en_unlock.htm, or en_change.htm). The error messages are in the resource strings section near the
@@ -151,7 +151,7 @@ information about the error. You should keep these, but you can delete them if y
 All the critical error messages are defined in en_error.htm. The messages are in the resource
 strings section near the end of the file. See the Resource Strings topic for more information.
 
-![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.webp)
+![using_npr_13](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_npr_13.webp)
 
 You may see placeholders like %1 and %2 in some error messages. These are replaced with more
 information about the error. You should keep these, but you can delete them if you do not want them.
@@ -176,7 +176,7 @@ Finished messages are shown after users successfully complete an enroll, reset, 
 These messages are defined in the Resource Strings section near the end of `en_finished.htm`. See
 the Resource Strings topic for more information.
 
-![using_npr_9](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9.webp)
+![using_npr_9](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_npr_9.webp)
 
 `en_finished.htm` has two resource strings for password changes (RES_FINISHED_CHANGE and
 RES_FINISHED_CHANGE_INVITE). The first is shown when a user who has enrolled into NPR changes their

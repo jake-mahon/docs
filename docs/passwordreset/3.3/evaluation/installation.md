@@ -15,7 +15,7 @@ them, and sends them to the Password Reset Server. The Password Reset Server is 
 performs requests on behalf of users. It receives requests from the Web Interface, checks the user's
 credentials, and performs the requested task if the credentials are valid.
 
-![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.webp)
+![installing_npr](/img/product_docs/passwordreset/3.3/evaluation/installing_npr.webp)
 
 You only need one Windows 2008 to 2019 server for the evaluation. The server can be a domain
 controller or a member server.

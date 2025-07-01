@@ -46,7 +46,7 @@ the [User settings](/docs/passwordsecure/9.2/configuration/advanced_view/mainmen
 
 The results of the test can be viewed in the **passwords module**.
 
-![result heartbeat](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
+![result heartbeat](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
 
 The date when it was last executed can be seen at the top of the
 [Reading pane](/docs/passwordsecure/9.2/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md). The success of the testing
@@ -64,4 +64,4 @@ to the one on the target system.
 The filter can be configured using the filter group **Status of the login data** so that the tested
 records can be selected.
 
-![Filter heartbeat status](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.webp)
+![Filter heartbeat status](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_2-en.webp)

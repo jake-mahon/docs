@@ -4,7 +4,7 @@ The Password Reset Client allows users to securely reset their password or unloc
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
-![the_password_reset_client](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1.webp)
+![the_password_reset_client](/img/product_docs/passwordreset/3.23/evaluation/the_password_reset_client_1.webp)
 
 **NOTE:** The Password Reset Client does not modify any Windows system files.
 
@@ -61,7 +61,7 @@ this domain, and Link it here...**
 
 **Step 4 –** Enter **Password Reset Client**, then press **ENTER**.
 
-![the_password_reset_client_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/the_password_reset_client_1.webp)
+![the_password_reset_client_1](/img/product_docs/passwordreset/3.23/evaluation/the_password_reset_client_1.webp)
 
 ### Edit the Group Policy Object
 
@@ -122,7 +122,7 @@ installation folder. (`\Program Files\ANIXIS Password Reset\` by default).
 
 **Step 7 –** Select **APRClt.adm**, and then click **Open**.
 
-![the_password_reset_client_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/the_password_reset_client_2.webp)
+![the_password_reset_client_2](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_2.webp)
 
 **Step 8 –** Click **Close**.
 
@@ -142,11 +142,11 @@ Reset Client** items.
 **Step 4 –** Double-click the **Browser settings** item in the right pane of the Group Policy
 Management Editor.
 
-![the_password_reset_client_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/the_password_reset_client_3.webp)
+![the_password_reset_client_3](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_3.webp)
 
 **Step 5 –** Select the **Enabled** option.
 
-![the_password_reset_client_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/the_password_reset_client_4.webp)
+![the_password_reset_client_4](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_4.webp)
 
 **Step 6 –** Enter the desired **Width** and **Height** of the PRC browser window.
 
@@ -218,7 +218,7 @@ Editor.
 
 **Step 10 –** Click inside the **License key** text box, then paste the license key.
 
-![the_password_reset_client_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/the_password_reset_client_5.webp)
+![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_5.webp)
 
 **Step 11 –** Click **OK**.
 

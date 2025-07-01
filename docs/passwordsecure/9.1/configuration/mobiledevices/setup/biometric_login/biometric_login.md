@@ -6,4 +6,4 @@ the app suggests (depending on the type of smartphone) the use of Touch ID or fi
 or facial recognition. Clicking **Yes** here is sufficient to log in to the database in the future
 using the respective biometric feature.
 
-![setup face ID](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/mobiledevices/setup/biometric_login/setup-face-id-en.webp)
+![setup face ID](/img/product_docs/passwordsecure/9.1/configuration/mobiledevices/setup/biometric_login/setup-face-id-en.webp)

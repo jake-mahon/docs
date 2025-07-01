@@ -22,7 +22,7 @@ met:
 
 The actual connection of the RADIUS server is simple:
 
-![radius integration](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication_1-en.webp)
+![radius integration](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication_1-en.webp)
 
 - **Use RADIUS** - First, the usage is activated.
 - **Host Address** - The address of the RADIUS server is stored here.

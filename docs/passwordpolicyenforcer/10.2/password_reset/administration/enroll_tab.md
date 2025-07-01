@@ -2,7 +2,7 @@
 
 Use the **Enroll** tab to maintain the list of enrollment questions and options.
 
-![configuring_npr_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_2.webp)
+![configuring_npr_2](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_2.webp)
 
 ### Question List
 

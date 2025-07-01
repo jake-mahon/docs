@@ -13,7 +13,7 @@ console.
 **Step 1 –** Click the Policies item in the left pane of the management console, then click Test
 Policies in the right pane.
 
-![testing_the_password_policy](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy.webp)
+![testing_the_password_policy](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy.webp)
 
 **Step 2 –** Enter a user name in the User name text box.
 
@@ -29,9 +29,9 @@ password complied with.
 
 | Rule                                                                                                                                                    | Status of Password Compliance with Rule           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| ![testing_the_password_policy_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
-| ![testing_the_password_policy_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
-| ![testing_the_password_policy_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
 
 Click the Log tab to view Password Policy Enforcer's internal event log. The information in the
 event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
@@ -64,7 +64,7 @@ the Password Policy Client is installed. This helps users to choose a compliant 
 Password Policy Client also changes the message that users see when their password is rejected. Both
 these messages are customizable.
 
-![introduction_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/introduction_3.webp)
+![introduction_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
 
 The Password Policy Client does not modify any Windows system files, and you do not have to install
 it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password

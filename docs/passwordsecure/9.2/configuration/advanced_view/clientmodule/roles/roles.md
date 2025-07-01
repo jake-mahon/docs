@@ -10,7 +10,7 @@ the visibility of the role management. It is also possible to delegate the manag
 or separate areas completely to third parties via the role concept. The authorization concept
 ensures that users are only granted access to those roles to which they are entitled.
 
-![Roles module](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/roles/roles_1-en.webp)
+![Roles module](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/roles/roles_1-en.webp)
 
 ## Relevant rights
 
@@ -28,7 +28,7 @@ could also be set at a user level. However, the use of roles can dramatically re
 administrative workload, and it helps to keep an overview. In addition to the authorizations for
 data, user rights are also mapped in the best case via roles.
 
-![Permissions meaning for Roles](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/roles/roles_2-en.webp)
+![Permissions meaning for Roles](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/roles/roles_2-en.webp)
 
 Roles are the central objects within Netwrix Password Secure. They form the indispensable bridge
 between users and authorizations of any kind.
@@ -39,7 +39,7 @@ If you are in the **roles module**, the process for creating new roles is the sa
 [Creating new passwords](/docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/creating_new_passwords.md). Roles can be created via the
 ribbon and also via the context menu that is accessed using the right mouse button.
 
-![creating new role](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/roles/roles_3-en.webp)
+![creating new role](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/roles/roles_3-en.webp)
 
 ## Planning phase
 
@@ -66,7 +66,7 @@ a role is already made available in the
 [Reading pane](/docs/passwordsecure/9.2/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md). All of the other users with
 permissions but without membership of the role are not taken into account.
 
-![role overview](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/roles/roles_4-en.webp)
+![role overview](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/roles/roles_4-en.webp)
 
 NOTE: The roles module is based on the
 [Roles module](/docs/passwordsecure/9.2/configuration/web_applicaiton/functional_scope/roles_module/roles_module.md) of the Web

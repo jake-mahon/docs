@@ -5,7 +5,7 @@ Configuration Console to edit the configuration settings. Click **Start** > **Ne
 Reset** > **NPR Configuration Console**on the Password Reset Server computer to open the
 Configuration Console.
 
-![configuring_npr](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr.webp)
+![configuring_npr](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr.webp)
 
 Information about the configuration console tabs can be found in the following topics:
 

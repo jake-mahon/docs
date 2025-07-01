@@ -21,7 +21,7 @@ The Active Directory connection in the Web Application works similiar to the Cli
 [Active Directory link](/docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md)
 you can find further information.
 
-![Organisational structure WebClient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_160-en.webp)
+![Organisational structure WebClient](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_160-en.webp)
 
 The Web Application offers the following functions:
 
@@ -37,7 +37,7 @@ methods in future. You will find further informations in the
 [RADIUS authentication](/docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/radius_authentication.md)
 chapter.
 
-![installation_with_parameters_161](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_161.webp)
+![installation_with_parameters_161](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_161.webp)
 
 ###### Predefining rights
 
@@ -47,21 +47,21 @@ To **predefine rights** in the Web Application, the procedure is the same as in 
 Go to the module organisational structure to choose the organisation unit for which the rights shall
 be predefined. Then choose **Predefine rights** in the menu bar.
 
-![installation_with_parameters_162](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_162.webp)
+![installation_with_parameters_162](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_162.webp)
 
 **Creating the first template group:** A modal window will appear after clicking on the icon for
 adding a new template group (green arrow) in which a meaningful name for the template group should
 be entered.
 
-![installation_with_parameters_163](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_163.webp)
+![installation_with_parameters_163](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_163.webp)
 
 Now you can add the appropriate roles and users.
 
-![installation_with_parameters_164](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_164.webp)
+![installation_with_parameters_164](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_164.webp)
 
 You can add users and roles in different ways:
 
 - Add the appropriate roles and users at the toolbar under **Search and add**.
 - Click on the loupe to see all the users and roles.
 
-![installation_with_parameters_165](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_165.webp)
+![installation_with_parameters_165](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/functional_scope/organisational_structure/installation_with_parameters_165.webp)

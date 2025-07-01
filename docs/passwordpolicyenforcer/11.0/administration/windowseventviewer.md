@@ -4,7 +4,7 @@ Follow the steps below to view events logs in Windows Event Viewer.
 
 **Step 1 –** Open **Windows Event Viewer**.
 
-![View Event Logs](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/vieweventlogs.webp)
+![View Event Logs](/img/product_docs/passwordpolicyenforcer/11.0/administration/vieweventlogs.webp)
 
 **Step 2 –** Navigate to **Windows Logs** > **Application**.
 
@@ -17,6 +17,6 @@ The General tab shows details for the selected event. The Details tab shows...
 
 To view Log Properties, navigate to the Actions menu and select **Properties**.
 
-![Log Properties Window](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/vieweventlogslogproperties.webp)
+![Log Properties Window](/img/product_docs/passwordpolicyenforcer/11.0/administration/vieweventlogslogproperties.webp)
 
 The Log Properties window displays. Settings for this log can be configured from this window.

@@ -4,7 +4,7 @@ The Repeating Pattern rule rejects passwords that contain repeating character se
 use repetition to artificially increase the length of a short password. This should be avoided as it
 can weaken the password.
 
-![ppe_rules_17](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_17.webp)
+![ppe_rules_17](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_17.webp)
 
 - Select the **Enabled** check box to enable the Repeating Pattern rule.
 - Select the Detect character substitution check box if Password Policy Enforcer should reject

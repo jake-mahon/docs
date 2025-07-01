@@ -14,8 +14,8 @@ Double click the **PPE Configuration** desktop shortcut.
 If this is the first time you have launched the Configuration Console, you are prompted to click
 **Yes** to create a new configuration.
 
-![First start](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe1.webp)
+![First start](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppe1.webp)
 
 The [Configuration Console](/docs/passwordpolicyenforcer/11.0/administration/configconsole.md) is displayed:
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)

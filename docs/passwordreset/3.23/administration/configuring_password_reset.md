@@ -10,7 +10,7 @@ the Password Policy Enforcer integration. See the
 [Netwrix Password Policy Enforcer](#netwrix-password-policy-enforcer)topic for additional
 information.
 
-![configuring_apr](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/configuring_apr_1.webp)
+![configuring_apr](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
 
 ### Domain List
 
@@ -81,7 +81,7 @@ Password Reset is a configurable password filter that enforces granular password
 advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a
 compliant password.
 
-![configuring_apr_1](/img/versioned_docs/passwordreset_3.23/password_reset/evaluation/configuring_apr_1.webp)
+![configuring_apr_1](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for
 their new password, and the Password Policy Enforcer rejection message if the new password does not
@@ -111,7 +111,7 @@ learn more about Password Policy Enforcer.
 
 Use the **Enroll** tab to maintain the list of enrollment questions and options.
 
-![configuring_apr_2](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_2.webp)
+![configuring_apr_2](/img/product_docs/passwordreset/3.23/administration/configuring_apr_2.webp)
 
 ### Question List
 
@@ -166,7 +166,7 @@ characters in each answer from the **Answers must contain at least...** drop-dow
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit
 the e-mail templates.
 
-![configuring_apr_3](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_3.webp)
+![configuring_apr_3](/img/product_docs/passwordreset/3.23/administration/configuring_apr_3.webp)
 
 ### E-mail Delivery
 
@@ -188,7 +188,7 @@ sends an e-mail when the event occurs. Enabled triggers are underlined.
 
 Click the name of an enabled trigger to edit the trigger's e-mail template.
 
-![configuring_apr_4](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_4.webp)
+![configuring_apr_4](/img/product_docs/passwordreset/3.23/administration/configuring_apr_4.webp)
 
 Type the name and e-mail address you wish to appear in the e-mail's From field in the **From** text
 box. The correct format is `"Display Name" <mailbox@domain.com>`  
@@ -233,7 +233,7 @@ A warning icon is shown beside the language drop-down list if an e-mail template
 every language. You should define an e-mail template for every language to ensure that users can
 understand their e-mail alerts.
 
-![configuring_apr_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_5.webp)
+![configuring_apr_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_5.webp)
 
 **CAUTION:** An attacker may choose a specific language to avoid detection. E-mail alerts are sent
 in the Web Interface language chosen by the attacker if the target user has not enrolled or changed
@@ -250,7 +250,7 @@ are used for two-factor authentication, and to authenticate users that have not 
 verification code is sent to the user's mobile phone by e-mail and/or SMS, and the user enters the
 verification code to continue.
 
-![configuring_apr_6](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_6.webp)
+![configuring_apr_6](/img/product_docs/passwordreset/3.23/administration/configuring_apr_6.webp)
 
 #### Verification Codes
 
@@ -297,7 +297,7 @@ hide parts of the e-mail address and phone number when requesting a verification
 especially important if automatic enrollment is enabled, as it stops an attacker from discovering
 information about the user.
 
-![configuring_apr](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr.webp)
+![configuring_apr](/img/product_docs/passwordreset/3.23/administration/configuring_apr.webp)
 
 Verification codes are of a specified length, and may contain both alpha and numeric characters.
 Select the desired options from the **Create verification codes with...** drop-down lists. Longer,
@@ -355,14 +355,14 @@ script could read the user's phone number from a database, or send a language-sp
 the value of the [LANG] macro. Put the path of the scripting engine executable in the **Command**
 text box, and the path to the script file and other parameters in the **Parameters** text box.
 
-![configuring_apr_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_7.webp)
+![configuring_apr_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_7.webp)
 
 ## Security Tab
 
 Use the **Security** tab to configure the inactivity timeout, password reset policies, and the
 lockout threshold.
 
-![configuring_apr_8](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_8.webp)
+![configuring_apr_8](/img/product_docs/passwordreset/3.23/administration/configuring_apr_8.webp)
 
 ### Inactivity Timeout
 
@@ -428,7 +428,7 @@ questions during a reset or unlock.
 
 Use the **Permissions** tab to control which users can use Password Reset.
 
-![configuring_apr_9](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_9.webp)
+![configuring_apr_9](/img/product_docs/passwordreset/3.23/administration/configuring_apr_9.webp)
 
 ### Enroll
 
@@ -455,7 +455,7 @@ These settings specify which users can change their password with Password Reset
 Use the **About** tab to check the version and license information, and to install a new license
 key.
 
-![configuring_apr_10](/img/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_apr_10.webp)
+![configuring_apr_10](/img/product_docs/passwordreset/3.23/administration/configuring_apr_10.webp)
 
 To install a new license key, copy the entire license e-mail to the clipboard, and then click Get
 license from clipboard.

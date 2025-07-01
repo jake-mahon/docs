@@ -36,7 +36,7 @@ feature will be unavailable**.
 
 **Step 9 –** Click **Next** twice.
 
-![configuring_ppe](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuring_ppe.webp)
+![configuring_ppe](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/configuring_ppe.webp)
 
 **Step 10 –** Wait for the Management Console to install and then click **Finish**.
 
@@ -48,7 +48,7 @@ Enforcer management console.
 **NOTE:** If you are opening the management console for the first time, click **Yes** when asked if
 you would like to create a new Password Policy Enforcer configuration.
 
-![configuring_ppe_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_1.webp)
+![configuring_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_1.webp)
 
 The management console images in this document are taken from a computer running Windows
 Server 2016. Other Windows versions may display the management console slightly differently, however
@@ -64,7 +64,7 @@ the management console to select a view.
 
 #### Password Policy Enforcer View
 
-![configuring_ppe_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_2.webp)
+![configuring_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_2.webp)
 
 Click **Password Policy Enforcer** in the left pane to display this view. With this view, you can
 perform the following actions:
@@ -74,7 +74,7 @@ perform the following actions:
 
 #### PPS View
 
-![configuring_ppe_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_3.webp)
+![configuring_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_3.webp)
 
 Click **PPS** in the left pane to display this view. With this view, you can perform the following
 actions:
@@ -85,7 +85,7 @@ actions:
 
 #### Policies View
 
-![configuring_ppe_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_4.webp)
+![configuring_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_4.webp)
 
 Click **PPS** in the left pane to display this view. With this view, you can perform the following
 actions:
@@ -100,7 +100,7 @@ actions:
 Click a **policy name** in the left pane to display this view. Use this view to configure the rules
 for a policy.
 
-#### ![configuring_ppe_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_5.webp)
+#### ![configuring_ppe_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_5.webp)
 
 ## Connecting to a Configuration
 
@@ -199,7 +199,7 @@ Follow the steps below to disable Password Policy Enforcer.
 
 **Step 2 –** Click **PPS Properties** in the right pane of the management console.
 
-![configuring_ppe_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/configuring_ppe_6.webp)
+![configuring_ppe_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_6.webp)
 
 **Step 3 –** Click **Disable PPE**.
 
@@ -216,7 +216,7 @@ Follow the steps below to re-enable Password Policy Enforcer.
 
 **Step 2 –** Click **PPS Properties** in the right pane of the management console.
 
-![configuring_ppe_8](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuring_ppe_8.webp)
+![configuring_ppe_8](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/configuring_ppe_8.webp)
 
 **Step 3 –** Click **Enable PPE**, then click **OK**.
 
@@ -240,7 +240,7 @@ topic for additional information.
 
 Follow the steps below to open the PPS Properties page:
 
-![configuring_ppe_9](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuring_ppe_9.webp)
+![configuring_ppe_9](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/configuring_ppe_9.webp)
 
 **Step 1 –** Click the **PPS** item to display the PPS view.
 

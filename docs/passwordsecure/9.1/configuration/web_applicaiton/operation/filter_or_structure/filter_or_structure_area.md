@@ -3,7 +3,7 @@
 As is also the case on the client, it is possible to select between filter and structure. For this
 purpose, the following buttons are available on the navigation bar
 
-![installation_with_parameters_169](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_169.webp)
+![installation_with_parameters_169](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_169.webp)
 
 1. Filter
 
@@ -21,7 +21,7 @@ Configuring the filter
 
 The configuration for the filter can be displayed via the following buttons:
 
-![installation_with_parameters_170](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_170.webp)
+![installation_with_parameters_170](/img/product_docs/passwordsecure/9.1/configuration/web_applicaiton/operation/filter_or_structure/installation_with_parameters_170.webp)
 
 New filter groups can be added using **Add filter groups** and the current filter can be reset using
 **Reset filter. Advanced mode** provides you with the possibility of deleting or moving individual

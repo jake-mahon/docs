@@ -9,7 +9,7 @@ Follow the steps to add a team tab.
 
 Step 1 – Click on the **Plus** sign and a form will open.
 
-![newform](/img/product_docs/passwordsecure/passwordsecure/enduser/newform.webp)
+![newform](/img/product_docs/passwordsecure/9.2/enduser/newform.webp)
 
 Step 2 – You can now search for a specific organizational unit by clicking on the tree on the left
 or use the search field to find the unit you need.
@@ -24,7 +24,7 @@ With a growing number of managed passwords, it becomes even more important to ma
 and overview. Therefore, Netwrix Password Secure works with tags instead of a folder system: You can
 assign any number of tags to your passwords to categorize and find them again quickly.
 
-![assigntags](/img/product_docs/passwordsecure/passwordsecure/enduser/assigntags.webp)
+![assigntags](/img/product_docs/passwordsecure/9.2/enduser/assigntags.webp)
 
 To find a password, just use the search field and enter a tag like the department or position you
 are in (i.e., "Marketing"). Netwrix Password Secure now not only is searching for tags, but also for
@@ -45,19 +45,19 @@ List View
 
 The screenshot below shows the list view.
 
-![listview](/img/product_docs/passwordsecure/passwordsecure/enduser/listview.webp)
+![listview](/img/product_docs/passwordsecure/9.2/enduser/listview.webp)
 
 Tile View
 
 The screenshot below shows the title view.
 
-![switchbutton](/img/product_docs/passwordsecure/passwordsecure/enduser/switchbutton.webp)
+![switchbutton](/img/product_docs/passwordsecure/9.2/enduser/switchbutton.webp)
 
 When in **tile view**, you can also drag and drop the buttons on another position. By hovering over
 them with the mouse, you will see more information like the username, and you can login with one
 click.
 
-![titleview](/img/product_docs/passwordsecure/passwordsecure/enduser/titleview.webp)
+![titleview](/img/product_docs/passwordsecure/9.2/enduser/titleview.webp)
 
 NOTE: The **list view** is suitable for many data sets while the tile view is particularly favorable
 for the most frequently used secrets.

@@ -4,7 +4,7 @@ The default URL for Password Policy Enforcer/Web is: `http://[server]/ppeweb/`
 
 Where [server] is the name or IP address of the server hosting Password Policy Enforcer/Web.
 
-![using_ppe_web](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web.webp)
+![using_ppe_web](/img/product_docs/passwordpolicyenforcer/10.2/web/using_ppe_web.webp)
 
 The default page is called the Welcome page. You can customize the information on this page by
 editing en_default.htm, or you can bypass this page and send users directly to the Password Change
@@ -31,11 +31,11 @@ Follow the steps below to change a password with Password Policy Enforcer/Web.
 
 **Step 1 –** Click **Change Password** on the Welcome page.
 
-![using_ppe_web](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web.webp)
+![using_ppe_web](/img/product_docs/passwordpolicyenforcer/10.2/web/using_ppe_web.webp)
 
 **Step 2 –** Enter a **Username** and **Domain**, then click **Next**.
 
-![introduction_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/introduction_4.webp)
+![introduction_4](/img/product_docs/passwordpolicyenforcer/10.2/web/introduction_4.webp)
 
 **Step 3 –** Enter the **Old Password**, **New Password**, and **Confirm Password**, then click
 **Next**.
@@ -50,13 +50,13 @@ Validation errors are shown in a yellow box below the page instructions. Validat
 normally caused by invalid user input. They can often be overcome by changing the value of one or
 more input fields and resubmitting the form.
 
-![using_ppe_web_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_1.webp)
+![using_ppe_web_1](/img/product_docs/passwordpolicyenforcer/10.2/web/using_ppe_web_1.webp)
 
 Critical errors are shown on their own page. These errors are mostly a result of configuration or
 system errors. Users can sometimes overcome a critical error by following the instructions in the
 error message, but most critical errors are beyond the user's control.
 
-![using_ppe_web_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_ppe_web_2.webp)
+![using_ppe_web_2](/img/product_docs/passwordpolicyenforcer/10.2/web/using_ppe_web_2.webp)
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the

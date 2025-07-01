@@ -14,7 +14,7 @@ option shows you the most information about the policy.
 **Step 2 –** Select the **PPETestUser** you created. The details pane displays the policy applied to
 the selected user.
 
-![Enter user name for the test](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuser.webp)
+![Enter user name for the test](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/evaltestuser.webp)
 
 **Step 3 –** Enter a password to test.
 
@@ -26,7 +26,7 @@ results pane.
 **mypassword** fails two requirements. You can hover over the requirements to view the associated
 rule.
 
-![mypassword fails](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaltestuserfail.webp)
+![mypassword fails](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/evaltestuserfail.webp)
 
 Click **View log** to expand Password Policy Enforcer's internal event log. The information in the
 event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
@@ -59,7 +59,7 @@ the Password Policy Client is installed. This helps users to choose a compliant 
 Password Policy Client also changes the message that users see when their password is rejected. Both
 these messages are customizable.
 
-![introduction_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/introduction_3.webp)
+![introduction_3](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/introduction_3.webp)
 
 The Password Policy Client does not modify any Windows system files, and you do not have to install
 it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password

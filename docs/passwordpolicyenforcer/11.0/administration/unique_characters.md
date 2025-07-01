@@ -7,7 +7,7 @@ in a password increases password strength by avoiding repetitive sequences that 
 The Unique Characters rule is case sensitive, so "LoOpHole" contains seven unique characters
 (LoOpHle).
 
-![Unique characters rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/unique.webp)
+![Unique characters rule](/img/product_docs/passwordpolicyenforcer/11.0/administration/unique.webp)
 
 Select the **Unique characters** check box to enable the Unique Characters rule.
 

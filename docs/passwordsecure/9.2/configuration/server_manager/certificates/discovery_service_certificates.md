@@ -4,7 +4,7 @@
 
 If a discovery service is created, a corresponding certificate is also created:
 
-![installation_with_parameters_202](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_202.webp)
+![installation_with_parameters_202](/img/product_docs/passwordsecure/9.2/configuration/server_manager/certificates/installation_with_parameters_202.webp)
 
 NOTE: The discovery service certificate cannot be replaced by your own certificate.
 

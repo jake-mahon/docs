@@ -19,7 +19,7 @@ Windows authentication. To identify the service account, open services.msc, doub
 Password Reset service, and then click the Log On tab. Password Reset logs on to SQL Server with
 this account.
 
-![working_with_the_database](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database.webp)
+![working_with_the_database](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/working_with_the_database.webp)
 
 **Step 3 –** Create an SQL Server user, and map it to the service account login.
 
@@ -65,7 +65,7 @@ information, and **Trust server certificate** must be selected if SQL Server is 
 certificate. SQL Server uses a self-signed certificate if a trusted certificate is not installed.
 The SQL Server Native Client must be installed if **Trust server certificate** is selected.
 
-![working_with_the_database_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/working_with_the_database_1.webp)
+![working_with_the_database_1](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/working_with_the_database_1.webp)
 
 **Step 8 –** Click **Next**.
 

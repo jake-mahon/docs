@@ -23,7 +23,7 @@ only the differences will be covered below.
 
 ### Creating users
 
-![create user](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/create-user-wc.webp)
+![create user](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/managingusers/create-user-wc.webp)
 
 - **Allocated roles**: New users can directly be allocated one or more rolls when they are created
 - **Change password on next login**: The user will be requested to change their user password on the

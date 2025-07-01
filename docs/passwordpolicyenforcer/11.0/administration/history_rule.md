@@ -108,7 +108,7 @@ Replacing the last parameter with your domain's DN.
 
 **Step 4 –** Press **ENTER** and check the output for errors.
 
-![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppe_rules_8.webp)
+![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppe_rules_8.webp)
 
 ## Using an Existing Attribute for the Password History
 

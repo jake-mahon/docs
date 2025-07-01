@@ -34,7 +34,7 @@ The Password Reset Server is the component that performs requests on behalf of u
 requests from the Web Interface, checks the user's credentials, and performs the requested task if
 the credentials are valid.
 
-![installing_npr](/img/product_docs/passwordreset/passwordreset/evaluation/installing_npr.webp)
+![installing_npr](/img/product_docs/passwordreset/3.3/evaluation/installing_npr.webp)
 
 **NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
@@ -201,7 +201,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![installing_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
+![installing_npr_1](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/installing_npr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to

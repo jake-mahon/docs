@@ -26,7 +26,7 @@ out in a test position or a PoC beforehand.
 
 The installation is set up on the Server Manager via the database settings.
 
-![installation_with_parameters_235](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/managing_databases/database_settings/installation_with_parameters_235.webp)
+![installation_with_parameters_235](/img/product_docs/passwordsecure/9.2/configuration/server_manager/managing_databases/database_settings/installation_with_parameters_235.webp)
 
 - **Library path**: Here you can find the installed PKCS # 11 driver of the HSM.
 - **Token-Serial**: The serial number of the token is given here.

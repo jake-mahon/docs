@@ -19,7 +19,7 @@ Follow the steps below to create a new password policy.
 
 **Step 2 –** Click **New Policy** in the right pane of the management console.
 
-![managing_policies](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/managing_policies.webp)
+![managing_policies](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/managing_policies.webp)
 
 **Step 3 –** Enter a unique policy name in the **New policy name** text box.
 
@@ -45,7 +45,7 @@ Follow the steps below to delete a policy that is no longer required.
 
 ## Policy Properties
 
-![managing_policies_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_1.webp)
+![managing_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_1.webp)
 
 To open the Policy Properties page:
 
@@ -126,14 +126,14 @@ Managers OUs are children of the Info Tech OU, then any policy assigned to the I
 applies to the two child OUs. If this behavior is not desired, then you can assign a different
 policy to a child OU.
 
-![managing_policies_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_3.webp)
+![managing_policies_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
 
 **NOTE:** When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
 user or group SID in the configuration. The assignment remains valid even if the user or group is
 renamed. When a local policy is assigned to a user, Password Policy Enforcer stores the username in
 the configuration. The assignment is invalidated if the user is renamed.
 
-![managing_policies_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_4.webp)
+![managing_policies_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
 
 To assign a password policy:
 
@@ -195,7 +195,7 @@ this algorithm.
 Use the Log tab in the Test Policies page to quickly determine which policy Password Policy Enforcer
 will enforce for a particular user.
 
-![managing_policies_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_5.webp)
+![managing_policies_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_5.webp)
 
 ### Policy Priorities
 
@@ -209,7 +209,7 @@ with the highest priority. To set a policy's priority:
 **Step 2 –** Click Set Priorities in the right pane of the management console. This option is only
 visible when there is more than one password policy.
 
-![managing_policies_6](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies_6.webp)
+![managing_policies_6](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies_6.webp)
 
 **Step 3 –** Select the desired policy.
 
@@ -223,7 +223,7 @@ This flowchart shows how Password Policy Enforcer chooses a policy for each user
 Policies page to quickly determine which policy Password Policy Enforcer will enforce for a
 particular user.
 
-![managing_policies](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.webp)
+![managing_policies](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies.webp)
 
 ## Passphrases
 
@@ -236,7 +236,7 @@ Complexity and dictionary rules are less important for passphrases as passphrase
 length for security. You may therefore want to relax some password policy requirements for
 passphrases. To configure a password policy with fewer requirements for passphrases:
 
-![managing_policies_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_7.webp)
+![managing_policies_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_7.webp)
 
 **Step 1 –** Click the Policies item to display the Policies view.
 
@@ -273,7 +273,7 @@ Follow the steps below to test your configuration:
 
 **Step 2 –** Click Test Policies in the right pane of the management console.
 
-![managing_policies_8](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies_8.webp)
+![managing_policies_8](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies_8.webp)
 
 **Step 3 –** Type a user name in the User name text box, and a password in the Old Password and New
 Password text boxes.
@@ -292,9 +292,9 @@ the new password complied with.
 
 | Rule                                                                                                                                                    | Status of Password Compliance with Rule           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| ![testing_the_password_policy_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
-| ![testing_the_password_policy_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
-| ![testing_the_password_policy_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
 
 Click the **Log** tab to view Password Policy Enforcer's internal event log. The event log can help
 you to understand why Password Policy Enforcer accepted or rejected a password. For example, you can
@@ -305,7 +305,7 @@ use the event log to see which:
 - Dictionary word or keyboard pattern matched with the password.
 - Errors or warnings occurred during testing.
 
-![managing_policies_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies_12.webp)
+![managing_policies_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_12.webp)
 
 ### Policy Testing vs. Password Changes
 

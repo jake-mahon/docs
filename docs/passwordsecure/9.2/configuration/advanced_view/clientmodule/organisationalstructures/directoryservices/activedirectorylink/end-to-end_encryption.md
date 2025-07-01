@@ -26,7 +26,7 @@ The following options are required to add new profiles.
 
 The process for creating a new profile is started via the icon "manage profiles" on the ribbon.
 
-![New AD profile](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_1-en.webp)
+![New AD profile](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_1-en.webp)
 
 NOTE: "End-to-end" needs to be set in the "Encryption" field
 
@@ -49,21 +49,21 @@ must have access to the AD.
 
 The import is started directly in the ribbon. A wizard guides the user through the entire operation.
 
-![Import icon](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.webp)
+![Import icon](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_2-en.webp)
 
 ## Organisational structure
 
 First, an organisational unit is selected for the import. If there are no organisational units in
 the database yet, as in this example, the data is imported into the **main organisational unit**.
 
-![Import wizard/organisational structure](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.webp)
+![Import wizard/organisational structure](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_3-en.webp)
 
 ## Active Directory objects
 
 In the next step, select the relevant profile that should be used for the import. Then, select the
 organisational units and/or users for the import. A search is available for this purpose.
 
-![Import wizard/AD objects](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.webp)
+![Import wizard/AD objects](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_4-en.webp)
 
 It can be seen that the organisational units **Jupiter** and **Contoso** contain items to be
 imported. The organisational units themselves will not be imported. The check next to the group
@@ -78,7 +78,7 @@ There are different symbols which indicate the elements to be imported.
 A context menu that is accessed using the right mouse button is available within the list that
 provides helpful functions for selecting the individual elements.
 
-![context menu](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.webp)
+![context menu](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_5-en.webp)
 
 - Select sub-objects selects all sub-objects that are located directly below the current object
 - Deselect sub-objects removes tags from all sub-objects that are located directly below the current
@@ -99,7 +99,7 @@ the elements along with their descriptions. The **Status** column specifies whet
 added, updated, or disabled. The last column specifies the organisational unit into which the
 element is imported. The number of objects is added together at the bottom.
 
-![Import wizard/Summary](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.webp)
+![Import wizard/Summary](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_6-en.webp)
 
 NOTE: Depending on the amount of data, it may take several minutes to create the summary.
 
@@ -109,7 +109,7 @@ The import itself is carried out by the server in the background. The individual
 appear in the list one by one. This may take some time, depending on the amount of import data. If
 the import is terminated, you will receive a confirmation.
 
-![confirmation](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.webp)
+![confirmation](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/end_to_end_encryption_7-en.webp)
 
 NOTE: As end-to-end encryption is retained in this mode, the server does not receive a key to match
 already imported users with the AD. There is thus no synchronization with the AD. Similarly, no

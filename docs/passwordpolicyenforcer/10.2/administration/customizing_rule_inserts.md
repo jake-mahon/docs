@@ -8,26 +8,26 @@ Follow the steps below to edit a rule's inserts.
 
 **Step 1 –** Click the **Policies** item to display the Policies view.
 
-![customizing_rule_inserts_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_1.webp)
+![customizing_rule_inserts_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/customizing_rule_inserts_1.webp)
 
 **Step 2 –** Click the **desired policy** in the right pane of the management console. In this
 example it is Policy 1.
 
-![customizing_rule_inserts_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_2.webp)
+![customizing_rule_inserts_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/customizing_rule_inserts_2.webp)
 
 **Step 3 –** Double-click the **desired rule** to display the Rule Properties page. In this example
 it is a
 [Compromised Rule](/docs/passwordpolicyenforcer/10.2/administration/compromised_rule.md).
 
-![customizing_rule_inserts_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_3.webp)
+![customizing_rule_inserts_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/customizing_rule_inserts_3.webp)
 
 **Step 4 –** Click the **Messages** tab.
 
-![customizing_rule_inserts_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_4.webp)
+![customizing_rule_inserts_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/customizing_rule_inserts_4.webp)
 
 **Step 5 –** Choose a language from the Language list.
 
-![customizing_rule_inserts_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_5.webp)
+![customizing_rule_inserts_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/customizing_rule_inserts_5.webp)
 
 **Step 6 –** Edit the rule inserts in the Policy and Reason text boxes.
 
@@ -53,4 +53,4 @@ Password Policy Client messages are built using templates, macros, and inserts. 
 shows a sample policy message with the template in blue, a macro in green, and policy inserts in
 white.
 
-![the_password_policy_client_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_password_policy_client_2.webp)
+![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_2.webp)

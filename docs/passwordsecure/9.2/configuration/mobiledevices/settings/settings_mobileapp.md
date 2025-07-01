@@ -3,8 +3,8 @@
 As soon as you are logged in to the **Netwrix Password Secure App**, you can access the **settings**
 via the three dots at the very top left of the screen. These will be briefly explained here.
 
-![MobileApp - settings](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-ma-en.webp)
-![MobileApp - settings](/img/product_docs/passwordsecure/passwordsecure/configuration/mobiledevices/settings/settings-2-ma-en.webp)
+![MobileApp - settings](/img/product_docs/passwordsecure/9.2/configuration/mobiledevices/settings/settings-ma-en.webp)
+![MobileApp - settings](/img/product_docs/passwordsecure/9.2/configuration/mobiledevices/settings/settings-2-ma-en.webp)
 
 #### General
 

@@ -13,7 +13,7 @@ Step 1 – Is your browser extension already installed? You can find out by:
   find the download link in the footer. See the Download Edge Extension link in the bottom center of
   the screenshot below.
 
-![downloadextension](/img/product_docs/passwordsecure/passwordsecure/enduser/downloadextension.webp)
+![downloadextension](/img/product_docs/passwordsecure/9.2/enduser/downloadextension.webp)
 
 NOTE: If you need more information about installing the browser extension, please visit the
 following topic in our documentation:
@@ -22,22 +22,22 @@ following topic in our documentation:
 Step 2 – After downloading, the browser extension is simply dragged and dropped into the browser.
 See the Get button in the upper-right section of the screenshot below.
 
-![getextension](/img/product_docs/passwordsecure/passwordsecure/enduser/getextension.webp)
+![getextension](/img/product_docs/passwordsecure/9.2/enduser/getextension.webp)
 
 Step 3 – After confirming a security question, it is installed, and an icon appears in the menu bar
 to "add the extension".
 
-![addextension](/img/product_docs/passwordsecure/passwordsecure/enduser/addextension.webp)
+![addextension](/img/product_docs/passwordsecure/9.2/enduser/addextension.webp)
 
 Step 4 – Please open or reload the web application of Netwrix Password Secure (see link in email
 from your administrator) to connect your user profile with the extension. See the lock icon in the
 screenshot below.
 
-![extensionadded](/img/product_docs/passwordsecure/passwordsecure/enduser/extensionadded.webp)
+![extensionadded](/img/product_docs/passwordsecure/9.2/enduser/extensionadded.webp)
 
 Step 5 – Now click on this icon in your browser to open the browser extension. See the Adopt Select
 **Adopt Web Application profile**. Done!
 
-![nodatabaseprofile](/img/product_docs/passwordsecure/passwordsecure/enduser/nodatabaseprofile.webp)
+![nodatabaseprofile](/img/product_docs/passwordsecure/9.2/enduser/nodatabaseprofile.webp)
 
 RECOMMENDED: If not done yet, bookmark this page to have it quickly at hand!

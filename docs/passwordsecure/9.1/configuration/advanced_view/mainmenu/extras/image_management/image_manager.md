@@ -6,7 +6,7 @@ All logos and icons are managed in the image management. They can then be linked
 corresponding data records. The images are then displayed in the Basic view as well as in the list
 view of the client.
 
-![Icon/logos in NPS](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_106-en.webp)
+![Icon/logos in NPS](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_106-en.webp)
 
 ## Relevant rights
 
@@ -42,11 +42,11 @@ In the main menu in
 [Extras](/docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/extras.md)
 you can find the image management. Here, you have the possibility to store icons and logos manually.
 
-![Image management](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_107-en.webp)
+![Image management](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_107-en.webp)
 
 Click on the + symbol to open the mask for creating images.
 
-![add image](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_108-en.webp)
+![add image](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/image_management/installation_with_parameters_108-en.webp)
 
 - **Name** Name the picture here.
 
@@ -56,7 +56,7 @@ Click on the + symbol to open the mask for creating images.
       password name -> names of connected applications
     - **Applications**: URL stored in the application -> attached tags -> application name
 
-- ![icon_open_folder](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/icon_open_folder.webp)
+- ![icon_open_folder](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/image_management/icon_open_folder.webp)
   This symbol can be used to upload locally saved icons and logos.
 
 NOTE: Please note that the icons and logos are not stored locally, but in the database.

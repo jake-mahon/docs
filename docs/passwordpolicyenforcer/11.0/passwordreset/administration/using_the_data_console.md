@@ -7,13 +7,13 @@ The Data Console has three tabs. The **Recent Activity** tab shows a chart of re
 chart is empty when Password Reset is first installed, but it will populate itself as the system is
 used.
 
-![using_the_data_console](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console.webp)
+![using_the_data_console](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_the_data_console.webp)
 
 The bars in the chart show how many successful enrollments, resets, unlocks, and changes occurred
 every day. You can click the bars to see a filtered view of the events for that day. For example,
 you could click the blue bar on 2/19/2015 to see all the password resets for that day.
 
-![using_the_data_console_1_1393x772](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_1_1393x772.webp)
+![using_the_data_console_1_1393x772](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_the_data_console_1_1393x772.webp)
 
 The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the
 **Audit Log** tab. You can create your own filter to find events in this tab. See the
@@ -35,7 +35,7 @@ The **Audit Log** tab has nine columns:
 The **Users** tab contains Information about each user. All users are shown by default, but you can
 create filters to find specific users.
 
-![using_the_data_console_2_1317x725](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_the_data_console_2_1317x725.webp)
+![using_the_data_console_2_1317x725](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_the_data_console_2_1317x725.webp)
 
 The **Users** tab has seven columns:
 

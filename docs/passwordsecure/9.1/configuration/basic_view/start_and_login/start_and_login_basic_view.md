@@ -12,7 +12,7 @@ local user:
 
 e.g. administrator (user name administrator)
 
-![image3](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/start_and_login/image3.webp)
+![image3](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/image3.webp)
 
 AD User:
 
@@ -22,7 +22,7 @@ There are 2 possibilities here:
 
 2. domain and username (e.g. nps\administrator)
 
-![image4](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/start_and_login/image4.webp)
+![image4](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/image4.webp)
 
 **CAUTION:** Please ask your administrator if you are not sure which login details apply to you!
 
@@ -37,10 +37,10 @@ or
 - in the Web Application. To switch from the Web Application to the Basic view web view, you have to
   click on your profile name. There you will be offered the option **"Switch to the Basic view"**.
 
-![switch to lightclient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/start_and_login/switch-to-lc-wc-en.webp)
+![switch to lightclient](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/switch-to-lc-wc-en.webp)
 
 The Basic view web view is in no way inferior to the Basic view. The same functions are given except
 for the download of the favicons (icon, symbol or logo used by web browsers to mark a website in a
 recognizable way).
 
-![LightClient in WebClient](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/start_and_login/wc-lc-en.webp)
+![LightClient in WebClient](/img/product_docs/passwordsecure/9.1/configuration/basic_view/start_and_login/wc-lc-en.webp)

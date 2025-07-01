@@ -16,7 +16,7 @@ forms part of the authorization concept. The protective mechanisms are thus down
 permissions. The interrelationships between all of these elements are illustrated in the following
 diagram.
 
-![Authorisation concept](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_1-en.webp)
+![Authorisation concept](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/permission_concept_1-en.webp)
 
 NOTE: Applying some form of permissions is **obligatory**. Applying a protective mechanism is
 **optional**.
@@ -49,7 +49,7 @@ example, the role “Sales Assistance”. This role-based inheritance allows the
 maintain the overview in a larger corporate structure as well as a simple procedure when adding new
 employees. Instead of having to entitle him individually, this is simply added to his role.
 
-![Permission only for users or roles](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_2-en.webp)
+![Permission only for users or roles](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/permission_concept_2-en.webp)
 
 It is obvious to proceed with the organization of accesses using the concept of roles as a basis and
 only to grant rights individually to employees in exceptional cases. The unplanned absence of
@@ -70,7 +70,7 @@ The key point is membership in a role. If an employee can use the authorizations
 roles assigned to him, **he must be a member of the role**. Only members see the records that have
 been authorized for the role.
 
-![Membership in roles](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_3-en.webp)
+![Membership in roles](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/permission_concept_3-en.webp)
 
 NOTE:
 
@@ -87,7 +87,7 @@ users and roles. This dynamics is crucial for understanding the concept of autho
 to ensure maximum software adaptability to any corporate structure. The following diagram
 illustrates this with an example of two users.
 
-![Membership vs permissions for roles](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/membership_permission.webp)
+![Membership vs permissions for roles](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/membership_permission.webp)
 
 - **User 1** is a member of the role, and is therefore authorized for all records that are assigned
   to the role. However, it has only “read rights” for the role itself. This means, it can see the
@@ -118,7 +118,7 @@ By double-clicking on the role “IT-Consultants” in the
 [List view](/docs/passwordsecure/9.1/configuration/advanced_view/operation_and_setup/listview/list_view.md),
 you can open their detailed view.
 
-![roles list view](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_5-en.webp)
+![roles list view](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/permission_concept_5-en.webp)
 
 - The user “Holste” is a member of the role and can, therefore, access those records for which the
   role has permissions. He has the obligatory read right for the role, which is the basic
@@ -128,7 +128,7 @@ you can open their detailed view.
   records that are authorized for the role. However, it has all rights to the role and can therefore
   print, assign other users to the role, and delete them.
 
-![explanation of the authorization through a role](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/permission_concept_6-en.webp)
+![explanation of the authorization through a role](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/permissionconcept/permission_concept_6-en.webp)
 
 This example clearly shows the advantages of the concept. The complete separation of administrative
 users from regular users brings significant advantages. Of course, one does not necessarily exclude

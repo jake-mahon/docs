@@ -104,7 +104,7 @@ column. The rights are grouped according to categories to provide a better overv
 NOTE: There is a version selection box in the user rights. The options that were newly added in the
 selected version are correspondingly marked in the list.
 
-![installation_with_parameters_115](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
+![installation_with_parameters_115](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
 
 This makes it easier for administrators to correctly configure new options before they release the
 update for all employees.

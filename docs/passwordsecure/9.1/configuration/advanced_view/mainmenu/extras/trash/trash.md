@@ -7,7 +7,7 @@ entitled are displayed.
 
 The following functions are available:
 
-![bin_4](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/trash/bin_4.webp)
+![bin_4](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/extras/trash/bin_4.webp)
 
 - **Restore**: The selected passwords are restored.
 

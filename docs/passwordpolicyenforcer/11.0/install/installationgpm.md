@@ -35,11 +35,11 @@ write access to authorized personnel only.
 **Step 3 –** Right-click the **Domain Controllers OU** in the left pane, and then click **Create a
 GPO in this domain, and Link it here...**
 
-![GPM installation](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm1.webp)
+![GPM installation](/img/product_docs/passwordpolicyenforcer/11.0/install/gpm1.webp)
 
 **Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
 
-![GPM Install](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/gpm2.webp)
+![GPM Install](/img/product_docs/passwordpolicyenforcer/11.0/install/gpm2.webp)
 
 ## Edit the Group Policy Object
 
@@ -58,7 +58,7 @@ For example: \\file server\distribution point share\Netwrix*PPE\_\_version*.msi
 
 **Step 5 –** Click **Open**.
 
-![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/install/installing_ppe_2.webp)
+![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/11.0/install/installing_ppe_2.webp)
 
 **Step 6 –** Select **Assigned** as the deployment method.
 

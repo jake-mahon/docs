@@ -1,6 +1,6 @@
 # The Basic view
 
-![light-client-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/basic_view/light-client-en.webp)
+![light-client-en](/img/product_docs/passwordsecure/9.1/configuration/basic_view/light-client-en.webp)
 
 ## What is the Basic view about?
 

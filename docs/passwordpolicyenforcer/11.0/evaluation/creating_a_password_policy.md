@@ -11,7 +11,7 @@ Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
 or  
 Double click the **PPE Configuration** desktop shortcut.
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
 
 The Configuration Console dashboard shows **No password policies have been set up** when you are
 getting started with Password Policy Enforcer.
@@ -28,8 +28,8 @@ policies see [Policy Templates ](/docs/passwordpolicyenforcer/11.0/evaluation/po
 
 Your policy is created. The policy settings are opened, showing the first item on the **Rules** tab.
 
-![New policy open for settings](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/newpolicysettings.webp)
+![New policy open for settings](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/newpolicysettings.webp)
 
 **Step 6 –** Click the context menu (beside the policy name and select **Make default**.
 
-![Make the policy the default](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldefault.webp)
+![Make the policy the default](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/evaldefault.webp)

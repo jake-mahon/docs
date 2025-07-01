@@ -6,14 +6,14 @@ If another password management tool was used before Netwrix Password Secure, the
 imported into Netwrix Password Secure. The formats .csv and especially Keepass (.xml) are supported.
 Both variants can be set up in the import wizard, which is started via the Main menu/Import.
 
-![Import](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_57-en.webp)
+![Import](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_57-en.webp)
 
 ## Requirements
 
 Whether the user is permitted to import data is controlled by the corresponding
 [User rights](/docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/user_rights/user_rights.md).
 
-![installation_with_parameters_58](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_58.webp)
+![installation_with_parameters_58](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_58.webp)
 
 ## The import wizard
 
@@ -21,7 +21,7 @@ The wizard supports the import of data into Netwrix Password Secure in four step
 
 Select type
 
-![installation_with_parameters_59](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_59.webp)
+![installation_with_parameters_59](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_59.webp)
 
 The first step is to define the file that is to be used for the import. It is only possible to
 proceed to the second step when the defined type corresponds to the stated file to be imported. The
@@ -29,7 +29,7 @@ second step is the settings.
 
 Settings
 
-![installation_with_parameters_60](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_60.webp)
+![installation_with_parameters_60](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_60.webp)
 
 1. The settings are used to firstly define the level in the hierarchy for saving the imported
    structure. As can be seen in the example, the import will take place in the main organisational
@@ -47,7 +47,7 @@ process is also used for the migration.
 
 Assignment of the form fields
 
-![installation_with_parameters_61](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_61.webp)
+![installation_with_parameters_61](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_61.webp)
 
 The third step is to assign the forms from the file to be imported to already existing forms. As
 form fields may also have different names, the assignment process must be carried out manually via
@@ -57,7 +57,7 @@ create new forms.
 
 Finish
 
-![installation_with_parameters_62](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/import/installation_with_parameters_62.webp)
+![installation_with_parameters_62](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/import/installation_with_parameters_62.webp)
 
 In the final step, the configured settings are summarised as a list of the objects to be imported.
 The button “Finish” closes the wizard and starts the import.

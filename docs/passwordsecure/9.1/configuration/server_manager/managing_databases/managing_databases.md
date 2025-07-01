@@ -5,7 +5,7 @@
 The available actions can be selected via the context menu that is accessed using the right mouse
 button or also via the ribbon.
 
-![Managing databases](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/installation_with_parameters_234-en.webp)
+![Managing databases](/img/product_docs/passwordsecure/9.1/configuration/server_manager/managing_databases/installation_with_parameters_234-en.webp)
 
 ## Database settings
 

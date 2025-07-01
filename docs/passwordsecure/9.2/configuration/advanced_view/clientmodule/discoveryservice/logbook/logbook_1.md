@@ -9,7 +9,7 @@ settings in the [User settings](/docs/passwordsecure/9.2/configuration/advanced_
 
 ## Show in footer
 
-![logbook in footer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-1-en.webp)
+![logbook in footer](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-1-en.webp)
 
 The following **events** are displayed in the **logbook for the footer** and in the **logbook
 module**:
@@ -23,7 +23,7 @@ module**:
 If an error occurs during the execution of the **Discovery Service Task**, this is also shown n the
 **logbook for the footer** with **additional information** about the error.
 
-![ logbook for the footer](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-2-en.webp)
+![ logbook for the footer](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-2-en.webp)
 
 ## Display in the logbook
 
@@ -32,7 +32,7 @@ Task**. The [Filter](/docs/passwordsecure/9.2/configuration/advanced_view/operat
 is displayed. The same **events** as for the footer for the **Discovery Service Task** are also used
 here.
 
-![logbook entries](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-3-en.webp)
+![logbook entries](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/discoveryservice/logbook/logbook_ds-3-en.webp)
 
 The column editor can be used to arrange and display the data in the table according to their
 importance.

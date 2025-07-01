@@ -100,7 +100,7 @@ and conditions.
 **Step 4 –** Right-click the **PPE912.msi** icon, click **Copy**, and then paste the file into the
 distribution point.
 
-![installing_ppe](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe.webp)
+![installing_ppe](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe.webp)
 
 **Step 5 –** Give the **Domain Controllers** security group read access to the PPE912.msi file in
 the distribution point.
@@ -118,7 +118,7 @@ GPO in this domain, and Link it here...**
 
 **Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
 
-![installing_ppe_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_1.webp)
+![installing_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_1.webp)
 
 #### Edit the Group Policy Object
 
@@ -139,7 +139,7 @@ For example: \\file server\distribution point share\PPE912.msi
 
 **Step 6 –** Select the **Assigned deployment method**, and then click **OK**.
 
-![installing_ppe_2](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_2.webp)
+![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
 
 **Step 7 –** Close the Group Policy Management Editor.
 
@@ -190,7 +190,7 @@ Settings**, **Account Policies**, and **Password Policy** items.
 
 **Step 10 –** Close the Group Policy Management Editor.
 
-![installing_ppe_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/preparing_the_computer.webp)
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/preparing_the_computer.webp)
 
 **NOTE:** You do not have to disable all the Windows password policy rules to use Password Policy
 Enforcer. You can use a combination of Password Policy Enforcer and Windows rules together if you
@@ -249,7 +249,7 @@ additional information.
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to
 automatically import the V8.x configuration settings into the new version.
 
-![installing_ppe_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_4.webp)
+![installing_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
 
 The management console imports valid subscription license keys, but it will not import V8.x
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
@@ -345,7 +345,7 @@ additional information.
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to
 automatically import the V6.x configuration settings into the new version.
 
-![installing_ppe_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_7.webp)
+![installing_ppe_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
 
 The management console imports valid subscription license keys, but it will not import V6.x
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
@@ -466,7 +466,7 @@ additional information.
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to
 automatically import the V5.x configuration settings into the new version.
 
-![installing_ppe_8](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installing_ppe_8.webp)
+![installing_ppe_8](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/installing_ppe_8.webp)
 
 The management console imports valid subscription license keys, but it will not import V5.x
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
@@ -587,7 +587,7 @@ additional information.
 Open the Password Policy Enforcer V9.12 management console immediately after upgrading to
 automatically import the V4.x configuration settings into the new version.
 
-![installing_ppe_9](/img/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installing_ppe_9.webp)
+![installing_ppe_9](/img/product_docs/passwordreset/3.23/password_policy_enforcer/administration/installing_ppe_9.webp)
 
 The management console imports valid subscription license keys, but it will not import V4.x
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy

@@ -21,7 +21,7 @@ the permissions in the list view:
 2. Context menu of a data record (right-click)
 3. Icon at the right edge of the reading pane
 
-![different ways to access the permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-1-en.webp)
+![different ways to access the permissions](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-1-en.webp)
 
 NOTE: The icon on the right of the reading pane shows the information whether the record is personal
 or public. In case of personal data records, the user that is logged on is the only one who has
@@ -33,12 +33,12 @@ add roles and users. 'Right click - Add' inside the userlist or use the ribbon "
 add a user. The filter helps you to quickly find those users who should be granted permissions for
 the record in just a few steps.
 
-![add user and role](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-2-en.webp)
+![add user and role](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-2-en.webp)
 
 The search [Filter](/docs/passwordsecure/9.2/configuration/advanced_view/operation_and_setup/filter/filter.md)opens in a separate tab and can be
 configured as usual.
 
-![seach filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-3-en.webp)
+![seach filter](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-3-en.webp)
 
 **Multiple selection** is also enabled. It allows to add several users via the Windows standard
 Ctrl/Shift + left mouse button.
@@ -51,7 +51,7 @@ password. "Write" permission allows you to edit a data record. **The permission 
 necessary to authorize other users to the record**. This is also a requirement for
 the[Seals](/docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md).
 
-![setting all permissions example](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-4-en.webp)
+![setting all permissions example](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-4-en.webp)
 
 ## Transferring permissions
 
@@ -60,7 +60,7 @@ or roles to others in the context menu. In this context, the use of permission t
 very practical. In the “Template” area of ​​the ribbon, you can save configured permissions,
 including all users, and reuse them for other records.
 
-![preset menu](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-5-en.webp)
+![preset menu](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-5-en.webp)
 
 The transfer of permissions and their reuse can be an important building block to create and
 maintain entitlement integrity. This method cannot rule out misconfigurations, but it will minimize
@@ -79,7 +79,7 @@ The "owner" permission can be set for a user. This permission is more of **a gua
 assigned, there is no way to remove the user or role. This is only possible by the user or the role
 itself, as well as by users with the permission “Is database administrator”.
 
-![owner permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-6-en.webp)
+![owner permission](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/manual_settings/manual-setting-of-permissions-6-en.webp)
 
 The owner permission prevents other users who have the “Authorize” permission from removing someone
 with the owner permission from the record.

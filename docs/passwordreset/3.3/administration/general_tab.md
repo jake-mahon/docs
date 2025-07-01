@@ -8,7 +8,7 @@ Use the General tab to maintain the list of managed domains, set the database op
 the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for
 additional information.
 
-![configuring_npr](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr.webp)
+![configuring_npr](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr.webp)
 
 ### Domain List
 
@@ -77,7 +77,7 @@ Password Reset is a configurable password filter that enforces granular password
 advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a
 compliant password.
 
-![configuring_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_1.webp)
+![configuring_npr_1](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_1.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for
 their new password, and the Password Policy Enforcer rejection message if the new password does not
@@ -109,7 +109,7 @@ topic for more information.
 clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer
 server configuration, and enable "Only accept encrypted client request".
 
-![using_ppe_with_npr](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_ppe_with_npr.webp)
+![using_ppe_with_npr](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_ppe_with_npr.webp)
 
 Please do not enable this option if you are using Netwrix Password Reset v3.3 with Netwrix Password
 Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforcer/Web. If you are

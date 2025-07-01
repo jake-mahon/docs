@@ -2,7 +2,7 @@
 
 Use the **Permissions** tab to control which users can use Password Reset.
 
-![configuring_npr_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_9.webp)
+![configuring_npr_9](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_9.webp)
 
 ### Enroll
 

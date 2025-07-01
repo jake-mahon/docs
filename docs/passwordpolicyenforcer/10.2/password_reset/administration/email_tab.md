@@ -3,7 +3,7 @@
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit
 the e-mail templates.
 
-![configuring_npr_3_709x772](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_3_709x772.webp)
+![configuring_npr_3_709x772](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_3_709x772.webp)
 
 ### E-mail Delivery
 
@@ -25,7 +25,7 @@ sends an e-mail when the event occurs. Enabled triggers are underlined.
 
 Click the name of an enabled trigger to edit the trigger's e-mail template.
 
-![configuring_npr_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_4.webp)
+![configuring_npr_4](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_4.webp)
 
 Type the name and e-mail address you wish to appear in the e-mail's From field in the **From** text
 box. The correct format is `"Display Name" <mailbox@domain.com>`  
@@ -70,7 +70,7 @@ A warning icon is shown beside the language drop-down list if an e-mail template
 every language. You should define an e-mail template for every language to ensure that users can
 understand their e-mail alerts.
 
-![configuring_npr_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_npr_5.webp)
+![configuring_npr_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_5.webp)
 
 **CAUTION:** An attacker may choose a specific language to avoid detection. E-mail alerts are sent
 in the Web Interface language chosen by the attacker if the target user has not enrolled or changed

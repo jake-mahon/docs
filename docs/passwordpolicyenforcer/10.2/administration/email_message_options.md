@@ -16,7 +16,7 @@ rule properties page. Follow the steps below to configure the email message opti
 
 **Step 6 –** Click the **Email** tab.
 
-![the_ppe_mailer_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/the_ppe_mailer_1.webp)
+![the_ppe_mailer_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_ppe_mailer_1.webp)
 
 Choose values from the days drop-down lists to specify when emails will be sent. By default, emails
 are sent 14, 7, and 2 days before a user's password expires.

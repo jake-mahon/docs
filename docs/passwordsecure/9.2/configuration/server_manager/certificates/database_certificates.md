@@ -4,7 +4,7 @@
 
 A unique certificate is created for each database. This has the name **psrDatabaseKey**:
 
-![installation_with_parameters_207](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_207.webp)
+![installation_with_parameters_207](/img/product_docs/passwordsecure/9.2/configuration/server_manager/certificates/installation_with_parameters_207.webp)
 
 The database certificate **does not encrypt the database.** Rather, it is used for the encrypted
 transfer of passwords from the client to the server in the following cases:

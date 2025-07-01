@@ -16,4 +16,4 @@ Go
 to[](https://www.netwrix.com/active_directory_password_reset_tool.html)[ www.netwrix.com](https://www.netwrix.com/password_policy_enforcer.html)
 for more information, or to download an evaluation copy.
 
-![netwrix_password_reset_and_ppe_1105x808](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/netwrix_password_reset_and_ppe_1105x808.webp)
+![netwrix_password_reset_and_ppe_1105x808](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/netwrix_password_reset_and_ppe_1105x808.webp)

@@ -52,7 +52,7 @@ topic for additional information.
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to
 automatically import the V8.x configuration settings into the new version.
 
-![installing_ppe_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_4.webp)
+![installing_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
 
 The management console imports valid subscription license keys, but it will not import V8.x
 perpetual license keys as they cannot be used with Password Policy Enforcer 10.2. Password Policy
@@ -135,7 +135,7 @@ version.
 Open the PPE V10.2 management console immediately after upgrading to automatically import the V7.x
 configuration settings into the new version.
 
-![ppe7configurationimport](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe7configurationimport.webp)
+![ppe7configurationimport](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe7configurationimport.webp)
 
 The management console imports valid subscription license keys, but it will not import V7.x
 perpetual license keys as they cannot be used with Password Policy EnforcerV10.2. Password Policy
@@ -223,7 +223,7 @@ topic for additional information.
 Open the Password Policy Enforcer 10.2 management console immediately after upgrading to
 automatically import the V6.x configuration settings into the new version.
 
-![installing_ppe_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_ppe_7.webp)
+![installing_ppe_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
 
 The management console imports valid subscription license keys, but it will not import V6.x
 perpetual license keys as they cannot be used with Password Policy Enforcer 10.2. Password Policy

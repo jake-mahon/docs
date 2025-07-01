@@ -13,18 +13,18 @@ can be found here: To do for the administration
 **Prerequisite:** An existing application is available. It does not matter whether this is an SSO,
 web, RDP, or SSH application.
 
-![create password](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/create-password-en.webp)
+![create password](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/create-password-en.webp)
 
 NOTE: Managing and creating the corresponding applications is the responsibility of the in-house
 administration. How to create an application can be read here and in the following chapters.
 
 Clicking on the existing application opens a window that asks for the user name and password.
 
-![create-password-light](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/create-password-light.webp)
+![create-password-light](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/create-password-light.webp)
 
 Once these fields are filled in, the record is created.
 
-![created record](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/apple-icon-en.webp)
+![created record](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/apple-icon-en.webp)
 
 Now the record can be opened by clicking on the corresponding tile.
 
@@ -39,18 +39,18 @@ not matter in which tab the user is located. If a rights template is defined for
 organizational unit, then this template will take effect at this point. It is also possible to
 define one or more corresponding tags for the data set.
 
-![create new password](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/create-new-password-en.webp)
+![create new password](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/create-new-password-en.webp)
 
-![create-light-client](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/create-light-client.webp)
+![create-light-client](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/create-light-client.webp)
 
 In the next step, an application can be added to the newly created data record, if one already
 exists. To do this, go to the Linked Applications tab.
 
-![linked applications](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/linked-applications-en.webp)
+![linked applications](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/linked-applications-en.webp)
 
 Then the whole process is completed by clicking the "Finish" button.
 
-![netwrix logo](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/netwrix-logo-en.webp)
+![netwrix logo](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/netwrix-logo-en.webp)
 
 ## Changing and deleting passwords
 
@@ -59,4 +59,4 @@ cursor. The control button will appear.
 
 When you click the button, you will be offered the "Edit" and "Delete" options, among others.
 
-![options record light client](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/password_management/options-en.webp)
+![options record light client](/img/product_docs/passwordsecure/9.2/configuration/basic_view/password_management/options-en.webp)

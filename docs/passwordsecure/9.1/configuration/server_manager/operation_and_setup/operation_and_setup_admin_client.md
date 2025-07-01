@@ -12,7 +12,7 @@ NOTE: An initial password is required for the first login on Server Manager. The
 
 #### Status module
 
-![Status Admin Client](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.webp)
+![Status Admin Client](/img/product_docs/passwordsecure/9.1/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.webp)
 
 1. Ribbon
 
@@ -54,7 +54,7 @@ column headings. The period shown can be limited using .
 Databases are managed in a dedicated module. All relevant information on the existing databases can
 also be called up – completely without accessing the SQL server.
 
-![Databases Admin Client](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.webp)
+![Databases Admin Client](/img/product_docs/passwordsecure/9.1/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.webp)
 
 1. Ribbon
 
@@ -85,7 +85,7 @@ carried out in the same way as the server log according to the colours applied.
 There is also a separate module for configuring the backups. This means that all backups can be
 configured and managed directly from the Server Manager.
 
-![backup-ac](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/operation_and_setup/backup-ac.webp)
+![backup-ac](/img/product_docs/passwordsecure/9.1/configuration/server_manager/operation_and_setup/backup-ac.webp)
 
 1. Ribbon
 

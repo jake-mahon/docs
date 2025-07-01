@@ -4,11 +4,11 @@
 
 In the previous on-prem version, there are the modules Databases (1) and Backups (2).
 
-![Modules in AdminClient](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/msp/changes_in_ac/module-ac-en_606x403.webp)
+![Modules in AdminClient](/img/product_docs/passwordsecure/9.2/configuration/server_manager/msp/changes_in_ac/module-ac-en_606x403.webp)
 
 In the new MSP version these have been replaced by the modules Customers (1) and Cost Overview (2).
 
-![AdminClient - MSP module](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/msp/changes_in_ac/module-msp-ac-en.webp)
+![AdminClient - MSP module](/img/product_docs/passwordsecure/9.2/configuration/server_manager/msp/changes_in_ac/module-msp-ac-en.webp)
 
 In the MSP version, you will find the individual customer databases under the Customers module.
 

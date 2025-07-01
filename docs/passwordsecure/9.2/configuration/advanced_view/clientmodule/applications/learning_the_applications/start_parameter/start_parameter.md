@@ -12,11 +12,11 @@ manufacturer of the software or taken from the documentation.
 The parameters can be directly entered in the application in the corresponding field. Alternatively,
 a configuration window is also available for this purpose.
 
-![parameters applications](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_1-en.webp)
+![parameters applications](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_1-en.webp)
 
 The required elements can be moved here from the right side to the left side by drag & drop.
 
-![edit parameters](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_2-en.webp)
+![edit parameters](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_2-en.webp)
 
 Different categories are available here:
 
@@ -31,11 +31,11 @@ example, the following start parameter have been defined for the Salamander appl
 For both parameters, the password fields with the names "Left Path" and "Right Path" are then
 transferred in each case.
 
-![enter parameter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_3-en.webp)
+![enter parameter](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_3-en.webp)
 
 The application is then linked with the following password:
 
-![linked password parameter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_4-en.webp)
+![linked password parameter](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/learning_the_applications/start_parameter/start_parameter_4-en.webp)
 
 When the Salamander application is started, the placeholder is replaced by the field names.
 Therefore, instead of

@@ -5,7 +5,7 @@ logged in user opens it.
 
 #### Options in the user menu
 
-![bin_1](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/user_menu/bin_1.webp)
+![bin_1](/img/product_docs/passwordsecure/9.2/configuration/web_applicaiton/operation/navigation_bar/user_menu/bin_1.webp)
 
 Settings
 

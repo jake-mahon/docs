@@ -5,7 +5,7 @@
 The user rights section provides all of the basic information required for handling user rights .
 Nevertheless, the four user rights related to “predefining rights” are explained below.
 
-![global user rights](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/relevant_user_rights/relevant_user_rights_1-en.webp)
+![global user rights](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/relevant_user_rights/relevant_user_rights_1-en.webp)
 
 - **Can switch default rights templates:** When selecting the rights template, a diverse range of
   rights template groups can be selected. To be able to select a different template to the default
@@ -24,4 +24,4 @@ Nevertheless, the four user rights related to “predefining rights” are expla
   are always authorized for records in this organisational structure. If the user right is
   activated: The user can remove the roles via the “x” icon:
 
-![Permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/relevant_user_rights/relevant_user_rights_2-en.webp)
+![Permissions](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/relevant_user_rights/relevant_user_rights_2-en.webp)

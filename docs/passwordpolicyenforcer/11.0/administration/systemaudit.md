@@ -15,14 +15,14 @@ configuration setting. System Audit and Support opens on the **Version Tracker**
 
 ## Version Tracker
 
-![System Audit and Support Version Tracker tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudit.webp)
+![System Audit and Support Version Tracker tab](/img/product_docs/passwordpolicyenforcer/11.0/administration/systemaudit.webp)
 
 Click **Run test**. The audit reports the discovered domain controllers and versions.
 
 **NOTE:** If you do not see the **Configuration Timestamp**, contact your network administrator to
 set up the firewall to allow Password Policy Enforcer to communicate.
 
-![System Audit results](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemauditversion.webp)
+![System Audit results](/img/product_docs/passwordpolicyenforcer/11.0/administration/systemauditversion.webp)
 
 You can click the export icon to download your results. The file name is
 **Audit\_\_**timestamp**\_.xlxs**, it is downloaded into the default **Downloads** folder. For large
@@ -37,7 +37,7 @@ the logs.
 The **Support Tools** tab enables you to save a configuration report, export/import PPE settings,
 and open the property editor.
 
-![System Audit Support Tools tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/systemaudittools.webp)
+![System Audit Support Tools tab](/img/product_docs/passwordpolicyenforcer/11.0/administration/systemaudittools.webp)
 
 - **Policies Configuration Report** saves the configuration as a text file. Browse to the folder
   where you want the report. The default filename is **PPEConfig.txt**.
@@ -62,7 +62,7 @@ or
 
 **System Audit and Support** > **Support Tools** > **Open editor**
 
-![Property Editor](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/propertyeditor.webp)
+![Property Editor](/img/product_docs/passwordpolicyenforcer/11.0/administration/propertyeditor.webp)
 
 - **Policy**: select the policy to edit.
 - **Property**: select the property to change.

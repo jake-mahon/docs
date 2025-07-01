@@ -11,14 +11,14 @@ Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
 or  
 Double click the **PPE Configuration** desktop shortcut.
 
-![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/ppedashboard.webp)
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
 
 The Configuration Console dashboard shows **No password policies have been set up** when you are
 getting started with Password Policy Enforcer. Once you **Add a policy**, the dashboard shows the
 defined policies and tool links. In this example, the Default Password Policy and CIS Password
 Policy Guide have been added.
 
-![Dashboard with Policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/ppedashboardpolicies.webp)
+![Dashboard with Policies](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppedashboardpolicies.webp)
 
 The policy management links are all on the Password Policies tile:
 
@@ -107,7 +107,7 @@ test**. See the [Test Policy](/docs/passwordpolicyenforcer/11.0/administration/t
 Set priorities determines which policy to enforce if users have more than one policy. Click **Apply
 priorities** to save the new order.
 
-![Set priorities](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/policypriority.webp)
+![Set priorities](/img/product_docs/passwordpolicyenforcer/11.0/administration/policypriority.webp)
 
 ### Policy Selection Flowchart
 
@@ -115,7 +115,7 @@ This flowchart shows how Password Policy Enforcer determines a policy for each u
 [Test Policy](/docs/passwordpolicyenforcer/11.0/administration/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
 enforced for a particular user.
 
-![managing_policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies.webp)
+![managing_policies](/img/product_docs/passwordpolicyenforcer/11.0/administration/managing_policies.webp)
 
 ## Export
 

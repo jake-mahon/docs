@@ -9,15 +9,15 @@ has already been activated in the Server Manager.
 - First, you register with Postman.
 - After logging in, click on the avatar and select "**Settings**".
 
-![settings postman](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_1-en.webp)
+![settings postman](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_1-en.webp)
 
 - Then click on **Authentication**. Select a new method in the upper right corner.
 
-![option authentication postman](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_2-en.webp)
+![option authentication postman](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_2-en.webp)
 
 - Here the Authentication Type must be defined with **SAML 2.0** and any useful Authentication Name.
 
-![add authentication method](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_3-en.webp)
+![add authentication method](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_3-en.webp)
 
 Then you come to the actual configuration.
 
@@ -25,12 +25,12 @@ Then you come to the actual configuration.
 - **Identity Provider Details** The data from the Server Manager is uploaded as XML or stored
   manually.
 
-![postman identity provider details](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_4-en.webp)
+![postman identity provider details](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_4-en.webp)
 
 - **Service Provider Details** The service provider details are now copied to the application in the
   Netwrix Password Secure Client.
 
-![postman service provider details](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_5-en.webp)
+![postman service provider details](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/applications/examples/saml_examples/saml_postman_5-en.webp)
 
 NOTE: Please note that a **Relay State** is required. This value can be created in the **Configure
 Identity Provider Details View**.

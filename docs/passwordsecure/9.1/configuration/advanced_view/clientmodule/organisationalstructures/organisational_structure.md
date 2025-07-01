@@ -9,7 +9,7 @@ organization diagrams for the company or department. It is also possible to use 
 as the function / activity performed, as the basis for creating hierarchies. It is always up to the
 customer themselves to decide which structure is most useful for the purpose of the application.
 
-![Organizational structure modul](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_1-en.webp)
+![Organizational structure modul](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_1-en.webp)
 
 ## Relevant rights
 
@@ -26,7 +26,7 @@ The operation of the ribbon differs fundamentally in a couple of aspects to how 
 modules. The following section will focus on only those elements of the ribbon that differ. The
 remaining actions have already be explained for the password module.
 
-![create new user/organisational unit](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_2-en.webp)
+![create new user/organisational unit](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_2-en.webp)
 
 - **New organisational unit/user**: New organisational units or new users can be added via the
   ribbon, the keyboard shortcut "CTRL + N" or also the context menu that is accessed using the right
@@ -61,7 +61,7 @@ NOTE: To reset a user password, membership for the user is a prerequisite.
 
 The example below shows the configuration of a user where only the user themselves is a member.
 
-![permission for user](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_3-en.webp)
+![permission for user](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_3-en.webp)
 
 This configuration means that the user password cannot be reset by administrators. The disadvantage
 is that if the password is lost there is no technical solution for "resetting" the password in the
@@ -78,7 +78,7 @@ wizards. The example below shows the creation of a new organisational unit:
 
 ### Create organisational unit
 
-![Add new organisational unit](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_4-en.webp)
+![Add new organisational unit](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_4-en.webp)
 
 - **Allocated organisational unit**: If the new object is defined as a **main organisational unit**,
   it is not allocated to an existing organisational unit
@@ -90,7 +90,7 @@ fields "allocated organisational unit" and also "rights template".
 
 ### Create role
 
-![Create role](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_5-en.webp)
+![Create role](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_5-en.webp)
 
 When creating a new organisational unit, the second tab in the wizard enables you to directly create
 a new role. This role will not only be created but also given "read permission" to the newly created
@@ -98,7 +98,7 @@ organisational unit.
 
 ### Configuring rights
 
-![Configuring rights](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_6-en.webp)
+![Configuring rights](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/organizational_structures_6-en.webp)
 
 The third tab of the wizard allows you to define the permissions for the newly created
 organisational unit. If an allocated organisational unit or a rights template group was defined in

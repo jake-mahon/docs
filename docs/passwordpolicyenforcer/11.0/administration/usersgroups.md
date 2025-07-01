@@ -15,7 +15,7 @@ Double click the **PPE Configuration** desktop shortcut.
 
 **Step 3 –** Open the **Users & Groups** tab.
 
-![Assign policies to Users and Groups](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups.webp)
+![Assign policies to Users and Groups](/img/product_docs/passwordpolicyenforcer/11.0/administration/usersandgroups.webp)
 
 When a domain policy is assigned to a user or group, Password Policy Enforcer stores the user or
 group SID in the configuration. The assignment remains valid even if the user or group is renamed.
@@ -33,14 +33,14 @@ in the container as well as any child containers. For example, if the Helpdesk a
 children of the Info Tech OU, then any policy assigned to the Info Tech OU also applies to the two
 child OUs. If this behavior is not desired, then you can assign a different policy to a child OU.
 
-![managing_policies_3](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies_3.webp)
+![managing_policies_3](/img/product_docs/passwordpolicyenforcer/11.0/administration/managing_policies_3.webp)
 
 **NOTE:** Different assignment types can be used for a single policy. For example, you may assign
 users to a policy by both OU and group at the same time.
 
 As you assign users and groups to the policy, they are displayed on the page.
 
-![Policy assignments](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/usersandgroups2.webp)
+![Policy assignments](/img/product_docs/passwordpolicyenforcer/11.0/administration/usersandgroups2.webp)
 
 To remove a policy assignment:
 
@@ -73,4 +73,4 @@ representation of this algorithm.
 Click **Test Policy** and expand the **View log** to see which policy Password Policy Enforcer
 enforces for a particular user.
 
-![Expand View log under Test to see which policy is enforced](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/testviewlog.webp)
+![Expand View log under Test to see which policy is enforced](/img/product_docs/passwordpolicyenforcer/11.0/administration/testviewlog.webp)

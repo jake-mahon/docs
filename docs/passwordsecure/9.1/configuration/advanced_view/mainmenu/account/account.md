@@ -7,7 +7,7 @@ Users can configure all user-specific information in their account. It should be
 process is used, user data will always be taken from Active Directory â€“ editing this information in
 Netwrix Password Secure is thus not possible.
 
-![account](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.webp)
+![account](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/account/installation_with_parameters_123-ewn.webp)
 
 ## Edit profile
 
@@ -47,7 +47,7 @@ using a hardware token. The configuration is carried out via the ribbon in the â
 See also in
 [Multifactor authentication](/docs/passwordsecure/9.1/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication.md)
 
-![installation_with_parameters_124](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.webp)
+![installation_with_parameters_124](/img/product_docs/passwordsecure/9.1/configuration/advanced_view/mainmenu/account/installation_with_parameters_124.webp)
 
 #### Configure autologin
 

@@ -5,7 +5,7 @@ are used for two-factor authentication, and to authenticate users that have not 
 verification code is sent to the user's mobile phone by e-mail and/or SMS, and the user enters the
 verification code to continue.
 
-![configuring_npr_6](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_6.webp)7
+![configuring_npr_6](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_6.webp)7
 
 #### Verification Codes
 
@@ -52,7 +52,7 @@ hide parts of the e-mail address and phone number when requesting a verification
 especially important if automatic enrollment is enabled, as it stops an attacker from discovering
 information about the user.
 
-![configuring_npr_0](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_0.webp)
+![configuring_npr_0](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_0.webp)
 
 Verification codes are of a specified length, and may contain both alpha and numeric characters.
 Select the desired options from the **Create verification codes with...** drop-down lists. Longer,
@@ -110,4 +110,4 @@ script could read the user's phone number from a database, or send a language-sp
 the value of the [LANG] macro. Put the path of the scripting engine executable in the **Command**
 text box, and the path to the script file and other parameters in the **Parameters** text box.
 
-![configuring_npr_7](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_7.webp)
+![configuring_npr_7](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_7.webp)

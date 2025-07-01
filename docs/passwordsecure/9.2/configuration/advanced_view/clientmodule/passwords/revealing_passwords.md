@@ -19,7 +19,7 @@ thus be deduced that the user has at least a read right for the record. As can b
 authorization concept, the user thus also generally has a read right to the password itself. This
 means the user can view the value of the password using the "reveal" function.
 
-![Show password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_1-en.webp)
+![Show password](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/revealing_passwords_1-en.webp)
 
 ## Revealing passwords – diagram
 
@@ -28,7 +28,7 @@ this process. It creates the **incorrect** impression that the client already ha
 only needs to reveal it. However, the processes running in the background until the password are
 revealed are much more complex and will thus be described below.
 
-![revealing password diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwords/revealing_passwords_2-en.webp)
+![revealing password diagram](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/passwords/revealing_passwords_2-en.webp)
 
 ### Saving the password on the server
 

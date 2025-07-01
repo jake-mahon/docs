@@ -12,11 +12,11 @@ create new records. Proceed here as follows:
 In the next window to appear, the organisational unit “IT” and the template group “Exchange” are
 selected.
 
-![predefined rights](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_1-en.webp)
+![predefined rights](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_1-en.webp)
 
 Here is the underlying rights template as a comparison:
 
-![example for predefined rights](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_2-en.webp)
+![example for predefined rights](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_2-en.webp)
 
 The relationship between them is obvious. It can be immediately seen that by selecting the
 organisational unit “IT” based on the rights configured in the rights template, permissions are
@@ -42,7 +42,7 @@ ribbon can be used to see whether the “move”, “export” and “print” r
 permissions for the selected role/user are always displayed – in this case for the role “IT
 management”.
 
-![predefined rights permiissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_3-en.webp)
+![predefined rights permiissions](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_3-en.webp)
 
 ## Conclusion
 
@@ -55,7 +55,7 @@ organisational structure when creating a record. The permissions are then set au
 process is particularly advantageous for those users who should not set their permissions
 themselves.
 
-![predefined rights diagram](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_4-en.webp)
+![predefined rights diagram](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/working_with_predefining_rights/working_with_predefined_rights_4-en.webp)
 
 **CAUTION:** The configuration of permissions can be carried out manually or automatically as
 described. If you want to change previously set permissions later, this has to be done manually.

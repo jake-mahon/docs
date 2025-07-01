@@ -7,13 +7,13 @@ The Data Console has three tabs. The **Recent Activity** tab shows a chart of re
 chart is empty when Password Reset is first installed, but it will populate itself as the system is
 used.
 
-![using_the_data_console](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console.webp)
+![using_the_data_console](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console.webp)
 
 The bars in the chart show how many successful enrollments, resets, unlocks, and changes occurred
 every day. You can click the bars to see a filtered view of the events for that day. For example,
 you could click the blue bar on 2/19/2015 to see all the password resets for that day.
 
-![using_the_data_console_1](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_the_data_console_1.webp)
+![using_the_data_console_1](/img/product_docs/passwordreset/3.23/administration/using_the_data_console_1.webp)
 
 The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the
 **Audit Log** tab. You can create your own filter to find events in this tab. See the
@@ -35,7 +35,7 @@ The **Audit Log** tab has nine columns:
 The **Users** tab contains Information about each user. All users are shown by default, but you can
 create filters to find specific users.
 
-![using_the_data_console_2](/img/versioned_docs/passwordreset_3.23/password_reset/administration/using_the_data_console_2.webp)
+![using_the_data_console_2](/img/product_docs/passwordreset/3.23/administration/using_the_data_console_2.webp)
 
 The **Users** tab has seven columns:
 
@@ -64,7 +64,7 @@ with the [Custom Filters](#custom-filters)and [The Filter Editor](#the-filter-ed
 The top row in the **Audit Log** and **Users** tabs is called the Filter Row. You can type filter
 values directly into this row.
 
-![using_the_data_console_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_3.webp)
+![using_the_data_console_3](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_3.webp)
 
 The Filter Row is empty when you first open the Data Console. To create a filter, click the **Filter
 Row** in the column you wish to filter. A cursor will appear. Type a value, and then press **ENTER**
@@ -74,7 +74,7 @@ You may see a button to the right of the cursor. Click the button to shown an ed
 that helps you enter a value. Values can include wildcard characters. Use a ? to match any single
 character, or a \* to match more than one character.
 
-![using_the_data_console_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_4.webp)
+![using_the_data_console_4](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_4.webp)
 
 The image above shows a filter on the Date, Source, and Source IP columns. Only password reset
 events on 2/5/2015 originating from IP addresses starting with 192.168.115 are shown. The small blue
@@ -87,19 +87,19 @@ or the filter editor windows for a logical OR filter.
 
 You can also create a filter by selecting values from a list in the column headers.
 
-![using_the_data_console_5](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_5.webp)
+![using_the_data_console_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_5.webp)
 
 Hover the mouse pointer over a column header until a small button appears on the right side of the
 header.
 
-![using_the_data_console_6](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_6.webp)
+![using_the_data_console_6](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_6.webp)
 
 Click the button to show a list of values in the column.
 
 Select one or more values from the list. Rows that do not match one of the selected values are
 hidden.
 
-![using_the_data_console_7](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_7.webp)
+![using_the_data_console_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_7.webp)
 
 The list of values for date and date/time columns also includes date ranges such as **Last 7 days**,
 **Today**, **Yesterday**, etc.
@@ -112,7 +112,7 @@ filter.
 Use custom filters to search for partial matches, find a range of values, or to create more complex
 filters. Click **(Custom...)** in a column header's value list to create a custom filter.
 
-![using_the_data_console_8](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_8.webp)
+![using_the_data_console_8](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_8.webp)
 
 Custom filters can contain one or two conditions for each column. Select an operator for the first
 condition from the drop-down list below the column name. Only relevant operators are shown for each
@@ -139,7 +139,7 @@ Use the Filter Editor to create complex filters, filters for hidden columns, or 
 regularly used filters. Press **CTRL** + **F** to open the Filter Editor, or click the **Filter
 Editor** button in the lower right corner of the Data Console.
 
-![using_the_data_console_9](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_9.webp)
+![using_the_data_console_9](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_9.webp)
 
 A filter may contain several conditions. Conditions start with a column name, followed by an
 operator, and sometimes a value. Column names are shown in green, operators in maroon, and values in
@@ -165,7 +165,7 @@ Some columns are hidden in the Data Console. You can use the Filter Editor to cr
 these columns. For example, the filter in the image below shows all users with an APR v1 enrollment
 record.
 
-![using_the_data_console_10](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_10.webp)
+![using_the_data_console_10](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_10.webp)
 
 ### The Filter and Status Bars
 
@@ -173,16 +173,16 @@ The Status Bar appears at the very bottom of the Data Console. It shows the numb
 records and the total record count. The Filter Bar appears above the Status Bar, and it shows the
 active filter. The button on the right side of the Filter Bar opens the Filter Editor.
 
-![using_the_data_console_11](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_11.webp)
+![using_the_data_console_11](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_11.webp)
 
 A button and a check box appear on the left side of the Filter Bar when a filter is active. Click
 the button to clear the filter. Toggle the check box to disable or enable the filter.
 
-![using_the_data_console_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_12.webp)
+![using_the_data_console_12](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_12.webp)
 
 A drop-down button appears to the right of the filter. Click it to select a recently used filter.
 
-![using_the_data_console_13](/img/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console_13.webp)
+![using_the_data_console_13](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_13.webp)
 
 ## Exporting Data
 

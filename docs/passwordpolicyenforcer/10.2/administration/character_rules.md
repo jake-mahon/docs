@@ -4,7 +4,7 @@ Password Policy Enforcer has seven Character rules that reject passwords if they
 contain certain characters. These rules can increase password strength or ensure password
 compatibility with other systems.
 
-![ppe_rules_12](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_12.webp)
+![ppe_rules_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_12.webp)
 
 All the Character rules work identically, but each has their own default character set. A character
 set is the collection of characters that each rule searches for when checking a password. You can
@@ -73,7 +73,7 @@ in the first two positions.
 
 |                                                                                                                           |                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![ppe_rules_13](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_13.webp) | ![ppe_rules_14](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/ppe_rules_14.webp) |
+| ![ppe_rules_13](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_13.webp) | ![ppe_rules_14](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_14.webp) |
 
 Password Policy Enforcer has only one Numeric rule, so the second requirement must be enforced by
 one of the other rules. Any unused Character rule can be used for this purpose by changing its name

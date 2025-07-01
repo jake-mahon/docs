@@ -32,7 +32,7 @@ and **3.0** registry keys.
 
 **Step 3 –** Create a new **DWORD** value called **WebAPIState**, and set it to 1.
 
-![persuading_users_to_enroll](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/persuading_users_to_enroll.webp)
+![persuading_users_to_enroll](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/persuading_users_to_enroll.webp)
 
 ## Querying the API
 

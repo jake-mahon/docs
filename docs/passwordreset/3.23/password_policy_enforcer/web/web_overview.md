@@ -4,7 +4,7 @@ PPE/Web allows users to change their Windows domain password from a web browser.
 integrate with Password Policy Enforcer to enforce customizable password policies and help users
 choose a compliant password.
 
-![introduction_4](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/introduction_4.webp)
+![introduction_4](/img/product_docs/passwordpolicyenforcer/10.2/web/introduction_4.webp)
 
 PPE/Web communicates directly with the domain controllers, so it works best when both the web server
 and domain controllers are on the same network. If you need to put the web server in a DMZ for extra
