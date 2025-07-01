@@ -236,12 +236,12 @@ provisioning order, through the `ResourceType`'s `ArgumentsExpression`.
 
 Data protection can be ensured through:
 
-- [](/docs/identitymanager/6.2/identitymanager/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [](/docs/identitymanager/6.2/identitymanager/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   safe;
 
 - a
-  [](/docs/identitymanager/6.2/identitymanager/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   able to store OpenLDAP's `Login`, `Password` and `Server`.

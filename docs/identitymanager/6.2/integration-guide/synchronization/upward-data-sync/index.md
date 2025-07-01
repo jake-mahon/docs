@@ -240,7 +240,7 @@ Entity Type Mapping elements map the resources _CSV source files_ columns to [En
 
 [
 Entity Association Mapping
-](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[
 Entity Type Mapping
 ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
 

@@ -473,7 +473,7 @@ The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-conf
 elements describe how a list of resources should be displayed.
 
 The
-[](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)[Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)[Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 contains a list of
 [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) columns
 elements that identify which properties should be included in the list display.

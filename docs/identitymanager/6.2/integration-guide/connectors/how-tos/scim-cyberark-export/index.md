@@ -395,7 +395,7 @@ Let's take the example of a new ```CyberArk_User``` which has never been synchro
 
 The [Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps navigation properties, used in [Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-An [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
+An [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
 
 ##### Example
 
@@ -410,7 +410,7 @@ These associations are exported from the CyberArk system into the ```C:/Usercube
 | 2 | 103 |
 | 3 | 104 |
 
-The following [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
+The following [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
 
 ````
 
@@ -427,9 +427,9 @@ Here are a few explanations:
 The ```Users``` property in the ```CyberArk_Group``` entity:
 
 - is written to the __Property1__ attribute of the ```CyberArk_Group_Members``` [Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) element.
-- is filled in by values from the ```MemberId``` column (written to the __Column2__ attribute of the ```CyberArk_Group_Members``` [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
+- is filled in by values from the ```MemberId``` column (written to the __Column2__ attribute of the ```CyberArk_Group_Members``` [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element) in the ```C:/UsercubeDemo/Temp/ExportOutput/CyberArk_members_Groups.csv``` file.
 
-These values identify resources of type ```CyberArk_User``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping2__ attribute of the [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
+These values identify resources of type ```CyberArk_User``` by their ```CyberArk_id``` property (written to the __EntityPropertyMapping2__ attribute of the [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element.
 
 ###### Groups_CyberArk_User_
 

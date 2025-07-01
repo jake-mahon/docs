@@ -167,7 +167,7 @@ Binary property values (such as pictures or files) are stored in the UR_Resource
 
 Identity Manager's Entity Model also contains **a mapping** between the external data and
 [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties or
-[](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 That's why entity types are organized into **connectors**. The **mapping\_**connects\_ entity types
 to external sources of truth.
 

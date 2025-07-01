@@ -454,7 +454,7 @@ Entity Association Mapping
 Entity Association
 ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-An [](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[
+An [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[
 Entity Association Mapping
 ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
 Entity Association
@@ -498,12 +498,12 @@ The `Users` property in the `CyberArk_Group` entity:
   element.
 - is filled in by values from the `MemberId` column (written to the **Column2** attribute of the
   `CyberArk_Group_Members`
-  [](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+  [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   element) in the `C:/identitymanagerDemo/Temp/ExportOutput/CyberArk_members_Groups.csv` file.
 
 These values identify resources of type `CyberArk_User` by their `CyberArk_id` property (written to
 the **EntityPropertyMapping2** attribute of the
-[](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 element.
 
 ###### Groups/_CyberArk_User_

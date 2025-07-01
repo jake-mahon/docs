@@ -98,7 +98,7 @@ There are no fulfill capabilities for this connector.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[](/docs/identitymanager/saas/identitymanager/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+[](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
 nor a [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
 
 Still, data protection can be ensured through an

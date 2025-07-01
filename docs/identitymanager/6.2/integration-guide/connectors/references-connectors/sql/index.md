@@ -218,5 +218,5 @@ Data protection can be ensured through:
 | ProviderDllName       | `Connections--<identifier>--ProviderDllName`       |
 | Timeout               | `Connections--<identifier>--Timeout`               |
 
-[](/docs/identitymanager/6.2/identitymanager/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 is not available for this connector.

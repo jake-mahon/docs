@@ -35,18 +35,18 @@ The metadata is written using
 #### Entity types
 
 Every resource is assigned an
-[](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 that describes its shape.
 
 It's a description of the resource: it can be a managed system's resource or a real world entity
 such as an identity or a department.
 
 An
-[](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 includes:
 
 - One or more
-  [](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md#)[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 - Zero or more
   [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 
@@ -170,7 +170,7 @@ Binary property values (such as pictures or files) are stored in the UR_Resource
 
 Identity Manager's Entity Model also contains **a mapping** between the external data and
 [Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) or
-[](/docs/identitymanager/6.2/identitymanager/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 That's why entity types are organized into **connectors**. The **mapping\_**connects\_ entity types
 to external sources of truth.
 
