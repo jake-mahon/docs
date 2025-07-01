@@ -5,7 +5,7 @@ the most frequently requested information:
 
 - **Dashboard**—Shows a high level overview of Netwrix Data Classification operations statistics.
 
-![reports_main_dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_main_dashboard_thumb_0_0.webp)
+![reports_main_dashboard_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/reports_main_dashboard_thumb_0_0.webp)
 
 - **Content Distribution** —Allows you to view the distribution of your content in several formats:
   grouping by source, grouping by taxonomy, or grouping by term. See
@@ -16,7 +16,7 @@ the most frequently requested information:
 - **Recent Document Processing**—Displays statistics on the document processing results for the last
   7 days. This includes collection, indexing and classification of data in the content sources.
 
-![recent_document_processing_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/recent_document_processing_thumb_0_0.webp)
+![recent_document_processing_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/recent_document_processing_thumb_0_0.webp)
 
 - Index Analysis—Provides the ability to manually queue items for background index analysis,
   initially scoped to assist in identifying fuzzy matched duplicate documents.

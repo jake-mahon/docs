@@ -3,7 +3,7 @@
 The **Entity Configuration** tab displays configuration for the site collection. You can navigate to
 the subsites/lists to configure their settings.
 
-![sharepointadvancedentities_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepointadvancedentities_thumb_0_0.webp)
+![sharepointadvancedentities_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/sharepointadvancedentities_thumb_0_0.webp)
 
 - The Include column for each entity contains an indicator (tick or cross) showing whether the
   container is configured for crawling.

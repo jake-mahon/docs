@@ -31,8 +31,8 @@ tab and configure search settings.
    document movements. As a result, the “movement” of the document since the last classification
    will be shown. Possible scenarios are:
 
-![movementskey](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/movementskey.webp)
+![movementskey](/img/product_docs/dataclassification/5.6.2/taxonomies/movementskey.webp)
 
 OR
 
-![documentmovements_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/documentmovements_thumb_0_0.webp)
+![documentmovements_thumb_0_0](/img/product_docs/dataclassification/5.6.2/taxonomies/documentmovements_thumb_0_0.webp)

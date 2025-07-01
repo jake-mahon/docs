@@ -31,7 +31,7 @@ To configure tagging on a global level
 3. In the taxonomy properties, enable writing classification attributes (tags) and specify other
    settings:
 
-![filewriteconfig](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/filewriteconfig.webp)
+![filewriteconfig](/img/product_docs/dataclassification/5.6.2/sources/file_system/filewriteconfig.webp)
 
 | Setting                  | Description                                                                                        | Note                                                                                    |
 | ------------------------ | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -63,7 +63,7 @@ To configure tagging on a source level
 4. In the taxonomy properties, select the **Enabled** checkbox and specify the settings described in
    the table above.
 
-![file_source_write_cfg_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/file_source_write_cfg_thumb_0_0.webp)
+![file_source_write_cfg_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/file_system/file_source_write_cfg_thumb_0_0.webp)
 
 ## Configure Inclusions
 
@@ -82,7 +82,7 @@ To specify inclusions, do the following:
 
 **NOTE:** Inclusions are case-insensitive. A wildcard (\*) is supported.
 
-![nfs_inclusions_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/nfs_inclusions_thumb_0_0.webp)
+![nfs_inclusions_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/file_system/nfs_inclusions_thumb_0_0.webp)
 
 ## Configure Exclusions
 
@@ -106,7 +106,7 @@ You can also configure the list of file locations to exclude from processing.
 
 **NOTE:** Exclusions are case-insensitive.
 
-![file_exclusion_filter_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/file_exclusion_filter_thumb_0_0.webp)
+![file_exclusion_filter_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/file_system/file_exclusion_filter_thumb_0_0.webp)
 
 3. Optionally, enter a test path to verify the settings and click **Test**.
 4. If needed, you can use metadata conditions to restrict when an exclusion filter should be

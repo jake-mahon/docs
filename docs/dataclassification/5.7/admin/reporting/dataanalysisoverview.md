@@ -6,7 +6,7 @@ DSAR areas:
 - To view reports on product operation, indexing and classification results, click Reports.
 - To use DSAR search capabilities, click **DSAR**.
 
-![data_analysis_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/data_analysis_thumb_0_0.webp)
+![data_analysis_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/data_analysis_thumb_0_0.webp)
 
 See next:
 

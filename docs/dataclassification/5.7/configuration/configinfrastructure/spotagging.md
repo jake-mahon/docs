@@ -30,12 +30,12 @@ To configure tagging using the wizard
 
 1. Click on the app to start the **SharePoint Tagging wizard**.
 
-![sharepoint_tagging_wizard_1_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/sharepoint_tagging_wizard_1_thumb_0_0.webp)
+![sharepoint_tagging_wizard_1_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepoint_tagging_wizard_1_thumb_0_0.webp)
 
 2. Configure the Term Sets that you wish to auto-classify. For that, click the **Add** button and
    then select the required Term Sets or fields:
 
-    ![sharepoint_tagging_wizard_2_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/sharepoint_tagging_wizard_2_thumb_0_0.webp)
+    ![sharepoint_tagging_wizard_2_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepoint_tagging_wizard_2_thumb_0_0.webp)
 
 3. If needed, select the specific site/list columns you wish to restrict auto-classification to.
 4. Confirm the selection.

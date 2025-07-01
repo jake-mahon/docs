@@ -6,7 +6,7 @@
 - To specify Netwrix Data Classification settings and manage licenses, click Config.
 - To set up user roles and security privileges, click **Users**.
 
-![system_config_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/system_config_thumb_0_0.webp)
+![system_config_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/system_config_thumb_0_0.webp)
 
 See next:
 

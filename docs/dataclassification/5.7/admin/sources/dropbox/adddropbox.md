@@ -6,7 +6,7 @@ content stored in Dropbox cloud storage.
 **IMPORTANT!** Make sure you created App for Dropbox crawling before start adding the source.
 [See Configure Dropbox for Crawling for more information.](/docs/dataclassification/5.7/configuration/configinfrastructure/dropbox.md)
 
-![source_dropbox_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
+![source_dropbox_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
 
 Complete the following fields:
 

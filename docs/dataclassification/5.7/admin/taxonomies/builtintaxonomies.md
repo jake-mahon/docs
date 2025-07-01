@@ -179,7 +179,7 @@ Follow the steps to specify sensitive taxonomy.
 
 **Step 3 –** Select Sensitive Taxonomy.
 
-![standalonetaxonomies_sensitive](/img/product_docs/dataclassification/ndc/admin/taxonomies/standalonetaxonomies_sensitive.webp)
+![standalonetaxonomies_sensitive](/img/product_docs/dataclassification/5.7/admin/taxonomies/standalonetaxonomies_sensitive.webp)
 
 **Step 4 –** Click **Save**.
 

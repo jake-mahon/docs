@@ -10,7 +10,7 @@ Level is selected then the same Working Set will be used for all classes.
 Documents can be added to the Working Set from the Search or Browse tabs by using the Add to Working
 Set links:
 
-![browsetab_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/browsetab_thumb_0_0.webp)
+![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.6.2/browsetab_thumb_0_0.webp)
 
 The following facilities are available:
 

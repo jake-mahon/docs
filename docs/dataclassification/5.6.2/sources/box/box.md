@@ -9,7 +9,7 @@ you click the "wrench" icon in the bottom left corner to configure advanced sett
 **NOTE:** To configure advanced settings, your user account may need advanced privileges.
 [See Users and Security Settings for more information.](/docs/dataclassification/5.6.2/security/users.md)
 
-![addbox_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/box/addbox_thumb_0_0.webp)
+![addbox_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/box/addbox_thumb_0_0.webp)
 
 Configure the following:
 

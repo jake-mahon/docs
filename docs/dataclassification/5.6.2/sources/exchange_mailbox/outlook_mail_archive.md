@@ -6,7 +6,7 @@ classification of content stored in PST files:
 **NOTE:** If you wish to make other configuration changes before collection of the source occurs
 ensure you tick the checkbox Pause source on creation.
 
-![add_outlook](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/exchange_mailbox/add_outlook.webp)
+![add_outlook](/img/product_docs/dataclassification/5.6.2/sources/exchange_mailbox/add_outlook.webp)
 
 Multiple mailboxes can be added at one time via the "+" button. Collection will process all folders
 / emails / attachments within the mailbox - associating the attachment text with the respective

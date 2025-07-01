@@ -16,7 +16,7 @@ unstructured index text, and other fields as mapped metadata. For more informati
 If you wish to make other configuration changes before collection of the source occurs ensure you
 tick the checkbox "_Pause source on creation_".
 
-![add_database_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/database/add_database_thumb_0_0.webp)
+![add_database_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/database/add_database_thumb_0_0.webp)
 
 Complete the following fields:
 

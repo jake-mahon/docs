@@ -3,7 +3,7 @@
 At this step, you can specify whether workflow actions should be performed with the classified
 documents only, or with any documents from the content source, etc.
 
-![workflow_step3_condition](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_condition.webp)
+![workflow_step3_condition](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step3_condition.webp)
 
 The following options are available:
 
@@ -58,12 +58,12 @@ Then verify that configured filters are displayed properly:
 - Including filters (i.e. instructing to include documents with classification tag you selected) are
   colored blue:
 
-![workflow_step3_filter_blue_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_blue_thumb_0_0.webp)
+![workflow_step3_filter_blue_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step3_filter_blue_thumb_0_0.webp)
 
 - Excluding filters (i.e. instructing to include documents without classification tag you selected)
   are colored red:
 
-![workflow_step3_filter_red_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_filter_red_thumb_0_0.webp)
+![workflow_step3_filter_red_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step3_filter_red_thumb_0_0.webp)
 
 If you have selected more than one filter, you will be prompted what logic should be used when
 applying the filters:
@@ -82,7 +82,7 @@ the following:
 4. In the **Details** dialog, from the **Taxonomy** list select **File Type**.
 5. Then from the list of file types select **PDF** and click **OK**.
 
-![workflow_step3_example_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example_thumb_0_0.webp)
+![workflow_step3_example_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step3_example_thumb_0_0.webp)
 
 After you get back to the wizard, the PDF filter will appear under the **Classified** option,
 colored blue (indicating this filter is including).
@@ -105,4 +105,4 @@ source, except HTML and XML files. Do the following:
    files not classified as HTML or XML).
 9. Finally, click **Next** to proceed.
 
-![workflow_step3_example2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step3_example2_thumb_0_0.webp)
+![workflow_step3_example2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step3_example2_thumb_0_0.webp)

@@ -16,7 +16,7 @@ This section contains information on how to configure text processing. Related o
 Sometimes an application may wish to push selected documents to the top of a hitlist for specific
 queries. This may be implemented by specifying Best Bets for specific query text.
 
-![configbestbets_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configbestbets_thumb_0_0.webp)
+![configbestbets_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configbestbets_thumb_0_0.webp)
 
 First, enter the search term that you wish to match and then click the Add button.
 
@@ -31,7 +31,7 @@ identified.
 In this case the example has a .rpt file being treated as a text file, as such the file will be
 copied to a temporary location as a .txt file and processed as if it were any other text file.
 
-![configcontenttypeextensionmappings](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextensionmappings.webp)
+![configcontenttypeextensionmappings](/img/product_docs/dataclassification/5.7/configuration/configcontenttypeextensionmappings.webp)
 
 [](#)Content Type Extraction Methods
 
@@ -48,13 +48,13 @@ If you have updated the extraction method we recommend re-processing any documen
 been processed to ensure consistency. Selecting Re-index from the grid for the affected content type
 will re-process the necessary records.
 
-![configcontenttypeextractionmethods_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configcontenttypeextractionmethods_thumb_0_0.webp)
+![configcontenttypeextractionmethods_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configcontenttypeextractionmethods_thumb_0_0.webp)
 
 [](#)Language Detection
 
 The language detection list specifies which languages will be considered for auto-detection.
 
-![configlanguages_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configlanguages_thumb_0_0.webp)
+![configlanguages_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configlanguages_thumb_0_0.webp)
 
 If a language is excluded then it cannot be used to identify the language of a document and it will
 be removed from the language options in Taxonomy Manager.
@@ -69,21 +69,21 @@ The No Stem list offers the ability to disable language stemming for a particula
 this supports the ability to always apply a phrasematch when a particular term is used as either a
 clue – or a search term.
 
-![confignostem_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/confignostem_thumb_0_0.webp)
+![confignostem_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/confignostem_thumb_0_0.webp)
 
 [](#)OCR Language Mapping
 
 The OCR language mapping configuration screen can be used if you wish to OCR non-English images via
 Tesseract. File paths (including parts of paths) can be mapped to specific Tesseract language packs.
 
-![configocrlanguagemapping](/img/product_docs/dataclassification/ndc/configuration/configocrlanguagemapping.webp)
+![configocrlanguagemapping](/img/product_docs/dataclassification/5.7/configuration/configocrlanguagemapping.webp)
 
 [](#)Synonyms
 
 Often it is important to submit a query and have synonyms automatically included. A generic set of
 synonyms may be configured by using the Synonyms form.
 
-![configsynonyms](/img/product_docs/dataclassification/ndc/configuration/configsynonyms.webp)
+![configsynonyms](/img/product_docs/dataclassification/5.7/configuration/configsynonyms.webp)
 
 [](#)Text Patterns
 
@@ -95,7 +95,7 @@ to an entry in a standard page navigation area.
 The Text Patterns feature is provided to assist with the cleanup of HTML documents. TextPatterns can
 also be used to index terms that would normally be discarded.
 
-![configtextpatterns_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configtextpatterns_thumb_0_0.webp)
+![configtextpatterns_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configtextpatterns_thumb_0_0.webp)
 
 The StartTag and EndTag values are case sensitive strings used to identify the content to be
 managed, the content is then managed based on the filter type.

@@ -13,7 +13,7 @@ Advanced dialog for details on how to invoke it.
 
 This action will remove an email from Exchange mailbox.
 
-![action_exchange_delete_email_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/action_exchange_delete_email_thumb_0_0.webp)
+![action_exchange_delete_email_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/advanced_window/action_exchange_delete_email_thumb_0_0.webp)
 
 Specify the following action parameters:
 

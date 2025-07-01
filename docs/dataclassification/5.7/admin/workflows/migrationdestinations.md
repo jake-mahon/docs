@@ -45,7 +45,7 @@ Under the **Workflows** menu click **Configs**, then click **Migration Configs**
 Migration providers that already have contain configured destinations are indicated with the
 three-gears icon in the tab header:
 
-![migration_destination_ready_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/workflows/migration_destination_ready_thumb_0_48.webp)
+![migration_destination_ready_thumb_0_48](/img/product_docs/dataclassification/5.7/admin/workflows/migration_destination_ready_thumb_0_48.webp)
 
 Click the tab for the migration destination you need.
 

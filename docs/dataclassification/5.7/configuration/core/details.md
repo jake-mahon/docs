@@ -4,7 +4,7 @@ This **Details** tab provides a complete list of the Config settings, as well as
 the values that have been changed from the default settings. The list of properties is provided from
 the SQL database.
 
-![core_details_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_details_thumb_0_0.webp)
+![core_details_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core/core_details_thumb_0_0.webp)
 
 To look for a particular property or value, use the search field.
 

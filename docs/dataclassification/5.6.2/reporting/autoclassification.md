@@ -7,7 +7,7 @@ background processes create the report and make it available for download via th
 dashboard. Reports can be deleted prior to, or after, processing as well as downloaded as many times
 as necessary.
 
-![queuedreportresult_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/reporting/queuedreportresult_thumb_0_0.webp)
+![queuedreportresult_thumb_0_0](/img/product_docs/dataclassification/5.6.2/reporting/queuedreportresult_thumb_0_0.webp)
 
 ## Plugins for Custom Reports
 

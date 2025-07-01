@@ -25,7 +25,7 @@ available on a limited set of site collections.
 
 Simply select Add and choose the label you wish to assign from the drop down list:
 
-![o365labels_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/o365labels_thumb_0_0.webp)
+![o365labels_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/o365labels_thumb_0_0.webp)
 
 **NOTE:** If the site collection has only recently been added then the label may not yet have been
 synchronized down.

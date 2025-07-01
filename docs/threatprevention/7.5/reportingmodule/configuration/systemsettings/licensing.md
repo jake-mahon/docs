@@ -7,7 +7,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **Licensing** in the navigation pane.
 
-![System Settings interface on the Licensing page](/img/product_docs/dataclassification/ndc/configuration/licensing.webp)
+![System Settings interface on the Licensing page](/img/product_docs/dataclassification/5.7/configuration/licensing.webp)
 
 The License Info section displays the following:
 

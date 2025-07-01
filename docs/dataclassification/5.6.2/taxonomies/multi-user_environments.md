@@ -18,12 +18,12 @@ locking purposes.
 When this facility has been enabled then you will see a Lock Class button in the treeview context
 menu for all classes:
 
-![lockterm](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/lockterm.webp)
+![lockterm](/img/product_docs/dataclassification/5.6.2/taxonomies/lockterm.webp)
 
 You can also optionally lock all of its children in a single operation. Once a term is locked the
 context menu items will change to allow unlocking the selected term, and its children.
 
-![unlockterm](/img/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/unlockterm.webp)
+![unlockterm](/img/product_docs/dataclassification/5.6.2/taxonomies/unlockterm.webp)
 
 Other users will see a closed padlock symbol to indicate the status of the term.
 

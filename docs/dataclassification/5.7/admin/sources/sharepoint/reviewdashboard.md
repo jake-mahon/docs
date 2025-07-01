@@ -15,4 +15,4 @@ Here you can examine:
 - **Classification coverage** diagram that identifies the percentage of content that has had
   classifications applied, and the percentage that has not.
 
-![sharepointdashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/sharepointdashboard_thumb_0_0.webp)
+![sharepointdashboard_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/sharepoint/sharepointdashboard_thumb_0_0.webp)

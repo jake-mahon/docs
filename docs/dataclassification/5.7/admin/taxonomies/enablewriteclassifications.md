@@ -38,7 +38,7 @@ To configure tagging on a global level:
 4. In the taxonomy properties, enable writing classification attributes (tags) and specify other
    settings:
 
-    ![enablewriteclassifications_agriculture](/img/product_docs/dataclassification/ndc/admin/taxonomies/enablewriteclassifications_agriculture.webp)
+    ![enablewriteclassifications_agriculture](/img/product_docs/dataclassification/5.7/admin/taxonomies/enablewriteclassifications_agriculture.webp)
 
 |                        |                                                                                                                                                                                                                                                                                                                                                                                                |                                                                                         |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |

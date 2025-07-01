@@ -8,6 +8,6 @@ To connect to an Oracle server:
 1. On the **Source Configuration** screen, select **Oracle**.
 2. Specify Oracle server, username, Container DB Service Name, and Oracle password.
 
-    ![sqlserver_source](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source.webp)
+    ![sqlserver_source](/img/product_docs/dataclassification/5.7/admin/sources/sqlserver/sqlserver_source.webp)
 
 3. Select Save.

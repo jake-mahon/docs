@@ -17,7 +17,7 @@ Plugins.
 
 Click the Enable link to enable selected plugins.
 
-![workflowplugins_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflowplugins_thumb_0_0.webp)
+![workflowplugins_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflowplugins_thumb_0_0.webp)
 
 To modify workflow action implemented by a plugin, go to the **Configs** tab and click **Action
 Configs** on the left.

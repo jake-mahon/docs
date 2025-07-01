@@ -16,7 +16,7 @@ Auto-Classification.
     - **Source**
 4. Finally, click **Generate**.
 
-![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_48.webp)
+![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/5.7/admin/reporting/reports_doctagging_thumb_0_48.webp)
 
 The report will be displayed in the preview pane.
 
@@ -36,7 +36,7 @@ Document, and System reports).
 To view all templates available to you, open the Reports tab and select **Report Templates** on the
 left.
 
-![report_templates_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/report_templates_thumb_0_0.webp)
+![report_templates_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/report_templates_thumb_0_0.webp)
 
 To save a report configuration template
 
@@ -45,7 +45,7 @@ To save a report configuration template
    include data from the specific source).
 3. Click the Save Report Configuration button.
 
-![save_report_config](/img/product_docs/dataclassification/ndc/admin/reporting/report_template.webp)
+![save_report_config](/img/product_docs/dataclassification/5.7/admin/reporting/report_template.webp)
 
 **NOTE:** Report configuration templates are saved per user.
 

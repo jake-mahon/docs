@@ -17,4 +17,4 @@ To configure actions for file systems using the Advanced interface:
 3. In the Add Action dialog, select the action you need from the **File System** section in the
    Action Type list.
 
-![action_advanced_file_update_mip_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_advanced_file_update_mip_thumb_0_0.webp)
+![action_advanced_file_update_mip_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/advancedwindow/action_advanced_file_update_mip_thumb_0_0.webp)

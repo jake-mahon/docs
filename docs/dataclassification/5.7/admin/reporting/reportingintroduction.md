@@ -11,7 +11,7 @@ The main dashboard has three high level graphs highlighting the current state of
 - Classification Coverage – Shows the percentage of classified content, broken down by type, and the
   percentage of content that has not received any auto-classifications:
 
-![reportsdashboard](/img/product_docs/dataclassification/ndc/admin/reporting/reportsdashboard.webp)
+![reportsdashboard](/img/product_docs/dataclassification/5.7/admin/reporting/reportsdashboard.webp)
 
 The Classification Distribution graph highlights areas of classification overlap. In the example
 below the classification “Communications” has been found to be the most highly scoring term that

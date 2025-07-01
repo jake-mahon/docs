@@ -6,7 +6,7 @@ processing. Do the following:
 1. In the management console, click **Sources** →**Exchange Mailbox**, then Collection Exclusion
    will be displayed.
 2. To create an exclusion, click **Add**.
-3. ![boxexclusions](/img/product_docs/dataclassification/ndc/admin/sources/database/boxexclusions.webp)
+3. ![boxexclusions](/img/product_docs/dataclassification/5.7/admin/sources/database/boxexclusions.webp)
 4. In the **Details** window, on the **Filter** tab enter the name of the entity to exclude.
    Consider the following:
 

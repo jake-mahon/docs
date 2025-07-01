@@ -4,7 +4,7 @@ This configuration tab contains the indexing engine settings. Each configuration
 associated “**i**” which describes the nature of the setting. To view advanced options, click the
 screwdriver icon at **Settings** on the right.
 
-![core_indexer_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/core_indexer_thumb_0_0.webp)
+![core_indexer_thumb_0_0](/img/product_docs/dataclassification/5.6.2/configuration/core/core_indexer_thumb_0_0.webp)
 
 | Option                           | Description                                                                                                                                                                                                   | Comment                                                                                                                                                                   |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -8,7 +8,7 @@ To connect to a MS SQL server:
 1. On the **Source Configuration** screen, select **MS SQL**.
 2. Specify MS SQL server.
 
-    ![sqlserver_source3](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source3.webp)
+    ![sqlserver_source3](/img/product_docs/dataclassification/5.7/admin/sources/sqlserver/sqlserver_source3.webp)
 
 3. Specify Authentication method:
 

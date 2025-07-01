@@ -8,7 +8,7 @@ The following versions of SharePoint are supported: 2010, 2013, 2016, 2019 and S
 If you wish to make other configuration changes before collection of the source occurs ensure you
 tick the checkbox Pause source on creation.
 
-![addsharepoint](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/addsharepoint.webp)
+![addsharepoint](/img/product_docs/dataclassification/5.6.2/sources/sharepoint/addsharepoint.webp)
 
 Complete the following fields:
 

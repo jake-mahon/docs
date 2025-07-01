@@ -4,7 +4,7 @@ This section contains information on how to configure Exchange and Exchange Onli
 groups. Toggle between Basic and Advanced configuration settings by clicking the icons in the
 Settings button in the bottom left corner of the page.
 
-![dynamicsourcegroupex](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupex.webp)
+![dynamicsourcegroupex](/img/product_docs/dataclassification/5.7/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupex.webp)
 
 The following options can be configured for Exchange Dynamic Source Groups:
 

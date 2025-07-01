@@ -6,7 +6,7 @@ click the "wrench" icon at **Settings** in the bottom-right corner.
 
 Nearly each configuration option has an associated “i” which describes the nature of the setting.
 
-![core_admin_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core/core_admin_thumb_0_0.webp)
+![core_admin_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core/core_admin_thumb_0_0.webp)
 
 ## General Options
 

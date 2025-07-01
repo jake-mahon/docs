@@ -3,7 +3,7 @@
 Clues can be used to statistically produce a list of suggested clues that can be assigned to the
 term.
 
-![bulkedit](/img/versioned_docs/dataclassification_5.6.2/ndc/bulkedit.webp)
+![bulkedit](/img/product_docs/dataclassification/5.6.2/bulkedit.webp)
 
 Clues can be suggested for a term via the following methods:
 

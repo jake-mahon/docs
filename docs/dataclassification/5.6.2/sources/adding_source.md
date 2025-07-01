@@ -8,7 +8,7 @@ To add a content source
 1. In administrative web console, navigate to **Content** →Sources → General and click **Add** to
    launch the Add source wizard.
 
-    ![add_source_wizard_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/add_source_wizard_thumb_0_0.webp)
+    ![add_source_wizard_thumb_0_0](/img/product_docs/dataclassification/5.6.2/sources/add_source_wizard_thumb_0_0.webp)
 
 2. Select the source you need and configure its settings. See detailed instructions for the sources:
 

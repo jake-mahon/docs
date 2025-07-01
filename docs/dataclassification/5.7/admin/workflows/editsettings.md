@@ -8,4 +8,4 @@ Follow the steps to edit the workflow settings.
    conditions, and actions, as described in the
    [Configure a Workflow using Advanced dialog](/docs/dataclassification/5.7/admin/workflows/advancedwindow/createworkflow.md) topic.
 
-![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)
+![add_workflows_rules_list_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/add_workflows_rules_list_thumb_0_0.webp)

@@ -28,7 +28,7 @@ On the What do you want to do step, select Migrate Document action. do the follo
     - Select migration destination under Which type of repository should the document be migrated
       to?. You can add migration destination directly from wizard:
 
-        ![migration_destination_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/migration_destination_thumb_0_0.webp)
+        ![migration_destination_thumb_0_0](/img/product_docs/dataclassification/5.6.2/workflows/actions/migration_destination_thumb_0_0.webp)
 
     - If you created several sources for migration destinations, select on one in the under Where
       should the document be migrated to?

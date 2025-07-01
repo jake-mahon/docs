@@ -4,7 +4,7 @@ Source groups provide a way of logically grouping specific sources, perhaps by t
 an internal business specification. Selecting the option Add to Group on the main sources grid
 screen will present the following pop-up:
 
-![addtogroup](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/source_groups/addtogroup.webp)
+![addtogroup](/img/product_docs/dataclassification/5.6.2/sources/source_groups/addtogroup.webp)
 
 A group can either be "mixed", which allows it to contain all source types, or source specific. In
 the example above a group would be created entitled "Demo Content", which only supports the addition

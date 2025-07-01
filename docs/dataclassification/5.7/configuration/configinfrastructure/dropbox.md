@@ -43,4 +43,4 @@ To authorize your app
     - files.team_metadata.write
     - members.read
 
-![dropbox_authorize_app](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/dropbox_authorize_app.webp)
+![dropbox_authorize_app](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/dropbox_authorize_app.webp)

@@ -51,6 +51,6 @@ Settings**.Settings.
 
 **Step 2 –** Click **Update** in the right corner next to each taxonomy.
 
-![update_taxonomy](/img/product_docs/dataclassification/ndc/requirements/update_taxonomy.webp)
+![update_taxonomy](/img/product_docs/dataclassification/5.7/requirements/update_taxonomy.webp)
 
 The upgrade is now complete.

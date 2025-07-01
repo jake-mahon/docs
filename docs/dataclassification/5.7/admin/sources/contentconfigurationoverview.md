@@ -11,7 +11,7 @@ following areas
 **IMPORTANT!** To access the **Sources** area, users require sufficient rights. See the
 [User Management](/docs/dataclassification/5.7/security/usermanagement.md) section for more information.
 
-![content_config_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/content_config_thumb_0_0.webp)
+![content_config_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/content_config_thumb_0_0.webp)
 
 See next:
 

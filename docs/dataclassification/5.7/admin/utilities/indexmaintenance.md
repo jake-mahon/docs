@@ -13,7 +13,7 @@ Follow the steps to launch the Cleaner tool.
 2. Navigate to **Settings** > **Config** and click **Run Cleaner**.
 3. Then follow the steps of **Index Maintenance** wizard.
 
-![run_cleaner_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/utilities/run_cleaner_thumb_0_0.webp)
+![run_cleaner_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/utilities/run_cleaner_thumb_0_0.webp)
 
 See next:
 

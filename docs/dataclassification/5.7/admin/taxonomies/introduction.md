@@ -16,7 +16,7 @@ defined by set of configuration **rules** (also called **clues**). See
 **IMPORTANT!** To access the **Taxonomies** area, users require sufficient rights. See the
 [User Management](/docs/dataclassification/5.7/security/usermanagement.md) section for more information.
 
-![taxonomyclues_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyclues_thumb_0_0.webp)
+![taxonomyclues_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/taxonomyclues_thumb_0_0.webp)
 
 See also:
 

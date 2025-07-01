@@ -4,7 +4,7 @@ This action updates the file system permissions for the classified document. You
 approach to automatically restrict access to sensitive documents or provide access permissions,
 based upon the document's classifications.
 
-![workflow_wizard_actions_update_permissions_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_wizard_actions_update_permissions_thumb_0_0.webp)
+![workflow_wizard_actions_update_permissions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/actions/workflow_wizard_actions_update_permissions_thumb_0_0.webp)
 
 Specify the following:
 
