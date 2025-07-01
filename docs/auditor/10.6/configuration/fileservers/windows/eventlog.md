@@ -14,7 +14,7 @@ Viewer**.
 **Step 2 –** Navigate to **Event Viewer tree > Windows Logs**, right-click **Security** and select
 **Properties**.
 
-![manualconfig_ws_eventviewerpr2016](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/manualconfig_ws_eventviewerpr2016.webp)
+![manualconfig_ws_eventviewerpr2016](/img/product_docs/auditor/10.6/configuration/fileservers/windows/manualconfig_ws_eventviewerpr2016.webp)
 
 **Step 3 –** Make sure **Enable logging** is selected.
 

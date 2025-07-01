@@ -27,7 +27,7 @@ On the default General section, enter the following information:
 
 You can continue with the default settings for the category, level, and distribution method fields.
 
-![Completing information on the general section](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/generalsettings.webp)
+![Completing information on the general section](/img/product_docs/auditor/10.6/addon/azurefiles/generalsettings.webp)
 
 ## Certificate Settings
 

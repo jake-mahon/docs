@@ -6,7 +6,7 @@ Follow the steps to work with collected data.
 
 **Step 2 –** Click **Search**.
 
-![activityrecords](/img/versioned_docs/auditor_10.6/auditor/addon/arcsight/activityrecords.webp)
+![activityrecords](/img/product_docs/auditor/10.6/addon/arcsight/activityrecords.webp)
 
 You might want to apply a filter to narrow down your search results to the NetwrixAPI data source
 only.

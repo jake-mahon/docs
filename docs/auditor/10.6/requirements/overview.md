@@ -13,7 +13,7 @@ following topics for additional information:
 Netwrix Auditor provides comprehensive auditing of applications, platforms and storage systems. The
 product architecture and components interactions are shown in the figure below.
 
-![Netwrix Auditor architecture and components interactions](/img/versioned_docs/auditor_10.6/auditor/requirements/auditorarchitecture.webp)
+![Netwrix Auditor architecture and components interactions](/img/product_docs/auditor/10.6/requirements/auditorarchitecture.webp)
 
 - Netwrix Auditor Server — the central component that handles the collection, transfer and
   processing of audit data from the various data sources (audited systems). Data from the sources

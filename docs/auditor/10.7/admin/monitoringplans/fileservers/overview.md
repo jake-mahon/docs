@@ -73,7 +73,7 @@ Complete the following fields:
 To audit all file shares, under Specify monitoring restrictions, select Monitor all file shares in
 the array.
 
-![item_emc_scope_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_emc_scope_thumb_0_0.webp)
+![item_emc_scope_thumb_0_0](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_emc_scope_thumb_0_0.webp)
 
 You can also create lists of specific file shares to include and/or exclude from being audited.
 
@@ -125,7 +125,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -203,7 +203,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -281,7 +281,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -384,7 +384,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.

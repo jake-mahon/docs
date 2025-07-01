@@ -32,7 +32,7 @@ accounts.
 3. In the left pane, expand the **Security** node. Right-click the **Logins** node and select **New
    Login** from the pop-up menu.
 
-    ![manualconfig_ssms_newlogin2016](/img/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+    ![manualconfig_ssms_newlogin2016](/img/product_docs/auditor/10.6/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
 
 4. Click **Search** next to **Login Name** and specify the user that you want to assign the
    **sysadmin** role to.

@@ -44,7 +44,7 @@ Follow the steps to configure Office 365 tenant as a monitored item.
   [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.7/configuration/microsoft365/microsoftentraid/modernauth.md)
   topic for additional information.
 
-![tenantenvironment](/img/product_docs/auditor/auditor/admin/monitoringplans/tenantenvironment.webp)
+![tenantenvironment](/img/product_docs/auditor/10.7/admin/monitoringplans/tenantenvironment.webp)
 
 If you are using a government tenant, please click the **Tenant Environment** tab and select the
 desired tenant environment.
@@ -76,7 +76,7 @@ desired tenant environment.
 
 **Step 3 –** Click the **Add** button.
 
-![Add Office 365 Item window](/img/product_docs/auditor/auditor/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.webp)
+![Add Office 365 Item window](/img/product_docs/auditor/10.7/admin/monitoringplans/item_o365_basic_auth_thumb_0_0.webp)
 
 You can use a single account to collect audit data for different Office 365 services (Microsoft
 Entra ID, Exchange Online, SharePoint Online); however, Netwrix recommends that you specify

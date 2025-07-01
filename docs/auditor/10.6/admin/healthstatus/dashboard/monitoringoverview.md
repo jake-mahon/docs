@@ -13,7 +13,7 @@ displays current statuses of all monitoring plans:
 
 After you click View details, the Monitoring Overview window will be displayed.
 
-![monitoringoverview](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/monitoringoverview.webp)
+![monitoringoverview](/img/product_docs/auditor/10.6/admin/healthstatus/dashboard/monitoringoverview.webp)
 
 It provides the hierarchical list of monitoring plans, processed data sources and corresponding
 items with their current status and date/time of the last data processing session. For data sources

@@ -6,7 +6,7 @@ have to your resource. When the Review Administrator creates a new review or sta
 of an existing review, you receive an email notification that includes a link to the your pending
 reviews.
 
-![Email announcing a pending review](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/pendingreviewemail.webp)
+![Email announcing a pending review](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/pendingreviewemail.webp)
 
 Use the **Sign in** link at the bottom to open the My Reviews interface in the Access Reviews
 Console.
@@ -21,7 +21,7 @@ topic for additional information.
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![My Reviews interface showing Pending Reviews page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/pendingreivewspage.webp)
+![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/pendingreivewspage.webp)
 
 The information displayed in the table includes:
 
@@ -53,7 +53,7 @@ recommendation and processes those changes.
 
 The Begin Review button opens the Resource Review page to start the review.
 
-![Resource Reviews page showing the 1 Make changes tab](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewpageaccess.webp)
+![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common
 features:

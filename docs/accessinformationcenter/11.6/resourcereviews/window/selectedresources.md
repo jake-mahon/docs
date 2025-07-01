@@ -3,7 +3,7 @@
 The Selected Resources window opens from the **View Selections** button in the
 [Create Review Wizard](/docs/accessinformationcenter/11.6/resourcereviews/wizard/create.md).
 
-![Selected Resources windwo](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/window/selectedresources.webp)
+![Selected Resources windwo](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/selectedresources.webp)
 
 The table displays:
 

@@ -9,7 +9,7 @@ Follow the steps to see results.
 
 **Step 2 –** Click **Search**.
 
-![radius](/img/versioned_docs/auditor_10.6/auditor/addon/radius/radius.webp)
+![radius](/img/product_docs/auditor/10.6/addon/radius/radius.webp)
 
 **NOTE:** You might want to apply a filter to narrow down your search results to the RADIUS Logon
 object type only.

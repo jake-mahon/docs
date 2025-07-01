@@ -11,7 +11,7 @@ different and do not show changes.
 The following Activity Summary example applies to Active Directory. Other Activity Summaries
 generated and delivered by Netwrix Auditor will vary slightly depending on the data source.
 
-![ad_activitity_summary](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/ad_activitity_summary.webp)
+![ad_activitity_summary](/img/product_docs/auditor/10.6/admin/monitoringplans/ad_activitity_summary.webp)
 
 The example Activity Summary provides the following information on Active Directory changes:
 

@@ -5,7 +5,7 @@ note.
 
 **Step 1 –** Select the item in the interface and click Edit Notes. The Edit Notes window opens.
 
-![Edit Notes window showing note entry field](/img/versioned_docs/auditor_10.6/access/general/editnotes.webp)
+![Edit Notes window showing note entry field](/img/product_docs/auditor/10.6/access/general/editnotes.webp)
 
 **Step 2 –** Type or edit the note in the textbox.
 

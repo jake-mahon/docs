@@ -5,7 +5,7 @@ The Stop Review window opens from the
 of the Resource Reviews interface. Select the desired active review(s) and click **Stop**. The Stop
 Review window opens to confirm the action.
 
-![Stop Review window](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/window/stopreview.webp)
+![Stop Review window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/stopreview.webp)
 
 **CAUTION:** This will prevent owners from completing the review, removing associated resources from
 their Pending Reviews list.

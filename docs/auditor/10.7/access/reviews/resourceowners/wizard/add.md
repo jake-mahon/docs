@@ -66,7 +66,7 @@ Then click **Next**.
 **Step 6 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership configuration.
 
-![Add new resource wizard with 4. Summary page showing action status 100% completed](/img/product_docs/auditor/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
+![Add new resource wizard with 4. Summary page showing action status 100% completed](/img/product_docs/auditor/10.7/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 7 –** The action status displays on the page. When the task has completed (100%), click
 **Close**. The Add new resource wizard closes.

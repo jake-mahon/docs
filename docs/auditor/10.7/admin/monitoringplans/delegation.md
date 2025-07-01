@@ -8,7 +8,7 @@ To keep the monitoring process secure, Netwrix suggests configuring role-based a
 control ensures that only appropriate users can modify the product configuration or view audit data,
 based on your company policies and the user's job responsibilities.
 
-![rbac-01](/img/product_docs/auditor/auditor/admin/monitoringplans/rbac-01.webp)
+![rbac-01](/img/product_docs/auditor/10.7/admin/monitoringplans/rbac-01.webp)
 
 Roles are described briefly in the table below and explained in detail in the next topic.
 
@@ -143,7 +143,7 @@ Netwrix Auditor Client Users group.
 
 Specify users you want to be included in this group.
 
-![Roles_Groups](/img/product_docs/auditor/auditor/admin/monitoringplans/roles_groups.webp)
+![Roles_Groups](/img/product_docs/auditor/10.7/admin/monitoringplans/roles_groups.webp)
 
 **NOTE:** For additional information about User Activity video access management, see the
 [Configure Video Recordings Playback Settings](/docs/auditor/10.7/configuration/useractivity/videorecordings.md)

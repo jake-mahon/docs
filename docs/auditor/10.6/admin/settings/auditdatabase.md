@@ -27,7 +27,7 @@ Follow the steps to review and update global Audit Database settings:
 
 **Step 2 –** Click **Modify** to edit the settings.
 
-![audit_db_settings](/img/versioned_docs/auditor_10.6/auditor/admin/settings/audit_db_settings.webp)
+![audit_db_settings](/img/product_docs/auditor/10.6/admin/settings/audit_db_settings.webp)
 
 **Step 3 –** Specify the following database storage settings:
 

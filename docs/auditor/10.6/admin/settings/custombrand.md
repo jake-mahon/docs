@@ -64,7 +64,7 @@ To restore original look and feel, run the script and replace"_True_" with "_Fal
 
 By default, Netwrix Auditor reports look as follows:
 
-![All Logon Activity](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding.webp)
+![All Logon Activity](/img/product_docs/auditor/10.6/admin/settings/report_rebranding.webp)
 
 Report branding is customized on Netwrix Auditor Server side that means that all clients connected
 to this server will have the same look and feel for reports.
@@ -97,7 +97,7 @@ db_owner role on the Netwrix_CommonDB database.
 After running the script, start the Netwrix Auditor client and generate a report. The branding will
 be updated.
 
-![report_rebranding_result](/img/versioned_docs/auditor_10.6/auditor/admin/settings/report_rebranding_result.webp)
+![report_rebranding_result](/img/product_docs/auditor/10.6/admin/settings/report_rebranding_result.webp)
 
 Follow the steps to restore original look.
 

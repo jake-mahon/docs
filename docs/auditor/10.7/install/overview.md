@@ -30,7 +30,7 @@ you must be a member of the local Administrators group to run the Netwrix Audito
 **Step 2 –** Unpack the installation package. The following window will be displayed on successful
 operation completion:
 
-![installationscreen](/img/product_docs/auditor/auditor/install/installationscreen.webp)
+![installationscreen](/img/product_docs/auditor/10.7/install/installationscreen.webp)
 
 **Step 3 –** Follow the instructions of the setup wizard. When prompted, accept the license
 agreement.
@@ -61,7 +61,7 @@ After a successful installation, Auditor shortcut will be added to the **Start**
 the product will start. See the [First Launch](/docs/auditor/10.7/install/firstlaunch.md) topic for additional information on
 the product navigation.
 
-![welcome_screen](/img/product_docs/auditor/auditor/install/welcome_screen.webp)
+![welcome_screen](/img/product_docs/auditor/10.7/install/welcome_screen.webp)
 
 Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and
 virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure

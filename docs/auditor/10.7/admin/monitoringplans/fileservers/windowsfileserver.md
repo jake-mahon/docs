@@ -57,7 +57,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.
@@ -137,7 +137,7 @@ By default, both user activity and state-in-time data will be collected for the 
 However, you can narrow your monitoring scope by specifying certain locations, user accounts or
 actions to exclude .
 
-![Add Item (Computer)](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.webp)
+![Add Item (Computer)](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclusions_thumb_0_0.webp)
 
 Click Add Exclusion, then follow the steps in the Specify Filters dialog:
 
@@ -171,7 +171,7 @@ Follow the steps to exclude specific user activity.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_
 
-![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.webp)
+![Specify Filters](/img/product_docs/auditor/10.7/admin/monitoringplans/fileservers/item_computer_exclude_users.webp)
 
 After configuring all filters, click **Add** to save them and return to the item settings.
 
@@ -191,7 +191,7 @@ Follow the steps to use Netwrix Privilege Secure as an account for data collect
 **Step 2 –** In the item configuration menu, select Netwrix Privilege Secure as an option for data
 collection.
 
-![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.webp)
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
 
 **Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
 Credential-based is the default option. Refer to the
@@ -204,7 +204,7 @@ and to which Netwrix Auditor has the access through a Credential-based access po
 **NOTE:** Netwrix recommends using different credentials for different monitoring plans and data
 sources.
 
-![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
 
 The second option is Resource-based. To use this option, you need to provide the Activity and
 Resource names, assigned to Netwrix Auditor in the corresponding Resource-based policy. Make sure

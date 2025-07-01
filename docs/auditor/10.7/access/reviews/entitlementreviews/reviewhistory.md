@@ -2,7 +2,7 @@
 
 The Review History page lists all completed review instances for your resources.
 
-![Review History page](/img/product_docs/auditor/access/reviews/entitlementreviews/reviewhistorypage.webp)
+![Review History page](/img/product_docs/auditor/10.7/access/reviews/entitlementreviews/reviewhistorypage.webp)
 
 The information displayed in the table includes:
 

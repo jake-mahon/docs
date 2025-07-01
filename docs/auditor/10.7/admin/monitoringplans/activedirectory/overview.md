@@ -28,7 +28,7 @@ Complete the following fields:
 | Objects                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Specify monitoring restrictions                    | Specify restrictions for the objects to monitor in your Active Directory. Use them to create the lists of specific objects to include and / or exclude from the monitoring scope (and, therefore, search results, reports and Activity Summaries). The following options are available: - Monitor all objects - **Include these objects** - **Exclude these objects** To create a list of inclusions / exclusions, click Add and enter object path using one of the following formats: - Canonical name, for example: _mydomain.local/Computers/filesrv01_ OR - Object path as shown in the "_What_" column of reports and search results, for example: _\local\mydomain\Computers\filesrv01_ You can use a wildcard (\*) to replace any number of characters in the path. See the examples below for more information.                                                                                                                                                                                                      |
 
-![Specify monitoring restrictions](/img/product_docs/auditor/auditor/admin/monitoringplans/activedirectory/mp_data_source_ad_omit_example.webp)
+![Specify monitoring restrictions](/img/product_docs/auditor/10.7/admin/monitoringplans/activedirectory/mp_data_source_ad_omit_example.webp)
 
 Examples
 
@@ -122,7 +122,7 @@ Follow the steps to use Netwrix Privilege Secure as an account for data collect
 **Step 2 –** In the item configuration menu, select Netwrix Privilege Secure as an option for data
 collection.
 
-![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.webp)
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
 
 **Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
 Credential-based is the default option. Refer to the
@@ -135,7 +135,7 @@ and to which Netwrix Auditor has the access through a Credential-based access po
 **NOTE:** Netwrix recommends using different credentials for different monitoring plans and data
 sources.
 
-![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
 
 The second option is Resource-based. To use this option, you need to provide the Activity and
 Resource names, assigned to Netwrix Auditor in the corresponding Resource-based policy. Make sure

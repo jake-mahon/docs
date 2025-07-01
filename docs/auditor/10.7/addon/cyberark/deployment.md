@@ -63,7 +63,7 @@ folder and open the **dbparam.ini** file for editing.
   events you specify in this parameter. For the full list of supported events, see
   [Monitored Events](/docs/auditor/10.7/addon/cyberark/monitoredevents.md). Use comma as a separator.
 
-![dbparamfile_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/dbparamfile_thumb_0_0.webp)
+![dbparamfile_thumb_0_0](/img/product_docs/auditor/10.7/addon/cyberark/dbparamfile_thumb_0_0.webp)
 
 **Step 4 –** Save the **dbparam.ini** file.
 
@@ -98,7 +98,7 @@ Follow the steps to install the Add-On:
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
+![ConfigurationWizard](/img/product_docs/auditor/10.7/addon/privilegeduserlinux/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

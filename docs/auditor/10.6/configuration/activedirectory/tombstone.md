@@ -27,7 +27,7 @@ information on how to install the ADSI Edit utility.
    dialog, enable **Select a well-known Naming Context** and select **Configuration** from the
    drop-down list.
 
-    ![manualconfig_adsi_connectionwinserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.webp)
+    ![manualconfig_adsi_connectionwinserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_adsi_connectionwinserver2016.webp)
 
 3. Navigate to **Configuration `<Your_Root_Domain_Name>` >
    CN=Configuration,DC=`<name>`,DC=`<name>` > CN=Services > CN=Windows NT > CN=Directory Service**.
@@ -35,6 +35,6 @@ information on how to install the ADSI Edit utility.
 4. In the **CN=Directory Service Properties** dialog, locate the **tombstoneLifetime** attribute in
    the **Attribute Editor** tab.
 
-    ![manualconfig_adsi_tombstone_winserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_adsi_tombstone_winserver2016.webp)
+    ![manualconfig_adsi_tombstone_winserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_adsi_tombstone_winserver2016.webp)
 
 5. Click **Edit**. Set the value to _"730"_ (which equals 2 years).

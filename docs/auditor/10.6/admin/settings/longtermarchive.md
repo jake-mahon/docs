@@ -4,7 +4,7 @@ The Long-Term Archive is configured by default, irrespective of your subscriptio
 you specified when configuring a monitoring plan. To review and update your Long-Term Archive
 settings, navigate to **Settings** > **Long-Term Archive** and click Modify.
 
-![lta_settings](/img/versioned_docs/auditor_10.6/auditor/admin/settings/lta_settings.webp)
+![lta_settings](/img/product_docs/auditor/10.6/admin/settings/lta_settings.webp)
 
 Review the following for additional information:
 
@@ -17,7 +17,7 @@ Review the following for additional information:
 
 Setting Recording Settings
 
-![usersessions_storage](/img/versioned_docs/auditor_10.6/auditor/admin/settings/usersessions_storage.webp)
+![usersessions_storage](/img/product_docs/auditor/10.6/admin/settings/usersessions_storage.webp)
 
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

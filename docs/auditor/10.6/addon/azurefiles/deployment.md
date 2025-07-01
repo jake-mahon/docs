@@ -4,11 +4,11 @@ Follow the steps to install Azure Files add-on.
 
 **Step 1 –** Accept EULA.
 
-![azurefileeula](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/azurefileeula.webp)
+![azurefileeula](/img/product_docs/auditor/10.6/addon/azurefiles/azurefileeula.webp)
 
 **Step 2 –** Select the installation folder and click **Next**.
 
-![azurefileinstfolder](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/azurefileinstfolder.webp)
+![azurefileinstfolder](/img/product_docs/auditor/10.6/addon/azurefiles/azurefileinstfolder.webp)
 
 **Step 3 –** Click **Install**. The wizard will start and ask the additional parameters.
 
@@ -43,7 +43,7 @@ erprise.local:9999).
 
 **CAUTION:** Do not modify the endpoint part (_/netwrix/api_).
 
-![generalsettings](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/generalsettings.webp)
+![generalsettings](/img/product_docs/auditor/10.6/addon/azurefiles/generalsettings.webp)
 
 **Step 4 –** Specify Active Directory credentials:
 
@@ -51,7 +51,7 @@ erprise.local:9999).
   service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/adcredentials.webp)
+![adcredentials](/img/product_docs/auditor/10.6/addon/azurefiles/adcredentials.webp)
 
 **Step 5 –** Go to the storage account that has been created before and copy Connection String. This
 parameter will be used in the add-on configuration.
@@ -74,12 +74,12 @@ automatically - open it from the installation folder.
 
 **Step 3 –** Paste Azure Connection String in the corresponded field and click **Next**.
 
-![azurefileconnectionstring](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/azurefileconnectionstring.webp)
+![azurefileconnectionstring](/img/product_docs/auditor/10.6/addon/azurefiles/azurefileconnectionstring.webp)
 
 **Step 4 –** Enter Tenant ID, App ID and App Secret of the Azure App you registered for the add-on.
 Click **Next**.
 
-![microsoftgraphapi](/img/versioned_docs/auditor_10.6/auditor/addon/azurefiles/microsoftgraphapi.webp)
+![microsoftgraphapi](/img/product_docs/auditor/10.6/addon/azurefiles/microsoftgraphapi.webp)
 
 **Step 5 –** Click **Run** and close the window. The service should start the data collection now.
 

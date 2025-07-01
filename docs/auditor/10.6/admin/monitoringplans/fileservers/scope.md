@@ -79,7 +79,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users.webp)
+![Specify Filters](/img/product_docs/auditor/10.6/admin/monitoringplans/fileservers/item_computer_exclude_users.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.

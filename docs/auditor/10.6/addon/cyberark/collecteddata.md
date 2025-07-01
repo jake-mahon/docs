@@ -8,7 +8,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 
 You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
 
-![AR from CyberArk in NA](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/cyberark.webp)
+![AR from CyberArk in NA](/img/product_docs/auditor/10.6/addon/cyberark/cyberark.webp)
 
 - Also, you can click **Tools** in the upper-right corner and select the command you need. For
   example:

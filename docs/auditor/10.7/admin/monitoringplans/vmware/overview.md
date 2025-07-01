@@ -32,7 +32,7 @@ information.
 
 On a high level, data collection process for VMware servers works as follows:
 
-![hiw_diagram_vma_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/vmware/hiw_diagram_vma_thumb_0_0.webp)
+![hiw_diagram_vma_thumb_0_0](/img/product_docs/auditor/10.7/admin/monitoringplans/vmware/hiw_diagram_vma_thumb_0_0.webp)
 
 VMware administrator prepares a dedicated service account with sufficient permissions to collect
 data from VMware servers. This account must have at least **Read Only role** on those servers. For

@@ -2,7 +2,7 @@
 
 The Review History page lists all completed review instances for your resources.
 
-![Review History page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewhistorypage.webp)
+![Review History page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewhistorypage.webp)
 
 The information displayed in the table includes:
 
@@ -24,7 +24,7 @@ information.
 The View Details button at the bottom of the Review History page opens the Review Details window for
 a resource where changes were recommended.
 
-![Review Details Window](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewdetails.webp)
+![Review Details Window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewdetails.webp)
 
 The information displayed in the table includes:
 

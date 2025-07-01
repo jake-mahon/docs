@@ -66,7 +66,7 @@ Follow the steps to update credentials for the accounts used by Auditor:
 **Step 5 –** Review the account configuration scope and click **Update password** next to this
 account.
 
-![updatecredentials](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/updatecredentials.webp)
+![updatecredentials](/img/product_docs/auditor/10.6/admin/monitoringplans/updatecredentials.webp)
 
 **Step 6 –** Save your edits.
 

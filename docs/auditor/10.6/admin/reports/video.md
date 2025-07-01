@@ -9,7 +9,7 @@ To view reports with video, navigate to Reports → User Activity.
 In the report filters, select a monitoring plan you want to generate a report for. To review data
 sources and items included in each plan, navigate to the Monitoring Plans section.
 
-![ReportsWithVideo](/img/versioned_docs/auditor_10.6/auditor/admin/reports/alluseractivityvideo.webp)
+![ReportsWithVideo](/img/product_docs/auditor/10.6/admin/reports/alluseractivityvideo.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
 [View Reports](/docs/auditor/10.6/admin/reports/view.md) topic for additional

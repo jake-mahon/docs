@@ -52,7 +52,7 @@ folder\Netwrix Auditor\Administrative Console_ and locate MSP.xml.
 
 For example:
 
-![msp](/img/versioned_docs/auditor_10.6/auditor/admin/settings/msp.webp)
+![msp](/img/product_docs/auditor/10.6/admin/settings/msp.webp)
 
 **NOTE:** MSP.xml file must be formatted in accordance with XML standard. If company name (used as
 identifier) or service account path includes & (ampersand), " (double quotes) or ' (single quotes),

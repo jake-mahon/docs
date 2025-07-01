@@ -6,7 +6,7 @@ update the full list, click View all.
 The Home > Reports page opens. This page includes several folders: Favorites, Predefined, Compliance
 and Custom. Favorite reports are located in the Favorites folder.
 
-![reportsfavorites](/img/product_docs/auditor/auditor/admin/navigation/reportsfavorites.webp)
+![reportsfavorites](/img/product_docs/auditor/10.7/admin/navigation/reportsfavorites.webp)
 
 Follow the steps to add or remove a Favorite report
 
@@ -17,7 +17,7 @@ Follow the steps to add or remove a Favorite report
 **Step 3 –** To change whether the report is a favorite, click the star icon in the upper right-hand
 corner of the report description.
 
-![reportsummary](/img/product_docs/auditor/auditor/admin/navigation/reportsummary.webp)
+![reportsummary](/img/product_docs/auditor/10.7/admin/navigation/reportsummary.webp)
 
 Report Summary with Star icon unchecked
 
@@ -27,7 +27,7 @@ The options on the Reports page for Favorite reports are show below:
 
 |                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![favoritesrestorerefresh](/img/product_docs/auditor/auditor/admin/navigation/favoritesrestorerefresh.webp) | ![reportsoptions](/img/product_docs/auditor/auditor/admin/navigation/reportsoptions.webp)                                                                                                                                                                                                                                                                                                                                        |
+| ![favoritesrestorerefresh](/img/product_docs/auditor/10.7/admin/navigation/favoritesrestorerefresh.webp) | ![reportsoptions](/img/product_docs/auditor/10.7/admin/navigation/reportsoptions.webp)                                                                                                                                                                                                                                                                                                                                        |
 | _Favorites Sub-Folder Options_                                                                                                   | _Favorites > [Report] Options_                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Option Name                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ---                                                                                                                              | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                   |

@@ -4,11 +4,11 @@ Follow the steps to install Azure Files add-on.
 
 **Step 1 –** Accept EULA.
 
-![azurefileeula](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileeula.webp)
+![azurefileeula](/img/product_docs/auditor/10.7/addon/azurefiles/azurefileeula.webp)
 
 **Step 2 –** Select the installation folder and click **Next**.
 
-![azurefileinstfolder](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileinstfolder.webp)
+![azurefileinstfolder](/img/product_docs/auditor/10.7/addon/azurefiles/azurefileinstfolder.webp)
 
 **Step 3 –** Click **Install**. The wizard will start and ask the additional parameters.
 
@@ -63,7 +63,7 @@ erprise.local:9999).
 
 **CAUTION:** Do not modify the endpoint part (_/netwrix/api_).
 
-![generalsettings](/img/product_docs/auditor/auditor/addon/azurefiles/generalsettings.webp)
+![generalsettings](/img/product_docs/auditor/10.7/addon/azurefiles/generalsettings.webp)
 
 **Step 4 –** Specify Active Directory credentials:
 
@@ -71,15 +71,15 @@ erprise.local:9999).
   service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/img/product_docs/auditor/auditor/addon/copilot/adcredentials.webp)
+![adcredentials](/img/product_docs/auditor/10.7/addon/copilot/adcredentials.webp)
 
 **Step 5 –** Paste Azure Connection String in the corresponded field and click **Next**.
 
-![azurefileconnectionstring](/img/product_docs/auditor/auditor/addon/azurefiles/azurefileconnectionstring.webp)
+![azurefileconnectionstring](/img/product_docs/auditor/10.7/addon/azurefiles/azurefileconnectionstring.webp)
 
 **Step 6 –** Enter Tenant ID, App ID and App Secret of the Azure App you registered for the add-on.
 Click **Next**.
 
-![microsoftgraphapi](/img/product_docs/auditor/auditor/addon/azurefiles/microsoftgraphapi.webp)
+![microsoftgraphapi](/img/product_docs/auditor/10.7/addon/azurefiles/microsoftgraphapi.webp)
 
 **Step 7 –** Click **Run** and close the window. The service should start the data collection now.

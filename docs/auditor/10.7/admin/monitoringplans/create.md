@@ -29,12 +29,12 @@ data.
 
 ## Settings for Data Collection
 
-![mp_wizard_step1](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_wizard_step1.webp)
+![mp_wizard_step1](/img/product_docs/auditor/10.7/admin/monitoringplans/mp_wizard_step1.webp)
 
 At this step of the wizard, specify the account that Auditor will use to access the data source, and
 general settings for data collection.
 
-![mp_wizard_step2](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_wizard_step2.webp)
+![mp_wizard_step2](/img/product_docs/auditor/10.7/admin/monitoringplans/mp_wizard_step2.webp)
 
 | Option                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -109,7 +109,7 @@ You can use default settings for your SQL Server instance or modify them (e.g., 
 authentication method or user). You can also change these settings later. See the
 [Audit Database](/docs/auditor/10.7/admin/settings/auditdatabase.md) topic for additional information.
 
-![mp_wizard_step_db_thumb_0_0](/img/product_docs/auditor/auditor/admin/monitoringplans/mp_wizard_step_db_thumb_0_0.webp)
+![mp_wizard_step_db_thumb_0_0](/img/product_docs/auditor/10.7/admin/monitoringplans/mp_wizard_step_db_thumb_0_0.webp)
 
 Configure the following:
 

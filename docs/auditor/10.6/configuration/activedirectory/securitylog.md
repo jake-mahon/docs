@@ -23,7 +23,7 @@ To increase the maximum size of the Security event log and set its retention met
 3. Navigate to **Computer Configuration > Policies > Windows Settings > Security Settings > Event
    Log** and double-click the **Maximum security log size** policy.
 
-    ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
+    ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/auditor/10.6/configuration/activedirectory/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
 
 4. In the Maximum security log size Properties dialog, select **Define this policy setting** and set
    maximum security log size to **4194240** kilobytes (4GB).

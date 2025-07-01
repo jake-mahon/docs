@@ -11,7 +11,7 @@ access to data—only within a delegated scope. See the
 [Role-Based Access and Delegation](/docs/auditor/10.6/admin/monitoringplans/delegation.md)
 topic for additional informatuion.
 
-![allactivedirectorychanges](/img/versioned_docs/auditor_10.6/auditor/admin/reports/allactivedirectorychanges.webp)
+![allactivedirectorychanges](/img/product_docs/auditor/10.6/admin/reports/allactivedirectorychanges.webp)
 
 Review general report types available in Netwrix Auditor to meet your specific business needs:
 

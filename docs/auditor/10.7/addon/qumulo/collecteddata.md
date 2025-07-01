@@ -9,7 +9,7 @@ To leverage data collected with the add-on, you can do the following in Netwrix 
 You might want to apply a filter to narrow down your search results to the Netwrix API data source
 only.
 
-![Qumulo screen](/img/product_docs/auditor/auditor/addon/qumulo/qumulo_thumb_0_0.webp)
+![Qumulo screen](/img/product_docs/auditor/10.7/addon/qumulo/qumulo_thumb_0_0.webp)
 
 - Also, you can click **Tools** in the upper-right corner and select the command you need. For
   example:

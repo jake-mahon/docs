@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 It contains three pages:
 
@@ -20,7 +20,7 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update resource wizard showing 1. Select Owners page](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectowners.webp)
+![Update resource wizard showing 1. Select Owners page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
@@ -54,7 +54,7 @@ the textbox. Then click **Next** to continue.
 **Step 4 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership changes.
 
-![Update resource wizard with 3. Summary page showing action status 100% complete](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
+![Update resource wizard with 3. Summary page showing action status 100% complete](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 5 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

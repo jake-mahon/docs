@@ -53,7 +53,7 @@ the textbox. Then click **Next** to continue.
 **Step 4 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership changes.
 
-![Update resource wizard with 3. Summary page showing action status 100% complete](/img/product_docs/auditor/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
+![Update resource wizard with 3. Summary page showing action status 100% complete](/img/product_docs/auditor/10.7/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 5 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

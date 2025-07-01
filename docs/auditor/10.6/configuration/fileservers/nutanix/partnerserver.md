@@ -27,7 +27,7 @@ server will be opened.
 
     ` POST /partner_servers`
 
-![api](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api.webp)
+![api](/img/product_docs/auditor/10.6/configuration/fileservers/nutanix/api.webp)
 
 5. In the request body, enter the following JSON-formatted structure:
 
@@ -80,7 +80,7 @@ This address must be visible from the Nutanix File Server network.
 The request body must be empty - for that, enter empty brackets as the **value** for
 _get_entities_request_ parameter: `{ }`
 
-![api_partner_server_resquest](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/api_partner_server_resquest.webp)ix/api_partner_server_resquest.webp)
+![api_partner_server_resquest](/img/product_docs/auditor/10.6/configuration/fileservers/nutanix/api_partner_server_resquest.webp)ix/api_partner_server_resquest.webp)
 
 9. The response body should contain the list of servers, including new partner server name and other
    settings.

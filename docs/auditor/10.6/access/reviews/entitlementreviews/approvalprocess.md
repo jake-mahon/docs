@@ -3,7 +3,7 @@
 After all owners assigned to a specific review have submitted their review, its status on the Manage
 Reviews page of the Entitlement Reviews interface changes to Responses awaiting review.
 
-![Resource Reviews interface showing Manage Reviews page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/managereviewspage.webp)
+![Resource Reviews interface showing Manage Reviews page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/managereviewspage.webp)
 
 In the approval process, the Review Administrator looks at the owner-recommended changes and chooses
 to approve, deny, or defer the changes.
@@ -19,12 +19,12 @@ Follow the steps to perform a granular review of a resource owner's recommended 
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens.
 
-![Resource Reviews interface showing the Review Details page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewdetailspage.webp)
+![Resource Reviews interface showing the Review Details page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewdetailspage.webp)
 
 **Step 2 –** Select a resource in the list and click **View Responses**. The View Responses window
 opens.
 
-![viewresponses](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/viewresponses.webp)
+![viewresponses](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the
@@ -52,7 +52,7 @@ Follow the steps to perform a batch processing of a resource owner's recommended
 **Step 1 –** On the Manage Reviews page, select a review and click **View Details**. The Review
 Details page opens. .
 
-![Resource Reviews interface showing the Review Details page](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewdetailspage.webp)
+![Resource Reviews interface showing the Review Details page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewdetailspage.webp)
 
 **Step 2 –** Select a resource in the list and open the **Process Changes** drop-down menu.
 

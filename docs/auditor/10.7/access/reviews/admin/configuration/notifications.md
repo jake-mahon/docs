@@ -15,7 +15,7 @@ for configuring weekly reminders for owners with outstanding reviews.
 SMTP server information is supplied and modified on the Notifications page. Follow the steps to
 configure or modify the SMTP settings.
 
-![Notifications page SMTP server settings section](/img/product_docs/auditor/access/reviews/admin/configuration/notificationssmtp.webp)
+![Notifications page SMTP server settings section](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/notificationssmtp.webp)
 
 **Step 1 –** In the Configuration interface, select the Notifications page.
 
@@ -75,7 +75,7 @@ Notification options.
 Once the SMTP server is configured, there are additional options. Only the Reply-To field must be
 populated:
 
-![Notifications page showing Notification Options section](/img/product_docs/auditor/access/reviews/admin/configuration/notificationsoptions.webp)
+![Notifications page showing Notification Options section](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/notificationsoptions.webp)
 
 - Reply-To — The email address that receives responses to notifications sent by the application.
   This can be a “no reply” address.

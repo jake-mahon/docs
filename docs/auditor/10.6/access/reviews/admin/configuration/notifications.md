@@ -4,7 +4,7 @@ The Access Reviews application uses the Simple Mail Transfer Protocol (SMTP) to 
 SMTP server information and several messaging options can be set through the Configuration >
 Notifications page.
 
-![Notifications Page](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notifications.webp)
+![Notifications Page](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notifications.webp)
 
 At the top, the SMTP server and email security settings are configured. The Notification options is
 where you configure the sender information, and other optional settings. The Reminders section is
@@ -15,7 +15,7 @@ for configuring weekly reminders for owners with outstanding reviews.
 SMTP server information is supplied and modified on the Notifications page. Follow the steps to
 configure or modify the SMTP settings.
 
-![Notifications page SMTP server settings section](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notificationssmtp.webp)
+![Notifications page SMTP server settings section](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notificationssmtp.webp)
 
 **Step 1 –** In the Configuration interface, select the Notifications page.
 
@@ -54,12 +54,12 @@ email/messaging administrator who will know the proper value for the SMTP port.
         - Select this radio button to specify either domain account or a traditional SMTP account
           and password to authenticate to the SMTP server.
 
-![Test Settings window](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notificationstestsettings.webp)
+![Test Settings window](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notificationstestsettings.webp)
 
 **Step 5 –** Click **Test Settings** to ensure a connection to the SMTP server. The Test Settings
 window opens. Enter a valid email address and click **OK**.
 
-![Testing your settings window](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notificationstestconfirm.webp)
+![Testing your settings window](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notificationstestconfirm.webp)
 
 **Step 6 –** If the SMTP settings are configured correctly, you receive a successful message. Click
 **OK** to close the Testing your settings window. The test recipient should have recieved a test
@@ -75,7 +75,7 @@ Notification options.
 Once the SMTP server is configured, there are additional options. Only the Reply-To field must be
 populated:
 
-![Notifications page showing Notification Options section](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notificationsoptions.webp)
+![Notifications page showing Notification Options section](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notificationsoptions.webp)
 
 - Reply-To — The email address that receives responses to notifications sent by the application.
   This can be a “no reply” address.
@@ -96,7 +96,7 @@ Resource Owners receive notification email when there are new pending tasks asso
 resources. You can also set up automated weekly reminders for outstanding pending tasks. Follow the
 steps to configure weekly reminders to resource owners.
 
-![Notifications page showing the Reminders section](/img/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notificationsreminders.webp)
+![Notifications page showing the Reminders section](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notificationsreminders.webp)
 
 **Step 1 –** In the Configuration interface, select the Notifications page and scroll down to the
 Reminders section.

@@ -34,7 +34,7 @@ Alternatively, you can type a value directly into the Search field.
   To search across all columns in the results view (everywhere—Who, What, Where, Action, etc.),
   leave it as is.
 
-![Filter](/img/product_docs/auditor/auditor/admin/search/addsuggestions.webp)
+![Filter](/img/product_docs/auditor/10.7/admin/search/addsuggestions.webp)
 
 **Step 2 –** Click Search to apply your filters. By default, all entries that contain the filter
 value are shown.
@@ -43,7 +43,7 @@ value are shown.
 
 | To...         | Do...                                                                                                                                                                                                                                                                                                                    |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Modify filter | Double-click the filter and type a new value. ![Filter new value](/img/product_docs/auditor/auditor/admin/search/search_modify_filter.webp) If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
+| Modify filter | Double-click the filter and type a new value. ![Filter new value](/img/product_docs/auditor/10.7/admin/search/search_modify_filter.webp) If you need to modify the When filter, delete it and add a new value, or navigate to the Advanced mode (Simple mode does not support its modification). |
 | Remove filter | Click the **Close** icon next to it.                                                                                                                                                                                                                                                                                     |
 
 ## Exporting and Importing Filters

@@ -12,7 +12,7 @@ To configure the Operational log size and retention method
    the IIS-Configuration node.
 3. Right-click the Operational log and select Properties.
 
-    ![manualconfig_iis2016](/img/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/manualconfig_iis2016.webp)
+    ![manualconfig_iis2016](/img/product_docs/auditor/10.6/configuration/windowsserver/manualconfig_iis2016.webp)
 
 4. Make sure **Enable logging** is enabled.
 5. Set **Maximum log size** to 4 GB.

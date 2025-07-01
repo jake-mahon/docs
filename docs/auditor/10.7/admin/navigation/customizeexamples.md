@@ -11,14 +11,14 @@ Follow the steps to view a report and add it to the list of Favorites.
 **Step 2 –** Open a report you are interested in; for example, Account Permissions in Active
 Directory:
 
-![scenario_reports_1](/img/product_docs/auditor/auditor/admin/navigation/scenario_reports_1.webp)
+![scenario_reports_1](/img/product_docs/auditor/10.7/admin/navigation/scenario_reports_1.webp)
 
 **Step 3 –** Click the report menu (three dots) to the right and select Add to favorites.
 (Alternatively, click the star icon in the upper right corner of the report description.)
 
 The report is added to the Favorite reports section on the home page and you can run it instantly.
 
-![scenario_reports_2](/img/product_docs/auditor/auditor/admin/navigation/scenario_reports_2.webp)
+![scenario_reports_2](/img/product_docs/auditor/10.7/admin/navigation/scenario_reports_2.webp)
 
 ## Run Search and Create Alert
 
@@ -60,7 +60,7 @@ such as "_User Accounts with administrative permissions_". See the
 3. Search the group of risks you want to pin to the home page (in this case, the "_Permissions_"
    risks group):
 
-    ![scenario_risks_thumb_0_0](/img/product_docs/auditor/auditor/admin/navigation/scenario_risks_thumb_0_0.webp)
+    ![scenario_risks_thumb_0_0](/img/product_docs/auditor/10.7/admin/navigation/scenario_risks_thumb_0_0.webp)
 
 **Step 4 –** Click Add.
 

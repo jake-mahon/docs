@@ -26,9 +26,9 @@ portal as described in the
 2. You can search or browse through the Knowledge Base articles here, or click **Create New
    Ticket**:
 
-    ![support_ticket_customer_portal_fixed](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/support_ticket_customer_portal_fixed.webp)
+    ![support_ticket_customer_portal_fixed](/img/product_docs/auditor/10.6/admin/healthstatus/support_ticket_customer_portal_fixed.webp)
 
 3. Fill in the form, describing the issue, and click **Open a ticket**.
 4. After that, you will be able to attach the files you need (screenshots, emails, reports, etc.).
 
-![support_ticket_customer_portal](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/support_ticket_customer_portal.webp)
+![support_ticket_customer_portal](/img/product_docs/auditor/10.6/admin/healthstatus/support_ticket_customer_portal.webp)

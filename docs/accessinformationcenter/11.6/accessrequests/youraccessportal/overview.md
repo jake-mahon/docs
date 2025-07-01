@@ -43,7 +43,7 @@ The information displayed in the table includes:
 
 The buttons above and below the table enable you to perform the following actions:
 
-![Your Access portal interface buttons](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/interfacebuttons.webp)
+![Your Access portal interface buttons](/img/product_docs/auditor/10.6/access/reviews/resourceowners/interfacebuttons.webp)
 
 | Button         | Description                                                                                                                                                                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

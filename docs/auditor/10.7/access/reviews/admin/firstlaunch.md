@@ -6,7 +6,7 @@ The installer places the following icon on the desktop which opens the Access Re
 
 Use this icon to launch the Access Reviews Console for the first time.
 
-![Set Builtin Administrator Password page](/img/product_docs/auditor/access/reviews/admin/firstlaunchpassword.webp)
+![Set Builtin Administrator Password page](/img/product_docs/auditor/10.7/access/reviews/admin/firstlaunchpassword.webp)
 
 The Access Reviews application is installed with a Builtin Administrator account; "admin" is the
 User Name. You will be prompted to set the account's password. It must be eight or more characters
@@ -18,7 +18,7 @@ Administrator account. See the
 [Modify the Builtin Administrator Account](configuration/consoleaccess.md#modify-the-builtin-administrator-account)
 topic for additional information.
 
-![firstlaunchlandingpage](/img/product_docs/auditor/access/reviews/admin/firstlaunchlandingpage.webp)
+![firstlaunchlandingpage](/img/product_docs/auditor/10.7/access/reviews/admin/firstlaunchlandingpage.webp)
 
 The Resource Owners interface opens. The first thing that should be done is to configure console
 access for domain users and configure notification settings. Select the Configuration tab. See the

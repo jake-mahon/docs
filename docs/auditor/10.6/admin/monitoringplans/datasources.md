@@ -22,7 +22,7 @@ Follow the steps to modify data source settings.
 **Step 2 –** Within the monitoring plan window, highlight the data source (the first one is the row
 right under the blue table header) and click Edit data source on the right:
 
-![Data source settings](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/mp_edit_data_source.webp)
+![Data source settings](/img/product_docs/auditor/10.6/admin/monitoringplans/mp_edit_data_source.webp)
 
 **Step 3 –** Modify data source settings as you need.
 

@@ -42,11 +42,11 @@ drop-down list.
 **Step 3 –** Expand the Schema your_Root_Domain_name node. Right-click the CN=Unicode-Pwd attribute
 and select Properties.
 
-![ad_object_restore_1](/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
+![ad_object_restore_1](/img/product_docs/auditor/10.7/tools/ad_object_restore_1.webp)
 
 **Step 4 –** Double-click the searchFlags attribute and set its value to _"8"_.
 
-![ad_object_restore_2](/img/product_docs/auditor/auditor/tools/ad_object_restore_2.webp)
+![ad_object_restore_2](/img/product_docs/auditor/10.7/tools/ad_object_restore_2.webp)
 
 Now you will be able to restore deleted accounts with their passwords preserved.
 

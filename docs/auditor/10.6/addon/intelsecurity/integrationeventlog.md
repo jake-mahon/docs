@@ -32,4 +32,4 @@ EventData is filled in with data from the Activity Record fields as follows:
 
 Details are filled in only if this Activity Record field is not empty.
 
-![eventlogexample](/img/versioned_docs/auditor_10.6/auditor/addon/solarwinds/eventlogexample.webp)
+![eventlogexample](/img/product_docs/auditor/10.6/addon/solarwinds/eventlogexample.webp)

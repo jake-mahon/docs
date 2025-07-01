@@ -9,7 +9,7 @@ To leverage data collected with the add-on, you can do the following in Auditor:
 You might want to apply a filter to narrow down your search results to the Netwrix**API** data
 source only.
 
-![screen_results](/img/versioned_docs/auditor_10.6/auditor/addon/nutanixahv/nutanixahv.webp)
+![screen_results](/img/product_docs/auditor/10.6/addon/nutanixahv/nutanixahv.webp)
 
 - Also, you can click **Tools** in the upper-right corner and select the command you need. For
   example:

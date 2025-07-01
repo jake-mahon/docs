@@ -33,7 +33,7 @@ and logged out unless you select to continue the session.
 **NOTE:** You can customize the session timeout and timeout counter from the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
 
-![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/versioned_docs/auditor_10.6/auditor/addon/privilegeduserlinux/configwizard.webp)
+![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/product_docs/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
 
 ## General Dashboard
 

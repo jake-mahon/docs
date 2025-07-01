@@ -25,7 +25,7 @@ the license agreement and then press `Y` to accept it.
 
 In the example below, review how the shell script configures the new VM:
 
-![appliance_script](/img/versioned_docs/auditor_10.6/auditor/install/virtualappliance/appliance_script.webp)
+![appliance_script](/img/product_docs/auditor/10.6/install/virtualappliance/appliance_script.webp)
 
 **Step 6 –** When the script execution completes, you will be prompted to reboot the virtual machine
 for the changes to take effect.

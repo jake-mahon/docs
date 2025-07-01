@@ -42,7 +42,7 @@ information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/interfacebuttons.webp)
+![Action buttons in the Resource Owners Interface](/img/product_docs/auditor/10.6/access/reviews/resourceowners/interfacebuttons.webp)
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

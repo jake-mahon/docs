@@ -31,7 +31,7 @@ application begins to send the confirmation email. The table provides the follow
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![selectownerstaskcompleted](/img/product_docs/auditor/access/reviews/resourceowners/wizard/selectownerstaskcompleted.webp)
+![selectownerstaskcompleted](/img/product_docs/auditor/10.7/access/reviews/resourceowners/wizard/selectownerstaskcompleted.webp)
 
 **Step 3 –** The action status displays on the page. When the owner confirmation notification has
 completed (100%), click Close. The Confirm Ownership wizard closes.

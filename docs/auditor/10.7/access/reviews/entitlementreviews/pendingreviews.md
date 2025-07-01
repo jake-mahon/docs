@@ -6,7 +6,7 @@ have to your resource. When the Review Administrator creates a new review or sta
 of an existing review, you receive an email notification that includes a link to the your pending
 reviews.
 
-![Email announcing a pending review](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreviewemail.webp)
+![Email announcing a pending review](/img/product_docs/auditor/10.7/access/reviews/entitlementreviews/pendingreviewemail.webp)
 
 Use the **Sign in** link at the bottom to open the My Reviews interface in the Access Reviews
 Console.
@@ -20,7 +20,7 @@ The My Reviews interface has two pages: Pending Reviews and Review History. See
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/access/reviews/entitlementreviews/pendingreivewspage.webp)
+![My Reviews interface showing Pending Reviews page](/img/product_docs/auditor/10.7/access/reviews/entitlementreviews/pendingreivewspage.webp)
 
 The information displayed in the table includes:
 

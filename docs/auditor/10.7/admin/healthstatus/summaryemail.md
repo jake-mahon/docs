@@ -12,7 +12,7 @@ red means there were some problems that require your attention.
 
 The email looks like shown below:
 
-![email_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/email_thumb_0_0.webp)
+![email_thumb_0_0](/img/product_docs/auditor/10.7/admin/healthstatus/email_thumb_0_0.webp)
 
 The Monitoring Overview section of the email provides detail information only for the monitoring
 plans with issues. Successfully completed monitoring plans are not included.

@@ -41,7 +41,7 @@ right click Modify thresholds.
 
 **Step 3 –** Click OK to save the settings and close the dialog.
 
-![modify_thresholds_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/modify_thresholds_thumb_0_0.webp)
+![modify_thresholds_thumb_0_0](/img/product_docs/auditor/10.7/admin/riskassessment/modify_thresholds_thumb_0_0.webp)
 
 Also, for several metrics the Customize risk indicators command is available.
 

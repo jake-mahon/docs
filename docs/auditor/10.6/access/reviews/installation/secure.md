@@ -63,7 +63,7 @@ Notepad. It is located in the installation directory:
 
 ...\Netwrix\Access Reviews
 
-![AccessInformationCenter.Service.exe.Config file showing the BindingUrl key](/img/versioned_docs/auditor_10.6/access/reviews/installation/securebindingurlparameter.webp)
+![AccessInformationCenter.Service.exe.Config file showing the BindingUrl key](/img/product_docs/auditor/10.6/access/reviews/installation/securebindingurlparameter.webp)
 
 **Step 2 –** Change the `BindingUrl` key value to `"https://+:481"` (ensure the port number matches
 the port number used in the PowerShell command run to create the SSL Binding.

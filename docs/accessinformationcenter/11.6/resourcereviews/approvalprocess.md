@@ -49,7 +49,7 @@ opens.
 _Remember,_ the **Resource Audit** button opens the Resource Audit interface filtered to that
 resource's reports. This is where you can conduct change modeling.
 
-![viewresponses](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/viewresponses.webp)
+![viewresponses](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/viewresponses.webp)
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the
