@@ -53,7 +53,7 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/12.0/admin/action/servicenow/description.webp)
+![Update resource wizard showing 2. Description page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
@@ -76,12 +76,12 @@ is necessary to set a group for at least one access level. Select the desired ac
 Group window closes and the group appears in the table. Repeat this step for each access level
 desired. See the [Select Group Window](/docs/accessinformationcenter/12.0/resourceowners/window/selectgroup.md) topic for additional information.
 
-![Update resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/adinventory/summary.webp)
+![Update resource wizard showing 4. Summary page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/summary.webp)
 
 **Step 5 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Update resource wizard completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Update resource wizard completed page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/completed_1.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

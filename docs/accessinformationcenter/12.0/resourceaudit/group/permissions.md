@@ -6,7 +6,7 @@ means the report displays both direct and inherited permissions unless modified 
 Information Center user. See the [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane) topic for
 information on filter options.
 
-![Permissions report](/img/product_docs/threatprevention/7.5/admin/policies/permissions.webp)
+![Permissions report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/permissions.webp)
 
 This report is comprised of the following columns:
 

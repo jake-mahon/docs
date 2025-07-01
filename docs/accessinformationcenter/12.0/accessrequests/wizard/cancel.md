@@ -25,7 +25,7 @@ click **Cancel**. The Cancel Request wizard opens.
 be included in the e-mail notification sent to the requester. Click **Next** and the Access
 Information Center starts the action.
 
-![Cancel Request wizard complete message](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Cancel Request wizard complete message](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/completed.webp)
 
 **Step 3 –** The action status displays on the page. When the cancellation action has completed
 (100%), click **Finish**. The Cancel Request wizard closes.

@@ -37,7 +37,7 @@ edited.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/criteria.webp)
+![Edit Review wizard Criteria page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/criteria_1.webp)
 
 **Step 3 –** On the Criteria page, you can modify the selected types of sensitive criteria to
 include in the Sensitive Data review if no responses have been received. If responses for one or
@@ -62,7 +62,7 @@ the “One or more resources selected have not been scanned” error occurs. The
 will not allow the review to be created until those resources have been removed or the option
 unchecked.
 
-![Edit Review wizard Resources page](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+![Edit Review wizard Resources page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/resources_1.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
@@ -103,12 +103,12 @@ or removing parent resources from the review also adds or removes their children
 
 - Once the desired resources have been selected, click **Next**.
 
-![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/adinventory/summary.webp)
+![Edit Review wizard Summary page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/summary_1.webp)
 
 **Step 6 –** On the Summary page, review the updated settings and click **Next**. The Access
 Information Center begins to update the review.
 
-![Edit Review wizard update completed message](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Edit Review wizard update completed message](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been updated (100%), click
 **Close**. The Edit Review wizard closes.

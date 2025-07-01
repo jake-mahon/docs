@@ -86,7 +86,7 @@ will be blank if any of the following are true:
 - The FSAC jobs within Access Analyzer have not been run
 - There were no operation events logged for the selected trustee
 
-![Activity Table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sensitivecontent/activitytable.webp)
+![Activity Table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/changemodeling/activitytable.webp)
 
 This table is comprised of the following columns:
 

@@ -12,7 +12,7 @@ This interface has multiple pages:
 The Manage Reviews page is the first page in the Resource Reviews interface. It displays high-level
 information for reviews.
 
-![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+![Resource Reviews interface showing Manage Reviews page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/interface.webp)
 
 The interface includes:
 
@@ -62,7 +62,7 @@ The table data grid functions the same way as other table grids. See the
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Reviews Interface](/img/product_docs/accessinformationcenter/12.0/accessrequests/youraccessportal/interfacebuttons.webp)
+![Action buttons in the Resource Reviews Interface](/img/product_docs/accessinformationcenter/12.0/resourcereviews/interfacebuttons.webp)
 
 | Button         | Description                                                                                                                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

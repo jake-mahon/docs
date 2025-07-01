@@ -2,7 +2,7 @@
 
 The Add new resource wizard is opened with the **Add** button in the Resource Owners interface.
 
-![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
+![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectresource.webp)
 
 It contains five pages:
 
@@ -30,7 +30,7 @@ Follow the steps to add resources one at a time and assign owners.
 
 **Step 1 –** In the Resource Owners interface, click **Add**. The Add new resource wizard opens.
 
-![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
+![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, select the resource to be managed. Then click **Next**.
 
@@ -67,7 +67,7 @@ the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](/img/product_docs/accessanalyzer/12.0/admin/action/servicenow/description.webp)
+![Add new resource wizard showing 3. Description page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/description_1.webp)
 
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
@@ -95,12 +95,12 @@ group appears in the table. Repeat this step for each access level desired. See 
 
 **Step 8 –** Click **Next** to continue.
 
-![Add new resource wizard showing 5. Summary page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/adinventory/summary.webp)
+![Add new resource wizard showing 5. Summary page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/summary_1.webp)
 
 **Step 9 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Add new resource wizard completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Add new resource wizard completed page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/completed_2.webp)
 
 **Step 10 –** The action status displays on the page. When the task has completed (100%), click
 **Close**. The Add new resource wizard closes.

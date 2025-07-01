@@ -83,7 +83,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 
 **Step 7 –** Click **Next** and the Access Information Center starts the action.
 
-![Request Access wizard request sent message](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Request Access wizard request sent message](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/completed_1.webp)
 
 **Step 8 –** The action status displays on the page. When the action has completed (100%), click
 **Finish**. The Request Access wizard closes.

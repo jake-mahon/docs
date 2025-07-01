@@ -9,16 +9,16 @@ information.
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/accessinformationcenter/12.0/installation/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/img/product_docs/accessinformationcenter/12.0/installation/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/img/product_docs/accessinformationcenter/12.0/installation/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click **Change** to browse for a different location. When the destination is
@@ -27,7 +27,7 @@ set as desired, click **Next**.
 **NOTE:** The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
 are no specific requirements for changing the path.
 
-![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessanalyzer/12.0/install/application/sqlserver.webp)
+![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessinformationcenter/12.0/installation/sqlserver.webp)
 
 **Step 5 –** On the SQL Server Connection page, provide the required database information. Click
 **Next** to test the connection to the SQL Server. If there are no errors, the next wizard page
@@ -56,7 +56,7 @@ Center on the same server as Access Analyzer. The Database settings can be modif
 installation. See the [Database Page](/docs/accessinformationcenter/12.0/admin/configuration/database.md) topic for additional
 information.
 
-![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessanalyzer/12.0/admin/action/survey/webserver.webp)
+![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessinformationcenter/12.0/installation/webserver.webp)
 
 **Step 6 –** On the Configure Web Server page, select the URL protocol and port on which the
 application will be accessible.
@@ -109,11 +109,11 @@ to step 8.
 
 Once the certificate has been provided, click **Next** to continue.
 
-![AIC Setup Wizard Ready to install page](/img/product_docs/activitymonitor/8.0/install/ready.webp)
+![AIC Setup Wizard Ready to install page](/img/product_docs/accessinformationcenter/12.0/installation/ready.webp)
 
 **Step 8 –** On the Ready to install page, click **Install** to begin the process.
 
-![AIC Setup Wizard Completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![AIC Setup Wizard Completed page](/img/product_docs/accessinformationcenter/12.0/installation/completed.webp)
 
 **Step 9 –** Once the installation has successfully completed, click **Finish** to exit the wizard.
 

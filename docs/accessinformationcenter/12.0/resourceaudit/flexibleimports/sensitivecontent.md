@@ -8,7 +8,7 @@ Access Analyzer database or it will be blank. The **Include Subfolders** option 
 until removed. See the [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane) topic for information on
 changing this option.
 
-![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sensitivecontent.webp)
+![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/12.0/resourceaudit/flexibleimports/sensitivecontent.webp)
 
 This report is comprised of the following columns:
 
