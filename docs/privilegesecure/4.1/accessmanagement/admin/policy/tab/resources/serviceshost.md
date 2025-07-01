@@ -2,7 +2,7 @@
 
 The Services tab shows information about the services running on the selected resource.
 
-![Services Tab for Host Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/serviceshost.webp)
+![Services Tab for Host Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/serviceshost.webp)
 
 The Services tab has the following features:
 

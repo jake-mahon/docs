@@ -15,24 +15,24 @@ To restore a machine from the stale store of Privilege Secure the following step
 
 - Open the Systems Management Screen
 
-![Screen_Shot_2022-03-07_at_3.34.04_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.34.04_pm.webp)
+![Screen_Shot_2022-03-07_at_3.34.04_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.34.04_pm.webp)
 
 - Select the "Retired Systems" view
 
-![Screen_Shot_2022-03-07_at_3.35.06_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.35.06_pm.webp)
+![Screen_Shot_2022-03-07_at_3.35.06_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.35.06_pm.webp)
 
 - Use the filters to find the required machine for restoring
 
-![Screen_Shot_2022-03-07_at_3.36.37_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.36.37_pm.webp)
+![Screen_Shot_2022-03-07_at_3.36.37_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.36.37_pm.webp)
 
 - Click the "Restore System" option from the Action menu for the target machine
 
-![Screen_Shot_2022-03-07_at_3.37.17_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.37.17_pm.webp)
+![Screen_Shot_2022-03-07_at_3.37.17_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.37.17_pm.webp)
 
 - The machine name will now become a clickable link that will take you to the grant access screen
   where the OAM and RID500 administrator passwords will be available
 
-![Screen_Shot_2022-03-07_at_3.39.13_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.39.13_pm.webp)
+![Screen_Shot_2022-03-07_at_3.39.13_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/systemmanagement/4619816162327_screen_shot_2022-03-07_at_3.39.13_pm.webp)
 
 ## Extended Details
 

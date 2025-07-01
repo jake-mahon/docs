@@ -6,7 +6,7 @@ Follow the steps to add activity groups to the console.
 
 **Step 2 –** In the Activity Groups list, click the Add Activity Group icon.
 
-![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
+![addactivitygroup](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 **Step 3 –** Enter the following information:
 

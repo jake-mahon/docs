@@ -2,7 +2,7 @@
 
 The Secrete Vault menu displays the configuration options for Windows platforms.
 
-![Secret Vault Platform Configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/secretvault.webp)
+![Secret Vault Platform Configuration](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/platforms/secretvault.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Secret Vault Platform.

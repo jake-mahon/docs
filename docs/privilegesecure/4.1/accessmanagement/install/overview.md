@@ -68,7 +68,7 @@ architecture is only used for Proof of Concepts or testing purposes. All compone
 the application server. This scenario provides rapid start capability, and in most cases,
 installation and initial configuration can be completed in as little as 20 minutes.
 
-![Single Server Deployment](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/singleserverdeployment.webp)
+![Single Server Deployment](/img/product_docs/privilegesecure/4.1/accessmanagement/install/singleserverdeployment.webp)
 
 ## Privilege Secure Server with Remote Services
 
@@ -77,7 +77,7 @@ install Proxy and Action Services on additional hosts for scalability, redundanc
 segmentation. Adding these services to other hosts provides the option to disable these services on
 the application server.
 
-![Distributed Architecture Data Flow Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/distributedarchitecture.webp)
+![Distributed Architecture Data Flow Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/distributedarchitecture.webp)
 
 The user can contact the Web service over port 6500, illustrated with a blue arrow. They can also
 talk directly to the Proxy service, illustrated with a green arrow over port:
@@ -113,7 +113,7 @@ redundancy, with a replicated database pair. When the Primary becomes unavailabl
 high-availability configuration tool is used to manually instigate failover. All external components
 on operational resources continue to service requests.
 
-![Active-Passive Database Deployment Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/activepassivedatabase.webp)
+![Active-Passive Database Deployment Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/activepassivedatabase.webp)
 
 The Active-Passive configuration, which is only available with the PostgreSQL database, allows you
 to leverage the embedded database. It is also the simplest option for configuring high-availability.
@@ -126,7 +126,7 @@ Server database options. No manual intervention is required. Many application se
 to the database for redundancy and scalability. However, setup is more complex than an
 Active-Passive configuration. Also, you will need an additional server for the database.
 
-![Active-Active Database Deployment Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/activeactivedatabase.webp)
+![Active-Active Database Deployment Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/activeactivedatabase.webp)
 
 ## Cloud-Native Database Deployment
 
@@ -135,7 +135,7 @@ built-in high-availability and auto-scaling. AWS supports databases for PostgreS
 PostgreSQL) and SQL Server (RDS SQL Server). Azure also supports databases for PostgreSQL and SQL
 Server.
 
-![AWS Acrive-Active Database Deployment Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/awsdatabase.webp)
+![AWS Acrive-Active Database Deployment Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/awsdatabase.webp)
 
 ## Third-Party Vault Integration
 
@@ -147,7 +147,7 @@ activities. Benefits include:
 - Onboard credentials without having to change API references in applications
 - Build on existing infrastructure
 
-![Bring Your Own Vault Integration Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/byovdatabase.webp)
+![Bring Your Own Vault Integration Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/byovdatabase.webp)
 
 ## LAPS Integration
 
@@ -158,4 +158,4 @@ integration allows those passwords to be utilized for Privilege Secure activitie
 - Faster deployment time
 - Offboard password changing process to Active Directory
 
-![Bring Your Own Vault LAPS Integration Diagram](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/byovlapsdatabase.webp)
+![Bring Your Own Vault LAPS Integration Diagram](/img/product_docs/privilegesecure/4.1/accessmanagement/install/byovlapsdatabase.webp)

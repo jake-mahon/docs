@@ -63,7 +63,7 @@ topic.
 
 **Step 5 –** Click **Next**.
 
-![Add Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
+![Add Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
 
 **Step 6 –** Select the days of the week in the Run the backup on section to indicate the days when
 backups will be run.
@@ -104,7 +104,7 @@ If notifications are not desired, skip this step.
 
 **Step 13 –** Click **Next**.
 
-![Add Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Add Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -135,7 +135,7 @@ credentials will take effect on next domain backup.
 
 **Step 5 –** Click **Next**.
 
-![Edit Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
+![Edit Domain Configuration wizard - Backup Schedule page](/img/product_docs/recoveryforactivedirectory/admin/configuration/backupschedule.webp)
 
 **Step 6 –** Modify the selection of the check boxes in the Run the backup on section to indicate
 the days when backups will be run, as needed.
@@ -177,7 +177,7 @@ topic for additional information.
 
 If notifications are not desired, skip this step.
 
-![Edit Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Edit Domain Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 14 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**

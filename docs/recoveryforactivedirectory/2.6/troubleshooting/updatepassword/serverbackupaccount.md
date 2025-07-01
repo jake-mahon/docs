@@ -8,7 +8,7 @@ Follow the steps to update the backup account password for a domain controller.
 
 **Step 1 –** Click **Forest** in the left pane to open the Forest page.
 
-![Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.webp)
+![Forest Page](/img/product_docs/recoveryforactivedirectory/admin/forest/forest.webp)
 
 **Step 2 –** On the Forest page, select a forest to view the domain controllers in it. To locate a
 domain controller in a specific domain, expand the forest in the left pane and select a domain. The
@@ -35,13 +35,13 @@ into account the new password.
 
 **Step 6 –** Modify the options if needed, then click **Next**.
 
-![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 7 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
 to finish the wizard.
 
-![Server Backup Configuration has been Saved](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
+![Server Backup Configuration has been Saved](/img/product_docs/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
 
 **Step 8 –** Click **OK**.
 

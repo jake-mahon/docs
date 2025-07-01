@@ -32,7 +32,7 @@ all its members can log in.
 **Step 1 –** Click the **Add Account Role** button on the Users and Roles page. The Add Account Role
 wizard opens.
 
-![Add Account Role wizard – Account page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/account.webp)
+![Add Account Role wizard – Account page](/img/product_docs/recoveryforactivedirectory/admin/configuration/account.webp)
 
 **Step 2 –** Enter a user's first or last name, display name, sAMAccountName, or group name in the
 **Search** field. As you type, the system will find matches in Active Directory and display the
@@ -53,7 +53,7 @@ menu.
 
 **Step 5 –** Click **Next**.
 
-![Add Account Role wizard – Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Add Account Role wizard – Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 6 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -82,7 +82,7 @@ Follow the steps below to remove a user's or group's access to the Recovery Cons
 
 **Step 2 –** Click the **Remove** button to remove that user or group from the table.
 
-![Delete Role Confirmation](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/configuration/deleterole.webp)
+![Delete Role Confirmation](/img/product_docs/recoveryforactivedirectory/admin/configuration/deleterole.webp)
 
 **Step 3 –** Click **OK** to confirm the action.
 

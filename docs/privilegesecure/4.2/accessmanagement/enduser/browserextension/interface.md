@@ -4,7 +4,7 @@ The browser extension interface can be launched at any time with the Netwrix Pri
 in the browser. See the [Log Into the Privilege Secure Console](/docs/privilegesecure/4.2/accessmanagement/admin/login.md) topic for
 additional information.
 
-![browserextensioninterface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioninterface.webp)
+![browserextensioninterface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/browserextension/browserextensioninterface.webp)
 
 The browser interface has 3 tabs:
 
@@ -18,7 +18,7 @@ The Activities tab displays all website activities mapped to the user via the Pr
 Access Policies. See the [Access Policy Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/accesspolicy.md) topic for
 additional information.
 
-![Browser extension Activities tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionactivities.webp)
+![Browser extension Activities tab](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/browserextension/browserextensionactivities.webp)
 
 The Activities tab has the following features:
 
@@ -40,7 +40,7 @@ The Activities tab has the following features:
 
 The Current tab displays any website activity matching the current URL in the browser.
 
-![Browser Extension Current tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensioncurrenttab.webp)
+![Browser Extension Current tab](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/browserextension/browserextensioncurrenttab.webp)
 
 The Current tab shows the resource that matches the current URL at the top, with all of the
 activities available for that resource expanded. It has the following features:
@@ -55,7 +55,7 @@ activities available for that resource expanded. It has the following features:
 Configure basic settings for the browser extension. For additional settings, log in to the Privilege
 Secure Console.
 
-![Browser Extension Settings Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/browserextension/browserextensionsettings.webp)
+![Browser Extension Settings Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/browserextension/browserextensionsettings.webp)
 
 The Settings tab has the following features:
 

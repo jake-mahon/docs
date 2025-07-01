@@ -3,7 +3,7 @@
 The Domain Details page shows additional information for the selected domain resource. This page is
 opened from any linked resource within the various interfaces.
 
-![Domain Details Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/domaindetailspage.webp)
+![Domain Details Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/details/domaindetailspage.webp)
 
 The details page shows the following information:
 

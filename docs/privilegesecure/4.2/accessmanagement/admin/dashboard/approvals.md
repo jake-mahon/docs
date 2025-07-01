@@ -6,7 +6,7 @@ before the requestor can log in to the session. See the
 [Connection Profiles Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information on
 Approval Workflows.
 
-![Dashboard Approvals Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.webp)
+![Dashboard Approvals Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/approvals.webp)
 
 The Approvals Dashboard has the following features:
 

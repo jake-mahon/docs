@@ -12,7 +12,7 @@ the onboarding method:
 When the Import from AD option is selected, the Add Resources window provides a list of resources
 found via Active Directory sync.
 
-![Add Resources window showing the Import from AD option](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardad.webp)
+![Add Resources window showing the Import from AD option](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/addresourcesonboardad.webp)
 
 The window has the following features:
 
@@ -60,7 +60,7 @@ The new resource(s) have been onboarded and can be added to Access Policies.
 
 When the Import from AD option is selected, the Add Resources window provides import options.
 
-![Add Resources window showing the Import from CSV option](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardcsv.webp)
+![Add Resources window showing the Import from CSV option](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/addresourcesonboardcsv.webp)
 
 The window has the following features:
 
@@ -129,7 +129,7 @@ The new resource(s) have been onboarded and can be added to Access Policies.
 When the Add Manually option is selected, the Add Resources window provides options for entering
 resources.
 
-![Add Resources window showing the Add Manually option](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboardmanually.webp)
+![Add Resources window showing the Add Manually option](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/addresourcesonboardmanually.webp)
 
 The window has the following features:
 

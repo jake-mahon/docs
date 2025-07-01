@@ -46,4 +46,4 @@ and requires separate licensing.
 This section offers a quick overview in the form of graphics and charts related to the Content Aware
 Protection module.
 
-![A quick overview in the form of graphics and charts related to the Content Aware Protection module](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.webp)
+![A quick overview in the form of graphics and charts related to the Content Aware Protection module](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard.webp)

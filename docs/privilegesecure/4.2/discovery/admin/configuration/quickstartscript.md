@@ -24,7 +24,7 @@ selected and showing "Will be installed on local hard drive" (screenshot below).
 
 You also need to check "Add Python to environment variables" and "Include Python on filepath".
 
-![image.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360044200374_image.webp)
+![image.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360044200374_image.webp)
 
 _The next step will need to be completed after downloading the version of the QuickStart zip file at
 the bottom of this article._

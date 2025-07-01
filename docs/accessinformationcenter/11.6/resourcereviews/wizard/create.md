@@ -100,7 +100,7 @@ Netwrix Enterprise Auditor for all of the resources selected in Step 5, the One 
 selected have not been scanned error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
 
-![Create Review wizard Resources page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.webp)
+![Create Review wizard Resources page](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/resources.webp)
 
 **Step 5 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being

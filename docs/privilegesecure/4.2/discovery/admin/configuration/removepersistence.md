@@ -82,7 +82,7 @@ reports211.py --insecure
 
 The Quickstart report script is likely to be different for the specific install.
 
-![Screenshot__3_.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/5099864805015_screenshot__3__543x307.webp)
+![Screenshot__3_.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot__3__543x307.webp)
 
 This produces an Excel file with two tabs, Computer Data and Admin List.
 
@@ -92,7 +92,7 @@ Updating the excel file to remove persistence is easy. Using the Admin List tab,
 group that  
 needs persistence to be reverted, in this case Domain Admins.
 
-![Screenshot_2022-03-29_094603.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/5099864805015_screenshot_2022-03-29_094603.webp)
+![Screenshot_2022-03-29_094603.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/5099864805015_screenshot_2022-03-29_094603.webp)
 
 Set the persistence column to FALSE.  
 Remove any formatting or filtering and save the file with a suitable filename to denote the change.

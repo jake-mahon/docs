@@ -14,14 +14,14 @@ Click **Forest** in the left pane to open the Forest page.
 
 - When no forest has been added, the Forest Configuration page is displayed.
 
-> ![Forest Configuration page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
+> ![Forest Configuration page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/add.webp)
 >
 > You must add a forest first. See the [Add a Forest](#add-a-forest) topic for additional
 > information.
 
 - Once a forest is added, the page is displayed as follows:
 
-![Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forest.webp)
+![Forest Page](/img/product_docs/recoveryforactivedirectory/admin/forest/forest.webp)
 
 The domains in the configured forests are shown in a hierarchal tree. The domain controllers for the
 selected forest are shown in the adjacent pane, with information such as backup status and last
@@ -63,7 +63,7 @@ steps to add a forest.
 **Step 1 –** On the Forest Configuration page, click the **here** link. Or on the Forest page, click
 the **Add** link. The Add Forest window is displayed.
 
-![ Add Forest window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/addforest.webp)
+![ Add Forest window](/img/product_docs/recoveryforactivedirectory/admin/forest/addforest.webp)
 
 **Step 2 –** In the Domain field, enter the name of the root domain in the forest
 [example.domain.com].
@@ -146,13 +146,13 @@ checkbox to uncompress the generated backup file.
 
 **Step 11 –** Click **Next**.
 
-![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 12 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
 to finish the wizard.
 
-![Server Backup Configuration Saved](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
+![Server Backup Configuration Saved](/img/product_docs/recoveryforactivedirectory/admin/forest/serverbackupconfiguration.webp)
 
 **Step 13 –** The Server backup configuration has been saved. Click **OK**.
 
@@ -199,7 +199,7 @@ adjacent pane displays the domain controllers in that domain.
 
 **Step 2 –** Click the arrow next to the name of a domain controller to expand it.
 
-![Forest Server Backup History](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/serverbackuphistory.webp)
+![Forest Server Backup History](/img/product_docs/recoveryforactivedirectory/admin/forest/serverbackuphistory.webp)
 
 On expanding a domain controller, you can view a list of backups for it. The following information
 is displayed for each backup:

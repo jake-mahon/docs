@@ -9,7 +9,7 @@ Authentications page. See the
 [Authentication Page](/docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/authentication.md)
 topic for additional information.
 
-![Users Authentication Connector Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
+![Users Authentication Connector Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
 
 Select the method of authentication for the user or group:
 

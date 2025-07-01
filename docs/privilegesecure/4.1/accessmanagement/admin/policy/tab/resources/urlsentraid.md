@@ -3,7 +3,7 @@
 The URLs tab for Microsoft Entra ID (formerly Azure AD) shows information about the URLs associated
 to the selected resource.
 
-![URLs Tab for Azure AD](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/urlsazuread.webp)
+![URLs Tab for Azure AD](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/urlsazuread.webp)
 
 The URLs tab has the following features:
 

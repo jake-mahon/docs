@@ -2,7 +2,7 @@
 
 The Members tab shows information about the members for the selected group.
 
-![Group Members Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/usergroupsmemberstab.webp)
+![Group Members Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/usersgroups/usergroupsmemberstab.webp)
 
 The Members tab has the following features:
 

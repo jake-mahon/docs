@@ -2,7 +2,7 @@
 
 Once the database and application are installed, the next step is to walk through the Setup Wizard.
 
-![Netwrix Setup Launcher showing the Netwrix Privilege Secure with a green checkmark](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/launcherstep4.webp)
+![Netwrix Setup Launcher showing the Netwrix Privilege Secure with a green checkmark](/img/product_docs/privilegesecure/4.1/accessmanagement/install/launcherstep4.webp)
 
 The Netwrix Setup Launcher can be closed, if it was used during installation.
 
@@ -47,7 +47,7 @@ Follow the steps to walk through the Setup Wizard.
 
 **Step 2 –** Click **Let's get started**.
 
-![Setup Wizard on the Step 1 page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/administratoruser.webp)
+![Setup Wizard on the Step 1 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/administratoruser.webp)
 
 **Step 3 –** On the Step 1 page, you identify your primary application Administrator account. Enter
 the following information and then click Next:
@@ -56,7 +56,7 @@ the following information and then click Next:
 - Username – Enter the account. The domain will auto-populate from the field above.
 - Password – Enter the account's password. The eye icon can be used to view the entry.
 
-![Setup Wizard on the Step 2 page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/authenticator.webp)
+![Setup Wizard on the Step 2 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/authenticator.webp)
 
 **Step 4 –** On the Step 2 page, you register your primary application Administrator account with an
 MFA provider.
@@ -72,13 +72,13 @@ MFA provider.
     [User, Group, & Application Details Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/details/usergroupapplication.md)
     topic for additional information.
 
-![Setup Wizard on the Step 2 page displaying the recovery codes](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/authenticatorcodes.webp)
+![Setup Wizard on the Step 2 page displaying the recovery codes](/img/product_docs/privilegesecure/4.1/accessmanagement/install/authenticatorcodes.webp)
 
 **Step 5 –** One-time recovery codes are provided for the registered authenticator. It is
 recommended to copy these codes with the Copy to clipboard link and save them in a secure location
 in case you lose your phone with the authenticator app. Click **Next**.
 
-![Setup Wizard on the Step 3 page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/adserviceaccount.webp)
+![Setup Wizard on the Step 3 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/adserviceaccount.webp)
 
 **Step 6 –** On the Step 3 page, you identify the Active Directory service account with domain
 administrator privileges. Enter the following information and then click **Next**:
@@ -91,7 +91,7 @@ account with domain administrator privileges ready when walking through the Setu
 click the Exit Wizard link. See the [Exit Wizard Early](#exit-wizard-early) topic for additional
 information.
 
-![Setup Wizard on the Step 4 page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/sync.webp)
+![Setup Wizard on the Step 4 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/sync.webp)
 
 **Step 7 –** On the Step 4 page, click **Sync**. The Active Directory domain synchronization begins
 and is tracked by the status bar. When synchronization is complete, the Step 5 page opens.
@@ -100,7 +100,7 @@ and is tracked by the status bar. When synchronization is complete, the Step 5 p
 IP address. If this does occur during domain synchronization, you will be redirected to a dedicated
 error page, which allows you to ignore certificate errors during the initial configuration.
 
-![Setup Wizard on the Step 5 page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/resource.webp)
+![Setup Wizard on the Step 5 page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/resource.webp)
 
 **Step 8 –** On the Step 4 page, select the first resource to be onboarded. The Setup Wizard will
 create your first access policy to grant Domain Admin Access with an Activity Token to this
@@ -110,13 +110,13 @@ resource**.
 **NOTE:** Available resources were discovered on the domain during the synchronization completed on
 the Step 3 page. You can use the Search resources box to filter the list.
 
-![Check resources window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/checkresource.webp)
+![Check resources window](/img/product_docs/privilegesecure/4.1/accessmanagement/install/checkresource.webp)
 
 **Step 9 –** The Check resources window opens. The application is checking DNS resolution and WinRM
 requirements. If a test fails you can fix the configuration and click Retest. To cancel the test,
 click **Close**. When all tests are successful, the window and the Setup Wizard close automatically.
 
-![My Activities interfacing displaying the Activity Token for Domain Admin Access activity created by the Setup Wizard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/myactivities.webp)
+![My Activities interfacing displaying the Activity Token for Domain Admin Access activity created by the Setup Wizard](/img/product_docs/privilegesecure/4.1/accessmanagement/install/myactivities.webp)
 
 When the Setup Wizard closes, you are redirected to the My Activities interfacing . The activity
 created by the Setup Wizard, Activity Token for Domain Admin Access, is displayed.

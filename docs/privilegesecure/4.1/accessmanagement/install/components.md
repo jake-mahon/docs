@@ -2,7 +2,7 @@
 
 The `NPS.zip` file that can be downloaded from the Netwrix Customer portal contains the following:
 
-![Contents of the NPS.zip file download](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/npszip.webp)
+![Contents of the NPS.zip file download](/img/product_docs/privilegesecure/4.1/accessmanagement/install/npszip.webp)
 
 - NPS_Setup.exe – Opens the Netwrix Setup Launcher to install the Privilege Secure components:
 

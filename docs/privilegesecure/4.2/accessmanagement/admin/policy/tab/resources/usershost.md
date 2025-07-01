@@ -2,7 +2,7 @@
 
 The Users tab shows information about the local users on the selected resource.
 
-![Host Users Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usershost.webp)
+![Host Users Tab](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/usershost.webp)
 
 The Users tab has the following features:
 

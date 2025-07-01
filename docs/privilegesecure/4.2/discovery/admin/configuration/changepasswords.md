@@ -12,7 +12,7 @@ This is the account that is used for SSH, CLI, and Putty.
 - Command to change password: `passwd`
 - You will be prompted to enter the current password, and then the desired password twice
 
-![mceclip2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360053099753_mceclip2.webp)
+![mceclip2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360053099753_mceclip2.webp)
 
 Do this for each node.
 
@@ -26,15 +26,15 @@ For the built-in UI 'secureone' user password:
 
 **Step 2 –** Navigate to **left menu** > **Configure** > **Server**.
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360053099753_mceclip0.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360053099753_mceclip0.webp)
 
 **Step 3 –** Enter the desired password twice in the Appliance Admin Password pane.
 
-![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360053099753_mceclip1.webp)
+![mceclip1.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360053099753_mceclip1.webp)
 
 **NOTE:** When you click the checkbox after entering password, the password value filed will show
 [Hidden].
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360053099753_mceclip0.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360053099753_mceclip0.webp)
 
 Upon reloading the page, the password value fields will return to displaying the word "Empty."

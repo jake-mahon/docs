@@ -69,7 +69,7 @@ On the Active Directory page, select and expand a domain in the left pane and lo
 want to view the audit history for. Right-click this object and select **Show audit history** on the
 menu. The Audit History window is displayed.
 
-![Audit History window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/audithistory.webp)
+![Audit History window](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/audithistory.webp)
 
 The following information is displayed for every action performed on the object:
 
@@ -92,7 +92,7 @@ On the Active Directory page, select and expand a domain in the left pane and lo
 whose activity you want to view. Right-click this object and select **Show activity** on the menu.
 The Audit Activity window is displayed.
 
-![Audit Activity window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/auditactivity.webp)
+![Audit Activity window](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/auditactivity.webp)
 
 The following information is displayed for the actions performed by the object:
 

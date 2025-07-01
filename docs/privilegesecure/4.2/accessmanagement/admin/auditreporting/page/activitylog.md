@@ -3,7 +3,7 @@
 The Activity Log page shows the activity logs for users and resources. From here, search and
 investigate the records.
 
-![activitylogpage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/activitylogpage.webp)
+![activitylogpage](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/page/activitylogpage.webp)
 
 The Activity Log page has the following features:
 

@@ -5,7 +5,7 @@ can log into the application to manager policies or run sessions. The Users dash
 same information as the
 [Users & Groups Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Users Dashboard Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/usersdashboard.webp)
+![Users Dashboard Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/dashboard/usersdashboard.webp)
 
 The Users table has the following features:
 

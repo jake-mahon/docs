@@ -5,7 +5,7 @@ Privilege Secure database, and therefore are not dependent on Active Directory a
 logging in to Privilege Secure. Local users can be assigned to roles and access policies in exactly
 the same manner as domain users.
 
-![addlocalusers](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/addlocalusers.webp)
+![addlocalusers](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/add/addlocalusers.webp)
 
 Follow these steps to add a New Local Users.
 

@@ -5,7 +5,7 @@ the
 [Users & Groups Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/usersgroups.md).
 It allows users to be added to a custom role.
 
-![Add Role Users Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addroleusers.webp)
+![Add Role Users Window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/usersgroups/addroleusers.webp)
 
 The window has the following features:
 

@@ -166,7 +166,7 @@ openssl x509 -in secureone.crt -pubkey -noout -outform pem | sha256sum
 
 Checking the CRT and KEY Files
 
-![blobid0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/4416688258199_blobid0.webp)
+![blobid0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/4416688258199_blobid0.webp)
 
 Checking Key
 

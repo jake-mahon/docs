@@ -98,7 +98,7 @@ Highlighted log event details:
 
 Error generated/seen by end-user for this activity:
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/reporting/1500000515721_mceclip0.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/reporting/1500000515721_mceclip0.webp)
 
 Here are the two methods to view these event details for this action.
 
@@ -155,7 +155,7 @@ Highlighted log event details:
 Message end-users will see during this activity. The domain/username will be specific to the
 organization and environment:
 
-![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/reporting/1500000515721_mceclip1.webp)
+![mceclip1.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/reporting/1500000515721_mceclip1.webp)
 
 Here are the two methods to view these event details for this action.
 
@@ -185,7 +185,7 @@ Highlighted log event details:
 
 Error generated/seen by end-user for this activity:
 
-![mceclip2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/reporting/1500000515721_mceclip2.webp)
+![mceclip2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/reporting/1500000515721_mceclip2.webp)
 
 Note: This error can be referenced by the work "Forbidden" and the phrase "User does not have access
 to this resource". For the below log parsing, the phrase is used, but that can be replaced with the

@@ -14,7 +14,7 @@ Follow the steps to lock a session.
 
 - From the Live Session Viewer, click the **lock** icon.
 
-![Lock User Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.webp)
+![Lock User Session](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/window/locksession.webp)
 
 **Step 2 –** In the Lock Session window, enter the following information:
 

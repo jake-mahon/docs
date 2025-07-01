@@ -56,7 +56,7 @@ C:\Program Files\Netwrix\Recovery for Active Directory\
 
 The wizard returns to the Destination Folder page. Click **Next** to continue.
 
-![Installation License File Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/licensefile.webp)
+![Installation License File Page](/img/product_docs/recoveryforactivedirectory/install/licensefile.webp)
 
 **Step 5 –** On the License File page, select the licensing option for your installation.
 
@@ -67,7 +67,7 @@ The wizard returns to the Destination Folder page. Click **Next** to continue.
 
 Click Next.
 
-![Installation SQL Server Configuration](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/sqlserverconfiguration.webp)
+![Installation SQL Server Configuration](/img/product_docs/recoveryforactivedirectory/install/sqlserverconfiguration.webp)
 
 **Step 6 –** On the SQL Server Configuration page, specify the SQL server and credentials to use for
 database communication.
@@ -86,12 +86,12 @@ of the wizard.
 
 Click **Next**.
 
-![Installation SQL Server Database Name](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/sqlserverdatabase.webp)
+![Installation SQL Server Database Name](/img/product_docs/recoveryforactivedirectory/install/sqlserverdatabase.webp)
 
 **Step 7 –** On the SQL Server Database page, specify the SQL Server database to use. Use the
 default database name or provide a unique, descriptive name in the box. Click **Next** to continue.
 
-![serverconfiguration](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/serverconfiguration.webp)
+![serverconfiguration](/img/product_docs/recoveryforactivedirectory/install/serverconfiguration.webp)
 
 **Step 8 –** On the Netwrix Recovery Server Configuration page, enter the port and credentials to be
 used for running the application server.
@@ -105,7 +105,7 @@ used for running the application server.
 
 Click **Next**.
 
-![Installation Admin Role Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/administratorrole.webp)
+![Installation Admin Role Page](/img/product_docs/recoveryforactivedirectory/install/administratorrole.webp)
 
 **Step 9 –** On the Administrator Role page, specify the administrator account to use. By default,
 this is set to the Domain Admins account from the domain the product is being installed into.
@@ -119,7 +119,7 @@ this is set to the Domain Admins account from the domain the product is being in
 
 Click **Next**.
 
-![Installation Web Host Configuration](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/webhost.webp)
+![Installation Web Host Configuration](/img/product_docs/recoveryforactivedirectory/install/webhost.webp)
 
 **Step 10 –** On the Web Host page, specify the web host configuration for the Recovery for Active
 Directory Console.

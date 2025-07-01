@@ -3,7 +3,7 @@
 The View Password window shows the current passwords for the selected managed account. This window
 remains open for only 20 seconds.
 
-![View Password window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/viewpassword.webp)
+![View Password window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/credentials/viewpassword.webp)
 
 The window has the following features:
 

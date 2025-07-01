@@ -43,7 +43,7 @@ Agreement checkbox.
 **Step 7 –** Click Install to begin the installation. The setup wizard displays the installation
 progress.
 
-![installcomplete](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcomplete.webp)
+![installcomplete](/img/product_docs/privilegesecure/4.2/accessmanagement/install/installcomplete.webp)
 
 **Step 8 –** When the installation is complete, click Close to exit the installer.
 

@@ -7,7 +7,7 @@ require a server reboot at the end of the installation.
 The Netwrix Setup Launcher checks for and installs missing prerequisites in addition to installing
 the database and application.
 
-![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep2.webp)
+![Netwrix Setup Launcher showing the Prequisites Setup with a green checkmark](/img/product_docs/privilegesecure/4.2/accessmanagement/install/launcherstep2.webp)
 
 **_RECOMMENDED:_** Antivirus software should be disabled on this computer during the installation.
 
@@ -41,7 +41,7 @@ box and click **Next**.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installfolder.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install and Data Folder page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/installfolder.webp)
 
 **Step 4 –** The default installation location for both the Install Folder and the Data Folder is:
 
@@ -68,7 +68,7 @@ The PostgreSQL database is successfully installed. It is time to install the app
 
 Follow the steps to install Privilege Secure application.
 
-![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/launcherstep3.webp)
+![Netwrix Setup Launcher showing the PostgreSQL Setup with a green checkmark](/img/product_docs/privilegesecure/4.2/accessmanagement/install/launcherstep3.webp)
 
 **Step 1 –** If you are using the Netwrix Setup Launcher, it displays a green checkmark for the
 PostgreSQL Setup. Click Netwrix Privilege Secure Setup.
@@ -82,7 +82,7 @@ conditions** box and click **Options**.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Netwrix Privilege Secure Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
+![Netwrix Privilege Secure Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
 
 **Step 3 –** The default installation location for Install Folder is:
 

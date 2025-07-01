@@ -4,7 +4,7 @@ The Audit and Reporting interface provides auditing and reporting tools to inter
 activity data in the Privilege Secure Console. This topic explains the interface features and how to
 use them.
 
-![Audit and Reporting Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/auditandreportingdashboard.webp)
+![Audit and Reporting Interface](/img/product_docs/privilegesecure/4.1/accessmanagement/revieweruser/auditreporting/auditandreportingdashboard.webp)
 
 Click on the assigned task to see the details for the activities ready for review.
 
@@ -14,7 +14,7 @@ On the Access Certification page, create or review access certification tasks to
 user access. User(s) / group member(s) with the Reviewer role will see the access certification
 task(s) assigned to them here.
 
-![Access Certification](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/accesscertification.webp)
+![Access Certification](/img/product_docs/privilegesecure/4.1/accessmanagement/revieweruser/auditreporting/accesscertification.webp)
 
 On the left of the page, the Access Certification Task list shows the different access certification
 tasks and has the following features:

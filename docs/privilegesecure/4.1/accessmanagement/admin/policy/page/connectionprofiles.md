@@ -86,7 +86,7 @@ The selected profile details display in the main pane:
       [Activity Token Complexity Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/activitytokencomplexity.md).
       Left blank, the Console will use the default activity token complexity policy.
 
-![Connection Profiles Page Extended](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/pageextended.webp)
+![Connection Profiles Page Extended](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/pageextended.webp)
 
 - Credential Management settings:
 

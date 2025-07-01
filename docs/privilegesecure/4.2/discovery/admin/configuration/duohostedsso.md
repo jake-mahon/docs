@@ -21,7 +21,7 @@ Duo service plan with the following:
 
 ## Duo: Create the DUO Application for Privilege Secure
 
-- ![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0.webp)
+- ![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip0.webp)
 
 Scroll down to the **Service Provider Section**; notes:
 
@@ -31,7 +31,7 @@ Scroll down to the **Service Provider Section**; notes:
 - [https://10.100.11.192](https://10.100.11.192) should be replace with your Privilege Secure URL.
 - Entity ID can by any unique string.  We recommend using your Privilege Secure URL.
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip0.webp)
 
 **SAML Response Section** Notes:
 
@@ -41,9 +41,9 @@ Scroll down to the **Service Provider Section**; notes:
 - idP Attribute: `distinguishedName`
 - SAML Response Attribute: `dn`
 
-![image.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_image.webp)
+![image.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_image.webp)
 
-![image__1_.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_image__1_.webp)
+![image__1_.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_image__1_.webp)
 
 - The remaining **SAML Response** section fields can be left blank.
 - The **Policy** section requires no settings from Privilege Secure, tailor to suit your
@@ -51,7 +51,7 @@ Scroll down to the **Service Provider Section**; notes:
 - In the **Settings** section, we recommend setting an appropriate name, tailor the rest to suit
   your environment.
 
-![mceclip4.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip4.webp)
+![mceclip4.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip4.webp)
 
 - The **Host Whitelisting** section requires no settings from Privilege Secure, tailor to suit your
   environment.
@@ -59,27 +59,27 @@ Scroll down to the **Service Provider Section**; notes:
 
 ## Duo: Retrieve SAML/SSO Information for Privilege Secure
 
-![mceclip6.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip6.webp)
+![mceclip6.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip6.webp)
 
-![mceclip7.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip7.webp)
+![mceclip7.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip7.webp)
 
 ## Enter SAML/SSO Information
 
-![mceclip8.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip8.webp)
+![mceclip8.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip8.webp)
 
 ## Enable SSO in Privilege Secure and Login Example
 
 At the bottom of the **Configure** > **Server** > **SAML Configuration Panel**, enable or disable
 SSO when appropriate:
 
-![mceclip9.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip9_192x74.webp)
+![mceclip9.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip9_192x74.webp)
 
 **Step 1 –** Click **SSO Login** button to log in via Duo.
 
 **Step 2 –** \*Optional:  To login from Duo first (IdP-initiated), use the Single Sign-On
 URL provided by Duo.  This is found in the application's "Metadata" section.
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360049850994_mceclip0_650x254.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360049850994_mceclip0_650x254.webp)
 
 ## Troubleshooting
 

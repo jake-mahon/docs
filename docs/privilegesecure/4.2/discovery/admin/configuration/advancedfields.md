@@ -215,5 +215,5 @@ Example [linux_register.xlsx](/docs/privilegesecure/4.2/discovery/attachments/36
 
 The full Excel file layout of the QuickStart file is detailed in the picture below:
 
-![OAM-S1-1824.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360042878654_oam-s1-1824_941x297.webp)
+![OAM-S1-1824.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360042878654_oam-s1-1824_941x297.webp)
 ```

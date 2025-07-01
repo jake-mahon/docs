@@ -2,7 +2,7 @@
 
 The User Roles tab shows whether the current user has been assigned an application role.
 
-![User Roles Tab for Application User](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userroletab.webp)
+![User Roles Tab for Application User](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userroletab.webp)
 
 The User Roles tab has the following features:
 

@@ -18,14 +18,14 @@ RADUIS setup in environment with the following information available:
 
 ## Enter RADIUS Information
 
-![mceclip0.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360052024333_mceclip0.webp)
+![mceclip0.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052024333_mceclip0.webp)
 
 ## Enable RADIUS in Privilege Secure and Login Example
 
 At the bottom of the Configure → Server -> Radius Configuration Panel, enable or disable Radius when
 appropriate:
 
-![mceclip1.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360052024333_mceclip1.webp)
+![mceclip1.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052024333_mceclip1.webp)
 
 For RADIUS Login:
 
@@ -37,6 +37,6 @@ For RADIUS Login:
 While Privilege Secure is awaiting authentication with RADIUS you will see the button display 
 "Signing In..."
 
-![mceclip6.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360052024333_mceclip6.webp)
+![mceclip6.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360052024333_mceclip6.webp)
 
 Authenticate with your RADIUS 2FA method and you will be logged into Privilege Secure.

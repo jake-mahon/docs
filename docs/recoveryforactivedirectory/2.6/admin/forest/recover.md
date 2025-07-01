@@ -124,7 +124,7 @@ the to-be-restored domain controller.
 
 **Step 10 –** Click **Next**.
 
-![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 11 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -136,7 +136,7 @@ Repeat this process for all the domain controllers you wish to restore in the ta
 When you add another domain controller, it appears as a new tab added to the playbook. Click the tab
 representing a domain controller to view its details.
 
-![Recovery Playbook created on the Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recoveryplaybook.webp)
+![Recovery Playbook created on the Forest Page](/img/product_docs/recoveryforactivedirectory/admin/forest/recoveryplaybook.webp)
 
 The following information is displayed for a domain controller in the playbook:
 
@@ -158,7 +158,7 @@ Your new forest is ready for you to log in using any Administrator credentials f
 
 Notice that the Forest page displays the operations performed during the restore process.
 
-![Forest page showing a restored forest](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forestrecovered.webp)
+![Forest page showing a restored forest](/img/product_docs/recoveryforactivedirectory/admin/forest/forestrecovered.webp)
 
 From here, you can proceed to restore additional domain controllers or promote new ones to the
 forest.

@@ -10,7 +10,7 @@ process and can/will be adjusted based on organizational needs or requirements. 
 DR (Disater Recovery) can be viewed in the following topic:
 [High Availability (HA) and Disaster Recovery (DR) Options](/docs/privilegesecure/4.2/discovery/requirements/haanddr.md).
 
-![failback.jpg](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_failback_782x153.webp)
+![failback.jpg](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/1500001380942_failback_782x153.webp)
 
 he above image illustrates Privilege Secure's standard 3 node PROD to 3 node DR cluster
 configuration as  a visual.
@@ -66,14 +66,14 @@ that this environment is not "active" with AD and LDAP, which can cause conflict
 environment’s data. The API service in the screenshot is scaled to 0/0 status but can be left at 1/1
 status if preferred.
 
-![blobid3.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid3.webp)
+![blobid3.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/1500001380942_blobid3.webp)
 
 PROD (non-active Privilege Secure environment)
 
 **NOTE:** All services are showing a 1/1 replicas status, which is the expected display in a active
 Privilege Secure environment.
 
-![blobid2.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/maintenance/1500001380942_blobid2.webp)
+![blobid2.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/maintenance/1500001380942_blobid2.webp)
 
 ### Step #3: (Scale down the scanner, worker, and ldapsync services)
 

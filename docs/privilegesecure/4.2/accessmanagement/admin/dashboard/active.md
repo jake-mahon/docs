@@ -5,7 +5,7 @@ grant temporary privileges and gain access to the resources defined by a previou
 Policy. See the [Access Policy Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional
 information.
 
-![Active Dashboard page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/active.webp)
+![Active Dashboard page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/active.webp)
 
 The dashboard has the following features:
 

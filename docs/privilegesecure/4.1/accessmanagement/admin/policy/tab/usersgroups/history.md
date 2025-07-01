@@ -3,7 +3,7 @@
 The History tab shows information about the session history of the selected user, group, or
 application.
 
-![History Tab for Application User](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userhistorytab.webp)
+![History Tab for Application User](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/userhistorytab.webp)
 
 The History tab has the following features:
 

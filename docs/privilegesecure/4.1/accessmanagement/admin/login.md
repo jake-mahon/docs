@@ -36,13 +36,13 @@ Authentication Connector that is set as the default.
 DUO, Symantec VIP, etc) for all user accounts unless otherwise configured in the Initial Set Up
 Wizard. If required, first time users must register with an MFA to use with their login credentials.
 
-![Default Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
+![Default Login](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/defaultloginuser.webp)
 
 **Step 2 –** Either click the default authentication connector button, or click **Log In with a
 Different Account** to display all of the authentication connectors that are registered with
 Privilege Secure.
 
-![Alternate Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
+![Alternate Login](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/alternatelogin.webp)
 
 **Step 3 –** Login to the Privilege Secure Console with a configured authentication connector, or
 enter the user credentials.
@@ -51,11 +51,11 @@ enter the user credentials.
 
 **Step 5 –** Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/mfalogin.webp)
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/mfalogin.webp)
 
 **Step 6 –** Click MFA Login. The Privilege Secure Console opens on the Dashboard Interface.
 
-![Dashboard Interface](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
+![Dashboard Interface](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/activedashboarduser.webp)
 
 The Privilege Secure Console is ready to use. Note that the option to view the recovery codes is no
 longer available after the initial login. From here, create Sessions and Access Policies, manage

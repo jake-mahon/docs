@@ -2,7 +2,7 @@
 
 The Scheduled sessions dashboard shows all scheduled sessions.
 
-![Scheduled Dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/dashboard/reviwerscheduleddashboard.webp)
+![Scheduled Dashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/revieweruser/dashboard/reviwerscheduleddashboard.webp)
 
 The Scheduled Sessions table has the following features:
 

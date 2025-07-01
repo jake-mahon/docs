@@ -74,7 +74,7 @@ Follow the steps to configure the add-on.
 **Step 1 –** From the Explore Splunk Enterprise or from the drop-down list on the top Splunk panel,
 open Netwrix Auditor add-on for Splunk and navigate to the Configuration page:
 
-![configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configuration.webp)
+![configuration](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/configuration.webp)
 
 **Step 2 –** Configure the account:
 

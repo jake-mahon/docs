@@ -3,7 +3,7 @@
 The Properties Tab enables Privilege Secure administrators to provide additional metadata for the
 application according to the use case.
 
-![Properties Tab for Application User](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/applicationpropertiestab.webp)
+![Properties Tab for Application User](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/applicationpropertiestab.webp)
 
 The Properties tab has the following fields:
 

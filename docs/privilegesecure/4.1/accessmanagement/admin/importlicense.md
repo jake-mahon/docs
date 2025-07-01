@@ -3,7 +3,7 @@
 Netwrix Privilege Secure comes with a temporary 30-day trial license. a banner at the top indicates
 the expiration date of a license about to expire.
 
-![Dashboard interface showing an expiration banner and pointint to the User Options menu with the About page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/expirationbanner.webp)
+![Dashboard interface showing an expiration banner and pointint to the User Options menu with the About page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/expirationbanner.webp)
 
 However, you can import your license file on the About page (User Options > About). An expired
 license does not necessarily prevent users from logging in. If a license is expired, and the login
@@ -26,13 +26,13 @@ Options menu.
 
 **Step 3 –** Select About. The About page opens.
 
-![About page showing trial license details](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/triallicensedetails.webp)
+![About page showing trial license details](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/triallicensedetails.webp)
 
 **Step 4 –** In the Upload License File section, click Import License.
 
 **Step 5 –** Navigate to the license file and click Open to import the license.
 
-![About page showing successful upload of a license](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/licenseimportsuccess.webp)
+![About page showing successful upload of a license](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/licenseimportsuccess.webp)
 
 A message indicates the license file uploaded successfully. The license information displays at the
 top of the page, and the expiration banner disappears from the top. See the

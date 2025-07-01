@@ -34,7 +34,7 @@ tab
 
 **Step 3 –** Click Add to open the Add Users and Groups window.
 
-![addusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
+![addusers](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/addusers.webp)
 
 The Add Users and Groups window has the following features:
 

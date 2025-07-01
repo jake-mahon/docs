@@ -11,7 +11,7 @@ Follow the steps to add the BYOV Connector.
 
 **Step 2 –** In the Integration Connectors list, click the Add Integration Connector icon.
 
-![Add Build your own vault Connector Integration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addbyov.webp)
+![Add Build your own vault Connector Integration](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/add/addbyov.webp)
 
 **Step 3 –** Enter the following information:
 

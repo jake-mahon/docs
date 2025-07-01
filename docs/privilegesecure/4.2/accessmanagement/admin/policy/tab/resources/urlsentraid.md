@@ -5,7 +5,7 @@ to the selected resource. URLs are correlated to launching activities in the bro
 given site is not listed here, the activity login may fail as it is not an authorized site for
 login.
 
-![URLs Tab for Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
+![URLs Tab for Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
 
 The URLs tab has the following features:
 

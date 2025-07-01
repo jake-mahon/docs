@@ -17,7 +17,7 @@ organizational units.
 
 The Object Rollback wizard opens.
 
-![Object Rollback wizard - Object Backup page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
+![Object Rollback wizard - Object Backup page](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 **Step 4 –** In the Backup Date section, select a backup to use for the rollback operation. Then
 select the checkbox(es) for the attributes you want to roll back. Click **Next**.
@@ -48,13 +48,13 @@ permissions that are necessary to perform backups, rollbacks and recovery, see t
 [Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/requirements/targetdomain.md#least-privilege-access-model)
 topic.
 
-![Object Rollback wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Object Rollback wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 8 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
 to finish the wizard.
 
-![Object Rollback Sucessful message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrollbackcompleted.webp)
+![Object Rollback Sucessful message](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/objectrollbackcompleted.webp)
 
 **Step 9 –** A completed message is displayed when the rollback is successful. Click **OK**.
 

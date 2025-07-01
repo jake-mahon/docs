@@ -10,7 +10,7 @@ collections can also be added to policies. Collections are helpful as they allow
 be assigned in a single action in the console. The information in the User and Group Collections
 table is also displayed on the **Users Dashboard**.
 
-![Users and Group Collections Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/userandgroupcollectionspage.webp)
+![Users and Group Collections Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/userandgroupcollectionspage.webp)
 
 The pane on the left side of the page displays a list of the configured collections. This pane has
 the following features:

@@ -18,7 +18,7 @@ Follow the steps to add a custom SIEM template to the Privilege Secure Console.
 
 **Step 2 –** Click the Plus icon.
 
-![Add SIEM Template](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemtemplate.webp)
+![Add SIEM Template](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/siemtemplate.webp)
 
 **Step 3 –** Enter the following information:
 

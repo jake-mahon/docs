@@ -8,7 +8,7 @@ format specified in the “Login Account Template” field of the activity. See 
 [Activities Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/activities.md)
 topic for additional information.
 
-![Users Tab for Website Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.webp)
+![Users Tab for Website Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.webp)
 
 The Users tab has the following features:
 

@@ -6,7 +6,7 @@ Follow the steps to edit the scheduled tasks.
 
 **Step 2 –** Click the Edit icon to open the Schedule Policy Editor window.
 
-![schedulepolicyeditor](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
+![schedulepolicyeditor](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
 
 **Step 3 –** From the Frequency radio buttons, set the frequency of how often the scheduled task is
 run:

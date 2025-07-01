@@ -6,6 +6,6 @@ Architectue Overview
 
 Below are architectural overview diagrams for Netwrix Privilege Secure for Discovery.
 
-![architectureoverview](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/requirements/architectureoverview.webp)
+![architectureoverview](/img/product_docs/privilegesecure/4.2/discovery/requirements/architectureoverview.webp)
 
-![singlenodearchitecture](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/requirements/singlenodearchitecture.webp)
+![singlenodearchitecture](/img/product_docs/privilegesecure/4.2/discovery/requirements/singlenodearchitecture.webp)

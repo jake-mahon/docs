@@ -11,7 +11,7 @@ phone.
 
 Follow the steps to enable the authenticator option for MFA.
 
-![Enable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.webp)
+![Enable MFA page](/img/product_docs/recoveryforactivedirectory/admin/enablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.
@@ -41,7 +41,7 @@ Authenticator app every time you sign into Recovery for Active Directory. See th
 
 Follow the steps to disable MFA for your Recovery for Active Directory account.
 
-![Disable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.webp)
+![Disable MFA page](/img/product_docs/recoveryforactivedirectory/admin/disablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.

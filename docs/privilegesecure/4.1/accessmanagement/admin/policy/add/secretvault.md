@@ -6,7 +6,7 @@ Follow the steps below to add a new secret vault to the console.
 
 **Step 2 –** Click the Plus icon and select New Secret Vault from the drop-down list.
 
-![Add secrete Vault Resource](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addsecretvault.webp)
+![Add secrete Vault Resource](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/add/addsecretvault.webp)
 
 **Step 3 –** Enter the following information:
 

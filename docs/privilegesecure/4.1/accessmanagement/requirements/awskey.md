@@ -28,26 +28,26 @@ Follow the steps to create a policy in AWS.
 
 **Step 3 –** Select **Create Policy**.
 
-![Search for KMS Service](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/searchkms.webp)
+![Search for KMS Service](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/searchkms.webp)
 
 **Step 4 –** On the Specify permissions page, navigate to the Select a service box and search for
 the ‘KMS’ service.
 
-![Select KMS option](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectkms.webp)
+![Select KMS option](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectkms.webp)
 
 **Step 5 –** Select the **KMS** option.
 
-![Select Decrypt permission checkbox](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectdecryptioncheckbox.webp)
+![Select Decrypt permission checkbox](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectdecryptioncheckbox.webp)
 
 **Step 6 –** Under the Write dropdown menu, locate and select the **Decrypt permission** checkbox.
 
-![Select Any In This Account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectanyinthisaccount.webp)
+![Select Any In This Account](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectanyinthisaccount.webp)
 
 **Step 7 –** Under the Resources dropdown menu, select the **Any in this account** checkbox.
 
 **NOTE:** This can be limited to a specific key when the key has been created.
 
-![Review and Create the Policy](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/reviewandcreate.webp)
+![Review and Create the Policy](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/reviewandcreate.webp)
 
 **Step 8 –** Enter a name for the policy and a description (optional).
 
@@ -63,12 +63,12 @@ Follow the steps to create a user in AWS.
 
 **Step 2 –** Select **Create User**.
 
-![Create User Name](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/enterusername.webp)
+![Create User Name](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/enterusername.webp)
 
 **Step 3 –** On the Specify user details page, enter a user name. Optionally, select the **Provide
 user access to the AWS Management Console** checkbox.
 
-![Select Attach Policies Directly](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectattachpoliciesdirectly.webp)
+![Select Attach Policies Directly](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectattachpoliciesdirectly.webp)
 
 **Step 4 –** In the Permissions options section, select **Attach policies directly** in the
 Permission options.
@@ -76,28 +76,28 @@ Permission options.
 **Step 5 –** In the Permissions policies section, search for the NPS key policy you previously
 created and select the checkbox to the left of the policy. Click **Next**.
 
-![Review and Create the User Cofiguration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/reviewandcreate.webp)
+![Review and Create the User Cofiguration](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/reviewandcreate.webp)
 
 **Step 6 –** On the Review and create window, review the policy configuration and click **Create
 now**.
 
-![User Security Credentials Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/usersecuritycredentialstab.webp)
+![User Security Credentials Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/usersecuritycredentialstab.webp)
 
 **Step 7 –** Once the user has been created, select the user and navigate to the **Security
 credentials** tab.
 
 **Step 8 –** Select **Create access key**.
 
-![Select Application Running Outside AWS](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectapplicationrunningoutsideaws.webp)
+![Select Application Running Outside AWS](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectapplicationrunningoutsideaws.webp)
 
 **Step 9 –** Once the creation window opens, select the **Application running outside of AWS**
 option.
 
-![Set Tag and Create Key](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/settagcreatekey.webp)
+![Set Tag and Create Key](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/settagcreatekey.webp)
 
 **Step 10 –** Set an optional description tag if required, and then select **Create access key**.
 
-![Copy Access Key](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/copyaccesskey.webp)
+![Copy Access Key](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/copyaccesskey.webp)
 
 **Step 11 –** Once the Key has been created, copy or download the Access key and Secret access key.
 These keys will be used by Privilege Secure to access the AWS KMS key encryption and decryption
@@ -120,35 +120,35 @@ Follow the steps to create a managed key in AWS.
 
 **Step 2 –** Select **Customer Managed Keys**.
 
-![Select Create Key](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/selectcreatekey.webp)
+![Select Create Key](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/selectcreatekey.webp)
 
 **Step 3 –** Select **Create Key**.
 
-![Configure Key Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/configurekeywindow.webp)
+![Configure Key Window](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/configurekeywindow.webp)
 
 **Step 4 –** For Key Type, Select **Symmetric**. For Key Usage, select **Encrypt and decrypt**.
 Click **Next** to continue.
 
-![Add Alias Key Name](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/addaliaskeyname.webp)
+![Add Alias Key Name](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/addaliaskeyname.webp)
 
 **Step 5 –** Add an Alias for the key. The Description and Tags are optional. Click **Next** to
 continue.
 
-![Add Key Admin](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/addkeyadmin.webp)
+![Add Key Admin](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/addkeyadmin.webp)
 
 **Step 6 –** Add a Key Administrator if required.
 
 **NOTE:** The NPS Key user created earlier does not require administrative permissions at this
 level.
 
-![Add Key User](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/addkeyuser.webp)
+![Add Key User](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/addkeyuser.webp)
 
 **Step 7 –** Select the checkbox for the the Privilege Secure key user created earlier as a Key
 user. Click **Next** to continue.
 
 **Step 8 –** Review the key configuration and click **Create Key** to continue.
 
-![ANR Key Completed](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/arnkeycomplete.webp)
+![ANR Key Completed](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/arnkeycomplete.webp)
 
 **Step 9 –** Click the **Copy** button from the newly created key, and store the ARN from the
 details.
@@ -162,31 +162,31 @@ to create a least privilege policy.
 
 **Step 1 –** Navigate to the IAM Policies page and select the KMS policy created in earlier steps.
 
-![AIM Policy Permissions Tab](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/aimpolicypermissionstab.webp)
+![AIM Policy Permissions Tab](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/aimpolicypermissionstab.webp)
 
 **Step 2 –** Select the **Permissions** tab.
 
 **Step 3 –** Click the **Edit** button.
 
-![Policy Editor Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/policyeditorwindow.webp)
+![Policy Editor Window](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/policyeditorwindow.webp)
 
 **Step 4 –** Once the policy editor window opens, switch to the Visual display mode and expand the
 KMS item dropdown.
 
-![Expand Resources Item](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/expandresourcesitem.webp)
+![Expand Resources Item](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/expandresourcesitem.webp)
 
 **Step 5 –** Expand the Resources item and remove the selection from **Any in this account**
 checkbox.
 
 **Step 6 –** Click **Add Arn** to restrict access.
 
-![Add ARN KMS Policy Key](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/addarn.webp)
+![Add ARN KMS Policy Key](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/addarn.webp)
 
 **Step 7 –** Paste the copied ARN for the NPS key into the bottom box then
 
 **Step 8 –** Click **Add ARNs**.
 
-![Review and Save Policy Changes](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/reviewandsavepolicychanges.webp)
+![Review and Save Policy Changes](/img/product_docs/privilegesecure/4.1/accessmanagement/requirements/reviewandsavepolicychanges.webp)
 
 **Step 9 –** Review configuration and click **Save changes** to the NPS_KMS_Policy.
 

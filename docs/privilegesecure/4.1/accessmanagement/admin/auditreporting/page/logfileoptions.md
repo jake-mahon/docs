@@ -16,7 +16,7 @@ The right of the page shows details of the selected option.
 
 Configure the Log File Options for the selected service. The recommended log level is Informational.
 
-![logfileoptionspage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/page/logfileoptionspage.webp)
+![logfileoptionspage](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/logfileoptionspage.webp)
 
 The right of the page shows details of the selected service and has the following features:
 

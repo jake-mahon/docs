@@ -4,7 +4,7 @@ The Add Credentials window provides a list of Credentials that have been onboard
 onboarded in the
 [Credentials Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/credentials.md).
 
-![Add credentials window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addcredentials.webp)
+![Add credentials window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/accesspolicy/addcredentials.webp)
 
 The window has the following features:
 

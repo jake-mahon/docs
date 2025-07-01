@@ -10,7 +10,7 @@ From Privilege Secure version 2.17, LDAP configuration can be set to use SASL.
 
 SASL is configured in the domain configuration as below
 
-![image-14.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/9297788046103_image-14.webp)
+![image-14.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/9297788046103_image-14.webp)
 
 Notes
 

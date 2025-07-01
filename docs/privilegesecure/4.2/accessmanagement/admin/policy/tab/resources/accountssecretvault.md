@@ -2,7 +2,7 @@
 
 The Accounts tab shows information about the accounts associated to the selected resource.
 
-![Accounts Tab for Secret Vault Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/accountssecretvault.webp)
+![Accounts Tab for Secret Vault Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/accountssecretvault.webp)
 
 The Accounts tab has the following features:
 

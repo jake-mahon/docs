@@ -6,7 +6,7 @@ Policy Override, that credential's scheduled change policy and verification sche
 inherited from the Credential Policy Override, rather than being inherited from the credential's
 platform.
 
-![Credential Policy Overrides Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverridepage.webp)
+![Credential Policy Overrides Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/credentialpolicyoverridepage.webp)
 
 The pane on the left side of the page displays a list of the configured Credential Policy Overrides.
 This pane has the following features:

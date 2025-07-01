@@ -40,7 +40,7 @@ Optionally, you can change the installation directory location for the RSAT Exte
 
 The wizard returns to the Destination Folder page. Click **Next** to proceed.
 
-![RSAT Extension Installation Wizard - Netwrix Recovery Server Connection page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/serverconnection.webp)
+![RSAT Extension Installation Wizard - Netwrix Recovery Server Connection page](/img/product_docs/recoveryforactivedirectory/rsatextension/serverconnection.webp)
 
 **Step 6 –** In the Server name field, enter the name or IP address of the Recovery Application
 Server, so the RSAT Extension identifies it in the environment.

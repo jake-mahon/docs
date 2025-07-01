@@ -6,7 +6,7 @@ Follow the steps to add a service account to the console.
 
 **Step 2 –** In the Service Account list, click the Plus icon.
 
-![Add Service Account](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addserviceaccount.webp)
+![Add Service Account](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/add/addserviceaccount.webp)
 
 **Step 3 –** Enter the applicable information. See the
 [Service Accounts Page](/docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/serviceaccounts.md)

@@ -7,7 +7,7 @@ Click **Active Directory** in the left pane to open the [Active Directory Page](
 and expand a domain in the left pane and click Recycle Bin to get a list of deleted objects in the
 domain.
 
-![Recycle Bin](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recyclebin.webp)
+![Recycle Bin](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/recyclebin.webp)
 
 You can recover deleted objects.
 
@@ -47,7 +47,7 @@ Follow the steps to recover a deleted object.
 
 The Object Restore wizard opens.
 
-![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
+![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 **Step 4 –** In the Backup Data section, select a backup date to restore from. Then click **Next**.
 
@@ -62,7 +62,7 @@ The Object Restore wizard opens.
 
 **Step 6 –** Click **Next**.
 
-![Object Restore wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
+![Object Restore wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
 
 **Step 7 –** On the Recovery Options page, select the Container and Naming Conflict actions for the
 recovery process.
@@ -88,7 +88,7 @@ recovery process.
 
 **Step 8 –** Click **Next**.
 
-![Object Restore wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
+![Object Restore wizard - User Options page](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
 
 **Step 9 –** The User Options page is displayed when user objects are being restored. When a user
 object is included as a child object being restored, this page is also displayed. Select the check
@@ -120,13 +120,13 @@ permissions that are necessary to perform backups, rollbacks and recovery, see t
 [Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/requirements/targetdomain.md#least-privilege-access-model)
 topic.
 
-![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Object Restore wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 12 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
 to finish the wizard.
 
-![Object Restore Complete message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectrestorecompleted.webp)
+![Object Restore Complete message](/img/product_docs/recoveryforactivedirectory/admin/activedirectory/objectrestorecompleted.webp)
 
 **Step 13 –** A completed message is displayed when the restore is successful. Click **OK**.d
 

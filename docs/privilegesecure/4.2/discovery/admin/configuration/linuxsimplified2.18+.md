@@ -20,12 +20,12 @@ Privilege Secure is to manage sudo privileges on.
 **Step 2 –** Add the domain Linux service account to the Domain Configuration on the Configuration >
 Server page for the appropriate domain:
 
-![Screen_Shot_2023-02-14_at_9.46.54_AM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/12415682024599_screen_shot_2023-02-14_at_9.46.54_am_316x280.webp)
+![Screen_Shot_2023-02-14_at_9.46.54_AM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/12415682024599_screen_shot_2023-02-14_at_9.46.54_am_316x280.webp)
 
 The domain Linux service account configuration is located at the bottom right of the domain
 configuration:
 
-![Screen_Shot_2023-02-14_at_9.47.04_AM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/12415682024599_screen_shot_2023-02-14_at_9.47.04_am_383x384.webp)
+![Screen_Shot_2023-02-14_at_9.47.04_AM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/12415682024599_screen_shot_2023-02-14_at_9.47.04_am_383x384.webp)
 
 **Step 3 –** Enter the domain Linux service account information and save.
 

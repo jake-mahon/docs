@@ -2,7 +2,7 @@
 
 The Sessions tab shows information about the sessions of the selected resource.
 
-![Sessions Tab for Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailssessionstab.webp)
+![Sessions Tab for Website Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/websitedetailssessionstab.webp)
 
 The Sessions tab has the following features:
 

@@ -34,7 +34,7 @@ conditions box and click Options.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
 
 **Step 4 –** The default installation location for Install Folder is:
 

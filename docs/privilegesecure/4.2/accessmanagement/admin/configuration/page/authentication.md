@@ -9,7 +9,7 @@ accessing the application. See the
 [Authentication Connector Tab](/docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md) topic for
 additional information.
 
-![Authentication Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.webp)
+![Authentication Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationpage.webp)
 
 The pane on the left side of the page displays a list of the configured authentication connectors.
 This pane has the following features:
@@ -105,15 +105,15 @@ Once a third-party authentication connector is configured, it can be set as the 
 authentication, or it can be set as the exclusive form of authentication. Hover over the
 authentication connector to display the configuration options.
 
-![Authentication Connector Options](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationoptions.webp)
+![Authentication Connector Options](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationoptions.webp)
 
 There are two options that can be configured for the authentication connector, Set as Default and
 Set as Exclusive.
 
 | Description                                                                                                                                           | Option                                                                                                                                                                                               | Login Screen                                                                                                                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Set as Default — Sets the authentication connector as the default login option and includes the option to login with Active Directory credentials     | ![Set authentication connector as Default](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefault.webp)     | ![Set authentication connector as Default Login Screen](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetdefaultlogin.webp)     |
-| Set as Exclusive — Sets the authentication connector as the only option to login and the option to login with Active Directory credentials is removed | ![Set authentication connector as Exclusive](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusive.webp) | ![Set authentication connector as Exclusive Login Screen](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/authenticationsetexclusivelogin.webp) |
+| Set as Default — Sets the authentication connector as the default login option and includes the option to login with Active Directory credentials     | ![Set authentication connector as Default](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationsetdefault.webp)     | ![Set authentication connector as Default Login Screen](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationsetdefaultlogin.webp)     |
+| Set as Exclusive — Sets the authentication connector as the only option to login and the option to login with Active Directory credentials is removed | ![Set authentication connector as Exclusive](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationsetexclusive.webp) | ![Set authentication connector as Exclusive Login Screen](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/authenticationsetexclusivelogin.webp) |
 
 Once the authentication connector is set to Default or Exclusive, the login will be updated to
 reflect the configuration selected.

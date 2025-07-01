@@ -7,7 +7,7 @@ activities on the resource. The format in the Username field must be identical t
 format specified in the “Login Account Template” field of the activity. See the
 [Activities Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
-![Users Tab for Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.webp)
+![Users Tab for Website Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/tab/resources/websitedetailsuserstab.webp)
 
 The Users tab has the following features:
 

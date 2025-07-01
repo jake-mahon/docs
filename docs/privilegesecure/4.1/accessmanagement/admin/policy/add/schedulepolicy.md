@@ -6,7 +6,7 @@ Follow the steps to add a schedule policy to the console.
 
 **Step 2 –** In the Schedule Polices list, click the **Plus** icon.
 
-![Schedule Policy Editor Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
+![Schedule Policy Editor Window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
 
 **Step 3 –** Enter the following information:
 

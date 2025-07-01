@@ -19,7 +19,7 @@ information in Active Directory on a continuous basis.  This allows Domain Admi
 continue to perform their jobs without being impacted in any way by Privilege Secure - Privilege
 Secure adapts to their existing processes.
 
-![Screen_Shot_2019-04-19_at_1.59.55_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360021800554_screen_shot_2019-04-19_at_1.59.55_pm_419x139.webp)
+![Screen_Shot_2019-04-19_at_1.59.55_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/360021800554_screen_shot_2019-04-19_at_1.59.55_pm_419x139.webp)
 
 ## Scan Mode Settings
 
@@ -30,7 +30,7 @@ Windows devices prior to `Windows 10 Creator Edition` and `Windows Server 2016`.
 information on scanning endpoints which have a newer Windows Operating System than these, see GPO
 Guide v1.
 
-![Screen_Shot_2019-04-19_at_1.59.26_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360021800554_screen_shot_2019-04-19_at_1.59.26_pm_394x209.webp)
+![Screen_Shot_2019-04-19_at_1.59.26_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/360021800554_screen_shot_2019-04-19_at_1.59.26_pm_394x209.webp)
 
 **NOTE:** It is recommended that the "Default Policy" for Scan Mode be set to "**Enabled**," and
 that a different account be used for "Scan Mode" than "Protect Mode."
@@ -52,7 +52,7 @@ Mode can be enforced.  This approach can be useful for performing troubleshooti
 will be required for deployment domain-wide.  However, most full-scale deployments leverage a domain
 user account vs. a local account.
 
-![Screen_Shot_2019-04-19_at_1.59.35_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/360021800554_screen_shot_2019-04-19_at_1.59.35_pm_388x208.webp)
+![Screen_Shot_2019-04-19_at_1.59.35_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/360021800554_screen_shot_2019-04-19_at_1.59.35_pm_388x208.webp)
 
 **NOTE:** It is highly recommended that the "Default Policy" for Protect Mode be set to
 **Disabled**, and that a different account be used for "Protect Mode" than "Scan Mode."

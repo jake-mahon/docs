@@ -48,7 +48,7 @@ following format:
 
 If you have enabled multi-factor authentication for your account, the following is displayed:
 
-![MFA at Login](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/loginmfa.webp)
+![MFA at Login](/img/product_docs/recoveryforactivedirectory/install/loginmfa.webp)
 
 **Step 4 –** Launch the Authenticator app on your phone to get the verification code generated for
 the Recovery application account.

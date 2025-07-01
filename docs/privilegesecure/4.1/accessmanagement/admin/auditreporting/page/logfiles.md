@@ -2,7 +2,7 @@
 
 The Logs page shows the log files. From here, search and investigate the records.
 
-![Audit and Reporting Log Files Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/page/logfilespage.webp)
+![Audit and Reporting Log Files Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/auditreporting/page/logfilespage.webp)
 
 On the left of the page, the Log list shows the log files:
 

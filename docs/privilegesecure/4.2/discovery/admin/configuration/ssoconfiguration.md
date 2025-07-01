@@ -12,7 +12,7 @@ Inside of the Privilege Secure Configure > Server > SAML Configuration pane ther
 default  values, and general explanations to facilitate understanding which values apply to the
 specific IDP configuration:
 
-![Screen_Shot_2020-10-05_at_3.29.16_PM.webp](/img/versioned_docs/privilegesecurefordiscovery_2.21/privilegesecure/discovery/admin/configuration/360057088233_screen_shot_2020-10-05_at_3.29.16_pm.webp)
+![Screen_Shot_2020-10-05_at_3.29.16_PM.webp](/img/product_docs/privilegesecure/4.2/discovery/admin/configuration/360057088233_screen_shot_2020-10-05_at_3.29.16_pm.webp)
 
 - Entrypoint – Entrypoint designates the URL to which Privilege Secure will redirect all identity
   authentication activity.  This nomenclature differs with each IdP, but is ultimately is the

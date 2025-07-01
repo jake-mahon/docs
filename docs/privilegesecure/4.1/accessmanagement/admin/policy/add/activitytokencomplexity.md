@@ -8,7 +8,7 @@ page.
 
 **Step 2 –** In the Activity Token Complexity list, click the **Plus** icon.
 
-![Add Activity Token](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/add.webp)
+![Add Activity Token](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/add/add.webp)
 
 **Step 3 –** Enter the desired information to determine the complexity of the connection profile.
 

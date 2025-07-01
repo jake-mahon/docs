@@ -2,7 +2,7 @@
 
 The Sessions tab shows information about the sessions of the selected user, group, or application.
 
-![Sessions Tab for Application Users](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/usersessionstab.webp)
+![Sessions Tab for Application Users](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/tab/usersgroups/usersessionstab.webp)
 
 The Sessions tab has the following features:
 

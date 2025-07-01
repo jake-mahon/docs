@@ -8,7 +8,7 @@ Follow the steps to change the service account for a host resource.
 
 **Step 3 –** Click Change Service Account to open the Change Service Account window.
 
-![Change Resource Service Account Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.webp)
+![Change Resource Service Account Window](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/window/resources/changeserviceaccount.webp)
 
 **Step 4 –** In the Service Account drop-down menu, select a previously added service account with
 credentials for the resource.

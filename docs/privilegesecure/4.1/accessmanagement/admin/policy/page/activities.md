@@ -14,7 +14,7 @@ with the resource when the session completes, instead of waiting for the schedul
 [Add Action Window](/docs/privilegesecure/4.1/accessmanagement/admin/policy/window/activities/addaction.md)
 topic for additional information.
 
-![activitiespage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activitiespage.webp)
+![activitiespage](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/activitiespage.webp)
 
 The pane on the left side of the page displays a list of the configured activity. This pane has the
 following features:

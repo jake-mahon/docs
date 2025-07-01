@@ -3,7 +3,7 @@
 The Database Details page displays information for the selected database resource. This page is
 opened from any linked resource within the various interfaces.
 
-![Database Details page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/databasedetailspage.webp)
+![Database Details page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/databasedetailspage.webp)
 
 The Database Details page shows the following information:
 

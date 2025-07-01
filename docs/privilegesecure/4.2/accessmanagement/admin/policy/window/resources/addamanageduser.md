@@ -18,7 +18,7 @@ Follow the steps to add or edit a managed user account for the resource.
 - To add a new managed user, click **Add**.
 - To modify an existing managed user, select the User from the list and click **Edit**.
 
-![addmanageduser](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/addmanageduser.webp)
+![addmanageduser](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addmanageduser.webp)
 
 **Step 4 –** Specify the username/password combination that will be used to log users onto the
 website. Enter the following information:
