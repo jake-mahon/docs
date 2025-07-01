@@ -16,4 +16,4 @@ number, region, and availability zone. You will receive a reply from an Endpoint
 representative, notifying you when the Endpoint Protector Amazon Machine Image has been shared with
 your account.
 
-![Obtaining Amazon Machine Image (AMI)](/img/product_docs/endpointprotector/endpointprotector/configuration/amazonwebservices/obtainingami.webp)
+![Obtaining Amazon Machine Image (AMI)](/img/product_docs/endpointprotector/5.9.4.2/configuration/amazonwebservices/obtainingami.webp)

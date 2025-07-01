@@ -13,7 +13,7 @@ Follow the steps below to get started with your implementation.
 
 **Step 3 –** From the panel on the right, select the **Import Virtual Machine** option.
 
-![hypervmanager](/img/product_docs/endpointprotector/endpointprotector/install/hypervmanager.webp)
+![hypervmanager](/img/product_docs/endpointprotector/5.9.4.2/install/hypervmanager.webp)
 
 **Step 4 –** Click **Next**.
 
@@ -23,21 +23,21 @@ Follow the steps below to get started with your implementation.
 - Virtual Hard Disks
 - Virtual Machines
 
-![Virtual Appliance folder](/img/product_docs/endpointprotector/endpointprotector/install/appliancefolder.webp)
+![Virtual Appliance folder](/img/product_docs/endpointprotector/5.9.4.2/install/appliancefolder.webp)
 
-![Specifying the Folder containg the VM import](/img/product_docs/endpointprotector/endpointprotector/install/locatefolder.webp)
+![Specifying the Folder containg the VM import](/img/product_docs/endpointprotector/5.9.4.2/install/locatefolder.webp)
 
 **Step 6 –** Click **Next**.
 
 **Step 7 –** On the Select Virtual Machine section, select the Endpoint Protector Virtual Appliance,
 then click **Next**.
 
-![Selecting the Endpoint Protector Virtual Appliance](/img/product_docs/endpointprotector/endpointprotector/install/selectvirtualmachine.webp)
+![Selecting the Endpoint Protector Virtual Appliance](/img/product_docs/endpointprotector/5.9.4.2/install/selectvirtualmachine.webp)
 
 **Step 8 –** On the Choose Import Type section, select the **Copy the virtual machine (create a new
 unique ID) option**. Click **Next**.
 
-![Choosing Import Type](/img/product_docs/endpointprotector/endpointprotector/install/importtype.webp)
+![Choosing Import Type](/img/product_docs/endpointprotector/5.9.4.2/install/importtype.webp)
 
 **Step 9 –** In the 'Choose Folders for Virtual Machine Files' section, select **Store the virtual
 machine in a different location**, then specify the desired paths in the three input fields. Click
@@ -48,25 +48,25 @@ machine in a different location**, then specify the desired paths in the three i
 **Step 10 –** On the Choose Folders to Store Virtual Hard Disks section, set the desired path for
 storing imported virtual hard disk. Click **Next**.
 
-![ Setting the desired path for storing the  imported virtual hard disk](/img/product_docs/endpointprotector/endpointprotector/install/storagefolders.webp)
+![ Setting the desired path for storing the  imported virtual hard disk](/img/product_docs/endpointprotector/5.9.4.2/install/storagefolders.webp)
 
 **CAUTION:** If you get to the Get Memory step, it means you have insuﬃcient memory on the Hyper-V
 Host. Please abort the process here and either increase memory on the Host or choose another Host to
 import the Endpoint Protector Virtual Appliance on.
 
-![Insuﬃcient memory on the Hyper-V Host](/img/product_docs/endpointprotector/endpointprotector/install/configurememory.webp)
+![Insuﬃcient memory on the Hyper-V Host](/img/product_docs/endpointprotector/5.9.4.2/install/configurememory.webp)
 
 **Step 11 –** On the ﬁrst Connect Network step, please mention the virtual switch you want to use
 for the ﬁrst virtual network interface, changing it from ‘Not Connected’ to desired one. Click
 **Next**.
 
-![Connect network settings](/img/product_docs/endpointprotector/endpointprotector/install/connectnetwork.webp)
+![Connect network settings](/img/product_docs/endpointprotector/5.9.4.2/install/connectnetwork.webp)
 
 **Step 12 –** On the second Connect Network step, please mention the virtual switch you want to use
 for the second virtual network interface. You may use the same one you have used at the previous
 step. Click **Next**.
 
-![Connect network settings](/img/product_docs/endpointprotector/endpointprotector/install/networkconnect.webp)
+![Connect network settings](/img/product_docs/endpointprotector/5.9.4.2/install/networkconnect.webp)
 
 **Step 13 –** On the Completing Import Wizard step, check that the settings are the ones wanted.
 Click **Finish**.

@@ -35,7 +35,7 @@ Use the following commands:
 
 **NOTE:** Contact Customer Support to provide the tool as well as assistance.
 
-![Download and install the Endpoint Protector Client corresponding to your operating system](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/clientsoftware.webp)
+![Download and install the Endpoint Protector Client corresponding to your operating system](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/clientsoftware.webp)
 
 **NOTE:** Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
 This version will be saved in the Endpoint Protector Server database, although the web console will
@@ -138,7 +138,7 @@ eppsslsplit.log will be deleted from private/var/log.
 **CAUTION:** The feature is not compatible for Endpoint Protector instances that are running on
 32-bit versions of Windows.
 
-![Client Software Upgrade](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/clientsoftwareupgrade.webp)
+![Client Software Upgrade](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/clientsoftwareupgrade.webp)
 
 **NOTE:** Endpoint Protector Client versions are displayed in the format X.X.X.XXXX on endpoints.
 This version will be saved in the Endpoint Protector Server database, although the web console will
@@ -153,7 +153,7 @@ steps:
 
 **Step 1 –** Select the OS version from the drop-down list and then click **Next**.
 
-![Create New Upgrade Job](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/createnewupgradejob.webp)
+![Create New Upgrade Job](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/createnewupgradejob.webp)
 
 **Step 2 –** Select the groups and/or computers to perform or exclude from the upgrade and then
 click **Next**. You will view a summary of your selection above the table with endpoints.
@@ -163,7 +163,7 @@ you selected a group that has an endpoint using a different operating system, it
 upgraded. If you selected a mixed group, with both computers and users, only the computers will be
 upgraded.
 
-![Select the groups and/or computers to perform or exclude from the upgrade](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/selectendpointsupgrade.webp)
+![Select the groups and/or computers to perform or exclude from the upgrade](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/selectendpointsupgrade.webp)
 
 **Step 3 –** Edit the default job title, add a description and conﬁrm the upgrade job details by
 clicking **Start Upgrade job**. You will view the upgrade as an entry on the Upgrade jobs section.
@@ -172,7 +172,7 @@ clicking **Start Upgrade job**. You will view the upgrade as an entry on the Upg
 Running every 5 minutes, the cron sets the upgrade process status to Pending and every 15 minutes
 checks and updates process status to Completed or Completed with failures.
 
-![Edit the default job title, add a description and conﬁrm the upgrade job details](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/upgradejobdetails.webp)
+![Edit the default job title, add a description and conﬁrm the upgrade job details](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/upgradejobdetails.webp)
 
 ### Manage Upgrade Jobs
 
@@ -185,7 +185,7 @@ column.
 **NOTE:** If you deleted or archived a Client Upgrade job, then the endpoints become available for
 selection in other jobs.
 
-![Manage Upgrade Jobs](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/manageupgradejobs.webp)
+![Manage Upgrade Jobs](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/manageupgradejobs.webp)
 
 ## Client Uninstall
 
@@ -199,7 +199,7 @@ performed.
 
 The uninstall command can be canceled if it was not already executed.
 
-![Client Uninstall](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/clientuninstall.webp)
+![Client Uninstall](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/clientuninstall.webp)
 
 **NOTE:** If the server and Endpoint Protector client can't communicate due to missing server
 certiﬁcation validation (when the certiﬁcation validation setting is enabled), uninstall commands

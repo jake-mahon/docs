@@ -19,35 +19,35 @@ Follow the steps to set up your virtual machine.
 
 **Step 2 –** Start vSphere.
 
-![Using the VMware vShpere](/img/product_docs/endpointprotector/endpointprotector/install/startvsphere.webp)
+![Using the VMware vShpere](/img/product_docs/endpointprotector/5.9.4.2/install/startvsphere.webp)
 
 **Step 3 –** Go to File and select **Deploy OVF Template**.
 
-![Selecting Deploy OVF Template.](/img/product_docs/endpointprotector/endpointprotector/install/ovftemplate.webp)
+![Selecting Deploy OVF Template.](/img/product_docs/endpointprotector/5.9.4.2/install/ovftemplate.webp)
 
 **Step 4 –** Click **Browse**.
 
-![Browsing the location of the tenplate](/img/product_docs/endpointprotector/endpointprotector/install/sourcelocation.webp)
+![Browsing the location of the tenplate](/img/product_docs/endpointprotector/5.9.4.2/install/sourcelocation.webp)
 
 **Step 5 –** Select the OVF ﬁle from the extracted zip ﬁle.
 
-![Selecting the OVF ﬁle from the extracted zip ﬁle](/img/product_docs/endpointprotector/endpointprotector/install/selectovffile.webp)
+![Selecting the OVF ﬁle from the extracted zip ﬁle](/img/product_docs/endpointprotector/5.9.4.2/install/selectovffile.webp)
 
 **Step 6 –** Click **Next**.
 
-![Selecting the Source Location](/img/product_docs/endpointprotector/endpointprotector/install/ofvsourceselect.webp)
+![Selecting the Source Location](/img/product_docs/endpointprotector/5.9.4.2/install/ofvsourceselect.webp)
 
 **Step 7 –** Check the OVF Template Details and then click **Next**.
 
-![Checking the OVF Template Details ](/img/product_docs/endpointprotector/endpointprotector/install/ovftemplatedetails.webp)
+![Checking the OVF Template Details ](/img/product_docs/endpointprotector/5.9.4.2/install/ovftemplatedetails.webp)
 
 **Step 8 –** Specify the name of the OVF template and click **Next**.
 
-![Specifying the name of the OVF template ](/img/product_docs/endpointprotector/endpointprotector/install/templatenaming.webp)
+![Specifying the name of the OVF template ](/img/product_docs/endpointprotector/5.9.4.2/install/templatenaming.webp)
 
 **Step 9 –** Select the Thin provision Disk Format option and click **Next**.
 
-![Selecting the Thin provision Disk Format](/img/product_docs/endpointprotector/endpointprotector/install/diskformat.webp)
+![Selecting the Thin provision Disk Format](/img/product_docs/endpointprotector/5.9.4.2/install/diskformat.webp)
 
 **Step 10 –** Click **Finish** to complete the installation.
 
@@ -65,20 +65,20 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open VMWare Workstation.
 
-![Opening VMWare Workstation](/img/product_docs/endpointprotector/endpointprotector/install/vmwareworkstation.webp)
+![Opening VMWare Workstation](/img/product_docs/endpointprotector/5.9.4.2/install/vmwareworkstation.webp)
 
 **Step 3 –** Select **Open Existing VM** or **Team**.
 
-![ Opening Existing VM or Team](/img/product_docs/endpointprotector/endpointprotector/install/vmorteam.webp)
+![ Opening Existing VM or Team](/img/product_docs/endpointprotector/5.9.4.2/install/vmorteam.webp)
 
 **Step 4 –** After the Virtual Appliance is in your inventory power on the Virtual Appliance.
 
-![ Powering on the Virtual Appliance](/img/product_docs/endpointprotector/endpointprotector/install/poweron.webp)
+![ Powering on the Virtual Appliance](/img/product_docs/endpointprotector/5.9.4.2/install/poweron.webp)
 
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).
 
-![Select I moved it](/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
+![Select I moved it](/img/product_docs/endpointprotector/5.9.4.2/install/vmwaremoved.webp)
 
 The Virtual Machine is started and ready for use.
 
@@ -96,16 +96,16 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open your VMware Server web interface and log in.
 
-![Opening VMware Server web interface](/img/product_docs/endpointprotector/endpointprotector/install/vmwareserver.webp)
+![Opening VMware Server web interface](/img/product_docs/endpointprotector/5.9.4.2/install/vmwareserver.webp)
 
 **Step 3 –** Select **Add Virtual Machine to inventory**.
 
-![Adding Virtual Machine to inventory](/img/product_docs/endpointprotector/endpointprotector/install/vmwaretoinventory.webp)
+![Adding Virtual Machine to inventory](/img/product_docs/endpointprotector/5.9.4.2/install/vmwaretoinventory.webp)
 
 **Step 4 –** Browse in the inventory for Endpoint Protector Virtual Appliance and select the **VMX
 ﬁle** and click **OK**.
 
-![Adding Existing Virtual Machine](/img/product_docs/endpointprotector/endpointprotector/install/addexistingvm.webp)
+![Adding Existing Virtual Machine](/img/product_docs/endpointprotector/5.9.4.2/install/addexistingvm.webp)
 
 At this point, the Virtual Machine is ready to be started.
 
@@ -119,21 +119,21 @@ to the path where your virtual machines are stored.
 
 **Step 2 –** Open VMware Player.
 
-![Opening VMware Player](/img/product_docs/endpointprotector/endpointprotector/install/vmwareplayer.webp)
+![Opening VMware Player](/img/product_docs/endpointprotector/5.9.4.2/install/vmwareplayer.webp)
 
 **Step 3 –** Select **Open a Virtual Machine** and select the VMX ﬁle from the location where you
 extracted it and then click **Open**.
 
-![Selecting the VMX ﬁle from the location where it was extracted](/img/product_docs/endpointprotector/endpointprotector/install/vmwareopenvm.webp)
+![Selecting the VMX ﬁle from the location where it was extracted](/img/product_docs/endpointprotector/5.9.4.2/install/vmwareopenvm.webp)
 
 **Step 4 –** After the Virtual Machine is in your inventory click **Play Virtual Machine**.
 
-![Initiating VM Play on VMware Player](/img/product_docs/endpointprotector/endpointprotector/install/vmwareplaymachine.webp)
+![Initiating VM Play on VMware Player](/img/product_docs/endpointprotector/5.9.4.2/install/vmwareplaymachine.webp)
 
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).
 
-![Select I moved it](/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
+![Select I moved it](/img/product_docs/endpointprotector/5.9.4.2/install/vmwaremoved.webp)
 
 At this point, the Virtual Machine is ready to be started.
 

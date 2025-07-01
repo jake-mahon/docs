@@ -24,7 +24,7 @@ The Client-side of Endpoint Protector has two different components:
 - Enforced Encryption Client – enforcing 256 AES encryption on USB storage devices as specified from
   the Server; it is a stand-alone application compatible with Windows and Mac computers.
 
-![Main Components](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/requirements/maincomponents.webp)
+![Main Components](/img/product_docs/endpointprotector/5.9.4/requirements/maincomponents.webp)
 
 ## Architecture Overview
 
@@ -32,7 +32,7 @@ The diagram below illustrates the network architecture for the Endpoint Protecto
 enables comprehensive Data Loss Prevention (DLP) across both local and remote users, securing
 sensitive information and ensuring compliance with security policies.
 
-![Architecture Overview](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/requirements/networkarchitecture.webp)
+![Architecture Overview](/img/product_docs/endpointprotector/5.9.4/requirements/networkarchitecture.webp)
 
 ### Key Components and Data Flow
 

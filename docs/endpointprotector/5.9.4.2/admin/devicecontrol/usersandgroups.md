@@ -6,7 +6,7 @@ From this section, you can manage all the users in the system. Users are deﬁne
 are logged on a computer on which the Endpoint Protector Client software is installed. Any new user
 will be automatically added to the database, thus making them manageable.
 
-![Managing all the users in the system](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofusers.webp)
+![Managing all the users in the system](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/listofusers.webp)
 
 A user is identiﬁed by information like Name (Username, First Name, Last Name), Department, Contact
 Details (Phone, E-mail), and others and is also automatically assigned to a computer.
@@ -56,13 +56,13 @@ system will use the next level of rights.
 
 All Existing Devices that were added on that level will be deleted when the restore is used.
 
-![ Allows Administrator to specify what Device Types and also what Speciﬁc Devices can be accessible](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/userrights.webp)
+![ Allows Administrator to specify what Device Types and also what Speciﬁc Devices can be accessible](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/userrights.webp)
 
 ### User Settings
 
 From this section, you can edit the settings for each user.
 
-![You can edit the settings for each user.](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.webp)
+![You can edit the settings for each user.](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/groupsettings.webp)
 
 Deﬁning custom settings for all users is not necessary since a user is perfectly capable of
 functioning correctly without any manual settings deﬁned. It will do this by either inheriting the
@@ -74,14 +74,14 @@ and exist in the system with default values from installation.
 From this section, you can view the user history by selecting the View User History action. This
 will display the Logs Report page ﬁltered for the respective user.
 
-![Displays the Logs Report page ﬁltered for the respective user](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.webp)
+![Displays the Logs Report page ﬁltered for the respective user](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
 
 ## Groups
 
 From this section, you can manage all the groups in the system. Grouping computers and users will
 help the Administrator manage rights or settings for these entities in a more eﬃcient way.
 
-![Manages the list of groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.webp)
+![Manages the list of groups](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/listofgroups.webp)
 
 A group is identiﬁed by information like Name and Description, as well as based on the entities
 (Computers and Users).
@@ -115,7 +115,7 @@ section, scroll to the bottom of the page and click **Save**.
 **NOTE:** By enabling the Smart Group feature, Computers and Users will not be automatically
 assigned to the Default Group unless you create a Smart Group.
 
-![ Membership can be deﬁned based on element name patterns](/img/product_docs/endpointprotector/endpointprotector/admin/systemconfiguration/smartgroups.webp)
+![ Membership can be deﬁned based on element name patterns](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/smartgroups.webp)
 
 **Step 2 –** Create a Smart Groups from Device Control, Groups section. Click **Create**, provide
 the following and then click **Save**:
@@ -132,7 +132,7 @@ XYZ\*, \*XYZ\*,\*XYZ.
 
 **NOTE:** Once created, you can manage the group's priority by drag and drop actions.
 
-![Adding users to smart groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinformation.webp)
+![Adding users to smart groups](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/groupinformation.webp)
 
 **Step 3 –** Synchronize entities to the Smart Groups.
 
@@ -148,12 +148,12 @@ assigned to that Group.
 If the new Computer does not match the rule, it will be added to the Default Group, if Default
 Groups are enabled from System Conﬁguration, System Settings, and the Smart Groups section.
 
-![Editing Group Information](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupinfoedit.webp)
+![Editing Group Information](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/groupinfoedit.webp)
 
 **Step 4 –** Delete a Smart Group from the Actions column or select the group from the list and then
 click **Delete**.
 
-![Deleting A smart group](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/smartgroupdelete.webp)
+![Deleting A smart group](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/smartgroupdelete.webp)
 
 Smart Groups have the following limitations:
 
@@ -185,18 +185,18 @@ follow these steps:
 **Step 1 –** Enable Default Groups for Computers and Users from System Conﬁguration > System
 Settings > on the Smart Groups section, scroll to the bottom of the page and click **Save**.
 
-![Enabling Default Groups for Computers and Users from System Conﬁguration](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/enablesmartgroups.webp)
+![Enabling Default Groups for Computers and Users from System Conﬁguration](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/enablesmartgroups.webp)
 
 **CAUTION:** You are not required to manually create Default Groups – by enabling them, the Default
 Groups for Users and Computers will be automatically created.
 
-![Manage all the groups in the system](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/listofgroups.webp)
+![Manage all the groups in the system](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/listofgroups.webp)
 
 **Step 2 –** Synchronize entities to the Default Groups. To assign Computers and Users to the
 Default Groups, navigate to the Device Control section and locate the Groups section. In the List of
 Groups section, find the Actions column, select **Edit**, and then click **Sync**.
 
-![Managing information about groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/syncgroupinformation.webp)
+![Managing information about groups](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/syncgroupinformation.webp)
 
 Default Groups have the following limitations:
 
@@ -210,7 +210,7 @@ Default Groups have the following limitations:
 File Location, Network Share Allowlists, and File Location Denylist can be set for groups of
 Computers.
 
-![Allowlists on Computer Groups](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/allowlist.webp)
+![Allowlists on Computer Groups](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/allowlist.webp)
 
 In the Groups select section, all groups will be displayed.
 
@@ -248,13 +248,13 @@ rights.
 **NOTE:** All Existing Devices that were added on that level will be deleted when the restore is
 used.
 
-![Specify what Device Types and also what Speciﬁc Devices can be accessible.](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/devicetypes.webp)
+![Specify what Device Types and also what Speciﬁc Devices can be accessible.](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/devicetypes.webp)
 
 ### Group Settings
 
 From this section, you can edit the settings for each group.
 
-![groupsettings](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/groupsettings.webp)
+![groupsettings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/groupsettings.webp)
 
 Computers and users can be grouped to make editing the settings easier and more logical. Deﬁning
 custom settings for all groups is not necessary since a computer is perfectly capable of functioning

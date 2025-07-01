@@ -15,7 +15,7 @@ From this section, you can view, sort, and export the main logs in the system. T
 event types such as User Login, User Logout, AD Import, AD Synchronization, Uninstall Attempt, etc.,
 included in this section. Additionally, the main Device Control logs can be viewed in this section.
 
-![Logs Report Settings](/img/product_docs/endpointprotector/endpointprotector/admin/devicecontrol/logsreport.webp)
+![Logs Report Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
 
 **NOTE:** Use the Filters option to view and sort different log types and then export the result
 list.
@@ -32,7 +32,7 @@ coming from changing the ﬁle content is ensured.
 You can export the search results (as an Excel, PDF, or CSV) or Create and Export containing the
 entire log report as a .CSV ﬁle.
 
-![File Tracing Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/filetracingreports.webp)
+![File Tracing Reports](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/filetracingreports.webp)
 
 ### File Tracing Events by Direction
 
@@ -78,7 +78,7 @@ Legend:
 From this section, you can view Content Aware Logs in the system and detect data incidents
 corresponding to the Content Aware Policies applied.
 
-![Content Aware Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capreports.webp)
+![Content Aware Reports](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/capreports.webp)
 
 When using the latestEndpoint Protector client, you can view log details structured per ﬁle scanned.
 
@@ -92,17 +92,17 @@ following information:
 - Matched type – the Policy Denylist type selected
 - Matched items – click the link to view a pop-up window with the list of matched items
 
-![A pop-up window with the list of matched items](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capmatcheditems.webp)
+![A pop-up window with the list of matched items](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/capmatcheditems.webp)
 
 - Count – the number of matched items
 
-![Count – the number of matched items](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/matcheditemscount.webp)
+![Count – the number of matched items](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/matcheditemscount.webp)
 
 From the Filters section, check the **Include old logs prior to 5.7** upgrade option from the ﬁlter
 section to include all logs in your searches. If the option is not selected, the ﬁlters will apply
 only to the new structure of logs.
 
-![Content Aware Protection Filters](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/capfilters.webp)
+![Content Aware Protection Filters](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/capfilters.webp)
 
 For Mac users, when the Deep Packet Inspection feature is enabled on the Endpoint Protector agent
 for Mac, there might be certain scenarios where the agent does not provide full destination details
@@ -122,27 +122,27 @@ report as a CSV or XLSX ﬁle.
 Excel/PDF/CSV – situated above the Content Aware Reports list, this will export only the default
 columns
 
-![Export Content Aware Reports](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportreports.webp)
+![Export Content Aware Reports](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/exportreports.webp)
 
 Create Export – situated below the Content Aware Reports list, this will create an export containing
 all data, including the expanded Logs Details section with columns Policy Type, Policy Name, Item
 type, Matched type, Matched items and Count.
 
-![Creating Export ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/createexport.webp)
+![Creating Export ](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/createexport.webp)
 
 After the message that is displayed that A new export has been made and is available on Export List,
 click View Export List to open the list of Reports, where you can download or delete a report.
 
-![Viewing Export List ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/viewexportlist.webp)
+![Viewing Export List ](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/viewexportlist.webp)
 
-![Export List Results ](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/exportlistresults.webp)
+![Export List Results ](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/exportlistresults.webp)
 
 ## Admin Actions
 
 This section offers an overview of every important action performed in the interface. From the
 Action column, you can view additional information.
 
-![ An overview of every important action performed in the interface](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/adminactions.webp)
+![ An overview of every important action performed in the interface](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/adminactions.webp)
 
 ## Online Computers
 
@@ -150,21 +150,21 @@ This section offers an overview of computers registered on the system which have
 connection with the server. If the Refresh Interval for computer X is 1 minute, then computer X was
 communicating with the server in the last 1 minute.
 
-![Overview of computers registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinecomputers.webp)
+![Overview of computers registered on the system](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/onlinecomputers.webp)
 
 ## Online Users
 
 This section offers an overview of users registered on the system which have an established
 connection with the server.
 
-![An overview of users registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlineusers.webp)
+![An overview of users registered on the system](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/onlineusers.webp)
 
 ## Online Devices
 
 This section provides an overview of devices registered on the system which have an established
 connection with the server.
 
-![An overview of devices registered on the system](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/onlinedevices.webp)
+![An overview of devices registered on the system](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/onlinedevices.webp)
 
 ## Statistics
 
@@ -172,4 +172,4 @@ The Statistics module lets you view system activity related to data traffic and 
 The integrated filter makes generating reports quick and easy; simply select the field of interest
 and click **Apply Filter**.
 
-![View system activity regarding data traﬃc and device connections](/img/product_docs/endpointprotector/endpointprotector/admin/reportsanalysis/statistics.webp)
+![View system activity regarding data traﬃc and device connections](/img/product_docs/endpointprotector/5.9.4.2/admin/reportsanalysis/statistics.webp)

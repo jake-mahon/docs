@@ -36,7 +36,7 @@ New branding cover:
 
 • CoSoSys Endpoint Protector is now Netwrix Endpoint Protector
 
-![eppnetwrixbranding](/img/product_docs/endpointprotector/endpointprotector/eppnetwrixbranding.webp)
+![eppnetwrixbranding](/img/product_docs/endpointprotector/5.9.4.2/eppnetwrixbranding.webp)
 
 **NOTE:** All hardcoded e-mail addresses are not changed from CoSoSys.com domain to avoid
 misconfiguration issues of any existing firewall filtering configuration.

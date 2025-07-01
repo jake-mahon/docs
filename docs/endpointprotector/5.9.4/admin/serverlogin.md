@@ -15,7 +15,7 @@ password. If you are logging in for the first time, use the default credentials:
 
 **NOTE:** Please ensure to update your login credentials after the first login to enhance security.
 
-![ Input your assigned username and password to log in to the Server](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/serverlogin.webp)
+![ Input your assigned username and password to log in to the Server](/img/product_docs/endpointprotector/5.9.4/admin/serverlogin.webp)
 
 Upon successful log in, the **Dashboard** > **General Dashboard** window will be displayed (see
 below image). This window is intended to provide a high-level overview of endpoints under management

@@ -9,7 +9,7 @@ access control and system security.
 
 From this section you can view, create, manage and delete administrators.
 
-![System Administrators](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/clientuninstall.webp)
+![System Administrators](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/clientuninstall.webp)
 
 To create a new Administrator, under the table with existing administrators, click Create and then
 provide the following information:
@@ -50,7 +50,7 @@ Super Administrator Details
 - Managed Departments – assign the Administrator to one or more departments
 - Managed Administrators Groups – assign the Administrator to one or more Administrators Group
 
-![Super Administrator Details](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/superadministratordetails.webp)
+![Super Administrator Details](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/superadministratordetails.webp)
 
 ## Administrator Types
 
@@ -124,7 +124,7 @@ Conﬁguration, Systems Administrators section, on the Managed Administrators Gr
 **NOTE:** The Support section will always be available in Endpoint Protector regardless of the role
 you assign to the Administrator Group.
 
-![Administrators Groups](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/administratorsgroups.webp)
+![Administrators Groups](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/administratorsgroups.webp)
 
 ### User Role Matrix
 
@@ -133,7 +133,7 @@ Administrators have based on their role. This matrix ensures that users only hav
 features they need to fulﬁll their duties, boosting security and lowering the chance of
 unintentional changes or data breaches.
 
-![User Role Matrix](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/userrolematrix.webp)
+![User Role Matrix](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/userrolematrix.webp)
 
 Within the Endpoint Protector, there are several different user roles, each with their own set of
 permissions. The Super Administrator role is the most powerful and has access to all features,
@@ -150,13 +150,13 @@ temporary code generated via the Google Authenticator app. With the Two Factor A
 once the user creation or edit is saved, the administrator will be redirected to a veriﬁcation
 screen.
 
-![Two Factor Authentication](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/twofactorauthentication.webp)
+![Two Factor Authentication](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/twofactorauthentication.webp)
 
 The Google Authenticator app will ask you to register using a unique code or QR Code. Following the
 registration process, your account will be added to the list with a validity timer for the unique
 code that will be used for the second authentication factor.
 
-![Google Authenticator app](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/googleauthenticator.webp)
+![Google Authenticator app](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/googleauthenticator.webp)
 
 ## System Departments
 
@@ -173,14 +173,14 @@ can be created, allowing each Normal Administrators to only manage their own ent
 **CAUTION:** This functionality should not be confused with Groups of computers and users, nor with
 administrators’ roles.
 
-![System Departments](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/systemdepartments.webp)
+![System Departments](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/systemdepartments.webp)
 
 To create a new department click Create and then provide a name, description and unique code.
 
 **NOTE:** If you provide a wrong department code or none at all, the department code is considered
 invalid and that computer will be assigned to the default department (defdep).
 
-![Create a new department click Create and then provide a name, description and unique code](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/newdepartment.webp)
+![Create a new department click Create and then provide a name, description and unique code](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/newdepartment.webp)
 
 In terms of terminology, a similarity between Endpoint Protector and Active Directory (or any other
 Director Service software) would make the Department equivalent to an Organization Unit. Of course,

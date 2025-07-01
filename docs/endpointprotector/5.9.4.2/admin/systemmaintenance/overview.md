@@ -10,7 +10,7 @@ maintain a well-organized system, facilitate recovery, and ensure data integrity
 This module allows you to retrieve, organize and clean-up ﬁles used by the Endpoint Protector
 Server.
 
-![Retrieve, organize and clean-up ﬁles used by the Endpoint Protector Server](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/filemaintenance.webp)
+![Retrieve, organize and clean-up ﬁles used by the Endpoint Protector Server](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/filemaintenance.webp)
 
 You have the following options:
 
@@ -25,14 +25,14 @@ of ﬁles from theEndpoint Protector Server click **Delete**.
 From this section, you can view the list of exported entities, download or delete them, and view the
 scheduled export in the system and reschedule them accordingly.
 
-![View the list of exported entities, download or delete them, and view the scheduled export in the system and reschedule them accordingly](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/listofentities.webp)
+![View the list of exported entities, download or delete them, and view the scheduled export in the system and reschedule them accordingly](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/listofentities.webp)
 
 You can initiate the manual generation of the scheduled export from the Device Control, List of
 Devices / List of Computers / List of Users / List of Groups sections.
 
-![Initiate the manual generation of the scheduled export from the Device Control](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/listofdevices.webp)
+![Initiate the manual generation of the scheduled export from the Device Control](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/listofdevices.webp)
 
-![Manual generation of the scheduled export from the Device Control](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/dcscheduleexport.webp)
+![Manual generation of the scheduled export from the Device Control](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/dcscheduleexport.webp)
 
 The scheduled exports can be sent automatically via e-mail to all the Administrators that have the
 **Scheduled Export Alert** setting enabled.
@@ -60,7 +60,7 @@ Follow the steps to create a system snapshot.
 
 **Step 1 –** Go to System Conﬁguration and click **Make Snapshot**.
 
-![The System Snapshots module allows you to save all device control rights and settings in the system and restore them later if needed](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/systemsnapshots.webp)
+![The System Snapshots module allows you to save all device control rights and settings in the system and restore them later if needed](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/systemsnapshots.webp)
 
 **Step 2 –** Enter a name for the snapshot and a description. Select the items to store in the
 snapshot, **Only Rights**, **Only Settings**, or **Both** and then click **Save**.
@@ -70,7 +70,7 @@ The snapshot will appear in the list of System Snapshots.
 **Step 3 –** To restore a previously created snapshot, click **Restore** next to the snapshot, and
 then conﬁrm your action.
 
-![Restore a previously created snapshot](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/restoresnapshot.webp)
+![Restore a previously created snapshot](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/restoresnapshot.webp)
 
 ## Audit Log Backup
 
@@ -82,7 +82,7 @@ Both the Audit Log Backup and Audit Backup Scheduler offer several options like 
 backup, how old should the included logs be, to keep or delete them from the server, to include ﬁle
 shadows or not, etc.
 
-![Allows old logs to be saved and exported](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/auditlogbackup.webp)
+![Allows old logs to be saved and exported](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/auditlogbackup.webp)
 
 However, the main difference comes from the fact that the exported logs come in an improved visual
 model, making things easier to audit or to create reports for executives.
@@ -99,7 +99,7 @@ While the Audit Log Backup starts the backup instantly, the Audit Log Backup Sch
 option to set the procedure for a speciﬁc time and the frequency of the backup (every day, every
 week, every month, every year, etc.).
 
-![Audit Log Backup Scheduler](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/scheduledbackup.webp)
+![Audit Log Backup Scheduler](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/scheduledbackup.webp)
 
 ## External Storage
 
@@ -110,7 +110,7 @@ an FTP, SFTP or Samba / Network Share server.
 You can enable the option to keep a copy of the ﬁles on the Endpoint Protector Server for all
 External Storage Types.
 
-![Externalize ﬁles generated by Endpoint Protector to a particular storage disk from the network](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/externalstorage.webp)
+![Externalize ﬁles generated by Endpoint Protector to a particular storage disk from the network](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/externalstorage.webp)
 
 ### FTP Server
 
@@ -126,7 +126,7 @@ To conﬁgure an FTP Server, provide the following information:
 - Passive Connection
 - Anonymous Login
 
-![Conﬁgure an FTP Server](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/ftpserver.webp)
+![Conﬁgure an FTP Server](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/ftpserver.webp)
 
 ### SFTP Server
 
@@ -140,7 +140,7 @@ To conﬁgure an SFTP Server, provide the following information:
 - Password – the associated password
 - Enable storage
 
-![Conﬁgure an SFTP Server](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/sftpserver.webp)
+![Conﬁgure an SFTP Server](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/sftpserver.webp)
 
 ### Samba / Network Share Server
 
@@ -159,4 +159,4 @@ To conﬁgure a Samba / Network Share Server, provide the following information:
 - Username – the username of the external server
 - Password – the associated password
 
-![Conﬁgure a Samba / Network Share Server](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/sambastorage.webp)
+![Conﬁgure a Samba / Network Share Server](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/sambastorage.webp)

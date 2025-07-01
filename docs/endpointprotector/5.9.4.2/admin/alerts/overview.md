@@ -10,14 +10,14 @@ these settings by sending a test E-mail.
 For each Administrator to appear in the list of recipients for the Alerts, this has to be provided
 under the Administrator details from the System Conﬁguration, System Administrators section.
 
-![ Endpoint Protector E-mail Server Settings](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/emailserversettings.webp)
+![ Endpoint Protector E-mail Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/emailserversettings.webp)
 
 ## System Alerts
 
 From this section, you can create system alerts, including APNS certiﬁcate expiry, updates and
 support expiry, endpoint licenses used, etc.
 
-![System Alerts Settings](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalerts.webp)
+![System Alerts Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/systemalerts.webp)
 
 ### Creating a System Alert
 
@@ -61,21 +61,21 @@ options.
 
 **Step 4 –** Administrators - Select the Administrators that will receive the alerts.
 
-![Creating a System Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatsystemalert.webp)
+![Creating a System Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/creatsystemalert.webp)
 
 ### System Alerts History
 
 From this section, you can view a history of the System Alerts. Alerts that are no longer needed for
 auditing purposes can later be deleted.
 
-![System Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/systemalertshistory.webp)
+![System Alerts History](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/systemalertshistory.webp)
 
 ## Device Control Alerts
 
 From this section, you can create Device Control alerts, for events such as Connected, File Read,
 File Write, Enforced Encryption – successfully deployed, etc.
 
-![Device Control Alerts](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalerts.webp)
+![Device Control Alerts](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/dcalerts.webp)
 
 ### Creating a Device Control Alert
 
@@ -89,21 +89,21 @@ click **Save**.
 - Monitored Entities – select the Groups, Computers, or Users that generate the event;
 - Administrators – select the Administrators that will receive the alerts.
 
-![Creating a Device Control Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingdcalert.webp)
+![Creating a Device Control Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/creatingdcalert.webp)
 
 ### Device Control Alerts History
 
 From this section, you can view a history of the Device Control Alerts. Alerts that are no longer
 needed for auditing purposes can later be deleted.
 
-![Device Control Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/dcalertshistory.webp)
+![Device Control Alerts History](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/dcalertshistory.webp)
 
 ## Content Aware Alerts
 
 From this section, you can create Content Aware alerts, for events such as Content Threat Detected
 or Content Threat Blocked.
 
-![Content Aware Alerts](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealerts.webp)
+![Content Aware Alerts](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/contentawarealerts.webp)
 
 ### Creating a Content Aware Alert
 
@@ -133,23 +133,23 @@ The alert sent on the email will also include a CSV ﬁle with a report of the t
 **NOTE:** Before creating the alert, ensure the selected Content Aware Policy is enabled on the
 chosen Computer, User, Group, or Department.
 
-![Creating a Content Aware Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealertinfo.webp)
+![Creating a Content Aware Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/creatingcontentawarealertinfo.webp)
 
-![Creating a Content Aware Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/creatingcontentawarealert.webp)
+![Creating a Content Aware Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/creatingcontentawarealert.webp)
 
 ### Content Aware Alerts History
 
 From this section, you can view a history of the Content Aware Alerts. Alerts that are no longer
 needed for auditing purposes can later be deleted.
 
-![Content Aware Alerts History](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/contentawarealertshistory.webp)
+![Content Aware Alerts History](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/contentawarealertshistory.webp)
 
 ## Enforced Encryption Alert
 
 From this section, you can create Enforced Encryption alerts, for events such as password changes,
 messages sent, etc.
 
-![Enforced Encryption Alert](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/enforcedencryptionalert.webp)
+![Enforced Encryption Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/enforcedencryptionalert.webp)
 
 ### Creating an Enforced Encryption Alert
 
@@ -174,11 +174,11 @@ Follow the steps to create an enforced encryption alert.
 
 **Step 2 –** Click **Save**.
 
-![Creating an Enforced Encryption Alert ](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/createeealert.webp)
+![Creating an Enforced Encryption Alert ](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/createeealert.webp)
 
 ### Enforced Encryption Alert History
 
 From this section, you can view the history of the Enforced Encryption Alerts. Alerts that are no
 longer needed for auditing purposes can later be deleted.
 
-![Enforced Encryption Alert History ](/img/product_docs/endpointprotector/endpointprotector/admin/alerts/eealerthistory.webp)
+![Enforced Encryption Alert History ](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/eealerthistory.webp)

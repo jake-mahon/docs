@@ -6,7 +6,7 @@ proceed to create a new Virtual Machine Instance:
 **Step 1 –** In the Google Cloud Platform Console, go to the VM Instances page and click Create
 instance.
 
-![Creating Virtual Machine instance.](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/googlecloudplatform/createinstance.webp)
+![Creating Virtual Machine instance.](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/createinstance.webp)
 
 **Step 2 –** In the Boot disk section, click Change to begin configuring your boot disk and on the
 Custom Images tab, fill in the following:
@@ -16,12 +16,12 @@ Custom Images tab, fill in the following:
 - Size – add a size larger than the Endpoint Protector image size received
 - Click Select to confirm the boot disk configuration.
 
-![Boot disk Configuration](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/googlecloudplatform/bootdisk.webp)
+![Boot disk Configuration](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/bootdisk.webp)
 
 **Step 3 –** On the Firewall section, select Allow HTTP traffic and Allow HTTPS traffic, and then
 click Create.
 
-![Firewall configuration](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/googlecloudplatform/firewall.webp)
+![Firewall configuration](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/firewall.webp)
 
 ## Requesting a Static IP
 
@@ -33,7 +33,7 @@ restarted and the Endpoint Protector Clients have to be reinstalled.
 
 To request a Static IP, go to IP addresses and select the External IP addresses tab.
 
-![Requesting a static IP](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/googlecloudplatform/externalip.webp)
+![Requesting a static IP](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/externalip.webp)
 
 ## Create Firewall Rules
 
@@ -48,4 +48,4 @@ To create a Firewall rule, on the Google Cloud Platform Console, follow these st
 - select Specified protocols and ports
 - check the tcp box and enter 64848
 
-![Editing firewall rules](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/configuration/googlecloudplatform/editrules.webp)
+![Editing firewall rules](/img/product_docs/endpointprotector/5.9.4/configuration/googlecloudplatform/editrules.webp)

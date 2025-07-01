@@ -13,16 +13,16 @@ Follow the steps to get started with the import process.
 
 **Step 2 –** Open VirtualBox.
 
-![Opening Oracle VM Virtual Box Manager](/img/product_docs/endpointprotector/endpointprotector/install/openoraclevm.webp)
+![Opening Oracle VM Virtual Box Manager](/img/product_docs/endpointprotector/5.9.4.2/install/openoraclevm.webp)
 
 **Step 3 –** Go to File and select **Import Appliance**.
 
-![Importing Appliances](/img/product_docs/endpointprotector/endpointprotector/install/importappliance.webp)
+![Importing Appliances](/img/product_docs/endpointprotector/5.9.4.2/install/importappliance.webp)
 
 **Step 4 –** On the Appliance to import page, click the **File icon**, browse and select the OVF ﬁle
 from the extracted zip.
 
-![ Selecting the OVF ﬁle from the extracted zip](/img/product_docs/endpointprotector/endpointprotector/install/selectsource.webp)
+![ Selecting the OVF ﬁle from the extracted zip](/img/product_docs/endpointprotector/5.9.4.2/install/selectsource.webp)
 
 **Step 5 –** Click **Open**.
 
@@ -30,12 +30,12 @@ from the extracted zip.
 
 **Step 6 –** Click **Import**.
 
-![Importing the Virtual Appliance](/img/product_docs/endpointprotector/endpointprotector/install/appliancesettings.webp)
+![Importing the Virtual Appliance](/img/product_docs/endpointprotector/5.9.4.2/install/appliancesettings.webp)
 
 **Step 7 –** Wait for the import displayed by the progress bar.
 
-![ Import displayed by the progress bar](/img/product_docs/endpointprotector/endpointprotector/install/importprogress.webp)
+![ Import displayed by the progress bar](/img/product_docs/endpointprotector/5.9.4.2/install/importprogress.webp)
 
 The virtual machine is now ready for use.
 
-![ Oracle virtual machine ready for use](/img/product_docs/endpointprotector/endpointprotector/install/machineready.webp)
+![ Oracle virtual machine ready for use](/img/product_docs/endpointprotector/5.9.4.2/install/machineready.webp)
