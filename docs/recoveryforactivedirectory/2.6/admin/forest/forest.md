@@ -120,7 +120,7 @@ using this account.
 
 **Step 4 –** Click **Next**.
 
-![Server Backup Configuration wizard - Schedule page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Server Backup Configuration wizard - Schedule page](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/schedule.webp)
 
 **Step 5 –** Select the days of the week in the Run the backup on section to indicate the days when
 backups will be run.

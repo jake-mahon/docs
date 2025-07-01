@@ -40,7 +40,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/concurrentloginssettings.webp)
+![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/concurrentloginssettings.webp)
 
 Set the Number of Accounts and the Interval Duration to trigger the incident. The interval duration
 is set for (hours:minutes) and is capped at 23:59. When the specified number of account credentials
@@ -54,7 +54,7 @@ memory once they are more than 24 hours old.
 
 Policy Tab
 
-![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytab.webp)
+![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
@@ -98,7 +98,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the **Impersonation Logins** node lists one row per incident identified.
 
-![Impersonation Logins Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/impersonationlogins.webp)
+![Impersonation Logins Analytic Type window](/img/product_docs/threatprevention/7.5/admin/analytics/impersonationlogins.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventtracker.md) topic for additional information.

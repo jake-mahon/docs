@@ -15,7 +15,7 @@ The event filters for the LDAP Bind Monitoring event type are:
 - IP Addresses (from)
 - Hosts (from)
 
-![Policy window - LDAP Bind Monitoring Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldapbindmonitor.webp)
+![Policy window - LDAP Bind Monitoring Event Type](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/ldapbindmonitor.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -32,7 +32,7 @@ that:
 The Bind Protocol filter determines if events should be captured for an LDAP bind operation based on
 the security protocol used by the bind operation.
 
-![Policy window - Bind Protocol filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/bindprotocol.webp)
+![Policy window - Bind Protocol filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/bindprotocol.webp)
 
 Select **All** to report on any LDAP bind that used any protocol.
 
@@ -50,7 +50,7 @@ protocol(s) are used.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -86,7 +86,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -105,7 +105,7 @@ topic for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -137,7 +137,7 @@ topic for additional information.
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific
 hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfrom.webp)
+![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.

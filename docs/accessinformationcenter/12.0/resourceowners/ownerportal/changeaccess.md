@@ -71,7 +71,7 @@ menu.
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 8 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.
@@ -88,7 +88,7 @@ Requests page via the **Access Requests** link on the Actions panel.
 
 A CSV file can be created to import a list of users.
 
-![Example CSV File for adding user access imports](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/importfile.webp)
+![Example CSV File for adding user access imports](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/importfile.webp)
 
 The CSV file must contain one user per row. Use the NTAccount [Domain\SamAccountName] format for the
 user name, for example `NWXTECH\JSmith`.
@@ -131,7 +131,7 @@ process the updates.
 _Remember,_ Notes are included in the notification sent to the user (if selected) and recorded with
 the historical record of this change.
 
-![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Change Resource Access wizard completed updates message](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the update has completed (100%), click
 **Finish**. The Change Resource Access wizard closes.

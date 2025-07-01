@@ -40,7 +40,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Brute Force Attacks Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/bruteforceattackssettings.webp)
+![Brute Force Attacks Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/bruteforceattackssettings.webp)
 
 Set the Number of Failed Attempts preceding a successful login and the Interval Duration that will
 trigger the incident. The interval duration is set for (Hours:Minutes) and is capped at 23:59. When
@@ -59,7 +59,7 @@ from contributing to Brute Force Attacks incidents.
 
 Policy Tab
 
-![Brute Force Attacks Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.webp)
+![Brute Force Attacks Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
@@ -106,7 +106,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the **Brute Force Attacks** node lists one row per incident identified.
 
-![Brute Force Attacks Analytic Type window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/bruteforce.webp)
+![Brute Force Attacks Analytic Type window](/img/product_docs/threatprevention/7.4/admin/analytics/bruteforce.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/docs/threatprevention/7.4/admin/policies/recentevents/eventtracker.md)

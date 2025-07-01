@@ -14,7 +14,7 @@ Maintenance window is displayed.
 **Step 1 –** Select the desired tab (Event Type, Analytics, or Policy) and check the **Enabled** box
 at the top of the tab.
 
-![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/enablesettings.webp)
+![Database Maintenance window - Event Type tab](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/enablesettings.webp)
 
 **Step 2 –** Select a maintenance task (Event Type, Analytic, or Policy). To set the same operation
 and retention period for multiple tasks, use the **ctrl-left click** command.

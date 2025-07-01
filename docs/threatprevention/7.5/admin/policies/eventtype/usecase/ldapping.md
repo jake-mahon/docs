@@ -14,7 +14,7 @@ When you create a policy with the [LDAP Monitoring Event Type](/docs/threatpreve
 [LDAP Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/ldaplockdown.md), the LDAP filter allows you to enable the LDAP Ping
 option.
 
-![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/usecase/ldapping.webp)
+![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapping.webp)
 
 ## Configure the LDAP Query Filter for LDAP Ping
 

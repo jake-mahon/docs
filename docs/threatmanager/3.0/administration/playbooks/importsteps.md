@@ -6,7 +6,7 @@ as Playbook steps.
 
 Follow the steps to import an action.
 
-![importbutton](/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.webp)
+![importbutton](/img/product_docs/threatmanager/3.0/administration/playbooks/importbutton.webp)
 
 **Step 1 –** In the Threat Response box, click Import.
 

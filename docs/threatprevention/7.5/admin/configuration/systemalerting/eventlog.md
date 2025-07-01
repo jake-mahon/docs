@@ -3,7 +3,7 @@
 Alert notification via Event Log sends event notifications to the Windows Event Log. Follow the
 steps to enable Event Log alerting.
 
-![System Alerting window – Event Log tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/eventlog.webp)
+![System Alerting window – Event Log tab](/img/product_docs/threatprevention/7.5/admin/configuration/systemalerting/eventlog.webp)
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu. The Netwrix Threat Prevention System
 Alerting window opens.

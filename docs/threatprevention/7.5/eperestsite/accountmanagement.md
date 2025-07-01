@@ -44,7 +44,7 @@ Required Input Parameters
 
 Example
 
-![POST api/account/create](/img/product_docs/threatprevention/threatprevention/eperestsite/create.webp)
+![POST api/account/create](/img/product_docs/threatprevention/7.5/eperestsite/create.webp)
 
 ## GET api/account/user/`<userId>`
 
@@ -57,7 +57,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/userId](/img/product_docs/threatprevention/threatprevention/eperestsite/userid.webp)
+![GET api/account/user/userId](/img/product_docs/threatprevention/7.5/eperestsite/userid.webp)
 
 ## GET api/account/user/`<userName>`
 
@@ -70,7 +70,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/userName](/img/product_docs/threatprevention/threatprevention/eperestsite/username.webp)
+![GET api/account/user/userName](/img/product_docs/threatprevention/7.5/eperestsite/username.webp)
 
 ## DELETE api/account/delete?userName=`<username>`
 

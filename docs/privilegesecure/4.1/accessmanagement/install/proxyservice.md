@@ -28,7 +28,7 @@ knowledge base article.
 **Step 2 –** Right-click on the installer and select Run as administrator. The Netwrix Privilege
 Secure Proxy Service Setup wizard opens.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.

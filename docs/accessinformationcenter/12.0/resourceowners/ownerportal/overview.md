@@ -11,7 +11,7 @@ been assigned a user role beyond owner.
 - For an owner without an assigned user role, the Access Information Center will open directly to
   the Owner portal.
 
-![Owner Portal interface with 3 sections identified](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/overview.webp)
+![Owner Portal interface with 3 sections identified](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/overview.webp)
 
 The Owner portal has three sections:
 

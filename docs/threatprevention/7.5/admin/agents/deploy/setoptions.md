@@ -6,7 +6,7 @@ the Agent on a computer.
 On the Set Options window, you can manage Agent settings, such as credentials, Enterprise Manager
 information, modules, DNS host name resolution, and safe mode.
 
-![Deploy Agents wizard - Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.webp)
+![Deploy Agents wizard - Set Options page](/img/product_docs/threatprevention/7.5/admin/agents/deploy/setoptions.webp)
 
 The Set Options window provides the following options:
 
@@ -40,7 +40,7 @@ The Set Options window provides the following options:
 - Install to default location – Installs the Agent on the machine to the default location or a
   specified location.
 
-![Deploy Agents wizard – Set Options page: Agent Install Path box](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
+![Deploy Agents wizard – Set Options page: Agent Install Path box](/img/product_docs/threatprevention/7.5/admin/agents/deploy/installpath.webp)
 
 If checked, the Agent is installed to the default location: ...\Netwrix\Netwrix Threat
 Prevention\SIWindowsAgent
@@ -76,7 +76,7 @@ name resolution is not handled locally by that machine.
 On the Agents interface, when you open the Set Options window through the Update Agent Settings
 option on the [Right-Click Menu](/docs/threatprevention/7.5/admin/agents/overview.md#right-click-menu), the window appears as follows:
 
-![Update Agent Settings > Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/updatesetoptions.webp)
+![Update Agent Settings > Set Options page](/img/product_docs/threatprevention/7.5/admin/agents/deploy/updatesetoptions.webp)
 
 This window displays the default selections in the Modules to Set and Additional Options areas; they
 do not represent the actual current state of the Agent.

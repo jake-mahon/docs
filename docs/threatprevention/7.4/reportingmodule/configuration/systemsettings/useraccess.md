@@ -8,7 +8,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **User Access** in the navigation pane.
 
-![System Settings interface on the User Access page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.webp)
+![System Settings interface on the User Access page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/useraccess.webp)
 
 Roles are assigned by the following methods:
 
@@ -36,7 +36,7 @@ The User Access page has the following sections:
 The Users & Groups section provides the ability to allow or deny console access and configure
 authentication types for users and groups.
 
-![Users and Groups section of the User Access page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/usersgroups.webp)
+![Users and Groups section of the User Access page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/usersgroups.webp)
 
 The table displays the following information:
 
@@ -144,7 +144,7 @@ menu. Then select **System Settings** to open the System Settings interface.
 **Step 2 –** On the User Access page of the System Settings interface, click New Access. The Add
 Console Access window opens.
 
-![Add Console Access window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/addconsoleaccess.webp)
+![Add Console Access window](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/addconsoleaccess.webp)
 
 **Step 3 –** Begin typing a user or group name in the **User Access** box. The drop-down menu will
 populate as you type with available options. Select a user or group from the menu.
@@ -170,7 +170,7 @@ menu. Then select **System Settings** to open the System Settings interface.
 **Step 2 –** On the User Access page of the System Settings interface, click the **Edit** icon for a
 user or group.
 
-![User and Groups section showing the 3 drop-down menus in Edit mode](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/editaccess.webp)
+![User and Groups section showing the 3 drop-down menus in Edit mode](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/editaccess.webp)
 
 **Step 3 –** Use the drop-down menus to modify the Access rule type, Role, and/or Authentication
 Type for this user or group.
@@ -189,7 +189,7 @@ menu. Then select **System Settings** to open the System Settings interface.
 **Step 2 –** On the User Access page of the System Settings interface, click the gear icon for the
 built-in ADMIN account. The Edit password for built-in admin window opens.
 
-![Edit password for built-in admin window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/editpasswordbuiltinadmin.webp)
+![Edit password for built-in admin window](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/editpasswordbuiltinadmin.webp)
 
 **Step 3 –** Enter the existing password in the **Old Password** field.
 

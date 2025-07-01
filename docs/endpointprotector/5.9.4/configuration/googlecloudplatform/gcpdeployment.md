@@ -41,7 +41,7 @@ To create a Firewall rule, on the Google Cloud Platform Console, follow these st
 
 **Step 4 –** Go to the Firewall page and select default-allow-ssh;
 
-![Creating firewall rules](/img/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firewallrules.webp)
+![Creating firewall rules](/img/product_docs/threatprevention/7.4/install/reportingmodule/firewallrules.webp)
 
 **Step 5 –** Click Edit and on the Protocols and ports section provide the following information:
 

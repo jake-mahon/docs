@@ -2,7 +2,7 @@
 
 The Active Directory Changes dashboard contains the following cards:
 
-![Active Directory Changes Dashboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.webp)
+![Active Directory Changes Dashboard](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adchanges.webp)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event
   type

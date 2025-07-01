@@ -14,7 +14,7 @@ Step 1 – Click on the **Plus** sign and a form will open.
 Step 2 – You can now search for a specific organizational unit by clicking on the tree on the left
 or use the search field to find the unit you need.
 
-![search](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/search.webp)
+![search](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/search.webp)
 
 Step 3 – Click **OK** to close the form and your new team tab will open automatically.
 

@@ -9,7 +9,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 **Subscriptions and exports** in the bottom left corner of the page to open the Subscriptions and
 Exports page.
 
-![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexports.webp)
+![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/subscriptionsexports.webp)
 
 The table has the following columns:
 
@@ -39,7 +39,7 @@ topic for additional information.
 The table has several features accessed through the menu button that appears when you hover over a
 column header.
 
-![Table column menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/tableoptions.webp)
+![Table column menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/tableoptions.webp)
 
 In addition to the arrow that appears to sort the table in ascending or descending order, the menu
 contains the following options:
@@ -60,7 +60,7 @@ contains the following options:
 
 The Table Filter window opens from the table column menu.
 
-![Table Filter window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/filterwindow.webp)
+![Table Filter window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/filterwindow.webp)
 
 Follow the steps to build a filter statement.
 
@@ -81,7 +81,7 @@ The table is filtered to matches of the filter.
 
 The Actions column holds a menu with actions that apply to the selected subscription or export.
 
-![Actions menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/subscriptionsexportsactions.webp)
+![Actions menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/subscriptionsexportsactions.webp)
 
 The options include:
 

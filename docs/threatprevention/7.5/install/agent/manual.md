@@ -72,7 +72,7 @@ certificate and click **Next**:
 - Custom-managed – To use certificates that are signed by the customer's external certificate
   authority
 
-![Threat Prevention Windows Agent Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/agent/enterprisemanager.webp)
+![Threat Prevention Windows Agent Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/7.5/install/agent/enterprisemanager.webp)
 
 **Step 7 –** On the Enterprise Manager Location Information page, select the **Option** button for a
 product to enable communication with it.
@@ -130,7 +130,7 @@ product to enable communication with it.
 
 When the settings are configured, click **Next**.
 
-![StealthINTERCEPT Windows Agent Setup wizard on the Certificates page](/img/product_docs/threatprevention/threatprevention/install/agent/certificates.webp)
+![StealthINTERCEPT Windows Agent Setup wizard on the Certificates page](/img/product_docs/threatprevention/7.5/install/agent/certificates.webp)
 
 **Step 8 –** On the Certificates page, confirm the EM certificate hash by verifying that it contains
 the same value displayed in the
@@ -148,7 +148,7 @@ The Certsinfo folder is located at: …\Netwrix\Netwrix Threat Prevention\SIWind
 
   **NOTE:** If the enrollment secret has expired, you can generate a new one.
 
-![Threat Prevention Windows Agent Setup wizard - Select Event Sources page](/img/product_docs/threatprevention/threatprevention/install/agent/eventsources.webp)
+![Threat Prevention Windows Agent Setup wizard - Select Event Sources page](/img/product_docs/threatprevention/7.5/install/agent/eventsources.webp)
 
 **Step 9 –** On the Select Event Sources page, select the types of events to be monitored by this
 Agent. The installer grays out options that are not applicable to the server where the Agent is

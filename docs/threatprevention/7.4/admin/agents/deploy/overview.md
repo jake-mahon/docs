@@ -42,7 +42,7 @@ data collection.
 corner. To re-install a previously uninstalled Agent, select the **Install Agent** right-click menu
 option for that machine in the grid. The Select Computers window opens.
 
-![Deploy Agents wizard – Select Computers page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.webp)
+![Deploy Agents wizard – Select Computers page](/img/product_docs/threatprevention/7.4/admin/agents/deploy/selectcomputers.webp)
 
 **Step 3 –** On the Select Computers window, add the host or IP addresses of the target machines to
 the Deploy Agents to These Computers box. Use any of the three methods, as represented by the three
@@ -54,7 +54,7 @@ If you open this window through the
 [Right-Click Menu](/docs/threatprevention/7.4/admin/agents/overview.md#right-click-menu)
 action, the list is auto-populated with the computer(s) selected on the Agents interface.
 
-![Deploy Agents wizard – Set Options page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.webp)
+![Deploy Agents wizard – Set Options page](/img/product_docs/threatprevention/7.4/admin/agents/deploy/setoptions.webp)
 
 **Step 4 –** On the Set Options window, enter the credentials required to deploy the Agent on the
 selected machine(s). Review the Enterprise Manager IP address/name and port for accuracy and select
@@ -65,7 +65,7 @@ for additional information.
 
 **Step 5 –** Once configurations are set, click **Next**.
 
-![Deploy Agents wizard – Prerequisites Check page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/prerequisitescheck.webp)
+![Deploy Agents wizard – Prerequisites Check page](/img/product_docs/threatprevention/7.4/admin/agents/deploy/prerequisitescheck.webp)
 
 **Step 6 –** On the Prerequisites Check window, the credentials provided on the Set Options window
 either succeed or fail during a prerequisites or verification check. It also initiates a
@@ -73,7 +73,7 @@ prerequisite check for the Agent. See the
 [Prerequisites Check Window](/docs/threatprevention/7.4/admin/agents/deploy/prerequisitescheck.md)
 topic for additional information.
 
-![Deploy Agents wizard – Installing page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/installing.webp)
+![Deploy Agents wizard – Installing page](/img/product_docs/threatprevention/7.4/admin/agents/deploy/installing.webp)
 
 **Step 7 –** The Installing window performs the installation and displays whether or not the action
 was successful. See the

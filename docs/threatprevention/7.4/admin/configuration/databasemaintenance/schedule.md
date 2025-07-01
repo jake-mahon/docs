@@ -44,4 +44,4 @@ tasks at the time when the job runs are executed.
 This scheduled job can be viewed through the Microsoft SQL Server Management Studio within the **SQL
 Server Agent** > **Jobs** folder (SiDbMainJob).
 
-![Database Maintenance job in Microsoft SQL Server Management Studio](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/dbmaintenancejob.webp)
+![Database Maintenance job in Microsoft SQL Server Management Studio](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/dbmaintenancejob.webp)

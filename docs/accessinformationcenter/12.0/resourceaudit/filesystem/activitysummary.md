@@ -6,7 +6,7 @@ performed in each server, including operations in folders that are not shared. T
 does not include a date range filter as it contains totals for all operations ever monitored by
 Access Analyzer for the targeted environment.
 
-![Activity Summary report at the File System node](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummary.webp)
+![Activity Summary report at the File System node](/img/product_docs/threatmanager/3.0/administration/threatdetails/activitysummary.webp)
 
 This report is comprised of the following columns:
 

@@ -4,12 +4,12 @@ For SQL Server 2012+, it is necessary to restrict the maximum server memory valu
 total physical RAM to avoid a situation where SQL Server will starve other applications of memory.
 Follow the instructions to limit the amount of memory SQL Server uses.
 
-![Microsoft SQL Server Management Studio showing database right-click menu](/img/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/sqlservermanagementstudio.webp)
+![Microsoft SQL Server Management Studio showing database right-click menu](/img/product_docs/threatprevention/7.4/troubleshooting/sqlservermanagementstudio.webp)
 
 **Step 1 –** In Microsoft SQL Server Management Studio, right-click on the SQL Server’s entry in the
 Object Explorer pane and select **Properties**.
 
-![Server Properties window](/img/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/serverproperties.webp)
+![Server Properties window](/img/product_docs/threatprevention/7.4/troubleshooting/serverproperties.webp)
 
 **Step 2 –** On the Memory page of the Server Properties window, modify the **Maximum server memory
 (in MB)** value to be 60-70% of the total physical RAM. For example, if the server has 20 GB RAM,

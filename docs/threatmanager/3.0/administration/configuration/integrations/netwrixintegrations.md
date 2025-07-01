@@ -3,7 +3,7 @@
 The Netwrix Integrations page within the Integrations interface lists the products for which the
 application is configured to connect.
 
-![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
 
 Integrations with other Netwrix products enables you to run Investigations on the event data within
 the connected database. When you add a Netwrixintegration, the selection for Default Data Source
@@ -32,7 +32,7 @@ Follow the steps below to add a Netwrix Integration.
 **Step 1 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integrations window with the Netwrix Integration type selected](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/netwrixintegrations.webp)
+![Add New Integrations window with the Netwrix Integration type selected](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/netwrixintegrations.webp)
 
 **Step 2 –** In the Type drop-down list, select Netwrix Integration.
 
@@ -85,7 +85,7 @@ view a list of the already integrated Netwrix products.
 
 **Step 8 –** Select a product from the table or the navigation pane to view the integration details.
 
-![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
 
 Select the integration from the list to see the details and modification options:
 
@@ -106,7 +106,7 @@ Select the integration from the list to see the details and modification options
 
 The Configuration tab displays the settings entered for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.webp)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/configurationtab.webp)
 
 The tab provides the following settings:
 
@@ -128,7 +128,7 @@ leaving the page.
 
 The Policy Sync tab displays information on the last policy sync executed.
 
-![Netwrix Integration Details on the Policy Sync tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/policysynctab.webp)
+![Netwrix Integration Details on the Policy Sync tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/policysynctab.webp)
 
 The tab provides the following information:
 
@@ -154,7 +154,7 @@ Netwrix Integration.
 
 **Step 3 –** Click the **Edit** button in the upper right corner of the name and description box.
 
-![Name and Description box for a Netwrix Integration in Edit mode](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/editnetwrixintegration.webp)
+![Name and Description box for a Netwrix Integration in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/editnetwrixintegration.webp)
 
 **Step 4 –** Type in the top field to modify the integration name.
 
@@ -168,7 +168,7 @@ The Netwrix Integration name and/or description have been modified.
 
 Follow the steps to modify the configuration for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.webp)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/configurationtab.webp)
 
 **Step 1 –** On the Integrations interface, click Netwrix Integrations and select the desired
 Netwrix Integration.

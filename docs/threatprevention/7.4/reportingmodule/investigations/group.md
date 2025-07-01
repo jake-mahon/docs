@@ -47,7 +47,7 @@ Each sub-tab displays a table with the following columns:
 
 Click the Group Membership tab to open it.
 
-![Group Membership Tab](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/groupmembershiptab.webp)
+![Group Membership Tab](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/groupmembershiptab.webp)
 
 The Group Membership tab displays the groups that _the group_ is a member of. Here, 'the group'
 refers to the group whose details you are viewing.

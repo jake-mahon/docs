@@ -17,7 +17,7 @@ are only enabled for the following collection categories:
 - File Paths –
   [Dynamic File Paths Collection Table Requirements](#dynamic-file-paths-collection-table-requirements)
 
-![Options on the Add New Collection window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.webp)
+![Options on the Add New Collection window](/img/product_docs/threatprevention/7.4/admin/configuration/collectionmanager/addcollectionoptions.webp)
 
 - The _I will provide a list_ option button enables the default setting for a static collection. See
   the

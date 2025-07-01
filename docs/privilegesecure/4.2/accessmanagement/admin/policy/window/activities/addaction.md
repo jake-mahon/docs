@@ -16,7 +16,7 @@ part. Follow the instructions to add actions to the activity.
 
 These actions may be paired with a corresponding Pre-Session action.
 
-![addactionwindow](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
+![addactionwindow](/img/product_docs/threatprevention/7.5/admin/policies/actions/addactionwindow.webp)
 
 **Step 4 –** Complete the following fields:
 

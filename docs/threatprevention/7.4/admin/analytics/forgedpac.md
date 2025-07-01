@@ -39,7 +39,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![Forged PAC Analytic Type - Settings tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpacsettings.webp)
+![Forged PAC Analytic Type - Settings tab](/img/product_docs/threatprevention/7.4/admin/analytics/forgedpacsettings.webp)
 
 Remember, the Forged PAC analytic is monitoring for when the user is not a member of a group that is
 listed in the PAC section of the user’s Kerberos ticket. This analytic can be scoped to monitor
@@ -57,7 +57,7 @@ for a mismatch to trigger the incident.
 
 Policy Tab
 
-![Forged PAC Analytic Type - Policy tab](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/policytab.webp)
+![Forged PAC Analytic Type - Policy tab](/img/product_docs/threatprevention/7.4/admin/analytics/policytab.webp)
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 

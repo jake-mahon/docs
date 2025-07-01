@@ -11,7 +11,7 @@ The event filters for the Authentication Lockdown event type are:
 - Hosts (to)
 - Rule Preview
 
-![Policy window - Authentication Lockdown Event Type](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.webp)
+![Policy window - Authentication Lockdown Event Type](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/authenticationlockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -43,7 +43,7 @@ Use the Authentication Protocol filter for lockdown to set the scope of the poli
 specific authentication event protocols or to exclude specific authentication event protocols from
 being locked down.
 
-![Policy window - Authentication Protocol filter for lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationprotocollockdown.webp)
+![Policy window - Authentication Protocol filter for lockdown](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/authenticationprotocollockdown.webp)
 
 - In the Block These Protocols section, check the **All** box to include all protocols or select
   specific protocols::
@@ -72,7 +72,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -101,7 +101,7 @@ topic for additional information.
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -124,7 +124,7 @@ Use the buttons in the Include Hosts area to edit the list.
 Use the Hosts (to) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as target hosts of an event.
 
-![Policy window - Hosts (to) filter for lockdown](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/hoststolockdown.webp)
+![Policy window - Hosts (to) filter for lockdown](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/hoststolockdown.webp)
 
 Use the buttons in the Include Hosts area to edit the list.
 
@@ -137,7 +137,7 @@ Use the buttons in the Include Hosts area to edit the list.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

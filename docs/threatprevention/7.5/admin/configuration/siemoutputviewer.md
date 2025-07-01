@@ -22,7 +22,7 @@ Follow the steps to view real time data (messages) that Threat Prevention sends 
 **Step 1 –** Click **Configuration** > **SIEM Output Viewer** on the menu; the SIEM Output Viewer
 window opens. This window is only available to Threat Prevention administrators.
 
-![SIEM Output Viewer window](/img/product_docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.webp)
+![SIEM Output Viewer window](/img/product_docs/threatprevention/7.5/admin/configuration/siemoutputviewer.webp)
 
 **Step 2 –** Click **Start**. As events occur and Threat Prevention writes to syslog (sends
 event/policy/analytics data to SIEM) in real time, they are displayed on the window.

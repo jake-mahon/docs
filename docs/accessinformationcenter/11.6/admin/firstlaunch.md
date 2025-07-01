@@ -3,7 +3,7 @@
 The installer places the following icon on the desktop which opens the Access Information Center
 with the independent URL:
 
-![Desktop Icon](/img/versioned_docs/threatprevention_7.4/threatprevention/install/desktopicon.webp)
+![Desktop Icon](/img/product_docs/threatprevention/7.4/install/desktopicon.webp)
 
 Use this icon to launch the Access Information Center for the first time.
 

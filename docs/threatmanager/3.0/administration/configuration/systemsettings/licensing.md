@@ -20,7 +20,7 @@ header.
 
 Follow the steps to import a license key file.
 
-![License section of the Licensing page](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/licensingbrowse.webp)
+![License section of the Licensing page](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/licensingbrowse.webp)
 
 **Step 1 –** On the License page of the System Settings interface, click Browse. The Add New
 Integration window opens.

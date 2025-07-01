@@ -2,7 +2,7 @@
 
 When Recovery for Active Directory is installed, the following icon is displayed on the desktop.
 
-![Recovery Desktop Icon](/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
+![Recovery Desktop Icon](/img/product_docs/threatprevention/7.5/install/desktopicon.webp)
 
 ## Access the Recovery Console Locally
 
@@ -37,7 +37,7 @@ Follow the steps to sign into the Recovery Console.
 
 **NOTE:** The URL may need to be added to the browser's list of trusted sites.
 
-![Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
+![Recovery for Active Directory - Login page](/img/product_docs/threatprevention/7.5/eperestsite/login.webp)
 
 **Step 2 –** Enter your credentials in the Username and Password fields. The username must be in the
 following format:

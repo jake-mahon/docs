@@ -89,7 +89,7 @@ from the table.
 
 **Step 5 –** Click **Next**. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Import Owners wizard completed import page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Import Owners wizard closes.

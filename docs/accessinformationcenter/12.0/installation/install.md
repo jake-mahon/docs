@@ -113,7 +113,7 @@ Once the certificate has been provided, click **Next** to continue.
 
 **Step 8 –** On the Ready to install page, click **Install** to begin the process.
 
-![AIC Setup Wizard Completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![AIC Setup Wizard Completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 9 –** Once the installation has successfully completed, click **Finish** to exit the wizard.
 

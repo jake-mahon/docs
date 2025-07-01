@@ -9,7 +9,7 @@ Follow the steps to configure file system monitoring.
 **Step 1 –** Click **Configuration** > **File Monitor Settings** on the menu; the File Monitor
 Settings window opens. This window is only available to Threat Prevention administrators.
 
-![File Monitor Settings window](/img/product_docs/threatprevention/threatprevention/admin/configuration/filemonitorsettings.webp)
+![File Monitor Settings window](/img/product_docs/threatprevention/7.5/admin/configuration/filemonitorsettings.webp)
 
 **Step 2 –** Enable or disable the following options:
 
@@ -57,7 +57,7 @@ Monitor Settings window.
 **Step 2 –** Check the **Exclude selected accounts** checkbox and then click **accounts**. The Edit
 Collection window opens.
 
-![File Monitor Settings > Edit Collection window (for accounts)](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.webp)
+![File Monitor Settings > Edit Collection window (for accounts)](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionaccounts.webp)
 
 **Step 3 –** Use the **Add** (+) button to open the
 [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
@@ -82,7 +82,7 @@ Monitor Settings window.
 **Step 2 –** Check the **Exclude selected processes** checkbox and then click **processes**. The
 Edit Collection window opens.
 
-![File Monitor Settings > Edit Collection window (for processes)](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionprocesses.webp)
+![File Monitor Settings > Edit Collection window (for processes)](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionprocesses.webp)
 
 **Step 3 –** Use the Items textbox to enter process names. You must enter a process name exactly as
 is; for example, as it appears on the Details tab of Windows Task Manager.

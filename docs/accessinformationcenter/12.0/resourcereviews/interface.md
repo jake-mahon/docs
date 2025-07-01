@@ -12,7 +12,7 @@ This interface has multiple pages:
 The Manage Reviews page is the first page in the Resource Reviews interface. It displays high-level
 information for reviews.
 
-![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
 
 The interface includes:
 

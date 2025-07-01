@@ -14,7 +14,7 @@ including Microsoft Teams, Slack, ServiceNow, and a wide variety of SIEM platfor
 The following diagram is a visual representation of Threat Manager architecture. It maps out the
 physical implementation of Threat Manager components.
 
-![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/threatmanager/tmarch.webp)
+![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/3.0/tmarch.webp)
 
 ## Administration
 

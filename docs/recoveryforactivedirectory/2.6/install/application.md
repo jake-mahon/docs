@@ -49,7 +49,7 @@ C:\Program Files\Netwrix\Recovery for Active Directory\
 - (Optional) Click Change… to change the installation location. The Change destination folder page
   opens.
 
-![Recovery for Active Directory Setup wizard - Change destination folder page](/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.webp)
+![Recovery for Active Directory Setup wizard - Change destination folder page](/img/product_docs/threatprevention/7.5/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -129,7 +129,7 @@ Directory Console.
   Certificate section on the page. Click **Select certificate...**. The Certificates window is
   displayed.
 
-![Installation Certificates Window](/img/product_docs/threatprevention/threatprevention/install/agent/certificates.webp)
+![Installation Certificates Window](/img/product_docs/threatprevention/7.5/install/agent/certificates.webp)
 
 - The Certificates window displays installed certificates on either the local machine or the current
   user. Select the desired certificate and click **Use Selected Certificate**. This automatically
@@ -141,7 +141,7 @@ Click **Next**. Recovery for Active Directory is ready to install.
 
 **Step 11 –** Click **Install** to begin the installation process.
 
-![completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![completed](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 12 –** The installation process begins and the Setup wizard displays the installation
 progress. Depending on the Active Directory size, installation may take time to complete. When

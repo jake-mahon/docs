@@ -10,7 +10,7 @@ folder where it was saved.
 Click the Subscriptions link to open the Subscription to window. You can specify recipients to
 receive this report as an email attachment in a specified format.
 
-![Subscription window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/subscription.webp)
+![Subscription window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/subscription.webp)
 
 **NOTE:** This option requires an email server to be configured.If this requirement is not met, a
 message will appear in the window. See

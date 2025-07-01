@@ -9,7 +9,7 @@ The event filters for the Effective Group Membership event type are:
 - AD Perpetrator
 - Success
 
-![Policy window - Effective Group Membership Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/effectivegroupmembership.webp)
+![Policy window - Effective Group Membership Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/effectivegroupmembership.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -20,7 +20,7 @@ Use the AD Groups filter to set the scope of the policy to include groups for ef
 membership change monitoring. Selecting a group in this filter scopes the policy to monitor
 membership of the specified group as well as all its nested groups.
 
-![Policy window - AD Groups filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgroups.webp)
+![Policy window - AD Groups filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adgroups.webp)
 
 Use the buttons to include Active Directory groups in the list.
 
@@ -33,7 +33,7 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
@@ -51,7 +51,7 @@ for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.

@@ -27,7 +27,7 @@ topic for additional information.
 Enter the new password in the Password field and click **Next**. The next server backup will take
 into account the new password.
 
-![Server Backup Configuration wizard - Schedule page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Server Backup Configuration wizard - Schedule page](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/schedule.webp)
 
 **Step 5 –** Modify the schedule if needed, then click **Next**.
 

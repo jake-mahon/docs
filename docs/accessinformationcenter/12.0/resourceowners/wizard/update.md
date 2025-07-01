@@ -81,7 +81,7 @@ desired. See the [Select Group Window](/docs/accessinformationcenter/12.0/resour
 **Step 5 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Update resource wizard completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Update resource wizard completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

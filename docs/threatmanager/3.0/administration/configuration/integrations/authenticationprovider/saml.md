@@ -6,7 +6,7 @@ information. This means that you can use one set of credentials to log in to man
 websites. It is much easier to manage one login per user than separate logins for email, Customer
 Relationship Management (CRM) software, Active Directory, and more.
 
-![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
+![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
 
 The details page for a SAML authentication provider has two tabs:
 
@@ -22,7 +22,7 @@ respective users.
 
 Configure the following settings for a SAML provider on the Configuration tab:
 
-![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
+![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles.
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
@@ -49,7 +49,7 @@ profile. To give access to the application to new users, click the New Access bu
 the Add Console Access window. To assign this authentication provider to existing users, go to
 System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/authenticationprovider/usersgroupssamltab.webp)
+![UserGroups tab for an authneication provider](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/usersgroupssamltab.webp)
 
 The table displays the following information:
 

@@ -2,7 +2,7 @@
 
 The navigation header contains the following links on the top left side of the page:
 
-![headerbarleft](/img/product_docs/threatmanager/threatmanager/administration/headerbarleft.webp)
+![headerbarleft](/img/product_docs/threatmanager/3.0/administration/headerbarleft.webp)
 
 - Threat Manager – Opens the Home page for the Threat Manager Console
 - Threats – Opens the [Threats Page](/docs/threatmanager/3.0/administration/threats.md)
@@ -12,7 +12,7 @@ The navigation header contains the following links on the top left side of the p
 
 The header bar contains the following links on the top right side of the page:
 
-![This screenshot displays the right header bar.](/img/product_docs/threatmanager/threatmanager/administration/headerbarright.webp)
+![This screenshot displays the right header bar.](/img/product_docs/threatmanager/3.0/administration/headerbarright.webp)
 
 - Search – Enter a user, computer, or group and click the Search icon
 - [Configuration Menu](/docs/threatmanager/3.0/administration/configuration/overview.md) – Displays a menu with the configuration pages
@@ -23,7 +23,7 @@ The header bar contains the following links on the top right side of the page:
 A magenta alert banner will display below the navigation header if one of the following scenarios
 occurs:
 
-![banneragentunresponsive](/img/product_docs/threatmanager/threatmanager/administration/banneragentunresponsive.webp)
+![banneragentunresponsive](/img/product_docs/threatmanager/3.0/administration/banneragentunresponsive.webp)
 
 - Service outage
 - Agent outage
@@ -59,16 +59,16 @@ mechanism that will be monitored by Threat Manager like out-of-the-box threats.
 
 The threat types listed for bar charts are interactive.
 
-![excludeathreat](/img/product_docs/threatmanager/threatmanager/administration/excludeathreat.webp)
+![excludeathreat](/img/product_docs/threatmanager/3.0/administration/excludeathreat.webp)
 
 Click a threat to exclude it from the chart. The threat will have a black line through it to show
 that it has been excluded. Click the threat again to add it to the chart.
 
-![trendline](/img/product_docs/threatmanager/threatmanager/administration/trendline.webp)
+![trendline](/img/product_docs/threatmanager/3.0/administration/trendline.webp)
 
 Hover over a trend line to see the number of threats detected in the selected time increment.
 
-![bargraphhover](/img/product_docs/threatmanager/threatmanager/administration/bargraphhover.webp)
+![bargraphhover](/img/product_docs/threatmanager/3.0/administration/bargraphhover.webp)
 
 Hover over a bar graph to view the number of each type of threat created in the time frame. Hover
 over slices in a pie chart to view the number of threats for each threat type.
@@ -78,7 +78,7 @@ over slices in a pie chart to view the number of threats for each threat type.
 Anywhere in the Console where a link to a user, group, or host details page is displayed, hover over
 the link to display a preview window.
 
-![hover](/img/product_docs/threatmanager/threatmanager/administration/hover.webp)
+![hover](/img/product_docs/threatmanager/3.0/administration/hover.webp)
 
 Preview windows display cards that provide information about the selected object without having to
 navigate off of the current page. These cards provide information about users, groups, and hosts,
@@ -88,7 +88,7 @@ including any associated tags.
 
 Data grids provide the ability to search for data and also to configure the presentation of data.
 
-![This screenshot displays interactive elements in a grid.](/img/product_docs/threatmanager/threatmanager/administration/datagrids.webp)
+![This screenshot displays interactive elements in a grid.](/img/product_docs/threatmanager/3.0/administration/datagrids.webp)
 
 The top bar in a data grid contains the following options:
 

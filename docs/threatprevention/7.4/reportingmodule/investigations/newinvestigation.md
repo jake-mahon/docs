@@ -7,7 +7,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 interface opens to the New Investigation page by default. You can also click **New Investigation**
 in the navigation pane to open the New Investigation page.
 
-![New Investigation window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/newinvestigation.webp)
+![New Investigation window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/newinvestigation.webp)
 
 To generate a new investigation report, configure the filters as desired and set the timeframe. See
 the
@@ -40,7 +40,7 @@ roles.
 **Step 1 –** On the New Investigation page, click **Save** in the upper right corner. The Save
 Investigation window opens.
 
-![saveinvestigation](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/saveinvestigation.webp)
+![saveinvestigation](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/saveinvestigation.webp)
 
 **Step 2 –** Enter a unique, descriptive name for this investigation in the **Name** field.
 

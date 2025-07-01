@@ -25,7 +25,7 @@ The page has the following tabs:
 
 The Threats tab for an application displays the threats for the application by timeframe.
 
-![Application Threat Tab](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/threatstab.webp)
+![Application Threat Tab](/img/product_docs/threatmanager/3.0/administration/threatdetails/threatstab.webp)
 
 ## Activity Summary Tab
 
@@ -33,13 +33,13 @@ The Activity Summary tab displays charts for an application's activity over diff
 
 The Activity Overview (Past 12 Months) shows a color-coded heat map of user activity.
 
-![Entra ID Application Activity Summary Tab](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummarytab.webp)
+![Entra ID Application Activity Summary Tab](/img/product_docs/threatmanager/3.0/administration/threatdetails/activitysummarytab.webp)
 
 ## Group Membership Tab
 
 The Group Membership tab displays groups in which the application is a member.
 
-![Entra ID Group Membership Tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.webp)
+![Entra ID Group Membership Tab](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/groupmembershiptab.webp)
 
 The Group Membership tab displays two tables:
 
@@ -67,9 +67,9 @@ Each table has the following columns:
 The role assignments tab displays a table that lists the roles that have been assigned to the Entra
 ID application.
 
-![Entra ID User Role Assignment Eligible page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserrolestabeligible.webp)
+![Entra ID User Role Assignment Eligible page](/img/product_docs/threatmanager/3.0/administration/threatdetails/entraiduserrolestabeligible.webp)
 
-![Entra ID User Role Assignment Eligible page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserrolestabeligible.webp)
+![Entra ID User Role Assignment Eligible page](/img/product_docs/threatmanager/3.0/administration/threatdetails/entraiduserrolestabeligible.webp)
 
 The Roles tab displays two tables:
 

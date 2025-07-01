@@ -6,7 +6,7 @@ providers using RADIUS, OpenID, and SAML integrations.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![Integrations interface on the Authentication Provider page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Authentication Provider page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
 
 Click **Authentication Provider** in the navigation pane to view a list of already configured
 authentication providers, if any.
@@ -22,7 +22,7 @@ Follow the steps to add an authentication provider.
 **Step 1 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Authentication Provider type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
+![Add New Integration window with Authentication Provider type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
 
 **Step 2 –** In the Type drop-down list, select Authentication Provider.
 
@@ -39,7 +39,7 @@ authentication provider type, i.e., OpenID, RADIUS, or SAML.
 On the Integrations interface, select an authentication provider under the Authentication Provider
 node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for an Authentication Provider with the type drop-down menu open](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/type.webp)
+![Integrations interface displaying the details for an Authentication Provider with the type drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/type.webp)
 
 The following authentication provider types are supported; you can configure an authentication
 provider for any of these:

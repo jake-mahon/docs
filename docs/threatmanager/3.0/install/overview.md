@@ -77,7 +77,7 @@ you should at least exclude postgres.exe and the data directories so the scanner
 
 Follow the steps to install the Threat Manager application on a single server.
 
-![setuplauncher](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.webp)
+![setuplauncher](/img/product_docs/threatprevention/7.5/install/reportingmodule/setuplauncher.webp)
 
 **Step 1 –** Right-click on `Netwrix_Setup.exe` and select Run as administrator. The Netwrix Setup
 launcher opens. You can now install the following components on the same server:

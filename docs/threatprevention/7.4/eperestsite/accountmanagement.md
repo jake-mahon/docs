@@ -57,7 +57,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/`<userId>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/userid.webp)
+![GET api/account/user/`<userId>`](/img/product_docs/threatprevention/7.4/eperestsite/userid.webp)
 
 ## GET api/account/user/`<userName>`
 
@@ -70,7 +70,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/`<userName>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/username.webp)
+![GET api/account/user/`<userName>`](/img/product_docs/threatprevention/7.4/eperestsite/username.webp)
 
 ## DELETE api/account/delete?userName=`<username>`
 

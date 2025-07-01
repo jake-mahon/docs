@@ -14,7 +14,7 @@ ticket through the
 For detailed information on settings change or creating additional administrators, refer to the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
 
-![Page for default login credentials for the root account](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.webp)
+![Page for default login credentials for the root account](/img/product_docs/threatprevention/7.4/eperestsite/login.webp)
 
 ## Conﬁguration Wizard
 

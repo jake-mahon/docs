@@ -3,7 +3,7 @@
 The Auditing page within the System Settings interface contains the Audit History table with
 information about all application events.
 
-![System Settings interface showing the Auditing page](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![System Settings interface showing the Auditing page](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
 
 The Audit History table displays the following information:
 

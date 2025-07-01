@@ -5,7 +5,7 @@ threats using the Custom option or through the Create Threat option on the Inves
 pre-defined and custom threats are listed in the Threat box. Threats that are crossed out are
 disabled threats.
 
-![Threats Box](/img/product_docs/threatmanager/threatmanager/threats/threatsbox.webp)
+![Threats Box](/img/product_docs/threatmanager/3.0/threats/threatsbox.webp)
 
 The Threats list divides the threats into the following sections:
 

@@ -9,13 +9,13 @@ The following table contains icons for resource types:
 
 | Icon                                                                                                                                                                  | Description               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| ![File System icon](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)                             | File System               |
+| ![File System icon](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystem.webp)                             | File System               |
 | ![Windows Server icon](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/windows.webp)                        | Windows Server            |
 | ![Server icon](/img/product_docs/accessanalyzer/12.0/admin/settings/server.webp)                                                 | Server                    |
 | ![Policies icon](/img/product_docs/accessanalyzer/12.0/requirements/target/config/policies.webp)                                 | Policies                  |
 | ![Shares icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/shares.webp)                         | Shares                    |
 | ![Share icon](/img/product_docs/activitymonitor/8.0/config/activedirectory/share.webp)                                                            | Share                     |
-| ![Folder icon](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/folder.webp)                                       | Folder                    |
+| ![Folder icon](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)                                       | Folder                    |
 | ![File icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/file.webp)                             | File                      |
 | ![Permission Change icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/permissionchange.webp)    | Permission Change         |
 | ![Exception icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/exception.webp)                   | Exception                 |

@@ -4,7 +4,7 @@ The Audit and Reporting interface provides auditing and reporting tools to inter
 activity data in the Privilege Secure Console. This chapter explains the interface features and how
 to use them.
 
-![interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
+![interface](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
 
 Click Audit and Reporting to expand the menu. Settings can be configured for:
 

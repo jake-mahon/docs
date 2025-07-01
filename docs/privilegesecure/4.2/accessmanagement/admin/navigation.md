@@ -48,7 +48,7 @@ Interface Icons
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
 | ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
-| ![policy](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
 | ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
 | ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
 | ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |

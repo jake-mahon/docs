@@ -10,7 +10,7 @@ existing resources in the organization such as email and helpdesk platforms, Act
 systems, and custom PowerShell scripts. Playbooks can be executed automatically or ad-hoc by a
 Threat Manager Administrator when a threat is detected.
 
-![threatresponse](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
+![threatresponse](/img/product_docs/threatmanager/3.0/administration/configuration/threatresponse.webp)
 
 **NOTE:** Custom playbooks can be created using the PowerShell Script action. However, this feature
 requires advanced scripting knowledge.

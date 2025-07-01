@@ -8,17 +8,17 @@ downloaded from within the Threat Manager Console.
 
 Follow the steps to install the Action Service.
 
-![install](/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
+![install](/img/product_docs/threatprevention/7.5/install/upgrade/install.webp)
 
 **Step 1 –** Run the StealthDEFEND.ActionService MSI installation package and the Threat Manager
 Action Service Setup wizard will open.
 
-![settupprogress](/img/product_docs/threatmanager/threatmanager/install/settupprogress.webp)
+![settupprogress](/img/product_docs/threatmanager/3.0/install/settupprogress.webp)
 
 **Step 2 –** Click Install to begin the installation. The setup wizard displays installation
 progress.
 
-![completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![completed](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 3 –** When the installation is complete, click Close to exit the installer.
 
@@ -88,7 +88,7 @@ Follow the steps to configure the Action Service to run as a service account.
 **Step 2 –** Double-click on the Netwrix Threat Manager Action Service. The Threat Manager Action
 Service Properties window opens.
 
-![serviceaccountproperties](/img/product_docs/threatmanager/threatmanager/install/serviceaccountproperties.webp)
+![serviceaccountproperties](/img/product_docs/threatmanager/3.0/install/serviceaccountproperties.webp)
 
 **Step 3 –** Click the Log On tab.
 
@@ -99,7 +99,7 @@ account.
 **Step 5 –** Click Apply and then OK. This sets the Action Service to “run as” the specified
 account.
 
-![servicesrestart](/img/product_docs/threatmanager/threatmanager/install/servicesrestart.webp)
+![servicesrestart](/img/product_docs/threatmanager/3.0/install/servicesrestart.webp)
 
 **Step 6 –** Restart the Threat Manager Action Service by right-clicking on the Netwrix Threat
 Manager Action Service in the Services window and clicking Restart.

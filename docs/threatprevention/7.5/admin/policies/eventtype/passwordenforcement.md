@@ -13,7 +13,7 @@ The event filters for the Password Enforcement event type are:
 - Hosts (from)
 - Password Rules
 
-![Policy window - Password Enforcement Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordenforcement.webp)
+![Policy window - Password Enforcement Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/passwordenforcement.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -76,7 +76,7 @@ implemented across the environment. See the
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -95,7 +95,7 @@ for additional information.
 Use the AD Account filter to select Active Directory accounts, groups, and organizational units
 (containers) to have passwords validated by the policy.
 
-![Policy window - AD Account filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adaccount.webp)
+![Policy window - AD Account filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adaccount.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -127,7 +127,7 @@ for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -148,7 +148,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -174,7 +174,7 @@ for additional information.
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -199,7 +199,7 @@ password is being changed.
 policies. Password values that fail to meet the Windows complexity checks are rejected by Windows
 before Threat Prevention Enterprise Password Enforcer can evaluate them.
 
-![Policy window - Password Rules filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/passwordrules.webp)
+![Policy window - Password Rules filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/passwordrules.webp)
 
 You can enforce all or specific rules that you enable on this filter.
 

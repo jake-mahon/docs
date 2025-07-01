@@ -8,7 +8,7 @@ Investigations interface.
 If you have not integrated the Threat Manager Reporting module with a Netwrix product, the interface
 is displayed as:
 
-![Investigations interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
+![Investigations interface](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
 
 To integrate with a Netwrix product, such as Threat Prevention, see the
 [Netwrix Integrations Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/netwrixintegrations.md)
@@ -17,7 +17,7 @@ topic.
 After integration, when you click **Investigate** in the application header bar, the Investigations
 interface defaults to the New Investigation page as follows:
 
-![New Investigation window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/newinvestigation.webp)
+![New Investigation window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/newinvestigation.webp)
 
 The Investigations interface contains the following pages:
 

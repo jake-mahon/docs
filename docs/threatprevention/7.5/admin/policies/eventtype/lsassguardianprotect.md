@@ -12,7 +12,7 @@ The event filters for the LSASS Guardian – Protect event type are:
 - Processes
 - Open Process Flags
 
-![Policy window - LSASS Guardian – Protect Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/lsassprotect.webp)
+![Policy window - LSASS Guardian – Protect Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/lsassprotect.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -29,7 +29,7 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -55,7 +55,7 @@ for additional information.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
@@ -77,7 +77,7 @@ exclude specific processes from being locked down.
 **_RECOMMENDED:_** Add undesired processes that make changes to LSASS, e.g. third-party malware
 applications, to the Allow list.
 
-![Policy window - Processes filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesprotect.webp)
+![Policy window - Processes filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/processesprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -100,7 +100,7 @@ Type the process in the textbox. Use the buttons above the box to edit the list.
 Use the Open Process Flags filter to set the scope of the policy for requested handles that would
 maliciously impact LSASS.
 
-![openprocessflagsmonitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/openprocessflagsmonitoring.webp)
+![openprocessflagsmonitoring](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/openprocessflagsmonitoring.webp)
 
 Check the box to select the process flag(s) to be removed from the LSASS handle that is returned to
 the requesting process.

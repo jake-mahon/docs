@@ -5,7 +5,7 @@ Admin Activity. See the [SIEM Folder Templates](/docs/threatprevention/7.5/admin
 for information on this policy template. If this policy template is not enabled and actively
 monitoring, then this dashboard will be blank.
 
-![Administrator Auditing Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.webp)
+![Administrator Auditing Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/administratorauditing.webp)
 
 - Top Client IPs – Displays up to the top five (5) client IP addresses related to events that have
   been recorded in the specified timeframe

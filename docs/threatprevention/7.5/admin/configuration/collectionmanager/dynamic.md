@@ -11,7 +11,7 @@ following collection categories:
 - Hosts – Dynamic Hosts Collection Table Requirements
 - File Paths – Dynamic File Paths Collection Table Requirements
 
-![Options on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addcollectionoptions.webp)
+![Options on the Add New Collection window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/addcollectionoptions.webp)
 
 - The _I will provide a list_ option button enables the default setting for a static collection. See
   the [Add New Collection Window](/docs/threatprevention/7.5/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window) topic to manually

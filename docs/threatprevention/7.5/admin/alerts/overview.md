@@ -10,7 +10,7 @@ this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
 
-![Alerts interface](/img/product_docs/threatprevention/threatprevention/admin/alerts/alertsinterface.webp)
+![Alerts interface](/img/product_docs/threatprevention/7.5/admin/alerts/alertsinterface.webp)
 
 The following options are available on the toolbar:
 

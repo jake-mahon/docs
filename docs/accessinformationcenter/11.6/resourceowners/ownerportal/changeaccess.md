@@ -88,7 +88,7 @@ Requests page via the **Access Requests** link on the Actions panel.
 
 A CSV file can be created to import a list of users.
 
-![Example CSV File for adding user access imports](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/importfile.webp)
+![Example CSV File for adding user access imports](/img/product_docs/threatprevention/7.4/admin/configuration/systemalerting/importfile.webp)
 
 The CSV file must contain one user per row. Use the NTAccount [Domain\SamAccountName] format for the
 user name, for example `NWXTECH\JSmith`.

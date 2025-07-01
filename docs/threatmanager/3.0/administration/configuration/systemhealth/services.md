@@ -3,7 +3,7 @@
 The Services page displays the services associated with the application server. See the
 [Installation](/docs/threatmanager/3.0/install/overview.md) topic for a complete list of application services.
 
-![System Health interface showing the Services page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/servicespage.webp)
+![System Health interface showing the Services page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/servicespage.webp)
 
 The table displays the following information:
 
@@ -16,7 +16,7 @@ The table displays the following information:
 
 Select a service from the table or the navigation pane to view its details.
 
-![System Health interface displaying the details for a Service](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/servicesdetails.webp)
+![System Health interface displaying the details for a Service](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/servicesdetails.webp)
 
 The page displays the following information:
 

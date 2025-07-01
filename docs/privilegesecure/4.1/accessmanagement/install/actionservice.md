@@ -31,7 +31,7 @@ server.
 **Step 3 –** Open the NPS.ActionService.exe and the Netwrix Privilege Secure Action Service Setup
 wizard will open.
 
-![licenseagreement](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![licenseagreement](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 4 –** To install the Action Service in an alternate location, click **Options**.
 

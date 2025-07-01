@@ -7,7 +7,7 @@ Alerts Node
 
 From the Agents node, the right-click menu can be used to install the Agent.
 
-![Agents node - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/agentsmenu.webp)
+![Agents node - Right-click Menu](/img/product_docs/threatprevention/7.5/admin/navigation/agentsmenu.webp)
 
 | Right-Click Command | Description                                                                                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ Saved ‘Filtered Investigate’ Nodes
 From the node of a saved ‘Filtered Investigate’ view, the right-click menu allows you to delete the
 saved view.
 
-![Saved ‘Filtered Investigate’ Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/savedinvestigateviewnode.webp)
+![Saved ‘Filtered Investigate’ Nodes - Right-click Menu](/img/product_docs/threatprevention/7.5/admin/navigation/savedinvestigateviewnode.webp)
 
 | Right-Click Command | Description                                   |
 | ------------------- | --------------------------------------------- |
@@ -29,7 +29,7 @@ Policies and Templates Nodes
 From the Policies and Templates nodes, the right-click menu is limited to adding new folders to the
 selected section.
 
-![Policies and Templates Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/policiestemplatesnodes.webp)
+![Policies and Templates Nodes - Right-click Menu](/img/product_docs/threatprevention/7.5/admin/navigation/policiestemplatesnodes.webp)
 
 | Right-Click Command   | Description                                   |
 | --------------------- | --------------------------------------------- |
@@ -39,7 +39,7 @@ Folder Node
 
 From a Folder node, the right-click menu contains these commands.
 
-![Folder Node - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/foldermenu.webp)
+![Folder Node - Right-click Menu](/img/product_docs/threatprevention/7.5/admin/navigation/foldermenu.webp)
 
 | Right-Click Command     | Description                                                                                           |
 | ----------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -58,7 +58,7 @@ for additional information on protection.
 
 From the node for a specific policy or template, the right-click menu contains these commands.
 
-![`<Policy Name>` and `<Template Name>` Nodes - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/individualpolicytemplatenode.webp)
+![`<Policy Name>` and `<Template Name>` Nodes - Right-click Menu](/img/product_docs/threatprevention/7.5/admin/navigation/individualpolicytemplatenode.webp)
 
 | Right-Click Command | Description                                                                                                                |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
@@ -77,7 +77,7 @@ Tags Node
 
 From the Tags node, the right-click menu contains these commands.
 
-![Tags Node - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/tagsnode.webp)
+![Tags Node - Right-click menu](/img/product_docs/threatprevention/7.5/admin/navigation/tagsnode.webp)
 
 | Right-Click Command | Description                                                                                              |
 | ------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -87,7 +87,7 @@ From the Tags node, the right-click menu contains these commands.
 
 From the template within a folder under the Tags node, the right-click menu contains these commands.
 
-![Template Name Node under Tags - Right-click menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/templatenodeundertags.webp)
+![Template Name Node under Tags - Right-click menu](/img/product_docs/threatprevention/7.5/admin/navigation/templatenodeundertags.webp)
 
 | Right-Click Command | Description                  |
 | ------------------- | ---------------------------- |
@@ -97,7 +97,7 @@ From the template within a folder under the Tags node, the right-click menu cont
 
 A right-click menu is also available from the column headers of a data grid.
 
-![Displays the data grid right-click menu. ](/img/product_docs/threatprevention/threatprevention/admin/navigation/headerrightclickmenu.webp)
+![Displays the data grid right-click menu. ](/img/product_docs/threatprevention/7.5/admin/navigation/headerrightclickmenu.webp)
 
 It contains the following selections:
 

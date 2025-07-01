@@ -3,7 +3,7 @@
 The Actions tab is for configuring various responses, or event consumers, to the event data a policy
 captures.
 
-![Template – Actions tab](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
+![Template – Actions tab](/img/product_docs/threatprevention/7.5/admin/policies/actions/actionstab.webp)
 
 The following types of actions are available:
 
@@ -81,7 +81,7 @@ notifications from the drop-down menu. Only message profiles previously created 
 selection. This action can also be assigned on the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md).
 
-![Actions tab - Email Notifications section](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/emailnotificationssetup.webp)
+![Actions tab - Email Notifications section](/img/product_docs/threatprevention/7.5/admin/policies/actions/emailnotificationssetup.webp)
 
 Enable the Email Notifications checkbox, select a message profile and then choose to enable the
 **Prevent Repeat Emails by** option. If enabled:

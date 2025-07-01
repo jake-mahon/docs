@@ -27,7 +27,7 @@ Step 3 – Let`s fill out the website form in this example.
 
 - Enter the username or email address needed for login.
 
-![username](/img/product_docs/threatprevention/threatprevention/eperestsite/username.webp)
+![username](/img/product_docs/threatprevention/7.5/eperestsite/username.webp)
 
 - Enter the password manually or use the password generator by clicking on the button in the middle
   (high number). The password generator will open.
@@ -46,6 +46,6 @@ password.
 
 - Add one or more tags to categorize your password and find it easier (i.e., "HR" or "Internet").
 
-![tags](/img/product_docs/threatprevention/threatprevention/admin/tags/tags.webp)
+![tags](/img/product_docs/threatprevention/7.5/admin/tags/tags.webp)
 
 Step 4 – Click **Save**, and you are done!

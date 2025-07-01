@@ -21,12 +21,12 @@ happens:
   install it. You can either exit the wizard and install it manually or walk through the wizard
   until its last page and install it as part of the Threat Prevention installation process.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/customsetupremote.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.4/install/customsetupremote.webp)
 
 **Step 4 –** By default, all three components are selected for installation. However, as you only
 have to install the Win Console component, do the following to deselect the Enterprise Manager and
@@ -42,7 +42,7 @@ components are installed to the `C:\Program Files\Netwrix\Netwrix Threat Prevent
 _(Optional)_ Click **Browse…** to change the installation location. The Change destination folder
 page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/changedestinationfolder.webp)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/7.4/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -50,7 +50,7 @@ page opens.
 The wizard returns to the Custom Setup page. You can use the **Reset** button to revert to the
 default settings on the Custom Setup page. Click **Next** to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/emlocationforremoteconsole.webp)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/7.4/install/emlocationforremoteconsole.webp)
 
 **Step 6 –** On the Enterprise Manager Location Information page, the host name or IP address for
 the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service
@@ -90,7 +90,7 @@ Administrative command prompt.
 
 **Step 8 –** Click Finish on the Completed the Netwrix Threat Prevention Server Setup Wizard page.
 
-![Threat Prevention Admin Console desktop icon](/img/versioned_docs/threatprevention_7.4/threatprevention/install/winconsoleicon.webp)
+![Threat Prevention Admin Console desktop icon](/img/product_docs/threatprevention/7.4/install/winconsoleicon.webp)
 
 The Administration Console has been installed, and the Windows Console icon is now on the desktop.
 

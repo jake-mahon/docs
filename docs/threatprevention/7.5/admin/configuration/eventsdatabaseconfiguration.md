@@ -5,7 +5,7 @@ Events database. Click **Configuration** > **Database** > **Server** on the menu
 
 This window is only available to Threat Prevention administrators.
 
-![Events Database Configuration Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfig.webp)
+![Events Database Configuration Window](/img/product_docs/threatprevention/7.5/admin/configuration/eventsdatabaseconfig.webp)
 
 The Event database is originally configured when installing the Threat Prevention Enterprise Manager
 package. See the [Application Server Install](/docs/threatprevention/7.5/install/application.md) topic for additional

@@ -50,7 +50,7 @@ additional information.
 When you right-click an object in a domain on the Active Directory page, the right-click menu is
 displayed as:
 
-![Right-click menu on the Active Directory page](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.webp)
+![Right-click menu on the Active Directory page](/img/product_docs/threatprevention/7.5/admin/agents/rightclickmenu.webp)
 
 The Show audit history and Show activity options are enabled only when both the following conditions
 are met:

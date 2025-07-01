@@ -30,11 +30,11 @@ wizard opens.
 **NOTE:** If PostgreSQL v12 is already installed, a green checkmark is displayed to the left of the
 Install PostgreSQL 12 button and you can install the Privilege Secure application.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/install.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/product_docs/threatprevention/7.4/install/upgrade/install.webp)
 
 **Step 2 –** On the Install page, click **Install**.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the **I accept the license agreement**
 box and click **Next**.
@@ -75,7 +75,7 @@ PostgreSQL Setup. Click Netwrix Privilege Secure Setup.
 
 **NOTE:** This window remains open in the background while the database is installed.
 
-![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
 
 **Step 2 –** On the End User License Agreement page, check the **I agree to the license terms and
 conditions** box and click **Options**.

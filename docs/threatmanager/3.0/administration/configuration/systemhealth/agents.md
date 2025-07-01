@@ -5,7 +5,7 @@ Manager. This requires a minimum version of Threat Prevention7.5. This section m
 troubleshoot or diagnose agent issues by indicating the connectivity of the Threat Prevention agent
 to the Threat Manager server.
 
-![System Health Page Agent Overview](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemhealth/agentoverview.webp)
+![System Health Page Agent Overview](/img/product_docs/threatmanager/3.0/administration/configuration/systemhealth/agentoverview.webp)
 
 Clicking **Decommission** will remove an agent from the Threat Manager agent list.
 

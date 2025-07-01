@@ -5,7 +5,7 @@ targeted when searching for threats. Wildcard characters (%) are allowed.
 
 The Privilege Creep/Escalation option contains the following cards:
 
-![privilegecreep](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/splunk/threathunting/dashboard/privilegecreep.webp)
+![privilegecreep](/img/product_docs/threatprevention/7.4/siemdashboard/splunk/threathunting/dashboard/privilegecreep.webp)
 
 - Last Twenty Successful Group Modification Events (Member) – Shows the details of the last twenty
   successful group modification events where the Account Name matches the Affected Object, as

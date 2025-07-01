@@ -14,7 +14,7 @@ Any combination of these three methods can be used to select computers.
 
 The Add Single Host tab is displayed by default when the Select Computer window opens.
 
-![Deploy Agents wizard – Select Computers page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.webp)
+![Deploy Agents wizard – Select Computers page](/img/product_docs/threatprevention/7.5/admin/agents/deploy/selectcomputers.webp)
 
 Manually enter and select the host name or IP address of a computer. Use the double-arrow button to
 add it to the Deploy Agents to These Computers box.
@@ -23,7 +23,7 @@ add it to the Deploy Agents to These Computers box.
 
 Click the Add From AD tab.
 
-![Deploy Agents wizard – Select Computers page: Add from AD tab](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/addfromad.webp)
+![Deploy Agents wizard – Select Computers page: Add from AD tab](/img/product_docs/threatprevention/7.5/admin/agents/deploy/addfromad.webp)
 
 Browse the domain's computer objects (Domain Controllers and Computers) to select those where you
 want to deploy the Agent.
@@ -40,7 +40,7 @@ want to deploy the Agent.
 
 Click the Add From File tab.
 
-![Deploy Agents wizard – Select Computers page: Add from File tab](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/addfromfile.webp)
+![Deploy Agents wizard – Select Computers page: Add from File tab](/img/product_docs/threatprevention/7.5/admin/agents/deploy/addfromfile.webp)
 
 You can import a text file with a list of computer names or IP addresses with carriage returns, or a
 CSV file with comma-separated values.

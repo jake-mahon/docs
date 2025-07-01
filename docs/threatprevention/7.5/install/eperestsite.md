@@ -19,12 +19,12 @@ applications that have to use the REST API.
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/7.5/install/licenseagreement.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/threatprevention/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.5/install/customsetup.webp)
 
 **Step 4 –** The Custom Setup page displays the Threat Prevention components that are available to
 install.
@@ -51,7 +51,7 @@ installed to the `C:\Program Files\Netwrix\Netwrix Threat Prevention\` directory
 _(Optional)_ Click **Browse…** to change the installation location. The Change destination folder
 page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.webp)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/7.5/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -59,7 +59,7 @@ page opens.
 The wizard returns to the Custom Setup page. You can use the **Reset** button to revert to the
 default settings on the Custom Setup page. Click **Next** to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/emlocationforremoteconsole.webp)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/7.5/install/emlocationforremoteconsole.webp)
 
 **Step 6 –** On the Enterprise Manager Location Information page, the host name or IP address for
 the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service
@@ -74,7 +74,7 @@ firewall, uncheck this option and manually create the necessary firewall rules. 
 
 When the settings are configured, click **Next**.
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](/img/product_docs/threatprevention/threatprevention/install/database.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](/img/product_docs/threatprevention/7.5/install/database.webp)
 
 **Step 7 –** On the Database Login Information page, provide information for the SQL Server where
 the installer will create a database for the EPE Rest Site.
@@ -106,7 +106,7 @@ the installer will create a database for the EPE Rest Site.
     **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
     window displays failure details.
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/img/product_docs/threatprevention/threatprevention/install/windowsauthentication.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/img/product_docs/threatprevention/7.5/install/windowsauthentication.webp)
 
 **Step 8 –** If Windows authentication is selected, the Logon page is displayed.
 

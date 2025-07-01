@@ -100,7 +100,7 @@ group appears in the table. Repeat this step for each access level desired. See 
 **Step 9 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Add new resource wizard completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Add new resource wizard completed page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
 
 **Step 10 –** The action status displays on the page. When the task has completed (100%), click
 **Close**. The Add new resource wizard closes.

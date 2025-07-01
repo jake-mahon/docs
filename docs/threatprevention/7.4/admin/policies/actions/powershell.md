@@ -6,13 +6,13 @@ Enterprise Manager for an enabled policy.
 
 Follow the steps to add a PowerShell 4.0 action to a policy/template.
 
-![Actions tab - Actions Configurations area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
+![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/7.4/admin/policies/actions/actionsconfigurationsarea.webp)
 
 **Step 1 –** On a policy or template Actions tab, click **Add** (+) to open the Add Action window.
 
 **Step 2 –** In the left pane, select the radio button for **PowerShell 4.0**.
 
-![addactionwindowforpowershell](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/addactionwindowforpowershell.webp)
+![addactionwindowforpowershell](/img/product_docs/threatprevention/7.4/admin/policies/actions/addactionwindowforpowershell.webp)
 
 **Step 3 –** Configure the PowerShell 4.0 Script action:
 
@@ -22,7 +22,7 @@ Follow the steps to add a PowerShell 4.0 action to a policy/template.
   optional but recommended.
 - Click **Edit…** to view the sample script. The Threat Prevention Script Editor opens
 
-![Script Editor for PowerShell Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorforps.webp)
+![Script Editor for PowerShell Scripts](/img/product_docs/threatprevention/7.4/admin/policies/actions/scripteditorforps.webp)
 
 **Step 4 –** Create or copy/paste the custom script in the Threat Prevention Script Editor. See the
 [Threat Prevention Script Editor Tools](/docs/threatprevention/7.4/admin/policies/actions/netscript.md#threat-prevention-script-editor-tools)
@@ -36,7 +36,7 @@ information about the compiling of scripts.
 
 **Step 6 –** Click Save to close the Add Action window and apply changes.
 
-![Actions tab – PowerShell 4.0 Action Created](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/powershellaction.webp)
+![Actions tab – PowerShell 4.0 Action Created](/img/product_docs/threatprevention/7.4/admin/policies/actions/powershellaction.webp)
 
 The Actions tab now displays the configured settings for the specified PowerShell 4.0 action. The
 action configuration can be directly edited through this display as well.

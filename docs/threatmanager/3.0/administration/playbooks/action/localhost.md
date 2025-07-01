@@ -8,7 +8,7 @@ The PowerShell Script action executes a specified PowerShell script. This action
 build a custom threat response, using PowerShell, to handle scenarios not covered by other
 preconfigured action steps.
 
-![powershellscriptactionstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/powershellscriptactionstep.webp)
+![powershellscriptactionstep](/img/product_docs/threatmanager/3.0/administration/playbooks/action/powershellscriptactionstep.webp)
 
 - PowerShell Script – Select the PowerShell script to execute. By default, the PowerShell script
   includes a comment section which includes Threat Manager threat variables that can be used in
@@ -35,7 +35,7 @@ The Send Email action sends an email.
 
 The Stop Process action stops a process running locally on the host associated with the threat.
 
-![stopprocess](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/stopprocess.webp)
+![stopprocess](/img/product_docs/threatmanager/3.0/administration/playbooks/action/stopprocess.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the
@@ -47,7 +47,7 @@ The Stop Process action stops a process running locally on the host associated w
 The End User Session action attempts to log the specified user out of any active RDP sessions on the
 target client.
 
-![endusersession](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/endusersession.webp)
+![endusersession](/img/product_docs/threatmanager/3.0/administration/playbooks/action/endusersession.webp)
 
 - Users – The users to log out of RDP sessions. If not specified, only the perpetrator will be used.
   Select the users from the drop-down list:

@@ -16,7 +16,7 @@ This warning always displays when the organization’s license is within 14 days
 [Import the License](/docs/threatprevention/7.4/install/licenseimport.md)
 topic for licensing the product.
 
-![Import Templates dialog box](/img/versioned_docs/threatprevention_7.4/threatprevention/install/importtemplates.webp)
+![Import Templates dialog box](/img/product_docs/threatprevention/7.4/install/importtemplates.webp)
 
 **Step 2 –** On the Import Templates dialog box, you can choose to import policy templates now or
 later.

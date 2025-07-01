@@ -6,7 +6,7 @@ providers using RADIUS, OpenID, and SAML integrations.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![Integrations interface on the Authentication Provider page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Authentication Provider page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
 
 Click **Authentication Provider** in the navigation pane to view a list of already configured
 authentication providers, if any.
@@ -22,7 +22,7 @@ Follow the steps to add an authentication provider.
 **Step 1 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Authentication Provider type selected](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
+![Add New Integration window with Authentication Provider type selected](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
 
 **Step 2 –** In the Type drop-down list, select Authentication Provider.
 

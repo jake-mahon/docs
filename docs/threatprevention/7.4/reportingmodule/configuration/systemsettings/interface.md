@@ -6,7 +6,7 @@ more.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **System Settings** to open the System Settings interface.
 
-![System Settings interface](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/interface.webp)
+![System Settings interface](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
 
 It contains the following pages:
 

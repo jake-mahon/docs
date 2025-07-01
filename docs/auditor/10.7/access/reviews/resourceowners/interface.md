@@ -3,7 +3,7 @@
 The Resource Owners interface opened by the Resource Owners tab is where Ownership Administrators
 perform many operations around assigning and managing ownership.
 
-![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
 
 The information displayed in the table includes:
 

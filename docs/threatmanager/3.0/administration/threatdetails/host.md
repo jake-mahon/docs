@@ -2,7 +2,7 @@
 
 The Host Details page displays all threats on the selected host.
 
-![Host Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Host Details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
 
 The top of the page displays a host profile card which may contain the following information about
 the host:
@@ -28,7 +28,7 @@ The page has the following tabs:
 
 The Threats tab for a host displays the threats for the host by timeframe.
 
-![Threats tab of the Host Details page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/threatstab.webp)
+![Threats tab of the Host Details page](/img/product_docs/threatmanager/3.0/administration/threatdetails/threatstab.webp)
 
 The Threats tab contains a bar chart that displays each type of threat on the host and a pie chart
 that shows the total number of threats on the host. The Threats List displayed below the Historical
@@ -38,7 +38,7 @@ Events section displays all threats that occurred on the host for the selected t
 
 The Activity Summary tab displays charts for host activity over different time periods.
 
-![Activity Summary tab of the Host Details page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/activitysummarytab.webp)
+![Activity Summary tab of the Host Details page](/img/product_docs/threatmanager/3.0/administration/threatdetails/activitysummarytab.webp)
 
 The Activity Overview (Past 12 Months) shows a color-coded heat map of host activity. Other metrics
 include Average Activity by Hour, and Average Activity by Day, and Events by Type.
@@ -50,9 +50,9 @@ The Group Membership tab displays the groups the host is a member of. It has the
 - Direct Member Of – Lists groups the host is a direct member of
 - Indirect Member Of – Lists groups the host is a member of via membership in a nested group
 
-![groupmembershiptab](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupmembershiptab.webp)
+![groupmembershiptab](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/groupmembershiptab.webp)
 
-![Group Membership Tab Indirect Member of Page](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/groupmembershiptabindirect.webp)
+![Group Membership Tab Indirect Member of Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptabindirect.webp)
 
 Each table has the following columns:
 

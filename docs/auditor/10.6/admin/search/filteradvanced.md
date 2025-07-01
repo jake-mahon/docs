@@ -66,7 +66,7 @@ When you add a new search filter, the Contains operator is used by default.
 To modify conditions for the selected filters, make sure you have switched to the Advanced search
 mode.
 
-![advanced](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/advanced.webp)
+![advanced](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/advanced.webp)
 
 The image below represents the same search filters as they are shown in the Search field in the
 Simple mode.

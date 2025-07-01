@@ -12,7 +12,7 @@ Symantec VIP, etc.) ready to setup for this account through the wizard.
 
 There are two methods for launching the Setup Wizard:
 
-![Netwrix Privilege Secure desktop icon](/img/versioned_docs/threatprevention_7.4/threatprevention/install/desktopicon.webp)
+![Netwrix Privilege Secure desktop icon](/img/product_docs/threatprevention/7.4/install/desktopicon.webp)
 
 - Double-click the desktop icon. Your default browser opens to the Setup Wizard.
 - Open a supported browser window and navigate to the following URL, which opens the Setup Wizard:

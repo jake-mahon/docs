@@ -3,7 +3,7 @@
 The Email page within the Integrations interface allows users to configure the application to send
 email notifications.
 
-![Integrations interface on the Email page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Email page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
 
 The page has the following information:
 
@@ -32,7 +32,7 @@ Follow the steps to configure email notifications.
 
 **Step 1 –** On the Integrations interface, click **Email** in the navigation pane.
 
-![Integrations interface on the Email page showing details](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Email page showing details](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
 
 **Step 2 –** Toggle the Enabled button to **ON**, which enables the Send Test Email button.
 

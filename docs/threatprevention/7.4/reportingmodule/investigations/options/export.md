@@ -50,7 +50,7 @@ investigation is located in the folder where it was saved.
 **Step 2 –** After running a query and confirming the report data is displayed in the report
 sections, click the **Export** menu and select **Send as Email**. The Send as Email window opens.
 
-![Send as Email window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/sendasemail.webp)
+![Send as Email window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/sendasemail.webp)
 
 **Step 3 –** Begin typing in the **Recipients** textbox. You can enter a user name or email address.
 Available email addresses read from Active Directory that match the text string will populate in the
@@ -87,7 +87,7 @@ sections, click the **Export** menu and select Scheduled export. The Schedule ex
 The name of the respective investigation is displayed as a link. Click it to view the filter defined
 for the investigation.
 
-![Schedule export window](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/scheduleexport.webp)
+![Schedule export window](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/scheduleexport.webp)
 
 **Step 3 –** By default the schedule is enabled. You can disable it with the toggle button by the
 window name.
