@@ -4,9 +4,9 @@ Gives to a given profile the rights to create, update and delete profiles.
 
 Profiles are listed on the **Profiles** screen, from **Settings** in the **Configuration** section.
 
-![Settings](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
+![Settings](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
-![Profiles](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/accesscontrol_profiles_v603.webp)
+![Profiles](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/accesscontrol_profiles_v603.webp)
 
 [See more details on profiles' APIs](/docs/identitymanager/6.1/integration-guide/api/server/accesscontrol/index.md).
 

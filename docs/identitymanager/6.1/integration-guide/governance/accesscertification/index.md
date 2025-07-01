@@ -193,7 +193,7 @@ The following example creates a new policy named `Manager`.
 
 It automatically appears on the campaign creation screen, and binds itself to the created campaign:
 
-![Campaign creation screen with policies](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/accesscertification/creation_5.1.6.webp)
+![Campaign creation screen with policies](/img/product_docs/identitymanager/6.1/integration-guide/governance/accesscertification/creation_5.1.6.webp)
 
 To use it, modify the
 [access control rules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)

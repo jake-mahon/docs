@@ -11,7 +11,7 @@ and
 [ References: Permissions ](/docs/identitymanager/6.1/integration-guide/profiles-permissions/permissions/index.md)
 topics for additional information.
 
-![Schema - Profile Assignment](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
+![Schema - Profile Assignment](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
 
 For example, the access to the list of users with their personal data is usually restricted to HR
 people, and the possibility to modify personal data restricted to HR managers.
@@ -53,16 +53,16 @@ Manual assignment
 
 Assign manually a profile to a user by proceeding as follows:
 
-![Home Page - Assigned Profiles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
+![Home Page - Assigned Profiles](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-assignment/home_assignedprofiles_v602.webp)
 
 **Step 1 –** Access the **Assigned Profiles** screen from the home page in the **Administration**
 section.
 
-![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 **Step 2 –** Click on the addition button at the top right corner.
 
-![New Profile](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.webp)
+![New Profile](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-assignment/roleofficers_newprofile_v602.webp)
 
 **Step 3 –** Fill in the fields.
 
@@ -91,7 +91,7 @@ type and potentially specific criteria. See the
 [ProfileRuleContext](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
 topic for additional information.
 
-![Launch Button](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/user-profile-assignment/launch_v603.webp)
+![Launch Button](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-assignment/launch_v603.webp)
 
 Click on **Launch** to apply these profile rules.
 

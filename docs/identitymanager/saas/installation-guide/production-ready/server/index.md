@@ -70,7 +70,7 @@ The following is mandatory:
 - **Application Pool** > `Usercube<Organization>` > **Advanced Settings** > **General** > .NET CLR
   Version > `No Managed Code`
 
-![IIS Settings](/img/product_docs/identitymanager/identitymanager/installation-guide/production-ready/server/iis_settings.webp)
+![IIS Settings](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/iis_settings.webp)
 
 An SSL Certificate should also be set to the IIS Server to perform HTTPS communication with
 end-users.
@@ -190,7 +190,7 @@ then go to the **Server Roles** page on the left and make sure **public** is che
 **Step 6 –** Go to **User Mapping**and make sure `Usercube/<Organization/>` is checked (top panel),
 as well as **db_owner** and **public** (bottom panel).
 
-![Bulk](/img/product_docs/identitymanager/identitymanager/installation-guide/production-ready/server/bulk.webp)
+![Bulk](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/bulk.webp)
 
 **Step 7 –** Right-click the **Server** root node and select **Properties**, and in the
 **Permissions** tab, select the service account or group name.
@@ -234,7 +234,7 @@ The Identity Manager Server service account that was chosen previously:
 
     **Step 1 –** Click on **Edit** and then on **Add**.
 
-    ![Object Names](/img/product_docs/identitymanager/identitymanager/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
+    ![Object Names](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
     **Step 2 –** In the **Enter the object names to select** textbox, enter the service account name
     in the down-level log on format, such as `CONTOSO/identitymanagerContosoServer`, then click **OK**.

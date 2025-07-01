@@ -20,7 +20,7 @@ and links between entity types
 ([navigation properties](/docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)),
 both described later.
 
-![Entity Type - Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
+![Entity Type - Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
 
 The configuration of entity types depends entirely on the
 [previously established model](/docs/identitymanager/6.1/user-guide/set-up/connect-system/connector-modeling/index.md).
@@ -60,7 +60,7 @@ below this note.
 > resource types for a standard AD connector. The template is available for a connector with an AD
 > connection but no entity types.
 >
-> ![Entity Type - AD Template](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.webp)
+> ![Entity Type - AD Template](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/entitytype_template_v602.webp)
 
 ## Verify the Entity Type
 

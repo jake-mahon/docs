@@ -4,7 +4,7 @@ Generates the rights to access the report view.
 
 Gives access to a shortcut on the navigation to access this page.
 
-![Reports](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/reporting/home_reports_v602.webp)
+![Reports](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/home_reports_v602.webp)
 
 ## Examples
 

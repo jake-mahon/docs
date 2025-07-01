@@ -9,15 +9,15 @@ Get an access token by proceeding as follows:
 1. Launch Postman.
 2. Create a new request by clicking on **+ New** then **Request**.
 
-    ![Postman: New Request](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_newrequest.webp)
+    ![Postman: New Request](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_newrequest.webp)
 
 3. Fill in the fields and click on **Save to Identity Manager**.
 
-    ![Postman: New Request Fields](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_requestfields.webp)
+    ![Postman: New Request Fields](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_requestfields.webp)
 
 4. Fill in the authentication information as follows:
 
-    ![Postman: Authentication](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_authentication.webp)
+    ![Postman: Authentication](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_authentication.webp)
 
     - **Method**: POST
     - **URL**: `<URL IdentityManager>`/connect/token
@@ -29,7 +29,7 @@ Get an access token by proceeding as follows:
 
 5. Click on **Send** and get the access token from the response body.
 
-    ![Postman: Access Token](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_accesstoken.webp)
+    ![Postman: Access Token](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_accesstoken.webp)
 
 ## Use an Access Token
 
@@ -38,7 +38,7 @@ Use an access token by proceeding as follows:
 1. Create a new request in Postman.
 2. Fill in the authorization information as follows:
 
-    ![Postman: Authorization](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_authorization.webp)
+    ![Postman: Authorization](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_authorization.webp)
 
     - **Method**: GET
     - **URL**: `<URL IdentityManager>`/`<URI of the API to call>`?api-version=1.0
@@ -48,7 +48,7 @@ Use an access token by proceeding as follows:
 
 3. Click on **Send** and get the result from the response body.
 
-    ![Postman: Access Token Result](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.webp)
+    ![Postman: Access Token Result](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.webp)
 
 ## Create a Combined Request
 
@@ -57,7 +57,7 @@ Create a combined request by proceeding as follows:
 1. Create a new request in Postman.
 2. Fill in the authorization information as follows:
 
-    ![Postman: Authorization (Combined Request)](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_authorizationcombined.webp)
+    ![Postman: Authorization (Combined Request)](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_authorizationcombined.webp)
 
     - **Method**: GET
     - **URL**: `<URL IdentityManager>`/`<URI of the API to call>`?api-version=1.0
@@ -67,7 +67,7 @@ Create a combined request by proceeding as follows:
 
 3. Click on **Get New Access Token** and fill in the fields as follows:
 
-    ![Postman: New Access Token Fields (Combined Request)](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_newaccesstokencombined.webp)
+    ![Postman: New Access Token Fields (Combined Request)](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_newaccesstokencombined.webp)
 
     - **Token Name**: `<Token Name>`
     - **Grant Type**: Client Credentials
@@ -82,8 +82,8 @@ Create a combined request by proceeding as follows:
 
 4. Click on **Request Token** to get the token.
 
-    ![Postman: Get Token (Combined Request)](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_gettokencombined.webp)
+    ![Postman: Get Token (Combined Request)](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_gettokencombined.webp)
 
 5. Click on **Use Token** and **Send** and get the result from the response body.
 
-    ![Postman: Access Token Result (Combined Request)](/img/product_docs/identitymanager/identitymanager/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.webp)
+    ![Postman: Access Token Result (Combined Request)](/img/product_docs/identitymanager/saas/integration-guide/api/how-tos/request-postman/postman_accesstokenresult.webp)

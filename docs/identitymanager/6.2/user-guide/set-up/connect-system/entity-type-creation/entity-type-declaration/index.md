@@ -17,15 +17,15 @@ Create the entity type by proceeding as follows:
 1. Access the connector's page by clicking on the **Connectors** button on the home page in the
    **Configuration** section, then on the relevant connector.
 
-    ![Home page - Connectors](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/synchronization/home_connectors_v602.webp)
+    ![Home page - Connectors](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_connectors_v602.webp)
 
 2. On the connector's page, in the **Entity Types** frame, click on the addition button.
 
-    ![Addition Icon](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 3. Fill in the information fields.
 
-    ![Entity type creation](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_entitytypecreation_v602.webp)
+    ![Entity type creation](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_entitytypecreation_v602.webp)
 
     - `Identifier`: must be unique among entity types, without any whitespace, and be C#-compatible.
       [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
@@ -39,7 +39,7 @@ Create the entity type by proceeding as follows:
 4. In the entity type's **Properties** section, choose a source so that the connection provides the
    source's data structure.
 
-    ![Properties' source](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_propertiessource_v522.webp)
+    ![Properties' source](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_propertiessource_v522.webp)
 
     > Let's use the example of an AD connector. We create an entity type `AD - Entry` to gather the
     > valuable information from the AD, i.e. all the AD entries (groups and accounts) which we want
@@ -59,7 +59,7 @@ type.
 
 If there are no connection tables available in the **Source** dropdown list of an entity type, then:
 
-![Properties' source](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_propertiessource_v522.webp)
+![Properties' source](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_propertiessource_v522.webp)
 
 Ensure that there are existing connections:
 
@@ -70,7 +70,7 @@ Ensure that there are existing connections:
 
 If there is a message stating to refresh the connection's schema, then:
 
-![No Connection Table Error](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.webp)
+![No Connection Table Error](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.webp)
 
 Start by making sure that the connection's schema is refreshed by clicking on **Refresh all
 schemas** on the connector page, and verify that there is no error.

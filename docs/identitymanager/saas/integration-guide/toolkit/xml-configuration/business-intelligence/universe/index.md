@@ -18,13 +18,13 @@ The following example builds a universe called `Universe1`:
 
 ```
 
-![Universe - Basic Example](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
+![Universe - Basic Example](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
 When getting Identity Manager data in
 [Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Display Names)](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
+![Universe (Display Names)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
 
 ##### Basic universe with identifiers instead of display names
 
@@ -37,13 +37,13 @@ display names:
 
 ```
 
-![Universe - Basic Example](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
+![Universe - Basic Example](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
 When getting Identity Manager data in
 [Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
-![Universe (Identifiers)](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
+![Universe (Identifiers)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
 
 ## Properties
 

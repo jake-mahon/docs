@@ -13,7 +13,7 @@ Companies often use about one system for each identity type. Usercube capitalize
 from several source systems in order to build a central repository meant to contain all the data
 necessary to manage all identities throughout their whole lifecycle.
 
-![Usercube's Repository](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/identity-management/identities_repository.webp)
+![Usercube's Repository](/img/product_docs/identitymanager/6.1/introduction-guide/overview/identity-management/identities_repository.webp)
 
 Usercube's central repository acts as an intermediary between the systems that provide data, for
 example the HR system, and those that receive data, for example the Active Directory. This greatly
@@ -26,11 +26,11 @@ quadratic.
 Now with the central repository as an intermediary, implementing a new system requires only one more
 set of rules. The complexity becomes linear.
 
-![identities_complexityquadratic](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/identity-management/identities_complexityquadratic.webp)
+![identities_complexityquadratic](/img/product_docs/identitymanager/6.1/introduction-guide/overview/identity-management/identities_complexityquadratic.webp)
 
 #### Quadratic Complexity
 
-![identities_complexitylinear](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/identity-management/identities_complexitylinear.webp)
+![identities_complexitylinear](/img/product_docs/identitymanager/6.1/introduction-guide/overview/identity-management/identities_complexitylinear.webp)
 
 #### Linear Complexity
 
@@ -52,7 +52,7 @@ properties which make links between entities, quite like foreign keys in a datab
 > Another entity could be `SAB_User` to model SAB accounts owned by users from `Directory_User`. The
 > accounts from `SAB_User` could be related to groups from another entity `SAB_Group`.
 
-![Entity Type - Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
+![Entity Type - Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
 
 These entities' instances are called resources in Usercube. A resource can be the digital identity
 of a user (human or bot), or an AD account or any other account, or an entry from the HR system, or
@@ -73,7 +73,7 @@ Each entity is related to a managed system, for example the Active Directory or 
 etc. The reading/writing data between the system and Usercube are ensured by connectors. So Usercube
 can be configured with one connector for each managed system.
 
-![Connector Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
+![Connector Schema](/img/product_docs/identitymanager/6.1/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
 
 For a given system, a connector contains:
 
@@ -85,7 +85,7 @@ For a given system, a connector contains:
 Thus, a connector enables synchronization, i.e. Usercube reading from a managed system via an
 [extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load) process.
 
-![Synchronization](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/overview_synchronization.webp)
+![Synchronization](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_synchronization.webp)
 
 > A typical example is the synchronization of the HR system's data to retrieve employees' personal
 > information.
@@ -94,7 +94,7 @@ It also enables provisioning, i.e. Usercube writing to a managed system, but tha
 will dig into
 [later](/docs/identitymanager/6.1/introduction-guide/overview/governance/index.md).
 
-![Provisioning](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/overview_provisioning.webp)
+![Provisioning](/img/product_docs/identitymanager/6.1/introduction-guide/overview/overview_provisioning.webp)
 
 ## Repository Updates
 

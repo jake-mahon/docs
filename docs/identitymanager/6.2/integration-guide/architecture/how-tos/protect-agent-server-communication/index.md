@@ -18,7 +18,7 @@ The idea, when sending data from the agent to the server, is the following:
 3. the server receives and decrypts the message, before encrypting it again with its own encryption
    certificate configured by Identity Manager.
 
-![Schema: Agent/Server Communication](/img/product_docs/identitymanager/identitymanager/integration-guide/architecture/how-tos/protect-agent-server-communication/agent-server-communication.webp)
+![Schema: Agent/Server Communication](/img/product_docs/identitymanager/saas/integration-guide/architecture/how-tos/protect-agent-server-communication/agent-server-communication.webp)
 
 ### Configuration details
 

@@ -5,7 +5,7 @@ This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directo
 This page is about
 [Storage/Home Folders](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/home-folders/index.md).
 
-![Package: Storage/Home Folders](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
+![Package: Storage/Home Folders](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/homefolder/packages_homefolders_v603.webp)
 
 ## Overview
 

@@ -6,7 +6,7 @@ EntityType to be filled in the Scaffolding.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Provisioning Review](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.webp)
+![Provisioning Review](/img/product_docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/home_provisioningreview_v523.webp)
 
 ## Examples
 

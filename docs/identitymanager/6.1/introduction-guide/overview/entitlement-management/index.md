@@ -15,7 +15,7 @@ data on a given system, or a physical location.
 Usercube is designed to help establish an exhaustive and reliable catalog of the entitlements
 available in the managed systems, and assign the right entitlements to the right users.
 
-![Role Catalog and Users](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_rolecatalogusers.webp)
+![Role Catalog and Users](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_rolecatalogusers.webp)
 
 Thus, the role model contains:
 
@@ -24,7 +24,7 @@ Thus, the role model contains:
   systems' resources. Some of them act as link between Usercube's roles and the systems' accounts
   and permissions. Some of them are linked to, and thus apply only to, specific resource types.
 
-![Role Model](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_rolemodel.webp)
+![Role Model](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_rolemodel.webp)
 
 The role model is a subset of a policy that also includes
 [governance](/docs/identitymanager/6.1/introduction-guide/overview/governance/index.md)
@@ -41,12 +41,12 @@ Entitlements from the managed systems are modeled by roles. For each entitlement
 creating a single role, with an easily understandable name, more functional than technical, so that
 everyone knows what the role is for.
 
-![Single Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.webp)
+![Single Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarole.webp)
 
 Each individual entitlement should usually be modeled by a single role, and single roles can be
 grouped together into composite roles to be closer to real job positions.
 
-![Composite Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_compositeroles.webp)
+![Composite Roles](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_compositeroles.webp)
 
 ## A Rule Set
 
@@ -71,7 +71,7 @@ roles.
 > Thus, we should have a rule that, when a user is assigned a specific role, adds the user to the
 > member list of a specific AD group.
 
-![Provisioning Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_provisioningrules.webp)
+![Provisioning Rules](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_provisioningrules.webp)
 
 Even when a role is manually assigned, provisioning rules will determine which account (and
 permission groups) are given as entitlements.
@@ -91,7 +91,7 @@ assign roles to identities based on specific criteria.
 > For example, we can choose to assign the role `Benefits Manager - FR` to any user whose job title
 > is benefits manager and whose location is in France.
 
-![Assignment Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_assignmentrules.webp)
+![Assignment Rules](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_assignmentrules.webp)
 
 Once all assignment rules are created, Usercube is able to spot existing assignments that are not
 supported by any rule, marking them as non-conforming.
@@ -115,7 +115,7 @@ they own.
 > steps in the workflows related to privileged accounts, for more security than for standard
 > accounts.
 
-![Categorization Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_categorizationrules.webp)
+![Categorization Rules](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_categorizationrules.webp)
 
 Usercube's categorization rules are:
 
@@ -154,15 +154,15 @@ users' attributes defined as dimensions. Let's schematize users around these dim
 - The schema with two dimensions would be a table, a square.
 - The schema with three dimensions would be a 3D cube. And you can imagine 4D or 5D hypercubes, etc.
 
-![Dimensions - 1D](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_dimension1.webp)
+![Dimensions - 1D](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_dimension1.webp)
 
 #### 1D
 
-![Dimensions - 2D](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_dimension2.webp)
+![Dimensions - 2D](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_dimension2.webp)
 
 #### 2D
 
-![Dimensions - 3D](/img/versioned_docs/identitymanager_6.1/identitymanager/introduction-guide/overview/entitlement-management/entitlements_dimension3.webp)
+![Dimensions - 3D](/img/product_docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/entitlements_dimension3.webp)
 
 ## Next Steps
 

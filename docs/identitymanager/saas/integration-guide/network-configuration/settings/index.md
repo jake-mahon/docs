@@ -79,14 +79,14 @@ to navigate to the defined URI addresses.
 
 ```
 
-![CustomLinksUserMenu.webp](/img/product_docs/identitymanager/identitymanager/integration-guide/network-configuration/settings/customlinksusermenu_v523.webp)
+![CustomLinksUserMenu.webp](/img/product_docs/identitymanager/saas/integration-guide/network-configuration/settings/customlinksusermenu_v523.webp)
 
 ## DashboardItemNumber
 
 Some sections on the dashboard contain multiple links. These links are quick links with counters to
 the review page filtered by entity type. The links are sorted by entity type priority.
 
-![DashboardItemNumber.webp](/img/product_docs/identitymanager/identitymanager/integration-guide/network-configuration/settings/dashboarditemnumber.webp)
+![DashboardItemNumber.webp](/img/product_docs/identitymanager/saas/integration-guide/network-configuration/settings/dashboarditemnumber.webp)
 
 By default, 3 links are displayed. If more than 3 entity type links exist, a link "Others" is
 displayed with the concatenation of remaining counters.

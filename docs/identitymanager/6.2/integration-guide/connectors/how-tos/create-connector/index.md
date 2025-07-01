@@ -95,7 +95,7 @@ An association mapping is the equivalent of an entity type mapping, but for the 
 
 Identity Manager provides a menu item to list all connectors in the dashboard's left menu.
 
-![Menu Item - Connectors](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
+![Menu Item - Connectors](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 > It is usually written like this:
 >

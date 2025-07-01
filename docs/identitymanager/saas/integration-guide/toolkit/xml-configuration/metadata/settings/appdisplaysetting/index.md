@@ -25,17 +25,17 @@ script in the command line.
 
 Colors, logo and name customization:
 
-![AppDisplay - Basic Screen](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.webp)
+![AppDisplay - Basic Screen](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.webp)
 
 Display colors customization:
 
-![AppDisplay - Authentication](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.webp)
+![AppDisplay - Authentication](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.webp)
 
 ### Disable counters
 
 The following example disables the counters that are usually visible on the dashboard:
 
-![AppDisplay - Without Counters](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
+![AppDisplay - Without Counters](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -44,7 +44,7 @@ script in the command line.
 <AppDisplaySetting DisableProvisioningCounters="true" />
 ```
 
-![AppDisplay - Without Counters](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.webp)
+![AppDisplay - Without Counters](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.webp)
 
 ### Features
 
@@ -52,7 +52,7 @@ The feature **Only allow approving and refusing on access certifications items**
 administrator the option to limit the user's option to either **Approve** or **Deny** the Access
 Certification items while making the **More** button unavailable.
 
-![allowapprovingdenyingaccesscertificationitems](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.webp)
+![allowapprovingdenyingaccesscertificationitems](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-global-settings/allowapprovingdenyingaccesscertificationitems.webp)
 
 The following example disables the **More** button that is usually visible on certification screen:
 
@@ -66,7 +66,7 @@ script in the command line.
 If the feature **Only allow approving and denying on access certification items** is set to **Yes**,
 the **More** button is disabled.
 
-![accesscertificationonlyapprovedeny-disabled](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
+![accesscertificationonlyapprovedeny-disabled](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
 
 See the
 [Configure Global Settings](/docs/identitymanager/saas/user-guide/set-up/configure-global-settings/index.md)

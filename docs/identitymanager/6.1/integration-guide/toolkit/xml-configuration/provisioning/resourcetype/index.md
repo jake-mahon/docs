@@ -137,7 +137,7 @@ based on users' last names.
 The following scenario is about a user named Cedric Blanc, whose AD's sn property is set by the
 scalar rule to Blanc.
 
-![Example - State 0](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.webp)
+![Example - State 0](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state0_v602.webp)
 
 Let's see what happens when the user's name is changed manually directly in the AD.
 
@@ -147,15 +147,15 @@ between the value calculated by the rule and the actual value in the AD. This di
 by the next synchronization, triggering a non-conforming assignment on the Resource Reconciliation
 page.
 
-![Example - State 1](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.webp)
+![Example - State 1](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state1_v602.webp)
 
-![Example - Step 1](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.webp)
+![Example - Step 1](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step1_v602.webp)
 
-![Example - Step 2](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.webp)
+![Example - Step 2](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_step2_v602.webp)
 
 Once this manual new value is confirmed, the property is stated as **Approved**.
 
-![Example - State 2](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.webp)
+![Example - State 2](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state2_v602.webp)
 
 Now suppose that the user's last name is changed to Black via Usercube's workflows. As the source
 data is changed, the scalar rule computes a new value for sn. There are two options:
@@ -166,7 +166,7 @@ data is changed, the scalar rule computes a new value for sn. There are two opti
   the AD stays as is, no matter the changes in the source data (here the user's last name). Usercube
   only states the property's value as Questioned.
 
-    ![Example - State 3](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
+    ![Example - State 3](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
 
     **NOTE:** No change in the source data can affect the property's value. However, any manual
     change made in the managed system will trigger a non-conforming assignment. Then, reconciling
@@ -177,11 +177,11 @@ data is changed, the scalar rule computes a new value for sn. There are two opti
     property's value does not matter. Usercube applies the rules of the role model, and generates a
     provisioning order to overwrite the manual change White with the newly computed value Black.
 
-    ![Example - State 4](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
+    ![Example - State 4](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
 
 In this scenario for Cedric Blanc, these behaviors can be summed up like the following:
 
-![Schema for DiscardManualAssignments](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.webp)
+![Schema for DiscardManualAssignments](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_schema.webp)
 
 ### Correlate Multiple Resources
 
@@ -192,53 +192,53 @@ existing target objects of the same resource type. This setting can be used in c
 Below, we illustrate the different scenarios that are possible, taking into consideration whether a
 resource type has previously been correlated to the owner or not.
 
-![suggestallcorrelations-nnn](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.webp)
+![suggestallcorrelations-nnn](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn.webp)
 
 - The value for both **Correlate Multiple Resources** and **Suggest All Correlations** is **No**
   there is no Resource already correlated so the first match with the highest confidence rate is
   **Correlated** if it is `>100` or **Suggested** if it is `<100`. As for all other matches with
   lower confidence rate they will be ignored.
 
-    ![suggestallcorrelations-nnn2](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.webp)
+    ![suggestallcorrelations-nnn2](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nnn2.webp)
 
     If there are no Resources to be correlated with a confidence rate `>100`, the ones below with
     confidence rate below 100 are Suggested or Ignored.
 
-    ![suggestallcorrelations-nny](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.webp)
+    ![suggestallcorrelations-nny](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nny.webp)
 
 - The value for both **Correlate Multiple Resources** and **Suggest All Correlations** is **No**
   there is one Resource already correlated so due to this all future correlations will be ignored.
 
-    ![suggestallcorrelations-nyn](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.webp)
+    ![suggestallcorrelations-nyn](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyn.webp)
 
 - The value for **Correlate Multiple Resources** is **No**, **Suggest All Correlations** is **Yes**
   there is no Resource already correlated so all Resource Types will be **Suggested**.
 
-    ![suggestallcorrelations-nyy](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.webp)
+    ![suggestallcorrelations-nyy](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-nyy.webp)
 
 - The value for **Correlate Multiple Resources** is **No**, **Suggest All Correlations** is **Yes**
   there is one Resource already correlated so the Resource Types that have a confidence rate `>100`
   will be **Suggested**. As for all other matches with lower confidence rate they will be ignored.
 
-    ![suggestallcorrelations-ynn](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.webp)
+    ![suggestallcorrelations-ynn](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn.webp)
 
 - The value for **Correlate Multiple Resources** is **Yes**, **Suggest All Correlations** is **No**,
   and there is no Resource already correlated so Resource Types that have a confidence rate `>100`
   will be **Correlated** and the ones `<100` will be **Suggested** if there are no higher matches
   otherwise they will be ignored.
 
-    ![suggestallcorrelations-ynn2](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.webp)
+    ![suggestallcorrelations-ynn2](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-ynn2.webp)
 
     If there are no Resources to be correlated with a confidence rate `>100`, the ones with
     confidence rate below 100 are Suggested.
 
-    ![suggestallcorrelations-yny](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.webp)
+    ![suggestallcorrelations-yny](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yny.webp)
 
 - The value for **Correlate Multiple Resources** is **Yes**, **Suggest All Correlations** is **No**
   there is one Resource already correlated so the matches with confidence rate `>100` will be
   **Correlated** and the ones `<100` will be ignored.
 
-    ![suggestallcorrelations-yyny](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.webp)
+    ![suggestallcorrelations-yyny](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/suggestallcorrelations-yyny.webp)
 
 - The value for **Correlate Multiple Resources** is **Yes**, **Suggest All Correlations** is **Yes**
   one Resource could be already correlated or not so the matches with confidence rate `>100` will be
@@ -550,7 +550,7 @@ and
 [ ContextRule ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 topics for additional information.
 
-![Schema - Default Application Period](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
+![Schema - Default Application Period](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
 
 A time offset adjusts the period for which the rule applies and computes a property's value.
 
@@ -570,7 +570,7 @@ script in the command line.
 </ResourceType>
 ```
 
-![Schema - Offset Application Period](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.webp)
+![Schema - Offset Application Period](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetexample.webp)
 
 If the time period of property computation exceeds the limits of the period of resource type
 assignment, then the period of resource type assignment is extended accordingly.
@@ -581,7 +581,7 @@ rules, Default-offset rules overwrite the values of Around-offset rules, which o
 of Before-offset rules, which overwrite the values of After-offset rules. We could have the
 following:
 
-![Schema - Overlapping Offsets](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.webp)
+![Schema - Overlapping Offsets](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetoverlap.webp)
 
 ### Properties
 

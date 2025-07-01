@@ -20,7 +20,7 @@ The right tools for the job are scalar rules.
 A scalar property's value can be computed by a scalar rule, based on at least one scalar property
 from the source entity type, possibly writing a C# expression.
 
-![Schema - Scalar Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
+![Schema - Scalar Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
 
 > A scalar rule could define the scalar property `displayName` of nominative AD accounts based on
 > its owner's name with the expression:
@@ -104,23 +104,23 @@ Fill an entity type with a scalar rule by proceeding as follows:
 
 1. Click on **Access Rules** on the home page in the **Configuration** section.
 
-    ![Home - Access Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+    ![Home - Access Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-    ![Entity Type Choice](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+    ![Entity Type Choice](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Scalars** tab and on the addition button at the top right corner.
 
-    ![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 
-    ![Create Scalar Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.webp)
+    ![Create Scalar Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrule_v522.webp)
 
     Once the `Resource Type` is provided, more fields appear.
 
-    ![Scalar Rule Fields](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.webp)
+    ![Scalar Rule Fields](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_scalarrulefields_v602.webp)
 
     - **Source Object**: scalar property (or expression of scalar properties) from the source entity
       type, which constitutes the input for the computation of the target object. Can be defined by
@@ -158,7 +158,7 @@ Fill an entity type with a scalar rule by proceeding as follows:
     - **Criteria**: conditions that, if met, trigger the rule application.
         > Our example would look like:
         >
-        > ![Scalar Rule Example](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.webp)
+        > ![Scalar Rule Example](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_examplescalar_v522.webp)
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -168,7 +168,7 @@ Any modification in a scalar rule is taken into account when launching the role 
 task, in the **Resource Types** frame of the corresponding connector's overview page, via **Jobs** >
 **Compute Role Model**.
 
-![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new properties. Therefore, if a given rule's criterion is
 modified, then all corresponding assignments are computed again. If a resource was created
@@ -190,7 +190,7 @@ In order to verify the process:
 1. On the corresponding connector's overview page, in the **Resource Types** frame click on
    **Jobs** > **Compute Role Model** to apply all rules.
 
-    ![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+    ![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 2. [Review unreconciled properties](/docs/identitymanager/6.1/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
    (on the **Resource Reconciliation** screen) to help check scalar rules: if there are numerous

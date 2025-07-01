@@ -58,14 +58,14 @@ When the confidence rate is below 100%, correlation and classification reviews a
 - on the **Provisioning Review** page when the owned resource is allowed by the role model, i.e.
   requested manually or assigned automatically by a resource type rule;
 
-    ![Correlation Review - Provisioning Review Screen](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.webp)
+    ![Correlation Review - Provisioning Review Screen](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/categorization_reviewsprovisioningreview_v603.webp)
 
 - on the **Resource Reconciliation** page when the owned resource is not allowed by the role model,
   i.e. not requested manually nor assigned by a resource type rule. For example, the creation of a
   correlation rule without a resource type rule triggers unauthorized accounts on the **Resource
   Reconciliation** page.
 
-    ![Correlation Review - Resource Reconciliation Screen](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.webp)
+    ![Correlation Review - Resource Reconciliation Screen](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/categorization_reviewsresourcereconciliation_v603.webp)
 
 Broadly speaking, the **Resource Reconciliation** page displays non-conforming assignments/values
 (gaps), i.e. resources and property values from the managed systems that are not allowed by a rule
@@ -108,19 +108,19 @@ Fill a resource type with a classification rule by proceeding as follows:
 
 1. On the relevant resource type's page, click on **Classification Rules** and the addition icon.
 
-    ![New Classification Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/resourcetype_newclassifrule_v602.webp)
+    ![New Classification Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/resourcetype_newclassifrule_v602.webp)
 
     Classification rules can also be created through the **Access Rules** screen (accessible from
     the home page, in the **Configuration** section), clicking on the **Classifications** tab and
     the addition button at the top right corner.
 
-    ![Home - Access Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+    ![Home - Access Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
-    ![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 2. Fill in the fields.
 
-    ![New Classification Rule Fields](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/resourcetype_newclassifrulefields_v602.webp)
+    ![New Classification Rule Fields](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/resourcetype_newclassifrulefields_v602.webp)
 
     - **Target Object** > `Expression`: C# expression based on the resource that needs to be
       classified.
@@ -128,13 +128,13 @@ Fill a resource type with a classification rule by proceeding as follows:
       detailed explanation.
         > Our overview example would look like:
         >
-        > ![Classification Rule Example](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/classification_example_v602.webp)
+        > ![Classification Rule Example](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/classification_example_v602.webp)
 
 3. Click on **Create** and see a line added on the rules page.
 4. On the connector dashboard and in the **Resource Types** frame, click on **Jobs** > **Classify
    Resource Types** to apply the new classification rules.
 
-![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ## Impact of Modifications
 
@@ -161,7 +161,7 @@ Any modification in classification rules is taken into account via the classific
 connector dashboard and in the **Resource Types** frame, click on **Jobs** > **Classify Resource
 Types**.
 
-![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 ## Verify Classification
 
@@ -169,7 +169,7 @@ In order to verify the process, analyze samples and check that all objects are c
 classified. To do so, click on the target entity type(s) affected by your rule(s) in the left menu
 of the home page.
 
-![Test Entity Type](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
+![Test Entity Type](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
 
 The entity type's page can be
 [configured via XML](/docs/identitymanager/6.1/integration-guide/ui/how-tos/index.md) to
@@ -177,7 +177,7 @@ customize all displayed columns and available filters, especially the **Uncatego
 spots unclassified resources, and the **Owner / Resource Type** column that shows the resource type
 assigned to each resource.
 
-![Owner / Resource Type Column](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/classification_test_v522.webp)
+![Owner / Resource Type Column](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/classification_test_v522.webp)
 
 Therefore, check that all resources show here a resource type. Moreover, a knowledgeable person must
 analyze a few samples to ensure that resources are classified in the right resource type.
@@ -186,7 +186,7 @@ analyze a few samples to ensure that resources are classified in the right resou
 
 #### If a resource is not classified (or not correctly), then�
 
-![Unclassified Resource](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/classification_unclassified_v600.webp)
+![Unclassified Resource](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/classification_unclassified_v600.webp)
 
 - If the resource is correlated, check whether the corresponding correlation rule is in the right
   resource type.

@@ -6,7 +6,7 @@ This connector exports entries from an
 This page is about
 [Directory/LDIF](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
+![Package: Directory/LDIF](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
 ## Overview
 

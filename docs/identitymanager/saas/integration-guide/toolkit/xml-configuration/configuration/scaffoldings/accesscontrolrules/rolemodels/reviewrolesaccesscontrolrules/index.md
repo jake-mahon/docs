@@ -4,7 +4,7 @@ Generates the rights to access the access roles review pages for a given entity 
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Role Review](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/governancerolesaccesscontrolrules/home_rolereview_v523.webp)
+![Role Review](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/governancerolesaccesscontrolrules/home_rolereview_v523.webp)
 
 ## Examples
 

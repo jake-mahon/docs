@@ -32,7 +32,7 @@ entitlement, for example an Active Directory group.
 Let's study this use case with an example: a single role _Internet_ is linked to an Active Directory
 group _Internet_ through a navigation rule `N`.
 
-![use_case_1_rolemodel](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_rolemodel.webp)
+![use_case_1_rolemodel](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_rolemodel.webp)
 
 We are going to consider here an identity named John Doe, and his Active Directory account
 [john.doe@contoso.com](mailto:john.doe@contoso.com).
@@ -67,7 +67,7 @@ Directory group.
 
 The situation in Usercube database at this point is the following.
 
-![use_case_1_sync](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_sync.webp)
+![use_case_1_sync](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_sync.webp)
 
 Integrators have defined the Internet single role and linked it to the _Internet_ AD group through
 the navigation rule `N`.
@@ -79,7 +79,7 @@ consistent with the data found in the Active Directory.
 
 The role is now listed under John Doe's assignment list (permissions) in Usercube.
 
-![use_case_1_deduction](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_deduction.webp)
+![use_case_1_deduction](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/existingassignmentsdeduction/use_case_1_deduction.webp)
 
 ## Use Case 2: Several Groups, One Role
 

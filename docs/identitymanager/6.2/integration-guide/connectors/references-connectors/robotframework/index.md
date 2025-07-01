@@ -5,7 +5,7 @@ script.
 
 This page is about [ Robot Framework ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/robot-framework/index.md)
 
-![Package: Custom/Robot Framework](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
+![Package: Custom/Robot Framework](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
 ## Overview
 

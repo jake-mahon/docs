@@ -6,16 +6,16 @@ This guide shows how to configure the OIDC to set up the authentication to Userc
 
 On the Okta dashboard, select the **Applications** section. Click on the **Add Application** button.
 
-![Add Application](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_addapplication.webp)
+![Add Application](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_addapplication.webp)
 
 Then click on the **Create New App** button.
 
-![Create New App](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_createnewapp.webp)
+![Create New App](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_createnewapp.webp)
 
 Select the platform "Native app". The only sign-on method is the OpenID Connect. Click on
 **Create**.
 
-![Create Native App](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_createnativeapp.webp)
+![Create Native App](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_createnativeapp.webp)
 
 In **General Settings**, name your Application. You can also add a logo.
 
@@ -26,7 +26,7 @@ take Usercube's URL again and, at the end, add: "/signout-callback-oidc".
 
 The **Logout redirect URLs** section is marked as optional but it is mandatory for Usercube.
 
-![Save Application](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_saveapplication.webp)
+![Save Application](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_saveapplication.webp)
 
 ## Configure the Client Credentials
 
@@ -35,14 +35,14 @@ OIDC connection option in the application. In the Application Dashboard, click o
 **Client Credentials** section. Select the option **Use Client Authentication** and save the
 changes.
 
-![Client Credentials](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_clientcredentials.webp)
+![Client Credentials](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_clientcredentials.webp)
 
 ## Configure the Application Settings
 
 In the **Application** section, check the box **Implicit (Hybrid)** so that the connection with
 Usercube can operate correctly. **Allow ID Token with implicit grant type** is optional.
 
-![Application Section](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/how-tos/okta/okta_applicationsection.webp)
+![Application Section](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/how-tos/okta/okta_applicationsection.webp)
 
 ## Configure the appsettings.json
 

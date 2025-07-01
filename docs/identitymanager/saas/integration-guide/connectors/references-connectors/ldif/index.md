@@ -5,7 +5,7 @@ This connector exports entries from an
 
 This page is about [ LDIF ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/ldif/index.md).
 
-![Package: Directory/LDIF](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
+![Package: Directory/LDIF](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
 ## Overview
 

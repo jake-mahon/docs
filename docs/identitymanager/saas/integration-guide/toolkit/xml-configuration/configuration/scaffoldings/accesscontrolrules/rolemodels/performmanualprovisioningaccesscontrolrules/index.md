@@ -5,7 +5,7 @@ profile.
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Manual Provisioning](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.webp)
+![Manual Provisioning](/img/product_docs/identitymanager/saas/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.webp)
 
 The connector connected to the entity type must have the manual type as the provisioning type,
 otherwise the information of the entity type cannot be displayed on this screen.

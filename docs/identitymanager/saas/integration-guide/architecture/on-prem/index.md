@@ -6,7 +6,7 @@ When working in an on-premises environment, Identity Manager needs a specific a
 
 Identity Manager recommends the following architecture:
 
-![On-Premises Recommended Architecture](/img/product_docs/identitymanager/identitymanager/integration-guide/architecture/on-prem/architecture_onprem.webp)
+![On-Premises Recommended Architecture](/img/product_docs/identitymanager/saas/integration-guide/architecture/on-prem/architecture_onprem.webp)
 
 Most situations do not need Identity Manager so much that they need a fail-over system, i.e.
 installing several Identity Manager instances in order to prevent breakdowns. In most situations, a

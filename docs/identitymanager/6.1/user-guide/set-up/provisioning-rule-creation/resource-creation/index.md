@@ -38,19 +38,19 @@ Create a resource type rule by proceeding as follows:
 
 1. Click on **Access Rules** on the home page in the **Configuration** section.
 
-    ![Home - Access Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+    ![Home - Access Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-    ![Entity Type Choice](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+    ![Entity Type Choice](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Resource Types** tab and on the addition button at the top right corner.
 
-    ![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 
-    ![Create a Resource Type Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_typerule_v602.webp)
+    ![Create a Resource Type Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_typerule_v602.webp)
 
     - `Resource Type`: resource type to be automatically assigned.
     - `Type`: assignment type that can be: `Suggested` so that the resource type is listed among
@@ -65,7 +65,7 @@ Create a resource type rule by proceeding as follows:
     - **Criteria**: conditions that, if met, trigger the resource creation.
         > Our example would look like:
         >
-        > ![Resource Type Rule Example](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_exampletype_v602.webp)
+        > ![Resource Type Rule Example](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/provrules_exampletype_v602.webp)
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -75,7 +75,7 @@ Any modification in a resource type rule is taken into account when launching th
 computation task, in the **Resource Types** frame of the corresponding connector's overview page,
 via **Jobs** > **Compute Role Model**.
 
-![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 This task applies the rules and computes new assignments. Therefore, if a given rule's criterion is
 modified, then all corresponding assignments are computed again. If a resource was created
@@ -102,18 +102,18 @@ Then, you can:
 
 1. Select a test user in the directory, accessible from the home page.
 
-    ![Home Page - Directory User](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+    ![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Create a resource type rule involving an account that said user doesn't already have, based on
    criteria which the selected user satisfies.
 3. Trigger the computation of the role model by clicking, on the corresponding connector's overview
    page, in the **Resource Types** frame, on **Jobs** > **Compute Role Model** to apply all rules.
 
-    ![Resource Type Jobs](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
+    ![Resource Type Jobs](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 4. See the new account in the user's **View Permissions** tab.
 
-    ![View Permissions Tab](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
+    ![View Permissions Tab](/img/product_docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
     If the type rule uses a single role as a criterion, and the user has said role, then both the
     resource type and the role will be displayed in the user's permissions, but only if the role is

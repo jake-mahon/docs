@@ -16,4 +16,4 @@ used to **export** the current configuration (to a XML files set).
 The Identity Manager project's integration cycle consists in developing a configuration by
 successive imports in a test instance.
 
-![Integration cycle](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/configurationcycle.webp)
+![Integration cycle](/img/product_docs/identitymanager/saas/integration-guide/toolkit/configurationcycle.webp)

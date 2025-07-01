@@ -5,7 +5,7 @@ This connector exports and fulfills users and groups from/to a
 
 This page is about [ Google Workspace ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
-![Package: Directory/Google Workspace](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
+![Package: Directory/Google Workspace](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
 ## Overview
 

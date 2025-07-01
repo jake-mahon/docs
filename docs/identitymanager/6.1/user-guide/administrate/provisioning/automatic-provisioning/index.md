@@ -14,7 +14,7 @@ In an assignment request's lifecycle, provisioning automation implies skipping t
 state as Usercube no longer waits for a user to make changes anymore. For this reason, an assignment
 request goes through the following provisioning states:
 
-![Provisioning State Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/administrate/provisioning/automatic-provisioning/provauto_states_v523.webp)
+![Provisioning State Schema](/img/product_docs/identitymanager/6.1/user-guide/administrate/provisioning/automatic-provisioning/provauto_states_v523.webp)
 
 ## Participants and Artifacts
 
@@ -40,7 +40,7 @@ Make sure that the task used to compute and generate provisioning orders was lau
 request (or the provisioning review, if any), through the complete job in the **Job Execution**
 page.
 
-![Home Page - Job Execution](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
+![Home Page - Job Execution](/img/product_docs/identitymanager/6.1/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 ## Verify Automated Provisioning
 
@@ -48,7 +48,7 @@ In order to verify the process:
 
 1. Select a test user in the directory, accessible from the home page.
 
-    ![Home Page - Directory User](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+    ![Home Page - Directory User](/img/product_docs/identitymanager/6.1/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the
    [manual assignment workflow](/docs/identitymanager/6.1/user-guide/administrate/manual-assignment-request/index.md)

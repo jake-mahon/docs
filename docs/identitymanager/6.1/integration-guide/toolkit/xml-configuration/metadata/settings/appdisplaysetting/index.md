@@ -20,17 +20,17 @@ The following example sets:
 
 ```
 
-![AppDisplay - Tab](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_tab_v603.webp)
+![AppDisplay - Tab](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_tab_v603.webp)
 
-![AppDisplay - Basic Screen](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.webp)
+![AppDisplay - Basic Screen](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen2_v603.webp)
 
-![AppDisplay - Authentication](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.webp)
+![AppDisplay - Authentication](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_screen1_v603.webp)
 
 ### Disable counters
 
 The following example disables the counters that are usually visible on the dashboard:
 
-> ![AppDisplay - Without Counters](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
+> ![AppDisplay - Without Counters](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
 
 ```
 
@@ -38,7 +38,7 @@ The following example disables the counters that are usually visible on the dash
 
 ```
 
-![AppDisplay - Without Counters](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.webp)
+![AppDisplay - Without Counters](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_nocounters_v603.webp)
 
 ## Properties
 

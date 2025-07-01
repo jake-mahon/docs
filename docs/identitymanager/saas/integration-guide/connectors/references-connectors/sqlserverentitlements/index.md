@@ -6,7 +6,7 @@ This connector exports entitlements from
 This page is about
 [ SQL Server Entitlements ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
 
-![Package: Database/Microsoft SQL Server Entitlements](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
+![Package: Database/Microsoft SQL Server Entitlements](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
 
 ## Overview
 

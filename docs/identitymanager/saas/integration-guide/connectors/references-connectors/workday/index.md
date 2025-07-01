@@ -5,7 +5,7 @@ This connector exports users and groups from a
 
 This page is about [ Workday ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workday/index.md).
 
-![Package: ERP/Workday](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
+![Package: ERP/Workday](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
 ## Prerequisites
 

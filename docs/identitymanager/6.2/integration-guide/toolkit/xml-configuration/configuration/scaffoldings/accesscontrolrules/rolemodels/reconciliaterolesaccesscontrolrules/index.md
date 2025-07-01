@@ -4,7 +4,7 @@ Generates the rights to access the access reconcile roles pages for a given enti
 
 Gives access to a shortcut on the dashboard to access this page.
 
-![Role Reconciliation](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.webp)
+![Role Reconciliation](/img/product_docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/home_rolereconciliation_v523.webp)
 
 ## Examples
 

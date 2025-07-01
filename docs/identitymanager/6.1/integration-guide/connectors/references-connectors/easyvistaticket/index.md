@@ -7,7 +7,7 @@ provisioning.
 This page is about
 [Ticket/EasyVista](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/easyvistaticket/index.md).
 
-![Package: Ticket/EasyVista](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.webp)
+![Package: Ticket/EasyVista](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.webp)
 
 ## Overview
 

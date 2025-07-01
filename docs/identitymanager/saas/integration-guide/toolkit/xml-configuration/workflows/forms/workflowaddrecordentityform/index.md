@@ -46,7 +46,7 @@ And with the following form for the data that groups records together:
 
 The contents of `MainControl` and `RecordControl` are visible during the workflow's execution:
 
-![Form Example - Computer Request](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_v603.webp)
+![Form Example - Computer Request](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_v603.webp)
 
 The content of `RecordUniqueItemControl` is not visible. The user's records that have the same
 values for all the properties in `RecordUniqueItemControl` will be displayed, and potentially
@@ -55,7 +55,7 @@ modified, as one.
 The contents of `MainSummaryControl` and `RecordSummaryControl` are visible after the workflow's
 execution:
 
-![Summary Form Example - Computer Request](/img/product_docs/identitymanager/identitymanager/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_summary_v603.webp)
+![Summary Form Example - Computer Request](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/formexample_workflowaddrecordentityform_summary_v603.webp)
 
 ## Properties
 

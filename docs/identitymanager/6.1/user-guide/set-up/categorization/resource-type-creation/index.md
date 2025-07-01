@@ -64,17 +64,17 @@ Create a resource type by proceeding as follows:
 
 1. On the relevant connector page, click on the addition button in the **Resource Types** frame.
 
-    ![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
     Resource types can also be created through the **Access Roles** screen (accessible from the home
     page, in the **Configuration** section), using the **+ New** button and selecting
     `Resource Type` in the first field called `Type`.
 
-    ![Home - Access Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+    ![Home - Access Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 2. Fill in the fields.
 
-    ![New Resource Type](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/resourcetype_newresourcet_v603.webp)
+    ![New Resource Type](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/resourcetype_newresourcet_v603.webp)
 
     - `Identifier`: must be unique among resource types, without any whitespace, and be
       C#-compatible.
@@ -225,6 +225,6 @@ In order to verify the process, check that the resource type has been added with
 to the list on the **Access Roles** page, accessible from the home page in the **Administration**
 section.
 
-![Home - Access Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+![Home - Access Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
-![Test Connector](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/resourcetype_test_v602.webp)
+![Test Connector](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/resourcetype_test_v602.webp)

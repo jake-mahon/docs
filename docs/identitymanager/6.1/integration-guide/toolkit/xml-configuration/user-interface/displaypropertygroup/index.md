@@ -16,7 +16,7 @@ Knowing that we have the following properties:
 
 ```
 
-![Display Property Group - Example](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/user-interface/displaypropertygroup/displaypropertygroup_example_v603.webp)
+![Display Property Group - Example](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/user-interface/displaypropertygroup/displaypropertygroup_example_v603.webp)
 
 Any property without a value is not displayed.
 

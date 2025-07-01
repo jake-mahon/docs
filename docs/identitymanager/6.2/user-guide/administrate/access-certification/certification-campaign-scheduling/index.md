@@ -26,13 +26,13 @@ Create an access certification campaign by proceeding as follows:
 
 1. Click on **Access Certification Campaigns** in the **Administration** section on the home page.
 
-    ![Home - Access Certification Campaigns](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.webp)
+    ![Home - Access Certification Campaigns](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.webp)
 
 2. Click the addition button at the top right and fill in the fields:
 
-    ![Addition Icon](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
-    ![New Certification Campaign](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newcertificationcampaign_v602.webp)
+    ![New Certification Campaign](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newcertificationcampaign_v602.webp)
 
     - `Identifier`: Must be unique among campaigns, without whitespace.
     - `Name`: Displayed in the UI to identify the campaign.
@@ -47,18 +47,18 @@ Create an access certification campaign by proceeding as follows:
       that define what permissions to include (object type, category, approval state, etc.). The
       campaign scope is a **union** of all specificities.
 
-        ![Target Specificities](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetspecificities_v602.webp)
+        ![Target Specificities](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetspecificities_v602.webp)
 
         The campaign targets permissions that meet the **intersection (AND)** of all filters. When
         using role tags, roles with **any** of the listed tags are included (**OR** logic).
 
     - `Target Owners`: Filters based on identity dimensions. These are combined using **AND** logic.
 
-        ![Target Owner Filters](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetowners_v602.webp)
+        ![Target Owner Filters](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetowners_v602.webp)
 
         Additional filters may be available depending on the selected entity type:
 
-        ![Target Owner Additional Filters](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetownersadditional_v603.webp)
+        ![Target Owner Additional Filters](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetownersadditional_v603.webp)
 
         - `Individual Owner`: A single identity whose access will be certified.
         - `Active Target`: Identities for which a specific property (from `Directory_UserRecord`)
@@ -70,11 +70,11 @@ Create an access certification campaign by proceeding as follows:
             > Example: The following campaign certifies all single roles assigned to two specific
             > users:
             >
-            > ![Campaign Example](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_example_v602.webp)
+            > ![Campaign Example](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_example_v602.webp)
 
 3. Click **Create**. The campaign appears in the list.
 
-    ![Campaigns Page](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newlycreated_v603.webp)
+    ![Campaigns Page](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newlycreated_v603.webp)
 
 4. Click **Launch** to apply the changes and start the certification job.
 
@@ -82,7 +82,7 @@ Create an access certification campaign by proceeding as follows:
 
     > Example:
     >
-    > ![Execute Access Reviews Job](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_job_v522.webp)
+    > ![Execute Access Reviews Job](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_job_v522.webp)
 
 ## Impact of Modifications
 

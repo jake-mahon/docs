@@ -7,7 +7,7 @@ This connector exports and fulfills user and groups from/to an
 This page is about
 [Directory/Microsoft Entra ID](/docs/identitymanager/6.1/integration-guide/connectors/references-packages/azure-active-directory/index.md).
 
-![Package: Directory/Microsoft Entra ID](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/connectors/references-connectors/azuread/packages_azuread_v603.webp)
+![Package: Directory/Microsoft Entra ID](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/azuread/packages_azuread_v603.webp)
 
 ## Overview
 

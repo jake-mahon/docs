@@ -37,11 +37,11 @@ For each authentication method, one or several authentication providers can be s
 authentication providers are set up, end-users will be prompted to choose their preferred method of
 authentication.
 
-![authent_1](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.webp)
+![authent_1](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_1.webp)
 
 #### Internal Method & Test Mode Form
 
-![authent_2](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.webp)
+![authent_2](/img/product_docs/identitymanager/6.1/integration-guide/network-configuration/server-configuration/end-users-authentication/authent_2.webp)
 
 #### External Method Prompt
 

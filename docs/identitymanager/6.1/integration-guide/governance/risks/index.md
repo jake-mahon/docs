@@ -70,7 +70,7 @@ one of the detected risks in the requested entitlement set has the blocking exem
 Usercube does not allow the set to be requested at all. A message is displayed and the request must
 be cancelled:
 
-![Exemption Policy - Blocking](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/risks/risks_blocking_v522.webp)
+![Exemption Policy - Blocking](/img/product_docs/identitymanager/6.1/integration-guide/governance/risks/risks_blocking_v522.webp)
 
 ### Approval Required
 
@@ -80,14 +80,14 @@ of the detected risks in the requested entitlement set has the approval required
 then Usercube adds a step where this new set must be reviewed by a knowledgeable user like a
 security officer. A message is displayed and the request can be continued or cancelled:
 
-![Exemption Policy - Approval Required](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/risks/risks_requiredapproval_v522.webp)
+![Exemption Policy - Approval Required](/img/product_docs/identitymanager/6.1/integration-guide/governance/risks/risks_requiredapproval_v522.webp)
 
 If the request is performed, then a line appears on the **Role Review** screen.
 
 The workflow state of said request is `Manual`, `Pending approval (risks)` and shows the following
 risk icon.
 
-![Home Page - Role Review](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/risks/risks_riskicon_v522.svg)
+![Home Page - Role Review](/img/product_docs/identitymanager/6.1/integration-guide/governance/risks/risks_riskicon_v522.svg)
 
 ### Warning
 
@@ -95,7 +95,7 @@ Risk-triggering permissions can also be allowed with only a warning with the war
 policy. If all detected risks in the requested entitlement set has the warning exemption policy,
 then Usercube displays a message and the request can be continued or cancelled:
 
-![Exemption Policy - Warning](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/risks/risks_warning_v522.webp)
+![Exemption Policy - Warning](/img/product_docs/identitymanager/6.1/integration-guide/governance/risks/risks_warning_v522.webp)
 
 ### Upon Profile
 
@@ -177,4 +177,4 @@ examined and then, kept or discarded.
 
 The risk score computation is performed by the risk score task.
 
-![Compute Risk Score Task](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/governance/risks/risks_riskcomputetask_v522.webp)
+![Compute Risk Score Task](/img/product_docs/identitymanager/6.1/integration-guide/governance/risks/risks_riskcomputetask_v522.webp)

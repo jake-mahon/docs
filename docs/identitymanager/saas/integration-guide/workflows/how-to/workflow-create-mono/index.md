@@ -99,7 +99,7 @@ for additional information.
 
 ```
 
-![UI Form](/img/product_docs/identitymanager/identitymanager/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_form_v602.webp)
+![UI Form](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_form_v602.webp)
 
 ### Add a summary (Optional)
 
@@ -117,7 +117,7 @@ Summary form:
 
 ```
 
-![UI Summary](/img/product_docs/identitymanager/identitymanager/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_summary_v602.webp)
+![UI Summary](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-mono/howto_resourcecreationmono_summary_v602.webp)
 
 ## Assign the Right Permissions
 
@@ -146,7 +146,7 @@ make the workflow accessible in the UI.
 
 Creating a new resource, an interesting location for this workflow could be the users list page.
 
-![Workflow Menu Items - Users List](/img/product_docs/identitymanager/identitymanager/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
+![Workflow Menu Items - Users List](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the
 existing menu items list:
@@ -195,7 +195,7 @@ Partial form for user data:
 
 ```
 
-![UI Homonym Detection](/img/product_docs/identitymanager/identitymanager/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.webp)
+![UI Homonym Detection](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-multi/howto_resourcecreationmono_homonym_v603.webp)
 
 ## Customize the Display Table (Optional)
 

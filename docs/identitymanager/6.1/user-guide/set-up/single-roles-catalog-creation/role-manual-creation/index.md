@@ -39,13 +39,13 @@ Create a single role by proceeding as follows:
 1. On the home page in the **Configuration** section, click on **Access Roles** to access the roles
    page.
 
-    ![Home Page - Access Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+    ![Home Page - Access Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 2. On the roles page, click on the adequate category and create a role by clicking on **+ New** at
    the top right corner.
 3. Fill in the fields.
 
-    ![Create a Single Role](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createsinglerole_v602.webp)
+    ![Create a Single Role](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createsinglerole_v602.webp)
 
     - `Identifier`: must be unique among roles and without any whitespace.
     - `Name`: will be displayed in the UI to identify the created single role.
@@ -109,20 +109,20 @@ Create a navigation rule by proceeding as follows:
 1. On the home page in the **Configuration** section, click on **Access Rules** to access the rules
    page.
 
-    ![Home Page - Access Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+    ![Home Page - Access Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the entity type to which the future navigation rule
    will be applied.
 
-    ![Entity Type Choice](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+    ![Entity Type Choice](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Navigations** tab and on the addition button at the top right corner.
 
-    ![Addition Icon](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 
-    ![Create a Navigation Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.webp)
+    ![Create a Navigation Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/singlerolescatalog_createnavrule_v602.webp)
 
     - `Join`: target property whose value is impacted by the created rule.
     - `Resource`: value to be set on the JOIN.
@@ -146,25 +146,25 @@ In order to verify the process, check that the role and rule are created with th
 
 For roles, click on **Access Roles** on the home page in the **Configuration** section.
 
-![Home Page - Access Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
+![Home Page - Access Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 Select single roles and find the role you created inside the right category and with the right
 parameters.
 
-![Access Single Roles](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
+![Access Single Roles](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testroles_v602.webp)
 
 > Our example would look like:
 >
-> ![Example - Generated Role](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
+> ![Example - Generated Role](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleroleresult_v602.webp)
 
 For rules, click on **Access Rules** on the home page in the **Configuration** section.
 
-![Home Page - Access Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home Page - Access Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 Select navigation rules and find the rule(s) you created with the right parameters.
 
-![Access Navigation Rules](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
+![Access Navigation Rules](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_testrules_v602.webp)
 
 > Our example would look like:
 >
-> ![Example - Generated Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)
+> ![Example - Generated Rule](/img/product_docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_exampleruleresult_v523.webp)

@@ -21,17 +21,17 @@ administrator, must have access to:
 
 - the connector screens, especially the jobs available there;
 
-    ![Connector Jobs](/img/product_docs/identitymanager/identitymanager/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.webp)
+    ![Connector Jobs](/img/product_docs/identitymanager/saas/user-guide/maintain/troubleshooting/troubleshooting_connectorjobs_v603.webp)
 
 - the resource screens (identities, accounts, etc.) with their data, and especially their history
   and sources;
 
-    ![User Data](/img/product_docs/identitymanager/identitymanager/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.webp)
+    ![User Data](/img/product_docs/identitymanager/saas/user-guide/maintain/troubleshooting/troubleshooting_userdata_v603.webp)
 
 - basic workflows, for example the usual helpdesk workflow, that give access to users' entitlements
   and enable data modification and repair.
 
-    ![Helpdesk Workflow](/img/product_docs/identitymanager/identitymanager/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.webp)
+    ![Helpdesk Workflow](/img/product_docs/identitymanager/saas/user-guide/maintain/troubleshooting/troubleshooting_helpdesk_v603.webp)
 
 ## Participants and Artifacts
 

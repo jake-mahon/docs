@@ -35,4 +35,4 @@ Identity Manager's database.
 You can explore created views in the Identity Manager database's Views folder in SQL Server
 Management Studio
 
-![SSMS Views](/img/product_docs/identitymanager/identitymanager/integration-guide/executables/references/create-databaseviews/identitymanager-create-databaseviews_ssms.webp)
+![SSMS Views](/img/product_docs/identitymanager/saas/integration-guide/executables/references/create-databaseviews/identitymanager-create-databaseviews_ssms.webp)

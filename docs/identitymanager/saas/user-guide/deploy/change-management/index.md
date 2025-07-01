@@ -24,7 +24,7 @@ A digital project follows two parallel processes:
 
 Change management aims to support the teams throughout the human process.
 
-![Process of Change Management](/img/product_docs/identitymanager/identitymanager/user-guide/deploy/change-management/changemanagement_process.webp)
+![Process of Change Management](/img/product_docs/identitymanager/saas/user-guide/deploy/change-management/changemanagement_process.webp)
 
 These processes include mandatory steps that all staff members have to go through, but not
 necessarily at the same pace. For that reason, change managers can benefit from the use of personas,
@@ -32,7 +32,7 @@ i.e. creating characters that represent key populations.
 
 ## Participants and Artifacts
 
-![Actors of Change Management](/img/product_docs/identitymanager/identitymanager/user-guide/deploy/change-management/changemanagement_actors.webp)
+![Actors of Change Management](/img/product_docs/identitymanager/saas/user-guide/deploy/change-management/changemanagement_actors.webp)
 
 The aim of a Project Management Officer concerning critical stakeholders is to enable:
 
@@ -73,7 +73,7 @@ Run change management by proceeding as follows:
 1. Identify the populations impacted by change. Below is an example of impacted populations that can
    vary enormously.
 
-    ![Usual Populations](/img/product_docs/identitymanager/identitymanager/user-guide/deploy/change-management/changemanagement_populations.webp)
+    ![Usual Populations](/img/product_docs/identitymanager/saas/user-guide/deploy/change-management/changemanagement_populations.webp)
 
 2. For all listed populations, estimate their size and the expected impact on them, through
    indicators like the frequency of their future use of the solution. Use personas to represent key

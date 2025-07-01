@@ -6,7 +6,7 @@ instance.
 
 This page is about [ SAP S/4 HANA ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/saphana/index.md).
 
-![Package: ERP/SAP S/4 HANA](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.webp)
+![Package: ERP/SAP S/4 HANA](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.webp)
 
 ## Overview
 

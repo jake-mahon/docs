@@ -6,7 +6,7 @@ installation setup that fits best your organization's needs.
 
 ## Usercube Components and Data Flow
 
-![Components & Data Flow](/img/versioned_docs/identitymanager_6.1/identitymanager/installation-guide/overview/components_data_flow.webp)
+![Components & Data Flow](/img/product_docs/identitymanager/6.1/installation-guide/overview/components_data_flow.webp)
 
 ### Components
 
@@ -92,7 +92,7 @@ can be spread between several workstations. Two scenarios unfold:
 
 This approach is useful when managed systems need to run on separate and isolated networks.
 
-![Server & Agents isolated](/img/versioned_docs/identitymanager_6.1/identitymanager/installation-guide/overview/distribution_1.webp)
+![Server & Agents isolated](/img/product_docs/identitymanager/6.1/installation-guide/overview/distribution_1.webp)
 
 #### **2.** The Server and one Agent are installed on the same workstation
 
@@ -101,7 +101,7 @@ workstation would **only host a Usercube Server process** (with the integrated a
 separate agent needs to be installed. The database could be installed on the same workstation or on
 a separate one.
 
-![Server & Agent together](/img/versioned_docs/identitymanager_6.1/identitymanager/installation-guide/overview/distribution_2.webp)
+![Server & Agent together](/img/product_docs/identitymanager/6.1/installation-guide/overview/distribution_2.webp)
 
 ## Authentication
 

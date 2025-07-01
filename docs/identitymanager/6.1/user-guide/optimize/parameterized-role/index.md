@@ -8,7 +8,7 @@ The assignment of a role to a user gives them an entitlement, usually a group me
 a navigation rule.
 [See more details on roles and navigation rules](/docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/index.md).
 
-![Simple Role](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.webp)
+![Simple Role](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.webp)
 
 To enable the assignment of all existing entitlements, the role model usually contains numerous
 roles.
@@ -16,13 +16,13 @@ roles.
 > For example, the SAP role can be given with slight differences according to the users'
 > subsidiaries:
 >
-> ![Role Matrix](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)
+> ![Role Matrix](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)
 
 In order to reduce the number of roles, we can configure roles with parameters by inserting a
 criterion in the navigation rules. Thus, instead of having as many roles as entitlements (left on
 the schema), we can have way fewer roles (right on the schema).
 
-![With/Without Parameters](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedroles_parameters.webp)
+![With/Without Parameters](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedroles_parameters.webp)
 
 > In the previous example, with a parameter on the subsidiary, the number of roles would be divided
 > by three.
@@ -57,7 +57,7 @@ Configure a parameterized role by proceeding as follows:
 
     > For example:
     >
-    > ![Example - Role](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedrole_examplerole_v603.webp)
+    > ![Example - Role](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedrole_examplerole_v603.webp)
 
 3. [Create one navigation rule](/docs/identitymanager/6.1/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
    linked to the role for each available value of the parameter.
@@ -65,7 +65,7 @@ Configure a parameterized role by proceeding as follows:
     > Here we have three navigation rules, one for each distinct time slot (dimension A). For
     > example:
     >
-    > ![Example - Rule](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedrole_examplerule_v603.webp)
+    > ![Example - Rule](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedrole_examplerule_v603.webp)
 
     Make sure that the corresponding dimension is specified in the right `DisplayEntityType` in XML
     to be displayed in the UI.
@@ -75,7 +75,7 @@ Configure a parameterized role by proceeding as follows:
 
     > For example:
     >
-    > ![Example - Role Parameter Required](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedrole_exampleroleparameter_v603.webp)
+    > ![Example - Role Parameter Required](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedrole_exampleroleparameter_v603.webp)
 
 5. If you want Usercube to provide suggestions to set the parameter's value, then make sure that
    users'
@@ -99,12 +99,12 @@ role's parameter.
 
 > In our example:
 >
-> ![Example - Step 1](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedroles_parameterexamplestep1_v603.webp)
+> ![Example - Step 1](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedroles_parameterexamplestep1_v603.webp)
 >
-> ![Example - Step 2](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedroles_parameterexamplestep2_v603.webp)
+> ![Example - Step 2](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedroles_parameterexamplestep2_v603.webp)
 
 If the dimension is specified in the users' context rule, then Usercube will provide suggestions.
 
 > For example, concerning the `Title` dimension mentioned above:
 >
-> ![Example - Suggestion](/img/versioned_docs/identitymanager_6.1/identitymanager/user-guide/optimize/parameterized-role/parameterizedrole_examplerolesuggestion_v603.webp)
+> ![Example - Suggestion](/img/product_docs/identitymanager/6.1/user-guide/optimize/parameterized-role/parameterizedrole_examplerolesuggestion_v603.webp)

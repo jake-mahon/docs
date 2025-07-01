@@ -70,7 +70,7 @@ This condition is actually a comparison expression between two elements:
 - The value of a property which is originating from an entity targeted by the rule
 - A comparison value that can be constant, or originating from the user profile
 
-![Access Control Filter Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/accesscontrolfilter_schema.webp)
+![Access Control Filter Schema](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/accesscontrolfilter_schema.webp)
 
 ### Examples
 
@@ -139,7 +139,7 @@ Technically speaking, the filter here says that the rule's permissions apply onl
 For example, Timothy Callahan is here assigned the `Manager` profile with the `Department` dimension
 set to `Treasury/Chief Economist`.
 
-![Matching Assigned Profile](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/assignedprofile_example_v603.webp)
+![Matching Assigned Profile](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/assignedprofile_example_v603.webp)
 
 Thus, with the previous access control rule, Timothy Callahan will get certain permissions on users
 whose main department is `Treasury/Chief Economist`.

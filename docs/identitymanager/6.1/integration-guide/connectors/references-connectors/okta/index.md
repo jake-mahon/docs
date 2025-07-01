@@ -2,7 +2,7 @@
 
 This connector exports and fulfills entries from/to Okta application.
 
-![okta](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/connectors/references-connectors/okta/okta.webp)
+![okta](/img/product_docs/identitymanager/6.1/integration-guide/connectors/references-connectors/okta/okta.webp)
 
 ## Overview
 

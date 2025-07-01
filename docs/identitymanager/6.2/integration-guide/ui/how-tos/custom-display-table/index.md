@@ -16,7 +16,7 @@ script in the command line.
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable(Table)](/img/product_docs/identitymanager/identitymanager/integration-guide/ui/how-tos/custom-display-table/displaytablestable.webp)
+![DisplayTable(Table)](/img/product_docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/displaytablestable.webp)
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
 like a table) if a criterion linked to this column is already displayed in a search bar. This avoids
@@ -37,7 +37,7 @@ script in the command line.
 
 Here is the visualization of this resource table on the interface:
 
-![ResourceTable](/img/product_docs/identitymanager/identitymanager/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.webp)
+![ResourceTable](/img/product_docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/displaytablesresourcetable.webp)
 
 ## Display Table with Tiles
 
@@ -62,7 +62,7 @@ script in the command line.
 
 Here is the visualization of this display table on the interface:
 
-![DisplayTable with Tiles](/img/product_docs/identitymanager/identitymanager/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.webp)
+![DisplayTable with Tiles](/img/product_docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/displaytablestiles.webp)
 
 See the [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 topic for additional information.

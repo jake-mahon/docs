@@ -90,7 +90,7 @@ The following is
 - **Application Pool** > **Identity Manager `<Organization>`** > **Advanced Settings** >
   **General** > **.NET CLR Version** > **No Managed Code**
 
-![IIS Settings](/img/product_docs/identitymanager/identitymanager/installation-guide/production-ready/server/iis_settings.webp)
+![IIS Settings](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/iis_settings.webp)
 
 This sums up IIS settings.
 
@@ -234,7 +234,7 @@ would be `IIS APPPOOL/identitymanagerAgent<Organization>`.
 **Step 5 –** Select the newly added user name in the Group or user names panel at the top of the
 window.
 
-![Object Names](/img/product_docs/identitymanager/identitymanager/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
+![Object Names](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
 **Step 6 –** Check the **Allow** column for the relevant permissions. Check the **Deny** column for
 the others. See the[Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional
