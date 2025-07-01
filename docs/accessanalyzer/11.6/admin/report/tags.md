@@ -5,7 +5,7 @@ example, tags can be included in a report to show the compliance frameworks to w
 maps. To view tags or click on tag links, reports must be viewed in the Web Console. Tags are not
 supported in reports in the Jobs tree.
 
-![Web Console Home Page](/img/product_docs/accessanalyzer/11.6/install/application/reports/webconsolehome.webp)
+![Web Console Home Page](/img/product_docs/accessanalyzer/11.6/admin/report/webconsolehome.webp)
 
 If Reports from solutions that have been run have tags added to them, those tags can be found under
 the Tags tab in the Navigation section on the right-hand side of the Published Reports homepage.

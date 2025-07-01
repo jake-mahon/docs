@@ -28,7 +28,7 @@ following wizard pages:
 - [INIFile: Properties](/docs/accessanalyzer/11.6/admin/datacollector/inifile/properties.md)
 - [INIFile: Summary](/docs/accessanalyzer/11.6/admin/datacollector/inifile/summary.md)
 
-![INI File Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![INI File Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/inifile/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

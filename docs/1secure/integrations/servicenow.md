@@ -36,7 +36,7 @@ Follow the steps to add a ServiceNow integration system.
 
 **Step 2 –** In the displayed Integration type window, click **ServiceNow** and click **Next**.
 
-![servicenowconnection](/img/product_docs/changetracker/8.1/integration/itsm/servicenowconnection.webp)
+![servicenowconnection](/img/product_docs/1secure/integration/itsm/servicenowconnection.webp)
 
 **Step 3 –** In the Configure connection window, specify the required boxes - Server Name, Username,
 and Password.

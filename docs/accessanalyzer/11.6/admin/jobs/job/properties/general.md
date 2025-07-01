@@ -2,7 +2,7 @@
 
 The General tab is for changing the job name and description.
 
-![General tab of Job Properties](/img/product_docs/activitymonitor/7.1/admin/search/query/general.webp)
+![General tab of Job Properties](/img/product_docs/accessanalyzer/11.6/admin/jobs/job/properties/general.webp)
 
 The following options are available:
 

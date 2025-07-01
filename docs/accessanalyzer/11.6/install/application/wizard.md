@@ -13,16 +13,16 @@ is run in Administrative/privilege mode.
 **Step 1 –** Run the **Netwrixaccessanalyzer.exe** executable to open the Enterprise Auditor
 Setup Wizard.
 
-![Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![ End User License Agreement](/img/product_docs/changetracker/8.0/install/eula.webp)
+![ End User License Agreement](/img/product_docs/accessanalyzer/11.6/install/application/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, read the End User License Agreement, then check
 the **I accept the terms in the License Agreement** box and click **Next**.
 
-![Destinations Folder page](/img/product_docs/accessanalyzer/11.6/install/filesystemproxy/destination.webp)
+![Destinations Folder page](/img/product_docs/accessanalyzer/11.6/install/application/destination.webp)
 
 **Step 4 –** On the Destination Folder page, click **Change** to select the folder location to
 install Enterprise Auditor. The default destination folder is
@@ -30,7 +30,7 @@ install Enterprise Auditor. The default destination folder is
 
 |                                                                                                         |     |                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ![License File page](/img/product_docs/activitymonitor/7.1/install/agent/license.webp) |     | ![License File page with mapped file](/img/product_docs/accessanalyzer/11.6/install/application/licensemapped.webp) |
+| ![License File page](/img/product_docs/accessanalyzer/11.6/install/application/license.webp) |     | ![License File page with mapped file](/img/product_docs/accessanalyzer/11.6/install/application/licensemapped.webp) |
 | Default License File Page                                                                               |     | Mapped License File                                                                                                                       |
 
 **Step 5 –** On the License File page, click **Browse** and navigate to your **StealthAUDIT.lic**
@@ -45,12 +45,12 @@ installation begins.
 license. It also displays the name of the organization which owns the license, the expiration date,
 and the host limit. These are the features that will be installed. Click **Next**.
 
-![Ready to install Netwrix Access Governance page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
+![Ready to install Netwrix Access Governance page](/img/product_docs/accessanalyzer/11.6/install/application/ready.webp)
 
 **Step 7 –** On the Ready to install Enterprise Auditor page, click **Install** to begin the
 installation.
 
-![Setup Wizard Completed page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Setup Wizard Completed page](/img/product_docs/accessanalyzer/11.6/install/application/completed.webp)
 
 **Step 8 –** When the installation has completed, click **Finish** to exit the wizard.
 

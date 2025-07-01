@@ -34,7 +34,7 @@ which contains the following wizard pages:
 - [ActiveDirectory: Options](/docs/accessanalyzer/11.6/admin/datacollector/activedirectory/options.md)
 - [ActiveDirectory: Summary](/docs/accessanalyzer/11.6/admin/datacollector/activedirectory/summary.md)
 
-![Active Directory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Active Directory Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/activedirectory/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

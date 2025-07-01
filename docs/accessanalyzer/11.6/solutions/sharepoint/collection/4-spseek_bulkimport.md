@@ -28,7 +28,7 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![Bulk Import Settings](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/bulkimportsettings.webp)
+![Bulk Import Settings](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/bulkimportsettings.webp)
 
 **Step 4 –** On the
 [SPAA: Bulk Import Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/bulkimportsettings.md)

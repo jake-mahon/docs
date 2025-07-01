@@ -3,7 +3,7 @@
 The PF_FolderScans job is comprised of data collection that focuses on collecting sizing information
 for each public folder.
 
-![Collection > PF_FolderScans Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/databases/collection/collectionjobstree.webp)
+![Collection > PF_FolderScans Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/growthsize/collectionjobstree.webp)
 
 The PF_FolderScans job is located in the Collection job group.
 

@@ -2,7 +2,7 @@
 
 Use the Export settings page to specify data export settings.
 
-![View and Table Creation Analysis Module wizard Export page](/img/product_docs/directorymanager/11.0/portal/export.webp)
+![View and Table Creation Analysis Module wizard Export page](/img/product_docs/accessanalyzer/11.6/admin/analysis/sqlviewcreation/export.webp)
 
 Select the **Export results data** checkbox to enable the settings. The following options control
 the file type and destination of the exported data:

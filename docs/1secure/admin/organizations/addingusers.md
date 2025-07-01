@@ -81,7 +81,7 @@ For example, if you are a tenant administrator and you allowed a access to a mem
 should edit 100 accounts before 08.03.2023, this member can manage these activities up to a certain
 period and the administrator does not need to suspend the rights manually.
 
-![Add Users pane](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/auditreporting/tab/addusers.webp)
+![Add Users pane](/img/product_docs/1secure/admin/organizations/addusers.webp)
 
 **Step 4 –** Select one or more organization groups from the **Select organization group(s) for the
 user** drop-down menu. To specify multiple groups, select them one by one from the drop-down menu.

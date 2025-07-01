@@ -28,7 +28,7 @@ files, and reports remain in the installation directory after the uninstall proc
   folder of the installation directory. Any custom application settings contained in this file are
   kept as part of this upgrade process.
 
-![Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/welcome.webp)
 
 **Step 2 –** Install Enterprise Auditor 11.6. See the
 [Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/install/application/wizard.md)
@@ -90,7 +90,7 @@ Follow the steps to use the Upgrade Wizard.
 **Step 1 –** Launch the Enterprise Auditor application. The installation wizard placed the
 Enterprise Auditor icon on the desktop.
 
-![Configuration Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Configuration Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/welcome.webp)
 
 **Step 2 –** The Enterprise Auditor Configuration Wizard opens. Click **Next** to continue.
 
@@ -122,7 +122,7 @@ the customization will not be archived. To resolve a conflict, select it from th
 
 **Step 6 –** When the Upgrade options have been set as desired. Click **Next**.
 
-![Configuration wizard Options page](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Configuration wizard Options page](/img/product_docs/accessanalyzer/11.6/install/application/upgrade/options.webp)
 
 **Step 7 –** On the Options page, select whether to send usage statistics to Netwrix to help us
 improve our product. After the Usage Statistics option is set as desired, click **Next** to

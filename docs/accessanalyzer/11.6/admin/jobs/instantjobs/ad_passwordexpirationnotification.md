@@ -7,7 +7,7 @@ available through the Instant Job Library under the Active Directory library. Se
 section for instructions to add this instant job into the Jobs tree. Since this job does not require
 a host to target, select Local host on the Hosts page of the Instant Job Wizard.
 
-![AD_PasswordExpirationNotification job in the Jobs tree](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/jobstree.webp)
+![AD_PasswordExpirationNotification job in the Jobs tree](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/jobstree_3.webp)
 
 Runtime Details:
 

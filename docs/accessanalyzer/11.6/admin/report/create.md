@@ -45,12 +45,12 @@ You can create a new report by copying an existing report and pasting it in a jo
 You can then optionally customize the report as required. Follow the steps to create a copy of an
 existing report.
 
-![Copy Report](/img/product_docs/accessanalyzer/11.6/admin/navigate/copy.webp)
+![Copy Report](/img/product_docs/accessanalyzer/11.6/admin/report/copy.webp)
 
 **Step 1 –** Navigate to the Reports node where the desired report to copy is located. Click the
 vertical ellipsis menu next to the report and select Copy.
 
-![Paste Report](/img/product_docs/accessanalyzer/11.6/admin/navigate/paste.webp)
+![Paste Report](/img/product_docs/accessanalyzer/11.6/admin/report/paste.webp)
 
 **Step 2 –** Navigate to the Reports node in the desired destination for the new report. Click the
 vertical ellipsis menu in the header row of the Reports table and select Paste.

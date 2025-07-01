@@ -21,7 +21,7 @@ You can review the Active Directory/Microsoft Entra ID users on the following da
 
 - Managing Organization
 
-![tabs](/img/product_docs/threatmanager/3.0/administration/threatdetails/tabs.webp)
+![tabs](/img/product_docs/1secure/admin/organizations/tabs.webp)
 
 - Managed Organization
 

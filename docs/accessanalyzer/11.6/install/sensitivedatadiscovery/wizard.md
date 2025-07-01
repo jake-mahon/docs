@@ -40,15 +40,15 @@ _Remember,_
   Add-On on the SharePoint server hosting the SharePoint Agent.
     - Select the SPAA Agent for SP 2013 and newer
 
-![SDD Add-on Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![SDD Add-on Setup Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![SDD Add-on Setup Wizard End-User License Agreement page](/img/product_docs/changetracker/8.0/install/eula.webp)
+![SDD Add-on Setup Wizard End-User License Agreement page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/eula.webp)
 
 **Step 3 –** Check the **I accept the terms in the License Agreement** box and click **Next**.
 
-![SDD Add-on Setup Wizard License File page](/img/product_docs/activitymonitor/7.1/install/agent/license.webp)
+![SDD Add-on Setup Wizard License File page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/license.webp)
 
 **Step 4 –** Click **Browse** to select the license file to use for installation. By default, this
 will target the license key within the Enterprise Auditor installation directory. If installing on
@@ -58,7 +58,7 @@ the license file. Click **Next**.
 **NOTE:** The Enterprise Auditor license file needs to be locally accessible during the installation
 process.
 
-![SDD Add-on Setup Wizard Ready to install page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
+![SDD Add-on Setup Wizard Ready to install page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/ready.webp)
 
 **Step 5 –** Click **Install** to begin the installation.
 
