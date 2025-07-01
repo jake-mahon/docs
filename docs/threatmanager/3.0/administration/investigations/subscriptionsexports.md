@@ -5,7 +5,7 @@ attachment. An export puts the report results for an investigation into a desire
 Subscriptions and Exports page provides a list of investigations that are either subscribed to or
 scheduled for export.
 
-![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/subscriptionsexports.webp)
+![Investigations interface on the Subscriptions and Exports page](/img/product_docs/threatmanager/3.0/administration/investigations/subscriptionsexports.webp)
 
 The table has the following columns:
 

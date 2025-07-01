@@ -3,7 +3,7 @@
 License information is displayed on the Licensing page of the System Settings interface. Threat
 Manager comes with a temporary 15-day license.
 
-![System Settings interfaces on the Licensing page](/img/product_docs/dataclassification/5.7/configuration/licensing.webp)
+![System Settings interfaces on the Licensing page](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/licensing.webp)
 
 The License Info section displays the following:
 

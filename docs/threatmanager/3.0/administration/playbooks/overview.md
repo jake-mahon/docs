@@ -17,7 +17,7 @@ Threat Manager threats and threat responses, automatic triggering of playbooks c
 
 Follow the steps to add a playbook.
 
-![threatresponse](/img/product_docs/threatmanager/3.0/administration/configuration/threatresponse.webp)
+![threatresponse](/img/product_docs/threatmanager/3.0/administration/playbooks/threatresponse.webp)
 
 **Step 1 –** In the Threat Response box, click New Playbook. A new playbook called "My Playbook 1"
 is created. As additional Playbooks are added, sequential numbers are appended to My Playbook.
@@ -54,7 +54,7 @@ The Threat Response page contains the following configuration tabs:
 The General Tab contains the Allowed Threats box which allows customization of which threats are
 applicable for the selected playbook.
 
-![generaltab](/img/product_docs/threatprevention/7.5/admin/policies/generaltab.webp)
+![generaltab](/img/product_docs/threatmanager/3.0/administration/playbooks/generaltab.webp)
 
 The General tab has the following configuration options:
 
@@ -76,7 +76,7 @@ additional information.
 
 Follow the instructions to add steps to a Playbook.
 
-![actionstab](/img/product_docs/threatprevention/7.5/admin/policies/actions/actionstab.webp)
+![actionstab](/img/product_docs/threatmanager/3.0/administration/playbooks/actionstab.webp)
 
 **Step 1 –** Select the playbook from the Playbooks list in the Threat Response box or on the
 Playbooks overview.

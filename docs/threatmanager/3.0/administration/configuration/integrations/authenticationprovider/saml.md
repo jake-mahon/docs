@@ -6,7 +6,7 @@ information. This means that you can use one set of credentials to log in to man
 websites. It is much easier to manage one login per user than separate logins for email, Customer
 Relationship Management (CRM) software, Active Directory, and more.
 
-![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
+![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/saml.webp)
 
 The details page for a SAML authentication provider has two tabs:
 

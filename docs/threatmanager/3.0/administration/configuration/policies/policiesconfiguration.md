@@ -23,7 +23,7 @@ The Tabs box contains the following tabs:
 
 The Configuration tab provides information on the selected policy for a Honeytoken.
 
-![configurationtab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/configurationtab.webp)
+![configurationtab](/img/product_docs/threatmanager/3.0/administration/configuration/policies/configurationtab.webp)
 
 The Configuration tab contains the following configuration options:
 

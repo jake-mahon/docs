@@ -17,7 +17,7 @@ Common Details Page Elements
 
 The User Details, Group Details, and Host Details pages contain some common page elements.
 
-![page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![page](/img/product_docs/threatmanager/3.0/administration/threatdetails/page_1.webp)
 
 Common details page elements include:
 

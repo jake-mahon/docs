@@ -3,7 +3,7 @@
 The Threat Details page provides details on the selected threat. View the details for a threat by
 selecting the threat from the list on the [Threats Page](/docs/threatmanager/3.0/administration/threats.md) and clicking View Details.
 
-![threatdetails](/img/product_docs/threatmanager/3.0/administration/configuration/threatdetails.webp)
+![threatdetails](/img/product_docs/threatmanager/3.0/administration/threatdetails/threatdetails.webp)
 
 The top of the page displays a Threat Overview box, Threat Activity diagram, and an Evidence box.
 
@@ -77,7 +77,7 @@ hhhhh
 
 The Threat Response window contains the following configuration options:
 
-![Threat Response window](/img/product_docs/threatmanager/3.0/administration/configuration/threatresponse.webp)
+![Threat Response window](/img/product_docs/threatmanager/3.0/administration/threatdetails/threatresponse.webp)
 
 - Select Playbook – Select a playbook for the threat response
 - Description – Description of the playbook that has been selected
@@ -95,7 +95,7 @@ The Threat Details Overview contains the following tabs:
 
 The Event Details tab shows details for the selected threat.
 
-![eventdetails](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/eventdetails.webp)
+![eventdetails](/img/product_docs/threatmanager/3.0/administration/threatdetails/eventdetails.webp)
 
 - Time Stamp – The exact date and time when the event occurred
 - Target – The specific object, resource, or entity that was the focus of the event
@@ -157,7 +157,7 @@ file.
 The History tab lists updates made to the threat in the Update box and provides a section to add
 comments.
 
-![history](/img/product_docs/threatprevention/7.5/admin/policies/history.webp)
+![history](/img/product_docs/threatmanager/3.0/administration/threatdetails/history.webp)
 
 The History table has the following columns:
 

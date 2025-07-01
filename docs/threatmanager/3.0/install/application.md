@@ -13,7 +13,7 @@ installed.
 (`Netwrix_Setup.exe`). If you are not using it, right-click on `NetwrixThreatManager.exe` and select
 Run as administrator. Then skip to Step 2.
 
-![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatprevention/7.5/install/reportingmodule/postgresqlcheck.webp)
+![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatmanager/3.0/install/postgresqlcheck.webp)
 
 **Step 1 –** Click **Netwrix Threat Manager Setup**. The Netwrix Threat Manager Setup wizard opens.
 
@@ -44,7 +44,7 @@ desired. Click **Test** to validate the connection information.
 For example, if you change the default database name from stealthdefend to threatmanager and click
 **Test**.
 
-![Warning message that the database does not exist, Create?](/img/product_docs/threatprevention/7.5/install/reportingmodule/databasecreatemessage.webp)
+![Warning message that the database does not exist, Create?](/img/product_docs/threatmanager/3.0/install/databasecreatemessage.webp)
 
 **Step 6 –** If a successful connection is made, a message window displays confirming the database
 does not exist and you want to create it. Click **OK** and the window closes.
@@ -55,19 +55,19 @@ Next button is enabled. Click **Next**.
 **NOTE:** If PostgreSQL is installed on a different host, then the connection details should be
 updated accordingly.
 
-![Netwrix Threat Manager Setup wizard Firewall Rules page](/img/product_docs/threatprevention/7.5/install/reportingmodule/firewallrules.webp)
+![Netwrix Threat Manager Setup wizard Firewall Rules page](/img/product_docs/threatmanager/3.0/install/firewallrules.webp)
 
 **Step 8 –** By default, the **Create Inbound Windows Firewall Rules** checkbox is selected,
 indicating that the installer will create these. Deselect the checkbox if you do not want the
 installer to automatically create these rules because you have already created them. Click **Next**.
 
-![Netwrix Threat Manager Setup wizard Completed Successfully page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Netwrix Threat Manager Setup wizard Completed Successfully page](/img/product_docs/threatmanager/3.0/install/completed.webp)
 
 **Step 9 –** The installation process will begin and the Setup wizard will display the progress.
 Click Exit when the installation completes successfully. The Netwrix Threat Manager Setup wizard
 closes.
 
-![Netwrix Setup Launcher with Threat Manager Setup check](/img/product_docs/threatprevention/7.5/install/reportingmodule/applicationcheck.webp)
+![Netwrix Setup Launcher with Threat Manager Setup check](/img/product_docs/threatmanager/3.0/install/applicationcheck.webp)
 
 **Step 10 –** Now that both components have been installed, close the Netwrix Setup Launcher.
 

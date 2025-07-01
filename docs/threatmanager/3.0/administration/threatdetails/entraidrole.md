@@ -3,7 +3,7 @@
 The Role Details page provides information about a role including its description and role
 membership.
 
-![Roles Page](/img/product_docs/accessanalyzer/12.0/requirements/target/config/roles.webp)
+![Roles Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/roles.webp)
 
 The top of the page displays a profile card which may contain the following information about the
 role:

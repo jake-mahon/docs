@@ -25,7 +25,7 @@ preconfigured action steps.
 
 The Send Email action sends an email.
 
-![sendemail](/img/product_docs/directorymanager/11.1/portal/sendemail.webp)
+![sendemail](/img/product_docs/threatmanager/3.0/administration/playbooks/action/sendemail.webp)
 
 - Subject – The subject of the email
 - To – Specify the email addresses receiving the email

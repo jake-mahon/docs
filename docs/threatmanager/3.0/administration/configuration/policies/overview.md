@@ -3,7 +3,7 @@
 The Policies Page provides an overview of the policies added to the Policies box and their
 deployment history. It also provides the ability to add new polices and configure them.
 
-![page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![page](/img/product_docs/threatmanager/3.0/administration/configuration/policies/page.webp)
 
 The Polices table displays the following information:
 

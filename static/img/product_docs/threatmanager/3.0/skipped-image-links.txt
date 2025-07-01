@@ -1,0 +1,805 @@
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\activedirectorysync.md
+Context:
+Add New Integration window opens.
+
+![Add New Integration window with Active Directory Sync type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/activedirectorysync.webp)
+
+**Step 3 –** In the Type drop-down menu, select Active Directory Sync.
+Original image link: ![Add New Integration window with Active Directory Sync type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/activedirectorysync.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\openid.md
+Context:
+Configure the following settings for an OpenID provider on the Configuration tab:
+
+![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
+
+- Default – The default profile applied when a user is assigned multiple authentication profiles.
+Original image link: ![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\page.md
+Context:
+Add New Integration window opens.
+
+![Add New Integration window with Authentication Provider type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
+
+**Step 2 –** In the Type drop-down list, select Authentication Provider.
+Original image link: ![Add New Integration window with Authentication Provider type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/authenticationprovider.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\radius.md
+Context:
+Configure the following settings for a RADIUS provider on the Configuration tab:
+
+![Configuration tab for a RADIUS authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
+
+- Default – The default profile applied when a user is assigned multiple authentication profiles.
+Original image link: ![Configuration tab for a RADIUS authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\radius.md
+Context:
+settings that need to be configured:
+
+![Customization tab for a Radius authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
+
+- Title for MFA Authentication dialog – The title that is displayed to the user when prompted for
+Original image link: ![Customization tab for a Radius authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\radius.md
+Context:
+System Settings > User Access Page.
+
+![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+
+The table displays the following information:
+Original image link: ![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\authenticationprovider\saml.md
+Context:
+Configure the following settings for a SAML provider on the Configuration tab:
+
+![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
+
+- Default – The default profile applied when a user is assigned multiple authentication profiles.
+Original image link: ![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\credentialprofile.md
+Context:
+Add New Integration window opens.
+
+![Add New Integration window with Credential Profile type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.webp)
+
+**Step 3 –** In the Type drop-down menu, select Credential Profile.
+Original image link: ![Add New Integration window with Credential Profile type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\credentialprofile.md
+Context:
+**Step 4 –** Click the **Edit** button in the upper right corner of the name and description box.
+
+![Name and Description box for a Credential Profile in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/editprofile.webp)
+
+**Step 5 –** To modify the profile name, type in the top field.
+Original image link: ![Name and Description box for a Credential Profile in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/editprofile.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\credentialprofile.md
+Context:
+Credential Settings window opens.
+
+![Credential Settings window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
+
+**Step 3 –** To edit the platform type, select either SQL or Windows from the **Platform** drop-down
+Original image link: ![Credential Settings window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialsettingswindow.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\foldersettings.md
+Context:
+When shared folders are added, they are displayed in a table at bottom of the page.
+
+![Shared Folder table on the Folders Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/sharedfoldertable.webp)
+
+The Shared Folders table has the following columns:
+Original image link: ![Shared Folder table on the Folders Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/sharedfoldertable.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\foldersettings.md
+Context:
+When you hover over a row within the Shared Folders table, three additional options are displayed:
+
+![Shared Folder table on the Folders Settings page showing additional options](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/additionaloptions.webp)
+
+- Refresh Arrow – Tests the shared folder configuration
+Original image link: ![Shared Folder table on the Folders Settings page showing additional options](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/additionaloptions.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\foldersettings.md
+Context:
+**Step 2 –** On the Integrations interface, click **Folder Settings** in the navigation pane.
+
+![Local Folder settings on the Folder Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/localfolder.webp)
+
+**Step 3 –** In the Path field, enter a valid folder path on the server where the application is
+Original image link: ![Local Folder settings on the Folder Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/localfolder.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\foldersettings.md
+Context:
+**Step 3 –** Click **Add Shared Folder**. The Add New Shared Folder window opens.
+
+![Add New Shared Folder window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/addnewsharedfolderwindow.webp)
+
+**Step 4 –** Enter the following information:
+Original image link: ![Add New Shared Folder window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/addnewsharedfolderwindow.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\netwrixintegrations.md
+Context:
+The Policy Sync tab displays information on the last policy sync executed.
+
+![Netwrix Integration Details on the Policy Sync tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/policysynctab.webp)
+
+The tab provides the following information:
+Original image link: ![Netwrix Integration Details on the Policy Sync tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/policysynctab.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\netwrixintegrations.md
+Context:
+**Step 3 –** Click the **Edit** button in the upper right corner of the name and description box.
+
+![Name and Description box for a Netwrix Integration in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/editnetwrixintegration.webp)
+
+**Step 4 –** Type in the top field to modify the integration name.
+Original image link: ![Name and Description box for a Netwrix Integration in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/editnetwrixintegration.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\tagmanagement.md
+Context:
+Add New Integration window opens.
+
+![Add New Integration window with Tag type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/tagmanagement.webp)
+
+**Step 3 –** In the Type drop-down menu, select Tag.
+Original image link: ![Add New Integration window with Tag type selected](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/tagmanagement.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\tagmanagement.md
+Context:
+**_RECOMMENDED:_** Apply the desired Type filters when searching for objects to tag.
+
+![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/typefilters.webp)
+
+The following types are available:
+Original image link: ![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/typefilters.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\tagmanagement.md
+Context:
+Follow the steps to apply tags to objects.
+
+![Tag details page showing search results](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/searchselect.webp)
+
+**Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
+Original image link: ![Tag details page showing search results](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/searchselect.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\integrations\tagmanagement.md
+Context:
+Follow the steps to remove tags from objects.
+
+![Tag details page showing search results](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/search.webp)
+
+**Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
+Original image link: ![Tag details page showing search results](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/search.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\policies\honeytoken.md
+Context:
+policy from the Policies list. Or, select the policy from the Policies table in the Overview box.
+
+![honeytoken](/img/product_docs/threatprevention/7.5/admin/configuration/honeytoken.webp)
+
+**Step 3 –** On the Configuration tab of the policy, fill in the requested information and click
+Original image link: ![honeytoken](/img/product_docs/threatprevention/7.5/admin/configuration/honeytoken.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\policies\honeytoken.md
+Context:
+this Honeytoken.
+
+![ldapfiltercopiedtoclipboard](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.webp)
+
+A notification will pop up and the filter will be saved to the clipboard.
+Original image link: ![ldapfiltercopiedtoclipboard](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapfiltercopiedtoclipboard.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\policies\honeytoken.md
+Context:
+**Step 5 –** Click the **Event Type** tab.
+
+![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapmonitoringfortm.webp)
+
+**Step 6 –** Under Event Filters select **LDAP Query**. If the Include LDAP Queries list is empty,
+Original image link: ![Netwrix Threat Manager for AD LDAP template – Event Type tab with LDAP Query filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/ldapmonitoringfortm.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\policies\honeytoken.md
+Context:
+**NOTE:** LDAP Monitoring is not enabled, it must be enabled in the Monitored Domains tab.
+
+![Activity Monitor with SD Only](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/actiivtymonitordomainsdonly.webp)
+
+**Step 9 –** In the Activity Monitor, click on the **Monitored Domains** tab.
+Original image link: ![Activity Monitor with SD Only](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/actiivtymonitordomainsdonly.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\policies\honeytoken.md
+Context:
+**Step 10 –** Select a domain and click **Edit**.
+
+![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/sdldapmonitoring.webp)
+
+**Step 11 –** Select the **LDAP Monitor** tab.
+Original image link: ![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/sdldapmonitoring.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\systemjobs.md
+Context:
+The Health tab displays the following information:
+
+![Health tab of the Report Maintenance job details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/reporthealth.webp)
+
+- Size of Reports Directory – Displays the size of the directory where reports are stored
+Original image link: ![Health tab of the Report Maintenance job details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/reporthealth.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\useraccess.md
+Context:
+authentication types for users and groups.
+
+![Users and Groups section of the User Access page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/usersgroups.webp)
+
+The table displays the following information:
+Original image link: ![Users and Groups section of the User Access page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/usersgroups.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\useraccess.md
+Context:
+Console Access window opens.
+
+![Add Console Access window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/addconsoleaccess.webp)
+
+**Step 3 –** Begin typing a user or group name in the **User Access** box. The drop-down menu will
+Original image link: ![Add Console Access window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/addconsoleaccess.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\useraccess.md
+Context:
+user or group.
+
+![User and Groups section showing the 3 drop-down menus in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/editaccess.webp)
+
+**Step 3 –** Use the drop-down menus to modify the Access rule type, Role, and/or Authentication
+Original image link: ![User and Groups section showing the 3 drop-down menus in Edit mode](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/editaccess.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\useraccess.md
+Context:
+built-in ADMIN account. The Edit password for built-in admin window opens.
+
+![Edit password for built-in admin window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/editpasswordbuiltinadmin.webp)
+
+**Step 3 –** Enter the existing password in the **Old Password** field.
+Original image link: ![Edit password for built-in admin window](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/editpasswordbuiltinadmin.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\systemsettings\useraccess.md
+Context:
+expiration time for authenticated users.
+
+![Settings section of the User Access page](/img/product_docs/activitymonitor/8.0/config/dellpowerscale/settings.webp)
+
+- One page login (Login, password, MFA code on one page) – Combines username and password, and
+Original image link: ![Settings section of the User Access page](/img/product_docs/activitymonitor/8.0/config/dellpowerscale/settings.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\configuration\threatdetection.md
+Context:
+disabled.
+
+![Threats Box](/img/product_docs/threatmanager/3.0/threats/threatsbox.webp)
+
+The Threats list divides the threats into sections:
+Original image link: ![Threats Box](/img/product_docs/threatmanager/3.0/threats/threatsbox.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\favorites.md
+Context:
+There is an empty star icon beside the name of an investigation not identified as a favorite.
+
+![Empty star showing that investigation is not a favorite](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
+
+Click the star to add the investigation to your Favorites list.
+Original image link: ![Empty star showing that investigation is not a favorite](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\favorites.md
+Context:
+There is a yellow star icon beside the name of an investigation identified as a favorite.
+
+![Favorite investigation star icon selected](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
+
+Click the yellow star to remove the investigation from your Favorites list.
+Original image link: ![Favorite investigation star icon selected](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\newinvestigation.md
+Context:
+Investigation window opens.
+
+![saveinvestigation](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/saveinvestigation.webp)
+
+**Step 2 –** Enter a unique, descriptive name for this investigation in the **Name** field.
+Original image link: ![saveinvestigation](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/saveinvestigation.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\edit.md
+Context:
+**Step 3 –** Click the Edit option.
+
+![Edit Investigation with Save page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/editinvestigationtm.webp)
+
+**Step 4 –** The Edit option opens the Save Investigation window in edit mode. You can modify the
+Original image link: ![Edit Investigation with Save page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/editinvestigationtm.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\edit.md
+Context:
+window is displayed.
+
+![Investigation Open as New option](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/investigationduplicate.webp)
+
+The Name box displays the investigation name with the word "copy" appended to it.
+Original image link: ![Investigation Open as New option](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/investigationduplicate.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\export.md
+Context:
+sections, click the **Export** menu and select **Send as Email**. The Send as Email window opens.
+
+![Send as Email window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/sendasemail.webp)
+
+**Step 3 –** Begin typing in the **Recipients** textbox. You can enter a user name or email address.
+Original image link: ![Send as Email window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/sendasemail.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\export.md
+Context:
+for the investigation.
+
+![Schedule export window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/scheduleexport.webp)
+
+**Step 3 –** By default the schedule is enabled. You can disable it with the toggle button by the
+Original image link: ![Schedule export window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/scheduleexport.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\filters.md
+Context:
+default, the timeframe is set for the "Last Hour" of activity.
+
+![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/timeframe.webp)
+
+Click the displayed timeframeto open a window, which provides several timeframe options as well as a
+Original image link: ![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/timeframe.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\filters.md
+Context:
+attribute:
+
+![attrributemenu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/attrributemenu.webp)
+
+- Event ( group header in the menu):
+Original image link: ![attrributemenu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/attrributemenu.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\filters.md
+Context:
+Attribute. The following is a list of all possible operator options:
+
+![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/operatormenu.webp)
+
+- Equals
+Original image link: ![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/operatormenu.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\filters.md
+Context:
+**Step 1 –** Navigate to the desired investigation's Filters section.
+
+![filtersimple](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/filtersimple.webp)
+
+**Step 2 –** If multiple data sources are configure, select a source from the **Source** drop-down
+Original image link: ![filtersimple](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/filtersimple.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\options\subscription.md
+Context:
+recipients to receive this report as an email attachment in a specified format.
+
+![Subscription window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/subscription.webp)
+
+**NOTE:** This option requires an email server to be configured.If this requirement is not met, a
+Original image link: ![Subscription window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/subscription.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\reports.md
+Context:
+investigation.
+
+![Events Detaisl section of an investigation report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/eventdetails.webp)
+
+The table displays the following data:
+Original image link: ![Events Detaisl section of an investigation report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/eventdetails.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\reports.md
+Context:
+specified for the investigation.
+
+![Events Over Time section of an Investigations report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/eventsovertime.webp)
+
+- Hover over a time period to view the type of event and number of events logged for that timeframe.
+Original image link: ![Events Over Time section of an Investigations report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/eventsovertime.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\reports.md
+Context:
+associated with the events matching the criteria specified for the investigation.
+
+![Top Resources section of an Investigations report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/topresources.webp)
+
+The tab contains two tables:
+Original image link: ![Top Resources section of an Investigations report](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/topresources.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\subscriptionsexports.md
+Context:
+column header.
+
+![Table column menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/tableoptions.webp)
+
+In addition to the arrow that appears to sort the table in ascending or descending order, the menu
+Original image link: ![Table column menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/tableoptions.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\subscriptionsexports.md
+Context:
+The Table Filter window opens from the table column menu.
+
+![Table Filter window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/filterwindow.webp)
+
+Follow the steps to build a filter statement.
+Original image link: ![Table Filter window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/filterwindow.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\administration\investigations\subscriptionsexports.md
+Context:
+The Actions column holds a menu with actions that apply to the selected subscription or export.
+
+![Actions menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/subscriptionsexportsactions.webp)
+
+The options include:
+Original image link: ![Actions menu](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/subscriptionsexportsactions.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\application.md
+Context:
+checkbox. Click **Next**.
+
+![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+
+**Step 4 –** By default, the installation directory is set to:
+Original image link: ![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\application.md
+Context:
+Optionally, enter a new path or use the **Browse** button to modify as desired. Click Next.
+
+![Netwrix Threat Manager Setup wizard Connect to the Database page](/img/product_docs/threatprevention/7.5/install/database.webp)
+
+**Step 5 –** On the Database page, ensure the host and port are set correctly. If installing on the
+Original image link: ![Netwrix Threat Manager Setup wizard Connect to the Database page](/img/product_docs/threatprevention/7.5/install/database.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\database.md
+Context:
+**Step 2 –** Click Install.
+
+![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+
+**Step 3 –** Read the End User License Agreement and select the I accept the license agreement
+Original image link: ![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\database.md
+Context:
+checkbox. Click Next.
+
+![Netwrix PostgreSQL Setup wizard on the Folder Location page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+
+**Step 4 –** By default, the installation directories are set to:
+Original image link: ![Netwrix PostgreSQL Setup wizard on the Folder Location page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\firstlaunch.md
+Context:
+first time.
+
+![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/7.5/install/reportingmodule/builtinadminpassword.webp)
+
+There is a built-in ADMIN account used for the initial configuration steps and granting user access.
+Original image link: ![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/7.5/install/reportingmodule/builtinadminpassword.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\firstlaunch.md
+Context:
+configure MFA for the account.
+
+![registerauthenticator](/img/product_docs/threatprevention/7.5/install/reportingmodule/registerauthenticator.webp)
+
+**Step 1 –** Register the MFA authenticator. The Register Authenticator prompt will provide
+Original image link: ![registerauthenticator](/img/product_docs/threatprevention/7.5/install/reportingmodule/registerauthenticator.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\upgrade3.0.md
+Context:
+displayed.
+
+![Netwrix Threat Manager Setup window](/img/product_docs/threatprevention/7.5/install/upgrade/tm3installation.webp)
+
+**Step 2 –** Click **PostgreSQL Setup** to upgrade the PostgreSQL version. The following message is
+Original image link: ![Netwrix Threat Manager Setup window](/img/product_docs/threatprevention/7.5/install/upgrade/tm3installation.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\upgrade3.0.md
+Context:
+displayed, indicating the currently installed version:
+
+![Threat Manager Reporting - Upgrade DB Confirmation dialog box](/img/product_docs/threatprevention/7.5/install/upgrade/upgradedbprompt.webp)
+
+**Step 3 –** Click **OK** to upgrade. The Netwrix PostgreSQL Setup wizard opens.
+Original image link: ![Threat Manager Reporting - Upgrade DB Confirmation dialog box](/img/product_docs/threatprevention/7.5/install/upgrade/upgradedbprompt.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\install\upgrade3.0.md
+Context:
+**Step 4 –** Click **Install**.
+
+![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+
+**Step 5 –** Read the End User License Agreement and select the I accept the license agreement
+Original image link: ![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\threatprevention\admin\configuration\threatmanagerconfiguration.md
+Context:
+Sink tab displayed by default.
+
+![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration.webp)
+
+**Step 3 –** In the Netwrix Threat Manager URI box, enter the Threat Manager hostname or IP address
+Original image link: ![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\threatprevention\admin\configuration\threatmanagerconfiguration.md
+Context:
+**Step 4 –** Click the **Honey Token** tab.
+
+![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/7.5/admin/configuration/honeytoken.webp)
+
+**Step 5 –** Check the **Enable LDAP substitution** checkbox to enable the options on the tab.
+Original image link: ![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/7.5/admin/configuration/honeytoken.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\threatmanager\3.0\threatprevention\admin\configuration\threatmanagerconfiguration.md
+Context:
+Configuration** on the menu. The Netwrix Threat Manager Configuration window opens.
+
+![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+
+**Step 7 –** Ensure the Event Sink tab is properly set up to send event data to Threat Manager.
+Original image link: ![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+Case: Product folder mismatch
+No suggested images found.

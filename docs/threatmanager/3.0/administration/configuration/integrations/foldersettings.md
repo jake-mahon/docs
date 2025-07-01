@@ -4,7 +4,7 @@ The Folder Settings page within the Integrations interface allows users to desig
 Investigation exports folder location. Additionally, a shared folder can be provided for
 subscription purposes.
 
-![Integrations interface on the Folder Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Folder Settings page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_5.webp)
 
 By default, Investigation exports are placed in the Downloads folder of the logged in user, on the
 machine where that user is accessing the application. When a Local Folder path is designated, all

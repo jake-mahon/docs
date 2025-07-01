@@ -5,7 +5,7 @@ created by the application users.
 
 Click **Investigate** in the application header bar to open the Investigations interface.
 
-![Investigations interface on the My Investigations page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/myinvestigations.webp)
+![Investigations interface on the My Investigations page](/img/product_docs/threatmanager/3.0/administration/investigations/myinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

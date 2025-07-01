@@ -12,11 +12,11 @@ Follow the steps to install the PostgreSQL database application.
 `(Netwrix_Setup.exe`). If you are not using the launcher, right-click on `NetwrixPostgreSQL14.exe`
 and select Run as administrator. Then skip to Step 2.
 
-![Netwrix Setup Launcher](/img/product_docs/threatprevention/7.5/install/reportingmodule/setuplauncher.webp)
+![Netwrix Setup Launcher](/img/product_docs/threatmanager/3.0/install/setuplauncher.webp)
 
 **Step 1 –** Click PostgreSQL Setup. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatprevention/7.5/install/upgrade/install.webp)
+![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/install.webp)
 
 **Step 2 –** Click Install.
 
@@ -39,7 +39,7 @@ Optionally, enter a new path or use the **Browse** buttons to modify as desired.
 **Step 5 –** The installation begins and the installer displays a Setup Progress window. Click Exit
 when the installation is successful. The Netwrix PostgreSQL Setup wizard closes.
 
-![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatprevention/7.5/install/reportingmodule/postgresqlcheck.webp)
+![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatmanager/3.0/install/postgresqlcheck.webp)
 
 The PostgreSQL database application is now installed. Now you can install the Threat Manager
 application. See the [Install the Threat Manager Application](/docs/threatmanager/3.0/install/application.md) topic for additional

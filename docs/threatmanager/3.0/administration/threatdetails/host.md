@@ -2,7 +2,7 @@
 
 The Host Details page displays all threats on the selected host.
 
-![Host Details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Host Details page](/img/product_docs/threatmanager/3.0/administration/threatdetails/page_2.webp)
 
 The top of the page displays a host profile card which may contain the following information about
 the host:
@@ -50,7 +50,7 @@ The Group Membership tab displays the groups the host is a member of. It has the
 - Direct Member Of – Lists groups the host is a direct member of
 - Indirect Member Of – Lists groups the host is a member of via membership in a nested group
 
-![groupmembershiptab](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/groupmembershiptab.webp)
+![groupmembershiptab](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptab.webp)
 
 ![Group Membership Tab Indirect Member of Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptabindirect.webp)
 

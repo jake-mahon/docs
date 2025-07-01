@@ -22,7 +22,7 @@ displayed, indicating the currently installed version:
 
 **Step 3 –** Click **OK** to upgrade. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatprevention/7.5/install/upgrade/install.webp)
+![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/install.webp)
 
 **Step 4 –** Click **Install**.
 
@@ -84,7 +84,7 @@ it can be modified as desired.
 
 **Step 8 –** After successful validation, click **Next**.
 
-![Firewall Rules Page of Threat Manager Installation wizard](/img/product_docs/threatprevention/7.5/install/reportingmodule/firewallrules.webp)
+![Firewall Rules Page of Threat Manager Installation wizard](/img/product_docs/threatmanager/3.0/install/firewallrules.webp)
 
 **Step 9 –** By default, the installer will Create Inbound Windows Firewall Rules. Deselect the
 checkbox if you do not want the installer to automatically create these rules, because you have
@@ -94,7 +94,7 @@ already created them. Click **Next**.
 
 **Step 10 –** The installation process will begin and the Setup wizard will display the progress.
 
-![Threat Manager 3.0 Installed Successfully page](/img/product_docs/threatprevention/7.5/install/reportingmodule/completed.webp)
+![Threat Manager 3.0 Installed Successfully page](/img/product_docs/threatmanager/3.0/install/completed.webp)
 
 **Step 11 –** Click **Exit** when the installation completes successfully. The Netwrix Threat
 Manager Setup wizard closes.

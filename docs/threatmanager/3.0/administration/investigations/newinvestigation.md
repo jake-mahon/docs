@@ -3,7 +3,7 @@
 The New Investigation page within the Investigations interface enables you to run queries on
 available data with desired filters for a specific timeframe.
 
-![Investigations interface on the New Investigation page](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+![Investigations interface on the New Investigation page](/img/product_docs/threatmanager/3.0/administration/investigations/interface.webp)
 
 To generate a new investigation report, configure the filters as desired and set the timeframe. See
 the [Filters Section](/docs/threatmanager/3.0/administration/investigations/options/filters.md) topic for additional information.

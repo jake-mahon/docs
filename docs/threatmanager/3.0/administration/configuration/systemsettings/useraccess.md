@@ -3,7 +3,7 @@
 The User Access page within the System Settings interface displays users and groups with their
 assigned roles for console access.
 
-![System Settings interface on the User Access page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![System Settings interface on the User Access page](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/page.webp)
 
 Roles are assigned by the following methods:
 

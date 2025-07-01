@@ -30,7 +30,7 @@ The page has the following tabs:
 
 The Threats tab for a user displays the threats for the user by timeframe.
 
-![threats](/img/product_docs/threatprevention/7.5/reportingmodule/threats.webp)
+![threats](/img/product_docs/threatmanager/3.0/administration/threatdetails/threats.webp)
 
 A key for threat types is displayed below the chart.
 

@@ -3,7 +3,7 @@
 The Netwrix Integrations page within the Integrations interface lists the products for which the
 application is configured to connect.
 
-![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Netwrix Integration page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_3.webp)
 
 Integrations with other Netwrix products enables you to run Investigations on the event data within
 the connected database. When you add a Netwrixintegration, the selection for Default Data Source
@@ -85,7 +85,7 @@ view a list of the already integrated Netwrix products.
 
 **Step 8 –** Select a product from the table or the navigation pane to view the integration details.
 
-![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface on the Netwrix Integrations details page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/details_3.webp)
 
 Select the integration from the list to see the details and modification options:
 
@@ -106,7 +106,7 @@ Select the integration from the list to see the details and modification options
 
 The Configuration tab displays the settings entered for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/configurationtab.webp)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/configurationtab.webp)
 
 The tab provides the following settings:
 
@@ -168,7 +168,7 @@ The Netwrix Integration name and/or description have been modified.
 
 Follow the steps to modify the configuration for the selected integration.
 
-![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/configurationtab.webp)
+![Netwrix Integration Details on the Configuration tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/configurationtab.webp)
 
 **Step 1 –** On the Integrations interface, click Netwrix Integrations and select the desired
 Netwrix Integration.

@@ -3,7 +3,7 @@
 The Credential Profile page within the Integrations interface lists all of the credentials used by
 the application to complete tasks. These credentials are securely stored.
 
-![Integrations interface on the Credential Profile page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Credential Profile page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_2.webp)
 
 The table displays the user name for each profile. To view profile details or make modifications,
 select a profile from the table or under Credential Profile in the navigation pane.
@@ -63,7 +63,7 @@ view a list of the already created Credential Profiles, if any.
 
 **Step 3 –** Select a Credential Profile from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Credenital Profile](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/details_2.webp)
 
 Select the profile from the list to see details and modification options:
 

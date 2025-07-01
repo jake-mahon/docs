@@ -7,7 +7,7 @@ allowing users to authenticate with their chosen identity provider.
 
 Follow the instructions to integrate the OpenID authentication provider with Threat Manager.
 
-![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/openid.webp)
+![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/openid.webp)
 
 The details page for an OpenID authentication provider has two tabs:
 

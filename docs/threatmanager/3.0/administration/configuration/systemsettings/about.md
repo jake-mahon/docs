@@ -3,7 +3,7 @@
 The About Threat Manager page in the System Settings interface provides information about the
 application version and third-party licenses.
 
-![System Settings interfaces on the About Threat Manager page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/about.webp)
+![System Settings interfaces on the About Threat Manager page](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/about.webp)
 
 The About Threat Manager section contains application version information. It also includes the
 application copyright information.

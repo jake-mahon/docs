@@ -6,7 +6,7 @@ has identified as a favorite.
 Click **Investigate** in the application header bar to open the Investigations interface. Then click
 **Favorites** in the navigation pane.
 
-![Investigation interface on the Favorites page](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favorites.webp)
+![Investigation interface on the Favorites page](/img/product_docs/threatmanager/3.0/administration/investigations/favorites.webp)
 
 The table displays the list of favorite investigations with the following columns:
 

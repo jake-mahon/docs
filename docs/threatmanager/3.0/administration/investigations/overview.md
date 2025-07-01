@@ -8,7 +8,7 @@ Manager like out-of-the-box threats.
 
 Click **Investigate** in the application header bar to open the Investigations interface.
 
-![Investigations interface](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+![Investigations interface](/img/product_docs/threatmanager/3.0/administration/investigations/interface.webp)
 
 The Investigations interface contains the following pages:
 

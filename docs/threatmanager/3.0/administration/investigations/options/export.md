@@ -4,7 +4,7 @@ An export puts the report results for an investigation into a desired format. Th
 provides choices for how you can export the report results for an investigation. The report can be
 exported in a specified format and can be downloaded, emailed, or scheduled as desired.
 
-![Export option in the Investigation interface](/img/product_docs/threatprevention/7.5/admin/navigation/export.webp)
+![Export option in the Investigation interface](/img/product_docs/threatmanager/3.0/administration/investigations/options/export.webp)
 
 After running an investigation query, click **Export**. Then select one of the following from the
 drop-down menu:

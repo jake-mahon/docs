@@ -4,7 +4,7 @@ The Remote Authentication Dial-In User Service (RADIUS) is a networking protocol
 centralized authentication, authorization, and accounting management for users connecting to a
 network service.
 
-![Integrations interface displaying the details for a Radius authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/radius.webp)
+![Integrations interface displaying the details for a Radius authneication provider](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/radius.webp)
 
 The details page for a RADIUS authentication provider has three tabs:
 

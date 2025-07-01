@@ -236,6 +236,8 @@ async function main() {
   const mdFiles = walkDir(docsRoot, '.md');
   // Track skipped image links for this run
   const skippedLinks = new Set();
+  // Collect skipped info for report
+  const skippedReport = [];
   for (const mdFile of mdFiles) {
     const mdContent = fs.readFileSync(mdFile, 'utf8');
     const links = findImageLinks(mdContent);
@@ -259,6 +261,30 @@ async function main() {
       }
       const context = getContextLines(mdContent, index, 2);
       const candidates = getCandidateImagePaths(inputFolder, mdFile, imgPath);
+      let skipAndReport = false;
+      if (candidates.length === 0) {
+        // Automatically skip if this is a path alignment mismatch or product folder mismatch
+        if (caseType === 'path' || caseType === 'product') {
+          skipAndReport = true;
+        }
+      }
+      if (skipAndReport) {
+        // Collect all info for report
+        let reportEntry = '';
+        reportEntry += '\n---\n';
+        reportEntry += `File: ${mdFile}\n`;
+        reportEntry += `Context:\n${context}\n`;
+        reportEntry += `Original image link: ${link}\n`;
+        if (caseType === 'product') {
+          reportEntry += 'Case: Product folder mismatch\n';
+        } else if (caseType === 'path') {
+          reportEntry += 'Case: Path alignment mismatch\n';
+        }
+        reportEntry += 'No suggested images found.\n';
+        skippedReport.push(reportEntry);
+        skippedLinks.add(skipKey);
+        continue;
+      }
       console.log('\n---');
       console.log(`${colors.bold}${colors.cyan}File: ${mdFile}${colors.reset}`);
       console.log(`${colors.gray}Context:`);
@@ -356,6 +382,16 @@ async function main() {
       fs.writeFileSync(mdFile, newContent, 'utf8');
       console.log('File updated:', mdFile);
     }
+  }
+  // At the end of main, after all files processed, write the skipped report if any
+  if (skippedReport.length > 0) {
+    const imgRoot = path.join('static', 'img', 'product_docs', inputFolder);
+    if (!fs.existsSync(imgRoot)) {
+      fs.mkdirSync(imgRoot, { recursive: true });
+    }
+    const reportPath = path.join(imgRoot, 'skipped-image-links.txt');
+    fs.writeFileSync(reportPath, skippedReport.join('\n'), 'utf8');
+    console.log(`\nSkipped image links report written to: ${reportPath}`);
   }
   console.log('Done.');
 }

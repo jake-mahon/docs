@@ -113,7 +113,7 @@ leaving the page.
 The Sync History tab displays the information on each synchronization event. This includes general
 information about user, group, and computer objects within the Entra ID tenant.
 
-![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/synchistorytab.webp)
+![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/synchistorytab.webp)
 
 The table provides the following information:
 

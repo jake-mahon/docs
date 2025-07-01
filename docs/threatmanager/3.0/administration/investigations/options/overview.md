@@ -2,7 +2,7 @@
 
 Every investigation has the following options at the top of the page:
 
-![Investigation interface showing the options at the top of an investigation](/img/product_docs/accessanalyzer/12.0/install/application/options.webp)
+![Investigation interface showing the options at the top of an investigation](/img/product_docs/threatmanager/3.0/administration/investigations/options/options.webp)
 
 - Edit – The Edit option opens the Save Investigation window in edit mode. You can modify the name,
   description, and folder of the saved investigation. If you save the investigation to a different

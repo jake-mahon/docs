@@ -55,7 +55,7 @@ The table displays the following columns:
 
 The Group Membership tab displays groups in which the group is a member.
 
-![Entra ID Group - Group Membership Tab](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/groupmembershiptab.webp)
+![Entra ID Group - Group Membership Tab](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptab_2.webp)
 
 ![Group Membership Indirect Member of  Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptabindirect.webp)
 

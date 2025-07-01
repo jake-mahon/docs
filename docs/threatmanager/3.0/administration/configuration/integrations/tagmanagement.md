@@ -3,7 +3,7 @@
 The Tag Management page displays all tags that are currently managed by the application, including
 out-of-the-box and custom tags. You can add tags and assign objects to those tags.
 
-![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Tag Management page](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/page_6.webp)
 
 The out-of-the-box tags include:
 
@@ -71,7 +71,7 @@ a list of tags.
 
 **Step 8 –** Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Tag](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/details_5.webp)
 
 This page provides the following information:
 

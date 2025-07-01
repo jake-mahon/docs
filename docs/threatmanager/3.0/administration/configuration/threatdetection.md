@@ -5,7 +5,7 @@ Manager. This page provides a Threats list and an overview table that provides a
 threats. Clicking on a threat in the Threats list or the Overview table displays details and
 configuration options for the threat.
 
-![Threat Detection page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Threat Detection page](/img/product_docs/threatmanager/3.0/administration/configuration/page.webp)
 
 Custom threats can also be created on this page.
 

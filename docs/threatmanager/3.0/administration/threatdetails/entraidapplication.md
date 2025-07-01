@@ -3,7 +3,7 @@
 The Application Details page provides information about an application registered in Microsoft Entra
 ID.
 
-![Entra ID Application Page](/img/product_docs/accessanalyzer/12.0/admin/settings/application/application.webp)
+![Entra ID Application Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/application.webp)
 
 The top of the page displays a profile card which may contain the following information about the
 application:
@@ -39,7 +39,7 @@ The Activity Overview (Past 12 Months) shows a color-coded heat map of user acti
 
 The Group Membership tab displays groups in which the application is a member.
 
-![Entra ID Group Membership Tab](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/groupmembershiptab.webp)
+![Entra ID Group Membership Tab](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiptab_3.webp)
 
 The Group Membership tab displays two tables:
 

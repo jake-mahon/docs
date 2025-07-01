@@ -2,7 +2,7 @@
 
 The installer places the following icon on the desktop, which opens the Threat Manager console:
 
-![Desktop icon](/img/product_docs/threatprevention/7.5/install/desktopicon.webp)
+![Desktop icon](/img/product_docs/threatmanager/3.0/install/desktopicon.webp)
 
 **Step 1 –** Double-click the **Netwrix Threat Manager Dashboard** icon to open the console for the
 first time.

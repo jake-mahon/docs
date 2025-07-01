@@ -26,7 +26,7 @@ Directory group membership.
 The Change Password at Next Logon action forces the user to change their password the next time the
 user logs on.
 
-![changepassword](/img/product_docs/directorymanager/11.1/admincenter/general/changepassword.webp)
+![changepassword](/img/product_docs/threatmanager/3.0/administration/playbooks/action/changepassword.webp)
 
 - Users – Select the users for whom to reset passwords at next logon. If not specified, the user who
   triggered the threat will be used.
@@ -65,7 +65,7 @@ Directory.
 
 The Reset Password action resets the password of the specified account.
 
-![resetpassword](/img/product_docs/directorymanager/11.1/portal/resetpassword.webp)
+![resetpassword](/img/product_docs/threatmanager/3.0/administration/playbooks/action/resetpassword.webp)
 
 - Users – Select the users for whom to reset passwords. If not specified, the user who triggered the
   threat will be used.

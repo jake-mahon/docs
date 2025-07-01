@@ -3,7 +3,7 @@
 The System Jobs page within the System Settings interface contains information and configuration
 options for the application system jobs.
 
-![System Settings interface on the System Jobs page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![System Settings interface on the System Jobs page](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/page_1.webp)
 
 The table lists the system maintenance jobs:
 
@@ -18,7 +18,7 @@ The information available varies based on the type of job selected.
 The Report Maintenance job details page has two tabs that provide configuration options and job
 health details.
 
-![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/reportsettings.webp)
+![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/reportsettings.webp)
 
 Settings Tab
 

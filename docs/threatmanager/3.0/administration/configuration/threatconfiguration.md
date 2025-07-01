@@ -83,7 +83,7 @@ The diagram provides an outline of the rollup process.
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions
 to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![exclusionstab](/img/product_docs/threatmanager/3.0/threats/exclusionstab.webp)
+![exclusionstab](/img/product_docs/threatmanager/3.0/administration/configuration/exclusionstab.webp)
 
 To view details of an existing exclusion, click the arrow next to the exclusion or the name of the
 exclusion.
