@@ -15,9 +15,9 @@ information.
 **_RECOMMENDED:_** During installation, this can also be performed on the **Advanced Configuration**
 step of the installation, and there is also an option to test agent connectivity.
 
-![InstallAgentAdvancedConfiguration](/img/product_docs/changetracker/changetracker/install/agent/installagentadvancedconfiguration.webp)
+![InstallAgentAdvancedConfiguration](/img/product_docs/changetracker/8.1/install/agent/installagentadvancedconfiguration.webp)
 
-![InstallAgentTestConnectivity](/img/product_docs/changetracker/changetracker/install/agent/installagenttestconnectivity.webp)
+![InstallAgentTestConnectivity](/img/product_docs/changetracker/8.1/install/agent/installagenttestconnectivity.webp)
 
 **NOTE:** In order to maximize performance, Gen 7 Agent operational files are located in
 _%PROGRAMDATA%\NNT\gen7agent.service_, similarly if you are ever required to provide the
@@ -25,6 +25,6 @@ _%PROGRAMDATA%\NNT\gen7agent.service_, similarly if you are ever required to pro
 is located. See the [First Run – HubDetails.xml File](/docs/changetracker/8.1/admin/settings/devicegroups.md) topic
 for additional information on downloading the .xml file for agents.
 
-![InstallAgentOperationFiles](/img/product_docs/changetracker/changetracker/install/agent/installagentoperationfiles.webp)
+![InstallAgentOperationFiles](/img/product_docs/changetracker/8.1/install/agent/installagentoperationfiles.webp)
 
 Run the Agent UI. See the [ Agent First Run](/docs/changetracker/8.1/install/agent/firstrun.md) topic for additional information.

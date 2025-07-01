@@ -20,9 +20,9 @@ New reports can be added using the dropdown selector and **+Add** button in the 
 corner of the page, or by using the Query/Report button found on the **Events** and **Planned
 Change** tabs.
 
-![QueryReportButton](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/queryreportbutton.webp)
+![QueryReportButton](/img/product_docs/changetracker/8.0/admin/tabs/queryreportbutton.webp)
 
-![ReportsAndQuesriesTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportsandquesriestab.webp)
+![ReportsAndQuesriesTab](/img/product_docs/changetracker/8.0/admin/tabs/reportsandquesriestab.webp)
 
 **NOTE:** Report formatting is controlled by the built-in Compliance reports templates. See the
 [Template Management](/docs/changetracker/8.0/admin/compliancereportstemplates.md) topic for additional information. You will
@@ -34,7 +34,7 @@ long as needed, governed by the separate DaysToKeepEventsFor system setting. See
 [System Settings](/docs/changetracker/8.0/admin/settings/systemsettings.md) topic for additional information. Reports can be
 regenerated at any time if needed at a subsequent future date.
 
-![ReportsReportViewerDialog](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportsreportviewerdialog.webp)
+![ReportsReportViewerDialog](/img/product_docs/changetracker/8.0/admin/tabs/reportsreportviewerdialog.webp)
 
 ## Executive Summary Report
 

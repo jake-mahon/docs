@@ -41,7 +41,7 @@ security > auth > twoFactor > "registerAdmin": "false"
 
 security > auth > twoFactor > "fallbackEnabled": "true" (default setting)
 
-![2faconfiguration](/img/versioned_docs/changetracker_8.0/changetracker/admin/2faconfiguration.webp)
+![2faconfiguration](/img/product_docs/changetracker/8.0/admin/2faconfiguration.webp)
 
 A One-Time Passcode (OTP) may be required when attempting certain actions within Change Tracker for
 the first time during a session. Without 2FA or an authenticator app, this OTP will be written to

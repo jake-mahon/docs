@@ -37,4 +37,4 @@ additional information.
 ![Graphical user interface, website
 
 Description automatically
-generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_23.webp)
+generated](/img/product_docs/changetracker/8.1/admin/settings/page_guide_23.webp)

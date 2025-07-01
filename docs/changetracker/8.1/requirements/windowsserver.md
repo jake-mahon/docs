@@ -18,7 +18,7 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
     - Server roles:
 
-![Software Requirements](/img/product_docs/changetracker/changetracker/requirements/performancecheckbox.webp)
+![Software Requirements](/img/product_docs/changetracker/8.1/requirements/performancecheckbox.webp)
 
 - .NET Hosting Bundle – v8.0
 - Redis

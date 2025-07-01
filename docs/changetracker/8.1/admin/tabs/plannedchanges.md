@@ -27,7 +27,7 @@ updates, any unplanned changes - which may be breach activity - are exposed and 
 Click alongside any Planned Change Schedule Name to display a graphical view of changes and a full
 list of devices with changes below.
 
-![PlannedChangesTab](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangestab.webp)
+![PlannedChangesTab](/img/product_docs/changetracker/8.1/admin/tabs/plannedchangestab.webp)
 
 For more detail on Planned Change Schedule and Rule setup, see the
 [Planned Changes Administration](/docs/changetracker/8.1/admin/tabs/plannedchangeadministration.md) topic for additional information.

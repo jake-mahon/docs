@@ -25,7 +25,7 @@ already do this in step 1).
 - **For Windows** – Either use the MS Services Console Run > services.msc or use Command Line as
   Administrator: `sc stop NNTAgentService`
 
-![UpgradeAgentWindowsCommandPrompt](/img/product_docs/changetracker/changetracker/install/agent/upgradeagentwindowscommandprompt.webp)
+![UpgradeAgentWindowsCommandPrompt](/img/product_docs/changetracker/8.1/install/agent/upgradeagentwindowscommandprompt.webp)
 
 - **For Linux** – Use: `service nntagent stop`
 

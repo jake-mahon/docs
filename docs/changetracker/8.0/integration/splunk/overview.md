@@ -22,7 +22,7 @@ Follow the steps to configure Splunk credentials.
 **Step 1 –** From the Settings menu select **Credentials** and scroll to the Splunk Credentials
 section.
 
-![splunkcredentials](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splunkcredentials.webp)
+![splunkcredentials](/img/product_docs/changetracker/8.0/integration/splunk/splunkcredentials.webp)
 
 **Step 2 –** Click the **Add** button and enter the details of the Splunk instance to connect to.
 
@@ -54,7 +54,7 @@ be used to format date time fields accordingly: strftime(MyDateTimeField,"%Y-%m-
 Any further fields added will be included in the body of the events when the reach Change Tracker.
 Sourcetype is an example of such a field in the test query below.
 
-![splunksearch](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splunksearch.webp)
+![splunksearch](/img/product_docs/changetracker/8.0/integration/splunk/splunksearch.webp)
 
 Below is the test query used in this document. This query pulls internal Splunk data that any
 instance will have while meeting Change Tracker's requirements. The "head 50" clause at the end of
@@ -72,26 +72,26 @@ Follow the steps to create a policy template.
 
 **Step 2 –** Click **Actions** and **Add a Blank Policy Template**.
 
-![addsplunkpolicy](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/addsplunkpolicy.webp)
+![addsplunkpolicy](/img/product_docs/changetracker/8.0/integration/splunk/addsplunkpolicy.webp)
 
 **Step 3 –** Name it **Splunk**, set the Usage column to **Tracking**, and click **update**.
 
-![tracking](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/tracking.webp)
+![tracking](/img/product_docs/changetracker/8.0/integration/splunk/tracking.webp)
 
 **Step 4 –** Click the **tracking** button on the new Splunk policy and then scroll right to the
 Splunk Search Queries tab.
 
-![splquery](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splquery.webp)
+![splquery](/img/product_docs/changetracker/8.0/integration/splunk/splquery.webp)
 
 **Step 5 –** Click the **tick box** to add a query and then click **Add a Splunk Query**.
 
-![splqueryconfiguration](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splqueryconfiguration.webp)
+![splqueryconfiguration](/img/product_docs/changetracker/8.0/integration/splunk/splqueryconfiguration.webp)
 
 Paste the query, give it a description and click Update. The query will now be listed in the policy.
 
 **NOTE:** Ensure the desired polling frequency is set.
 
-![templatecomplete](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/templatecomplete.webp)
+![templatecomplete](/img/product_docs/changetracker/8.0/integration/splunk/templatecomplete.webp)
 
 ### Devices and Groups
 
@@ -105,7 +105,7 @@ and click **Add an Existing Template**.
 
 **Step 3 –** Add the Splunk policy template to the Splunk Tracker group.
 
-![group2](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/group2.webp)
+![group2](/img/product_docs/changetracker/8.0/integration/splunk/group2.webp)
 
 Any device in this group of the type Splunk will execute the Splunk tracking policy created above.
 
@@ -122,7 +122,7 @@ device must be created with the connection details.
 
 Follow the steps to manually create a proxied device to represent the target instance of Splunk.
 
-![manualdevicecreation](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/manualdevicecreation.webp)
+![manualdevicecreation](/img/product_docs/changetracker/8.0/integration/splunk/manualdevicecreation.webp)
 
 **Step 1 –** Select a device to be a proxy device and click **Add Proxied Device**. The agent on the
 same machine as the Hub is often a good choice for the proxy if it can communicate with the Splunk
@@ -138,7 +138,7 @@ instance.
 
 **Step 6 –** Add the Splunk Tracker group to the Groups field.
 
-![addsplunkdevice](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/addsplunkdevice.webp)
+![addsplunkdevice](/img/product_docs/changetracker/8.0/integration/splunk/addsplunkdevice.webp)
 
 **NOTE:** Change events coming into Change Tracker (from Splunk or any agentless monitoring) must
 match a device in Change Tracker. Events without a matching device will be ignored
@@ -171,16 +171,16 @@ for it's Device column.
 If everything has been configured correctly and communication with the Splunk instance is possible,
 Splunk logs should start arriving as events.
 
-![splunkevents](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splunkevents.webp)
+![splunkevents](/img/product_docs/changetracker/8.0/integration/splunk/splunkevents.webp)
 
 In the body of a Splunk event it's possible to see the required firled from the SPL query. Any field
 in the results other than the required fields is added to the additional info section at the bottom
 of the event body. This flexible field can list multiple non required fields from the SPL query.
 This enables full control of what is logged into the events.
 
-![splunkeventbody](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/splunkeventbody.webp)
+![splunkeventbody](/img/product_docs/changetracker/8.0/integration/splunk/splunkeventbody.webp)
 
 Manual runs of the tracking policy can be executed from the Splunk device by clicking Start Tracker
 Poll.
 
-![starttrackerpoll](/img/versioned_docs/changetracker_8.0/changetracker/integration/splunk/starttrackerpoll.webp)
+![starttrackerpoll](/img/product_docs/changetracker/8.0/integration/splunk/starttrackerpoll.webp)

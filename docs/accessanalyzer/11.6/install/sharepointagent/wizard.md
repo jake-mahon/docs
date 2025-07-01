@@ -25,7 +25,7 @@ SharePoint Agent Setup Wizard.
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![SharePoint Agent Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
+![SharePoint Agent Setup Wizard End-User License Agreement page](/img/product_docs/changetracker/8.0/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.

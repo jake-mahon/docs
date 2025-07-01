@@ -9,7 +9,7 @@ Center Setup wizard opens.
 
 **Step 2 –** On the Welcome page, click the Next button to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/img/product_docs/changetracker/8.0/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.

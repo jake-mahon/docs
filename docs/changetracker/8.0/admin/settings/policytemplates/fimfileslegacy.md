@@ -9,4 +9,4 @@ any Netwrix Change Tracker Agent and the dedicated Netwrix Agent App Proxy Agent
 [Registry Inclusion/Exclusion Match Rules](/docs/changetracker/8.0/admin/matchrules/registryrules.md)
 section for more information.
 
-![PolicyTeplatesAgentlessDiagram](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policyteplatesagentlessdiagram.webp)
+![PolicyTeplatesAgentlessDiagram](/img/product_docs/changetracker/8.0/admin/settings/policytemplates/policyteplatesagentlessdiagram.webp)

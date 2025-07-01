@@ -33,35 +33,35 @@ has a Change Tracker Hub installed will update the installation.
 
 **Step 1 –** Accept the End User License Agreement to start the installation.
 
-![ports](/img/product_docs/changetracker/changetracker/install/ports.webp)
+![ports](/img/product_docs/changetracker/8.1/install/ports.webp)
 
 **Step 2 –** Enter the web server ports.
 
-![sslcertificate](/img/product_docs/changetracker/changetracker/install/sslcertificate.webp)
+![sslcertificate](/img/product_docs/changetracker/8.1/install/sslcertificate.webp)
 
 **Step 3 –** Enter a password for the SSL certificate's private key.
 
-![mongodb](/img/product_docs/changetracker/changetracker/install/mongodb.webp)
+![mongodb](/img/product_docs/changetracker/8.1/install/mongodb.webp)
 
 **Step 4 –** Define an existing MongoDB instance to use or leave the MongoDB server field as
 localhost to have the installer deploy it's built-in version of MongoDB Community edition.
 
-![mongodblogpath](/img/product_docs/changetracker/changetracker/install/mongodblogpath.webp)
+![mongodblogpath](/img/product_docs/changetracker/8.1/install/mongodblogpath.webp)
 
 **Step 5 –** Define the path to store the MongoDB log.
 
-![redis](/img/product_docs/changetracker/changetracker/install/redis.webp)
+![redis](/img/product_docs/changetracker/8.1/install/redis.webp)
 
 **Step 6 –** Most installations can leave this blank, but if a clustered installation is planned,
 enter the address of the required Redis server.
 
-![installationpath](/img/product_docs/changetracker/changetracker/install/installationpath.webp)
+![installationpath](/img/product_docs/changetracker/8.1/install/installationpath.webp)
 
 **Step 7 –** Select the installation path for Change Tracker.
 
 **CAUTION:** Changing this is only recommended for advanced installations.
 
-![adminuserpassword](/img/product_docs/changetracker/changetracker/install/adminuserpassword.webp)
+![adminuserpassword](/img/product_docs/changetracker/8.1/install/adminuserpassword.webp)
 
 **Step 8 –** Once the installation is complete set a strong password for the Admin user.
 

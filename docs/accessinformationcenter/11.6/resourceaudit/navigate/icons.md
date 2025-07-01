@@ -35,7 +35,7 @@ The following table contains icons for resource types:
 | ![Exchange icon](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/exchange.webp)                                                   | Exchange                  |
 | ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/7.1/admin/outputs/sql.webp)                                         | SQL Server or Azure SQL   |
 | ![Microsoft Teams icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/teams.webp)                 | Microsoft Teams           |
-| ![MongoDB icon](/img/versioned_docs/changetracker_8.0/changetracker/install/mongodb.webp)                                                            | MongoDB                   |
+| ![MongoDB icon](/img/product_docs/changetracker/8.0/install/mongodb.webp)                                                            | MongoDB                   |
 | ![Office 365 icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/office365.webp)                  | Office 365                |
 | ![Salesforce icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/salesforce.webp)                 | Salesforce                |
 | ![VMware icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/vmware.webp)                         | VMware                    |

@@ -6,7 +6,7 @@ Start a new Baseline Policy Wizard and provide a name for your new Policy.
 
 Data Collection:
 
-![baselinedatacollection](/img/product_docs/changetracker/changetracker/baseline/baselinedatacollection.webp)
+![baselinedatacollection](/img/product_docs/changetracker/8.1/baseline/baselinedatacollection.webp)
 
 Define the Data Collection template to be used for gathering baseline configuration data. This can
 be a new template, or an existing template can be re-used. The following configuration elements to
@@ -27,7 +27,7 @@ Settings > Agent and Device screen, select the required Device click **Edit**. T
 reasons why this is disabled by default; in the interests of storage and performance efficiency, it
 is not desirable to have every Device sending Baseline Events to the Hub unless needed.
 
-![baselinesource](/img/product_docs/changetracker/changetracker/baseline/baselinesource.webp)
+![baselinesource](/img/product_docs/changetracker/8.1/baseline/baselinesource.webp)
 
 Another important decision is whether you want to include changes from Member Devices when you come
 to make future changes to your Baseline Policy. By default, the Source device is the single source
@@ -36,7 +36,7 @@ changes needed to the Baseline, for example, after patching when versions of sof
 to be updated. In certain situations, it may be convenient to also include changes to Member Group
 devices too, in which case you can check this box.
 
-![baselinespecifymembers](/img/product_docs/changetracker/changetracker/baseline/baselinespecifymembers.webp)
+![baselinespecifymembers](/img/product_docs/changetracker/8.1/baseline/baselinespecifymembers.webp)
 
 Specify Member:
 
@@ -56,7 +56,7 @@ Gathering the Baseline configuration data will take anything from 90 seconds to 
 depending on the nature or resources of the Source Device and the scope of the Data Collection
 template defined. Be patient, but you can check progress using the **Check Now** button.
 
-![baselinechecknow](/img/product_docs/changetracker/changetracker/baseline/baselinechecknow.webp)
+![baselinechecknow](/img/product_docs/changetracker/8.1/baseline/baselinechecknow.webp)
 
 Add Rules:
 

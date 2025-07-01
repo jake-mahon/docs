@@ -5,4 +5,4 @@ detail in the Change Tracker Admin Guide.
 
 An example of the Cloud Tracker Certified CIS Compliance Report:
 
-![cloudtrackerreports](/img/versioned_docs/changetracker_8.0/changetracker/cloud/cloudtrackerreports.webp)
+![cloudtrackerreports](/img/product_docs/changetracker/8.0/cloud/cloudtrackerreports.webp)

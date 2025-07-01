@@ -12,11 +12,11 @@ Follow these steps to update the agent hub configuration.
 that loads to display the options for Upload an Agent Update andUpdateHubDetails. HubDetails is the
 name of the config file used for agents.
 
-![remoteagentconfig](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/remoteagentconfig.webp)
+![remoteagentconfig](/img/product_docs/changetracker/8.0/admin/settings/remoteagentconfig.webp)
 
 **Step 2 –** Select **Update HubDetails** to open the Update agent hub details window.
 
-![remoteagentconfigsettings](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/remoteagentconfigsettings.webp)
+![remoteagentconfigsettings](/img/product_docs/changetracker/8.0/admin/settings/remoteagentconfigsettings.webp)
 
 **Step 3 –** Select the devices or groups of devices to configure and then enter the desired values.
 
@@ -37,6 +37,6 @@ remove any existing prefix for the target devices.
 
 **Step 4 –** Click **OK** to broadcast the new configuration to the agents on the target devices.
 
-![broadcastagentconfig](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/broadcastagentconfig.webp)
+![broadcastagentconfig](/img/product_docs/changetracker/8.0/admin/settings/broadcastagentconfig.webp)
 
 This should take less than a minute to apply.

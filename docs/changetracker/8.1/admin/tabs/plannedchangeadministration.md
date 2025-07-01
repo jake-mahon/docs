@@ -28,4 +28,4 @@ Any Planned Change comprises the following elements:
 additional Planned Change Schedule filter is available in the **Filter Control** panel. Planned
 Change Schedules can be re-used – use the Clone button to create a copy.
 
-![PlannedChangesRules](/img/product_docs/changetracker/changetracker/admin/tabs/plannedchangesrules.webp)
+![PlannedChangesRules](/img/product_docs/changetracker/8.1/admin/tabs/plannedchangesrules.webp)

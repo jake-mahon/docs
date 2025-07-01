@@ -29,4 +29,4 @@ events directly from a device group. Note that an additional Planned Change Sche
 available in the **Filter Control** panel. Planned Change Schedules can be re-used – use the Clone
 button to create a copy.
 
-![PlannedChangesRules](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/plannedchangesrules.webp)
+![PlannedChangesRules](/img/product_docs/changetracker/8.0/admin/tabs/plannedchangesrules.webp)

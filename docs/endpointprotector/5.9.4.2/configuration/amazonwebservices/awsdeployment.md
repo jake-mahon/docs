@@ -47,7 +47,7 @@ recommend selecting **Proceed without a Key Pair** and then clicking **Launch In
     - Type HTTPS, Protocol TCP, Port range 443, Source type Custom, Source 0.0.0.0/0 (mandatory)
     - Type HTTP, Protocol TCP, Port range 80, Source type Custom, Source 0.0.0.0/0 (optional)
 
-![Editing the Network Section ](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/editnetwork.webp)
+![Editing the Network Section ](/img/product_docs/changetracker/8.0/admin/settings/policytemplates/editnetwork.webp)
 
 **Step 9 –** The Storage section does not require any changes.
 

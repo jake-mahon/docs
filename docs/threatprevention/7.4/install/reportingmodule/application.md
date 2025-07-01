@@ -22,7 +22,7 @@ wizard opens.
 
 **Step 2 –** Click **Install**.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/product_docs/changetracker/8.0/install/eula.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.

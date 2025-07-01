@@ -1,6 +1,6 @@
 # Cloud Overview Tab
 
-![cloudoverviewtab](/img/versioned_docs/changetracker_8.0/changetracker/cloud/cloudoverviewtab.webp)
+![cloudoverviewtab](/img/product_docs/changetracker/8.0/cloud/cloudoverviewtab.webp)
 
 Actions Button:
 

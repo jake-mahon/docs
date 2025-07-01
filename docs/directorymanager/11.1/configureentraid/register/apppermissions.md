@@ -17,7 +17,7 @@ The following application permissions are required.
 
 ![Microsoft Entra ID Application Permissions - Directory](/img/product_docs/directorymanager/directorymanager/configureentraid/register/directory.webp)
 
-![Microsoft Entra ID Application Permissions - Group](/img/product_docs/changetracker/changetracker/integration/splunk/group.webp)
+![Microsoft Entra ID Application Permissions - Group](/img/product_docs/changetracker/8.1/integration/splunk/group.webp)
 
 ![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/directorymanager/configureentraid/register/mail.webp)
 

@@ -23,12 +23,12 @@ devices for change events to be linked to. Device discovery removes this manual 
 
 Follow the steps to configure Device Discovery.
 
-![additsmcredential](/img/product_docs/changetracker/changetracker/integration/itsm/additsmcredential.webp)
+![additsmcredential](/img/product_docs/changetracker/8.1/integration/itsm/additsmcredential.webp)
 
 **Step 1 –** From the Settings menu, select **Credentials**, scroll to the ITSM System Credentials
 section and click **Add ITSM Credential**.
 
-![itsmconnection](/img/product_docs/changetracker/changetracker/integration/itsm/itsmconnection.webp)
+![itsmconnection](/img/product_docs/changetracker/8.1/integration/itsm/itsmconnection.webp)
 
 **Step 2 –** Select **ServiceNow** from the initial drop down and enter the details of the
 ServiceNow instance to connect to.
@@ -45,7 +45,7 @@ The Device Discovery Name Regex Replacement fields defines the value to replace 
 in the field above. Leaving this empty will cause the pattern matched by the regex above to be
 trimmed from device names created in Change Tracker.
 
-![devicediscovery](/img/product_docs/changetracker/changetracker/integration/itsm/devicediscovery.webp)
+![devicediscovery](/img/product_docs/changetracker/8.1/integration/itsm/devicediscovery.webp)
 
 **Step 3 –** Select a device to act as the proxy for the calls made to ServiceNow. The agent on the
 same host as the Hub is often a good choice here.
@@ -54,11 +54,11 @@ same host as the Hub is often a good choice here.
 
 **Step 5 –** Select the group to put the discovered devices into.
 
-![systemdiscovery](/img/product_docs/changetracker/changetracker/integration/itsm/systemdiscovery.webp)
+![systemdiscovery](/img/product_docs/changetracker/8.1/integration/itsm/systemdiscovery.webp)
 
 **Step 6 –** Click **OK**. A discovery task will start and create the devices.
 
-![discoverytask](/img/product_docs/changetracker/changetracker/integration/itsm/discoverytask.webp)
+![discoverytask](/img/product_docs/changetracker/8.1/integration/itsm/discoverytask.webp)
 
 ## Raise a ServiceNow Incident
 
@@ -71,13 +71,13 @@ situation.
 
 Follow the steps to raise a ServiceNow incident.
 
-![integrationsettings](/img/product_docs/changetracker/changetracker/integration/itsm/integrationsettings.webp)
+![integrationsettings](/img/product_docs/changetracker/8.1/integration/itsm/integrationsettings.webp)
 
 **Step 1 –** From the Settings menu, select System Settings and scroll to the ServiceNow Integration
 section. Insert the URL and credentials of the ServiceNow instance to raise incidents to. The test
 button will raise a test incident to prove connectivity.
 
-![editdevice](/img/product_docs/changetracker/changetracker/integration/itsm/editdevice.webp)
+![editdevice](/img/product_docs/changetracker/8.1/integration/itsm/editdevice.webp)
 
 **Step 2 –** Select the device group you want to raise incidents for (All devices is the common
 choice), select the **Un-planned Change Notification** Type and select **ServiceNow** as the

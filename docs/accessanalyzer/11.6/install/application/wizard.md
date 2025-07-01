@@ -17,7 +17,7 @@ Setup Wizard.
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![ End User License Agreement](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
+![ End User License Agreement](/img/product_docs/changetracker/8.0/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, read the End User License Agreement, then check
 the **I accept the terms in the License Agreement** box and click **Next**.

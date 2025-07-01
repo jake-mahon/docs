@@ -6,4 +6,4 @@ To export the events displayed, use the Export button – choices of PDF, Excel 
 the screen nor selected using the checkboxes against events. To export a subset of displayed events,
 apply further filter controls then export.
 
-![page_guide_4](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/page_guide_4.webp)
+![page_guide_4](/img/product_docs/changetracker/8.0/admin/tabs/page_guide_4.webp)

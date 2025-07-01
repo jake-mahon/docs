@@ -35,7 +35,7 @@ The following table contains icons for resource types:
 | ![Exchange icon](/img/product_docs/accessanalyzer/12.0/admin/settings/exchange.webp)                                             | Exchange                  |
 | ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/8.0/admin/outputs/sql.webp)                                        | SQL Server or Azure SQL   |
 | ![Microsoft Teams icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/teams.webp)                 | Microsoft Teams           |
-| ![MongoDB icon](/img/product_docs/changetracker/changetracker/install/mongodb.webp)                                                           | MongoDB                   |
+| ![MongoDB icon](/img/product_docs/changetracker/8.1/install/mongodb.webp)                                                           | MongoDB                   |
 | ![Office 365 icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/office365.webp)                  | Office 365                |
 | ![Salesforce icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/salesforce.webp)                 | Salesforce                |
 | ![VMware icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/vmware.webp)                         | VMware                    |
@@ -66,7 +66,7 @@ The following table contains icons for trustee types:
 | ![Unknown icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/unknowntrustee.webp)              | Unknown                                    |
 | ![Security/Domain Principal icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/principal.webp) | Security Principal or Domain Principal     |
 | ![User icon](/img/product_docs/activitymonitor/8.0/admin/search/query/user.webp)                                                | User – Local, Domain, SharePoint, or Unix  |
-| ![Group icon](/img/product_docs/changetracker/changetracker/integration/splunk/group.webp)                                                  | Group – Local, Domain, SharePoint, or Unix |
+| ![Group icon](/img/product_docs/changetracker/8.1/integration/splunk/group.webp)                                                  | Group – Local, Domain, SharePoint, or Unix |
 | ![Unsupported icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/unsupported.webp)             | Unsupported                                |
 | ![Service Account icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/serviceaccount.webp)      | Service Account                            |
 | ![Computer icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/computer.webp)                   | Computer                                   |

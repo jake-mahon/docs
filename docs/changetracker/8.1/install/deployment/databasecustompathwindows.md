@@ -13,6 +13,6 @@ Suite\Gen7\MongoDB\conf
 **Step 4 –** Edit the parameters for `dbpath `to change the location for DB files. If you prefer to
 invoke ‘**smallfiles**’ operation then add the config line as below.
 
-![CustomDatabasePathWindows](/img/product_docs/changetracker/changetracker/install/deployment/customdatabasepathwindows.webp)
+![CustomDatabasePathWindows](/img/product_docs/changetracker/8.1/install/deployment/customdatabasepathwindows.webp)
 
 5. Then start the **Mongod** service, followed by an `iisreset /start`.

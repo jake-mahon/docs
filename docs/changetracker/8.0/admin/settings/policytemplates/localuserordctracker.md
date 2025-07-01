@@ -16,4 +16,4 @@ There is minimal configuration required to activate the Change Tracker – just 
 local user account settings in this template** box and define the poll period then save settings to
 the Template. Any changes to the initial baseline will be alerted and reported.
 
-![PolicyTemplatesAccountsTracker](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplatesaccountstracker.webp)
+![PolicyTemplatesAccountsTracker](/img/product_docs/changetracker/8.0/admin/settings/policytemplates/policytemplatesaccountstracker.webp)

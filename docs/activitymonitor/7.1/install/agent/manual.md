@@ -17,7 +17,7 @@ installation package. The default location is:
 
 **Step 4 –** On the welcome page click **Next**.
 
-![End-User License Agreement Page](/img/versioned_docs/changetracker_8.0/changetracker/install/eula.webp)
+![End-User License Agreement Page](/img/product_docs/changetracker/8.0/install/eula.webp)
 
 **Step 5 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** option and click **Next**.
