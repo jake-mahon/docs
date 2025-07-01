@@ -99,7 +99,7 @@ What do you want to do?
 12. Select the **Show Search Filters** check box to add a row to the grid that serves as a search
     bar. This row appears in the grid, as shown below:
 
-    ![search_row_in_grid](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/displaytype/search_row_in_grid.webp)
+    ![search_row_in_grid](/img/product_docs/directorymanager/11.0/admincenter/portal/displaytype/search_row_in_grid.webp)
 
 13. Select the **Editable** check box to make the rows in the grid available for editing. Else, the
     grid will be read-only.

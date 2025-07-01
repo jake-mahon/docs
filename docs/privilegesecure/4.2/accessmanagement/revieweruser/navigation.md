@@ -43,7 +43,7 @@ Interface Icons
 | Icon                                                                                                                                         | Interface           |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | ![myactivities](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/myactivities.webp)           | My Activities       |
-| ![dashboard](/img/product_docs/directorymanager/directorymanager/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
 | ![policy](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
 | ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
 | ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |

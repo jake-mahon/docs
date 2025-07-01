@@ -15,7 +15,7 @@ The functions of collections and policies are as follows:
 
 Below you can see how to add a new collection or policy.
 
-![about_policypak_file_associations_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_4.webp)
+![about_policypak_file_associations_4](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_4.webp)
 
 If you want to follow along with the Quickstart for Endpoint Policy Manager File Associations
 Manager in the next section, we suggest you download some applications on your Windows 10 management
@@ -31,7 +31,7 @@ following files:
 
 Below is an example of all four types of files on the sample Desktop.
 
-![about_policypak_file_associations_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_5.webp)
+![about_policypak_file_associations_5](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_5.webp)
 
 Endpoint Policy Manager File Associations Manager is the quickest way to set up, test, and manage
 file associations on your machine (the Group Policy Editor machine) if it has the same applications
@@ -49,11 +49,11 @@ Acrobat Reader asks if it can be the default PDF viewe. Yet, after the installat
 is not associated with Acrobat Reader. Instead, Windows 10 Edge is typically the default program to
 open PDF files, or Edge is recommended, and the user must make a choice.
 
-![about_policypak_file_associations_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_6.webp)
+![about_policypak_file_associations_6](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_6.webp)
 
 When installing Adobe Acrobat Reader DC, the installer asks to be the default PDF viewer.
 
-![about_policypak_file_associations_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_7.webp)
+![about_policypak_file_associations_7](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_7.webp)
 
 Edge generally becomes the default when a user opens a PDF file.
 
@@ -63,18 +63,18 @@ installed, it is not actually correctly set as the default for `MAILTO: emails`.
 test this by opening up Wordpad and typing `MAILTO:you@email.com`, . Click the link, and you will
 see that it will launch the Windows 10 default mail application instead of Outlook or Claws Mail.
 
-![about_policypak_file_associations_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_8.webp)
+![about_policypak_file_associations_8](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_8.webp)
 
 After installing Claws Mail, the program tries to make itself the default for opening emails.
 
-![about_policypak_file_associations_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_9.webp)
+![about_policypak_file_associations_9](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_9.webp)
 
 Opening Wordpad and typing `MAILTO:you@email.com` shows that Outlook or Claws Mail is not actually
 the default email program.
 
 The UWP (Windows Universal App in the Windows store) for Metro Media Player Pro is shown below.
 
-![about_policypak_file_associations_10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_10.webp)
+![about_policypak_file_associations_10](/img/product_docs/endpointpolicymanager/fileassociations/collections/about_endpointpolicymanager_file_associations_10.webp)
 
 In order to successfully complete the Quickstart with Endpoint Policy Manager File Associations
 Manager in the next section, make sure you have the following machines set up with the programs and

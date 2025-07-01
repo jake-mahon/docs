@@ -5,9 +5,9 @@ message in your GPMC console mentioning your old license key is getting expired 
 
 One or more similar messages may appear in MMC/GPMC when editing a GPO.
 
-![937_1_image-20230425211701-1_950x194](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/937_1_image-20230425211701-1_950x194.webp)
+![937_1_image-20230425211701-1_950x194](/img/product_docs/endpointpolicymanager/troubleshooting/license/937_1_image-20230425211701-1_950x194.webp)
 
-![937_2_image-20230425211701-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/937_2_image-20230425211701-2.webp)
+![937_2_image-20230425211701-2](/img/product_docs/endpointpolicymanager/troubleshooting/license/937_2_image-20230425211701-2.webp)
 
 As example, this can occur if you have two license GPOs in your domain.
 

@@ -9,9 +9,9 @@ displayed does not match the version of the Endpoint Policy Manager Client-Side 
 In the screenshots below the CSE version installed is 21.11.2984 but the PPUPDATE version is showing
 as 20.1.2317.
 
-![897_1_image-20220125020029-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/897_1_image-20220125020029-1.webp)
+![897_1_image-20220125020029-1](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/897_1_image-20220125020029-1.webp)
 
-![897_2_image-20220125020029-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/897_2_image-20220125020029-2.webp)
+![897_2_image-20220125020029-2](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/897_2_image-20220125020029-2.webp)
 
 ## CAUSE:
 

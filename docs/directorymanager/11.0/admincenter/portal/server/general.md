@@ -50,7 +50,7 @@ Users can connect a portal to an associated identity store only.
 
 NOTE: You may observe the following message on the **Server Settings – General** page:
 
-![linked_message](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/linked_message.webp)
+![linked_message](/img/product_docs/directorymanager/11.0/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in GroupID have been linked, as discussed in the
 [Linked Identity Stores and the GroupID Portal](/docs/directorymanager/11.0/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)

@@ -59,7 +59,7 @@ images that you have pulled, and the containers created (the applications runnin
 
 Launch Docker Desktop and click **Images** in the left pane.
 
-![images_-_local_tab](/img/product_docs/directorymanager/directorymanager/admincenter/portal/images_-_local_tab.webp)
+![images_-_local_tab](/img/product_docs/directorymanager/11.1/admincenter/portal/images_-_local_tab.webp)
 
 The Images page (Local tab) shows all images that you have pulled from different repositories.
 Notice the first image is from Directory Manager. Here:
@@ -71,7 +71,7 @@ Notice the first image is from Directory Manager. Here:
 Click **Remote Repositories** to go to the remote server, where you will find all Directory
 Manager-specific images under _Imanami_.
 
-![images_-_remote_repositories](/img/product_docs/directorymanager/directorymanager/admincenter/portal/images_-_remote_repositories.webp)
+![images_-_remote_repositories](/img/product_docs/directorymanager/11.1/admincenter/portal/images_-_remote_repositories.webp)
 
 Directory Manager application images for different Directory Manager versions are listed here. For
 example, three Data service images are available for three distinct Directory Manager versions.
@@ -87,11 +87,11 @@ deploying the application.
 
 Click **Containers/Apps** in the left pane to view the containers.
 
-![apps_page](/img/product_docs/directorymanager/directorymanager/admincenter/portal/apps_page.webp)
+![apps_page](/img/product_docs/directorymanager/11.1/admincenter/portal/apps_page.webp)
 
 Select a container and click **Inspect** to view its details.
 
-![container_details](/img/product_docs/directorymanager/directorymanager/admincenter/portal/container_details.webp)
+![container_details](/img/product_docs/directorymanager/11.1/admincenter/portal/container_details.webp)
 
 **See Also**
 

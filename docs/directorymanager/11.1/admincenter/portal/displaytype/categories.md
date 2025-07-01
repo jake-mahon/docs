@@ -58,7 +58,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Use it for schema attributes that can accept multiple string values.  
      A multi-value display type is displayed in the portal as:
 
-    ![multi-value_display_type](/img/product_docs/directorymanager/directorymanager/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** launches a dialog box where users can add new values.
 
@@ -74,7 +74,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     this display type appears as a button that launches the **Find** dialog box, where users can
     search and select objects. It is as:
 
-    ![dn](/img/product_docs/directorymanager/directorymanager/admincenter/portal/displaytype/dn.webp)
+    ![dn](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/dn.webp)
 
 - **DNs**
 
@@ -82,7 +82,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Directory attributes _member_ and _memberOf_. The user interface element for this display type
     is as follows:
 
-    ![multi-value_display_type](/img/product_docs/directorymanager/directorymanager/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** displays a quick search field along with an option to launch the **Find**
     dialog box where users can search and select the desired objects.

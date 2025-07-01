@@ -21,7 +21,7 @@ Following are the basic steps for operating the tool:
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules.webp)
 
 On the opening page, pick a location or locations to run the tool. The tool offers standard or
 custom locations (**Other Locations**) such as the User’s Desktop, and other unusual locations, as
@@ -30,14 +30,14 @@ shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_1.webp)
 
 Next, select which types of items to search for.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_2.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_2.webp)
 
 Next, you have the option to turn on the SecureRun™ Simulator. The SecureRun™ Simulator will
 simulate what would happen if SecureRun™ was turned on, so you can know which applications would be
@@ -48,7 +48,7 @@ with SecureRun™.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_3.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_3.webp)
 
 Then, you’ll be presented with all the applications and their default state and will have the
 opportunity to create rules that will automatically change the state. For instance, when SecureRun™
@@ -67,7 +67,7 @@ You can select the drop-down in the Action column next to any program and change
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_4.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_4.webp)
 
 To save a little time, you can also hide items that are automatically allowed or blocked by
 SecureRun™, as seen here, to reduce the number of items shown.
@@ -75,14 +75,14 @@ SecureRun™, as seen here, to reduce the number of items shown.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_5.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_5.webp)
 
 Next, you are presented with a summary of the rules you will be creating.
 
 ![A screenshot of a computer program
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_6.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_6.webp)
 
 Now you can create the conditions automatically. The most secure settings are automatically checked,
 but you may change them to other settings if desired.
@@ -90,7 +90,7 @@ but you may change them to other settings if desired.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_7.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_7.webp)
 
 The final page, shown in here, enables you to export the rules directly into a GPO (provided you
 have Group Policy Create/Edit rights) or into an XML file that you can import into a Group Policy
@@ -99,15 +99,15 @@ Object.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_8.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_8.webp)
 
 Rules are now exported.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_9.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_9.webp)
 
 The result after looking at the GPO is shown here, with your rules ready to go.
 
-![policypak_automatic_rules_10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_10.webp)
+![policypak_automatic_rules_10](/img/product_docs/endpointpolicymanager/leastprivilege/tool/rulesgenerator/endpointpolicymanager_automatic_rules_10.webp)

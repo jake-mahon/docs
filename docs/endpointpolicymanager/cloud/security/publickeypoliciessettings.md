@@ -2,7 +2,7 @@
 
 Below is an example of how you can configure Security Settings. You start by creating a real GPO:
 
-![580_1_q10-img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
+![580_1_q10-img-1](/img/product_docs/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
 
 To configure Security Settings, start by opening the Group Policy Management Editor and create a
 real GPO.
@@ -21,4 +21,4 @@ you export, then deploy using PPCloud or Netwrix Endpoint Policy Manager (former
 
 Inside the exported XML you can see the certificate embedded like this and ready for use.
 
-![580_2_q10-img-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)
+![580_2_q10-img-2](/img/product_docs/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)

@@ -7,7 +7,7 @@ applets), and Firefox.
 
 An example of hiding or disabling elements in a Win32 application can be seen here.
 
-![applock9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock9.webp)
+![applock9](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock9.webp)
 
 AppLock works by hooking all processes and looking for a policy match and attempting to perform the
 UI hiding operation.
@@ -31,14 +31,14 @@ You can witness PPAppLockLdr64.dll injected into processes by using Process Expl
 be seen here with Win32 app NotepadP. Using the Process Explorer Search you may also look for other
 hooked processes with PPAppLockLdr64.dll.
 
-![applock1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock1.webp)
+![applock1](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock1.webp)
 
 - For CSEs before 24.9, AppLock is ON, and you might want to turn it off because of interference or
   because you are directed by Endpoint Policy Manager support.
 - Starting with CSE 24.9, AppLock is OFF, and if you want to turn it on you may do so to restore the
   functionality if needed.
 
-![applock4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock4.webp)
+![applock4](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock4.webp)
 
 In all cases AppLock is turned ON or OFF using the same ADMX setting. However, the ADMX setting has
 gone through a rename and a state change.
@@ -50,7 +50,7 @@ also how to update them:
 If you're using an older set of ADMX settings, you will find a setting named "Disable Endpoint
 Policy Manager AppLock" (which exists on both User and Computer Side):
 
-![applock5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock5.webp)
+![applock5](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock5.webp)
 
 When the "Disable Endpoint Policy Manager Applock(TM)" setting is set to "Enabled" this will
 TURN OFF the AppLock service for any CSEs. However, the state status of "Enabled" makes it unclear
@@ -72,14 +72,14 @@ change better reflecting the goals for disabling the AppLock service.
 You will see this in a few places. When you edit the policy, you will notice the old policy is
 absent and replaced with the new policy name like what's seen here.
 
-![applock3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock3.webp)
+![applock3](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock3.webp)
 
 And, any existing GPOs with the old policy name will automatically start using the new policy name
 and new state. Here's an example GPO with the old name and old state:
 
-![applock7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock7.webp)
+![applock7](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock7.webp)
 
-![applock8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock8.webp)
+![applock8](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock8.webp)
 
 **NOTE:** You might need to close the GPMC and re-open it to have the GPMC refresh the ADMX / ADML
 files and reflect a change. Then re-run the GPO setting report to verify your change.

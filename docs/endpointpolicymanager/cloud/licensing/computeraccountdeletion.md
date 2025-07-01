@@ -4,7 +4,7 @@ When a computer account is deleted, its acquired license is immediately returned
 available license pool. To delete a computer, click on a group and go to the computer in the
 Computers section. Then, select **Delete computer**.
 
-![licensing_with_policypak_cloud_4_499x277](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_4_499x277.webp)
+![licensing_with_policypak_cloud_4_499x277](/img/product_docs/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_4_499x277.webp)
 
 The computer account then goes to the **Deleted** group. From there, you have two options:
 
@@ -14,4 +14,4 @@ The computer account then goes to the **Deleted** group. From there, you have tw
   and Endpoint Policy Manager client-side extension (CSE) from the Windows machine (during the next
   connection).
 
-![licensing_with_policypak_cloud_5_499x266](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_5_499x266.webp)
+![licensing_with_policypak_cloud_5_499x266](/img/product_docs/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_5_499x266.webp)

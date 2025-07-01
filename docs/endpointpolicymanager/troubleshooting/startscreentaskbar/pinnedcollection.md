@@ -8,6 +8,6 @@ Items which are delivered to the TASK BAR must also have items that exist on the
 items do not exist, we will create a group JUST for the Task Bar. That is configurable, and you can
 see how to do it in the second screenshot.
 
-![623_1_faq-07-img-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/623_1_faq-07-img-01.webp)
+![623_1_faq-07-img-01](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/623_1_faq-07-img-01.webp)
 
-![623_2_faq-07-img-02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/623_2_faq-07-img-02.webp)
+![623_2_faq-07-img-02](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/623_2_faq-07-img-02.webp)

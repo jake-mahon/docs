@@ -3,7 +3,7 @@
 After signing into the Directory Manager portal, from the left pane select **Synchronize** to land
 on the dashboard.
 
-![synchronizedashboard](/img/product_docs/directorymanager/directorymanager/portal/synchronize/synchronizedashboard.webp)
+![synchronizedashboard](/img/product_docs/directorymanager/11.1/portal/synchronize/synchronizedashboard.webp)
 
 The interface has intuitive navigation options:
 

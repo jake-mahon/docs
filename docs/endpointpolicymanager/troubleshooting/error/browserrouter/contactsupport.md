@@ -5,7 +5,7 @@ If you see a message like what's seen below…
 "Please contact your support personnel who can gather logs and work with Netwrix Endpoint Policy
 Manager (formerly PolicyPak) support."
 
-![206_1_image](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/browserrouter/206_1_image.webp)
+![206_1_image](/img/product_docs/endpointpolicymanager/troubleshooting/error/browserrouter/206_1_image.webp)
 
 This could happen for a variety of reasons.
 

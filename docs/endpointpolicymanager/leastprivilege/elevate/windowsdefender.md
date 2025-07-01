@@ -11,24 +11,24 @@ with WF.msc, see
 **Step 1 –** Identify the Windows Defender Firewall CLSID you need to elevate based on the UAC
 message.
 
-![577_1_image-20230927113514-1_387x437](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_1_image-20230927113514-1_387x437.webp)
+![577_1_image-20230927113514-1_387x437](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_1_image-20230927113514-1_387x437.webp)
 
 **Step 2 –** Create a Least Privilege Manager COM Class policy.
 
-![577_2_image-20230927113655-2_403x344](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_2_image-20230927113655-2_403x344.webp)
+![577_2_image-20230927113655-2_403x344](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_2_image-20230927113655-2_403x344.webp)
 
 **Step 3 –** Choose the well-known COM Class option from the drop-down.
 
-![577_3_image-20230927113824-3_527x314](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_3_image-20230927113824-3_527x314.webp)
+![577_3_image-20230927113824-3_527x314](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_3_image-20230927113824-3_527x314.webp)
 
 **Step 4 –** Select the COM Class needed, then click **Add selected**.
 
-![577_4_image-20230927113909-4_724x208](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_4_image-20230927113909-4_724x208.webp)
+![577_4_image-20230927113909-4_724x208](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_4_image-20230927113909-4_724x208.webp)
 
 **Step 5 –** Ensure the **Run with elevated privileges** option is selected, then click **Next**.
 
-![577_5_image-20230927114034-5_592x320](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_5_image-20230927114034-5_592x320.webp)
+![577_5_image-20230927114034-5_592x320](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_5_image-20230927114034-5_592x320.webp)
 
 **Step 6 –** Click **Finish** to save the policy.
 
-![577_6_image-20230927114305-7_599x423](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/577_6_image-20230927114305-7_599x423.webp)
+![577_6_image-20230927114305-7_599x423](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/577_6_image-20230927114305-7_599x423.webp)

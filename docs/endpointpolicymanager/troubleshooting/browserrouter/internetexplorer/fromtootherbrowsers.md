@@ -15,7 +15,7 @@ Said another way, ONE, TWO or THREE values may need to be tested to encompass a 
 **Step 2 –** Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE
 to other browsers
 
-![415_1_image0014](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_1_image0014.webp)
+![415_1_image0014](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_1_image0014.webp)
 
 (Old: Not needed anymore; here for archival purposes…
 
@@ -26,7 +26,7 @@ to other browsers
 **Step 2 –** Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE
 to other browsers.
 
-![415_2_image003](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_2_image003.webp)
+![415_2_image003](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_2_image003.webp)
 
 (Old: Not needed anymore; here for archival purposes…) .
 
@@ -37,7 +37,7 @@ to other browsers.
 **Step 2 –** Reboot the machine and see if Endpoint Policy Manager Browser Router will route from IE
 to other browsers.
 
-![415_3_image005](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_3_image005.webp)
+![415_3_image005](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_3_image005.webp)
 
 Once you learn what combination works, then set these settings in Group Policy . You can do this on
 USER or COMPUTER side. We recommend COMPUTER.
@@ -55,7 +55,7 @@ Turn on 64-bit tab processes when running in Enhanced Protection Mode :: Set to 
 _Remember,_ Remember that each machine needs to be rebooted after it receives these directives; just
 like you did in your manual tests.
 
-![415_4_image0061](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_4_image0061.webp)
+![415_4_image0061](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_4_image0061.webp)
 
 Note also that the settings can be hiding in one ore more GPOs, so use GPresult to look for those
 values.
@@ -67,14 +67,14 @@ An example GPresult /h report will show a Group Policy Preferences setting demon
 required "Enable third-party browser extensions (requires restart)" as DISABLING the ability to use
 third-party extensions.
 
-![415_5_faq-asdf-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_5_faq-asdf-01.webp)
+![415_5_faq-asdf-01](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_5_faq-asdf-01.webp)
 
 In these cases, you need to find the Group Policy Preferences item within the GPO and set the value
 to GREEN and CHECK which will "Enable third-party browser extensions".
 
-![415_6_faq-asdf-02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_6_faq-asdf-02.webp)
+![415_6_faq-asdf-02](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_6_faq-asdf-02.webp)
 
 Only then will the GPO's GPresult report demonstrate that the required item is Enabled like what's
 seen here.
 
-![415_7_faq-asdf-03](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_7_faq-asdf-03.webp)
+![415_7_faq-asdf-03](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/internetexplorer/415_7_faq-asdf-03.webp)

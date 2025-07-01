@@ -12,7 +12,7 @@ DesignStudio setup MSI.
 To start the Endpoint Policy Manager GPOTouch utility, find it in the Start Menu, as seen in
 Figure 87.
 
-![policypak_application_settings_3_25](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_25.webp)
+![policypak_application_settings_3_25](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_25.webp)
 
 Figure 87. The Start Menu showing Endpoint Policy Manager GPOTouch.
 

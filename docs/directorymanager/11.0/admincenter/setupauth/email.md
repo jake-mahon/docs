@@ -47,7 +47,7 @@ confirmation code that users have to enter in GroupID to enroll/authenticate the
 
 3. Search for _AccessCodeEmail_ and click **Edit** in the **Actions** column to open it.
 
-    ![access_code](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/setupauth/access_code.webp)
+    ![access_code](/img/product_docs/directorymanager/11.0/admincenter/setupauth/access_code.webp)
 
 4. You can view the notification content in two distinct modes:
 

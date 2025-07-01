@@ -12,4 +12,4 @@ An example, taken from
 [FooUser@ meets the Cosmic Autopilot@ user](https://call4cloud.nl/foouser-autopilot-preprovisoning-fake-user/),
 can be seen here.
 
-![1336_1_f6195331f68904f96c183fe8a7dfdd29](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/mdm/1336_1_f6195331f68904f96c183fe8a7dfdd29.webp)
+![1336_1_f6195331f68904f96c183fe8a7dfdd29](/img/product_docs/endpointpolicymanager/license/mdm/1336_1_f6195331f68904f96c183fe8a7dfdd29.webp)

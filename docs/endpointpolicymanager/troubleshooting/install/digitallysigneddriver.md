@@ -7,7 +7,7 @@ message, even though all Endpoint Policy Manager files are digitally signed:
 "Windows requires a digitally signed driver … PPProcessFilter.sys "
 ```
 
-![351_1_sdgghjl](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/install/351_1_sdgghjl.webp)
+![351_1_sdgghjl](/img/product_docs/endpointpolicymanager/troubleshooting/install/351_1_sdgghjl.webp)
 
 Install the KB 3033929 Windows 7 update from Microsoft
 for[https://www.microsoft.com/en-us/download/details.aspx?id=46148](https://www.microsoft.com/en-us/download/details.aspx?id=46148)
@@ -17,4 +17,4 @@ This will enable Windows 7 to honor 256-hash signed files.
 
 As you can see here, all Endpoint Policy Manager files are signed with SHA256.
 
-![351_2_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/install/351_2_image002.webp)
+![351_2_image002](/img/product_docs/endpointpolicymanager/troubleshooting/install/351_2_image002.webp)

@@ -201,7 +201,7 @@ Step 4 – On the Entitlement page, you can manually replicate permissions for o
   replicate. To replicate all sites, select the check box in the header row. This displays the
   following icons:
 
-    ![replicate_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Either click the **Replicate** icon or the **Replicate** button.
 
@@ -235,7 +235,7 @@ Step 4 – On the **Entitlement** page, you can exclude one or more sites.
     Select the check boxes for the sites you do not want to replicate. To exclude all sites, select
     the check box in the header row. This displays the following icons:
 
-    ![replicate_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Click **Remove**. The sites are moved to the **Excluded SharePoint Sites** area.
 

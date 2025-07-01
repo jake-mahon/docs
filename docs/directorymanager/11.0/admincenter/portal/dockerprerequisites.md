@@ -59,7 +59,7 @@ images that you have pulled, and the containers created (the applications runnin
 
 Launch Docker Desktop and click **Images** in the left pane.
 
-![images_-_local_tab](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/images_-_local_tab.webp)
+![images_-_local_tab](/img/product_docs/directorymanager/11.0/admincenter/portal/images_-_local_tab.webp)
 
 The Images page (Local tab) shows all images that you have pulled from different repositories.
 Notice the first image is from GroupID. Here:
@@ -71,7 +71,7 @@ Notice the first image is from GroupID. Here:
 Click **Remote Repositories** to go to the remote server, where you will find all GroupID-specific
 images under _Imanami_.
 
-![images_-_remote_repositories](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/images_-_remote_repositories.webp)
+![images_-_remote_repositories](/img/product_docs/directorymanager/11.0/admincenter/portal/images_-_remote_repositories.webp)
 
 GroupID application images for different GroupID versions are listed here. For example, three Data
 service images are available for three distinct GroupID versions.
@@ -87,11 +87,11 @@ deploying the application.
 
 Click **Containers/Apps** in the left pane to view the containers.
 
-![apps_page](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/apps_page.webp)
+![apps_page](/img/product_docs/directorymanager/11.0/admincenter/portal/apps_page.webp)
 
 Select a container and click **Inspect** to view its details.
 
-![container_details](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/container_details.webp)
+![container_details](/img/product_docs/directorymanager/11.0/admincenter/portal/container_details.webp)
 
 **See Also**
 

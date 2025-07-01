@@ -21,12 +21,12 @@ Step 2 – Run directorymanagerPrereqTool.exe file. It launches the Preparation 
 
 Step 3 – Read the welcome message and click **Next**.
 
-![Ready to Begin page](/img/product_docs/directorymanager/directorymanager/install/installer/readytobegin.webp)
+![Ready to Begin page](/img/product_docs/directorymanager/11.1/install/installer/readytobegin.webp)
 
 Step 4 – The Ready to begin page lists the required software and Windows features that the
 Preparation Tool has identified for Directory Manager. Click **Install** to begin.
 
-![We are preparing page](/img/product_docs/directorymanager/directorymanager/install/installer/wearepreparing.webp)
+![We are preparing page](/img/product_docs/directorymanager/11.1/install/installer/wearepreparing.webp)
 
 Step 5 – On the We are preparing this machine for Directory Manager... page the progress bar shows
 the installation progress while prerequisites are installed.

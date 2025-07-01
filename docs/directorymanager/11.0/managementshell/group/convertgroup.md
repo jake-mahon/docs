@@ -6,7 +6,7 @@ GroupID Management Shell prompts for the identity of the unmanaged group you wan
 Smart Group. After executing, the commandlet displays the status that update is successful as shown
 in the following snapshot:
 
-![managementshell](/img/versioned_docs/directorymanager_11.0/directorymanager/managementshell/group/managementshell.webp)
+![managementshell](/img/product_docs/directorymanager/11.0/managementshell/group/managementshell.webp)
 
 The converted Smart Group will not have an LDAP query attached to it. You have to define it
 manually.

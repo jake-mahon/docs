@@ -32,7 +32,7 @@ The following table contains icons for resource types:
 | ![Domain icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/domain.webp)                         | Domain                    |
 | ![Box icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/box.webp)                               | Box                       |
 | ![Google Drive icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/googledrive.webp)              | Google Drive              |
-| ![Exchange icon](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/exchange.webp)                                                   | Exchange                  |
+| ![Exchange icon](/img/product_docs/directorymanager/11.0/configureentraid/register/exchange.webp)                                                   | Exchange                  |
 | ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/7.1/admin/outputs/sql.webp)                                         | SQL Server or Azure SQL   |
 | ![Microsoft Teams icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/teams.webp)                 | Microsoft Teams           |
 | ![MongoDB icon](/img/product_docs/changetracker/8.0/install/mongodb.webp)                                                            | MongoDB                   |
@@ -65,8 +65,8 @@ The following table contains icons for trustee types:
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | ![Unknown icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/unknowntrustee.webp)              | Unknown                                    |
 | ![Security/Domain Principal icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/principal.webp) | Security Principal or Domain Principal     |
-| ![User icon](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/user.webp)                                                         | User – Local, Domain, SharePoint, or Unix  |
-| ![Group icon](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/group.webp)                                                       | Group – Local, Domain, SharePoint, or Unix |
+| ![User icon](/img/product_docs/directorymanager/11.0/configureentraid/register/user.webp)                                                         | User – Local, Domain, SharePoint, or Unix  |
+| ![Group icon](/img/product_docs/directorymanager/11.0/configureentraid/register/group.webp)                                                       | Group – Local, Domain, SharePoint, or Unix |
 | ![Unsupported icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/unsupported.webp)             | Unsupported                                |
 | ![Service Account icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/serviceaccount.webp)      | Service Account                            |
 | ![Computer icon](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/computer.webp)                   | Computer                                   |

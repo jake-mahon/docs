@@ -6,7 +6,7 @@ various Firefox stores.
 If you deliver a certificate to the ROOT store, then the following checkboxes are always pre-checked
 upon delivery by Endpoint Policy Manager.
 
-![212_1_image00](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/certificate/212_1_image00.webp)
+![212_1_image00](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/certificate/212_1_image00.webp)
 
 However, if you deliver a certificate to the CERTIFICATE AUTHORITY (CA) store, then NONE of these
 checkboxes are checked for you.

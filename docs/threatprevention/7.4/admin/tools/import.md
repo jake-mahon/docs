@@ -16,7 +16,7 @@ Follow the steps to import the file.
 - Click **Tools** > **Import** on the menu.
 - Use the keyboard shortcut (Alt+I).
 
-![Import Window](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/import.webp)
+![Import Window](/img/product_docs/directorymanager/11.0/portal/import.webp)
 
 The Import window includes options for specifying the locations where imported policies and
 templates will be saved, and how duplicate items will be handled.

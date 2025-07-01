@@ -8,7 +8,7 @@ Items that are not conflicting and are in different tests are sorted alphabetica
 category. This is why you see [www.GPanswers.com](http://www.GPanswers.com) appear before
 [www.endpointpolicymanager.com](http://www.endpointpolicymanager.com) in the example in Figure 33.
 
-![gpcr_concepts_and_quickstart_34](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_34.webp)
+![gpcr_concepts_and_quickstart_34](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_34.webp)
 
 Figure 33. Items in different tests that do not conflict are sorted alphabetically within a
 category.
@@ -19,7 +19,7 @@ possibly other values). Because they are testing for precisely the same value on
 the example, "Test for WinZip Password Length = 14" is set as Test Order #1. Because it has a higher
 precedence order than Test Order #2, the value that will be tested is Minimum Password Length = 14.
 
-![gpcr_concepts_and_quickstart_35](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_35.webp)
+![gpcr_concepts_and_quickstart_35](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_35.webp)
 
 Figure 34. Test Order #1 has a higher precedence order over those below it.
 
@@ -28,6 +28,6 @@ buttons, as shown in Figure 35. In the figure, "Test for Winzip Password Length 
 shifted to have higher precedence. As such, the RCT changes to test for Minimum Password Length
 = 15.
 
-![gpcr_concepts_and_quickstart_36](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_36.webp)
+![gpcr_concepts_and_quickstart_36](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_36.webp)
 
 Figure 35. You can shift a test to a higher precedence.

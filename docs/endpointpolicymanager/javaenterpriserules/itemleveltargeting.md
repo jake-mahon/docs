@@ -7,12 +7,12 @@ policies within collections.
 
 **Step 1 –** To start, right-click the collection, and select **Change Item Level Targeting**.
 
-![quickstart_policypak_java_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/quickstart_endpointpolicymanager_java_2.webp)
+![quickstart_policypak_java_2](/img/product_docs/endpointpolicymanager/javaenterpriserules/quickstart_endpointpolicymanager_java_2.webp)
 
 **Step 2 –** Within a Java Rules Manager policy, you can dictate an Item-Level Targeting policy by
 clicking on **Item-Level Targeting**.
 
-![using_policypak_java_rules_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_7.webp)
+![using_policypak_java_rules_7](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_7.webp)
 
 **Step 3 –** The Edit Item Level Targeting menu item brings up the Targeting Editor. You can select
 any combination of characteristics you want to test for. Administrators familiar with Group Policy
@@ -25,7 +25,7 @@ much the same way parentheses are used in an equation. In this way, you can crea
 determination about where a policy will be applied. Collections may be set to **And**, **Or**,
 **Is**, or **Is Not**.
 
-![using_policypak_java_rules_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_8.webp)
+![using_policypak_java_rules_8](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_8.webp)
 
 Below are some real-world examples of how you can use Item-Level Targeting.
 
@@ -48,13 +48,13 @@ Below are some real-world examples of how you can use Item-Level Targeting.
 indicates it now has Item-Level Targeting on the whole collection. In other words, none of the items
 in the collection will apply unless the Item-Level Targeting on the collection evaluates to True.
 
-![using_policypak_java_rules_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_9.webp)
+![using_policypak_java_rules_9](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_9.webp)
 
 Within the collection, setting Item-Level Targeting within any policy results in the icon turning
 orange. The Item-Level Targeting column will indicate if Item-Level Targeting is on (Yes) or off
 (No).
 
-![using_policypak_java_rules_10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_10.webp)
+![using_policypak_java_rules_10](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_10.webp)
 
 In this way, you can have granular control over policies and collections. First, filter with
 Item-Level Targeting on a collection, and then filter any specific rule if any Item-Level Targeting

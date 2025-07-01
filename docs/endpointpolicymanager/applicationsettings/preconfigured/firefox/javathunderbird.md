@@ -23,14 +23,14 @@ Java lockdown when affecting computers (when computers are in OUs.)
 In the picture below, you'll see an example of how to create and link a GPO against computers
 (instead of users) can be seen.
 
-![148_1_ff1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_1_ff1.webp)
+![148_1_ff1](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_1_ff1.webp)
 
 In this example we've assumed you've put your target computers into the "East Sales Desktops" folder
 (or similar.) Then when you edit the GPO, edit it on the Computer side as seen here. At that point
 you can modify settings for FireFox, Thunderbird and Java and specify to "Lockdown this setting
 using the system-wide config file."
 
-![148_2_ff2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_2_ff2.webp)
+![148_2_ff2](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_2_ff2.webp)
 
 System-Wide lockdown using config files is only available on the Computer side.
 
@@ -39,6 +39,6 @@ user-side. If you try to edit these three Paks on the user side, you simply won'
 perform UI lockdown. An example of editing one of these Paks on the user side (and therefore not
 seeing the System-Wide lockdown) is shown in this figure.
 
-![148_3_ff3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_3_ff3.webp)
+![148_3_ff3](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/148_3_ff3.webp)
 
 Note that the lockdown via System-Wide config file is not present on the user side.

@@ -10,7 +10,7 @@ To turn on Debug logging:
 `HKLMSoftwarePoliciesPolicyPakConfigLogs` as REG_DWORD called DefaultVerbose and set it to
 0xFFFFFFFF as seen in this screenshot.
 
-![385_1_image0021](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/log/385_1_image0021.webp)
+![385_1_image0021](/img/product_docs/endpointpolicymanager/troubleshooting/log/385_1_image0021.webp)
 
 **Step 2 –** Then Reboot. (Very important.)
 
@@ -19,7 +19,7 @@ like BRExtension::dtor as seen here. For instance,
 check `%programdata%PolicyPakPolicyPak `Browser RouterppService.log and look to see its been done
 correctly.
 
-![385_2_image003](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/log/385_2_image003.webp)
+![385_2_image003](/img/product_docs/endpointpolicymanager/troubleshooting/log/385_2_image003.webp)
 
 **Step 4 –** After that, reproduce the problem, and run` PPLOGS` as seen in Step 3
 [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/troubleshooting/fastsupport.md)

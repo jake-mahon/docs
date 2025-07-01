@@ -95,7 +95,7 @@ A few grid display types used in the default portal template are:
 12. Select the **Show Search Filters** check box to add a row to the grid that serves as a search
     bar. This row appears in the grid, as shown below:
 
-    ![search_row_in_grid](/img/product_docs/directorymanager/directorymanager/admincenter/portal/displaytype/search_row_in_grid.webp)
+    ![search_row_in_grid](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/search_row_in_grid.webp)
 
 13. Select the **Editable** check box to make the rows in the grid available for editing. Else, the
     grid will be read-only.

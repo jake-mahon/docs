@@ -73,20 +73,20 @@ In the **Active Directory Users and Computers** console:
 2. In the left pane, right-click the domain name or organizational unit and select the
    **Properties** option. On the Properties window, select the **Security** tab.
 
-    ![security_tab](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/security_tab.webp)
+    ![security_tab](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/security_tab.webp)
 
 3. Click the **Advanced** button; the **Advanced Security Settings** window is displayed.
 
-    ![advsecsettings](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/advsecsettings.webp)
+    ![advsecsettings](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/advsecsettings.webp)
 
 4. Click the **Add** button. The **Permission Entry** window is displayed.
 
-    ![permissionentry](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/permissionentry.webp)
+    ![permissionentry](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/permissionentry.webp)
 
 5. Click the **Select a principal** link next to **Principal**. The Select User, Computer, Service
    Account, or Group dialog box is displayed.
 
-    ![select_user](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/select_user.webp)
+    ![select_user](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/select_user.webp)
 
     Type the name of the service account in the **Enter the object name to select** box. Click
     **OK**. The **Permissions Entry** window is displayed with all fields enabled (see step 4).
@@ -97,12 +97,12 @@ In the **Active Directory Users and Computers** console:
     1. Scroll down the list of permissions in the **Permissions** box and select the check boxes for
        the options shown below:
 
-        ![permissions_list](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/permissions_list.webp)
+        ![permissions_list](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/permissions_list.webp)
 
     2. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsgrantedpermissions](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/advsecsettingsgrantedpermissions.webp)
+        ![advsecsettingsgrantedpermissions](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/advsecsettingsgrantedpermissions.webp)
 
 8. Grant Permissions to Modify Users, Contacts, and Groups.
 
@@ -115,19 +115,19 @@ In the **Active Directory Users and Computers** console:
     3. In the **Applies to** box, select the **Descendant Contact objects** option and select the
        **Full control** check box in the _Permissions_ area. It is as follows:
 
-        ![fullcontrolcontact](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/fullcontrolcontact.webp)
+        ![fullcontrolcontact](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/fullcontrolcontact.webp)
 
     4. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsfullcontrolcontact](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/advsecsettingsfullcontrolcontact.webp)
+        ![advsecsettingsfullcontrolcontact](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/advsecsettingsfullcontrolcontact.webp)
 
     5. Repeat steps a – d for **Descendant Group objects** and **Descendant User objects** on the
        Permission Entry window.  
        The service account now has permissions to modify users, contacts, and groups. These
        permissions appear in the **Advanced Security Settings** window. It is as shown below:
 
-        ![advsecsettingsreqpermissions](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/identitystore/moreinfo/advsecsettingsreqpermissions.webp)
+        ![advsecsettingsreqpermissions](/img/product_docs/directorymanager/11.0/admincenter/identitystore/moreinfo/advsecsettingsreqpermissions.webp)
 
 9. Click **OK**.
 

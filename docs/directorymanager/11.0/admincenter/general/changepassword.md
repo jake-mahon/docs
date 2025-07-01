@@ -24,7 +24,7 @@ Step 4 – Click **Change Password**.
 NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
 in GroupID. The following message is displayed:.
 
-![Admin Center Change Password error message for an Entra ID user](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/general/admincenterchangepassword.webp)
+![Admin Center Change Password error message for an Entra ID user](/img/product_docs/directorymanager/11.0/admincenter/general/admincenterchangepassword.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in
 GroupID.

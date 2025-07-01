@@ -51,7 +51,7 @@ is ready on your side:
 ([http://www.endpointpolicymanager.com/customerportal](http://www.endpointpolicymanager.com/customerportal)) to download
 Everything.
 
-![289_1_image-20240111131924-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/289_1_image-20240111131924-2.webp)
+![289_1_image-20240111131924-2](/img/product_docs/endpointpolicymanager/gettingstarted/289_1_image-20240111131924-2.webp)
 
 **NOTE:** If you cannot remember your password, you can reset it right on this page.
 
@@ -68,7 +68,7 @@ location. Any unzip tool can be used for this task.
 
 When you are done, your server should look like this:
 
-![289_2_image-20240111133126-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/289_2_image-20240111133126-3.webp)
+![289_2_image-20240111133126-3](/img/product_docs/endpointpolicymanager/gettingstarted/289_2_image-20240111133126-3.webp)
 
 For all versions of Endpoint Policy Manager (Group Policy, MDM, and Cloud), you need access to a
 Domain Controller (DC) running Active Directory to create real GPOs. This DC can be a real or fake
@@ -201,7 +201,7 @@ To run Endpoint Policy Manager Un-licensed (any version):
 
 Example machine renamed to work UN-licensed:
 
-![289_3_image-20191022200736-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/289_3_image-20191022200736-3.webp)
+![289_3_image-20191022200736-3](/img/product_docs/endpointpolicymanager/gettingstarted/289_3_image-20191022200736-3.webp)
 
 ## Part 6: Preparing for Endpoint Policy ManagerCloud
 

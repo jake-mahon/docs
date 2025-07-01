@@ -27,14 +27,14 @@ components will receive their directives. We've provided a handful of XML files 
 find them in the Endpoint Policy Manager Portal in the "Latest Manuals" section, as shown in
 Figure 1.
 
-![deploying_policypak_directives](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/deploying_endpointpolicymanager_directives.webp)
+![deploying_policypak_directives](/img/product_docs/endpointpolicymanager/mdm/deploying_endpointpolicymanager_directives.webp)
 
 Figure 1. The list of XML files in the Endpoint Policy Manager Portal.
 
 Once unpacked, you should see a list of example XML files, displayed in Figure 2, which are wrapped
 into an example MSI.
 
-![deploying_policypak_directives_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/deploying_endpointpolicymanager_directives_1.webp)
+![deploying_policypak_directives_1](/img/product_docs/endpointpolicymanager/mdm/deploying_endpointpolicymanager_directives_1.webp)
 
 Figure 2. The wrapped XML file example.
 

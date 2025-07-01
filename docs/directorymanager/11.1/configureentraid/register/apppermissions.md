@@ -13,19 +13,19 @@ Directory Manager licensing.
 
 The following application permissions are required.
 
-![Microsoft Entra ID Application Permissions - Channel](/img/product_docs/directorymanager/directorymanager/configureentraid/register/channel.webp)
+![Microsoft Entra ID Application Permissions - Channel](/img/product_docs/directorymanager/11.1/configureentraid/register/channel.webp)
 
-![Microsoft Entra ID Application Permissions - Directory](/img/product_docs/directorymanager/directorymanager/configureentraid/register/directory.webp)
+![Microsoft Entra ID Application Permissions - Directory](/img/product_docs/directorymanager/11.1/configureentraid/register/directory.webp)
 
 ![Microsoft Entra ID Application Permissions - Group](/img/product_docs/changetracker/8.1/integration/splunk/group.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/directorymanager/configureentraid/register/mail.webp)
+![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/11.1/configureentraid/register/mail.webp)
 
-![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/directorymanager/configureentraid/register/role.webp)
+![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/11.1/configureentraid/register/role.webp)
 
 ![Microsoft Entra ID Application Permissions - User](/img/product_docs/activitymonitor/8.0/admin/search/query/user.webp)
 
-![Microsoft Entra ID Application Permissions - User Password and Phone](/img/product_docs/directorymanager/directorymanager/configureentraid/register/user-pw-phone.webp)
+![Microsoft Entra ID Application Permissions - User Password and Phone](/img/product_docs/directorymanager/11.1/configureentraid/register/user-pw-phone.webp)
 
 ## Office 365 Exchange Online Permissions
 
@@ -33,4 +33,4 @@ The following application permissions are required.
 
 ## SharePoint Delegated Permissions
 
-![allsites](/img/product_docs/directorymanager/directorymanager/configureentraid/register/allsites.webp)
+![allsites](/img/product_docs/directorymanager/11.1/configureentraid/register/allsites.webp)

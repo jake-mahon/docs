@@ -7,7 +7,7 @@ settings. To perform these tasks, the Configuration Wizard may ask you some ques
 current state of the application first. For instance, it may asked if a checkbox is currently
 checked or unchecked, as shown in Figure 114.
 
-![configuring_elements_using_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_7.webp)
+![configuring_elements_using_7](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_7.webp)
 
 Figure 114. Selecting whether a checkbox is checked or unchecked.
 
@@ -34,7 +34,7 @@ is fully closed. This means you might have to open and close the application doz
 If you click "Next" in the wizard but the wizard was unable to detect any changes, it will tell you
 that no changes were detected, as shown in Figure 115.
 
-![configuring_elements_using_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_8.webp)
+![configuring_elements_using_8](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_8.webp)
 
 Figure 115. The message to indicate no changes were detected.
 

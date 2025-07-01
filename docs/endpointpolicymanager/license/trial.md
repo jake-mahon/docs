@@ -42,7 +42,7 @@ methods of how to do that in Windows.
 Here's a video showing what happens when you rename a computer and how Endpoint Policy Manager
 reacts:[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/cloud/testlab/renameendpoint.md)
 
-![812_1_image001](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/812_1_image001.webp)
+![812_1_image001](/img/product_docs/endpointpolicymanager/license/812_1_image001.webp)
 
 After you rename your computer to have Computer in the name, then:
 
@@ -65,7 +65,7 @@ Endpoint Policy Manager Cloud (and also the Endpoint Policy Manager Client Side 
 installed.) You install a new machine into Endpoint Policy Manager cloud by installing the Endpoint
 Policy Manager Cloud Client, as shown below.
 
-![812_2_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/812_2_image002.webp)
+![812_2_image002](/img/product_docs/endpointpolicymanager/license/812_2_image002.webp)
 
 To get started immediately with Endpoint Policy Manager Cloud, check out the Getting Started with
 Cloud > [Video Learning Center](/docs/endpointpolicymanager/video/index.md).
@@ -85,7 +85,7 @@ $env:userdnsdomain
 It will then produce the output of the domain name, which is the minimum requirement to make you a
 license key.
 
-![812_3_get-fqdn-with-powershell](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/812_3_get-fqdn-with-powershell.webp)
+![812_3_get-fqdn-with-powershell](/img/product_docs/endpointpolicymanager/license/812_3_get-fqdn-with-powershell.webp)
 
 Once we generate the key, it will be in the Endpoint Policy Manager
 Portal.[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)Then
@@ -120,7 +120,7 @@ When you enroll machines into your MDM, you do so with a UPN name. Start out by 
 name you use, such as [\*@fabrikam.com,](mailto:*@fabrikam.com) or whatever yours is. We recommend
 you take a screenshot of this page from an enrolled Windows 10 machine, and then continue.
 
-![812_4_sdfg](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/812_4_sdfg.webp)
+![812_4_sdfg](/img/product_docs/endpointpolicymanager/license/812_4_sdfg.webp)
 
 Once we generate the key, it will be in the Endpoint Policy Manager Portal. Download the key and
 install it using these

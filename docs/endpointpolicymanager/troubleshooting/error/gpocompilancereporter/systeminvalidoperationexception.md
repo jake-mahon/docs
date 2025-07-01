@@ -4,7 +4,7 @@ When using a remote SQL server as the database for Netwrix Endpoint Policy Manag
 PolicyPak) Group Policy Compliance Reporter, the snapshot operation may fail with the following
 error.
 
-![794_1_image-20200327171540-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
+![794_1_image-20200327171540-1](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_1_image-20200327172830-2.jpeg)
 
 The Server debug log will contain the following error as well:
 

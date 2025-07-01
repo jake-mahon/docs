@@ -15,4 +15,4 @@ For more information
 
 Example of error and results in Event log:
 
-![97_1_carbonblack1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/install/97_1_carbonblack1.webp)
+![97_1_carbonblack1](/img/product_docs/endpointpolicymanager/troubleshooting/error/install/97_1_carbonblack1.webp)

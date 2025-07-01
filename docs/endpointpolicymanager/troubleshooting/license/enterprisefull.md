@@ -12,11 +12,11 @@
 
 Here's an example Enterprise license:
 
-![935_1_image-20230713042924-1_950x533](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_1_image-20230713042924-1_950x533.webp)
+![935_1_image-20230713042924-1_950x533](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_1_image-20230713042924-1_950x533.webp)
 
 Example Enterprise Full License:
 
-![935_2_image-20230713042924-2_950x359](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_2_image-20230713042924-2_950x359.webp)
+![935_2_image-20230713042924-2_950x359](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_2_image-20230713042924-2_950x359.webp)
 
 ## Why is this happening:
 
@@ -55,7 +55,7 @@ Example Enterprise Full License:
   file contains all the things your existing (older) Enterprise key has.
 - See below for what to investigate in a key returned to you, versus a key you already have.
 
-![935_3_image-20230713042924-3_950x346](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_3_image-20230713042924-3_950x346.webp)
+![935_3_image-20230713042924-3_950x346](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_3_image-20230713042924-3_950x346.webp)
 
 ## Must I re-run the LT (on-prem / MDM license tool) to re-count my computers at the end of each term year?
 
@@ -82,7 +82,7 @@ Enterprise Full license keys.
 **NOTE:** See screen shot below where MMC expresses "Enterprise Universal Product Component" which
 is the same as what we are calling "Enterprise Full" here.
 
-![935_4_image-20230713042924-4_950x469](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_4_image-20230713042924-4_950x469.webp)
+![935_4_image-20230713042924-4_950x469](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_4_image-20230713042924-4_950x469.webp)
 
 ## How do I create a new Group Policy Object and import the Enterprise Full key (or deploy via MDM, SCCM, etc?)
 
@@ -103,7 +103,7 @@ is the same as what we are calling "Enterprise Full" here.
   which Group Policy Object is performing what licensing.
 - An example of that can be seen here.
 
-![935_5_image-20230713042924-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_5_image-20230713042924-5.webp)
+![935_5_image-20230713042924-5](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_5_image-20230713042924-5.webp)
 
 ## How can I tell if the computer is licensed by Enterprise or Enterprise full license keys?
 
@@ -116,7 +116,7 @@ is the same as what we are calling "Enterprise Full" here.
 _Remember,_ Only computers with CSE 23.6.3557 and later can show Enterprise Full when `PPupdate `is
 run.
 
-![935_6_image-20230713042924-6_950x735](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
+![935_6_image-20230713042924-6_950x735](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
 ## If Enterprise Full means "License all components" how do I expressly disable a component (like Endpoint Policy Manager Browser Router, or Endpoint Policy Manager Application Settings Manager) if they are always licensed?
 

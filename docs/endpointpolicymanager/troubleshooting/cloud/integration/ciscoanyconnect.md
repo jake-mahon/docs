@@ -13,4 +13,4 @@ seen below.
 
 This is dump MAC as a matching criteria and use only UUID which is somewhat less aggressive.
 
-![817_1_image001_950x578](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/integration/817_1_image001_950x578.webp)
+![817_1_image001_950x578](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/integration/817_1_image001_950x578.webp)

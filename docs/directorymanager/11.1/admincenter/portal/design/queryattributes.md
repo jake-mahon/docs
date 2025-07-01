@@ -13,12 +13,12 @@ on the following pages in the portal:
     The schema attributes you specify would be available to portal users on the Filter Criteria tab
     of the Query Designer for building Smart Group/Dynasty queries.
 
-    ![filter_criteria_tab](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/filter_criteria_tab.webp)
+    ![filter_criteria_tab](/img/product_docs/directorymanager/11.1/admincenter/portal/design/filter_criteria_tab.webp)
 
 - The Sub-Manager Query Designer for a Recursive Managerial Dynasty, where you can specify a query
   for sub-manager selection.
 
-    ![submanagerquery](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/submanagerquery.webp)
+    ![submanagerquery](/img/product_docs/directorymanager/11.1/admincenter/portal/design/submanagerquery.webp)
 
 - The **Add Attributes** dialog box for Dynasties. The schema attributes you specify would be
   available in the _Group Items By_ field, which is used to divide the query results into groups.
@@ -32,7 +32,7 @@ on the following pages in the portal:
   membership import queries.  
   You can launch this Query Designer using the **Import** button on the **Members** tab in group
   properties (for static groups, Smart Groups and Dynasties).  
-  ![importmembers](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/importmembers.webp)
+  ![importmembers](/img/product_docs/directorymanager/11.1/admincenter/portal/design/importmembers.webp)
 - The Query Designer for query-based search, where users can define a query to search the
   directory.  
   The schema attributes you specify would be available to portal users on the Filter Criteria tab of

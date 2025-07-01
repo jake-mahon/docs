@@ -78,9 +78,9 @@ only using an MDM service like Intune. Legacy mode only works when the machine i
 **NOTE:** After setting these settings and the policy refresh occurs to get these policies,
 endpoints may still need two logoffs and/or reboots for this to kick in.
 
-![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
+![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
 
-![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.webp)
+![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.webp)
 
 Update 4/8/2024:
 
@@ -115,7 +115,7 @@ To fix the issue, you need to perform two steps:
 **Step 2 –** Deploy the script via Endpoint Policy Manager Scripts Manager using the hints from the
 screen shot below.
 
-![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.webp)
+![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.webp)
 
 Workaround 2 using fsLogix (Microsoft Tools)
 
@@ -124,4 +124,4 @@ following redirect rules which should overcome the concern.
 
 **NOTE:** Do not use both Workaround 1 and 2 at the same time.
 
-![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)
+![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)

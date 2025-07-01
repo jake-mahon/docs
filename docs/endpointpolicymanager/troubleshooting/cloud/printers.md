@@ -22,4 +22,4 @@ cloud and sync it locally. Then PPC will be able to install that Printer back 
 
 We've edited the value for Printer's location in the PPC Pref Object.
 
-![747_1_front-desk-retry](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/747_1_front-desk-retry.webp)
+![747_1_front-desk-retry](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/747_1_front-desk-retry.webp)

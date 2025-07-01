@@ -7,14 +7,14 @@ that Microsoft has, and you can select to use the Microsoft Central Storage or l
 **NOTE:** The User side only displays user-side policies, and the Scope Filter section is grayed out
 and unchangeable.
 
-![about_policypak_admin_templates_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_3.webp)
+![about_policypak_admin_templates_3](/img/product_docs/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_3.webp)
 
-![about_policypak_admin_templates_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_4.webp)
+![about_policypak_admin_templates_4](/img/product_docs/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_4.webp)
 
 Selecting a particular policy setting opens the setting. This is similar to, but not exactly, what
 you would see if you edited the same policy using Microsoft's Admin Templates node.
 
-![about_policypak_admin_templates_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_5.webp)
+![about_policypak_admin_templates_5](/img/product_docs/endpointpolicymanager/adminstrativetemplates/gettoknow/about_endpointpolicymanager_admin_templates_5.webp)
 
 Similarities between the two windows include the same options (**Not Configured**, **Enabled**, and
 **Disabled**) and sub-options, like the **Comment** field, the **Supported on** field (read-only),

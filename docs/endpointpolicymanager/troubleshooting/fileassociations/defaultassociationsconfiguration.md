@@ -4,19 +4,19 @@ If you're using Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Rou
 using Endpoint Policy Manager File Associations Manager to make associations, you CANNOT also use
 the Group Policy or MDM method for setting default associations files, like what's seen here.
 
-![523_1_faq-03-img-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/fileassociations/523_1_faq-03-img-01.webp)
+![523_1_faq-03-img-01](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/523_1_faq-03-img-01.webp)
 
 Underneath the hood, you are "fighting" with Endpoint Policy Manager Browser Router and/or File
 Associations manager, like this.
 
-![523_2_faq-03-img-02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/fileassociations/523_2_faq-03-img-02.webp)
+![523_2_faq-03-img-02](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/523_2_faq-03-img-02.webp)
 
 For Endpoint Policy Manager Browser Router, Endpoint Policy Manager Browser Router must "become" the
 default OS browser like what's seen here. If Endpoint Policy Manager Browser Router is not set as
 the Default Browser (automatically, using Endpoint Policy Manager …) then you will get unusual
 behavior.
 
-![523_3_faq-03-img-03](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/fileassociations/523_3_faq-03-img-03.webp)
+![523_3_faq-03-img-03](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/523_3_faq-03-img-03.webp)
 
 For Endpoint Policy Manager File Associations Manager, you must remove any Group Policy File
 Associations file for it to work reliably.  

@@ -19,14 +19,14 @@ x64
 
 For example, an x64 machine with a single user logged in would have 5 instances.
 
-![490_1_2017-11-13_2259](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/490_1_2017-11-13_2259.webp)
+![490_1_2017-11-13_2259](/img/product_docs/endpointpolicymanager/troubleshooting/490_1_2017-11-13_2259.webp)
 
 If another user logged in, it would add another pair of PPWatcherSvc (32/64) instances for a total
 of 7 processes.
 
 An x86 system with TWO users logged in would look like this.
 
-![490_2_2017-11-13_2302](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/490_2_2017-11-13_2302.webp)
+![490_2_2017-11-13_2302](/img/product_docs/endpointpolicymanager/troubleshooting/490_2_2017-11-13_2302.webp)
 
 As for memory usage, you can expect there to be around 5MB per session; split between the 32bit and
 64bit processes.
@@ -42,4 +42,4 @@ Details column, like what's seen here.
 Then you can add up the RAM used. For this example with three logged on users the total PPWatcherSvc
 memory is 13.92 MB.
 
-![490_3_hf-kb-img-001](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/490_3_hf-kb-img-001.webp)
+![490_3_hf-kb-img-001](/img/product_docs/endpointpolicymanager/troubleshooting/490_3_hf-kb-img-001.webp)

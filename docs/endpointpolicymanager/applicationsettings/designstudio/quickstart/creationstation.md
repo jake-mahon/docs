@@ -12,7 +12,7 @@ creation station utilities on it before installing your package and producing an
 **Step 1 –** The `.NET` Framework can be introduced through `Add/Remove programs`, as shown in
 Figure 1.
 
-![policypak_application_settings](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings.webp)
+![policypak_application_settings](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings.webp)
 
 Figure 1. Installing the`.NET`Framework for Windows 10.
 
@@ -26,18 +26,18 @@ creation station. Any edition later than 2008 will work; you only need one.
   [https://visualstudio.microsoft.com/vs/express/](https://visualstudio.microsoft.com/vs/express/).
   Figure 3 shows the installation options.
 
-![policypak_application_settings_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_1.webp)
+![policypak_application_settings_1](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_1.webp)
 
 Figure 2. The installation options for Visual C++ 2008 Express Edition.
 
-![policypak_application_settings_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_2.webp)
+![policypak_application_settings_2](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_2.webp)
 
 Figure 3. The installation options for 2019 Visual Studio Express Desktop Edition.
 
 **Step 3 –** For this demonstration, we have gone with the C++ 2008 Express Edition. You will see
 whichever version you choose to install in your Start menu once installed, as shown in Figure 4.
 
-![policypak_application_settings_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_3.webp)
+![policypak_application_settings_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_3.webp)
 
 Figure 4. Visual Studio will appear in your Start menu once installed.
 
@@ -62,6 +62,6 @@ Policy Manager Admin `Console.msi` is also loaded.
 **Step 3 –** After installation is complete, your Start menu should have both the Microsoft Visual
 C++ Express Edition node and Endpoint Policy Manager DesignStudio node (see Figure 5).
 
-![policypak_application_settings_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_4.webp)
+![policypak_application_settings_4](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_4.webp)
 
 Figure 5. Endpoint Policy Manager DesignStudio appears in the Start menu once installed.

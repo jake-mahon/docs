@@ -98,17 +98,17 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         | Icon                                                                                          | Description                                            |
         | --------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-        | ![undo](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
-        | ![redo](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
-        | ![indent](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
-        | ![outdent](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
-        | ![comment](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
-        | ![uncomment](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
-        | ![uppercase](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
-        | ![lowercase](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
-        | ![darktheme](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
-        | ![lighttheme](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
-        | ![selectall](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
+        | ![undo](/img/product_docs/directorymanager/11.0/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
+        | ![redo](/img/product_docs/directorymanager/11.0/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
+        | ![indent](/img/product_docs/directorymanager/11.0/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
+        | ![outdent](/img/product_docs/directorymanager/11.0/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
+        | ![comment](/img/product_docs/directorymanager/11.0/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
+        | ![uncomment](/img/product_docs/directorymanager/11.0/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
+        | ![uppercase](/img/product_docs/directorymanager/11.0/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
+        | ![lowercase](/img/product_docs/directorymanager/11.0/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
+        | ![darktheme](/img/product_docs/directorymanager/11.0/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
+        | ![lighttheme](/img/product_docs/directorymanager/11.0/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
+        | ![selectall](/img/product_docs/directorymanager/11.0/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
 
     8. Click **Save** to save the changes made to the script.
 

@@ -19,7 +19,7 @@ settings without Group Policy (via Microsoft Endpoint Manager [SCCM], KACE, or E
 Manager Cloud). The supported Microsoft security settings can be seen below.  Red lines indicate
 these items are not supported by Endpoint Policy Manager.
 
-![about_policypak_security_settings](/img/product_docs/endpointpolicymanager/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings.webp)
+![about_policypak_security_settings](/img/product_docs/endpointpolicymanager/securitysettings/about_endpointpolicymanager_security_settings.webp)
 
 **NOTE:** The following items are NOT supported by Endpoint Policy Manager Security Settings
 Manager:

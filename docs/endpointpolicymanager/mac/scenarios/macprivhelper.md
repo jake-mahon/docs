@@ -10,7 +10,7 @@ Some applications require special Helper Applications to get installed. In this 
 to install the Xcitium application you can see that it requires admin rights to install its helper
 tool.
 
-![helper01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mac/scenarios/helper01.webp)
+![helper01](/img/product_docs/endpointpolicymanager/mac/scenarios/helper01.webp)
 
 ## Creating Privilege Elevation / Helper Policies
 
@@ -21,11 +21,11 @@ Path (file name), along with a digital signature.
 In this test example, we'll use the simplest (least secure) method, which is a filename name with
 wildcards.
 
-![helper02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mac/scenarios/helper02.webp)
+![helper02](/img/product_docs/endpointpolicymanager/mac/scenarios/helper02.webp)
 
 Then choose the Action and Additional approve options.
 
-![helper03](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mac/scenarios/helper03.webp)
+![helper03](/img/product_docs/endpointpolicymanager/mac/scenarios/helper03.webp)
 
 For now, click **Elevate** with **Not Configured**.
 
@@ -36,12 +36,12 @@ Finish up by providing a Name to the policy and clicking **Finish**.
 First synchronize your policies with Endpoint Policy Manager Cloud, using the `policypak cloud-sync`
 command.
 
-![helper04](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mac/scenarios/macfinder07.webp)
+![helper04](/img/product_docs/endpointpolicymanager/mac/scenarios/macfinder07.webp)
 
 At this point, if your policies match your application you will be able to overcome the helper
 application requesting local admin rights.
 
-![helper05](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mac/scenarios/helper05.webp)
+![helper05](/img/product_docs/endpointpolicymanager/mac/scenarios/helper05.webp)
 
 ## Understanding Action Types
 

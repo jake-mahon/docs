@@ -8,7 +8,7 @@ policy, web policy, or collection.
 **NOTE:** You will only see the Endpoint Policy Manager Remote Work Delivery Manager node when the
 latest Admin Console MSI is installed on the management station.
 
-![getting_to_know_policypak](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager.webp)
+![getting_to_know_policypak](/img/product_docs/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager.webp)
 
 The functions of collections and policies are as follows:
 

@@ -5,7 +5,7 @@ before running in the following folder:
 
 `\ProgramData\PolicyPak\PolicyPak Scripts Manager\Temporary Scripts`
 
-![827_1_image002_950x293](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/827_1_image002_950x293.webp)
+![827_1_image002_950x293](/img/product_docs/endpointpolicymanager/scriptstriggers/827_1_image002_950x293.webp)
 
 During script processing time:
 
@@ -25,4 +25,4 @@ Find the setting Computer Configuration | Admin Templates Manager | PolicyPak AD
 Client-Side Extensions | Scripts Manager | Use custom location for temporary script files like
 what's seen here.
 
-![827_3_image004](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/827_3_image004.webp)
+![827_3_image004](/img/product_docs/endpointpolicymanager/scriptstriggers/827_3_image004.webp)

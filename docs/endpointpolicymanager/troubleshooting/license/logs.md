@@ -19,4 +19,4 @@ would supply:
 Once you have collected the required logs, please ZIP up the following folder and upload to your
 support case in SHAREFILE.
 
-![182_1_1_950x786](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/license/182_1_1_950x786.webp)
+![182_1_1_950x786](/img/product_docs/endpointpolicymanager/troubleshooting/license/182_1_1_950x786.webp)

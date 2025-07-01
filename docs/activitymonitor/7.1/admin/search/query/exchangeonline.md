@@ -66,7 +66,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![Exchange Online Search - User Filter](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/user.webp)
+![Exchange Online Search - User Filter](/img/product_docs/directorymanager/11.0/configureentraid/register/user.webp)
 
 This section has the following filters:
 

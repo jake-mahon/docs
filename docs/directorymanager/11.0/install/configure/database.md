@@ -16,7 +16,7 @@ To configure a GroupID server with existing database:
    [Configuration Tool](/docs/directorymanager/11.0/install/configure/configure.md) topic.
 2. Click **Next**.
 
-    ![database settings](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/databasesettings.webp)
+    ![database settings](/img/product_docs/directorymanager/11.0/install/configure/databasesettings.webp)
 
 3. In the **SQL Server** list, select the SQL Server to use with this new GroupID Server. The
    SQL Server must be the same used with the master node of GroupID.
@@ -51,14 +51,14 @@ To configure a GroupID server with existing database:
 
 7. Click **Next**.
 
-    ![License page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/license_w_existing_db_option.webp)
+    ![License page](/img/product_docs/directorymanager/11.0/install/configure/license_w_existing_db_option.webp)
 
 8. On the **License** page, license information of GroupID installed on the master node is
    displayed. A valid license and key enable the **Next** button. If the **Next** button remains
    disabled, check your entries for errors.
 9. Click **Next**.
 
-    ![GroupID Service Configurations](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/servicesconfiguration.webp)
+    ![GroupID Service Configurations](/img/product_docs/directorymanager/11.0/install/configure/servicesconfiguration.webp)
 
 10. GroupID requires two services:
 
@@ -86,7 +86,7 @@ To configure a GroupID server with existing database:
 
 11. Click **Next**.
 
-    ![Elasticsearch Settings page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/elasticsearchsettings.webp)
+    ![Elasticsearch Settings page](/img/product_docs/directorymanager/11.0/install/configure/elasticsearchsettings.webp)
 
 12. GroupID provides the following two options for Elasticsearch configuration. Select the relevant
     option:
@@ -95,7 +95,7 @@ To configure a GroupID server with existing database:
       Configuration Tool will install Elasticsearch. It presents you default configuration of
       Elasticsearch cluster it will create:
 
-        ![Select Elastic Cluster page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/select_cluster_w_existing_db_option.webp)
+        ![Select Elastic Cluster page](/img/product_docs/directorymanager/11.0/install/configure/select_cluster_w_existing_db_option.webp)
 
         1. **Cluster Name**: lists all the clusters defined so far. Select one to create an
            Elasticsearch node within the selected cluster.
@@ -109,7 +109,7 @@ To configure a GroupID server with existing database:
     - **I will install and manage Elasticsearch myself**: If you select this option, the following
       page is displayed:
 
-        ![Elasticsearch settings page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/elasticsearchsettings-2.webp)
+        ![Elasticsearch settings page](/img/product_docs/directorymanager/11.0/install/configure/elasticsearchsettings-2.webp)
 
         Provide configurations of Elasticsearch you want to use with GroupID:
 
@@ -119,7 +119,7 @@ To configure a GroupID server with existing database:
 
 13. Click **Next**.
 
-    ![Service Account Settings page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/service_account_settings_w_existing_db.webp)
+    ![Service Account Settings page](/img/product_docs/directorymanager/11.0/install/configure/service_account_settings_w_existing_db.webp)
 
     NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account
     then the GroupID Configuration tool will add this account in the local administrators and
@@ -154,7 +154,7 @@ To configure a GroupID server with existing database:
 
     - **Use an existing account**: Click **Browse**.
 
-        ![Find Service Account page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/findserviceaccount.webp)
+        ![Find Service Account page](/img/product_docs/directorymanager/11.0/install/configure/findserviceaccount.webp)
 
         On the **Find Service Account** dialog box, search and select the required account and click
         **OK**.
@@ -162,7 +162,7 @@ To configure a GroupID server with existing database:
     - **Create a new service account**: Click the **Create New** button on the Service Account
       Setting page.
 
-        ![Create a new service account page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/createserviceaccount.webp)
+        ![Create a new service account page](/img/product_docs/directorymanager/11.0/install/configure/createserviceaccount.webp)
 
         On the **Create Service Account** dialog box, select the kind of account you want to create.
         Enter a name, container and password for the account. Click **Create**.
@@ -176,16 +176,16 @@ To configure a GroupID server with existing database:
     in the Password box.
 17. Click **Configure**.
 
-    ![Configuring GroupID ](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/configuring.webp)
+    ![Configuring GroupID ](/img/product_docs/directorymanager/11.0/install/configure/configuring.webp)
 
 18. The next page displays the progress while a GroupID server is configured on the machine.
 
-    ![GroupID Configured successfully](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/configuresuccess.webp)
+    ![GroupID Configured successfully](/img/product_docs/directorymanager/11.0/install/configure/configuresuccess.webp)
 
 19. This completes the configuration of GroupID as a slave node on your machine.  
     Click **Launch GroupID** to start using GroupID. The Sign In page opens:
 
-    ![GroupID Sign In page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/configure/launchgid.webp)
+    ![GroupID Sign In page](/img/product_docs/directorymanager/11.0/install/configure/launchgid.webp)
 
     To login in to GroupID Admin Center for the first time, provide GroupID Administrator user name
     and password.

@@ -12,7 +12,7 @@ video for an overview how to set up elevation for the Least Privilege Manager He
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/helper/elevating_least_privilege.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/elevating_least_privilege.webp)
 
 In order to elevate the Endpoint Policy Manager Least Privilege Manager Helper Tools so that they
 will function correctly on your endpoints, you can use our preconfigured rules, which are part of
@@ -21,7 +21,7 @@ the guidance on the Endpoint Policy Manager Portal.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/tool/helper/elevating_least_privilege.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/tool/helper/elevating_least_privilege.webp)
 
 After that, when the client is updated to acquire the new rules, the Endpoint Policy Manager Least
 Privilege Manager Helper Tools will run as expected.

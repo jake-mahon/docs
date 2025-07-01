@@ -3,7 +3,7 @@
 When you make a new Browser Router policy, you have several ways to make site rules: **URL**,
 **Wildcard**, **RegEx**, and **Internet Security Zone**.
 
-![about_policypak_browser_router_14](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_14.webp)
+![about_policypak_browser_router_14](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_14.webp)
 
 ## Examples
 
@@ -21,7 +21,7 @@ to match against Host.
 When a pattern matches, it is routed to the correct browser, blocked, or delivered to a custom
 browser.
 
-![about_policypak_browser_router_15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_15.webp)
+![about_policypak_browser_router_15](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_15.webp)
 
 **NOTE:** For specific URL strings, **Apply to child URLs** is set to **yes** by default. This means
 that any website that falls underneath that URL will also be affected.

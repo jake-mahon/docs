@@ -38,13 +38,13 @@ can make a web policy to deliver that file, which will periodically look for cha
 those changes are made automatically on endpoints. For instance, if you created a web policy, and
 used a .zip file, then you can select **Archived folder**.
 
-![pprwdm_with_policypak_cloud](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud.webp)
+![pprwdm_with_policypak_cloud](/img/product_docs/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud.webp)
 
-![pprwdm_with_policypak_cloud_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud_1.webp)
+![pprwdm_with_policypak_cloud_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud_1.webp)
 
 Next, specify the overwrite mode.
 
-![pprwdm_with_policypak_cloud_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud_2.webp)
+![pprwdm_with_policypak_cloud_2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/pprwdm_with_endpointpolicymanager_cloud_2.webp)
 
 After the Endpoint Policy Manager Remote Work Delivery Manager policy setting is delivered one time
 using your MDM service, all you need to do is update the ZIP file as needed. Endpoint Policy Manager

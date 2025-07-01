@@ -31,7 +31,7 @@ You can use the PXML Merge Wizard in one of two ways (see Figure 177):
 - You can run the PXML Merge Wizard and perform a merge on the fly. You don't need to create a pXML
   file manually first if you don't want to.
 
-![using_designstudio_tools_13](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_13.webp)
+![using_designstudio_tools_13](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_13.webp)
 
 Figure 177. Using the PXML Merge Wizard.
 
@@ -50,7 +50,7 @@ files, capture the same tabs you have in your original project.
 In this example, we're assuming that WinZip has two new elements, a slider and a label, as shown in
 Figure 178. We have re-captured all the tabs and saved the file as "`WinZip-XP-Capture.xml`."
 
-![using_designstudio_tools_14](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_14.webp)
+![using_designstudio_tools_14](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_14.webp)
 
 Figure 178. Saving the XML file.
 
@@ -61,7 +61,7 @@ original project and the imported project. You'll be able to see which items hav
 AppLock™ data, UI elements, or actions data. In Figure 179, you can see where the wizard asks which
 of these items you'd like to import from the new project.
 
-![using_designstudio_tools_15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_15.webp)
+![using_designstudio_tools_15](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/tools/using_designstudio_tools_15.webp)
 
 Figure 179. Importing elements from the wizard.
 

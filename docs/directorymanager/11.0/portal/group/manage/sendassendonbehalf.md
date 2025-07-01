@@ -18,7 +18,7 @@ The administrator can provide the Send As and Send on Behalf features on any tab
 [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md). They
 are displayed as:
 
-![sendassendon](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/group/manage/sendassendon.webp)
+![sendassendon](/img/product_docs/directorymanager/11.0/portal/group/manage/sendassendon.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As and Send on Behalf
 lists.

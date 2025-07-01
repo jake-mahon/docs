@@ -136,7 +136,7 @@ would enable the object to delegate the Send As permission to users.
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the
 Send As field for, then click the respective tab. The Send As field is displayed as follows:
 
-![sendas](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/sendas.webp)
+![sendas](/img/product_docs/directorymanager/11.1/admincenter/portal/design/sendas.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As list. The added
 objects can send email for the target object in accordance with the Send As functionality.
@@ -231,7 +231,7 @@ Launch the portal and go to the properties of the target object (group or mailbo
 Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as
 follows:
 
-![sendonbehalf](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/sendonbehalf.webp)
+![sendonbehalf](/img/product_docs/directorymanager/11.1/admincenter/portal/design/sendonbehalf.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send on Behalf list. The
 added objects can send email on behalf of the target object in accordance with the Send on Behalf

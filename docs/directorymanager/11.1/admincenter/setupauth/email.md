@@ -44,7 +44,7 @@ accounts.
 
 3. Search for _AccessCodeEmail_ and click **Edit** in the **Actions** column to open it.
 
-    ![accesscode](/img/product_docs/directorymanager/directorymanager/admincenter/setupauth/accesscode.webp)
+    ![accesscode](/img/product_docs/directorymanager/11.1/admincenter/setupauth/accesscode.webp)
 
 4. You can view the notification content in two distinct modes:
 

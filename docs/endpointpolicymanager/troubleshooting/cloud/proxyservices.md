@@ -28,4 +28,4 @@ and ` SavedLegacySettings.`
 
 You should see the proxy information like what is seen here in the binary value.
 
-![373_1_image005sdfggrt](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/373_1_image005sdfggrt.webp)
+![373_1_image005sdfggrt](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/373_1_image005sdfggrt.webp)

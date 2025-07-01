@@ -18,14 +18,14 @@ Application Settings Manager, to edit the policy you would need to do the follow
 
 Click on the download icon to take an existing XML data file and begin the download.
 
-![web_interface_and_controls_10_624x122](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_10_624x122.webp)
+![web_interface_and_controls_10_624x122](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_10_624x122.webp)
 
 Then, in the corresponding on-prem MMC editor, you would click on **Import settings from XMLData
 File**
 
-![web_interface_and_controls_11_562x273](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_11_562x273.webp)
+![web_interface_and_controls_11_562x273](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_11_562x273.webp)
 
 **NOTE:** Different MMC snap-ins and editors could have somewhat different options for importing
 from XML.
 
-![web_interface_and_controls_12_562x337](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_12_562x337.webp)
+![web_interface_and_controls_12_562x337](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_12_562x337.webp)

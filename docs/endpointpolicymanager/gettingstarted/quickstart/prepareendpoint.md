@@ -25,14 +25,14 @@ on this computer.
 
 Here are the two methods of how to rename a computer in Windows to have Computer in the name.
 
-![prepareendpoint1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint1.webp)
+![prepareendpoint1](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint1.webp)
 
 After the example computer is renamed and rebooted, you are ready to install the Endpoint Policy
 Manager CSE (Client Side Extension.)
 
 Locate the Endpoint Policy Manager Build folder and the Client Side Extension (CSE) folder.
 
-![prepareendpoint2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint2.webp)
+![prepareendpoint2](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint2.webp)
 
 Next, install the Endpoint Policy Manager CSE on the endpoint. Use x64 for 64 bit and x86 for 32 bit
 machines.
@@ -45,7 +45,7 @@ After the Endpoint Policy Manager CSE is installed, you can test verify that the
 because you renamed the computer to have COMPUTER in the name. Open a new command prompt and type
 the command ppupdate. You should see something similar to the output shown here.
 
-![prepareendpoint3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint3.webp)
+![prepareendpoint3](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/prepareendpoint3.webp)
 
 The important points to look for are:
 

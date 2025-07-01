@@ -12,7 +12,7 @@ about.
 
 **NOTE:** Sometimes LT can acquired the correct number of RDS connections, and sometimes it cannot.
 
-![352_2_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/virtualization/352_2_image002.webp)
+![352_2_image002](/img/product_docs/endpointpolicymanager/license/virtualization/352_2_image002.webp)
 
 To be compliant with our EULA, if the count returned by LT shows zero, or otherwise fails to acquire
 the number of Citrix / Terminal Services / RDS licenses, you must manually declare them to your

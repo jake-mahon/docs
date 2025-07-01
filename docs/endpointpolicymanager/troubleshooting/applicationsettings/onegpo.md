@@ -10,7 +10,7 @@ Targeting to specify the conditions of WHO would get the settings WHEN.
 
 Here is an example:
 
-![345_1_2015-09-01_1047](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/345_1_2015-09-01_1047.webp)
+![345_1_2015-09-01_1047](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/345_1_2015-09-01_1047.webp)
 
 Then you would do the same for another GPO, say, for Firefox, and another GPO for Internet Explorer
 settings, and so on.

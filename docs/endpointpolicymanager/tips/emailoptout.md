@@ -30,4 +30,4 @@ establish another email address and use that.
 We at Endpoint Policy Manager have a responsibility for ensuring that some communications get to
 you, and agree to do our best. It's up to you if you wish to actively block these emails.
 
-![693_1_faq2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/tips/693_1_faq2.webp)
+![693_1_faq2](/img/product_docs/endpointpolicymanager/tips/693_1_faq2.webp)

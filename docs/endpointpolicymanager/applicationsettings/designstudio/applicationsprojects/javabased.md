@@ -17,13 +17,13 @@ The second step to capture the UIs of Java-based applications is to disable the 
 control. To do this, select "Change User Account Control settings" from the Start Menu, as shown in
 Figure 199.
 
-![special_applications_and_project](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project.webp)
+![special_applications_and_project](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project.webp)
 
 Figure 199. Disabling the user account control settings.
 
 Then, slide the slider all the way to the bottom, as shown in Figure 200.
 
-![special_applications_and_project_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_1.webp)
+![special_applications_and_project_1](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_1.webp)
 
 Figure 200. Changing the slider to "Never notify."
 
@@ -32,7 +32,7 @@ Policy Manager Application Settings Manager, the Tools|Options|Java tab will cha
 in Figure 201. This will indicate that the Java Access Bridge has been loaded successfully and
 remind you that UAC controls need to be off.
 
-![using_the_grays_wizard_13](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/using_the_grays_wizard_13.webp)
+![using_the_grays_wizard_13](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/using_the_grays_wizard_13.webp)
 
 Figure 201.  The Java Access Bridge has been loaded successfully.
 
@@ -41,7 +41,7 @@ other similar applications. Note that some Java-based applications will only cap
 technology is turned on. In Figure 202, OpenOffice dialogs can be captured when this checkbox is
 checked first.
 
-![special_applications_and_project_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_2.webp)
+![special_applications_and_project_2](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/applicationsprojects/special_applications_and_project_2.webp)
 
 Figure 202.; Turning on assistive technology.
 

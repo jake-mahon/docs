@@ -23,7 +23,7 @@ here.
 Additionally, if you have MULTIPLE Paks for the same application, INCLUDING, say the Firefox
 ABOUT:config Paks, you ALSO need to perform this same UN-check in ALL those Paks.
 
-![568_1_img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/568_1_img-1.webp)
+![568_1_img-1](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/568_1_img-1.webp)
 
 ## Method 2
 

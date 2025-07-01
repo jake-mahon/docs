@@ -19,7 +19,7 @@ Computer Configuration | Policies | Admin Templates | Endpoint Policy Manager AD
 Client-side Extensions | Browser Router | Revert to Legacy Browser Router Method & Features and set
 to enabled to return back to the legacy behavior.
 
-![764_1_image-20201027210325-1_950x612](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.webp)
+![764_1_image-20201027210325-1_950x612](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.webp)
 
 ## What does "Revert to Legacy Browser Router Method & Features" mean?
 
@@ -39,4 +39,4 @@ original methods. What this essentially means is:
 An example of the user required to manually specify Endpoint Policy Manager Browser Router can be
 seen here.
 
-![764_3_image-20201027210423-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/764_3_image-20201027210423-2.webp)
+![764_3_image-20201027210423-2](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/764_3_image-20201027210423-2.webp)

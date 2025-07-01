@@ -13,35 +13,35 @@ to a location of your (or their) choice, and perform the installation or running
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy.webp)
 
 **Step 2 –** Specify a read only share for users. Pay careful attention to the warning here.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy_1.webp)
 
 **Step 3 –** Specify the target folder location.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy_2.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy_2.webp)
 
 **Step 4 –** Specify the options.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy_3.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy_3.webp)
 
 **Step 5 –** Finish the policy.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy_4.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy_4.webp)
 
 The result is that users can now use the Copy with Endpoint Policy Manager SecureCopy™ feature to
 copy items from your store to their locations and then perform automatic elevation on those items.
@@ -49,4 +49,4 @@ copy items from your store to their locations and then perform automatic elevati
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_securecopy_5.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_securecopy_5.webp)

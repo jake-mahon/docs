@@ -4,11 +4,11 @@ The Compilation tab enables you to set your project's DLL name, as shown in Figu
 enables you to save your current work and compile your AppSet to be used in Group Policy, as shown
 in Figure 56.
 
-![getting_around_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_7.webp)
+![getting_around_7](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_7.webp)
 
 Figure 55. Setting the DLL name.
 
-![getting_around_8_624x155](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_8_624x155.webp)
+![getting_around_8_624x155](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_8_624x155.webp)
 
 Figure 56. Compiling the AppSet.
 

@@ -7,7 +7,7 @@ Figure 1). The Microsoft report tells the administrator what one user on any one
 does. It does not describe whether that user or system is actually in compliance with an established
 IT baseline.
 
-![gpcr_concepts_and_quickstart](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart.webp)
+![gpcr_concepts_and_quickstart](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart.webp)
 
 Figure 1. Microsoft Group Policy Results Report targets a single user on a single machine.
 
@@ -15,7 +15,7 @@ In order to assess compliance with the in-box Group Policy Results Report, the r
 must be reviewed manually. Admins must go through the reports for each machine and user combination
 to determine whether specific settings have been applied.
 
-![gpcr_concepts_and_quickstart_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_1.webp)
+![gpcr_concepts_and_quickstart_1](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_1.webp)
 
 Figure 2. The Group Policy Results Report.
 

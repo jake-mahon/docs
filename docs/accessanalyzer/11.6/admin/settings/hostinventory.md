@@ -121,7 +121,7 @@ The sub-groups are:
 The **EXCHANGE** Host List can be expanded and contains six sub-groups utilized by the Exchange
 Solution. Four of these sub-groups can also be expand.
 
-![EXCHANGE Host List](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/exchange.webp)
+![EXCHANGE Host List](/img/product_docs/directorymanager/11.0/configureentraid/register/exchange.webp)
 
 The sub-groups are:
 

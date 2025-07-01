@@ -7,7 +7,7 @@ becomes unavailable at this point because multi-user mode is enabled. Restart th
 Manager GPCR client (admin console) to start using Endpoint Policy Manager GPCR in multi-user mode
 as shown in Figure 40.
 
-![gpcr_server_with_push_mode_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_4.webp)
+![gpcr_server_with_push_mode_4](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_4.webp)
 
 Figure 40. Switching to server mode.
 
@@ -15,6 +15,6 @@ Figure 40. Switching to server mode.
 means the server is not found or is not responding. For troubleshooting, see the section "Tuning and
 Troubleshooting."
 
-![gpcr_server_with_push_mode_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_5.webp)
+![gpcr_server_with_push_mode_5](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_5.webp)
 
 Figure 41. The server connection error.

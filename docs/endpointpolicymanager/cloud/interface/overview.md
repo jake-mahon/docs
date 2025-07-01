@@ -12,7 +12,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud has several roles:
 
 The Endpoint Policy Manager Cloud web interface contains the following sections:
 
-![web_interface_and_controls_624x229](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/web_interface_and_controls_624x229.webp)
+![web_interface_and_controls_624x229](/img/product_docs/endpointpolicymanager/cloud/interface/web_interface_and_controls_624x229.webp)
 
 In this section, we will go over the tabs in the following order (not the order in which they
 actually appear)

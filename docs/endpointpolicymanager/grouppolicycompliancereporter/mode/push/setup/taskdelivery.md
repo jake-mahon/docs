@@ -3,7 +3,7 @@
 **Step 1 –** At this point, you're ready to create the scheduled task. The easiest method is to
 create a new GPO and deliver a Group Policy Preference scheduled task item, as shown in Figure 51.
 
-![gpcr_server_with_push_mode_15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_15.webp)
+![gpcr_server_with_push_mode_15](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_15.webp)
 
 Figure 51. Creating a new GPO to deliver a Group Policy Preference scheduled task item.
 
@@ -11,7 +11,7 @@ Figure 51. Creating a new GPO to deliver a Group Policy Preference scheduled tas
 created in the Group Policy Objects node within the GPMC, as shown in Figure 52. In this example,
 the GPO is called "\_PPGPCR Auditor Scheduled Task."
 
-![gpcr_server_with_push_mode_16](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_16.webp)
+![gpcr_server_with_push_mode_16](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_16.webp)
 
 Figure 52. The newly created GPO.
 
@@ -19,7 +19,7 @@ Figure 52. The newly created GPO.
 scheduled task will run as SYSTEM when Group Policy events occur. It will run PPGPCR.Auditor.exe one
 minute after Group Policy processes and will send results to the server, as shown in Figure 53.
 
-![gpcr_server_with_push_mode_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_17.webp)
+![gpcr_server_with_push_mode_17](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_17.webp)
 
 Figure 53. The Group Policy Settings Report.
 

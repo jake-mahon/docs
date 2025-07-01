@@ -15,6 +15,6 @@ token**.
 This enables you to change the Integrity level. You'll want to try Medium-High first, then fall back
 to Medium or Low, stopping at the first one which works.
 
-![402_1_q3-img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/402_1_q3-img-1.webp)
+![402_1_q3-img-1](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/402_1_q3-img-1.webp)
 
-![402_2_q3-img-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/402_2_q3-img-2.webp)
+![402_2_q3-img-2](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/402_2_q3-img-2.webp)

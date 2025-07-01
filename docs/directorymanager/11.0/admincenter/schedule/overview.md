@@ -81,7 +81,7 @@ while making configurations of these schedules. The schedules are then run in th
 logged in user. The following dialog box displays the username of the logged-in user when you
 configure a schedule:
 
-![entraidscheduleauthenticate](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/schedule/entraidscheduleauthenticate.webp)
+![entraidscheduleauthenticate](/img/product_docs/directorymanager/11.0/admincenter/schedule/entraidscheduleauthenticate.webp)
 
 Use the Login with a different user option to provide the credentials of another account to run the
 schedule in the identity store is not available for a Microsoft Entra ID identity store.

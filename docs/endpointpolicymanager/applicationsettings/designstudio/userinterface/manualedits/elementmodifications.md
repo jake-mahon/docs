@@ -6,10 +6,10 @@ the size of a tab, and more. You might also want to change captured graphics, fo
 the graphic and selecting the "…" icon allows you to select a new bitmap. This action is shown in
 Figure 75 and Figure 76.
 
-![crafting_the_user_interface_16](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_16.webp)
+![crafting_the_user_interface_16](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_16.webp)
 
 Figure 75. Modifying captured graphics.
 
-![crafting_the_user_interface_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_17.webp)
+![crafting_the_user_interface_17](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_17.webp)
 
 Figure 76. New graphic.

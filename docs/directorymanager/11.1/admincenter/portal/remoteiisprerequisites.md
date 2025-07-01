@@ -36,11 +36,11 @@ be created within this site.
    [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90).
 2. In the left pane, right-click **Sites** and select **Add Website**.
 
-    ![Add a website in IIS](/img/product_docs/directorymanager/directorymanager/admincenter/portal/addsite.webp)
+    ![Add a website in IIS](/img/product_docs/directorymanager/11.1/admincenter/portal/addsite.webp)
 
 3. Enter the information as shown below and click **OK**:
 
-    ![Add Website window](/img/product_docs/directorymanager/directorymanager/admincenter/portal/addwebsite.webp)
+    ![Add Website window](/img/product_docs/directorymanager/11.1/admincenter/portal/addwebsite.webp)
 
     1. Enter a name for the site in the **Site name** box.
     2. Create a new folder on the remote machine and bind this site to that folder. Provide the
@@ -90,7 +90,7 @@ The next step is to assign permissions on the physical folder that binds to your
 
 3. Open the **appsettings.json** file and add the highlighted script at the end of the file:
 
-    ![Script for appsettings.json file](/img/product_docs/directorymanager/directorymanager/admincenter/portal/appsettings-full.webp)
+    ![Script for appsettings.json file](/img/product_docs/directorymanager/11.1/admincenter/portal/appsettings-full.webp)
 
 4. The script to be added is given below:
 
@@ -133,8 +133,8 @@ To connect to the API, an access key is required. Follow the steps below to gene
 
 3. Click **Create Access Key** to generate an access key and provide the following information:
 
-    ![Access Key Purpose window](/img/product_docs/directorymanager/directorymanager/admincenter/portal/accesskeyspurpose.webp)
+    ![Access Key Purpose window](/img/product_docs/directorymanager/11.1/admincenter/portal/accesskeyspurpose.webp)
 
 4. On clicking **Create**, the access key is generated.
 
-    ![Access Token window](/img/product_docs/directorymanager/directorymanager/admincenter/portal/accesstoken.webp)
+    ![Access Token window](/img/product_docs/directorymanager/11.1/admincenter/portal/accesstoken.webp)

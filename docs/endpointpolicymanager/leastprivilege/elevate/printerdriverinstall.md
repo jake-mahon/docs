@@ -20,7 +20,7 @@ elevating a` rundll32.exe` process using `PPLPM`.
 Using Endpoint Policy Manager , elevate the `rundll32.exe`, and include a command-line argument to
 elevate a specific DLL. Just like shown in below screenshot.
 
-![362_1_rundll](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/362_1_rundll.webp)
+![362_1_rundll](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/362_1_rundll.webp)
 
 Rule to elevate` rundll32.exe` by PATH and COMMAND LINE (when `rundll32.exe `runs a `DLL`, the
 `DLL `path is specified on the command line)

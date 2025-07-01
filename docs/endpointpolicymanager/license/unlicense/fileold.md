@@ -5,7 +5,7 @@ You do not need to keep every license GPO around that is created by LT.
 You can delete old/ expired licensing GPOs, as well as anything else you do not need found in this
 screen:
 
-![275_1_lt-faq-111](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/unlicense/275_1_lt-faq-111.webp)
+![275_1_lt-faq-111](/img/product_docs/endpointpolicymanager/license/unlicense/275_1_lt-faq-111.webp)
 
 You have two options:
 

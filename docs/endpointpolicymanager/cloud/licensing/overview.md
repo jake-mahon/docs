@@ -25,7 +25,7 @@ more licenses. For this reason, we strongly advise you to work with our team to 
 SaaS Edition, Professional Edition, or Enterprise Edition licenses, where you will enjoy post-pay
 billing instead of having to work with a ceiling for the number of licenses you can use.
 
-![licensing_with_policypak_cloud_623x164](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_623x164.webp)
+![licensing_with_policypak_cloud_623x164](/img/product_docs/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_623x164.webp)
 
 ### SaaS Edition (Monthly Post-Pay Licenses)
 

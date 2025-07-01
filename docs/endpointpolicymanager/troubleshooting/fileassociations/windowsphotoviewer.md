@@ -30,6 +30,6 @@ Application Icon: C:\Program Files\Windows Photo Viewer\PhotoViewer.dll,0
 
 Command Line: `"%ProgramFiles%\Windows Photo Viewer\PhotoViewer.dll", ImageView_Fullscreen %1`
 
-![715_1_image-20210421203400-1_950x594](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/fileassociations/715_1_image-20210421203400-1_950x594.jpeg)
+![715_1_image-20210421203400-1_950x594](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/715_1_image-20210421203400-1_950x594.jpeg)
 
-![715_2_image-20210421203400-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/fileassociations/715_2_image-20210421203400-2.jpeg)
+![715_2_image-20210421203400-2](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/715_2_image-20210421203400-2.jpeg)

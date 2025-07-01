@@ -33,4 +33,4 @@ available licenses.
 what's seen here. Note that the report is "per component" even though we do not license components
 separately.
 
-![382_1_ppcloud-status1-300x88](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/382_1_ppcloud-status1-300x88.webp)
+![382_1_ppcloud-status1-300x88](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/382_1_ppcloud-status1-300x88.webp)

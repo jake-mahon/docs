@@ -14,7 +14,7 @@ Browse to the folder where you have copied the package:
 2. After the installation, it asks you to restart your machine.
 3. After the restart, the Windows logon screen appears as follows:
 
-    ![Windows Logon screen](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/windows_screen.webp)
+    ![Windows Logon screen](/img/product_docs/directorymanager/11.0/portal/user/manage/windows_screen.webp)
 
     The **Forgot Password** and **Unlock Account** options are now available on the Windows logon
     screen. They route you to the URLs provided for these options in the _CPSettings.xml_ file. You
@@ -72,21 +72,21 @@ Before Credential Provider’s installation via GPO, Orca software is to be inst
 1. Browse to the folder where you have copied the Credential Provider package.
 2. Go to the MST Guide folder and run the _Orca-x86_en-us.msi_ application. The Orca console opens:
 
-    ![Orca console](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/orca_console.webp)
+    ![Orca console](/img/product_docs/directorymanager/11.0/portal/user/manage/orca_console.webp)
 
 3. In Orca, click **File** > **Open**. Browse to the Netwrix GroupID Credential Provider folder and
    load the _NetwrixdirectorymanagerCredentialprovider.msi_ in Orca.
 
-    ![Credential Provider in Orca](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/cp_loaded.webp)
+    ![Credential Provider in Orca](/img/product_docs/directorymanager/11.0/portal/user/manage/cp_loaded.webp)
 
 4. From the menu, select **Transform** > **New Transform**:
 
-    ![New Transform option](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/new_transform.webp)
+    ![New Transform option](/img/product_docs/directorymanager/11.0/portal/user/manage/new_transform.webp)
 
 5. Click **Property** in the left pane, list of the properties are displayed in the **Property**
    main window:
 
-    ![Property page](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/property.webp)
+    ![Property page](/img/product_docs/directorymanager/11.0/portal/user/manage/property.webp)
 
 6. On your machine, create a new folder and copy the following files to it:
 
@@ -96,11 +96,11 @@ Before Credential Provider’s installation via GPO, Orca software is to be inst
 7. Share the folder with the Everyone group with Read permission.
 8. Provide the path of this newly created folder in the **SOURCEPATH** box.
 
-    ![Property path](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/property_path.webp)
+    ![Property path](/img/product_docs/directorymanager/11.0/portal/user/manage/property_path.webp)
 
 9. From the menu, select **Transform** > **Generate Transform**:
 
-    ![Generate Transform option](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/generate_transform.webp)
+    ![Generate Transform option](/img/product_docs/directorymanager/11.0/portal/user/manage/generate_transform.webp)
 
 10. Type a filename for the generated .mst file and save it into the shared folder you just created.
 11. Close **Orca**.
@@ -112,7 +112,7 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 1. Launch **Group Policy Management** console by typing _gpmc.msc_ in the **Run** box and clicking
    **OK**. The Group Policy Management Editor opens.
 
-    ![Group Policy Management console](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/gp_policy.webp)
+    ![Group Policy Management console](/img/product_docs/directorymanager/11.0/portal/user/manage/gp_policy.webp)
 
     NOTE: Group Policy Management console is available if the Group Policy Management feature has
     been installed.
@@ -120,18 +120,18 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 2. Right-click the domain or organizational unit for the computers that you want the Credential
    Provider installed on. Select **Create a GPO in this domain, and link it here...**:
 
-    ![CCreate a GPO in this domain and link it here option](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/new_gpo.webp)
+    ![CCreate a GPO in this domain and link it here option](/img/product_docs/directorymanager/11.0/portal/user/manage/new_gpo.webp)
 
     Or
 
     Right-click the Select **Default Domain Policy** and select **Edit**:
 
-    ![Edit Default Domain Policy option](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/edit_gpo.webp)
+    ![Edit Default Domain Policy option](/img/product_docs/directorymanager/11.0/portal/user/manage/edit_gpo.webp)
 
 3. In the **Group Policy Management Editor**, click **Computer Configuration** > **Policies** >
    **Software Settings** > **Software installation** > **New** > **Package**.
 
-    ![New Package option](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/software_installation.webp)
+    ![New Package option](/img/product_docs/directorymanager/11.0/portal/user/manage/software_installation.webp)
 
     NOTE: This documentation describes steps for editing the default policy.
 
@@ -143,11 +143,11 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 
     Select the _Netwrixdirectorymanagercredentialprovider.msi_ and click **Ok**.
 
-    ![Deploy Software ](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/deploy_cp.webp)
+    ![Deploy Software ](/img/product_docs/directorymanager/11.0/portal/user/manage/deploy_cp.webp)
 
 5. Select **Advanced** and click **Ok**. The following window opens:
 
-    ![Modifications tab](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/modification_tab.webp)
+    ![Modifications tab](/img/product_docs/directorymanager/11.0/portal/user/manage/modification_tab.webp)
 
 6. Select the **Modifications** tab. Click **Add**.
 7. Browse to the shared folder where you saved the generated .mst file. Select that file and click
@@ -168,7 +168,7 @@ The GroupID Credential provider is deployed on your machine via the default doma
 The modified domain policy will be installed on the client machines, which are in the scope of the
 Group Policy Object, upon their next restart. The Windows logon screen appear as follows:
 
-![Windows Logon screen](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/user/manage/windows_screen.webp)
+![Windows Logon screen](/img/product_docs/directorymanager/11.0/portal/user/manage/windows_screen.webp)
 
 See Also
 

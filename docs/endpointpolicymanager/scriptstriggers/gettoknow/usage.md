@@ -15,21 +15,21 @@ will prevent you from having to troubleshoot issues down the road when you deplo
 Figure 18 we are using a simple PowerShell script to map the printer. (If the PowerShell script
 doesn't work for your environment then you can use a traditional batch script to map it.)
 
-![getting_to_know_scripts_triggers_14](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_14.webp)
+![getting_to_know_scripts_triggers_14](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_14.webp)
 
 Figure 18. Using a PowerShell script to map a printer.
 
 **Step 2 –** There are no revert scripts when using triggers so this section is not applicable as
 shown in Figure 19.
 
-![getting_to_know_scripts_triggers_15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_15.webp)
+![getting_to_know_scripts_triggers_15](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_15.webp)
 
 Figure 19. There are no revert scripts when using triggers.
 
 **Step 3 –** You then need to select your desired trigger type. In Figure 20 we are selecting
 "Process start."  Notice the other trigger options available.
 
-![getting_to_know_scripts_triggers_16](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_16.webp)
+![getting_to_know_scripts_triggers_16](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_16.webp)
 
 Figure 20. Choosing the desired trigger type.
 
@@ -37,7 +37,7 @@ Figure 20. Choosing the desired trigger type.
 to the application process itself if it is currently running. In Figure 21 we have selected the
 Acrobat Reader file.
 
-![getting_to_know_scripts_triggers_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_17.webp)
+![getting_to_know_scripts_triggers_17](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_17.webp)
 
 Figure 21. Selecting the application file.
 
@@ -46,13 +46,13 @@ Figure 21. Selecting the application file.
 **Step 6 –** Now you need to create another policy that will remove the printer mapping once the
 user closes Acrobat Reader. To do this, we will use a PowerShell script, shown in Figure 22.
 
-![getting_to_know_scripts_triggers_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_18.webp)
+![getting_to_know_scripts_triggers_18](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_18.webp)
 
 Figure 22. Using a PowerShell script to remove a printer connection.
 
 **Step 7 –** Now you need to select "Process close" for the trigger type, as shown in Figure 23.
 
-![getting_to_know_scripts_triggers_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_19.webp)
+![getting_to_know_scripts_triggers_19](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_19.webp)
 
 Figure 23. Choosing "Process close" as the trigger type to remove the printer when the user closes
 Acrobat Reader.

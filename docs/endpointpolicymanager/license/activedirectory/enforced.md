@@ -13,4 +13,4 @@ license files are installed into the GPO.
 Below all Endpoint Policy Manager Licenses are contained within one GPO. But you might have multiple
 licensing GPOs, all which need to be enforced.
 
-![168_1_image0013](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/activedirectory/168_1_image0013.webp)
+![168_1_image0013](/img/product_docs/endpointpolicymanager/license/activedirectory/168_1_image0013.webp)

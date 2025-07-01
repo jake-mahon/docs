@@ -35,7 +35,7 @@ The service is displayed with this name in Directory Manager.
 Step 6 – In the Deployment Name box, enter a deployment name for the service.  
 The application name and deployment name are displayed on the service card. It is as:
 
-![Data Service Card](/img/product_docs/directorymanager/directorymanager/admincenter/service/dataservice/dataservicecard.webp)
+![Data Service Card](/img/product_docs/directorymanager/11.1/admincenter/service/dataservice/dataservicecard.webp)
 
 Step 7 – In the IIS Application Name box, enter an IIS deployment name for the service. The name
 should be unique for each Data service deployed in IIS.  

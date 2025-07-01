@@ -46,7 +46,7 @@ a user must select an identity store to connect to, for performing password mana
 
 NOTE: You may observe the following message on the **Server Settings – General** page:
 
-![linked_message](/img/product_docs/directorymanager/directorymanager/admincenter/portal/linked_message.webp)
+![linked_message](/img/product_docs/directorymanager/11.1/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in Directory Manager have been linked, as discussed
 in the

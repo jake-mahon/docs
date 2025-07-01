@@ -14,7 +14,7 @@ section in the table at the link below:
 
 [https://learn.microsoft.com/en-us/office365/servicedescriptions/office-applications-service-description/office-applications-service-description](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-applications-service-description/office-applications-service-description)
 
-![966_1_image-20231114102807-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_1_image-20231114102807-2.webp)
+![966_1_image-20231114102807-2](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_1_image-20231114102807-2.webp)
 
 11 Limited to policies for web apps and privacy policies for client apps.
 
@@ -23,29 +23,29 @@ section in the table at the link below:
 Create a new Admin Template policy with the appropriate setting from the ADMX template (use Keyword
 section to search):
 
-![966_2_image-20230922212443-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_2_image-20230922212443-1.webp)
+![966_2_image-20230922212443-1](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_2_image-20230922212443-1.webp)
 
 Now set the value to "System default browser" instead of "Microsoft Edge" in the policy:
 
-![966_3_image-20230922212443-2_950x650](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_3_image-20230922212443-2_950x650.webp)
+![966_3_image-20230922212443-2_950x650](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_3_image-20230922212443-2_950x650.webp)
 
 ## SCENARIO 2: Using Endpoint Policy Manager On-Prem
 
 Once Office ADMX is deployed, create a new Admin Template policy with the appropriate setting from
 the ADMX template (use Keyword section to search):
 
-![966_4_image-20230922212443-3_950x397](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_4_image-20230922212443-3_950x397.webp)
+![966_4_image-20230922212443-3_950x397](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_4_image-20230922212443-3_950x397.webp)
 
 Now set the value to "System default browser" instead of "Microsoft Edge" in the policy:
 
-![966_5_image-20230922212443-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_5_image-20230922212443-4.webp)
+![966_5_image-20230922212443-4](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_5_image-20230922212443-4.webp)
 
 ## Verification:
 
 ### BEFORE:
 
-![966_6_image-20230922212443-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_6_image-20230922212443-5.webp)
+![966_6_image-20230922212443-5](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_6_image-20230922212443-5.webp)
 
 ### AFTER:
 
-![966_7_image-20230922212443-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/966_7_image-20230922212443-6.webp)
+![966_7_image-20230922212443-6](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/966_7_image-20230922212443-6.webp)

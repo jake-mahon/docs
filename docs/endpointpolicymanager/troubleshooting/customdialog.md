@@ -12,4 +12,4 @@ Note that when the setting is:
    or the CSE has a problem. This could be desirable, but also means that functions will just stop
    with no notification.
 
-![780_1_img-01_950x653](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/780_1_img-01_950x653.webp)
+![780_1_img-01_950x653](/img/product_docs/endpointpolicymanager/troubleshooting/780_1_img-01_950x653.webp)

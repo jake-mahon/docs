@@ -12,4 +12,4 @@ Two other notes:
 - This should work fine in Windows 10 though.
 - SHA1 signed .JS and .VBS files should work in Windows 7.
 
-![696_1_ghjklyhuouioui3333333](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/696_1_ghjklyhuouioui3333333.webp)
+![696_1_ghjklyhuouioui3333333](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/696_1_ghjklyhuouioui3333333.webp)

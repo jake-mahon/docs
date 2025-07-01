@@ -7,7 +7,7 @@ In Admin Center, click **Dashboard** in the left pane. The dashboard displays th
 with aggregated data from all identity stores built on Active Directory, Microsoft Entra ID, Google
 Workspace, and Generic LDAP, as well as individual identity stores.
 
-![dashboard](/img/product_docs/directorymanager/directorymanager/admincenter/general/dashboard.webp)
+![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)
 
 The dashboard displays the following information:
 
@@ -76,7 +76,7 @@ or select _All Identity Stores_ to view the upcoming schedules for all identity 
 Click **View All** to view a list of the upcoming schedules with their names, the next date and time
 of schedule run, and the identity store they belong to.
 
-![image38](/img/product_docs/directorymanager/directorymanager/admincenter/general/image38.webp)
+![image38](/img/product_docs/directorymanager/11.1/admincenter/general/image38.webp)
 
 ## Replication Status of Identity Stores
 

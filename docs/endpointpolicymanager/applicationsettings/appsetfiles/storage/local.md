@@ -10,7 +10,7 @@ directories.
 In Figure 64, you can see the`%ProgramFiles%\PolicyPak\Extensions`directory and the compiled AppSets
 within it.
 
-![policypak_application_settings_3_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_1.webp)
+![policypak_application_settings_3_1](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_1.webp)
 
 Figure 64. The files that are contained in the` %ProgramFiles%\PolicyPak\Extensions` directory.
 
@@ -26,7 +26,7 @@ trying to load them, which could cause an error.
 
 In Figure 65, you can see the extension DLL is being leveraged from Local Storage.
 
-![policypak_application_settings_3_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_2.webp)
+![policypak_application_settings_3_2](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_2.webp)
 
 Figure 65. The Local Storage is being leveraged by the extension DLL.
 
@@ -72,7 +72,7 @@ Figure 66.
 editing a GPO, you need to install Endpoint Policy Manager Admin Console.msi on machines that use
 the GPMC.
 
-![policypak_application_settings_3_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_3.webp)
+![policypak_application_settings_3_3](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_3.webp)
 
 Figure 66. This message informs the adminstrator that they need to set up
 `c:\Program Files\PolicyPak\Extensions` directory on this computer.
@@ -90,7 +90,7 @@ create a new GPO that contains Endpoint Policy Manager directives, as seen in Fi
 are no Endpoint Policy Manager extension DLLs on the machine that is running the GPMC, then there is
 no way to define an AppSet item.
 
-![policypak_application_settings_3_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_4.webp)
+![policypak_application_settings_3_4](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_4.webp)
 
 Figure 67. The application is unavailable because there is no way for the administrator to create a
 new GPO if the DLL isn't on the local machine.

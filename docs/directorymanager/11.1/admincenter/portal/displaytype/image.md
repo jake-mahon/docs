@@ -16,7 +16,7 @@ can be uploaded for this display type.
 
 A custom image display type is rendered on a portal page as:
 
-![photo_placeholder](/img/product_docs/directorymanager/directorymanager/admincenter/portal/displaytype/photo_placeholder.webp)
+![photo_placeholder](/img/product_docs/directorymanager/11.1/admincenter/portal/displaytype/photo_placeholder.webp)
 
 Click **Edit** to launch the **Manage Photo** dialog box for uploading a photo. The dialog box also
 provides many image editing options, including rotate, crop, flip, and re-size.

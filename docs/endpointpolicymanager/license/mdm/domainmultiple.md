@@ -14,4 +14,4 @@ asked.
 available on VMware Workspace One (Airwatch). It may or may not be available with other MDM
 services.
 
-![356_1_image_950x402](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/mdm/356_1_image_950x402.webp)
+![356_1_image_950x402](/img/product_docs/endpointpolicymanager/license/mdm/356_1_image_950x402.webp)

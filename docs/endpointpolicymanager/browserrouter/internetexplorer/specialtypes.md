@@ -10,7 +10,7 @@ Microsoft Edge, please see
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to IE** policy.
 
-![about_policypak_browser_router_36](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_36.webp)
+![about_policypak_browser_router_36](/img/product_docs/endpointpolicymanager/browserrouter/internetexplorer/about_endpointpolicymanager_browser_router_36.webp)
 
 The **All intranet to IE** policy takes all websites that are already defined in the Intranet zone
 and ensure that those sites open in Internet Explorer 11 if the user tries to use Microsoft Edge. In

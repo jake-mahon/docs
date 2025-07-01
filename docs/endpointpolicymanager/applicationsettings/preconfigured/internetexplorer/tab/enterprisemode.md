@@ -27,7 +27,7 @@ In short, Endpoint Policy Manager IE AppSet makes this process easy. You use the
 Manager Browser Router component and not the Endpoint Policy Manager Application Settings Manager
 component, as shown in Figure 36.
 
-![ie_appset_tab_by_tab_32](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_32.webp)
+![ie_appset_tab_by_tab_32](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/tab/ie_appset_tab_by_tab_32.webp)
 
 Figure 36. Setting up a dynamic list in Enterprise Mode using Endpoint Policy Manager Browser
 Router.

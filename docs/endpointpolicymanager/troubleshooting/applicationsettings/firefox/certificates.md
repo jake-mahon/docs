@@ -41,7 +41,7 @@ BINARY DER.
 If the CERT is a-ok inside Firefox ALREADY, you can then EXPORT it like this to ensure it is a
 BINARY DER file.
 
-![214_1_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_1_image002.webp)
+![214_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_1_image002.webp)
 
 When you save, save it as a .DER extension.
 
@@ -66,7 +66,7 @@ You can also use Firefox's log by being on any page and clicking Ctrl+Shift+J.
 In the log below certificates being added to the proper stores. You can also see ERROR CONDITIONS as
 well which are helpful for troubleshooting.
 
-![214_2_image007](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_2_image007.webp)
+![214_2_image007](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_2_image007.webp)
 
 **Step 6 –** Other reasons your cert just isn't working
 
@@ -83,7 +83,7 @@ well which are helpful for troubleshooting.
    \DCShareFabrikam-CA.cer, CA, 2, add  
    In the logs, you would see this transposition error demonstrated as:
 
-![214_3_image008](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_3_image008.webp)
+![214_3_image008](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/214_3_image008.webp)
 
 **Step 7 –** Send us your cert, and we'll send you ours.
 

@@ -3,7 +3,7 @@
 After signing into the GroupID Portal, from the left pane select **Synchronize** to land on the
 dashboard.
 
-![synchronizedashboard](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/synchronize/synchronizedashboard.webp)
+![synchronizedashboard](/img/product_docs/directorymanager/11.0/portal/synchronize/synchronizedashboard.webp)
 
 The interface has intuitive navigation options:
 

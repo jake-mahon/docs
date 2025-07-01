@@ -11,21 +11,21 @@ seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_standard_applications.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_standard_applications.webp)
 
 Then select the **Action** type **Deny execution**.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_1.webp)
 
 The MMC will take action to deny the desired user rights.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_2.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_2.webp)
 
 The result is that Firefox and every other application signed by this publisher would not run on the
 endpoint no matter how it made it there (even if it was properly installed). The result of a
@@ -38,4 +38,4 @@ corporate policies.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_3.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_standard_applications_3.webp)

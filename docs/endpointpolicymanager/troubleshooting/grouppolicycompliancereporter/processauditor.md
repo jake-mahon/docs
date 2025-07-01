@@ -3,7 +3,7 @@
 So the ` Auditor.exe` process is kicked off via a scheduled task based upon specific Group Policy
 event IDs. An example task can be seen below.
 
-![741_1_image-20200409172758-1_950x798](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_1_image-20200409172758-1_950x798.webp)
+![741_1_image-20200409172758-1_950x798](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_1_image-20200409172758-1_950x798.webp)
 
 Since it can be a little hard to read, here's what event IDs will trigger the running of the
 Auditor:
@@ -14,7 +14,7 @@ Auditor:
 Events 8000 - 8007 are SUCCESS events when Group Policy succeeds. Events 7000 - 7007 are FAIL events
 when Group Policy fails to process. The SUCCESS IDs translate to the following:
 
-![741_3_image-20200409172758-2_950x382](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_3_image-20200409172758-2_950x382.webp)
+![741_3_image-20200409172758-2_950x382](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_3_image-20200409172758-2_950x382.webp)
 
 When clients OSs update: Note that on Windows 8.1 and later you will typically not find event IDs
 8004 and 8005.. even when the computer is left to perform background policy processing.
@@ -27,7 +27,7 @@ considered "Always on, Always connected." You can change the CLIENT OS behavior 
 7 behavior with the following policy setting "Turn off Group Policy Client Service AOAC
 optimization."
 
-![741_5_image-20200409172758-3_950x482](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_5_image-20200409172758-3_950x482.webp)
+![741_5_image-20200409172758-3_950x482](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_5_image-20200409172758-3_950x482.webp)
 
 So, after the ` Auditor.exe` is run because of an event ID, it sends (or doesn't send) information
 back to the server based upon its defaults -or- what's set in the PPGPCR ADMX settings.
@@ -49,4 +49,4 @@ If you turn on enhanced PPGPCR Auditor logging (as explained in this article) yo
 - What the auditor thinks / should send up data
 - And did the data get sent successfully to the server.
 
-![741_7_image-20200409172758-4_950x475](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_7_image-20200409172758-4_950x475.webp)
+![741_7_image-20200409172758-4_950x475](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/741_7_image-20200409172758-4_950x475.webp)

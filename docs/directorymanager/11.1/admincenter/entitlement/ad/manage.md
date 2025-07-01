@@ -75,17 +75,17 @@ The following information is displayed for a file server in the **Included File 
   performed by the GroupID Entitlement schedule. Different statuses are:
 
     - **Request
-      ![rc_request](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/rc_request.webp):**
+      ![rc_request](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/rc_request.webp):**
       permission data for the file server has never been replicated to Elasticsearch.
     - **Success
-      ![rc_success](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/rc_success.webp):**
+      ![rc_success](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/rc_success.webp):**
       permission data for the file server was successfully replicated when the GroupID Entitlement
       schedule last ran.
     - **Fail
-      ![rc_fail](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/rc_fail.webp):**
+      ![rc_fail](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/rc_fail.webp):**
       replication failed for the server due to an error.
     - **Running
-      ![rc_running](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/rc_running.webp):**
+      ![rc_running](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/rc_running.webp):**
       the GroupID Entitlement schedule is running and replication is in progress.
 
 - **Last Replicated**: the date and time the GroupID Entitlement schedule last replicated
@@ -256,7 +256,7 @@ section on the **Entitlement** page.
       select the check boxes for the servers you want to replicate. To replicate all servers, select
       the check box in the header row. This displays the following icons:
 
-        **![replicate_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/replicate_permissions.webp)**
+        **![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)**
 
         Either click the **Replicate** icon or the **Replicate** button.
 
@@ -288,7 +288,7 @@ You can exclude a file server in the identity store from replication and entitle
         want to replicate. To exclude all servers, select the check box in the header row. This
         displays the following icons:
 
-        ![replicate_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/entitlement/ad/replicate_permissions.webp)
+        ![replicate_permissions](/img/product_docs/directorymanager/11.1/admincenter/entitlement/ad/replicate_permissions.webp)
 
         Click **Remove**. The servers are moved to the **Excluded File Servers** area.
 

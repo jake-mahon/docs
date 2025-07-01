@@ -121,7 +121,7 @@ them.
     - **AND:** to display the objects having the specified values for all attributes.
     - **OR:** to display objects having the specified value for any one of the attributes.
 
-    ![search_query](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/securityrole/policy/search_query.webp)
+    ![search_query](/img/product_docs/directorymanager/11.0/admincenter/securityrole/policy/search_query.webp)
 
 2. Click the ellipsis button for an applied operator to display the context menu, which has the
    following options:

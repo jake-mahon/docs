@@ -14,7 +14,7 @@ you install fonts by using the either method.
 
 **Step 3 –** Select **Use Simple Rule** and click on **Next**
 
-![467_1_img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_1_img-1.webp)
+![467_1_img-1](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_1_img-1.webp)
 
 **NOTE:** Consider choosing **Use combo rule** option for extra security.
 
@@ -46,7 +46,7 @@ Endpoint Policy Manager Scripts Manager.
 
 **Step 4 –** Select PowerShell Script from the drop-down and paste the script to install fonts.
 
-![467_5_img-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_5_img-3.webp)
+![467_5_img-3](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_5_img-3.webp)
 
 This script to Add Fonts from PowerShell is acquired from Microsoft Doc website. For more
 information see the Microsoft article on
@@ -227,15 +227,15 @@ $fontsFolderPath = Get-SpecialFolder($CSIDL_FONTS)    Process-Arguments
 
 **Step 5 –** Insert the folder path for the required fonts and click **Next**.
 
-![467_7_img-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_7_img-5.webp)
+![467_7_img-5](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_7_img-5.webp)
 
 **Step 6 –** Select **Once or when forced** and click **Next** .
 
-![467_9_img-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_9_img-6.webp)
+![467_9_img-6](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_9_img-6.webp)
 
 **Step 7 –** Name the policy and click **Finish**.
 
-![467_11_img-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_11_img-7.webp)
+![467_11_img-7](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_11_img-7.webp)
 
 **Step 8 –** Run `GPUPDATE /FORCE` on theclient machine.
 
@@ -245,21 +245,21 @@ $fontsFolderPath = Get-SpecialFolder($CSIDL_FONTS)    Process-Arguments
 
    Select **PowerShell Script** from the drop-down and paste the script to install fonts.
 
-   ![467_5_img-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_5_img-3.webp)
+   ![467_5_img-3](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_5_img-3.webp)
 
 4. This script to Add Fonts from PowerShell is acquired from Microsoft Doc website. For more
    information see the Microsoft article on
    [Adding and Removing Fonts with Windows PowerShell](https://learn.microsoft.com/en-us/archive/blogs/deploymentguys/adding-and-removing-fonts-with-windows-powershell).
 5. Insert the folder path for the required fonts and click **Next**.
 
-   ![467_7_img-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_7_img-5.webp)
+   ![467_7_img-5](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_7_img-5.webp)
 
 6. Select **Once or when forced** radio button and click **Next** .
 
-   ![467_9_img-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_9_img-6.webp)
+   ![467_9_img-6](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_9_img-6.webp)
 
 7. Name the policy and click **Finish**.
 
-   ![467_11_img-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/467_11_img-7.webp)
+   ![467_11_img-7](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_11_img-7.webp)
 
 8. Run `GPUPDATE /FORCE` on the client machine.

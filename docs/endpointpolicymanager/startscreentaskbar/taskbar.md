@@ -12,7 +12,7 @@ policies also must reside within collections.
 Manager nodes in the Group Policy Editor. Then right-click to open the Taskbar Manager to create
 your first Endpoint Policy Manager Taskbar Manager collection, as shown in Figure 28.
 
-![quickstart_taskbar_manager](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager.webp)
+![quickstart_taskbar_manager](/img/product_docs/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager.webp)
 
 Figure 28. The Endpoint Policy Manager Taskbar Manager Collection Editor.
 
@@ -26,7 +26,7 @@ the Action field values are the following:
 
 **Step 3 –** Next, within the collection, you can add items like those shown in Figure 29.
 
-![quickstart_taskbar_manager_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_1.webp)
+![quickstart_taskbar_manager_1](/img/product_docs/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_1.webp)
 
 Figure 29. Adding universal (UWP) or desktop application policies.
 
@@ -36,14 +36,14 @@ application. For testing purposes, you should select Calculator or Alarms & Cloc
 you'll see the two items inside the Endpoint Policy Manager Taskbar Manager collection shown in
 Figure 30.
 
-![quickstart_taskbar_manager_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_2.webp)
+![quickstart_taskbar_manager_2](/img/product_docs/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_2.webp)
 
 Figure 30. Taskbar policies are contained within collections.
 
 **Step 5 –** On the endpoint, run GPUpdate and then log off and log on again to get the policy
 settings. The result can be seen in Figure 31.
 
-![quickstart_taskbar_manager_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_3.webp)
+![quickstart_taskbar_manager_3](/img/product_docs/endpointpolicymanager/startscreentaskbar/quickstart_taskbar_manager_3.webp)
 
 Figure 31. Policy settings applied after using PolicyPak Taskbar Manager "Replace" mode.
 

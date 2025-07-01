@@ -6,7 +6,7 @@ this example, we have created an install rule and an uninstall rule, and we are 
 collection by right-clicking `Computer Configuration | PolicyPak | Feature Manager` for Windows 10
 and Windows Server and picking the collection we wish to export.
 
-![deploying_policypak_directives_28](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_28.webp)
+![deploying_policypak_directives_28](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_28.webp)
 
 Figure 28. Exporting a whole collection using Endpoint Policy Manager Feature Manager.
 
@@ -14,6 +14,6 @@ Alternatively, we could select a designated setting to export as well. Right-cli
 `Computer Configuration | PolicyPak | Security Manager`, and select the setting that is available in
 the menu, as shown in Figure 29.
 
-![deploying_policypak_directives_29](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_29.webp)
+![deploying_policypak_directives_29](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_29.webp)
 
 Figure 29. Exporting a single Endpoint Policy Manager Feature Manager entry.

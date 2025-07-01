@@ -16,7 +16,7 @@ nodes are:
 On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a
 page that contains tabs under that sub-node. It is as:
 
-![navigation_bar](/img/product_docs/directorymanager/directorymanager/admincenter/portal/design/navigation_bar.webp)
+![navigation_bar](/img/product_docs/directorymanager/11.1/admincenter/portal/design/navigation_bar.webp)
 
 Directory Manager enables you to customize the nodes, sub-nodes, and their respective tabs.
 

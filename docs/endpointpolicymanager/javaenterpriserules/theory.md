@@ -20,7 +20,7 @@ enterprise-wide. The essence of the feature is a rule set, which must be created
 package must be digitally signed and deployed to endpoints. When the rule set is executed correctly
 (manually), the result looks similar to what is shown below.
 
-![theory_of_operation_and_moving](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/theory_of_operation_and_moving.webp)
+![theory_of_operation_and_moving](/img/product_docs/endpointpolicymanager/javaenterpriserules/theory_of_operation_and_moving.webp)
 
 Automating and updating deployment rule sets anytime a site requires updating can be painful.
 Fortunately, Endpoint Policy Manager Java Rules Manager automates the whole process. It reduces

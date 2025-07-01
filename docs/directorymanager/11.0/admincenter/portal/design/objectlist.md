@@ -7,7 +7,7 @@ Let’s assume you want to view the groups that are similar to Group A. On the *
 in Group A’s properties, six groups that bear the most similarity to Group A will be displayed, with
 the strongest match at the top. It is as:
 
-![similar_groups](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/design/similar_groups.webp)
+![similar_groups](/img/product_docs/directorymanager/11.0/admincenter/portal/design/similar_groups.webp)
 
 For a similar group, three attributes are displayed:
 

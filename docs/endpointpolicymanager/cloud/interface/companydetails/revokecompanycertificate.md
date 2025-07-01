@@ -8,7 +8,7 @@ Policy Manager Cloud account. If your MSI is lost, you see unexpected machines i
 Policy Manager Cloud, or you want to replace the MSI, you have the option to select **Revoke
 company's certificate**.
 
-![web_interface_and_controls_89_499x212](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_89_499x212.webp)
+![web_interface_and_controls_89_499x212](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_89_499x212.webp)
 
 This is a security mechanism that will re-issue the x509 certificate, which has the following
 effects:
@@ -24,4 +24,4 @@ start using your new MSI (encoded with a new x509 certificate). As soon as you p
 existing MSIs will stop functioning. Attempts to use them will fail and the installer gets a
 message:.
 
-![web_interface_and_controls_90_624x510](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_90_624x510.webp)
+![web_interface_and_controls_90_624x510](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_90_624x510.webp)

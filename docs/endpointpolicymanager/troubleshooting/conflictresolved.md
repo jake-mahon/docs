@@ -13,7 +13,7 @@ Other sources are XML files placement; which happens automatically when you use:
 Those policy XML files get unwrapped to` c:\programData\PolicyPak\XMLData` into various folders seen
 here: Cloud, Computer, Groups, Users.
 
-![717_1_img-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/717_1_img-01.webp)
+![717_1_img-01](/img/product_docs/endpointpolicymanager/troubleshooting/717_1_img-01.webp)
 
 Again the only time you have to really worry about conflicts is when you attempt to set the EXACT
 same value would you have a problem. For instance, you decide to create an RDP File on the desktop

@@ -55,7 +55,7 @@ CSE 24.7 and later:
 
   - **CAUTION:** Do not use the DFS checkbox if the path is not a DFS share.
 
-![pathconditiondfs](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/pathconditiondfs.webp)
+![pathconditiondfs](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/pathconditiondfs.webp)
 
 CSE Pre 24.7:
 
@@ -83,7 +83,7 @@ And also for all Non-EXE rules as of version 2340 and higher:
     Manager rule to "`Elevate\\fabrikam.com\share`" and select Folder or Folder (Recursive) as
     shown here.
 
-    ![502_1_image-20200121124504-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/502_1_image-20200121124504-1.jpeg)
+    ![502_1_image-20200121124504-1](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/502_1_image-20200121124504-1.jpeg)
 
 For Non-EXE rules created in version 2339 and lower:
 
@@ -95,11 +95,11 @@ For Non-EXE rules created in version 2339 and lower:
 - You should create a Endpoint Policy Manager Least Privilege Manager rule to Elevate the path to
   the folder using the S: drive and then select Folder or Folder (Recursive) as shown below.
 
-![502_3_image](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/502_3_image.webp)
+![502_3_image](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/502_3_image.webp)
 
 To cover all bases you can also create the rule with all possible paths:
 
-![502_4_image](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/502_4_image.webp)
+![502_4_image](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/502_4_image.webp)
 
 Troubleshooting Non-EXE rules:
 
@@ -109,6 +109,6 @@ Troubleshooting Non-EXE rules:
   see which path was shown for the MSI (see screenshot below). Lastly, use that path for your
   Non-EXE rule:
 
-![502_5_image-20200121124504-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/502_5_image-20200121124504-4.webp)
+![502_5_image-20200121124504-4](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/502_5_image-20200121124504-4.webp)
 
-![502_7_image-20200121124504-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/leastprivilege/502_7_image-20200121124504-5.webp)
+![502_7_image-20200121124504-5](/img/product_docs/endpointpolicymanager/troubleshooting/leastprivilege/502_7_image-20200121124504-5.webp)

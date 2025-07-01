@@ -21,7 +21,7 @@ Get the following tools handy:
 1. Run Process explorer to find the process. You want to find the PID of the process with a problem.
    An example of a hung process can be seen here, with PID 1072.
 
-   ![525_1_image003](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/525_1_image003.webp)
+   ![525_1_image003](/img/product_docs/endpointpolicymanager/troubleshooting/525_1_image003.webp)
 
    Processes should be easy to find if they are hanging.
 

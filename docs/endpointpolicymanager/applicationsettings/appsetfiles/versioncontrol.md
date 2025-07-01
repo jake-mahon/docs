@@ -28,7 +28,7 @@ An AppSet is defined by its project name. You can see the project name when you 
 and also when you're working with the project within Endpoint Policy Manager DesignStudio by
 selecting the Project Properties tab on the left (see Figure 78).
 
-![policypak_application_settings_3_16](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_16.webp)
+![policypak_application_settings_3_16](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_16.webp)
 
 Figure 78. The project name on the Project Properties tab in Endpoint Policy Manager DesignStudio.
 
@@ -46,7 +46,7 @@ different name (`WinZipc.xml`). Finally, the project was compiled. The result is
 However, in both cases, the internal project name is WinZip, as seen in Figure 79, because it did
 not change between projects.
 
-![policypak_application_settings_3_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_17.webp)
+![policypak_application_settings_3_17](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_17.webp)
 
 Figure 79. An example showing that, while the file names may change, the project name remains the
 same.
@@ -66,7 +66,7 @@ multiple Endpoint Policy Manager extension DLLs exists for the same project, you
 entry appears in the flyout menu. You can switch to different DLL at any time by right-clicking the
 item and selecting "Reconnect Endpoint Policy Manager DLL," as shown in Figure 80.
 
-![policypak_application_settings_3_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_18.webp)
+![policypak_application_settings_3_18](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_18.webp)
 
 Figure 80. You can connect to any version at any time when working with GPOs.
 
@@ -74,13 +74,13 @@ Figure 80. You can connect to any version at any time when working with GPOs.
 local storage version you want based on compiled date and time. The file names are also shown as a
 convenience.
 
-![policypak_application_settings_3_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_19.webp)
+![policypak_application_settings_3_19](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_19.webp)
 
 Figure 81. Pick the version you want, either according to DLL name or date.
 
 Now the item is updated with the newer DLL as shown in Figure 82.
 
-![policypak_application_settings_3_20](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_20.webp)
+![policypak_application_settings_3_20](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_20.webp)
 
 Figure 82. Note the new version is listed now.
 
@@ -109,7 +109,7 @@ Endpoint Policy Manager extension DLLs exist for the same project, you'll only s
 in the flyout menu. When you click the desired project, you'll be prompted for which version you
 want to use, as seen in Figure 83.
 
-![policypak_application_settings_3_21](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_21.webp)
+![policypak_application_settings_3_21](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_21.webp)
 
 Figure 83. For projects with the same name, you'll be prompted to choose which version you want to
 use while creating a new GPO.
@@ -124,7 +124,7 @@ in the Central Storage. However, you can also upgrade an existing AppSet item wi
 do this, right-click the item and select "Update Endpoint Policy Manager DLL," as seen in Figure 84.
 If the newer DLL is selected, it will update the underlying GPO data.
 
-![policypak_application_settings_3_22](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_22.webp)
+![policypak_application_settings_3_22](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_22.webp)
 
 Figure 84. Upgrading an existing Pak item with a newer DLL.
 
@@ -148,7 +148,7 @@ Central Storage and
 
 You can see this in Figure 85.
 
-![policypak_application_settings_3_23](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_23.webp)
+![policypak_application_settings_3_23](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_23.webp)
 
 Figure 85. The process of removing old DLLs.
 
@@ -156,7 +156,7 @@ When you complete this process, the next time you (or other administrators) crea
 be using the version contained in the Central Storage. If you (or other administrators) edit an
 existing GPO, you will get the familiar notice shown in Figure 86.
 
-![policypak_application_settings_3_24](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_24.webp)
+![policypak_application_settings_3_24](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_24.webp)
 
 Figure 86. The notice received when editing an existing GPO.
 

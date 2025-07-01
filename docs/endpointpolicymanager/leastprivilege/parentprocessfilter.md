@@ -14,4 +14,4 @@ being checked first before the child application is launched elevated.)
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_parent_process.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_parent_process.webp)

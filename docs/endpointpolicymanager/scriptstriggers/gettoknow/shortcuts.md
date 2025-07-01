@@ -11,14 +11,14 @@ when it "falls out of scope").
 link it to your users. In this example (Figure 7) we have a GPO created and linked it to the East
 Sales Users OU.
 
-![getting_to_know_scripts_triggers_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_3.webp)
+![getting_to_know_scripts_triggers_3](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_3.webp)
 
 Figure 7. Using Group Policy to create and link a GPO to East Sales Users.
 
 **Step 2 –** Edit the GPO, then go to User Configuration | Endpoint Policy Manager | Scripts &
 Triggers Manager as shown in Figure 8 and select Add | New Policy.
 
-![getting_to_know_scripts_triggers_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_4.webp)
+![getting_to_know_scripts_triggers_4](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_4.webp)
 
 Figure 8. Using the Group Policy Editor to make a new Endpoint Policy Manager Scripts & Triggers
 Manager policy.
@@ -30,7 +30,7 @@ appears. Click "Next" to continue.
 from the PS\Create_endpointpolicymanager_Shortcut.ps1 file from the PS folder included in the downloaded
 examples. The result can be seen in Figure 9.
 
-![getting_to_know_scripts_triggers_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_5.webp)
+![getting_to_know_scripts_triggers_5](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_5.webp)
 
 Figure 9. Using Endpoint Policy Manager Scripts & Trigger Manager to deliver a PowerShell script.
 
@@ -44,14 +44,14 @@ meant for computers.
 **Step 5 –** On the "On revert action" page, select "PowerShell script," then copy in the
 Remove_endpointpolicymanager_Shortcut.ps1 script contents, as seen in Figure 10.
 
-![getting_to_know_scripts_triggers_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_6.webp)
+![getting_to_know_scripts_triggers_6](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_6.webp)
 
 Figure 10. Setting up a Revert Action script when the policy no longer applies.
 
 **Step 6 –** Click "Next" to continue. You will encounter the "Specify process mode" screen seen in
 Figure 11.
 
-![getting_to_know_scripts_triggers_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_7.webp)
+![getting_to_know_scripts_triggers_7](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_7.webp)
 
 Figure 11. Specifying when the script should run.
 
@@ -77,20 +77,20 @@ The "Specify process mode" page enables you to dictate when a script will apply.
 settings" page, give the policy a name like "Desktop icon on and off." Leave the State and
 Item-Level Targeting fields set with the defaults, as shown in Figure 12, and click "Finish."
 
-![getting_to_know_scripts_triggers_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_8.webp)
+![getting_to_know_scripts_triggers_8](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_8.webp)
 
 Figure 12. Endpoint Policy Manager Scripts & Triggers Manager Wizard final settings page.
 
 The result of the policy you created can be seen in an entry like the one shown in Figure 13.
 
-![getting_to_know_scripts_triggers_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_9.webp)
+![getting_to_know_scripts_triggers_9](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_9.webp)
 
 Figure 13. The new Endpoint Policy Manager scripts policy in the Group Policy Editor.
 
 You can also validate that your settings are contained within the GPO by looking at the Group Policy
 HTML settings report in the GPMC, as shown in Figure 14.
 
-![getting_to_know_scripts_triggers_10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_10.webp)
+![getting_to_know_scripts_triggers_10](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_10.webp)
 
 Figure 14. Endpoint Policy Manager Scripts & Triggers Manager items appear in the GPMC reports.
 
@@ -98,7 +98,7 @@ Figure 14. Endpoint Policy Manager Scripts & Triggers Manager items appear in th
 applies. In this example, we'll log in as EastSalesUser8. When logging in, you'll see the policy
 apply the script and an icon like the one shown in Figure 15 will be visible.
 
-![getting_to_know_scripts_triggers_11](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_11.webp)
+![getting_to_know_scripts_triggers_11](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_11.webp)
 
 Figure 15. An example of a Endpoint Policy Manager Scripts & Triggers Manager PowerShell script on
 the endpoint.
@@ -106,7 +106,7 @@ the endpoint.
 **Step 9 –** To complete testing, go back to the GPMC, and un-link the GPO to make it stop applying,
 as seen in Figure 16.
 
-![getting_to_know_scripts_triggers_12](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_12.webp)
+![getting_to_know_scripts_triggers_12](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_12.webp)
 
 Figure 16. Make a policy stop applying by removing the "Link Enabled" settings in the GPMC.
 

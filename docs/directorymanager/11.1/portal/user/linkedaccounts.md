@@ -63,7 +63,7 @@ The Microsoft Entra ID account that you want to link with must be logged into th
 portal in the same browser. Use the Sign in with a different account option in the Microsoft Entra
 ID portal for logging into multiple accounts.
 
-![Entra ID Sign In with a different account option](/img/product_docs/directorymanager/directorymanager/portal/user/linkntraidacc.webp)
+![Entra ID Sign In with a different account option](/img/product_docs/directorymanager/11.1/portal/user/linkntraidacc.webp)
 
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
@@ -78,7 +78,7 @@ and click **Link Account**.
 Step 3 – On the Directory Manager Authenticate window, click the SAML button or image for the
 configured SAML provider in Directory Manager. The following window is displayed:
 
-![Multiple Signed in users in Entra ID portal](/img/product_docs/directorymanager/directorymanager/portal/user/entraidsigninusers.webp)
+![Multiple Signed in users in Entra ID portal](/img/product_docs/directorymanager/11.1/portal/user/entraidsigninusers.webp)
 
 Step 4 – Select the account you want to link to. You will be redirected back to the Directory
 Manager portal’s My Linked Account page and a message **Account has been successfully linked** is

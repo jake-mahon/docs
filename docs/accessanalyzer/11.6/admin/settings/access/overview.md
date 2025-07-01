@@ -3,7 +3,7 @@
 Configure what applications, users, and groups have access to Enterprise Auditor using the Access
 node
 
-![Access Window](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/datasource/excel_-_one_drive.webp)
+![Access Window](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
 
 The first type of access that can be granted is Role Based Access for a user or group accessing the
 Enterprise Auditor Console. The second type of access grants access to an application accessing data

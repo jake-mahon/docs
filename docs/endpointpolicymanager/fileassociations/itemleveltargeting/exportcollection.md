@@ -11,7 +11,7 @@ File Associations Manager, so if you decide to use Endpoint Policy Manager Cloud
 domain-joined machines, Endpoint Policy Manager File Associations Manager will function as expected
 using Endpoint Policy Manager Cloud.
 
-![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
+![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with domain-joined
 machines. See the
@@ -26,9 +26,9 @@ Exporter.See the
 [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
 topic for additional information.
 
-![using_item_level_targeting_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
+![using_item_level_targeting_9](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
 
-![using_item_level_targeting_10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
+![using_item_level_targeting_10](/img/product_docs/endpointpolicymanager/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
 
 **NOTE:** Exported collections or policies maintain any Item-Level Targeting set within them. If
 you've used items that represent Group Membership in Active Directory, then those items will only

@@ -7,7 +7,7 @@ wish (Windows 10 or later or Server 2019 or later) as your management station.
 The Endpoint Policy Manager Admin Console MSI can be found in the download. There is one for 32-bit
 machines, one for 64-bit machines, and one for Arm machines.
 
-![preparemanagementstation1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation1.webp)
+![preparemanagementstation1](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation1.webp)
 
 ## Option 1
 
@@ -29,7 +29,7 @@ The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on
 station joined to Active Directory will look like the example below. You’ll see the extra Netwrix
 nodes alongside the Microsoft nodes.
 
-![preparemanagementstation2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation2.webp)
+![preparemanagementstation2](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation2.webp)
 
 ## Option 2
 
@@ -44,7 +44,7 @@ The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on
 looks similar to the example below. When you run GPEDIT.MSC with an Administrator command prompt,
 you’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 
-![preparemanagementstation3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation3.webp)
+![preparemanagementstation3](/img/product_docs/endpointpolicymanager/gettingstarted/quickstart/preparemanagementstation3.webp)
 
 Additional resources you may be interested in:
 

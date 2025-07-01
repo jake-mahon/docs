@@ -20,11 +20,11 @@ of Microsoft's 3000+ Admin Template settings and a lot more.
 [Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/video/administrativetemplates/collections.md)
 topic for more in formation on Endpoint Policy Manager Admin Templates Manager.
 
-![about_policypak_admin_templates](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates.webp)
+![about_policypak_admin_templates](/img/product_docs/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates.webp)
 
 Here we can see some of Microsoft's Admin Template settings.
 
-![about_policypak_admin_templates_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates_1.webp)
+![about_policypak_admin_templates_1](/img/product_docs/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates_1.webp)
 
 Endpoint Policy Manager Admin Templates Manager is a node you see within every Group Policy Object
 (GPO) you create.

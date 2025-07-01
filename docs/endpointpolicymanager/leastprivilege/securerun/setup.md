@@ -19,14 +19,14 @@ PolicyPak) download. For more information on this issue, please see
 - If you do not use this option, you have to create rules for each process. But you can use the Auto
   Rules Generator to find all those .exe's and generate rules for all quickly.
 
-![315_1_lpm-faq-03-img-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/securerun/315_1_lpm-faq-03-img-01.webp)
+![315_1_lpm-faq-03-img-01](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/315_1_lpm-faq-03-img-01.webp)
 
 #### How do we setup SecureRun when there are so many variables and make them work no matter what version of the software was installed?
 
 - Start with the AutoRules Generator to try to mass generate the rules you need.
 - In You can do a Single rule or a Combo
 
-![315_2_lpm-faq-03-img-02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/securerun/315_2_lpm-faq-03-img-02.webp)
+![315_2_lpm-faq-03-img-02](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/315_2_lpm-faq-03-img-02.webp)
 
 - For a Single many customers will use Hashto ensure only that specific file is elevated. However
   this doesn't allow for future versions to be allowed.
@@ -34,9 +34,9 @@ PolicyPak) download. For more information on this issue, please see
   That way you ensure that it is always that Vendor with the Signature, and with File Info you can
   specify to allow Higher or Equals, thereby allowing future versions to be elevated.
 
-![315_3_lpm-faq-03-img-03](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/securerun/315_3_lpm-faq-03-img-03.webp)
+![315_3_lpm-faq-03-img-03](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/315_3_lpm-faq-03-img-03.webp)
 
-![315_4_lpm-faq-03-img-04](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/securerun/315_4_lpm-faq-03-img-04.webp)
+![315_4_lpm-faq-03-img-04](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/315_4_lpm-faq-03-img-04.webp)
 
 ### Summary
 

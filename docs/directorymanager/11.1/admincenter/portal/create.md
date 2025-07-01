@@ -17,7 +17,7 @@ servers.
 - IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see
   [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-    ![in_iis](/img/product_docs/directorymanager/directorymanager/admincenter/portal/in_iis.webp)
+    ![in_iis](/img/product_docs/directorymanager/11.1/admincenter/portal/in_iis.webp)
 
 - Docker Deployment - For a Docker deployment, make sure you have a running instance of Docker
   daemon in your environment. A portal runs within a container in Docker.
@@ -76,7 +76,7 @@ located on disk.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 
-    ![portal_card](/img/product_docs/directorymanager/directorymanager/admincenter/portal/portal_card.webp)
+    ![portal_card](/img/product_docs/directorymanager/11.1/admincenter/portal/portal_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the portal. This name
    should be unique for each portal deployed in IIS.
@@ -139,7 +139,7 @@ located on disk.
     to manage directory objects, their directory profiles, and more.  
     While associating identity store(s), you may get the following message:
 
-    ![linked_message](/img/product_docs/directorymanager/directorymanager/admincenter/portal/linked_message.webp)
+    ![linked_message](/img/product_docs/directorymanager/11.1/admincenter/portal/linked_message.webp)
 
     This relates to the scenario when identity stores in Directory Manager have been linked, as
     discussed in the

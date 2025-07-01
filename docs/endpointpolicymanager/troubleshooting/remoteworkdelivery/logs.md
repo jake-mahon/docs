@@ -34,7 +34,7 @@ Start troubleshooting by verifying that you are set up with the following scenar
 Figure 55 is an example of a Endpoint Policy Manager Remote Work Delivery Manager log with some
 annotations.
 
-![tips_security_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_6.webp)
+![tips_security_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_6.webp)
 
 Figure 55. An example of a Endpoint Policy Manager Remote Work Delivery Manager log.
 
@@ -46,7 +46,7 @@ Manager Remote Work Delivery Manager (see Figure 56):
   `\appdata\<user>\PolicyPak\PolicyPak Remote Work Delivery Manager`
 - One for the Computer side in `Programdata\PolicyPak\PolicyPak Remote Work Delivery Manager`
 
-![tips_security_and_troubleshooting_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_7.webp)
+![tips_security_and_troubleshooting_7](/img/product_docs/endpointpolicymanager/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_7.webp)
 
 Figure 56. Log files showing when a policy applies and when a policy reverts.
 

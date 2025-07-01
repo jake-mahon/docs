@@ -14,22 +14,22 @@ To run the GroupID preparation tool:
 1. Open **GroupID 11 Prerequisites Tool** folder from the GroupID Installation package.
 2. Run _directorymanagerPrereqTool.exe_ file. It launches the Preparation Tool.
 
-    ![Preparation Tool Welcome page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/welcome.webp)
+    ![Preparation Tool Welcome page](/img/product_docs/directorymanager/11.0/install/installer/welcome.webp)
 
 3. Read the welcome message and click **Next**.
 
-    ![Ready to Begin page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/ready_to_begin.webp)
+    ![Ready to Begin page](/img/product_docs/directorymanager/11.0/install/installer/ready_to_begin.webp)
 
 4. The **Ready to begin** page lists the required software and Windows features that the Preparation
    Tool has identified for GroupID.  
    Click **Install** to begin.
 
-    ![We are preparing page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/wearepreparing.webp)
+    ![We are preparing page](/img/product_docs/directorymanager/11.0/install/installer/wearepreparing.webp)
 
 5. On the **We are preparing this machine for GroupID ...** page the progress bar shows the
    installation progress while prerequisites are installed.
 
-    ![Ready to install](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/ready_to_install.webp)
+    ![Ready to install](/img/product_docs/directorymanager/11.0/install/installer/ready_to_install.webp)
 
     The **You are ready to install GroupID!** page displays the status of each prerequisite software
     and Windows feature as _Passed_ or _Failed_.

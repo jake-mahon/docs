@@ -8,7 +8,7 @@ query machines anytime because the last known Group Policy data is always up-to-
 server. See Figure 42 for a diagram of how Endpoint Policy Manager GPCR Server with push mode
 receives information from Endpoint Policy Manager GPCR endpoints.
 
-![gpcr_server_with_push_mode_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_6.webp)
+![gpcr_server_with_push_mode_6](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_6.webp)
 
 Figure 42. Auditing with GPCR Server in push mode.
 

@@ -42,7 +42,7 @@ section for additional features.
 The Export Job to Zip Archive window opens from the **Export** option in the right-click menu from
 the selected job group or job node.
 
-![Export from Jobs Tree menu](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
+![Export from Jobs Tree menu](/img/product_docs/directorymanager/11.0/portal/export.webp)
 
 Select **Export** from the right-click menu to open the Export Group to Zip Archive window.
 

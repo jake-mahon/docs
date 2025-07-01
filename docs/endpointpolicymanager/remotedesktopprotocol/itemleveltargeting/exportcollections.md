@@ -7,9 +7,9 @@ use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud, rig
 collection or the policy and select **Export to XML**. This will enable you to save an XML file,
 which you can use later.
 
-![using_item_level_targeting_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_7.webp)
+![using_item_level_targeting_7](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_7.webp)
 
 Remember that Endpoint Policy Manager RDP policies can be created and exported on the User or
 Computer side. For instance, below we have a collection being exported.
 
-![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
+![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)

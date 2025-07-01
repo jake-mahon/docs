@@ -8,14 +8,14 @@ The element ‘emailSettings'in namespace ‘http://www.endpointpolicymanager.co
 incomplete content. List of possible elements expected: ‘sendTo' in namespace
 ‘http://www.endpointpolicymanager.com/2017/LPM/AdminApproval'.
 
-![994_1_image-20230926224931-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/994_1_image-20230926224931-1.webp)
+![994_1_image-20230926224931-1](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/994_1_image-20230926224931-1.webp)
 
 ## CAUSE:
 
 The Admin Approval policy XML has become corrupt, and now contains an incomplete ‘emailSettings'
 section. See below for an example.
 
-![994_2_image-20230926224931-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/994_2_image-20230926224931-2.webp)
+![994_2_image-20230926224931-2](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/994_2_image-20230926224931-2.webp)
 
 A correct email settings section would look like this:
 
@@ -66,6 +66,6 @@ Console (MMC) and set the Email option "Use of email:" under the Email tab to "N
 save the policy.  Afterward, you can edit the AA policy again to add in the correct email settings
 if needed.
 
-![994_3_image-20230926224931-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/994_3_image-20230926224931-3.webp)
+![994_3_image-20230926224931-3](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/994_3_image-20230926224931-3.webp)
 
 After one of these actions all will be good.

@@ -49,7 +49,7 @@ accesses GroupIDDataService. If yes, provide the IP of that machine. Press Enter
 In case of multiple machines, use a comma to separate the IP addresses with no space after the
 comma.
 
-![Restrict IP Addresses](/img/product_docs/directorymanager/directorymanager/install/iprestrict.webp)
+![Restrict IP Addresses](/img/product_docs/directorymanager/11.1/install/iprestrict.webp)
 
 RECOMMENDED: Use a static IP address for the Directory Manager server and the additional IP
 addresses you specify here to include in the IP security rules.
@@ -85,7 +85,7 @@ environment:
 Step 4 – You will be asked to provide the database connection password. On doing so, the password
 for the GroupID user account will be updated with the generated password.
 
-![Password generation and update message](/img/product_docs/directorymanager/directorymanager/install/passwordgeneration.webp)
+![Password generation and update message](/img/product_docs/directorymanager/11.1/install/passwordgeneration.webp)
 
 ## Export/Import the New Password
 
@@ -122,4 +122,4 @@ GroupID user account on all servers.
 You must delete the GroupIDSSUser account from each Directory Manager server. Go to the Computer
 Management console to delete the account.
 
-![Computer Management console](/img/product_docs/directorymanager/directorymanager/install/computermanagement.webp)
+![Computer Management console](/img/product_docs/directorymanager/11.1/install/computermanagement.webp)

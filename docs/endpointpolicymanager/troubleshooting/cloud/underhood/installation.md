@@ -4,7 +4,7 @@ If you choose an interactive installation of the Endpoint Policy Manager Cloud c
 success or failure messages that occur when connecting to Endpoint Policy Manager Cloud will be
 shown on the final window during installation, as shown in Figure 156.
 
-![underneath_the_hood_and_troubleshooting_2_624x343](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_2_624x343.webp)
+![underneath_the_hood_and_troubleshooting_2_624x343](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_2_624x343.webp)
 
 Figure 156. The final window of the installation process.
 
@@ -28,7 +28,7 @@ Policy Manager Cloud for a maximum of 60 seconds. If it is able to make a connec
 license within 60 seconds, you'll get a success message. If the Endpoint Policy Manager Cloud client
 cannot locate Endpoint Policy Manager Cloud you'll get an error message, as shown in Figure 157.
 
-![underneath_the_hood_and_troubleshooting_3_406x302](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_3_406x302.webp)
+![underneath_the_hood_and_troubleshooting_3_406x302](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_3_406x302.webp)
 
 Figure 157. The error message when the Endpoint Policy Manager Cloud client cannot connect to
 Endpoint Policy Manager Cloud.
@@ -36,7 +36,7 @@ Endpoint Policy Manager Cloud.
 If you click "Continue," you'll see a success message, but no results of the connection to Endpoint
 Policy Manager Cloud, as shown in Figure 158.
 
-![underneath_the_hood_and_troubleshooting_4_406x336](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_4_406x336.webp)
+![underneath_the_hood_and_troubleshooting_4_406x336](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_4_406x336.webp)
 
 Figure 158. The success message indicating installation is complete.
 
@@ -50,7 +50,7 @@ A common error occurs when the system time is off. If you get the error shown in
 that the system time on the client system is correct. If the time significantly off, the cloud
 client cannot talk with the cloud server.
 
-![underneath_the_hood_and_troubleshooting_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
+![underneath_the_hood_and_troubleshooting_5](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
 
 Figure 159. System time error message.
 
@@ -58,7 +58,7 @@ To check the time, do the following:
 
 **Step 1 –** Change the time zone to UTC, as shown in Figure 160.
 
-![underneath_the_hood_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_6.webp)
+![underneath_the_hood_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_6.webp)
 
 Figure 160. Selecting UTC as the time zone.
 
@@ -81,7 +81,7 @@ then the computer will, by default, be seen as unique (see Figure 161). This is 
 the computer registration modes, and it can typically happen when the computer is a VDI machine that
 gets destroyed and rebuilt often. To compensate for this, refer to the section "Company Details."
 
-![underneath_the_hood_and_troubleshooting_7_624x277](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_7_624x277.webp)
+![underneath_the_hood_and_troubleshooting_7_624x277](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_7_624x277.webp)
 
 Figure 161. A computer is seen as being unique after the OS is re-installed.
 
@@ -89,6 +89,6 @@ The registration mode you likely want to use is "Loose (allow computers to recov
 or MAC Address)" for normal machines (as shown in Figure 162), and "Advanced (always register a new
 computer and keep existing records)" for VDI machines.
 
-![web_interface_and_controls_71_624x518](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
+![web_interface_and_controls_71_624x518](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
 
 Figure 162. Selecting the registration mode.

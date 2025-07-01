@@ -57,7 +57,7 @@ Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 Step 2 – On the **Synchronize** portal, click **All Jobs**.
 
 Step 3 – In the jobs list, click
-![option](/img/product_docs/directorymanager/directorymanager/portal/synchronize/manage/option.webp)
+![option](/img/product_docs/directorymanager/11.1/portal/synchronize/manage/option.webp)
 on the job that you want to run and click **Run**.
 
 Step 4 – If workflow requests are enabled, the request for running the job will go to the approver.

@@ -12,23 +12,23 @@ To install GroupID:
 1. Run _directorymanagerInstallTool.exe_ from the GroupID `<version #>` folder in the GroupID Installation
    package. It launches the Installation Tool.
 
-    ![Welcome page](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/introduction.webp)
+    ![Welcome page](/img/product_docs/directorymanager/11.0/install/installer/introduction.webp)
 
 2. Read the welcome message and click **Next**.
 
-    ![End User License Agreement](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/eula.webp)
+    ![End User License Agreement](/img/product_docs/directorymanager/11.0/install/installer/eula.webp)
 
 3. On the **End User License Agreement** page, review and accept the licensing agreement and click
    **Next**.
 
-    ![installationprogress](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/installationprogress.webp)
+    ![installationprogress](/img/product_docs/directorymanager/11.0/install/installer/installationprogress.webp)
 
 4. The progress bar shows the installation progress while all files are copied and GroupID is
    installed.
 
     On successful installation, the **Run Configuration Tool** page is displayed.
 
-    ![Run Configuration Tool](/img/versioned_docs/directorymanager_11.0/directorymanager/install/installer/runconfigurationtool.webp)
+    ![Run Configuration Tool](/img/product_docs/directorymanager/11.0/install/installer/runconfigurationtool.webp)
 
 5. Click **Next** to proceed with configuring GroupID.
 

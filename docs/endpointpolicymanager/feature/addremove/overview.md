@@ -24,7 +24,7 @@ bullet lists above are currently installed. Then, create and link a group policy
 location that contains computers. In the example below, created a GPO and linked it to the East
 Sales Desktops.
 
-![quickstart_adding_and_removing](/img/product_docs/endpointpolicymanager/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing.webp)
+![quickstart_adding_and_removing](/img/product_docs/endpointpolicymanager/feature/addremove/quickstart_adding_and_removing.webp)
 
 Then click **Edit** to edit the GPO.
 

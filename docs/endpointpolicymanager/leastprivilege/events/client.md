@@ -7,4 +7,4 @@ Privilege Manager policies. An example of this kind of event can be seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/events/client_events.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/client_events.webp)

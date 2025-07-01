@@ -20,7 +20,7 @@ Security.enterprise_roots.enabled
 
  Inside the main Firefox Pak itself
 
-![161_1_2017-08-16_0820](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.webp)
+![161_1_2017-08-16_0820](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/161_1_2017-08-16_0820.webp)
 
 ## Way #2:
 

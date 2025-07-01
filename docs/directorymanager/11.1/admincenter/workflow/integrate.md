@@ -56,7 +56,7 @@ requests. Power Automate cannot communicate with a server deployed on a machine 
 
     NOTE: The Directory Manager application in Microsoft Entra Admin Center must have the following
     permissions for Power Automate:  
-     ![pa_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/workflow/pa_permissions.webp)
+     ![pa_permissions](/img/product_docs/directorymanager/11.1/admincenter/workflow/pa_permissions.webp)
 
 7. Click **Save** on the **Advanced Workflow Settings** page.
 
@@ -79,12 +79,12 @@ triggered, the linked flow is auto triggered.
    Entra ID account for managing flows in the Microsoft Power Automate portal. This account must
    have the following permissions on the Entra tenant:
 
-    ![pa_permissions](/img/product_docs/directorymanager/directorymanager/admincenter/workflow/pa_permissions.webp)
+    ![pa_permissions](/img/product_docs/directorymanager/11.1/admincenter/workflow/pa_permissions.webp)
 
 7. Click **Create Template**. Directory Manager creates a basic flow in Power Automate with the same
    name as the workflow, and displays the following message:
 
-    ![pa_template_message](/img/product_docs/directorymanager/directorymanager/admincenter/workflow/pa_template_message.webp)
+    ![pa_template_message](/img/product_docs/directorymanager/11.1/admincenter/workflow/pa_template_message.webp)
 
 8. The next step is to copy the flow URL from Power Automate and provide it here. To copy the URL,
    do the following:
@@ -94,7 +94,7 @@ triggered, the linked flow is auto triggered.
     2. Hover the mouse over the flow to display the ellipsis button. Click it and select **Edit**.
     3. Expand the **Connections** area.
 
-        ![connections_area](/img/product_docs/directorymanager/directorymanager/admincenter/workflow/connections_area.webp)
+        ![connections_area](/img/product_docs/directorymanager/11.1/admincenter/workflow/connections_area.webp)
 
     4. Click **Approvals** in the **Connections** area. The approver of the Directory Manager
        workflow is auto added here. Click **Save**.

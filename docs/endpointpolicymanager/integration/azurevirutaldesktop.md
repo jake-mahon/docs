@@ -28,7 +28,7 @@ following page
 under the Downloads section, by clicking on the Download other versions link at the bottom of the
 page.
 
-![332_1_image-20210529214259-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
+![332_1_image-20210529214259-1](/img/product_docs/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
 
 **Step 3 –** On the Master Desktop Image, while logged in as a local administrator, install the
 Endpoint Policy Manager Cloud Client MSI that you saved under `C:\PPC Client`, by using MSIEXEC and
@@ -57,13 +57,13 @@ fileby adding the following commands to the script. When done, save the file.
 
 **NOTE:** To see details on PPCloud.exe switches run "`PPCloud /?`" from CMD.
 
-![332_2_image-20210529214259-2_950x215](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_2_image-20210529214259-2_950x215.webp)
+![332_2_image-20210529214259-2_950x215](/img/product_docs/endpointpolicymanager/integration/332_2_image-20210529214259-2_950x215.webp)
 
 **Step 6 –** Run `GPEDIT.MSC` and add an entry under **Computer Configuration** > **Windows
 Settings** > **Scripts (Startup/Shutdown)**. Select the `shutdown.ps1` file for the PowerShell
 Shutdown script, then click **OK** to save the settings.
 
-![332_3_image-20210529214259-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_3_image-20210529214259-3.webp)
+![332_3_image-20210529214259-3](/img/product_docs/endpointpolicymanager/integration/332_3_image-20210529214259-3.webp)
 
 **Step 7 –** If you like you can reboot the Master Desktop image machine at this point and log in as
 a regular user account to verify that everything works, that is,the computer is unregistered at
@@ -91,7 +91,7 @@ following page
 under the **Downloads** section, by clicking on the Download other versions link at the bottom of
 the page.
 
-![332_4_image-20210529214259-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
+![332_4_image-20210529214259-4](/img/product_docs/endpointpolicymanager/integration/555_1_image-20200603123515-1.webp)
 
 **Step 3 –** On the Master Desktop Image, while logged in as a local administrator, install the
 Endpoint Policy Manager Cloud Client MSI that you saved under `C:\PPC Client`, by using MSIEXEC and
@@ -109,7 +109,7 @@ OPTIONAL: Run `PPCloud /sync` from a command prompt to verify that you see the c
 assigned. In my example I am using a JOINTOKEN for a computer group called Testing so I see the
 following when I run `PPCloud /sync`.
 
-![332_5_image-20210529214259-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_5_image-20210529214259-5.webp)
+![332_5_image-20210529214259-5](/img/product_docs/endpointpolicymanager/integration/332_5_image-20210529214259-5.webp)
 
 **NOTE:** All Computers in PPC will be members of the **All** group in addition to any other groups
 they are added to.
@@ -123,7 +123,7 @@ environment before saving and closing the file.
 
 `msiexec /i "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" JOINTOKEN="AZAEllLPLTY9XKUA3CYO+ths=" /qn`
 
-![332_6_image-20210529214259-6_950x107](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_6_image-20210529214259-6_950x107.webp)
+![332_6_image-20210529214259-6_950x107](/img/product_docs/endpointpolicymanager/integration/332_6_image-20210529214259-6_950x107.webp)
 
 **Step 6 –** Edit the` shutdown.bat` file adding the command line below, remembering to substitute
 the MSI name in the example below with the corresponding value needed for your environment before
@@ -131,15 +131,15 @@ saving and closing the file.
 
 `msiexec /x "C:\PPC Client\PolicyPak Cloud Client for [Customer name] x64.msi" `
 
-![332_7_image-20210529214259-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_7_image-20210529214259-7.webp)
+![332_7_image-20210529214259-7](/img/product_docs/endpointpolicymanager/integration/332_7_image-20210529214259-7.webp)
 
 **Step 7 –** Run `GPEDIT.MSC`  and add an entry under **Computer Configuration** > **Windows
 Settings** > **Scripts (Startup/Shutdown)**. Select the `startup.bat` file for Startup script and
 select the `shutdown.bat` for the Shutdown script, then click **OK** to save the settings.
 
-![332_8_image-20210529214259-8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_8_image-20210529214259-8.webp)
+![332_8_image-20210529214259-8](/img/product_docs/endpointpolicymanager/integration/332_8_image-20210529214259-8.webp)
 
-![332_9_image-20210529214259-9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_9_image-20210529214259-9.webp)
+![332_9_image-20210529214259-9](/img/product_docs/endpointpolicymanager/integration/332_9_image-20210529214259-9.webp)
 
 **Step 8 –** At this point the Master Desktop image should already be registered in the PPC Portal.
 As a best practice, launch the PPC portal to verify that the machine is listed under the correct
@@ -177,7 +177,7 @@ Could not sync with the cloud. 
 A network error occurred during sending RegisterComputer to https://cloudsvc.endpointpolicymanager.com/Services/Registration: Keyset does not exist
 ```
 
-![332_10_image-20210529214259-11](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_10_image-20210529214259-11.webp)
+![332_10_image-20210529214259-11](/img/product_docs/endpointpolicymanager/integration/332_10_image-20210529214259-11.webp)
 
 If you receive a blank screen at login on the Master image machine or VDI, you can try logging out
 and back in, or you can try the following to see if it resolves the issue.
@@ -185,4 +185,4 @@ and back in, or you can try the following to see if it resolves the issue.
 Using `GPEDIT.MSC`, verify that the following setting **Run startup scripts asynchronously** is
 enabled under **Local Computer Policy** > **Administrative Templates** > **System**.
 
-![332_11_image-20210529214259-10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/332_11_image-20210529214259-10.webp)
+![332_11_image-20210529214259-10](/img/product_docs/endpointpolicymanager/integration/332_11_image-20210529214259-10.webp)
