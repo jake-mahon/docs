@@ -3,7 +3,7 @@
 The Exceptions report at the **File System** node provides a list of exceptions that were found
 across the targeted environment. This report includes a Details table.
 
-![Exceptions report at the File System node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/exceptions.webp)
+![Exceptions report at the File System node](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/exceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 shares and permissions granted to stale or disabled users. This table is blank if no exceptions were

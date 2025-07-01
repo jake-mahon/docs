@@ -2,7 +2,7 @@
 
 The Request Access wizard is opened with the **Request Access** button in the Your Access portal.
 
-![Request Access Wizard Select Resource page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/selectresource.webp)
 
 It contains two pages:
 
@@ -21,7 +21,7 @@ Follow the steps to submit a resource request.
 
 **Step 1 –** In the Your Access portal, click **Request Access**. The Request Access wizard opens.
 
-![Request Access Wizard Select Resource page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, locate the desired resources using the Search Catalog and
 browse options.
@@ -61,7 +61,7 @@ indicated by the green plus (+) button, click the button to rotate through and s
 access level. Multiple resources can be selected using ether the Ctrl or Shift key with mouse click
 combinations. Click **Add** to place a selected resource into your list.
 
-![Selected Resources Window](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/window/selectedresources.webp)
+![Selected Resources Window](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/selectedresources.webp)
 
 **Step 4 –** Use the **View Selections** button to open the Selected Resources window. If an extra
 resource is in your list, select it and click **Remove**. Click **OK** to close the window.
@@ -83,7 +83,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 
 **Step 7 –** Click **Next** and the Access Information Center starts the action.
 
-![Request Access wizard request sent message](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Request Access wizard request sent message](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/completed_1.webp)
 
 **Step 8 –** The action status displays on the page. When the action has completed (100%), click
 **Finish**. The Request Access wizard closes.

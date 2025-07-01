@@ -12,7 +12,7 @@ This interface has multiple pages:
 The Manage Reviews page is the first page in the Resource Reviews interface. It displays high-level
 information for reviews.
 
-![Resource Reviews interface showing Manage Reviews page](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
+![Resource Reviews interface showing Manage Reviews page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/interface.webp)
 
 The interface includes:
 
@@ -63,7 +63,7 @@ for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Reviews Interface](/img/product_docs/auditor/10.6/access/reviews/resourceowners/interfacebuttons.webp)
+![Action buttons in the Resource Reviews Interface](/img/product_docs/accessinformationcenter/11.6/resourcereviews/interfacebuttons.webp)
 
 | Button         | Description                                                                                                                                                                                                                                                                                                                               |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ The Review Details page displays information for all instances of the selected r
 named in the page breadcrumb. This page is opened by selecting a review and clicking **View
 Details**.
 
-![Resource Reviews interface showing the Review Details page](/img/product_docs/auditor/10.6/access/reviews/entitlementreviews/reviewdetails.webp)
+![Resource Reviews interface showing the Review Details page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetails.webp)
 
 Instances are selected from the drop-down menu. By default the most current instance will be
 displayed. Instances are named with date timestamps indicating the start and end times for the

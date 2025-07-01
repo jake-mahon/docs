@@ -3,7 +3,7 @@
 The Permissions report at the database and library level shows the permissions for the trustee on
 the selected resource.
 
-![Permissions report at the database and library level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/postgresql/databasetable/databasepermissions.webp)
+![Permissions report at the database and library level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/oracle/databaselibrary/databasepermissions.webp)
 
 This report is comprised of the following columns:
 

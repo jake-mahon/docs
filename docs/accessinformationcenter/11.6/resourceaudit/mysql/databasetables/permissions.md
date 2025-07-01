@@ -3,7 +3,7 @@
 The Permissions report at the database and table level shows the permissions for the trustee on the
 selected resource.
 
-![Permissions report at the database and tables level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/postgresql/databasetable/databasepermissions.webp)
+![Permissions report at the database and tables level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/mysql/databasetables/databasepermissions.webp)
 
 This report is comprised of the following columns:
 

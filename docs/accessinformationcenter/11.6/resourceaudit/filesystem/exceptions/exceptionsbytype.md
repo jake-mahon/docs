@@ -3,7 +3,7 @@
 The Exceptions report at the exception type level provides details on the selected exception type.
 This report includes a Permission Source table.
 
-![Exceptions report at the exception type level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/exceptions/exceptionsbytype.webp)
+![Exceptions report at the exception type level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/exceptions/exceptionsbytype.webp)
 
 An exception is defined as a problem or risk to data governance security. This report is comprised
 of the following columns:

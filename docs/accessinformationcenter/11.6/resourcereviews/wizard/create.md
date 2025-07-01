@@ -80,7 +80,7 @@ Follow the steps to create a review.
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Create Review wizard Criteria page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/criteria.webp)
+![Create Review wizard Criteria page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/criteria.webp)
 
 **Step 3 –** On the Criteria page, select the types of sensitive criteria to include in the
 Sensitive Data review from the list on the left and click **Add**. Multiple items can be selected
@@ -100,7 +100,7 @@ Netwrix Enterprise Auditor for all of the resources selected in Step 5, the One 
 selected have not been scanned error occurs. The Create Review wizard will not allow the review to
 be created until those resources have been removed or the option unchecked.
 
-![Create Review wizard Resources page](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/resources.webp)
+![Create Review wizard Resources page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/resources.webp)
 
 **Step 5 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being
@@ -142,7 +142,7 @@ created.
 
 - Once the desired resources have been selected, click **Next**.
 
-![Create Review wizard Summary page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
+![Create Review wizard Summary page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/summary.webp)
 
 **Step 6 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to create the review.

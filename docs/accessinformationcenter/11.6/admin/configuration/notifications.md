@@ -4,7 +4,7 @@ The Access Information Center uses the Simple Mail Transfer Protocol (SMTP) to s
 SMTP server information and several messaging options can be set through the Configuration >
 Notifications page.
 
-![Notifications Page](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/notifications.webp)
+![Notifications Page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/notifications.webp)
 
 At the top, the SMTP server and email security settings are configured. The Notification options is
 where you configure the sender information, and other optional settings. The Reminders section is

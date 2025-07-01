@@ -74,7 +74,7 @@ exclamation icon. You can not continue with the import if any row contains an in
 owner. To remove a resource from the table, select the row and click **Remove**. The row is removed
 from the table.
 
-![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Import Owners wizard 2. Options page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/options.webp)
 
 **Step 4 –** On the Options page, configure the available options as required.
 
@@ -91,7 +91,7 @@ from the table.
 
 **Step 5 –** Click **Next**. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Import Owners wizard completed import page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Import Owners wizard closes.

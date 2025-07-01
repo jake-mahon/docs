@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/selectowners.webp)
 
 It contains four pages:
 
@@ -32,7 +32,7 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update Resource wizard showing 1. Select Owners page](/img/product_docs/auditor/10.6/access/reviews/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
@@ -55,7 +55,7 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/11.6/admin/action/servicenow/description.webp)
+![Update resource wizard showing 2. Description page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
@@ -80,12 +80,12 @@ desired. See the
 [Select Group Window](/docs/accessinformationcenter/11.6/resourceowners/window/selectgroup.md)
 topic for additional information.
 
-![Update resource wizard showing 4. Summary page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
+![Update resource wizard showing 4. Summary page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/summary.webp)
 
 **Step 5 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Update resource wizard completed page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Update resource wizard completed page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/completed_1.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

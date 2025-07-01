@@ -8,7 +8,7 @@ Account Representative. If the features displayed in this tab do not reflect the
 licensed, contact [Netwrix Support](https://www.netwrix.com/support.html). See the
 [Upload License](#upload-license) topic for information on updating the license key.
 
-![Configuration interface showing the License page](/img/product_docs/activitymonitor/7.1/install/agent/license.webp)
+![Configuration interface showing the License page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/license.webp)
 
 The Access Information Center version is displayed at the top. Then the following product features
 are controlled through the license:

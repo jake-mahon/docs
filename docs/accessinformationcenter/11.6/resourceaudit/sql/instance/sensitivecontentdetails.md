@@ -6,7 +6,7 @@ matches visible to Access Information Center users with either Security Team Mem
 roles. The Matches table requires the storage of discovered sensitive data within the Enterprise
 Auditor database or it will be blank.
 
-![Sensitive Content Details report at the iInstance level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/postgresql/instance/instancesensitivecontentdetails.webp)
+![Sensitive Content Details report at the iInstance level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sql/instance/instancesensitivecontentdetails.webp)
 
 This report is comprised of the following columns:
 

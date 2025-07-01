@@ -20,7 +20,7 @@ whether or not you have Access Information Center Console access.
 The Your Access portal displays your current access for resources managed through the Access
 Information Center.
 
-![Your Access portal interface](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
+![Your Access portal interface](/img/product_docs/accessinformationcenter/11.6/accessrequests/youraccessportal/interface.webp)
 
 The information displayed in the table includes:
 
@@ -43,7 +43,7 @@ The information displayed in the table includes:
 
 The buttons above and below the table enable you to perform the following actions:
 
-![Your Access portal interface buttons](/img/product_docs/auditor/10.6/access/reviews/resourceowners/interfacebuttons.webp)
+![Your Access portal interface buttons](/img/product_docs/accessinformationcenter/11.6/accessrequests/youraccessportal/interfacebuttons.webp)
 
 | Button         | Description                                                                                                                                                                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

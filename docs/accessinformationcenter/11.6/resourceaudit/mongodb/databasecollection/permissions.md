@@ -3,7 +3,7 @@
 The Permissions report at the database and collections level shows the permissions for the trustee
 on the selected resource.
 
-![Permissions report at the database and collections level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/postgresql/databasetable/databasepermissions.webp)
+![Permissions report at the database and collections level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/mongodb/databasecollection/databasepermissions.webp)
 
 This report is comprised of the following columns:
 

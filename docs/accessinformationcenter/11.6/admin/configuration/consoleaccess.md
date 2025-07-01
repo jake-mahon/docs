@@ -4,7 +4,7 @@ Console access to the is configured through the **Configuration** > **Console Ac
 users to the Access Information Center requires data to be collected by the Enterprise Auditor
 .Active Directory Inventory Solution.
 
-![Console Access Configuration page](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access Configuration page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
 
 There are five levels of access, or Roles, which can be granted to domain users or groups:
 
@@ -49,7 +49,7 @@ their assigned role or lack of role.
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Configuration page](/img/product_docs/accessanalyzer/11.6/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access Configuration page](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccess.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, click Add. The Console
 Access wizard opens.
@@ -134,7 +134,7 @@ additional information.
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/auditor/10.6/access/reviews/admin/configuration/consoleaccessremove.webp)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/11.6/admin/configuration/consoleaccessremove.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user.
 

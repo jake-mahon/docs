@@ -3,7 +3,7 @@
 The Member Of report for a computer object provides a list of all groups of which the audited
 computer is a member. This report includes a Membership Paths table.
 
-![Member Of report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/memberof.webp)
+![Member Of report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/computer/memberof.webp)
 
 This report is comprised of the following columns:
 

@@ -6,7 +6,7 @@ second table with criteria matches visible to Access Information Center users wi
 Team Member or Administrator roles. The Matches table requires the storage of discovered sensitive
 data within the Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the database and library level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/postgresql/databasetable/databasesensitivecontent.webp)
+![Sensitive Content report at the database and library level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/oracle/databaselibrary/databasesensitivecontent.webp)
 
 This report is comprised of the following columns:
 

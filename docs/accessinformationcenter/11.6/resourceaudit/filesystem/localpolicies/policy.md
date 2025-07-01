@@ -3,7 +3,7 @@
 The Policy report at the local policy level provides a list of policies assigned for the selected
 local policy.
 
-![Policy report](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/policy.webp)
+![Policy report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/localpolicies/policy.webp)
 
 This report is comprised of the following columns:
 

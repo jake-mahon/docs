@@ -4,7 +4,7 @@ The Resource Owners interface opened by the **Resource Owners** button on the Ac
 Center Home page is where Ownership Administrators perform many operations around assigning and
 managing ownership.
 
-![Resource Owners Interface in Netwrix Access Information Center](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
+![Resource Owners Interface in Netwrix Access Information Center](/img/product_docs/accessinformationcenter/11.6/resourceowners/interface.webp)
 
 The information displayed in the table includes:
 
@@ -58,7 +58,7 @@ for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
-![Action buttons in the Resource Owners Interface](/img/product_docs/auditor/10.6/access/reviews/resourceowners/interfacebuttons.webp)
+![Action buttons in the Resource Owners Interface](/img/product_docs/accessinformationcenter/11.6/resourceowners/interfacebuttons.webp)
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
