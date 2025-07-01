@@ -94,7 +94,13 @@ function getProductFolderFromImgPath(imgPath, productFolder) {
   const numSegments = productFolder.split('/').length;
   // Build regex to match that many segments after img/product_docs/
   const regex = new RegExp('(?:^|/)img/product_docs/((?:[^/]+/){' + (numSegments - 1) + '}[^/]+)/');
+function getProductFolderFromImgPath(imgPath, productFolder) {
+  // Count how many segments in productFolder
+  const numSegments = productFolder.split('/').length;
+  // Build regex to match that many segments after img/product_docs/
+  const regex = new RegExp('(?:^|/)img/product_docs/((?:[^/]+/){' + (numSegments - 1) + '}[^/]+)/');
   const norm = imgPath.replace(/\\/g, '/');
+  const m = norm.match(regex);
   const m = norm.match(regex);
   return m ? m[1] : null;
 }
@@ -125,6 +131,7 @@ function getExpectedImagePath(productFolder, mdFile, origImgPath) {
 
 function isProductFolderMismatch(productFolder, imgPath) {
   // True if the product folder in the image path does not match the input
+  const found = getProductFolderFromImgPath(imgPath, productFolder);
   const found = getProductFolderFromImgPath(imgPath, productFolder);
   return found && found !== productFolder;
 }
@@ -251,6 +258,11 @@ async function main() {
       if (skippedLinks.has(skipKey)) {
         continue;
       }
+      // Create a unique key for this image link in this file
+      const skipKey = mdFile + '|' + link;
+      if (skippedLinks.has(skipKey)) {
+        continue;
+      }
       let caseType = null;
       if ((whichCase === 'both' || whichCase === 'product') && isProductFolderMismatch(inputFolder, imgPath)) {
         caseType = 'product';
@@ -296,6 +308,7 @@ async function main() {
         console.log(`${colors.red}Case: Path alignment mismatch${colors.reset}`);
       }
       if (candidates.length === 1) {
+      if (candidates.length === 1) {
         // Auto-update with the single candidate
         const action = candidates[0];
         let imgFsPath = action.replace(/^\//, '');
@@ -324,12 +337,24 @@ async function main() {
           }
         } else {
           // Print suggested images if there are multiple candidates
+        }
+      } else {
+        if (candidates.length === 0) {
+          console.log(colors.red, 'No suggested images found.', colors.reset);
+          // Automatically skip if this is a path alignment mismatch
+          if (caseType === 'path') {
+            skippedLinks.add(skipKey);
+            continue;
+          }
+        } else {
+          // Print suggested images if there are multiple candidates
           console.log('Suggested image(s):');
           candidates.forEach((c, i) => {
             console.log(`  ${colors.green}[${i + 1}] ${c}${colors.reset}`);
           });
         }
         let action;
+        while (candidates.length > 0 || (caseType !== 'path' && candidates.length === 0)) {
         while (candidates.length > 0 || (caseType !== 'path' && candidates.length === 0)) {
           let prompt = `\n${colors.bold}Choose an option:${colors.reset}\n`;
           if (candidates.length) prompt += '  [1-' + candidates.length + '] Select a suggested image\n';
@@ -342,6 +367,8 @@ async function main() {
           } else if (action.toLowerCase() === 's') {
             // Mark this image link as skipped for this run
             skippedLinks.add(skipKey);
+            // Mark this image link as skipped for this run
+            skippedLinks.add(skipKey);
             break;
           } else {
             console.log('Invalid input.');
@@ -351,9 +378,13 @@ async function main() {
           let imgFsPath = action ? action.replace(/^\//, '') : '';
           if (action && !imgFsPath.startsWith('static/')) imgFsPath = 'static/' + imgFsPath;
           if (action && !fs.existsSync(imgFsPath)) {
+          let imgFsPath = action ? action.replace(/^\//, '') : '';
+          if (action && !imgFsPath.startsWith('static/')) imgFsPath = 'static/' + imgFsPath;
+          if (action && !fs.existsSync(imgFsPath)) {
             console.log('File does not exist:', imgFsPath);
             continue;
           }
+          if (action) openImage(imgFsPath);
           if (action) openImage(imgFsPath);
           const confirm = await promptUser('Use this image? [y/N]: ');
           if (confirm.toLowerCase() === 'y') {
