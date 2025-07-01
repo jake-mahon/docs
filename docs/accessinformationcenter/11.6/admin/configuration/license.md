@@ -41,14 +41,14 @@ Follow the steps to update the license key.
 **NOTE:** The LIC file must be named to `StealthAUDIT.lic`. If it has another name, rename it before
 completing the steps.
 
-![Configuration interface showing the License page with unlicensed features](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/licenseunlicensedfeatures.webp)
+![Configuration interface showing the License page with unlicensed features](/img/product_docs/accessinformationcenter/11.6/admin/configuration/licenseunlicensedfeatures.webp)
 
 **Step 1 –** In the Configuration interface on the License page, click **Upload New License**.
 
 **Step 2 –** Navigate to the license key location. Select the `StealthAUDIT.lic` file and click
 **Open**.
 
-![Complete window confirming new license is uploaded](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/licenseupdated.webp)
+![Complete window confirming new license is uploaded](/img/product_docs/accessinformationcenter/11.6/admin/configuration/licenseupdated.webp)
 
 **Step 3 –** When the upload is complete, click **OK**.
 

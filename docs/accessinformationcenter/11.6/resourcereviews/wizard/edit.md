@@ -4,7 +4,7 @@ The Edit Review wizard is opened with the **Edit** button on the Resource Review
 [Manage Reviews Page](/docs/accessinformationcenter/11.6/resourcereviews/interface.md#manage-reviews-page)
 topic for additional information.
 
-![Edit Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -23,7 +23,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and

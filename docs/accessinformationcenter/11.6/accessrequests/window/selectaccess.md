@@ -8,7 +8,7 @@ topic for additional information. Follow the steps to grant a different access l
 **Step 1 –** On the Pending Access Requests Page of the Owner portal, select the desired request and
 click **More Options**. The Select Access window opens.
 
-![Select Access window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/window/selectaccess.webp)
+![Select Access window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/selectaccess.webp)
 
 **Step 2 –** The drop-down menu provides alternative access levels. Options vary based on how the
 resource was configured for self-service. Select the desired Access Level.
@@ -29,7 +29,7 @@ date:
 **NOTE:** You can click **Cancel** to close the window without changing the Access Level or
 approving the request.
 
-![Saving Request window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/window/savingrequest.webp)
+![Saving Request window](/img/product_docs/accessinformationcenter/11.6/accessrequests/window/savingrequest.webp)
 
 **Step 5 –** The Access Information Center starts the action with the status displayed on the Saving
 request window. When the action completes successfully, click **OK** to close the Saving Request

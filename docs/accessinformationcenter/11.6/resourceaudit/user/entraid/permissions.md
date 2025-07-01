@@ -7,7 +7,7 @@ permissions unless modified by the Access Information Center user. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on filter options.
 
-![Permissions report for Entra ID](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.webp)
+![Permissions report for Entra ID](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/entraid/permissionsentraid.webp)
 
 This report is comprised of the following columns:
 

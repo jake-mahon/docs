@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectowners.webp)
 
 It contains four pages:
 
@@ -31,7 +31,7 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
@@ -59,7 +59,7 @@ information on the owners:
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
 the textbox. Then click **Next** to continue.
 
-![Update resource wizard showing 3. Access Groups page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/accessgroups.webp)
+![Update resource wizard showing 3. Access Groups page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/accessgroups.webp)
 
 **Step 4 –** The Access Groups page indicates whether or not the resource is available for Access
 Requests or Owner Ad Hoc changes. Modify as desired and click **Next** to continue.

@@ -3,7 +3,7 @@
 The Request History page in the Your Access portal is where you can view the status of previously
 submitted requests, both pending and processed.
 
-![Your Access portal Request History page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/requesthistory.webp)
+![Your Access portal Request History page](/img/product_docs/accessinformationcenter/11.6/accessrequests/youraccessportal/requesthistory.webp)
 
 The information displayed in the table includes:
 
@@ -51,7 +51,7 @@ The information displayed in the table includes:
 
 The buttons below the table enable you to perform the following actions:
 
-![Request History page buttons](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/requesthistorybuttons.webp)
+![Request History page buttons](/img/product_docs/accessinformationcenter/11.6/accessrequests/youraccessportal/requesthistorybuttons.webp)
 
 | Button     | Description                                                                                                                                                                                                                                                                   |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

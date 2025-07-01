@@ -4,12 +4,12 @@ The Some items could not be found message displays when importing a resource lis
 Review or Edit Review wizards if items specified in the CSV file can not be found or are not valid
 for the review.
 
-![Some items could not be found dialog](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/missingitemsmessage.webp)
+![Some items could not be found dialog](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/missingitemsmessage.webp)
 
 Click **Yes** to open the Missing Items window or click **No** to complete the import without
 viewing the missing items.
 
-![Missing items window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/missingitems.webp)
+![Missing items window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/missingitems.webp)
 
 Review the list of resources. Items can be listed for multiple reasons:
 

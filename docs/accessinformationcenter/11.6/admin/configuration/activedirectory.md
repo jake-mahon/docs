@@ -71,7 +71,7 @@ the **Use the following Active Directory account** option.
 
 **Step 1 –** On the Active Directory page, enter the new password in the correct field.
 
-![Saving configuration window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/savedchangeswindow.webp)
+![Saving configuration window](/img/product_docs/accessinformationcenter/11.6/admin/configuration/savedchangeswindow.webp)
 
 **Step 2 –** Click **Save**. Then click **OK** to confirm. After the settings are saved, a
 re-authentication is required to continue using the Access Information Center.

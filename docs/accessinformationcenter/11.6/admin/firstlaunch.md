@@ -7,7 +7,7 @@ with the independent URL:
 
 Use this icon to launch the Access Information Center for the first time.
 
-![AIC Login Page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/loginpage.webp)
+![AIC Login Page](/img/product_docs/accessinformationcenter/11.6/admin/loginpage.webp)
 
 The Access Information Center is installed with a Builtin Administrator account. Use the following
 login credential for the first launch:
@@ -17,7 +17,7 @@ login credential for the first launch:
 
 You will be prompted to change the Builtin Administrator password.
 
-![Change Administrator Password propmt](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/changeadminpassword.webp)
+![Change Administrator Password propmt](/img/product_docs/accessinformationcenter/11.6/admin/changeadminpassword.webp)
 
 The new password must be eight or more characters long. After setting the password, you will need to
 login with the Builtin Administrator account.
@@ -28,7 +28,7 @@ Administrator account. See the
 [Modify the Builtin Administrator Account](/docs/accessinformationcenter/11.6/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account)
 topic for additional information.
 
-![Home page for the Builtin Admin account on first launch](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/builtinadminhome.webp)
+![Home page for the Builtin Admin account on first launch](/img/product_docs/accessinformationcenter/11.6/admin/builtinadminhome.webp)
 
 After changing the Builtin Administrator password at first launch, you will be asked to login again.
 The Home page opens. The first thing that should be done is to configure console access for domain

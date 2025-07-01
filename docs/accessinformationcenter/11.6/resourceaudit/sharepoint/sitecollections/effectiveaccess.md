@@ -6,7 +6,7 @@ web application policies, administrative access, resource permissions, and group
 contains a list of all trustees with access to the selected resource and specifies the effective
 access level. This report includes a Permission Source table.
 
-![Effective Access report at the site collection, site, list, library, and folder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccess.webp)
+![Effective Access report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteeffectiveaccess.webp)
 
 This report is comprised of the following columns:
 
@@ -51,7 +51,7 @@ all of the ways the selected trustee has been granted rights to the selected res
 granular rights granted through SharePoint permission levels (SharePoint Roles), see the **Role
 Name** column.
 
-![Permission Source table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteeffectiveaccesstable.webp)
+![Permission Source table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteeffectiveaccesstable.webp)
 
 The number of rows for this table indicates the number of ways this trustee has been granted access.
 This table is comprised of the following columns:

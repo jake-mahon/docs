@@ -54,12 +54,12 @@ email/messaging administrator who will know the proper value for the SMTP port.
         - Select this radio button to specify either domain account or a traditional SMTP account
           and password to authenticate to the SMTP server.
 
-![Test Settings window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestsettings.webp)
+![Test Settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestsettings.webp)
 
 **Step 5 –** Click **Test Settings** to ensure a connection to the SMTP server. The Test Settings
 window opens. Enter a valid email address and click **OK**.
 
-![Testing your settings window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationstestconfirm.webp)
+![Testing your settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestconfirm.webp)
 
 **Step 6 –** If the SMTP settings are configured correctly, you receive a successful message. Click
 **OK** to close the Testing your settings window. The test recipient should have recieved a test
@@ -96,7 +96,7 @@ Resource Owners receive notification email when there are new pending tasks asso
 resources. You can also set up automated weekly reminders for outstanding pending tasks. Follow the
 steps to configure weekly reminders to resource owners.
 
-![Notifications page showing the Reminders section](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/notificationsreminders.webp)
+![Notifications page showing the Reminders section](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationsreminders.webp)
 
 **Step 1 –** In the Configuration interface, select the Notifications page and scroll down to the
 Reminders section.

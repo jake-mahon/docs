@@ -2,7 +2,7 @@
 
 The Request Access wizard is opened with the **Request Access** button in the Your Access portal.
 
-![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
 
 It contains two pages:
 
@@ -21,7 +21,7 @@ Follow the steps to submit a resource request.
 
 **Step 1 –** In the Your Access portal, click **Request Access**. The Request Access wizard opens.
 
-![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, locate the desired resources using the Search Catalog and
 browse options.
@@ -61,14 +61,14 @@ indicated by the green plus (+) button, click the button to rotate through and s
 access level. Multiple resources can be selected using ether the Ctrl or Shift key with mouse click
 combinations. Click **Add** to place a selected resource into your list.
 
-![Selected Resources Window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.webp)
+![Selected Resources Window](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectedresources.webp)
 
 **Step 4 –** Use the **View Selections** button to open the Selected Resources window. If an extra
 resource is in your list, select it and click **Remove**. Click **OK** to close the window.
 
 **Step 5 –** When you selection list is set as desired, click **Next**.
 
-![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/addnotes.webp)
+![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/addnotes.webp)
 
 **Step 6 –** On the Add Notes page, enter the following information:
 

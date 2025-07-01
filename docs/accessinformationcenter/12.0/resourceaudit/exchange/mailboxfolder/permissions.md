@@ -3,7 +3,7 @@
 The Permissions report at the mailbox and folder level shows the permissions for the trustee on the
 selected resource.
 
-![Permissions report at the mailbox and folder level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/exchange/mailboxfolder/mailboxpermissions.webp)
+![Permissions report at the mailbox and folder level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/exchange/mailboxfolder/mailboxpermissions.webp)
 
 This report is comprised of the following columns:
 

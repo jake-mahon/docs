@@ -9,7 +9,7 @@ settings.
 **Step 1 –** Click **Scope** at the top of the report in the Results pane. The Scope Configuration
 window opens.
 
-![Scope Configuration window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/scopeconfiguration.webp)
+![Scope Configuration window](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/scopeconfiguration.webp)
 
 **Step 2 –** There are three scoping options that can be applied individually or in any combination:
 

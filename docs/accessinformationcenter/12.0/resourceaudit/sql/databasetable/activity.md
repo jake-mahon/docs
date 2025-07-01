@@ -5,7 +5,7 @@ logged during the selected date range. The **Include Subfolders** option is acti
 removed. See the [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane) topic for information on
 changing this option.
 
-![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databasetable/databaseactivity.webp)
+![Activity report at the database and table levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sql/databasetable/databaseactivity.webp)
 
 This report is comprised of the following columns:
 

@@ -38,7 +38,7 @@ Follow the steps to add a domain.
 **Step 1 –** Click the **Add domain configuration** button on the Domains page to launch the Add
 Domain Configuration wizard.
 
-![Add Domain Configuration wizard - Domain page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.webp)
+![Add Domain Configuration wizard - Domain page](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/domain.webp)
 
 **Step 2 –** Enter a domain [example.domain.com] in the Domain field.
 
@@ -123,7 +123,7 @@ Follow the steps to edit a domain.
 **Step 1 –** On the Domains page, click the **Edit configuration** icon for a domain. The Edit
 Domain Configuration wizard opens.
 
-![Edit Domain Configuration wizard - Domain page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/domain.webp)
+![Edit Domain Configuration wizard - Domain page](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/domain.webp)
 
 **Step 2 –** Modify the domain in the Domain field, as needed.
 

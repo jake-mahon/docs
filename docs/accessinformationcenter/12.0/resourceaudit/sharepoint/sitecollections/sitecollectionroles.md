@@ -7,7 +7,7 @@ targeted SharePoint on-premise farm or SharePoint Online instance.
 
 **NOTE:** This report is only available at the site collection level.
 
-![Site Collections Roles report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.webp)
+![Site Collections Roles report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sitecollections/sitecollectionroles.webp)
 
 This report is comprised of the following columns:
 

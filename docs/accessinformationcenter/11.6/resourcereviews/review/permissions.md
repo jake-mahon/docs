@@ -6,7 +6,7 @@ steps to perform a Permissions review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Permissions review and
 click **Begin Review**. The Resource Review page opens to the 1 Make Changes tab.
 
-![Permissions review Make changes tab](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/review/reviewpagepermissions.webp)
+![Permissions review Make changes tab](/img/product_docs/accessinformationcenter/11.6/resourcereviews/review/reviewpagepermissions.webp)
 
 The table displays permission information for the resource being reviewed:
 
@@ -41,7 +41,7 @@ pending until you submit all recommendations for this resource.
 **Step 4 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Permissions review Review changes tab](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/review/reviewpagepermissions2.webp)
+![Permissions review Review changes tab](/img/product_docs/accessinformationcenter/11.6/resourcereviews/review/reviewpagepermissions2.webp)
 
 **Step 5 –** This tab displays a filtered table of trustees with recommended changes. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

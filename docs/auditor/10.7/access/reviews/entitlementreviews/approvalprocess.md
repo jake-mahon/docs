@@ -24,7 +24,7 @@ Details page opens.
 **Step 2 –** Select a resource in the list and click **View Responses**. The View Responses window
 opens.
 
-![viewresponses](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
+![viewresponses](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the

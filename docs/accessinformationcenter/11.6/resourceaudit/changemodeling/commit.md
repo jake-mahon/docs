@@ -21,7 +21,7 @@ portal.
 Return to the Group Membership Changes window to view the modeled changes by clicking the **Change
 Group Membership** button on the Group Membership pane.
 
-![Group Membership Changes window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
+![Group Membership Changes window](/img/product_docs/accessinformationcenter/11.6/resourceaudit/changemodeling/clearcommit.webp)
 
 Additional changes can be modeled using the **Add** and **Remove** buttons.
 

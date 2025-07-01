@@ -54,7 +54,7 @@ Access Information Center, then the username needs to be entered in the `domain\
 
 **NOTE:** The URL may need to be added to the browser’s list of trusted sites.
 
-![AIC Login page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/loginpage.webp)
+![AIC Login page](/img/product_docs/accessinformationcenter/12.0/admin/loginpage.webp)
 
 The Access Information Center login page displays the Netwrix Access Analyzer (formerly Enterprise
 Auditor) logo at the top and the browser tab is named Access Information Center. Logging in here
@@ -74,16 +74,16 @@ users to the Access Analyzer Reports home page.
 
 Follow the steps to open the Access Information Center.
 
-![Menu icon on Web Console home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsole.webp)
+![Menu icon on Web Console home page](/img/product_docs/accessinformationcenter/12.0/admin/accessfromwebconsole.webp)
 
 **Step 1 –** On any page of the Web Console, click the menu icon to the left of the Netwrix Access
 Analyzer (formerly Enterprise Auditor) logo.
 
-![Apps slide-out menu](/img/product_docs/accessinformationcenter/access/informationcenter/admin/accessfromwebconsoleappsmenu.webp)
+![Apps slide-out menu](/img/product_docs/accessinformationcenter/12.0/admin/accessfromwebconsoleappsmenu.webp)
 
 **Step 2 –** On the Apps slide-out menu, click Access Information Center.
 
-![AIC opened from the Web Console](/img/product_docs/accessinformationcenter/access/informationcenter/admin/aicfromwebconsole.webp)
+![AIC opened from the Web Console](/img/product_docs/accessinformationcenter/12.0/admin/aicfromwebconsole.webp)
 
 The Access Information Center opens in a new tab in your browser. The interface a user arrives at
 depends upon the assigned role or lack of assigned role. See the [User Landing Page](/docs/accessinformationcenter/12.0/admin/userlanding.md)

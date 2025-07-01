@@ -8,7 +8,7 @@ The **Include subfolders** option is active by default until removed. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity Details report at the site collection, site, list, library, and folder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetails.webp)
+![Activity Details report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteactivitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -39,7 +39,7 @@ for additional information.
 
 There is one line graph at the bottom displaying the Active Users Trend for the selected event.
 
-![Active Users Trend graph](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetailstrendgraph.webp)
+![Active Users Trend graph](/img/product_docs/accessinformationcenter/11.6/resourceaudit/sharepoint/sitecollections/siteactivitydetailstrendgraph.webp)
 
 The line graph provides a visual representation of the number of active users over the selected date
 range. It indicates how many users are performing activity per day.

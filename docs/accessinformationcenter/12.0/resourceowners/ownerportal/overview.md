@@ -34,7 +34,7 @@ The Owner portal has three sections:
 
 The Ownership Status section contains a confirmation chart.
 
-![Ownership Status donut graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/ownershipstatus.webp)
+![Ownership Status donut graph](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/ownershipstatus.webp)
 
 It displays a graphical representation of the percentage of resources assigned to you that have been
 confirmed.

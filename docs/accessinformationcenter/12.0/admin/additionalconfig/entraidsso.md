@@ -85,7 +85,7 @@ Notepad. The file is located in the Access Information Center installation direc
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![Parameters in the config file](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/configfileentrasso.webp)
+![Parameters in the config file](/img/product_docs/accessinformationcenter/12.0/admin/additionalconfig/configfileentrasso.webp)
 
 **Step 2 –** Locate the **WsFederationMetaData**, **WsFederationRealm**, and **WsFederationReply**
 parameters in the config file. If these are not present, then manually add them to your config file

@@ -3,7 +3,7 @@
 The Member Of report for a user object provides a list of all groups of which the audited user is a
 member. This report includes a Membership Paths table.
 
-![Member Of report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/memberof.webp)
+![Member Of report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/memberof.webp)
 
 This report is comprised of the following columns:
 

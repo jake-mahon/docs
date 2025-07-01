@@ -6,7 +6,7 @@ includes a table with criteria matches visible to Access Information Center user
 Administrator or Security Team roles. The Matches table requires the **store discovered sensitive
 data** configuration for the Enterprise Auditor data collection or it will be blank.
 
-![Sensitive Content report at the NFS Exports share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/nfssensitivecontent.webp)
+![Sensitive Content report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/nfssensitivecontent.webp)
 
 This report is comprised of the following columns:
 

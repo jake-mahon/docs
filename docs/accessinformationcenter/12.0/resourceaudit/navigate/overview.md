@@ -2,7 +2,7 @@
 
 The audit interfaces are accessible from the home page of the Access Information Center.
 
-![Home page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/auditinterface.webp)
+![Home page](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/auditinterface.webp)
 
 The **Resource Audit** button opens the Resource Audit interface. The search features, which include
 a search bar and a Recent Searches box, can be used to open any audit interface.
@@ -12,7 +12,7 @@ a search bar and a Recent Searches box, can be used to open any audit interface.
 All audit interfaces consist of at least three components, and the Resource Audit interface includes
 a fourth pane.
 
-![Interface components](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/interfacecomponents.webp)
+![Interface components](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/interfacecomponents.webp)
 
 The main section of the audit interface is the Results pane. On the right-side of the page are the
 Reports and Group Membership panes. On the Resource Audit interface, the Resources pane is to the
@@ -28,7 +28,7 @@ left of the Results pane. Theses panes have the following functions:
 
 The Reports pane lists available reports based on the type of resource selected.
 
-![Reports pane](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/reportspane.webp)
+![Reports pane](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/reportspane.webp)
 
 The report for the selected resource displays in the Results pane.
 
@@ -73,7 +73,7 @@ Trend Graphs
 Trend graphs are line graphs that provide a visual representation of the activity that occurred over
 the selected date range.
 
-![trendgraph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraph.webp)
+![trendgraph](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/trendgraph.webp)
 
 The vertical axis (X-axis) is the activity count value for the graph (unit is the number of events).
 The horizontal axis (Y-axis) is the time line for the graph. The legend identifies what the colors
@@ -81,7 +81,7 @@ represent. Hover over any point on the graph for the details to appear. Trend gr
 to only display specific objects from the legend. Deselect an object in the legend to remove that
 object from the graph, only showing the remaining objects.
 
-![Trend graph with Writes line removed](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/trendgraphremoved.webp)
+![Trend graph with Writes line removed](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/trendgraphremoved.webp)
 
 For example, if the **Writes** operation is deselected, only the operations of **Reads**,
 **Deletes**, and **Manages** remain on the line graph.
@@ -112,7 +112,7 @@ the **Change Access** button in the Owner portal to commit changes.
 In the upper-left corner of every interface, with the exception of the home page, is the Access
 Information Center Console navigation path, or breadcrumb.
 
-![Interface breadcrumb](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/navigate/breadcrumb.webp)
+![Interface breadcrumb](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/breadcrumb.webp)
 
 In this example, the path is **Home > Resource Audit**. If a link from a resource report is used to
 view a particular user audit, it would read **Home > Resource Audit > User Audit**. Clicking any

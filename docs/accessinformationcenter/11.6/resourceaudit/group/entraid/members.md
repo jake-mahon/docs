@@ -4,7 +4,7 @@ The Members report for a group object provides a list of all trustees, users, an
 membership in the audited Entra ID (formerly Azure Active Directory) group. This report includes a
 Membership Paths table.
 
-![Members report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/membersentraid.webp)
+![Members report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/entraid/membersentraid.webp)
 
 This report is comprised of the following columns:
 
@@ -24,7 +24,7 @@ This report is comprised of the following columns:
 If the selected trustee is a group, the Group Membership pane displays the group membership,
 including nested groups.
 
-![Membership Paths table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/membersentraidtable.webp)
+![Membership Paths table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/entraid/membersentraidtable.webp)
 
 There is one table at the bottom displaying Membership Paths for the selected Entra ID group. It
 contains all of the ways the audited group has been granted membership to the selected group.

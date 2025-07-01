@@ -2,7 +2,7 @@
 
 The Assigned Resources section lists all resources assigned to you.
 
-![Assigned Resources section of the Owner portal](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/assignedresources.webp)
+![Assigned Resources section of the Owner portal](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/assignedresources.webp)
 
 The table contains one row per assigned resource. The information in this table includes:
 
@@ -44,7 +44,7 @@ The **Update** button on the Owner portal opens the Update Resource window for t
 resource. You can confirm ownership, decline ownership, and optionally enter a description for the
 resource.
 
-![Update Resource window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/updateresource.webp)
+![Update Resource window](/img/product_docs/accessinformationcenter/12.0/resourceowners/ownerportal/updateresource.webp)
 
 There are two options for ownership confirmation:
 

@@ -3,7 +3,7 @@
 The Create Review wizard is opened with the **Create** button on the Resource Reviews interface. See
 the [Manage Reviews Page](/docs/accessinformationcenter/12.0/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
-![Create Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Create Review wizard](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -46,7 +46,7 @@ Follow the steps to create a review.
 
 **Step 1 –** On the Manage Reviews page, click Create. The Create Review wizard opens.
 
-![Create Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Create Review wizard Review Type page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, provide the following information and click **Next**:
 
@@ -142,7 +142,7 @@ created.
 **Step 6 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to create the review.
 
-![Create Review wizard review created message](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/created.webp)
+![Create Review wizard review created message](/img/product_docs/accessinformationcenter/12.0/resourcereviews/wizard/created.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been created (100%), click
 **Close**. The Create Review wizard closes.

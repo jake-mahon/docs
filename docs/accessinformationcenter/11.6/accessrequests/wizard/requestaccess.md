@@ -68,7 +68,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 
 **Step 5 –** When you selection list is set as desired, click **Next**.
 
-![Request Access wizard Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/wizard/addnotes.webp)
+![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/11.6/accessrequests/wizard/addnotes.webp)
 
 **Step 6 –** On the Add Notes page, enter the following information:
 

@@ -10,7 +10,7 @@ Center. See the
 [Notifications Page](/docs/accessinformationcenter/11.6/admin/configuration/notifications.md)
 topic for additional information.
 
-![Status Column in Resource Owners interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownershipconfirmation.webp)
+![Status Column in Resource Owners interface](/img/product_docs/accessinformationcenter/11.6/resourceowners/ownershipconfirmation.webp)
 
 The table in the Resource Owners interface includes a Status column. The following icons appear in
 this column to indicate confirmation status:

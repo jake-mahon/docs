@@ -4,7 +4,7 @@ The Permissions report at the site collection, site, list, library, and folder l
 list of trustees with permissions for the selected resource. This report includes a table with
 trustee access levels Compared to Parent.
 
-![Permissions report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissions.webp)
+![Permissions report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sitecollections/sitepermissions.webp)
 
 This report is comprised of the following columns:
 
@@ -48,7 +48,7 @@ displays the group membership, including nested groups.
 There is one table at the bottom displaying Compared to Parent permissions for the select trustee.
 It contains information on explicit permissions granted for the selected resource.
 
-![Compared to Parent table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitepermissionstable.webp)
+![Compared to Parent table](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sitecollections/sitepermissionstable.webp)
 
 This table is blank unless an **Explicit Permissions** icon is attached to the resource in the
 Resources pane. See the [Resources Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/resource.md#resources-pane) topic for

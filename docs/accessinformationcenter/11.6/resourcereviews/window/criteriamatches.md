@@ -3,7 +3,7 @@
 The criteria type listed in a Sensitive Data review appears as a blue hyperlink. Click the hyperlink
 to open the Criteria Matches window.
 
-![Criteria Matches window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/criteriamatches.webp)
+![Criteria Matches window](/img/product_docs/accessinformationcenter/11.6/resourcereviews/window/criteriamatches.webp)
 
 The table displays the following information for each match found on the selected file:
 

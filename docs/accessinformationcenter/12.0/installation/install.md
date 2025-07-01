@@ -73,7 +73,7 @@ Access Information Center.
 When the protocol and port are set as desired, click **Next**. If you selected the http option, skip
 to step 8.
 
-![AIC Setup Wizard Configure Server Certificate page](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificate.webp)
+![AIC Setup Wizard Configure Server Certificate page](/img/product_docs/accessinformationcenter/12.0/installation/servercertificate.webp)
 
 **Step 7 –** On the Configure Server Certificate page, provide the certificate for the SSL binding.
 
@@ -82,13 +82,13 @@ to step 8.
     - Click **Browse** to open the file explorer window. Browse to the folder where the certificate
       is located and select the certificate, then click **Open**.
 
-        ![Certificate Password window](/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatepassword.webp)
+        ![Certificate Password window](/img/product_docs/accessinformationcenter/12.0/installation/certificatepassword.webp)
 
     - On the Certificate Password window, enter the password for the certificate. Click **OK**.
     - The certificate information is displayed in the fields. Optionally, select the **Import the
       certificate to the personal on the local machine for local browsing** option.
 
-    ![Certificate Missing Private Key window](/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatemissingprivatekey.webp)
+    ![Certificate Missing Private Key window](/img/product_docs/accessinformationcenter/12.0/installation/certificatemissingprivatekey.webp)
 
     **NOTE:** If the selected certificate resides in any of the Local Computer stores but does not
     have a private key, or if the certificate is not found in any of the stores, then it cannot be
@@ -96,13 +96,13 @@ to step 8.
     informing you that it will be imported to the Personal store. This means that the Import option
     is selected by default and grayed out to mandate the import of the certificate.
 
-    ![Valid certficate detected bound to the port](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificatevalid.webp)
+    ![Valid certficate detected bound to the port](/img/product_docs/accessinformationcenter/12.0/installation/servercertificatevalid.webp)
 
 - If a valid certificate is already bound to the port used by the Access Information Center, then
   this is detected automatically and the fields are populated with the certificate information
   without needing to select the certificate or provide a password. The Import option is disabled.
 
-    ![Expired certificate detected bound to the port](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificateexpired.webp)
+    ![Expired certificate detected bound to the port](/img/product_docs/accessinformationcenter/12.0/installation/servercertificateexpired.webp)
 
 - If an expired certificate is detected, the certificate information is populated, but a warning
   message is displayed. You must provide a new valid certificate, before you can continue.

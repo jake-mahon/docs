@@ -12,7 +12,7 @@ Choose between:
 
 ## Select a Probable Owner
 
-![Add Owner window showing Probable Owner option](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/addownerprobable.webp)
+![Add Owner window showing Probable Owner option](/img/product_docs/accessinformationcenter/11.6/resourceowners/window/addownerprobable.webp)
 
 Probable owners are calculated from the available data:
 
@@ -43,7 +43,7 @@ selected user appears in the Owner list.
 
 ## Search for Owner
 
-![Add Owner window showing Search option](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/addownersearch.webp)
+![Add Owner window showing Search option](/img/product_docs/accessinformationcenter/11.6/resourceowners/window/addownersearch.webp)
 
 Enter a name in the search field to find and select users from Active Directory, which populates in
 a drop-down menu as you type. If multiple domains are known to the application, ensure the correct

@@ -9,17 +9,17 @@ topic for best practices for group and resource management through the Access In
 
 Follow the steps to apply delegation to the desired OUs.
 
-![Active Directory Users and Computers showing right-click menu](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/delegatecontrol.webp)
+![Active Directory Users and Computers showing right-click menu](/img/product_docs/accessinformationcenter/11.6/admin/troubleshooting/delegatecontrol.webp)
 
 **Step 1 –** In Active Directory Users and Computers, right-click on the OU housing the groups to be
 managed. Select **Delegate Control**. The Delegation of Control Wizard opens.
 
-![Delegation of Control wizard showing the Users or Groups page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/delegatecontrolwizarduser.webp)
+![Delegation of Control wizard showing the Users or Groups page](/img/product_docs/accessinformationcenter/11.6/admin/troubleshooting/delegatecontrolwizarduser.webp)
 
 **Step 2 –** Navigate to the Users or Groups page. Click **Add**. Enter the Active Directory service
 account. Click **Next**.
 
-![Delegation of Control wizard showing the Tasks to Delegate page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/delegatecontrolwizardtask.webp)
+![Delegation of Control wizard showing the Tasks to Delegate page](/img/product_docs/accessinformationcenter/11.6/admin/troubleshooting/delegatecontrolwizardtask.webp)
 
 **Step 3 –** Navigate to the Tasks to Delegate page. Select the **Delegate the following tasks**
 option and check the **Modify the membership of a group** task.

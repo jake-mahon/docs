@@ -126,7 +126,7 @@ for additional information.
 
 The buttons at the top and bottom enable you to conduct the following actions:
 
-![Action buttons on the Review Details page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/reviewdetailsbuttons.webp)
+![Action buttons on the Review Details page](/img/product_docs/accessinformationcenter/11.6/resourcereviews/reviewdetailsbuttons.webp)
 
 | Button          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

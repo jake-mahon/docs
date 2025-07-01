@@ -23,7 +23,7 @@ The table data grid functions the same way as other table grids. See the
 The View Details button at the bottom of the Review History page opens the Review Details window for
 a resource where changes were recommended.
 
-![Review Details Window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewdetails.webp)
+![Review Details Window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/reviewdetails.webp)
 
 The information displayed in the table includes:
 

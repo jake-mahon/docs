@@ -6,13 +6,13 @@ access to a resource. Follow the steps to remove your access.
 **Step 1 –** In the Your Access portal, select the desired resource from the list of current access
 and click **Remove Access**. The Remove Access window opens to confirm the action.
 
-![Remove Access window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/removeaccess.webp)
+![Remove Access window](/img/product_docs/accessinformationcenter/12.0/accessrequests/window/removeaccess.webp)
 
 **Step 2 –** Click **Yes** to cancel the remove your access for the selected resource.
 
 **NOTE:** You can click **No** to keep the access and close the Remove Access window.
 
-![Remove Access window access removed message](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/window/removeaccesscomplete.webp)
+![Remove Access window access removed message](/img/product_docs/accessinformationcenter/12.0/accessrequests/window/removeaccesscomplete.webp)
 
 **Step 3 –** The Access Information Center starts the action. When the action completes
 successfully, click **OK** to close the Remove Access window.

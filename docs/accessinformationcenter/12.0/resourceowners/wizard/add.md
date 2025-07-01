@@ -2,7 +2,7 @@
 
 The Add new resource wizard is opened with the **Add** button in the Resource Owners interface.
 
-![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
 
 It contains five pages:
 
@@ -30,7 +30,7 @@ Follow the steps to add resources one at a time and assign owners.
 
 **Step 1 –** In the Resource Owners interface, click **Add**. The Add new resource wizard opens.
 
-![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Add new resource wizard page showing 1. Select Resources page](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, select the resource to be managed. Then click **Next**.
 
@@ -44,13 +44,13 @@ Follow the steps to add resources one at a time and assign owners.
 - Browse option – Navigate through the resource tree to select the desired File System or SharePoint
   resource.
 
-![Add new resources wizard showing 2. Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
+![Add new resources wizard showing 2. Select Owners page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectowners.webp)
 
 **Step 3 –** On the Select Owners page, click **Add** to browse for an owner. Repeat this Step to
 add multiple owners. See the [Add Owner Window](/docs/accessinformationcenter/12.0/resourceowners/window/addowner.md) topic for additional
 information.
 
-![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectownerswithowners.webp)
+![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectownerswithowners.webp)
 
 **Step 4 –** When only one owner is assigned, the owner will be the Primary by default. When
 multiple owners are assigned, the first owner in the list is the Primary owner. Use the arrow
@@ -72,7 +72,7 @@ the owners:
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
 
-![Add new resource wizard showing 4. Access Groups page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/accessgroups.webp)
+![Add new resource wizard showing 4. Access Groups page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/accessgroups.webp)
 
 **Step 6 –** On the Access Groups page, optionally enable Access Requests and Owner Ad Hoc changes
 for this resource:
@@ -82,7 +82,7 @@ for this resource:
 - Allow owners to change access — Check this option to enable the owner to make ad hoc access
   changes for this resource
 
-![Add new resource wizard showing 4. Access Groups page with groups configured](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/accessgroupsconfigured.webp)
+![Add new resource wizard showing 4. Access Groups page with groups configured](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/accessgroupsconfigured.webp)
 
 **Step 7 –** When File System or SharePoint resources will be managed through the AIC, it is
 necessary to configure access groups for those resources in the target environment. An access group

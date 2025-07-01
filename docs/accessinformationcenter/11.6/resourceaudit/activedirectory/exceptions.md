@@ -3,7 +3,7 @@
 The Exceptions report at the **Active Directory** node provides a list of exceptions that were found
 across the targeted Active Directory environment. This report includes a Details table.
 
-![Exceptions report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/exceptions.webp)
+![Exceptions report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/exceptions.webp)
 
 An exception is defined as a problem or risk to Active Directory security. Exceptions include deeply
 nested groups and stale membership. This table will be blank if no exceptions were found within the

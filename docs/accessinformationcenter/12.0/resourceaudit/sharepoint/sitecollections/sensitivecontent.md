@@ -4,7 +4,7 @@ The Sensitive Content report at the site collection, site, list, library, and fo
 a list of files and a hit count per file where criteria matches were found on the selected resource.
 This report includes a Matches table.
 
-![Sensitive Content report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitesensitivecontent.webp)
+![Sensitive Content report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/12.0/resourceaudit/sharepoint/sitecollections/sitesensitivecontent.webp)
 
 This report is comprised of the following columns:
 

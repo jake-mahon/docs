@@ -5,7 +5,7 @@ by user on the selected server during the specified date range. Activity on DFS 
 level is rolled up to the server hosting the DFS Namespace. This report includes line graphs for
 Active Users Trend and Traffic Trend.
 
-![Activity Statistics report at the server level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serveractivitystatistics.webp)
+![Activity Statistics report at the server level](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/server/serveractivitystatistics.webp)
 
 This report is comprised of the following columns:
 
@@ -33,12 +33,12 @@ The table data grid functions the same way as other table grids. See the
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
 selected resource.
 
-![Active Users Trend line graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
+![Active Users Trend line graph](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users
 over the selected date range. It indicates how many users are performing operations per day.
 
-![Traffic Trend line graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
+![Traffic Trend line graph](/img/product_docs/accessinformationcenter/12.0/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
 
 The Traffic Trend line graph provides a visual representation of the number of operations events
 that occurred by operation type over the selected date range. It indicates what volume of operations

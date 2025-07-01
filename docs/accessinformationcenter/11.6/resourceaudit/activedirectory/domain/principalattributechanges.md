@@ -3,7 +3,7 @@
 The Principal Attribute Changes report at the domain level provides change event information by
 trustee on the selected domain during the specified date range.
 
-![Principal Attribute Changes report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/domain/principalattributechanges.webp)
+![Principal Attribute Changes report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/activedirectory/domain/principalattributechanges.webp)
 
 This table is blank if no changes occurred during the specified date range. This report is comprised
 of the following columns:

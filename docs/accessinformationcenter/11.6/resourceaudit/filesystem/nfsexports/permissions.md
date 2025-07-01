@@ -3,7 +3,7 @@
 The Permissions report at the NFS Exports share and subfolder levels provides a list of trustees
 with permissions for the selected resource and access level for each trustee.
 
-![Permissions report at the NFS Exports share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/nfspermissions.webp)
+![Permissions report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/nfspermissions.webp)
 
 This report is comprised of the following columns:
 

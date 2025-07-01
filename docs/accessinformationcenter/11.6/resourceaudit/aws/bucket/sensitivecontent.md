@@ -6,7 +6,7 @@ criteria Matches visible to Access Information Center users with either Security
 Administrator roles. The Matches table requires the storage of discovered sensitive data within the
 Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the Bucket level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/aws/bucket/bucketsensitivecontent.webp)
+![Sensitive Content report at the Bucket level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/aws/bucket/bucketsensitivecontent.webp)
 
 This report is comprised of the following columns:
 

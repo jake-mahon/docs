@@ -13,7 +13,7 @@ system resources. See the
 topic for SharePoint for additional information on the effective access calculations for SharePoint
 resources.
 
-![Effective Access report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/effectiveaccessentraid.webp)
+![Effective Access report](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/entraid/effectiveaccessentraid.webp)
 
 This report contains a list of all resources the audited Entra ID group has the ability to access
 within the targeted environments. When this report is opened, the Access Information Center begins
@@ -54,7 +54,7 @@ The following rights are a normalized representation of the permissions granted 
 There is one table at the bottom displaying Permission Source for the select resource. It contains
 all of the ways the audited Entra ID group has been granted rights to the selected resource.
 
-![Permission Source table](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/entraid/effectiveaccessentraidtable.webp)
+![Permission Source table](/img/product_docs/accessinformationcenter/11.6/resourceaudit/group/entraid/effectiveaccessentraidtable.webp)
 
 The number of rows for this table indicates the number of ways the audited Entra ID group has been
 granted access to this resource. This table is comprised of the following columns:

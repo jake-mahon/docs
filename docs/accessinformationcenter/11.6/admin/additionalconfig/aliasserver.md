@@ -18,7 +18,7 @@ Follow the steps to supply an alias server host name for notification hyperlinks
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, for
 example Notepad.
 
-![Response Server Host Name parameter in config file](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/configfileresponseservername.webp)
+![Response Server Host Name parameter in config file](/img/product_docs/accessinformationcenter/11.6/admin/additionalconfig/configfileresponseservername.webp)
 
 **Step 2 –** Locate the `ResponseServerHostName` parameter. By default, the value is blank. If left
 blank, the default URL is used in notifications. Edit this parameter value by adding an alias server

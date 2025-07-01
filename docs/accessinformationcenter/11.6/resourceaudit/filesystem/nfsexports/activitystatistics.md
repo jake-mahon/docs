@@ -7,7 +7,7 @@ option is active by default until removed. See the
 [Results Pane](/docs/accessinformationcenter/11.6/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
-![Activity Statistics report at the NFS Exports share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitystatistics.webp)
+![Activity Statistics report at the NFS Exports share and subfolder levels](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/nfsactivitystatistics.webp)
 
 This report is comprised of the following columns:
 
@@ -37,12 +37,12 @@ for additional information.
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
 selected resource.
 
-![Active Users Trend line graph](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
+![Active Users Trend line graph](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users
 over the selected date range. It indicates how many users are performing operations per day.
 
-![Traffic Trend line graph](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
+![Traffic Trend line graph](/img/product_docs/accessinformationcenter/11.6/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
 
 The Traffic Trend line graph provides a visual representation of the number of operations events
 that occurred by operation type over the selected date range. It indicates what volume of operations

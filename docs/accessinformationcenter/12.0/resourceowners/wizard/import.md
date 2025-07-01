@@ -2,7 +2,7 @@
 
 The Import Owners wizard is opened with the **Import** button in the Resource Owners interface.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
 
 It contains two pages:
 
@@ -17,7 +17,7 @@ The CSV file should list one resource per row using the following format:
 
 [ResourcePath],[Owner1];[Owner2];[Owner3],[Description]
 
-![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/csvfileformat.webp)
+![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
 
@@ -56,12 +56,12 @@ interface.
 
 **Step 1 –** In the Resource Owners interface, click **Import**. The Import Owners wizard opens.
 
-![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfile.webp)
 
 **Step 2 –** On the Select Files page, click **Add**.Navigate to the CSV file to be imported and
 click **Open**.
 
-![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfilepreview.webp)
+![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectfilepreview.webp)
 
 **Step 3 –** A preview of the resources and owners appears in the table. The Status column indicates
 whether or not there is a problem (invalid resource or owner). Ensure all resources in the table

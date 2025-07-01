@@ -17,7 +17,7 @@ SMTP server settings from Enterprise Auditor should be populated automatically. 
 information can be supplied and modified on the Notifications page. Follow the steps to configure or
 modify the SMTP settings.
 
-![Notifications page SMTP server settings section](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notificationsserversettings.webp)
+![Notifications page SMTP server settings section](/img/product_docs/accessinformationcenter/11.6/admin/configuration/notificationsserversettings.webp)
 
 **Step 1 –** In the Configuration interface, select the Notifications page.
 
@@ -84,7 +84,7 @@ additional Notification options.
 Once the SMTP server is configured, there are additional options. Only the Reply-To field must be
 populated:
 
-![Notifications page showing Notification Options section](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notificationsnotificationoptions.webp)
+![Notifications page showing Notification Options section](/img/product_docs/accessinformationcenter/11.6/admin/configuration/notificationsnotificationoptions.webp)
 
 - Reply-To — The email address that receives responses to notifications sent by the application.
   This can be a “no reply” address.

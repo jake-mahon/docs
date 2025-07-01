@@ -34,7 +34,7 @@ pending until you submit all recommendations for this resource.
 **Step 3 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Membership review Review changes tab](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/review/reviewpagemembership2.webp)
+![Membership review Review changes tab](/img/product_docs/accessinformationcenter/11.6/resourcereviews/review/reviewpagemembership2.webp)
 
 **Step 4 –** This tab displays a filtered table of trustees with recommended changes. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

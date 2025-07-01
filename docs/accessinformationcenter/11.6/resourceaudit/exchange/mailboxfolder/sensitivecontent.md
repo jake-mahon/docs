@@ -6,7 +6,7 @@ table with criteria matches visible to Access Information Center users with eith
 Member or Administrator roles. The Matches table requires the storage of discovered sensitive data
 within the Enterprise Auditor database or it will be blank.
 
-![Sensitive Content report at the mailbox and folder level](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/exchange/mailboxfolder/mailboxsensitivecontent.webp)
+![Sensitive Content report at the mailbox and folder level](/img/product_docs/accessinformationcenter/11.6/resourceaudit/exchange/mailboxfolder/mailboxsensitivecontent.webp)
 
 This report is comprised of the following columns:
 

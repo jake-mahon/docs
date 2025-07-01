@@ -6,7 +6,7 @@ review. Each instance is identified by date timestamps indicating its start and 
 **_RECOMMENDED:_** Prior to running another review instance, ensure the most up to date information
 is available to owners for review.
 
-![Manage Reviews page with completed review selected](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/interfacerunagain.webp)
+![Manage Reviews page with completed review selected](/img/product_docs/accessinformationcenter/12.0/resourcereviews/interfacerunagain.webp)
 
 On the Manage Reviews page in the Resource Reviews interface, a review with a Completed status can
 be started again. Select the review and click **Run Again**. The Create Review wizard opens without
@@ -14,7 +14,7 @@ the Review Type page. The review can be run as-is by navigating through the wiza
 buttons, or you can modify as desired. Completing the wizard process restarts the review. See the
 [Create Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/wizard/create.md) topic for additional information.
 
-![Instance drop-down on Review Details page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewinstances.webp)
+![Instance drop-down on Review Details page](/img/product_docs/accessinformationcenter/12.0/resourcereviews/reviewinstances.webp)
 
 Previous instances for a review can be viewed on the Review Details page. Select the instance from
 the drop-down menu to show the details for it. See the

@@ -106,7 +106,7 @@ user is to disable their access. See the Modify Console Users topic for addition
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/consoleaccessremove.webp)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/12.0/admin/configuration/consoleaccessremove.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user.
 
@@ -119,7 +119,7 @@ The user is removed from the list on the Console Access page.
 The Builtin Administrator account can be disabled or its password can be changed. Follow the steps
 to modify this account.
 
-![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/modifybuiltinadministrator.webp)
+![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/12.0/admin/configuration/modifybuiltinadministrator.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the Builtin
 Administrator account and click **Modify**. The Builtin Administrator window opens.

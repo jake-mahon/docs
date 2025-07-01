@@ -4,7 +4,7 @@ The View Responses window opens from the **View Response** button on the
 [Review Details Page](/docs/accessinformationcenter/12.0/resourcereviews/interface.md#review-details-page) of the Resource Reviews interface. It
 displays all owner-recommended changes and notes for the selected resource.
 
-![View Responses window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
+![View Responses window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
 
 The information displayed in the table includes:
 
@@ -50,7 +50,7 @@ The table data grid functions the same way as other table grids. See the
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.webp)
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/viewresponsesbuttons.webp)
 
 | Button     | Description                                                                                                                                                                                                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

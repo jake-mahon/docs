@@ -74,7 +74,7 @@ the owners:
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
 
-![Add new resource wizard showing 4. Access Groups page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/accessgroups.webp)
+![Add new resource wizard showing 4. Access Groups page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/accessgroups.webp)
 
 **Step 6 –** On the Access Groups page, optionally enable Access Requests and Owner Ad Hoc changes
 for this resource:
@@ -84,7 +84,7 @@ for this resource:
 - Allow owners to change access — Check this option to enable the owner to make ad hoc access
   changes for this resource
 
-![Add new resource wizard showing 4. Access Groups page with groups configured](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/accessgroupsconfigured.webp)
+![Add new resource wizard showing 4. Access Groups page with groups configured](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/accessgroupsconfigured.webp)
 
 **Step 7 –** When File System or SharePoint resources will be managed through the AIC, it is
 necessary to configure access groups for those resources in the target environment. An access group

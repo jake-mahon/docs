@@ -7,7 +7,7 @@ _Remember,_ the Members report for a built-in group contains different informati
 group types. See the [Members Report for a Built-in Group](/docs/accessinformationcenter/12.0/resourceaudit/group/membersbuiltin.md) topic for additional
 information.
 
-![Members report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/members.webp)
+![Members report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/members.webp)
 
 This report is comprised of the following columns:
 

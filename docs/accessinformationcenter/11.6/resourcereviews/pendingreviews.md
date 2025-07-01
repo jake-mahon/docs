@@ -6,13 +6,13 @@ privileges users have to your resource. When the Review Administrator creates a 
 a new instance of an existing review, you receive an email notification that includes a link to the
 your pending reviews.
 
-![Email notification of pending review](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/newreview.webp)
+![Email notification of pending review](/img/product_docs/accessinformationcenter/11.6/resourcereviews/newreview.webp)
 
 Use the **Sign in** link at the bottom to open the Owner portal in the Access Information Center.
 
 _Remember,_ Your company domain credentials are used to log in.
 
-![Reviews link on the Ownership portal](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/ownershipportal.webp)
+![Reviews link on the Ownership portal](/img/product_docs/accessinformationcenter/11.6/resourcereviews/ownershipportal.webp)
 
 The Owner portal displays a number next to the **Reviews**link to indicate how many of your
 resources are included in pending reviews. Click the link to open the Reviews interface. The Reviews
@@ -25,7 +25,7 @@ topics for additional information.
 
 The Pending Reviews page lists all of your resources included in pending reviews.
 
-![Pending Reviews page of the Reviews interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.webp)
+![Pending Reviews page of the Reviews interface](/img/product_docs/accessinformationcenter/11.6/resourcereviews/pendingreviews.webp)
 
 The information displayed in the table includes:
 

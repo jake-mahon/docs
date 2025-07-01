@@ -10,7 +10,7 @@ Follow the steps to modify the log level.
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, for
 example Notepad.
 
-![Log Level parameter in the config file](/img/product_docs/accessinformationcenter/access/informationcenter/admin/troubleshooting/loglevel.webp)
+![Log Level parameter in the config file](/img/product_docs/accessinformationcenter/12.0/admin/troubleshooting/loglevel.webp)
 
 **Step 2 –** The level value is set in the `LogLevel` parameter, where 0 is the default level. As
 the logging level increases from 0 to 3, the types of information and level of detail included

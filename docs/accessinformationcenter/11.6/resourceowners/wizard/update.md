@@ -61,7 +61,7 @@ information on the owners:
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
 the textbox. Then click **Next** to continue.
 
-![Update resource wizard showing 3. Access Groups page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/accessgroups.webp)
+![Update resource wizard showing 3. Access Groups page](/img/product_docs/accessinformationcenter/11.6/resourceowners/wizard/accessgroups.webp)
 
 **Step 4 –** The Access Groups page indicates whether or not the resource is available for Access
 Requests or Owner Ad Hoc changes. Modify as desired and click **Next** to continue.

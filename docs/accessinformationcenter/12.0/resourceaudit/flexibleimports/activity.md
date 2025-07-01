@@ -4,7 +4,7 @@ The Activity report for imported data displays activity on the resource during t
 range. The **Include Subfolders** option is active by default until removed. See the
 [Results Pane](/docs/accessinformationcenter/12.0/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this option.
 
-![Activity report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/flexibleimports/activity.webp)
+![Activity report for imported data](/img/product_docs/accessinformationcenter/12.0/resourceaudit/flexibleimports/activity.webp)
 
 This report is comprised of the following columns:
 

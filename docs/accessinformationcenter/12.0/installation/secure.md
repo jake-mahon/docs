@@ -82,7 +82,7 @@ Notepad. The file is located in the Access Information Center installation direc
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilessl.webp)
 
 **Step 2 –** Change the `BindingUrl` key value to `"https://+:481"` (ensure the port number matches
 the port number used in the PowerShell command run to create the SSL Binding).
@@ -103,7 +103,7 @@ Follow the steps to update the AIC’s desktop icon's Access Information Center'
 **Step 1 –** Right click on the **Access Information Center** desktop shortcut and click
 **Properties**.
 
-![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
+![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/12.0/installation/aicproperties.webp)
 
 **Step 2 –** On the **Web Document** tab, enter the updated **URL** in the text box to:
 `https://[hostname.domain.com]:481/v2/login`
@@ -128,14 +128,14 @@ additional information.
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
-![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
+![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/12.0/installation/configfilelocation.webp)
 
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilesso.webp)
 
 **Step 2 –** Locate the line containing the `AuthAllowWindowsAuthentication` parameter. By default,
 the value will be set to `False`:
