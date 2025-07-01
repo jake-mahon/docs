@@ -14,7 +14,7 @@ Follow the steps to install an instant solution or an instant job with the Insta
 **Step 1 –** Select the Jobs tree (for an instant solution) or the desired job group (for an instant
 job), right-click on the node, and select **Add Instant Job**.
 
-![Instant Job Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Instant Job Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next**.
 

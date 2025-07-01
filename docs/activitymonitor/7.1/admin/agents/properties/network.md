@@ -3,7 +3,7 @@
 Use the Network Tab to specify the network interface that NAS devices or API Server users use to
 connect to this server.
 
-![Agent Properties - Network Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/networktab.webp)
+![Agent Properties - Network Tab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/networktab.webp)
 
 If an agent machine has multiple network adapters, network interfaces can be specified in the
 Network Tab. Select a network interface option from the **Network Interface** dropdown menu. The

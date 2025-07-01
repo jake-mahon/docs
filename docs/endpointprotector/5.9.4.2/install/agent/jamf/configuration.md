@@ -221,4 +221,4 @@ Click **Save** to apply all settings to the new configuration profile.
 **NOTE:** To confirm that the new configuration profile is saved successfully, reboot your computer
 at this point.
 
-![Selecting Devices and Users to deploy to the new profile.](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Selecting Devices and Users to deploy to the new profile.](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)

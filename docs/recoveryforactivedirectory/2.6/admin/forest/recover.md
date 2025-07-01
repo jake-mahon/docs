@@ -77,7 +77,7 @@ adjacent pane displays the domain controllers in that domain.
 controller to add it to the recovery playbook. The Add to Recovery Playbook wizard opens, where you
 can specify the restore settings for the domain controller.
 
-![Add to Recovery Playbook wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
+![Add to Recovery Playbook wizard - Domain Controller page](/img/product_docs/activitymonitor/8.0/install/agent/domaincontroller.webp)
 
 **Step 4 –** On the Domain Controller page, the Source Domain Controller section displays
 information for the domain controller that is being added to the playbook. It displays the domain it

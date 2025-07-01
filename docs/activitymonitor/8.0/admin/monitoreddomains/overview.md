@@ -36,7 +36,7 @@ output needs to be designated to view data after an activity search has been per
 
 The button bar allows users to take the following actions:
 
-![Monitored Domains Tab in the Activiy Monitor](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/activtymonitorblank.webp)
+![Monitored Domains Tab in the Activiy Monitor](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/activtymonitorblank.webp)
 
 - Add Output – Select an output from the Add Output dropdown. The outputs are: File, Syslog, and
   StealthDEFEND. See the [Output for Monitored Domains](/docs/activitymonitor/8.0/admin/monitoreddomains/output.md)
@@ -50,7 +50,7 @@ The button bar allows users to take the following actions:
 
 The table of Domains being monitored provides the following information:
 
-![Monitored Domains Tab with Domain Outputs added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/actiivtymonitordomainoutputsadded.webp)
+![Monitored Domains Tab with Domain Outputs added](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/actiivtymonitordomainoutputsadded.webp)
 
 - Domain – Name or IP Address of the domain being monitored
 
@@ -67,7 +67,7 @@ provides visibility into a domain's monitoring state. Domain monitoring status i
 Monitored Domains table under the Status column. Users can expand the Error Propagation section to
 view more information on various status conditions.
 
-![Error Propagation](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/errorpropagation.webp)
+![Error Propagation](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/errorpropagation.webp)
 
 Click the **Down Arrow** to expand the Error Propagation section. The information listed is
 dependent on which domain is currently selected in the Monitored Domains table.

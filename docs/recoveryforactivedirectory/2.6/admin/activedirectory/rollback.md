@@ -33,7 +33,7 @@ select the checkbox(es) for the attributes you want to roll back. Click **Next**
 
 **Step 6 –** Click **Next**.
 
-![Object Rollback wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Object Rollback wizard - Credentials page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
 
 **Step 7 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Credentials page:

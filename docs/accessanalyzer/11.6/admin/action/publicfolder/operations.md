@@ -2,7 +2,7 @@
 
 Use the Operations page to specify the operations to perform as part of the action.
 
-![Public Folder Action Module Wizard Operations page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Public Folder Action Module Wizard Operations page](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The **Add operation** drop-down menu lists the operations that can be performed. Each operation
 opens a corresponding window. Operations include:

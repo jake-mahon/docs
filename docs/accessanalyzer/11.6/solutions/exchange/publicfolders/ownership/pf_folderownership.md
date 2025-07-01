@@ -52,7 +52,7 @@ Data Collector Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Public Folder Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 **Step 4 –** To modify the scope of the search, navigate to the Scope page. The scope is configured
 using the following settings:

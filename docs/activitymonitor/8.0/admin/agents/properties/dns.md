@@ -2,7 +2,7 @@
 
 Use the DNS tab to customize how the agent queries and caches DNS results.
 
-![DNS Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/dnstab.webp)
+![DNS Tab](/img/product_docs/activitymonitor/8.0/admin/agents/properties/dnstab.webp)
 
 The configurable options are:
 

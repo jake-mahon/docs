@@ -8,7 +8,7 @@ to install the FSAA service on the targeted proxy servers.
 **Step 1 –** Run the `FileSystemProxy.exe` executable. The Netwrix Enterprise Auditor File System
 Scanning Proxy Setup wizard opens.
 
-![File System Proxy Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![File System Proxy Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
@@ -23,7 +23,7 @@ Agreement** checkbox and click **Next**.
 click **Change** to select a different location. Clicking **Change** opens the Change destination
 folder page.
 
-![File System Proxy Setup Wizard Change destination folder page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/changedestination.webp)
+![File System Proxy Setup Wizard Change destination folder page](/img/product_docs/activitymonitor/7.1/install/agent/changedestination.webp)
 
 On the Change destination folder page, choose a different destination folder for the installation.
 
@@ -47,11 +47,11 @@ radio buttons. Then, click **Next**.
   Administrator on the proxy server and have the Log on as a service privilege in the proxy server's
   Local Security Policy.
 
-![File System Proxy Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
+![File System Proxy Setup Wizard Ready to install page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
 
 **Step 6 –** On the Ready to install page, click **Install** to start installation.
 
-![File System Proxy Setup Wizard Completed page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/complete.webp)
+![File System Proxy Setup Wizard Completed page](/img/product_docs/activitymonitor/7.1/install/complete.webp)
 
 **Step 7 –** When the installation completes, click **Finish** to exit the wizard.
 

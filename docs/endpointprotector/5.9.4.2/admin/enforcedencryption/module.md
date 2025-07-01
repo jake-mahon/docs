@@ -58,7 +58,7 @@ Encryption and Trusted Device™ Level 1.
 This section allows you to remotely manage Enforced Encryption encrypted devices. Before being able
 to take advantage of these features, you must conﬁgure a Master Password.
 
-![Enforced Encryption Settings](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
+![Enforced Encryption Settings](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/settings.webp)
 
 In the Settings section, the Master Password can be conﬁgured, the Enforced Encryption File Tracing
 enabled, as well as deﬁning the installation and execution of Enforced Encryption only on computers

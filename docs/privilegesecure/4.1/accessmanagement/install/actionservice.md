@@ -35,7 +35,7 @@ wizard will open.
 
 **Step 4 –** To install the Action Service in an alternate location, click **Options**.
 
-![installlocation](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/installlocation.webp)
+![installlocation](/img/product_docs/activitymonitor/7.1/install/agent/installlocation.webp)
 
 **Step 5 –** Enter the destination folder for installation and click OK.
 

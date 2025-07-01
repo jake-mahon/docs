@@ -6,7 +6,7 @@ Administration Console.
 
 **Step 1 –** Navigate to the **Cluster Management** tab, and select **Auditing**.
 
-![settings](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
+![settings](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/settings.webp)
 
 **Step 2 –** In the Settings section, check the Enable Protocol Access Auditing box.
 
@@ -37,7 +37,7 @@ For each monitored access zone:
     isi audit settings modify --zone ZONENAME
     --audit-success=close_file_modified,close_file_unmodified,create_file,create_directory,delete_file,delete_directory,rename_file,rename_directory,set_security_file,set_security_directory
 
-![eventforwarding](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/eventforwarding.webp)
+![eventforwarding](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/eventforwarding.webp)
 
 **Step 4 –** In the Event Forwarding section, add the CEE Server URI value for the Windows or Linux
 server hosting CEE. Use either of the following format:

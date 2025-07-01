@@ -30,7 +30,7 @@ To find a password, just use the search field and enter a tag like the departmen
 are in (i.e., "Marketing"). Netwrix Password Secure now not only is searching for tags, but also for
 “Marketing” in all Netwrix Password Secure fields (i.e., Content Marketing).
 
-![searchresults](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.webp)
+![searchresults](/img/product_docs/activitymonitor/8.0/admin/search/results/searchresults.webp)
 
 NOTE: Optimize your search results by using the **minus sign (-)** to exclude terms: Only results in
 which this word does not appear will be displayed (i.e., all social media accounts that are used

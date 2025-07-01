@@ -4,7 +4,7 @@ Use the Network Proxy tab to set the proxy for connection to Microsoft Entra IDÂ
 and Office 365 monitoring. You can leave the properties blank to connect to Microsoft Entra ID
 directly.
 
-![Agent Properties - Network Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/networkproxytab.webp)
+![Agent Properties - Network Tab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/networkproxytab.webp)
 
 The configurable options are:
 

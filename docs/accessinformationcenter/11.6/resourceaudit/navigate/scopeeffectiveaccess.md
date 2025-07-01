@@ -4,7 +4,7 @@ Once an Effective Access report’s loading process has stopped, either by compl
 the targeted environments or via the **Cancel** button, follow the steps to change the scoping
 settings.
 
-![Scope button](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Scope button](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 **Step 1 –** Click **Scope** at the top of the report in the Results pane. The Scope Configuration
 window opens.

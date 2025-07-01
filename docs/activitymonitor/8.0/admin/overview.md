@@ -3,7 +3,7 @@
 The Activity Monitor Console is used to deploy and manage activity agents, configure host
 monitoring, and search events within activity log files.
 
-![Activity Monitor with Navigation tabs identified](/img/product_docs/activitymonitor/activitymonitor/admin/activitymonitormain.webp)
+![Activity Monitor with Navigation tabs identified](/img/product_docs/activitymonitor/8.0/admin/activitymonitormain.webp)
 
 There are up to three tabs at the top left of the window:
 

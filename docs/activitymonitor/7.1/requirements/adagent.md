@@ -12,12 +12,12 @@ AD activity data.
 Activity Monitor Agents: This option focuses solely on monitoring AD activity, providing basic
 visibility into AD events without additional features.
 
-![nam_admodule](/img/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/nam_admodule.webp)
+![nam_admodule](/img/product_docs/activitymonitor/7.1/requirements/nam_admodule.webp)
 
 Netwrix Threat Prevention: Offers a more comprehensive and flexible monitoring experience, including
 advanced features like operation blocking and enhanced monitoring capabilities.
 
-![ntp](/img/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/ntp.webp)
+![ntp](/img/product_docs/activitymonitor/7.1/requirements/ntp.webp)
 
 These methods provide organizations with a choice between basic AD activity monitoring and a more
 versatile, security-enhanced option.

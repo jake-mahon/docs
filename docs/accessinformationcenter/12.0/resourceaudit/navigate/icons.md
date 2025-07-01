@@ -10,16 +10,16 @@ The following table contains icons for resource types:
 | Icon                                                                                                                                                                  | Description               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | ![File System icon](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)                             | File System               |
-| ![Windows Server icon](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/windows.webp)                        | Windows Server            |
+| ![Windows Server icon](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/windows.webp)                        | Windows Server            |
 | ![Server icon](/img/product_docs/accessanalyzer/12.0/admin/settings/server.webp)                                                 | Server                    |
 | ![Policies icon](/img/product_docs/accessanalyzer/12.0/requirements/target/config/policies.webp)                                 | Policies                  |
 | ![Shares icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/shares.webp)                         | Shares                    |
-| ![Share icon](/img/product_docs/activitymonitor/config/activedirectory/share.webp)                                                            | Share                     |
+| ![Share icon](/img/product_docs/activitymonitor/8.0/config/activedirectory/share.webp)                                                            | Share                     |
 | ![Folder icon](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/folder.webp)                                       | Folder                    |
 | ![File icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/file.webp)                             | File                      |
 | ![Permission Change icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/permissionchange.webp)    | Permission Change         |
 | ![Exception icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/exception.webp)                   | Exception                 |
-| ![SharePoint icon](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sharepoint.webp)                                           | SharePoint                |
+| ![SharePoint icon](/img/product_docs/activitymonitor/8.0/admin/outputs/sharepoint.webp)                                           | SharePoint                |
 | ![Web Application icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/webapplication.webp)        | Web Application           |
 | ![Site Collection icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/sitecollection.webp)        | Site Collection           |
 | ![OneDrive icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/onedrive.webp)                     | OneDrive                  |
@@ -33,7 +33,7 @@ The following table contains icons for resource types:
 | ![Box icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/box.webp)                               | Box                       |
 | ![Google Drive icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/googledrive.webp)              | Google Drive              |
 | ![Exchange icon](/img/product_docs/accessanalyzer/12.0/admin/settings/exchange.webp)                                             | Exchange                  |
-| ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sql.webp)                                        | SQL Server or Azure SQL   |
+| ![SQL Server/Azure SQL icon](/img/product_docs/activitymonitor/8.0/admin/outputs/sql.webp)                                        | SQL Server or Azure SQL   |
 | ![Microsoft Teams icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/teams.webp)                 | Microsoft Teams           |
 | ![MongoDB icon](/img/product_docs/changetracker/changetracker/install/mongodb.webp)                                                           | MongoDB                   |
 | ![Office 365 icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/office365.webp)                  | Office 365                |
@@ -65,7 +65,7 @@ The following table contains icons for trustee types:
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | ![Unknown icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/unknowntrustee.webp)              | Unknown                                    |
 | ![Security/Domain Principal icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/principal.webp) | Security Principal or Domain Principal     |
-| ![User icon](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.webp)                                                | User – Local, Domain, SharePoint, or Unix  |
+| ![User icon](/img/product_docs/activitymonitor/8.0/admin/search/query/user.webp)                                                | User – Local, Domain, SharePoint, or Unix  |
 | ![Group icon](/img/product_docs/changetracker/changetracker/integration/splunk/group.webp)                                                  | Group – Local, Domain, SharePoint, or Unix |
 | ![Unsupported icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/unsupported.webp)             | Unsupported                                |
 | ![Service Account icon](/img/product_docs/accessinformationcenter/12.0/resourceaudit/navigate/serviceaccount.webp)      | Service Account                            |

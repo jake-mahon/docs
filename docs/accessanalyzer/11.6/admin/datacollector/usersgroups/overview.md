@@ -39,7 +39,7 @@ contains the following wizard pages:
 - [UsersGroups: Results](/docs/accessanalyzer/11.6/admin/datacollector/usersgroups/results.md)
 - [UsersGroups: Summary](/docs/accessanalyzer/11.6/admin/datacollector/usersgroups/summary.md)
 
-![Users and Groups Browser wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Users and Groups Browser wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** box when
 the wizard is open and configuration settings are saved.

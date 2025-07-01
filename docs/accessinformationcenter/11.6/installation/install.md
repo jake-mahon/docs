@@ -5,7 +5,7 @@ Once the prerequisites have been met, follow the steps to install the Access Inf
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click the Next button to begin the installation process.
 
@@ -14,7 +14,7 @@ Center Setup wizard opens.
 **Step 3 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/img/product_docs/activitymonitor/7.1/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click Change to browse for a different location. When the destination is set as
@@ -58,7 +58,7 @@ topic for additional information.
 port on which the application will be accessible. To change the port, enter a new port number in the
 field. When the port is set as desired, click **Next**.
 
-![AIC Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
+![AIC Setup Wizard Ready to install page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
 
 **Step 7 –** On the Ready to install page, click Install to begin the process.
 

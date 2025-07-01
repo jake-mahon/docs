@@ -2,7 +2,7 @@
 
 The Activity Monitor App for QRadar feeds a couple of QRadar Offenses.
 
-![Stealthbits Offenses in QRadar](/img/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/stealthbitsoffenses.webp)
+![Stealthbits Offenses in QRadar](/img/product_docs/activitymonitor/7.1/siem/qradar/stealthbitsoffenses.webp)
 
 While the
 [Ransomware Dashboard](/docs/activitymonitor/7.1/siem/qradar/dashboard/ransomware.md)

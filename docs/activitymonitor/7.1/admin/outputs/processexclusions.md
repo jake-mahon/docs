@@ -8,7 +8,7 @@ processes can be modified. These settings are initially configured when the outp
 Select an output for a Windows file server host on the Monitored Hosts tab and click **Edit** to
 open the output Properties window.
 
-![Process Exclusions Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/processexclusions.webp)
+![Process Exclusions Tab](/img/product_docs/activitymonitor/7.1/admin/outputs/processexclusions.webp)
 
 The tab contains the following settings and features:
 

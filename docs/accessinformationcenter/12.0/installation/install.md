@@ -9,16 +9,16 @@ information.
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click **Change** to browse for a different location. When the destination is
@@ -109,7 +109,7 @@ to step 8.
 
 Once the certificate has been provided, click **Next** to continue.
 
-![AIC Setup Wizard Ready to install page](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
+![AIC Setup Wizard Ready to install page](/img/product_docs/activitymonitor/8.0/install/ready.webp)
 
 **Step 8 –** On the Ready to install page, click **Install** to begin the process.
 

@@ -27,19 +27,19 @@ Follow the steps to install Recovery for Active Directory.
 **Step 1 –** Run the `NetwrixRecovery_Setup.exe` executable as an administrator to launch the
 Recovery for Active Directory Setup wizard.
 
-![Recovery for Active Directory Setup wizard - Initial EULA page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![Recovery for Active Directory Setup wizard - Initial EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
 
 **Step 2 –** On the Netwrix Recovery for Active Directory page, read the End User License Agreement.
 Then check the **I agree to the license terms and conditions** checkbox and click **Install**.
 
 The Setup Progress page displays the setup progress bar and then the Welcome page is displayed.
 
-![Installation Welcome Page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Installation Welcome Page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
 
 **Step 3 –** On the Welcome page of the Recovery for Active Directory Setup wizard, click Next to
 begin the installation.
 
-![Installation Destination Folder Page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
+![Installation Destination Folder Page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, confirm the destination path where the wizard will
 install Recovery for Active Directory. The default installation location is:
@@ -137,7 +137,7 @@ Directory Console.
 
 Click **Next**. Recovery for Active Directory is ready to install.
 
-![Installation Ready to Install](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
+![Installation Ready to Install](/img/product_docs/activitymonitor/8.0/install/ready.webp)
 
 **Step 11 –** Click **Install** to begin the installation process.
 

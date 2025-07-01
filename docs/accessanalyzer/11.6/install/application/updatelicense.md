@@ -22,7 +22,7 @@ Auditor Console server in order to be referenced during the installation process
 **Step 2 –** From Programs and Features (**Control Panel** > **Programs** > **Programs and
 Features**), select the Enterprise Auditor application and click **Change**.
 
-![Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 3 –** On the Welcome page, click **Next**.
 
@@ -32,7 +32,7 @@ Features**), select the Enterprise Auditor application and click **Change**.
 
 |                                                                                                         |     |                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ![License File page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/license.webp) |     | ![License File page with mapped file](/img/product_docs/accessanalyzer/11.6/install/application/licensemapped.webp) |
+| ![License File page](/img/product_docs/activitymonitor/7.1/install/agent/license.webp) |     | ![License File page with mapped file](/img/product_docs/accessanalyzer/11.6/install/application/licensemapped.webp) |
 | Default License File Page                                                                               |     | Mapped License File                                                                                                                       |
 
 **Step 5 –** On the License File page, click **Browse** and navigate to the **StealthAUDIT.lic**
@@ -45,7 +45,7 @@ When the path to the file is visible in the text box, click **Next**. The licens
 license. It also displays the name of the organization which owns the license, the expiration date,
 and the host limit. These are the features that will be installed. Click **Next**.
 
-![Setup Wizard Ready to change page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
+![Setup Wizard Ready to change page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
 
 **Step 7 –** On the Ready to Change Enterprise Auditor page, click **Change** to begin the update.
 

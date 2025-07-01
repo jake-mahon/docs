@@ -14,7 +14,7 @@ install it.
 
 **Step 2 –** Run `NetwrixRecovery_RSAT_Extension.msi` . The RSAT Extension Setup wizard opens.
 
-![RSAT Extension Installation Wizard - Welcome Page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![RSAT Extension Installation Wizard - Welcome Page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
 
 **Step 3 –** On the Welcome page, click **Next**.
 
@@ -23,7 +23,7 @@ install it.
 **Step 4 –** On the End-User License Agreement page, read the End User License Agreement and check
 the **I accept the terms in the License Agreement** box. Click **Next**.
 
-![RSAT Extension Installation Wizard - Destination Folder page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
+![RSAT Extension Installation Wizard - Destination Folder page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
 
 **Step 5 –** On the Destination Folder page, specify the file path to install the RSAT Extension.
 The default path is:
@@ -51,7 +51,7 @@ application, then that specific port is applicable here.
 
 Click **Next**.
 
-![ready](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
+![ready](/img/product_docs/activitymonitor/8.0/install/ready.webp)
 
 **Step 7 –** Click **Install** to begin the installation process.
 

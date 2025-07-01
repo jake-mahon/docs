@@ -52,7 +52,7 @@ may be added manually. Doing so allocates storage within Enterprise Auditor duri
 and creates corresponding columns in the output table. Use a script to reference and populate these
 properties.
 
-![Properties on the Query Properties window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.webp)
+![Properties on the Query Properties window](/img/product_docs/activitymonitor/7.1/install/agent/properties.webp)
 
 To add properties manually, click the plus (**+**) button at the bottom of the property window. To
 remove properties, click the minus (-) button.

@@ -12,7 +12,7 @@ selected.
 
 The tab contains the following settings:
 
-![syslogactivedirectory](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslogactivedirectory.webp)
+![syslogactivedirectory](/img/product_docs/activitymonitor/7.1/admin/outputs/syslogactivedirectory.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -49,7 +49,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![sysloglinux](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/sysloglinux.webp)
+![sysloglinux](/img/product_docs/activitymonitor/7.1/admin/outputs/sysloglinux.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -90,7 +90,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslogentraid](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslogentraid.webp)
+![syslogentraid](/img/product_docs/activitymonitor/7.1/admin/outputs/syslogentraid.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -124,7 +124,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslognas](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslognas.webp)
+![syslognas](/img/product_docs/activitymonitor/7.1/admin/outputs/syslognas.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -166,7 +166,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslogwindows](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslogwindows.webp)
+![syslogwindows](/img/product_docs/activitymonitor/7.1/admin/outputs/syslogwindows.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.

@@ -3,7 +3,7 @@
 Once a host has been added to the Monitored Hosts list, the configuration settings can be modified
 through the host’s Properties window.
 
-![Activity Monitor with Edit button identified ](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/hostpropertiesoverview.webp)
+![Activity Monitor with Edit button identified ](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/hostpropertiesoverview.webp)
 
 On the Monitored Hosts tab, select the host and click Edit, or right-click on a host and select
 **Edit Host** from the right-click menu, to open the host’s Properties window. The tabs vary based

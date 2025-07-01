@@ -17,7 +17,7 @@ Each component within the Jobs tree has an icon for quick reference. The icons a
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | ![jobgroup](/img/product_docs/accessanalyzer/11.6/admin/jobs/jobgroup.webp)                    | Job Group                                                 |
 | ![modifiedjobgroup](/img/product_docs/accessanalyzer/11.6/admin/jobs/modifiedjobgroup.webp)    | Modified Job Group                                        |
-| ![settings](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)                              | Settings node for a Job Group/ Configure node for a job   |
+| ![settings](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/settings.webp)                              | Settings node for a Job Group/ Configure node for a job   |
 | ![job](/img/product_docs/accessanalyzer/11.6/admin/jobs/job.webp)                              | Job                                                       |
 | ![modifiedjob](/img/product_docs/accessanalyzer/11.6/admin/jobs/modifiedjob.webp)              | Modified Job                                              |
 | ![lockedjob](/img/product_docs/accessanalyzer/11.6/admin/jobs/lockedjob.webp)                  | Locked Job (Only applicable to Role Based Access feature) |

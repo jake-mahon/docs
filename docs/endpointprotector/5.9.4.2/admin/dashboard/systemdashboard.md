@@ -43,7 +43,7 @@ important activities logged by Endpoint Protector.
 You will view more speciﬁc dashboards on the Device Control, Content Aware Protection and eDiscovery
 sections.
 
-![View general information as graphics and charts related to the most important activities](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/general.webp)
+![View general information as graphics and charts related to the most important activities](/img/product_docs/activitymonitor/7.1/admin/search/query/general.webp)
 
 ## System Status
 

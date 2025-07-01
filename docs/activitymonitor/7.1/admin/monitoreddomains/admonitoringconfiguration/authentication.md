@@ -3,7 +3,7 @@
 The Authentication tab on a domain’s Configuration window allows users to configure communication
 with servers.
 
-![AD Monitoring Configuration - Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
+![AD Monitoring Configuration - Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
 
 After checking the Enable Authentication box, the following event filters can be modified on the
 sub-tabs:
@@ -24,7 +24,7 @@ modified PAC. By manipulating the PAC, a field in the Kerberos ticket that conta
 authorization data (in Active Directory this is group membership), an attacker is able to grant
 themselves additional elevated privileges.
 
-![AD Monitoring Configuration - Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+![AD Monitoring Configuration - Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
 
 Double-click text box to enter specific **RIDs**. Click OK. The AD agent then compares against the
 PAC and user’s access token for a mismatch to trigger the incident.
@@ -40,7 +40,7 @@ The Hosts (from) option is where the policy can be scoped to only monitor specif
 originators of an authentication event or to exclude specific hosts from being monitored for
 authentication events.
 
-![Host (From) Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
+![Host (From) Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/hostfrom.webp)
 
 Underneath each section, there are additional Host details:
 
@@ -58,7 +58,7 @@ The Hosts (to) option is where the policy can be scoped to only monitor specific
 hosts of an authentication event or to exclude specific hosts from being monitored as targets of
 authentication events.
 
-![Host (To) Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/hostto.webp)
+![Host (To) Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/hostto.webp)
 
 Underneath each section, there are additional Host details:
 
@@ -76,7 +76,7 @@ The IP Addresses (from) option is where the policy can be scoped to only monitor
 Addresses as originators of an authentication event or to exclude specific IP Addresses from being
 monitored for authentication events.
 
-![IP Addresses (From) Tab in the Authenticatoin Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
+![IP Addresses (From) Tab in the Authenticatoin Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
 
 Underneath each section, there is an additional Address detail:
 
@@ -91,7 +91,7 @@ The IP Addresses (to) option is where the policy can be scoped to only monitor s
 as target hosts of an authentication event or to exclude specific IP Addresses from being monitored
 as targets of authentication events.
 
-![IP Addresses (To) Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.webp)
+![IP Addresses (To) Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/ipaddressesto.webp)
 
 Underneath each section, there is an additional Address detail:
 
@@ -104,7 +104,7 @@ Press the Enter or Tab key to add another text box.
 
 The Operations option filters for successful events, failed events, or both.
 
-![Operations Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
+![Operations Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
 
 The **Monitor These Attempts** section is where monitoring is set to filter for successful events,
 failed events, or both:
@@ -140,7 +140,7 @@ Local Interactive and/or Remote Interactive logins to the Domain Controllers:
 
 The Servers option targets servers to be included or excluded when filtering for authentication.
 
-![Servers Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
+![Servers Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/serverstab.webp)
 
 In both sections, servers must be specified in the form 'DOMAIN\SERVER', where DOMAIN is NetBIOS
 Domain name and SERVER is NetBIOS server name.
@@ -154,7 +154,7 @@ The Users filter is where the policy can be scoped to only monitor specific secu
 committing changes within Active Directory or to exclude specific users committing changes from
 being monitored.
 
-![Users Tab in the Authentication Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![Users Tab in the Authentication Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The following details appear beneath both sections:
 

@@ -5,7 +5,7 @@ notifications, integrations, data retention policy, and licensing for Recovery f
 
 **NOTE:** Only users with Administrator rights have access to the Configuration interface.
 
-![Domains Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.webp)
+![Domains Page](/img/product_docs/activitymonitor/8.0/install/agent/domains.webp)
 
 The Configuration interface contains the following pages:
 

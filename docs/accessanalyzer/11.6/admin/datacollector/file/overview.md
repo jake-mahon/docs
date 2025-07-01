@@ -41,7 +41,7 @@ following wizard pages:
 - [File: Results](/docs/accessanalyzer/11.6/admin/datacollector/file/results.md)
 - [File: Summary](/docs/accessanalyzer/11.6/admin/datacollector/file/summary.md)
 
-![File Search Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![File Search Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

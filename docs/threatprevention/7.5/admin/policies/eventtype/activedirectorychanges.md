@@ -208,7 +208,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the IP Addresses (from) filter to set the scope of the policy to specific IP addresses as
 originators of an event or to exclude specific IP addresses.
 
-![Event Type – IP Addresses (from) filter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
+![Event Type – IP Addresses (from) filter](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/ipaddressesfrom.webp)
 
 Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Addresses, and Exclude
 Collections areas to edit the lists.
@@ -248,7 +248,7 @@ for additional information.
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
+![Event Type – Success filter](/img/product_docs/activitymonitor/8.0/install/agent/success.webp)
 
 Select the radio button for the desired monitoring filter:
 

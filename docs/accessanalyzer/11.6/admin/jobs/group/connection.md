@@ -3,7 +3,7 @@
 At the job group level, the **Connection** node identifies the Connection Profile assigned for the
 job group. All Connection Profiles are created at the global level (**Settings** > **Connection**).
 
-![Job Group Connection Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.webp)
+![Job Group Connection Settings](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/connection.webp)
 
 By default, all job groups are set to inherit the **Use Default Profile** option from the global
 level or a parent job group. See the

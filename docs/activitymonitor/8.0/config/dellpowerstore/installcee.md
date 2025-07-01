@@ -31,7 +31,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 1 –** Open the Registry Editor (run regedit).
 
-![registryeditor](/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.webp)
+![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
 
 **Step 2 –** Navigate to following location:
 
@@ -55,7 +55,7 @@ StealthAUDIT@192.168.30.15
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 
-![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
 
 **Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
 

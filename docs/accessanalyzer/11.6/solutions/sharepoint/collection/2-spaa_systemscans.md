@@ -54,7 +54,7 @@ scan to specific web applications or site collections. Click **Next**.
 page, **Limit scanned depth to:** is selected with the default set at **2** levels. Customize this
 setting as desired and click **Next**.
 
-![Agent Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](/img/product_docs/activitymonitor/7.1/install/agent/windowsagent.webp)
 
 **Step 7 –** On the
 [SPAA: Agent Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/agentsettings.md)

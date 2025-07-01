@@ -23,4 +23,4 @@ the **Edit** or **Delete** icon.
 
 **NOTE:** You can delete a credential if no sources are using those credentials.
 
-![credentials](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)

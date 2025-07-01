@@ -43,7 +43,7 @@ Follow the steps to walk through the Setup Wizard.
 
 **Step 1 –** Launch the  Setup Wizard.
 
-![Setup Wizard on the Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Setup Wizard on the Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
 
 **Step 2 –** Click **Let's get started**.
 

@@ -105,7 +105,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 The data grid on the **Forged PAC** node lists one row per incident identified.
 
-![Forged PAC Analytic Type window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+![Forged PAC Analytic Type window](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/docs/threatprevention/7.4/admin/policies/recentevents/eventtracker.md)

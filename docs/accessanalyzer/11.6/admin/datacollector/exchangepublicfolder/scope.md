@@ -3,7 +3,7 @@
 The Scope page is used to define which folders will be included will be searched by this query. It
 is a wizard page for all of the categories.
 
-![Exchange Public Folder Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 In the Choose Type of Public Folders to be queried section, select either:
 

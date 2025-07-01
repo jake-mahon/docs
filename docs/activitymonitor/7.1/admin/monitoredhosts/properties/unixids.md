@@ -8,7 +8,7 @@ on the operating system, the UID can be mapped to Active Directory accounts usin
 attribute in Active Directory. The activity agent resolves the Active Directory SID based on the UID
 from the activity event.
 
-![Unix ID Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/unixid.webp)
+![Unix ID Tab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/unixid.webp)
 
 The options are:
 

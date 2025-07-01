@@ -4,7 +4,7 @@ The Active Directory tab provides options to configure the agent settings for mo
 Directory domain controller. These settings are part of the Active Directory monitoring and can only
 be enabled for agents on domain controllers.
 
-![Agent Properties - Active Directory Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/mainimage.webp)
+![Agent Properties - Active Directory Tab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/mainimage.webp)
 
 The Agent Settings allow users to control the AD agent’s properties:
 

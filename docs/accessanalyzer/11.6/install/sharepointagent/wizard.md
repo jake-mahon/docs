@@ -21,7 +21,7 @@ Administration component of the targeted SharePoint farms.
 **Step 1 –** Run the `SharePointAgent.exe` executable to open the Netwrix Enterprise Auditor
 SharePoint Agent Setup Wizard.
 
-![SharePoint Agent Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![SharePoint Agent Setup Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
@@ -40,7 +40,7 @@ click **Change** to select a different location.
 **Step 5 –** On the Configure Service Security page, enter the **User Name** and **Password** for
 the SharePoint Service Account. Click **Next**.
 
-![SharePoint Agent Setup Wizard Ready to install page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/ready.webp)
+![SharePoint Agent Setup Wizard Ready to install page](/img/product_docs/activitymonitor/7.1/install/ready.webp)
 
 **Step 6 –** On the Ready to install Netwrix Enterprise Auditor SharePoint Agent page, click
 **Install** to start the installation.

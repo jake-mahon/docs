@@ -2,7 +2,7 @@
 
 The Users tab shows the users and groups associated with the selected access policy.
 
-![Resource based policy users tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![Resource based policy users tab](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The Users tab has the following features:
 

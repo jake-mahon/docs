@@ -87,7 +87,7 @@ All** and **Clear All** links provide for quick selection and deselection.
 The Connection page identifies the Connection Profile that is applied to the targeted hosts being
 queried by the task being scheduled. Customizations to the configuration of this tab is optional.
 
-![Connection wizard page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/connection.webp)
+![Connection wizard page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/connection.webp)
 
 Choose the desired setting from the following options:
 

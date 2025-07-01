@@ -23,7 +23,7 @@ The following application permissions are required.
 
 ![Microsoft Entra ID Application Permissions - Mail](/img/product_docs/directorymanager/directorymanager/configureentraid/register/role.webp)
 
-![Microsoft Entra ID Application Permissions - User](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/user.webp)
+![Microsoft Entra ID Application Permissions - User](/img/product_docs/activitymonitor/8.0/admin/search/query/user.webp)
 
 ![Microsoft Entra ID Application Permissions - User Password and Phone](/img/product_docs/directorymanager/directorymanager/configureentraid/register/user-pw-phone.webp)
 

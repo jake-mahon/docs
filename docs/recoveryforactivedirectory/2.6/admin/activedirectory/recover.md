@@ -51,7 +51,7 @@ The Object Restore wizard opens.
 
 **Step 4 –** In the Backup Data section, select a backup date to restore from. Then click **Next**.
 
-![Object Restore wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
+![Object Restore wizard - Domain Controller page](/img/product_docs/activitymonitor/8.0/install/agent/domaincontroller.webp)
 
 **Step 5 –** Select a domain controller where the restore operation will get affected. Options are:
 
@@ -105,7 +105,7 @@ boxes to configure the necessary options for the user.
 
 **Step 10 –** Click **Next**.
 
-![Object Restore wizard - Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Object Restore wizard - Credentials page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
 
 **Step 11 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Credentials page:

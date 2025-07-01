@@ -5,7 +5,7 @@ receiving events for a specific time frame. The tab varies based on the type of 
 
 Check the **Enable Inactivity alerting for this agent** box to enable the options on this tab.
 
-![Inactivity Alerts Tab for Agent Properties](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalerts.webp)
+![Inactivity Alerts Tab for Agent Properties](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalerts.webp)
 
 Once enabled, set the alerting parameters:
 
@@ -27,7 +27,7 @@ Properties window closes.
 The Syslog alert sends a notification that the activity agent has not received event data for the
 configured interval. The alert is sent to the Syslog configured on the **Syslog Alerts** tab.
 
-![inactivityalertssyslogalerts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalertssyslogalerts.webp)
+![inactivityalertssyslogalerts](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalertssyslogalerts.webp)
 
 - Syslog server in SERVER[:PORT] format – Type the **Syslog server name** with a SERVER:PORT format
   in the text box. The server name can be short name, fully qualified name (FQDN), or IP Address, as
@@ -60,7 +60,7 @@ configured interval. The alert is sent to the Syslog configured on the **Syslog 
   (…) to open the Syslog Message Template window. The Syslog template provided is **AlienVault /
   Generic Syslog**.
 
-![Message Template popup window for Syslog Alerts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalertssyslogalertsmessagetemplate.webp)
+![Message Template popup window for Syslog Alerts](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalertssyslogalertsmessagetemplate.webp)
 
 Custom templates can be created. Select the desired template or create a new template by modifying
 an existing template within the Syslog Message Template window. The new message template is named
@@ -73,7 +73,7 @@ Click **OK** to apply changes and exit, or **Cancel** to exit without saving any
 The email alert sends a notification that the activity agent has not received event data for the
 configured interval. The alert is sent to the configured recipients on the Email Alerts tab.
 
-![inactivityalertsemailalerts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalertsemailalerts.webp)
+![inactivityalertsemailalerts](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalertsemailalerts.webp)
 
 - Syslog server in SERVER[:PORT] format – Type the **SMTP server name** with a SERVER:PORT format in
   the text box. The server name can be short name, fully qualified name (FQDN), or IP Address, as
@@ -86,12 +86,12 @@ configured interval. The alert is sent to the configured recipients on the Email
 - From email address – Enter the Sender’s email address
 - To email address – Enter the Recipient’s email address. Multiple addresses are comma separated.
 
-![Email Alerts - Message Subject popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagesubject.webp)
+![Email Alerts - Message Subject popup window](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalertsemailalertsmessagesubject.webp)
 
 - Message subject – Click the ellipsis (…) to open the Message Template window to customize the
   subject. Macros can be used to insert
 
-![Email Alerts - Message Body popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalertsemailalertsmessagebody.webp)
+![Email Alerts - Message Body popup window](/img/product_docs/activitymonitor/7.1/admin/agents/properties/inactivityalertsemailalertsmessagebody.webp)
 
 - Message body – Click the ellipsis (…) to open the Message Template window to customize the body
 - Test – The Test button sends a test message to the receiver’s email address to check the

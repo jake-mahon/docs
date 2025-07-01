@@ -3,7 +3,7 @@
 After a Panzura host is added to the monitored hosts table, the configuration settings are edited
 using the tabs in the Properties window of the host.
 
-![panzuratab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/panzuratab.webp)
+![panzuratab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/panzuratab.webp)
 
 The **Panzura** tab allows users to modify settings which were populated with the information
 entered when the Panzura host was added.
@@ -21,7 +21,7 @@ The configurable options are:
 
 - Connect – Click to connect using the selected protocol and validate the connection with Panzura
 
-![Trusted Server Certificate popup window](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)-
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/trustedservercertificate.webp)-
 HTTPS Options – Opens the Trusted server certificate window to customize the certificate
 verification during a TLS session
 

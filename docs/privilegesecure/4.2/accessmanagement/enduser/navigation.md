@@ -42,9 +42,9 @@ Interface Icons
 | ![myactivities](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/myactivities.webp)           | My Activities       |
 | ![dashboard](/img/product_docs/directorymanager/directorymanager/admincenter/general/dashboard.webp)                                      | Dashboard           |
 | ![policy](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
-| ![users](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
 | ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
-| ![credentials](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)                        | Credentials         |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
 | ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
 | ![configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |

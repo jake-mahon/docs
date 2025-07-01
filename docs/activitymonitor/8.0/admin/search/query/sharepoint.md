@@ -4,7 +4,7 @@ You can search SharePoint activity that has been monitored and recorded to a Fil
 select **SharePoint** from the magnifying glass drop-down menu, a New Search tab opens with the
 applicable query filters.
 
-![SharePoint New Search Tab](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/sharepointnewsearchtab.webp)
+![SharePoint New Search Tab](/img/product_docs/activitymonitor/8.0/admin/search/query/sharepointnewsearchtab.webp)
 
 The filters are separated into the following categories:
 
@@ -44,7 +44,7 @@ The General category addresses who, what, where, and when an object, user, host,
 controller is affected by the events selected in the other categories. The time frame filter must be
 configured for every search query.
 
-![General Category - SharePoint](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
+![General Category - SharePoint](/img/product_docs/activitymonitor/8.0/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -89,7 +89,7 @@ This section has the following filters:
 
 The Audit category scopes the query by audit mask activity.
 
-![SharePoint Search - Audit filter section](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/auditmask.webp)
+![SharePoint Search - Audit filter section](/img/product_docs/activitymonitor/8.0/admin/search/query/auditmask.webp)
 
 This section has the following filters:
 
@@ -101,7 +101,7 @@ This section has the following filters:
 
 The Move/Delete/Copy/Checkin category scopes the query by file move and version activity.
 
-![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/movedeletecopycheckinfilters.webp)
+![SharePoint Search Query - Move/Delete/Copy/Checkin Filters](/img/product_docs/activitymonitor/8.0/admin/search/query/movedeletecopycheckinfilters.webp)
 
 This section has the following filters:
 
@@ -123,7 +123,7 @@ This section has the following filters:
 
 The Search category scopes the query by search activity.
 
-![SharePoint Search Query - Search Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchfilters.webp)
+![SharePoint Search Query - Search Filters](/img/product_docs/activitymonitor/8.0/admin/search/query/searchfilters.webp)
 
 This section has the following filters:
 
@@ -134,7 +134,7 @@ This section has the following filters:
 
 The Permissions category scopes the query by permission change activity.
 
-![SharePoint Search Query - Permissions Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/permissionsfilters.webp)
+![SharePoint Search Query - Permissions Filters](/img/product_docs/activitymonitor/8.0/admin/search/query/permissionsfilters.webp)
 
 This section has the following filters:
 

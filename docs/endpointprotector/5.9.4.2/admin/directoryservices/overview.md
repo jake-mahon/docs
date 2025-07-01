@@ -209,7 +209,7 @@ Entra ID**.
 **Step 2 –** Click **Add** to add an API Consumer – One API Consumer can be used for multiple
 synchronization jobs.
 
-![Add Graph Application to Endpoint Protector Server](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/azuread.webp)
+![Add Graph Application to Endpoint Protector Server](/img/product_docs/activitymonitor/7.1/admin/outputs/azuread.webp)
 
 **Step 3 –** Provide the following details:
 

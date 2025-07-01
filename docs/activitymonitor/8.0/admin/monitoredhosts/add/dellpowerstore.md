@@ -36,12 +36,12 @@ Follow the steps to add a Dell PowerStore host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click **Add**. The Add New Host
 window opens.
 
-![addagent01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
+![addagent01](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/addagent01.webp)
 
 **Step 2 –** On the **Choose Agent** page, select the Agent to monitor the file server.
 Click**Next**.
 
-![powerstoreaddhost01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost01.webp)
+![powerstoreaddhost01](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost01.webp)
 
 **Step 3 –** On the Add Host page, select the Dell PowerStore radio button and enter the file server
 name. Click **Next**.
@@ -52,12 +52,12 @@ display a warning to install the service. If the CEE Monitor service is installe
 machine, manual configuration is required. See the
 [Dell CEE Options Tab](/docs/activitymonitor/8.0/admin/agents/properties/dellceeoptions.md) topic for additional information.
 
-![powerstoreaddhost02](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost02.webp)
+![powerstoreaddhost02](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost02.webp)
 
 **Step 4 –** On the Protocols page, specify the protocols to monitor. The list of protocols that can
 be monitored are, All, CIFS, or NFS. Once a protocol is selected, click **Next**.
 
-![powerstoreaddhost03](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost03.webp)
+![powerstoreaddhost03](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost03.webp)
 
 **Step 5 –** On the Configure Operations page, select the File Operations and Directory Operations
 to be monitored.
@@ -67,7 +67,7 @@ to be monitored.
 
 Click **Next**.
 
-![powerstoreaddhost04](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost04.webp)
+![powerstoreaddhost04](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost04.webp)
 
 **Step 6 –** On the Configure Basic Operations page, choose which settings to enable. Select one of
 the following options:
@@ -91,14 +91,14 @@ the following options:
 
 Click **Next**.
 
-![powerstoreaddhost05](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost05.webp)
+![powerstoreaddhost05](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost05.webp)
 
 **Step 7 –** On the Where to log the activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
 **NOTE:** An option must be selected before moving to the next step.
 
-![powerstoreaddhost06](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost06.webp)
+![powerstoreaddhost06](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost06.webp)
 
 **Step 8 –** If Log File is selected on the Where To Log The Activity page, the File Output page can
 be configured.
@@ -125,7 +125,7 @@ be configured.
 
 Click **Next**.
 
-![powerstoreaddhost07](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost07.webp)
+![powerstoreaddhost07](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost07.webp)
 
 **Step 9 –** If Syslog Server is selected on the Where To Log The Activity page, the Syslog Output
 page can be configured.
@@ -156,7 +156,7 @@ page can be configured.
 
 Click **Finish**.
 
-![powerstoreaddhost08](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost08.webp)
+![powerstoreaddhost08](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost08.webp)
 
 The added Dell PowerStore host is displayed in the monitored hosts table. Once a host has been added
 for monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output.md)

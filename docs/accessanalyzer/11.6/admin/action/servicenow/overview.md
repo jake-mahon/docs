@@ -89,6 +89,6 @@ contains the following wizard pages:
 The Welcome page displays first in the ServiceNow Action Module Wizard. Review the introductory and
 caution information about the ServiceNow Action Module.
 
-![ServiceNow Action Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![ServiceNow Action Module wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

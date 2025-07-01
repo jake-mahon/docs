@@ -81,7 +81,7 @@ Select the desired checkboxes relating to the state of a user password upon rest
 
 Click **Next**.
 
-![Object Recovery Wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
+![Object Recovery Wizard - Domain Controller page](/img/product_docs/activitymonitor/8.0/install/agent/domaincontroller.webp)
 
 **Step 6 –** On the Domain Controller page, select the Domain Controller to run the restoration
 action. This page consists of two sections:

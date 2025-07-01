@@ -3,7 +3,7 @@
 The Scope page is used to define which mailboxes are to be queried. It is a wizard page for all of
 the categories.
 
-![Exchange Mailbox Data Collector Wizard Scope page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Exchange Mailbox Data Collector Wizard Scope page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 At the top, configure the mailboxes to be queried. The selected option changes how the mailboxes are
 identified for scoping.

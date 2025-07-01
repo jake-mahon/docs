@@ -57,9 +57,9 @@ Interface Icons
 | ![myactivities](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/myactivities.webp)           | My Activities       |
 | ![dashboard](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard.webp)                 | Dashboard           |
 | ![policy](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
-| ![users](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![users](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
 | ![resources](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/resources.webp)                 | Resources           |
-| ![credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/credentials.webp)                        | Credentials         |
+| ![credentials](/img/product_docs/activitymonitor/7.1/install/agent/credentials.webp)                        | Credentials         |
 | ![activities](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/activities.webp)               | Activities          |
 | ![configuration](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |

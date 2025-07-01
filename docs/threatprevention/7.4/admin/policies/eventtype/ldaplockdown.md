@@ -33,7 +33,7 @@ that:
 Use the LDAP filter to set the scope of the policy to include one or more communication security
 types.
 
-![New Policy - LDAP filter](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![New Policy - LDAP filter](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The operation selected affects what options are available on this filter and what other filters are
 available for the event type:

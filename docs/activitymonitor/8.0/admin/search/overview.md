@@ -52,7 +52,7 @@ Follow the steps to use the search feature.
 The drop-down menu for a column header in the search results data grid provides the option to filter
 the search results further.
 
-![Operations Filter Dropdown Menu](/img/product_docs/activitymonitor/activitymonitor/admin/search/operationssdropdownfiltermenu.webp)
+![Operations Filter Dropdown Menu](/img/product_docs/activitymonitor/8.0/admin/search/operationssdropdownfiltermenu.webp)
 
 Choose between checking/unchecking the desired field values from the list of available values and
 typing in the search textbox. The Clear filter option removes all filters from the selected column.
@@ -67,7 +67,7 @@ Clicking on any column header in the search results data grid sorts the results 
 that column, and an arrow shows next to the column name indicating the sort to be ascending or
 descending order.
 
-![Sort Options](/img/product_docs/activitymonitor/activitymonitor/admin/search/sort.webp)
+![Sort Options](/img/product_docs/activitymonitor/8.0/admin/search/sort.webp)
 
 The drop-down menu on the column header has options to Sort A to Z or Sort Z to A for the selected
 column. Sorting can only occur for one column at a time.
@@ -78,7 +78,7 @@ column. Sorting can only occur for one column at a time.
 
 The search results data grid can be exported to a CSV/JSON file.
 
-![Export Button](/img/product_docs/activitymonitor/activitymonitor/admin/search/exportbutton.webp)
+![Export Button](/img/product_docs/activitymonitor/8.0/admin/search/exportbutton.webp)
 
 Once the search results are configured as desired, click the Export button located at the top left
 corner of the window. Set the name and location of the CSV/JSON file.

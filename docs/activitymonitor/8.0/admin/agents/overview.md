@@ -3,7 +3,7 @@
 The **Agents** tab is used to deploy activity agents and manage settings. This is the only tab
 available until an agent is installed.
 
-![Image of Agents Home Page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentaddedfinalimage.webp)
+![Image of Agents Home Page](/img/product_docs/activitymonitor/8.0/admin/agents/agentaddedfinalimage.webp)
 
 The Agents tab is comprised of a button bar, a table of servers hosting activity agents, and an
 Agent Messages box. The button bar allows users to take the following actions:
@@ -53,7 +53,7 @@ The table of servers hosting activity agents provides the following information:
 - Archive Location – If archiving is enabled for the activity agent, displays the archive file path
 - Archive Size – If archiving is enabled for the activity agent, displays the archive size
 
-![Agent Messages](/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentmessages.webp)
+![Agent Messages](/img/product_docs/activitymonitor/8.0/admin/agents/agentmessages.webp)
 
 The **Agent messages** box displays any error or warning messages from the selected activity agent.
 These messages are related to deployment/installation, communication between the console and the

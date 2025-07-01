@@ -83,7 +83,7 @@ Follow the steps to configure the Action Service to run as a service account.
 
 **Step 1 –** Open Services (`services.msc`).
 
-![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
 
 **Step 2 –** Double-click on the Netwrix Threat Manager Action Service. The Threat Manager Action
 Service Properties window opens.

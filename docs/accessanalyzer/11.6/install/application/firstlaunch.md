@@ -8,7 +8,7 @@ Enterprise Auditor, the initial settings for the Enterprise Auditor Console must
 **Step 1 –** Launch the Enterprise Auditor application. The installation wizard places the
 Enterprise Auditor icon on the desktop.
 
-![Configuration Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Configuration Wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 **Step 2 –** On the Welcome page of the Enterprise Auditor Configuration Wizard, click **Next** to
 continue.

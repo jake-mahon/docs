@@ -7,7 +7,7 @@ domains.
 Click **Configuration** in the left pane. Then click the **Domains** tab on the Configuration page
 to open the Domains page.
 
-![Domains Page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domains.webp)
+![Domains Page](/img/product_docs/activitymonitor/8.0/install/agent/domains.webp)
 
 The table displays the following information:
 

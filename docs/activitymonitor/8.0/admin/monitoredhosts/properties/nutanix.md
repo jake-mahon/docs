@@ -4,7 +4,7 @@ The Nutanix tab allows users to modify settings after a Nutanix host has been co
 Nutanix host is added to the monitored hosts table, the configuration can be edited in the host
 Properties.
 
-![Nutanix Host Properties](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/nutanixhostprop01.webp)
+![Nutanix Host Properties](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/nutanixhostprop01.webp)
 
 The configurable options are:
 
@@ -19,7 +19,7 @@ The configurable options are:
 
 - Connect – Click to connect using the selected protocol and validate the connection with Nutanix
 
-![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)-
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
 HTTPS Options – Opens the Trusted server certificate window to customize the certificate
 verification during a TLS session
 

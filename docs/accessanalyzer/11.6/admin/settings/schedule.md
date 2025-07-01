@@ -210,7 +210,7 @@ Enterprise Auditor can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to delete a Schedule Service Account.
 
-![Delete option in the Schedule view](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp)
+![Delete option in the Schedule view](/img/product_docs/activitymonitor/7.1/admin/search/query/delete.webp)
 
 **Step 1 –** Select the credential from the User Credentials list and click **Delete**. The Delete
 Credentials confirmation window appears.

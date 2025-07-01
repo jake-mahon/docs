@@ -5,13 +5,13 @@ Manager.
 
 **NOTE:** LDAP Monitoring is not enabled, it must be enabled in the Monitored Domains tab.
 
-![Activity Monitor with SD Only](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/actiivtymonitordomainsdonly.webp)
+![Activity Monitor with SD Only](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/actiivtymonitordomainsdonly.webp)
 
 **Step 1 –** In the Activity Monitor, click on the **Monitored Domains** tab.
 
 **Step 2 –** Select a domain and click **Edit**.
 
-![LDAP Monitoring Configuration for Threat Manager](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/sdldapmonitoring.webp)
+![LDAP Monitoring Configuration for Threat Manager](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/sdldapmonitoring.webp)
 
 **Step 3 –** Select the **LDAP Monitor** tab.
 

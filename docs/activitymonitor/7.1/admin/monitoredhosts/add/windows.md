@@ -38,18 +38,18 @@ deployed.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor deployed on the Windows file
 server. Click **Next**.
 
-![Add Host page with Windows selected](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/addhostwindows.webp)
+![Add Host page with Windows selected](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhostwindows.webp)
 
 **Step 3 –** On the Add Host page, select the Agent’s Windows host radio button. Remember, the agent
 must be deployed on the Windows file server to be monitored. If desired, add a **Comment**. Click
 **Next**.
 
-![Protocols page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/protocolspage.webp)
+![Protocols page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/protocolspage.webp)
 
 **Step 4 –** On the Protocols page, select which protocols to monitor. The protocols that can be
 monitored are:
@@ -60,7 +60,7 @@ monitored are:
 
 Click **Next**.
 
-![Configure Operations page for Windows host](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configureoperationswindows.webp)
+![Configure Operations page for Windows host](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configureoperationswindows.webp)
 
 **Step 5 –** On the Configure Operations page, select the **File Operations**,**Directory
 Operations**, **Share Operations** and **VSS Opertions** to be monitored. Users may also filter
@@ -93,7 +93,7 @@ in Read events not being monitored.
 
 Click **Next**.
 
-![Configure Basic Options page for Windows](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/configurebasicoptionswindows.webp)
+![Configure Basic Options page for Windows](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/configurebasicoptionswindows.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which settings to enable. The “Log files”
 are the activity logs created by the activity agent on the target host. Select the desired options:
@@ -112,12 +112,12 @@ are the activity logs created by the activity agent on the target host. Select t
 
 Click **Next**.
 
-![Where to log activity page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to log activity page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-![File Output page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/fileouputpage.webp)
+![File Output page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/fileouputpage.webp)
 
 **Step 8 –** If **Log File)** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -139,7 +139,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
+![Syslog Output page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -174,7 +174,7 @@ Output page can be configured.
 
 Click **Finish**.
 
-![Activity Monitor with Windows Host added](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/activitymonitorwindows.webp)
+![Activity Monitor with Windows Host added](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/activitymonitorwindows.webp)
 
 The added Windows file server host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the

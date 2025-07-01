@@ -11,7 +11,7 @@ window. The tab varies based on the type of host selected.
 
 The tab contains the following settings and features:
 
-![pathfilteringtab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![pathfilteringtab](/img/product_docs/activitymonitor/7.1/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
   [Add or Edit Path Window](/docs/activitymonitor/7.1/admin/outputs/window/addeditpath.md)
@@ -54,7 +54,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![Host Properties - Path Filtering Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![Host Properties - Path Filtering Tab](/img/product_docs/activitymonitor/7.1/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
   [Add or Edit Path Window](/docs/activitymonitor/7.1/admin/outputs/window/addeditpath.md)
@@ -98,7 +98,7 @@ Properties window closes.
 For a SharePoint host, the Path Filtering tab is for including and excluding sites. The tab contains
 the following settings and features:
 
-![Path Filtering Tab for SharePoint Hosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/pathfilteringsharepointhosts.webp)
+![Path Filtering Tab for SharePoint Hosts](/img/product_docs/activitymonitor/7.1/admin/outputs/pathfilteringsharepointhosts.webp)
 
 - To audit all sites, leave the textbox blank
 - To include a specific site, enter the URL

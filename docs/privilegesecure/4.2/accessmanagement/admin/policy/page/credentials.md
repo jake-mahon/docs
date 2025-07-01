@@ -6,7 +6,7 @@ domain account, or Privilege Secure application local account that has its crede
 the application. This includes managed user accounts created by activity sessions. The Credentials
 page displays the same information as the [Credentials Dashboard](/docs/privilegesecure/4.2/accessmanagement/admin/dashboard/credentials.md).
 
-![Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Credentials page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
 
 The page has the following features:
 

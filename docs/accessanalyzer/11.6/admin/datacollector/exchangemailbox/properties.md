@@ -3,7 +3,7 @@
 The Properties page is where properties that will be gathered are selected. The available properties
 depend on the category selected. It is a wizard page for all of the categories.
 
-![Exchange Mailbox Data Collector Wizard Properties page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.webp)
+![Exchange Mailbox Data Collector Wizard Properties page](/img/product_docs/activitymonitor/7.1/install/agent/properties.webp)
 
 Properties can be selected individually or you can use the Select All, Clear All, and Reset All
 buttons. All selected properties will be gathered. Click **Message Classes** to open the Message

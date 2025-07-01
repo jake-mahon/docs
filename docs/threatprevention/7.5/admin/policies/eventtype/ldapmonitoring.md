@@ -35,7 +35,7 @@ that:
 Use the LDAP filter to set the scope of the policy to include one or more communication security
 types.
 
-![New Policy - LDAP filter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![New Policy - LDAP filter](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 The operation selected affects what options are available on this filter and what other filters are
 available for the event type:
@@ -106,7 +106,7 @@ for additional information.
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
+![Event Type – Success filter](/img/product_docs/activitymonitor/8.0/install/agent/success.webp)
 
 Select the radio button for the desired monitoring filter:
 

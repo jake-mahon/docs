@@ -148,6 +148,6 @@ The options in the Button Bar are:
 | ![cut](/img/product_docs/accessanalyzer/11.6/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
 | ![copy](/img/product_docs/accessanalyzer/11.6/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
 | ![paste](/img/product_docs/accessanalyzer/11.6/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
-| ![delete](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp)                      | Red X                       | Delete the selected query                           |
+| ![delete](/img/product_docs/activitymonitor/7.1/admin/search/query/delete.webp)                      | Red X                       | Delete the selected query                           |
 
 Select a button for the desired action.

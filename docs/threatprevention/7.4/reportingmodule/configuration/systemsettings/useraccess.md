@@ -206,7 +206,7 @@ The password for the built-in ADMIN account has been updated.
 The Settings section provides the ability to customize the user login page and configure the token
 expiration time for authenticated users.
 
-![Settings section of the User Access page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
+![Settings section of the User Access page](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/settings.webp)
 
 - One page login (Login, password, MFA code on one page) – Combines username and password, and
   multi-factor authentication on a single page

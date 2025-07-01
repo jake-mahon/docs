@@ -5,7 +5,7 @@ of:
 
 - Import from Share
 
-![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.webp)
+![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/8.0/config/activedirectory/share.webp)
 
 The following connection setting can be configured to connect to the AD activity archives that must
 be located on a Domain Controller share:

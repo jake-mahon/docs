@@ -32,7 +32,7 @@ Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/8.0/config/activedirectory/scope.webp)
 
 **Step 4 –** Navigate to the Scope page, and select the desired scoping method from those available.
 See the [ExchangePS: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scope.md) topic for additional

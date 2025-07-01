@@ -38,6 +38,6 @@ which contains the following wizard pages:
 The Welcome page lists the prerequisites needed for the Notification Analysis Module to function
 properly.
 
-![Notification Data Analysis Module wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Notification Data Analysis Module wizard Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. To proceed, click **Next**.

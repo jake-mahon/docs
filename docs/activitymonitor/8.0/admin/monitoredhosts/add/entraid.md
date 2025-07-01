@@ -49,30 +49,30 @@ Follow the steps to add a Microsoft Entra ID host to be monitored.
 **Step 1 –** In the Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Add Host - Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Add Host - Choose Agent](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the storage device.
 
-![Add Host page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostentraid.webp)
+![Add Host page](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/addhostentraid.webp)
 
 **Step 3 –** On the Add Host page, select the **Azure Active Directory / Entra ID** radio button and
 enter the Primary domain in the **Domain name** field.
 
 _(Optional)_ Enter a comment for the Microsoft Entra ID host.
 
-![entraidconnection](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidconnection.webp)
+![entraidconnection](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/entraidconnection.webp)
 
 **Step 4 –** On the Azure AD / Entra ID Connection page, enter a Tenant ID, Client ID, and Client
 Secret. Optional add a Region. Then click **Connect** to grant permissions to read the audit log.
 Click **Open Instruction...** for steps on registering the Activity Monitor with Microsoft Entra ID.
 Click **Next**.
 
-![Add Host - Azure AD Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidoperations.webp)
+![Add Host - Azure AD Operations page](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/entraidoperations.webp)
 
 **Step 5 –** On the Azure AD / Entra ID Operations page, select which audit activity to monitor.
 Click **Next**.
 
-![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![wheretologgeneric](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 6 –** On the Where To Log The Activity page, select where to send the activity events:
 
@@ -80,7 +80,7 @@ Click **Next**.
 - Syslog Server – Sends to a configured SIEM system
 - Netwrix Threat Manager (StealthDEFEND) – Sends to Netwrix Threat Manager
 
-![fileoutputpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![fileoutputpage](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 7 –** If **Log Files** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured. The configurable options are:
@@ -103,7 +103,7 @@ Output** page can be configured. The configurable options are:
 
 Click **Next**.
 
-![syslogoutputpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
+![syslogoutputpage](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 8 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured. The configurable options are:
@@ -135,7 +135,7 @@ Output page can be configured. The configurable options are:
 
 Click **Finish**.
 
-![Azure Active Directory in Activity Monitor](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidadded.webp)
+![Azure Active Directory in Activity Monitor](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/entraidadded.webp)
 
 The added Microsoft Entra ID host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the

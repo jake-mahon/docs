@@ -18,7 +18,7 @@ audit.
 **Step 4 –** In the Manage roles dialog box locate the REST API access user section and click **+New
 user**.
 
-![Manage Roles - File Server](/img/product_docs/activitymonitor/config/nutanix/activitynutanix.webp)
+![Manage Roles - File Server](/img/product_docs/activitymonitor/8.0/config/nutanix/activitynutanix.webp)
 
 **Step 5 –** Enter local user account name and password, then click **Save** to save the settings.
 

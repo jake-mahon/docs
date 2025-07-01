@@ -3,7 +3,7 @@
 The Users tab shows the users and groups in the selected access certification task for which the
 reviewer must certify access entitlement.
 
-![userstab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![userstab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The Users table has the following features:
 
