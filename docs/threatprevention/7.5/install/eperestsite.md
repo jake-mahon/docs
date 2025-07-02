@@ -15,7 +15,7 @@ applications that have to use the REST API.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.5.x.xxx.msi). The Netwrix Threat Prevention Server Setup wizard opens.
 
-![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.5/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
@@ -119,12 +119,12 @@ the installer will create a database for the EPE Rest Site.
   credential authentication fails, the setup does not proceed and a pop-up window displays failure
   details.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/8.0/install/agent/readytoinstall.webp)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.5/install/readytoinstall.webp)
 
 **Step 9 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/8.0/install/complete.webp)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/threatprevention/7.5/install/complete.webp)
 
 **Step 10 –** Click **Finish**.
 

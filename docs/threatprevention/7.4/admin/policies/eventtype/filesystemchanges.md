@@ -223,7 +223,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](/img/product_docs/activitymonitor/7.1/install/agent/success.webp)
+![Event Type – Success filter](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/success.webp)
 
 Select the radio button for the desired monitoring filter:
 

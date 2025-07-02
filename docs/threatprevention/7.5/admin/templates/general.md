@@ -2,7 +2,7 @@
 
 The General tab is for editing the basic attributes of the template.
 
-![Template – General Tab](/img/product_docs/threatprevention/7.5/admin/policies/generaltab.webp)
+![Template – General Tab](/img/product_docs/threatprevention/7.5/admin/templates/generaltab.webp)
 
 Name
 

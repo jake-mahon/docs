@@ -31,7 +31,7 @@ displayed, indicating the currently installed version:
 
 **Step 4 –** Click **Install**.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/changetracker/8.0/install/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/threatprevention/7.4/install/upgrade/eula.webp)
 
 **Step 5 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.

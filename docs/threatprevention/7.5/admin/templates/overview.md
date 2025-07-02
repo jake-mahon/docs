@@ -35,7 +35,7 @@ for organizing templates. The pre-created templates are organized into multiple 
 Each template listed in the Templates interface has a right-click menu. Select a template and
 right-click to open this menu.
 
-![Templates interface - Right-Click Menu](/img/product_docs/threatprevention/7.5/admin/agents/rightclickmenu.webp)
+![Templates interface - Right-Click Menu](/img/product_docs/threatprevention/7.5/admin/templates/rightclickmenu.webp)
 
 It contains the following options:
 

@@ -2,7 +2,7 @@
 
 The Lightweight Directory Access Protocol (LDAP) dashboard contains the following cards:
 
-![LDAP Dashboard](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![LDAP Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/ldap.webp)
 
 - Top Users – Displays up to the top five (5) users related to LDAP events that have been recorded
   in the specified timeframe. See the [Graph Card Features](/docs/threatprevention/7.5/siemdashboard/qradar/navigate.md#graph-card-features)

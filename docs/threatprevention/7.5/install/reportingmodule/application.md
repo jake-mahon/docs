@@ -22,7 +22,7 @@ wizard opens.
 
 **Step 2 –** Click **Install**.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/product_docs/threatprevention/7.5/install/reportingmodule/eula.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.
@@ -35,7 +35,7 @@ checkbox. Click **Next**.
 
 Optionally, enter a new path or use the **Browse** button to modify as desired. Click Next.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Database page](/img/product_docs/threatprevention/7.5/install/database.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Database page](/img/product_docs/threatprevention/7.5/install/reportingmodule/database.webp)
 
 **Step 5 –** On the Database page, ensure the host and port are set correctly. If installing on the
 same server where the PostgreSQL database application was installed, this information will be

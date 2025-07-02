@@ -6,7 +6,7 @@ providers using RADIUS, OpenID, and SAML integrations.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![Integrations interface on the Authentication Provider page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Authentication Provider page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.webp)
 
 Click **Authentication Provider** in the navigation pane to view a list of already configured
 authentication providers, if any.

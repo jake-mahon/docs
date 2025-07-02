@@ -31,7 +31,7 @@ topic for additional information.
 you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent
 Setup wizard opens.
 
-![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Threat Prevention Windows Agent Setup wizard - Welcome page](/img/product_docs/threatprevention/7.5/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
@@ -173,7 +173,7 @@ being deployed. Click **Next**.
 - NetApp Security Event Log – Available for legacy versions. Option should be grayed-out.
 - Workstation Events – Available for legacy versions. Option should be grayed-out.
 
-![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/activitymonitor/8.0/install/agent/readytoinstall.webp)
+![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/threatprevention/7.5/install/readytoinstall.webp)
 
 **Step 10 –** On the Ready to install Threat Prevention Windows Agent page, click **Install**. The
 Setup wizard displays the installation status. When the installation completes, the Operation

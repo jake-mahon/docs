@@ -8,7 +8,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Tag Management** in the navigation pane to view a list of the already defined tags.
 
-![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/page_5.webp)
 
 The out-of-the-box tags include:
 
@@ -134,7 +134,7 @@ The tag is applied to the selected objects.
 
 Follow the steps to remove tags from objects.
 
-![Tag details page showing search results](/img/product_docs/accessanalyzer/11.6/admin/report/interactivegrids/search.webp)
+![Tag details page showing search results](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/search.webp)
 
 **Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
 a list of tags.

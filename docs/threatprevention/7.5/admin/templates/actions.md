@@ -3,7 +3,7 @@
 The Actions tab is for configuring various responses, or event consumers, to the event data a policy
 captures.
 
-![Template – Actions tab](/img/product_docs/threatprevention/7.5/admin/policies/actions/actionstab.webp)
+![Template – Actions tab](/img/product_docs/threatprevention/7.5/admin/templates/actionstab.webp)
 
 The following types of actions are available:
 

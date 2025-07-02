@@ -8,7 +8,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 create a new investigation or click a folder in the navigation pane to access a saved investigation.
 An investigation is located in the folder where it was saved.
 
-![Export option in the Investigation interface](/img/product_docs/directorymanager/11.0/portal/export.webp)
+![Export option in the Investigation interface](/img/product_docs/threatprevention/7.4/reportingmodule/investigations/options/export.webp)
 
 After running an investigation query, click **Export**. Then select one of the following from the
 drop-down menu:

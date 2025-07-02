@@ -42,7 +42,7 @@ Impact of Lockdown Policies
 When both the Exchange Lockdown policy and the Active Directory Lockdown policy are enabled,
 performing delegation or folder permission changes will result in warnings.
 
-![warning](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/warning.webp)
+![warning](/img/product_docs/threatprevention/7.4/troubleshooting/warning.webp)
 
 The Active Directory Lockdown policy will block the Send on Behalf of permission changes.
 

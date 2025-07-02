@@ -116,7 +116,7 @@ On clicking the magnifying glass icon, the Find box appears as:
 - Click **Clear** to clear both the search criteria and the filtered view.
 - The **X** at the far left of the panel closes the Find Panel.
 
-![Search Results](/img/product_docs/activitymonitor/8.0/admin/search/results/searchresults.webp)
+![Search Results](/img/product_docs/threatprevention/7.5/admin/navigation/searchresults.webp)
 
 ## Export Data
 

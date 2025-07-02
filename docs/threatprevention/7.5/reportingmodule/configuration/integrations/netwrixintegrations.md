@@ -9,7 +9,7 @@ select **Integrations** to open the Integrations interface.
 Click **Netwrix Integrations** in the navigation pane to view a list of the Netwrix products already
 integrated with the Netwrix Threat Manager Reporting Module, if any.
 
-![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Netwrix Integration page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page_2.webp)
 
 Integrations with other Netwrix products enables you to run Investigations on the event data within
 the connected database. When you add a Netwrixintegration, the selection for Default Data Source

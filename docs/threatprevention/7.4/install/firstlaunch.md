@@ -36,7 +36,7 @@ You can import the policy templates any time later. See the
 [Import Templates](/docs/threatprevention/7.4/admin/templates/folder/overview.md#import-templates)
 topic for additional information.
 
-![Install Agent dialog box](/img/product_docs/changetracker/8.0/install/agent/installagent.webp)
+![Install Agent dialog box](/img/product_docs/threatprevention/7.4/install/installagent.webp)
 
 **Step 3 –** On the Install Agents dialog box, you can choose to install the Agent on servers now or
 later.

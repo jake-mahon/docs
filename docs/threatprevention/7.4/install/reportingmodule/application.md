@@ -22,7 +22,7 @@ wizard opens.
 
 **Step 2 –** Click **Install**.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/product_docs/changetracker/8.0/install/eula.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the End User License Agreement page](/img/product_docs/threatprevention/7.4/install/reportingmodule/eula.webp)
 
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.
@@ -35,7 +35,7 @@ checkbox. Click **Next**.
 
 Optionally, enter a new path or use the **Browse** button to modify as desired. Click Next.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Database page](/img/product_docs/threatprevention/7.4/install/database.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Database page](/img/product_docs/threatprevention/7.4/install/reportingmodule/database.webp)
 
 **Step 5 –** On the Database page, ensure the host and port are set correctly. If installing on the
 same server where the PostgreSQL database application was installed, this information will be
@@ -58,7 +58,7 @@ Next button is enabled. Click **Next**.
 indicating that the installer will create these. Deselect the checkbox if you do not want the
 installer to automatically create these rules because you have already created them. Click **Next**.
 
-![Netwrix Threat Mannager Reporting Setup wizard on the Completed page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Netwrix Threat Mannager Reporting Setup wizard on the Completed page](/img/product_docs/threatprevention/7.4/install/reportingmodule/completed_1.webp)
 
 **Step 9 –** The installation process will begin and the Setup wizard will display the progress.
 Click Exit when the installation completes successfully. The Netwrix Threat Manager Reporting Setup

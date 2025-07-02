@@ -3,7 +3,7 @@
 Result data is displayed using data grids on several interfaces in the Administration Console. These
 grids employ features for data sorting, filtering, searching, and more.
 
-![Data Grid Functionality pointers](/img/product_docs/accessanalyzer/11.6/admin/navigate/datagridfunctionality.webp)
+![Data Grid Functionality pointers](/img/product_docs/threatprevention/7.4/admin/navigation/datagridfunctionality.webp)
 
 - The Group by Box [1] ribbon impacts how much data is displayed.
 - The Refresh [2] button populates the data grid with the current information according to the
@@ -115,7 +115,7 @@ On clicking the magnifying glass icon, the Find box appears as:
 - Click **Clear** to clear both the search criteria and the filtered view.
 - The **X** at the far left of the panel closes the Find Panel.
 
-![Search Results](/img/product_docs/activitymonitor/7.1/admin/search/results/searchresults.webp)
+![Search Results](/img/product_docs/threatprevention/7.4/admin/navigation/searchresults.webp)
 
 ## Export Data
 
@@ -131,7 +131,7 @@ The data grids provide an option to export data.
 
 **NOTE:** Ensure that all desired filters are set on the data grid before export.
 
-![Export window](/img/product_docs/directorymanager/11.0/portal/export.webp)
+![Export window](/img/product_docs/threatprevention/7.4/admin/navigation/export.webp)
 
 The Export window provides options for what is exported and what action(s) to take.
 

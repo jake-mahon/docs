@@ -20,7 +20,7 @@ machine or a domain account that can be verified on this machine should work.
 
 Example
 
-![GET api/account/users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+![GET api/account/users](/img/product_docs/threatprevention/7.5/eperestsite/users.webp)
 
 ## POST api/account/create
 
@@ -83,7 +83,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![DELETE api/account/delete?userName=username](/img/product_docs/platgovnetsuite/integrations/delete.webp)
+![DELETE api/account/delete?userName=username](/img/product_docs/threatprevention/7.5/eperestsite/delete.webp)
 
 To verify the result of this operation, you can use “GET api/account/users” or check the contents of
 the [EpeUsers].[dbo].[AspNetUsers] database table.

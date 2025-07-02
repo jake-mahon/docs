@@ -8,7 +8,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Email** in the navigation pane.
 
-![Integrations interface on the Email page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Email page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page_3.webp)
 
 The page has the following information:
 

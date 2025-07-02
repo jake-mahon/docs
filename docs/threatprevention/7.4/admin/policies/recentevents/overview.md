@@ -126,7 +126,7 @@ topic for additional information.
 
 Right-click on a row in the data grid to open the right-click menu.
 
-![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/7.4/admin/agents/rightclickmenu.webp)
+![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/7.4/admin/policies/recentevents/rightclickmenu.webp)
 
 - Copy – Copies the selected data cell to clipboard
 - Event Viewer – Opens the

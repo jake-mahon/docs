@@ -9,7 +9,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Folder Settings** in the navigation pane.
 
-![Integrations interface on the Folder Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Folder Settings page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page_4.webp)
 
 By default, Investigation exports are placed in the Downloads folder of the logged in user, on the
 machine where that user is accessing the application. When a Local Folder path is designated, all

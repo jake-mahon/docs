@@ -9,7 +9,7 @@ Follow the steps to install Threat Prevention.
 domain-joined machine. Else the installer runs and completes without errors, though no components
 are installed.
 
-![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.4/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation. One of the following
 happens:
@@ -122,12 +122,12 @@ connection.
   credential authentication fails, the setup does not proceed and a pop-up window displays failure
   details.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/7.1/install/agent/readytoinstall.webp)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.4/install/readytoinstall.webp)
 
 **Step 9 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/7.1/install/complete.webp)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/threatprevention/7.4/install/complete.webp)
 
 If .NET Framework 4.7 is not installed, the Completed the Netwrix Threat Prevention Server Setup
 Wizard page displays the **Run .NET 4.7 installation package** checkbox. Check it and click

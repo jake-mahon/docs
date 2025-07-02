@@ -3,7 +3,7 @@
 The Event Type tab enables you to define the objects and events that Threat Prevention
 monitors/blocks.
 
-![Template – Event Type Tab](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/eventtypetab.webp)
+![Template – Event Type Tab](/img/product_docs/threatprevention/7.5/admin/templates/eventtypetab.webp)
 
 Each event type represents what is monitored or blocked. Event filters are used to either narrow or
 broaden the scope of the monitoring/blocking as desired. Click **Add** (+) to open the Event

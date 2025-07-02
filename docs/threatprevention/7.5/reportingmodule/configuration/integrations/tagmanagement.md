@@ -8,7 +8,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Tag Management** in the navigation pane to view a list of the already defined tags.
 
-![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page_5.webp)
 
 The out-of-the-box tags include:
 

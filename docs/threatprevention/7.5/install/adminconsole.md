@@ -10,7 +10,7 @@ Follow the steps to install the Administration Console on a remote machine.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.5.x.xxx.msi). The Netwrix Threat Prevention Server Setup wizard opens.
 
-![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.5/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation. One of the following
 happens:
@@ -94,12 +94,12 @@ firewall, uncheck this option and manually create the necessary firewall rules. 
 
 When the settings are configured, click **Next**.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/8.0/install/agent/readytoinstall.webp)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.5/install/readytoinstall.webp)
 
 **Step 7 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/8.0/install/complete.webp)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/threatprevention/7.5/install/complete.webp)
 
 If .NET Framework 4.7.2 is not installed, the Completed the Netwrix Threat Prevention Server Setup
 Wizard page displays the **Run .NET installation package** checkbox. Check it and click **Finish**

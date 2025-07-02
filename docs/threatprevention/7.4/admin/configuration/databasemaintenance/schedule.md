@@ -7,7 +7,7 @@ on a regular rotation.
 
 Follow the steps to configure a schedule.
 
-![Database Maintenance window - Schedule tab](/img/product_docs/accessanalyzer/11.6/admin/settings/schedule.webp)
+![Database Maintenance window - Schedule tab](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/schedule.webp)
 
 **Step 1 –** Click **Configuration** > **Database** > **Maintenance** on the menu. The Database
 Maintenance window is displayed.

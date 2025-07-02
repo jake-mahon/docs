@@ -3,7 +3,7 @@
 On installing the Netwrix Threat Manager Reporting Module, the following icon appears on the
 desktop, which opens the Netwrix Threat Manager Reporting Module console:
 
-![Desktop icon for Threat Manager Reporting Module](/img/product_docs/threatprevention/7.5/install/desktopicon.webp)
+![Desktop icon for Threat Manager Reporting Module](/img/product_docs/threatprevention/7.5/install/reportingmodule/desktopicon.webp)
 
 **Step 1 –** Double-click the **Netwrix Threat Manager Dashboard** icon to open the console for the
 first time.

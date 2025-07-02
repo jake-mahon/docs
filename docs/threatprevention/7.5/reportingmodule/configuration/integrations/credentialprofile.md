@@ -9,7 +9,7 @@ select **Integrations** to open the Integrations interface.
 Click **Credential Profile** in the navigation pane to view a list of the already created Credential
 Profiles, if any.
 
-![Integrations interface on the Credential Profile page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Credential Profile page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page_1.webp)
 
 The table displays the user name for each profile. To view profile details or make modifications,
 select a profile from the table or under Credential Profile in the navigation pane.

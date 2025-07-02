@@ -12,7 +12,7 @@ Policies.
 **Step 2 –** On the Policies page, expand the Honeytokens list and select the related Honeytoken
 policy from the Policies list. Or, select the policy from the Policies table in the Overview box.
 
-![honeytoken](/img/product_docs/threatprevention/7.4/admin/configuration/honeytoken.webp)
+![honeytoken](/img/product_docs/threatprevention/7.4/admin/policies/eventtype/usecase/honeytoken.webp)
 
 **Step 3 –** On the Configuration tab of the policy, fill in the requested information and click
 **Copy LDAP Filter**. The Copy LDAP Filter button will automatically copy the exact string that is

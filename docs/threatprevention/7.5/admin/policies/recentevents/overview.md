@@ -122,7 +122,7 @@ This data grid employs features for sorting, filtering, searching, and more. See
 
 Right-click on a row in the data grid to open the right-click menu.
 
-![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/7.5/admin/agents/rightclickmenu.webp)
+![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/7.5/admin/policies/recentevents/rightclickmenu.webp)
 
 - Copy – Copies the selected data cell to clipboard
 - Event Viewer – Opens the [Event Viewer Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventviewer.md) for the selected event/data row

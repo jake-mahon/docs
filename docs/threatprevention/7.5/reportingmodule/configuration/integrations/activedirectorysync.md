@@ -10,7 +10,7 @@ select **Integrations** to open the Integrations interface.
 Click **Active Directory Sync** in the navigation pane to view a list of the already added Active
 Directory domains, if any. Each added domain represents a sync policy.
 
-![Integrations interface on the Active Directory Sync page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Active Directory Sync page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/page.webp)
 
 A service named StealthDEFEND Active Directory Service continuously runs to collect data for the
 specified domain(s). It evaluates the USN value of an object and syncs when the object changes. The

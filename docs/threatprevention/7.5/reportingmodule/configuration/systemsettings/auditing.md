@@ -8,7 +8,7 @@ select **System Settings** to open the System Settings interface.
 
 Click **Auditing** in the navigation pane.
 
-![System Settings interface on the Auditing page](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+![System Settings interface on the Auditing page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/interface.webp)
 
 The Audit History table displays the following information:
 

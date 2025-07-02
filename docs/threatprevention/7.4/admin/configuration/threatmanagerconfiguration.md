@@ -127,7 +127,7 @@ topic for additional information.
 **Step 6 –** In Threat Prevention, click **Configuration** > **Netwrix Threat Manager
 Configuration** on the menu. The Netwrix Threat Manager Configuration window opens.
 
-![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/threatprevention/7.4/admin/configuration/forgedpac.webp)
 
 **Step 7 –** Ensure the Event Sink tab is properly set up to send event data to Threat Manager.
 

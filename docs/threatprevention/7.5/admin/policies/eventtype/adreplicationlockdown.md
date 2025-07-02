@@ -81,7 +81,7 @@ Use the Permissions filter to set the scope of the policy for specific replicati
 within Active Directory that are used to dump password hashes as a fake domain controller in a
 DCSync/Replication attack.
 
-![Policy window - Permissions  filter](/img/product_docs/threatprevention/7.5/admin/policies/permissions.webp)
+![Policy window - Permissions  filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/permissions.webp)
 
 The Permissions filter has two sections:
 
