@@ -1,3 +1,9 @@
+---
+title: "Netwrix Auditor Integration"
+description: "Netwrix Auditor Integration"
+sidebar_position: 10
+---
+
 # Netwrix Auditor Integration
 
 The integration between Netwrix Change Tracker and Netwrix Auditor allows for any event which Change

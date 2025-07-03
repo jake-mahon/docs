@@ -1,3 +1,9 @@
+---
+title: "Detail Tab"
+description: "Detail Tab"
+sidebar_position: 30
+---
+
 # Detail Tab
 
 ![clouddetailtab](/img/product_docs/changetracker/8.1/cloud/clouddetailtab.webp)

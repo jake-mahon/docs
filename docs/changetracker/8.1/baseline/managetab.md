@@ -1,3 +1,9 @@
+---
+title: "Manage Tab"
+description: "Manage Tab"
+sidebar_position: 60
+---
+
 # Manage Tab
 
 A word about remediation and change control when operating a Baseline Configuration Policy…
@@ -52,7 +58,7 @@ Baseline Exceptions
 Exceptions include any failures according the Baseline Policy used in the report, together with any
 new changes affecting the Baseline Policy referenced from the Source device (or if you have chosen
 to include changes from Member Devices too, these will also appear here –
-[see earlier section](/docs/changetracker/8.1/baseline/policywizard.md) regarding the Baseline Setup Wizard and the step where you
+[see earlier section](/docs/changetracker/8.1/baseline/policywizard/policywizard.md) regarding the Baseline Setup Wizard and the step where you
 are asked to 'Specify Source'.
 
 In this example we are using the default operation of only including changes originating from the
@@ -63,7 +69,7 @@ need to be promoted to the Baseline Policy.
 Rule Operations:
 
 There are three choices for modifying a Baseline Policy, Extend, Add and Delete. You can also use
-the [Rule Edit function](/docs/changetracker/8.1/baseline/policywizard.md) back in the Setup tab if you want to remove an existing
+the [Rule Edit function](/docs/changetracker/8.1/baseline/policywizard/policywizard.md) back in the Setup tab if you want to remove an existing
 rule entirely. The functions are largely self-explanatory, but tips are provided if you hover over
 each button.
 

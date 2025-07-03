@@ -1,3 +1,9 @@
+---
+title: "Baseline Tab"
+description: "Baseline Tab"
+sidebar_position: 10
+---
+
 # Baseline Tab
 
 ![baselinetab](/img/product_docs/changetracker/8.1/baseline/baselinetab.webp)

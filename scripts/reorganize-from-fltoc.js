@@ -47,8 +47,8 @@ function getAllMdFiles(dir, rel = '') {
 function mapFltocLinkToMd(link) {
   if (link.startsWith('/Content/Config/')) {
     return link.replace('/Content/', '').replace(/\.htm$/, '.md').toLowerCase();
-  } else if (link.startsWith(`/Content/${CONFIG_KEY}/`)) {
-    return link.replace('/Content/', '').replace(/\.htm$/, '.md').toLowerCase();
+  } else if (link.startsWith('/Content/Access/General/')) {
+    return link.replace('/Content/Access/General/', 'general/').replace(/\.htm$/, '.md').toLowerCase();
   } else if (link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
     return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.htm$/, '.md').toLowerCase();
   }

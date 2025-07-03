@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 30
+---
+
 # Requirements
 
 Review the following for additional information:

@@ -1,3 +1,9 @@
+---
+title: "Security and Change Control Using Baseline Policies"
+description: "Security and Change Control Using Baseline Policies"
+sidebar_position: 30
+---
+
 # Security and Change Control Using Baseline Policies
 
 Several security frameworks reference the need for change control, integrity monitoring and an
