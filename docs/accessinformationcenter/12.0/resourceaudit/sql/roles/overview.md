@@ -1,3 +1,9 @@
+---
+title: "Roles Node Reports"
+description: "Roles Node Reports"
+sidebar_position: 70
+---
+
 # Roles Node Reports
 
 The following report is available at the **Roles** node:

@@ -1,3 +1,9 @@
+---
+title: "Scripted/Command Line Use of Gen 7 Agent EXE Installer"
+description: "Scripted/Command Line Use of Gen 7 Agent EXE Installer"
+sidebar_position: 20
+---
+
 # Scripted/Command Line Use of Gen 7 Agent EXE Installer
 
 By co-locating a pre-configured **HubDetails.xml** file in the same folder as the Gen 7 Agent
@@ -44,5 +50,5 @@ ProxyUser, ProxyPassword.
 **NOTE:** These parameters are not case sensitive.
 
 For more information on the **HubDetails.xml** nodes and settings see the
-[First Run – HubDetails.xml File](/docs/changetracker/8.1/admin/settings/devicegroups.md) topic for additional
+[First Run – HubDetails.xml File](/docs/changetracker/8.1/admin/settingstab/devicegroups.md) topic for additional
 information.

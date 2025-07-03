@@ -1,3 +1,9 @@
+---
+title: "Okta"
+description: "Okta"
+sidebar_position: 160
+---
+
 # Okta
 
 The add-on works in collaboration with Netwrix Auditor, supplying data about activity on your

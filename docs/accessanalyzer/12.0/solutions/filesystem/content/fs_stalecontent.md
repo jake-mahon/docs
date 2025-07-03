@@ -1,3 +1,9 @@
+---
+title: "Stale > FS_StaleContent Job"
+description: "Stale > FS_StaleContent Job"
+sidebar_position: 30
+---
+
 # Stale > FS_StaleContent Job
 
 The FS_StaleContent job is designed to report on stale content information from targeted file

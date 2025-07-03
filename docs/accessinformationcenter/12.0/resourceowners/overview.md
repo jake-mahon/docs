@@ -1,3 +1,9 @@
+---
+title: "Resource Owners Overview"
+description: "Resource Owners Overview"
+sidebar_position: 50
+---
+
 # Resource Owners Overview
 
 The Resource Owners interface is where Access Information Center users with either the Security Team
@@ -27,7 +33,7 @@ feature has been enabled for the resource. The Owner portal is only accessible t
 been assigned ownership of at least one resource. Owners without an Access Information Center user
 role are directed to the Owner portal at login. Owners with an Access Information Center user role
 access the Owner portal by clicking the **Manage Your Resources** link in the Your Links section of
-the Home page. See the [Owner Portal Overview](/docs/accessinformationcenter/12.0/resourceowners/ownerportal/overview.md) topic for additional
+the Home page. See the [Owner Portal Overview](/docs/accessinformationcenter/12.0/owneroverview/ownerportal/overview.md) topic for additional
 information.
 
 Who Can Assign Ownership (Ownership Administrators)?
@@ -58,7 +64,7 @@ What Can Resource Owners Do?
 The Matches table in the report will only be populated for Console User with Security Team and
 Administrator roles.
 
-See the [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface.md) topic for additional information.
+See the [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface/interface.md) topic for additional information.
 
 ## Workflow of Ownership Assignment
 
@@ -89,11 +95,11 @@ Workflow:
 workflow.
 
 - Add resources to be managed by associating a business data owner with a resource.
-    - See the [Add New Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/wizard/add.md) topic for additional information about adding
+    - See the [Add New Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/add.md) topic for additional information about adding
       individual resources.
-    - See the [Import Owners Wizard](/docs/accessinformationcenter/12.0/resourceowners/wizard/import.md) topic for additional information about adding
+    - See the [Import Owners Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/import.md) topic for additional information about adding
       resources with a bulk import.
-- Confirm resource ownership. See the [Ownership Confirmation](/docs/accessinformationcenter/12.0/resourceowners/confirmation.md) topic for additional
+- Confirm resource ownership. See the [Ownership Confirmation](/docs/accessinformationcenter/12.0/resourceowners/confirmation/confirmation.md) topic for additional
   information.
 - Notify owners of their responsibilities. See the Notification to Owners topic for additional
   information.
@@ -108,7 +114,7 @@ information:
     - You will need to decide if you are sending owners to the Web Console or directly to the Access
       Information Center.
 - How to access instructions on how to complete a review. You can link to the
-  [Resource Ownership with the Access Information Center](/docs/accessinformationcenter/12.0/resourceowners/owneroverview.md) topic or download that
+  [Resource Ownership with the Access Information Center](/docs/accessinformationcenter/12.0/owneroverview/owneroverview.md) topic or download that
   topic and its subtopics as a PDF and make it available within your corporate resources.
 - If you plan to enable the Resource Reviews workflow, also include:
     - An explanation of what a Resource Review is and why your organization is conducting them

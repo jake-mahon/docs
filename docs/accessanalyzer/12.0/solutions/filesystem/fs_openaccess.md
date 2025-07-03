@@ -1,3 +1,9 @@
+---
+title: "1.Open Access > FS_OpenAccess Job"
+description: "1.Open Access > FS_OpenAccess Job"
+sidebar_position: 30
+---
+
 # 1.Open Access > FS_OpenAccess Job
 
 The FS_OpenAccess job is designed to report on Open Access information from targeted file servers.

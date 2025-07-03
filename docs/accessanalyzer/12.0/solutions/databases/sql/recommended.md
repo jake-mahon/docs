@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations"
+description: "Recommended Configurations"
+sidebar_position: 10
+---
+
 # Recommended Configurations
 
 The following sections describe the recommended configurations for the SQL Solution 0.Collection Job
@@ -121,7 +127,7 @@ Dependencies
     profiles to accommodate multiple credentials.
 
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run
+- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/0-azuresql_instancediscovery.md) run
   successfully
 
 Targeted Host(s)

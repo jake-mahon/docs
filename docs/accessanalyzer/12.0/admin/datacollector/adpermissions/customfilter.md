@@ -1,3 +1,9 @@
+---
+title: "ADPermissions: Custom Filter"
+description: "ADPermissions: Custom Filter"
+sidebar_position: 40
+---
+
 # ADPermissions: Custom Filter
 
 The Custom Filter page provides options to configure settings for object permission collection. It

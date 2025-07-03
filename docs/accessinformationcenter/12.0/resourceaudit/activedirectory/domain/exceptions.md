@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 10
+---
+
 # Exceptions Report
 
 The Exceptions report at the domain level provides a list of exceptions found on the selected

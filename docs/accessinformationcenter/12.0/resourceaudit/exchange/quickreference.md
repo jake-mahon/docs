@@ -1,3 +1,9 @@
+---
+title: "Exchange Reports Quick Reference Guide"
+description: "Exchange Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Exchange Reports Quick Reference Guide
 
 The following Exchange reports are available for selections within the Resources pane.

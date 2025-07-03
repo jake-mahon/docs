@@ -1,3 +1,9 @@
+---
+title: "Changes Job Group"
+description: "Changes Job Group"
+sidebar_position: 30
+---
+
 # Changes Job Group
 
 The Changes Job Group provides an audit trail for changes made to Computer, Group and User objects

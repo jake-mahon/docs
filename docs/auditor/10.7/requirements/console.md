@@ -1,3 +1,9 @@
+---
+title: "Hardware Requirements"
+description: "Hardware Requirements"
+sidebar_position: 20
+---
+
 # Hardware Requirements
 
 This topic covers hardware requirements for Netwrix Auditor installation and provides estimations of

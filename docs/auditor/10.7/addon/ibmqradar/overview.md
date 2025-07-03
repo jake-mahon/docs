@@ -1,3 +1,9 @@
+---
+title: "IBM QRadar"
+description: "IBM QRadar"
+sidebar_position: 100
+---
+
 # IBM QRadar
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

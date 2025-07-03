@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID Single Sign-On"
+description: "Microsoft Entra ID Single Sign-On"
+sidebar_position: 50
+---
+
 # Microsoft Entra ID Single Sign-On
 
 Microsoft Entra ID Single Sign-On (SSO) can be configured for logging in to the Web Console to view

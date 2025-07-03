@@ -1,3 +1,9 @@
+---
+title: "Scan Summary Report"
+description: "Scan Summary Report"
+sidebar_position: 10
+---
+
 # Scan Summary Report
 
 The Scan Summary report at the **Shared Folders** node provides a summary view of all shares on the

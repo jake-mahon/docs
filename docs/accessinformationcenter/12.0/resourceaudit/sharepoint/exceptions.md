@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 20
+---
+
 # Exceptions Report
 
 The Exceptions report at the **SharePoint** node provides a list of exceptions that were found

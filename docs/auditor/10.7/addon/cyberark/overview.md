@@ -1,3 +1,9 @@
+---
+title: "CyberArk Privileged Access Security"
+description: "CyberArk Privileged Access Security"
+sidebar_position: 80
+---
+
 # CyberArk Privileged Access Security
 
 Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables

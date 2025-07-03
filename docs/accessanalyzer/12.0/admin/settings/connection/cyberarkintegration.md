@@ -1,3 +1,9 @@
+---
+title: "CyberArk Integration"
+description: "CyberArk Integration"
+sidebar_position: 20
+---
+
 # CyberArk Integration
 
 In order for Access Analyzer to be able to retrieve service account passwords from the CyberArk

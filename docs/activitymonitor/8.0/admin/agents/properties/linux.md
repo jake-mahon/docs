@@ -1,3 +1,9 @@
+---
+title: "Linux Tab"
+description: "Linux Tab"
+sidebar_position: 110
+---
+
 # Linux Tab
 
 The service user name configured during agent installation can be updated on the Agent Properties

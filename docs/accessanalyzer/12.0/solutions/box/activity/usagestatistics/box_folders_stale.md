@@ -1,3 +1,9 @@
+---
+title: "Box_Folders_Stale Job"
+description: "Box_Folders_Stale Job"
+sidebar_position: 20
+---
+
 # Box_Folders_Stale Job
 
 The Box_Folders_Stale Job identifies the last time activity occurred for each folder in the Box

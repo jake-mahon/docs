@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: SDD Options"
+description: "EWSPublicFolder: SDD Options"
+sidebar_position: 30
+---
+
 # EWSPublicFolder: SDD Options
 
 Use the Sensitive data scan options page to configure options to for discovering sensitive data. It

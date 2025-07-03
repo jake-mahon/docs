@@ -1,3 +1,9 @@
+---
+title: "Db2_DirectPermissions Job"
+description: "Db2_DirectPermissions Job"
+sidebar_position: 10
+---
+
 # Db2_DirectPermissions Job
 
 This job provides insight into direct user and role permissions to all the database objects in the

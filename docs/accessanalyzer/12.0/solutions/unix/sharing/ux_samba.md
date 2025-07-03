@@ -1,3 +1,9 @@
+---
+title: "UX_Samba Job"
+description: "UX_Samba Job"
+sidebar_position: 30
+---
+
 # UX_Samba Job
 
 The UX_Samba job identifies potentially insecure Samba share configurations which are categorized by

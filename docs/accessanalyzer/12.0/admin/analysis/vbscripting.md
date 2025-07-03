@@ -1,3 +1,9 @@
+---
+title: "VBscripting Analysis Module"
+description: "VBscripting Analysis Module"
+sidebar_position: 70
+---
+
 # VBscripting Analysis Module
 
 Use the VBscripting analysis module to access the VBScript Editor and apply VB scripting to the

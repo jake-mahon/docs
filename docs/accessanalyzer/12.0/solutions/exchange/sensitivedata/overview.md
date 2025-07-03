@@ -1,3 +1,9 @@
+---
+title: "7.Sensitive Data Job Group"
+description: "7.Sensitive Data Job Group"
+sidebar_position: 80
+---
+
 # 7.Sensitive Data Job Group
 
 The 7. Sensitive Data job group is comprised of jobs which locate sensitive data found in mailboxes

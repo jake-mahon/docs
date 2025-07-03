@@ -1,3 +1,9 @@
+---
+title: "Application Server Requirements"
+description: "Application Server Requirements"
+sidebar_position: 10
+---
+
 # Application Server Requirements
 
 The Windows Server can be physical or virtual. The following Windows Server operating systems are

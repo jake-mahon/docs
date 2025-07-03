@@ -1,3 +1,9 @@
+---
+title: "Export Activity Records"
+description: "Export Activity Records"
+sidebar_position: 30
+---
+
 # Export Activity Records
 
 ## Export Activity Records Associated with the Alert

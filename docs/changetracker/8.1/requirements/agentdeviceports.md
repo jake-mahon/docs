@@ -1,3 +1,9 @@
+---
+title: "Agent and Device Ports"
+description: "Agent and Device Ports"
+sidebar_position: 20
+---
+
 # Agent and Device Ports
 
 Although custom ports can be set in the agent's configuration files, the following are the default

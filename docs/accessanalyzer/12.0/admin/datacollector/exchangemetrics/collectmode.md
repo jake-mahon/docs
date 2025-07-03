@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Collect Mode"
+description: "ExchangeMetrics: Collect Mode"
+sidebar_position: 40
+---
+
 # ExchangeMetrics: Collect Mode
 
 The Collect Mode page is where to set the collection mode. It is a wizard page for the categories

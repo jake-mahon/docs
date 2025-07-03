@@ -1,3 +1,9 @@
+---
+title: "External Sharing Report"
+description: "External Sharing Report"
+sidebar_position: 40
+---
+
 # External Sharing Report
 
 The External Sharing report at the online instance level displays resources that are shared with

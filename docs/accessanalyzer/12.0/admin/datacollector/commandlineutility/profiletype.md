@@ -1,3 +1,9 @@
+---
+title: "CLU: Profile Type"
+description: "CLU: Profile Type"
+sidebar_position: 10
+---
+
 # CLU: Profile Type
 
 The Profile Type page contains options to select a new or existing profile.

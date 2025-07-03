@@ -1,3 +1,9 @@
+---
+title: "FS_RestoreInheritance Job"
+description: "FS_RestoreInheritance Job"
+sidebar_position: 30
+---
+
 # FS_RestoreInheritance Job
 
 The FS_RestoreInheritance job is designed to restore inheritance to previously quarantined files.

@@ -1,3 +1,9 @@
+---
+title: "AD_DSRMSettings Job"
+description: "AD_DSRMSettings Job"
+sidebar_position: 50
+---
+
 # AD_DSRMSettings Job
 
 The AD_DRSMSettings Job provides details on domain controller registry settings for the

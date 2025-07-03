@@ -1,3 +1,9 @@
+---
+title: "Ad Hoc Audits Job Group"
+description: "Ad Hoc Audits Job Group"
+sidebar_position: 100
+---
+
 # Ad Hoc Audits Job Group
 
 The Ad Hoc Audits Job Group is designed to report on resources and trustees that have been provided

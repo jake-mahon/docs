@@ -1,3 +1,9 @@
+---
+title: "UX_MakeDirectory Job"
+description: "UX_MakeDirectory Job"
+sidebar_position: 10
+---
+
 # UX_MakeDirectory Job
 
 The UX_MakeDirectory job creates a temporary Access Analyzer directory on the target host to be used

@@ -1,3 +1,9 @@
+---
+title: "SQL: Settings"
+description: "SQL: Settings"
+sidebar_position: 60
+---
+
 # SQL: Settings
 
 The Settings page configures the removal of data from the Access Analyzer database for specific

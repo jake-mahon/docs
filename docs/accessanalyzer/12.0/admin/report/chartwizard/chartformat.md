@@ -1,3 +1,9 @@
+---
+title: "Chart Format"
+description: "Chart Format"
+sidebar_position: 10
+---
+
 # Chart Format
 
 The Chart Format page of the Chart Configuration wizard is where you can select the chart type and

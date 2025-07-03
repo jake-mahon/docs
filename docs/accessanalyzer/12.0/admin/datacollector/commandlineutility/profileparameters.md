@@ -1,3 +1,9 @@
+---
+title: "CLU: Profile Parameters"
+description: "CLU: Profile Parameters"
+sidebar_position: 20
+---
+
 # CLU: Profile Parameters
 
 The Profile Parameters page provides settings to configure the parameters for the profile. It is a

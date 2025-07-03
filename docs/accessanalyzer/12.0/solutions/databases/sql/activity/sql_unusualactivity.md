@@ -1,3 +1,9 @@
+---
+title: "SQL_UnusualActivity Job"
+description: "SQL_UnusualActivity Job"
+sidebar_position: 50
+---
+
 # SQL_UnusualActivity Job
 
 The SQL_UnusualActivity Job identifies anomalies related to outlier user activity by database for

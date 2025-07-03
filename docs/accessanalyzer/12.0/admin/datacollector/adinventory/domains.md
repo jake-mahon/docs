@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Domains"
+description: "ADInventory: Domains"
+sidebar_position: 40
+---
+
 # ADInventory: Domains
 
 The Domains page removes host domain-related data from the SQL server for the selected domains.

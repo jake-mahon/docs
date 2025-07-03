@@ -1,3 +1,9 @@
+---
+title: "2.Content Job Group"
+description: "2.Content Job Group"
+sidebar_position: 40
+---
+
 # 2.Content Job Group
 
 The 2.Content Job Group analyzes and summarizes the content of the targeted Box environment,

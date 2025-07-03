@@ -1,3 +1,9 @@
+---
+title: "Data Collectors"
+description: "Data Collectors"
+sidebar_position: 80
+---
+
 # Data Collectors
 
 This topic covers the configuration wizards that are unique to each data collector. See the

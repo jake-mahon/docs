@@ -1,3 +1,9 @@
+---
+title: "SP_DomainUsers Job"
+description: "SP_DomainUsers Job"
+sidebar_position: 10
+---
+
 # SP_DomainUsers Job
 
 The SP_DomainUsers Job identifies locations where there are domain users directly applied on

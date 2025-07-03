@@ -1,3 +1,9 @@
+---
+title: "Install for User Activity Core Service"
+description: "Install for User Activity Core Service"
+sidebar_position: 60
+---
+
 # Install for User Activity Core Service
 
 By default, the Core Service is installed automatically on the audited computers when setting up

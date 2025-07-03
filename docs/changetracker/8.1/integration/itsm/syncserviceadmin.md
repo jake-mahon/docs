@@ -1,3 +1,9 @@
+---
+title: "Sync Service Administration"
+description: "Sync Service Administration"
+sidebar_position: 20
+---
+
 # Sync Service Administration
 
 For most use cases of the Sync Service, installation is all the configuration and administration

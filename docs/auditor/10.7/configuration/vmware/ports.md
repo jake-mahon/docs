@@ -1,3 +1,9 @@
+---
+title: "VMware Ports"
+description: "VMware Ports"
+sidebar_position: 10
+---
+
 # VMware Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for VMware.

@@ -1,3 +1,9 @@
+---
+title: "Configuration Interface"
+description: "Configuration Interface"
+sidebar_position: 60
+---
+
 # Configuration Interface
 
 The Configuration interface provides access to configure the domains, users and roles,

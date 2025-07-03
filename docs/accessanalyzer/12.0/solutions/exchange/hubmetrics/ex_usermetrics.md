@@ -1,3 +1,9 @@
+---
+title: "EX_UserMetrics Job"
+description: "EX_UserMetrics Job"
+sidebar_position: 90
+---
+
 # EX_UserMetrics Job
 
 The EX_UserMetrics Job provides information around each users mail-flow in the organization.

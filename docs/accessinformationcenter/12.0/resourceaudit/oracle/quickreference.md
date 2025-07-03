@@ -1,3 +1,9 @@
+---
+title: "Oracle Reports Quick Reference Guide"
+description: "Oracle Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Oracle Reports Quick Reference Guide
 
 The following Oracle reports are available for selections within the Resources pane.

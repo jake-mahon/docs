@@ -1,3 +1,9 @@
+---
+title: "AD_KerberoastingRisk Job"
+description: "AD_KerberoastingRisk Job"
+sidebar_position: 60
+---
+
 # AD_KerberoastingRisk Job
 
 The AD_KerberoastingRisk job identifies accounts vulnerable to kerberoasting. Kerberoasting is a

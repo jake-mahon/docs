@@ -1,3 +1,9 @@
+---
+title: "Box_FirstTimeFolderAccess Job"
+description: "Box_FirstTimeFolderAccess Job"
+sidebar_position: 20
+---
+
 # Box_FirstTimeFolderAccess Job
 
 The Box_FirstTimeFolderAccess Job identifies the first time a user performs any activity on a folder

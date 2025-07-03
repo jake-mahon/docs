@@ -1,3 +1,9 @@
+---
+title: "AWS_BrokenInheritance Job"
+description: "AWS_BrokenInheritance Job"
+sidebar_position: 10
+---
+
 # AWS_BrokenInheritance Job
 
 The AWS_BrokenInheritance job highlights permissions in an AWS S3 bucket that differ from those

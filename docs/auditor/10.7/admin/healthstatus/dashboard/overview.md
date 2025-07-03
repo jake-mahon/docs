@@ -1,3 +1,9 @@
+---
+title: "Health Status Dashboard"
+description: "Health Status Dashboard"
+sidebar_position: 10
+---
+
 # Health Status Dashboard
 
 New Health Status dashboard facilitates Auditor maintenance and troubleshooting tasks, providing IT

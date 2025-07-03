@@ -1,3 +1,9 @@
+---
+title: "API Endpoints"
+description: "API Endpoints"
+sidebar_position: 30
+---
+
 # API Endpoints
 
 | Method | Endpoint                                | POST Data                                         | Description                                                                                                                    |

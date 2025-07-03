@@ -1,3 +1,9 @@
+---
+title: "Application"
+description: "Application"
+sidebar_position: 20
+---
+
 # Application
 
 The **Application** node is for configuring general settings which affect the way the Access

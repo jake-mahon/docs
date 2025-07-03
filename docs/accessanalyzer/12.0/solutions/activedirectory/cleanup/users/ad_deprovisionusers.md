@@ -1,3 +1,9 @@
+---
+title: "AD_DeprovisionUsers Job"
+description: "AD_DeprovisionUsers Job"
+sidebar_position: 10
+---
+
 # AD_DeprovisionUsers Job
 
 The AD_DeprovisionUsers Job provides an automated workflow deprovision stale and unused user
@@ -59,7 +65,7 @@ this job’s analysis.
 | User Accounts to Delete | @days_before_deleting       | 365           | Days in the Stale Users OU before being deleted |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DeprovisionUsers Job

@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory: Category"
+description: "AzureADInventory: Category"
+sidebar_position: 30
+---
+
 # AzureADInventory: Category
 
 The Category page identifies which Inventory task to perform.

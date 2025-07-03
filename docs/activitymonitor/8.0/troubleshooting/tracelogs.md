@@ -1,3 +1,9 @@
+---
+title: "Trace Logs"
+description: "Trace Logs"
+sidebar_position: 20
+---
+
 # Trace Logs
 
 While activity agents store activity logs on the servers where they are deployed, the Activity

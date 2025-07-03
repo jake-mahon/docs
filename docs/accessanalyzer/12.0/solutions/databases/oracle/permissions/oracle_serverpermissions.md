@@ -1,3 +1,9 @@
+---
+title: "Oracle_ServerPermissions Job"
+description: "Oracle_ServerPermissions Job"
+sidebar_position: 40
+---
+
 # Oracle_ServerPermissions Job
 
 The Oracle_ServerPermissions Job analyzes permissions granted at the database level and reports on

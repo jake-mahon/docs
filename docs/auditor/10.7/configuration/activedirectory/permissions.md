@@ -1,3 +1,9 @@
+---
+title: "Permissions for Active Directory Auditing"
+description: "Permissions for Active Directory Auditing"
+sidebar_position: 110
+---
+
 # Permissions for Active Directory Auditing
 
 Before you start creating a monitoring plan to audit your Active Directory, plan for the account

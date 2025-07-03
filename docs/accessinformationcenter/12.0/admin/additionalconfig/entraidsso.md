@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID Single Sign-On"
+description: "Microsoft Entra ID Single Sign-On"
+sidebar_position: 70
+---
+
 # Microsoft Entra ID Single Sign-On
 
 The Access Information Center can be configured to use Microsoft Entra ID Single Sign-On (SSO). When

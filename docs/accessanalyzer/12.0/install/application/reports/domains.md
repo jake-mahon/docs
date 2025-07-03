@@ -1,3 +1,9 @@
+---
+title: "Enable Multiple Domain Access"
+description: "Enable Multiple Domain Access"
+sidebar_position: 30
+---
+
 # Enable Multiple Domain Access
 
 When the `AuthenticationDomains` parameter in the **WebServer.exe.config** file is blank, only

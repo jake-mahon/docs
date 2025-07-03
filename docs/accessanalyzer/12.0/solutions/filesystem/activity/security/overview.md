@@ -1,3 +1,9 @@
+---
+title: "Security Job Group"
+description: "Security Job Group"
+sidebar_position: 30
+---
+
 # Security Job Group
 
 The Security job group is designed to report on security related activity event information from

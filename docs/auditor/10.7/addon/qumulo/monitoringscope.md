@@ -1,3 +1,9 @@
+---
+title: "Monitoring Scope"
+description: "Monitoring Scope"
+sidebar_position: 40
+---
+
 # Monitoring Scope
 
 Review a full list of all events Netwrix Auditor can collect on Qumulo Cluster.

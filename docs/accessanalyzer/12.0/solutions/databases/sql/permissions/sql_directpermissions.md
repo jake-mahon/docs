@@ -1,3 +1,9 @@
+---
+title: "SQL_DirectPermissions Job"
+description: "SQL_DirectPermissions Job"
+sidebar_position: 20
+---
+
 # SQL_DirectPermissions Job
 
 The SQL_DirectPermissions Job provides information on permissions granted to users at the schema,

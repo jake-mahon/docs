@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID Ports"
+description: "Microsoft Entra ID Ports"
+sidebar_position: 10
+---
+
 # Microsoft Entra ID Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Microsoft Entra ID

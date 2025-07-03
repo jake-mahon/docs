@@ -1,3 +1,9 @@
+---
+title: "Import Virtual Machine from Image to VMware"
+description: "Import Virtual Machine from Image to VMware"
+sidebar_position: 10
+---
+
 # Import Virtual Machine from Image to VMware
 
 Perform the following steps to import a virtual machine:

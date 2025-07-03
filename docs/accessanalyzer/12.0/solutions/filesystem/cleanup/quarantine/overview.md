@@ -1,3 +1,9 @@
+---
+title: "3. Quarantine Job Group"
+description: "3. Quarantine Job Group"
+sidebar_position: 30
+---
+
 # 3. Quarantine Job Group
 
 The 3. Quarantine job group is designed to report on and quarantine files that are pending cleanup.

@@ -1,3 +1,9 @@
+---
+title: "AWS_OpenBuckets Job"
+description: "AWS_OpenBuckets Job"
+sidebar_position: 30
+---
+
 # AWS_OpenBuckets Job
 
 The AWS_OpenBuckets job identifies buckets that have permissions assigned to everyone at the top

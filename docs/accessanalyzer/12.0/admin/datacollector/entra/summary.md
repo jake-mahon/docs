@@ -1,3 +1,9 @@
+---
+title: "Entra: Summary"
+description: "Entra: Summary"
+sidebar_position: 30
+---
+
 # Entra: Summary
 
 The Summary page is where configuration settings are summarized.

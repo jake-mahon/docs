@@ -1,3 +1,9 @@
+---
+title: "AD_SiteRights Job"
+description: "AD_SiteRights Job"
+sidebar_position: 70
+---
+
 # AD_SiteRights Job
 
 The AD_SiteRights Job provides data collection to identify permissions applied to sites in Active

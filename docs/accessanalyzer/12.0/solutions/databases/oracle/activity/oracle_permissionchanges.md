@@ -1,3 +1,9 @@
+---
+title: "Oracle_PermissionChanges Job"
+description: "Oracle_PermissionChanges Job"
+sidebar_position: 30
+---
+
 # Oracle_PermissionChanges Job
 
 The Oracle_PermissionsChanges Job is designed to provide detailed information about changes in

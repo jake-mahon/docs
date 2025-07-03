@@ -1,3 +1,9 @@
+---
+title: "Navigate the Console"
+description: "Navigate the Console"
+sidebar_position: 10
+---
+
 # Navigate the Console
 
 In the Recovery Console, navigation options are displayed in the:

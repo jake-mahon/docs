@@ -1,3 +1,9 @@
+---
+title: "1. Cleanup Assessment > FS_CleanupAssessment Job"
+description: "1. Cleanup Assessment > FS_CleanupAssessment Job"
+sidebar_position: 10
+---
+
 # 1. Cleanup Assessment > FS_CleanupAssessment Job
 
 The FS_CleanupAssessment job is designed to report on and assess the status of target file servers
@@ -101,7 +107,7 @@ The default values for parameters that can be customized are:
 | @MAX_STALE_THRESHOLD            | 365                         | Set the upper bound of the files to be included in the FileDetails table (by Last Modfied, in days)    |                                                                                                     |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions to modify parameters.
 
 ### Include Metadata Tag Information

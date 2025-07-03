@@ -1,3 +1,9 @@
+---
+title: "9.Sites Job Group"
+description: "9.Sites Job Group"
+sidebar_position: 110
+---
+
 # 9.Sites Job Group
 
 The 9.Sites Job Group reports on all Active Directory permissions applied to site objects within the

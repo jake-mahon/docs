@@ -1,3 +1,9 @@
+---
+title: "FileSystemAccess Data Collector"
+description: "FileSystemAccess Data Collector"
+sidebar_position: 230
+---
+
 # FileSystemAccess Data Collector
 
 The FileSystemAccess (FSAA) Data Collector collects permissions, content, and activity, and
@@ -14,13 +20,13 @@ Protocols
 Ports
 
 - Ports vary based on the Scan Mode Option selected. See the
-  [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for
+  [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic for
   additional information.
 
 Permissions
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for
+  [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for
   additional information.
 
 Sensitive Data Discovery Considerations
@@ -41,7 +47,7 @@ The wizard contains the following pages, which change based up on the query cate
 - [FSAA: Scan Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/scansettings.md)
 - [FSAA: Azure Tenant Mapping](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/azuretenantmapping.md)
 - [FSAA: Activity Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/activitysettings.md)
-- [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions.md)
+- [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/defaultscopingoptions.md)
 - [FSAA: Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/scopingoptions.md)
 - [FSAA: Scoping Queries](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/scopingqueries.md)
 - [FSAA: Sensitive Data Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/sensitivedatasettings.md)

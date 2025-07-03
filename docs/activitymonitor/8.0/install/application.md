@@ -1,3 +1,9 @@
+---
+title: "Install Application"
+description: "Install Application"
+sidebar_position: 10
+---
+
 # Install Application
 
 Netwrix Activity Monitor comes with a 10-day trial license to start. If an organization's license

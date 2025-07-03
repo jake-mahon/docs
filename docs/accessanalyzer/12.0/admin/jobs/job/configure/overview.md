@@ -1,3 +1,9 @@
+---
+title: "Configure Node"
+description: "Configure Node"
+sidebar_position: 30
+---
+
 # Configure Node
 
 Changes to configurations for the job’s assigned Host Lists, Queries, Analyses, Actions, and Reports
@@ -15,7 +21,7 @@ The sub-nodes under the **[Job]** > **Configure** node are:
   by the job
 - [Queries Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/queries.md) – Select and configure a Access Analyzer data collector to scan
   targeted hosts
-- [Analysis Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis.md) – Create and configure Analysis and Notification tasks for collected
+- [Analysis Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysis.md) – Create and configure Analysis and Notification tasks for collected
   data
 - [Actions Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/actions.md) – Create and configure Action tasks for taking action on collected and
   analyzed data

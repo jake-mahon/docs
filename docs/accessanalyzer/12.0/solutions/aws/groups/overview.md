@@ -1,3 +1,9 @@
+---
+title: "3.Groups Job Group"
+description: "3.Groups Job Group"
+sidebar_position: 50
+---
+
 # 3.Groups Job Group
 
 The 3.Groups job group provides details on AWS IAM group membership, orphaned groups (those with no

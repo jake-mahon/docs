@@ -1,3 +1,9 @@
+---
+title: "Run a Stand-Alone Script"
+description: "Run a Stand-Alone Script"
+sidebar_position: 10
+---
+
 # Run a Stand-Alone Script
 
 Some situations require a script to be used exclusively without defining a data source. The Query

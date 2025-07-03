@@ -1,3 +1,9 @@
+---
+title: "4.Content > Dropbox_Content Job"
+description: "4.Content > Dropbox_Content Job"
+sidebar_position: 60
+---
+
 # 4.Content > Dropbox_Content Job
 
 The Dropbox_Content job provides insight into the type, size, and age of the content within the
@@ -65,5 +71,5 @@ enables you to easily set this value.
 
 The parameter can be customized and is listed in a section at the bottom of the SQL Script Editor.
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.

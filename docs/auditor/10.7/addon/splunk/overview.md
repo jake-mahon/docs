@@ -1,3 +1,9 @@
+---
+title: "Splunk"
+description: "Splunk"
+sidebar_position: 250
+---
+
 # Splunk
 
 Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables

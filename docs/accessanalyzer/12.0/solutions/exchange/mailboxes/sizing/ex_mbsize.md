@@ -1,3 +1,9 @@
+---
+title: "0.Collection > EX_MBSize Job"
+description: "0.Collection > EX_MBSize Job"
+sidebar_position: 10
+---
+
 # 0.Collection > EX_MBSize Job
 
 The EX_MBSize job collects information from the Exchange environment about the mailbox sizes in the
@@ -24,5 +30,5 @@ The following query is included in the EX_MBSize Job:
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
     topic for credential requirements.

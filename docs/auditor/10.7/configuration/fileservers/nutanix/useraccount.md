@@ -1,3 +1,9 @@
+---
+title: "Create User Account to Access Nutanix REST API"
+description: "Create User Account to Access Nutanix REST API"
+sidebar_position: 20
+---
+
 # Create User Account to Access Nutanix REST API
 
 To create a user account using the ncli utility:

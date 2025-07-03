@@ -1,3 +1,9 @@
+---
+title: "SIEM Generic Integration for Event Log Export"
+description: "SIEM Generic Integration for Event Log Export"
+sidebar_position: 230
+---
+
 # SIEM Generic Integration for Event Log Export
 
 Netwrix Auditor helps you protect and get most from your SIEM investment. The Event Log Export

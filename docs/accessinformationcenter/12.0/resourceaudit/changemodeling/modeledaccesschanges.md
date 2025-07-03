@@ -1,3 +1,9 @@
+---
+title: "Modeled Access Changes Report"
+description: "Modeled Access Changes Report"
+sidebar_position: 20
+---
+
 # Modeled Access Changes Report
 
 The Modeled Access Changes report at the **File System** node provides an enterprise wide view of

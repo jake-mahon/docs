@@ -1,3 +1,9 @@
+---
+title: "FS_EmptyResources Job"
+description: "FS_EmptyResources Job"
+sidebar_position: 10
+---
+
 # FS_EmptyResources Job
 
 The FS_EmptyResources job is designed to report on empty resources from targeted file servers.

@@ -1,3 +1,9 @@
+---
+title: "SQL: Custom SQL Query"
+description: "SQL: Custom SQL Query"
+sidebar_position: 70
+---
+
 # SQL: Custom SQL Query
 
 The Custom Query page for a Custom SQL Query contains the following configuration options. It is a

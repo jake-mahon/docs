@@ -1,3 +1,9 @@
+---
+title: "FSAA: SDD Criteria Settings"
+description: "FSAA: SDD Criteria Settings"
+sidebar_position: 120
+---
+
 # FSAA: SDD Criteria Settings
 
 The SDD Criteria Settings page is where criteria to be used for discovering sensitive data during a

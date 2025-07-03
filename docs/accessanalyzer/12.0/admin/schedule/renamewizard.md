@@ -1,3 +1,9 @@
+---
+title: "Rename Scheduled Task Wizard"
+description: "Rename Scheduled Task Wizard"
+sidebar_position: 20
+---
+
 # Rename Scheduled Task Wizard
 
 If a scheduled task has custom credentials set, then the Rename Scheduled Task wizard displays when

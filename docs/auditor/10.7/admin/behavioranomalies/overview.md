@@ -1,3 +1,9 @@
+---
+title: "Behavior Anomalies"
+description: "Behavior Anomalies"
+sidebar_position: 80
+---
+
 # Behavior Anomalies
 
 Netwrix Auditor enables you to detect behavior anomalies in your IT environment, such as activity
@@ -17,7 +23,7 @@ On a high level, your behavior anomalies assessment workflow can be described as
 1. You create alerts on threat patterns specific to your company. You include these alerts in
    Behavior Anomalies assessment and associate a risk score with each alert. The score, that is
    between 1 and 100 points, reflects how critical the action is for your organization.
-   [Risk Score](/docs/auditor/10.7/admin/alertsettings/create.md)how to set a risk score for an alert.
+   [Risk Score](/docs/auditor/10.7/admin/alertsettings/create/create.md)how to set a risk score for an alert.
 
     Although Netwrix industry experts suggest risk scores for alerts that are provided
     out-of-the-box, you can easily tailor these scores to your organization needs and priorities.

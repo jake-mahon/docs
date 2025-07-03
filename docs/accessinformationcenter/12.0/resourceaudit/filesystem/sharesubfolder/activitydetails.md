@@ -1,3 +1,9 @@
+---
+title: "Activity Details Report"
+description: "Activity Details Report"
+sidebar_position: 10
+---
+
 # Activity Details Report
 
 The Activity Details report at the share and subfolder levels provides details on every operations
@@ -50,4 +56,4 @@ the following columns:
 - Access Rights – Type of right assigned
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/12.0/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.

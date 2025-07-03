@@ -1,3 +1,9 @@
+---
+title: "Configure Exchange for Monitoring Mailbox Access"
+description: "Configure Exchange for Monitoring Mailbox Access"
+sidebar_position: 30
+---
+
 # Configure Exchange for Monitoring Mailbox Access
 
 Netwrix Auditor allows tracking non-owner mailbox access in your Exchange organization.

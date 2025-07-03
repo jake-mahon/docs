@@ -1,3 +1,9 @@
+---
+title: "Hosts Lists"
+description: "Hosts Lists"
+sidebar_position: 20
+---
+
 # Hosts Lists
 
 A host list is a grouping of hosts for the purpose of executing jobs against. Every host list

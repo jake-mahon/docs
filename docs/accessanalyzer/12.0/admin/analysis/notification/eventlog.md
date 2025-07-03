@@ -1,3 +1,9 @@
+---
+title: "Notification: Event Log"
+description: "Notification: Event Log"
+sidebar_position: 90
+---
+
 # Notification: Event Log
 
 The Event Log properties page is available when the Event log notification type is selected on the

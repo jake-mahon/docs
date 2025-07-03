@@ -1,3 +1,9 @@
+---
+title: "SQL Data Collector"
+description: "SQL Data Collector"
+sidebar_position: 360
+---
+
 # SQL Data Collector
 
 The SQL Data Collector provides information on database configuration, permissions, data extraction,
@@ -88,9 +94,9 @@ For SQL:
     - Grant View server state to [DOMAIN\USER]
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
-See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/target/config/azuresqlaccess.md)
+See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/databases/databasesql/azuresqlaccess.md)
 topic and the
-[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/target/config/databaseazuresql.md)
+[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/databases/databasesql/databaseazuresql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

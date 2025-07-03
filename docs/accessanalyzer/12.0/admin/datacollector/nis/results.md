@@ -1,3 +1,9 @@
+---
+title: "NIS: Results"
+description: "NIS: Results"
+sidebar_position: 70
+---
+
 # NIS: Results
 
 The Results page is where properties from Unix to be gathered are selected. It is a wizard page for

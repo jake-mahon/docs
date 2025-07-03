@@ -1,3 +1,9 @@
+---
+title: "5. Public Folders Job Group"
+description: "5. Public Folders Job Group"
+sidebar_position: 60
+---
+
 # 5. Public Folders Job Group
 
 The 5. Public Folders job group is comprised of data collection, analyses, and reports that focus on

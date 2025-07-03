@@ -1,3 +1,9 @@
+---
+title: "Configure Local Audit Policies"
+description: "Configure Local Audit Policies"
+sidebar_position: 30
+---
+
 # Configure Local Audit Policies
 
 You can choose to configure local audit policies or advanced audit policies.See the

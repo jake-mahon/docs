@@ -1,3 +1,9 @@
+---
+title: "AD_SensitiveSecurityGroups Job"
+description: "AD_SensitiveSecurityGroups Job"
+sidebar_position: 100
+---
+
 # AD_SensitiveSecurityGroups Job
 
 The AD_SensitiveSecurityGroups Job identifies users who are granted administrative access within

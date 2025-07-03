@@ -1,3 +1,9 @@
+---
+title: "File-Based Repository for Long-Term Archive"
+description: "File-Based Repository for Long-Term Archive"
+sidebar_position: 60
+---
+
 # File-Based Repository for Long-Term Archive
 
 Long-Term Archive is a file-based repository for keeping activity records collected by Auditor.

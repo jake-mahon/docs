@@ -1,3 +1,9 @@
+---
+title: "4.Group Policy Job Group"
+description: "4.Group Policy Job Group"
+sidebar_position: 40
+---
+
 # 4.Group Policy Job Group
 
 The 4.Group Policy Job Group audits GPOs and their settings, and provides in depth analysis of

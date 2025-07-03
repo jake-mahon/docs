@@ -1,3 +1,9 @@
+---
+title: "VBScript Editor"
+description: "VBScript Editor"
+sidebar_position: 30
+---
+
 # VBScript Editor
 
 The VBScript Editor window provides the means to add a script. The window is ideal for editing small

@@ -1,3 +1,9 @@
+---
+title: "FS_UserShareActivity Job"
+description: "FS_UserShareActivity Job"
+sidebar_position: 90
+---
+
 # FS_UserShareActivity Job
 
 The FS_UserShareActivity job is designed to report on normal user activity within a share from

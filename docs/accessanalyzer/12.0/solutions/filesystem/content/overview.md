@@ -1,3 +1,9 @@
+---
+title: "4.Content Job Group"
+description: "4.Content Job Group"
+sidebar_position: 60
+---
+
 # 4.Content Job Group
 
 The 4.Content job group is designed to report on content information from targeted file servers. Key

@@ -1,3 +1,9 @@
+---
+title: "Access Analyzer Core Upgrade Instructions"
+description: "Access Analyzer Core Upgrade Instructions"
+sidebar_position: 20
+---
+
 # Access Analyzer Core Upgrade Instructions
 
 **CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform

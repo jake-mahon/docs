@@ -1,3 +1,9 @@
+---
+title: "Scan Summary Report"
+description: "Scan Summary Report"
+sidebar_position: 50
+---
+
 # Scan Summary Report
 
 The Scan Summary report at the on-premise farm and online instance levels provides a summary view of

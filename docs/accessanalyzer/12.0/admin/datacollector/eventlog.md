@@ -1,3 +1,9 @@
+---
+title: "EventLog Data Collector"
+description: "EventLog Data Collector"
+sidebar_position: 140
+---
+
 # EventLog Data Collector
 
 The EventLog Data Collector provides search and extraction of details from event logs on target

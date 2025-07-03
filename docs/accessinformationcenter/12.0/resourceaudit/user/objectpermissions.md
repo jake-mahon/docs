@@ -1,3 +1,9 @@
+---
+title: "Object Permissions Report"
+description: "Object Permissions Report"
+sidebar_position: 100
+---
+
 # Object Permissions Report
 
 The Object Permissions report for a user object provides details on Active Directory permissions for

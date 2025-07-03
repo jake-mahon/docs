@@ -1,3 +1,9 @@
+---
+title: "Group Reports Quick Reference Guide"
+description: "Group Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Group Reports Quick Reference Guide
 
 The following reports are available for selection within the Group Audit interface for an Active
@@ -21,7 +27,7 @@ The following reports are available for selection within the Group Audit interfa
 
 | Report                                                                   | Description                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Effective Access Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/entraid/effectiveaccess.md) | Provides insight into every resource the audited Entra ID group has access to and what level of access has been granted. Effective access is a calculation based on several variables according to the type of resource. This report includes a Permission Source table. |
-| [Member Of Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/entraid/memberof.md)               | Provides a list of all Entra ID groups of which the audited group is a member. This report includes a Membership Paths table.                                                                                                                                            |
-| [Members Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/entraid/members.md)                  | Provides a list of all trustees, users, and groups with membership in the audited Entra ID group. This report includes a Membership Paths table.                                                                                                                         |
-| [Permissions Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/entraid/permissions.md)          | Provides a list of all resources where the audited Entra ID group has been assigned permissions.                                                                                                                                                                         |
+| [Effective Access Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/effectiveaccess_1.md) | Provides insight into every resource the audited Entra ID group has access to and what level of access has been granted. Effective access is a calculation based on several variables according to the type of resource. This report includes a Permission Source table. |
+| [Member Of Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/memberof_1.md)               | Provides a list of all Entra ID groups of which the audited group is a member. This report includes a Membership Paths table.                                                                                                                                            |
+| [Members Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/members_1.md)                  | Provides a list of all trustees, users, and groups with membership in the audited Entra ID group. This report includes a Membership Paths table.                                                                                                                         |
+| [Permissions Report for Entra ID Group](/docs/accessinformationcenter/12.0/resourceaudit/group/permissions_1.md)          | Provides a list of all resources where the audited Entra ID group has been assigned permissions.                                                                                                                                                                         |

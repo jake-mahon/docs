@@ -1,3 +1,9 @@
+---
+title: "Instance Permissions Node Report"
+description: "Instance Permissions Node Report"
+sidebar_position: 60
+---
+
 # Instance Permissions Node Report
 
 The following report is available at the **Instance Permissions** node:

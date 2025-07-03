@@ -1,3 +1,9 @@
+---
+title: "5.Open Access > AD_OpenAccess Job"
+description: "5.Open Access > AD_OpenAccess Job"
+sidebar_position: 70
+---
+
 # 5.Open Access > AD_OpenAccess Job
 
 The AD_OpenAccess Job reports on all Active Directory permissions granting open access within the

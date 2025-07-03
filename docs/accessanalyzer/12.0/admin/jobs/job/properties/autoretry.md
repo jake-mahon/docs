@@ -1,3 +1,9 @@
+---
+title: "Auto Retry Tab"
+description: "Auto Retry Tab"
+sidebar_position: 80
+---
+
 # Auto Retry Tab
 
 The Auto Retry tab provides the option to schedule the job to re-execute against hosts that match

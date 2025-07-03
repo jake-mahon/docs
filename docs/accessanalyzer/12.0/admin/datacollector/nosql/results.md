@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Results"
+description: "NoSQL: Results"
+sidebar_position: 60
+---
+
 # NoSQL: Results
 
 The Results page is where the properties that will be gathered are selected. It is a wizard page for

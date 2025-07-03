@@ -1,3 +1,9 @@
+---
+title: "Configuration Utility"
+description: "Configuration Utility"
+sidebar_position: 20
+---
+
 # Configuration Utility
 
 On installing Recovery for Active Directory, the Recovery Configuration Utility is installed on the
@@ -28,7 +34,7 @@ for restoring deleted objects. Consider the following:
 - The Extension can be manually installed on a remote server where ADUC is installed. The Extension
   connects to the Recovery Application Server using the server name or IP address you provide while
   installing the Extension on the remote machine. See the
-  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/rsatextension/installation.md) topic for additional information.
+  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/install/installation.md) topic for additional information.
 
 ### Register the RSAT Extension
 
@@ -74,7 +80,7 @@ The Recovery Configuration Utility window displays the following information for
 - Save – After making any changes, click the **Save** button to save the configuration
 
 To update the password for the SQL server service account, see the
-[Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/updatepassword/sqlserverserviceaccount.md)
+[Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/credentialpasswords/sqlserverserviceaccount.md)
 topic.
 
 ## View License Information

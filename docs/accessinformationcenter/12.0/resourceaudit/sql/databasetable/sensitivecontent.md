@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 30
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the database and table levels provides a list of paths and a hit

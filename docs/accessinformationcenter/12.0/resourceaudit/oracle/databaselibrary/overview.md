@@ -1,3 +1,9 @@
+---
+title: "Database & Library Level Reports"
+description: "Database & Library Level Reports"
+sidebar_position: 40
+---
+
 # Database & Library Level Reports
 
 The following reports are available at the database and library levels:

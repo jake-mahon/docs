@@ -1,3 +1,9 @@
+---
+title: "SharePoint Reports Quick Reference Guide"
+description: "SharePoint Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # SharePoint Reports Quick Reference Guide
 
 The following SharePoint reports are available for selections within the Resources pane.

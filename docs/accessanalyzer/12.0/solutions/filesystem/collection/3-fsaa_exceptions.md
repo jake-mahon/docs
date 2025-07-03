@@ -1,3 +1,9 @@
+---
+title: "3-FSAA Exceptions Job"
+description: "3-FSAA Exceptions Job"
+sidebar_position: 100
+---
+
 # 3-FSAA Exceptions Job
 
 The 3-FSAA Exceptions job does not use the FSAA Data Collector. Instead it runs analysis on the data
@@ -35,7 +41,7 @@ The following analysis tasks are selected by default:
 
     - Well known high risk SIDS have been set in the `#SIDS` parameter. Do not remove these, but
       additional custom SIDS can be added. See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 
 - Disabled users – Any folders where disabled users have been granted access

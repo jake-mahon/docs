@@ -1,3 +1,9 @@
+---
+title: "Performance Tab"
+description: "Performance Tab"
+sidebar_position: 20
+---
+
 # Performance Tab
 
 The Performance tab provides options that can be used to improve job performance and runtime.

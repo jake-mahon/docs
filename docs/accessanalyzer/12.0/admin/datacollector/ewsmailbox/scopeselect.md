@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Scope Select"
+description: "EWSMailbox: Scope Select"
+sidebar_position: 40
+---
+
 # EWSMailbox: Scope Select
 
 The Scope select page is used to select specific mailboxes to scan. It is a wizard page for all

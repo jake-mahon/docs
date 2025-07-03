@@ -1,3 +1,9 @@
+---
+title: "Permissions for Dell Isilon/PowerScale Auditing"
+description: "Permissions for Dell Isilon/PowerScale Auditing"
+sidebar_position: 40
+---
+
 # Permissions for Dell Isilon/PowerScale Auditing
 
 Before you start creating a monitoring plan to audit your Dell Isilon/PowerScale file storage

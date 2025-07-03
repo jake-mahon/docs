@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Input Scope"
+description: "SQLViewCreation: Input Scope"
+sidebar_position: 10
+---
+
 # SQLViewCreation: Input Scope
 
 Use the Input Selection page to scope the source data tables. This option affects the tables

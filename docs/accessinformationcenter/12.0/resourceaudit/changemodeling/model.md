@@ -1,3 +1,9 @@
+---
+title: "Model Changes in the AIC"
+description: "Model Changes in the AIC"
+sidebar_position: 10
+---
+
 # Model Changes in the AIC
 
 Follow the steps to model resource access changes for a single trustee or multiple trustees.

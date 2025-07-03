@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Exchange Solution"
+description: "Recommended Configurations for the Exchange Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Exchange Solution
 
 Each job group within the Exchange Solution has its own Recommended Configurations topic. See the

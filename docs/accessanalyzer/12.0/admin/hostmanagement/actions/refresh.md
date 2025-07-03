@@ -1,3 +1,9 @@
+---
+title: "Refresh Hosts"
+description: "Refresh Hosts"
+sidebar_position: 90
+---
+
 # Refresh Hosts
 
 Use the **Refresh Hosts** option to manually execute the Host Inventory query. It can be selected

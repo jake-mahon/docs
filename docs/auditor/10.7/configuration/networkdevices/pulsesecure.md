@@ -1,3 +1,9 @@
+---
+title: "Configure Pulse Secure Devices"
+description: "Configure Pulse Secure Devices"
+sidebar_position: 100
+---
+
 # Configure Pulse Secure Devices
 
 1. Connect to your Pulse Secure device: launch an Internet browser and enter the IP address or

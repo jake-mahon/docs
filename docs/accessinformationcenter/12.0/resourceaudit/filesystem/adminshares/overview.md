@@ -1,3 +1,9 @@
+---
+title: "Admin Shares Node Report"
+description: "Admin Shares Node Report"
+sidebar_position: 90
+---
+
 # Admin Shares Node Report
 
 The following report is available at the **Admin Shares** node:

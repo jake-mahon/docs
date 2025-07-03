@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Criteria"
+description: "EWSMailbox: Criteria"
+sidebar_position: 60
+---
+
 # EWSMailbox: Criteria
 
 The Select DLP criteria for this scan page is where to select the criteria to use for the sensitive

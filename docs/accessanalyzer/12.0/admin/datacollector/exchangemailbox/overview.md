@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox Data Collector"
+description: "ExchangeMailbox Data Collector"
+sidebar_position: 180
+---
+
 # ExchangeMailbox Data Collector
 
 The ExchangeMailbox Data Collector extracts configuration details from the Exchange Store to provide

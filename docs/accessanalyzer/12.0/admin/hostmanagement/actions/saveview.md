@@ -1,3 +1,9 @@
+---
+title: "Save Current View"
+description: "Save Current View"
+sidebar_position: 110
+---
+
 # Save Current View
 
 Use the **Save Current View** option to create a dynamic host list. This option is available from

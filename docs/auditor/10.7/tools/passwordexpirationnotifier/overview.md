@@ -1,3 +1,9 @@
+---
+title: "Password Expiration Notifier"
+description: "Password Expiration Notifier"
+sidebar_position: 50
+---
+
 # Password Expiration Notifier
 
 Netwrix Auditor Password Expiration Notifier standalone tool checks which domain accounts or

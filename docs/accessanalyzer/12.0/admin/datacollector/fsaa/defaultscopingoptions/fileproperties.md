@@ -1,3 +1,9 @@
+---
+title: "File Properties (Folder Summary) Tab"
+description: "File Properties (Folder Summary) Tab"
+sidebar_position: 30
+---
+
 # File Properties (Folder Summary) Tab
 
 The File Properties (Folder Summary) tab is where file property collection settings for the scan is

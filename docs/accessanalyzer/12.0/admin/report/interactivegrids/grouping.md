@@ -1,3 +1,9 @@
+---
+title: "Grouping Data"
+description: "Grouping Data"
+sidebar_position: 10
+---
+
 # Grouping Data
 
 If grouping is enabled, the **Group by** field provides a drop-down list of categories by which the

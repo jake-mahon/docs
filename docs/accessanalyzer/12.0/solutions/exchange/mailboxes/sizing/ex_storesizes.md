@@ -1,3 +1,9 @@
+---
+title: "EX_StoreSizes Job"
+description: "EX_StoreSizes Job"
+sidebar_position: 40
+---
+
 # EX_StoreSizes Job
 
 The EX_StoreSizes job provides analysis and reporting around database sizing based on mailbox sizes.

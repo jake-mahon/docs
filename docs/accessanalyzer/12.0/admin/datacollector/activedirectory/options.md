@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory: Options"
+description: "ActiveDirectory: Options"
+sidebar_position: 40
+---
+
 # ActiveDirectory: Options
 
 The Options page provides format options for returned data. It is a wizard page for all categories.

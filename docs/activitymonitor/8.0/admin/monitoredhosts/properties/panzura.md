@@ -1,3 +1,9 @@
+---
+title: "Panzura Tab"
+description: "Panzura Tab"
+sidebar_position: 120
+---
+
 # Panzura Tab
 
 After a Panzura host is added to the monitored hosts table, the configuration settings are edited

@@ -1,3 +1,9 @@
+---
+title: "Sync Service Installation"
+description: "Sync Service Installation"
+sidebar_position: 10
+---
+
 # Sync Service Installation
 
 The Sync Service is installed as a Windows service. Currently only a single instance of the service

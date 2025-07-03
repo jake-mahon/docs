@@ -1,3 +1,9 @@
+---
+title: "1.Local > EX_DBInfo Job"
+description: "1.Local > EX_DBInfo Job"
+sidebar_position: 10
+---
+
 # 1.Local > EX_DBInfo Job
 
 The EX_DBInfo job utilizes Exchange PowerShell to gather 2010/2013 Mailbox Size information.

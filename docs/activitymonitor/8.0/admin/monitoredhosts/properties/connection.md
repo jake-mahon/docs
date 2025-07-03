@@ -1,3 +1,9 @@
+---
+title: "Connection Tab"
+description: "Connection Tab"
+sidebar_position: 20
+---
+
 # Connection Tab
 
 Once a host is added to the monitored hosts table, the configuration settings are edited through the

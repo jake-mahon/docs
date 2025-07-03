@@ -1,3 +1,9 @@
+---
+title: "Resource Reviews Overview"
+description: "Resource Reviews Overview"
+sidebar_position: 60
+---
+
 # Resource Reviews Overview
 
 The Resource Reviews interface is where users with either the Security Team or Administrator role
@@ -46,7 +52,7 @@ There are four types of reviews:
 The Matches table in the report will only be populated for Console User with Security Team and
 Administrator roles. This is also required for Sensitive Data reviews.
 
-See the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface.md) topic for additional information.
+See the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md) topic for additional information.
 
 Ignored Trustees
 
@@ -84,13 +90,13 @@ reviews, owners should be notified prior to launching the first set of reviews. 
 information.
 
 **Step 1 –** Review Administrator creates a review or starts a new review instance. See the
-[Create Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/wizard/create.md) topic for additional information.
+[Create Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/create/create.md) topic for additional information.
 
 **Step 2 –** Owner performs a review. See the
-[Pending Reviews Page](pendingreviews.md#pending-reviews-page) topic for additional information.
+[Pending Reviews Page](/docs/accessinformationcenter/12.0/owneroverview/pendingreviews/pendingreviews.md#pending-reviews-page) topic for additional information.
 
 **Step 3 –** Review Administrator approves owner recommendations. See the
-[Approval Process](/docs/accessinformationcenter/12.0/resourcereviews/approvalprocess.md) topic for additional information.
+[Approval Process](/docs/accessinformationcenter/12.0/resourcereviews/approvalprocess/approvalprocess.md) topic for additional information.
 
 **Step 4 –** Implement approved changes in your organization:
 
@@ -99,4 +105,4 @@ information.
 - Manually, export a list of approved changes and deliver it to your IT department
 
 When desired, the Review Administrator runs another instance of the review and the workflow starts
-again. See the [Review Instances](/docs/accessinformationcenter/12.0/resourcereviews/reviewinstances.md) topic for additional information.
+again. See the [Review Instances](/docs/accessinformationcenter/12.0/resourcereviews/create/reviewinstances.md) topic for additional information.

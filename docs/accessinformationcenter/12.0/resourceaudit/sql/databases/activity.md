@@ -1,3 +1,9 @@
+---
+title: "Activity Report"
+description: "Activity Report"
+sidebar_position: 10
+---
+
 # Activity Report
 
 The Activity report at the Databases node displays activity across the databases logged during the
@@ -30,4 +36,4 @@ This report is comprised of the following columns:
 - Process Name – Not populated for SQL Server reports
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/12.0/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.

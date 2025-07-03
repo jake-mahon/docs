@@ -1,3 +1,9 @@
+---
+title: "Create and Configure Oracle Wallet"
+description: "Create and Configure Oracle Wallet"
+sidebar_position: 50
+---
+
 # Create and Configure Oracle Wallet
 
 Oracle Wallet is a file that stores database authentication and signing credentials. It allows users

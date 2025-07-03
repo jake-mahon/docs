@@ -1,3 +1,9 @@
+---
+title: "Rollback Objects"
+description: "Rollback Objects"
+sidebar_position: 10
+---
+
 # Rollback Objects
 
 You can revert an Active Directory object to its previous state.

@@ -1,3 +1,9 @@
+---
+title: "Registry: Summary"
+description: "Registry: Summary"
+sidebar_position: 30
+---
+
 # Registry: Summary
 
 The Summary page summarizes the configuration of the action.

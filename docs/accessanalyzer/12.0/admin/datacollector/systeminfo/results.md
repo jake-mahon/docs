@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: Results"
+description: "SystemInfo: Results"
+sidebar_position: 20
+---
+
 # SystemInfo: Results
 
 The Results page is used to select which properties are gathered out of those available for the

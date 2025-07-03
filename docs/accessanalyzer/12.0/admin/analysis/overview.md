@@ -1,8 +1,14 @@
+---
+title: "Analysis Modules"
+description: "Analysis Modules"
+sidebar_position: 90
+---
+
 # Analysis Modules
 
 The Access Analyzer analysis modules are capable of finding unique data and notifying users of its
 location from a variety of environments. Analysis modules are assigned to a job at the
-**Configure** > **Analysis** node. See the [Analysis Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis.md) topic
+**Configure** > **Analysis** node. See the [Analysis Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysis.md) topic
 for information on the Analysis Selection view.
 
 ![Configure an analysis](/img/product_docs/accessanalyzer/12.0/admin/analysis/configure.webp)

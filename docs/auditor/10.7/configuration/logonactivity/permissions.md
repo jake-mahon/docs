@@ -1,3 +1,9 @@
+---
+title: "Permissions for Logon Activity Auditing"
+description: "Permissions for Logon Activity Auditing"
+sidebar_position: 50
+---
+
 # Permissions for Logon Activity Auditing
 
 Before you start creating a monitoring plan to audit the logon activity in your domain, determine

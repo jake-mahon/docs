@@ -1,3 +1,9 @@
+---
+title: "Oracle_Activity Job"
+description: "Oracle_Activity Job"
+sidebar_position: 10
+---
+
 # Oracle_Activity Job
 
 The Oracle_Activity Job is designed to provide insight into user activity in target Oracle database

@@ -1,3 +1,9 @@
+---
+title: "File Servers Monitoring Scope"
+description: "File Servers Monitoring Scope"
+sidebar_position: 20
+---
+
 # File Servers Monitoring Scope
 
 You can specify data that you want to include into / exclude from the Windows File Server, NetApp

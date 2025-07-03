@@ -1,3 +1,9 @@
+---
+title: "Choose Appropriate Execution Scenario"
+description: "Choose Appropriate Execution Scenario"
+sidebar_position: 20
+---
+
 # Choose Appropriate Execution Scenario
 
 Auditor Add-on for the SIEM solution runs on any computer in your environment. For example, you can

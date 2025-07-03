@@ -1,3 +1,9 @@
+---
+title: "Licensing Page"
+description: "Licensing Page"
+sidebar_position: 60
+---
+
 # Licensing Page
 
 The Licensing page provides an overview of the organization's license status and the ability to

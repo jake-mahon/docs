@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 Recovery for Active Directory consists of the following components:
@@ -20,7 +26,7 @@ To install the application, see the following topics:
 
 - [Install the Application](/docs/recoveryforactivedirectory/2.6/install/application.md)
 - [Configuration Utility](/docs/recoveryforactivedirectory/2.6/install/configurationutility.md)
-- [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/rsatextension/installation.md)
+- [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/install/installation.md)
 
 Prior to installing, ensure that all prerequisites have been met, as described in the
 [Requirements ](/docs/recoveryforactivedirectory/2.6/requirements/overview.md)topic.

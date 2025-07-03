@@ -1,3 +1,9 @@
+---
+title: "Maintenance and Troubleshooting"
+description: "Maintenance and Troubleshooting"
+sidebar_position: 40
+---
+
 # Maintenance and Troubleshooting
 
 Splunk records service logs to the \_internal index. Follow the steps to troubleshoot data input

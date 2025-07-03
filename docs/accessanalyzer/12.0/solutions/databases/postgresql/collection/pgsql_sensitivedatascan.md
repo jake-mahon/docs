@@ -1,3 +1,9 @@
+---
+title: "PgSQL_SensitiveDataScan Job"
+description: "PgSQL_SensitiveDataScan Job"
+sidebar_position: 20
+---
+
 # PgSQL_SensitiveDataScan Job
 
 The PgSQL_SensitiveDataScan Job is designed to discover sensitive data in PostgreSQL databases based

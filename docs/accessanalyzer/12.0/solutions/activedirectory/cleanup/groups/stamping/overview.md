@@ -1,3 +1,9 @@
+---
+title: "2.Group Stamping Job Group"
+description: "2.Group Stamping Job Group"
+sidebar_position: 20
+---
+
 # 2.Group Stamping Job Group
 
 The 2. Group Stamping Job Group updates the Notes attribute for all security groups to show where

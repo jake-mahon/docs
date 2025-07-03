@@ -1,3 +1,9 @@
+---
+title: "ADPermissions: Summary"
+description: "ADPermissions: Summary"
+sidebar_position: 70
+---
+
 # ADPermissions: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

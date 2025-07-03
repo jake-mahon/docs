@@ -1,3 +1,9 @@
+---
+title: "fs_probableowner"
+description: "fs_probableowner"
+sidebar_position: 80
+---
+
 ## 6.Probable Owner > FS_ProbableOwner Job
 
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted
@@ -35,7 +41,7 @@ The following analysis tasks are selected by default:
       excluded. When the job is run, SIDs specified in the #FILTERED_TRUSTEES variable are excluded
       from the analysis and not reported as probable owners.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 - Identify Folders with no Owner Found – Creates the SA_FS_ProbableOwner_NoOwnerFound table
   accessible under the job’s Results node

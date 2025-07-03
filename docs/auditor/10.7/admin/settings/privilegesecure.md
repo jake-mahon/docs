@@ -1,3 +1,9 @@
+---
+title: "Netwrix Privilege Secure"
+description: "Netwrix Privilege Secure"
+sidebar_position: 70
+---
+
 # Netwrix Privilege Secure
 
 Starting with version 10.7, you can implement the integration between Netwrix Auditor and Netwrix

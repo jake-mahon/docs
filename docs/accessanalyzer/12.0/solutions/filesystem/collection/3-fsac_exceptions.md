@@ -1,3 +1,9 @@
+---
+title: "3-FSAC Exceptions Job"
+description: "3-FSAC Exceptions Job"
+sidebar_position: 110
+---
+
 # 3-FSAC Exceptions Job
 
 The 3-FSAC Exceptions job is designed to analyze collected access information for exceptions.
@@ -109,5 +115,5 @@ analysis. The 3-FSAC Exceptions job contains the following customizable paramete
 | Unusual user stale data activity     | @STALETHRESHOLD             | 365           | Number of days after which resources are considered stale                       |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information on modifying analysis parameters.

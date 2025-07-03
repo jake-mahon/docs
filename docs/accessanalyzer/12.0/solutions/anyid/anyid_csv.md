@@ -1,3 +1,9 @@
+---
+title: "AnyID_CSV Job"
+description: "AnyID_CSV Job"
+sidebar_position: 10
+---
+
 # AnyID_CSV Job
 
 The AnyID_CSV job imports a list of identities and attributes from a CSV file. Use this when a

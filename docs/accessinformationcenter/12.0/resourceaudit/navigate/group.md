@@ -1,3 +1,9 @@
+---
+title: "Group Audit Interface"
+description: "Group Audit Interface"
+sidebar_position: 50
+---
+
 # Group Audit Interface
 
 The Group Audit interface is opened by searching for a particular Active Directory or Entra ID

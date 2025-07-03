@@ -1,9 +1,15 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This topic provides the requirements for the server where Netwrix Auditor will be installed. See the
 following topics for additional information:
 
-- [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources.md)
+- [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources/supporteddatasources.md)
 - [Hardware Requirements](/docs/auditor/10.7/requirements/console.md)
 - [Software Requirements](/docs/auditor/10.7/requirements/software.md)
 - [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.7/requirements/sqlserver.md)

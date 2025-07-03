@@ -1,3 +1,9 @@
+---
+title: "Install in Silent Mode"
+description: "Install in Silent Mode"
+sidebar_position: 20
+---
+
 # Install in Silent Mode
 
 Silent installation provides a convenient method for deploying Netwrix Auditor without UI.

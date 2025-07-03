@@ -1,3 +1,9 @@
+---
+title: "Install the Access Information Center"
+description: "Install the Access Information Center"
+sidebar_position: 10
+---
+
 # Install the Access Information Center
 
 Once the prerequisites have been met, follow the steps to install the Access Information Center.

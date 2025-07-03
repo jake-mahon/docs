@@ -1,3 +1,9 @@
+---
+title: "Data Grid Functionality"
+description: "Data Grid Functionality"
+sidebar_position: 50
+---
+
 # Data Grid Functionality
 
 All data grids within the Access Analyzer Console have functions and features that allow Access

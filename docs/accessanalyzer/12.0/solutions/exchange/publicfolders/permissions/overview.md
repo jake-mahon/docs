@@ -1,3 +1,9 @@
+---
+title: "Permissions Job Group"
+description: "Permissions Job Group"
+sidebar_position: 50
+---
+
 # Permissions Job Group
 
 The Permissions job group provides visibility into permissions applied to each public folder.

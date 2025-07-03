@@ -1,3 +1,9 @@
+---
+title: "SQL Server Reports Quick Reference Guide"
+description: "SQL Server Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # SQL Server Reports Quick Reference Guide
 
 The following SQL Server reports are available for selections within the Resources pane.

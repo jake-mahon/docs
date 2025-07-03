@@ -1,3 +1,9 @@
+---
+title: "Replication Tab"
+description: "Replication Tab"
+sidebar_position: 40
+---
+
 # Replication Tab
 
 The Replication tab on a domain’s Configuration window monitors domain controller syncing and

@@ -30,20 +30,20 @@ Identity Manager provides a
 [Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
 scaffolding that generates the configuration for these steps.
 
-> For example:
->
->                         ```
+For example:
+
+```
 >
 >                             Conf/MicrosoftEntraID/MicrosoftEntraID Jobs.xml
 >
 > <CreateConnectorSynchroIncremental Connector="MicrosoftEntraID" DisplayName_L1="MicrosoftEntraID Synchronization (delta)">
 > <OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroIncremental>
 >
-> ````
->
->
-> Note that the ```Job``` value in ```OpenIdIdentifier``` refers to the ```ClientId``` written to the [](/docs/identitymanager/saas/identitymanager/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#)[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
-> ````
+```
+
+
+Note that the `Job` value in `OpenIdIdentifier` refers to the `ClientId` written to the [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
+
 
 ### Permissions for the agent
 

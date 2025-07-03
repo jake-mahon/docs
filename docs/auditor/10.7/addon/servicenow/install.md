@@ -1,3 +1,9 @@
+---
+title: "Install Add-On"
+description: "Install Add-On"
+sidebar_position: 10
+---
+
 # Install Add-On
 
 After downloading the add-on package from Netwrix add-on store, copy it to the a computer where the

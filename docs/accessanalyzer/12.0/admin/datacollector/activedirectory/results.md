@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory: Results"
+description: "ActiveDirectory: Results"
+sidebar_position: 30
+---
+
 # ActiveDirectory: Results
 
 The Results page is where Active Directory object properties to be gathered are selected. It is a

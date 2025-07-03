@@ -1,3 +1,9 @@
+---
+title: "Box: Activity Operation Scope"
+description: "Box: Activity Operation Scope"
+sidebar_position: 70
+---
+
 # Box: Activity Operation Scope
 
 The Activity Operation Scope page (ActivityOperationScope) is where Box Enterprise events can be

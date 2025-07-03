@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity Data Collector"
+description: "PasswordSecurity Data Collector"
+sidebar_position: 290
+---
+
 # PasswordSecurity Data Collector
 
 The PasswordSecurity Data Collector compares passwords stored in Active Directory to known, breached

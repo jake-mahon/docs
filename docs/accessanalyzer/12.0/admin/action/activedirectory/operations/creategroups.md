@@ -1,3 +1,9 @@
+---
+title: "Create Groups"
+description: "Create Groups"
+sidebar_position: 40
+---
+
 # Create Groups
 
 Use the Create Groups page to configure the action to create groups on the selected target.

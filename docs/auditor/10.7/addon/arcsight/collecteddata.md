@@ -1,3 +1,9 @@
+---
+title: "Work with Collected Data"
+description: "Work with Collected Data"
+sidebar_position: 50
+---
+
 # Work with Collected Data
 
 Follow the steps to see collected data.

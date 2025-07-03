@@ -1,3 +1,9 @@
+---
+title: "Create Subscriptions"
+description: "Create Subscriptions"
+sidebar_position: 10
+---
+
 # Create Subscriptions
 
 To create new subscriptions and manage existing subscriptions, you must be assigned the Global

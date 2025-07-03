@@ -1,3 +1,9 @@
+---
+title: "Import From a Database"
+description: "Import From a Database"
+sidebar_position: 60
+---
+
 # Import From a Database
 
 Follow the steps to create a Host Discovery query using the **Import from a database** source

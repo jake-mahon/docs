@@ -1,3 +1,9 @@
+---
+title: "Remove Share Permissions"
+description: "Remove Share Permissions"
+sidebar_position: 60
+---
+
 # Remove Share Permissions
 
 Use the Remove Share Permissions Parameters page to specify whose share permissions the action

@@ -57,7 +57,7 @@ This report has the following filters:
 ## Related reports
 
 - Clicking a role member (account) link opens the
-  [Account Permissions in SQL Server](/docs/auditor/10.7/admin/reports/types/stateintime/sqlaccountpermissions.md) report.
+  [Account Permissions in SQL Server](/docs/auditor/10.7/admin/reports/types/stateintime/sqlserveroverview/sqlaccountpermissions.md) report.
 
 ## Usage example
 

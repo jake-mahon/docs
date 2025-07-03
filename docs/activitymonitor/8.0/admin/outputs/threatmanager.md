@@ -1,3 +1,9 @@
+---
+title: "Threat Manager Tab"
+description: "Threat Manager Tab"
+sidebar_position: 110
+---
+
 # Threat Manager Tab
 
 The Threat Manager tab on an output Properties window is where the connection between Activity

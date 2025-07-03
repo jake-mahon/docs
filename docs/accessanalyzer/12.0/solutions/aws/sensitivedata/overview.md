@@ -1,3 +1,9 @@
+---
+title: "8.S3 Sensitive Data Job Group"
+description: "8.S3 Sensitive Data Job Group"
+sidebar_position: 100
+---
+
 # 8.S3 Sensitive Data Job Group
 
 The 8.S3 Sensitive Data job group provides details on AWS S3 buckets and objects containing

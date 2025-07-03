@@ -1,3 +1,9 @@
+---
+title: "MySQL Solution"
+description: "MySQL Solution"
+sidebar_position: 30
+---
+
 # MySQL Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security
@@ -37,7 +43,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasemysql.md)
+[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databasemysql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

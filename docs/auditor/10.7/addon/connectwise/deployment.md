@@ -1,3 +1,9 @@
+---
+title: "Deploy the Add-On"
+description: "Deploy the Add-On"
+sidebar_position: 10
+---
+
 # Deploy the Add-On
 
 Follow the steps to deploy the Add-On for ConnectWise.

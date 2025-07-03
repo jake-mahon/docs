@@ -1,3 +1,9 @@
+---
+title: "Copilot"
+description: "Copilot"
+sidebar_position: 70
+---
+
 # Copilot
 
 Microsoft Copilot is an AI-powered assistant designed to help users in Microsoft 365 apps like Word,

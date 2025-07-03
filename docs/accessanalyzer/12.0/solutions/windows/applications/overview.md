@@ -1,3 +1,9 @@
+---
+title: "Applications Job Group"
+description: "Applications Job Group"
+sidebar_position: 20
+---
+
 # Applications Job Group
 
 The Applications job group tracks various aspects of installed application management, identifying

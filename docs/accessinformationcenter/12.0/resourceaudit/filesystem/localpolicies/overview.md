@@ -1,3 +1,9 @@
+---
+title: "Local Policies Level Reports"
+description: "Local Policies Level Reports"
+sidebar_position: 70
+---
+
 # Local Policies Level Reports
 
 Local policies have an impact on effective access. There are no reports at the **Local Policies**

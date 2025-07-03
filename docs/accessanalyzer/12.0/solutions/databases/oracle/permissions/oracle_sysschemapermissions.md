@@ -1,3 +1,9 @@
+---
+title: "Oracle_SysSchemaPermissions Job"
+description: "Oracle_SysSchemaPermissions Job"
+sidebar_position: 50
+---
+
 # Oracle_SysSchemaPermissions Job
 
 The Oracle_SysSchemaPermissions Job provides insight into users that have access to objects in the

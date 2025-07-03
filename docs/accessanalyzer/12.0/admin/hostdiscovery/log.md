@@ -1,3 +1,9 @@
+---
+title: "Discovery Log"
+description: "Discovery Log"
+sidebar_position: 40
+---
+
 # Discovery Log
 
 The **Host Discovery** > **Discovery Log** node lists host discovery logs. These logs house

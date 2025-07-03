@@ -1,3 +1,9 @@
+---
+title: "Host Management"
+description: "Host Management"
+sidebar_position: 30
+---
+
 # Host Management
 
 The **Host Management** node is used to manage hosts in a targeted environment. Hosts configured

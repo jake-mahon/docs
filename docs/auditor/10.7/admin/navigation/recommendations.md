@@ -1,3 +1,9 @@
+---
+title: "Recommendations"
+description: "Recommendations"
+sidebar_position: 10
+---
+
 # Recommendations
 
 This section covers the Recommendations interface that contains detailed guidance on the Auditor

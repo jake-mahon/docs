@@ -1,3 +1,9 @@
+---
+title: "Investigations"
+description: "Investigations"
+sidebar_position: 40
+---
+
 # Investigations
 
 By default, the Audit Database stores data up to 180 days. Once the retention period is over, the

@@ -1,3 +1,9 @@
+---
+title: "AD_NestedGroups Job"
+description: "AD_NestedGroups Job"
+sidebar_position: 90
+---
+
 # AD_NestedGroups Job
 
 The AD_NestedGroups Job identifies nested groups within Active Directory and provides details such

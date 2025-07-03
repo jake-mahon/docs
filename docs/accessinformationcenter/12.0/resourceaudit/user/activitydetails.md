@@ -1,3 +1,9 @@
+---
+title: "Activity Details Report"
+description: "Activity Details Report"
+sidebar_position: 20
+---
+
 # Activity Details Report
 
 The Activity Details report for a user object provides details on every activity event logged by the

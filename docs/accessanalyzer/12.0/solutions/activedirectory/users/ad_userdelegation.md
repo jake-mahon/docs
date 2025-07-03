@@ -1,3 +1,9 @@
+---
+title: "AD_UserDelegation Job"
+description: "AD_UserDelegation Job"
+sidebar_position: 100
+---
+
 # AD_UserDelegation Job
 
 The AD_Delegation Job highlights user accounts which are trusted for delegation. Kerberos delegation

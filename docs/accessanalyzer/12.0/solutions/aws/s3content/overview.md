@@ -1,3 +1,9 @@
+---
+title: "7.S3 Content Job Group"
+description: "7.S3 Content Job Group"
+sidebar_position: 90
+---
+
 # 7.S3 Content Job Group
 
 The 7.S3 Content job group provide details on AWS S3 buckets and objects contained in those buckets.

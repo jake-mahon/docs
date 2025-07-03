@@ -1,3 +1,9 @@
+---
+title: "Active Directory"
+description: "Active Directory"
+sidebar_position: 40
+---
+
 # Active Directory
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

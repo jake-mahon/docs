@@ -1,3 +1,9 @@
+---
+title: "Installing Gen 7 Agent for Linux"
+description: "Installing Gen 7 Agent for Linux"
+sidebar_position: 30
+---
+
 # Installing Gen 7 Agent for Linux
 
 ## Using Local RPM Files

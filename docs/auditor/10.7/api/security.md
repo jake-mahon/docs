@@ -1,3 +1,9 @@
+---
+title: "Security"
+description: "Security"
+sidebar_position: 120
+---
+
 # Security
 
 By default, Netwrix Auditor API uses HTTPS for sending requests to its endpoints. Netwrix encrypts

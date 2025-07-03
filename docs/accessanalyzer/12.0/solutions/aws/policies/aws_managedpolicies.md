@@ -1,3 +1,9 @@
+---
+title: "AWS_ManagedPolicies Job"
+description: "AWS_ManagedPolicies Job"
+sidebar_position: 30
+---
+
 # AWS_ManagedPolicies Job
 
 The AWS_ManagedPolicies job provides details on policies managed by Amazon in the AWS Organization.

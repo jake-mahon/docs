@@ -1,3 +1,9 @@
+---
+title: "MongoDB Reports Quick Reference Guide"
+description: "MongoDB Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # MongoDB Reports Quick Reference Guide
 
 The following MongoDB reports are available for selections within the Resources pane.

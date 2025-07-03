@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: Summary (Completion)"
+description: "DropboxAccess: Summary (Completion)"
+sidebar_position: 80
+---
+
 # DropboxAccess: Summary (Completion)
 
 The Completion page, is where configuration settings are summarized. This page is a wizard page for

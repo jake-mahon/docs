@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data System Criteria"
+description: "Sensitive Data System Criteria"
+sidebar_position: 30
+---
+
 # Sensitive Data System Criteria
 
 The following is a list of default Sensitive Data System Criteria:

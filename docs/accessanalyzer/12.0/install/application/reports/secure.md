@@ -1,3 +1,9 @@
+---
+title: "Securing the Web Console"
+description: "Securing the Web Console"
+sidebar_position: 10
+---
+
 # Securing the Web Console
 
 Published reports can be accessed in the Web Console. There are several options for enhancing

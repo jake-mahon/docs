@@ -1,3 +1,9 @@
+---
+title: "SPAA: Additional Scoping"
+description: "SPAA: Additional Scoping"
+sidebar_position: 60
+---
+
 # SPAA: Additional Scoping
 
 The Additional Scoping page is where the scan can be limited by depth of the scan. It is a wizard

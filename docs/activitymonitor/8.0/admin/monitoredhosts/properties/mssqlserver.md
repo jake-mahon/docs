@@ -1,3 +1,9 @@
+---
+title: "MS SQL Server Tab"
+description: "MS SQL Server Tab"
+sidebar_position: 80
+---
+
 # MS SQL Server Tab
 
 The MS SQL Server tab on SQL Server host's properties window is used to configure properties for

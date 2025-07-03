@@ -1,3 +1,9 @@
+---
+title: "SQL_Activity Job"
+description: "SQL_Activity Job"
+sidebar_position: 10
+---
+
 # SQL_Activity Job
 
 The SQL_Activity Job provides insight into user activity in target SQL server instances and

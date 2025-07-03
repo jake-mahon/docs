@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Options"
+description: "Public Folder: Options"
+sidebar_position: 70
+---
+
 # Public Folder: Options
 
 Use the Options page to edit the thread settings.

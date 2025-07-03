@@ -1,3 +1,9 @@
+---
+title: "Alerts Overview Dashboard"
+description: "Alerts Overview Dashboard"
+sidebar_position: 10
+---
+
 # Alerts Overview Dashboard
 
 Aggregated statistics on the alerts is provided in the Alerts overview widget. It displays currently
@@ -36,7 +42,7 @@ On the Details pane, you can review alert details and manage your alerts:
 - Mark all as reviewed – Click to mark all alerts in the list as reviewed. Netwrix recommends doing
   this only if you are completely sure that there are no critical alerts in your infrastructure.
 - Edit alerts settings – Click to modify settings of the selected alert. See the
-  [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create.md) topic for additional information.
+  [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create/create.md) topic for additional information.
 - Show activity record in new window – Click to view more information about the activity record that
   triggered an alert. See the
   [Activity Records Statistics](/docs/auditor/10.7/admin/healthstatus/dashboard/activityrecordstatistics.md) topic for

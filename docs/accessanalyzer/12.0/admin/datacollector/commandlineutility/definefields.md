@@ -1,3 +1,9 @@
+---
+title: "CLU: Define Fields"
+description: "CLU: Define Fields"
+sidebar_position: 40
+---
+
 # CLU: Define Fields
 
 The Define Fields page provides options to define and configure fields for the Command Line Utility

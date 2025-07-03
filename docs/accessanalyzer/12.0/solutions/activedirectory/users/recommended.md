@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 2.Users Job Group"
+description: "Recommended Configurations for the 2.Users Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 2.Users Job Group
 
 The **Active Directory** > **2.Users** Job Group has been configured by default to run with the
@@ -35,7 +41,7 @@ Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set 
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
 **NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
-[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/access.md) topic for
+[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/access.md) topic for
 additional information.
 
 Schedule Frequency

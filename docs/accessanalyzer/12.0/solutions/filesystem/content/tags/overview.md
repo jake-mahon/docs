@@ -1,3 +1,9 @@
+---
+title: "Tags Job Group"
+description: "Tags Job Group"
+sidebar_position: 40
+---
+
 # Tags Job Group
 
 The Tags job group is designed to report on content classification information from targeted file

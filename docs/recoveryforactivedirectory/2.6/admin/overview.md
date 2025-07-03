@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 Netwrix Recovery for Active Directory enables administrators to manage Active Directory in the

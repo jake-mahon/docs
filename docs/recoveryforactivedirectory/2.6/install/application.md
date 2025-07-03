@@ -1,3 +1,9 @@
+---
+title: "Install the Application"
+description: "Install the Application"
+sidebar_position: 10
+---
+
 # Install the Application
 
 The following components are installed by the Recovery for Active Directory installation package:

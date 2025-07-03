@@ -1,3 +1,9 @@
+---
+title: "ConnectWise Manage"
+description: "ConnectWise Manage"
+sidebar_position: 50
+---
+
 # ConnectWise Manage
 
 Managed Service Providers (MSP) need to effectively utilize and standardize IT service management

@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The PostgreSQL Solution Collection Job Group is designed to collect high level summary information

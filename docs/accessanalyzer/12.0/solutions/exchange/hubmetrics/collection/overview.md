@@ -1,3 +1,9 @@
+---
+title: "0. Collection Job Group"
+description: "0. Collection Job Group"
+sidebar_position: 20
+---
+
 # 0. Collection Job Group
 
 The 0.Collection Job Group is comprised of jobs that process and analyze the message tracking logs

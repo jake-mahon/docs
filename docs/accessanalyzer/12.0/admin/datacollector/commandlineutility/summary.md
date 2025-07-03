@@ -1,3 +1,9 @@
+---
+title: "CLU: Summary"
+description: "CLU: Summary"
+sidebar_position: 70
+---
+
 # CLU: Summary
 
 The Summary page provides a summary of the query that has been created or edited. It is a wizard

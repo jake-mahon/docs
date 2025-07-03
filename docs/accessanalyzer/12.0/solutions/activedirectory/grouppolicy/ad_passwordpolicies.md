@@ -1,3 +1,9 @@
+---
+title: "AD_PasswordPolicies Job"
+description: "AD_PasswordPolicies Job"
+sidebar_position: 50
+---
+
 # AD_PasswordPolicies Job
 
 The AD_PasswordPolicies Job identifies fine-grained domain password policies that are stored within

@@ -1,3 +1,9 @@
+---
+title: "SQL_CMDShell Job"
+description: "SQL_CMDShell Job"
+sidebar_position: 30
+---
+
 # SQL_CMDShell Job
 
 The SQL_CMDShell Job reports on whether the `xp_cmdshell` stored procedure is enabled or disabled.

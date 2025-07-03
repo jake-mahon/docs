@@ -1,3 +1,9 @@
+---
+title: "Configure SonicWall Devices"
+description: "Configure SonicWall Devices"
+sidebar_position: 110
+---
+
 # Configure SonicWall Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

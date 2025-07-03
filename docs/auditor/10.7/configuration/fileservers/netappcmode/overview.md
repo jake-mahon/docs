@@ -1,3 +1,9 @@
+---
+title: "NetApp Data ONTAP"
+description: "NetApp Data ONTAP"
+sidebar_position: 30
+---
+
 # NetApp Data ONTAP
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

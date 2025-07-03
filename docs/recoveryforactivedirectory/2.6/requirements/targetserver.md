@@ -1,3 +1,9 @@
+---
+title: "Target Server Considerations"
+description: "Target Server Considerations"
+sidebar_position: 50
+---
+
 # Target Server Considerations
 
 This topic lists the requirements for the target servers where you want to restore the domain

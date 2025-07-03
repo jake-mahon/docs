@@ -1,3 +1,9 @@
+---
+title: "0-Create Schema Job"
+description: "0-Create Schema Job"
+sidebar_position: 10
+---
+
 # 0-Create Schema Job
 
 The 0-Create Schema job within the 0.Collection job group creates and updates the schema for the

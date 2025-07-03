@@ -1,3 +1,9 @@
+---
+title: "Host Discovery Queries Activities Pane"
+description: "Host Discovery Queries Activities Pane"
+sidebar_position: 20
+---
+
 # Host Discovery Queries Activities Pane
 
 The Activities pane provides several options for managing Host Discovery queries.

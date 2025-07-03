@@ -1,3 +1,9 @@
+---
+title: "SP_TeamsExternalUserActivity Job"
+description: "SP_TeamsExternalUserActivity Job"
+sidebar_position: 60
+---
+
 # SP_TeamsExternalUserActivity Job
 
 The SP_TeamsExternalUserActivity Job identifies all activity events performed by external users in

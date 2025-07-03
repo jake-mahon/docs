@@ -1,3 +1,9 @@
+---
+title: "Gen 7 Agent for Windows"
+description: "Gen 7 Agent for Windows"
+sidebar_position: 40
+---
+
 # Gen 7 Agent for Windows
 
 Requirements

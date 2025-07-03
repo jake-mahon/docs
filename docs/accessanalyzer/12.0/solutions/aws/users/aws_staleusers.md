@@ -1,3 +1,9 @@
+---
+title: "AWS_StaleUsers Job"
+description: "AWS_StaleUsers Job"
+sidebar_position: 40
+---
+
 # AWS_StaleUsers Job
 
 The AWS_StaleUsers job provides details on the last time each user logged in or their access key was
@@ -49,7 +55,7 @@ The default values for parameters that can be customized are:
 | Stale Users   | @StaleThreshold             | 60            | Number of days before considering a user stale |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleUsers Job

@@ -1,3 +1,9 @@
+---
+title: "Choose Appropriate Execution Scenario"
+description: "Choose Appropriate Execution Scenario"
+sidebar_position: 20
+---
+
 # Choose Appropriate Execution Scenario
 
 ## Netwrix Auditor Activity Records to Event Log Add-on

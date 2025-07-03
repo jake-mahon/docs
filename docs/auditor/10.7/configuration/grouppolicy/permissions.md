@@ -1,3 +1,9 @@
+---
+title: "Permissions for Group Policy Auditing"
+description: "Permissions for Group Policy Auditing"
+sidebar_position: 30
+---
+
 # Permissions for Group Policy Auditing
 
 Before you start creating a monitoring plan to audit the group policy in the domain, plan for the

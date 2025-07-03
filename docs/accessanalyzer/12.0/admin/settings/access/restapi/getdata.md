@@ -1,3 +1,9 @@
+---
+title: "Use Access Token to Get Data from the Access Analyzer Endpoint"
+description: "Use Access Token to Get Data from the Access Analyzer Endpoint"
+sidebar_position: 40
+---
+
 # Use Access Token to Get Data from the Access Analyzer Endpoint
 
 Use the access token to call the API endpoints using PowerShell and retrieve data. The following

@@ -1,3 +1,9 @@
+---
+title: "SP_InactiveSites Job"
+description: "SP_InactiveSites Job"
+sidebar_position: 10
+---
+
 # SP_InactiveSites Job
 
 This job highlights your environments least active Sites or Site Collections.

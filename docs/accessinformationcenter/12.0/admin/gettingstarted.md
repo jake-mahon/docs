@@ -1,3 +1,9 @@
+---
+title: "Getting Started"
+description: "Getting Started"
+sidebar_position: 10
+---
+
 # Getting Started
 
 The Access Information Center is installed with a Builtin Administrator account used to enable
@@ -61,7 +67,7 @@ application. Also, ownership of resources must be assigned in order to use the R
 Access Requests workflows.
 
 - Resource Ownership — Assign ownership for resources to be managed through the application. See the
-  [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface.md) topic for additional information.
+  [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface/interface.md) topic for additional information.
 - Enable Owners — Send a notification to your owners about resource ownership with the application.
   See the [Notification to Owners](/docs/accessinformationcenter/12.0/resourceowners/overview.md#notification-to-owners) topic for
   additional information.

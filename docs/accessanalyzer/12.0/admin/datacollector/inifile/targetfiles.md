@@ -1,3 +1,9 @@
+---
+title: "INIFile: Target Files"
+description: "INIFile: Target Files"
+sidebar_position: 10
+---
+
 # INIFile: Target Files
 
 The Target Files page identifies the location and name of the INI file from which to collect

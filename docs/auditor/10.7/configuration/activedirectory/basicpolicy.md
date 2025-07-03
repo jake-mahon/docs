@@ -1,3 +1,9 @@
+---
+title: "Configure Basic Domain Audit Policies"
+description: "Configure Basic Domain Audit Policies"
+sidebar_position: 50
+---
+
 # Configure Basic Domain Audit Policies
 
 Basic audit policies allow tracking changes to user accounts and groups and identifying originating

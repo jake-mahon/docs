@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Options"
+description: "ExchangePS: Options"
+sidebar_position: 110
+---
+
 # ExchangePS: Options
 
 The Options page is used to configure additional options. It is a wizard page for all of the

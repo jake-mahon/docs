@@ -1,3 +1,9 @@
+---
+title: "Registry Action Module"
+description: "Registry Action Module"
+sidebar_position: 70
+---
+
 # Registry Action Module
 
 The Registry action module allows users to make bulk changes to the Microsoft Windows Registry. Use

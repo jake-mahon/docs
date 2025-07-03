@@ -1,3 +1,9 @@
+---
+title: "1.Groups Job Group"
+description: "1.Groups Job Group"
+sidebar_position: 20
+---
+
 # 1.Groups Job Group
 
 The 1.Groups Job Group provides a workflow to safely deprovision groups, as well as the ability to

@@ -1,3 +1,9 @@
+---
+title: "Activity Details Report"
+description: "Activity Details Report"
+sidebar_position: 10
+---
+
 # Activity Details Report
 
 The Activity Details report at the server level provides details on every operation logged during

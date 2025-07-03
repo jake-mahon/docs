@@ -1,3 +1,9 @@
+---
+title: "ADActivity: Share"
+description: "ADActivity: Share"
+sidebar_position: 40
+---
+
 # ADActivity: Share
 
 The Share page provides options for configuring share settings. It is a wizard page for the category

@@ -1,3 +1,9 @@
+---
+title: "Hosts Node"
+description: "Hosts Node"
+sidebar_position: 10
+---
+
 # Hosts Node
 
 The Hosts node provides the option to assign a preconfigured host list at the job level. It also

@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: DLP Audit Settings"
+description: "DropboxAccess: DLP Audit Settings"
+sidebar_position: 60
+---
+
 # DropboxAccess: DLP Audit Settings
 
 Use the DLP Audit Settings page to configure sensitive data discovery settings. This page is a

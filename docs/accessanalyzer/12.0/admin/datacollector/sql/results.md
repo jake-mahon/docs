@@ -1,3 +1,9 @@
+---
+title: "SQL: Results"
+description: "SQL: Results"
+sidebar_position: 90
+---
+
 # SQL: Results
 
 The Results page is where the properties that will be gathered are selected. It is a wizard page for

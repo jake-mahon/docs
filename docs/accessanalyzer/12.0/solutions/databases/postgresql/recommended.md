@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the PostgreSQL Solution"
+description: "Recommended Configuration for the PostgreSQL Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the PostgreSQL Solution
 
 The jobs in the PostgreSQL Solution has been configured to inherit down from the **PostgreSQL** >

@@ -1,3 +1,9 @@
+---
+title: "PF_FolderSize Job"
+description: "PF_FolderSize Job"
+sidebar_position: 30
+---
+
 # PF_FolderSize Job
 
 The PF_FolderSize job provides details related to public folder sizing and growth.

@@ -1,3 +1,9 @@
+---
+title: "Active Directory Reports"
+description: "Active Directory Reports"
+sidebar_position: 40
+---
+
 # Active Directory Reports
 
 Active Directory reports are accessed through the Resource Audit interface. Explore the Active

@@ -1,3 +1,9 @@
+---
+title: "Recover Objects"
+description: "Recover Objects"
+sidebar_position: 20
+---
+
 # Recover Objects
 
 The Recycle Bin enables you to view the objects deleted in domains monitored by Recovery for Active

@@ -1,3 +1,9 @@
+---
+title: "SendMail Action: Summary"
+description: "SendMail Action: Summary"
+sidebar_position: 30
+---
+
 # SendMail Action: Summary
 
 The Summary page displays the SendMail configuration.

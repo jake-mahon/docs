@@ -1,3 +1,9 @@
+---
+title: "Customize Branding"
+description: "Customize Branding"
+sidebar_position: 110
+---
+
 # Customize Branding
 
 Netwrix Auditor allows customizing look and feel of your reports, search subscriptions and exported

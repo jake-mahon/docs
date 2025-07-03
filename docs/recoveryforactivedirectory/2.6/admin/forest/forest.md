@@ -1,3 +1,9 @@
+---
+title: "Forest Page"
+description: "Forest Page"
+sidebar_position: 50
+---
+
 # Forest Page
 
 The Forest page allows administrators to:

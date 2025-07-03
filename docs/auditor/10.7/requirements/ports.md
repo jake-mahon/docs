@@ -1,3 +1,9 @@
+---
+title: "Protocols and Ports Required"
+description: "Protocols and Ports Required"
+sidebar_position: 80
+---
+
 # Protocols and Ports Required
 
 To ensure successful data collection and activity monitoring, Auditor has to communicate through

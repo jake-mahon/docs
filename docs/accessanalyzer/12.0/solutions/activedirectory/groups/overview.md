@@ -1,3 +1,9 @@
+---
+title: "1.Groups Job Group"
+description: "1.Groups Job Group"
+sidebar_position: 10
+---
+
 # 1.Groups Job Group
 
 The 1.Groups Job Group identifies effective group membership and pinpoints potential areas of

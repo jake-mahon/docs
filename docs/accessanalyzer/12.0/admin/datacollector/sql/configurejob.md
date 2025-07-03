@@ -1,3 +1,9 @@
+---
+title: "SQL Custom Connection Profile & Default Dynamic Host List"
+description: "SQL Custom Connection Profile & Default Dynamic Host List"
+sidebar_position: 10
+---
+
 # SQL Custom Connection Profile & Default Dynamic Host List
 
 The SQL Data Collector requires a custom Connection Profile and Host List. The **SQL SERVERS**

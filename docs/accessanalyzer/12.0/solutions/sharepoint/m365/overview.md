@@ -1,3 +1,9 @@
+---
+title: "8.M365 Job Group"
+description: "8.M365 Job Group"
+sidebar_position: 100
+---
+
 # 8.M365 Job Group
 
 The 8.M365 Job Group generates summary and detail reports of SharePoint Activity on the specified

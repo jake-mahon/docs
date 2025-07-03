@@ -1,3 +1,9 @@
+---
+title: "SQL: Custom Oracle Query"
+description: "SQL: Custom Oracle Query"
+sidebar_position: 80
+---
+
 # SQL: Custom Oracle Query
 
 The Custom Query page for a Custom Oracle Query contains the same options as the Custom Query page

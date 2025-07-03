@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: Shares List"
+description: "SystemInfo: Shares List"
+sidebar_position: 30
+---
+
 # SystemInfo: Shares List
 
 On the Shares List page, configure the shares to include and exclude. It is a wizard page for the

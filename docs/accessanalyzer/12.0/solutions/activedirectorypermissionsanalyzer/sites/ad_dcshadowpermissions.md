@@ -1,3 +1,9 @@
+---
+title: "AD_DCShadowPermissions Job"
+description: "AD_DCShadowPermissions Job"
+sidebar_position: 10
+---
+
 # AD_DCShadowPermissions Job
 
 The AD_DCShadowPermissions Job highlights all Active Directory users that are capable of potentially

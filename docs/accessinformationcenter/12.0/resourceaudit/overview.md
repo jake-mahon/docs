@@ -1,3 +1,9 @@
+---
+title: "Resource Audit Overview"
+description: "Resource Audit Overview"
+sidebar_position: 40
+---
+
 # Resource Audit Overview
 
 The Resource Audit interface is where Netwrix Access Information Center users view reports on

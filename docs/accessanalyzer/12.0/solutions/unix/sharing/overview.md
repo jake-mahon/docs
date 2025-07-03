@@ -1,3 +1,9 @@
+---
+title: "3.Sharing Job Group"
+description: "3.Sharing Job Group"
+sidebar_position: 40
+---
+
 # 3.Sharing Job Group
 
 The 3.Sharing job group highlights potentially insecure share configurations on Unix hosts.

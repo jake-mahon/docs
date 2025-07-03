@@ -1,3 +1,9 @@
+---
+title: "AWS_SensitiveData_Permissions Job"
+description: "AWS_SensitiveData_Permissions Job"
+sidebar_position: 20
+---
+
 # AWS_SensitiveData_Permissions Job
 
 The AWS_SensitiveData_Permissions job provides details on the permissions assigned to AWS S3 buckets

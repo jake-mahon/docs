@@ -1,3 +1,9 @@
+---
+title: "AD_DomainPermissions Job"
+description: "AD_DomainPermissions Job"
+sidebar_position: 40
+---
+
 # AD_DomainPermissions Job
 
 The AD_DomainPermissions Job reports on all Active Directory permissions applied to domain objects

@@ -470,8 +470,7 @@ displayed to take you directly to the matching page.
 The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 elements describe how a list of resources should be displayed.
 
-The
-[](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)[Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 contains a list of
 [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) columns
 elements that identify which properties should be included in the list display.

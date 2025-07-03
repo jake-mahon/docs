@@ -1,3 +1,9 @@
+---
+title: "SIEM Generic Integration for CEF Export"
+description: "SIEM Generic Integration for CEF Export"
+sidebar_position: 220
+---
+
 # SIEM Generic Integration for CEF Export
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

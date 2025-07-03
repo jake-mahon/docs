@@ -1,3 +1,9 @@
+---
+title: "Suspicious Activity Job Group"
+description: "Suspicious Activity Job Group"
+sidebar_position: 110
+---
+
 # Suspicious Activity Job Group
 
 The Suspicious Activity job group is designed to report on potentially suspicious activity event

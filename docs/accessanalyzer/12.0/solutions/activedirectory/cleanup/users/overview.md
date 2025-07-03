@@ -1,3 +1,9 @@
+---
+title: "2.Users Job Group"
+description: "2.Users Job Group"
+sidebar_position: 30
+---
+
 # 2.Users Job Group
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.

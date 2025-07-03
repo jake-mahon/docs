@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Category"
+description: "ExchangePS: Category"
+sidebar_position: 20
+---
+
 # ExchangePS: Category
 
 The Category page contains a connection section where connection options are defined. It is also

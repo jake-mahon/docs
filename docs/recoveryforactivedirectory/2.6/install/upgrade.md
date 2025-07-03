@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 60
+---
+
 # Upgrade Procedure
 
 This topic describes the steps needed to upgrade Netwrix Recovery for Active Directory from v2.5 to

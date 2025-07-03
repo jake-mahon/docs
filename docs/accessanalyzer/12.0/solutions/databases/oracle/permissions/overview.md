@@ -1,3 +1,9 @@
+---
+title: "3.Permissions Job Group"
+description: "3.Permissions Job Group"
+sidebar_position: 50
+---
+
 # 3.Permissions Job Group
 
 The 3.Permissions Job Group is designed to provide insight into all types of permissions at the

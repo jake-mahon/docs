@@ -1,3 +1,9 @@
+---
+title: "Permissions for Network Devices Auditing"
+description: "Permissions for Network Devices Auditing"
+sidebar_position: 120
+---
+
 # Permissions for Network Devices Auditing
 
 Before you start creating a monitoring plan to audit your network devices, plan for the account that

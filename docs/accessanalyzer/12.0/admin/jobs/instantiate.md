@@ -1,3 +1,9 @@
+---
+title: "Instantiating Jobs into the Jobs Tree"
+description: "Instantiating Jobs into the Jobs Tree"
+sidebar_position: 30
+---
+
 # Instantiating Jobs into the Jobs Tree
 
 Access Analyzer jobs and solutions are comprised of files contained within the file system of the

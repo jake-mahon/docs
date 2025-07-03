@@ -1,3 +1,9 @@
+---
+title: "AD_ResetPasswordPermissions Job"
+description: "AD_ResetPasswordPermissions Job"
+sidebar_position: 10
+---
+
 # AD_ResetPasswordPermissions Job
 
 The AD_ResetPasswordPermissions Job highlights all Active Directory users that are capable of

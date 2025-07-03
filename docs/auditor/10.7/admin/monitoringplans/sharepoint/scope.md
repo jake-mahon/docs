@@ -1,3 +1,9 @@
+---
+title: "SharePoint Monitoring Scope"
+description: "SharePoint Monitoring Scope"
+sidebar_position: 10
+---
+
 # SharePoint Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the SharePoint

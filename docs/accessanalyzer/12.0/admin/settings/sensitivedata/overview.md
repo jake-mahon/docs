@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data"
+description: "Sensitive Data"
+sidebar_position: 110
+---
+
 # Sensitive Data
 
 The Sensitive Data node provides configuration options to manage sensitive data criteria and false

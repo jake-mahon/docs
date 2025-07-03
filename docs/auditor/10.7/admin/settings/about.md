@@ -1,3 +1,9 @@
+---
+title: "About Netwrix Auditor"
+description: "About Netwrix Auditor"
+sidebar_position: 100
+---
+
 # About Netwrix Auditor
 
 The About Netwrix Auditor tab contains complete information on the product:

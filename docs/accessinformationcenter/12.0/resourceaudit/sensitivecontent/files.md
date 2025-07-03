@@ -1,3 +1,9 @@
+---
+title: "Files Report"
+description: "Files Report"
+sidebar_position: 20
+---
+
 # Files Report
 
 The Files report for sensitive content provides a list of all files for the targeted environments

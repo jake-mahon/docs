@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 7. Sensitive Data Job Group"
+description: "Recommended Configurations for the 7. Sensitive Data Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 7. Sensitive Data Job Group
 
 Dependencies
@@ -27,7 +33,7 @@ through host inventory results.
 Connection Profile
 
 A Connection Profile must be set directly on jobs within the 0.Collection job group. See the
-[Exchange Web Services API Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/webservicesapi.md)
+[Exchange Web Services API Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/webservicesapi.md)
 topic for the EX_PFInfo job requirements.
 
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional

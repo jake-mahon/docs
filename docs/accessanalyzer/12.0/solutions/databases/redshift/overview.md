@@ -1,3 +1,9 @@
+---
+title: "Redshift Solution"
+description: "Redshift Solution"
+sidebar_position: 60
+---
+
 # Redshift Solution
 
 The Access Analyzer Redshift Solution Set is a comprehensive set of pre-configured audit jobs and
@@ -15,7 +21,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databaseredshift.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

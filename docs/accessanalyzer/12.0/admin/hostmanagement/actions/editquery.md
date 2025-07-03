@@ -1,3 +1,9 @@
+---
+title: "Edit Query"
+description: "Edit Query"
+sidebar_position: 60
+---
+
 # Edit Query
 
 Use the **Edit Query** option to modify host lists created by a Host Discovery query.

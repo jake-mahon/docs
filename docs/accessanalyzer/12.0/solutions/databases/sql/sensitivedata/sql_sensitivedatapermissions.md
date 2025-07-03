@@ -1,3 +1,9 @@
+---
+title: "SQL_SensitiveDataPermissions Job"
+description: "SQL_SensitiveDataPermissions Job"
+sidebar_position: 20
+---
+
 # SQL_SensitiveDataPermissions Job
 
 The SQL_SensitiveDataPermissions Job is designed to provide all types of permissions on database

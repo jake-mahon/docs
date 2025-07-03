@@ -1,3 +1,9 @@
+---
+title: "SP_StaleUsers Job"
+description: "SP_StaleUsers Job"
+sidebar_position: 50
+---
+
 # SP_StaleUsers Job
 
 A stale user is defined as either currently disabled within Active Directory, or has not logged onto

@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Collection Method"
+description: "SMARTLog: Collection Method"
+sidebar_position: 60
+---
+
 # SMARTLog: Collection Method
 
 The Collection Method page is used to select the collection method employed by the data collector.

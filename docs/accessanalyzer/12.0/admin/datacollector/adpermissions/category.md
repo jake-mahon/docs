@@ -1,3 +1,9 @@
+---
+title: "ADPermissions: Category"
+description: "ADPermissions: Category"
+sidebar_position: 20
+---
+
 # ADPermissions: Category
 
 The ADPermissions Data Collector Category page identifies what kind of information to retrieve using

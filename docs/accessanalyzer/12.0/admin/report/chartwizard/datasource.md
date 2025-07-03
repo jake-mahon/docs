@@ -1,3 +1,9 @@
+---
+title: "Data Source"
+description: "Data Source"
+sidebar_position: 20
+---
+
 # Data Source
 
 On the Data Source page of the Chart Configuration wizard configure the data source for the chart.

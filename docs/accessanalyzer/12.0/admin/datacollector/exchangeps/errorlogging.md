@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Error Logging"
+description: "ExchangePS: Error Logging"
+sidebar_position: 120
+---
+
 # ExchangePS: Error Logging
 
 The Error Logging page is used to configure how long to keep the PowerShell logs. It is a wizard

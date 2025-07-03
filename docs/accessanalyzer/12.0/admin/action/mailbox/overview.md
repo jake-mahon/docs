@@ -1,3 +1,9 @@
+---
+title: "Mailbox Action Module"
+description: "Mailbox Action Module"
+sidebar_position: 40
+---
+
 # Mailbox Action Module
 
 The Mailbox action module allows you to perform bulk operations on Microsoft Exchange mailboxes, for

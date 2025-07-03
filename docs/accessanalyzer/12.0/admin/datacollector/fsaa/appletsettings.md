@@ -1,3 +1,9 @@
+---
+title: "FSAA: Applet Settings"
+description: "FSAA: Applet Settings"
+sidebar_position: 30
+---
+
 # FSAA: Applet Settings
 
 The Applet Settings page is where the Applet Launch Mechanism and Applet Settings are configured. It
@@ -8,7 +14,7 @@ is a wizard page for the categories of:
 - Sensitive Data Scan
 
 **NOTE:** This wizard page identifies options associated with the scan mode to be used. See the
-[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic for
 additional information.
 
 ![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/appletsettings.webp)
@@ -106,7 +112,7 @@ In the Certificate Exchange Options section, configure the following options:
       the default option.
     - Manual – The FSSA Data Collector and applet server expect all certificates to be valid and in
       their respective stores beforehand. See the
-      [FSAA Manual Certificate Configuration](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/manualcertificate.md) topic for additional
+      [FSAA Manual Certificate Configuration](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement/manualcertificate.md) topic for additional
       information.
 
         **NOTE:** If the FSAA Data Collector and the applet server are on separate domains without a
@@ -118,5 +124,5 @@ In the Certificate Exchange Options section, configure the following options:
 - Port – Select the checkbox to specify the port number for certificate exchange. The Default port
   number is 8767.
 
-See the [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement.md) topic for additional
+See the [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement/certificatemanagement.md) topic for additional
 information.

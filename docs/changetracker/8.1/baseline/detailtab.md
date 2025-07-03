@@ -1,3 +1,9 @@
+---
+title: "Detail Tab"
+description: "Detail Tab"
+sidebar_position: 50
+---
+
 # Detail Tab
 
 This provides the detail behind individual report runs and specifically shows the devices in each

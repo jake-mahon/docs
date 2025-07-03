@@ -1,3 +1,9 @@
+---
+title: "Domains Page"
+description: "Domains Page"
+sidebar_position: 10
+---
+
 # Domains Page
 
 The Domains page provides a list of the domains backed up by Recovery for Active Directory. It

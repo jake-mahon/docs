@@ -1,3 +1,9 @@
+---
+title: "AD_GroupPermissions Job"
+description: "AD_GroupPermissions Job"
+sidebar_position: 20
+---
+
 # AD_GroupPermissions Job
 
 The AD_Permissions job reports on all Active Directory permissions and ownership applied to group

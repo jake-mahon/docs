@@ -1,3 +1,9 @@
+---
+title: "Exchange2K: Options"
+description: "Exchange2K: Options"
+sidebar_position: 50
+---
+
 # Exchange2K: Options
 
 The Options page provides additional configuration options for the query. Available options vary

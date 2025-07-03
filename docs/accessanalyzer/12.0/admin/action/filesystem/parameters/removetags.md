@@ -1,3 +1,9 @@
+---
+title: "Remove Tags"
+description: "Remove Tags"
+sidebar_position: 80
+---
+
 # Remove Tags
 
 Use the Parameter page to specify the file tags the action removes.

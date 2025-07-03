@@ -1,3 +1,9 @@
+---
+title: "AAD_CircularNesting Job"
+description: "AAD_CircularNesting Job"
+sidebar_position: 10
+---
+
 # AAD_CircularNesting Job
 
 The AAD_CircularNesting Job identifies circularly nested groups within Microsoft Entra ID which can

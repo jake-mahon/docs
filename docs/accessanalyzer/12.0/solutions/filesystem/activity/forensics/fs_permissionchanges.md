@@ -1,3 +1,9 @@
+---
+title: "FS_PermissionChanges Job"
+description: "FS_PermissionChanges Job"
+sidebar_position: 20
+---
+
 # FS_PermissionChanges Job
 
 The FS_PermissionChanges job is designed to report on permission change activity event information

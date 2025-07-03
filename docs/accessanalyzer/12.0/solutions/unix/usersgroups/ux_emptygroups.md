@@ -1,3 +1,9 @@
+---
+title: "UX_EmptyGroups Job"
+description: "UX_EmptyGroups Job"
+sidebar_position: 30
+---
+
 # UX_EmptyGroups Job
 
 The UX_EmptyGroups job identifies empty groups found within the audited Unix or Linux environment.

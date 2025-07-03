@@ -1,3 +1,9 @@
+---
+title: "Host Discovery Queries"
+description: "Host Discovery Queries"
+sidebar_position: 10
+---
+
 # Host Discovery Queries
 
 The Host Discovery Queries Pane contains a list of previously-configured queries.

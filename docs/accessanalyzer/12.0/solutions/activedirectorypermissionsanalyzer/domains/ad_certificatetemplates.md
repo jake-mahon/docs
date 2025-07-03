@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateTemplates Job"
+description: "AD_CertificateTemplates Job"
+sidebar_position: 20
+---
+
 # AD_CertificateTemplates Job
 
 The AD_CertificateTemplates job provides details on certificate template settings.

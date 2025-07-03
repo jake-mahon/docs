@@ -1,3 +1,9 @@
+---
+title: "Logon Activity"
+description: "Logon Activity"
+sidebar_position: 110
+---
+
 # Logon Activity
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

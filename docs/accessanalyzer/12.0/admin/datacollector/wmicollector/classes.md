@@ -1,3 +1,9 @@
+---
+title: "WMICollector: Classes"
+description: "WMICollector: Classes"
+sidebar_position: 20
+---
+
 # WMICollector: Classes
 
 On the Classes page, configure the WMICollector namespaces and classes to use as a data source.

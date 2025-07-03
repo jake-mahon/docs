@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the DropboxAccess Data Collector"
+description: "Standard Reference Tables & Views for the DropboxAccess Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the DropboxAccess Data Collector
 
 The DropboxAccess Data Collector gathers essential user and group inventory information into

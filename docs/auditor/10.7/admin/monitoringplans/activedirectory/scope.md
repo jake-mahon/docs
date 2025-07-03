@@ -1,3 +1,9 @@
+---
+title: "Active Directory Monitoring Scope"
+description: "Active Directory Monitoring Scope"
+sidebar_position: 10
+---
+
 # Active Directory Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Active

@@ -1,3 +1,9 @@
+---
+title: "SP_SharedLinks Job"
+description: "SP_SharedLinks Job"
+sidebar_position: 30
+---
+
 # SP_SharedLinks Job
 
 The SP_SharedLinks Job provides an overview of the shared links configured with SharePoint Online,

@@ -1,3 +1,9 @@
+---
+title: "Entra: Results"
+description: "Entra: Results"
+sidebar_position: 20
+---
+
 # Entra: Results
 
 The Results page is where the properties from Microsoft Entra ID to be gathered are selected.

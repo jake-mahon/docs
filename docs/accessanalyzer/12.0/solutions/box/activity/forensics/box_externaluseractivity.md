@@ -1,3 +1,9 @@
+---
+title: "Box_ExternalUserActivity Job"
+description: "Box_ExternalUserActivity Job"
+sidebar_position: 30
+---
+
 # Box_ExternalUserActivity Job
 
 The Box_ExternalUserActivity Job identifies and analyzes activity events performed by external users

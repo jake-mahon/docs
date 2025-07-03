@@ -1,3 +1,9 @@
+---
+title: "Audit Logs Page"
+description: "Audit Logs Page"
+sidebar_position: 70
+---
+
 # Audit Logs Page
 
 The Audit Logs page provides an audit trail of the actions performed by users in Recovery for Active

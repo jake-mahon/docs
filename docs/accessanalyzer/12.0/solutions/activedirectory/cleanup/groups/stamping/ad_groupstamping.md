@@ -1,3 +1,9 @@
+---
+title: "AD_GroupStamping Job"
+description: "AD_GroupStamping Job"
+sidebar_position: 20
+---
+
 # AD_GroupStamping Job
 
 The AD_GroupStamping Job updates the Notes attribute for all security groups to show where the group

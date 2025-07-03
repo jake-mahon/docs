@@ -1,3 +1,9 @@
+---
+title: "AD_UserToken Job"
+description: "AD_UserToken Job"
+sidebar_position: 110
+---
+
 # AD_UserToken Job
 
 The AD_UserToken Job identifies and reports the number of SIDS and estimated token size associated

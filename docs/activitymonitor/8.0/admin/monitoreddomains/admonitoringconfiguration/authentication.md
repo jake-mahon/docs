@@ -1,3 +1,9 @@
+---
+title: "Authentication Tab"
+description: "Authentication Tab"
+sidebar_position: 30
+---
+
 # Authentication Tab
 
 The Authentication tab on a domain’s Configuration window allows users to configure communication

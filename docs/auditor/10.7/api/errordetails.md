@@ -1,3 +1,9 @@
+---
+title: "Error Details"
+description: "Error Details"
+sidebar_position: 110
+---
+
 # Error Details
 
 On error, most requests contain an error description in the response body (except some requests with

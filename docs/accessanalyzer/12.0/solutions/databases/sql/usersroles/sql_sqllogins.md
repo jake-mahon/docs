@@ -1,3 +1,9 @@
+---
+title: "SQL_SQLLogins Job"
+description: "SQL_SQLLogins Job"
+sidebar_position: 50
+---
+
 # SQL_SQLLogins Job
 
 The SQL_SQLLogins Job provides information on successful and failed SQL server logins across all

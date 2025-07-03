@@ -1,3 +1,9 @@
+---
+title: "Working with Collected Data"
+description: "Working with Collected Data"
+sidebar_position: 20
+---
+
 # Working with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Netwrix Auditor:

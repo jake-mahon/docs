@@ -1,3 +1,9 @@
+---
+title: "NetApp FPolicy Options Tab"
+description: "NetApp FPolicy Options Tab"
+sidebar_position: 120
+---
+
 # NetApp FPolicy Options Tab
 
 The NetApp FPolicy Options tab provides options to configure FPolicy server settings for monitoring

@@ -1,3 +1,9 @@
+---
+title: "Dropbox Solution"
+description: "Dropbox Solution"
+sidebar_position: 100
+---
+
 # Dropbox Solution
 
 The Dropbox Solution is an auditing, compliance, and governance solution for Dropbox for Business.
@@ -24,7 +30,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/dropbox.md)
+See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/dropbox/dropbox_1.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

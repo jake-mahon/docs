@@ -1,3 +1,9 @@
+---
+title: "Credential & Data Security Assessment Overview"
+description: "Credential & Data Security Assessment Overview"
+sidebar_position: 70
+---
+
 # Credential & Data Security Assessment Overview
 
 Proper data security begins with a strong foundation. The Credential & Data Security Assessment

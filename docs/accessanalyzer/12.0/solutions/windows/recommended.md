@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Windows Solution"
+description: "Recommended Configurations for the Windows Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Windows Solution
 
 Dependencies

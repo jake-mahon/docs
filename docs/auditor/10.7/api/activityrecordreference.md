@@ -1,3 +1,9 @@
+---
+title: "Reference for Creating Activity Records"
+description: "Reference for Creating Activity Records"
+sidebar_position: 70
+---
+
 # Reference for Creating Activity Records
 
 The table below describes Activity Record elements.

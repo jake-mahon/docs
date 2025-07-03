@@ -1,3 +1,9 @@
+---
+title: "Firewall Rules for Forest Server Backups"
+description: "Firewall Rules for Forest Server Backups"
+sidebar_position: 60
+---
+
 # Firewall Rules for Forest Server Backups
 
 The following firewall settings are required for communicating with Recovery for Active Directory

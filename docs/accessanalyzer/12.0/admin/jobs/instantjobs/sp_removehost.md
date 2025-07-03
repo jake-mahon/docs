@@ -1,3 +1,9 @@
+---
+title: "SP_RemoveHost Job"
+description: "SP_RemoveHost Job"
+sidebar_position: 70
+---
+
 # SP_RemoveHost Job
 
 The SP_RemoveHost Job removes desired SharePoint hosts from the Access Analyzer database. It is

@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 This topic describes the console installation and agent deployment the process for Activity Monitor.

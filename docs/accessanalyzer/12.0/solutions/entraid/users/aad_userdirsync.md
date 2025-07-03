@@ -1,3 +1,9 @@
+---
+title: "AAD_UserDirSync Job"
+description: "AAD_UserDirSync Job"
+sidebar_position: 50
+---
+
 # AAD_UserDirSync Job
 
 The AAD_UserDirSync Job summarizes on-premises Active Directory syncing in the audited Microsoft

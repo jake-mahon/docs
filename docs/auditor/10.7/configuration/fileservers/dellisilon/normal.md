@@ -1,3 +1,9 @@
+---
+title: "Normal and Enterprise Modes for Clusters"
+description: "Normal and Enterprise Modes for Clusters"
+sidebar_position: 20
+---
+
 # Normal and Enterprise Modes for Clusters
 
 You can configure your cluster for monitoring in one of the following ways:

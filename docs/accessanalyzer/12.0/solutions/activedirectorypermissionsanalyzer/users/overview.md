@@ -1,3 +1,9 @@
+---
+title: "1.Users Job Group"
+description: "1.Users Job Group"
+sidebar_position: 30
+---
+
 # 1.Users Job Group
 
 The 1.Users Job Group reports on all Active Directory permissions applied to user objects within the

@@ -1,3 +1,9 @@
+---
+title: "Notification: Type"
+description: "Notification: Type"
+sidebar_position: 60
+---
+
 # Notification: Type
 
 Use the Notification Type page to specify one or more notification types.

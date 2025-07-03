@@ -1,3 +1,9 @@
+---
+title: "SG_ScheduledTasks Job"
+description: "SG_ScheduledTasks Job"
+sidebar_position: 40
+---
+
 # SG_ScheduledTasks Job
 
 The SG_ScheduledTasks job lists scheduled task details on all targeted hosts.

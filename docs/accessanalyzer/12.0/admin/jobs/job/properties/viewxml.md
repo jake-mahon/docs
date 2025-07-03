@@ -1,3 +1,9 @@
+---
+title: "View Job XML File"
+description: "View Job XML File"
+sidebar_position: 100
+---
+
 # View Job XML File
 
 At the bottom of the Job Properties window is the **View XML** button. To view the XML file, click

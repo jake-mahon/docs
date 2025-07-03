@@ -1,3 +1,9 @@
+---
+title: "Activity Days Sample for Recommendations"
+description: "Activity Days Sample for Recommendations"
+sidebar_position: 10
+---
+
 # Activity Days Sample for Recommendations
 
 During a Resource Review, the Access Information Center can provide the owner of a resource with

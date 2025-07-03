@@ -1,3 +1,9 @@
+---
+title: "Active Directory Page"
+description: "Active Directory Page"
+sidebar_position: 40
+---
+
 # Active Directory Page
 
 On the Active Directory page, you can access all the domains that you have configured through the

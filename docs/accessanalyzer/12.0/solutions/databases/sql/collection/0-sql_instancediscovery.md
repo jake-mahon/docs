@@ -1,3 +1,9 @@
+---
+title: "0-SQL_InstanceDiscovery Job"
+description: "0-SQL_InstanceDiscovery Job"
+sidebar_position: 10
+---
+
 # 0-SQL_InstanceDiscovery Job
 
 The 0-SQL_InstanceDiscovery job enumerates and stores the list of SQL Server Instances running on

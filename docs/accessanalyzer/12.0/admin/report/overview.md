@@ -1,3 +1,9 @@
+---
+title: "Reporting"
+description: "Reporting"
+sidebar_position: 110
+---
+
 # Reporting
 
 Access Analyzer provides the ability to report on collected data in multiple ways such as tables,

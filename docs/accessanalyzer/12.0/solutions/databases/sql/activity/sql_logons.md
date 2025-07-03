@@ -1,3 +1,9 @@
+---
+title: "SQL_Logons Job"
+description: "SQL_Logons Job"
+sidebar_position: 20
+---
+
 # SQL_Logons Job
 
 The SQL_Logons Job provides insight into failed and successful SQL and Azure SQL server logon

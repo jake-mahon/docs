@@ -1,3 +1,9 @@
+---
+title: "Least Privileged Access > FS_LeastPrivilegedAccess Job"
+description: "Least Privileged Access > FS_LeastPrivilegedAccess Job"
+sidebar_position: 20
+---
+
 # Least Privileged Access > FS_LeastPrivilegedAccess Job
 
 The FS_LeastPrivilegedAccess job is designed to report on activity event information that can assist

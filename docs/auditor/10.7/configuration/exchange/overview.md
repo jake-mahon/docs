@@ -1,3 +1,9 @@
+---
+title: "Exchange"
+description: "Exchange"
+sidebar_position: 30
+---
+
 # Exchange
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,3 +1,9 @@
+---
+title: "0. Collection > EX_Mailflow Job"
+description: "0. Collection > EX_Mailflow Job"
+sidebar_position: 10
+---
+
 # 0. Collection > EX_Mailflow Job
 
 The EX_Mailflow job collects message trace data from Office 365.
@@ -95,7 +101,7 @@ The following analysis tasks are selected by default:
     - By default, retention is set to 6 months. This period can be modified. See the
       [Parameter Configuration](#parameter-configuration) topic for additional information.
     - Alternatively, the `@Months` parameter can be modified in the SQL Script Editor. See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis

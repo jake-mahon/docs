@@ -1,3 +1,9 @@
+---
+title: "2-Dropbox_SDD Bulk Import Job"
+description: "2-Dropbox_SDD Bulk Import Job"
+sidebar_position: 40
+---
+
 # 2-Dropbox_SDD Bulk Import Job
 
 The 2-Dropbox_SDD Bulk Import job imports the data collected by the 1-Dropbox_SDD Scan job to the

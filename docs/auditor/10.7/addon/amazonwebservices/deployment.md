@@ -1,3 +1,9 @@
+---
+title: "Choose Appropriate Execution Scenario"
+description: "Choose Appropriate Execution Scenario"
+sidebar_position: 20
+---
+
 # Choose Appropriate Execution Scenario
 
 The Add-on runs on any computer in your environment. For example, you can run the add-on on the

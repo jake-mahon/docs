@@ -1,3 +1,9 @@
+---
+title: "Synology"
+description: "Synology"
+sidebar_position: 60
+---
+
 # Synology
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

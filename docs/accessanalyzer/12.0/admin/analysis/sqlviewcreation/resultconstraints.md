@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Result Constraints"
+description: "SQLViewCreation: Result Constraints"
+sidebar_position: 70
+---
+
 # SQLViewCreation: Result Constraints
 
 Use the Result Constraints page to impose restraints on the dataset.

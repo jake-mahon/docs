@@ -1,3 +1,9 @@
+---
+title: "AD_ServiceAccounts Job"
+description: "AD_ServiceAccounts Job"
+sidebar_position: 60
+---
+
 # AD_ServiceAccounts Job
 
 The AD_ServiceAccounts Job offers information about service accounts and if they are vulnerable to

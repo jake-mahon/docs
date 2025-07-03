@@ -1,3 +1,9 @@
+---
+title: "TextSearch: Search Criteria"
+description: "TextSearch: Search Criteria"
+sidebar_position: 20
+---
+
 # TextSearch: Search Criteria
 
 The Search Criteria page provides configuration options to specify the text to search for across the

@@ -187,12 +187,12 @@ The `IdentityServer` section allows the following attributes:
 | IssuerURI optional                              | Sets the unique name of this server instance.                                                                                                                                                  |
 | PostLogoutRedirectUri optional                  | Sets a specific URI to which the user will be redirected after a successful logout.                                                                                                            |
 | PublicOrigin optional                           | Sets the origin name for this _Usercube Server_ instance. Useful if end-users authenticate through a proxy server.                                                                             |
-| X509File required                               | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
-| X509KeyFilePassword optional                    | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                             |
-| X509SubjectDistinguishedName optional           | Sets the store certificate's _SubjectDistinguishedName_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                               |
-| _X509Thumbprint_ optional                       | Sets the store certificate's _Thumbprint_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                             |
-| X509StoreLocation required                      | Sets the relevant Windows certificate store's location (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                |
-| X509StoreName required                          | Sets the relevant Windows certificate store's name (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                    |
+| X509File required                               | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see Public key certificate and private key). |
+| X509KeyFilePassword optional                    | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see Public key certificate and private key).                             |
+| X509SubjectDistinguishedName optional           | Sets the store certificate's _SubjectDistinguishedName_ (see Public key certificate and private key).                                               |
+| _X509Thumbprint_ optional                       | Sets the store certificate's _Thumbprint_ (see Public key certificate and private key).                                                             |
+| X509StoreLocation required                      | Sets the relevant Windows certificate store's location (see Public key certificate and private key).                                                |
+| X509StoreName required                          | Sets the relevant Windows certificate store's name (see Public key certificate and private key).                                                    |
 
 ### Authentication
 
@@ -311,7 +311,7 @@ _Claim names_.
 For this reason, the name of the claim that is retrieved by Usercube for authorization purposes can
 be set up according to the provider's specifics.
 
-See the [**NameClaimType**](#__nameclaimtype__) configuration attribute.
+See the [**NameClaimType**](#nameclaimtype) configuration attribute.
 
 Users should be able to get a list of the claim names used by their authentication providers from
 their providers' portal website, documentation or administrators.

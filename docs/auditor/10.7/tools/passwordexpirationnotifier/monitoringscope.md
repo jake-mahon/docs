@@ -1,3 +1,9 @@
+---
+title: "Password Expiration Monitoring Scope"
+description: "Password Expiration Monitoring Scope"
+sidebar_position: 20
+---
+
 # Password Expiration Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from monitoring and

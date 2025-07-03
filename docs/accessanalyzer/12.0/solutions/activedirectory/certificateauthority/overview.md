@@ -1,3 +1,9 @@
+---
+title: "7.Certificate Authority Job Group"
+description: "7.Certificate Authority Job Group"
+sidebar_position: 70
+---
+
 # 7.Certificate Authority Job Group
 
 The 7.Certificate Authority job group collects settings, permissions, and configurations for

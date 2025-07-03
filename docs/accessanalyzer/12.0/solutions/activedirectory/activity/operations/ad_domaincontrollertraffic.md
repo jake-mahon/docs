@@ -1,3 +1,9 @@
+---
+title: "AD_DomainControllerTraffic Job"
+description: "AD_DomainControllerTraffic Job"
+sidebar_position: 20
+---
+
 # AD_DomainControllerTraffic Job
 
 The AD_DomainControllerTraffic Job provides a summary of the amount of traffic for Changes,

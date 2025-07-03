@@ -1,3 +1,9 @@
+---
+title: "Deployment Procedure"
+description: "Deployment Procedure"
+sidebar_position: 10
+---
+
 # Deployment Procedure
 
 Follow the steps to install Microsoft Copilot add-on.

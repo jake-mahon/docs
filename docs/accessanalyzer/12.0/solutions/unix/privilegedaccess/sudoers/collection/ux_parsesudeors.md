@@ -1,3 +1,9 @@
+---
+title: "UX_ParseSudeors Job"
+description: "UX_ParseSudeors Job"
+sidebar_position: 20
+---
+
 # UX_ParseSudeors Job
 
 The UX_ParseSudoers job parses all rights granted via sudoers in the audited environments.

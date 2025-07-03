@@ -1,3 +1,9 @@
+---
+title: "Oracle Database"
+description: "Oracle Database"
+sidebar_position: 140
+---
+
 # Oracle Database
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
@@ -57,7 +63,7 @@ On a high level, data collection process for Oracle databases works as follows:
       step 1) as a data collecting account in the Monitoring Plan wizard. Then s/he adds items to
       the monitoring plan – these are Oracle Databases to collect data from.
     - Configures alerts related to Oracle data source. Current version does not include predefined
-      alerts for that data source, so follow the [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create.md)
+      alerts for that data source, so follow the [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create/create.md)
       section to create and configure the necessary alerts.
 
     Remember to set the filter to “Data Source*equals* Oracle”.

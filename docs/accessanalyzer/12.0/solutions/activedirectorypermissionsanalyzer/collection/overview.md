@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group collects data on permissions applied to certificates, computers, groups,

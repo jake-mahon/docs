@@ -1,3 +1,9 @@
+---
+title: "Import Location"
+description: "Import Location"
+sidebar_position: 80
+---
+
 # Import Location
 
 Use the **Import Location** option to import the physical location data for hosts and opens a

@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder Data Collector"
+description: "ExchangePublicFolder Data Collector"
+sidebar_position: 210
+---
+
 # ExchangePublicFolder Data Collector
 
 The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents,

@@ -1,3 +1,9 @@
+---
+title: "Configure Object-Level Auditing"
+description: "Configure Object-Level Auditing"
+sidebar_position: 70
+---
+
 # Configure Object-Level Auditing
 
 Object-level auditing must be configured for the **Domain** partition if you want to collect

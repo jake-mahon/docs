@@ -1,3 +1,9 @@
+---
+title: "Permissions for Windows Server Auditing"
+description: "Permissions for Windows Server Auditing"
+sidebar_position: 120
+---
+
 # Permissions for Windows Server Auditing
 
 Before you start creating a monitoring plan to audit your Windows servers (including DNS and DHCP

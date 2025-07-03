@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Summary"
+description: "EWSMailbox: Summary"
+sidebar_position: 100
+---
+
 # EWSMailbox: Summary
 
 The Summary page displays a summary of the configured query. It wizard page for all categories.

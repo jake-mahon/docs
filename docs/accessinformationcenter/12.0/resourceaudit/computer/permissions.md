@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 80
+---
+
 # Permissions Report
 
 The Permissions report for a computer object provides a list of all resources where the audited
@@ -32,4 +38,4 @@ The following rights are a normalized representation of the permissions granted 
 - Manage – Equivalent to full control over resources
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/12.0/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.

@@ -1,3 +1,9 @@
+---
+title: "Effective Access Report"
+description: "Effective Access Report"
+sidebar_position: 30
+---
+
 # Effective Access Report
 
 The Effective Access report for a group object provides the insight into every resource the audited

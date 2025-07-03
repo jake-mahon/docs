@@ -1,3 +1,9 @@
+---
+title: "FS_DeleteFiles Job"
+description: "FS_DeleteFiles Job"
+sidebar_position: 10
+---
+
 # FS_DeleteFiles Job
 
 The FS_DeleteFiles job is designed to delete resources from targeted file servers that were
@@ -46,7 +52,7 @@ The default values for parameters that can be customized are:
 | Determine candidates for deletion | @DELETE_THRESHOLD           | 180           | Set the number of days without access after which a file becomes a candidate for deletion |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions to modify parameters.
 
 ## Action Tasks for the FS_DeleteFiles Job

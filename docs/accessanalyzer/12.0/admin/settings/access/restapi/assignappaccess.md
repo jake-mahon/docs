@@ -1,3 +1,9 @@
+---
+title: "Assign Application Access through the Web Service"
+description: "Assign Application Access through the Web Service"
+sidebar_position: 10
+---
+
 # Assign Application Access through the Web Service
 
 An application can be assigned to access data remotely through the Web Service. Follow the steps to

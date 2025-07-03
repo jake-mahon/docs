@@ -1,3 +1,9 @@
+---
+title: "Unix Solution"
+description: "Unix Solution"
+sidebar_position: 150
+---
+
 # Unix Solution
 
 The Unix Solution reports on areas of administrative concern for Unix and Linux systems. Attention
@@ -16,7 +22,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/unix.md) topic
+See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/unix/unix_1.md) topic
 for additional information.
 
 Location

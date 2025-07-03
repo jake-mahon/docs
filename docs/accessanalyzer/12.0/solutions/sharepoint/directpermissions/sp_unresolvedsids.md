@@ -1,3 +1,9 @@
+---
+title: "SP_UnresolvedSIDs Job"
+description: "SP_UnresolvedSIDs Job"
+sidebar_position: 60
+---
+
 # SP_UnresolvedSIDs Job
 
 This job identifies Unresolved SIDs that have permissions to any SharePoint resources. Unresolved

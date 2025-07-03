@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Log Type"
+description: "SMARTLog: Log Type"
+sidebar_position: 10
+---
+
 # SMARTLog: Log Type
 
 The Log Type page is used to select the log type to be processed.

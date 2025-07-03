@@ -1,3 +1,9 @@
+---
+title: "CIM Data Model Mapping"
+description: "CIM Data Model Mapping"
+sidebar_position: 30
+---
+
 # CIM Data Model Mapping
 
 The Splunk Common Information Model (CIM) is installed with an add-on and adds a set of data models

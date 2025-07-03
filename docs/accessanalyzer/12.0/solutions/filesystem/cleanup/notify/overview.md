@@ -1,3 +1,9 @@
+---
+title: "2. Notify Job Group"
+description: "2. Notify Job Group"
+sidebar_position: 20
+---
+
 # 2. Notify Job Group
 
 The 2. Notify job group is designed to report on and notify owners of resources of target file

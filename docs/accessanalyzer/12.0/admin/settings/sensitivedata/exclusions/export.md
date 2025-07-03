@@ -1,3 +1,9 @@
+---
+title: "Exporting False Positive Exclusion Filters"
+description: "Exporting False Positive Exclusion Filters"
+sidebar_position: 50
+---
+
 # Exporting False Positive Exclusion Filters
 
 Follow the steps to export selected False Positive Exclusion Filters into a TXT file.

@@ -1,3 +1,9 @@
+---
+title: "FS_NestedShares Job"
+description: "FS_NestedShares Job"
+sidebar_position: 50
+---
+
 # FS_NestedShares Job
 
 The FS_NestedShares job is is designed to report on nested shares that have been granted direct

@@ -1,3 +1,9 @@
+---
+title: "Windows Server"
+description: "Windows Server"
+sidebar_position: 200
+---
+
 # Windows Server
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

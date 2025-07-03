@@ -1,3 +1,9 @@
+---
+title: "SQL_PermissionChanges Job"
+description: "SQL_PermissionChanges Job"
+sidebar_position: 30
+---
+
 # SQL_PermissionChanges Job
 
 The SQL_PermissionChanges Job provides detailed information on permission changes for all database

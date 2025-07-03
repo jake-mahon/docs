@@ -1,3 +1,9 @@
+---
+title: "Forensics Job Group"
+description: "Forensics Job Group"
+sidebar_position: 10
+---
+
 # Forensics Job Group
 
 This group will highlight deletions, group membership changes, permission changes, and activity

@@ -1,3 +1,9 @@
+---
+title: "Local Administrators Job Group"
+description: "Local Administrators Job Group"
+sidebar_position: 20
+---
+
 # Local Administrators Job Group
 
 ![Local Administrators Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/localadministrators/jobstree.webp)

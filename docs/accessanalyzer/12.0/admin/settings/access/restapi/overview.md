@@ -1,3 +1,9 @@
+---
+title: "Web Service REST API for Applications Accessing Data Remotely"
+description: "Web Service REST API for Applications Accessing Data Remotely"
+sidebar_position: 20
+---
+
 # Web Service REST API for Applications Accessing Data Remotely
 
 The Access Analyzer REST API is integrated into the Web Service as an endpoint using an OAuth 2.0

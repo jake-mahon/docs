@@ -1,3 +1,9 @@
+---
+title: "AAD_DirectMembership Job"
+description: "AAD_DirectMembership Job"
+sidebar_position: 10
+---
+
 # AAD_DirectMembership Job
 
 The AAD_DirectMembership Job identifies Microsoft Entra ID users who do not have any group

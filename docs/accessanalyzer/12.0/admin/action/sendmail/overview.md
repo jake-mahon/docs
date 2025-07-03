@@ -1,3 +1,9 @@
+---
+title: "SendMail Action Module"
+description: "SendMail Action Module"
+sidebar_position: 80
+---
+
 # SendMail Action Module
 
 Use this action module to send dynamic and static content from selected audit data to targeted

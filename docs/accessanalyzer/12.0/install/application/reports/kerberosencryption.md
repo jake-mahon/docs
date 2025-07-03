@@ -1,3 +1,9 @@
+---
+title: "Manage Kerberos Encryption Warning for the Web Console"
+description: "Manage Kerberos Encryption Warning for the Web Console"
+sidebar_position: 20
+---
+
 # Manage Kerberos Encryption Warning for the Web Console
 
 If a computer's Local Security Policy, or applicable Group Policy, enforces certain encryption

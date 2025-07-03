@@ -1,3 +1,9 @@
+---
+title: "2.Activity Job Group"
+description: "2.Activity Job Group"
+sidebar_position: 50
+---
+
 # 2.Activity Job Group
 
 The jobs in the 2. Activity Job Group provides insight into user login activity, object permission

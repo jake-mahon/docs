@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 10
+---
+
 # 0.Collection Job Group
 
 The jobs within this group collect NFS and Samba configuration information which will be further

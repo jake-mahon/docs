@@ -1,3 +1,9 @@
+---
+title: "SG_GroupPolicy Job"
+description: "SG_GroupPolicy Job"
+sidebar_position: 10
+---
+
 # SG_GroupPolicy Job
 
 The SG_GroupPolicy job collects policy assignments from all targeted servers. The following policy

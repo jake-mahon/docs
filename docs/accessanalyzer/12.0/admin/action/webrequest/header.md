@@ -1,3 +1,9 @@
+---
+title: "Web Request: Header"
+description: "Web Request: Header"
+sidebar_position: 20
+---
+
 # Web Request: Header
 
 Use the Header page to enter the header values for the request.

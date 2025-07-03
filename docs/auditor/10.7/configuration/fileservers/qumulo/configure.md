@@ -1,3 +1,9 @@
+---
+title: "Configure Core Audit for Qumulo File Servers"
+description: "Configure Core Audit for Qumulo File Servers"
+sidebar_position: 20
+---
+
 # Configure Core Audit for Qumulo File Servers
 
 To configure your Qumulo file servers for auditing, you need to connect your device to Active

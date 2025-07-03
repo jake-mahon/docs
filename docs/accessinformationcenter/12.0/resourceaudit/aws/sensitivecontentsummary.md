@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Summary Report"
+description: "Sensitive Content Summary Report"
+sidebar_position: 20
+---
+
 # Sensitive Content Summary Report
 
 The Sensitive Content Summary report at the **Amazon** node provides a count of files where criteria

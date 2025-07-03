@@ -30,20 +30,18 @@ Identity Manager provides a
 [Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
 scaffolding that generates the configuration for these steps.
 
-> For example:
->
->                         ```
->
->                             Conf/AzureAD/AzureAD Jobs.xml
->
-> <CreateConnectorSynchroIncremental Connector="AzureAD" DisplayName_L1="AzureAD Synchronization (delta)">
-> <OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroIncremental>
->
-> ````
->
->
-> Note that the ```Job``` value in ```OpenIdIdentifier``` refers to the ```ClientId``` written to the [](/docs/identitymanager/6.2/identitymanager/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md#)[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
-> ````
+For example:
+
+```
+ Conf/AzureAD/AzureAD Jobs.xml
+
+<CreateConnectorSynchroIncremental Connector="AzureAD" DisplayName_L1="AzureAD Synchronization (delta)">
+<OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroIncremental>
+
+```
+
+Note that the `Job` value in `OpenIdIdentifier` refers to the `ClientId` [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
+
 
 ### Permissions for the agent
 

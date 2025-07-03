@@ -1,3 +1,9 @@
+---
+title: "Fine-Tune Your Plan and Edit Settings"
+description: "Fine-Tune Your Plan and Edit Settings"
+sidebar_position: 210
+---
+
 # Fine-Tune Your Plan and Edit Settings
 
 At any time, you can review your plan settings and fine-tune Audit Database, notification and data

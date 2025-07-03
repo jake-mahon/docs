@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: Select DLP Criteria"
+description: "DropboxAccess: Select DLP Criteria"
+sidebar_position: 70
+---
+
 # DropboxAccess: Select DLP Criteria
 
 Use the Select DLP criteria for this scan page to configure criteria to use for discovering

@@ -1,3 +1,9 @@
+---
+title: "Search Parameters"
+description: "Search Parameters"
+sidebar_position: 20
+---
+
 # Search Parameters
 
 Send the search parameters in the POST request body to narrow down the search results returned by
@@ -25,8 +31,8 @@ Ensure to pass information about transferred data, including `Content-Type:appli
 
 Review the following for additional information:
 
-- [Filters](/docs/auditor/10.7/api/filters.md)
-- [Operators](/docs/auditor/10.7/api/filteroperators.md)
+- [Filters](/docs/auditor/10.7/api/filterreference/filters.md)
+- [Operators](/docs/auditor/10.7/api/filterreference/filteroperators.md)
 
 ## Example
 

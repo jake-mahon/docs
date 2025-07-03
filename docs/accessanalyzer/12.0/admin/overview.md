@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 The Access Analyzer application is the power behind the solutions. It has the automation,

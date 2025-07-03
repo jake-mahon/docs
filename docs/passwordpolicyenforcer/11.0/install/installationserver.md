@@ -10,7 +10,7 @@ Enforcer on these servers is only necessary if you are using the following featu
 - [Rules](/docs/passwordpolicyenforcer/11.0/administration/rules.md)
 - [Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
-- [](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/web/web_overview.md)[Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/web/web_overview.md)
+- [Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/web/web_overview.md)
 
 The Server installation package includes multiple features selected during installation:
 

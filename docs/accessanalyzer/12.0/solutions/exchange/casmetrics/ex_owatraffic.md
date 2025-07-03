@@ -1,3 +1,9 @@
+---
+title: "Outlook Web Access > EX_OWATraffic Job"
+description: "Outlook Web Access > EX_OWATraffic Job"
+sidebar_position: 50
+---
+
 # Outlook Web Access > EX_OWATraffic Job
 
 The EX_OWATraffic Job provides visibility into Outlook Web Access Traffic in the organization.

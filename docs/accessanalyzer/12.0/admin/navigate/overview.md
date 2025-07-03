@@ -1,3 +1,9 @@
+---
+title: "Navigating the Console"
+description: "Navigating the Console"
+sidebar_position: 10
+---
+
 # Navigating the Console
 
 There are several options that can be used to navigate the Access Analyzer Console. This section

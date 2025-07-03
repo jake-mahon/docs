@@ -1,0 +1,10 @@
+{
+  "label": "Netwrix Auditor v10.7 Documentation",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

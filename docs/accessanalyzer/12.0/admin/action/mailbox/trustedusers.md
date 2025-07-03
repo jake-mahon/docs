@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Trusted Users"
+description: "Mailbox: Trusted Users"
+sidebar_position: 110
+---
+
 # Mailbox: Trusted Users
 
 Use the Trusted Users page to select delegates to add. Users can be added individually or from a

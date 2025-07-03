@@ -1,3 +1,9 @@
+---
+title: "Notification Analysis Module"
+description: "Notification Analysis Module"
+sidebar_position: 40
+---
+
 # Notification Analysis Module
 
 The Notification Data analysis module provides the ability to send an email or command-line

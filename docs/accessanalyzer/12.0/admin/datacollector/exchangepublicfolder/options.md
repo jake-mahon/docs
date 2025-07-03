@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Options"
+description: "ExchangePublicFolder: Options"
+sidebar_position: 40
+---
+
 # ExchangePublicFolder: Options
 
 The Options page provides additional configuration options for the query. It is a wizard page for

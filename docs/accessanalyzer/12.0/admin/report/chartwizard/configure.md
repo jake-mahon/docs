@@ -1,3 +1,9 @@
+---
+title: "Configure"
+description: "Configure"
+sidebar_position: 30
+---
+
 # Configure
 
 The Configure page of the Chart Configuration wizard allows you to configure the chart as required.

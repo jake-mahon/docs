@@ -1,3 +1,9 @@
+---
+title: "TextSearch: Summary"
+description: "TextSearch: Summary"
+sidebar_position: 50
+---
+
 # TextSearch: Summary
 
 The Summary page displays a summary of the configured query.

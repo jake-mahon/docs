@@ -1,3 +1,9 @@
+---
+title: "FS_SmallestResources Job"
+description: "FS_SmallestResources Job"
+sidebar_position: 30
+---
+
 # FS_SmallestResources Job
 
 The FS_SmallestResources job is designed to report on the smallest resources from targeted file

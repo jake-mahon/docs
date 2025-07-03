@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateAuthorityRights Job"
+description: "AD_CertificateAuthorityRights Job"
+sidebar_position: 10
+---
+
 # AD_CertificateAuthorityRights Job
 
 The AD_CertificateAuthorityRights job provides details on certificate enrollment permissions,

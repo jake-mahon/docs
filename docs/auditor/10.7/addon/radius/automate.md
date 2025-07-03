@@ -1,3 +1,9 @@
+---
+title: "Automate Add-On Execution"
+description: "Automate Add-On Execution"
+sidebar_position: 40
+---
+
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

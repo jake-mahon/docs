@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 10
+---
+
 # Permissions Report
 
 The Permissions report at the Team Member, Resource, and Subfolder level shows the permissions for

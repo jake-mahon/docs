@@ -1,3 +1,9 @@
+---
+title: "Target Domains"
+description: "Target Domains"
+sidebar_position: 40
+---
+
 # Target Domains
 
 Target domains include the Active Directory domains that can be added through the

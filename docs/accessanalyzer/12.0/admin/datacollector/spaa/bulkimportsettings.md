@@ -1,3 +1,9 @@
+---
+title: "SPAA: Bulk Import Settings"
+description: "SPAA: Bulk Import Settings"
+sidebar_position: 80
+---
+
 # SPAA: Bulk Import Settings
 
 The Bulk Import Settings page is where the bulk import process settings are configured. It is a

@@ -1,3 +1,9 @@
+---
+title: "Network Tab"
+description: "Network Tab"
+sidebar_position: 130
+---
+
 # Network Tab
 
 Use the Network Tab to specify the network interface that NAS devices or API Server users use to

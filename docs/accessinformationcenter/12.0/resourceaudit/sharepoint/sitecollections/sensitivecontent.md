@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 50
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the site collection, site, list, library, and folder levels provides

@@ -1,3 +1,9 @@
+---
+title: "File System Action: Rollback"
+description: "File System Action: Rollback"
+sidebar_position: 80
+---
+
 # File System Action: Rollback
 
 Use the Rollback page to apply rollback support to the action. This option provides the ability to

@@ -1,3 +1,9 @@
+---
+title: "ADActivity: SAM Connection"
+description: "ADActivity: SAM Connection"
+sidebar_position: 30
+---
+
 # ADActivity: SAM Connection
 
 The SAM connection page is where the port number is configured to send Active Directory data from

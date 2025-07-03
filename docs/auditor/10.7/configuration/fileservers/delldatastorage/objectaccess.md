@@ -1,3 +1,9 @@
+---
+title: "Configure Audit Object Access Policy"
+description: "Configure Audit Object Access Policy"
+sidebar_position: 30
+---
+
 # Configure Audit Object Access Policy
 
 Netwrixrecommends you to avoid linking a GPO to the top level of the domain due to the potential

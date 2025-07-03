@@ -1,3 +1,9 @@
+---
+title: "Chart Configuration Wizard"
+description: "Chart Configuration Wizard"
+sidebar_position: 40
+---
+
 # Chart Configuration Wizard
 
 The Chart Configuration wizard allows you to configure the charts that display on reports. The

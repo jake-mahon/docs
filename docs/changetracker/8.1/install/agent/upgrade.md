@@ -1,3 +1,9 @@
+---
+title: "Upgrade from Agent App to Gen 7 Agent"
+description: "Upgrade from Agent App to Gen 7 Agent"
+sidebar_position: 60
+---
+
 # Upgrade from Agent App to Gen 7 Agent
 
 If you are currently using an Agent App (Version 1.0.0.x) and you wish to upgrade to use the Gen 7

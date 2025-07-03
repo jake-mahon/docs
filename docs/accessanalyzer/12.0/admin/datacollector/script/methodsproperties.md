@@ -1,3 +1,9 @@
+---
+title: "Script Methods and Properties"
+description: "Script Methods and Properties"
+sidebar_position: 40
+---
+
 # Script Methods and Properties
 
 The Query and Working Query objects support the following methods and properties.

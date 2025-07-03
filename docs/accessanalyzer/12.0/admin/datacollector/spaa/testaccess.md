@@ -1,3 +1,9 @@
+---
+title: "SPAA: Test Access"
+description: "SPAA: Test Access"
+sidebar_position: 130
+---
+
 # SPAA: Test Access
 
 Use the Test Access page to check access to SharePoint On-Premises environments. The Test Access

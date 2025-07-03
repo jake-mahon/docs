@@ -1,3 +1,9 @@
+---
+title: "File System Action: Operation"
+description: "File System Action: Operation"
+sidebar_position: 20
+---
+
 # File System Action: Operation
 
 The Operation page is available when **Define a new action** is selected on the Action page. On the

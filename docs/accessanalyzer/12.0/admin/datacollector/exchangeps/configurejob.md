@@ -1,3 +1,9 @@
+---
+title: "Exchange Custom Connection Profile & Host List"
+description: "Exchange Custom Connection Profile & Host List"
+sidebar_position: 10
+---
+
 # Exchange Custom Connection Profile & Host List
 
 The ExchangePS Data Collector requires a custom Connection Profile and host list to be created and
@@ -53,17 +59,17 @@ Create a Connection Profile and set the following information on the User Creden
   topic for additional information.)
 - Organization – The primary domain name of the Microsoft Entra tenant being leveraged to make the
   connection. See the
-  [Identify the Tenant's Name](/docs/accessanalyzer/12.0/config/exchangeonline/access.md#identify-the-tenants-name)
+  [Identify the Tenant's Name](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/access.md#identify-the-tenants-name)
   topic for additional information.
 - Email Address – The email address for the mailbox to be leveraged in Exchange Online environment
   scans. The mailbox must belong to the primary domain used in the Organization field.
 - AppID – Application (client) ID of the Access Analyzer application registered with Microsoft Entra
   ID. See the
-  [Identify the Client ID](/docs/accessanalyzer/12.0/config/exchangeonline/access.md#identify-the-client-id)
+  [Identify the Client ID](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/access.md#identify-the-client-id)
   topic for additional information.
 - Certificate Thumbprint – The thumbprint value of the certificate uploaded to the Microsoft Entra
   ID application. See the
-  [Upload Self-Signed Certificate](/docs/accessanalyzer/12.0/config/exchangeonline/access.md#upload-self-signed-certificate)
+  [Upload Self-Signed Certificate](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/access.md#upload-self-signed-certificate)
   topic for additional information.
 
 ### Exchange Online Host List
@@ -73,7 +79,7 @@ Microsoft Entra tenant used to connect to Exchange Online.
 
 - The host name must be the domain name of the tenant, for example `company.onmicrosoft.com`. See
   the
-  [Identify the Tenant's Name](/docs/accessanalyzer/12.0/config/exchangeonline/access.md#identify-the-tenants-name)
+  [Identify the Tenant's Name](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/access.md#identify-the-tenants-name)
   topic for additional information.
 
 See the [Add Hosts](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom

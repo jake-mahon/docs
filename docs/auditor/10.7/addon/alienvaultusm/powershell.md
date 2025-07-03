@@ -1,3 +1,9 @@
+---
+title: "Run the Add-On with PowerShell"
+description: "Run the Add-On with PowerShell"
+sidebar_position: 40
+---
+
 # Run the Add-On with PowerShell
 
 First, provide a path to your add-on followed by script parameters with their values. Each parameter

@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for AD Permissions Analyzer Solution"
+description: "Recommended Configurations for AD Permissions Analyzer Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for AD Permissions Analyzer Solution
 
 Dependencies

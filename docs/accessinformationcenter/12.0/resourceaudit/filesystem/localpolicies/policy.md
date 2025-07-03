@@ -1,3 +1,9 @@
+---
+title: "Policy Report"
+description: "Policy Report"
+sidebar_position: 20
+---
+
 # Policy Report
 
 The Policy report at the local policy level provides a list of policies assigned for the selected

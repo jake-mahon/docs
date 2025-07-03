@@ -1,3 +1,9 @@
+---
+title: "MySQL_SensitiveData Job"
+description: "MySQL_SensitiveData Job"
+sidebar_position: 10
+---
+
 # MySQL_SensitiveData Job
 
 The MySQL_SensitiveData Job is designed to provide information on all the sensitive data that was

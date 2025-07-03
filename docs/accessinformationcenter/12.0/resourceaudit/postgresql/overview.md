@@ -1,3 +1,9 @@
+---
+title: "PostgreSQL Reports"
+description: "PostgreSQL Reports"
+sidebar_position: 110
+---
+
 # PostgreSQL Reports
 
 PostgreSQL reports are accessed through the Resource Audit interface. Explore the PostgreSQL

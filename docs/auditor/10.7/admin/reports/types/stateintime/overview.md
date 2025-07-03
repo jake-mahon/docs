@@ -1,3 +1,9 @@
+---
+title: "State–In–Time Reports"
+description: "State–In–Time Reports"
+sidebar_position: 60
+---
+
 # State–In–Time Reports
 
 The state-in-time reports functionality allows generating reports on the system's state at a

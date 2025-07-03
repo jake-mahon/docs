@@ -1,3 +1,9 @@
+---
+title: "PowerShell Action Module"
+description: "PowerShell Action Module"
+sidebar_position: 50
+---
+
 # PowerShell Action Module
 
 The PowerShell action module provides methods of running PowerShell scripts on the local machine or

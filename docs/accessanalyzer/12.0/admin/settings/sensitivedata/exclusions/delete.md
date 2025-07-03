@@ -1,3 +1,9 @@
+---
+title: "Deleting False Positive Exclusion Filters"
+description: "Deleting False Positive Exclusion Filters"
+sidebar_position: 30
+---
+
 # Deleting False Positive Exclusion Filters
 
 Follow the steps to delete a False Positive Exclusion Filter.

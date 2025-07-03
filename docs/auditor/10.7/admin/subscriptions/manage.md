@@ -1,3 +1,9 @@
+---
+title: "Review and Manage Subscriptions"
+description: "Review and Manage Subscriptions"
+sidebar_position: 20
+---
+
 # Review and Manage Subscriptions
 
 On the main Netwrix Auditor page, navigate to Subscriptions to review a list of your subscriptions.

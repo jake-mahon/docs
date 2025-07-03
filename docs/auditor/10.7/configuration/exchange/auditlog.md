@@ -1,3 +1,9 @@
+---
+title: "Exchange Administrator Audit Logging Settings"
+description: "Exchange Administrator Audit Logging Settings"
+sidebar_position: 20
+---
+
 # Exchange Administrator Audit Logging Settings
 
 To be able to audit and report who made changes to the Exchange servers in your on-premises

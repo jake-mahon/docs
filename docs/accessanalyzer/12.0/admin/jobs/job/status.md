@@ -1,3 +1,9 @@
+---
+title: "Status Node"
+description: "Status Node"
+sidebar_position: 10
+---
+
 # Status Node
 
 Once a job has been executed, it always generates the tables providing information on host

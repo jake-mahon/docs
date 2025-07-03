@@ -1,3 +1,9 @@
+---
+title: "GroupPolicy Data Collector"
+description: "GroupPolicy Data Collector"
+sidebar_position: 240
+---
+
 # GroupPolicy Data Collector
 
 The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list in the domain and

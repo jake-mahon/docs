@@ -1,3 +1,9 @@
+---
+title: "EX_Mailbox_SDD Job"
+description: "EX_Mailbox_SDD Job"
+sidebar_position: 10
+---
+
 # EX_Mailbox_SDD Job
 
 The EX_Mailbox_SDD job locates sensitive data found in mailboxes in the Exchange environment.

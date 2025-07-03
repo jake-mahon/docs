@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Scope"
+description: "ExchangePublicFolder: Scope"
+sidebar_position: 20
+---
+
 # ExchangePublicFolder: Scope
 
 The Scope page is used to define which folders will be included will be searched by this query. It

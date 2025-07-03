@@ -36,7 +36,7 @@ applications' entitlements (technical side), and/or managers who know their team
 
 | Input                                                                        | Output                |
 | ---------------------------------------------------------------------------- | --------------------- |
-| [](/docs/identitymanager/6.2/identitymanager/user-guide/administrate/provisioning/index.md)[Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
+| [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
 
 ### Pre-existing assignments vs. non-conforming assignments
 

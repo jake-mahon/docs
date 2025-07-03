@@ -1,3 +1,9 @@
+---
+title: "TextSearch Data Collector"
+description: "TextSearch Data Collector"
+sidebar_position: 380
+---
+
 # TextSearch Data Collector
 
 The TextSearch Data Collector enables searches through text based log files. The TextSearch Data

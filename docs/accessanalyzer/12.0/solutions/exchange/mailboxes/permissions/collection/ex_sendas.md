@@ -1,3 +1,9 @@
+---
+title: "EX_SendAs Job"
+description: "EX_SendAs Job"
+sidebar_position: 40
+---
+
 # EX_SendAs Job
 
 The EX_SendAs job collects data from Active Directory to identify the Active Directory rights
@@ -20,7 +26,7 @@ The following query is included in the EX_SendAs Job:
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
     topic for credential requirements.
 
 ## Analysis Tasks for the EX_SendAs Job

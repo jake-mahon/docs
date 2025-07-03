@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder Data Collector"
+description: "EWSPublicFolder Data Collector"
+sidebar_position: 160
+---
+
 # EWSPublicFolder Data Collector
 
 The EWSPublicFolder Data Collector provides configuration options to extract public folder contents,
@@ -41,6 +47,6 @@ Wizard. The wizard contains the following pages:
 - [EWSPublicFolder: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/sddoptions.md)
 - [EWSPublicFolder: Critieria](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/critieria.md)
 - [EWSPublicFolder: Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filter.md)
-- [EWSPublicFolder: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter.md)
+- [EWSPublicFolder: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/searchfilter.md)
 - [EWSPublicFolder: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/results.md)
 - [EWSPublicFolder: Summary](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/summary.md)

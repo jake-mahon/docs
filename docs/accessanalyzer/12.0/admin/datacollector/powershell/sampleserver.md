@@ -1,3 +1,9 @@
+---
+title: "PowerShell: Sample Server"
+description: "PowerShell: Sample Server"
+sidebar_position: 30
+---
+
 # PowerShell: Sample Server
 
 The Sample Server page provides a box to select a server to generate the result columns.

@@ -1,3 +1,9 @@
+---
+title: "VMware State-In-Time Reports"
+description: "VMware State-In-Time Reports"
+sidebar_position: 50
+---
+
 # VMware State-In-Time Reports
 
 These are reports on the VMware vCenter state-in-time data, including account permissions and object

@@ -1,3 +1,9 @@
+---
+title: "Host Discovery Node"
+description: "Host Discovery Node"
+sidebar_position: 40
+---
+
 # Host Discovery Node
 
 Use the **Host Discovery** node to discover hosts to audit. Host Discovery queries are created in

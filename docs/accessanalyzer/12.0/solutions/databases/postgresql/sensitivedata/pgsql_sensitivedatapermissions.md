@@ -1,3 +1,9 @@
+---
+title: "PgSQL_SensitiveDataPermissions Job"
+description: "PgSQL_SensitiveDataPermissions Job"
+sidebar_position: 20
+---
+
 # PgSQL_SensitiveDataPermissions Job
 
 The PgSQL_SensitiveDataPermissions Job is designed to provide information on all types of

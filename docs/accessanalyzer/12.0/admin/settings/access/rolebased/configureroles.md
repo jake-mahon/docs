@@ -1,3 +1,9 @@
+---
+title: "Configuring Roles"
+description: "Configuring Roles"
+sidebar_position: 40
+---
+
 # Configuring Roles
 
 To ensure a least privilege access model, roles need to be configured within both the Access

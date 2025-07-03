@@ -1,3 +1,9 @@
+---
+title: "EX_DeliveryTimes Job"
+description: "EX_DeliveryTimes Job"
+sidebar_position: 30
+---
+
 # EX_DeliveryTimes Job
 
 The EX_DeliveryTimes Job provides information around organizational and server-level delivery times.

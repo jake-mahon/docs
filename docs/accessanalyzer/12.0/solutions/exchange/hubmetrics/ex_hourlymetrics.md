@@ -1,3 +1,9 @@
+---
+title: "EX_HourlyMetrics Job"
+description: "EX_HourlyMetrics Job"
+sidebar_position: 60
+---
+
 # EX_HourlyMetrics Job
 
 The EX_HourlyMetrics Job provides visibility into how much mail-flow the organization sends and

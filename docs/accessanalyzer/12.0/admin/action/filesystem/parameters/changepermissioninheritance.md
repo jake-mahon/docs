@@ -1,3 +1,9 @@
+---
+title: "Change Permission Inheritance"
+description: "Change Permission Inheritance"
+sidebar_position: 30
+---
+
 # Change Permission Inheritance
 
 Use the Change Permission Inheritance Parameters page to specify how to change inherited

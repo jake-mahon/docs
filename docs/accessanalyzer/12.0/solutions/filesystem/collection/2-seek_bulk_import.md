@@ -1,3 +1,9 @@
+---
+title: "2-SEEK Bulk Import Job"
+description: "2-SEEK Bulk Import Job"
+sidebar_position: 90
+---
+
 # 2-SEEK Bulk Import Job
 
 The 2-SEEK Bulk Import job is designed to import collected sensitive data information from the

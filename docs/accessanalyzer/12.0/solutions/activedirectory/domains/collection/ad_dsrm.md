@@ -1,3 +1,9 @@
+---
+title: "AD_DSRM Job"
+description: "AD_DSRM Job"
+sidebar_position: 20
+---
+
 # AD_DSRM Job
 
 The **0.Collection > AD_DSRM** Job collects data related to domain controller registry settings for

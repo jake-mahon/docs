@@ -1,3 +1,9 @@
+---
+title: "Exchange Online Ports"
+description: "Exchange Online Ports"
+sidebar_position: 10
+---
+
 # Exchange Online Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Office 365.

@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: SDD Criteria"
+description: "ExchangeMailbox: SDD Criteria"
+sidebar_position: 40
+---
+
 # ExchangeMailbox: SDD Criteria
 
 The SDD Criteria page is where criteria to be used for discovering sensitive data are configured. It

@@ -1,3 +1,9 @@
+---
+title: "NIS: NIS Query"
+description: "NIS: NIS Query"
+sidebar_position: 60
+---
+
 # NIS: NIS Query
 
 The NIS Query page is where the NIS query regular expressions are configured and tested. It is a

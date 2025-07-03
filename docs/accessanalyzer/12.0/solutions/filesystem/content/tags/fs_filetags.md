@@ -1,3 +1,9 @@
+---
+title: "FS_FileTags Job"
+description: "FS_FileTags Job"
+sidebar_position: 20
+---
+
 # FS_FileTags Job
 
 The FS_FileTags job is designed to report on resources classified with metadata file tags from

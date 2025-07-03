@@ -1,3 +1,9 @@
+---
+title: "AD Security Assessment Job"
+description: "AD Security Assessment Job"
+sidebar_position: 90
+---
+
 # AD Security Assessment Job
 
 The AD_SecurityAssessment Job performs checks against Active Directory security best practices in

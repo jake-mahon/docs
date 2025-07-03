@@ -1,3 +1,9 @@
+---
+title: "Unix: Settings"
+description: "Unix: Settings"
+sidebar_position: 10
+---
+
 # Unix: Settings
 
 The Settings page configures the Unix Data Collector settings.

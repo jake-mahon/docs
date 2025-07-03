@@ -1,3 +1,9 @@
+---
+title: "1-Dropbox_SDD Scan Job"
+description: "1-Dropbox_SDD Scan Job"
+sidebar_position: 20
+---
+
 # 1-Dropbox_SDD Scan Job
 
 The 1-Dropbox_SDD Scan job collects data from the Dropbox environment on access rights, sharing
