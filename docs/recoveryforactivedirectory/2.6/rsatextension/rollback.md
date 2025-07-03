@@ -1,3 +1,9 @@
+---
+title: "Object Rollback"
+description: "Object Rollback"
+sidebar_position: 10
+---
+
 # Object Rollback
 
 The Rollback feature in the Active Directory Users and Computers (ADUC) console allows you to revert

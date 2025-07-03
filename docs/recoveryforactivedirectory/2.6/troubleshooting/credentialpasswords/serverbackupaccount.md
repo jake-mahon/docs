@@ -1,3 +1,9 @@
+---
+title: "Update Domain Controller Backup Account Password"
+description: "Update Domain Controller Backup Account Password"
+sidebar_position: 10
+---
+
 # Update Domain Controller Backup Account Password
 
 While adding backup configurations for a domain controller on the Forest page, an account is

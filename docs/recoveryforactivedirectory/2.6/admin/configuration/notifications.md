@@ -1,3 +1,9 @@
+---
+title: "Notifications Page"
+description: "Notifications Page"
+sidebar_position: 30
+---
+
 # Notifications Page
 
 The Notifications page allows the configuration of notifications, which is required for sending an

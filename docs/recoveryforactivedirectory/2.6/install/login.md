@@ -1,3 +1,9 @@
+---
+title: "Log into the Recovery Console"
+description: "Log into the Recovery Console"
+sidebar_position: 40
+---
+
 # Log into the Recovery Console
 
 When Recovery for Active Directory is installed, the following icon is displayed on the desktop.

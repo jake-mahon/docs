@@ -1,3 +1,9 @@
+---
+title: "Netwrix Integrations Page"
+description: "Netwrix Integrations Page"
+sidebar_position: 40
+---
+
 # Netwrix Integrations Page
 
 The Netwrix Integrations page provides the ability to configure access to the data in other Netwrix

@@ -1,3 +1,9 @@
+---
+title: "Domain Backup Configuration Page"
+description: "Domain Backup Configuration Page"
+sidebar_position: 30
+---
+
 # Domain Backup Configuration Page
 
 When you sign into the Recovery Console for the first time, the Domain Backup Configuration

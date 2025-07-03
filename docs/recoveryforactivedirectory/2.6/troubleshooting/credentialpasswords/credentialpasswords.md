@@ -1,3 +1,9 @@
+---
+title: "Update Account Passwords"
+description: "Update Account Passwords"
+sidebar_position: 10
+---
+
 # Update Account Passwords
 
 Account passwords occasionally need to be updated due to various reasons, such as security policies
@@ -12,7 +18,7 @@ impacted by password changes or security policies:
 
 The SQL Server service account grants access to the SQL Server database. It can be updated through
 the Recovery for Active Directory Configuration Utility. See the
-[Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/updatepassword/sqlserverserviceaccount.md) topic for additional
+[Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/credentialpasswords/sqlserverserviceaccount.md) topic for additional
 information.
 
 ## Recovry Service Account
@@ -26,5 +32,5 @@ additional information.
 
 The backup service account for a domain controller is used to write the backup file of the domain
 controller to a network share of the destination server. It can be updated on the Forest page in the
-Recovery Console. See the [Update Domain Controller Backup Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/updatepassword/serverbackupaccount.md)
+Recovery Console. See the [Update Domain Controller Backup Account Password](/docs/recoveryforactivedirectory/2.6/troubleshooting/credentialpasswords/serverbackupaccount.md)
 topic for additional information.

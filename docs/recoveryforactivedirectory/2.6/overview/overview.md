@@ -1,3 +1,9 @@
+---
+title: "Netwrix Recovery for Active Directory v2.6"
+description: "Netwrix Recovery for Active Directory v2.6"
+sidebar_position: 10
+---
+
 # Netwrix Recovery for Active Directory v2.6
 
 A single improper change to Microsoft Active Directory, whether accidental or deliberate, can lead

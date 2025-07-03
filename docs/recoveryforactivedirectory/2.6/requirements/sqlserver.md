@@ -1,3 +1,9 @@
+---
+title: "SQL Server Requirements"
+description: "SQL Server Requirements"
+sidebar_position: 20
+---
+
 # SQL Server Requirements
 
 The Windows server can be physical or virtual. The following Windows server operating systems are

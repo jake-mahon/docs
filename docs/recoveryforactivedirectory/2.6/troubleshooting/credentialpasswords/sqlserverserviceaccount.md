@@ -1,3 +1,9 @@
+---
+title: "Update SQL Server Service Account Password"
+description: "Update SQL Server Service Account Password"
+sidebar_position: 20
+---
+
 # Update SQL Server Service Account Password
 
 Follow the steps to update the password for the SQL Server service account.

@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 60
+---
+
 # Troubleshooting
 
 This topic provides steps for troubleshooting common issues for the following Recovery for Active

@@ -1,0 +1,10 @@
+{
+  "label": "Netwrix Recovery for Active Directory v2.6",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

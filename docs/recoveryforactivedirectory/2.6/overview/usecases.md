@@ -1,3 +1,9 @@
+---
+title: "Use Cases"
+description: "Use Cases"
+sidebar_position: 30
+---
+
 # Use Cases
 
 Recovery for Active Directory enables you to rollback and recover both accidental and malicious

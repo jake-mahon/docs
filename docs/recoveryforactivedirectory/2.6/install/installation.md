@@ -1,3 +1,9 @@
+---
+title: "Install the RSAT Extension"
+description: "Install the RSAT Extension"
+sidebar_position: 50
+---
+
 # Install the RSAT Extension
 
 The RSAT Extension is installed automatically on the machine where the Recovery Application Server

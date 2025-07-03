@@ -1,3 +1,9 @@
+---
+title: "First Launch"
+description: "First Launch"
+sidebar_position: 30
+---
+
 # First Launch
 
 To launch the Recovery Console, either:
@@ -27,7 +33,7 @@ following format:
 **Step 3 –** Click **Log in**.
 
 Once logged in, the first step is to configure a domain. See the
-[Domain Backup Configuration Page](/docs/recoveryforactivedirectory/2.6/admin/activedirectory/domainbackupconfig.md) topic for
+[Domain Backup Configuration Page](/docs/recoveryforactivedirectory/2.6/admin/domainbackupconfig.md) topic for
 additional information.
 
 The administrator must also add users who can access the application. Once these users have access,

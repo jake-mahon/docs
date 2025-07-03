@@ -1,3 +1,9 @@
+---
+title: "Restore an Object"
+description: "Restore an Object"
+sidebar_position: 20
+---
+
 # Restore an Object
 
 The Restore feature recovers deleted objects (users, computers, groups, OUs, etc.) from the Recycle

@@ -1,3 +1,9 @@
+---
+title: "Getting Started"
+description: "Getting Started"
+sidebar_position: 10
+---
+
 # Getting Started
 
 This topic provides information on installing and configuring Netwrix Recovery for Active Directory,
@@ -29,7 +35,7 @@ Several Recovery for Active Directory components require configuration after the
 product.
 
 - Configure Domain Backup – On logging into the Recovery Console, you land on the
-  [Domain Backup Configuration Page](/docs/recoveryforactivedirectory/2.6/admin/activedirectory/domainbackupconfig.md), that directs you
+  [Domain Backup Configuration Page](/docs/recoveryforactivedirectory/2.6/admin/domainbackupconfig.md), that directs you
   to configure a domain to be backed up. It is recommended a start a backup of the domain after
   configuring it. See the [Domains Page](/docs/recoveryforactivedirectory/2.6/admin/configuration/domain.md) topic for additional
   information on configuring a domain to backup.
@@ -40,7 +46,7 @@ product.
 - _(Optional)_ Install RSAT Extension on Additional Servers – The `RSAT Extension.msi` is
   automatically installed with the Recovery for Active Directory application on the application
   server. The extension can also be installed on other servers where ADUC is installed. See the
-  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/rsatextension/installation.md) topic for additional information.
+  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/install/installation.md) topic for additional information.
 - Configure Additional Users – The user or group configured during installation of the product has
   administrator access to the Recovery Console. Additional users and groups can be added and
   assigned roles. See the [Users and Roles Page](/docs/recoveryforactivedirectory/2.6/admin/configuration/roles.md) topic for additional
