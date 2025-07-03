@@ -5,7 +5,7 @@ check out the Mixed Rule. The **Mixed Rule** wizard presents a combination of al
 **Install Rule** and **Uninstall Rule** along with all the screens for features and optional
 features.
 
-![advanced_manipulations_of_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/feature/advanced/advanced_manipulations_of_5.webp)
+![advanced_manipulations_of_5](/img/product_docs/endpointpolicymanager/feature/advanced/advanced_manipulations_of_5.webp)
 
 We recommend first getting the hang of **Install Rule** and **Uninstall Rule**. Once you get a
 better understand of the UI, you can start using the **Mixed Rule**.

@@ -7,7 +7,7 @@ Prerequisites:
 - User needs to have logged in completely at least once to MS Teams, (the status icon will be
   visible).
 
-  ![364_1_image-20210414013029-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/364_1_image-20210414013029-6.webp)
+  ![364_1_image-20210414013029-6](/img/product_docs/endpointpolicymanager/scriptstriggers/364_1_image-20210414013029-6.webp)
 
 **Step 1 –** Create a new Application Settings Manager policy for MS Teams on either the Computer or
 User side, depending on whether the GPO applies to computer or user objects. If the GPO applies to
@@ -20,7 +20,7 @@ Ok to save the settings.
 **NOTE:** Only the underlined settings are being reapplied when the policy processes, the other
 options are not being changed.
 
-![364_2_image-20210414013029-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/364_2_image-20210414013029-7.webp)
+![364_2_image-20210414013029-7](/img/product_docs/endpointpolicymanager/scriptstriggers/364_2_image-20210414013029-7.webp)
 
 **Step 3 –** Next, create a new Scripts & Triggers policy within the same GPO, under the same
 configuration side, user or computer that you used in Step 1.
@@ -28,7 +28,7 @@ configuration side, user or computer that you used in Step 1.
 **NOTE:** If applying the policy on the computer side choose switched mode like in the screenshot
 below.
 
-![364_3_image-20210414013029-8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/579_1_image-20190918135807-1.webp)
+![364_3_image-20210414013029-8](/img/product_docs/endpointpolicymanager/scriptstriggers/579_1_image-20190918135807-1.webp)
 
 **Step 4 –** At the "On apply action" screen select "PowerShell script" from the dropdown, then in
 the main text window, paste in the script below, check the two options "Run script as user" and "Run
@@ -76,13 +76,13 @@ Elseif (Test-Path -Path $machineTeamsX64)
 
 ```
 
-![364_4_image-20210414013029-9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/364_4_image-20210414013029-9.webp)
+![364_4_image-20210414013029-9](/img/product_docs/endpointpolicymanager/scriptstriggers/364_4_image-20210414013029-9.webp)
 
 **Step 5 –** Click "Next" at the "On revert action" screen to skip that screen, then at the "specify
 process mode" screen choose the "On trigger" option, then choose "Logon" from the drop down before
 clicking "Next" to continue.
 
-![364_5_image-20210414013029-10_724x538](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/364_5_image-20210414013029-10_724x538.webp)
+![364_5_image-20210414013029-10_724x538](/img/product_docs/endpointpolicymanager/scriptstriggers/364_5_image-20210414013029-10_724x538.webp)
 
 **Step 6 –** At the "Policy settings" screen give the policy a descriptive name then click "Finish."
 

@@ -20,7 +20,7 @@ machine or a domain account that can be verified on this machine should work.
 
 Example
 
-![GET api/account/users](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+![GET api/account/users](/img/product_docs/threatprevention/7.4/eperestsite/users.webp)
 
 ## POST api/account/create
 
@@ -44,7 +44,7 @@ Required Input Parameters
 
 Example
 
-![POST api/account/create](/img/product_docs/accessanalyzer/11.6/admin/report/create.webp)
+![POST api/account/create](/img/product_docs/threatprevention/7.4/eperestsite/create.webp)
 
 ## GET api/account/user/`<userId>`
 
@@ -57,7 +57,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/`<userId>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/userid.webp)
+![GET api/account/user/`<userId>`](/img/product_docs/threatprevention/7.4/eperestsite/userid.webp)
 
 ## GET api/account/user/`<userName>`
 
@@ -70,7 +70,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![GET api/account/user/`<userName>`](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/username.webp)
+![GET api/account/user/`<userName>`](/img/product_docs/threatprevention/7.4/eperestsite/username.webp)
 
 ## DELETE api/account/delete?userName=`<username>`
 
@@ -83,7 +83,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![DELETE api/account/delete?userName=`<username>`](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/delete.webp)
+![DELETE api/account/delete?userName=`<username>`](/img/product_docs/threatprevention/7.4/eperestsite/delete.webp)
 
 To verify the result of this operation, you can use “GET api/account/users” or check the contents of
 the [EpeUsers].[dbo].[AspNetUsers] database table.

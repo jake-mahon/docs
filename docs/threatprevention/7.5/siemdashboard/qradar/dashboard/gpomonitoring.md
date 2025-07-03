@@ -2,7 +2,7 @@
 
 The GPO Monitoring dashboard contains the following cards:
 
-![GPO Monitoring Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.webp)
+![GPO Monitoring Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/gpomonitoring.webp)
 
 - Top GPOs – Displays up to the top five (5) Group Policy Objects related to events that have been
   recorded in the specified timeframe. See the

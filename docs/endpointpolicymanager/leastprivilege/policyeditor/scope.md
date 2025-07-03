@@ -4,11 +4,11 @@ The Scope filter section can be found in various rule types in Netwrix Endpoint 
 (formerly PolicyPak) Least Privilege Manager. For instance, it exists in every explicit rule, like
 this:
 
-![319_1_faq-img-01_950x578](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_1_faq-img-01_950x578.webp)
+![319_1_faq-img-01_950x578](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_1_faq-img-01_950x578.webp)
 
 And also in SecureRun™ rules like this:
 
-![319_2_faq-img-02_950x537](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_2_faq-img-02_950x537.webp)
+![319_2_faq-img-02_950x537](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_2_faq-img-02_950x537.webp)
 
 **NOTE:** At this time, Policy Scope rules are not yet available for:
 
@@ -22,7 +22,7 @@ it is greyed out because this setting is only meant to express to the COMPUTER (
 with User, and User and System Processes. On the User side, the processes are always in the context
 of the User.
 
-![319_3_faq-img-03_950x571](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_3_faq-img-03_950x571.webp)
+![319_3_faq-img-03_950x571](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_3_faq-img-03_950x571.webp)
 
 In this topic, we are going over various use cases when you might use the Policy Scope option (which
 again, will only be un-gray / valid on the Computer side.)
@@ -34,13 +34,13 @@ executables started by users." But this does not, by default, block the attack v
 performing the attack. You can see the example below where the Standard User is blocked from an
 executable attempt, but System is still allowed.
 
-![319_4_faq-img-04_950x647](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_4_faq-img-04_950x647.webp)
+![319_4_faq-img-04_950x647](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_4_faq-img-04_950x647.webp)
 
 However, you can switch SecureRun on the computer side to now say "Block all untrusted executables
 started by users or LOCAL SYSTEM." You would do this on the Computer side, and specify User and
 System Processes, as shown below.
 
-![319_5_faq-img-05_950x547](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_5_faq-img-05_950x547.webp)
+![319_5_faq-img-05_950x547](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_5_faq-img-05_950x547.webp)
 
 The result is that both User and System attempts to run un-trusted executables will be prevented.
 
@@ -69,15 +69,15 @@ You might want to explicitly block attack vectors such as PSEXEC (which was used
 entirely block PowerShell.  If you specify to do this only on the User side (or set Computer side
 scope to User processed only), then only user processes will be affected:
 
-![319_6_faq-img-06_950x195](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_6_faq-img-06_950x195.webp)
+![319_6_faq-img-06_950x195](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_6_faq-img-06_950x195.webp)
 
 You can shore up this attack vector by making the explicit deny rule on the Computer side:
 
-![319_7_faq-img-07_950x381](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_7_faq-img-07_950x381.webp)
+![319_7_faq-img-07_950x381](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_7_faq-img-07_950x381.webp)
 
 When you do,  this happens:
 
-![319_8_faq-img-08_950x183](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_8_faq-img-08_950x183.webp)
+![319_8_faq-img-08_950x183](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_8_faq-img-08_950x183.webp)
 
 ### Scenario 2B: Block Powershell.exe completely, but allow Local System to run a specific .PS1 script
 
@@ -87,16 +87,16 @@ However, you might need to run some Powershell scripts as SYSTEM to perform some
 Since PowerShell is now being blocked for all Computer side processes, you cannot run a specific
 script with PowerShel:
 
-![319_9_faq-img-09_950x271](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_9_faq-img-09_950x271.webp)
+![319_9_faq-img-09_950x271](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_9_faq-img-09_950x271.webp)
 
 To enable this, simply add another rule to ALLOW AND LOG, for example, `C:\SCRIPTS\ITSCRIPT1.ps1`,
 and set the scope to User and System processes, but use the scope Filter to SYSTEM.
 
-![319_10_faq-img-10_950x453](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_10_faq-img-10_950x453.webp)
+![319_10_faq-img-10_950x453](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_10_faq-img-10_950x453.webp)
 
 Result:
 
-![319_11_faq-img-11_950x375](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_11_faq-img-11_950x375.webp)
+![319_11_faq-img-11_950x375](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_11_faq-img-11_950x375.webp)
 
 For more information on this issue, see
  [Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/powershellblock.md)
@@ -118,17 +118,17 @@ If you want toblock only LOCAL admins (but not domain admins) then Rule #1 needs
 (Note that this group is not available when editing a GPO from a DC, and only available when
 creating the GPO from a Windows 10 computer):
 
-![319_12_faq-img-12_950x482](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_12_faq-img-12_950x482.webp)
+![319_12_faq-img-12_950x482](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_12_faq-img-12_950x482.webp)
 
 If you want toblock both local admins and domain administrators, then Rule #1 needs to look like
 this.
 
-![319_13_faq-img-13_950x534](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_13_faq-img-13_950x534.webp)
+![319_13_faq-img-13_950x534](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_13_faq-img-13_950x534.webp)
 
 _Remember,_ rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be
 done on the user or computer side, like this:
 
-![319_14_faq-img-14_950x458](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_14_faq-img-14_950x458.webp)
+![319_14_faq-img-14_950x458](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_14_faq-img-14_950x458.webp)
 
 video
 3: [Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/appblock.md)
@@ -163,7 +163,7 @@ Scope Filter should be trimmed to the specific account you specified to run the 
 **NOTE:** It's also possible to use Scope Filter = SERVICES to make the rule apply to all services
 that run from the specified `.exe `regardless of the user.
 
-![319_15_faq-img-15_950x467](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_15_faq-img-15_950x467.webp)
+![319_15_faq-img-15_950x467](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/319_15_faq-img-15_950x467.webp)
 
 video:
 [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/serviceaccountrights.md)

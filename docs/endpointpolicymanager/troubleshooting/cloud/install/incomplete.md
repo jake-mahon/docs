@@ -15,7 +15,7 @@ As the PPC Client is already downloaded, it's the CSE that would be the issue he
 indication something is wrong when the Installation complete. You may end up with a message
 something like this:
 
-![968_1_image-20230925200947-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/install/968_1_image-20230925200947-1.webp)
+![968_1_image-20230925200947-1](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/install/968_1_image-20230925200947-1.webp)
 
 Note missing group membership.
 

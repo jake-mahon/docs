@@ -8,14 +8,14 @@ SbPAM policy.
 “There was an error while signing in. The underlying connection was closed: Could not establish
 trust relationship for the SSL/TLS Secure Channel.”
 
-![898_1_image-20230706164728-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/898_1_image-20230706164728-1.webp)
+![898_1_image-20230706164728-1](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/898_1_image-20230706164728-1.webp)
 
 OR
 
 “The communication with the NPS server requires trusted communication. Enable certificate bypass in
 NPS Global Settings to override.”
 
-![898_2_image-20230706164728-2_950x461](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/898_2_image-20230706164728-2_950x461.webp)
+![898_2_image-20230706164728-2_950x461](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/898_2_image-20230706164728-2_950x461.webp)
 
 CAUSE:
 
@@ -32,7 +32,7 @@ verification on the endpoints.
 Admin Templates > PolicyPak ADMX Settings > Client-Side Extensions > Least Privilege Manager >
 Bypass SbPAM server SSL certificate verification: ENABLED
 
-![898_3_image-20230706164728-3_950x560](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/898_3_image-20230706164728-3_950x560.webp)
+![898_3_image-20230706164728-3_950x560](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/898_3_image-20230706164728-3_950x560.webp)
 
 For CSE versions AFTER 23.7.3583
 
@@ -45,14 +45,14 @@ PolicyPak download.
 Then in the Least Privilege Manager node, in the Global Netwrix Privilege Secure Settings, select
 YES to Enable Certificate bypass like what’s seen here.
 
-![898_4_image-20230706164728-4_950x525](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/898_4_image-20230706164728-4_950x525.webp)
+![898_4_image-20230706164728-4_950x525](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/898_4_image-20230706164728-4_950x525.webp)
 
 Endpoint Policy Manager Cloud also has this setting available in the in-cloud editor. You perform
 the same operation using these steps seen here.
 
-![1216_5_47173880d07636048c2dabd919e8b2ce](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/1216_5_47173880d07636048c2dabd919e8b2ce.webp)
+![1216_5_47173880d07636048c2dabd919e8b2ce](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/1216_5_47173880d07636048c2dabd919e8b2ce.webp)
 
 In all cases the endpoint is instructed to Bypass SSL Certification Verification check. You can see
 the results on any particular endpoint like this.
 
-![898_5_image-20231204145244-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/leastprivilege/898_5_image-20231204145244-1.webp)
+![898_5_image-20231204145244-1](/img/product_docs/endpointpolicymanager/troubleshooting/error/leastprivilege/898_5_image-20231204145244-1.webp)

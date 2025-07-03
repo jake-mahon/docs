@@ -20,11 +20,11 @@ Privilege Manager policies so they can act together. For instance, you might cre
 East Sales Users and another for West Sales Users. Then, you can perform Item-Level Targeting on the
 collections you create.
 
-![web_interface_and_controls_23_624x220](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_23_624x220.webp)
+![web_interface_and_controls_23_624x220](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_23_624x220.webp)
 
 Item-Level Targeting can also be performed at the policy level.
 
-![web_interface_and_controls_24_624x264](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_24_624x264.webp)
+![web_interface_and_controls_24_624x264](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_24_624x264.webp)
 
 The **Edit Item Level Targeting** menu item brings up the **Targeting Editor**. You can select any
 combination of characteristics you want to test for. Administrators familiar with Group Policy
@@ -37,7 +37,7 @@ same way parentheses are used in an equation. In this way, you can create a comp
 about where a policy will be applied. Collections may be set to **And**, **Or**, **Is**, or **Is
 Not**.
 
-![web_interface_and_controls_25_624x294](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_25_624x294.webp)
+![web_interface_and_controls_25_624x294](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_25_624x294.webp)
 
 In this example, the Pak would only apply to Windows 10 machines when the machine is portable and
 the user is in the FABRIKAM\Traveling Sales Users group.
@@ -63,7 +63,7 @@ orange, which shows that it now has Item-Level Targeting. In other words, none o
 policy or collection will apply unless the Item-Level Targeting on the policy or collection
 evaluates to **True**.
 
-![web_interface_and_controls_26_624x163](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_26_624x163.webp)
+![web_interface_and_controls_26_624x163](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_26_624x163.webp)
 
 ## Item-Level Targeting with In-Cloud Editors
 
@@ -72,26 +72,26 @@ used with the on-prem editors, we will explain the equivalent usage within in-cl
 XML data files (in-cloud policies) can be joined in a collection, to which you could then apply
 Item-Level Targeting.
 
-![web_interface_and_controls_27_499x288](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_27_499x288.webp)
+![web_interface_and_controls_27_499x288](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_27_499x288.webp)
 
 You can also put Item-Level Targeting on a policy itself. Just click the policy and select **Item
 Level Targeting**.
 
-![web_interface_and_controls_28_624x188](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_28_624x188.webp)
+![web_interface_and_controls_28_624x188](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_28_624x188.webp)
 
 In both cases, the in-cloud Targeting Editor appears.
 
-![web_interface_and_controls_29_624x389](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_29_624x389.webp)
+![web_interface_and_controls_29_624x389](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_29_624x389.webp)
 
 You can use the in-cloud Targeting Editor to specify conditions when the collection or the policy
 will perform.
 
-![web_interface_and_controls_30_624x168](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_30_624x168.webp)
+![web_interface_and_controls_30_624x168](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_30_624x168.webp)
 
 Once Item-Level Targeting is applied to the policy or the collection, you can see the value in the
 ILT column change from **No** to **Yes**.
 
-![web_interface_and_controls_31_623x127](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_31_623x127.webp)
+![web_interface_and_controls_31_623x127](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_31_623x127.webp)
 
 One final note about Item-Level Targeting within the Endpoint Policy Manager in-cloud editor:
 although it appears to be possible to edit Item-Level Targeting in two places, that is really not
@@ -100,4 +100,4 @@ collection or policy. The other relates to the entire entity, and is considered 
 root node Item-Level Targeting must evaluate to "True" first, and only then will items inside the
 root node be evaluated for additional policy and collection Item-Level Targeting.
 
-![web_interface_and_controls_32_624x277](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_32_624x277.webp)
+![web_interface_and_controls_32_624x277](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_32_624x277.webp)

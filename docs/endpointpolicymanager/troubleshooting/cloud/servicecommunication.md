@@ -5,7 +5,7 @@ To test the connection between the client and service, start by entering the
 the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud client cannot communicate with
 Endpoint Policy Manager Cloud Server.
 
-![256_1_pp-faq-000001](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/256_1_pp-faq-000001.webp)
+![256_1_pp-faq-000001](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/256_1_pp-faq-000001.webp)
 
 The main reasons for this connection issue are:
 
@@ -25,14 +25,14 @@ information.
 
 **Step 2 –** At a command prompt, type in the following: `telnet cloud-agent.endpointpolicymanager.com 443`
 
-![Telnet Cloud Agent Script](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/telnetcloudagent.webp)
+![Telnet Cloud Agent Script](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/telnetcloudagent.webp)
 
 - If the command just hangs and takes a long time to complete, then comes back with Connection
   failed, then the communication failed i.
 - If the command clears the screen and the cursor goes to the top, then the communication passes.
   See the image below for example.
 
-![Communication Passes](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/communicationpasses.webp)
+![Communication Passes](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/communicationpasses.webp)
 
 **Step 3 –** You can also try `telnet cloud-agent.endpointpolicymanager.com 80`
 

@@ -51,7 +51,7 @@ following wizard pages:
 - [SMARTLog: Event Log Options](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/eventlogoptions.md)
 - [SMARTLog: Summary](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/summary.md)
 
-![SMART Log DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![SMART Log DC Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/smartlog/welcome.webp)
 
 There are no configurable settings on the Welcome page. Click **Next** to proceed to the Log Type
 page.

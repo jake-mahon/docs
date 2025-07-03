@@ -3,7 +3,7 @@
 Customer-level portal policies are only available for admins with the **Authentication Options
 Admin** role.
 
-![web_interface_and_controls_102_624x172](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_102_624x172.webp)
+![web_interface_and_controls_102_624x172](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_102_624x172.webp)
 
 Someone with this role may set the following values:
 
@@ -15,4 +15,4 @@ Someone with this role may set the following values:
 - Set email-based 2Fa OTP lifetime: If email 2FA is used, the one-time password has a lifetime of 10
   minutes. This can be changed here.
 
-![web_interface_and_controls_103_625x304](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_103_625x304.webp)
+![web_interface_and_controls_103_625x304](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_103_625x304.webp)

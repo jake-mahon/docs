@@ -60,7 +60,7 @@ Click **Configuration > EPE Settings** on the menu to open the EPE Settings wind
 
 **NOTE:** The EPE Settings window is only available to Threat Prevention administrators.
 
-![EPE Settings window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.webp)
+![EPE Settings window](/img/product_docs/threatprevention/7.4/admin/configuration/epesettings.webp)
 
 The window displays current hash database information and has the following configuration settings,
 displayed in sections on the window.
@@ -189,7 +189,7 @@ The User Feedback Module section has the following checkboxes:
   Messages Editor window, where you can customize EPE User Feedback module password rejection
   messages.
 
-![Custom Messages Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/custommessageseditor.webp)
+![Custom Messages Editor window](/img/product_docs/threatprevention/7.4/admin/configuration/custommessageseditor.webp)
 
 By default, messages are available in the English language.
 
@@ -210,7 +210,7 @@ The following windows are global settings for the EPE Password Rules filter with
 window. Whatever is configured in these windows is applied across all EPE Password Rules filter(s)
 in the Administration Console.
 
-![EPE Settings window - Rules area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/rules.webp)
+![EPE Settings window - Rules area](/img/product_docs/threatprevention/7.4/admin/configuration/rules.webp)
 
 You can monitor or block an event with these global settings:
 
@@ -233,7 +233,7 @@ password in the Password Dictionary list.
 Click the **Modify Passwords Dictionary** button in the Rules area on the EPE Settings window. The
 Password Dictionary window is displayed.
 
-![Password Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/passworddictionary.webp)
+![Password Dictionary window](/img/product_docs/threatprevention/7.4/admin/configuration/passworddictionary.webp)
 
 The buttons on the right have the following functions:
 
@@ -260,7 +260,7 @@ password matches a substitution rule, it is blocked.
 Click the **Modify List of Words for Character Substitution** button in the Rules area on the EPE
 Settings window. The Words List Dictionary window is displayed.
 
-![Words List Dictionary window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/wordslistdictionary.webp)
+![Words List Dictionary window](/img/product_docs/threatprevention/7.4/admin/configuration/wordslistdictionary.webp)
 
 You can add, remove, and modify passwords here. The buttons on the right have the following
 functions:
@@ -290,7 +290,7 @@ substitutions editor, then the pending passwords of “Go@l” and “G0al” wi
 Click the Modify Character Substitution Mapping button in the Rules area on the EPE Settings window.
 The Substitution Editor window is displayed.
 
-![Substitution Editor window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/substitutioneditor.webp)
+![Substitution Editor window](/img/product_docs/threatprevention/7.4/admin/configuration/substitutioneditor.webp)
 
 The Substitutions Editor has the following options:
 

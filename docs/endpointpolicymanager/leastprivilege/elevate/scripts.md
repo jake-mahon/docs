@@ -16,7 +16,7 @@ Kick off the process to create a policy for scripts by going to **Add** > **New 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_scripts.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_scripts.webp)
 
 The script types that are supported for elevation and for blocking are:
 

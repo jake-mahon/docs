@@ -3,7 +3,7 @@
 Result data is displayed using data grids on several interfaces in the Administration Console. These
 grids employ features for data sorting, filtering, searching, and more.
 
-![Data Grid Functionality pointers](/img/product_docs/threatprevention/threatprevention/admin/navigation/datagridfunctionality.webp)
+![Data Grid Functionality pointers](/img/product_docs/threatprevention/7.5/admin/navigation/datagridfunctionality.webp)
 
 - The Group by Box [1] ribbon impacts how much data is displayed. See the Sort Data topic for
   additional information.
@@ -23,7 +23,7 @@ grids employ features for data sorting, filtering, searching, and more.
 Right-click on a column header and select **Column Chooser** to open the Customization window, that
 lists the column(s) that were removed from the data grid display.
 
-![Customization Window](/img/product_docs/threatprevention/threatprevention/admin/navigation/customization.webp)
+![Customization Window](/img/product_docs/threatprevention/7.5/admin/navigation/customization.webp)
 
 You can remove a columns from the data grid in any of these ways:
 
@@ -37,7 +37,7 @@ dragging-and-dropping it from this window onto the column header row.
 
 Data can be grouped by columns using the Group by Box ribbon above the data grid.
 
-![Sort Data function in the data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/sortdatafunction.webp)
+![Sort Data function in the data grid](/img/product_docs/threatprevention/7.5/admin/navigation/sortdatafunction.webp)
 
 Drag a column header into the Group by Box area to group data from that perspective. You can group
 by a single header or by tiered headers.
@@ -50,7 +50,7 @@ arrow displays in the right corner of the column header indicating the type of s
 Several methods are available for filtering data in data grids. There can only be one active filter
 per column.
 
-![Filter Data functions in a Data Grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/filterdata.webp)
+![Filter Data functions in a Data Grid](/img/product_docs/threatprevention/7.5/admin/navigation/filterdata.webp)
 
 - Auto Filter Row [A] – Uses the comparison operator to filter the grid against a single attribute
 - Filter Statement Bar [B] – Displays enabled filter statements at the bottom of the display area
@@ -79,7 +79,7 @@ Notice the Edit Filter option on the right side of the filter statement bar. Cli
 Filter Editor window, where you can build complex filter statements. It can employ multiple
 comparison operators and/or multiple column filters.
 
-![Filter Editor](/img/product_docs/threatprevention/threatprevention/admin/navigation/filtereditor.webp)
+![Filter Editor](/img/product_docs/threatprevention/7.5/admin/navigation/filtereditor.webp)
 
 Pin Icon
 
@@ -89,7 +89,7 @@ Auto Filter Row filter is enabled.
 Click the **pin icon** to open additional filtration options in a filter window. The options
 displayed depend on the column it is opened from.
 
-![Window with filtration options](/img/product_docs/threatprevention/threatprevention/admin/navigation/valuesfilter.webp)
+![Window with filtration options](/img/product_docs/threatprevention/7.5/admin/navigation/valuesfilter.webp)
 
 - Values – Displays for every column in the data grid. Multiple values can be selected.
 - Text/Numeric – This is linked to the Auto filter Row filter with the addition of three new
@@ -108,7 +108,7 @@ Find Panel option on the
 
 On clicking the magnifying glass icon, the Find box appears as:
 
-![Search function for data grid](/img/product_docs/threatprevention/threatprevention/admin/navigation/searchfunction.webp)
+![Search function for data grid](/img/product_docs/threatprevention/7.5/admin/navigation/searchfunction.webp)
 
 - Type a search criteria and click **Find**. The data grid filters to events where the search
   criteria is matched, highlighting the match.
@@ -116,7 +116,7 @@ On clicking the magnifying glass icon, the Find box appears as:
 - Click **Clear** to clear both the search criteria and the filtered view.
 - The **X** at the far left of the panel closes the Find Panel.
 
-![Search Results](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/searchresults.webp)
+![Search Results](/img/product_docs/threatprevention/7.5/admin/navigation/searchresults.webp)
 
 ## Export Data
 
@@ -131,7 +131,7 @@ The data grids provide an option to export data.
 
 **NOTE:** Ensure that all desired filters are set on the data grid before export.
 
-![Export window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
+![Export window](/img/product_docs/threatprevention/7.5/admin/navigation/export.webp)
 
 The Export window provides options for what is exported and what action(s) to take.
 

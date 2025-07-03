@@ -54,7 +54,7 @@ specific web applications or site collections. Click **Next**.
 scanned depth to:** is selected with the default set at **2** levels. Customize this setting as
 desired and click **Next**.
 
-![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](/img/product_docs/activitymonitor/8.0/install/agent/windowsagent.webp)
 
 **Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/agentsettings.md) page,
 use the default settings unless an agent scan mode is desired. Click **Next**.

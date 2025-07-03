@@ -2,7 +2,7 @@
 
 The Authentication Attacks dashboard contains the following cards:
 
-![Authentication Attacks Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.webp)
+![Authentication Attacks Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/splunk/activedirectory/dashboard/authenticationattacks.webp)
 
 - Authentication Attacks – Timeline of all authentication attacks that started within the specified
   timeframe

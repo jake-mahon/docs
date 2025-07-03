@@ -7,7 +7,7 @@ Endpoint Policy Manager Cloud. For Endpoint Policy Manager Cloud, you should aut
 license as seen in Figure 50. For Endpoint Policy Manager with an MDM service, the license should
 come in your MSI license bundle.
 
-![collections_policy_settings_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/collections_policy_settings_17.webp)
+![collections_policy_settings_17](/img/product_docs/endpointpolicymanager/startscreentaskbar/collections_policy_settings_17.webp)
 
 Figure 50. Endpoint Policy Manager Cloud customers are licensed for Endpoint Policy Manager Start
 Screen & Taskbar Manager.
@@ -24,11 +24,11 @@ XML," as demonstrated in Figure 51 and Figure 52.
 Endpoint Policy Manager Exporter with an MDM service, watch
 [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md).
 
-![collections_policy_settings_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/collections_policy_settings_18.webp)
+![collections_policy_settings_18](/img/product_docs/endpointpolicymanager/startscreentaskbar/collections_policy_settings_18.webp)
 
 Figure 51. Exporting all collections for later use.
 
-![collections_policy_settings_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/collections_policy_settings_19.webp)
+![collections_policy_settings_19](/img/product_docs/endpointpolicymanager/startscreentaskbar/collections_policy_settings_19.webp)
 
 Figure 52. Exporting the policy for later use.
 

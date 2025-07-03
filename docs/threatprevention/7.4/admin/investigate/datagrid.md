@@ -12,7 +12,7 @@ Follow the steps to view events in the data grid.
 - Use the arrow between the filter categories and the grid view to collapse the entire filter
   category section
 
-![Investigate interface - Data Grid](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/datagrid.webp)
+![Investigate interface - Data Grid](/img/product_docs/threatprevention/7.4/admin/investigate/datagrid.webp)
 
 **Step 3 –** Select the **Production** or **Archive** option button to view events from the
 respective database.
@@ -105,7 +105,7 @@ event:
 Select an event in the data grid to view additional information for it at the bottom of the
 Investigate interface.
 
-![Investigate Interface - Attributes area](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/attributes.webp)
+![Investigate Interface - Attributes area](/img/product_docs/threatprevention/7.4/admin/investigate/attributes.webp)
 
 The following information (as applicable to the event) is displayed:
 

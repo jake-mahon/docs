@@ -10,4 +10,4 @@ applications."
 When this is set, this will stop applications from attempting to apply settings again, which could
 increase compatibility with some antivirus and security software.
 
-![290_1_img-1_950x551](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/290_1_img-1_950x551.webp)
+![290_1_img-1_950x551](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/290_1_img-1_950x551.webp)

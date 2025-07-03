@@ -8,7 +8,7 @@ monitoring, then this dashboard will be blank.
 
 The Administrator Auditing dashboard contains the following cards:
 
-![Administrator Auditing Dashboard](/img/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.webp)
+![Administrator Auditing Dashboard](/img/product_docs/threatprevention/7.4/siemdashboard/qradar/dashboard/administratorauditing.webp)
 
 - Top Clint IPs – Displays up to the top five (5) client IP addresses related to events that have
   been recorded in the specified timeframe

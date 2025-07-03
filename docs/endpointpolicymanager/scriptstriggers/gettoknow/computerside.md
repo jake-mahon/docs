@@ -4,7 +4,7 @@ In the Quickstart example, we delivered scripts to users, but Endpoint Policy Ma
 deliver scripts on the Computer side. There are two options when you create a scripts policy from
 the Computer side, which can be seen in Figure 17.
 
-![getting_to_know_scripts_triggers_13](/img/product_docs/endpointpolicymanager/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_13.webp)
+![getting_to_know_scripts_triggers_13](/img/product_docs/endpointpolicymanager/scriptstriggers/gettoknow/getting_to_know_scripts_triggers_13.webp)
 
 Figure 17. Using Endpoint Policy Manager Scripts & Triggers Manager Wizard on the Computer side.
 

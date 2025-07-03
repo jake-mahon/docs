@@ -23,7 +23,7 @@ install the Endpoint Policy Manager Exporter utility. In order to launch it, loc
 icon in the Start menu within Endpoint Policy Manager Application Settings Manager, as shown in
 Figure 3.
 
-![deploying_policypak_directives_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_2.webp)
+![deploying_policypak_directives_2](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_2.webp)
 
 Figure 3. The Endpoint Policy Manager Exporter utility icon in the Start menu.
 
@@ -56,7 +56,7 @@ Table 1: Example files.
 When Endpoint Policy Manager Exporter is launched, you'll be able to perform the actions shown in
 Figure 4.
 
-![deploying_policypak_directives_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_3.webp)
+![deploying_policypak_directives_3](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_3.webp)
 
 Figure 4. The Endpoint Policy Manager Exporter tool helps the user create XML data files and package
 the files into an MSI installer.
@@ -66,7 +66,7 @@ Endpoint Policy Manager licensing files or open up an existing MSI that you crea
 this tool. For now, select "Create a new MSI installer." Then, you'll see the option, "Add Existing
 Files," as shown in Figure 5.
 
-![deploying_policypak_directives_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_4.webp)
+![deploying_policypak_directives_4](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_4.webp)
 
 Figure 5. The option to add existing files.
 
@@ -85,7 +85,7 @@ The "Add Existing Files" button lets you bring in the following types of files:
 With Endpoint Policy Manager Exporter you can wrap these up into an MSI. In Figure 6, we have added
 a variety of exported XML settings.
 
-![deploying_policypak_directives_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_5.webp)
+![deploying_policypak_directives_5](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_5.webp)
 
 Figure 6. Exported XML settings.
 
@@ -105,7 +105,7 @@ delivered to EastSalesUser1 and EastSalesUser2. Therefore, use the dropdown menu
 For," and change it from "Computer" to "Users & Groups." After you do this, the Target column
 populates with "0 Users," as illustrated in Figure 7.
 
-![deploying_policypak_directives_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_6.webp)
+![deploying_policypak_directives_6](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_6.webp)
 
 Figure 7. Selecting which group will get the XML data files.
 
@@ -113,7 +113,7 @@ Figure 7. Selecting which group will get the XML data files.
 the Select Users or Groups dialog, click "Add Users / Groups," and specify the users (or groups) you
 want this XML data file to apply to (see Figure 8). Then click "OK."
 
-![deploying_policypak_directives_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_7.webp)
+![deploying_policypak_directives_7](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_7.webp)
 
 Figure 8. Selecting the targeted users.
 
@@ -121,7 +121,7 @@ Notice that `theWinZip1.xml` file is now set to be delivered to two users (see F
 also specify Active Directory groups instead of just users. To help specify these types of users,
 the Target column will express how many users and how many groups are being targeted.
 
-![deploying_policypak_directives_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_8.webp)
+![deploying_policypak_directives_8](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_8.webp)
 
 Figure 9. The Target column shows how many users and how many groups are being targeted.
 
@@ -132,7 +132,7 @@ Existing Files" and then specifying which users you want the directives to apply
 done, click "Next" to continue. This will initiate the Installer Properties page where you can name
 the MSI and manufacturer however you wish (as shown in Figure 10).
 
-![deploying_policypak_directives_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_9.webp)
+![deploying_policypak_directives_9](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_9.webp)
 
 Figure 10. Naming the MSI.
 

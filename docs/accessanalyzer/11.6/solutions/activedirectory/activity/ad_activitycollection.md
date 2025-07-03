@@ -4,7 +4,7 @@ The AD_ActivityCollection Job located in the 0.Collection Job Group, imports dat
 Activity Monitor logs into the Enterprise Auditor Database. Retention can be modified in the query
 (120 days default).
 
-![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/jobstree.webp)
+![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/jobstree_1.webp)
 
 There are two ways AD Activity data can be retrieved by Enterprise Auditor:
 
@@ -50,7 +50,7 @@ archive logs for AD Activity.
 **NOTE:** The query can be configured to connect directly to the network share where the archive
 logs are stored or the API Server.
 
-![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/queries.webp)
+![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/11.6/solutions/activedirectory/activity/queries.webp)
 
 The AD_ActivityCollection Job uses the ADActivity Data Collector for the following query:
 
@@ -75,11 +75,11 @@ topic for additional information.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/categoryimportfromnam.webp)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/7.1/config/activedirectory/categoryimportfromnam.webp)
 
 **Step 4 –** On the Category page, choose **Import from SAM** option and click **Next**.
 
-![Active Directory Activity DC wizard SAM connection settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/namconnection.webp)
+![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/7.1/config/activedirectory/namconnection.webp)
 
 **Step 5 –** On the SAM connection page, the **Port** is set to the default 4494. This needs to
 match the port configured for the Activity Monitor API Server agent.
@@ -93,7 +93,7 @@ last step.
 
 **Step 8 –** Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 **Step 9 –** On the Scope page, set the Timespan as desired. There are two options:
 
@@ -143,17 +143,17 @@ topic for additional information.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/categoryimportfromshare.webp)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/7.1/config/activedirectory/categoryimportfromshare.webp)
 
 **Step 4 –** On the Category page, choose **Import from Share** option and click **Next**.
 
-![Active Directory Activity DC wizard Share settings page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/share.webp)
+![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/7.1/config/activedirectory/share.webp)
 
 **Step 5 –** On the Share page, provide the UNC path to the AD Activity share archive location. If
 there are multiple archives in the same network share, check the **Include Sub-Directories** box.
 Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](/img/versioned_docs/activitymonitor_7.1/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
 
 **Step 6 –** On the Scope page, set the Timespan as desired. There are two options:
 

@@ -2,7 +2,7 @@
 
 After **Selecting Credential Based Policy**, fill in **Domain** and **User Name**.
 
-![setting_up_the_policypak_policy](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy.webp)
+![setting_up_the_policypak_policy](/img/product_docs/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy.webp)
 
 - Domain – Enter the name of the domain of the Netwrix Privilege Secure managed user to perform the
   activity.
@@ -12,7 +12,7 @@ After **Selecting Credential Based Policy**, fill in **Domain** and **User Name*
 
 At the end of the policy you have some settings for **Action** and **Options**.
 
-![setting_up_the_policypak_policy_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy_1.webp)
+![setting_up_the_policypak_policy_1](/img/product_docs/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy_1.webp)
 
 In **Action**, you can select **Run with elevated privileges** or simply Allow and log if you just
 want it brokered.
@@ -25,4 +25,4 @@ issued via **Enable video recording (Netwrix Privilege Secure)**.
 Back on the Netwrix Privilege Secure server, you need to make sure there is a matching **Credential
 Based** policy.
 
-![setting_up_the_policypak_policy_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy_2.webp)
+![setting_up_the_policypak_policy_2](/img/product_docs/endpointpolicymanager/integration/privilegesecure/credentialbased/setting_up_the_endpointpolicymanager_policy_2.webp)

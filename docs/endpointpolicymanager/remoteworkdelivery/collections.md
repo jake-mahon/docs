@@ -4,7 +4,7 @@ When you make a Endpoint Policy Manager Remote Work Delivery Manager collection,
 group together policy settings for the sake of organization, perform Item-Level Targeting (discussed
 next), and specify advanced options.
 
-![getting_to_know_policypak_35](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager_35.webp)
+![getting_to_know_policypak_35](/img/product_docs/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager_35.webp)
 
 By default, Endpoint Policy Manager Remote Work Delivery Manager will attempt to process policies at
 the root node, or within any collection, at the same time, without letting one job finish before

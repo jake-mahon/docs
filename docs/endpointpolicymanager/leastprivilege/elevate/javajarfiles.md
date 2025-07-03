@@ -15,4 +15,4 @@ To start making rules for Java JAR files right-click in the window and select **
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_java_jar_files.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_java_jar_files.webp)

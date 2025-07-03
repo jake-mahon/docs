@@ -6,7 +6,7 @@ browser.
 
 This application can be found listed under Apps & Features
 
-![907_1_image-20220403003715-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/907_1_image-20220403003715-1.webp)
+![907_1_image-20220403003715-1](/img/product_docs/endpointpolicymanager/browserrouter/907_1_image-20220403003715-1.webp)
 
 PPBREdgePackage is the legacy equivalent of the Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Browser Router Chromium Extension and is not needed for Edge Chromium or any other browser.
@@ -15,8 +15,8 @@ To verify Endpoint Policy Manager Browser Router Chromium Extension is installed
 look for the Endpoint Policy Manager icon, which can usually be seen in the top-right corner with
 the other extensions.
 
-![907_2_image-20220403003715-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/907_2_image-20220403003715-2.webp)
+![907_2_image-20220403003715-2](/img/product_docs/endpointpolicymanager/browserrouter/907_2_image-20220403003715-2.webp)
 
 It can be managed by clicking on **Extensions** >**…** >, **Manage extension**.
 
-![907_3_image-20220403003715-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/907_3_image-20220403003715-3.webp)
+![907_3_image-20220403003715-3](/img/product_docs/endpointpolicymanager/browserrouter/907_3_image-20220403003715-3.webp)

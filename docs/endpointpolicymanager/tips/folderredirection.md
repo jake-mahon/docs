@@ -82,8 +82,8 @@ Cloud:[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpo
 
 The policy settings you might want to use are…
 
-![590_1_img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/tips/590_1_img-1.webp)
+![590_1_img-1](/img/product_docs/endpointpolicymanager/tips/590_1_img-1.webp)
 
 and / or
 
-![590_2_img-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/tips/590_2_img-2.webp)
+![590_2_img-2](/img/product_docs/endpointpolicymanager/tips/590_2_img-2.webp)

@@ -1,3 +1,12 @@
+---
+id: servicenow
+title: "ServiceNow"
+pagination_label: "ServiceNow"
+sidebar_label: "ServiceNow"
+sidebar_position: 202
+description: "This page explains how to configure ServiceNow integration to deliver Netwrix 1Secure alerts as tickets or work notes for help desk services."
+---
+
 # ServiceNow
 
 ServiceNow is a flexible platform for Managed Service Providers that provides integrated services.
@@ -11,8 +20,8 @@ group.
 
 Image keys:
 
-| Icon                                                                           | Description                                                                     |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Icon                                                                                          | Description                                                                     |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the settings of the integration type.    |
 | ![servicenowicon](/img/product_docs/1secure/integration/servicenowicon.webp)   | ServiceNow Icon. Click the ServiceNow icon to make the settings for ServiceNow. |
 | ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin icon to delete the ServiceNow integration               |
@@ -27,7 +36,7 @@ Follow the steps to add a ServiceNow integration system.
 
 **Step 2 –** In the displayed Integration type window, click **ServiceNow** and click **Next**.
 
-![servicenowconnection](/img/product_docs/changetracker/changetracker/integration/itsm/servicenowconnection.webp)
+![servicenowconnection](/img/product_docs/1secure/integration/servicenowconnection.webp)
 
 **Step 3 –** In the Configure connection window, specify the required boxes - Server Name, Username,
 and Password.

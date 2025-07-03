@@ -11,7 +11,7 @@ reauthenticate**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication.webp)
 
 **NOTE:** See the
 [Endpoint Policy Manager Least Priv Manager: Self Elevate Mode](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/selfelevatemode.md)
@@ -30,46 +30,46 @@ The following cases highlight how this might work.
 
 **Show popup message** is selected, but neither sub-option are checked.
 
-![A screen shot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_1.webp)
+![A screen shot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_1.webp)
 
 When the application launches, the pop up is presented.
 
 Text input from the user is optional. The user must at least click **OK** to continue and launch the
 application.
 
-![A screenshot of a computer monitor Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_2.webp)
+![A screenshot of a computer monitor Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_2.webp)
 
 ## Case 2
 
 **Show popup message** and **Justification text required** are selected, but **Force user
 re-authenticate** is not.
 
-![A screen shot of a message Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_3.webp)
+![A screen shot of a message Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_3.webp)
 
 The pop-up box appears, and user must type in something before continuing onward by pressing **OK**
 button.
 
-![A screenshot of a computer error message Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_4.webp)
+![A screenshot of a computer error message Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_4.webp)
 
 ## Case 3
 
 **Show popup message** and **Force user re-authenticate** is selected, but **Justification text
 required** is not.
 
-![A screenshot of a computer screen Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_5.webp)
+![A screenshot of a computer screen Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_5.webp)
 
 The user is required to re-authenticate, but then the pop-up occurs, no text input is required by
 the user.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_6.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_6.webp)
 
 ## Case 4
 
 **Force user re-authenticate** and **Justification text required** are both selected.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_7.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_7.webp)
 
 The User must re-authenticate, then when a pop-up is shown, theuser must type in something before
 **OK** is allowed an application proceeds.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/understanding_re_authentication_8.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/understanding_re_authentication_8.webp)

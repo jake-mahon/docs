@@ -14,7 +14,7 @@ auditing data. In Figure 54, the report entitled "Computers Reporting Auditing D
 computers that are in the security group and have successfully delivered auditing data to the
 server.
 
-![gpcr_server_with_push_mode_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_18.webp)
+![gpcr_server_with_push_mode_18](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_18.webp)
 
 Figure 54. Computers reporting auditing data.
 
@@ -22,7 +22,7 @@ The report entitled "Computers Attempting to Report Audit Data (Not in Group)" w
 that ran PPGPCR.Auditor.exe and had their data received by the server but dumped because they were
 not in the security group, as shown in Figure 55.
 
-![gpcr_server_with_push_mode_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_19.webp)
+![gpcr_server_with_push_mode_19](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_19.webp)
 
 Figure 55. Data is dumped for computers not in the security group.
 
@@ -33,6 +33,6 @@ There is a final report entitled "Users Reporting Audit Data," as shown in Figur
 you to quickly view which users' data you have on file and which computer they last used to log in
 with.
 
-![gpcr_server_with_push_mode_20](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_20.webp)
+![gpcr_server_with_push_mode_20](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_20.webp)
 
 Figure 56. Users reporting audit data.

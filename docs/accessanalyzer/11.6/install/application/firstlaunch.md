@@ -8,7 +8,7 @@ Enterprise Auditor, the initial settings for the Enterprise Auditor Console must
 **Step 1 –** Launch the Enterprise Auditor application. The installation wizard places the
 Enterprise Auditor icon on the desktop.
 
-![Configuration Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Configuration Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/install/application/welcome_2.webp)
 
 **Step 2 –** On the Welcome page of the Enterprise Auditor Configuration Wizard, click **Next** to
 continue.
@@ -104,7 +104,7 @@ continue.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 
-![Progress page when upgrade process has completed](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Progress page when upgrade process has completed](/img/product_docs/accessanalyzer/11.6/install/application/completed_1.webp)
 
 **Step 8 –** After the Enterprise Auditor Configuration Wizard finishes configuring your
 installation, click **Finish** to open the Enterprise Auditor Console.

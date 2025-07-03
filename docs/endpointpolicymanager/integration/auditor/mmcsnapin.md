@@ -12,28 +12,28 @@ console.
 **Step 1 –** In Netwrix Auditor, determine where you Report Manager URL is. The item is found in
 Netwrix Auditor under **Settings** > **Audit Database** > **Report Manager UR**.
 
-![970_1_image-20231016154007-8_950x412](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_1_image-20231016154007-8_950x412.webp)
+![970_1_image-20231016154007-8_950x412](/img/product_docs/endpointpolicymanager/integration/auditor/970_1_image-20231016154007-8_950x412.webp)
 
 **Step 2 –** Click on the link to open up Report Manager in SQL Server Reporting Services (SSRS).
 
 **Step 3 –** Create a new SSRS Folder and give it any name you like.
 
-![970_2_image-20231016154007-9_950x454](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_2_image-20231016154007-9_950x454.webp)
+![970_2_image-20231016154007-9_950x454](/img/product_docs/endpointpolicymanager/integration/auditor/970_2_image-20231016154007-9_950x454.webp)
 
 **Step 4 –** Enter the folder you just created then upload the` .RDL` file provided from the
 Endpoint Policy Manager Extras Folder.
 
-![970_3_image-20231016154007-10_950x605](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_3_image-20231016154007-10_950x605.webp)
+![970_3_image-20231016154007-10_950x605](/img/product_docs/endpointpolicymanager/integration/auditor/970_3_image-20231016154007-10_950x605.webp)
 
 **Step 5 –** The result after the upload is shown below..
 
-![970_4_image-20231016154007-11](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_4_image-20231016154007-11.webp)
+![970_4_image-20231016154007-11](/img/product_docs/endpointpolicymanager/integration/auditor/970_4_image-20231016154007-11.webp)
 
 **Step 6 –** Click the report to get the reference string you'll use in future steps. This will
 contain the Netwrix Auditor server, up to and including the specific URL which expresses just before
 the report name.
 
-![970_5_image-20231016154007-12_950x839](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_5_image-20231016154007-12_950x839.webp)
+![970_5_image-20231016154007-12_950x839](/img/product_docs/endpointpolicymanager/integration/auditor/970_5_image-20231016154007-12_950x839.webp)
 
 As an example, the string should look like this:
 http://NetwrixAuditorServer/Reports_SQLEXPRESS/report/PolicyPak
@@ -46,7 +46,7 @@ http://NetwrixAuditorServer/Reports_SQLEXPRESS/report/PolicyPak
 Netwrix Auditor . Left click on the Netwrix Endpoint Policy Manager node, then right-click to **Open
 in Netwrix Auditor**.  Input the string you collected earlier.
 
-![970_6_image-20231016154007-13_950x582](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_6_image-20231016154007-13_950x582.webp)
+![970_6_image-20231016154007-13_950x582](/img/product_docs/endpointpolicymanager/integration/auditor/970_6_image-20231016154007-13_950x582.webp)
 
 ## Optional Configuration: Use PolicyPak ADMX to configure the value automatically
 
@@ -65,7 +65,7 @@ your MMC management stations.
 **NOTE:** Endpoint Policy Manager CSE will ignore this policy because it is exclusively regarding
 the MMC snap-in.
 
-![970_7_image-20231016154007-14_950x683](/img/product_docs/endpointpolicymanager/endpointpolicymanager/integration/auditor/970_7_image-20231016154007-14_950x683.webp)
+![970_7_image-20231016154007-14_950x683](/img/product_docs/endpointpolicymanager/integration/auditor/970_7_image-20231016154007-14_950x683.webp)
 
 **Step 3 –** Going forward, the ADMX setting will command the MMC snap-in and it will be
 unconfigurable.

@@ -1,32 +1,19 @@
-# Identity Manager 6.2
+# A software solution to match your IGA needs
 
-> Next-generation identity governance and administration for modern enterprises
+To learn about Netwrix Identity Manager (formerly Usercube) and build the solution you need, explore
+our guides.
 
-Identity Manager 6.2 delivers an advanced identity governance and administration (IGA) solution that combines powerful automation capabilities with intuitive user experiences. This latest version introduces enhanced cloud integration, improved performance, and new governance features to help organizations manage identities and access rights across complex hybrid environments while maintaining strict security and compliance standards.
+The present documentation mentions the Netwrix Identity Manager (formerly Usercube) application as
+simply Identity Manager.
 
-## Key Features
+Identity Manager's guides include:
 
-- **Intelligent Access Governance**: AI-powered access recommendations and anomaly detection for proactive risk management
-- **Cloud-Native Architecture**: Seamless integration with cloud platforms and SaaS applications for hybrid deployments
-- **Advanced Analytics Engine**: Real-time dashboards and predictive insights for identity and access trends
-- **Zero Trust Integration**: Support for zero trust security models with continuous verification capabilities
-
-## Benefits
-
-- **Accelerated Digital Transformation**: Enable secure cloud adoption with automated identity management across platforms
-- **Reduced Compliance Risk**: Maintain continuous compliance with automated controls and comprehensive audit capabilities
-- **Lower Total Cost of Ownership**: Decrease operational costs through intelligent automation and self-service features
-- **Enhanced Security Posture**: Protect against identity-based threats with advanced detection and response capabilities
-
-## What's New in Version 6.2
-
-- Revolutionary AI-powered access recommendations engine
-- Native integration with Microsoft Azure AD and AWS IAM
-- Enhanced mobile app for on-the-go approvals and access management
-- Significant performance improvements supporting millions of identities
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-```
+- An [Introduction Guide](/docs/identitymanager/6.2/introduction-guide/index.md) if you are new to Identity Manager.
+- A [User Guide](/docs/identitymanager/6.2/user-guide/index.md) to configure Identity Manager from scratch via the UI.
+- An [Integration Guide](/docs/identitymanager/6.2/integration-guide/index.md) to complete Identity Manager's configuration in
+  XML according to your needs.
+- An [Installation Guide](/docs/identitymanager/6.2/installation-guide/index.md) to install Identity Managerin a production
+  environment.
+- A [Migration Guide](/docs/identitymanager/6.2/migration-guide/index.md) to upgrade to a new version of Identity Manager.
+- [ What's New](/docs/identitymanager/6.2/whatsnew/index.md) to get details about specific changes in Identity Manager's
+  updates.

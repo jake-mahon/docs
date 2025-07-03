@@ -7,13 +7,13 @@ Windows itself will request unwanted applications for the user from the Microsof
 can see pre-installed applications like Duolingo, Pandora, and Skype. Windows versions before 20H1
 very often have quite cluttered Start menus, as shown in the figure.
 
-![appx_policies_and_settings_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_2.webp)
+![appx_policies_and_settings_2](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_2.webp)
 
 However, even newer versions of Windows still have some store applications , installed, like Skype,
 even though the default Start menu is cleaner. In both cases you might want to remove applications
 that are not needed..
 
-![appx_policies_and_settings_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_3.webp)
+![appx_policies_and_settings_3](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_3.webp)
 
 We'll discuss how to install or remove AppX packages in the next two sections.
 

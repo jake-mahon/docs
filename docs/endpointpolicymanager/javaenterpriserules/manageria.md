@@ -28,13 +28,13 @@ location, such as [https://java.com](https://java.com), and then enter the name 
 for specificity. You can find the Java applet's name by running it without any rules first. It is
 important that only signed Java applets have a name.
 
-![using_policypak_java_rules](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules.webp)
+![using_policypak_java_rules](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules.webp)
 
 Once you know this, your rule will display the properties shown below.
 
 **NOTE:** In this instance, the **Latest in family** option has been chosen for Java 8.
 
-![using_policypak_java_rules_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_1.webp)
+![using_policypak_java_rules_1](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_1.webp)
 
 ## Managing RIAs Based on Certificate
 
@@ -44,7 +44,7 @@ method works exclusively for digitally signed Java applets. To determine whether
 digitally signed, or if it contains the SHA256 of the certificate for the applet, see the example
 below.
 
-![using_policypak_java_rules_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_2.webp)
+![using_policypak_java_rules_2](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_2.webp)
 
 To get the certificate information using Firefox:
 
@@ -74,7 +74,7 @@ steps:
 
 The first three steps areseen here.
 
-![using_policypak_java_rules_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_3.webp)
+![using_policypak_java_rules_3](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_3.webp)
 
 After you've saved the file, continue with the following steps, which are shown below.
 
@@ -92,15 +92,15 @@ After you've saved the file, continue with the following steps, which are shown 
 
 **Step 6 –** Type `keytool -printcert -jarfile pathtojar\javadetection.jar | more`.
 
-![using_policypak_java_rules_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_4.webp)
+![using_policypak_java_rules_4](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_4.webp)
 
 At this point, the SHA256 Hash appears, which you can copy and paste into the MMC. It is valid only
 with 32 pairs of hexadecimal numbers, with colons for separation.
 
-![using_policypak_java_rules_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_5.webp)
+![using_policypak_java_rules_5](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_5.webp)
 
 Be sure to use only the first SHA256 displayed and not the others listed in the output. Note that
 when you paste it into the Endpoint Policy Manager Java Rules Manager MMC snap in, the colons are
 automatically stripped.
 
-![using_policypak_java_rules_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_6.webp)
+![using_policypak_java_rules_6](/img/product_docs/endpointpolicymanager/javaenterpriserules/using_endpointpolicymanager_java_rules_6.webp)

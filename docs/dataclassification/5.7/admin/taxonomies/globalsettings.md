@@ -1,0 +1,7 @@
+# Global Settings
+
+The **Content** > **Taxonomies** > **Global Settings** panel allows you to update, compare, back up,
+export, edit or delete your taxonomies. See the [Manage Taxonomies](/docs/dataclassification/5.7/admin/taxonomies/manage.md) topic for additional
+information.
+
+![globalsettings](/img/product_docs/dataclassification/5.7/admin/taxonomies/globalsettings.webp)

@@ -6,7 +6,7 @@ machine joins your Endpoint Policy Manager Cloud instance. This is the process t
 download directives, auto-install the CSE, and perform other cloud-specific operations. Typically
 you would download the 32-bit or 64-bit versions, or both as a bundled ZIP.
 
-![web_interface_and_controls_86_624x192](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_86_624x192.webp)
+![web_interface_and_controls_86_624x192](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_86_624x192.webp)
 
 **CAUTION:** Clients will continue to use the Endpoint Policy Manager Cloud client version they
 started with until you specifically tell them to use a later version. Please watchthe following
@@ -17,4 +17,4 @@ From time to time you may be asked by Endpoint Policy Manager Support to attempt
 version of the client. In this case, you can click on Download other versions and select an older
 version.
 
-![web_interface_and_controls_87_624x282](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_87_624x282.webp)
+![web_interface_and_controls_87_624x282](/img/product_docs/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_87_624x282.webp)

@@ -9,7 +9,7 @@ Follow the steps to soften the I Agent on a server.
 
 **Step 2 –** Right-click a hardened Agent and select **Soften Agent** on the menu.
 
-![Enter Credentials window](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/entercredentials.webp)
+![Enter Credentials window](/img/product_docs/threatprevention/7.4/install/upgrade/entercredentials.webp)
 
 **Step 3 –** On the Enter Credentials window, enter a username and password with sufficient rights
 to connect to the target machine and query information about shares. A local Administrator account

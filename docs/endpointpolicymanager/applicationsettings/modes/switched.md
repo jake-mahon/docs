@@ -27,7 +27,7 @@ In Figure 40, you can see a GPO that affects Computer accounts. You use the AppS
 as you would on the User side; however, you configure it for the Computer side. The User-side policy
 settings will automatically affect every user who logs onto the targeted computer.
 
-![policypak_application_settings_1_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_19.webp)
+![policypak_application_settings_1_19](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_19.webp)
 
 Figure 40. A GPO that affects Computer accounts.
 

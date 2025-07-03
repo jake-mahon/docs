@@ -26,12 +26,12 @@ Dism /Online /Export-DefaultAppAssociations:<XML path>\AppAssoc.xml
 
 The exported file from this process might look something like this:
 
-![about_policypak_file_associations_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_2.webp)
+![about_policypak_file_associations_2](/img/product_docs/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_2.webp)
 
 **Step 5 –** Next, you would use the Group Policy setting called **Set a default associations
 configuration file**.
 
-![about_policypak_file_associations_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_3.webp)
+![about_policypak_file_associations_3](/img/product_docs/endpointpolicymanager/fileassociations/insouts/about_endpointpolicymanager_file_associations_3.webp)
 
 The disadvantages of using the in-box method for Windows 10 are as follows:
 

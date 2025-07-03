@@ -7,7 +7,7 @@ bar.
 
 The User Investigation dashboard contains the following cards:
 
-![User Investigation Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/userinvestigation.webp)
+![User Investigation Dashboard](/img/product_docs/threatprevention/7.5/siemdashboard/qradar/dashboard/userinvestigation.webp)
 
 - Total Actions – Number of all events associated with the user over the specified time interval
 - Source Hosts – Number of source IP addresses associated with the user over the specified time

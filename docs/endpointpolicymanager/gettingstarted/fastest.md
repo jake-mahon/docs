@@ -11,7 +11,7 @@ The most important thing you can do to become quickly oriented with Endpoint Pol
 watch our daily webinar. The webinar is oriented to your delivery scenario: On-Prem, Intune/MDM or
 Cloud.
 
-![gs3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/gs3.webp)
+![gs3](/img/product_docs/endpointpolicymanager/gettingstarted/gs3.webp)
 
 If you were added as a Primary or Secondary, you were automatically provided a link which will get
 you directly to the Overview/On-Prem webinar. If you are using Endpoint Policy Manager with
@@ -34,7 +34,7 @@ Login page at Endpoint Policy Manager.com:
   Bootcamp (Free Training), Payment location for monthly usage
 - [Cloud](http://cloud.endpointpolicymanager.com/) — The Endpoint Policy Manager Cloud service
 
-![gs1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/gs1.webp)
+![gs1](/img/product_docs/endpointpolicymanager/gettingstarted/gs1.webp)
 
 - If you are unable to logon as expected during a trial, contact your Endpoint Policy Manager Sales
   person for credentials.
@@ -83,7 +83,7 @@ Consider bookmarking these important pages:
 Finding what youare looking for comes down to Knowledge Base & Videos and User Manuals. Here is a
 way to get oriented on the navigation.
 
-![gs2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/gettingstarted/gs2.webp)
+![gs2](/img/product_docs/endpointpolicymanager/gettingstarted/gs2.webp)
 
 ## Get Help from Support
 

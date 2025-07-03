@@ -1,0 +1,51 @@
+
+---
+File: docs\recoveryforactivedirectory\2.6\troubleshooting\updatepassword\serverbackupaccount.md
+Context:
+**Step 1 –** Click **Forest** in the left pane to open the Forest page.
+
+![Forest Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/forest.webp)
+
+**Step 2 –** On the Forest page, select a forest to view the domain controllers in it. To locate a
+Original image link: ![Forest Page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/forest.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\recoveryforactivedirectory\2.6\troubleshooting\updatepassword\serverbackupaccount.md
+Context:
+into account the new password.
+
+![Server Backup Configuration wizard - Schedule page](/img\product_docs\recoveryforactivedirectory\2.6\admin\forest\schedule.webp)
+
+**Step 5 –** Modify the schedule if needed, then click **Next**.
+Original image link: ![Server Backup Configuration wizard - Schedule page](/img\product_docs\recoveryforactivedirectory\2.6\admin\forest\schedule.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\recoveryforactivedirectory\2.6\troubleshooting\updatepassword\serverbackupaccount.md
+Context:
+**Step 6 –** Modify the options if needed, then click **Next**.
+
+![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/confirm.webp)
+
+**Step 7 –** The Confirm page displays a summary of the settings you provided on the pages of the
+Original image link: ![Server Backup Configuration wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/confirm.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\recoveryforactivedirectory\2.6\troubleshooting\updatepassword\sqlserverserviceaccount.md
+Context:
+`...Netwrix\Recovery for Active Directory\Recovery_Config.exe`
+
+![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/2.6/install/configurationutility.webp)
+
+**Step 2 –** Update the account password for SQL Server Authentication in the Login and Password
+Original image link: ![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/2.6/install/configurationutility.webp)
+Case: Path alignment mismatch
+No suggested images found.

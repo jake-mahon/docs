@@ -5,7 +5,7 @@ help you quickly configure each tab. To discover the mouse shortcuts, right-clic
 (i.e., not on any specific element like a checkbox or dropdown menu). You should see the flyout
 menu, shown in Figure 38.
 
-![policypak_application_settings_1_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_17.webp)
+![policypak_application_settings_1_17](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_17.webp)
 
 Figure 38. Application Settings Manager flyout menu.
 
@@ -49,6 +49,6 @@ This menu reveals several shortcuts.
 Note that if there are no values in any of the elements on a tab, the first two sets of shortcuts
 will not be available, as seen in Figure 39.
 
-![policypak_application_settings_1_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_18.webp)
+![policypak_application_settings_1_18](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_18.webp)
 
 Figure 39. The visible options when there are no values in any of the elements on a tab.

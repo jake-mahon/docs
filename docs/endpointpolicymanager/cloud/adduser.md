@@ -14,9 +14,9 @@ There are three steps in the process:
 **Step 3 –** You can then select **Invitation** to send Invites to new Secondaries or Accounting
 people.
 
-![819_1_hfkb-1067-01_950x324](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/819_1_hfkb-1067-01_950x324.webp)
+![819_1_hfkb-1067-01_950x324](/img/product_docs/endpointpolicymanager/cloud/819_1_hfkb-1067-01_950x324.webp)
 
-![819_2_hfkb-1067-02_950x279](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/819_2_hfkb-1067-02_950x279.webp)
+![819_2_hfkb-1067-02_950x279](/img/product_docs/endpointpolicymanager/cloud/819_2_hfkb-1067-02_950x279.webp)
 
 - Secondaries get technical AND renewal emails
 - Accounting people get ONLY renewal emails

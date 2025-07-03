@@ -37,18 +37,18 @@ file extension to this custom application.
 `Notepad++Portable.exe` program. When that file is selected, the **Application Icon field**is
 automatically filled in.
 
-![about_policypak_file_associations_20](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_20.webp)
+![about_policypak_file_associations_20](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_20.webp)
 
 **Step 4 –** Now you should have a total of four file association policies.
 
-![about_policypak_file_associations_21](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_21.webp)
+![about_policypak_file_associations_21](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_21.webp)
 
 **NOTE:** The XML file type on the endpoint has no icon in particular.
 
-![about_policypak_file_associations_23](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_23.webp)
+![about_policypak_file_associations_23](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_23.webp)
 
 **Step 5 –** To continue, run `GPupdate` on the endpoint. Then, to see it take effect, log off and
 log on again. When you do, you'll see the XML file icon change to Notepad++. Double-clicking the
 icon will launch Notepad++ Portable.
 
-![about_policypak_file_associations_22](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_22.webp)
+![about_policypak_file_associations_22](/img/product_docs/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_22.webp)

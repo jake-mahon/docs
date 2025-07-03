@@ -4,7 +4,7 @@ Use the Operations page to select the operations to apply to the target hosts. S
 [Registry: Target Hosts](/docs/accessanalyzer/11.6/admin/action/registry/targethosts.md) topic
 for additional information.
 
-![Registry Action Module Wizard Operations page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Registry Action Module Wizard Operations page](/img/product_docs/accessanalyzer/11.6/admin/action/registry/operations.webp)
 
 Select and configure the operations using the following options:
 
@@ -30,7 +30,7 @@ Select and configure the operations using the following options:
 
 Use the Registry Browser window to navigate a computer’s registry and select a key.
 
-![Registry Browser Window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/diskinfo/registrybrowser.webp)
+![Registry Browser Window](/img/product_docs/accessanalyzer/11.6/admin/action/registry/registrybrowser.webp)
 
 Select a key using the following options:
 

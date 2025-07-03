@@ -6,7 +6,7 @@ Privilege Manager node to create a new Admin Approval Policy.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key.webp)
 
 You’ll now see the Admin Approval Settings, as shown in here. Change the Admin Approval State from
 **Not Configured** to **Enabled**.
@@ -14,7 +14,7 @@ You’ll now see the Admin Approval Settings, as shown in here. Change the Admin
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_1.webp)
 
 You also can change two other settings:
 
@@ -31,14 +31,14 @@ Notepad.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_2.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_2.webp)
 
 Click on the **Misc** tab, which enables you to configure the two policies shown here.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_3.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_3.webp)
 
 - Custom Message - Configure the pop-up the user will see when Admin Approval kicks in.
 - Display name - Configure the right-click menu item the user will which will invoke Admin Approval.

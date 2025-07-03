@@ -40,7 +40,7 @@ For extra protection within each Endpoint Policy Manager Application Settings Ma
 you can choose to open the definition and then click the **Options** button. Then, select **Export
 XML Settings Data**.
 
-![specific_upgrades_for_application_624x386](/img/product_docs/endpointpolicymanager/endpointpolicymanager/install/upgrade/specific_upgrades_for_application_624x386.webp)
+![specific_upgrades_for_application_624x386](/img/product_docs/endpointpolicymanager/install/upgrade/specific_upgrades_for_application_624x386.webp)
 
 **NOTE:** This step is optional but will provide a second backup of your Endpoint Policy Manager
 Application Settings Manager definitions in case of a mishap and is therefore recommended.

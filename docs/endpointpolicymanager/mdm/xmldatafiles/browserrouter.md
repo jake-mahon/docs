@@ -6,6 +6,6 @@ Right-click` Computer Configuration | PolicyPak | Browser Router` or
 shown in Figure 13. For full details on the Endpoint Policy Manager Browser Router, see Book 5:
 [Browser Router](/docs/endpointpolicymanager/browserrouter/overview.md).
 
-![deploying_policypak_directives_12](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_12.webp)
+![deploying_policypak_directives_12](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_12.webp)
 
 Figure 13. Exporting a collection as an XML file via Endpoint Policy Manager Browser Router.

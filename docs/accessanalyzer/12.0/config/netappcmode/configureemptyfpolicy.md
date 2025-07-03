@@ -137,7 +137,7 @@ security login show example\user1
 
 Verify that the output is displayed as follows:
 
-![validatesecuritylogincreation](/img/product_docs/activitymonitor/config/netappcmode/validatesecuritylogincreation.webp)
+![validatesecuritylogincreation](/img/product_docs/activitymonitor/8.0/config/netappcmode/validatesecuritylogincreation.webp)
 
 Relevant NetApp Documentation: To learn more about creating security logins, please visit the NetApp
 website and read the

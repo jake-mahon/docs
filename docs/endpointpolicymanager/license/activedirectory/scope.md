@@ -10,12 +10,12 @@ Scope is where you might ever possibly use Netwrix Endpoint Policy Manager (form
 Typically, this is (and should be) the whole domain. This doesn't mean you will be using Endpoint
 Policy Manager anywhere/everywhere in the whole domain. You select the Scope in this window:
 
-![317_1_licfaq1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/activedirectory/317_1_licfaq1.webp)
+![317_1_licfaq1](/img/product_docs/endpointpolicymanager/license/activedirectory/317_1_licfaq1.webp)
 
 SOM_Name is the specific places you will be licensing Endpoint Policy Manager. This is what you are
 selecting here:
 
-![317_2_licfaq2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/activedirectory/317_2_licfaq2.webp)
+![317_2_licfaq2](/img/product_docs/endpointpolicymanager/license/activedirectory/317_2_licfaq2.webp)
 
 So, here are some examples from some License Request Key files.
 
@@ -81,7 +81,7 @@ some facts:
   contained within the licensing GPO (which is nothing but licensing data). But then nothing special
   happens after that, especially since they're out of Scope of Management.
 
-![317_3_licfaq3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/activedirectory/317_3_licfaq3.webp)
+![317_3_licfaq3](/img/product_docs/endpointpolicymanager/license/activedirectory/317_3_licfaq3.webp)
 
 That being said, there are two ways to proceed if your license file's Scope is the whole domain, but
 you don't want to link it over to the whole domain :

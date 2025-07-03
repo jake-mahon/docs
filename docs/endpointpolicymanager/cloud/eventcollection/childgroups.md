@@ -19,4 +19,4 @@ settings, then the following rules apply:
 - If any group of which a computer is a member has the **Collect Events** filter set to **All**,
   then the previous rule doesn't apply. All always takes precedence.
 
-![940_1_image002_950x536](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/eventcollection/940_1_image002_950x536.webp)
+![940_1_image002_950x536](/img/product_docs/endpointpolicymanager/cloud/eventcollection/940_1_image002_950x536.webp)

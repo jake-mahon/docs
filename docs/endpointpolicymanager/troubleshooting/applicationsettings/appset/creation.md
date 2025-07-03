@@ -16,7 +16,7 @@ Manager Creation Station utilities before installing your package and producing 
 If you're using Windows 7 or Windows 8, the .NET Framework can be introduced through Add/Remove
 programs, as seen in Figure 1.1.
 
-![387_1_image001](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_1_image001.webp)
+![387_1_image001](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_1_image001.webp)
 
 Figure 1.1: Installing .NET Framework for Windows 7 (left) and Windows 8 (right)
 
@@ -35,11 +35,11 @@ Manager Creation Station workstation. Any edition later than 2008 will work; you
 prerequisites onto your admin workstation. Note that this can take a long time. Also, if prompted,
 you do not need to install Silverlight, nor do you need the SQL Express Edition.
 
-![387_2_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_2_image002.webp)
+![387_2_image002](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_2_image002.webp)
 
 Figure ‎1.2: You can download C++ 2010 Express Edition…
 
-![387_3_image003](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_3_image003.webp)
+![387_3_image003](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_3_image003.webp)
 
 Figure ‎1.3: …or Visual Studio 2013 Express. Be sure to select only the "Visual Studio Express 2013
 for Windows Desktop" option.
@@ -68,4 +68,4 @@ for Windows Desktop" option.
   Visual C++ Express Edition node and Endpoint Policy Manager Application Settings Manager nodes
   within the Start Menu, as seen here in this example station.
 
-![387_4_image004](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_4_image004.webp)
+![387_4_image004](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/387_4_image004.webp)

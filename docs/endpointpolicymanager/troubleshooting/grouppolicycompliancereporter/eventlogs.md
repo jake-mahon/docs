@@ -5,7 +5,7 @@ Event Viewer in the application log. Because a lot of data could be in the log, 
 shown in Figure 76 to make a custom view showing only Endpoint Policy Manager GPCR events in the
 application log.
 
-![tuning_and_troubleshooting_17](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_17.webp)
+![tuning_and_troubleshooting_17](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_17.webp)
 
 Figure 76. Creating a custom view for Endpoint Policy Manager GPCR events.
 

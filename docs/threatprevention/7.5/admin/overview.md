@@ -25,7 +25,7 @@ activity on a network:
 
 Threat Prevention Architecture
 
-![Threat Prevention Architecture Diagram](/img/product_docs/threatprevention/threatprevention/admin/systemdiagram.webp)
+![Threat Prevention Architecture Diagram](/img/product_docs/threatprevention/7.5/admin/systemdiagram.webp)
 
 Threat Prevention Enterprise Manager
 

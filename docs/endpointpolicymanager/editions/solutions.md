@@ -30,7 +30,7 @@ When you use the Group Policy method, you are 100% in control of your data becau
 contained within your Active Directory.The image below shows what Endpoint Policy Manager looks like
 whenusing Group Policy.
 
-![editions_solutions_paks_and](/img/product_docs/endpointpolicymanager/endpointpolicymanager/editions/editions_solutions_paks_and.webp)
+![editions_solutions_paks_and](/img/product_docs/endpointpolicymanager/editions/editions_solutions_paks_and.webp)
 
 Group Policy is automatically stored in Active Directory on all domain controllers (DCs), so you
 don't have to install anything on any DCs or extend the Active Directory schema. Because GPOs are
@@ -45,7 +45,7 @@ directives must have the Endpoint Policy Manager admin console on it, enabling y
 Endpoint Policy Manager policies within GPOs. Below you can see how Endpoint Policy Manager works
 with Group Policy.
 
-![editions_solutions_paks_and_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/editions/editions_solutions_paks_and_1.webp)
+![editions_solutions_paks_and_1](/img/product_docs/endpointpolicymanager/editions/editions_solutions_paks_and_1.webp)
 
 When using Group Policy to deploy Endpoint Policy Manager directives, Endpoint Policy Manager will
 leverage Group Policy to the fullest extent possible. That is, Endpoint Policy Manager honors (at a
@@ -95,12 +95,12 @@ exporter).
 **Step 3 –** Upload your finished MSI files into your MDM service. Below is a diagram of the
 process.
 
-![editions_solutions_paks_and_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
+![editions_solutions_paks_and_2](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
 
 Below is an example of an uploaded Endpoint Policy Manager MSI file containing XML directives along
 with the MDM service deploying the Endpoint Policy Manager CSE and license files.
 
-![editions_solutions_paks_and_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/editions/editions_solutions_paks_and_3.webp)
+![editions_solutions_paks_and_3](/img/product_docs/endpointpolicymanager/editions/editions_solutions_paks_and_3.webp)
 
 If you plan to use Endpoint Policy Manager with your MDM service, you can find more information
 about the Endpoint Policy Manager exporter in this topic:
@@ -119,7 +119,7 @@ The diagram below shows how Endpoint Policy Manager Cloud works to deliver direc
 be domain-joined or non-domain-joined. When you are a Endpoint Policy Manager SaaS customer, the
 Cloud method is the only method available to you.
 
-![editions_solutions_paks_and_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/editions/editions_solutions_paks_and_4.webp)
+![editions_solutions_paks_and_4](/img/product_docs/endpointpolicymanager/editions/editions_solutions_paks_and_4.webp)
 
 For a more detailed coverage of Endpoint Policy Manager Cloud see the quick start topic:  Endpoint
 Policy Manager [Setup, Download, Install, and Verify](/docs/endpointpolicymanager/cloud/quickstart.md).
@@ -148,13 +148,13 @@ KACE) visit:
 
 Below we can see what Endpoint Policy Manager would look like using a tool like SCCM.
 
-![editions_solutions_paks_and_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
+![editions_solutions_paks_and_5](/img/product_docs/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
 
 We provide the Endpoint Policy Manager Exporter Tool. This topic is not discussed in this section
 but you can get more information here:
 [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md).
 
-![editions_solutions_paks_and_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/editions/editions_solutions_paks_and_6.webp)
+![editions_solutions_paks_and_6](/img/product_docs/endpointpolicymanager/editions/editions_solutions_paks_and_6.webp)
 
 The job of Endpoint Policy Manager Exporter Tool is to enable you to make Endpoint Policy Manager
 directives and wrap them in an MSI file that you can then deploy using whatever technique you wish.

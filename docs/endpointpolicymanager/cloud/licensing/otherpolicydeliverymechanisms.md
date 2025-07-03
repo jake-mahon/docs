@@ -20,4 +20,4 @@ If the computer is licensed for Endpoint Policy Manager Cloud and Endpoint Polic
 Directory, for example, then all directives are merged together. In the case of a conflict, Group
 Policy always wins.
 
-![licensing_with_policypak_cloud_1_624x574](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_1_624x574.webp)
+![licensing_with_policypak_cloud_1_624x574](/img/product_docs/endpointpolicymanager/cloud/licensing/licensing_with_endpointpolicymanager_cloud_1_624x574.webp)

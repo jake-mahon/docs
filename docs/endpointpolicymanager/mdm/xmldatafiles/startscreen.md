@@ -6,12 +6,12 @@ You can export a single policy, a collection, or the whole node. For example, ri
 `User Configuration | PolicyPak | Start Screen Manager` for Windows 10, and pick the root node or
 collection you wish to export, as shown in Figure 22.
 
-![deploying_policypak_directives_22](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_22.webp)
+![deploying_policypak_directives_22](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_22.webp)
 
 Figure 22. Exporting a whole collection using Endpoint Policy Manager Start Screen Manager.
 
 You can export a single Endpoint Policy Manager Start Screen Manager entry, as shown in Figure 23.
 
-![deploying_policypak_directives_23](/img/product_docs/endpointpolicymanager/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_23.webp)
+![deploying_policypak_directives_23](/img/product_docs/endpointpolicymanager/mdm/xmldatafiles/deploying_endpointpolicymanager_directives_23.webp)
 
 Figure 23. Exporting a single Endpoint Policy Manager Start Screen Manager entry.

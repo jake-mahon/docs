@@ -14,14 +14,14 @@ you.
 by populating your Preferences item (on-prem recommended) with as much data as you can, noting that
 the Connect as (or other fields) are not changeable in the MMC editor. Below are two examples.
 
-![916_1_image001](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/916_1_image001.webp)
+![916_1_image001](/img/product_docs/endpointpolicymanager/preferences/916_1_image001.webp)
 
-![916_2_image003](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/916_2_image003.webp)
+![916_2_image003](/img/product_docs/endpointpolicymanager/preferences/916_2_image003.webp)
 
 **Step 2 –** Once you have the item, drag it to the desktop and open it for editing.  The goal is to
 enter the missing details by hand, typically the cPassword field.
 
-![916_3_image004](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/916_3_image004.webp)
+![916_3_image004](/img/product_docs/endpointpolicymanager/preferences/916_3_image004.webp)
 
 **Step 3 –** To do get a cPassword, you need to provide an encrypted value in quotes.
 

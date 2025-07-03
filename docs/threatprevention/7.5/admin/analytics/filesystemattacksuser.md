@@ -42,7 +42,7 @@ The Configure Analytics window has two tabs:
 
 Settings Tab
 
-![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/threatprevention/admin/analytics/filesystemattackssettings.webp)
+![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/filesystemattackssettings.webp)
 
 Set the Number of Accessed Files and the Interval Duration that will trigger the incident. The
 interval duration is set for (Hours:Minutes) and is capped at 1:00. When a particular user causes
@@ -68,7 +68,7 @@ list and blocked from initiating future events.
 
 Policy Tab for Monitoring Only
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoring.webp)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/7.5/admin/analytics/policytabfsmonitoring.webp)
 
 The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
@@ -109,7 +109,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
 Policy Tab for Monitoring & Lockdown
 
-![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/threatprevention/admin/analytics/policytabfsmonitoringlockdown.webp)
+![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/7.5/admin/analytics/policytabfsmonitoringlockdown.webp)
 
 When the **Enable Automatic Lockdown** option is selected on the **Settings** tab, the **Policy**
 tab > **Event Type** tab includes both the File System Lockdown Event Type and the File System
@@ -150,7 +150,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
 The data grid on the **File System Attacks (by user)** node lists one row per incident identified.
 
-![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/threatprevention/admin/analytics/fsattacks.webp)
+![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/7.5/admin/analytics/fsattacks.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
 [Event Tracker Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventtracker.md) topic for additional information.

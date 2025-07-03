@@ -5,4 +5,4 @@ Running for Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & 
 function.  
 Do not disable this dmwappushservice service.
 
-![537_1_asdfghkyhj](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/537_1_asdfghkyhj.webp)
+![537_1_asdfghkyhj](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/537_1_asdfghkyhj.webp)

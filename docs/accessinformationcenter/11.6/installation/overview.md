@@ -28,18 +28,18 @@ these will be referred to as the Database service account and the Active Directo
 - Database service account – Typically, this is the same account used by Enterprise Auditor for a
   database service account. This credential is required for installation.
 
-  - If you choose to use a different account, it must have the following permissions:
+    - If you choose to use a different account, it must have the following permissions:
 
-    - Database Owner
-    - Provisioned to use Default Schema of ‘dbo’
+        - Database Owner
+        - Provisioned to use Default Schema of ‘dbo’
 
-  - Database connection via TLS 1.2 (SQL Native Client) is supported.
+    - Database connection via TLS 1.2 (SQL Native Client) is supported.
 
 - Active Directory service account – At a minimum, Access Information Center login authentication
   and Resource Audits require the Active Directory service account to have rights to read Active
   Directory. This credential is configured during installation based on the account used for
   connecting to the database. See the
-  [Active Directory Page](/docs/accessinformationcenter/11.6/administration/configuration/active-directory.md)
+  [Active Directory Page](/docs/accessinformationcenter/11.6/admin/configuration/activedirectory.md)
   topic for additional information.
 
 Commit Active Directory Changes
@@ -57,7 +57,7 @@ groups to be managed:
 - Allow Write Members
 
 See the
-[Commit Active Directory Changes](/docs/accessinformationcenter/11.6/resource-audit/change-modeling/commit-changes.md)
+[Commit Active Directory Changes](/docs/accessinformationcenter/11.6/admin/additionalconfig/commitchanges.md)
 topic for additional information and best practices.
 
 ### Remote AIC Console Sever Requirements
@@ -67,8 +67,8 @@ Auditor Console, the following minimal server requirements are needed for Access
 
 - Windows Server 2016 through Windows Server 2022
 
-  - US English language installation
-  - Domain member
+    - US English language installation
+    - Domain member
 
 - 2+ CPU Cores
 - 4+ GB RAM

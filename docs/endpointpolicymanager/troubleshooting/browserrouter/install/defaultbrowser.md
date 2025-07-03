@@ -3,7 +3,7 @@
 On Windows 8.1 or later, once Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router is
 licensed, it becomes the "default browser" in the operating system, like what is seen here.
 
-![141_1_img-01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
+![141_1_img-01](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
 
 However, if you are using the Legacy Browser Router mode and unlicense Endpoint Policy Manager
 Browser Router or remove the computer from the scope of any Endpoint Policy Manager Browser Router
@@ -18,12 +18,12 @@ longer.
 Therefore, (when Endpoint Policy Manager Browser Router is not present.) … an end-user could open up
 Firefox, Chrome, IE or Edge … like what is seen here…
 
-![141_2_img-02](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
+![141_2_img-02](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
 
 And manually set the default browser, or use the operating system itself to specify the desired
 default browser .. like what is seen here…
 
-![141_3_img-03](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
+![141_3_img-03](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
 
 Afterward, they should see the OS default web browser change accordingly and be maintained correctly
 at the next login.
@@ -49,11 +49,11 @@ For either or all of these options…
 to Enabled, (aka Legacy Browser Router mode), OR if Client-Side Extensions version 2535 or older was
 ever installed on the machine.
 
-![141_4_image-20210104150503-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/install/483_7_image-20210105155954-1.webp)
+![141_4_image-20210104150503-1](/img/product_docs/endpointpolicymanager/browserrouter/install/483_7_image-20210105155954-1.webp)
 
 You have to delete this file first…as a one time action using GPPPrefs if
 
-![141_5_img-04](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/install/141_5_img-04.webp)
+![141_5_img-04](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_5_img-04.webp)
 
 **Step 2 –** Step 2. Then if you want to FORCE A PARTICULAR BROWSER VIA POLICY … (pick ONE)
 
@@ -85,7 +85,7 @@ When it runs.. it works instantly.. and sets the default browser. In this examp
 
 And then it was later changeable by the user.
 
-![141_6_img-05](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/install/141_6_img-05.webp)
+![141_6_img-05](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_6_img-05.webp)
 
 **NOTE:** If you uninstall the Endpoint Policy Manager Client Side Extensions on a machine where
 Endpoint Policy Manager Browser Router was set as the default browser then Microsoft Edge will
@@ -93,6 +93,6 @@ become the default browser immediately after the Endpoint Policy Manager Client 
 uninstalled. You will see the notification below on your screen and if you check the default apps
 you will see that Edge has become the default browser.
 
-![141_7_image](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/install/141_7_image.webp)
+![141_7_image](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_7_image.webp)
 
-![141_8_image](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/browserrouter/install/141_8_image.webp)
+![141_8_image](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/install/141_8_image.webp)

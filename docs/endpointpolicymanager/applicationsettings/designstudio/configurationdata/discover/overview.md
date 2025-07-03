@@ -4,7 +4,7 @@ Usually, it's quite easy to discover where an application has stored its configu
 times, applications store their data in` HKEY_Current_User\Software`. In Figure 87, you can see the
 data for many popular applications stored in the registry.
 
-![discovering_configuration_624x429](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_624x429.webp)
+![discovering_configuration_624x429](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationdata/discover/discovering_configuration_624x429.webp)
 
 Figure 87. Many applications store their data in the registry.
 

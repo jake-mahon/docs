@@ -23,31 +23,31 @@ about formulas, which is why there are so many configuration settings based arou
 PolicyPak to configure the "Error checking rules" such as "Cells containing formulas that result in
 an error" to ensure that the spreadsheets your users are creating are accurate.
 
-![94_1_manage-microsoft-excel-2016-using-group-policy-policypak-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/video/applicationsettings/94_1_manage-microsoft-excel-2016-using-group-policy-endpointpolicymanager-1.webp)
+![94_1_manage-microsoft-excel-2016-using-group-policy-policypak-1](/img/product_docs/endpointpolicymanager/video/applicationsettings/94_1_manage-microsoft-excel-2016-using-group-policy-endpointpolicymanager-1.webp)
 
 Now let's look at Microsoft Word 2013 or 2016. Not only do you users constantly create Word files,
 they also download them as well, many times from the Internet. Make sure that "Enable Protected view
 for files originating from the Internet" is enabled.
 
-![94_2_manage-microsoft-word-2016-using-group-policy-policypak-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/video/applicationsettings/94_2_manage-microsoft-word-2016-using-group-policy-endpointpolicymanager-2.webp)
+![94_2_manage-microsoft-word-2016-using-group-policy-policypak-2](/img/product_docs/endpointpolicymanager/video/applicationsettings/94_2_manage-microsoft-word-2016-using-group-policy-endpointpolicymanager-2.webp)
 
 So you think you can manage "Formulas" settings for Microsoft Excel 2013 and 2016 using Group Policy
 and the ADMX files alone. Think again. The ADMX files only allot you a single setting configuration
 option. PolicyPak covers all of them.
 
-![94_3_graph](/img/product_docs/endpointpolicymanager/endpointpolicymanager/video/applicationsettings/94_3_graph.webp)
+![94_3_graph](/img/product_docs/endpointpolicymanager/video/applicationsettings/94_3_graph.webp)
 
 And of course there is Outlook, your business communication lifeline that needs to work properly
 every time it is launched. Security for this application is. Use PolicyPak to configure the "Don't
 download pictures automatically in HTML email messages or RSS items."
 
-![94_4_manage-outook-2016-using-group-policy-policypak-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/video/applicationsettings/94_4_manage-outook-2016-using-group-policy-endpointpolicymanager-1.webp)
+![94_4_manage-outook-2016-using-group-policy-policypak-1](/img/product_docs/endpointpolicymanager/video/applicationsettings/94_4_manage-outook-2016-using-group-policy-endpointpolicymanager-1.webp)
 
 PowerPoint doesn't seem like a security minded application, but like all of the Office 2013 and 2016
 Suite applications, you can configure the "Privacy Options" and opt out of the "Customer Experience
 Improvement Program."
 
-![94_5_manage-powerpoint-2016-using-group-policy-policypak-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/video/applicationsettings/94_5_manage-powerpoint-2016-using-group-policy-endpointpolicymanager-2.webp)
+![94_5_manage-powerpoint-2016-using-group-policy-policypak-2](/img/product_docs/endpointpolicymanager/video/applicationsettings/94_5_manage-powerpoint-2016-using-group-policy-endpointpolicymanager-2.webp)
 
 With PolicyPak, you're the one in control.
 

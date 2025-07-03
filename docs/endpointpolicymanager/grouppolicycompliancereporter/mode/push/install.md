@@ -5,14 +5,14 @@ However, Endpoint Policy Manager GPCR in push mode doesn't need to be installed 
 and could be installed on any machine (Windows 7 or higher). To start the installation, find the
 Endpoint Policy Manager GP Compliance Reporter (Server).msi file, as shown in Figure 36.
 
-![gpcr_server_with_push_mode](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode.webp)
+![gpcr_server_with_push_mode](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode.webp)
 
 Figure 36. GPCR server MSI.
 
 **Step 1 –** To install Endpoint Policy Manager GP Compliance Reporter, click on the MSI file and
 start the wizard (Figure 37).
 
-![gpcr_server_with_push_mode_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_1.webp)
+![gpcr_server_with_push_mode_1](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_1.webp)
 
 Figure 37. The Endpoint Policy Manager Group Policy Compliance Reporter Server Setup Wizard.
 
@@ -23,7 +23,7 @@ server as shown in Figure 38.
 following link:
 [Enhanced Security for Server](/docs/endpointpolicymanager/video/gpocompilancereporter/securityenhanced.md).
 
-![gpcr_server_with_push_mode_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_2.webp)
+![gpcr_server_with_push_mode_2](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_2.webp)
 
 Figure 38. Choosing the domain group that will have access to the GPCR server.
 
@@ -31,7 +31,7 @@ Figure 38. Choosing the domain group that will have access to the GPCR server.
 Microsoft SQL Server Compact if you only expect a small amount of data for processing and testing.
 However, in most cases, Microsoft SQL Server is recommended.
 
-![gpcr_server_with_push_mode_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_3.webp)
+![gpcr_server_with_push_mode_3](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_3.webp)
 
 Figure 39. Selecting the type of database.
 

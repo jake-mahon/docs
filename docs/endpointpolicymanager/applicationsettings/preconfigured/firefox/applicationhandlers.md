@@ -5,7 +5,7 @@ Firefox. The most common use cases are to open Adobe Reader instead of the inter
 viewer, or launch WinZip when a ZIP file is encountered. These can be seen in Figure 51. The node
 only works with client-side extension (CSE) build 1560 or later.
 
-![managing_application_handlers](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers.webp)
+![managing_application_handlers](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers.webp)
 
 Figure 51. Settings for opening applications outside of Firefox.
 
@@ -29,7 +29,7 @@ MODE=REPLACE    
 However, that doesn't happen because the UI doesn't change for the hard-coded items. Your list might
 look different from what is shown in Figure 52.
 
-![managing_application_handlers_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_1.webp)
+![managing_application_handlers_1](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_1.webp)
 
 Figure 52. Choosing how Firefox will handle downloaded files.
 
@@ -42,7 +42,7 @@ Figure 52. Choosing how Firefox will handle downloaded files.
   usually uses the MIME type returned in the "content-type" response header, as shown in
   Figure 53.
 
-![managing_application_handlers_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_2.webp)
+![managing_application_handlers_2](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_2.webp)
 
 Figure 53. The MIME type is determined by the "content-type" response header.
 
@@ -55,7 +55,7 @@ resources of such types internally. The general rule of thumb here is the follow
 no handler for the given type and Firefox normally shows an "Open with" dialog box for this type, it
 fires Application Handler for the same type when there is a handler, as shown in Figure 54.
 
-![managing_application_handlers_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_3.webp)
+![managing_application_handlers_3](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_3.webp)
 
 Figure 54. The "Open with" dialog box.
 
@@ -68,7 +68,7 @@ type. If the returned MIME type is a generic type for binary resources (applicat
 or some type with no special meaning for Firefox, Firefox fires Application Handler to open files
 like this, as shown in Figure 55.
 
-![managing_application_handlers_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_4.webp)
+![managing_application_handlers_4](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/managing_application_handlers_4.webp)
 
 Figure 55. The Firefox Application Handler.
 

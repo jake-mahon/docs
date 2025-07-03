@@ -20,14 +20,14 @@ Privilege Manager** section, select **Add** > **New Executable Policy**.
 ![A computer screen shot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables.webp)
 
 An executable rule can be one of two types:
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_1.webp)
 
 Simple rules match on a specific piece of criteria, which could include the name or location (Path),
 the fingerprint of the file (Hash), the company that digitally signed the file (Signature), or
@@ -45,7 +45,7 @@ topic. Future examples will purposely omit this step until we need it.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_2.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_2.webp)
 
 In this case, use a Hash condition, which indicates, "Run ProcMon.exe with elevated rights because
 of the Hash (fingerprint) of the file." Select **Hash** and click **Next**.
@@ -53,7 +53,7 @@ of the Hash (fingerprint) of the file." Select **Hash** and click **Next**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_3.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_3.webp)
 
 Additionally, this is where you set the settings for **Apply to child processes**. For now, leave
 as-is. You can learn more about this in ” in the section on“Best Practices and Miscellaneous
@@ -66,7 +66,7 @@ Algorithm to use.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_4.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_4.webp)
 
 The next screen, as shown here, demonstrates possible action types and options for Endpoint Policy
 Manager Least Privilege Manager.
@@ -74,7 +74,7 @@ Manager Least Privilege Manager.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_5.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_5.webp)
 
 These action types are:
 
@@ -121,7 +121,7 @@ The next page provides the opportunity to enhance this policy with these final t
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_6.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_6.webp)
 
 Once you have made your selections, an entry in the Group Policy Management Editor is obtained, as
 shown in here.
@@ -129,7 +129,7 @@ shown in here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_7.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_7.webp)
 
 To re-edit the policy, it is not necessary to use the wizard again. Instead, just double-click the
 policy entry to view it in a flat list, as shown here. Then click on any of the numbered items to
@@ -138,9 +138,9 @@ make any changes.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_8.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_8.webp)
 
 On your endpoint, log on as the user who will obtain the GPO (e.g., EastSalesUser1), or run
 GPupdate. Once the GPO applies, Process Monitor will run without a UAC prompt, as demonstrated here.
 
-![elevating_executables_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/elevating_executables_9.webp)
+![elevating_executables_9](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/elevating_executables_9.webp)

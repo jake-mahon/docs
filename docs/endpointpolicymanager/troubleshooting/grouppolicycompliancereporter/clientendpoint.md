@@ -11,7 +11,7 @@ are in Active Directory once an hour. Therefore, if a computer is moved or renam
 know about it until the next hour. However, you can restart the Endpoint Policy Manager GPCR Server
 service as shown in Figure 60. Then the most recent Active Directory data will be pulled and used.
 
-![tuning_and_troubleshooting_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_2.webp)
+![tuning_and_troubleshooting_2](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_2.webp)
 
 Figure 60. Restarting the Endpoint Policy Manager GPCR server service.
 
@@ -27,7 +27,7 @@ Scheduler as an admin. Only then will you see the "Endpoint Policy Manager GP Co
 Auditor" task as shown below. To force it to run, right-click on the task, and select "Run," as
 shown in Figure 61. It will go from being queued to having a finished status.
 
-![tuning_and_troubleshooting_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_3.webp)
+![tuning_and_troubleshooting_3](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_3.webp)
 
 Figure 61. Running the scheduled task from the Task Scheduler.
 
@@ -35,7 +35,7 @@ The second way to try to run the auditor is by hand, as SYSTEM. Local admin righ
 sufficient, and if you try to run the auditor as a user or admin, you will get an error, as shown in
 Figure 62.
 
-![tuning_and_troubleshooting_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_4.webp)
+![tuning_and_troubleshooting_4](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_4.webp)
 
 Figure 62. Running the auditor as a user or admin will result in an error.
 
@@ -44,7 +44,7 @@ PSEXEC tool from Microsoft. Run `PsExec -i -s CMD`, as shown in Figure 63. Then,
 auditor to run, run `\\server\share\PPGPCR.Auditor.exe TargetServer /force`. You must specify the
 Endpoint Policy Manager GPCR server on the command line, as shown in Figure 63.
 
-![tuning_and_troubleshooting_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_5.webp)
+![tuning_and_troubleshooting_5](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_5.webp)
 
 Figure 63. Specifying the PPGPCR server on the command line.
 
@@ -61,7 +61,7 @@ console) and each target machine requesting RSOP. An example of these errors is 
 please go to the following link:
 [Open required firewall ports](/docs/endpointpolicymanager/video/gpocompilancereporter/firewallports.md).
 
-![tuning_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_6.webp)
+![tuning_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_6.webp)
 
 Figure 64. Connection errors indicating a communication problem.
 
@@ -83,7 +83,7 @@ see an example of a GPO linked to "East Sales Desktops." The setting to open the
 Computer Configuration | Admin Templates | Network | Network Connections | Windows Firewall | Domain
 Profile | Windows Firewall: Allow inbound remote administrative exception, as shown in Figure 65.
 
-![tuning_and_troubleshooting_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_7.webp)
+![tuning_and_troubleshooting_7](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_7.webp)
 
 Figure 65. Enabling the setting "WIndows Firewall: Allow inbound remote administrative exception."
 
@@ -105,7 +105,7 @@ When a machine is licensed for Endpoint Policy Manager GP Compliance Reporter, y
 status shown as "OK," as shown in Figure 66. A status of "Connection Error" or "No License"
 indicates problems where this computer will not be able to be reported on.
 
-![tuning_and_troubleshooting_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_8.webp)
+![tuning_and_troubleshooting_8](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_8.webp)
 
 Figure 66. The license status of the machines.
 
@@ -116,7 +116,7 @@ Policy Manager GPCR helps test for compliance to your RCT. As such, an "OK" stat
 when 100% of the settings in the RCT (on the user- or computer-side) match what is on the target
 computer. Unless there is a perfect match, you will receive a warning, as shown in Figure 67.
 
-![gpcr_concepts_and_quickstart_29_624x174](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_29_624x174.webp)
+![gpcr_concepts_and_quickstart_29_624x174](/img/product_docs/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/gpcr_concepts_and_quickstart_29_624x174.webp)
 
 Figure 67. You will receive a warning if there is not a perfect match between the RCT and the target
 computer.

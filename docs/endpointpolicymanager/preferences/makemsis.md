@@ -32,28 +32,28 @@ Endpoint Policy Manager Cloud or Endpoint Policy Manager MDM.
 **Step 1 –** Run the Endpoint Policy Manager Exporter utility on your management station. You can
 find it on the Start Menu (for pre-Windows 8 systems).
 
-![quickstart_using_policypak_4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_4.webp)
+![quickstart_using_policypak_4](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_4.webp)
 
 **Step 2 –** In the Endpoint Policy Manager Exporter tool, select **Create a new MSI installer** and
 click **Next**.
 
-![quickstart_using_policypak_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_5.webp)
+![quickstart_using_policypak_5](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_5.webp)
 
 **Step 3 –** Click **Add Existing Files**. Then select the Group Policy Preferences XML file from
 the downloadable example, or the one you created. It will look similar to what is seen below.
 
-![quickstart_using_policypak_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_6.webp)
+![quickstart_using_policypak_6](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_6.webp)
 
 **Step 4 –** At this point, leave all other options and settings the same as shown in Figure 10 and
 then click **Next**. Once you've done this, look for the informational screen about the Windows
 Installer package that was just created, and click **Next**.
 
-![quickstart_using_policypak_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_7.webp)
+![quickstart_using_policypak_7](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_7.webp)
 
 **Step 5 –** Click **Next** and save the MSI file to a location of your choosing. In this example
 we've saved it to the desktop as Deploy GPP MSI.msi.
 
-![quickstart_using_policypak_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_8.webp)
+![quickstart_using_policypak_8](/img/product_docs/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_8.webp)
 
 See Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) for
 additional information on the Endpoint Policy Manager Exporter utility

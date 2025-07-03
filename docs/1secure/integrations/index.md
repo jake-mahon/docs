@@ -1,3 +1,12 @@
+---
+id: third-party-systems
+title: "Third-party Systems"
+pagination_label: "Third-party Systems"
+sidebar_label: "Third-party Systems"
+sidebar_position: 200
+description: "This page explains the third-party integrations available with Netwrix 1Secure, including ConnectWise, ServiceNow, and SharePoint Online."
+---
+
 # Third-party Systems
 
 Managed Service Providers use a service ticket to track an issue, usually by someone in an IT role.

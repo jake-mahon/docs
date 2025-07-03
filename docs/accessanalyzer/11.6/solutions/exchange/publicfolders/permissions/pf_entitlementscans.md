@@ -3,7 +3,7 @@
 The PF_EntitlementScans job is comprised of data collection that focuses on public folder
 permissions.
 
-![Collection > PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/databases/collection/collectionjobstree.webp)
+![Collection > PF_EntitlementScans Job](/img/product_docs/accessanalyzer/11.6/solutions/exchange/publicfolders/permissions/collectionjobstree.webp)
 
 The PF_EntitlementScans job is located in the Collection job group.
 

@@ -8,7 +8,7 @@ select **Integrations** to open the Integrations interface.
 
 Click **Tag Management** in the navigation pane to view a list of the already defined tags.
 
-![Integrations interface on the Tag Management page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Tag Management page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/page_5.webp)
 
 The out-of-the-box tags include:
 
@@ -48,7 +48,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 **Step 2 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Tag type selected](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/tagmanagement.webp)
+![Add New Integration window with Tag type selected](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/tagmanagement.webp)
 
 **Step 3 –** In the Type drop-down menu, select Tag.
 
@@ -73,7 +73,7 @@ a list of tags.
 
 **Step 8 –** Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/details.webp)
 
 This page provides the following information:
 
@@ -95,7 +95,7 @@ On the tag details window, click the Type drop-down menu to apply a filter.
 
 **_RECOMMENDED:_** Apply the desired Type filters when searching for objects to tag.
 
-![Honeypot tag with the Types drop-down menu open](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/typefilters.webp)
+![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/typefilters.webp)
 
 The following types are available:
 
@@ -111,7 +111,7 @@ types.
 
 Follow the steps to apply tags to objects.
 
-![Tag details page showing search results](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/searchselect.webp)
+![Tag details page showing search results](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/searchselect.webp)
 
 **Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
 a list of tags.
@@ -134,7 +134,7 @@ The tag is applied to the selected objects.
 
 Follow the steps to remove tags from objects.
 
-![Tag details page showing search results](/img/product_docs/accessanalyzer/11.6/admin/report/interactivegrids/search.webp)
+![Tag details page showing search results](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/integrations/search.webp)
 
 **Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
 a list of tags.

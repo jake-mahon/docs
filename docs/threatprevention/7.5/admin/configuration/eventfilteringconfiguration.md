@@ -11,7 +11,7 @@ Follow the steps to enable event filtering.
 **Step 1 –** Click **Configuration** > **Event Filtering** on the menu to open the Event Filtering
 Configuration window.
 
-![Event Filtering Configuration Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/eventfiltering.webp)
+![Event Filtering Configuration Window](/img/product_docs/threatprevention/7.5/admin/configuration/eventfiltering.webp)
 
 **Step 2 –** The filter options are grouped by AD Global Pre Filters, Authentication Global Pre
 Filters, and Alerts. Check the checkboxes to activate the filters and click **Save**.
@@ -79,7 +79,7 @@ The Exclude Logins from Machine Accounts option is enabled by default to filter 
 These events can result in a bloating of the database. Click the **configure** link to open the Edit
 Collection window.
 
-![Edit Collection window - For Machine Accounts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionmachineaccounts.webp)
+![Edit Collection window - For Machine Accounts](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionmachineaccounts.webp)
 
 The Exclude Logins from Machine Accounts collection is only accessible through the Event Filtering
 Configuration window. Either use the **Add** (+) button to open the
@@ -119,7 +119,7 @@ The Exclude Authentication Events from Selected Hosts option is disabled by defa
 configuration before it can be enabled. Click the **selected hosts** link to open the Edit
 Collection window.
 
-![Edit Collection window - For Hosts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionhosts.webp)
+![Edit Collection window - For Hosts](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionhosts.webp)
 
 The Exclude Authentication Events from Hosts collection is only accessible through the Event
 Filtering Configuration window. All three methods of identification for a host (IP address, NETBIOS
@@ -139,7 +139,7 @@ The Exclude Authentication Events from Selected Accounts option is disabled by d
 requires configuration before it can be enabled. Click the selected accounts link to open the Edit
 Collection window.
 
-![Edit Collection window - For Selected Accounts](/img/product_docs/threatprevention/threatprevention/admin/configuration/editcollectionaccounts.webp)
+![Edit Collection window - For Selected Accounts](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionaccounts.webp)
 
 The Exclude Authentication Events from Selected Accounts collection is only accessible through the
 Event Filtering Configuration window. Use the **Add** (+) button to open the

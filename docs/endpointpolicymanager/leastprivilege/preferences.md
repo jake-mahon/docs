@@ -22,7 +22,7 @@ Groups** and select **Local Group** .
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/using_group_policy_preferences.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/using_group_policy_preferences.webp)
 
 Next, you’ll use the **Update** action which has been selected by default along with the check box
 to **Delete all member users**.  You may also want to select **Delete all member groups** as well. 
@@ -35,7 +35,7 @@ user account should be members. This is achieved by clicking the **Add** button 
 ![A screenshot of a group
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/using_group_policy_preferences_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/using_group_policy_preferences_1.webp)
 
 Once the policy is deployed, you will have removed all non-privileged users from the local admins
 group of all targeted desktops.

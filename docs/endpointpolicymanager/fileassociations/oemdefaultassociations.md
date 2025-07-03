@@ -13,4 +13,4 @@ Therefore, use only Endpoint Policy Manager File Associations Manager and not th
 achieve File Associations goals. Remove any in-box Group Policy settings, etc, which are attempting
 to set File Associations and use only Endpoint Policy Manager to do it.
 
-![660_1_faq4-img1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/660_1_faq4-img1.webp)
+![660_1_faq4-img1](/img/product_docs/endpointpolicymanager/fileassociations/660_1_faq4-img1.webp)

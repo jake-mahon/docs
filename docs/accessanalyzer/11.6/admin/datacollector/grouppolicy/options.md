@@ -3,7 +3,7 @@
 The Options page is used to configure how to return multi-valued properties and how policy results
 are presented. It is a wizard page for all categories.
 
-![Group Policy Data Collector Wizard Options page](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Group Policy Data Collector Wizard Options page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/grouppolicy/options.webp)
 
 The configurable options are:
 

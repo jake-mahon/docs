@@ -33,7 +33,7 @@ opens.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
 
-![NIS Settings page](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
+![NIS Settings page](/img\product_docs\accessanalyzer\11.6\admin\datacollector\nis\settings.webp)
 
 **Step 4 –** On the NIS Settings page, enter the **NIS Domain Name** for the targeted NIS domain.
 This step is required prior to running this query. See the

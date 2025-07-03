@@ -40,7 +40,7 @@ displays.
 [SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/settings.md)
 page, customize as desired and click **Next**.
 
-![Scan Scoping Options](/img/product_docs/accessanalyzer/11.6/admin/datacollector/spaa/scanscopingoptions.webp)
+![Scan Scoping Options](/img/product_docs/accessanalyzer/11.6/solutions/sharepoint/collection/scanscopingoptions.webp)
 
 **Step 5 –** On the
 [SPAA: Scan Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/spaa/scanscopingoptions.md)
@@ -54,7 +54,7 @@ scan to specific web applications or site collections. Click **Next**.
 page, **Limit scanned depth to:** is selected with the default set at **2** levels. Customize this
 setting as desired and click **Next**.
 
-![Agent Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](/\img\product_docs\accessanalyzer\11.6\admin\datacollector\spaa\agentsettings.webp)
 
 **Step 7 –** On the
 [SPAA: Agent Settings](/docs/accessanalyzer/11.6/admin/datacollector/spaa/agentsettings.md)

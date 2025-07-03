@@ -34,7 +34,7 @@ The “username” and “password” parameters are required. The “server” 
 
 Example
 
-![POST api/Epe/CheckPassword (Basic)](/img/product_docs/threatprevention/threatprevention/eperestsite/basic.webp)
+![POST api/Epe/CheckPassword (Basic)](/img/product_docs/threatprevention/7.5/eperestsite/basic.webp)
 
 ## POST api/Epe/CheckPassword (Digest)
 
@@ -66,7 +66,7 @@ Required Header Input Parameters
 
 Example
 
-![POST api/Epe/CheckPassword (Digest)](/img/product_docs/threatprevention/threatprevention/eperestsite/digest.webp)
+![POST api/Epe/CheckPassword (Digest)](/img/product_docs/threatprevention/7.5/eperestsite/digest.webp)
 
 ## POST api/Epe/CheckPassword (Bearer)
 
@@ -97,4 +97,4 @@ Required Header Input Parameters
 
 Example
 
-![POST api/Epe/CheckPassword (Bearer)](/img/product_docs/threatprevention/threatprevention/eperestsite/bearer.webp)
+![POST api/Epe/CheckPassword (Bearer)](/img/product_docs/threatprevention/7.5/eperestsite/bearer.webp)

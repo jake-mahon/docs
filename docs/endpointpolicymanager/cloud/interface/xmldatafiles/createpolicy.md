@@ -11,16 +11,16 @@ For the items which do not have in-cloud editors, you must use the steps describ
 **[Upload XML Data File](/docs/endpointpolicymanager/cloud/interface/xmldatafiles/upload.md)** section. In this case, you must create the policy on-prem
 first, then export and upload it manually.
 
-![web_interface_and_controls_18_625x627](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_18_625x627.webp)
+![web_interface_and_controls_18_625x627](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_18_625x627.webp)
 
 The goal is to make the in-cloud editors as user-friendly as possible and closely resembling the
 on-prem editors. below you have the RDP Manager on-prem editor.
 
-![web_interface_and_controls_19_624x352](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_19_624x352.webp)
+![web_interface_and_controls_19_624x352](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_19_624x352.webp)
 
 Below is an example of the in-cloud editor of the same policy type.
 
-![web_interface_and_controls_20_498x384](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_20_498x384.webp)
+![web_interface_and_controls_20_498x384](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_20_498x384.webp)
 
 We cannot detail all the editors here, but we will explore one more important one, the Microsoft
 Admin Templates editor. To use this editor, select it from the top-level list, then select **+
@@ -37,11 +37,11 @@ that, see the "File Box" section later in this guide.
 Using the Admin Templates editor is a lot like using the familiar on-prem Group Policy editor. Once
 you find the setting you want, just select it.
 
-![web_interface_and_controls_21_624x373](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_21_624x373.webp)
+![web_interface_and_controls_21_624x373](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_21_624x373.webp)
 
 Next, specify the state and any other available options.
 
-![web_interface_and_controls_22_625x441](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_22_625x441.webp)
+![web_interface_and_controls_22_625x441](/img/product_docs/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_22_625x441.webp)
 
 Additionally, to learn how to use the in-cloud Microsoft Security Settings editors, we recommend
 this video:

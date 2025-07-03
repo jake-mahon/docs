@@ -7,7 +7,7 @@ Click **Configuration** > **Collections** on the menu to launch the
 [Collection Manager Window](/docs/threatprevention/7.5/admin/configuration/collectionmanager/overview.md). Then either double-click a Collection or select a
 Collection and click the Manage button to open the List of Collections window.
 
-![List of Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listofcollections.webp)
+![List of Collections window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/listofcollections.webp)
 
 At the top of the window, the Collection Category is displayed. Each item in the list displays:
 
@@ -23,7 +23,7 @@ Follow the steps to add a static collection.
 
 **Step 1 –** Click **Add** on the List of Collections window to open the Add New Collection window.
 
-![Add New Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addnewcollection.webp)
+![Add New Collections window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/addnewcollection.webp)
 
 **Step 2 –** Select an option:
 
@@ -46,7 +46,7 @@ Expand the domain tree in the navigation pane. Select an item in the Results pan
 click **OK**. See the [Selection Windows](/docs/threatprevention/7.5/admin/policies/eventtype/window/overview.md) topic for
 additional information.
 
-![Select window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/selectadobjects.webp)
+![Select window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/selectadobjects.webp)
 
 Use the **Remove** (x) button to remove Items from the list on the Add New Collection window.
 
@@ -67,7 +67,7 @@ collections:
 - Objects
 - Lockdown Objects
 
-![Expand Groups option on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/expandgroups.webp)
+![Expand Groups option on the Add New Collection window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/expandgroups.webp)
 
 - For Perpetrators – If checked, the groups and nested-groups are expanded to monitor effective
   group membership at the user level. This means the Agent monitors/blocks based on the user’s token
@@ -94,7 +94,7 @@ groups’ tokens.
 **Step 1 –** Select a collection on the List of Collections window and click **Edit**. The Edit
 Collection window opens.
 
-![Edit Collection Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/editcollection.webp)
+![Edit Collection Window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/editcollection.webp)
 
 **Step 2 –** You can modify the name, description, and items in the collection. See the Add New
 Collection Window topic for additional information on these settings.
@@ -107,7 +107,7 @@ Collection Window topic for additional information on these settings.
 Dependency Count column. Remove a collection from all policies it has been assigned to before
 deleting it.
 
-![Confirm Removal window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.webp)
+![Confirm Removal window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/confirmremoval.webp)
 
 **Step 2 –** Click **Yes** on the Confirm Removal window to delete the collection.
 
@@ -116,7 +116,7 @@ deleting it.
 **Step 1 –** Select a collection on the List of Collections window and click **Dependencies** to
 open the Collection Dependencies window.
 
-![Collection Dependencies Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dependencies.webp)
+![Collection Dependencies Window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/dependencies.webp)
 
 **Step 2 –** This window displays a list of all policy templates and policies the selected
 collection is assigned to. View the list and click **OK**.

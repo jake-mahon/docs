@@ -12,16 +12,16 @@ Before you start the upgrade, it is strongly recommended to take the following s
    [Download .NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 2. Back up NDC SQL database. For that:
 
-   1. Start Microsoft SQL Server Management Studio and connect to SQL Server instance hosting this
-      database.
-   2. In Object Explorer, right-click the database and select Tasks → Back Up.
-   3. Wait for the process to complete.
+    1. Start Microsoft SQL Server Management Studio and connect to SQL Server instance hosting this
+       database.
+    2. In Object Explorer, right-click the database and select Tasks → Back Up.
+    3. Wait for the process to complete.
 
 3. Back up the Index files. For that, it is recommended to do the following:
-   1. On the computer where Netwrix Data Classification is installed, start Netwrix Data
-      Classification Service Viewer tool. Select **Stop** next to each service.
-   2. Locate the folder containing index files (default location is _C:\Program
-      Files\ConceptSearching\ConceptDB_) and back it up.
+    1. On the computer where Netwrix Data Classification is installed, start Netwrix Data
+       Classification Service Viewer tool. Select **Stop** next to each service.
+    2. Locate the folder containing index files (default location is _C:\Program
+       Files\ConceptSearching\ConceptDB_) and back it up.
 
 **NOTE:** Consider that after the upgrade indexing mode will be set to the Compound Term.
 
@@ -43,10 +43,10 @@ there are several steps you may need to take after upgrading:
 
 1. Update taxonomies manually. For that:
 
-   1. In administrative web console, navigate to Taxonomies → Global Settings.
-   2. Click Update in the right corner next to each taxonomy
+    1. In administrative web console, navigate to Taxonomies → Global Settings.
+    2. Click Update in the right corner next to each taxonomy
 
-   ![update_taxonomy](/img/versioned_docs/dataclassification_5.6.2/ndc/deployment/update_taxonomy.webp)
+    ![update_taxonomy](/img/product_docs/dataclassification/5.6.2/deployment/update_taxonomy.webp)
 
 2. After the upgrade, indexing mode will be set to Compound Term mode. Refer to the following
    Netwrix knowledge base article for instructions on how to modify default Index Processing Mode:

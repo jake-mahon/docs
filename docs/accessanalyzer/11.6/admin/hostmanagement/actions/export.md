@@ -8,7 +8,7 @@ configure the data grid to contain all the columns you want to export. See the
 [Host Inventory Data Grid](/docs/accessanalyzer/11.6/admin/hostmanagement/datagrid.md)
 topic for additional information.
 
-![Export Data option on the Activities pane](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
+![Export Data option on the Activities pane](/img/product_docs/accessanalyzer/11.6/admin/hostmanagement/actions/export.webp)
 
 **Step 2 –** When the data grid contains all columns desired for export, click **Export Data**. A
 Save As window opens.

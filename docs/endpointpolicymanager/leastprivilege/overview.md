@@ -88,7 +88,7 @@ Endpoint Policy Manager Cloud enables you to create Endpoint Policy ManagerLeast
 directives using the in-cloud editors and connect endpoints (Windows and Mac) to get Endpoint Policy
 Manager Least Privilege Manager directives.
 
-![overview1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/overview1.webp)
+![overview1](/img/product_docs/endpointpolicymanager/leastprivilege/overview1.webp)
 
 While this manual mostly demonstrates concepts using the Group Policy editor, nearly everything can
 be done using the in-Endpoint Policy Manager-Cloud editors. Additionally, you can take on-prem MMC

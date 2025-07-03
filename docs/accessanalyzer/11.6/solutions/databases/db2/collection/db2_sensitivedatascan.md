@@ -111,7 +111,7 @@ Navigate to the **Databases** > **0.Collection** > **Db2** > **1-Db2_SensitiveDa
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/11.6/solutions/databases/db2/collection/sensitivedatascananalysis.webp)
 
 The default analysis tasks are:
 

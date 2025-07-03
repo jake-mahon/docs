@@ -4,7 +4,7 @@ Managing Firefox with Netwrix Endpoint Policy Manager (formerly PolicyPak) enabl
 what external applications will open outside of Firefox. For instance opening up Adobe Reader
 instead of the internal reader, and so on.
 
-![163_1_asdcvvfgfg](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_1_asdcvvfgfg.webp)
+![163_1_asdcvvfgfg](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_1_asdcvvfgfg.webp)
 
 Here are some nuances of Firefox Application Handlers.
 
@@ -13,7 +13,7 @@ Here are some nuances of Firefox Application Handlers.
 
 Here is the list of hard-coded handlers:
 
-![163_2_2017-11-15_1433](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_2_2017-11-15_1433.webp)
+![163_2_2017-11-15_1433](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_2_2017-11-15_1433.webp)
 
 For example, if you set PPAM FF Pak handler setting to the following value:
 
@@ -38,7 +38,7 @@ some special meaning in Web (CSS, JS, etc.). The actual decision is made based o
 type, and not on file extension. In case of HTTP/HTTP surfing, Firefox usually uses MIME type
 returned in "Content-Type" response header:
 
-![163_3_2017-12-13_1413](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_3_2017-12-13_1413.webp)
+![163_3_2017-12-13_1413](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_3_2017-12-13_1413.webp)
 
 If MIME type is "text/plain", "text/html", "text/css", "image/jpeg", or any other special type file
 is opened internally. Even if "Content-Type" header is not set in web response, Firefox uses some
@@ -52,7 +52,7 @@ The general rule of thumb here is the following: when there is no handler for th
 Firefox normally shows "Open with dialog" for this type, it fires Application Handler for the same
 type when there is a handler:
 
-![163_4_2017-12-13_1422](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_4_2017-12-13_1422.webp)
+![163_4_2017-12-13_1422](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_4_2017-12-13_1422.webp)
 
 3. The actual behavior during Web surfing depends on MIME type for resource returned by Web-server.
 
@@ -61,7 +61,7 @@ or whatever, it might not work for resources returned with non-standard MIME typ
 types is generic type for binary resources (application/octet stream), or some type with no special
 meaning for Firefox (see #2), Firefox fires handler to open file like this:
 
-![163_5_2017-12-13_1433](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_5_2017-12-13_1433.webp)
+![163_5_2017-12-13_1433](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/firefox/163_5_2017-12-13_1433.webp)
 
 Otherwise file will be opened internally.
 

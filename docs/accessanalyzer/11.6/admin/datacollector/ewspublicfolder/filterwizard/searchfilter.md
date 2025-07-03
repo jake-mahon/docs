@@ -2,7 +2,7 @@
 
 Use the Search Filter page to choose a filter template for the search.
 
-![Filter Wizard Search Filter page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/searchfilter.webp)
+![Filter Wizard Search Filter page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/ewspublicfolder/searchfilter.webp)
 
 Customize folder search conditions using the following options:
 

@@ -6,30 +6,30 @@ Endpoint Policy Manager Browser Router installed.
 A user on Windows 10 can then set his **Default Browser** from either within a browser, like
 Firefox, like this:
 
-![218_1_ppbr-faq-3-pic-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
+![218_1_ppbr-faq-3-pic-1](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
 
 Or, they can go directly into Windows **Default apps** and set the Web Browser like this…
 
-![218_2_ppbr-faq-3-pic-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
+![218_2_ppbr-faq-3-pic-2](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
 
 But as soon as you have Endpoint Policy Manager Browser Router licensed and with ANY Endpoint Policy
 Manager Browser Router rules enabled,you will see Endpoint Policy Manager Browser Router Agent as
 the **Web Browser** inside Windows 10.
 
-![218_3_ppbr-faq-3-pic-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
+![218_3_ppbr-faq-3-pic-3](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
 
 Then, using Endpoint Policy Manager Browser Router, you can set what the **Default Browser**
 policies. Below are two examples on how to do find that.
 
-![218_4_ppbr-faq-3-pic-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_4_ppbr-faq-3-pic-4.webp)
+![218_4_ppbr-faq-3-pic-4](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_4_ppbr-faq-3-pic-4.webp)
 
-![218_5_ppbr-faq-3-pic-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_5_ppbr-faq-3-pic-5.webp)
+![218_5_ppbr-faq-3-pic-5](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_5_ppbr-faq-3-pic-5.webp)
 
 When you set the **Default Browser** using Endpoint Policy Manager to IE, Edge, Chrome, or Firefox,
 the operating system will still showEndpoint Policy Manager **Browser Router Agent** as the **Web
 Browser**.
 
-![218_6_ppbr-faq-3-pic-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
+![218_6_ppbr-faq-3-pic-6](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
 
 But the user's perception of their Default Browser will be what you set here.
 

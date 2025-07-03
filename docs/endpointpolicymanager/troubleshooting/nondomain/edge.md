@@ -27,7 +27,7 @@ Steps:
 
 **Step 6 –** Paste the below script in to the window
 
-![856_1_image-20211130230540-1_950x555](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/nondomain/856_1_image-20211130230540-1_950x555.webp)
+![856_1_image-20211130230540-1_950x555](/img/product_docs/endpointpolicymanager/troubleshooting/nondomain/856_1_image-20211130230540-1_950x555.webp)
 
 **Step 7 –** Wait for Policy refresh or run PPCLOUD /SYNC at endpoint
 
@@ -35,7 +35,7 @@ Steps:
 
 **Step 9 –** Users will be presented with the following screen. Click Turn on extension
 
-![856_2_image-20211130230540-2_950x436](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/nondomain/856_2_image-20211130230540-2_950x436.webp)
+![856_2_image-20211130230540-2_950x436](/img/product_docs/endpointpolicymanager/troubleshooting/nondomain/856_2_image-20211130230540-2_950x436.webp)
 
 \*\*\*\*\* PowerShell Script to apply using Scripts Manager: Scripts & Triggers Manager >
 [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md)

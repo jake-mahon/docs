@@ -8,7 +8,7 @@ Taskbar Manager policy or collection.
 **NOTE:** You will only see the Start Screen Manager and Taskbar Manager nodes when the latest Admin
 Console MSI is installed on the management station.
 
-![about_policypak_start_screen_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/about_endpointpolicymanager_start_screen_2.webp)
+![about_policypak_start_screen_2](/img/product_docs/endpointpolicymanager/startscreentaskbar/about_endpointpolicymanager_start_screen_2.webp)
 
 Figure 3. The Start Screen Manager and Taskbar Manager nodes.
 
@@ -20,7 +20,7 @@ The functions of policies, collections, and groups are as follows:
 
 To see how to add new collections and policies, see Figure 4.
 
-![about_policypak_start_screen_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/about_endpointpolicymanager_start_screen_3.webp)
+![about_policypak_start_screen_3](/img/product_docs/endpointpolicymanager/startscreentaskbar/about_endpointpolicymanager_start_screen_3.webp)
 
 Figure 4. Adding collections and policies.
 

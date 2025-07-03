@@ -4,7 +4,7 @@ The Deploy Agents wizard's Installing window is the last in a sequence of four w
 Agent on a computer. This window performs the desired action, tracks the deployment process, and
 displays a successful or failed status.
 
-![Deploy Agents wizard – Installing page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/installing.webp)
+![Deploy Agents wizard – Installing page](/img/product_docs/threatprevention/7.4/admin/agents/deploy/installing.webp)
 
 It displays the working and completed status of the action. Depending on whether the Agent is
 deployed successfully, the Message column displays a failed message with additional text or a

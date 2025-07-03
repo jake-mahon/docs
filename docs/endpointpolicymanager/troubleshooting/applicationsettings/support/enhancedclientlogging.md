@@ -6,6 +6,6 @@ enough troubleshooting information. Only enable these logs when working with tec
 Go to `HKLM\SOFTWARE\Policies\PolicyPak\Config\CSE\` and create a` REG_DWORD` named `ExtendedLogs`
 to a value of 1. An example can be seen in Figure 96.
 
-![troubleshooting_policypak_624x284](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/support/troubleshooting_endpointpolicymanager_624x284.webp)
+![troubleshooting_policypak_624x284](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/support/troubleshooting_endpointpolicymanager_624x284.webp)
 
 Figure 96. The creation and naming of `REG_DWORD`.

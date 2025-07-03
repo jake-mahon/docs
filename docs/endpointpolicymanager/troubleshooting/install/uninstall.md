@@ -11,7 +11,7 @@ this can fix the problem by fooling the MSI database.
 If that does not work, you might see a dialog similar to this when trying to install/uninstall. Even
 if you revert to a previous version, it is still likely that the CSE won't uninstall.
 
-![116_1_msiuu2-image-005](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/install/116_1_msiuu2-image-005.webp)
+![116_1_msiuu2-image-005](/img/product_docs/endpointpolicymanager/troubleshooting/install/116_1_msiuu2-image-005.webp)
 
 ## Resolution
 
@@ -28,7 +28,7 @@ MSICUU from this link:
 
 **Step 2 –** Then launch it and select the CSE version and click **Remove**.
 
-![116_2_msiuu2-image-006](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/install/116_2_msiuu2-image-006.webp)
+![116_2_msiuu2-image-006](/img/product_docs/endpointpolicymanager/troubleshooting/install/116_2_msiuu2-image-006.webp)
 
 **Step 3 –** Manually install the latest Endpoint Policy Manager CSE, and verify it worked as
 expected.

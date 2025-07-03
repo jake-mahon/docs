@@ -25,7 +25,7 @@ the same file on other computers
 
 - There will sometimes be multiple logs files for each attempt
 
-![608_1_image-20201029193618-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/install/608_1_image-20201029193618-1.webp)
+![608_1_image-20201029193618-1](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/install/608_1_image-20201029193618-1.webp)
 
 ## Resolution
 
@@ -40,7 +40,7 @@ Delete the malformed file and re-run the installation
 
 **Step 2 –** Uninstall the "Endpoint Policy Manager Cloud Client"
 
-![608_2_image-20201029193618-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/install/608_2_image-20201029193618-2.webp)
+![608_2_image-20201029193618-2](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/install/608_2_image-20201029193618-2.webp)
 
 **Step 3 –** Rerun the installation of the Cloud Client
 
@@ -58,7 +58,7 @@ Download the CSE from the Endpoint Policy Manager Portal
 
 **Step 2 –** On the Home page, download the "Latest Bits" in the form of either a ZIP or ISO file
 
-![608_3_image-20201029193618-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/cloud/install/608_3_image-20201029193618-3.webp)
+![608_3_image-20201029193618-3](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/install/608_3_image-20201029193618-3.webp)
 
 - Follow the prompts to complete the download.
 

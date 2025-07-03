@@ -1,6 +1,6 @@
 # How can I use Item Level Targeting to specify Windows Virtual Desktops (WVD) Multi-session Windows?
 
-![642_1_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/itemleveltargeting/642_1_1.webp)
+![642_1_1](/img/product_docs/endpointpolicymanager/itemleveltargeting/642_1_1.webp)
 
 The query you want is:
 
@@ -10,7 +10,7 @@ The query you want is:
 
 The result will look like this:
 
-![642_2_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/itemleveltargeting/642_2_2.webp)
+![642_2_2](/img/product_docs/endpointpolicymanager/itemleveltargeting/642_2_2.webp)
 
 **NOTE:** For other unusual SKUs and information on how to get the ID, see the Microsoft article on
 [OperatingSystemSKU Enum.](https://learn.microsoft.com/en-us/dotnet/api/microsoft.powershell.commands.operatingsystemsku?view=powershellsdk-1.1.0)

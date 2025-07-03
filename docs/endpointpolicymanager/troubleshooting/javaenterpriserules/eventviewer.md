@@ -5,7 +5,7 @@ Services Log | Endpoint Policy Manager look for Endpoint Policy Manager k Java R
 events. Specifically, Event 8021 will show the XML used to write the Java Rules, as shown in
 Figure 34.
 
-![troubleshooting_policypak_5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_5.webp)
+![troubleshooting_policypak_5](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_5.webp)
 
 Figure 34. Event 8021 shows the XML used to write the Java Rules.
 

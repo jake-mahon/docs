@@ -34,6 +34,6 @@ The Welcome page gives an overview of the action module. The navigation pane con
 pages in the wizard. Review the introductory and caution information about the Public Folder Action
 Module before proceeding.
 
-![Public Folder Action Module Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
+![Public Folder Action Module Wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/action/publicfolder/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

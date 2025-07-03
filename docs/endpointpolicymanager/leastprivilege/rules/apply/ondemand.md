@@ -19,7 +19,7 @@ and set the action to **Apply on Demand**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The result of this change (after running GPupdate) is that when the end-user tries to run Procmon,
 they will see the standard UAC prompt.
@@ -31,7 +31,7 @@ prompt (if the application requires UAC), like the one shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The user will now need to right-click the application and choose **Run with Endpoint Policy Manager
 On-Demand**.
@@ -39,7 +39,7 @@ On-Demand**.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
 **NOTE:** You can change the name of the menu item from **Run with** Endpoint Policy Manager
 **On-Demand** via Global Settings Policy.. See the

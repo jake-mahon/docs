@@ -12,7 +12,7 @@ as shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
 
 With the auditing information, you can make a Endpoint Policy Manager (formerly PolicyPak) Least
 Privilege Manager Elevate rule to overcome this when the user is transitioning from being a local

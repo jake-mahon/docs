@@ -4,7 +4,7 @@ Some applications have a non-standard interface. The interface can still be capt
 results may not be quite what you expect. In Figure 62, the left side of the screen shows the actual
 application, Adobe Reader, and the right side of the screen shows the first captured tab.
 
-![crafting_the_user_interface_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_3.webp)
+![crafting_the_user_interface_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_3.webp)
 
 Figure 62. Some applications may not be captured as expected.
 
@@ -19,18 +19,18 @@ another tab, Endpoint Policy Manager DesignStudio realizes that this application
 tabs, so you are prompted to manually enter the name of each of this application's categories, as
 shown in Figure 63 and Figure 64.
 
-![crafting_the_user_interface_4_624x410](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_4_624x410.webp)
+![crafting_the_user_interface_4_624x410](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_4_624x410.webp)
 
 Figure 63. The prompt to manually enter the name of the categories.
 
-![crafting_the_user_interface_5_624x185](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_5_624x185.webp)
+![crafting_the_user_interface_5_624x185](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_5_624x185.webp)
 
 Figure 64. Manually adding the categories.
 
 You can see in Figure 65 that Endpoint Policy Manager Capture Wizard also captures the categories
 bar even though it is not an element we want on the page.
 
-![crafting_the_user_interface_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_6.webp)
+![crafting_the_user_interface_6](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_6.webp)
 
 Figure 65. The captured categories bar.
 
@@ -41,14 +41,14 @@ want to delete all the elements in the frame. You can then reposition the other 
 and manually align them. You can also use the Hierarchy tab's "Realign controls to fit the page"
 button to auto-place and center the items on the form, as shown in Figure 66.
 
-![crafting_the_user_interface_7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_7.webp)
+![crafting_the_user_interface_7](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_7.webp)
 
 Figure 66. Centering the items on the form.
 
 The result is shown in Figure 67. However, there is a problem with the name of the category. It
 should be called General instead of Preferences.
 
-![crafting_the_user_interface_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_8.webp)
+![crafting_the_user_interface_8](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_8.webp)
 
 Figure 67. An incorrect tab name.
 
@@ -56,6 +56,6 @@ To rename a tab (or any element), click on it (select the Properties tab) and th
 type in the correct name. In this example, you would replace the name "Preferences" with "General,"
 as shown in Figure 68.
 
-![crafting_the_user_interface_9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_9.webp)
+![crafting_the_user_interface_9](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_9.webp)
 
 Figure 68. Changing the tab name.

@@ -10,7 +10,7 @@ container for Exchange servers.
 **Step 1 –** Open the Host Discovery Wizard. On the Source Page, select the **Query an Active
 Directory server (Discover Exchange servers)** option. Click **Next**.
 
-![Host Discovery Wizard Query page for AD Exchange](/img/product_docs/accessanalyzer/11.6/admin/datacollector/nis/query.webp)
+![Host Discovery Wizard Query page for AD Exchange](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/query_5.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -42,7 +42,7 @@ Leave this page unchanged. If you must modify this page, see the
 [Query an Active Directory Server (General)](/docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/adgeneral.md)
 topic for instructions. Click **Next**.
 
-![Host Discovery Wizard Options page for AD Exchange](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Host Discovery Wizard Options page for AD Exchange](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/options_5.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -88,7 +88,7 @@ the discovery query.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for AD Exchange](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
+![Host Discovery Wizard Summary page for AD Exchange](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/summary_5.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the

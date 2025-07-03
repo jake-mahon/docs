@@ -5,7 +5,7 @@ Enterprise Auditor source table that uniquely identifies the target Active Direc
 which to perform the action. This process enables Enterprise Auditor to locate those objects within
 Active Directory. Added fields are displayed in the textbox.
 
-![Active Directory Action Module Wizard Target page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/query/target.webp)
+![Active Directory Action Module Wizard Target page](/img/product_docs/accessanalyzer/11.6/admin/action/activedirectory/target.webp)
 
 Use the following options to configure the action:
 

@@ -16,25 +16,25 @@ User Configuration side, and click ,**Least Privilege Manager**.
 
 **Step 3 –** Add new EXE Policy (a or b).
 
-![621_1_image-20200510100624-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_1_image-20200510100624-1.webp)
+![621_1_image-20200510100624-1](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_1_image-20200510100624-1.webp)
 
 **Step 4 –** Select **Use Combo Rule …** and click **NEXT**.
 
-![621_3_image-20200510100625-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
+![621_3_image-20200510100625-2](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
 
 **Step 5 –** Under **Conditions** check **Path**, and under Settings check **Command-line
 arguments** and **Apply to child processes** . Click **Next**.
 
-![621_5_image-20200510100625-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_5_image-20200510100625-3.webp)
+![621_5_image-20200510100625-3](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_5_image-20200510100625-3.webp)
 
 **Step 6 –** Under **Path Condition** click the **Add** drop-down and select **Add file ...**.
 
-![621_7_image-20200510100625-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_7_image-20200510100625-4.webp)
+![621_7_image-20200510100625-4](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_7_image-20200510100625-4.webp)
 
 **Step 7 –** Either browse for `regedit.exe`, or type in "`%SYSTEMROOT%\regedit.exe`" and click
 **OK**.
 
-![621_9_po_950x46](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_9_po_950x46.webp)
+![621_9_po_950x46](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_9_po_950x46.webp)
 
 **Step 8 –** Click on **Command-line Arguments**
 
@@ -44,11 +44,11 @@ arguments** and **Apply to child processes** . Click **Next**.
 3. Check **Ignore arguments case**
 4. Click **Next**.
 
-   ![621_11_image-20200510100625-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_11_image-20200510100625-6.webp)
+   ![621_11_image-20200510100625-6](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_11_image-20200510100625-6.webp)
 
 **Step 9 –** Select **Run with elevated privileges** and Click **Next**.
 
-![621_13_image-20200510100625-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
+![621_13_image-20200510100625-7](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
 
 **Step 10 –** Rename and set Item Level Targeting if required and click **Finish**.
 
@@ -69,18 +69,18 @@ Regedit.exe /s \\server\share\NewRegValue.reg
 
 **Step 3 –** Create new SCRIPT Policy (a or b).
 
-![621_15_image-20200510100625-8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_15_image-20200510100625-8.webp)
+![621_15_image-20200510100625-8](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_15_image-20200510100625-8.webp)
 
 **Step 4 –** Select **Use Combo Rule …** and click **Next**.
 
 **NOTE:** Although you can use a simple rule and simply use path as the qualifying factor, for
 security purposes it is recommended you have multiple qualifying factors.
 
-![621_17_image-20200510100625-9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
+![621_17_image-20200510100625-9](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_3_image-20200510100625-2.webp)
 
 **Step 5 –** Under Conditions check **Path** and **Hash** and click **Next**.
 
-![621_19_image-20200510100625-10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_19_image-20200510100625-10.webp)
+![621_19_image-20200510100625-10](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_19_image-20200510100625-10.webp)
 
 **NOTE:** If you make changes to the script, the Hash value will need to be updated for the policy
 to remain valid. Alternatively, if you digitally sign your script, Signature can be used instead of
@@ -88,22 +88,22 @@ Hash as the second method of validation.
 
 **Step 6 –** Under Path Condition click the **Add** drop-down and select .**Add file ...**.
 
-![621_21_image-20200510100625-11](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_21_image-20200510100625-11.webp)
+![621_21_image-20200510100625-11](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_21_image-20200510100625-11.webp)
 
 **Step 7 –** Browse to the location of the` PowerShell script -> When Prompted`, allow to
 automatically fill in Hash value,
 
-![621_23_image-20200510100625-12](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_23_image-20200510100625-12.webp)
+![621_23_image-20200510100625-12](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_23_image-20200510100625-12.webp)
 
-![621_25_image-20200510100625-13](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_25_image-20200510100625-13.webp)
+![621_25_image-20200510100625-13](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_25_image-20200510100625-13.webp)
 
 **Step 8 –** Click on **Hash Condition** to confirm Value has been `set -> If desired`, and change
 algorithm to setting of .
 
-![621_27_image-20200510100625-14](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_27_image-20200510100625-14.webp)
+![621_27_image-20200510100625-14](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_27_image-20200510100625-14.webp)
 
 **Step 9 –** Select "**Run with elevated privileges**and click **Next**.
 
-![621_29_image-20200510100625-15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
+![621_29_image-20200510100625-15](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/621_13_image-20200510100625-7.webp)
 
 **Step 10 –** Rename and set Item Level Targeting if required and click **Finish**.

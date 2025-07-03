@@ -5,7 +5,7 @@ blocked by the selected policy. See the [Investigate Interface](/docs/threatprev
 recent events monitored or blocked by all policies. You can also view event data configured to be
 sent to syslog (SIEM) on the [SIEM Output Viewer](/docs/threatprevention/7.5/admin/configuration/siemoutputviewer.md) window.
 
-![Policy - Recent Events tab](/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventstab.webp)
+![Policy - Recent Events tab](/img/product_docs/threatprevention/7.5/admin/policies/recentevents/recenteventstab.webp)
 
 The Recent Events tab has the following options on the toolbar:
 
@@ -106,7 +106,7 @@ below in the default order of the data grid columns:
 
 Select an event to view additional information about it.
 
-![Recent Events tab - Additional Information for an event](/img/product_docs/threatprevention/threatprevention/admin/policies/recentevents/recenteventdetails.webp)
+![Recent Events tab - Additional Information for an event](/img/product_docs/threatprevention/7.5/admin/policies/recentevents/recenteventdetails.webp)
 
 The following information (as applicable to the event) is displayed:
 
@@ -122,7 +122,7 @@ This data grid employs features for sorting, filtering, searching, and more. See
 
 Right-click on a row in the data grid to open the right-click menu.
 
-![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/threatprevention/admin/agents/rightclickmenu.webp)
+![Recent Events tab - Right-Click menu](/img/product_docs/threatprevention/7.5/admin/policies/recentevents/rightclickmenu.webp)
 
 - Copy – Copies the selected data cell to clipboard
 - Event Viewer – Opens the [Event Viewer Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventviewer.md) for the selected event/data row

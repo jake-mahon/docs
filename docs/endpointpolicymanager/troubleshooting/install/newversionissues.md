@@ -58,4 +58,4 @@ build and this build. Yes? → As ADMIN.. Run `PPLOGS` and send us PPLOGS (renam
   - Endpoint Policy Manager Applock.
   - Endpoint Policy Manager File Associations Manager. … And possibly other items.
 
-![175_1_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/install/175_1_image002.webp)
+![175_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/install/175_1_image002.webp)

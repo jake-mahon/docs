@@ -4,7 +4,7 @@ The 0.Collection > EX_IISLogs Job provides data collection to be utilized in the
 Web Access, and Outlook Anywhere Reports. This job goes out to each server that contains the
 IIS Logs and parses the log to return the data to the Enterprise Auditor database.
 
-![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/databases/collection/collectionjobstree.webp)
+![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/collectionjobstree.webp)
 
 The EX_IISLogs job is located in the 0.Collection Job Group.
 

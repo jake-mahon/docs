@@ -6,7 +6,7 @@ In an investigation report, user names appear as links under the Perpetrator col
 Details and Top Resources sections (see the [Investigation Reports](/docs/threatprevention/7.5/reportingmodule/investigations/reports.md) topic). Click a link
 to land on the User Details page.
 
-![userdetails](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/userdetails.webp)
+![userdetails](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/userdetails.webp)
 
 The top of the page displays a user profile card which may contain the following information about
 the user:

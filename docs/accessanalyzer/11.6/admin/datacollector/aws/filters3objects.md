@@ -28,7 +28,7 @@ Select from the available buckets and click **OK** to add them to the Filter S3 
 
 The Add Custom Filter window allows a custom filter to be configured.
 
-![Add Custom Filter window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/customfilter.webp)
+![Add Custom Filter window](/img/product_docs/accessanalyzer/11.6/admin/datacollector/aws/customfilter.webp)
 
 Configure a custom filter using the following format:
 

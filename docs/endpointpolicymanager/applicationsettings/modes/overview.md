@@ -14,7 +14,7 @@ which elements to configure, enforce, and even disable or hide.
 In Figure 22, you can see which modes are available when right-clicking a Endpoint Policy Manager
 Application Settings Manager attribute with settings data inside.
 
-![policypak_application_settings_1_1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_1.webp)
+![policypak_application_settings_1_1](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_1.webp)
 
 Figure 22. The modes available in Endpoint Policy Manager Application Settings Manager.
 
@@ -26,7 +26,7 @@ highlighted the following modes:
 - Endpoint Policy Manager Application Settings Manager ACL Lockdown™ mode
 - Endpoint Policy Manager Application Settings Manager Applock™ modes
 
-![policypak_application_settings_1_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_2.webp)
+![policypak_application_settings_1_2](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_2.webp)
 
 Figure 23. The areas of control for an element.
 

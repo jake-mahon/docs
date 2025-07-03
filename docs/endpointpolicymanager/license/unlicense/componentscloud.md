@@ -14,21 +14,21 @@ for additional information on this topic.
 The basic gist is that you'll be using Group Policy to deliver a setting which un-licenses a
 specific component like this.
 
-![188_1_zxcxvxvxv](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/unlicense/188_1_zxcxvxvxv.webp)
+![188_1_zxcxvxvxv](/img/product_docs/endpointpolicymanager/license/unlicense/188_1_zxcxvxvxv.webp)
 
 ## 2 — When using Endpoint Policy Manager Cloud
 
 You can deliver the same setting via Endpoint Policy Manager Cloud as an Admin Template entry. Find
 the Endpoint Policy Manager Admin Templates, then find the setting.
 
-![188_3_ertyetyur](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/unlicense/188_3_ertyetyur.webp)
+![188_3_ertyetyur](/img/product_docs/endpointpolicymanager/license/unlicense/188_3_ertyetyur.webp)
 
 Once enabled, the component will be de-activated.
 
-![188_5_zzsgdfhfghjk](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/unlicense/188_5_zzsgdfhfghjk.webp)
+![188_5_zzsgdfhfghjk](/img/product_docs/endpointpolicymanager/license/unlicense/188_5_zzsgdfhfghjk.webp)
 
 When you unlicense via ADMX you can test your results with the `PPUPDATE` command. The expected
 result should be similar to this example, where you can see the license is valid, but the component
 (in this case Browser Router) is prevented from being licensed by a policy.
 
-![188_7_img-2_950x649](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/unlicense/188_7_img-2_950x649.webp)
+![188_7_img-2_950x649](/img/product_docs/endpointpolicymanager/license/unlicense/188_7_img-2_950x649.webp)

@@ -11,7 +11,7 @@ Policy Manager Application Manager).
 In the Customer Portal, you'll see the BUILD number demonstrated like this … in this example the
 build is 834..
 
-![217_1_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/217_1_image002.webp)
+![217_1_image002](/img/product_docs/endpointpolicymanager/troubleshooting/217_1_image002.webp)
 
 Here's how to read it:
 
@@ -32,15 +32,15 @@ You'll only see the CSE ID which should match the build number.
 
 Older builds, like 761 will show it like this:
 
-![217_2_image0011](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/217_2_image0011.webp)
+![217_2_image0011](/img/product_docs/endpointpolicymanager/troubleshooting/217_2_image0011.webp)
 
 Newer builds, like 834 will show it like this:
 
-![217_3_image004](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/217_3_image004.webp)
+![217_3_image004](/img/product_docs/endpointpolicymanager/troubleshooting/217_3_image004.webp)
 
 You can also see the same number in Programs / Features in Windows like this:
 
-![217_4_image005](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/217_4_image005.webp)
+![217_4_image005](/img/product_docs/endpointpolicymanager/troubleshooting/217_4_image005.webp)
 
 What do the numbers BEFORE the build mean?
 
@@ -57,4 +57,4 @@ In this screenshot, you can see the original style and the new style:
 - Original style (4.2.785.1) means build 785 of the DesignStudio compiled the Pak.
 - New Style (15.12.827.19) means build 827 of the DesignStudio compiled the Pak.
 
-![217_5_image006](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/217_5_image006.webp)
+![217_5_image006](/img/product_docs/endpointpolicymanager/troubleshooting/217_5_image006.webp)

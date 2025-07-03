@@ -17,9 +17,9 @@ Endpoint Policy Manager Cloud service to client machines, where they are receive
 the directives you have licensed. Endpoint Policy Manager Cloud can be used with or without Active
 Directory.
 
-![concepts_logons_and_downloads_437x399](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/concepts_logons_and_downloads_437x399.webp)
+![concepts_logons_and_downloads_437x399](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_437x399.webp)
 
-![concepts_logons_and_downloads_1_436x375](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/concepts_logons_and_downloads_1_436x375.webp)
+![concepts_logons_and_downloads_1_436x375](/img/product_docs/endpointpolicymanager/cloud/concepts_logons_and_downloads_1_436x375.webp)
 
 Below are some Endpoint Policy Manager Cloud concepts:
 

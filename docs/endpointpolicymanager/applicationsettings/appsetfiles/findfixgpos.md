@@ -3,7 +3,7 @@
 If someone deletes the DLL for a GPO (either within the Central Storage or Local Store), when you're
 editing the GPO you'll see the error shown in Figure 88.
 
-![policypak_application_settings_3_26](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_26.webp)
+![policypak_application_settings_3_26](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_26.webp)
 
 Figure 88. If the DLL is deleted for a GPO, an error will be shown.
 
@@ -14,7 +14,7 @@ To help you quickly find all instances where this occurs, the Endpoint Policy Ma
 utility can locate all Endpoint Policy Manager DLL Orphans and rectify the situation. You can see
 the Endpoint Policy Manager GPOTouch utility in Figure 89.
 
-![policypak_application_settings_3_27](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_27.webp)
+![policypak_application_settings_3_27](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/endpointpolicymanager_application_settings_3_27.webp)
 
 Figure 89. The Endpoint Policy Manager GPOTouch utility can find and repair orphaned Paks within
 GPOs.

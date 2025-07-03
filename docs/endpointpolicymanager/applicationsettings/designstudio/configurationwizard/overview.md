@@ -7,6 +7,6 @@ is generally available to help you implement the details of what any element is 
 Configuration Wizard, you can right-click over most elements and select "Configuration Wizard" or
 click on the wand, as shown in Figure 107.
 
-![configuring_elements_using](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using.webp)
+![configuring_elements_using](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using.webp)
 
 Figure 107. Starting the Configuration Wizard.

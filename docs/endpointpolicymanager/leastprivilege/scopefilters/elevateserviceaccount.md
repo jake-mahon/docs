@@ -29,4 +29,4 @@ should be trimmed to the specific account you specified to run the service runs 
 Tip: It's also possible to use Scope Filter = SERVICES to make the rule apply to all services that
 run from the specified .exe, regardless of the user.
 
-![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/scopefilters/scenario_4_elevating_a_service.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/scopefilters/scenario_4_elevating_a_service.webp)

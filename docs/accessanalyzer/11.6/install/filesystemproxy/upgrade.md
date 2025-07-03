@@ -44,7 +44,7 @@ host lists have been updated.
 
 Follow the steps on the servers hosting the File System Proxy Service.
 
-![Programs and Features](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/uninstall.webp)
+![Programs and Features](/img/product_docs/accessanalyzer/11.6/install/filesystemproxy/uninstall.webp)
 
 **Step 1 –** Navigate to Programs and Features (**Control Panel** > **Programs** > **Programs and
 Features**). Uninstall the previous version of Enterprise Auditor File System Scanning Proxy.

@@ -8,14 +8,14 @@ First you must turn on the option with a Global DLL policy, which may only be en
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications.webp)
 
 Then create a matching rule with **New DLL Policy**.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications_1.webp)
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications_1.webp)
 
 Then you can **Deny execution** of the DLL when it is encountered.
 

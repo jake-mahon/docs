@@ -27,7 +27,7 @@ Follow the steps to configure Threat Prevention to send event data to Threat Man
 Configuration** on the menu. The Netwrix Threat Manager Configuration window opens with the Event
 Sink tab displayed by default.
 
-![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/threatmanagerconfiguration.webp)
+![Netwrix Threat Manager Configuration window - Event Sink tab](/img/product_docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration.webp)
 
 **Step 3 –** In the Netwrix Threat Manager URI box, enter the Threat Manager hostname or IP address
 and port in the following format. The default port for Threat Manager is **10001**.
@@ -96,7 +96,7 @@ Configuration** on the menu. The Netwrix Threat Manager Configuration window ope
 
 **Step 4 –** Click the **Honey Token** tab.
 
-![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/honeytoken.webp)
+![Netwrix Threat Manager Configuration Window - Honey Tokem tab](/img/product_docs/threatprevention/7.5/admin/configuration/honeytoken.webp)
 
 **Step 5 –** Check the **Enable LDAP substitution** checkbox to enable the options on the tab.
 
@@ -137,7 +137,7 @@ the window to open the Configure Analytics window.
 **Step 6 –** In Threat Prevention, click **Configuration** > **Netwrix Threat Manager
 Configuration** on the menu. The Netwrix Threat Manager Configuration window opens.
 
-![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/forgedpac.webp)
+![Netwrix Threat Manager Configuration Window - Forged PAC tab](/img/product_docs/threatprevention/7.5/admin/configuration/forgedpac.webp)
 
 **Step 7 –** Ensure the Event Sink tab is properly set up to send event data to Threat Manager.
 

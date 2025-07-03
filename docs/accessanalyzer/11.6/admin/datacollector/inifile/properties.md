@@ -2,7 +2,7 @@
 
 The Properties page identifies data about the INI file for auditing.
 
-![INI File Data Collector Wizard Properties page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/properties.webp)
+![INI File Data Collector Wizard Properties page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/inifile/properties.webp)
 
 Use the following options to determine which data to adult:
 

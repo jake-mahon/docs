@@ -24,7 +24,7 @@ action pane at any time. You can add company groups by clicking on the **Company
 by clicking on any existing company group and making a sub-group, as shown below where multiple
 company groups and sub-company groups have been created as examples.
 
-![web_interface_and_controls_54_624x228](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_54_624x228.webp)
+![web_interface_and_controls_54_624x228](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_54_624x228.webp)
 
 Unlike Microsoft Group Policy, a computer may be a member of multiple groups in Endpoint Policy
 Manager Cloud. Click on the company group, then select **Add/Remove Computers from Group** and click
@@ -32,11 +32,11 @@ Manager Cloud. Click on the company group, then select **Add/Remove Computers fr
 this group) or **Available Computers** (meaning computers not yet in this group). You can select or
 un-select computers as needed.
 
-![web_interface_and_controls_55_624x229](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_55_624x229.webp)
+![web_interface_and_controls_55_624x229](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_55_624x229.webp)
 
 You can also perform other context-sensitive actions after you click on a company group.
 
-![web_interface_and_controls_56_624x214](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_56_624x214.webp)
+![web_interface_and_controls_56_624x214](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_56_624x214.webp)
 
 The context-sensitive actions are described below:
 
@@ -75,7 +75,7 @@ Built-in groups enable you to perform actions on computers that meet certain cri
 Here you can see XML data files linked to the **All** group. Note that anytime policies are linked
 to the **All** group, they are always enforced.
 
-![web_interface_and_controls_57_500x169](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_57_500x169.webp)
+![web_interface_and_controls_57_500x169](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_57_500x169.webp)
 
 ## Company Groups
 
@@ -125,19 +125,19 @@ Testers**. Then we are configuring it to use the latest CSE and the latest Endpo
 Cloud client version. In addition, if you want to change how often these computers check-in for new
 policies, you may also do that here.
 
-![web_interface_and_controls_58_623x226](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_58_623x226.webp)
+![web_interface_and_controls_58_623x226](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_58_623x226.webp)
 
 Now the sub-group appears. The computers in Friendly Testers would now get the latest CSE and
 Endpoint Policy Manager Cloud client version.
 
-![web_interface_and_controls_59_624x236](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_59_624x236.webp)
+![web_interface_and_controls_59_624x236](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_59_624x236.webp)
 
 After you are satisfied that everything is working as expected, you can apply this to more and more
 groups. When you are satisfied that you have good results, you can use the **All** group to force
 the latest version everywhere. When you do this, no groups can deliver a CSE or Endpoint Policy
 Manager Cloud client version that is lower than what is set in the **All** group.
 
-![web_interface_and_controls_60_624x215](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_60_624x215.webp)
+![web_interface_and_controls_60_624x215](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_60_624x215.webp)
 
 ## Policy Forecast/Modeling Report
 
@@ -150,7 +150,7 @@ expect on an endpoint. Policies are cumulative in the following manner:
 
 The Policy Forecast/Modeling Report is a way to determine which policies to expect on the endpoint.
 
-![web_interface_and_controls_61_623x288](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_61_623x288.webp)
+![web_interface_and_controls_61_623x288](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_61_623x288.webp)
 
 Below you can see there are eight policies applied. Three are from the built-in **All** group, which
 cannot be avoided, and the rest are inherited (directly) from the group itself. If you click on a
@@ -159,7 +159,7 @@ see its policies also appear in the report.
 
 **NOTE:** The report shows precedence order, meaning the lowest number will win in a conflict.
 
-![web_interface_and_controls_62_623x298](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_62_623x298.webp)
+![web_interface_and_controls_62_623x298](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_62_623x298.webp)
 
 A warning about the Policy Forecast/Modeling Report: if a computer is in two or more groups, the
 Policy Forecast/Modeling Report will not show the expected result. It can only model one group at a
@@ -170,7 +170,7 @@ time and cannot account for a computer being in multiple groups at the same time
 Policy XML files linked at any level are displayed in two ways. In the left pane, they are displayed
 alphabetically. In the middle pane, the XML files are displayed by link order.
 
-![web_interface_and_controls_63_624x225](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_63_624x225.webp)
+![web_interface_and_controls_63_624x225](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_63_624x225.webp)
 
 Link order is a way to order and prioritize policies. The lowest link order number gets the highest
 overall precedence. In this way, within a particular level, if you had conflicts you needed to
@@ -184,7 +184,7 @@ the display list, wins.
 To see this, first select a group, then select **Change Policy Link Order** in the action pane to
 get the **Order linked XML data files** window.
 
-![web_interface_and_controls_64_624x228](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_64_624x228.webp)
+![web_interface_and_controls_64_624x228](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_64_624x228.webp)
 
 ## Block Inheritance and Enforcement
 
@@ -192,21 +192,21 @@ Like Group Policy, Endpoint Policy Manager Cloud has the same concepts of block 
 enforce. Block inheritance will stop upper-level policies from affecting machines in sub-groups. It
 is only available for sub-groups and not for top-level parent groups.
 
-![web_interface_and_controls_65_624x238](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_65_624x238.webp)
+![web_interface_and_controls_65_624x238](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_65_624x238.webp)
 
 When block inheritance on a child group is enabled, a blue exclamation mark signifies it is on. It
 can be removed by selecting the group and selecting **Unblock Inheritance**.
 
-![web_interface_and_controls_66_625x232](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_66_625x232.webp)
+![web_interface_and_controls_66_625x232](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_66_625x232.webp)
 
 The net result of block inheritance is that XML policies from above will not flow down. Below, you
 can see the policies when there is no block inheritance.
 
-![web_interface_and_controls_67_623x288](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_67_623x288.webp)
+![web_interface_and_controls_67_623x288](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_67_623x288.webp)
 
 Policies are not applied from up above when block inheritance is active.
 
-![web_interface_and_controls_68_625x286](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_68_625x286.webp)
+![web_interface_and_controls_68_625x286](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_68_625x286.webp)
 
 When a policy is selected it may be chosen for enforcement. Enforcement means that the policy will
 break through a block inheritance if that policy is higher in the hierarchy.
@@ -217,4 +217,4 @@ It is easy to use the search box to look for policies and groups that match a wo
 see we are searching for the word "fire" and finding policies and groups with that word in them very
 quickly.
 
-![web_interface_and_controls_69_312x320](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_69_312x320.webp)
+![web_interface_and_controls_69_312x320](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_69_312x320.webp)

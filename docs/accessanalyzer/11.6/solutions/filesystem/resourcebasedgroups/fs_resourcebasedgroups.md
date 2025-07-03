@@ -180,7 +180,7 @@ Follow the steps to configure the Create Groups action task.
 
 **Step 3 –** In the Active Directory Action Module Wizard, navigate to the Create Groups page.
 
-![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/11.6/admin/action/activedirectory/operations/creategroups.webp)
+![AD Action Module Wizard Create Groups page](/img/product_docs/accessanalyzer/11.6/solutions/filesystem/resourcebasedgroups/creategroups.webp)
 
 **Step 4 –** In the OU box, select the OU where the groups will be created.
 

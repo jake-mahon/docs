@@ -5,7 +5,7 @@
 
 ACL Lockdown mode can be seen when you right-click a setting within an AppSet (see Figure 34).
 
-![policypak_application_settings_1_13](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_13.webp)
+![policypak_application_settings_1_13](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_13.webp)
 
 Figure 34. Selecting the ACL Lockdown setting.
 
@@ -36,14 +36,14 @@ that share the same location in the Registry (see Figure 35). If you right-click
 checkboxes in the Passwords tab, you can see that "Perform ACL Lockdown" will be already checked,
 because all the elements on this page are within the same portion of the Registry.
 
-![policypak_application_settings_1_14](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_14.webp)
+![policypak_application_settings_1_14](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_14.webp)
 
 Figure 35. With "Perform ACL Lockdown" selected, all password options are automatically checked.
 
 However, clicking on another tab—such as Cameras—and right-clicking a setting will show that
 "Perform ACL Lockdown" is not set (see Figure 36).
 
-![policypak_application_settings_1_15](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_15.webp)
+![policypak_application_settings_1_15](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_15.webp)
 
 Figure 36. If other tabs are selected, "Perform ACL Lockdown" will not be set.
 
@@ -54,7 +54,7 @@ To reiterate, if an application's data is stored in a file, then usually ALL ite
 will be locked when "Perform ACL Lockdown" is selected. In the example shown in Figure 37, "Perform
 ACL Lockdown" is selected for one Firefox setting.
 
-![policypak_application_settings_1_16](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_16.webp)
+![policypak_application_settings_1_16](/img/product_docs/endpointpolicymanager/applicationsettings/modes/endpointpolicymanager_application_settings_1_16.webp)
 
 Figure 37. "Perform ACL Lockdown" is selected for one Firefox setting.
 

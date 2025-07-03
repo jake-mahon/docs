@@ -4,7 +4,7 @@ Use the Options page to edit the thread settings.
 
 **CAUTION:** Increasing the thread count increases the processing load on the servers.
 
-![Public Folder Action Module Wizard Options page](/img/product_docs/accessanalyzer/11.6/install/application/options.webp)
+![Public Folder Action Module Wizard Options page](/img/product_docs/accessanalyzer/11.6/admin/action/publicfolder/options.webp)
 
 Use the following options to configure the operations:
 

@@ -4,7 +4,7 @@ The Hierarchy tab is similar to the Tabs tab, except it shows every element in a
 When you click on an element in the Hierarchy tab, the corresponding element in the main page will
 highlighted as well (see Figure 52).
 
-![getting_around_3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_3.webp)
+![getting_around_3](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/navigation/tab/getting_around_3.webp)
 
 Figure 52. The Hierarchy tab provides a granular view of each element.
 

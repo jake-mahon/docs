@@ -6,25 +6,25 @@ Next, you'll add an Edge tile.
 23.  Note that this is a legacy feature and is scheduled to be depreciated as it is for the old
 version of Edge.
 
-![quickstart_start_screen_manager_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_18.webp)
+![quickstart_start_screen_manager_18](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_18.webp)
 
 Figure 23. Adding Edge tile policies.
 
 **Step 2 –** You can type in a URL or click "Select from favorites," as shown in Figure 24.
 
-![quickstart_start_screen_manager_19](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_19.webp)
+![quickstart_start_screen_manager_19](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_19.webp)
 
 Figure 24. Specifying the display name and URL for an Edge tile.
 
 **Step 3 –** You can change the size and color as you wish, as shown in Figure 25.
 
-![quickstart_start_screen_manager_20](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_20.webp)
+![quickstart_start_screen_manager_20](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_20.webp)
 
 Figure 25. Changing the background color of the icon.
 
 **Step 4 –** The result of adding an Edge tile can be seen in Figure 26.
 
-![quickstart_start_screen_manager_21](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_21.webp)
+![quickstart_start_screen_manager_21](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_21.webp)
 
 Figure 26. The Edge tile appears in the policy list.
 
@@ -33,6 +33,6 @@ The result of adding three Start Screen Manager icons in your Start Screen Manag
 Figure 27. Note that recent builds of Endpoint Policy Manager Start Screen & Taskbar Manager require
 you to log off and log on again to see the Start Menu changes.
 
-![quickstart_start_screen_manager_22](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_22.webp)
+![quickstart_start_screen_manager_22](/img/product_docs/endpointpolicymanager/startscreentaskbar/startscreen/quickstart_start_screen_manager_22.webp)
 
 Figure 27. The application tiles inside the new group.

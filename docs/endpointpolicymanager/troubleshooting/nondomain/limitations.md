@@ -28,7 +28,7 @@ There are some items which will not work if the computer is not domain joined…
    sources. They might be risky so we recommend keeping them off." (See picture below.) There is NO
    workaround at this time.
 
-   ![359_1_tyr](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/nondomain/359_1_tyr.webp)
+   ![359_1_tyr](/img/product_docs/endpointpolicymanager/troubleshooting/nondomain/359_1_tyr.webp)
 
 4. Windows Edge + Chromium: The Browser Router Extension will not install automatically. There is NO
    workaround at this time except to manually install the Chrome Extension on Edge by hand.

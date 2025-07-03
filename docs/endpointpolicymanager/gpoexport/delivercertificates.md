@@ -5,7 +5,7 @@ example, by following thse steps:
 
 **Step 1 –** Create a real GPO.
 
-![663_1_q10-img-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
+![663_1_q10-img-1](/img/product_docs/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
 
 **Step 2 –** Export it using PP Settings Manager to an XML. See the
 [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/deploy/grouppolicysettings.md) topic
@@ -23,4 +23,4 @@ MDM.
 
 Inside the exported XML you can see the certificate embedded like this and ready for use.
 
-![663_2_q10-img-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)
+![663_2_q10-img-2](/img/product_docs/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)

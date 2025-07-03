@@ -59,7 +59,7 @@ To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have on
 It is recommended that you test the endpoint (Windows 7 or later) with all these versions of Java,
 as well as Internet Explorer, Firefox, and Chrome.
 
-![about_policypak_java_rules](/img/product_docs/endpointpolicymanager/endpointpolicymanager/javaenterpriserules/about_endpointpolicymanager_java_rules.webp)
+![about_policypak_java_rules](/img/product_docs/endpointpolicymanager/javaenterpriserules/about_endpointpolicymanager_java_rules.webp)
 
 Even though there are more advanced scenarios, this will get you going quickly.
 

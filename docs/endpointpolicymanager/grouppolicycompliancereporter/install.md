@@ -28,7 +28,7 @@ Authentication must be set to allow both SQL and windows authentication
 **Step 3 –** On the Server Properties page click on the "Security" tab and set the Server
 authentication to "SQL Server and Windows Authentication"
 
-![673_1_image-20200430140138-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_1_image-20200430140138-1.webp)
+![673_1_image-20200430140138-1](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_1_image-20200430140138-1.webp)
 
 **Step 4 –** Click OK to Close
 
@@ -46,11 +46,11 @@ Create an administrative SQL account within SSMS to own and access the GPCR data
 2. Select radio button "SQL Server authentication" and set password
 3. Uncheck "Enforce password policy"
 
-   ![673_3_image-20200430140138-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_3_image-20200430140138-2.webp)
+   ![673_3_image-20200430140138-2](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_3_image-20200430140138-2.webp)
 
 **Step 3 –** Click on "Server Roles" tab and select "public" and "sysadmin" roles
 
-![673_5_image-20200430140138-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_5_image-20200430140138-3.webp)
+![673_5_image-20200430140138-3](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_5_image-20200430140138-3.webp)
 
 **Step 4 –** Save and close
 
@@ -60,7 +60,7 @@ GPCR requires an empty SQL database be present during the installation
 
 **Step 1 –** In Microsoft SSMS, right-click on "Databases" and select "New Database"
 
-![673_7_image-20200430140138-4_471x171](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_7_image-20200430140138-4_471x171.webp)
+![673_7_image-20200430140138-4_471x171](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_7_image-20200430140138-4_471x171.webp)
 
 **Step 2 –** Enter name for database (e.g. GPCR)
 
@@ -83,12 +83,12 @@ computer (Where the Admin Console is installed) and the remote SQL Server
 
 1. Open the "run" box (Win-R), type `"dcomcnfg"` and click OK
 
-![673_9_image-20200430140138-5](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
+![673_9_image-20200430140138-5](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
 
 **Step 2 –** Expand Console Root -> Component Services -> Computers -> My Computer -> Distributed
 Transaction Coordinator, Right-Click on Local DTC and click Properties
 
-![673_11_image-20200430140138-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
+![673_11_image-20200430140138-6](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
 
 **Step 3 –** On the Security tab -> Security Settings and Configure as follows:
 
@@ -98,7 +98,7 @@ Transaction Coordinator, Right-Click on Local DTC and click Properties
 4. Check "Enable SNA LU 6.2 Transactions"
 5. Click OK
 
-   ![673_13_image-20200430140138-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
+   ![673_13_image-20200430140138-7](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
 
 **Step 4 –** The MSDTC service will need to be restarted for the changes to take affect – Click YES
 to restart now or NO to restart manually later.
@@ -112,12 +112,12 @@ Server
 
 **Step 2 –** Click on "Allow an app or feature through Windows Defender Firewall"
 
-![673_15_image-20200430140138-8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
+![673_15_image-20200430140138-8](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
 
 **Step 3 –** Find "Distributed Transaction Coordinator", check and check the appropriate Network
 profile (e.g. Domain).
 
-![673_17_image-20200430140138-9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
+![673_17_image-20200430140138-9](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
 
 **Step 4 –** Click OK to save and close
 
@@ -149,11 +149,11 @@ minimum. select "Yes, I confirm" and "Next >" to continue
 **Step 6 –** Click "Change" and find domain security group created earlier (GPCR Admin in example)
 and click "Next >"
 
-![673_19_image-20200430140138-10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_19_image-20200430140138-10.webp)
+![673_19_image-20200430140138-10](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_19_image-20200430140138-10.webp)
 
 **Step 7 –** Select "Microsoft SQL Server and "Next >"
 
-![673_21_image-20200430140138-11](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_21_image-20200430140138-11.webp)
+![673_21_image-20200430140138-11](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_21_image-20200430140138-11.webp)
 
 **Step 8 –** Configure Connection to SQL Server
 
@@ -163,7 +163,7 @@ and click "Next >"
 4. Click "Refresh" to get list of Databases on SQL server and select empty DB created earlier
 5. Next >
 
-   ![673_23_image-20200430140138-12](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/673_23_image-20200430140138-12.webp)
+   ![673_23_image-20200430140138-12](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/673_23_image-20200430140138-12.webp)
 
 **Step 9 –** Install -> click yes if prompted for \*.msi
 

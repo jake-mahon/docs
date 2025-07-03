@@ -7,11 +7,11 @@ notifications.
 
 Notification Examples:
 
-![76_1_image-20200728223133-1](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_1_image-20200728223133-1.webp)
+![76_1_image-20200728223133-1](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_1_image-20200728223133-1.webp)
 
-![76_3_image-20200728223133-2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_3_image-20200728223133-2.webp)
+![76_3_image-20200728223133-2](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_3_image-20200728223133-2.webp)
 
-![76_5_image-20200728223134-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_5_image-20200728223134-3.webp)
+![76_5_image-20200728223134-3](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_5_image-20200728223134-3.webp)
 
 ## OPTION1: Using Group Policy Preferences > Registry
 
@@ -29,11 +29,11 @@ Value name: NoNewAppAlert
 Value type: REG_DWORD  
 Value data: 00000001
 
-![76_7_image-20200728223134-4](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_7_image-20200728223134-4.webp)
+![76_7_image-20200728223134-4](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_7_image-20200728223134-4.webp)
 
 Policy should look like below when created:
 
-![76_9_image-20200728223134-5_950x59](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_9_image-20200728223134-5_950x59.webp)
+![76_9_image-20200728223134-5_950x59](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_9_image-20200728223134-5_950x59.webp)
 
 **Step 5 –** Lastly, apply policy to computer OU or domain where you want New App notifications to
 be disabled.
@@ -47,12 +47,12 @@ Manager and give it a descriptive name.
 
 **Step 3 –** Right-click on Scripts Manager and select "Add Policy…"
 
-![76_11_image-20200728223134-6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_11_image-20200728223134-6.webp)
+![76_11_image-20200728223134-6](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_11_image-20200728223134-6.webp)
 
 **Step 4 –** At the "Specify policy target" screen stick with the default "Apply this policy to the
 computer (default)" then click "Next".
 
-![76_13_image-20200728223134-7](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_13_image-20200728223134-7.webp)
+![76_13_image-20200728223134-7](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_13_image-20200728223134-7.webp)
 
 **Step 5 –** At the "On apply action" screen select "PowerShell script" from the dropdown and then
 copy in the text below then click "Next".
@@ -67,7 +67,7 @@ copy in the text below then click "Next".
                 -ea SilentlyContinue;
 ```
 
-![76_15_image-20200728223134-8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_15_image-20200728223134-8.webp)
+![76_15_image-20200728223134-8](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_15_image-20200728223134-8.webp)
 
 **Step 6 –** OPTIONAL: At the "On revert action" screen select "PowerShell script" from the dropdown
 and then copy in the text below then click "Next".
@@ -80,12 +80,12 @@ and then copy in the text below then click "Next".
                 SilentlyContinue;
 ```
 
-![76_17_image-20200728223134-9](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_17_image-20200728223134-9.webp)
+![76_17_image-20200728223134-9](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_17_image-20200728223134-9.webp)
 
 **Step 7 –** At the "Specify process mode" screen select the "Once or when forced" option then click
 next.
 
-![76_19_image-20200728223134-10](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/startscreentaskbar/76_19_image-20200728223134-10.webp)
+![76_19_image-20200728223134-10](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/76_19_image-20200728223134-10.webp)
 
 **Step 8 –** Give the policy a descriptive name and then click finish.
 
