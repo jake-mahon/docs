@@ -1,3 +1,9 @@
+---
+title: "SIEM Integrations"
+description: "SIEM Integrations"
+sidebar_position: 70
+---
+
 # SIEM Integrations
 
 Stealthbits File Activity monitoring solutions enable organizations to successfully, efficiently,

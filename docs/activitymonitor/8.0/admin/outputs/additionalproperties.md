@@ -1,3 +1,9 @@
+---
+title: "Additional Properties Tab"
+description: "Additional Properties Tab"
+sidebar_position: 20
+---
+
 # Additional Properties Tab
 
 The Additional Properties tab on an output Properties window is where comments and displayed host

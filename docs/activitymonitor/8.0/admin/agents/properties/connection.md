@@ -1,3 +1,9 @@
+---
+title: "Connection Tab"
+description: "Connection Tab"
+sidebar_position: 60
+---
+
 # Connection Tab
 
 The Connection tab allows users to modify the agent host server name and the credentials used for

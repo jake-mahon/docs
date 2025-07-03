@@ -1,3 +1,9 @@
+---
+title: "Dell Unity"
+description: "Dell Unity"
+sidebar_position: 40
+---
+
 # Dell Unity
 
 Understanding File Activity Monitoring
@@ -24,7 +30,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell Unity host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellunity/activity.md) topic for
+[Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_3.md) topic for
 additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -145,7 +151,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog/syslog.md) topic for additional information.
 
 - Syslog message template – Click the ellipsis (…) to open the Syslog Message Template window. The
   following Syslog templates have been provided:
@@ -190,14 +196,14 @@ Output page can be configured.
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog/syslog.md) topic for additional information.
 
 Click **Finish**.
 
 ![Activity Monitor with Dell Unity host added](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/activitymonitoremcunity.webp)
 
 The added Dell Unity host is displayed in the monitored hosts table. Once a host has been added for
-monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output.md) topic
+monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output/output.md) topic
 for additional information.
 
 ## Host Properties for Dell Unity

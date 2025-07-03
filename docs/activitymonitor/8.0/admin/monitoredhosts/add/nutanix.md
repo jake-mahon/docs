@@ -1,3 +1,9 @@
+---
+title: "Nutanix"
+description: "Nutanix"
+sidebar_position: 100
+---
+
 # Nutanix
 
 Understanding File Activity Monitoring
@@ -24,7 +30,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Nutanix files host to the Activity Monitor, the prerequisites for the target
 environment must be met. See
-[Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/config/nutanix/activity.md) for more
+[Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_2.md) for more
 information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -149,7 +155,7 @@ Syslog Output page.
     - TLS
 
     The TCP and TLS protocols add the **Message framing** drop-down menu. See the
-    [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog/syslog.md) topic for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
   mark or red will determine whether the test message has been sent or failed to send. Messages vary
@@ -159,14 +165,14 @@ Syslog Output page.
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/admin/outputs/syslog/syslog.md) topic for additional information.
 
 Click **Finish**.
 
 ![nutanixoptions_10](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/nutanixoptions_10.webp)
 
 The added Nutanix host is displayed in the monitored hosts table. Once a host has been added for
-monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output.md) topic
+monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output/output.md) topic
 for additional information.
 
 ## Host Properties for Nutanix

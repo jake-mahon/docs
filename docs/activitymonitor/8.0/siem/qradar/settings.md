@@ -1,3 +1,9 @@
+---
+title: "Settings"
+description: "Settings"
+sidebar_position: 20
+---
+
 # Settings
 
 Use the gear icon next to the **Search** box to open the **Settings** interface. It is necessary for

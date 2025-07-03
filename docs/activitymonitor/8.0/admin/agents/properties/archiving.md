@@ -1,3 +1,9 @@
+---
+title: "Archiving Tab"
+description: "Archiving Tab"
+sidebar_position: 50
+---
+
 # Archiving Tab
 
 By default, the Activity Monitor keeps the activity logs on the servers where the activity agents

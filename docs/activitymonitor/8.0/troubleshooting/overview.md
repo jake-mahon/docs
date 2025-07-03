@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting and Maintenance"
+description: "Troubleshooting and Maintenance"
+sidebar_position: 50
+---
+
 # Troubleshooting and Maintenance
 
 This section provides an overview of troubleshooting and maintenance steps and processes for

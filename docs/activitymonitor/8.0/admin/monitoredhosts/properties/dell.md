@@ -1,3 +1,9 @@
+---
+title: "Dell Tab"
+description: "Dell Tab"
+sidebar_position: 30
+---
+
 # Dell Tab
 
 The Dell tab on a host’s Properties window displays the Dell Celerra/VNX, Dell Isilon/PowerScale,

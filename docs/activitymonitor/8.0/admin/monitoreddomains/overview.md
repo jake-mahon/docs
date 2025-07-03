@@ -1,3 +1,9 @@
+---
+title: "Monitored Domains Tab"
+description: "Monitored Domains Tab"
+sidebar_position: 20
+---
+
 # Monitored Domains Tab
 
 Understanding Active Directory Activity Monitoring
@@ -39,7 +45,7 @@ The button bar allows users to take the following actions:
 ![Monitored Domains Tab in the Activiy Monitor](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/activtymonitorblank.webp)
 
 - Add Output – Select an output from the Add Output dropdown. The outputs are: File, Syslog, and
-  StealthDEFEND. See the [Output for Monitored Domains](/docs/activitymonitor/8.0/admin/monitoreddomains/output.md)
+  StealthDEFEND. See the [Output for Monitored Domains](/docs/activitymonitor/8.0/admin/monitoreddomains/output/output.md)
 - Remove – Removes the configured domain from the table of domains being monitored and end
   monitoring. Confirmation of this option will be asked for.
 - Edit – Opens the selected AD Monitoring Configuration window to modify monitoring settings. See

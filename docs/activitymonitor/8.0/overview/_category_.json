@@ -1,0 +1,10 @@
+{
+  "label": "Netwrix Activity Monitor v8.0 Documentation",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

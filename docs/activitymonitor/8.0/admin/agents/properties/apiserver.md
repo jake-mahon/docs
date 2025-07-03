@@ -1,3 +1,9 @@
+---
+title: "API Server Tab"
+description: "API Server Tab"
+sidebar_position: 40
+---
+
 # API Server Tab
 
 The API Server Tab provides options to configure API server settings to send information about

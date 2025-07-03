@@ -1,3 +1,9 @@
+---
+title: "Add New Host Window"
+description: "Add New Host Window"
+sidebar_position: 10
+---
+
 # Add New Host Window
 
 Once an agent has been deployed, you can configure a host to be monitored by clicking the Add Host
@@ -8,7 +14,7 @@ button on the Monitored Hosts tab.
 The window opens for all types of hosts that can be monitored with an Activity Agent. See the
 following topics for additional information:
 
-- [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/config/ctera/Activity.md)
+- [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity.md)
 - [Dell Celerra or VNX](/docs/activitymonitor/8.0/admin/monitoredhosts/add/dellcelerravnx.md)
 - [Dell Isilon/PowerScale](/docs/activitymonitor/8.0/admin/monitoredhosts/add/dellpowerscale.md)
 - [Dell PowerStore](/docs/activitymonitor/8.0/admin/monitoredhosts/add/dellpowerstore.md)

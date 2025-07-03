@@ -1,3 +1,9 @@
+---
+title: "Log Files Tab"
+description: "Log Files Tab"
+sidebar_position: 40
+---
+
 # Log Files Tab
 
 The Log Files tab on an output Properties window is where the activity log settings can be modified.
@@ -181,8 +187,8 @@ The tab contains the following settings:
 - Log file path – Identifies the full path of the activity log files on the activity agent server.
   The date timestamp is appended to the file name automatically.
 - Log file format – Indicates the file type used for the activity log. The default is JSON. See
-  [SharePoint JSON Log File](/docs/activitymonitor/8.0/admin/outputs/logfile/sharepointjson.md) topic and the
-  [SharePoint TSV Log File](/docs/activitymonitor/8.0/admin/outputs/logfile/sharepointtsv.md) topic for additional information.
+  [SharePoint JSON Log File](/docs/activitymonitor/8.0/admin/monitoredhosts/output/sharepointjson.md) topic and the
+  [SharePoint TSV Log File](/docs/activitymonitor/8.0/admin/monitoredhosts/output/sharepointtsv.md) topic for additional information.
 - Period to keep Log files – Activity logs are deleted after the number of days entered. The default
   is 10 days.
 

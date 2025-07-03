@@ -1,3 +1,9 @@
+---
+title: "Update Credential Passwords"
+description: "Update Credential Passwords"
+sidebar_position: 10
+---
+
 # Update Credential Passwords
 
 Credential passwords occasionally need to be updated due to various reasons, such as security

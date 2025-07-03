@@ -1,3 +1,9 @@
+---
+title: "Hitachi NAS Tab"
+description: "Hitachi NAS Tab"
+sidebar_position: 50
+---
+
 # Hitachi NAS Tab
 
 Once a Hitachi host is added to the monitored hosts table, the configuration settings are edited

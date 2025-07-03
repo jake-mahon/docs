@@ -1,3 +1,9 @@
+---
+title: "REST API"
+description: "REST API"
+sidebar_position: 60
+---
+
 # REST API
 
 ## Overview
@@ -15,9 +21,9 @@ Activity Monitor Agent and is the HTTPS access to the log files.
 See the following topics for additional information:
 
 - [Security and Access Control](/docs/activitymonitor/8.0/restapi/security.md)
-- [Schema and Resources](/docs/activitymonitor/8.0/restapi/resources.md)
+- [Schema and Resources](/docs/activitymonitor/8.0/restapi/resources/resources.md)
 
-    - [Agent](/docs/activitymonitor/8.0/restapi/agent.md)
-    - [Domain](/docs/activitymonitor/8.0/restapi/domain.md)
-    - [Host](/docs/activitymonitor/8.0/restapi/host.md)
-    - [Output](/docs/activitymonitor/8.0/restapi/output.md)
+    - [Agent](/docs/activitymonitor/8.0/restapi/resources/agent.md)
+    - [Domain](/docs/activitymonitor/8.0/restapi/resources/domain.md)
+    - [Host](/docs/activitymonitor/8.0/restapi/resources/host.md)
+    - [Output](/docs/activitymonitor/8.0/restapi/resources/output.md)

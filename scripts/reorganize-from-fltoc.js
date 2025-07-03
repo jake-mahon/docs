@@ -338,6 +338,16 @@ function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+function getActualFilename(dir, filename) {
+  try {
+    const files = fs.readdirSync(dir);
+    const found = files.find(f => f.toLowerCase() === filename.toLowerCase());
+    return found || filename;
+  } catch {
+    return filename;
+  }
+}
+
 function updateLinksInFile(filePath, fileMoves, docsRoot) {
   let content = fs.readFileSync(filePath, 'utf8');
   let updated = false;

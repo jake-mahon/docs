@@ -1,3 +1,9 @@
+---
+title: "Objects Tab"
+description: "Objects Tab"
+sidebar_position: 50
+---
+
 # Objects Tab
 
 The Objects tab on an output Properties window is where monitoring scope by SQL Server objects can

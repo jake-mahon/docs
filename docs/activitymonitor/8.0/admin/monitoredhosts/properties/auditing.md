@@ -1,3 +1,9 @@
+---
+title: "Auditing Tab"
+description: "Auditing Tab"
+sidebar_position: 10
+---
+
 # Auditing Tab
 
 The Auditing tab allows users to modify to modify the Isilon Options setting which was populated

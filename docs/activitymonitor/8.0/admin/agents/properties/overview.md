@@ -1,3 +1,9 @@
+---
+title: "Agent Properties Window"
+description: "Agent Properties Window"
+sidebar_position: 50
+---
+
 # Agent Properties Window
 
 On the Agents tab, the Edit button opens the agent’s Properties window, which contains the following

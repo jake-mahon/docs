@@ -1,3 +1,9 @@
+---
+title: "Inactivity Alerts Tab"
+description: "Inactivity Alerts Tab"
+sidebar_position: 60
+---
+
 # Inactivity Alerts Tab
 
 The Inactivity Alerts tab on a host's Properties window is used to configure alerts that are sent
