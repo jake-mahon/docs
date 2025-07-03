@@ -1,3 +1,9 @@
+---
+title: "Membership Commands"
+description: "Membership Commands"
+sidebar_position: 120
+---
+
 # Membership Commands
 
 This section covers cmdlets for managing the memberships of both managed and unmanaged groups.

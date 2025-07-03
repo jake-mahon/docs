@@ -1,3 +1,9 @@
+---
+title: "Expire-Group"
+description: "Expire-Group"
+sidebar_position: 20
+---
+
 # Expire-Group
 
 The Expire-Group commandlet expires a group temporarily. All notifications to the expired group will

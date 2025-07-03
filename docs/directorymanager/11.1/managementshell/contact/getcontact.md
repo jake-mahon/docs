@@ -1,3 +1,9 @@
+---
+title: "Get-Contact"
+description: "Get-Contact"
+sidebar_position: 10
+---
+
 # Get-Contact
 
 Use the Get-Contact cmdlet to retrieve basic information about a contact.

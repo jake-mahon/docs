@@ -1,3 +1,9 @@
+---
+title: "Register in Microsoft Entra ID"
+description: "Register in Microsoft Entra ID"
+sidebar_position: 10
+---
+
 # Register in Microsoft Entra ID
 
 To use Microsoft Entra ID, formerly Azure Active Directory, identity provider, Directory Manager

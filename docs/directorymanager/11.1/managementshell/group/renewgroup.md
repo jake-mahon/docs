@@ -1,3 +1,9 @@
+---
+title: "Renew-Group"
+description: "Renew-Group"
+sidebar_position: 70
+---
+
 # Renew-Group
 
 The Renew-Group re-activates an expired group.

@@ -1,3 +1,9 @@
+---
+title: "Register an Application (Service Provider) in Directory Manager"
+description: "Register an Application (Service Provider) in Directory Manager"
+sidebar_position: 10
+---
+
 # Register an Application (Service Provider) in Directory Manager
 
 To register a service provider in Directory Manager, you have to create an application for the

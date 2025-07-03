@@ -1,3 +1,9 @@
+---
+title: "Disable-DistributionGroup"
+description: "Disable-DistributionGroup"
+sidebar_position: 10
+---
+
 # Disable-DistributionGroup
 
 Use this commandlet to disable the mailing capabilities for a distribution group in Directory.

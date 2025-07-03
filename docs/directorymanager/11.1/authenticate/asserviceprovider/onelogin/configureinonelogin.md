@@ -1,3 +1,9 @@
+---
+title: "Configure Directory Manager In OneLogin"
+description: "Configure Directory Manager In OneLogin"
+sidebar_position: 20
+---
+
 # Configure Directory Manager In OneLogin
 
 Configuring Directory Manager in OneLogin involve the following steps:

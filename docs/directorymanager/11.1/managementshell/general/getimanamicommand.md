@@ -1,3 +1,9 @@
+---
+title: "Get-ImanamiCommand"
+description: "Get-ImanamiCommand"
+sidebar_position: 40
+---
+
 # Get-ImanamiCommand
 
 Use the Get-ImanamiCommand cmdlet to retrieve basic information about Directory Manager Management

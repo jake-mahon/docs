@@ -1,3 +1,9 @@
+---
+title: "Service Account Permissions"
+description: "Service Account Permissions"
+sidebar_position: 60
+---
+
 # Service Account Permissions
 
 To connect an Active Directory identity store to a domain, you must use a service account with

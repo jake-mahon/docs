@@ -1,3 +1,9 @@
+---
+title: "Certificate for Entra ID Authentication"
+description: "Certificate for Entra ID Authentication"
+sidebar_position: 30
+---
+
 # Certificate for Entra ID Authentication
 
 While configuring Directory Manager application in Microsoft Entra ID you must provide a certificate
@@ -24,8 +30,8 @@ The generated certificate in .pfx format will be used:
 
 - While creating a Microsoft Entra ID identity store (on the Identity Store Details page of new
   identity store creation wizard). See the point # 6 the
-  [Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.1/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
-  section of the [Create an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/create.md) topic.
+  [Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.1/signin/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
+  section of the [Create an Identity Store](/docs/directorymanager/11.1/signin/identitystore/create.md) topic.
 - On the Messaging System page in identity store properties when Exchange Online/Office 365 is set
   as a messaging provider.
 

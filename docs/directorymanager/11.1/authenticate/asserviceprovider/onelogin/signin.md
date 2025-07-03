@@ -1,3 +1,9 @@
+---
+title: "Sign In Using OneLogin"
+description: "Sign In Using OneLogin"
+sidebar_position: 30
+---
+
 # Sign In Using OneLogin
 
 We configured OneLogin with a Directory Manager client, that is the Directory Manager portal

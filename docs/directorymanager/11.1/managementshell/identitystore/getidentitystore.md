@@ -1,3 +1,9 @@
+---
+title: "Get-IdentityStore"
+description: "Get-IdentityStore"
+sidebar_position: 60
+---
+
 # Get-IdentityStore
 
 The commandlet Get-IdentityStore retrieves information about the specified identity store or

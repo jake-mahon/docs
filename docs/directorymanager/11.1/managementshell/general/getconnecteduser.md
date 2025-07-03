@@ -1,3 +1,9 @@
+---
+title: "Get-ConnectedUser"
+description: "Get-ConnectedUser"
+sidebar_position: 30
+---
+
 # Get-ConnectedUser
 
 The Get-ConnectedUser commandlet retrieves the general information about the user connected to the

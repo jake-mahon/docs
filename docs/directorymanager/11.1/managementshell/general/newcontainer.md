@@ -1,3 +1,9 @@
+---
+title: "New-Container"
+description: "New-Container"
+sidebar_position: 80
+---
+
 # New-Container
 
 The New-Container commandlet creates a new organizational unit in Directory. You can also use it to
@@ -35,7 +41,7 @@ Example 2:
 
 The following command creates the organizational unit _Local Recruiting_ inside the _Recruiting_
 container in Directory using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md) topic for setting
 credentials.
 
 ```

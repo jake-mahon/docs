@@ -1,3 +1,9 @@
+---
+title: "SQL Certificate for Windows Authentication"
+description: "SQL Certificate for Windows Authentication"
+sidebar_position: 50
+---
+
 # SQL Certificate for Windows Authentication
 
 Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access SQL database using

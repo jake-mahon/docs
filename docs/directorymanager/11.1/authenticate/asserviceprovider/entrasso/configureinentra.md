@@ -1,3 +1,9 @@
+---
+title: "Configure Directory Manager in Microsoft Entra ID for SSO"
+description: "Configure Directory Manager in Microsoft Entra ID for SSO"
+sidebar_position: 20
+---
+
 # Configure Directory Manager in Microsoft Entra ID for SSO
 
 Following are the steps to create and configure the Directory Manager application in Microsoft Entra

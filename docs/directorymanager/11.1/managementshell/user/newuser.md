@@ -1,3 +1,9 @@
+---
+title: "New-User"
+description: "New-User"
+sidebar_position: 30
+---
+
 # New-User
 
 Use the New-User commandlet to create a new user in Directory. Most user properties can be directly

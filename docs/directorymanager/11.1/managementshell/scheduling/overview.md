@@ -1,3 +1,9 @@
+---
+title: "Scheduling Commands"
+description: "Scheduling Commands"
+sidebar_position: 130
+---
+
 # Scheduling Commands
 
 This section covers the cmdlets that perform scheduling-related operations.

@@ -1,3 +1,9 @@
+---
+title: "Set-Contact"
+description: "Set-Contact"
+sidebar_position: 40
+---
+
 # Set-Contact
 
 The Set-User cmdlet modifies a user in the directory. Most user properties can be directly modified

@@ -1,3 +1,9 @@
+---
+title: "Set-Notifications"
+description: "Set-Notifications"
+sidebar_position: 190
+---
+
 # Set-Notifications
 
 Use the Set-Notifications commandlet to modify the notification settings of an identity store.

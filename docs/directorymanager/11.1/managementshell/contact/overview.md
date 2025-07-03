@@ -1,3 +1,9 @@
+---
+title: "Contact Commands"
+description: "Contact Commands"
+sidebar_position: 40
+---
+
 # Contact Commands
 
 Directory Manager provides the following cmdlets to perform contact-related tasks, such as:

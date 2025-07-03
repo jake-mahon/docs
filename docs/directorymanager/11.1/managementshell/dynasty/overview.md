@@ -1,3 +1,9 @@
+---
+title: "Dynasty Commands"
+description: "Dynasty Commands"
+sidebar_position: 50
+---
+
 # Dynasty Commands
 
 This section covers the following cmdlets for managing Dynasties.

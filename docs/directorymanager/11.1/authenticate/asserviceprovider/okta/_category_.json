@@ -1,0 +1,10 @@
+{
+  "label": "SAML Configuration for Directory Manager using Okta",
+  "position": 30,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

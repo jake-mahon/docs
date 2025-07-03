@@ -1,3 +1,9 @@
+---
+title: "Sign In Using Directory Manager"
+description: "Sign In Using Directory Manager"
+sidebar_position: 30
+---
+
 # Sign In Using Directory Manager
 
 Let’s assume that we configured three service providers in Directory Manager. Users should be able

@@ -1,3 +1,9 @@
+---
+title: "Sign In Using Okta"
+description: "Sign In Using Okta"
+sidebar_position: 30
+---
+
 # Sign In Using Okta
 
 We configured Okta with a Directory Manager client, that is the Directory Manager portal _Wizard_ in

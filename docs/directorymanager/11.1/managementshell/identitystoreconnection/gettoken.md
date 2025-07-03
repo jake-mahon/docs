@@ -1,3 +1,9 @@
+---
+title: "Get-Token"
+description: "Get-Token"
+sidebar_position: 20
+---
+
 # Get-Token
 
 When Management Shell is connected to an identity store a token is passed with the commandlet
@@ -30,7 +36,7 @@ Example:
 The following command returns a token for the identity store specified by the **IdentityStoreId**
 parameter using the specified authentication mode and credentials that you set in the
 **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

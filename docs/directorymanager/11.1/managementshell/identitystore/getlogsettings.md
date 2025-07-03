@@ -1,3 +1,9 @@
+---
+title: "Get-LogSettings"
+description: "Get-LogSettings"
+sidebar_position: 80
+---
+
 # Get-LogSettings
 
 The commandlet Get-LogSettings provides information about the global log settings of the identity

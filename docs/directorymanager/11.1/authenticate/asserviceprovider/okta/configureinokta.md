@@ -1,3 +1,9 @@
+---
+title: "Configure Directory Manager In Okta"
+description: "Configure Directory Manager In Okta"
+sidebar_position: 20
+---
+
 # Configure Directory Manager In Okta
 
 To configure Directory Manager in Okta, follow these steps:

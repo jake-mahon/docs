@@ -1,3 +1,9 @@
+---
+title: "All Commands"
+description: "All Commands"
+sidebar_position: 10
+---
+
 # All Commands
 
 You can get a list of all Directory Manager Management Shell cmdlets using the _Get-ImanamiCommand_

@@ -1,3 +1,9 @@
+---
+title: "Get-User"
+description: "Get-User"
+sidebar_position: 10
+---
+
 # Get-User
 
 Use the Get-User commandlet to retrieve basic information about a user that match your given

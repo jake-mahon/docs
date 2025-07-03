@@ -1,3 +1,9 @@
+---
+title: "Stop-Schedule"
+description: "Stop-Schedule"
+sidebar_position: 70
+---
+
 # Stop-Schedule
 
 The commandlet Stop-Schedule stops a specified schedule if it is already running.

@@ -1,3 +1,9 @@
+---
+title: "Get-TargetSchedules"
+description: "Get-TargetSchedules"
+sidebar_position: 20
+---
+
 # Get-TargetSchedules
 
 The commandlet Get-TargetSchedules retrieves the scheduled jobs of the given target (group/OU).

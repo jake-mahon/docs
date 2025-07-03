@@ -1,3 +1,9 @@
+---
+title: "Get-RolePermissionNames"
+description: "Get-RolePermissionNames"
+sidebar_position: 90
+---
+
 # Get-RolePermissionNames
 
 The commandlet Get-RolePermissionNames helps user to see the names of the permissions that can be

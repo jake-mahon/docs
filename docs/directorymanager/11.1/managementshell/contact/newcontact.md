@@ -1,3 +1,9 @@
+---
+title: "New-Contact"
+description: "New-Contact"
+sidebar_position: 20
+---
+
 # New-Contact
 
 Use the New-Contact cmdlet to create a new contact in the directory. Most contact properties can be

@@ -1,3 +1,9 @@
+---
+title: "Get-Object"
+description: "Get-Object"
+sidebar_position: 30
+---
+
 # Get-Object
 
 Use this commandlet to retrieve objects from one or more containers in a domain that match the given
@@ -39,7 +45,7 @@ Example 2:
 
 The command below retrieves the object Event Management starting from the container Recruiting
 excluding its sub-containers using the credentials set in the $Credentials environment variable. See
-the [Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md) topic for setting
+the [Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

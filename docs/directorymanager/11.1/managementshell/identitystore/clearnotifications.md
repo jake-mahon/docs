@@ -1,3 +1,9 @@
+---
+title: "Clear-Notifications"
+description: "Clear-Notifications"
+sidebar_position: 20
+---
+
 # Clear-Notifications
 
 The commandlet Clear-Notifications removes notifications settings from an identity store. The

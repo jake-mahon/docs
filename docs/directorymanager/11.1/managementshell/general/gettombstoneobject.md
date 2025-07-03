@@ -1,3 +1,9 @@
+---
+title: "Get-TombStoneObject"
+description: "Get-TombStoneObject"
+sidebar_position: 60
+---
+
 # Get-TombStoneObject
 
 When you delete an object from Directory, the object is not physically removed from the database.

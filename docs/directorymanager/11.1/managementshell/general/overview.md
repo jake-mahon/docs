@@ -1,3 +1,9 @@
+---
+title: "General Commands"
+description: "General Commands"
+sidebar_position: 60
+---
+
 # General Commands
 
 You can use the following Management Shell cmdlets to perform tasks such as:

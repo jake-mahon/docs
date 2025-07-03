@@ -1,0 +1,10 @@
+{
+  "label": "SAML Configuration for Directory Manager using OneLogin",
+  "position": 40,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

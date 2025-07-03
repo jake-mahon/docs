@@ -1,3 +1,9 @@
+---
+title: "ConvertTo-StaticGroup"
+description: "ConvertTo-StaticGroup"
+sidebar_position: 10
+---
+
 # ConvertTo-StaticGroup
 
 The ConvertTo-StaticGroup commandlet converts an existing Smart Group or a dynasty to a static group

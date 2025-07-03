@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for Directory Manager using PingOne"
+description: "SAML Configuration for Directory Manager using PingOne"
+sidebar_position: 50
+---
+
 # SAML Configuration for Directory Manager using PingOne
 
 PingOne is an Identity as a Service (IDaaS) solution that enables organizations to deliver single

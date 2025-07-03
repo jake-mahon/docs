@@ -1,3 +1,9 @@
+---
+title: "Set-IdentityStore"
+description: "Set-IdentityStore"
+sidebar_position: 160
+---
+
 # Set-IdentityStore
 
 The commandlet Set-IdentityStore modifies the identity store settings and configurations.

@@ -1,3 +1,9 @@
+---
+title: "New-Schedule"
+description: "New-Schedule"
+sidebar_position: 40
+---
+
 # New-Schedule
 
 The commandlet New-Schedule creates a new schedule in the identity store connected to the current

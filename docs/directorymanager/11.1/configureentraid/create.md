@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID Identity Store"
+description: "Microsoft Entra ID Identity Store"
+sidebar_position: 20
+---
+
 # Microsoft Entra ID Identity Store
 
 Once you have registered Directory Manager and created a user with required directory role in
@@ -8,7 +14,7 @@ Microsoft Entra ID user in Directory Manager.
 ## To create a Microsoft Entra ID Identity Store
 
 See the
-[Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.1/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
+[Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.1/signin/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
 topic for creating an Microsoft Entra ID identity store.
 
 NOTE: If you intend to use a service account user with Global Administrator directory role, then no

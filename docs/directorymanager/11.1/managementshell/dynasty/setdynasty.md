@@ -1,3 +1,9 @@
+---
+title: "Set-Dynasty"
+description: "Set-Dynasty"
+sidebar_position: 20
+---
+
 # Set-Dynasty
 
 The Set-Dynasty commandlet lets you to modify a Dynasty or its children in Directory.
@@ -140,7 +146,7 @@ The command below modifies the Top Manager of a Managerial Dynasty, changes the 
 display name templates for the Dynasty children, sets the scope to search Dynasty children in the
 containers specified in the Add parameter excluding sub-containers using the credentials set in the
 $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

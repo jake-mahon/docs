@@ -1,3 +1,9 @@
+---
+title: "Remove-IdentityStore"
+description: "Remove-IdentityStore"
+sidebar_position: 140
+---
+
 # Remove-IdentityStore
 
 The commandlet Remove-IdentityStore removes an identity store from Directory Manager.

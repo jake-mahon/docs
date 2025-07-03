@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for Directory Manager using AD FS"
+description: "SAML Configuration for Directory Manager using AD FS"
+sidebar_position: 10
+---
+
 # SAML Configuration for Directory Manager using AD FS
 
 Active Directory Federation Services (AD FS) provides users with single sign-on access to systems

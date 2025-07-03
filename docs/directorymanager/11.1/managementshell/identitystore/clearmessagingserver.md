@@ -1,3 +1,9 @@
+---
+title: "Clear-MessagingServer"
+description: "Clear-MessagingServer"
+sidebar_position: 10
+---
+
 # Clear-MessagingServer
 
 The commandlet Clear-MessagingServer removes the configured messaging server from the specified

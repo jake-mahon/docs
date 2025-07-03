@@ -1,3 +1,9 @@
+---
+title: "Directory Manager as an Identity Provider"
+description: "Directory Manager as an Identity Provider"
+sidebar_position: 10
+---
+
 # Directory Manager as an Identity Provider
 
 Directory Manager can provide the services of an identity provider. You can register a third-party
