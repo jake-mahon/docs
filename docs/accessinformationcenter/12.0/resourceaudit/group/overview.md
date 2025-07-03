@@ -1,3 +1,9 @@
+---
+title: "Group Reports"
+description: "Group Reports"
+sidebar_position: 140
+---
+
 # Group Reports
 
 Group reports are accessed through the Group Audit interface. You can access Group reports by

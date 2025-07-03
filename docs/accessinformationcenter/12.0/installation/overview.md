@@ -1,3 +1,9 @@
+---
+title: "Installation Overview"
+description: "Installation Overview"
+sidebar_position: 20
+---
+
 # Installation Overview
 
 The Netwrix Access Information Center relies on collected and analyzed data that is stored in a

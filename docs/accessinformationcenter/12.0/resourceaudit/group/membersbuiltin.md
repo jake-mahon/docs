@@ -1,3 +1,9 @@
+---
+title: "Members Report for a Built-in Group"
+description: "Members Report for a Built-in Group"
+sidebar_position: 90
+---
+
 # Members Report for a Built-in Group
 
 The Members report for a built-in group provides a list of all trustees, users, and groups with

@@ -1,3 +1,9 @@
+---
+title: "License Page"
+description: "License Page"
+sidebar_position: 50
+---
+
 # License Page
 
 Access to specific types of reports and workflows is controlled through the Access Information

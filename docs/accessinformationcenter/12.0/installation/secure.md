@@ -1,9 +1,15 @@
+---
+title: "Securing the Access Information Center"
+description: "Securing the Access Information Center"
+sidebar_position: 20
+---
+
 # Securing the Access Information Center
 
 There are two options for accessing the Access Information Center. You can either go to the Access
 Information Center website directly or you can access it via the Web Console. The Web Console uses
 an embedded website installed with Access Analyzer. It provides a consolidated logon for both Access
-Analyzer reports and the Access Information Center. See the [URL & Login](/docs/accessinformationcenter/12.0/admin/login.md)
+Analyzer reports and the Access Information Center. See the [URL & Login](/docs/accessinformationcenter/12.0/admin/login/login.md)
 topic for additional information.
 
 In order to secure the Access Information Center, it is first necessary to enable SSL for theAccess

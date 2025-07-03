@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 70
+---
+
 # Troubleshooting
 
 The following are several troubleshooting tips which can assist with diagnosing trouble with the

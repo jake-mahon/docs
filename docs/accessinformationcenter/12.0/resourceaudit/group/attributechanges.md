@@ -1,3 +1,9 @@
+---
+title: "Attribute Changes Report"
+description: "Attribute Changes Report"
+sidebar_position: 20
+---
+
 # Attribute Changes Report
 
 The Attribute Changes report for a group object provides specific details for every attribute change

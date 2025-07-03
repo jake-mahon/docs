@@ -1,3 +1,9 @@
+---
+title: "Activity Statistics Report"
+description: "Activity Statistics Report"
+sidebar_position: 20
+---
+
 # Activity Statistics Report
 
 The Activity Statistics report at the share and subfolder levels provides statistical activity event
@@ -29,7 +35,7 @@ This report is comprised of the following columns:
 - Deletes – Count of delete operations on files and subfolders
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/12.0/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.
 
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
 selected resource.

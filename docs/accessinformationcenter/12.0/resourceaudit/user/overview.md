@@ -1,3 +1,9 @@
+---
+title: "User Reports"
+description: "User Reports"
+sidebar_position: 130
+---
+
 # User Reports
 
 User reports are accessed through the User Audit interface. You can access User reports by searching

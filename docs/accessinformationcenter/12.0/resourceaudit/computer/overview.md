@@ -1,3 +1,9 @@
+---
+title: "Computer Reports"
+description: "Computer Reports"
+sidebar_position: 150
+---
+
 # Computer Reports
 
 Computer reports are accessed through the Computer Audit interface. You can access Computer reports

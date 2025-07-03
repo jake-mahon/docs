@@ -1,3 +1,9 @@
+---
+title: "Amazon (AWS) Reports Quick Reference Guide"
+description: "Amazon (AWS) Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Amazon (AWS) Reports Quick Reference Guide
 
 The following Amazon (AWS) reports are available for selections within the Resources pane.

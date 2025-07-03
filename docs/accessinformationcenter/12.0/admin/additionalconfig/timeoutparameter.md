@@ -1,3 +1,9 @@
+---
+title: "Timeout Parameter"
+description: "Timeout Parameter"
+sidebar_position: 50
+---
+
 # Timeout Parameter
 
 A user session will end when the timeout parameter for inactivity has been reached, and the user

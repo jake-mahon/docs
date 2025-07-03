@@ -1,3 +1,9 @@
+---
+title: "Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Access Information Center"
+description: "Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Access Information Center"
+sidebar_position: 10
+---
+
 # Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Access Information Center
 
 - [Installation Overview](/docs/accessinformationcenter/12.0/installation/overview.md) topic and subtopics cover the prerequisites,
@@ -15,7 +21,7 @@
   ownership is core component for both the Resource Reviews and the Self-Service Access Requests
   workflows.
 
-    - [Resource Ownership with the Access Information Center](/docs/accessinformationcenter/12.0/resourceowners/owneroverview.md) topic
+    - [Resource Ownership with the Access Information Center](/docs/accessinformationcenter/12.0/owneroverview/owneroverview.md) topic
       and subtopics are written for assigned owners.
 
 - [Resource Reviews Overview](/docs/accessinformationcenter/12.0/resourcereviews/overview.md) topic and subtopics cover the process of
@@ -30,5 +36,5 @@
   interface. The Access Requests interface is available to users with either Security Team or
   Administrator access.
 
-    - [Your Access Portal Overview](/docs/accessinformationcenter/12.0/accessrequests/youraccessportal/overview.md) topic and subtopics
+    - [Your Access Portal Overview](/docs/accessinformationcenter/12.0/youraccessportal/overview.md) topic and subtopics
       are written for domain users who want to request access or view their own request history.

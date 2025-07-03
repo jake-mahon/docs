@@ -1,3 +1,9 @@
+---
+title: "Domain Level Reports"
+description: "Domain Level Reports"
+sidebar_position: 40
+---
+
 # Domain Level Reports
 
 The following reports are available at the **Domain** level:

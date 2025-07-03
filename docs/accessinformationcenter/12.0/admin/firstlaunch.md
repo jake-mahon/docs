@@ -1,3 +1,9 @@
+---
+title: "First Launch"
+description: "First Launch"
+sidebar_position: 20
+---
+
 # First Launch
 
 The installer places the following icon on the desktop which opens the Access Information Center
@@ -39,8 +45,8 @@ information.
 
 Once console access to the has been configured, there are a few login methods you can offer users.
 The features available to users are controlled by the role assigned and your license key. See the
-[URL & Login](/docs/accessinformationcenter/12.0/admin/login.md) topic for information on how users will log in and where they are directed
+[URL & Login](/docs/accessinformationcenter/12.0/admin/login/login.md) topic for information on how users will log in and where they are directed
 after login.
 
-See the [Navigation](/docs/accessinformationcenter/12.0/admin/navigate.md) topic for information on each of the interfaces and portals
+See the [Navigation](/docs/accessinformationcenter/12.0/admin/navigate/navigate.md) topic for information on each of the interfaces and portals
 accessible from the Home page.

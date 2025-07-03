@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 40
+---
+
 # Permissions Report
 
 The Permissions report at the NFS Exports share and subfolder levels provides a list of trustees

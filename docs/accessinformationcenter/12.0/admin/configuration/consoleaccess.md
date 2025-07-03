@@ -1,3 +1,9 @@
+---
+title: "Console Access Page"
+description: "Console Access Page"
+sidebar_position: 10
+---
+
 # Console Access Page
 
 Console access to the is configured through the **Configuration** > **Console Access** page. Adding
@@ -39,7 +45,7 @@ See the Modify the Builtin Administrator Account topic for additional informatio
 
 Once users have been granted console access, they can login with their domain credentials. Console
 access is not a requirement for participation as owners or domain users in the Resource Reviews and
-Self-Service Access Requests workflows. See the [URL & Login](/docs/accessinformationcenter/12.0/admin/login.md) topic for information on
+Self-Service Access Requests workflows. See the [URL & Login](/docs/accessinformationcenter/12.0/admin/login/login.md) topic for information on
 how users will log in and where they are directed after login based on their assigned role or lack
 of role.
 

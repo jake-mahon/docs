@@ -1,3 +1,9 @@
+---
+title: "Computer Audit Interface"
+description: "Computer Audit Interface"
+sidebar_position: 60
+---
+
 # Computer Audit Interface
 
 The Computer Audit interface is opened by searching for a particular computer. See the

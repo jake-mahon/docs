@@ -1,3 +1,9 @@
+---
+title: "Access Groups"
+description: "Access Groups"
+sidebar_position: 20
+---
+
 # Access Groups
 
 When File System or SharePoint resources will be managed through the AIC, it is necessary to
@@ -5,7 +11,7 @@ configure access groups for those resources in the target environment. An access
 of the following access levels to a specific resource: Read, Modify, or Full Control. In the
 Resource Owners interface, the Ownership Administrator can then designate which group will be used
 to grant which level of access to the resource. This can be done through either the
-[Add New Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/wizard/add.md) or the [Update Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/wizard/update.md).
+[Add New Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/add.md) or the [Update Resource Wizard](/docs/accessinformationcenter/12.0/resourceowners/interface/update.md).
 
 If an access group is not identified for a specific access level, then the owner will be unable to
 change access to that level. For example, ownership configuration for the Finance share has been set
@@ -19,7 +25,7 @@ When the Ownership Administrator assigns access groups, the Access Information C
 which groups grant access through folder permissions to the selected resource. The Access
 Information Center completes the evaluation of group access levels from the data collected by Access
 Analyzer. A list of possible groups is made available for the selected access level in the
-[Select Group Window](/docs/accessinformationcenter/12.0/resourceowners/window/selectgroup.md). If no groups are listed that means the Access
+[Select Group Window](/docs/accessinformationcenter/12.0/resourceowners/interface/selectgroup.md). If no groups are listed that means the Access
 Information Center could not identify any groups for that access level. In these cases it will be
 necessary to set up a group with the appropriate permissions to the resource and rescan the host
 with Access Analyzer.

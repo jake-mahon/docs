@@ -1,3 +1,9 @@
+---
+title: "Membership Changes Report"
+description: "Membership Changes Report"
+sidebar_position: 20
+---
+
 # Membership Changes Report
 
 The Membership Changes report at the domain level provides list of groups that had membership

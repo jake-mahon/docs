@@ -1,3 +1,9 @@
+---
+title: "User Reports Quick Reference"
+description: "User Reports Quick Reference"
+sidebar_position: 10
+---
+
 # User Reports Quick Reference
 
 The following reports are available for selection within the User Audit interface for an Active
@@ -20,7 +26,7 @@ The following reports are available for selection within the User Audit interfac
 
 | Report                                                                  | Description                                                                                                                                                                                                                                                             |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Activity Details Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/entraid/activitydetails.md) | Provides details on every activity event logged by the audited Entra ID user during the selected date range.                                                                                                                                                            |
-| [Effective Access Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/entraid/effectiveaccess.md) | Provides insight into every resource the audited Entra ID user has access to and what level of access has been granted. Effective access is a calculation based on several variables according to the type of resource. This report includes a Permission Source table. |
-| [Member Of Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/entraid/memberof.md)               | Provides a list of all groups of which the audited Entra ID user is a member. This report includes a Membership Paths table.                                                                                                                                            |
-| [Permissions Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/entraid/permissions.md)          | Provides a list of all resources where the audited Entra ID user has been assigned permissions.                                                                                                                                                                         |
+| [Activity Details Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/activitydetails_1.md) | Provides details on every activity event logged by the audited Entra ID user during the selected date range.                                                                                                                                                            |
+| [Effective Access Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/effectiveaccess_1.md) | Provides insight into every resource the audited Entra ID user has access to and what level of access has been granted. Effective access is a calculation based on several variables according to the type of resource. This report includes a Permission Source table. |
+| [Member Of Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/memberof_1.md)               | Provides a list of all groups of which the audited Entra ID user is a member. This report includes a Membership Paths table.                                                                                                                                            |
+| [Permissions Report for Entra ID User](/docs/accessinformationcenter/12.0/resourceaudit/user/permissions_1.md)          | Provides a list of all resources where the audited Entra ID user has been assigned permissions.                                                                                                                                                                         |

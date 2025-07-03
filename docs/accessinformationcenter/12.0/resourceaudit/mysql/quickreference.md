@@ -1,3 +1,9 @@
+---
+title: "MySQL Reports Quick Reference Guide"
+description: "MySQL Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # MySQL Reports Quick Reference Guide
 
 The following MySQL reports are available for selections within the Resources pane.

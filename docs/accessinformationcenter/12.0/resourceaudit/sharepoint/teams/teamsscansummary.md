@@ -1,3 +1,9 @@
+---
+title: "Teams Scan Summary"
+description: "Teams Scan Summary"
+sidebar_position: 10
+---
+
 # Teams Scan Summary
 
 The Teams Scan Summary report at the **Teams** node provides an overview of scanned Teams servers.

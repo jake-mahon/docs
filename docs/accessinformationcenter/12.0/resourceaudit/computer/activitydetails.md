@@ -1,3 +1,9 @@
+---
+title: "Activity Details Report"
+description: "Activity Details Report"
+sidebar_position: 20
+---
+
 # Activity Details Report
 
 The Activity Details report for a computer object provides details on every activity event logged by

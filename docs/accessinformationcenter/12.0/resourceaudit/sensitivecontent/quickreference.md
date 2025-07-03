@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Reports Quick Reference"
+description: "Sensitive Content Reports Quick Reference"
+sidebar_position: 10
+---
+
 # Sensitive Content Reports Quick Reference
 
 The following report is available for selection within the Content Audit interface:

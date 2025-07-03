@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 40
+---
+
 # Exceptions Report
 
 The Exceptions report at the share and subfolder levels provides a list of all trustees with access

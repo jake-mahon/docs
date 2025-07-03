@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Summary Report"
+description: "Sensitive Content Summary Report"
+sidebar_position: 40
+---
+
 # Sensitive Content Summary Report
 
 The Sensitive Content Summary report at the **File System** node provides a count of files where

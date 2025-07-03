@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 30
+---
+
 # Exceptions Report
 
 The Exceptions report at the on-premise farm and online instance levels provides a list of

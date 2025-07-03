@@ -1,3 +1,9 @@
+---
+title: "Effective Access Report"
+description: "Effective Access Report"
+sidebar_position: 60
+---
+
 # Effective Access Report
 
 The Effective Access report for a user object provides insight into every resource the audited user

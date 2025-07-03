@@ -1,3 +1,9 @@
+---
+title: "Site Collection Roles Report"
+description: "Site Collection Roles Report"
+sidebar_position: 60
+---
+
 # Site Collection Roles Report
 
 The Site Collections Roles report at the site collection level provides a list of all roles or

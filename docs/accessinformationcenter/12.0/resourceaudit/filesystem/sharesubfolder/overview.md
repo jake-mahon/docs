@@ -1,3 +1,9 @@
+---
+title: "Share & Subfolder Levels Reports"
+description: "Share & Subfolder Levels Reports"
+sidebar_position: 110
+---
+
 # Share & Subfolder Levels Reports
 
 The following reports are available at the share and subfolder levels:

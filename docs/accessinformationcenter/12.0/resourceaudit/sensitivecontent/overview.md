@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Reports"
+description: "Sensitive Content Reports"
+sidebar_position: 160
+---
+
 # Sensitive Content Reports
 
 Sensitive Content reports are accessed through the Content Audit interface. You can access Sensitive

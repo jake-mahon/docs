@@ -1,3 +1,9 @@
+---
+title: "Exceptions Node Report"
+description: "Exceptions Node Report"
+sidebar_position: 100
+---
+
 # Exceptions Node Report
 
 The following report is available at the **Exceptions** node:

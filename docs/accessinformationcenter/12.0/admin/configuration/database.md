@@ -1,3 +1,9 @@
+---
+title: "Database Page"
+description: "Database Page"
+sidebar_position: 40
+---
+
 # Database Page
 
 The Access Information Center must have access to the SQL Server hosting the database. It is

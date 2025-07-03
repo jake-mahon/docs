@@ -1,3 +1,9 @@
+---
+title: "Commit Modeled Changes"
+description: "Commit Modeled Changes"
+sidebar_position: 30
+---
+
 # Commit Modeled Changes
 
 Once all changes are decided upon, it is time to commit the modeled changes to Active Directory.
@@ -29,7 +35,7 @@ Manually Commit Changes
 
 You can export the list of modeled changes as either a CSV or Excel file, which can be sent to your
 organization’s IT team. Select between the **CSV Export** and **Excel Export** buttons above the
-table. See the [Data Grid Features](/docs/accessinformationcenter/12.0/general/datagrid.md) topic for additional information.
+table. See the [Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.
 
 Access Information Center Automatically Commits Changes
 

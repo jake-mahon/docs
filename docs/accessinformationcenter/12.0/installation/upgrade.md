@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 30
+---
+
 # Upgrade Procedure
 
 It is necessary for Netwrix Access Analyzer (formerly Enterprise Auditor) and the Access Information

@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 20
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the Team Member, Resource, and Subfolder level provides a list of

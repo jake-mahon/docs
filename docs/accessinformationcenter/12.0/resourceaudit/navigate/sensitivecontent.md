@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Audit Interface"
+description: "Sensitive Content Audit Interface"
+sidebar_position: 70
+---
+
 # Sensitive Content Audit Interface
 
 The Sensitive Content Audit interface is opened by searching for a particular criteria value. See

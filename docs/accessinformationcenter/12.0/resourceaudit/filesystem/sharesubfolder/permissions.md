@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 50
+---
+
 # Permissions Report
 
 The Permissions report at the share and subfolder levels provides a list of trustees with

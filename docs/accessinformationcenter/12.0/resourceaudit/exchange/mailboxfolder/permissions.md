@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 10
+---
+
 # Permissions Report
 
 The Permissions report at the mailbox and folder level shows the permissions for the trustee on the

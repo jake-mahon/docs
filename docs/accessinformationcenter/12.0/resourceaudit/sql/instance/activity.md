@@ -1,3 +1,9 @@
+---
+title: "Activity Report"
+description: "Activity Report"
+sidebar_position: 10
+---
+
 # Activity Report
 
 The Activity report at the instance level displays activity across the entire instance logged during

@@ -1,3 +1,9 @@
+---
+title: "Scope an Effective Access Report"
+description: "Scope an Effective Access Report"
+sidebar_position: 80
+---
+
 # Scope an Effective Access Report
 
 Once an Effective Access report’s loading process has stopped, either by completing the analysis of
