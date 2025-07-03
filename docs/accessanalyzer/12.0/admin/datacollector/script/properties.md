@@ -1,3 +1,9 @@
+---
+title: "Script Properties"
+description: "Script Properties"
+sidebar_position: 60
+---
+
 # Script Properties
 
 The Data Source tab is used to select the data collector to be used. The configurable options are:

@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Criteria Selection"
+description: "Mailbox: Criteria Selection"
+sidebar_position: 20
+---
+
 # Mailbox: Criteria Selection
 
 Use the Criteria Selection page to choose search criteria saved in a previous Exchange Mailbox Data

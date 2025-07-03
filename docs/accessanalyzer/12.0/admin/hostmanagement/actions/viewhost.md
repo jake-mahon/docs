@@ -1,3 +1,9 @@
+---
+title: "View/Edit Host"
+description: "View/Edit Host"
+sidebar_position: 160
+---
+
 # View/Edit Host
 
 Use the **View/Edit Host** option to open the Host Details View. This view displays the collected

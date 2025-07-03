@@ -1,3 +1,9 @@
+---
+title: "Collection > PF_FolderOwnership Job"
+description: "Collection > PF_FolderOwnership Job"
+sidebar_position: 10
+---
+
 # Collection > PF_FolderOwnership Job
 
 The PF_FolderOwnership job is comprised of data collection that focuses on collecting each public

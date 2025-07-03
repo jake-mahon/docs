@@ -1,3 +1,9 @@
+---
+title: "2.Users Job Group"
+description: "2.Users Job Group"
+sidebar_position: 20
+---
+
 # 2.Users Job Group
 
 The 2.Users Job Group identifies user conditions and pinpoint potential areas of administrative

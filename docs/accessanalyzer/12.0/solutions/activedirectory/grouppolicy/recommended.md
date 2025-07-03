@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 4.Group Policy Job Group"
+description: "Recommended Configurations for the 4.Group Policy Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 4.Group Policy Job Group
 
 The **Active Directory** > **4.Group Policy** Job Group has been configured to run with the default

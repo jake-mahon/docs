@@ -1,3 +1,9 @@
+---
+title: "AD_UserPermissions Job"
+description: "AD_UserPermissions Job"
+sidebar_position: 20
+---
+
 # AD_UserPermissions Job
 
 The AD_UserPermissions job is comprised of analysis tasks and reports which use the data collected

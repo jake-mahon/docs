@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Delegate Rights"
+description: "Mailbox: Delegate Rights"
+sidebar_position: 120
+---
+
 # Mailbox: Delegate Rights
 
 Use the Delegate Rights page to specify folder permissions for the selected delegates. A permission

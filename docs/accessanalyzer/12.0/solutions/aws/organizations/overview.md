@@ -1,3 +1,9 @@
+---
+title: "1.Organizations Job Group"
+description: "1.Organizations Job Group"
+sidebar_position: 30
+---
+
 # 1.Organizations Job Group
 
 The 1.Organizations job group analyzes and reports on the AWS Organization including password

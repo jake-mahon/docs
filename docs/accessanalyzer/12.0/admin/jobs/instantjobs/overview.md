@@ -1,3 +1,9 @@
+---
+title: "Instant Job Wizard"
+description: "Instant Job Wizard"
+sidebar_position: 50
+---
+
 # Instant Job Wizard
 
 The Access Analyzer Instant Job Wizard provides access to a library of instant solutions and instant

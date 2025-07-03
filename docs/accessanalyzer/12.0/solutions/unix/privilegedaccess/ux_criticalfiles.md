@@ -1,3 +1,9 @@
+---
+title: "UX_CriticalFiles Job"
+description: "UX_CriticalFiles Job"
+sidebar_position: 20
+---
+
 # UX_CriticalFiles Job
 
 The UX_CriticalFiles job provides visibility into owners of critical files within audited Unix and

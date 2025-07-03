@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The Db2 Solution Set Collection Group collects high level summary information from targeted Db2

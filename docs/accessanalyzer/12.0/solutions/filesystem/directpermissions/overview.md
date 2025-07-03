@@ -1,3 +1,9 @@
+---
+title: "2.Direct Permissions Job Group"
+description: "2.Direct Permissions Job Group"
+sidebar_position: 40
+---
+
 # 2.Direct Permissions Job Group
 
 The 2.Direct Permissions job group is designed to report on Direct Permissions information from

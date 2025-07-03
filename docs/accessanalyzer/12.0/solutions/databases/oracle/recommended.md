@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration"
+description: "Recommended Configuration"
+sidebar_position: 10
+---
+
 # Recommended Configuration
 
 The Oracle Solution has been configured to inherit down from the Oracle > Settings node. However, it

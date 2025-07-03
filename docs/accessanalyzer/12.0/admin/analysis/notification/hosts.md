@@ -1,3 +1,9 @@
+---
+title: "Notification: Hosts"
+description: "Notification: Hosts"
+sidebar_position: 50
+---
+
 # Notification: Hosts
 
 Use the Select Hosts page to scope hosts and to select specific hosts to target.

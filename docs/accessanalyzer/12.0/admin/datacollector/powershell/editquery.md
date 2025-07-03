@@ -1,3 +1,9 @@
+---
+title: "PowerShell: Edit Query"
+description: "PowerShell: Edit Query"
+sidebar_position: 10
+---
+
 # PowerShell: Edit Query
 
 The Edit Query page provides a screen to edit the query to execute. Users can import PowerShell

@@ -1,3 +1,9 @@
+---
+title: "SQL_LinkedServers Job"
+description: "SQL_LinkedServers Job"
+sidebar_position: 50
+---
+
 # SQL_LinkedServers Job
 
 The SQL_LinkedServers Job identifies Linked Servers or remote database servers on which the

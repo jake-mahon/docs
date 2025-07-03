@@ -1,3 +1,9 @@
+---
+title: "Unix: Input"
+description: "Unix: Input"
+sidebar_position: 20
+---
+
 # Unix: Input
 
 The Input page configures the source for input data.

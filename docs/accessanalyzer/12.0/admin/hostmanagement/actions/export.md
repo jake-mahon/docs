@@ -1,3 +1,9 @@
+---
+title: "Export Data"
+description: "Export Data"
+sidebar_position: 70
+---
+
 # Export Data
 
 Use the **Export Data** option to export all information available in the current grid view for the

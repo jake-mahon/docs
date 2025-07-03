@@ -1,3 +1,9 @@
+---
+title: "SG_MicrosoftLAPS Job"
+description: "SG_MicrosoftLAPS Job"
+sidebar_position: 20
+---
+
 # SG_MicrosoftLAPS Job
 
 The SG_MicrosoftLAPS job assesses the Local Administrator Password Solution (LAPS) local policies on

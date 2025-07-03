@@ -1,3 +1,9 @@
+---
+title: "1.Direct Permissions Job Group"
+description: "1.Direct Permissions Job Group"
+sidebar_position: 30
+---
+
 # 1.Direct Permissions Job Group
 
 The **SharePoint** > **1.Direct Permissions** Job Group provides insight into how directly applied

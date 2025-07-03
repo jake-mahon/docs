@@ -1,3 +1,9 @@
+---
+title: "Oracle_SecurityAssessment Job"
+description: "Oracle_SecurityAssessment Job"
+sidebar_position: 80
+---
+
 # Oracle_SecurityAssessment Job
 
 The Oracle_SecurityAssessment Job is designed to summarize and categorize the security findings from

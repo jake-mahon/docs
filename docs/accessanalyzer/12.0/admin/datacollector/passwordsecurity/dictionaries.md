@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity: Dictionaries"
+description: "PasswordSecurity: Dictionaries"
+sidebar_position: 30
+---
+
 # PasswordSecurity: Dictionaries
 
 The Dictionaries page provides configuration settings for storing passwords to be used as a

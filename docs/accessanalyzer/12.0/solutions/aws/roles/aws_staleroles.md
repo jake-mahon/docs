@@ -1,3 +1,9 @@
+---
+title: "AWS_StaleRoles Job"
+description: "AWS_StaleRoles Job"
+sidebar_position: 20
+---
+
 # AWS_StaleRoles Job
 
 The AWS_StaleRoles job provides details on roles that are considered stale. Highlighting roles that
@@ -51,7 +57,7 @@ The default values for parameters that can be customized are:
 | Stale Role Details | @StaleThreshold             | 60            | Days without login to consider an account stale. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleRoles Job

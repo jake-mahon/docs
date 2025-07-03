@@ -1,3 +1,9 @@
+---
+title: "Roles & the Schedule Service Account"
+description: "Roles & the Schedule Service Account"
+sidebar_position: 30
+---
+
 # Roles & the Schedule Service Account
 
 Once Role-Based Access is enabled, a user or group with the appropriate access role has the ability

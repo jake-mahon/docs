@@ -1,3 +1,9 @@
+---
+title: "SendMail Action: Properties"
+description: "SendMail Action: Properties"
+sidebar_position: 10
+---
+
 # SendMail Action: Properties
 
 Use the Properties page to specify the recipients of the email.

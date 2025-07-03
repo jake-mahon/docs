@@ -1,3 +1,9 @@
+---
+title: "DiskInfo: Results"
+description: "DiskInfo: Results"
+sidebar_position: 20
+---
+
 # DiskInfo: Results
 
 The Results page provides a checklist of the data that is available for return by the query. Any

@@ -1,3 +1,9 @@
+---
+title: "7.Sensitive Data > FS_DLPResults Job"
+description: "7.Sensitive Data > FS_DLPResults Job"
+sidebar_position: 90
+---
+
 # 7.Sensitive Data > FS_DLPResults Job
 
 The FS_DLPResults job is designed to report on resources that have been identified to contain

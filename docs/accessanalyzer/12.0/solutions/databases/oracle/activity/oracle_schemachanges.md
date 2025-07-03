@@ -1,3 +1,9 @@
+---
+title: "Oracle_SchemaChanges Job"
+description: "Oracle_SchemaChanges Job"
+sidebar_position: 40
+---
+
 # Oracle_SchemaChanges Job
 
 The Oracle_SchemaChanges Job is designed to provide detailed information about changes in schema

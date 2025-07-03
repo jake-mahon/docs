@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the Redshift Solution"
+description: "Recommended Configuration for the Redshift Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the Redshift Solution
 
 The Redshift Solution is configured to inherit settings from the global Settings node. However, it

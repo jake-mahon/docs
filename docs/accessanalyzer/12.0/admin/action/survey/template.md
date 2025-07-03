@@ -1,3 +1,9 @@
+---
+title: "Survey: Template"
+description: "Survey: Template"
+sidebar_position: 10
+---
+
 # Survey: Template
 
 Survey templates require customization to meet the customer's business needs. Contact

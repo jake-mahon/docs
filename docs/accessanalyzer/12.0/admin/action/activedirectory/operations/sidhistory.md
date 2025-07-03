@@ -1,3 +1,9 @@
+---
+title: "Clear/Set SID History"
+description: "Clear/Set SID History"
+sidebar_position: 10
+---
+
 # Clear/Set SID History
 
 Use the Clear/Set SID History page to overwrite or append to the SID history for targeted objects.

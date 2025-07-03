@@ -1,3 +1,9 @@
+---
+title: "FSAA: Scoping Options"
+description: "FSAA: Scoping Options"
+sidebar_position: 90
+---
+
 # FSAA: Scoping Options
 
 The Scoping Options page is where scan settings, file details, and file properties settings can be
@@ -83,7 +89,7 @@ Then set Scoping Type and Priority:
       it is excluded.
 
     **NOTE:** Any included files or folders inherit all options previously checked in the
-    [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions.md) page. Manually apply new options if
+    [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/defaultscopingoptions.md) page. Manually apply new options if
     the default ones are not desired in this scan.
 
 - Priority – Numerical value that determines which options are used in the case of more than one

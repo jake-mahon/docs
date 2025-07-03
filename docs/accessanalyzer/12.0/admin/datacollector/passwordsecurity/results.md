@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity: Results"
+description: "PasswordSecurity: Results"
+sidebar_position: 40
+---
+
 # PasswordSecurity: Results
 
 The Results page is where Active Directory properties to be gathered are selected.

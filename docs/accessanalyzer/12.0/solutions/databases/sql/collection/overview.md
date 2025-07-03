@@ -1,3 +1,9 @@
+---
+title: "0.Collection > SQL Job Group"
+description: "0.Collection > SQL Job Group"
+sidebar_position: 30
+---
+
 # 0.Collection > SQL Job Group
 
 The 0.Collection Job Group is designed to collect high level summary information form targeted

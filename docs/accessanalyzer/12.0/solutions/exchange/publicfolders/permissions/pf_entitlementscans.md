@@ -1,3 +1,9 @@
+---
+title: "Collection > PF_EntitlementScans Job"
+description: "Collection > PF_EntitlementScans Job"
+sidebar_position: 10
+---
+
 # Collection > PF_EntitlementScans Job
 
 The PF_EntitlementScans job is comprised of data collection that focuses on public folder

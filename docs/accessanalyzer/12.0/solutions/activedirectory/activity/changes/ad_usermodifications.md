@@ -1,3 +1,9 @@
+---
+title: "AD_UserModifications Job"
+description: "AD_UserModifications Job"
+sidebar_position: 30
+---
+
 # AD_UserModifications Job
 
 The AD_UserModifications Job provides a report of all changes to user objects.

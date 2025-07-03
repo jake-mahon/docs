@@ -1,3 +1,9 @@
+---
+title: "PowerShell: Summary"
+description: "PowerShell: Summary"
+sidebar_position: 50
+---
+
 # PowerShell: Summary
 
 The Summary page summarizes the selected configurations from the previous pages in the PowerShell

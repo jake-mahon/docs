@@ -1,3 +1,9 @@
+---
+title: "File: Target Files"
+description: "File: Target Files"
+sidebar_position: 20
+---
+
 # File: Target Files
 
 The Target Files page provides filters to scope the data collection. This can provide better search

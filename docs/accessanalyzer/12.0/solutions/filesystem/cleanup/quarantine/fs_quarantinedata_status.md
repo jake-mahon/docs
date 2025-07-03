@@ -1,3 +1,9 @@
+---
+title: "FS_QuarantineData_Status Job"
+description: "FS_QuarantineData_Status Job"
+sidebar_position: 20
+---
+
 # FS_QuarantineData_Status Job
 
 The FS_QuarantineData_Status job is designed to report on the FS_QuarantineData job. See the

@@ -1,3 +1,9 @@
+---
+title: "Notification: Time Window"
+description: "Notification: Time Window"
+sidebar_position: 110
+---
+
 # Notification: Time Window
 
 Use this page to specify whether to include only rows collected in the last execution.

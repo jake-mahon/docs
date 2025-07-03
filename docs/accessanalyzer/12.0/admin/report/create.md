@@ -1,3 +1,9 @@
+---
+title: "Creating a Report"
+description: "Creating a Report"
+sidebar_position: 10
+---
+
 # Creating a Report
 
 Creating and customizing reports allows you to design outputs uniquely crafted to your requirements.

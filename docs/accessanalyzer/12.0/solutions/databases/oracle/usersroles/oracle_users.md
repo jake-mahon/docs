@@ -1,3 +1,9 @@
+---
+title: "Oracle_Users Job"
+description: "Oracle_Users Job"
+sidebar_position: 40
+---
+
 # Oracle_Users Job
 
 The Oracle_Users Job is designed to provide insight into all attributes associated with users in all

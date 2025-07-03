@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory: Directory Scope"
+description: "ActiveDirectory: Directory Scope"
+sidebar_position: 20
+---
+
 # ActiveDirectory: Directory Scope
 
 The Directory Scope page provides configuration settings for the directory connection and the scope

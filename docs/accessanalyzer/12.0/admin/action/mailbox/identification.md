@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Mailbox Identification"
+description: "Mailbox: Mailbox Identification"
+sidebar_position: 40
+---
+
 # Mailbox: Mailbox Identification
 
 The Mailbox Identification page specifies the mailboxes the action targets. It is a wizard page for

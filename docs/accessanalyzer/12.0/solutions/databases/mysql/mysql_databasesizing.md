@@ -1,3 +1,9 @@
+---
+title: "Configuration > MySQL_DatabaseSizing Job"
+description: "Configuration > MySQL_DatabaseSizing Job"
+sidebar_position: 30
+---
+
 # Configuration > MySQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into MySQL server configuration settings.

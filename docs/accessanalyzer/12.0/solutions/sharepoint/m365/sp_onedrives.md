@@ -1,3 +1,9 @@
+---
+title: "SP_OneDrives Job"
+description: "SP_OneDrives Job"
+sidebar_position: 20
+---
+
 # SP_OneDrives Job
 
 The SP_OneDrives Job collects the activity, sensitive data, summary level information across

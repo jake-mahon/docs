@@ -1,3 +1,9 @@
+---
+title: "Box_WeekendActivity Job"
+description: "Box_WeekendActivity Job"
+sidebar_position: 50
+---
+
 # Box_WeekendActivity Job
 
 The Box_WeekendActivity Job highlights unusual download activity for a user on a specific day by

@@ -1,3 +1,9 @@
+---
+title: "Oracle_SensitiveDataPermissions Job"
+description: "Oracle_SensitiveDataPermissions Job"
+sidebar_position: 10
+---
+
 # Oracle_SensitiveDataPermissions Job
 
 The Oracle_SensitiveDataPermissions Job is designed to provide information on permissions on

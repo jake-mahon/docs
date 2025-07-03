@@ -1,3 +1,9 @@
+---
+title: "FS_StaleFileActivity Job"
+description: "FS_StaleFileActivity Job"
+sidebar_position: 80
+---
+
 # FS_StaleFileActivity Job
 
 The FS_StaleFileActivity job is designed to report on user activity event information involving

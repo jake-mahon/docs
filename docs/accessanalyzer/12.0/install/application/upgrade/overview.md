@@ -1,3 +1,9 @@
+---
+title: "Access Analyzer Console Upgrade"
+description: "Access Analyzer Console Upgrade"
+sidebar_position: 50
+---
+
 # Access Analyzer Console Upgrade
 
 Access Analyzer 12.0 uses the Upgrade Wizard. For upgrades from versions of Access Analyzer that are
@@ -13,7 +19,7 @@ The purpose of this document is to provide the basic steps needed for upgrading 
 the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
 
-See the [What's New](/docs/accessanalyzer/12.0/whatsnew.md) topic for release information.
+See the [What's New](/docs/accessanalyzer/12.0/overview/whatsnew.md) topic for release information.
 
 ## Considerations
 

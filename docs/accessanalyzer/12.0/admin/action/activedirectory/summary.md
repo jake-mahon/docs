@@ -1,3 +1,9 @@
+---
+title: "Active Directory Action Summary"
+description: "Active Directory Action Summary"
+sidebar_position: 40
+---
+
 # Active Directory Action Summary
 
 The Summary page displays a summary of the configured settings for the action.

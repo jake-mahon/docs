@@ -1,3 +1,9 @@
+---
+title: "AAD_StaleUsers Job"
+description: "AAD_StaleUsers Job"
+sidebar_position: 30
+---
+
 # AAD_StaleUsers Job
 
 The AAD_StaleUsers Job identifies potentially stale users based on a variety of factors. These

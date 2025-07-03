@@ -1,3 +1,9 @@
+---
+title: "AD_GroupModifications Job"
+description: "AD_GroupModifications Job"
+sidebar_position: 20
+---
+
 # AD_GroupModifications Job
 
 The AD_GroupModifications Job provides a report of all changes to group objects. A separate report

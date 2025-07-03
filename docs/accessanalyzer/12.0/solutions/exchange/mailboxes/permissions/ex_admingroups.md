@@ -1,3 +1,9 @@
+---
+title: "EX_AdminGroups Job"
+description: "EX_AdminGroups Job"
+sidebar_position: 20
+---
+
 # EX_AdminGroups Job
 
 The EX_AdminGroups job provides visibility into the direct and effective membership of Exchange

@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Index Update Options"
+description: "ADInventory: Index Update Options"
+sidebar_position: 60
+---
+
 # ADInventory: Index Update Options
 
 Configure options for maintaining SQL Server indexes while running queries using the Index Update

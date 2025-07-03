@@ -1,3 +1,9 @@
+---
+title: "Backup and Recovery"
+description: "Backup and Recovery"
+sidebar_position: 30
+---
+
 # Backup and Recovery
 
 For data recovery purposes, the Access Analyzer does not need a complete image back up of the Access

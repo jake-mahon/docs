@@ -1,3 +1,9 @@
+---
+title: "Role Based Access: FAQ"
+description: "Role Based Access: FAQ"
+sidebar_position: 90
+---
+
 # Role Based Access: FAQ
 
 This topic lists some commonly asked questions about Role Based Access functionality in Access

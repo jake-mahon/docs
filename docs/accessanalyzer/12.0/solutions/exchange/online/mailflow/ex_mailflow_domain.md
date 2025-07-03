@@ -1,3 +1,9 @@
+---
+title: "EX_Mailflow_Domain Job"
+description: "EX_Mailflow_Domain Job"
+sidebar_position: 30
+---
+
 # EX_Mailflow_Domain Job
 
 The EX_Mailflow_Domain job provides information about which domain’s mail-flow is going to and
@@ -37,7 +43,7 @@ The following analysis task is selected by default:
       modified. See the [Parameter Configuration](#parameter-configuration) topic for additional
       information.
     - Alternatively, the `@Days` parameter can be modified in the SQL Script Editor. See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information
 
 In addition to the tables and views created by the analysis task, the EX_Mailflow_Domain job

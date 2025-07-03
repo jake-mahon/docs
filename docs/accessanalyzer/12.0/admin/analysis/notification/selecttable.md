@@ -1,3 +1,9 @@
+---
+title: "Notification: Select Table"
+description: "Notification: Select Table"
+sidebar_position: 20
+---
+
 # Notification: Select Table
 
 Select the table containing data on which to trigger a notification. The selection on the Table Type

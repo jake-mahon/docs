@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Authentication Job Group"
+description: "Recommended Configurations for the Authentication Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Authentication Job Group
 
 Dependencies

@@ -1,3 +1,9 @@
+---
+title: "2-Oracle_SensitiveDataScan Job"
+description: "2-Oracle_SensitiveDataScan Job"
+sidebar_position: 30
+---
+
 # 2-Oracle_SensitiveDataScan Job
 
 The 2-Oracle_SensitiveDataScan job discovers sensitive data in Oracle databases across all targeted

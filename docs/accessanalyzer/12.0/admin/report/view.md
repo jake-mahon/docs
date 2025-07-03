@@ -1,3 +1,9 @@
+---
+title: "Viewing Generated Reports"
+description: "Viewing Generated Reports"
+sidebar_position: 50
+---
+
 # Viewing Generated Reports
 
 Reports can be viewed either in the Access Analyzer Console in the Results Node of the related job,

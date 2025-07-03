@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 10
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group collects details on all rights granted via sudoers within audited Unix

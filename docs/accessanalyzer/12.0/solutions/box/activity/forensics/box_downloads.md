@@ -1,3 +1,9 @@
+---
+title: "Box_Downloads Job"
+description: "Box_Downloads Job"
+sidebar_position: 20
+---
+
 # Box_Downloads Job
 
 The Box_Downloads Job provides details on file and folder deletions that have occurred over the past

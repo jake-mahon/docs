@@ -1,3 +1,9 @@
+---
+title: "Script Data Collector"
+description: "Script Data Collector"
+sidebar_position: 320
+---
+
 # Script Data Collector
 
 The Script Data Collector provides VB Script exit from Access Analyzer. Static queries are sometimes

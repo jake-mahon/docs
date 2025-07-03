@@ -1,3 +1,9 @@
+---
+title: "AD_ComputerRights Job"
+description: "AD_ComputerRights Job"
+sidebar_position: 20
+---
+
 # AD_ComputerRights Job
 
 The AD_ComputerRights Job provides data collection to identify permissions applied to computers in

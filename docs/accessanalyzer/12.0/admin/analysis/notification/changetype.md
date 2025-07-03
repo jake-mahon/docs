@@ -1,3 +1,9 @@
+---
+title: "Notification: Change Type"
+description: "Notification: Change Type"
+sidebar_position: 30
+---
+
 # Notification: Change Type
 
 Use the Select Change Type page to choose the types of changes for which to trigger a notification.

@@ -1,3 +1,9 @@
+---
+title: "Oracle_SystemAdministrators Job"
+description: "Oracle_SystemAdministrators Job"
+sidebar_position: 30
+---
+
 # Oracle_SystemAdministrators Job
 
 The Oracle_SystemAdministrators Job is designed to provide insight into users who have DBA, SYSDBA,

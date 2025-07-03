@@ -1,3 +1,9 @@
+---
+title: "Box: Additional Scoping"
+description: "Box: Additional Scoping"
+sidebar_position: 50
+---
+
 # Box: Additional Scoping
 
 The Additional Scoping page is where the scan can be limited by depth of the scan. It is a wizard

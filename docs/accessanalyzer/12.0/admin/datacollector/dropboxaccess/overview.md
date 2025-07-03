@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess Data Collector"
+description: "DropboxAccess Data Collector"
+sidebar_position: 120
+---
+
 # DropboxAccess Data Collector
 
 The DropboxAccess Data Collector audits access, group membership, and content within a Dropbox

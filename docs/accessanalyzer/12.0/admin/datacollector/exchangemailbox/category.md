@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: Category"
+description: "ExchangeMailbox: Category"
+sidebar_position: 10
+---
+
 # ExchangeMailbox: Category
 
 The Exchange Mailbox Data Collector contains the following Exchange Mailbox categories for

@@ -1,3 +1,9 @@
+---
+title: "UX_PasswordSettings Job"
+description: "UX_PasswordSettings Job"
+sidebar_position: 70
+---
+
 # UX_PasswordSettings Job
 
 The UX_PasswordSettings job provides visibility into user passwords and system password

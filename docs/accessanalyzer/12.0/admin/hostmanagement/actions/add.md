@@ -1,3 +1,9 @@
+---
+title: "Add Hosts"
+description: "Add Hosts"
+sidebar_position: 10
+---
+
 # Add Hosts
 
 The **Add Hosts** option creates a new host list. It can be accessed through the **Host Management**

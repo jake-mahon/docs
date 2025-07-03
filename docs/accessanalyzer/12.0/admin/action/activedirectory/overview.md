@@ -1,3 +1,9 @@
+---
+title: "Active Directory Action Module"
+description: "Active Directory Action Module"
+sidebar_position: 20
+---
+
 # Active Directory Action Module
 
 Use the Active Directory Action Module to make bulk changes to objects in Microsoft Active Directory
@@ -48,7 +54,7 @@ which contains the following wizard pages:
 
 - Welcome
 - [Active Directory Action Target](/docs/accessanalyzer/12.0/admin/action/activedirectory/target.md)
-- [Active Directory Action Operations](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations.md)
+- [Active Directory Action Operations](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/operations.md)
 - [Active Directory Action Options](/docs/accessanalyzer/12.0/admin/action/activedirectory/options.md)
 - [Active Directory Action Summary](/docs/accessanalyzer/12.0/admin/action/activedirectory/summary.md)
 

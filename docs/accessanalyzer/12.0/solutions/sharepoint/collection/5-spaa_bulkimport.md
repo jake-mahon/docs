@@ -1,3 +1,9 @@
+---
+title: "5-SPAA_BulkImport Job"
+description: "5-SPAA_BulkImport Job"
+sidebar_position: 50
+---
+
 # 5-SPAA_BulkImport Job
 
 This job is responsible for retrieving the SPAA Tier 2 database information and import it to the

@@ -1,3 +1,9 @@
+---
+title: "Import Hosts Option"
+description: "Import Hosts Option"
+sidebar_position: 20
+---
+
 # Import Hosts Option
 
 On the Manual Host Entry page of the Host List Wizard, the **Import** option allows hosts to be

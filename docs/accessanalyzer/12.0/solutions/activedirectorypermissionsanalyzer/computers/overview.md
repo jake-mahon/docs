@@ -1,3 +1,9 @@
+---
+title: "4.Computers Job Group"
+description: "4.Computers Job Group"
+sidebar_position: 60
+---
+
 # 4.Computers Job Group
 
 The 4.Computers Job Group reports on all Active Directory permissions applied to computer objects

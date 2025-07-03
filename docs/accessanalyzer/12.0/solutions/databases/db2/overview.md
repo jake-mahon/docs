@@ -1,3 +1,9 @@
+---
+title: "Db2 Solution"
+description: "Db2 Solution"
+sidebar_position: 10
+---
+
 # Db2 Solution
 
 The Access Analyzer Db2 Solution Set is a comprehensive set of pre-configured audit jobs and reports
@@ -11,7 +17,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasedb2.md) topic
+[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databasedb2.md) topic
 for additional information.
 
 Sensitive Data Discovery Considerations

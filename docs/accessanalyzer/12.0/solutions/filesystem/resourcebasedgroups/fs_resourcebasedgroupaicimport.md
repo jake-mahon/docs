@@ -1,3 +1,9 @@
+---
+title: "FS_ResourceBasedGroupAICImport Job"
+description: "FS_ResourceBasedGroupAICImport Job"
+sidebar_position: 20
+---
+
 # FS_ResourceBasedGroupAICImport Job
 
 The FS_ResorceBasedGroupsAICImport Job imports resources and access groups from the

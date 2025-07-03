@@ -1,3 +1,9 @@
+---
+title: "SP_MostActiveUsers Job"
+description: "SP_MostActiveUsers Job"
+sidebar_position: 30
+---
+
 # SP_MostActiveUsers Job
 
 This job identifies the most active users from the last 30 days on all monitored SharePoint servers

@@ -1,3 +1,9 @@
+---
+title: "SG_LocalMembership Job"
+description: "SG_LocalMembership Job"
+sidebar_position: 20
+---
+
 # SG_LocalMembership Job
 
 The SG_LocalMembership job collects local group membership from all targeted servers.

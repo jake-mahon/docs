@@ -1,3 +1,9 @@
+---
+title: "Collection > PF_FolderScans Job"
+description: "Collection > PF_FolderScans Job"
+sidebar_position: 10
+---
+
 # Collection > PF_FolderScans Job
 
 The PF_FolderScans job is comprised of data collection that focuses on collecting sizing information

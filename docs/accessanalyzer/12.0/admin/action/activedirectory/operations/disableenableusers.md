@@ -1,3 +1,9 @@
+---
+title: "Disable/Enable Users"
+description: "Disable/Enable Users"
+sidebar_position: 60
+---
+
 # Disable/Enable Users
 
 Use the Disable/Enable Users page to enable or disable target users.

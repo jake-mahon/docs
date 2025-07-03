@@ -1,3 +1,9 @@
+---
+title: "Suspend/Resume Host Inventory"
+description: "Suspend/Resume Host Inventory"
+sidebar_position: 150
+---
+
 # Suspend/Resume Host Inventory
 
 Use the **Suspend Host Inventory** option to pause an in progress inventory.

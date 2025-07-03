@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Job Group"
+description: "Sensitive Data Job Group"
+sidebar_position: 40
+---
+
 # Sensitive Data Job Group
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who

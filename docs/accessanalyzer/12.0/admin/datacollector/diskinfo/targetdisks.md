@@ -1,3 +1,9 @@
+---
+title: "DiskInfo: Target Disks"
+description: "DiskInfo: Target Disks"
+sidebar_position: 10
+---
+
 # DiskInfo: Target Disks
 
 The Target Disks page provides a selection of storage devices from which to return data from the

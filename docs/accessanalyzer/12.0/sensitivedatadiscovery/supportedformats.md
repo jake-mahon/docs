@@ -1,3 +1,9 @@
+---
+title: "Supported Formats for Scanning & Metadata"
+description: "Supported Formats for Scanning & Metadata"
+sidebar_position: 10
+---
+
 # Supported Formats for Scanning & Metadata
 
 This topic provides a comprehensive listing of all formats supported by Sensitive Data Discovery.

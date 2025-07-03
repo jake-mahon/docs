@@ -1,3 +1,9 @@
+---
+title: "FSAA: Scan Server Selection"
+description: "FSAA: Scan Server Selection"
+sidebar_position: 40
+---
+
 # FSAA: Scan Server Selection
 
 The Scan Server Selection page is where the server that executes the scan is configured. It is a

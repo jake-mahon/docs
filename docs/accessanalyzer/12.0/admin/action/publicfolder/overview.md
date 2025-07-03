@@ -1,3 +1,9 @@
+---
+title: "PublicFolder Action Module"
+description: "PublicFolder Action Module"
+sidebar_position: 60
+---
+
 # PublicFolder Action Module
 
 The Public Folder action module allows users to make bulk changes to selected Microsoft Exchange

@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 3. Databases Job Group"
+description: "Recommended Configurations for the 3. Databases Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 3. Databases Job Group
 
 Dependencies
@@ -27,9 +33,9 @@ through host inventory results.
 Connection Profile
 
 A Connection Profile must be set directly on the EX_DBInfo Job and the EX_PFInfo Job. See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/powershell.md) topic for
+[Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md) topic for
 the Ex_DBInfo Job required permissions. See the
-[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/mapi.md) topic for
+[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/mapi.md) topic for
 the EX_PFInfo Job requirements.
 
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional

@@ -1,3 +1,9 @@
+---
+title: "AD_DuplicateGroups Job"
+description: "AD_DuplicateGroups Job"
+sidebar_position: 40
+---
+
 # AD_DuplicateGroups Job
 
 The AD_Duplicate Job identifies duplicate groups within Active Directory. Duplicate groups contain

@@ -1,3 +1,9 @@
+---
+title: "Host Discovery"
+description: "Host Discovery"
+sidebar_position: 60
+---
+
 # Host Discovery
 
 The Host Discovery node is for configuring the settings which dictate how Access Analyzer handles

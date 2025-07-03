@@ -1,3 +1,9 @@
+---
+title: "File: Summary"
+description: "File: Summary"
+sidebar_position: 40
+---
+
 # File: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

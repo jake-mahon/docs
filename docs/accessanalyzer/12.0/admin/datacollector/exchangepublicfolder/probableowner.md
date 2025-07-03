@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Probable Owner"
+description: "ExchangePublicFolder: Probable Owner"
+sidebar_position: 50
+---
+
 # ExchangePublicFolder: Probable Owner
 
 The Probable Owner Settings page provides configuration options to determine an owner. It is enabled

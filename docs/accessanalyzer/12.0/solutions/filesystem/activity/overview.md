@@ -1,3 +1,9 @@
+---
+title: "5.Activity Job Group"
+description: "5.Activity Job Group"
+sidebar_position: 70
+---
+
 # 5.Activity Job Group
 
 The 5.Activity job group is designed to report on activity event information from targeted file

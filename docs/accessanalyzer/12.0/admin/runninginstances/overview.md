@@ -1,3 +1,9 @@
+---
+title: "Running Instances Node"
+description: "Running Instances Node"
+sidebar_position: 50
+---
+
 # Running Instances Node
 
 The Running Instances node displays progress for all running jobs. This includes jobs that are run

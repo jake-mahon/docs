@@ -1,3 +1,9 @@
+---
+title: "File System Action: Summary"
+description: "File System Action: Summary"
+sidebar_position: 110
+---
+
 # File System Action: Summary
 
 The Summary page displays a summary of the configured action.

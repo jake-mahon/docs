@@ -1,3 +1,9 @@
+---
+title: "Application Maintenance and Best Practices"
+description: "Application Maintenance and Best Practices"
+sidebar_position: 120
+---
+
 # Application Maintenance and Best Practices
 
 The following topics contain information needed for application maintenance and troubleshooting for

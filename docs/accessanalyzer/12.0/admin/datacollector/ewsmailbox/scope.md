@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Scope"
+description: "EWSMailbox: Scope"
+sidebar_position: 30
+---
+
 # EWSMailbox: Scope
 
 The Mailbox scope settings page is used to select which mailboxes are searched by the scan. It is a

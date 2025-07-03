@@ -1,3 +1,9 @@
+---
+title: "Resource Based Groups Job Group"
+description: "Resource Based Groups Job Group"
+sidebar_position: 120
+---
+
 # Resource Based Groups Job Group
 
 The Resource Based Groups Job Group will transform permissions on specified folders to a resource

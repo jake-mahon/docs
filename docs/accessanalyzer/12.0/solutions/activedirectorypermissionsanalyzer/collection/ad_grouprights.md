@@ -1,3 +1,9 @@
+---
+title: "AD_GroupRights Job"
+description: "AD_GroupRights Job"
+sidebar_position: 50
+---
+
 # AD_GroupRights Job
 
 The AD_GroupRights Job provides data collection to identify permissions applied to groups in Active

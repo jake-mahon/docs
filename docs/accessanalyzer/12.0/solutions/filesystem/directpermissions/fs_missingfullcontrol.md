@@ -1,3 +1,9 @@
+---
+title: "FS_MissingFullControl Job"
+description: "FS_MissingFullControl Job"
+sidebar_position: 40
+---
+
 # FS_MissingFullControl Job
 
 The FS_MissingFullControl job is designed to report on resources from targeted file servers that

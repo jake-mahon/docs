@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Category"
+description: "ExchangeMetrics: Category"
+sidebar_position: 10
+---
+
 # ExchangeMetrics: Category
 
 The Category page is used to identify the type of Exchange Metrics information to retrieve.

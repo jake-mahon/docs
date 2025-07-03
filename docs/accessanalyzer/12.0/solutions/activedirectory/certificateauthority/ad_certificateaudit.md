@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateAudit Job"
+description: "AD_CertificateAudit Job"
+sidebar_position: 20
+---
+
 # AD_CertificateAudit Job
 
 The AD_CertificateAudit job provides details on access rights to the Certificate Authority.

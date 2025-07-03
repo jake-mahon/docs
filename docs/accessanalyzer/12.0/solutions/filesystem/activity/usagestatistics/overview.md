@@ -1,3 +1,9 @@
+---
+title: "Usage Statistics Job Group"
+description: "Usage Statistics Job Group"
+sidebar_position: 50
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics job group is designed to report on usage statistics from targeted file servers.

@@ -1,8 +1,14 @@
+---
+title: "History"
+description: "History"
+sidebar_position: 50
+---
+
 # History
 
 The History node is where the history retention of job data and job logs are configured. The setting
 specified here at the global level applies to all jobs in the Jobs tree unless specifically changed
-at the job group or job level. See the [History Node](/docs/accessanalyzer/12.0/admin/jobs/group/history.md) and
+at the job group or job level. See the [History Node](/docs/accessanalyzer/12.0/admin/jobs/group/settings/history.md) and
 [History Tab](/docs/accessanalyzer/12.0/admin/jobs/job/properties/history.md) topics for additional information.
 
 ![History Global Settings](/img/product_docs/accessanalyzer/12.0/admin/settings/history.webp)

@@ -1,3 +1,9 @@
+---
+title: "Sizing Job Group"
+description: "Sizing Job Group"
+sidebar_position: 50
+---
+
 # Sizing Job Group
 
 The Sizing job group provides data collection, analyses, and reports which focus on mailbox sizing,

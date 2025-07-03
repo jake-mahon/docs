@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Options"
+description: "ADInventory: Options"
+sidebar_position: 50
+---
+
 # ADInventory: Options
 
 The Options page provides options for Active Directory data collection. It is a wizard page for the

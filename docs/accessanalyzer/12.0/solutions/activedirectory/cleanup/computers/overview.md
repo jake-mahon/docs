@@ -1,3 +1,9 @@
+---
+title: "3.Computers Job Group"
+description: "3.Computers Job Group"
+sidebar_position: 40
+---
+
 # 3.Computers Job Group
 
 The 3.Computers Job Group identifies stale computer accounts, providing a workflow to safely

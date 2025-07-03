@@ -1,3 +1,9 @@
+---
+title: "4.Content Job Group"
+description: "4.Content Job Group"
+sidebar_position: 60
+---
+
 # 4.Content Job Group
 
 This group provides insight into content stored across SharePoint farms in order to help more

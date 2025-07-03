@@ -1,3 +1,9 @@
+---
+title: "PowerShell Data Collector"
+description: "PowerShell Data Collector"
+sidebar_position: 300
+---
+
 # PowerShell Data Collector
 
 The PowerShell Data Collector provides PowerShell script exit from Access Analyzer. It has

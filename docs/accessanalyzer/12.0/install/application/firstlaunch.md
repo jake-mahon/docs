@@ -1,3 +1,9 @@
+---
+title: "Access Analyzer Initial Configuration"
+description: "Access Analyzer Initial Configuration"
+sidebar_position: 30
+---
+
 # Access Analyzer Initial Configuration
 
 Once the Access Analyzer installation process is complete, and before performing actions within
@@ -54,7 +60,7 @@ StealthAUDIT root folder path to copy from**. See the
   storage profile. Enter a unique, descriptive name for the new database. If multiple databases
   might exist for Access Analyzer, then the default name of Access Analyzer is not recommended.
 
-See the [Securing the Access Analyzer Database](database.md#securing-the-access-analyzer-database)
+See the [Securing the Access Analyzer Database](/docs/accessanalyzer/12.0/install/application/database/database.md#securing-the-access-analyzer-database)
 topic for additional information on creating a SQL Server database for Access Analyzer.
 
 **Step 5 –** Click **Next**.
@@ -116,4 +122,4 @@ the log after exiting the wizard, it is located in the installation directory at
 The Access Analyzer Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection
 Profile and a Schedule Service account as well as discovering hosts and setting up host lists. See
-the [Getting Started](/docs/accessanalyzer/12.0/gettingstarted.md) topic for additional information.
+the [Getting Started](/docs/accessanalyzer/12.0/overview/gettingstarted.md) topic for additional information.

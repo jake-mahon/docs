@@ -1,3 +1,9 @@
+---
+title: "DNS Data Collector"
+description: "DNS Data Collector"
+sidebar_position: 110
+---
+
 # DNS Data Collector
 
 The DNS Data Collector provides information regarding DNS configuration and records. It is available

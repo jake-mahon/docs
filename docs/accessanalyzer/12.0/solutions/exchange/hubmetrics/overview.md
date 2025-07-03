@@ -1,3 +1,9 @@
+---
+title: "1.HUB Metrics Job Group"
+description: "1.HUB Metrics Job Group"
+sidebar_position: 20
+---
+
 # 1.HUB Metrics Job Group
 
 The 1. HUB Metrics Job Group is comprised of data collection, analysis and reports that focus on

@@ -1,3 +1,9 @@
+---
+title: "Report Configuration Wizard"
+description: "Report Configuration Wizard"
+sidebar_position: 30
+---
+
 # Report Configuration Wizard
 
 You can use the Report Configuration Wizard to configure reports. The wizard can be launched for an

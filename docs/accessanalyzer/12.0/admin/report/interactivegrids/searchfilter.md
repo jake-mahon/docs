@@ -1,3 +1,9 @@
+---
+title: "Searching and Filtering Data"
+description: "Searching and Filtering Data"
+sidebar_position: 20
+---
+
 # Searching and Filtering Data
 
 When dealing with large sets of data, it may be useful to search for a desired attribute. This can

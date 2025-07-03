@@ -1,3 +1,9 @@
+---
+title: "Entra Data Collector"
+description: "Entra Data Collector"
+sidebar_position: 130
+---
+
 # Entra Data Collector
 
 The Entra data collector collects Microsoft Entra roles information from the target Microsoft Entra

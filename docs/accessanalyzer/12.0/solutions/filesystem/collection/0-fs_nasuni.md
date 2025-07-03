@@ -1,3 +1,9 @@
+---
+title: "0-FS_Nasuni Job"
+description: "0-FS_Nasuni Job"
+sidebar_position: 30
+---
+
 # 0-FS_Nasuni Job
 
 The 0-FS_Nasuni job is required in order to target Nasuni Edge Appliances. The job can be added from

@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Sample Host"
+description: "SMARTLog: Sample Host"
+sidebar_position: 20
+---
+
 # SMARTLog: Sample Host
 
 The Sample Host page is used to configure the host. It is a wizard page for all log types.

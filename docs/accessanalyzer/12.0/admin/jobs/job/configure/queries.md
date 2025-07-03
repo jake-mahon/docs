@@ -1,3 +1,9 @@
+---
+title: "Queries Node"
+description: "Queries Node"
+sidebar_position: 20
+---
+
 # Queries Node
 
 The Queries node uses a Access Analyzer data collector to run scans against the targeted hosts.
@@ -97,9 +103,9 @@ be the location where the Connection Profile is assigned. See the
 
 - Job Groups
     - Host List Assigned – **[Job Group]** > **Settings** > **Host Lists Assignment**. See the
-      [Host Lists Assignment](/docs/accessanalyzer/12.0/admin/jobs/group/hostlistsassignment.md) topic for additional information.
+      [Host Lists Assignment](/docs/accessanalyzer/12.0/admin/jobs/group/settings/hostlistsassignment.md) topic for additional information.
     - Connection Profile Selected – **[Job Group]** > **Settings** > **Connection**. See the
-      [Connection Node](/docs/accessanalyzer/12.0/admin/jobs/group/connection.md) topic for additional information.
+      [Connection Node](/docs/accessanalyzer/12.0/admin/jobs/group/settings/connection.md) topic for additional information.
 - Job Level
     - Host List Assigned – **[Job]** > **Configure** > **Hosts**. See the [Hosts Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/hosts.md)
       topic for additional information.

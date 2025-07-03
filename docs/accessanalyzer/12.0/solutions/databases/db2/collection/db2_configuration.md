@@ -1,3 +1,9 @@
+---
+title: "3-Db2_Configuration Job"
+description: "3-Db2_Configuration Job"
+sidebar_position: 30
+---
+
 # 3-Db2_Configuration Job
 
 This job collects Db2 database configuration settings for use in the following analysis jobs and

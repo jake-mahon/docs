@@ -1,3 +1,9 @@
+---
+title: "Applies To Tab"
+description: "Applies To Tab"
+sidebar_position: 30
+---
+
 # Applies To Tab
 
 Use the Applies To tab to specify the scope for application of the analysis rules. Rules are applied

@@ -1,3 +1,9 @@
+---
+title: "Mailflow Job Group"
+description: "Mailflow Job Group"
+sidebar_position: 20
+---
+
 # Mailflow Job Group
 
 The Mailbox job group is comprised of jobs that process and analyze the Message Tracking Logs in the

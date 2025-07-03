@@ -1,3 +1,9 @@
+---
+title: "Custom Roles"
+description: "Custom Roles"
+sidebar_position: 20
+---
+
 # Custom Roles
 
 A custom role can be created within Access Analyzer to combine the rights of other defined roles.

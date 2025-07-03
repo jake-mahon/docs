@@ -1,3 +1,9 @@
+---
+title: "SPAA: DLP Audit Settings"
+description: "SPAA: DLP Audit Settings"
+sidebar_position: 90
+---
+
 # SPAA: DLP Audit Settings
 
 The DLP Audit Settings page is where sensitive data discovery settings are configured. It is a

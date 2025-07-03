@@ -1,3 +1,9 @@
+---
+title: "Collection > AD_CACollection Job"
+description: "Collection > AD_CACollection Job"
+sidebar_position: 10
+---
+
 # Collection > AD_CACollection Job
 
 The AD_CACollection job collects Certificate Authority details and settings for analysis against

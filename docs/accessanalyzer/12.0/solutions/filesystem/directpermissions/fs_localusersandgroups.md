@@ -1,3 +1,9 @@
+---
+title: "FS_LocalUsersAndGroups Job"
+description: "FS_LocalUsersAndGroups Job"
+sidebar_position: 30
+---
+
 # FS_LocalUsersAndGroups Job
 
 The FS_LocalUsersAndGroups job is designed to report on local users and groups that have been

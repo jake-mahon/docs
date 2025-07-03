@@ -1,3 +1,9 @@
+---
+title: "EX_Perms Job"
+description: "EX_Perms Job"
+sidebar_position: 30
+---
+
 # EX_Perms Job
 
 The EX_Perms job collects information about permissions applied to the folders within Exchange

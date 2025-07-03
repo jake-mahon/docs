@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Operations"
+description: "Mailbox: Operations"
+sidebar_position: 10
+---
+
 # Mailbox: Operations
 
 Use the Operations page to specify the operation to be performed as part of the action.

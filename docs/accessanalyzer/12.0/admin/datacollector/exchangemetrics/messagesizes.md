@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Message Sizes"
+description: "ExchangeMetrics: Message Sizes"
+sidebar_position: 60
+---
+
 # ExchangeMetrics: Message Sizes
 
 The Message Sizes page is used to configure message size frames for which to return summary metrics

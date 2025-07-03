@@ -1,3 +1,9 @@
+---
+title: "Usage Statistics Job Group"
+description: "Usage Statistics Job Group"
+sidebar_position: 30
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics Job Group identifies long term trends of activity and usage statistics across

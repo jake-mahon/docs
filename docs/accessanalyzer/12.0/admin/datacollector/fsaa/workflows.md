@@ -1,3 +1,9 @@
+---
+title: "Additional FSAA Workflows"
+description: "Additional FSAA Workflows"
+sidebar_position: 150
+---
+
 # Additional FSAA Workflows
 
 The following FSAA Data Collector query categories that provide additional functionality:

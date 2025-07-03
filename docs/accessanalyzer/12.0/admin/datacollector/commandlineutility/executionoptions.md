@@ -1,3 +1,9 @@
+---
+title: "CLU: Execution Options"
+description: "CLU: Execution Options"
+sidebar_position: 30
+---
+
 # CLU: Execution Options
 
 The Execution Options page provides options to define the mode of execution. It is a wizard page for

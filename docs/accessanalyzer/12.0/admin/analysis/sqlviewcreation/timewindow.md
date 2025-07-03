@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Time Window"
+description: "SQLViewCreation: Time Window"
+sidebar_position: 60
+---
+
 # SQLViewCreation: Time Window
 
 Use the Source and Time Window page to specify which data to access if using multiple Access

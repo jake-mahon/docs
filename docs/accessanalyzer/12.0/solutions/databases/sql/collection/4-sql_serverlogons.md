@@ -1,3 +1,9 @@
+---
+title: "4-SQL_ServerLogons Job"
+description: "4-SQL_ServerLogons Job"
+sidebar_position: 50
+---
+
 # 4-SQL_ServerLogons Job
 
 The 4-SQL_ServerLogons Job captures SQL server logon activity, which includes successful or failed

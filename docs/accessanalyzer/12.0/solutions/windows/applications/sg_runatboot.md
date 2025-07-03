@@ -1,3 +1,9 @@
+---
+title: "SG_RunAtBoot Job"
+description: "SG_RunAtBoot Job"
+sidebar_position: 30
+---
+
 # SG_RunAtBoot Job
 
 The SG_RunAtBoot job lists applications which are set to **Run** or **Run Once** on all targeted

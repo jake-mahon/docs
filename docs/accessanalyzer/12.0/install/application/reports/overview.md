@@ -1,3 +1,9 @@
+---
+title: "Reports via the Web Console"
+description: "Reports via the Web Console"
+sidebar_position: 40
+---
+
 # Reports via the Web Console
 
 The Web Console is where any reports which have been published can be viewed outside of the Access

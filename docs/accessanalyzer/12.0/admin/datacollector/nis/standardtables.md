@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the NIS Data Collector"
+description: "Standard Reference Tables & Views for the NIS Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the NIS Data Collector
 
 The NIS Data Collector gathers essential user and group inventory information into standard

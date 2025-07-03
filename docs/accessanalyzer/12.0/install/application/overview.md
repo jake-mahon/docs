@@ -1,3 +1,9 @@
+---
+title: "Installation & Configuration Overview"
+description: "Installation & Configuration Overview"
+sidebar_position: 10
+---
+
 # Installation & Configuration Overview
 
 This section provides instructions for installing Access Analyzer and the initial configuration

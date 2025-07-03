@@ -1,3 +1,9 @@
+---
+title: "Access Analyzer Core Installation"
+description: "Access Analyzer Core Installation"
+sidebar_position: 20
+---
+
 # Access Analyzer Core Installation
 
 Save the organization’s Access Analyzer license key, received from your Netwrix Sales

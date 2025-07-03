@@ -1,3 +1,9 @@
+---
+title: "Importing False Positive Exclusion Filters"
+description: "Importing False Positive Exclusion Filters"
+sidebar_position: 40
+---
+
 # Importing False Positive Exclusion Filters
 
 Create an import (TXT) file containing a list of file paths for the files to be excluded from

@@ -1,3 +1,9 @@
+---
+title: "Installing the SharePoint Agent"
+description: "Installing the SharePoint Agent"
+sidebar_position: 10
+---
+
 # Installing the SharePoint Agent
 
 The installer will prompt for credentials which are used to set the identity that the SharePoint
@@ -6,7 +12,7 @@ the account used to connect to and enumerate SharePoint. The service account cre
 need to be a member of the Log on as a service local policy. Additionally, the credentials provided
 for Step 5 should also be a part of the Connection Profile used by the SharePoint Solution within
 the Access Analyzer Console. See the
-[SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md) topic for detailed
+[SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for detailed
 permission information.
 
 Follow the steps to install the SharePoint Agent on the application server which hosts the Central

@@ -1,3 +1,9 @@
+---
+title: "Box_PermissionChanges Job"
+description: "Box_PermissionChanges Job"
+sidebar_position: 50
+---
+
 # Box_PermissionChanges Job
 
 The Box_PermissionChannges Job provides details on permission changes that have occurred over the

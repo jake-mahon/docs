@@ -1,3 +1,9 @@
+---
+title: "AD_ComputerModifications Job"
+description: "AD_ComputerModifications Job"
+sidebar_position: 10
+---
+
 # AD_ComputerModifications Job
 
 The AD_ComputerModifications Job provides a report of all changes to computer objects.

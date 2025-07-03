@@ -1,3 +1,9 @@
+---
+title: "AWS_MFAStatus Job"
+description: "AWS_MFAStatus Job"
+sidebar_position: 20
+---
+
 # AWS_MFAStatus Job
 
 The AWS_MFAStatus job provides details on each user's MFA status, highlighting users that have it

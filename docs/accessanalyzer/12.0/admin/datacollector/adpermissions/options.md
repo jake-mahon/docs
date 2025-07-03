@@ -1,3 +1,9 @@
+---
+title: "ADPermissions: Options"
+description: "ADPermissions: Options"
+sidebar_position: 50
+---
+
 # ADPermissions: Options
 
 The Options page is provides additional options for collecting the Active Directory information. It

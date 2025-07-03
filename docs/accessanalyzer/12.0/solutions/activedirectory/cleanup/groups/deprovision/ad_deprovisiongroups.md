@@ -1,3 +1,9 @@
+---
+title: "AD_DeprovisionGroups Job"
+description: "AD_DeprovisionGroups Job"
+sidebar_position: 10
+---
+
 # AD_DeprovisionGroups Job
 
 The AD_DeprovisionGroups Job provides an automated workflow to deprovision stale groups. This
@@ -56,7 +62,7 @@ this job’s analysis.
 | Groups to Delete | @days_before_deleting       | 365           | Days in the staging OU before deletion |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DepvisionGroups Job

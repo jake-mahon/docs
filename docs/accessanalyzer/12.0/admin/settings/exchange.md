@@ -1,3 +1,9 @@
+---
+title: "Exchange"
+description: "Exchange"
+sidebar_position: 40
+---
+
 # Exchange
 
 The Exchange node is for configuring the settings needed to query Microsoft® Exchange Servers.

@@ -1,3 +1,9 @@
+---
+title: "8.Domains Job Group"
+description: "8.Domains Job Group"
+sidebar_position: 100
+---
+
 # 8.Domains Job Group
 
 The 8.Domains job group reports on all Active Directory permissions applied to domain objects within

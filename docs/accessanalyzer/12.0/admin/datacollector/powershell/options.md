@@ -1,3 +1,9 @@
+---
+title: "PowerShell: Options"
+description: "PowerShell: Options"
+sidebar_position: 20
+---
+
 # PowerShell: Options
 
 The Options page provides the option to execute the script remotely on the target host.

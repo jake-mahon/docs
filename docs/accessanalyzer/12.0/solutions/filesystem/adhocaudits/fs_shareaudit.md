@@ -1,3 +1,9 @@
+---
+title: "FS_ShareAudit Job"
+description: "FS_ShareAudit Job"
+sidebar_position: 10
+---
+
 # FS_ShareAudit Job
 
 The FS_ShareAudit Job is designed to report on shares from targeted file servers based on user

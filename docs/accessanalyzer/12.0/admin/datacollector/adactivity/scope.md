@@ -1,3 +1,9 @@
+---
+title: "ADActivity: Scope"
+description: "ADActivity: Scope"
+sidebar_position: 50
+---
+
 # ADActivity: Scope
 
 Use the Scoping and Retention page to configure additional settings. This page is a wizard page for

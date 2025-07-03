@@ -1,3 +1,9 @@
+---
+title: "Change Share Permissions"
+description: "Change Share Permissions"
+sidebar_position: 40
+---
+
 # Change Share Permissions
 
 Use the Change Share Permissions Parameters page to specify the permission status for what group or

@@ -1,3 +1,9 @@
+---
+title: "File System Action: Applet Settings"
+description: "File System Action: Applet Settings"
+sidebar_position: 100
+---
+
 # File System Action: Applet Settings
 
 Use the Applet Settings page to specify the machines on which to execute the selected operation.

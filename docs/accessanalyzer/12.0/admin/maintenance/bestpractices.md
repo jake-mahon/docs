@@ -1,3 +1,9 @@
+---
+title: "Best Practices"
+description: "Best Practices"
+sidebar_position: 50
+---
+
 # Best Practices
 
 With any new product, a few pointers can really get us started on the right foot. In the spirit of

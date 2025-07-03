@@ -1,3 +1,9 @@
+---
+title: "EX_DLCleanup Job"
+description: "EX_DLCleanup Job"
+sidebar_position: 40
+---
+
 # EX_DLCleanup Job
 
 The EX_DLCleanup job identifies potentially stale Distribution Groups based on the last domain logon

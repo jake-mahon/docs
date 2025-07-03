@@ -1,3 +1,9 @@
+---
+title: "FS_ModifiedBinaries Job"
+description: "FS_ModifiedBinaries Job"
+sidebar_position: 40
+---
+
 # FS_ModifiedBinaries Job
 
 The FS_ModifiedBinaries job is designed to report on activity event information where binaries were

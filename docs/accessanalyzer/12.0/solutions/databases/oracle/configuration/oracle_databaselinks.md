@@ -1,3 +1,9 @@
+---
+title: "Oracle_DatabaseLinks Job"
+description: "Oracle_DatabaseLinks Job"
+sidebar_position: 10
+---
+
 # Oracle_DatabaseLinks Job
 
 The Oracle_DatabaseLinks Job contains a report that provides information on Database Links where the

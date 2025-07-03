@@ -1,3 +1,9 @@
+---
+title: "NoSQL Data Collector"
+description: "NoSQL Data Collector"
+sidebar_position: 280
+---
+
 # NoSQL Data Collector
 
 The NoSQL Data Collector for MongoDB provides information on MongoDB Cluster configuration, limited

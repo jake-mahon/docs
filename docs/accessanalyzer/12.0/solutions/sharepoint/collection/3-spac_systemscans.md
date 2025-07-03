@@ -1,3 +1,9 @@
+---
+title: "3-SPAC_SystemScans Job"
+description: "3-SPAC_SystemScans Job"
+sidebar_position: 30
+---
+
 # 3-SPAC_SystemScans Job
 
 The job collects information on activity, users, and groups to determine who has performed activity

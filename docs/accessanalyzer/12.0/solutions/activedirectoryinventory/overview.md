@@ -1,3 +1,9 @@
+---
+title: ".Active Directory Inventory Solution"
+description: ".Active Directory Inventory Solution"
+sidebar_position: 10
+---
+
 # .Active Directory Inventory Solution
 
 Active Directory (AD) acts as the central nervous system of any Microsoft environment and plays a

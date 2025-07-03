@@ -1,3 +1,9 @@
+---
+title: "SP_HighRiskPermissions Job"
+description: "SP_HighRiskPermissions Job"
+sidebar_position: 30
+---
+
 # SP_HighRiskPermissions Job
 
 The SP_HighRiskPermissions Job identifies where Authenticated Users, Everyone Except External Users,

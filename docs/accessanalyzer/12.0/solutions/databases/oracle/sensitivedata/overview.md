@@ -1,3 +1,9 @@
+---
+title: "5.Sensitive Data Job Group"
+description: "5.Sensitive Data Job Group"
+sidebar_position: 70
+---
+
 # 5.Sensitive Data Job Group
 
 The 5.Sensitive Data Job Group is designed to provide insight into where sensitive data exists and

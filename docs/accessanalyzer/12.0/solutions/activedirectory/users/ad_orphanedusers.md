@@ -1,3 +1,9 @@
+---
+title: "AD_OrphanedUsers Job"
+description: "AD_OrphanedUsers Job"
+sidebar_position: 40
+---
+
 # AD_OrphanedUsers Job
 
 The AD_OrphanedUsers Job identifies users whose managers are stale or disabled. These user accounts

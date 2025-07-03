@@ -1,3 +1,9 @@
+---
+title: "AD_DCLogonGroups Job"
+description: "AD_DCLogonGroups Job"
+sidebar_position: 30
+---
+
 # AD_DCLogonGroups Job
 
 The AD_DCLogonGroups Job identifies users who are able to log on to Domain Controllers through

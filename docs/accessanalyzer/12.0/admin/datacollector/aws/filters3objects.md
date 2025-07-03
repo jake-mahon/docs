@@ -1,3 +1,9 @@
+---
+title: "AWS: Filter S3 Objects"
+description: "AWS: Filter S3 Objects"
+sidebar_position: 30
+---
+
 # AWS: Filter S3 Objects
 
 The Filter S3 Objects page provides the options to filter which objects stored in S3 should be

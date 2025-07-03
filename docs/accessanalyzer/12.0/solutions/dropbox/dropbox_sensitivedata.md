@@ -1,3 +1,9 @@
+---
+title: "5.Sensitive Data > Dropbox_SensitiveData Job"
+description: "5.Sensitive Data > Dropbox_SensitiveData Job"
+sidebar_position: 70
+---
+
 # 5.Sensitive Data > Dropbox_SensitiveData Job
 
 The Dropbox_SensitiveData job identifies locations within Dropbox where sensitive data is present.

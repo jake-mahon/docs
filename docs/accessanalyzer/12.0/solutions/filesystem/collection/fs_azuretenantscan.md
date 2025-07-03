@@ -1,3 +1,9 @@
+---
+title: "FS_AzureTenantScan Job"
+description: "FS_AzureTenantScan Job"
+sidebar_position: 120
+---
+
 # FS_AzureTenantScan Job
 
 The FS_AzureTenantScan job is designed to collect Storage Account information from the targeted

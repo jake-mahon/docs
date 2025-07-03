@@ -1,3 +1,9 @@
+---
+title: "SQL_DomainUserPermissions Job"
+description: "SQL_DomainUserPermissions Job"
+sidebar_position: 30
+---
+
 # SQL_DomainUserPermissions Job
 
 The SQL_DomainUserPermissions Job provides insight into Microsoft Active Directory domain users’

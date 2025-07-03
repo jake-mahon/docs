@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Options"
+description: "NoSQL: Options"
+sidebar_position: 30
+---
+
 # NoSQL: Options
 
 Use the Sensitive Data Scan Settings (Options) page to configure additional settings for the

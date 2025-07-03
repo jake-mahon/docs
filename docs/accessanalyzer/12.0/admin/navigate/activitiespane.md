@@ -1,3 +1,9 @@
+---
+title: "Activities Pane"
+description: "Activities Pane"
+sidebar_position: 40
+---
+
 # Activities Pane
 
 The Activities pane displays a list of activities which can be conducted within the currently

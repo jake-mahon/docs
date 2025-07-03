@@ -1,3 +1,9 @@
+---
+title: "Group Usage Job Group"
+description: "Group Usage Job Group"
+sidebar_position: 40
+---
+
 # Group Usage Job Group
 
 The Group Usage Job Group reports shows how group membership changes have affected access across the

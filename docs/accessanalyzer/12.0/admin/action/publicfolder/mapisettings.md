@@ -1,3 +1,9 @@
+---
+title: "Public Folder: MAPI Settings"
+description: "Public Folder: MAPI Settings"
+sidebar_position: 40
+---
+
 # Public Folder: MAPI Settings
 
 Use the MAPI Settings page to specify the proper MAPI settings.

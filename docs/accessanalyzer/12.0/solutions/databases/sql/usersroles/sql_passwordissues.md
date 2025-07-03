@@ -1,3 +1,9 @@
+---
+title: "SQL_PasswordIssues Job"
+description: "SQL_PasswordIssues Job"
+sidebar_position: 20
+---
+
 # SQL_PasswordIssues Job
 
 The SQL_PasswordIssues Job analyzes SQL or Azure SQL login passwords and evaluates SQL login
@@ -34,7 +40,7 @@ The default analysis tasks are:
         - @ShowPassword – Set to **0** by default. Set to **1** to enable the analysis task to bring
           back the plain-text password that was found
         - See the
-          [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+          [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
           topic for additional information on modifying analysis parameters.
 - Shared Passwords – Highlights SQL Server Logins with shared password hashes
 - No Password – Inserts users that do not have a password set into the details table

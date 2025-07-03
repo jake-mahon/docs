@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 2. CAS Metrics Job Group"
+description: "Recommended Configurations for the 2. CAS Metrics Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 2. CAS Metrics Job Group
 
 Dependencies
@@ -28,9 +34,9 @@ Connection Profile
 A Connection Profile must be set directly on the EX_IISLogs Job and the EX_ASPolicies Job.
 
 See the
-[Exchange Remote Connections Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/remoteconnections.md)
+[Exchange Remote Connections Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/remoteconnections.md)
 topic for the EX_IISLogs Job required permissions. See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/powershell.md) topic for
+[Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md) topic for
 the EX_ASPolicies Job requirements.
 
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional

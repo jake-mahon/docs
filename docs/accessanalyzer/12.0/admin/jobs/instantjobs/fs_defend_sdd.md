@@ -1,3 +1,9 @@
+---
+title: "FS_DEFEND_SDD Job"
+description: "FS_DEFEND_SDD Job"
+sidebar_position: 30
+---
+
 # FS_DEFEND_SDD Job
 
 The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive

@@ -1,3 +1,9 @@
+---
+title: "7.Activity Job Group"
+description: "7.Activity Job Group"
+sidebar_position: 90
+---
+
 # 7.Activity Job Group
 
 The 7.Activity job group generates summary and detail reports of SharePoint activity on the

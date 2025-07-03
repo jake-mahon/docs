@@ -1,3 +1,9 @@
+---
+title: "Oracle_PublicPermissions Job"
+description: "Oracle_PublicPermissions Job"
+sidebar_position: 30
+---
+
 # Oracle_PublicPermissions Job
 
 The Oracle_PublicPermissions Job provides a list of permissions assigned to Public profile in

@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the File System Solution"
+description: "Recommended Configuration for the File System Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the File System Solution
 
 The File System Solution has been configured to inherit down from the **FileSystem** > **Settings**
@@ -7,7 +13,7 @@ scheduled.
 
 _Remember,_ the credential permissions required for the scan and host lists are affected by the scan
 mode selected. See the
-[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic for
 additional information.
 
 Dependencies
@@ -76,8 +82,8 @@ Connection Profile
 
 The FSAA Data Collector requires permissions based on the platform being targeted for data
 collection as well as the scan mode selected. See the
-[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic and the
-[File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for necessary
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic and the
+[File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for necessary
 permissions for the supported target platforms. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for the necessary permission for collecting activity data. Then create a custom Connection Profile
@@ -174,8 +180,8 @@ customizations include:
 - Scan Server Selection page, set the type of mode the scans will run on
 
     - The mode configured must align with the provisioning of the credential and environment. See
-      the [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic
-      and the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for
+      the [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic
+      and the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for
       additional information.
     - Local Mode – All of the data collection processing is conducted by the Access Analyzer Console
       server across the network

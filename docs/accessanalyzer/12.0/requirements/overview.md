@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the application
@@ -32,7 +38,7 @@ File System Solution-Specific Components
   to scan hosts in remote or firewalled sites to increase scan capacity in large environments. This
   feature can be implemented through either an applet or a service. The applet would be deployed as
   part of the data collection process. The service should be installed prior to data collection. See
-  the [Proxy Mode as a Service](solutions/filesystem/scanoptions.md#proxy-mode-as-a-service) topic
+  the [Proxy Mode as a Service](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md#proxy-mode-as-a-service) topic
   for server requirements.
 
 SharePoint Solution-Specific Components
@@ -40,7 +46,7 @@ SharePoint Solution-Specific Components
 - Access Analyzer SharePoint Agent Server – For agent-based scans, this application can be installed
   on the SharePoint application server that hosts the “Central Administration” component of the
   targeted farm(s) to auditing permissions, content, and sensitive data for SharePoint On-Premise.
-  See the [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md) topic for server
+  See the [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for server
   requirements.
 
 Activity Event Data Considerations
@@ -76,18 +82,18 @@ RAM, CPU, and Disk Space
 These are dependent upon the size of the target environment. See the following topics for
 additional:
 
-- [Active Directory Solution Requirements on the Access Analyzer Console](solutions/activedirectory.md#active-directory-solution-requirements-on-the-access-analyzer-console)
-- [Active Directory Permissions Analyzer Solution Requirements on the Access Analyzer Console](solutions/activedirectorypermissionsanalyzer.md#active-directory-permissions-analyzer-solution-requirements-on-the-access-analyzer-console)
-- [AWS Solution Requirements on the Access Analyzer Console](solutions/aws.md#aws-solution-requirements-on-the-access-analyzer-console)
-- [Box Solution Requirements on the Access Analyzer Console](solutions/box.md#box-solution-requirements-on-the-access-analyzer-console)
-- [Databases Solution Requirements on the Access Analyzer Console](solutions/databases.md#databases-solution-requirements-on-the-access-analyzer-console)
-- [Dropbox Solution Requirements on the Access Analyzer Console](solutions/dropbox.md#dropbox-solution-requirements-on-the-access-analyzer-console)
-- [Entra ID Solution Requirements on the Access Analyzer Console](solutions/entraid.md#entra-idsolution-requirements-on-the-access-analyzer-console)
-- [Exchange Solution Requirements on the Access Analyzer Console](solutions/exchange.md#exchange-solution-requirements-on-the-access-analyzer-console)
-- [File System Solution Requirements on the Access Analyzer Console ](solutions/filesystem.md#file-system-solution-requirements-on-the-access-analyzer-console)
-- [SharePoint Solution Requirements on the Access Analyzer Console](solutions/sharepoint.md#sharepoint-solution-requirements-on-the-access-analyzer-console)
-- [Unix Solution Requirements on the Access Analyzer Console](solutions/unix.md#unix-solution-requirements-on-the-access-analyzer-console)
-- [Windows Solution Requirements on the Access Analyzer Console](solutions/windows.md#windows-solution-requirements-on-the-access-analyzer-console)
+- [Active Directory Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory.md#active-directory-solution-requirements-on-the-access-analyzer-console)
+- [Active Directory Permissions Analyzer Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer.md#active-directory-permissions-analyzer-solution-requirements-on-the-access-analyzer-console)
+- [AWS Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/aws/aws.md#aws-solution-requirements-on-the-access-analyzer-console)
+- [Box Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/box/box.md#box-solution-requirements-on-the-access-analyzer-console)
+- [Databases Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/databases/databases.md#databases-solution-requirements-on-the-access-analyzer-console)
+- [Dropbox Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/dropbox/dropbox.md#dropbox-solution-requirements-on-the-access-analyzer-console)
+- [Entra ID Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/entraid/entraid.md#entra-idsolution-requirements-on-the-access-analyzer-console)
+- [Exchange Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/exchange/exchange.md#exchange-solution-requirements-on-the-access-analyzer-console)
+- [File System Solution Requirements on the Access Analyzer Console ](/docs/accessanalyzer/12.0/requirements/filesystem/filesystem.md#file-system-solution-requirements-on-the-access-analyzer-console)
+- [SharePoint Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint.md#sharepoint-solution-requirements-on-the-access-analyzer-console)
+- [Unix Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/unix/unix.md#unix-solution-requirements-on-the-access-analyzer-console)
+- [Windows Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/windows/windows.md#windows-solution-requirements-on-the-access-analyzer-console)
 
 Additional Server Requirements
 
@@ -139,17 +145,17 @@ RAM, CPU, and Disk Space
 These are dependent upon the size of the target environment. See the following topics for
 additional:
 
-- [Active Directory Solution Requirements on the SQL Server](solutions/activedirectory.md#active-directory-solution-requirements-on-the-sql-server)
-- [Active Directory Permissions Analyzer Solution Requirements on the SQL Server](solutions/activedirectorypermissionsanalyzer.md#active-directory-permissions-analyzer-solution-requirements-on-the-sql-server)
-- [AWS Solution Requirements on the SQL Server](solutions/aws.md#aws-solution-requirements-on-the-sql-server)
-- [Box Solution Requirements on the SQL Server](solutions/box.md#box-solution-requirements-on-the-sql-server)
-- [Databases Solution Requirements on the SQL Server](solutions/databases.md#databases-solution-requirements-on-the-sql-server)
-- [Entra ID Solution Requirements on the SQL Server](solutions/entraid.md#entra-id-solution-requirements-on-the-sql-server)
-- [Exchange Solution Requirements on the SQL Server](solutions/exchange.md#exchange-solution-requirements-on-the-sql-server)
-- [File System Solution Requirements on the SQL Server](solutions/filesystem.md#file-system-solution-requirements-on-the-sql-server)
-- [SharePoint Solution Requirements on the SQL Server](solutions/sharepoint.md#sharepoint-solution-requirements-on-the-sql-server)
-- [Unix Solution Requirements on the SQL Server](solutions/unix.md#unix-solution-requirements-on-the-sql-server)
-- [Windows Solution Requirements on the SQL Server](solutions/windows.md#windows-solution-requirements-on-the-sql-server)
+- [Active Directory Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory.md#active-directory-solution-requirements-on-the-sql-server)
+- [Active Directory Permissions Analyzer Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer.md#active-directory-permissions-analyzer-solution-requirements-on-the-sql-server)
+- [AWS Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/aws/aws.md#aws-solution-requirements-on-the-sql-server)
+- [Box Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/box/box.md#box-solution-requirements-on-the-sql-server)
+- [Databases Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/databases/databases.md#databases-solution-requirements-on-the-sql-server)
+- [Entra ID Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/entraid/entraid.md#entra-id-solution-requirements-on-the-sql-server)
+- [Exchange Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/exchange/exchange.md#exchange-solution-requirements-on-the-sql-server)
+- [File System Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/filesystem/filesystem.md#file-system-solution-requirements-on-the-sql-server)
+- [SharePoint Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint.md#sharepoint-solution-requirements-on-the-sql-server)
+- [Unix Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/unix/unix.md#unix-solution-requirements-on-the-sql-server)
+- [Windows Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/windows/windows.md#windows-solution-requirements-on-the-sql-server)
 
 Additional Server Requirements
 

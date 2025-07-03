@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: File Types"
+description: "SystemInfo: File Types"
+sidebar_position: 70
+---
+
 # SystemInfo: File Types
 
 The File Types page is where to enable count file types and specify filename masks if it is desired

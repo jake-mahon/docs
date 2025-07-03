@@ -1,3 +1,9 @@
+---
+title: "Db2_EffectivePermissions Job"
+description: "Db2_EffectivePermissions Job"
+sidebar_position: 20
+---
+
 # Db2_EffectivePermissions Job
 
 This job provides insight into effective user and role permissions to all the database objects in

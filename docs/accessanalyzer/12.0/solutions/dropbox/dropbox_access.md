@@ -1,3 +1,9 @@
+---
+title: "1.Access > Dropbox_Access Job"
+description: "1.Access > Dropbox_Access Job"
+sidebar_position: 30
+---
+
 # 1.Access > Dropbox_Access Job
 
 The Dropbox_Access job provides insight into effective access to resources within the targeted

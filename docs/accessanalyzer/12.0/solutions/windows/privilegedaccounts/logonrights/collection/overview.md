@@ -1,3 +1,9 @@
+---
+title: "Collection Job Group"
+description: "Collection Job Group"
+sidebar_position: 10
+---
+
 # Collection Job Group
 
 The Collection job group collects group policy settings, local users, and local group membership

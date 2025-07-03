@@ -1,3 +1,9 @@
+---
+title: "SQL_DatabaseSizing Job"
+description: "SQL_DatabaseSizing Job"
+sidebar_position: 40
+---
+
 # SQL_DatabaseSizing Job
 
 The SQL_DatabaseSizing Job provides details on database file sizes and overall database sizes.

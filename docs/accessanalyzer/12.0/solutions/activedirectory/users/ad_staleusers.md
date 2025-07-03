@@ -1,3 +1,9 @@
+---
+title: "AD_StaleUsers Job"
+description: "AD_StaleUsers Job"
+sidebar_position: 80
+---
+
 # AD_StaleUsers Job
 
 The AD_StaleUsers job identifies potentially stale users based on the amount of time since their

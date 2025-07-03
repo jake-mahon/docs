@@ -1,3 +1,9 @@
+---
+title: "AD_ComputerDelegation Job"
+description: "AD_ComputerDelegation Job"
+sidebar_position: 20
+---
+
 # AD_ComputerDelegation Job
 
 The AD_ComputerDelegation Job provides details on computer accounts that have been enabled for

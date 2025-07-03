@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Scope by DB"
+description: "ExchangePS: Scope by DB"
+sidebar_position: 40
+---
+
 # ExchangePS: Scope by DB
 
 The Scope by Databases page is used to define specific databases to search. This page is enabled

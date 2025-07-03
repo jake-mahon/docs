@@ -1,3 +1,9 @@
+---
+title: "AWS_InlinePolicies Job"
+description: "AWS_InlinePolicies Job"
+sidebar_position: 20
+---
+
 # AWS_InlinePolicies Job
 
 The AWS_InlinePolicies job provides details on customer managed policies that are directly assigned

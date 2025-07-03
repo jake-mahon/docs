@@ -1,3 +1,9 @@
+---
+title: "SG_LocalPolicies Job"
+description: "SG_LocalPolicies Job"
+sidebar_position: 30
+---
+
 # SG_LocalPolicies Job
 
 The SG_LocalPolicies job identifies privileged accounts with high levels of server access.

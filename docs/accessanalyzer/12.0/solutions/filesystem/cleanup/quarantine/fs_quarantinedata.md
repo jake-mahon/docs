@@ -1,3 +1,9 @@
+---
+title: "FS_QuarantineData Job"
+description: "FS_QuarantineData Job"
+sidebar_position: 10
+---
+
 # FS_QuarantineData Job
 
 The FS_QuarantineData job is designed to quarantine files subject to be cleaned up.

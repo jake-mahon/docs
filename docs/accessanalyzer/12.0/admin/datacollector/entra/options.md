@@ -1,3 +1,9 @@
+---
+title: "Entra: Scan options"
+description: "Entra: Scan options"
+sidebar_position: 10
+---
+
 # Entra: Scan options
 
 The Scan options page provides options to use when gathering Microsoft Entra Roles information.

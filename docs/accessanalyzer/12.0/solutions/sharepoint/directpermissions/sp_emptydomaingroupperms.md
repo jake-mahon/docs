@@ -1,3 +1,9 @@
+---
+title: "SP_EmptyDomainGroupPerms Job"
+description: "SP_EmptyDomainGroupPerms Job"
+sidebar_position: 20
+---
+
 # SP_EmptyDomainGroupPerms Job
 
 The SP_EmptyDomainGroupPerms Job identifies empty security groups with directly assigned permissions

@@ -1,3 +1,9 @@
+---
+title: "Operations Job Group"
+description: "Operations Job Group"
+sidebar_position: 70
+---
+
 # Operations Job Group
 
 The Operations Job Group reports on Active Directory activity events related to operational

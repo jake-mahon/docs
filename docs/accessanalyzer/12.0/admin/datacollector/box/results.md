@@ -1,3 +1,9 @@
+---
+title: "Box: Results"
+description: "Box: Results"
+sidebar_position: 90
+---
+
 # Box: Results
 
 The Results page is where properties that will be gathered are selected. It is a wizard page for all

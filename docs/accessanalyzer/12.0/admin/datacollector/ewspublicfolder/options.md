@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Options"
+description: "EWSPublicFolder: Options"
+sidebar_position: 20
+---
+
 # EWSPublicFolder: Options
 
 The Scan options page provides general scan options. It is a wizard page for all of the categories.

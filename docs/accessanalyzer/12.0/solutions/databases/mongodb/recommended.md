@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the MongoDB Solution"
+description: "Recommended Configuration for the MongoDB Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the MongoDB Solution
 
 The MongoDB Solution has been configured to inherit down from the MongoDB > Settings node. However,

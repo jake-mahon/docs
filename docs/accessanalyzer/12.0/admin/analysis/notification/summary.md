@@ -1,3 +1,9 @@
+---
+title: "Notification: Summary"
+description: "Notification: Summary"
+sidebar_position: 120
+---
+
 # Notification: Summary
 
 The Summary Page displays all the information input in each of the configured options from the

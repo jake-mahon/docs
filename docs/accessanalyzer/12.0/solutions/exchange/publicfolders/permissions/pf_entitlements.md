@@ -1,3 +1,9 @@
+---
+title: "PF_Entitlements Job"
+description: "PF_Entitlements Job"
+sidebar_position: 20
+---
+
 # PF_Entitlements Job
 
 The PF_Entitlements job is comprised of analyses and reports that provide visibility into

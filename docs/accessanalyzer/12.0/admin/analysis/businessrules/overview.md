@@ -1,3 +1,9 @@
+---
+title: "Business Rules Analysis Module"
+description: "Business Rules Analysis Module"
+sidebar_position: 20
+---
+
 # Business Rules Analysis Module
 
 The Business Rules analysis module measures and evaluates a configured value from an object (the

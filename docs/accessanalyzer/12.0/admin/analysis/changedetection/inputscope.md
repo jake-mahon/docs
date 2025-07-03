@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Input Scope"
+description: "Change Detection: Input Scope"
+sidebar_position: 10
+---
+
 # Change Detection: Input Scope
 
 Use the Input Scope page to specify the input scope of the data source.

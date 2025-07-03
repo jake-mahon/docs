@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Permissions"
+description: "Mailbox: Permissions"
+sidebar_position: 90
+---
+
 # Mailbox: Permissions
 
 Use the Permissions page to determine which permissions to remove. It is a wizard page for the

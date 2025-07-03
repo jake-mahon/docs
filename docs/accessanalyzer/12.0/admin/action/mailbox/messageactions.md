@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Message Actions"
+description: "Mailbox: Message Actions"
+sidebar_position: 80
+---
+
 # Mailbox: Message Actions
 
 Use the Message Actions page to specify the action to take with the messages that meet the search

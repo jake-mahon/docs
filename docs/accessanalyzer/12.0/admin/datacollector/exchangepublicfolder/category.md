@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Category"
+description: "ExchangePublicFolder: Category"
+sidebar_position: 10
+---
+
 # ExchangePublicFolder: Category
 
 The Category page is used to select the objects to search.

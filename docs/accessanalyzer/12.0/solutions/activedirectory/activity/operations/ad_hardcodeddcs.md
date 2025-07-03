@@ -1,3 +1,9 @@
+---
+title: "AD_HardcodedDCs Job"
+description: "AD_HardcodedDCs Job"
+sidebar_position: 30
+---
+
 # AD_HardcodedDCs Job
 
 The AD_HardcodedDCs Job highlights machines that have communicated with only one domain controller.

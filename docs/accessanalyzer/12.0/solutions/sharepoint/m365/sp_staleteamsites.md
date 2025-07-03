@@ -1,3 +1,9 @@
+---
+title: "SP_StaleTeamSites Job"
+description: "SP_StaleTeamSites Job"
+sidebar_position: 40
+---
+
 # SP_StaleTeamSites Job
 
 The SP_StaleTeamSites Job identifies Teams that have not had activity for a number of days that can
@@ -50,5 +56,5 @@ The default values for customizable parameters are:
 | Find Stale Teams | @days                       | 30            | Desired number of days since last activity to determine staleness. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on customizing the analysis parameters.

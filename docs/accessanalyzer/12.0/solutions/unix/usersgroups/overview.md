@@ -1,3 +1,9 @@
+---
+title: "1.Users and Groups Job Group"
+description: "1.Users and Groups Job Group"
+sidebar_position: 20
+---
+
 # 1.Users and Groups Job Group
 
 The jobs within the 1.Users and Groups job group provide visibility into users and groups, helping

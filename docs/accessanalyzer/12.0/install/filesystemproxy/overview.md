@@ -1,3 +1,9 @@
+---
+title: "File System Proxy as a Service Overview"
+description: "File System Proxy as a Service Overview"
+sidebar_position: 20
+---
+
 # File System Proxy as a Service Overview
 
 The File System Solution can be enabled to use proxy servers for scanning targeted file systems in
@@ -22,7 +28,7 @@ using HTTPS requests.
 
 The version of the proxy service must match the major version of Access Analyzer.
 
-See the [File System Solution](/docs/accessanalyzer/12.0/requirements/solutions/filesystem.md) topic for information on
+See the [File System Solution](/docs/accessanalyzer/12.0/requirements/filesystem/filesystem.md) topic for information on
 the required prerequisites.
 
 ## Supported Platforms

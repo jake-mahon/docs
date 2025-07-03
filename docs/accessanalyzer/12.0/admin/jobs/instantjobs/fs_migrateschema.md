@@ -1,3 +1,9 @@
+---
+title: "FS_MigrateSchema Job"
+description: "FS_MigrateSchema Job"
+sidebar_position: 40
+---
+
 # FS_MigrateSchema Job
 
 The FS_Migrate_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's

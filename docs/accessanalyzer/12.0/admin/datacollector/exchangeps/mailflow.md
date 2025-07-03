@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Mail Flow"
+description: "ExchangePS: Mail Flow"
+sidebar_position: 90
+---
+
 # ExchangePS: Mail Flow
 
 The Mail Flow page returns permissions information for the public folder environment. It is a wizard

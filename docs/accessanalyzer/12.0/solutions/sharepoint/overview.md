@@ -1,3 +1,9 @@
+---
+title: "SharePoint Solution"
+description: "SharePoint Solution"
+sidebar_position: 140
+---
+
 # SharePoint Solution
 
 The SharePoint Solution is a comprehensive set of audit jobs and reports which provide the
@@ -21,10 +27,10 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](/docs/accessanalyzer/12.0/requirements/target/sharepoint.md) topic for additional information.
+  [SharePoint Support](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint/sharepoint.md) topic for additional information.
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md) topic for
+  [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for
   additional information.
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for

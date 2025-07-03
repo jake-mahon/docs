@@ -1,3 +1,9 @@
+---
+title: "Add Tags"
+description: "Add Tags"
+sidebar_position: 70
+---
+
 # Add Tags
 
 Use the Parameters page to specify the file tags the action adds.

@@ -1,3 +1,9 @@
+---
+title: "SQL_SecurityAssessment Job"
+description: "SQL_SecurityAssessment Job"
+sidebar_position: 90
+---
+
 # SQL_SecurityAssessment Job
 
 The SQL_SecurityAssessment Job summarizes and categorizes security findings into HIGH, MEDIUM, LOW,

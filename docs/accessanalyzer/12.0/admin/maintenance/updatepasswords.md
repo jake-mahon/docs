@@ -1,3 +1,9 @@
+---
+title: "Updating Passwords"
+description: "Updating Passwords"
+sidebar_position: 20
+---
+
 # Updating Passwords
 
 Credential passwords in Access Analyzer occasionally need to be updated due to reasons such as the
@@ -36,7 +42,7 @@ Connection Profiles are used for scan authentication in the Access Analyzer cons
 for a Connection Profile.
 
 For Entra ID, formerly Microsoft Azure Active Directory, accounts, see the
-[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/config/entraid/access.md) topic for additional
+[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/requirements/entraid/entraid/access.md) topic for additional
 information.
 
 ## Schedule Service Accounts

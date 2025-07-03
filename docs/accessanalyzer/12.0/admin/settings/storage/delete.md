@@ -1,3 +1,9 @@
+---
+title: "Delete a Storage Profile"
+description: "Delete a Storage Profile"
+sidebar_position: 40
+---
+
 # Delete a Storage Profile
 
 Follow the steps to delete a Storage Profile.

@@ -1,3 +1,9 @@
+---
+title: "PostgreSQL Solution"
+description: "PostgreSQL Solution"
+sidebar_position: 50
+---
+
 # PostgreSQL Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security
@@ -30,7 +36,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasepostgresql.md)
+[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databasepostgresql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

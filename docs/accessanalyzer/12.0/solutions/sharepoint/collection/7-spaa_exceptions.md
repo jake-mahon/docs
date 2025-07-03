@@ -1,3 +1,9 @@
+---
+title: "7-SPAA_Exceptions Job"
+description: "7-SPAA_Exceptions Job"
+sidebar_position: 70
+---
+
 # 7-SPAA_Exceptions Job
 
 This job searches scanned data for resources that match high risk conditions and retrieving a
@@ -58,5 +64,5 @@ The default values for customizable parameters are:
 | Open resources | #opengroups                 | Empty         | Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste the Group name as it appears in the Name Column. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 for additional information.

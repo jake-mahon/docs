@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Input"
+description: "Change Detection: Input"
+sidebar_position: 20
+---
+
 # Change Detection: Input
 
 Use the Input Data Source page to choose a data source to analyze for changes.

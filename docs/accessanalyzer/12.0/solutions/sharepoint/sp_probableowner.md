@@ -1,3 +1,9 @@
+---
+title: "5.Probable Owner > SP_ProbableOwner Job"
+description: "5.Probable Owner > SP_ProbableOwner Job"
+sidebar_position: 70
+---
+
 # 5.Probable Owner > SP_ProbableOwner Job
 
 The SP_ProbableOwner Job aids in the identification of probable owners for Site Collections and

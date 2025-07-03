@@ -1,3 +1,9 @@
+---
+title: "FS_SIDHistory Job"
+description: "FS_SIDHistory Job"
+sidebar_position: 60
+---
+
 # FS_SIDHistory Job
 
 The **2.Direct Permissions** > **FS_SIDHistory** job is designed to report on trustees that have a

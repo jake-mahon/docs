@@ -1,3 +1,9 @@
+---
+title: "SPAA: Category"
+description: "SPAA: Category"
+sidebar_position: 30
+---
+
 # SPAA: Category
 
 The SPAA Data Collector Category page contains the following query categories, sub-divided by

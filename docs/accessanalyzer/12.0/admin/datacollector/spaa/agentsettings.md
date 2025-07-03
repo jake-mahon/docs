@@ -1,3 +1,9 @@
+---
+title: "SPAA: Agent Settings"
+description: "SPAA: Agent Settings"
+sidebar_position: 70
+---
+
 # SPAA: Agent Settings
 
 The Agent Settings page is where the SharePoint Agent Service is configured. It is a wizard page for

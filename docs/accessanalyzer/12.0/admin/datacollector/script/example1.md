@@ -1,3 +1,9 @@
+---
+title: "Script Example 1: Conversion of Data"
+description: "Script Example 1: Conversion of Data"
+sidebar_position: 70
+---
+
 # Script Example 1: Conversion of Data
 
 This script example demonstrates how to perform a query and modify returned data. The script

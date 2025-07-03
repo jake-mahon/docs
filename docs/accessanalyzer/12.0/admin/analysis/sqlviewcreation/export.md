@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Export"
+description: "SQLViewCreation: Export"
+sidebar_position: 100
+---
+
 # SQLViewCreation: Export
 
 Use the Export settings page to specify data export settings.

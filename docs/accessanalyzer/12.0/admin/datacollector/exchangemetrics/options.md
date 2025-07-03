@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Options"
+description: "ExchangeMetrics: Options"
+sidebar_position: 70
+---
+
 # ExchangeMetrics: Options
 
 The Options page provides additional configuration options for the query. Options vary depending on

@@ -1,3 +1,9 @@
+---
+title: "PgSQL_Configuration Job"
+description: "PgSQL_Configuration Job"
+sidebar_position: 10
+---
+
 # PgSQL_Configuration Job
 
 The PgSQL_Configuration Job is designed to return additional configuration settings from

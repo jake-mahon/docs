@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Results"
+description: "EWSPublicFolder: Results"
+sidebar_position: 70
+---
+
 # EWSPublicFolder: Results
 
 The Results page is used to select which properties will be gathered out of those available for the

@@ -1,3 +1,9 @@
+---
+title: "SQL: Options"
+description: "SQL: Options"
+sidebar_position: 30
+---
+
 # SQL: Options
 
 Use the Options page to configure additional settings. The contents of the page vary according to

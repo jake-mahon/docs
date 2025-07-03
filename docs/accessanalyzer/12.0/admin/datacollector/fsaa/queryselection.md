@@ -1,3 +1,9 @@
+---
+title: "FSAA: Query Selection"
+description: "FSAA: Query Selection"
+sidebar_position: 20
+---
+
 # FSAA: Query Selection
 
 The FSAA Data Collector Query Selection page contains the following query categories, sub-divided by

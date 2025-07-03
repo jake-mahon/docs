@@ -1,3 +1,9 @@
+---
+title: "Users Details"
+description: "Users Details"
+sidebar_position: 110
+---
+
 # Users Details
 
 Use the Users Details page to edit user attributes.

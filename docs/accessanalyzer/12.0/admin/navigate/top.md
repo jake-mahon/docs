@@ -1,3 +1,9 @@
+---
+title: "Top Navigation"
+description: "Top Navigation"
+sidebar_position: 10
+---
+
 # Top Navigation
 
 The Top Navigation bars provide users quick access to various options and functions in Access

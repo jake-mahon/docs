@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Summary"
+description: "SQLViewCreation: Summary"
+sidebar_position: 110
+---
+
 # SQLViewCreation: Summary
 
 This page provides an overview of all the settings configured in the wizard.

@@ -1,3 +1,9 @@
+---
+title: "File System Data Collection Configuration for Proxy as a Service"
+description: "File System Data Collection Configuration for Proxy as a Service"
+sidebar_position: 20
+---
+
 # File System Data Collection Configuration for Proxy as a Service
 
 To employ the proxy mode as a service scan for collecting file system data from the target host,

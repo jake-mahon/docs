@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Discovery"
+description: "Sensitive Data Discovery"
+sidebar_position: 50
+---
+
 # Sensitive Data Discovery
 
 Sensitive Data Discovery (SDD) allows Access Analyzer to scan file content for matches to the

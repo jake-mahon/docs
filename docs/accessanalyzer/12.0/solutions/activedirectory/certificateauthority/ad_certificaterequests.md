@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateRequests Job"
+description: "AD_CertificateRequests Job"
+sidebar_position: 30
+---
+
 # AD_CertificateRequests Job
 
 The AD_CertificateRequests job provides details about certificate requests, and highlights any that

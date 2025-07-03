@@ -1,3 +1,9 @@
+---
+title: "TextSearch: Advanced Criteria"
+description: "TextSearch: Advanced Criteria"
+sidebar_position: 30
+---
+
 # TextSearch: Advanced Criteria
 
 The Advanced Criteria page is displayed if the **Use advanced criteria (instead of simple

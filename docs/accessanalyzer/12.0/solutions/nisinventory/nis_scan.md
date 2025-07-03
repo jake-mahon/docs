@@ -1,3 +1,9 @@
+---
+title: "NIS Scan Job"
+description: "NIS Scan Job"
+sidebar_position: 20
+---
+
 # NIS Scan Job
 
 The NIS Scan job collects data from the targeted NIS server and then analyzes that data to inventory

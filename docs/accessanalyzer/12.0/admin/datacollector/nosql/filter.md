@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Filter"
+description: "NoSQL: Filter"
+sidebar_position: 50
+---
+
 # NoSQL: Filter
 
 The Filter page is where the query can be scoped to target specific databases or instances. It is a

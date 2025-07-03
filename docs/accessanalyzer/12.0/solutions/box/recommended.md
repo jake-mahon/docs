@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Box Solution"
+description: "Recommended Configurations for the Box Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Box Solution
 
 The jobs that run analysis tasks in the Box Solution requires the host list to be assigned.

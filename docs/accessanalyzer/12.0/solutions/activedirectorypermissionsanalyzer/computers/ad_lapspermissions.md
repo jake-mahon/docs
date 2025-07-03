@@ -1,3 +1,9 @@
+---
+title: "AD_LAPSPermissions Job"
+description: "AD_LAPSPermissions Job"
+sidebar_position: 20
+---
+
 # AD_LAPSPermissions Job
 
 The AD_LAPSPermissions Job identifies Active Directory objects that have access to LAPS attributes

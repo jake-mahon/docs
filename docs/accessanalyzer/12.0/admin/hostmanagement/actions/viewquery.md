@@ -1,3 +1,9 @@
+---
+title: "View Query"
+description: "View Query"
+sidebar_position: 140
+---
+
 # View Query
 
 Use the **View Query** option to open the Host Discovery Queries pane.

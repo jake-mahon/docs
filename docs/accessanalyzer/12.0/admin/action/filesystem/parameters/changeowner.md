@@ -1,3 +1,9 @@
+---
+title: "Change Owner"
+description: "Change Owner"
+sidebar_position: 90
+---
+
 # Change Owner
 
 Use the Change Owner Parameters page to select a trustee to be the new owner.

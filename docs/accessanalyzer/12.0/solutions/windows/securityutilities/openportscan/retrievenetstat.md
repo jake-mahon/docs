@@ -1,3 +1,9 @@
+---
+title: "RetrieveNetstat Job"
+description: "RetrieveNetstat Job"
+sidebar_position: 20
+---
+
 # RetrieveNetstat Job
 
 The RetrieveNetstat job reveals all open ports along with associated executables on targeted

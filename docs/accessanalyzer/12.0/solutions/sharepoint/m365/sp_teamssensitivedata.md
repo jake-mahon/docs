@@ -1,3 +1,9 @@
+---
+title: "SP_TeamsSensitiveData Job"
+description: "SP_TeamsSensitiveData Job"
+sidebar_position: 70
+---
+
 # SP_TeamsSensitiveData Job
 
 The SP_TeamsSensitiveData Job analyzes sensitive data activity within Teams Sites.

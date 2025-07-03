@@ -1,3 +1,9 @@
+---
+title: "EX_PublicFolder_SDD Job"
+description: "EX_PublicFolder_SDD Job"
+sidebar_position: 20
+---
+
 # EX_PublicFolder_SDD Job
 
 The EX_PublicFolder_SDD job locates sensitive data found in public folders in the Exchange

@@ -1,3 +1,9 @@
+---
+title: "Privileged Accounts Job Group"
+description: "Privileged Accounts Job Group"
+sidebar_position: 80
+---
+
 # Privileged Accounts Job Group
 
 The Privileged Accounts Job Group highlights the activity performed by this accounts, to identify

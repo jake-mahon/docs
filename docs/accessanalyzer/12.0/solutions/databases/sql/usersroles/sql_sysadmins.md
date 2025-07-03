@@ -1,3 +1,9 @@
+---
+title: "SQL_SysAdmins Job"
+description: "SQL_SysAdmins Job"
+sidebar_position: 60
+---
+
 # SQL_SysAdmins Job
 
 The SQL_SysAdmins Job provides insight into users who have SQL server administration roles across

@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateRights Job"
+description: "AD_CertificateRights Job"
+sidebar_position: 10
+---
+
 # AD_CertificateRights Job
 
 The AD_CertificateRights job collects all Active Directory permissions applied to certificate

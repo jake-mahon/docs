@@ -1,3 +1,9 @@
+---
+title: "Host Inventory Data Grid"
+description: "Host Inventory Data Grid"
+sidebar_position: 10
+---
+
 # Host Inventory Data Grid
 
 The data grid provides all host inventory information collected on the hosts. View this information

@@ -1,3 +1,9 @@
+---
+title: "NIS: Category"
+description: "NIS: Category"
+sidebar_position: 30
+---
+
 # NIS: Category
 
 The Category page is used to identify which type of NIS information to retrieve.

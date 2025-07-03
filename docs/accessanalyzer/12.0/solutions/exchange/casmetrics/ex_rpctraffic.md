@@ -1,3 +1,9 @@
+---
+title: "Outlook Anywhere > EX_RPCTraffic Job"
+description: "Outlook Anywhere > EX_RPCTraffic Job"
+sidebar_position: 40
+---
+
 # Outlook Anywhere > EX_RPCTraffic Job
 
 The EX_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the

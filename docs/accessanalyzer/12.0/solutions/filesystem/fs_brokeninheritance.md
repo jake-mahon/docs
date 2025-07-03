@@ -1,3 +1,9 @@
+---
+title: "3.Broken Inheritance > FS_BrokenInheritance Job"
+description: "3.Broken Inheritance > FS_BrokenInheritance Job"
+sidebar_position: 50
+---
+
 # 3.Broken Inheritance > FS_BrokenInheritance Job
 
 The FS_BrokenInheritance job is designed to report on resources with Broken Inheritance from
@@ -56,7 +62,7 @@ The following analysis tasks are selected by default:
       information.
     - Alternatively, this can be set by modifying the `@FILTER_TO_CHANGED_RESOURCES` parameter. See
       the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 
 -   3. Determine Permission Changes – Creates an interim processing table in the database for use by

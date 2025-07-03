@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory Data Collector"
+description: "ActiveDirectory Data Collector"
+sidebar_position: 20
+---
+
 # ActiveDirectory Data Collector
 
 The ActiveDirectory Data Collector audits objects published in Active Directory. It has been

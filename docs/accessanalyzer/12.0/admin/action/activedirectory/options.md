@@ -1,3 +1,9 @@
+---
+title: "Active Directory Action Options"
+description: "Active Directory Action Options"
+sidebar_position: 30
+---
+
 # Active Directory Action Options
 
 The Options page provides the option to select to use the default domain or specific a domain to

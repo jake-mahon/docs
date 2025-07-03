@@ -1,3 +1,9 @@
+---
+title: "Oracle_DomainUserPermissions Job"
+description: "Oracle_DomainUserPermissions Job"
+sidebar_position: 10
+---
+
 # Oracle_DomainUserPermissions Job
 
 The Oracle_DomainUserPermissions Job provides insight into Microsoft Active Directory domain user

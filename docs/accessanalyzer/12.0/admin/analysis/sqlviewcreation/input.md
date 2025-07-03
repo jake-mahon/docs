@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Input Source"
+description: "SQLViewCreation: Input Source"
+sidebar_position: 20
+---
+
 # SQLViewCreation: Input Source
 
 Use the Input Source page to select the source tables or views, containing data, to join or

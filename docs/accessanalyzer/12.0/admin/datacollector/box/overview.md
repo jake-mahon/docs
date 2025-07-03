@@ -1,3 +1,9 @@
+---
+title: "Box Data Collector"
+description: "Box Data Collector"
+sidebar_position: 80
+---
+
 # Box Data Collector
 
 The Box Data Collector audits access, group membership, and content within a Box enterprise.

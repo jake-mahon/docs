@@ -1,3 +1,9 @@
+---
+title: "Redshift_TablePrivileges Job"
+description: "Redshift_TablePrivileges Job"
+sidebar_position: 30
+---
+
 # Redshift_TablePrivileges Job
 
 The Redshift_TablePrivileges job is designed to collect Redshift table privileges from all the

@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: Options"
+description: "SystemInfo: Options"
+sidebar_position: 80
+---
+
 # SystemInfo: Options
 
 The Options page contains options for the Files Shares category. It is a wizard page for the

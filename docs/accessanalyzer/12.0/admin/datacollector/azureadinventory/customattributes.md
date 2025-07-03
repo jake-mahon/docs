@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory: Custom Attributes"
+description: "AzureADInventory: Custom Attributes"
+sidebar_position: 50
+---
+
 # AzureADInventory: Custom Attributes
 
 Use the Custom Attributes wizard page to define custom attributes that will be used in the Microsoft
@@ -76,7 +82,7 @@ be targeted, and then select the method of supplying credentials for the specifi
 **Settings** > **Connection** settings as a user defined profile. This ensures the connection
 profile displays in the dropdown menu.
 
-See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/config/entraid/access.md) or the
+See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/requirements/entraid/entraid/access.md) or the
 [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/configurejob.md) topics for additional
 information.
 

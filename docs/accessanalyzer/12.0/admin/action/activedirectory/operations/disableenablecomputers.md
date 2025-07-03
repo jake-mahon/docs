@@ -1,3 +1,9 @@
+---
+title: "Disable/Enable Computers"
+description: "Disable/Enable Computers"
+sidebar_position: 30
+---
+
 # Disable/Enable Computers
 
 Use the (Disable/Enable Computers page to configure the action to enable or disable users' operation

@@ -1,3 +1,9 @@
+---
+title: "Oracle_DatabaseSizing Job"
+description: "Oracle_DatabaseSizing Job"
+sidebar_position: 20
+---
+
 # Oracle_DatabaseSizing Job
 
 The Oracle_DatabaseSizing Job provides details on tablespace file sizes and overall tablespace

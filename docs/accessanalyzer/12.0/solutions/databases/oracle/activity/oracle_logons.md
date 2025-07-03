@@ -1,3 +1,9 @@
+---
+title: "Oracle_Logons Job"
+description: "Oracle_Logons Job"
+sidebar_position: 20
+---
+
 # Oracle_Logons Job
 
 The Oracle_Logons Job is designed to provide insight into failed and successful Oracle database

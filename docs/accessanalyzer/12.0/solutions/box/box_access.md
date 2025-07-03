@@ -1,3 +1,9 @@
+---
+title: "Box_Access Job"
+description: "Box_Access Job"
+sidebar_position: 50
+---
+
 # Box_Access Job
 
 The Box_Access Job analyzes access granted to users and groups in an organization's Box environment

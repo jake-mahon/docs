@@ -1,3 +1,9 @@
+---
+title: "6. Distribution Lists Job Group"
+description: "6. Distribution Lists Job Group"
+sidebar_position: 70
+---
+
 # 6. Distribution Lists Job Group
 
 The 6. Distribution Lists job group lists the direct and effective membership to distribution lists,

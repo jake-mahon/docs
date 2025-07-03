@@ -1,3 +1,9 @@
+---
+title: "1-AAD_Scan Job"
+description: "1-AAD_Scan Job"
+sidebar_position: 20
+---
+
 # 1-AAD_Scan Job
 
 The **1-AAD_Scan** job is responsible for collecting data from Microsoft Entra ID. This job requires
@@ -6,7 +12,7 @@ activity with the scan.
 
 **NOTE:** This job requires an Microsoft Entra ID application with the appropriate permissions to
 perform the scan. See the
-[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/config/entraid/overview.md) topic for
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/requirements/entraid/entraid/overview.md) topic for
 information on the prerequisites for this job.
 
 ## Queries for the 1-AAD_Scan Job

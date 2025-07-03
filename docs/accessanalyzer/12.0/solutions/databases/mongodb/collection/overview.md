@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The MongoDB Solution Collection group is designed to collect high level summary information from

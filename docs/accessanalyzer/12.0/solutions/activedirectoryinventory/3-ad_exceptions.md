@@ -1,3 +1,9 @@
+---
+title: "3-AD_Exceptions Job"
+description: "3-AD_Exceptions Job"
+sidebar_position: 40
+---
+
 # 3-AD_Exceptions Job
 
 The 3-AD_Exceptions Job identifies toxic conditions that exist within Active Directory which may
@@ -134,7 +140,7 @@ parameters:
 | Admin Historical SID | #ADMIN_GROUPS               | - Domain Admins - Enterprise Admins - Schema Admins | List of administrative groups                                         |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions to modify the parameters. See the
 [AD Exception Types Translated](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated)
 topic for an explanation of Exception Types.

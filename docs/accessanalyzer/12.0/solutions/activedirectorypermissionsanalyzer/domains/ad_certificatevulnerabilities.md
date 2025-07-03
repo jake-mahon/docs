@@ -1,3 +1,9 @@
+---
+title: "AD_CertificateVulnerabilities Job"
+description: "AD_CertificateVulnerabilities Job"
+sidebar_position: 30
+---
+
 # AD_CertificateVulnerabilities Job
 
 The AD_CertificateVulnerabilities job highlights vulnerabilities in the configuration and
