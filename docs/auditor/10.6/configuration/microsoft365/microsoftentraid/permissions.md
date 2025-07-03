@@ -39,7 +39,7 @@ topic for additional information.
       topic for additional information.
     - You will need to provide the Microsoft Entra ID app settings in the monitored item (Office 365
       tenant) properties. See the
-      [Microsoft Entra ID](/docs/auditor/10.6/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id)
+      [Microsoft Entra ID](/docs/auditor/10.6/admin/monitoringplans/microsoftentraid/overview.md)
       topic for additional information.
 
 See the

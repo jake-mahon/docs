@@ -33,7 +33,7 @@ Schedule Frequency
 This job group can be scheduled to run as desired. Throughout this document reference to executing a
 job refers to either manual execution or scheduled execution, according to the needs of the
 organization. See the
-[Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview#scheduling-the-resource-based-groups-job-group)
+[Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
 History Retention

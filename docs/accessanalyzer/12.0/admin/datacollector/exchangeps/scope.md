@@ -38,8 +38,8 @@ Available scoping options vary based on the category selected. Scoping options i
       PowerShell on that server
     - For Remote PowerShell, the data collector does not deploy anapplet and utilizes the WinRM
       protocol to gather information about the objects on that server. See the
-      [Remote PowerShell](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview#remote-powershell) and
-      [The Exchange Applet](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview#the-exchange-applet) topics for additional information.
+      [Remote PowerShell](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview.md#remote-powershell) and
+      [The Exchange Applet](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview.md#the-exchange-applet) topics for additional information.
 
 - Scope by Public Folder – Scope query to return results for specific Public Folders. If this option
   is selected, the Scope by Public Folders page is enabled in the wizard. See the

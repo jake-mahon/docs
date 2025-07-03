@@ -475,9 +475,7 @@ These associations are exported from the CyberArk system into the ```C:/identity
 | 2 | 103 |
 | 3 | 104 |
 
-The following [](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
+The following [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
 
                     ```
 

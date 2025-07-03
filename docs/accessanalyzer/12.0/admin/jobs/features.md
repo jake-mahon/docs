@@ -28,7 +28,7 @@ the [Publish Reports Window](#publish-reports-window) topic for additional infor
 Job Configuration Change Tracking
 
 Jobs configuration changes can be tracked using the **Changes** option in the right-click menu from
-the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/accessanalyzer/12.0/admin/jobs/overview#changes-window)
+the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/accessanalyzer/12.0/admin/jobs/overview.md#changes-window)
 topic for additional information.
 
 Job Export

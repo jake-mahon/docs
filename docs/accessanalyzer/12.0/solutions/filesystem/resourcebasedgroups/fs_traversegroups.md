@@ -11,7 +11,7 @@ on previous resource based groups. This job would be used in the case where the 
 resource based groups permissions are applied is not the root share folder, or at the root of the
 share. This job prevents users from losing the ability to navigate through the directory structure
 if the folder is nested. The FS_TraverseGroups Job must be installed from the Instant Job library.
-See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview) topic for additional
+See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for additional
 information.
 
 ## Recommended Configurations for the FS_TraverseGroups Job
@@ -30,7 +30,7 @@ Schedule Frequency
 This job can be scheduled to run as desired. Throughout this document reference to executing a job
 refers to either manual execution or scheduled execution, according to the needs of the
 organization. See the
-[Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview#scheduling-the-resource-based-groups-job-group)
+[Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
 History Retention
