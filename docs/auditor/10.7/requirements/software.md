@@ -1,3 +1,9 @@
+---
+title: "Software Requirements"
+description: "Software Requirements"
+sidebar_position: 30
+---
+
 # Software Requirements
 
 The table below lists the software requirements for the Auditor installation:

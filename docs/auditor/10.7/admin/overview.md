@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 50
+---
+
 # Administration
 
 This section contains information on how to use collected data with Netwrix Auditor:

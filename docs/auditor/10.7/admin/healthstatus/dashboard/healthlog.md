@@ -1,3 +1,9 @@
+---
+title: "Netwrix Auditor Health Log"
+description: "Netwrix Auditor Health Log"
+sidebar_position: 30
+---
+
 # Netwrix Auditor Health Log
 
 Daily summary of the Netwrix Auditor health log is displayed in the Health log widget. The chart
@@ -48,7 +54,7 @@ If you want to monitor Auditor health status in more depth, you can do the follo
 - Create a monitoring plan for this log using Event Log Manager to collect activity data. See the
   Health Status overview for additional information.
 - Configure alerts triggered by specific events in the product's health log.
-  [Create Alerts on Health Status](/docs/auditor/10.7/admin/alertsettings/createhealthstatus.md)
+  [Create Alerts on Health Status](/docs/auditor/10.7/admin/alertsettings/create/createhealthstatus.md)
 
 ## Inspect Events in Health Log
 

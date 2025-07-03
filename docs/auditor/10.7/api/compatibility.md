@@ -1,3 +1,9 @@
+---
+title: "Compatibility Notice"
+description: "Compatibility Notice"
+sidebar_position: 130
+---
+
 # Compatibility Notice
 
 Make sure to check your product version, and then review and update your add-ons and scripts

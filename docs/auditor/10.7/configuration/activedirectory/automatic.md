@@ -1,3 +1,9 @@
+---
+title: "Active Directory: Automatic Configuration"
+description: "Active Directory: Automatic Configuration"
+sidebar_position: 20
+---
+
 # Active Directory: Automatic Configuration
 
 This is a recommended method of applying Active Directory audit settings required by Auditor to

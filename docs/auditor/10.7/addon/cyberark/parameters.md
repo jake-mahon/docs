@@ -1,3 +1,9 @@
+---
+title: "Add-On Parameters"
+description: "Add-On Parameters"
+sidebar_position: 10
+---
+
 # Add-On Parameters
 
 To configure the add-on parameters, you need to edit the **Settings.xml** file in the add-on folder.

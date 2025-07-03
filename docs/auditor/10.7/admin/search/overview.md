@@ -1,3 +1,9 @@
+---
+title: "View and Search Collected Data"
+description: "View and Search Collected Data"
+sidebar_position: 40
+---
+
 # View and Search Collected Data
 
 Netwrix Auditor delivers complete visibility into your IT infrastructure. Its convenient interactive

@@ -1,3 +1,9 @@
+---
+title: "Configuration"
+description: "Configuration"
+sidebar_position: 10
+---
+
 # Configuration
 
 ## Activity Records to Event Log Add-on Connection

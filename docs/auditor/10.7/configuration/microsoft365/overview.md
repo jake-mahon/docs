@@ -1,3 +1,9 @@
+---
+title: "Microsoft 365"
+description: "Microsoft 365"
+sidebar_position: 70
+---
+
 # Microsoft 365
 
 Microsoft 365 audit configuration will cover the following components:

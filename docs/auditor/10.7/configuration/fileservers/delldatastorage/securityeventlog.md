@@ -1,3 +1,9 @@
+---
+title: "Configure Security Event Log Maximum Size"
+description: "Configure Security Event Log Maximum Size"
+sidebar_position: 20
+---
+
 # Configure Security Event Log Maximum Size
 
 Follow the steps to configure Event Log maximum size:

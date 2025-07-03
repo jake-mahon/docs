@@ -1,3 +1,9 @@
+---
+title: "Oracle Database Monitoring Scope"
+description: "Oracle Database Monitoring Scope"
+sidebar_position: 10
+---
+
 # Oracle Database Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying users that you want to exclude from the Oracle

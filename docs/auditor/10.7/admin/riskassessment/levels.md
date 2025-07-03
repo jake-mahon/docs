@@ -1,3 +1,9 @@
+---
+title: "How Risk Levels Are Estimated"
+description: "How Risk Levels Are Estimated"
+sidebar_position: 20
+---
+
 # How Risk Levels Are Estimated
 
 As mentioned, dashboard and built-in reports give you a bird's eye view of the following high-risk

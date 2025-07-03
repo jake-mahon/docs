@@ -1,3 +1,9 @@
+---
+title: "Configure Partner Server"
+description: "Configure Partner Server"
+sidebar_position: 30
+---
+
 # Configure Partner Server
 
 To start monitoring files and folders on Nutanix File Server, you should configure Netwrix Auditor

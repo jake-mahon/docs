@@ -1,3 +1,9 @@
+---
+title: "Linux Generic Syslog"
+description: "Linux Generic Syslog"
+sidebar_position: 120
+---
+
 # Linux Generic Syslog
 
 The add-on works in collaboration with Netwrix Auditor, supplying data about activity on your

@@ -1,3 +1,9 @@
+---
+title: "Configure Video Recordings Playback Settings"
+description: "Configure Video Recordings Playback Settings"
+sidebar_position: 30
+---
+
 # Configure Video Recordings Playback Settings
 
 Video recordings of users' activity can be watched in any Netwrix Auditor client. Also, recordings

@@ -1,3 +1,9 @@
+---
+title: "User Activity"
+description: "User Activity"
+sidebar_position: 120
+---
+
 # User Activity
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

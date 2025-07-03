@@ -1,3 +1,9 @@
+---
+title: "AD FS Ports"
+description: "AD FS Ports"
+sidebar_position: 10
+---
+
 # AD FS Ports
 
 Review a full list of protocols and ports required for monitoring logon activities performed using

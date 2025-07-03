@@ -1,3 +1,9 @@
+---
+title: "SQL Server"
+description: "SQL Server"
+sidebar_position: 110
+---
+
 # SQL Server
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

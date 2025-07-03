@@ -1,3 +1,9 @@
+---
+title: "Monitoring Plans"
+description: "Monitoring Plans"
+sidebar_position: 30
+---
+
 # Monitoring Plans
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
@@ -9,7 +15,7 @@ the following topics:
 - [Data Collecting Account](/docs/auditor/10.7/admin/monitoringplans/dataaccounts.md) – Configure data collecting accounts as required to
   audit your IT systems
 
-- [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources.md) – Configure data source as
+- [Supported Data Sources](/docs/auditor/10.7/requirements/supporteddatasources/supporteddatasources.md) – Configure data source as
   required to be monitored
 
 To start auditing your environment and analyzing user behavior with Netwrix Auditor, create a

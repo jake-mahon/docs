@@ -1,3 +1,9 @@
+---
+title: "Audit Database"
+description: "Audit Database"
+sidebar_position: 20
+---
+
 # Audit Database
 
 If you want to generate reports and run interactive search queries, you should configure Auditor to

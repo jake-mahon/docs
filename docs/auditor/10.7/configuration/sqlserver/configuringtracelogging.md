@@ -1,3 +1,9 @@
+---
+title: "Configuring Trace Logging"
+description: "Configuring Trace Logging"
+sidebar_position: 30
+---
+
 # Configuring Trace Logging
 
 If trace logging is disabled in SQL Server, then changes will be reported in Netwrix Auditor as made

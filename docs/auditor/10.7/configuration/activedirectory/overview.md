@@ -1,3 +1,9 @@
+---
+title: "Active Directory"
+description: "Active Directory"
+sidebar_position: 10
+---
+
 # Active Directory
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

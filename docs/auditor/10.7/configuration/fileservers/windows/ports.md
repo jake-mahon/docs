@@ -1,3 +1,9 @@
+---
+title: "Windows File Server Ports"
+description: "Windows File Server Ports"
+sidebar_position: 10
+---
+
 # Windows File Server Ports
 
 Review a full list of Windows File Server protocols and ports required for Netwrix Auditor for File

@@ -1,3 +1,9 @@
+---
+title: "Use Group Managed Service Account (gMSA)"
+description: "Use Group Managed Service Account (gMSA)"
+sidebar_position: 100
+---
+
 # Use Group Managed Service Account (gMSA)
 
 Auditor supports using Group Managed Service Accounts (gMSA) for data collection and storage. This

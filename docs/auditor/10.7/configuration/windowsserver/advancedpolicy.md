@@ -1,3 +1,9 @@
+---
+title: "Configure Advanced Audit Policies"
+description: "Configure Advanced Audit Policies"
+sidebar_position: 50
+---
+
 # Configure Advanced Audit Policies
 
 Advanced audit policies can be configured instead of local policies. Any of them are required if you

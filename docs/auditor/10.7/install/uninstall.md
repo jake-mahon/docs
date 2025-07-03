@@ -1,3 +1,9 @@
+---
+title: "Uninstall Netwrix Auditor"
+description: "Uninstall Netwrix Auditor"
+sidebar_position: 90
+---
+
 # Uninstall Netwrix Auditor
 
 This topic provides instructions to uninstall Netwrix Auditor.

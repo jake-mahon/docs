@@ -1,3 +1,9 @@
+---
+title: "Sample Deployment Scenarios"
+description: "Sample Deployment Scenarios"
+sidebar_position: 110
+---
+
 # Sample Deployment Scenarios
 
 Recommendations in the sections below refer to deploying the product in the environments of

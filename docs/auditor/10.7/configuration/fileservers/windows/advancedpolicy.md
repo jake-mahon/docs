@@ -1,3 +1,9 @@
+---
+title: "Configure Advanced Audit Policies"
+description: "Configure Advanced Audit Policies"
+sidebar_position: 40
+---
+
 # Configure Advanced Audit Policies
 
 Configure advanced audit policies to limit the range of events tracked and recorded by the product,

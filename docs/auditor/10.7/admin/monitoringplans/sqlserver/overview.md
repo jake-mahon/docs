@@ -1,3 +1,9 @@
+---
+title: "SQL Server"
+description: "SQL Server"
+sidebar_position: 170
+---
+
 # SQL Server
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

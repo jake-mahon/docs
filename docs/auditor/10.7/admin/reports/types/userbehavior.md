@@ -1,3 +1,9 @@
+---
+title: "User Behavior and Blind Spot Analysis Reports"
+description: "User Behavior and Blind Spot Analysis Reports"
+sidebar_position: 40
+---
+
 # User Behavior and Blind Spot Analysis Reports
 
 The User Behavior and Blind Spot Analysis report pack contains a set of smart reports that help you

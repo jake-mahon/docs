@@ -1,3 +1,9 @@
+---
+title: "Monitoring Overview"
+description: "Monitoring Overview"
+sidebar_position: 20
+---
+
 # Monitoring Overview
 
 Aggregated statistics on the monitoring plans is provided in the Monitoring overview widget. It

@@ -1,3 +1,9 @@
+---
+title: "Review Behavior Anomalies Dashboard"
+description: "Review Behavior Anomalies Dashboard"
+sidebar_position: 10
+---
+
 # Review Behavior Anomalies Dashboard
 
 To review the Behavior Anomalies dashboard, process and filter anomalies in user profiles, you must

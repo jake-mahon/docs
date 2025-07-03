@@ -1,3 +1,9 @@
+---
+title: "Configure Synology File Servers for Audit"
+description: "Configure Synology File Servers for Audit"
+sidebar_position: 10
+---
+
 # Configure Synology File Servers for Audit
 
 Follow the steps to configure your Synology NAS devices to transmit the local system logs for

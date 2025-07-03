@@ -1,3 +1,9 @@
+---
+title: "Configure HPE Aruba Devices"
+description: "Configure HPE Aruba Devices"
+sidebar_position: 70
+---
+
 # Configure HPE Aruba Devices
 
 To configure your HPE Aruba devices, enable logging to multiple Syslog servers and configure logging

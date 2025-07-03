@@ -1,3 +1,9 @@
+---
+title: "Activity Records"
+description: "Activity Records"
+sidebar_position: 30
+---
+
 # Activity Records
 
 In Netwrix terms, one operable chunk of information is called the Activity Record. Netwrix Auditor

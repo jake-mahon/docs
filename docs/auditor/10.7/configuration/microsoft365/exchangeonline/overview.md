@@ -1,3 +1,9 @@
+---
+title: "Exchange Online"
+description: "Exchange Online"
+sidebar_position: 20
+---
+
 # Exchange Online
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

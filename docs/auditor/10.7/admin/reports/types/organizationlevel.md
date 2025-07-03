@@ -1,3 +1,9 @@
+---
+title: "Organization Level Reports"
+description: "Organization Level Reports"
+sidebar_position: 20
+---
+
 # Organization Level Reports
 
 Organization Level reports aggregate data on all monitoring plans and list changes and activity that

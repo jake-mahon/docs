@@ -1,3 +1,9 @@
+---
+title: "Deployment Scenarios"
+description: "Deployment Scenarios"
+sidebar_position: 20
+---
+
 # Deployment Scenarios
 
 The add-on can be deployed on any computer in your environment. For example, you can run the add-on

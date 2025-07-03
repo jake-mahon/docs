@@ -1,3 +1,9 @@
+---
+title: "Install Add-On"
+description: "Install Add-On"
+sidebar_position: 10
+---
+
 # Install Add-On
 
 Follow the steps to install the Add-On:

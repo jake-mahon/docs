@@ -1,3 +1,9 @@
+---
+title: "First Launch"
+description: "First Launch"
+sidebar_position: 30
+---
+
 # First Launch
 
 To start using Netwrix Auditor

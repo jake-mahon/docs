@@ -1,3 +1,9 @@
+---
+title: "Prerequisites"
+description: "Prerequisites"
+sidebar_position: 10
+---
+
 # Prerequisites
 
 Netwrix Auditor Integration API uses HTTPS for communication with the automatically generated

@@ -1,3 +1,9 @@
+---
+title: "Configure Audit Settings for CIFS File Shares"
+description: "Configure Audit Settings for CIFS File Shares"
+sidebar_position: 50
+---
+
 # Configure Audit Settings for CIFS File Shares
 
 Netwrix Auditor can be configured to audit all access types, review the table below and select

@@ -1,3 +1,9 @@
+---
+title: "Interactive Reports for Change Management Workflow"
+description: "Interactive Reports for Change Management Workflow"
+sidebar_position: 20
+---
+
 # Interactive Reports for Change Management Workflow
 
 Change management is one of the critical processes for many companies referring to such areas as

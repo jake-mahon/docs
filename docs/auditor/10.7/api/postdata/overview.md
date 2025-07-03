@@ -1,3 +1,9 @@
+---
+title: "Post Data"
+description: "Post Data"
+sidebar_position: 90
+---
+
 # Post Data
 
 While running requests to Netwrix Auditor Integration API endpoints, you will need to post data,

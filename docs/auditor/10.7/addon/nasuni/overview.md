@@ -1,3 +1,9 @@
+---
+title: "Nasuni"
+description: "Nasuni"
+sidebar_position: 140
+---
+
 # Nasuni
 
 The add-on works in collaboration with Netwrix Auditor, supplying data about activity on your

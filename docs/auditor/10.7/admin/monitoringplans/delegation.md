@@ -1,3 +1,9 @@
+---
+title: "Role-Based Access and Delegation"
+description: "Role-Based Access and Delegation"
+sidebar_position: 230
+---
+
 # Role-Based Access and Delegation
 
 Security and awareness of _who_ has access to _what_ is crucial for every organization. Besides

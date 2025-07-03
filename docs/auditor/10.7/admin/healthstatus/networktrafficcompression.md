@@ -1,3 +1,9 @@
+---
+title: "Network Traffic Compression"
+description: "Network Traffic Compression"
+sidebar_position: 40
+---
+
 # Network Traffic Compression
 
 To reduce network traffic in distributed deployments, multi-site networks and other environments

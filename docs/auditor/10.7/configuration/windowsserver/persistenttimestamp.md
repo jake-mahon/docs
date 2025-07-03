@@ -1,3 +1,9 @@
+---
+title: "Configure Enable Persistent Time Stamp Policy"
+description: "Configure Enable Persistent Time Stamp Policy"
+sidebar_position: 90
+---
+
 # Configure Enable Persistent Time Stamp Policy
 
 The Enable Persistent Time Stamp policy must be enabled on the target servers to track the

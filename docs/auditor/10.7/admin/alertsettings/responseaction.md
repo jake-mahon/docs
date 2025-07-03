@@ -1,3 +1,9 @@
+---
+title: "Configure a Response Action for Alert"
+description: "Configure a Response Action for Alert"
+sidebar_position: 40
+---
+
 # Configure a Response Action for Alert
 
 Upon the alert triggering, you can instruct Auditor to perform several actions such as run a

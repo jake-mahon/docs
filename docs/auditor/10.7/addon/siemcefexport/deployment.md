@@ -1,3 +1,9 @@
+---
+title: "deployment"
+description: "deployment"
+sidebar_position: 20
+---
+
 ## Choose Appropriate Execution Scenario
 
 Netwrix Auditor Netwrix Risk Insights runs on any computer in your environment. For example, you can

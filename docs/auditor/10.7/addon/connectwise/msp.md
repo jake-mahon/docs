@@ -1,3 +1,9 @@
+---
+title: "MSP Usage Example"
+description: "MSP Usage Example"
+sidebar_position: 30
+---
+
 # MSP Usage Example
 
 Consider a situation when a password is reset for a user, computer, or **inetOrgPerson** account.

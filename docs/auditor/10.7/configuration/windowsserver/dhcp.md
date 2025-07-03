@@ -1,3 +1,9 @@
+---
+title: "Adjust DHCP Server Operational Log Settings"
+description: "Adjust DHCP Server Operational Log Settings"
+sidebar_position: 70
+---
+
 # Adjust DHCP Server Operational Log Settings
 
 If you plan to monitor DHCP changes, you may need to adjust your DHCP Server Operational log

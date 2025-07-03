@@ -1,3 +1,9 @@
+---
+title: "Logon Activity Ports"
+description: "Logon Activity Ports"
+sidebar_position: 10
+---
+
 # Logon Activity Ports
 
 Review a full list of protocols and ports required for monitoring Logon Activity.

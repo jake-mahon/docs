@@ -1,3 +1,9 @@
+---
+title: "Customization Examples"
+description: "Customization Examples"
+sidebar_position: 40
+---
+
 # Customization Examples
 
 Here are several examples of why and how you might customize the Netwrix Auditor main page.
@@ -37,7 +43,7 @@ Follow the steps to run search and create the alert based on the search filters.
 suspicious activity that matches your current search criteria.
 
 **Step 6 –** Specify a name for the new alert. See the
-[Create Alerts](/docs/auditor/10.7/admin/alertsettings/create.md)topic for additional information.
+[Create Alerts](/docs/auditor/10.7/admin/alertsettings/create/create.md)topic for additional information.
 
 Now, whenever there is activity that matches your search criteria, the appropriate people will
 receive a notification. You can also review the list of triggered alerts by clicking the Alerts tile

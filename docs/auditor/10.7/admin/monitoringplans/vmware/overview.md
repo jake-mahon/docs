@@ -1,3 +1,9 @@
+---
+title: "VMware"
+description: "VMware"
+sidebar_position: 190
+---
+
 # VMware
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
@@ -45,7 +51,7 @@ Netwrix administrator does the following:
   as a data collecting account in the **Monitoring Plan wizard**. Then s/he adds items to the
   monitoring plan – these are VMware servers to collect data from.
 - Configures alerts related to VMware data source. Current version does not include predefined
-  alerts for that data source, so follow the [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create.md) to
+  alerts for that data source, so follow the [Create Alerts](/docs/auditor/10.7/admin/alertsettings/create/create.md) to
   create and configure the necessary alerts.
 
     - Remember to set the filter to “**Data Source\_**equals**\_VMware**”.

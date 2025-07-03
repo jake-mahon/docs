@@ -1,3 +1,9 @@
+---
+title: "Windows Server Ports"
+description: "Windows Server Ports"
+sidebar_position: 10
+---
+
 # Windows Server Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Windows Server.

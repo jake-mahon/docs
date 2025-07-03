@@ -1,3 +1,9 @@
+---
+title: "Integration Event Log Fields"
+description: "Integration Event Log Fields"
+sidebar_position: 50
+---
+
 # Integration Event Log Fields
 
 This section describes how the add-on fills in the Netwrix Auditor **Integration** event log fields

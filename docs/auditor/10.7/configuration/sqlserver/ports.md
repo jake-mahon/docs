@@ -1,3 +1,9 @@
+---
+title: "SQL Server Ports"
+description: "SQL Server Ports"
+sidebar_position: 10
+---
+
 # SQL Server Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for SQL Server.

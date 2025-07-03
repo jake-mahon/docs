@@ -1,3 +1,9 @@
+---
+title: "Configure Audit Settings for CIFS File Shares on Dell Data Storage"
+description: "Configure Audit Settings for CIFS File Shares on Dell Data Storage"
+sidebar_position: 40
+---
+
 # Configure Audit Settings for CIFS File Shares on Dell Data Storage
 
 Dell VNX, VNXe, Celerra, and Unity NAS devices are collectively referred to as Dell Data Storage.

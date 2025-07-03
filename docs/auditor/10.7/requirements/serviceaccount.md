@@ -1,3 +1,9 @@
+---
+title: "Configure Netwrix Auditor Service Accounts"
+description: "Configure Netwrix Auditor Service Accounts"
+sidebar_position: 90
+---
+
 # Configure Netwrix Auditor Service Accounts
 
 Netwrix Auditor uses the following service accounts:

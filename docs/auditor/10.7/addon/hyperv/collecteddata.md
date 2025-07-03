@@ -1,3 +1,9 @@
+---
+title: "Work with Collected Data"
+description: "Work with Collected Data"
+sidebar_position: 40
+---
+
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

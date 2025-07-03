@@ -1,3 +1,9 @@
+---
+title: "Add-Ons"
+description: "Add-Ons"
+sidebar_position: 80
+---
+
 # Add-Ons
 
 The [Netwrix Auditor Add-on Store](https://www.netwrix.com/netwrix_addons.html) contains free

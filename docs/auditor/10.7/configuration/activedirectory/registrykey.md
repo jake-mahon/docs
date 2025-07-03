@@ -1,3 +1,9 @@
+---
+title: "Active Directory Registry Key Configuration"
+description: "Active Directory Registry Key Configuration"
+sidebar_position: 100
+---
+
 # Active Directory Registry Key Configuration
 
 Review the basic registry keys that you may need to configure for monitoring Active Directory with

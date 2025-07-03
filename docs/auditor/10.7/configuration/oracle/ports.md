@@ -1,3 +1,9 @@
+---
+title: "Oracle Database Ports"
+description: "Oracle Database Ports"
+sidebar_position: 10
+---
+
 # Oracle Database Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Oracle Database.

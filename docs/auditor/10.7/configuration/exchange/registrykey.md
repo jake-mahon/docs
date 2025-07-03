@@ -1,3 +1,9 @@
+---
+title: "Exchange Registry Keys"
+description: "Exchange Registry Keys"
+sidebar_position: 40
+---
+
 # Exchange Registry Keys
 
 Review the basic registry keys that you may need to configure for monitoring Exchange with Netwrix

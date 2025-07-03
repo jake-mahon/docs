@@ -1,3 +1,9 @@
+---
+title: "Maintenance and Troubleshooting"
+description: "Maintenance and Troubleshooting"
+sidebar_position: 50
+---
+
 # Maintenance and Troubleshooting
 
 If you cannot see collected data in Auditor, check the following:

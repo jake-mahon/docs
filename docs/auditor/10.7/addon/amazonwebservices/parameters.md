@@ -1,3 +1,9 @@
+---
+title: "Define Parameters"
+description: "Define Parameters"
+sidebar_position: 10
+---
+
 # Define Parameters
 
 Before running or scheduling the add-on, you must define connection details: Auditor Server host,

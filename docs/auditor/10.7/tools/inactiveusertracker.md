@@ -1,3 +1,9 @@
+---
+title: "Inactive User Tracker"
+description: "Inactive User Tracker"
+sidebar_position: 30
+---
+
 # Inactive User Tracker
 
 Auditor Inactive User Tracker standalone tool discovers inactive user and computer accounts. It

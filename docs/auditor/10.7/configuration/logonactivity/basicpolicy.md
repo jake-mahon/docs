@@ -1,3 +1,9 @@
+---
+title: "Configure Basic Domain Audit Policies"
+description: "Configure Basic Domain Audit Policies"
+sidebar_position: 20
+---
+
 # Configure Basic Domain Audit Policies
 
 Basic local audit policies allow tracking changes to user accounts and groups and identifying

@@ -1,3 +1,9 @@
+---
+title: "Examining Lockouts"
+description: "Examining Lockouts"
+sidebar_position: 20
+---
+
 # Examining Lockouts
 
 To start using **Netwrix Account Lockout Examiner**, download it from Netwrix web site. Once the

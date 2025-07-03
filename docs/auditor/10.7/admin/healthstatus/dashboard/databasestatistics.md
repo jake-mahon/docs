@@ -1,3 +1,9 @@
+---
+title: "Database Statistics"
+description: "Database Statistics"
+sidebar_position: 40
+---
+
 # Database Statistics
 
 Databases may tend to run out of free space due to poor capacity provisioning or to retention

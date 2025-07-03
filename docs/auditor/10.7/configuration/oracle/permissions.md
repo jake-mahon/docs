@@ -1,3 +1,9 @@
+---
+title: "Permissions for Oracle Database Auditing"
+description: "Permissions for Oracle Database Auditing"
+sidebar_position: 70
+---
+
 # Permissions for Oracle Database Auditing
 
 When creating a monitoring plan for your Oracle Database, you should specify the account that has

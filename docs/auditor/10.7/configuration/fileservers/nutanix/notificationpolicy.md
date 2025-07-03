@@ -1,3 +1,9 @@
+---
+title: "Create a Notification Policy"
+description: "Create a Notification Policy"
+sidebar_position: 40
+---
+
 # Create a Notification Policy
 
 To monitor operations with files and folders on Nutanix File Server, you should configure a

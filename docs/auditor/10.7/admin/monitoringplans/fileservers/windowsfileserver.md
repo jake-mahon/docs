@@ -1,3 +1,9 @@
+---
+title: "Windows File Server"
+description: "Windows File Server"
+sidebar_position: 10
+---
+
 # Windows File Server
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

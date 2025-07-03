@@ -1,3 +1,9 @@
+---
+title: "Connection and Ticketing Settings"
+description: "Connection and Ticketing Settings"
+sidebar_position: 40
+---
+
 # Connection and Ticketing Settings
 
 It is recommended that you use configuration wizard to specify connection and ticketing settings.
