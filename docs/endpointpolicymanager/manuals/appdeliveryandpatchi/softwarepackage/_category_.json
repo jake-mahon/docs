@@ -1,0 +1,10 @@
+{
+  "label": "Software Package Manager",
+  "position": 20,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}
