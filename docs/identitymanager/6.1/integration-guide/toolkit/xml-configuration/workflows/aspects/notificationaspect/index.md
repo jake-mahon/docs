@@ -1,3 +1,9 @@
+---
+title: "NotificationAspect"
+description: "NotificationAspect"
+sidebar_position: 70
+---
+
 # NotificationAspect
 
 Sends a notification email to one or several users.

@@ -1,3 +1,9 @@
+---
+title: "Deploy the Configuration"
+description: "Deploy the Configuration"
+sidebar_position: 10
+---
+
 # Deploy the Configuration
 
 This guide shows how to deploy the XML configuration, in order to build and use the Usercube

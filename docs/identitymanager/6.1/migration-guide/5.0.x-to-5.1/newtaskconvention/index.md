@@ -1,3 +1,9 @@
+---
+title: "New Task Name Convention"
+description: "New Task Name Convention"
+sidebar_position: 10
+---
+
 # New Task Name Convention
 
 | Old Name                                  | New Name                                                                                                                                                                                                                                                                                                                                                      |

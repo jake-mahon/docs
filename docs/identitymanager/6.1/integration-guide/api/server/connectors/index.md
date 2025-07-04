@@ -1,3 +1,9 @@
+---
+title: "Connectors"
+description: "Connectors"
+sidebar_position: 30
+---
+
 # Connectors
 
 ### /api/Connectors/Agent

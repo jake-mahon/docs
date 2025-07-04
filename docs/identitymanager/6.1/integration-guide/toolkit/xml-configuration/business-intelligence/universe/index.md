@@ -1,3 +1,9 @@
+---
+title: "Universe"
+description: "Universe"
+sidebar_position: 10
+---
+
 # Universe
 
 Universes constitute the basis for the configuration of a new model that we will call universe

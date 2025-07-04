@@ -1,3 +1,9 @@
+---
+title: "Infer Single Roles with a Composite Role"
+description: "Infer Single Roles with a Composite Role"
+sidebar_position: 20
+---
+
 # Infer Single Roles with a Composite Role
 
 This guide shows how to assign several single roles via the assignment of one composite role.

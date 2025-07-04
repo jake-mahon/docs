@@ -1,3 +1,9 @@
+---
+title: "UniverseDataModel"
+description: "UniverseDataModel"
+sidebar_position: 20
+---
+
 # UniverseDataModel
 
 This scaffolding creates, within a universe, entity instances and association instances based on a

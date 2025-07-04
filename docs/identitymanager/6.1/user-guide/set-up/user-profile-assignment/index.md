@@ -1,3 +1,9 @@
+---
+title: "Assign Users a Profile"
+description: "Assign Users a Profile"
+sidebar_position: 100
+---
+
 # Assign Users a Profile
 
 How to assign Usercube's access permissions to users through profiles.

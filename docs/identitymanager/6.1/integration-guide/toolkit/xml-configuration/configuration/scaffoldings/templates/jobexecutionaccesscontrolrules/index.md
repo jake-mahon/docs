@@ -1,3 +1,9 @@
+---
+title: "JobExecutionAccessControlRules"
+description: "JobExecutionAccessControlRules"
+sidebar_position: 50
+---
+
 # JobExecutionAccessControlRules
 
 This scaffolding assigns a set of rights to a given profile to execute any job, and view all job

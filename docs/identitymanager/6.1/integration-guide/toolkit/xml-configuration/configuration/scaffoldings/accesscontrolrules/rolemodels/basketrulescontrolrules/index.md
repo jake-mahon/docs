@@ -1,3 +1,9 @@
+---
+title: "BasketRulesControlRules"
+description: "BasketRulesControlRules"
+sidebar_position: 10
+---
+
 # BasketRulesControlRules
 
 Generates the permissions to execute the different requests to display the information in the rights

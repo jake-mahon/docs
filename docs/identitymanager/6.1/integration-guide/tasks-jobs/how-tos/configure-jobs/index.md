@@ -1,3 +1,9 @@
+---
+title: "Configure Jobs"
+description: "Configure Jobs"
+sidebar_position: 20
+---
+
 # Configure Jobs
 
 This guide shows how to define the permissions for creating and using jobs thanks to scaffoldings.

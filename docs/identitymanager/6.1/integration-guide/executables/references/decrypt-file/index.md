@@ -1,3 +1,9 @@
+---
+title: "Usercube-Decrypt-File"
+description: "Usercube-Decrypt-File"
+sidebar_position: 70
+---
+
 # Usercube-Decrypt-File
 
 In Usercube, files are encrypted by default. This tool decrypts an input file to save it into an

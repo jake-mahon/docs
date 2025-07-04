@@ -1,3 +1,9 @@
+---
+title: "Microsoft Exchange"
+description: "Microsoft Exchange"
+sidebar_position: 150
+---
+
 # Microsoft Exchange
 
 This connector exports mailboxes from a

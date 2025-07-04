@@ -1,3 +1,9 @@
+---
+title: "Technical Files"
+description: "Technical Files"
+sidebar_position: 40
+---
+
 # Technical Files
 
 This section gathers information relative to the technical files that Usercube could use or generate

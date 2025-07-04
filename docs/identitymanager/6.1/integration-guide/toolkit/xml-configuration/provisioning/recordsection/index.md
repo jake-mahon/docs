@@ -1,3 +1,9 @@
+---
+title: "RecordSection"
+description: "RecordSection"
+sidebar_position: 100
+---
+
 # RecordSection
 
 Record sections shape identity data for a given entity type, by grouping properties into sections,

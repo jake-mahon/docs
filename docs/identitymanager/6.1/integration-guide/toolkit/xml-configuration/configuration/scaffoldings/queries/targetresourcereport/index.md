@@ -1,3 +1,9 @@
+---
+title: "TargetResourceReport"
+description: "TargetResourceReport"
+sidebar_position: 10
+---
+
 # TargetResourceReport
 
 Creates a ReportQuery with default Query taking all the properties of the entity.

@@ -1,3 +1,9 @@
+---
+title: "Dimension"
+description: "Dimension"
+sidebar_position: 30
+---
+
 # Dimension
 
 A dimension is an

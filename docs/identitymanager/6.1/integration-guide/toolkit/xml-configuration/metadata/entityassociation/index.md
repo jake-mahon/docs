@@ -1,3 +1,9 @@
+---
+title: "EntityAssociation"
+description: "EntityAssociation"
+sidebar_position: 40
+---
+
 # EntityAssociation
 
 An entity association is used to model an association in Usercube's metadata. See the

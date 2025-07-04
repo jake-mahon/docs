@@ -1,3 +1,9 @@
+---
+title: "Installation Guide"
+description: "Installation Guide"
+sidebar_position: 40
+---
+
 # Installation Guide
 
 This guide is designed to help you install Usercube in a production environment.

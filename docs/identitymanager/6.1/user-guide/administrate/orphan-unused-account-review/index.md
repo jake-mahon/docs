@@ -1,3 +1,9 @@
+---
+title: "Review Orphaned and Unused Accounts"
+description: "Review Orphaned and Unused Accounts"
+sidebar_position: 20
+---
+
 # Review Orphaned and Unused Accounts
 
 How to remediate license and security issues caused by orphaned and/or unused accounts.

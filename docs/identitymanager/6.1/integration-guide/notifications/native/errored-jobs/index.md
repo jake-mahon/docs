@@ -1,3 +1,9 @@
+---
+title: "Jobs with Errors"
+description: "Jobs with Errors"
+sidebar_position: 60
+---
+
 # Jobs with Errors
 
 Usercube is able to send notification emails when a job ends with an error. The notification email

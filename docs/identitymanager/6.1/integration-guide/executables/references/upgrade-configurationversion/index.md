@@ -1,3 +1,9 @@
+---
+title: "Usercube-Upgrade-ConfigurationVersion"
+description: "Usercube-Upgrade-ConfigurationVersion"
+sidebar_position: 370
+---
+
 # Usercube-Upgrade-ConfigurationVersion
 
 This tool is used to upgrade your configuration from your current version entered in settings to the

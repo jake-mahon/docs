@@ -1,3 +1,9 @@
+---
+title: "InvokeExpressionTask"
+description: "InvokeExpressionTask"
+sidebar_position: 70
+---
+
 # InvokeExpressionTask
 
 Launches on agent side a powershell script given as input.

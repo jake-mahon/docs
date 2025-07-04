@@ -1,3 +1,9 @@
+---
+title: "Simulation"
+description: "Simulation"
+sidebar_position: 110
+---
+
 # Simulation
 
 Simulations aim to assess the impact of a modification in the role model, i.e. any modification of a

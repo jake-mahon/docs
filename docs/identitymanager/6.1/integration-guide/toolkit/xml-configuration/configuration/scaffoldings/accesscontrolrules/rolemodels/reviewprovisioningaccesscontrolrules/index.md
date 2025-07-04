@@ -1,3 +1,9 @@
+---
+title: "ReviewProvisioningAccessControlRules"
+description: "ReviewProvisioningAccessControlRules"
+sidebar_position: 110
+---
+
 # ReviewProvisioningAccessControlRules
 
 Generates the right to access the review provisioning pages for a given entity type and profile.

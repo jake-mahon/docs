@@ -1,3 +1,9 @@
+---
+title: "Agent Configuration"
+description: "Agent Configuration"
+sidebar_position: 20
+---
+
 # Agent Configuration
 
 _Usercube Agent_'s configuration includes connection information to the managed systems and to the

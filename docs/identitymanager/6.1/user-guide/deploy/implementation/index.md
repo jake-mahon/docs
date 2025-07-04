@@ -1,3 +1,9 @@
+---
+title: "Implement Usercube"
+description: "Implement Usercube"
+sidebar_position: 40
+---
+
 # Implement Usercube
 
 How to actually implement Usercube solution.

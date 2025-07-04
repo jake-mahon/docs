@@ -1,3 +1,9 @@
+---
+title: "Templates"
+description: "Templates"
+sidebar_position: 50
+---
+
 # Templates
 
 - #### [ConnectorsAccessControlRules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.md)

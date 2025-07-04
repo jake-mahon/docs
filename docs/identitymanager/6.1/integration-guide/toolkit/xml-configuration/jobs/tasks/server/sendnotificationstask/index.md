@@ -1,3 +1,9 @@
+---
+title: "SendNotificationsTask"
+description: "SendNotificationsTask"
+sidebar_position: 170
+---
+
 # SendNotificationsTask
 
 Task that sends all the custom notifications defined by the

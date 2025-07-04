@@ -1,3 +1,9 @@
+---
+title: "BuildUniqueValueAspect"
+description: "BuildUniqueValueAspect"
+sidebar_position: 40
+---
+
 # BuildUniqueValueAspect
 
 Computes a unique value for a given property.

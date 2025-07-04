@@ -1,3 +1,9 @@
+---
+title: "Usercube-Deploy-Configuration"
+description: "Usercube-Deploy-Configuration"
+sidebar_position: 80
+---
+
 # Usercube-Deploy-Configuration
 
 Retrieves all XML configuration files from a given folder, in order to calculate the configuration

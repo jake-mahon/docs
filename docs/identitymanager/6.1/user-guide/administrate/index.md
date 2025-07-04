@@ -1,3 +1,9 @@
+---
+title: "Administrate"
+description: "Administrate"
+sidebar_position: 30
+---
+
 # Administrate
 
 - #### [Generate Reports](/docs/identitymanager/6.1/user-guide/administrate/reporting/index.md)

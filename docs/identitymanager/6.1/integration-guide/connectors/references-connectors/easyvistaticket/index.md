@@ -1,3 +1,9 @@
+---
+title: "EasyVista Ticket"
+description: "EasyVista Ticket"
+sidebar_position: 60
+---
+
 # EasyVista Ticket
 
 This connector opens tickets in

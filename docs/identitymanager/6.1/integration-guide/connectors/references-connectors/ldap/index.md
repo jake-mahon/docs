@@ -1,3 +1,9 @@
+---
+title: "LDAP"
+description: "LDAP"
+sidebar_position: 120
+---
+
 # LDAP
 
 This connector exports and fulfills entries from/to an [LDAP](https://ldap.com/)-compliant system.

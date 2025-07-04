@@ -1,3 +1,9 @@
+---
+title: "OktaResourceTypeMapping"
+description: "OktaResourceTypeMapping"
+sidebar_position: 50
+---
+
 # OktaResourceTypeMapping
 
 ## Properties

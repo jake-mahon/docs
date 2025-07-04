@@ -1,3 +1,9 @@
+---
+title: "Restrict Users' Rights"
+description: "Restrict Users' Rights"
+sidebar_position: 20
+---
+
 # Restrict Users' Rights
 
 This guide shows how to define rules to limit users' access rights, which is possible via several

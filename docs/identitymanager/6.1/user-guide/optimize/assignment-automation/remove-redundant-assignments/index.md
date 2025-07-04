@@ -1,3 +1,9 @@
+---
+title: "Remove Redundant Assignments"
+description: "Remove Redundant Assignments"
+sidebar_position: 30
+---
+
 # Remove Redundant Assignments
 
 How to remove redundant assignments, i.e.

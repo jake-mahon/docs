@@ -1,3 +1,9 @@
+---
+title: "Automation Rule"
+description: "Automation Rule"
+sidebar_position: 10
+---
+
 # Automation Rule
 
 Automation rules make automatic decisions instead of the reviewer on assignments that still need to

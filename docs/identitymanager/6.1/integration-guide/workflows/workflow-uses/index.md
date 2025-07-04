@@ -1,3 +1,9 @@
+---
+title: "Workflow Uses"
+description: "Workflow Uses"
+sidebar_position: 30
+---
+
 # Workflow Uses
 
 An Usercube

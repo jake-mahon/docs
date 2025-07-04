@@ -1,3 +1,9 @@
+---
+title: "PasswordTestsSetting"
+description: "PasswordTestsSetting"
+sidebar_position: 80
+---
+
 # PasswordTestsSetting
 
 This setting enables a check on the passwords set manually by users.

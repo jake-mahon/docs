@@ -1,3 +1,9 @@
+---
+title: "ProfileAdministrationAccessControlRules"
+description: "ProfileAdministrationAccessControlRules"
+sidebar_position: 30
+---
+
 # ProfileAdministrationAccessControlRules
 
 Gives to a given profile the rights to create, update and delete profiles.

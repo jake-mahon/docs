@@ -1,3 +1,9 @@
+---
+title: "ViewTemplate"
+description: "ViewTemplate"
+sidebar_position: 110
+---
+
 # ViewTemplate
 
 Creates the view for the given entity as well as the rights for the given profile.

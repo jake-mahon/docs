@@ -1,3 +1,9 @@
+---
+title: "EntityTypeSearchBar"
+description: "EntityTypeSearchBar"
+sidebar_position: 70
+---
+
 # EntityTypeSearchBar
 
 Creates the search bar for the entity without criteria.

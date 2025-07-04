@@ -1,3 +1,9 @@
+---
+title: "ResourceTypeMappingControlRules"
+description: "ResourceTypeMappingControlRules"
+sidebar_position: 70
+---
+
 # ResourceTypeMappingControlRules
 
 Scaffolding to create the right for a profile to start the Fulfillment to an external system (LDAP,

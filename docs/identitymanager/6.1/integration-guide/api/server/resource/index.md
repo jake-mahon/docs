@@ -1,3 +1,9 @@
+---
+title: "Resource"
+description: "Resource"
+sidebar_position: 100
+---
+
 # Resource
 
 ### /api/Resource/`{type}`

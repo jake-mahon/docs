@@ -1,3 +1,9 @@
+---
+title: "Application Settings"
+description: "Application Settings"
+sidebar_position: 10
+---
+
 # Application Settings
 
 This section describes the settings available in the server's `appsettings.json` file, located in

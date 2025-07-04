@@ -1,3 +1,9 @@
+---
+title: "For Resource Update (Mono Record)"
+description: "For Resource Update (Mono Record)"
+sidebar_position: 40
+---
+
 # For Resource Update (Mono Record)
 
 This section guides you through the procedure for the creation of a workflow to schedule the

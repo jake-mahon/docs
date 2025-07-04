@@ -1,3 +1,9 @@
+---
+title: "GetRoleMiningTask"
+description: "GetRoleMiningTask"
+sidebar_position: 80
+---
+
 # GetRoleMiningTask
 
 Role mining is the process of analyzing user-to-resource mapping data to determine or modify user

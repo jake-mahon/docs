@@ -1,3 +1,9 @@
+---
+title: "Migration Guide"
+description: "Migration Guide"
+sidebar_position: 20
+---
+
 # Migration Guide
 
 ### Migrating from 5.1.7 to 5.2.3

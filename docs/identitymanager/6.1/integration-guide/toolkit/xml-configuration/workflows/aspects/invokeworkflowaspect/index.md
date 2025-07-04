@@ -1,3 +1,9 @@
+---
+title: "InvokeWorkflowAspect"
+description: "InvokeWorkflowAspect"
+sidebar_position: 60
+---
+
 # InvokeWorkflowAspect
 
 Launches a workflow.

@@ -1,3 +1,9 @@
+---
+title: "TargetResourceReportMenus"
+description: "TargetResourceReportMenus"
+sidebar_position: 80
+---
+
 # TargetResourceReportMenus
 
 Creates the Item menu for the entity's report so that it is displayed in the report view.

@@ -1,3 +1,9 @@
+---
+title: "Conforming Assignments"
+description: "Conforming Assignments"
+sidebar_position: 70
+---
+
 # Conforming Assignments
 
 The

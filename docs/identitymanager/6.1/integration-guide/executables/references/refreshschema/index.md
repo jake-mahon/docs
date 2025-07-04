@@ -1,3 +1,9 @@
+---
+title: "Usercube-RefreshSchema"
+description: "Usercube-RefreshSchema"
+sidebar_position: 330
+---
+
 # Usercube-RefreshSchema
 
 ## Examples

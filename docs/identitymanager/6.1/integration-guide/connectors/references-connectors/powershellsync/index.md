@@ -1,3 +1,9 @@
+---
+title: "PowerShellSync"
+description: "PowerShellSync"
+sidebar_position: 200
+---
+
 # PowerShellSync
 
 This connector exports data from an external system via a

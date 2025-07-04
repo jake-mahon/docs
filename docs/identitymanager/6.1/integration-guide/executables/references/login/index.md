@@ -1,3 +1,9 @@
+---
+title: "Usercube-Login"
+description: "Usercube-Login"
+sidebar_position: 240
+---
+
 # Usercube-Login
 
 Delegates the authentication process to a third-party Identity Provider which will provide an

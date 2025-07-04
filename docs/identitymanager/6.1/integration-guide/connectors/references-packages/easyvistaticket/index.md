@@ -1,3 +1,9 @@
+---
+title: "EasyVista Ticket"
+description: "EasyVista Ticket"
+sidebar_position: 80
+---
+
 # EasyVista Ticket
 
 Creates tickets inside an EasyVista instance. This package does not support incremental

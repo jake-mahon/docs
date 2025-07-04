@@ -1,3 +1,9 @@
+---
+title: "Connector"
+description: "Connector"
+sidebar_position: 40
+---
+
 # Connector
 
 Connectors provide the means by which Usercube communicates with managed platforms, applications and

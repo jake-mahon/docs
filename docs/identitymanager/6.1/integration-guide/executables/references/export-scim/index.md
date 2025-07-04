@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-Scim"
+description: "Usercube-Export-Scim"
+sidebar_position: 150
+---
+
 # Usercube-Export-Scim
 
 This tool is made to export entries from a SCIM API to CSV files.

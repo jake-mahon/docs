@@ -1,3 +1,9 @@
+---
+title: "Credential Protection"
+description: "Credential Protection"
+sidebar_position: 20
+---
+
 # Credential Protection
 
 The credentials of any managed system can be protected using

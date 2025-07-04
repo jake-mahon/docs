@@ -8,7 +8,7 @@
       Title="Introduction Guide"
       Link="/Content/Usercube/introduction-guide/index.html">
       <TocEntry
-        Title="IGA and Netwrix Identity Manager"
+        Title="IGA and Usercube"
         Link="/Content/Usercube/introduction-guide/overview/index.html">
         <TocEntry
           Title="Identity Management"
@@ -29,6 +29,9 @@
       <TocEntry
         Title="Configuration"
         Link="/Content/Usercube/introduction-guide/configuration/index.html" />
+      <TocEntry
+        Title="More Information"
+        Link="/Content/Usercube/introduction-guide/more-info/index.html" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
@@ -59,7 +62,7 @@
             Title="Configure Unique Property Generation"
             Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.html" />
           <TocEntry
-            Title="Load Identities to Identity Manager"
+            Title="Load Identities to Usercube"
             Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/load-identities/index.html" />
           <TocEntry
             Title="Template Description"
@@ -68,9 +71,6 @@
             Title="Adjust the Workforce Data Model"
             Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.html" />
         </TocEntry>
-        <TocEntry
-          Title="Configure Global Settings"
-          Link="/Content/Usercube/user-guide/set-up/configure-global-settings/index.htm" />
         <TocEntry
           Title="Configure Onboarding Workflows"
           Link="/Content/Usercube/user-guide/set-up/configure-workflows/index.html" />
@@ -209,9 +209,6 @@
         <TocEntry
           Title="Request Entitlement Assignment"
           Link="/Content/Usercube/user-guide/administrate/manual-assignment-request/index.html" />
-        <TocEntry
-          Title="Review Assigned Roles"
-          Link="/Content/Usercube/user-guide/administrate/assigned-roles/index.htm" />
       </TocEntry>
       <TocEntry
         Title="Optimize"
@@ -283,7 +280,7 @@
           Title="Set Up User Authentication"
           Link="/Content/Usercube/user-guide/deploy/authentication/index.html" />
         <TocEntry
-          Title="Implement Identity Manager"
+          Title="Implement Usercube"
           Link="/Content/Usercube/user-guide/deploy/implementation/index.html" />
       </TocEntry>
       <TocEntry
@@ -345,6 +342,10 @@
           <TocEntry
             Title="Credential Protection"
             Link="/Content/Usercube/integration-guide/connectors/configuration-details/credential-protection/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/connectors/how-tos/index.html">
           <TocEntry
             Title="Configure Secured Options"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/configure-secured-options/index.html" />
@@ -355,34 +356,27 @@
             Title="Run the HR Demo Application"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/demoapp-hr/index.html" />
           <TocEntry
-            Title="Register for Microsoft Entra ID"
+            Title="Register for Azure AD"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/azuread-register/index.html" />
           <TocEntry
-            Title="Create a Connector"
-            Link="/Content/Usercube/integration-guide/connectors/how-tos/create-connector/index.html">
-            <TocEntry
-              Title="For Microsoft Entra ID"
-              Link="/Content/Usercube/integration-guide/connectors/how-tos/create-connector/azuread/index.html" />
-          </TocEntry>
-          <TocEntry
             Title="Set Up Incremental Synchronization"
-            Link="/Content/Usercube/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.html">
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/set-up-incremental-synchronization/index.html">
             <TocEntry
-              Title="For Microsoft Entra ID"
-              Link="/Content/Usercube/integration-guide/connectors/how-tos/setup-incremental-synchronization/azuread/index.html" />
+              Title="For Azure Active Directory"
+              Link="/Content/Usercube/integration-guide/connectors/how-tos/set-up-incremental-synchronization/azuread/index.html" />
           </TocEntry>
           <TocEntry
             Title="Write a Template for a Ticket Connector"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/write-ticket-template/index.html" />
           <TocEntry
-            Title="Fulfill Microsoft Exchange via PowerShell"
-            Link="/Content/Usercube/integration-guide/connectors/how-tos/powershell-fulfill/index.html" />
+            Title="Write a PowerShell Script for Synchronization"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-sync-powershell-script/index.html" />
           <TocEntry
             Title="Write a PowerShell Script for Provisioning"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.html" />
           <TocEntry
-            Title="Write a PowerShell Script for Synchronization"
-            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-sync-powershell-script/index.html" />
+            Title="Fulfill Microsoft Exchange via PowerShell"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/powershell-fulfill/index.html" />
           <TocEntry
             Title="Write a Robot Framework Script"
             Link="/Content/Usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.html" />
@@ -412,8 +406,8 @@
             Title="Azure"
             Link="/Content/Usercube/integration-guide/connectors/references-connectors/azure/index.html" />
           <TocEntry
-            Title="Microsoft Entra ID"
-            Link="/Content/Usercube/integration-guide/connectors/references-connectors/microsoftentraID/index.html" />
+            Title="Azure Active Directory"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/azuread/index.html" />
           <TocEntry
             Title="CSV"
             Link="/Content/Usercube/integration-guide/connectors/references-connectors/csv/index.html" />
@@ -475,8 +469,8 @@
             Title="SAP ERP 6.0 and SAP S4/HANA"
             Link="/Content/Usercube/integration-guide/connectors/references-connectors/saperp6/index.html" />
           <TocEntry
-            Title="SAP Netweaver "
-            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sapnetweaver/index.html" />
+            Title="SAP Netweaver"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/saphana/index.html" />
           <TocEntry
             Title="SCIM"
             Link="/Content/Usercube/integration-guide/connectors/references-connectors/scim/index.html" />
@@ -518,7 +512,7 @@
             Title="Azure"
             Link="/Content/Usercube/integration-guide/connectors/references-packages/azure/index.html" />
           <TocEntry
-            Title="Microsoft Entra ID"
+            Title="Azure Active Directory"
             Link="/Content/Usercube/integration-guide/connectors/references-packages/azure-active-directory/index.html" />
           <TocEntry
             Title="CSV"
@@ -674,12 +668,20 @@
           Title="Thresholds"
           Link="/Content/Usercube/integration-guide/provisioning/prov-thresholds/index.html" />
         <TocEntry
-          Title="Compute a Resource Type's Provisioning Arguments"
-          Link="/Content/Usercube/integration-guide/provisioning/how-tos/argumentsexpression/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/provisioning/how-tos/index.html">
+          <TocEntry
+            Title="Compute a Resource Type's Provisioning Arguments"
+            Link="/Content/Usercube/integration-guide/provisioning/how-tos/argumentsexpression/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Role Model"
-        Link="/Content/Usercube/integration-guide/role-model/index.html"></TocEntry>
+        Link="/Content/Usercube/integration-guide/role-model/index.html">
+        <TocEntry
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/role-model/how-tos/index.html" />
+      </TocEntry>
       <TocEntry
         Title="Role Assignment"
         Link="/Content/Usercube/integration-guide/role-assignment/index.html">
@@ -691,7 +693,7 @@
           Link="/Content/Usercube/integration-guide/role-assignment/assignment-dates/index.html" />
         <TocEntry
           Title="Assignment Policy"
-          Link="/Content/Usercube/integration-guide/role-model/role-model-rules/index.html" />
+          Link="/Content/Usercube/integration-guide/role-assignment/role-model-rules/index.html" />
         <TocEntry
           Title="Evaluate Policy"
           Link="/Content/Usercube/integration-guide/role-assignment/evaluate-policy/index.html" />
@@ -699,14 +701,18 @@
           Title="Generate Contexts"
           Link="/Content/Usercube/integration-guide/role-assignment/generate-contexts/index.html" />
         <TocEntry
-          Title="Restrict the Assignment"
-          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/restrict-assignment/index.html" />
-        <TocEntry
-          Title="Infer Single Roles with a Composite Role"
-          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/infer-single-roles/index.html" />
-        <TocEntry
-          Title="Configure Indirect Permissions "
-          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/index.html">
+          <TocEntry
+            Title="Restrict the Assignment"
+            Link="/Content/Usercube/integration-guide/role-assignment/how-tos/restrict-assignment/index.html" />
+          <TocEntry
+            Title="Infer Single Roles with a Composite Role"
+            Link="/Content/Usercube/integration-guide/role-assignment/how-tos/infer-single-roles/index.html" />
+          <TocEntry
+            Title="Configure Indirect Permissions "
+            Link="/Content/Usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/index.html" />
+        </TocEntry>
         <TocEntry
           Title="Conforming Assignments"
           Link="/Content/Usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.html" />
@@ -733,18 +739,26 @@
           Title="Reporting"
           Link="/Content/Usercube/integration-guide/governance/reporting/index.html">
           <TocEntry
-            Title="Connect Power BI to Usercube"
-            Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.html" />
-          <TocEntry
-            Title="Analyze Usercube's Data with Power BI"
-            Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/index.html" />
+            Title="How Tos"
+            Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/index.html">
+            <TocEntry
+              Title="Connect Power BI to Usercube"
+              Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.html" />
+            <TocEntry
+              Title="Analyze Usercube's Data with Power BI"
+              Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/index.html" />
+          </TocEntry>
         </TocEntry>
         <TocEntry
           Title="Access Certification"
           Link="/Content/Usercube/integration-guide/governance/accesscertification/index.html" />
         <TocEntry
-          Title="Review Prolonged Entitlements"
-          Link="/Content/Usercube/integration-guide/governance/how-tos/review-prolonged-entitlements/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/governance/how-tos/index.html">
+          <TocEntry
+            Title="Review Prolonged Entitlements"
+            Link="/Content/Usercube/integration-guide/governance/how-tos/review-prolonged-entitlements/index.html" />
+        </TocEntry>
         <TocEntry
           Title="Risk Management"
           Link="/Content/Usercube/integration-guide/governance/risks/index.html" />
@@ -773,16 +787,20 @@
           <TocEntry
             Title="Jobs with Errors"
             Link="/Content/Usercube/integration-guide/notifications/native/errored-jobs/index.html" />
-          <TocEntry
-            Title="Customize a Native Notification"
-            Link="/Content/Usercube/integration-guide/notifications/how-tos/customize-native-notification/index.html" />
         </TocEntry>
         <TocEntry
           Title="Custom Notifications"
           Link="/Content/Usercube/integration-guide/notifications/custom/index.html" />
         <TocEntry
-          Title="Set Notifications' Languages"
-          Link="/Content/Usercube/integration-guide/notifications/how-tos/set-language/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/notifications/how-tos/index.html">
+          <TocEntry
+            Title="Customize a Native Notification"
+            Link="/Content/Usercube/integration-guide/notifications/how-tos/customize-native-notification/index.html" />
+          <TocEntry
+            Title="Set Notifications' Languages"
+            Link="/Content/Usercube/integration-guide/notifications/how-tos/set-language/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Workflows"
@@ -823,8 +841,12 @@
         Title="Monitoring"
         Link="/Content/Usercube/integration-guide/monitoring/index.html">
         <TocEntry
-          Title="Export Logs to a Log Management System"
-          Link="/Content/Usercube/integration-guide/monitoring/how-tos/qradar-setting/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/monitoring/how-tos/index.html">
+          <TocEntry
+            Title="Export Logs to a Log Management System"
+            Link="/Content/Usercube/integration-guide/monitoring/how-tos/qradar-setting/index.html" />
+        </TocEntry>
         <TocEntry
           Title="References: Logs"
           Link="/Content/Usercube/integration-guide/monitoring/references/index.html" />
@@ -833,20 +855,24 @@
         Title="User Interface"
         Link="/Content/Usercube/integration-guide/ui/index.html">
         <TocEntry
-          Title="Import Product Translations into Integration Manager"
-          Link="/Content/Usercube/integration-guide/ui/how-tos/producttranslations/index.html" />
-        <TocEntry
-          Title="Create Menu Items"
-          Link="/Content/Usercube/integration-guide/ui/how-tos/create-menu-items/index.html" />
-        <TocEntry
-          Title="Customize Display Tables"
-          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-display-table/index.html" />
-        <TocEntry
-          Title="Customize Search Bars"
-          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-search-bar/index.html" />
-        <TocEntry
-          Title="Customize Forms"
-          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-forms/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/index.html">
+          <TocEntry
+            Title="Import Product Translations into Usercube"
+            Link="/Content/Usercube/integration-guide/ui/how-tos/producttranslations/index.html" />
+          <TocEntry
+            Title="Create Menu Items"
+            Link="/Content/Usercube/integration-guide/ui/how-tos/create-menu-items/index.html" />
+          <TocEntry
+            Title="Customize Display Tables"
+            Link="/Content/Usercube/integration-guide/ui/how-tos/custom-display-table/index.html" />
+          <TocEntry
+            Title="Customize Search Bars"
+            Link="/Content/Usercube/integration-guide/ui/how-tos/custom-search-bar/index.html" />
+          <TocEntry
+            Title="Customize Forms"
+            Link="/Content/Usercube/integration-guide/ui/how-tos/custom-forms/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="API"
@@ -861,8 +887,71 @@
           Title="Pagination"
           Link="/Content/Usercube/integration-guide/api/pagination/index.html" />
         <TocEntry
-          Title="Request API's via Postman"
-          Link="/Content/Usercube/integration-guide/api/how-tos/request-postman/index.html" />
+          Title="Server API"
+          Link="/Content/Usercube/integration-guide/api/server/index.html">
+          <TocEntry
+            Title="AccessCertification"
+            Link="/Content/Usercube/integration-guide/api/server/accesscertification/index.html" />
+          <TocEntry
+            Title="AccessControl"
+            Link="/Content/Usercube/integration-guide/api/server/accesscontrol/index.html" />
+          <TocEntry
+            Title="Connectors"
+            Link="/Content/Usercube/integration-guide/api/server/connectors/index.html" />
+          <TocEntry
+            Title="Files"
+            Link="/Content/Usercube/integration-guide/api/server/files/index.html" />
+          <TocEntry
+            Title="Job"
+            Link="/Content/Usercube/integration-guide/api/server/job/index.html" />
+          <TocEntry
+            Title="Metadata"
+            Link="/Content/Usercube/integration-guide/api/server/metadata/index.html" />
+          <TocEntry
+            Title="ProvisioningEntityInstance"
+            Link="/Content/Usercube/integration-guide/api/server/provisioningentityinstance/index.html" />
+          <TocEntry
+            Title="ProvisioningPolicy"
+            Link="/Content/Usercube/integration-guide/api/server/provisioningpolicy/index.html" />
+          <TocEntry
+            Title="Report"
+            Link="/Content/Usercube/integration-guide/api/server/report/index.html" />
+          <TocEntry
+            Title="Resource"
+            Link="/Content/Usercube/integration-guide/api/server/resource/index.html" />
+          <TocEntry
+            Title="ResourceChange"
+            Link="/Content/Usercube/integration-guide/api/server/resourcechange/index.html" />
+          <TocEntry
+            Title="ResourceFileChange"
+            Link="/Content/Usercube/integration-guide/api/server/resourcefilechange/index.html" />
+          <TocEntry
+            Title="ResourceLink"
+            Link="/Content/Usercube/integration-guide/api/server/resourcelink/index.html" />
+          <TocEntry
+            Title="ResourceLinkChange"
+            Link="/Content/Usercube/integration-guide/api/server/resourcelinkchange/index.html" />
+          <TocEntry
+            Title="Universes"
+            Link="/Content/Usercube/integration-guide/api/server/universes/index.html" />
+          <TocEntry
+            Title="Workflows"
+            Link="/Content/Usercube/integration-guide/api/server/workflows/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Agent API"
+          Link="/Content/Usercube/integration-guide/api/agent/index.html">
+          <TocEntry
+            Title="Job"
+            Link="/Content/Usercube/integration-guide/api/agent/job/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/api/how-tos/index.html">
+          <TocEntry
+            Title="Request Usercube's API via Postman"
+            Link="/Content/Usercube/integration-guide/api/how-tos/request-postman/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Executables"
@@ -988,9 +1077,6 @@
           <TocEntry
             Title="Usercube-Upgrade-DatabaseVersion"
             Link="/Content/Usercube/integration-guide/executables/references/upgrade-databaseversion/index.html" />
-          <TocEntry
-            Title="Usercube-Check-ExpressionsConsistency"
-            Link="/Content/Usercube/integration-guide/executables/references/check-expressionsConsistency/index.htm" />
         </TocEntry>
       </TocEntry>
       <TocEntry
@@ -1003,26 +1089,30 @@
           Title="Jobs"
           Link="/Content/Usercube/integration-guide/tasks-jobs/jobs/index.html" />
         <TocEntry
-          Title="Build Efficient Jobs"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.html" />
-        <TocEntry
-          Title="Configure Jobs"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-jobs/index.html" />
-        <TocEntry
-          Title="Troubleshoot Connector Jobs"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.html" />
-        <TocEntry
-          Title="Configure an Incremental Job"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.html" />
-        <TocEntry
-          Title="Set up Complete Synchronization"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobdaily/index.html" />
-        <TocEntry
-          Title="Set Up Incremental Synchronization"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.html" />
-        <TocEntry
-          Title="Configure the Fulfill Task for a Connector"
-          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/fulfillldap/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/index.html">
+          <TocEntry
+            Title="Build Efficient Jobs"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.html" />
+          <TocEntry
+            Title="Configure Jobs"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-jobs/index.html" />
+          <TocEntry
+            Title="Troubleshoot Connector Jobs"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.html" />
+          <TocEntry
+            Title="Configure an Incremental Job"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.html" />
+          <TocEntry
+            Title="Set up Complete Synchronization"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobdaily/index.html" />
+          <TocEntry
+            Title="Set Up Incremental Synchronization"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.html" />
+          <TocEntry
+            Title="Configure the Fulfill Task for a Connector"
+            Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/fulfillldap/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Profiles &amp; Permissions"
@@ -1031,11 +1121,15 @@
           Title="References: Permissions"
           Link="/Content/Usercube/integration-guide/profiles-permissions/permissions/index.html" />
         <TocEntry
-          Title="Create and Assign Profiles"
-          Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/create-assign-profiles/index.html" />
-        <TocEntry
-          Title="Restrict Users' Rights"
-          Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/rightsrestriction/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/index.html">
+          <TocEntry
+            Title="Create and Assign Profiles"
+            Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/create-assign-profiles/index.html" />
+          <TocEntry
+            Title="Restrict Users' Rights"
+            Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/rightsrestriction/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Toolkit for XML Configuration"
@@ -1118,8 +1212,8 @@
               Title="ResourceTypeMappings"
               Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.html">
               <TocEntry
-                Title="MicrosoftEntraIDResourceTypeMapping"
-                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/microsoftentraidresourcetypemapping/index.html" />
+                Title="AzureADResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/azureadresourcetypemapping/index.html" />
               <TocEntry
                 Title="EasyVistaResourceTypeMapping"
                 Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/easyvistaresourcetypemapping/index.html" />
@@ -1936,18 +2030,22 @@
               Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.html" />
             <TocEntry
               Title="Workflow"
-              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.html"></TocEntry>
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.html" />
           </TocEntry>
         </TocEntry>
         <TocEntry
-          Title="Deploy the Configuration"
-          Link="/Content/Usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.html" />
-        <TocEntry
-          Title="Export the Configuration"
-          Link="/Content/Usercube/integration-guide/toolkit/how-tos/export-configuration/index.html" />
-        <TocEntry
-          Title="Adjust Scaffolded Configuration"
-          Link="/Content/Usercube/integration-guide/toolkit/how-tos/adjust-scaffoldings/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/toolkit/how-tos/index.html">
+          <TocEntry
+            Title="Deploy the Configuration"
+            Link="/Content/Usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.html" />
+          <TocEntry
+            Title="Export the Configuration"
+            Link="/Content/Usercube/integration-guide/toolkit/how-tos/export-configuration/index.html" />
+          <TocEntry
+            Title="Adjust Scaffolded Configuration"
+            Link="/Content/Usercube/integration-guide/toolkit/how-tos/adjust-scaffoldings/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Architecture"
@@ -1959,8 +2057,12 @@
           Title="On-Premises Environment"
           Link="/Content/Usercube/integration-guide/architecture/on-prem/index.html" />
         <TocEntry
-          Title="Protect Agent/Server Communication"
-          Link="/Content/Usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/architecture/how-tos/index.html">
+          <TocEntry
+            Title="Protect Agent/Server Communication"
+            Link="/Content/Usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Network Configuration"
@@ -2017,8 +2119,12 @@
           Title="Various XML Settings"
           Link="/Content/Usercube/integration-guide/network-configuration/settings/index.html" />
         <TocEntry
-          Title="Configure Okta"
-          Link="/Content/Usercube/integration-guide/network-configuration/how-tos/okta/index.html" />
+          Title="How Tos"
+          Link="/Content/Usercube/integration-guide/network-configuration/how-tos/index.html">
+          <TocEntry
+            Title="Configure Okta for Usercube Authentication"
+            Link="/Content/Usercube/integration-guide/network-configuration/how-tos/okta/index.html" />
+        </TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -2071,9 +2177,33 @@
     </TocEntry>
     <TocEntry
       Title="Migration Guide"
-      Link="/Content/Usercube/migration-guide/index.html"></TocEntry>
+      Link="/Content/Usercube/migration-guide/index.html">
+      <TocEntry
+        Title="5.2.X to 6.0"
+        Link="/Content/Usercube/migration-guide/5.2.xto6.0/index.html" />
+      <TocEntry
+        Title="5.1.7 to 5.2.3"
+        Link="/Content/Usercube/migration-guide/5.1.7to5.2.3/index.html" />
+      <TocEntry
+        Title="5.1.1 To 5.1.7"
+        Link="/Content/Usercube/migration-guide/5.1.1to5.1.7/index.html" />
+      <TocEntry
+        Title="5.1.0 to 5.1.1"
+        Link="/Content/Usercube/migration-guide/5.1.0to5.1.1/index.html" />
+      <TocEntry
+        Title="5.0.X to 5.1"
+        Link="/Content/Usercube/migration-guide/5.0.x-to-5.1/index.html">
+        <TocEntry
+          Title="New Task Name Convention"
+          Link="/Content/Usercube/migration-guide/5.0.x-to-5.1/newtaskconvention/index.html" />
+      </TocEntry>
+    </TocEntry>
     <TocEntry
       Title="What's New"
-      Link="/Content/Usercube/whatsnew/index.html"></TocEntry>
+      Link="/Content/Usercube/whatsnew/index.html">
+      <TocEntry
+        Title="Usercube v5.x Release Notes"
+        Link="/Content/Usercube/whatsnew/olderversions/index.html" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>

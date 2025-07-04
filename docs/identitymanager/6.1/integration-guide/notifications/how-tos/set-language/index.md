@@ -1,3 +1,9 @@
+---
+title: "Set Notifications' Languages"
+description: "Set Notifications' Languages"
+sidebar_position: 20
+---
+
 # Set Notifications' Languages
 
 This guide shows how to set the language for all notifications.

@@ -1,3 +1,9 @@
+---
+title: "Interact with a Web Page via Robot Framework"
+description: "Interact with a Web Page via Robot Framework"
+sidebar_position: 110
+---
+
 # Interact with a Web Page via Robot Framework
 
 This guide explains how to write a Robot Framework script that interacts with a web based external

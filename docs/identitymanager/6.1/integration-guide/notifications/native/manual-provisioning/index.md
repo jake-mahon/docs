@@ -1,3 +1,9 @@
+---
+title: "Manual Provisioning"
+description: "Manual Provisioning"
+sidebar_position: 30
+---
+
 # Manual Provisioning
 
 Usercube natively sends notifications concerning manual provisioning.

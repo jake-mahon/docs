@@ -1,3 +1,9 @@
+---
+title: "SetInternalUserProfilesTask"
+description: "SetInternalUserProfilesTask"
+sidebar_position: 200
+---
+
 # SetInternalUserProfilesTask
 
 Will execute the profile rules of the different resource types given in parameters to create, modify

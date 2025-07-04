@@ -1,3 +1,9 @@
+---
+title: "Slack"
+description: "Slack"
+sidebar_position: 420
+---
+
 # Slack
 
 Manages Slack entities.

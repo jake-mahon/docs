@@ -1,3 +1,9 @@
+---
+title: "Server API"
+description: "Server API"
+sidebar_position: 40
+---
+
 # Server API
 
 - #### [AccessCertification](/docs/identitymanager/6.1/integration-guide/api/server/accesscertification/index.md)

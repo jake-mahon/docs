@@ -1,3 +1,9 @@
+---
+title: "ComputeRoleModelTask"
+description: "ComputeRoleModelTask"
+sidebar_position: 40
+---
+
 # ComputeRoleModelTask
 
 This task applies all rules in the role model of all

@@ -1,3 +1,9 @@
+---
+title: "WorkflowAccessControlRules"
+description: "WorkflowAccessControlRules"
+sidebar_position: 30
+---
+
 # WorkflowAccessControlRules
 
 Generates the rights to access the task page and visualize the different workflows to be executed

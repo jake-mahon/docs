@@ -1,3 +1,9 @@
+---
+title: "References: Permissions"
+description: "References: Permissions"
+sidebar_position: 10
+---
+
 # References: Permissions
 
 ### /AccessCertification/AccessCertificationCampaign/Create
