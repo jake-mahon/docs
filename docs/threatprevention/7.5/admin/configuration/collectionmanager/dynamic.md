@@ -1,3 +1,9 @@
+---
+title: "Dynamic Collections"
+description: "Dynamic Collections"
+sidebar_position: 20
+---
+
 # Dynamic Collections
 
 Certain options in the upper-left corner of the

@@ -1,0 +1,10 @@
+{
+  "label": "Netwrix Threat Prevention v7.5 Documentation",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

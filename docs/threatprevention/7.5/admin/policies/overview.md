@@ -1,3 +1,9 @@
+---
+title: "Policies Interface"
+description: "Policies Interface"
+sidebar_position: 80
+---
+
 # Policies Interface
 
 The Policies interface lists all policies that you have defined in Threat Prevention.
@@ -38,7 +44,7 @@ organizing policies. A user with administrator rights can apply protection on a 
 
 ![Enabled and Disabled Policies in the Navogation pane](/img/product_docs/threatprevention/7.5/admin/policies/enableddisabledpolicies.webp)
 
-See the [Policy Configuration](/docs/threatprevention/7.5/admin/policies/configuration.md) topic for additional information on creating
+See the [Policy Configuration](/docs/threatprevention/7.5/admin/policies/configuration/configuration.md) topic for additional information on creating
 policies.
 
 ## Right-Click Menu

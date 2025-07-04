@@ -1,3 +1,9 @@
+---
+title: "Application Permissions for Entra ID Sync"
+description: "Application Permissions for Entra ID Sync"
+sidebar_position: 20
+---
+
 # Application Permissions for Entra ID Sync
 
 The following permissions are required for the credential used by Threat Manager for Microsoft Entra

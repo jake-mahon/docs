@@ -1,10 +1,7 @@
 ---
-id: using-group-managed-service-account-gmsa
 title: "Using Group Managed Service Account (gMSA)"
-pagination_label: "Using Group Managed Service Account (gMSA)"
-sidebar_label: "Using Group Managed Service Account (gMSA)"
-sidebar_position: 62
-description: "Learn how to use Group Managed Service Accounts for simplified data collection and storage administration."
+description: "Using Group Managed Service Account (gMSA)"
+sidebar_position: 80
 ---
 
 # Using Group Managed Service Account (gMSA)
@@ -97,4 +94,4 @@ To create a new gMSA in the root domain using PowerShell:
       ended with $, here __NCASrv$\_\_
 
 To learn about the data collecting account, which collects data from the monitored items, go
-to [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount.md) article.
+to [Data Collecting Account](/docs/1secure/admin/datacollection/overview.md) article.

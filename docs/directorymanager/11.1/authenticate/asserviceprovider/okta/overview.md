@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for Directory Manager using Okta"
+description: "SAML Configuration for Directory Manager using Okta"
+sidebar_position: 30
+---
+
 # SAML Configuration for Directory Manager using Okta
 
 Okta provides secure identity management and single sign-on to any application, whether in the

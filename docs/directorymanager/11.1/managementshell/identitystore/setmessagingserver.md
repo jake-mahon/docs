@@ -1,3 +1,9 @@
+---
+title: "Set-MessagingServer"
+description: "Set-MessagingServer"
+sidebar_position: 180
+---
+
 # Set-MessagingServer
 
 The commandlet Set-MessagingServer configures a messaging system in identity store. The SmtpServer

@@ -1,3 +1,9 @@
+---
+title: "Agents"
+description: "Agents"
+sidebar_position: 30
+---
+
 # Agents
 
 The Agents Overview reports which Threat Prevention agents have successfully sent events to Threat

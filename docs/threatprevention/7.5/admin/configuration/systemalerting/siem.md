@@ -1,3 +1,9 @@
+---
+title: "SIEM Tab"
+description: "SIEM Tab"
+sidebar_position: 30
+---
+
 # SIEM Tab
 
 Alert notification via SIEM sends event notifications to a SIEM product using UDP or TCP protocol.
@@ -124,8 +130,8 @@ mapping file formats are specifically designed for Analytics incidents.
 **Step 11 –** Click **OK** to save the settings.
 
 Once a SIEM server is configured, assign it to events using the System Alerting window’s SIEM Tab or
-the [Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) of a policy or the
-[Actions Tab](/docs/threatprevention/7.5/admin/templates/actions.md) of a policy template.
+the [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) of a policy or the
+[Actions Tab](/docs/threatprevention/7.5/admin/templates/configuration/actions.md) of a policy template.
 
 IBM QRadar Integration
 
@@ -139,8 +145,8 @@ for additional information.
 Splunk Integration
 
 Netwrix has created custom apps for integration between Threat Prevention and Splunk. See the
-[Active Directory App for Splunk](/docs/threatprevention/7.5/siemdashboard/splunk/activedirectory/overview.md) topic
-and the [Threat Hunting App for Splunk](/docs/threatprevention/7.5/siemdashboard/splunk/threathunting/overview.md)
+[Active Directory App for Splunk](/docs/threatprevention/7.5/siemdashboard/activedirectory/overview.md) topic
+and the [Threat Hunting App for Splunk](/docs/threatprevention/7.5/siemdashboard/threathunting/overview.md)
 topic for additional information. There is also a custom app for File Activity, that can receive
 data from either Threat Prevention or Netwrix Activity Monitor. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)

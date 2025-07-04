@@ -1,10 +1,7 @@
 ---
-id: add-a-source-and-connectors-for-active-directory
 title: "Add a Source and Connectors for Active Directory"
-pagination_label: "Add a Source and Connectors for Active Directory"
-sidebar_label: "Add a Source and Connectors for Active Directory"
-sidebar_position: 41
-description: "Step-by-step guide to add Active Directory data sources and connectors to your organization."
+description: "Add a Source and Connectors for Active Directory"
+sidebar_position: 10
 ---
 
 # Add a Source and Connectors for Active Directory
@@ -102,7 +99,7 @@ Directory. Specufy the following:
 - Adjust audit settings automatically – Select this checkbox to adjust the audit settings
   automatically. With this approach, 1Secure will check your current audit settings at each data
   collection session and adjust them if necessary. See the
-  [Active Directory: automatic configuration](/docs/1secure/configuration/activedirectory/auto.md) topic for
+  [Active Directory: automatic configuration](/docs/1secure/configuration/admanual/auto.md) topic for
   additional information.
 
 **Step 11 –** Click **Finish**.

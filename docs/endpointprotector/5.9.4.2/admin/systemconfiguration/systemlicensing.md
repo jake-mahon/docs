@@ -1,3 +1,9 @@
+---
+title: "System Licensing"
+description: "System Licensing"
+sidebar_position: 40
+---
+
 # System Licensing
 
 This section provides a complete overview of your licensing status and allows you to manage licenses

@@ -1,3 +1,9 @@
+---
+title: "Policies Page"
+description: "Policies Page"
+sidebar_position: 40
+---
+
 # Policies Page
 
 The Policies Page provides an overview of the policies added to the Policies box and their
@@ -18,7 +24,7 @@ The Deployment History table displays the following information:
 
 - Created – When the policy was applied to a host
 - Host – The host on which the policy was applied. If the host exists in the Threat Manager
-  database, click on the host link to go to the [Host Details Page](/docs/threatmanager/3.0/administration/threatdetails/host.md)
+  database, click on the host link to go to the [Host Details Page](/docs/threatmanager/3.0/administration/threats/activedirectoryobjects/host.md)
 - User Name – The user account associated with the policy. (In the case of a Honeytoken policy, the
   user account created by the Honeytoken policy.)
 - Policy – The policy name. Click on the policy link to go to the Configuration tab for that policy.

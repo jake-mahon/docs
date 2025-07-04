@@ -1,3 +1,9 @@
+---
+title: "Netwrix Threat Manager APIs"
+description: "Netwrix Threat Manager APIs"
+sidebar_position: 50
+---
+
 # Netwrix Threat Manager APIs
 
 The following APIs are related to where Threat Prevention sends the event data to, and how to

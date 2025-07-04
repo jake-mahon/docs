@@ -1,3 +1,9 @@
+---
+title: "New-SmartGroup"
+description: "New-SmartGroup"
+sidebar_position: 30
+---
+
 # New-SmartGroup
 
 This commandlet helps you to create a new Smart Group (managed group) in Directory. A Smart Group is

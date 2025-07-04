@@ -1,0 +1,10 @@
+{
+  "label": "SAML Configuration for Directory Manager using PingOne",
+  "position": 50,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

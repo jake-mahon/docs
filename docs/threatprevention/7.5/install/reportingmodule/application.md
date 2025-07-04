@@ -1,3 +1,9 @@
+---
+title: "Install the Netwrix Threat Manager Reporting Module"
+description: "Install the Netwrix Threat Manager Reporting Module"
+sidebar_position: 20
+---
+
 # Install the Netwrix Threat Manager Reporting Module
 
 The application can be installed on the same server as the PostgreSQL databases or a different

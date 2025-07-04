@@ -1,3 +1,9 @@
+---
+title: "Predefined Investigations Page"
+description: "Predefined Investigations Page"
+sidebar_position: 60
+---
+
 # Predefined Investigations Page
 
 The Predefined Investigations page in the Investigations interface provides a list of saved

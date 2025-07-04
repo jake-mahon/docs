@@ -1,3 +1,9 @@
+---
+title: "Get-AvailableMessagingServers"
+description: "Get-AvailableMessagingServers"
+sidebar_position: 40
+---
+
 # Get-AvailableMessagingServers
 
 The commandlet Get-AvailableMessagingServers retrieves the messaging server(s) available for the

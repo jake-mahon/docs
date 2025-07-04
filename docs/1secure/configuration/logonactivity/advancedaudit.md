@@ -1,10 +1,7 @@
 ---
-id: configure-advanced-audit-policies
 title: "Configure Advanced Audit Policies"
-pagination_label: "Configure Advanced Audit Policies"
-sidebar_label: "Configure Advanced Audit Policies"
-sidebar_position: 121
-description: "Learn how to configure advanced audit policies for more granular Logon Activity change tracking."
+description: "Configure Advanced Audit Policies"
+sidebar_position: 10
 ---
 
 # Configure Advanced Audit Policies

@@ -1,3 +1,9 @@
+---
+title: "Filters Section"
+description: "Filters Section"
+sidebar_position: 10
+---
+
 # Filters Section
 
 The Filters section provides options to build a filter statement by selecting the Attribute,
@@ -216,4 +222,4 @@ Once the filter is set, you can generate the report ad hoc by clicking **Run Que
 to test if your filter statement is working as desired. Save the investigation for reuse. You can
 also add subscriptions or export the report data using the options above the Filters section.
 
-See the [Investigation Reports](/docs/threatprevention/7.5/reportingmodule/investigations/reports.md) topic for additional information.
+See the [Investigation Reports](/docs/threatprevention/7.5/reportingmodule/investigations/reports/reports.md) topic for additional information.

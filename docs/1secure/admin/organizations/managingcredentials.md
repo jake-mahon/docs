@@ -1,10 +1,7 @@
 ---
-id: manage-credentials
 title: "Manage Credentials"
-pagination_label: "Manage Credentials"
-sidebar_label: "Manage Credentials"
-sidebar_position: 36
-description: "Learn how to set up, review, edit, and delete credentials for data source connections."
+description: "Manage Credentials"
+sidebar_position: 90
 ---
 
 # Manage Credentials

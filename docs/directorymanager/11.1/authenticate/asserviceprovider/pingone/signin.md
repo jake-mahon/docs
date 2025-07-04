@@ -1,3 +1,9 @@
+---
+title: "Sign In Using PingOne"
+description: "Sign In Using PingOne"
+sidebar_position: 30
+---
+
 # Sign In Using PingOne
 
 We configured PingOne with a Directory Manager client, that is the Directory Manager portal _Wizard_

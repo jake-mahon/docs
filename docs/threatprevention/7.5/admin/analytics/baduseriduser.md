@@ -1,3 +1,9 @@
+---
+title: "Bad User ID (by User) Analytic Type"
+description: "Bad User ID (by User) Analytic Type"
+sidebar_position: 20
+---
+
 # Bad User ID (by User) Analytic Type
 
 The **Bad User ID (by user)** analytic type identifies pre-authentication failures due to using
@@ -59,12 +65,12 @@ Policy Tab
 
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/general.md) is
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/configuration/general.md) is
   configured. The only exception is that the Name and Description are hard coded, and cannot be
   modified. The Tags field is disabled for analytics.
 - Event Type tab – Configured the same way a regular policy’s
-  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/eventtype/overview.md) is configured. The only exception is that the
-  [Authentication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/authenticationmonitoring.md) is hard
+  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/overview.md) is configured. The only exception is that the
+  [Authentication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/authenticationmonitoring.md) is hard
   coded, and the Success filter cannot be modified. Additionally, there is no AD Perpetrator filter.
 
   - *Optional:* Scope the protocol to be monitored on the Authentication Protocol filter. If
@@ -85,7 +91,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     filter values.
 
 - Actions tab – Configured the same way a regular policy’s
-  [Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) is configured. The only exceptions are that the
+  [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
   “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by
   analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to
   SIEM” option, use _caution_, as this will send all event data not the triggered incident, which
@@ -101,7 +107,7 @@ incidences are grouped per unique bad user name.
 ![Bad User ID (by User) Analytic Type  window](/img/product_docs/threatprevention/7.5/admin/analytics/baduseriduser.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
-[Event Tracker Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventtracker.md) topic for additional information.
+[Event Tracker Window](/docs/threatprevention/7.5/admin/policies/configuration/recentevents/eventtracker.md) topic for additional information.
 
 The top data grid includes the following information for each incident:
 

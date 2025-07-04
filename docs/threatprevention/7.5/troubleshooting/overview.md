@@ -1,3 +1,9 @@
+---
+title: "Best Practices and Troubleshooting"
+description: "Best Practices and Troubleshooting"
+sidebar_position: 60
+---
+
 # Best Practices and Troubleshooting
 
 This topic provides general best practices and basic troubleshooting that you should take into
@@ -69,7 +75,7 @@ Threat Prevention sends the _LSASS process terminated_ alert when the LSASS proc
 after a reboot. The Agent stops and all monitoring/blocking by that Agent stops. To resolve the
 issue, either upgrade to the latest version of the Agent or simply upgrade
 SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
-[Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)topic for additional information.
+[Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md)topic for additional information.
 
 **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See the
 [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)

@@ -1,3 +1,9 @@
+---
+title: "File Shadow Repository"
+description: "File Shadow Repository"
+sidebar_position: 20
+---
+
 # File Shadow Repository
 
 From this section, you can enable the Endpoint Protector Client to send File Shadows directly and at

@@ -1,3 +1,9 @@
+---
+title: "Configuration Menu"
+description: "Configuration Menu"
+sidebar_position: 10
+---
+
 # Configuration Menu
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.
@@ -13,4 +19,4 @@ It contains the following options:
   application server. See the [System Health Interface](/docs/threatprevention/7.5/reportingmodule/configuration/systemhealth.md) topic for additional
   information.
 - System Settings – Provides access to system logs, user access controls, licensing, and more. See
-  the [System Settings Interface](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/interface.md) topic for additional information.
+  the [System Settings Interface](/docs/threatprevention/7.5/reportingmodule/configuration/interface/interface.md) topic for additional information.

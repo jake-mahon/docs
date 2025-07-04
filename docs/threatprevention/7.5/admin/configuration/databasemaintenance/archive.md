@@ -1,3 +1,9 @@
+---
+title: "Archive Data"
+description: "Archive Data"
+sidebar_position: 20
+---
+
 # Archive Data
 
 To use the Move operation on the [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md), you must specify a

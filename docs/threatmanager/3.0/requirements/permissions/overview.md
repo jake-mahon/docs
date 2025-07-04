@@ -1,3 +1,9 @@
+---
+title: "Overview"
+description: "Overview"
+sidebar_position: 60
+---
+
 # Overview
 
 To sync Active Directory domain(s) and Microsoft Entra ID tenant(s) in Threat Manager you must use

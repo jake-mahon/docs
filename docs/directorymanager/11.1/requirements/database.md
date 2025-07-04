@@ -1,3 +1,9 @@
+---
+title: "Database Requirements"
+description: "Database Requirements"
+sidebar_position: 40
+---
+
 # Database Requirements
 
 Directory Manager requires an SQL Server database to store and retrieve data. The SQL database may

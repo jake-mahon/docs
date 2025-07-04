@@ -1,10 +1,7 @@
 ---
-id: configure-basic-domain-audit-policies
 title: "Configure Basic Domain Audit Policies"
-pagination_label: "Configure Basic Domain Audit Policies"
-sidebar_label: "Configure Basic Domain Audit Policies"
-sidebar_position: 122
-description: "Learn how to configure basic domain audit policies for tracking user account changes and identifying originating workstations."
+description: "Configure Basic Domain Audit Policies"
+sidebar_position: 20
 ---
 
 # Configure Basic Domain Audit Policies

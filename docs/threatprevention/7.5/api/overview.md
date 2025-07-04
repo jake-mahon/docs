@@ -1,3 +1,9 @@
+---
+title: "PowerShell API Integration"
+description: "PowerShell API Integration"
+sidebar_position: 50
+---
+
 # PowerShell API Integration
 
 Using PowerShell, you can obtain information on or manipulate specific policy, collection, and

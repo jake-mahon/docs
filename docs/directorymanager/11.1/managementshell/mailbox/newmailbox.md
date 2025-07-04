@@ -1,3 +1,9 @@
+---
+title: "New-Mailbox"
+description: "New-Mailbox"
+sidebar_position: 20
+---
+
 # New-Mailbox
 
 Use the New-Mailbox commandlet to create a new mailbox in Directory. Most mailbox properties can be

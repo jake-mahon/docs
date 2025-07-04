@@ -1,10 +1,7 @@
 ---
-id: apply-filters
 title: "Apply Filters"
-pagination_label: "Apply Filters"
-sidebar_label: "Apply Filters"
-sidebar_position: 49
-description: "Learn how to use filters to narrow search results and create custom filter combinations for precise reporting."
+description: "Apply Filters"
+sidebar_position: 90
 ---
 
 # Apply Filters
@@ -24,7 +21,7 @@ reports with the predefined filters. To create a unique set of filters, you can:
 
 **NOTE:** All reports on the **Reports** > **Activity** tab are associated with the respective
 alerts. Click the **Alerts Timeline Dashboard** in the upper left corner of the page to view the
-alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/index.md) topic for additional
+alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional
 information.
 
 | Icon                                                                                                | Description                                                          |

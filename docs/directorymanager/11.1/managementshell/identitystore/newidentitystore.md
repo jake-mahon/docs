@@ -1,3 +1,9 @@
+---
+title: "New-IdentityStore"
+description: "New-IdentityStore"
+sidebar_position: 130
+---
+
 # New-IdentityStore
 
 The commandlet New-IdentityStore creates a new identity store. This commandlet requires valid

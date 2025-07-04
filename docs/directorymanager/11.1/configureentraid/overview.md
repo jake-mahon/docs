@@ -1,3 +1,9 @@
+---
+title: "Configure Directory Manager in Microsoft Entra ID"
+description: "Configure Directory Manager in Microsoft Entra ID"
+sidebar_position: 90
+---
+
 # Configure Directory Manager in Microsoft Entra ID
 
 In Directory Manager, you can create an identity store for an identity provider and perform

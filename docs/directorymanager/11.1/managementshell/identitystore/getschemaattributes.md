@@ -1,3 +1,9 @@
+---
+title: "Get-SchemaAttributes"
+description: "Get-SchemaAttributes"
+sidebar_position: 100
+---
+
 # Get-SchemaAttributes
 
 The commandlet Get-SchemaAttribute enables you to retrieve comprehensive list of schema attributes

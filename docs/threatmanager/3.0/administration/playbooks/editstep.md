@@ -1,3 +1,9 @@
+---
+title: "Edit or Delete a Playbook Step"
+description: "Edit or Delete a Playbook Step"
+sidebar_position: 10
+---
+
 # Edit or Delete a Playbook Step
 
 Follow the steps to edit a playbook step.

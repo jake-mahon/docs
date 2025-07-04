@@ -1,3 +1,9 @@
+---
+title: "User Lifecycle Commands"
+description: "User Lifecycle Commands"
+sidebar_position: 160
+---
+
 # User Lifecycle Commands
 
 This section covers the cmdlets for performing user lifecycle tasks such as:

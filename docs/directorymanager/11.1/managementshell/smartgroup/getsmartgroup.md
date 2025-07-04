@@ -1,3 +1,9 @@
+---
+title: "Get-SmartGroup"
+description: "Get-SmartGroup"
+sidebar_position: 20
+---
+
 # Get-SmartGroup
 
 Use this commandlet to retrieve Smart Groups and Dynasties that match your given criteria in one or

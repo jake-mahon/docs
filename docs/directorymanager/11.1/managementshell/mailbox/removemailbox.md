@@ -1,3 +1,9 @@
+---
+title: "Remove-Mailbox"
+description: "Remove-Mailbox"
+sidebar_position: 30
+---
+
 # Remove-Mailbox
 
 Use the Remove-Mailbox commandlet to delete mailbox from the connected identifty store.

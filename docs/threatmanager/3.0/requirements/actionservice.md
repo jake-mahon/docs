@@ -1,3 +1,9 @@
+---
+title: "Action Service Requirements"
+description: "Action Service Requirements"
+sidebar_position: 40
+---
+
 # Action Service Requirements
 
 The Action Service can be installed on additional servers.

@@ -1,3 +1,9 @@
+---
+title: "Set-User"
+description: "Set-User"
+sidebar_position: 50
+---
+
 # Set-User
 
 The Set-User commandlet modifies a user in Directory. Most user properties can be directly modified

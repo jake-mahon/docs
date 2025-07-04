@@ -1,10 +1,7 @@
 ---
-id: enable-remote-registry-service
 title: "Enable Remote Registry Service"
-pagination_label: "Enable Remote Registry Service"
-sidebar_label: "Enable Remote Registry Service"
-sidebar_position: 138
-description: "Learn how to enable the Remote Registry service for proper system monitoring and data collection."
+description: "Enable Remote Registry Service"
+sidebar_position: 60
 ---
 
 # Enable Remote Registry Service

@@ -1,3 +1,9 @@
+---
+title: "Directory Manager Management Shell"
+description: "Directory Manager Management Shell"
+sidebar_position: 110
+---
+
 # Directory Manager Management Shell
 
 Directory Manager Management Shell is a command-line interface for managing objects like users,

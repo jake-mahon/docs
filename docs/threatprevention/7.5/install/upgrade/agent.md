@@ -1,3 +1,9 @@
+---
+title: "Upgrade Agent"
+description: "Upgrade Agent"
+sidebar_position: 20
+---
+
 # Upgrade Agent
 
 The Threat Prevention Agent is updated from the Agents interface.
@@ -20,7 +26,7 @@ Follow the steps to upgrade a deployed Agent.
 
 **Step 2 –** On the [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md), select the desired
 server/Agent in the grid and on the top toolbar, select **Update Agent Installer**. The
-[Agent Installer Update Window](/docs/threatprevention/7.5/admin/agents/window/agentinstallerupdate.md) opens.
+[Agent Installer Update Window](/docs/threatprevention/7.5/admin/agents/agents-windows/agentinstallerupdate.md) opens.
 
 **Step 3 –** On the Agent Installer Update window, click **Check for Newer Version of the Netwrix
 Threat Prevention Agent**. The green bar indicates the progress of checking the Agent for a newer

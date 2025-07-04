@@ -1,12 +1,3 @@
----
-id: 1secure
-title: "1Secure"
-pagination_label: "1Secure"
-sidebar_label: "1Secure"
-sidebar_position: 1
-description: "Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single location to manage both on-premises and cloud environments."
----
-
 # 1Secure
 
 Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single
@@ -97,7 +88,7 @@ environment. The time frame for a change may be within a minute up to several ho
 environment size.
 
 You can also review the agent status while adding the organization. See the
-[Manage Organizations](/docs/1secure/admin/organizations) topic for more information.
+[Manage Organizations](/docs/1secure/admin/organizations/overview.md) topic for more information.
 
 ### Updating Netwrix Cloud Agent
 

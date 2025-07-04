@@ -1,3 +1,9 @@
+---
+title: "QIDmap Information for QRadar SIEM Integration"
+description: "QIDmap Information for QRadar SIEM Integration"
+sidebar_position: 30
+---
+
 # QIDmap Information for QRadar SIEM Integration
 
 Vendors have the ability to create what is called a QIDmap. The purpose of the mapping file is to

@@ -1,3 +1,9 @@
+---
+title: "Get-Client"
+description: "Get-Client"
+sidebar_position: 50
+---
+
 # Get-Client
 
 The commandlet Get-Client gets information about the Directory Manager clients such as Admin center,

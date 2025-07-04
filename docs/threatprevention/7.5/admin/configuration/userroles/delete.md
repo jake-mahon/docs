@@ -1,3 +1,9 @@
+---
+title: "Delete User"
+description: "Delete User"
+sidebar_position: 30
+---
+
 # Delete User
 
 The Administration Console prevents you from deleting the last user with Administrator rights. There

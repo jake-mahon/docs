@@ -1,10 +1,7 @@
 ---
-id: microsoft-entra-id-auditing
 title: "Microsoft Entra ID Auditing"
-pagination_label: "Microsoft Entra ID Auditing"
-sidebar_label: "Microsoft Entra ID Auditing"
-sidebar_position: 60
-description: "Learn how to configure Microsoft Entra ID auditing for Office 365 organizations with modern authentication."
+description: "Microsoft Entra ID Auditing"
+sidebar_position: 20
 ---
 
 # Microsoft Entra ID Auditing
@@ -24,5 +21,5 @@ settings to Netwrix 1Secure when configuring a monitored item.
 
 Support for modern authentication will allow you to audit the organizations where MFA is enabled for
 all users, including service accounts. See the
-[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/registerconfig/registerconfig.md)
 topic for additional information.

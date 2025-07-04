@@ -1,3 +1,9 @@
+---
+title: "LSASS Process Terminated"
+description: "LSASS Process Terminated"
+sidebar_position: 30
+---
+
 # LSASS Process Terminated
 
 To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the

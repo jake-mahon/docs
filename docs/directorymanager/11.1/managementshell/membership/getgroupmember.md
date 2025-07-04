@@ -1,3 +1,9 @@
+---
+title: "Get-GroupMember"
+description: "Get-GroupMember"
+sidebar_position: 20
+---
+
 # Get-GroupMember
 
 Use this commandlet to retrieve members of a particular group from directory. You can apply filters
@@ -24,7 +30,7 @@ Example 1:
 
 The following command retrieves all members of the Password_Expiry group using the credentials set
 in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

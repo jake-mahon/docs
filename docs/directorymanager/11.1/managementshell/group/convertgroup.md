@@ -1,3 +1,9 @@
+---
+title: "Convert-Group"
+description: "Convert-Group"
+sidebar_position: 10
+---
+
 # Convert-Group
 
 The Convert-Group commandlet converts an unmanaged group to a Smart Group.

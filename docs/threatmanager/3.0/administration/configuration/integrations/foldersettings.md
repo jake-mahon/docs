@@ -1,3 +1,9 @@
+---
+title: "Folder Settings Page"
+description: "Folder Settings Page"
+sidebar_position: 70
+---
+
 # Folder Settings Page
 
 The Folder Settings page within the Integrations interface allows users to designate the

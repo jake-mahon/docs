@@ -1,10 +1,7 @@
 ---
-id: add-a-source-and-connectors-for-computer
 title: "Add a Source and Connectors for Computer"
-pagination_label: "Add a Source and Connectors for Computer"
-sidebar_label: "Add a Source and Connectors for Computer"
-sidebar_position: 42
-description: "Step-by-step guide to add Computer data sources and connectors to your organization."
+description: "Add a Source and Connectors for Computer"
+sidebar_position: 30
 ---
 
 # Add a Source and Connectors for Computer
@@ -106,7 +103,7 @@ the following:
 - Adjust audit settings automatically – Select this checkbox to adjust the audit settings
   automatically. With this approach, 1Secure will check your current audit settings at each data
   collection session and adjust them if necessary. See the
-  [Active Directory: automatic configuration](/docs/1secure/configuration/activedirectory/auto.md) topic for
+  [Active Directory: automatic configuration](/docs/1secure/configuration/admanual/auto.md) topic for
   additional information.
 - Monitor User Hidden Shares – Select this checkbox to monitor the user hidden shares on the
   computer.

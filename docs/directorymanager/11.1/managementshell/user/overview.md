@@ -1,3 +1,9 @@
+---
+title: "User Commands"
+description: "User Commands"
+sidebar_position: 150
+---
+
 # User Commands
 
 This section covers cmdlets for performing user-related tasks such as:

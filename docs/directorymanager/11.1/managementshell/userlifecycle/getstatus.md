@@ -1,3 +1,9 @@
+---
+title: "Get-Status"
+description: "Get-Status"
+sidebar_position: 20
+---
+
 # Get-Status
 
 Use the Get-Status command to know the status of a specified user as per the profile validation

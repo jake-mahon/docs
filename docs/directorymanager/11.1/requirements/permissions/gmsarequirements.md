@@ -1,3 +1,9 @@
+---
+title: "gMSA for Active Directory"
+description: "gMSA for Active Directory"
+sidebar_position: 20
+---
+
 # gMSA for Active Directory
 
 Directory Manager enables you to use a Group Managed Service Account (gMSA) to connect an Active
@@ -53,4 +59,4 @@ NOTE: Restart the Directory Manager server if you apply any of the above.
 
 **See Also**
 
-- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)
+- [Manage an Identity Store](/docs/directorymanager/11.1/signin/identitystore/manage.md)

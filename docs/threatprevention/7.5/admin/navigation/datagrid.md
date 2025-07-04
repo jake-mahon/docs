@@ -1,3 +1,9 @@
+---
+title: "Data Grid Functionality"
+description: "Data Grid Functionality"
+sidebar_position: 20
+---
+
 # Data Grid Functionality
 
 Result data is displayed using data grids on several interfaces in the Administration Console. These
@@ -125,7 +131,7 @@ The data grids provide an option to export data.
 - Data grids on the Agents interface and on the Analytics windows export all available data from the
   grid to a CSV file. Clicking the **Export** button from these interfaces opens a Save As window.
 - Clicking the Export button from the Alerts interface opens the Alerts Export window. See the
-  [Alerts Export Window](/docs/threatprevention/7.5/admin/alerts/window/alertsexport.md) topic for additional information.
+  [Alerts Export Window](/docs/threatprevention/7.5/admin/alerts/alertsexport.md) topic for additional information.
 - Clicking the Export button from the Investigate interface or the Recent Events tab of a policy
   opens the Export window.
 

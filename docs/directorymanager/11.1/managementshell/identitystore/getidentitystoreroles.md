@@ -1,3 +1,9 @@
+---
+title: "Get-IdentityStoreRoles"
+description: "Get-IdentityStoreRoles"
+sidebar_position: 70
+---
+
 # Get-IdentityStoreRoles
 
 The commandlet Get-IdentityStoreRoles retrieves information about the security roles associated with

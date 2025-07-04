@@ -1,3 +1,9 @@
+---
+title: "Audit and Compliance Page"
+description: "Audit and Compliance Page"
+sidebar_position: 50
+---
+
 # Audit and Compliance Page
 
 The Audit and Compliance page in the Investigations interface list of saved out-of-the-box

@@ -1,3 +1,9 @@
+---
+title: "Configure Relaying Party Trust in AD FS"
+description: "Configure Relaying Party Trust in AD FS"
+sidebar_position: 20
+---
+
 # Configure Relaying Party Trust in AD FS
 
 In AD FS, you have to configure the Directory Manager client with which you want to set up AD FS.

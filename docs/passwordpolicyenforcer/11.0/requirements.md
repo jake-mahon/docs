@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 Netwrix Password Policy Enforcer 11 can be installed for both domain and local user accounts.

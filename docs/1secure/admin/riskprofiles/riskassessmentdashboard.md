@@ -1,10 +1,7 @@
 ---
-id: risk-assessment-dashboard
 title: "Risk Assessment Dashboard"
-pagination_label: "Risk Assessment Dashboard"
-sidebar_label: "Risk Assessment Dashboard"
-sidebar_position: 77
-description: "Learn how to use the Risk Assessment dashboard to monitor security posture and track vulnerabilities for organizations."
+description: "Risk Assessment Dashboard"
+sidebar_position: 30
 ---
 
 # Risk Assessment Dashboard
@@ -28,7 +25,7 @@ On the Risk Assessment dashboard, you can check:
 
 _Remember,_ each organization has a risk profile associated with it and the risk analysis of an
 organization is based on the metrics included in the risk profile. See the
-[Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional information.
+[Manage Risk Profiles](/docs/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
 
 ## View the Risk Assessment Dashboard
 
@@ -236,7 +233,7 @@ The left pane displays the following details for an enumerated risk:
 - Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides
   AI-generated step-by-step guidance to help you remediate the risk.
 - Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage
-  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional
+  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/riskprofiles.md) topic for additional
   information.
 
 Boolean Risk Details
@@ -257,7 +254,7 @@ The left pane displays the following details for a Boolean risk:
 - Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides
   AI-generated step-by-step guidance to help you remediate the risk.
 - Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage
-  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional
+  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/riskprofiles.md) topic for additional
   information.
 
 ## Export a Risk Assessment Report for an Organization

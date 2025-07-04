@@ -1,3 +1,9 @@
+---
+title: "Local Host Target Actions"
+description: "Local Host Target Actions"
+sidebar_position: 30
+---
+
 # Local Host Target Actions
 
 The following actions target the Threat Manager server.

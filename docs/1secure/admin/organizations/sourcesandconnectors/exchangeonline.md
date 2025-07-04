@@ -1,10 +1,7 @@
 ---
-id: add-a-source-and-connectors-for-exchange-online
 title: "Add a Source and Connectors for Exchange Online"
-pagination_label: "Add a Source and Connectors for Exchange Online"
-sidebar_label: "Add a Source and Connectors for Exchange Online"
-sidebar_position: 44
-description: "Step-by-step guide to add Exchange Online data sources and connectors to your organization."
+description: "Add a Source and Connectors for Exchange Online"
+sidebar_position: 40
 ---
 
 # Add a Source and Connectors for Exchange Online
@@ -32,7 +29,7 @@ pane is displayed.
   sources, such as computers, allows them to share a common configuration and makes it easier to
   manage related sources together.
 - Tenant ID – The tenant ID of the app registered in Microsoft Entra ID. See the
-  [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md) topic
+  [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/registerconfig/registerconfig.md) topic
   for additional information.
 - Crawl Source – Toggle this option to ON to enable data collection for the source
 - Credentials – Displays the crdentials that have already been added, while also providing the
@@ -41,15 +38,15 @@ pane is displayed.
   new Credentials** from the drop-down menu or click the **Add** icon, then specify the following:
 
     - Client ID – The client ID of the app registered in Microsoft Entra ID. See the
-      [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md) topic
+      [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/registerconfig/registerconfig.md) topic
       for additional information.
     - Client Secret – The client secret of the app registered in Microsoft Entra ID. See the
-      [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md) topic
+      [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/registerconfig/registerconfig.md) topic
       for additional information.
     - Download Certificate – For certain connectors, such as SharePoint Online State, authentication
       requires a certificate instead of a client secret. Download this certificate and then upload
       it to the app registered in Microsoft Entra ID. See the
-      [Upload a Certificate](/docs/1secure/configuration/entraid/registerconfig.md#upload-a-certificate) topic
+      [Upload a Certificate](/docs/1secure/configuration/registerconfig/registerconfig.md#upload-a-certificate) topic
       for additional information.
     - Display Name – Specify a name you want to show for your credentials. It will be displayed on
       the Credentials tab of the Managed Organizations page.

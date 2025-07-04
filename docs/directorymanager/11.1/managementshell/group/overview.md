@@ -1,3 +1,9 @@
+---
+title: "Group Commands"
+description: "Group Commands"
+sidebar_position: 70
+---
+
 # Group Commands
 
 This section covers cmdlets for performing tasks related to managed and unmanaged groups.

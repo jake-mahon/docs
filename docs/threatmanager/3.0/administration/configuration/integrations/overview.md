@@ -1,3 +1,9 @@
+---
+title: "Integrations Interface"
+description: "Integrations Interface"
+sidebar_position: 30
+---
+
 # Integrations Interface
 
 The Integrations interface allows you to configure integrations with a variety of Netwrix products
@@ -13,7 +19,7 @@ It contains the following integration pages:
 - [Active Directory Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/activedirectorysync.md)
 - [Entra ID Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/entraidsync.md)
 - [App Tokens Page](/docs/threatmanager/3.0/administration/configuration/integrations/apptoken.md)
-- [Authentication Provider Page](/docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/page.md)
+- [Authentication Provider Page](/docs/threatmanager/3.0/administration/configuration/integrations/page/page.md)
 - [Credential Profile Page](/docs/threatmanager/3.0/administration/configuration/integrations/credentialprofile.md)
 - [Email Page](/docs/threatmanager/3.0/administration/configuration/integrations/email.md)
 - [Folder Settings Page](/docs/threatmanager/3.0/administration/configuration/integrations/foldersettings.md)

@@ -1,10 +1,7 @@
 ---
-id: export-a-report-or-investigation-results
 title: "Export a Report or Investigation Results"
-pagination_label: "Export a Report or Investigation Results"
-sidebar_label: "Export a Report or Investigation Results"
-sidebar_position: 54
-description: "Learn how to export investigation results and reports as Excel files for easier review and analysis."
+description: "Export a Report or Investigation Results"
+sidebar_position: 70
 ---
 
 # Export a Report or Investigation Results

@@ -1,3 +1,9 @@
+---
+title: "About Threat Manager Page"
+description: "About Threat Manager Page"
+sidebar_position: 50
+---
+
 # About Threat Manager Page
 
 The About Threat Manager page in the System Settings interface provides information about the

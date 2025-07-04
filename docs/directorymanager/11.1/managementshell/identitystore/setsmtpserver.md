@@ -1,3 +1,9 @@
+---
+title: "Set-SmtpServer"
+description: "Set-SmtpServer"
+sidebar_position: 200
+---
+
 # Set-SmtpServer
 
 The Set-SmtpServer commandlet configures an SMTP server for an identity store.

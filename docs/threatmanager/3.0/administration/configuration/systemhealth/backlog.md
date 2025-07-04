@@ -1,3 +1,9 @@
+---
+title: "Backlog"
+description: "Backlog"
+sidebar_position: 10
+---
+
 # Backlog
 
 The Backlog overview displays a summary of all threats and system jobs with the events in queue to

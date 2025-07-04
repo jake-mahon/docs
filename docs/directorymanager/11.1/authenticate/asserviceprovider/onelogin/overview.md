@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for Directory Manager using OneLogin"
+description: "SAML Configuration for Directory Manager using OneLogin"
+sidebar_position: 40
+---
+
 # SAML Configuration for Directory Manager using OneLogin
 
 OneLogin provides single sign-on and identity management for organizations that embrace cloud

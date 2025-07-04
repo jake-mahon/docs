@@ -1,10 +1,7 @@
 ---
-id: subscriptions
 title: "Subscriptions"
-pagination_label: "Subscriptions"
-sidebar_label: "Subscriptions"
-sidebar_position: 57
-description: "Learn how to schedule and automatically deliver reports to email addresses or SharePoint Online folders."
+description: "Subscriptions"
+sidebar_position: 80
 ---
 
 # Subscriptions
@@ -97,7 +94,7 @@ specify the settings for SharePoint Online delivery.
 
 **NOTE:** If you encounter the message, Integration required, you must first configure your
 integration for SharePoint Online. See the
-[SharePoint Online](/docs/1secure/integrations/sharepointonline.md) topic for additional information.
+[SharePoint Online](/docs/1secure/integration/sharepointonline.md) topic for additional information.
 
 Expand the SharePoint Online Settings section and specify the following settings for saving the
 report:

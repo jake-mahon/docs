@@ -1,3 +1,9 @@
+---
+title: "Allowlists"
+description: "Allowlists"
+sidebar_position: 20
+---
+
 # Allowlists
 
 ## MIME Type

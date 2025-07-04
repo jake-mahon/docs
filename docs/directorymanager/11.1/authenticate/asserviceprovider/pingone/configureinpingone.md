@@ -1,3 +1,9 @@
+---
+title: "Configure Directory Manager In PingOne"
+description: "Configure Directory Manager In PingOne"
+sidebar_position: 20
+---
+
 # Configure Directory Manager In PingOne
 
 To configure Directory Manager in PingOne, follow these steps:

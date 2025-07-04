@@ -1,10 +1,7 @@
 ---
-id: network-traffic-compression
 title: "Network Traffic Compression"
-pagination_label: "Network Traffic Compression"
-sidebar_label: "Network Traffic Compression"
-sidebar_position: 152
-description: "This page explains how to use network traffic compression to reduce bandwidth usage in distributed deployments and multi-site networks."
+description: "Network Traffic Compression"
+sidebar_position: 80
 ---
 
 # Network Traffic Compression

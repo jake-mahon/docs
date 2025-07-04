@@ -1,3 +1,9 @@
+---
+title: "Remove-Contact"
+description: "Remove-Contact"
+sidebar_position: 30
+---
+
 # Remove-Contact
 
 Use the Remove-Contact cmdlet to delete a contact from the directory.

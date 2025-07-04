@@ -1,3 +1,9 @@
+---
+title: "Reporting Module Server Requirements"
+description: "Reporting Module Server Requirements"
+sidebar_position: 50
+---
+
 # Reporting Module Server Requirements
 
 **CAUTION:** Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager

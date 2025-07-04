@@ -1,10 +1,7 @@
 ---
-id: manage-my-organization
 title: "Manage My Organization"
-pagination_label: "Manage My Organization"
-sidebar_label: "Manage My Organization"
-sidebar_position: 35
-description: "Learn how to review and edit your organization profile settings and manage deletion requests."
+description: "Manage My Organization"
+sidebar_position: 30
 ---
 
 # Manage My Organization

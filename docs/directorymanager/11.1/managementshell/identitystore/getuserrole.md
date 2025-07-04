@@ -1,3 +1,9 @@
+---
+title: "Get-UserRole"
+description: "Get-UserRole"
+sidebar_position: 120
+---
+
 # Get-UserRole
 
 The commandlet Get-UserRole displays information about the role of the specified user in an identity

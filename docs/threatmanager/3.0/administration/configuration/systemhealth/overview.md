@@ -1,3 +1,9 @@
+---
+title: "System Health Interface"
+description: "System Health Interface"
+sidebar_position: 50
+---
+
 # System Health Interface
 
 The System Health interface displays database statistics and the total number of events for all

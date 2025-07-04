@@ -1,3 +1,9 @@
+---
+title: "SIEM Output Viewer"
+description: "SIEM Output Viewer"
+sidebar_position: 70
+---
+
 # SIEM Output Viewer
 
 The SIEM Output Viewer window displays the event data (messages) that Threat Prevention writes to
@@ -5,10 +11,10 @@ syslog (SIEM) in real time.
 
 - Event data generated for a policy is sent to SIEM if the 'Send to SIEM' option is selected for
   that policy on the Actions tab. See the
-  [Send to SIEM](/docs/threatprevention/7.5/admin/policies/actions/overview.md#send-to-siem) topic for additional information.
+  [Send to SIEM](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md#send-to-siem) topic for additional information.
 - Event data generated for an analytic is sent to SIEM if the 'Send Raw Data to SIEM' option is
   selected for that analytic on the Actions tab. See the
-  [Send to SIEM](/docs/threatprevention/7.5/admin/policies/actions/overview.md#send-to-siem) topic for additional information.
+  [Send to SIEM](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md#send-to-siem) topic for additional information.
 - Event data generated for an event/incident/policy is sent to SIEM if a SIEM profile has been
   assigned to it on the [SIEM Tab](/docs/threatprevention/7.5/admin/configuration/systemalerting/siem.md) of the System Alerting Window.
 

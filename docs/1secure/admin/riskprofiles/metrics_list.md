@@ -1,10 +1,7 @@
 ---
-id: risk-metrics-list
 title: "Risk Metrics List"
-pagination_label: "Risk Metrics List"
-sidebar_label: "Risk Metrics List"
-sidebar_position: 76
-description: "Comprehensive list of all risk metrics included in risk profiles with descriptions and security implications."
+description: "Risk Metrics List"
+sidebar_position: 20
 ---
 
 # Risk Metrics List

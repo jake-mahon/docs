@@ -1,3 +1,9 @@
+---
+title: "Investigate Data Grid"
+description: "Investigate Data Grid"
+sidebar_position: 30
+---
+
 # Investigate Data Grid
 
 Events are displayed in the data grid on the Investigate interface.
@@ -36,7 +42,7 @@ from view.
 
 Each column in the data grid has a prefix identifying the type of information displayed.
 Double-click a populated grid column to access the
-[Event Viewer Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventviewer.md) with detailed information on the
+[Event Viewer Window](/docs/threatprevention/7.5/admin/policies/configuration/recentevents/eventviewer.md) with detailed information on the
 event. The columns display the following information for each event:
 
 - Event: Policy Name – Policy which monitored or blocked the event

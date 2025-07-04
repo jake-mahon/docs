@@ -1,3 +1,9 @@
+---
+title: "Netwrix Activity Monitor Integration"
+description: "Netwrix Activity Monitor Integration"
+sidebar_position: 10
+---
+
 # Netwrix Activity Monitor Integration
 
 The Activity Monitor can be configured to send file system data and/or Active Directory and/or

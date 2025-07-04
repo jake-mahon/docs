@@ -1,3 +1,9 @@
+---
+title: "File Monitor Settings Window"
+description: "File Monitor Settings Window"
+sidebar_position: 60
+---
+
 # File Monitor Settings Window
 
 The File Monitor Settings window provides global settings for managing log retention, the ability to
@@ -60,7 +66,7 @@ Collection window opens.
 ![File Monitor Settings > Edit Collection window (for accounts)](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionaccounts.webp)
 
 **Step 3 –** Use the **Add** (+) button to open the
-[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
+[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/perpetrators.md)
 to browse for and select AD accounts.
 
 **Step 4 –** Click **OK** to save your changes.

@@ -1,3 +1,9 @@
+---
+title: "MSI Installer Logs"
+description: "MSI Installer Logs"
+sidebar_position: 50
+---
+
 # MSI Installer Logs
 
 The Threat Prevention installer runs under control of Windows Installer. All available command line

@@ -1,3 +1,9 @@
+---
+title: "Netwrix Integrations Page"
+description: "Netwrix Integrations Page"
+sidebar_position: 90
+---
+
 # Netwrix Integrations Page
 
 The Netwrix Integrations page within the Integrations interface lists the products for which the

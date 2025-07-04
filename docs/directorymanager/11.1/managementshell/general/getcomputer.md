@@ -1,3 +1,9 @@
+---
+title: "Get-Computer"
+description: "Get-Computer"
+sidebar_position: 10
+---
+
 # Get-Computer
 
 The Get-Computer commandlet retrieves the information about a computer object from the connected

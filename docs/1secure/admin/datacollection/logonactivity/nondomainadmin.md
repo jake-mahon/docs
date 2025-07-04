@@ -1,10 +1,7 @@
 ---
-id: configure-non-administrative-account-to-collect-logon-activity
 title: "Configure Non-Administrative Account to Collect Logon Activity"
-pagination_label: "Configure Non-Administrative Account to Collect Logon Activity"
-sidebar_label: "Configure Non-Administrative Account to Collect Logon Activity"
-sidebar_position: 74
-description: "Learn how to configure non-administrative accounts with minimum rights for logon activity collection."
+description: "Configure Non-Administrative Account to Collect Logon Activity"
+sidebar_position: 10
 ---
 
 # Configure Non-Administrative Account to Collect Logon Activity
@@ -24,9 +21,9 @@ Do the following:
 
 - Back up files and directories.
   [Configure the Back up Files and Directories Policy](/docs/1secure/admin/datacollection/computer/backupfilesdirectories.md)
-- Log on as a batch job. [Define Log On As a Batch Job Policy](/docs/1secure/admin/datacollection/activedirectory/logonasbatch.md)
+- Log on as a batch job. [Define Log On As a Batch Job Policy](/docs/1secure/admin/datacollection/activedirectoryauditing/logonasbatch.md)
 - Manage auditing and security log.
-  [Configure the Manage Auditing and Security Log Policy](/docs/1secure/admin/datacollection/activedirectory/manageauditingsecuritylog.md)
+  [Configure the Manage Auditing and Security Log Policy](/docs/1secure/admin/datacollection/activedirectoryauditing/manageauditingsecuritylog.md)
 
 **Step 2 –** Grant the _Read_ permission on the following registry keys to this user:
 
@@ -34,5 +31,5 @@ Do the following:
 - `HKEY_LOCAL_MACHINE`\SYSTEM\CurrentControlSet\Control\SecurePipeServers\winreg
 - `HKEY_LOCAL_MACHINE`\SYSTEM\CurrentControlSet\Services\EventLog\Security
 
-[Assigning Permission To Read the Registry Key](/docs/1secure/admin/datacollection/activedirectory/permissionsregistrykeys.md) how
+[Assigning Permission To Read the Registry Key](/docs/1secure/admin/datacollection/activedirectoryauditing/permissionsregistrykeys.md) how
 to do it using Registry Editor.

@@ -1,3 +1,9 @@
+---
+title: "EPE Rest Site Install"
+description: "EPE Rest Site Install"
+sidebar_position: 70
+---
+
 # EPE Rest Site Install
 
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat

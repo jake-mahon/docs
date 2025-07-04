@@ -1,3 +1,9 @@
+---
+title: "Analytics Interface"
+description: "Analytics Interface"
+sidebar_position: 70
+---
+
 # Analytics Interface
 
 Analytics provide organizations with the ability to capture and analyze authentication traffic

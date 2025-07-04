@@ -1,10 +1,7 @@
 ---
-id: configure-security-event-log-size-and-retention-settings
 title: "Configure Security Event Log Size and Retention Settings"
-pagination_label: "Configure Security Event Log Size and Retention Settings"
-sidebar_label: "Configure Security Event Log Size and Retention Settings"
-sidebar_position: 124
-description: "Learn how to configure Security Event Log size and retention settings for proper audit data collection."
+description: "Configure Security Event Log Size and Retention Settings"
+sidebar_position: 40
 ---
 
 # Configure Security Event Log Size and Retention Settings

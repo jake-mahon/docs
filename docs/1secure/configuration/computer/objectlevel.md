@@ -1,10 +1,7 @@
 ---
-id: configure-object-level-access-auditing
 title: "Configure Object-Level Access Auditing"
-pagination_label: "Configure Object-Level Access Auditing"
-sidebar_label: "Configure Object-Level Access Auditing"
-sidebar_position: 136
-description: "Learn how to configure object-level access auditing for comprehensive file server monitoring."
+description: "Configure Object-Level Access Auditing"
+sidebar_position: 20
 ---
 
 # Configure Object-Level Access Auditing

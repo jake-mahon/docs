@@ -1,3 +1,9 @@
+---
+title: "System Health Interface"
+description: "System Health Interface"
+sidebar_position: 20
+---
+
 # System Health Interface
 
 The System Health interface has one page, Services, that displays the services associated with the

@@ -1,0 +1,10 @@
+{
+  "label": "First Login to 1Secure",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "login"
+  }
+}

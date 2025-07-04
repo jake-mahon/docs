@@ -1,3 +1,9 @@
+---
+title: "System Settings"
+description: "System Settings"
+sidebar_position: 30
+---
+
 # System Settings
 
 From this section, you can manage general settings that apply to the entire Endpoint Protector

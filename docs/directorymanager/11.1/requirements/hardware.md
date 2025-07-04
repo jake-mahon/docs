@@ -1,3 +1,9 @@
+---
+title: "Hardware Requirements"
+description: "Hardware Requirements"
+sidebar_position: 10
+---
+
 # Hardware Requirements
 
 Minimum hardware requirements for Directory Manager are:

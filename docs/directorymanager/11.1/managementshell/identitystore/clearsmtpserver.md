@@ -1,3 +1,9 @@
+---
+title: "Clear-SmtpServer"
+description: "Clear-SmtpServer"
+sidebar_position: 30
+---
+
 # Clear-SmtpServer
 
 The commandlet Clear-SmtpServer removes the SMTP server configurations from an identity store.

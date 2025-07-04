@@ -1,3 +1,9 @@
+---
+title: "Deployments"
+description: "Deployments"
+sidebar_position: 30
+---
+
 # Deployments
 
 This documentation provides comprehensive guidance on deploying Endpoint Protector across various
@@ -26,8 +32,8 @@ The On-Premise option for a Customer-Managed instance allows for a virtualized i
 a customer’s LAN setting. Virtualization options include, but are not limited to: VMware and
 Hyper-V. The Hosted-Cloud method of deployment allows for use of a customer’s Amazon Web Services
 (AWS), Azure, or Google Cloud Platform (GCP) instance. To obtain more specific information for each
-of these options, see the [Virtual Appliance Formats](/docs/endpointprotector/5.9.4.2/requirements/formats.md) topic and the
-[Cloud Services](/docs/endpointprotector/5.9.4.2/configuration/overview.md) topic.
+of these options, see the [Virtual Appliance Formats](/docs/endpointprotector/5.9.4.2/install/virtualappliance/formats/formats.md) topic and the
+[Cloud Services](/docs/endpointprotector/5.9.4.2/install/configuration/overview.md) topic.
 
 Alternatively, if a Provider-Managed setup is required, an instance of Endpoint Protector can be
 spun up in an isolated cloud environment. To obtain more details on the Provider- Managed option,

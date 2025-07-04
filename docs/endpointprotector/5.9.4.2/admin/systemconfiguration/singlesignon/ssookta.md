@@ -1,3 +1,9 @@
+---
+title: "Single Sign On (SSO) Conﬁguration with Okta"
+description: "Single Sign On (SSO) Conﬁguration with Okta"
+sidebar_position: 20
+---
+
 # Single Sign On (SSO) Conﬁguration with Okta
 
 Single Sign On (SSO) is a powerful authentication process that enhances security and improves user

@@ -1,3 +1,9 @@
+---
+title: "Right-Click Menus"
+description: "Right-Click Menus"
+sidebar_position: 10
+---
+
 # Right-Click Menus
 
 In the Navigation pane, the Policies node, Templates node, folders, policies, and templates have

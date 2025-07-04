@@ -1,3 +1,9 @@
+---
+title: "Home Page"
+description: "Home Page"
+sidebar_position: 10
+---
+
 # Home Page
 
 The Home page provides an "at a glance" overview of the possible threats detected in an

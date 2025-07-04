@@ -1,3 +1,9 @@
+---
+title: "Log Files"
+description: "Log Files"
+sidebar_position: 10
+---
+
 # Log Files
 
 Each component of Threat Manager has a log file that will report errors, warnings, and debug

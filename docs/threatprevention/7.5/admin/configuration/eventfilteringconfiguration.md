@@ -1,3 +1,9 @@
+---
+title: "Event Filtering Configuration Window"
+description: "Event Filtering Configuration Window"
+sidebar_position: 50
+---
+
 # Event Filtering Configuration Window
 
 The Event Filtering Configuration window enables you to exclude specific Active Directory and
@@ -83,7 +89,7 @@ Collection window.
 
 The Exclude Logins from Machine Accounts collection is only accessible through the Event Filtering
 Configuration window. Either use the **Add** (+) button to open the
-[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
+[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/perpetrators.md)
 to browse for machine accounts or type the account name in the textbox.
 
 Only perpetrators with accounts ending in “$” are considered for this filter. Wild cards (\*) can be
@@ -143,7 +149,7 @@ Collection window.
 
 The Exclude Authentication Events from Selected Accounts collection is only accessible through the
 Event Filtering Configuration window. Use the **Add** (+) button to open the
-[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
+[Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/perpetrators.md)
 to browse for the desired accounts. Account names [domain name\account] can also be typed in the
 textbox. Wild cards (\*) can be used as part of either the domain name or account. An asterisk (\*)
 appearing anywhere other than as the first character or the last character are treated as a literal

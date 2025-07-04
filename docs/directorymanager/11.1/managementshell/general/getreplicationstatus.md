@@ -1,3 +1,9 @@
+---
+title: "Get-ReplicationStatus"
+description: "Get-ReplicationStatus"
+sidebar_position: 50
+---
+
 # Get-ReplicationStatus
 
 The Get-ReplicationStatus commandlet retrieves the replication status of the connected identity

@@ -1,10 +1,7 @@
 ---
-id: permissions-for-sql-server-auditing
 title: "Permissions for SQL Server Auditing"
-pagination_label: "Permissions for SQL Server Auditing"
-sidebar_label: "Permissions for SQL Server Auditing"
-sidebar_position: 142
-description: "Learn about the account permissions required for SQL Server auditing and data collection."
+description: "Permissions for SQL Server Auditing"
+sidebar_position: 20
 ---
 
 # Permissions for SQL Server Auditing

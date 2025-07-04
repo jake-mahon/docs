@@ -1,3 +1,9 @@
+---
+title: "Set-SmartGroup"
+description: "Set-SmartGroup"
+sidebar_position: 40
+---
+
 # Set-SmartGroup
 
 The Set-SmartGroup commandlet modifies a Smart Group in Directory. Attributes that are common to

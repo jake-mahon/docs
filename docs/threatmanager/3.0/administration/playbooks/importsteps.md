@@ -1,3 +1,9 @@
+---
+title: "Import Action Steps for Playbooks"
+description: "Import Action Steps for Playbooks"
+sidebar_position: 50
+---
+
 # Import Action Steps for Playbooks
 
 The Threat Response box contains an Import button which provides the ability to import custom

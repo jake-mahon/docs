@@ -1,3 +1,9 @@
+---
+title: "Transfer-DirectReports"
+description: "Transfer-DirectReports"
+sidebar_position: 50
+---
+
 # Transfer-DirectReports
 
 Use the Transfer-DirectReports commandlet to transfer direct report(s) in the connected identity

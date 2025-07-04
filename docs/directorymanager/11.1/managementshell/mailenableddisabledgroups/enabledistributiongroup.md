@@ -1,3 +1,9 @@
+---
+title: "Enable-DistributionGroup"
+description: "Enable-DistributionGroup"
+sidebar_position: 20
+---
+
 # Enable-DistributionGroup
 
 This commandlet makes a distribution group in directory mail-enabled.

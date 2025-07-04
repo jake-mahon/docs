@@ -1,3 +1,9 @@
+---
+title: "Tag Threat Actions"
+description: "Tag Threat Actions"
+sidebar_position: 40
+---
+
 # Tag Threat Actions
 
 The following action targets Threat Manager.

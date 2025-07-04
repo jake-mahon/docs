@@ -1,10 +1,7 @@
 ---
-id: organization-statistics
 title: "Organization Statistics"
-pagination_label: "Organization Statistics"
-sidebar_label: "Organization Statistics"
-sidebar_position: 21
-description: "View detailed statistics and security insights for client organizations including health status and risk assessments."
+description: "Organization Statistics"
+sidebar_position: 10
 ---
 
 # Organization Statistics
@@ -63,7 +60,7 @@ This card displays a list of custom reports created for the organization. See th
 This card displays a line chart illustrating the number of alerts triggered during the past three
 months. Hover over a point on the chart to view the exact number of alerts triggered on any specific
 date. Click a point on the chart to navigate to the Alerts Timeline page. See the
-[Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for additional information.
+[Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for additional information.
 
 ## Changes By Date
 

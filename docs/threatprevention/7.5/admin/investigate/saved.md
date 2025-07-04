@@ -1,3 +1,9 @@
+---
+title: "Saved Investigations"
+description: "Saved Investigations"
+sidebar_position: 10
+---
+
 # Saved Investigations
 
 You can apply filters on the [Investigate Interface](/docs/threatprevention/7.5/admin/investigate/overview.md) to filter event data as desired.

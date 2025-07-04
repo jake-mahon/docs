@@ -1,3 +1,9 @@
+---
+title: "Set-Mailbox"
+description: "Set-Mailbox"
+sidebar_position: 40
+---
+
 # Set-Mailbox
 
 The Set-Mailbox commandlet modifies a mailbox in Directory. Most mailbox properties can be directly

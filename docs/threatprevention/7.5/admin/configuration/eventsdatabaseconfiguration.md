@@ -1,3 +1,9 @@
+---
+title: "Events Database Configuration Window"
+description: "Events Database Configuration Window"
+sidebar_position: 40
+---
+
 # Events Database Configuration Window
 
 The Events Database Configuration window manages the NVMonitorData database, also known as the

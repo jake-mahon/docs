@@ -1,3 +1,9 @@
+---
+title: "Single Sign On (SSO) Conﬁguration with Azure AD"
+description: "Single Sign On (SSO) Conﬁguration with Azure AD"
+sidebar_position: 10
+---
+
 # Single Sign On (SSO) Conﬁguration with Azure AD
 
 Single Sign On (SSO) streamlines user authentication by enabling access to multiple applications

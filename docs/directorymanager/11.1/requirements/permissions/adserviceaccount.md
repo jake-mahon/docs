@@ -1,3 +1,9 @@
+---
+title: "Service Account for Active Directory and Exchange"
+description: "Service Account for Active Directory and Exchange"
+sidebar_position: 10
+---
+
 # Service Account for Active Directory and Exchange
 
 You must have a service account to connect an identity store to an Active Directory domain.
@@ -148,12 +154,12 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](/docs/directorymanager/11.1/requirements/setupauthentication.md) topic for information about the roles and
+See the [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic for information about the roles and
 permissions the SQL server and database accounts must have for
-[SQL Server Authentication](/docs/directorymanager/11.1/requirements/setupauthentication.md#sql-server-authentication) mode and for
-[Windows Authentication](/docs/directorymanager/11.1/requirements/setupauthentication.md#windows-authentication) mode.
+[SQL Server Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#sql-server-authentication) mode and for
+[Windows Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#windows-authentication) mode.
 
 **See Also**
 
-- [Create an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/create.md)
-- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)
+- [Create an Identity Store](/docs/directorymanager/11.1/signin/identitystore/create.md)
+- [Manage an Identity Store](/docs/directorymanager/11.1/signin/identitystore/manage.md)

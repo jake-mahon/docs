@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 Prior to installing Threat Manager, please ensure that all of the prerequisites have been met in
@@ -95,7 +101,7 @@ launcher opens. You can now install the following components on the same server:
 - Configure a remote Action Service to register with Threat Manager.
 - Configure a service account to run actions.
 
-**Step 3 –** Log into the console for the first time. See the [First Launch](/docs/threatmanager/3.0/install/firstlaunch.md) topic
+**Step 3 –** Log into the console for the first time. See the [First Launch](/docs/threatmanager/3.0/install/firstlaunch/firstlaunch.md) topic
 for additional information.
 
 **Step 4 –** Configure integration with one or more Netwrix products to feed the desired type of
@@ -104,7 +110,7 @@ data into Threat Manager:
 - [Netwrix Activity Monitor Integration](/docs/threatmanager/3.0/install/integration/activitymonitor.md) – Configure Netwrix
   Activity Monitor to send file system data and/or Active Directory data and/or Microsoft Entra ID
   data to Threat Manager
-- [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/install/integration/threatprevention.md) – Configure Netwrix
+- [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/install/integration/threatprevention/threatprevention.md) – Configure Netwrix
   Threat Prevention to send Active Directory data to Threat Manager
 - [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/install/integration/accessanalyzer.md)
   – Configure Netwrix Access Analyzer (formerly Enterprise Auditor) to send Sensitive Data to Threat

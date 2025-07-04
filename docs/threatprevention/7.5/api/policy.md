@@ -1,3 +1,9 @@
+---
+title: "Policy APIs"
+description: "Policy APIs"
+sidebar_position: 20
+---
+
 # Policy APIs
 
 Policies are used in Threat Prevention to define the objects and events to be monitored or blocked

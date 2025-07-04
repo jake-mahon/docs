@@ -1,3 +1,9 @@
+---
+title: "Credential Profile Page"
+description: "Credential Profile Page"
+sidebar_position: 50
+---
+
 # Credential Profile Page
 
 The Credential Profile page within the Integrations interface lists all of the credentials used by

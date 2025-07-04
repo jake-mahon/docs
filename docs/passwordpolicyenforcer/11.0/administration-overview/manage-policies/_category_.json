@@ -1,0 +1,10 @@
+{
+  "label": "Manage Policies",
+  "position": 20,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "manage_policies"
+  }
+}

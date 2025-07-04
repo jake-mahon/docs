@@ -1,3 +1,9 @@
+---
+title: "Set-IdentityStoreRole"
+description: "Set-IdentityStoreRole"
+sidebar_position: 170
+---
+
 # Set-IdentityStoreRole
 
 Use the Set-IdentityStoreRole commandlet to modify properties of a security role in an identity

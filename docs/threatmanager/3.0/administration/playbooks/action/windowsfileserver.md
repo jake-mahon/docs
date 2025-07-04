@@ -1,3 +1,9 @@
+---
+title: "Windows File System Target Actions"
+description: "Windows File System Target Actions"
+sidebar_position: 60
+---
+
 # Windows File System Target Actions
 
 The following actions target Windows File System.

@@ -1,3 +1,9 @@
+---
+title: "Terminate-DirectReports"
+description: "Terminate-DirectReports"
+sidebar_position: 40
+---
+
 # Terminate-DirectReports
 
 Use the Terminate-DirectRreports command to terminate user(s). Specify manager of the user you want

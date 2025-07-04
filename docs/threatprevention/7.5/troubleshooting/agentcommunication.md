@@ -1,3 +1,9 @@
+---
+title: "Agent Not Communicating with the Enterprise Manager"
+description: "Agent Not Communicating with the Enterprise Manager"
+sidebar_position: 10
+---
+
 # Agent Not Communicating with the Enterprise Manager
 
 If the Agent is not communicating with the Enterprise Manager, the following questions should be

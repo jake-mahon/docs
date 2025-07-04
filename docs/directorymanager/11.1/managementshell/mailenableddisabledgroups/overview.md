@@ -1,3 +1,9 @@
+---
+title: "Mail-Enable/Disable Groups Commands"
+description: "Mail-Enable/Disable Groups Commands"
+sidebar_position: 110
+---
+
 # Mail-Enable/Disable Groups Commands
 
 This section covers cmdlets for enabling and disabling groups for email.

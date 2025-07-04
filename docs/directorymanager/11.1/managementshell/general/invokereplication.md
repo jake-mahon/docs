@@ -1,3 +1,9 @@
+---
+title: "Invoke-Replication"
+description: "Invoke-Replication"
+sidebar_position: 70
+---
+
 # Invoke-Replication
 
 The Invoke-Replication commandlet starts replication process for all the identity stores or a

@@ -1,3 +1,9 @@
+---
+title: "Microsoft Windows Servers Requirements"
+description: "Microsoft Windows Servers Requirements"
+sidebar_position: 20
+---
+
 # Microsoft Windows Servers Requirements
 
 Directory Manager supports the following Microsoft Windows Servers:

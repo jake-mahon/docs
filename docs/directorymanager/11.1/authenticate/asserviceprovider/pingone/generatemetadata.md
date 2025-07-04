@@ -1,3 +1,9 @@
+---
+title: "Generate the Consumer URL and Metadata File"
+description: "Generate the Consumer URL and Metadata File"
+sidebar_position: 10
+---
+
 # Generate the Consumer URL and Metadata File
 
 In Directory Manager Authenticate, you can generate a metadata file for the Directory Manager client

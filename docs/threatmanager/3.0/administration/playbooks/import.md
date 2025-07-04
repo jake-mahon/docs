@@ -1,3 +1,9 @@
+---
+title: "Import a Playbook"
+description: "Import a Playbook"
+sidebar_position: 30
+---
+
 # Import a Playbook
 
 Playbooks created in a different location than the Threat Manager installation can be imported to

@@ -1,3 +1,9 @@
+---
+title: "Get-UserEnrollment"
+description: "Get-UserEnrollment"
+sidebar_position: 20
+---
+
 # Get-UserEnrollment
 
 The commandlet Get-UserEnrollment retrieves enrollment information of a user.

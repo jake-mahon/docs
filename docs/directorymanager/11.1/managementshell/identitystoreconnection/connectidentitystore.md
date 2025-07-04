@@ -1,3 +1,9 @@
+---
+title: "Connect-IdentityStore"
+description: "Connect-IdentityStore"
+sidebar_position: 10
+---
+
 # Connect-IdentityStore
 
 If an identity store of the connected domain is available, then Directory Manager Management Shell
@@ -26,7 +32,7 @@ Example:
 
 The following command connects you to the identity store specified by the IdentityStoreId parameter
 using the specified authentication mode and credentials that you set in the $Credentials environment
-variable. See the [Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/parameters/setthecredential.md)
+variable. See the [Set the $Credentials Environment Variable](/docs/directorymanager/11.1/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```

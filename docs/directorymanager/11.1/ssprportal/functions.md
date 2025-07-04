@@ -1,3 +1,9 @@
+---
+title: "Manage your Identity Store Accounts"
+description: "Manage your Identity Store Accounts"
+sidebar_position: 20
+---
+
 # Manage your Identity Store Accounts
 
 When you launch the SSPR portal, the Welcome to GroupID page lists the following functions:
@@ -33,24 +39,24 @@ in.
 
 The Your Enrollments page opens, where you can enroll the identity store account you used to sign
 into the portal. Tabs on this page represent the different authentication types the administrator
-has enabled for enrollment. See the [Enroll your identity store account](/docs/directorymanager/11.1/admincenter/enroll.md)
+has enabled for enrollment. See the [Enroll your identity store account](/docs/directorymanager/11.1/signin/concepts/enroll.md)
 topic for enrollment details, starting at step 3.
 
 ## Unlock your Account
 
 Click the **Unlock** tile to unlock your account. See the
-[Unlock your accounts](/docs/directorymanager/11.1/portal/user/manage/unlockaccount.md) topic for additional information.
+[Unlock your accounts](/docs/directorymanager/11.1/welcome/user/manage/unlockaccount.md) topic for additional information.
 
 ## Reset your Account Password
 
 Click the **Reset Password** tile to reset your identity store account password. See the
-[Reset Passwords](/docs/directorymanager/11.1/portal/user/authentication/passwordreset.md) topic for additional information.
+[Reset Passwords](/docs/directorymanager/11.1/welcome/secondfactorauthentication/passwordreset.md) topic for additional information.
 
 ## Change your Account Password
 
 You can change the password of any of your identity store accounts. Click the **Change Password**
 tile. Then sign into the portal, if not signed in. See
-the[ Change your password](/docs/directorymanager/11.1/portal/user/manage/changepassword.md) topic for additional
+the[ Change your password](/docs/directorymanager/11.1/welcome/user/manage/changepassword.md) topic for additional
 information.
 
 ## Link your Identity Store Accounts
@@ -63,4 +69,4 @@ Active Directory and another in Microsoft Entra ID. This has multiple benefits, 
 - A user can then unlock or reset the password of any linked account through the master account.
 
 After signing into the portal, click the **Linked Accounts** tile. See the
-[Linked Accounts](/docs/directorymanager/11.1/portal/user/linkedaccounts.md) topic for additional information.
+[Linked Accounts](/docs/directorymanager/11.1/welcome/user/linkedaccounts.md) topic for additional information.

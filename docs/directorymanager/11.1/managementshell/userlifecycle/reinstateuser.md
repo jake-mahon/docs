@@ -1,3 +1,9 @@
+---
+title: "Reinstate-User"
+description: "Reinstate-User"
+sidebar_position: 30
+---
+
 # Reinstate-User
 
 Use the Reinstate-User command to activate or disable a user. Users can be disabled for any of the

@@ -1,3 +1,9 @@
+---
+title: "Remote Administration Console Machine Requirements"
+description: "Remote Administration Console Machine Requirements"
+sidebar_position: 40
+---
+
 # Remote Administration Console Machine Requirements
 
 This topic lists the requirements for the machine where you want to install a remote instance of the

@@ -1,3 +1,9 @@
+---
+title: "Remove-Schedule"
+description: "Remove-Schedule"
+sidebar_position: 50
+---
+
 # Remove-Schedule
 
 The commandlet Remove-Schedule removes a schedule (by its name or ID) from the identity store

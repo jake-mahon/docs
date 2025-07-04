@@ -1,3 +1,9 @@
+---
+title: "Set-Schedule"
+description: "Set-Schedule"
+sidebar_position: 60
+---
+
 # Set-Schedule
 
 The commandlet Set-Schedule modifies the attributes and settings of a schedule in the identity store

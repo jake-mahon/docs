@@ -1,10 +1,7 @@
 ---
-id: sql-server-ports
 title: "SQL Server Ports"
-pagination_label: "SQL Server Ports"
-sidebar_label: "SQL Server Ports"
-sidebar_position: 143
-description: "Review the complete list of protocols and ports required for Netwrix 1Secure SQL Server monitoring."
+description: "SQL Server Ports"
+sidebar_position: 10
 ---
 
 # SQL Server Ports

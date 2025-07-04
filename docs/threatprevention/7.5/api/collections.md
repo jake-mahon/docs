@@ -1,9 +1,15 @@
+---
+title: "Collection APIs"
+description: "Collection APIs"
+sidebar_position: 30
+---
+
 # Collection APIs
 
 Collections are reusable lists of policy filter settings that help streamline the task of
 associating filters with event types on the Event Type tab during
-[Policy Configuration](/docs/threatprevention/7.5/admin/policies/configuration.md) or
-[Template Configuration](/docs/threatprevention/7.5/admin/templates/configuration.md).
+[Policy Configuration](/docs/threatprevention/7.5/admin/policies/configuration/configuration.md) or
+[Template Configuration](/docs/threatprevention/7.5/admin/templates/configuration/configuration.md).
 
 You can use APIs to perform the following functions:
 

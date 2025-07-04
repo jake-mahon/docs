@@ -1,3 +1,9 @@
+---
+title: "Certificate Management Wizard"
+description: "Certificate Management Wizard"
+sidebar_position: 80
+---
+
 # Certificate Management Wizard
 
 The Certificate Management Wizard is a standalone component used to configure Threat Prevention

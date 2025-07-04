@@ -1,3 +1,9 @@
+---
+title: "Install the Threat Manager Application"
+description: "Install the Threat Manager Application"
+sidebar_position: 20
+---
+
 # Install the Threat Manager Application
 
 The application can be installed on the same server as the PostgreSQL databases or a different
@@ -78,4 +84,4 @@ following topics for additional information:
 - [Optionally Install the Action Service on Additional Servers](/docs/threatmanager/3.0/install/actionservice.md)
 - [Secure the Threat Manager Console](/docs/threatmanager/3.0/install/secure.md)
 - During the first launch, you will set up the built-in Administrator account. See the
-  [First Launch](/docs/threatmanager/3.0/install/firstlaunch.md) topic for additional information.
+  [First Launch](/docs/threatmanager/3.0/install/firstlaunch/firstlaunch.md) topic for additional information.

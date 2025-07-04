@@ -1,3 +1,9 @@
+---
+title: "Investigate Filters"
+description: "Investigate Filters"
+sidebar_position: 40
+---
+
 # Investigate Filters
 
 On the [Investigate Interface](/docs/threatprevention/7.5/admin/investigate/overview.md), there are six filter categories that can be applied to

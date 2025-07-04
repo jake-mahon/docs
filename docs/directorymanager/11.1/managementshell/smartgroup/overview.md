@@ -1,3 +1,9 @@
+---
+title: "Smart Group Commands"
+description: "Smart Group Commands"
+sidebar_position: 140
+---
+
 # Smart Group Commands
 
 This section covers cmdlets for managing Smart Groups.

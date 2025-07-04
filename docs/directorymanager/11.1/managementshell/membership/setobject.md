@@ -1,3 +1,9 @@
+---
+title: "Set-Object"
+description: "Set-Object"
+sidebar_position: 50
+---
+
 # Set-Object
 
 The Set-Object commandlet modifies any object such as a user, contact, group (managed or unmanaged),

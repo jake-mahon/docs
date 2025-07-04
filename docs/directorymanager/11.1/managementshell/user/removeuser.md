@@ -1,3 +1,9 @@
+---
+title: "Remove-User"
+description: "Remove-User"
+sidebar_position: 40
+---
+
 # Remove-User
 
 Use the Remove-User commandlet to delete a user from directory.

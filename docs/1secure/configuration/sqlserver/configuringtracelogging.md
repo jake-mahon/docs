@@ -1,10 +1,7 @@
 ---
-id: configure-trace-logging
 title: "Configure Trace Logging"
-pagination_label: "Configure Trace Logging"
-sidebar_label: "Configure Trace Logging"
-sidebar_position: 141
-description: "Learn how to configure and change the default location for SQL Server trace logs."
+description: "Configure Trace Logging"
+sidebar_position: 30
 ---
 
 # Configure Trace Logging
