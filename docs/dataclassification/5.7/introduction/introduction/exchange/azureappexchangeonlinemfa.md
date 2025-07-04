@@ -1,10 +1,10 @@
 ---
-title: "Create Azure AD app for Modern Authentication"
-description: "Create Azure AD app for Modern Authentication"
+title: "Create Entra ID app for Modern Authentication"
+description: "Create Entra ID app for Modern Authentication"
 sidebar_position: 10
 ---
 
-# Create Azure AD app for Modern Authentication
+# Create Entra ID app for Modern Authentication
 
 To connect to Exchange Online organization that uses Modern authentication, you need to create an
 Azure AD application, as described in this section.

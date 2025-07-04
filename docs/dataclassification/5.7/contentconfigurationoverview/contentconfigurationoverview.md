@@ -1,5 +1,5 @@
 ---
-title: "Content Configuration Overview"
+title: "Content Configuration"
 description: "Content Configuration Overview"
 sidebar_position: 30
 ---
