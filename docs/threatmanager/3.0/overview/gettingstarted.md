@@ -72,7 +72,7 @@ pages are located under the [Configuration Menu](/docs/threatmanager/3.0/adminis
 
 - The [Integrations Interface](/docs/threatmanager/3.0/administration/configuration/integrations/overview.md) provides the
   ability to add and configure external integrations for Threat Manager including:
-    - [Active Directory Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/activedirectorysync)
+    - [Active Directory Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/activedirectorysync.md)
     - [Entra ID Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/entraidsync.md)
     - [App Tokens Page](/docs/threatmanager/3.0/administration/configuration/integrations/apptoken.md)
     - [Authentication Provider Page](/docs/threatmanager/3.0/administration/configuration/integrations/page/page.md)

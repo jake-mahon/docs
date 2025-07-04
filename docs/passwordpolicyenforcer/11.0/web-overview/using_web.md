@@ -24,7 +24,7 @@ You can also include the username and/or domain in the URL:
 
 **_RECOMMENDED:_** Install the SSL Certificate the web server and use the HTTPS protocol if Password
 Policy Enforcer Web will be used on an unencrypted network. See the
-[Install an SSL Certificate](/docs/passwordpolicyenforcer/11.0/web-overview/securing_web.md#install-an-ssl-certificate) topic for additional
+[Install an SSL Certificate](/docs/passwordpolicyenforcer/11.0/web-overview/securing_web.md#install-an-sslcertificate) topic for additional
 information.
 
 **NOTE:** A license reminder message is shown occasionally when Password Policy Enforcer Web is used
