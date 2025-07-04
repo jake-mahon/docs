@@ -1,3 +1,9 @@
+---
+title: "Logging in to the Server"
+description: "Logging in to the Server"
+sidebar_position: 10
+---
+
 # Logging in to the Server
 
 After provisioning the Endpoint Protector Server, you can configure the feature modules. To manage

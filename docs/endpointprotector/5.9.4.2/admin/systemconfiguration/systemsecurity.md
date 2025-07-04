@@ -1,3 +1,9 @@
+---
+title: "System Security"
+description: "System Security"
+sidebar_position: 20
+---
+
 # System Security
 
 This section enables you to configure various security settings, including client uninstall

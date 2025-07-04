@@ -1,3 +1,9 @@
+---
+title: "Denylists"
+description: "Denylists"
+sidebar_position: 10
+---
+
 # Denylists
 
 ## Custom Content

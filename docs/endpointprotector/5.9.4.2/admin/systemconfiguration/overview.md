@@ -1,3 +1,9 @@
+---
+title: "System Configuration"
+description: "System Configuration"
+sidebar_position: 140
+---
+
 # System Configuration
 
 This section includes essential elements such as Endpoint Protector Clients, System Licensing, and

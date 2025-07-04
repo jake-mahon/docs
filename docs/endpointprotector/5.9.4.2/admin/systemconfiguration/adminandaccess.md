@@ -1,3 +1,9 @@
+---
+title: "Administration and Access Control"
+description: "Administration and Access Control"
+sidebar_position: 10
+---
+
 # Administration and Access Control
 
 This section allows you to manage system administrators, their roles, and access permissions. It
