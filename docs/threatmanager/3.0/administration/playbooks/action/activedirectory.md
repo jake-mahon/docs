@@ -1,3 +1,9 @@
+---
+title: "Active Directory Target Actions"
+description: "Active Directory Target Actions"
+sidebar_position: 10
+---
+
 # Active Directory Target Actions
 
 The following actions target Active Directory.

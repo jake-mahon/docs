@@ -1,3 +1,9 @@
+---
+title: "New Investigation Page"
+description: "New Investigation Page"
+sidebar_position: 30
+---
+
 # New Investigation Page
 
 The New Investigation page within the Investigations interface enables you to run queries on

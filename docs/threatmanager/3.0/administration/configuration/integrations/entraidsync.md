@@ -1,3 +1,9 @@
+---
+title: "Entra ID Sync Page"
+description: "Entra ID Sync Page"
+sidebar_position: 20
+---
+
 # Entra ID Sync Page
 
 The Entra ID Sync page within the Integrations interface lists all the Entra ID tenants for which

@@ -1,3 +1,9 @@
+---
+title: "Configure Honeytoken Threats"
+description: "Configure Honeytoken Threats"
+sidebar_position: 20
+---
+
 # Configure Honeytoken Threats
 
 The first step for configuring Honeytoken threats is to select a good Honeytoken username format.

@@ -1,3 +1,9 @@
+---
+title: "Application Server Requirements"
+description: "Application Server Requirements"
+sidebar_position: 10
+---
+
 # Application Server Requirements
 
 **CAUTION:** Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager

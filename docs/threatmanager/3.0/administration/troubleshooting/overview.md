@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 60
+---
+
 # Troubleshooting
 
 In case you are experiencing issues with the Netwrix Threat Manager, see the following topics for

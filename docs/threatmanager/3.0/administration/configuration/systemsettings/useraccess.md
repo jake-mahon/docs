@@ -1,3 +1,9 @@
+---
+title: "User Access Page"
+description: "User Access Page"
+sidebar_position: 20
+---
+
 # User Access Page
 
 The User Access page within the System Settings interface displays users and groups with their
@@ -126,7 +132,7 @@ The following authentication types can be assigned to users and groups:
   third-party authentication provider. This must be configure in the Authentication Provider page of
   the Integrations interface in order to be available for user assignment.
 
-See the [Authentication Provider Page](/docs/threatmanager/3.0/administration/configuration/integrations/authenticationprovider/page.md) topic for
+See the [Authentication Provider Page](/docs/threatmanager/3.0/administration/configuration/integrations/page/page.md) topic for
 additional information.
 
 ### Add Console Access

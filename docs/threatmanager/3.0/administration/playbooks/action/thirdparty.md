@@ -1,3 +1,9 @@
+---
+title: "Third-Party Applications Target Actions"
+description: "Third-Party Applications Target Actions"
+sidebar_position: 50
+---
+
 # Third-Party Applications Target Actions
 
 The following actions target third-party applications.

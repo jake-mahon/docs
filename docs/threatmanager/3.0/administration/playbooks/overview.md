@@ -1,9 +1,15 @@
+---
+title: "Playbooks"
+description: "Playbooks"
+sidebar_position: 50
+---
+
 # Playbooks
 
 The first step in designating steps to run in response to a threat is to add a playbook. A playbook
 is used to tie a threat or "trigger type" to the desired step(s) to take in response to that threat.
 A threat response can be assigned to a playbook on the
-[Threat Detection Page](/docs/threatmanager/3.0/administration/configuration/threatdetection.md). Once a playbook has been created,
+[Threat Detection Page](/docs/threatmanager/3.0/administration/configuration/threatdetection/threatdetection.md). Once a playbook has been created,
 steps that specify the desired action for the threat response are then added.
 
 **_RECOMMENDED:_** Execute playbooks in a test environment and review the results prior to executing
@@ -126,7 +132,7 @@ executions and also provides the ability to search the table.
 The table provides the following information:
 
 - Threat – The threat type that triggered the playbook
-    - Click the threat link to open the [Threat Details Page](/docs/threatmanager/3.0/administration/threatdetails/overview.md) and view
+    - Click the threat link to open the [Threat Details Page](/docs/threatmanager/3.0/administration/threats/threatdetails/overview.md) and view
       information about the threat.
 - Threat Detected – The time that the threat was detected
 - Time Started – The time that the playbook was executed

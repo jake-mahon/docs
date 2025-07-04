@@ -1,3 +1,9 @@
+---
+title: "Entra ID Target Actions"
+description: "Entra ID Target Actions"
+sidebar_position: 20
+---
+
 # Entra ID Target Actions
 
 The following actions target an Entra ID application.

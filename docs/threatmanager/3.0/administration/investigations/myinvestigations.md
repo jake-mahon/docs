@@ -1,3 +1,9 @@
+---
+title: "My Investigations Page"
+description: "My Investigations Page"
+sidebar_position: 70
+---
+
 # My Investigations Page
 
 The My Investigations page in the Investigations interface provides a list of saved investigations

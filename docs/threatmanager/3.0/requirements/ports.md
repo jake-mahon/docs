@@ -1,3 +1,9 @@
+---
+title: "Ports Requirements"
+description: "Ports Requirements"
+sidebar_position: 50
+---
+
 # Ports Requirements
 
 Netwrix Threat Manager architecture and components interactions are shown in the figure below.

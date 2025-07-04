@@ -1,3 +1,9 @@
+---
+title: "Optionally Install the Action Service on Additional Servers"
+description: "Optionally Install the Action Service on Additional Servers"
+sidebar_position: 30
+---
+
 # Optionally Install the Action Service on Additional Servers
 
 The Action Service is installed with Threat Manager and is configured in the Threat Manager Console.

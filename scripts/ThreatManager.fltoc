@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ThreatManager/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/GettingStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/WhatsNew.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Types of Threats"
+      Link="/Content/ThreatManager/Threats/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Threats/ActiveDirectory.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Threats/EntraID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Threats/FileSystem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Threats/General.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Threats/Custom.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ThreatManager/Requirements/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Requirements/Server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Requirements/Database.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Requirements/Client.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Requirements/ActionService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Requirements/Ports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Permissions"
+      Link="/Content/ThreatManager/Requirements/Permissions/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Requirements/Permissions/ADSync.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Requirements/Permissions/EntraIDSync.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ThreatManager/Install/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/Database.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/Application.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/ActionService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/Secure.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/FirstLaunch.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Login.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Install/Integration/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Integration/ActivityMonitor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Integration/ThreatPrevention.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatPrevention/Admin/Configuration/ThreatManagerConfiguration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Integration/EnterpriseAuditor.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Upgrade"
+      Link="/Content/ThreatManager/Install/Upgrade.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Upgrade2.8.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Install/Upgrade3.0.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ThreatManager/Administration/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Configuration/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/ThreatDetection.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/ThreatConfiguration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/ThreatResponse.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/Integrations/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/ActiveDirectorySync.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/EntraIDSync.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/AppToken.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/AuthenticationProvider/Page.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/ThreatManager/Administration/Configuration/Integrations/AuthenticationProvider/RADIUS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/ThreatManager/Administration/Configuration/Integrations/AuthenticationProvider/OpenID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry
+              Title="[%=System.LinkedTitle%]"
+              Link="/Content/ThreatManager/Administration/Configuration/Integrations/AuthenticationProvider/EntraIDOpenID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/ThreatManager/Administration/Configuration/Integrations/AuthenticationProvider/SAML.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/CredentialProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/Email.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/FolderSettings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/SIEM.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/NetwrixIntegrations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Integrations/TagManagement.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/Policies/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Policies/PoliciesConfiguration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/Policies/Honeytoken.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/SystemHealth/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemHealth/Backlog.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemHealth/ActionQueue.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemHealth/Agents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemHealth/Services.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/Auditing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/UserAccess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/Licensing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/SystemJobs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Configuration/SystemSettings/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Threats.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/ThreatDetails/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/AbnormalBehavior.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/ThreatDetails/ActiveDirectoryObjects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/User.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/Group.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/Host.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Entra ID Object Details Pages"
+        Link="/Content/ThreatManager/Administration/ThreatDetails/EntraIDObjects.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/EntraIDUser.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/EntraIDGroup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/EntraIDRole.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/ThreatDetails/EntraIDApplication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Investigations/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/Options/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Investigations/Options/Filters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Investigations/Options/Edit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Investigations/Options/Subscription.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Investigations/Options/Export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/Reports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/NewInvestigation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/Favorites.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/AuditCompliance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/PredefinedInvestigations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/MyInvestigations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Investigations/SubscriptionsExports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Playbooks/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/EditStep.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/Save.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/Import.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/Export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/ImportSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/Trigger.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Playbooks/Action/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/ActiveDirectory.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/EntraID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/LocalHost.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/Tag.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/ThirdParty.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/WindowsFileServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ThreatManager/Administration/Playbooks/Action/WindowsServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ThreatManager/Administration/Troubleshooting/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Troubleshooting/Log.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ThreatManager/Administration/Troubleshooting/UpdatePasswords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

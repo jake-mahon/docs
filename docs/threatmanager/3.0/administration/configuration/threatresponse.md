@@ -1,3 +1,9 @@
+---
+title: "Threat Response Page"
+description: "Threat Response Page"
+sidebar_position: 20
+---
+
 # Threat Response Page
 
 The Threat Response page provides the ability to create playbooks and add steps which contain

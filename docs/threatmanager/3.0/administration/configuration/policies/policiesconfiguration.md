@@ -1,3 +1,9 @@
+---
+title: "Policy Configuration"
+description: "Policy Configuration"
+sidebar_position: 10
+---
+
 # Policy Configuration
 
 The Policy Details page displays information about the Honeytoken configuration.

@@ -1,3 +1,9 @@
+---
+title: "Action Configuration for Playbook Steps"
+description: "Action Configuration for Playbook Steps"
+sidebar_position: 70
+---
+
 # Action Configuration for Playbook Steps
 
 When adding preconfigured actions as steps in a playbook, the configuration information required

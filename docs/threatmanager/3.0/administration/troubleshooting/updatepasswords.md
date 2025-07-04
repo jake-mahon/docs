@@ -1,3 +1,9 @@
+---
+title: "Updating Passwords"
+description: "Updating Passwords"
+sidebar_position: 20
+---
+
 # Updating Passwords
 
 This section describes how to update passwords in the Threat Manager console. Passwords in Threat

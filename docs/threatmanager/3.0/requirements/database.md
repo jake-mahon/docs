@@ -1,3 +1,9 @@
+---
+title: "Database Server Requirements"
+description: "Database Server Requirements"
+sidebar_position: 20
+---
+
 # Database Server Requirements
 
 **NOTE:** Use this information when the database server is separate from the application server.

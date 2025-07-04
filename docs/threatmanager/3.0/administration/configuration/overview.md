@@ -1,3 +1,9 @@
+---
+title: "Configuration Menu"
+description: "Configuration Menu"
+sidebar_position: 20
+---
+
 # Configuration Menu
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.
@@ -7,7 +13,7 @@ Use the gear icon in the upper right corner of the console to open the Configura
 It contains links to the component configuration and settings interfaces:
 
 - Threat Detection – Provides an interface to configure threat monitoring. See the
-  [Threat Detection Page](/docs/threatmanager/3.0/administration/configuration/threatdetection.md) topic for additional information.
+  [Threat Detection Page](/docs/threatmanager/3.0/administration/configuration/threatdetection/threatdetection.md) topic for additional information.
 - Threat Response – Provides the ability to designate playbooks, which contain actions that can be
   executed in response to detected threats. See the [Threat Response Page](/docs/threatmanager/3.0/administration/configuration/threatresponse.md) topic
   for additional information.

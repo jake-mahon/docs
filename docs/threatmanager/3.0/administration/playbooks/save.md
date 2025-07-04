@@ -1,3 +1,9 @@
+---
+title: "Save a Playbook Step to My Steps"
+description: "Save a Playbook Step to My Steps"
+sidebar_position: 20
+---
+
 # Save a Playbook Step to My Steps
 
 Sometimes it may be convenient to save a step so that it can be added to multiple playbooks without

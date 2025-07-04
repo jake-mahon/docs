@@ -1,3 +1,9 @@
+---
+title: "Subscriptions and Exports Page"
+description: "Subscriptions and Exports Page"
+sidebar_position: 80
+---
+
 # Subscriptions and Exports Page
 
 A subscription sends the report results for an investigation to recipients via email as an

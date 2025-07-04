@@ -1,3 +1,9 @@
+---
+title: "Investigations Interface"
+description: "Investigations Interface"
+sidebar_position: 40
+---
+
 # Investigations Interface
 
 The Investigation interface allows administrators to investigate all data available to the

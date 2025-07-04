@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 The navigation header contains the following links on the top left side of the page:
@@ -5,7 +11,7 @@ The navigation header contains the following links on the top left side of the p
 ![headerbarleft](/img/product_docs/threatmanager/3.0/administration/headerbarleft.webp)
 
 - Threat Manager – Opens the Home page for the Threat Manager Console
-- Threats – Opens the [Threats Page](/docs/threatmanager/3.0/administration/threats.md)
+- Threats – Opens the [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md)
 - Investigate – Opens the [Investigations Interface](/docs/threatmanager/3.0/administration/investigations/overview.md)
 
 **NOTE:** For mobile users, only the icons are displayed for the Threats and Investigate links.
@@ -40,7 +46,7 @@ and users with risky activity.
 
 ## Threats Page
 
-The Threat Manager [Threats Page](/docs/threatmanager/3.0/administration/threats.md) is where end users and analysts investigate possible
+The Threat Manager [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md) is where end users and analysts investigate possible
 threats in their environment. This page displays a historical timeline of the detected threats and
 advanced filtering that allows users to find threats with ease. An end user can drill down into
 threats and view additional details. Threats have a response workflow that enables teams to assign a

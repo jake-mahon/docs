@@ -1,3 +1,9 @@
+---
+title: "Trigger a Playbook Manually"
+description: "Trigger a Playbook Manually"
+sidebar_position: 60
+---
+
 # Trigger a Playbook Manually
 
 If a playbook is configured to be allowed for a threat, a Threat Response button will be shown on

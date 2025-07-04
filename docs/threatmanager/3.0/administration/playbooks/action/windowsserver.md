@@ -1,3 +1,9 @@
+---
+title: "Windows Server Target Actions"
+description: "Windows Server Target Actions"
+sidebar_position: 70
+---
+
 # Windows Server Target Actions
 
 The following actions target Windows servers.

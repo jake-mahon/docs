@@ -1,3 +1,9 @@
+---
+title: "Integration with Other Netwrix Products"
+description: "Integration with Other Netwrix Products"
+sidebar_position: 60
+---
+
 # Integration with Other Netwrix Products
 
 The following Netwrix products can be configured to send data to Threat Manager:
@@ -6,7 +12,7 @@ The following Netwrix products can be configured to send data to Threat Manager:
   send file system data and/or Active Directory data to Threat Manager.
     - The Active Directory data stream requires a unique App Token to be generated within Threat
       Manager.
-- [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/install/integration/threatprevention.md) – Threat Prevention can be configured
+- [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/install/integration/threatprevention/threatprevention.md) – Threat Prevention can be configured
   to send file system data and/or Active Directory data to Threat Manager.
     - Requires a unique App Token to be generated within Threat Manager.
 - [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/install/integration/accessanalyzer.md) – Access

@@ -1,3 +1,9 @@
+---
+title: "Auditing Page"
+description: "Auditing Page"
+sidebar_position: 10
+---
+
 # Auditing Page
 
 The Auditing page within the System Settings interface contains the Audit History table with

@@ -1,3 +1,9 @@
+---
+title: "Permissions for Active Directory Sync"
+description: "Permissions for Active Directory Sync"
+sidebar_position: 10
+---
+
 # Permissions for Active Directory Sync
 
 The following permissions are required for the credential used by Threat Manager for Active

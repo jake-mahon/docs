@@ -1,3 +1,9 @@
+---
+title: "Secure the Threat Manager Console"
+description: "Secure the Threat Manager Console"
+sidebar_position: 40
+---
+
 # Secure the Threat Manager Console
 
 To support HTTPS, do the following:

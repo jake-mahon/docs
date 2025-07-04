@@ -1,3 +1,9 @@
+---
+title: "SIEM Page"
+description: "SIEM Page"
+sidebar_position: 80
+---
+
 # SIEM Page
 
 The SIEM page provides configuration settings for forwarding threat information to a SIEM service

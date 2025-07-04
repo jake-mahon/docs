@@ -1,3 +1,9 @@
+---
+title: "Licensing Page"
+description: "Licensing Page"
+sidebar_position: 30
+---
+
 # Licensing Page
 
 License information is displayed on the Licensing page of the System Settings interface. Threat

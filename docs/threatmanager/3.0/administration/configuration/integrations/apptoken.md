@@ -1,3 +1,9 @@
+---
+title: "App Tokens Page"
+description: "App Tokens Page"
+sidebar_position: 30
+---
+
 # App Tokens Page
 
 The App Tokens page provides the ability to generate and manage the app tokens needed to send data

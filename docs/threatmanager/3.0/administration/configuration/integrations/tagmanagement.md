@@ -1,3 +1,9 @@
+---
+title: "Tag Management Page"
+description: "Tag Management Page"
+sidebar_position: 100
+---
+
 # Tag Management Page
 
 The Tag Management page displays all tags that are currently managed by the application, including

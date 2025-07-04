@@ -1,3 +1,9 @@
+---
+title: "Filters Section"
+description: "Filters Section"
+sidebar_position: 10
+---
+
 # Filters Section
 
 The Filters section provides options to build a filter statement by selecting the Attribute,
