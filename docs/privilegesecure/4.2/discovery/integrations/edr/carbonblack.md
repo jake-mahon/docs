@@ -1,3 +1,9 @@
+---
+title: "Carbon Black"
+description: "Carbon Black"
+sidebar_position: 10
+---
+
 # Carbon Black
 
 Carbon Black

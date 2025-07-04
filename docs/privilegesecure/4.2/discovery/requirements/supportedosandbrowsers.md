@@ -1,3 +1,9 @@
+---
+title: "Supported Operating Systems and Browsers"
+description: "Supported Operating Systems and Browsers"
+sidebar_position: 60
+---
+
 # Supported Operating Systems and Browsers
 
 Supported Operating Systems and Browsers
@@ -24,8 +30,8 @@ the OS requirements, please reach out to Netwrix Support.
 | Debian 7                                                                                                            | Netwrix AWS | Success      |                                                                                                                                                                                                                                                                |
 | Debian 11                                                                                                           | Netwrix AWS | Success      |                                                                                                                                                                                                                                                                |
 | Windows                                                                                                             |             |              |                                                                                                                                                                                                                                                                |
-| Windows XP and onwards                                                                                              | Netwrix AWS | Success      | Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows. See the [SASL Kerberos](/docs/privilegesecure/4.2/discovery/admin/configuration/saslkerberos.md) topic for additional information. |
-| Windows Server 2003 and Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows.onwards | Netwrix AWS | Success      | Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows. See the [SASL Kerberos](/docs/privilegesecure/4.2/discovery/admin/configuration/saslkerberos.md) topic for additional information. |
+| Windows XP and onwards                                                                                              | Netwrix AWS | Success      | Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows. See the [SASL Kerberos](/docs/privilegesecure/4.2/discovery/administration/configuration/saslkerberos.md) topic for additional information. |
+| Windows Server 2003 and Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows.onwards | Netwrix AWS | Success      | Netwrix cannot guarantee support of Kerberos for out-of-support versions of Windows. See the [SASL Kerberos](/docs/privilegesecure/4.2/discovery/administration/configuration/saslkerberos.md) topic for additional information. |
 
 ## Browser Requirements
 

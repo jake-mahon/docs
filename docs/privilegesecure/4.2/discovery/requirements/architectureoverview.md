@@ -1,3 +1,9 @@
+---
+title: "Architectue Overview"
+description: "Architectue Overview"
+sidebar_position: 10
+---
+
 # Architectue Overview
 
 Architectue Overview

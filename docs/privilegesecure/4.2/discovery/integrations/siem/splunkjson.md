@@ -1,3 +1,9 @@
+---
+title: "Splunk (JSON) Source Type"
+description: "Splunk (JSON) Source Type"
+sidebar_position: 10
+---
+
 # Splunk (JSON) Source Type
 
 Splunk (JSON) Source Type

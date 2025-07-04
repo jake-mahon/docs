@@ -1,3 +1,9 @@
+---
+title: "Port, Firewall, and Datacenter Requirements"
+description: "Port, Firewall, and Datacenter Requirements"
+sidebar_position: 40
+---
+
 # Port, Firewall, and Datacenter Requirements
 
 Port, Firewall, and Datacenter Requirements

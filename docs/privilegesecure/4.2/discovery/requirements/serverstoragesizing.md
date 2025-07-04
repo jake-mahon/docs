@@ -1,3 +1,9 @@
+---
+title: "Server Storage Sizing"
+description: "Server Storage Sizing"
+sidebar_position: 30
+---
+
 # Server Storage Sizing
 
 Server Storage Sizing

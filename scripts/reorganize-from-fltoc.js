@@ -50,11 +50,11 @@ function getAllMdFiles(dir, rel = '') {
 
 function mapFltocLinkToMd(link) {
   if (link.startsWith('/Content/Config/')) {
-    return link.replace('/Content/', '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
+    return link.replace('/Content/', '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith('/Content/Access/General/')) {
-    return link.replace('/Content/Access/General/', 'general/').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
+    return link.replace('/Content/Access/General/', 'general/').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
-    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
+    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   }
   return null;
 }

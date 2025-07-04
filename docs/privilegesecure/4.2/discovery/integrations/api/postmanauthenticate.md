@@ -1,3 +1,9 @@
+---
+title: "Postman: Authenticate using an API key"
+description: "Postman: Authenticate using an API key"
+sidebar_position: 40
+---
+
 # Postman: Authenticate using an API key
 
 Postman: Authenticate using an API key

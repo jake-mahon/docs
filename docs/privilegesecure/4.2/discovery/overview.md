@@ -1,3 +1,9 @@
+---
+title: "Netwrix Privilege Secure for Discovery v2.21 Documentation"
+description: "Netwrix Privilege Secure for Discovery v2.21 Documentation"
+sidebar_position: 20
+---
+
 # Netwrix Privilege Secure for Discovery v2.21 Documentation
 
 Netwrix Privilege Secure for Discovery v2.21 Documentation
