@@ -1,3 +1,9 @@
+---
+title: "Introduction Guide"
+description: "Introduction Guide"
+sidebar_position: 10
+---
+
 # Introduction Guide
 
 This guide is designed to give a complete overview of Identity Manager's principles, main objectives

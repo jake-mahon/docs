@@ -1,3 +1,9 @@
+---
+title: "Compute a Scalar Property"
+description: "Compute a Scalar Property"
+sidebar_position: 20
+---
+
 # Compute a Scalar Property
 
 How to define scalar rules to compute and provision the values of scalar properties for target

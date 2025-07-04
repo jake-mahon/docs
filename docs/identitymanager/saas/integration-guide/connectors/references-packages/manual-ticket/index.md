@@ -1,3 +1,9 @@
+---
+title: "Manual Ticket"
+description: "Manual Ticket"
+sidebar_position: 170
+---
+
 # Manual Ticket
 
 Opens manual provisioning tickets in Identity Manager.

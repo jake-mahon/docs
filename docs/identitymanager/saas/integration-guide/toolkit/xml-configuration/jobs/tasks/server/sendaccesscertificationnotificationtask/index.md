@@ -1,3 +1,9 @@
+---
+title: "Send Access Certification Notification Task"
+description: "Send Access Certification Notification Task"
+sidebar_position: 160
+---
+
 # Send Access Certification Notification Task
 
 Notify assigned users having pending access certification items in campaign marked with

@@ -1,3 +1,9 @@
+---
+title: "Set up SharePoint's Export and Synchronization"
+description: "Set up SharePoint's Export and Synchronization"
+sidebar_position: 180
+---
+
 # Set up SharePoint's Export and Synchronization
 
 This guide shows how to set up a [SharePoint](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/sharepoint/index.md)

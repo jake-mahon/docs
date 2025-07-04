@@ -1,3 +1,9 @@
+---
+title: "Deploy the Configuration"
+description: "Deploy the Configuration"
+sidebar_position: 90
+---
+
 # Deploy the Configuration
 
 This guide shows how to deploy the XML configuration, in order to build and use the Identity Manager

@@ -1,3 +1,9 @@
+---
+title: "Create a Policy"
+description: "Create a Policy"
+sidebar_position: 40
+---
+
 # Create a Policy
 
 How to define policies to organize roles and rules. See the

@@ -1,3 +1,9 @@
+---
+title: "Homonym Entity Link"
+description: "Homonym Entity Link"
+sidebar_position: 30
+---
+
 # Homonym Entity Link
 
 This entity is used to configure the homonym workflow.

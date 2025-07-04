@@ -1,3 +1,9 @@
+---
+title: "Create Roles in the Role Catalog"
+description: "Create Roles in the Role Catalog"
+sidebar_position: 100
+---
+
 # Create Roles in the Role Catalog
 
 How to define

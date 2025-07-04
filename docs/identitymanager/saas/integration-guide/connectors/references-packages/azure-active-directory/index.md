@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID"
+description: "Microsoft Entra ID"
+sidebar_position: 40
+---
+
 # Microsoft Entra ID
 
 Manages users and groups in Microsoft Entra ID. This package supports incremental synchronization

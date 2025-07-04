@@ -1,3 +1,9 @@
+---
+title: "Usercube-Protect-X509JsonValue"
+description: "Usercube-Protect-X509JsonValue"
+sidebar_position: 320
+---
+
 # Usercube-Protect-X509JsonValue
 
 This tool is used to encrypt sensitive connection data, for example data from the

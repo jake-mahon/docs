@@ -1,3 +1,9 @@
+---
+title: "Create a Resource Type"
+description: "Create a Resource Type"
+sidebar_position: 10
+---
+
 # Create a Resource Type
 
 How to create the container for future correlation and classification rules inside a given managed

@@ -1,3 +1,9 @@
+---
+title: "Usercube-Configuration-Transform"
+description: "Usercube-Configuration-Transform"
+sidebar_position: 50
+---
+
 # Usercube-Configuration-Transform
 
 This tool applies a series of transformations specified in a JSON file, on the content of a given

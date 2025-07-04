@@ -1,3 +1,9 @@
+---
+title: "References: Connectors"
+description: "References: Connectors"
+sidebar_position: 20
+---
+
 # References: Connectors
 
 Connectors are the mechanisms that enable Identity Manager to read and write data to/from your

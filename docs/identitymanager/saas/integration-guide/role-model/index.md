@@ -1,3 +1,9 @@
+---
+title: "Role Model"
+description: "Role Model"
+sidebar_position: 80
+---
+
 # Role Model
 
 The role model, with its computation and enforcement, is at the heart of Identity Manager's engine.

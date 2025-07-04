@@ -1,3 +1,9 @@
+---
+title: "C# utility functions"
+description: "C# utility functions"
+sidebar_position: 10
+---
+
 # C# utility functions
 
 These functions can be called in any C# expression specified in the configuration. See the

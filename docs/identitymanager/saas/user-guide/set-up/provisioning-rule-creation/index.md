@@ -1,3 +1,9 @@
+---
+title: "Create a Provisioning Rule"
+description: "Create a Provisioning Rule"
+sidebar_position: 90
+---
+
 # Create a Provisioning Rule
 
 How to define scalar rules, navigation rules and/or query rules to compute and provision target

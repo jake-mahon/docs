@@ -1,3 +1,9 @@
+---
+title: "Usercube-CSV-Transform"
+description: "Usercube-CSV-Transform"
+sidebar_position: 30
+---
+
 # Usercube-CSV-Transform
 
 ## Examples

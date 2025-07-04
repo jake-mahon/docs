@@ -1,3 +1,9 @@
+---
+title: "RunJobRepairNotificationAccessControlRules"
+description: "RunJobRepairNotificationAccessControlRules"
+sidebar_position: 110
+---
+
 # RunJobRepairNotificationAccessControlRules
 
 Generates access control to send notification when a relaunch job finish with an error state.

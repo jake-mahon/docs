@@ -1,3 +1,9 @@
+---
+title: "Build Unique Value Aspect"
+description: "Build Unique Value Aspect"
+sidebar_position: 40
+---
+
 # Build Unique Value Aspect
 
 Computes a unique value for a given property.

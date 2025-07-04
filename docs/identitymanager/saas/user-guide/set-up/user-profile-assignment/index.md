@@ -1,3 +1,9 @@
+---
+title: "Assign Users a Profile"
+description: "Assign Users a Profile"
+sidebar_position: 110
+---
+
 # Assign Users a Profile
 
 How to assign Identity Manager's access permissions to users through profiles.

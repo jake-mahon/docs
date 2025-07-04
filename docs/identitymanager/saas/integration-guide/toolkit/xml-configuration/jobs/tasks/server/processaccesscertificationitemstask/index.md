@@ -1,3 +1,9 @@
+---
+title: "Process Access Certification Items Task"
+description: "Process Access Certification Items Task"
+sidebar_position: 130
+---
+
 # Process Access Certification Items Task
 
 Launch the deprovisioning of declined entitlement assignments for all AccessCertificationItems

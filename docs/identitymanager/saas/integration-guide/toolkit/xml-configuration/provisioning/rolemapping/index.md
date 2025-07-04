@@ -1,3 +1,9 @@
+---
+title: "Role Mapping"
+description: "Role Mapping"
+sidebar_position: 150
+---
+
 # Role Mapping
 
 Defines a naming rule to create a single role in a specific category based on a property. A

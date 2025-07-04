@@ -1,3 +1,9 @@
+---
+title: "XML Configuration Schema"
+description: "XML Configuration Schema"
+sidebar_position: 80
+---
+
 # XML Configuration Schema
 
 ## Overview

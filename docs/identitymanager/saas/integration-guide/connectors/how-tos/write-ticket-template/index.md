@@ -1,3 +1,9 @@
+---
+title: "Write a Template for a Ticket Connector"
+description: "Write a Template for a Ticket Connector"
+sidebar_position: 90
+---
+
 # Write a Template for a Ticket Connector
 
 This guide shows how to write a template that will be used by a Ticket connector to complete the

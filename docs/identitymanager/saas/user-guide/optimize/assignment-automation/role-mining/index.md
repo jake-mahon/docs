@@ -1,3 +1,9 @@
+---
+title: "Perform Role Mining"
+description: "Perform Role Mining"
+sidebar_position: 20
+---
+
 # Perform Role Mining
 
 How to use role mining to suggest role assignment rules based on existing assignments, in order to

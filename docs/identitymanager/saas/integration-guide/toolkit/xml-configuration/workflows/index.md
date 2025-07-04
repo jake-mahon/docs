@@ -1,3 +1,9 @@
+---
+title: "Workflows"
+description: "Workflows"
+sidebar_position: 130
+---
+
 # Workflows
 
 - [Aspects](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md)

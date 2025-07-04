@@ -1,3 +1,9 @@
+---
+title: "Export CyberArk Data via SCIM"
+description: "Export CyberArk Data via SCIM"
+sidebar_position: 160
+---
+
 # Export CyberArk Data via SCIM
 
 This guide shows how to set up a [SCIM](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/index.md) connector to

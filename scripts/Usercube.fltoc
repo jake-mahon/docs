@@ -1,0 +1,2079 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Home Page"
+    Link="/Content/Usercube/index.html">
+    <TocEntry
+      Title="Introduction Guide"
+      Link="/Content/Usercube/introduction-guide/index.html">
+      <TocEntry
+        Title="IGA and Netwrix Identity Manager"
+        Link="/Content/Usercube/introduction-guide/overview/index.html">
+        <TocEntry
+          Title="Identity Management"
+          Link="/Content/Usercube/introduction-guide/overview/identity-management/index.html" />
+        <TocEntry
+          Title="Entitlement Management"
+          Link="/Content/Usercube/introduction-guide/overview/entitlement-management/index.html" />
+        <TocEntry
+          Title="Governance"
+          Link="/Content/Usercube/introduction-guide/overview/governance/index.html" />
+        <TocEntry
+          Title="Use Case Stories"
+          Link="/Content/Usercube/introduction-guide/overview/use-cases/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Architecture"
+        Link="/Content/Usercube/introduction-guide/architecture/index.html" />
+      <TocEntry
+        Title="Configuration"
+        Link="/Content/Usercube/introduction-guide/configuration/index.html" />
+    </TocEntry>
+    <TocEntry
+      Title="User Guide"
+      Link="/Content/Usercube/user-guide/index.html">
+      <TocEntry
+        Title="Global Process"
+        Link="/Content/Usercube/user-guide/global-process/index.html">
+        <TocEntry
+          Title="How to Start"
+          Link="/Content/Usercube/user-guide/global-process/howto-start/index.html" />
+        <TocEntry
+          Title="How to Maintain the Workforce Directory"
+          Link="/Content/Usercube/user-guide/global-process/howto-maintaindirectory/index.html" />
+        <TocEntry
+          Title="How to Implement a New System"
+          Link="/Content/Usercube/user-guide/global-process/howto-newsystem/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Set Up"
+        Link="/Content/Usercube/user-guide/set-up/index.html">
+        <TocEntry
+          Title="Install the Development Environment"
+          Link="/Content/Usercube/user-guide/set-up/development-environment-installation/index.html" />
+        <TocEntry
+          Title="Create the Workforce Repository"
+          Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/index.html">
+          <TocEntry
+            Title="Configure Unique Property Generation"
+            Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.html" />
+          <TocEntry
+            Title="Load Identities to Identity Manager"
+            Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/load-identities/index.html" />
+          <TocEntry
+            Title="Template Description"
+            Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/template-description/index.html" />
+          <TocEntry
+            Title="Adjust the Workforce Data Model"
+            Link="/Content/Usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Configure Global Settings"
+          Link="/Content/Usercube/user-guide/set-up/configure-global-settings/index.htm" />
+        <TocEntry
+          Title="Configure Onboarding Workflows"
+          Link="/Content/Usercube/user-guide/set-up/configure-workflows/index.html" />
+        <TocEntry
+          Title="Configure a User Profile"
+          Link="/Content/Usercube/user-guide/set-up/user-profile-configuration/index.html" />
+        <TocEntry
+          Title="Connect to a Managed System"
+          Link="/Content/Usercube/user-guide/set-up/connect-system/index.html">
+          <TocEntry
+            Title="Model the Data"
+            Link="/Content/Usercube/user-guide/set-up/connect-system/connector-modeling/index.html" />
+          <TocEntry
+            Title="Create the Connector"
+            Link="/Content/Usercube/user-guide/set-up/connect-system/connector-declaration/index.html" />
+          <TocEntry
+            Title="Create a Connection"
+            Link="/Content/Usercube/user-guide/set-up/connect-system/connection-creation/index.html" />
+          <TocEntry
+            Title="Create an Entity Type"
+            Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/index.html">
+            <TocEntry
+              Title="Create the Entity Type"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.html" />
+            <TocEntry
+              Title="Define Scalar Properties"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.html" />
+            <TocEntry
+              Title="Select Primary Keys"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.html" />
+            <TocEntry
+              Title="Define Navigation Properties"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.html" />
+            <TocEntry
+              Title="Set Resources' Display Names"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.html" />
+            <TocEntry
+              Title="Organize Resources' Datasheets"
+              Link="/Content/Usercube/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.html" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Synchronize Data"
+          Link="/Content/Usercube/user-guide/set-up/synchronization/index.html" />
+        <TocEntry
+          Title="Categorize Resources"
+          Link="/Content/Usercube/user-guide/set-up/categorization/index.html">
+          <TocEntry
+            Title="Create a Resource Type"
+            Link="/Content/Usercube/user-guide/set-up/categorization/resource-type-creation/index.html" />
+          <TocEntry
+            Title="Correlate Resources"
+            Link="/Content/Usercube/user-guide/set-up/categorization/correlation/index.html" />
+          <TocEntry
+            Title="Classify Resources"
+            Link="/Content/Usercube/user-guide/set-up/categorization/classification/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Create a Provisioning Rule"
+          Link="/Content/Usercube/user-guide/set-up/provisioning-rule-creation/index.html">
+          <TocEntry
+            Title="Create Resources"
+            Link="/Content/Usercube/user-guide/set-up/provisioning-rule-creation/resource-creation/index.html" />
+          <TocEntry
+            Title="Compute a Scalar Property"
+            Link="/Content/Usercube/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.html" />
+          <TocEntry
+            Title="Compute a Navigation Property"
+            Link="/Content/Usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Create Roles in the Role Catalog"
+          Link="/Content/Usercube/user-guide/set-up/single-roles-catalog-creation/index.html">
+          <TocEntry
+            Title="Create Roles in Bulk"
+            Link="/Content/Usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.html" />
+          <TocEntry
+            Title="Create a Category"
+            Link="/Content/Usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.html" />
+          <TocEntry
+            Title="Create a Role Manually"
+            Link="/Content/Usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Assign Users a Profile"
+          Link="/Content/Usercube/user-guide/set-up/user-profile-assignment/index.html" />
+        <TocEntry
+          Title="Manage Role Officers"
+          Link="/Content/Usercube/user-guide/set-up/role-officer-management/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Administrate"
+        Link="/Content/Usercube/user-guide/administrate/index.html">
+        <TocEntry
+          Title="Generate Reports"
+          Link="/Content/Usercube/user-guide/administrate/reporting/index.html" />
+        <TocEntry
+          Title="Review Orphaned and Unused Accounts"
+          Link="/Content/Usercube/user-guide/administrate/orphan-unused-account-review/index.html" />
+        <TocEntry
+          Title="Provision"
+          Link="/Content/Usercube/user-guide/administrate/provisioning/index.html">
+          <TocEntry
+            Title="Review Provisioning"
+            Link="/Content/Usercube/user-guide/administrate/provisioning/provisioning-review/index.html" />
+          <TocEntry
+            Title="Provision Manually"
+            Link="/Content/Usercube/user-guide/administrate/provisioning/manual-provisioning/index.html" />
+          <TocEntry
+            Title="Provision Automatically"
+            Link="/Content/Usercube/user-guide/administrate/provisioning/automatic-provisioning/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Review Non-conforming Assignments"
+          Link="/Content/Usercube/user-guide/administrate/non-conforming-assignment-review/index.html">
+          <TocEntry
+            Title="Reconcile a Role"
+            Link="/Content/Usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.html" />
+          <TocEntry
+            Title="Reconcile a Property"
+            Link="/Content/Usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.html" />
+          <TocEntry
+            Title="Review an Unauthorized Account"
+            Link="/Content/Usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Perform Access Certification"
+          Link="/Content/Usercube/user-guide/administrate/access-certification/index.html">
+          <TocEntry
+            Title="Schedule a Certification Campaign"
+            Link="/Content/Usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.html" />
+          <TocEntry
+            Title="Execute a Certification Campaign"
+            Link="/Content/Usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Request Entitlement Assignment"
+          Link="/Content/Usercube/user-guide/administrate/manual-assignment-request/index.html" />
+        <TocEntry
+          Title="Review Assigned Roles"
+          Link="/Content/Usercube/user-guide/administrate/assigned-roles/index.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Optimize"
+        Link="/Content/Usercube/user-guide/optimize/index.html">
+        <TocEntry
+          Title="Modify the Identity Data Model"
+          Link="/Content/Usercube/user-guide/optimize/identity-datamodel-modification/index.html" />
+        <TocEntry
+          Title="Create an HR Connector"
+          Link="/Content/Usercube/user-guide/optimize/hr-connector-creation/index.html" />
+        <TocEntry
+          Title="Manage Risks"
+          Link="/Content/Usercube/user-guide/optimize/risk-management/index.html" />
+        <TocEntry
+          Title="Create a Policy"
+          Link="/Content/Usercube/user-guide/optimize/policy-creation/index.html" />
+        <TocEntry
+          Title="Automate the Review of Non-conforming Assignments"
+          Link="/Content/Usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.html" />
+        <TocEntry
+          Title="Automate Assignments"
+          Link="/Content/Usercube/user-guide/optimize/assignment-automation/index.html">
+          <TocEntry
+            Title="Automate Role Assignments"
+            Link="/Content/Usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.html" />
+          <TocEntry
+            Title="Perform Role Mining"
+            Link="/Content/Usercube/user-guide/optimize/assignment-automation/role-mining/index.html" />
+          <TocEntry
+            Title="Remove Redundant Assignments"
+            Link="/Content/Usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Create a Composite Role"
+          Link="/Content/Usercube/user-guide/optimize/composite-role-creation/index.html" />
+        <TocEntry
+          Title="Configure a Parameterized Role"
+          Link="/Content/Usercube/user-guide/optimize/parameterized-role/index.html" />
+        <TocEntry
+          Title="Perform a Simulation"
+          Link="/Content/Usercube/user-guide/optimize/simulation/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Deploy"
+        Link="/Content/Usercube/user-guide/deploy/index.html">
+        <TocEntry
+          Title="Plan Change Management"
+          Link="/Content/Usercube/user-guide/deploy/change-management/index.html" />
+        <TocEntry
+          Title="Install the Production Agent"
+          Link="/Content/Usercube/user-guide/deploy/production-agent-installation/index.html">
+          <TocEntry
+            Title="Configure the Agent's Settings"
+            Link="/Content/Usercube/user-guide/deploy/production-agent-installation/settings-files/index.html" />
+          <TocEntry
+            Title="Install IIS via Server Manager"
+            Link="/Content/Usercube/user-guide/deploy/production-agent-installation/iis-installation/index.html" />
+          <TocEntry
+            Title="Configure the Pool and Site"
+            Link="/Content/Usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.html" />
+          <TocEntry
+            Title="Set the Working Directory's Permissions"
+            Link="/Content/Usercube/user-guide/deploy/production-agent-installation/directory-permissions/index.html" />
+          <TocEntry
+            Title="Finalize the Installation"
+            Link="/Content/Usercube/user-guide/deploy/production-agent-installation/finalization/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Set Up User Authentication"
+          Link="/Content/Usercube/user-guide/deploy/authentication/index.html" />
+        <TocEntry
+          Title="Implement Identity Manager"
+          Link="/Content/Usercube/user-guide/deploy/implementation/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Maintain"
+        Link="/Content/Usercube/user-guide/maintain/index.html">
+        <TocEntry
+          Title="Update Identity Data"
+          Link="/Content/Usercube/user-guide/maintain/identity-data-modification/index.html">
+          <TocEntry
+            Title="Update an Individual Identity"
+            Link="/Content/Usercube/user-guide/maintain/identity-data-modification/individual-update/index.html" />
+          <TocEntry
+            Title="Update Multiple Identities"
+            Link="/Content/Usercube/user-guide/maintain/identity-data-modification/multiple-update/index.html" />
+          <TocEntry
+            Title="Update Identities in Bulk"
+            Link="/Content/Usercube/user-guide/maintain/identity-data-modification/mass-update/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Troubleshoot"
+          Link="/Content/Usercube/user-guide/maintain/troubleshooting/index.html" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Integration Guide"
+      Link="/Content/Usercube/integration-guide/index.html">
+      <TocEntry
+        Title="Identity Management"
+        Link="/Content/Usercube/integration-guide/identity-management/index.html">
+        <TocEntry
+          Title="Identity Repository"
+          Link="/Content/Usercube/integration-guide/identity-management/identity-repository/index.html" />
+        <TocEntry
+          Title="Identity Lifecycle: Joiners, Movers and Leavers"
+          Link="/Content/Usercube/integration-guide/identity-management/joiners-movers-leavers/index.html">
+          <TocEntry
+            Title="Onboarding and Offboarding"
+            Link="/Content/Usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.html" />
+          <TocEntry
+            Title="Position Change via Records"
+            Link="/Content/Usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.html" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Resources"
+        Link="/Content/Usercube/integration-guide/resources/index.html" />
+      <TocEntry
+        Title="Entity Model"
+        Link="/Content/Usercube/integration-guide/entity-model/index.html" />
+      <TocEntry
+        Title="Connectors"
+        Link="/Content/Usercube/integration-guide/connectors/index.html">
+        <TocEntry
+          Title="Configuration Details"
+          Link="/Content/Usercube/integration-guide/connectors/configuration-details/index.html">
+          <TocEntry
+            Title="Connections"
+            Link="/Content/Usercube/integration-guide/connectors/configuration-details/connections/index.html" />
+          <TocEntry
+            Title="Credential Protection"
+            Link="/Content/Usercube/integration-guide/connectors/configuration-details/credential-protection/index.html" />
+          <TocEntry
+            Title="Configure Secured Options"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/configure-secured-options/index.html" />
+          <TocEntry
+            Title="Run the Banking Demo Application"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/demoapp-banking/index.html" />
+          <TocEntry
+            Title="Run the HR Demo Application"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/demoapp-hr/index.html" />
+          <TocEntry
+            Title="Register for Microsoft Entra ID"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/azuread-register/index.html" />
+          <TocEntry
+            Title="Create a Connector"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/create-connector/index.html">
+            <TocEntry
+              Title="For Microsoft Entra ID"
+              Link="/Content/Usercube/integration-guide/connectors/how-tos/create-connector/azuread/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Set Up Incremental Synchronization"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.html">
+            <TocEntry
+              Title="For Microsoft Entra ID"
+              Link="/Content/Usercube/integration-guide/connectors/how-tos/setup-incremental-synchronization/azuread/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Write a Template for a Ticket Connector"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-ticket-template/index.html" />
+          <TocEntry
+            Title="Fulfill Microsoft Exchange via PowerShell"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/powershell-fulfill/index.html" />
+          <TocEntry
+            Title="Write a PowerShell Script for Provisioning"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.html" />
+          <TocEntry
+            Title="Write a PowerShell Script for Synchronization"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-sync-powershell-script/index.html" />
+          <TocEntry
+            Title="Write a Robot Framework Script"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.html" />
+          <TocEntry
+            Title="Interact with a Web Page via Robot Framework"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/interact-web-page-robotframework/index.html" />
+          <TocEntry
+            Title="Interact with a GUI Application via Robot Framework"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/interact-gui-robotframework/index.html" />
+          <TocEntry
+            Title="Export CyberArk Data via SCIM"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/scim-cyberark-export/index.html" />
+          <TocEntry
+            Title="Provision Salesforce Users' Profiles via SCIM"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/scim-salesforce-provisioning-entitlements/index.html" />
+          <TocEntry
+            Title="Set up SharePoint's Export and Synchronization"
+            Link="/Content/Usercube/integration-guide/connectors/how-tos/sharepoint-export/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="References: Connectors"
+          Link="/Content/Usercube/integration-guide/connectors/references-connectors/index.html">
+          <TocEntry
+            Title="Active Directory"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/activedirectory/index.html" />
+          <TocEntry
+            Title="Azure"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/azure/index.html" />
+          <TocEntry
+            Title="Microsoft Entra ID"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/microsoftentraID/index.html" />
+          <TocEntry
+            Title="CSV"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/csv/index.html" />
+          <TocEntry
+            Title="EasyVista"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/easyvista/index.html" />
+          <TocEntry
+            Title="EasyVista Ticket"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/easyvistaticket/index.html" />
+          <TocEntry
+            Title="Google Workspace"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/googleworkspace/index.html" />
+          <TocEntry
+            Title="Home Folder"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/homefolder/index.html" />
+          <TocEntry
+            Title="InfernalWorkflow"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/internalworkflow/index.html" />
+          <TocEntry
+            Title="InternalResources"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/internalresources/index.html" />
+          <TocEntry
+            Title="JSON"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/json/index.html" />
+          <TocEntry
+            Title="LDAP"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/ldap/index.html" />
+          <TocEntry
+            Title="LDIF"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/ldif/index.html" />
+          <TocEntry
+            Title="Microsoft Excel"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/excel/index.html" />
+          <TocEntry
+            Title="Microsoft Exchange"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.html" />
+          <TocEntry
+            Title="OData"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/odata/index.html" />
+          <TocEntry
+            Title="Okta"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/okta/index.htm" />
+          <TocEntry
+            Title="OpenLDAP"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/openldap/index.html" />
+          <TocEntry
+            Title="PowerShellProv"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/powershellprov/index.html" />
+          <TocEntry
+            Title="PowerShellSync"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/powershellsync/index.html" />
+          <TocEntry
+            Title="RACF"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/racf/index.html" />
+          <TocEntry
+            Title="Robot Framework"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/robotframework/index.html" />
+          <TocEntry
+            Title="SAP ERP 6.0 and SAP S4/HANA"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/saperp6/index.html" />
+          <TocEntry
+            Title="SAP Netweaver "
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sapnetweaver/index.html" />
+          <TocEntry
+            Title="SCIM"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/scim/index.html" />
+          <TocEntry
+            Title="ServiceNow"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.html" />
+          <TocEntry
+            Title="ServiceNowTicket"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/servicenowticket/index.html" />
+          <TocEntry
+            Title="SharePoint"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sharepoint/index.html" />
+          <TocEntry
+            Title="SharedFolders"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sharedfolder/index.html" />
+          <TocEntry
+            Title="Sql"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sql/index.html" />
+          <TocEntry
+            Title="Sql Server Entitlements"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/index.html" />
+          <TocEntry
+            Title="Top Secret"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/topsecret/index.html" />
+          <TocEntry
+            Title="Workday"
+            Link="/Content/Usercube/integration-guide/connectors/references-connectors/workday/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="References: Packages"
+          Link="/Content/Usercube/integration-guide/connectors/references-packages/index.html">
+          <TocEntry
+            Title="Active Directory"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/active-directory/index.html" />
+          <TocEntry
+            Title="Apache Directory"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/apache-directory/index.html" />
+          <TocEntry
+            Title="Azure"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/azure/index.html" />
+          <TocEntry
+            Title="Microsoft Entra ID"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/azure-active-directory/index.html" />
+          <TocEntry
+            Title="CSV"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/csv/index.html" />
+          <TocEntry
+            Title="CyberArk"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/cyberark/index.html" />
+          <TocEntry
+            Title="EasyVista"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/easyvista/index.html" />
+          <TocEntry
+            Title="EasyVista Ticket"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/easyvistaticket/index.html" />
+          <TocEntry
+            Title="Excel "
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/excel/index.html" />
+          <TocEntry
+            Title="Generic LDAP"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/generic-ldap/index.html" />
+          <TocEntry
+            Title="Generic SCIM"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/generic-scim/index.html" />
+          <TocEntry
+            Title="Generic SQL"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/generic-sql/index.html" />
+          <TocEntry
+            Title="Google Workspace"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/googleworkspace/index.html" />
+          <TocEntry
+            Title="Home Folders"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/home-folders/index.html" />
+          <TocEntry
+            Title="JSON"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/json/index.html" />
+          <TocEntry
+            Title="LDIF"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/ldif/index.html" />
+          <TocEntry
+            Title="Manual Ticket"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/manual-ticket/index.html" />
+          <TocEntry
+            Title="Manual Ticket and CUD Resources"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.html" />
+          <TocEntry
+            Title="Microsoft Exchange"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.html" />
+          <TocEntry
+            Title="MySQL"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/mysql/index.html" />
+          <TocEntry
+            Title="ODBC"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/odbc/index.html" />
+          <TocEntry
+            Title="OData"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/odata/index.html" />
+          <TocEntry
+            Title="Open LDAP"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/open-ldap/index.html" />
+          <TocEntry
+            Title="Oracle Database"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/oracle-database/index.html" />
+          <TocEntry
+            Title="Oracle LDAP"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/oracle-ldap/index.html" />
+          <TocEntry
+            Title="PostgreSQL"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/postgresql/index.html" />
+          <TocEntry
+            Title="PowerShellProv"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/powershellprov/index.html" />
+          <TocEntry
+            Title="PowerShellSync"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/powershellsync/index.html" />
+          <TocEntry
+            Title="RACF"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/racf/index.html" />
+          <TocEntry
+            Title="Red Hat Directory Server"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.html" />
+          <TocEntry
+            Title="Robot Framework"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/robot-framework/index.html" />
+          <TocEntry
+            Title="SAP ASE"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/sapase/index.html" />
+          <TocEntry
+            Title="SAP ERP 6.0"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/saperp6/index.html" />
+          <TocEntry
+            Title="SAP S/4 HANA"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/saphana/index.html" />
+          <TocEntry
+            Title="SQL Server"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/sql-server/index.html" />
+          <TocEntry
+            Title="SQL Server Entitlements"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.html" />
+          <TocEntry
+            Title="Salesforce"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/salesforce/index.html" />
+          <TocEntry
+            Title="ServiceNow"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/servicenow/index.html" />
+          <TocEntry
+            Title="ServiceNow Ticket"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.html" />
+          <TocEntry
+            Title="SharePoint"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/sharepoint/index.html" />
+          <TocEntry
+            Title="Shared Folders"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/shared-folders/index.html" />
+          <TocEntry
+            Title="Slack"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/slack/index.html" />
+          <TocEntry
+            Title="TSS"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/tss/index.html" />
+          <TocEntry
+            Title="Unplugged"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/unplugged/index.html" />
+          <TocEntry
+            Title="Usercube Database"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/usercube-database/index.html" />
+          <TocEntry
+            Title="Workday"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/workday/index.html" />
+          <TocEntry
+            Title="Workflow"
+            Link="/Content/Usercube/integration-guide/connectors/references-packages/workflow/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="References: Format for the EntityPropertyMapping"
+          Link="/Content/Usercube/integration-guide/connectors/entitypropertymapping-format/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Modules"
+        Link="/Content/Usercube/integration-guide/modules/index.html" />
+      <TocEntry
+        Title="Synchronization"
+        Link="/Content/Usercube/integration-guide/synchronization/index.html">
+        <TocEntry
+          Title="Upward Data Synchronization"
+          Link="/Content/Usercube/integration-guide/synchronization/upward-data-sync/index.html" />
+        <TocEntry
+          Title="Thresholds"
+          Link="/Content/Usercube/integration-guide/synchronization/synchro-thresholds/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Provisioning"
+        Link="/Content/Usercube/integration-guide/provisioning/index.html">
+        <TocEntry
+          Title="Thresholds"
+          Link="/Content/Usercube/integration-guide/provisioning/prov-thresholds/index.html" />
+        <TocEntry
+          Title="Compute a Resource Type's Provisioning Arguments"
+          Link="/Content/Usercube/integration-guide/provisioning/how-tos/argumentsexpression/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Role Model"
+        Link="/Content/Usercube/integration-guide/role-model/index.html"></TocEntry>
+      <TocEntry
+        Title="Role Assignment"
+        Link="/Content/Usercube/integration-guide/role-assignment/index.html">
+        <TocEntry
+          Title="Entitlement Assignment"
+          Link="/Content/Usercube/integration-guide/role-assignment/assignments-of-entitlements/index.html" />
+        <TocEntry
+          Title="Assignment Dates"
+          Link="/Content/Usercube/integration-guide/role-assignment/assignment-dates/index.html" />
+        <TocEntry
+          Title="Assignment Policy"
+          Link="/Content/Usercube/integration-guide/role-model/role-model-rules/index.html" />
+        <TocEntry
+          Title="Evaluate Policy"
+          Link="/Content/Usercube/integration-guide/role-assignment/evaluate-policy/index.html" />
+        <TocEntry
+          Title="Generate Contexts"
+          Link="/Content/Usercube/integration-guide/role-assignment/generate-contexts/index.html" />
+        <TocEntry
+          Title="Restrict the Assignment"
+          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/restrict-assignment/index.html" />
+        <TocEntry
+          Title="Infer Single Roles with a Composite Role"
+          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/infer-single-roles/index.html" />
+        <TocEntry
+          Title="Configure Indirect Permissions "
+          Link="/Content/Usercube/integration-guide/role-assignment/how-tos/configureindirectpermissions/index.html" />
+        <TocEntry
+          Title="Conforming Assignments"
+          Link="/Content/Usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.html" />
+        <TocEntry
+          Title="Existing Assignments"
+          Link="/Content/Usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.html" />
+        <TocEntry
+          Title="Non-Conforming Assignments"
+          Link="/Content/Usercube/integration-guide/role-assignment/nonconformingdetection/index.html" />
+        <TocEntry
+          Title="Indirect Permissions"
+          Link="/Content/Usercube/integration-guide/role-assignment/indirectpermissions/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Role Mining"
+        Link="/Content/Usercube/integration-guide/role-mining/index.html" />
+      <TocEntry
+        Title="Simulation"
+        Link="/Content/Usercube/integration-guide/simulation/index.html" />
+      <TocEntry
+        Title="Governance"
+        Link="/Content/Usercube/integration-guide/governance/index.html">
+        <TocEntry
+          Title="Reporting"
+          Link="/Content/Usercube/integration-guide/governance/reporting/index.html">
+          <TocEntry
+            Title="Connect Power BI to Usercube"
+            Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.html" />
+          <TocEntry
+            Title="Analyze Usercube's Data with Power BI"
+            Link="/Content/Usercube/integration-guide/governance/reporting/how-tos/analyze-powerbi/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Access Certification"
+          Link="/Content/Usercube/integration-guide/governance/accesscertification/index.html" />
+        <TocEntry
+          Title="Review Prolonged Entitlements"
+          Link="/Content/Usercube/integration-guide/governance/how-tos/review-prolonged-entitlements/index.html" />
+        <TocEntry
+          Title="Risk Management"
+          Link="/Content/Usercube/integration-guide/governance/risks/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Notifications"
+        Link="/Content/Usercube/integration-guide/notifications/index.html">
+        <TocEntry
+          Title="Native Notifications"
+          Link="/Content/Usercube/integration-guide/notifications/native/index.html">
+          <TocEntry
+            Title="Password Reset"
+            Link="/Content/Usercube/integration-guide/notifications/native/password-reset/index.html" />
+          <TocEntry
+            Title="Access Certification"
+            Link="/Content/Usercube/integration-guide/notifications/native/access-certification/index.html" />
+          <TocEntry
+            Title="Manual Provisioning"
+            Link="/Content/Usercube/integration-guide/notifications/native/manual-provisioning/index.html" />
+          <TocEntry
+            Title="Provisioning Review"
+            Link="/Content/Usercube/integration-guide/notifications/native/provisioning-review/index.html" />
+          <TocEntry
+            Title="Role Review"
+            Link="/Content/Usercube/integration-guide/notifications/native/role-review/index.html" />
+          <TocEntry
+            Title="Jobs with Errors"
+            Link="/Content/Usercube/integration-guide/notifications/native/errored-jobs/index.html" />
+          <TocEntry
+            Title="Customize a Native Notification"
+            Link="/Content/Usercube/integration-guide/notifications/how-tos/customize-native-notification/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Custom Notifications"
+          Link="/Content/Usercube/integration-guide/notifications/custom/index.html" />
+        <TocEntry
+          Title="Set Notifications' Languages"
+          Link="/Content/Usercube/integration-guide/notifications/how-tos/set-language/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Workflows"
+        Link="/Content/Usercube/integration-guide/workflows/index.html">
+        <TocEntry
+          Title="Activity Templates"
+          Link="/Content/Usercube/integration-guide/workflows/activity-templates/index.html" />
+        <TocEntry
+          Title="How To Create a Workflow"
+          Link="/Content/Usercube/integration-guide/workflows/how-to/index.html">
+          <TocEntry
+            Title="For Resource Creation (Mono Record)"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/workflow-create-mono/index.html" />
+          <TocEntry
+            Title="For Resource Creation (Multi Records)"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/workflow-create-multi/index.html" />
+          <TocEntry
+            Title="For Resource Update (No Record)"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/workflow-update-resource/index.html" />
+          <TocEntry
+            Title="For Resource Update (Mono Record)"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/workflow-update-mono/index.html" />
+          <TocEntry
+            Title="For Resource Update (Multi Records)"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/workflow-update-multi/index.html" />
+          <TocEntry
+            Title="Configure a Homonym Detection"
+            Link="/Content/Usercube/integration-guide/workflows/how-to/configure-homonym-test/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Workflow Uses"
+          Link="/Content/Usercube/integration-guide/workflows/workflow-uses/index.html" />
+        <TocEntry
+          Title="Workflow Homonym"
+          Link="/Content/Usercube/integration-guide/workflows/workflowhomonym/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Monitoring"
+        Link="/Content/Usercube/integration-guide/monitoring/index.html">
+        <TocEntry
+          Title="Export Logs to a Log Management System"
+          Link="/Content/Usercube/integration-guide/monitoring/how-tos/qradar-setting/index.html" />
+        <TocEntry
+          Title="References: Logs"
+          Link="/Content/Usercube/integration-guide/monitoring/references/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="User Interface"
+        Link="/Content/Usercube/integration-guide/ui/index.html">
+        <TocEntry
+          Title="Import Product Translations into Integration Manager"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/producttranslations/index.html" />
+        <TocEntry
+          Title="Create Menu Items"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/create-menu-items/index.html" />
+        <TocEntry
+          Title="Customize Display Tables"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-display-table/index.html" />
+        <TocEntry
+          Title="Customize Search Bars"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-search-bar/index.html" />
+        <TocEntry
+          Title="Customize Forms"
+          Link="/Content/Usercube/integration-guide/ui/how-tos/custom-forms/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="API"
+        Link="/Content/Usercube/integration-guide/api/index.html">
+        <TocEntry
+          Title="Authentication"
+          Link="/Content/Usercube/integration-guide/api/authentication/index.html" />
+        <TocEntry
+          Title="API query grammar"
+          Link="/Content/Usercube/integration-guide/api/squery/index.html" />
+        <TocEntry
+          Title="Pagination"
+          Link="/Content/Usercube/integration-guide/api/pagination/index.html" />
+        <TocEntry
+          Title="Request API's via Postman"
+          Link="/Content/Usercube/integration-guide/api/how-tos/request-postman/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Executables"
+        Link="/Content/Usercube/integration-guide/executables/index.html">
+        <TocEntry
+          Title="References: Executables"
+          Link="/Content/Usercube/integration-guide/executables/references/index.html">
+          <TocEntry
+            Title="Usercube-Agent"
+            Link="/Content/Usercube/integration-guide/executables/references/agent/index.html">
+            <TocEntry
+              Title="Usercube-Export-Bacpac"
+              Link="/Content/Usercube/integration-guide/executables/references/export-bacpac/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Usercube-Anonymize"
+            Link="/Content/Usercube/integration-guide/executables/references/anonymize/index.html" />
+          <TocEntry
+            Title="Usercube-CSV-Transform"
+            Link="/Content/Usercube/integration-guide/executables/references/csv-transform/index.html" />
+          <TocEntry
+            Title="Usercube-Compute-CorrelationKeys"
+            Link="/Content/Usercube/integration-guide/executables/references/compute-correlationkeys/index.html" />
+          <TocEntry
+            Title="Usercube-Configuration-Transform"
+            Link="/Content/Usercube/integration-guide/executables/references/configuration-transform/index.html" />
+          <TocEntry
+            Title="Usercube-Create-DatabaseViews"
+            Link="/Content/Usercube/integration-guide/executables/references/create-databaseviews/index.html" />
+          <TocEntry
+            Title="Usercube-Decrypt-File"
+            Link="/Content/Usercube/integration-guide/executables/references/decrypt-file/index.html" />
+          <TocEntry
+            Title="Usercube-Deploy-Configuration"
+            Link="/Content/Usercube/integration-guide/executables/references/deploy-configuration/index.html" />
+          <TocEntry
+            Title="Usercube-EasyVistaTicket-UpdateFulfillmentState"
+            Link="/Content/Usercube/integration-guide/executables/references/easyvistaticket-updatefulfillmentstate/index.html" />
+          <TocEntry
+            Title="Usercube-Encrypt-File"
+            Link="/Content/Usercube/integration-guide/executables/references/encrypt-file/index.html" />
+          <TocEntry
+            Title="Usercube-Export-Configuration"
+            Link="/Content/Usercube/integration-guide/executables/references/export-configuration/index.html" />
+          <TocEntry
+            Title="Usercube-Export-Csv"
+            Link="/Content/Usercube/integration-guide/executables/references/export-csv/index.html" />
+          <TocEntry
+            Title="Usercube-Export-EasyVista"
+            Link="/Content/Usercube/integration-guide/executables/references/export-easyvista/index.html" />
+          <TocEntry
+            Title="Usercube-Export-Excel"
+            Link="/Content/Usercube/integration-guide/executables/references/export-excel/index.html" />
+          <TocEntry
+            Title="Usercube-Export-Scim"
+            Link="/Content/Usercube/integration-guide/executables/references/export-scim/index.html" />
+          <TocEntry
+            Title="Usercube-FillBankingDatabase"
+            Link="/Content/Usercube/integration-guide/executables/references/fillbankingdatabase/index.html" />
+          <TocEntry
+            Title="Usercube-Fulfill-EasyVista"
+            Link="/Content/Usercube/integration-guide/executables/references/fulfill-easyvista/index.html" />
+          <TocEntry
+            Title="Usercube-Fulfill-Scim"
+            Link="/Content/Usercube/integration-guide/executables/references/fulfill-scim/index.html" />
+          <TocEntry
+            Title="Usercube-Fulfill-ToEasyVistaTicket"
+            Link="/Content/Usercube/integration-guide/executables/references/fulfill-toeasyvistaticket/index.html" />
+          <TocEntry
+            Title="Usercube-Generate-Configuration"
+            Link="/Content/Usercube/integration-guide/executables/references/generate-configuration/index.html" />
+          <TocEntry
+            Title="Usercube-Get-JobSteps"
+            Link="/Content/Usercube/integration-guide/executables/references/get-jobsteps/index.html" />
+          <TocEntry
+            Title="Usercube-Invoke-Job"
+            Link="/Content/Usercube/integration-guide/executables/references/invoke-job/index.html" />
+          <TocEntry
+            Title="Usercube-Invoke-ServerJob"
+            Link="/Content/Usercube/integration-guide/executables/references/invoke-serverjob/index.html" />
+          <TocEntry
+            Title="Usercube-Login"
+            Link="/Content/Usercube/integration-guide/executables/references/login/index.html" />
+          <TocEntry
+            Title="Usercube-Manage-ConfigurationDependantIndexes"
+            Link="/Content/Usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.html" />
+          <TocEntry
+            Title="Usercube-Manage-History"
+            Link="/Content/Usercube/integration-guide/executables/references/manage-history/index.html" />
+          <TocEntry
+            Title="Usercube-New-OpenIDSecret"
+            Link="/Content/Usercube/integration-guide/executables/references/new-openidsecret/index.html" />
+          <TocEntry
+            Title="Usercube-PasswordGenerator"
+            Link="/Content/Usercube/integration-guide/executables/references/passwordgenerator/index.html" />
+          <TocEntry
+            Title="Usercube-Prepare-Synchronization"
+            Link="/Content/Usercube/integration-guide/executables/references/prepare-synchronization/index.html" />
+          <TocEntry
+            Title="Usercube-Protect-CertificatePassword"
+            Link="/Content/Usercube/integration-guide/executables/references/protect-certificatepassword/index.html" />
+          <TocEntry
+            Title="Usercube-Protect-X509JsonFile"
+            Link="/Content/Usercube/integration-guide/executables/references/protect-x509jsonfile/index.html" />
+          <TocEntry
+            Title="Usercube-Protect-X509JsonValue"
+            Link="/Content/Usercube/integration-guide/executables/references/protect-x509jsonvalue/index.html" />
+          <TocEntry
+            Title="Usercube-RefreshSchema"
+            Link="/Content/Usercube/integration-guide/executables/references/refreshschema/index.html" />
+          <TocEntry
+            Title="Usercube-Send-PasswordNotification"
+            Link="/Content/Usercube/integration-guide/executables/references/send-passwordnotification/index.html" />
+          <TocEntry
+            Title="Usercube-Server"
+            Link="/Content/Usercube/integration-guide/executables/references/server/index.html" />
+          <TocEntry
+            Title="Usercube-Update-EntityPropertyExpressions"
+            Link="/Content/Usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.html" />
+          <TocEntry
+            Title="Usercube-Upgrade-ConfigurationVersion"
+            Link="/Content/Usercube/integration-guide/executables/references/upgrade-configurationversion/index.html" />
+          <TocEntry
+            Title="Usercube-Upgrade-DatabaseVersion"
+            Link="/Content/Usercube/integration-guide/executables/references/upgrade-databaseversion/index.html" />
+          <TocEntry
+            Title="Usercube-Check-ExpressionsConsistency"
+            Link="/Content/Usercube/integration-guide/executables/references/check-expressionsConsistency/index.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Tasks &amp; Jobs"
+        Link="/Content/Usercube/integration-guide/tasks-jobs/index.html">
+        <TocEntry
+          Title="Tasks"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/tasks/index.html" />
+        <TocEntry
+          Title="Jobs"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/jobs/index.html" />
+        <TocEntry
+          Title="Build Efficient Jobs"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.html" />
+        <TocEntry
+          Title="Configure Jobs"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-jobs/index.html" />
+        <TocEntry
+          Title="Troubleshoot Connector Jobs"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.html" />
+        <TocEntry
+          Title="Configure an Incremental Job"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.html" />
+        <TocEntry
+          Title="Set up Complete Synchronization"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobdaily/index.html" />
+        <TocEntry
+          Title="Set Up Incremental Synchronization"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.html" />
+        <TocEntry
+          Title="Configure the Fulfill Task for a Connector"
+          Link="/Content/Usercube/integration-guide/tasks-jobs/how-tos/fulfillldap/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Profiles &amp; Permissions"
+        Link="/Content/Usercube/integration-guide/profiles-permissions/index.html">
+        <TocEntry
+          Title="References: Permissions"
+          Link="/Content/Usercube/integration-guide/profiles-permissions/permissions/index.html" />
+        <TocEntry
+          Title="Create and Assign Profiles"
+          Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/create-assign-profiles/index.html" />
+        <TocEntry
+          Title="Restrict Users' Rights"
+          Link="/Content/Usercube/integration-guide/profiles-permissions/how-tos/rightsrestriction/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Toolkit for XML Configuration"
+        Link="/Content/Usercube/integration-guide/toolkit/index.html">
+        <TocEntry
+          Title="Recommendations"
+          Link="/Content/Usercube/integration-guide/toolkit/recommendations/index.html" />
+        <TocEntry
+          Title="Hierarchy in Configuration Files"
+          Link="/Content/Usercube/integration-guide/toolkit/file-hierarchy/index.html" />
+        <TocEntry
+          Title="Bindings"
+          Link="/Content/Usercube/integration-guide/toolkit/bindings/index.html" />
+        <TocEntry
+          Title="Expressions"
+          Link="/Content/Usercube/integration-guide/toolkit/expressions/index.html">
+          <TocEntry
+            Title="C# utility functions"
+            Link="/Content/Usercube/integration-guide/toolkit/expressions/csharp-utility-functions/index.html" />
+          <TocEntry
+            Title="Predefined functions"
+            Link="/Content/Usercube/integration-guide/toolkit/expressions/predefined-functions/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Languages"
+          Link="/Content/Usercube/integration-guide/toolkit/languages/index.html" />
+        <TocEntry
+          Title="Reserved identifiers"
+          Link="/Content/Usercube/integration-guide/toolkit/reservedidentifiers/index.html" />
+        <TocEntry
+          Title="Base32 Parameter Names"
+          Link="/Content/Usercube/integration-guide/toolkit/parameter-names/index.html" />
+        <TocEntry
+          Title="XML Configuration Schema"
+          Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/index.html">
+          <TocEntry
+            Title="Access Control"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/index.html">
+            <TocEntry
+              Title="AccessControlPermission"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.html" />
+            <TocEntry
+              Title="AccessControlPropertyGroup"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpropertygroup/index.html" />
+            <TocEntry
+              Title="AccessControlRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.html" />
+            <TocEntry
+              Title="AssignedProfile"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.html" />
+            <TocEntry
+              Title="OpenIdClient"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.html" />
+            <TocEntry
+              Title="Profile"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.html" />
+            <TocEntry
+              Title="ProfileContext"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.html" />
+            <TocEntry
+              Title="ProfileRuleContext"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Connectors"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/index.html">
+            <TocEntry
+              Title="Agent"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/agent/index.html" />
+            <TocEntry
+              Title="Connection"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.html" />
+            <TocEntry
+              Title="ConnectionTable"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.html" />
+            <TocEntry
+              Title="Connector"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.html" />
+            <TocEntry
+              Title="ResourceTypeMappings"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.html">
+              <TocEntry
+                Title="MicrosoftEntraIDResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/microsoftentraidresourcetypemapping/index.html" />
+              <TocEntry
+                Title="EasyVistaResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/easyvistaresourcetypemapping/index.html" />
+              <TocEntry
+                Title="LdapResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/ldapresourcetypemapping/index.html" />
+              <TocEntry
+                Title="ManualProvisioningResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/manualprovisioningresourcetypemapping/index.html" />
+              <TocEntry
+                Title="OktaResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/oktaresourcetypemapping/index.html" />
+              <TocEntry
+                Title="SapResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.html" />
+              <TocEntry
+                Title="ScimResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/scimresourcetypemapping/index.html" />
+              <TocEntry
+                Title="ServiceNowResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/index.html" />
+              <TocEntry
+                Title="SharePointResourceTypeMapping"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sharepointresourcetypemapping/index.html" />
+            </TocEntry>
+            <TocEntry
+              Title="EntityAssociationMapping"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.html" />
+            <TocEntry
+              Title="EntityTypeMapping"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.html" />
+            <TocEntry
+              Title="PasswordResetSettings"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Configuration"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/index.html">
+            <TocEntry
+              Title="Scaffoldings"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.html">
+              <TocEntry
+                Title="AccessControlRules"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/index.html">
+                <TocEntry
+                  Title="AccessReviews"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/index.html">
+                  <TocEntry
+                    Title="AccessReviewAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Connectors"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/index.html">
+                  <TocEntry
+                    Title="ConnectorResourceTypeAccessControl"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.html" />
+                  <TocEntry
+                    Title="SettingsAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Jobs"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/index.html">
+                  <TocEntry
+                    Title="GetJobLogAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="JobAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="JobTaskAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobtaskadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="PendingAssignedResourceTypesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ProvisioningAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/provisioningaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ResourceChangesViewAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ResourceTypeMappingControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.html" />
+                  <TocEntry
+                    Title="RunJobAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RunJobNotificationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobnotificationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RunJobRepairAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RunJobRepairNotificationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairnotificationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="SynchronizationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="TaskAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="TaskInstanceAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskinstanceadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="WorkflowFulfillmentControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Monitoring"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/index.html">
+                  <TocEntry
+                    Title="MonitoringAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Profiles"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.html">
+                  <TocEntry
+                    Title="AssignProfileAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="OpenIdClientAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/openidclientadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ProfileAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Queries"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/index.html">
+                  <TocEntry
+                    Title="ManageSettingAccessControlRule"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.html" />
+                  <TocEntry
+                    Title="ReportAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="TargetResourceReportAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/targetresourcereportaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="UniverseAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/universeaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Resources"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/index.html">
+                  <TocEntry
+                    Title="CreateResourceIncrementalAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ResourceApiAdministration"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourceapiadministration/index.html" />
+                  <TocEntry
+                    Title="ResourcePickerControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourcepickercontrolrules/index.html" />
+                  <TocEntry
+                    Title="ViewAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ViewHistoryResourceTemplate"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewhistoryresourcetemplate/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="RoleModels"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/index.html">
+                  <TocEntry
+                    Title="BasketRulesControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.html" />
+                  <TocEntry
+                    Title="BulkPerformManualProvisioningAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/bulkperformmanualprovisioningaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="BulkResourceReconciliationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/bulkresourcereconciliationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="BulkReviewProvisioningAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/bulkreviewprovisioningaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="BulkRoleReconciliationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/bulkrolereconciliationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="GovernanceRolesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/governancerolesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="PerformManualProvisioningAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ReconciliateResourcesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ReconciliateRolesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RedundantAssignmentAccessControlRule"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.html" />
+                  <TocEntry
+                    Title="ReviewProvisioningAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="ReviewRolesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RisksAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RoleAdministrationAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="RoleNamingAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Simulations"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/index.html">
+                  <TocEntry
+                    Title="PolicySimulationControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/policysimulationcontrolrules/index.html" />
+                  <TocEntry
+                    Title="RoleAndSimulationControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/roleandsimulationcontrolrules/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="UserInterfaces"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/index.html">
+                  <TocEntry
+                    Title="ManageAccounts"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.html" />
+                  <TocEntry
+                    Title="SearchBarPageAccessControl"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/searchbarpageaccesscontrol/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Workflows"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/index.html">
+                  <TocEntry
+                    Title="CreateUpdateDeleteAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/createupdatedeleteaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="UpdateResourcesAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/updateresourcesaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="WorkflowAccessControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.html" />
+                  <TocEntry
+                    Title="WorkflowConfigurationControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.html" />
+                  <TocEntry
+                    Title="WorkflowOverviewControlRules"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowoverviewcontrolrules/index.html" />
+                </TocEntry>
+              </TocEntry>
+              <TocEntry
+                Title="EntityTypes"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/index.html">
+                <TocEntry
+                  Title="Entity Types"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/index.html">
+                  <TocEntry
+                    Title="ConnectorMappings"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/connectormappings/index.html" />
+                  <TocEntry
+                    Title="EntityTypeDisplayName"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.html" />
+                  <TocEntry
+                    Title="EntityTypeDisplayTable"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytable/index.html" />
+                  <TocEntry
+                    Title="EntityTypeDisplayTableAdaptable"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytableadaptable/index.html" />
+                  <TocEntry
+                    Title="EntityTypeDisplayTargetResourceTable"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytargetresourcetable/index.html" />
+                  <TocEntry
+                    Title="EntityTypeMenuItem"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypemenuitem/index.html" />
+                  <TocEntry
+                    Title="EntityTypeSearchBar"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypesearchbar/index.html" />
+                  <TocEntry
+                    Title="TargetResourceReportMenus"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.html" />
+                </TocEntry>
+                <TocEntry
+                  Title="Workflows"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/index.html">
+                  <TocEntry
+                    Title="CreateUpdateDeleteMenus"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeletemenus/index.html" />
+                  <TocEntry
+                    Title="CreateUpdateDeleteWorkflows"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeleteworkflows/index.html" />
+                  <TocEntry
+                    Title="UpdateResourcesMenus"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/updateresourcesmenus/index.html" />
+                  <TocEntry
+                    Title="UpdateResourcesWorkflows"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/updateresourcesworkflows/index.html" />
+                  <TocEntry
+                    Title="WorkflowActorsNotification"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowactorsnotification/index.html" />
+                  <TocEntry
+                    Title="WorkflowEntityType"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytype/index.html" />
+                  <TocEntry
+                    Title="WorkflowEntityTypeDisplayEntityType"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypedisplayentitytype/index.html" />
+                  <TocEntry
+                    Title="WorkflowEntityTypeDisplayTable"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypedisplaytable/index.html" />
+                  <TocEntry
+                    Title="WorkflowEntityTypeSearchBar"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowentitytypesearchbar/index.html" />
+                  <TocEntry
+                    Title="WorkflowPerformerNotification"
+                    Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/workflowperformernotification/index.html" />
+                </TocEntry>
+              </TocEntry>
+              <TocEntry
+                Title="Jobs"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.html">
+                <TocEntry
+                  Title="CleanDatabaseJob"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/cleandatabasejob/index.html" />
+                <TocEntry
+                  Title="CreateAccessCertificationJob"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createaccesscertificationjob/index.html" />
+                <TocEntry
+                  Title="CreateAgentSynchroComplete"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchrocomplete/index.html" />
+                <TocEntry
+                  Title="CreateAgentSynchroIncremental"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchroincremental/index.html" />
+                <TocEntry
+                  Title="CreateConnectorsJobs"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.html" />
+                <TocEntry
+                  Title="CreateConnectorSynchroComplete"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.html" />
+                <TocEntry
+                  Title="CreateConnectorSynchroIncremental"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.html" />
+                <TocEntry
+                  Title="CreateInitializationJob"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createinitializationjob/index.html" />
+              </TocEntry>
+              <TocEntry
+                Title="Optimizations"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/optimizations/index.html">
+                <TocEntry
+                  Title="OptimizeDisplayTable"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/optimizations/optimizedisplaytable/index.html" />
+              </TocEntry>
+              <TocEntry
+                Title="Templates"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/index.html">
+                <TocEntry
+                  Title="ConnectorsAccessControlRules"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.html" />
+                <TocEntry
+                  Title="CreateAdministratorProfile"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.html" />
+                <TocEntry
+                  Title="CreateUpdateDeleteTemplate"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createupdatedeletetemplate/index.html" />
+                <TocEntry
+                  Title="EntityReportDefault"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/entityreportdefault/index.html" />
+                <TocEntry
+                  Title="JobExecutionAccessControlRules"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.html" />
+                <TocEntry
+                  Title="JobViewAccessControlRules"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.html" />
+                <TocEntry
+                  Title="SimulationAccessControlRules"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/simulationaccesscontrolrules/index.html" />
+                <TocEntry
+                  Title="UpdateResourcesTemplate"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/updateresourcestemplate/index.html" />
+                <TocEntry
+                  Title="ViewSourceResourceTemplate"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewsourceresourcetemplate/index.html" />
+                <TocEntry
+                  Title="ViewTargetResourceTemplate"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtargetresourcetemplate/index.html" />
+                <TocEntry
+                  Title="ViewTemplate"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplate/index.html" />
+                <TocEntry
+                  Title="ViewTemplateAdaptable"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplateadaptable/index.html" />
+              </TocEntry>
+              <TocEntry
+                Title="Workforce"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/workforce/index.html">
+                <TocEntry
+                  Title="BootstrapModule"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/workforce/bootstrapmodule/index.html" />
+                <TocEntry
+                  Title="WorkforceModule"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/workforce/workforcemodule/index.html" />
+              </TocEntry>
+              <TocEntry
+                Title="queries"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.html">
+                <TocEntry
+                  Title="TargetResourceReport"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/targetresourcereport/index.html" />
+                <TocEntry
+                  Title="UniverseDataModel"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/index.html" />
+              </TocEntry>
+            </TocEntry>
+          </TocEntry>
+          <TocEntry
+            Title="User Interface"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/index.html">
+            <TocEntry
+              Title="DisplayEntityAssociation"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentityassociation/index.html" />
+            <TocEntry
+              Title="DisplayEntityType"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.html" />
+            <TocEntry
+              Title="DisplayPropertyGroup"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/displaypropertygroup/index.html" />
+            <TocEntry
+              Title="DisplayTable"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.html" />
+            <TocEntry
+              Title="Form"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.html" />
+            <TocEntry
+              Title="Indicator"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/indicator/index.html" />
+            <TocEntry
+              Title="MenuItem"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.html" />
+            <TocEntry
+              Title="SearchBar"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.html" />
+            <TocEntry
+              Title="Tile"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Jobs"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/index.html">
+            <TocEntry
+              Title="Job"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.html" />
+            <TocEntry
+              Title="Tasks"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.html">
+              <TocEntry
+                Title="Agent Tasks"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/index.html">
+                <TocEntry
+                  Title="ActivityInstanceActorTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/activityinstanceactortask/index.html" />
+                <TocEntry
+                  Title="CreateDatabaseViewsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/createdatabaseviewstask/index.html" />
+                <TocEntry
+                  Title="ExportTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.html" />
+                <TocEntry
+                  Title="FulfillTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/fulfilltask/index.html" />
+                <TocEntry
+                  Title="InvokeApiTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeapitask/index.html" />
+                <TocEntry
+                  Title="InvokeAspectsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeaspectstask/index.html" />
+                <TocEntry
+                  Title="InvokeExpressionTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.html" />
+                <TocEntry
+                  Title="InvokeSqlCommandTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokesqlcommandtask/index.html" />
+                <TocEntry
+                  Title="PrepareSynchronizationTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.html" />
+              </TocEntry>
+              <TocEntry
+                Title="Server Tasks"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/index.html">
+                <TocEntry
+                  Title="BuildRoleModelTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/buildrolemodeltask/index.html" />
+                <TocEntry
+                  Title="ComputeCorrelationKeysTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.html" />
+                <TocEntry
+                  Title="ComputeRiskScoresTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computeriskscorestask/index.html" />
+                <TocEntry
+                  Title="ComputeRoleModelTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.html" />
+                <TocEntry
+                  Title="DeployConfigurationTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.html" />
+                <TocEntry
+                  Title="FulfillTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/fulfilltask/index.html" />
+                <TocEntry
+                  Title="GenerateProvisioningOrdersTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.html" />
+                <TocEntry
+                  Title="GetRoleMiningTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.html" />
+                <TocEntry
+                  Title="InvokeExpressionTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokeexpressiontask/index.html" />
+                <TocEntry
+                  Title="InvokeSqlCommandTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.html" />
+                <TocEntry
+                  Title="MaintainIndexesTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/maintainindexestask/index.html" />
+                <TocEntry
+                  Title="ManageConfigurationIndexesTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/manageconfigurationindexestask/index.html" />
+                <TocEntry
+                  Title="ProcessAccessCertificationItemsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/processaccesscertificationitemstask/index.html" />
+                <TocEntry
+                  Title="ResetValidFromTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/resetvalidfromtask/index.html" />
+                <TocEntry
+                  Title="SavePreExistingAccessRightsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.html" />
+                <TocEntry
+                  Title="SendAccessCertificationNotificationTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendaccesscertificationnotificationtask/index.html" />
+                <TocEntry
+                  Title="SendNotificationsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendnotificationstask/index.html" />
+                <TocEntry
+                  Title="SendRoleModelNotificationsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendrolemodelnotificationstask/index.html" />
+                <TocEntry
+                  Title="SetAccessCertificationReviewerTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setaccesscertificationreviewertask/index.html" />
+                <TocEntry
+                  Title="SetInternalUserProfilesTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.html" />
+                <TocEntry
+                  Title="SetRecentlyModifiedFlagTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.html" />
+                <TocEntry
+                  Title="SynchronizeTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.html" />
+                <TocEntry
+                  Title="UpdateAccessCertificationCampaignTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateaccesscertificationcampaigntask/index.html" />
+                <TocEntry
+                  Title="UpdateClassificationTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateclassificationtask/index.html" />
+                <TocEntry
+                  Title="UpdateEntityPropertyExpressionsTask"
+                  Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.html" />
+              </TocEntry>
+            </TocEntry>
+          </TocEntry>
+          <TocEntry
+            Title="Metadata"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/index.html">
+            <TocEntry
+              Title="AccessControlEntityType"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/accesscontrolentitytype/index.html" />
+            <TocEntry
+              Title="Binding"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/binding/index.html" />
+            <TocEntry
+              Title="Dimension"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.html" />
+            <TocEntry
+              Title="EntityAssociation"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.html" />
+            <TocEntry
+              Title="EntityPropertyExpression"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.html" />
+            <TocEntry
+              Title="EntityType"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.html" />
+            <TocEntry
+              Title="Language"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.html" />
+            <TocEntry
+              Title="Settings"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/index.html">
+              <TocEntry
+                Title="AppDisplaySetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/index.html" />
+              <TocEntry
+                Title="ConfigurationVersionSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/configurationversionsetting/index.html" />
+              <TocEntry
+                Title="CustomLink1Setting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/customlink1setting/index.html" />
+              <TocEntry
+                Title="CustomLink2Setting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/customlink2setting/index.html" />
+              <TocEntry
+                Title="DashboardItemNumberSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/dashboarditemnumbersetting/index.html" />
+              <TocEntry
+                Title="MailSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.html" />
+              <TocEntry
+                Title="PasswordGenerationSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/passwordgenerationsetting/index.html" />
+              <TocEntry
+                Title="PasswordTestsSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/passwordtestssetting/index.html" />
+              <TocEntry
+                Title="SchedulingCleanDataBaseSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/schedulingcleandatabasesetting/index.html" />
+              <TocEntry
+                Title="SelectAllPerformedByAssociationQueryHandlerSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectallperformedbyassociationqueryhandlersetting/index.html" />
+              <TocEntry
+                Title="SelectPersonasByFilterQueryHandlerSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectpersonasbyfilterqueryhandlersetting/index.html" />
+              <TocEntry
+                Title="SelectUserByIdentityQueryHandlerSetting"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.html" />
+            </TocEntry>
+          </TocEntry>
+          <TocEntry
+            Title="Notifications"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/index.html">
+            <TocEntry
+              Title="Notification"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notification/index.html" />
+            <TocEntry
+              Title="Notifications (Typed)"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/index.html">
+              <TocEntry
+                Title="AccessCertificationNotification"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/accesscertificationnotification/index.html" />
+              <TocEntry
+                Title="ManualProvisioningNotification"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/manualprovisioningnotification/index.html" />
+              <TocEntry
+                Title="ProvisioningReviewNotification"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/provisioningreviewnotification/index.html" />
+              <TocEntry
+                Title="RolePolicyNotification"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/rolepolicynotification/index.html" />
+              <TocEntry
+                Title="RoleReviewNotification"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notifications/rolereviewnotification/index.html" />
+            </TocEntry>
+            <TocEntry
+              Title="NotificationTemplate"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Provisioning"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/index.html">
+            <TocEntry
+              Title="AutomationRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.html" />
+            <TocEntry
+              Title="Category"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.html" />
+            <TocEntry
+              Title="CompositeRole"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.html" />
+            <TocEntry
+              Title="CompositeRoleRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.html" />
+            <TocEntry
+              Title="Context"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/context/index.html" />
+            <TocEntry
+              Title="ContextRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.html" />
+            <TocEntry
+              Title="IndirectResourceRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/indirectresourcerule/index.html" />
+            <TocEntry
+              Title="MiningRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.html" />
+            <TocEntry
+              Title="Policy"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.html" />
+            <TocEntry
+              Title="RecordSection"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.html" />
+            <TocEntry
+              Title="ResourceClassificationRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.html" />
+            <TocEntry
+              Title="ResourceCorrelationRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.html" />
+            <TocEntry
+              Title="ResourceType"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.html" />
+            <TocEntry
+              Title="Risk"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.html" />
+            <TocEntry
+              Title="RoleMapping"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.html" />
+            <TocEntry
+              Title="SingleRole"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.html" />
+            <TocEntry
+              Title="SingleRoleRule"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Reporting"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/reporting/index.html">
+            <TocEntry
+              Title="ReportQuery"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/reporting/reportquery/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Resources"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/resources/index.html">
+            <TocEntry
+              Title="Resource"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/resources/resource/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Access Certification"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-certification/index.html">
+            <TocEntry
+              Title="AccessCertificationCampaignPolicy"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.html" />
+            <TocEntry
+              Title="AccessCertificationDataFilter"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.html" />
+            <TocEntry
+              Title="AccessCertificationOwnerFilter"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Business Intelligence"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/business-intelligence/index.html">
+            <TocEntry
+              Title="Universe"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Workflows"
+            Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/index.html">
+            <TocEntry
+              Title="Aspects"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.html">
+              <TocEntry
+                Title="AddChangeAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/index.html" />
+              <TocEntry
+                Title="AssertValueAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/assertvalueaspect/index.html" />
+              <TocEntry
+                Title="AssertValueRequiredAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/assertvaluerequiredaspect/index.html" />
+              <TocEntry
+                Title="BuildUniqueValueAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.html" />
+              <TocEntry
+                Title="InvokeScriptAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/invokescriptaspect/index.html" />
+              <TocEntry
+                Title="InvokeWorkflowAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/invokeworkflowaspect/index.html" />
+              <TocEntry
+                Title="NotificationAspect"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/notificationaspect/index.html" />
+            </TocEntry>
+            <TocEntry
+              Title="Forms"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/index.html">
+              <TocEntry
+                Title="WorkflowAddAndEndRecordEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/index.html" />
+              <TocEntry
+                Title="WorkflowAddRecordEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/index.html" />
+              <TocEntry
+                Title="WorkflowCreateEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/index.html" />
+              <TocEntry
+                Title="WorkflowCreateRecordEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/index.html" />
+              <TocEntry
+                Title="WorkflowCreateSeveralRecordsEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/index.html" />
+              <TocEntry
+                Title="WorkflowEditEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/index.html" />
+              <TocEntry
+                Title="WorkflowUpdateRecordEntitiesForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/index.html" />
+              <TocEntry
+                Title="WorkflowUpdateRecordEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/index.html" />
+              <TocEntry
+                Title="WorkflowUpdateSeveralRecordsEntityForm"
+                Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/index.html" />
+            </TocEntry>
+            <TocEntry
+              Title="HomonymEntityLink"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.html" />
+            <TocEntry
+              Title="Workflow"
+              Link="/Content/Usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.html"></TocEntry>
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Deploy the Configuration"
+          Link="/Content/Usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.html" />
+        <TocEntry
+          Title="Export the Configuration"
+          Link="/Content/Usercube/integration-guide/toolkit/how-tos/export-configuration/index.html" />
+        <TocEntry
+          Title="Adjust Scaffolded Configuration"
+          Link="/Content/Usercube/integration-guide/toolkit/how-tos/adjust-scaffoldings/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Architecture"
+        Link="/Content/Usercube/integration-guide/architecture/index.html">
+        <TocEntry
+          Title="SaaS Environment"
+          Link="/Content/Usercube/integration-guide/architecture/saas/index.html" />
+        <TocEntry
+          Title="On-Premises Environment"
+          Link="/Content/Usercube/integration-guide/architecture/on-prem/index.html" />
+        <TocEntry
+          Title="Protect Agent/Server Communication"
+          Link="/Content/Usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Network Configuration"
+        Link="/Content/Usercube/integration-guide/network-configuration/index.html">
+        <TocEntry
+          Title="Server Configuration"
+          Link="/Content/Usercube/integration-guide/network-configuration/server-configuration/index.html">
+          <TocEntry
+            Title="Application Settings"
+            Link="/Content/Usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.html" />
+          <TocEntry
+            Title="RSA Encryption"
+            Link="/Content/Usercube/integration-guide/network-configuration/server-configuration/rsa-encryption/index.html" />
+          <TocEntry
+            Title="End-User Authentication"
+            Link="/Content/Usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.html" />
+          <TocEntry
+            Title="Database Connection"
+            Link="/Content/Usercube/integration-guide/network-configuration/server-configuration/database-connection/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Agent Configuration"
+          Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/index.html">
+          <TocEntry
+            Title="Application Settings"
+            Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.html" />
+          <TocEntry
+            Title="appsettings.agent"
+            Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.html" />
+          <TocEntry
+            Title="RSA Encryption"
+            Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.html" />
+          <TocEntry
+            Title="Azure Key Vault"
+            Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.html" />
+          <TocEntry
+            Title="CyberArk’s AAM Credential Providers"
+            Link="/Content/Usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Proxy Server"
+          Link="/Content/Usercube/integration-guide/network-configuration/proxy/index.html" />
+        <TocEntry
+          Title="Technical Files"
+          Link="/Content/Usercube/integration-guide/network-configuration/technical-files/index.html">
+          <TocEntry
+            Title="appsettings.connection"
+            Link="/Content/Usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Password Management"
+          Link="/Content/Usercube/integration-guide/network-configuration/password-management/index.html" />
+        <TocEntry
+          Title="Various XML Settings"
+          Link="/Content/Usercube/integration-guide/network-configuration/settings/index.html" />
+        <TocEntry
+          Title="Configure Okta"
+          Link="/Content/Usercube/integration-guide/network-configuration/how-tos/okta/index.html" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Installation Guide"
+      Link="/Content/Usercube/installation-guide/index.html">
+      <TocEntry
+        Title="Overview"
+        Link="/Content/Usercube/installation-guide/overview/index.html" />
+      <TocEntry
+        Title="Requirements"
+        Link="/Content/Usercube/installation-guide/requirements/index.html">
+        <TocEntry
+          Title="Integration Device"
+          Link="/Content/Usercube/installation-guide/requirements/device-requirements/index.html" />
+        <TocEntry
+          Title="Database"
+          Link="/Content/Usercube/installation-guide/requirements/database-requirements/index.html" />
+        <TocEntry
+          Title="Server"
+          Link="/Content/Usercube/installation-guide/requirements/server-requirements/index.html" />
+        <TocEntry
+          Title="Agent"
+          Link="/Content/Usercube/installation-guide/requirements/agent-requirements/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Quick Start Guide"
+        Link="/Content/Usercube/installation-guide/quick-start/index.html" />
+      <TocEntry
+        Title="Production-Ready Installation Guide"
+        Link="/Content/Usercube/installation-guide/production-ready/index.html">
+        <TocEntry
+          Title="Create a Working Directory"
+          Link="/Content/Usercube/installation-guide/production-ready/working-directory/index.html" />
+        <TocEntry
+          Title="Install the Database"
+          Link="/Content/Usercube/installation-guide/production-ready/database/index.html" />
+        <TocEntry
+          Title="Install the Server"
+          Link="/Content/Usercube/installation-guide/production-ready/server/index.html" />
+        <TocEntry
+          Title="Install the Agents"
+          Link="/Content/Usercube/installation-guide/production-ready/agent/index.html" />
+        <TocEntry
+          Title="Send Notifications"
+          Link="/Content/Usercube/installation-guide/production-ready/email-server/index.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Reverse Proxy"
+        Link="/Content/Usercube/installation-guide/reverse-proxy/index.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Migration Guide"
+      Link="/Content/Usercube/migration-guide/index.html"></TocEntry>
+    <TocEntry
+      Title="What's New"
+      Link="/Content/Usercube/whatsnew/index.html"></TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,3 +1,9 @@
+---
+title: "Workflow Entity Type Display Table"
+description: "Workflow Entity Type Display Table"
+sidebar_position: 80
+---
+
 # Workflow Entity Type Display Table
 
 Creates the display table of the workflow entity of the starting entity.

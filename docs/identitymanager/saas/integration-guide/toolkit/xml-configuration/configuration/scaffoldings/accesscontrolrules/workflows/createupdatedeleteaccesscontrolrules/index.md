@@ -1,3 +1,9 @@
+---
+title: "Create Update Delete Access Control Rules"
+description: "Create Update Delete Access Control Rules"
+sidebar_position: 10
+---
+
 # Create Update Delete Access Control Rules
 
 Generates execution rights for the create, update, delete workflows.

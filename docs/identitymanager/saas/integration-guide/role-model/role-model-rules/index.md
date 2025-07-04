@@ -1,3 +1,9 @@
+---
+title: "Assignment Policy"
+description: "Assignment Policy"
+sidebar_position: 30
+---
+
 # Assignment Policy
 
 The assignment policy is the set of rules enforced on the resources to compute automatic assignments

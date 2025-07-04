@@ -1,3 +1,9 @@
+---
+title: "Notification"
+description: "Notification"
+sidebar_position: 10
+---
+
 # Notification
 
 A notification can be configured to be sent to a given user on a regular basis at specified times,

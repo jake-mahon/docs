@@ -1,3 +1,9 @@
+---
+title: "Generate Contexts"
+description: "Generate Contexts"
+sidebar_position: 50
+---
+
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the

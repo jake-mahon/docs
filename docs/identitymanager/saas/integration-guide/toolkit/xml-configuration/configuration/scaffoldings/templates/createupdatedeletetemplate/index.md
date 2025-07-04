@@ -1,3 +1,9 @@
+---
+title: "Create Update Delete Template"
+description: "Create Update Delete Template"
+sidebar_position: 30
+---
+
 # Create Update Delete Template
 
 Creates the three types of workflow for the given entity as well as the execution rights for the

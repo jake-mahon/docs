@@ -1,3 +1,9 @@
+---
+title: "Internal Resources"
+description: "Internal Resources"
+sidebar_position: 100
+---
+
 # Internal Resources
 
 This connector opens manual provisioning tickets in Identity Manager.

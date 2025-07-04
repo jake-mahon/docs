@@ -1,3 +1,9 @@
+---
+title: "CSV"
+description: "CSV"
+sidebar_position: 40
+---
+
 # CSV
 
 This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values).

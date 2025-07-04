@@ -1,3 +1,9 @@
+---
+title: "Select All Performed by Association Query Handler Setting"
+description: "Select All Performed by Association Query Handler Setting"
+sidebar_position: 100
+---
+
 # Select All Performed by Association Query Handler Setting
 
 This setting enables task delegation to a group of people.

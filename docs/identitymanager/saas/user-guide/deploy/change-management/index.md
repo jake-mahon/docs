@@ -1,3 +1,9 @@
+---
+title: "Plan Change Management"
+description: "Plan Change Management"
+sidebar_position: 10
+---
+
 # Plan Change Management
 
 How to anticipate the deep changes in the organization's applications and processes due to Identity

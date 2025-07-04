@@ -1,3 +1,9 @@
+---
+title: "Automate Role Assignments"
+description: "Automate Role Assignments"
+sidebar_position: 10
+---
+
 # Automate Role Assignments
 
 How to manually build rules to automate the assignment of roles to identities. See

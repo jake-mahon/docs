@@ -1,3 +1,9 @@
+---
+title: "Access Certification"
+description: "Access Certification"
+sidebar_position: 20
+---
+
 # Access Certification
 
 The Access Certification module enables chosen end-users to carry out assignment certification

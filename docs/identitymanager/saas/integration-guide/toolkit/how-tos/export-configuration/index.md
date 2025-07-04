@@ -1,3 +1,9 @@
+---
+title: "Export the Configuration"
+description: "Export the Configuration"
+sidebar_position: 100
+---
+
 # Export the Configuration
 
 This guide shows how to export the configuration as XML files to a given folder.

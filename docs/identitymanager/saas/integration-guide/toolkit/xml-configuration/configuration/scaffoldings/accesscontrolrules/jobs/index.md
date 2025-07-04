@@ -1,3 +1,9 @@
+---
+title: "Jobs"
+description: "Jobs"
+sidebar_position: 30
+---
+
 # Jobs
 
 - [ GetJobLogAdministrationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md)

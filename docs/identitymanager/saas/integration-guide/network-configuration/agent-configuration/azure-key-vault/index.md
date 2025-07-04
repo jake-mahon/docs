@@ -1,3 +1,9 @@
+---
+title: "Azure Key Vault"
+description: "Azure Key Vault"
+sidebar_position: 40
+---
+
 # Azure Key Vault
 
 ## Prerequisites
