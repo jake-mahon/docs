@@ -1,3 +1,9 @@
+---
+title: "OpenLDAP"
+description: "OpenLDAP"
+sidebar_position: 180
+---
+
 # OpenLDAP
 
 This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/)

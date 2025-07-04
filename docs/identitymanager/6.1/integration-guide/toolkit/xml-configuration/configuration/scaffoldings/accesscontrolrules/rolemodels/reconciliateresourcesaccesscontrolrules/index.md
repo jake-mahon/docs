@@ -1,3 +1,9 @@
+---
+title: "ReconciliateResourcesAccessControlRules"
+description: "ReconciliateResourcesAccessControlRules"
+sidebar_position: 80
+---
+
 # ReconciliateResourcesAccessControlRules
 
 Generates the right to access the reconcile resources pages for a given entity type and profile.

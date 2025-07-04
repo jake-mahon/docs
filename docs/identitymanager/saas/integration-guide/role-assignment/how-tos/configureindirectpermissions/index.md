@@ -1,3 +1,9 @@
+---
+title: "Configure Indirect Permissions"
+description: "Configure Indirect Permissions"
+sidebar_position: 80
+---
+
 # Configure Indirect Permissions
 
 The following how-to assumes that you have already read the topic on

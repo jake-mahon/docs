@@ -1,3 +1,9 @@
+---
+title: "Request APIs via Postman"
+description: "Request APIs via Postman"
+sidebar_position: 40
+---
+
 # Request APIs via Postman
 
 This guide shows how to configure Postman to be able to request Identity Manager's API.

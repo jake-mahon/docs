@@ -1,3 +1,9 @@
+---
+title: "AccessCertificationDataFilter"
+description: "AccessCertificationDataFilter"
+sidebar_position: 20
+---
+
 # AccessCertificationDataFilter
 
 When running an Access Certification Campaign, this object defines the scope of assignments of

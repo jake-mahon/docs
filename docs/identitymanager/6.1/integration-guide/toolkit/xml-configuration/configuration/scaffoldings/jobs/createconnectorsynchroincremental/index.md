@@ -1,3 +1,9 @@
+---
+title: "CreateConnectorSynchroIncremental"
+description: "CreateConnectorSynchroIncremental"
+sidebar_position: 70
+---
+
 # CreateConnectorSynchroIncremental
 
 This scaffolding generates a synchronization job (in Incremental mode) for the given connector.

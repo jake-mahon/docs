@@ -1,3 +1,9 @@
+---
+title: "Usercube-Manage-ConfigurationDependantIndexes"
+description: "Usercube-Manage-ConfigurationDependantIndexes"
+sidebar_position: 250
+---
+
 # Usercube-Manage-ConfigurationDependantIndexes
 
 This tool creates the necessary SQL indexes based on the latest deployed configuration to optimize

@@ -1,3 +1,9 @@
+---
+title: "Create Menu Items"
+description: "Create Menu Items"
+sidebar_position: 20
+---
+
 # Create Menu Items
 
 After creating a workflow as for the EntityTypes, is mandatory to create the MenuItems to create the

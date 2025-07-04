@@ -1,3 +1,9 @@
+---
+title: "Monitoring"
+description: "Monitoring"
+sidebar_position: 40
+---
+
 # Monitoring
 
 - [ MonitoringAdministrationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md)

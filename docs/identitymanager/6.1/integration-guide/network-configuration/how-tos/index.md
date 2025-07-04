@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 70
+---
+
 # How-Tos
 
 These guides will help you configure technical settings with practical step-by-step procedures.

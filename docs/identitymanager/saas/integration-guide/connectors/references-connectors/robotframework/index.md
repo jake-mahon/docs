@@ -1,3 +1,9 @@
+---
+title: "Robot Framework"
+description: "Robot Framework"
+sidebar_position: 220
+---
+
 # Robot Framework
 
 This connector writes to an external system via a [Robot Framework](https://robotframework.org)

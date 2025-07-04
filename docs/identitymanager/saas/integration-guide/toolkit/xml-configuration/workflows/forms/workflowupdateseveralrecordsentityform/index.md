@@ -1,3 +1,9 @@
+---
+title: "WorkflowUpdateSeveralRecordsEntityForm"
+description: "WorkflowUpdateSeveralRecordsEntityForm"
+sidebar_position: 90
+---
+
 # WorkflowUpdateSeveralRecordsEntityForm
 
 Displays a form to create, update or delete one or several records.

@@ -1,3 +1,9 @@
+---
+title: "OpenIdClient"
+description: "OpenIdClient"
+sidebar_position: 50
+---
+
 # OpenIdClient
 
 OpenIdClient declares an Open Id Connect clientId/secret to call the Usercube API. All the

@@ -1,3 +1,9 @@
+---
+title: "ResourceCorrelationRule"
+description: "ResourceCorrelationRule"
+sidebar_position: 120
+---
+
 # ResourceCorrelationRule
 
 A correlation rule is used to

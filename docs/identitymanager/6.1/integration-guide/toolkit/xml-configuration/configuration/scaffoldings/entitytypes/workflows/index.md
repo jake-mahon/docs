@@ -1,3 +1,9 @@
+---
+title: "Workflows"
+description: "Workflows"
+sidebar_position: 20
+---
+
 # Workflows
 
 - #### [CreateUpdateDeleteMenus](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/workflows/createupdatedeletemenus/index.md)

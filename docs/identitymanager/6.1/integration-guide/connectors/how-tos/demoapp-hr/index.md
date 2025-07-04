@@ -1,3 +1,9 @@
+---
+title: "Run the HR Demo Application"
+description: "Run the HR Demo Application"
+sidebar_position: 30
+---
+
 # Run the HR Demo Application
 
 This guide shows how to set up and run the HR demo application.

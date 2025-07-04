@@ -1,3 +1,9 @@
+---
+title: "Review Prolonged Entitlements"
+description: "Review Prolonged Entitlements"
+sidebar_position: 10
+---
+
 # Review Prolonged Entitlements
 
 This guide shows how to allow a manager to review the permissions prolonged by a grace period.

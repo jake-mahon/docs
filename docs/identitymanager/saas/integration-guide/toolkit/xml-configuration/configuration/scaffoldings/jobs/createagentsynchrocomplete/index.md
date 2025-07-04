@@ -1,3 +1,9 @@
+---
+title: "Create Agent Synchro Complete"
+description: "Create Agent Synchro Complete"
+sidebar_position: 30
+---
+
 # Create Agent Synchro Complete
 
 This Scaffolding generates a synchronization job (in complete mode) for all connectors.

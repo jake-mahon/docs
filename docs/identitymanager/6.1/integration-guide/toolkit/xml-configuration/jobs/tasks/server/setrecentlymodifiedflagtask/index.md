@@ -1,3 +1,9 @@
+---
+title: "SetRecentlyModifiedFlagTask"
+description: "SetRecentlyModifiedFlagTask"
+sidebar_position: 210
+---
+
 # SetRecentlyModifiedFlagTask
 
 When synchronizing in full or incremental mode, it is possible to optimize the compute performance

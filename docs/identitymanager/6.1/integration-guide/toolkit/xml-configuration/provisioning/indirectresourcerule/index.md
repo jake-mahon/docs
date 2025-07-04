@@ -1,3 +1,9 @@
+---
+title: "IndirectResourceRule"
+description: "IndirectResourceRule"
+sidebar_position: 70
+---
+
 # IndirectResourceRule
 
 An indirect resource rule is a link between a resource and its indirect groups, equivalent in

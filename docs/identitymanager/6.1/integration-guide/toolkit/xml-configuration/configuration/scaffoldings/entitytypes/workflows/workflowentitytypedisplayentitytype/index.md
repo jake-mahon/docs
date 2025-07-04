@@ -1,3 +1,9 @@
+---
+title: "WorkflowEntityTypeDisplayEntityType"
+description: "WorkflowEntityTypeDisplayEntityType"
+sidebar_position: 70
+---
+
 # WorkflowEntityTypeDisplayEntityType
 
 ## Examples

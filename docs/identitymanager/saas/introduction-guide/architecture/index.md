@@ -1,3 +1,9 @@
+---
+title: "Architecture"
+description: "Architecture"
+sidebar_position: 20
+---
+
 # Architecture
 
 Identity Manager is built to work via a specific architecture made of a server, an agent and a

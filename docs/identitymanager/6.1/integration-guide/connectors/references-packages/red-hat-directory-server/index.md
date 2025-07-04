@@ -1,3 +1,9 @@
+---
+title: "Red Hat Directory Server"
+description: "Red Hat Directory Server"
+sidebar_position: 300
+---
+
 # Red Hat Directory Server
 
 Manages entries in a Red Hat Directory Server.

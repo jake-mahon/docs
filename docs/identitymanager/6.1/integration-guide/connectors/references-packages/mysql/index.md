@@ -1,3 +1,9 @@
+---
+title: "MySQL"
+description: "MySQL"
+sidebar_position: 200
+---
+
 # MySQL
 
 Export data from a MySQL database.

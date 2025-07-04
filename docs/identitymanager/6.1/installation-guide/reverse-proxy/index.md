@@ -1,3 +1,9 @@
+---
+title: "Reverse Proxy"
+description: "Reverse Proxy"
+sidebar_position: 50
+---
+
 # Reverse Proxy
 
 Usercube can be installed behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) that

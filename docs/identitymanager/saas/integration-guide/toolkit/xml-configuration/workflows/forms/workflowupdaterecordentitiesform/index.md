@@ -1,3 +1,9 @@
+---
+title: "WorkflowUpdateRecordEntitiesForm"
+description: "WorkflowUpdateRecordEntitiesForm"
+sidebar_position: 70
+---
+
 # WorkflowUpdateRecordEntitiesForm
 
 Displays a form to update data for several resources simultaneously.

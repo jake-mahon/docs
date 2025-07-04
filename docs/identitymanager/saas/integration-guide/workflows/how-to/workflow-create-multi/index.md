@@ -1,3 +1,9 @@
+---
+title: "For Resource Creation (Multi Records)"
+description: "For Resource Creation (Multi Records)"
+sidebar_position: 20
+---
+
 # For Resource Creation (Multi Records)
 
 This section guides you through the procedure for the creation of a workflow to create a new

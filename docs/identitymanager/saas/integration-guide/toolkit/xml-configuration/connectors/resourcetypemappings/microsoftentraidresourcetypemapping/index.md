@@ -1,3 +1,9 @@
+---
+title: "Microsoft EntraID Resource Type Mapping"
+description: "Microsoft EntraID Resource Type Mapping"
+sidebar_position: 10
+---
+
 # Microsoft EntraID Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

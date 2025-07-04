@@ -1,3 +1,9 @@
+---
+title: "Integration Device"
+description: "Integration Device"
+sidebar_position: 10
+---
+
 # Integration Device
 
 This section identifies the requirements for the Saas installation of Identity Manager. For the

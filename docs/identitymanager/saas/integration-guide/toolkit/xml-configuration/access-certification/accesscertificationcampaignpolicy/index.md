@@ -1,3 +1,9 @@
+---
+title: "AccessCertificationCampaignPolicy"
+description: "AccessCertificationCampaignPolicy"
+sidebar_position: 10
+---
+
 # AccessCertificationCampaignPolicy
 
 This object defines sets of reviewers. Campaigns are created for one of the defined set only. The

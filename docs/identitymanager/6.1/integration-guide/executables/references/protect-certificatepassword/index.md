@@ -1,3 +1,9 @@
+---
+title: "Usercube-Protect-CertificatePassword"
+description: "Usercube-Protect-CertificatePassword"
+sidebar_position: 300
+---
+
 # Usercube-Protect-CertificatePassword
 
 This tool helps protecting `.pfx` archives passwords. Given a plain text password, it generates an

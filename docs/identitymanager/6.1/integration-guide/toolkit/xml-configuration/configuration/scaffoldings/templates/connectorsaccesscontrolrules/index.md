@@ -1,3 +1,9 @@
+---
+title: "ConnectorsAccessControlRules"
+description: "ConnectorsAccessControlRules"
+sidebar_position: 10
+---
+
 # ConnectorsAccessControlRules
 
 Gives the permissions to manage the connector pages.

@@ -1,3 +1,9 @@
+---
+title: "Ldap Resource Type Mapping"
+description: "Ldap Resource Type Mapping"
+sidebar_position: 30
+---
+
 # Ldap Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

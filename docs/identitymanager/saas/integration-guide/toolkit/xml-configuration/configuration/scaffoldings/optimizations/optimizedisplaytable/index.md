@@ -1,3 +1,9 @@
+---
+title: "Optimize Display Table"
+description: "Optimize Display Table"
+sidebar_position: 10
+---
+
 # Optimize Display Table
 
 This scaffolding optimizes the given display table by replacing its tiles navigation properties by

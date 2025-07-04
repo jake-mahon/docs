@@ -1,3 +1,9 @@
+---
+title: "Configure Unique Property Generation"
+description: "Configure Unique Property Generation"
+sidebar_position: 10
+---
+
 # Configure Unique Property Generation
 
 How to configure Identity Manager to generate unique identifiers, mails and logins for any user who

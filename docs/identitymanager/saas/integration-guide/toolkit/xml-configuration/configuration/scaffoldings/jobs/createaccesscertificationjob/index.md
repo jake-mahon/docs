@@ -1,3 +1,9 @@
+---
+title: "Create Access Certification Job"
+description: "Create Access Certification Job"
+sidebar_position: 20
+---
+
 # Create Access Certification Job
 
 Creates the AccessCertification Job.

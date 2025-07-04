@@ -1,3 +1,9 @@
+---
+title: "Request Entitlement Assignment"
+description: "Request Entitlement Assignment"
+sidebar_position: 60
+---
+
 # Request Entitlement Assignment
 
 How to send a manual request to add, update or remove an entitlement for an identity.

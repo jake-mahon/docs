@@ -1,3 +1,9 @@
+---
+title: "Provision Automatically"
+description: "Provision Automatically"
+sidebar_position: 30
+---
+
 # Provision Automatically
 
 How to make Usercube automatically write to the managed systems.

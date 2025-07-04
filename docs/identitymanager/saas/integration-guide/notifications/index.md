@@ -1,3 +1,9 @@
+---
+title: "Notifications"
+description: "Notifications"
+sidebar_position: 130
+---
+
 # Notifications
 
 Identity Manager is able to send notification emails when an action is expected, or a job ends with

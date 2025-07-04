@@ -1,3 +1,9 @@
+---
+title: "Thresholds"
+description: "Thresholds"
+sidebar_position: 20
+---
+
 # Thresholds
 
 Thresholds are essential safety guards controlling all changes, for example preventing the

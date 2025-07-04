@@ -1,3 +1,9 @@
+---
+title: "Forms"
+description: "Forms"
+sidebar_position: 20
+---
+
 # Forms
 
 Workflows use forms to collect input data through the UI. A form is a set of fields, configured with

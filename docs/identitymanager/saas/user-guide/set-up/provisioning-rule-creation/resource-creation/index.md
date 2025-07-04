@@ -1,3 +1,9 @@
+---
+title: "Create Resources"
+description: "Create Resources"
+sidebar_position: 10
+---
+
 # Create Resources
 
 How to define

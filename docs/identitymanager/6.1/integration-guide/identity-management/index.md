@@ -1,3 +1,9 @@
+---
+title: "Identity Management"
+description: "Identity Management"
+sidebar_position: 10
+---
+
 # Identity Management
 
 Identity management is about creating a repository of identities (all kinds of identities) along

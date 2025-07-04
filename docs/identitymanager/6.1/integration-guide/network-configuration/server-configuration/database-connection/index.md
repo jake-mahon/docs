@@ -1,3 +1,9 @@
+---
+title: "Connection to the Database"
+description: "Connection to the Database"
+sidebar_position: 40
+---
+
 # Connection to the Database
 
 The connection of Usercube's server to the database is set through the `appsettings` top-level

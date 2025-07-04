@@ -1,3 +1,9 @@
+---
+title: "WorkflowCreateSeveralRecordsEntityForm"
+description: "WorkflowCreateSeveralRecordsEntityForm"
+sidebar_position: 50
+---
+
 # WorkflowCreateSeveralRecordsEntityForm
 
 Displays a form to create a new resource with one or several records.

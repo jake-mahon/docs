@@ -1,3 +1,9 @@
+---
+title: "Quick Start Guide"
+description: "Quick Start Guide"
+sidebar_position: 30
+---
+
 # Quick Start Guide
 
 This guide leads the reader through the steps to quickly install Usercube's bootstrap version.

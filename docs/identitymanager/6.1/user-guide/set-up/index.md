@@ -1,3 +1,9 @@
+---
+title: "Set Up"
+description: "Set Up"
+sidebar_position: 20
+---
+
 # Set Up
 
 - #### [Install the Development Environment](/docs/identitymanager/6.1/user-guide/set-up/development-environment-installation/index.md)

@@ -1,3 +1,9 @@
+---
+title: "User Guide"
+description: "User Guide"
+sidebar_position: 20
+---
+
 # User Guide
 
 Usercube's User Guide leads the reader through all the necessary steps to autonomously build an IGA

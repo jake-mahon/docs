@@ -1,3 +1,9 @@
+---
+title: "Entitlement Management"
+description: "Entitlement Management"
+sidebar_position: 20
+---
+
 # Entitlement Management
 
 Managing identities' entitlements requires managing entitlements and assigning them to identities.

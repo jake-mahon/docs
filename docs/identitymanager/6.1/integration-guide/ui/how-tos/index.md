@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 10
+---
+
 # How-Tos
 
 These guides will help you configure various UI settings with practical step-by-step procedures.

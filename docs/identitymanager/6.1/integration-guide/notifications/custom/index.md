@@ -1,3 +1,9 @@
+---
+title: "Custom Notifications"
+description: "Custom Notifications"
+sidebar_position: 20
+---
+
 # Custom Notifications
 
 Custom notifications can be configured for specific needs, to be triggered by a workflow, or

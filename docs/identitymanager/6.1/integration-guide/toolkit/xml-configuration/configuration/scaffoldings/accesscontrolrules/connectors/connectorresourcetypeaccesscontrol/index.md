@@ -1,3 +1,9 @@
+---
+title: "ConnectorResourceTypeAccessControl"
+description: "ConnectorResourceTypeAccessControl"
+sidebar_position: 10
+---
+
 # ConnectorResourceTypeAccessControl
 
 Generates the access control rules which give to a profile the permission to create and update

@@ -1,3 +1,9 @@
+---
+title: "ManageAccounts"
+description: "ManageAccounts"
+sidebar_position: 10
+---
+
 # ManageAccounts
 
 Gives access to the **Manage Accounts** buttons for the users of a given entity type.

@@ -1,3 +1,9 @@
+---
+title: "Workflow Configuration Control Rules"
+description: "Workflow Configuration Control Rules"
+sidebar_position: 40
+---
+
 # Workflow Configuration Control Rules
 
 ## Examples

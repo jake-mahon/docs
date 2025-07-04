@@ -1,3 +1,9 @@
+---
+title: "Entity Model"
+description: "Entity Model"
+sidebar_position: 30
+---
+
 # Entity Model
 
 At the heart of any successful IGA project, dwells an efficient data model.

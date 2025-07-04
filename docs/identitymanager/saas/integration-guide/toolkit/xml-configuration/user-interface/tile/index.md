@@ -1,3 +1,9 @@
+---
+title: "Tile"
+description: "Tile"
+sidebar_position: 90
+---
+
 # Tile
 
 A tile displays customizable data in one block. This block is displayed in display table. There are

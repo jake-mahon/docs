@@ -1,3 +1,9 @@
+---
+title: "Create Connector Synchro Complete"
+description: "Create Connector Synchro Complete"
+sidebar_position: 60
+---
+
 # Create Connector Synchro Complete
 
 This scaffolding generates a synchronization job (in Complete mode) for the given connector.

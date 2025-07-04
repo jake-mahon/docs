@@ -1,3 +1,9 @@
+---
+title: "Usercube-Encrypt-File"
+description: "Usercube-Encrypt-File"
+sidebar_position: 100
+---
+
 # Usercube-Encrypt-File
 
 In Usercube, files are encrypted by default. This tool encrypts an input file or the InputConsole of

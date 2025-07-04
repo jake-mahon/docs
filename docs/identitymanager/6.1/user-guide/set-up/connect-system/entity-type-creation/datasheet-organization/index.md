@@ -1,3 +1,9 @@
+---
+title: "Organize Resources' Datasheets"
+description: "Organize Resources' Datasheets"
+sidebar_position: 60
+---
+
 # Organize Resources' Datasheets
 
 How to change the default display of the resource data from this entity type, by creating display

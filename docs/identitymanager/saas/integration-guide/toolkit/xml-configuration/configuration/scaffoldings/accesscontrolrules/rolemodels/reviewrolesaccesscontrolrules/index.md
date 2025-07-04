@@ -1,3 +1,9 @@
+---
+title: "Review Roles Access Control Rules"
+description: "Review Roles Access Control Rules"
+sidebar_position: 120
+---
+
 # Review Roles Access Control Rules
 
 Generates the rights to access the access roles review pages for a given entity type and profile.

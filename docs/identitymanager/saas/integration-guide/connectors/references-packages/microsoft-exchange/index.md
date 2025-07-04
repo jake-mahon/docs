@@ -1,3 +1,9 @@
+---
+title: "Microsoft Exchange"
+description: "Microsoft Exchange"
+sidebar_position: 190
+---
+
 # Microsoft Exchange
 
 Manages Microsoft Exchange mailboxes. This package supports incremental synchronization.

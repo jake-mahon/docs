@@ -1,3 +1,9 @@
+---
+title: "Production-Ready Installation"
+description: "Production-Ready Installation"
+sidebar_position: 40
+---
+
 # Production-Ready Installation
 
 This guide leads the reader through the steps to install Usercube for production purposes.

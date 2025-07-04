@@ -1,3 +1,9 @@
+---
+title: "BulkResourceReconciliationAccessControlRules"
+description: "BulkResourceReconciliationAccessControlRules"
+sidebar_position: 30
+---
+
 # BulkResourceReconciliationAccessControlRules
 
 The following example assigns to the Administrator profile the rights to reconcile simultaneously

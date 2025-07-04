@@ -1,3 +1,9 @@
+---
+title: "Bulk Review Provisioning Access Control Rules"
+description: "Bulk Review Provisioning Access Control Rules"
+sidebar_position: 40
+---
+
 # Bulk Review Provisioning Access Control Rules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous

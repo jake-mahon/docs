@@ -1,3 +1,9 @@
+---
+title: "Usercube-Anonymize"
+description: "Usercube-Anonymize"
+sidebar_position: 20
+---
+
 # Usercube-Anonymize
 
 This tool anonymizes data based on a certain knowledge of the database and the data structure.

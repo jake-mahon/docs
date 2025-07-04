@@ -1,3 +1,9 @@
+---
+title: "ActivityInstanceActorTask"
+description: "ActivityInstanceActorTask"
+sidebar_position: 10
+---
+
 # ActivityInstanceActorTask
 
 Update all the actors of the workflows instances.

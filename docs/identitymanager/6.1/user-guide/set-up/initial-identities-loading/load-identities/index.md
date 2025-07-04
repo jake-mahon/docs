@@ -1,3 +1,9 @@
+---
+title: "Load Identities to Usercube"
+description: "Load Identities to Usercube"
+sidebar_position: 20
+---
+
 # Load Identities to Usercube
 
 How to load identities into Usercube for the first time using a basic data model in the form of a

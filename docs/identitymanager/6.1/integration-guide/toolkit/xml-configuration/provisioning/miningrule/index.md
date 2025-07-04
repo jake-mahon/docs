@@ -1,3 +1,9 @@
+---
+title: "MiningRule"
+description: "MiningRule"
+sidebar_position: 80
+---
+
 # MiningRule
 
 After roles are assigned to users, Usercube can use mining rules to perform role mining. Role mining

@@ -1,3 +1,9 @@
+---
+title: "appsettings.agent"
+description: "appsettings.agent"
+sidebar_position: 20
+---
+
 # appsettings.agent
 
 The appsettings.agent.json file is meant to contain configuration data to be used by the agent to

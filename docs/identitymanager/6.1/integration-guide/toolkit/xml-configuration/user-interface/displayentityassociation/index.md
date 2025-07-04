@@ -1,3 +1,9 @@
+---
+title: "DisplayEntityAssociation"
+description: "DisplayEntityAssociation"
+sidebar_position: 10
+---
+
 # DisplayEntityAssociation
 
 Entity referencing the Entity Association that can be displayed in the Usercube interface. An

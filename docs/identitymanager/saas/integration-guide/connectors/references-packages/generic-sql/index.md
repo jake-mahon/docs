@@ -1,3 +1,9 @@
+---
+title: "Generic SQL"
+description: "Generic SQL"
+sidebar_position: 120
+---
+
 # Generic SQL
 
 Exports data from a SQL database.

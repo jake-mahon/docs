@@ -1,3 +1,9 @@
+---
+title: "Role Administration Access Control Rules"
+description: "Role Administration Access Control Rules"
+sidebar_position: 140
+---
+
 # Role Administration Access Control Rules
 
 Generates the rights to access the access configuration pages and create, update, delete for:

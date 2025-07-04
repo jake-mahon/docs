@@ -1,3 +1,9 @@
+---
+title: "References: Executables"
+description: "References: Executables"
+sidebar_position: 10
+---
+
 # References: Executables
 
 - #### [Usercube-Agent](/docs/identitymanager/6.1/integration-guide/executables/references/agent/index.md)

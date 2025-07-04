@@ -1,3 +1,9 @@
+---
+title: "RoleAndSimulationControlRules"
+description: "RoleAndSimulationControlRules"
+sidebar_position: 20
+---
+
 # RoleAndSimulationControlRules
 
 ## Examples

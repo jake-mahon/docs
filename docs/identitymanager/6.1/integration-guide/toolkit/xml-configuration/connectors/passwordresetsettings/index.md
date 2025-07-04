@@ -1,3 +1,9 @@
+---
+title: "PasswordResetSettings"
+description: "PasswordResetSettings"
+sidebar_position: 80
+---
+
 # PasswordResetSettings
 
 This set of password reset settings contains the configuration to perform password reset operations

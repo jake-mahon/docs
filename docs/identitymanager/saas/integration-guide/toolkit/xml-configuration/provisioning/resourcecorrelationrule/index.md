@@ -1,3 +1,9 @@
+---
+title: "Resource Correlation Rule"
+description: "Resource Correlation Rule"
+sidebar_position: 120
+---
+
 # Resource Correlation Rule
 
 A correlation rule is used to correlate the resources, i.e. link resources to their owners. See the

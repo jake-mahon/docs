@@ -1,3 +1,9 @@
+---
+title: "RoleModels"
+description: "RoleModels"
+sidebar_position: 80
+---
+
 # RoleModels
 
 - #### [BasketRulesControlRules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.md)

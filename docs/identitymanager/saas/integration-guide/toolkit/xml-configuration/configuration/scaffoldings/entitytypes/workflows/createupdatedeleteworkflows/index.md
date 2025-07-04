@@ -1,3 +1,9 @@
+---
+title: "Create Update Delete Workflows"
+description: "Create Update Delete Workflows"
+sidebar_position: 20
+---
+
 # Create Update Delete Workflows
 
 ## Examples

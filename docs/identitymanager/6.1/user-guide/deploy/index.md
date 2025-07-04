@@ -1,3 +1,9 @@
+---
+title: "Deploy"
+description: "Deploy"
+sidebar_position: 50
+---
+
 # Deploy
 
 - #### [Plan Change Management](/docs/identitymanager/6.1/user-guide/deploy/change-management/index.md)

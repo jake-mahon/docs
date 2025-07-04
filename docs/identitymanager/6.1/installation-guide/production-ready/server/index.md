@@ -1,3 +1,9 @@
+---
+title: "Install the Server"
+description: "Install the Server"
+sidebar_position: 30
+---
+
 # Install the Server
 
 Usercube Server can be installed on the same workstation as the database or on a separate

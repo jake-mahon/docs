@@ -1,3 +1,9 @@
+---
+title: "Entitlement Assignment"
+description: "Entitlement Assignment"
+sidebar_position: 10
+---
+
 # Entitlement Assignment
 
 Assigning entitlements means giving users specific permissions, or access rights, etc.

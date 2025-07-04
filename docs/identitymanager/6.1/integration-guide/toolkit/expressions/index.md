@@ -1,3 +1,9 @@
+---
+title: "Expressions"
+description: "Expressions"
+sidebar_position: 40
+---
+
 # Expressions
 
 Expressions are a way to define the attributes whose values must be computed based on other

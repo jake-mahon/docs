@@ -1,3 +1,9 @@
+---
+title: "Resource Picker Control Rules"
+description: "Resource Picker Control Rules"
+sidebar_position: 30
+---
+
 # Resource Picker Control Rules
 
 Creates the reading right of the resource picker.

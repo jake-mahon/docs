@@ -1,3 +1,9 @@
+---
+title: "Set the Working Directory's Permissions"
+description: "Set the Working Directory's Permissions"
+sidebar_position: 40
+---
+
 # Set the Working Directory's Permissions
 
 This guide shows how to assign to the pool the right permissions on the working directory.

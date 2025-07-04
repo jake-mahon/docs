@@ -1,3 +1,9 @@
+---
+title: "Workflow Entity Type Display Entity Type"
+description: "Workflow Entity Type Display Entity Type"
+sidebar_position: 70
+---
+
 # Workflow Entity Type Display Entity Type
 
 ## Examples

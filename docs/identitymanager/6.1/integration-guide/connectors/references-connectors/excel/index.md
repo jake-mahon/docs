@@ -1,3 +1,9 @@
+---
+title: "Microsoft Excel"
+description: "Microsoft Excel"
+sidebar_position: 140
+---
+
 # Microsoft Excel
 
 This connector exports datasheets from a

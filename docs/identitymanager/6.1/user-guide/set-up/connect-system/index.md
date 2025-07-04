@@ -1,3 +1,9 @@
+---
+title: "Connect to a Managed System"
+description: "Connect to a Managed System"
+sidebar_position: 50
+---
+
 # Connect to a Managed System
 
 How to create a new

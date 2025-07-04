@@ -1,3 +1,9 @@
+---
+title: "AccessControlEntityType"
+description: "AccessControlEntityType"
+sidebar_position: 10
+---
+
 # AccessControlEntityType
 
 ## Child Element: Property

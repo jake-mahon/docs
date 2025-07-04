@@ -1,3 +1,9 @@
+---
+title: "Automate Assignments"
+description: "Automate Assignments"
+sidebar_position: 60
+---
+
 # Automate Assignments
 
 How to automate entitlement assignment.

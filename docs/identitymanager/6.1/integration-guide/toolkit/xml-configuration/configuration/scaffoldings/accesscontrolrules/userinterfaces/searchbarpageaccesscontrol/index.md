@@ -1,3 +1,9 @@
+---
+title: "SearchBarPageAccessControl"
+description: "SearchBarPageAccessControl"
+sidebar_position: 20
+---
+
 # SearchBarPageAccessControl
 
 The Scaffolding giving access to the different views of the pages of the role model do not give

@@ -1,3 +1,9 @@
+---
+title: "View Template Adaptable"
+description: "View Template Adaptable"
+sidebar_position: 120
+---
+
 # View Template Adaptable
 
 Implements a default display name for the resources of a given entity type, displays the resources

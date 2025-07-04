@@ -1,3 +1,9 @@
+---
+title: "Install the Agents"
+description: "Install the Agents"
+sidebar_position: 40
+---
+
 # Install the Agents
 
 Most on-premises installations use an agent integrated with Identity Manager's server. If this is

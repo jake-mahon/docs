@@ -1,3 +1,9 @@
+---
+title: "Generate Reports"
+description: "Generate Reports"
+sidebar_position: 10
+---
+
 # Generate Reports
 
 How to use Identity Manager's reporting modules to produce IGA reports for auditing and governance

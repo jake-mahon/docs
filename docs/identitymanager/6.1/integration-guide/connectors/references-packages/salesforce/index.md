@@ -1,3 +1,9 @@
+---
+title: "Salesforce"
+description: "Salesforce"
+sidebar_position: 370
+---
+
 # Salesforce
 
 Manages Salesforce entities.

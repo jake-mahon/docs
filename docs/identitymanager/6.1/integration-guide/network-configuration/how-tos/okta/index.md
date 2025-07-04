@@ -1,3 +1,9 @@
+---
+title: "Configure Okta for Usercube Authentication"
+description: "Configure Okta for Usercube Authentication"
+sidebar_position: 10
+---
+
 # Configure Okta for Usercube Authentication
 
 This guide shows how to configure the OIDC to set up the authentication to Usercube.

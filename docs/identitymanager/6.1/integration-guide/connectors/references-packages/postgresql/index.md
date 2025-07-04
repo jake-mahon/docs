@@ -1,3 +1,9 @@
+---
+title: "PostgreSQL"
+description: "PostgreSQL"
+sidebar_position: 260
+---
+
 # PostgreSQL
 
 Export data from a PostgreSQL database.

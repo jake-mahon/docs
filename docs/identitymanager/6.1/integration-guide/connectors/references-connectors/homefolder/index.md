@@ -1,3 +1,9 @@
+---
+title: "Home Folder"
+description: "Home Folder"
+sidebar_position: 80
+---
+
 # Home Folder
 
 This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directory)' content.

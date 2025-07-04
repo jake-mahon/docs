@@ -1,3 +1,9 @@
+---
+title: "AssignProfileAccessControlRules"
+description: "AssignProfileAccessControlRules"
+sidebar_position: 10
+---
+
 # AssignProfileAccessControlRules
 
 Gives to a given profile the rights to create, update, delete and query any assigned profile, from

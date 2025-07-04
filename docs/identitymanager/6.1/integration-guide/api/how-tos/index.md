@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 60
+---
+
 # How-Tos
 
 These guides will help you use Usercube's API with practical step-by-step procedures.

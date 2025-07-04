@@ -1,3 +1,9 @@
+---
+title: "Architecture"
+description: "Architecture"
+sidebar_position: 220
+---
+
 # Architecture
 
 This article dives deeper into Identity Manager's design principles. Security and flexibility are

@@ -1,3 +1,9 @@
+---
+title: "Workflows"
+description: "Workflows"
+sidebar_position: 110
+---
+
 # Workflows
 
 - #### [CreateUpdateDeleteAccessControlRules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/createupdatedeleteaccesscontrolrules/index.md)

@@ -1,3 +1,9 @@
+---
+title: "Create a Category"
+description: "Create a Category"
+sidebar_position: 20
+---
+
 # Create a Category
 
 How to structure roles into
