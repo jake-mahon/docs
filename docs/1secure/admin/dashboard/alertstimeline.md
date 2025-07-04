@@ -83,7 +83,7 @@ the data in descending order.
 Edit Alerts Settings
 
 Click the **Edit Alerts Settings** link to navigate to the Alerts page, where you can create a new
-alert and modify existing ones. See the [Alerts](/docs/1secure/admin/alerts/index.md) topic for additional
+alert and modify existing ones. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional
 information.
 
 ## Filter Data

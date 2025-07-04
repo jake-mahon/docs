@@ -43,7 +43,7 @@ organization:
 - Exchange Online
 - SharePoint Online
 
-**NOTE:** See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for detailed
+**NOTE:** See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for detailed
 information.
 
 ![addorganizationssites](/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
@@ -67,12 +67,12 @@ displayed only when adding these sources.
 ![addorganizationssourcedetails](/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
 
 **Step 6 –** On the Configure source details (Step 3 of 4) window, specify your source settings. See
-the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for additional information.
+the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.
 
 ![addorganizationssourcesandconnectors](/img/product_docs/1secure/admin/organizations/addorganizationssourcesandconnectors.webp)
 
 **Step 7 –** On the Choose new connector (Step 4 of 4) window, add the connectors for your sources
-on. See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for additional
+on. See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional
 information.
 
 **Step 8 –** Click **Finish** or **Save & Add another source** to add a source for your

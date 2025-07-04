@@ -25,5 +25,5 @@ Using connectors, Netwrix 1Secure can:
 - Connect to your sources for analyzing and processing the data
 
 **NOTE:** Before adding a data source, make sure its prerequisites are met. See the
-[Requirements](/docs/1secure/requirements.md#prerequisites-for-data-sources) topic for
+[Requirements](/docs/1secure/requirements/prerequisitesfordatasources.md) topic for
 additional information.

@@ -18,7 +18,7 @@ include:
 - Viewer
 
 You can add users both in Managing Organization and in Managed Organization. See the
-[Manage Organizations](/docs/1secure/admin/organizations/index.md) topic for additional information.
+[Manage Organizations](/docs/1secure/admin/organizations/overview.md) topic for additional information.
 
 Image keys:
 

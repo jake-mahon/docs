@@ -58,7 +58,7 @@ for additional information on shared reports.
 Your custom report is created under the respective category.
 
 **NOTE:** You may link this report to an alert. See the
-[Add a Custom Alert](/docs/1secure/admin/alerts/index.md#add-a-custom-alert) topic for additional information.
+[Add a Custom Alert](/docs/1secure/admin/alerts/alerts.md#add-a-custom-alert) topic for additional information.
 
 ## Modify a Custom Report
 

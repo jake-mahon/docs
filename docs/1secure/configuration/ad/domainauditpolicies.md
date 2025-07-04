@@ -11,7 +11,7 @@ description: "Learn how to configure basic domain audit policies to track user a
 
 Basic audit policies allow tracking changes to user accounts and groups and identifying originating
 workstations. You can configure advanced audit policies for the same purpose too. See the
-[Configure Advanced Audit Policies](/docs/1secure/configuration/activedirectory/advancedpolicy.md) topic for additional information.
+[Configure Advanced Audit Policies](/docs/1secure/configuration/ad/advancedpolicy.md) topic for additional information.
 
 **Step 1 –** Open the **Group Policy Management** console on any domain controller in the target
 domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or

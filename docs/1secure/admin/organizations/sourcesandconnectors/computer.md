@@ -106,7 +106,7 @@ the following:
 - Adjust audit settings automatically – Select this checkbox to adjust the audit settings
   automatically. With this approach, 1Secure will check your current audit settings at each data
   collection session and adjust them if necessary. See the
-  [Active Directory: automatic configuration](/docs/1secure/configuration/activedirectory/auto.md) topic for
+  [Active Directory: automatic configuration](/docs/1secure/configuration/ad/auto.md) topic for
   additional information.
 - Monitor User Hidden Shares – Select this checkbox to monitor the user hidden shares on the
   computer.

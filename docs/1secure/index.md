@@ -97,7 +97,7 @@ environment. The time frame for a change may be within a minute up to several ho
 environment size.
 
 You can also review the agent status while adding the organization. See the
-[Manage Organizations](/docs/1secure/admin/organizations) topic for more information.
+[Manage Organizations](/docs/1secure/admin/organizations/overview.md) topic for more information.
 
 ### Updating Netwrix Cloud Agent
 

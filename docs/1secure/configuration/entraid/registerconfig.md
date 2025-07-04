@@ -60,7 +60,7 @@ Register an application page is displayed.
 
 The Overview page for the newly registered application opens. The following settings of the
 registered application are required while adding a data source in Netwrix 1Secure. See the
-[Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for
+[Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for
 additional information on adding a data source. It is recommended to copy these settings and keep
 them safe.
 
@@ -179,7 +179,7 @@ displayed.
 displayed in the Value column.
 
 The client secret value is required while adding a data source in Netwrix 1Secure. See the
-[Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for
+[Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for
 additional information on adding a data source.
 
 **CAUTION:** If you leave this page before copying the key, it cannot be retrieved, and you will

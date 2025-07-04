@@ -82,7 +82,7 @@ authentication method. After that, one of the following happens:
   article for additional information.
 
 After successful authorization, You are redirected to the dashboard. See the
-[1Secure Dashboard](/docs/1secure/admin/dashboard/index.md) topic for additional information.
+[1Secure Dashboard](/docs/1secure/admin/dashboard/overview.md) topic for additional information.
 
 Once the initial login is completed, an MSP can configure Single Sign On (SSO) using supported
 authentication services, including Entra ID, 1Secure Authentication, or OpenID Connect. See the
@@ -162,7 +162,7 @@ following authentication services:
 
 **NOTE:** When you first log in to 1Secure, SSO is not enabled, and 1Secure Authentication is
 applied by default. This method requires Multi-factor authentication (MFA) to verify your identity
-for secure access. See the [Log In](/docs/1secure/admin/index.md) topic for additional information on
+for secure access. See the [Log In](/docs/1secure/admin/overview.md) topic for additional information on
 Multi-factor authentication.
 
 #### Configure SSO with Microsoft Entra ID Authentication

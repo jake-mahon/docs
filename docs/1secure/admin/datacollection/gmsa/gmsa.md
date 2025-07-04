@@ -97,4 +97,4 @@ To create a new gMSA in the root domain using PowerShell:
       ended with $, here __NCASrv$\_\_
 
 To learn about the data collecting account, which collects data from the monitored items, go
-to [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount.md) article.
+to [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount/overview.md) article.

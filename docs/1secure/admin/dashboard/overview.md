@@ -14,7 +14,7 @@ organizations, enabling managing organizations, such as Managed Service Provider
 identify and prioritize what requires immediate attention. It displays the alerts triggered by
 specific events, offering drill-down capabilities that enable you to access detailed information on
 specific alerts and issues, ensuring timely and effective responses. See the
-[Alerts](/docs/1secure/admin/alerts) topic for additional information on alerts.
+[Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional information on alerts.
 
 Click **Home** at the top of the page to access the dashboard. This page is also the default landing
 page of the application when you sign in.
@@ -31,14 +31,14 @@ Top 5 Triggered Alerts by Type
 
 This card displays a bar chart that highlights the five most frequently triggered alert types. Hover
 over a bar to view the exact number of alerts for that type. Click a bar to navigate to the Alerts
-Timeline page. See the [Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for additional information.
+Timeline page. See the [Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for additional information.
 
 Top 5 Organizations with Most Alerts
 
 This card displays a bar chart that highlights the five organizations with the highest number of
 triggered alerts. Hover over a bar to view the exact number of alerts triggered for that
 organization. Click a bar to navigate to the Alerts Timeline page. See the
-[Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for additional information.
+[Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for additional information.
 
 Top 5 Organizations at Risk
 
@@ -62,7 +62,7 @@ This section lists all managed organizations with the following information:
   for additional information.
 
 - Alerts – Displays the total number of alerts triggered for the organization. Click the value to
-  navigate to the Alerts Timeline page. See the [Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for
+  navigate to the Alerts Timeline page. See the [Alerts Timeline](/docs/1secure/admin/dashboard/alertstimeline.md) topic for
   additional information.
 - Risk Level – Displays the risk level for the organization such as, high, medium, or low. Click the
   value to navigate to the Risk Assessment dashboard. See the

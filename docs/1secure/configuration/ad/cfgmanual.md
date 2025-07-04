@@ -21,16 +21,16 @@ To configure your domain for monitoring manually, you will need:
 
 If these tools are not installed, refer to the related topics:
 
-- [Install ADSI Edit](/docs/1secure/configuration/activedirectory/adsi.md)
-- [Group Policy Management Console](/docs/1secure/configuration/activedirectory/grouppolicymanagementconsole.md)
+- [Install ADSI Edit](/docs/1secure/configuration/ad/adsi.md)
+- [Group Policy Management Console](/docs/1secure/configuration/ad/grouppolicymanagementconsole.md)
 
 Take the following configuration steps:
 
 **Step 1 –** Configure effective domain controllers policy (by default, Default Domain Controllers
-Policy). See [Configure Basic Domain Audit Policies](/docs/1secure/configuration/activedirectory/domainauditpolicies.md) or
-[Configure Advanced Audit Policies](/docs/1secure/configuration/activedirectory/advancedpolicy.md) for details.
+Policy). See [Configure Basic Domain Audit Policies](/docs/1secure/configuration/ad/domainauditpolicies.md) or
+[Configure Advanced Audit Policies](/docs/1secure/configuration/ad/advancedpolicy.md) for details.
 
-**Step 2 –** [Configure Object-Level Auditing](/docs/1secure/configuration/activedirectory/objectlevel.md)
+**Step 2 –** [Configure Object-Level Auditing](/docs/1secure/configuration/ad/objectlevel.md)
 
 **Step 3 –** Adjust Security Event Log Size and Retention Settings
 
@@ -45,8 +45,8 @@ Also, remember to do the following for AD auditing:
 [Active Directory Auditing](/docs/1secure/admin/datacollection/activedirectory/activedirectoryauditing.md)
 
 **Step 2 –** Configure required protocols and ports, as described in
-[Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy](/docs/1secure/configuration/activedirectory/protocolsandports.md)
+[Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy](/docs/1secure/configuration/ad/protocolsandports.md)
 topic.
 
-**Step 3 –** [Enable Secondary Logon Service](/docs/1secure/configuration/activedirectory/secondarylogonservice.md) on the computer where
+**Step 3 –** [Enable Secondary Logon Service](/docs/1secure/configuration/ad/secondarylogonservice.md) on the computer where
 Netwrix Cloud Agent resides.

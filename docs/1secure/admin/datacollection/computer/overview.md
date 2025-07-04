@@ -28,7 +28,7 @@ server must be a member of the local Administrators group.
 You can also use group Managed Service Accounts (gMSA) as a data collecting account. For more
 information on gMSA, see the following:
 
-- [Using Group Managed Service Account (gMSA)](/docs/1secure/admin/datacollection/gmsa.md)
+- [Using Group Managed Service Account (gMSA)](/docs/1secure/admin/datacollection/gmsa/gmsa.md)
 
 - Microsoft article:
   [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)

@@ -46,7 +46,7 @@ The alert profile is added to the list. You can:
   editing an organization. See the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic
   for additional information.
 - Click the profile to review the list of alerts, enable the desired alerts, make necessary edits
-  for alerts, and set delivery settings for the alert profile. See [Alerts](/docs/1secure/admin/alerts/index.md) topic for
+  for alerts, and set delivery settings for the alert profile. See [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for
   additional information.
 
 ## Modify the Name of an Alert Profile
@@ -103,4 +103,4 @@ organization admins by email.
 **Step 7 –** Click Save.
 
 You may also link to a third-party ticketing system. See the
-[Third-party systems](/docs/1secure/integrations/index.md) topic for additional information.
+[Third-party systems](/docs/1secure/integrations/overview.md) topic for additional information.

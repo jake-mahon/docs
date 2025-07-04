@@ -70,7 +70,7 @@ To perform this procedure, you will need the
 [ADSI Edit](http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx) utility. In Windows
 Server 2008 and above, this component is installed together with the AD DS role, or it can be
 downloaded and installed along with Remote Server Administration Tools. See the
-[Install ADSI Edit](/docs/1secure/configuration/activedirectory/adsi.md) topic for additional information on how to install the ADSI Edit
+[Install ADSI Edit](/docs/1secure/configuration/ad/adsi.md) topic for additional information on how to install the ADSI Edit
 utility.
 
 **Step 1 –** On any domain controller in the target domain, navigate to Start>Windows Administrative

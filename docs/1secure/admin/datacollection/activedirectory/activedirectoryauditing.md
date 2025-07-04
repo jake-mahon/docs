@@ -40,6 +40,6 @@ your on-premise Exchange server will not be possible. Thus, changes made to your
 domain via that Exchange server will be reported with _domain\\Exchange_server_name$_ instead of the
 initiator (user) name in the "_Who_" field of reports, search results and activity summaries.
 
-For more information on gMSA, refer to [Using Group Managed Service Account (gMSA)](/docs/1secure/admin/datacollection/gmsa.md)
+For more information on gMSA, refer to [Using Group Managed Service Account (gMSA)](/docs/1secure/admin/datacollection/gmsa/gmsa.md)
 and to
 [Microsoft documentation](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).

@@ -18,7 +18,7 @@ data source, and other configurations for the Managed Service Provider.
 
 After authorizing in a system, Managed Service Providers (MSP) need to configure their organization.
 The Organization is the name of the company you use to log in. See the
-[First Login to 1Secure](/docs/1secure/admin/login.md) topic for additional information.
+[First Login to 1Secure](/docs/1secure/admin/login/login.md) topic for additional information.
 
 In system, there are parent tenants and child tenants. _Parent tenant_ or Managing Organization is
 the MSP you are authorizing with. The MSP or parent tenant may have lots of clients or _child
@@ -38,5 +38,5 @@ See the following topics for additional information:
 
 - [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md)
 - [Add Users](/docs/1secure/admin/organizations/addingusers.md)
-- [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md)
+- [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md)
 - [ Manage Credentials ](/docs/1secure/admin/organizations/managingcredentials.md)

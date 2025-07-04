@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Netwrix 1Secure Documentation"
+    Link="/Content/1Secure/Netwrix1SecureDocumentation.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Whatsnew.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Requirements"
+    Link="/Content/1Secure/Requirements/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Requirements/PrerequisitesForDataSources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Requirements/CloudAgentRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Configuration"
+    Link="/Content/1Secure/Configuration/Overview.htm">
+    <TocEntry
+      Title="Active Directory"
+      Link="/Content/1Secure/Configuration/AD/ADManual.htm">
+      <TocEntry
+        Title="Configure Advanced Audit Policies"
+        Link="/Content/1Secure/Configuration/AD/AdvancedPolicy.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Active Directory: automatic configuration"
+        Link="/Content/1Secure/Configuration/AD/Auto.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Active Directory: manual configuration"
+        Link="/Content/1Secure/Configuration/AD/CfgManual.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Basic Domain Audit Policies"
+        Link="/Content/1Secure/Configuration/AD/DomainAuditPolicies.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Domain for Monitoring Active Directory"
+        Link="/Content/1Secure/Configuration/AD/ADManual.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Object-Level Auditing"
+        Link="/Content/1Secure/Configuration/AD/ObjectLevel.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Enable Secondary Logon Service"
+        Link="/Content/1Secure/Configuration/AD/SecondaryLogonService.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/AD/GroupPolicyManagementConsole.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/AD/ProtocolsAndPorts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/AD/ADSI.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Microsoft 365"
+      Link="/Content/1Secure/Configuration/EntraID/RegisterConfig.htm">
+      <TocEntry
+        Title="Microsoft 365 Permissions"
+        Link="/Content/1Secure/Configuration/EntraID/Permissions.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Logon Activity"
+      Link="/Content/1Secure/Configuration/LogonActivity/Overview.htm">
+      <TocEntry
+        Title="Configure Advanced Audit Policies"
+        Link="/Content/1Secure/Configuration/LogonActivity/AdvancedAudit.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Basic Domain Audit Policies"
+        Link="/Content/1Secure/Configuration/LogonActivity/BasicAuditPolicies.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Windows Firewall Inbound Connection Rules"
+        Link="/Content/1Secure/Configuration/LogonActivity/FirewallRules.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure Security Event Log Size and Retention Settings"
+        Link="/Content/1Secure/Configuration/LogonActivity/SecurityLogSize.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Computer"
+      Link="/Content/1Secure/Configuration/Computer/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/ProtocolsAndPorts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/ObjectLevel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/LocalPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/AdvancedPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/EventLog.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/RemoteRegistryService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/FirewallRules.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/Computer/FileServersandAntivirus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="SQL Server"
+      Link="/Content/1Secure/Configuration/SQLServer/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/SQLServer/Ports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/SQLServer/Permissions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Configuration/SQLServer/ConfiguringTraceLogging.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Configuration/ConfigureITInfrastructure.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Configuration/ExchangeOnlineNonOwner.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Configuration/NetworkTrafficCompression.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Install"
+    Link="/Content/1Secure/Install/Overview.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Install/InstallAgent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Admin"
+    Link="/Content/1Secure/Admin/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Login"
+      Link="/Content/1Secure/Admin/Login/LogIn.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Login/SSO.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="1Secure Dashboard"
+      Link="/Content/1Secure/Admin/Dashboard/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Dashboard/OrganizationStatistics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Dashboard/AlertsTimeline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Organizations"
+      Link="/Content/1Secure/Admin/Organizations/Overview.htm">
+      <TocEntry
+        Title="Sources and Connectors"
+        Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/Overview.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/ActiveDirectory.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/EntraID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/Computer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/ExchangeOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/SharePointOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/SourcesAndConnectors/SQLServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/AddOrganizations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/ManageMyOrganization.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/AddSites.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/ViewTabsAndDashboard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/BillableAccounts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/AddingUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/Organizations/RoleDefinitions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/OrganizationGroups.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Organizations/ManagingCredentials.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Search and Reports"
+      Link="/Content/1Secure/Admin/SearchAndReports/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/Compliance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/StateInTime.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/System.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/CustomReports.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/AuditLogs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/ExportReport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/Subscriptions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/ApplyFilters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Filter operators"
+        Link="/Content/1Secure/Admin/SearchAndReports/FilterOperators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/SearchAndReports/BillableUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Data Collection"
+      Link="/Content/1Secure/Admin/DataCollection/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/DataCollection/DataCollectingAccount/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/DataCollection/EntraID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/DataCollection/SharePointOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/DataCollection/ExchangeOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Active Directory"
+        Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/ActiveDirectoryAuditing.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/AuditLogsRole.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/PermissionsADContainer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/ManageAuditingSecurityLog.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/PermissionsRegistryKeys.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/LogOnAsBatch.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/ActiveDirectory/AuditLogging.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Computer"
+        Link="/Content/1Secure/Admin/DataCollection/Computer/Overview.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/Computer/BackupFilesDirectories.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Logon Activity"
+        Link="/Content/1Secure/Admin/DataCollection/LogonActivity/Overview.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/1Secure/Admin/DataCollection/LogonActivity/NonDomainAdmin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="GMSA"
+        Link="/Content/1Secure/Admin/DataCollection/GMSA/GMSA.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Risk Profiles"
+      Link="/Content/1Secure/Admin/RiskProfiles/RiskProfiles.htm">
+      <TocEntry
+        Title="Risk Metrics"
+        Link="/Content/1Secure/Admin/RiskProfiles/RiskMetrics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      <TocEntry
+        Title="Risk Metrics List"
+        Link="/Content/1Secure/Admin/RiskProfiles/Metrics List.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/RiskProfiles/RiskAssessmentDashboard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Alert Profiles"
+      Link="/Content/1Secure/Admin/Alerts/Overview.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/1Secure/Admin/Alerts/Alerts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Admin/Statuses.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Admin/Notifications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Admin/UpdateNetwrixCloudAgent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Admin/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Integration"
+    Link="/Content/1Secure/Integration/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Integration/ConnectWise.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Integration/ServiceNow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Integration/SharePointOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Security"
+    Link="/Content/1Secure/Security/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Security/Compliance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Security/CustomerDataPrivacy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Security/AccessControl.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1Secure/Security/DataSecurity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>

@@ -7,16 +7,11 @@ sidebar_position: 4
 description: "This topic describes how to install the Netwrix Cloud Agent for collecting data from your on-premise sources."
 ---
 
-# Installation
-
-Netwrix 1Secure is a cloud product. However, if you want to use an on-premise version, you need to
-install an agent for collecting the data from your sources.
-
-## Install Agent
+# Install Agent
 
 This topic describes an installation of the agent for collecting the data from your sources. Prior
 to installing the agent, ensure that all installation requirements have been met. See the
-[Netwrix Cloud Agent Software Requirements](/docs/1secure/requirements.md) topic for
+[Netwrix Cloud Agent Software Requirements](/docs/1secure/requirements/overview.md) topic for
 additional information.
 
 ## Configure Netwrix Cloud Agent

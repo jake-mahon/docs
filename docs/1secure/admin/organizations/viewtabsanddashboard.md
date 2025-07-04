@@ -19,7 +19,7 @@ The Managed organizations page has the following tabs:
 ![tabsview](/img/product_docs/1secure/admin/organizations/tabsview.webp)
 
 - Sources – Add, edit, or delete sources for your organization, review its statuses, and so on. See
-  the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for additional information.
+  the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for additional information.
 - Sites – View the sites and status of your Netwrix Cloud Agent. See the
   [Add Sites to an Organization](/docs/1secure/admin/organizations/addsites.md) and
   [Update Netwrix Cloud Agent](/docs/1secure/index.md#updating-netwrix-cloud-agent) topic for additional information.
