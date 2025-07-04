@@ -1,3 +1,9 @@
+---
+title: "Netwrix Privilege Secure for Access Management v4.2 Documentation"
+description: "Netwrix Privilege Secure for Access Management v4.2 Documentation"
+sidebar_position: 10
+---
+
 # Netwrix Privilege Secure for Access Management v4.2 Documentation
 
 Netwrix Privilege Secure for Access Management enables administrators and help desk professionals to

@@ -1,3 +1,9 @@
+---
+title: "Approvals Dashboard"
+description: "Approvals Dashboard"
+sidebar_position: 30
+---
+
 # Approvals Dashboard
 
 The Approvals Dashboard displays requested sessions that require approval. Users and group members

@@ -1,3 +1,9 @@
+---
+title: "Remote Service Node"
+description: "Remote Service Node"
+sidebar_position: 30
+---
+
 # Remote Service Node
 
 Privilege Secure supports a variety of RDP/SSH clients, including:
@@ -36,6 +42,6 @@ Exclusions for Remote Services:
 
 See the following topics for specific installation instructions for remote services:
 
-- [Proxy Service Install](/docs/privilegesecure/4.2/accessmanagement/install/proxyservice.md)
-- [Action Service Install](/docs/privilegesecure/4.2/accessmanagement/install/actionservice.md)
-- [Scheduler Service Install](/docs/privilegesecure/4.2/accessmanagement/install/schedulerservice.md)
+- [Proxy Service Install](/docs/privilegesecure/4.2/accessmanagement/install/servicesonadditional/proxyservice.md)
+- [Action Service Install](/docs/privilegesecure/4.2/accessmanagement/install/servicesonadditional/actionservice.md)
+- [Scheduler Service Install](/docs/privilegesecure/4.2/accessmanagement/install/servicesonadditional/schedulerservice.md)

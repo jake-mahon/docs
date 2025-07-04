@@ -1,3 +1,9 @@
+---
+title: "Privilege Secure Reviewer User Overview"
+description: "Privilege Secure Reviewer User Overview"
+sidebar_position: 50
+---
+
 # Privilege Secure Reviewer User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure

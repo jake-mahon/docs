@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 80
+---
+
 # Troubleshooting
 
 The purpose of this section is to detail solutions to common problems when using the Netwrix
@@ -9,7 +15,7 @@ The Enablement Toolkit is a utility that offers a GUI for common testing scenari
 troubleshooting the application.
 
 The Toolkit is available to download as a .zip file from the Privilege Secure installer's Extras
-folder. See the [Install Components & Methods](/docs/privilegesecure/4.2/accessmanagement/install/components.md) topic for additional
+folder. See the [Install Components & Methods](/docs/privilegesecure/4.2/accessmanagement/install/components/components.md) topic for additional
 information.
 
 ## Prerequisites
@@ -141,7 +147,7 @@ Follow the steps below to obtain a certificate thumbprint.
 **Step 6 –** Navigate to **Configuration** > **System Settings** > **Global Settings**.
 
 **Step 7 –** Paste the thumbprint in the Certificate Thumbprint field of the Netwrix Privilege
-Secure console. See the [Global Settings Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/globalsettings.md) topic for
+Secure console. See the [Global Settings Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/systemsettingspages/globalsettings.md) topic for
 additional information.
 
 **Step 8 –** Click **Save**.

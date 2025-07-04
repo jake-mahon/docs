@@ -1,3 +1,9 @@
+---
+title: "Browser Extension App"
+description: "Browser Extension App"
+sidebar_position: 50
+---
+
 # Browser Extension App
 
 The browser extension allows users to use Privilege Secure to login and launch web sessions directly

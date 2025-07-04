@@ -1,3 +1,9 @@
+---
+title: "Session Timeout"
+description: "Session Timeout"
+sidebar_position: 10
+---
+
 # Session Timeout
 
 For security reasons, the Privilege Secure Console automatically logs out the user after 10 minutes

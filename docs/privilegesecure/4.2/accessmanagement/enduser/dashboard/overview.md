@@ -1,3 +1,9 @@
+---
+title: "Dashboard Interface"
+description: "Dashboard Interface"
+sidebar_position: 40
+---
+
 # Dashboard Interface
 
 The Dashboard interface displays an overview of activity sessions, users, resources and related
@@ -7,7 +13,7 @@ information.
 
 The overview section shows information for the following:
 
-- Active Dashboard – Shows all currently active sessions. See the [Active Dashboard](/docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/active.md)
+- Active Dashboard – Shows all currently active sessions. See the [Active Dashboard](/docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/active/active.md)
   topic for additional information.
 - Scheduled Dashboard – Shows all scheduled sessions. See the [Scheduled Dashboard](/docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/scheduled.md)
   topic for additional information.

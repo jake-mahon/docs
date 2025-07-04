@@ -1,3 +1,9 @@
+---
+title: "Target Environments"
+description: "Target Environments"
+sidebar_position: 40
+---
+
 # Target Environments
 
 Netwrix Privilege Secure supports management of the following target environments:
