@@ -30,6 +30,10 @@ function prettifyLabel(name) {
     .replace(/\b\w/g, c => c.toUpperCase());
 }
 
+function sanitizeFileName(name) {
+  return name.replace(/\s+/g, '_');
+}
+
 function getAllMdFiles(dir, rel = '') {
   let files = [];
   for (const entry of fs.readdirSync(dir)) {
@@ -46,11 +50,11 @@ function getAllMdFiles(dir, rel = '') {
 
 function mapFltocLinkToMd(link) {
   if (link.startsWith('/Content/Config/')) {
-    return link.replace('/Content/', '').replace(/\.htm$/, '.md').toLowerCase();
+    return link.replace('/Content/', '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith('/Content/Access/General/')) {
-    return link.replace('/Content/Access/General/', 'general/').replace(/\.htm$/, '.md').toLowerCase();
+    return link.replace('/Content/Access/General/', 'general/').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
-    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.htm$/, '.md').toLowerCase();
+    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
   }
   return null;
 }
@@ -261,13 +265,14 @@ function walkTreeAndReorganize(tree, parentFolders, docsPath, sidebarPositionSta
     if (!item) continue;
     if (item.type === 'doc') {
       const fileName = path.basename(item.mdPath);
+      const sanitizedFileName = sanitizeFileName(fileName);
       const currentPath = path.join(docsPath, item.mdPath);
-      let desiredPath = path.join(docsPath, ...parentFolders, fileName);
+      let desiredPath = path.join(docsPath, ...parentFolders, sanitizedFileName);
       if (fs.existsSync(currentPath)) {
         if (fs.existsSync(desiredPath)) {
           // Only append suffix if the destination is a different file
           desiredPath = getNonClashingPath(desiredPath, currentPath);
-          if (desiredPath !== path.join(docsPath, ...parentFolders, fileName)) {
+          if (desiredPath !== path.join(docsPath, ...parentFolders, sanitizedFileName)) {
             console.warn(`[clash] Name clash detected. Moving to: ${desiredPath}`);
           }
         }
@@ -281,7 +286,7 @@ function walkTreeAndReorganize(tree, parentFolders, docsPath, sidebarPositionSta
           console.warn(`[missing] File not found: ${currentPath}`);
         }
       } else if (fs.existsSync(desiredPath)) {
-        updateFrontmatter(desiredPath, path.basename(fileName, '.md'), position);
+        updateFrontmatter(desiredPath, path.basename(sanitizedFileName, '.md'), position);
       } else {
         console.warn(`[missing] File not found: ${currentPath}`);
       }
@@ -303,21 +308,22 @@ function walkTreeAndReorganize(tree, parentFolders, docsPath, sidebarPositionSta
       }
       if (item.fileToMove) {
         const fileName = path.basename(item.fileToMove);
+        const sanitizedFileName = sanitizeFileName(fileName);
         const currentPath = path.join(docsPath, item.fileToMove);
-        let desiredPath = path.join(folderPath, fileName);
+        let desiredPath = path.join(folderPath, sanitizedFileName);
         if (fs.existsSync(currentPath)) {
           if (fs.existsSync(desiredPath)) {
             desiredPath = getNonClashingPath(desiredPath, currentPath);
-            if (desiredPath !== path.join(folderPath, fileName)) {
-              console.warn(`[clash] Name clash detected. Moving to: ${desiredPath}`);
-            }
+                      if (desiredPath !== path.join(folderPath, sanitizedFileName)) {
+            console.warn(`[clash] Name clash detected. Moving to: ${desiredPath}`);
+          }
           }
           const movedPath = moveIfNeeded(currentPath, desiredPath);
           if (movedPath) {
             fileMoves.push({ old: currentPath, new: movedPath });
             updateFrontmatter(movedPath, path.basename(fileName, '.md'), position);
           } else if (fs.existsSync(desiredPath)) {
-            updateFrontmatter(desiredPath, path.basename(fileName, '.md'), position);
+            updateFrontmatter(desiredPath, path.basename(sanitizedFileName, '.md'), position);
           } else {
             console.warn(`[missing] File not found: ${currentPath}`);
           }

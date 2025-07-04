@@ -98,7 +98,7 @@ policy, or no policy enforced if the queried server is not a domain controller i
 domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
 firewall rules to open this port. See the
-[Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration-overview/password-policy-client/password_policy_client.md)
 topic for more information.
 
 **NOTE:** Due to a protocol upgrade, it is now recommended to enable protocol encryption for
