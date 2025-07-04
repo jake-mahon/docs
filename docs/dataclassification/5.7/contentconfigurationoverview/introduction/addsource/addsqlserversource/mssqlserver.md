@@ -1,10 +1,10 @@
 ---
-title: "MS SQL Server"
-description: "MS SQL Server"
+title: "Add MS SQL Server Source"
+description: "Add MS SQL Server"
 sidebar_position: 20
 ---
 
-# MS SQL Server
+# Add MS SQL Server
 
 Once you choose to add SQL server source, you opt to add MS SQL server as a source. For more
 information, go to the main article[SQL Server ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/addsource/addsqlserversource/addsqlserversource.md).

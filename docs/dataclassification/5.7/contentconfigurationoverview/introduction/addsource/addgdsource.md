@@ -1,5 +1,5 @@
 ---
-title: "Google Drive Source"
+title: "Google Drive"
 description: "Google Drive Source"
 sidebar_position: 70
 ---
