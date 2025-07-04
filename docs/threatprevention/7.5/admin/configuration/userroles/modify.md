@@ -1,3 +1,9 @@
+---
+title: "Modify User Access"
+description: "Modify User Access"
+sidebar_position: 20
+---
+
 # Modify User Access
 
 Follow the steps to modify a user’s assigned rights.

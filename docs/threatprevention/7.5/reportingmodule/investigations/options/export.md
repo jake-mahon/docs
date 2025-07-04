@@ -1,3 +1,9 @@
+---
+title: "Export Report"
+description: "Export Report"
+sidebar_position: 40
+---
+
 # Export Report
 
 The Export option provides choices for how you can export the report results for an investigation.

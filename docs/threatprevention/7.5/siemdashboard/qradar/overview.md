@@ -1,3 +1,9 @@
+---
+title: "Active Directory App for QRadar"
+description: "Active Directory App for QRadar"
+sidebar_position: 10
+---
+
 # Active Directory App for QRadar
 
 The Netwrix Active Directory security monitoring solution enables organizations to efficiently
@@ -38,7 +44,7 @@ Then click Install.
 QRadar.
 
 The Active Directory tab will appear in QRadar. It is necessary for the QRadar SEC token to be saved
-to the Settings interface of the Active Directory App. See the [Settings](/docs/threatprevention/7.5/siemdashboard/qradar/settings.md) topic for
+to the Settings interface of the Active Directory App. See the [Settings](/docs/threatprevention/7.5/siemdashboard/qradar/navigate/settings.md) topic for
 additional information.
 
 ## Initial Configuration for the Active Directory App for QRadar

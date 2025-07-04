@@ -1,3 +1,9 @@
+---
+title: "Event Log Tab"
+description: "Event Log Tab"
+sidebar_position: 20
+---
+
 # Event Log Tab
 
 Alert notification via Event Log sends event notifications to the Windows Event Log. Follow the

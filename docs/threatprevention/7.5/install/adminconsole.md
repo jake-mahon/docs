@@ -1,3 +1,9 @@
+---
+title: "Administration Console Remote Install"
+description: "Administration Console Remote Install"
+sidebar_position: 50
+---
+
 # Administration Console Remote Install
 
 Threat Prevention supports the deployment of remote Administration Console, enabling you to install

@@ -1,3 +1,9 @@
+---
+title: "Prerequisites Check Window"
+description: "Prerequisites Check Window"
+sidebar_position: 30
+---
+
 # Prerequisites Check Window
 
 The Deploy Agents wizard's Prerequisites Check window is the third in a sequence of four windows to

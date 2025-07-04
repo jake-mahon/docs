@@ -1,9 +1,15 @@
+---
+title: "Enterprise Password Enforcer (EPE) APIs"
+description: "Enterprise Password Enforcer (EPE) APIs"
+sidebar_position: 40
+---
+
 # Enterprise Password Enforcer (EPE) APIs
 
 You can use APIs to perform functions related to Threat Prevention's Enterprise Password Enforcer
 (EPE) solution. These functions pertain to the
 [EPE Settings Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md) and the
-[Password Rules Filter](/docs/threatprevention/7.5/admin/policies/eventtype/passwordenforcement.md#password-rules-filter) of
+[Password Rules Filter](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md#password-rules-filter) of
 the Password Enforcement event type.
 
 - Password Validation Test Against EPE Rules

@@ -1,3 +1,9 @@
+---
+title: "License Manager Window"
+description: "License Manager Window"
+sidebar_position: 30
+---
+
 # License Manager Window
 
 The License Manager window displays the Threat Prevention modules that you are licensed for. If
@@ -58,19 +64,19 @@ The Active Directory solution comes with the following licensed modules:
 
 See the following topics for additional information:
 
-- [Active Directory Changes Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/activedirectorychanges.md)
-- [Active Directory Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/activedirectorylockdown.md)
-- [Active Directory Read Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/activedirectoryreadmonitoring.md)
-- [AD Replication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/adreplicationmonitoring.md)
-- [AD Replication Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/adreplicationlockdown.md)
-- [Authentication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/authenticationmonitoring.md)
-- [Authentication Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/authenticationlockdown.md)
-- [Effective Group Membership Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/effectivegroupmembership.md)
-- [FSMO Role Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/fsmorolemonitoring.md)
-- [GPO Setting Changes Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/gposettingchanges.md)
-- [GPO Setting Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/gposettinglockdown.md)
-- [LSASS Guardian – Monitor Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/lsassguardianmonitor.md)
-- [LSASS Guardian – Protect Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/lsassguardianprotect.md)
+- [Active Directory Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/activedirectorychanges.md)
+- [Active Directory Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/activedirectorylockdown.md)
+- [Active Directory Read Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/activedirectoryreadmonitoring.md)
+- [AD Replication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/adreplicationmonitoring.md)
+- [AD Replication Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/adreplicationlockdown.md)
+- [Authentication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/authenticationmonitoring.md)
+- [Authentication Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/authenticationlockdown.md)
+- [Effective Group Membership Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/effectivegroupmembership.md)
+- [FSMO Role Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/fsmorolemonitoring.md)
+- [GPO Setting Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettingchanges.md)
+- [GPO Setting Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettinglockdown.md)
+- [LSASS Guardian – Monitor Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/lsassguardianmonitor.md)
+- [LSASS Guardian – Protect Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/lsassguardianprotect.md)
 
 #### Enterprise Password Enforcer Solution
 
@@ -80,7 +86,7 @@ The Enterprise Password Enforcer solution comes with the following licensed modu
 | --------------------------- | -------------------- |
 | Password Enforcement Module | Password Enforcement |
 
-See the [Password Enforcement Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/passwordenforcement.md) topics for
+See the [Password Enforcement Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/passwordenforcement.md) topics for
 additional information.
 
 #### Exchange Solution
@@ -94,8 +100,8 @@ The Exchange solution comes with the following licensed modules:
 
 See the following topics for additional information:
 
-- [Exchange Changes Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/exchangechanges.md)
-- [Exchange Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/exchangelockdown.md)
+- [Exchange Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/exchangechanges.md)
+- [Exchange Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/exchangelockdown.md)
 
 #### File System Solution
 
@@ -113,9 +119,9 @@ event types assigned.
 
 See the following topics for additional information:
 
-- [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemchanges.md) – For Windows file
+- [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemchanges/filesystemchanges.md) – For Windows file
   servers and/or NAS devices
-- [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemlockdown.md) – For Windows file
+- [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemlockdown.md) – For Windows file
   servers
 - [File System Enterprise Auditor Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.md)
   – For Windows file servers
@@ -130,6 +136,6 @@ The LDAP solution comes with the following licensed modules:
 
 See the following topics for additional information:
 
-- [LDAP Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/ldapmonitoring.md)
-- [LDAP Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/ldaplockdown.md)
-- [LDAP Bind Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/ldapbindmonitoring.md)
+- [LDAP Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/ldapmonitoring/ldapmonitoring.md)
+- [LDAP Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/ldaplockdown.md)
+- [LDAP Bind Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/ldapbindmonitoring.md)

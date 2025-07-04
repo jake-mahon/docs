@@ -1,3 +1,9 @@
+---
+title: "System Alerting Window"
+description: "System Alerting Window"
+sidebar_position: 100
+---
+
 # System Alerting Window
 
 The System Alerting window is only available to administrators, enabling them to configure and
@@ -27,8 +33,8 @@ grouped into five types:
 Email and SIEM alert notifications for policy events can be enabled through:
 
 - The System Alerting window
-- The [Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) of a policy
-- The [Actions Tab](/docs/threatprevention/7.5/admin/templates/actions.md) of a policy template
+- The [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) of a policy
+- The [Actions Tab](/docs/threatprevention/7.5/admin/templates/configuration/actions.md) of a policy template
 
 In any case, configuration must first be set through the System Alerting window. The
 [Alerts Interface](/docs/threatprevention/7.5/admin/alerts/overview.md) allows you to quickly view recent alerts in a
@@ -60,7 +66,7 @@ Below are some considerations:
   triggered in this event and the Agent is stopped. As a result, all monitoring/blocking by that
   Agent stops. To resolve the issue, either upgrade to the latest version of the Agent or simply
   upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
-  [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)topic for additional information.
+  [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md)topic for additional information.
 
   **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
   the
@@ -75,10 +81,10 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue temporarily, the Threat
   Prevention administrator should start the pending modules. See the
-  [Start Pending Modules](/docs/threatprevention/7.5/admin/agents/management/startpendingmodules.md) topic for additional
+  [Start Pending Modules](/docs/threatprevention/7.5/admin/agents/agent-management/startpendingmodules.md) topic for additional
   information. It is also recommended to upgrade SI.ActiveDirectoryMonitor.dll (commonly known as
   ADMonitor DLL) to resolve the issue permanently. See the
-  [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md) topic for additional information.
+  [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md) topic for additional information.
 
   **_RECOMMENDED:_** Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)

@@ -1,3 +1,9 @@
+---
+title: "Uninstall Agent"
+description: "Uninstall Agent"
+sidebar_position: 30
+---
+
 # Uninstall Agent
 
 When a newer version of the Agent is available, the Agents need to be uninstalled before the latest

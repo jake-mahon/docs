@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 110
+---
+
 # Upgrade Procedure
 
 This topic provides the basic steps needed to upgrade the following on the same machine:
@@ -34,7 +40,7 @@ upgrade.
 
 For NAS file system monitoring, Threat Prevention works in conjunction with the Activity Monitor.
 Hence, the agent versions for the two products must be compatible. See the
-[NAS Device Support](/docs/threatprevention/7.5/requirements/agentnas.md) topic for information on version compatibility.
+[NAS Device Support](/docs/threatprevention/7.5/requirements/agent/agentnas.md) topic for information on version compatibility.
 
 ## Infrastructure Upgrade Procedure for 7.5.x to 7.5.y
 

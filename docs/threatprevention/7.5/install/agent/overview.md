@@ -1,3 +1,9 @@
+---
+title: "Agent Information"
+description: "Agent Information"
+sidebar_position: 30
+---
+
 # Agent Information
 
 The Threat Prevention Agent performs real-time monitoring of the events occurring across supported
@@ -49,9 +55,9 @@ registry on the target Agent machine(s) to understand where the Agent configurat
 located (install path). Next, WMI is used to stop the Agent service, modify the configuration files,
 and restart the Agent.
 
-Remember to check [Agent Server Requirements](/docs/threatprevention/7.5/requirements/agent.md) before deploying an
+Remember to check [Agent Server Requirements](/docs/threatprevention/7.5/requirements/agent/agent.md) before deploying an
 Agent, including the
-[Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/7.5/requirements/agent.md#agent-compatibility-with-non-netwrix-security-products)
+[Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/7.5/requirements/agent/agent.md#agent-compatibility-with-non-netwrix-security-products)
 list.
 
 ## Domain Controllers
@@ -77,7 +83,7 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/config/activedirectory/threatprevention.md)
+[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/threatprevention.md)
 topic for additional information.
 
 ## Exchange Servers
@@ -118,5 +124,5 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/config/activedirectory/threatprevention.md)
+[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/threatprevention.md)
 topic for additional information.

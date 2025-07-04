@@ -1,3 +1,9 @@
+---
+title: "Investigate Interface"
+description: "Investigate Interface"
+sidebar_position: 60
+---
+
 # Investigate Interface
 
 The Investigate interface allows you to quickly view recent events in a centralized location. You

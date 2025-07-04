@@ -1,3 +1,9 @@
+---
+title: "DB Connection Manager Wizard"
+description: "DB Connection Manager Wizard"
+sidebar_position: 90
+---
+
 # DB Connection Manager Wizard
 
 The Database Connection Manager (SIDBConfigMgr.exe) allows you to update the connection options for

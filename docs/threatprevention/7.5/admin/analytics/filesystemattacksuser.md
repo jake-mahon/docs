@@ -1,3 +1,9 @@
+---
+title: "File System Attacks (by User) Analytic Type"
+description: "File System Attacks (by User) Analytic Type"
+sidebar_position: 60
+---
+
 # File System Attacks (by User) Analytic Type
 
 The **File System Attacks (by user)** analytic type identifies activity where a significant number
@@ -72,11 +78,11 @@ Policy Tab for Monitoring Only
 
 The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/general.md) is
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/configuration/general.md) is
   configured. The only exception is that the Name and Description are hard coded, and cannot be
   modified. The Tags field is disabled for analytics.
 - Event Type tab – Configured the same way a regular policy’s
-  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/eventtype/overview.md) is configured. For monitoring only, it
+  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/overview.md) is configured. For monitoring only, it
   contains the File System Changes event type. The only exception is that the Success filter cannot
   be modified.
 
@@ -99,7 +105,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     Perpetrator filter.
 
 - Actions tab – Configured the same way a regular policy’s
-  [Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) is configured. The only exceptions are that the
+  [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
   “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by
   analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to
   SIEM” option, use _caution_, as this will send all event data not the triggered incident, which
@@ -117,13 +123,13 @@ Changes Event Type.
 
 The **Policy** tab for configuring analytics consists of the following sub-tabs:
 
-- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/general.md) is
+- General tab – Configured the same way a regular policy’s [General Tab](/docs/threatprevention/7.5/admin/policies/configuration/general.md) is
   configured. The only exception is that the Name and Description are hard coded, and cannot be
   modified. The Tags field is disabled for analytics.
 - Event Type tab – Configured the same way a regular policy’s
-  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/eventtype/overview.md) is configured. It contains both the
-  [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemlockdown.md) and the
-  [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemchanges.md). The only exception
+  [Event Type Tab](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/overview.md) is configured. It contains both the
+  [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemlockdown.md) and the
+  [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemchanges/filesystemchanges.md). The only exception
   is that for the Lockdown Event Type, the File System filter is hard coded to mirror the
   configuration of the File System Changes Event Type settings.
 
@@ -138,7 +144,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
       they trigger another incident
 
 - Actions tab – Configured the same way a regular policy’s
-  [Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) is configured. The only exceptions are that the
+  [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
   “Send to Event DB” and “Email Notifications” options are disabled. The event data collected by
   analytic policies are stored in memory until an incident is triggered. For the “Send Raw Data to
   SIEM” option, use _caution_, as this will send all event data not the triggered incident, which
@@ -153,7 +159,7 @@ The data grid on the **File System Attacks (by user)** node lists one row per in
 ![File System Attacks (by User) Analytic Type window](/img/product_docs/threatprevention/7.5/admin/analytics/fsattacks.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
-[Event Tracker Window](/docs/threatprevention/7.5/admin/policies/recentevents/eventtracker.md) topic for additional information.
+[Event Tracker Window](/docs/threatprevention/7.5/admin/policies/configuration/recentevents/eventtracker.md) topic for additional information.
 
 The top data grid includes the following information for each incident:
 

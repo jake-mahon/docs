@@ -1,3 +1,9 @@
+---
+title: "Database Maintenance Window"
+description: "Database Maintenance Window"
+sidebar_position: 20
+---
+
 # Database Maintenance Window
 
 The database maintenance function grooms the NVMonitorData database to optimize performance. It
@@ -11,7 +17,7 @@ archiving. For this database, you can also define settings to delete data aged b
 threshold.
 
 _Remember,_ See the Database Maintenance Permission details in the
-[Database Maintenance Feature Requirements](/docs/threatprevention/7.5/requirements/dbmaintenance.md) topic.
+[Database Maintenance Feature Requirements](/docs/threatprevention/7.5/requirements/sqlserver/dbmaintenance.md) topic.
 
 See the [Stored Procedures](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/storedprocedures.md) topic for additional information on stored
 procedures Threat Prevention uses on its SQL Server databases.
@@ -70,7 +76,7 @@ the [Archive Data](/docs/threatprevention/7.5/admin/configuration/databasemainte
 **Step 5 –** Click **Save** to save the changes.
 
 **_RECOMMENDED:_** The SQL Server databases should be configured to use 'Simple Recovery Mode' in
-the [SQL Server Requirements](/docs/threatprevention/7.5/requirements/sqlserver.md). This configuration has a direct
+the [SQL Server Requirements](/docs/threatprevention/7.5/requirements/sqlserver/sqlserver.md). This configuration has a direct
 impact on the size of the transaction log during database maintenance delete tasks. If Simple
 Recovery Mode is not configured on the databases, the transaction log may get quite large during
 delete tasks.

@@ -1,3 +1,9 @@
+---
+title: "Email Tab"
+description: "Email Tab"
+sidebar_position: 10
+---
+
 # Email Tab
 
 Alert notification via email sends messages through an SMTP gateway. Alerts are designed to send
@@ -188,5 +194,5 @@ can be removed, but partial tokens do not retrieve data from the database.
 
 Now that at least one Message Profile has been created, it can be assigned to an event either
 through the System Altering window’s Email tab or assigned to a policy on the
-[Actions Tab](/docs/threatprevention/7.5/admin/policies/actions/overview.md) of the policy configuration or the
-[Actions Tab](/docs/threatprevention/7.5/admin/templates/actions.md) of the template configuration.
+[Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) of the policy configuration or the
+[Actions Tab](/docs/threatprevention/7.5/admin/templates/configuration/actions.md) of the template configuration.

@@ -1,3 +1,9 @@
+---
+title: "List of Collections Window"
+description: "List of Collections Window"
+sidebar_position: 10
+---
+
 # List of Collections Window
 
 Use the List of Collections window to add new items to a collection as well as edit and remove
@@ -43,7 +49,7 @@ populated when collections are created or changed.
 
 The Select… window opens. Select a server/Agent from the drop-down menu and click **Connect**.
 Expand the domain tree in the navigation pane. Select an item in the Results pane on the right and
-click **OK**. See the [Selection Windows](/docs/threatprevention/7.5/admin/policies/eventtype/window/overview.md) topic for
+click **OK**. See the [Selection Windows](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/overview.md) topic for
 additional information.
 
 ![Select window](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/selectadobjects.webp)

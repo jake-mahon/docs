@@ -1,3 +1,9 @@
+---
+title: "HIPAA Folder Templates"
+description: "HIPAA Folder Templates"
+sidebar_position: 30
+---
+
 # HIPAA Folder Templates
 
 The HIPAA folder contains the following templates:
