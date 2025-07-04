@@ -1,3 +1,9 @@
+---
+title: "Create Activity Session"
+description: "Create Activity Session"
+sidebar_position: 10
+---
+
 # Create Activity Session
 
 Follow the steps to create an activity session.
@@ -53,4 +59,4 @@ session until the request is approved and the status changes to Available.
 When the status Available is shown, the remote session is ready. Click the Connection icon to begin
 the session, or log in through a client.
 
-See the [Sessions Interface](/docs/privilegesecure/4.2/remoteaccessgateway/enduser/dashboard/sessions.md) topic for additional information.
+See the [Sessions Interface](/docs/privilegesecure/4.2/accessmanagement/remoteaccessgateway/enduser/dashboard/sessions.md) topic for additional information.

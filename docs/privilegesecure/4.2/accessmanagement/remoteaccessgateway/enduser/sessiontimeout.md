@@ -1,3 +1,9 @@
+---
+title: "Session Timeout"
+description: "Session Timeout"
+sidebar_position: 20
+---
+
 # Session Timeout
 
 For security reasons, the Remote Access Gateway automatically logs out the user after 20 minutes of

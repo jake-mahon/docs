@@ -1,3 +1,9 @@
+---
+title: "Remote Access Gateway"
+description: "Remote Access Gateway"
+sidebar_position: 10
+---
+
 # Remote Access Gateway
 
 The Remote Access Gateway (RAG) may be added to any Netwrix Privilege Secure installation to

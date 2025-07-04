@@ -1,3 +1,9 @@
+---
+title: "Sessions Interface"
+description: "Sessions Interface"
+sidebar_position: 50
+---
+
 # Sessions Interface
 
 On the Active Sessions dashboard, when the status Available is shown, the activity session is ready.

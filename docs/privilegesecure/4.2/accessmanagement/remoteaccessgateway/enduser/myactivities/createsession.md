@@ -1,3 +1,9 @@
+---
+title: "Create My Activity Session"
+description: "Create My Activity Session"
+sidebar_position: 10
+---
+
 # Create My Activity Session
 
 Follow the steps to create an activity session.

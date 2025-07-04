@@ -1,3 +1,9 @@
+---
+title: "Product Tour"
+description: "Product Tour"
+sidebar_position: 40
+---
+
 # Product Tour
 
 New users now experience a product tour on first login. Standard users and users with the Privilege
@@ -13,4 +19,4 @@ The product tour may be re-started at any time via the user menu.
 
 ![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
 
-See the [Navigation](/docs/privilegesecure/4.2/remoteaccessgateway/enduser/navigation.md) topic for additional information.
+See the [Navigation](/docs/privilegesecure/4.2/accessmanagement/remoteaccessgateway/enduser/navigation.md) topic for additional information.

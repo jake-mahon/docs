@@ -1,3 +1,9 @@
+---
+title: "Historical Dashboard"
+description: "Historical Dashboard"
+sidebar_position: 40
+---
+
 # Historical Dashboard
 
 The Historical sessions dashboard shows all created sessions and their status.

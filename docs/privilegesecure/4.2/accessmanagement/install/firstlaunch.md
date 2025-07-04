@@ -127,7 +127,7 @@ When the Setup Wizard closes, you are redirected to the My Activities interfacin
 created by the Setup Wizard, Activity Token for Domain Admin Access, is displayed.
 
 Take a [Product Tour](/docs/privilegesecure/4.2/accessmanagement/admin/navigation/producttour.md) of the console or onboard more users and resources.
-See the [Getting Started](/docs/privilegesecure/4.2/accessmanagement/overview/gettingstarted.md) topic for additional information.
+See the [Getting Started](/docs/privilegesecure/4.2/accessmanagement/gettingstarted.md) topic for additional information.
 
 ## Exit Wizard Early
 

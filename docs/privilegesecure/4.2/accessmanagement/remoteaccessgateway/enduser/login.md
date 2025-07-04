@@ -1,3 +1,9 @@
+---
+title: "First Time Login"
+description: "First Time Login"
+sidebar_position: 10
+---
+
 # First Time Login
 
 Remote Access Gateway users can access the portal via the URL provided by a Netwrix Privilege
