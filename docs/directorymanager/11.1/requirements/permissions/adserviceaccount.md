@@ -18,12 +18,6 @@ recommended that you create a new service account rather than using an existing 
 NOTE: You must add the service account to the membership of the Local Administrator group of the
 member server on which Directory Manager is installed.
 
-What do you want to do?
-
-- Use an Existing Account as a Service Account
-- Create a New Service Account
-- SQL Server Account and Database Permissions
-
 ## Use an Existing Account as a Service Account
 
 Verify that the account that you want to use as a service account has the following Active Directory

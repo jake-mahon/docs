@@ -1,5 +1,5 @@
 ---
-title: "Directory Manager (formerly GroupID) APIs"
+title: "APIs"
 description: "Directory Manager (formerly GroupID) APIs"
 sidebar_position: 100
 ---

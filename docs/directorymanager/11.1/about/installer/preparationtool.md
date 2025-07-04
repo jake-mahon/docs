@@ -9,11 +9,6 @@ sidebar_position: 10
 The preparation tool installs all prerequisites software on a machine to prepare it for Directory
 Manager.
 
-What do you want to do?
-
-- Run the Preparation Tool first time on a fresh machine
-- Run the Preparation Tool on a Directory Manager server
-
 ## Run the Preparation Tool first time on a fresh machine
 
 To run the Directory Manager preparation tool:
