@@ -1,10 +1,7 @@
 ---
-id: alerts-timeline
 title: "Alerts Timeline"
-pagination_label: "Alerts Timeline"
-sidebar_label: "Alerts Timeline"
-sidebar_position: 81
-description: "Learn how to view and analyze triggered alerts using statistics, charts, and comprehensive alert lists."
+description: "Alerts Timeline"
+sidebar_position: 20
 ---
 
 # Alerts Timeline

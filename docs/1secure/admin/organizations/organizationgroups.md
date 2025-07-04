@@ -1,10 +1,7 @@
 ---
-id: organization-groups
 title: "Organization Groups"
-pagination_label: "Organization Groups"
-sidebar_label: "Organization Groups"
-sidebar_position: 37
-description: "Learn how to create and manage organization groups for designated user access control."
+description: "Organization Groups"
+sidebar_position: 80
 ---
 
 # Organization Groups

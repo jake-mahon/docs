@@ -1,10 +1,7 @@
 ---
-id: apply-filters
 title: "Apply Filters"
-pagination_label: "Apply Filters"
-sidebar_label: "Apply Filters"
-sidebar_position: 49
-description: "Learn how to use filters to narrow search results and create custom filter combinations for precise reporting."
+description: "Apply Filters"
+sidebar_position: 90
 ---
 
 # Apply Filters

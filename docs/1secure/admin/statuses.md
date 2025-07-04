@@ -1,3 +1,9 @@
+---
+title: "Statuses"
+description: "Statuses"
+sidebar_position: 80
+---
+
 # Statuses
 
 Statuses in Netwrix 1Secure allow you check up the state of the system, specifically - sources,

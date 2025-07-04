@@ -1,0 +1,10 @@
+{
+  "label": "Configure Domain for Monitoring Active Directory",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "admanual"
+  }
+}

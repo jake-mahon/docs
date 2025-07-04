@@ -1,10 +1,7 @@
 ---
-id: search-and-reports
 title: "Search and Reports"
-pagination_label: "Search and Reports"
-sidebar_label: "Search and Reports"
-sidebar_position: 47
-description: "Learn how to use the search interface and create flexible reports for investigating incidents and activities."
+description: "Search and Reports"
+sidebar_position: 40
 ---
 
 # Search and Reports

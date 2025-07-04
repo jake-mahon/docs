@@ -1,3 +1,9 @@
+---
+title: "Introducing Netwrix 1Secure"
+description: "Introducing Netwrix 1Secure"
+sidebar_position: 50
+---
+
 # Introducing Netwrix 1Secure
 
 Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single

@@ -1,3 +1,9 @@
+---
+title: "Compliance"
+description: "Compliance"
+sidebar_position: 10
+---
+
 # Compliance
 
 Netwrix 1Secure uses Azure datacenters in your region of choice. Microsoft provides the highest

@@ -1,10 +1,7 @@
 ---
-id: configure-advanced-audit-policies
 title: "Configure Advanced Audit Policies"
-pagination_label: "Configure Advanced Audit Policies"
-sidebar_label: "Configure Advanced Audit Policies"
-sidebar_position: 131
-description: "Learn how to configure advanced audit policies to limit event tracking and prevent overfilling of AuditArchive and Security event log."
+description: "Configure Advanced Audit Policies"
+sidebar_position: 40
 ---
 
 # Configure Advanced Audit Policies

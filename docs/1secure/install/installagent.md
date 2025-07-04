@@ -1,10 +1,7 @@
 ---
-id: installation
-title: "Installation"
-pagination_label: "Installation"
-sidebar_label: "Installation"
-sidebar_position: 4
-description: "This topic describes how to install the Netwrix Cloud Agent for collecting data from your on-premise sources."
+title: "Install Agent"
+description: "Install Agent"
+sidebar_position: 10
 ---
 
 # Install Agent

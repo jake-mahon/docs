@@ -1,10 +1,7 @@
 ---
-id: system-reports
 title: "System Reports"
-pagination_label: "System Reports"
-sidebar_label: "System Reports"
-sidebar_position: 58
-description: "Learn how to review automatically generated system reports including Billable Users insights."
+description: "System Reports"
+sidebar_position: 40
 ---
 
 # System Reports

@@ -1,10 +1,7 @@
 ---
-id: configure-the-back-up-files-and-directories-policy
 title: "Configure the Back up Files and Directories Policy"
-pagination_label: "Configure the Back up Files and Directories Policy"
-sidebar_label: "Configure the Back up Files and Directories Policy"
-sidebar_position: 72
-description: "Learn how to configure the Back up Files and Directories policy using Local Security Policy or Group Policy Management Console."
+description: "Configure the Back up Files and Directories Policy"
+sidebar_position: 10
 ---
 
 # Configure the Back up Files and Directories Policy

@@ -1,10 +1,7 @@
 ---
-id: generate-a-self-audit-report
 title: "Generate a Self-Audit Report"
-pagination_label: "Generate a Self-Audit Report"
-sidebar_label: "Generate a Self-Audit Report"
-sidebar_position: 50
-description: "Learn how to generate self-audit reports to track changes to 1Secure configuration and monitoring scope."
+description: "Generate a Self-Audit Report"
+sidebar_position: 60
 ---
 
 # Generate a Self-Audit Report

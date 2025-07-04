@@ -1,10 +1,7 @@
 ---
-id: custom-reports
 title: "Custom Reports"
-pagination_label: "Custom Reports"
-sidebar_label: "Custom Reports"
-sidebar_position: 53
-description: "Learn how to create and save custom reports with specific filter sets for recurring analysis."
+description: "Custom Reports"
+sidebar_position: 50
 ---
 
 # Custom Reports
@@ -48,7 +45,7 @@ generated.
 
 **Step 8 –** Optionally, select the **Share with business users** check box to share the report with
 business users. See the
-[Add the Business Viewer Role](/docs/1secure/admin/organizations/addingusers.md#add-the-business-viewer-role) topic
+[Add the Business Viewer Role](/docs/1secure/admin/organizations/addingusers/addingusers.md#add-the-business-viewer-role) topic
 for additional information on shared reports.
 
 **NOTE:** This check box is not available for End Customer Organizations.

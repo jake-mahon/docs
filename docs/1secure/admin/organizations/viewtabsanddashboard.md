@@ -1,10 +1,7 @@
 ---
-id: view-tabs-and-dashboards-for-the-organization
 title: "View Tabs and Dashboards for the Organization"
-pagination_label: "View Tabs and Dashboards for the Organization"
-sidebar_label: "View Tabs and Dashboards for the Organization"
-sidebar_position: 39
-description: "Learn how to navigate and view available tabs and dashboards for managed organizations."
+description: "View Tabs and Dashboards for the Organization"
+sidebar_position: 50
 ---
 
 # View Tabs and Dashboards for the Organization
@@ -26,7 +23,7 @@ The Managed organizations page has the following tabs:
 - Credentials – Review and edit the credentials of your organization. See
   the[ Manage Credentials ](/docs/1secure/admin/organizations/managingcredentials.md)topic for additional information.
 - Users – Review or add Business Viewers or Co-managing Administrators to the audited organization.
-  See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information.
+  See the [Add Users](/docs/1secure/admin/organizations/addingusers/addingusers.md) topic for additional information.
 - Subscriptions– Review or edit the subscriptions of your organization. See the
   [Subscriptions](/docs/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
 

@@ -1,10 +1,7 @@
 ---
-id: state-in-time-risks-reports
 title: "State In Time Risks Reports"
-pagination_label: "State In Time Risks Reports"
-sidebar_label: "State In Time Risks Reports"
-sidebar_position: 56
-description: "Learn how to generate state-in-time reports based on risk profiles to analyze environment configurations at specific points in time."
+description: "State In Time Risks Reports"
+sidebar_position: 30
 ---
 
 # State In Time Risks Reports

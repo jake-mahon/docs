@@ -1,10 +1,7 @@
 ---
-id: logon-activity-auditing
 title: "Logon Activity Auditing"
-pagination_label: "Logon Activity Auditing"
-sidebar_label: "Logon Activity Auditing"
-sidebar_position: 73
-description: "Learn how to configure domain accounts for logon activity data collection with network traffic compression requirements."
+description: "Logon Activity Auditing"
+sidebar_position: 70
 ---
 
 # Logon Activity Auditing

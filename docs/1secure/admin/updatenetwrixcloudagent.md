@@ -1,3 +1,9 @@
+---
+title: "Updating Netwrix Cloud Agent"
+description: "Updating Netwrix Cloud Agent"
+sidebar_position: 100
+---
+
 # Updating Netwrix Cloud Agent
 
 With Netwrix 1Secure, you can both update the version of the agent by installing new agent or using

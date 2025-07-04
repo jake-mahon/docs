@@ -1,3 +1,9 @@
+---
+title: "Netwrix Cloud Agent Software Requirements"
+description: "Netwrix Cloud Agent Software Requirements"
+sidebar_position: 20
+---
+
 # Netwrix Cloud Agent Software Requirements
 
 **CAUTION:** You would generally need only one Netwrix Cloud Agent per audited on-premises AD

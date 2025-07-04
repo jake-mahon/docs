@@ -1,10 +1,7 @@
 ---
-id: alert-profiles
 title: "Alert Profiles"
-pagination_label: "Alert Profiles"
-sidebar_label: "Alert Profiles"
-sidebar_position: 80
-description: "Learn how to create and manage alert profiles with grouped configurations and delivery notification settings."
+description: "Alert Profiles"
+sidebar_position: 70
 ---
 
 # Alert Profiles
@@ -103,4 +100,4 @@ organization admins by email.
 **Step 7 –** Click Save.
 
 You may also link to a third-party ticketing system. See the
-[Third-party systems](/docs/1secure/integrations/overview.md) topic for additional information.
+[Third-party systems](/docs/1secure/integration/overview.md) topic for additional information.

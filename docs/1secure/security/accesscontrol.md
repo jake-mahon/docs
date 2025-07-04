@@ -1,3 +1,9 @@
+---
+title: "Access Control"
+description: "Access Control"
+sidebar_position: 30
+---
+
 # Access Control
 
 Netwrix 1Secure is a multi-tenant cloud application. All data is segregated by tenants and access

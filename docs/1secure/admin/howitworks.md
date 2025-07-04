@@ -1,3 +1,9 @@
+---
+title: "How It Works"
+description: "How It Works"
+sidebar_position: 110
+---
+
 # How It Works
 
 Netwrix 1Secure is a Microsoft Azure hosted, multi-tenant SaaS application that provides a single

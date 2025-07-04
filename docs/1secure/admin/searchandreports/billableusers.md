@@ -1,10 +1,7 @@
 ---
-id: billable-users-report
 title: "Billable Users Report"
-pagination_label: "Billable Users Report"
-sidebar_label: "Billable Users Report"
-sidebar_position: 51
-description: "Learn how to generate reports on billable Active Directory and Microsoft Entra ID accounts for your organization."
+description: "Billable Users Report"
+sidebar_position: 110
 ---
 
 # Billable Users Report
@@ -15,7 +12,7 @@ Directory/Microsoft Entra ID (formerly Azure AD) accounts for your organization
 
 | Icon                                                                                                            | Description                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information on the business users. |
+| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers/addingusers.md) topic for additional information on the business users. |
 
 ## Review a Report
 

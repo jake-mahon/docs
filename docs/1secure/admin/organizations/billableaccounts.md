@@ -1,10 +1,7 @@
 ---
-id: billable-accounts
 title: "Billable Accounts"
-pagination_label: "Billable Accounts"
-sidebar_label: "Billable Accounts"
-sidebar_position: 34
-description: "View and review billable Active Directory and Microsoft Entra ID accounts for your organization."
+description: "Billable Accounts"
+sidebar_position: 60
 ---
 
 # Billable Accounts

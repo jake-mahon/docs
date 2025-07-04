@@ -1,10 +1,7 @@
 ---
-id: configure-infrastructure-for-monitoring-logon-activity
 title: "Configure Infrastructure for Monitoring Logon Activity"
-pagination_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_position: 120
-description: "Learn how to configure your IT infrastructure for monitoring Logon Activity using automatic or manual methods."
+description: "Configure Infrastructure for Monitoring Logon Activity"
+sidebar_position: 30
 ---
 
 # Configure Infrastructure for Monitoring Logon Activity

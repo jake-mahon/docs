@@ -1,10 +1,7 @@
 ---
-id: prepare-for-windows-file-server-monitoring
 title: "Prepare for Windows File Server Monitoring"
-pagination_label: "Prepare for Windows File Server Monitoring"
-sidebar_label: "Prepare for Windows File Server Monitoring"
-sidebar_position: 130
-description: "Learn the requirements, limitations, protocols, and considerations necessary for Windows File Server data collection."
+description: "Prepare for Windows File Server Monitoring"
+sidebar_position: 40
 ---
 
 # Prepare for Windows File Server Monitoring
@@ -87,7 +84,7 @@ You can apply the required audit settings to your Windows file servers in one of
 
 - Automatically - The current audit settings will be applied automatically. They will be
   periodically checked and adjusted if necessary.
-  See [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount/overview.md) for
+  See [Data Collecting Account](/docs/1secure/admin/datacollection/overview.md) for
   additional information.
 
 - Manually - Perform the following action to manually apply audit settings to Windows File Servers:
@@ -97,7 +94,7 @@ You can apply the required audit settings to your Windows file servers in one of
 ## Configure Data Collecting Account
 
 Follow the instructions in the
-[Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount/overview.md) section.
+[Data Collecting Account](/docs/1secure/admin/datacollection/overview.md) section.
 
 ## Configure required protocols and ports
 

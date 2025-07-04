@@ -1,3 +1,9 @@
+---
+title: "Customer Data Privacy"
+description: "Customer Data Privacy"
+sidebar_position: 20
+---
+
 # Customer Data Privacy
 
 All customers access Netwrix 1Secure via the same address:

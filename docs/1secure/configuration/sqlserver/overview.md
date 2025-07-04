@@ -1,10 +1,7 @@
 ---
-id: sql-server
 title: "SQL Server"
-pagination_label: "SQL Server"
-sidebar_label: "SQL Server"
-sidebar_position: 140
-description: "Learn how to configure SQL Server for monitoring with Netwrix 1Secure using native logs and audit settings."
+description: "SQL Server"
+sidebar_position: 50
 ---
 
 # SQL Server

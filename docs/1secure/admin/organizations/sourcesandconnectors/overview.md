@@ -1,10 +1,7 @@
 ---
-id: sources-and-connectors
 title: "Sources and Connectors"
-pagination_label: "Sources and Connectors"
-sidebar_label: "Sources and Connectors"
-sidebar_position: 40
-description: "Overview of available data sources and connectors for collecting data from various environments."
+description: "Sources and Connectors"
+sidebar_position: 10
 ---
 
 # Sources and Connectors

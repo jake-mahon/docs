@@ -1,0 +1,10 @@
+{
+  "label": "Prepare for Windows File Server Monitoring",
+  "position": 40,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

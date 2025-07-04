@@ -1,10 +1,7 @@
 ---
-id: manage-risk-profiles
 title: "Manage Risk Profiles"
-pagination_label: "Manage Risk Profiles"
-sidebar_label: "Manage Risk Profiles"
-sidebar_position: 75
-description: "Learn how to create and manage risk profiles with configurable risk thresholds for security vulnerability analysis."
+description: "Manage Risk Profiles"
+sidebar_position: 60
 ---
 
 # Manage Risk Profiles

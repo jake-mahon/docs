@@ -1,10 +1,7 @@
 ---
-id: file-servers-and-antivirus
 title: "File Servers and Antivirus"
-pagination_label: "File Servers and Antivirus"
-sidebar_label: "File Servers and Antivirus"
-sidebar_position: 133
-description: "Learn which Netwrix executables to add to your antivirus exclusion list for optimal performance."
+description: "File Servers and Antivirus"
+sidebar_position: 80
 ---
 
 # File Servers and Antivirus

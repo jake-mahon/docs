@@ -1,10 +1,7 @@
 ---
-id: alerts
 title: "Alerts"
-pagination_label: "Alerts"
-sidebar_label: "Alerts"
-sidebar_position: 79
-description: "Learn how to configure and manage alerts that notify you of critical security events and actions in your organization."
+description: "Alerts"
+sidebar_position: 10
 ---
 
 # Alerts

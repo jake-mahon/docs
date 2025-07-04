@@ -1,10 +1,7 @@
 ---
-id: manage-organizations
 title: "Manage Organizations"
-pagination_label: "Manage Organizations"
-sidebar_label: "Manage Organizations"
+description: "Manage Organizations"
 sidebar_position: 30
-description: "Learn how to manage organizations and configure settings for Managed Service Providers in 1Secure."
 ---
 
 # Manage Organizations
@@ -37,6 +34,6 @@ Below you can see home pages of:
 See the following topics for additional information:
 
 - [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md)
-- [Add Users](/docs/1secure/admin/organizations/addingusers.md)
+- [Add Users](/docs/1secure/admin/organizations/addingusers/addingusers.md)
 - [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md)
 - [ Manage Credentials ](/docs/1secure/admin/organizations/managingcredentials.md)

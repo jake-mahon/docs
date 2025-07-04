@@ -1,3 +1,9 @@
+---
+title: "Notifications"
+description: "Notifications"
+sidebar_position: 90
+---
+
 # Notifications
 
 Netwrix 1Secure provides real-time notifications to the users, which report on various issues for

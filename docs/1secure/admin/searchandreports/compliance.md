@@ -1,10 +1,7 @@
 ---
-id: compliance-reports
 title: "Compliance Reports"
-pagination_label: "Compliance Reports"
-sidebar_label: "Compliance Reports"
-sidebar_position: 52
-description: "Learn how to generate compliance reports for Microsoft Entra ID, Active Directory, and SharePoint Online configurations."
+description: "Compliance Reports"
+sidebar_position: 20
 ---
 
 # Compliance Reports

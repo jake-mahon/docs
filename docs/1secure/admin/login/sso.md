@@ -1,3 +1,9 @@
+---
+title: "Single Sign On"
+description: "Single Sign On"
+sidebar_position: 10
+---
+
 # Single Sign On
 
 Single Sign On (SSO) is a powerful authentication process that enhances security and improves user
@@ -130,4 +136,4 @@ It is recommended to copy these settings and keep them safe.
 - Application (client) ID – A client ID for the registered application
 - Directory (tenant) ID – A tenant ID for the registered application
 - Client Secret – A client secret value generated when a new client secret key is created for the
-  registered application. See the [Generate Client Secret Value](/docs/1secure/configuration/entraid/registerconfig.md#generate-client-secret-value) topic for additional information.
+  registered application. See the [Generate Client Secret Value](/docs/1secure/configuration/registerconfig/registerconfig.md#generate-client-secret-value) topic for additional information.
