@@ -1,10 +1,10 @@
 ---
-title: "Contact properties - Advanced tab"
+title: "Advanced tab"
 description: "Contact properties - Advanced tab"
 sidebar_position: 10
 ---
 
-# Contact properties - Advanced tab
+# Advanced tab
 
 Use this tab to specify advanced settings for a contact.
 

@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Similar Groups tab"
+title: "Similar Groups tab"
 description: "Group properties - Similar Groups tab"
 sidebar_position: 130
 ---
 
-# Group properties - Similar Groups tab
+# Similar Groups tab
 
 Directory Manager enables you to compare groups for similarity on the basis of:
 

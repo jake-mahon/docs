@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Owner tab"
+title: "Owner tab"
 description: "Group properties - Owner tab"
 sidebar_position: 20
 ---
 
-# Group properties - Owner tab
+# Owner tab
 
 This tab displays the primary and additional owners of the group. You can do the following,
 depending on the Group Owner policy.

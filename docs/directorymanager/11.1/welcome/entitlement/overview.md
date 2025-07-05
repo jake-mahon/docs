@@ -4,7 +4,7 @@ description: "Entitlement"
 sidebar_position: 80
 ---
 
-# Entitlement
+# Entitlement Management 
 
 Directory Manager Entitlement enables you to stay informed on the permissions assigned to objects
 residing on your Active Directory servers and SharePoint sites.

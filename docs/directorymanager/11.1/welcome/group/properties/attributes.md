@@ -1,10 +1,10 @@
 ---
-title: "Object properties - Attributes tab"
+title: "Attributes tab"
 description: "Object properties - Attributes tab"
 sidebar_position: 60
 ---
 
-# Object properties - Attributes tab
+# Attributes tab
 
 Use this tab to manage custom attributes for this object. These attributes are used to store
 additional information about the object. For example, you can use custom attributes to save health

@@ -1,10 +1,10 @@
 ---
-title: "User properties - Member Of tab"
+title: "Member Of tab"
 description: "User properties - Member Of tab"
 sidebar_position: 60
 ---
 
-# User properties - Member Of tab
+# Member Of tab
 
 Use this tab to view the groups that the user is a member of. You can also add and remove this user
 from the membership of groups.

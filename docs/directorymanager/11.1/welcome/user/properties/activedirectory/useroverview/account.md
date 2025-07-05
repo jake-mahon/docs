@@ -1,10 +1,10 @@
 ---
-title: "User properties - Account tab"
+title: "Account tab"
 description: "User properties - Account tab"
 sidebar_position: 10
 ---
 
-# User properties - Account tab
+# Account tab
 
 This tab enables administrators to manage the account status and expiry policy of a user.
 

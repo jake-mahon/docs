@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Delivery Restrictions tab"
+title: "Delivery Restrictions tab"
 description: "Group properties - Delivery Restrictions tab"
 sidebar_position: 50
 ---
 
-# Group properties - Delivery Restrictions tab
+# Delivery Restrictions tab
 
 Use this tab to apply email restrictions to this group. You can manage the list of objects (users,
 contacts, groups) from whom this group can and cannot receive emails.

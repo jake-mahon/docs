@@ -1,12 +1,10 @@
 ---
-title: "Exchange page"
+title: "Exchange page (of Create User and Create Mailbox wizards)"
 description: "Exchange page"
 sidebar_position: 60
 ---
 
-# Exchange page
-
-(of Create User and Create Mailbox wizards)
+# Exchange page (of Create User and Create Mailbox wizards)
 
 Use this page to create the object as mail-enabled.
 

@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Filter Criteria tab"
+title: "Filter Criteria tab"
 description: "Query Designer - Filter Criteria tab"
 sidebar_position: 10
 ---
 
-# Query Designer - Filter Criteria tab
+# Filter Criteria tab
 
 Use this tab to add custom criteria to your query that do not fit any of the categories represented
 on other tabs of the Query Designer dialog box. For example, you can add criteria to retrieve all

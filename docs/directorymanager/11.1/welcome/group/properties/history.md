@@ -1,10 +1,10 @@
 ---
-title: "Object properties - History tab"
+title: "History tab"
 description: "Object properties - History tab"
 sidebar_position: 140
 ---
 
-# Object properties - History tab
+# History tab
 
 This tab displays the object's history, which includes all changes to the object since its creation.
 

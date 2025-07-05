@@ -4,9 +4,7 @@ description: "Exchange page"
 sidebar_position: 80
 ---
 
-# Exchange page
-
-(of Create Mailbox wizard)
+# Exchange page (of Create Mailbox wizard)
 
 Follow the steps to provide alias and subscriptions for a mailbox.
 

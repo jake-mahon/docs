@@ -1,10 +1,10 @@
 ---
-title: "Object properties - Advanced tab"
+title: "Advanced tab"
 description: "Object properties - Advanced tab"
 sidebar_position: 20
 ---
 
-# Object properties - Advanced tab
+# Advanced tab
 
 Use this tab to specify advanced settings for a user/mailbox.
 

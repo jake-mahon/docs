@@ -1,10 +1,10 @@
 ---
-title: "Object properties - Organization tab"
+title: "Organization tab"
 description: "Object properties - Organization tab"
 sidebar_position: 70
 ---
 
-# Object properties - Organization tab
+# Organization tab
 
 Use this tab to add or change the primary manager for this user or contact. You can also remove the
 manager.

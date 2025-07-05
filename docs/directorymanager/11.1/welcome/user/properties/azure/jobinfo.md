@@ -1,5 +1,5 @@
 ---
-title: "User properties - Job Info tab"
+title: "Job Info tab"
 description: "User properties - Job Info tab"
 sidebar_position: 40
 ---

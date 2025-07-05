@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - General tab"
+title: "General tab"
 description: "Query Designer - General tab"
 sidebar_position: 30
 ---
 
-# Query Designer - General tab
+# General tab
 
 Use this tab to specify the type of objects to include in your search. Options vary according to the
 object type selected in the **Find** list.

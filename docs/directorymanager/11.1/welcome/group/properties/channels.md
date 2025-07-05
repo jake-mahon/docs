@@ -1,10 +1,10 @@
 ---
-title: "Teams Properties - Channels"
+title: "Channels"
 description: "Teams Properties - Channels"
 sidebar_position: 170
 ---
 
-# Teams Properties - Channels
+# Channels
 
 Use this tab to view, add, and remove the channels in a Teams group.
 

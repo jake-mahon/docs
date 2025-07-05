@@ -1,10 +1,10 @@
 ---
-title: "Group Properties - Entitlement tab"
+title: "Entitlement tab"
 description: "Group Properties - Entitlement tab"
 sidebar_position: 120
 ---
 
-# Group Properties - Entitlement tab
+# Entitlement tab
 
 Entitlement computes the effective NTFS permissions granted to objects on shared resources residing
 on a server in an Active Directory identity store. The Entitlement tab provides an interface for

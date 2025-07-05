@@ -1,10 +1,10 @@
 ---
-title: "properties - Member Of tab"
+title: "Member Of tab"
 description: "properties - Member Of tab"
 sidebar_position: 40
 ---
 
-# properties - Member Of tab
+# Member Of tab
 
 Use this tab to view the groups of which this group is a member. You can add and remove this group
 from the membership of other groups.

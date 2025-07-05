@@ -1,10 +1,10 @@
 ---
-title: "Mailbox properties - Advanced tab"
+title: "Advanced tab"
 description: "Mailbox properties - Advanced tab"
 sidebar_position: 10
 ---
 
-# Mailbox properties - Advanced tab
+# Advanced tab
 
 Use this tab to configure advanced settings for a user.
 

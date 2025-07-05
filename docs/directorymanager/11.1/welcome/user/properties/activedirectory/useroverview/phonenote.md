@@ -1,10 +1,10 @@
 ---
-title: "Object properties - Phone / Notes tab"
+title: "Phone / Notes tab"
 description: "Object properties - Phone / Notes tab"
 sidebar_position: 80
 ---
 
-# Object properties - Phone / Notes tab
+# Phone / Notes tab
 
 Use this tab to view or update the contact information of the user or contact.
 

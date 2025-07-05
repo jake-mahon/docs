@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Tree View"
+title: "Tree View"
 description: "Group properties - Tree View"
 sidebar_position: 110
 ---
 
-# Group properties - Tree View
+# Tree View
 
 Using the Directory Managerportal, you can view the hierarchy for a group. This hierarchy is
 displayed in the form of a tree. For example, if Group A is a member of Group B, the graph will

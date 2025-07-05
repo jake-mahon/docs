@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Members tab"
+title: "Members tab"
 description: "Group properties - Members tab"
 sidebar_position: 30
 ---
 
-# Group properties - Members tab
+# Members tab
 
 Use this tab to view or modify the members of a group. By default, the primary owner is also a
 member of the group.

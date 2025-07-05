@@ -1,5 +1,5 @@
 ---
-title: "User properties - Identity tab"
+title: "Identity tab"
 description: "User properties - Identity tab"
 sidebar_position: 30
 ---

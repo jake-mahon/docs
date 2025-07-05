@@ -1,12 +1,10 @@
 ---
-title: "Password page"
+title: "Password page (of Microsoft Entra ID User and Mailbox wizards)"
 description: "Password page"
 sidebar_position: 40
 ---
 
-# Password page
-
-(of Microsoft Entra ID User and Mailbox wizards)
+# Password page (of Microsoft Entra ID User and Mailbox wizards)
 
 Provide a password for the user account and set other password-specific options.
 

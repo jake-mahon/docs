@@ -1,5 +1,5 @@
 ---
-title: "User properties - Directory Role tab"
+title: "Directory Role tab"
 description: "User properties - Directory Role tab"
 sidebar_position: 20
 ---

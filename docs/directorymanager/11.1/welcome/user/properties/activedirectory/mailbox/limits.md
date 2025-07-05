@@ -1,10 +1,10 @@
 ---
-title: "Mailbox properties - Limits tab"
+title: "Limits tab"
 description: "Mailbox properties - Limits tab"
 sidebar_position: 30
 ---
 
-# Mailbox properties - Limits tab
+# Limits tab
 
 This tab applies to mailboxes only. It allows you to set the storage quota for the object's mailbox,
 such as an Exchange mailbox.

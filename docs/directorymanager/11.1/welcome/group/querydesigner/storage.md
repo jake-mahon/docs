@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Storage tab"
+title: "Storage tab"
 description: "Query Designer - Storage tab"
 sidebar_position: 60
 ---
 
-# Query Designer - Storage tab
+# Storage tab
 
 Settings on the Storage tab are available when the ‘Messaging System Recipients’ option is selected
 in the **Find** list.

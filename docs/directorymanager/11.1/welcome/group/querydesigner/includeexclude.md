@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Include/Exclude tab"
+title: "Include/Exclude tab"
 description: "Query Designer - Include/Exclude tab"
 sidebar_position: 20
 ---
 
-# Query Designer - Include/Exclude tab
+# Include/Exclude tab
 
 Use this tab to include or exclude an object from group membership, regardless of whether it is
 returned by the query. The Include and Exclude lists affect group membership at two points in the

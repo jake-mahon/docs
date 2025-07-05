@@ -1,10 +1,10 @@
 ---
-title: "Mailbox properties - Auto Reply tab"
+title: "Auto Reply tab"
 description: "Mailbox properties - Auto Reply tab"
 sidebar_position: 20
 ---
 
-# Mailbox properties - Auto Reply tab
+# Auto Reply tab
 
 Use this tab to configure automatic replies for the emails sent to a mailbox object. You can:
 

@@ -1,10 +1,10 @@
 ---
-title: "Group properties - General tab"
+title: "General tab"
 description: "Group properties - General tab"
 sidebar_position: 10
 ---
 
-# Group properties - General tab
+# General tab
 
 This tab allows you to view or modify the general information about the group.
 

@@ -1,5 +1,5 @@
 ---
-title: "User properties - Contact Info tab"
+title: "Contact Info tab"
 description: "User properties - Contact Info tab"
 sidebar_position: 10
 ---

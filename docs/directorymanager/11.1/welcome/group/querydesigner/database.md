@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Database tab"
+title: "Database tab"
 description: "Query Designer - Database tab"
 sidebar_position: 70
 ---
 
-# Query Designer - Database tab
+# Database tab
 
 You can combine an external data provider with the directory to determine a group's membership.
 

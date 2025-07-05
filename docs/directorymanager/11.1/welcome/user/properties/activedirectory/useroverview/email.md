@@ -1,10 +1,10 @@
 ---
-title: "Object properties - Email tab"
+title: "Email tab"
 description: "Object properties - Email tab"
 sidebar_position: 30
 ---
 
-# Object properties - Email tab
+# Email tab
 
 Use this tab to view the addresses assigned to this object.
 

@@ -1,10 +1,10 @@
 ---
-title: "Object properties - General tab"
+title: "General tab"
 description: "Object properties - General tab"
 sidebar_position: 50
 ---
 
-# Object properties - General tab
+# General tab
 
 Use this tab to view or update the general information for a user, mailbox, or contact.
 

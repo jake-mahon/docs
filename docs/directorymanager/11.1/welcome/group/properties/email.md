@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Email tab"
+title: "Email tab"
 description: "Group properties - Email tab"
 sidebar_position: 70
 ---
 
-# Group properties - Email tab
+# Email tab
 
 Use this tab to view the email addresses assigned to this group. If your portal is connected to an
 identity store having Exchange 2013/2016/2019 deployed; then on this tab, you can also specify

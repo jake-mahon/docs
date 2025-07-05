@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Password Expiry Options tab"
+title: "Password Expiry Options tab"
 description: "Query Designer - Password Expiry Options tab"
 sidebar_position: 40
 ---
 
-# Query Designer - Password Expiry Options tab
+# Password Expiry Options tab
 
 The **Password Expiry Options** tab is only available for password expiry groups. You can create a
 password expiry group by selecting the **Password Expiry** group option on the Welcome page of the

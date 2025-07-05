@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Dynasty Options tab"
+title: "Dynasty Options tab"
 description: "Group properties - Dynasty Options tab"
 sidebar_position: 100
 ---
 
-# Group properties - Dynasty Options tab
+# Dynasty Options tab
 
 Directory Managerprovides advanced options that you can use to enhance the Dynasty structure and its
 membership. You can:

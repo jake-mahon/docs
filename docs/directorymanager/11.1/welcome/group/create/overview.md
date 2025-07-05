@@ -1,10 +1,10 @@
 ---
-title: "Groups"
+title: "Create Group Objectss"
 description: "Groups"
 sidebar_position: 10
 ---
 
-# Groups
+# Create Groups
 
 Using Directory Manager portal, you can create:
 

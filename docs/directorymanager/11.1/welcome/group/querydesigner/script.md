@@ -1,10 +1,10 @@
 ---
-title: "Query Designer - Script tab"
+title: "Script tab"
 description: "Query Designer - Script tab"
 sidebar_position: 50
 ---
 
-# Query Designer - Script tab
+# Script tab
 
 This tab is read-only and displays any script that has been added for the group. The scripting
 feature enables administrators to manipulate group memberships and the Query Designer dialog

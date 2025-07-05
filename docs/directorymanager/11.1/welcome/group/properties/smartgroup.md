@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Smart Group/Query Designer tab"
+title: "Smart Group/Query Designer tab"
 description: "Group properties - Smart Group/Query Designer tab"
 sidebar_position: 90
 ---
 
-# Group properties - Smart Group/Query Designer tab
+# Smart Group/Query Designer tab
 
 Use this tab to view and modify the query defined for the Smart Group/Dynasty, and even schedule
 updates.

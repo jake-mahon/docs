@@ -1,10 +1,10 @@
 ---
-title: "Group properties - Advanced tab"
+title: "Advanced tab"
 description: "Group properties - Advanced tab"
 sidebar_position: 80
 ---
 
-# Group properties - Advanced tab
+# Advanced tab
 
 Use this tab to control the group's visibility in the messaging provider's address book and manage
 out-of-office notifications.
