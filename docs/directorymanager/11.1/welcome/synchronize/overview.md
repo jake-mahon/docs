@@ -63,7 +63,7 @@ The following must be defined before you can use Synchronize:
 Synchronize dashboard displays performance widgets and cards displaying the data about your jobs and
 job collections. On the navigation pane on the left side, you will see the following tabs:
 
-- Create New ([Create a Job](/docs/directorymanager/11.1/welcome/synchronize/create/create.md) and [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/create/create_1.md))
+- Create New ([Create a Job](/docs/directorymanager/11.1/welcome/synchronize/create/create.md) and [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/collection/create.md))
 - [Dashboard](/docs/directorymanager/11.1/welcome/synchronize/dashboard.md)
 - [Manage a Job](/docs/directorymanager/11.1/welcome/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/manage/jobcollection.md)

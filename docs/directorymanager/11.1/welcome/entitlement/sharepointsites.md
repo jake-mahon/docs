@@ -1,10 +1,10 @@
 ---
-title: "Explore SharePoint Sites"
+title: "SharePoint Sites"
 description: "Explore SharePoint Sites"
 sidebar_position: 20
 ---
 
-# Explore SharePoint Sites
+# SharePoint Sites
 
 The **SharePoint Sites** page lists the sites specified for permission analysis in the identity
 store, displaying granular level permission granted to objects on document libraries. This data is

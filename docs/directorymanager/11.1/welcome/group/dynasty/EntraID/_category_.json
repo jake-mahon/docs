@@ -1,10 +1,10 @@
 {
-  "label": "Create Dynasties",
+  "label": "Create Entra ID Dynasty",
   "position": 20,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "createdynasty"
   }
 }

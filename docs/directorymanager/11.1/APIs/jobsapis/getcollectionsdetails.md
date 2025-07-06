@@ -9,7 +9,7 @@ sidebar_position: 50
 Use this API to retrieve information about jobs within a job collection based on the criteria
 provided in the request syntax.
 
-See the [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/create/create_1.md)topic for
+See the [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/collection/create.md)topic for
 additional information on Job Collections.
 
 ## Endpoint

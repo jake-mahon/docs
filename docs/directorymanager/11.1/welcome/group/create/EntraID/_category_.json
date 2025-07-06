@@ -1,10 +1,10 @@
 {
-  "label": "Logs APIs",
-  "position": 40,
+  "label": "Create Entra ID Groups",
+  "position": 20,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "logsapis"
+    "id": "group"
   }
 }

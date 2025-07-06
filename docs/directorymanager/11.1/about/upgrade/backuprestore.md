@@ -1,10 +1,10 @@
 ---
-title: "Back Up and Restore GroupID Data"
+title: "Back Up and Restore Data"
 description: "Back Up and Restore GroupID Data"
 sidebar_position: 30
 ---
 
-# Back Up and Restore GroupID Data
+# Back Up and Restore Directory Manager Data
 
 This topic provides instructions for backing up and restoring the data from previous versions of
 GroupID when upgrading to Directory Manager 11.1.

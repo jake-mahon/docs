@@ -1,10 +1,10 @@
 {
-  "label": "Contact APIs",
-  "position": 10,
+  "label": "Create a Job Collection",
+  "position": 30,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "contactapis"
+    "id": "create"
   }
 }

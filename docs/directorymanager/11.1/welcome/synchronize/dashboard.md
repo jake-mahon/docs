@@ -37,7 +37,7 @@ The top right corner of the application displays:
 
 Look on the left side of the page for the navigation pane, which lists links to:
 
-- Create New ([Create a Job](/docs/directorymanager/11.1/welcome/synchronize/create/create.md) and [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/create/create_1.md))
+- Create New ([Create a Job](/docs/directorymanager/11.1/welcome/synchronize/create/create.md) and [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/collection/create.md))
 - Dashboard
 - [Manage a Job](/docs/directorymanager/11.1/welcome/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/manage/jobcollection.md)

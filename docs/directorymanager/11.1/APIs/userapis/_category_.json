@@ -1,10 +1,10 @@
 {
-  "label": "Workflow APIs",
-  "position": 80,
+  "label": "User",
+  "position": 70,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "workflowapis"
+    "id": "userapis"
   }
 }

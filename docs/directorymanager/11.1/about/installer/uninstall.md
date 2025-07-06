@@ -4,7 +4,7 @@ description: "Uninstall"
 sidebar_position: 40
 ---
 
-# Uninstall
+# Uninstall Directory Manager
 
 Before you uninstall Directory Manager , make sure that the logged-in user is a member of the local
 Administrators group on that machine.

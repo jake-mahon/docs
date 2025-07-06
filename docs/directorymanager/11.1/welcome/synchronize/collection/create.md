@@ -22,7 +22,7 @@ Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 
 Step 2 – On the Synchronize portal, click **Create New** and then click **Job Collection.**
 
-Step 3 – On the [Choose your Job Template](/docs/directorymanager/11.1/welcome/synchronize/create/chooseyourjobcollectiontemplate.md) page, enter job
+Step 3 – On the [Choose your Job Template](/docs/directorymanager/11.1/welcome/synchronize/collection/chooseyourjobcollectiontemplate.md) page, enter job
 collection details and select whether to use a job collection template or create the job collection
 from scratch.
 
