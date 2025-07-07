@@ -4,9 +4,9 @@ description: "Directory Manager (formerly GroupID) APIs"
 sidebar_position: 100
 ---
 
-# Directory Manager (formerly GroupID) APIs
+# Directory Manager APIs
 
-Directory Manager APIs enable developers to quickly intergrate their applications with Directory
+Directory Manager APIs enable developers to quickly integrate their applications with Directory
 Manager to "perform actions" such as group creation and lifecycle operations using a relevant
 Directory Manager API.
 

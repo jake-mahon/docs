@@ -1,3 +1,9 @@
+---
+title: "Configure OneLogin in Directory Manager"
+description: "Configure Directory Manager In OneLogin"
+sidebar_position: 30
+---
+
 # Configure the OneLogin Provider in Directory Manager
 
 While creating the OneLogin provider in Directory Manager, you simply have to import the OneLogin

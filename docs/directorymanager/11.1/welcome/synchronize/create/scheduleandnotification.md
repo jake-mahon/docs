@@ -43,14 +43,14 @@ run in future and set the notifications settings for the job.
 
 3. Click on **Advanced Settings** to go to **Advanced Setting For the Job** page:
 
-4. Review and test the default query statement shown and modify it, if required on the **Source
+   1. Review and test the default query statement shown and modify it, if required on the **Source
    Query** section.
 
     The Source Query page shows the default query statement generated from the settings you have
     entered into the wizard. Synchronize job uses this query to fetch records from the source
     provider.
 
-5. On the **Destination Query** section, review the default query statement shown and modify it if
+   2. On the **Destination Query** section, review the default query statement shown and modify it if
    required.
 
     Like the Source Query page, the Destination Query page shows the default query statement
@@ -64,7 +64,7 @@ run in future and set the notifications settings for the job.
        Click Test to preview the results before executing the query. You can click Clear to delete
       the command query.
 
-6. On the **Synchronize Settings** wizard page, configure directory synchronization and job
+   3. On the **Synchronize Settings** wizard page, configure directory synchronization and job
    scheduling:
 
     - **Update all records from source**: to synchronize all records from the source to the
@@ -83,12 +83,12 @@ run in future and set the notifications settings for the job.
         Synchronize can use it to selectively update only the rows that have changed since the last
         time the job was run.
 
-7. Click **Save**.
+   4. Click **Save**.
 
-8. Select **Preview job when finished** checkbox to preview the job.
-9. **Review your Changes** before finishing the job.
-10. Click **Finish** and create the job.
-11. Once you run the job, a workflow request is triggered.
-12. Generated workflow request will be displayed in the [Requests](/docs/directorymanager/11.1/welcome/request/overview.md)
+4. Select **Preview job when finished** checkbox to preview the job.
+5. **Review your Changes** before finishing the job.
+6. Click **Finish** and create the job.
+7. Once you run the job, a workflow request is triggered.
+8. Generated workflow request will be displayed in the [Requests](/docs/directorymanager/11.1/welcome/request/overview.md)
     section for the workflow approver(s). If the approver approves the workflow request, the job
     will execute the results.

@@ -1,10 +1,10 @@
 ---
-title: "Select Your Source and Destination"
+title: "Source and Destination"
 description: "Select Your Source and Destination"
 sidebar_position: 10
 ---
 
-# Select Your Source and Destination
+# Source and Destination
 
 You must create required identity providers and data sources before creating a job. They are created
 in Admin Center under Identity Stores and Data Sources tab respectively. After creating the

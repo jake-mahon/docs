@@ -1,3 +1,9 @@
+---
+title: "Configure the AD FS Provider In Directory Manager"
+description: "Configure Relaying Party Trust in AD FS"
+sidebar_position: 30
+---
+
 # Configure the AD FS Provider In Directory Manager
 
 To configure a SAML provider in Directory Manager, you have to specify the following:

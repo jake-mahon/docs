@@ -1,10 +1,10 @@
 ---
-title: "Get Preview of a Smart Group Membership"
+title: "Preview of a Smart Group Membership"
 description: "Get Preview of a Smart Group Membership"
 sidebar_position: 150
 ---
 
-# Get Preview of a Smart Group Membership
+# Preview of a Smart Group Membership
 
 Using this API, you can preview membership changes that will occur in a Smart Group membership as
 per the query given in the body.

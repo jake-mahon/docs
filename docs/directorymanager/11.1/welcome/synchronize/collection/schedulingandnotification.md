@@ -1,7 +1,7 @@
 ---
 title: "Scheduling and Notifications"
 description: "Scheduling and Notifications"
-sidebar_position: 20
+sidebar_position: 60
 ---
 
 # Scheduling and Notifications

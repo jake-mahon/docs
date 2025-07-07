@@ -26,9 +26,9 @@ and Exchange permissions:
 Exchange permissions are required if Microsoft Exchange is configured as the messaging provider for
 the identity store.
 
-|                         |                                                                                                                                                                                                                                                                                                                      |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active Directory        | Recommended: **Domain Admins** Minimum permissions: - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups. See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
+|    |    |
+| --- | --- |
+| Active Directory | Recommended: **Domain Admins** Minimum permissions: - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups. See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
 | Exchange 2013/2016/2019 | Recipient Management                                                                                                                                                                                                                                                                                                 |
 
 ## Create a New Service Account

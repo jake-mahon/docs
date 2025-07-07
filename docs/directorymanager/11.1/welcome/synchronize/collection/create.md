@@ -31,7 +31,7 @@ Step 4 – Click **Next Step**
 Step 5 – On the [Synchronized Job Collection](/docs/directorymanager/11.1/welcome/synchronize/create/synchronizedjobcollection.md) page, add jobs to the
 collection. You can either add existing jobs or create new jobs to add them to the job collection.
 
-Step 6 – On the [Scheduling and Notifications](/docs/directorymanager/11.1/welcome/synchronize/create/schedulingandnotification.md) page, choose a schedule
+Step 6 – On the [Scheduling and Notifications](/docs/directorymanager/11.1/welcome/synchronize/collection/schedulingandnotification.md) page, choose a schedule
 for a job collection and set up notification settings.
 
 NOTE: After creating the job collection, you can modify the schedule for the job collection and you
