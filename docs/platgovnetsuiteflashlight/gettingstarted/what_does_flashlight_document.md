@@ -1,3 +1,9 @@
+---
+title: "What Does Flashlight Document?"
+description: "What Does Flashlight Document?"
+sidebar_position: 50
+---
+
 # What Does Flashlight Document?
 
 There are three outcomes for customizations Flashlight finds in the system:

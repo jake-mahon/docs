@@ -1,3 +1,9 @@
+---
+title: "How To Videos"
+description: "How To Videos"
+sidebar_position: 70
+---
+
 # How To Videos
 
 We have a series of videos to help you learn to use Flashlight to get the most out of your account

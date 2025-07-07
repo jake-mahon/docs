@@ -1,3 +1,9 @@
+---
+title: "Uninstalling Flashlight"
+description: "Uninstalling Flashlight"
+sidebar_position: 80
+---
+
 # Uninstalling Flashlight
 
 Here is how to uninstall the Flashlight bundle from your account:

@@ -1,3 +1,9 @@
+---
+title: "Installing the Flashlight Bundle"
+description: "Installing the Flashlight Bundle"
+sidebar_position: 10
+---
+
 # Installing the Flashlight Bundle
 
 Flashlight by Strongpoint is a SuiteApp integrated into NetSuite. Use this procedure to install the
@@ -17,4 +23,4 @@ Flashlight bundle into your NetSuite account.
    **Flashlight by Strongpoint Status** is **Pending** during the installation process. Click
    **Refresh** to see installation progress. When complete, the Flashlight bundle is marked with a
    green check in the **Status** and the **Flashlight** tab is available.
-9. Set up a [licensed user](/docs/platgovnetsuiteflashlight/getting_started/setting_up_licensed_user.md) to complete the installation.
+9. Set up a [licensed user](/docs/platgovnetsuiteflashlight/gettingstarted/setting_up_licensed_user.md) to complete the installation.

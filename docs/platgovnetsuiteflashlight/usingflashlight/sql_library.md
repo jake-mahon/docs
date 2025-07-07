@@ -1,3 +1,9 @@
+---
+title: "Using the Strongpoint SQL Library"
+description: "Using the Strongpoint SQL Library"
+sidebar_position: 40
+---
+
 # Using the Strongpoint SQL Library
 
 The SQL Library is a powerful tool to help you locate formulas used across the Saved Searches in

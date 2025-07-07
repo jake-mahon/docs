@@ -1,3 +1,9 @@
+---
+title: "Using the ERD"
+description: "Using the ERD"
+sidebar_position: 20
+---
+
 # Using the ERD
 
 Your company’s growth and ability to react to competitive threats relies on your systems ability to

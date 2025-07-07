@@ -1,3 +1,9 @@
+---
+title: "Configuring your Account"
+description: "Configuring your Account"
+sidebar_position: 30
+---
+
 # Configuring your Account
 
 Before you can start documenting your system, you need to apply a configuration change to your

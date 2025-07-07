@@ -1,3 +1,9 @@
+---
+title: "Release Note Notifications"
+description: "Release Note Notifications"
+sidebar_position: 20
+---
+
 # Release Note Notifications
 
 ## Notifications

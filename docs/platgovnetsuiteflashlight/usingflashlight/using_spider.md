@@ -1,3 +1,9 @@
+---
+title: "Using the Spider"
+description: "Using the Spider"
+sidebar_position: 10
+---
+
 # Using the Spider
 
 While NetSuite is flexible and powerful, your account can quickly become out-of-sync and cluttered

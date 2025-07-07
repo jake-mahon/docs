@@ -1,3 +1,9 @@
+---
+title: "Using Customization Impact Analysis"
+description: "Using Customization Impact Analysis"
+sidebar_position: 60
+---
+
 # Using Customization Impact Analysis
 
 The Customization Impact Search displays customizations and any impacted customizations. For

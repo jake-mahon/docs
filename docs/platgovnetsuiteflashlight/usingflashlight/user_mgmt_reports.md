@@ -1,3 +1,9 @@
+---
+title: "User Management Reports"
+description: "User Management Reports"
+sidebar_position: 80
+---
+
 # User Management Reports
 
 Flashlight provides a set of reports that give you insight into Employee-related changes and

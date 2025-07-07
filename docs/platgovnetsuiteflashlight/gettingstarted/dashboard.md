@@ -1,3 +1,9 @@
+---
+title: "Dashboard"
+description: "Dashboard"
+sidebar_position: 60
+---
+
 # Dashboard
 
 Flashlight comes with a comprehensive dashboard with everything to manage your account at your

@@ -1,3 +1,9 @@
+---
+title: "Setting up a Licensed User"
+description: "Setting up a Licensed User"
+sidebar_position: 20
+---
+
 # Setting up a Licensed User
 
 When you first install NetSuite, you need to create a licensed user who has full access to

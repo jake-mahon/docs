@@ -1,3 +1,9 @@
+---
+title: "Documenting your Account"
+description: "Documenting your Account"
+sidebar_position: 40
+---
+
 # Documenting your Account
 
 While NetSuite is flexible and powerful, your account can quickly become out-of-sync and cluttered
@@ -23,7 +29,7 @@ how to kick off your first spider:
 
 2. If you are receive a NetSuite alert about segment preferences, you need to set the **Number of
    Rows in List Segments** in your account so that the spider can function properly. Refer to
-   [Configuring your Account](/docs/platgovnetsuiteflashlight/getting_started/configuring_account.md) for details. Do not update this field while
+   [Configuring your Account](/docs/platgovnetsuiteflashlight/gettingstarted/configuring_account.md) for details. Do not update this field while
    the spider is running. Once you are ready, start your spider.
 
     ![spider_800x368](/img/product_docs/platgovnetsuiteflashlight/getting_started/spider_800x368.webp)

@@ -1,3 +1,9 @@
+---
+title: "Understanding the Customization Record"
+description: "Understanding the Customization Record"
+sidebar_position: 50
+---
+
 # Understanding the Customization Record
 
 A Flashlight Customization Record contains all the information about a given customization in one

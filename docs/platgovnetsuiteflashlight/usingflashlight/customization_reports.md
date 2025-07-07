@@ -1,3 +1,9 @@
+---
+title: "Customization Reports"
+description: "Customization Reports"
+sidebar_position: 70
+---
+
 # Customization Reports
 
 Flashlight provides a set of useful reports to help you ensure that your account customizations
