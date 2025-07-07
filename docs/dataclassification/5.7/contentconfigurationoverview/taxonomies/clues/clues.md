@@ -1,7 +1,7 @@
 ---
 title: "Classification Rules (Clues)"
 description: "Classification Rules (Clues)"
-sidebar_position: 90
+sidebar_position: 5
 ---
 
 # Classification Rules (Clues)
