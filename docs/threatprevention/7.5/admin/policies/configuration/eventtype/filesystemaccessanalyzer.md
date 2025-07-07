@@ -1,3 +1,9 @@
+---
+title: "File System Enterprise Auditor Event Type"
+description: "File System Enterprise Auditor Event Type"
+sidebar_position: 125
+---
+
 # File System Enterprise Auditor Event Type
 
 The File System Enterprise Auditor event type is used to send File System activity to Netwrix Access
