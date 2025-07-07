@@ -1,3 +1,9 @@
+---
+title: "Privilege Secure End User Overview"
+description: "Privilege Secure End User Overview"
+sidebar_position: 60
+---
+
 # Privilege Secure End User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure

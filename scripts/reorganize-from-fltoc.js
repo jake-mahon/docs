@@ -50,11 +50,14 @@ function getAllMdFiles(dir, rel = '') {
 
 function mapFltocLinkToMd(link) {
   if (link.startsWith('/Content/Config/')) {
-    return link.replace('/Content/', '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
+    return link.replace('/Content/', '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith('/Content/Access/General/')) {
-    return link.replace('/Content/Access/General/', 'general/').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
-  } else if (link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
-    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.htm$/, '.md').replace(/ /g, '_').toLowerCase();
+    return link.replace('/Content/Access/General/', 'general/').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
+  } else if (PRODUCT_KEY && link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
+    return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
+  } else if (link.startsWith('/Content/')) {
+    // fallback: just remove /Content/
+    return link.replace('/Content/', '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   }
   return null;
 }
@@ -162,7 +165,9 @@ function updateFrontmatter(filePath, title, position) {
   try {
     let content = fs.readFileSync(filePath, 'utf8');
     const h1Match = content.match(/^#\s+(.+)$/m);
-    const realTitle = h1Match ? h1Match[1].trim() : title;
+    let realTitle = h1Match ? h1Match[1].trim() : title;
+    // Escape double quotes
+    realTitle = realTitle.replace(/"/g, '\\"');
     const description = realTitle;
     const frontmatter = `---\ntitle: "${realTitle}"\ndescription: "${description}"\nsidebar_position: ${position}\n---\n\n`;
     if (content.startsWith('---')) {
@@ -292,7 +297,7 @@ function walkTreeAndReorganize(tree, parentFolders, docsPath, sidebarPositionSta
       }
       position += 10;
     } else if (item.type === 'category') {
-      let folderName = item.label.toLowerCase().replace(/\s+/g, '-');
+      let folderName = limitFolderName(item.label.toLowerCase().replace(/\s+/g, ''));
       let folderPath = path.join(docsPath, ...parentFolders, folderName);
       if (fs.existsSync(folderPath) && !fs.statSync(folderPath).isDirectory()) {
         // If a file exists where a folder should be, rename the folder
@@ -409,6 +414,10 @@ function updateAllLinks(docsPath, fileMoves) {
     }
   }
   walk(docsPath);
+}
+
+function limitFolderName(name) {
+  return name.slice(0, 40);
 }
 
 function main() {

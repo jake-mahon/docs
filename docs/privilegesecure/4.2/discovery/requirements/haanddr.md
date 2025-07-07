@@ -1,3 +1,9 @@
+---
+title: "High Availability (HA) and Disaster Recovery (DR) Options"
+description: "High Availability (HA) and Disaster Recovery (DR) Options"
+sidebar_position: 20
+---
+
 # High Availability (HA) and Disaster Recovery (DR) Options
 
 High Availability (HA) and Disaster Recovery (DR) Options

@@ -1,3 +1,9 @@
+---
+title: "Scheduled Dashboard"
+description: "Scheduled Dashboard"
+sidebar_position: 20
+---
+
 # Scheduled Dashboard
 
 The Scheduled sessions dashboard shows all scheduled sessions.
@@ -9,7 +15,7 @@ The Scheduled Sessions table has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Create Session — Open the Activity Request window. See the
-  [Create Activity Session](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/createsession.md) topic for additional information.
+  [Create Activity Session](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/active/createsession.md) topic for additional information.
 - End Session — Cancel the selected session(s)
 - Refresh — Reload the information displayed
 
@@ -24,7 +30,7 @@ The table has the following columns:
     - Waiting for Approval — The session requires approval to begin. See the
       [Approvals Dashboard](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/approvals.md) topic for additional information.
     - Available — The activity session is ready. Click the icon to begin the session, or log in
-      through a client. See the [Start Activity Session](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/startsession.md) topic for additional
+      through a client. See the [Start Activity Session](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/active/startsession/startsession.md) topic for additional
       information.
     - Failed — Pre-Session stage of the Activity has encountered an error
     - Logged In — User is successfully logged in to the Resource either directly or via the Proxy.

@@ -1,3 +1,9 @@
+---
+title: "Cleaning Up Change Logs"
+description: "Cleaning Up Change Logs"
+sidebar_position: 120
+---
+
 # Cleaning Up Change Logs
 
 The **Change Logs Clean Up** tool enables you to schedule an automatic clean up of old Change Logs.

@@ -7,7 +7,7 @@ step is to collect logs for support to review. Follow the steps in this video to
 logs of the issue so support can troubleshoot it quickly.
 
 See the
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/troubleshooting/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/fastsupport.md)
 topic for additional information on current support policies and how to get the fastest support.
 
 ## Troubleshooting Previous Versions of Endpoint Policy Manager

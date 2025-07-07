@@ -1,3 +1,9 @@
+---
+title: "Integrations"
+description: "Integrations"
+sidebar_position: 100
+---
+
 # Integrations
 
 Many customers use ticketing and change approval systems in the management of changes to all of
@@ -8,7 +14,7 @@ including the impact analysis, release management and change reconciliation feat
 
 Integrations with Salesforce include:
 
-- [Jira](/docs/platgovsalesforce/change_management/creating_change_request.md)
+- [Jira](/docs/platgovsalesforce/changemanagement/creating_change_request.md)
 
 ## Jira
 
@@ -25,4 +31,4 @@ logs during an audit. This provides the following benefits to your users:
 
 ![Jira Integration](/img/product_docs/platgovsalesforce/integrations/jira_overview.webp)
 
-**Next Step:** [ Set Up the Jira Integration](/docs/platgovsalesforce/integrations/jira_integration.md)
+**Next Step:** [ Set Up the Jira Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration.md)

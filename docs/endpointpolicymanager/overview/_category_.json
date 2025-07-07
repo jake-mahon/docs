@@ -1,0 +1,10 @@
+{
+  "label": "Netwrix Endpoint Policy Manager (formerly PolicyPak) Documentation",
+  "position": 10,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

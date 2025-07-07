@@ -1,3 +1,9 @@
+---
+title: "Credentials"
+description: "Credentials"
+sidebar_position: 40
+---
+
 # Credentials
 
 Credentials organizes your user credentials across all environments It is available from **Netwrix
@@ -6,7 +12,7 @@ Dashboard** > **Settings** > **SP Credentials**
 ![credentials_handler](/img/product_docs/platgovsalesforce/settings/credentials_handler.webp)
 
 You must create a Connected App to run the scanner. Refer to
-[Install Platform Governance for Salesforce](/docs/platgovsalesforce/installing_strongpoint/installing_strongpoint.md)
+[Install Platform Governance for Salesforce](/docs/platgovsalesforce/installingstrongpoint/installing_strongpoint.md)
 for instructions.
 
 Click **New** to add a new credential or **Edit** and existing credential. **Search** finds and

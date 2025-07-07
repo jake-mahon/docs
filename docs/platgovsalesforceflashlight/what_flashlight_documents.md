@@ -1,3 +1,9 @@
+---
+title: "What Does Flashlight Document?"
+description: "What Does Flashlight Document?"
+sidebar_position: 20
+---
+
 # What Does Flashlight Document?
 
 Flashlight documents over 120 Salesforce metadata types. For display within the Flashlight

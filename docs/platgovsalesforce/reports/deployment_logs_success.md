@@ -1,3 +1,9 @@
+---
+title: "Success Deployments"
+description: "Success Deployments"
+sidebar_position: 10
+---
+
 # Success Deployments
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Success

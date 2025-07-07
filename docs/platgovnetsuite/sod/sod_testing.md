@@ -1,3 +1,9 @@
+---
+title: "SoD Testing Mode"
+description: "SoD Testing Mode"
+sidebar_position: 100
+---
+
 # SoD Testing Mode
 
 Testing Mode helps you implement a new SoD solution, or to clean up your existing account. By

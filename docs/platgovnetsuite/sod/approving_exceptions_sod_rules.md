@@ -1,3 +1,9 @@
+---
+title: "Approving Exemptions to SoD Rules"
+description: "Approving Exemptions to SoD Rules"
+sidebar_position: 60
+---
+
 # Approving Exemptions to SoD Rules
 
 ## Create a Change Request
@@ -23,7 +29,7 @@ To create a change request:
 5. **Save** the Change Request.
 6. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
    **Approver Notes**. Click **Save** if you make changes. Refer to
-   [Create a Change Request](/docs/platgovnetsuite/change_management/creating_change_request.md) for more details about
+   [Create a Change Request](/docs/platgovnetsuite/changemanagement/creating_change_request.md) for more details about
    the status bar.
 7. Click **Pending Approval** on the status bar.
 

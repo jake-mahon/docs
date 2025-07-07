@@ -1,3 +1,9 @@
+---
+title: "SentinelOne"
+description: "SentinelOne"
+sidebar_position: 30
+---
+
 # SentinelOne
 
 SentinelOne

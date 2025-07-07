@@ -1,0 +1,10 @@
+{
+  "label": "SoD Overview",
+  "position": 170,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "sod_overview"
+  }
+}

@@ -1,3 +1,9 @@
+---
+title: "Using the Finder"
+description: "Using the Finder"
+sidebar_position: 30
+---
+
 # Using the Finder
 
 Strongpoint's **Finder** searches and finds standard and customized objects created by the scanner.

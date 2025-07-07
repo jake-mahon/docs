@@ -1,3 +1,9 @@
+---
+title: "Deployments with Failures"
+description: "Deployments with Failures"
+sidebar_position: 20
+---
+
 # Deployments with Failures
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Deployments with

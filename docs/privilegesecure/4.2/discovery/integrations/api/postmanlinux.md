@@ -1,3 +1,9 @@
+---
+title: "PostMan: Adding Users/Groups to Linux System Inventory"
+description: "PostMan: Adding Users/Groups to Linux System Inventory"
+sidebar_position: 20
+---
+
 # PostMan: Adding Users/Groups to Linux System Inventory
 
 PostMan: Adding Users/Groups to Linux System Inventory

@@ -1,3 +1,9 @@
+---
+title: "Finder"
+description: "Finder"
+sidebar_position: 20
+---
+
 # Finder
 
 Platform Governance for Salesforce's **Finder** searches and finds standard and customized objects
