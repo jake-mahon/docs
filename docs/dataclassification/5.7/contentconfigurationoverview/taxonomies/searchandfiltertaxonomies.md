@@ -57,7 +57,7 @@ This setting is session specific and applicable only to the current user:
 
 ![treeviewsyncfilter](/img/product_docs/dataclassification/5.7/admin/taxonomies/treeviewsyncfilter.webp)
 
-[See Taxonomy Settings for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/settings/settings.md)
+[See Taxonomy Settings for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/settings/settings.md)
 
 [](#)Source Filter
 

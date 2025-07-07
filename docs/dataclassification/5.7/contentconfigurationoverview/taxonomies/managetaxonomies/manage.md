@@ -1,7 +1,7 @@
 ---
 title: "Manage Taxonomies"
 description: "Manage Taxonomies"
-sidebar_position: 70
+sidebar_position: 5
 ---
 
 # Manage Taxonomies

@@ -1,7 +1,7 @@
 ---
 title: "Taxonomies"
 description: "Taxonomies"
-sidebar_position: 20
+sidebar_position: 5
 ---
 
 # Taxonomies
@@ -15,7 +15,7 @@ defined by set of configuration **rules** (also called **clues**). See
 [Classification Rules (Clues)](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/clues/clues.md) for details.
 
 - To create a taxonomy, go to the **Taxonomies** area of the web-based management console and follow
-  the procedures described in [Add a Taxonomy](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/add.md) section.
+  the procedures described in [Add a Taxonomy](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/add.md) section.
 - To manage the taxonomies, follow the procedures described in [Manage Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/manage/manage_1.md)
   section.
 
@@ -27,4 +27,4 @@ defined by set of configuration **rules** (also called **clues**). See
 See also:
 
 - [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/builtintaxonomies.md)
-- [Taxonomy Settings](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/settings/settings.md)
+- [Taxonomy Settings](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/settings/settings.md)

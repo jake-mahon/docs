@@ -1,10 +1,10 @@
 ---
-title: "Oracle Server"
-description: "Oracle Server"
+title: "Add Oracle Server Source"
+description: "Add Oracle Server Source"
 sidebar_position: 10
 ---
 
-# Oracle Server
+# Add Oracle Server Source
 
 Once you choose to add SQL server source, you opt to add Oracle server as a source. For more
 information, go to the main article[SQL Server ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/addsource/addsqlserversource/addsqlserversource.md).
