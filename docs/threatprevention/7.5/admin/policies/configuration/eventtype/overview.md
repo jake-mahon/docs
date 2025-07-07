@@ -49,7 +49,7 @@ See the following topics for additional details:
 - [Exchange Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/exchangelockdown.md)
 - [File System Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemchanges/filesystemchanges.md)
 - [File System Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.5/admin/policies/configuration/filesystemaccessanalyzer.md)
 - [FSMO Role Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/fsmorolemonitoring.md)
 - [GPO Setting Changes Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettingchanges.md)
 - [GPO Setting Lockdown Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/gposettinglockdown.md)

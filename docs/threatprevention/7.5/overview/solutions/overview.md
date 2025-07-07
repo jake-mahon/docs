@@ -6,10 +6,9 @@ sidebar_position: 30
 
 # Solutions
 
-Threat Prevention offers the following pre-defined solutions for protecting your IT environment. The
-solutions and associated licensed modules are:
+Threat Prevention offers the following pre-defined solutions for protecting your IT environment. The solutions and associated licensed modules are:
 
-[Active Directory](/docs/threatprevention/7.5/overview/solutions/activedirectory.md)
+**Active Directory**
 
 - Active Directory Changes
 
@@ -29,16 +28,16 @@ solutions and associated licensed modules are:
 - GPO Lockdown
 - GPO Setting Changes
 
-[ Enterprise Password Enforcer](/docs/threatprevention/7.5/overview/solutions/epe.md)
+**Enterprise Password Enforcer (EPE)**
 
 - Password Enforcement
 
-[Exchange](/docs/threatprevention/7.5/overview/solutions/exchange.md)
+**Exchange**
 
 - Exchange Events
 - Exchange Lockdown
 
-[File System](/docs/threatprevention/7.5/overview/solutions/filesystem.md)
+**File System**
 
 - File System
 
@@ -46,7 +45,7 @@ solutions and associated licensed modules are:
   - Includes Monitoring for supported NAS devices
   - Includes Monitoring file system for integration with Access Analyzer
 
-[LDAP](/docs/threatprevention/7.5/overview/solutions/ldap.md)
+**LDAP**
 
 - LDAP Monitoring
 

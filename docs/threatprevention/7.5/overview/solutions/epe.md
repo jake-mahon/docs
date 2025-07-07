@@ -4,9 +4,7 @@ description: "Enterprise Password Enforcer"
 sidebar_position: 20
 ---
 
-#
-
-Enterprise Password Enforcer
+# Enterprise Password Enforcer
 
 Attackers often use dictionaries of previously breached passwords or knowledge of well-known
 passwords to compromise accounts. To mitigate this risk and the likelihood of generic or known

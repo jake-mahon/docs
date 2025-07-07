@@ -84,7 +84,7 @@ additional information.
 
 ## Set Up the Threat Manager Reporting Module
 
-Prerequisites
+**Prerequisites**
 
 - See the [Reporting Module Server Requirements](/docs/threatprevention/7.5/requirements/reportingserver.md) topic for details
   on prerequisites.
@@ -92,7 +92,7 @@ Prerequisites
   [Netwrix Threat Manager Reporting Module Ports](/docs/threatprevention/7.5/requirements/ports.md#netwrix-threat-manager-reporting-module-ports)
   topic for a list of firewall ports used.
 
-Installation
+**Installation**
 
 Install the Netwrix Threat Manager Reporting Module application. Typically, this is done on the same
 server where Threat Prevention resides, but it can be on any server within the same environment.
@@ -100,13 +100,13 @@ This application needs access to the Threat Prevention database. See the
 [Reporting Module Installation](/docs/threatprevention/7.5/install/reportingmodule/overview.md) topic for additional
 information.
 
-First Launch
+**First Launch**
 
 On launching Netwrix Threat Manager Reporting Module for the first time, you will set the password
 for the builtin Administrator account, and optionally enable MFA for that account. See the
 [First Launch](/docs/threatprevention/7.5/install/reportingmodule/firstlaunch.md) topic for additional information.
 
-Initial Configuration
+**Initial Configuration**
 
 Configure the following:
 
