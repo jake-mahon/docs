@@ -1,3 +1,9 @@
+---
+title: "SoD Reports"
+description: "SoD Reports"
+sidebar_position: 90
+---
+
 # SoD Reports
 
 Here are the reports available for SoD:

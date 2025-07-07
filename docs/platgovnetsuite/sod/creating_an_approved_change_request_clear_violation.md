@@ -1,3 +1,9 @@
+---
+title: "Creating an Approved Change Request to Clear a Violation"
+description: "Creating an Approved Change Request to Clear a Violation"
+sidebar_position: 80
+---
+
 # Creating an Approved Change Request to Clear a Violation
 
 ## Assign a Non-Compliant Role to an Employee
@@ -33,7 +39,7 @@ To create an approved change request:
 4. **Save** the Change Request.
 5. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
    **Approver Notes**. Click **Save** if you make changes. Refer to
-   [Create a Change Request](/docs/platgovnetsuite/change_management/creating_change_request.md) for more details about
+   [Create a Change Request](/docs/platgovnetsuite/changemanagement/creating_change_request.md) for more details about
    the status bar.
 
 The violation clears in the employee record after the approved Change Request is saved.

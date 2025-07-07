@@ -1,3 +1,9 @@
+---
+title: "SoD Clean Up"
+description: "SoD Clean Up"
+sidebar_position: 40
+---
+
 # SoD Clean Up
 
 The new **SoD** > **SoD Clean Up** menu accesses the power of Saved Searches to enable easy,

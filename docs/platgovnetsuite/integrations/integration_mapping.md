@@ -1,3 +1,9 @@
+---
+title: "Integration Mapping"
+description: "Integration Mapping"
+sidebar_position: 10
+---
+
 # Integration Mapping
 
 The Integration Mapping tool maps customizations between External Systems and NetSuite.
@@ -51,7 +57,7 @@ Do not change the specified headings. Here is the template:
 ## Step 3: Open Integration Mapping tool
 
 The Mapping Tool menu item is hidden by default. If you do not see the option in your menu, refer to
-the [Managing Menus](/docs/platgovnetsuite/installing_strongpoint/managing_menus.md) topic for information on making it
+the [Managing Menus](/docs/platgovnetsuite/installation/managing_menus.md) topic for information on making it
 available.
 
 Open **Strongpoint** > **Integrations** > **Mapping Tool**
