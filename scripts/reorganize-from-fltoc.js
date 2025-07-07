@@ -53,8 +53,11 @@ function mapFltocLinkToMd(link) {
     return link.replace('/Content/', '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   } else if (link.startsWith('/Content/Access/General/')) {
     return link.replace('/Content/Access/General/', 'general/').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
-  } else if (link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
+  } else if (PRODUCT_KEY && link.startsWith(`/Content/${PRODUCT_KEY}/`)) {
     return link.replace(`/Content/${PRODUCT_KEY}/`, '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
+  } else if (link.startsWith('/Content/')) {
+    // fallback: just remove /Content/
+    return link.replace('/Content/', '').replace(/\.html?$/, '.md').replace(/ /g, '_').toLowerCase();
   }
   return null;
 }

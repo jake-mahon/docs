@@ -1,3 +1,9 @@
+---
+title: "Dependency Relationship Diagram"
+description: "Dependency Relationship Diagram"
+sidebar_position: 10
+---
+
 # Dependency Relationship Diagram
 
 Platform Governance for Salesforce's Dependency Relationship Diagram (DRD) displays objects,

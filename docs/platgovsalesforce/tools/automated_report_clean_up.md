@@ -1,3 +1,9 @@
+---
+title: "Automated Report Clean Up"
+description: "Automated Report Clean Up"
+sidebar_position: 110
+---
+
 # Automated Report Clean Up
 
 Reports are powerful tools used throughout Salesforce and interconnected to other customizations. As

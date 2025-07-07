@@ -1,3 +1,9 @@
+---
+title: "Environment Comparison"
+description: "Environment Comparison"
+sidebar_position: 70
+---
+
 # Environment Comparison
 
 Administrators use this tool to compare environments and generate an Excel report file with the

@@ -1,3 +1,9 @@
+---
+title: "Rollback Logs"
+description: "Rollback Logs"
+sidebar_position: 50
+---
+
 # Rollback Logs
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Rollback Logs**

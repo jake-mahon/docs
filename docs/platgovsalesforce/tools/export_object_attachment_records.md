@@ -1,3 +1,9 @@
+---
+title: "Export Object Attachment Records"
+description: "Export Object Attachment Records"
+sidebar_position: 60
+---
+
 # Export Object Attachment Records
 
 When an [Environment Comparison](/docs/platgovsalesforce/tools/environment_comparison.md) is run, or [Object](/docs/platgovsalesforce/tools/export_objects.md),
