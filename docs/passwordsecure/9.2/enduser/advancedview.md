@@ -1,3 +1,9 @@
+---
+title: "Outlook: Advanced View"
+description: "Outlook: Advanced View"
+sidebar_position: 50
+---
+
 # Outlook: Advanced View
 
 Curious about how you can manage your team in Netwrix Password Secure?
