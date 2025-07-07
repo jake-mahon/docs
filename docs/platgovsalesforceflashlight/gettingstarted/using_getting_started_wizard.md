@@ -1,7 +1,13 @@
+---
+title: "Using the Getting Started Wizard"
+description: "Using the Getting Started Wizard"
+sidebar_position: 20
+---
+
 # Using the Getting Started Wizard
 
 The Getting Started Wizard is available after you have installed the Flashlight
-[app](/docs/platgovsalesforceflashlight/getting_started/installing_flashlight.md).
+[app](/docs/platgovsalesforceflashlight/gettingstarted/installing_flashlight.md).
 
 To use the Getting Started Wizard:
 
@@ -20,4 +26,4 @@ Flashlight for Salesforce examines your org and begins the automated documentati
 process runs in the background. You receive an email notification when it is finished. The length of
 time depends on the size of your org.
 
-**Next Step:** [Using the Dashboard](/docs/platgovsalesforceflashlight/getting_started/dashboard.md)
+**Next Step:** [Using the Dashboard](/docs/platgovsalesforceflashlight/gettingstarted/dashboard.md)

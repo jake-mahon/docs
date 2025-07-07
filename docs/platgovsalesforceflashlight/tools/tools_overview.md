@@ -1,3 +1,9 @@
+---
+title: "Using Flashlight Overview"
+description: "Using Flashlight Overview"
+sidebar_position: 40
+---
+
 # Using Flashlight Overview
 
 There are links to access **Key Tools** on the Flashlight **Home** page.

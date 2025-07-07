@@ -1,3 +1,9 @@
+---
+title: "Welcome"
+description: "Welcome"
+sidebar_position: 10
+---
+
 # Welcome
 
 Flashlight™ by Strongpoint is Salesforce Documentation for Everybody! Easy to install, easy to
@@ -22,7 +28,7 @@ Flashlight provides your organization these key benefits:
 
 #### Move Faster
 
-- Use the Flashlight [Dashboard](/docs/platgovsalesforceflashlight/getting_started/dashboard.md) and the Dependency Relationship
+- Use the Flashlight [Dashboard](/docs/platgovsalesforceflashlight/gettingstarted/dashboard.md) and the Dependency Relationship
   Diagrams to spot problems before they happen and respond to your users more quickly.
 - Now you can make better, faster decisions to drive your business forward.
 

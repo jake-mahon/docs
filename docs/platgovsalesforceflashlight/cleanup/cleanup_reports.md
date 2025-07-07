@@ -1,3 +1,9 @@
+---
+title: "Running Clean Up Reports"
+description: "Running Clean Up Reports"
+sidebar_position: 10
+---
+
 # Running Clean Up Reports
 
 Strongpoint provides predefined reports to help you clean up your Salesforce Instance. The reports

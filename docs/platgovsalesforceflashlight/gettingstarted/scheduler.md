@@ -1,3 +1,9 @@
+---
+title: "Running the Scheduler"
+description: "Running the Scheduler"
+sidebar_position: 60
+---
+
 # Running the Scheduler
 
 Strongpoint's scheduler creates automated scans and documents the Field Usage and date last used

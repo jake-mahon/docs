@@ -1,3 +1,9 @@
+---
+title: "Clean Up Overview"
+description: "Clean Up Overview"
+sidebar_position: 50
+---
+
 # Clean Up Overview
 
 Clean up involves some or all of the following steps:

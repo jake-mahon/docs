@@ -1,3 +1,9 @@
+---
+title: "Date Last Used"
+description: "Date Last Used"
+sidebar_position: 30
+---
+
 # Date Last Used
 
 Date Last Used (DLU) captures changes triggered by users or other customizations. Specifically, the
@@ -169,7 +175,7 @@ DLU is not used for the following metadata Extended Types:
 
 ## DLU Scheduler
 
-The [Scheduler](/docs/platgovsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for
+The [Scheduler](/docs/platgovsalesforceflashlight/gettingstarted/scheduler.md) is where you can add frequency, day and time for
 processes to run. Under **Field Usage and DLU**, you can set up the scheduler to update the last
 used date field on customizations with the date the metadata was last used. It populates information
 for field usage on custom fields and custom objects and catch any permission set assignments related

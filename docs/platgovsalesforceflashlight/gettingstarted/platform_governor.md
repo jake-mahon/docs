@@ -1,3 +1,9 @@
+---
+title: "Viewing the Platform Governor Status"
+description: "Viewing the Platform Governor Status"
+sidebar_position: 50
+---
+
 # Viewing the Platform Governor Status
 
 This is a live status update of the Strongpoint Usage of SFDC Governor Limit. Access it from

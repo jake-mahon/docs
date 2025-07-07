@@ -1,3 +1,9 @@
+---
+title: "Customizations Overview and Reports"
+description: "Customizations Overview and Reports"
+sidebar_position: 70
+---
+
 # Customizations Overview and Reports
 
 Customization records are documentation about each customization. They are automatically built and

@@ -1,3 +1,9 @@
+---
+title: "Understanding the Customization Record"
+description: "Understanding the Customization Record"
+sidebar_position: 80
+---
+
 # Understanding the Customization Record
 
 The customization detail contains general information about the customization record. The
@@ -46,7 +52,7 @@ These are the tabs inside a customization record:
 The metadata tab provides the metadata information about the customization, including:
 
 - **Date Last Used**: date the customization was last used. Refer to
-  [DLU](/docs/platgovsalesforceflashlight/clean_up/date_last_used.md) for more information.
+  [DLU](/docs/platgovsalesforceflashlight/cleanup/date_last_used.md) for more information.
 - **Data type**: data type of the custom field.
 - **Last Modified Date**: last date the customization was modified.
 - **Active**: indicates whether the customization is a active.

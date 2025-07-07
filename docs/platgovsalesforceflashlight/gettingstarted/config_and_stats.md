@@ -1,3 +1,9 @@
+---
+title: "Viewing the Status Report"
+description: "Viewing the Status Report"
+sidebar_position: 40
+---
+
 # Viewing the Status Report
 
 The Configuration and Stats report is a live update on the status and results of the Strongpoint

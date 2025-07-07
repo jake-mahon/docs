@@ -1,3 +1,9 @@
+---
+title: "Using the Dashboard"
+description: "Using the Dashboard"
+sidebar_position: 30
+---
+
 # Using the Dashboard
 
 Flashlight comes with a comprehensive dashboard with everything to manage your org at your
@@ -48,4 +54,4 @@ Links to useful Flashlight tools to give you more value out of your documentatio
 A shortcut to open the DRD for the entered **Name** or **API Name**.  
 ![Shortcut to the DRD tool](/img/product_docs/platgovsalesforceflashlight/getting_started/dashboard_drd_gen.webp)
 
-**Next Step:**[ Viewing the Status Report](/docs/platgovsalesforceflashlight/getting_started/config_and_stats.md)
+**Next Step:**[ Viewing the Status Report](/docs/platgovsalesforceflashlight/gettingstarted/config_and_stats.md)

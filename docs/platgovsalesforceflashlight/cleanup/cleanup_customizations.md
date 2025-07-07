@@ -1,3 +1,9 @@
+---
+title: "Cleaning Up Customizations"
+description: "Cleaning Up Customizations"
+sidebar_position: 20
+---
+
 # Cleaning Up Customizations
 
 Use these processes to Clean up Individual Customization or Clean Up Multiple Customizations.

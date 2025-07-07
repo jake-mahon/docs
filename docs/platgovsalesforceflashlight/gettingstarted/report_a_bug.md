@@ -1,3 +1,9 @@
+---
+title: "Report a Bug"
+description: "Report a Bug"
+sidebar_position: 100
+---
+
 # Report a Bug
 
 If you encounter any problems using Flashlight or you have suggested improvements, we would love to

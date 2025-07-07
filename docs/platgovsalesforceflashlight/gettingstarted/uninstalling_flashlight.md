@@ -1,3 +1,9 @@
+---
+title: "Uninstalling Flashlight"
+description: "Uninstalling Flashlight"
+sidebar_position: 90
+---
+
 # Uninstalling Flashlight
 
 Here is how to uninstall the Flashlight app from your org:
