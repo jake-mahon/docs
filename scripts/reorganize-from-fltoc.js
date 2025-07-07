@@ -414,7 +414,7 @@ function updateAllLinks(docsPath, fileMoves) {
 }
 
 function limitFolderName(name) {
-  return name.slice(0, 20);
+  return name.slice(0, 40);
 }
 
 function main() {
