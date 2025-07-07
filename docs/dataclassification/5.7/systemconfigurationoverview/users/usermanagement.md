@@ -119,7 +119,7 @@ The Permissions window lets you restruct permissions for a user.
 You can restrict permissions for a user to the following areas:
 
 - Sources. See [Content Sources](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/introduction.md) for additional information.
-- Taxonomies. See [Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/introduction_1.md) for additional information.
+- Taxonomies. See [Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/introduction_1.md) for additional information.
 - Workflows. See [Understanding Workflows](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/overview.md) for additional
   information.
 - Configuration options. See [Configuration Options](/docs/dataclassification/5.7/systemconfigurationoverview/configuration/configuration.md) for
