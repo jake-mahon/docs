@@ -16,8 +16,8 @@ master node for the Elasticsearch Service cluster configured on the Directory Ma
 To configure a Directory Manager server with existing database:
 
 Step 1 – On the Select to create new server or use existing server page of the Configuration Tool,
-select [Configure a New Directory Manager Server with a New or an Existing Database](/docs/directorymanager/11.1/about/configure/gidserver.md)
-option. See Step 3 on the [Configuration Tool](/docs/directorymanager/11.1/about/configure/configure.md) topic.
+select [Configure a New Directory Manager Server with a New or an Existing Database](/docs/directorymanager/11.1/install/configure/gidserver.md)
+option. See Step 3 on the [Configuration Tool](/docs/directorymanager/11.1/install/configure/configure.md) topic.
 
 Step 2 – Click **Next**.
 
@@ -33,10 +33,10 @@ Step 4 – In the Authentication list, select an authentication mode to be used 
 SQL Server database. Modes are:
 
 - SQL Server Authentication - To set SQL Server to work with Directory Manager using an SQL Server
-  account. See the [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic for
+  account. See the [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic for
   additional information.
 - Windows Authentication - To set SQL Server to work with Directory Manager using a Windows user
-  account. See the [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic for
+  account. See the [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic for
   additional details.
 
 Step 5 – Depending on the authentication mode selected, do the following:
@@ -186,7 +186,7 @@ Step 17 – Click **Configure**.
 Step 18 – The next page displays the progress while a Directory Manager server is configured on the
 machine. While configuring the machine, the Configuration Tool checks the application’s signing key
 status and update it according to your Directory Manager environment. See the
-[Update Signing Key](/docs/directorymanager/11.1/about/configure/signingkeyinfo.md) topic for information how Configuration Tool will update
+[Update Signing Key](/docs/directorymanager/11.1/install/configure/signingkeyinfo.md) topic for information how Configuration Tool will update
 Directory Manager's Signing Key.
 
 Step 19 – This completes the configuration of Directory Manager as a slave node on your machine.  

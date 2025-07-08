@@ -46,5 +46,5 @@ or
 Click **Close** on the title bar to close the Directory ManagerInstaller and configure Directory
 Managerlater.
 
-See the [Configuration Tool](/docs/directorymanager/11.1/about/configure/configure.md) topic for additional information on
+See the [Configuration Tool](/docs/directorymanager/11.1/install/configure/configure.md) topic for additional information on
 configuring Directory Manager.

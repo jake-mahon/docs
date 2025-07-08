@@ -23,7 +23,7 @@ Use any of the following methods to connect and sign in:
     NOTE: To sign in using the Directory Manager provider, enter the username and password you
     provided for the _GroupID administrator_ on the Service Account Settings page of the
     Configuration Tool. See the
-    [Configure a New Directory Manager Server with a New or an Existing Database](/docs/directorymanager/11.1/about/configure/gidserver.md)
+    [Configure a New Directory Manager Server with a New or an Existing Database](/docs/directorymanager/11.1/install/configure/gidserver.md)
     topic.
 
 - Select an identity store and sign in using a SAML provider. This option is available if a SAML

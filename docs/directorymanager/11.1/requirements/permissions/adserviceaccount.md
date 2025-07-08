@@ -148,10 +148,10 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic for information about the roles and
+See the [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic for information about the roles and
 permissions the SQL server and database accounts must have for
-[SQL Server Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#sql-server-authentication) mode and for
-[Windows Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#windows-authentication) mode.
+[SQL Server Authentication](/docs/directorymanager/11.1/install/configure/setupauthentication.md#sql-server-authentication) mode and for
+[Windows Authentication](/docs/directorymanager/11.1/install/configure/setupauthentication.md#windows-authentication) mode.
 
 **See Also**
 

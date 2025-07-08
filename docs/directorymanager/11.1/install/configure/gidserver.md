@@ -28,10 +28,10 @@ SQL Server database. Modes are:
 
 - SQL Server Authentication - To set SQL Server to work with Directory Managerusing an SQL Server
   account. See SQL Authentication in
-  [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic.
+  [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic.
 - Windows Authentication - To set SQL Server to work with Directory Managerusing a Windows user
   account. See Windows Authentication in in
-  [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic.
+  [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic.
 
 Step 4 – Depending on the authentication mode selected, do the following:
 
@@ -193,7 +193,7 @@ configured on the machine.
 
 While configuring the machine, the Configuration Tool checks the application’s signing key status
 and update it according to your Directory Manager environment. See the
-[Update Signing Key](/docs/directorymanager/11.1/about/configure/signingkeyinfo.md) topic for information how Configuration Tool will update
+[Update Signing Key](/docs/directorymanager/11.1/install/configure/signingkeyinfo.md) topic for information how Configuration Tool will update
 Directory Manager's Signing Key.
 
 On successful configuration, the Directory Manager is successfully configured page is displayed and
