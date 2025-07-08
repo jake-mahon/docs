@@ -1,3 +1,9 @@
+---
+title: "Resource"
+description: "Resource"
+sidebar_position: 10
+---
+
 # Resource
 
 The `<Resource>` element also allows the definition of a resource entity directly from within the

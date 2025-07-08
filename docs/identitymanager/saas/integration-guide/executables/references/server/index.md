@@ -1,3 +1,9 @@
+---
+title: "Usercube-Server"
+description: "Usercube-Server"
+sidebar_position: 350
+---
+
 # Usercube-Server
 
 This tool runs the main Identity Manager Server.

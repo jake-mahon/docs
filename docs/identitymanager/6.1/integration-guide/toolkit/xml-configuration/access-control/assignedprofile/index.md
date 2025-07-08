@@ -1,3 +1,9 @@
+---
+title: "AssignedProfile"
+description: "AssignedProfile"
+sidebar_position: 40
+---
+
 # AssignedProfile
 
 An assigned profile allows or denies to a user a scope of responsibility in Usercube.

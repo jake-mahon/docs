@@ -1,3 +1,9 @@
+---
+title: "Proxy Server"
+description: "Proxy Server"
+sidebar_position: 30
+---
+
 # Proxy Server
 
 Identity Manager server or agent can be configured to go through a proxy server to access internal

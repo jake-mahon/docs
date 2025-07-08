@@ -1,3 +1,9 @@
+---
+title: "Usercube-PasswordGenerator"
+description: "Usercube-PasswordGenerator"
+sidebar_position: 280
+---
+
 # Usercube-PasswordGenerator
 
 ## Example

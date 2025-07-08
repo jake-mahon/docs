@@ -1,3 +1,9 @@
+---
+title: "SharePointResourceTypeMapping"
+description: "SharePointResourceTypeMapping"
+sidebar_position: 90
+---
+
 # SharePointResourceTypeMapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

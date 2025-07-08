@@ -1,3 +1,9 @@
+---
+title: "Bindings"
+description: "Bindings"
+sidebar_position: 30
+---
+
 # Bindings
 
 Some configuration's XML attribute must respect the Usercube's binding syntax. This syntax allow to

@@ -1,3 +1,9 @@
+---
+title: "Customize a Native Notification"
+description: "Customize a Native Notification"
+sidebar_position: 70
+---
+
 # Customize a Native Notification
 
 This guide shows how to set a template other than the default one for native notifications.

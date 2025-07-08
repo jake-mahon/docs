@@ -1,3 +1,9 @@
+---
+title: "ProfileRuleContext"
+description: "ProfileRuleContext"
+sidebar_position: 80
+---
+
 # ProfileRuleContext
 
 Defines the context in which the rule will be evaluated.

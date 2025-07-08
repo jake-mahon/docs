@@ -1,3 +1,9 @@
+---
+title: "appsettings.connection"
+description: "appsettings.connection"
+sidebar_position: 10
+---
+
 # appsettings.connection
 
 ## Define configuration through UI

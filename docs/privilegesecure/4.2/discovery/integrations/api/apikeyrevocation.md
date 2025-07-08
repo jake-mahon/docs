@@ -1,3 +1,9 @@
+---
+title: "API Key Revocation"
+description: "API Key Revocation"
+sidebar_position: 50
+---
+
 # API Key Revocation
 
 API Key Revocation

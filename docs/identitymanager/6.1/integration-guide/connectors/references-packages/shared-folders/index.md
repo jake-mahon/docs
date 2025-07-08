@@ -1,3 +1,9 @@
+---
+title: "Shared Folders"
+description: "Shared Folders"
+sidebar_position: 410
+---
+
 # Shared Folders
 
 Manages users and permissions in Shared Folders.

@@ -1,3 +1,9 @@
+---
+title: "Save Pre-Existing Access Rights Task"
+description: "Save Pre-Existing Access Rights Task"
+sidebar_position: 150
+---
+
 # Save Pre-Existing Access Rights Task
 
 During an initial installation of Identity Manager, data normally provided by Identity Manager or

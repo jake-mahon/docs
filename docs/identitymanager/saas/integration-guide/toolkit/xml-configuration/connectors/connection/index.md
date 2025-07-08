@@ -1,3 +1,9 @@
+---
+title: "Connection"
+description: "Connection"
+sidebar_position: 20
+---
+
 # Connection
 
 A connection represents a link between a [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection

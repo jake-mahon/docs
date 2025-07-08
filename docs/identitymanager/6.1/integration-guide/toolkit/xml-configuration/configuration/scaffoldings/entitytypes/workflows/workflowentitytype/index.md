@@ -1,3 +1,9 @@
+---
+title: "WorkflowEntityType"
+description: "WorkflowEntityType"
+sidebar_position: 60
+---
+
 # WorkflowEntityType
 
 Creates an entity that will be the source of all workflows that manipulate the given entity. Also

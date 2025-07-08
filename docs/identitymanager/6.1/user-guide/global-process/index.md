@@ -1,3 +1,9 @@
+---
+title: "Global Process"
+description: "Global Process"
+sidebar_position: 10
+---
+
 # Global Process
 
 How do the process activities success each other.

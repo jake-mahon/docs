@@ -1,3 +1,9 @@
+---
+title: "SCIM"
+description: "SCIM"
+sidebar_position: 250
+---
+
 # SCIM
 
 This connector exports and fulfills entities from/to a

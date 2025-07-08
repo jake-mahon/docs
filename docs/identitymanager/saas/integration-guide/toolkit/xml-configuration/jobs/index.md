@@ -1,3 +1,9 @@
+---
+title: "Jobs"
+description: "Jobs"
+sidebar_position: 50
+---
+
 # Jobs
 
 A job is defined via the `Job` tag to orchestrate tasks together, in order to perform specific

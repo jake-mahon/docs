@@ -1,3 +1,9 @@
+---
+title: "Correlate Resources"
+description: "Correlate Resources"
+sidebar_position: 20
+---
+
 # Correlate Resources
 
 How to define the

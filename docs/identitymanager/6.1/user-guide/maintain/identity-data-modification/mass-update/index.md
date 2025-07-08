@@ -1,3 +1,9 @@
+---
+title: "Update Identities in Bulk"
+description: "Update Identities in Bulk"
+sidebar_position: 30
+---
+
 # Update Identities in Bulk
 
 How to perform a mass change in identity data, by uploading an incremental version of the identity

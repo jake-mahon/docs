@@ -1,3 +1,9 @@
+---
+title: "List Segments Field Cannot be Edited"
+description: "List Segments Field Cannot be Edited"
+sidebar_position: 10
+---
+
 # List Segments Field Cannot be Edited
 
 When setting the Number of Rows in List segments, sometimes the field cannot be edited.

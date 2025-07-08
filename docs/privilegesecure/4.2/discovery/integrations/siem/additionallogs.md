@@ -1,3 +1,9 @@
+---
+title: "Additional Logs"
+description: "Additional Logs"
+sidebar_position: 50
+---
+
 # Additional Logs
 
 Additional Logs

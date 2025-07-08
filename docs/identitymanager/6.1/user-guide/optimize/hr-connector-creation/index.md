@@ -1,3 +1,9 @@
+---
+title: "Create an HR Connector"
+description: "Create an HR Connector"
+sidebar_position: 20
+---
+
 # Create an HR Connector
 
 How to create a

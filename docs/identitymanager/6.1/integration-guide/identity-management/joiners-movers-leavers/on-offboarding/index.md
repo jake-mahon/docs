@@ -1,3 +1,9 @@
+---
+title: "Onboarding and Offboarding"
+description: "Onboarding and Offboarding"
+sidebar_position: 10
+---
+
 # Onboarding and Offboarding
 
 In Usercube, onboarding and offboarding are done through workflows or through synchronization to the

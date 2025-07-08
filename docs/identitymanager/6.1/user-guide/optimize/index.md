@@ -1,3 +1,9 @@
+---
+title: "Optimize"
+description: "Optimize"
+sidebar_position: 40
+---
+
 # Optimize
 
 - #### [Modify the Identity Data Model](/docs/identitymanager/6.1/user-guide/optimize/identity-datamodel-modification/index.md)

@@ -1,3 +1,9 @@
+---
+title: "Adjust Scaffolded Configuration"
+description: "Adjust Scaffolded Configuration"
+sidebar_position: 110
+---
+
 # Adjust Scaffolded Configuration
 
 This guide shows how to adjust the XML configuration elements created by scaffoldings.

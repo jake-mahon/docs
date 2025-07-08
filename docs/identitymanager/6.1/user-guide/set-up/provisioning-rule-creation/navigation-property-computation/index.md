@@ -1,3 +1,9 @@
+---
+title: "Compute a Navigation Property"
+description: "Compute a Navigation Property"
+sidebar_position: 30
+---
+
 # Compute a Navigation Property
 
 How to define

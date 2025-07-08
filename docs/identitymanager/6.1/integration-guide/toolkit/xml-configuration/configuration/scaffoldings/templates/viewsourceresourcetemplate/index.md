@@ -1,3 +1,9 @@
+---
+title: "ViewSourceResourceTemplate"
+description: "ViewSourceResourceTemplate"
+sidebar_position: 90
+---
+
 # ViewSourceResourceTemplate
 
 Creates the display table, fills in the internal display name of the entity, and gives the rights to

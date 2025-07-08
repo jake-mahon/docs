@@ -1,3 +1,9 @@
+---
+title: "Understanding the Customization Record"
+description: "Understanding the Customization Record"
+sidebar_position: 10
+---
+
 # Understanding the Customization Record
 
 This topic discusses the new Platform Governance for Salesforce Lightning customization record. It
@@ -65,7 +71,7 @@ The **Custom** tab shows the join, scanner and DLU dates.
 - **Last Scanner Date**: last date in which the scanner ran and evaluated the current customization.
 - **Make Join Date**: date customization was last passed to Make Join script.
 - **Date Last Used**: date the customization was last used. Refer to
-  [DLU](/docs/platgovsalesforce/clean_up/date_last_used.md) for more information.
+  [DLU](/docs/platgovsalesforce/cleanup/date_last_used.md) for more information.
 
 ### DRD
 

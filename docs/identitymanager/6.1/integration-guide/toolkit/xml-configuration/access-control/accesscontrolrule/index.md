@@ -1,3 +1,9 @@
+---
+title: "AccessControlRule"
+description: "AccessControlRule"
+sidebar_position: 30
+---
+
 # AccessControlRule
 
 An access control rule gives to a profile a set of permissions on a data set represented by an

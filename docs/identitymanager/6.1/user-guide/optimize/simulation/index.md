@@ -1,3 +1,9 @@
+---
+title: "Perform a Simulation"
+description: "Perform a Simulation"
+sidebar_position: 90
+---
+
 # Perform a Simulation
 
 How to assess the impact of a modification on the role model, including the

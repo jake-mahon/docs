@@ -1,3 +1,9 @@
+---
+title: "RoleNamingAccessControlRules"
+description: "RoleNamingAccessControlRules"
+sidebar_position: 150
+---
+
 # RoleNamingAccessControlRules
 
 Generates the permissions to configure and launch the automatic creation of roles and rules based on

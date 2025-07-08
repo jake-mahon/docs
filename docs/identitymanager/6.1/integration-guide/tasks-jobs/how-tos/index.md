@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 30
+---
+
 # How-Tos
 
 These guides will help you configure tasks and jobs with practical step-by-step procedures.

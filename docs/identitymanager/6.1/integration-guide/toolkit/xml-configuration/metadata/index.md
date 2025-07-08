@@ -1,3 +1,9 @@
+---
+title: "Metadata"
+description: "Metadata"
+sidebar_position: 60
+---
+
 # Metadata
 
 - #### [AccessControlEntityType](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/accesscontrolentitytype/index.md)

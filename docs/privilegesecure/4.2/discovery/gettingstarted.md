@@ -1,3 +1,9 @@
+---
+title: "Getting Started"
+description: "Getting Started"
+sidebar_position: 5
+---
+
 # Getting Started
 
 Getting Started
@@ -55,7 +61,7 @@ Configuration). This is domain specific and is opened by clicking the > sign nex
 
 - The scan mode account should then be used to rollout a GPO change to ensure all Windows machines
   are able to be scanned. The details on how to make this GPO change are detailed in this article:
-  [Scan GPO Guide (Server 2012 or 2008 Domain Controllers)](/docs/privilegesecure/4.2/discovery/scangposerver2012or2008dcs.md)
+  [Scan GPO Guide (Server 2012 or 2008 Domain Controllers)](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/scangposerver2012or2008dcs.md)
 - Set the domain to be scanned
 
 Once these are set the domain can be scanned.
@@ -65,13 +71,13 @@ Groups, OUs, Users, etc. A load balanced connection will cause group updates to 
 correctly.
 
 The dashboard can now be reviewed. An explanation of the dashboard is available in this article:
-[Dashboard Guide](/docs/privilegesecure/4.2/discovery/admin/reporting/dashboardguide.md)
+[Dashboard Guide](/docs/privilegesecure/4.2/discovery/administration/reporting/dashboardguide.md)
 
 ## Adding Users To Privilege Secure
 
 Privilege Secure utilizes two levels of user accounts, User and Administrator. These are explained
 in the article below:
-[Add a User or Group to a Systems' Administrator Account Inventory](/docs/privilegesecure/4.2/discovery/admin/systemmanagement/adduserorgroup.md)  
+[Add a User or Group to a Systems' Administrator Account Inventory](/docs/privilegesecure/4.2/discovery/administration/systemmanagement/adduserorgroup.md)  
 Before
 protect mode is rolled out users that would require privileged access should be added to Privilege
 Secure. This is typically done by means of an AD group. The Config/Users and Groups page is used to
@@ -126,7 +132,7 @@ detail toPrivilege Secure for multiple systems in one go.
 ## Install Python Version 2.7
 
 Follow the following article to install Python:
-[Linux Registrations Prerequisites](/docs/privilegesecure/4.2/discovery/linuxregistrationsprerequisites.md)
+[Linux Registrations Prerequisites](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/linuxregistrationsprerequisites.md)
 
 ## Download Privilege Secure Reporting Tools (Quickstart)
 
@@ -135,7 +141,7 @@ way of understanding the full access across the organization by system and also 
 of making changes to Privilege Secure in bulk.
 
 - Download the script zip file from:
-  [QuickStart Script](/docs/privilegesecure/4.2/discovery/admin/configuration/quickstartscript.md)
+  [QuickStart Script](/docs/privilegesecure/4.2/discovery/administration/configuration/quickstartscript.md)
 - Run `pip install -r requirements.txt` with the path to the requirements.txt file that comes with
   the latest quickstart script. This requires Python 2.7 and PIP to be installed (PIP is installed
   by default with Python).
@@ -149,7 +155,7 @@ Install and configure Postman in preparation for running the Quickstart process.
 for updating and enrolling multiple machines into Privilege Secure. Part of the initial
 configuration of this requires Postman. Postman is a tool for running APIs within Privilege Secure.
 
-- [Postman: Installing and Configuring ](/docs/privilegesecure/4.2/discovery/postman_-_installing_and_configuring_.md)
+- [Postman: Installing and Configuring ](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/postman_-_installing_and_configuring_.md)
 
 ## Running Quickstart
 
@@ -174,8 +180,8 @@ More information for running Quickstart is available from the following articles
 
 How To: Offline Access Management (OAM) - Extended:
 
-- [Offline Access Management (OAM) - Extended](/docs/privilegesecure/4.2/discovery/admin/systemmanagement/oamextended.md)
+- [Offline Access Management (OAM) - Extended](/docs/privilegesecure/4.2/discovery/administration/systemmanagement/oamextended.md)
 
 How To: QuickStart - Offline Access Management and Registering Linux Computers
 
-- [QuickStart Advanced Fields](/docs/privilegesecure/4.2/discovery/admin/configuration/advancedfields.md)
+- [QuickStart Advanced Fields](/docs/privilegesecure/4.2/discovery/administration/configuration/advancedfields.md)

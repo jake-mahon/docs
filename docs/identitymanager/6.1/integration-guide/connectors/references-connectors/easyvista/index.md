@@ -1,3 +1,9 @@
+---
+title: "EasyVista"
+description: "EasyVista"
+sidebar_position: 50
+---
+
 # EasyVista
 
 This connector exports and fulfills users from/to an

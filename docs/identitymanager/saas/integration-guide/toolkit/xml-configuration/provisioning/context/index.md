@@ -1,3 +1,9 @@
+---
+title: "Context"
+description: "Context"
+sidebar_position: 50
+---
+
 # Context
 
 A context is the result of the combination of all identity-related entities, for example personal

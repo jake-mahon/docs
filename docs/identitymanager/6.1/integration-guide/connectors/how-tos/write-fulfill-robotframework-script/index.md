@@ -1,3 +1,9 @@
+---
+title: "Write a Robot Framework Script"
+description: "Write a Robot Framework Script"
+sidebar_position: 100
+---
+
 # Write a Robot Framework Script
 
 This guide shows how to write a Robot Framework script that will be used by

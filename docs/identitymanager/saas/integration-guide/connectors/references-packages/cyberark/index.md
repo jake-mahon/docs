@@ -1,3 +1,9 @@
+---
+title: "CyberArk"
+description: "CyberArk"
+sidebar_position: 60
+---
+
 # CyberArk
 
 Manages CyberArk entities, including user and group assignments.

@@ -1,3 +1,9 @@
+---
+title: "Risk"
+description: "Risk"
+sidebar_position: 140
+---
+
 # Risk
 
 A risk defines a security threat triggered by the assignment of one or more entitlements to an

@@ -1,3 +1,9 @@
+---
+title: "References: Logs"
+description: "References: Logs"
+sidebar_position: 20
+---
+
 # References: Logs
 
 ## Definition

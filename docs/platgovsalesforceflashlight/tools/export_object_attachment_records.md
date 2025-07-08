@@ -1,3 +1,9 @@
+---
+title: "Export Object Attachment Records"
+description: "Export Object Attachment Records"
+sidebar_position: 70
+---
+
 # Export Object Attachment Records
 
 When [Object](/docs/platgovsalesforceflashlight/tools/export_objects.md), [Profile and Permission Set](/docs/platgovsalesforceflashlight/tools/export_profiles.md) or

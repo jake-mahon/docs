@@ -1,3 +1,9 @@
+---
+title: "Request Usercube's API via Postman"
+description: "Request Usercube's API via Postman"
+sidebar_position: 10
+---
+
 # Request Usercube's API via Postman
 
 This guide shows how to configure Postman to be able to request Usercube's API.

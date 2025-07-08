@@ -1,3 +1,9 @@
+---
+title: "EntityTypeMenuItem"
+description: "EntityTypeMenuItem"
+sidebar_position: 60
+---
+
 # EntityTypeMenuItem
 
 Creates a menu item for the entity type, and for its connector if the entity type has an entity type

@@ -1,3 +1,9 @@
+---
+title: "Assigned Profile"
+description: "Assigned Profile"
+sidebar_position: 40
+---
+
 # Assigned Profile
 
 An assigned profile allows or denies to a user a scope of responsibility in Identity Manager.

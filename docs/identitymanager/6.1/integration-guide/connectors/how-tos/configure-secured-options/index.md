@@ -1,3 +1,9 @@
+---
+title: "Configure Secured Options"
+description: "Configure Secured Options"
+sidebar_position: 10
+---
+
 # Configure Secured Options
 
 This guide shows how to configure secured options to ensure data security in a connection's

@@ -1,3 +1,9 @@
+---
+title: "Robot Framework"
+description: "Robot Framework"
+sidebar_position: 310
+---
+
 # Robot Framework
 
 Fulfills an external system using a Robot Framework script.

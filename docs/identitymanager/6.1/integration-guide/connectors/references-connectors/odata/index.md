@@ -1,3 +1,9 @@
+---
+title: "OData"
+description: "OData"
+sidebar_position: 160
+---
+
 # OData
 
 This connector exports and fulfills data from/to an [OData](https://www.odata.org/) instance.

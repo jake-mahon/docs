@@ -1,3 +1,9 @@
+---
+title: "Manual Ticket and CUD Resources"
+description: "Manual Ticket and CUD Resources"
+sidebar_position: 180
+---
+
 # Manual Ticket and CUD Resources
 
 Opens manual provisioning tickets in Identity Manager.

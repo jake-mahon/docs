@@ -1,3 +1,9 @@
+---
+title: "OpenId Client Administration Access Control Rules"
+description: "OpenId Client Administration Access Control Rules"
+sidebar_position: 20
+---
+
 # OpenId Client Administration Access Control Rules
 
 ## Properties

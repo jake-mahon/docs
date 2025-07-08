@@ -1,3 +1,9 @@
+---
+title: "Scaffoldings"
+description: "Scaffoldings"
+sidebar_position: 10
+---
+
 # Scaffoldings
 
 Usercube provides a list of scaffoldings to act as configuration shortcuts: a scaffolding is an XML

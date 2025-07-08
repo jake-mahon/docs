@@ -1,3 +1,9 @@
+---
+title: "Connectors"
+description: "Connectors"
+sidebar_position: 40
+---
+
 # Connectors
 
 [Connectors](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)

@@ -1,3 +1,9 @@
+---
+title: "AccessControl"
+description: "AccessControl"
+sidebar_position: 20
+---
+
 # AccessControl
 
 ### /api/AccessControl/AccessControlEntry

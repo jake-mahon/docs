@@ -1,3 +1,9 @@
+---
+title: "For Resource Creation (Mono Record)"
+description: "For Resource Creation (Mono Record)"
+sidebar_position: 10
+---
+
 # For Resource Creation (Mono Record)
 
 This section guides you through the procedure for the creation of a workflow to create a new

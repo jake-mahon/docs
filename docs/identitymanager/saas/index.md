@@ -1,3 +1,9 @@
+---
+title: "A software solution to match your IGA needs"
+description: "A software solution to match your IGA needs"
+sidebar_position: 10
+---
+
 # A software solution to match your IGA needs
 
 To learn about Netwrix Identity Manager (formerly Usercube) and build the solution you need, explore

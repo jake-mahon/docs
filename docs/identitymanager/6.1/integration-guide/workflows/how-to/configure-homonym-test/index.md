@@ -1,3 +1,9 @@
+---
+title: "Configure a Homonym Detection"
+description: "Configure a Homonym Detection"
+sidebar_position: 60
+---
+
 # Configure a Homonym Detection
 
 In this section we configure the homonym search that checks if a resource already exists in the

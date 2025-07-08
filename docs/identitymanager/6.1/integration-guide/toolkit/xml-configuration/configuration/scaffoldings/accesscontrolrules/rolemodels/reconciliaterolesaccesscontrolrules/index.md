@@ -1,3 +1,9 @@
+---
+title: "ReconciliateRolesAccessControlRules"
+description: "ReconciliateRolesAccessControlRules"
+sidebar_position: 90
+---
+
 # ReconciliateRolesAccessControlRules
 
 Generates the rights to access the access reconcile roles pages for a given entity type and profile.

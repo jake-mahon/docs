@@ -1,3 +1,9 @@
+---
+title: "FAQ"
+description: "FAQ"
+sidebar_position: 130
+---
+
 # FAQ
 
 Platform Governance for Salesforce is a stress-free change management and compliance software for

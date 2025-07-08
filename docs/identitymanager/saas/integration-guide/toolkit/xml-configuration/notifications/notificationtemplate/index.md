@@ -1,3 +1,9 @@
+---
+title: "Notification Template"
+description: "Notification Template"
+sidebar_position: 30
+---
+
 # Notification Template
 
 A notification template is used to overwrite the subject and/or body of a native notification with

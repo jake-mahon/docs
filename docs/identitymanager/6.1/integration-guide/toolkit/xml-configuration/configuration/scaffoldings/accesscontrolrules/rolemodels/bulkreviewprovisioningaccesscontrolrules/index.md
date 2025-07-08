@@ -1,3 +1,9 @@
+---
+title: "BulkReviewProvisioningAccessControlRules"
+description: "BulkReviewProvisioningAccessControlRules"
+sidebar_position: 40
+---
+
 # BulkReviewProvisioningAccessControlRules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous

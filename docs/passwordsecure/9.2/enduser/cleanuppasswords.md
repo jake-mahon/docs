@@ -1,3 +1,9 @@
+---
+title: "Clean up Your Passwords"
+description: "Clean up Your Passwords"
+sidebar_position: 20
+---
+
 # Clean up Your Passwords
 
 For a clean relocation of passwords, it is important to clean up all your passwords beforehand. This

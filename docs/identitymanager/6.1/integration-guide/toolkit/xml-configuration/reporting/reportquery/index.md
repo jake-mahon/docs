@@ -1,3 +1,9 @@
+---
+title: "ReportQuery"
+description: "ReportQuery"
+sidebar_position: 10
+---
+
 # ReportQuery
 
 Allows the user to define queries to generate a report in a CSV file. When creating a new

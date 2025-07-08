@@ -1,3 +1,9 @@
+---
+title: "InvokeAspectsTask"
+description: "InvokeAspectsTask"
+sidebar_position: 60
+---
+
 # InvokeAspectsTask
 
 Call specific api in Usercube.

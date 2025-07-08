@@ -1,8 +1,14 @@
+---
+title: "Users Dashboard"
+description: "Users Dashboard"
+sidebar_position: 50
+---
+
 # Users Dashboard
 
 The Users dashboard shows session information for onboarded users and groups. Onboarded users and
 can log into the application to manage policies or run sessions. The Users dashboard displays the
-same information as the [Users & Groups Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/usersgroups.md).
+same information as the [Users & Groups Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/usersgroups/usersgroups.md).
 
 ![Users Dashboard Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/usersdashboard.webp)
 
@@ -12,10 +18,10 @@ The Users table has the following features:
   table or list is filtered to the matching results.
 - Filter — Provides options to filter results based on a chosen criterion: User or Groups
 - Add User — Opens the Add Users and Groups window. See the
-  [Add Users & Groups Window](/docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md) topic for
+  [Add Users & Groups Window](/docs/privilegesecure/4.2/accessmanagement/admin/interface/usersgroups/add/addusersandgroups.md) topic for
   additional information.
 - Add Application — Opens the Add Application page. See the
-  [Add Application](/docs/privilegesecure/4.2/accessmanagement/admin/policy/add/application.md) topic for additional information.
+  [Add Application](/docs/privilegesecure/4.2/accessmanagement/admin/interface/usersgroups/add/application.md) topic for additional information.
 - Remove — Removes console access from the selected account
 - Refresh — Reload the information displayed
 
@@ -24,7 +30,7 @@ The table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/usersgroups/usergroupapplication/usergroupapplication.md) topic
   for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account

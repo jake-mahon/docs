@@ -1,3 +1,9 @@
+---
+title: "Invoke Sql Command Task"
+description: "Invoke Sql Command Task"
+sidebar_position: 100
+---
+
 # Invoke Sql Command Task
 
 Takes as input an SQL file or an SQL command to output several CSV files that can be used by the

@@ -1,3 +1,9 @@
+---
+title: "Workflow Uses"
+description: "Workflow Uses"
+sidebar_position: 30
+---
+
 # Workflow Uses
 
 An Identity Manager [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is the

@@ -1,3 +1,9 @@
+---
+title: "Queries"
+description: "Queries"
+sidebar_position: 70
+---
+
 # Queries
 
 - [ Target Resource Report ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/targetresourcereport/index.md)

@@ -1,3 +1,9 @@
+---
+title: "CyberArk's AAM Credential Providers"
+description: "CyberArk's AAM Credential Providers"
+sidebar_position: 50
+---
+
 # CyberArk's AAM Credential Providers
 
 This guide shows how to protect sensitive data by connecting Usercube to CyberArk's Application

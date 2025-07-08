@@ -1,3 +1,9 @@
+---
+title: "ViewHistoryResourceTemplate"
+description: "ViewHistoryResourceTemplate"
+sidebar_position: 50
+---
+
 # ViewHistoryResourceTemplate
 
 Generates an access control rule giving to the specified profile the permission to browse the

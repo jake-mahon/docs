@@ -1,3 +1,9 @@
+---
+title: "Usercube-Protect-X509JsonFile"
+description: "Usercube-Protect-X509JsonFile"
+sidebar_position: 310
+---
+
 # Usercube-Protect-X509JsonFile
 
 This tool is used to encrypt a JSON file containing sensitive connection data, for example the

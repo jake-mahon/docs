@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 Netwrix Privilege Secure enables administrators and helpdesk professionals to perform their

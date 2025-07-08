@@ -1,3 +1,9 @@
+---
+title: "WorkflowUpdateRecordEntityForm"
+description: "WorkflowUpdateRecordEntityForm"
+sidebar_position: 80
+---
+
 # WorkflowUpdateRecordEntityForm
 
 Displays a form to select an existing record and update it.

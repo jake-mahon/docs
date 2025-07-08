@@ -1,3 +1,9 @@
+---
+title: "OData"
+description: "OData"
+sidebar_position: 220
+---
+
 # OData
 
 Manages OData entities.

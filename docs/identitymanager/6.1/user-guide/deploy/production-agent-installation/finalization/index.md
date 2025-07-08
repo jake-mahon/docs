@@ -1,3 +1,9 @@
+---
+title: "Finalize the Installation"
+description: "Finalize the Installation"
+sidebar_position: 50
+---
+
 # Finalize the Installation
 
 This guide shows how finalize the installation of the agent.

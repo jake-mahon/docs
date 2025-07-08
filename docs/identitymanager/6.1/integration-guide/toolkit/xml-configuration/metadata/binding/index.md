@@ -1,3 +1,9 @@
+---
+title: "Binding"
+description: "Binding"
+sidebar_position: 20
+---
+
 # Binding
 
 Usercube metadata provides a simple and consistent way to present and interact with metadata. A

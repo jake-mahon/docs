@@ -1,6 +1,10 @@
-# Migration Guide
+---
+title: "5.1.7 to 5.2.3"
+description: "5.1.7 to 5.2.3"
+sidebar_position: 20
+---
 
-### Migrating from 5.1.7 to 5.2.3
+# Migrating from 5.1.7 to 5.2.3
 
 **IMPORTANT: BEFORE YOU BEGIN, PLEASE NOTE**:  
 The file paths in the appsettings.agent.json file must correspond with the file paths that are in

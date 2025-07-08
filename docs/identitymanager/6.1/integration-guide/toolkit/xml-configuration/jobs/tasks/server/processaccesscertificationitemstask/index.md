@@ -1,3 +1,9 @@
+---
+title: "ProcessAccessCertificationItemsTask"
+description: "ProcessAccessCertificationItemsTask"
+sidebar_position: 130
+---
+
 # ProcessAccessCertificationItemsTask
 
 Launch the deprovisioning of declined entitlement assignments for all AccessCertificationItems

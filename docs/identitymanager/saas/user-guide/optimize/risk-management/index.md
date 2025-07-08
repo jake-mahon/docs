@@ -1,3 +1,9 @@
+---
+title: "Manage Risks"
+description: "Manage Risks"
+sidebar_position: 30
+---
+
 # Manage Risks
 
 How to use the [ Risk Management ](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) module to

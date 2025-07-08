@@ -1,3 +1,9 @@
+---
+title: "For Resource Update (Multi Records)"
+description: "For Resource Update (Multi Records)"
+sidebar_position: 50
+---
+
 # For Resource Update (Multi Records)
 
 This section guides you through the procedure for the creation of a workflow to update an existing

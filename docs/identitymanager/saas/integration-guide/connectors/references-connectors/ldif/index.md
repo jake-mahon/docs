@@ -1,3 +1,9 @@
+---
+title: "LDIF"
+description: "LDIF"
+sidebar_position: 130
+---
+
 # LDIF
 
 This connector exports entries from an

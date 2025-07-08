@@ -1,3 +1,9 @@
+---
+title: "Adjust the Workforce Data Model"
+description: "Adjust the Workforce Data Model"
+sidebar_position: 40
+---
+
 # Adjust the Workforce Data Model
 
 How to select the properties to be part of the data model for the workforce repository (therefore

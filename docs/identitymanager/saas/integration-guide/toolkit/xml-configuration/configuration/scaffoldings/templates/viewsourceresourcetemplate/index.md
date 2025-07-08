@@ -1,3 +1,9 @@
+---
+title: "View Source Resource Template"
+description: "View Source Resource Template"
+sidebar_position: 90
+---
+
 # View Source Resource Template
 
 Creates the display table, fills in the internal display name of the entity, and gives the rights to

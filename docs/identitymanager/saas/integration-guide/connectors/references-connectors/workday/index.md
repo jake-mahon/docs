@@ -1,3 +1,9 @@
+---
+title: "Workday"
+description: "Workday"
+sidebar_position: 330
+---
+
 # Workday
 
 This connector exports users and groups from a

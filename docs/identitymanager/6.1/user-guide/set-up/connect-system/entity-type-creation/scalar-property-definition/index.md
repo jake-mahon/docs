@@ -1,3 +1,9 @@
+---
+title: "Define Scalar Properties"
+description: "Define Scalar Properties"
+sidebar_position: 20
+---
+
 # Define Scalar Properties
 
 How to define the simple, or scalar, properties of an

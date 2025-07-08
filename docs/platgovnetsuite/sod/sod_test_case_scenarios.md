@@ -1,3 +1,9 @@
+---
+title: "SoD Test Case Scenarios"
+description: "SoD Test Case Scenarios"
+sidebar_position: 110
+---
+
 # SoD Test Case Scenarios
 
 Here are test case scenarios for SoD rules:

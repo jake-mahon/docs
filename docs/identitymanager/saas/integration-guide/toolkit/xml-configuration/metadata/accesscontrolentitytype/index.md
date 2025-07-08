@@ -1,3 +1,9 @@
+---
+title: "Access Control Entity Type"
+description: "Access Control Entity Type"
+sidebar_position: 10
+---
+
 # Access Control Entity Type
 
 ## Child Element: Property

@@ -1,3 +1,9 @@
+---
+title: "WorkflowFulfillmentControlRules"
+description: "WorkflowFulfillmentControlRules"
+sidebar_position: 150
+---
+
 # WorkflowFulfillmentControlRules
 
 Generates the execution rights to launch Fulfillment workflow for a given profile.

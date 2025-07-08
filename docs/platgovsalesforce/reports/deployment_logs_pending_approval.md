@@ -1,3 +1,9 @@
+---
+title: "Deployments Pending Approval Report"
+description: "Deployments Pending Approval Report"
+sidebar_position: 30
+---
+
 # Deployments Pending Approval Report
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Deployments

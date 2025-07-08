@@ -1,3 +1,9 @@
+---
+title: "ResourceTypeMappings"
+description: "ResourceTypeMappings"
+sidebar_position: 50
+---
+
 # ResourceTypeMappings
 
 - #### [AzureADResourceTypeMapping](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/azureadresourcetypemapping/index.md)

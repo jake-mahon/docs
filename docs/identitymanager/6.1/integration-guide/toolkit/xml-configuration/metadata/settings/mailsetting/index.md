@@ -1,3 +1,9 @@
+---
+title: "MailSetting"
+description: "MailSetting"
+sidebar_position: 60
+---
+
 # MailSetting
 
 ## Examples

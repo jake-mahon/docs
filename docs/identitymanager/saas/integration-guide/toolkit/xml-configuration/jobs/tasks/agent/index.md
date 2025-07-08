@@ -1,3 +1,9 @@
+---
+title: "Agent Tasks"
+description: "Agent Tasks"
+sidebar_position: 10
+---
+
 # Agent Tasks
 
 - [ Activity Instance Actor Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/activityinstanceactortask/index.md)

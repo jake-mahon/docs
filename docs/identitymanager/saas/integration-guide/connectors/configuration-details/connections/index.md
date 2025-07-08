@@ -1,3 +1,9 @@
+---
+title: "Connections"
+description: "Connections"
+sidebar_position: 10
+---
+
 # Connections
 
 This page gathers useful information concerning the possible uses of connections, used by connectors

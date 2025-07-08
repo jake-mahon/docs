@@ -1,3 +1,9 @@
+---
+title: "Configure an Incremental Job"
+description: "Configure an Incremental Job"
+sidebar_position: 40
+---
+
 # Configure an Incremental Job
 
 This guide shows how to configure the relevant tasks to make a job incremental.

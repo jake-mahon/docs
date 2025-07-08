@@ -1,3 +1,9 @@
+---
+title: "Running the Scanner"
+description: "Running the Scanner"
+sidebar_position: 20
+---
+
 # Running the Scanner
 
 When the initial scan is complete, you can run additional on demand scans as required.

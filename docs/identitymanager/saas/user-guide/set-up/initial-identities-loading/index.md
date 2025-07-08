@@ -1,3 +1,9 @@
+---
+title: "Create the Workforce Repository"
+description: "Create the Workforce Repository"
+sidebar_position: 20
+---
+
 # Create the Workforce Repository
 
 How to initiate the repository for workforce identities by loading identities into Identity

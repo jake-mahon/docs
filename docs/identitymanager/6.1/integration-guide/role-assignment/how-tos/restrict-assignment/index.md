@@ -1,3 +1,9 @@
+---
+title: "Restrict the Assignment"
+description: "Restrict the Assignment"
+sidebar_position: 10
+---
+
 # Restrict the Assignment
 
 This guide shows how to use filters on dimensions and/or roles to restrict the assignment of a role

@@ -1,3 +1,9 @@
+---
+title: "ResourceLink"
+description: "ResourceLink"
+sidebar_position: 130
+---
+
 # ResourceLink
 
 ### /api/ResourceLink/Incremental/`{type}`/`{property}`/`{date}`

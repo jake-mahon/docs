@@ -1,3 +1,9 @@
+---
+title: "Configuration"
+description: "Configuration"
+sidebar_position: 30
+---
+
 # Configuration
 
 There are several options for configuring Usercube.

@@ -1,0 +1,10 @@
+{
+  "label": "Feature Manager for Windows",
+  "position": 20,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

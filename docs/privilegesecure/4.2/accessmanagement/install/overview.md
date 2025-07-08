@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 These topics describes the installation and initial configuration process of Netwrix Privilege
@@ -55,7 +61,7 @@ on activity:
   When a session begins, the service attaches to the session when it identifies the channel used by
   the Privilege Secure Proxy service and sends the Windows events back to the application. It
   specifically monitors what windows are opened and what menus are selected during an RDP session.
-  See the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/accessmanagement/install/rdpmonitor.md) topic for
+  See the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/accessmanagement/install/servicesonadditional/rdpmonitor.md) topic for
   additional information.
 
 ## Single Privilege Secure Server

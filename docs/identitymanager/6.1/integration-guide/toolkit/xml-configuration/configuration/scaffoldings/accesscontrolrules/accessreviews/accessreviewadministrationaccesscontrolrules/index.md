@@ -1,3 +1,9 @@
+---
+title: "AccessReviewAdministrationAccessControlRules"
+description: "AccessReviewAdministrationAccessControlRules"
+sidebar_position: 10
+---
+
 # AccessReviewAdministrationAccessControlRules
 
 Scaffolding to generate the rights to administrate campaign creation.

@@ -1,3 +1,9 @@
+---
+title: "Indirect Permissions"
+description: "Indirect Permissions"
+sidebar_position: 100
+---
+
 # Indirect Permissions
 
 Usercube can compute, for a given identity, permissions that are obtained implicitly or indirectly

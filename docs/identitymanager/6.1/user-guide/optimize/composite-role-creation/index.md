@@ -1,3 +1,9 @@
+---
+title: "Create a Composite Role"
+description: "Create a Composite Role"
+sidebar_position: 70
+---
+
 # Create a Composite Role
 
 How to define

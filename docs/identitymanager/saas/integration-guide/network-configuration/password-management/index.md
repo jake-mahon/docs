@@ -1,3 +1,9 @@
+---
+title: "Password Management"
+description: "Password Management"
+sidebar_position: 50
+---
+
 # Password Management
 
 The Password Management module offers a set of password-related operations on resources of certain

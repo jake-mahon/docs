@@ -1,3 +1,9 @@
+---
+title: "JobTaskAdministrationAccessControlRules"
+description: "JobTaskAdministrationAccessControlRules"
+sidebar_position: 30
+---
+
 # JobTaskAdministrationAccessControlRules
 
 Generates all permissions for JobStep entity.

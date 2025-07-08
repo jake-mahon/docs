@@ -1,3 +1,9 @@
+---
+title: "Import Product Translations into Usercube"
+description: "Import Product Translations into Usercube"
+sidebar_position: 10
+---
+
 # Import Product Translations into Usercube
 
 This topic shows how to import product translations into Usercube. A product translation means a

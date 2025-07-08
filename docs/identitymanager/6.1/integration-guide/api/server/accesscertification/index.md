@@ -1,3 +1,9 @@
+---
+title: "AccessCertification"
+description: "AccessCertification"
+sidebar_position: 10
+---
+
 # AccessCertification
 
 ### /api/AccessCertification/AccessCertificationCampaign

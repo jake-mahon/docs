@@ -1,3 +1,9 @@
+---
+title: "Job"
+description: "Job"
+sidebar_position: 10
+---
+
 # Job
 
 A job is a succession of tasks, to be launched and potentially scheduled.

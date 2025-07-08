@@ -1,3 +1,9 @@
+---
+title: "Manual Provisioning Resource Type Mapping"
+description: "Manual Provisioning Resource Type Mapping"
+sidebar_position: 40
+---
+
 # Manual Provisioning Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

@@ -1,3 +1,9 @@
+---
+title: "EntityPropertyExpression"
+description: "EntityPropertyExpression"
+sidebar_position: 50
+---
+
 # EntityPropertyExpression
 
 An entity property expression is a property computed from a binding and/or

@@ -1,3 +1,9 @@
+---
+title: "SQL Server Entitlements"
+description: "SQL Server Entitlements"
+sidebar_position: 360
+---
+
 # SQL Server Entitlements
 
 Exports SQL Server Entitlements

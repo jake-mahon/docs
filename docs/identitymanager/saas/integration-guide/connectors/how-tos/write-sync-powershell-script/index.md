@@ -1,3 +1,9 @@
+---
+title: "Write a PowerShell Script for Synchronization"
+description: "Write a PowerShell Script for Synchronization"
+sidebar_position: 120
+---
+
 # Write a PowerShell Script for Synchronization
 
 This guide shows how to write a PowerShell script used by the

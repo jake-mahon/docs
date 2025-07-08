@@ -1,3 +1,9 @@
+---
+title: "EntityTypeMapping"
+description: "EntityTypeMapping"
+sidebar_position: 70
+---
+
 # EntityTypeMapping
 
 An entity type mapping links a given

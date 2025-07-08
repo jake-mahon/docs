@@ -1,3 +1,9 @@
+---
+title: "For Microsoft Entra ID"
+description: "For Microsoft Entra ID"
+sidebar_position: 10
+---
+
 # For Microsoft Entra ID
 
 See the[ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for

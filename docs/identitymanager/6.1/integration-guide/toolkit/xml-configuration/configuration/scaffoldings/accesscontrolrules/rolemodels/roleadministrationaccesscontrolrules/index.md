@@ -1,3 +1,9 @@
+---
+title: "RoleAdministrationAccessControlRules"
+description: "RoleAdministrationAccessControlRules"
+sidebar_position: 140
+---
+
 # RoleAdministrationAccessControlRules
 
 Generates the rights to access the access configuration pages and create, update, delete for:

@@ -1,3 +1,9 @@
+---
+title: "Schedule a Certification Campaign"
+description: "Schedule a Certification Campaign"
+sidebar_position: 10
+---
+
 # Schedule a Certification Campaign
 
 How to create and schedule access certification campaigns, defining their scope.

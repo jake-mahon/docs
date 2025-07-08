@@ -1,3 +1,9 @@
+---
+title: "How to Implement a New System"
+description: "How to Implement a New System"
+sidebar_position: 30
+---
+
 # How to Implement a New System
 
 How to add a new system to the solution.

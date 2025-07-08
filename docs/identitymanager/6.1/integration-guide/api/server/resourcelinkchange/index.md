@@ -1,3 +1,9 @@
+---
+title: "ResourceLinkChange"
+description: "ResourceLinkChange"
+sidebar_position: 140
+---
+
 # ResourceLinkChange
 
 ### /api/ResourceLinkChange/`{type}`/`{property}`/`{id}`

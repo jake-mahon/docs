@@ -1,3 +1,9 @@
+---
+title: "Agent"
+description: "Agent"
+sidebar_position: 40
+---
+
 # Agent
 
 This section identifies the requirements for a Usercube agent.

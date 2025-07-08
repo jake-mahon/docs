@@ -1,3 +1,9 @@
+---
+title: "Automate the Review of Non-conforming Assignments"
+description: "Automate the Review of Non-conforming Assignments"
+sidebar_position: 50
+---
+
 # Automate the Review of Non-conforming Assignments
 
 How to automate the review of non-conforming assignments through automation rules. See the

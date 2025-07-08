@@ -1,3 +1,9 @@
+---
+title: "UpdateAccessCertificationCampaignTask"
+description: "UpdateAccessCertificationCampaignTask"
+sidebar_position: 230
+---
+
 # UpdateAccessCertificationCampaignTask
 
 Starts or stops the access certification campaigns according to their `StartDate` and `EndDate`. The

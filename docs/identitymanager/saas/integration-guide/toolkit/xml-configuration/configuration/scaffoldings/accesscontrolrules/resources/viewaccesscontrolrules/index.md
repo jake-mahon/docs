@@ -1,3 +1,9 @@
+---
+title: "View Access Control Rules"
+description: "View Access Control Rules"
+sidebar_position: 40
+---
+
 # View Access Control Rules
 
 Generates the permissions to view an entity type's resources.

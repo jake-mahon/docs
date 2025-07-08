@@ -1,3 +1,9 @@
+---
+title: "Settings"
+description: "Settings"
+sidebar_position: 80
+---
+
 # Settings
 
 - #### [AppDisplaySetting](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/index.md)

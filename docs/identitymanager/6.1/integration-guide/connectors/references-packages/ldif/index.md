@@ -1,3 +1,9 @@
+---
+title: "LDIF"
+description: "LDIF"
+sidebar_position: 160
+---
+
 # LDIF
 
 Exports entries from a LDIF file.

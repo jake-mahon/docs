@@ -1,3 +1,9 @@
+---
+title: "Splunk and SIEM Queries"
+description: "Splunk and SIEM Queries"
+sidebar_position: 30
+---
+
 # Splunk and SIEM Queries
 
 Splunk and SIEM Queries

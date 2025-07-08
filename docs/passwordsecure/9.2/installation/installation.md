@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 20
+---
+
 # Installation
 
 The following pages will provide you with all the information how to install the different Netwrix

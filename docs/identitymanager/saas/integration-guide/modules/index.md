@@ -1,3 +1,9 @@
+---
+title: "Modules"
+description: "Modules"
+sidebar_position: 50
+---
+
 # Modules
 
 Identity Manager can integrate with other software for issues such as credential protection and

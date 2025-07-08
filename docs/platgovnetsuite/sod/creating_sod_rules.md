@@ -1,3 +1,9 @@
+---
+title: "Creating SoD Rules"
+description: "Creating SoD Rules"
+sidebar_position: 20
+---
+
 # Creating SoD Rules
 
 ## ​SoD Rules
@@ -16,7 +22,7 @@ exist and approvals are closely monitored, exemptions can be made. Exceptions mu
 the company’s auditors.
 
 You can create a custom change request form for SoD Rule Changes. Refer to
-[Using Custom Change Request Forms](/docs/platgovnetsuite/change_management/use_custom_cr_forms.md) for information on
+[Using Custom Change Request Forms](/docs/platgovnetsuite/changemanagement/use_custom_cr_forms.md) for information on
 implementing your custom form.
 
 ### Access Levels

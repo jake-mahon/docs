@@ -1,3 +1,9 @@
+---
+title: "Governance"
+description: "Governance"
+sidebar_position: 120
+---
+
 # Governance
 
 Usercube's governance features intend to provide tools that control assignments of entitlements and

@@ -1,3 +1,9 @@
+---
+title: "Active Directory"
+description: "Active Directory"
+sidebar_position: 10
+---
+
 # Active Directory
 
 Manages users and groups in Active Directory. This package supports incremental synchronization with

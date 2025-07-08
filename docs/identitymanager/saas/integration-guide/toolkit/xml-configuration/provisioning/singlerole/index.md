@@ -1,3 +1,9 @@
+---
+title: "Single Role"
+description: "Single Role"
+sidebar_position: 160
+---
+
 # Single Role
 
 A single role is a way to represent an entitlement that is to be assigned to an identity. It brings
