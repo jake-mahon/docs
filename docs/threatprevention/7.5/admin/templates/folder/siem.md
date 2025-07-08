@@ -1,7 +1,7 @@
 ---
 title: "SIEM Templates"
 description: "SIEM Folder Templates"
-sidebar_position: 100
+sidebar_position: 140
 ---
 
 # SIEM Folder Templates

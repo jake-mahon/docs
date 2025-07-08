@@ -1,7 +1,7 @@
 ---
 title: "Reconnaissance Templates"
 description: "Reconnaissance Folder Templates"
-sidebar_position: 80
+sidebar_position: 120
 ---
 
 # Reconnaissance Folder Templates

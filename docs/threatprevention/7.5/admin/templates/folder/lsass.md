@@ -1,16 +1,10 @@
-# Microsoft Platform Templates
+---
+title: "LSASS Templates"
+description: "LSASS Folder Templates"
+sidebar_position: 80
+---
 
-This section contains templates for monitoring and protecting Microsoft platform components.
-
-## DNS Monitoring {#dns}
-
-The **Templates** > **Microsoft** > **DNS** folder contains the following template:
-
-| Template           | Description                | TAGS |
-| ------------------ | -------------------------- | ---- |
-| DNS Record Changes | No customizations required | None |
-
-## LSASS Protection {#lsass}
+# LSASS Folder Templates
 
 The **Templates** > **Microsoft** > **LSASS** folder contains the following templates:
 
