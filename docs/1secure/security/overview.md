@@ -4,7 +4,7 @@ description: "Security"
 sidebar_position: 70
 ---
 
-# Security
+# Overview
 
 Netwrix 1Secure implements multiple layers of security to protect your data and ensure compliance with industry standards.
 
