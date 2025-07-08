@@ -12,7 +12,7 @@ configuration must be validated to ensure events are being monitored.
 ## Validate CEE Registry Key Settings
 
 **NOTE:** See the
-[Configure Dell Registry Key Settings](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/installcee_1.md#configure-dell-registry-key-settings)
+[Configure Dell Registry Key Settings](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/installcee.md#configure-dell-registry-key-settings)
 topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will

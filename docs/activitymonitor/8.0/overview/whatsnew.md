@@ -40,7 +40,7 @@ New: FPolicy Persistent Store Enhancements
   volumes to reduce setup complexity and improve storage efficiency for high-volume event data,
   without requiring additional permissions.
 
-See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/configurefpolicy_1.md) topic for additional
+See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md) topic for additional
 information.
 
 New: Improved Microsoft Office Filtering Accuracy

@@ -29,7 +29,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Manager
 
 Prior to adding a Qumulo host to the Activity Monitor, the prerequisites for the target environment
-must be met. See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_4.md)
+must be met. See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/qumulo-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
