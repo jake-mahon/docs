@@ -11,7 +11,7 @@ centralized authentication, authorization, and accounting management for users c
 network service.
 
 Once you have added an authentication provider, as discussed in the
-[Add an Authentication Provider](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/page/page.md#add-an-authentication-provider)topic, the next step is to
+[Add an Authentication Provider](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider) topic, the next step is to
 configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS,
 or SAML.
 
@@ -128,4 +128,4 @@ The table displays the following information:
     login. This option is only available if an MFA authentication type is applied to the user or
     group.
 
-See the [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/interface/useraccess.md) topic for additional information.
+See the [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.

@@ -129,7 +129,7 @@ The following authentication types can be assigned to users and groups:
   third-party authentication provider. This must be configure in the Authentication Provider page of
   the Integrations interface in order to be available for user assignment.
 
-See the [Authentication Provider Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/page/page.md) topic for
+See the [Authentication Provider Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.md) topic for
 additional information.
 
 ### Add Console Access

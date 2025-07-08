@@ -126,5 +126,5 @@ Configure the following:
   topic for additional information.
 - Configure Console Access through Role Assignment – Grant access to Administrators, Report
   Reviewers, Responders, Reviewers, Response Managers, and Report Administrators. See the
-  [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/interface/useraccess.md) topic for
+  [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/useraccess.md) topic for
   additional information.

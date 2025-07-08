@@ -1,18 +1,19 @@
 ---
-title: "OpenID Authentication Provider"
-description: "OpenID Authentication Provider"
-sidebar_position: 20
+title: "SAML Authentication Provider"
+description: "SAML Authentication Provider"
+sidebar_position: 30
 ---
 
-# OpenID Authentication Provider
+# SAML Authentication Provider
 
-OpenID is an open standard for authentication that allows users to log into multiple websites using
-a single set of credentials, eliminating the need for multiple usernames and passwords. Unlike
-traditional authentication methods, OpenID delegates authentication to a third-party provider,
-allowing users to authenticate with their chosen identity provider.
+The Security Assertion Markup Language (SAML) is an XML framework for exchanging authentication and
+authorization information. It provides functions to describe and transmit security-related
+information. This means that you can use one set of credentials to log in to many different
+websites. It is much easier to manage one login per user than separate logins for email, Customer
+Relationship Management (CRM) software, Active Directory, and more.
 
 Once you have added an authentication provider, as discussed in the
-[Add an Authentication Provider](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/page/page.md#add-an-authentication-provider)topic, the next step is to
+[Add an Authentication Provider](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to
 configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS,
 or SAML.
 
@@ -22,31 +23,39 @@ select **Integrations** to open the Integrations interface.
 On the Integrations interface, select an authentication provider under the Authentication Provider
 node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for an OpenID authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/openid.webp)
+![Integrations interface displaying the details for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/saml.webp)
 
-The details page for an OpenID authentication provider has two tabs:
+The details page for a SAML authentication provider has two tabs:
 
 - Configuration
 - Users/Groups
 
+Prerequisites
+
+For users to be able to use SAML, "SMTP" must be set up and an email address must be stored with the
+respective users.
+
 ## Configuration Tab
 
-Configure the following settings for an OpenID provider on the Configuration tab:
+Configure the following settings for a SAML provider on the Configuration tab:
 
-![Configuration tab for an OpenID authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationopenid.webp)
+![Configuration tab for a SAML authneication provider](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/configurationsaml.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles.
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
   on as desired.
-- Authority – The OpenId Connect provider authority URI. Out-going redirection requires the correct
-  Authority path to be set. Incorrect settings will generally result in a 404 error.
-- Client Id – The ID assigned to an application that allows it to request authentication and
-  interact with the identity provider
+- Login URI – Login URI is a specific web address where users can authenticate themselves to access
+  a web application or service
+- Logout Uri – A logout URI is a specific web address where users are directed to terminate their
+  authenticated session in a web application or service
 - Login Type – The login type to use to log into the account. Use the drop-down menu to select one
   of the following: Sam Account Name, User Principal Name, Email Address, or Sid
-- User Source – The source type to use to validate the user from the token. Use the drop-down menu
-  to select one of the following: Introspection, User Info, Token Parse, or Id Token Parse
-- User Source Field – The field in the token to use for validating the user
+- User Claim – A user claim is an assertion made by the identity provider about a user, such as
+  their name, role, or email, that the service provider can use for authorization decisions
+- Check Certificate – If enabled, this validates the response certificate to the certificate
+  provided in the Certificate field. Use the toggle button to enable and disable this setting.
+- Certificate – A certificate is a digital credential used to validate the identity of parties and
+  secure communications between an Identity Provider (IdP) and a Service Provider (SP)
 
 Click Save to commit the configuration settings.
 
@@ -79,4 +88,4 @@ The table displays the following information:
     login. This option is only available if an MFA authentication type is applied to the user or
     group.
 
-See the [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/interface/useraccess.md) topic for additional information.
+See the [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.
