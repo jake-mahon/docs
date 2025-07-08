@@ -211,7 +211,7 @@ Partial form for user data:
 ## Customize the Display Table (Optional)
 
 To configure a display table different from the default one provided by Identity Manager, see the
-[Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/index.md) topic for additional
+[Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md) topic for additional
 information.
 
 Below is an example of a display table for our situation:

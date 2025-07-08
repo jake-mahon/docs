@@ -1,7 +1,7 @@
 ---
 title: "Write a PowerShell Script for Provisioning"
 description: "Write a PowerShell Script for Provisioning"
-sidebar_position: 110
+sidebar_position: 100
 ---
 
 # Write a PowerShell Script for Provisioning

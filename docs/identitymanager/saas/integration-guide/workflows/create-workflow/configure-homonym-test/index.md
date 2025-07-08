@@ -131,7 +131,7 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 
 ```
 
-See the [Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/index.md) for additional
+See the [Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md) for additional
 information.
 
 ## Define the Homonym Control in the Workflow Form

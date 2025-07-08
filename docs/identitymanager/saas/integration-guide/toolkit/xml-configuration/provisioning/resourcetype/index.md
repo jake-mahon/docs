@@ -32,7 +32,7 @@ available for one type of action. As the configuration JSON file of an InternalW
 cannot contain expressions, a resource type can be configured with the ArgumentsExpression attribute
 to explicit the arguments of provisioning orders, based on conditions and variables. See the
 [InternalWorkflow](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalworkflow/index.md),
-[ Compute a Resource Type's Provisioning Arguments ](/docs/identitymanager/saas/integration-guide/provisioning/how-tos/argumentsexpression/index.md),
+[ Compute a Resource Type's Provisioning Arguments ](/docs/identitymanager/saas/integration-guide/provisioning/argumentsexpression/index.md),
 and [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) topics for additional information.
 
 The following example computes the identifier of the workflow to launch, based on the provisioning
