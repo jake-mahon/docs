@@ -64,7 +64,7 @@ select the other **LDAP Monitoring** event type in the list above.
 Threat Manager.
 
 _Remember,_ the Honeytoken tab of the
-[Netwrix Threat Manager Configuration Window](/docs/threatmanager/3.0/threatprevention/admin/configuration/threatmanagerconfiguration.md)
+[Netwrix Threat Manager Configuration Window](/docs/threatmanager/3.0/install/integration/threatprevention/threatmanagerconfiguration.md)
 must be configured in order to successfully send LDAP monitoring data to Threat Manager.
 
 ### Configure LDAP Monitoring in the Activity Monitor

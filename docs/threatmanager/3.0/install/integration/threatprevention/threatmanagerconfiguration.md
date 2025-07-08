@@ -1,3 +1,9 @@
+---
+title: "Netwrix Threat Manager Configuration Window"
+description: "Netwrix Threat Manager Configuration Window"
+sidebar_position: 10
+---
+
 # Netwrix Threat Manager Configuration Window
 
 The Netwrix Threat Manager Configuration window is a global setting to enable integration between

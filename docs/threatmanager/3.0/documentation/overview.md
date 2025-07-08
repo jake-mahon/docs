@@ -1,10 +1,10 @@
 ---
-title: "Netwrix Threat Manager v3.0"
+title: "Netwrix Threat Manager v3.0 Documentation"
 description: "Netwrix Threat Manager v3.0"
 sidebar_position: 10
 ---
 
-# Netwrix Threat Manager v3.0
+# Netwrix Threat Manager v3.0 Documentation
 
 Threat Manager detects and responds to abnormal behavior and advanced attacks against Active
 Directory and File Systems with unprecedented accuracy and speed. Threat Manager provides
@@ -46,7 +46,7 @@ documentation for additional information:
 Threat Manager monitors the following threats. See each section for information on monitored threat
 types.
 
-- [Active Directory Threats](/docs/threatmanager/3.0/overview/threats/activedirectory.md)
-- [Entra ID Threats](/docs/threatmanager/3.0/overview/threats/entraid.md)
-- [File System Threats](/docs/threatmanager/3.0/overview/threats/filesystem.md)
-- [General Threats](/docs/threatmanager/3.0/overview/threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/3.0/documentation/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/3.0/documentation/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/3.0/documentation/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/3.0/documentation/threats/general.md)
