@@ -1,5 +1,5 @@
 ---
-title: "Concurrent Logins Analytic Type"
+title: "Concurrent Logins"
 description: "Concurrent Logins Analytic Type"
 sidebar_position: 50
 ---

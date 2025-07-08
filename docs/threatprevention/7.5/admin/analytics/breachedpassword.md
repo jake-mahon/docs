@@ -1,5 +1,5 @@
 ---
-title: "Breached Password Analytic Type"
+title: "Breached Password"
 description: "Breached Password Analytic Type"
 sidebar_position: 30
 ---

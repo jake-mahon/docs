@@ -1,5 +1,5 @@
 ---
-title: "Forged PAC Analytic Type"
+title: "Forged PAC"
 description: "Forged PAC Analytic Type"
 sidebar_position: 70
 ---

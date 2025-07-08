@@ -1,5 +1,5 @@
 ---
-title: "User Account Hacking Analytic Type"
+title: "User Account Hacking"
 description: "User Account Hacking Analytic Type"
 sidebar_position: 120
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Bad User ID (by Source Host) Analytic Type"
+title: "Bad User ID (by Source Host)"
 description: "Bad User ID (by Source Host) Analytic Type"
 sidebar_position: 10
 ---

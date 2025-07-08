@@ -1,5 +1,5 @@
 ---
-title: "File System Attacks (by User) Analytic Type"
+title: "File System Attacks (by User)"
 description: "File System Attacks (by User) Analytic Type"
 sidebar_position: 60
 ---

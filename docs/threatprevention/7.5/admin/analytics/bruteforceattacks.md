@@ -1,5 +1,5 @@
 ---
-title: "Brute Force Attacks Analytic Type"
+title: "Brute Force Attacks"
 description: "Brute Force Attacks Analytic Type"
 sidebar_position: 40
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Horizontal Movement Attacks Analytic Type"
+title: "Horizontal Movement Attacks"
 description: "Horizontal Movement Attacks Analytic Type"
 sidebar_position: 90
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Kerberos Weak Encryption Analytic Type"
+title: "Kerberos Weak Encryption"
 description: "Kerberos Weak Encryption Analytic Type"
 sidebar_position: 110
 ---

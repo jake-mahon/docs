@@ -1,5 +1,5 @@
 ---
-title: "Golden Ticket Analytic Type"
+title: "Golden Ticket"
 description: "Golden Ticket Analytic Type"
 sidebar_position: 80
 ---

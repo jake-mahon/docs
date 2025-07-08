@@ -1,5 +1,5 @@
 ---
-title: "Impersonation Logins Analytic Type"
+title: "Impersonation Logins"
 description: "Impersonation Logins Analytic Type"
 sidebar_position: 100
 ---
