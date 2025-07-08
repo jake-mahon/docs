@@ -312,7 +312,7 @@ on the **Monitoring** screen.
 
 QRadar is a supported destination for Identity Manager's logs.
 
-See the [ Export Logs to a Log Management System ](/docs/identitymanager/saas/integration-guide/monitoring/how-tos/qradar-setting/index.md) topic to learn
+See the [ Export Logs to a Log Management System ](/docs/identitymanager/saas/integration-guide/monitoring/qradar-setting/index.md) topic to learn
 how to send Identity Manager's logs to your QRadar system.
 
 Three output formats are available for QRadar-routed logs:
