@@ -1,5 +1,5 @@
 ---
-title: "File System Folder Templates"
+title: "File System Templates"
 description: "File System Folder Templates"
 sidebar_position: 60
 ---

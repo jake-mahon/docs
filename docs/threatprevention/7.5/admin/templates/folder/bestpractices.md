@@ -1,5 +1,5 @@
 ---
-title: "Best Practices Folder Templates"
+title: "Best Practices Templates"
 description: "Best Practices Folder Templates"
 sidebar_position: 20
 ---

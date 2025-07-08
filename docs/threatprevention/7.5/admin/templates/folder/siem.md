@@ -1,5 +1,5 @@
 ---
-title: "SIEM Folder Templates"
+title: "SIEM Templates"
 description: "SIEM Folder Templates"
 sidebar_position: 100
 ---

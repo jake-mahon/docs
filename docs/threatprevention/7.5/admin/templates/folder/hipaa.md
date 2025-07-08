@@ -1,5 +1,5 @@
 ---
-title: "HIPAA Folder Templates"
+title: "HIPAA Templates"
 description: "HIPAA Folder Templates"
 sidebar_position: 30
 ---

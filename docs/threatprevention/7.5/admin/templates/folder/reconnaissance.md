@@ -1,5 +1,5 @@
 ---
-title: "Reconnaissance Folder Templates"
+title: "Reconnaissance Templates"
 description: "Reconnaissance Folder Templates"
 sidebar_position: 80
 ---

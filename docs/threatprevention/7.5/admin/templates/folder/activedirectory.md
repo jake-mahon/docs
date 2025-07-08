@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Folder Templates"
+title: "Active Directory Templates"
 description: "Active Directory Folder Templates"
 sidebar_position: 40
 ---

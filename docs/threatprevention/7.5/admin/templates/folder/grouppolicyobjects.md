@@ -1,5 +1,5 @@
 ---
-title: "Group Policy Objects Folder Templates"
+title: "Group Policy Objects Templates"
 description: "Group Policy Objects Folder Templates"
 sidebar_position: 70
 ---
