@@ -179,7 +179,7 @@ the sensitivity settings for the pre-defined taxonomies.
 
 Follow the steps to specify sensitive taxonomy.
 
-**Step 1 –** Add a new taxonomy. See the [Add a Taxonomy](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/add.md) topic for additional information.
+**Step 1 –** Add a new taxonomy. See the [Add a Taxonomy](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/add.md) topic for additional information.
 
 **Step 2 –** Navigate to Taxonomies > Global Settings > Edit. The **Edit** panel displays.
 

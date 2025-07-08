@@ -1,5 +1,5 @@
 ---
-title: "Adding a Clue"
+title: "Add a Clue"
 description: "Adding a Clue"
 sidebar_position: 20
 ---

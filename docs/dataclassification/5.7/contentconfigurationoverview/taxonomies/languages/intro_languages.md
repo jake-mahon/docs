@@ -1,7 +1,7 @@
 ---
 title: "Language Support"
 description: "Language Support"
-sidebar_position: 30
+sidebar_position: 5
 ---
 
 # Language Support

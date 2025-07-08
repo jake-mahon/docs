@@ -1,10 +1,10 @@
 {
-  "label": "Language Support",
-  "position": 30,
+  "label": "Taxonomies",
+  "position": 20,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "languages"
+    "id": "introduction"
   }
 }

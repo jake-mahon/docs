@@ -1,5 +1,5 @@
 ---
-title: "Configuring NDC Servers Cluster and Load Balancing with DQS Mode"
+title: "NDC Server Cluster"
 description: "Configuring NDC Servers Cluster and Load Balancing with DQS Mode"
 sidebar_position: 10
 ---

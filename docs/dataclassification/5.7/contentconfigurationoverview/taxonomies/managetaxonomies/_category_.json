@@ -1,10 +1,10 @@
 {
-  "label": "Workflows",
-  "position": 30,
+  "label": "Manage Taxonomies",
+  "position": 70,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "manage"
   }
 }
