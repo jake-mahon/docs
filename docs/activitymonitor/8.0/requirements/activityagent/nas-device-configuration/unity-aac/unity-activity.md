@@ -33,7 +33,7 @@ Checklist Item 1: Plan Deployment
 
         - [http://support.emc.com](http://support.emc.com/)
 
-Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/installcee_3.md)
+Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/installcee_3.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity
   agent will be deployed
@@ -52,7 +52,7 @@ Checklist Item 3: Dell Unity Device Configuration
 
 - Configure initial setup for a Unity device
 
-    - [Unity Initial Setup with Unisphere](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/setupunisphere.md)
+    - [Unity Initial Setup with Unisphere](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/setupunisphere.md)
 
 Checklist Item 4: Activity Monitor Configuration
 
@@ -70,4 +70,4 @@ agent will be deployed, the following steps are not needed.
 
 - Ensure the Dell CEE registry key has enabled set to 1 and has an EndPoint set to StealthAUDIT.
 - Ensure the Dell CAVA service and the Dell CEE Monitor service are running.
-- See the [Validate Setup](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/validate_2.md) topic for instructions.
+- See the [Validate Setup](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/validate_2.md) topic for instructions.

@@ -29,7 +29,7 @@ guide to install and configure the CEE. The installation will add two services t
 **_RECOMMENDED:_** The latest version of .NET Framework and Dell CEE is recommended to use with the
 asynchronous bulk delivery (VCAPS) feature.
 
-See the [CEE Debug Logs](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/validate_2.md#cee-debug-logs) section for information on
+See the [CEE Debug Logs](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/validate_2.md#cee-debug-logs) section for information on
 troubleshooting issues related to Dell CEE.
 
 After Dell CEE installation is complete, it is necessary to Connect Data Movers to the Dell CEE

@@ -34,7 +34,7 @@ Checklist Item 1: Plan Deployment
 
         - [http://support.emc.com](http://support.emc.com/)
 
-Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/installcee_2.md)
+Checklist Item 2: [Install Dell CEE](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/installcee_2.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity
   agent will be deployed
@@ -51,7 +51,7 @@ Checklist Item 3: Dell PowerStore Device Configuration
 
 - Enable auditing on the PowerStore device
 
-    - See the [Enable Auditing for Dell PowerStore](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/auditing.md) topic for additional information.
+    - See the [Enable Auditing for Dell PowerStore](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/auditing.md) topic for additional information.
 
 Checklist Item 4: Activity Monitor Configuration
 

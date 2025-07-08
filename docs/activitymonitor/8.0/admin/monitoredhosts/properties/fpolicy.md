@@ -14,9 +14,9 @@ enabling/connecting to cluster nodes.
 On the **FPolicy** tab, the agent can configure and/or enable FPolicy automatically. The recommended
 setting is dependent on the type of NetApp device being targeted. The permissions required for each
 option are listed. See the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_5.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/ontap7-activity.md)
 topic or the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_6.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/ontap-cluster-activity.md)
 topic for additional information.
 
 At the bottom are two additional tabs with setting options. On this tab, specify the protocols to

@@ -90,7 +90,7 @@ CTERA Edge Filter
 - CTERA Portal 7.5.x+
 - CTERA Edge Filer 7.5.x+
 
-See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity.md) topic for target
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ctera-activity.md) topic for target
 environment requirements.
 
 Dell Celerra® & VNX
@@ -100,7 +100,7 @@ Dell Celerra® & VNX
 - VNX 8.1
 
 See the
-[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity.md)
+[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/celerra-vnx-activity.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
@@ -108,24 +108,24 @@ Dell Isilon/PowerScale
 - 7.0+
 
 See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_1.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/isilon-powerscale-aac/isilon-activity.md)
 topic for target environment requirements.
 
 Dell PowerStore®
 
-See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_2.md)
+See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/powerstore-aac/powerstore-activity.md)
 topic for target environment requirements.
 
 Dell Unity
 
-See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_3.md) topic for
+See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/unity-aac/unity-activity.md) topic for
 target environment requirements.
 
 Hitachi
 
 - 11.2+
 
-See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_4.md) topic for target
+See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/hitachi-aac/hitachi-activity.md) topic for target
 environment requirements.
 
 Nasuni Nasuni Edge Appliances
@@ -142,8 +142,8 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_5.md)
-- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_6.md)
+- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/ontap7-activity.md)
+- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/ontap-cluster-activity.md)
 
 Nutanix
 

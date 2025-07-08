@@ -157,7 +157,7 @@ IMPORTANT:
 
 - The Activity Monitor must register with the NetApp device as an FPolicy server. By default, it
   looks for a policy named `StealthAUDIT`. See the
-  [Customize FPolicy Policy Name](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/customizefpolicy.md) section for information on using a different
+  [Customize FPolicy Policy Name](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/customizefpolicy.md) section for information on using a different
   policy name.
 
 Use the following command to enable the FPolicy to monitor disconnected sessions:
