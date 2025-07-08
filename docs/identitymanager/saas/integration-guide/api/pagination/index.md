@@ -1,3 +1,9 @@
+---
+title: "Pagination"
+description: "Pagination"
+sidebar_position: 30
+---
+
 # Pagination
 
 Each function returning a list of items supports pagination. This pagination is based on the

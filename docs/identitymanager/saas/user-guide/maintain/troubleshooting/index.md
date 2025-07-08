@@ -1,3 +1,9 @@
+---
+title: "Troubleshoot"
+description: "Troubleshoot"
+sidebar_position: 20
+---
+
 # Troubleshoot
 
 How to troubleshoot Identity Manager when facing technical issues.

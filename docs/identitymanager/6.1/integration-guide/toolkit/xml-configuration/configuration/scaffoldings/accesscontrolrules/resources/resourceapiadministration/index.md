@@ -1,3 +1,9 @@
+---
+title: "ResourceApiAdministration"
+description: "ResourceApiAdministration"
+sidebar_position: 20
+---
+
 # ResourceApiAdministration
 
 Generates the permissions to create/update/delete/query resources from a given entity type, for a

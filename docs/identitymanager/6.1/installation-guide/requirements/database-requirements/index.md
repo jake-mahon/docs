@@ -1,3 +1,9 @@
+---
+title: "Database"
+description: "Database"
+sidebar_position: 20
+---
+
 # Database
 
 This section identifies hardware and software requirements for Usercube's database.

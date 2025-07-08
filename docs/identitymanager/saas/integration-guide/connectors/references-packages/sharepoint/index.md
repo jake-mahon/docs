@@ -1,3 +1,9 @@
+---
+title: "SharePoint"
+description: "SharePoint"
+sidebar_position: 400
+---
+
 # SharePoint
 
 Exports sites, folders, SharePoint groups and permissions.

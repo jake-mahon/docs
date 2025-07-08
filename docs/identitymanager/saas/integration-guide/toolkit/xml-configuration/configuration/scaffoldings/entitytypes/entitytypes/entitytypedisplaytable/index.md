@@ -1,3 +1,9 @@
+---
+title: "Entity Type Display Table"
+description: "Entity Type Display Table"
+sidebar_position: 30
+---
+
 # Entity Type Display Table
 
 Displays all resources of a given entity type in a table.

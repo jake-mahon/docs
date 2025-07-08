@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 50
+---
+
 # Upgrade Procedure
 
 This chapter describes the basic steps needed to upgrade Netwrix Privilege Secure.

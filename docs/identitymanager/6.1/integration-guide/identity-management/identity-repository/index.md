@@ -1,3 +1,9 @@
+---
+title: "Identity Repository"
+description: "Identity Repository"
+sidebar_position: 10
+---
+
 # Identity Repository
 
 One of the main purposes of an IGA tool is to build a comprehensive repository containing all

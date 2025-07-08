@@ -1,3 +1,9 @@
+---
+title: "Indicator"
+description: "Indicator"
+sidebar_position: 60
+---
+
 # Indicator
 
 An Indicator displays a banner alongside the resource information whenever it meets a specific

@@ -1,3 +1,9 @@
+---
+title: "Load Identities to Identity Manager"
+description: "Load Identities to Identity Manager"
+sidebar_position: 20
+---
+
 # Load Identities to Identity Manager
 
 How to load identities into Identity Manager for the first time using a basic data model in the form

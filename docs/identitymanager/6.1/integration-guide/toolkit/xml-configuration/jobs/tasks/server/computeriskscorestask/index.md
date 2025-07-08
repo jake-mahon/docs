@@ -1,3 +1,9 @@
+---
+title: "ComputeRiskScoresTask"
+description: "ComputeRiskScoresTask"
+sidebar_position: 30
+---
+
 # ComputeRiskScoresTask
 
 Update risk score with the risk settings.

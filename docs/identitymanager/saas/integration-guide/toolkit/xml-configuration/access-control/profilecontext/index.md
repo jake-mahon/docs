@@ -1,3 +1,9 @@
+---
+title: "Profile Context"
+description: "Profile Context"
+sidebar_position: 70
+---
+
 # Profile Context
 
 ProfileContext contains the dimensions values used to define the connected users scope of

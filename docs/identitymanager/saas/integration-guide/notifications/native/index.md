@@ -1,3 +1,9 @@
+---
+title: "Native Notifications"
+description: "Native Notifications"
+sidebar_position: 10
+---
+
 # Native Notifications
 
 Identity Manager provides native notifications for usual cases, for example role review,

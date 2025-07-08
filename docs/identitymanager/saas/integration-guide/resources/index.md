@@ -1,3 +1,9 @@
+---
+title: "Resources"
+description: "Resources"
+sidebar_position: 20
+---
+
 # Resources
 
 Identity Manager stores managed systems' data and identities as resources within a resource

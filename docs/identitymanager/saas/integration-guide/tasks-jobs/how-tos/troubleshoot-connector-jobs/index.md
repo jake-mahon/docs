@@ -1,3 +1,9 @@
+---
+title: "Troubleshoot Connector Jobs"
+description: "Troubleshoot Connector Jobs"
+sidebar_position: 50
+---
+
 # Troubleshoot Connector Jobs
 
 This guide helps understand the behavior of synchronization and provisioning tasks in order to spot

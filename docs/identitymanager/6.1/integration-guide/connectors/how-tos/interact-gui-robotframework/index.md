@@ -1,3 +1,9 @@
+---
+title: "Interact with a GUI Application via Robot Framework"
+description: "Interact with a GUI Application via Robot Framework"
+sidebar_position: 120
+---
+
 # Interact with a GUI Application via Robot Framework
 
 This guide shows how to write a Robot Framework script which interacts with an external application.

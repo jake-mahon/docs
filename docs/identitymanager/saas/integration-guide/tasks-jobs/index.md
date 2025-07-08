@@ -1,3 +1,9 @@
+---
+title: "Tasks & Jobs"
+description: "Tasks & Jobs"
+sidebar_position: 190
+---
+
 # Tasks & Jobs
 
 Identity Manager provides tasks to orchestrate together the executable files that perform IGA

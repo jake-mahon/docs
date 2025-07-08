@@ -1,3 +1,9 @@
+---
+title: "Virtual Machines"
+description: "Virtual Machines"
+sidebar_position: 50
+---
+
 # Virtual Machines
 
 Virtual Machines

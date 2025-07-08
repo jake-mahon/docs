@@ -1,3 +1,9 @@
+---
+title: "Access Control Rules"
+description: "Access Control Rules"
+sidebar_position: 10
+---
+
 # Access Control Rules
 
 Scaffoldings for access control give some permissions, by allowing the corresponding API calls.

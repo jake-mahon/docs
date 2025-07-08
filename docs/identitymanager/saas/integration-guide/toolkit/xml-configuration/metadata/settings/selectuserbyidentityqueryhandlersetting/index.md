@@ -1,3 +1,9 @@
+---
+title: "Select User by Identity Query Handler Setting"
+description: "Select User by Identity Query Handler Setting"
+sidebar_position: 120
+---
+
 # Select User by Identity Query Handler Setting
 
 This attribute matches an end-user with a resource from the central repository.

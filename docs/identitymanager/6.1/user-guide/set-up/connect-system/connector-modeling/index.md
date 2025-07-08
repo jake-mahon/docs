@@ -1,3 +1,9 @@
+---
+title: "Model the Data"
+description: "Model the Data"
+sidebar_position: 10
+---
+
 # Model the Data
 
 How to choose the appropriate model for a connector's data.

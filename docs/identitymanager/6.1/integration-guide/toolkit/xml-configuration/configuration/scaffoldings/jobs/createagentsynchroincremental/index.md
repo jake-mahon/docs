@@ -1,3 +1,9 @@
+---
+title: "CreateAgentSynchroIncremental"
+description: "CreateAgentSynchroIncremental"
+sidebar_position: 40
+---
+
 # CreateAgentSynchroIncremental
 
 This scaffolding generates a synchronization job in incremental mode for all connectors supporting

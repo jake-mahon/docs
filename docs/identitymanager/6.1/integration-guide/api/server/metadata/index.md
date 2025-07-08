@@ -1,3 +1,9 @@
+---
+title: "Metadata"
+description: "Metadata"
+sidebar_position: 60
+---
+
 # Metadata
 
 ### /api/Metadata/Binding

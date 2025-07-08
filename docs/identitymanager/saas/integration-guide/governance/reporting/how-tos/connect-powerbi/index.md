@@ -1,3 +1,9 @@
+---
+title: "Connect Power BI to Identity Manager"
+description: "Connect Power BI to Identity Manager"
+sidebar_position: 10
+---
+
 # Connect Power BI to Identity Manager
 
 This guide shows how to connect Power BI to Identity Manager.

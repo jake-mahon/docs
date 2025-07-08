@@ -1,3 +1,9 @@
+---
+title: "Customize Search Bars"
+description: "Customize Search Bars"
+sidebar_position: 40
+---
+
 # Customize Search Bars
 
 This guide shows how to define a custom way to search from a list of a given entity type's

@@ -1,3 +1,9 @@
+---
+title: "Perform Access Certification"
+description: "Perform Access Certification"
+sidebar_position: 50
+---
+
 # Perform Access Certification
 
 How to certify existing access by reviewing a specific range of assigned permissions for auditing

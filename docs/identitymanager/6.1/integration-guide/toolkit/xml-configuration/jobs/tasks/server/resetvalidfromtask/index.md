@@ -1,3 +1,9 @@
+---
+title: "ResetValidFromTask"
+description: "ResetValidFromTask"
+sidebar_position: 140
+---
+
 # ResetValidFromTask
 
 Initialize historization tables by setting each entity's first record `ValidFrom` value to

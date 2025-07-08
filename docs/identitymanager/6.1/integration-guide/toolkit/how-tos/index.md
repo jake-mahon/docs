@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 90
+---
+
 # How-Tos
 
 These guides will help you build and use the XML configuration with practical step-by-step

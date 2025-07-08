@@ -1,3 +1,9 @@
+---
+title: "SynchronizationAccessControlRules"
+description: "SynchronizationAccessControlRules"
+sidebar_position: 120
+---
+
 # SynchronizationAccessControlRules
 
 Generates the execution rights for Prepare-Synchronization and synchronization tasks for a given

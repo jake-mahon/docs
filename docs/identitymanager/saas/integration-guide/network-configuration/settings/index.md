@@ -1,3 +1,9 @@
+---
+title: "Various XML Settings"
+description: "Various XML Settings"
+sidebar_position: 60
+---
+
 # Various XML Settings
 
 This section describes Identity Manager's

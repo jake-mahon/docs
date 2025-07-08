@@ -1,3 +1,9 @@
+---
+title: "For Resource Update (No Record)"
+description: "For Resource Update (No Record)"
+sidebar_position: 30
+---
+
 # For Resource Update (No Record)
 
 This section guides you through the procedure for the creation of a workflow to update a simple

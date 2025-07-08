@@ -1,3 +1,9 @@
+---
+title: "Install IIS via Server Manager"
+description: "Install IIS via Server Manager"
+sidebar_position: 20
+---
+
 # Install IIS via Server Manager
 
 This guide shows how to configure the local server to install IIS via Server Manager.

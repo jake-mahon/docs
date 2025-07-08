@@ -1,3 +1,9 @@
+---
+title: "Set Up Incremental Synchronization"
+description: "Set Up Incremental Synchronization"
+sidebar_position: 80
+---
+
 # Set Up Incremental Synchronization
 
 How to implement an incremental synchronization

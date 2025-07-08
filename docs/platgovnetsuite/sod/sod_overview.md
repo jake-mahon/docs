@@ -1,3 +1,9 @@
+---
+title: "SoD Overview"
+description: "SoD Overview"
+sidebar_position: 170
+---
+
 # SoD Overview
 
 Advanced Segregation of Duties (SoD) gives you complete separation of duties and access controls. It

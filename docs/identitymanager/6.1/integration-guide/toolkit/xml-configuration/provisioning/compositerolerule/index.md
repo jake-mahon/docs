@@ -1,3 +1,9 @@
+---
+title: "CompositeRoleRule"
+description: "CompositeRoleRule"
+sidebar_position: 40
+---
+
 # CompositeRoleRule
 
 A composite role rule assigns a composite role to users who match given criteria.

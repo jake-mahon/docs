@@ -1,3 +1,9 @@
+---
+title: "How to Maintain the Workforce Directory"
+description: "How to Maintain the Workforce Directory"
+sidebar_position: 20
+---
+
 # How to Maintain the Workforce Directory
 
 How to keep the workforce directory up to date.

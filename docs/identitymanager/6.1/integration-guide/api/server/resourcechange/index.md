@@ -1,3 +1,9 @@
+---
+title: "ResourceChange"
+description: "ResourceChange"
+sidebar_position: 110
+---
+
 # ResourceChange
 
 ### /api/ResourceChange/`{type}`/`{id}`

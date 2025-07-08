@@ -1,3 +1,9 @@
+---
+title: "EntityTypeDisplayName"
+description: "EntityTypeDisplayName"
+sidebar_position: 20
+---
+
 # EntityTypeDisplayName
 
 Creates a default expression to compute the display names of an entity type's resources.

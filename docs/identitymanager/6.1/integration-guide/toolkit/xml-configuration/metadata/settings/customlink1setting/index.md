@@ -1,3 +1,9 @@
+---
+title: "CustomLink1Setting"
+description: "CustomLink1Setting"
+sidebar_position: 30
+---
+
 # CustomLink1Setting
 
 Used to display a given static HTML file to a custom URL address.

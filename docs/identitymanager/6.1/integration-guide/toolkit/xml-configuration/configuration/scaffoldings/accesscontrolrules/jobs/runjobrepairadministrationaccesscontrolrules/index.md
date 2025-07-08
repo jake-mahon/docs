@@ -1,3 +1,9 @@
+---
+title: "RunJobRepairAdministrationAccessControlRules"
+description: "RunJobRepairAdministrationAccessControlRules"
+sidebar_position: 100
+---
+
 # RunJobRepairAdministrationAccessControlRules
 
 Generates the rights to read task and job instances logs in UI for a given profile.

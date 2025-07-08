@@ -1,3 +1,9 @@
+---
+title: "Server Configuration"
+description: "Server Configuration"
+sidebar_position: 10
+---
+
 # Server Configuration
 
 Identity Manager Server's technical configuration includes settings on end-user authentication,

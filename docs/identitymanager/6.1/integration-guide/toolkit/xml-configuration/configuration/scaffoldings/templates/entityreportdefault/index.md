@@ -1,3 +1,9 @@
+---
+title: "EntityReportDefault"
+description: "EntityReportDefault"
+sidebar_position: 40
+---
+
 # EntityReportDefault
 
 Creates all configuration items to add a ReportQuery for an EntityType and profile.

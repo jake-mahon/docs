@@ -1,3 +1,9 @@
+---
+title: "EntityTypeDisplayTableAdaptable"
+description: "EntityTypeDisplayTableAdaptable"
+sidebar_position: 40
+---
+
 # EntityTypeDisplayTableAdaptable
 
 Displays all resources of a given entity type in an adaptable table.

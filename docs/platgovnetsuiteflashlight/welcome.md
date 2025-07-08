@@ -1,3 +1,9 @@
+---
+title: "Welcome"
+description: "Welcome"
+sidebar_position: 10
+---
+
 # Welcome
 
 Flashlight™ by Strongpoint is NetSuite Documentation for Everybody! Easy to install, easy to
@@ -22,8 +28,8 @@ Flashlight provides your organization these key benefits:
 
 #### Move Faster
 
-- Use the Flashlight [Dashboard](/docs/platgovnetsuiteflashlight/getting_started/dashboard.md) and the
-  [Entity Relationship Diagrams](/docs/platgovnetsuiteflashlight/using_flashlight/using_erd.md) to spot problems before they happen
+- Use the Flashlight [Dashboard](/docs/platgovnetsuiteflashlight/gettingstarted/dashboard.md) and the
+  [Entity Relationship Diagrams](/docs/platgovnetsuiteflashlight/usingflashlight/using_erd.md) to spot problems before they happen
   and respond to your users more quickly.
 - Now you can make better, faster decisions to drive your business forward.
 

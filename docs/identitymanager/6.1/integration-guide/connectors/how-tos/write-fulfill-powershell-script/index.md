@@ -1,3 +1,9 @@
+---
+title: "Write a PowerShell Script for Provisioning"
+description: "Write a PowerShell Script for Provisioning"
+sidebar_position: 80
+---
+
 # Write a PowerShell Script for Provisioning
 
 This guide shows how to write a PowerShell script used by the

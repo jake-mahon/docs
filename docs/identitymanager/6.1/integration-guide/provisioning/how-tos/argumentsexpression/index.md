@@ -1,3 +1,9 @@
+---
+title: "Compute a Resource Type's Provisioning Arguments"
+description: "Compute a Resource Type's Provisioning Arguments"
+sidebar_position: 10
+---
+
 # Compute a Resource Type's Provisioning Arguments
 
 This guide gives examples to understand how to configure a resource type's `ArgumentsExpression`

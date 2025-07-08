@@ -1,3 +1,9 @@
+---
+title: "CreateConnectorsJobs"
+description: "CreateConnectorsJobs"
+sidebar_position: 50
+---
+
 # CreateConnectorsJobs
 
 Creates all jobs by connector to launched task in the connector page.

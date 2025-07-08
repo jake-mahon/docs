@@ -1,3 +1,9 @@
+---
+title: "ResourceClassificationRule"
+description: "ResourceClassificationRule"
+sidebar_position: 110
+---
+
 # ResourceClassificationRule
 
 In Usercube, this type of rule is used to classify the resources based on a C# expression.

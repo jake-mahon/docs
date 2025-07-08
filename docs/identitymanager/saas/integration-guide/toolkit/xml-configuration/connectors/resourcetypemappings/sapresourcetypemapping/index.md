@@ -1,3 +1,9 @@
+---
+title: "Sap Resource Type Mapping"
+description: "Sap Resource Type Mapping"
+sidebar_position: 60
+---
+
 # Sap Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

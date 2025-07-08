@@ -1,3 +1,9 @@
+---
+title: "Dashboard Interface"
+description: "Dashboard Interface"
+sidebar_position: 40
+---
+
 # Dashboard Interface
 
 The Dashboard interface displays an overview of activity sessions, users, resources and related
@@ -13,7 +19,7 @@ The overview section shows information for the following:
   additional information.
 - Approvals Dashboard – Shows sessions waiting for approval. See the Approvals Dashboard topic for
   additional information.
-- Historical Dashboard – Shows previous sessions. See the [Historical Dashboard](/docs/privilegesecure/4.2/accessmanagement/admin/dashboard/historical.md)
+- Historical Dashboard – Shows previous sessions. See the [Historical Dashboard](/docs/privilegesecure/4.2/accessmanagement/admin/dashboard/historical/historical.md)
   topic for additional information.
 - Users Dashboard – Shows the users added to Privilege Secure. See the [Users Dashboard](/docs/privilegesecure/4.2/accessmanagement/admin/dashboard/users.md)
   topic for additional information.

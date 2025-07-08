@@ -1,3 +1,9 @@
+---
+title: "Synchronization"
+description: "Synchronization"
+sidebar_position: 60
+---
+
 # Synchronization
 
 The documentation is not yet available for this page and will be completed in the near future.

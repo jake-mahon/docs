@@ -1,3 +1,9 @@
+---
+title: "Usercube-Invoke-ServerJob"
+description: "Usercube-Invoke-ServerJob"
+sidebar_position: 230
+---
+
 # Usercube-Invoke-ServerJob
 
 ## Invoke a Job (Server Side)

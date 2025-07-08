@@ -1,3 +1,9 @@
+---
+title: "WorkflowAddandEndRecordEntityForm"
+description: "WorkflowAddandEndRecordEntityForm"
+sidebar_position: 10
+---
+
 # WorkflowAddandEndRecordEntityForm
 
 Displays a form to define the end date of an existing record, and replace it with a new record at

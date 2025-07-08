@@ -1,3 +1,9 @@
+---
+title: "Usercube-Upgrade-DatabaseVersion"
+description: "Usercube-Upgrade-DatabaseVersion"
+sidebar_position: 380
+---
+
 # Usercube-Upgrade-DatabaseVersion
 
 This tool is used to run the necessary migration scripts in order to upgrade the database structure

@@ -1,3 +1,9 @@
+---
+title: "Spider Page Not Found"
+description: "Spider Page Not Found"
+sidebar_position: 40
+---
+
 # Spider Page Not Found
 
 If you see a **Spider Page Not Found** error:

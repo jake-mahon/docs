@@ -1,3 +1,9 @@
+---
+title: "IGA and Usercube"
+description: "IGA and Usercube"
+sidebar_position: 10
+---
+
 # IGA and Usercube
 
 Usercube is a powerful tool for Identity Governance and Administration (IGA) automation.

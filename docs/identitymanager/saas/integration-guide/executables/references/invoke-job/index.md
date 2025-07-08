@@ -1,3 +1,9 @@
+---
+title: "Usercube-Invoke-Job"
+description: "Usercube-Invoke-Job"
+sidebar_position: 220
+---
+
 # Usercube-Invoke-Job
 
 This tool launches a job on the agent side.

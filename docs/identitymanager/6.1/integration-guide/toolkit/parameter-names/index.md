@@ -1,3 +1,9 @@
+---
+title: "Base32 Parameter Names"
+description: "Base32 Parameter Names"
+sidebar_position: 70
+---
+
 # Base32 Parameter Names
 
 ## Base32 Parameter Names

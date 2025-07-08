@@ -1,3 +1,9 @@
+---
+title: "Configuration Version Setting"
+description: "Configuration Version Setting"
+sidebar_position: 20
+---
+
 # Configuration Version Setting
 
 Used to track the current configuration version.

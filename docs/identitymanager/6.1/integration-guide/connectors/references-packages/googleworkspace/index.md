@@ -1,3 +1,9 @@
+---
+title: "Google Workspace"
+description: "Google Workspace"
+sidebar_position: 130
+---
+
 # Google Workspace
 
 Manages Google Workspace entities.

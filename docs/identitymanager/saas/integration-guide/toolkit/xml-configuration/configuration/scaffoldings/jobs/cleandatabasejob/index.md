@@ -1,3 +1,9 @@
+---
+title: "Clean Database Job"
+description: "Clean Database Job"
+sidebar_position: 10
+---
+
 # Clean Database Job
 
 Creates the job to clean old tasks and jobs instances with state InProgress.

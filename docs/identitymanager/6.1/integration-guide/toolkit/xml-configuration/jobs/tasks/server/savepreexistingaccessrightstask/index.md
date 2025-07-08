@@ -1,3 +1,9 @@
+---
+title: "SavePreExistingAccessRightsTask"
+description: "SavePreExistingAccessRightsTask"
+sidebar_position: 150
+---
+
 # SavePreExistingAccessRightsTask
 
 During an initial installation of Usercube, data normally provided by Usercube or through a

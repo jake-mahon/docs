@@ -1,3 +1,9 @@
+---
+title: "SaaS Environment"
+description: "SaaS Environment"
+sidebar_position: 10
+---
+
 # SaaS Environment
 
 When working in a SaaS environment, Usercube needs a specific architecture.

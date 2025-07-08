@@ -1,3 +1,9 @@
+---
+title: "Build Efficient Jobs"
+description: "Build Efficient Jobs"
+sidebar_position: 30
+---
+
 # Build Efficient Jobs
 
 This topic shows how to build efficient jobs by minimizing their costs.

@@ -1,3 +1,9 @@
+---
+title: "SingleRoleRule"
+description: "SingleRoleRule"
+sidebar_position: 170
+---
+
 # SingleRoleRule
 
 A single role rule assigns a single role to users who match given criteria.

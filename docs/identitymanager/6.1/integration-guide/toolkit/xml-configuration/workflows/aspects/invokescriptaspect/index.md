@@ -1,3 +1,9 @@
+---
+title: "InvokeScriptAspect"
+description: "InvokeScriptAspect"
+sidebar_position: 50
+---
+
 # InvokeScriptAspect
 
 Executes a customized script.

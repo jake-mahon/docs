@@ -1,3 +1,9 @@
+---
+title: "Tasks"
+description: "Tasks"
+sidebar_position: 20
+---
+
 # Tasks
 
 - [Agent Tasks](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/index.md)

@@ -1,3 +1,9 @@
+---
+title: "Reserved identifiers"
+description: "Reserved identifiers"
+sidebar_position: 60
+---
+
 # Reserved identifiers
 
 Identifiers of [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and

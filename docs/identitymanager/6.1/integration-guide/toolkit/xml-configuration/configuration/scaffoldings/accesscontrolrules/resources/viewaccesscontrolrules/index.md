@@ -1,3 +1,9 @@
+---
+title: "ViewAccessControlRules"
+description: "ViewAccessControlRules"
+sidebar_position: 40
+---
+
 # ViewAccessControlRules
 
 Generates the permissions to view an entity type's resources.

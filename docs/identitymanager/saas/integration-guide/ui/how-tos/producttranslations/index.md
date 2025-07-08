@@ -1,3 +1,9 @@
+---
+title: "Import Product Translations into Identity Manager"
+description: "Import Product Translations into Identity Manager"
+sidebar_position: 10
+---
+
 # Import Product Translations into Identity Manager
 
 This topic shows how to import product translations into Identity Manager. A product translation

@@ -1,3 +1,9 @@
+---
+title: "Settings Overview"
+description: "Settings Overview"
+sidebar_position: 30
+---
+
 # Settings Overview
 
 The Settings menu is located on the Netwrix Dashboard page.

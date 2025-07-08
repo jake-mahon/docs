@@ -1,3 +1,9 @@
+---
+title: "SAP Netweaver"
+description: "SAP Netweaver"
+sidebar_position: 240
+---
+
 # SAP Netweaver
 
 This connector exports and fulfills users and roles from/to an

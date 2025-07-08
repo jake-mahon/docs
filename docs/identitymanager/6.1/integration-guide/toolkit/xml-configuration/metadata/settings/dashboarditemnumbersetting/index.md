@@ -1,3 +1,9 @@
+---
+title: "DashboardItemNumberSetting"
+description: "DashboardItemNumberSetting"
+sidebar_position: 50
+---
+
 # DashboardItemNumberSetting
 
 Used to customize the number of links to display on each section on the Dashboard. If no value is

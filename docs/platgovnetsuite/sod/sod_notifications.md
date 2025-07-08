@@ -1,3 +1,9 @@
+---
+title: "SoD Notifications"
+description: "SoD Notifications"
+sidebar_position: 50
+---
+
 # SoD Notifications
 
 SoD notifications offer a streamlined process for creating change requests and presenting

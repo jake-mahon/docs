@@ -1,3 +1,9 @@
+---
+title: "Create a Role Manually"
+description: "Create a Role Manually"
+sidebar_position: 30
+---
+
 # Create a Role Manually
 
 How to create single roles manually.

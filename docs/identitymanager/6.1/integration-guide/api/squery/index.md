@@ -1,3 +1,9 @@
+---
+title: "API query grammar"
+description: "API query grammar"
+sidebar_position: 20
+---
+
 # API query grammar
 
 Usercube's API query language allows to express exactly needed data in an API's GET call. Query is

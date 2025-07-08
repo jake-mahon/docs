@@ -1,3 +1,9 @@
+---
+title: "SharedFolders"
+description: "SharedFolders"
+sidebar_position: 290
+---
+
 # SharedFolders
 
 This connector exports users and permissions from Windows shared folders.

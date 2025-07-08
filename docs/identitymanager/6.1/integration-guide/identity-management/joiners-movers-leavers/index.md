@@ -1,3 +1,9 @@
+---
+title: "Identity Lifecycle: Joiners, Movers and Leavers"
+description: "Identity Lifecycle: Joiners, Movers and Leavers"
+sidebar_position: 20
+---
+
 # Identity Lifecycle: Joiners, Movers and Leavers
 
 Identities' Joiners, Movers and Leavers (JML) process can be made easy by using the adequate model:

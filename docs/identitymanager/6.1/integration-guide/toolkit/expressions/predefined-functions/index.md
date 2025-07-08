@@ -1,3 +1,9 @@
+---
+title: "Predefined functions"
+description: "Predefined functions"
+sidebar_position: 20
+---
+
 # Predefined functions
 
 Usercube provides a set of predefined functions that simplify the configuration of entity property

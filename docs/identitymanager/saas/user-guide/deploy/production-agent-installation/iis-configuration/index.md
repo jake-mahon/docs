@@ -1,3 +1,9 @@
+---
+title: "Configure the Pool and Site"
+description: "Configure the Pool and Site"
+sidebar_position: 30
+---
+
 # Configure the Pool and Site
 
 This guide shows how to configure the application pool and website via IIS.

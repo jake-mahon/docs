@@ -1,3 +1,9 @@
+---
+title: "Reports"
+description: "Reports"
+sidebar_position: 60
+---
+
 # Reports
 
 The Netwrix Dashboard **Reports** tab has links to all of the predefined reports and log files.
@@ -70,7 +76,7 @@ name. Separate each name with a comma.
 > ![Access Report Profile Permissions Changes](/img/product_docs/platgovsalesforce/reports/access_reports_profile_changes.webp)
 >
 > **Changes to Users**: Displays the changes to tracked user data fields. Refer to
-> [Enhanced CPQ Support](/docs/platgovsalesforce/change_management/enhanced_cpq_support.md) for more information on
+> [Enhanced CPQ Support](/docs/platgovsalesforce/changemanagement/enhanced_cpq_support.md) for more information on
 > setting up tracking.
 >
 > If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply
@@ -175,27 +181,27 @@ These reports are available from **Netwrix Dashboard** > **Reports** > **Customi
 
 These reports are available from **Netwrix Dashboard** > **Reports** > **Clean Up**.
 
-> [Default Clean Up List View](/docs/platgovsalesforce/clean_up/cleanup_reports.md#default-clean-up-list-view)
+> [Default Clean Up List View](/docs/platgovsalesforce/cleanup/cleanup_reports.md#default-clean-up-list-view)
 >
-> [Open Clean Up Status](/docs/platgovsalesforce/clean_up/cleanup_reports.md#open-clean-up-status)
+> [Open Clean Up Status](/docs/platgovsalesforce/cleanup/cleanup_reports.md#open-clean-up-status)
 >
-> [Clean Up Waiting for Info](/docs/platgovsalesforce/clean_up/cleanup_reports.md#clean-up-waiting-for-info)
+> [Clean Up Waiting for Info](/docs/platgovsalesforce/cleanup/cleanup_reports.md#clean-up-waiting-for-info)
 >
-> [Customizations Excluded from Clean Up](/docs/platgovsalesforce/clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
+> [Customizations Excluded from Clean Up](/docs/platgovsalesforce/cleanup/cleanup_reports.md#customizations-excluded-from-clean-up)
 >
-> [Unused Fields](/docs/platgovsalesforce/clean_up/cleanup_reports.md#unused-fields)
+> [Unused Fields](/docs/platgovsalesforce/cleanup/cleanup_reports.md#unused-fields)
 >
-> [Unused Apex Code](/docs/platgovsalesforce/clean_up/cleanup_reports.md#unused-apex-code)
+> [Unused Apex Code](/docs/platgovsalesforce/cleanup/cleanup_reports.md#unused-apex-code)
 >
-> [Unused Reports](/docs/platgovsalesforce/clean_up/cleanup_reports.md#unused-reports)
+> [Unused Reports](/docs/platgovsalesforce/cleanup/cleanup_reports.md#unused-reports)
 >
-> [Customizations with Inactive Owners](/docs/platgovsalesforce/clean_up/cleanup_reports.md#customizations-with-inactive-owners)
+> [Customizations with Inactive Owners](/docs/platgovsalesforce/cleanup/cleanup_reports.md#customizations-with-inactive-owners)
 >
-> [Customizations without Related Processes](/docs/platgovsalesforce/clean_up/cleanup_reports.md#customizations-without-related-processes)
+> [Customizations without Related Processes](/docs/platgovsalesforce/cleanup/cleanup_reports.md#customizations-without-related-processes)
 >
-> [Custom Fields without Help Text](/docs/platgovsalesforce/clean_up/cleanup_reports.md#custom-fields-without-help-text)
+> [Custom Fields without Help Text](/docs/platgovsalesforce/cleanup/cleanup_reports.md#custom-fields-without-help-text)
 >
-> [Custom Fields without Description](/docs/platgovsalesforce/clean_up/cleanup_reports.md#custom-fields-without-description)
+> [Custom Fields without Description](/docs/platgovsalesforce/cleanup/cleanup_reports.md#custom-fields-without-description)
 
 ## Change Enablement
 

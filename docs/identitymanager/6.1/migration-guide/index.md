@@ -1,3 +1,9 @@
+---
+title: "Migration Guide"
+description: "Migration Guide"
+sidebar_position: 50
+---
+
 # Migration Guide
 
 This guide is designed to provide step-by-step procedures in order to migrate Usercube from your

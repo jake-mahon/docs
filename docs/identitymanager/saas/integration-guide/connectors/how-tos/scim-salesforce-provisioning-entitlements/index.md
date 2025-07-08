@@ -1,3 +1,9 @@
+---
+title: "Provision Salesforce Users' Profiles via SCIM"
+description: "Provision Salesforce Users' Profiles via SCIM"
+sidebar_position: 170
+---
+
 # Provision Salesforce Users' Profiles via SCIM
 
 This guide shows how to provision a user's account profile in a Salesforce system with the SCIM

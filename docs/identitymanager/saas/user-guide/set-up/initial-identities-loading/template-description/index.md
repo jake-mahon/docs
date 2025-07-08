@@ -1,3 +1,9 @@
+---
+title: "Template Description"
+description: "Template Description"
+sidebar_position: 30
+---
+
 # Template Description
 
 Description of the MS Excel template for the creation of the identities repository.

@@ -1,3 +1,9 @@
+---
+title: "Create a Connector"
+description: "Create a Connector"
+sidebar_position: 70
+---
+
 # Create a Connector
 
 How to implement a [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)

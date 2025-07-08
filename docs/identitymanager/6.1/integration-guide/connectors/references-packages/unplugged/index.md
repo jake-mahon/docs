@@ -1,3 +1,9 @@
+---
+title: "Unplugged"
+description: "Unplugged"
+sidebar_position: 440
+---
+
 # Unplugged
 
 Manages an unplugged system with a completely custom data model.

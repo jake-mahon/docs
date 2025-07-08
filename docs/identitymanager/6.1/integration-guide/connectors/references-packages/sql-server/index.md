@@ -1,3 +1,9 @@
+---
+title: "SQL Server"
+description: "SQL Server"
+sidebar_position: 350
+---
+
 # SQL Server
 
 Export data from a SQL Server database.

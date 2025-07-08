@@ -1,3 +1,9 @@
+---
+title: "AccessCertificationOwnerFilter"
+description: "AccessCertificationOwnerFilter"
+sidebar_position: 30
+---
+
 # AccessCertificationOwnerFilter
 
 When running an Access Certification Campaign, this object defines the scope of assignments of

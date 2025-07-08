@@ -1,3 +1,9 @@
+---
+title: "InternalWorkflow"
+description: "InternalWorkflow"
+sidebar_position: 90
+---
+
 # InternalWorkflow
 
 This connector triggers workflows in Identity Manager for a system's provisioning orders.

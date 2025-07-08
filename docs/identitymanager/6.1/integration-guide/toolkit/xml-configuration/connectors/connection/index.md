@@ -1,3 +1,9 @@
+---
+title: "Connection"
+description: "Connection"
+sidebar_position: 20
+---
+
 # Connection
 
 A connection represents a link between a

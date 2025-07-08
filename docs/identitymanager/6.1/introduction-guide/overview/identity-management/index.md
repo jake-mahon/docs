@@ -1,3 +1,9 @@
+---
+title: "Identity Management"
+description: "Identity Management"
+sidebar_position: 10
+---
+
 # Identity Management
 
 Managing identities' entitlements requires starting by managing identities themselves.

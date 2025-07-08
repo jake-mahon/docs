@@ -1,3 +1,9 @@
+---
+title: "Job Execution Access Control Rules"
+description: "Job Execution Access Control Rules"
+sidebar_position: 50
+---
+
 # Job Execution Access Control Rules
 
 This scaffolding assigns a set of rights to a given profile to execute any job, and view all job

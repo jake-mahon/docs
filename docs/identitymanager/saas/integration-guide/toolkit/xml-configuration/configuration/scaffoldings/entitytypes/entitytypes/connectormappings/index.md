@@ -1,3 +1,9 @@
+---
+title: "Connector Mappings"
+description: "Connector Mappings"
+sidebar_position: 10
+---
+
 # Connector Mappings
 
 This scaffolding allows the user to generate the mapping of an entity in a given connector.

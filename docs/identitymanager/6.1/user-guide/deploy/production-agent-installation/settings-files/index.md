@@ -1,3 +1,9 @@
+---
+title: "Configure the Agent's Settings"
+description: "Configure the Agent's Settings"
+sidebar_position: 10
+---
+
 # Configure the Agent's Settings
 
 This guide shows how to configure the agent's application settings via the `web.config`,

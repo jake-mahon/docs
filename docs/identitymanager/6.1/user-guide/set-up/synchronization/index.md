@@ -1,3 +1,9 @@
+---
+title: "Synchronize Data"
+description: "Synchronize Data"
+sidebar_position: 60
+---
+
 # Synchronize Data
 
 How to launch data synchronization, i.e. read managed systems' data and load it into Usercube.

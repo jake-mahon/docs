@@ -1,3 +1,9 @@
+---
+title: "RisksAdministrationAccessControlRules"
+description: "RisksAdministrationAccessControlRules"
+sidebar_position: 130
+---
+
 # RisksAdministrationAccessControlRules
 
 ## Examples

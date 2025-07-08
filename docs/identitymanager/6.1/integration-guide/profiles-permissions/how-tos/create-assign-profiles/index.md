@@ -1,3 +1,9 @@
+---
+title: "Create and Assign Profiles"
+description: "Create and Assign Profiles"
+sidebar_position: 10
+---
+
 # Create and Assign Profiles
 
 This guide shows how to create in the XML configuration profiles and the appropriate rules to assign

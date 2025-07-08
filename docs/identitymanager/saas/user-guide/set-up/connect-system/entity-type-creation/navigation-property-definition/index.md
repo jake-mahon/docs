@@ -1,3 +1,9 @@
+---
+title: "Define Navigation Properties"
+description: "Define Navigation Properties"
+sidebar_position: 40
+---
+
 # Define Navigation Properties
 
 How to define the properties which describe the

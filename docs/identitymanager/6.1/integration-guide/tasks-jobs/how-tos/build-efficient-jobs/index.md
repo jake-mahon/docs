@@ -1,3 +1,9 @@
+---
+title: "Build Efficient Jobs"
+description: "Build Efficient Jobs"
+sidebar_position: 10
+---
+
 # Build Efficient Jobs
 
 This guide shows how to build efficient jobs by minimizing their costs.

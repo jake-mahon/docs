@@ -1,3 +1,9 @@
+---
+title: "Azure"
+description: "Azure"
+sidebar_position: 20
+---
+
 # Azure
 
 This connector exports

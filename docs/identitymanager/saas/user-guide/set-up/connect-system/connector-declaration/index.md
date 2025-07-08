@@ -1,3 +1,9 @@
+---
+title: "Create the Connector"
+description: "Create the Connector"
+sidebar_position: 20
+---
+
 # Create the Connector
 
 How to declare the technical container of a

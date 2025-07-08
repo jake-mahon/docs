@@ -190,4 +190,4 @@ throwing UAC prompts and help you create rules to bypass them, you can do that r
 Thank you very much for watching, and talk to you soon.
 
 Related
-article: [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/leastprivilege/windowseventforwarding.md)
+article: [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/knowledgebase/eventing/windowseventforwarding.md)

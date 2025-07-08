@@ -1,3 +1,9 @@
+---
+title: "EasyVistaResourceTypeMapping"
+description: "EasyVistaResourceTypeMapping"
+sidebar_position: 20
+---
+
 # EasyVistaResourceTypeMapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

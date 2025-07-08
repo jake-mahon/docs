@@ -1,3 +1,9 @@
+---
+title: "AppDisplaySetting"
+description: "AppDisplaySetting"
+sidebar_position: 10
+---
+
 # AppDisplaySetting
 
 This setting is used to customize the application display.

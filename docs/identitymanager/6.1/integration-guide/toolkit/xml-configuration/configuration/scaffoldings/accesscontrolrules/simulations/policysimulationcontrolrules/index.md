@@ -1,3 +1,9 @@
+---
+title: "PolicySimulationControlRules"
+description: "PolicySimulationControlRules"
+sidebar_position: 10
+---
+
 # PolicySimulationControlRules
 
 ## Examples

@@ -1,3 +1,9 @@
+---
+title: "Profile Permission Comparison"
+description: "Profile Permission Comparison"
+sidebar_position: 80
+---
+
 # Profile Permission Comparison
 
 The Profile / Permission Set Comparison enables you to efficiently clean up and secure your Orgs.

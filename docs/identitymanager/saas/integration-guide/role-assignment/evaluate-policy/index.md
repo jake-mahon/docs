@@ -1,3 +1,9 @@
+---
+title: "Evaluate Policy"
+description: "Evaluate Policy"
+sidebar_position: 40
+---
+
 # Evaluate Policy
 
 Evaluate Policy is the core algorithm of the assignment policy. See the

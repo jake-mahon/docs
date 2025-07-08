@@ -1,3 +1,9 @@
+---
+title: "MonitoringAdministrationAccessControlRules"
+description: "MonitoringAdministrationAccessControlRules"
+sidebar_position: 10
+---
+
 # MonitoringAdministrationAccessControlRules
 
 Generates the access control rule which gives to a profile the permission to query the monitoring

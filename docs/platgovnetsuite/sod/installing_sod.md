@@ -1,3 +1,9 @@
+---
+title: "Installing SoD"
+description: "Installing SoD"
+sidebar_position: 10
+---
+
 # Installing SoD
 
 ## Installing the SoD Bundle
@@ -24,5 +30,5 @@ Note the SoD Bundle ID has been updated due to NetSuite changes.
 
 5. Install the Bundle as usual.
 6. Review the
-   [Default SoD Custom Record Types and Permission Lists](/docs/platgovnetsuite/installing_strongpoint/setting_permissions.md)
+   [Default SoD Custom Record Types and Permission Lists](/docs/platgovnetsuite/installation/setting_permissions.md)
    table and add any permissions needed to your Custom Roles.

@@ -1,3 +1,9 @@
+---
+title: "SAP ERP 6.0 and SAP S4/HANA"
+description: "SAP ERP 6.0 and SAP S4/HANA"
+sidebar_position: 230
+---
+
 # SAP ERP 6.0 and SAP S4/HANA
 
 This connector exports and fulfills users and roles from/to an

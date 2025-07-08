@@ -1,3 +1,9 @@
+---
+title: "Configure a Parameterized Role"
+description: "Configure a Parameterized Role"
+sidebar_position: 80
+---
+
 # Configure a Parameterized Role
 
 How to reduce the number of roles in the model by configuring roles with parameters.

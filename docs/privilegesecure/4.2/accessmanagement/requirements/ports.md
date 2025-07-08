@@ -1,3 +1,9 @@
+---
+title: "Ports"
+description: "Ports"
+sidebar_position: 50
+---
+
 # Ports
 
 Configure appropriate firewall rules to allow these connections to Privilege Secure.

@@ -1,3 +1,9 @@
+---
+title: "How to Start"
+description: "How to Start"
+sidebar_position: 10
+---
+
 # How to Start
 
 How to start integrating Usercube with your own needs.

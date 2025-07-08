@@ -1,3 +1,9 @@
+---
+title: "Connectors"
+description: "Connectors"
+sidebar_position: 20
+---
+
 # Connectors
 
 - [ Connector Resource Type Access Control ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md)

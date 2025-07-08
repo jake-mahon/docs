@@ -1,3 +1,9 @@
+---
+title: "Create the Entity Type"
+description: "Create the Entity Type"
+sidebar_position: 10
+---
+
 # Create the Entity Type
 
 How to create the technical container of an

@@ -1,3 +1,9 @@
+---
+title: "End-User Authentication"
+description: "End-User Authentication"
+sidebar_position: 30
+---
+
 # End-User Authentication
 
 ## Overview

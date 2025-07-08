@@ -1,3 +1,9 @@
+---
+title: "Manual Provisioning"
+description: "Manual Provisioning"
+sidebar_position: 30
+---
+
 # Manual Provisioning
 
 Identity Manager natively sends notifications concerning manual provisioning.

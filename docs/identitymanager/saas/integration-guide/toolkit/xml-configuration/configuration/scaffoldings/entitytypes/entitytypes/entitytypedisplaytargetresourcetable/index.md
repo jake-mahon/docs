@@ -1,3 +1,9 @@
+---
+title: "Entity Type Display Target Resource Table"
+description: "Entity Type Display Target Resource Table"
+sidebar_position: 50
+---
+
 # Entity Type Display Target Resource Table
 
 Creates a displaytable for the given entity. If there are less than 4 scalar properties, the

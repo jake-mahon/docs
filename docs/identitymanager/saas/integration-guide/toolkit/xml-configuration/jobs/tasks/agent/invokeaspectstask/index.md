@@ -1,3 +1,9 @@
+---
+title: "Invoke Aspects Task"
+description: "Invoke Aspects Task"
+sidebar_position: 60
+---
+
 # Invoke Aspects Task
 
 Call specific api in Identity Manager.

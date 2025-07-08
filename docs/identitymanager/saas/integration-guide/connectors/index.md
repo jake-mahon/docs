@@ -1,3 +1,9 @@
+---
+title: "Connectors"
+description: "Connectors"
+sidebar_position: 40
+---
+
 # Connectors
 
 Connectors are Identity Manager's links to the managed systems, the technical representation of the

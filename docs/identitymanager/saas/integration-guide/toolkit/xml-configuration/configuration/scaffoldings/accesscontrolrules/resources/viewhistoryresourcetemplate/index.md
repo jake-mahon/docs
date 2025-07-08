@@ -1,3 +1,9 @@
+---
+title: "View History Resource Template"
+description: "View History Resource Template"
+sidebar_position: 50
+---
+
 # View History Resource Template
 
 Generates an access control rule giving to the specified profile the permission to browse the

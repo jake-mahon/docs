@@ -1,3 +1,9 @@
+---
+title: "Notification Aspect"
+description: "Notification Aspect"
+sidebar_position: 70
+---
+
 # Notification Aspect
 
 Sends a notification email to one or several users.

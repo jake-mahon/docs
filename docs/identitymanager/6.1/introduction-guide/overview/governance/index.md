@@ -1,3 +1,9 @@
+---
+title: "Governance"
+description: "Governance"
+sidebar_position: 30
+---
+
 # Governance
 
 Usercube not only gives the right entitlements to the right identities, but also makes sure that,

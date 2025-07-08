@@ -1,3 +1,9 @@
+---
+title: "Set up SharePoint's Export and Synchronization"
+description: "Set up SharePoint's Export and Synchronization"
+sidebar_position: 150
+---
+
 # Set up SharePoint's Export and Synchronization
 
 This guide shows how to set up a

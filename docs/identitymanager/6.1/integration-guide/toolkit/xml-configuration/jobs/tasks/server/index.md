@@ -1,3 +1,9 @@
+---
+title: "Server Tasks"
+description: "Server Tasks"
+sidebar_position: 20
+---
+
 # Server Tasks
 
 - #### [BuildRoleModelTask](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/jobs/tasks/server/buildrolemodeltask/index.md)

@@ -1,3 +1,9 @@
+---
+title: "Export Objects"
+description: "Export Objects"
+sidebar_position: 40
+---
+
 # Export Objects
 
 Administrators can use this to export one or more objects, including all child objects, into a

@@ -1,3 +1,9 @@
+---
+title: "Display Table"
+description: "Display Table"
+sidebar_position: 40
+---
+
 # Display Table
 
 A table displays a collections of entity type data grouped into rows.
