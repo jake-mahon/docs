@@ -1,3 +1,9 @@
+---
+title: "File System Solution"
+description: "File System Solution"
+sidebar_position: 130
+---
+
 # File System Solution
 
 The File Systems Solution is an auditing, compliance, and governance solution for Windows, NAS,
@@ -24,17 +30,17 @@ sensitive data, or Sensitive Data Discovery Auditing (SEEK).
 Supported Platforms
 
 - See the
-  [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
   topic for a full list of supported platforms.
 
 Requirements, Permissions, and Ports
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
   topic for additional information.
 
 - Ports vary based on the Scan Mode Option selected. See the
-  [File System Scan Options](/docs/accessanalyzer/11.6/requirements/solutions/filesystem/scanoptions.md)
+  [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md)
   topic for additional information.
 
 Sensitive Data Discovery Considerations

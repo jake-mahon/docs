@@ -1,3 +1,9 @@
+---
+title: "AWS: Login Roles"
+description: "AWS: Login Roles"
+sidebar_position: 20
+---
+
 # AWS: Login Roles
 
 The Login Roles page is where the previously created AWS Roles are added. It is a wizard page for
@@ -10,7 +16,7 @@ the categories of:
 ![AWS Query Login Roles](/img/product_docs/accessanalyzer/11.6/admin/datacollector/aws/loginroles.webp)
 
 Add the login roles that will allow Enterprise Auditor to scan the AWS accounts. See the
-[Configure AWS for Scans](/docs/accessanalyzer/11.6/requirements/target/config/aws.md)
+[Configure AWS for Scans](/docs/accessanalyzer/11.6/requirements/aws/aws_2.md)
 topic for additional information. The page has the following options:
 
 - Import From File – Browse to the location of a CSV file from which to import the roles

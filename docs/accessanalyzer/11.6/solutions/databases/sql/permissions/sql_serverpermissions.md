@@ -1,3 +1,9 @@
+---
+title: "SQL_ServerPermissions Job"
+description: "SQL_ServerPermissions Job"
+sidebar_position: 50
+---
+
 # SQL_ServerPermissions Job
 
 The SQL_ServerPermissions Job analyzes permissions granted at the server level and reports on

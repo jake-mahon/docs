@@ -1,3 +1,9 @@
+---
+title: "Exempted File Extensions"
+description: "Exempted File Extensions"
+sidebar_position: 20
+---
+
 # Exempted File Extensions
 
 The following file extensions are always exempted from Sensitive Data Discovery scans:

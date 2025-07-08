@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox Data Collector"
+description: "EWSMailbox Data Collector"
+sidebar_position: 140
+---
+
 # EWSMailbox Data Collector
 
 The EWSMailbox Data Collector provides configuration options to scan mailbox contents, permissions,
@@ -46,6 +52,6 @@ which contains the following wizard pages:
 - [EWSMailbox: SDD Options](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/sddoptions.md)
 - [EWSMailbox: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/criteria.md)
 - [EWSMailbox: Filter](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/filter.md)
-- [EWSMailbox: Search Filter](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/searchfilter.md)
+- [EWSMailbox: Search Filter](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/searchfilter/searchfilter.md)
 - [EWSMailbox: Results](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/results.md)
 - [EWSMailbox: Summary](/docs/accessanalyzer/11.6/admin/datacollector/ewsmailbox/summary.md)

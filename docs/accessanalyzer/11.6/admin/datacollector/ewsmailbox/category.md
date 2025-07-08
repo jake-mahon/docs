@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Category"
+description: "EWSMailbox: Category"
+sidebar_position: 10
+---
+
 # EWSMailbox: Category
 
 The Category page identifies which type of EWSMailbox information is retrieved during the scan.

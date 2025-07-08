@@ -1,3 +1,9 @@
+---
+title: "Scoping > SP_TrusteeAccess Job"
+description: "Scoping > SP_TrusteeAccess Job"
+sidebar_position: 10
+---
+
 # Scoping > SP_TrusteeAccess Job
 
 The SP_TrusteeAccess job allows you to scope a list of users to audit their access across the

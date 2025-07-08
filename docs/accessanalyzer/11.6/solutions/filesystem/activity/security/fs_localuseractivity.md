@@ -1,3 +1,9 @@
+---
+title: "FS_LocalUserActivity Job"
+description: "FS_LocalUserActivity Job"
+sidebar_position: 30
+---
+
 # FS_LocalUserActivity Job
 
 The FS_LocalUserActivity job is designed to report on local user activity event information from

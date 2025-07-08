@@ -1,3 +1,9 @@
+---
+title: "7.Containers Job Group"
+description: "7.Containers Job Group"
+sidebar_position: 90
+---
+
 # 7.Containers Job Group
 
 The 7.Containers Job Group reports on all Active Directory permissions applied to container objects

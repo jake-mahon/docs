@@ -1,3 +1,9 @@
+---
+title: "Report Roles Tab"
+description: "Report Roles Tab"
+sidebar_position: 50
+---
+
 # Report Roles Tab
 
 The Report Roles tab is part of the Role Bases Access feature of Enterprise Auditor. If Role Based

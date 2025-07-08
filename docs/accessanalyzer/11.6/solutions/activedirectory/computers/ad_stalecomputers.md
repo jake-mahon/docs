@@ -1,3 +1,9 @@
+---
+title: "AD_StaleComputers Job"
+description: "AD_StaleComputers Job"
+sidebar_position: 30
+---
+
 # AD_StaleComputers Job
 
 The AD_StaleComputers Job provides details on stale computers that may be candidates for cleanup.
@@ -57,5 +63,5 @@ Analysis parameters that can be customized have the following default values:
 | 1. Identify Stale Computers | @consider_disable           | 1             | A computer object that has been disabled: - Value 1 = Disabled computers are included as stale - Value 0 = Disabled computers are not included as stale |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.

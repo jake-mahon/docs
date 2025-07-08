@@ -1,3 +1,9 @@
+---
+title: "Global Settings"
+description: "Global Settings"
+sidebar_position: 20
+---
+
 # Global Settings
 
 The global settings have an overall impact on the running ofEnterprise Auditor jobs. Settings are
@@ -79,5 +85,5 @@ select a global setting to configure:
     - Creating a Storage Profiles requires Microsoft® SQL® Server information
 
 See the
-[Getting Started](/docs/accessanalyzer/11.6/gettingstarted.md) topic
+[Getting Started](/docs/accessanalyzer/11.6/overview/gettingstarted.md) topic
 for additional information.

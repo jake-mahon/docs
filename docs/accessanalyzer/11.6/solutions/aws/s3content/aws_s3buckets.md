@@ -1,3 +1,9 @@
+---
+title: "AWS_S3Buckets Job"
+description: "AWS_S3Buckets Job"
+sidebar_position: 10
+---
+
 # AWS_S3Buckets Job
 
 The AWS_S3Buckets job provides a summary of AWS S3 buckets including total object size and counts.

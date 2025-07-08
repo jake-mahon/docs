@@ -1,3 +1,9 @@
+---
+title: "FS_Ransomware Job"
+description: "FS_Ransomware Job"
+sidebar_position: 60
+---
+
 # FS_Ransomware Job
 
 The FS_Ransomware job is comprised of analysis and reports which use the data collected by the

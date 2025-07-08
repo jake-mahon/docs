@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory: Results"
+description: "AzureADInventory: Results"
+sidebar_position: 60
+---
+
 # AzureADInventory: Results
 
 The Results page is where the properties from Microsoft Entra ID to be gathered are selected. It is

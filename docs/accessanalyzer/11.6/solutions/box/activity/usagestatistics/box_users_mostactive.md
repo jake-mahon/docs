@@ -1,3 +1,9 @@
+---
+title: "Box_Users_MostActive Job"
+description: "Box_Users_MostActive Job"
+sidebar_position: 30
+---
+
 # Box_Users_MostActive Job
 
 The Box_Users_MostActive Job analyzes user activity to highlight the most active and potentially

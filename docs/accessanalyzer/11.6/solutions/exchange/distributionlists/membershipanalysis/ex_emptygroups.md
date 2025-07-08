@@ -1,3 +1,9 @@
+---
+title: "EX_EmptyGroups Job"
+description: "EX_EmptyGroups Job"
+sidebar_position: 20
+---
+
 # EX_EmptyGroups Job
 
 The EX_EmptyGroups job identifies empty distribution groups that are candidates for cleanup.

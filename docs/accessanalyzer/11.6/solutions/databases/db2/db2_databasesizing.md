@@ -1,3 +1,9 @@
+---
+title: "Configuration > Db2_DatabaseSizing Job"
+description: "Configuration > Db2_DatabaseSizing Job"
+sidebar_position: 30
+---
+
 # Configuration > Db2_DatabaseSizing Job
 
 The Db2_DatabaseSizing job provides details on overall database sizes.

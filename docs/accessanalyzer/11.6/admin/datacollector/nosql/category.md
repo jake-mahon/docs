@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Category"
+description: "NoSQL: Category"
+sidebar_position: 20
+---
+
 # NoSQL: Category
 
 The Category page in the NoSQL Data Collector Wizard lists the following query categories,

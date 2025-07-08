@@ -1,3 +1,9 @@
+---
+title: "AD_GroupMembershipPermissions Job"
+description: "AD_GroupMembershipPermissions Job"
+sidebar_position: 10
+---
+
 # AD_GroupMembershipPermissions Job
 
 The AD_GroupMembershipPermissions Job highlights all Active Directory users that are capable of

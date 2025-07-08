@@ -1,3 +1,9 @@
+---
+title: "Host Management Activities"
+description: "Host Management Activities"
+sidebar_position: 30
+---
+
 # Host Management Activities
 
 The Activities pane available at the Host Management node and at the individual host list nodes

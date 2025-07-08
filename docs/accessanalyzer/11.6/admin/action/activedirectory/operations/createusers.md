@@ -1,3 +1,9 @@
+---
+title: "Create Users"
+description: "Create Users"
+sidebar_position: 50
+---
+
 # Create Users
 
 Use the Create Users page to create users on the selected target.

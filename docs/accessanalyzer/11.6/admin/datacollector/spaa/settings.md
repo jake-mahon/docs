@@ -1,3 +1,9 @@
+---
+title: "SPAA: SharePoint Data Collection Settings"
+description: "SPAA: SharePoint Data Collection Settings"
+sidebar_position: 40
+---
+
 # SPAA: SharePoint Data Collection Settings
 
 The SharePoint data collection settings page is where additional scan settings are configured. It is

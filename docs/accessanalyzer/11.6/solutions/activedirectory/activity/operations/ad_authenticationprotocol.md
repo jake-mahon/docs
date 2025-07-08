@@ -1,3 +1,9 @@
+---
+title: "AD_AuthenticationProtocol Job"
+description: "AD_AuthenticationProtocol Job"
+sidebar_position: 10
+---
+
 # AD_AuthenticationProtocol Job
 
 The AD_Authentication Job shows what protocols are being used to authenticate across the environment

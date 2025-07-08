@@ -1,3 +1,9 @@
+---
+title: "Redshift_SensitiveDataScan Job"
+description: "Redshift_SensitiveDataScan Job"
+sidebar_position: 20
+---
+
 # Redshift_SensitiveDataScan Job
 
 This job discovers sensitive data in PostgreSQL databases on pre-defined or user-defined criteria.

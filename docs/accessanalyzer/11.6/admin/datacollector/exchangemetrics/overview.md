@@ -1,10 +1,16 @@
+---
+title: "ExchangeMetrics Data Collector"
+description: "ExchangeMetrics Data Collector"
+sidebar_position: 180
+---
+
 # ExchangeMetrics Data Collector
 
 The ExchangeMetrics Data Collector collects Mail-Flow metrics from the Exchange Message Tracking
 Logs on the Exchange servers. Some examples of this include server volume and message size
 statistics. This data collector runs as an applet over RPC connection to process and collect
 summarized metrics from the Message Tracking Log. See the
-[Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/solutions/exchange/support.md)
+[Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/exchange/support/support.md)
 topic for a complete list of supported platforms.
 
 The ExchangeMetrics Data Collector has been preconfigured within the Exchange Solution. Both this
@@ -27,7 +33,7 @@ Permissions
 - Member of the local Administrator group on the targeted Exchange server(s)
 
 See the
-[Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/mailflow.md)
+[Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/mailflow.md)
 topic for additional information.
 
 ## ExchangeMetrics Query Configuration

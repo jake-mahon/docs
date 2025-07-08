@@ -1,3 +1,9 @@
+---
+title: "0.Collection > AD_ActivityCollection Job"
+description: "0.Collection > AD_ActivityCollection Job"
+sidebar_position: 20
+---
+
 # 0.Collection > AD_ActivityCollection Job
 
 The AD_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix
@@ -32,7 +38,7 @@ The AD_ActivityCollection page has the following configurable parameters:
     **NOTE:** The import of AD events and authentication events is disabled by default. You must
     enable these parameters for the activity data to be imported into the Netwrix Access Information
     Center. See the
-    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/11.6/config/activedirectory/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
+    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
     topic for instructions.
 
 - List of attributes to track for Object Modified changes
@@ -64,7 +70,7 @@ API server.
 
 **NOTE:** Ensure the Activity Monitor API Server and the required Connection Profile are
 successfully set up. See the
-[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/activedirectory/activity.md)
+[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/activity.md)
 topic for additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
@@ -132,7 +138,7 @@ share.
 
 **NOTE:** Ensure the Activity Monitor domain output and the required Connection Profile are
 successfully set up. See the
-[File Archive Repository Option](/docs/accessanalyzer/11.6/config/activedirectory/filearchive.md)
+[File Archive Repository Option](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/activity/filearchive.md)
 topic for additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
@@ -213,5 +219,5 @@ the Netwrix Access Information Center.
 | AIC Import - Activity Retention | @Days                       | 120                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Number of days to retain activity data in the AIC       |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.

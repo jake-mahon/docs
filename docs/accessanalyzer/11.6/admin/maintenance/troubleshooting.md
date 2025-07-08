@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 40
+---
+
 # Troubleshooting
 
 There are some general things to know when getting started troubleshooting Enterprise Auditor:

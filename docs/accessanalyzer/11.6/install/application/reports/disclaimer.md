@@ -1,3 +1,9 @@
+---
+title: "Configuring Login Page Disclaimer"
+description: "Configuring Login Page Disclaimer"
+sidebar_position: 70
+---
+
 # Configuring Login Page Disclaimer
 
 Users can add a disclaimer message to the logon screen by adding a custom `Disclaimer.txt` file in

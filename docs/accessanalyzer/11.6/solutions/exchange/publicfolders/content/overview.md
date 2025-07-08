@@ -1,3 +1,9 @@
+---
+title: "Content Job Group"
+description: "Content Job Group"
+sidebar_position: 20
+---
+
 # Content Job Group
 
 The Content job group provides visibility into public folder sizing and content aging.

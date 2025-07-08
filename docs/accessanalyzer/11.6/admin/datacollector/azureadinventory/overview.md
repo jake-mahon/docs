@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory Data Collector"
+description: "AzureADInventory Data Collector"
+sidebar_position: 70
+---
+
 # AzureADInventory Data Collector
 
 The AzureADInventory Data Collector catalogs user and group object information from Microsoft Entra

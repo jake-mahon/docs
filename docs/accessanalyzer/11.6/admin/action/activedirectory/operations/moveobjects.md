@@ -1,3 +1,9 @@
+---
+title: "Move Objects"
+description: "Move Objects"
+sidebar_position: 90
+---
+
 # Move Objects
 
 Use the Move Objects page to specify the OU in which to move objects.

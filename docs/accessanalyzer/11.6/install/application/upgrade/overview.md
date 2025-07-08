@@ -1,3 +1,9 @@
+---
+title: "Enterprise Auditor Console Upgrade"
+description: "Enterprise Auditor Console Upgrade"
+sidebar_position: 50
+---
+
 # Enterprise Auditor Console Upgrade
 
 Enterprise Auditor 11.6 uses the Upgrade Wizard. For upgrades from versions of Enterprise Auditor
@@ -14,7 +20,7 @@ The purpose of this document is to provide the basic steps needed for upgrading 
 and the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for
 additional information.
 
-See the [What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for
+See the [What's New](/docs/accessanalyzer/11.6/overview/whatsnew.md) topic for
 release information.
 
 ## Considerations

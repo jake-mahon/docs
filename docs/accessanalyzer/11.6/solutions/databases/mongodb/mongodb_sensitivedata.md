@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data > MongoDB_SensitiveData Job"
+description: "Sensitive Data > MongoDB_SensitiveData Job"
+sidebar_position: 40
+---
+
 # Sensitive Data > MongoDB_SensitiveData Job
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who

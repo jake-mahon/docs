@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Summary"
+description: "EWSPublicFolder: Summary"
+sidebar_position: 80
+---
+
 # EWSPublicFolder: Summary
 
 The Summary page displays a summary of the configured query. It wizard page for all categories.

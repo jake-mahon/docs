@@ -1,3 +1,9 @@
+---
+title: "Update Authentication Credentials in a Storage Profile"
+description: "Update Authentication Credentials in a Storage Profile"
+sidebar_position: 20
+---
+
 # Update Authentication Credentials in a Storage Profile
 
 Follow the steps to update authentication credentials for a Storage Profile in the Enterprise

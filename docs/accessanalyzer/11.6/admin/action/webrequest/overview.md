@@ -1,3 +1,9 @@
+---
+title: "WebRequest Action Module"
+description: "WebRequest Action Module"
+sidebar_position: 110
+---
+
 # WebRequest Action Module
 
 The Web Request action module provides methods of applying bulk changes to REST endpoints. At this

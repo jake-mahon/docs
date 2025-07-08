@@ -1,3 +1,9 @@
+---
+title: "MongoDB_Configuration Job"
+description: "MongoDB_Configuration Job"
+sidebar_position: 10
+---
+
 # MongoDB_Configuration Job
 
 The MongoDB_Configuration job is designed to collect MongoDB server instance and database

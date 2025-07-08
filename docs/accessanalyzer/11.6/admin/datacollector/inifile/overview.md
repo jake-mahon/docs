@@ -1,3 +1,9 @@
+---
+title: "INIFile Data Collector"
+description: "INIFile Data Collector"
+sidebar_position: 240
+---
+
 # INIFile Data Collector
 
 The INIFile Data Collector provides options to configure a task to collect information about log

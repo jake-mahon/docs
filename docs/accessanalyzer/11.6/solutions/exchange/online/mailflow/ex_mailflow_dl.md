@@ -1,3 +1,9 @@
+---
+title: "EX_Mailflow_DL Job"
+description: "EX_Mailflow_DL Job"
+sidebar_position: 20
+---
+
 # EX_Mailflow_DL Job
 
 The EX_Mailflow_DL job provides information around distribution list usage.

@@ -1,3 +1,9 @@
+---
+title: "SharePointAccess Data Collector"
+description: "SharePointAccess Data Collector"
+sidebar_position: 330
+---
+
 # SharePointAccess Data Collector
 
 The SharePointAccess (SPAA) Data Collector audits access, group membership, and content within a
@@ -18,13 +24,13 @@ Protocols
 Ports
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
   topic for additional information.
 
 Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](/docs/accessanalyzer/11.6/requirements/target/sharepoint.md)
+  [SharePoint Support](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepoint.md)
   topic for additional information.
 
 Sensitive Data Discovery Considerations

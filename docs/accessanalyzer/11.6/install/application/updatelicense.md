@@ -1,3 +1,9 @@
+---
+title: "Update License Key"
+description: "Update License Key"
+sidebar_position: 60
+---
+
 # Update License Key
 
 It is necessary to install a new license key for an existing Enterprise Auditor installation due to

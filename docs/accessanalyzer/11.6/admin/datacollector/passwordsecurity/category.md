@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity: Category"
+description: "PasswordSecurity: Category"
+sidebar_position: 10
+---
+
 # PasswordSecurity: Category
 
 This Category page in the Password Security Data Collection Wizard identifies the kind of password

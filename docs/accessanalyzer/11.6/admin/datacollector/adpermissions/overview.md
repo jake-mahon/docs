@@ -1,3 +1,9 @@
+---
+title: "ADPermissions Data Collector"
+description: "ADPermissions Data Collector"
+sidebar_position: 50
+---
+
 # ADPermissions Data Collector
 
 The ADPermissions Data Collector collects the advanced security permissions of objects in AD. It is

@@ -1,3 +1,9 @@
+---
+title: "Notification: Criteria"
+description: "Notification: Criteria"
+sidebar_position: 40
+---
+
 # Notification: Criteria
 
 Use the Notification Criteria page to specify criteria to trigger a notification.

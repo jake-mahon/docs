@@ -1,3 +1,9 @@
+---
+title: "SMARTLog Data Collector"
+description: "SMARTLog Data Collector"
+sidebar_position: 340
+---
+
 # SMARTLog Data Collector
 
 The SMARTLog Data Collector provides search and extraction of details from Windows Event Logs
@@ -32,7 +38,7 @@ Permissions
 - Member of the local Administrators group
 
 See the
-[Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/remoteconnections.md)
+[Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/remoteconnections.md)
 topic for additional information related to permissions required for targeting Exchange servers.
 
 ## SMARTLog Query Configuration
@@ -43,7 +49,7 @@ following wizard pages:
 - Welcome
 - [SMARTLog: Log Type](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/logtype.md)
 - [SMARTLog: Sample Host](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/samplehost.md)
-- [SMARTLog: Target Log](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/targetlog.md)
+- [SMARTLog: Target Log](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/targetlog/targetlog.md)
 - [SMARTLog: Results](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/results.md)
 - [SMARTLog: Criteria](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/criteria.md)
 - [SMARTLog: Collection Method](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/collectionmethod.md)

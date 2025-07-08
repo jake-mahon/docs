@@ -1,3 +1,9 @@
+---
+title: "AAD_StaleGroups Job"
+description: "AAD_StaleGroups Job"
+sidebar_position: 80
+---
+
 # AAD_StaleGroups Job
 
 The AAD_StaleGroups Job identifies Microsoft Entra ID groups that contain potentially stale users.

@@ -1,3 +1,9 @@
+---
+title: "Web Request: Parameters"
+description: "Web Request: Parameters"
+sidebar_position: 30
+---
+
 # Web Request: Parameters
 
 Use the Parameters page to enter the parameter values.

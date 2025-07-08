@@ -1,3 +1,9 @@
+---
+title: "Drop AWS Tables"
+description: "Drop AWS Tables"
+sidebar_position: 80
+---
+
 # Drop AWS Tables
 
 Sometimes when troubleshooting an AWS issue, it becomes necessary to clear the AWS DC data and

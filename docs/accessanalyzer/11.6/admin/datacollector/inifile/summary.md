@@ -1,3 +1,9 @@
+---
+title: "INIFile: Summary"
+description: "INIFile: Summary"
+sidebar_position: 30
+---
+
 # INIFile: Summary
 
 The Summary page is where the selected configuration settings are listed.

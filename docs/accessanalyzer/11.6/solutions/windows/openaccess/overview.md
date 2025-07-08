@@ -1,3 +1,9 @@
+---
+title: "Open Access Job Group"
+description: "Open Access Job Group"
+sidebar_position: 40
+---
+
 # Open Access Job Group
 
 The Open Access job group identifies instances of open access in the audited environment.

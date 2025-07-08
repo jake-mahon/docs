@@ -1,3 +1,9 @@
+---
+title: "Solutions"
+description: "Solutions"
+sidebar_position: 60
+---
+
 # Solutions
 
 The predefined job groups and jobs for the various Enterprise Auditor solutions can be found within

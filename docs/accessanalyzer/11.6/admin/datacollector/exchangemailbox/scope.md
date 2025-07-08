@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: Scope"
+description: "ExchangeMailbox: Scope"
+sidebar_position: 20
+---
+
 # ExchangeMailbox: Scope
 
 The Scope page is used to define which mailboxes are to be queried. It is a wizard page for all of

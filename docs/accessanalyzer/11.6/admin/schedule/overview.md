@@ -1,3 +1,9 @@
+---
+title: "Schedules"
+description: "Schedules"
+sidebar_position: 60
+---
+
 # Schedules
 
 The Enterprise Auditor Console can only run one task at a time. However, with the Schedule Service

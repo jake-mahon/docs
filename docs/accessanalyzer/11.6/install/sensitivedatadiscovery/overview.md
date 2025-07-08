@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Discovery Add-On Installation"
+description: "Sensitive Data Discovery Add-On Installation"
+sidebar_position: 40
+---
+
 # Sensitive Data Discovery Add-On Installation
 
 The Sensitive Data Discovery Add-On enables Enterprise Auditor to scan files for criteria matches
@@ -10,7 +16,7 @@ This topic provides information on the installation and upgrade processes of the
 Discovery Add-On. For information on the required prerequisites, see the Server Requirements topic.
 
 The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for release
+[What's New](/docs/accessanalyzer/11.6/overview/whatsnew.md) topic for release
 information.
 
 ## Supported Platforms

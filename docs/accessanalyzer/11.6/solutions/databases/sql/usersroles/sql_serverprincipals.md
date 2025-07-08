@@ -1,3 +1,9 @@
+---
+title: "SQL_ServerPrincipals Job"
+description: "SQL_ServerPrincipals Job"
+sidebar_position: 40
+---
+
 # SQL_ServerPrincipals Job
 
 The SQL_ServerPrincipals Job provides information on server principals at the instance level across

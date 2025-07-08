@@ -1,3 +1,9 @@
+---
+title: "Workflow with Role Based Access Enabled"
+description: "Workflow with Role Based Access Enabled"
+sidebar_position: 70
+---
+
 # Workflow with Role Based Access Enabled
 
 The following workflow summarizes the necessary steps involved to deploy a job once Role Based

@@ -1,3 +1,9 @@
+---
+title: "Notification: Frequency"
+description: "Notification: Frequency"
+sidebar_position: 100
+---
+
 # Notification: Frequency
 
 Use the Notification Frequency page to specify the frequency by which to generate the notifications.

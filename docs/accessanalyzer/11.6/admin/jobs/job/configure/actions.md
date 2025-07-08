@@ -1,3 +1,9 @@
+---
+title: "Actions Node"
+description: "Actions Node"
+sidebar_position: 40
+---
+
 # Actions Node
 
 The Actions node uses Enterprise Auditor action modules to take action on collected and analyzed

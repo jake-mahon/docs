@@ -1,3 +1,9 @@
+---
+title: "SQL: Summary"
+description: "SQL: Summary"
+sidebar_position: 110
+---
+
 # SQL: Summary
 
 The Summary page is where the configuration settings are summarized. It is a wizard page for all of

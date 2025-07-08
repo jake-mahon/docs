@@ -1,3 +1,9 @@
+---
+title: "AD_StaleGroups Job"
+description: "AD_StaleGroups Job"
+sidebar_position: 110
+---
+
 # AD_StaleGroups Job
 
 The AD_StaleGroups Job identifies groups that contain potentially stale users. Users are considered

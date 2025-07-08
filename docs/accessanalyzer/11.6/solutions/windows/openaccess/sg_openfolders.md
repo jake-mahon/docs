@@ -1,3 +1,9 @@
+---
+title: "SG_OpenFolders Job"
+description: "SG_OpenFolders Job"
+sidebar_position: 20
+---
+
 # SG_OpenFolders Job
 
 The SG_OpenFolders job enumerates folders with open access across the audited environment.

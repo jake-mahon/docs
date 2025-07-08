@@ -1,3 +1,9 @@
+---
+title: "Schedule Wizard"
+description: "Schedule Wizard"
+sidebar_position: 10
+---
+
 # Schedule Wizard
 
 The schedule wizard allows you to configure scheduled tasks for jobs, job groups, Host Discovery

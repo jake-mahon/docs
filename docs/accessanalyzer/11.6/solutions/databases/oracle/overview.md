@@ -1,3 +1,9 @@
+---
+title: "Oracle Solution"
+description: "Oracle Solution"
+sidebar_position: 40
+---
+
 # Oracle Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security
@@ -35,7 +41,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/databaseoracle.md)
+[Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseoracle/databaseoracle.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

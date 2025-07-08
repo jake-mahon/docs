@@ -1,3 +1,9 @@
+---
+title: "2.Users Job Group"
+description: "2.Users Job Group"
+sidebar_position: 40
+---
+
 # 2.Users Job Group
 
 The 2.Users job group provides details on AWS IAM user MFA status, access key usage, and staleness.

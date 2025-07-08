@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity: Summary"
+description: "PasswordSecurity: Summary"
+sidebar_position: 50
+---
+
 # PasswordSecurity: Summary
 
 The Summary page displays a summary of the configured query.

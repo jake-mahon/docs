@@ -1,3 +1,9 @@
+---
+title: "PowerShell Action: Execution Options"
+description: "PowerShell Action: Execution Options"
+sidebar_position: 20
+---
+
 # PowerShell Action: Execution Options
 
 Specify the execution options for the PowerShell script using the Execution Options page.

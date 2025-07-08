@@ -1,3 +1,9 @@
+---
+title: "LDAP Data Collector"
+description: "LDAP Data Collector"
+sidebar_position: 250
+---
+
 # LDAP Data Collector
 
 The LDAP Data Collector uses LDAP to query Active Directory returning the specified objects and

@@ -1,3 +1,9 @@
+---
+title: "Enterprise Auditor Initial Configuration"
+description: "Enterprise Auditor Initial Configuration"
+sidebar_position: 30
+---
+
 # Enterprise Auditor Initial Configuration
 
 Once the Enterprise Auditor installation process is complete, and before performing actions within
@@ -57,7 +63,7 @@ topic for additional information.
   recommended.
 
 See the
-[Securing the Enterprise Auditor Database](/docs/accessanalyzer/11.6/install/application/database.md#securing-the-enterprise-auditor-database)
+[Securing the Enterprise Auditor Database](/docs/accessanalyzer/11.6/install/application/database/database.md#securing-the-enterprise-auditor-database)
 topic for additional information on creating a SQL Server database for Enterprise Auditor.
 
 **Step 5 –** Click **Next**.
@@ -120,5 +126,5 @@ topic for more information about logs.
 The Enterprise Auditor Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection
 Profile and a Schedule Service account as well as discovering hosts and setting up host lists. See
-the [Getting Started](/docs/accessanalyzer/11.6/gettingstarted.md)
+the [Getting Started](/docs/accessanalyzer/11.6/overview/gettingstarted.md)
 topic for additional information.

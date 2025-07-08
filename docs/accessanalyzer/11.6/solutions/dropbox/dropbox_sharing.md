@@ -1,3 +1,9 @@
+---
+title: "2.Sharing > Dropbox_Sharing Job"
+description: "2.Sharing > Dropbox_Sharing Job"
+sidebar_position: 40
+---
+
 # 2.Sharing > Dropbox_Sharing Job
 
 The Dropbox_Sharing job provides insight into the sharing of resources within the targeted Dropbox

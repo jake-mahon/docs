@@ -1,3 +1,9 @@
+---
+title: "Storage"
+description: "Storage"
+sidebar_position: 130
+---
+
 # Storage
 
 The Storage node contains objects known as Storage Profiles. Storage Profiles house the information

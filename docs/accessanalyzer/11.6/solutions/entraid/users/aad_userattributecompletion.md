@@ -1,3 +1,9 @@
+---
+title: "AAD_UserAttributeCompletion Job"
+description: "AAD_UserAttributeCompletion Job"
+sidebar_position: 40
+---
+
 # AAD_UserAttributeCompletion Job
 
 The AAD_UserAttributeCompletion Job identifies which attributes are present within User fields in

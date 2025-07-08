@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Message Conditions"
+description: "Mailbox: Message Conditions"
+sidebar_position: 70
+---
+
 # Mailbox: Message Conditions
 
 Use the Message Conditions page to customize message search filter conditions. It is a wizard page

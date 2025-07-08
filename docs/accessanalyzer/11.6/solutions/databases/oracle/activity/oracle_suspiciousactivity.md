@@ -1,3 +1,9 @@
+---
+title: "Oracle_SuspiciousActivity Job"
+description: "Oracle_SuspiciousActivity Job"
+sidebar_position: 60
+---
+
 # Oracle_SuspiciousActivity Job
 
 The Oracle_SuspiciousActivity job is designed to provide insight into suspicious behavior based on

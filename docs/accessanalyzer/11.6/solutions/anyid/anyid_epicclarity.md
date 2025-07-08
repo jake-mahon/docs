@@ -1,3 +1,9 @@
+---
+title: "AnyID_EpicClarity Job"
+description: "AnyID_EpicClarity Job"
+sidebar_position: 20
+---
+
 # AnyID_EpicClarity Job
 
 The AnyID_EpicClarity job collects patient information from Epic including MRNs, SSNs, Subscriber

@@ -1,3 +1,9 @@
+---
+title: "UX_SambaConfiguration Job"
+description: "UX_SambaConfiguration Job"
+sidebar_position: 20
+---
+
 # UX_SambaConfiguration Job
 
 The **0.Collection** > **UX_SambaConfiguration** job collects Samba configuration information which

@@ -1,3 +1,9 @@
+---
+title: "Enable Single Sign-On"
+description: "Enable Single Sign-On"
+sidebar_position: 40
+---
+
 # Enable Single Sign-On
 
 Single sign-on using Windows authentication allows users to be automatically log into the Web

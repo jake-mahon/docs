@@ -1,3 +1,9 @@
+---
+title: "Action Libraries"
+description: "Action Libraries"
+sidebar_position: 10
+---
+
 # Action Libraries
 
 When creating a new action on a job, you have the ability to load action tasks that have been

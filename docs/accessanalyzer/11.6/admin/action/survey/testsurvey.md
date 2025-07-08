@@ -1,3 +1,9 @@
+---
+title: "Survey: Test Survey"
+description: "Survey: Test Survey"
+sidebar_position: 80
+---
+
 # Survey: Test Survey
 
 Use this page to test a survey and verify proper configuration.

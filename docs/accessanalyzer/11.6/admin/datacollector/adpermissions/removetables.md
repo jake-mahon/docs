@@ -1,3 +1,9 @@
+---
+title: "Remove ADPermissions Tables"
+description: "Remove ADPermissions Tables"
+sidebar_position: 80
+---
+
 # Remove ADPermissions Tables
 
 If it becomes necessary to clear the ADPermissions Data Collector tables and views to resolve an

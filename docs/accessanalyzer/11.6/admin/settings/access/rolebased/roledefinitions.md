@@ -1,3 +1,9 @@
+---
+title: "Role Definitions"
+description: "Role Definitions"
+sidebar_position: 10
+---
+
 # Role Definitions
 
 The following is a list of all roles leveraged within Enterprise Auditor once Role Based Access is

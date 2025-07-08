@@ -1,3 +1,9 @@
+---
+title: "WMICollector: Summary (Results)"
+description: "WMICollector: Summary (Results)"
+sidebar_position: 40
+---
+
 # WMICollector: Summary (Results)
 
 The Summary page, or Results page, displays a summary of the configured query.

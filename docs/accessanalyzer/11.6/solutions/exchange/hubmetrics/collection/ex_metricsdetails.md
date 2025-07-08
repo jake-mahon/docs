@@ -1,3 +1,9 @@
+---
+title: "EX_MetricsDetails Job"
+description: "EX_MetricsDetails Job"
+sidebar_position: 30
+---
+
 # EX_MetricsDetails Job
 
 The EX_MetricsDetails Job collects daily user-to-user Traffic. Walk through this jobs query to

@@ -1,3 +1,9 @@
+---
+title: "Disable or Enable a Job"
+description: "Disable or Enable a Job"
+sidebar_position: 60
+---
+
 # Disable or Enable a Job
 
 Job groups may contain individual jobs that should not be run when the entire job group is run. Some

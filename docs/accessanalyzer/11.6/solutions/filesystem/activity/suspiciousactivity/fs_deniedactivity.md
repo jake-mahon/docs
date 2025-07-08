@@ -1,3 +1,9 @@
+---
+title: "FS_DeniedActivity Job"
+description: "FS_DeniedActivity Job"
+sidebar_position: 10
+---
+
 # FS_DeniedActivity Job
 
 The FS_DeniedActivity job is designed to report on denied activity event information from targeted

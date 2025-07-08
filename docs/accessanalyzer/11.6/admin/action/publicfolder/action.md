@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Action"
+description: "Public Folder: Action"
+sidebar_position: 10
+---
+
 # Public Folder: Action
 
 The Action page specifies the basic action to perform on public folders. The pages available for

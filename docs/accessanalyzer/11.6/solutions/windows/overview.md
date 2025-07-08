@@ -1,3 +1,9 @@
+---
+title: "Windows Solution"
+description: "Windows Solution"
+sidebar_position: 160
+---
+
 # Windows Solution
 
 The Windows Solution is designed to provide both high-level and granular views into any sized
@@ -16,7 +22,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/windows.md)
+[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/windows/windows_1.md)
 topic for additional information.
 
 Location

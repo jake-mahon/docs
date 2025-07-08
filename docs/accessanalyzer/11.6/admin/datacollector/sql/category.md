@@ -1,3 +1,9 @@
+---
+title: "SQL: Category"
+description: "SQL: Category"
+sidebar_position: 20
+---
+
 # SQL: Category
 
 The Category page in the SQL Data Collector Wizard lists the available query categories, sub-divided

@@ -1,3 +1,9 @@
+---
+title: "AWS_SensitivePolicies Job"
+description: "AWS_SensitivePolicies Job"
+sidebar_position: 40
+---
+
 # AWS_SensitivePolicies Job
 
 The AWS_SensitivePolicies job provides details on users, groups, and roles as well as the policies

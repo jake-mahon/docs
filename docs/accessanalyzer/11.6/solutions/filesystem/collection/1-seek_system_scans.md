@@ -1,3 +1,9 @@
+---
+title: "1-SEEK System Scans Job"
+description: "1-SEEK System Scans Job"
+sidebar_position: 60
+---
+
 # 1-SEEK System Scans Job
 
 The 1-SEEK System Scans job is designed to collect sensitive data from the targeted file servers.

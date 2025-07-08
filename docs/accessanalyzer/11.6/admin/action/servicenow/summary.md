@@ -1,3 +1,9 @@
+---
+title: "ServiceNow Action: Summary"
+description: "ServiceNow Action: Summary"
+sidebar_position: 40
+---
+
 # ServiceNow Action: Summary
 
 The Summary page displays a summary of the configured query.

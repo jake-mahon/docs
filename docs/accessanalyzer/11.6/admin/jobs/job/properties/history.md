@@ -1,3 +1,9 @@
+---
+title: "History Tab"
+description: "History Tab"
+sidebar_position: 90
+---
+
 # History Tab
 
 The History tab is for configuring the Data Retention and Log Retention periods. Choose either to

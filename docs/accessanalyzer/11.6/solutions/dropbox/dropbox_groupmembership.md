@@ -1,3 +1,9 @@
+---
+title: "3.Group Membership > Dropbox_GroupMembership Job"
+description: "3.Group Membership > Dropbox_GroupMembership Job"
+sidebar_position: 50
+---
+
 # 3.Group Membership > Dropbox_GroupMembership Job
 
 The Dropbox_GroupMembership job provides insight into group membership within the targeted Dropbox

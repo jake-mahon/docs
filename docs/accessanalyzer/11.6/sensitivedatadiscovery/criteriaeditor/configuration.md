@@ -1,3 +1,9 @@
+---
+title: "Configuration Pane"
+description: "Configuration Pane"
+sidebar_position: 10
+---
+
 # Configuration Pane
 
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add,
@@ -50,9 +56,9 @@ The options at the bottom of the configuration pane are:
   that can be added are **Keyword**, **Pattern**, and **Summary**. See the following topics for
   additional information:
 
-    - [Keyword Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/criteriatype/keyword.md)
-    - [Regular Expression (Pattern) Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.md)
-    - [Summary Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/criteriatype/summary.md)
+    - [Keyword Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/keyword.md)
+    - [Regular Expression (Pattern) Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/regularexpression.md)
+    - [Summary Criteria](/docs/accessanalyzer/11.6/sensitivedatadiscovery/criteriaeditor/summary.md)
 
 - Remove – Remove sub-criteria from the Required matched sub-criteria list
 - Edit – Edit the currently selected sub-criteria

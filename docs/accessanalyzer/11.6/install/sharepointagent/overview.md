@@ -1,3 +1,9 @@
+---
+title: "SharePoint Agent Installation"
+description: "SharePoint Agent Installation"
+sidebar_position: 30
+---
+
 # SharePoint Agent Installation
 
 The SharePoint Agent is capable of auditing permissions and content, or Access Auditing (SPAA) and
@@ -9,11 +15,11 @@ Auditing (SPAA) and Sensitive Data Discovery Auditing scans against the targeted
 environment.
 
 For information on the required prerequisites and permissions, see the
-[SharePoint Agent Permissions](/docs/accessanalyzer/11.6/requirements/solutions/sharepoint/agentpermissions.md)
+[SharePoint Agent Permissions](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/agentbasedscans/agentpermissions.md)
 topic.
 
 The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for
+[What's New](/docs/accessanalyzer/11.6/overview/whatsnew.md) topic for
 additional information.
 
 ## Supported Platforms

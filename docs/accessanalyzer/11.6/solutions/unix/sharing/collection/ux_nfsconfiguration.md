@@ -1,3 +1,9 @@
+---
+title: "UX_NFSConfiguration Job"
+description: "UX_NFSConfiguration Job"
+sidebar_position: 10
+---
+
 # UX_NFSConfiguration Job
 
 The **0.Collection** > **UX_NFSConfiguration** job collects NFS configuration information which will

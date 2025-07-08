@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/GettingStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/WhatsNew.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/Requirements/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/Requirements/ActivityAgent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Requirements/ActivityAgentPorts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/ExchangeOnline/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/EntraID/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="NAS Device Configuration">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/DellCelerraVNX/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellCelerraVNX/InstallCEE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellCelerraVNX/Validate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/DellPowerScale/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellPowerScale/InstallCEE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellPowerScale/ManualConfiguration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellPowerScale/Validate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/DellPowerStore/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellPowerStore/InstallCEE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellPowerStore/Auditing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/DellUnity/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellUnity/InstallCEE.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellUnity/SetupUnisphere.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/DellUnity/Validate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/Hitachi/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/Hitachi/ConfigureLogs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/Hitachi/ConfigureAccessToLogs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/Nasuni/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/NetApp7Mode/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetApp7Mode/ProvisionActivity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetApp7Mode/EnableHTTP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetApp7Mode/ConfigureFPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetApp7Mode/CustomizeFPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/NetAppCMode/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetAppCMode/ProvisionActivity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetAppCMode/ConfigureFirewall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/Config/NetAppCMode/ConfigureFPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/Nutanix/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/Panzura/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/Qumulo/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/SharePoint/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/SharePointOnline/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/SQLServer/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/WindowsFile/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/Requirements/ADAgent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/ActiveDirectory/Activity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Config/ActiveDirectory/FileArchive.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Config/ActiveDirectory/ThreatPrevention.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/Requirements/LinuxAgent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/Install/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Install/Application.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Install/Agents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Install/Agent/Manual.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Install/Agent/ManualLinux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Install/Agent/ManualAD.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Install/Upgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Install/UpdateADAgentInstaller.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Install/RemoveAgent.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Install/ImportLicenseKey.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/Admin/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Admin/Agents/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Agents/Add/Single.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Agents/Add/Multiple.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Agents/Add/Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Agents/Add/ActiveDirectory.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Agents/Properties/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/ActiveDirectory.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/AdditionalProperties.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/ADUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/APIServer.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Archiving.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Connection.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/DellCEEOptions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/DiskQuota.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/DNS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/InactivityAlerts.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/NetAppFPolicyOptions.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Network.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/NetworkProxy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Nutanix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Panzura.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Agents/Properties/Qumulo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Admin/MonitoredDomains/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/GlobalFilters.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/Changes.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/Authentication.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/Replication.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/LSASSGuardian.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredDomains/ADMonitoringConfiguration/LDAPMonitor.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/ActivityMonitor/Admin/MonitoredDomains/LDAPThreatManager.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/MonitoredDomains/Output.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/ActiveDirectoryJSON.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/DellCelerraVNX.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/DellPowerScale.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/DellPowerStore.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/DellUnity.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/ExchangeOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Hitachi.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/EntraID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Nasuni.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/NetApp.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Nutanix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Panzura.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Qumulo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/SharePoint.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/SharePointOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/SQLServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Add/Windows.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Auditing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Connection.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Dell.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/FPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/HitachiNAS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/InactivityAlerts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/LogonTrigger.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/MSSQLServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Nasuni.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/NetApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Nutanix.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Panzura.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Qumulo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/SharePoint.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/TweakOptions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/UnixIDs.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Properties/Windows.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Admin/MonitoredHosts/Output.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/FileTSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/LinuxTSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/SharePointJSON.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/SharePointTSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/SharePointOnlineJSON.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/LogFile/SQLServerTSV.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/Admin/Outputs/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/AccountExclusions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/SpecifySharePointAccount.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/SpecifyWindowsAccount.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/SpecifySQLUser.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/SpecifyUnixAccount.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/AdditionalProperties.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/GIDExclusions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/AddEditGID.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/LogFiles.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/Objects.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/Operations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Suppress.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/PathFiltering.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/AddEditPath.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/ProcessExclusions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/AddEditProcess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/Protocols.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/Syslog.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Outputs/Window/MessageTemplate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Admin/Outputs/ThreatManager.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Admin/Search/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/ActiveDirectory.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/ActiveDirectory.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/File.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/File.htm"
+          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/EntraID.htm">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/EntraID.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/ExchangeOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/ExchangeOnline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/SharePoint.htm">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/SharePoint.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/SharePointOnline.htm">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/SharePointOnline.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Admin/Search/Query/SQLServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/Admin/Search/Results/SQLServer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/Troubleshooting/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Troubleshooting/CredentialPasswords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Troubleshooting/TraceLogs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Troubleshooting/AntivirusExclusions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Troubleshooting/PerformanceMonitoring.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/Troubleshooting/BackupRestore/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Troubleshooting/BackupRestore/AgentBackup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Troubleshooting/BackupRestore/AgentRestore.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Troubleshooting/BackupRestore/ConsoleBackup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/Troubleshooting/BackupRestore/ConsoleRestore.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ActivityMonitor/RESTAPI/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/RESTAPI/Security.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ActivityMonitor/RESTAPI/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedHeader%]"
+    Link="/Content/ActivityMonitor/SIEM/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/SIEM/QRadar/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/SIEM/QRadar/App.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/Home.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/Ransomware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/PermissionChanges.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/Deletions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/UserInvestigation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/HostInvestigation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/QRadar/Dashboard/About.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/SIEM/QRadar/Settings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/ActivityMonitor/SIEM/QRadar/Offenses.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedHeader%]"
+      Link="/Content/ActivityMonitor/SIEM/Splunk/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedHeader%]"
+        Link="/Content/ActivityMonitor/SIEM/Splunk/App.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/Splunk/Dashboard/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/Splunk/Dashboard/Ransomware.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/Splunk/Dashboard/PermissionChanges.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedHeader%]"
+          Link="/Content/ActivityMonitor/SIEM/Splunk/Dashboard/Deletions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

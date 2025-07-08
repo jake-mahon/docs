@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Summary"
+description: "SMARTLog: Summary"
+sidebar_position: 90
+---
+
 # SMARTLog: Summary
 
 The Summary page displays a summary of the configured query. It is a wizard page for all log types.

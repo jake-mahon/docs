@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Filter by Message"
+description: "ExchangePS: Filter by Message"
+sidebar_position: 70
+---
+
 # ExchangePS: Filter by Message
 
 The Filter by Message page is used to define the filter conditions of the search. It is a wizard

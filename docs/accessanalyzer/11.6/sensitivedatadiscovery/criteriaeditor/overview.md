@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Criteria Editor"
+description: "Sensitive Data Criteria Editor"
+sidebar_position: 50
+---
+
 # Sensitive Data Criteria Editor
 
 The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the

@@ -1,3 +1,9 @@
+---
+title: "Db2_SensitiveData Job"
+description: "Db2_SensitiveData Job"
+sidebar_position: 10
+---
+
 # Db2_SensitiveData Job
 
 This job provides information on all the sensitive data that was discovered in the targeted Db2

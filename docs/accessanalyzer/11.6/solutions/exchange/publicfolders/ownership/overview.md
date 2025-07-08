@@ -1,3 +1,9 @@
+---
+title: "Ownership Job Group"
+description: "Ownership Job Group"
+sidebar_position: 40
+---
+
 # Ownership Job Group
 
 The Ownership job group is comprised of analysis and reports that focus on public folder ownership,

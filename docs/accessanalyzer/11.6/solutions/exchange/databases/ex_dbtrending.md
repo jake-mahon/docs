@@ -1,3 +1,9 @@
+---
+title: "EX_DBTrending"
+description: "EX_DBTrending"
+sidebar_position: 40
+---
+
 # EX_DBTrending
 
 The EX_DBTrending Job creates trend projections for mailbox and public folder databases for the

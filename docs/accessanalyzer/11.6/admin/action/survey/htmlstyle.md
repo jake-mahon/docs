@@ -1,3 +1,9 @@
+---
+title: "Survey HTML Style"
+description: "Survey HTML Style"
+sidebar_position: 40
+---
+
 # Survey HTML Style
 
 Choose an HTML style from the HTML Styles list. The Sample pane displays a preview of the style.

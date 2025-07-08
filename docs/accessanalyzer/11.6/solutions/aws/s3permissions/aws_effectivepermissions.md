@@ -1,3 +1,9 @@
+---
+title: "AWS_EffectivePermissions Job"
+description: "AWS_EffectivePermissions Job"
+sidebar_position: 20
+---
+
 # AWS_EffectivePermissions Job
 
 The AWS_EffectivePermissions job identifies and summarizes effective permissions on AWS S3 buckets
