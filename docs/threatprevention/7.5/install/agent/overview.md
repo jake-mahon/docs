@@ -83,7 +83,7 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/threatprevention.md)
+[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/accessanalyzerconfiguration.md)
 topic for additional information.
 
 ## Exchange Servers
@@ -124,5 +124,5 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/threatprevention.md)
+[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/threatprevention/7.5/admin/configuration/accessanalyzerconfiguration.md)
 topic for additional information.
