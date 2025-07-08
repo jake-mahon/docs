@@ -63,7 +63,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Exchange Online
 
-See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity.md)
+See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/exchange-activity.md)
 topic for target environment requirements.
 
 ## Supported Microsoft Entra ID
@@ -75,7 +75,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Microsoft Entra ID (formerly Azure AD)
 
-See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_1.md) topic
+See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/entraid-activity.md) topic
 for target environment requirements.
 
 ## Supported Network Attached Storage Devices
@@ -175,7 +175,7 @@ Application server that hosts the "Central Administration" component of the Shar
 
 - SharePoint® Server Subscription Edition
 
-See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_2.md)
+See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sharepoint-onprem-activity.md)
 topic for target environment requirements.
 
 ## Supported SharePoint Online
@@ -188,7 +188,7 @@ that acts as a proxy for monitoring the target environment.
 - SharePoint Online®
 
 See the
-[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_3.md) topic
+[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sharepoint-online-activity.md) topic
 for target environment requirements.
 
 ## Supported SQL Server Platforms
@@ -205,7 +205,7 @@ deployed to a Windows server that acts as a proxy for monitoring the target envi
 - SQL Server 2017
 - SQL Server 2016
 
-See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_4.md) topic for
+See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sqlserver-activity.md) topic for
 target environment requirements.
 
 ## Supported Windows File Servers Platforms
@@ -219,5 +219,5 @@ It cannot be deployed to a proxy server.
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_5.md)
+See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/windowsfs-activity.md)
 topic for target environment requirements.
