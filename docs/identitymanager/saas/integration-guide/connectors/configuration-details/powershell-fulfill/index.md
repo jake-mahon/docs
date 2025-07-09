@@ -155,7 +155,7 @@ contains the declaration of the connector and the associated
 The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) should match as closely as possible the structure
 of the Microsoft Exchange data relevant for Identity Manager. It is designed by analyzing the
 Microsoft Exchange data structure, and describing said data with Entity Types and
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 Eventually, it is up to the integration team to design the
 [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most
