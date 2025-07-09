@@ -58,7 +58,7 @@ location.
 
 - To change the default installation directory location, click **Change…**.
 
-![Change Destination Folder Page](/img/product_docs/threatprevention/7.5/install/agent/changedestination.webp)
+![Change Destination Folder Page](/img/product_docs/threatprevention/7.5/install/agent/ChangeDestination.webp)
 
 > > - Use the Look In field to select the desired installation folder.
 > > - When the Folder name is as desired, click **OK**. The wizard returns to the Destination Folder
@@ -185,7 +185,7 @@ being deployed. Click **Next**.
 Setup wizard displays the installation status. When the installation completes, the Operation
 Successful page is displayed.
 
-![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/install/success.webp)
+![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/install/Success.webp)
 
 **Step 11 –** When installation is complete, click **Close**.
 
