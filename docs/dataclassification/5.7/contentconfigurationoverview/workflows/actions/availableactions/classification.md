@@ -45,4 +45,4 @@ To configure terms
 3. Finally, click **OK** to save the settings and close the dialog.
 
 **NOTE:** The additional classification will not trigger other workflows or affect the source
-item[See Classifications for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/classifications.md)
+item[See Classifications for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/classifications.md)

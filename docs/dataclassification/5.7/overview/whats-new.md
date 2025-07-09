@@ -22,7 +22,7 @@ New: Ability to crawl all tables in all databases on SQL server with a single co
 
 New: Automatically locate sensitive data across your SQL databases so you can implement the
 appropriate security controls around it. See the
-[SQL Server ](/docs/dataclassification/5.7/content-sources/sql-server/index.md) topic for additional information.
+[SQL Server ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/addsource/addsqlserversource/mssqlserver.md) topic for additional information.
 
 ## Other Improvements
 
@@ -30,26 +30,26 @@ Improved: Wizard for ROT data removal
 
 Avoid the headache of manually setting up the workflow for the removal of outdated records with the
 new wizard. See the
-[Step 3. Specify Conditions for Processing](/docs/dataclassification/5.7/workflows/create-workflow/specify-conditions.md) topic for
+[Step 3. Specify Conditions for Processing](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/manage/addworkflowwizard/step3specifyconditions.md) topic for
 additional information.
 
 Improved: Improved Regex proximity
 
 Further reduce the chance of false positives with improved Regex proximity so you can focus your
 security efforts on truly sensitive data. See the
-[Types of Clues](/docs/dataclassification/5.7/taxonomies/clues/clue-types.md) topic for additional information.
+[Types of Clues](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/cluestypes.md) topic for additional information.
 
 Improved: Improved data remediation
 
 Reduce the risk of exposure of sensitive OCR data (images or pdfs) that failed to be redacted by
 automatically moving it to a dedicated location. See the
-[Migrate Document](/docs/dataclassification/5.7/workflows/actions/migrate-document.md) topic for additional information.
+[Migrate Document](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/actions/availableactions/migratedocument/migratedocument.md) topic for additional information.
 
 Improved: Ability to scan metadata
 
 Speed classification of large amounts of data by first scanning the metadata associated with the
 files so you can take action on it. See the
-[Enable Write Classifications](/docs/dataclassification/5.7/taxonomies/advanced/write-classifications.md) topic for
+[Enable Write Classifications](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/enablewriteclassifications.md) topic for
 additional information.
 
 ## Bug Fix List

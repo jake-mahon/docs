@@ -191,7 +191,9 @@ Microsoft:
 
 The following example clue matches US Social Security Numbers found anywhere in the document text:
 
-`[/,,/.,/=,\s]((?!000)[0-6]\d{2}|7[0-6]\d|77[0-2])-((?!00)\d{2})-((?!0000)\d{4})[/,,/.,\s]`
+```
+&#91;/,,/.,/=,\s&#93;((?!000)[0-6]\d{2}|7[0-6]\d|77[0-2])-((?!00)\d{2})-((?!0000)\d{4})&#91;/,,/.,\s&#93;
+```
 
 This sample clue ensures that:
 

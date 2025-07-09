@@ -12,11 +12,11 @@ Netwrix Data Classification comes with several built-in **taxonomies** with hund
 classification rules out-of-the-box. The taxonomies cover a broad range of sensitive personal,
 financial, and health-related information. Each taxonomy contains a set of terms. **Terms** are
 defined by set of configuration **rules** (also called **clues**). See
-[Classification Rules (Clues)](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/clues/clues.md) for details.
+[Classification Rules (Clues)](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md) for details.
 
 - To create a taxonomy, go to the **Taxonomies** area of the web-based management console and follow
   the procedures described in [Add a Taxonomy](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/add.md) section.
-- To manage the taxonomies, follow the procedures described in [Manage Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/manage/manage_1.md)
+- To manage the taxonomies, follow the procedures described in [Manage Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/managetaxonomies/manage.md)
   section.
 
 **IMPORTANT!** To access the **Taxonomies** area, users require sufficient rights. See the
@@ -26,5 +26,5 @@ defined by set of configuration **rules** (also called **clues**). See
 
 See also:
 
-- [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/builtintaxonomies.md)
+- [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/builtintaxonomies.md)
 - [Taxonomy Settings](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/settings/settings.md)
