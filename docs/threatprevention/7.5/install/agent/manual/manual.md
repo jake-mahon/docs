@@ -185,7 +185,7 @@ being deployed. Click **Next**.
 Setup wizard displays the installation status. When the installation completes, the Operation
 Successful page is displayed.
 
-![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/installagent//Success.webp)
+![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/install/agent/Success.webp)
 
 **Step 11 –** When installation is complete, click **Close**.
 
