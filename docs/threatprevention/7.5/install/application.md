@@ -37,7 +37,7 @@ On clicking Next, the End-User License Agreement page is displayed.
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.5/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/7.5/install/customsetup_1.webp)
 
 **Step 4 –** The Custom Setup page displays the Threat Prevention components that are available to
 install.
