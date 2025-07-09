@@ -51,7 +51,7 @@ by another Welcome page.
 **Step 4 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/img/product_docs/threatprevention/7.5/install/agent/destinationfolder.webp)
+![Threat Prevention Windows Agent Setup wizard - Destination Folder page](/img/product_docs/threatprevention/7.5/install/agent/DestinationFolder.webp)
 
 **Step 5 –** _(Optional)_ On the Destination Folder page, change the installation directory
 location.
@@ -179,13 +179,13 @@ being deployed. Click **Next**.
 - NetApp Security Event Log – Available for legacy versions. Option should be grayed-out.
 - Workstation Events – Available for legacy versions. Option should be grayed-out.
 
-![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/threatprevention/7.5/install/ReadytoInstall.webp)
+![Threat Prevention Windows Agent Setup wizard – Ready page](/img/product_docs/threatprevention/7.5/install/agent/ReadytoInstall.webp)
 
 **Step 10 –** On the Ready to install Threat Prevention Windows Agent page, click **Install**. The
 Setup wizard displays the installation status. When the installation completes, the Operation
 Successful page is displayed.
 
-![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/install/Success.webp)
+![Threat Prevention Windows Agent Setup wizard – Operation Successful page](/img/product_docs/threatprevention/7.5/installagent//Success.webp)
 
 **Step 11 –** When installation is complete, click **Close**.
 
