@@ -1,3 +1,9 @@
+---
+title: "Create a Role Manually"
+description: "Create a Role Manually"
+sidebar_position: 30
+---
+
 # Create a Role Manually
 
 How to create single roles manually.
@@ -19,10 +25,10 @@ topic for additional information.
 
 **NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator
 profile of an identity. This entitlement won't be assigned directly to the identity but to its AD
-administration account. In our Active Directory, there is a resource called `DL-INTERNET-Restricted`
-identified from among AD entries as a group. So we need to add this group membership to the
-properties of the identity's AD account, using `DL-INTERNET-Restricted` as a value of the
-**memberOf** property.
+administration account. In our Active Directory, there is a resource called
+`<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group
+membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a
+value of the **memberOf** property.
 
 ## Participants and Artifacts
 

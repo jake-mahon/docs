@@ -1,3 +1,9 @@
+---
+title: "Assert Value Aspect"
+description: "Assert Value Aspect"
+sidebar_position: 20
+---
+
 # Assert Value Aspect
 
 Checks whether the value of a given property satisfies a given condition.
@@ -20,10 +26,10 @@ When asserting a multi-valued object, said object must not be called through a b
 back and forth between entities.
 
 For example, to manage records, using the ExpressionBinding set to
-`Workflow_Directory_User:Directory_User`. Records and the Expression using C#:record:return
+`<Workflow_Directory_User:Directory_User>`. Records and the Expression using C#:record:return
 record.Directory_User.Records... will not work.
 
-Instead, the ExpressionBinding should be set to `Workflow_Directory_User:Directory_User` and the
+Instead, the ExpressionBinding should be set to `<Workflow_Directory_User:Directory_User>` and the
 Expression should use C#:user:return user.Records.
 
 The following example makes sure that a user's positions do not overlap.

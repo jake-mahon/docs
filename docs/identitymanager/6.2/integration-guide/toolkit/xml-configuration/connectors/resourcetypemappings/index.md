@@ -1,3 +1,9 @@
+---
+title: "Resource Type Mappings"
+description: "Resource Type Mappings"
+sidebar_position: 50
+---
+
 # Resource Type Mappings
 
 A resource type mapping links resources sharing the same intent and the same authorization system
@@ -7,7 +13,7 @@ from the managed system.
 
 Here is a list of ResourceType Mapings:
 
-- [Azure AD Resource Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/microsoftentraidresourcetypemapping/index.md)
+- [Microsoft EntraID Resource Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/microsoftentraidresourcetypemapping/index.md)
 
     The set of parameters to map the properties of Microsoft Entra ID in Identity Manager, for
     provisioning purposes.

@@ -1,3 +1,9 @@
+---
+title: "PowerShellSync"
+description: "PowerShellSync"
+sidebar_position: 200
+---
+
 # PowerShellSync
 
 This connector exports data from an external system via a
@@ -82,7 +88,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "PowerShellExport": {
->       "PowerShellScriptPath": "C:/UsercubeDemo/Scripts/Export-CSV.ps1",
+>       "PowerShellScriptPath": "C:/identitymanagerDemo/Scripts/Export-CSV.ps1",
 >     }
 >   }
 > }

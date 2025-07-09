@@ -1,3 +1,9 @@
+---
+title: "Administrate"
+description: "Administrate"
+sidebar_position: 30
+---
+
 # Administrate
 
 In the Admin section you can do the following:

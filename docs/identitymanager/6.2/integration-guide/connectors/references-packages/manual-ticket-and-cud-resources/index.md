@@ -1,10 +1,16 @@
+---
+title: "Manual Ticket and CUD Resources"
+description: "Manual Ticket and CUD Resources"
+sidebar_position: 180
+---
+
 # Manual Ticket and CUD Resources
 
 Opens manual provisioning tickets in Identity Manager.
 
 | Package Characteristics | Value                                                                                     |
 | ----------------------- | ----------------------------------------------------------------------------------------- |
-| Display Name            | Ticket/Usercube And Create/Update/Delete resources                                        |
+| Display Name            | Ticket/identitymanager And Create/Update/Delete resources                                        |
 | Identifier              | Usercube.UpdateManualProvisioningTicket@0000001                                           |
 | Export                  | NONE                                                                                      |
 | Fulfill                 | `Usercube-UpdateManualProvisioningTicket.dll` and `Usercube-Update-FulfillmentStates.dll` |

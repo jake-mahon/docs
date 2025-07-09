@@ -1,8 +1,14 @@
+---
+title: "Upward Data Synchronization"
+description: "Upward Data Synchronization"
+sidebar_position: 10
+---
+
 # Upward Data Synchronization
 
 Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into
-Identity Manager's [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) and translates them into resources
-that match the configured Entity Model.
+Identity Manager's resource repository and translates them into resources that match the configured
+Entity Model. See the [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional information.
 
 Performing a _Sync Up_ allows the user to:
 
@@ -50,9 +56,9 @@ However, the _incremental_ mode cannot be 100% reliable for two reasons.
 First, it relies on external inputs that are not directly controlled by Identity Manager. Second, it
 only exports changes based on the managed system state, not on Identity Manager's database state.
 
-Upward Data Synchronizationcould cause slight differences between the database's state and the
-managed systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync
-Up ensures the database is in a stable state, faithfully reflecting the managed system state, before
+External perturbations could cause slight differences between the database's state and the managed
+systems'. Order can be restored by running a _complete_ Sync Up regularly. A _complete_ Sync Up
+ensures the database is in a stable state, faithfully reflecting the managed system state, before
 resuming the _incremental Sync Up_ iterations.
 
 Safeguards are also implemented to avoid accidental overwrites, that would be caused by an empty or
@@ -80,8 +86,8 @@ The _Export_ is the first step of the _Sync Up_.
 During this step, data is extracted from the managed system and generates _CSV files_ containing the
 managed system's raw data. The **output** of this process is called the **_CSV source files_**. They
 are written to the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) waiting
-to be used by the next-in-line _prepare-synchronization task_.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export
+directory waiting to be used by the next-in-line _prepare-synchronization task_.
 
 The _Export_ occurs _Agent_-side.
 
@@ -113,8 +119,9 @@ format. A custom task, such as a
 [ Invoke Expression Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md),
 can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format
 expected by Identity Manager and copy them to the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md). The
-whole can be scheduled and orchestrated by a [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export
+directory. The whole can be scheduled and orchestrated by a
+[ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
 
 **For example**, a common scenario is to configure an HR management system to perform daily extracts
 of its data to CSV files for the _Agent_ to find. This usually can be set up without any Identity
@@ -124,10 +131,12 @@ If the managed system does not provide built-in export features but provides an 
 database, it's possible to write a custom _export_ process based on that API or direct requests to
 the managed system's database. This process can then be used as an _export task_ wrapped in a
 [ Invoke Expression Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
-or a
+or an
 [ Invoke Sql Command Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md).
-Any Windows process that can be called from a PowerShell script and generate a CSV file can serve as
-an export process.
+See the
+[ Invoke Expression Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
+topic for additional information. Any Windows process that can be called from a PowerShell script
+and generate a CSV file can serve as an export process.
 
 **How to choose the custom CSV source file format ?** It's best to keep it simple and stick as
 closely as possible to the managed system data model. Data cleansing and translation to the resource
@@ -164,15 +173,18 @@ format_, described in the [Connectors](/docs/identitymanager/6.2/integration-gui
 files are generated: _entries_, describing plain entries, and _associations_, describing
 associations between entries.
 
-All _CSV source files_ are written to the Upward Data Synchronization.
+All _CSV source files_ are written to the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export
+directory.
 
 At the end of the _export_ step, the Upward Data Synchronization contains several files per
 connectors, that will be translated into _resources_ during _prepare-synchronization_ and
-_synchronization_ steps thanks to Upward Data Synchronization (see below).
+_synchronization_ steps thanks to Entity Mapping (see below).
 
-The Upward Data Synchronization can also contain opaque
-[cookie files](https://ldapwiki.com/wiki/DirSync) used for incremental export of a few systems such
-as Active Directory, Microsoft Entra ID, ServiceNow, and SCIM.
+The [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+export directory can also contain opaque [cookie files](https://ldapwiki.com/wiki/DirSync) used for
+incremental export of a few systems such as Active Directory, Microsoft Entra ID, ServiceNow, and
+SCIM.
 
 The reader might now understand how, as laid out in the overview, the input data could be unreliable
 given the volatile nature of the managed system export methods. _Complete_ and _incremental_ modes
@@ -265,7 +277,7 @@ The following actions are performed on the _CSV source files._
 3. Removing duplicates
 4. Sorting entries according to the primary key
 
-The result of the _Prepare-Synchronization_ is stored in the Upward Data Synchronization as three files:
+The result of the _Prepare-Synchronization_ is stored in the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory as three files:
 
 For every entity type of the relevant _Connector_ involved in an[
 Entity Type Mapping
@@ -283,7 +295,7 @@ In _incremental_ mode, changes might need to be computed by the _Agent_.
 
 If the export step has provided computed changes, no further process is required. The changes will be sent as-is to the server.
 
-If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the Upward Data Synchronization.
+If the export step has provided a full extract of the managed systems, the _prepare-synchronization_ step computes changes. This computation is based on the result of the last data cleansing, generated by the previous _prepare-synchronization_, and stored in the ```previous``` folder in the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory.
 
 For _incremental_ mode, it is recommended to use managed systems to compute changes when possible. Dedicated workstations and knowledge of the inner data organization allow managed systems to compute changes with a performance that Identity Manager can't match. Also, using managed systems for these operations avoid generating heavy files and alleviate Identity Manager's processing load.
 
@@ -291,7 +303,9 @@ The result is a set of clean lists of changes stored as ```.sorted.delta``` file
 
 The _command_ column can take the following values: _insert_, _update_, _delete_, and _merge_. These are instructions for the _synchronization_ step to apply the changes to the database.
 
-The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the Upward Data Synchronization. It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
+The ```.sorted``` file (the original cleaned export file, not the changes) is stored in the ```previous``` folder inside the
+Upward Data Synchronization
+. It will be used as a reference for the next _incremental__prepare-synchronization_ to compute the changes if needed.
 
 Tampering with the ```previous``` folder content would result in false changes in order to be computed and result in data corruption in the Identity Manager database. To restore the Identity Manager database to a state faithful to the managed system, a _complete__Sync Up_ would be required.
 
@@ -384,7 +398,7 @@ Then, changes according to the _command_ column are applied to UR_Resources and 
 
 - [
   Synchronize Task
-  ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) i is the standard _synchronization_ task.
+  ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) is the standard _synchronization_ task.
 - SynchronizeChanges Task is used to handle changes together with PrepareSynchronization Change Task.
 - SynchronizeActive Directory Task is specialized for Active Directory. To be used with PrepareSynchronizationActiveDirectory Task.
 

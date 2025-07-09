@@ -1,3 +1,9 @@
+---
+title: "Usercube-Generate-Configuration"
+description: "Usercube-Generate-Configuration"
+sidebar_position: 200
+---
+
 # Usercube-Generate-Configuration
 
 Generates from a CSV file the configuration of a connector with these entities.

@@ -1,3 +1,9 @@
+---
+title: "Create Agent Synchro Complete"
+description: "Create Agent Synchro Complete"
+sidebar_position: 30
+---
+
 # Create Agent Synchro Complete
 
 This Scaffolding generates a synchronization job (in complete mode) for all connectors.
@@ -90,7 +96,7 @@ script in the command line.
 
 <Job Identifier="Job_Daily" DisplayName_L1="94: Complete Job" DisplayName_L2="94: Job quotidien" Agent="Local">
   <ExportTask Identifier="Job_Daily_Export_AD_Complete_ADExportFulfillment" DisplayName_L1="AD - Extract Changes" DisplayName_L2="AD - Extraction des modifications" Agent="Local" Connector="AD" Level="0" OpenIdClient="Job" Connection="ADExportFulfillment" ContinueOnError="true" IgnoreCookieFile="true" />
-  <ExportTask Identifier="Job_Daily_Export_AzureAD_Complete_AzureADExportFulfillment" DisplayName_L1="Microsoft Entra ID - Extract Changes" DisplayName_L2="Microsoft Entra ID - Extraction des modifications" Agent="Local" Connector="AzureAD" Level="0" OpenIdClient="Job" Connection="AzureADExportFulfillment" ContinueOnError="true" IgnoreCookieFile="true" />
+  <ExportTask Identifier="Job_Daily_Export_MicrosoftEntraID_Complete_MicrosoftEntraIDExportFulfillment" DisplayName_L1="Microsoft Entra ID - Extract Changes" DisplayName_L2="Microsoft Entra ID - Extraction des modifications" Agent="Local" Connector="MicrosoftEntraID" Level="0" OpenIdClient="Job" Connection="MicrosoftEntraIDExportFulfillment" ContinueOnError="true" IgnoreCookieFile="true" />
   <ExportTask Identifier="Job_Daily_Export_HR_Complete_HRCountries" DisplayName_L1="HR - Extract Changes" DisplayName_L2="HR - Extraction des modifications" Agent="Local" Connector="HR" Level="0" OpenIdClient="Job" Connection="HRCountries" ContinueOnError="true" IgnoreCookieFile="true" />
   <ExportTask Identifier="Job_Daily_Export_HR_Complete_HREmployeetypes" DisplayName_L1="HR - Extract Changes" DisplayName_L2="HR - Extraction des modifications" Agent="Local" Connector="HR" Level="0" OpenIdClient="Job" Connection="HREmployeetypes" ContinueOnError="true" IgnoreCookieFile="true" />
   <ExportTask Identifier="Job_Daily_Export_HR_Complete_HRExternalCompanies" DisplayName_L1="HR - Extract Changes" DisplayName_L2="HR - Extraction des modifications" Agent="Local" Connector="HR" Level="0" OpenIdClient="Job" Connection="HRExternalCompanies" ContinueOnError="true" IgnoreCookieFile="true" />
@@ -106,8 +112,8 @@ script in the command line.
   <PrepareSynchronizationTask Identifier="Job_Daily_PrepareSynchronizationActiveDirectory_AD_Complete" DisplayName_L1="AD - Synchronization (agent side)" DisplayName_L2="AD - Synchronisation (côté agent)" Agent="Local" Connector="AD" Level="1" OpenIdClient="Job" SynchronizationMode="Complete" Type="ActiveDirectory">
     <TaskDependsOnTask ParentTask="Job_Daily_Export_AD_Complete_ADExportFulfillment" />
   </PrepareSynchronizationTask>
-  <PrepareSynchronizationTask Identifier="Job_Daily_PrepareSynchronization_AzureAD_Complete" DisplayName_L1="Microsoft Entra ID - Synchronization (agent side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté agent)" Agent="Local" Connector="AzureAD" Level="1" OpenIdClient="Job" SynchronizationMode="Complete">
-    <TaskDependsOnTask ParentTask="Job_Daily_Export_AzureAD_Complete_AzureADExportFulfillment" />
+  <PrepareSynchronizationTask Identifier="Job_Daily_PrepareSynchronization_MicrosoftEntraID_Complete" DisplayName_L1="Microsoft Entra ID - Synchronization (agent side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté agent)" Agent="Local" Connector="MicrosoftEntraID" Level="1" OpenIdClient="Job" SynchronizationMode="Complete">
+    <TaskDependsOnTask ParentTask="Job_Daily_Export_MicrosoftEntraID_Complete_MicrosoftEntraIDExportFulfillment" />
   </PrepareSynchronizationTask>
   <PrepareSynchronizationTask Identifier="Job_Daily_PrepareSynchronization_HR_Complete" DisplayName_L1="HR - Synchronization (agent side)" DisplayName_L2="HR - Synchronisation (côté agent)" Agent="Local" Connector="HR" Level="1" OpenIdClient="Job" SynchronizationMode="Complete">
     <TaskDependsOnTask ParentTask="Job_Daily_Export_HR_Complete_HRCountries" />
@@ -130,8 +136,8 @@ script in the command line.
   <SynchronizeTask Identifier="Job_Daily_SynchronizeActiveDirectory_AD" DisplayName_L1="AD - Synchronization (server side)" DisplayName_L2="AD - Synchronisation (côté serveur)" Connector="AD" Level="2" Type="ActiveDirectory">
     <TaskDependsOnTask ParentTask="Job_Daily_PrepareSynchronizationActiveDirectory_AD_Complete" />
   </SynchronizeTask>
-  <SynchronizeTask Identifier="Job_Daily_Synchronize_AzureAD" DisplayName_L1="Microsoft Entra ID - Synchronization (server side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté serveur)" Connector="AzureAD" Level="2">
-    <TaskDependsOnTask ParentTask="Job_Daily_PrepareSynchronization_AzureAD_Complete" />
+  <SynchronizeTask Identifier="Job_Daily_Synchronize_MicrosoftEntraID" DisplayName_L1="Microsoft Entra ID - Synchronization (server side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté serveur)" Connector="MicrosoftEntraID" Level="2">
+    <TaskDependsOnTask ParentTask="Job_Daily_PrepareSynchronization_MicrosoftEntraID_Complete" />
   </SynchronizeTask>
   <SynchronizeTask Identifier="Job_Daily_Synchronize_HR" DisplayName_L1="HR - Synchronization (server side)" DisplayName_L2="HR - Synchronisation (côté serveur)" Connector="HR" Level="2">
     <TaskDependsOnTask ParentTask="Job_Daily_PrepareSynchronization_HR_Complete" />
@@ -187,7 +193,7 @@ script in the command line.
     <TaskEntityType EntityType="Directory_Location" />
     <TaskEntityType EntityType="Directory_Organization" />
     <TaskEntityType EntityType="Directory_OrganizationType" />
-    <TaskEntityType EntityType="AzureAD_DirectoryObject" />
+    <TaskEntityType EntityType="MicrosoftEntraID_DirectoryObject" />
     <TaskEntityType EntityType="Directory_Application" />
     <TaskEntityType EntityType="Directory_Bot" />
     <TaskEntityType EntityType="Directory_BusinessCategory" />
@@ -198,7 +204,7 @@ script in the command line.
     <TaskEntityType EntityType="AD_Entry" />
     <TaskEntityType EntityType="Access_AccessAuthorization" />
     <TaskEntityType EntityType="Access_Badge" />
-    <TaskEntityType EntityType="AzureAD_DirectoryObject" />
+    <TaskEntityType EntityType="MicrosoftEntraID_DirectoryObject" />
     <TaskEntityType EntityType="Directory_Bot" />
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
@@ -222,8 +228,8 @@ script in the command line.
     <TaskResourceType ResourceType="AD_Entry_NominativeUser" />
     <TaskResourceType ResourceType="Access_AccessAuthorization_Nominative" />
     <TaskResourceType ResourceType="Access_Badge_Nominative" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_Guest" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_NominativeUser" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_Guest" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" />
     <TaskResourceType ResourceType="LDAP_Entry_Guest" />
     <TaskResourceType ResourceType="LDAP_Entry_NominativeUser" />
     <TaskResourceType ResourceType="SAB_User_NominativeUser" />
@@ -236,8 +242,8 @@ script in the command line.
     <TaskResourceType ResourceType="AD_Entry_NominativeUser" />
     <TaskResourceType ResourceType="Access_AccessAuthorization_Nominative" />
     <TaskResourceType ResourceType="Access_Badge_Nominative" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_Guest" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_NominativeUser" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_Guest" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" />
     <TaskResourceType ResourceType="LDAP_Entry_Guest" />
     <TaskResourceType ResourceType="LDAP_Entry_NominativeUser" />
     <TaskResourceType ResourceType="SAB_User_NominativeUser" />

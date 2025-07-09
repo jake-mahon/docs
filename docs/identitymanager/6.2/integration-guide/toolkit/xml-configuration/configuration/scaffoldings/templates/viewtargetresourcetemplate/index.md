@@ -1,3 +1,9 @@
+---
+title: "View Target Resource Template"
+description: "View Target Resource Template"
+sidebar_position: 100
+---
+
 # View Target Resource Template
 
 Creates the entity view (designElement = resourceTable), the report and the rights for a given

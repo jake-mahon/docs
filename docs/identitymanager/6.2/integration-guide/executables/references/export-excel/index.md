@@ -1,15 +1,21 @@
+---
+title: "Usercube-Export-Excel"
+description: "Usercube-Export-Excel"
+sidebar_position: 140
+---
+
 # Usercube-Export-Excel
 
 ## Examples
 
 ### Exporting a file respecting the default parameters
 
-Consider the file `C:/UsercubeContoso/Sources/hr_example.xlsx` with `UTF8` encoding, it can be
+Consider the file `C:/identitymanagerContoso/Sources/hr_example.xlsx` with `UTF8` encoding, it can be
 exported using these command's arguments:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput`
 
-The output file(s) will be located in `C:/UsercubeContoso/Temp/ExportOutput/`. Their number
+The output file(s) will be located in `C:/identitymanagerContoso/Temp/ExportOutput/`. Their number
 corresponds to the number of sheets in the XLSX file and they would be labeled: `HREXAMPLE_0.csv`,
 `HREXAMPLE_1.csv`, ... `HREXAMPLE_n-1.csv` where n corresponds to the amount of spread sheets of the
 XLSX file. The encoding is `UTF8` and the separator is `,`.
@@ -18,27 +24,27 @@ XLSX file. The encoding is `UTF8` and the separator is `,`.
 
 The possibility to skip lines is made available using the `--lines-to-skip` argument:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --lines-to-skip 10`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --lines-to-skip 10`
 
 As a consequence, the exported file would include the content of the XLSX file without the ten first
 lines.
 
 ### Regex in file name
 
-Considering a generated file following the regex: `C:/UsercubeContoso/Sources/hr_example(.*?).xlsx`,
-for instance `C:/UsercubeContoso/Sources/hr_example5fH8g1.xlsx`, if several files match with the
+Considering a generated file following the regex: `C:/identitymanagerContoso/Sources/hr_example(.*?).xlsx`,
+for instance `C:/identitymanagerContoso/Sources/hr_example5fH8g1.xlsx`, if several files match with the
 regex, the executable would use the most recent one.
 
 The regex can be included in the filename and would need to be precised using the `--is-regex`
 argument:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example(.*?).xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --is-regex`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example(.*?).xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --is-regex`
 
 ### Choosing value to trim
 
 It's possible to precise characters to trim using the `--values-to-trim` argument:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --values-to-trim e`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --values-to-trim e`
 
 The CSV output file will see every words beginning and ending by "e" (lower-case, this process is
 case sensitive) removed of this letter.
@@ -47,10 +53,10 @@ case sensitive) removed of this letter.
 
 The `--sheets-ignored` argument allows the user to specify for each sheet if it should be ignored
 during the export. More precisely, a list of true or false arguments should be specified
-respectively to the sheets. Let's say the `C:/UsercubeContoso/Sources/hr_example.xlsx` file
+respectively to the sheets. Let's say the `C:/identitymanagerContoso/Sources/hr_example.xlsx` file
 possesses three sheets, in order to export the first and the last ones the arguments would be:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --sheets-ignored false true true false`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.xlsx --not-incremental --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --sheets-ignored false true true false`
 
 Thus, two CSV files would be created corresponding to the the chosen ones: `HREXAMPLE_0.csv` and
 `HREXAMPLE_3.csv`.

@@ -1,3 +1,9 @@
+---
+title: "Display Entity Type"
+description: "Display Entity Type"
+sidebar_position: 20
+---
+
 # Display Entity Type
 
 The `<DisplayEntityType>` element sets information about how an entity type is to be displayed by

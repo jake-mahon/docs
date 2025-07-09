@@ -1,3 +1,9 @@
+---
+title: "Reverse Proxy"
+description: "Reverse Proxy"
+sidebar_position: 50
+---
+
 # Reverse Proxy
 
 Identity Manager can be installed behind a

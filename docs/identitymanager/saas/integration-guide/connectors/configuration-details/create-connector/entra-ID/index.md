@@ -15,7 +15,7 @@ The following are prerequisites for the connector creation.
 
 Configure the external system
 
-See the [Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/how-tos/azuread-register/index.md) topic for additional
+See the [Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/azuread-register/index.md) topic for additional
 information on how to register Identity Manager.
 
 Configure Identity Manager
@@ -159,7 +159,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Connector.xml
 Notice the format of the Property1 and Property2 XML attributes: the name of the entity type is
 followed by a colon (:) and the name of an entity property. It is a binding describing in one
 expression, the target entity type and property. See
-the[ Binding ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional
+the[Binding](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional
 information.
 
 Entity mapping

@@ -1,3 +1,9 @@
+---
+title: "Assign Users a Profile"
+description: "Assign Users a Profile"
+sidebar_position: 110
+---
+
 # Assign Users a Profile
 
 How to assign Identity Manager's access permissions to users through profiles.
@@ -68,8 +74,7 @@ section.
 - **Resource**: Identity chosen from among entries to be assigned said profile.
 - **Profile's Email**: Email created in order to receive the corresponding approval requests.
 - **Deny this Profile**: Option that forbids the profile assignment instead of applying it.
-- **Start Date** and **End Date**: Particularly useful for
-  [profile delegation](#delegate-a-profile).
+- **Start Date** and **End Date**: Particularly useful for profile delegation.
 
 **NOTE:** If filters are defined in the Access Rules, and are assigned to the profile, a
 **Criteria** section will appear containing them. Filters are conditions that, if met, trigger the

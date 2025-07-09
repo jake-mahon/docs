@@ -1,3 +1,9 @@
+---
+title: "Usercube-Protect-CertificatePassword"
+description: "Usercube-Protect-CertificatePassword"
+sidebar_position: 300
+---
+
 # Usercube-Protect-CertificatePassword
 
 This tool helps protecting `.pfx` archives passwords. Given a plain text password, it generates an
@@ -31,7 +37,7 @@ appsettings.json
 {
 ...
  "EncryptionCertificate": {
-    "File": "C:/UsercubeAgentContoso/contoso.pfx",
+    "File": "C:/identitymanagerAgentContoso/contoso.pfx",
     "Password": "ep4BsLtg5RVFVI1kEIMZbV1q7Bg2eAFzeD73YX5fV7eklSIqcJcxHsCQbyY2zKLppXSX+Zpwm7xU5QY6DTAJleFbWsP/p0fjXUn1agy1tQ6l6t6wvURBZcePEgu+ivNjpUENbDIBotPdzbpISLJIjQbISzHDWnHuWPk/l8h0wXU=@WrAj9YdcNK8cQvfopZa5g1QFc1hk6nPolkwQAkU2ORfXupgV7kaWgKF4W/UmC0XXg4zuaqpVui6ivB0jbLTiXgQ62o+bG9ZSEJLaur4d20TMRNadqnWTWPWhVJF6XiS4jX7sDvVrZO3sKQJMNzZSeTKmsl0w0boCBEkuHsWDA24=@0oLLKxcTJGxSx1uGvhexEA=="
   }
 ...

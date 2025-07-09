@@ -1,3 +1,9 @@
+---
+title: "Send Notifications"
+description: "Send Notifications"
+sidebar_position: 50
+---
+
 # Send Notifications
 
 An SMTP server is used by the Identity Manager Server to send notification emails to its users, and

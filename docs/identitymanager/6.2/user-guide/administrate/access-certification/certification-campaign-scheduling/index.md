@@ -1,3 +1,9 @@
+---
+title: "Schedule a Certification Campaign"
+description: "Schedule a Certification Campaign"
+sidebar_position: 10
+---
+
 # Schedule a Certification Campaign
 
 How to create and schedule access certification campaigns, defining their scope.
@@ -16,9 +22,12 @@ filters specifying the reviewers and items to be reviewed.
 This operation should be performed in cooperation with the staff in charge of auditing, because they
 know what entitlements need to be reviewed.
 
-| Input                                                                                                                                                                                                                                                                                   | Output                              |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required)<br />[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) (optional)<br />[Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) (optional) | Scheduled certification campaign(s) |
+| Input                                                                                                                                                                                                | Output                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| Identity Repository (required) [Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)<br />(optional) [Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) | Scheduled certification campaign(s) |
+
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic
+for additional information.
 
 ## Create a Certification Campaign
 
@@ -28,57 +37,61 @@ Create an access certification campaign by proceeding as follows:
 
     ![Home - Access Certification Campaigns](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/home_accesscertificationcampaigns_v602.webp)
 
-2. Click the addition button at the top right and fill in the fields:
+2. Click on the addition button at the top right and fill in the fields.
 
     ![Addition Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
     ![New Certification Campaign](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newcertificationcampaign_v602.webp)
 
-    - `Identifier`: Must be unique among campaigns, without whitespace.
-    - `Name`: Displayed in the UI to identify the campaign.
-    - `Start Date`: Determines the access snapshot that will be reviewed. Only permissions existing
-      at this date will be included.
-    - `End Date`: Campaign deadline.
-    - `Target Entity Type`: Entity type the campaign targets.
-    - `Target Reviewers`: Identities responsible for the review, configured via
-      [Access Certification policies](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md).
+    - `Identifier`: Must be unique among certification campaigns and must not contain whitespace.
+    - `Name`: Will be displayed in the UI to identify the campaign.
+    - `Start Date`: Date when the campaign begins and becomes visible on the reviewers' **Access
+      Certification** screen. The campaign will review access existing at this date; changes after
+      this date are not included.
+    - `End Date`: Date when the campaign ends.
+    - `Target Entity Type`: Entity type targeted by the campaign.
+    - `Target Reviewers`: Set of identities responsible for the access review. Available reviewers
+      are configured via the
+      [Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md)
+      policies.
     - `Target Specificities`:
       [AccessCertificationDataFilter](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
-      that define what permissions to include (object type, category, approval state, etc.). The
-      campaign scope is a **union** of all specificities.
+      defines the campaign scope (e.g., by object type, category, approval state). The campaign uses
+      the union of all specificities.
 
         ![Target Specificities](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetspecificities_v602.webp)
 
-        The campaign targets permissions that meet the **intersection (AND)** of all filters. When
-        using role tags, roles with **any** of the listed tags are included (**OR** logic).
+        The campaign will target permissions that meet the **intersection (AND)** of all criteria.
 
-    - `Target Owners`: Filters based on identity dimensions. These are combined using **AND** logic.
+        When listing role tags, roles with **any matching tag (OR)** will be included.
+
+    - `Target Owners`: Filters based on identity attributes for those whose access is being
+      reviewed. All filters are combined using **intersection (AND)** logic.
 
         ![Target Owner Filters](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetowners_v602.webp)
 
-        Additional filters may be available depending on the selected entity type:
+        Additional filters may be available depending on the target entity type.
 
         ![Target Owner Additional Filters](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_targetownersadditional_v603.webp)
 
-        - `Individual Owner`: A single identity whose access will be certified.
-        - `Active Target`: Identities for which a specific property (from `Directory_UserRecord`)
-          was modified since a given date.
+        - `Individual Owner`: A single identity whose access is to be certified.
+        - `Active Target`: Identities with a specific property (from `Directory_UserRecord`)
+          modified since a given date.
 
-            > Only properties **not calculated** by Identity Manager can be used to filter target
-            > owners.
+            > Only properties not calculated by Identity Manager can be used to filter the target
+            > owners of the certification campaign.
 
-            > Example: The following campaign certifies all single roles assigned to two specific
-            > users:
+            > The following campaign targets all assigned single roles for two specific users:
             >
             > ![Campaign Example](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_example_v602.webp)
 
-3. Click **Create**. The campaign appears in the list.
+3. Click **Create** to add the campaign to the list.
 
     ![Campaigns Page](/img/product_docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newlycreated_v603.webp)
 
-4. Click **Launch** to apply the changes and start the certification job.
+4. Apply changes by clicking **Launch** to run the access certification job.
 
-    Logs for this job are available via the **Job Results** button.
+    The job's logs are available via the **Job Results** button.
 
     > Example:
     >
@@ -86,11 +99,10 @@ Create an access certification campaign by proceeding as follows:
 
 ## Impact of Modifications
 
-You can modify any field in a certification campaign **before its start date**.  
-After it begins, only the name, identifier, and end date can be changed.  
-You may delete the campaign at any time.
+You may modify any field of a certification campaign before its start date. After it starts, only
+the name, identifier, and end date can be changed. Campaigns can be deleted at any time.
 
 ## Verify Campaign Scheduling
 
-To verify the setup, go to the **Access Certification Campaigns** page and check that the created
-campaign has the correct parameters.
+To verify the process, check the **Access Certification Campaigns** page to confirm the campaign’s
+parameters are correct.

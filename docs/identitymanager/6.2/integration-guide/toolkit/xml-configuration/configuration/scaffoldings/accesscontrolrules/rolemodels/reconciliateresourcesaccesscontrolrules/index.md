@@ -1,3 +1,9 @@
+---
+title: "Reconciliate Resources Access Control Rules"
+description: "Reconciliate Resources Access Control Rules"
+sidebar_position: 80
+---
+
 # Reconciliate Resources Access Control Rules
 
 Generates the right to access the reconcile resources pages for a given entity type and profile.

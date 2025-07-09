@@ -1,3 +1,9 @@
+---
+title: "Adjust the Workforce Data Model"
+description: "Adjust the Workforce Data Model"
+sidebar_position: 40
+---
+
 # Adjust the Workforce Data Model
 
 How to select the properties to be part of the data model for the workforce repository (therefore
@@ -28,11 +34,11 @@ will be able to make modifications at any time.
 
 Integrators may need the help of the HR department who know the organization.
 
-| Input                                                                      | Output                        |
-| -------------------------------------------------------------------------- | ----------------------------- |
-| Identity Manager Server (required) Initial workforce repository (required) | Adjusted workforce repository |
+| Input                                                                    | Output                        |
+| ------------------------------------------------------------------------ | ----------------------------- |
+| IdentityManagerServer (required) Initial workforce repository (required) | Adjusted workforce repository |
 
-See the [Install the Development Environment](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 and [Load Identities to Identity Manager](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/load-identities/index.md) topics for additional
 information.
 

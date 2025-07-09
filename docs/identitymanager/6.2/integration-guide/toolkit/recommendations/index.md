@@ -1,10 +1,16 @@
+---
+title: "Recommendations"
+description: "Recommendations"
+sidebar_position: 10
+---
+
 # Recommendations
 
 ## Editor
 
 [Visual Studio Code](https://code.visualstudio.com/) is the recommended editor for configuration.
-Its extensions can highly benefit the configuration experience. NETWRIX recommends the following
-extensions:
+Its extensions can highly benefit the configuration experience. Netwrix Identity Manager (formerly
+Usercube) recommends the following extensions:
 
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   for file organization;

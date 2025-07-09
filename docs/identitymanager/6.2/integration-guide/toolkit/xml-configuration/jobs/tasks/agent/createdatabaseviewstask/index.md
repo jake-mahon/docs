@@ -1,3 +1,9 @@
+---
+title: "Create Database Views Task"
+description: "Create Database Views Task"
+sidebar_position: 20
+---
+
 # Create Database Views Task
 
 Generates entity model SQL views in the Identity Manager database. All views are prefixed by `zz_`.

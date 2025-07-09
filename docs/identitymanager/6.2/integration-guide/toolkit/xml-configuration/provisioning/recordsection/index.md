@@ -1,3 +1,9 @@
+---
+title: "Record Section"
+description: "Record Section"
+sidebar_position: 100
+---
+
 # Record Section
 
 Record sections shape identity data for a given entity type, by grouping properties into sections,
@@ -18,7 +24,7 @@ additional information on identity modeling.
 **Configuration recommendations:**
 
 As record sections cannot be configured without a [ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md), Netwrix
-Identity Manager (formerly Usercube)recommends starting with the configuration of the context rule
+Identity Manager (formerly Usercube) recommends starting with the configuration of the context rule
 before configuring record sections.
 
 Netwrix Identity Manager (formerly Usercube)recommends defining at least two record sections: a
@@ -89,11 +95,12 @@ positions.
 
 ### IsDefaultBoundariesSection
 
-The following example uses the contract start/end dates as default boundaries in users'
-[validity period](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md#period-of-validity),
-instead of those from the default section. It may be because, for example, HR services do not enter
-an end date for the personal data of users on permanent contracts. So we prefer to use the start and
-end dates of their contracts.
+The following example uses the contract start/end dates as default boundaries in users' validity
+period, instead of those from the default section. See the
+[ Onboarding and Offboarding ](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md)
+topic for additional information. It may be because, for example, HR services do not enter an end
+date for the personal data of users on permanent contracts. So we prefer to use the start and end
+dates of their contracts.
 
 ```
 

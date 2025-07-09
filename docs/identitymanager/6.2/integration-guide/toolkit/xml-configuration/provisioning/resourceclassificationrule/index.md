@@ -1,3 +1,9 @@
+---
+title: "Resource Classification Rule"
+description: "Resource Classification Rule"
+sidebar_position: 110
+---
+
 # Resource Classification Rule
 
 In Identity Manager, this type of rule is used to classify the resources based on a C# expression.

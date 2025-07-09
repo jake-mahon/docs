@@ -1,4 +1,10 @@
-# Resource Type Mapping Control Rules
+---
+title: "ResourceTypeMappingControlRules"
+description: "ResourceTypeMappingControlRules"
+sidebar_position: 70
+---
+
+# ResourceTypeMappingControlRules
 
 Scaffolding to create the right for a profile to start the Fulfillment to an external system (LDAP,
 MicrosoftEntraID...). This right corresponds to the permission to use ResourceTypeMapping elements

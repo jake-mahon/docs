@@ -1,3 +1,9 @@
+---
+title: "Modules"
+description: "Modules"
+sidebar_position: 50
+---
+
 # Modules
 
 Identity Manager can integrate with other software for issues such as credential protection and
@@ -11,4 +17,4 @@ logging. To use these integration modules, they just need to be configured in Id
 
 ## Logging
 
-- [ Export Logs to a Log Management System ](/docs/identitymanager/6.2/integration-guide/monitoring/how-tos/qradar-setting/index.md)
+- [ Export Logs to a Log Management System ](/docs/identitymanager/6.2/integration-guide/monitoring/qradar-setting/index.md)

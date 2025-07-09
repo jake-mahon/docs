@@ -1,3 +1,9 @@
+---
+title: "How to Implement a New System"
+description: "How to Implement a New System"
+sidebar_position: 30
+---
+
 # How to Implement a New System
 
 How to add a new system to the solution.
@@ -8,12 +14,11 @@ When connecting Identity Manager to a new system, several process paths can be 
 your strategy. There is no option fundamentally better than the others, your decision must depend on
 your needs.
 
-The **option A** leads quickly to the
-[ Update Identity Data ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/index.md)in production
-environment, i.e. a new application in Identity Manager's scope. With this, you can
+The **option A** leads quickly to the implementation in production environment, i.e. a new
+application in Identity Manager's scope. With this, you can
 [Review Orphaned and Unused Accounts](/docs/identitymanager/6.2/user-guide/administrate/orphan-unused-account-review/index.md),
 [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) the AD,
-[ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)properties,
+[ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md),
 and [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md), for example the list of profiles
 assigned to users.
 
@@ -49,10 +54,10 @@ aware that you can go through the process options simultaneously.
 4. [ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) to write to the
    system in order to update the resources' properties directly in the system.
 5. Adjust the rules by
-   [ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)resources,
-   i.e. analyze the differences spotted between the reality of resources' properties and those
-   computed by the previously established rules. Especially, verify that accounts are correlated to
-   the right owners and that their properties have the right values.
+   [ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+   resources, i.e. analyze the differences spotted between the reality of resources' properties and
+   those computed by the previously established rules. Especially, verify that accounts are
+   correlated to the right owners and that their properties have the right values.
 
     Either the integrator handles the customization of the rules and the review of non-conforming
     resources, or they can assign an application administrator profile to a given user to perform

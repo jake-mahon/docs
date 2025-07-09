@@ -1,3 +1,9 @@
+---
+title: "Context Rule"
+description: "Context Rule"
+sidebar_position: 60
+---
+
 # Context Rule
 
 A context rule configures, for the identities of a given entity type, the generation of contexts

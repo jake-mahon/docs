@@ -1,3 +1,9 @@
+---
+title: "Request Entitlement Assignment"
+description: "Request Entitlement Assignment"
+sidebar_position: 60
+---
+
 # Request Entitlement Assignment
 
 How to send a manual request to add, update or remove an entitlement for an identity.
@@ -7,18 +13,22 @@ How to send a manual request to add, update or remove an entitlement for an iden
 Changes in an identity's entitlements can be handled using Identity Manager's predefined workflows
 to:
 
-- View the list of the identity's Request Entitlement Assignment with Identity Manager's suggestions
-  according to the identity's position;
-- Modify the identity's Request Entitlement Assignment (add, update, remove).
+- View the list of the identity's entitlements with Identity Manager's suggestions according to the
+  identity's position;
+- Modify the identity's entitlements (add, update, remove).
 
 ## Participants and Artifacts
 
 An assignment can be requested for a user sometimes by said user themselves, most often by their
 manager, and on some occasions by the involved application owner.
 
-| Input                                                                                                                                                                                                 | Output               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required) [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Updated entitlements |
+| Input                                                  | Output               |
+| ------------------------------------------------------ | -------------------- |
+| Identity repository (required) Role Catalog (required) | Updated entitlements |
+
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
+[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
+additional information.
 
 ## View Identity's Entitlements
 

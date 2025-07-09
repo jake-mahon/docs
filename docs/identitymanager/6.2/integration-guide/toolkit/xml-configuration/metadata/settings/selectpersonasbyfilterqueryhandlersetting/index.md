@@ -1,3 +1,9 @@
+---
+title: "Select Personas by Filter Query Handler Setting"
+description: "Select Personas by Filter Query Handler Setting"
+sidebar_position: 110
+---
+
 # Select Personas by Filter Query Handler Setting
 
 This setting is used to filter the entity type used by authentication mechanism.

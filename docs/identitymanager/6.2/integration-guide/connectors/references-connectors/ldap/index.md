@@ -1,3 +1,9 @@
+---
+title: "LDAP"
+description: "LDAP"
+sidebar_position: 120
+---
+
 # LDAP
 
 This connector exports and fulfills entries from/to an [LDAP](https://ldap.com/)-compliant system.
@@ -141,9 +147,10 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one file
-per element in **Tables**, named `<connectionIdentifier>_<tableName>.csv`, with one column for each
-property having a `ConnectionColumn` and each property without it but used in an entity association.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one file per element in **Tables**, named `<connectionIdentifier>_<tableName>.csv`,
+with one column for each property having a `ConnectionColumn` and each property without it but used
+in an entity association.
 
 Any property can be exported in a specific format when specified. See the
 [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
@@ -157,7 +164,7 @@ topic for additional information.
 >
 > ```
 >
-> We would have `C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_entries.csv` like:
+> We would have `C:/identitymanagerContoso/Temp/ExportOutput/LDAPExport_entries.csv` like:
 >
 > ```
 > LDAPExport_entries.csv
@@ -166,7 +173,7 @@ topic for additional information.
 >
 > ```
 >
-> And we would also have `C:/UsercubeContoso/Temp/ExportOutput/LDAPExport_member.csv` like:
+> And we would also have `C:/identitymanagerContoso/Temp/ExportOutput/LDAPExport_member.csv` like:
 >
 > ```
 > LDAPExport_member.csv
@@ -178,8 +185,9 @@ topic for additional information.
 ## Fulfill
 
 The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
-Identity Manager UI or by [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md)
-enforcement.
+Identity Manager UI or by assignment policy enforcement. See the
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
+information.
 
 ### Configuration
 
@@ -217,12 +225,12 @@ Same as for export, fulfill is configured through connections.
 
 #### Setting attributes
 
-| Name                         | Details                                                                                                                                                                          |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Servers required             | **Type** [Server](#servers) List **Description** List of servers to connect to.                                                                                                  |
-| Tables required              | **Type** [Table](#tables) List **Description** List of specific setting attributes to retrieve the entries and the links. **Note:** having a table named `entries` is mandatory. |
-| AsAdLds required             | **Type** Boolean **Description** `True` to state the managed system as an AD LDS.                                                                                                |
-| IsLdapPasswordReset optional | **Type** Boolean **Description** `True` to state the managed system as an LDAP-compliant system supporting password reset.                                                       |
+| Name                         | Details                                                                                                                                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Servers required             | **Type** Server List **Description** List of servers to connect to.                                                                                                   |
+| Tables required              | **Type** Table List **Description** List of specific setting attributes to retrieve the entries and the links. **Note:** having a table named `entries` is mandatory. |
+| AsAdLds required             | **Type** Boolean **Description** `True` to state the managed system as an AD LDS.                                                                                     |
+| IsLdapPasswordReset optional | **Type** Boolean **Description** `True` to state the managed system as an LDAP-compliant system supporting password reset.                                            |
 
 ### Output details
 
@@ -281,5 +289,5 @@ Data protection can be ensured through:
   the `appsettings.encrypted.agent.json` file;
 - An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   LDAP's `Login`, `Password` and `Server`.

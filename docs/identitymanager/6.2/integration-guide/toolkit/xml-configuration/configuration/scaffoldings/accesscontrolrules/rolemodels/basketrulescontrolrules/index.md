@@ -1,3 +1,9 @@
+---
+title: "Basket Rules Control Rules"
+description: "Basket Rules Control Rules"
+sidebar_position: 10
+---
+
 # Basket Rules Control Rules
 
 Generates the permissions to execute the different requests to display the information in the rights

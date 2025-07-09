@@ -1,3 +1,9 @@
+---
+title: "Review Provisioning"
+description: "Review Provisioning"
+sidebar_position: 10
+---
+
 # Review Provisioning
 
 How to review provisioning orders before generation.
@@ -5,11 +11,11 @@ How to review provisioning orders before generation.
 ## Overview
 
 For security purposes, provisioning orders sometimes need to be reviewed before being computed and
-actually generated. Then, a user with
-[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) accesses the
-**Provisioning Review** page. They can either approve provisioning orders that will then be
-computed, generated and finally ready for actual provisioning, or they can decline orders that will
-subsequently be ignored.
+actually generated. Then, a user with the right permissions accesses the **Provisioning Review**
+page. They can either approve provisioning orders that will then be computed, generated and finally
+ready for actual provisioning, or they can decline orders that will subsequently be ignored. See the
+[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topic for
+additional information.
 
 ### Provisioning states
 
@@ -30,8 +36,8 @@ This operation should be performed in cooperation with the staff in charge of ma
 
 Provisioning review is configured for a given resource type. Therefore, you can decide to force the
 review of provisioning orders when
-[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md). You can
-choose to:
+you[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md). You
+can choose to:
 
 - Set the number of required approvals by a
   [ Manage Role Officers ](/docs/identitymanager/6.2/user-guide/set-up/role-officer-management/index.md), via the

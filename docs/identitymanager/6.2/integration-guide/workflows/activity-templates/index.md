@@ -1,3 +1,9 @@
+---
+title: "Activity Templates"
+description: "Activity Templates"
+sidebar_position: 10
+---
+
 # Activity Templates
 
 This section describes the activities that constitute and model a

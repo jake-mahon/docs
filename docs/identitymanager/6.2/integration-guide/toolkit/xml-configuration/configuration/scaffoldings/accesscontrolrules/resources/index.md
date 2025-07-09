@@ -1,3 +1,9 @@
+---
+title: "Resources"
+description: "Resources"
+sidebar_position: 70
+---
+
 # Resources
 
 - [ Create Resource Incremental Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md)

@@ -1,3 +1,9 @@
+---
+title: "Usercube-Invoke-Job"
+description: "Usercube-Invoke-Job"
+sidebar_position: 220
+---
+
 # Usercube-Invoke-Job
 
 This tool launches a job on the agent side.
@@ -51,7 +57,7 @@ In the case where the job is blocked and restarted:
   then the state machine runs a synchronization validation on the related connector, and uses the id
   of the blocked task instance to synchronize the related tables;
 - if the blocked task is a
-  [`GenerateProvisioningOrdersTask`](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md),
+  [Generate Provisioning Orders Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md),
   then the state machine forces the same provisioning on the related connector.
 
     Both the synchronization validation and the forced provisioning are virtual jobs that do not

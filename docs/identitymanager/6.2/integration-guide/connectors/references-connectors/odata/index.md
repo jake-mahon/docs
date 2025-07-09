@@ -1,3 +1,9 @@
+---
+title: "OData"
+description: "OData"
+sidebar_position: 160
+---
+
 # OData
 
 This connector exports and fulfills data from/to an [OData](https://www.odata.org/) instance.
@@ -107,19 +113,29 @@ The information contained in the entity types and entity associations does not i
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV
-file for each entity set provided in the connector's configuration.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one CSV file for each entity set provided in the connector's configuration.
 
 The files' column headers come from the entity type mapping's `ConnectionColumn` properties.
 
 If the connection column describes a sub-property, then the name should have the following pattern:
 `{property}:{sub-property}`. The character `":"` should not be used in other situations.
 
-> For example: \<EntityType Identifier="OData_People" DisplayName_L1="People"\>\<Property
-> Identifier="UserName" DisplayName_L1="User name" Type="String" /\>\<Property
-> Identifier="FamilyName" DisplayName_L1="Family name" Type="String" /\>\</EntityType\>
+> For example:
 >
-> ````<""""""Property Identifier=UserName ConnectionColumn=UserName /Property Identifier=FamilyName ConnectionColumn=Name:FamilyName //EntityTypeMapping
-> ```EntityTypeMapping Identifier=OData Connector=OData ConnectionTable=OData_People\>\<""""\>\<""""\>\<\>
-> Note that we have here ```UserName``` which is a single property, and ```FamilyName``` which is a sub-property of ```Name```, hence the name ```Name:FamilyName``` as the ```ConnectionColumn```.
-> ````
+> ```xml
+> <EntityType Identifier="OData_People" DisplayName_L1="People">
+>   <Property Identifier="UserName" DisplayName_L1="User name" Type="String" />
+>   <Property Identifier="FamilyName" DisplayName_L1="Family name" Type="String" />
+> </EntityType>
+> ```
+>
+> ```xml
+> <EntityTypeMapping Identifier="OData" Connector="OData" ConnectionTable="OData_People">
+>   <Property Identifier="UserName" ConnectionColumn="UserName" />
+>   <Property Identifier="FamilyName" ConnectionColumn="Name:FamilyName" />
+> </EntityTypeMapping>
+> ```
+>
+> Note that we have here `UserName` which is a single property, and `FamilyName` which is a
+> sub-property of `Name`, hence the name `Name:FamilyName` as the `ConnectionColumn`.

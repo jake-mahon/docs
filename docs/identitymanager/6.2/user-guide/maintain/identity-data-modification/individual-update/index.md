@@ -1,3 +1,9 @@
+---
+title: "Update an Individual Identity"
+description: "Update an Individual Identity"
+sidebar_position: 10
+---
+
 # Update an Individual Identity
 
 How to manage onboarding, position changes and offboarding through the UI, for a single identity.
@@ -8,19 +14,22 @@ This part is not about changing the data model, but data itself.
 
 Individual changes in identity data can be handled using Identity Manager's predefined workflows to:
 
-- [declare a new identity](#declare-a-new-identity) (for an internal as well as an external worker);
-- [act on existing identities](#act-on-an-existing-identity), including modify their data, manage
-  their contract and/or positions, suspend all accounts linked to them, or reactivate them, repair
-  some data, or delete these identities.
+- declare a new identity (for an internal as well as an external worker);
+- act on existing identities, including modify their data, manage their contract and/or positions,
+  suspend all accounts linked to them, or reactivate them, repair some data, or delete these
+  identities.
 
 ## Participants and Artifacts
 
 A given user's data can be updated occasionally by their manager, but most often by the HR
 department.
 
-| Input                                                                                                              | Output                      |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| [Identity repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
+| Input                                                       | Output                      |
+| ----------------------------------------------------------- | --------------------------- |
+| Identity repository (required) New identity data (required) | Updated identity repository |
+
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+topic for additional information.
 
 ## Declare a New Identity
 
@@ -35,8 +44,9 @@ Declare a new worker by proceeding as follows:
     ![Workflow - New User](/img/product_docs/identitymanager/saas/user-guide/maintain/identity-data-modification/individual-update/datamodif_newuser_v602.webp)
 
 3. Follow the workflow's instructions to fill the form with the user's data, choose the user's
-   entitlements from your [role catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) and
-   send the request.
+   entitlements from your role catalog and send the request. See the
+   [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+   topic for additional information.
 
 ## Act on an Existing Identity
 

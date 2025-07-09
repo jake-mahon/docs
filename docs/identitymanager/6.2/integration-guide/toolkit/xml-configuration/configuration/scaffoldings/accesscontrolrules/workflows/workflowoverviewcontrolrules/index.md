@@ -1,3 +1,9 @@
+---
+title: "Workflow Overview Control Rules"
+description: "Workflow Overview Control Rules"
+sidebar_position: 50
+---
+
 # Workflow Overview Control Rules
 
 Generates the rights to access the workflow supervision page.

@@ -1,3 +1,9 @@
+---
+title: "References: Format for the EntityPropertyMapping"
+description: "References: Format for the EntityPropertyMapping"
+sidebar_position: 40
+---
+
 # References: Format for the EntityPropertyMapping
 
 This page lists all available formats for entity properties, in order to help you manage said
@@ -13,7 +19,7 @@ format during the export and fulfillment processes.
 
 | Format                               | Corresponding Property Type | Note                                                                                                                                                                                                  |
 | ------------------------------------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _Bit:\<PropertyIdentifier\>:\<Bit\>_ | String/Int16/Int32/Int64    | When provisioning a bitmask property, for example `userAccountControl`, the format must contain the identifier of the property and the bit to be provisioned, for example `bit:userAccountControl:2`. |
+| _Bit:`<PropertyIdentifier>`:`<Bit>`_ | String/Int16/Int32/Int64    | When provisioning a bitmask property, for example `userAccountControl`, the format must contain the identifier of the property and the bit to be provisioned, for example `bit:userAccountControl:2`. |
 | _Bool_                               | Bool                        |                                                                                                                                                                                                       |
 | _Byte_                               | Byte                        |                                                                                                                                                                                                       |
 | _Bytes/Binary_                       | Bytes/Binary                |                                                                                                                                                                                                       |

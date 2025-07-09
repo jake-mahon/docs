@@ -1,3 +1,9 @@
+---
+title: "Internal Resources"
+description: "Internal Resources"
+sidebar_position: 100
+---
+
 # Internal Resources
 
 This connector opens manual provisioning tickets in Identity Manager.
@@ -11,9 +17,9 @@ See the [ Manual Ticket ](/docs/identitymanager/6.2/integration-guide/connectors
 [ Manual Ticket and CUD Resources ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md)
 topics for additional information.
 
-![Package: Ticket/Usercube](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticket_v603.webp)
+![Package: Ticket/identitymanager](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticket_v603.webp)
 
-![Package: Ticket/Usercube And Create/Update/Delete resources](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticketcud_v603.webp)
+![Package: Ticket/identitymanager And Create/Update/Delete resources](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalresources/packages_identitymanagerticketcud_v603.webp)
 
 See the
 [ Provision Manually ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/manual-provisioning/index.md)

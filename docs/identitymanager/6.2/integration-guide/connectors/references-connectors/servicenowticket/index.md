@@ -1,3 +1,9 @@
+---
+title: "ServiceNowTicket"
+description: "ServiceNowTicket"
+sidebar_position: 270
+---
+
 # ServiceNowTicket
 
 This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for manual provisioning.
@@ -39,9 +45,10 @@ create, update or delete a resource. It does not create nor update a resource di
 
 Once created, the ticket is managed in ServiceNow, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the
-[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the
-resource accordingly.
+When the ticket is closed or canceled, Identity Manager updates the provisioning state of the
+resource accordingly. See the
+[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for
+additional information.
 
 See the fulfill capabilities of the [ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)connector.
 
@@ -92,7 +99,7 @@ Data protection can be ensured through:
 | TicketCookieDirectoryPath | `Connections--<identifier>--TicketCookieDirectoryPath` |
 | ResponseSizeLimit         | `Connections--<identifier>--ResponseSizeLimit`         |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

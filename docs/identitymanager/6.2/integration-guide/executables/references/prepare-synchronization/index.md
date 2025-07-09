@@ -1,3 +1,9 @@
+---
+title: "Usercube-Prepare-Synchronization"
+description: "Usercube-Prepare-Synchronization"
+sidebar_position: 290
+---
+
 # Usercube-Prepare-Synchronization
 
 `Usercube-Prepare-Synchronization` is used as the second step of the

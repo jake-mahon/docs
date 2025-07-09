@@ -1,3 +1,9 @@
+---
+title: "Install the Agents"
+description: "Install the Agents"
+sidebar_position: 40
+---
+
 # Install the Agents
 
 Most on-premises installations use an agent integrated with Identity Manager's server. If this is
@@ -6,7 +12,7 @@ need separate agents, or if you are installing Identity Manager's agents within 
 SaaS offering, this is the way to go.
 
 **NOTE:** Please make sure that Identity Manager's agent requirements are met before going further.
-See the [ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+See the[ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 ## Agent Working Directory
 
@@ -22,7 +28,7 @@ topic for additional information.
 
 ## Create an IIS Website
 
-It is recommended to run the Identity Manager agent as an IIS website.
+It is recommended to run the Identity Manager agent as an IIS website.
 
 _Remember,_ to install Identity Manager's agent as a Windows service, see the
 [ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
@@ -40,13 +46,13 @@ The information needed to go through the creation process are the following:
 
 - Identity Manager's agent uses an in-process hosting model
 - Identity Manager's agent uses .NET
-- Identity Manager agent's web.config dwells in the runtime directory
+- Identity Manager agent's web.config dwells in the runtime directory
 
     It might require a few modifications to target the agent instead of the server:
 
     **Step 1 –** Open web.config with a text editor.
 
-    **Step 2 –** Change the arguments and stdoutLogFile attributes of the `aspNet` element as
+    **Step 2 –** Change the arguments and stdoutLogFile attributes of the `<aspNet>` element as
     indicated below:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -58,10 +64,10 @@ script in the command line.
 
 - When creating the website, enter the following data:
 
-    **Step 1 –** Site name: Identity Manager Agent `Organization` is the recommended naming
+    **Step 1 –** Site name: Identity Manager Agent`<Organization>` is the recommended naming
     convention
 
-    **Step 2 –** Physical path: /`agent working directory`/Runtime
+    **Step 2 –** Physical path: /`<agent working directory>`/Runtime
 
     **Step 3 –** Type: http
 
@@ -72,11 +78,11 @@ script in the command line.
 
 After creation, the following settings are recommended:
 
-- **Application Pool** > **Identity Manager `Organization`** > **Advanced Settings** > **General** >
-  **Start Mode** set to AlwaysRunning;
-- **Application Pool** > `Identity Manager Organization` > **Advanced Settings** > **Process
+- **Application Pool** > **Identity Manager `<Organization>`** > **Advanced Settings** >
+  **General** > **Start Mode** set to AlwaysRunning;
+- **Application Pool** > `Identity Manager <Organization>` > **Advanced Settings** > **Process
   Model** > **Idle Time-out** (minutes) set to 0 and Load User Profile set to True;
-- **Application Pool** > **Identity Manager `Organization`** > **Recycling** > Regular time
+- **Application Pool** > **Identity Manager `<Organization>`** > **Recycling** > Regular time
   intervals set to 0.
 
     Recycling the application pool creates a discontinuation in the connection between server and
@@ -87,8 +93,8 @@ After creation, the following settings are recommended:
 The following is
 [mandatory](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-8.0#mandatory):
 
-- **Application Pool** > **Identity Manager `Organization`** > **Advanced Settings** > **General** >
-  **.NET CLR Version** > **No Managed Code**
+- **Application Pool** > **Identity Manager `<Organization>`** > **Advanced Settings** >
+  **General** > **.NET CLR Version** > **No Managed Code**
 
 ![IIS Settings](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/iis_settings.webp)
 
@@ -109,17 +115,17 @@ for additional information.
 You can either:
 
 - Use the built-in application pool identity and grant this identity the right permissions. See the
-  [ Install the Agents](/docs/identitymanager/6.2/installation-guide/production-ready/agent/index.md) topic for additional information.
+  Install the Agents topic for additional information.
 - Use a custom Windows service account with the right permissions and use it as an IIS identity for
   Identity Manager's agent IIS Website
 
 ### Check default behavior
 
 Usually, creating an IIS application pool, such as the one within which Identity Manager's server
-website runs, triggers the creation of a service account `IIS APPPOOL/apppool_name` (where
-`apppool_name` is the application pool name) known as an application pool identity. It is associated
-with the IIS website. This account is granted basic group membership that should enable it to access
-what it needs.
+website runs, triggers the creation of a service account `IIS APPPOOL/<apppool_name>` (where
+`<apppool_name>` is the application pool name) known as an application pool identity. It is
+associated with the IIS website. This account is granted basic group membership that should enable
+it to access what it needs.
 
 For more information about IIS identities, visit the
 [Microsoft Documentation](https://support.microsoft.com/en-us/help/4466942/understanding-identities-in-iis).
@@ -129,10 +135,10 @@ necessary permissions for Identity Manager's server to operate.
 
 Before going further, you should check the following points:
 
-**Step 1 –** Find the group membership of `IIS APPPOOL\apppool_name`.
+**Step 1 –** Find the group membership of `IIS APPPOOL\<apppool_name>`.
 
 **Step 2 –** Check the permissions on the working directory. Right-click the working directory and
-select Security. The group section should contain one of the `IIS APPPOOL/apppool_name` groups,
+select Security. The group section should contain one of the `IIS APPPOOL/<apppool_name>` groups,
 namely Users. And,
 
 **Step 3 –** If the built-in application pool identity has been created but does not have the right
@@ -168,7 +174,7 @@ Follow the steps below to set an IIS identity and note that these are the same f
 
 **Step 2 –** Open the **Application Pools** node underneath the machine node.
 
-**Step 3 –** Select the Identity ManagerAgent/`Organization` application pool.
+**Step 3 –** Select the Identity ManagerAgent/`<Organization>` application pool.
 
 **Step 4 –** Right-click and select **Advanced Settings**.
 
@@ -266,14 +272,14 @@ script in the command line.
 ```
 appsettings.agent.json
 "<OpenId">: {
-  "AgentIdentifier": "<MyAgent>"
-}
+  "AgentIdentifier": "<MyAgent>"
+  }
 ```
 
 With the following configuration:
 
 ```
-<Agent Identifier="<MyAgent>" DisplayName_L1="<My Agent>"
+<Agent Identifier="<MyAgent>" DisplayName_L1="<My Agent>" 
 URI="<https://contoso.com>" />
 ```
 
@@ -298,27 +304,27 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-  ...
-  "Connections": {
-    "ADExport": {
-        "Servers": [
-          {
-           "Server": "<paris.contoso.com>",
-           "BaseDN": "<DC=paris,DC=com>"
-          }
-        ],
-        "AuthType": "<Basic>",
-        "Login": "<Login>",
-        "Password": "<Password>",
-        "Filter": "<(objectclass=*)>",
-        "EnableSSL": "<true>"
-    }
-    "<SAPExportFulfillment>": {
-        "Server": "<serverUrl>",
-        "Login": "<login>",
-        "Password": "<password>"
-    }
-  }
+  ...
+  "Connections": {
+    "ADExport": {
+        "Servers": [
+          {
+           "Server": "<paris.contoso.com>",
+           "BaseDN": "<DC=paris,DC=com>"
+          }
+        ],
+        "AuthType": "<Basic>",
+        "Login": "<Login>",
+        "Password": "<Password>",
+        "Filter": "<(objectclass=*)>",
+        "EnableSSL": "<true>"
+    }
+    "<SAPExportFulfillment>": {
+        "Server": "<serverUrl>",
+        "Login": "<login>",
+        "Password": "<password>"
+    }
+  }
 }
 ```
 
@@ -352,8 +358,9 @@ and
 [pvk2pfx tool](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/pvk2pfx?redirectedfrom=MSDN).
 
 Here's an example showing how to generate a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12)
-archive (`UsercubeContoso.pfx`) bundling a public key certificate (`Identity Manager contoso.cert`)
-and a private key (`usercubecontoso.key`) with OpenSSL, with a 50-year expiration date:
+archive (`<UsercubeContoso.pfx>`) bundling a public key certificate
+(`<Identity Manager contoso.cert>`) and a private key (`<usercubecontoso.key>`) with OpenSSL, with a
+50-year expiration date:
 
 **Step 1 –** Enter the following command:
 
@@ -371,24 +378,24 @@ Public key certificates can also be bought from trusted certificate providers an
 private key into a [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive using step 2 in the
 frame above.
 
-The certificate has to be linked to Identity Manager via EncryptionCertificate in the
+The certificate has to be linked to Identity Manager via EncryptionCertificate in the
 appsettings.agent.json file.
 
-See
-the[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+See the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information about configuration parameters.
 
 ### Certificate as a plain file
 
-The following parameters are used to link the file to Identity Manager in EncryptionCertificate.
+The following parameters are used to link the file to Identity Manager in EncryptionCertificate.
 
 [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive can be
 [password protected](https://www.openssl.org/docs/man1.1.0/man1/openssl.html#password-protected),
 hence the X509KeyFilePassword attribute.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
-should always be encrypted using the Usercube-Protect-CertificatePassword tool. See
-the[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
+should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
+[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -397,12 +404,12 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-  ...
-  "<EncryptionCertificate>": {
-      "<File>": "<./identitymanagerContoso.pfx>",
-      "<X509KeyFilePassword>": "<adefe$/izih>"
-  }
-  ...
+  ...
+  "<EncryptionCertificate>": {
+      "<File>": "<./identitymanagerContoso.pfx>",
+      "<X509KeyFilePassword>": "<adefe$/izih>"
+  }
+  ...
 }
 ```
 
@@ -417,13 +424,13 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-  ...
-  "<EncryptionCertificate>": {
-      "<DistinguishedName>":"<UsercubeContoso>",
-      "<StoreLocation>": "<LocalMachine>",
-      "<StoreName>": "<AuthRoot>"
-  }
-  ...
+  ...
+  "<EncryptionCertificate>": {
+      "<DistinguishedName>":"<UsercubeContoso>",
+      "<StoreLocation>": "<LocalMachine>",
+      "<StoreName>": "<AuthRoot>"
+  }
+  ...
 }
 ```
 
@@ -435,8 +442,8 @@ The connection to Identity Manager's server can be configured through:
   Manager's server URL
 
 - OpenIdClients and DefaultOpenIdClient must be used to set the agent's credentials to connect to
-  the server; See
-  the[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+  the server; See the
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
   and[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
   topics for additional information.
 
@@ -446,8 +453,8 @@ the[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-conf
 topic for additional information.
 
 The following example shows an appsettings.agent.json file that sets an agent to connect to Identity
-Manager's server (`https://identitymanagerserver.contoso.com`) with the OpenId client identifier `Job` and
-the password `secret`, stored in the OpenIdClients list which also contains the "admin/secret"
+Manager's server (`https://identitymanagerserver.contoso.com`) with the OpenId client identifier `<Job>`
+and the password `<secret>`, stored in the OpenIdClients list which also contains the "admin/secret"
 login/password pair.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -455,13 +462,13 @@ script in the command line.
 
 ```
 {
-    ....
-    "ApplicationUri": "<https://identitymanagerserver.contoso.com>",
-    "OpenIdClients": {
-        "Job": "<secret>",
-        "Admin": "<secret>"
-    },
-    "DefaultOpenIdClient": "<Job>"
+    ....
+    "ApplicationUri": "<https://identitymanagerserver.contoso.com>",
+    "OpenIdClients": {
+        "Job": "<secret>",
+        "Admin": "<secret>"
+     },
+    "DefaultOpenIdClient": "<Job>"
 }
 ```
 
@@ -512,9 +519,9 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-\<applicationInitialization doAppInitAfterRestart="\<true\>"\>
-\<add initializationPage="\</\>"\>
-\</applicationInitialization\>
+<applicationInitialization doAppInitAfterRestart="<true>">  
+<add initializationPage="</>">
+</applicationInitialization>
 
 ```
 
@@ -527,4 +534,4 @@ from being launched.
 ## What's Next?
 
 The last step in the installation process is setting up an Email server. See the
-[Send Notifications](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md)topic for additional information.
+[ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md) topic for additional information.

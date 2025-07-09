@@ -1,3 +1,9 @@
+---
+title: "ServiceNow"
+description: "ServiceNow"
+sidebar_position: 260
+---
+
 # ServiceNow
 
 This connector exports and fulfills any data, including users and roles, from/to a
@@ -124,8 +130,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV
-file for each table, named `<connectionIdentifier>_<tableName>.csv`.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one CSV file for each table, named `<connectionIdentifier>_<tableName>.csv`.
 
 Identity Manager lists the tables to retrieve based on
 [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s
@@ -250,7 +256,7 @@ Data protection can be ensured through:
 | Filter            | `Connections--<identifier>--Filter`              |
 | ResponseSizeLimit | `Connections--<identifier>--ResponseSizeLimit`   |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

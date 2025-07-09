@@ -1,3 +1,9 @@
+---
+title: "Category"
+description: "Category"
+sidebar_position: 20
+---
+
 # Category
 
 A category is a classification of Composite Roles, Single Roles or/and

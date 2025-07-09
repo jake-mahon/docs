@@ -1,3 +1,9 @@
+---
+title: "Access Control"
+description: "Access Control"
+sidebar_position: 10
+---
+
 # Access Control
 
 - [ AccessControlPermission ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md)

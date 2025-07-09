@@ -1,3 +1,9 @@
+---
+title: "Single Role"
+description: "Single Role"
+sidebar_position: 160
+---
+
 # Single Role
 
 A single role is a way to represent an entitlement that is to be assigned to an identity. It brings
@@ -20,7 +26,6 @@ for resources from `Directory_User` with one approval needed.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
-
 
 ```
   <SingleRole Identifier="DL-INTERNET-ALL" DisplayName_L1="Unlimited Internet access"

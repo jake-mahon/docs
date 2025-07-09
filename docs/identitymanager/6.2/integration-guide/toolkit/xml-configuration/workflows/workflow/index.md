@@ -1,6 +1,12 @@
+---
+title: "Workflow"
+description: "Workflow"
+sidebar_position: 40
+---
+
 # Workflow
 
-In Identity Manager, a workflow is a set of elemental units called activities that are stored as a
+In Identity Manager a workflow is a set of elemental units called activities that are stored as a
 model to describe a real-world process. A workflow provides a mechanism for automating multi-step
 processes across the application. It can be depicted as a sequence of operations, declared as work
 of a person or group, an organization of staff, or one or more simple or complex mechanisms.

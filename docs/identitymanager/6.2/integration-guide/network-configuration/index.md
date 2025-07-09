@@ -1,3 +1,9 @@
+---
+title: "Network Configuration"
+description: "Network Configuration"
+sidebar_position: 230
+---
+
 # Network Configuration
 
 Identity Manager's network technical configuration includes:
@@ -109,14 +115,14 @@ The backslash character `\` is an escape character in a JSON file. An error will
 the JSON file if the backslash is followed by a non-escapable character. To use a backslash in a
 string, it must be escaped by another backslash.
 
-In this example, the value for the attribute Password will be parsed as `<password>`:
+In this example, the value for the attribute Password will be parsed as `<pass\word>`:
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
 ```
 {
-    "Password": "<password>"
+    "Password": "<pass\\word>"
 }
 ```
 
@@ -162,17 +168,17 @@ Staging, and Production.
 To overwrite setting values for a specific environment, one can write environment-specific
 configuration files.
 
-For every `appsettings.<xxx>.json` file, an `appsettings.<xxx>.<environment>.json` can be created
+For every appsettings.`<xxx>`.json file, an appsettings.`<xxx>`.`<environment>`.json can be created
 where `<environment>` is the name of the relevant environment matching the ASPNETCORE_ENVIRONMENT
 value.
 
-The `appsettings.<xxx>.<environment>.json` file has the exact same section/attribute/subsection
+The appsettings.`<xxx>`.`<environment>`.json file has the exact same section/attribute/subsection
 shape as the main appsettings file.
 
 Identity Manager's configuration will be the result of merging both files.
 
 Should a setting be written in both files, Identity Manager will use the
-`appsettings.<xxx>.<environment>.json` value.
+appsettings.`<xxx>`.`<environment>`.json value.
 
 Leveraging this priority mechanism is how one can override a setting value to match a particular
 environment. Another mechanism can be used: using environment variables.
@@ -183,9 +189,9 @@ Setting values can also be stored as environment variables on Identity Manager's
 Environment-variables-stored setting values have priority over json-file-stored setting values. Here
 is how to use this mechanism to handle multiple environments.
 
-In the web.config file, an `<environmentVariable>` element in the node
-`<configuration><system.webServer><aspNetCore><environmentVariables>` is used to set a setting value
-for the application.
+In the web.config file, an `<environmentVariable>` element in the node `<configuration>` >
+`<system.webServer>` > `<aspNetCore>` > `<environmentVariables>` is used to set a setting value for
+the application.
 
 ### Configuration stages
 
@@ -194,6 +200,6 @@ Configuration encompasses:
 - The Server configuration with a connection to the database and end-user authentication. See the
   [Server Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
 - The Agent configuration with a connection to the managed systems. See the
-  [Agent Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
-- The Logger configuration. See the [Monitoring](/docs/identitymanager/6.2/integration-guide/monitoring/index.md)topic for additional
+  [ Agent Configuration ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
+- The Logger configuration. See the [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md)topic for additional
   information.

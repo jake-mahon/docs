@@ -1,3 +1,9 @@
+---
+title: "Native Notifications"
+description: "Native Notifications"
+sidebar_position: 10
+---
+
 # Native Notifications
 
 Identity Manager provides native notifications for usual cases, for example role review,
@@ -37,5 +43,5 @@ found in `/Runtime/NotificationTemplates`.
 The templates for native notifications can be adjusted to specific needs through the XML tag
 [Notification Template](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md).
 
-See the [ Customize a Native Notification ](/docs/identitymanager/6.2/integration-guide/notifications/how-tos/customize-native-notification/index.md) for
+See the [ Customize a Native Notification ](/docs/identitymanager/6.2/integration-guide/notifications/native/customize-native-notification/index.md) for
 additional information on how to customize native notifications.

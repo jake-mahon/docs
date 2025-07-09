@@ -1,164 +1,169 @@
+---
+title: "Define Navigation Properties"
+description: "Define Navigation Properties"
+sidebar_position: 40
+---
+
 # Define Navigation Properties
 
-How to define the properties that describe the
+How to define the properties which describe the
 [Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 relationships to other entity types.
 
 ## Overview
 
-Navigation properties contain scalar values like other properties, but they link to other
-properties—either from the same entity type or another one.  
+Here you will learn to define navigation properties, which contain scalar values just like scalar
+properties, but which are also linked to and point to other properties—from the same entity type or
+to another entity type.  
 See the [Define Scalar Properties](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional
-context.
+information.
 
-> **Example 1**: `memberOf` links a user to groups, or a group to other groups.  
-> In the UI, `memberOf` behaves like a scalar property, but you can click its values to view the
-> associated groups.  
-> For the AD entry `ADM Vidal Pierre`:
+> For example, `memberOf` can contain a list of groups, thus linking a user to groups, and a group
+> to other groups. In the UI, `memberOf` is displayed just like scalar properties, but you can click
+> its values to access each group in the list. Here for the AD entry `ADM Vidal Pierre`:
 >
 > ![Navigation Property - memberOf](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
 >
-> Clicking a group shows its properties, including the reverse side of `memberOf`, called `member`,
-> which lists group members.  
-> For the group `SG_APP_RAY_0_LDAP_READLDSFEDE`:
+> Clicking on one of these groups will display the group’s properties, including the other side of
+> the `memberOf` property—called `member`—which contains the list of users and groups who are
+> members. Example: `SG_APP_RAY_0_LDAP_READLDSFEDE`:
 >
 > ![Navigation Property - member](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
 
-> **Example 2**: Departments can link to managers using the `Manager` property, referencing a user’s
-> identifier.  
-> In the UI, `Manager` behaves like a scalar property, but clicking it opens the manager’s user
-> profile:
+> As another example, a department is linked to a manager who is an existing user. The user
+> identifier is used in the `Manager` property to create the link between department and manager. In
+> the UI, `Manager` is displayed like scalar properties, but you can click it to access the
+> manager’s page:
 >
 > ![Navigation Property - Manager](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_manager_v600.webp)
 >
-> That profile includes a `Department` property, pointing back to the managed department:
+> Clicking the manager displays their properties, including the `Department` property, which points
+> back to the managed department:
 >
 > ![Navigation Property - Managed Department](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_managerof_v600.webp)
 
-Navigation properties can link:
+Navigation properties can create a link:
 
-- Inside a single entity type
-- Between two entity types from the same connector
-- Between two entity types from different connectors
+- inside an entity type;
+- between two entity types from the same connector;
+- between two entity types from different connectors.
 
-Identity Manager uses a "flip side" for each navigation link.  
+Inside Identity Manager, a navigation property has a flip side—one for each linked element.
+
 For example, in AD:
 
-- `member`: on groups, lists users
-- `memberOf`: on users, lists groups
+- `member`: for groups (contains a list of users)
+- `memberOf`: for users (contains a list of groups)
 
-AD only stores `member` in groups; users don’t have a native `memberOf` property.  
-Identity Manager synthesizes both ends to ensure full navigation mapping.
+Some systems only expose one side.  
+For example, AD only exposes `member` on groups. Users don’t have `memberOf`.  
+But Identity Manager links both sides, translating the info to simulate bidirectionality.
 
-When importing data:
+When importing from AD, `member` updates Identity Manager's `member`, which then updates `memberOf`.
 
-- `member` in AD updates `member` in Identity Manager
-- Identity Manager then updates `memberOf` automatically
+Most properties in Identity Manager are linked to those in the managed system so data can be
+imported and stored correctly. These mappings are configured in Step 3 below.
 
-Usually, properties in Identity Manager are mapped to existing ones in the source system.  
-If a property doesn’t exist in the source, it can still be created (e.g., for internal assignment
-logic), but it won’t support read/write operations.
+If a property doesn’t exist in the source system, you can still create it using **+ Add a navigation
+property**.  
+This is useful for storing internal-use data that the connected system can’t read or write.
 
 ---
 
 ## Define the Entity Type's Navigation Properties
 
-Follow these steps:
+Define navigation properties by following these steps:
 
-1. Declare the [Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
-2. In the **Properties** section, open the **Navigation Properties** tab.
-3. Click **Map a navigation property** to view available source columns and select the desired
-   properties.
-4. Fill out the configuration fields:
+1. Start by declaring an [Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+2. In the entity type's **Properties** section, click on the **Navigation Properties** tab.
+3. Click **Map a navigation property** to display existing columns from the external source, then
+   select the ones to use.
+4. Fill in the information fields:
 
     ![Navigation Properties](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_navigationproperties_v602.webp)
 
-    - The **first line** maps the source column.
-    - The **second line** defines the new property linked to that column.
+    If you map a column from the source, the first line is for the source column, and the second is
+    the new navigation property in Identity Manager (always in the entity type).
 
-### Application Metadata
+### Application Metadata Fields
 
-- `Identifier`: Must be unique, whitespace-free, and C#-compatible.  
+- `Identifier`: Unique, no whitespace, must be C#-compatible.  
   [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure)
-- `Entity Type`: Always refers to the current entity type. Source property can be from any.
-- `Storage Indicator`: Can be:
+- `Entity Type`: Always refers to the entity type of the second property.
+- `Storage Indicator`: Describes the association:
 
     - **Mono-valued** (1:1 or many:1)
     - **Multi-valued** (1:many or many:many)
 
-    Identity Manager supports up to 25 optimized mono-valued navigation properties per entity
-    type.  
-     Prioritize:
+    Identity Manager can store up to 25 optimized mono-valued nav properties. Prioritize:
 
-    1. Properties used in forms and search
-    2. Properties used in expressions and role models
-    3. All others
+    1. Properties used in forms/search bars
+    2. Properties used in expressions/role models
+    3. Others
 
-- `Name`: Shown in the UI.  
-  Use **singular** for mono-valued, **plural** for multi-valued.  
-  Avoid names like `"Id"` for both identifier and display name.
+- `Name`: Displayed in the UI.
 
-### External System
+    **Conventions:**
 
-- `Source`: Connection to the external system. You can select the source by:
+    - Mono-valued → singular
+    - Multi-valued → plural
+    - Names/IDs cannot be "Id"
 
-    - Mapping from the source (auto-selects connection table)
-    - Choosing from the dropdown (lists same-connector tables)
-    - Using the search icon (all connectors)
+### External System Fields
 
-- `Source Column`: The source field for data.
-- `Column Content`: The field in the source used for identification.
+- `Source`: Source connection for the data.
 
-> Example: If the column is `manager` and it stores user `dn`s, set `dn` as the column content.
+    - Auto-select from the mapped source
+    - Choose from other entity types in the same connector
+    - Use the search icon to select across connectors
 
-> AD example navigation properties: `Entries`, `assistant`, `assistantOf`, `manager`,
-> `directReports`, `memberOf`, `member`, `parentdn`, `children`
+- `Source Column`: Column where data comes from
+- `Column Content`: Which attribute (e.g. `dn`, `id`) to use for matching resources
+
+> Example: If the source column `manager` contains user `dn`s, select `dn` as source content.
+
+> Common AD navigation properties:  
+> `Entries`, `assistant`, `assistantOf`, `manager`, `directReports`, `memberOf`, `member`,
+> `parentdn`, `children`
 
 > ![AD Entity Type - Navigation Properties](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
 
----
-
-5. Click the gear icon to open **Advanced Settings**:
+5. Click the gear icon to access advanced settings:
 
     ![Advanced Settings](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_propertiessettings_v602.webp)
 
-    - `Icon`: Choose from [Microsoft's icon list](https://uifabricicons.azurewebsites.net/)
-    - `Source Expression`: Defines the property using a property path or
-      [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md)
+    - `Icon`: Choose from [Microsoft icon set](https://uifabricicons.azurewebsites.net/)
+    - **Source Expression**: Define using a property path or
+      [expression](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md)
 
-        > Example: Create an `isUnused` scalar property based on `accountExpires` and
-        > `lastLogonTimestamp`:
+        > Example: Scalar `isUnused` created by combining `accountExpires` and `lastLogonTimestamp`
         >
-        > ![Advanced Settings](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
+        > ![Source Expression Example](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
 
-    - `Flexible Comparison Expression`: Improves search flexibility for the property.
-    - `History Precision`: Sets how often the property’s value is historized.
+    - `Flexible Comparison Expression`: Adds advanced search matching
+    - `History Precision`: Set how often property history is recorded
 
-        > Example: `lastLogonTimestamp` is frequently updated. To reduce historization noise, set
-        > `History Precision` to 10080 minutes (1 week).  
-        > This way, only one update per week is stored.
+        > Example: `lastLogonTimestamp` changes often. Without limiting historization, the database
+        > fills quickly.  
+        > Set `History Precision` to 1 week (10080 min) to only record weekly changes.
 
-Clicking **Continue** closes the window but does **not save** the configuration.
+Clicking **Continue** closes the window but **does not save** the configuration.
 
 ---
 
 ## Reload
 
-After saving changes, a green popup will prompt you to reload the schema.  
-You can defer this, but **must reload after final changes**.
+After saving, a green banner reminds you to reload the schema.  
+It’s not necessary after every step—but is **required after the final step** to apply changes.
 
 ![Reload](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
 
-Reloading ensures the updated navigation properties appear in the UI’s left menu structure.
-
-You can access the **Reload** button via:
-
-- The green popup
-- The connector’s dashboard
+The **Reload** button ensures updates appear in the menu links on the UI home page.  
+You’ll find it either in the banner or on the connector dashboard.
 
 ---
 
 ## Next Steps
 
-Once the entity type is configured with scalar, key, and navigation properties, you can
+Once the entity type is defined—with scalar properties, keys, and navigation properties—you can
 [Set Resources' Display Names](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).

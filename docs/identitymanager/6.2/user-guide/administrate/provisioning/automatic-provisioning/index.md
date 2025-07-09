@@ -1,3 +1,9 @@
+---
+title: "Provision Automatically"
+description: "Provision Automatically"
+sidebar_position: 30
+---
+
 # Provision Automatically
 
 How to make Identity Manager automatically write to the managed systems.
@@ -20,9 +26,9 @@ assignment request goes through the following provisioning states:
 
 At this point, integrators should have all the elements they need to operate.
 
-| Input                                                                                                                                                                                    | Output                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Automated provisioning [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| Input                                                                                                                                                                                       | Output                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Automated provisioning to [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Automated Provisioning
 
@@ -49,7 +55,8 @@ In order to verify the process:
 
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
-2. Follow the [ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md)to make a
-   change in one of their permissions, which involves automated provisioning.
+2. Follow the manual assignment workflow through
+   [ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) to make a change in
+   one of their permissions, which involves automated provisioning.
 3. Perform automated provisioning and check in Identity Manager that the change was effectively
    made.

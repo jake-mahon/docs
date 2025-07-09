@@ -1,3 +1,9 @@
+---
+title: "Entity Type"
+description: "Entity Type"
+sidebar_position: 60
+---
+
 # Entity Type
 
 Represents a conceptual model of a business object, such as a person entity or an organization
@@ -9,13 +15,13 @@ on how to configure define an EntityType.
 | Property                | Details                                                                                                                                                                                                                                                         |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DisplayName_L1 optional | **Type** String **Description** Display name of the entity type in language 1 (up to 16).                                                                                                                                                                       |
-| Identifier required     | **Type** String **Description** Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be a [ Reserved identifiers ](/docs/identitymanager/6.2/integration-guide/toolkit/reservedidentifiers/index.md).                                                            |
+| Identifier required     | **Type** String **Description** Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be [ Reserved identifiers ](/docs/identitymanager/6.2/integration-guide/toolkit/reservedidentifiers/index.md).                                                              |
 | LicenseTag optional     | **Type** String **Description** Value of the `Tag` parameter of the license key (in `appsettings.json`) linked to the entity type. All the features allowed by the license key are enabled for this entity type, otherwise only default features are available. |
 | TableName optional      | **Type** String **Description** Represents the table name of hard coded entity types. Exclusively reserved to Identity Manager connector for Power BI.                                                                                                          |
 
 ## Child Element: Property
 
-An entity property represents a property of an Entity Type. See the
+An entity property represents a property of an Entity Type . See the
 [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topic for additional information on how to
 configure/define an EntityProperty.
 

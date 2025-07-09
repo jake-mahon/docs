@@ -1,3 +1,9 @@
+---
+title: "Configure Global Settings"
+description: "Configure Global Settings"
+sidebar_position: 30
+---
+
 # Configure Global Settings
 
 This topic covers the customization in the application **Settings**.

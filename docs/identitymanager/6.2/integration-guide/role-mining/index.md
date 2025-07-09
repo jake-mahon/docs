@@ -1,3 +1,9 @@
+---
+title: "Role Mining"
+description: "Role Mining"
+sidebar_position: 100
+---
+
 # Role Mining
 
 Role mining aims to reduce the cost of entitlement management by automating entitlement assignments,
@@ -26,16 +32,16 @@ assign single roles to certain users matching given criteria.
 
 ![Schema - Role Mining](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
 
-Role mining is a Machine Learning process. It is a statistic tool used to emphasize the
-[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)that
-constitute the key criteria for existing role assignments. It detects the most probable links
-between identities dimensions and their roles in order to suggest the appropriate entitlement
-assignment rules.
+Role mining is a Machine Learning process. It is a statistic tool used to emphasize the dimensions
+that constitute the key criteria for existing role assignments. See the
+[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topic for
+additional information. It detects the most probable links between identities dimensions and their
+roles in order to suggest the appropriate entitlement assignment rules.
 
-> For example, suppose that 80% of Netwrix Identity Manager (formerly Usercube)workers in Marseilles
-> have access to an application "App". Then, role mining is most likely to recognize the working
-> site as a relevant dimension, and suggest to create a rule that gives the "App" access to users
-> whose site is Marseilles.
+> For example, suppose that 80% of Netwrix Identity Manager (formerly Usercube) workers in
+> Marseilles have access to an application "App". Then, role mining is most likely to recognize the
+> working site as a relevant dimension, and suggest to create a rule that gives the "App" access to
+> users whose site is Marseilles.
 
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if
 the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the
@@ -109,8 +115,8 @@ entitlement:
 Starting from the previous example, consider now that, as a result of a reorganization or an access
 certification for example, some users do not have the role anymore. If the ratio is below the
 threshold, then role mining will remove the single role rule. If the role (or its policy) is
-configured with a [ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
-users who need the role will not lose it. Then users' entitlements remain unchanged:
+configured with a grace period, users who need the role will not lose it. Then users' entitlements
+remain unchanged:
 
 ![Impact Example - Use Case 5](/img/product_docs/identitymanager/saas/integration-guide/role-mining/rolemining_impact_usecase5.webp)
 

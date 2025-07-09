@@ -1,3 +1,9 @@
+---
+title: "Simulation Access Control Rules"
+description: "Simulation Access Control Rules"
+sidebar_position: 70
+---
+
 # Simulation Access Control Rules
 
 This scaffolding generates the rights to configure and launch simulations.

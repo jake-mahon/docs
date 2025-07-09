@@ -1,3 +1,9 @@
+---
+title: "SharePoint"
+description: "SharePoint"
+sidebar_position: 280
+---
+
 # SharePoint
 
 This connector exports sites, folders, groups and permissions from a
@@ -94,7 +100,9 @@ instead of incremental.
 
 ### Output details
 
-This connector is meant to generate to the Export Output folder the following CSV files:
+This connector is meant to generate to the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 `<connectionIdentifier>_Entity.csv`, with the following columns:
 

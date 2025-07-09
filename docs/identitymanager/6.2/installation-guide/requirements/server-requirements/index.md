@@ -1,3 +1,9 @@
+---
+title: "Server"
+description: "Server"
+sidebar_position: 30
+---
+
 # Server
 
 This section identifies software requirements for Identity Manager's server.

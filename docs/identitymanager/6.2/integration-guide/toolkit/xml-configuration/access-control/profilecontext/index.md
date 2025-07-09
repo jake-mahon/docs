@@ -1,3 +1,9 @@
+---
+title: "Profile Context"
+description: "Profile Context"
+sidebar_position: 70
+---
+
 # Profile Context
 
 ProfileContext contains the dimensions values used to define the connected users scope of
@@ -24,6 +30,6 @@ lower or equal to -2.
 | Category optional                | **Type** Int64 **Description** Category in which the assignment is restricted.                                                 |
 | CompositeRole optional           | **Type** Int64 **Description** CompositeRole in which the assignment is restricted.                                            |
 | D0 optional                      | **Type** Int64 **Description** Dimension 0 Id, specifies the scope in which the assignment is restricted. Going from 0 to 127. |
-| IsAutomatic default value: false | **Type** Boolean **Description** Context automatically created by task Identity Manager-Set-InternalUserProfiles.              |
+| IsAutomatic default value: false | **Type** Boolean **Description** Context automatically created by task Usercube-Set-InternalUserProfiles.                      |
 | ResourceType optional            | **Type** Int64 **Description** ResourceType in which the assignment is restricted.                                             |
 | SingleRole optional              | **Type** Int64 **Description** SingleRole in which the assignment is restricted.                                               |

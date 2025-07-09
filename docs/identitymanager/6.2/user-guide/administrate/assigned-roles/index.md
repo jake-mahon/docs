@@ -1,3 +1,9 @@
+---
+title: "Review Assigned Roles"
+description: "Review Assigned Roles"
+sidebar_position: 70
+---
+
 # Review Assigned Roles
 
 How to review user permissions grouped by categories.
@@ -49,7 +55,7 @@ Review the Assigned Roles by proceeding as follows:
 ![assignedrolesscreen](/img/product_docs/identitymanager/saas/user-guide/administrate/assigned-roles/assignedrolesscreen.webp)
 
 **Step 2 –** View the list of users with different assigned roles and filter them by **Entity
-Type**, **Workflow State**, **Policy**, **Role** or by using a custom filter.
+Type**, **Workflow State**, **Policy**, **Role**or by using a custom filter.
 
 **Step 3 –** Download an .xlsx file list of the **Assigned Roles** users according to the selected
 filters.

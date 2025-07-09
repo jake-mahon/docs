@@ -1,3 +1,9 @@
+---
+title: "Sql Server Entitlements"
+description: "Sql Server Entitlements"
+sidebar_position: 310
+---
+
 # Sql Server Entitlements
 
 This connector exports entitlements from
@@ -130,8 +136,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the
-following CSV files:
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 - `<connectionIdentifier>_serverPrincipals.csv`;
 - `<connectionIdentifier>_serverRoleMembers.csv`;
@@ -159,7 +165,7 @@ Data protection can be ensured through:
 
 - [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- an [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute        | Naming Convention for the Key in Azure Key Vault |
 | ---------------- | ------------------------------------------------ |

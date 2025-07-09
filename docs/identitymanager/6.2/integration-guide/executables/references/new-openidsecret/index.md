@@ -1,3 +1,9 @@
+---
+title: "Usercube-New-OpenIDSecret"
+description: "Usercube-New-OpenIDSecret"
+sidebar_position: 270
+---
+
 # Usercube-New-OpenIDSecret
 
 This tools generates an hash. In practice, we hash a client secret but the tool can generate

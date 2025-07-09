@@ -1,3 +1,9 @@
+---
+title: "Usercube-Create-DatabaseViews"
+description: "Usercube-Create-DatabaseViews"
+sidebar_position: 60
+---
+
 # Usercube-Create-DatabaseViews
 
 Generates entity model SQL views in the Identity Manager database. All views are prefixed by `zz_`.
@@ -9,11 +15,11 @@ For every **EntityType**, a matching SQL view is created from the UR_Resource ta
 ## Example
 
 The following example allows the user to connect to Identity Manager server at
-`http://usercube.contoso.com`, using the ClientId `Job` and Secret `secret`, to generate views for
+`http://identitymanager.contoso.com`, using the ClientId `Job` and Secret `secret`, to generate views for
 Identity Manager's database.
 
 ```
-./identitymanager-Create-DatabaseViews.exe --api-secret secret --api-client-id Job --api-url "http://usercube.contoso.com" --log-level Debug
+./identitymanager-Create-DatabaseViews.exe --api-secret secret --api-client-id Job --api-url "http://identitymanager.contoso.com" --log-level Debug
 ```
 
 ## Arguments

@@ -1,3 +1,9 @@
+---
+title: "Create the Workforce Repository"
+description: "Create the Workforce Repository"
+sidebar_position: 20
+---
+
 # Create the Workforce Repository
 
 How to initiate the repository for workforce identities by loading identities into Identity
@@ -88,9 +94,9 @@ Integrators may need the help of the HR department and its assistants who know t
 order to get the identity and organizational data. After the initial loading, the HR department can
 review the data to confirm its accuracy.
 
-| Input                                                                                                                    | Output                       |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Identity Manager Server (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| Input                                                                                                                  | Output                       |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| IdentityManagerServer (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
 ## Create the Workforce Repository
 

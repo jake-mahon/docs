@@ -1,3 +1,9 @@
+---
+title: "Load Identities to Identity Manager"
+description: "Load Identities to Identity Manager"
+sidebar_position: 20
+---
+
 # Load Identities to Identity Manager
 
 How to load identities into Identity Manager for the first time using a basic data model in the form
@@ -47,11 +53,11 @@ Integrators may need the help of the HR department who knows the organization in
 identity and organizational data. After the initial loading, the HR department can review the data
 to confirm its accuracy.
 
-| Input                                                                                   | Output                       |
-| --------------------------------------------------------------------------------------- | ---------------------------- |
-| Identity Manager Server (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| Input                                                                                 | Output                       |
+| ------------------------------------------------------------------------------------- | ---------------------------- |
+| IdentityManagerServer (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
-See the [Install the Development Environment](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information
 
 ## Load Identities

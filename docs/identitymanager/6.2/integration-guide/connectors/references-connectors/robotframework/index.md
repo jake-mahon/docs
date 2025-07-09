@@ -1,3 +1,9 @@
+---
+title: "Robot Framework"
+description: "Robot Framework"
+sidebar_position: 220
+---
+
 # Robot Framework
 
 This connector writes to an external system via a [Robot Framework](https://robotframework.org)
@@ -68,7 +74,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "RobotFrameworkFulfillment": {
->       "RobotFrameworkScriptPath": "C:/UsercubeDemo/Scripts/FulfillRobotFramework.robot",
+>       "RobotFrameworkScriptPath": "C:/identitymanagerDemo/Scripts/FulfillRobotFramework.robot",
 >       "Options": {
 >         "Message": "Hello"
 >       }
@@ -110,7 +116,7 @@ Data protection can be ensured through:
 | Password (optional)      | `Connections--<identifier>--Options--Password`        |
 | RobotFrameworkScriptPath | `Connections--<identifier>--RobotFrameworkScriptPath` |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   the attributes from the `Options` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

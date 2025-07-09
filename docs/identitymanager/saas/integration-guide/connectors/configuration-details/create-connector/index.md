@@ -6,10 +6,9 @@ sidebar_position: 70
 
 # Create a Connector
 
-How to implement a [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
-via XML to connect Identity Manager to an external system.
+How to implement a [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) via XML to connect Identity Manager to an external system.
 
-See an example on how to register [For Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/how-tos/create-connector/azuread/index.md).
+See an example on how to register [For Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/create-connector/entra-ID/index.md).
 
 Netwrix Identity Manager (formerly Usercube) strongly recommends configuring as much as possible via
 the UI instead of XML files. See the

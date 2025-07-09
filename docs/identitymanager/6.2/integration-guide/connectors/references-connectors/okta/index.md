@@ -1,3 +1,9 @@
+---
+title: "Okta"
+description: "Okta"
+sidebar_position: 170
+---
+
 # Okta
 
 This connector exports and fulfills entries from/to Okta application.
@@ -60,13 +66,13 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-  ...
-  "Connections": {
-    ...
-    "<ConnectionIdentifier>": {
-      ...
-    }
-  }
+  ...
+  "Connections": {
+    ...
+    "<ConnectionIdentifier>": {
+      ...
+    }
+  }
 }
 
 ```
@@ -75,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 - Be unique
 - Not begin with a digit
-- Not contain \<, \>, :, ", /, \, |, ?, \* and \_.
+- Not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 For example:
 
@@ -85,13 +91,13 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-    "Connections": {
-        ...
-        "OktaExportFulfillment": {
-            "Server": " https://<YourCompany>.okta.com",
-            "ApiKey": "<GeneratedUserToken>",
-        }
-    }
+    "Connections": {
+        ...
+        "OktaExportFulfillment": {
+            "Server": " https://<YourCompany>.okta.com",
+            "ApiKey": "<GeneratedUserToken>",
+        }
+    }
 }
 
 ```
@@ -108,15 +114,15 @@ appsettings.agent.json
 This connector can create, delete and update users, groups and applications, and is meant to
 generate the following to the ExportOutput folder :
 
-- A CSV file, named \<connectionIdentifier\>\_users.csv, with one column for each property either
+- A CSV file, named `<connectionIdentifier>`\_users.csv, with one column for each property either
   having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groups.csv, with one column for each property either
+- A CSV file, named `<connectionIdentifier>`\_groups.csv, with one column for each property either
   having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_apps.csv, with one column for each property either
+- A CSV file, named `<connectionIdentifier>`\_apps.csv, with one column for each property either
   having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groupsapps.csv, with one column for each property
+- A CSV file, named `<connectionIdentifier>`\_groupsapps.csv, with one column for each property
   either having a ConnectionColumn or which is used in an entity association;
-- A CSV file, named \<connectionIdentifier\>\_groupsusers.csv, with one column for each property
+- A CSV file, named `<connectionIdentifier>`\_groupsusers.csv, with one column for each property
   either having a ConnectionColumn or which is used in an entity association;
 
 For example, with the following entity type mapping for users:
@@ -126,34 +132,34 @@ script in the command line.
 
 ```
 <EntityType Identifier="User" DisplayName_L1="User">
-    <Property Identifier="Groups" DisplayName_L1="Groups" Type="ForeignKey" />
-    <Property Identifier="OktaSyncPrpov_users_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="6" Type="String" />
-    <Property Identifier="UserType" DisplayName_L1="User Type" TargetColumnIndex="128" Type="ForeignKey" />
-    <Property Identifier="activated" DisplayName_L1="activated" TargetColumnIndex="4" Type="String" />
-    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="5" Type="String" />
-    <Property Identifier="lastLogin" DisplayName_L1="lastLogin" TargetColumnIndex="7" Type="String" />
-    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="8" Type="String" />
-    <Property Identifier="passwordChanged" DisplayName_L1="passwordChanged" TargetColumnIndex="9" Type="String" />
-    <Property Identifier="profile_city" DisplayName_L1="City" TargetColumnIndex="10" Type="String" />
-    <Property Identifier="profile_costCenter" DisplayName_L1="Cost center" TargetColumnIndex="11" Type="String" />
-    <Property Identifier="profile_countryCode" DisplayName_L1="Country code" TargetColumnIndex="12" Type="String" />
-    <Property Identifier="profile_department" DisplayName_L1="Department" TargetColumnIndex="13" Type="String" />
-    <Property Identifier="profile_displayName" DisplayName_L1="Display name" TargetColumnIndex="14" Type="String" />
-...
+    <Property Identifier="Groups" DisplayName_L1="Groups" Type="ForeignKey" />
+    <Property Identifier="OktaSyncPrpov_users_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="6" Type="String" />
+    <Property Identifier="UserType" DisplayName_L1="User Type" TargetColumnIndex="128" Type="ForeignKey" />
+    <Property Identifier="activated" DisplayName_L1="activated" TargetColumnIndex="4" Type="String" />
+    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="5" Type="String" />
+    <Property Identifier="lastLogin" DisplayName_L1="lastLogin" TargetColumnIndex="7" Type="String" />
+    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="8" Type="String" />
+    <Property Identifier="passwordChanged" DisplayName_L1="passwordChanged" TargetColumnIndex="9" Type="String" />
+    <Property Identifier="profile_city" DisplayName_L1="City" TargetColumnIndex="10" Type="String" />
+    <Property Identifier="profile_costCenter" DisplayName_L1="Cost center" TargetColumnIndex="11" Type="String" />
+    <Property Identifier="profile_countryCode" DisplayName_L1="Country code" TargetColumnIndex="12" Type="String" />
+    <Property Identifier="profile_department" DisplayName_L1="Department" TargetColumnIndex="13" Type="String" />
+    <Property Identifier="profile_displayName" DisplayName_L1="Display name" TargetColumnIndex="14" Type="String" />
+….  
 </EntityType>
-  <EntityTypeMapping Identifier="User" ConnectionTable="OktaExportFulfillment_users" Connector="Okta">
-    <Property Identifier="OktaExportFulfillment_users_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
-    <Property Identifier="activated" ConnectionColumn="activated" />
-    <Property Identifier="created" ConnectionColumn="created" />
-    <Property Identifier="lastLogin" ConnectionColumn="lastLogin" />
-    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
-    <Property Identifier="passwordChanged" ConnectionColumn="passwordChanged" />
-    <Property Identifier="profile_city" ConnectionColumn="profile.city" />
-    <Property Identifier="profile_costCenter" ConnectionColumn="profile.costCenter" />
-    <Property Identifier="profile_countryCode" ConnectionColumn="profile.countryCode" />
-    <Property Identifier="profile_department" ConnectionColumn="profile.department" />
-    <Property Identifier="profile_displayName" ConnectionColumn="profile.displayName" />
-  </EntityTypeMapping>
+  <EntityTypeMapping Identifier="User" ConnectionTable="OktaExportFulfillment_users" Connector="Okta">
+    <Property Identifier="OktaExportFulfillment_users_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
+    <Property Identifier="activated" ConnectionColumn="activated" />
+    <Property Identifier="created" ConnectionColumn="created" />
+    <Property Identifier="lastLogin" ConnectionColumn="lastLogin" />
+    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
+    <Property Identifier="passwordChanged" ConnectionColumn="passwordChanged" />
+    <Property Identifier="profile_city" ConnectionColumn="profile.city" />
+    <Property Identifier="profile_costCenter" ConnectionColumn="profile.costCenter" />
+    <Property Identifier="profile_countryCode" ConnectionColumn="profile.countryCode" />
+    <Property Identifier="profile_department" ConnectionColumn="profile.department" />
+    <Property Identifier="profile_displayName" ConnectionColumn="profile.displayName" />
+  </EntityTypeMapping>
 
 ```
 
@@ -163,26 +169,26 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-  <EntityType Identifier="Group" DisplayName_L1="Group">
-    <Property Identifier="Applications" DisplayName_L1="Applications" Type="ForeignKey" />
-    <Property Identifier="OktaSyncPrpov_groups_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="5" Type="String" />
-    <Property Identifier="Users" DisplayName_L1="Users" Type="ForeignKey" />
-    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="4" Type="String" />
-    <Property Identifier="lastMemberShipUpdated" DisplayName_L1="lastMemberShipUpdated" TargetColumnIndex="6" Type="String" />
-    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="7" Type="String" />
-    <Property Identifier="profile_description" DisplayName_L1="Description" TargetColumnIndex="8" Type="String" />
-    <Property Identifier="profile_name" DisplayName_L1="Name" TargetColumnIndex="9" Type="String" />
-    <Property Identifier="type" DisplayName_L1="type" TargetColumnIndex="10" Type="String" />
-  </EntityType>
-  <EntityTypeMapping Identifier="Group" ConnectionTable="OktaExportFulfillment_groups" Connector="Okta">
-    <Property Identifier="OktaExportFulfillment_groups_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
-    <Property Identifier="created" ConnectionColumn="created" />
-    <Property Identifier="lastMemberShipUpdated" ConnectionColumn="lastMemberShipUpdated" />
-    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
-    <Property Identifier="profile_description" ConnectionColumn="profile.description" />
-    <Property Identifier="profile_name" ConnectionColumn="profile.name" />
-    <Property Identifier="type" ConnectionColumn="type" />
-  </EntityTypeMapping>
+  <EntityType Identifier="Group" DisplayName_L1="Group">
+    <Property Identifier="Applications" DisplayName_L1="Applications" Type="ForeignKey" />
+    <Property Identifier="OktaSyncPrpov_groups_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="5" Type="String" />
+    <Property Identifier="Users" DisplayName_L1="Users" Type="ForeignKey" />
+    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="4" Type="String" />
+    <Property Identifier="lastMemberShipUpdated" DisplayName_L1="lastMemberShipUpdated" TargetColumnIndex="6" Type="String" />
+    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="7" Type="String" />
+    <Property Identifier="profile_description" DisplayName_L1="Description" TargetColumnIndex="8" Type="String" />
+    <Property Identifier="profile_name" DisplayName_L1="Name" TargetColumnIndex="9" Type="String" />
+    <Property Identifier="type" DisplayName_L1="type" TargetColumnIndex="10" Type="String" />
+  </EntityType>
+  <EntityTypeMapping Identifier="Group" ConnectionTable="OktaExportFulfillment_groups" Connector="Okta">
+    <Property Identifier="OktaExportFulfillment_groups_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
+    <Property Identifier="created" ConnectionColumn="created" />
+    <Property Identifier="lastMemberShipUpdated" ConnectionColumn="lastMemberShipUpdated" />
+    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
+    <Property Identifier="profile_description" ConnectionColumn="profile.description" />
+    <Property Identifier="profile_name" ConnectionColumn="profile.name" />
+    <Property Identifier="type" ConnectionColumn="type" />
+  </EntityTypeMapping>
 
 ```
 
@@ -192,39 +198,39 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
- <EntityType Identifier="Application" DisplayName_L1="Application">
-    <Property Identifier="Groups" DisplayName_L1="Groups" Type="ForeignKey" />
-    <Property Identifier="OktaSyncPrpov_apps_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="5" Type="String" />
-    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="4" Type="String" />
-    <Property Identifier="label" DisplayName_L1="label" TargetColumnIndex="6" Type="String" />
-    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="7" Type="String" />
-    <Property Identifier="name" DisplayName_L1="name" TargetColumnIndex="8" Type="String" />
-    <Property Identifier="status" DisplayName_L1="status" TargetColumnIndex="9" Type="String" />
-  </EntityType>
-  <EntityTypeMapping Identifier="Application" ConnectionTable="OktaExportFulfillment_apps" Connector="Okta">
-    <Property Identifier="OktaExportFulfillment_apps_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
-    <Property Identifier="created" ConnectionColumn="created" />
-    <Property Identifier="label" ConnectionColumn="label" />
-    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
-    <Property Identifier="name" ConnectionColumn="name" />
-    <Property Identifier="status" ConnectionColumn="status" />
-  </EntityTypeMapping>
+ <EntityType Identifier="Application" DisplayName_L1="Application">
+    <Property Identifier="Groups" DisplayName_L1="Groups" Type="ForeignKey" />
+    <Property Identifier="OktaSyncPrpov_apps_id" DisplayName_L1="id" IsKey="true" TargetColumnIndex="5" Type="String" />
+    <Property Identifier="created" DisplayName_L1="created" TargetColumnIndex="4" Type="String" />
+    <Property Identifier="label" DisplayName_L1="label" TargetColumnIndex="6" Type="String" />
+    <Property Identifier="lastUpdated" DisplayName_L1="lastUpdated" TargetColumnIndex="7" Type="String" />
+    <Property Identifier="name" DisplayName_L1="name" TargetColumnIndex="8" Type="String" />
+    <Property Identifier="status" DisplayName_L1="status" TargetColumnIndex="9" Type="String" />
+  </EntityType>
+  <EntityTypeMapping Identifier="Application" ConnectionTable="OktaExportFulfillment_apps" Connector="Okta">
+    <Property Identifier="OktaExportFulfillment_apps_id" ConnectionColumn="id" IsPrimaryKey="true" IsUniqueKey="true" />
+    <Property Identifier="created" ConnectionColumn="created" />
+    <Property Identifier="label" ConnectionColumn="label" />
+    <Property Identifier="lastUpdated" ConnectionColumn="lastUpdated" />
+    <Property Identifier="name" ConnectionColumn="name" />
+    <Property Identifier="status" ConnectionColumn="status" />
+  </EntityTypeMapping>
 
 ```
 
-Then we will have `C:/UsercubeContoso/Sources/OktaExportFulfillment_users.csv` as follows:
+Then we will have `C:/identitymanagerContoso/Sources/OktaExportFulfillment_users.csv` as follows:
 
 ```
 id, status, created, activated, statusChanged, lastLogin, lastUpdated, passwordChanged, type.id, profile.city, profile.costCenter, profile.countryCode, profile.department, profile.displayName
 ```
 
-And `C:/UsercubeContoso/Sources/OktaExportFulfillment_groups.csv` as follows:
+And `C:/identitymanagerContoso/Sources/OktaExportFulfillment_groups.csv` as follows:
 
 ```
 id, created, lastUpdated, lastMemberShipUpdated, type, profile.description, profile.name
 ```
 
-And `C:/UsercubeContoso/Sources/OktaExportFulfillment_apps.csv` as follows:
+And `C:/identitymanagerContoso/Sources/OktaExportFulfillment_apps.csv` as follows:
 
 ```
 id, created, lastUpdated, status, name, label
@@ -249,13 +255,13 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-    "Connections": {
-        ...
-        "OktaExportFulfillment": {
-            "Server": " https://<YourCompany>.okta.com",
-            "ApiKey": "<GeneratedUserToken>",
-        }
-    }
+    "Connections": {
+        ...
+        "OktaExportFulfillment": {
+            "Server": " https://<YourCompany>.okta.com",
+            "ApiKey": "<GeneratedUserToken>",
+        }
+    }
 }
 
 ```

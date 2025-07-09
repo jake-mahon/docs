@@ -1,3 +1,9 @@
+---
+title: "Access Certification"
+description: "Access Certification"
+sidebar_position: 20
+---
+
 # Access Certification
 
 The Access Certification module enables chosen end-users to carry out assignment certification
@@ -215,7 +221,7 @@ not considered.
 
 Once entitlement assignments have been reviewed (accepted or rejected), the final step is to apply
 these decisions with the processing task, eventually denying assignments. This is done through the
-UI. See the [Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md) topic for additional information.
+UI. See the Access Certification topic for additional information.
 
 The user needs to have the correct permission to launch the item processing:
 
@@ -229,6 +235,7 @@ script in the command line.
 It is also possible to add access control filters when creating the permission set so that users can
 only access certain type of campaigns. See the
 [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+topic for additional information.
 
 This permission also is given by the AccessReviewAdministrationAccessControlRules scaffolding. See
 the

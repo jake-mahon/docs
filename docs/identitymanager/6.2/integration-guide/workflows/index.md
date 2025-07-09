@@ -1,6 +1,12 @@
+---
+title: "Workflows"
+description: "Workflows"
+sidebar_position: 140
+---
+
 # Workflows
 
-In software business, a [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a
+In software business, a [Workflow](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a
 series of specific actions taken by specific people to accomplish specific tasks. For Identity
 Manager, workflows are models of business workflows, processes or procedures.
 
@@ -45,8 +51,8 @@ A workflow is made of several elements:
 ## Activities
 
 A workflow is made of successive activities, each of which is assigned an
-[ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a
-workflow step to another.
+[Activity Templates](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a workflow
+step to another.
 
 Activities never run in parallel in a workflow. Each activity can start once the previous one
 reached its final state.
@@ -103,12 +109,12 @@ workflow's input form:
 ## Permissions
 
 For each workflow, some permissions must be assigned to specific
-[ Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are
+[Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are
 entitled to realize the workflow's actions.
 
 While assigning the specific permissions of a workflow, it is necessary to assign the involved
 profiles a few essential rights via the
-[ Workflow Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
+[Workflow Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
 scaffolding.
 
 A workflow needs a permission for each of all its activity states involving user interaction. This
@@ -117,7 +123,7 @@ means that, for example, the activities following the templates `Persist` and
 `Action` template, a workflow would need permissions for the states `ActionPending`, `Aborted` and
 `Purged` (because deletion requires an authorization), but not for the state `Executed` that does
 not involve user interaction or special authorization. See the
-[ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+[Activity Templates](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 All these permissions can be shared and distributed among several profiles, according to the purpose
 of the workflow.
@@ -140,15 +146,13 @@ use it only for a "super admin" kind of profile if you are certain you want to g
 
 ## Menu Items
 
-[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows
-accessible from the UI.
+[Menu Item](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows accessible
+from the UI.
 
 Identity Manager's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the **Directory** section on the home page;
-  ![Workflow Menu Items - Users List](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 ## Aspects
 
@@ -170,10 +174,10 @@ execution.
 
 A homonym search checks if a resource already exists in the system before creating/modifying it,
 preventing duplicates. It is configured through a
-[ Homonym Entity Link ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+[Homonym Entity Link](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-See the [ Configure a Homonym Detection ](/docs/identitymanager/6.2/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for
-additional information.
+See the [Configure a Homonym Detection](/docs/identitymanager/6.2/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional
+information.
 
 ## Display Tables (Optional)
 
