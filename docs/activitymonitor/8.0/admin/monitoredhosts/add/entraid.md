@@ -42,7 +42,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding aMicrosoft Entra ID host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_1.md) topic
+[Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/entraid-activity.md) topic
 for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for

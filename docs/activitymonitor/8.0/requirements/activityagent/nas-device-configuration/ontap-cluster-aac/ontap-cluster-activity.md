@@ -105,7 +105,7 @@ bursts of activity events.
 It uses a dedicated volume for each SVM as a staging buffer before the events are sent to Activity
 Monitor Agent.
 
-Checklist Item 2: [Provision ONTAP Account](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/provisionactivity_1.md)
+Checklist Item 2: [Provision ONTAP Account](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/provisionactivity.md)
 
 - Permission names depend on the API used, ONTAPI/ZAPI or REST API.
 - The case of domain and username created during the account provisioning process must match exactly
@@ -175,7 +175,7 @@ Checklist Item 2: [Provision ONTAP Account](/docs/activitymonitor/8.0/requiremen
 
         - `security login role show-ontapi` – Readonly access
 
-Checklist Item 3: [Configure Network](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/configurefirewall.md)
+Checklist Item 3: [Configure Network](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefirewall.md)
 
 - Agent must be able to connect to ONTAP API via a management LIF on ports HTTP (80) or HTTPS (443)
 
@@ -190,7 +190,7 @@ Checklist Item 3: [Configure Network](/docs/activitymonitor/8.0/requirements/act
     - Each data serving node should have its own LIF with the `data-fpolicy-client` service.
     - The default port 9999 can be changed in the agent's settings.
 
-Checklist Item 4: [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/configurefpolicy_1.md)
+Checklist Item 4: [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md)
 
 - Remember: all FPolicy objects and SVM names are case sensitive.
 - FPolicy must be configured for each SVM to be monitored.

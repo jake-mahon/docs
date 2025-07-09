@@ -30,7 +30,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Nutanix files host to the Activity Monitor, the prerequisites for the target
 environment must be met. See
-[Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_2.md) for more
+[Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/nutanix-activity.md) for more
 information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
