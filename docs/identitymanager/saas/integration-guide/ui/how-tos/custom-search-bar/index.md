@@ -3,7 +3,7 @@
 This guide shows how to define a custom way to search from a list of a given entity type's
 properties.
 
-See the [Search Bar](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md) topic for
+See the [Search Bar](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md) topic for
 additional information.
 
 ## Default Search Bar
@@ -28,7 +28,7 @@ in the display table.
 ## Create Default Filters
 
 To add a default filter, you must add both of the following properties to a
-[Search Bar](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
+[Search Bar](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
 
 - DefaultValue
 - Operator
@@ -48,4 +48,4 @@ Here is the visualization of this criterion on the interface:
 Each menu item is a link to an entity's workflow displayed under the search bar on the visualization
 page of the entity's resource list.
 
-See the [ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information
+See the [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information

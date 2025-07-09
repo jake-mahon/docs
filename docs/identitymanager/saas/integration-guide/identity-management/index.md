@@ -22,16 +22,14 @@ process.
 Identities in Identity Manager are mostly humans, both internal and external workers, but can also
 be applications, bots, service accounts, or anything.
 
-Identities are stored in the database as [ Resources ](/docs/identitymanager/saas/integration-guide/resources/index.md), which helps with
-Identity Manager's internal mechanisms, for example to modelize identities with
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types.
+Identities are stored in the database as [ Resources ](/docs/identitymanager/saas/integration-guide/resources/index.md), which helps with Identity Manager's internal mechanisms, for example to modelize identities with [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types.
 
 Additional interesting parts of identity management are:
 
 - the synchronization of identity changes through several repositories, for example both Identity
   Manager and the AD;
 - the provisioning of identity properties directly to the connected systems, based on the
-  computation of the [ Role Model ](/docs/identitymanager/saas/integration-guide/role-model/index.md).
+  computation of the [Role Model](/docs/identitymanager/saas/integration-guide/role-model/index.md).
 
 See the [Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/index.md) topic for additional information.
 

@@ -11,7 +11,7 @@ This option is used to use provisioning orders to compute useful arguments.
 Most standard situations use only one workflow per action type on a resource (addition, update,
 deletion). But in some more complex situations (like using multi records), several workflows are
 available for one type of action. As the configuration JSON file of an
-[InternalWorkflow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/internalworkflow/index.md) connection
+[InternalWorkflow](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalworkflow/index.md) connection
 cannot contain expressions, a resource type can be configured with the `ArgumentsExpression`
 attribute to explicit the arguments of provisioning orders, based on conditions and variables.
 

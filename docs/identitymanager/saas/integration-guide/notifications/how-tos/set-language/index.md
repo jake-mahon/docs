@@ -15,7 +15,7 @@ defined, then notifications use the first language.
 Set the first language for the whole application by proceeding as follows:
 
 1. In the XML configuration, create a `Language` with `IndicatorNumber` set to `1`. See the
-   [ Language ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/language/index.md) topic for additional
+   [ Language ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/language/index.md) topic for additional
    information.
 
     > For example, to set English as the first language:
@@ -33,7 +33,7 @@ Set the first language for the whole application by proceeding as follows:
 Set the language explicitly for server-side-task notifications by proceeding as follows:
 
 1. In the XML configuration, configure `MailSetting` with a `LanguageCode`See the
-   [ Mail Setting ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md) topic
+   [ Mail Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md) topic
    for additional information.
 
     > For example, to set the language to English:

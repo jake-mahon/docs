@@ -5,7 +5,7 @@ This guide shows how to set a template other than the default one for native not
 ## Overview
 
 Identity Manager natively sends notifications for usual cases. See the
-[ Native Notifications ](/docs/identitymanager/6.2/integration-guide/notifications/native/index.md) topic for additional information.
+[ Native Notifications ](/docs/identitymanager/saas/integration-guide/notifications/native/index.md) topic for additional information.
 
 These native notifications are based on cshtml templates available inside the `Runtime` folder. If
 the provided templates do not meet your exact needs, then they can be replaced by personalized
@@ -16,7 +16,7 @@ templates.
 Customize a native notification by proceeding as follows:
 
 1. Among the
-   [Notification Template](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md),
+   [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md),
    get the identifier of the notification whose templates are to be replaced.
 
     > For example, to customize the notification for one-way password reset: `OneWayPasswordReset`.
@@ -32,7 +32,7 @@ Customize a native notification by proceeding as follows:
 
 3. Customize the template(s) previously copied to the configuration folder.
 4. Configure an XML element
-   [Notification Template](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md)
+   [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md)
    with the identifier collected at step 1, and the relative path(s) to the customized template(s).
 
     > For example:

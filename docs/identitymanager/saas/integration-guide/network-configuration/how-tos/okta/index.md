@@ -52,7 +52,7 @@ Identity Manager can operate correctly. **Allow ID Token with implicit grant typ
 
 To successfully configure the OpenId protocol, you can refer to the dedicated section in the
 detailed guide. See the
-[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) for
+[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) for
 additional information.
 
 Below is an illustrative example of how to set up your `appsettings.json` file.

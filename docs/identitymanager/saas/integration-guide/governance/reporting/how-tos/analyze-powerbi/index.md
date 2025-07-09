@@ -43,23 +43,23 @@ only current data, i.e. nothing from the history.
 Build the universe model by proceeding as follows:
 
 **Step 1 –** Define the appropriate universes using scaffoldings. See the
-[ Queries ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic
+[ Queries ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic
 for additional information.
 
 _Remember,_ in order to understand business intelligence, with its universes, entity instances and
 association instances. See the
-[ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic
+[ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic
 for additional information.  
 Also note that XML objects that automatically generate XML snippets that would be complex and/or
 tedious to write manually. See
-the[Scaffoldings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic
+the[Scaffoldings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic
 for additional information.
 
 Netwrix recommends creating no more than one universe to generate one report, to prevent issues
 about name uniqueness.
 
 **Step 2 –** Connect Power BI to Identity Manager to visualize the output model. See the
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md) topic for additional
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md) topic for additional
 information.
 
 The Power BI applications **Desktop**, **Service** and **Report Server** all offer the Identity
@@ -122,5 +122,5 @@ particular actions on the universe model.
 A change in an association requires making the corresponding change in the universe model, as
 association instances (in the universe model) are based on entity associations in Identity Manager's
 data model. See the
-[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 topic for additional information.

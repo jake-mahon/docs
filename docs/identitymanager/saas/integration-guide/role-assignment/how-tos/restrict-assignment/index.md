@@ -6,7 +6,7 @@ or resource type.
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-[ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
+[ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
 EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType
@@ -21,7 +21,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 ## Create a Single Role
 
 To be able to filter with the dimensions previously created, it is necessary to first create
-[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will
+[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will
 serve as a restriction to the assignment of ResourceTypes for a given source.
 
 The example below creates a SingleRole for the EntityType Directory_User (source of the
@@ -36,7 +36,7 @@ ResourceTypes you want to restrict).
 ## Assign the Role Based on the Dimension
 
 We will define a
-[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) on the
+[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) on the
 "Title"; dimension with a given value to restrict the allocation of a resource in only one case.
 
 ```
@@ -59,9 +59,9 @@ association to the EntityType related to dimension 1 is "FCT0402".
 ## Assign a Resource Type Based on the Role
 
 The restriction on the creation of these accounts is integrated directly into the type rule of the
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). This implies
 that the ResourceType will only apply if the
-[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) are
+[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) are
 checked.
 
 This part will link a SingleRole to a ResourceType. This implies that the allocation of a target
@@ -76,7 +76,7 @@ resource to a source will only be done if the SingleRole rule(s) are verified.
 
 ### Use a navigation rule instead of a type rule
 
-A [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) in addition
+A [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) in addition
 to filling a multi-valued association, also serves as an allocation context for a ResourceType.
 
 There are 3 ways to restrict the allocation of the ResourceType with a NavigationRule:

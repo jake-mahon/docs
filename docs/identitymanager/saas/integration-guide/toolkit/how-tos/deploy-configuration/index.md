@@ -13,7 +13,7 @@ The process for configuration deployment varies according to the situation:
 ## Deploy the Configuration Locally
 
 Deploy a local XML configuration by using the
-[ Usercube-Deploy Configuration](/docs/identitymanager/6.2/integration-guide/executables/references/deploy-configuration/index.md) and
+[ Usercube-Deploy Configuration](/docs/identitymanager/saas/integration-guide/executables/references/deploy-configuration/index.md) and
 declaring at least:
 
 - the configuration directory;
@@ -30,7 +30,7 @@ declaring at least:
 Deploy a SaaS XML configuration by proceeding as follows:
 
 1.  Log in for configuration deployment/export with the
-    [ Usercube-Login ](/docs/identitymanager/6.2/integration-guide/executables/references/login/index.md).
+    [ Usercube-Login ](/docs/identitymanager/saas/integration-guide/executables/references/login/index.md).
 
     Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure
     strong security, visibility and ease of use.
@@ -88,7 +88,7 @@ Deploy a SaaS XML configuration by proceeding as follows:
     Manager instance, to allow the configuration deployment/export.
 
 4.  Deploy the configuration by using
-    the[ Usercube-Deploy Configuration](/docs/identitymanager/6.2/integration-guide/executables/references/deploy-configuration/index.md)
+    the[ Usercube-Deploy Configuration](/docs/identitymanager/saas/integration-guide/executables/references/deploy-configuration/index.md)
     and declaring at least:
 
     - the configuration directory;
