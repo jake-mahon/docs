@@ -16,7 +16,7 @@ were modified, i.e. created, updated and/or deleted.
 It allows future tasks to be executed only on modified resources, in order to minimize jobs'
 execution times and costs.
 
-See the [Set Up Incremental Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs//jobfast/index.md) topic for additional information on a full Incremental job.
+See the [Set Up Incremental Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobfast/index.md) topic for additional information on a full Incremental job.
 
 ## Configure a Job to Be Incremental
 

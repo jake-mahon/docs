@@ -13,7 +13,7 @@ using the provided SaaS agent. See the
 information.
 
 Identity Manager provides demo applications
-([Run the Banking Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/demoapp-banking/index.md)
+[Run the Banking Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/demoapp-banking/index.md)
 and
 [Run the HR Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/demoapp-hr/index.md) to help set up connectors, test them, and understand Identity Manager's abilities towards external systems.
 

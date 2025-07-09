@@ -10,8 +10,8 @@ This guide shows how to define the permissions for creating and using jobs thank
 
 There are two important jobs in Identity Manager. The Complete Job and the Incremental
 Synchronization. This two Job Synchronize and fill are using to Synchronize and fill Connectors. See
-the [Set up Complete Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobdaily/index.md) and
-[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobfast/index.md) topics for additional information.
+the [Set up Complete Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobdaily/index.md) and
+[Set Up Incremental Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobfast/index.md) topics for additional information.
 
 ## Job Scaffoldings
 
