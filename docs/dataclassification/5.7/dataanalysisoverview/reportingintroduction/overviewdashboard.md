@@ -15,7 +15,7 @@ customize it for their needs. See Customize Dashboard for more information.
 least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
 - [User Management](/docs/dataclassification/5.7/systemconfigurationoverview/users/usermanagement.md)
-- [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/builtintaxonomies.md)
+- [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/builtintaxonomies.md)
 
 The dashboard is the home page for the administrative web console.
 
@@ -47,7 +47,7 @@ The dashboard includes the following sections:
 
 - Sensitive Files – helps you identify how many files have been tagged at least once in any of
   Netwrix built-in sensitive taxonomies except for the following: File Type, File Size, Language.
-  Review the [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/builtintaxonomies.md) section for the
+  Review the [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/builtintaxonomies.md) section for the
   full list of predefined taxonomies.
 
     **NOTE:** Custom taxonomies are not counted.
