@@ -1,3 +1,9 @@
+---
+title: "Files"
+description: "Files"
+sidebar_position: 40
+---
+
 # Files
 
 ### /files/Report/FromQuery/`{rootEntityType}`

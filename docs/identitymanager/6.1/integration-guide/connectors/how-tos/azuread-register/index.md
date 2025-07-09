@@ -1,3 +1,9 @@
+---
+title: "Register for Microsoft Entra ID"
+description: "Register for Microsoft Entra ID"
+sidebar_position: 40
+---
+
 # Register for Microsoft Entra ID
 
 This guide shows how to

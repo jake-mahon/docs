@@ -1,3 +1,9 @@
+---
+title: "Role And Simulation Control Rules"
+description: "Role And Simulation Control Rules"
+sidebar_position: 20
+---
+
 # Role And Simulation Control Rules
 
 ## Examples

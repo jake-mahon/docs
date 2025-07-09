@@ -1,3 +1,9 @@
+---
+title: "Build Role Model Task"
+description: "Build Role Model Task"
+sidebar_position: 10
+---
+
 # Build Role Model Task
 
 Applies the [ Role Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md), also named

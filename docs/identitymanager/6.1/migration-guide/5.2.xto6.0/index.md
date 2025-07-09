@@ -1,3 +1,9 @@
+---
+title: "5.2.X to 6.0"
+description: "5.2.X to 6.0"
+sidebar_position: 10
+---
+
 # 5.2.X to 6.0
 
 These instructions are for migrating from 5.2.1 (or higher) to version 6.0. If migrating from a

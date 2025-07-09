@@ -1,3 +1,9 @@
+---
+title: "SendRoleModelNotificationsTask"
+description: "SendRoleModelNotificationsTask"
+sidebar_position: 180
+---
+
 # SendRoleModelNotificationsTask
 
 Task that sends a notification to all users who have pending roles to review, only for roles with a

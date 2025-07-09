@@ -1,3 +1,9 @@
+---
+title: "Connector Resource Type Access Control"
+description: "Connector Resource Type Access Control"
+sidebar_position: 10
+---
+
 # Connector Resource Type Access Control
 
 Generates the access control rules which give to a profile the permission to create and update

@@ -1,3 +1,9 @@
+---
+title: "EntityTypeDisplayTable"
+description: "EntityTypeDisplayTable"
+sidebar_position: 30
+---
+
 # EntityTypeDisplayTable
 
 Displays all resources of a given entity type in a table.

@@ -1,3 +1,9 @@
+---
+title: "OpenIdClientAdministrationAccessControlRules"
+description: "OpenIdClientAdministrationAccessControlRules"
+sidebar_position: 20
+---
+
 # OpenIdClientAdministrationAccessControlRules
 
 ## Properties

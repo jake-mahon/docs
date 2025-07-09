@@ -1,3 +1,9 @@
+---
+title: "References: Permissions"
+description: "References: Permissions"
+sidebar_position: 10
+---
+
 # References: Permissions
 
 Here is a list of permissions required for different user profiles:

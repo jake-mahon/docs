@@ -1,3 +1,9 @@
+---
+title: "Review an Unauthorized Account"
+description: "Review an Unauthorized Account"
+sidebar_position: 30
+---
+
 # Review an Unauthorized Account
 
 How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't

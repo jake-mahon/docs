@@ -1,3 +1,9 @@
+---
+title: "Install the Development Environment"
+description: "Install the Development Environment"
+sidebar_position: 10
+---
+
 # Install the Development Environment
 
 How to connect to Identity Manager's SaaS environment to set up the development environment.

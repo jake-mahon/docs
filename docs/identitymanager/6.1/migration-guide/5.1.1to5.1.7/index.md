@@ -1,6 +1,10 @@
-# Migration Guide
+---
+title: "5.1.1 to 5.1.7"
+description: "5.1.1 to 5.1.7"
+sidebar_position: 30
+---
 
-### Migrating from 5.1.1 (or any newer version) to 5.1.7
+# Migrating from 5.1.1 (or any newer version) to 5.1.7
 
 Since version 5.1.1, migrating your Usercube installation to a newer version is as simple as
 following these steps.

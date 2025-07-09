@@ -1,3 +1,9 @@
+---
+title: "ManageConfigurationIndexesTask"
+description: "ManageConfigurationIndexesTask"
+sidebar_position: 120
+---
+
 # ManageConfigurationIndexesTask
 
 Manage indexes for configuration items with the

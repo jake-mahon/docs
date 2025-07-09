@@ -1,3 +1,9 @@
+---
+title: "Application Server"
+description: "Application Server"
+sidebar_position: 10
+---
+
 # Application Server
 
 The requirements for the (Privilege Secure) application server are:

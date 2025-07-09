@@ -1,3 +1,9 @@
+---
+title: "Profiles"
+description: "Profiles"
+sidebar_position: 50
+---
+
 # Profiles
 
 - [ Assign Profile Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md)

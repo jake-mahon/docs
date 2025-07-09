@@ -1,3 +1,9 @@
+---
+title: "Usercube-Create-DatabaseViews"
+description: "Usercube-Create-DatabaseViews"
+sidebar_position: 60
+---
+
 # Usercube-Create-DatabaseViews
 
 Generates entity model SQL views in the Identity Manager database. All views are prefixed by `zz_`.

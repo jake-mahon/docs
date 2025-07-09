@@ -7,7 +7,7 @@ sidebar_position: 40
 # Portal Logs
 
 Use this API to get Directory Manager portal logs. See the
-[History](/docs/directorymanager/11.1/welcome/history/overview.md) topic for additional information on Portal history.
+[History](/docs/directorymanager/11.1/portal/history/overview.md) topic for additional information on Portal history.
 
 ## Endpoint
 

@@ -1,3 +1,9 @@
+---
+title: "Historical Dashboard"
+description: "Historical Dashboard"
+sidebar_position: 40
+---
+
 # Historical Dashboard
 
 The Historical sessions dashboard shows all created sessions and their status.
@@ -25,7 +31,7 @@ The table has the following columns:
     - Rocket icon — Launches the same session (same activity on the same resource with the same
       connection profile) for any historical session that is not a Credential-based session
     - View logs icon — Opens the Session Logs window to view the action log for the selected
-      session. See the [Session Logs Window](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/window/sessionlogs.md) topic for additional
+      session. See the [Session Logs Window](/docs/privilegesecure/4.2/accessmanagement/revieweruser/dashboard/active/startsession/sessionlogs.md) topic for additional
       information.
 
 - Requested — Date and time of when the session was created

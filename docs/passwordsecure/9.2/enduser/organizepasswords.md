@@ -1,3 +1,9 @@
+---
+title: "Organize Your Passwords"
+description: "Organize Your Passwords"
+sidebar_position: 40
+---
+
 # Organize Your Passwords
 
 ## Add a Team Tab

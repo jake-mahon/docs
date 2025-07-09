@@ -1,3 +1,9 @@
+---
+title: "Workforce"
+description: "Workforce"
+sidebar_position: 60
+---
+
 # Workforce
 
 - #### [BootstrapModule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/workforce/bootstrapmodule/index.md)

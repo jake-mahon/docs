@@ -1,3 +1,9 @@
+---
+title: "Usercube-Manage-History"
+description: "Usercube-Manage-History"
+sidebar_position: 260
+---
+
 # Usercube-Manage-History
 
 This tool optimizes the data history stored in the database, reducing its size and enhancing

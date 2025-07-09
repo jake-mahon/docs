@@ -1,3 +1,9 @@
+---
+title: "Active Directory"
+description: "Active Directory"
+sidebar_position: 10
+---
+
 # Active Directory
 
 This connector exports and fulfills users and groups from/to an

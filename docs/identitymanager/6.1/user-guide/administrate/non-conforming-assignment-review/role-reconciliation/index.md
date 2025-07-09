@@ -1,3 +1,9 @@
+---
+title: "Reconcile a Role"
+description: "Reconcile a Role"
+sidebar_position: 10
+---
+
 # Reconcile a Role
 
 How to review non-conforming permissions, i.e. approve or decline the role suggestions made by

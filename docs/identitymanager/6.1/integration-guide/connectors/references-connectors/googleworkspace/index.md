@@ -1,3 +1,9 @@
+---
+title: "Google Workspace"
+description: "Google Workspace"
+sidebar_position: 70
+---
+
 # Google Workspace
 
 This connector exports and fulfills users and groups from/to a

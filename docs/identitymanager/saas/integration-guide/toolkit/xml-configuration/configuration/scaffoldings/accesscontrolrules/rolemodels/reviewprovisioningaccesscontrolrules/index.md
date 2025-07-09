@@ -1,3 +1,9 @@
+---
+title: "Review Provisioning Access Control Rules"
+description: "Review Provisioning Access Control Rules"
+sidebar_position: 110
+---
+
 # Review Provisioning Access Control Rules
 
 Generates the right to access the review provisioning pages for a given entity type and profile.

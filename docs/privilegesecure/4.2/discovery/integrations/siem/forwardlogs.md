@@ -1,3 +1,9 @@
+---
+title: "Forward Logs to Syslog Servers and SIEM Solutions"
+description: "Forward Logs to Syslog Servers and SIEM Solutions"
+sidebar_position: 20
+---
+
 # Forward Logs to Syslog Servers and SIEM Solutions
 
 Forward Logs to Syslog Servers and SIEM Solutions

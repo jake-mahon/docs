@@ -1,0 +1,10 @@
+{
+  "label": "Clean Up Overview",
+  "position": 90,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "cleanup_overview"
+  }
+}

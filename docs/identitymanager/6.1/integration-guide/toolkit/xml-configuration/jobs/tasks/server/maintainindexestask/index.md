@@ -1,3 +1,9 @@
+---
+title: "MaintainIndexesTask"
+description: "MaintainIndexesTask"
+sidebar_position: 110
+---
+
 # MaintainIndexesTask
 
 Maintain indexes and update statistics for all database tables. Also cleans up data inconsistencies.

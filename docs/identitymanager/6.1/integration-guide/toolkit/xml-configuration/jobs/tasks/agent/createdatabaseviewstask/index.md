@@ -1,3 +1,9 @@
+---
+title: "CreateDatabaseViewsTask"
+description: "CreateDatabaseViewsTask"
+sidebar_position: 20
+---
+
 # CreateDatabaseViewsTask
 
 Generates entity model SQL views in the Usercube database. All views are prefixed by `zz_`. This

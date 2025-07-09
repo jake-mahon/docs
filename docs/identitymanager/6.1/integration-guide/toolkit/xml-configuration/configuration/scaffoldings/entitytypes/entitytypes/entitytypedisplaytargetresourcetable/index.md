@@ -1,3 +1,9 @@
+---
+title: "EntityTypeDisplayTargetResourceTable"
+description: "EntityTypeDisplayTargetResourceTable"
+sidebar_position: 50
+---
+
 # EntityTypeDisplayTargetResourceTable
 
 Creates a displaytable for the given entity. If there are less than 4 scalar properties, the

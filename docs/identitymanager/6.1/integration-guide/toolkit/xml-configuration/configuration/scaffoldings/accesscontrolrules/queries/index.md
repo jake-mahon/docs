@@ -1,3 +1,9 @@
+---
+title: "Queries"
+description: "Queries"
+sidebar_position: 60
+---
+
 # Queries
 
 - #### [ManageSettingAccessControlRule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md)

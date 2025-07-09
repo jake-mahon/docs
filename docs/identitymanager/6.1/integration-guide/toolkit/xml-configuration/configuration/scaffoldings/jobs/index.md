@@ -1,3 +1,9 @@
+---
+title: "Jobs"
+description: "Jobs"
+sidebar_position: 30
+---
+
 # Jobs
 
 - #### [CleanDatabaseJob](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/cleandatabasejob/index.md)

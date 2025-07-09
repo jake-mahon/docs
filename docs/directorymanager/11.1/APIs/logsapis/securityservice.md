@@ -7,7 +7,7 @@ sidebar_position: 70
 # Security Service Logs
 
 This API fetches Directory Manager Security service logs. See the
-[Security Service](/docs/directorymanager/11.1/signin/service/securityservice/overview.md) topic for additional
+[Security Service](/docs/directorymanager/11.1/admincenter/service/securityservice/overview.md) topic for additional
 information on Security service.
 
 ## Endpoint

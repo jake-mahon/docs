@@ -1,3 +1,9 @@
+---
+title: "Language"
+description: "Language"
+sidebar_position: 70
+---
+
 # Language
 
 Represents a configuration entity used to create multilingual application.

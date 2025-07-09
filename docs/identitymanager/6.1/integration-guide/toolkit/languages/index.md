@@ -1,3 +1,9 @@
+---
+title: "Languages"
+description: "Languages"
+sidebar_position: 50
+---
+
 # Languages
 
 Some configuration string must be specified in multiple languages. For this, the name of the

@@ -1,3 +1,9 @@
+---
+title: "References: Format for the EntityPropertyMapping"
+description: "References: Format for the EntityPropertyMapping"
+sidebar_position: 50
+---
+
 # References: Format for the EntityPropertyMapping
 
 This page lists all available formats for entity properties, in order to help you manage said

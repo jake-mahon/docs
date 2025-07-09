@@ -1,3 +1,9 @@
+---
+title: "How To Create a Workflow"
+description: "How To Create a Workflow"
+sidebar_position: 20
+---
+
 # How To Create a Workflow
 
 This guide shows how to create a

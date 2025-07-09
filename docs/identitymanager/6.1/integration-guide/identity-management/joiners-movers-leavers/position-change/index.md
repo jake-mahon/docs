@@ -1,3 +1,9 @@
+---
+title: "Position Change via Records"
+description: "Position Change via Records"
+sidebar_position: 20
+---
+
 # Position Change via Records
 
 Identities' Joiners, Movers and Leavers (JML) process can be made easy by using the adequate model:

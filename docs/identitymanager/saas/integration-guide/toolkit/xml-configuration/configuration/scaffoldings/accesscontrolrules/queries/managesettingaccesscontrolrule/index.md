@@ -1,3 +1,9 @@
+---
+title: "Manage Setting Access Control Rule"
+description: "Manage Setting Access Control Rule"
+sidebar_position: 10
+---
+
 # Manage Setting Access Control Rule
 
 Generates the access control rule which gives to a profile the permission to query, create, update

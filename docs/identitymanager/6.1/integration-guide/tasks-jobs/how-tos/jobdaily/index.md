@@ -1,3 +1,9 @@
+---
+title: "Set up Complete Synchronization"
+description: "Set up Complete Synchronization"
+sidebar_position: 50
+---
+
 # Set up Complete Synchronization
 
 This guide shows how to build the job that will synchronize the appropriate connectors in complete

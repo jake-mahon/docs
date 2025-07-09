@@ -1,3 +1,9 @@
+---
+title: "Update Multiple Identities"
+description: "Update Multiple Identities"
+sidebar_position: 20
+---
+
 # Update Multiple Identities
 
 How to perform a same change in data for several identities simultaneously.

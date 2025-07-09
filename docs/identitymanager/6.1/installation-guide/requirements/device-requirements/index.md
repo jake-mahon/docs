@@ -1,3 +1,9 @@
+---
+title: "Integration Device"
+description: "Integration Device"
+sidebar_position: 10
+---
+
 # Integration Device
 
 This section identifies the requirements for the local device used for the installation: either the

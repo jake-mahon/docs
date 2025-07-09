@@ -1,3 +1,9 @@
+---
+title: "Install the Production Agent"
+description: "Install the Production Agent"
+sidebar_position: 20
+---
+
 # Install the Production Agent
 
 This guide shows how to install an

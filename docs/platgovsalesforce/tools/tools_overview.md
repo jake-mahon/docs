@@ -1,3 +1,9 @@
+---
+title: "Tools Overview"
+description: "Tools Overview"
+sidebar_position: 50
+---
+
 # Tools Overview
 
 There are links to access **Key Tools** on the Netwrix Dashboard page:

@@ -1,3 +1,9 @@
+---
+title: "Install the Database"
+description: "Install the Database"
+sidebar_position: 20
+---
+
 # Install the Database
 
 The Identity Manager Database can be installed on the Server workstation or on a separate machine.

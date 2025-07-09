@@ -1,3 +1,9 @@
+---
+title: "Resource Type Mappings"
+description: "Resource Type Mappings"
+sidebar_position: 50
+---
+
 # Resource Type Mappings
 
 A resource type mapping links resources sharing the same intent and the same authorization system

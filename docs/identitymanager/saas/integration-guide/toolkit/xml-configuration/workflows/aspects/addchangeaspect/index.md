@@ -1,3 +1,9 @@
+---
+title: "Add Change Aspect"
+description: "Add Change Aspect"
+sidebar_position: 10
+---
+
 # Add Change Aspect
 
 Modifies a given property value.

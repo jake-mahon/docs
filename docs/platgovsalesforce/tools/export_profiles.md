@@ -1,3 +1,9 @@
+---
+title: "Export Profiles and Permission Sets"
+description: "Export Profiles and Permission Sets"
+sidebar_position: 40
+---
+
 # Export Profiles and Permission Sets
 
 Administrators can use this tool to export all user permissions into a single view for easy review

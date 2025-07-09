@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-Excel"
+description: "Usercube-Export-Excel"
+sidebar_position: 140
+---
+
 # Usercube-Export-Excel
 
 ## Examples

@@ -1,3 +1,9 @@
+---
+title: "For Microsoft Entra ID"
+description: "For Microsoft Entra ID"
+sidebar_position: 10
+---
+
 # For Microsoft Entra ID
 
 This example is about implementing incremental synchronization for a

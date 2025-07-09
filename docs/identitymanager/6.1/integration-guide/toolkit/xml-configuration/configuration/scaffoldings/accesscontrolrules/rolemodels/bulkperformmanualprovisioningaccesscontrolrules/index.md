@@ -1,3 +1,9 @@
+---
+title: "BulkPerformManualProvisioningAccessControlRules"
+description: "BulkPerformManualProvisioningAccessControlRules"
+sidebar_position: 20
+---
+
 # BulkPerformManualProvisioningAccessControlRules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous

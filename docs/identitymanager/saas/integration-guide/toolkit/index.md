@@ -1,3 +1,9 @@
+---
+title: "Toolkit for XML Configuration"
+description: "Toolkit for XML Configuration"
+sidebar_position: 210
+---
+
 # Toolkit for XML Configuration
 
 The Netwrix Identity Manager (formerly Usercube) configuration is a set of XML files edited

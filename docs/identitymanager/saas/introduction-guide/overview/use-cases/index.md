@@ -1,3 +1,9 @@
+---
+title: "Use Case Stories"
+description: "Use Case Stories"
+sidebar_position: 40
+---
+
 # Use Case Stories
 
 Here is a basic use case story to explain how Identity Manager manages IGA.

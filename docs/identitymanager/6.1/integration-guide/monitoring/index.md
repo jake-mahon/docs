@@ -1,3 +1,9 @@
+---
+title: "Monitoring"
+description: "Monitoring"
+sidebar_position: 150
+---
+
 # Monitoring
 
 Usercube uses [Serilog](https://github.com/serilog/), a highly customizable logging tool, to provide

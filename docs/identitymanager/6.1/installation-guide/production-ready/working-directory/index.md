@@ -1,3 +1,9 @@
+---
+title: "Create a Working Directory"
+description: "Create a Working Directory"
+sidebar_position: 10
+---
+
 # Create a Working Directory
 
 The working directory is a simple Windows directory where Usercube's Server and/or Agent

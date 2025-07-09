@@ -1,3 +1,9 @@
+---
+title: "Prepare Synchronization Task"
+description: "Prepare Synchronization Task"
+sidebar_position: 90
+---
+
 # Prepare Synchronization Task
 
 ## View Behavior Details

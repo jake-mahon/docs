@@ -9,7 +9,7 @@ sidebar_position: 60
 Using this API you can retrieve information about a job collection ID of which is given in the
 endpoint URL.
 
-See the [Create a Job Collection ](/docs/directorymanager/11.1/welcome/synchronize/collection/create.md)topic for
+See the [Create a Job Collection ](/docs/directorymanager/11.1/portal/synchronize/collection/create.md)topic for
 additional information.
 
 ## Endpoint

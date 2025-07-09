@@ -1,3 +1,9 @@
+---
+title: "Reporting"
+description: "Reporting"
+sidebar_position: 10
+---
+
 # Reporting
 
 The Reporting module is used to generate basic reports in CSV using

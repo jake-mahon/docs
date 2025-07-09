@@ -1,3 +1,9 @@
+---
+title: "BuildRoleModelTask"
+description: "BuildRoleModelTask"
+sidebar_position: 10
+---
+
 # BuildRoleModelTask
 
 Applies the

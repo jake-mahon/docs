@@ -1,3 +1,9 @@
+---
+title: "Client"
+description: "Client"
+sidebar_position: 20
+---
+
 # Client
 
 Privilege Secure is a web service which can be accessed locally or remotely if the server’s firewall

@@ -1,3 +1,9 @@
+---
+title: "CreateInitializationJob"
+description: "CreateInitializationJob"
+sidebar_position: 80
+---
+
 # CreateInitializationJob
 
 Creates the Initialization Job for the given agent.

@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-Configuration"
+description: "Usercube-Export-Configuration"
+sidebar_position: 110
+---
+
 # Usercube-Export-Configuration
 
 Generates in a folder the files of the configuration found in the database.

@@ -1,3 +1,9 @@
+---
+title: "Menu Item"
+description: "Menu Item"
+sidebar_position: 70
+---
+
 # Menu Item
 
 A menu item displays grouped navigation actions.

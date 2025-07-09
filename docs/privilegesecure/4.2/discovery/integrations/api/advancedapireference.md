@@ -1,3 +1,9 @@
+---
+title: "Advanced API Reference"
+description: "Advanced API Reference"
+sidebar_position: 30
+---
+
 # Advanced API Reference
 
 Advanced API Reference

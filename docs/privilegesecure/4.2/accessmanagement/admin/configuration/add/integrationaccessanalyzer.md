@@ -69,7 +69,7 @@ used to get data from the Access Analyzer endpoint.
 ## Add Service Account for Enterprise Auditor Connector
 
 Follow the steps to add the service accounts for the Access Analyzer integration connector. See the
-[Add Service Account](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/serviceaccount.md) topic for additional information.
+[Add Service Account](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccount.md) topic for additional information.
 
 **Step 1 –** In the Privilege Secure Console, navigate to the Configuration > Service Accounts page.
 
@@ -141,4 +141,4 @@ Import connector.
 **Step 3 –** Click **Sync** **StealthAUDIT** to begin the data collection. This may take some time.
 
 To view the import progress, navigate to **Service Nodes** > Action Services. See the
-[Action Service](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.
+[Action Service](/docs/privilegesecure/4.2/accessmanagement/admin/interface/servicenodes/servicenodes/action.md) topic for additional information.

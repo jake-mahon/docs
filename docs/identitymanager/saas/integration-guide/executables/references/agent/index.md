@@ -1,3 +1,9 @@
+---
+title: "Usercube-Agent"
+description: "Usercube-Agent"
+sidebar_position: 10
+---
+
 # Usercube-Agent
 
 This tool runs the Agent on a separate server instance. The Agent is able to communicate with the

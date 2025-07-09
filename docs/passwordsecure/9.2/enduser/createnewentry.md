@@ -1,3 +1,9 @@
+---
+title: "Create a New Entry from Scratch"
+description: "Create a New Entry from Scratch"
+sidebar_position: 30
+---
+
 # Create a New Entry from Scratch
 
 Follow the steps to create a new entry from scratch.

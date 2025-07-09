@@ -1,3 +1,9 @@
+---
+title: "Sql Server Entitlements"
+description: "Sql Server Entitlements"
+sidebar_position: 310
+---
+
 # Sql Server Entitlements
 
 This connector exports entitlements from

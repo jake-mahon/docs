@@ -1,3 +1,9 @@
+---
+title: "ReportAccessControlRules"
+description: "ReportAccessControlRules"
+sidebar_position: 20
+---
+
 # ReportAccessControlRules
 
 Generates the rights to access the report view.

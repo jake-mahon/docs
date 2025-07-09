@@ -1,3 +1,9 @@
+---
+title: "Environment Compare Logs"
+description: "Environment Compare Logs"
+sidebar_position: 40
+---
+
 # Environment Compare Logs
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Environment

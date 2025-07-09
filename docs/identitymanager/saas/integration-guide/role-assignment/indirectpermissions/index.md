@@ -1,3 +1,9 @@
+---
+title: "Indirect Permissions"
+description: "Indirect Permissions"
+sidebar_position: 120
+---
+
 # Indirect Permissions
 
 Identity Manager can compute, for a given identity, permissions that are obtained implicitly or

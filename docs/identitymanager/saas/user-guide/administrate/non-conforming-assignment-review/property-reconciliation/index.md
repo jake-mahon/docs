@@ -1,3 +1,9 @@
+---
+title: "Reconcile a Property"
+description: "Reconcile a Property"
+sidebar_position: 20
+---
+
 # Reconcile a Property
 
 How to review unreconciled properties. The aim is to handle the differences between the property

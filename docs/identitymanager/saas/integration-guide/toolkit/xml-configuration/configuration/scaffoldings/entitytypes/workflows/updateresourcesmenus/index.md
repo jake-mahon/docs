@@ -1,3 +1,9 @@
+---
+title: "Update Resources Menus"
+description: "Update Resources Menus"
+sidebar_position: 30
+---
+
 # Update Resources Menus
 
 ## Examples

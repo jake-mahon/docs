@@ -20,8 +20,8 @@ following:
   field criterion is met.
 - Approver – The object to send the workflow request for approval.
 
-See the [Create a New Workflow](/docs/directorymanager/11.1/signin/workflow/implement.md#create-a-new-workflow)
-section of the [Implement Workflows](/docs/directorymanager/11.1/signin/workflow/implement.md) topic for additional
+See the [Create a New Workflow](/docs/directorymanager/11.1/admincenter/workflow/implement.md#create-a-new-workflow)
+section of the [Implement Workflows](/docs/directorymanager/11.1/admincenter/workflow/implement.md) topic for additional
 information.
 
 ## Endpoint

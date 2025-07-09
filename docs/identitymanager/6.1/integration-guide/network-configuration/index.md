@@ -1,3 +1,9 @@
+---
+title: "Network Configuration"
+description: "Network Configuration"
+sidebar_position: 230
+---
+
 # Network Configuration
 
 Usercube's network technical configuration includes:

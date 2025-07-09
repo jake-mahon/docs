@@ -1,3 +1,9 @@
+---
+title: "Configure the Fulfill Task for a Connector"
+description: "Configure the Fulfill Task for a Connector"
+sidebar_position: 70
+---
+
 # Configure the Fulfill Task for a Connector
 
 This guide shows how to create the adequate configuration to add the fulfill task of a given system

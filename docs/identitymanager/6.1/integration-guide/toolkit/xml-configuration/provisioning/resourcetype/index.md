@@ -1,3 +1,9 @@
+---
+title: "Resource Type"
+description: "Resource Type"
+sidebar_position: 130
+---
+
 # Resource Type
 
 In Usercube, a resource type is a conceptual model used to categorize resources. It groups together,

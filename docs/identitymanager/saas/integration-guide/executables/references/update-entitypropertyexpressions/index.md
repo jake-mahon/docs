@@ -1,3 +1,9 @@
+---
+title: "Usercube-Update-EntityPropertyExpressions"
+description: "Usercube-Update-EntityPropertyExpressions"
+sidebar_position: 360
+---
+
 # Usercube-Update-EntityPropertyExpressions
 
 This tool is used to recompute the values of all properties defined via expressions (C#, etc.),

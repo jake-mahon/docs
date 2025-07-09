@@ -1,3 +1,9 @@
+---
+title: "Customizations Overview"
+description: "Customizations Overview"
+sidebar_position: 70
+---
+
 # Customizations Overview
 
 Customization records are documentation about each customization. They are automatically built and

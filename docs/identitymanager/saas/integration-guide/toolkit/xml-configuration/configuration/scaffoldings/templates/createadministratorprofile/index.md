@@ -1,3 +1,9 @@
+---
+title: "Create Administrator Profile"
+description: "Create Administrator Profile"
+sidebar_position: 20
+---
+
 # Create Administrator Profile
 
 This scaffolding creates the administrator profile with a predefined set of rights.

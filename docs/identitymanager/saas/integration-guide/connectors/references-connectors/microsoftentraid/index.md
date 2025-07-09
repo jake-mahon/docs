@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID"
+description: "Microsoft Entra ID"
+sidebar_position: 30
+---
+
 # Microsoft Entra ID
 
 This connector exports and fulfills user and groups from/to a

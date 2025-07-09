@@ -1,3 +1,9 @@
+---
+title: "SchedulingCleanDataBaseSetting"
+description: "SchedulingCleanDataBaseSetting"
+sidebar_position: 90
+---
+
 # SchedulingCleanDataBaseSetting
 
 If the default value for the Task CleanDataBase needs to be overridden.

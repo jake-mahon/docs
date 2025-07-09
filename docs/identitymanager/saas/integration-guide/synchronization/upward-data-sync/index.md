@@ -1,3 +1,9 @@
+---
+title: "Upward Data Synchronization"
+description: "Upward Data Synchronization"
+sidebar_position: 10
+---
+
 # Upward Data Synchronization
 
 Upward Data Synchronization (Sync Up) is the process that copies relevant managed systems data into

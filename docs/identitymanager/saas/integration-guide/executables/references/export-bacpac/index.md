@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-Bacpac"
+description: "Usercube-Export-Bacpac"
+sidebar_position: 10
+---
+
 # Usercube-Export-Bacpac
 
 This tool exports the database to a bacpac file, as a backup.

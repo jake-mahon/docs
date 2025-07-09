@@ -1,3 +1,9 @@
+---
+title: "Protect Agent/Server Communication"
+description: "Protect Agent/Server Communication"
+sidebar_position: 10
+---
+
 # Protect Agent/Server Communication
 
 This guide shows how to set up a secured authentication system between Usercube's agent and server.

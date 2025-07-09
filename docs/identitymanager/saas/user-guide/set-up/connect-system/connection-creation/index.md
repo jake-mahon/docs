@@ -1,3 +1,9 @@
+---
+title: "Create a Connection"
+description: "Create a Connection"
+sidebar_position: 30
+---
+
 # Create a Connection
 
 How to create a

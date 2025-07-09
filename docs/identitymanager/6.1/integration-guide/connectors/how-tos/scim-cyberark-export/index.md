@@ -1,3 +1,9 @@
+---
+title: "Export CyberArk Data via SCIM"
+description: "Export CyberArk Data via SCIM"
+sidebar_position: 130
+---
+
 # Export CyberArk Data via SCIM
 
 This guide shows how to set up a

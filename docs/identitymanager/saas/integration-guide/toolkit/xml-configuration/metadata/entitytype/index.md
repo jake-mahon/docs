@@ -1,3 +1,9 @@
+---
+title: "Entity Type"
+description: "Entity Type"
+sidebar_position: 60
+---
+
 # Entity Type
 
 Represents a conceptual model of a business object, such as a person entity or an organization

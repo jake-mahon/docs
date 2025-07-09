@@ -1,3 +1,9 @@
+---
+title: "WorkflowEntityTypeSearchBar"
+description: "WorkflowEntityTypeSearchBar"
+sidebar_position: 90
+---
+
 # WorkflowEntityTypeSearchBar
 
 Creates the search bar of the workflow entity of the starting entity.

@@ -1,3 +1,9 @@
+---
+title: "GovernanceRolesAccessControlRules"
+description: "GovernanceRolesAccessControlRules"
+sidebar_position: 60
+---
+
 # GovernanceRolesAccessControlRules
 
 Generates the rights to access the role review pages for a given entity type and profile.

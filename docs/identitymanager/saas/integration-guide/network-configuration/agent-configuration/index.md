@@ -1,3 +1,9 @@
+---
+title: "Agent Configuration"
+description: "Agent Configuration"
+sidebar_position: 20
+---
+
 # Agent Configuration
 
 Identity Manager Agent's configuration includes connection information to the managed systems and to

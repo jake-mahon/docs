@@ -1,3 +1,9 @@
+---
+title: "Export Logs to a Log Management System"
+description: "Export Logs to a Log Management System"
+sidebar_position: 10
+---
+
 # Export Logs to a Log Management System
 
 This guide shows how to use the logging configuration (Serilog) to send Identity Manager's logs into

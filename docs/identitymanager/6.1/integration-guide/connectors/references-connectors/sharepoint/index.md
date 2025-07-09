@@ -1,3 +1,9 @@
+---
+title: "SharePoint"
+description: "SharePoint"
+sidebar_position: 280
+---
+
 # SharePoint
 
 This connector exports sites, folders, groups and permissions from a

@@ -1,3 +1,9 @@
+---
+title: "Profile"
+description: "Profile"
+sidebar_position: 60
+---
+
 # Profile
 
 Profile defines a user profile linked to permissions in Usercube. Profiles work with Access Control

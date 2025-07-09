@@ -1,3 +1,9 @@
+---
+title: "User Interfaces"
+description: "User Interfaces"
+sidebar_position: 100
+---
+
 # User Interfaces
 
 - [ Manage Accounts ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.md)

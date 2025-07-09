@@ -9,8 +9,8 @@ sidebar_position: 40
 Use this APi to create a new data source.
 
 See the
-[Create a Data Source for ODBC](/docs/directorymanager/11.1/signin/datasource/create.md#create-a-data-source-for-odbc)
-section of the [Create a Data Source](/docs/directorymanager/11.1/signin/datasource/create.md) topic to create an
+[Create a Data Source for ODBC](/docs/directorymanager/11.1/admincenter/datasource/create.md#create-a-data-source-for-odbc)
+section of the [Create a Data Source](/docs/directorymanager/11.1/admincenter/datasource/create.md) topic to create an
 ODBC data source using Directory Manager.
 
 ## Endpoint

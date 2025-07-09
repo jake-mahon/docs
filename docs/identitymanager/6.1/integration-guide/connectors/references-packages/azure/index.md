@@ -1,3 +1,9 @@
+---
+title: "Azure"
+description: "Azure"
+sidebar_position: 30
+---
+
 # Azure
 
 Exports Azure resources, role definitions and role assignments.

@@ -1,3 +1,9 @@
+---
+title: "Risk Management"
+description: "Risk Management"
+sidebar_position: 40
+---
+
 # Risk Management
 
 The Risk Management module provides tools for identifying assignments of entitlement that pose a

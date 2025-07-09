@@ -1,3 +1,9 @@
+---
+title: "AccessControlPermission"
+description: "AccessControlPermission"
+sidebar_position: 10
+---
+
 # AccessControlPermission
 
 AccessControlPermission identifies the access permissions to a specific Usercube feature.

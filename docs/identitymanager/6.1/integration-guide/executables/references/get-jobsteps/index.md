@@ -1,3 +1,9 @@
+---
+title: "Usercube-Get-JobSteps"
+description: "Usercube-Get-JobSteps"
+sidebar_position: 210
+---
+
 # Usercube-Get-JobSteps
 
 This agent-side tool returns the list of all tasks present in a given job.

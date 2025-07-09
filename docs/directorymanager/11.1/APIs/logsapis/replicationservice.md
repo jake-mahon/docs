@@ -7,7 +7,7 @@ sidebar_position: 50
 # Replication Service Logs
 
 Use this API to get Replication Service logs. See the
-[Replication Service](/docs/directorymanager/11.1/signin/service/replicationservice.md) topic for additional
+[Replication Service](/docs/directorymanager/11.1/admincenter/service/replicationservice.md) topic for additional
 information on Replication service.
 
 ## Endpoint

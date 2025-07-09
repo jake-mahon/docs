@@ -1,3 +1,9 @@
+---
+title: "References: Packages"
+description: "References: Packages"
+sidebar_position: 40
+---
+
 # References: Packages
 
 If you are looking for the dll of a given package, be aware that you can often find it in the

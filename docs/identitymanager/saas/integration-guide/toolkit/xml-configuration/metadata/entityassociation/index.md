@@ -1,3 +1,9 @@
+---
+title: "Entity Association"
+description: "Entity Association"
+sidebar_position: 40
+---
+
 # Entity Association
 
 An entity association is used to model an association in Identity Manager's metadata. See the

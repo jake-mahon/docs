@@ -9,7 +9,7 @@ sidebar_position: 40
 Directory Manager generates logs for its services, clients, and Windows events. Using the following
 APIs, you can collect and dump your required logs to a desired location.
 
-See the [Get Logs](/docs/directorymanager/11.1/signin/concepts/logs.md) topic for additional information on logs.
+See the [Get Logs](/docs/directorymanager/11.1/admincenter/concepts/logs.md) topic for additional information on logs.
 
 - [Admin Center Logs](/docs/directorymanager/11.1/APIs/logsapis/admincenter.md)
 - [Data Service Logs](/docs/directorymanager/11.1/APIs/logsapis/dataservice.md)

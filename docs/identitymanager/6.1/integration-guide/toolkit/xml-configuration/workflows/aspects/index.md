@@ -1,3 +1,9 @@
+---
+title: "Aspects"
+description: "Aspects"
+sidebar_position: 10
+---
+
 # Aspects
 
 An aspect is a modularization of a concern that cuts across multiple workflows. Usercube uses

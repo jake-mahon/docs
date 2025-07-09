@@ -1,3 +1,9 @@
+---
+title: "Package Usage"
+description: "Package Usage"
+sidebar_position: 130
+---
+
 # Package Usage
 
 The Package Usage tool provides administrators real-time insights into the usage and allocation of
@@ -6,7 +12,7 @@ cost savings. Used in conjunction with the existing [User Activity](/docs/platgo
 provides a comprehensive overview of who is accessing the environment and for what purpose.
 
 The Package Usage tool is available with the Intelligent Change Enablement and Enterprise Compliance
-[licenses](/docs/platgovsalesforce/installing_strongpoint/features_by_license_type.md).
+[licenses](/docs/platgovsalesforce/installingstrongpoint/features_by_license_type.md).
 
 Run the scanners first to ensure you have the latest data.
 

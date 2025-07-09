@@ -1,3 +1,9 @@
+---
+title: "Install the Server"
+description: "Install the Server"
+sidebar_position: 30
+---
+
 # Install the Server
 
 **NOTE:** If you are a SaaS client this topic does not apply. You can skip directly to end user

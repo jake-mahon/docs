@@ -1,3 +1,9 @@
+---
+title: "Role Mining"
+description: "Role Mining"
+sidebar_position: 100
+---
+
 # Role Mining
 
 Role mining aims to reduce the cost of entitlement management by automating entitlement assignments,

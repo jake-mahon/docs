@@ -1,3 +1,9 @@
+---
+title: "Run the Banking Demo Application"
+description: "Run the Banking Demo Application"
+sidebar_position: 40
+---
+
 # Run the Banking Demo Application
 
 This guide shows how to set up and run the Banking demo application.

@@ -1,3 +1,9 @@
+---
+title: "AzureADResourceTypeMapping"
+description: "AzureADResourceTypeMapping"
+sidebar_position: 10
+---
+
 # AzureADResourceTypeMapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

@@ -1,3 +1,9 @@
+---
+title: "Customize Display Tables"
+description: "Customize Display Tables"
+sidebar_position: 30
+---
+
 # Customize Display Tables
 
 This part shows how to define a custom way to display entity types' data.

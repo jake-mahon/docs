@@ -1,3 +1,9 @@
+---
+title: "Logs"
+description: "Logs"
+sidebar_position: 40
+---
+
 # Logs
 
 Logs

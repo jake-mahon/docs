@@ -1,3 +1,9 @@
+---
+title: "SetAccessCertificationReviewerTask"
+description: "SetAccessCertificationReviewerTask"
+sidebar_position: 190
+---
+
 # SetAccessCertificationReviewerTask
 
 Assign access certification items to users according to their profiles and the access control rules.

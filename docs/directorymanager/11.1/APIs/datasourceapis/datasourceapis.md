@@ -34,5 +34,5 @@ Directory Manager provides the following APIs to perform functions related to da
 - [Update a Data Source](/docs/directorymanager/11.1/APIs/datasourceapis/updateds.md)
 - [Validate Data Connectivity of a Data Source](/docs/directorymanager/11.1/APIs/datasourceapis/validatedc.md)
 
-See the[ Data Sources](/docs/directorymanager/11.1/signin/datasource/overview.md) topic for additional information on
+See the[ Data Sources](/docs/directorymanager/11.1/admincenter/datasource/overview.md) topic for additional information on
 data sources.

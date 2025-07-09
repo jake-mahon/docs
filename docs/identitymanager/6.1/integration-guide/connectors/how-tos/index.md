@@ -1,3 +1,9 @@
+---
+title: "How-Tos"
+description: "How-Tos"
+sidebar_position: 20
+---
+
 # How-Tos
 
 These guides will help you set up connectors with practical step-by-step procedures.

@@ -1,3 +1,9 @@
+---
+title: "Entity Property Expression"
+description: "Entity Property Expression"
+sidebar_position: 50
+---
+
 # Entity Property Expression
 
 An entity property expression is a property computed from a binding and/or C# or literal

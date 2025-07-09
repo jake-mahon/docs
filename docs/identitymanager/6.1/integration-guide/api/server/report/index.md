@@ -1,3 +1,9 @@
+---
+title: "Report"
+description: "Report"
+sidebar_position: 90
+---
+
 # Report
 
 ### /api/Report/ReportQuery

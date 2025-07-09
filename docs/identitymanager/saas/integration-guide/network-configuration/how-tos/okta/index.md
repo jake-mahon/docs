@@ -1,3 +1,9 @@
+---
+title: "Configure Okta"
+description: "Configure Okta"
+sidebar_position: 70
+---
+
 # Configure Okta
 
 This guide shows how to configure the OIDC to set up the authentication to Identity Manager.

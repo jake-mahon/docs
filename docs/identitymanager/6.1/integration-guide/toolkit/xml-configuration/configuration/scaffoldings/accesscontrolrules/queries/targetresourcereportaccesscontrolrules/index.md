@@ -1,3 +1,9 @@
+---
+title: "TargetResourceReportAccessControlRules"
+description: "TargetResourceReportAccessControlRules"
+sidebar_position: 30
+---
+
 # TargetResourceReportAccessControlRules
 
 Generates the right to apply a report for a profile on a given entity.

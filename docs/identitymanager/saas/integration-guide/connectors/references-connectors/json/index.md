@@ -1,3 +1,9 @@
+---
+title: "JSON"
+description: "JSON"
+sidebar_position: 110
+---
+
 # JSON
 
 This connector generates [JSON](https://www.json.org/json-en.html) files for each provisioning

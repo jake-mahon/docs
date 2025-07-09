@@ -1,3 +1,9 @@
+---
+title: "Configure Onboarding Workflows"
+description: "Configure Onboarding Workflows"
+sidebar_position: 30
+---
+
 # Configure Onboarding Workflows
 
 How to adjust the validation process and homonym detection of onboarding

@@ -1,3 +1,9 @@
+---
+title: "Usercube v5.x Release Notes"
+description: "Usercube v5.x Release Notes"
+sidebar_position: 10
+---
+
 # Usercube v5.x Release Notes
 
 ## Version 5.2.3.19

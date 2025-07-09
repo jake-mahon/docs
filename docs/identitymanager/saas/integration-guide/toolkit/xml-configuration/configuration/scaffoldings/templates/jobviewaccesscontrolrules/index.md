@@ -1,3 +1,9 @@
+---
+title: "Job View Access Control Rules"
+description: "Job View Access Control Rules"
+sidebar_position: 60
+---
+
 # Job View Access Control Rules
 
 Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs. This

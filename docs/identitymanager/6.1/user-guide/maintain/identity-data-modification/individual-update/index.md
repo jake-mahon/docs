@@ -1,3 +1,9 @@
+---
+title: "Update an Individual Identity"
+description: "Update an Individual Identity"
+sidebar_position: 10
+---
+
 # Update an Individual Identity
 
 How to manage onboarding, position changes and offboarding through the UI, for a single identity.

@@ -1,3 +1,9 @@
+---
+title: "Configure a User Profile"
+description: "Configure a User Profile"
+sidebar_position: 50
+---
+
 # Configure a User Profile
 
 How to tweak the

@@ -1,3 +1,9 @@
+---
+title: "Analyze Usercube's Data with Power BI"
+description: "Analyze Usercube's Data with Power BI"
+sidebar_position: 20
+---
+
 # Analyze Usercube's Data with Power BI
 
 This topic explains how to prepare Usercube's data and use it in Power BI, with the final goal to

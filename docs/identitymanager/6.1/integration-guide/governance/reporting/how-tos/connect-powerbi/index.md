@@ -1,3 +1,9 @@
+---
+title: "Connect Power BI to Usercube"
+description: "Connect Power BI to Usercube"
+sidebar_position: 10
+---
+
 # Connect Power BI to Usercube
 
 This guide shows how to connect Power BI to Usercube.

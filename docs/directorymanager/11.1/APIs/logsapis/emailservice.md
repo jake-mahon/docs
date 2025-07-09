@@ -7,7 +7,7 @@ sidebar_position: 30
 # Email Service Logs
 
 Use this API to get Email service logs. See the
-[Email Service](/docs/directorymanager/11.1/signin/service/emailservice.md) topic for additional on Email service.
+[Email Service](/docs/directorymanager/11.1/admincenter/service/emailservice.md) topic for additional on Email service.
 
 ## Endpoint
 

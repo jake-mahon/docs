@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 Requirements
@@ -135,7 +141,7 @@ configured as service accounts to disallow interactive logon and be set with com
 
 **All** accounts are required for configuring the domain to be scanned and protected within
 Privilege Secure. More information can be found here:
-[Service Accounts](/docs/privilegesecure/4.2/discovery/serviceaccounts.md)
+[Service Accounts](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/serviceaccounts.md)
 
 **NOTE:** We require a static DC to ensure S1 can correctly detect and account for changes made to
 Groups, OUs, Users, etc. A load balanced connection will cause group updates to not be recognized
@@ -156,9 +162,9 @@ required uses Group Policy Preferences (GPP). There are separate guides dependin
 Controller version. 
 
 - 2008-2012 Domain Controllers –
-  [Scan GPO Guide (Server 2012 or 2008 Domain Controllers)](/docs/privilegesecure/4.2/discovery/scangposerver2012or2008dcs.md)
+  [Scan GPO Guide (Server 2012 or 2008 Domain Controllers)](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/scangposerver2012or2008dcs.md)
 - 2016+ Domain Controllers –
-  [Scan GPO Guide (Server 2016+ Domain Controllers)](/docs/privilegesecure/4.2/discovery/scangposerver2016+dcs.md)
+  [Scan GPO Guide (Server 2016+ Domain Controllers)](/docs/privilegesecure/4.2/discovery/requirements/technicalpreparation/scangposerver2016+dcs.md)
 
 Microsoft by default (Windows 2016 & Windows 10 Creators Edition or later) restricted the ability to
 remotely enumerate members of local groups including the local Administrators group. Older operating
@@ -236,7 +242,7 @@ Bulk Actions
 - Operations currently supported: JITA, Scan Mode, Protect Mode, Scan Systems, Set EDR Config, Set
   OAM, Set Accounts Persistent, Add/Update Account, Remove Account
 - More information and instruction can be found here:
-  [Bulk Actions](/docs/privilegesecure/4.2/discovery/admin/systemmanagement/bulkactions.md)
+  [Bulk Actions](/docs/privilegesecure/4.2/discovery/administration/systemmanagement/bulkactions.md)
 
 QuickStart
 
@@ -248,7 +254,7 @@ QuickStart
 - Historical solution for managing endpoints en masse.
 - Supports JITA, Scan Mode, Protect Mode, OAM, EDR, Linux Registration, etc. More information can be
   found here:
-  [QuickStart Advanced Fields](/docs/privilegesecure/4.2/discovery/admin/configuration/advancedfields.md)
+  [QuickStart Advanced Fields](/docs/privilegesecure/4.2/discovery/administration/configuration/advancedfields.md)
 
 API
 
