@@ -28,7 +28,7 @@ displayed, indicating the currently installed version:
 
 **Step 3 –** Click **OK** to upgrade. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/install.webp)
+![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/installdb.webp)
 
 **Step 4 –** Click **Install**.
 
