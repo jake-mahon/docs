@@ -34,8 +34,7 @@ displayed, indicating the currently installed version:
 
 ![Netwrix PostgreSQL Setup wizard on the EULA page](/img/product_docs/activitymonitor/8.0/install/eula.webp)
 
-**Step 5 –** Read the End User License Agreement and select the I accept the license agreement
-checkbox. Click Next.
+**Step 5 –** Read the End User License Agreement and select the I accept the license agreement checkbox. Click Next.
 
 **Step 6 –** The installation begins and the installer displays a Setup Progress window. Click Exit
 when the installation is successful to close the wizard.
