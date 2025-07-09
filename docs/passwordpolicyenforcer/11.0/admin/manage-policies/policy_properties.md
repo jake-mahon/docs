@@ -47,10 +47,10 @@ Select the number of rules for **Passwords must comply with** from the drop-down
 the required compliance level for this policy. The default value **(all the rules**) requires users
 to comply with all enabled rules. Choose an alternative option if Password Policy Enforcer should
 enforce a more lenient password policy. The Minimum Age and Maximum Age rules are excluded from
-compliance level calculations. See the [Rules](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/rules.md) topic for additional information.
+compliance level calculations. See the [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md) topic for additional information.
 
 When setting the compliance level, consider that some rules may be disabled when a user enters a
-passphrase. See the [Passphrase](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/passphrases.md) topic for additional information. Password Policy
+passphrase. See the [Passphrase](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/passphrases.md) topic for additional information. Password Policy
 Enforcer accepts passphrases that comply with all enabled rules, irrespective of the compliance
 level. This ensures that passphrases can be used, even if they do not meet the compliance level when
 Password Policy Enforcer is configured to disable one or more rules for passphrases.

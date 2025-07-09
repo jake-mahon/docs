@@ -39,7 +39,7 @@ event log can help you to understand why Password Policy Enforcer accepted or re
 
 **NOTE:** Policy testing simulates a password change, but it may not always reflect what happens
 when a user changes their password. See the
-[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/testpolicy.md#policy-testing-vs-password-changes)
+[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes)
 topic for additional information.
 
 ## Windows Change Password Screen

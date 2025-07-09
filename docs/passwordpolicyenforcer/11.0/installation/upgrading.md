@@ -11,7 +11,7 @@ Upgrades are supported for versions 9.0 and above. Contact Customer Support at
 upgrading older versions
 
 You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/administration-overview/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
 
 Upgrading the Password Policy Server
 
@@ -26,7 +26,7 @@ new version do not affect servers running an older version. If you have multiple
 make configuration changes in both configuration consoles until all domain controllers are upgraded
 to 11. Failure to do so may lead to inconsistent enforcement of the password policy.
 
-Open the [License](/docs/passwordpolicyenforcer/11.0/administration-overview/configconsole.md#license) settings on the Configuration Console
+Open the [License](/docs/passwordpolicyenforcer/11.0/admin/configconsole.md#license) settings on the Configuration Console
 after an upgrade to check your license details. Password Policy Enforcer reverts to a 30-day
 evaluation license if it cannot import the license key.
 

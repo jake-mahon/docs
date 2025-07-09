@@ -16,6 +16,6 @@ If this is the first time you have launched the Configuration Console, you are p
 
 ![First start](/img/product_docs/passwordpolicyenforcer/11.0/administration/ppe1.webp)
 
-The [Configuration Console](/docs/passwordpolicyenforcer/11.0/administration-overview/configconsole.md) is displayed:
+The [Configuration Console](/docs/passwordpolicyenforcer/11.0/admin/configconsole.md) is displayed:
 
 ![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)

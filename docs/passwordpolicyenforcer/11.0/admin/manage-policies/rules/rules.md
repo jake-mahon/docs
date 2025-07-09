@@ -31,18 +31,18 @@ logging** on the **Test Policy** window to see which rules you have tested.
 
 Rules:
 
-- [Age (Max) Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/maximum_age_rule.md)
-- [Age (Min) Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/minimum_age_rule.md)
-- [Characters (Complexity) Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/complexity_rule.md)
-- [Character (Granular) Rules](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/character_rules.md)
-- [Compromised Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/compromised_rule.md)
-- [Dictionary Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/dictionary_rule.md)
-- [History Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/history_rule.md)
-- [Length Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/length_rule.md)
-- [Patterns Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/patterns.md)
-- [Repetition Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/repetition.md)
-- [Similarity Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/similarity_rule.md)
-- [Unique Characters Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/unique_characters.md)
+- [Age (Max) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/maximum_age_rule.md)
+- [Age (Min) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/minimum_age_rule.md)
+- [Characters (Complexity) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/complexity_rule.md)
+- [Character (Granular) Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/character_rules.md)
+- [Compromised Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/compromised_rule.md)
+- [Dictionary Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/dictionary_rule.md)
+- [History Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/history_rule.md)
+- [Length Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/length_rule.md)
+- [Patterns Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/patterns.md)
+- [Repetition Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/repetition.md)
+- [Similarity Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/similarity_rule.md)
+- [Unique Characters Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/unique_characters.md)
 
 ## Detecting Character Substitution
 

@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign
 policies to users directly, or indirectly through Active Directory security groups and containers
-(Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/usersgroups.md) topic for
+(Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/usersgroups.md) topic for
 additional information.
 
 Open the Configuration Console:
@@ -97,16 +97,16 @@ most popular regulatory frameworks.
 Once you add a policy, it needs to be set up or reviewed if you used a template. Click on the policy
 name to edit the policy. For each policy:
 
-- Set up [Rules](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/rules.md).
-- [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/usersgroups.md).
-- Enable the use of an optional [Passphrase](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/passphrases.md).
-- Set up [Policy Properties](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/policy_properties.md).
-- Set up [Messages](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/messages.md) for your users.
+- Set up [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md).
+- [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/usersgroups.md).
+- Enable the use of an optional [Passphrase](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/passphrases.md).
+- Set up [Policy Properties](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/policy_properties.md).
+- Set up [Messages](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/messages.md) for your users.
 
 ## Test Policy
 
 Launches the Test policy tool in a separate window. You can test **By user** and by **Password bulk
-test**. See the [Test Policy](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/testpolicy.md) topic for additional information.
+test**. See the [Test Policy](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md) topic for additional information.
 
 ## Set Priorities
 
@@ -118,7 +118,7 @@ priorities** to save the new order.
 ### Policy Selection Flowchart
 
 This flowchart shows how Password Policy Enforcer determines a policy for each user. Use the
-[Test Policy](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
+[Test Policy](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
 enforced for a particular user.
 
 ![managing_policies](/img/product_docs/passwordpolicyenforcer/11.0/administration/managing_policies.webp)

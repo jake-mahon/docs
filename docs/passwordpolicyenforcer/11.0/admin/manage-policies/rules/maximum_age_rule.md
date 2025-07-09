@@ -107,5 +107,5 @@ The email's subject and body can contain various macros. Use these macros to per
 
 ### Set up SMTP
 
-Opens the Notification settings. See the [Configuration Console](/docs/passwordpolicyenforcer/11.0/administration-overview/configconsole.md) topic for
+Opens the Notification settings. See the [Configuration Console](/docs/passwordpolicyenforcer/11.0/admin/configconsole.md) topic for
 additional details.

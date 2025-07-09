@@ -29,9 +29,9 @@ Enforcer.
 
 In addition, there are tiles to access Password Policy Enforcer major features:
 
-- [Manage Policies](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/manage_policies.md)
-- [Compromised Password Check](/docs/passwordpolicyenforcer/11.0/administration-overview/compromisedpasswordcheck.md)
-- [System Audit and Support](/docs/passwordpolicyenforcer/11.0/administration-overview/systemaudit.md) - Version Tracker, Support Tools, Property Editor
+- [Manage Policies](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/manage_policies.md)
+- [Compromised Password Check](/docs/passwordpolicyenforcer/11.0/admin/compromisedpasswordcheck.md)
+- [System Audit and Support](/docs/passwordpolicyenforcer/11.0/admin/systemaudit.md) - Version Tracker, Support Tools, Property Editor
 
 See the specific topics for details.
 
@@ -125,11 +125,11 @@ Here are the default settings.
 
     - Minimum Age rule is never enforced during a reset.
     - History rule is enforced if this option is selected and the **Enforce this rule when a
-      password is reset** option is selected on the [History Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/history_rule.md) Properties.
+      password is reset** option is selected on the [History Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/history_rule.md) Properties.
 
 - **Accept encrypted client request only** specifies requests from Password Policy Client, Netwrix
   Password Reset and Password Policy/Web must be encrypted. Client requests do not contain passwords
-  or password hashes. See the [Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration-overview/password-policy-client/password_policy_client.md) topic for
+  or password hashes. See the [Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md) topic for
   additional information. Default is checked.
 - **Log event when password not checked by service** adds an entry to the Windows Application Event
   Log whenever it accepts a password without checking it. Default is checked. This can occur if:
@@ -157,7 +157,7 @@ Here are the default settings.
     - An event is only logged if the Password Policy Enforcer Client version is 9.0 or later. If a
       password is rejected by the Password Policy Server, then the event is logged.
     - Client logged events only show the local rules the password violated. For example, the
-      Compromised rule is only enforced by the Password Policy Server. See the [Rules](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/rules.md)
+      Compromised rule is only enforced by the Password Policy Server. See the [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md)
       topic for additional information.
     - Client rejections can be lost or duplicated if there are communication issues between the
       Password Policy Client and Password Policy Server.

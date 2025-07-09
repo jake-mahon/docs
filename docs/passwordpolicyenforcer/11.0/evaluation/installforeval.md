@@ -21,5 +21,5 @@ The evaluation installation uses the standard installation packages:
 
 You may need to create a firewall port exception on the domain controllers if you are evaluating the
 Password Policy Client on a domain with client computers. See the
-[Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration-overview/password-policy-client/password_policy_client.md) topic for additional
+[Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md) topic for additional
 information.

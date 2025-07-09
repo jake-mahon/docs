@@ -24,4 +24,4 @@ selecting the **Configuration Console** feature. You can select the other featur
 for the server.
 
 You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/administration-overview/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
