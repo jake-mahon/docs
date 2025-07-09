@@ -11,7 +11,7 @@ Follow the steps to create a Host Discovery query using the Query an Active Dire
 specified server but is scoped to return only computer objects residing in the configuration
 container for Exchange servers.
 
-![Host Discovery Wizard Source page for AD Exchange](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for AD Exchange](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source_5.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source Page, select the **Query an Active
 Directory server (Discover Exchange servers)** option. Click **Next**.
@@ -67,7 +67,7 @@ Leave this page unchanged. If you must modify this page, see the
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for AD Exchange](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for AD Exchange](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory_5.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.

@@ -13,7 +13,7 @@ option.
 it re-imports the host list. Therefore, deleting, renaming, or moving the import source file causes
 the query to fail.
 
-![Host Discovery Wizard Source page for CSV import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for CSV import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source_3.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Import from a CSV
 file** option on the Source page. Click **Next**.
@@ -78,7 +78,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for CSV import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for CSV import](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory_3.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.

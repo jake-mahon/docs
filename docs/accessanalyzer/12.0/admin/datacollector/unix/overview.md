@@ -25,7 +25,7 @@ Permissions
 - Root permissions in Unix/Linux
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/12.0/requirements/unix/unix_1.md#least-privilege-model) topic additional
+[Least Privilege Model](/docs/accessanalyzer/12.0/requirements/unix/target.md#least-privilege-model) topic additional
 information.
 
 ## Unix Query Configuration

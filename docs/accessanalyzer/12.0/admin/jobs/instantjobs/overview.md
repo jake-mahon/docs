@@ -41,9 +41,9 @@ from the parent group, if any)** or **Specify individual hosts or hosts lists** 
 option is selected, skip to Step 7. If the second option is selected, click **Next** to go to the
 Host Lists and Individual Hosts wizard pages.
 
-| ![Host Lists page](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/individualhosts.webp) |
-| ------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Host Lists page                                                                                                                      |     | Individual Hosts page                                                                                                                            |
+| ![Host Lists page](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/hostlists.webp)| ![Individual Hosts page](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/individualhosts.webp) |
+|:----------------------:|:-----------------------:|
+| Host Lists page        | Individual Hosts page   |
 
 **Step 6 –** Some of the Library selections add a Host Lists, and Individual Hosts page. If these
 pages do not appear with the selection, skip to Step 7. If the pages do appear, check the host list

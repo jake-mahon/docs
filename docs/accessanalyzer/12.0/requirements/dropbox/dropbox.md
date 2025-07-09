@@ -17,7 +17,7 @@ the
 [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
 for installation requirements and information on collecting activity data.
 
-See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/dropbox/dropbox_1.md) topic for target
+See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/dropbox/target.md) topic for target
 environment requirements.
 
 ## Dropbox Solution Requirements on the Access Analyzer Console

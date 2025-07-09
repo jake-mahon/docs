@@ -21,7 +21,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/redshift.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

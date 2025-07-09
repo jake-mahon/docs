@@ -11,7 +11,7 @@ Analyzer Console server, SQL Server, and Access Information Center. See the
 [Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 See the
-[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer_1.md)
+[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/target.md)
 topic for target environment requirements.
 
 ## Active Directory Permissions Analyzer Solution Requirements on the Access Analyzer Console

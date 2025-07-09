@@ -1,10 +1,10 @@
 ---
-title: "fs_probableowner"
-description: "fs_probableowner"
+title: "6.Probable Owner > FS_ProbableOwner Job"
+description: "6.Probable Owner > FS_ProbableOwner Job"
 sidebar_position: 80
 ---
 
-## 6.Probable Owner > FS_ProbableOwner Job
+# 6.Probable Owner > FS_ProbableOwner Job
 
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted
 file servers.

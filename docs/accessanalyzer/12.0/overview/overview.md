@@ -1,7 +1,7 @@
 ---
 title: "Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Documentation"
 description: "Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Documentation"
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Documentation

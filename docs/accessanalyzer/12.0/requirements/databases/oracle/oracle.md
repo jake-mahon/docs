@@ -45,7 +45,7 @@ For Oracle Data Collection
   Unix operating systems
 
 There is a least privilege model for scanning your domain. See the
-[Oracle Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/databases/databaseoracle/databaseoracle_1.md) topic for additional information.
+[Oracle Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/databases/oracle/leastprivilege.md) topic for additional information.
 
 ## Ports
 

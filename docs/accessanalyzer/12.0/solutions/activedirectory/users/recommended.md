@@ -41,7 +41,7 @@ Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set 
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
 **NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
-[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/access.md) topic for
+[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/target/access.md) topic for
 additional information.
 
 Schedule Frequency

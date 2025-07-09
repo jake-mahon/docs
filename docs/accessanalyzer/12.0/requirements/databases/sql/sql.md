@@ -83,7 +83,7 @@ For SQL Server Data Collection
     - Grant View server state to [DOMAIN\USER]
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
-See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/databases/databasesql/azuresqlaccess.md) topic for additional
+See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/databases/sql/azuresqlaccess.md) topic for additional
 information.
 
 ## Ports

@@ -38,7 +38,7 @@ The AD_ActivityCollection page has the following configurable parameters:
     **NOTE:** The import of AD events and authentication events is disabled by default. You must
     enable these parameters for the activity data to be imported into the Netwrix Access Information
     Center. See the
-    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
+    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
     topic for instructions.
 
 - List of attributes to track for Object Modified changes
@@ -70,7 +70,7 @@ API server.
 
 **NOTE:** Ensure the Activity Monitor API Server and the required Connection Profile are
 successfully set up. See the
-[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/activity.md)
+[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/activity.md)
 topic for additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
@@ -138,7 +138,7 @@ share.
 
 **NOTE:** Ensure the Activity Monitor domain output and the required Connection Profile are
 successfully set up. See the
-[File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/filearchive.md) topic for
+[File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/filearchive.md) topic for
 additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >

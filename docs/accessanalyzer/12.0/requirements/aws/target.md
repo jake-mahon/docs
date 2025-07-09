@@ -45,7 +45,7 @@ collected:
     - s3:List\*
 
 This provides a least privilege model for your auditing needs. See the
-[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/aws/aws_2.md) topic for additional information.
+[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/aws/configurescans.md) topic for additional information.
 
 ## Ports
 
