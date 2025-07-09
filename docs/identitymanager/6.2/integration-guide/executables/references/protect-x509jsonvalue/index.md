@@ -1,16 +1,22 @@
+---
+title: "Usercube-Protect-X509JsonValue"
+description: "Usercube-Protect-X509JsonValue"
+sidebar_position: 320
+---
+
 # Usercube-Protect-X509JsonValue
 
 This tool is used to encrypt sensitive connection data, for example data from the
 `appsettings.agent.json` file, with
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
+[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
 encryption is based on the information given in your `appsettings.json` file about either a PFX file
 or the location of the encryption certificate in the Microsoft store. See the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
 This tool `Usercube-Protect-X509JsonValue` is used to encrypt only given values, in comparison to
-the[ Usercube-Protect-X509JsonValue ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonvalue/index.md) tool that encrypts a whole file. This tool is more
-appropriate than `Usercube-Protect-X509JsonFile` when you have only a few lines to encrypt.
+the Usercube-Protect-X509JsonValue tool that encrypts a whole file. This tool is more appropriate
+than `Usercube-Protect-X509JsonFile` when you have only a few lines to encrypt.
 
 ## Examples
 
@@ -27,7 +33,7 @@ As a response, the powershell returns one string per given value.
 
 ```
 
-PS C:/UsercubeTraining/Runtime> ./identitymanager-Protect-X509JsonValue.exe --values "0" "secret"
+PS C:/identitymanagerTraining/Runtime> ./identitymanager-Protect-X509JsonValue.exe --values "0" "secret"
 kxABACJhXxJwnGJSug/nE6ODGGYwnzhX1WeYUHmS7gkMLpF15K7POOZAVWsl93zuYaVStPK0sV+U6mOE4h5IzbT083Uac+/NKic+qNZLYi4PRum+G17pIeSMBu3z7GQJxGGkAeX7dwf0kc/oDW5yAQ1BtFN+k27UHZkUrz0fe/eOZwTHbgV5sSUM+6pXW6IQd2VnVRRKLyWij0MAKsCNlHtv6QE73b8P8u7liRdzWOueqE2blAZk0rm0JzFxZlUQKgIMBTk2cuFWph7rp8dp8h8mDKJl9xbYzAtmM/rgXuhcMYryIrlqFeBWt1J65cfL7HNQb6OX7Imb2LQZmZMI2xc1gFyiXjeINeMriYm3zecnSBMiYEGW6RddE6doJOtrTyznrg==
 kxABAJT+2u1C1r0JI8criUz15QkI71x6/BPeNMlPWEL5ZHkTvZWVnMLG/zNJz9PvnjfecROC4fkxPRI5U+sF8W1caH8DtxnzM0ctYD0QtRcpS9z48y2mUzOzl3pU68BQyosyZGZW0ifXVI9UJVGMzMTfWloCw+R+xfZHviYLVGT8y2PKkCBdNp7IcZN4qT6mq8AmTIMSgwagR854n1EHn8lT5nUUFmhZ7iIJ/sonEVG4uyTAjND9YXSsfL9dm2ipTzXrybruIkVU051aczdohreMRsfeSB6TDAYa3GEMNeAb3CzI5I/6NpKYEzZEoYu4JXAzE6bqHeK2oVJyrmTL11kwq4m9fTMwlwmB0GaPeJtbQoih6TIX2qlOPfQdsrZt0dl5qw==
 

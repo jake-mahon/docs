@@ -1,3 +1,9 @@
+---
+title: "Execute a Certification Campaign"
+description: "Execute a Certification Campaign"
+sidebar_position: 20
+---
+
 # Execute a Certification Campaign
 
 How to execute access certification campaigns, i.e. review specific entitlement assignments and
@@ -21,7 +27,7 @@ scheduling.
 
 | Input                                                                                           | Output           |
 | ----------------------------------------------------------------------------------------------- | ---------------- |
-| [ Schedule a Certification Campaign ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
+| [ Schedule a Certification Campaign ](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
 
 ## Execute Certification
 

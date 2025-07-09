@@ -1,3 +1,9 @@
+---
+title: "Integration Device"
+description: "Integration Device"
+sidebar_position: 10
+---
+
 # Integration Device
 
 This section identifies the requirements for the Saas installation of Identity Manager. For the
@@ -38,10 +44,10 @@ Windows Server workstation.
 
 A not-so-minimalist text editor such as [Notepad++](https://notepad-plus-plus.org/downloads/) can be
 useful to comfortably edit network configuration files. See the
-[Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md)topic for
+[Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md)topic for
 additional information.
 
 ## What's Next?
 
 Let's move on to the requirements for Identity Manager's database. See
-the[Database](/docs/identitymanager/6.2/installation-guide/requirements/database-requirements/index.md)topic for additional information.
+the[Database](/docs/identitymanager/saas/installation-guide/requirements/database-requirements/index.md)topic for additional information.

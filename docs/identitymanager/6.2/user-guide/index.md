@@ -1,3 +1,9 @@
+---
+title: "User Guide"
+description: "User Guide"
+sidebar_position: 20
+---
+
 # User Guide
 
 Identity Manager's User Guide leads the reader through all the necessary steps to autonomously build
@@ -12,14 +18,14 @@ Identity Manager to match their company's needs.
 ## Prior Knowledge
 
 This guide presumes some knowledge of Identity Manager on the part of the reader who should have
-previously read the [Introduction Guide](/docs/identitymanager/6.2/introduction-guide/index.md) in order to be aware of the
+previously read the [Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) in order to be aware of the
 main purposes, principles and capabilities of Identity Manager.
 
 Using this guide does not require any advanced IT skills. All the configuration steps take place
 through Identity Manager's UI or MS Excel files.
 
 Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the
-[Introduction Guide](/docs/identitymanager/6.2/introduction-guide/index.md) to fully benefit from the User Guide's content.
+[Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) to fully benefit from the User Guide's content.
 
 ## Overview
 
@@ -29,7 +35,7 @@ Manager from scratch and creating IGA value as quickly as possible.
 The procedures are meant to guide the reader through a standard setup, based on Identity Manager's
 IGA Core Solution, and with Netwrix Identity Manager (formerly Usercube) suggestions and
 recommendations. Any advanced configuration can be performed later using the content of the
-[Integration Guide](/docs/identitymanager/6.2/integration-guide/index.md).
+[Integration Guide](/docs/identitymanager/saas/integration-guide/index.md).
 
 Thus, even when having very specific needs, Netwrix Identity Manager (formerly Usercube) still
 recommends starting the project with the basics presented in this guide. The IGA solution can be
@@ -46,7 +52,7 @@ contribute to a same goal.
 
 While some activities must be carried out before others for technical and/or functional reasons, the
 order is not absolute. Please follow the instructions and recommendations detailed with the
-[ Global Process ](/docs/identitymanager/6.2/user-guide/global-process/index.md).
+[ Global Process ](/docs/identitymanager/saas/user-guide/global-process/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional
 intent: set up; administrate; optimize; deploy and maintain.
@@ -82,7 +88,7 @@ Identity Manager is already running in production.
 
 ## How to Use this Guide
 
-Start by studying the [ Global Process ](/docs/identitymanager/6.2/user-guide/global-process/index.md). that details every activity in
+Start by studying the [ Global Process ](/docs/identitymanager/saas/user-guide/global-process/index.md). that details every activity in
 their respective sections and how they relate to one another. You will get a good view of the steps
 to take from start to finish.
 

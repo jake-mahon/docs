@@ -1,3 +1,9 @@
+---
+title: "Create Agent Synchro Incremental"
+description: "Create Agent Synchro Incremental"
+sidebar_position: 40
+---
+
 # Create Agent Synchro Incremental
 
 This scaffolding generates a synchronization job in incremental mode for all connectors supporting
@@ -203,4 +209,5 @@ script in the command line.
     <TaskResourceType ResourceType="LDAP_Entry_NominativeUser" />
   </FulfillTask>
 </Job>
+
 ```

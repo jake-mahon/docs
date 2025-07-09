@@ -1,3 +1,9 @@
+---
+title: "Governance"
+description: "Governance"
+sidebar_position: 120
+---
+
 # Governance
 
 Identity Manager's governance features intend to provide tools that control assignments of
@@ -33,7 +39,7 @@ assignment decisions concerning, for example, movers or leavers.
 Identity Manager's certification module also helps managers produce accurate reports that they can
 present to an auditor.
 
-See the [Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md) topic to learn how to configure
+See the [Access Certification](/docs/identitymanager/saas/integration-guide/governance/accesscertification/index.md) topic to learn how to configure
 certification campaigns.
 
 ## Risk Management
@@ -43,4 +49,4 @@ security risk. The module facilitates the analysis and mitigation of different k
 as Segregation of Duties (SoD) or High Privilege. Risks can be used to identify sensitive
 assignments that should be reviewed first during a certification campaign.
 
-See the [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic to learn how to configure risks.
+See the [ Risk Management ](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) topic to learn how to configure risks.

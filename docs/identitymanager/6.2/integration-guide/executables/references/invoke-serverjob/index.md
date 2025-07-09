@@ -1,3 +1,9 @@
+---
+title: "Usercube-Invoke-ServerJob"
+description: "Usercube-Invoke-ServerJob"
+sidebar_position: 230
+---
+
 # Usercube-Invoke-ServerJob
 
 ## Invoke a Job (Server Side)
@@ -6,7 +12,7 @@ To launch the job in the Server side only you need to run the executable
 Usercube-Invoke-ServerJob.exe.
 
 To know the task launch orders in job use the following exe: Usercube-Get-Job Steps .exe. See the
-[ Usercube-Get-JobSteps ](/docs/identitymanager/6.2/integration-guide/executables/references/get-jobsteps/index.md) topic for additional information.
+[ Usercube-Get-JobSteps ](/docs/identitymanager/saas/integration-guide/executables/references/get-jobsteps/index.md) topic for additional information.
 
 ## Examples
 

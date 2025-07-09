@@ -1,3 +1,9 @@
+---
+title: "Resource Classification Rule"
+description: "Resource Classification Rule"
+sidebar_position: 110
+---
+
 # Resource Classification Rule
 
 In Identity Manager, this type of rule is used to classify the resources based on a C# expression.
@@ -22,4 +28,4 @@ values.
 | ResourceType required                                      | **Type** Int64 **Description** Represents the resource type definition.                                                                                                          |
 | ResourceTypeIdentificationConfidenceLevel default value: 0 | **Type** Int32 **Description** Defines the confidence level used to match the resources.                                                                                         |
 | SourceMatchedConfidenceLevel default value: false          | **Type** Boolean **Description** Defines the confidence level used to match the sources.                                                                                         |
-| TargetExpression optional                                  | **Type** String **Description** Defines the C# expression used to classify the resources. See the [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| TargetExpression optional                                  | **Type** String **Description** Defines the C# expression used to classify the resources. See the [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) topic for additional information. |

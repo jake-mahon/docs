@@ -1,3 +1,9 @@
+---
+title: "Model the Data"
+description: "Model the Data"
+sidebar_position: 10
+---
+
 # Model the Data
 
 How to choose the appropriate model for a connector's data.
@@ -64,7 +70,7 @@ reality of said managed system.
 
 This sheet guides you through choosing the right model template for your connector. The actual
 technical implementation of the model will be tackled in the last part of the connector
-configuration: [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md).
+configuration: [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 **Connector model and roles:**
 
@@ -289,7 +295,7 @@ In further steps, you will be able to define one resource type per account type 
 a role for assignment and provisioning.
 
 **Roles:** During
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)step for this
+the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)step for this
 connector you can build roles based on the group-membership system represented by users and
 profiles. Thus you will create navigation rules to represent the link between users and profiles.
 

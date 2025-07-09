@@ -1,6 +1,12 @@
+---
+title: "Workflows"
+description: "Workflows"
+sidebar_position: 140
+---
+
 # Workflows
 
-In software business, a [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a
+In software business, a [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is a
 series of specific actions taken by specific people to accomplish specific tasks. For Identity
 Manager, workflows are models of business workflows, processes or procedures.
 
@@ -34,7 +40,7 @@ A workflow is made of several elements:
 ### Technical principles
 
 - A workflow is linked to
-  one[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only
+  one[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only
   resources from said entity type. For example, a workflow can be linked to `Directory_User` or
   `Directory_Department` according to the workflow's purpose, but not both together.
 - The aim of a workflow is to get input data (either a form or just an approval) from users involved
@@ -45,15 +51,15 @@ A workflow is made of several elements:
 ## Activities
 
 A workflow is made of successive activities, each of which is assigned an
-[ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a
-workflow step to another.
+[Activity Templates](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md)that defines how transitions occur from a workflow
+step to another.
 
 Activities never run in parallel in a workflow. Each activity can start once the previous one
 reached its final state.
 
 ## Forms
 
-Workflows use [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) to collect input
+Workflows use [Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) to collect input
 data through the UI.
 
 A form is a set of fields, configured with controls. A control can define a field to fill, a fields
@@ -103,12 +109,12 @@ workflow's input form:
 ## Permissions
 
 For each workflow, some permissions must be assigned to specific
-[ Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are
+[Profile](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) so that said profiles are
 entitled to realize the workflow's actions.
 
 While assigning the specific permissions of a workflow, it is necessary to assign the involved
 profiles a few essential rights via the
-[ Workflow Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
+[Workflow Access Control Rules](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
 scaffolding.
 
 A workflow needs a permission for each of all its activity states involving user interaction. This
@@ -117,13 +123,13 @@ means that, for example, the activities following the templates `Persist` and
 `Action` template, a workflow would need permissions for the states `ActionPending`, `Aborted` and
 `Purged` (because deletion requires an authorization), but not for the state `Executed` that does
 not involve user interaction or special authorization. See the
-[ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+[Activity Templates](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 All these permissions can be shared and distributed among several profiles, according to the purpose
 of the workflow.
 
 Identity Manager's permissions are assigned through
-[Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and
+[Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and
 follow the naming rule:
 `/Custom/workflows/{workflow_identifier}/{activity_identifier}/{activityTemplateState_shortIdentifier}`.
 
@@ -140,21 +146,19 @@ use it only for a "super admin" kind of profile if you are certain you want to g
 
 ## Menu Items
 
-[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows
-accessible from the UI.
+[Menu Item](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) make workflows accessible
+from the UI.
 
 Identity Manager's UI is configured so that workflows are accesible from:
 
 - the list of users accessible from the **Directory** section on the home page;
-  ![Workflow Menu Items - Users List](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-create-multi/menuitems_userslist_v603.webp)
 - the view page of a given user. In this case, the workflows manipulate the selected user.
-  ![Workflow Menu Items - User's Page](/img/product_docs/identitymanager/saas/integration-guide/workflows/how-to/workflow-update-mono/menuitems_userview_v603.webp)
 
 ## Aspects
 
-An [Aspects](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) definition allows an action to
+An [Aspects](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) definition allows an action to
 be performed at a specific point in a workflow. Identity Manager provides a few
-[Aspects](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) templates that give the
+[Aspects](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) templates that give the
 opportunity to delegate administration, to notify people of a request's progress and to compute
 special values like unique logins or email addresses.
 
@@ -170,15 +174,15 @@ execution.
 
 A homonym search checks if a resource already exists in the system before creating/modifying it,
 preventing duplicates. It is configured through a
-[ Homonym Entity Link ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+[Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-See the [ Configure a Homonym Detection ](/docs/identitymanager/6.2/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for
-additional information.
+See the [Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional
+information.
 
 ## Display Tables (Optional)
 
 Identity Manager provides a default display table to show the created/modified resource's data, but
 you can configure your own.
 
-See the [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for
+See the [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for
 additional informatrion.

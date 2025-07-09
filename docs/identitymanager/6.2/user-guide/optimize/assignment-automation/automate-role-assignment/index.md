@@ -1,7 +1,13 @@
+---
+title: "Automate Role Assignments"
+description: "Automate Role Assignments"
+sidebar_position: 10
+---
+
 # Automate Role Assignments
 
 How to manually build rules to automate the assignment of roles to identities. See
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Overview
@@ -9,7 +15,7 @@ topic for additional information.
 Single role rules and composite role rules are assignment rules. Assignment rules are designed to
 automatically assign respectively single roles and composite roles (based on specific criteria) to
 identities. One rule must be created for every role to assign. See
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Participants and Artifacts
@@ -21,7 +27,7 @@ application's users, entitlements and data model.
 | ----------------------- | --------------------- |
 | Role Catalog (required) | Role assignment rules |
 
-See the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+See the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Create a Role Assignment Rule
@@ -69,7 +75,7 @@ Create a role assignment rule by proceeding as follows:
 ## Impact of Modifications
 
 Any modification in a role assignment rule is taken into account when the next
-[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 runs to compute new assignments. Therefore, if a given rule's criterion is modified, then all
 corresponding assignments are computed again. If a role was assigned automatically to an identity by
 a role assignment rule, and if this assignment doesn't comply with the new version of the rule, then
@@ -85,7 +91,7 @@ system.
 > `Orleans` department get said role, while the users in the `Tours` department are deprived of said
 > role.
 
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) is available in order to anticipate the changes
+[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) is available in order to anticipate the changes
 induced by a creation/modification/deletion in role assignment rules.
 
 Assignment rules can sometimes give to users an entitlement that they had already received manually.

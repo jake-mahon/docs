@@ -1,3 +1,9 @@
+---
+title: "SAP ERP 6.0"
+description: "SAP ERP 6.0"
+sidebar_position: 330
+---
+
 # SAP ERP 6.0
 
 Manages users and roles in SAP ERP 6.0.

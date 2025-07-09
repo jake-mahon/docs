@@ -1,8 +1,14 @@
+---
+title: "Report Query"
+description: "Report Query"
+sidebar_position: 10
+---
+
 # Report Query
 
 Allows the user to define queries to generate a report in a CSV file. When creating a new
 ReportQuery it is recommended to also create the linked
-[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
+[ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
 
 ## Examples
 

@@ -1,9 +1,15 @@
+---
+title: "Microsoft Excel"
+description: "Microsoft Excel"
+sidebar_position: 140
+---
+
 # Microsoft Excel
 
 This connector exports datasheets from a
 [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) (XLSX) file.
 
-This page is about [ Excel ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/excel/index.md).
+This page is about [ Excel ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
 
 ![Package: File/Microsoft Excel](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
@@ -23,7 +29,7 @@ filtering out spreadsheets and trimming values if needed.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -54,8 +60,8 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "HRContoso": {
->       "Path": "C:/UsercubeContoso/Contoso/hr_conto(.*?).xlsx",
->       "PathIncremental": "C:/UsercubeContoso/Contoso/hr_delta_conto(.*?).xlsx",
+>       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).xlsx",
+>       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).xlsx",
 >       "IsFileNameRegex": "true",
 >       "SheetOptions": [
 >         {
@@ -99,9 +105,9 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
-folder a CSV file per spreadsheet included in the export, named `<connectionIdentifier>_<index>.csv`
-where `<index>` is the spreadsheet's index.
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder a CSV file per spreadsheet included in the export, named
+`<connectionIdentifier>_<index>.csv` where `<index>` is the spreadsheet's index.
 
 Note that `0` is the first index, not `1`.
 
@@ -127,9 +133,9 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
+[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
 a
-[CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
+[CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+[Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.

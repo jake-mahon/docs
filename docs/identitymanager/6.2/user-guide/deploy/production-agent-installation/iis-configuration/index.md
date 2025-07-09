@@ -1,3 +1,9 @@
+---
+title: "Configure the Pool and Site"
+description: "Configure the Pool and Site"
+sidebar_position: 30
+---
+
 # Configure the Pool and Site
 
 This guide shows how to configure the application pool and website via IIS.
@@ -64,4 +70,4 @@ Configure the application pool and site by proceeding as follows:
 
 ## Next Steps
 
-To continue, [ Set the Working Directory's Permissions ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/directory-permissions/index.md).
+To continue, [ Set the Working Directory's Permissions ](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/directory-permissions/index.md).

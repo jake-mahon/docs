@@ -1,3 +1,9 @@
+---
+title: "Deploy Configuration Task"
+description: "Deploy Configuration Task"
+sidebar_position: 50
+---
+
 # Deploy Configuration Task
 
 From a folder, retrieves all configuration xml files to calculate the configuration items to insert,

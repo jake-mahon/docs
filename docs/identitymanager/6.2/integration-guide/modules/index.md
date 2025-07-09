@@ -1,3 +1,9 @@
+---
+title: "Modules"
+description: "Modules"
+sidebar_position: 50
+---
+
 # Modules
 
 Identity Manager can integrate with other software for issues such as credential protection and
@@ -6,9 +12,9 @@ logging. To use these integration modules, they just need to be configured in Id
 
 ## Credentials Protection
 
-- [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
-- [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+- [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+- [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
 
 ## Logging
 
-- [ Export Logs to a Log Management System ](/docs/identitymanager/6.2/integration-guide/monitoring/how-tos/qradar-setting/index.md)
+- [ Export Logs to a Log Management System ](/docs/identitymanager/saas/integration-guide/monitoring/qradar-setting/index.md)

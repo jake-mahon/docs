@@ -1,3 +1,9 @@
+---
+title: "Bulk Review Provisioning Access Control Rules"
+description: "Bulk Review Provisioning Access Control Rules"
+sidebar_position: 40
+---
+
 # Bulk Review Provisioning Access Control Rules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous
@@ -11,7 +17,7 @@ review of multiple errored provisioning orders for the `Directory_User` entity t
 
 The scaffolding generates the following scaffoldings:
 
-- [ Review Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+- [ Review Provisioning Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the provisioning review pages for a given entity type and
   profile.
 

@@ -1,10 +1,16 @@
+---
+title: "Set Internal User Profiles Task"
+description: "Set Internal User Profiles Task"
+sidebar_position: 200
+---
+
 # Set Internal User Profiles Task
 
 Will execute the profile rules of the different resource types given in parameters to create, modify
 or delete profiles in automatic mode.
 
-It is necessary to set up [ Profile Context ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md) as
-well as [Profile Rule Context](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) to be able to
+It is necessary to set up [ Profile Context ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md) as
+well as [Profile Rule Context](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) to be able to
 use this job.
 
 ## Examples

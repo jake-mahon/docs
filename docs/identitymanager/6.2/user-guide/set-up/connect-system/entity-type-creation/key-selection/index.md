@@ -1,9 +1,15 @@
+---
+title: "Select Primary Keys"
+description: "Select Primary Keys"
+sidebar_position: 30
+---
+
 # Select Primary Keys
 
 How to choose its keys and an
-[ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)key
+[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)key
 in order to uniquely identify the
-[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 resources at different points in a resource's lifecycle.
 
 ## Overview
@@ -60,7 +66,7 @@ by one, until a corresponding resource is found.
 ### Mapping key
 
 The mapping key is also chosen from among scalar properties, and serves to uniquely identify any
-resource during the[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md). It must be unique and
+resource during the[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md). It must be unique and
 immutable, i.e. must not change during the whole lifecycle of the resource.
 
 > A mapping key cannot be based on properties subject to change, such as the display name of any
@@ -88,7 +94,7 @@ key is always part of your key properties.
 Create an entity type by proceeding as follows:
 
 1. Start by defining the entity type's scalar properties. See the
-   [ Define Scalar Properties ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional
+   [ Define Scalar Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional
    information.
 
     ![Keys](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.webp)
@@ -113,5 +119,5 @@ You can find the **Reload** button either on the green warning, or on the connec
 ## Next Steps
 
 After the entity type is created with its scalar properties and keys, you can
-[ Define Navigation Properties ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md) and/or
-[ Set Resources' Display Names ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+[ Define Navigation Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md) and/or
+[ Set Resources' Display Names ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).

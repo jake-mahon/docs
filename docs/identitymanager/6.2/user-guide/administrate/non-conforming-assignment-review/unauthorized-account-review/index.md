@@ -1,3 +1,9 @@
+---
+title: "Review an Unauthorized Account"
+description: "Review an Unauthorized Account"
+sidebar_position: 30
+---
+
 # Review an Unauthorized Account
 
 How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't
@@ -15,14 +21,14 @@ entitlements.
 
 | Input                                               | Output             |
 | --------------------------------------------------- | ------------------ |
-| [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying accounts |
+| [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) (required) | Complying accounts |
 
 ## Review an Unauthorized Account
 
 Review an unauthorized account by proceeding as follows:
 
 1. Ensure that the
-   [ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+   [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page:
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
@@ -40,7 +46,7 @@ Review an unauthorized account by proceeding as follows:
 
     ![Resource Reconciliation Page](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
 
-4. Choose the default resource view or the Review an Unauthorized Account with the top right toggle.
+4. Choose the default resource view or the property view with the top right toggle.
 5. Click on the line of an account with an owner.
 
     In the following example, the nominative LDAP account linked to the resource
@@ -51,12 +57,12 @@ Review an unauthorized account by proceeding as follows:
 
     The displayed confidence rate means that a rule actually assigned the account to the identity,
     but with a confidence rate too low to imply full automatic assignment. Approval will be
-    required. See the [ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md)
+    required. See the [ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md)
     topic for additional information.
 
     The **Resource Properties** frame shows all the properties of the resources. They can be updated
     by clicking on the edit button. See the
-    [ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
+    [ Reconcile a Property ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
 
     ![Edit Button](/img/product_docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.webp)
 
@@ -66,7 +72,7 @@ Review an unauthorized account by proceeding as follows:
 
 7. Click on **Confirm Account Deletion** or **Authorize Account** according to the previous
    decision.
-8. Trigger [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's
+8. Trigger the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's
    overview page, **Jobs** > **Generate Provisioning Orders**, then, after this first task is done,
    **Jobs** > **Fulfill**.
 

@@ -1,3 +1,9 @@
+---
+title: "Onboarding and Offboarding"
+description: "Onboarding and Offboarding"
+sidebar_position: 10
+---
+
 # Onboarding and Offboarding
 
 In Identity Manager, onboarding and offboarding are done through workflows or through
@@ -16,14 +22,14 @@ The entitlement fulfillment can be performed in different ways:
 - Identity Manager automatically triggers the provisioning of the entitlements needed by the new
   user, without any more human input.
 
-See the [Role Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/index.md) topic for additional information on
+See the [Role Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/index.md) topic for additional information on
 entitlement assignment.
 
 The automation of the entitlement assignment processes can be really helpful. However, you should
 not be looking for a full automation, but rather the smart automation of basic assignments such as
 "birthrights", while the sensitive ones keep a manual process.
 
-See the [ Automate Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/index.md)
+See the [ Automate Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/index.md)
 topic for additional information about the assignment automation.
 
 ## Offboarding
@@ -45,8 +51,8 @@ the user's contract in the company.
 
 These dates should then be part of entity types' properties (for example as `StartDate` and
 `EndDate`), in order to be used in
-[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
+[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and
+[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 ![Identities - Validity Period](/img/product_docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.webp)
 

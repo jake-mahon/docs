@@ -1,16 +1,22 @@
+---
+title: "Tasks & Jobs"
+description: "Tasks & Jobs"
+sidebar_position: 190
+---
+
 # Tasks & Jobs
 
 Identity Manager provides tasks to orchestrate together the executable files that perform IGA
 actions, and jobs to orchestrate the tasks together.
 
-See the [Tasks](/docs/identitymanager/6.2/integration-guide/tasks-jobs/tasks/index.md) topic for additional information.
+See the [Tasks](/docs/identitymanager/saas/integration-guide/tasks-jobs/tasks/index.md) topic for additional information.
 
-See the [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) topic for additional information.
+See the [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) topic for additional information.
 
-See the [ Tasks ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
+See the [ Tasks ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
 information.
 
-Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.md).
+Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/build-efficient-jobs/index.md).
 
 ## Overview
 
@@ -24,8 +30,8 @@ This is why Identity Manager is not built as a monolithic software. It is made o
 each one materialized into a building block of your Identity Manager solution. Each building block
 serves a specific and well delimited IGA function.
 
-These building blocks are called [Tasks](/docs/identitymanager/6.2/integration-guide/tasks-jobs/tasks/index.md), and can be easily organized together and
-scheduled in [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
+These building blocks are called [Tasks](/docs/identitymanager/saas/integration-guide/tasks-jobs/tasks/index.md), and can be easily organized together and
+scheduled in [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md).
 
 This approach makes for a perfectly customizable product. It also tremendously helps our users to
 ease into Identity Manager by allowing them to understand it piece by piece.

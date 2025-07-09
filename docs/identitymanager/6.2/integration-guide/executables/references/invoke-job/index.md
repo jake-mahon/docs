@@ -1,3 +1,9 @@
+---
+title: "Usercube-Invoke-Job"
+description: "Usercube-Invoke-Job"
+sidebar_position: 220
+---
+
 # Usercube-Invoke-Job
 
 This tool launches a job on the agent side.
@@ -12,12 +18,12 @@ When a job is launched, the state machine starts by computing all the tasks that
 the job.
 
 Each task is assigned a launch order which can be configured in
-[ Job ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md) steps. All the job's tasks are grouped
+[ Job ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) steps. All the job's tasks are grouped
 together according to their launch order, and they are launched by group. Such task grouping allows
 the job to be faster executed.
 
 The launch orders of all the tasks of a job can be listed by using the
-[ Usercube-Get-JobSteps ](/docs/identitymanager/6.2/integration-guide/executables/references/get-jobsteps/index.md) executable.
+[ Usercube-Get-JobSteps ](/docs/identitymanager/saas/integration-guide/executables/references/get-jobsteps/index.md) executable.
 
 Before any task is launched, the state machine checks the task's parent tasks in order to verify
 whether the task must be launched or not.
@@ -47,11 +53,11 @@ Then the task is launched, and then:
 In the case where the job is blocked and restarted:
 
 - if the blocked task is a
-  [ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md),
+  [ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md),
   then the state machine runs a synchronization validation on the related connector, and uses the id
   of the blocked task instance to synchronize the related tables;
 - if the blocked task is a
-  [`GenerateProvisioningOrdersTask`](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md),
+  [Generate Provisioning Orders Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md),
   then the state machine forces the same provisioning on the related connector.
 
     Both the synchronization validation and the forced provisioning are virtual jobs that do not
@@ -88,6 +94,6 @@ launch group.
 | --task-string-contains (-s) optional               | **Type** String **Description** Launches all tasks with an identifier containing the given value.                                                                                                                                                                                                                                |
 |                                                    |                                                                                                                                                                                                                                                                                                                                  |
 | ---                                                | ---                                                                                                                                                                                                                                                                                                                              |
-| --api-client-id required                           | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a profile with the relevant permissions.                |
-| --api-secret required                              | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id required                           | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a profile with the relevant permissions.                |
+| --api-secret required                              | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url required                                 | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                                  |

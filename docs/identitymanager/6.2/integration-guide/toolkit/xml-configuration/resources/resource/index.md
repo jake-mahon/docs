@@ -1,3 +1,9 @@
+---
+title: "Resource"
+description: "Resource"
+sidebar_position: 10
+---
+
 # Resource
 
 The `<Resource>` element also allows the definition of a resource entity directly from within the
@@ -15,7 +21,7 @@ integer. Negative Ids are reserved for Identity Manager's engine.
 The following sample inserts two entities of type `User`: John Smith and Anthony Baker. John Smith
 is the manager of Anthony Baker.
 
-The `User`**Entity Type** is defined as follows:
+The `User` **Entity Type** is defined as follows:
 
 ```
 
@@ -51,7 +57,7 @@ contrived example aims at illustrating the method.
 | Property                   | Details                                                                                                                                                                                                                                                                            |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | C0 optional                | **Type** String **Description** A column of storage. Going from 0 to 127.                                                                                                                                                                                                          |
-| Dirty default value: false | **Type** Boolean **Description** Flag set by the Identity Manager-Set-RecentlyModifiedFlag task.                                                                                                                                                                                   |
+| Dirty default value: false | **Type** Boolean **Description** Flag set by the Usercube-Set-RecentlyModifiedFlag task.                                                                                                                                                                                           |
 | DisplayName_L1 optional    | **Type** String **Description** Display name of the resource in language 1 (up to 16).                                                                                                                                                                                             |
 | I40 optional               | **Type** Int64 **Description** This columns are used to store the id of an linked entity. When an entity type has a mono-valued association we usually use this columns to store the information. By default there are 10 columns for the storage of the mono-valued associations. |
 | Type required              | **Type** Int64 **Description** The type of the resource. References the internal id of an EntityType.                                                                                                                                                                              |

@@ -1,4 +1,10 @@
-# Get Job Log Administration Access Control Rules
+---
+title: "GetJobLogAdministrationAccessControlRules"
+description: "GetJobLogAdministrationAccessControlRules"
+sidebar_position: 10
+---
+
+# GetJobLogAdministrationAccessControlRules
 
 This scaffolding creates, within a universe, entity instances and association instances based on a
 predefined template.

@@ -1,3 +1,9 @@
+---
+title: "Universe Data Model"
+description: "Universe Data Model"
+sidebar_position: 20
+---
+
 # Universe Data Model
 
 This scaffolding creates, within a universe, entity instances and association instances based on a
@@ -46,7 +52,7 @@ like our U1 but without the `Guests` property:
 ```
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (ExcludedProperty)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)
@@ -71,7 +77,7 @@ The following example generates a universe `U2_UserRecords` based on the entity 
 ![Universe (RootInstance)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (RootInstance)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_rootinstance.webp)
@@ -96,7 +102,7 @@ the entity instances and follow the existing naming rule explained in the introd
 ![Universe Schema (Several Scaffoldings with Data Duplication)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplicationschema.webp)
 
 When getting Identity Manager
-[data in Power BI](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see
+[data in Power BI](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md), we see
 the following:
 
 ![Universe (Several Scaffoldings with Data Duplication)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalduplication.webp)
@@ -120,7 +126,7 @@ entity types `Directory_User` and `Directory_UserRecord`, renaming `Directory_Us
 ![Universe (Several Scaffoldings without Data Duplication)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplicationschema.webp)
 
 When getting Identity Managerdata in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Several Scaffoldings without Data Duplication)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_severalnoduplication.webp)
@@ -174,7 +180,7 @@ It generates:
 ![Universe (No Template)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplateschema.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (No Template)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_notemplate.webp)
@@ -217,7 +223,7 @@ It generates:
 ![Universe (Template Schema: Owned Resource Types)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypesschema.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Template: Owned Resource Types)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedresourcetypes.webp)
@@ -240,7 +246,7 @@ The configuration generated by this snippet is similar to the one for `OwnedReso
 ![Universe (Template Schema: Resource Resource Types)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypesschema.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Template: Resource Resource Types)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_resourceresourcetypes.webp)
@@ -278,7 +284,7 @@ It generates:
 ![Universe (Template Schema: Owned Single Roles)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsinglerolesschema.webp)
 
 When getting Identity Managerdata in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Template: Owned Single Roles)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedsingleroles.webp)
@@ -301,7 +307,7 @@ The configuration generated by this snippet is similar to the one for `OwnedSing
 ![Universe (Template Schema: Owned Composite Roles)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositerolesschema.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Template: Owned Composite Roles)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_ownedcompositeroles.webp)
@@ -309,7 +315,7 @@ we see the following:
 ## Mixed Example
 
 Scaffoldings can be adjusted with
-[universe configuration](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/index.md).
+[universe configuration](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/index.md).
 
 The following example generates a universe `U9_AccessControl` aiming to create reports displaying
 users and their profiles. In our situation, profiles are assigned to AD accounts based on a given
@@ -325,7 +331,7 @@ here.
 ```
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Mixed Example)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_mixedexample.webp)

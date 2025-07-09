@@ -1,3 +1,9 @@
+---
+title: "Create Update Delete Access Control Rules"
+description: "Create Update Delete Access Control Rules"
+sidebar_position: 10
+---
+
 # Create Update Delete Access Control Rules
 
 Generates execution rights for the create, update, delete workflows.
@@ -12,7 +18,7 @@ must be created with the following names:
 
 The scaffolding generates the following scaffoldings:
 
-- [ View Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the
+- [ View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the
   permissions to view an entity type's resources.
 
 ## Examples

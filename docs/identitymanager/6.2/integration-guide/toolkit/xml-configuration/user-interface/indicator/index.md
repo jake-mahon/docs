@@ -1,3 +1,9 @@
+---
+title: "Indicator"
+description: "Indicator"
+sidebar_position: 60
+---
+
 # Indicator
 
 An Indicator displays a banner alongside the resource information whenever it meets a specific
@@ -9,14 +15,14 @@ _Item Value_ according to the _Comparison operator_, as can be seen on the examp
 The banner is displayed wherever the associated resource appears.
 
 For example, if we create an indicator pointing out the risk score of a user, the banner will show
-on the left-side of the user [ Tile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) and the user [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). If we
+on the left-side of the user [ Tile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) and the user [Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). If we
 create an indicator pointing out whether an AD account is unused or disabled, the banner will show
 on the left-side of the AD Entries tile and form.
 
 One entity can show several banners, one for several different properties. They appear one above the
 other if there are four banners or less, one next to the other if there are more.
 
-One indicator can posess several items, that define the information for the banner to be displayed.
+One indicator can possess several items, that define the information for the banner to be displayed.
 The indicators order is important because the banner will get the information of the first item
 matching the observed property.
 

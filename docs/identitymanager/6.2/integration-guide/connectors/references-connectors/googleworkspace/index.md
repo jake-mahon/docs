@@ -1,9 +1,15 @@
+---
+title: "Google Workspace"
+description: "Google Workspace"
+sidebar_position: 70
+---
+
 # Google Workspace
 
 This connector exports and fulfills users and groups from/to a
 [Google Workspace](https://developers.google.com/workspace) instance.
 
-This page is about [ Google Workspace ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/googleworkspace/index.md).
+This page is about [ Google Workspace ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
 ![Package: Directory/Google Workspace](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
@@ -18,7 +24,7 @@ user-group memberships too.
 Implementing this connector requires:
 
 - reading first the
-  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account impersonating the following permission scopes:
   [https://www.googleapis.com/auth/admin.directory. user](https://www.googleapis.com/auth/admin.directory.user)
   and
@@ -39,7 +45,7 @@ and write the output to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -71,7 +77,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     "Connections": {
 >         ...
 >         "GoogleExportFulfillment": {
->             "CredentialsFilePath": "C:/UsercubeDemo/GoogleCredentials.json",
+>             "CredentialsFilePath": "C:/identitymanagerDemo/GoogleCredentials.json",
 >             "User": "B29607@acme.internal",
 >             "PageSize": "100"
 >         }
@@ -93,8 +99,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the
-following CSV files:
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 - `GoogleExportFulfillment_Users.csv` and `GoogleExportFulfillment_Groups.csv` whose headers come
   from the entity type mapping's `ConnectionColumn` and from the entity association mappings'
@@ -124,7 +130,7 @@ memberships.
 
 ### Configuration
 
-[Same as for export](#export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >
@@ -136,7 +142,7 @@ memberships.
 >     "Connections": {
 >         ...
 >         "GoogleExportFulfillment": {
->             "CredentialsFilePath": "C:/UsercubeDemo/GoogleCredentials.json",
+>             "CredentialsFilePath": "C:/identitymanagerDemo/GoogleCredentials.json",
 >             "User": "B29607@acme.internal"
 >         }
 >     }
@@ -160,9 +166,9 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
+[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
 a
-[CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
+[CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.
+[Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe.

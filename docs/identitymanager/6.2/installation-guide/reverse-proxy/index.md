@@ -1,3 +1,9 @@
+---
+title: "Reverse Proxy"
+description: "Reverse Proxy"
+sidebar_position: 50
+---
+
 # Reverse Proxy
 
 Identity Manager can be installed behind a
@@ -59,7 +65,7 @@ provisioning, the following file locations must be shared by all Identity Manage
 - WorkFolderPath
 
 All Identity Manager servers also share a database. See the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information.
 
 ## Basic Configuration

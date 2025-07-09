@@ -1,3 +1,9 @@
+---
+title: "Create the Workforce Repository"
+description: "Create the Workforce Repository"
+sidebar_position: 20
+---
+
 # Create the Workforce Repository
 
 How to initiate the repository for workforce identities by loading identities into Identity
@@ -24,7 +30,7 @@ entitlement assignments.
 > ![Identity Example](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
 See the
-[ Identity Repository ](/docs/identitymanager/6.2/integration-guide/identity-management/identity-repository/index.md)
+[ Identity Repository ](/docs/identitymanager/saas/integration-guide/identity-management/identity-repository/index.md)
 topic for additional information..
 
 The initial workforce repository is going to be the first version of a comprehensive repository
@@ -88,20 +94,20 @@ Integrators may need the help of the HR department and its assistants who know t
 order to get the identity and organizational data. After the initial loading, the HR department can
 review the data to confirm its accuracy.
 
-| Input                                                                                                                    | Output                       |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| Identity Manager Server (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| Input                                                                                                                  | Output                       |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| IdentityManagerServer (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
 ## Create the Workforce Repository
 
 Create the workforce repository by proceeding as follows:
 
-1. [ Configure Unique Property Generation ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md) for all users,
+1. [ Configure Unique Property Generation ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md) for all users,
    pre-existing and new, who do not have them yet.
-2. [Load Identities to Identity Manager](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/load-identities/index.md) to Identity Manager based on the
+2. [Load Identities to Identity Manager](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/index.md) to Identity Manager based on the
    recommended attributes from the provided organizational model
-   [Template Description](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/template-description/index.md).
-3. [ Adjust the Workforce Data Model ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md) following Identity Manager's
+   [Template Description](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/template-description/index.md).
+3. [ Adjust the Workforce Data Model ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md) following Identity Manager's
    suggestions.
 4. Continue with the next steps of this guide, and come back later to fill the organizational model
    with additional data.
@@ -109,7 +115,7 @@ Create the workforce repository by proceeding as follows:
 ## Next Steps
 
 Once the initial identities are loaded, integrators can start the User Profile configuration. See
-the [ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topic for additional
+the [ Configure a User Profile ](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topic for additional
 information.
 
 From there you will be able to keep your repository up to date:

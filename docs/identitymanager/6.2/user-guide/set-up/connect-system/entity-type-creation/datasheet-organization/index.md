@@ -1,3 +1,9 @@
+---
+title: "Organize Resources' Datasheets"
+description: "Organize Resources' Datasheets"
+sidebar_position: 60
+---
+
 # Organize Resources' Datasheets
 
 How to change the default display of the resource data from this entity type, by creating display
@@ -20,8 +26,8 @@ in alphabetic order.
 Organize resources' datasheets by proceeding as follows:
 
 1. Start by creating the entity type with its scalar properties and keys. See the
-   [ Define Scalar Properties ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) and
-   [ Select Primary Keys ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md) topics for additional information.
+   [ Define Scalar Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) and
+   [ Select Primary Keys ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md) topics for additional information.
 2. Ensure that the created properties are saved by clicking on **Save & Close** > **Save** at the
    top right corner.
 3. On the entity type's definition page, click on the **Display** tab.
@@ -55,7 +61,7 @@ Organize resources' datasheets by proceeding as follows:
 6. Click on **Save & Close**.
 
     Changes in display groups won't take effect until the next
-    [ Update Entity Property Expressions Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+    [ Update Entity Property Expressions Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
     runs.
 
 ## Reload

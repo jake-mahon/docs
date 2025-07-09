@@ -1,3 +1,9 @@
+---
+title: "Usercube-EasyVistaTicket-UpdateFulfillmentState"
+description: "Usercube-EasyVistaTicket-UpdateFulfillmentState"
+sidebar_position: 90
+---
+
 # Usercube-EasyVistaTicket-UpdateFulfillmentState
 
 The use of this executable supposes a previous use of the `Usercube-Fulfill-ToEasyVistaTicket`
@@ -40,8 +46,8 @@ set the fulfillment state of the corresponding assigned resource types.
 
 | Argument Name                                        | Details                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| --api-client-id required                             | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.     |
-| --api-secret required                                | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id required                             | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.     |
+| --api-secret required                                | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url required                                   | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                              |
 |                                                      |                                                                                                                                                                                                                                                                                                                              |
 | ---                                                  | ---                                                                                                                                                                                                                                                                                                                          |

@@ -1,3 +1,9 @@
+---
+title: "Usercube-Deploy Configuration"
+description: "Usercube-Deploy Configuration"
+sidebar_position: 80
+---
+
 # Usercube-Deploy Configuration
 
 Retrieves all XML configuration files from a given folder, in order to calculate the configuration
@@ -31,8 +37,8 @@ script in the command line.
 
 **_RECOMMENDED:_** To be able to deploy a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
-[ Identity Manager Deploy the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/how-tos/deploy-configuration/index.md)
-topic for additional information.
+[ Deploy the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md) topic for
+additional information.
 
 ## Arguments
 
@@ -60,5 +66,5 @@ The table below displays the arguments for the Identity Manager configuration d
 | --api-secret optional                     | String         | Password of the account authorized by Netwrix for configuration export/deployment in a SaaS environment. **NOTE:** It will be deprecated soon, rather contact the support team.                                                                       |
 | --api-url optional                        | String         | URL of the server to export/deploy the configuration to, for remote changes. _Remember,_ it is required when --database-connection-string is not specified.                                                                                           |
 | --database-connection-string optional     | String         | Connection string of the database. _Remember,_ it is required when --api-url is not specified.                                                                                                                                                        |
-| --product-translation optional            | No Value       | Path of the JSON file that contains the application's translations. See the [Import Product Translations into Identity Manager](/docs/identitymanager/6.2/integration-guide/ui/how-tos/producttranslations/index.md) topic for more details on how to import the product's translations. |
+| --product-translation optional            | No Value       | Path of the JSON file that contains the application's translations. See the [Import Product Translations into Identity Manager](/docs/identitymanager/saas/integration-guide/ui/producttranslations/index.md) topic for more details on how to import the product's translations. |
 | --log-level optional                      | LogLevel       | Level of log information among: Verbose; Debug; Information; Warning; Error; Fatal.                                                                                                                                                                   |

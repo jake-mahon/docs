@@ -1,8 +1,14 @@
+---
+title: "Remove Redundant Assignments"
+description: "Remove Redundant Assignments"
+sidebar_position: 30
+---
+
 # Remove Redundant Assignments
 
 How to remove redundant assignments, i.e. manual assignments of roles and resource types that are
 assigned by a rule too. See the
-[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+[Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 topic for additional information.
 
 ## Overview
@@ -10,7 +16,7 @@ topic for additional information.
 Assignment rules can sometimes give to users an entitlement that they had already received manually.
 Hence, new assignment rules can imply redundancies between the entitlements assigned manually and
 approved, and those calculated by a rule and assigned automatically. See the
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional
+[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional
 information.
 
 Netwrix recommends removing redundant assignments after any assignment rule is created or updated.
@@ -26,7 +32,7 @@ end date:
 
 - When assigning an entitlement to a user manually, the start and end dates are specified explicitly
   unless the end date is locked. See the
-  [Create a Role Manually](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
+  [Create a Role Manually](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
   topic for additional information.
 - When assigning entitlements to users via assignment rules, the start and end dates are based on
   the owner's data, for example their contract or position start/end dates. These assignments are
@@ -78,9 +84,9 @@ application's users, entitlements and data model.
 | Role catalog (required) Role assignment rules (required) Role mining (optional) | Minimized derogation’s |
 
 See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md),
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
-[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
+[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md),
+[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
+[ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
 
 ## Remove Redundant Assignments
 

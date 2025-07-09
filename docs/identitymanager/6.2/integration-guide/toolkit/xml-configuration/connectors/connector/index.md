@@ -1,8 +1,14 @@
+---
+title: "Connector"
+description: "Connector"
+sidebar_position: 40
+---
+
 # Connector
 
 Connectors provide the means by which Identity Manager communicates with managed platforms,
 applications and systems. They describe how the data from these systems are mapped to the
-[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
+[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md).
 
 A connector in most case represents an application model. It is composed of entities and
 associations.
@@ -14,32 +20,32 @@ associations.
 A connector is used to synchronize each of its entities and associations in Identity Manager's
 physical model. A connector is defined with:
 
-- [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md);
-- [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md);
-- [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and
-  [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to link the entity types and
+- [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md);
+- [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md);
+- [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and
+  [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to link the entity types and
   associations to the corresponding files and columns containing the exported data from the managed
   system.
 
 ## Examples
 
 The following example creates a `HR` connector on the agent called `Local` previously declared by an
-[ Agent ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/agent/index.md) element.
+[ Agent ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/agent/index.md) element.
 
-We create the right [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to use the connector as a
-[ CSV ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/csv/index.md)aiming to export HR CSV files into
+We create the right [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to use the connector as a
+[ CSV ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/csv/index.md)aiming to export HR CSV files into
 new CSV files in Identity Manager's format.
 
-The [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) model the resources as `HR_Person` or
+The [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) model the resources as `HR_Person` or
 `HR_Organization`, defining properties.
 
-The [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) link the entity types to the source
+The [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) link the entity types to the source
 files.
 
-The [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) creates a link between the two
+The [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) creates a link between the two
 entity types.
 
-The [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) links the association to
+The [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) links the association to
 the source files.
 
 ```

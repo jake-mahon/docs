@@ -1,3 +1,9 @@
+---
+title: "Update Resources Access Control Rules"
+description: "Update Resources Access Control Rules"
+sidebar_position: 20
+---
+
 # Update Resources Access Control Rules
 
 ## Examples

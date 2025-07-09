@@ -1,8 +1,14 @@
+---
+title: "Reconcile a Property"
+description: "Reconcile a Property"
+sidebar_position: 20
+---
+
 # Reconcile a Property
 
 How to review unreconciled properties. The aim is to handle the differences between the property
 values from the managed systems and those computed by Identity Manager according to
-[ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md).
+[ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md).
 
 ## Overview
 
@@ -58,18 +64,18 @@ entitlements.
 
 | Input                                               | Output               |
 | --------------------------------------------------- | -------------------- |
-| [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying properties |
+| [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) (required) | Complying properties |
 
 ## Review an Unreconciled Property
 
 Review an unreconciled property by proceeding as follows:
 
 1. Ensure that the task for the computation of the role model was launched recently, through the
-   complete job on the **Job Execution** page�
+   complete job on the **Job Execution** page
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
-    � Or through the connector's overview page, **Jobs** > **Compute Role Model**.
+    Or through the connector's overview page, **Jobs** > **Compute Role Model**.
 
     ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 

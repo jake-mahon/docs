@@ -1,3 +1,9 @@
+---
+title: "Use Case Stories"
+description: "Use Case Stories"
+sidebar_position: 40
+---
+
 # Use Case Stories
 
 Here is a basic use case story to explain how Identity Manager manages IGA.
@@ -56,4 +62,4 @@ entitlements he needs in order to work, but not more to prevent security breache
 
 ## Next Steps
 
-Let's learn about Identity Manager [ Architecture ](/docs/identitymanager/6.2/introduction-guide/architecture/index.md).
+Let's learn about Identity Manager [ Architecture ](/docs/identitymanager/saas/introduction-guide/architecture/index.md).

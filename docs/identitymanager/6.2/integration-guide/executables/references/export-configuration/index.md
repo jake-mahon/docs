@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-Configuration"
+description: "Usercube-Export-Configuration"
+sidebar_position: 110
+---
+
 # Usercube-Export-Configuration
 
 Generates in a folder the files of the configuration found in the database.
@@ -76,7 +82,7 @@ remote configuration:
 
 To be able to export a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
-[ Export the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/how-tos/export-configuration/index.md) topic for
+[ Export the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md) topic for
 additional information.
 
 ### Basic export for a change of environment
@@ -180,7 +186,7 @@ inserted in the configuration.
 |                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---                                     | ---                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | --database-connection-string optional   | **Type** String **Description** Connection string of the database. **Note:** required when `--api-url` is not specified.                                                                                                                                                                                                                                                                                                            |
-| --product-translation optional          | **Type** No Value **Description** Path of the JSON file that contains the application's translations. See the [Import Product Translations into Identity Manager](/docs/identitymanager/6.2/integration-guide/ui/how-tos/producttranslations/index.md) topic for additional information.                                                                                                                                                                               |
+| --product-translation optional          | **Type** No Value **Description** Path of the JSON file that contains the application's translations. See the [Import Product Translations into Identity Manager](/docs/identitymanager/saas/integration-guide/ui/producttranslations/index.md) topic for additional information.                                                                                                                                                                               |
 | --scope optional                        | **Type** String **Description** Path of a folder or file to export/deploy, instead of exporting/deploying the whole configuration.                                                                                                                                                                                                                                                                                                  |
 |                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---                                     | ---                                                                                                                                                                                                                                                                                                                                                                                                                                 |

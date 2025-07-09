@@ -1,9 +1,15 @@
+---
+title: "Workday"
+description: "Workday"
+sidebar_position: 330
+---
+
 # Workday
 
 This connector exports users and groups from a
 [Workday](https://www.workday.com/en-us/products/talent-management/overview.html) instance.
 
-This page is about [ Workday ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/workday/index.md).
+This page is about [ Workday ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/workday/index.md).
 
 ![Package: ERP/Workday](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/workday/packages_workday_v603.webp)
 
@@ -31,7 +37,7 @@ This connector exports any entity available in WWS.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -64,7 +70,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "WorkdayExport": {
->         "InputFilePath": "C:/UsercubeContoso/Temp/bodies.json",
+>         "InputFilePath": "C:/identitymanagerContoso/Temp/bodies.json",
 >         "Login": "USERCUBE@contoso",
 >         "Password": "contoso1996",
 >         "Server": "https://workday.com/ccx/service/contoso"
@@ -114,19 +120,20 @@ to be exported.
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder:
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder:
 
 - one CSV file for each entity, named `<connectionIdentifier>_<entityName>.csv`, with the following
   columns:
 
     - **Command**: used for
-      [ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md);
+      [ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md);
     - one column for each XPath found in the
-      [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'
+      [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'
       connection columns and
-      [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'
+      [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'
       columns.
-      [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).``` `connectionIdentifier`_`entityName`.csv
+      [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).``` `<connectionIdentifier>\_<entityName>.csv`
 
     Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N Add,value1,value2,...,valueN
 
@@ -153,8 +160,9 @@ This connector is meant to generate to the
 > ```
 >
 > We choose to export only the entity `workers`, so the output is generated to
-> `WorkdayExport_workers.csv` in the directory
-> [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+> `WorkdayExport_workers.csv` in the
+> [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+> Output directory .
 >
 > The CSV file will include three columns: `Command`; `bsvc:Worker_Data/bsvc:Worker_ID` and
 > `bsvc:Worker_Data/bsvc:User_ID`.
@@ -165,9 +173,9 @@ This connector is meant to generate to the
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute     | Naming Convention for the Key in Azure Key Vault |
 | ------------- | ------------------------------------------------ |
@@ -177,7 +185,7 @@ Data protection can be ensured through:
 | Server        | `Connections--<identifier>--Server`              |
 
 - A
-  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   able to store Workday's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

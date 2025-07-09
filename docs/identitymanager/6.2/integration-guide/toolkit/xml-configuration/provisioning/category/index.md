@@ -1,7 +1,13 @@
+---
+title: "Category"
+description: "Category"
+sidebar_position: 20
+---
+
 # Category
 
 A category is a classification of Composite Roles, Single Roles or/and
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). It can be used to group multiple roles of the same
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md). It can be used to group multiple roles of the same
 context.
 
 ## Examples

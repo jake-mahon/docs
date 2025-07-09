@@ -1,27 +1,32 @@
+---
+title: "Install the Server"
+description: "Install the Server"
+sidebar_position: 30
+---
+
 # Install the Server
 
 **NOTE:** If you are a SaaS client this topic does not apply. You can skip directly to end user
-authentication. See the [Set up End-User Authentication](#set-up-end-user-authentication) topic for
-additional information.
+authentication. See the Set up End-User Authentication topic for additional information.
 
 Identity Manager Server can be installed on the same workstation as the database or on a separate
 workstation. If Identity Manager is installed on a separate workstation, it requires the SQL
 PowerShell components to function properly.
 
 Please make sure that the server requirements are met before going further. See the
-[Server](/docs/identitymanager/6.2/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+[Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 
 ## Server Working Directory
 
 The server executable is beeing been extracted to the working directory as `Usercube-Server.exe` and
 `Usercube-Server.dll` and will enable a user or IIS to run the Identity Manager Server. See the
-[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)topic for additional information.
+[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 ## Set up the License Key
 
 The license key provided by Identity Manager must be set up in the **appsetting.json** > **License
 attribute**. See the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
 ## Create an IIS Website
@@ -29,7 +34,7 @@ topic for additional information.
 It is recommended to run the Identity Manager Server as an IIS website.
 
 To install the Identity Manager Server as a Windows service, please jump to Install the Server as a
-Windows Service. See the [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
+Windows Service. See the Install the Server topic for additional information.
 
 Adding the Identity Manager Server as an IIS website can be achieved with the
 [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the
@@ -204,7 +209,7 @@ Identity Manager Server now has the required permissions to access the database.
 
 The Identity Manager Server needs specific permissions on the working directory to run, read
 synchronization output, and write provisioning orders. See the
-[Server](/docs/identitymanager/6.2/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+[Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 
 Up to four folders have to be considered:
 
@@ -214,8 +219,8 @@ Up to four folders have to be considered:
 - The provisioning orders directory, usually `C:/identitymanager<Organization>/Temp` (same as for the data
   collection directory).
 
-See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 The following steps can be performed for each of the relevant directories.
@@ -249,8 +254,8 @@ The Identity Manager Server service account that was chosen previously:
 The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders
-directories. See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+directories. See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 ## Encryption and Authentication Key Pairs
@@ -331,7 +336,7 @@ section.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged.
 The password should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
+[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -378,9 +383,9 @@ permissions, let's finalize the setup.
 The connection between the Server and the Database requires choosing an authentication method:
 [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication)
 or SQL Server authentication. See the
-[ Connection to the Database ](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/database-connection/index.md)
+[ Connection to the Database ](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md)
 and
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
+[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topics for additional information. Windows authentication will require the IIS identity to be set to
 the custom Windows service account used to log in to the Identity Manager's Windows Server session.
 SQL authentication will work with both the _built-in_ app pool identity and a custom service
@@ -389,7 +394,7 @@ string.
 
 `Runtime/appsettings.json` is a technical configuration file that enables you to set up the
 connection between the Server and the Database through the ConnectionString attribute. See the
-[Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md) topic for
+[Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md) topic for
 additional information.
 
 The connection string is set up in the `Runtime/appsettings.json` configuration file which can be
@@ -461,7 +466,7 @@ for additional information.
 ## DNS
 
 Your organization's DNS needs to be updated according to the requirements indicated in Hostname and
-DNS. See the [Server](/docs/identitymanager/6.2/installation-guide/requirements/server-requirements/index.md) topic for additional
+DNS. See the [Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional
 information.
 
 ## Test Your Installation
@@ -471,8 +476,7 @@ In order to test your installation you must:
 **Step 1 –** Make sure the IIS site is running.
 
 **Step 2 –** Go to the following URL with a browser: `<hostname>:<port>/hc` with the hostname and
-port set up in Create an IIS website. See the [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional
-information.
+port set up in Create an IIS website. See the Install the Server topic for additional information.
 
 **Step 3 –** The Identity Manager Server is trying to access the Database. If it succeeds, the
 message **Healthy** should be displayed in the browser.
@@ -524,10 +528,10 @@ choose one or several external authentication providers among the following:
 
 Everything you need to know about setting up authentication is provided in the Technical
 Configuration Guide. See the
-[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
+[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
 topic for additional information.
 
 ## What's Next?
 
-Install the Agent is the next step of the process. See the [ Install the Agents](/docs/identitymanager/6.2/installation-guide/production-ready/agent/index.md)
+Install the Agent is the next step of the process. See the [ Install the Agents](/docs/identitymanager/saas/installation-guide/production-ready/agent/index.md)
 topic for additional information.

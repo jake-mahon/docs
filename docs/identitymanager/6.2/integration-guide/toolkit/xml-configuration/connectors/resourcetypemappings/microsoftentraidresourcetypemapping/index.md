@@ -1,4 +1,10 @@
-# Azure AD Resource Type Mapping
+---
+title: "Microsoft EntraID Resource Type Mapping"
+description: "Microsoft EntraID Resource Type Mapping"
+sidebar_position: 10
+---
+
+# Microsoft EntraID Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.
 
@@ -8,7 +14,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AzureADResourceTypeMapping Identifier="EntraID_DirectoryObject_Guest" Connection="EntraIDExportFulfillment" DefaultObjectClass="users" InvitationMode="MicrosoftInvitation" InvitationRedirectUrl="https://demo.usercube.com" PasswordResetSetting="ToSponsor">  <Property Property="objectid" IsDNProperty="true" />  <Property Property="groups" DataSourceBacklinkColumnName="member" />  <Property Property="displayName" IsDisplayNameProperty="true" />  <Property Property="mail" IsMailProperty="true" /></AzureADResourceTypeMapping>
+<MicrosoftEntraIDResourceTypeMapping Identifier="MicrosoftEntraID_DirectoryObject_Guest" Connection="MicrosoftEntraIDExportFulfillment" DefaultObjectClass="users" InvitationMode="MicrosoftInvitation" InvitationRedirectUrl="https://demo.usercube.com" PasswordResetSetting="ToSponsor">  <Property Property="objectid" IsDNProperty="true" />  <Property Property="groups" DataSourceBacklinkColumnName="member" />  <Property Property="displayName" IsDisplayNameProperty="true" />  <Property Property="mail" IsMailProperty="true" /></MicrosoftEntraIDResourceTypeMapping>
 ```
 
 ## Properties

@@ -1,3 +1,9 @@
+---
+title: "Integration Guide"
+description: "Integration Guide"
+sidebar_position: 30
+---
+
 # Integration Guide
 
 This guide is designed to provide the tools and knowledge to fully understand and configure Identity
@@ -15,7 +21,7 @@ Governance Administration (IGA) is required to really understand, implement and 
 Manager's features.
 
 Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the
-[Introduction Guide](/docs/identitymanager/6.2/introduction-guide/index.md) to fully benefit from the Integration Guide's
+[Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) to fully benefit from the Integration Guide's
 content.
 
 ### Technical skills

@@ -1,7 +1,13 @@
+---
+title: "Perform Role Mining"
+description: "Perform Role Mining"
+sidebar_position: 20
+---
+
 # Perform Role Mining
 
 How to use role mining to suggest role assignment rules based on existing assignments, in order to
-push the [ Automate Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/index.md) wall further.
+push the [ Automate Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/index.md) wall further.
 
 ## Overview
 
@@ -11,20 +17,20 @@ roles to users according to their attributes which are used as assignment criter
 > For example, in the AD, entitlements are given through group membership. Integrators create a
 > navigation rule to assign each group to the users who have the corresponding single role. Then,
 > the
-> [ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+> [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 > is able to assign single roles to users according to their existing group membership.
 >
 > In addition to group membership, the assignment of an entitlement to users could also depend on
 > users' attributes like their location, position title, etc.
 
 Now that users received their roles, the role mining tool can analyze these assignments and deduce
-[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 which will assign single roles to certain users matching given criteria.
 
 ![Schema - Role Mining](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
 
 Role mining is a Machine Learning process. It is a statistic tool used to emphasize the
-[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 that constitute the key criteria for existing role assignments. It detects the most probable links
 between identities dimensions and their roles in order to suggest the appropriate entitlement
 assignment rules.
@@ -36,15 +42,15 @@ assignment rules.
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if
 the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the Role
 Catalog. See
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ### Technical Principles
 
 Role mining works through
-[ Mining Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
+[ Mining Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
 that Identity Manager applies with the
-[ Get Role Mining Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
+[ Get Role Mining Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
 
 ### Entitlement differentiation with rule types
 
@@ -88,7 +94,7 @@ At this point, integrators should have all the elements they need to operate.
 | ----------------------- | ----------------- |
 | Role Catalog (required) | Single role rules |
 
-See the[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+See the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Create a Mining Rule
@@ -107,19 +113,19 @@ Create a mining rule by proceeding as follows:
 
     ![New Mining Rule](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/rolemining_miningrule_v602.webp)
 
-    - `Policy`: [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) in which the mining rule exists.
+    - `Policy`: [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) in which the mining rule exists.
     - `Entity Type`:
-      [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) on which
+      [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) on which
       the mining rule is applied, i.e. the entity type targeted by role mining's entitlement
       analysis.
     - `Category`:
-      [ Create a Category ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
+      [ Create a Category ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
       containing the roles targeted by role mining's analysis.
     - `Include roles with specific validations`: includes in role mining's analysis the roles
       requiring zero and/or one and/or two and/or three validations.
     - `Exclude Role from Mining`: ignores the specified roles during the mining process triggered by
       the next mining rules (in terms of priority).
-    - `Rule Policy`: [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) in which the single role
+    - `Rule Policy`: [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) in which the single role
       rules will be generated.
 
         Netwrix Identity Manager (formerly Usercube) recommends using a policy dedicated to role
@@ -156,7 +162,7 @@ Create a mining rule by proceeding as follows:
 
 3. Click on **Create** and see a line added on the rules page.
 4. Click on **Simulate** to perfom role mining in a simulation. See
-   the[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
+   the[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
 
     ![Role Mining Jobs](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/rolemining_launchjob_v602.webp)
 
@@ -170,7 +176,7 @@ Hence, new assignment rules can imply redundancies between the entitlements assi
 approved, and those calculated by a rule and assigned automatically.
 
 Netwrix Identity Manager (formerly Usercube) recommends
-[Remove Redundant Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) after any assignment rule
+[Remove Redundant Assignments](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) after any assignment rule
 is created or updated.
 
 ## Verify Role Mining

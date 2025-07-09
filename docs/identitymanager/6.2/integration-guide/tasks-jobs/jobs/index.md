@@ -1,3 +1,9 @@
+---
+title: "Jobs"
+description: "Jobs"
+sidebar_position: 20
+---
+
 # Jobs
 
 A job is a succession of tasks, to be launched and potentially scheduled, which orchestrate together
@@ -7,7 +13,7 @@ the executable files that perform IGA actions.
 
 Jobs are used to write sets of successive tasks, and schedule their execution.
 
-See how to configure [ Job ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md).
+See how to configure [ Job ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md).
 
 A job can contain tasks explicitly, or contain steps used to call existing tasks in order to use a
 single task in several jobs.

@@ -1,3 +1,9 @@
+---
+title: "Display Entity Type"
+description: "Display Entity Type"
+sidebar_position: 20
+---
+
 # Display Entity Type
 
 The `<DisplayEntityType>` element sets information about how an entity type is to be displayed by
@@ -134,7 +140,7 @@ the Identity Manager interface.
 | Format optional                 | String      | Defines a formatting method on the property values (`ParseSince1601Date`, `ToStringUserAccountControl`, `FormatDate` and `ParseBoolean`).                                                                                         |
 | Group optional                  | Int64       | Identifier of the display property group, i.e. the fieldset, that the property is part of in the default UI form.                                                                                                                 |
 | IconCode optional               | String      | Defines the icon code.                                                                                                                                                                                                            |
-| InputType default value: Auto   | Enumeration | Identifier of the input type. See the [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) topic for additional information.                                                                                                                                  |
+| InputType default value: Auto   | Enumeration | Identifier of the input type. See the [Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) topic for additional information.                                                                                                                                  |
 | IsHidden default value: false   | Boolean     | Property is hidden.                                                                                                                                                                                                               |
 | IsReadOnly default value: false | Boolean     | Property is ReadOnly.                                                                                                                                                                                                             |
 | IsRequired default value: false | Boolean     | Property is required.                                                                                                                                                                                                             |

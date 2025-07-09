@@ -1,3 +1,9 @@
+---
+title: "Form"
+description: "Form"
+sidebar_position: 50
+---
+
 # Form
 
 A form contains a set of input fields (called controls) to be filled by a user, in a structured way.

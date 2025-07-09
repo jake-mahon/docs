@@ -1,3 +1,9 @@
+---
+title: "Usercube-Fulfill-Scim"
+description: "Usercube-Fulfill-Scim"
+sidebar_position: 180
+---
+
 # Usercube-Fulfill-Scim
 
 This executable creates, updates and deleles entries in an application using the SCIM API.
@@ -28,8 +34,8 @@ But the identifiers can be also given instead of the id:
 
 | Argument Name              | Details                                                                                                                                                                                                                                                                                                                      |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| --api-client-id required   | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.    |
-| --api-secret required      | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id required   | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.    |
+| --api-secret required      | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url required         | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                              |
 |                            |                                                                                                                                                                                                                                                                                                                              |
 | ---                        | ---                                                                                                                                                                                                                                                                                                                          |

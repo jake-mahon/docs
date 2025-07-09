@@ -1,3 +1,9 @@
+---
+title: "Create Administrator Profile"
+description: "Create Administrator Profile"
+sidebar_position: 20
+---
+
 # Create Administrator Profile
 
 This scaffolding creates the administrator profile with a predefined set of rights.
@@ -7,88 +13,88 @@ administrator profile.
 
 The scaffolding generates the following scaffoldings:
 
-- [ Access Review Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md):
+- [ Access Review Administration Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md):
   Generates the permissions to administrate campaign creation.
-- [ Assign Profile Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md):
+- [ Assign Profile Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/assignprofileaccesscontrolrules/index.md):
   Gives to a given profile the rights to create, update, delete and query any assigned profile.
-- [ Basket Rules Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.md):
+- [ Basket Rules Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/basketrulescontrolrules/index.md):
   Generates the permissions to execute the different requests to display the information in the
   rights basket.
-- [ Connector Resource Type Access Control ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
+- [ Connector Resource Type Access Control ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
   Gives the rights to create and update resource types, generate provisioning orders and fulfill
   from the connector screen.
-- [Connectors Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.md): Gives the permissions
+- [Connectors Access Control Rules](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/connectorsaccesscontrolrules/index.md): Gives the permissions
   to manage the connector pages.
-- [ Create Connectors Jobs ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md): Creates all jobs by
+- [ Create Connectors Jobs ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md): Creates all jobs by
   connector to launched task in the connector page.
-- [ Create Resource Incremental Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md):
+- [ Create Resource Incremental Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/createresourceincrementalaccesscontrolrules/index.md):
   Generates the access control rule which gives to a profile the permission to query the resources
   modified incrementally
-- [ Job Execution Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md): Assigns a set
+- [ Job Execution Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md): Assigns a set
   of rights to a given profile to execute any job, and view all job instances, task instances and
   logs.
-- [ Manage Accounts ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.md):
-- [ Manage Setting Access Control Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md):
+- [ Manage Accounts ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/userinterfaces/manageaccounts/index.md):
+- [ Manage Setting Access Control Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/managesettingaccesscontrolrule/index.md):
   Generates the access control rule which gives to a profile the permission to query, create, update
   and delete settings from the UM_Settings table.
-- [ Monitoring Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md):
+- [ MonitoringAdministrationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/monitoring/monitoringadministrationaccesscontrolrules/index.md):
   Generates the access control rule which gives to a profile the permission to query the monitoring
   screen.
-- [ Perform Manual Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+- [ Perform Manual Provisioning Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the manual provisioning pages for a given entity type and
   profile.
-- [ Profile Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md):
+- [ Profile Administration Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/profileadministrationaccesscontrolrules/index.md):
   Gives to a given profile the rights to create, update and delete profiles.
-- [ Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md):
+- [ ProvisioningAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/provisioningaccesscontrolrules/index.md):
   Generates the execution rights for Provisioning and Fulfillment tasks for a given profile.
-- [ Reconciliate Roles Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+- [ Reconciliate Roles Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
   Generates the permissions to access the resource reconciliation pages for a given entity type and
   profile.
-- [ Reconciliate Roles Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+- [ Reconciliate Roles Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
   Generates the permissions to access the role reconciliation pages for a given entity type and
   profile.
-- [ Redundant Assignment Access Control Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md):
+- [ Redundant Assignment Access Control Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/redundantassignmentaccesscontrolrule/index.md):
   Generates the permissions to access the **Redundant Assignment** page, to analyze and remove
   redundant assignments.
-- [ Report Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.md):
+- [ Report Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/reportaccesscontrolrules/index.md):
   Generates the permissions to access the report view.
-- [ Resource Api Administration ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourceapiadministration/index.md):
+- [ Resource Api Administration ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourceapiadministration/index.md):
   Generates the permissions to create/update/delete/query resources from a given entity type, for a
   given profile.
-- [ Resource Picker Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourcepickercontrolrules/index.md):
+- [ Resource Picker Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/resourcepickercontrolrules/index.md):
   Creates the reading right of the resource picker.
-- [ Resource Type Mapping Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
+- [ ResourceTypeMappingControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
   Generate rights to launch agent fulfillment.
-- [ Review Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+- [ Review Provisioning Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the provisioning review pages for a given entity type and
   profile.
-- [ Review Roles Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md):
+- [ Review Roles Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewrolesaccesscontrolrules/index.md):
   Generates the permissions to access the role review pages for a given entity type and profile.
-- [ Risks Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.md):
-- [ Role Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
+- [ Risks Administration Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/risksadministrationaccesscontrolrules/index.md):
+- [ Role Administration Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
   Generates the permissions to access the configuration pages and create, update, delete the
   elements of the role model.
-- [ Role Naming Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md):
+- [ Role Naming Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/rolenamingaccesscontrolrules/index.md):
   Generates the permissions to configure and launch the automatic creation of roles and rules based
   on naming conventions.
-- [ Settings Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md):
+- [ Settings Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/settingsaccesscontrolrules/index.md):
   Generates the permissions to configure the Workforce Core Solution module and connector settings.
-- [ Simulation Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/simulationaccesscontrolrules/index.md): Generates the
+- [ Simulation Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/simulationaccesscontrolrules/index.md): Generates the
   permissions to configure and launch simulations.
-- [ Synchronization Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md):
+- [ SynchronizationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md):
   Generates rights to launch synchronization task.
-- [ Task Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
+- [ TaskAdministrationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
   Generates all rights to have the access to job administration page.
-- [ Universe Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/universeaccesscontrolrules/index.md):
+- [ Universe Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/queries/universeaccesscontrolrules/index.md):
   Generates an access control rule which gives a profile the permission to access the query page and
   run queries.
-- [ View History Resource Template ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewhistoryresourcetemplate/index.md):
+- [ View History Resource Template ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewhistoryresourcetemplate/index.md):
   Generates an access control rule giving to the specified profile the permission to browse the
   resources history of the specified entity type.
-- [ Workflow Configuration Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.md):
-- [ Workflow Fulfillment Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md):
+- [ Workflow Configuration Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowconfigurationcontrolrules/index.md):
+- [ WorkflowFulfillmentControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/workflowfulfillmentcontrolrules/index.md):
   Generates the execution rights to launch Fulfillment workflow for a given profile.
-- [ Workflow Overview Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md):
+- [ Workflow Overview Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowoverviewcontrolrules/index.md):
   Generates the permissions to access the workflow supervision page.
 
 ## Examples

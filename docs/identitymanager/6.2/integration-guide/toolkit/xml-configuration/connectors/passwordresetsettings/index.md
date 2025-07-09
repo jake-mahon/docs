@@ -1,3 +1,9 @@
+---
+title: "Password Reset Settings"
+description: "Password Reset Settings"
+sidebar_position: 80
+---
+
 # Password Reset Settings
 
 This set of password reset settings contains the configuration to perform password reset operations
@@ -76,4 +82,4 @@ character.
 | NotificationCC optional                       | **Type** String **Description** Email address to set as CC recipient of all password reset notifications.                                                                                                                                                                                                |
 | NotifiedEmailBinding optional                 | **Type** Int64 **Description** Binding to the email address property of the person to be notified.                                                                                                                                                                                                       |
 | NotifiedFullNameBinding optional              | **Type** Int64 **Description** Binding to the full name property of the person to be notified.                                                                                                                                                                                                           |
-| StrengthCheck optional                        | **Type** String **Description** Regular expression (regex) that generated passwords must match, when `AutoGenerate` is set to `true`. **Note:** the strength of passwords set manually by users can be configured via [ Password Tests Setting ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/passwordtestssetting/index.md). |
+| StrengthCheck optional                        | **Type** String **Description** Regular expression (regex) that generated passwords must match, when `AutoGenerate` is set to `true`. **Note:** the strength of passwords set manually by users can be configured via [ Password Tests Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/passwordtestssetting/index.md). |

@@ -1,7 +1,13 @@
+---
+title: "Manage Configuration Indexes Task"
+description: "Manage Configuration Indexes Task"
+sidebar_position: 120
+---
+
 # Manage Configuration Indexes Task
 
 Manage indexes for configuration items with the
-tool[ Identity Manager-Manage-Configuration Dependent Indexes ](/docs/identitymanager/6.2/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
+tool[ Usercube-Manage-Configuration Dependent Indexes ](/docs/identitymanager/saas/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 

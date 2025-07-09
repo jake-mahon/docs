@@ -1,3 +1,9 @@
+---
+title: "Usercube-Create-DatabaseViews"
+description: "Usercube-Create-DatabaseViews"
+sidebar_position: 60
+---
+
 # Usercube-Create-DatabaseViews
 
 Generates entity model SQL views in the Identity Manager database. All views are prefixed by `zz_`.
@@ -9,11 +15,11 @@ For every **EntityType**, a matching SQL view is created from the UR_Resource ta
 ## Example
 
 The following example allows the user to connect to Identity Manager server at
-`http://usercube.contoso.com`, using the ClientId `Job` and Secret `secret`, to generate views for
+`http://identitymanager.contoso.com`, using the ClientId `Job` and Secret `secret`, to generate views for
 Identity Manager's database.
 
 ```
-./identitymanager-Create-DatabaseViews.exe --api-secret secret --api-client-id Job --api-url "http://usercube.contoso.com" --log-level Debug
+./identitymanager-Create-DatabaseViews.exe --api-secret secret --api-client-id Job --api-url "http://identitymanager.contoso.com" --log-level Debug
 ```
 
 ## Arguments
@@ -25,8 +31,8 @@ Identity Manager's database.
 | --progress-use-api optional                     | **Type** String **Description** Update progress with the API.                                                                                                                                                                                                                                                                |
 |                                                 |                                                                                                                                                                                                                                                                                                                              |
 | ---                                             | ---                                                                                                                                                                                                                                                                                                                          |
-| --api-client-id required                        | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.    |
-| --api-secret required                           | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
+| --api-client-id required                        | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions.    |
+| --api-secret required                           | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect ClientId/Secret pair, linked to a profile with the relevant permissions. |
 | --api-url required                              | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                              |
 |                                                 |                                                                                                                                                                                                                                                                                                                              |
 | ---                                             | ---                                                                                                                                                                                                                                                                                                                          |

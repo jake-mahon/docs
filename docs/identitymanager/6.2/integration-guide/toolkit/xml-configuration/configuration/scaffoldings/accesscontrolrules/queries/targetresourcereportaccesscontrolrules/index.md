@@ -1,10 +1,16 @@
+---
+title: "Target Resource Report Access Control Rules"
+description: "Target Resource Report Access Control Rules"
+sidebar_position: 30
+---
+
 # Target Resource Report Access Control Rules
 
 Generates the right to apply a report for a profile on a given entity.
 
 The existence of a report for this entity must exist in order to use this scaffolding. A scaffolding
 allows to generate a default report for an entity:
-[ Target Resource Report Menus ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
+[ Target Resource Report Menus ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
 
 ## Examples
 

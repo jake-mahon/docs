@@ -1,3 +1,9 @@
+---
+title: "SCIM"
+description: "SCIM"
+sidebar_position: 250
+---
+
 # SCIM
 
 This connector exports and fulfills entities from/to a
@@ -118,7 +124,7 @@ Configure the Salesforce connection
 
 To configure the Salesforce connection do the following:
 
-**Step 1 –** Log into Identity Manager using an admin account.
+**Step 1 –** Log into Identity Manager using an admin account.
 
 ![salesforce-connector](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/salesforce-connector.webp)
 
@@ -138,7 +144,7 @@ The configuration of the Salesforce connector is completed.
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the
 **appsettings.agent.json** > **Connections** section.  
-See the [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+See the [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -161,7 +167,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 
 - Be unique
 - Not begin with a digit
-- Not contain \<, \>, :, /, \, |, ?, \*, and \_.
+- Not contain `<`, `>`, `:`, `/`, `\`, `|`, `?`, `*`, and `_`.
 
 The following example gets information via SCIM on a web application whose URL base is
 `https://example.for.doc.com`:
@@ -181,7 +187,7 @@ appsettings.agent.json
         "ApplicationKey": "<KEY>",
         "Login": "<login>",
         "Password": "<password>",
-        "Filter": "<Users|?filter=active eq \"true\>"
+        "Filter": "<Users|?filter=active eq \"true\">"
     }
   }
 }
@@ -224,8 +230,8 @@ This connector is meant to generate to the ExportOutput folder the following CSV
   `<connectionIdentifier>_privilegedData_Containers.csv`.
 
 See the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and
-[ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and
+[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 topics for additional information.
 
 For the connector to work properly, the connection tables must follow the naming conventions too:
@@ -278,13 +284,13 @@ Same as for export, fulfill is configured through connections.
 >   "Connections": {
 >     ...
 >     "SCIMFulfillment": {
->       "ApplicationId": "<applicationIdExample>",
->       "Server": "<https://example.for.doc.com/services/scim>",
->       "ApplicationKey": "<KEY>",
->       "Login": "<login>",
->       "Password": "<password>",
->       "ServiceSupportBulk": true,
->       "BulkMaxOperation": 10
+>         "ApplicationId": "<applicationIdExample>",
+>         "Server": "<https://example.for.doc.com/services/scim>",
+>         "ApplicationKey": "<KEY>",
+>         "Login": "<login>",
+>         "Password": "<password>",
+>         "ServiceSupportBulk": true,
+>         "BulkMaxOperation": 10
 >     }
 >   }
 > }
@@ -325,24 +331,24 @@ Data protection can be ensured through:
 
 | Attribute          | Naming Convention for the Key in Azure Key Vault |
 | ------------------ | ------------------------------------------------ |
-| ApplicationId      | Connections--\<identifier\>--ApplicationId       |
-| ApplicationKey     | Connections--\<identifier\>--ApplicationKey      |
-| BulkMaxOperation   | Connections--\<identifier\>--BulkMaxOperation    |
-| Login              | Connections--\<identifier\>--Login               |
-| Password           | Connections--\<identifier\>--Password            |
-| ServiceSupportBulk | Connections--\<identifier\>--ServiceSupportBulk  |
-| Server             | Connections--\<identifier\>--Server              |
+| ApplicationId      | Connections--`<identifier>`--ApplicationId       |
+| ApplicationKey     | Connections--`<identifier>`--ApplicationKey      |
+| BulkMaxOperation   | Connections--`<identifier>`--BulkMaxOperation    |
+| Login              | Connections--`<identifier>`--Login               |
+| Password           | Connections--`<identifier>`--Password            |
+| ServiceSupportBulk | Connections--`<identifier>`--ServiceSupportBulk  |
+| Server             | Connections--`<identifier>`--Server              |
 
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
-[Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
-[CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
+[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
+[CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 For example:
 

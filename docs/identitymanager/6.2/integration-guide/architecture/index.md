@@ -1,3 +1,9 @@
+---
+title: "Architecture"
+description: "Architecture"
+sidebar_position: 220
+---
+
 # Architecture
 
 This article dives deeper into Identity Manager's design principles. Security and flexibility are
@@ -18,15 +24,15 @@ on Windows. Identity Manager's database is a
 
 ![Architecture](/img/product_docs/identitymanager/saas/integration-guide/architecture/architecture.webp)
 
-See the [ SaaS Environment ](/docs/identitymanager/6.2/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity
+See the [ SaaS Environment ](/docs/identitymanager/saas/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity
 Manager (formerly Usercube) recommended architecture when working in a SaaS environment.
 
-See the [ On-Premises Environment ](/docs/identitymanager/6.2/integration-guide/architecture/on-prem/index.md) topic for additional information on Netwrix
+See the [ On-Premises Environment ](/docs/identitymanager/saas/integration-guide/architecture/on-prem/index.md) topic for additional information on Netwrix
 Identity Manager (formerly Usercube)' recommended architecture when working in an on-premises
 environment.
 
 See how to
-[ Protect Agent/Server Communication ](/docs/identitymanager/6.2/integration-guide/architecture/how-tos/protect-agent-server-communication/index.md).
+[ Protect Agent/Server Communication ](/docs/identitymanager/saas/integration-guide/architecture/protect-agent-server-communication/index.md).
 
 ## Isolation Principle
 
@@ -58,8 +64,8 @@ jobs from the UI.
 
 Identity Manager can authenticate users within an Active Directory domain or using an OpenID
 identity server. For development mode, Identity Manager implements a form-based authentication using
-a unique password for all users . See the
-[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
+a unique password for all users See the
+[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
 topic for additional information.
 
 ## Multi-Agent Capability

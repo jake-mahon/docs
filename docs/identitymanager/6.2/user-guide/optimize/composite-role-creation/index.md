@@ -1,8 +1,14 @@
+---
+title: "Create a Composite Role"
+description: "Create a Composite Role"
+sidebar_position: 70
+---
+
 # Create a Composite Role
 
 How to define composite roles in order to create sets of single roles easy to assign. See the
-[ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
-and [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)topics
+[ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+and [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)topics
 for additional information.
 
 ## Overview
@@ -10,7 +16,7 @@ for additional information.
 A composite role is a set of single roles that are usually assigned together, because they revolve
 around the same application, or the same job, etc. Composite roles are aggregates of single roles,
 they can help organize the role catalog. See the
-[ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+[ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
 topic for additional information.
 
 ![Schema](/img/product_docs/identitymanager/saas/user-guide/optimize/composite-role-creation/compositeroles_applicativeroles.webp)
@@ -22,7 +28,7 @@ user to perform a task, a composite role allows them to perform a job.
 ### Composite roles and Role Mining
 
 Composite roles can also be created based on the rules provided by Role Mining. Rules link roles to
-dimensions. See the [ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) topic for
+dimensions. See the [ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md) topic for
 additional information.
 
 The following example shows single roles from A to F. Role Mining suggested the rules on the schema,
@@ -36,8 +42,8 @@ abstraction layer.
 
 Single role rules link composite roles to single roles: a single role rule states that specific
 single roles are assigned according to specific criteria, particularly composite roles. See the
-[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
-and [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)topics
+[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+and [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)topics
 for additional information. Thus, a composite role assignment can imply specific single role
 assignments.
 
@@ -50,7 +56,7 @@ application's users, entitlements and data model.
 | ----------------------- | --------------- |
 | Role catalog (required) | Composite roles |
 
-See the [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)
+See the [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Create a Composite Role
@@ -110,7 +116,7 @@ that.
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in roles and single role rules. See the
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md)topic for additional information.
+[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md)topic for additional information.
 
 ## Verify Composite Role Creation
 
@@ -126,4 +132,4 @@ parameters.
 ![Access Composite Roles](/img/product_docs/identitymanager/saas/user-guide/optimize/composite-role-creation/compositeroles_testroles_v602.webp)
 
 For rules, follow the instructions about assignment rules. See the
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)

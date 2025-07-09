@@ -1,3 +1,9 @@
+---
+title: "EasyVista"
+description: "EasyVista"
+sidebar_position: 70
+---
+
 # EasyVista
 
 Manages users inside an EasyVista instance. This package supports incremental synchronization.

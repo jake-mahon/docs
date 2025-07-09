@@ -1,3 +1,9 @@
+---
+title: "Thresholds"
+description: "Thresholds"
+sidebar_position: 10
+---
+
 # Thresholds
 
 Thresholds are essential safety guards controlling all changes, for example preventing the
@@ -11,13 +17,13 @@ Thresholds can be deactivated via the value `0`, though **they should not all be
 be "guarded" by at least one threshold.
 
 Once the changes have been reviewed, the blocked job can be resumed (or not). See the
-[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional
+[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) topic for additional
 information.
 
 ## Thresholds for Provisioning
 
 Provisioning thresholds can be configured in XML files via
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to count the
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) to count the
 number of resources impacted by provisioning inside a given resource type. These thresholds impact
 the generation of provisioning orders. They are configured with:
 
@@ -30,5 +36,5 @@ the generation of provisioning orders. They are configured with:
 All thresholds are active. Therefore, the lowest threshold (according to the specific situation)
 would be the first to stop the generation of provisioning orders.
 
-Distinct [ Thresholds ](/docs/identitymanager/6.2/integration-guide/synchronization/synchro-thresholds/index.md)are configurable for
+Distinct [ Thresholds ](/docs/identitymanager/saas/integration-guide/synchronization/synchro-thresholds/index.md) are configurable for
 synchronization.

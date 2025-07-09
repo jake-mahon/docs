@@ -1,3 +1,9 @@
+---
+title: "CyberArk's AAM Credential Providers"
+description: "CyberArk's AAM Credential Providers"
+sidebar_position: 50
+---
+
 # CyberArk's AAM Credential Providers
 
 This guide shows how to protect sensitive data by connecting Identity Manager to CyberArk's
@@ -5,8 +11,9 @@ Application Access Manager (AAM) Credential Providers.
 
 ## Data Protection
 
-Identity Manager often needs to connect to [Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md) with
-credentials that need protection.
+Identity Manager often needs to connect to [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) with
+credentials that need protection. See the [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) topic for
+additional information.
 
 By default, the data used to connect to external systems is stored in plain text in the
 **Connections** section of the `appsettings.agent.json` file. This is not a secure option.
@@ -61,11 +68,11 @@ be saved to CyberArk:
 | Password | `Password / ApplicationKey / ClientSecret`     |
 | Address  | `Server / MicrosoftGraphPathApi / ResponseUri` |
 
-Any [Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the
+Any [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) using one of these attributes as key can retrieve the
 associated value from CyberArk.
 
 > For example,
-> [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md) can
+> [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/activedirectory/index.md) can
 > retrieve: `Login`; `Password`; `Server`.
 
 ## Set Authorization Details
@@ -130,7 +137,7 @@ defining at least the following properties:
 Netwrix Identity Manager (formerly Usercube) recommends customizing the account's name because it will be used in [
 
               Connection
-              ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to retrieve this account from the vault.
+              ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) to retrieve this account from the vault.
 
 ```
 
@@ -180,8 +187,8 @@ section.
 | Name                                    | Details                                                                                                                                                                                                                                   |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | UseCyberArkSetting default value: False | **Type** Boolean **Description** `True` to enable the CyberArk Provider for Identity Manager.                                                                                                                                             |
-| SafeName required                       | **Type** String **Description** Name of the safe containing the [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) used by Identity Manager.                                                               |
-| ApplicationId required                  | **Type** String **Description** [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) of the application that can access the safe.                                                                                                             |
+| SafeName required                       | **Type** String **Description** Name of the safe containing the accounts used by Identity Manager. See the CyberArk's AAM Credential Providers topic for additional information.                                                          |
+| ApplicationId required                  | **Type** String **Description** Application ID of the application that can access the safe. See the CyberArk's AAM Credential Providers topic for additional information.                                                                 |
 | Server required                         | **Type** String **Description** URL configured for the CyberArk Vault. It is recommended to use HTTPS for security purposes. **Note:** the `Server` attribute is only used with the CyberArk Central Credential Provider (Agentless AAM). |
 
 ### Certificate settings
@@ -224,7 +231,7 @@ This information can be set one of two ways:
 >     "SafeName": "safeName",
 >     "ApplicationId" : "appId",
 >     "Server" : "serverUrl",
->     "File": "C:/UsercubeAgentContoso/contoso.pfx",
+>     "File": "C:/identitymanagerAgentContoso/contoso.pfx",
 >     "Password": "oarjr6r9f00"
 >   },
 >   ...
@@ -236,7 +243,7 @@ The archive is set using the following attributes:
 | Name              | Details                                                                                                                                                                                                                                                                                                                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | File required     | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                        |
-| Password optional | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. **Info:** storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md) tool. |
+| Password optional | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. **Info:** storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md) tool. |
 
 #### As a Certificate in the Windows Store
 
@@ -271,8 +278,9 @@ The Windows certificate is set using these attributes:
 
 ## Usercube's CyberArk Vault
 
-Once [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md), Identity Manager retrieves the sensitive
-values from CyberArk via the `appsettings.cyberArk.agent.json` file.
+Once configured, Identity Manager retrieves the sensitive values from CyberArk via the
+`appsettings.cyberArk.agent.json` file. See the CyberArk's AAM Credential Providers topic for
+additional information.
 
 In this file:
 

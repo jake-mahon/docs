@@ -1,3 +1,9 @@
+---
+title: "Identity Repository"
+description: "Identity Repository"
+sidebar_position: 10
+---
+
 # Identity Repository
 
 One of the main purposes of an IGA tool is to build a comprehensive repository containing all
@@ -29,14 +35,15 @@ The identity repository can be created and updated by:
 
 Netwrix Identity Manager (formerly Usercube) recommends creating the identity repository by
 downloading the provided Excel file, filling it with HR information, and uploading it back. See the
-[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)
 topic to learn how to create the workforce repository.
 
-Then
-[ Update Identities in Bulk ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md)
-with the same kind of process, and
-[ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)
-via Identity Manager's workflows.
+Then perform mass updates with the same kind of process, and update an Individual Identity via
+Identity Manager's workflows. See the
+[ Update Identities in Bulk ](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/mass-update/index.md)
+and
+[ Update an Individual Identity ](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/individual-update/index.md)topics
+for additional information.
 
 ### Useful data
 

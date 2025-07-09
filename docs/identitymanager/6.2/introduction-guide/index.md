@@ -1,11 +1,17 @@
+---
+title: "Introduction Guide"
+description: "Introduction Guide"
+sidebar_position: 10
+---
+
 # Introduction Guide
 
 This guide is designed to give a complete overview of Identity Manager's principles, main objectives
 and capabilities.
 
 Netwrix Identity Manager (formerly Usercube) strongly recommends starting here to fully benefit from
-the [Integration Guide](/docs/identitymanager/6.2/integration-guide/index.md)'s or the
-[User Guide](/docs/identitymanager/6.2/user-guide/index.md)'s contents.
+the [Integration Guide](/docs/identitymanager/saas/integration-guide/index.md)'s or the
+[User Guide](/docs/identitymanager/saas/user-guide/index.md)'s contents.
 
 ## Target Audience
 
@@ -21,5 +27,5 @@ understand this guide.
 
 ## First Steps
 
-Let's dive in with an [IGA and Netwrix Identity Manager](/docs/identitymanager/6.2/introduction-guide/overview/index.md) of IGA and Identity
+Let's dive in with an [IGA and Netwrix Identity Manager](/docs/identitymanager/saas/introduction-guide/overview/index.md) of IGA and Identity
 Manager.

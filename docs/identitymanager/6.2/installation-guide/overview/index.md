@@ -1,3 +1,9 @@
+---
+title: "Overview"
+description: "Overview"
+sidebar_position: 10
+---
+
 # Overview
 
 This section will give you an overview of Identity Manager's components, their requirements and
@@ -32,7 +38,7 @@ The port used to access the database depends on the
 and the
 [connectionString](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-8.0)
 set in the technical configuration. See the
-[Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md) topic for additional
+[Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md) topic for additional
 information.
 
 #### **3.** Agents
@@ -48,14 +54,14 @@ Identity Manager needs the following data flows to be enabled:
 - The **Agents** require accessing **managed systems**.
 - All end-users' **browsers** require opening HTTPS connections to the **Server**.
 - All end-users' **browsers** require accessing the authentication providers. See the
-  [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
+  [Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for additional information.
 - Some end-users' **browsers** require opening HTTPS connections to the **Agents**.
 
     These connections are used to launch `Jobs` or use the `Reset Password` capabilities of some
     connectors. This requirement only applies to a few specific **administrator type profiles**.
 
 - The **Server** and the **Agent** both need to access an **SMTP server** to
-  [ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
+  [ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md).
 
 ## SaaS vs. On-Premise
 
@@ -63,10 +69,10 @@ Identity Manager comes in two flavors: SaaS and On-Premise.
 
 - The **SaaS** offering only requires the Agent to be installed on your organization network.
 - The **On-Premise** offering requires the Agent, the
-  [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md), and the
-  [ Install the Database ](/docs/identitymanager/6.2/installation-guide/production-ready/database/index.md) to be installed.
+  [Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md), and the
+  [ Install the Database ](/docs/identitymanager/saas/installation-guide/production-ready/database/index.md) to be installed.
 
-See the [ Install the Agents](/docs/identitymanager/6.2/installation-guide/production-ready/agent/index.md) topics for additional information.
+See the [ Install the Agents](/docs/identitymanager/saas/installation-guide/production-ready/agent/index.md) topics for additional information.
 
 ## Hosting Hardware
 
@@ -81,7 +87,7 @@ Manager Server or run on a separate machine. The second approach is recommended
 ### Server and Agents
 
 The Identity Manager Server and the Agents can be spread between several workstations. See the
-[ Install the Agents](/docs/identitymanager/6.2/installation-guide/production-ready/agent/index.md) topics for additional information.
+[ Install the Agents](/docs/identitymanager/saas/installation-guide/production-ready/agent/index.md) topics for additional information.
 
 Two scenarios unfold:
 
@@ -103,14 +109,14 @@ the same workstation or on a separate one.
 ## Authentication
 
 End-users will be able to access Identity Manager after authentication. Several authentication
-methods are available. See the [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for
+methods are available. See the [Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for
 additional information.
 
 ## Email Server
 
 Identity Manager sends notifications to users by email. An email server will have to be set up for
-the Agent and the Server. See the [ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md)
+the Agent and the Server. See the [ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md)
 topic for additional information.
 
 Before you check out the installation steps, make sure that all the
-[Requirements](/docs/identitymanager/6.2/installation-guide/requirements/index.md) are met.
+[Requirements](/docs/identitymanager/saas/installation-guide/requirements/index.md) are met.

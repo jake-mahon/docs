@@ -1,3 +1,9 @@
+---
+title: "Usercube-New-OpenIDSecret"
+description: "Usercube-New-OpenIDSecret"
+sidebar_position: 270
+---
+
 # Usercube-New-OpenIDSecret
 
 This tools generates an hash. In practice, we hash a client secret but the tool can generate
@@ -16,7 +22,7 @@ Usercube-New-OpenIDSecret.exe'.
 
 The output shows the client secret and its hashed version. It must be entered in the [
 OpenIdClient
-](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
+](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
 
 ## Arguments
 

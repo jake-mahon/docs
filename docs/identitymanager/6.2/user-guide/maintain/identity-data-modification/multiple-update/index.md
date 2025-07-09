@@ -1,3 +1,9 @@
+---
+title: "Update Multiple Identities"
+description: "Update Multiple Identities"
+sidebar_position: 20
+---
+
 # Update Multiple Identities
 
 How to perform a same change in data for several identities simultaneously.
@@ -21,7 +27,7 @@ department.
 | ----------------------------------------------------------- | --------------------------- |
 | Identity repository (required) New identity data (required) | Updated identity repository |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)
 topic for additional information.
 
 ## Update
@@ -66,4 +72,4 @@ In order to verify the process:
 - Create reports with indicators, for example, on the number of workers per type or per organization
   (through Identity Manager's predefined reports, the Query module or Power BI), to ensure that
   Identity Manager's content sticks to reality. See the
-  [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
+  [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.

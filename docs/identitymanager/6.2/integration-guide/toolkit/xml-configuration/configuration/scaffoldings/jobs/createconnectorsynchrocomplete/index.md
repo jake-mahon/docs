@@ -1,3 +1,9 @@
+---
+title: "Create Connector Synchro Complete"
+description: "Create Connector Synchro Complete"
+sidebar_position: 60
+---
+
 # Create Connector Synchro Complete
 
 This scaffolding generates a synchronization job (in Complete mode) for the given connector.
@@ -11,7 +17,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<CreateConnectorSynchroComplete DisplayName_L1="10: Microsoft Entra ID (formerly Azure Active Directory) - Synchronization Complete (scaffolding)" Connector="AzureAD" JobIdentifier="AzureAD_Synchronize_Complete_Scaffolding"/>
+<CreateConnectorSynchroComplete DisplayName_L1="10: Microsoft Entra ID (formerly Azure Active Directory) - Synchronization Complete (scaffolding)" Connector="MicrosoftEntraID" JobIdentifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding"/>
 ```
 
 ## Properties
@@ -106,47 +112,47 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<Job Identifier="AzureAD_Synchronize_Complete_Scaffolding" DisplayName_L1="10: Microsoft Entra ID - Synchronization Complete (scaffolding)" Agent="Local">
-  <ExportTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_Export_AzureAD_Complete_AzureADExportFulfillment" DisplayName_L1="Microsoft Entra ID - Extract Changes" DisplayName_L2="Microsoft Entra ID - Extraction des modifications" Agent="Local" Connector="AzureAD" Level="0" OpenIdClient="Job" Connection="AzureADExportFulfillment" ContinueOnError="true" IgnoreCookieFile="true" />
-  <PrepareSynchronizationTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_PrepareSynchronization_AzureAD_Complete" DisplayName_L1="Microsoft Entra ID - Synchronization (agent side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté agent)" Agent="Local" Connector="AzureAD" Level="1" OpenIdClient="Job" SynchronizationMode="Complete">
-    <TaskDependsOnTask ParentTask="AzureAD_Synchronize_Complete_Scaffolding_Export_AzureAD_Complete_AzureADExportFulfillment" />
+<Job Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding" DisplayName_L1="10: Microsoft Entra ID - Synchronization Complete (scaffolding)" Agent="Local">
+  <ExportTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_Export_MicrosoftEntraID_Complete_MicrosoftEntraIDExportFulfillment" DisplayName_L1="Microsoft Entra ID - Extract Changes" DisplayName_L2="Microsoft Entra ID - Extraction des modifications" Agent="Local" Connector="MicrosoftEntraID" Level="0" OpenIdClient="Job" Connection="MicrosoftEntraIDExportFulfillment" ContinueOnError="true" IgnoreCookieFile="true" />
+  <PrepareSynchronizationTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_PrepareSynchronization_MicrosoftEntraID_Complete" DisplayName_L1="Microsoft Entra ID - Synchronization (agent side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté agent)" Agent="Local" Connector="MicrosoftEntraID" Level="1" OpenIdClient="Job" SynchronizationMode="Complete">
+    <TaskDependsOnTask ParentTask="MicrosoftEntraID_Synchronize_Complete_Scaffolding_Export_MicrosoftEntraID_Complete_MicrosoftEntraIDExportFulfillment" />
   </PrepareSynchronizationTask>
-  <SynchronizeTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_Synchronize_AzureAD" DisplayName_L1="Microsoft Entra ID - Synchronization (server side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté serveur)" Connector="AzureAD" Level="2">
-    <TaskDependsOnTask ParentTask="AzureAD_Synchronize_Complete_Scaffolding_PrepareSynchronization_AzureAD_Complete" />
+  <SynchronizeTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_Synchronize_MicrosoftEntraID" DisplayName_L1="Microsoft Entra ID - Synchronization (server side)" DisplayName_L2="Microsoft Entra ID - Synchronisation (côté serveur)" Connector="MicrosoftEntraID" Level="2">
+    <TaskDependsOnTask ParentTask="MicrosoftEntraID_Synchronize_Complete_Scaffolding_PrepareSynchronization_MicrosoftEntraID_Complete" />
   </SynchronizeTask>
-  <UpdateEntityPropertyExpressionsTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_UpdateEntityPropertyExpressions1" DisplayName_L1="Update Computed Properties" DisplayName_L2="Mise à jour des propriétés calculées" Level="3">
-    <TaskEntityType EntityType="AzureAD_DirectoryObject" />
+  <UpdateEntityPropertyExpressionsTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_UpdateEntityPropertyExpressions1" DisplayName_L1="Update Computed Properties" DisplayName_L2="Mise à jour des propriétés calculées" Level="3">
+    <TaskEntityType EntityType="MicrosoftEntraID_DirectoryObject" />
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
   </UpdateEntityPropertyExpressionsTask>
-  <ComputeCorrelationKeysTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_ComputeCorrelationKeys1_AllEntities" DisplayName_L1="Compute all Correlations" DisplayName_L2="Calcul des corrélations" Level="4">
-    <TaskEntityType EntityType="AzureAD_DirectoryObject" />
+  <ComputeCorrelationKeysTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_ComputeCorrelationKeys1_AllEntities" DisplayName_L1="Compute all Correlations" DisplayName_L2="Calcul des corrélations" Level="4">
+    <TaskEntityType EntityType="MicrosoftEntraID_DirectoryObject" />
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
   </ComputeCorrelationKeysTask>
-  <ComputeRoleModelTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_ComputeRoleModel1" DisplayName_L1="Apply the Role Model" DisplayName_L2="Evaluation du modèle de rôles" Level="5">
+  <ComputeRoleModelTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_ComputeRoleModel1" DisplayName_L1="Apply the Role Model" DisplayName_L2="Evaluation du modèle de rôles" Level="5">
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
   </ComputeRoleModelTask>
-  <ComputeRiskScoresTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_ComputeRiskScores1" DisplayName_L1="Compute Risk Scores" DisplayName_L2="Calcul des scores de risques" Level="6">
+  <ComputeRiskScoresTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_ComputeRiskScores1" DisplayName_L1="Compute Risk Scores" DisplayName_L2="Calcul des scores de risques" Level="6">
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
   </ComputeRiskScoresTask>
-  <GenerateProvisioningOrdersTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_GenerateProvisioningOrders1" DisplayName_L1="Generate Provisioning Orders - Microsoft Entra ID" DisplayName_L2="Génération des ordres de provisioning - Microsoft Entra ID" Level="7">
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_Guest" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_NominativeUser" />
+  <GenerateProvisioningOrdersTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_GenerateProvisioningOrders1" DisplayName_L1="Generate Provisioning Orders - Microsoft Entra ID" DisplayName_L2="Génération des ordres de provisioning - Microsoft Entra ID" Level="7">
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_Guest" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" />
   </GenerateProvisioningOrdersTask>
-  <FulfillTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_Fulfill1" DisplayName_L1="Fulfillment - Microsoft Entra ID" DisplayName_L2="Alimentation - Microsoft Entra ID" Agent="Local" Level="8" OpenIdClient="Job" Dirty="false" ContinueOnError="true">
-    <TaskDependsOnTask ParentTask="AzureAD_Synchronize_Complete_Scaffolding_GenerateProvisioningOrders1" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_Guest" />
-    <TaskResourceType ResourceType="AzureAD_DirectoryObject_NominativeUser" />
+  <FulfillTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_Fulfill1" DisplayName_L1="Fulfillment - Microsoft Entra ID" DisplayName_L2="Alimentation - Microsoft Entra ID" Agent="Local" Level="8" OpenIdClient="Job" Dirty="false" ContinueOnError="true">
+    <TaskDependsOnTask ParentTask="MicrosoftEntraID_Synchronize_Complete_Scaffolding_GenerateProvisioningOrders1" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_Guest" />
+    <TaskResourceType ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" />
   </FulfillTask>
-  <UpdateParametersContextDisplayNamesTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_UpdateParametersContextDisplayNames" DisplayName_L1="Update of Parameters Context Display Names" DisplayName_L2="Mise à jour des noms des contextes de paramètres" Level="9" />
-  <SendRoleModelNotificationsTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_SendRoleModelNotifications" DisplayName_L1="Send Role Model Notifications" DisplayName_L2="Envoi des notifications de modèle de rôles" Level="10">
+  <UpdateParametersContextDisplayNamesTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_UpdateParametersContextDisplayNames" DisplayName_L1="Update of Parameters Context Display Names" DisplayName_L2="Mise à jour des noms des contextes de paramètres" Level="9" />
+  <SendRoleModelNotificationsTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_SendRoleModelNotifications" DisplayName_L1="Send Role Model Notifications" DisplayName_L2="Envoi des notifications de modèle de rôles" Level="10">
     <TaskEntityType EntityType="Directory_Bot" />
     <TaskEntityType EntityType="Directory_Guest" />
     <TaskEntityType EntityType="Directory_User" />
   </SendRoleModelNotificationsTask>
-  <MaintainIndexesTask Identifier="AzureAD_Synchronize_Complete_Scaffolding_MaintainIndexes" DisplayName_L1="SQL Index and Statistics Maintenance" DisplayName_L2="Maintenance des index SQL et des statistiques" Level="11" />
+  <MaintainIndexesTask Identifier="MicrosoftEntraID_Synchronize_Complete_Scaffolding_MaintainIndexes" DisplayName_L1="SQL Index and Statistics Maintenance" DisplayName_L2="Maintenance des index SQL et des statistiques" Level="11" />
 </Job>
 ```

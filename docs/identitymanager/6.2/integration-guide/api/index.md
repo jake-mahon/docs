@@ -1,3 +1,9 @@
+---
+title: "API"
+description: "API"
+sidebar_position: 170
+---
+
 # API
 
 Agent and server expose a REST API.
@@ -5,7 +11,7 @@ Agent and server expose a REST API.
 ## OpenAPI Definition
 
 This feature is optional and must be activated by the Swagger settings section. See the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topic
 for additional information.
 
 The page `[Usercube application's URL]/swagger` can be used to explore and test the API.

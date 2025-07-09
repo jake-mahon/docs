@@ -1,3 +1,9 @@
+---
+title: "Expressions"
+description: "Expressions"
+sidebar_position: 40
+---
+
 # Expressions
 
 Expressions are a way to define the attributes whose values must be computed based on other
@@ -8,15 +14,15 @@ attributes.
 In Identity Manager's XML configuration, some attributes are defined with expressions. Expression
 attributes do not take a plain string value, but rather an expression that computes a value based on
 a given input. See the
-[ Entity Property Expression ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional
+[ Entity Property Expression ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional
 information.
 
 Every expression must be passed at least one argument and return at least one value.
 
 The expression can either be provided as a built-in function or as a full-fledged C# expression. See
 the list of available C# utility functions and functions predefined by Identity Manager. See the
-[Predefined functions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
+[Predefined functions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
 **NOTE:** When changing the value of a property that is part of some expressions in the
 configuration, do not expect to see all expressions recomputed right away.
@@ -37,7 +43,7 @@ For example, the source object of a scalar rule based on user records is display
 The field Property Path is usually filled in with the + button only when the rule involves one
 single attribute. If the object involves more than one attribute, then the attributes are to be
 written in Expression (C#), with the help of predefined simple transformations. See the
-[Predefined functions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
+[Predefined functions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
 The first example defines the source object as simply the user record's Login property, while the
 second defines the source object with an expression based on the user record's first and last names:
@@ -48,7 +54,7 @@ second defines the source object with an expression based on the user record's f
 
 ### Expressions in XML
 
-In XML, inside the C# expressions, make sure to escape `<">` characters by writing them as `<">`.
+In XML, inside the C# expressions, make sure to escape `"` characters by writing them as `&quot;`.
 
 For example:
 
@@ -147,9 +153,6 @@ return resources.FirstOrDefault()?.Id;
 ```
 
 Another example, to query the organization whose Identifier is `<23040>`:
-
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
-script in the command line.
 
 ```
 C#:return queryHandler.Select<Directory_Organization>("Select Identifier Where Id=23040").FirstOrDefault()?.Identifier;

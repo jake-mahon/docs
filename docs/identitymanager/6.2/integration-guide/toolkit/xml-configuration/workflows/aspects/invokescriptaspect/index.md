@@ -1,3 +1,9 @@
+---
+title: "Invoke Script Aspect"
+description: "Invoke Script Aspect"
+sidebar_position: 50
+---
+
 # Invoke Script Aspect
 
 Runs a tailored script asynchronously, independent of the workflow event, necessitating the creation
@@ -27,14 +33,14 @@ script in the command line.
 | Identifier required        | String | Unique identifier of the aspect.                                                                                                                                                                                                                                                                                                                  |
 | Agent optional             | String | Agent on which the script will be launched.                                                                                                                                                                                                                                                                                                       |
 | ExpressionBinding optional | String | Binding defines the variable type used in the potential expressions specified in the aspect. The difference with `Binding` defines the property involved in the aspect. **NOTE:** It is required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
-| IfExpression optional      | String | Expression that conditions the aspect execution. See the [ C# utility functions ](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/csharp-utility-functions/index.md) topic for additional information.                                                                                                                                                                    |
+| IfExpression optional      | String | Expression that conditions the aspect execution. See the [ C# utility functions ](/docs/identitymanager/saas/integration-guide/toolkit/expressions/csharp-utility-functions/index.md) topic for additional information.                                                                                                                                                                    |
 | Priority default value: 0  | Int32  | Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first. **NOTE:** The priority can be a negative value.                                                                                                                                                                    |
 | ScriptFile optional        | String | Path of the script file to be executed by the aspect.                                                                                                                                                                                                                                                                                             |
 
 ## ChildElement: PointCut
 
 A pointcut is a mechanism telling Identity Manager when to execute the linked aspect. See the
-[Aspects](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) topic for additional information.
+[Aspects](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md) topic for additional information.
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 

@@ -1,3 +1,9 @@
+---
+title: "Invoke Sql Command Task"
+description: "Invoke Sql Command Task"
+sidebar_position: 80
+---
+
 # Invoke Sql Command Task
 
 Takes as input an SQL file or an SQL command to output several CSV files that can be used by the
@@ -14,7 +20,7 @@ script in the command line.
 
 **NOTE:** The database Identifier attribute has a specific location where the connection strings for
 the database identifiers need to be defined. See the
-[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic
+[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic
 for additional information.
 
 ## Properties

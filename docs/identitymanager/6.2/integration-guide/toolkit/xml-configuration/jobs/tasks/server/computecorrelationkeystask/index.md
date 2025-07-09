@@ -1,3 +1,9 @@
+---
+title: "Compute Correlation Keys Task"
+description: "Compute Correlation Keys Task"
+sidebar_position: 20
+---
+
 # Compute Correlation Keys Task
 
 The Compute Role Model correlation keys will pre-calculate all the keys needed by the Compute Role

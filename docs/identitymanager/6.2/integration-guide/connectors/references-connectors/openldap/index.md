@@ -1,9 +1,15 @@
+---
+title: "OpenLDAP"
+description: "OpenLDAP"
+sidebar_position: 180
+---
+
 # OpenLDAP
 
 This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/)
 directory.
 
-This page is about [ OData ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/odata/index.md).
+This page is about [ OData ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/odata/index.md).
 
 ![Package: Directory/Open LDAP](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
@@ -16,12 +22,12 @@ OpenLDAP is an open source implementation of the Lightweight Directory Access Pr
 Implementing this connector requires:
 
 - reading first the
-  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account with reading and writing permissions on the target OpenLDAP server;
 - enabling SyncProv Overlay for the OpenLDAP server.
 
     To perform a complete export without the SyncProv Overlay enabled, use rather the
-    [ LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/ldap/index.md) connector.
+    [ LDAP ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/ldap/index.md) connector.
 
 ## Export
 
@@ -30,7 +36,7 @@ This connector exports to CSV files the content of an OpenLDAP Directory.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -94,14 +100,15 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to
-the[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder:
+This connector is meant to generate to the
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder:
 
 - a CSV file, named `<connectionIdentifier>_entry.csv`, with one column for each property having a
   `ConnectionColumn` and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified. See the
-    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
+    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
     topic for additional information.
 
 - a CSV file for each `ConnectionTable` in a related `EntityTypeMapping` or
@@ -122,8 +129,8 @@ the[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-config
     can use the option `--ignore-cookies`.
 
 The CSV files are stored in the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder, and the
-cookie file in the Export Cookies folder.
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder, and the cookie file in the Export Cookies folder.
 
 > For example, with the following configuration:
 >
@@ -133,7 +140,7 @@ cookie file in the Export Cookies folder.
 >
 > ```
 >
-> We would have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport.csv` like:
+> We would have `C:/identitymanagerContoso/Temp/ExportOutput/OpenLDAPExport.csv` like:
 >
 > ```
 > entry.csv
@@ -141,7 +148,7 @@ cookie file in the Export Cookies folder.
 > Insert,value1,value2,...,valueN
 > ```
 >
-> And we would also have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport_member.csv` like:
+> And we would also have `C:/identitymanagerContoso/Temp/ExportOutput/OpenLDAPExport_member.csv` like:
 >
 > ```
 > LDAPExport_member.csv
@@ -154,7 +161,7 @@ cookie file in the Export Cookies folder.
 This connector fulfills via the LDAP connector's fulfill process.
 
 The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
-Identity Manager UI or by [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md)
+Identity Manager UI or by [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md)
 enforcement.
 
 ### Configuration
@@ -236,12 +243,12 @@ provisioning order, through the `ResourceType`'s `ArgumentsExpression`.
 
 Data protection can be ensured through:
 
-- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+- [](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   safe;
 
 - a
-  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   able to store OpenLDAP's `Login`, `Password` and `Server`.

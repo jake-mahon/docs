@@ -1,3 +1,9 @@
+---
+title: "Tasks"
+description: "Tasks"
+sidebar_position: 10
+---
+
 # Tasks
 
 A task is Identity Manager's way to configure and use a given executable that performs a given IGA
@@ -16,7 +22,7 @@ launchable via the UI, or even scheduled to be launched automatically periodical
 
 > For example, Identity Manager's tasks include synchronization, computation of entitlement
 > assignments, or provisioning of varied managed systems. See the list of all available
-> [ Tasks ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
+> [ Tasks ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
 
 ## Data Consistency
 

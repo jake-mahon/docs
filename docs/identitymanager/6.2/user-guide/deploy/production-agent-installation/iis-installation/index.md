@@ -1,3 +1,9 @@
+---
+title: "Install IIS via Server Manager"
+description: "Install IIS via Server Manager"
+sidebar_position: 20
+---
+
 # Install IIS via Server Manager
 
 This guide shows how to configure the local server to install IIS via Server Manager.
@@ -43,5 +49,4 @@ Install IIS via Server Manager by proceeding as follows:
 
 ## Next Steps
 
-To continue, [ Configure the Pool and Site ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-configuration/index.md)the application pool and
-website via IIS.
+To continue,[ Configure the Pool and Site ](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/iis-configuration/index.md)and website via IIS.

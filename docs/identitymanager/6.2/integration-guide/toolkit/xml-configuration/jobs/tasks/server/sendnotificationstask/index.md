@@ -1,7 +1,13 @@
+---
+title: "Send Notifications Task"
+description: "Send Notifications Task"
+sidebar_position: 170
+---
+
 # Send Notifications Task
 
 Task that sends all the custom notifications defined by the
-[ Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notification/index.md) XML tag.
+[ Notification ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notification/index.md) XML tag.
 
 ## Examples
 

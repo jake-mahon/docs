@@ -1,3 +1,9 @@
+---
+title: "Position Change via Records"
+description: "Position Change via Records"
+sidebar_position: 20
+---
+
 # Position Change via Records
 
 Identities' Joiners, Movers and Leavers (JML) process can be made easy by using the adequate model:
@@ -18,7 +24,7 @@ with an automated fulfillment.
 
 Identity Manager's calculations for entitlement assignments rely on heuristics, through identities'
 key properties called
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md).
+[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md).
 
 > For example, consider an entity type modeling identities with their job title, department and
 > location.
@@ -57,7 +63,7 @@ anticipate upcoming changes.
 
 ### Contexts
 
-The model is supposed to facilitate the [Provisioning](/docs/identitymanager/6.2/integration-guide/provisioning/index.md) provisioning
+The model is supposed to facilitate the [Provisioning](/docs/identitymanager/saas/integration-guide/provisioning/index.md) provisioning
 of user data and entitlements, yet this first model does not meet all expectations. In case of
 multiple personal data sets for a single user over time, or multiple contracts, or multiple
 positions, which values should be used to apply the rules of the role model? How to combine all
@@ -161,12 +167,12 @@ A change to be effective in future can trigger the creation of a new record.
 ### Configuration
 
 This identity model can be implemented by configuring a
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
-[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
+[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
+[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
 
-```
+````
 
-<ContextRule Identifier="Directory_User" DisplayName_L1="Directory_User" Policy="Default" SourceEntityType="Directory_User" ResourcesBinding="Records" ResourcesStartExpression="C#:record:return record.StartDate ?? record.PositionStartDate ?? record.ContractStartDate;" ResourcesEndExpression="C#:record:return record.EndDate ?? record.PositionEndDate ?? record.ContractEndDate;" ExcludeExpression="C#:record:return record.IsDraft.GetValueOrDefault();" RiskFactorType="Max"
+```<ContextRule Identifier="Directory_User" DisplayName_L1="Directory_User" Policy="Default" SourceEntityType="Directory_User" ResourcesBinding="Records" ResourcesStartExpression="C#:record:return record.StartDate ?? record.PositionStartDate ?? record.ContractStartDate;" ResourcesEndExpression="C#:record:return record.EndDate ?? record.PositionEndDate ?? record.ContractEndDate;" ExcludeExpression="C#:record:return record.IsDraft.GetValueOrDefault();" RiskFactorType="Max"
     B0="Directory_UserRecord:Organization"
     B1="Directory_UserRecord:Title"
     B2="Directory_UserRecord:Site"
@@ -175,18 +181,18 @@ This identity model can be implemented by configuring a
     B5="Directory_UserRecord:Organization.Type"
     B6="Directory_UserRecord:Subsidiary"
     B7="Directory_UserRecord:ExternalCompany"
-/>
+/>```
 
 Personal data section (default section):
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="User Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate" InstanceKeyExpression="C#:record:return record.StartDate.HasValue ? record.StartDate.Value.ToString("yyyyMMdd") : string.Empty;"></RecordSection>
 
 Contract section:
-<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true" InstanceKeyExpression="C#:record:return record.ContractIdentifier;">  <Property Property="UserType"/>  <Property Property="ExternalCompany"/>  <Property Property="Subsidiary"/></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true" InstanceKeyExpression="C#:record:return record.ContractIdentifier;">  ```<Property Property="UserType"/>```  ```<Property Property="ExternalCompany"/>```  ```<Property Property="Subsidiary"/>```</RecordSection>
 
 Position section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  <Property Property="PositionIdentifier" />  <Property Property="JobTitle" />  <Property Property="OfficeNumber" />  <Property Property="Organization" />  <Property Property="Site"/>  <Property Property="Title" />  <Property Property="Office" />  <Property Property="Manager" />  <Property Property="IGAManager" />  <Property Property="EffectiveIGAManager" />  <Property Property="IsMainPosition" /></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  ```<Property Property="PositionIdentifier" />```  ```<Property Property="JobTitle" />```  ```<Property Property="OfficeNumber" />```  ```<Property Property="Organization" />```  ```<Property Property="Site"/>```  ```<Property Property="Title" />```  ```<Property Property="Office" />```  ```<Property Property="Manager" />```  ```<Property Property="IGAManager" />```  ```<Property Property="EffectiveIGAManager" />```  ```<Property Property="IsMainPosition" />```</RecordSection>
 
-```
+````
 
 ## Position Change
 

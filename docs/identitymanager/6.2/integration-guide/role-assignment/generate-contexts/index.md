@@ -1,9 +1,15 @@
+---
+title: "Generate Contexts"
+description: "Generate Contexts"
+sidebar_position: 50
+---
+
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
+[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
 combination of a context rule and the
-[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
+[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
 sections are configured.
 
 A context is used to compute the role assignments for an identity by verifying that the
@@ -12,9 +18,8 @@ dimension-value pairs meet the role criteria.
 ## Basic Context Generation
 
 When using only a context rule without a record section, the context generation is straightforward:
-a set of dimension-value pairs is created by computing the value of the
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) on the context
-rule.
+a set of dimension-value pairs is created by computing the value of the dimension bindings on the
+[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 > For example, the following context rule defines guests' contexts based on their start date, end
 > date, and company.
@@ -27,11 +32,11 @@ rule.
 
 ## Identity Context Generation
 
-As described in the [Identity Management](/docs/identitymanager/6.2/integration-guide/identity-management/index.md), identities are
+As described in the [Identity Management](/docs/identitymanager/saas/integration-guide/identity-management/index.md), identities are
 complex to model. Records were introduced to tackle this complexity by allowing multiple positions
 for the same identity.
 
-[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
+[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
 by modeling the relationship between positions. Indeed with record sections, it is possible to
 define:
 
@@ -91,7 +96,7 @@ With the given configuration and the identity of `Mark Barn`, the following cont
 ![simple-recordsection-result](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.webp)
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for
-the [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
+the [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
 Any rules targeting identities with a `fulltime`Category`will be assigned to`Mark
 Barn`from`Cs`to`Ce```.
@@ -117,18 +122,18 @@ they must be in the same `Location`. So it is safe to configure the record secti
 
 Here is the configuration needed to apply this policy.
 
-```
+````
 
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate">
 </RecordSection>
 
 Position record section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    <Property Property="Department" ExtensionKind="None" />
-    <Property Property="Location" />
-    <Property Property="JobTitle" ExtensionKind="None" /></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    ```<Property Property="Department" ExtensionKind="None" />```
+    ```<Property Property="Location" />```
+    ```<Property Property="JobTitle" ExtensionKind="None" />```</RecordSection>
 
-```
+````
 
 The `ExtensionKind="None"` was removed for the `Location` property.
 
@@ -141,12 +146,12 @@ Any rules targeting identities working in `London` will be assigned to `Mark Bar
 
 #### Extension of a whole position
 
-The [property value copy](#extension-of-a-property) can be leveraged to extend a chosen position
-when for some time the identity does not have one. The following configuration and the identity of
-`Phoebe Buffay` will be used to showcase a position extension. It is done by removing the
-`ExtensionKind="None"` of the position properties.
+The property value copy can be leveraged to extend a chosen position when for some time the identity
+does not have one. See the Generate Contexts topic for additional information. The following
+configuration and the identity of `Phoebe Buffay` will be used to showcase a position extension. It
+is done by removing the `ExtensionKind="None"` of the position properties.
 
-```
+````
 
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate">
@@ -154,10 +159,10 @@ Default section:
 
 Position record section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">
-    <Property Property="Department" />    <Property Property="Location" />    <Property Property="JobTitle" />
+    ```<Property Property="Department" />```    ```<Property Property="Location" />```    ```<Property Property="JobTitle" />```
 </RecordSection>
 
-```
+````
 
 ![positionextension-identity](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/positionextension-identity.webp)
 
@@ -169,4 +174,4 @@ By default, the previous position is extended when there is a gap. If there isn'
 position then the next position will be anticipated.
 
 The choice of the position to extend can be configured by leveraging the `SortKeyExpression` in the
-position [ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).
+position [ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).

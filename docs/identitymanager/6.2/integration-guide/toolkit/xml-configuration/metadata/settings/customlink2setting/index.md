@@ -1,3 +1,9 @@
+---
+title: "Custom Link 2 Setting"
+description: "Custom Link 2 Setting"
+sidebar_position: 40
+---
+
 # Custom Link 2 Setting
 
 Used to display a given static HTML file to a custom URL address.

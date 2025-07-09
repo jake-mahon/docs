@@ -1,9 +1,15 @@
+---
+title: "PowerShellSync"
+description: "PowerShellSync"
+sidebar_position: 200
+---
+
 # PowerShellSync
 
 This connector exports data from an external system via a
 [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview) script.
 
-This page is about [ PowerShellSync ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/powershellsync/index.md).
+This page is about [ PowerShellSync ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/powershellsync/index.md).
 
 ![Package: Custom/PowerShellSync](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
@@ -51,7 +57,7 @@ prompt.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -82,7 +88,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "PowerShellExport": {
->       "PowerShellScriptPath": "C:/UsercubeDemo/Scripts/Export-CSV.ps1",
+>       "PowerShellScriptPath": "C:/identitymanagerDemo/Scripts/Export-CSV.ps1",
 >     }
 >   }
 > }
@@ -100,7 +106,7 @@ Identity Manager provides a few variables to be used in the PowerShell script.
 
 | Name          | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| OutputPath    | **Type** String **Description** Prefix of the path of the generated CSV file. **Info:** the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. **Value** [`<TempFolderPath>`](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)`/ExportOutput/<connectionIdentifier>_` **Example** In this example, if the temp folder is named `Temp` and the connection `PowerShellExport`, then the generated file is: `Temp/ExportOutput/PowerShellExport_users.csv`. ```generateCSV | Export-CSV ($OutputPath + "users.csv")` where`generateCSV``` is a generic PowerShell method that generates CSV files. |
+| OutputPath    | **Type** String **Description** Prefix of the path of the generated CSV file. **Info:** the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. **Value** [`<TempFolderPath>`](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)`/ExportOutput/<connectionIdentifier>_` **Example** In this example, if the temp folder is named `Temp` and the connection `PowerShellExport`, then the generated file is: `Temp/ExportOutput/PowerShellExport_users.csv`. ```generateCSV | Export-CSV ($OutputPath + "users.csv")` where`generateCSV``` is a generic PowerShell method that generates CSV files. |
 | IsIncremental | **Type** Boolean **Description** Variable to be used to provide a different behavior for complete and incremental synchronization.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 ## Fulfill

@@ -1,3 +1,9 @@
+---
+title: "Bulk Perform Manual Provisioning Access Control Rules"
+description: "Bulk Perform Manual Provisioning Access Control Rules"
+sidebar_position: 20
+---
+
 # Bulk Perform Manual Provisioning Access Control Rules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous
@@ -11,7 +17,7 @@ review of multiple manual provisioning items for the `Directory_User` entity typ
 
 The scaffolding generates the following scaffoldings:
 
-- [ Perform Manual Provisioning Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+- [ Perform Manual Provisioning Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the manual provisioning pages for a given entity type and
   profile.
 

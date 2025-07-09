@@ -1,3 +1,9 @@
+---
+title: "Optimize Display Table"
+description: "Optimize Display Table"
+sidebar_position: 10
+---
+
 # Optimize Display Table
 
 This scaffolding optimizes the given display table by replacing its tiles navigation properties by
@@ -7,9 +13,9 @@ SQL queries used to fetch the data displayed in the corresponding table.
 In order to optimize the display table, this scaffolding will create the following elements if they
 don't exist.
 
-- An [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)for each tile item that uses a
+- An [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)for each tile item that uses a
   navigation binding. This will be used to hold the computed expression.
-- An [ Entity Property Expression ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) to
+- An [ Entity Property Expression ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) to
   evaluate the binding expression used by the optimizable tile item.
 
 Then, the scaffolding will link the display table tile elements to the newly created scalar

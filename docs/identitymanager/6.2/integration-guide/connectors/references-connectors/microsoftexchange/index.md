@@ -1,10 +1,16 @@
+---
+title: "Microsoft Exchange"
+description: "Microsoft Exchange"
+sidebar_position: 150
+---
+
 # Microsoft Exchange
 
 This connector exports mailboxes from a
 [Microsoft Exchange](https://support.microsoft.com/en-us/office/what-is-a-microsoft-exchange-account-47f000aa-c2bf-48ac-9bc2-83e5c6036793)
 instance.
 
-This page is about [ Microsoft Exchange ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
+This page is about [ Microsoft Exchange ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
 
 ![Package: Server/Microsoft Exchange](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
@@ -41,7 +47,7 @@ script used by Identity Manager.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -99,7 +105,7 @@ This connector is meant to generate the following files:
     ```
 
     > For example, we could have
-    > `C:/UsercubeContoso/Temp/ExportOutput/MicrosoftExchangeExport_mailboxes.csv`.
+    > `C:/identitymanagerContoso/Temp/ExportOutput/MicrosoftExchangeExport_mailboxes.csv`.
 
     [See more details on mailbox properties in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/ff328629(v=exchg.140)).
 
@@ -117,8 +123,8 @@ This connector is meant to generate the following files:
   allowing incremental processes.
 
 The CSV files are stored in the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder, and the
-cookie file in the Export Cookies folder.
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output, and the cookie file in the Export Cookies folder.
 
 ## Fulfill
 
@@ -126,13 +132,13 @@ This connector can create, update or
 delete[ mailboxes](https://docs.microsoft.com/en-us/powershell/module/exchange/get-mailbox?view=exchange-ps)'
 addresses (PrimarySmtpAddress, ProxyAddress) and mailbox databases.
 
-As it works via a PowerShell script. See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic
+As it works via a PowerShell script. See the [ PowerShellProv ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) topic
 for additional information.
 
 Identity Manager's PowerShell script can be found in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`.
 
-See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
+See the [ PowerShellProv ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.
 
 ## Authentication
 
@@ -148,15 +154,15 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)able to store
+- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)able to store
   Microsoft Exchange's `Server`.
 
 This kind of credential protection can be used only for the export process.
 
 The fulfill process' credentials can be protected by following the instructions for the
-PowerShellProv connector. See the [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for
+PowerShellProv connector. See the [ PowerShellProv ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for
 additional information

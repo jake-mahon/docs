@@ -1,3 +1,9 @@
+---
+title: "Update Resources Workflows"
+description: "Update Resources Workflows"
+sidebar_position: 40
+---
+
 # Update Resources Workflows
 
 ## Examples

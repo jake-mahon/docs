@@ -1,8 +1,14 @@
+---
+title: "Resource Correlation Rule"
+description: "Resource Correlation Rule"
+sidebar_position: 120
+---
+
 # Resource Correlation Rule
 
-A correlation rule is used to
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
-the resources, i.e. link resources to their owners.
+A correlation rule is used to correlate the resources, i.e. link resources to their owners. See the
+[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+topic for additional information.
 
 ## Examples
 
@@ -28,7 +34,7 @@ attributes:
 
 ```
 
-A list of [Predefined functions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/predefined-functions/index.md) is available.
+A list of [Predefined functions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/predefined-functions/index.md) is available.
 
 #### Correlation based on attributes within a C# expression
 
@@ -50,7 +56,7 @@ This example also uses a confidence rate equals to 80%.
 | Policy required                               | **Type** Int64 **Description** Identifier of the policy that the rule is part of.                                                                                                     |
 | ResourceType required                         | **Type** Int64 **Description** Identifier of the resource type.                                                                                                                       |
 | SourceBinding optional                        | **Type** Int64 **Description** Binding property from the source system.                                                                                                               |
-| SourceExpression optional                     | **Type** String **Description** Binding expression based on properties from the source system. See the [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| SourceExpression optional                     | **Type** String **Description** Binding expression based on properties from the source system. See the [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) topic for additional information. |
 | SourceMatchedConfidenceLevel default value: 0 | **Type** Int32 **Description** Defines the correlation confidence rate of this rule. If the value is less than 100, we process a manual review step to confirm the choice.            |
 | TargetBinding optional                        | **Type** Int64 **Description** Binding property from the target system.                                                                                                               |
-| TargetExpression optional                     | **Type** String **Description** Binding expression based on properties from the target system. See the [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topic for additional information. |
+| TargetExpression optional                     | **Type** String **Description** Binding expression based on properties from the target system. See the [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) topic for additional information. |

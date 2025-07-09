@@ -1,3 +1,9 @@
+---
+title: "Create a Role Manually"
+description: "Create a Role Manually"
+sidebar_position: 30
+---
+
 # Create a Role Manually
 
 How to create single roles manually.
@@ -6,23 +12,23 @@ How to create single roles manually.
 
 A single role is a way to represent an entitlement that is to be assigned to an identity. It brings
 a layer of abstraction through a user-friendly name, close to the business view. See the
-[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 topic for additional information.
 
 To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity
 Manager, an entitlement assigned to an identity is in fact represented by the value of a given
 navigation property, in a resource owned by said identity. See the
-[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional
+[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional
 information. Thus, each role is linked to one navigation rule per entitlement. See the
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topic for additional information.
 
 **NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator
 profile of an identity. This entitlement won't be assigned directly to the identity but to its AD
-administration account. In our Active Directory, there is a resource called `DL-INTERNET-Restricted`
-identified from among AD entries as a group. So we need to add this group membership to the
-properties of the identity's AD account, using `DL-INTERNET-Restricted` as a value of the
-**memberOf** property.
+administration account. In our Active Directory, there is a resource called
+`<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group
+membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a
+value of the **memberOf** property.
 
 ## Participants and Artifacts
 
@@ -33,7 +39,7 @@ application's users, entitlements and data model.
 | ------------------------- | ------------ |
 | Classification (required) | Single roles |
 
-See the[ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) topic for additional
+See the[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
 information.
 
 ## Create a Single Role
@@ -59,7 +65,7 @@ New** at the top right corner.
 - Description: Description of the role.
 - Tags: Label(s) that can later be used to filter the target roles of access certification
   campaigns. See the
-  [ Schedule a Certification Campaign ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
+  [ Schedule a Certification Campaign ](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
   topic for additional information.
 
     **NOTE:** Netwrix recommends using role tags when you want to perform an access certification on
@@ -84,7 +90,7 @@ New** at the top right corner.
 - Approve Role Implicitly: Needs at least the simple approval workflow. **Implicit** mode bypasses
   the approval step(s) if the person who makes the role request is also the role officer.
   **Explicit** refuses said bypass. **Inherited** follows the policy decision to approve roles
-  implicitly or not. See the [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) topic for
+  implicitly or not. See the [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for
   additional information.
 - Prolongation without a new approval workflow
 - Hide in Simplified View: Hides the role from the users' **Simplified View** in **View

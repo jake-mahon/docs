@@ -1,3 +1,9 @@
+---
+title: "Quick Start Guide"
+description: "Quick Start Guide"
+sidebar_position: 30
+---
+
 # Quick Start Guide
 
 This guide leads the reader through the steps to quickly install Identity Manager's bootstrap
@@ -13,7 +19,7 @@ The installation of Identity Manager requires:
     If the certificate is named something other than Usercube.pfx, remember to change the name in
     the Runtime/appsettings.json file too.
 
-- [Database](/docs/identitymanager/6.2/installation-guide/requirements/database-requirements/index.md)-related specifications
+- [Database](/docs/identitymanager/saas/installation-guide/requirements/database-requirements/index.md)-related specifications
 
 ## Install the Bootstrap Version
 
@@ -49,7 +55,7 @@ the future command lines.
 **Step 7 –** Execute the Runtime/identitymanager.sql file in the database.
 
 **Step 8 –** Open a command prompt and deploy the configuration. See
-the[ Usercube-Deploy Configuration](/docs/identitymanager/6.2/integration-guide/executables/references/deploy-configuration/index.md)
+the[ Usercube-Deploy Configuration](/docs/identitymanager/saas/integration-guide/executables/references/deploy-configuration/index.md)
 topic for additional information.
 
 In our example, the command would be, in the Runtime folder:
@@ -62,7 +68,7 @@ script in the command line.
 ```
 
 **Step 9 –** Launch the server. See the
-[Usercube-Server ](/docs/identitymanager/6.2/integration-guide/executables/references/server/index.md) topic for
+[Usercube-Server ](/docs/identitymanager/saas/integration-guide/executables/references/server/index.md) topic for
 additional information.
 
 In our example, the command would be, still in the Runtime folder:
@@ -87,5 +93,5 @@ from the **Configuration** section of the home page.
 ![Home Page - Settings](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
 Then, Netwrix Identity Manager (formerly Usercube) recommends following the user guide to start the
-configuration of your IGA project from scratch. See the [User Guide](/docs/identitymanager/6.2/user-guide/index.md)
+configuration of your IGA project from scratch. See the [User Guide](/docs/identitymanager/saas/user-guide/index.md)
 topic for additional information.

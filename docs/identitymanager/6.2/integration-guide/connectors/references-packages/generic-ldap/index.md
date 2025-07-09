@@ -1,3 +1,9 @@
+---
+title: "Generic LDAP"
+description: "Generic LDAP"
+sidebar_position: 100
+---
+
 # Generic LDAP
 
 Manages entries in an LDAP compliant directory.

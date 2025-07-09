@@ -1,11 +1,17 @@
+---
+title: "Perform a Simulation"
+description: "Perform a Simulation"
+sidebar_position: 90
+---
+
 # Perform a Simulation
 
 How to assess the impact of a modification on the role model, including the role catalog, role
 assignment rules and resource correlation rules, using a dedicated
-[Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md). See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md),
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)[ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md),
-and [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) topics for additional information.
+[Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md). See the
+[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md),
+[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)[ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md),
+and [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topics for additional information.
 
 ## Overview
 
@@ -16,21 +22,21 @@ involve:
 - Correlation rules and classification Rule;
 - Scalar rules and navigation rules;
 - Resource Type rules;
-- [ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+- [ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
   and
-  [ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+  [ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
   and
-  [Composite Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+  [Composite Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
-See the [ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md)
-[ Resource Classification Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md),
+See the [ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md)
+[ Resource Classification Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md),
 and
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topics for additional information.
 
 A simulation can also be created by the
-[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) for the automation of role
+[ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md) for the automation of role
 assignments.
 
 Through simulation, integrators can:
@@ -54,9 +60,9 @@ Integrators are able to perform simulation if they master the new role model.
 | -------------------------------------------------------------------------------------------- | ------------------ |
 | Role catalog (optional) Automate Role Assignments (optional) Categorize Resources (optional) | Updated role model |
 
-See the [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md),
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
-[ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topics for additional information.
+See the [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md),
+[ Automate Role Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
+[ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topics for additional information.
 
 ## Launch a Simulation
 
@@ -110,7 +116,7 @@ After all needed changes have been simulated, you can decide to apply or cancel 
 Then, the simulation is no longer active.
 
 Clicking on **Apply** applies the simulated changes to the role model. You need to launch the
-[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 to observe the actual changes in users' entitlements.
 
 ## Impact of Modifications

@@ -1,9 +1,15 @@
+---
+title: "LDIF"
+description: "LDIF"
+sidebar_position: 130
+---
+
 # LDIF
 
 This connector exports entries from an
 [LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format) file.
 
-This page is about [ LDIF ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/ldif/index.md).
+This page is about [ LDIF ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/ldif/index.md).
 
 ![Package: Directory/LDIF](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
@@ -26,7 +32,7 @@ This connector generates a CSV file from an input LDIF file containing entries t
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -57,7 +63,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "LdifExport": {
->         "LDIFFile": "C:/UsercubeContoso/Contoso/contoso.ldif",
+>         "LDIFFile": "C:/identitymanagerContoso/Contoso/contoso.ldif",
 >         "FilterAttribute": "objectClass",
 >         "FilterValues": "user organizationalUnit",
 >         "Attributes": [ "dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname" ],
@@ -80,8 +86,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder a CSV file
-named `LdifExport.csv`, with the following columns:
+[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder a CSV file named `LdifExport.csv`, with the following columns:
 
 ```
 LdifExport.csv
@@ -98,8 +104,8 @@ There are no fulfill capabilities for this connector.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
-nor a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
+[](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+nor a [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault.
 
 Still, data protection can be ensured through an
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.

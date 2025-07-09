@@ -1,3 +1,9 @@
+---
+title: "Review Non-conforming Assignments"
+description: "Review Non-conforming Assignments"
+sidebar_position: 40
+---
+
 # Review Non-conforming Assignments
 
 How to review non-conforming assignments, i.e. approve or decline the suggestions made by Identity
@@ -16,17 +22,20 @@ Integrators must review three main types of non-conforming entitlement assignmen
   identity.
 
 Unreconciled properties, unauthorized accounts and non-conforming roles are part of
-[Non-Conforming Assignments](/docs/identitymanager/6.2/integration-guide/role-assignment/nonconformingdetection/index.md).
+[Non-Conforming Assignments](/docs/identitymanager/saas/integration-guide/role-assignment/nonconformingdetection/index.md).
 The global aim of the review is to handle the gaps between the
-[ Existing Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/existingassignmentsdeduction/index.md)
+[ Existing Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/existingassignmentsdeduction/index.md)
 (real values) and the
-[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
+[ Conforming Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
 (theoretical values computed by Identity Manager from the role model rules).
 
 A high number of non-conforming assignments can come from an issue in configuration rules.
 
 Non-conforming roles and unauthorized accounts can be mass reviewed through
-[Automate the Review of Non-conforming Assignments](/docs/identitymanager/6.2/user-guide/optimize/non-conforming-assignment-review-automation/index.md).
+[Automate the Review of Non-conforming Assignments](/docs/identitymanager/saas/user-guide/optimize/non-conforming-assignment-review-automation/index.md).
+See the
+[Automate the Review of Non-conforming Assignments](/docs/identitymanager/saas/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
+topic for additional information.
 
 ## Participants and Artifacts
 
@@ -36,14 +45,14 @@ applications' entitlements (technical side), and/or managers who know their team
 
 | Input                                                                        | Output                |
 | ---------------------------------------------------------------------------- | --------------------- |
-| [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
+| [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
 
 ### Pre-existing assignments vs. non-conforming assignments
 
 The assignments specified as non-conforming during the very first execution of the role model are
 called pre-existing assignments. Pre-existing assignments are tagged differently from other
 non-conforming assignments by the
-[ Save Pre-Existing Access Rights Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.md)
+[ Save Pre-Existing Access Rights Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.md)
 because they can indicate that:
 
 - The rules are not optimal yet.
@@ -58,10 +67,10 @@ While there can be dependencies between the review of non-conforming roles and u
 properties, there are no absolute requirements regarding the sequential order of the non-conforming
 assignment review:
 
-- Review [ Reconcile a Role ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md).
-- Review [ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md).
-- [ Review an Unauthorized Account ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md).
+- Review [ Reconcile a Role ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md).
+- Review [ Reconcile a Property ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md).
+- [ Review an Unauthorized Account ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md).
 
-[ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) can be defined to highlight the most
+[ Manage Risks ](/docs/identitymanager/saas/user-guide/optimize/risk-management/index.md) can be defined to highlight the most
 sensitive accounts/permissions, in order to establish a priority order in the review of
 non-conforming assignments.

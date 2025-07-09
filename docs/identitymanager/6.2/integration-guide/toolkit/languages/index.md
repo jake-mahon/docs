@@ -1,8 +1,14 @@
+---
+title: "Languages"
+description: "Languages"
+sidebar_position: 50
+---
+
 # Languages
 
 Some configuration string must be specified in multiple languages. For this, the name of the
 corresponding XML attribute is suffixed by `_L1`, `_L2`,... `_L8`. For example, the property
-_DisplayName_ of an [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) can be
+_DisplayName_ of an [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) can be
 specified in English and French:
 
 ```
@@ -12,7 +18,7 @@ specified in English and French:
 
 ```
 
-Languages list must be specified by [ Language ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/language/index.md)
+Languages list must be specified by [ Language ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/language/index.md)
 elements.
 
 ```
