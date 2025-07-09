@@ -32,7 +32,7 @@ Run as administrator. Then skip to Step 2.
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.
 
-![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatmanager/3.0/install/folder.webp)
 
 **Step 4 –** By default, the installation directory is set to:
 
