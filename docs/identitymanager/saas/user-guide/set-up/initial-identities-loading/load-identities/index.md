@@ -57,7 +57,7 @@ to confirm its accuracy.
 | ------------------------------------------------------------------------------------- | ---------------------------- |
 | IdentityManagerServer (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
+See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information
 
 ## Load Identities
@@ -112,7 +112,7 @@ Load identities for the first time by proceeding as follows:
 
     ![Template Recommendations](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.webp)
 
-    [**Click here to download a template example**](/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
+    [**Click here to download a template example**](/static/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
     Every object (so every tab) of the directory must have a **key**, which is an attribute:
 
@@ -188,5 +188,5 @@ In order to validate the process:
   (through Identity Manager's predefined reports, the Query module or Power BI), in order to ensure
   that Identity Manager's content sticks to reality.
 
-    See the [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional
+    See the [Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional
     information.

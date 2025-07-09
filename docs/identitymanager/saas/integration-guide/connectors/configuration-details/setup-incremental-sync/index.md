@@ -53,9 +53,7 @@ for additional information.
 
 Identity Manager provides a scaffolding that generates the configuration for these steps, named [Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md).
 
-This guide is about incremental synchronization, but complete synchronization can be configured with
-the
-[Create Connector Synchro Complete](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
+This guide is about incremental synchronization, but complete synchronization can be configured with the [Create Connector Synchro Complete](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
 
 ### Permissions for the agent
 
