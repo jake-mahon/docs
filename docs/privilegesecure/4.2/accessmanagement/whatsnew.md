@@ -72,7 +72,7 @@ New: Granular AD Authentication Control
 
 Enable or disable "Other Login" (AD authentication) for more granular access control, minimizing
 potential security risks. See the
-[Set Authentication as Default Login](/docs/privilegesecure/4.2/accessmanagement/admin/interface/authentication/authentication.md#set-authentication-as-default-login)
+[Set Authentication as Default Login](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/authentication/authentication.md)
 topic for additional information.
 
 Enhancement: Expanded SIEM Integration
@@ -126,7 +126,7 @@ information.
 Enhancement: Improved Scheduler Visibility
 
 The "Statistics" tab now precedes the "Action Queues" tab in Service Nodes for easier workflow
-management. See the [Scheduler Service](/docs/privilegesecure/4.2/accessmanagement/admin/interface/servicenodes/servicenodes/scheduler.md) topic for
+management. See the [Scheduler Service](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/servicenodes/servicenodes/scheduler.md) topic for
 additional information.
 
 ### Additional Enhancements

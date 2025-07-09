@@ -23,10 +23,10 @@ Help link and the User Menu:
       See the [ Policy Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface.md) topic for additional information.
     - Configuration — Contains several pages to configure and manage authentication, integration
       connectors, service accounts, services, and other settings. See the
-      [Configuration Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface_1.md) topic for additional information.
+      [Configuration Interface](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/interface_1.md) topic for additional information.
     - Audit & Reporting Interface — Audit user access entitlement (Access Certification) and view
       activity statistics and reports. See the
-      [Audit & Reporting Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface_2.md) topic for additional information.
+      [Audit & Reporting Interface](/docs/privilegesecure/4.2/accessmanagement/admin/AuditReporting/interface_2.md) topic for additional information.
 
 - Help — Opens the Netwrix Privilege Secure documentation in the in another browser tab
 - User Menu — Click to open the drop-down menu:

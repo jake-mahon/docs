@@ -79,7 +79,7 @@ The table has the following columns:
   the [Domain Details Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/resources/detailspages/domain/domain.md) topic for additional information.
 - Service Account — Displays the service account associated with the resource. Click the link to
   view additional details. See the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 - Platform — Displays the type of platform, which defines the resource. See the
   [Platforms Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/platforms/overview.md) topic for additional information.
