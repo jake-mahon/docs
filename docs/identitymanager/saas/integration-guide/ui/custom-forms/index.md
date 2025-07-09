@@ -36,7 +36,7 @@ interface.
 
 The following elements must be in place:
 
-- [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/how-tos/create-menu-items/index.md)
+- [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/create-menu-items/index.md)
 - [ View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
 
 To create the view, you can manipulate one or more forms. The example below shows how to create a
@@ -67,7 +67,7 @@ The view form doesn't give access to the view in the interface or the rights to 
 
 The following elements must be in place:
 
-- [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/how-tos/create-menu-items/index.md)
+- [ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/create-menu-items/index.md)
 - [ View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
 
 In the example below, the view form will display all records. To change the filter on the record

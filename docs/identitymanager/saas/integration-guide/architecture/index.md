@@ -32,7 +32,7 @@ Identity Manager (formerly Usercube)' recommended architecture when working in a
 environment.
 
 See how to
-[ Protect Agent/Server Communication ](/docs/identitymanager/saas/integration-guide/architecture/how-tos/protect-agent-server-communication/index.md).
+[ Protect Agent/Server Communication ](/docs/identitymanager/saas/integration-guide/architecture/protect-agent-server-communication/index.md).
 
 ## Isolation Principle
 

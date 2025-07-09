@@ -8,7 +8,7 @@ sidebar_position: 40
 
 A table displays a collections of entity type data grouped into rows.
 
-See the [Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/how-tos/custom-display-table/index.md)topic for
+See the [Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md)topic for
 additional information.
 
 ## Examples

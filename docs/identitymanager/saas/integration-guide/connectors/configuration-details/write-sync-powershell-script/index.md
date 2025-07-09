@@ -1,7 +1,7 @@
 ---
 title: "Write a PowerShell Script for Synchronization"
 description: "Write a PowerShell Script for Synchronization"
-sidebar_position: 120
+sidebar_position: 110
 ---
 
 # Write a PowerShell Script for Synchronization
