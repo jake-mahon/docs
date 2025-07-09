@@ -7,7 +7,7 @@ sidebar_position: 10
 # Usercube-Agent
 
 This tool runs the Agent on a separate server instance. The Agent is able to communicate with the
-[Usercube-Server ](/docs/identitymanager/saas/integration-guide/executables/references/server/index.md).
+[Usercube-Server ](/docs/identitymanager/6.2/integration-guide/executables/references/server/index.md).
 
 ## Examples
 

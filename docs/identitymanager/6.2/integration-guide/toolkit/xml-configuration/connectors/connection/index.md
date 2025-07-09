@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Connection
 
-A connection represents a link between a [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection
+A connection represents a link between a [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection
 package.
 
 ## Examples
@@ -48,7 +48,7 @@ appsettings.agent.json
 ```
 
 Details about these settings can be found in Identity Manager's
-[References: Connectors](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/index.md).
+[References: Connectors](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/index.md).
 
 ## Properties
 
@@ -63,8 +63,8 @@ Details about these settings can be found in Identity Manager's
 ## Child Element: Transformation
 
 A connection transformation is optional, but can be needed to adjust the Excel files, output of
-[ Export Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) from Excel export connections, before
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md). The
+[ Export Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) from Excel export connections, before
+[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md). The
 following operations are possible:
 
 - filtering out given rows;

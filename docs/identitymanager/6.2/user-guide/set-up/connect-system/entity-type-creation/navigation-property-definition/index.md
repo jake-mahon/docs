@@ -7,7 +7,7 @@ sidebar_position: 40
 # Define Navigation Properties
 
 How to define the properties which describe the
-[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 relationships to other entity types.
 
 ## Overview
@@ -15,7 +15,7 @@ relationships to other entity types.
 Here you will learn to define navigation properties, which contain scalar values just like scalar
 properties, but which are also linked to and point to other properties—from the same entity type or
 to another entity type.  
-See the [Define Scalar Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional
+See the [Define Scalar Properties](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md) topic for additional
 information.
 
 > For example, `memberOf` can contain a list of groups, thus linking a user to groups, and a group
@@ -74,7 +74,7 @@ This is useful for storing internal-use data that the connected system can’t r
 
 Define navigation properties by following these steps:
 
-1. Start by declaring an [Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+1. Start by declaring an [Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
 2. In the entity type's **Properties** section, click on the **Navigation Properties** tab.
 3. Click **Map a navigation property** to display existing columns from the external source, then
    select the ones to use.
@@ -134,7 +134,7 @@ Define navigation properties by following these steps:
 
     - `Icon`: Choose from [Microsoft icon set](https://uifabricicons.azurewebsites.net/)
     - **Source Expression**: Define using a property path or
-      [expression](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md)
+      [expression](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md)
 
         > Example: Scalar `isUnused` created by combining `accountExpires` and `lastLogonTimestamp`
         >
@@ -166,4 +166,4 @@ You’ll find it either in the banner or on the connector dashboard.
 ## Next Steps
 
 Once the entity type is defined—with scalar properties, keys, and navigation properties—you can
-[Set Resources' Display Names](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+[Set Resources' Display Names](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).

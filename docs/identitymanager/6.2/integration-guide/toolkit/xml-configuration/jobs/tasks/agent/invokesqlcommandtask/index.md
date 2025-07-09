@@ -20,7 +20,7 @@ script in the command line.
 
 **NOTE:** The database Identifier attribute has a specific location where the connection strings for
 the database identifiers need to be defined. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic
 for additional information.
 
 ## Properties

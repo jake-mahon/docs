@@ -7,7 +7,7 @@ sidebar_position: 40
 # Compute Role Model Task
 
 This task applies all rules in the role model of all
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) whose source entity types are
+[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) whose source entity types are
 specified as child elements of the task.
 
 ## Behavior Details

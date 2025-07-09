@@ -12,7 +12,7 @@ Assigning entitlements means giving users specific permissions, or access rights
 
 As Identity Manager relies on a
 [role-based](https://en.wikipedia.org/wiki/Role-based_access_control) assignment policy, entitlement
-assignment is simply role assignment. See the [ Role Model ](/docs/identitymanager/saas/integration-guide/role-model/index.md)topic for
+assignment is simply role assignment. See the [ Role Model ](/docs/identitymanager/6.2/integration-guide/role-model/index.md)topic for
 additional information.
 
 So once a user is assigned a role, Identity Manager must make the right changes in the managed
@@ -29,11 +29,11 @@ requests.
 
 Automatic assignments are created by Identity Manager when evaluating the policy, i.e. when
 computing expected assignments based on existing users and the policy's roles and rules. See the
-[Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information. Automatic
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional information. Automatic
 assignments can:
 
 - Result directly from the application of assignment rules on identities. See the
-  [ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
+  [ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
 - Be inferred and cascading from another assignment.
 
 Manual assignments and degradations are on the other hand, need to be requested individually through
@@ -45,7 +45,7 @@ Some entitlements require the approval of one or several knowledgeable users bef
 assigned. This is standard procedure in many security-concerned organizations.
 
 **NOTE:** This is configurable through the role's or resource type's approval workflow type. See the
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
+[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
 additional information.
 
 Each step of the approval workflow is associated with a workflow state, so that all assignments can
@@ -121,7 +121,7 @@ therefore:
 - Kept as an exception if the configured rules do not apply to this particular case.
 
 **NOTE:** Non-conforming assignments are to be reviewed on the **Role Reconciliation** and/or
-**Resource Reconciliation** screens. See the [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic
+**Resource Reconciliation** screens. See the [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic
 for additional information.
 
 Non-conforming assignments can still be split into two categories:
@@ -147,7 +147,7 @@ results from a mistake.
 Identity Manager provides automation rules to automate the review of non-conforming assignments by
 automatically approving/declining assignments that were pending approval for some time, if this
 behavior is desired. See the
-[Automate the Review of Non-conforming Assignments](/docs/identitymanager/saas/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
+[Automate the Review of Non-conforming Assignments](/docs/identitymanager/6.2/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
 topic for additional information.
 
 For example, the single role Server Room Access is requested for Mr. Smith, with a two-step approval
@@ -165,7 +165,7 @@ resource type materializes:
 - The categorization of the created resource, which means both the correlation of the resource to an
   owner, and the classification of the resource into a specific type with specific rules between
   owner and owned resources. See the
-  [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional
+  [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional
   information.
 
 ### Reconciliation

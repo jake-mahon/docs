@@ -101,7 +101,7 @@ instead of incremental.
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
 Output folder the following CSV files:
 
 `<connectionIdentifier>_Entity.csv`, with the following columns:
@@ -252,9 +252,9 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store SharePoint's `Login` and `Password`.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
-[Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
-[CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
+[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
+[CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

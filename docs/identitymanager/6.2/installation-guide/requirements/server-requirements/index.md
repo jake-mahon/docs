@@ -11,7 +11,7 @@ This section identifies software requirements for Identity Manager's server.
 ## License Key
 
 The server requires a license key provided by Netwrix Identity Manager (formerly Usercube). See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
 ## Software
@@ -53,7 +53,7 @@ Server. Hence Netwrix Identity Manager (formerly Usercube) recommends using a do
 ### Working directory permissions
 
 The agent's service account needs specific permissions presented in
-the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic as:
+the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the `Runtime` directory, usually
@@ -63,14 +63,14 @@ the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/
 - _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path
   depends on the `Work` folder's path.
 
-See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 Other permissions should be denied.
 
 > **FAQ**: How to set up directory permissions in Windows Server? See the
-> [Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for additional information.
+> [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
 
 ### Database permissions
 
@@ -79,8 +79,8 @@ SQL Server with its assigned service account. It means that the server's service
 assigned an SQL Server login with the relevant roles, including necessarily either `sysadmin` or
 `securityadmin`.
 
-See the [Database](/docs/identitymanager/saas/installation-guide/requirements/database-requirements/index.md) and
-[Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topics for additional information.
+See the [Database](/docs/identitymanager/6.2/installation-guide/requirements/database-requirements/index.md) and
+[Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topics for additional information.
 
 ## Hostname and DNS
 
@@ -112,7 +112,7 @@ set up in IIS.
 ## Emails
 
 The server needs access to an SMTP server to
-[ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md).
+[ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption and Identity Server Key Pairs
 
@@ -147,4 +147,4 @@ and[ pvk2pfx tool](https://docs.microsoft.com/en-us/windows-hardware/drivers/dev
 ## What's Next?
 
 Let's move on to Identity Manager's agent requirements. See the
-[ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+[ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.

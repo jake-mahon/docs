@@ -121,7 +121,7 @@ script in the command line.
 [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up during this step is identical to
 the one provided with the SDK. Users must provide their own certificate. Self-signed certificates
 are accepted as valid. See
-the[Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md)topic for
+the[Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md)topic for
 additional information.
 
 ## Configuration Section Description
@@ -185,7 +185,7 @@ different.
 **NOTE:** This guide doesn't cover how to set up authorizations within Identity Manager.
 Authorization for an end-user to access Identity Manager resources relies on assigning roles to
 profiles. Identity credentials used for authentication must be linked to these profiles in the
-applicative configuration. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)topic for
+applicative configuration. See the [ Various XML Settings ](/docs/identitymanager/6.2/integration-guide/network-configuration/settings/index.md)topic for
 additional information.
 
 Authentication-related settings are done through the following sections of the appsettings set:
@@ -193,7 +193,7 @@ Authentication-related settings are done through the following sections of the a
 - IdentityServer
 - Authentication
 
-See the[ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md)topic for additional information.
+See the[ Architecture ](/docs/identitymanager/6.2/integration-guide/architecture/index.md)topic for additional information.
 
 ### Identity Server
 
@@ -335,7 +335,7 @@ To authorize an end-user, Identity Manager Server retrieves a specific claim (a 
 transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource
 that matches this claim's value. The comparison is carried out according to the resource and
 property set as the end-user's identity in the applicative configuration. See the
-[ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
+[ Select User by Identity Query Handler Setting ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
 
 The name of the claim that is retrieved for this purpose defaults to `sub` which is one of the
 standard
@@ -399,9 +399,9 @@ Under the new subsection, the following parameters are used to configure the aut
 | ClientId required                        | String  | Is the Client ID issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ClientSecret required                    | String  | Is the Client Secret issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Authority required                       | String  | This URL identifies the OpenID Connect provider for Identity Manager according to the [OpenID Connect specifications](https://openid.net/connect/). It can be retrieved from the target OpenID Connect provider documentation. For example, [Microsoft's documentation ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)indicates the Microsoft Identity Platform OpenID Connect[ ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)authority. |
-| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
+| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [ Select User by Identity Query Handler Setting ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
 | Scopes optional                          | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes). By default, the requested scopes are: openid, profile and email.                                                                                                                                                                                                                                                                                                                                                      |
-| SaveTokens default value: false          | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/saas/integration-guide/network-configuration/how-tos/okta/index.md)topic for additional information.                                                                                                                                                                                                                                                                                                                                               |
+| SaveTokens default value: false          | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/6.2/integration-guide/network-configuration/how-tos/okta/index.md)topic for additional information.                                                                                                                                                                                                                                                                                                                                               |
 | MetadataAddress optional                 | String  | URL address of a copy of the metadata, used when the authority metadata cannot be accessed from the Identity Manager server, for example because of a firewall.                                                                                                                                                                                                                                                                                                                                                     |
 | RequireHttpsMetadata default value: true | Boolean | By default the authority metadata must use HTTPS. Set to `false to use a simple HTTP metadata, in case a local copy of the metadata is used or for test environment.                                                                                                                                                                                                                                                                                                                                                |
 | ResponseMode optional                    | String  | Response mode for OpenIdConnect. - Query - FormPost - Fragment [See OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html).                                                                                                                                                                                                                                                                                                                                                                   |
@@ -498,7 +498,7 @@ Each section is configured with the following settings:
 | AuthorizationEndpoint required  | String  | Is the provider's Authorization Endpoint URI. This is where the end-user's browser is redirected to start the authentication process. Usually ends with /auth or /authorize. This information must be retrieved from the provider's portal.                                                                                                                                                        |
 | TokenEndpoint required          | String  | Is the provider's Token Endpoint URI. This is where the client sends token requests, using an authorization code obtained during the authentication process. This information must be retrieved from the provider's portal.                                                                                                                                                                        |
 | CallbackPath required           | String  | Sets the callback path where the client is redirected after a successful authentication. Any string value can be used as long as it is reported to the provider during the registration process.                                                                                                                                                                                                   |
-| SaveTokens default value: false | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/saas/integration-guide/network-configuration/configure-okta/index.md)topic for additional information.                                                                                                                                                                                                                              |
+| SaveTokens default value: false | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/6.2/integration-guide/network-configuration/configure-okta/index.md)topic for additional information.                                                                                                                                                                                                                              |
 | Scope optional                  | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes).                                                                                                                                                                                                                                                                                                      |
 
 Example
@@ -774,7 +774,7 @@ The archive is set using the following attributes:
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
 should always be encrypted using the Identity Manager-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 The archive is set using the following attributes:
@@ -782,7 +782,7 @@ The archive is set using the following attributes:
 | Name              | Type   | Description                                                                                                                                                                                                                                                                                                                            |
 | ----------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | File required     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                |
-| Password optional | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. Storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe[ ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)tool. |
+| Password optional | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. Storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe[ ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)tool. |
 
 #### As a Certificate in the Windows Store
 
@@ -814,7 +814,7 @@ The Windows certificate is set using these attributes:
 ##### Using Azure Key Vault
 
 If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the
-Vault connection. See the [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+Vault connection. See the [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 topic for additional information.
 
 _Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
@@ -849,7 +849,7 @@ script in the command line.
 
 When Internal Methods is enabled, the end-user is prompted via a form to input a login and a
 password. The login to be used is defined within the applicative configuration's Select User By
-Identity Query Handler Setting element. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)
+Identity Query Handler Setting element. See the [ Various XML Settings ](/docs/identitymanager/6.2/integration-guide/network-configuration/settings/index.md)
 topic for additional information.
 
 First, the AllowLocalLogin parameter needs to be set to true in the Authentication section.

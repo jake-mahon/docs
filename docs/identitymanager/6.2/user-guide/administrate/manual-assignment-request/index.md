@@ -26,8 +26,8 @@ manager, and on some occasions by the involved application owner.
 | ------------------------------------------------------ | -------------------- |
 | Identity repository (required) Role Catalog (required) | Updated entitlements |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) and
-[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
+[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
 additional information.
 
 ## View Identity's Entitlements

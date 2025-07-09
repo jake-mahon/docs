@@ -12,40 +12,40 @@ on its output type.
 
 Here is a list of forms:
 
-- [WorkflowAddandEndRecordEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/index.md)
+- [WorkflowAddandEndRecordEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddandendrecordentityform/index.md)
 
     Displays a form to define the end date of an existing record, and replace it with a new record
     at said date, by duplicating and adjusting the old record.
 
-- [WorkflowAddRecordEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/index.md)
+- [WorkflowAddRecordEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowaddrecordentityform/index.md)
 
     Displays a form to add a new record for an existing resource, by duplicating and adjusting an
     existing record.
 
-- [WorkflowCreateEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/index.md)
+- [WorkflowCreateEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateentityform/index.md)
 
     Displays a form to create a new resource, without a record.
 
-- [WorkflowCreateRecordEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/index.md)
+- [WorkflowCreateRecordEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreaterecordentityform/index.md)
 
     Displays a form to create a new resource with a record.
 
-- [WorkflowCreateSeveralRecordsEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/index.md)
+- [WorkflowCreateSeveralRecordsEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowcreateseveralrecordsentityform/index.md)
 
     Displays a form to create a new resource with one or several records.
 
-- [WorkflowEditEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/index.md)
+- [WorkflowEditEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workfloweditentityform/index.md)
 
     Displays a form to update or delete an existing resource, without a record.
 
-- [WorkflowUpdateRecordEntitiesForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/index.md)
+- [WorkflowUpdateRecordEntitiesForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentitiesform/index.md)
 
     Displays a form to update data for several resources simultaneously.
 
-- [WorkflowUpdateRecordEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/index.md)
+- [WorkflowUpdateRecordEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/index.md)
 
     Displays a form to select an existing record and update it.
 
-- [WorkflowUpdateSeveralRecordsEntityForm](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/index.md)
+- [WorkflowUpdateSeveralRecordsEntityForm](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/index.md)
 
     Displays a form to create, update or delete one or several records.

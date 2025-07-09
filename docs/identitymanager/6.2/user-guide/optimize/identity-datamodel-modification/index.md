@@ -16,11 +16,11 @@ permissions, and only the information strictly required for this purpose.
 You already considered the data needed for identity management during:
 
 - The initial identities loading and the creation of the identity repository; See the
-  [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic for
+  [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic for
   additional information.
-- [ Model the Data ](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-modeling/index.md)through connector
+- [ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md)through connector
   modeling which is the analysis phase before connector creation;
-- [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) which is the
+- [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) which is the
   technical implementation of the connector model.
 
 The data model established during these steps might change to evolve alongside the needs of the
@@ -33,7 +33,7 @@ This part is about integrating these changes in the existing data model.
 
 Identity Manager calls dimensions the attributes that assignment rules rely on. They are essential
 criteria that differentiate users in order to give them the appropriate roles. See the
-[ Conforming Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
+[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
 topic for additional information.
 
 ### Personal data security
@@ -48,7 +48,7 @@ Integrators are able to perform an identity update if they master the new data m
 | ------------------------------------------------------------------------ | --------------------------- |
 | Initial identities loading (required) New identity data model (required) | Updated identity data model |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic
 for additional information.
 
 ## Add or Modify Properties
@@ -67,7 +67,7 @@ Identity Manager's suggestions.
 
 However, the identity data model can also be updated through the directory's entity types, following
 the previously given
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 ### Through a data model scan
 
@@ -116,8 +116,8 @@ In order to verify the process:
 
     If the system contains numerous organizations, it is also possible to list them with their
     managers through the Query module. See
-    the[ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
+    the[ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
 
-- [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) with indicators, for example, on the
+- [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) with indicators, for example, on the
   number of workers per type or per organization (through Identity Manager's predefined reports, the
   Query module or Power BI), to ensure that Identity Manager's content sticks to reality.

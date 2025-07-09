@@ -22,10 +22,10 @@ First, Identity Manager recommends reading:
 
 Every key from appsettings.agent.json that has a string value can be saved as a secret into
 Microsoft Entra ID (formerly Azure AD) Key Vault. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 Check the examples in connectors' credential protection sections. See the
-[ ServiceNow ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) topic
+[ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) topic
 for additional information.
 
 ## Write Settings to the Vault

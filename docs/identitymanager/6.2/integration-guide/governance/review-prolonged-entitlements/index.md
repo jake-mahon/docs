@@ -16,7 +16,7 @@ the users are supposed to lose the role, then they keep it for the time defined 
 and the role's workflow state switches from `Automatic` to `Prolonged`. Then a manager must access
 these entitlements in the **Role Review** screen, to either approve or decline the role
 prolongation. See the
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
+[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
 additional information.
 
 ## Assign the Right to Review Prolonged Entitlements

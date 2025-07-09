@@ -30,7 +30,7 @@ The customization includes the following:
 It presents the languages in which the application can be displayed. In the above example you have
 English-United States and French-France.
 
-See the [ Languages ](/docs/identitymanager/saas/integration-guide/toolkit/languages/index.md) topic for additional
+See the [ Languages ](/docs/identitymanager/6.2/integration-guide/toolkit/languages/index.md) topic for additional
 information.
 
 ### Features

@@ -14,25 +14,25 @@ company.
 "Identities' lifecycles" mean any Joiners, Movers and Leavers (JML) process, i.e. staff changes,
 i.e. any user's onboarding, position modification and offboarding.
 
-See the [ Identity Repository ](/docs/identitymanager/saas/integration-guide/identity-management/identity-repository/index.md) topic for additional information.  
-See the [ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/index.md) topic
+See the [ Identity Repository ](/docs/identitymanager/6.2/integration-guide/identity-management/identity-repository/index.md) topic for additional information.  
+See the [ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/index.md) topic
 for additional information on how Identity Manager handles the Joiners, Movers and Leavers (JML)
 process.
 
 Identities in Identity Manager are mostly humans, both internal and external workers, but can also
 be applications, bots, service accounts, or anything.
 
-Identities are stored in the database as [ Resources ](/docs/identitymanager/saas/integration-guide/resources/index.md), which helps with
+Identities are stored in the database as [ Resources ](/docs/identitymanager/6.2/integration-guide/resources/index.md), which helps with
 Identity Manager's internal mechanisms, for example to modelize identities with
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types.
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) types.
 
 Additional interesting parts of identity management are:
 
 - the synchronization of identity changes through several repositories, for example both Identity
   Manager and the AD;
 - the provisioning of identity properties directly to the connected systems, based on the
-  computation of the [ Role Model ](/docs/identitymanager/saas/integration-guide/role-model/index.md).
+  computation of the [ Role Model ](/docs/identitymanager/6.2/integration-guide/role-model/index.md).
 
-See the [Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/index.md) topic for additional information.
+See the [Synchronization](/docs/identitymanager/6.2/integration-guide/synchronization/index.md) topic for additional information.
 
-See the [Provisioning](/docs/identitymanager/saas/integration-guide/provisioning/index.md) topic for additional information.
+See the [Provisioning](/docs/identitymanager/6.2/integration-guide/provisioning/index.md) topic for additional information.

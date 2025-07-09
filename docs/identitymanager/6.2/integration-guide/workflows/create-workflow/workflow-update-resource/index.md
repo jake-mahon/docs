@@ -11,13 +11,13 @@ resource, i.e. to update, within a given resource, properties that do not involv
 
 ## Declare a Workflow
 
-This [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two
+This [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of two
 activities:
 
 1. `Action With Refine`: sends the resource's update request with a possibility of delegation.
 2. `Persist`: saves the collected data and triggers provisioning.
 
-See the [ Activity Templates ](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+See the [ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update only the user's `IsDraft` attribute.
 
@@ -30,7 +30,7 @@ The example below creates a workflow to update only the user's `IsDraft` attribu
 ## Create Forms
 
 The XML configuration below represents the creation of a
-[Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
+[Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
 display in the workflow.
 
 Here we just have one field called `IsDraft` to update the corresponding boolean attribute for a
@@ -88,7 +88,7 @@ displays the `IsDraft` attribute that the user just changed:
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
-users. Read about the [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+users. Read about the [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
 permissions.
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
@@ -102,7 +102,7 @@ for the whole update request from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
 to make the workflow accessible in the UI.
 
 Updating an existing resource, this workflow manages one given resource at a time. Hence an
@@ -128,5 +128,5 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 ## Customize the Display Table (Optional)
 
 To configure a display table different from the default one provided by Identity Manager, see the
-[Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md) topic for additional
+[Customize Display Tables](/docs/identitymanager/6.2/integration-guide/ui/custom-display-table/index.md) topic for additional
 information.

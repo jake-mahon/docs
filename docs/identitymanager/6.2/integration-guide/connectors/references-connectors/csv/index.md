@@ -8,7 +8,7 @@ sidebar_position: 40
 
 This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values).
 
-This page is about [ CSV ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/csv/index.md).
+This page is about [ CSV ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/csv/index.md).
 
 ![Package: File/CSV](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
@@ -28,7 +28,7 @@ Identity Manager's format.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -89,7 +89,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`, to the Export
 Output folder. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic
 for additional information.
 
 For example, when exporting a connection named `HRCountries`, the output file will be named
@@ -113,8 +113,8 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
-nor a [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+[](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+nor a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
 
 Still, data protection can be ensured through an
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe.

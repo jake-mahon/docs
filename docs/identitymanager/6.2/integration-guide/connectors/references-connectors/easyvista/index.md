@@ -24,7 +24,7 @@ interface.
 Implementing this connector requires:
 
 - Reading first the
-  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
   topic;
 - An EasyVista account with reading/writing permissions on the target instance;
 - A view to be created in EasyVista for each type of entity to export.
@@ -39,7 +39,7 @@ It can also export any custom entity, provided that a view exists for it in Easy
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -101,7 +101,7 @@ entities.
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 export output folder:
 
 - a CSV file, named `<connectionIdentifier>_Employees.csv`, with one column for each property having
@@ -158,7 +158,7 @@ Users created from the API are retrieved by Identity Manager only after a comple
 
 The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point
 of view) and update employees, initiated manually through the UI or automatically by reinforcing the
-policy. See the [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for
+policy. See the [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for
 additional information.
 
 ### Configuration
@@ -211,17 +211,17 @@ This connector can:
 ### Password reset
 
 See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic to find out more on how to configure password reset settings.
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - A
-  [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store EasyVista's `Login`, `Password`, `Account` and `Server`.

@@ -22,11 +22,11 @@ variables.
 Configuration settings are detailed further in the following sections:
 
 - Server configuration, including connection to the database and end-user authentication. See the
-  [Server Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
+  [Server Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
 - Agent configuration, including connection to the managed systems. See the
-  [ Agent Configuration ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
+  [ Agent Configuration ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/index.md) topic for additional information.
 - Monitoring, indicating how to set up monitoring for Identity Manager. See the
-  [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md)topic for additional information.
+  [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md)topic for additional information.
 
 ## Write Settings
 
@@ -38,12 +38,12 @@ Configuration setting values are organized by functionality into three sets:
 
 1. The Server's appsettings set gathers general-purpose settings for the Server (including database
    connection and end-user authentication). See the
-   [Server Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
+   [Server Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
 2. The Agent's appsettings set gathers general-purpose settings for the Agent executable process.
-   See the [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional
+   See the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) topic for additional
    information.
 3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See
-   the [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional
+   the [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional
    information.
 
 Each set can be seen as a
@@ -77,7 +77,7 @@ Relevant files for the Agent can be found in its working directory:
 - `appsettings.cyberArk.agent.json`
 
 Each setting file is organized into several sections as shown in the Sets, Sections and values
-diagram. See the [ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md) topic for additional information.
+diagram. See the [ Architecture ](/docs/identitymanager/6.2/integration-guide/architecture/index.md) topic for additional information.
 
 Each section's name matches a top level attribute of the file's `json` object.
 
@@ -107,7 +107,7 @@ settings.example.json
 ```
 
 In Integrated-agent mode, agent configuration is written to the Server's `appsettings.json` file.
-See the [ Overview ](/docs/identitymanager/saas/installation-guide/overview/index.md) topic for additional information.
+See the [ Overview ](/docs/identitymanager/6.2/installation-guide/overview/index.md) topic for additional information.
 
 #### Reminder
 
@@ -198,8 +198,8 @@ the application.
 Configuration encompasses:
 
 - The Server configuration with a connection to the database and end-user authentication. See the
-  [Server Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
+  [Server Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/index.md) topic for additional information.
 - The Agent configuration with a connection to the managed systems. See the
-  [ Agent Configuration ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
-- The Logger configuration. See the [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md)topic for additional
+  [ Agent Configuration ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/index.md)topic for additional information.
+- The Logger configuration. See the [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md)topic for additional
   information.

@@ -38,8 +38,8 @@ Integrators may need the help of the HR department who know the organization.
 | ------------------------------------------------------------------------ | ----------------------------- |
 | IdentityManagerServer (required) Initial workforce repository (required) | Adjusted workforce repository |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
-and [Load Identities to Identity Manager](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/index.md) topics for additional
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+and [Load Identities to Identity Manager](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/load-identities/index.md) topics for additional
 information.
 
 ## Adjust the Data Model
@@ -79,7 +79,7 @@ Adjust the data model by proceeding as follows:
     For example the contract's start date is necessary for Identity Manager's workflows.
 
     Modifications can be performed later, decisions can be reconsidered. See the
-    [ Modify the Identity Data Model ](/docs/identitymanager/saas/user-guide/optimize/identity-datamodel-modification/index.md)
+    [ Modify the Identity Data Model ](/docs/identitymanager/6.2/user-guide/optimize/identity-datamodel-modification/index.md)
     topic for additional information.
 
 4. Click on the Save icon at the top.

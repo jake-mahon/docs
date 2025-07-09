@@ -128,7 +128,7 @@ the elements before joining them into a `string` with
 
 In this example, we will export and fulfill the start date of an employee in a ServiceNow instance.
 
-We define an [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) called `u_startdate` with the
+We define an [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) called `u_startdate` with the
 **Type**`DateTime` to display it as a date in the UI.
 
 ```

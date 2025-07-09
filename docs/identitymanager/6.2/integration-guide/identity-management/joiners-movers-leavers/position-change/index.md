@@ -24,7 +24,7 @@ with an automated fulfillment.
 
 Identity Manager's calculations for entitlement assignments rely on heuristics, through identities'
 key properties called
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md).
+[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md).
 
 > For example, consider an entity type modeling identities with their job title, department and
 > location.
@@ -63,7 +63,7 @@ anticipate upcoming changes.
 
 ### Contexts
 
-The model is supposed to facilitate the [Provisioning](/docs/identitymanager/saas/integration-guide/provisioning/index.md) provisioning
+The model is supposed to facilitate the [Provisioning](/docs/identitymanager/6.2/integration-guide/provisioning/index.md) provisioning
 of user data and entitlements, yet this first model does not meet all expectations. In case of
 multiple personal data sets for a single user over time, or multiple contracts, or multiple
 positions, which values should be used to apply the rules of the role model? How to combine all
@@ -167,8 +167,8 @@ A change to be effective in future can trigger the creation of a new record.
 ### Configuration
 
 This identity model can be implemented by configuring a
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
+[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
+[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
 
 ````
 

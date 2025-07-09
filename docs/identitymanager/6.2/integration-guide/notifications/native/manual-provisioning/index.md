@@ -13,7 +13,7 @@ Identity Manager natively sends notifications concerning manual provisioning.
 ### Notification Trigger
 
 The notifications are sent after a `FulfillTask` with a connection based on the
-[ Manual Ticket ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/manual-ticket/index.md) package.
+[ Manual Ticket ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/manual-ticket/index.md) package.
 
 ### Notification Recipients
 
@@ -31,5 +31,5 @@ the corresponding notifications. On the contrary, the permission
 all entity types, but not receive the corresponding notifications.
 
 The permission can be configured in an
-[Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 so that notifications are disabled.

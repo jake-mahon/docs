@@ -15,9 +15,9 @@ It will focus on registering Identity Manager within the target Microsoft Excha
 
 Check the following prerequisites:
 
-- [PowerShellProv](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md)
-- [Microsoft Exchange](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
-- [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/activedirectory/index.md)
+- [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md)
+- [Microsoft Exchange](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
+- [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md)
 
 Let's consider a simplified system, including three parts:
 
@@ -40,16 +40,16 @@ Identity Manager can:
 This step sets up the Identity Manager Agent to use the Active Directory and PowerShell connectors
 in order to fulfill the Microsoft Exchange mailboxes.
 
-The settings must be entered in `appsettings.agent.json > Connections`. For more details, see the [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/activedirectory/index.md) and
-[PowerShellProv](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) sections.
+The settings must be entered in `appsettings.agent.json > Connections`. For more details, see the [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md) and
+[PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) sections.
 
 #### Add Sections
 
 As explained previously, the simplified system consists of Identity Manager and two other systems.
 It means that settings are required in `appsettings.agent.json` to connect with the systems. See the
-[Microsoft Exchange](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftexchange/index.md),
-[PowerShellProv](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md),
-and [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/activedirectory/index.md) topics for additional information.
+[Microsoft Exchange](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftexchange/index.md),
+[PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md),
+and [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md) topics for additional information.
 
 > This example contains export and fulfillment settings for the Active Directory and for Microsoft
 > Exchange:
@@ -97,30 +97,30 @@ As this guide focuses on the fulfillment of an external system, export settings 
 The Fulfill-PowerShell needs a script whose path is defined by the attribute
 **PowerShellScriptPath**. Identity Manager provides a script in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`.See the
-[Write a PowerShell Script for Provisioning](/docs/identitymanager/saas/integration-guide/connectors/write-fulfill-powershell-script/index.md) topic for additional information on how to write a customized script.
+[Write a PowerShell Script for Provisioning](/docs/identitymanager/6.2/integration-guide/connectors/write-fulfill-powershell-script/index.md) topic for additional information on how to write a customized script.
 
 To define and apply additional settings when authenticating to an external system, we can set the attribute Options and add required parameters for authentication.
 
 In the example above, the `Basic` AuthType was chosen to show how to fill the credentials, but it isn't mandatory to use this. See the
-[Microsoft Exchange](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftexchange/index.md) topic for additional information.
+[Microsoft Exchange](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftexchange/index.md) topic for additional information.
 
-For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's not the most secure. Hence, it is strongly recommended to use Kerberos AuthType or credentials protection via Azure Key Vault or CyberArk in a production environment. See the [PowerShellProv](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.  
+For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's not the most secure. Hence, it is strongly recommended to use Kerberos AuthType or credentials protection via Azure Key Vault or CyberArk in a production environment. See the [PowerShellProv](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) topic for additional information.  
 Netwrix Identity Manager (formerly Usercube) recommends completing this guide once, testing the configuration, and only then, switching to a more secure way of storing credentials.
 
 ## Build the Connector
 
-To be used for export tasks, a connector must be declared in the applicative configuration and linked to an Agent. See the [Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic for additional information.
+To be used for export tasks, a connector must be declared in the applicative configuration and linked to an Agent. See the [Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic for additional information.
 
 It is strongly recommended that the applicative configuration be stored in the working directory Conf folder as a set of xml files organized by connector. To follow this structure, create a MicrosoftExchange directory in the Conf folder.
 
 ### Declare a Connector
 
-In the `MicrosoftExchange` directory, create a `MicrosoftExchange Connector.xml` file. This file contains the declaration of the connector and the associated [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md).
+In the `MicrosoftExchange` directory, create a `MicrosoftExchange Connector.xml` file. This file contains the declaration of the connector and the associated [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
 
 > This example declares the 
-> `MicrosoftExchange`[Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+> `MicrosoftExchange`[Connector](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 > on the `Local` agent, and the
-> [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) linked to the
+> [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) linked to the
 > previously defined `MicrosoftExchangeExportFulfillment` JSON section (see the example above):
 >
 > ```
@@ -133,15 +133,15 @@ In the `MicrosoftExchange` directory, create a `MicrosoftExchange Connector.xml`
 
 ### Write Entity Types
 
-The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) should match as closely as possible the structure
+The [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) should match as closely as possible the structure
 of the Microsoft Exchange data relevant for Identity Manager. It is designed by analyzing the
 Microsoft Exchange data structure, and describing said data with Entity Types and
-[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 Eventually, it is up to the integration team to design the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most
 likely be refined iteratively throughout the project integration. See the
-[Assignment Policy](/docs/identitymanager/saas/integration-guide/role-assignment/role-model-rules/index.md) topic for additional information.
+[Assignment Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/role-model-rules/index.md) topic for additional information.
 
 A good starting point for the Entity Model is to mirror the shape of the Microsoft Exchange
 mailboxes and databases.
@@ -167,14 +167,14 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 The entity type must be mapped, on a property by property basis, to the exported attributes of
 Microsoft Exchange mailboxes and databases (namely, the columns of the CSV source files generated by
 the export). The
-[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 element maps scalar properties from a CSV source file to an EntityType.
 
 ##### Example
 
 In this example, the CSV source files are microsoftexchange_databases.csv and
 microsoftexchange_mailboxes.csv located in the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 ```
@@ -187,7 +187,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 ### Write Entity Associations
 
 Entity types are associated through their navigation properties with
-[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
+[Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) elements.
 
 ##### Example
 
@@ -206,7 +206,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 
 ### Write the Entity Association Mapping
 
-The [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+The [Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 element maps column values from a CSV source file to an EntityType navigation property.
 
 ##### Example
@@ -252,12 +252,12 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 
 ```
 
-The CSV file `microsoftexchange_mailboxes.csv` must be exported to the export output folder. See the [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+The CSV file `microsoftexchange_mailboxes.csv` must be exported to the export output folder. See the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information.
 
 ## Build the Role Model
 
-An [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+An [Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 must be created with the following elements:
 
 - `ResourceType`
@@ -267,7 +267,7 @@ must be created with the following elements:
 
 ### Resource Type
 
-A [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) is a
+A [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) is a
 conceptual model of an information system object, here a mailbox.
 
 The resource type contains several rules:
@@ -295,7 +295,7 @@ the Fulfill Microsoft Exchange via PowerShell topic for additional information.
 
 ### Resource Type Mapping
 
-A [Resource Type Mappings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
+A [Resource Type Mappings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
 element contains all the resource types (sharing the same Identifier) that can be provisioned into targeted platforms, applications, and systems.
 
 #### Example
@@ -318,7 +318,7 @@ one `Identifier` and one `Connection`):
 
 ### Resource Correlation Rule
 
-A [Resource Correlation Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+A [Resource Correlation Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 is used to correlate the resource `MicrosoftExchange_Mailbox_NominativeUser` with the
 `Directory_User`.
 
@@ -337,7 +337,7 @@ This rule means if the `SamAccountName` (`MicrosoftExchange_Mailbox`) is equal t
 
 ### Single Role (optional)
 
-A [Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) encapsulates system entitlements.
+A [Single Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) encapsulates system entitlements.
 
 #### Example
 
@@ -367,7 +367,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 
 ### Navigation
 
-A [Menu Item](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
+A [Menu Item](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
 include a link to the resources list in the left menu on the UI home screen.
 
 It is strongly recommended that you gather synchronized resources menu items under parent menu
@@ -399,7 +399,7 @@ It is strongly recommended that the display configuration be written to a new
 #### All-in-One Scaffolding
 
 The
-[View Target Resource Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtargetresourcetemplate/index.md)
+[View Target Resource Template](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtargetresourcetemplate/index.md)
 generates all the required elements to be seen by the user.
 
 ##### Example
@@ -419,7 +419,7 @@ provide a more precise display.
 #### Display Entity Type
 
 The
-[Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 describes how a single resource should be displayed.
 
 ##### Example
@@ -438,18 +438,18 @@ This example configures the following display for
 
 The scalar properties require no configuration: they are automatically displayed. The only
 information that the
-[Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 adds here, is that the property `BasicCollection` is a navigation property. An eye icon will be
 displayed to take you directly to the matching page.
 
 #### Display Table
 
-The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 elements describe how a list of resources should be displayed.
 
-The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 contains a list of
-[Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) columns
+[Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) columns
 elements that identify which properties should be included in the list display.
 
 ##### Example
@@ -468,7 +468,7 @@ This example configures the following list display:
 #### Internal Display Name
 
 An `InternalDisplayName` can also be declared as an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
+[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
 expression. The `InternalDisplayName` is used in several UI screens to identify a resource for the
 user.
 
@@ -494,9 +494,9 @@ This step focuses on setting up permissions for Identity Manager's end-users gra
 the connector.
 
 The
-[Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 and Access Control Entry elements define
-[AccessControlPermission](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md)
+[AccessControlPermission](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md)
 for end-user profiles to read and write the connector's data (such as resources of a given entity
 type). It is used by the UI when displaying data such as resources and available roles.
 
@@ -538,7 +538,7 @@ This job will be executed on Microsoft Exchange's connector agent.
 
 Notice the **Identifier** attribute with the value `Job` in the `OpenIdIdentifier` tag. It refers to
 the `ClientId` written to the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 technical configuration. The Tasks will authenticate with the profile associated with this
 `ClientId` in the `<OpenIdClient>` xml configuration element.
 
@@ -547,9 +547,9 @@ Removing the tag will launch export-related tasks before fulfillment-related tas
 need the same XML configuration and additional settings in Fulfill Microsoft Exchange via PowerShell.
 
 All the job steps generated by the scaffolding can be found in the
-[Create Connector Synchro Complete](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
+[Create Connector Synchro Complete](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md) scaffolding.
 
-Check [Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
+Check [Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
 for incremental synchronization.
 
 ### Permissions
@@ -557,7 +557,7 @@ for incremental synchronization.
 The execution of a Job entails the execution of Tasks, reading/writing to the Database and sending
 files over to the Server. These operations are protected by an authorization mechanism.
 
-A [Profile](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) is required and
+A [Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) is required and
 must have the proper permissions for the associated Job or Task to perform.
 
 Here, jobs use the default `OpenId`.
@@ -569,19 +569,19 @@ scheduler.
 
 #### With Scheduler
 
-Use the [Job](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) Cron Tab Expression attribute.
+Use the [Job](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md) Cron Tab Expression attribute.
 
 #### With an external scheduler
 
 An external scheduler would rely on the
-[Usercube-Invoke-Job](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) tool.
+[Usercube-Invoke-Job](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) tool.
 
 ## Validation
 
 ### Deploy Configuration
 
 The configuration is written to the database using the
-[Deploy Configuration Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md)
+[Deploy Configuration Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md)
 tool.
 
 ### Test

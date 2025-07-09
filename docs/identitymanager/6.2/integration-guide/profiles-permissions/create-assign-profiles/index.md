@@ -12,7 +12,7 @@ these profiles automatically.
 ## Create a Profile
 
 Here is the xml configuration to create a profile in Identity Manager. See the
-[ Profile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) topic for additional
+[ Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) topic for additional
 information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -26,9 +26,9 @@ script in the command line.
 
 To automatically assign profiles it is necessary to manipulate the ProfileRuleContext and
 ProfileRule. See the
-[Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 and
-[Profile Rule Context](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
+[Profile Rule Context](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
 topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -42,7 +42,7 @@ script in the command line.
 
 The Identity Manager-Set-InternalUserProfiles task is mandatory to automatically assign the profile.
 The task can be selected from the Job provisioning list. See the
-[ Set Internal User Profiles Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
+[ Set Internal User Profiles Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the

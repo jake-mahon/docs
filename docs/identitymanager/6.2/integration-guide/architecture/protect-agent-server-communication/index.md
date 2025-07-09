@@ -44,7 +44,7 @@ The agent must be configured, in its `appsettings.json`, with:
     environment, Identity Manager provides it.
 
 In order to give to the agent the right permissions, the XML configuration must specify an
-[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to
+[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) linked to
 its hashed secret, and to a Identity Manager profile.
 
 ## Protect Agent/Server Communication
@@ -53,7 +53,7 @@ Protect agent/server communication by proceeding as follows:
 
 1. Make sure that both the agent and server configurations specify an encryption certificate. See
    the
-   [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+   [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
    for additional information.
 
     > For example:
@@ -73,7 +73,7 @@ Protect agent/server communication by proceeding as follows:
     > ```
 
 2. Make sure that the agent is also configured with its own encryption certificate. See the
-   [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+   [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
    for additional information.
 
     > For example:
@@ -95,9 +95,9 @@ Protect agent/server communication by proceeding as follows:
 
 3. Configure an OpenIdClient, both on agent side in `appsettings.agent.json` with the non-hashed
    secret and on server side in the XML configuration with the secret hashed by the
-   [ Usercube-New-OpenIDSecret ](/docs/identitymanager/saas/integration-guide/executables/references/new-openidsecret/index.md)
+   [ Usercube-New-OpenIDSecret ](/docs/identitymanager/6.2/integration-guide/executables/references/new-openidsecret/index.md)
    executable. See the
-   [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) for
+   [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) for
    additional information.
 
     > For example on agent side:

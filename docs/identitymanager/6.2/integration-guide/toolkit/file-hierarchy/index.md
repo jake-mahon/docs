@@ -17,16 +17,16 @@ Element `<ConfigurationFile>` is the root element of each configuration file.
 ```
 
 Each configuration element matches to an entry in the database. Detailed description of the element
-can be found in the Data model. See the [ XML Configuration Schema ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/index.md)
+can be found in the Data model. See the [ XML Configuration Schema ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md)
 topic for additional information.
 
 For example, the structure of the `<Connector>` element can be found in the
-[Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) topic.
+[Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md) topic.
 
 In some case, the element name will not match directly the data model type name.
 
 For example, the element `<Entry>` in the following XML fragment is a
-[Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) item in the
+[Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) item in the
 database.
 
 ```

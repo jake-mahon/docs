@@ -10,7 +10,7 @@ This connector exports
 [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure)
 resources, role definitions and assignments.
 
-This page is about [ Azure ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure/index.md).
+This page is about [ Azure ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/azure/index.md).
 
 ![Package: Cloud/Azure](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
@@ -28,7 +28,7 @@ and role assignments to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
@@ -114,7 +114,7 @@ This connector is meant to generate to the Export Output folder the following CS
 - __principalId__: Microsoft Entra ID (formerly Microsoft Azure AD)'s object GUID;
 - __scope__: resource's Azure id.
 
-See the [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic for additional information.
+See the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic for additional information.
 
 ## Fulfill
 
@@ -132,9 +132,9 @@ Data protection can be ensured through:
 
 - [
   RSA Encryption
-  ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
-- An [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
+  ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
+- An [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - A [CyberArk's AAM Credential Providers
-  ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Azure's ```ApplicationId``` and ```ApplicationKey```.
+  ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md) able to store Azure's ```ApplicationId``` and ```ApplicationKey```.
 ````

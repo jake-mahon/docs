@@ -8,10 +8,10 @@ sidebar_position: 80
 
 After roles are assigned to users, Identity Manager can use mining rules to perform role mining.
 Role mining means that Identity Manager analyzes existing assignments in order to suggest
-[Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) which will assign
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) to certain users matching given criteria.
+[Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) which will assign
+[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) to certain users matching given criteria.
 
-The [ Build Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/buildrolemodeltask/index.md) replaces the
+The [ Build Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/buildrolemodeltask/index.md) replaces the
 existing single role rules in the specified rule policy with the new generated ones.
 
 ## Examples

@@ -7,9 +7,9 @@ sidebar_position: 50
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
+[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
 combination of a context rule and the
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
+[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
 sections are configured.
 
 A context is used to compute the role assignments for an identity by verifying that the
@@ -19,7 +19,7 @@ dimension-value pairs meet the role criteria.
 
 When using only a context rule without a record section, the context generation is straightforward:
 a set of dimension-value pairs is created by computing the value of the dimension bindings on the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
+[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 > For example, the following context rule defines guests' contexts based on their start date, end
 > date, and company.
@@ -32,11 +32,11 @@ a set of dimension-value pairs is created by computing the value of the dimensio
 
 ## Identity Context Generation
 
-As described in the [Identity Management](/docs/identitymanager/saas/integration-guide/identity-management/index.md), identities are
+As described in the [Identity Management](/docs/identitymanager/6.2/integration-guide/identity-management/index.md), identities are
 complex to model. Records were introduced to tackle this complexity by allowing multiple positions
 for the same identity.
 
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
+[ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
 by modeling the relationship between positions. Indeed with record sections, it is possible to
 define:
 
@@ -96,7 +96,7 @@ With the given configuration and the identity of `Mark Barn`, the following cont
 ![simple-recordsection-result](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/simple-recordsection-result.webp)
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for
-the [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
+the [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) algorithm.
 
 Any rules targeting identities with a `fulltime`Category`will be assigned to`Mark
 Barn`from`Cs`to`Ce```.
@@ -174,4 +174,4 @@ By default, the previous position is extended when there is a gap. If there isn'
 position then the next position will be anticipated.
 
 The choice of the position to extend can be configured by leveraging the `SortKeyExpression` in the
-position [ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).
+position [ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).

@@ -57,7 +57,7 @@ to confirm its accuracy.
 | ------------------------------------------------------------------------------------- | ---------------------------- |
 | IdentityManagerServer (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information
 
 ## Load Identities
@@ -83,7 +83,7 @@ Load identities for the first time by proceeding as follows:
     left the organization in the past XXX (time period defined by the rules of the security
     officer). It is interesting to have past workers in order to understand the process and ensure
     that they are supposed to be orphaned. See the
-    [Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md)
+    [Review Orphaned and Unused Accounts](/docs/identitymanager/6.2/user-guide/administrate/orphan-unused-account-review/index.md)
     topic for additional information.
 
     **Employees**
@@ -107,7 +107,7 @@ Load identities for the first time by proceeding as follows:
 
     The Excel file contains several tabs which organize data, but not all tabs and columns are
     mandatory. You can find **more details about the
-    [Template Description](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/template-description/index.md)**. Below are the minimum recommended
+    [Template Description](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/template-description/index.md)**. Below are the minimum recommended
     attributes (mandatory in orange):
 
     ![Template Recommendations](/img/product_docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.webp)
@@ -141,7 +141,7 @@ Load identities for the first time by proceeding as follows:
     1. Upload the `Directory.xlsx` file with only recommended data, validate and synchronize as
        explained on this page.
     2. Connect the AD, synchronize AD data, update correlation and classification. See the
-       [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+       [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
     3. Follow the usual query procedure to request phone numbers from the AD.
     4. Ensure you display a key (for example `EmployeeId` or `email`) to master the order of the
        displayed data.
@@ -188,5 +188,5 @@ In order to validate the process:
   (through Identity Manager's predefined reports, the Query module or Power BI), in order to ensure
   that Identity Manager's content sticks to reality.
 
-    See the [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional
+    See the [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional
     information.

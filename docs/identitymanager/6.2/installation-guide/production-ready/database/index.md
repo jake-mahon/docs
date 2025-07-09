@@ -8,7 +8,7 @@ sidebar_position: 20
 
 The Identity Manager Database can be installed on the Server workstation or on a separate machine.
 
-Please make sure that the [Database](/docs/identitymanager/saas/installation-guide/requirements/database-requirements/index.md) requirements
+Please make sure that the [Database](/docs/identitymanager/6.2/installation-guide/requirements/database-requirements/index.md) requirements
 are met before going further.
 
 ## Steps
@@ -69,4 +69,4 @@ The next step will consist in:
 - Granting the necessary database permissions for this account.
 
 It will also show how to test the Identity Manager Database connection. See the
-[Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for additional information.
+[Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.

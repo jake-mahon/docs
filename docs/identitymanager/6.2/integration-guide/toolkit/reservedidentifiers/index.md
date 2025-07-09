@@ -6,8 +6,8 @@ sidebar_position: 60
 
 # Reserved identifiers
 
-Identifiers of [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)cannot be one of the following
+Identifiers of [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and
+[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)cannot be one of the following
 words:
 
 These words can't be written in any case, example: id, Id, iD and ID are forbidden.

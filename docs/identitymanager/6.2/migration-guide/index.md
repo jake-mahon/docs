@@ -53,7 +53,7 @@ If you are looking to upgrade the Netwrix Identity Manager version from 6.1 to 
 to take any action because the database will automatically be upgraded. If you have problems
 importing your configuration into 6.2 related to C# expressions, please run the Identity
 Manager-Check-ExpressionsConsistency tool. See the
-[Usercube-Check-ExpressionsConsistency](/docs/identitymanager/saas/integration-guide/executables/references/check-expressionsconsistency/index.md)
+[Usercube-Check-ExpressionsConsistency](/docs/identitymanager/6.2/integration-guide/executables/references/check-expressionsconsistency/index.md)
 topic for additional information.
 
 ## Specific Information to Migrate from v6.0 to v6.1

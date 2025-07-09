@@ -46,7 +46,7 @@ technology required for IGA-related data flows.
 
 ![Connectors](/img/product_docs/identitymanager/saas/introduction-guide/overview/overview_connectors.webp)
 
-See more details on [ Identity Management ](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md) and connection between
+See more details on [ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) and connection between
 systems.
 
 ---
@@ -82,15 +82,15 @@ Furthermore, Identity Manager provides a few workflows for entitlement request o
 modification, which often include approval from a third party, hence identities get their
 entitlements securely.
 
-See the [ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional
+See the [ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md) topic for additional
 information.
 
 Thanks to the role model and data flows between Identity Manager and the managed systems, Identity
 Manager ensures the compliance of existing permission assignments with the policy, pointing out
 non-conforming assignments.
 
-See the [Governance](/docs/identitymanager/saas/introduction-guide/overview/governance/index.md) topic for additional information.
+See the [Governance](/docs/identitymanager/6.2/introduction-guide/overview/governance/index.md) topic for additional information.
 
 ## Examples
 
-Let's read some [Use Case Stories](/docs/identitymanager/saas/introduction-guide/overview/use-cases/index.md).
+Let's read some [Use Case Stories](/docs/identitymanager/6.2/introduction-guide/overview/use-cases/index.md).

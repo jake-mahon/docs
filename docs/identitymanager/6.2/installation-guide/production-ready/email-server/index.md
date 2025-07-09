@@ -40,7 +40,7 @@ Both the Agent and the Server can get their emails delivered through an **extern
 ## Server Emails
 
 The SMTP server used by the Identity Manager Server is configured in the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
 
 Here is an example with an external SMTP server.
 
@@ -68,7 +68,7 @@ authenticate to send emails.
 ## Agent Emails
 
 From the agent side, the email settings dwell in the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 file.
 
 Here is a classic example that enables Identity Manager to send emails through the

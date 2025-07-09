@@ -103,25 +103,25 @@ constitute a different topic), changes can be made to the repository through:
 - the policy's rules that trigger changes to the repository directly, and those that trigger changes
   to managed systems and impact the repository indirectly after the next synchronization.
 
-See the [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional
+See the [Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md) topic for additional
 information.
 
 ## Next Steps
 
-Let's learn about [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md).
+Let's learn about [Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md).
 
 ## Learn More
 
 Learn more on Identity Management.
 
 See how to
-[Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md).
+[Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md).
 
-Learn more on [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md).
+Learn more on [Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md).
 
 See how to create a
-[Connect to a Managed System](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md).
+[Connect to a Managed System](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md).
 
-Learn more on [Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/index.md).
+Learn more on [Synchronization](/docs/identitymanager/6.2/integration-guide/synchronization/index.md).
 
-Learn more on [Workflows](/docs/identitymanager/saas/integration-guide/workflows/index.md).
+Learn more on [Workflows](/docs/identitymanager/6.2/integration-guide/workflows/index.md).

@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # For Microsoft Entra ID
 
-See the[ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for
+See the[ Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for
 additional information about creating a connector.
 
 ## Prerequisites
@@ -15,12 +15,12 @@ The following are prerequisites for the connector creation.
 
 Configure the external system
 
-See the [Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/azuread-register/index.md) topic for additional
+See the [Register for Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/azuread-register/index.md) topic for additional
 information on how to register Identity Manager.
 
 Configure Identity Manager
 
-See the [ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for
+See the [ Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftentraid/index.md) topic for
 additional information on the connection.
 
 For example:
@@ -46,7 +46,7 @@ appsettings.agent.json
 
 ## Build the Connector
 
-See the [ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md)
+See the [ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md)
 topic for additional information on how to build a connector via the UI, with its connections,
 entity types and mappings.
 
@@ -70,7 +70,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Connector.xml
 
 The entity model should match as closely as possible the structure of the relevant Microsoft Entra
 ID data, and be aligned with Identity Manager's repository. See the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) topic for additional information.
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional information.
 
 For example, Microsoft Entra ID's Users and Groups can be described by entity types, and group
 memberships by entity associations.
@@ -159,7 +159,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Connector.xml
 Notice the format of the Property1 and Property2 XML attributes: the name of the entity type is
 followed by a colon (:) and the name of an entity property. It is a binding describing in one
 expression, the target entity type and property. See
-the[Binding](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional
+the[Binding](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) topic for additional
 information.
 
 Entity mapping
@@ -299,7 +299,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Nav.xml
 Displayed resources
 
 See the
-[ Organize Resources' Datasheets ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
+[ Organize Resources' Datasheets ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
 topic for additional information on how to set the display properties via the UI.
 
 For example:
@@ -342,7 +342,7 @@ This is how the resources are displayed on the UI.
 Resources' display names
 
 See the
-[ Set Resources' Display Names ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
+[ Set Resources' Display Names ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
 topic for additional information on how to set resources' display names via the UI.
 
 For example:

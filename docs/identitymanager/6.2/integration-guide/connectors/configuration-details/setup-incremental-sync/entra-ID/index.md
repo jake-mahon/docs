@@ -7,7 +7,7 @@ sidebar_position: 10
 # For Microsoft Entra ID
 
 This example is about implementing incremental synchronization for a
-[ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/index.md) connector (formerly
+[ Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/microsoftentraid/index.md) connector (formerly
 Microsoft Azure AD).
 
 ## Build the Incremental Synchronization Job
@@ -15,7 +15,7 @@ Microsoft Azure AD).
 Identity Manager provides a full-written job to perform incremental synchronization through the UI.
 
 See how to launch incremental
-[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md)via the UI.
+[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md)via the UI.
 
 > For example:
 >
@@ -33,7 +33,7 @@ See how to launch incremental
 ### Components
 
 Identity Manager provides a
-[Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
+[Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
 scaffolding that generates the configuration for these steps.
 
 For example:
@@ -48,23 +48,23 @@ For example:
 ```
 
 
-Note that the `Job` value in `OpenIdIdentifier` refers to the `ClientId` written to the [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
+Note that the `Job` value in `OpenIdIdentifier` refers to the `ClientId` written to the [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) file. Each task will authenticate with the profile associated with this ClientId.
 
 
 ### Permissions for the agent
 
 This part is not specific to a connector type, see the
-[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
+[ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
 
 ### Agent's authentication to the server
 
 This part is not specific to a connector type, see
-the[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
+the[ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
 
 ### Permissions for users
 
 This part is not specific to a connector type, see
-the[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
+the[ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/setup-incremental-synchronization/index.md) topic for additional information.
 
 ## Schedule the Job
 
@@ -90,7 +90,7 @@ scheduler.
 ### Using an external scheduler
 
 An external scheduler relies on
-the[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md).exe.
+the[ Usercube-Invoke-Job ](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md).exe.
 
 > The following command can be scheduled. It executes the `AzureAD_Synchronization_Delta` job using
 > the `Job/secret` authentication pair to connect to the Identity Manager Server at
@@ -110,7 +110,7 @@ the[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executab
 Validate the job's execution by proceeding as follows:
 
 1. Deploy the XML configuration to the database, by using the
-   [ Deploy Configuration Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
+   [ Deploy Configuration Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
 2. In the UI, access the **Job Execution** page from the dashboard's **Administration** section.
 3. Find the job named with the string input in the job's `DisplayName_Li` property, and launch it.
 4. Once the job is completed, Microsoft Entra ID objects should be synchronized to the database's

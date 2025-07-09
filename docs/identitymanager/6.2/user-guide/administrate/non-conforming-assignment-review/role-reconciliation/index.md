@@ -45,7 +45,7 @@ As roles and navigation properties are technically bonded together, their review
   reconciled accordingly.
 - If the property is reviewed (approved/declined), then the corresponding role is automatically
   reviewed too, its
-  [Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+  [Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md)
   workflow state transitioned to `Manual` (if approved) or `Cancellation` (if declined, then a
   deprovisioning order is sent).
 
@@ -67,14 +67,14 @@ entitlements.
 
 | Input                                               | Output          |
 | --------------------------------------------------- | --------------- |
-| [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) (required) | Complying roles |
+| [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) (required) | Complying roles |
 
 ## Review a Non-conforming Permission
 
 Review a non-conforming permission by proceeding as follows:
 
 1. Ensure that the
-   [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+   [ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
@@ -109,7 +109,7 @@ Review a non-conforming permission by proceeding as follows:
 
 4. Trigger provisioning by launching, on the appropriate connector's overview page, **Jobs** >
    **Generate Provisioning Orders**, then, after this first task is done, **Jobs** > **Fulfill**.
-   See the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) topic for additional information.
+   See the [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) topic for additional information.
 
     ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 

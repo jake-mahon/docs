@@ -27,12 +27,12 @@ write permissions are required.
 
 | Input                                                                                                                                                                                         | Output                  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [ Review Provisioning ](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning through [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning through [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Manual Provisioning
 
 Manual provisioning is performed through a connection using the
-[ Manual Ticket ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/manual-ticket/index.md).
+[ Manual Ticket ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/manual-ticket/index.md).
 Besides, for a resource to be manually provisioned, the corresponding resource type must be
 configured with the manual connection set to `Provisioning Connection` in the **Fulfill Settings**.
 
@@ -78,7 +78,7 @@ In order to verify the process:
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the workflow through
-   [ Request Entitlement Assignment ](/docs/identitymanager/saas/user-guide/administrate/manual-assignment-request/index.md) to make a change in
+   [ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) to make a change in
    one of their permissions, which involves manual provisioning.
 3. Perform manual provisioning and check the provisioning state of the requested entitlement at
    every step, in the user's **View Permissions** tab.

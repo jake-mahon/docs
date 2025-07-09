@@ -24,7 +24,7 @@ through the menu items on the left of the home page, in the **Connectors** secti
 These entity type pages can be configured via XML to customize all displayed columns and available
 filters, especially the **Orphan** filter that spots uncorrelated resources, and the **Owner /
 Resource Type** column that shows the owner of each resource. See
-the[ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/create-menu-items/index.md) topic for
+the[ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md) topic for
 additional information on customization.
 
 ![Owner / Resource Type Column](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
@@ -32,7 +32,7 @@ additional information on customization.
 In the **Orphan** field, select **Yes** to see all existing resources without an owner.
 
 In addition, filters can be configured in the reporting module to list orphaned accounts. See the
-[ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display
+[ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display
 **User** and **AD User** (nominative) with a filter on void user's display names.
 
 **NOTE:** Some accounts are considered orphaned because of an error in the account data or
@@ -83,7 +83,7 @@ return ((resource.lastLogonTimestamp == null) ||
 
 Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the
 filters in the query module, based on said property. See the
-[ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
+[ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
 
 The previous example about the AD's **isUnused** property can be complemented in the query module by
 displaying this property alongside users' **EmployeeId**.
@@ -97,7 +97,7 @@ table below.
 
 | Input                                                                     | Output                               |
 | ------------------------------------------------------------------------- | ------------------------------------ |
-| [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
+| [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
 
 ## Review an Orphaned Account
 
@@ -147,7 +147,7 @@ You can **Select owner** from the list by clicking on the check box.
 
 **NOTE:** We said that useful service accounts must be connected to their owners due to the fact
 that an orphaned account cannot be certified. .See the
-[ Perform Access Certification ](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md) topic for additional information.
+[ Perform Access Certification ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md) topic for additional information.
 But a service account must not be linked to a person, for the departure of said person from the
 company may trigger the loss of the service account.  
 This is why we create identities with **Application** as their **UserType**, each

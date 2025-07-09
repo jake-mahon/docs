@@ -13,9 +13,9 @@ This guide shows how to configure the agent's application settings via the `web.
 
 Identity Manager provides JSON files to configure varied application settings, named appsettings
 json and appsettings.agent.json. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 and
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topics for additional information.
 
 This page describes the optimal configuration of the production agent's application settings.
@@ -117,7 +117,7 @@ Configure the agent's settings by proceeding as follows:
 
     - **OpenId** > **AgentIdentifier** specifies the agent's name which must match the XML
       configuration. See the
-      [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+      [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
       topic for additional information..
 
         > For example:
@@ -267,4 +267,4 @@ Configure the agent's settings by proceeding as follows:
 ## Next Steps
 
 To continue,see the local server to
-[ Install IIS via Server Manager ](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/iis-installation/index.md).
+[ Install IIS via Server Manager ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-installation/index.md).

@@ -8,7 +8,7 @@ sidebar_position: 10
 
 How to create role naming rules, which create single roles using existing naming conventions from
 the managed system. See the
-[ Role Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
+[ Role Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
 topic for additional information.
 
 ## Overview
@@ -45,7 +45,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                | Output                                                    |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| [ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) (required) | Role naming rule Single roles Navigation rules Categories |
+| [ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) (required) | Role naming rule Single roles Navigation rules Categories |
 
 ## Create a Role Naming Rule
 
@@ -69,7 +69,7 @@ Create a role naming rule by proceeding as follows:
     ![Create a Naming Rule](/img/product_docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.webp)
 
     - `Policy`:
-      [Policy](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+      [Policy](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
       in which the rule exists.
     - `Property`: navigation property which will define the actual entitlement in the future
       navigation rule.
@@ -77,7 +77,7 @@ Create a role naming rule by proceeding as follows:
     - **+ New Rule**: a naming rule is based on the union of rules, themselves based on the
       intersection of rule items. A rule item specifies one of the conditions that will trigger the
       enforcement of the naming rule. See the
-      [ Role Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
+      [ Role Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
       topic for additional information.
     - `Where Expression`: C# expression returning a boolean to condition the application of the
       rule.
@@ -86,18 +86,18 @@ Create a role naming rule by proceeding as follows:
         options available in the rule items do not suffice.
 
     - **Single Role**: single role(s) to be created. See the
-      [Create a Role Manually](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
+      [Create a Role Manually](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md) topic for additional information.
 
         - `Identifier`: must be unique among roles and without any whitespace. If the defined
           identifier is already used, then neither the role nor the rule is created. Can be defined
           by a property path and/or
-          [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) (mandatory).
+          [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) (mandatory).
         - `Name`: will be displayed in the UI to identify the future single role. Can be defined by
           a property path and/or an
-          [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md).
+          [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md).
 
     - **Category**: the
-      [ Category ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
+      [ Category ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
       for the future role(s).
 
         - `Identifier`: either matches an existing category and selects it, or doesn't match and

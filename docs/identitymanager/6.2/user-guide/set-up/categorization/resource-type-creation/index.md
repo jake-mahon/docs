@@ -12,7 +12,7 @@ system.
 ## Overview
 
 A
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 is created to highlight differences in intent between resources. It materializes the organization's
 profiles. In a given managed system, different types of resources have different security needs.
 
@@ -29,12 +29,12 @@ In practice, a specific resource type is created for a given resource when there
 
 - the owner type (for example worker, partner, customer, application, robot, etc.);
 - the required set of classification and/or correlation rules; See the
-  [ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md), and
-  [ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md) topics for additional information.
+  [ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md), and
+  [ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md) topics for additional information.
 - the approval circuit for a resource's modification or assignment, i.e. the number of required
   approvals, validators, etc.;
 - the type of provisioning (manual or automatic). See the
-  [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) topic for additional information.
+  [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) topic for additional information.
 
 ### Source vs. target resource
 
@@ -42,12 +42,12 @@ Resource types are the vessel for ownership relationships. They involve the defi
 target objects chosen from among the properties of existing entity types. The source (usually
 identities) is the owner of the target (usually resources from your managed systems, such as a
 nominative AD account). This relationship is the basis for correlation as much as for future
-provisioning. See the [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md),
-[ Correlate Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/correlation/index.md),
-and[Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) topics for additional information.
+provisioning. See the [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md),
+[ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md),
+and[Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) topics for additional information.
 
 See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 ## Participants and Artifacts
@@ -60,13 +60,13 @@ application users, entitlements and data model.
 | Identity repository (optional) Target connector (required) Synchronized data (optional) | Resource type |
 
 See the
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)[ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md),
-and [ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) topics for additional information.
+[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)[ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md),
+and [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topics for additional information.
 
 ## Create a Resource Type
 
 A new resource type requires an existing entity type. See the
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
+[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
 information.
 
 Create a resource type by proceeding as follows:
@@ -89,14 +89,14 @@ Create a resource type by proceeding as follows:
       C#-compatible.
       [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
     - `Name`: will be displayed in the UI to identify the resource type.
-    - `Policy`: [policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) in which the resource type
+    - `Policy`: [policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) in which the resource type
       exists.
     - `Source Entity Type`: entity type (from any existing connector) used to fill the target entity
       type.
     - `Target Entity Type`: entity type (part of the connector) to be filled with the source entity
       type.
     - `Category`: category assigned to the resource type. It can be chosen from among the existing
-      categories or [created](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) directly from the
+      categories or [created](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) directly from the
       categories list by clicking on the **+ Category** button.
     - `Approval Workflow`: represents the number of validations required to assign a resource from
       this type to an identity.
@@ -104,21 +104,21 @@ Create a resource type by proceeding as follows:
       process. `Implicit` mode bypasses the approval step(s) if the person who issues the role
       request is also the role officer. `Explicit` refuses said bypass. `Inherited` follows the
       policy decision to approve role implicitly or not. See the
-      [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for additional
+      [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) topic for additional
       information.
     - `Prolongation without a new approval workflow`: enables the resource type to have its
       assignment's end date postponed without any validation. `Inherited` follows the policy
       decision to enable this option or not. See the
-      [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for additional
+      [Create a Policy](/docs/identitymanager/6.2/user-guide/optimize/policy-creation/index.md) topic for additional
       information.
     - `Hide in Simplified View`: hides the role from the users' **Simplified View** in **View
       Permissions** dialog. This setting does not apply to roles which are either inferred or have
       workflow states which require manual action.
     - `Arguments Expression`: when using a connection for automatic provisioning, C# expression used
       to compute a dictionary of strings in order to compute the arguments of
-      [provisioning](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) orders, such as the identifier of
+      [provisioning](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) orders, such as the identifier of
       the workflow to launch within Identity Manager, or the identifier of the user's record to
-      copy. See the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) topic for additional
+      copy. See the [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) topic for additional
       information.
     - `Allow Addition`: enables Identity Manager to automatically create new resources in the
       managed system when their owners are given the right entitlements. Otherwise, resource
@@ -151,7 +151,7 @@ Create a resource type by proceeding as follows:
       Reconciliation** screen. Can be activated only if `Allow Removal` is activated too.
     - `Require Provisioning Review`: forces an additional mandatory review of all provisioning
       orders for the resource type (on the
-      [ Review Provisioning ](/docs/identitymanager/saas/user-guide/administrate/provisioning/provisioning-review/index.md)
+      [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md)
       screen).
 
         > Consider AD accounts. While nominative accounts can be provisioned without specific

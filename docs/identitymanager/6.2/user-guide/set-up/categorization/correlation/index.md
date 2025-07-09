@@ -7,7 +7,7 @@ sidebar_position: 20
 # Correlate Resources
 
 How to define the
-[ Resource Correlation Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[ Resource Correlation Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 to match up resources across systems, usually accounts with their owner.
 
 ## Overview
@@ -17,7 +17,7 @@ to match up resources across systems, usually accounts with their owner.
 Correlation is the process of establishing an ownership relationship between a source resource
 (usually an identity) and a target resource (usually an account). It is the basis of the link
 between an identity and their fine-grained entitlements. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Every resource type can be assigned a set of correlation rules.
@@ -119,10 +119,10 @@ application users, entitlements and data model.
 
 | Input                                                                                                                      | Output            |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Identity repository ( (required) Resource types (required) [ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
+| Identity repository ( (required) Resource types (required) [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) and
-[ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
+[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
 
 ## Create a Correlation Rule
 
@@ -148,10 +148,10 @@ Fill a resource type with a correlation rule by proceeding as follows:
 
     - **Source Object**: at least one property from the source system that is going to be linked to
       a given target object. Can be defined by a property path and/or an
-      [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md).
+      [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md).
     - **Target Object**: one property from the managed system that is going to be linked to a given
       source object. Can be defined by a property path and/or an
-      [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md).
+      [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md).
     - `Confidence Rate`: rate expressing the rule's reliability, and its priority order.
         > In this example, a person via their login and name, is the owner of a nominative AD
         > account via its `sAMAccountName` attribute and display name:
@@ -180,7 +180,7 @@ screen "blocks" correlation and classification "as is". Neither will be re-compu
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in correlation rules. See the
-[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
+[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
 
 Any modification in correlation rules is taken into account via the following jobs: on the connector
 dashboard and in the **Resource Types** frame, click on **Jobs** > **Prepare Correlation Keys**, and
@@ -191,7 +191,7 @@ then on **Jobs** > **Compute Role Model**.
 ## Verify Correlation
 
 In order to verify the process, check the list of
-[Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md)
+[Review Orphaned and Unused Accounts](/docs/identitymanager/6.2/user-guide/administrate/orphan-unused-account-review/index.md)
 and analyze them to look for patterns revealing correlation issues. To do so, click on the target
 entity type(s) affected by your rule(s) in the left menu of the home page.
 

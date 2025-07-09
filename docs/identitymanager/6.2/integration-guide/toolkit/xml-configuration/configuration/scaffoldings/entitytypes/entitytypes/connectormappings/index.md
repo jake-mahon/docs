@@ -63,7 +63,7 @@ like our U1 but without the `Guests` property:
 ```
 
 When getting Identity Manager
-[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (ExcludedProperty)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/universedatamodel/universe_excluded.webp)

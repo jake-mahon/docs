@@ -40,14 +40,14 @@ Connect Power BI to Identity Manager by proceeding as follows:
     ![Server URL](/img/product_docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_url.webp)
 
 5. In the opening window, enter the
-   [ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)of
+   [ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)of
    the `Administrator` profile. The `Client Id` expects the concatenation of the identifier of
    `OpenIdClient` with `@` and Identity Manager's domain name. See the following example.
 
     ![Client Id / Client Secret](/img/product_docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clientid.webp)
 
 6. You can now access in the left panel the
-   [ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)from
+   [ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)from
    Identity Manager configuration. You can click on the desired universe to expand it, and view and
    pick the desired tables.
 

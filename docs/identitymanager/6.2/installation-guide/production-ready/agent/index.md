@@ -12,18 +12,18 @@ need separate agents, or if you are installing Identity Manager's agents within 
 SaaS offering, this is the way to go.
 
 **NOTE:** Please make sure that Identity Manager's agent requirements are met before going further.
-See the[ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+See the[ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 ## Agent Working Directory
 
 The agent runtime content should be extracted from the runtime archive following the instructions
-provided in the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic.
+provided in the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic.
 
 In the separate agent setup, the agent is usually installed on a different workstation from the
 server.
 
 The agent is configured thanks to the appsettings.agent.json file. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ## Create an IIS Website
@@ -31,7 +31,7 @@ topic for additional information.
 It is recommended to run the Identity Manager agent as an IIS website.
 
 _Remember,_ to install Identity Manager's agent as a Windows service, see the
-[ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+[ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 Adding Identity Manager's agent as an IIS website can be achieved with the
 [Internet Information Services (IIS) Manager](https://www.iis.net/) which can be launched with the
@@ -109,7 +109,7 @@ higher) to be able to run dotnet application.
 ## Select an Agent Identity
 
 The agent, through Identity Manager's server IIS Website, should be assigned a service account with
-the relevant permissions. See the [ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic
+the relevant permissions. See the [ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) topic
 for additional information.
 
 You can either:
@@ -166,7 +166,7 @@ procedure below.
 The following implies that a
 [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts)
 has already been created for Identity Manager's agent. See
-the[Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for additional information.
+the[Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
 
 Follow the steps below to set an IIS identity and note that these are the same for the server:
 
@@ -194,7 +194,7 @@ directory.
 
 Identity Manager's agent needs specific permissions on its working directory to run, write
 synchronization output and read provisioning orders. See the
-[Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional information.
+[Server](/docs/identitymanager/6.2/installation-guide/requirements/server-requirements/index.md) topic for additional information.
 
 Up to four folders have to be considered:
 
@@ -204,8 +204,8 @@ Up to four folders have to be considered:
 - the provisioning orders directory, usually `C:/identitymanager<Organization>/Temp` (same as for the data
   collection directory).
 
-See the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+See the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 Further check the permissions of the service account and perform the steps for each of the relevant
@@ -243,7 +243,7 @@ window.
 ![Object Names](/img/product_docs/identitymanager/saas/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
 **Step 6 –** Check the **Allow** column for the relevant permissions. Check the **Deny** column for
-the others. See the[Server](/docs/identitymanager/saas/installation-guide/requirements/server-requirements/index.md) topic for additional
+the others. See the[Server](/docs/identitymanager/6.2/installation-guide/requirements/server-requirements/index.md) topic for additional
 information.
 
 **Step 7 –** Click **OK**.
@@ -251,8 +251,8 @@ information.
 The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders
-directories. See the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+directories. See the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 ## Name the Agent
@@ -287,7 +287,7 @@ URI="<https://contoso.com>" />
 
 The Runtime/appsettings.agent.json file is a technical configuration file that will enable you set
 up the connection between the agent and the target managed systems. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 Every agent is associated with an appsettings.agent.json file.
@@ -330,7 +330,7 @@ appsettings.agent.json
 
 _Remember,_ storing sensitive managed system data in configuration files, such as login/password
 pairs, is strongly discouraged. Sensitive data should be protected by one of the credentials
-protection methods. See the[Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) topic for
+protection methods. See the[Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md) topic for
 additional information.
 
 ## Encryption Key Pair
@@ -382,7 +382,7 @@ The certificate has to be linked to Identity Manager via EncryptionCertificate 
 appsettings.agent.json file.
 
 See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information about configuration parameters.
 
 ### Certificate as a plain file
@@ -395,7 +395,7 @@ hence the X509KeyFilePassword attribute.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
 should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -443,13 +443,13 @@ The connection to Identity Manager's server can be configured through:
 
 - OpenIdClients and DefaultOpenIdClient must be used to set the agent's credentials to connect to
   the server; See the
-  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-  and[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+  and[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
   topics for additional information.
 
 Their content should be provided by the integration team, in relation to the OpenIdClient tag in the
 applicative configuration. See
-the[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+the[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
 topic for additional information.
 
 The following example shows an appsettings.agent.json file that sets an agent to connect to Identity
@@ -534,4 +534,4 @@ from being launched.
 ## What's Next?
 
 The last step in the installation process is setting up an Email server. See the
-[ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md) topic for additional information.
+[ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md) topic for additional information.

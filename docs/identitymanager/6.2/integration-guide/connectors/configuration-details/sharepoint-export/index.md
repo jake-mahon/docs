@@ -6,7 +6,7 @@ sidebar_position: 180
 
 # Set up SharePoint's Export and Synchronization
 
-This guide shows how to set up a [SharePoint](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/sharepoint/index.md)
+This guide shows how to set up a [SharePoint](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/sharepoint/index.md)
 connector to extract data from your SharePoint instance into CSV source files that will be fed to
 the Synchronization task and to your Identity Manager resource repository. It will focus on
 registering Identity Manager within the target SharePoint, configuring the connector, and building
@@ -43,7 +43,7 @@ needs to be owner of the site.
 This step sets up the Identity Manager Agent in order to use the SharePoint connector and access the
 SharePoint data.
 
-This guide focuses on the [ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md) method. Remember that
+This guide focuses on the [ Architecture ](/docs/identitymanager/6.2/integration-guide/architecture/index.md) method. Remember that
 settings can also be input through architecture.
 
 #### Connect to the SharePoint instance
@@ -94,7 +94,7 @@ configuration, and only then, switching to a more secure way of storing credenti
 ##### Set up export files
 
 The export generates CSV source files that will be fed to the
-[ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) task.
+[ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) task.
 
 The target path for these files can be set up using the following settings:
 
@@ -175,31 +175,31 @@ Microsoft Teams can create an associated SharePoint site for each Teams Group).
 
 To be used for export and fulfill tasks, a connector has to be declared in the applicative
 configuration and linked to an Agent. See the
-[Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic for additional information.
+[Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic for additional information.
 
 It is strongly recommended that the applicative configuration be stored in the working directory
 `Conf` folder as a set of `xml` files organized by connector. See
-the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md)
+the[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)
 topic for additional information.
 
 - In the `Conf` folder, create a `SharePoint` directory.
 - In the `SharePoint` directory, create a `SharePoint Connector.xml` file.
 
     This file should contain the declaration of the connector and the associated
-    [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md).
+    [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
 
-- Use the [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)element to
+- Use the [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)element to
   declare the connector with the following attributes:
 
     - **Identifier** identifies this connector in the applicative configuration. See the
-      [Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic for additional information.
+      [Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic for additional information.
       It is strongly recommended to use a meaningful name such as `SharePoint`. If several
       connections to several SharePoint targets are possible, only one SharePoint Connector per
       Agent is used.
     - **DisplayName_Li, i ? [1..16]** are used in the UI.
     - **Agent** is the identifier of the Agent that runs this connector's export task. The Agent's
       identifier can be found in the agent's
-      [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+      [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
       configuration set > OpenId > AgentIdentifier setting attribute.
 
 - Don't forget the `<?xml>` and `<ConfigurationFile>` elements (see example below).
@@ -223,18 +223,18 @@ topic for additional information.
 ### Build the entity model
 
 The exported data to be written to the resource repository must be aligned with the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md). See
-the[ Identity Management ](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md)topic
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md). See
+the[ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md)topic
 for additional information.
 
-The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) should match as closely as possible the structure
+The [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) should match as closely as possible the structure
 of the SharePoint data relevant for Identity Manager. It is designed by analyzing the SharePoint
-data structure, and describing said data with [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) and an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+data structure, and describing said data with [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) and an
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 Eventually, it is up to the integration team to design the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) that best serves the
-[ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) needs. It will be refined
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) that best serves the
+[ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) needs. It will be refined
 iteratively throughout the project phase.
 
 A good starting point for the Entity Model is to mirror the shape of the exported SharePoint
@@ -242,21 +242,21 @@ objects. This guide provides a few examples that can serve this purpose.
 
 #### Write the entity model
 
-The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) for the SharePoint connector is written in the
-applicative configuration. See the [Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic
+The [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) for the SharePoint connector is written in the
+applicative configuration. See the [Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic
 for additional information. It is strongly recommended to write the connector to the newly created
 `Conf/SharePoint/SharePoint Connector.xml` file.
 
 #### Write entity types
 
-Declaring an [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) is achieved with the `<EntityType>` tag
+Declaring an [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) is achieved with the `<EntityType>` tag
 and the following attributes:
 
 - **Identifier** is the entity type's name. It must be unique among the entity types. It is strongly
   recommended to prefix this name with the connector's name. An example for SharePoint is
   `SharePoint_directoryObject`.
 - **DisplayName_Li, i ? [1..16]** are used in the UI to identify this
-  [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) for the end-user. **DisplayName_L1** is the name of
+  [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) for the end-user. **DisplayName_L1** is the name of
   the entity type in _language number one_. If this language is _English_, a good example of value
   is `SharePoint - Object`.
 
@@ -271,16 +271,16 @@ and the following attributes:
 ````
 
 
-The SharePoint object attributes are modeled by [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md), with the ```<Property>``` tags declared as children of the ```<EntityType>```.
+The SharePoint object attributes are modeled by [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md), with the ```<Property>``` tags declared as children of the ```<EntityType>```.
 
-Remember that there are several kinds of properties: scalar and navigation. Scalar properties can be defined to represent scalar attributes such as ```city```, ```country``` or ```companyName```. represent associations such as group memberships. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) topic for additional information.
+Remember that there are several kinds of properties: scalar and navigation. Scalar properties can be defined to represent scalar attributes such as ```city```, ```country``` or ```companyName```. represent associations such as group memberships. See the [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional information.
 
 The main attributes of the ```<Property>``` tag are the following:
 
 - __Identifier__ identifies the property with a mandatory unique name. It must be unique among the entity properties for this entity type.
 - __DisplayName_Li, i ? [1..16]__ are used in the UI.
 - __Type__ defines the type of the property. A scalar property type is chosen among ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, and ```Option```. The navigation property type is ```ForeignKey```.
-- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details about Target Column Index. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) topic for additional information.
+- __TargetColumnIndex__ defines in which column of the resource table the property is stored. See more details about Target Column Index. See the [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional information.
 
 ##### Example
 
@@ -297,9 +297,9 @@ SharePoint.
 
 #### Write entity associations
 
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types are associated through their navigation
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) types are associated through their navigation
 properties with
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 elements.
 
 ##### Example
@@ -322,11 +322,11 @@ elements.
 
 The exact nature of the IDs are described by the associated [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 Notice the format of the __Property1__ and __Property2__ xml attributes: the name of the entity type is followed by ```:``` and the name of an entity property. It is a [
 Binding
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) describing in one expression, the target entity type and property.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) describing in one expression, the target entity type and property.
 
 ### Create mapping
 
@@ -334,15 +334,15 @@ The entity type must be mapped property by property to the exported attributes o
 
 The [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Type Mapping elements serve this purpose.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Type Mapping elements serve this purpose.
 
 #### Entity type mapping
 
 The [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps the scalar properties from the CSV source file to an entity type.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps the scalar properties from the CSV source file to an entity type.
 
 The CSV source file path is written to the ```ConnectionTable``` xml attribute. The target entity type name is written to the ```Identifier``` xml attribute.
 
@@ -356,7 +356,7 @@ The CSV source file path is written to the ```ConnectionTable``` xml attribute. 
 ````
 
 To do so, the entity type mapping element uses the
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 element with the `<Property>` tag. This maps the CSV column from `ConnectionColumn` to the target
 EntityType property which is written to the **Identifier** attribute.
 
@@ -407,17 +407,17 @@ As a result, after synchronization, the ```UR_Resource``` table will be updated 
 
 The [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps the navigation properties used in [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps the navigation properties used in [
 Entity Association
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 An [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
 Entity Association
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the ```Identifier``` xml attribute. Then, like [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the ```Identifier``` xml attribute. Then, like [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), it maps column values from a CSV source file to an EntityType property.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), it maps column values from a CSV source file to an EntityType property.
 
 ##### Example
 
@@ -435,7 +435,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 
 ### Nav
 
-A [ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
+A [ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
 include a link to the resources list in the left menu on the UI home screen.
 
 #### Parent menu item
@@ -481,7 +481,7 @@ file in the `SharePoint` connector's folder.
 #### Display entity type
 
 The
-[Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 describes how a single resource should be displayed.
 
 ##### Example
@@ -507,13 +507,13 @@ describes how a single resource should be displayed.
 ````
 
 
-The scalar properties require no configuration: they are automatically displayed. The only information that the [Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
+The scalar properties require no configuration: they are automatically displayed. The only information that the [Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
 
 #### Display table
 
-[Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
+[Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of display table column elements that identify which properties should be included in the list display.
+The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of display table column elements that identify which properties should be included in the list display.
 
 ##### Example
 
@@ -527,7 +527,7 @@ The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-con
 
 #### Internal display name
 
-An `InternalDisplayName` can also be declared as an [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md).
+An `InternalDisplayName` can also be declared as an [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
 The `InternalDisplayName` is used in several UI screens to identify a resource for the user.
 
 With no custom `InternalDisplayName`, a default value is used (instead of the first property of the
@@ -558,9 +558,9 @@ This example adds the ```InternalDisplayName``` to the ```SharePoint_Entity```, 
 
 This step focuses on setting up permissions for Identity Manager's end-users granting them access to the connector.
 
-The [Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [
+The [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define [
 AccessControlPermission
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It is used by the UI when displaying data such as resources and available roles.
 
 It is strongly recommended that permissions be written to a new file. For example, the administrator profile permissions can be written to the ```SharePoint Profile Administrator.xml``` file.
 
@@ -602,19 +602,19 @@ other related operations.
 ````
 
 
-Notice the __Agent__ attribute that contains the name of the Agent which executes the Job. This attribute is mandatory for a Job containing Tasks executed agent-side, even if a unique local Agent exists. See the [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
+Notice the __Agent__ attribute that contains the name of the Agent which executes the Job. This attribute is mandatory for a Job containing Tasks executed agent-side, even if a unique local Agent exists. See the [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 ### Components
 
 The[
 Upward Data Synchronization
-](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)job includes three steps:
+](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)job includes three steps:
 
 - Export
 - Prepare-Synchro
 - Synchro
 
-These three steps are all contained in a which allows the generation of the Incremental Synchronization configuration. See the [Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
+These three steps are all contained in a which allows the generation of the Incremental Synchronization configuration. See the [Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
 
 #### Example
 
@@ -632,9 +632,9 @@ The execution of a Job entails execution of Tasks, reading/writing to the Databa
 over to the Server. These operations are protected by an authorization mechanism.
 
 To complete a Job, the Agent, via
-the[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) uses:
+the[ Usercube-Invoke-Job ](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) uses:
 
-- a [ Profile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with
+- a [ Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with
   the Job itself, to read/write:
     - `UJ_Jobs` and `UJ_Tasks` tables in a list of tasks
     - `UJ_JobInstances` tables in the progress report
@@ -644,7 +644,7 @@ the[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executab
 Each Profile must be assigned the right permissions for the associated Job or Task to perform.
 
 Every request from Agent to Server within the execution of a Job needs to be authenticated with an
-[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect
+[ OpenIdClient ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect
 ClientId/Secret pair, linked to a Profile.
 
 #### Create a profile
@@ -662,14 +662,14 @@ Here, we focus on creating one profile, used by the Job and every Task of the Jo
 
 As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube) strongly recommends that you create a[
 Profile
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during the Synchronization jobs which will be different from the one used during the Provisioning job. This contributes to separating access rights.
 The same principle applied even more rigorously would make Identity Manager create one profile per Task. It isn't necessary as most Synchronization tasks require the same permissions.
 
 #### Grant synchronization access rights to the profile
 
 For an Agent to launch server-side Tasks from the Job via the [
 Usercube-Invoke-Job
-](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) tool, the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
+](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) tool, the profile linked to these tasks and used by the tool should be authorized to execute said tasks.
 
 Server-side Tasks for a simple Synchronization job usually are:
 
@@ -696,9 +696,9 @@ __Synchronization and Prepare-Synchronization__
 
 Granting access can be done via the [
 SynchronizationAccessControlRules
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) and the [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md) and the [
 Job View Access Control Rules
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md).
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md).
 
 The following examples should be written to ```Conf/Profile AgentSychro.xml```.
 
@@ -718,7 +718,7 @@ with the following access rights:
 - `/Jobs/RunJob/Launch`
 
 This can be done via
-the[ Job Execution Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md)
+the[ Job Execution Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md)
 scaffolding.
 
 ##### Example
@@ -732,11 +732,11 @@ scaffolding.
 
 An Agent's a[
 Profile
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
 
 Usable ```ClientId/Secret``` pairs are written to the database from the xml configuration using the [
 OpenIdClient
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
 
 It is strongly recommended to write the ```<OpenIdClient>``` xml element to a new or existing ```OpenIdClients.xml``` file in the configuration root folder.
 
@@ -746,7 +746,7 @@ The ```ClientId/Secret``` pair hence created must be associated with the profile
 
 The following example creates a ```ClientId/Secret``` pair to be used by the Agent to authenticate to the Server and complete Jobs. The secret is hashed with the[
 Usercube-New-OpenIDSecret
-](/docs/identitymanager/saas/integration-guide/executables/references/new-openidsecret/index.md) tool.
+](/docs/identitymanager/6.2/integration-guide/executables/references/new-openidsecret/index.md) tool.
 
                     ```
 
@@ -770,7 +770,7 @@ Usercube-New-OpenIDSecret
 
 #### Set up the Agent to use ClientId/Secret pairs
 
-The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
+The ```ClientId/Secret``` pairs that the Agent may use are written to the Agent's [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration set.
 
 The ```ClientId``` of such ```ClientId/Secret``` pairs can then be used as a value in a Task __OpenIdClient__ attribute.
 
@@ -803,7 +803,7 @@ Scheduling the job execution can rely either on Identity Manager's scheduler or 
 
 Use the [
 Job
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) attribute.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md) attribute.
 
 > This example uses Identity Manager's scheduler to execute the ```SharePoint_Synchronization_Delta``` job every fifteen minutes:
 >
@@ -821,7 +821,7 @@ For more details about checking Crontab expressions, see the [crontab.guru](http
 
 An external scheduler would rely on the [
 Usercube-Invoke-Job
-](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) tool.
+](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) tool.
 
 ##### Example
 
@@ -838,7 +838,7 @@ The following command can be scheduled. It executes the ```SharePoint_Synchroniz
 ### Deploy configuration
 
 The configuration is written to the database using the
-[ Deploy Configuration Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
+[ Deploy Configuration Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
 
 ### Test
 

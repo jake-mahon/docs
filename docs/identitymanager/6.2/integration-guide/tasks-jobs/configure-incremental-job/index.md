@@ -16,7 +16,7 @@ were modified, i.e. created, updated and/or deleted.
 It allows future tasks to be executed only on modified resources, in order to minimize jobs'
 execution times and costs.
 
-See the [ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobfast/index.md) topic for additional information
+See the [ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobfast/index.md) topic for additional information
 on a full Incremental job.
 
 ## Configure a Job to Be Incremental
@@ -24,7 +24,7 @@ on a full Incremental job.
 Configure a job to be incremental by proceeding as follows:
 
 1. Configure the synchronization task
-   ([ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md))
+   ([ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md))
    with `DoNotDeleteChanges` set to `true`.
 
     This way, Identity Manager keeps the list of all changed resources.
@@ -39,7 +39,7 @@ Configure a job to be incremental by proceeding as follows:
     > ```
 
 2. Tag all changed resources by running
-   [ Set Recently Modified Flag Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
+   [ Set Recently Modified Flag Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
    after SynchronizeTask.
 
     > For example, following the synchronization task for the Active Directory:

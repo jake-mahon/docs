@@ -8,8 +8,8 @@ sidebar_position: 40
 
 This guide leads the reader through the steps to install Identity Manager for production purposes.
 
-**1.\_\_**Before proceeding\_\_, you should go through the [ Overview ](/docs/identitymanager/saas/installation-guide/overview/index.md) and
-[Requirements](/docs/identitymanager/saas/installation-guide/requirements/index.md) sections to make fundamental decisions about Identity
+**1.\_\_**Before proceeding\_\_, you should go through the [ Overview ](/docs/identitymanager/6.2/installation-guide/overview/index.md) and
+[Requirements](/docs/identitymanager/6.2/installation-guide/requirements/index.md) sections to make fundamental decisions about Identity
 Manager setup, including:
 
 - Whether to install the database within the Identity Manager Server or on a separated workstation.
@@ -29,7 +29,7 @@ Manager setup, including:
 - Identity Manager Database connection with Windows authentication
 
 This guide will allow you to **extrapolate** less common configurations and will provide links to
-the relevant [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md)
+the relevant [Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md)
 sections.
 
 Our examples use the fabled
@@ -38,4 +38,4 @@ as target organization.
 
 ## What's Next?
 
-The first step consists in [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md).
+The first step consists in [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md).

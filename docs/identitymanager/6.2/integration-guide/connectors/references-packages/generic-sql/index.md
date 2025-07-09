@@ -19,5 +19,5 @@ Exports data from a SQL database.
 
 When creating a connection to a database which is not handled by Identity Manager's packages, you'll
 need to fill in the `ProviderDllName` and `ProviderClassFullName` properties of the
-[ Sql ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/sql/index.md) connector using the procedure given in the
+[ Sql ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/sql/index.md) connector using the procedure given in the
 example.

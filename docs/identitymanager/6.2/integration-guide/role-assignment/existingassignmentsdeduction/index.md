@@ -7,7 +7,7 @@ sidebar_position: 100
 # Existing Assignments
 
 The
-[ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 can deduce from synchronized data a list of assignments for every identity.
 
 ## Overview

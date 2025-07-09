@@ -8,7 +8,7 @@ sidebar_position: 20
 
 How to create a connector dedicated to the automation of identity management (creation, update,
 deletion), via the synchronization of HR data into Identity Manager and internal provisioning. See
-the[ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md)provisioning.
+the[ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md)provisioning.
 
 ## Overview
 
@@ -34,7 +34,7 @@ as contractor data, or the projects employees are working on. This can mean that
   most of the time.
 
 Hence we choose to build the first iteration of the project upon a manual data upload to
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md).
+[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md).
 
 This way, we do not have to wait for the agent's implementation to create the first profiles and
 start connecting systems (AD, SAB, SAP, etc.). Thus value is created faster and we can focus on IGA
@@ -53,7 +53,7 @@ inside Identity Manager.
 
 As Identity Manager is able to feed all managed systems, it can also feed itself thanks to specific
 connections such as the
-[InternalWorkflow](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/internalworkflow/index.md)
+[InternalWorkflow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/internalworkflow/index.md)
 connection. It means that the corresponding connector is able to launch workflows within Identity
 Manager and keep track.
 
@@ -68,7 +68,7 @@ This operation should be performed in cooperation with HR staff who can access H
 | ------------------------------- | ------------ |
 | Identity Repository. (required) | HR connector |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)topic
+See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)topic
 for additional information.
 
 ## Create an HR Connector
@@ -76,27 +76,27 @@ for additional information.
 Create an HR connector by proceeding as follows:
 
 1. Outside Identity Manager,
-   [ Model the Data ](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-modeling/index.md)of your connector.
+   [ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md)of your connector.
 2. Declare an HR connector using your local agent. See the
-   [ Create the Connector ](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-declaration/index.md) topic for
+   [ Create the Connector ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-declaration/index.md) topic for
    additional information.
 
     ![HR Connector Declaration](/img/product_docs/identitymanager/saas/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
 
 3. Create an Export CSV connection for each HR file to connect. See the
-   [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) topic for
+   [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) topic for
    additional information.
 
     ![HR Connection](/img/product_docs/identitymanager/saas/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
 
-4. [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) corresponding
+4. [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) corresponding
    to your model. For example:
 
     ![HR Entity Type - Scalar Properties](/img/product_docs/identitymanager/saas/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
 
     ![HR Entity Type - Navigation Properties](/img/product_docs/identitymanager/saas/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
 
-5. Don't forget to reload and [ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) to access
+5. Don't forget to reload and [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) to access
    HR data within Identity Manager.
 
     ![Reload](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)

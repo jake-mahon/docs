@@ -9,7 +9,7 @@ sidebar_position: 220
 This connector writes to an external system via a [Robot Framework](https://robotframework.org)
 script.
 
-This page is about [ Robot Framework ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/robot-framework/index.md)
+This page is about [ Robot Framework ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/robot-framework/index.md)
 
 ![Package: Custom/Robot Framework](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
@@ -44,7 +44,7 @@ This connector can create, update and/or delete any entity linked to the managed
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -93,7 +93,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Write a script
 
 See how
-to[ Write a Robot Framework Script ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) to
+to[ Write a Robot Framework Script ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) to
 allow provisioning with this connector.
 
 ## Authentication
@@ -106,9 +106,9 @@ The script manages password reset.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- an [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- an [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute                | Naming Convention for the Key in Azure Key Vault      |
 | ------------------------ | ----------------------------------------------------- |
@@ -116,7 +116,7 @@ Data protection can be ensured through:
 | Password (optional)      | `Connections--<identifier>--Options--Password`        |
 | RobotFrameworkScriptPath | `Connections--<identifier>--RobotFrameworkScriptPath` |
 
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   the attributes from the `Options` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

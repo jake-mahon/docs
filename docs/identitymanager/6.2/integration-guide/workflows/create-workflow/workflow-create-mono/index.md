@@ -7,12 +7,12 @@ sidebar_position: 10
 # For Resource Creation (Mono Record)
 
 This section guides you through the procedure for the creation of a
-[ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) to create a new
+[ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) to create a new
 resource with a unique record.
 
 ## Declare a Workflow
 
-This [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of four
+This [ Workflow ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of four
 activities:
 
 1. `Action With Refine`: sends the creation request with a possibility of delegation.
@@ -22,7 +22,7 @@ activities:
    from another user.
 4. `Persist`: saves the collected data and triggers provisioning.
 
-See the [ Activity Templates ](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+See the [ Activity Templates ](/docs/identitymanager/6.2/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to create a new worker.
 
@@ -35,7 +35,7 @@ The example below creates a workflow to create a new worker.
 ## Create Forms
 
 The XML configuration below represents the creation of a
-[Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
+[Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) that defines the elements to
 display in the workflow.
 
 Here we create two structured forms: the preliminary one is called inside the main one, and the main
@@ -91,7 +91,7 @@ A `WorkflowCreateRecordEntityForm` requires the following child elements:
 The `MainControl` attribute is here an empty container because we configure all personal data,
 contracts and positions as records to be able to anticipate changes for example. The line with the
 empty `MainControl` is not mandatory. See the
-[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)topic
+[ Position Change via Records ](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)topic
 for additional information.
 
 - `RecordControl` that defines record data, and calls the form created previously. See the For
@@ -128,7 +128,7 @@ Summary form:
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
-users. See the [Workflows](/docs/identitymanager/saas/integration-guide/workflows/index.md) topic for additional information.
+users. See the [Workflows](/docs/identitymanager/6.2/integration-guide/workflows/index.md) topic for additional information.
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
 for the whole creation request and review from the previously created workflow:
@@ -147,7 +147,7 @@ for the whole creation request and review from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)must be defined to
+[ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)must be defined to
 make the workflow accessible in the UI.
 
 Creating a new resource, an interesting location for this workflow could be the users list page.
@@ -206,5 +206,5 @@ Partial form for user data:
 ## Customize the Display Table (Optional)
 
 To configure a display table different from the default one provided by Identity Manager, see the
-[Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md) topic for additional
+[Customize Display Tables](/docs/identitymanager/6.2/integration-guide/ui/custom-display-table/index.md) topic for additional
 information.

@@ -55,9 +55,9 @@ The working directory structure should now resemble the following:
 - `Usercube-Agent.exe`: the separate Identity Manager Agent executable, that will be used only if
   you choose to install a separate agent.
 - `appsettings.*.json`:
-  [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md).
+  [Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md).
 
 ## What's Next?
 
 Next section shows how to install the Identity Manager Database. See the
-[ Install the Database ](/docs/identitymanager/saas/installation-guide/production-ready/database/index.md)topic for additional information.
+[ Install the Database ](/docs/identitymanager/6.2/installation-guide/production-ready/database/index.md)topic for additional information.

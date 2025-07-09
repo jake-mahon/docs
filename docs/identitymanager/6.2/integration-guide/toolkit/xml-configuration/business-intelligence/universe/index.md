@@ -27,7 +27,7 @@ The following example builds a universe called `Universe1`:
 ![Universe - Basic Example](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Display Names)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
@@ -46,7 +46,7 @@ display names:
 ![Universe - Basic Example](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
 When getting Identity Manager data in
-[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Identifiers)](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
@@ -62,7 +62,7 @@ we see the following:
 ## Child Element: Association Instance
 
 An association instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -76,7 +76,7 @@ An association instance represents, within a Universe , the occurrence in the mo
 ## Child Element: Entity Instance
 
 An entity instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 

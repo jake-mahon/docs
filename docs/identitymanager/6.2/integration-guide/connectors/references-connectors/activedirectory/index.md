@@ -27,7 +27,7 @@ AD.
 Implementing this connector requires:
 
 - Reading first the appsettings documentation; See the
-  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
   topic for additional information.
 - Opening the LDAP feed from Identity Manager's server to the Active Directory, with the ports 389
   for LDAP and 636 for LDAPS.
@@ -158,7 +158,7 @@ This connector is meant to generate:
   ConnectionColumn and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified. See the
-    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
+    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
     topic for additional information.
 
 - An additional file for each related table other than entries;
@@ -174,7 +174,7 @@ This connector is meant to generate:
 
 The CSV files are stored in the ExportOutput folder, and the cookie file in the ExportCookies
 folder. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information.
 
 For example, with the following configuration example:
@@ -189,7 +189,7 @@ script in the command line.
 ```
 
 We would have `C:/identitymanagerContoso/Temp/ExportOutput/ADExport_entries.csv` with a column for each
-scalar property. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) topic for additional
+scalar property. See the [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional
 information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -263,7 +263,7 @@ written to the same CSV file.
 
 This connector writes to the Active Directory, to create, update and delete entries, initiated
 manually through the UI or automatically by enforcing the policy. See the
-[Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
 information.
 
 ### Configuration
@@ -392,7 +392,7 @@ script in the command line.
 ### Password reset
 
 See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information on how to configure password reset settings.
 
 ### Credential protection
@@ -400,12 +400,12 @@ topic for additional information on how to configure password reset settings.
 Data protection can be ensured through:
 
 - RSA encryption, configured in the appsettings.encrypted.agent.json file. See the
-  [ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+  [ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
   topic for additional information.
 - An Azure Key Vault safe; See the
-  [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   topic for additional information.
 
 - A CyberArk Vault able to store Active Directory's Login, Password and Server. See the
-  [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   topic for additional information.

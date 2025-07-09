@@ -20,5 +20,5 @@ specified in the squery parameter.
 A DefaultPageSize as well as a MaxPageSize can be defined in the Applicative configuration settings.
 If the given PageSize or squery limit is above the MaxPageSize, the limit of the MaxPageSize` is
 used. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.

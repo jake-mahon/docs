@@ -14,7 +14,7 @@ Description of the MS Excel template for the creation of the identities reposito
 
 All tabs contain a column `Command` only used at a later stage to modify (massively) identity data.
 See the
-[ Update Identities in Bulk ](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/mass-update/index.md)
+[ Update Identities in Bulk ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md)
 topic for additional information.
 
 ## User - Required
@@ -22,7 +22,7 @@ topic for additional information.
 An identity is split into two parts, the first one being the parent resource called `User` which
 represents the user's identity card. It contains the few attributes which shall not change during
 the identity's lifecycle. See the
-[Identity Management](/docs/identitymanager/saas/integration-guide/identity-management/index.md) topic for
+[Identity Management](/docs/identitymanager/6.2/integration-guide/identity-management/index.md) topic for
 additional information.
 
 | Attribute                    | Type    | Description |
@@ -48,7 +48,7 @@ Thus, the `UserRecord` tab usually holds users' information that might change ov
 
 | Attribute                                                                                | Type       | Description                                                                                                                                                                                                                                                                                                                     |
 | ---------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| RecordIdentifier (recommended)                                                           | String     | Identifier of the Records. See the[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md). **Note:** it can be the same as `PositionIdentifier` when users can have no more than one contract simultaneously. **Note:** required when using records. |
+| RecordIdentifier (recommended)                                                           | String     | Identifier of the Records. See the[ Position Change via Records ](/docs/identitymanager/6.2/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md). **Note:** it can be the same as `PositionIdentifier` when users can have no more than one contract simultaneously. **Note:** required when using records. |
 | User (required)                                                                          | ForeignKey | `Identifier` from the `User` tab.                                                                                                                                                                                                                                                                                               |
 | EmployeeId (recommended)                                                                 | String     |                                                                                                                                                                                                                                                                                                                                 |
 | Gender (optional)                                                                        | ForeignKey | `Identifier` from the `Gender` tab.                                                                                                                                                                                                                                                                                             |

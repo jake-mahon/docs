@@ -23,7 +23,7 @@ choose the most adequate method regarding your actual approach.
 
 An identifier/email/login suffix can be specified later according to users' contract types, when
 loading identities through an Excel template. See the
-[Load Identities to Identity Manager](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/load-identities/index.md) topic for additional
+[Load Identities to Identity Manager](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/load-identities/index.md) topic for additional
 information.  
 For example, contractors can get `-ext` added automatically to their email addresses.  
 The unicity checks performed for identifiers/emails/logins do not consider prefixes nor suffixes.
@@ -39,7 +39,7 @@ organization to compute these unique properties.
 | -------------------------------- | -------------------------------------- |
 | IdentityManagerServer (required) | Generation rules for unique properties |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information.
 
 ## Configure Unique Property Generation

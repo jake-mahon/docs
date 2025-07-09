@@ -9,7 +9,7 @@ sidebar_position: 10
 How to connect to Identity Manager's SaaS environment to set up the development environment.
 
 When using Identity Manager's on-premise option, follow the procedure of installation of the
-bootstrap version. See the [ Quick Start Guide](/docs/identitymanager/saas/installation-guide/quick-start/index.md)
+bootstrap version. See the [ Quick Start Guide](/docs/identitymanager/6.2/installation-guide/quick-start/index.md)
 topic or additional information.
 
 ## Overview
@@ -41,4 +41,4 @@ configuration screens.
 ## Next Steps
 
 Once the development environment is ready, integrators can start to
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md).
+[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md).

@@ -7,7 +7,7 @@ sidebar_position: 100
 # Write a PowerShell Script for Provisioning
 
 This guide shows how to write a PowerShell script used by the
-[ PowerShellProv ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/index.md) connector.
+[ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/powershellprov/index.md) connector.
 
 ## Structure of a PowerShell Script
 

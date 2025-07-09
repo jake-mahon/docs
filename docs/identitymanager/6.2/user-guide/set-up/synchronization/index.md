@@ -16,7 +16,7 @@ Data synchronization is a data flow from the managed systems into Identity Manag
 ### Process
 
 A connector's main purpose is to read and export the data previously mapped with
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) in order to synchronize it
+[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) in order to synchronize it
 with Identity Manager. Connectors provide tools to perform a basic extraction of the system's data
 in the form of CSV/XLSX files. These files are cleansed and loaded into Identity Manager.
 Synchronization is a three-step ETL process going through export, synchronization preparation and
@@ -27,11 +27,11 @@ the synchronization itself.
 #### Export
 
 The
-[ Export Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
+[ Export Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
 creates extractions, a snapshot of the managed system's data, used to insert and/or refresh the data
 that is inside Identity Manager. Extractions are accessible when there is at least one connection
 with an export-enabled
-[ References: Packages ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/index.md).
+[ References: Packages ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/index.md).
 Extracted data becomes meaningful when it is loaded into resources as specified by the entity type
 structure.
 
@@ -40,7 +40,7 @@ Exported data is stored inside CSV files in the folder `/{InstallationFolder}/Te
 #### Prepare synchronization
 
 The
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)performs
+[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)performs
 a preparatory data cleansing to spot errors and list them in a generated file in the
 `/{InstallationFolder}/Work/Synchronization` folder.
 
@@ -52,7 +52,7 @@ a preparatory data cleansing to spot errors and list them in a generated file in
 The `Synchronize` task loads data into Identity Manager's database.
 
 See the
-[ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)
+[ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md)
 topic for additional information.
 
 ### Prerequisites
@@ -62,7 +62,7 @@ topic for additional information.
 Every extracted resource must have an attribute that serves as a primary key so that Identity
 Manager can uniquely identify the resource to be added/updated/deleted during synchronization. You
 must have defined keys during Entity Type creation. See the
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
+[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
 information.
 
 Extractions must not be modified before synchronization
@@ -85,7 +85,7 @@ _"Threshold Exceeded"_ on the log page described below.
 Once the changes have been reviewed, the blocked job can be resumed (or not).
 
 Thresholds are configured with default values using the following
-[ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 attributes:
 
 - `MaximumDeletedLines`, `MaximumInsertedLines` and `MaximumUpdatedLines` for scalar properties;
@@ -104,7 +104,7 @@ At this point, integrators should have all the elements they need to perform syn
 | ------------------------------------------ | ----------------- |
 | Connector with its entity types (required) | Synchronized data |
 
-See the [ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md) topic for additional
+See the [ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md) topic for additional
 information.
 
 ## Launch Synchronization
@@ -138,7 +138,7 @@ Launch synchronization for a given managed system by proceeding as follows:
 ## Manage Synchronization Automation
 
 Export and synchronization are executed manually from the connector screens. By default, they are
-also part of scheduled [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) provided by
+also part of scheduled [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) provided by
 Identity Manager:
 
 - the complete job is scheduled to launch a synchronization once a day of all resources, modified or
@@ -147,9 +147,9 @@ Identity Manager:
   resources modified since the last synchronization.
 
 See the
-[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
+[ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
 and
-[Set up Complete Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
+[Set up Complete Synchronization](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
 topics for additional information.
 
 Scheduling the jobs avoids manually triggering them everyday.
@@ -175,7 +175,7 @@ All jobs are accessible on the **Job Execution** page in the **Administration** 
 ## Verify an Entity Type's Synchronization
 
 In order to verify both the synchronization configuration and
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md):
+[Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md):
 
 1. Launch synchronization.
 2. Access the connector's logs (from **Job Results** on the connector's dashboard) to ensure that

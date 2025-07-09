@@ -49,4 +49,4 @@ Install IIS via Server Manager by proceeding as follows:
 
 ## Next Steps
 
-To continue,[ Configure the Pool and Site ](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/iis-configuration/index.md)and website via IIS.
+To continue,[ Configure the Pool and Site ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-configuration/index.md)and website via IIS.

@@ -14,7 +14,7 @@ database connection and some general-purpose settings.
 The Server configuration is included in the Server's appsettings set.
 
 The appsettings set content can be written to appsettings.json in the Server's working directory or
-to environment variables. See the [ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md) topic for additional
+to environment variables. See the [ Architecture ](/docs/identitymanager/6.2/integration-guide/architecture/index.md) topic for additional
 information.
 
 The server appsettings supported attributes and sections are described in the following sections:
@@ -23,15 +23,15 @@ The server appsettings supported attributes and sections are described in the fo
 - End-User Authentication
 - General-Purpose Settings
 
-See the[ Connection to the Database ](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md),
-[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) and
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topics for additional information.
+See the[ Connection to the Database ](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/database-connection/index.md),
+[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) and
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md) topics for additional information.
 
 ## Secret and Certificate Management
 
 All the certificates and secrets present in the settings can be loaded with an Azure Key Vault.
 
-See the [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional
+See the [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) topic for additional
 information.
 
 ## Default Configuration

@@ -28,12 +28,12 @@ following requirements need to be met:
 
 Identity Manager provides scaffoldings to simplify XML configuration by generating complex XML
 fragments. See the
-[Scaffoldings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for
+[Scaffoldings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md) topic for
 additional information.
 
 Most jobs are included in job scaffoldings, thus configured in the most optimal way. So start by
 using scaffoldings to build jobs. See the
-[ Jobs ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for
+[ Jobs ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for
 additional information.
 
 For example, the creation from scratch of a job to perform a complete synchronization for a
@@ -51,7 +51,7 @@ script in the command line.
 ```
 
 See
-the[Create Connector Synchro Complete](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)for
+the[Create Connector Synchro Complete](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)for
 additional information.
 
 ## Rule 2: Compute Only What's Necessary
@@ -82,7 +82,7 @@ When a task is supposed to be executed on changes only, then there is no use exe
 complete mode.
 
 Make the relevant tasks incremental by flagging the resources that were recently modified. See the
-[ Configure an Incremental Job ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md) topic for additional
+[ Configure an Incremental Job ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md) topic for additional
 information.
 
 For example, instead of computing the role model as if it had never been computed before, apply only
@@ -103,7 +103,7 @@ Identity Manager's tasks are all linked together by a logical chain that implies
 supposed to be executed after some others.
 
 Make sure to understand the tasks' logical chain to launch only the relevant tasks. See the
-[ Troubleshoot Connector Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) topic for additional
+[ Troubleshoot Connector Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md) topic for additional
 information.
 
 For example, there is no use computing expressions or correlations if there was beforehand no change

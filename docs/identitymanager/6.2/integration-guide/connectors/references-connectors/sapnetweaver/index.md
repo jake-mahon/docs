@@ -10,7 +10,7 @@ This connector exports and fulfills users and roles from/to an
 [SAP Netweaver](https://www.sap.com/france/products/technology-platform/hana/what-is-sap-hana.html)
 instance.
 
-This page is about [ SAP S/4 HANA ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/saphana/index.md).
+This page is about [ SAP S/4 HANA ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/saphana/index.md).
 
 ![Package: ERP/SAP S/4 HANA](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.webp)
 
@@ -26,7 +26,7 @@ finance, and human resources (HR).
 Implementing this connector requires:
 
 - reading first the
-  [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation;
 - a service account with reading and writing permissions on the SAP server.
 
 ## Export
@@ -37,7 +37,7 @@ output to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -87,7 +87,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
 Output folder the following CSV files:
 
 - `sap_users.csv` with the following columns:
@@ -159,20 +159,20 @@ Same as for export, fulfill is configured through connections.
 ### Password reset
 
 See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic to learn more on how to configure password reset settings.
 
 When setting a password for an SAP user, the password attribute is defined by the password specified
 in the corresponding
-[Resource Type Mappings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
+[Resource Type Mappings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --------- | ------------------------------------------------ |
@@ -180,7 +180,7 @@ Data protection can be ensured through:
 | Login     | `Connections--<identifier>--Login`               |
 | Password  | `Connections--<identifier>--Password`            |
 
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

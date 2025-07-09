@@ -14,12 +14,12 @@ simply Identity Manager.
 
 Identity Manager's guides include:
 
-- An [Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) if you are new to Identity Manager.
-- A [User Guide](/docs/identitymanager/saas/user-guide/index.md) to configure Identity Manager from scratch via the UI.
-- An [Integration Guide](/docs/identitymanager/saas/integration-guide/index.md) to complete Identity Manager's configuration in
+- An [Introduction Guide](/docs/identitymanager/6.2/introduction-guide/index.md) if you are new to Identity Manager.
+- A [User Guide](/docs/identitymanager/6.2/user-guide/index.md) to configure Identity Manager from scratch via the UI.
+- An [Integration Guide](/docs/identitymanager/6.2/integration-guide/index.md) to complete Identity Manager's configuration in
   XML according to your needs.
-- An [Installation Guide](/docs/identitymanager/saas/installation-guide/index.md) to install Identity Manager in a production
+- An [Installation Guide](/docs/identitymanager/6.2/installation-guide/index.md) to install Identity Manager in a production
   environment.
-- A [Migration Guide](/docs/identitymanager/saas/migration-guide/index.md) to upgrade to a new version of Identity Manager.
-- [ What's New](/docs/identitymanager/saas/whatsnew/index.md) to get details about specific changes in Identity Manager's
+- A [Migration Guide](/docs/identitymanager/6.2/migration-guide/index.md) to upgrade to a new version of Identity Manager.
+- [ What's New](/docs/identitymanager/6.2/whatsnew/index.md) to get details about specific changes in Identity Manager's
   updates.

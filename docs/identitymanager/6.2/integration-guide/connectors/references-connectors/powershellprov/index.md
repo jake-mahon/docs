@@ -9,7 +9,7 @@ sidebar_position: 190
 This connector writes to an external system via a
 [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview) script.
 
-This page is about [ PowerShellProv ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/powershellprov/index.md).
+This page is about [ PowerShellProv ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/powershellprov/index.md).
 
 ![Package: Custom/PowerShellProv](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.webp)
 
@@ -49,7 +49,7 @@ linked to the managed system.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -102,7 +102,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Write a script
 
 See how to
-[ Write a PowerShell Script for Provisioning ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)to
+[ Write a PowerShell Script for Provisioning ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)to
 allow provisioning with this connector.
 
 ## Authentication
@@ -115,9 +115,9 @@ The PowerShell script manages password reset.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute            | Naming Convention for the Key in Azure Key Vault  |
 | -------------------- | ------------------------------------------------- |
@@ -125,7 +125,7 @@ Data protection can be ensured through:
 | Password (optional)  | `Connections--<identifier>--Options--Password`    |
 | PowerShellScriptPath | `Connections--<identifier>--PowerShellScriptPath` |
 
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   the attributes from the `Options` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

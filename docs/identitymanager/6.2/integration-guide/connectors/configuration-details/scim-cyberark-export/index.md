@@ -6,9 +6,9 @@ sidebar_position: 160
 
 # Export CyberArk Data via SCIM
 
-This guide shows how to set up a [SCIM](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/index.md) connector to
+This guide shows how to set up a [SCIM](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/scim/index.md) connector to
 extract data from your CyberArk instance into CSV source files that will in turn be fed to the
-[ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) task and to your
+[ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) task and to your
 Identity Manager resource repository. It will focus on registering Identity Manager within the
 target CyberArk instance, configuring the connector, and building the job to perform regularly
 scheduled synchronization.
@@ -66,7 +66,7 @@ installation:
 This step sets up the Identity Manager Agent to use the SCIM connector and access the CyberArk data.
 
 The settings must be entered in the appsettings.agent > Connections section. See the
-[SCIM](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/index.md) topic for additional information.
+[SCIM](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/scim/index.md) topic for additional information.
 
 #### Connect to the target CyberArk instance
 
@@ -142,7 +142,7 @@ An exhaustive list of entities and attributes provided by CyberArk is available 
 or the SCIM `Swagger UI`.
 
 The `Filter` and `FilterGroup` setting syntax is detailed in the
-[SCIM](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/index.md) optional attributes.
+[SCIM](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/scim/index.md) optional attributes.
 
 `SCIMSyntax` must also be set to `CyberArk` because the CyberArk system doesn't strictly follow all
 the SCIM rules at the moment.
@@ -179,17 +179,17 @@ displayName type name", "FilterGroup": "Groups;id displayName", "SCIMSyntax": "C
 
 The export generates CSV source files that will be fed to the [
 Upward Data Synchronization
-](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) task.
+](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) task.
 
 The SCIM connector generates one file per entity, the name is generated as: ```EntryFile``` + ```'_'``` + ```FilterEntity``` or ```MembersFile``` + ```'_'``` + ```FilterGroupEntity```.
 
 Moreover, ```SyncCookiesFile``` can be specified to indicate the location of the cookie file for an incremental export.
 
-See the [SCIM](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/scim/index.md)topic for additional information.
+See the [SCIM](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/scim/index.md)topic for additional information.
 
 The target directory and file name are chosen freely. However, Netwrix Identity Manager (formerly Usercube) strongly recommends using the Working Directory ```Temp/ExportOutput``` folder and choosing file names that start with the ```CyberArk_``` prefix. See the [
 Create a Working Directory
-](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic for additional information.
+](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 ##### Example
 
@@ -227,11 +227,11 @@ Every file contains the data as CSV, with one column per attribute.
 ### Declare a connector
 
 To be used for export tasks, a connector must be declared in the applicative configuration and
-linked to an Agent. See the [Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic for
+linked to an Agent. See the [Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic for
 additional information.
 
 It is strongly recommended that the applicative configuration be stored the
-[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md)
+[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)
 `Conf` folder as a set of `xml` files organized by connector.
 
 - In the `Conf` folder, create a `SCIMCyberArk` directory.
@@ -239,18 +239,18 @@ It is strongly recommended that the applicative configuration be stored the
 
     This file contains the declaration of the connector and the associated Entity Model.
 
-- Use the [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) element to
+- Use the [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) element to
   declare the connector with the following attributes:
 
     - **Identifier** identifies this connector in the applicative configuration. We recommend using
       a meaningful name such as `CyberArk`. If several connections to several CyberArk targets are
       possible, only one CyberArk Connector per Agent is used. See the
-      [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md)
+      [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)
       topic for additional information.
     - **DisplayName_Li, i ? [1..16]** are used in the UI.
     - **Agent** is the identifier of the Agent that will run this connector's export task. The
       Agent's identifier can be found in the agent's
-      [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) >
+      [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) >
       OpenId > AgentIdentifier.
 
 - Don't forget the `<?xml>` and `<ConfigurationFile>` elements (see example below).
@@ -274,31 +274,31 @@ It is strongly recommended that the applicative configuration be stored the
 ### Build the entity model
 
 The exported data to be written to the resource repository must be aligned with the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md). See the
-[ Identity Management ](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md) topic
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md). See the
+[ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) topic
 for additional information.
 
-The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) should match as closely as possible the structure
+The [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) should match as closely as possible the structure
 of the CyberArk data relevant for Identity Manager. It is designed by analyzing the CyberArk data
 structure, and describing said data with the Entity Types and
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 Eventually, it is up to the integration team to design the
-[Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) that best serves the Role Model needs. It will most
 likely be refined iteratively throughout the project integration. See the
-[ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) topic for additional
+[ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) topic for additional
 information.
 
 A good starting point for the Entity Model is to mirror the shape of the exported CyberArk SCIM
 objects. This guide provides a few examples that can serve this purpose. Thus, CyberArk SCIM objects
 such as **Users** and **Groups** can be described by Entity Types, and group membership by
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). See
-the [ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) topic for additional
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md). See
+the [ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) topic for additional
 information.
 
-The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) for the CyberArk connector is written in the
+The [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) for the CyberArk connector is written in the
 applicative configuration. It is strongly recommended to write the entity model to the newly created
 `Conf/SCIMCyberArk/CyberArk Connector.xml` file. See the
-[Toolkit for XML Configuration](/docs/identitymanager/saas/integration-guide/toolkit/index.md) topic for additional information.
+[Toolkit for XML Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/index.md) topic for additional information.
 
 #### Write entity types
 
@@ -310,7 +310,7 @@ Declaring an Entity Type is achieved with the `<EntityType>` tag and the followi
 - **DisplayName_Li, i ? [1..16]** are used in the UI to identify this Entity Type for the end-user.
   **DisplayName_L1** is the name of the entity type in _language number one_. If this language is
   _English_, a good example value would be `CyberArk - User`. See the
-  [ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) topic for additional
+  [ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) topic for additional
   information.
 
 ##### Example
@@ -338,7 +338,7 @@ Finally, the main attributes of the ```<Property>``` tag are the following:
 - __Type__ defines the type of property. A scalar property type can be: ```String```, ```Bytes```, ```Int16```, ```Int32```, ```Int64```, ```DateTime```, ```Bool```, ```Guid```, ```Double```, ```Binary```, ```Byte```, or ```Option```. The navigation property type is ```ForeignKey```.
 - __TargetColumnIndex__ defines in which column of the resource table the property is stored. See the [
   Entity Type
-  ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for additional information.
+  ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for additional information.
 
 ##### Example
 
@@ -356,9 +356,9 @@ Notice the omitted __TargetColumnIndex__ attribute and the presence of ```Type="
 
 #### Write entity associations
 
-[ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) are associated through their
+[ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) are associated through their
 navigation properties with
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 elements.
 
 ##### Example
@@ -383,11 +383,11 @@ of this **Group**.
 
 The exact nature of the IDs are described by the associated [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 Notice the format of the __Property1__ and __Property2__ xml attributes: the name of the entity type followed by ```:``` and the name of an entity property. It is a [
 Binding
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) that describes in one expression both the target entity type and property.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) that describes in one expression both the target entity type and property.
 
 ### Create mapping
 
@@ -395,15 +395,15 @@ The entity type must be mapped property by property to the exported attributes o
 
 The [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Property Mapping elements serve this purpose.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), and Entity Property Mapping elements serve this purpose.
 
 #### Write the entity type mapping
 
 The [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps scalar properties from the CSV source file to an entity type.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element maps scalar properties from the CSV source file to an entity type.
 
 The CSV source file path is written to the __ConnectionTable__ xml attribute. The target entity type name is written to the __Identifier__ xml attribute.
 
@@ -417,7 +417,7 @@ The CSV source file path is written to the __ConnectionTable__ xml attribute. Th
 ````
 
 To do so, the entity type mapping uses the
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 element with the `<Property>` tag. This maps the CSV column from `ConnectionColumn` to the target
 EntityType property which is written to the **Identifier** attribute.
 
@@ -456,17 +456,17 @@ Let's take the example of a new ```CyberArk_User``` which has never been synchro
 
 The [
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps navigation properties, used in [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element maps navigation properties, used in [
 Entity Association
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
-An [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[
+An [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[
 Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) element refers to an [
 Entity Association
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) written to the __Identifier__ xml attribute. Then, just as the [
 Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) element, it maps columns values from a CSV source file to an EntityType property.
 
 ##### Example
 
@@ -481,7 +481,7 @@ These associations are exported from the CyberArk system into the ```C:/identity
 | 2 | 103 |
 | 3 | 104 |
 
-The following [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
+The following [Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) describes the mapping for the ```CyberArk_Group_Members``` EntityAssociation:
 
                     ```
 
@@ -498,16 +498,16 @@ Here are a few explanations:
 The `Users` property in the `CyberArk_Group` entity:
 
 - is written to the **Property1** attribute of the `CyberArk_Group_Members`
-  [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+  [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
   element.
 - is filled in by values from the `MemberId` column (written to the **Column2** attribute of the
   `CyberArk_Group_Members`
-  [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   element) in the `C:/identitymanagerDemo/Temp/ExportOutput/CyberArk_members_Groups.csv` file.
 
 These values identify resources of type `CyberArk_User` by their `CyberArk_id` property (written to
 the **EntityPropertyMapping2** attribute of the
-[](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)[ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 element.
 
 ###### Groups/_CyberArk_User_
@@ -515,16 +515,16 @@ element.
 The `Groups` property in the `CyberArk_User` entity:
 
 - is written to the **Property2** attribute of the `CyberArk_Group_Members`
-  [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+  [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
   element).
 - is filled in by values from the _value_ column (written to the **Column1** attribute of the
   `CyberArk_Group_Members`
-  [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+  [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   element) in the `C:/identitymanagerDemo/Temp/ExportOutput/CyberArk_members_Groups.csv` file.
 
 These values identify resources of type `CyberArk_Group` by their `CyberArk_id` property (written to
 the **EntityPropertyMapping1** attribute of the
-[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 element).
 
 ## Display
@@ -533,7 +533,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 
 ### Navigation
 
-A [ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
+A [ Menu Item ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) can be added to
 include a link to the resources list in the left menu in the UI home screen.
 
 #### Parent menu item
@@ -581,7 +581,7 @@ in the `SCIMCyberArk` connector's folder.
 #### Display entity type
 
 The
-[Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 describes how a single resource should be displayed.
 
 ##### Example
@@ -601,13 +601,13 @@ This configuration configures that display for [christian.adam@acme.com](mailto:
 
 ![SCIM CyberArk Display Entity Type](/img/product_docs/identitymanager/saas/integration-guide/connectors/how-tos/scim-cyberark-export/scim_cyberark_export_display_entity_type_5.1.6.webp)
 
-The scalar properties don't need to be configured: they are automatically displayed. The only information that the [Display Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
+The scalar properties don't need to be configured: they are automatically displayed. The only information that the [Display Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md) adds here, is that the property ```BasicCollection``` is a navigation property. An eye icon will be displayed to take you directly to the matching page.
 
 #### Display table
 
-The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
+The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) elements describe how a list of resources should be displayed.
 
-The [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [Display Table](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) column elements that identify which properties should be included in the list display.
+The [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) contains a list of [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) column elements that identify which properties should be included in the list display.
 
 ##### Example
 
@@ -626,7 +626,7 @@ configures the following list display:
 #### Internal display name
 
 An `InternalDisplayName` can also be declared as an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
+[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
 expression. The `InternalDisplayName` is used in several UI screens to identify a resource for the
 user.
 
@@ -652,9 +652,9 @@ adds the ```InternalDisplayName``` to the CyberArk_User entity type to be used b
 
 This step focuses on setting up permissions for Identity Manager's end-users granting them access to the connector.
 
-The [Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define the [
+The [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) and [Access Control Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md) elements define the [
 AccessControlPermission
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It used by the UI when displaying data such as resources and available roles.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md) for end-user profiles to read and write the connector's data (such as resources of a given entity type). It used by the UI when displaying data such as resources and available roles.
 
 It is strongly recommended that permissions be written to a new file. For example, the administrator profile permissions can be written to the ```CyberArk Profile Administrator.xml``` file.
 
@@ -684,7 +684,7 @@ It is strongly recommended to write Jobs associated with the `CyberArk` connecto
 ### Components
 
 All the job steps can be found in the
-[Create Connector Synchro Complete](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)
+[Create Connector Synchro Complete](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md)
 scaffolding.
 
 #### Example
@@ -702,9 +702,9 @@ scaffolding.
 
 This job will be executed on CyberArk's connector agent.
 
-Notice the __Identifier__ attribute with the value ```Job``` in the ```OpenIdIdentifier``` tag. It refers to the ```ClientId``` written to the [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration. The Tasks will authenticate with the profile associated with this ```ClientId``` in the ```<OpenIdClient>``` xml configuration element.
+Notice the __Identifier__ attribute with the value ```Job``` in the ```OpenIdIdentifier``` tag. It refers to the ```ClientId``` written to the [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) technical configuration. The Tasks will authenticate with the profile associated with this ```ClientId``` in the ```<OpenIdClient>``` xml configuration element.
 
-Incremental synchronization can be configured with the following scaffolding. See the [Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
+Incremental synchronization can be configured with the following scaffolding. See the [Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md) topic for additional information.
 
 ### Permissions
 
@@ -712,11 +712,11 @@ The execution of a Job entails execution of Tasks, reading/writing to the Databa
 
 To complete a Job, the Agent, via the [
 Usercube-Invoke-Job
-](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) uses:
+](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) uses:
 
 - A [
   Profile
-  ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself to read/write:
+  ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) associated with the Job itself to read/write:
   - ```UJ_Jobs``` and ```UJ_Tasks``` tables in a list of tasks
   - ```UJ_JobInstances``` tables in the progress report
 - a Profile for each Task, to read/write ```UJ_TaskInstances``` tables (Progress Report) and perform other operations such as sending export files over to the Server.
@@ -725,7 +725,7 @@ Each Profile must be assigned the right permissions for the associated Job or Ta
 
 Every request from Agent to Server within the execution of a Job needs to be authenticated with an [
 OpenIdClient
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a Profile.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) Connect /Secret pair, linked to a Profile.
 
 #### Create a profile
 
@@ -741,7 +741,7 @@ Here, we focus on creating one profile, used by the Job and every Task of the Jo
 
 As the Principle of Least Privilege states, Netwrix Identity Manager (formerly Usercube)strongly
 recommends that you create a
-[ Profile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during
+[ Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) to be used during
 the Synchronization jobs which will be different from the one used during the Provisioning job. This
 contributes to separating access rights.  
 The same principle applied even more rigorously would make Identity Manager create one profile per
@@ -750,7 +750,7 @@ Task. It isn't necessary as most Synchronization tasks require the same permissi
 #### Grant synchronization access rights to the profile
 
 For an Agent to launch server-side Tasks from the Job via the
-[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md), the profile linked to
+[ Usercube-Invoke-Job ](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md), the profile linked to
 these tasks and used by the tool should be authorized to execute said tasks.
 
 Server-side Tasks for a simple Synchronization job usually are:
@@ -777,9 +777,9 @@ Required permissions are:
 - `/Connectors/SynchronizeSession`
 
 Granting access can be done via the
-[ SynchronizationAccessControlRules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md)
+[ SynchronizationAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/synchronizationaccesscontrolrules/index.md)
 scaffolding and
-the[ Job View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md)
+the[ Job View Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md)
 scaffolding.
 
 The following examples (or similar) should be written to `Conf/Profile AgentSychro.xml`.
@@ -805,7 +805,7 @@ with the following access rights:
 - `/Jobs/RunJob/Launch`
 
 This can be done via the
-[ Job Execution Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md)
+[ Job Execution Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobexecutionaccesscontrolrules/index.md)
 scaffolding.
 
 ##### Example
@@ -823,11 +823,11 @@ scaffolding.
 
 An Agent's [
 Profile
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profile/index.md) is associated with a ```ClientId/Secret``` pair used by the Agent to authenticate to the Server.
 
 Usable ```ClientId/Secret``` pairs are written to the database from the xml configuration using the [
 OpenIdClient
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) xml element.
 
 It is strongly recommended that you write the ```<OpenIdClient>``` xml element to a new or existing ```OpenIdClients.xml``` file in the configuration root folder.
 
@@ -837,7 +837,7 @@ The ```ClientId/Secret``` pair hence created must be associated with the profile
 
 The following example creates a ```ClientId/Secret``` pair to be used by the Agent to authenticate to the Server and complete Jobs. The secret is hashed with the [
 Usercube-New-OpenIDSecret
-](/docs/identitymanager/saas/integration-guide/executables/references/new-openidsecret/index.md) tool.
+](/docs/identitymanager/6.2/integration-guide/executables/references/new-openidsecret/index.md) tool.
 
                     ```
 
@@ -851,7 +851,7 @@ Usercube-New-OpenIDSecret
 #### Set up the Agent to use ClientId/Secret pairs
 
 The `ClientId/Secret` pairs that the Agent may use are written to the Agent's
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 technical configuration set.
 
 The `ClientId` of such `ClientId/Secret` pairs can then be used as a value in a Task
@@ -880,7 +880,7 @@ scheduler.
 
 #### With Identity Manager's scheduler
 
-Use the [ Job ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md) CronTab Expression attribute.
+Use the [ Job ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md) CronTab Expression attribute.
 
 > This example uses Identity Manager's scheduler to execute the
 > `CyberArk_Synchronize_Complete_Manually` job every fifteen minutes:
@@ -902,7 +902,7 @@ For more details about checking Crontab expressions, see the
 #### With an external scheduler
 
 An external scheduler would rely on the
-[ Usercube-Invoke-Job ](/docs/identitymanager/saas/integration-guide/executables/references/invoke-job/index.md) tool.
+[ Usercube-Invoke-Job ](/docs/identitymanager/6.2/integration-guide/executables/references/invoke-job/index.md) tool.
 
 ##### Example
 
@@ -924,7 +924,7 @@ using the "Job/secret" authentication pair to connect to the Identity Manager S
 
 The configuration is written to the database using the [
 Deploy Configuration Task
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md) tool.
+](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md) tool.
 
 ### Test
 

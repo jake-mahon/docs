@@ -30,7 +30,7 @@ The following example links the authentication credentials of an end-user to its
 of EntityType **Directory_User**.
 
 In this example, authentication has been set up using
-[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
+[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
 In that case, the login used by the end-user is in the form `DOMAIN/userName`.
 
 The **AfterToken** attribute parses the `DOMAIN/userName` string into `userName`.

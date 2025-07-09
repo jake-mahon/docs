@@ -15,9 +15,9 @@ Create a Synchronization job in incremental mode.
 
 The synchronization Job can be created automatically by a scaffolding. It can create either a job
 for each connector and for each agent (see :
-[Create Connector Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md))
+[Create Connector Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md))
 or a job for all connector for each agent (see :
-[Create Agent Synchro Incremental](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchroincremental/index.md))
+[Create Agent Synchro Incremental](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createagentsynchroincremental/index.md))
 
 In the following example the Synchronization job for the Connector "AD" will be created.
 
@@ -30,7 +30,7 @@ In the following example the Synchronization job for the Connector "AD" will be 
 ### 2. Create the Export task
 
 If a pre-treatment is needed, you must create an
-[ Export Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md). Otherwise
+[ Export Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md). Otherwise
 it is unnecessary. Choose the Export task corresponding to the connector.
 
 All Export task have the ContinueOnError property. It is advisable to begin with the value of True
@@ -48,7 +48,7 @@ Example :
 
 Create the PrepareSynchronizationTask with the connector. Set `SynchronizationMode="Incremental"` ,
 except for
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
+[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
 which doesn't need this parameter and LDAP connector who need complete mode.
 
 If the job contain Exports for the same connector add the a link between the Prepare Synchronization
@@ -63,18 +63,18 @@ Example :
 ```
 
 For more information on PrepareSynchronization task configuration :
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
+[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
 
 ### 4. Create the Synchronization task
 
 Create the SynchronizeTask corresponding to the Prepare Synchronization Task. If the Prepare
 Synchronization Task is a
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md),
+[ Prepare Synchronization Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md),
 then choose the
-[ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md),
+[ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md),
 else if it is Prepare Synchronization Active Directory Task choose Synchronization ADDir Sync, else
 choose
-[ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md).
+[ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md).
 
 In Incremental mode, you must set the attribute `DoNotDeleteChanges="true"`
 
@@ -91,10 +91,10 @@ Example :
 ```
 
 The Synchronization Validation Task is not needed , since it is managed by the
-[ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md).
+[ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md).
 
 For more information on Synchronization task configuration :
-[ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
+[ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 
 ### 5. Create the SetRecentlyModifiedFlag task
 
@@ -110,7 +110,7 @@ in the database.
 ```
 
 For more information on SetRecentlyModifiedFlag Task :
-[ Set Recently Modified Flag Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
+[ Set Recently Modified Flag Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
 
 ### 6. Create the UpdateEntityPropertyExpressions task
 
@@ -129,7 +129,7 @@ Example :
 ```
 
 For more information on UpdateEntityPropertyExpressions Task configuration :
-[ Update Entity Property Expressions Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+[ Update Entity Property Expressions Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
 
 ### 7. Create the ComputeCorrelationKey task
 
@@ -148,7 +148,7 @@ Example :
 ```
 
 For more information about the Compute Role Model correlation keys task configuration:
-[ Compute Correlation Keys Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+[ Compute Correlation Keys Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
 
 ### 8. Create the ComputeRoleModel task
 
@@ -167,11 +167,11 @@ Example :
 ```
 
 The TaskEntityType elements correspond to the sourceEntityTypes in the
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) which have
+[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) which have
 TargetEntityTypes that are part of the connector to provide.
 
 For more information on Compute Role Model task configuration:
-[ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 
 ### 9. Create the GenerateProvisioningOrder task
 
@@ -188,7 +188,7 @@ Example :
 ```
 
 For more information on provisioning task configuration:
-[Generate Provisioning Orders Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md).
+[Generate Provisioning Orders Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/generateprovisioningorderstask/index.md).
 
 ### 10. Create the Fulfill task
 
@@ -210,7 +210,7 @@ fulfillment must be not launch in the job.
 ### 11. Create the UpdateClassification task
 
 Create the Update Classification Task. The resource Classification is needed if one or more
-[ Resource Classification Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
+[ Resource Classification Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
 are configured for the connector. Set the attribute Dirty : `Dirty="true"`.
 
 Since dirty mode is enabled, a dependency is only needed to run the expression computation if the
@@ -223,12 +223,12 @@ Task SetRecentlyModifiedFlag has been started.
 ```
 
 For more information on Update Classification Task :
-[ Update Classification Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateclassificationtask/index.md)
+[ Update Classification Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateclassificationtask/index.md)
 
 ### 12. Create the SetInternalUserProfiles task
 
 Create the Set Internal User Profiles Task. The Profile Assignment is needed if one ore more
-[Profile Rule Context](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)are
+[Profile Rule Context](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)are
 configured.
 
 This Task is directly linked to a Fulfill parent. if the fulfillment has been completed with the
@@ -242,7 +242,7 @@ becomes useless.
 ```
 
 For more information on SetInternalUserProfiles Task configuration :
-[ Set Internal User Profiles Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
+[ Set Internal User Profiles Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
 
 ### 13. Create the all-tasks job
 
@@ -258,4 +258,4 @@ Agent="Local">  <ExportTask Identifier="Export_AD_Delta" Agent="Local" Connectio
 The job can be scheduled with the `CrontabExpression` attribute
 
 For more information on job configuration :
-[ Job ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
+[ Job ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/job/index.md)

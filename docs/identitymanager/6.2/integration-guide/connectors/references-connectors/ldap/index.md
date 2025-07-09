@@ -10,10 +10,10 @@ This connector exports and fulfills entries from/to an [LDAP](https://ldap.com/)
 
 This page is about:
 
-- [ Generic LDAP ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/generic-ldap/index.md);
-- [ Oracle LDAP ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/oracle-ldap/index.md);
-- [ Apache Directory ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/apache-directory/index.md);
-- [ Red Hat Directory Server ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
+- [ Generic LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/generic-ldap/index.md);
+- [ Oracle LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/oracle-ldap/index.md);
+- [ Apache Directory ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/apache-directory/index.md);
+- [ Red Hat Directory Server ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
 
 ![Package: Directory/Generic LDAP](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
 
@@ -31,7 +31,7 @@ mechanism for interacting with directory servers.
 ## Prerequisites
 
 Implementing this connector requires reading first the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)documentation.
 
 ## Export
 
@@ -41,7 +41,7 @@ connector's configuration.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -147,13 +147,13 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
 Output folder one file per element in **Tables**, named `<connectionIdentifier>_<tableName>.csv`,
 with one column for each property having a `ConnectionColumn` and each property without it but used
 in an entity association.
 
 Any property can be exported in a specific format when specified. See the
-[ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
+[ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
 topic for additional information.
 
 > With the previous example and the following entity type mapping:
@@ -186,7 +186,7 @@ topic for additional information.
 
 The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
 Identity Manager UI or by assignment policy enforcement. See the
-[Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
 information.
 
 ### Configuration
@@ -278,16 +278,16 @@ provisioning order, through the `ResourceType`'s `ArgumentsExpression`.
 ### Password reset
 
 See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic to learn how to configure password reset settings.
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   LDAP's `Login`, `Password` and `Server`.

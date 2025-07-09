@@ -17,7 +17,7 @@ Thresholds can be deactivated via the value `0`, though they should not all be. 
 "guarded" by at least one threshold.
 
 Once the changes have been reviewed, the blocked job can be resumed (or not). See the
-[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) topic for additional
+[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional
 information.
 
 As long as a synchronization job is blocked for a connector, the export, prepare-synchronization and
@@ -29,7 +29,7 @@ launched in complete mode.
 
 Synchronization thresholds can be configured in XML files via:
 
-- [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) to
+- [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) to
   count the number of resources impacted by synchronization inside a given entity type. They are
   configured with:
 
@@ -39,7 +39,7 @@ Synchronization thresholds can be configured in XML files via:
     | `MaximumInsertedLines` | `MaxPercentageInsertedLines` |
     | `MaximumUpdatedLines`  | `MaxPercentageUpdatedLines`  |
 
-- [ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+- [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   to count the number of navigation properties impacted by synchronization inside a given entity
   type. They are configured with:
 
@@ -48,7 +48,7 @@ Synchronization thresholds can be configured in XML files via:
     | `MaximumLinkDeletedLines`  | `MaxLinkPercentageDeletedLines`  |
     | `MaximumLinkInsertedLines` | `MaxLinkPercentageInsertedLines` |
 
-- [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) to count the number
+- [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) to count the number
   of resources and/or navigation properties impacted by synchronization inside all entity types of a
   given connector. They are configured with:
 
@@ -76,5 +76,5 @@ If the entity type's threshold values are higher than the connector's, then Iden
 synchronization as soon as the number of modifications exceeds the connector's threshold values (100
 resources or 1000 navigation properties).
 
-Distinct [ Thresholds ](/docs/identitymanager/saas/integration-guide/provisioning/prov-thresholds/index.md) are configurable for
+Distinct [ Thresholds ](/docs/identitymanager/6.2/integration-guide/provisioning/prov-thresholds/index.md) are configurable for
 provisioning.

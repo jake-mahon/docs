@@ -7,7 +7,7 @@ sidebar_position: 60
 # Various XML Settings
 
 This section describes Identity Manager's
-[ Settings ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the
+[ Settings ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the
 applicative configuration. Those are mandatory.
 
 ## ConfigurationVersion
@@ -123,7 +123,7 @@ The max number of links to display is 5.
 _This attribute matches an end-user with a resource from the unified resource repository._
 
 Authorization mechanisms within Identity Manager rely on assigning
-[ Profiles ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
+[ Profiles ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
 to an identity-resource that stands for the end-user digital identity.
 
 To that end, and end-user authentication credentials are linked to such an identity-resource using
@@ -160,7 +160,7 @@ The following example links the authentication credentials of an end-user to its
 of EntityType **Directory_User**.
 
 In this example, authentication has been set up using
-[ End-User Authentication](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case,
+[ End-User Authentication](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md). In that case,
 the login used by the end-user is in the form `DOMAIN/userName`.
 
 The **AfterToken** attribute parses the `DOMAIN/userName` string into `userName`.

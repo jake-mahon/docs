@@ -6,15 +6,15 @@ sidebar_position: 70
 
 # Entity Type Mapping
 
-An entity type mapping links a given [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+An entity type mapping links a given [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 properties with the source columns of the corresponding managed system. The entity type mapping
-specifies the related [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and the path to the CSV source file which
+specifies the related [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and the path to the CSV source file which
 contains, or will contain, the data exported from the managed system. Each of its Entity Type
 Mapping properties will define the corresponding source column and specific options.
 
 An entity type mapping shares the same identifier as its related entity type.
 
-See the example of a whole [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) containing an entity type mapping.
+See the example of a whole [ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) containing an entity type mapping.
 
 ## Properties
 
@@ -32,7 +32,7 @@ See the example of a whole [ Connector ](/docs/identitymanager/saas/integration-
 
 ## Child Element: Property
 
-Contains all the [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties that can be
+Contains all the [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties that can be
 synchronized into Identity Manager physical model. Each mapping share the same id as its
 corresponding property in the entity type.
 

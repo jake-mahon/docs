@@ -15,18 +15,18 @@ Identity Manager's simulations gather roles and rules which are to be created, m
 without being inserted in the actual role model straight away. More specifically, a simulation can
 involve:
 
-- [ Resource Correlation Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+- [ Resource Correlation Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
   and
-  [ Resource Classification Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
+  [ Resource Classification Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
 - Scalar rules and navigation rules;
-- [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
-- [ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and
-  [ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and
-  [Composite Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+- [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
+- [ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and
+  [ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and
+  [Composite Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
 A simulation can also be created by the role mining tool for the automation of role assignments. See
-the [ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md)
+the [ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md)
 topic for additional information.
 
 Through simulation, integrators can:
@@ -44,5 +44,5 @@ action (creation/modification/deletion) on the role model.
 
 ## Perform a Simulation
 
-See the [ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) for additional
+See the [ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) for additional
 information.

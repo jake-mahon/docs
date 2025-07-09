@@ -10,7 +10,7 @@ This connector exports and fulfills user and groups from/to a
 [Microsoft Entra ID](https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id)
 (formerly Microsoft Azure AD) instance.
 
-See the[ Microsoft Entra ID ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for
+See the[ Microsoft Entra ID ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for
 additional information.
 
 ![Package: Directory/Microsoft Entra ID](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.webp)
@@ -35,7 +35,7 @@ of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/aut
 delegated permissions are not enough. These application permissions require the consent of an
 administrator of the target Microsoft Entra ID tenant.
 
-See the[Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to
+See the[Register for Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to
 register Identity Manager as an application with the Microsoft Identity Platform in order to grant
 Identity Manager a service account which authenticates with the target Microsoft Entra ID.
 
@@ -47,7 +47,7 @@ the list of configured attributes in the associated entity type mapping to a CSV
 ### Configuration
 
 This process is configured through a connection in the UI and/or the XML configuration. See the
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 Or in the `appsettings.agent.json > Connections` section:
@@ -186,7 +186,7 @@ This connector is meant to generate the following files:
 
 The CSV files are stored in the Export Output folder, and the cookie file in the Export Cookies
 folder. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topic for additional information.
 
 For more details, see Microsoft's documentation on
@@ -196,7 +196,7 @@ For more details, see Microsoft's documentation on
 
 This connector writes to the Microsoft Entra ID, to create, update and delete Microsoft Entra ID
 objects, initiated manually through the UI or automatically by enforcing the policy. See the
-[Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
 information.
 
 ### Configuration
@@ -249,18 +249,18 @@ See the following to figure out authentication.
 Password reset
 
 See
-the[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+the[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information on how to configure password reset settings.
 
 Credential protection
 
 Data protection can be ensured through:
 
-- [ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file
-- An [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+- An [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - A
-  [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk's AAM Credential Providers ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   Vault able to store Microsoft Entra ID's `ApplicationId` and `ApplicationKey`.

@@ -12,9 +12,9 @@ Identity Manager provides a few options to protect sensitive data via RSA encry
 
 Sensitive data can be RSA encrypted by using Netwrix Identity Manager (formerly Usercube)'s tools:
 
-- [ Usercube-Protect-X509JsonValue ](/docs/identitymanager/saas/integration-guide/executables/references/protect-x509jsonvalue/index.md)
+- [ Usercube-Protect-X509JsonValue ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonvalue/index.md)
   to encrypt given values;
-- [ Usercube-Protect-X509JsonFile ](/docs/identitymanager/saas/integration-guide/executables/references/protect-x509jsonfile/index.md)
+- [ Usercube-Protect-X509JsonFile ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonfile/index.md)
   to encrypt a whole file.
 
     The file encryption tool should be used only on files that contain only plain text values, not
@@ -35,7 +35,7 @@ appsettings file without having to encrypt the whole file again.
 The `appsettings.encrypted.json` file contains the `appsettings.json` file's sensitive setting
 values which are protected by RSA encryption.
 
-This file follows the exact same structure as the [Server Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/index.md) files.
+This file follows the exact same structure as the [Server Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/index.md) files.
 
 ### Read the Encrypted File
 

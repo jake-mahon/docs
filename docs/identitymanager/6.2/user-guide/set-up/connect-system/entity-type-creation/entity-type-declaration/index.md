@@ -7,12 +7,12 @@ sidebar_position: 10
 # Create the Entity Type
 
 How to create the technical container of an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ## Overview
 
 Here, you will learn how to create an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
+[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
 the shell that harbors the (scalar and navigation) properties which describe a given set of
 resources related to one managed system.
 
@@ -53,12 +53,12 @@ Create the entity type by proceeding as follows:
     >
     > The AD connector uses as a source `Connection Active Directory - entries`. Its structure was
     > retrieved when we refreshed the schemas of the `Active Directory` >
-    > [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md), thus retrieving the attributes from
+    > [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md), thus retrieving the attributes from
     > the Active Directory and storing them temporarily on the agent side, inside CSV files.
 
 ## Next Steps
 
-To continue,[ Define Scalar Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity
+To continue,[ Define Scalar Properties ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity
 type.
 
 ## Troubleshooting
@@ -70,7 +70,7 @@ If there are no connection tables available in the **Source** dropdown list of a
 Ensure that there are existing connections:
 
 - if this is the case, then click on **Refresh all schemas** on the connector page, and verify that
-  there is no error. See the [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) topic for
+  there is no error. See the [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) topic for
   additional information.
 - if not, then you must create at least one connection.
 

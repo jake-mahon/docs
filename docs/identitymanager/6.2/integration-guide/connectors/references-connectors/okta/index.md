@@ -25,7 +25,7 @@ Implementing this connector requires:
 - An Okta Token with specific permissions on the target instance
 
 See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Configuration
@@ -240,7 +240,7 @@ id, created, lastUpdated, status, name, label
 
 The Okta connector writes to Okta to create, update and delete entries, initiated manually through
 the UI or automatically by enforcing the policy. See the
-[Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
+[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for additional
 information.
 
 ### Configuration
@@ -269,15 +269,15 @@ appsettings.agent.json
 ### Password reset
 
 The password reset settings configuration is described in the appsettings.agent.json file. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the appsettings.encrypted.agent.json file
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault able to
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault able to
   store Okta Login, Password, Account and Server.

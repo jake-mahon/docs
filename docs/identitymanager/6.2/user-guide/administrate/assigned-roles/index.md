@@ -28,13 +28,13 @@ You can review all assigned single roles by category. Through filters you can ch
 ## Participants and Artifacts
 
 This operation should be performed by a user with the right permissions. See the
-[ Configure a User Profile ](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topic for additional
+[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topic for additional
 information.
 
 The following example provides the rights for the Administrator profile to see the Assigned Roles
 page on the **Entity Type** directory user. See the
-[ Create a Provisioning Rule ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/index.md) and
-[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
+[ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) and
+[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
 additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the

@@ -18,7 +18,7 @@ Supported log management systems are:
 ## Overview
 
 Typically, a Serilog configuration includes three parts: **MinimumLevel**, **Using** and
-**WriteTo**. See the [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+**WriteTo**. See the [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md) topic for additional information.
 
 ### Usercube's DSM in QRadar
 
@@ -27,7 +27,7 @@ Identity Manager's logs, when producing a JSON output.
 
 Logs can be sent into QRadar without using Identity Manager's DSM in QRadar, but the logs just won't
 be parsed. Not all Identity Manager's logs can be sent to QRadar. See the
-[ References: Logs ](/docs/identitymanager/saas/integration-guide/monitoring/references/index.md) topic for additional information.
+[ References: Logs ](/docs/identitymanager/6.2/integration-guide/monitoring/references/index.md) topic for additional information.
 
 In order to get Identity Manager's DSM, import from QRadar the `Usercube_1.0.0.zip` file, accessible
 in the `Runtime` folder. Identity Manager's DSM is set to automatically detect the source. This
@@ -39,7 +39,7 @@ Manager should make the detection possible.
 Export logs to a log management system by proceeding as follows:
 
 1. In
-   [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md),
+   [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md),
    make sure to have a **Serilog** section:
 
     ```
@@ -56,7 +56,7 @@ Export logs to a log management system by proceeding as follows:
     ```
 
 2. In the **Serilog** section, add a **Using** section to contain the used sink which depends on the
-   logs' destination, output format, etc. See the list of supported [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md).
+   logs' destination, output format, etc. See the list of supported [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md).
 
     Concerning QRadar, Netwrix Identity Manager (formerly Usercube) strongly recommends using the
     JSON format, as it can be parsed by Identity Manager's DSM or easily by a homemade parser.
@@ -106,7 +106,7 @@ Export logs to a log management system by proceeding as follows:
     **MinimumLevel** set to `Information`, or lower.
 
     > For example, we can define the logs' minimum level to `Information`. This way, all logs from
-    > the [ References: Logs ](/docs/identitymanager/saas/integration-guide/monitoring/references/index.md) with `Information` level or higher are
+    > the [ References: Logs ](/docs/identitymanager/6.2/integration-guide/monitoring/references/index.md) with `Information` level or higher are
     > sent.
     >
     > ```
@@ -243,14 +243,14 @@ Export logs to a log management system by proceeding as follows:
 
 5. When needing to restrict the logs sent to the system, add a filter and wrap all **WriteTo**
    configuration into a sub-logger, in which case the **Name** at **WriteTo**'s root must be
-   `Logger`. See the [ Monitoring ](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+   `Logger`. See the [ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md) topic for additional information.
 
     For all formats, in order to send only the right logs using the specified filter, the
     **WriteTo** part must contain a sub-logger with its own filter. Otherwise, the filter will be
     applied to all sinks.
 
     For example, among Identity Manager's logs, only the logs described in the e
-    [ References: Logs ](/docs/identitymanager/saas/integration-guide/monitoring/references/index.md) can be parsed by QRadar's DSM and should be used
+    [ References: Logs ](/docs/identitymanager/6.2/integration-guide/monitoring/references/index.md) can be parsed by QRadar's DSM and should be used
     by a SIEM system. Hence the importance of having a filter and a sub-logger.
 
     Never include logs with event ids inferior to 500, in order not to be overwhelmed with logs

@@ -24,9 +24,9 @@ know what entitlements need to be reviewed.
 
 | Input                                                                                                                                                                                                | Output                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| Identity Repository (required) [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)<br />(optional) [Manage Risks](/docs/identitymanager/saas/user-guide/optimize/risk-management/index.md) | Scheduled certification campaign(s) |
+| Identity Repository (required) [Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)<br />(optional) [Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) | Scheduled certification campaign(s) |
 
-See the [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic
 for additional information.
 
 ## Create a Certification Campaign
@@ -52,10 +52,10 @@ Create an access certification campaign by proceeding as follows:
     - `Target Entity Type`: Entity type targeted by the campaign.
     - `Target Reviewers`: Set of identities responsible for the access review. Available reviewers
       are configured via the
-      [Access Certification](/docs/identitymanager/saas/integration-guide/governance/accesscertification/index.md)
+      [Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md)
       policies.
     - `Target Specificities`:
-      [AccessCertificationDataFilter](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
+      [AccessCertificationDataFilter](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
       defines the campaign scope (e.g., by object type, category, approval state). The campaign uses
       the union of all specificities.
 

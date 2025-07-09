@@ -20,8 +20,8 @@ Framework connection.
 This guide will focus only on how to interact with a web-based application. The guide on how to
 write a Robot Framework script explains the basics of Robot Framework. The basic prerequisites can
 be found on the Robot Framework connector page. See the
-[ Write a Robot Framework Script ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) and
-[ Robot Framework ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional
+[ Write a Robot Framework Script ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) and
+[ Robot Framework ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional
 information.
 
 The prerequisites are explained in detail at the

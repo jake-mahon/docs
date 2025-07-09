@@ -28,7 +28,7 @@ project, for example:
 
     ![Home - Workflow Overview](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
 
-- the list of [Review Orphaned and Unused Accounts](/docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/index.md).
+- the list of [Review Orphaned and Unused Accounts](/docs/identitymanager/6.2/user-guide/administrate/orphan-unused-account-review/index.md).
 
     ![Orphaned Account List](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
@@ -60,7 +60,7 @@ Identity Manager provides a selection of predefined reports available in the so
 represent the most common use cases.
 
 The accessibility of these predefined reports was configured during profile configuration. See the
-[ Configure a User Profile ](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md)topic for additional
+[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md)topic for additional
 information.
 
 Download predefined reports by proceeding as follows:
@@ -78,19 +78,19 @@ Download predefined reports by proceeding as follows:
 
 When facing frequent reporting requirements outside the scope of predefined reports, new reports can
 be configured with XML via `Report Query` and specific query grammar. See the
-[API query grammar](/docs/identitymanager/saas/integration-guide/api/squery/index.md) topic for additional
+[API query grammar](/docs/identitymanager/6.2/integration-guide/api/squery/index.md) topic for additional
 information.
 
 ## Create Customized Reports
 
 When facing a one-time need for producing specific reports, Identity Manager's Query module helps
 display attributes chosen from the data which is already synchronized and classified. See the
-[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) and
-[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topics for additional
+[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) and
+[ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) topics for additional
 information. This module offers the possibility to customize reports and download them.
 
 The Query module is based on predefined
-[ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+[ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
 that can be adjusted later on in XML configuration, just like the list of available query models.
 
 Create a custom report by proceeding as follows:
@@ -103,14 +103,14 @@ Create a custom report by proceeding as follows:
 
 2. Choose a query model from among the list.
 3. Click on **Fields to Display** and select the appropriate fields from among the database
-   [ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+   [ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
    and click on **Confirm**.
 
     ![Fields to Display](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
     In cases where Identity Manager doesn't display correctly the information you need, you must try
     to understand the entity instances and association instances that constitute the
-    [ Universe ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+    [ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
     that you are working with. Perhaps the fields that you chose cannot be properly correlated.
 
 4. Click on **Filters**, write the appropriate condition and click on **Confirm**.
@@ -132,5 +132,5 @@ allow you to create customized reports with a vast range of display options (suc
 matrixes, etc.) using Identity Manager's universes.
 
 See the
-[Connect Power BI to Identity Manager](/docs/identitymanager/saas/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md)
+[Connect Power BI to Identity Manager](/docs/identitymanager/6.2/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md)
 topic for additional information on how to analyze Identity Manager's data with Power BI.

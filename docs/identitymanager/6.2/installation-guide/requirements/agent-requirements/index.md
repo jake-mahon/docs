@@ -37,9 +37,9 @@ agent's and server's `appsettings` share the same configuration. The `appsetting
 configuration set is still configured through environment variables or via a separate
 `appsettings.agent.json` file stored next to the `Usercube-Server.exe` executable, in the common
 working directory. See the
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 and
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topics for additional information.
 
 ## Service Accounts
@@ -58,7 +58,7 @@ or a custom
 ### Working directory permissions
 
 The agent's service account needs specific permissions presented in the
-[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic as:
+[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_, _Modify_, and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the `Runtime` directory, usually
@@ -68,14 +68,14 @@ The agent's service account needs specific permissions presented in the
 - _Read_, _Modify_, _List folder contents_, and _Write_ on the directory for data collection, whose
   path depends on the `Work` folder's path.
 
-See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
-[Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+See the [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) and
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
 Other permissions should be denied.
 
 > **FAQ**: How to set up directory permissions in Windows Server? See the
-> [Install the Server](/docs/identitymanager/saas/installation-guide/production-ready/server/index.md) topic for additional information.
+> [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
 
 ### Managed systems' permissions
 
@@ -91,14 +91,14 @@ Before going further, make sure the integration team has provided:
 - The list of all managed systems
 - Service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_
   operations on the systems associated with a connector allowing respectively synchronization and/or
-  provisioning; See the [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) topic for
+  provisioning; See the [Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md) topic for
   additional information.
 - service accounts' credentials
 
 Managed systems credentials are stored in the `appsettings.agent` configuration set and can be
 protected. See the
-[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-and [ Modules ](/docs/identitymanager/saas/integration-guide/modules/index.md) topics for additional information.
+[appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+and [ Modules ](/docs/identitymanager/6.2/integration-guide/modules/index.md) topics for additional information.
 
 ### Database permissions
 
@@ -123,7 +123,7 @@ communication with the server.
 ## Emails
 
 The agent needs access to an SMTP server to
-[ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md).
+[ Send Notifications ](/docs/identitymanager/6.2/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption Key Pair
 
@@ -155,5 +155,5 @@ and
 
 ## What's Next?
 
-To start the installation, follow either the [ Quick Start Guide](/docs/identitymanager/saas/installation-guide/quick-start/index.md) or the
-[Production-Ready Installation](/docs/identitymanager/saas/installation-guide/production-ready/index.md).
+To start the installation, follow either the [ Quick Start Guide](/docs/identitymanager/6.2/installation-guide/quick-start/index.md) or the
+[Production-Ready Installation](/docs/identitymanager/6.2/installation-guide/production-ready/index.md).

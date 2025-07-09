@@ -7,7 +7,7 @@ sidebar_position: 20
 # Assignment Dates
 
 Entitlements can be assigned to users manually or automatically, but not on any time period. See the
-[Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
+[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic for additional information.
 
 ## For Manual Assignments
 
@@ -27,5 +27,5 @@ its end date equal to the records' latest end date.
 ## For Automatic Assignments
 
 The start and end dates of any automatic assignment are based on the dates from the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the
+[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the
 identities.

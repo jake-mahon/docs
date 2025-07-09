@@ -37,11 +37,11 @@ Identity Manager can be installed:
 
 ## Next Steps
 
-Let's learn about Identity Manager [Configuration](/docs/identitymanager/saas/introduction-guide/configuration/index.md).
+Let's learn about Identity Manager [Configuration](/docs/identitymanager/6.2/introduction-guide/configuration/index.md).
 
 ## Learn More
 
 Learn more on Identity Manager's Architecture .
 
-See the [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md) topic for
+See the [Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md) topic for
 additional information.
