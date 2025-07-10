@@ -454,6 +454,22 @@ export const PRODUCTS = [
     defaultVersion: '4.2',
   },
   {
+    id: 'privilegesecurediscovery',
+    name: 'Privilege Secure for Discovery',
+    description: 'Privileged access management',
+    path: 'docs/privilegesecurediscovery',
+    categories: ['Privileged Access Management (PAM)'],
+    icon: '',
+    versions: [
+      {
+        version: 'current',
+        label: 'current',
+        isLatest: true,
+        sidebarFile: './sidebars/privilegesecurediscovery.js',
+      },
+    ],
+  },
+  {
     id: 'recoveryforactivedirectory',
     name: 'Recovery for Active Directory',
     description: 'Active Directory backup and recovery',
