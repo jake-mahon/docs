@@ -1,7 +1,7 @@
 ---
 title: "How it Works"
 description: "How it Works"
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # How It Works
