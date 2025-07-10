@@ -22,7 +22,7 @@ and select Run as administrator. Then skip to Step 2.
 
 **Step 1 –** Click PostgreSQL Setup. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/install.webp)
+![Netwrix PostgreSQL Setup wizard](/img/product_docs/threatmanager/3.0/install/installdb.webp)
 
 **Step 2 –** Click Install.
 
