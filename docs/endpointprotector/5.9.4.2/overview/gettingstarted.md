@@ -62,7 +62,7 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.m
     - Create Custom Policies to define file monitoring and protection rules.
     - Specify Denylists, Predefined Content, or Custom Content to identify sensitive data.
 
-See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/module/module_1.md) topic for more
+See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/cap_module/capmodule.md) topic for more
 information.
 
 ## Configuring an eDiscovery Scan
@@ -121,7 +121,7 @@ See the [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfi
     - Duplicate "Report Only" CAP policies and modify them to enforce restrictions.
     - Activate blocking policies to prevent unauthorized data movements.
 
-See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/module/module_1.md) topic for more
+See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/cap_module/capmodule.md) topic for more
 information.
 
 ## Performing Remediation within eDiscovery

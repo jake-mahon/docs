@@ -704,7 +704,7 @@ Users, or Computers.
 **CAUTION:** When triggered, fallback policies supersede the standard device rights. Regarding
 fallback policies, the Outside Network Policies supersede the Outside Hours Policies.
 
-**NOTE:** For [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/module/module_1.md), the Outside Network
+**NOTE:** For [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/cap_module/capmodule.md), the Outside Network
 and Outside Hours Policy Type also needs to be selected.
 
 ![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/outsidehoursnetwork.webp)
