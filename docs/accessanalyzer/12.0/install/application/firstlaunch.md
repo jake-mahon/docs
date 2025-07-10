@@ -122,4 +122,4 @@ the log after exiting the wizard, it is located in the installation directory at
 The Access Analyzer Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection
 Profile and a Schedule Service account as well as discovering hosts and setting up host lists. See
-the [Getting Started](/docs/accessanalyzer/12.0/overview/gettingstarted.md) topic for additional information.
+the [Getting Started](/docs/accessanalyzer/12.0/gettingstarted.md) topic for additional information.

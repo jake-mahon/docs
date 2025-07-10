@@ -83,4 +83,4 @@ select a global setting to configure:
     - Create profiles for storing output data from queries
     - Creating a Storage Profiles requires Microsoft® SQL® Server information
 
-See the [Getting Started](/docs/accessanalyzer/12.0/overview/gettingstarted.md) topic for additional information.
+See the [Getting Started](/docs/accessanalyzer/12.0/gettingstarted.md) topic for additional information.

@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Use the Search Filter page to choose a filter template for the search.
 
-![Filter Wizard Search Filter page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter.webp)
+![Filter Wizard Search Filter page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/filterwizard/searchfilter.webp)
 
 Customize folder search conditions using the following options:
 

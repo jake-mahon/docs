@@ -19,7 +19,7 @@ The purpose of this document is to provide the basic steps needed for upgrading 
 the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
 
-See the [What's New](/docs/accessanalyzer/12.0/overview/whatsnew.md) topic for release information.
+See the [What's New](/docs/accessanalyzer/12.0/whatsnew.md) topic for release information.
 
 ## Considerations
 

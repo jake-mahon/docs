@@ -17,7 +17,7 @@ Click **Add Filter** to open the Filter Wizard.
 
 The Filter Wizard manages properties of the search filter. The Filter Wizard pages are:
 
-- [EWSMailbox FW: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter/searchfilter_1.md)
+- [EWSMailbox FW: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter/filterwizard.md)
 - [EWSMailbox FW: Folder Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter/folderconditions.md)
 - [EWSMailbox FW: Message Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter/messageconditions.md)
 - [EWSMailbox FW: BodyOptions](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter/bodyoptions.md)

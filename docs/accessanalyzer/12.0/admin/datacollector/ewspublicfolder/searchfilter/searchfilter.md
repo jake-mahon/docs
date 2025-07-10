@@ -19,7 +19,7 @@ Click **Add Filter** to open the Filter Wizard
 
 The Filter Wizard manages properties of the search filter. The Filter Wizard pages are:
 
-- [EWSPublicFolder FW: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/searchfilter_1.md)
+- [EWSPublicFolder FW: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/filterwizard.md)
 - [EWSPublicFolder FW: Folder Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/folderconditions.md)
 - [EWSPublicFolder FW: Message Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/messageconditions.md)
 - [EWSPublicFolder FW: BodyOptions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter/bodyoptions.md)
