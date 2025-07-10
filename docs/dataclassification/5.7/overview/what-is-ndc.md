@@ -12,12 +12,12 @@ compliance requirements with less effort and expense.
 
 You can view the app architecture and components in the figure below.
 
-<!-- ![how_it_works_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/how_it_works_thumb_0_0.webp) -->
+![how_it_works_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/how_it_works_thumb_0_0.webp)
 
 1. The user adds data sources using the NDC Management web console (Netwrix Data Classification
    program).
 
-   <!--![addsource](/img/product_docs/dataclassification/ndc/admin/addsource.webp) -->
+![addsource](/img/product_docs/dataclassification/5.7/admin/addsource.webp)
 
 2. The configured data sources are saved in the NDC SQL database (SQL Server Collector Database).
 3. The NDC Collector service crawls data files in each data source, converts documents into plain
