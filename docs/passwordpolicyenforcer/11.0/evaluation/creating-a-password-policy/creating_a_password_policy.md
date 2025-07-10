@@ -28,7 +28,7 @@ getting started with Password Policy Enforcer.
 example.
 
 **Step 4 –** Select a Policy template or **None** if you are creating your own. For a list of
-policies see [Policy Templates ](/docs/passwordpolicyenforcer/11.0/evaluation-overview/creating-a-password-policy/policy_templates.md).
+policies see [Policy Templates ](/docs/passwordpolicyenforcer/11.0/evaluation/creating-a-password-policy/policy_templates.md).
 
 **Step 5 –** Click **Create policy**.
 

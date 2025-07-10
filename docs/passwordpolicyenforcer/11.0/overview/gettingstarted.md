@@ -52,5 +52,5 @@ Clients
 
 ## Next Steps
 
-You can work through the [Evaluate Password Policy Enforcer](/docs/passwordpolicyenforcer/11.0/evaluation-overview/evaluation_overview.md) or
+You can work through the [Evaluate Password Policy Enforcer](/docs/passwordpolicyenforcer/11.0/evaluation/evaluation_overview.md) or
 open the [Configuration Console](/docs/passwordpolicyenforcer/11.0/administration/configconsoleoverview.md).
