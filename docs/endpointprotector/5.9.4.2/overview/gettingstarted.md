@@ -52,7 +52,7 @@ Information.
     - Create Custom Policies to configure device access rules.
     - Customize policies based on device types and access requirements.
 
-See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md) topic for additional information.
+See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic for additional information.
 
 ## Configuring Content Aware Protection
 
@@ -82,7 +82,7 @@ See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/module.md) topic for 
     - Navigate to Device Control > Client Settings.
     - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
 
-See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md) topic for more information.
+See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic for more information.
 
 ### Configuring User Remediation Settings
 
@@ -133,7 +133,7 @@ information.
       risks.
 
 See the
-[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md)
+[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md)
 topic for more information.
 
 ## Deploying Enforced Encryption

@@ -282,7 +282,7 @@ application that is subject to this functionality.
 
 **NOTE:** The Deep Packet Inspection functionality needs to be ﬁrst enabled from **Device
 Control** > **Settings** (Global, Groups, Computers, etc.). For detailed information on, refer to
-the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md) topic.
+the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic.
 
 ## Certiﬁcate status matrix
 
