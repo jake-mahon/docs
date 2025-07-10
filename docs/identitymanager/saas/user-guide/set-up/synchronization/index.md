@@ -146,10 +146,8 @@ Identity Manager:
 - the incremental job is scheduled to launch a synchronization several times a day only of the
   resources modified since the last synchronization.
 
-See the
-[ Set Up Incremental Synchronization ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
-and
-[Set up Complete Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
+See the [Set Up Incremental Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobfast/index.md)
+and [Set up Complete Synchronization](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobdaily/index.md)
 topics for additional information.
 
 Scheduling the jobs avoids manually triggering them everyday.

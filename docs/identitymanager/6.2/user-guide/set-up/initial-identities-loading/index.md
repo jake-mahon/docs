@@ -6,17 +6,14 @@ sidebar_position: 20
 
 # Create the Workforce Repository
 
-How to initiate the repository for workforce identities by loading identities into Identity
-Manager with the right attributes.
+How to initiate the repository for workforce identities by loading identities into Identity Manager with the right attributes.
 
 ## Overview
 
-Loading the digital identities into Identity Manager is the very first task you have to perform,
-once you installed the development environment.
+Loading the digital identities into Identity Manager is the very first task you have to perform,once you installed the development environment.
 
 The identity repository is supposed to contain the list of all kinds of identities in the company.
-Each identity will be represented by a set of properties that are to be used in the calculations for
-entitlement assignments.
+Each identity will be represented by a set of properties that are to be used in the calculations for entitlement assignments.
 
 > For example, a user can be represented by an identifier and linked to their position which
 > includes the user's employee id, last name and first name, email, user type, organization, etc.
@@ -31,7 +28,7 @@ entitlement assignments.
 
 See the
 [ Identity Repository ](/docs/identitymanager/6.2/integration-guide/identity-management/identity-repository/index.md)
-topic for additional information..
+topic for additional information.
 
 The initial workforce repository is going to be the first version of a comprehensive repository
 containing all users in the organization. This repository is crucial in setting up the identity
@@ -90,33 +87,30 @@ the project upon a manual data upload to create the initial workforce repository
 
 ## Participants and Artifacts
 
-Integrators may need the help of the HR department and its assistants who know the organization in
-order to get the identity and organizational data. After the initial loading, the HR department can
+Integrators may need the help of the HR department and its assistants who know the organization in order to get the identity and organizational data. After the initial loading, the HR department can
 review the data to confirm its accuracy.
 
 | Input                                                                                                                  | Output                       |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| IdentityManagerServer (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| IdentityManagerServer (required) Organizational chart (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
 ## Create the Workforce Repository
 
 Create the workforce repository by proceeding as follows:
 
-1. [ Configure Unique Property Generation ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md) for all users,
+1. [Configure Unique Property Generation](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md) for all users,
    pre-existing and new, who do not have them yet.
 2. [Load Identities to Identity Manager](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/load-identities/index.md) to Identity Manager based on the
    recommended attributes from the provided organizational model
    [Template Description](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/template-description/index.md).
-3. [ Adjust the Workforce Data Model ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md) following Identity Manager's
+3. [Adjust the Workforce Data Model](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md) following Identity Manager's
    suggestions.
 4. Continue with the next steps of this guide, and come back later to fill the organizational model
    with additional data.
 
 ## Next Steps
 
-Once the initial identities are loaded, integrators can start the User Profile configuration. See
-the [ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topic for additional
-information.
+Once the initial identities are loaded, integrators can start the User Profile configuration. See the [Configure a User Profile](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topic for additional information.
 
 From there you will be able to keep your repository up to date:
 

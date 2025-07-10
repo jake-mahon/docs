@@ -17,7 +17,7 @@ system, preventing duplicates.
 
 ## Create a Homonym Entity Link
 
-A [ Homonym Entity Link ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
+A [Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
 defines a new homonym search to be performed in a workflow form. It can be defined in different
 ways.
 

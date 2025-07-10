@@ -176,13 +176,11 @@ A homonym search checks if a resource already exists in the system before creati
 preventing duplicates. It is configured through a
 [Homonym Entity Link](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-See the [Configure a Homonym Detection](/docs/identitymanager/6.2/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional
-information.
+See the [Configure a Homonym Detection](/docs/identitymanager/6.2/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
 
 ## Display Tables (Optional)
 
 Identity Manager provides a default display table to show the created/modified resource's data, but
 you can configure your own.
 
-See the [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for
-additional informatrion.
+See the [Display Table](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md) topic for additional information.

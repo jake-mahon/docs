@@ -16,16 +16,14 @@ were modified, i.e. created, updated and/or deleted.
 It allows future tasks to be executed only on modified resources, in order to minimize jobs'
 execution times and costs.
 
-See the [ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobfast/index.md) topic for additional information
-on a full Incremental job.
+See the [Set Up Incremental Synchronization](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobfast/index.md) topic for additional information on a full Incremental job.
 
 ## Configure a Job to Be Incremental
 
 Configure a job to be incremental by proceeding as follows:
 
 1. Configure the synchronization task
-   ([ Synchronize Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md))
-   with `DoNotDeleteChanges` set to `true`.
+   ([Synchronize Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)) with `DoNotDeleteChanges` set to `true`.
 
     This way, Identity Manager keeps the list of all changed resources.
 

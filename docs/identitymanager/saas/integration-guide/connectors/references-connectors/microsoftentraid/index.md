@@ -10,7 +10,7 @@ This connector exports and fulfills user and groups from/to a
 [Microsoft Entra ID](https://www.microsoft.com/fr-fr/security/business/identity-access/microsoft-entra-id)
 (formerly Microsoft Azure AD) instance.
 
-See the[ Microsoft Entra ID ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for
+See the[Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure-active-directory/index.md)topic for
 additional information.
 
 ![Package: Directory/Microsoft Entra ID](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/microsoftentraid/packages_azuread_v603.webp)
@@ -35,8 +35,7 @@ of a user but with [its own identity](https://docs.microsoft.com/en-us/graph/aut
 delegated permissions are not enough. These application permissions require the consent of an
 administrator of the target Microsoft Entra ID tenant.
 
-See the[Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/how-tos/azuread-register/index.md) topic on how to
-register Identity Manager as an application with the Microsoft Identity Platform in order to grant
+See the [Register for Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/azuread-register/index.md) topic on how to register Identity Manager as an application with the Microsoft Identity Platform in order to grant
 Identity Manager a service account which authenticates with the target Microsoft Entra ID.
 
 ## Export

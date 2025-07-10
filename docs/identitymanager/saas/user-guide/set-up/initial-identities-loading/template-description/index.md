@@ -14,7 +14,7 @@ Description of the MS Excel template for the creation of the identities reposito
 
 All tabs contain a column `Command` only used at a later stage to modify (massively) identity data.
 See the
-[ Update Identities in Bulk ](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/mass-update/index.md)
+[Update Identities in Bulk](/docs/identitymanager/saas/user-guide/maintain/identity-data-modification/mass-update/index.md)
 topic for additional information.
 
 ## User - Required

@@ -47,11 +47,11 @@ from `RuntimeOld` to the new `Runtime`.
 
 **Step 6 –** Restart the agent.
 
-## Specific Information to Migrate from v6.1 to v6.2
+## Specific Information to Migrate from v6.1 to vsaas
 
-If you are looking to upgrade the Netwrix Identity Manager version from 6.1 to 6.2 you will not need
+If you are looking to upgrade the Netwrix Identity Manager version from 6.1 to saas you will not need
 to take any action because the database will automatically be upgraded. If you have problems
-importing your configuration into 6.2 related to C# expressions, please run the Identity
+importing your configuration into saas related to C# expressions, please run the Identity
 Manager-Check-ExpressionsConsistency tool. See the
 [Usercube-Check-ExpressionsConsistency](/docs/identitymanager/saas/integration-guide/executables/references/check-expressionsconsistency/index.md)
 topic for additional information.

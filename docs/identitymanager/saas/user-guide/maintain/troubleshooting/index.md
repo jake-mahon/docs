@@ -17,7 +17,7 @@ to give some clues and use cases in order to solve usual issues.
 > IP address is being changed, or an important password is being modified.
 
 See the
-[ Troubleshoot Connector Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md)
+[Troubleshoot Connector Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/troubleshoot-connector-jobs/index.md)
 troubleshooting instructions concerning connector jobs.
 
 ### Prerequisites
