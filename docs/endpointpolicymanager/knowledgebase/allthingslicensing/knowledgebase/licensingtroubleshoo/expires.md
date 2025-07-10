@@ -33,7 +33,7 @@ Resolution for the Admin's GPMC editing station:
 - Unlink the old and expiring license after verifying that the new license will cover the same
   components and OUs/ domain as the soonto-be-expiring license. Delete the old GPO links as well
   from under any OUs/domain where it was linked. More details here:
-  [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/fileold.md)
+  [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/fileold.md)
 
 **NOTE:** You can use the LT tool to search through and find OLD licenses so you can be sure you
 only have one license remaining. [Using LT for license cleanup](/docs/endpointpolicymanager/video/license/cleanup.md)/

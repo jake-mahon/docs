@@ -127,7 +127,7 @@ run.
 ## If Enterprise Full means "License all components" how do I expressly disable a component (like Endpoint Policy Manager Browser Router, or Endpoint Policy Manager Application Settings Manager) if they are always licensed?
 
 - Recommended method is to use a Endpoint Policy Manager ADMX setting to specifically unlicense a
-  component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentscloud.md)
+  component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentscloud.md)
 - Note that Endpoint Policy Manager Preferences 1.0 will still always be "force disabled" by default
   until specifically licensed as per this
   article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/forceddisabled.md)

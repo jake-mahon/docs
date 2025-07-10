@@ -61,7 +61,7 @@ There is no easy button for this, but it is a straightforward procedure.
 
 Typically, you do this with the Endpoint Policy Manager on-prem licensing tool (preferred), or if
 you need to, you can use PowerShell.
-See[My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/options.md)
+See[My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/options.md)
 
 ![200_3_image-20200723102952-2](/img/product_docs/endpointpolicymanager/license/mdm/200_3_image-20200723102952-2.webp)
 

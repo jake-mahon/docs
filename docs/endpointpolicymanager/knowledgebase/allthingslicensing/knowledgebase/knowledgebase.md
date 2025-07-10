@@ -43,11 +43,11 @@ licensing.
 
 ## Requesting Licenses FAQ and Troubleshooting (Virtualization, Citrix, WVD, etc.)
 
-- [How are Terminal Services and/or Citrix connections licensed?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/terminalservices.md)
-- [How do I license my Citrix, RDS, WVD, VDI or other multi-session Windows version with Endpoint Policy Manager Cloud ?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/multisession.md)
-- [Why must I run LT from a Windows Server if I want to properly count Citrix / Terminal Services / RDS connections?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/tool_1.md)
-- [What must I show to prove my current RDS and/or Citrix, or other Multi-Session windows concurrent license count for Endpoint Policy Manager Cloud (or if on-prem LT cannot auto-discover them)?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/count.md)
-- [Are there any special Endpoint Policy Manager licensing issues for virtual desktops?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/desktops.md)
+- [How are Terminal Services and/or Citrix connections licensed?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/terminalservices.md)
+- [How do I license my Citrix, RDS, WVD, VDI or other multi-session Windows version with Endpoint Policy Manager Cloud ?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/multisession.md)
+- [Why must I run LT from a Windows Server if I want to properly count Citrix / Terminal Services / RDS connections?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/tool_1.md)
+- [What must I show to prove my current RDS and/or Citrix, or other Multi-Session windows concurrent license count for Endpoint Policy Manager Cloud (or if on-prem LT cannot auto-discover them)?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/count.md)
+- [Are there any special Endpoint Policy Manager licensing issues for virtual desktops?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/desktops.md)
 
 ## Licensing: Requesting Licenses: MDM
 
@@ -78,10 +78,10 @@ licensing.
 
 ## Licensing Troubleshooting and Un-Licensing: Active Directory (GPO and SCCM)
 
-- [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/components_2.md)
-- [My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/options.md)
-- [What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentscloud.md)
-- [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/fileold.md)
+- [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/components_2.md)
+- [My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/options.md)
+- [What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentscloud.md)
+- [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/fileold.md)
 - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentsexclude.md)
 - [How can I verify, test and/or reset my Domain Join (aka SecureChannel) from the endpoint to domain controller?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/reset.md)
 - [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/forceddisabled.md)

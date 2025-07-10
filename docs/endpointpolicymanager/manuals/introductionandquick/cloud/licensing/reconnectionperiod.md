@@ -11,7 +11,7 @@ period within which all customers must re-connect with Endpoint Policy Manager C
 which enables them to keep using the service and get new policies. A computer that is offline for
 more than 14 days will transition to a state of being unlicensed. To see what happens when a
 computer becomes unlicensed (per component), see this KB article:
-[What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/components_2.md).
+[What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/components_2.md).
 
 However, as soon as the computer re-connects to Endpoint Policy Manager Cloud and claims an
 available license, the computer picks up right where it left off. Having a computer return a license

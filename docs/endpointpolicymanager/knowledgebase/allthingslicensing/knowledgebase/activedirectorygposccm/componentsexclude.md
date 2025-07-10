@@ -9,7 +9,7 @@ sidebar_position: 50
 Before you decide you wish to use this method, consider first using the ADMX method to disable
 specific components. The ADMX method is recommended over hand-editing the license file, and has the
 same effect. Therefore please consider this method first. See
-[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentscloud.md)
+[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentscloud.md)
 
 However, if you wish to hard-unlicense a component via the license file, you may do that inside your
 Universal License file.

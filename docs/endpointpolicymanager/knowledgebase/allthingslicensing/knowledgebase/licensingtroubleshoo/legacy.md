@@ -109,7 +109,7 @@ update your CSE.
   28, 2023.
 
   **NOTE:** Exact behavior when licenses expire can be seen here:
-  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/components_2.md)
+  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/components_2.md)
 
 ## What if I'm applying both Universal and Legacy licenses to an endpoint?
 
