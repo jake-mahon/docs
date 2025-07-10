@@ -22,8 +22,7 @@ Name of the policy. Can also use **-P** or **-p**.
 
 This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorAction**,
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
-**OutVariable**. For more information, see about_CommonParameters
-[https:/go.microsoft.com/fwlink/?LinkID=113216](https:/go.microsoft.com/fwlink?linkid=113216).
+**OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
 EXAMPLE
 
