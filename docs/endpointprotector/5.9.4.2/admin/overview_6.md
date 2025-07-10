@@ -429,7 +429,7 @@ can add up to a maximum of 10 justiﬁcations. By default, several justiﬁcatio
 but make sure that at least one justiﬁcation is enabled all the time.
 
 To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option
-from Device Control, Global Settings, [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md).
+from Device Control, Global Settings, [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md).
 
 ![Justiﬁcations List](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/justflist.webp)
 
@@ -451,12 +451,12 @@ section, click **Create**, ﬁll in the mandatory ﬁelds and **Save**.
 ![Custom Device Control User Remediation Notiﬁcations](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/customdcuserremediationnotif.webp)
 
 **Step 3 –** Enable the **User Remediation Pop-up** setting from the
-[Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md) topic and then select the **customized notiﬁcation**
+[Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md) topic and then select the **customized notiﬁcation**
 from the User Remediation Notiﬁcation Template drop-down list;
 
 ![User Remediation Pop-up](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/userremediationpopup.webp)
 
-**Step 4 –** Navigate to [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md), Device Types section and
+**Step 4 –** Navigate to [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/dcmodule.md), Device Types section and
 enable **User Remediation** for devices with limited access – devices that have full access
 permission cannot beneﬁt from the User Remediation feature.
 
