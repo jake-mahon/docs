@@ -22,7 +22,7 @@ configuration.
 5. Add [Aspects](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md), according to the
    purpose of the workflow.
 6. Add optional elements if needed: [Workflows](/docs/identitymanager/saas/integration-guide/workflows/index.md); a
-   [Configure a Homonym Detection](/docs\identitymanager\saas\integration-guide\workflows\create-workflow\configure-homonym-test\index.md); a
+   [Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/configure-homonym-test/index.md);
    [Customize Display Tables](/docs/identitymanager/saas/integration-guide/ui/custom-display-table/index.md)different from Identity
    Manager's default one.
 
@@ -52,7 +52,7 @@ You can also find configuration examples for several types of workflow:
 
     Create a workflow to update an existing resource through its several records.
 
-- [ Cnfigure a Homonym Detection](/docs\identitymanager\saas\integration-guide\workflows\create-workflow\configure-homonym-test\index.md)
+- [Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/workflow-update-multi/index.md)
 
     How to configure the homonym search that checks if a resource already exists in the system,
     preventing duplicates.

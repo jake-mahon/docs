@@ -57,7 +57,7 @@ to confirm its accuracy.
 | ------------------------------------------------------------------------------------- | ---------------------------- |
 | IdentityManagerServer (required) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
+See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information
 
 ## Load Identities
@@ -188,5 +188,5 @@ In order to validate the process:
   (through Identity Manager's predefined reports, the Query module or Power BI), in order to ensure
   that Identity Manager's content sticks to reality.
 
-    See the [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional
+    See the [Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional
     information.

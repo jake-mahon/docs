@@ -1,3 +1,7 @@
 {
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "markdown.validate.ignoredLinks": [
+    "/img/**",
+    "/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx"
+  ]
 }

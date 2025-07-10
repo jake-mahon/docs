@@ -20,9 +20,8 @@ Framework connection.
 This guide will focus only on how to interact with a web-based application. The guide on how to
 write a Robot Framework script explains the basics of Robot Framework. The basic prerequisites can
 be found on the Robot Framework connector page. See the
-[ Write a Robot Framework Script ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md) and
-[ Robot Framework ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional
-information.
+[Write a Robot Framework Script](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/write-fulfill-robotframework-script/index.md) and
+[Robot Framework](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/robotframework/index.md) topics for additional information.
 
 The prerequisites are explained in detail at the
 [Robot Framework selenium pypi](https://pypi.org/project/robotframework-seleniumlibrary/) page.
@@ -32,13 +31,10 @@ The requirements specific to the Robot Framework Selenium library are as follows
 - Robot Framework selenium library: use `pip install --upgrade robotframework-seleniumlibrary` in
   the command prompt.
 - A web browser.
-- A web driver that corresponds to the web browser and its version. Webdrivers can be found in
-  the[ Selenium website](https://www.selenium.dev/selenium/docs/api/py/index.html#selenium-website).
-  This web driver should be in your path. To check that the web driver is in your path, use
-  `gcm {webdriver_name}`. As an example for Edge, use `gcm MicrosoftWebDriver`.
+- A web driver that corresponds to the web browser and its version. Webdrivers can be found in the [Selenium website](https://www.selenium.dev/selenium/docs/api/py/index.html#selenium-website).
+  This web driver should be in your path. To check that the web driver is in your path, use `gcm {webdriver_name}`. As an example for Edge, use `gcm MicrosoftWebDriver`.
 
-The web driver for Edge is called `msedgedriver.exe`, but the Robot Framework may expect it to be
-called `MicrosoftWebDriver.exe` depending on the python version. Renaming the web driver from
+The web driver for Edge is called `msedgedriver.exe`, but the Robot Framework may expect it to be called `MicrosoftWebDriver.exe` depending on the python version. Renaming the web driver from
 `msedgedriver.exe` to `MicrosoftWebDriver.exe` should fix this issue.
 
 If the browser is updated, the web driver should also be updated.

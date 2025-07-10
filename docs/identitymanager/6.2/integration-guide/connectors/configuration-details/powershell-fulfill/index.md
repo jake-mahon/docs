@@ -97,7 +97,7 @@ As this guide focuses on the fulfillment of an external system, export settings 
 The Fulfill-PowerShell needs a script whose path is defined by the attribute
 **PowerShellScriptPath**. Identity Manager provides a script in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`.See the
-[Write a PowerShell Script for Provisioning](/docs/identitymanager/6.2/integration-guide/connectors/write-fulfill-powershell-script/index.md) topic for additional information on how to write a customized script.
+[Write a PowerShell Script for Provisioning](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/write-fulfill-powershell-script/index.md) topic for additional information on how to write a customized script.
 
 To define and apply additional settings when authenticating to an external system, we can set the attribute Options and add required parameters for authentication.
 
