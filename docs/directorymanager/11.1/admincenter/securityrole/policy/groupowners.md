@@ -14,11 +14,6 @@ or Management Shell. You can:
 - Specify a range of additional owners, say 2-6, which implies that a group must have any number of
   additional owners in this range.
 
-What do you want to do?
-
-- Enforce a Primary Owner
-- Enforce Additional Owners
-
 ## Enforce a Primary Owner
 
 The Group Owners policy ensures that groups that are created and managed using Directory Manager
@@ -84,8 +79,3 @@ role members can have any number of additional owners and even no additional own
 NOTE: When additional owners have been added using an earlier version of Directory Manager, and
 their number exceeds the value of this setting, Directory Manager will retain them. However, more
 additional owners cannot be added.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

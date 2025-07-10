@@ -69,9 +69,9 @@ Follow the steps to create a dynasty using the Organization/Geographical/Custom 
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Organizational Dynasty**,
    **Geographical Dynasty**, or **Custom Dynasty** option button and click **Next**.
-3. On the [General - Microsoft Entra ID](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/general.md)page, specify basic information about the
+3. On the [General - Microsoft Entra ID](/docs/directorymanager/11.1/portal/group/dynasty/EntraID/general.md)page, specify basic information about the
    Dynasty.
-4. On the [Dynasty Options page](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/dynastyoptionsorggeocus.md), view or change the attributes in
+4. On the [Dynasty Options page](/docs/directorymanager/11.1/portal/group/dynasty/AD/dynastyoptionsorggeocus.md), view or change the attributes in
    the **Attributes** area and click **Next**.
 
     Dynasties create Smart Groups for each distinct value of each listed attribute. Depending on the
@@ -86,9 +86,9 @@ Follow the steps to create a dynasty using the Organization/Geographical/Custom 
 
     Review the query for selecting the group members, then click **Next**.
 
-    For details, see the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md).
+    For details, see the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md).
 
-6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional
+6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
    owners for the Dynasty.
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
@@ -115,9 +115,9 @@ Follow the steps to create a dynasty using the Managerial template.
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Managerial Dynasty** option
    button and click **Next**.
-3. On the [General - Microsoft Entra ID](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/general.md)page, specify basic information about the
+3. On the [General - Microsoft Entra ID](/docs/directorymanager/11.1/portal/group/dynasty/EntraID/general.md)page, specify basic information about the
    Dynasty.
-4. On the [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/dynastyoptionsmanagerial.md), specify a
+4. On the [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.1/portal/group/dynasty/AD/dynastyoptionsmanagerial.md), specify a
    structure for the Dynasty and click **Next**.
 
     By default, Directory Manager constructs a managerial Dynasty structure by first creating a
@@ -133,10 +133,10 @@ Follow the steps to create a dynasty using the Managerial template.
 
     Review the query for selecting the group members, then click **Next**.
 
-    For details, see the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md) topic for
+    For details, see the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md) topic for
     additional information.
 
-6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional
+6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
    owners for the Dynasty.
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties

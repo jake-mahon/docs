@@ -35,7 +35,7 @@ Step 2 – On signing in, unenrolled users are redirected to the **Your Enrollme
 this page represent the different authentication types the administrator has enabled for
 enrollment.  
 You can also launch the **Your Enrollments** page from Admin Center and the portal. See the
-[Enroll your Account](/docs/directorymanager/11.1/admincenter/concepts/accessapplications.md#enroll-your-account) topic for additional
+[Enroll your Account](/docs/directorymanager/11.1/admincenter/general/accessapplications.md#enroll-your-account) topic for additional
 information.
 
 Step 3 – Select an authentication type to enroll your account with.

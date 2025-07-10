@@ -28,7 +28,7 @@ from scratch.
 
 Step 4 – Click **Next Step**
 
-Step 5 – On the [Synchronized Job Collection](/docs/directorymanager/11.1/portal/synchronize/create/synchronizedjobcollection.md) page, add jobs to the
+Step 5 – On the [Synchronized Job Collection](/docs/directorymanager/11.1/portal/synchronize/collection/synchronizedjobcollection.md) page, add jobs to the
 collection. You can either add existing jobs or create new jobs to add them to the job collection.
 
 Step 6 – On the [Scheduling and Notifications](/docs/directorymanager/11.1/portal/synchronize/collection/schedulingandnotification.md) page, choose a schedule

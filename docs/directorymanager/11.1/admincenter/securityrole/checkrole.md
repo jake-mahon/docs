@@ -50,8 +50,3 @@ Directory Manager fetches the highest priority role of the user with respect to 
    For _None_, the highest privileged role of the user in th identity store is displayed,
    irrespective of any client.
 8. Click **Close** to close the dialog box.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/manage.md)

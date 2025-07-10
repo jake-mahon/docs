@@ -90,11 +90,11 @@ For second factor authentication, one of the following applies:
 
 - If you have not enrolled your identity store account in Directory Manager, the Enroll Account page
   is displayed. You must enroll using at least one authentication type. See the
-  [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/concepts/enroll.md) topic.
+  [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/general/enroll.md) topic.
 - If you have already enrolled your identity store account in Directory Manager, the Authenticate
   page is displayed. It lists the authentication type(s) your account is enrolled with. Select an
   authentication type to authenticate. See the
-  [Authenticate your Identity Store Account](/docs/directorymanager/11.1/admincenter/concepts/authenticate.md) topic.
+  [Authenticate your Identity Store Account](/docs/directorymanager/11.1/admincenter/general/authenticate.md) topic.
 
 ## Sign Out
 
@@ -109,6 +109,6 @@ Directory Manager version.
 
 See Also
 
-- [Getting Started](/docs/directorymanager/11.1/introduction/gettingstarted.md)
-- [Dashboard](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md)
-- [Navigation](/docs/directorymanager/11.1/admincenter/concepts/navigation.md)
+- [Getting Started](/docs/directorymanager/11.1/gettingstarted.md)
+- [Dashboard](/docs/directorymanager/11.1/admincenter/general/dashboard.md)
+- [Navigation](/docs/directorymanager/11.1/admincenter/general/navigation.md)

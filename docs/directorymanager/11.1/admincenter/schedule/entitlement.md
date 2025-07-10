@@ -9,13 +9,13 @@ sidebar_position: 40
 An Entitlement schedule is automatically created for an identity store when:
 
 - A server is added for permission analysis on the Entitlement page in an Active Directory identity
-  store. See the [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/manage.md) for additional information on
+  store. See the [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md) for additional information on
   adding a server.
 
     Or
 
 - A SharePoint site is added for permission analysis on the Entitlement page in a Microsoft Entra ID
-  identity store. See the [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/manage_1.md) topic for
+  identity store. See the [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/managesp.md) topic for
   additional information on adding a SharePoint site.
 
 By default, the schedule runs weekly to compute permissions on shared files and folders residing on
@@ -39,12 +39,12 @@ The GroupID Entitlement schedule runs in the context of the following accounts:
 - For file servers, the schedule runs in the context of the service account defined for the identity
   store. In case you specify a different account for a file server, the schedule runs in the context
   of the changed account. See the
-  [Connect to a File Server Using a Different Account](/docs/directorymanager/11.1/admincenter/entitlement/manage.md#connect-to-a-file-server-using-a-different-account)
+  [Connect to a File Server Using a Different Account](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md#connect-to-a-file-server-using-a-different-account)
   topic.
 - For a SharePoint site, the schedule runs in the context of the account you specified to connect to
   the SharePoint admin site. In case you specify a different account for a site, the schedule runs
   in the context of the changed account. See the
-  [Connect to a Site Using a Different Account](/docs/directorymanager/11.1/admincenter/entitlement/manage_1.md#connect-to-a-site-using-a-different-account)
+  [Connect to a Site Using a Different Account](/docs/directorymanager/11.1/admincenter/entitlement/managesp.md#connect-to-a-site-using-a-different-account)
   topic.
 
 You cannot create or delete a GroupID Entitlement schedule; only edit the existing schedule.

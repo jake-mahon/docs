@@ -48,8 +48,3 @@ order; where ‘1’ denotes the most recent file.
 
 Under Windows logging, events for Directory Manager clients and services are logged to the Windows
 application log.
-
-**See Also**
-
-- [Directory Manage Applications](/docs/directorymanager/11.1/admincenter/applications/applications.md)
-- [Get Logs](/docs/directorymanager/11.1/admincenter/concepts/logs.md)

@@ -22,11 +22,6 @@ Examples of circular reference are:
 You can change the default setting to allow Directory Manager to save updates to objects even when a
 circular reference occurs.
 
-What do you want to do?
-
-- Allow Circular Reference
-- Skip the replication of members of a dynamic group in Entra ID 
-
 ## Allow Circular Reference
 
 1. In Admin Center, click **Identity Stores** in the left pane.

@@ -30,12 +30,6 @@ roles - where a different OU for the Group object is specified for each role - c
 any of the three OUs.  
 (2( The New Object policy does not apply to a Microsoft Entra ID identity store.
 
-What do you want to do?
-
-- Limit Object Creation to the OU the User Resides in
-- Restrict Role Members to Create Objects in Specific OUs
-- Remove an OU
-
 ## Limit Object Creation to the OU the User Resides in
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -111,8 +105,3 @@ the directory.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

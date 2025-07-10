@@ -40,12 +40,6 @@ The Search policy has the following impact on the Directory Manager portal:
 - It sets the search scope for the Find dialog box.
 - It sets the scope for quick search and advanced search.
 
-What do you want to do?
-
-- Set the Search Scope to a Specific Container
-- Set the Search Scope to all Containers in the Identity Store
-- Designate a Criterion for the Search Scope
-
 ## Set the Search Scope to a Specific Container
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -146,8 +140,3 @@ them.
 3. After defining a filter, click **OK**.
 4. On the **Edit Security Role** page, click **Update Security Role**.
 5. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

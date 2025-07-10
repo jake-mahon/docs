@@ -123,8 +123,3 @@ Here is how it works:
   This establishes a link between Entity1 and IdentityStoreC.
 
 In this way, you can create a chain of links between identity stores.
-
-**See Also**
-
-- [Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/overview.md)
-- [Manage Identity Store Links](/docs/directorymanager/11.1/admincenter/identitystore/link/manage.md)

@@ -51,7 +51,7 @@ What do you want to do?
 Directory Manager enables you to monitor the Elasticsearch service for the following:
 
 - The status of the Elasticsearch service. See the
-  [Elasticsearch Service](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md#elasticsearch-service) card on the Admin Center
+  [Elasticsearch Service](/docs/directorymanager/11.1/admincenter/general/dashboard.md#elasticsearch-service) card on the Admin Center
   dashboard.
 - Elasticsearch cluster health stats, which include:
 

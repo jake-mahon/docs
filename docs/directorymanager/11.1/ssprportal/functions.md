@@ -39,7 +39,7 @@ in.
 
 The Your Enrollments page opens, where you can enroll the identity store account you used to sign
 into the portal. Tabs on this page represent the different authentication types the administrator
-has enabled for enrollment. See the [Enroll your identity store account](/docs/directorymanager/11.1/admincenter/concepts/enroll.md)
+has enabled for enrollment. See the [Enroll your identity store account](/docs/directorymanager/11.1/admincenter/general/enroll.md)
 topic for enrollment details, starting at step 3.
 
 ## Unlock your Account

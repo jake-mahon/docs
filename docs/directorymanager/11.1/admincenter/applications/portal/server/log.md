@@ -11,7 +11,7 @@ the logging level for a deployment instance of a portal to track a specific set 
 it.
 
 To dump the log files to a desired location for easy access, see the
-[Get Logs](/docs/directorymanager/11.1/admincenter/concepts/logs.md) topic.
+[Get Logs](/docs/directorymanager/11.1/admincenter/general/logs.md) topic.
 
 ## File Logging
 

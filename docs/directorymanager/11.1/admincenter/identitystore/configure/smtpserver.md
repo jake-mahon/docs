@@ -146,7 +146,7 @@ the **Also Notify** area, select the required check boxes.
   from the membership of a group.
 - Public group owner for membership – To send email notifications to the primary and additional
   owners of a public group on membership change. See the
-  [Group Security Types](/docs/directorymanager/11.1/admincenter/concepts/concepts.md#group-security-types) topic.
+  [Group Security Types](/docs/directorymanager/11.1/admincenter/general/concepts.md#group-security-types) topic.
 
 Step 6 – Click **Save** on the **Notifications** page.
 
@@ -258,9 +258,3 @@ Step 4 – In the **Managed By Notifications** section, select your desired opti
   days before the Managed By Life Cycle schedule removes him or her as additional manager/owner.
 
 Step 5 – Click **Save** on the Notifications page.
-
-**See Also**
-
-- [Notifications](/docs/directorymanager/11.1/admincenter/notification/overview.md)
-- [Membership Life Cycle Schedule](/docs/directorymanager/11.1/admincenter/schedule/membershiplifecycle.md)
-- [Managed By Life Cycle Schedule](/docs/directorymanager/11.1/admincenter/schedule/managedbylifecycle.md)

@@ -9,10 +9,6 @@ sidebar_position: 30
 Helpdesk users can search for users in specific identity store(s) or all identity stores defined in
 Directory Manager. A search filter is also available to help you narrow down your search results.
 
-What do you want to do?
-
-- Perform a Search
-
 ## Perform a Search
 
 1. In Admin Center, click **Helpdesk** in the left pane.
@@ -57,8 +53,3 @@ Click the ellipsis button for a user to perform any of these actions:
 - Unlock account
 - Send enrollment reminder
 - Unenroll account
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.1/admincenter/helpdesk/operation/overview.md)

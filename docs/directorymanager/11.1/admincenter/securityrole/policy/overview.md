@@ -1,5 +1,5 @@
 ---
-title: "Security Role Policies"
+title: "Role Policies"
 description: "Security Role Policies"
 sidebar_position: 60
 ---

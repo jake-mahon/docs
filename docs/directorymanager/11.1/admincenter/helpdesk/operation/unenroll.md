@@ -13,10 +13,6 @@ For example, if a user's account is enrolled with the Security Questions, Email,
 authentication types, you can unenroll the account for YubiKey. As a result, the account continues
 to be enrolled with Security Questions and Email.
 
-What do you want to do?
-
-- Unenroll a User for an Authentication Type
-
 ## Unenroll a User for an Authentication Type
 
 1. In Admin Center, click **Helpdesk** in the left pane.
@@ -27,8 +23,3 @@ What do you want to do?
    enrolled with.
 4. Select the check boxes for the authentication type(s) you want to unenroll the user account with.
 5. Click **Unenroll** and then **Unenroll** on the confirmation dialog box.
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.1/admincenter/helpdesk/operation/overview.md)

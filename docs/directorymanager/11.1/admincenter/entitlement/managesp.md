@@ -19,17 +19,6 @@ on the sites and the document libraries in those sites using Directory Manager.
 The user can also manage certain settings for a site, such as change the service account for reading
 and managing permissions and exclude a document library in a site from entitlement management.
 
-What do you want to do?
-
-- Specify SharePoint Sites for Entitlement Management
-- Include Future Sites for Entitlement Management
-- View the Document Libraries in a Site
-- Exclude a Document Library from Replication
-- Connect to a Site Using a Different Account
-- Replicate Permissions Manually
-- Exclude a Site from Entitlement Management
-- Restore a Site for Entitlement Management
-
 ## Specify SharePoint Sites for Entitlement Management
 
 Provide the SharePoint admin URL and credentials to connect to SharePoint. Directory Manager fetches
@@ -65,7 +54,7 @@ Step 5 – Click **Save**.
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed
 for a file server in an Active Directory identity store. Refer to the
-[File Server Details ](/docs/directorymanager/11.1/admincenter/entitlement/manage.md#file-server-details) topic for more info. Though in this
+[File Server Details ](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md#file-server-details) topic for more info. Though in this
 case, the User namecolumn displays the username of the account used to connect to the site, and it
 is not blank.
 
@@ -73,7 +62,7 @@ is not blank.
 
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the
 listing. The filters are the same as displayed for a file server in an Active Directory identity
-store. Refer to the [Search File Servers ](/docs/directorymanager/11.1/admincenter/entitlement/manage.md#search-file-servers) topic for performing
+store. Refer to the [Search File Servers ](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md#search-file-servers) topic for performing
 a search.
 
 ## Include Future Sites for Entitlement Management
@@ -265,8 +254,3 @@ from replication.
 Click **Remove** for a site to move it to the **Included SharePoint Sites** area.
 
 Step 5 – Click **Save**.
-
-See Also
-
-- [Entitlement](/docs/directorymanager/11.1/admincenter/entitlement/overview.md)
-- [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/manage.md)

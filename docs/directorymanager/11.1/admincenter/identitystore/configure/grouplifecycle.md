@@ -32,16 +32,6 @@ NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID iden
 [Group Expiration Policy](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#group-expiration-policy) section in the
 [Microsoft Entra ID vs. Active Directory Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md) topic.
 
-What do you want to do?
-
-- Set a Default Expiry Policy for Groups
-- Apply Policy on Specific Containers
-- Exempt Security Groups from Expiry
-- Auto Delete Expired Groups
-- Enable Group Usage Lifecycle
-- Enable Group Attestation
-- Set Group Expiry Notifications
-
 ## Set a Default Expiry Policy for Groups
 
 The expiry policy specifies the period for which a group remains active. When the period ends, the
@@ -291,8 +281,3 @@ The Group Life Cycle schedule handles group expiry notifications as follows:
 - When the **1 day before group expiration** option is selected for sending notifications and the
   Group Life Cycle schedule evaluates the group for the first time a day before its expiration date,
   Directory Manager will extend the group’s expiration date by 7 days.
-
-**See Also**
-
-- [Schedules](/docs/directorymanager/11.1/admincenter/schedule/overview.md)
-- [ Group Expiry and Deletion](/docs/directorymanager/11.1/admincenter/identitystore/configure/groupexpirydeletion.md)

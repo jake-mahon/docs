@@ -15,12 +15,6 @@ Directory Manager users can have access to Directory Manager applications such a
 You can view a list of your applications and launch them from Admin Center without having to
 authenticate with a user name and password.
 
-What do you want to do?
-
-- Access an Application
-- Add a Third-party Application
-- Enroll your Account
-
 ## Access an Application
 
 1. In Admin Center, click your name in the top right corner and select **My Applications**.
@@ -47,4 +41,4 @@ To add a third-party application:
 1. In Admin Center, click your name in the top right corner and select **My Applications**.
 2. Click **Enroll your account** on the **GroupID Applications** page to enroll the identity store
    account with which you are signed into Admin Center. See the
-   [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/concepts/enroll.md) topic for enrollment details.
+   [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/general/enroll.md) topic for enrollment details.

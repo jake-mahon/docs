@@ -19,17 +19,9 @@ You can also specify the following settings for a user role in an identity store
 - The number of questions role members must use for enrollment and authentication
 - The minimum answer length
 
-What do you want to do?
-
-- Modify the Global Question Pool
-- Modify the Local Question Pool
-- Enable Security Question Authentication for an Identity Store
-- Enforce Security Question Authentication for a Role in an Identity Store
-- Specify Policies for Security Question Authentication
-
 ## Modify the Global Question Pool
 
-See the [Manage the Global Question Pool ](/docs/directorymanager/11.1/admincenter/concepts/globalpool.md)topic.
+See the [Manage the Global Question Pool ](/docs/directorymanager/11.1/admincenter/general/globalpool.md)topic.
 
 ## Modify the Local Question Pool
 

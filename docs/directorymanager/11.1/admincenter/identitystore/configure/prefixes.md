@@ -89,8 +89,3 @@ Delete a Prefix
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
 11. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

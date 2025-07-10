@@ -27,9 +27,9 @@ Follow the steps to create a static group.
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Static Group** option button and click
    **Next**.
-3. On the [General page](/docs/directorymanager/11.1/portal/group/create/group/general.md), specify basic information about the group.
-4. On the [Members page](/docs/directorymanager/11.1/portal/group/create/group/members.md), specify members for the group.
-5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional owners for the group.
+3. On the [General page](/docs/directorymanager/11.1/portal/group/create/AD/general.md), specify basic information about the group.
+4. On the [Members page](/docs/directorymanager/11.1/portal/group/create/AD/members.md), specify members for the group.
+5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the group.
 6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
    then click Finish to complete the wizard.
 
@@ -54,10 +54,10 @@ Follow the steps to create a Smart Group:
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Smart Group** option button and click
    **Next**.
-3. On the [General page](/docs/directorymanager/11.1/portal/group/create/group/general.md), specify basic information about the group.
-4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md), review and modify the query for updating group
+3. On the [General page](/docs/directorymanager/11.1/portal/group/create/AD/general.md), specify basic information about the group.
+4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md), review and modify the query for updating group
    membership.
-5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional owners for the group.
+5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the group.
 
     When a Smart Group Update job runs on a group, the notification behavior is as follows:  
      Even when the **Do not Notify** check box is selected, the additional owner will receive the
@@ -87,10 +87,10 @@ Follow the steps to create a Password Expiry Group:
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Password Expiry Group** option button and
    click **Next**.
-3. On the [General page](/docs/directorymanager/11.1/portal/group/create/group/general.md), specify basic information about the group.
-4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md), review and modify the query for updating group
+3. On the [General page](/docs/directorymanager/11.1/portal/group/create/AD/general.md), specify basic information about the group.
+4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md), review and modify the query for updating group
    membership.
-5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional owners for the group.
+5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the group.
 
     When a Smart Group Update job runs on a group, the notification behavior is as follows:  
      Even when the **Do not Notify** check box is selected, the additional owner will receive the

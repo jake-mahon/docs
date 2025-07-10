@@ -27,7 +27,7 @@ country, then for each state within a country, and finally for each city within 
 
 3. On the **Dynasty Options** tab, update the attributes in the **Attributes** area.
 
-    Refer to the [Dynasty Options page](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/dynastyoptionsorggeocus.md) for details.
+    Refer to the [Dynasty Options page](/docs/directorymanager/11.1/portal/group/dynasty/AD/dynastyoptionsorggeocus.md) for details.
 
 4. Click **Save**.
 
@@ -47,7 +47,7 @@ Follow the steps to manage structure of a Managerial Dynasty.
 
 3. On the **Dynasty Options** tab, modify the options related to the Dynasty structure.
 
-    Refer to the [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.1/portal/group/dynasty/createdynasty/dynastyoptionsmanagerial.md)
+    Refer to the [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.1/portal/group/dynasty/AD/dynastyoptionsmanagerial.md)
     for details.
 
 4. Click **Save**.

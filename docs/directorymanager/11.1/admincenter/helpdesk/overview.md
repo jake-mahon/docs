@@ -51,11 +51,11 @@ users' activities (such as enrollment, account unlock, and password reset) in an
 
 The dashboard displays the following helpdesk-specific cards:
 
-- [Enrollment Summary](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md#enrollment-summary): displays the number of enrolled
+- [Enrollment Summary](/docs/directorymanager/11.1/admincenter/general/dashboard.md#enrollment-summary): displays the number of enrolled
   users in an identity store.
-- [Auth Summary](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md#auth-summary): displays information about failed and
+- [Auth Summary](/docs/directorymanager/11.1/admincenter/general/dashboard.md#auth-summary): displays information about failed and
   successful authentication attempts for each authentication type.
-- [Activity Summary](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md#activity-summary): displays a summary of users'
+- [Activity Summary](/docs/directorymanager/11.1/admincenter/general/dashboard.md#activity-summary): displays a summary of users'
   activities related to password change, password reset, account unlock, and enrollment.
 
 ## Desktop Notifications

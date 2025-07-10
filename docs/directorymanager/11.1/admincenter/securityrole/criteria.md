@@ -89,9 +89,3 @@ you may want role members to access Portal A only.
     Click an operator to apply it. The tile changes to blue, indicating that it has been applied.
 
 7. Click **Save**.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/directorymanager/11.1/admincenter/securityrole/create.md)
-- [Manage Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/manage.md)

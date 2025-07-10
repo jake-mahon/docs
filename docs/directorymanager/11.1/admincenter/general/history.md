@@ -10,7 +10,7 @@ In Directory Manager, history is tracked for:
 
 - Admin Center - Actions performed in Admin Center, such as creating identity stores, SMS gateway
   accounts, changes to notification templates, and more. See the
-  [Admin Center History](/docs/directorymanager/11.1/admincenter/concepts/history_1.md) topic to view the history.
+  [Admin Center History](/docs/directorymanager/11.1/admincenter/general/historyadmincenter.md) topic to view the history.
 - Helpdesk - Helpdesk-specific actions, such as account unlock and enrollment. See the
   [History in Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/history.md) topic to view the history.
 - Identity store configurations - Changes made to identity store configurations, including changes

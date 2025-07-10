@@ -45,7 +45,7 @@ RECOMMENDED: History tracking can slow down system performance. For optimal perf
 recommended that you track only specific, more important actions and limit Directory Manager history
 data storage to the most recent records.
 
-See the [History in Directory Manager](/docs/directorymanager/11.1/admincenter/concepts/history.md) and
+See the [History in Directory Manager](/docs/directorymanager/11.1/admincenter/general/history.md) and
 [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md) topics for additional information.
 
 What do you want to do?

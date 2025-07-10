@@ -34,10 +34,3 @@ there.
 
 NOTE: You can define a custom identity store for non-supported identity providers in Directory
 Manager. Contact Netwrix Client Services for support.
-
-**See Also**
-
-- [Create an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/create.md)
-- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)
-- [Configure an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/configure/configure.md)
-- [Link Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/link/overview.md)

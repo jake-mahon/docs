@@ -9,16 +9,6 @@ sidebar_position: 20
 After creating a security role, you can manage various settings for it, such as tole criteria,
 permissions, and policies.
 
-What do you want to do?
-
-- View Security Roles
-- Enable or Disable a Role
-- Change Role Priority
-- Criteria 
-- Modify Role Permissions
-- Define Policies for a Role
-- Delete a Role
-
 ## View Security Roles
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -141,8 +131,3 @@ When you delete a security role, role members will not be able to access Directo
 4. On the **Security Roles** page, click the ellipsis button for a security role and select
    **Delete** to delete it.
 5. Click **Save**.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/directorymanager/11.1/admincenter/securityrole/create.md)

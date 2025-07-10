@@ -19,8 +19,8 @@ Using the portal, users can:
 - Unlock their identity store (directory) accounts
 - Link their accounts in different identity stores
 
-See the [Compatibility](/docs/directorymanager/11.1/introduction/gettingstarted.md#compatibility) and
-[Localization](/docs/directorymanager/11.1/introduction/gettingstarted.md#localization) topics for information on the devices, browsers,
+See the [Compatibility](/docs/directorymanager/11.1/gettingstarted.md#compatibility) and
+[Localization](/docs/directorymanager/11.1/gettingstarted.md#localization) topics for information on the devices, browsers,
 and languages that Directory Manager supports.
 
 ## Launch the Portal

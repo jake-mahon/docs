@@ -17,14 +17,6 @@ refreshes a page or previews any information.
 Furthermore, if history tracking is not enabled or has been lately disabled, the **Identity Store
 History** page is blank or it displays data that was logged before history-tracking was turned off.
 
-What do you want to do?
-
-- View Identity Store History
-- Filter History Data
-- Navigate Through History Items
-- Annotate History Items
-- Export History Data
-
 ## View Identity Store History
 
 Changes made to identity store configurations, security roles, and workflows can be tracked and
@@ -159,9 +151,3 @@ You can export identity store history to Microsoft Excel, CSV, and XML formats.
 7. Click **Export History**. The file is saved at the download location specified in browser
    settings.
 8. A message is displayed that history data is successfully exported. Click **OK**.
-
-**See Also**
-
-- [Configure History Tracking](/docs/directorymanager/11.1/admincenter/identitystore/configure/historytracking.md)
-- [History in Directory Manager](/docs/directorymanager/11.1/admincenter/concepts/history.md)
-- [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md)

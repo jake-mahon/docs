@@ -12,7 +12,7 @@ role assignments and application permissions on the registered app in Microsoft 
 This topic lists those roles and permissions Directory Manager needs to perform operations in a
 Microsoft Entra ID provider.
 
-See the [ Licensing ](/docs/directorymanager/11.1/admincenter/concepts/licensing.md) topic for additional information on
+See the [ Licensing ](/docs/directorymanager/11.1/admincenter/general/licensing.md) topic for additional information on
 Directory Manager licensing.
 
 ## Graph API Application Permissions

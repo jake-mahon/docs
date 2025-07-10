@@ -179,4 +179,4 @@ Consider the following:
 
 **See Also**
 
-- [Navigation](/docs/directorymanager/11.1/admincenter/concepts/navigation.md)
+- [Navigation](/docs/directorymanager/11.1/admincenter/general/navigation.md)

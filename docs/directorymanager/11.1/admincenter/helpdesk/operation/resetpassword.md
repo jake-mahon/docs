@@ -15,11 +15,6 @@ been granted to your role and (b) the Helpdesk policy for your role is set to th
 Helpdesk users may have to authenticate end users before resetting their passwords. See the
 [Helpdesk Policy ](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
-What do you want to do?
-
-- Reset Passwords in Unrestricted Mode
-- Reset Passwords in Restricted Mode
-
 ## Reset Passwords in Unrestricted Mode
 
 1. In Admin Center, click **Helpdesk** in the left pane.
@@ -118,8 +113,3 @@ See the [Helpdesk Policy](/docs/directorymanager/11.1/admincenter/securityrole/p
 5. Click **Next**.
 6. On the **Reset** page, you can reset the password. Follow step 4 and onwards in the Reset
    Passwords in Unrestricted Mode topic for details.
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.1/admincenter/helpdesk/operation/overview.md)

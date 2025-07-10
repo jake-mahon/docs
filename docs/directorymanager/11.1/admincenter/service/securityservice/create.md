@@ -128,7 +128,7 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
 1. In Admin Center, select **Applications** in the left pane.
 2. On the **Security Service** tab, click **Launch Application** for a service. The **GroupID
    Applications** page is displayed. Options on this page are discussed in the
-   [Access your Applications](/docs/directorymanager/11.1/admincenter/concepts/accessapplications.md) topic. Any actions you perform
+   [Access your Applications](/docs/directorymanager/11.1/admincenter/general/accessapplications.md) topic. Any actions you perform
    will be carried out through the respective Security service.
 
 **See Also**

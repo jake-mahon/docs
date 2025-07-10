@@ -11,14 +11,6 @@ way, identical user and group objects existing in multiple identity stores (doma
 together and auto synced. Directory Manager further enables you to manage these linked identity
 stores.
 
-What do you want to do?
-
-- Link Two Identity Stores
-- View the Identity Store Links
-- Edit a Link
-- Disable or Enable a Link
-- Delete a Link
-
 ## Link Two Identity Stores
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -228,7 +220,3 @@ linked anymore in the Directory Manager portal.
    On the **Identity Stores** page, each card under **Identity Store Links** represents a distinct
    link between two identity stores.
 2. Click the ellipsis button on a card and select **Delete** to delete the link.
-
-**See Also**
-
-- [Link Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/link/overview.md)

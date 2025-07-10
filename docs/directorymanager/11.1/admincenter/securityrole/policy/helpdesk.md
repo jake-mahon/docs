@@ -32,17 +32,6 @@ The Helpdesk policy defines:
   performing the account unlock, account unenroll, and password reset functions.
 - The password reset options available to helpdesk role members.
 
-What do you want to do?
-
-- Set Restricted Mode
-    - Limit Helpdesk to Manage Users in a Specific OU
-    - Enforce Helpdesk to Authenticate Users
-    - Enforce Helpdesk to Use Security Questions for Authentication
-- Set Unrestricted Mode
-- Specify Password Reset Options
-    - Specify a Password Reset Method
-    - Force Users to Change Password on Next Logon
-
 ## Set Restricted Mode
 
 You can apply all or any of the following restrictions to a helpdesk role under the restricted mode:

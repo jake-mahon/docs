@@ -35,15 +35,6 @@ change this criterion as required.
 If you already have restricted some schema attributes for the Query Designer pages in portal, those
 settings will be override by the schema attribute settings specified here.
 
-What do you want to do?
-
-- Apply the Policy to Groups
-- Limit the Search Scope of the Query to Specific Containers
-- Limit the Objects for Use in a Query
-- Hide the Tabs on the Query Designer
-- Restrict the Attributes and Operators for Building a Query
-- Specify a Default Filter Criteria
-
 ## Apply the Policy to Groups
 
 You can specify whether the defined role-based access policy for the Query Designer is to be applied
@@ -314,8 +305,3 @@ attributes and operators are available to create a default filter criteria.
 9. Click **OK** on the **Query Designer** tab.
 10. On the **Edit Security Role** page, click **Update Security Role**.
 11. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

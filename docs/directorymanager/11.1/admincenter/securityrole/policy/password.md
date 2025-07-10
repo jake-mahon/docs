@@ -1,10 +1,10 @@
 ---
-title: "Directory Manage Password Policy"
+title: "Password Policy"
 description: "Directory Manage Password Policy"
 sidebar_position: 60
 ---
 
-# Directory Manage Password Policy
+# Password Policy
 
 Using Directory Manager, you can implement a Password policy (a) for an identity store, (b) for
 security roles in an identity store, or (c) both at the identity store and role levels.
@@ -17,13 +17,6 @@ security roles in an identity store, or (c) both at the identity store and role 
 
 The Password policy also enables you to manage settings related to security questions and account
 lockout for security roles in an identity store.
-
-What do you want to do?
-
-- Set Password Restrictions and Rules for an Identity Store
-- Define Security Question Settings for a Security Role
-- Specify an Authentication Lockout Policy for a Security Role
-- Specify Password Validation Checks for a Security Role
 
 ## Set Password Restrictions and Rules for an Identity Store
 
@@ -137,8 +130,3 @@ properties in the Directory Manager portal.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Configure Access Control** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

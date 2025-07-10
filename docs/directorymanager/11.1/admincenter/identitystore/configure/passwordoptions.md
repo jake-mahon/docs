@@ -24,12 +24,6 @@ In addition to these password restrictions, you can define a password policy for
 an identity store. See the
 [Directory Manage Password Policy ](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md) topic.
 
-What do you want to do?
-
-- Define Restricted Passwords
-- Specify Regular Expressions for Allowed Passwords
-- Specify Disallowed Passwords Using an External File
-
 ## Define Restricted Passwords
 
 You can specify certain strings of text that users cannot use as passwords or part of passwords. You
@@ -117,7 +111,3 @@ restricted passwords to a .csv or .txt file and upload it to Directory Manager.
 
 NOTE: Only a single file containing disallowed passwords can be imported for an identity store;
 importing another file will replace the existing one.
-
-**See Also**
-
-- [Directory Manage Password Policy ](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md)

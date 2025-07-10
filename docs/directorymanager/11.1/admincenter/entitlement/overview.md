@@ -33,7 +33,7 @@ the following:
   file server(s), and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/manage.md) topic for additional information.
+See the [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md) topic for additional information.
 
 ## Entitlement for SharePoint
 
@@ -59,7 +59,7 @@ do the following:
   and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/manage_1.md) topic for additional information.
+See the [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/managesp.md) topic for additional information.
 
 ## Perpetual Entitlements vs Temporary Entitlements
 

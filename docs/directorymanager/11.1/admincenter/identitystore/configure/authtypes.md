@@ -49,10 +49,3 @@ Moreover, you must also enable enrollment for an identity store, so users can en
 NOTE: For second factor authentication and multifactor authentication to work in Directory Manager,
 the **Enrollment Enabled** check box must be selected. Else, users will not be able to enroll, which
 will prevent them from using Directory Manager.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Configure Second Factor Authentication](/docs/directorymanager/11.1/admincenter/authpolicy/sfa.md)
-- [Configure Multifactor Authentication](/docs/directorymanager/11.1/admincenter/authpolicy/mfa.md)
-- [Set Up Authentication Types](/docs/directorymanager/11.1/admincenter/authpolicy/setupauth/overview.md)

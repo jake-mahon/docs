@@ -27,12 +27,12 @@ Follow the steps to create a static group.
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Static Group** option button and click
    **Next**.
-3. On the [General page](/docs/directorymanager/11.1/portal/group/create/group/general_1.md), specify basic information about the group.
-4. On the [Members page](/docs/directorymanager/11.1/portal/group/create/group/members.md), add objects to group membership.
+3. On the [General page](/docs/directorymanager/11.1/portal/group/create/EntraID/general.md), specify basic information about the group.
+4. On the [Members page](/docs/directorymanager/11.1/portal/group/create/AD/members.md), add objects to group membership.
 
     Only user objects can be added as members of an Office 365 group.
 
-5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional owners for the
+5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the
    group.
 
     Only users can be set as primary owners. You can specify multiple primary owners for a group. At
@@ -55,15 +55,15 @@ Follow the steps to create a Smart Group.
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md) page, select the **Smart Group** option button and
    click **Next**.
-3. On the [General page](/docs/directorymanager/11.1/portal/group/create/group/general_1.md) page, specify basic information about the group.
-4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md) page, review and modify the query
+3. On the [General page](/docs/directorymanager/11.1/portal/group/create/AD/general.md) page, specify basic information about the group.
+4. On the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md) page, review and modify the query
    for updating group membership.
 
     Smart Groups in an Microsoft Entra ID based identity store use a device structured query
     language to update group membership. You should either apply a query to a group in the Microsoft
     Entra ID portal or in Directory Manager.
 
-5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional owners for the
+5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the
    group.
 
     - Only users can be set as primary owners.

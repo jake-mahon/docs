@@ -122,9 +122,3 @@ type(s) they want to use for authentication.
    by the end user)** box. This number must be equal or less than the enabled SWA authentication
    types. Users must use these x number of types for second way authentication.
 5. Click **Save**.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md)
-- [SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/overview.md)

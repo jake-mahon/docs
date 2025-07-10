@@ -25,12 +25,12 @@ Step 4 – On the [Group Type page](/docs/directorymanager/11.1/portal/group/cre
 Step 5 – On the General page, specify basic information about the group.
 
 Step 6 – If you select Static Group, specify members for the group on the
-[Members page](/docs/directorymanager/11.1/portal/group/create/group/members.md).
+[Members page](/docs/directorymanager/11.1/portal/group/create/AD/members.md).
 
 Step 7 – If you select Smart Group or a Dynasty, review and modify the query for updating group
-membership on the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/group/smartgroup.md).
+membership on the [ Smart Group page](/docs/directorymanager/11.1/portal/group/create/AD/smartgroup.md).
 
-Step 8 – On the [Owners page](/docs/directorymanager/11.1/portal/group/create/group/owners.md), specify primary and additional
+Step 8 – On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
 owners for the group.
 
 Step 9 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings

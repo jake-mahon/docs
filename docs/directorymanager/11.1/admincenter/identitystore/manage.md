@@ -223,9 +223,3 @@ first delete the link(s) before deleting the identity store.
 1. In Admin Center, click **Identity Stores** in the left pane.
 2. On the **Identity Stores** page, click the ellipsis button for an identity store and select
    **Delete**.
-
-**See Also**
-
-- [Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/overview.md)
-- [Configure an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/configure/configure.md)
-- [Replication Service](/docs/directorymanager/11.1/admincenter/service/replicationservice.md)

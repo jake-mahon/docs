@@ -83,12 +83,12 @@ for your role in the selected identity store, one of the following applies:
 
 - If you have not enrolled your identity store account in Directory Manager, the Enroll Account
   window is displayed, where you must enroll your identity store account using at least one
-  authentication type. See the [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/concepts/enroll.md) topic
+  authentication type. See the [Enroll your Identity Store Account](/docs/directorymanager/11.1/admincenter/general/enroll.md) topic
   for additional information.
 - If you have already enrolled your identity store account in Directory Manager, the Authenticate
   window is displayed. It lists the authentication types that you enrolled your account with. You
   must authenticate your identity store account with one authentication type. See the
-  [Authenticate your Identity Store Account](/docs/directorymanager/11.1/admincenter/concepts/authenticate.md) topic for additional
+  [Authenticate your Identity Store Account](/docs/directorymanager/11.1/admincenter/general/authenticate.md) topic for additional
   information.
 
 ## Sign Out

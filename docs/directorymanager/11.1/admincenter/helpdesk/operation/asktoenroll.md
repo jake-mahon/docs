@@ -15,10 +15,6 @@ accounts in Directory Manager. Notifications can be sent to:
 
 Users must have an email address to receive notifications.
 
-What do you want to do?
-
-- Send Enrollment Notifications
-
 ## Send Enrollment Notifications
 
 1. In Admin Center, click **Helpdesk** in the left pane.  
@@ -47,8 +43,3 @@ What do you want to do?
     4. The **Message** box displays the default message text. You can choose to use it or replace it
        with your own text.
     5. Click **Notify**.
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.1/admincenter/helpdesk/operation/overview.md)

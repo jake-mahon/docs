@@ -10,7 +10,7 @@ You can specify advanced settings for workflow, such as set a default approver f
 and define approver acceleration settings.
 
 NOTE: Functions discussed in this topic are licensed under different add-ons. See the
-[ Licensing ](/docs/directorymanager/11.1/admincenter/concepts/licensing.md) topic.
+[ Licensing ](/docs/directorymanager/11.1/admincenter/general/licensing.md) topic.
 
 ## Specify a Default Approver
 

@@ -95,7 +95,3 @@ assigned to objects on shared resources. See the [Entitlement](/docs/directoryma
 Define schedules to auto execute different Directory Manager functions, such as group expiry and
 deletion, Smart Group membership update, temporary additional manager assignment to users, and more.
 See the [Schedules](/docs/directorymanager/11.1/admincenter/schedule/overview.md) topic.
-
-**See Also**
-
-- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)

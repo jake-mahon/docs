@@ -113,8 +113,3 @@ owner, the default approver. The job does not delete a group that neither has an
 approver. See the
 [Specify a Default Approver](/docs/directorymanager/11.1/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
 topic.
-
-**See Also**
-
-- [Manage Group Lifecycle Settings](/docs/directorymanager/11.1/admincenter/identitystore/configure/grouplifecycle.md)
-- [Group Life Cycle Schedule](/docs/directorymanager/11.1/admincenter/schedule/grouplifecycle.md)[Specify a Default Approver](/docs/directorymanager/11.1/admincenter/workflow/advancedsettings.md#specify-a-default-approver)

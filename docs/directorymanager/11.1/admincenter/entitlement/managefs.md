@@ -14,18 +14,6 @@ these file servers.
 You can also manage certain settings for a server, such as change the service account for reading
 and managing entitlements and exclude a shared folder on a file server from replication.
 
-What do you want to do?
-
-- Specify File Servers for Entitlement Management
-- Specify File Servers Outside the Criteria
-- Include Future Servers for Entitlement Management
-- View the Shared Folders on a File Server
-- Exclude a Folder on a Server from Replication
-- Connect to a File Server Using a Different Account
-- Replicate Permissions Manually
-- Exclude a Server From Entitlement Management
-- Restore a Server for Entitlement Management
-
 ## Specify File Servers for Entitlement Management
 
 To select file servers for entitlement management, you have to specify an OU or group as criterion.
@@ -314,8 +302,3 @@ You can restore an excluded server in the identity store for replication and ent
    excluded from replication. Click **Remove** for a server to move it to the **Included File
    Servers** area.
 5. Click **Save**.
-
-See Also
-
-- [Entitlement](/docs/directorymanager/11.1/admincenter/entitlement/overview.md)
-- [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/manage_1.md)

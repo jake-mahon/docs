@@ -10,10 +10,6 @@ Directory Manager generates logs for its services, clients, and Windows events, 
 different locations on the network. Rather than locating these log files in their respective
 folders, you can collect and dump your required logs to a desired location.
 
-What do you want to do?
-
-- Get Log Files
-
 ## Get Log Files
 
 1. In Admin Center, click **Settings** at the bottom of the left navigation pane.

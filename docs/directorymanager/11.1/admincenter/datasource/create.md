@@ -12,16 +12,6 @@ you must create data sources for those providers.
 Data sources are primarily used in Synchronize jobs, but you can also use them in queries to search
 for directory objects and in queries for group membership update.
 
-What do you want to do?
-
-- Create a Data Source for MS Excel
-- Create a Data Source for MS Access
-- Create a Data Source for Oracle
-- Create a Data Source for SQL Server
-- Create a Data Source for a Text/CSV File
-- Create a Data Source for ODBC
-- Create a Data Source for SCIM
-
 ## Create a Data Source for MS Excel
 
 Create a data source for an Excel file to establish a connection before using it as a source or

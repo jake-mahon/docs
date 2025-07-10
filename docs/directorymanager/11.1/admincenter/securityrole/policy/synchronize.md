@@ -36,13 +36,6 @@ These granular controls enable you to drill down from the provider to the attrib
 - Further down, you can disallow certain attributes for an object type in a specific identity store
   or data source built on a provider.
 
-What do you want to do?
-
-- Prevent Role Members from Using a Provider as Source or Destination
-- Prevent Role Members from Using an Identity Store or Data Source as Source or Destination
-- Prevent Role Members from Manipulating Specific Object Type(s)
-- Prevent Role Members from Using Specific Attributes for Mapping
-
 ## Prevent Role Members from Using a Provider as Source or Destination
 
 When creating or modifying a Synchronize job, users can specify any identity store or data source in
@@ -236,8 +229,3 @@ attributes:
 11. Click **OK**.
 12. On the **Edit Security Role** page, click **Update Security Role**.
 13. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

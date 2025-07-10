@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Navigation
 
-On signing into Admin Center, you land on the [Dashboard](/docs/directorymanager/11.1/admincenter/concepts/dashboard.md).
+On signing into Admin Center, you land on the [Dashboard](/docs/directorymanager/11.1/admincenter/general/dashboard.md).
 
 The following options help you to navigate the application:
 
@@ -70,6 +70,6 @@ The menu pane in the left enables you to navigate to different functions in Admi
 
 **See Also**
 
-- [Change your Password](/docs/directorymanager/11.1/admincenter/concepts/changepassword.md)
-- [Switch Accounts](/docs/directorymanager/11.1/admincenter/concepts/switchaccount.md)
-- [Access your Applications](/docs/directorymanager/11.1/admincenter/concepts/accessapplications.md)
+- [Change your Password](/docs/directorymanager/11.1/admincenter/general/changepassword.md)
+- [Switch Accounts](/docs/directorymanager/11.1/admincenter/general/switchaccount.md)
+- [Access your Applications](/docs/directorymanager/11.1/admincenter/general/accessapplications.md)

@@ -24,7 +24,7 @@ database to the following .csv files:
   authentication action. See the [History in Helpdesk](/docs/directorymanager/11.1/admincenter/helpdesk/history.md) topic for additional
   information.
 - AdminCenterHistory – Contains Admin Center history data. See the
-  [Admin Center History](/docs/directorymanager/11.1/admincenter/concepts/history_1.md) topic for additional information.
+  [Admin Center History](/docs/directorymanager/11.1/admincenter/general/historyadmincenter.md) topic for additional information.
 
 These files are available at the following location on the Directory Manager server:
 

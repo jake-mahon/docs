@@ -23,11 +23,6 @@ NOTE: You can disable a role to prevent its members from accessing Directory Man
 individual role member from accessing Directory Manager, you must remove him or her from the group
 or container specified as role criteria.
 
-What do you want to do?
-
-- Create a Security Role from Scratch
-- Create a Role by Copying an Existing Role
-
 ## Create a Security Role from Scratch
 
 Follow the steps to create a security role

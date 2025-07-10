@@ -36,14 +36,6 @@ When you create a mail-enabled group using Directory Manager, it will be created
 first. Messaging provider-related configurations will go to ExchB. In case of failure, the system
 will reiterate the same action on ExchA.
 
-What do you want to do?
-
-- Set Microsoft Exchange as Messaging Provider
-- Set Office 365 as Messaging Provider
-- Set Google Workspace as Messaging Provider
-- Set an External Provider to Create Email Addresses
-- Do Not Set a Messaging Provider
-
 ## Set Microsoft Exchange as Messaging Provider
 
 Follow the steps to set Microsoft Exchange as a messaging provider.
@@ -202,7 +194,3 @@ from creating mail-enabled objects in the identity store, select _None_ in the M
 drop-down list.
 
 Step 5 – Click **Save**.
-
-**See Also**
-
-- [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md)

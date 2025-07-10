@@ -1,5 +1,5 @@
 ---
-title: "Helpdesk Operations"
+title: "Operations"
 description: "Helpdesk Operations"
 sidebar_position: 10
 ---

@@ -12,7 +12,7 @@ their respective parent Dynasties.
 
 A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has
 its own mechanism of dividing the query results into child groups. To learn more about Dynasties,
-see the [Dynasties](/docs/directorymanager/11.1/admincenter/concepts/concepts.md#dynasties) topic.
+see the [Dynasties](/docs/directorymanager/11.1/admincenter/general/concepts.md#dynasties) topic.
 
 You can control how Directory Manager processes Dynasties through the following settings:
 

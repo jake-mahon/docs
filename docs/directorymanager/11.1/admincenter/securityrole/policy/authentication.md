@@ -17,11 +17,6 @@ Having enabled and configured authentication types for an identity store, you ca
 NOTE: For MFA and SFA to work for an identity store, make sure you enable enrollment for it. See the
 [Enable Enrollment](/docs/directorymanager/11.1/admincenter/identitystore/configure/authtypes.md#enable-enrollment) topic.
 
-What do you want to do?
-
-- Enforce Authentication Types for Multifactor Authentication
-- Enable Second Factor Authentication
-
 ## Enforce Authentication Types for Multifactor Authentication
 
 Before enforcing an authentication type for a security role, make sure it is enabled and configured
@@ -84,8 +79,3 @@ Manager portal.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Security Role Policies](/docs/directorymanager/11.1/admincenter/securityrole/policy/overview.md)

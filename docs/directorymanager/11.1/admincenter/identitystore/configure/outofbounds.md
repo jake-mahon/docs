@@ -20,12 +20,6 @@ following group membership setting for an identity store:
   smaller, nested groups.
 - Define a criterion for out-of-bounds exceptions to raise alerts for group owners.
 
-What do you want to do?
-
-- Set the Maximum Number of Group Members
-- Manage Orphan Nested Groups
-- Set a Group Update Threshold
-
 ## Set the Maximum Number of Group Members
 
 You can set the maximum membership limit for groups and set Directory Manager to do one of the
@@ -160,8 +154,3 @@ Smart Group Update schedule responsible for updating the respective group.
           membership.
 
 6. Click **Save**.
-
-**See Also**
-
-- [Manage Dynasty Settings](/docs/directorymanager/11.1/admincenter/identitystore/configure/dynastysettings.md)
-- [Smart Group Update Schedule](/docs/directorymanager/11.1/admincenter/schedule/smartgroupupdate.md)
