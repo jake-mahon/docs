@@ -1,7 +1,3 @@
 {
-  "git.ignoreLimitWarning": true,
-  "markdown.validate.ignoredLinks": [
-    " /img/**",
-    "/img/product_docs/threatmanager/3.0/install/install.webp"
-  ]
+  "git.ignoreLimitWarning": true
 }
