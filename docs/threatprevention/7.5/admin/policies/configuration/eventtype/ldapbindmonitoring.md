@@ -20,7 +20,7 @@ The event filters for the LDAP Bind Monitoring event type are:
 - IP Addresses (from)
 - Hosts (from)
 
-![Policy window - LDAP Bind Monitoring Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/ldapbindmonitor.webp)
+![Policy window - LDAP Bind Monitoring Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/ldapbind.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.

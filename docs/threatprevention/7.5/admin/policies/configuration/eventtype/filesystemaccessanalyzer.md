@@ -40,7 +40,7 @@ type is used by the same policy.
 Use the File System Enterprise Auditor filter to set the scope of the policy to only monitor
 specific file system paths or to exclude specific file system paths from being monitored.
 
-![Policy window - File System Enterprise Auditor filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer.webp)
+![Policy window - File System Enterprise Auditor filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemaccessanalyzer_1.webp)
 
 The Include Paths section defines the top level folder or individual files for monitoring. Use the
 Exclude Paths section to refine and remove any child items from being monitored. Any files or

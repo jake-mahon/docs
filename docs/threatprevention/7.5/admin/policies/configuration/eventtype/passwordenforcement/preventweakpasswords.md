@@ -47,8 +47,6 @@ environment.
 - On the Event Type tab, click the **Add** (+) button and select Password Enforcement on the
   [Event Selection Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/overview.md#event-selection-window).
 
-![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/passwordrulesblock.webp)
-
 **Step 3 –** Configure the event filters.
 
 - Password Rules tab:

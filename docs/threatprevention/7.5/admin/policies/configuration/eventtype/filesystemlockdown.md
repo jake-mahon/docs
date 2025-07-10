@@ -17,6 +17,8 @@ The event filters for the File System Lockdown event type are:
 - AD Perpetrator
 - Rule Preview
 
+![Policy window - File System Lockdown Event Type](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemlockdown_1.webp)
+
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
