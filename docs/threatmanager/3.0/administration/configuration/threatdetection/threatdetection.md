@@ -25,10 +25,10 @@ disabled.
 
 The Threats list divides the threats into sections:
 
-- [Active Directory Threats](/docs/threatmanager/3.0/documentation/threats/activedirectory.md)
-- [Entra ID Threats](/docs/threatmanager/3.0/documentation/threats/entraid.md)
-- [File System Threats](/docs/threatmanager/3.0/documentation/threats/filesystem.md)
-- [General Threats](/docs/threatmanager/3.0/documentation/threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/3.0/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/3.0/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/3.0/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/3.0/threats/general.md)
 - Threat Detection Page
 
 Select a threat from the list to display the threat's configuration options to the right of the

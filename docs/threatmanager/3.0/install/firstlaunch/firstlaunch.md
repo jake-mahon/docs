@@ -38,7 +38,7 @@ password will be required to sign in.
 The built-in ADMIN account password is now set.
 
 If the Enable MFA option is set to OFF, no additional configuration is required and the Threat
-Manager Console opens. See the [Getting Started with Threat Manager](/docs/threatmanager/3.0/documentation/gettingstarted.md) topic for
+Manager Console opens. See the [Getting Started with Threat Manager](/docs/threatmanager/3.0/gettingstarted.md) topic for
 next steps.
 
 If the Enable MFA option is set to ON, registration of an MFA authenticator is required. Proceed to
@@ -64,4 +64,4 @@ of codes to access for account recovery, if needed.
 **Step 4 –** Click **Continue**.
 
 Once MFA is configured for this account, the Threat Manager Console opens. See the
-[Getting Started with Threat Manager](/docs/threatmanager/3.0/documentation/gettingstarted.md) topic for next steps.
+[Getting Started with Threat Manager](/docs/threatmanager/3.0/gettingstarted.md) topic for next steps.
