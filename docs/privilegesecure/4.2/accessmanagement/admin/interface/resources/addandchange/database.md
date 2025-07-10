@@ -38,7 +38,7 @@ include:
 **Step 9 –** From the drop-down menu, select a previously added service account with credentials for
 the database.
 
-- See the [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+- See the [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 
     - Visit icon – Go to the Service Account page to view details of the selected service account.

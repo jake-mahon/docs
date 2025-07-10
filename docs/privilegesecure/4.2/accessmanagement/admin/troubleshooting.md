@@ -147,7 +147,7 @@ Follow the steps below to obtain a certificate thumbprint.
 **Step 6 –** Navigate to **Configuration** > **System Settings** > **Global Settings**.
 
 **Step 7 –** Paste the thumbprint in the Certificate Thumbprint field of the Netwrix Privilege
-Secure console. See the [Global Settings Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/systemsettingspages/globalsettings.md) topic for
+Secure console. See the [Global Settings Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/systemsettingspages/globalsettings.md) topic for
 additional information.
 
 **Step 8 –** Click **Save**.

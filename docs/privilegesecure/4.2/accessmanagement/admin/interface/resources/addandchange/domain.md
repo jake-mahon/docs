@@ -19,7 +19,7 @@ Follow the steps to add a domain to the console.
 - Domain Name – Displays the fully qualified domain name (FQDN)
 - Service account – From the drop-down menu, select a previously added service account with
   credentials for the domain. See the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 
     - Add New Service Account – Open the Add New Service Account window. The fields are identical to

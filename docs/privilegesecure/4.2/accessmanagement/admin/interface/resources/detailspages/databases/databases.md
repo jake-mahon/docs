@@ -25,7 +25,7 @@ The Database Details page shows the following information:
     **NOTE:** The domain is used as the default domain for database activities.
 
 - Service Account — Displays the service account associated with the resource. See the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 - Scan Now button — Scans the domain for users, groups, members, and computers. The Cancel button,
   which is only visible when scanning can be used to stop the resource scan. This scan can also be

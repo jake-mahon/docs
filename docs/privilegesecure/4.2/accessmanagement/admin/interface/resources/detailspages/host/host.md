@@ -31,7 +31,7 @@ The details page displays the following information:
 - Platform — Displays the type of platform, which defines the resource
 - Service Account — Displays the service account associated with the resource
 - Blue arrow button — Opens the Service Account details page. See the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 - Green plus button — Opens the Add New Service Account window. See the
   [Add New Service Account Window](/docs/privilegesecure/4.2/accessmanagement/admin/interface/resources/addandchange/addnewserviceaccount.md) topic for

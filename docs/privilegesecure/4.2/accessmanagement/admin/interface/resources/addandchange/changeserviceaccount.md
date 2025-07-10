@@ -20,7 +20,7 @@ Follow the steps to change the service account for a host resource.
 credentials for the resource.
 
 - To add a service account, see the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 
 **Step 5 –** When a service account is entered, the Okay button is enabled. Click **Okay** to use
