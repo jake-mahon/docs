@@ -1,5 +1,5 @@
 ---
-title: "FSMO Role Monitoring Event Type"
+title: "FSMO Role Monitoring"
 description: "FSMO Role Monitoring Event Type"
 sidebar_position: 130
 ---

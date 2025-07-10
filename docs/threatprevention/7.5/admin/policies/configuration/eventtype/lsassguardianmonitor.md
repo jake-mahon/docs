@@ -1,5 +1,5 @@
 ---
-title: "LSASS Guardian – Monitor Event Type"
+title: "LSASS Guardian – Monitor"
 description: "LSASS Guardian – Monitor Event Type"
 sidebar_position: 190
 ---

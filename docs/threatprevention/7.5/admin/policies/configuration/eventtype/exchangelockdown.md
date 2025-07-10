@@ -1,5 +1,5 @@
 ---
-title: "Exchange Lockdown Event Type"
+title: "Exchange Lockdown"
 description: "Exchange Lockdown Event Type"
 sidebar_position: 100
 ---

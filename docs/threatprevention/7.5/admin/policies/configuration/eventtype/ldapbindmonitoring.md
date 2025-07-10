@@ -1,5 +1,5 @@
 ---
-title: "LDAP Bind Monitoring Event Type"
+title: "LDAP Bind Monitoring"
 description: "LDAP Bind Monitoring Event Type"
 sidebar_position: 180
 ---

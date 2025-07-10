@@ -1,5 +1,5 @@
 ---
-title: "AD Replication Lockdown Event Type"
+title: "AD Replication Lockdown"
 description: "AD Replication Lockdown Event Type"
 sidebar_position: 50
 ---

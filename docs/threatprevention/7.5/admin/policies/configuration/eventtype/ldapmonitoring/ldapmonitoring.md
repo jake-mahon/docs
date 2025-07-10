@@ -1,5 +1,5 @@
 ---
-title: "LDAP Monitoring Event Type"
+title: "LDAP Monitoring"
 description: "LDAP Monitoring Event Type"
 sidebar_position: 160
 ---

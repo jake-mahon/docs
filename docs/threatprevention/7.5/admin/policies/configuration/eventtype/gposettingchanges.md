@@ -1,5 +1,5 @@
 ---
-title: "GPO Setting Changes Event Type"
+title: "GPO Setting Changes"
 description: "GPO Setting Changes Event Type"
 sidebar_position: 140
 ---

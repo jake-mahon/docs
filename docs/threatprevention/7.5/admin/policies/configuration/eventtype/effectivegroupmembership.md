@@ -1,5 +1,5 @@
 ---
-title: "Effective Group Membership Event Type"
+title: "Effective Group Membership"
 description: "Effective Group Membership Event Type"
 sidebar_position: 80
 ---

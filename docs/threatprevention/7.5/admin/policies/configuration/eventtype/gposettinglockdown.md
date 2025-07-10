@@ -1,5 +1,5 @@
 ---
-title: "GPO Setting Lockdown Event Type"
+title: "GPO Setting Lockdown"
 description: "GPO Setting Lockdown Event Type"
 sidebar_position: 150
 ---

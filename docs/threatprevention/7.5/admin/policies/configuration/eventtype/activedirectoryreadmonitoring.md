@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Read Monitoring Event Type"
+title: "Active Directory Read Monitoring"
 description: "Active Directory Read Monitoring Event Type"
 sidebar_position: 30
 ---

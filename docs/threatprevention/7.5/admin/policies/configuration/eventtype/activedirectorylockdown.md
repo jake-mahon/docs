@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Lockdown Event Type"
+title: "Active Directory Lockdown"
 description: "Active Directory Lockdown Event Type"
 sidebar_position: 20
 ---

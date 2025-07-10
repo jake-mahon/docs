@@ -1,5 +1,5 @@
 ---
-title: "File System Lockdown Event Type"
+title: "File System Lockdown"
 description: "File System Lockdown Event Type"
 sidebar_position: 120
 ---

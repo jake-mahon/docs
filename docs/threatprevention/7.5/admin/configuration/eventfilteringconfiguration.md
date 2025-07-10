@@ -145,7 +145,7 @@ The Exclude Authentication Events from Selected Accounts option is disabled by d
 requires configuration before it can be enabled. Click the selected accounts link to open the Edit
 Collection window.
 
-![Edit Collection window - For Selected Accounts](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionaccounts.webp)
+![Edit Collection window - For Selected Accounts](/img/product_docs/threatprevention/7.5/admin/configuration/editcollectionaccounts_1.webp)
 
 The Exclude Authentication Events from Selected Accounts collection is only accessible through the
 Event Filtering Configuration window. Use the **Add** (+) button to open the

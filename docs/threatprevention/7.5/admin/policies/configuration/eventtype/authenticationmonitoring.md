@@ -1,5 +1,5 @@
 ---
-title: "Authentication Monitoring Event Type"
+title: "Authentication Monitoring"
 description: "Authentication Monitoring Event Type"
 sidebar_position: 60
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Authentication Lockdown Event Type"
+title: "Authentication Lockdown"
 description: "Authentication Lockdown Event Type"
 sidebar_position: 70
 ---

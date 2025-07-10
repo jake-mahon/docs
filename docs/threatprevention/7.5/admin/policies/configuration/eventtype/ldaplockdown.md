@@ -1,5 +1,5 @@
 ---
-title: "LDAP Lockdown Event Type"
+title: "LDAP Lockdown"
 description: "LDAP Lockdown Event Type"
 sidebar_position: 170
 ---

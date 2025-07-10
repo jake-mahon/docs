@@ -1,5 +1,5 @@
 ---
-title: "File System Enterprise Auditor Event Type"
+title: "File System Enterprise Auditor"
 description: "File System Enterprise Auditor Event Type"
 sidebar_position: 125
 ---

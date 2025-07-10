@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Changes Event Type"
+title: "Active Directory Changes"
 description: "Active Directory Changes Event Type"
 sidebar_position: 10
 ---

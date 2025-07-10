@@ -1,5 +1,5 @@
 ---
-title: "File System Changes Event Type"
+title: "File System Changes"
 description: "File System Changes Event Type"
 sidebar_position: 110
 ---

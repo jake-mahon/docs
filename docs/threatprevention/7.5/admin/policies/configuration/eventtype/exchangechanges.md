@@ -1,5 +1,5 @@
 ---
-title: "Exchange Changes Event Type"
+title: "Exchange Changes"
 description: "Exchange Changes Event Type"
 sidebar_position: 90
 ---

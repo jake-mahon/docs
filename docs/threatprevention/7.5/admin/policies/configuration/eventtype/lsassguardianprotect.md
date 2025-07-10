@@ -1,5 +1,5 @@
 ---
-title: "LSASS Guardian – Protect Event Type"
+title: "LSASS Guardian – Protect"
 description: "LSASS Guardian – Protect Event Type"
 sidebar_position: 200
 ---

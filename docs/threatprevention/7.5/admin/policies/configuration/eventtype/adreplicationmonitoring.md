@@ -1,5 +1,5 @@
 ---
-title: "AD Replication Monitoring Event Type"
+title: "AD Replication Monitoring"
 description: "AD Replication Monitoring Event Type"
 sidebar_position: 40
 ---
