@@ -50,11 +50,11 @@ See the [User Guide](/docs/identitymanager/saas/user-guide/index.md) topic to le
 from scratch via the UI.
 
 See how to
-[ Export the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/how-tos/export-configuration/index.md)
+[ Export the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md)
 to XML files.
 
 See how to
-[ Deploy the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
+[ Deploy the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md).
 
 Learn more about the
 [ XML Configuration Schema ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/index.md).

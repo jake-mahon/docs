@@ -1,9 +1,15 @@
+---
+title: "EasyVista"
+description: "EasyVista"
+sidebar_position: 50
+---
+
 # EasyVista
 
 This connector exports and fulfills users from/to an
 [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en)-compliant system.
 
-This page is about [ EasyVista ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/easyvista/index.md).
+This page is about EasyVista .
 
 ![Package: ITSM/EasyVista](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 
@@ -118,7 +124,7 @@ export output folder:
 >
 > ```
 >
-> Then we will have `C:/UsercubeContoso/Sources/EasyVistaExport_Employees.csv` as follows:
+> Then we will have `C:/identitymanagerContoso/Sources/EasyVistaExport_Employees.csv` as follows:
 >
 > ```
 > EasyVistaExport_Employees.csv
@@ -133,7 +139,7 @@ export output folder:
 >
 > ```
 >
-> Then we will have `C:/UsercubeContoso/Sources/EasyVistaExport_Profiles.csv` as follows:
+> Then we will have `C:/identitymanagerContoso/Sources/EasyVistaExport_Profiles.csv` as follows:
 >
 > ```
 > EasyVistaExport_Profiles.csv
@@ -151,8 +157,9 @@ Users created from the API are retrieved by Identity Manager only after a comple
 ## Fulfill
 
 The EasyVista connector writes to EasyVista to create, archive (delete from Identity Manager's point
-of view) and update employees, initiated manually through the UI or automatically by
-[Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md)
+of view) and update employees, initiated manually through the UI or automatically by reinforcing the
+policy. See the [Evaluate Policy](/docs/identitymanager/6.2/integration-guide/role-assignment/evaluate-policy/index.md) topic for
+additional information.
 
 ### Configuration
 

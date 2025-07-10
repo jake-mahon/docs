@@ -1,11 +1,17 @@
+---
+title: "Active Directory"
+description: "Active Directory"
+sidebar_position: 10
+---
+
 # Active Directory
 
 This connector exports and fulfills users and groups from/to an
 [Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services)
 instance.
 
-This page is about Directory/Active Directory. See the [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md) topic for
-additional information.
+This page is about Directory/Active Directory. See the Active Directory topic for additional
+information.
 
 ![Package: Directory/Active Directory](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
 
@@ -79,22 +85,22 @@ script in the command line.
 
 ```
 appsettings.agent.json
-                {
-                ...
-                "Connections": {
-                ...
-                "\<ConnectionIdentifier\>": {
-                ...
-                }
-                }
-            }
+                {
+                ...
+                "Connections": {
+                ...
+                "<ConnectionIdentifier>": {
+                ...
+                }
+                }
+            }
 ```
 
 The identifier of the connection and thus the name of the subsection must:
 
 - Be unique.
 - Not begin with a digit.
-- Not contain `\<`, `\>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
+- Not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > The following example configures a connection to the Active Directory Domain Controller
 > contoso.server.com using Basic Authentication with **BaseDN**, **Login**, **Password** with
@@ -148,7 +154,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 This connector is meant to generate:
 
-- A file named `\<connectionIdentifier\>`\_entries.csv, with one column for each property having a
+- A file named `<connectionIdentifier>`\_entries.csv, with one column for each property having a
   ConnectionColumn and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified. See the
@@ -156,7 +162,7 @@ This connector is meant to generate:
     topic for additional information.
 
 - An additional file for each related table other than entries;
-- A cookie file named \<connectionIdentifier\>\_cookie.bin, containing the time of the last export
+- A cookie file named `<connectionIdentifier>`\_cookie.bin, containing the time of the last export
   in order to perform incremental exports.
 
     **NOTE:** Most exports can be run in complete mode, where the CSV files will contain all
@@ -178,11 +184,11 @@ script in the command line.
 
 ```
 
-                <EntityType Identifier="AD_Entry" DisplayName_L1="AD - Entry" >  <Property Identifier="dn" DisplayName_L1="dn" IsKey="true" TargetColumnIndex="0" Type="String" />  <Property Identifier="objectCategory" DisplayName_L1="objectCategory" TargetColumnIndex="4" Type="String" />  <Property Identifier="objectGuid" DisplayName_L1="objectGuid" TargetColumnIndex="3" Type="String" IsKey="true" />  <Property Identifier="objectSid" DisplayName_L1="objectSid" TargetColumnIndex="9" Type="String" />  <Property Identifier="pwdLastSet" DisplayName_L1="pwdLastSet" TargetColumnIndex="13" Type="String" />  <Property Identifier="thumbnailPhoto" DisplayName_L1="thumbnailPhoto" Type="Binary" />  <Property Identifier="ParentDn" DisplayName_L1="ParentDN" Type="ForeignKey" TargetColumnIndex="128" />  <Property Identifier="children" DisplayName_L1="children" Type="ForeignKey" />  <Property Identifier="Member" DisplayName_L1="Member" Type="ForeignKey" />  <Property Identifier="memberOf" DisplayName_L1="memberOf" Type="ForeignKey"/></EntityType><EntityTypeMapping Identifier="AD_Entry" Connector="AD" ConnectionTable="ADExport_entries">  <Property Identifier="dn" ConnectionColumn="dn" IsUniqueKey="true" />  <Property Identifier="objectCategory" ConnectionColumn="objectCategory" Format="rdn" />  <Property Identifier="objectGuid" ConnectionColumn="objectGuid" IsPrimaryKey="true" Format="guid" />  <Property Identifier="objectSid" ConnectionColumn="objectSid" IsUniqueKey="true" Format="sid"/>  <Property Identifier="pwdLastSet" ConnectionColumn="pwdLastSet" Format="1601date" />  <Property Identifier="thumbnailPhoto" ConnectionColumn="thumbnailPhoto" Format="binary" /></EntityTypeMapping><EntityAssociation Identifier="AD_Entry_parentdn" DisplayName_L1="Parent DN" IsProperty1Collection="true" Property2="AD_Entry:ParentDn" Property1="AD_Entry:children" /><EntityAssociation Identifier="AD_Entry_member" DisplayName_L1="Member" IsProperty1Collection="true" IsProperty2Collection="true" Property1="AD_Entry:Member" Property2="AD_Entry:memberOf" /><EntityAssociationMapping Identifier="AD_Entry_parentdn" Column2="dn" Column1="parentdn" ConnectionTable="ADExport_entries" EntityPropertyMapping1="AD_Entry:dn" EntityPropertyMapping2="AD_Entry:dn" Connector="AD" /><EntityAssociationMapping Identifier="AD_Entry_member" Column1="dn" Column2="member" ConnectionTable="ADExport_members" EntityPropertyMapping1="AD_Entry:dn" EntityPropertyMapping2="AD_Entry:dn" Connector="AD" />
-
+                <EntityType Identifier="AD_Entry" DisplayName_L1="AD - Entry" >  <Property Identifier="dn" DisplayName_L1="dn" IsKey="true" TargetColumnIndex="0" Type="String" />  <Property Identifier="objectCategory" DisplayName_L1="objectCategory" TargetColumnIndex="4" Type="String" />  <Property Identifier="objectGuid" DisplayName_L1="objectGuid" TargetColumnIndex="3" Type="String" IsKey="true" />  <Property Identifier="objectSid" DisplayName_L1="objectSid" TargetColumnIndex="9" Type="String" />  <Property Identifier="pwdLastSet" DisplayName_L1="pwdLastSet" TargetColumnIndex="13" Type="String" />  <Property Identifier="thumbnailPhoto" DisplayName_L1="thumbnailPhoto" Type="Binary" />  <Property Identifier="ParentDn" DisplayName_L1="ParentDN" Type="ForeignKey" TargetColumnIndex="128" />  <Property Identifier="children" DisplayName_L1="children" Type="ForeignKey" />  <Property Identifier="Member" DisplayName_L1="Member" Type="ForeignKey" />  <Property Identifier="memberOf" DisplayName_L1="memberOf" Type="ForeignKey"/></EntityType><EntityTypeMapping Identifier="AD_Entry" Connector="AD" ConnectionTable="ADExport_entries">  <Property Identifier="dn" ConnectionColumn="dn" IsUniqueKey="true" />  <Property Identifier="objectCategory" ConnectionColumn="objectCategory" Format="rdn" />  <Property Identifier="objectGuid" ConnectionColumn="objectGuid" IsPrimaryKey="true" Format="guid" />  <Property Identifier="objectSid" ConnectionColumn="objectSid" IsUniqueKey="true" Format="sid"/>  <Property Identifier="pwdLastSet" ConnectionColumn="pwdLastSet" Format="1601date" />  <Property Identifier="thumbnailPhoto" ConnectionColumn="thumbnailPhoto" Format="binary" /></EntityTypeMapping><EntityAssociation Identifier="AD_Entry_parentdn" DisplayName_L1="Parent DN" IsProperty1Collection="true" Property2="AD_Entry:ParentDn" Property1="AD_Entry:children" /><EntityAssociation Identifier="AD_Entry_member" DisplayName_L1="Member" IsProperty1Collection="true" IsProperty2Collection="true" Property1="AD_Entry:Member" Property2="AD_Entry:memberOf" /><EntityAssociationMapping Identifier="AD_Entry_parentdn" Column2="dn" Column1="parentdn" ConnectionTable="ADExport_entries" EntityPropertyMapping1="AD_Entry:dn" EntityPropertyMapping2="AD_Entry:dn" Connector="AD" /><EntityAssociationMapping Identifier="AD_Entry_member" Column1="dn" Column2="member" ConnectionTable="ADExport_members" EntityPropertyMapping1="AD_Entry:dn" EntityPropertyMapping2="AD_Entry:dn" Connector="AD" />
+            
 ```
 
-We would have `C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv` with a column for each
+We would have `C:/identitymanagerContoso/Temp/ExportOutput/ADExport_entries.csv` with a column for each
 scalar property. See the [Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) topic for additional
 information.
 
@@ -191,20 +197,20 @@ script in the command line.
 
 ```
 ADExport_entries.csv
-                command,dn,objectCategory,objectGuid,objectSid,pwdLastSet,thumbnailPhoto,parentdn
-            ...
+                command,dn,objectCategory,objectGuid,objectSid,pwdLastSet,thumbnailPhoto,parentdn
+            ...
 ```
 
 Also, ADExport_member as ConnectionTable in a mapping will trigger the generation of the file
-`C:/UsercubeContoso/Temp/ExportOutput/ADExport_member.csv` with member as link attribute:
+`C:/identitymanagerContoso/Temp/ExportOutput/ADExport_member.csv` with member as link attribute:
 
 ```
 ADExport_member.csv
-                command,dn,member
-            ...
+                command,dn,member
+            ...
 ```
 
-And `C:/UsercubeContoso/Work/ExportCookies/ADExport_cookie.bin`
+And `C:/identitymanagerContoso/Work/ExportCookies/ADExport_cookie.bin`
 
 ### Synchronize multiple forests
 
@@ -326,28 +332,28 @@ script in the command line.
 
 ```
 appsettings.agent.json
-                {
-                ...
-                "Connections": {
-                ...
-                "ADFulfillment": {
-                "Servers": [
-                {
-                "Server": "<contoso.server.com>",
-                "BaseDN": "<DC=contoso,DC=com>"
-                },
-                {
-                "Server": "<contoso.server.com>",
-                "BaseDN": "<DC=defense,DC=contoso,DC=com>"
-                }
-                ],
-                "AuthType": "Basic",
-                "Login": "<Contoso>",
-                "Password": "<ContOso$123456789>",
-                "AsAdLds": "true"
-                }
-                }
-            }
+                {
+                ...
+                "Connections": {
+                ...
+                "ADFulfillment": {
+                "Servers": [
+                {
+                "Server": "<contoso.server.com>",
+                "BaseDN": "<DC=contoso,DC=com>"
+                },
+                {
+                "Server": "<contoso.server.com>",
+                "BaseDN": "<DC=defense,DC=contoso,DC=com>"
+                }
+                ],
+                "AuthType": "Basic",
+                "Login": "<Contoso>",
+                "Password": "<ContOso$123456789>",
+                "AsAdLds": "true"
+                }
+                }
+            }
 ```
 
 ### Add attributes to the requests
@@ -366,21 +372,21 @@ script in the command line.
 
 ```
 
-                <ResourceType Identifier="LDAP_Entry_NominativeUser" DisplayName_L1="LDAP User (nominative)" Policy="Default" TargetEntityType="LDAP_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="One" HideOnSimplifiedView="true"
-                ArgumentsExpression="C#:resource:
-                var arguments = new System.Collections.Generic.Dictionary<string, string>();
-                if (provisioningOrder.HasChanged("cn")) {
-                arguments.Add("description", "This entry's login has been modified by Usercube.");
-                }
-                else if (provisioningOrder.HasChanged("mail")) {
-                arguments.Add("description", "This entry's email has been modified by Usercube.");
-                }
-                else {
-                arguments.Add("description", "This entry has been modified by Usercube.");
-                }
-                return arguments;">
-                <ScalarRule Property="givenName" Binding="FirstName" />    <ScalarRule Property="cn" Binding="Login" />    <ScalarRule Property="sn" Binding="LastName" />    <ScalarRule Property="employeeNumber" Binding="EmployeeId" /></ResourceType>
-
+                <ResourceType Identifier="LDAP_Entry_NominativeUser" DisplayName_L1="LDAP User (nominative)" Policy="Default" TargetEntityType="LDAP_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="One" HideOnSimplifiedView="true"
+                ArgumentsExpression="C#:resource:
+                var arguments = new System.Collections.Generic.Dictionary<string, string>();
+                if (provisioningOrder.HasChanged("cn")) {
+                arguments.Add("description", "This entry's login has been modified by Usercube.");
+                }
+                else if (provisioningOrder.HasChanged("mail")) {
+                arguments.Add("description", "This entry's email has been modified by Usercube.");
+                }
+                else {
+                arguments.Add("description", "This entry has been modified by Usercube.");
+                }
+                return arguments;">
+                <ScalarRule Property="givenName" Binding="FirstName" />    <ScalarRule Property="cn" Binding="Login" />    <ScalarRule Property="sn" Binding="LastName" />    <ScalarRule Property="employeeNumber" Binding="EmployeeId" /></ResourceType>
+            
 ```
 
 ### Password reset

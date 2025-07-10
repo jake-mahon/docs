@@ -1,10 +1,17 @@
+---
+title: "Prepare Synchronization Task"
+description: "Prepare Synchronization Task"
+sidebar_position: 90
+---
+
 # Prepare Synchronization Task
 
 ## View Behavior Details
 
-The task reads files from the source directory, usually the temp
-folder >[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
-folder.
+The task reads files from the source directory, usually the temp folder >Export Output folder. See
+the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic
+for additional information.
 
 ### Cleanse data
 

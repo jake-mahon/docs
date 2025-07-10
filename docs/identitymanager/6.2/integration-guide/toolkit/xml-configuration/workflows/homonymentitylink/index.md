@@ -1,3 +1,9 @@
+---
+title: "Homonym Entity Link"
+description: "Homonym Entity Link"
+sidebar_position: 30
+---
+
 # Homonym Entity Link
 
 This entity is used to configure the homonym workflow.
@@ -10,9 +16,9 @@ This entity is used to configure the homonym workflow.
 
 ```
 
-In this example the homonym is linked to a [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) and it will be
-applied for the [ Binding ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) included in the Control where the
-homonym is located. Read more about how to configure
+In this example the homonym is linked to a control [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) and it
+will be applied for the [ Binding ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/binding/index.md) included in the Control where
+the homonym is located. Read more about how to configure
 [ Workflow Homonym ](/docs/identitymanager/6.2/integration-guide/workflows/workflowhomonym/index.md).
 
 ```

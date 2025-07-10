@@ -1,3 +1,9 @@
+---
+title: "Display Entity Association"
+description: "Display Entity Association"
+sidebar_position: 10
+---
+
 # Display Entity Association
 
 Entity referencing the Entity Association that can be displayed in the Identity Manager interface.

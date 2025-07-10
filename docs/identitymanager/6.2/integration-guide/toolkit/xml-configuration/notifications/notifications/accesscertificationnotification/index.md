@@ -1,3 +1,9 @@
+---
+title: "Access Certification Notification"
+description: "Access Certification Notification"
+sidebar_position: 10
+---
+
 # Access Certification Notification
 
 Reminder notification concerning access certification.

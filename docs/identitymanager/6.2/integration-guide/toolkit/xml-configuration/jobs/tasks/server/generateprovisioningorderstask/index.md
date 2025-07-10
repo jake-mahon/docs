@@ -1,3 +1,9 @@
+---
+title: "Generate Provisioning Orders Task"
+description: "Generate Provisioning Orders Task"
+sidebar_position: 70
+---
+
 # Generate Provisioning Orders Task
 
 In the Assigned resource types, Assigned resource scalars, and Assigned resource navigation the

@@ -1,3 +1,9 @@
+---
+title: "CSV"
+description: "CSV"
+sidebar_position: 40
+---
+
 # CSV
 
 This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values).
@@ -22,8 +28,8 @@ Identity Manager's format.
 ### Configuration
 
 This process is configured through a
-[](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
-in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
+[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
 appsettings.agent.json
@@ -53,8 +59,8 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "HRContoso": {
->       "Path": "C:/UsercubeContoso/Contoso/hr_conto(.*?).csv",
->       "PathIncremental": "C:/UsercubeContoso/Contoso/hr_delta_conto(.*?).csv",
+>       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).csv",
+>       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).csv",
 >       "Encoding": "UTF-16",
 >       "Separator": ";",
 >       "IsFileNameRegex": true,
@@ -81,9 +87,10 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`, to the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
-folder.
+This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`, to the Export
+Output folder. See the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic
+for additional information.
 
 For example, when exporting a connection named `HRCountries`, the output file will be named
 `HRCountries.csv`.

@@ -1,4 +1,10 @@
-# Pending Assigned Resource Types Access Control Rules
+---
+title: "PendingAssignedResourceTypesAccessControlRules"
+description: "PendingAssignedResourceTypesAccessControlRules"
+sidebar_position: 40
+---
+
+# PendingAssignedResourceTypesAccessControlRules
 
 Generates the access control rules which give to a profile the permissions to call the API Pending
 AssignedResourceTypes.

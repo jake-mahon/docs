@@ -1,3 +1,9 @@
+---
+title: "AccessControlPropertyGroup"
+description: "AccessControlPropertyGroup"
+sidebar_position: 20
+---
+
 # AccessControlPropertyGroup
 
 AccessControlPropertyGroup is used to hide properties based on the connected users profiles and

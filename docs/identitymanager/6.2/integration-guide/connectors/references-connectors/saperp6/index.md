@@ -1,3 +1,9 @@
+---
+title: "SAP ERP 6.0 and SAP S4/HANA"
+description: "SAP ERP 6.0 and SAP S4/HANA"
+sidebar_position: 230
+---
+
 # SAP ERP 6.0 and SAP S4/HANA
 
 This connector exports and fulfills users and roles from/to an
@@ -19,8 +25,8 @@ an organization, such as finance, production, supply chain services, procurement
 Implementing this connector requires:
 
 - Reading first the appsettings documentation; See the
-  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-  topic for additional information.
+  [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic
+  for additional information.
 - An ASE or HANA database with a service account, as a database administrator
 - A service account, as a SAP user with at least the roles for user management
 - The prerequisites for reading should be set up
@@ -75,8 +81,8 @@ For example:
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
-execute sp_addlogin \<login\>, \<password\>, \<database (ABA is the default value)\>go use ABA go
-execute sp_adduser \<login\>go grant select on ABA.SAPSR3.USR02 to usercube grant select on
+execute sp_addlogin `<login>`, `<password>`, `<database (ABA is the default value)>`go use ABA go
+execute sp_adduser `<login>`go grant select on ABA.SAPSR3.USR02 to usercube grant select on
 ABA.SAPSR3.AGR_USERS to usercube grant select on ABA.SAPSR3.USER_ADDR to usercube grant select on
 ABA.SAPSR3.AGR_1016 to usercube grant select on ABA.SAPSR3.USR10 to usercube grant select on
 ABA.SAPSR3.USR11 to usercube grant select on ABA.SAPSR3.AGR_AGRS to usercube grant select on
@@ -91,7 +97,7 @@ To set up the prerequisites for reading follow the steps below.
 
 ![connectorreadprerequisites1](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites1.webp)
 
-**Step 2 –** Unzip the "hdbclient.zip" archive to C: drive and add the path to the Path environment
+**Step 2 –** Unzip the “hdbclient.zip” archive to C: drive and add the path to the Path environment
 variables.
 
 ![connectorreadprerequisites2](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/saperp6/connectorreadprerequisites2.webp)
@@ -137,13 +143,13 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-  ...
-  "Connections": {
-    ...
-    "<ConnectionIdentifier>": {
-      ...
-    }
-  }
+  ...
+  "Connections": {
+    ...
+    "<ConnectionIdentifier>": {
+      ...
+    }
+  }
 }
 ```
 
@@ -151,7 +157,7 @@ _Remember,_ the identifier of the connection and thus the name of the subsection
 
 - Be unique
 - Not begin with a digit.
-- Not contain \<, \>, :, /, \, |, ?, \*, and \_.
+- Not contain `<`, `>`, `:`, `/`, `\`, `|`, `?`, `*`, and `_`.
 
 For example:
 
@@ -161,19 +167,19 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-    ...
-    "Connections": {
-        ...
-        "SAPExportFulfillment": {
-            "Server": "serverUrl",
-            "AseLogin": "login",
-            "AsePassword": "password",
-            "Instance": "sapInstance",
-            "Port": "4242",
-            "Client": "123",
-            "Language": "fr"
-        }
-    }
+    ...
+    "Connections": {
+        ...
+        "SAPExportFulfillment": {
+            "Server": "serverUrl",
+            "AseLogin": "login",
+            "AsePassword": "password",
+            "Instance": "sapInstance",
+            "Port": "4242",
+            "Client": "123",
+            "Language": "fr"
+        }
+    }
 }
 
 ```
@@ -214,8 +220,8 @@ This connector can provision users, role memberships and group memberships to SA
 
 ### Configuration
 
-Same as for export, fulfill is configured through connections. See the
-[SAP ERP 6.0 and SAP S4/HANA](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/saperp6/index.md) topic for additional information.
+Same as for export, fulfill is configured through connections. See the SAP ERP 6.0 and SAP S4/HANA
+topic for additional information.
 
 For example:
 
@@ -225,15 +231,15 @@ script in the command line.
 ```
 appsettings.agent.json
 {
-    ...
-    "Connections": {
-        ...
-        "SAPExportFulfillment": {
-            "Server": "<serverUrl>",
-            "BapiLogin": "<login>",
-            "BapiPassword": "<password>"
-        }
-    }
+    ...
+    "Connections": {
+        ...
+        "SAPExportFulfillment": {
+            "Server": "<serverUrl>",
+            "BapiLogin": "<login>",
+            "BapiPassword": "<password>"
+        }
+    }
 }
 
 ```
@@ -267,16 +273,16 @@ Data protection can be ensured through:
 
 | Attribute    | Naming Convention for the Key in Azure Key Vault |
 | ------------ | ------------------------------------------------ |
-| Server       | Connections--\<identifier\>--Server              |
-| AseLogin     | Connections--\<identifier\>--AseLogin            |
-| AsePassword  | Connections--\<identifier\>--AsePassword         |
-| Instance     | Connections--\<identifier\>--Instance            |
-| Port         | Connections--\<identifier\>--Port                |
-| Client       | Connections--\<identifier\>--Client              |
-| Language     | Connections--\<identifier\>--Language            |
-| BapiLogin    | Connections--\<identifier\>--BapiLogin           |
-| BapiPassword | Connections--\<identifier\>--BapiPassword        |
-| SystemNumber | Connections--\<identifier\>--SystemNumber        |
+| Server       | Connections--`<identifier>`--Server              |
+| AseLogin     | Connections--`<identifier>`--AseLogin            |
+| AsePassword  | Connections--`<identifier>`--AsePassword         |
+| Instance     | Connections--`<identifier>`--Instance            |
+| Port         | Connections--`<identifier>`--Port                |
+| Client       | Connections--`<identifier>`--Client              |
+| Language     | Connections--`<identifier>`--Language            |
+| BapiLogin    | Connections--`<identifier>`--BapiLogin           |
+| BapiPassword | Connections--`<identifier>`--BapiPassword        |
+| SystemNumber | Connections--`<identifier>`--SystemNumber        |
 
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
@@ -287,7 +293,7 @@ See the
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 For example:
 
@@ -297,14 +303,14 @@ script in the command line.
 ```
 appsettings.cyberark.agent.json
 {
-  ...
-  "Connections": {
-    ...
-    "SAPExportFulfillment": {
-        "Login": "SAPExportFulfillment_CyberArkKey",
-        "Password": "SAPExportFulfillment_CyberArkKey",
-        "Server": "SAPExportFulfillment_CyberArkKey"
-    }
-  }
+  ...
+  "Connections": {
+    ...
+    "SAPExportFulfillment": {
+        "Login": "SAPExportFulfillment_CyberArkKey",
+        "Password": "SAPExportFulfillment_CyberArkKey",
+        "Server": "SAPExportFulfillment_CyberArkKey"
+    }
+  }
 }
 ```

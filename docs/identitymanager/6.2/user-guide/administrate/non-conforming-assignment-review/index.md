@@ -1,3 +1,9 @@
+---
+title: "Review Non-conforming Assignments"
+description: "Review Non-conforming Assignments"
+sidebar_position: 40
+---
+
 # Review Non-conforming Assignments
 
 How to review non-conforming assignments, i.e. approve or decline the suggestions made by Identity
@@ -27,6 +33,9 @@ A high number of non-conforming assignments can come from an issue in configurat
 
 Non-conforming roles and unauthorized accounts can be mass reviewed through
 [Automate the Review of Non-conforming Assignments](/docs/identitymanager/6.2/user-guide/optimize/non-conforming-assignment-review-automation/index.md).
+See the
+[Automate the Review of Non-conforming Assignments](/docs/identitymanager/6.2/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
+topic for additional information.
 
 ## Participants and Artifacts
 

@@ -1,3 +1,9 @@
+---
+title: "InternalWorkflow"
+description: "InternalWorkflow"
+sidebar_position: 90
+---
+
 # InternalWorkflow
 
 This connector triggers workflows in Identity Manager for a system's provisioning orders.
@@ -76,7 +82,7 @@ appsettings.agent.json
   "Connections": {
     ...
     "HR_Person_To_Directory_UserRecord": {
-        "WorkflowJsonPath": "<C:/UsercubeOrganization/Conf/FulfillInternalWorkflow.json>"
+        "WorkflowJsonPath": "<C:/identitymanagerOrganization/Conf/FulfillInternalWorkflow.json>"
     }
   }
 }

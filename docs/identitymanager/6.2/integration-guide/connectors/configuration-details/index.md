@@ -1,3 +1,9 @@
+---
+title: "Configuration Details"
+description: "Configuration Details"
+sidebar_position: 10
+---
+
 # Configuration Details
 
 This part gathers information about connector configuration.

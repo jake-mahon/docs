@@ -1,3 +1,9 @@
+---
+title: "PowerShellSync"
+description: "PowerShellSync"
+sidebar_position: 280
+---
+
 # PowerShellSync
 
 Syncronizes an external system with a custom PowerShell script.

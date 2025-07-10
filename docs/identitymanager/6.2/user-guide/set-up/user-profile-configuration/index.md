@@ -1,3 +1,9 @@
+---
+title: "Configure a User Profile"
+description: "Configure a User Profile"
+sidebar_position: 50
+---
+
 # Configure a User Profile
 
 How to tweak the
@@ -81,7 +87,6 @@ Configure a user profile by proceeding as follows:
    clicking on the addition button at the top right and fill in the fields.
 
     ![Addition Icon](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/iconadd_v602.svg)
-
 
     ![New Profile](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/profiles_creation_v602.webp)
 

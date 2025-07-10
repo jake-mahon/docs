@@ -1,3 +1,9 @@
+---
+title: "Usercube-Check-ExpressionsConsistency"
+description: "Usercube-Check-ExpressionsConsistency"
+sidebar_position: 390
+---
+
 # Usercube-Check-ExpressionsConsistency
 
 This tool is used to check the C# expressions consistency.

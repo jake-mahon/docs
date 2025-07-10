@@ -1,3 +1,9 @@
+---
+title: "SharedFolders"
+description: "SharedFolders"
+sidebar_position: 290
+---
+
 # SharedFolders
 
 This connector exports users and permissions from Windows shared folders.
@@ -95,8 +101,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the
-following CSV files:
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 - `<connectionIdentifier>_ACE.csv`, with the following columns:
     - **key**: concatenation of `Right`, `Path` and `OwnerSID`;
@@ -133,7 +139,7 @@ Data protection can be ensured through:
 
 - [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- an [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute         | Naming Convention for the Key in Azure Key Vault |
 | ----------------- | ------------------------------------------------ |
@@ -146,7 +152,7 @@ Data protection can be ensured through:
 | Password          | `Connections--<identifier>--Password`            |
 | InputDirectories  | `Connections--<identifier>--InputDirectories`    |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login` and `Password`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

@@ -1,3 +1,9 @@
+---
+title: "Workforce Module"
+description: "Workforce Module"
+sidebar_position: 20
+---
+
 # Workforce Module
 
 Generates the workforce repository based on the data filled in the Workforce Core Solution module.

@@ -1,3 +1,9 @@
+---
+title: "Entity Types"
+description: "Entity Types"
+sidebar_position: 10
+---
+
 # Entity Types
 
 - [ Connector Mappings ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/connectormappings/index.md)

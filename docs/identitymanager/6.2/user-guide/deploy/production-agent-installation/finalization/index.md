@@ -1,3 +1,9 @@
+---
+title: "Finalize the Installation"
+description: "Finalize the Installation"
+sidebar_position: 50
+---
+
 # Finalize the Installation
 
 This guide shows how finalize the installation of the agent.
@@ -26,4 +32,4 @@ Finalize the installation of the agent by proceeding as follows:
 ## Next Steps
 
 To continue, follow the instructions to verify the agent's installation. See the
-[ Install the Production Agent ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/index.md)topic for additional information.
+[ Install the Production Agent ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/index.md) topic for additional information.

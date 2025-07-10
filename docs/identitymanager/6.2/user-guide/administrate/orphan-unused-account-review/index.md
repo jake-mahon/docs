@@ -1,3 +1,9 @@
+---
+title: "Review Orphaned and Unused Accounts"
+description: "Review Orphaned and Unused Accounts"
+sidebar_position: 20
+---
+
 # Review Orphaned and Unused Accounts
 
 How to remediate license and security issues caused by orphaned and/or unused accounts.
@@ -18,7 +24,7 @@ through the menu items on the left of the home page, in the **Connectors** secti
 These entity type pages can be configured via XML to customize all displayed columns and available
 filters, especially the **Orphan** filter that spots uncorrelated resources, and the **Owner /
 Resource Type** column that shows the owner of each resource. See
-the[ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/how-tos/create-menu-items/index.md) topic for
+the[ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md) topic for
 additional information on customization.
 
 ![Owner / Resource Type Column](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)

@@ -1,3 +1,9 @@
+---
+title: "Review an Unauthorized Account"
+description: "Review an Unauthorized Account"
+sidebar_position: 30
+---
+
 # Review an Unauthorized Account
 
 How to remediate unauthorized accounts. The aim is to review the accounts whose assignments don't
@@ -40,7 +46,7 @@ Review an unauthorized account by proceeding as follows:
 
     ![Resource Reconciliation Page](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/unauth_unauthorizedaccounts_v602.webp)
 
-4. Choose the default resource view or the Review an Unauthorized Account with the top right toggle.
+4. Choose the default resource view or the property view with the top right toggle.
 5. Click on the line of an account with an owner.
 
     In the following example, the nominative LDAP account linked to the resource
@@ -66,7 +72,7 @@ Review an unauthorized account by proceeding as follows:
 
 7. Click on **Confirm Account Deletion** or **Authorize Account** according to the previous
    decision.
-8. Trigger [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's
+8. Trigger the [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md) by launching, on the appropriate connector's
    overview page, **Jobs** > **Generate Provisioning Orders**, then, after this first task is done,
    **Jobs** > **Fulfill**.
 

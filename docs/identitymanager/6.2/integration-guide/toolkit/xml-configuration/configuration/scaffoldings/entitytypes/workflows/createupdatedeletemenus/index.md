@@ -1,3 +1,9 @@
+---
+title: "Create Update Delete Menus"
+description: "Create Update Delete Menus"
+sidebar_position: 10
+---
+
 # Create Update Delete Menus
 
 Creates creation, update and delete menus for an entity. Read these menuItems again on the main

@@ -1,3 +1,9 @@
+---
+title: "Thresholds"
+description: "Thresholds"
+sidebar_position: 20
+---
+
 # Thresholds
 
 Thresholds are essential safety guards controlling all changes, for example preventing the
@@ -10,8 +16,9 @@ stops the synchronization/provisioning and displays a warning on the log page.
 Thresholds can be deactivated via the value `0`, though they should not all be. Each action must be
 "guarded" by at least one threshold.
 
-Once the changes have been reviewed, the
-[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (or not).
+Once the changes have been reviewed, the blocked job can be resumed (or not). See the
+[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional
+information.
 
 As long as a synchronization job is blocked for a connector, the export, prepare-synchronization and
 synchronization tasks of this connector are removed from incremental jobs. The synchronization is

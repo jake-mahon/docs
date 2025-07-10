@@ -1,3 +1,9 @@
+---
+title: "Home Folder"
+description: "Home Folder"
+sidebar_position: 80
+---
+
 # Home Folder
 
 This connector exports [home folders](https://en.wikipedia.org/wiki/Home_directory)' content.
@@ -92,9 +98,9 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`, to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder, with the
-following columns:
+This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`,to the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder, with the following columns:
 
 - **Command**: empty for now, as the connector performs only complete export.
 - **Name**: name of the home folder.

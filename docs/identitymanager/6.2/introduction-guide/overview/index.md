@@ -1,3 +1,9 @@
+---
+title: "IGA and Netwrix Identity Manager"
+description: "IGA and Netwrix Identity Manager"
+sidebar_position: 10
+---
+
 # IGA and Netwrix Identity Manager
 
 Identity Manager is a powerful tool for Identity Governance and Administration (IGA) automation.
@@ -87,4 +93,4 @@ See the [Governance](/docs/identitymanager/6.2/introduction-guide/overview/gover
 
 ## Examples
 
-Let's read some [ Use Case Stories ](/docs/identitymanager/6.2/introduction-guide/overview/use-cases/index.md).
+Let's read some [Use Case Stories](/docs/identitymanager/6.2/introduction-guide/overview/use-cases/index.md).

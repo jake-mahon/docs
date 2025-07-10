@@ -1,3 +1,9 @@
+---
+title: "OpenIdClient"
+description: "OpenIdClient"
+sidebar_position: 50
+---
+
 # OpenIdClient
 
 OpenIdClient declares an OpenID Connect clientId/secret to call the Identity Manager API. All the

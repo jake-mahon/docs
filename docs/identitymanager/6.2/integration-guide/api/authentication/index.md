@@ -1,3 +1,9 @@
+---
+title: "Authentication"
+description: "Authentication"
+sidebar_position: 10
+---
+
 # Authentication
 
 Identity Manager API authentication is based on the

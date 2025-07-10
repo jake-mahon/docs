@@ -1,3 +1,9 @@
+---
+title: "Various XML Settings"
+description: "Various XML Settings"
+sidebar_position: 60
+---
+
 # Various XML Settings
 
 This section describes Identity Manager's
@@ -10,7 +16,7 @@ This setting is used to track the current configuration version.
 
 ```
 
-    <ConfigurationVersionSetting Version="5.0.0" Description="Demo Usercube" />
+    <ConfigurationVersionSetting Version="5.0.0" Description="Demo IdentityManager" />
 
 ```
 
@@ -116,7 +122,7 @@ The max number of links to display is 5.
 
 _This attribute matches an end-user with a resource from the unified resource repository._
 
-Authorization mechanisms within Identity Manager rely on assigning a
+Authorization mechanisms within Identity Manager rely on assigning
 [ Profiles ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
 to an identity-resource that stands for the end-user digital identity.
 

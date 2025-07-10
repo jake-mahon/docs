@@ -1,3 +1,9 @@
+---
+title: "Composite Role"
+description: "Composite Role"
+sidebar_position: 30
+---
+
 # Composite Role
 
 Defines basic information about a composite role. Composite roles identify affiliations or job

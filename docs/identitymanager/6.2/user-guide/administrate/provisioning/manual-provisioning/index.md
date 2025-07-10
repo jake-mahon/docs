@@ -1,3 +1,9 @@
+---
+title: "Provision Manually"
+description: "Provision Manually"
+sidebar_position: 20
+---
+
 # Provision Manually
 
 How to use Identity Manager to manually write to the managed systems.
@@ -19,9 +25,9 @@ In its lifecycle, an assignment request goes through the following provisioning 
 This operation should be performed in cooperation with the staff in charge of managed systems as
 write permissions are required.
 
-| Input                                                                                                                                                                                 | Output                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| Input                                                                                                                                                                                         | Output                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| [ Review Provisioning ](/docs/identitymanager/6.2/user-guide/administrate/provisioning/provisioning-review/index.md) (required) Manual provisioning through [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Manual Provisioning
 
@@ -71,8 +77,9 @@ In order to verify the process:
 
     ![Home Page - Directory User](/img/product_docs/identitymanager/saas/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
-2. Follow the [ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) to make a
-   change in one of their permissions, which involves manual provisioning.
+2. Follow the workflow through
+   [ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) to make a change in
+   one of their permissions, which involves manual provisioning.
 3. Perform manual provisioning and check the provisioning state of the requested entitlement at
    every step, in the user's **View Permissions** tab.
 

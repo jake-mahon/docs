@@ -8,7 +8,7 @@ sidebar_position: 50
 
 To view the documents classified for each term, click on the Browse tab. This will display a list of
 documents achieving the minimum score set for classification in the term.
-[See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/clues/clues.md)
+[See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md)
 
 **NOTE:** This list will include the current classification status of each document and any changes
 made to the class, since the last classification, are not taken into account.
@@ -34,4 +34,4 @@ You can use the Browse function to:
 
 To restrict the browsing scope, you can either add a URL filter, or add a custom filter, as well as
 select to show document movements. These options are configured in the same way as for
-[Search Documents by Clue](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/clues/search.md).
+[Search Documents by Clue](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/search.md).

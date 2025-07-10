@@ -1,3 +1,9 @@
+---
+title: "Integration Guide"
+description: "Integration Guide"
+sidebar_position: 30
+---
+
 # Integration Guide
 
 This guide is designed to provide the tools and knowledge to fully understand and configure Identity

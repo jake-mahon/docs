@@ -1,3 +1,9 @@
+---
+title: "Reconcile a Property"
+description: "Reconcile a Property"
+sidebar_position: 20
+---
+
 # Reconcile a Property
 
 How to review unreconciled properties. The aim is to handle the differences between the property
@@ -65,11 +71,11 @@ entitlements.
 Review an unreconciled property by proceeding as follows:
 
 1. Ensure that the task for the computation of the role model was launched recently, through the
-   complete job on the **Job Execution** page�
+   complete job on the **Job Execution** page
 
     ![Home Page - Job Execution](/img/product_docs/identitymanager/saas/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
-    � Or through the connector's overview page, **Jobs** > **Compute Role Model**.
+    Or through the connector's overview page, **Jobs** > **Compute Role Model**.
 
     ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 

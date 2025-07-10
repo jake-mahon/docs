@@ -1,4 +1,10 @@
-# Workflow Create Entity Form
+---
+title: "WorkflowCreateEntityForm"
+description: "WorkflowCreateEntityForm"
+sidebar_position: 30
+---
+
+# WorkflowCreateEntityForm
 
 Displays a form to create a new resource, without a record.
 

@@ -1,12 +1,17 @@
+---
+title: "Connectors"
+description: "Connectors"
+sidebar_position: 40
+---
+
 # Connectors
 
 Connectors are Identity Manager's links to the managed systems, the technical representation of the
 entity model. A connector is used to export data as CSV source files for Identity Manager's
 synchronization process and to fulfill entitlement assignments to a given managed system. See the
-[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md),
-[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md), and
-[ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) topics for additional
-information.
+[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md),[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md),
+and [ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) topics for
+additional information.
 
 ## Overview
 
@@ -89,7 +94,7 @@ Identity Manager's connectors all operate on the same basic principles. Technica
   information.
 
     > We want to use a connection `Directory/Active Directory` to perform synchronization and
-    > automated provisioning, and a second connection `Ticket/Usercube` to perform manual
+    > automated provisioning, and a second connection `Ticket/identitymanager` to perform manual
     > provisioning through Identity Manager.
 
     You can find standard connections dedicated to one application (AD, Microsoft Entra ID, etc.),
@@ -124,7 +129,7 @@ A connector requires at least one connection and one entity type.
 When provisioning a managed system, the corresponding connector also needs at least one resource
 type.
 
-**Local vs. Saas agents** — To simplify things, Identity Managerhas made it possible to start
+**Local vs. Saas agents** — To simplify things, Identity Manager has made it possible to start
 configuring connectors without installing a local agent in your organization's network. Instead, you
 can use the agent integrated with Identity Manager's server in the Cloud (SaaS agent). See the
 [ Architecture ](/docs/identitymanager/6.2/introduction-guide/architecture/index.md) topic for additional information.
@@ -141,7 +146,7 @@ for additional information.
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------ |
 | Active Directory                                 | Exports and fulfills data from/to an Active Directory instance. See the [Active Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/activedirectory/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                              | √               | √            |
 | Azure                                            | Exports Azure resources, role definitions and role assignments. See the [ Azure ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/azure/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                 | √               | X            |
-| Microsoft Entra ID (formerly Microsoft Azure AD) | Exports and fulfills data from/to a Microsoft Entra ID instance. See the Microsoft Entra ID, [For Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/create-connector/azuread/index.md), and [ For Microsoft Entra ID ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/setup-incremental-synchronization/azuread/index.md) topics for additional information.                                                                                                                                                                                           | √               | X            |
+| Microsoft Entra ID (formerly Microsoft Azure AD) | Exports and fulfills data from/to a Microsoft Entra ID instance. See the Microsoft Entra ID, [For Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/create-connector/azuread/index.md), and [For Microsoft Entra ID](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/setup-incremental-synchronization/azuread/index.md) topics for additional information.                                                                                                                                                                                             | √               | X            |
 | CSV                                              | Exports data from a CSV file. See the [ CSV ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/csv/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                       | √               | X            |
 | EasyVista                                        | Exports data from an EasyVista-compliant system. See the [ EasyVista ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/easyvista/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                        | √               | √            |
 | EasyVista Ticket                                 | Creates tickets in an EasyVista instance. See the [ EasyVista Ticket ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/easyvistaticket/index.md) and [ Write a Template for a Ticket Connector ](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/write-ticket-template/index.md) topics for additional information.                                                                                                                                                                                                                                         | X               | √            |

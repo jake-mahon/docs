@@ -1,4 +1,10 @@
-# Task Instance Administration Access Control Rules
+---
+title: "TaskInstanceAdministrationAccessControlRules"
+description: "TaskInstanceAdministrationAccessControlRules"
+sidebar_position: 140
+---
+
+# TaskInstanceAdministrationAccessControlRules
 
 Generates access control to update the task instances.
 

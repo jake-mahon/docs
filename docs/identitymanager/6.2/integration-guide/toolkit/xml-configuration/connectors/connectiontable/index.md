@@ -1,3 +1,9 @@
+---
+title: "Connection Table"
+description: "Connection Table"
+sidebar_position: 30
+---
+
 # Connection Table
 
 A ConnectionTable, linked to its ConnectionColumns, represents a potential Export output.

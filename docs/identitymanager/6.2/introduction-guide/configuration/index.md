@@ -1,3 +1,9 @@
+---
+title: "Configuration"
+description: "Configuration"
+sidebar_position: 30
+---
+
 # Configuration
 
 There are several options for configuring Identity Manager.
@@ -44,11 +50,11 @@ See the [User Guide](/docs/identitymanager/6.2/user-guide/index.md) topic to lea
 from scratch via the UI.
 
 See how to
-[ Export the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/how-tos/export-configuration/index.md)
+[ Export the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/export-configuration/index.md)
 to XML files.
 
 See how to
-[ Identity Manager Deploy the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
+[ Deploy the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md).
 
 Learn more about the
 [ XML Configuration Schema ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md).

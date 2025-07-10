@@ -1,8 +1,13 @@
+---
+title: "Install the Server"
+description: "Install the Server"
+sidebar_position: 30
+---
+
 # Install the Server
 
 **NOTE:** If you are a SaaS client this topic does not apply. You can skip directly to end user
-authentication. See the [Set up End-User Authentication](#set-up-end-user-authentication) topic for
-additional information.
+authentication. See the Set up End-User Authentication topic for additional information.
 
 Identity Manager Server can be installed on the same workstation as the database or on a separate
 workstation. If Identity Manager is installed on a separate workstation, it requires the SQL
@@ -15,7 +20,7 @@ Please make sure that the server requirements are met before going further. See 
 
 The server executable is beeing been extracted to the working directory as `Usercube-Server.exe` and
 `Usercube-Server.dll` and will enable a user or IIS to run the Identity Manager Server. See the
-[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)topic for additional information.
+[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 ## Set up the License Key
 
@@ -29,7 +34,7 @@ topic for additional information.
 It is recommended to run the Identity Manager Server as an IIS website.
 
 To install the Identity Manager Server as a Windows service, please jump to Install the Server as a
-Windows Service. See the [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional information.
+Windows Service. See the Install the Server topic for additional information.
 
 Adding the Identity Manager Server as an IIS website can be achieved with the
 [Internet Information Services (IIS) Manager](https://www.iis.net) which can be launched with the
@@ -471,8 +476,7 @@ In order to test your installation you must:
 **Step 1 –** Make sure the IIS site is running.
 
 **Step 2 –** Go to the following URL with a browser: `<hostname>:<port>/hc` with the hostname and
-port set up in Create an IIS website. See the [Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md) topic for additional
-information.
+port set up in Create an IIS website. See the Install the Server topic for additional information.
 
 **Step 3 –** The Identity Manager Server is trying to access the Database. If it succeeds, the
 message **Healthy** should be displayed in the browser.

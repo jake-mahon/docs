@@ -1,3 +1,9 @@
+---
+title: "Generic SCIM"
+description: "Generic SCIM"
+sidebar_position: 110
+---
+
 # Generic SCIM
 
 Manages entities in SCIM compatible application.

@@ -1,3 +1,9 @@
+---
+title: "Microsoft Exchange"
+description: "Microsoft Exchange"
+sidebar_position: 150
+---
+
 # Microsoft Exchange
 
 This connector exports mailboxes from a
@@ -99,7 +105,7 @@ This connector is meant to generate the following files:
     ```
 
     > For example, we could have
-    > `C:/UsercubeContoso/Temp/ExportOutput/MicrosoftExchangeExport_mailboxes.csv`.
+    > `C:/identitymanagerContoso/Temp/ExportOutput/MicrosoftExchangeExport_mailboxes.csv`.
 
     [See more details on mailbox properties in Microsoft's documentation](https://docs.microsoft.com/en-us/previous-versions/office/developer/exchange-server-2010/ff328629(v=exchg.140)).
 
@@ -117,8 +123,8 @@ This connector is meant to generate the following files:
   allowing incremental processes.
 
 The CSV files are stored in the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder, and the
-cookie file in the Export Cookies folder.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output, and the cookie file in the Export Cookies folder.
 
 ## Fulfill
 

@@ -1,3 +1,9 @@
+---
+title: "Configuration Version Setting"
+description: "Configuration Version Setting"
+sidebar_position: 20
+---
+
 # Configuration Version Setting
 
 Used to track the current configuration version.
@@ -6,7 +12,7 @@ Used to track the current configuration version.
 
 ```
 
-    <ConfigurationVersionSetting Version="5.0.0" Description="Demo Usercube" />
+    <ConfigurationVersionSetting Version="5.0.0" Description="Demo IdentityManager" />
 
 ```
 

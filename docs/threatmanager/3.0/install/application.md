@@ -32,7 +32,7 @@ Run as administrator. Then skip to Step 2.
 **Step 3 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click **Next**.
 
-![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatprevention/7.5/install/reportingmodule/folder.webp)
+![Netwrix Threat Manager Setup wizard Install Folder page](/img/product_docs/threatmanager/3.0/install/folder.webp)
 
 **Step 4 –** By default, the installation directory is set to:
 
@@ -40,7 +40,7 @@ checkbox. Click **Next**.
 
 Optionally, enter a new path or use the **Browse** button to modify as desired. Click Next.
 
-![Netwrix Threat Manager Setup wizard Connect to the Database page](/img/product_docs/threatprevention/7.5/install/database.webp)
+![Netwrix Threat Manager Setup wizard Connect to the Database page](/img/product_docs/threatmanager/3.0/install/Database.webp)
 
 **Step 5 –** On the Database page, ensure the host and port are set correctly. If installing on the
 same server where the PostgreSQL database application was installed, this information will be

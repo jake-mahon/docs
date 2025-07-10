@@ -1,4 +1,10 @@
-# Run Job Notification Access Control Rules
+---
+title: "RunJobNotificationAccessControlRules"
+description: "RunJobNotificationAccessControlRules"
+sidebar_position: 90
+---
+
+# RunJobNotificationAccessControlRules
 
 Generates access control to send notification when job finish with an error state.
 

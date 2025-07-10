@@ -1,3 +1,9 @@
+---
+title: "Update Entity Property Expressions Task"
+description: "Update Entity Property Expressions Task"
+sidebar_position: 250
+---
+
 # Update Entity Property Expressions Task
 
 Calculates either for all entities or for a list of entities the expressions and inserts the values

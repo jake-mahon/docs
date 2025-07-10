@@ -1,3 +1,9 @@
+---
+title: "Expressions"
+description: "Expressions"
+sidebar_position: 40
+---
+
 # Expressions
 
 Expressions are a way to define the attributes whose values must be computed based on other
@@ -48,7 +54,7 @@ second defines the source object with an expression based on the user record's f
 
 ### Expressions in XML
 
-In XML, inside the C# expressions, make sure to escape `<">` characters by writing them as `<">`.
+In XML, inside the C# expressions, make sure to escape `"` characters by writing them as `&quot;`.
 
 For example:
 
@@ -147,9 +153,6 @@ return resources.FirstOrDefault()?.Id;
 ```
 
 Another example, to query the organization whose Identifier is `<23040>`:
-
-Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
-script in the command line.
 
 ```
 C#:return queryHandler.Select<Directory_Organization>("Select Identifier Where Id=23040").FirstOrDefault()?.Identifier;

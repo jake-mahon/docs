@@ -1,3 +1,9 @@
+---
+title: "Workflow Homonym"
+description: "Workflow Homonym"
+sidebar_position: 40
+---
+
 # Workflow Homonym
 
 In this section we configure the homonym detection that checks if a resource already exists in the

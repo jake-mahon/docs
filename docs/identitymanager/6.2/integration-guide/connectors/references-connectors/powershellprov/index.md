@@ -1,3 +1,9 @@
+---
+title: "PowerShellProv"
+description: "PowerShellProv"
+sidebar_position: 190
+---
+
 # PowerShellProv
 
 This connector writes to an external system via a
@@ -75,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "PowerShellCsvFulfillment": {
->       "PowerShellScriptPath": "C:/UsercubeDemo/Scripts/Fulfill-CSV.ps1",
+>       "PowerShellScriptPath": "C:/identitymanagerDemo/Scripts/Fulfill-CSV.ps1",
 >       "Options": {
 >         "Message": "Hello",
 >         "Login": "admin",
@@ -119,7 +125,7 @@ Data protection can be ensured through:
 | Password (optional)  | `Connections--<identifier>--Options--Password`    |
 | PowerShellScriptPath | `Connections--<identifier>--PowerShellScriptPath` |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   the attributes from the `Options` section that are compatible with CyberArk.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

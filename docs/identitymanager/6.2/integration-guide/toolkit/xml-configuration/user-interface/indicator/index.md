@@ -1,3 +1,9 @@
+---
+title: "Indicator"
+description: "Indicator"
+sidebar_position: 60
+---
+
 # Indicator
 
 An Indicator displays a banner alongside the resource information whenever it meets a specific
@@ -16,7 +22,7 @@ on the left-side of the AD Entries tile and form.
 One entity can show several banners, one for several different properties. They appear one above the
 other if there are four banners or less, one next to the other if there are more.
 
-One indicator can posess several items, that define the information for the banner to be displayed.
+One indicator can possess several items, that define the information for the banner to be displayed.
 The indicators order is important because the banner will get the information of the first item
 matching the observed property.
 

@@ -1,3 +1,9 @@
+---
+title: "Create a Connection"
+description: "Create a Connection"
+sidebar_position: 30
+---
+
 # Create a Connection
 
 How to create a
@@ -80,7 +86,7 @@ One connector can contain several connections, and each connection contains one 
 > For example, an `AD` connector, that will handle synchronization and provisioning between Identity
 > Manager and an AD, would generally use the `Directory/Active Directory` package which can do
 > synchronization and automated provisioning. A second package for manual provisioning,
-> `Ticket/Usercube` could be added to request manual provisioning of administration accounts that
+> `Ticket/identitymanager` could be added to request manual provisioning of administration accounts that
 > need more security.
 
 Each type of package needs its own settings, and secured options can be used to store sensitive
@@ -160,7 +166,7 @@ If the schema couldn't be recovered, then:
 - Check the connection's settings.
 
     > Example: For a CSV connection, ensure that the file paths are written correctly in full, such
-    > as `C:/UsercubeDemo/Sources/Directory.xlsx`.
+    > as `C:/identitymanagerDemo/Sources/Directory.xlsx`.
 
 You may have a schema that could not be recovered if you work with a system without a direct access
 to the agent. In this case, schema refreshment will fail but that does not mean that there

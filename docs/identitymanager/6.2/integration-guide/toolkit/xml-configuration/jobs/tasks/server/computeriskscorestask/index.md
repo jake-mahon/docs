@@ -1,3 +1,9 @@
+---
+title: "Compute Risk Scores Task"
+description: "Compute Risk Scores Task"
+sidebar_position: 30
+---
+
 # Compute Risk Scores Task
 
 Update risk score with the risk settings.

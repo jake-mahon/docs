@@ -1,3 +1,9 @@
+---
+title: "Create Resource Incremental Access Control Rules"
+description: "Create Resource Incremental Access Control Rules"
+sidebar_position: 10
+---
+
 # Create Resource Incremental Access Control Rules
 
 Generates the access control rule which gives to a profile the permission to query the resources

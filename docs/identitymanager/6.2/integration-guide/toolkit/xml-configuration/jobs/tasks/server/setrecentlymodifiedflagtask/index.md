@@ -1,3 +1,9 @@
+---
+title: "Set Recently Modified Flag Task"
+description: "Set Recently Modified Flag Task"
+sidebar_position: 210
+---
+
 # Set Recently Modified Flag Task
 
 When synchronizing in full or incremental mode, it is possible to optimize the compute performance

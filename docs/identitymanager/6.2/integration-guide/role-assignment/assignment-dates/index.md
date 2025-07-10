@@ -1,3 +1,9 @@
+---
+title: "Assignment Dates"
+description: "Assignment Dates"
+sidebar_position: 20
+---
+
 # Assignment Dates
 
 Entitlements can be assigned to users manually or automatically, but not on any time period. See the

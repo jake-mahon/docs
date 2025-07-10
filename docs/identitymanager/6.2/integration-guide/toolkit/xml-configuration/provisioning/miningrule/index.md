@@ -1,3 +1,9 @@
+---
+title: "Mining Rule"
+description: "Mining Rule"
+sidebar_position: 80
+---
+
 # Mining Rule
 
 After roles are assigned to users, Identity Manager can use mining rules to perform role mining.

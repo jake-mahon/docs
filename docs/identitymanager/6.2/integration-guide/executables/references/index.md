@@ -1,6 +1,12 @@
+---
+title: "References: Executables"
+description: "References: Executables"
+sidebar_position: 10
+---
+
 # References: Executables
 
-- [ Identity Manager-Agent ](/docs/identitymanager/6.2/integration-guide/executables/references/agent/index.md)
+- [Usercube-Agent ](/docs/identitymanager/6.2/integration-guide/executables/references/agent/index.md)
 
     Runs the Agent.
 
@@ -103,7 +109,7 @@
 
     Provides an authentication token needed for SaaS configuration deployment/export.
 
-- [ Identity Manager-Manage-Configuration Dependent Indexes ](/docs/identitymanager/6.2/integration-guide/executables/references/manage-configurationdependantindexes/index.md)
+- [ Usercube-Manage-Configuration Dependent Indexes ](/docs/identitymanager/6.2/integration-guide/executables/references/manage-configurationdependantindexes/index.md)
 
     Creates the necessary indexes based on the latest deployed configuration to optimize
     performances.
@@ -163,7 +169,7 @@
 
     Runs all the migration scripts to upgrade the database.
 
-- [ Identity Manager-Agent ](/docs/identitymanager/6.2/integration-guide/executables/references/agent/index.md)
+- [Usercube-Agent ](/docs/identitymanager/6.2/integration-guide/executables/references/agent/index.md)
 
     Runs the Agent.
 

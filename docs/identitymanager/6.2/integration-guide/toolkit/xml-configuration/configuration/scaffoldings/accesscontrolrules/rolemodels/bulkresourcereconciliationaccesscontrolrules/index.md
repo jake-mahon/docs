@@ -1,3 +1,9 @@
+---
+title: "Bulk Resource Reconciliation Access Control Rules"
+description: "Bulk Resource Reconciliation Access Control Rules"
+sidebar_position: 30
+---
+
 # Bulk Resource Reconciliation Access Control Rules
 
 The following example assigns to the Administrator profile the rights to reconcile simultaneously

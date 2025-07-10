@@ -1,3 +1,9 @@
+---
+title: "Universe Access Control Rules"
+description: "Universe Access Control Rules"
+sidebar_position: 40
+---
+
 # Universe Access Control Rules
 
 Generates an access control rule which gives a profile the permission to access the query page and

@@ -1,3 +1,9 @@
+---
+title: "Indirect Permissions"
+description: "Indirect Permissions"
+sidebar_position: 120
+---
+
 # Indirect Permissions
 
 Identity Manager can compute, for a given identity, permissions that are obtained implicitly or
@@ -69,7 +75,7 @@ started in the managed system and if a correspondence is found, the computation 
 the external system. Correspondences won't be checked in the external system.
 
 An example of an Indirect Resource Rule configuration is available in How-To:
-[ Configure Indirect Permissions ](/docs/identitymanager/6.2/integration-guide/role-assignment/how-tos/configureindirectpermissions/index.md) in an Active
+[ Configure Indirect Permissions ](/docs/identitymanager/6.2/integration-guide/role-assignment/configureindirectpermissions/index.md) in an Active
 Directory.
 
 ## What Can Be an Indirect Permission?

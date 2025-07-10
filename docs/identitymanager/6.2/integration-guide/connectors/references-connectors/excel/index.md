@@ -1,3 +1,9 @@
+---
+title: "Microsoft Excel"
+description: "Microsoft Excel"
+sidebar_position: 140
+---
+
 # Microsoft Excel
 
 This connector exports datasheets from a
@@ -54,8 +60,8 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "HRContoso": {
->       "Path": "C:/UsercubeContoso/Contoso/hr_conto(.*?).xlsx",
->       "PathIncremental": "C:/UsercubeContoso/Contoso/hr_delta_conto(.*?).xlsx",
+>       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).xlsx",
+>       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).xlsx",
 >       "IsFileNameRegex": "true",
 >       "SheetOptions": [
 >         {
@@ -99,9 +105,9 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
-folder a CSV file per spreadsheet included in the export, named `<connectionIdentifier>_<index>.csv`
-where `<index>` is the spreadsheet's index.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder a CSV file per spreadsheet included in the export, named
+`<connectionIdentifier>_<index>.csv` where `<index>` is the spreadsheet's index.
 
 Note that `0` is the first index, not `1`.
 

@@ -1,3 +1,9 @@
+---
+title: "Set Resources' Display Names"
+description: "Set Resources' Display Names"
+sidebar_position: 50
+---
+
 # Set Resources' Display Names
 
 How to change the value of the display name for resources of an

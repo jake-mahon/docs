@@ -1,3 +1,9 @@
+---
+title: "API query grammar"
+description: "API query grammar"
+sidebar_position: 20
+---
+
 # API query grammar
 
 Identity Manager's API query language allows to express exactly needed data in an API's GET call.
@@ -19,7 +25,7 @@ script in the command line.
     contained = "contained in" , "(" , '"' , date , '"' , "," , '"' , date , '"' , ")" ;
     joins = join , { join } ;
     join = "join" , binding ( "of type" identifier ) , alias ;
-    binding = \[alias , "."\] , property ;
+    binding = [alias , "."] , property ;
     property = identifier ;
     alias = identifier ;
     identifier = letter , { letter | digit | "_" } ;
@@ -34,7 +40,7 @@ script in the command line.
     comparison = binding , operator , rightOperand ;
     rightOperand = value | binding ;
     operator = "=" | "!=" | "<" | ">" | "<=" | ">=" | "%=" | "=%" | "%=%" | "!%=" | "!=%" | "!%=%" | "&=" ;
-    value = integer | boolean | '"' , string , '"' | "null" | '"' , date , '"';
+    value = integer | boolean | '"' , string , '"' | "null" | '"' , date , '";
     boolean = "false" | "true"
     date = yyyy-mm-ddThh:mm:ssZ
     orderby = "order by" , binding , sortdirection , { "," ,  binding , sortdirection }
@@ -46,10 +52,10 @@ script in the command line.
 
 - **=** : Equal.
 - **!=** : Not Equal.
-- **\<** : Less than.
-- **\>** : Greater than.
-- **\<=** : Less than or equal.
-- **\>=** : Greater than or equal.
+- **`<`** : Less than.
+- **`>`** : Greater than.
+- **`<=`** : Less than or equal.
+- **`>=`** : Greater than or equal.
 - **%=** : Start with.
 - **=%** : End with.
 - **%=%** : Contain.

@@ -30,7 +30,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Nasuni Edge Appliance host to the Activity Monitor, the prerequisites for the
 target environment must be met. See the
-[Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_1.md) topic
+[Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/nasuni-activity.md) topic
 for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for

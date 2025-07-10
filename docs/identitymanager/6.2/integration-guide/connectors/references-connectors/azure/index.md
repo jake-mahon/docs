@@ -1,3 +1,9 @@
+---
+title: "Azure"
+description: "Azure"
+sidebar_position: 20
+---
+
 # Azure
 
 This connector exports
@@ -53,7 +59,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     ...
 >     "AzureExport": {
 >         "ApplicationId": "contosoAzure897",
->         "ApplicationKey": "25d408a1925d4c081925b\\d40819",
+>         "ApplicationKey": "25d408a1925d4c081925b\d40819",
 >         "SubscriptionId": "Contoso",
 >         "TenantId": "25d40819-f23f-4837-9d50-a9a52da50b8c",
 >         "AzurePath": "https://management.azure.com/.default",
@@ -80,7 +86,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md) folder the following CSV files:
+This connector is meant to generate to the Export Output folder the following CSV files:
 
 ```<identifier>_RoleDefinition.csv``` with the following columns:
 
@@ -107,6 +113,8 @@ This connector is meant to generate to the [Application Settings](/docs/identity
 - __roleDefinitionId__: role definition's Azure id;
 - __principalId__: Microsoft Entra ID (formerly Microsoft Azure AD)'s object GUID;
 - __scope__: resource's Azure id.
+
+See the [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)topic for additional information.
 
 ## Fulfill
 

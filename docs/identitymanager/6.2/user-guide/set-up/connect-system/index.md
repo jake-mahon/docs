@@ -1,3 +1,9 @@
+---
+title: "Connect to a Managed System"
+description: "Connect to a Managed System"
+sidebar_position: 60
+---
+
 # Connect to a Managed System
 
 How to create a new
@@ -89,7 +95,7 @@ Identity Manager's connectors all operate on the same basic principles. Technica
   and the managed system;
 
     > We want to use a connection `Directory/Active Directory` to perform synchronization and
-    > automated provisioning, and a second connection `Ticket/Usercube` to perform manual
+    > automated provisioning, and a second connection `Ticket/identitymanager` to perform manual
     > provisioning through Identity Manager.
 
     You can find standard connections dedicated to one application (AD, Microsoft Entra ID, etc.),
@@ -134,7 +140,7 @@ functional and technical details of the application.
 | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Administrator account for the Development Environment (required) Identity repository (required) User Profile (required) | Connector Connected System |
 
-See the [Install the Development Environment,](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md), and
 [ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topics for additional
 information.

@@ -1,3 +1,9 @@
+---
+title: "Implement Identity Manager"
+description: "Implement Identity Manager"
+sidebar_position: 40
+---
+
 # Implement Identity Manager
 
 How to actually implement Identity Manager solution.

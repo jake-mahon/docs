@@ -1,3 +1,9 @@
+---
+title: "Architecture"
+description: "Architecture"
+sidebar_position: 20
+---
+
 # Architecture
 
 Identity Manager is built to work via a specific architecture made of a server, an agent and a
@@ -35,7 +41,7 @@ Let's learn about Identity Manager [Configuration](/docs/identitymanager/6.2/int
 
 ## Learn More
 
-Learn more on Identity Manager's Architecture.
+Learn more on Identity Manager's Architecture .
 
 See the [Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md) topic for
 additional information.

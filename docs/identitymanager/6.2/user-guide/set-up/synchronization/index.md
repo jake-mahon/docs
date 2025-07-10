@@ -1,3 +1,9 @@
+---
+title: "Synchronize Data"
+description: "Synchronize Data"
+sidebar_position: 70
+---
+
 # Synchronize Data
 
 How to launch data synchronization, i.e. read managed systems' data and load it into Identity
@@ -143,7 +149,7 @@ Identity Manager:
 See the
 [ Set Up Incremental Synchronization ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
 and
-[ Set up Complete Synchronization ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
+[Set up Complete Synchronization](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
 topics for additional information.
 
 Scheduling the jobs avoids manually triggering them everyday.

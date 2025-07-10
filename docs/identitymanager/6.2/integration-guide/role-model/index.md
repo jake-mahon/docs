@@ -1,3 +1,9 @@
+---
+title: "Role Model"
+description: "Role Model"
+sidebar_position: 80
+---
+
 # Role Model
 
 The role model, with its computation and enforcement, is at the heart of Identity Manager's engine.
@@ -46,17 +52,13 @@ rules, but it does not override the managed systems' authorization mechanisms.
 
 The company's policy for entitlement assignment is enforced by Identity Manager with the computation
 of the role model, through the
-[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute Role Model Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 It applies all the configured rules, thus:
 
-- helping build a catalog of all available entitlements in the managed systems, see
-  [ Create Roles in Bulk ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md);
+- helping build a catalog of all available entitlements in the managed systems; See the
+  [Create Roles in Bulk](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
 - helping build the rules that define the assignment policy, i.e. the expected entitlement
-  assignments for all users, see
-  the[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md);
-- automating entitlement assignment, see
-  [ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md);
-- generating the provisioning orders that enable writing to the managed systems, see
-  [ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md);
-- detecting assignments in the managed systems that do not comply with the policy, see the
-  [ Review Non-conforming Assignments ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/index.md).
+  assignments for all users; See the[Perform Role Mining](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) topic for additional information.
+- automating entitlement assignment; See the [Automate Role Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional information.
+- generating the provisioning orders that enable writing to the managed systems; See the [Create a Provisioning Rule](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) topic for additional information.
+- detecting assignments in the managed systems that do not comply with the policy; See the[Review Non-conforming Assignments](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/index.md) topic for additional information.

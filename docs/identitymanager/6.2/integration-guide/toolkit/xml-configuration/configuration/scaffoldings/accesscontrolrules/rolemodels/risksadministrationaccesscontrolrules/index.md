@@ -1,3 +1,9 @@
+---
+title: "Risks Administration Access Control Rules"
+description: "Risks Administration Access Control Rules"
+sidebar_position: 130
+---
+
 # Risks Administration Access Control Rules
 
 ## Examples

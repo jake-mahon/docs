@@ -1,3 +1,9 @@
+---
+title: "Indirect Resource Rule"
+description: "Indirect Resource Rule"
+sidebar_position: 70
+---
+
 # Indirect Resource Rule
 
 An indirect resource rule is a link between a resource and its indirect groups, equivalent in
@@ -12,7 +18,7 @@ script in the command line.
 
 ```
 <IndirectResourceRule
-    ResourceType="AzureAD_DirectoryObject_NominativeUser"
+    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"
     Property="memberOf"
     Correspondence="SharePointObject"
     CorrespondenceMembershipProperty="Group"

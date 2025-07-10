@@ -1,4 +1,10 @@
-# Provisioning Access Control Rules
+---
+title: "ProvisioningAccessControlRules"
+description: "ProvisioningAccessControlRules"
+sidebar_position: 50
+---
+
+# ProvisioningAccessControlRules
 
 This scaffolding creates, within a universe, entity instances and association instances based on a
 predefined template.

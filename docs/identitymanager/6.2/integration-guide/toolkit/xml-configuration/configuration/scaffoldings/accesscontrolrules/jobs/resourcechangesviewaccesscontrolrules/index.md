@@ -1,4 +1,10 @@
-# Resource Changes View Access Control Rules
+---
+title: "ResourceChangesViewAccessControlRules"
+description: "ResourceChangesViewAccessControlRules"
+sidebar_position: 60
+---
+
+# ResourceChangesViewAccessControlRules
 
 Generates the access control rules which gives to a profile the permissions to call the API
 `ResourceChange`, `ResourceFileChange` and `ResourceLinkChange`.

@@ -1,3 +1,9 @@
+---
+title: "Service Now Resource Type Mapping"
+description: "Service Now Resource Type Mapping"
+sidebar_position: 80
+---
+
 # Service Now Resource Type Mapping
 
 Any resource type mapping must be configured with the same identifier as the related resource type.

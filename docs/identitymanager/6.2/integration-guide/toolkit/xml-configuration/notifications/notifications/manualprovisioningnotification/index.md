@@ -1,3 +1,9 @@
+---
+title: "Manual Provisioning Notification"
+description: "Manual Provisioning Notification"
+sidebar_position: 20
+---
+
 # Manual Provisioning Notification
 
 Reminder notification concerning manual provisioning.

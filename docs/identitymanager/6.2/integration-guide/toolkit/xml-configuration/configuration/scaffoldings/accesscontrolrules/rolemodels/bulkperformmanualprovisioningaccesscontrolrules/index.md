@@ -1,3 +1,9 @@
+---
+title: "Bulk Perform Manual Provisioning Access Control Rules"
+description: "Bulk Perform Manual Provisioning Access Control Rules"
+sidebar_position: 20
+---
+
 # Bulk Perform Manual Provisioning Access Control Rules
 
 The following example assigns permissions to the `Administrator` profile, allowing the simultaneous

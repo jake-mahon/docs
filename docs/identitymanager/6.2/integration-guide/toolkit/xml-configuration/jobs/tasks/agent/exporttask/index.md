@@ -1,3 +1,9 @@
+---
+title: "Export Task"
+description: "Export Task"
+sidebar_position: 30
+---
+
 # Export Task
 
 Runs the specified connection's export.

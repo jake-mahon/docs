@@ -1,3 +1,9 @@
+---
+title: "Home Folders"
+description: "Home Folders"
+sidebar_position: 140
+---
+
 # Home Folders
 
 Manages Home Folders.

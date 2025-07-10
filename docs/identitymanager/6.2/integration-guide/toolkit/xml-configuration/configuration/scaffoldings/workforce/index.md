@@ -1,3 +1,9 @@
+---
+title: "Workforce"
+description: "Workforce"
+sidebar_position: 60
+---
+
 # Workforce
 
 - [ Bootstrap Module ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/workforce/bootstrapmodule/index.md) Generates the default settings required to start
