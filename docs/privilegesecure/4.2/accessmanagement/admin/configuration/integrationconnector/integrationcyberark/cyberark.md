@@ -19,6 +19,7 @@ Allows the rest call to skip the certificate check for the built-in check out st
 Supply a PowerShell script block to be used for checking out password from CyberArk. The script
 block will be called with two arguments. It is recommended to use a param() block as follows:
 
+```powershell
 param(
 
         [Parameter(Mandatory = $true)]
@@ -30,6 +31,7 @@ $Options,
         $Credential
 
     )
+```
 
 The scriptblock must return the updated $Credential setting the Username, Domain and Password value
 to the values that represent the information for the account checked out. The default implementation
