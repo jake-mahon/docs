@@ -38,7 +38,7 @@ Follow the steps to create a static group.
     Only users can be set as primary owners. You can specify multiple primary owners for a group. At
     least one primary owner is mandatory.
 
-6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click Finish to complete the wizard.
 
 ## Create a Smart Group
@@ -74,5 +74,5 @@ Follow the steps to create a Smart Group.
         notifications if the administrator has included its email address for job-specific
         notifications.
 
-6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click **Finish** to complete the wizard.

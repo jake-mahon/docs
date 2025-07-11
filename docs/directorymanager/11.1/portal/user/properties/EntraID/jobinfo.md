@@ -7,7 +7,7 @@ sidebar_position: 40
 # User properties - Job Info tab
 
 The Job Info tab is similar to the
-[Object properties - Organization tab](/docs/directorymanager/11.1/portal/user/properties/activedirectory/useroverview/organization.md) in user properties, with
+[Object properties - Organization tab](/docs/directorymanager/11.1/portal/user/properties/AD/useroverview/organization.md) in user properties, with
 the addition of two fields: Title and Department.
 
 Title

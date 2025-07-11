@@ -21,15 +21,15 @@ select **Mailbox**.
 
 The Create Mailbox wizard opens to the Account page.
 
-Step 2 – On the [Account page](/docs/directorymanager/11.1/portal/user/create/activedirectory/account.md), specify basic account info, such as the object's
+Step 2 – On the [Account page](/docs/directorymanager/11.1/portal/user/create/AD/account.md), specify basic account info, such as the object's
 first name, last name, login ID and the UPN suffix.
 
-Step 3 – On the [Password page](/docs/directorymanager/11.1/portal/user/create/activedirectory/password.md), provide a password for the mailbox account and set
+Step 3 – On the [Password page](/docs/directorymanager/11.1/portal/user/create/AD/password.md), provide a password for the mailbox account and set
 other password-specific options.
 
-Step 4 – On the [Exchange page](/docs/directorymanager/11.1/portal/user/create/activedirectory/exchange.md), set the alias and Office 365 subscriptions.
+Step 4 – On the [Exchange page](/docs/directorymanager/11.1/portal/user/create/AD/exchange.md), set the alias and Office 365 subscriptions.
 
-Step 5 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and then click **Finish** to
+Step 5 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and then click **Finish** to
 complete the wizard.
 
 NOTE: If the Directory Manager administrator has specified the mailbox creation action for review,

@@ -30,7 +30,7 @@ Follow the steps to create a static group.
 3. On the [General page](/docs/directorymanager/11.1/portal/group/create/AD/general.md), specify basic information about the group.
 4. On the [Members page](/docs/directorymanager/11.1/portal/group/create/AD/members.md), specify members for the group.
 5. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional owners for the group.
-6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click Finish to complete the wizard.
 
 ## Create a Smart Group
@@ -64,7 +64,7 @@ Follow the steps to create a Smart Group:
     notifications if the administrator has included its email address for job-specific
     notifications.
 
-6. On the [1](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and then click
+6. On the [1](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and then click
    Finish to complete the wizard.
 
 ## Create a Password Expiry Group
@@ -97,5 +97,5 @@ Follow the steps to create a Password Expiry Group:
     notifications if the administrator has included its email address for job-specific
     notifications.
 
-6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+6. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click Finish to complete the wizard.

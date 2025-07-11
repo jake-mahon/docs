@@ -98,7 +98,7 @@ Follow the steps to create a dynasty using the Organization/Geographical/Custom 
     notifications if the administrator has included its email address for job-specific
     notifications.
 
-7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click **Finish** to complete the wizard.
 
 ## Create a Dynasty using the Managerial template
@@ -150,5 +150,5 @@ Follow the steps to create a dynasty using the Managerial template.
      In case you change the owner, the new recipient would be the Dynasty’s primary owner even if
     the **Set Manager as owner** check box is selected.
 
-7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings and
+7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click **Finish** to complete the wizard.

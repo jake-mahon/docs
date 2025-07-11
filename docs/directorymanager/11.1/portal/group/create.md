@@ -33,5 +33,5 @@ membership on the [ Smart Group page](/docs/directorymanager/11.1/portal/group/c
 Step 8 – On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
 owners for the group.
 
-Step 9 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/activedirectory/summary.md), review the settings
+Step 9 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings
 and then click Finish to complete the wizard.
