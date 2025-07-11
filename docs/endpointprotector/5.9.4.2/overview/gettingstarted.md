@@ -73,7 +73,7 @@ information.
     - Create custom scan policies to identify sensitive data at rest on endpoint systems.
     - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
 
-See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/module.md) topic for additional more information.
+See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/edmodule.md) topic for additional more information.
 
 ## Configuring the User Experience
 
