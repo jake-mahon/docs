@@ -85,5 +85,5 @@ select a global setting to configure:
     - Creating a Storage Profiles requires Microsoft® SQL® Server information
 
 See the
-[Getting Started](/docs/accessanalyzer/11.6/overview/gettingstarted.md) topic
+[Getting Started](/docs/accessanalyzer/11.6/gettingstarted.md) topic
 for additional information.

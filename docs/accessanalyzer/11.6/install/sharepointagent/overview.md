@@ -19,7 +19,7 @@ For information on the required prerequisites and permissions, see the
 topic.
 
 The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/docs/accessanalyzer/11.6/overview/whatsnew.md) topic for
+[What's New](/docs/accessanalyzer/11.6/whatsnew.md) topic for
 additional information.
 
 ## Supported Platforms
