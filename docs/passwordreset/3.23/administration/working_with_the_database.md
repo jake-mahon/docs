@@ -1,3 +1,9 @@
+---
+title: "Working with the Database"
+description: "Working with the Database"
+sidebar_position: 60
+---
+
 # Working with the Database
 
 The APR Server stores user and event information in a database. The default database is Microsoft

@@ -1,3 +1,9 @@
+---
+title: "Configuring Password Reset"
+description: "Configuring Password Reset"
+sidebar_position: 30
+---
+
 # Configuring Password Reset
 
 In the previous section, you used Password Reset with a default configuration. You can use the

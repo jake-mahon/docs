@@ -1,3 +1,9 @@
+---
+title: "Editing the HTML Templates"
+description: "Editing the HTML Templates"
+sidebar_position: 80
+---
+
 # Editing the HTML Templates
 
 Password Reset's user interface is built with customizable templates. You can easily modify the user

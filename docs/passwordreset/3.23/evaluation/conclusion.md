@@ -1,3 +1,9 @@
+---
+title: "Conclusion"
+description: "Conclusion"
+sidebar_position: 70
+---
+
 # Conclusion
 
 Congratulations! You have successfully installed, configured, and used Netwrix Password Reset. This
