@@ -1,3 +1,9 @@
+---
+title: "Reports with Video"
+description: "Reports with Video"
+sidebar_position: 30
+---
+
 # Reports with Video
 
 Netwrix Auditor can be configured to capture video of user activity on the monitored computers that

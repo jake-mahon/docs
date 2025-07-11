@@ -1,3 +1,9 @@
+---
+title: "IT Risk Assessment Dashboard"
+description: "IT Risk Assessment Dashboard"
+sidebar_position: 10
+---
+
 # IT Risk Assessment Dashboard
 
 To access the Risk Assessment dashboard, click the corresponding tile in the main window.

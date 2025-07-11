@@ -1,3 +1,9 @@
+---
+title: "Network Devices"
+description: "Network Devices"
+sidebar_position: 80
+---
+
 # Network Devices
 
 To configure your network devices for monitoring perform the following procedures, depending on your

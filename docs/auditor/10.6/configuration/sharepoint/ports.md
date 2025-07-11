@@ -1,3 +1,9 @@
+---
+title: "SharePoint Ports"
+description: "SharePoint Ports"
+sidebar_position: 10
+---
+
 # SharePoint Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for SharePoint.

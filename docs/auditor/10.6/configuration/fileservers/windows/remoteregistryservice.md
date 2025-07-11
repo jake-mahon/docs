@@ -1,3 +1,9 @@
+---
+title: "Enable Remote Registry Service"
+description: "Enable Remote Registry Service"
+sidebar_position: 60
+---
+
 # Enable Remote Registry Service
 
 Follow the steps to enable the Remote Registry service.

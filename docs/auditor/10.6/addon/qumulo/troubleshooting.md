@@ -1,3 +1,9 @@
+---
+title: "Maintenance and Troubleshooting"
+description: "Maintenance and Troubleshooting"
+sidebar_position: 50
+---
+
 # Maintenance and Troubleshooting
 
 (Undefined variable: Add-on.Addon_Qumulo) operations are logged into the **SyslogService.txt** file.

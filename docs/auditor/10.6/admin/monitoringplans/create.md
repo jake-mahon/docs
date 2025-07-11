@@ -1,3 +1,9 @@
+---
+title: "Create a New Monitoring Plan"
+description: "Create a New Monitoring Plan"
+sidebar_position: 10
+---
+
 # Create a New Monitoring Plan
 
 To create monitoring plans, user account must be assigned the _Global administrator_ in Auditor.

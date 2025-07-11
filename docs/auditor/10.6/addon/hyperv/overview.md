@@ -1,3 +1,9 @@
+---
+title: "Hyper-V SCVMM"
+description: "Hyper-V SCVMM"
+sidebar_position: 80
+---
+
 # Hyper-V SCVMM
 
 Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables

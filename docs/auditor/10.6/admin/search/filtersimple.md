@@ -1,3 +1,9 @@
+---
+title: "Use Filters in Simple Mode"
+description: "Use Filters in Simple Mode"
+sidebar_position: 10
+---
+
 # Use Filters in Simple Mode
 
 Filters are used to narrow your search results. To create a unique set of filters, you can:

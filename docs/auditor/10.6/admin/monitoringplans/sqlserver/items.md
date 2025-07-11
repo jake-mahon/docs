@@ -1,3 +1,9 @@
+---
+title: "Add Item to the SQL Server"
+description: "Add Item to the SQL Server"
+sidebar_position: 10
+---
+
 # Add Item to the SQL Server
 
 Perform the following steps to add an item to the SQL Server monitoring plan.

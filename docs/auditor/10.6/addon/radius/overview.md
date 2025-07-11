@@ -1,3 +1,9 @@
+---
+title: "RADIUS Server"
+description: "RADIUS Server"
+sidebar_position: 180
+---
+
 # RADIUS Server
 
 Netwrix Auditor Add-on for RADIUS Server tracks user and device logon activity on a Windows Server

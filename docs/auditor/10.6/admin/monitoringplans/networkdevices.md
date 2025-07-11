@@ -1,3 +1,9 @@
+---
+title: "Network Devices"
+description: "Network Devices"
+sidebar_position: 130
+---
+
 # Network Devices
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

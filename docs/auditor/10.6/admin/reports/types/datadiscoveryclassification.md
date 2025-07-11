@@ -1,3 +1,9 @@
+---
+title: "Data Discovery and Classification Reports"
+description: "Data Discovery and Classification Reports"
+sidebar_position: 30
+---
+
 # Data Discovery and Classification Reports
 
 Follow the steps to review Data Discovery and Classification reports:

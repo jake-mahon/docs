@@ -1,3 +1,9 @@
+---
+title: "Windows Server Registry Keys"
+description: "Windows Server Registry Keys"
+sidebar_position: 110
+---
+
 # Windows Server Registry Keys
 
 Review the basic registry keys that you may need to configure for monitoring Windows Server with

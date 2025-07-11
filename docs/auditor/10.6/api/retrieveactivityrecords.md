@@ -1,3 +1,9 @@
+---
+title: "Retrieve Activity Records"
+description: "Retrieve Activity Records"
+sidebar_position: 40
+---
+
 # Retrieve Activity Records
 
 ## Endpoint

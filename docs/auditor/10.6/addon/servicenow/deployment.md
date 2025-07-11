@@ -1,3 +1,9 @@
+---
+title: "Deploy the Service"
+description: "Deploy the Service"
+sidebar_position: 40
+---
+
 # Deploy the Service
 
 Follow the steps to deploy the service.

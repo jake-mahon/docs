@@ -1,3 +1,9 @@
+---
+title: "Response Status Codes"
+description: "Response Status Codes"
+sidebar_position: 100
+---
+
 # Response Status Codes
 
 | Code                         | Status  | Write Activity Records                                                                                                                                                                              | Retrieve, search Activity Records                                                                                                                                                                                                                               |

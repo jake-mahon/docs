@@ -1,3 +1,9 @@
+---
+title: "Configure Removable Storage Media for Monitoring"
+description: "Configure Removable Storage Media for Monitoring"
+sidebar_position: 80
+---
+
 # Configure Removable Storage Media for Monitoring
 
 You can configure IT infrastructure for monitoring removable storage media both locally and

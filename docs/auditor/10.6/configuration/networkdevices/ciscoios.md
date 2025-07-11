@@ -1,3 +1,9 @@
+---
+title: "Configure Cisco IOS Devices"
+description: "Configure Cisco IOS Devices"
+sidebar_position: 30
+---
+
 # Configure Cisco IOS Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

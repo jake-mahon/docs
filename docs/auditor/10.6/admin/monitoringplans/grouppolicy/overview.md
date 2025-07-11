@@ -1,3 +1,9 @@
+---
+title: "Group Policy"
+description: "Group Policy"
+sidebar_position: 100
+---
+
 # Group Policy
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

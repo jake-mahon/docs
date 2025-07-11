@@ -1,3 +1,9 @@
+---
+title: "Dell Isilon/PowerScale"
+description: "Dell Isilon/PowerScale"
+sidebar_position: 20
+---
+
 # Dell Isilon/PowerScale
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

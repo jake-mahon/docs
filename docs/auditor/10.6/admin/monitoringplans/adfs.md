@@ -1,3 +1,9 @@
+---
+title: "Active Directory Federation Services"
+description: "Active Directory Federation Services"
+sidebar_position: 50
+---
+
 # Active Directory Federation Services
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

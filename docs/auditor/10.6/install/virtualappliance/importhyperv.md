@@ -1,3 +1,9 @@
+---
+title: "Import Virtual Machine from Image to Hyper-V"
+description: "Import Virtual Machine from Image to Hyper-V"
+sidebar_position: 20
+---
+
 # Import Virtual Machine from Image to Hyper-V
 
 Perform the following steps to import a virtual machine:

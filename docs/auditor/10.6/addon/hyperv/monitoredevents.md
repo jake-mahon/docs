@@ -1,3 +1,9 @@
+---
+title: "Monitoring Scope"
+description: "Monitoring Scope"
+sidebar_position: 50
+---
+
 # Monitoring Scope
 
 Review a full list of the events that can be monitored using the add-on.

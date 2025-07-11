@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting"
+description: "Troubleshooting"
+sidebar_position: 50
+---
+
 # Troubleshooting
 
 This section provides instructions on how to troubleshoot issues that you may encounter while using

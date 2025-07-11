@@ -1,3 +1,9 @@
+---
+title: "Automate Add-On Execution"
+description: "Automate Add-On Execution"
+sidebar_position: 40
+---
+
 # Automate Add-On Execution
 
 After creating a task, wait for the next scheduled run or navigate to **Task Scheduler** and run the

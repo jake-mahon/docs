@@ -1,3 +1,9 @@
+---
+title: "SharePoint Online"
+description: "SharePoint Online"
+sidebar_position: 30
+---
+
 # SharePoint Online
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and
@@ -21,7 +27,7 @@ You can configure your IT Infrastructure for monitoring in the following way:
       [Turn auditing on or off](https://docs.microsoft.com/en-us/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)
       article for additional information.
     - Prepare a Data Collecting Account as described in the
-      [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions.md)
+      [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions/permissions.md)
       topic.
     - Configure required protocols and ports, as described in the
       [SharePoint Online Ports](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/ports.md)

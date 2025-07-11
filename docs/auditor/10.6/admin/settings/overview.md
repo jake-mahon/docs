@@ -1,3 +1,9 @@
+---
+title: "Netwrix Auditor Settings"
+description: "Netwrix Auditor Settings"
+sidebar_position: 20
+---
+
 # Netwrix Auditor Settings
 
 In the Settings section, you can configure product settings, such as default SQL Server instance for

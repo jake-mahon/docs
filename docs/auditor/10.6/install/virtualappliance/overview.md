@@ -1,3 +1,9 @@
+---
+title: "Virtual Deployment Overview"
+description: "Virtual Deployment Overview"
+sidebar_position: 70
+---
+
 # Virtual Deployment Overview
 
 In addition to on-premises deployment, Netwrix Auditor offers the deployment option that can speed

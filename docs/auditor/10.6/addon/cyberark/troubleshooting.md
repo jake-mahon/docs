@@ -1,3 +1,9 @@
+---
+title: "Maintenance and Troubleshooting"
+description: "Maintenance and Troubleshooting"
+sidebar_position: 50
+---
+
 # Maintenance and Troubleshooting
 
 The Add-On operations are logged into the **SyslogService.txt** file. This file is located in the

@@ -1,3 +1,9 @@
+---
+title: "Windows File Servers"
+description: "Windows File Servers"
+sidebar_position: 70
+---
+
 # Windows File Servers
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and
