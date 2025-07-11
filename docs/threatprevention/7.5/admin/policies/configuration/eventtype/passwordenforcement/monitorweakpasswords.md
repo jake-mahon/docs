@@ -11,7 +11,7 @@ creation of weak passwords in your environment.
 
 **NOTE:** See the [Prevent Weak Passwords Use Case](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/preventweakpasswords.md) topic for instructions
 on creating a policy to block weak passwords, which requires the Threat Prevention
-for[ Enterprise Password Enforcer](/docs/threatprevention/7.5/overview/solutions/epe.md) solution.
+for[ Enterprise Password Enforcer](/docs/threatprevention/7.5/solutions/epe.md) solution.
 
 Follow the steps to configure a policy to monitor the creation of weak passwords.
 

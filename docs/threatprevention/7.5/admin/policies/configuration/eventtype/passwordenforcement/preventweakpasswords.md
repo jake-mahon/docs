@@ -10,7 +10,7 @@ Any Threat Prevention license can use the Password Enforcement Event type to pre
 weak passwords in your environment.
 
 **NOTE:** The Threat Prevention Enterprise Password Enforcement solution includes an EPE User
-Feedback module. See the [ Enterprise Password Enforcer](/docs/threatprevention/7.5/overview/solutions/epe.md) topic for
+Feedback module. See the [ Enterprise Password Enforcer](/docs/threatprevention/7.5/solutions/epe.md) topic for
 additional information.
 
 Follow the steps to configure a policy to block the creation of weak passwords.
