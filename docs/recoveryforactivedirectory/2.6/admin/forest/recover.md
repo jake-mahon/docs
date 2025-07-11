@@ -130,7 +130,7 @@ the to-be-restored domain controller.
 
 **Step 10 –** Click **Next**.
 
-![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/confirm.webp)
+![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/2.6/admin/forest/confirm_1.webp)
 
 **Step 11 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**

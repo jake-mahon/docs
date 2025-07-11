@@ -53,7 +53,7 @@ Follow the steps to recover a deleted object.
 
 The Object Restore wizard opens.
 
-![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/objectbackups.webp)
+![Object Restore wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/2.6/admin/activedirectory/objectbackups_1.webp)
 
 **Step 4 –** In the Backup Data section, select a backup date to restore from. Then click **Next**.
 
