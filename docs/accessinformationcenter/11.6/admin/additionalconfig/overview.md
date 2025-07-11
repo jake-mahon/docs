@@ -1,3 +1,9 @@
+---
+title: "Additional Configuration Options"
+description: "Additional Configuration Options"
+sidebar_position: 50
+---
+
 # Additional Configuration Options
 
 In addition to the settings that are available on the Configuration interface, the following

@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 40
+---
+
 # Permissions Report
 
 The Permissions report at the site collection, site, list, library, and folder levels provides a

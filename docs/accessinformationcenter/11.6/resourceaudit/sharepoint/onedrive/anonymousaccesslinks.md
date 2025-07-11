@@ -1,3 +1,9 @@
+---
+title: "Anonymous Access Links Report"
+description: "Anonymous Access Links Report"
+sidebar_position: 10
+---
+
 # Anonymous Access Links Report
 
 The Anonymous Access Links report at the **OneDrive for Business** level displays personal sites

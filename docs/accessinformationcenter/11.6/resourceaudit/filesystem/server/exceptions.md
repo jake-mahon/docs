@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 30
+---
+
 # Exceptions Report
 
 The Exceptions report at the server level provides a list of exceptions that were found within

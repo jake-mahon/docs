@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Details Report"
+description: "Sensitive Content Details Report"
+sidebar_position: 10
+---
+
 # Sensitive Content Details Report
 
 The Sensitive Content Details report at the Team level provides details of files where criteria

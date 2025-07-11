@@ -1,3 +1,9 @@
+---
+title: "Server Summary Report"
+description: "Server Summary Report"
+sidebar_position: 40
+---
+
 # Server Summary Report
 
 The Server Summary report at the **SharePoint** node provides a top-level view of servers and

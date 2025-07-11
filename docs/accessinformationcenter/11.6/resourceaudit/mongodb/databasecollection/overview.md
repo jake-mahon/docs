@@ -1,3 +1,9 @@
+---
+title: "Database & Collection Level Reports"
+description: "Database & Collection Level Reports"
+sidebar_position: 40
+---
+
 # Database & Collection Level Reports
 
 The following reports are available at the database and collection levels:

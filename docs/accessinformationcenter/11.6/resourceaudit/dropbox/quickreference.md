@@ -1,3 +1,9 @@
+---
+title: "Dropbox Reports Quick Reference Guide"
+description: "Dropbox Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Dropbox Reports Quick Reference Guide
 
 The following Dropbox reports are available for selections within the Resources pane.

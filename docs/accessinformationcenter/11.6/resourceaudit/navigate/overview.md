@@ -1,3 +1,9 @@
+---
+title: "Audit Interfaces"
+description: "Audit Interfaces"
+sidebar_position: 10
+---
+
 # Audit Interfaces
 
 The audit interfaces are accessible from the home page of the Access Information Center.
@@ -41,7 +47,7 @@ Reports pane. Reports may consist of multiple tables and graphs.
 ![Results pane](/img/product_docs/accessinformationcenter/11.6/resourceaudit/navigate/resultspane.webp)
 
 Tables and graphs that display at the bottom of the pane vary according to the selected report. See
-the [Data Grid Features](/docs/accessinformationcenter/11.6/general/datagrid.md)
+the [Data Grid Features](/docs/accessinformationcenter/11.6/admin/navigate/datagrid.md)
 topic for additional information on table options. See the individual report topics for specific
 information on columns and displayed data for a report.
 

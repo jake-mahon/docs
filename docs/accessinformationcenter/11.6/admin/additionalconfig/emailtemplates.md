@@ -1,3 +1,9 @@
+---
+title: "Email Templates"
+description: "Email Templates"
+sidebar_position: 40
+---
+
 # Email Templates
 
 The HTML templates used to format notification email can be customized. These templates are designed

@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 40
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report for imported data provides a list of paths and a hit count per table
@@ -31,5 +37,5 @@ were found:
 - Sub File – File name if the sensitive data files reside in a PST file or a ZIP file
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/11.6/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/admin/navigate/datagrid.md) topic
 for additional information.

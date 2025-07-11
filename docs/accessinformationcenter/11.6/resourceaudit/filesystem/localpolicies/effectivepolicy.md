@@ -1,3 +1,9 @@
+---
+title: "Effective Policy Report"
+description: "Effective Policy Report"
+sidebar_position: 10
+---
+
 # Effective Policy Report
 
 The Effective Policy report at the local policy level provides a list of users and groups who are

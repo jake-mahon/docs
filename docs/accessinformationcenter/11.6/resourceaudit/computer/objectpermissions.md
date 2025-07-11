@@ -1,3 +1,9 @@
+---
+title: "Object Permissions Report"
+description: "Object Permissions Report"
+sidebar_position: 70
+---
+
 # Object Permissions Report
 
 The Object Permissions report for a computer object provides details on Active Directory permissions

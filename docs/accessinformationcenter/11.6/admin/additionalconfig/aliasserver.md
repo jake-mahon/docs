@@ -1,3 +1,9 @@
+---
+title: "Alias Server Host Name"
+description: "Alias Server Host Name"
+sidebar_position: 20
+---
+
 # Alias Server Host Name
 
 The Access Information Center can be accessed through a supported browser from a machine within your
