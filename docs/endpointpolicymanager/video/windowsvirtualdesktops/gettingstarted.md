@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started"
 description: "Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started"
-sidebar_position: 10
+sidebar_position: 60
 ---
 
 # Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started
