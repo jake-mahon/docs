@@ -22,7 +22,7 @@ information mentioned above. Users can also be imported into Endpoint Protector 
 Directory.
 
 For detailed information on Active Directory, refer to the
-[Directory Services](/docs/endpointprotector/5.9.4.2/admin/overview_4.md) chapter.
+[Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) chapter.
 
 There are two users created by default during the installation process of Endpoint Protector:
 
@@ -96,7 +96,7 @@ You can manually create a new group at any time by providing the group informati
 Groups can also be imported into Endpoint Protector from Active Directory.
 
 **NOTE:** For detailed information on Active Directory, refer to the
-[Directory Services](/docs/endpointprotector/5.9.4.2/admin/overview_4.md) topic.
+[Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic.
 
 The Actions column offers multiple options related to the group’s management like Edit, Manage
 Rights, Manage Settings, History, and Delete.

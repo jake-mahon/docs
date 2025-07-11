@@ -41,7 +41,7 @@ Endpoint Protector Server to another and aims to correlate the device rights and
 You can also import the devices directly from Active Directory.
 
 **NOTE:** For detailed information on Active Directory, refer to the
-[Directory Services](/docs/endpointprotector/5.9.4.2/admin/overview_4.md) topic.
+[Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic.
 
 ### Priority order
 
@@ -50,7 +50,7 @@ set per Device Types (USB Storage Device, Digital Camera, iPod, Thunderbolt, Chi
 etc.).
 
 **NOTE:** For detailed information, refer to the
-[Directory Services](/docs/endpointprotector/5.9.4.2/admin/overview_4.md) topic.
+[Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic.
 
 If you conﬁgure device rights granularly for all entities, the priority order will be the following,
 starting with the highest:
@@ -128,7 +128,7 @@ You can manually create a new computer at any time by providing the computer par
 information mentioned above or import computers from Active Directory.
 
 For more details about Active Directory, go to the
-[Directory Services](/docs/endpointprotector/5.9.4.2/admin/overview_4.md) topic. You can also assign the computers to
+[Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic. You can also assign the computers to
 the following for a better organization:
 
 - Devices and Computers e.g., several computers within the same oﬃce

@@ -81,7 +81,7 @@ enable the setting on the speciﬁc device from Device Control, Global settings,
 
 - Policy Template – select a custom notiﬁcation from the drop-down list or create one from System
   Parameters, Device Types and Notiﬁcation,
-  [Custom Content Aware Protection Notiﬁcations](/docs/endpointprotector/5.9.4.2\admin\overview_6.md)
+ [Custom Content Aware Protection Notiﬁcations](/docs/endpointprotector/5.9.4.2/admin/systempar.md)
   section
 - Policy Status – enable to set policy status to active
 - Client Notiﬁcations – enable this setting to send notiﬁcations to clients

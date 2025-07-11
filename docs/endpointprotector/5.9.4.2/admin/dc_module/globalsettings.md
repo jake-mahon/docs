@@ -124,7 +124,8 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
     **NOTE:** For this setting to work successfully, enable the Miniﬁlter Driver setting.
 
 - User Remediation Pop-up – this setting is available when the
-  [User Remediation](/docs/endpointprotector/5.9.4.2/admin/overview_6.md#user-remediation) feature is active and enables
+ [User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) feature is active and enables
+[User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) feature is active and enables
   User Remediation pop-up notiﬁcations for end-users.
 - Enforce User Remediation Pop-up - this setting is available only if the User Remediation Pop-up
   setting is enabled. When this setting is enabled, end-users cannot disable User Remediation Pop-up

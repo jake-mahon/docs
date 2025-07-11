@@ -92,7 +92,7 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodul
     - Configure settings such as Time Interval for user actions and User Remediation Pop-up
       notifications.
 
-See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/overview_6.md) topic for more information.
+See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/systempar.md) topic for more information.
 
 ### Setting Up Offline Temporary Password
 
@@ -101,7 +101,7 @@ See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/overview_6.md)
     - Navigate to Offline Temporary Passwords.
     - Generate passwords to provide temporary access rights when User Remediation is unavailable.
 
-See the [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/admin/overview_1.md) topic for more
+See the [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/admin/otpassword.md) topic for more
 information.
 
 ## Deploying Agents
