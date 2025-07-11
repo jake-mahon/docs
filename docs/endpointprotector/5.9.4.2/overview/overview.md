@@ -1,6 +1,6 @@
 ---
-title: "Netwrix Endpoint Protector v5.9.4"
-description: "Netwrix Endpoint Protector v5.9.4"
+title: "Netwrix Endpoint Protector"
+description: "Netwrix Endpoint Protector v5.9.4.3"
 sidebar_position: 10
 ---
 

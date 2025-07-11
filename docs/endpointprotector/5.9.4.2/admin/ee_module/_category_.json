@@ -1,10 +1,10 @@
 {
-  "label": "Denylists and Allowlists",
+  "label": "Enforced Encryption",
   "position": 70,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "eemodule"
   }
 }
