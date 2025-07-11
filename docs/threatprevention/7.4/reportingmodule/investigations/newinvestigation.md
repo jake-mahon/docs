@@ -1,3 +1,9 @@
+---
+title: "New Investigation Page"
+description: "New Investigation Page"
+sidebar_position: 30
+---
+
 # New Investigation Page
 
 The New Investigation page within the Investigations interface enables you to run queries on
@@ -16,7 +22,7 @@ topic for additional information.
 
 Then click **Run Query**. The report data is displayed in the sections below the Filters section.
 See the
-[Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports.md)
+[Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports/reports.md)
 topic for additional information.
 
 **NOTE:** If you run a query without applying filters, the report sections display all activity by

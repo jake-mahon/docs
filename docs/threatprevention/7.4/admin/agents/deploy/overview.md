@@ -1,3 +1,9 @@
+---
+title: "Deploy Agents"
+description: "Deploy Agents"
+sidebar_position: 20
+---
+
 # Deploy Agents
 
 The Threat Prevention Agent can be deployed through any of the following methods:
@@ -10,7 +16,7 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
 See the
-[Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual.md)
+[Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual/manual.md)
 topic for additional information.
 
 ## Deploy Agents Wizard
@@ -19,7 +25,7 @@ The Deploy Agents wizard enables you to deploy Agents from the Administration Co
 targeted for Agent deployment must meet the minimum .NET Framework version required by the Agent or
 the deployment fails. Remember to check server requirements before deploying the Agent, including
 compatibility with other security products. See the
-[Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent.md)
+[Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent/agent.md)
 topic for additional information.
 
 **NOTE:** The wizard does not block access to the Administration Console and can be minimized while

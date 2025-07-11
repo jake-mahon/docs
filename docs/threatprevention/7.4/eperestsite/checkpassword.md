@@ -1,3 +1,9 @@
+---
+title: "Check Password APIs"
+description: "Check Password APIs"
+sidebar_position: 30
+---
+
 # Check Password APIs
 
 You can use APIs to check a candidate password against the EPE rules defined on the

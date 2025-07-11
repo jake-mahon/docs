@@ -1,3 +1,9 @@
+---
+title: "Threats"
+description: "Threats"
+sidebar_position: 30
+---
+
 # Threats
 
 Threat data is available in the full version of Netwrix Threat Manager.

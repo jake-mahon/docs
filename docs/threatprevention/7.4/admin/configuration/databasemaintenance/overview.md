@@ -1,3 +1,9 @@
+---
+title: "Database Maintenance Window"
+description: "Database Maintenance Window"
+sidebar_position: 20
+---
+
 # Database Maintenance Window
 
 The database maintenance function grooms the NVMonitorData database to optimize performance. It
@@ -7,7 +13,7 @@ different operations and retention periods, the Event Type maintenance settings 
 Policy maintenance settings where the selected policy employs that event type.
 
 _Remember,_ See the Database Maintenance Permission details in the
-[Database Maintenance Feature Requirements](/docs/threatprevention/7.4/requirements/dbmaintenance.md)
+[Database Maintenance Feature Requirements](/docs/threatprevention/7.4/requirements/sqlserver/dbmaintenance.md)
 topic for additional information.
 
 See the
@@ -73,7 +79,7 @@ topic for additional information.
 
 **_RECOMMENDED:_** The SQL Server databases should be configured to use 'Simple Recovery Mode' in
 the
-[SQL Server Requirements](/docs/threatprevention/7.4/requirements/sqlserver.md).
+[SQL Server Requirements](/docs/threatprevention/7.4/requirements/sqlserver/sqlserver.md).
 This configuration has a direct impact on the size of the transaction log during database
 maintenance delete tasks. If Simple Recovery Mode is not configured on the databases, the
 transaction log may get quite large during delete tasks.
