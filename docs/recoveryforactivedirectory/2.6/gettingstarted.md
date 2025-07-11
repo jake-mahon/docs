@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Getting Started"
-sidebar_position: 10
+sidebar_position: 4
 ---
 
 # Getting Started
