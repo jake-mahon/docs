@@ -1,3 +1,9 @@
+---
+title: "Registry Inclusion/Exclusion Match Rules"
+description: "Registry Inclusion/Exclusion Match Rules"
+sidebar_position: 20
+---
+
 # Registry Inclusion/Exclusion Match Rules
 
 Similar to **Folder/File Match Rules**, **Registry Key/Value Match Rules** can be defined and used

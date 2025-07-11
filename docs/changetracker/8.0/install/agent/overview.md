@@ -1,3 +1,9 @@
+---
+title: "Agent Installation"
+description: "Agent Installation"
+sidebar_position: 30
+---
+
 # Agent Installation
 
 (missing or bad snippet)

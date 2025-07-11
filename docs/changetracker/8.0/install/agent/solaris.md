@@ -1,3 +1,9 @@
+---
+title: "Installing Express Agent for Solaris (SPARC and Intel)"
+description: "Installing Express Agent for Solaris (SPARC and Intel)"
+sidebar_position: 40
+---
+
 # Installing Express Agent for Solaris (SPARC and Intel)
 
 The Change Tracker Express Agent is a reduced feature but ultra-portable Agent provided for use on

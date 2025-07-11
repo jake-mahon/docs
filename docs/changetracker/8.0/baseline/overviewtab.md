@@ -1,3 +1,9 @@
+---
+title: "Baseline Overview Tab"
+description: "Baseline Overview Tab"
+sidebar_position: 40
+---
+
 # Baseline Overview Tab
 
 Once you have built your Baseline Policy and set-up the Baseline Report to run on a schedule you can
