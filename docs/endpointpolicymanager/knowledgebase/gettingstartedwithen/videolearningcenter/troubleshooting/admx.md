@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Manager: Exclude Processes via ADMX"
 description: "Endpoint Policy Manager: Exclude Processes via ADMX"
-sidebar_position: 10
+sidebar_position: 80
 ---
 
 # Endpoint Policy Manager: Exclude Processes via ADMX

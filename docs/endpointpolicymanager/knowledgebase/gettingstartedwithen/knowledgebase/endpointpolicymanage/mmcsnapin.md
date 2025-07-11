@@ -7,7 +7,7 @@ sidebar_position: 10
 # How do I configure the MMC snap-in to open GPOs in Netwrix Auditor?
 
 For a video overview of this process see
-[Endpoint Policy Manager and Netwrix Auditor - Setup Steps](/docs/endpointpolicymanager/video/integration/auditorsetup.md)
+[Endpoint Policy Manager and Netwrix Auditor - Setup Steps](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/endpointpolicymanage/auditorsetup.md)
 
 **NOTE:** Only the latest Endpoint Policy Manager MMC console supports the Endpoint Policy Manager →
 Netwrix Auditor. Make sure to use the Endpoint Policy Manager download and install the latest MMC

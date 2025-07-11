@@ -34,8 +34,8 @@ See the following Video topics for getting started with Endpoint Policy Manager 
 
 ## Endpoint Policy Manager & Netwrix Auditor
 
-- [Endpoint Policy Manager and Netwrix Auditor - Demo](/docs/endpointpolicymanager/video/integration/auditordemo.md)
-- [Endpoint Policy Manager and Netwrix Auditor - Setup Steps](/docs/endpointpolicymanager/video/integration/auditorsetup.md)
+- [Endpoint Policy Manager and Netwrix Auditor - Demo](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/endpointpolicymanage/auditordemo.md)
+- [Endpoint Policy Manager and Netwrix Auditor - Setup Steps](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/endpointpolicymanage/auditorsetup.md)
 
 ## Methods: SCCM (and Other On-prem Tools) - Deploying Real Microsoft GPO and Endpoint Policy Manager Settings
 

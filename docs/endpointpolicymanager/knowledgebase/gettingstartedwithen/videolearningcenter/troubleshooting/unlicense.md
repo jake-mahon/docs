@@ -1,12 +1,18 @@
-# Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate
+---
+title: "Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate"
+description: "Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate"
+sidebar_position: 60
+---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FC2WRAbmx-o" title="Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+# Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate
 
 If directed by Netwrix Endpoint Policy Manager (formerly PolicyPak) support, you might need to set
 some computers up to stop processing some directives by actively un-licensing all components, then
 re-enabling SOME components. This video shows you how.
 
-i, this is Jeremy. In this video, I'm going to show you how to use the ADMX templates that we have
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FC2WRAbmx-o" title="Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
+Hi, this is Jeremy. In this video, I'm going to show you how to use the ADMX templates that we have
 to narrow down troubleshooting. If you're watching this video, it probably means that we asked you
 to try to figure out where some slowdown is happening.
 

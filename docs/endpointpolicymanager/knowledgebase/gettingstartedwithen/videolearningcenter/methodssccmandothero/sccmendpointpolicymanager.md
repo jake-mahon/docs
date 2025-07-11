@@ -1,3 +1,9 @@
+---
+title: "Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System!"
+description: "Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System!"
+sidebar_position: 30
+---
+
 # Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System!
 
 Do you want to deploy Netwrix Endpoint Policy Manager (formerly PolicyPak) settings, but hate the

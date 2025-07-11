@@ -1,10 +1,16 @@
-# Gathering and Uploading Logs
+---
+title: "Gathering and Uploading Logs"
+description: "Gathering and Uploading Logs"
+sidebar_position: 20
+---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E2mEwYWLtS0?si=zn1hkH5MFLpbzAY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+# Gathering and Uploading Logs
 
 If you are experiencing issues with Netwrix Endpoint Policy Manager (formerly PolicyPak), the first
 step is to collect logs for support to review. Follow the steps in this video to correctly gather
 logs of the issue so support can troubleshoot it quickly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E2mEwYWLtS0?si=zn1hkH5MFLpbzAY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 See the
 [What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/fastsupport.md)

@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Manager Standalone Editor Introduction"
 description: "Endpoint Policy Manager Standalone Editor Introduction"
-sidebar_position: 10
+sidebar_position: 50
 ---
 
 # Endpoint Policy Manager Standalone Editor Introduction

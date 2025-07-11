@@ -1,4 +1,10 @@
-# Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared.
+---
+title: "Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared"
+description: "Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared"
+sidebar_position: 20
+---
+
+# Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7XUB1hWJh9Y" title="Endpoint Policy Manager Solution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 

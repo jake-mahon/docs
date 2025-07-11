@@ -1,16 +1,10 @@
----
-title: "Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app"
-description: "Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app"
-sidebar_position: 20
----
-
 # Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q_LEsCNQlQg" title="Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Users cannot auto-update the Remote Desktop app for Windows Virtual Desktop. With Netwrix Endpoint
 Policy Manager (formerly PolicyPak) though, this is a slam-dunk. See how users on their own laptops
 can keep the WVD Remote Desktop app updated themsevles.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q_LEsCNQlQg" title="Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Hi. This is Jeremy Moskowitz, former 15-year Group Policy MVP and Founder of PolicyPak Software. In
 this video, we're going to learn how to keep the "Remote Desktop" MSI upgraded.

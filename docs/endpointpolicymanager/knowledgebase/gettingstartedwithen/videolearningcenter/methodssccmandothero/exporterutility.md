@@ -1,39 +1,46 @@
-# Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)
+---
+title: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
+description: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
+sidebar_position: 10
+---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1yXhbpAz8uI" title="PolicyPak: Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+# Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)
 
 You might want to avoid using Group Policy to deliver Netwrix Endpoint Policy Manager (formerly
 PolicyPak) directives if you are using Intune, SCCM, LanDesk, KACE or similar software for software
 deployment, and your team doesn't want to use Group Policy but wants to use Endpoint Policy Manager.
 See this video to see how it's done.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1yXhbpAz8uI" title="PolicyPak: Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 ### PolicyPak: Deploying PolicyPak directives without Group Policy(PolicyPak Exporter Utility)
 
-Hi, there. This is Whitney from PolicyPak tech support. In this video, I'm going to show you how to
-create real Group Policy and PolicyPak directives and export them for use with out not Group Policy
-method, like your on-prem SCCM or if you're using your own MDM service.
+Hi, there. This is Whitney from Endpoint Policy Manager tech support. In this video, I'm going to
+show you how to create real Group Policy and Endpoint Policy Manager directives and export them for
+use with out not Group Policy method, like your on-prem SCCM or if you're using your own MDM
+service.
 
 By now, you've probably seen a lot of great videos showing you a bunch of awesome things that
-PolicyPak can do: delivering settings using Group Policy, giving single applications elevated rights
-for standard users, you can
+Endpoint Policy Manager can do: delivering settings using Group Policy, giving single applications
+elevated rights for standard users, you can
 [https://www.endpointpolicymanager.com/pp-blog/windows-10-block-websites](https://www.endpointpolicymanager.com/pp-blog/windows-10-block-websites)
 – all kinds of great things.
 
 But what if you aren't using Group Policy? What if you're using SCCM or KACE or LANDESK or you have
-some other reason for wanting to get PolicyPak directives and settings on your workstations but you
-don't want to use Group Policy to do it? Lucky for us, PolicyPak works with whatever you're running,
-and I'm going to show you how. You can also find this information in the Advanced Concepts manual,
-specifically in the section called Deploying PolicyPak On-Prem Suite Directives Without Group
-Policy.
+some other reason for wanting to get Endpoint Policy Manager directives and settings on your
+workstations but you don't want to use Group Policy to do it? Lucky for us, Endpoint Policy Manager
+works with whatever you're running, and I'm going to show you how. You can also find this
+information in the Advanced Concepts manual, specifically in the section called Deploying Endpoint
+Policy Manager On-Prem Suite Directives Without Group Policy.
 
 We will be working with the GPMC to create GPOs with the settings that you want, but then we're
 going to export those settings, wrap them up in an MSI file, and then you can deploy them using
 whatever method you prefer. No Group Policy necessary.
 
-Each component of PolicyPak Suite – the Application Settings Manager, the Admin Templates Manager,
-Browser Router and so on – has a slightly different way to export their settings. So let's walk
-through that quickly. For the sake of this video, I've created a GPO with a few settings in each
-component, so let's go look at how to export the settings on each component.
+Each component of Endpoint Policy Manager Suite – the Application Settings Manager, the Admin
+Templates Manager, Browser Router and so on – has a slightly different way to export their settings.
+So let's walk through that quickly. For the sake of this video, I've created a GPO with a few
+settings in each component, so let's go look at how to export the settings on each component.
 
 For the "Application Settings Manager," which allows you to manage your users' applications, I've
 created a directive here for "WinZip" 14 just as a very simple example. I am going to dictate that
@@ -59,8 +66,8 @@ You'll need to create your settings in your Group Policy "Preferences" here like
 created a "Shortcut" that's going to show up on my desktop.
 
 Now I go down to the "Preferences Manager" and I have two options. I can either right click here and
-"Export this GPO's User-Side GPPrefs settings for PolicyPak Exporter and PolicyPak Cloud" or I can
-"SHOW WIZARD." Either one takes you to the same thing.
+"Export this GPO's User-Side GPPrefs settings for Endpoint Policy Manager Exporter and Endpoint
+Policy Manager Cloud" or I can "SHOW WIZARD." Either one takes you to the same thing.
 
 We'll click "Next." This is the directive, so we'll go ahead and click "Next" here. Here we can
 change the name if we like. I'm happy with this one. You also have the option to do item-level
@@ -73,9 +80,10 @@ the Preferences Manager only with security settings instead. You'll need to go d
 "Trusted Publishers" here.
 
 Now that I've done that, we will go to "Security Settings Manager" and again right click and "Export
-this GPO's User-Side Security Settings for PolicyPak Exporter and PolicyPak Cloud" or "SHOW WIZARD."
-Now please note right here that the following policy types are not supported. Now let's click
-"Next." We see that my settings are in fact "Exportable," so let's click "Next" again.
+this GPO's User-Side Security Settings for Endpoint Policy Manager Exporter and Endpoint Policy
+Manager Cloud" or "SHOW WIZARD." Now please note right here that the following policy types are not
+supported. Now let's click "Next." We see that my settings are in fact "Exportable," so let's click
+"Next" again.
 
 Here we have the option to do item-level targeting again. I'm not going to do that today, so we'll
 go ahead and click "Next" once again. As before, we'll choose where we want to put this: "Security
@@ -108,15 +116,15 @@ You'll create your directives or collections, then export them the same way as y
 Rules Manager." Let's go ahead and "Export as XML." "FAM," "Save" it and we're done.
 
 Now that we've exported these XML files, what are we're going to do with them? Well, since we want
-to deploy our directives using the not Group Policy method, we need to use the PolicyPak Exporter
-Utility. This will wrap up your XML files into a neat little MSI package that can then be deployed
-using whatever software you're the most comfortable with, again, whether that be KACE, SCCM, Intune,
-MobileIron or whatever you have.
+to deploy our directives using the not Group Policy method, we need to use the Endpoint Policy
+Manager Exporter Utility. This will wrap up your XML files into a neat little MSI package that can
+then be deployed using whatever software you're the most comfortable with, again, whether that be
+KACE, SCCM, Intune, MobileIron or whatever you have.
 
-We're going to open up "PolicyPak Exporter Tool" found in the PolicyPak node within the Start menu.
-Then we're going to choose to "Create a new MSI installer." We'll click "Next." Here we have a
-couple of different options, but the one we're going to choose is "Add Existing Files," which will
-be those "XML Files" that we created a little earlier.
+We're going to open up "Endpoint Policy Manager Exporter Tool" found in the Endpoint Policy Manager
+node within the Start menu. Then we're going to choose to "Create a new MSI installer." We'll click
+"Next." Here we have a couple of different options, but the one we're going to choose is "Add
+Existing Files," which will be those "XML Files" that we created a little earlier.
 
 I'm going to choose "WinZip Settings" by way of example, but you can add multiple XML files here.
 You don't have to do just one. Here you can also install for "Users & Groups." Because I created my
@@ -151,18 +159,18 @@ One last thing before we finish up here. I want to show you how the Exporter Too
 MSI that you've already created. Maybe you had an MSI with a gaggle of settings and now you've got a
 new program that you want to manage or your standards changed so you need to update that MSI.
 
-We'll just open up that "PolicyPak Exporter Tool" again. We'll choose "Open an existing MSI
-installer previously generated by this tool for editing." I'm going to choose the one I had already.
-Here you can do as you could before. You can edit your item-level targeting, you can import new XML
-files. You can also, if you choose of course with your new ones, to install for "Computer" or Users
-& Groups and so on. We'll click "Next" again.
+We'll just open up that " Endpoint Policy Manager Exporter Tool" again. We'll choose "Open an
+existing MSI installer previously generated by this tool for editing." I'm going to choose the one I
+had already. Here you can do as you could before. You can edit your item-level targeting, you can
+import new XML files. You can also, if you choose of course with your new ones, to install for
+"Computer" or Users & Groups and so on. We'll click "Next" again.
 
-PolicyPak automatically versions this for you. Also, let's note that the MSIs deployed as an upgrade
-will automatically uninstall old file versions," which is pretty handy. We'll click "Next" again,
-decide where we want to "Save" it, and we're finished once again.
+Endpoint Policy Manager automatically versions this for you. Also, let's note that the MSIs deployed
+as an upgrade will automatically uninstall old file versions," which is pretty handy. We'll click
+"Next" again, decide where we want to "Save" it, and we're finished once again.
 
-If you're looking to get started with PolicyPak, the best first step is to sign up for webinar to
-learn all of the things PolicyPak can do. Then we'll hand over the bits, and you'll be off to the
-races for your very own trial of PolicyPak.
+If you're looking to get started with Endpoint Policy Manager, the best first step is to sign up for
+webinar to learn all of the things Endpoint Policy Manager can do. Then we'll hand over the bits,
+and you'll be off to the races for your very own trial of Endpoint Policy Manager.
 
 Thanks, and we'll see you in the next video.
