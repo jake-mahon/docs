@@ -1,5 +1,5 @@
 ---
-title: "Audit and Compliance Page"
+title: "Audit and Compliance"
 description: "Audit and Compliance Page"
 sidebar_position: 50
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Host Details Page"
+title: "Host Details"
 description: "Host Details Page"
 sidebar_position: 20
 ---

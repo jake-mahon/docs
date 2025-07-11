@@ -1,5 +1,5 @@
 ---
-title: "User Access Page"
+title: "User Access"
 description: "User Access Page"
 sidebar_position: 20
 ---

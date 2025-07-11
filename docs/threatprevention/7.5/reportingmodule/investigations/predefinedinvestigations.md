@@ -1,5 +1,5 @@
 ---
-title: "Predefined Investigations Page"
+title: "Predefined Investigations"
 description: "Predefined Investigations Page"
 sidebar_position: 60
 ---

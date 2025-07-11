@@ -1,5 +1,5 @@
 ---
-title: "My Investigations Page"
+title: "My Investigations"
 description: "My Investigations Page"
 sidebar_position: 70
 ---

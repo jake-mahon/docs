@@ -79,7 +79,7 @@ a list of tags.
 
 **Step 8 –** Select a tag from the table or the navigation pane to view its details.
 
-![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details.webp)
+![Integrations interface displaying the details for a Tag](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/details_4.webp)
 
 This page provides the following information:
 

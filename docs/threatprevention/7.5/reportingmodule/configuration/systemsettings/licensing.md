@@ -1,5 +1,5 @@
 ---
-title: "Licensing Page"
+title: "Licensing"
 description: "Licensing Page"
 sidebar_position: 30
 ---

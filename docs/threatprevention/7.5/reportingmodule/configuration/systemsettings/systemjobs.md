@@ -1,5 +1,5 @@
 ---
-title: "System Jobs Page"
+title: "System Jobs"
 description: "System Jobs Page"
 sidebar_position: 40
 ---

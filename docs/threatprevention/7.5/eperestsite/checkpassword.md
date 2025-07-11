@@ -1,5 +1,5 @@
 ---
-title: "Check Password APIs"
+title: "Check Password"
 description: "Check Password APIs"
 sidebar_position: 30
 ---

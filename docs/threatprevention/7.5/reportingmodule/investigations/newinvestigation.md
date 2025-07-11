@@ -1,5 +1,5 @@
 ---
-title: "New Investigation Page"
+title: "New Investigation"
 description: "New Investigation Page"
 sidebar_position: 30
 ---

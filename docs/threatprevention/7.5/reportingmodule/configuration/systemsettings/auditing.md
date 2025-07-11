@@ -1,5 +1,5 @@
 ---
-title: "Auditing Page"
+title: "Auditing"
 description: "Auditing Page"
 sidebar_position: 10
 ---

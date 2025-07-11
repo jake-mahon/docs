@@ -1,5 +1,5 @@
 ---
-title: "Favorites Page"
+title: "Favorites"
 description: "Favorites Page"
 sidebar_position: 40
 ---
@@ -28,14 +28,10 @@ Click an investigation to open it.
 
 There is an empty star icon beside the name of an investigation not identified as a favorite.
 
-![Empty star showing that investigation is not a favorite](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
-
 Click the star to add the investigation to your Favorites list.
 
 ## Remove an Investigation from Your Favorites
 
 There is a yellow star icon beside the name of an investigation identified as a favorite.
-
-![Favorite investigation star icon selected](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/favoriteselectedtm.webp)
 
 Click the yellow star to remove the investigation from your Favorites list.

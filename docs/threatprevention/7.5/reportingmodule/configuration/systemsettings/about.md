@@ -1,5 +1,5 @@
 ---
-title: "About Threat Manager Page"
+title: "About Threat Manager"
 description: "About Threat Manager Page"
 sidebar_position: 50
 ---
