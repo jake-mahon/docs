@@ -48,8 +48,3 @@ To delete a custom display type:
     - On the **Linked Combo Types** tab, click **Delete** for a linked combo to delete it.
 
 5. Click **Save**.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)

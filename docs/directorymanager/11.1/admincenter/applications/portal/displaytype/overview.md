@@ -53,8 +53,3 @@ You can customize the following for a portal:
 
 NOTE: Design settings are available for a standard Directory Manager portal, and not for a
 Self-Service Password Reset portal.
-
-**See Also**
-
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

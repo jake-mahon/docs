@@ -44,7 +44,3 @@ What do you want to do?
    Types** page. See the [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md) topic.
 9. Click **OK**.
 10. Click **Save** on the **Organizational Hierarchy** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

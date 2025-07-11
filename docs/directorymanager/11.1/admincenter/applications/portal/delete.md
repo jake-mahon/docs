@@ -9,11 +9,6 @@ sidebar_position: 20
 You can delete a portal or a deployment instance of a portal. On deleting a portal, all its
 instances are deleted with it.
 
-What do you want to do?
-
-- Delete a Deployment Instance for a Portal
-- Delete a Portal
-
 ## Delete a Deployment Instance for a Portal
 
 A portal can have multiple deployment instances. When you delete an instance, the following is
@@ -61,8 +56,3 @@ Deleting a portal removes all its deployments and configurations from Directory 
 
 1. In Admin Center, select **Applications** in the left pane.
 2. On the **GroupID Portal** tab, click the ellipsis button for a portal and select **Delete**.
-
-**See Also**
-
-- [Directory Manage Applications](/docs/directorymanager/11.1/admincenter/applications/applications.md)
-- [ Directory Manager Portal](/docs/directorymanager/11.1/admincenter/applications/portal/overview.md)

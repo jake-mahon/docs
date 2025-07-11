@@ -30,7 +30,3 @@ Display Type** wozard:
     [Excel Data File Format](/docs/directorymanager/11.1/admincenter/applications/portal/categories/linkedcombo/fileformat.md) topic.
 
 3. Click **Next**.
-
-See Also
-
-- [Linked Combo Display Type](/docs/directorymanager/11.1/admincenter/applications/portal/categories/linkedcombo/overview.md)

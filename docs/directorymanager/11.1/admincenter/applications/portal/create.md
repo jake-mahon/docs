@@ -43,17 +43,6 @@ As multiple Data services and Security services can be created in Directory Mana
 different Data service and Security service with each deployment instance of a portal. In this way,
 different instances use different services for improved response times and load balancing.
 
-What do you want to do?
-
-- Create a Portal in Native IIS
-- Create a Portal in Remote IIS
-- Create a Portal in Docker
-- Create a Self-Service Password Reset Portal
-- Deploy Another Instance of a Portal
-- Create a Portal by Copying an Existing Portal
-- View the Details of a Portal
-- Launch a Portal
-
 ## Create a Portal in Native IIS
 
 When you create a portal in native IIS, Directory Manager does the following:
@@ -446,8 +435,3 @@ to benefit from the linking.
     the URL from the address bar or from a portal's deployment settings. See the
     [View the Launch URL for an Instance](server/nativeiis.md#view-the-launch-url-for-an-instance)
     topic.
-
-**See Also**
-
-- [Directory Manage Applications](/docs/directorymanager/11.1/admincenter/applications/applications.md)
-- [ Directory Manager Portal](/docs/directorymanager/11.1/admincenter/applications/portal/overview.md)

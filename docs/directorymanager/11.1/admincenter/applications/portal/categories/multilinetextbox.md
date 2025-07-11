@@ -43,9 +43,3 @@ many rows as required while entering data.
    the _Enter_ key to add as many rows as required while entering data.
 8. Click **OK**.
 9. Click Save on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

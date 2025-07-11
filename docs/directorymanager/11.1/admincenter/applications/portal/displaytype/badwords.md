@@ -71,7 +71,3 @@ The bad words check applies to the following:
    bad word check in the portal.  
    You can apply the check any time by enabling the toggle button.
 6. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

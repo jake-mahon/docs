@@ -101,9 +101,3 @@ The API returns the following parameters:
 | data      | Not in use                                                                                                           |
 
 NOTE: Data should be in JSON format.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

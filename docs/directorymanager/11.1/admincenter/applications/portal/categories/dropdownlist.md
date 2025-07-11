@@ -66,9 +66,3 @@ A few drop-down list display types used in the default portal template are:
    The **Default Selection** list contains all values defined in the **Values** area.
 10. Click **OK**.
 11. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

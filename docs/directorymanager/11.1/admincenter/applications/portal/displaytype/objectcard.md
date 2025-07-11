@@ -26,14 +26,6 @@ Notice that the card has three sections, namely:
 - Footer - This section has the _Add To Contact_ and _Send An Email_ buttons. You can choose whether
   you want to display these buttons on the card or not.
 
-What do you want to do?
-
-- Manage the Card Header
-- Manage the Card Footer
-- Specify an Attribute for the Card Body
-- Update the Display Name for an Attribute
-- Remove an Attribute
-
 ## Manage the Card Header
 
 By default, four attributes are specified for display in the card header. You can change the default
@@ -144,8 +136,3 @@ You can remove an attribute from the body of an object card.
    _Contact_, _Group_, or _Mailbox_ to manage the card for.
 6. In the **Name** list, click **Remove** for an attribute to remove it.
 7. Click **Save**.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Specify Attributes for Object List View](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/objectlist.md)

@@ -107,7 +107,3 @@ can update a few details for a button, such as its name and image.
 6. To change the order of buttons on the toolbar, click the equal sign for a button and drag to
    change its position.
 7. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

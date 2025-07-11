@@ -45,11 +45,6 @@ Send As and Send on Behalf lists using the portal.
   Directory for the Send As permission to be set using the portal. For more information, see
   [Access denied when you try to give user "send-as" or "receive as" permission for a Distribution Group in Exchange Server](https://support.microsoft.com/en-us/topic/access-denied-when-you-try-to-give-user-send-as-or-receive-as-permission-for-a-distribution-group-in-exchange-server-505822f4-8dca-7b97-d378-c8416553f6d2).
 
-What do you want to do?
-
-- Set up the Send As Feature
-- Set up the Send on Behalf Feature
-
 ## Set up the Send As Feature
 
 You can provide the Send As setting on any tab of an object’s properties page in the portal. This

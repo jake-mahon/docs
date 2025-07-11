@@ -172,8 +172,3 @@ When you update data in the source file, you must also reload the file for chang
 8. On the **Schema** page, make changes to the relationships, if required, and click **OK**.  
    See the [Linked Combo Type - Schema](/docs/directorymanager/11.1/admincenter/applications/portal/categories/linkedcombo/schema.md) topic for details.
 9. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

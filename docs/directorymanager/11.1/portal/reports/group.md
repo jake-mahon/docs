@@ -9,7 +9,7 @@ sidebar_position: 40
 Directory Manager Reports contains reports for the Group objects in the directory. Search a specific
 report by typing its name in the **Search Reports** box.
 
-Click any of the report template from the list to [Generate Reports](/docs/directorymanager/11.1/portal/dashboard/generate.md).
+Click any of the report template from the list to [Generate Reports](/docs/directorymanager/11.1/portal/reports/generate.md).
 
 Following is the list of reports for this category:
 
@@ -70,7 +70,7 @@ Following is the list of reports for this category:
 | Mail-enabled groups with no members (Exchange)                                  | Provides a list of all mail-enabled groups having no members.                                                                                                                                        |
 | Mail-enabled groups with no owner (Exchange)                                    | Provides a list of mail-enabled groups having no owner.                                                                                                                                              |
 | Mail enabled Security Groups (Exchange)                                         | Provides a list of mail-enabled groups in the domain.                                                                                                                                                |
-| Owners and objects they own Listed in [User Reports](/docs/directorymanager/11.1/portal/dashboard/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
+| Owners and objects they own Listed in [User Reports](/docs/directorymanager/11.1/portal/reports/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
 | Security Groups managed by GroupID                                              | Provides a list of the security groups that are managed by Directory Manager.                                                                                                                        |
 | Smart Groups/Dynasties with their update status                                 | Provides a list of Smart Groups and Dynasties with their update status information.                                                                                                                  |
 | Smart Groups and Included members                                               | Provides a list of Smart Group members that are mentioned in the Include list on the Include/Exclude tab of the Query Designer window.                                                               |
@@ -81,8 +81,8 @@ Following is the list of reports for this category:
 
 **See Also:**
 
-- [Generate Reports](/docs/directorymanager/11.1/portal/dashboard/generate.md)
-- [Manage Reports](/docs/directorymanager/11.1/portal/dashboard/manage.md)
-- [User Reports](/docs/directorymanager/11.1/portal/dashboard/user.md)
-- [Computer Reports](/docs/directorymanager/11.1/portal/dashboard/computer.md)
-- [Contact Reports](/docs/directorymanager/11.1/portal/dashboard/contact.md)
+- [Generate Reports](/docs/directorymanager/11.1/portal/reports/generate.md)
+- [Manage Reports](/docs/directorymanager/11.1/portal/reports/manage.md)
+- [User Reports](/docs/directorymanager/11.1/portal/reports/user.md)
+- [Computer Reports](/docs/directorymanager/11.1/portal/reports/computer.md)
+- [Contact Reports](/docs/directorymanager/11.1/portal/reports/contact.md)

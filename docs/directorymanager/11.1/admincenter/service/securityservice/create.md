@@ -8,13 +8,6 @@ sidebar_position: 10
 
 You can create a Security service in native IIS, remote IIS, and Docker.
 
-What do you want to do?
-
-- Create a Security Service in Native IIS
-- Create a Security Service in Remote IIS
-- Create a Security Service in Docker
-- Launch a Security Service
-
 ## Create a Security Service in Native IIS
 
 When you deploy a Security service in native IIS, Directory Manager does the following:
@@ -130,9 +123,3 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
    Applications** page is displayed. Options on this page are discussed in the
    [Access your Applications](/docs/directorymanager/11.1/admincenter/general/accessapplications.md) topic. Any actions you perform
    will be carried out through the respective Security service.
-
-**See Also**
-
-- [Directory Manage Applications](/docs/directorymanager/11.1/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.1/admincenter/service/overview.md)
-- [Manage Security Service Settings](/docs/directorymanager/11.1/admincenter/service/securityservice/manage.md)

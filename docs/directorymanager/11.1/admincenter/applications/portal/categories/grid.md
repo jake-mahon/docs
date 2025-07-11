@@ -107,9 +107,3 @@ A few grid display types used in the default portal template are:
     grid will be read-only.
 14. Click **OK**.
 15. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

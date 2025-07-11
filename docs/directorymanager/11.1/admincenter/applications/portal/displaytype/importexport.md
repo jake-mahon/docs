@@ -36,12 +36,6 @@ wizards in the portal:
 NOTE: The attributes you specify apply to all four wizards. You cannot specify a different set of
 attributes for a wizard.
 
-What do you want to do?
-
-- Specify Attributes for Import and Export
-- Update an Attribute
-- Remove an Attribute from Import and Export
-
 ## Specify Attributes for Import and Export
 
 1. In Admin Center, select **Applications** in the left pane.  
@@ -90,7 +84,3 @@ What do you want to do?
    The attribute will not be available on the _Import Members_, _Export Members_, _Import Additional
    Owners_, and _Export Additional Owners_ wizards in the portal.
 6. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

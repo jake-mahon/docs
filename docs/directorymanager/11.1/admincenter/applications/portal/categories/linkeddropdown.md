@@ -72,9 +72,3 @@ values and a message, similar to the following, is displayed.
 
 Here, **Department** is the key value. Selecting it in the drop-down list populates the **Company**
 field with the predefined value.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

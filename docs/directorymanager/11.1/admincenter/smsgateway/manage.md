@@ -13,15 +13,6 @@ linked to an identity store created thereafter.
 Directory Manager supports several SMS gateway providers. You can also use the Custom Gateway API to
 integrate with an unsupported provider.
 
-What do you want to do?
-
-- Create an SMS Gateway Account
-- Modify an SMS Gateway Account
-- Set an SMS Gateway Account as Default
-- Test SMS Gateway Account Connection
-- Link an SMS Gateway Account to an Identity Store
-- Delete an SMS Gateway Account
-
 ## Create an SMS Gateway Account
 
 1. In Admin Center, click **SMS Gateway** at the bottom of the left navigation pane.
@@ -121,8 +112,3 @@ You can delete an SMS gateway account that is not linked with any identity store
       you to confirm its deletion. Clicking **Delete** will delete the account.
     - If the gateway account is linked with an identity store, Directory Manager will not allow you
       to delete it.
-
-See Also
-
-- [SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/overview.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/implementcustom.md)

@@ -10,11 +10,6 @@ You can integrate with additional SMS gateways using the Custom Gateway API. Af
 gateway, you can add an account for it. See the
 [Create an SMS Gateway Account](manage.md#create-an-sms-gateway-account) topic.
 
-What do you want to do?
-
-- Implement a Custom SMS Gateway
-- Deploy a Custom SMS Gateway
-
 ## Implement a Custom SMS Gateway
 
 1. Define a class that implements the **ISMSGateway interface** which is defined in the
@@ -27,7 +22,7 @@ What do you want to do?
 
     | Member                                                            | Description                                                                                                                                                                                                                                                                                                                 |
     | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | [ISmsGateway.SendShortMessage](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendshortmessage.md) method | Takes as input the [ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class.md) object, which defines elements of the text message, sends messages to the target recipients, and returns the [SendSmsMessageResult class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class_1.md) object, which contains  message delivery status and exception details |
+    | [ISmsGateway.SendShortMessage](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendshortmessage.md) method | Takes as input the [ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/class.md) object, which defines elements of the text message, sends messages to the target recipients, and returns the [SendSmsMessageResult class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/class.md) object, which contains  message delivery status and exception details |
     | [ISmsGateway.TestCredentials](/docs/directorymanager/11.1/admincenter/smsgateway/custom/testcredentials.md) method   | Returns a boolean value indicating whether the credentials for communicating with the SMS gateway are valid.                                                                                                                                                                                                                |
     | [ISmsGateway.TestConnection](/docs/directorymanager/11.1/admincenter/smsgateway/custom/testconnection.md) method     | Returns a boolean value indicating whether the connection with the SMS gateway is established successfully.                                                                                                                                                                                                                 |
     | [ISmsGateway.TestProxy](/docs/directorymanager/11.1/admincenter/smsgateway/custom/testproxy.md) method               | Returns a boolean value informing whether the given proxy setting are valid.                                                                                                                                                                                                                                                |
@@ -103,8 +98,3 @@ Class ClickatellCustomSMSGatewayBasic : ISMSGateway 
 
 If the SMS gateway is successfully registered, it will get listed in the **Gateway Type** list (on
 the **Create SMS Gateway** page) for selection when creating an SMS gateway account.
-
-**See Also**
-
-- [SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/overview.md)
-- [ISMSGateway Members](/docs/directorymanager/11.1/admincenter/smsgateway/custom/overview.md)

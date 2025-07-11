@@ -28,9 +28,3 @@ Gateway API.
 
 For a gateway, you can set up as many gateway accounts as required and then link a gateway account
 to an identity store.
-
-**See Also**
-
-- [Manage SMS Gateway Accounts](/docs/directorymanager/11.1/admincenter/smsgateway/manage.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/implementcustom.md)
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)

@@ -80,9 +80,3 @@ schema attribute you link this display type with.
     but they can add new values.
 11. Click **OK**.
 12. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/categories/custom.md)

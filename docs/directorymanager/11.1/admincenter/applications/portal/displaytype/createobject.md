@@ -41,17 +41,6 @@ of the Dynasty types. However:
   Groups, the _Group Type_ page created for _Smart Group_ would be displayed to the user in the
   portal for Smart Groups and Dynasties.
 
-What do you want to do?
-
-- Add a Page to a Wizard
-- Update a Wizard Page
-- Rearrange the Pages on a Wizard
-- Remove a Page from a Wizard
-- Add a Field to a Wizard Page
-- Update a Field
-- Rearrange the Fields on a Wizard Page
-- Remove a Field from a Wizard Page
-
 ## Add a Page to a Wizard
 
 1. In Admin Center, select **Applications** in the left pane.  
@@ -265,7 +254,3 @@ The following field properties vary from field to field. You can:
    Click **Remove** for a field to remove it.
 8. Click **OK**.
 9. Click **Save** on the **Create Object** page.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

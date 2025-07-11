@@ -95,10 +95,3 @@ You can change the following for a field on a search results page:
 6. On the **Edit Search Results** pane, click **Remove** for a field to remove it.
 7. Click **OK**.
 8. Click **Save** on the **Search Forms** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.1/admincenter/applications/portal/categories/categories.md)
-- Customize Search Results
-- [Customize Quick Search](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/quicksearch.md)

@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # SendSmsMessageResult.Message
 
-Returns the [ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class.md) object processed by the
+Returns the [ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/class.md) object processed by the
 [ISmsGateway.SendShortMessage](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendshortmessage.md) method.
 
 **Namespace:** Imanami.directorymanager.DataTransferObjects.DataContracts.SMS
@@ -24,9 +24,3 @@ public ShortMessage Message;
 Type: Imanami.directorymanager.DataTransferObjects.DataContracts.SMS.ShortMessage
 
 Object containing elements of the text message.
-
-See Also
-
-- [SendSmsMessageResult class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class_1.md)
-- [ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/implementcustom.md)

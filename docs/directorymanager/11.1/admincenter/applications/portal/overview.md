@@ -1,5 +1,5 @@
 ---
-title: "Directory Manager Portal"
+title: "Portal"
 description: "Directory Manager Portal"
 sidebar_position: 20
 ---
@@ -68,9 +68,3 @@ topic.
 By default, notifications are sent to users in the English language. However, a user can opt to
 receive notifications in a supported language by personalizing the language settings from the
 **Settings** panel in the portal.
-
-**See Also**
-
-- [Directory Manage Applications](/docs/directorymanager/11.1/admincenter/applications/applications.md)
-- [Create a Portal](/docs/directorymanager/11.1/admincenter/applications/portal/create.md)
-- [Delete a Portal](/docs/directorymanager/11.1/admincenter/applications/portal/delete.md)

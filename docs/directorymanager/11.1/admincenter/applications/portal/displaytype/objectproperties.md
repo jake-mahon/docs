@@ -367,7 +367,3 @@ The following field properties vary from field to field. You can:
    Click **Remove** for a field to remove it.
 8. Click **OK**.
 9. Click **Save** on the **Properties** page.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

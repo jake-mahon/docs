@@ -180,8 +180,3 @@ The following field properties vary from field to field. You can:
 
 6. In the **Name** area, click **Remove** for a field to remove it.
 7. Click **Save**.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Configure User Profile Validation](/docs/directorymanager/11.1/admincenter/identitystore/configure/profilevalidation.md)

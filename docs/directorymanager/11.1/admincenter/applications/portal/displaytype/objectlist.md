@@ -21,10 +21,6 @@ For a similar group, three attributes are displayed:
 - Attribute 2 - You can specify any attribute. The default attribute is _mail_.
 - Attribute 3 - You can specify any attribute. The default attribute is _expiration policy_.
 
-What do you want to do?
-
-- Change the Attributes on the Object List
-
 ## Change the Attributes on the Object List
 
 1. In Admin Center, select **Applications** in the left pane.  
@@ -48,8 +44,3 @@ What do you want to do?
    similar groups. By default, the _mail_ and _expiration policy_ attributes are selected.
 10. Click **OK**.
 11. Click **Save** on the **Card View** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)
-- [Specify Attributes for the Object Card](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/objectcard.md)

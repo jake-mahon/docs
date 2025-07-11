@@ -33,19 +33,6 @@ Possible actions to eliminate replication errors are:
   from the identity provider or Elasticsearch. See the
   [Replication Service Logs](overview.md#replication-service-logs) topic.
 
-What do you want to do?
-
-- Monitor Elasticsearch Health Status
-- Specify a Replication Interval for Objects
-- Force Run the Replication Service (for Object Replication)
-- View the Replication Status for Objects
-- Specify Interval for Deleting Tombstone Objects
-- Force Run the Replication Service (for Deleting Objects)
-- Restore Object Data to Elasticsearch
-- Clear Unused Indices
-- Change the Search Guard Password
-- Set a Threshold to Trigger Replication Error Notifications
-
 ## Monitor Elasticsearch Health Status
 
 Directory Manager enables you to monitor the Elasticsearch service for the following:
@@ -298,9 +285,3 @@ topic.
    run.  
    To change the threshold value, click **Edit**. Specify a threshold value to trigger replication
    error notifications and click the check mark.
-
-**See Also**
-
-- [Elasticsearch and Replication ](/docs/directorymanager/11.1/admincenter/replication/overview.md)
-- [Manage Local Replication Settings](/docs/directorymanager/11.1/admincenter/identitystore/replication.md)
-- [Replication Service](/docs/directorymanager/11.1/admincenter/service/replicationservice.md)

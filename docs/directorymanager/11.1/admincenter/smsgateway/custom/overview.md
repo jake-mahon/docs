@@ -23,20 +23,16 @@ To define a custom gateway, a list of ISMSGateway members that you must implemen
 - [ISmsGateway.Url](/docs/directorymanager/11.1/admincenter/smsgateway/custom/url.md)
 - [ISmsGateway.UserId](/docs/directorymanager/11.1/admincenter/smsgateway/custom/userid.md)
 
-- ShortMessage ([ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class.md))
+- ShortMessage ([ShortMessage class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/class.md))
 
-    - [ShortMessage.AccessCode](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/accesscode.md)
-    - [ShortMessage.MaxLength](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/maxlength.md)
-    - [ShortMessage.Message](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/message.md)
-    - [ShortMessage.PhoneNumbers](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/phonenumbers.md)
-    - [ShortMessage.ReferenceId](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/referenceid.md)
-    - [ShortMessage.Validate](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/validate.md)
+    - [ShortMessage.AccessCode](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/accsscode.md)
+    - [ShortMessage.MaxLength](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/maxlength.md)
+    - [ShortMessage.Message](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/message.md)
+    - [ShortMessage.PhoneNumbers](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/phonenumbers.md)
+    - [ShortMessage.ReferenceId](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/referenceid.md)
+    - [ShortMessage.Validate](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/validate.md)
 
-- SendSmsMessageResult ([SendSmsMessageResult class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/class_1.md))
-    - [SendSmsMessageResult.ExceptionMessage](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/exceptionmessage.md)
-    - [SendSmsMessageResult.Message](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/message_1.md)
-    - [SendSmsMessageResult.Success](/docs/directorymanager/11.1/admincenter/smsgateway/custom/class/success.md)
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/implementcustom.md)
+- SendSmsMessageResult ([SendSmsMessageResult class](/docs/directorymanager/11.1/admincenter/smsgateway/custom/shortmessage/class.md))
+    - [SendSmsMessageResult.ExceptionMessage](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/exceptionmessage.md)
+    - [SendSmsMessageResult.Message](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/message.md)
+    - [SendSmsMessageResult.Success](/docs/directorymanager/11.1/admincenter/smsgateway/custom/sendsmsmessageresult/success.md)

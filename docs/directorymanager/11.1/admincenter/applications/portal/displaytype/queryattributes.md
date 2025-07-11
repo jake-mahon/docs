@@ -159,7 +159,3 @@ You can change the following for an attribute:
    portal for building Smart Group queries and other purposes. However, Smart Groups and Dynasti
    created using those attributes will be unaffected.
 7. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/overview.md)

@@ -23,7 +23,3 @@ ISmsGateway Clone();
 Type: Imanami.PublicInterfaces.ISmsGateway
 
 The clone object.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.1/admincenter/smsgateway/implementcustom.md)

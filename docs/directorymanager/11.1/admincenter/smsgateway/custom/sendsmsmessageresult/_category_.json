@@ -1,10 +1,10 @@
 {
-  "label": "Portal",
-  "position": 20,
+  "label": "SendSmsMessageResult",
+  "position": 150,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "class"
   }
 }
