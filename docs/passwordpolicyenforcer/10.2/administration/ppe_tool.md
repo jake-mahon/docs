@@ -1,3 +1,9 @@
+---
+title: "PPE Tool"
+description: "PPE Tool"
+sidebar_position: 130
+---
+
 # PPE Tool
 
 The PPE Tool is designed to configure local and domain instances of Password Policy Enforcer and

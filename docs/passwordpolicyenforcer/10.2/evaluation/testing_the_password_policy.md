@@ -1,3 +1,9 @@
+---
+title: "Testing the Password Policy"
+description: "Testing the Password Policy"
+sidebar_position: 50
+---
+
 # Testing the Password Policy
 
 The Users policy is now being enforced for all users. You can test the policy from the Password
@@ -38,7 +44,7 @@ event log can help you to understand why Password Policy Enforcer accepted or re
 
 **NOTE:** Policy testing simulates a password change, but it may not always reflect what happens
 when a user changes their password. See the
-[Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managing_policies.md)
+[Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/managing_policies.md)
 topic for more information.
 
 ## Windows Change Password Screen

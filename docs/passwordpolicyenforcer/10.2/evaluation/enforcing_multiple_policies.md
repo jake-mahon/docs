@@ -1,3 +1,9 @@
+---
+title: "Enforcing Multiple Policies"
+description: "Enforcing Multiple Policies"
+sidebar_position: 70
+---
+
 # Enforcing Multiple Policies
 
 Password Policy Enforcer can enforce up to 256 password policies on each domain or computer. You can
