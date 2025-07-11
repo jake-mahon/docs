@@ -1,5 +1,5 @@
 ---
-title: "Navigate the Active Directory App for QRadar"
+title: "Navigate the App"
 description: "Navigate the Active Directory App for QRadar"
 sidebar_position: 10
 ---
