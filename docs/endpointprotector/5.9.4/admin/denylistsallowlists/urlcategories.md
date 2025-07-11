@@ -1,3 +1,9 @@
+---
+title: "URL Categories"
+description: "URL Categories"
+sidebar_position: 30
+---
+
 # URL Categories
 
 URL Categories are custom-deﬁned lists of web domains that can be set on Content Aware Policies to
