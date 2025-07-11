@@ -1,5 +1,5 @@
 ---
-title: "RADIUS Authentication Provider"
+title: "RADIUS"
 description: "RADIUS Authentication Provider"
 sidebar_position: 10
 ---

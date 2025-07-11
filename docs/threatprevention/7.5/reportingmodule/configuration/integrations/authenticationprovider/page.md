@@ -1,5 +1,5 @@
 ---
-title: "Authentication Provider Page"
+title: "Authentication Provider"
 description: "Authentication Provider Page"
 sidebar_position: 20
 ---

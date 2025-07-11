@@ -1,5 +1,5 @@
 ---
-title: "SAML Authentication Provider"
+title: "SAML"
 description: "SAML Authentication Provider"
 sidebar_position: 30
 ---

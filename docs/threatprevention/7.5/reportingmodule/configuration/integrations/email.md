@@ -1,5 +1,5 @@
 ---
-title: "Email Page"
+title: "Email"
 description: "Email Page"
 sidebar_position: 40
 ---

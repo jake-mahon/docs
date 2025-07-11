@@ -1,5 +1,5 @@
 ---
-title: "Netwrix Integrations Page"
+title: "Netwrix Integrations"
 description: "Netwrix Integrations Page"
 sidebar_position: 60
 ---

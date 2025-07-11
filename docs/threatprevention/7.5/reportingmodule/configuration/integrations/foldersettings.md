@@ -1,5 +1,5 @@
 ---
-title: "Folder Settings Page"
+title: "Folder Settings"
 description: "Folder Settings Page"
 sidebar_position: 50
 ---

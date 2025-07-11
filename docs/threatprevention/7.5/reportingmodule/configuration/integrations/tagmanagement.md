@@ -1,5 +1,5 @@
 ---
-title: "Tag Management Page"
+title: "Tag Management"
 description: "Tag Management Page"
 sidebar_position: 70
 ---

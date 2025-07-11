@@ -1,5 +1,5 @@
 ---
-title: "OpenID Authentication Provider"
+title: "OpenID"
 description: "OpenID Authentication Provider"
 sidebar_position: 20
 ---

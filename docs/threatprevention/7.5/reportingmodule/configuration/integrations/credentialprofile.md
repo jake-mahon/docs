@@ -1,5 +1,5 @@
 ---
-title: "Credential Profile Page"
+title: "Credential Profile"
 description: "Credential Profile Page"
 sidebar_position: 30
 ---

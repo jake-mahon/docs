@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Sync Page"
+title: "Active Directory Sync"
 description: "Active Directory Sync Page"
 sidebar_position: 10
 ---
