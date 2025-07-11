@@ -157,4 +157,4 @@ topic for more information.
     - Monitoring Devices:
     - Manage Enforced Encryption devices in Clients list section.
 
-See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/module_1.md) topic for more information.
+See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/eemodule.md) topic for more information.
