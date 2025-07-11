@@ -73,7 +73,7 @@ information.
     - Create custom scan policies to identify sensitive data at rest on endpoint systems.
     - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
 
-See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/edmodule.md) topic for additional more information.
+See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/ed_module/edmodule.md) topic for additional more information.
 
 ## Configuring the User Experience
 
@@ -157,4 +157,4 @@ topic for more information.
     - Monitoring Devices:
     - Manage Enforced Encryption devices in Clients list section.
 
-See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/eemodule.md) topic for more information.
+See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/ee_module/eemodule.md) topic for more information.

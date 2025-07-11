@@ -62,7 +62,7 @@ levels, depending on the degree of protection offered by a device (trusted devic
 Encryption are TD level 1).
 
 For detailed information on Trusted Device™ and Enforced Encryption, refer to the
-[Trusted Device™](../eemodule.md) topic.
+[Trusted Device™](../ee_module/eemodule.md) topic.
 
 **NOTE:** With the WiFi – Block if wired network is present option you can disable the WiFi
 connection, while a wired network connection is present. The WiFi connection will be available when
