@@ -242,7 +242,8 @@ To remediate the threat, the user has to follow these steps:
 - click **Authorize**
 
 **NOTE:** You can manage more settings for the Self Remediate feature from System Preferences and
-[User Remediation](/docs/endpointprotector/5.9.4.2/admin/overview_6.md#user-remediation) sections.
+ [User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) sections.
+[User Remediation](/docs/endpointprotector/5.9.4.2/admin/systempar.md#user-remediation) sections.
 
 User Remediation for Content Aware Protection can remediate ﬁle transfers via web domains.
 

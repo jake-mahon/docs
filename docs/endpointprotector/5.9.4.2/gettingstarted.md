@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Getting Started"
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # Getting Started
@@ -52,7 +52,7 @@ Information.
     - Create Custom Policies to configure device access rules.
     - Customize policies based on device types and access requirements.
 
-See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md) topic for additional information.
+See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic for additional information.
 
 ## Configuring Content Aware Protection
 
@@ -62,7 +62,7 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md)
     - Create Custom Policies to define file monitoring and protection rules.
     - Specify Denylists, Predefined Content, or Custom Content to identify sensitive data.
 
-See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/module/module_1.md) topic for more
+See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/cap_module/capmodule.md) topic for more
 information.
 
 ## Configuring an eDiscovery Scan
@@ -73,7 +73,7 @@ information.
     - Create custom scan policies to identify sensitive data at rest on endpoint systems.
     - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
 
-See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/module.md) topic for additional more information.
+See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/ed_module/edmodule.md) topic for additional more information.
 
 ## Configuring the User Experience
 
@@ -82,7 +82,7 @@ See the [eDiscovery](/docs/endpointprotector/5.9.4.2/admin/module.md) topic for 
     - Navigate to Device Control > Client Settings.
     - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
 
-See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md) topic for more information.
+See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md) topic for more information.
 
 ### Configuring User Remediation Settings
 
@@ -92,7 +92,7 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/admin/module/module.md)
     - Configure settings such as Time Interval for user actions and User Remediation Pop-up
       notifications.
 
-See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/overview_6.md) topic for more information.
+See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/systempar.md) topic for more information.
 
 ### Setting Up Offline Temporary Password
 
@@ -101,7 +101,7 @@ See the [System Parameters](/docs/endpointprotector/5.9.4.2/admin/overview_6.md)
     - Navigate to Offline Temporary Passwords.
     - Generate passwords to provide temporary access rights when User Remediation is unavailable.
 
-See the [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/admin/overview_1.md) topic for more
+See the [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/admin/otpassword.md) topic for more
 information.
 
 ## Deploying Agents
@@ -121,7 +121,7 @@ See the [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfi
     - Duplicate "Report Only" CAP policies and modify them to enforce restrictions.
     - Activate blocking policies to prevent unauthorized data movements.
 
-See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/module/module_1.md) topic for more
+See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/admin/cap_module/capmodule.md) topic for more
 information.
 
 ## Performing Remediation within eDiscovery
@@ -133,7 +133,7 @@ information.
       risks.
 
 See the
-[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4.2/admin/module/module.md)
+[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4.2/admin/dc_module/dcmodule.md)
 topic for more information.
 
 ## Deploying Enforced Encryption
@@ -157,4 +157,4 @@ topic for more information.
     - Monitoring Devices:
     - Manage Enforced Encryption devices in Clients list section.
 
-See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/module_1.md) topic for more information.
+See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/admin/ee_module/eemodule.md) topic for more information.
