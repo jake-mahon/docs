@@ -34,10 +34,10 @@ the **I accept the terms in the License Agreement** box and click **Next**.
 install Access Analyzer. The default destination folder is
 `C:\Program Files (x86)\STEALTHbits\StealthAUDIT\`. Click **Next** to continue.
 
-|                                                                                                                         |     |                                                                                                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![License File page](/img/product_docs/accessanalyzer/12.0/install/application/licensemapped.webp) |
-| Default License File Page                                                                                               |     | Mapped License File                                                                                                                                   |
+
+ |![License File page](/img/product_docs/accessanalyzer/12.0/install/application/license.webp)|![License File page](/img/product_docs/accessanalyzer/12.0/install/application/licensemapped.webp)|
+|:-------------------------:|:-------------------:|
+| *Default License File Page* | *Mapped License File* |
 
 **Step 5 –** On the License File page, click **Browse** and navigate to your **StealthAUDIT.lic**
 file. When the path to the file is visible in the textbox, click **Next**.

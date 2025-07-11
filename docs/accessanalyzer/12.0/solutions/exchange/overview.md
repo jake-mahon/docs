@@ -28,7 +28,7 @@ for additional information.
 Requirements, Permissions, and Ports
 
 See the
-[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/exchange_1.md)
+[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/target.md)
 and
 [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/exchangeonline.md)
 topics for additional information.

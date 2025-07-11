@@ -12,7 +12,7 @@ information.
 The Access Analyzer MAPI CDO can be downloaded from the
 [Product Downloads](https://www.stealthbits.com/product-downloads) page of the Netwrix website. The
 Microsoft Exchange MAPI CDO can be downloaded directly from Microsoft. See the
-[Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/appendix.md) for requirements and
+[Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/12.0/install/mapicdo/appendix.md) for requirements and
 installation steps to install the Microsoft Exchange MAPI CDO.
 
 **CAUTION:** The Access Analyzer MAPI CDO must be installed first before installing the Microsoft
@@ -36,5 +36,5 @@ Follow the steps to install the Access Analyzer MAPI CDO.
 **Step 2 –** Click OK to confirm the path.
 
 The application will install and the wizard will close automatically when it is finished. See the
-[Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/appendix.md) for information on
+[Appendix for the StealthAUDIT MAPI CDO Installation Guide](/docs/accessanalyzer/12.0/install/mapicdo/appendix.md) for information on
 installing the Microsoft Exchange MAPI CDO.

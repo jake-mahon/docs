@@ -37,10 +37,9 @@ Features**), select the Access Analyzer application and click **Change**.
 
 **Step 4 –** On the Change, Repair, or Remove Installation page, click **Change**.
 
-|                                                                                                                         |     |                                                                                                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![License File page](/img/product_docs/accessanalyzer/12.0/install/application/licensemapped.webp) |
-| Default License File Page                                                                                               |     | Mapped License File                                                                                                                                   |
+| ![License File page](/img/product_docs/accessanalyzer/12.0/install/application/license.webp) | ![License File page](/img/product_docs/accessanalyzer/12.0/install/application/licensemapped.webp) | 
+| :----------------------------: | :---------------------------------------------------: |
+| *Default License File Page*    | *Mapped License File* |
 
 **Step 5 –** On the License File page, click **Browse** and navigate to the **StealthAUDIT.lic**
 file. It must be stored on the Access Analyzer Console server before the installation begins. When

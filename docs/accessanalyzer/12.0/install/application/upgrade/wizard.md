@@ -38,7 +38,7 @@ installed as part of the main installation if your license includes it.
   folder of the installation directory. Any custom application settings contained in this file are
   kept as part of this upgrade process.
 
-![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/install/application/upgrade/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/install/application/welcome.webp)
 
 **Step 2 –** Install Access Analyzer 12.0. See the [Access Analyzer Core Installation](/docs/accessanalyzer/12.0/install/application/wizard.md)
 topic for detailed instructions.

@@ -12,7 +12,7 @@ Access Analyzer:
 - API Server
 - File Archive Repository
 
-See the [File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/filearchive.md) topic for additional information on that
+See the [File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/filearchive.md) topic for additional information on that
 option.
 
 ## API Server Option

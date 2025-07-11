@@ -22,7 +22,7 @@ article for additional information.
 
 Requirements, Permissions, and Ports
 
-See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/overview.md)
+See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/requirements/activedirectory/target/overview.md)
 topic for additional information.
 
 Location

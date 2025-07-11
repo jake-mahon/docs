@@ -22,7 +22,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/windows/windows_1.md)
+[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/windows/target.md)
 topic for additional information.
 
 Location

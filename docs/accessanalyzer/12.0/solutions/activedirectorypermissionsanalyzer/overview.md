@@ -29,7 +29,7 @@ article for additional information.
 Requirements, Permissions, and Ports
 
 See the
-[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer_1.md)
+[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/target.md)
 topic for additional information.
 
 Location

@@ -39,22 +39,22 @@ Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure**
 
 The default analysis tasks are:
 
--   1. User Password Information – Creates the PasswordExpirationNotification_Details table
+-   **1. User Password Information** – Creates the PasswordExpirationNotification_Details table
        accessible under the job’s Results node
     - Contains a configurable parameter for the number of days until a password expires to be
       identified
     - See the
       [Customizable Analysis Tasks for the AD_PasswordExpirationNotification Job](#customizable-analysis-tasks-for-the-ad_passwordexpirationnotification-job)
       topic for additional information.
--   2. Domain Summary – Creates an interim processing table in the database for use by downstream
+-   **2. Domain Summary** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   3. Passwords Set to Expire Within 15 Days – Creates the
+-   **3. Passwords Set to Expire Within 15 Days** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days table accessible under the job’s Results
        node
--   4. Notification Data Table – Creates the
+-   **4. Notification Data Table** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table accessible under
        the job’s Results node
--   5. Help Desk Notification – Sends notification of users with passwords set to expire in X days
+-   **5. Help Desk Notification** – Sends notification of users with passwords set to expire in X days
     - See the
       [Notification Analysis Task in the AD_PasswordExpirationNotification Job](#notification-analysis-task-in-the-ad_passwordexpirationnotification-job)
       topic for additional information.
@@ -70,7 +70,7 @@ Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure**
 
 The default actions are:
 
--   1. User Notification – Uses the SendMail Action Module to send notifications to users on
+-   **1. User Notification** – Uses the SendMail Action Module to send notifications to users on
        password expiration
     - Requires the Notification Actions license feature
     - See the

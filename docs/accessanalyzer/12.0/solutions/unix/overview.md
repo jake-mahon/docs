@@ -22,7 +22,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/unix/unix_1.md) topic
+See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/unix/target.md) topic
 for additional information.
 
 Location

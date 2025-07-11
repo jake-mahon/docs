@@ -18,7 +18,7 @@ For information on the required prerequisites and permissions, see the
 [SharePoint Agent Permissions](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/agent-based-scans/agentpermissions.md) topic.
 
 The version of the SharePoint Agent must also match the major version of Access Analyzer. See the
-[What's New](/docs/accessanalyzer/12.0/overview/whatsnew.md) topic for additional information.
+[What's New](/docs/accessanalyzer/12.0/whatsnew.md) topic for additional information.
 
 ## Supported Platforms
 

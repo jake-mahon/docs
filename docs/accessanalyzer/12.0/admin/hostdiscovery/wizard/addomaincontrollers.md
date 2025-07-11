@@ -10,7 +10,7 @@ Follow the steps to create a Host Discovery query using the **Query an Active Di
 (Discover Domain Controllers)** source option. This option scans the default domain controller or a
 specified server but is scoped to return only machines that are domain controllers.
 
-![Host Discovey Wizard Source page for AD Domain Controllers query](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source.webp)
+![Host Discovey Wizard Source page for AD Domain Controllers query](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/source_2.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Query an Active
 Directory server (Discover Domain Controllers)** option. Click **Next**.
@@ -88,7 +88,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovey Wizard Inventory page for AD Domain Controllers query](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovey Wizard Inventory page for AD Domain Controllers query](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/inventory_2.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.

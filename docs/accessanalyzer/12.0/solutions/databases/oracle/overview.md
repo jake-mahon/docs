@@ -41,7 +41,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databaseoracle/databaseoracle.md)
+[Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/oracle/oracle.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

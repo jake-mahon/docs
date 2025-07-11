@@ -31,7 +31,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/aws/aws_1.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/aws/target.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
