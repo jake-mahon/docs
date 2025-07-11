@@ -1,5 +1,5 @@
 ---
-title: "Netwrix Endpoint Protector"
+title: "Netwrix Endpoint Protector 5.9.4.2"
 description: "Netwrix Endpoint Protector"
 sidebar_position: 1
 ---
