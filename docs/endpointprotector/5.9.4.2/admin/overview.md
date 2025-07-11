@@ -1,5 +1,5 @@
 ---
-title: "Admin"
+title: "Administration"
 description: "Administration"
 sidebar_position: 40
 ---
