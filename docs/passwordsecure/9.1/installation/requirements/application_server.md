@@ -1,3 +1,9 @@
+---
+title: "Application server"
+description: "Application server"
+sidebar_position: 10
+---
+
 # Application server
 
 #### System Components

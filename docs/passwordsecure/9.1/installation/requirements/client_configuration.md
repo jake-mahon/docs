@@ -1,3 +1,9 @@
+---
+title: "Client configuration"
+description: "Client configuration"
+sidebar_position: 30
+---
+
 # Client configuration
 
 #### System Components

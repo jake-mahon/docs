@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/PasswordSecure/Welcome/Introduction.htm">
+    <TocEntry
+      Title="Why Password Secure?"
+      Link="/Content/PasswordSecure/Welcome/WhyPasswordSecure.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/Welcome/Whats new.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/Welcome/Version_History/Version History.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.1.3.31365.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.1.2.31276.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.1.1.31138.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.1.0.30996.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.0.3.30606.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.0.2.30602.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.0.1.30479.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 9.0.0.30423.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.6.30233.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.5.30226.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.4.30125.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.3.29968.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.1.29875.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Welcome/Version_History/Version 8.16.0.29823.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Installation"
+    Link="/Content/PasswordSecure/Installation/Installation.htm">
+    <TocEntry
+      Title="Requirements">
+      <TocEntry
+        Title="Application server"
+        Link="/Content/PasswordSecure/Installation/Requirements/Application server.htm" />
+      <TocEntry
+        Title="MSSQL Server"
+        Link="/Content/PasswordSecure/Installation/Requirements/MSSQL Server.htm" />
+      <TocEntry
+        Title="Client configuration"
+        Link="/Content/PasswordSecure/Installation/Requirements/Client configuration.htm" />
+      <TocEntry
+        Title="Webserver"
+        Link="/Content/PasswordSecure/Installation/Requirements/Webserver.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Installation/Requirements/Browser.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Installation/Requirements/Mobile Apps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Installation Server Manager"
+      Link="/Content/PasswordSecure/Installation/Installation Server Manager/Installation Server Manager.htm" />
+    <TocEntry
+      Title="Installation Client"
+      Link="/Content/PasswordSecure/Installation/Installation Client/Installation Client.htm">
+      <TocEntry
+        Title="Installation with parameters"
+        Link="/Content/PasswordSecure/Installation/Installation Client/Installation with parameters.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installation Web Application"
+      Link="/Content/PasswordSecure/Installation/Installation Web Application/Installation Web Application.htm">
+      <TocEntry
+        Title="Apache"
+        Link="/Content/PasswordSecure/Installation/Installation Web Application/Apache.htm" />
+      <TocEntry
+        Title="Microsoft IIS"
+        Link="/Content/PasswordSecure/Installation/Installation Web Application/Microsoft IIS.htm" />
+      <TocEntry
+        Title="nginx"
+        Link="/Content/PasswordSecure/Installation/Installation Web Application/nginx.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Installation Browser Extension"
+      Link="/Content/PasswordSecure/Installation/Browser/Installation Browser Add-on.htm">
+      <TocEntry
+        Title="Google Chrome"
+        Link="/Content/PasswordSecure/Installation/Browser/Google Chrome.htm" />
+      <TocEntry
+        Title="Microsoft Edge"
+        Link="/Content/PasswordSecure/Installation/Browser/Microsoft Edge.htm" />
+      <TocEntry
+        Title="Mozilla Firefox"
+        Link="/Content/PasswordSecure/Installation/Browser/Mozilla Firefox.htm" />
+      <TocEntry
+        Title="Safari"
+        Link="/Content/PasswordSecure/Installation/Browser/Safari.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PasswordSecure/Installation/Requirements/MSP System.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Configuration"
+    Link="/Content/PasswordSecure/Configuration/Configuration.htm">
+    <TocEntry
+      Title="Server Manager"
+      Link="/Content/PasswordSecure/Configuration/Server Manager/Server Manger.htm">
+      <TocEntry
+        Title="Basic configuration"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/BaseConfiguration/Basic configuration.htm" />
+      <TocEntry
+        Title="Certificates"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/Certificates.htm">
+        <TocEntry
+          Title="SSL connection certificates"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/SSL connection certificates.htm" />
+        <TocEntry
+          Title="Database certificates"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/Database certificates.htm" />
+        <TocEntry
+          Title="Master key certificates"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/Master Key certificates.htm" />
+        <TocEntry
+          Title="Discovery service certificates"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/Discovery service certificates.htm" />
+        <TocEntry
+          Title="Password reset certificates"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/Password Reset certificates.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Certificates/NPS Server Encryption Certificate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Setup wizard"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/SetupWizard/Setup wizard.htm" />
+      <TocEntry
+        Title="Creating databases"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/CreatingDatabase/Creating databases.htm" />
+      <TocEntry
+        Title="Settlement right key"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Settlement right key/Settlement right key.htm" />
+      <TocEntry
+        Title="Database properties"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Database properties/Database properties.htm">
+        <TocEntry
+          Title="General settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Database properties/General Settings Admin Client.htm" />
+        <TocEntry
+          Title="Syslog"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Database properties/Syslog.htm" />
+        <TocEntry
+          Title="Database firewall"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Database properties/Database firewall.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Managing databases"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Managing databases/Managing databases.htm">
+        <TocEntry
+          Title="Database settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Managing databases/Database settings/Database settings.htm">
+          <TocEntry
+            Title="Multifactor authentifaction"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Managing databases/Database settings/Multifactor authentication AC.htm" />
+          <TocEntry
+            Title="Session timeout"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Managing databases/Database settings/Session timeout.htm" />
+          <TocEntry
+            Title="HSM connection"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Managing databases/Database settings/HSM connection.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Operation and setup"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Operation and setup/Operation and setup Admin Client.htm"></TocEntry>
+      <TocEntry
+        Title="Main menu"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Main Menu.htm">
+        <TocEntry
+          Title="General settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Database properties/General Settings Admin Client.htm" />
+        <TocEntry
+          Title="Backup settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Backup settings/Backup settings.htm">
+          <TocEntry
+            Title="Backup management"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Backup settings/Backup management/Backup management.htm" />
+          <TocEntry
+            Title="Automatic backup cleanup"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Backup settings/Automatic backup cleanup/Automated deletion of backups.htm" />
+          <TocEntry
+            Title="Disaster recovery scenarios"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Backup settings/Disaster recovery/Disaster recovery scenarios.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="License Settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/License settings.htm"></TocEntry>
+        <TocEntry
+          Title="Advanced settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/Advanced settings.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/MSP/MSP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/MSP/Changes in AC/Changes in the AdminClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/MSP/Changes in AC/Customers module/Customers module.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="[%=System.LinkedTitle%]"
+            Link="/Content/PasswordSecure/Configuration/Server Manager/MSP/Changes in AC/Cost overview/Cost overview module.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Advanced view">
+      <TocEntry
+        Title="Operation and Setup"
+        Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Operation and Setup.htm">
+        <TocEntry
+          Title="Ribbon"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Ribbon/Ribbon.htm" />
+        <TocEntry
+          Title="Filter"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Filter/Filter.htm">
+          <TocEntry
+            Title="Display mode"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Filter/DisplayMode/Display Mode.htm" />
+          <TocEntry
+            Title="Advanced filter settings"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Filter/AdvancedFilterSettings/Advanced filter settings.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="List view"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/ListView/List view.htm" />
+        <TocEntry
+          Title="Reading pane"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/ReadingPane/Reading pane.htm" />
+        <TocEntry
+          Title="Tags"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Tags/Tags.htm" />
+        <TocEntry
+          Title="Search"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Search/Search.htm" />
+        <TocEntry
+          Title="Print"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Print/Print.htm" />
+        <TocEntry
+          Title="Dashboard and widgets"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Dashboard and widgets/Dashboard and widgets.htm">
+          <TocEntry
+            Title="Keyboard shortcuts"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/Operation and Setup/Dashboard and widgets/Keyboard shortcuts.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Client Module"
+        Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Client Module.htm">
+        <TocEntry
+          Title="Passwords"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Passwords.htm">
+          <TocEntry
+            Title="Creating new passwords"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Creating new passwords.htm" />
+          <TocEntry
+            Title="Revealing passwords"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Revealing passwords.htm" />
+          <TocEntry
+            Title="Moving passwords"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Moving passwords.htm" />
+          <TocEntry
+            Title="Form field permissions"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Form field permissions.htm" />
+          <TocEntry
+            Title="Password settings"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Password settings.htm" />
+          <TocEntry
+            Title="History"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/History.htm" />
+          <TocEntry
+            Title="Recycle Bin"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Passwords/Recycle Bin.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Documents"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Documents/Documents.htm" />
+        <TocEntry
+          Title="Notifications"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Notifications/Notifications.htm" />
+        <TocEntry
+          Title="Organisational structures"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/Organisational structure.htm"
+          StartSection="false"
+          ComputeToc="false">
+          <TocEntry
+            Title="Managing users"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/ManagingUsers/Managing users.htm">
+            <TocEntry
+              Title="User passwords / logging in to client"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/ManagingUsers/User passwords logging in.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Permissions for organisational structures"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/PermissionsOUs/Permissions for organisational.htm">
+            <TocEntry
+              Title="Inheriting Permissions"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/PermissionsOUs/Inheriting permissions.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Directory services"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/Directory services.htm">
+            <TocEntry
+              Title="Active Directory link"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/ActiveDirectoryLink/Active Directory link.htm">
+              <TocEntry
+                Title="End-to-end encryption"
+                Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/ActiveDirectoryLink/End-to-end encryption.htm" />
+              <TocEntry
+                Title="Masterkey mode"
+                Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/ActiveDirectoryLink/Masterkey mode.htm" />
+              <TocEntry
+                Title="RADIUS authentication"
+                Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/ActiveDirectoryLink/RADIUS authentication.htm" />
+            </TocEntry>
+            <TocEntry
+              Title="Entra ID connection"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/Entra ID/Entra ID connection.htm">
+              <TocEntry
+                Title="[%=System.LinkedTitle%]"
+                Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/DirectoryServices/Entra ID/Microsoft Entra ID FAQ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            </TocEntry>
+          </TocEntry>
+          <TocEntry
+            Title="First factor"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/FirstFactor/First factor.htm" />
+          <TocEntry
+            Title="Multifactor authentication"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/MultifactorAuthentication/Multifactor authentication.htm">
+            <TocEntry
+              Title="Yubico / Yubikey"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/MultifactorAuthentication/Yubico/YubicoYubikey.htm"></TocEntry>
+            <TocEntry
+              Title="OTP (One-Time-Password)"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/OrganisationalStructures/MultifactorAuthentication/OTP/OTP (One-Time-Password).htm" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Roles"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Roles/Roles.htm" />
+        <TocEntry
+          Title="Forms"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Forms/Forms.htm">
+          <TocEntry
+            Title="Change form"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Forms/Change form.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Logbook"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Logbook/Logbook.htm" />
+        <TocEntry
+          Title="Applications"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Applications.htm">
+          <TocEntry
+            Title="Learning the applications"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Learning the applications/Learning the applications.htm">
+            <TocEntry
+              Title="Start parameter"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Learning the applications/Start parameter/Start Parameter.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="RDP and SSH Applications"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/RDP and SSH Applications/RDP and SSH Applications.htm">
+            <TocEntry
+              Title="Recording a session"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/RDP and SSH Applications/Recording a session/Recording a session.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Configuration of SAML"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Configuration of SAML/Configuration of SAML.htm" />
+          <TocEntry
+            Title="Example Applications"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Examples/Example Applications.htm">
+            <TocEntry
+              Title="SAP GUI logon - SSO Application"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Examples/SAP/SAP GUI logon - SSO Application.htm" />
+            <TocEntry
+              Title="SAML Application for Dropbox"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Examples/SAML Examples/SAML Application for Dropbox.htm" />
+            <TocEntry
+              Title="SAML application for Postman"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/Applications/Examples/SAML Examples/SAML application for Postman.htm" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="Password Reset"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Password Reset.htm">
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Requirements/Requirements_1.htm" />
+          <TocEntry
+            Title="Configuration"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Configuration/Configuration_2.htm" />
+          <TocEntry
+            Title="Scripts"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Scripts/Scripts.htm" />
+          <TocEntry
+            Title="User-defined scripts"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/User-defined scripts/User-defined scripts.htm" />
+          <TocEntry
+            Title="Heartbeat"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Heartbeat/Heartbeat.htm" />
+          <TocEntry
+            Title="Rollback"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Rollback/Rollback.htm" />
+          <TocEntry
+            Title="Logbook entries under Password Reset"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/PasswordReset/Logbook entries/Logbook entries under Password.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Discovery Service"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Discovery Service.htm">
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Requirements/Requirements.htm" />
+          <TocEntry
+            Title="Configuration"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Configuration/Configuration_1.htm" />
+          <TocEntry
+            Title="Discovered entries"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Discovered entries/Discovered entries.htm" />
+          <TocEntry
+            Title="Converting entries"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Converting entries/Converting entries.htm" />
+          <TocEntry
+            Title="Created passwords"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Created password/Created passwords.htm" />
+          <TocEntry
+            Title="Deleting entries"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Deleting entries/Deleting entries.htm" />
+          <TocEntry
+            Title="Logbook"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/ClientModule/DiscoveryService/Logbook/Logbook_1.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Main Menu"
+        Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Main Menu FC.htm">
+        <TocEntry
+          Title="Extras"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Extras.htm">
+          <TocEntry
+            Title="Password rules"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Password rules/Password Rules.htm" />
+          <TocEntry
+            Title="Password generator"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Password generator/Password Generator.htm" />
+          <TocEntry
+            Title="Reports"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Reports/Reports.htm" />
+          <TocEntry
+            Title="System Tasks"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/System tasks/System Tasks.htm">
+            <TocEntry
+              Title="Emergency WebViewer"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/System tasks/Emergency WebViewer/Emergency WebViewer.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Seal templates"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Seal templates/Seal templates.htm" />
+          <TocEntry
+            Title="Tag management"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Tag management/Tag manager.htm" />
+          <TocEntry
+            Title="Image management"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Image management/Image Manager.htm" />
+          <TocEntry
+            Title="Trash"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Extras/Trash/Trash.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Account"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Account/Account.htm" />
+        <TocEntry
+          Title="General Settings"
+          Link="/Content/PasswordSecure/Configuration/Server Manager/Main menu/General settings.htm" />
+        <TocEntry
+          Title="User settings"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/User settings/User settings.htm">
+          <TocEntry
+            Title="Overview of all settings"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/User settings/Overview user settings/Overview of all user settings.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="User rights"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/User rights/User rights.htm">
+          <TocEntry
+            Title="Overview of all user rights"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/User rights/Overview user rights/Overview of all user rights.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Administration"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Administration/Administration.htm" />
+        <TocEntry
+          Title="Import"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Import/Import.htm" />
+        <TocEntry
+          Title="Export"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Export/Export.htm">
+          <TocEntry
+            Title="HTML WebViewer-Export"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Export/HTML WebViewer-Export/HTML WebViewer export.htm" />
+          <TocEntry
+            Title="Export Wizard"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/MainMenu/Export/Export Wizard/Export Wizard.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Permission concept and protective mechanisms"
+        Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Permission concept and protective.htm">
+        <TocEntry
+          Title="Manual setting of permissions"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Manual settings/Manual setting of permissions.htm">
+          <TocEntry
+            Title="Right templates"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Manual settings/Rights templates/Right templates.htm" />
+          <TocEntry
+            Title="Multiple editing of permissions"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Manual settings/Multiple editing of permissions/Multiple editing of permissions.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Automated setting of permissions"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Automated settings/Automated setting of permissions.htm">
+          <TocEntry
+            Title="Inheritance from organisational structures"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Automated settings/Inheritance from organisational structures/Inheritance from organizational.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Predefining rights"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Predefining rights.htm">
+          <TocEntry
+            Title="Working with predefined rights"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Working with predefining rights/Working with predefined rights.htm" />
+          <TocEntry
+            Title="Relevant user rights"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Relevant user rights/Relevant user rights.htm" />
+          <TocEntry
+            Title="Scope of validity for predefined rights"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Scope of validity/Scope of validity for predefined.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Protective mechanisms"
+          Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Protective mechanisms.htm">
+          <TocEntry
+            Title="Visibility"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Visibility/Visibility.htm" />
+          <TocEntry
+            Title="Temporary permissions"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Temporary permissions/Temporary permissions.htm" />
+          <TocEntry
+            Title="Password masking"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Password masking/Password masking.htm" />
+          <TocEntry
+            Title="Seals"
+            Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Seals/Seals.htm">
+            <TocEntry
+              Title="Seal overview"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Seals/Seals Overview/Seal overview.htm"></TocEntry>
+            <TocEntry
+              Title="Release mechanism"
+              Link="/Content/PasswordSecure/Configuration/Advanced view/PermissionConcept/Predefining rights/Protective mechanisms/Seals/Release mechanism/Release mechanism.htm" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Basic view"
+      Link="/Content/PasswordSecure/Configuration/Basic view/Basic view.htm">
+      <TocEntry
+        Title="Administration"
+        Link="/Content/PasswordSecure/Configuration/Basic view/Administration/To do for Administration.htm">
+        <TocEntry
+          Title="Errorcodes"
+          Link="/Content/PasswordSecure/Configuration/Basic view/Administration/Errorcodes/Errorcodes of the LightClient.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Checklist"
+        Link="/Content/PasswordSecure/Configuration/Basic view/Checklist/Checklist of the Basic view.htm" />
+      <TocEntry
+        Title="Start and Login"
+        Link="/Content/PasswordSecure/Configuration/Basic view/Start and login/Start and Login Basic View.htm" />
+      <TocEntry
+        Title="View"
+        Link="/Content/PasswordSecure/Configuration/Basic view/View/View.htm" />
+      <TocEntry
+        Title="Tab system"
+        Link="/Content/PasswordSecure/Configuration/Basic view/Tab system/Tab system.htm" />
+      <TocEntry
+        Title="Password management"
+        Link="/Content/PasswordSecure/Configuration/Basic view/Password management/Password management.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Web application"
+      Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Web Application.htm">
+      <TocEntry
+        Title="Functional Scope"
+        Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Functional scope.htm">
+        <TocEntry
+          Title="Password Module"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Password module/Password module.htm" />
+        <TocEntry
+          Title="Tag system"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Tag system/Tag System.htm" />
+        <TocEntry
+          Title="Organisational structure module"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Organisational structure/Organisational Structure.htm">
+          <TocEntry
+            Title="User management"
+            Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Organisational structure/user management/User management.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Roles module"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Roles module/Roles module.htm" />
+        <TocEntry
+          Title="Forms module"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Forms module/Forms module.htm" />
+        <TocEntry
+          Title="Notifications"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Notifications/Notifications.htm" />
+        <TocEntry
+          Title="Logbook"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Logbook/Logbook Web Application.htm" />
+        <TocEntry
+          Title="Applications"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Applications/Application.htm" />
+        <TocEntry
+          Title="Documents"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Functional scope/Documents/Documents Web Application.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Operation"
+        Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Operation.htm">
+        <TocEntry
+          Title="Header"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Header/Header.htm" />
+        <TocEntry
+          Title="Navigation bar"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Navigation bar/Navigation bar.htm">
+          <TocEntry
+            Title="User menu"
+            Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Navigation bar/User menu/User Menu WC.htm" />
+          <TocEntry
+            Title="Settings"
+            Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Navigation bar/Settings/Settings WC.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Filter or structure area"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Filter or structure/Filter or structure area.htm" />
+        <TocEntry
+          Title="Menu bar"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Menu bar/Menu.htm" />
+        <TocEntry
+          Title="List view"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/List view/List view.htm" />
+        <TocEntry
+          Title="Reading pane"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Reading pane/Reading pane WebClient.htm" />
+        <TocEntry
+          Title="Footer"
+          Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Operation/Footer/Footer.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Authorization and protection mechanism"
+        Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Authorization and protection/Authorization and protection mechanisms.htm" />
+      <TocEntry
+        Title="Problems with the server connection"
+        Link="/Content/PasswordSecure/Configuration/Web Applicaiton/Problems/Problems with the server connection.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Browser Add-ons"
+      Link="/Content/PasswordSecure/Configuration/BrowserAdd-ons/Browser Add-ons.htm">
+      <TocEntry
+        Title="Applications"
+        Link="/Content/PasswordSecure/Configuration/BrowserAdd-ons/Applications/Applications Add-on.htm" />
+      <TocEntry
+        Title="How to save passwords"
+        Link="/Content/PasswordSecure/Configuration/BrowserAdd-ons/How to save passwords/How to save passwords.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Autofill Add-on"
+      Link="/Content/PasswordSecure/Configuration/Autofill Add-on/Autofill Add-on.htm">
+      <TocEntry
+        Title="Configuration"
+        Link="/Content/PasswordSecure/Configuration/Autofill Add-on/Configuration/Configuration Autofill Add-on.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Mobile devices"
+      Link="/Content/PasswordSecure/Configuration/MobileDevices/Mobile devices.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Security/SecurityMD.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Setup/Setup Mobile Device.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Setup/Installation app/Installation of the App.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Setup/Linking database/Linking the database.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Setup/Biometric login/Biometric login.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Setup/Setting up autofill/Setting up autofill.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Tabs/Tabs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Synchronization/Synchronization.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Passwords/Passwords MobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Autofill">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Autofill/Autofill iOS/Autofill in iOS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/PasswordSecure/Configuration/MobileDevices/Autofill/Autofill Android/Autofill in Android.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/MobileDevices/Settings/Settings MobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="SDK / API"
+      Link="/Content/PasswordSecure/Configuration/SDK_API/SDK  API.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Maintenance/Migration Guide.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="OfflineClient"
+      Link="/Content/PasswordSecure/Configuration/OfflineClient/Offline Client.htm">
+      <TocEntry
+        Title="Setup and sync"
+        Link="/Content/PasswordSecure/Configuration/OfflineClient/Setup/Setup and sync.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Maintenance">
+    <TocEntry
+      Title="Update"
+      Link="/Content/PasswordSecure/Maintenance/Update.htm"></TocEntry>
+    <TocEntry
+      Title="Moving the server"
+      Link="/Content/PasswordSecure/Maintenance/Moving the server.htm"></TocEntry>
+    <TocEntry
+      Title="ECC Migration"
+      Link="/Content/PasswordSecure/Configuration/Server Manager/ECC Migration/ECC Migration.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/ECC Migration/ECC_Migration_Administrator_Manual.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PasswordSecure/Configuration/Server Manager/ECC Migration/ECC_Migration_User_Manual.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="FAQ">
+    <TocEntry
+      Title="Security">
+      <TocEntry
+        Title="Encryption"
+        Link="/Content/PasswordSecure/FAQ/Security/Encryption/Encryption.htm" />
+      <TocEntry
+        Title="Penetration tests"
+        Link="/Content/PasswordSecure/FAQ/Security/Penetration test/Penetration tests.htm" />
+      <TocEntry
+        Title="High availability"
+        Link="/Content/PasswordSecure/FAQ/Security/High availability/High availability.htm"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/PasswordSecure/EndUser/Overview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/EndUser/BrowserExtension.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/EndUser/CleanUpPasswords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/EndUser/CreateNewEntry.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/EndUser/OrganizePasswords.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/PasswordSecure/EndUser/AdvancedView.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>
