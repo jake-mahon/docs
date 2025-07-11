@@ -4,7 +4,7 @@ This section provides the software requirements and represents the default hardw
 for the virtual machine where Netwrix Data Classification virtual appliance is going to be deployed.
 
 **NOTE:** The requirements below are sufficient for evaluation purposes only. See the
-[Requirements to Install Netwrix Data Classification](/docs/dataclassification/5.6.2/deployment/requirements_intro.md)
+[Requirements to Install Netwrix Data Classification](/docs/dataclassification/5.6.2/deployment/requirements/requirements_intro.md)
 topic for complete information on the requirements for installing Netwrix Data Classification in
 production environments.
 
