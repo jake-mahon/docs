@@ -1,3 +1,9 @@
+---
+title: "Renew-Group"
+description: "Renew-Group"
+sidebar_position: 70
+---
+
 # Renew-Group
 
 The **Renew-Group** re-activates an expired group.
@@ -32,4 +38,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

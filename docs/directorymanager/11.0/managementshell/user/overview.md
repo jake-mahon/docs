@@ -1,3 +1,9 @@
+---
+title: "User Commands"
+description: "User Commands"
+sidebar_position: 150
+---
+
 # User Commands
 
 This section covers cmdlets for performing user-related tasks such as:
@@ -17,4 +23,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

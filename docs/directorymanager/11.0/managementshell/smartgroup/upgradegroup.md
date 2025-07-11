@@ -1,3 +1,9 @@
+---
+title: "Upgrade-Group"
+description: "Upgrade-Group"
+sidebar_position: 60
+---
+
 # Upgrade-Group
 
 The **Upgrade-Group** commandlet upgrades managed (Smart Groups and Dynasties) and non-managed
@@ -82,4 +88,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

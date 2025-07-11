@@ -1,3 +1,9 @@
+---
+title: "Group Commands"
+description: "Group Commands"
+sidebar_position: 70
+---
+
 # Group Commands
 
 This section covers cmdlets for performing tasks related to managed and unmanaged groups.
@@ -23,4 +29,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

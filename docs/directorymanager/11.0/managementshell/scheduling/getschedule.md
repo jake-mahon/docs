@@ -1,3 +1,9 @@
+---
+title: "Get-Schedule"
+description: "Get-Schedule"
+sidebar_position: 10
+---
+
 # Get-Schedule
 
 The commandlet **Get-Schedule** retrieves the scheduled jobs created in the identity store connected
@@ -72,4 +78,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

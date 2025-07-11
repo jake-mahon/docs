@@ -1,3 +1,9 @@
+---
+title: "ConvertTo-StaticGroup"
+description: "ConvertTo-StaticGroup"
+sidebar_position: 10
+---
+
 # ConvertTo-StaticGroup
 
 The **ConvertTo-StaticGroup** commandlet converts an existing Smart Group or a dynasty to a static
@@ -30,4 +36,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

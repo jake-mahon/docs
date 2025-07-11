@@ -1,3 +1,9 @@
+---
+title: "New-SmartGroup"
+description: "New-SmartGroup"
+sidebar_position: 30
+---
+
 # New-SmartGroup
 
 This commandlet helps you to create a new Smart Group (managed group) in Directory. A Smart Group is
@@ -117,4 +123,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

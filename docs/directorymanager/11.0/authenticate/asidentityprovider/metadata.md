@@ -1,3 +1,9 @@
+---
+title: "Specify Default Metadata Values"
+description: "Specify Default Metadata Values"
+sidebar_position: 20
+---
+
 # Specify Default Metadata Values
 
 You can specify default values for the following GroupID metadata:

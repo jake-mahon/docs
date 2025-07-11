@@ -1,3 +1,9 @@
+---
+title: "New-User"
+description: "New-User"
+sidebar_position: 30
+---
+
 # New-User
 
 Use the **New-User** commandlet to create a new user in Directory. Most user properties can be
@@ -69,4 +75,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID Permissions"
+description: "Microsoft Entra ID Permissions"
+sidebar_position: 20
+---
+
 # Microsoft Entra ID Permissions
 
 While using a Microsoft Entra ID identity store with GroupID, the user must have certain role
@@ -6,7 +12,7 @@ assignments and application permissions on the registered app in Microsoft Entra
 This topic lists those roles and permissions GroupID needs to perform operations in a Microsoft
 Entra ID provider.
 
-See the [ License GroupID](/docs/directorymanager/11.0/admincenter/general/licensing.md)
+See the [ License GroupID](/docs/directorymanager/11.0/signin/concepts/licensing.md)
 topic for additional information on GroupID licensing.
 
 ## Graph API Application Permissions

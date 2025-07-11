@@ -1,3 +1,9 @@
+---
+title: "Get-TombStoneObject"
+description: "Get-TombStoneObject"
+sidebar_position: 60
+---
+
 # Get-TombStoneObject
 
 When you delete an object from Directory, the object is not physically removed from the database.
@@ -61,4 +67,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

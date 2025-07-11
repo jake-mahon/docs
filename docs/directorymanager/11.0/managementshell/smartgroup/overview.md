@@ -1,3 +1,9 @@
+---
+title: "Smart Group Commands"
+description: "Smart Group Commands"
+sidebar_position: 140
+---
+
 # Smart Group Commands
 
 This section covers cmdlets for managing Smart Groups.
@@ -21,4 +27,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

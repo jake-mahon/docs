@@ -1,3 +1,9 @@
+---
+title: "Set-User"
+description: "Set-User"
+sidebar_position: 50
+---
+
 # Set-User
 
 The **Set-User** commandlet modifies a user in Directory. Most user properties can be directly
@@ -72,4 +78,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

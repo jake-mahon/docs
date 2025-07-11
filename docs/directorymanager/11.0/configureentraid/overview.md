@@ -1,3 +1,9 @@
+---
+title: "Configure in Microsoft Entra ID"
+description: "Configure in Microsoft Entra ID"
+sidebar_position: 80
+---
+
 # Configure in Microsoft Entra ID
 
 In GroupID, you can create an identity store for an identity provider and perform different

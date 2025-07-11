@@ -1,3 +1,9 @@
+---
+title: "Remove-User"
+description: "Remove-User"
+sidebar_position: 40
+---
+
 # Remove-User
 
 Use the **Remove-User** commandlet to delete a user from directory.
@@ -29,4 +35,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -1,3 +1,9 @@
+---
+title: "Terminate-DirectReports"
+description: "Terminate-DirectReports"
+sidebar_position: 40
+---
+
 # Terminate-DirectReports
 
 Use the **Terminate-DirectRreports** command to terminate user(s). Specify manager of the user you
@@ -36,4 +42,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)
