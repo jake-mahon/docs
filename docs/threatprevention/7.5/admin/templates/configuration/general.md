@@ -63,7 +63,7 @@ Weekly Calendar
 
 The weekly calendar at the bottom of the schedule section is where the schedule is set.
 
-![Schedule section in a policy set to Always Active](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/schedule.webp)
+![Schedule section in a policy set to Always Active](/img/product_docs/threatprevention/7.5/admin/policies/schedule.webp)
 
 When the schedule is set to Always Active, the weekly calendar is grayed-out.
 
