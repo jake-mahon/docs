@@ -1,7 +1,7 @@
 ---
 title: "Navigation"
 description: "Navigation"
-sidebar_position: 40
+sidebar_position: 18
 ---
 
 # Navigation

@@ -9,7 +9,7 @@ sidebar_position: 30
 Access your owner User Access Reviews List from **UAR List** in your menu bar, or one of the review
 shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is
 controlled with the **Sort By** selection in the Filters section. All changes are captured in the
-[UAR History](/docs/platgovnetsuite/welcome/adminoverview/uar_history.md).
+[UAR History](/docs/platgovnetsuite/uar/adminoverview/uar_history.md).
 
 Here is an example of the **Global** review list:
 
@@ -99,7 +99,7 @@ Use **Clear** to reset the Filters.
 8. Assign a **Review Name**. This is only available if you are creating a new **Global** review.
 9. Click **Create**.
 
-Owners are assigned on the administrator's [Owner's List](/docs/platgovnetsuite/welcome/adminoverview/admin_owner_list.md), available on your
+Owners are assigned on the administrator's [Owner's List](/docs/platgovnetsuite/uar/adminoverview/admin_owner_list.md), available on your
 menu.
 
 ### Cancel a Review
@@ -163,8 +163,8 @@ There are various actions you can perform from this list:
   details for the reviews.
 - **Extract Permission Detail**creates a CSV file (_Permission_Report.csv_) of the permission
   details for the reviews.
-- **Review Name** is a link to the [Membership](/docs/platgovnetsuite/welcome/adminoverview/owner_membership_reviews.md) or
-  [Permission ](/docs/platgovnetsuite/welcome/adminoverview/owner_permission_reviews.md)**Review** tab. Reviews can also be opened
+- **Review Name** is a link to the [Membership](/docs/platgovnetsuite/uar/adminoverview/owner_membership_reviews.md) or
+  [Permission ](/docs/platgovnetsuite/uar/adminoverview/owner_permission_reviews.md)**Review** tab. Reviews can also be opened
   via links in dashboard or email **Notifications**. The Review tab and Review notes tab is the
 - **Role Name** the role being reviewed.
 - **Review Type** is the type of review: **Membership** or **Permission**. The review type is set
@@ -176,7 +176,7 @@ There are various actions you can perform from this list:
     - **Not Started** Email notification has been sent, review has not been started.
     - **In Progress** Review has been started.
     - **Additional Reviewer** Review has been assigned to an
-      [additional reviewer](/docs/platgovnetsuite/welcome/adminoverview/owner_membership_reviews.md).
+      [additional reviewer](/docs/platgovnetsuite/uar/adminoverview/owner_membership_reviews.md).
     - **Change Request** Change request has been created. The **Change Request ID** is added to the
       row. The link opens the Change Request. **CR Rejected**, **CR Cancelled**, and **CR Complete**
       are the other Change Request status values.
