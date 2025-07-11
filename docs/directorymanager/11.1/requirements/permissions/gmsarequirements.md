@@ -59,4 +59,4 @@ NOTE: Restart the Directory Manager server if you apply any of the above.
 
 **See Also**
 
-- [Manage an Identity Store](/docs/directorymanager/11.1/signin/identitystore/manage.md)
+- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)

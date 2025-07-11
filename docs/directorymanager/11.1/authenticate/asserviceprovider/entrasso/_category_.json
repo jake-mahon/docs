@@ -1,5 +1,5 @@
 {
-  "label": "SAML Configuration for Directory Manager using Microsoft Entra ID SSO",
+  "label": "Microsoft Entra SSO",
   "position": 20,
   "collapsed": true,
   "collapsible": true,

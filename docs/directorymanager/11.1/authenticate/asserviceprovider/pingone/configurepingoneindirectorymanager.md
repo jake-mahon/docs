@@ -1,3 +1,9 @@
+---
+title: "Configure PingOne in Directory Manager"
+description: "Configure Directory Manager In PingOne"
+sidebar_position: 30
+---
+
 # Configure the PingOne Provider In Directory Manager
 
 While creating the PingOne provider in Directory Manager, you simply have to import the PingOne

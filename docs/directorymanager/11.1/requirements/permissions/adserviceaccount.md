@@ -18,12 +18,6 @@ recommended that you create a new service account rather than using an existing 
 NOTE: You must add the service account to the membership of the Local Administrator group of the
 member server on which Directory Manager is installed.
 
-What do you want to do?
-
-- Use an Existing Account as a Service Account
-- Create a New Service Account
-- SQL Server Account and Database Permissions
-
 ## Use an Existing Account as a Service Account
 
 Verify that the account that you want to use as a service account has the following Active Directory
@@ -32,9 +26,9 @@ and Exchange permissions:
 Exchange permissions are required if Microsoft Exchange is configured as the messaging provider for
 the identity store.
 
-|                         |                                                                                                                                                                                                                                                                                                                      |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active Directory        | Recommended: **Domain Admins** Minimum permissions: - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups. See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
+|    |    |
+| --- | --- |
+| Active Directory | Recommended: **Domain Admins** Minimum permissions: - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups. See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
 | Exchange 2013/2016/2019 | Recipient Management                                                                                                                                                                                                                                                                                                 |
 
 ## Create a New Service Account
@@ -154,12 +148,12 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](/docs/directorymanager/11.1/about/configure/setupauthentication.md) topic for information about the roles and
+See the [Authentication Modes](/docs/directorymanager/11.1/install/configure/setupauthentication.md) topic for information about the roles and
 permissions the SQL server and database accounts must have for
-[SQL Server Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#sql-server-authentication) mode and for
-[Windows Authentication](/docs/directorymanager/11.1/about/configure/setupauthentication.md#windows-authentication) mode.
+[SQL Server Authentication](/docs/directorymanager/11.1/install/configure/setupauthentication.md#sql-server-authentication) mode and for
+[Windows Authentication](/docs/directorymanager/11.1/install/configure/setupauthentication.md#windows-authentication) mode.
 
 **See Also**
 
-- [Create an Identity Store](/docs/directorymanager/11.1/signin/identitystore/create.md)
-- [Manage an Identity Store](/docs/directorymanager/11.1/signin/identitystore/manage.md)
+- [Create an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/manage.md)

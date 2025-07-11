@@ -10,7 +10,7 @@ The Upgrade-Group commandlet upgrades managed (Smart Groups and Dynasties) and n
 GroupID 10 to Directory Manager 11.1 version. Before running this commandlet, make sure the
 configurations and history have been upgraded through the Directory Manager Upgrade wizard, only
 then this commandlet will upgrade the specified groups and their history successfully. See the
-[Upgrade to Directory Manager 11](/docs/directorymanager/11.1/about/upgrade/upgrade.md) topic for additional information
+[Upgrade to Directory Manager 11](/docs/directorymanager/11.1/install/upgrade/upgrade.md) topic for additional information
 on upgrade.
 
 ## Syntax

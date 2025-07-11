@@ -1,7 +1,7 @@
 ---
 title: "Sign In Using Microsoft Entra ID SSO"
 description: "Sign In Using Microsoft Entra ID SSO"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Sign In Using Microsoft Entra ID SSO
