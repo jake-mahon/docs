@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 The Activity Monitor Console is used to deploy and manage activity agents, configure host
@@ -9,7 +15,7 @@ There are up to three tabs at the top left of the window:
 
 - Agents – Deploy activity / AD agents and manage settings. This is the only tab available until an
   agent is installed. See the
-  [Agent Information](/docs/activitymonitor/7.1/install/agents.md) topic
+  [Agent Information](/docs/activitymonitor/7.1/install/agents/agents.md) topic
   for additional information
 - Monitored Domains – Configure activity monitoring per host (appears after the first Active
   Directory agent is deployed). See the

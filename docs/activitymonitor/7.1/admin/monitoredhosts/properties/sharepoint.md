@@ -1,3 +1,9 @@
+---
+title: "SharePoint Tab"
+description: "SharePoint Tab"
+sidebar_position: 140
+---
+
 # SharePoint Tab
 
 The SharePoint tab on a host’s Properties window allows users to modify settings that are populated

@@ -1,3 +1,9 @@
+---
+title: "Inactivity Alerts Tab"
+description: "Inactivity Alerts Tab"
+sidebar_position: 100
+---
+
 # Inactivity Alerts Tab
 
 The Inactivity Alerts tab, once enabled and configured, sends real-time alerts when the agent stops

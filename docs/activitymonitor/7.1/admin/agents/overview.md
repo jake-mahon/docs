@@ -1,3 +1,9 @@
+---
+title: "Agents Tab"
+description: "Agents Tab"
+sidebar_position: 10
+---
+
 # Agents Tab
 
 The **Agents** tab is used to deploy activity agents and manage settings. This is the only tab
@@ -11,14 +17,14 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Add Agent – Opens the Add New Agent(s) window to deploy the activity/AD agent to a single server
   or to multiple servers at the same time. The following sections provide additional information:
 
-    - [Single Activity Agent Deployment](/docs/activitymonitor/7.1/admin/agents/add/single.md)
-    - [Multiple Activity Agents Deployment](/docs/activitymonitor/7.1/admin/agents/add/multiple.md)
-    - [Active Directory Agent Deployment](/docs/activitymonitor/7.1/admin/agents/add/activedirectory.md)
-    - [Linux Agent Deployment](/docs/activitymonitor/7.1/admin/agents/add/linux.md)
+    - [Single Activity Agent Deployment](/docs/activitymonitor/7.1/admin/agents/single.md)
+    - [Multiple Activity Agents Deployment](/docs/activitymonitor/7.1/admin/agents/multiple.md)
+    - [Active Directory Agent Deployment](/docs/activitymonitor/7.1/admin/agents/activedirectory.md)
+    - [Linux Agent Deployment](/docs/activitymonitor/7.1/admin/agents/linux.md)
     - Remove – Opens the Remove Agents window where users can choose to remove the hosting server
       from the activity agents table or uninstalling the activity agent from the hosting server
       before removing the activity agent from the table. See the
-      [Remove Agents](/docs/activitymonitor/7.1/install/removeagent.md)
+      [Remove Agents](/docs/activitymonitor/7.1/install/upgrade/removeagent.md)
       topic for additional information.
 
 - Edit – Opens the selected server’s Properties window to modify the server name or credentials. See
@@ -37,7 +43,7 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Upgrade – [When Agent Status is Outdated] Replaces outdated activity agent with current version
 - Update Installer – Opens a browser window to select the newer AD agent installer. A confirmation
   window then opens and identifies the new installer version. See the
-  [Update AD Agent Installer](/docs/activitymonitor/7.1/install/updateadagentinstaller.md)
+  [Update AD Agent Installer](/docs/activitymonitor/7.1/install/upgrade/updateadagentinstaller.md)
   topic for additional information.
 - Refresh all – Refresh the status of all activity agents
 
@@ -66,4 +72,4 @@ activity/AD agent, and upgrade of an activity/AD agent.
 v4.0+ Console.
 
 For additional information on how to deploy agents manually, see the
-[Agent Information](/docs/activitymonitor/7.1/install/agents.md) topic.
+[Agent Information](/docs/activitymonitor/7.1/install/agents/agents.md) topic.

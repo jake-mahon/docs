@@ -1,8 +1,14 @@
+---
+title: "Exchange Online"
+description: "Exchange Online"
+sidebar_position: 50
+---
+
 # Exchange Online
 
 Prior to adding an Exchange Online host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Exchange Online Activity Auditing Configuration](/docs/activitymonitor/7.1/config/exchangeonline/activity.md)
+[Exchange Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -43,7 +49,7 @@ tabs:
 - Other
 
 These options can be configured again in a Exchange Online host's properties window. See the
-[Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
+[Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
 for additional information. Click **Next**.
 
 ![Mailboxes to Exclude](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/mailboxesexclude.webp)
@@ -101,7 +107,7 @@ Output page can be configured. The configurable options are:
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -113,7 +119,7 @@ Output page can be configured. The configurable options are:
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -122,7 +128,7 @@ Click **Finish**.
 
 The added Exchange Online host is displayed in the monitored hosts table. Once a host has been added
 for monitoring, configure the desired outputs. See the
-[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output/output.md)
 topic for additional information.
 
 ## Host Properties for Exchange Online

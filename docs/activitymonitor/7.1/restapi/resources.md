@@ -1,3 +1,9 @@
+---
+title: "Resources"
+description: "Resources"
+sidebar_position: 20
+---
+
 # Resources
 
 This page provides an overview of various REST APIs for Activity Monitor, outlining their attributes

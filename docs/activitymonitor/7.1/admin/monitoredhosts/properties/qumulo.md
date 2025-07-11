@@ -1,3 +1,9 @@
+---
+title: "Qumulo Tab"
+description: "Qumulo Tab"
+sidebar_position: 130
+---
+
 # Qumulo Tab
 
 The Qumulo tab allows users to modify settings after a Qumulo host has been configured. Once a

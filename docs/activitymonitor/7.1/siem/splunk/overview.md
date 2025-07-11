@@ -1,3 +1,9 @@
+---
+title: "File Activity Monitor App for Splunk"
+description: "File Activity Monitor App for Splunk"
+sidebar_position: 20
+---
+
 # File Activity Monitor App for Splunk
 
 Stealthbits File Activity monitoring solutions enable organizations to successfully, efficiently,
