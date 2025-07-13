@@ -1,7 +1,7 @@
 ---
 title: "Launch Platform Governance for Salesforce"
 description: "Launch Platform Governance for Salesforce"
-sidebar_position: 30
+sidebar_position: 7
 ---
 
 # Launch Platform Governance for Salesforce

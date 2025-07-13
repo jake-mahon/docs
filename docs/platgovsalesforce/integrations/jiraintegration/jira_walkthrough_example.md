@@ -53,7 +53,7 @@ The walkthrough demonstrates these steps:
 ### Connected App
 
 Use the **Connected App** tab if you set up the connected app using the procedure:
-[Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration.md#access-data-with-apiintegration)
+[Access Data with API Integration](/docs/platgovsalesforce/integrations/jiraintegration/jira_integration#access-data-with-apiintegration)
 
 1. Open the **Connected App** tab.
 
