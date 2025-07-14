@@ -1,3 +1,9 @@
+---
+title: "Supported Data Sources"
+description: "Supported Data Sources"
+sidebar_position: 10
+---
+
 # Supported Data Sources
 
 This section lists platforms and systems that can be monitored with Netwrix Auditor.

@@ -1,3 +1,9 @@
+---
+title: "1-Box_Access Scans Job"
+description: "1-Box_Access Scans Job"
+sidebar_position: 10
+---
+
 # 1-Box_Access Scans Job
 
 The 1-Box_Access Scans Job collects the data which will be further analyzed in order to provide

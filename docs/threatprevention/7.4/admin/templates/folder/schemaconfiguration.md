@@ -1,3 +1,9 @@
+---
+title: "Schema and Configuration Folder Templates"
+description: "Schema and Configuration Folder Templates"
+sidebar_position: 90
+---
+
 # Schema and Configuration Folder Templates
 
 The Schema and Configuration folder contains the following templates:

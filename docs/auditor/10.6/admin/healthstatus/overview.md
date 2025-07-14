@@ -1,3 +1,9 @@
+---
+title: "Netwrix Auditor Operations and Health"
+description: "Netwrix Auditor Operations and Health"
+sidebar_position: 110
+---
+
 # Netwrix Auditor Operations and Health
 
 This topic describes how you can monitor Auditor operations, health and resource usage. See the

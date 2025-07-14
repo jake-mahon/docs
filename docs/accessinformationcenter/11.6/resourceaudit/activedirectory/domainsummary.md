@@ -1,3 +1,9 @@
+---
+title: "Domain Summary Report"
+description: "Domain Summary Report"
+sidebar_position: 20
+---
+
 # Domain Summary Report
 
 The Domain Summary report at the **Active Directory** node provides a top-level view of domains that

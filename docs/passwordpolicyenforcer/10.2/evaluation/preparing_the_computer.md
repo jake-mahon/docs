@@ -1,3 +1,9 @@
+---
+title: "Preparing the Computer"
+description: "Preparing the Computer"
+sidebar_position: 10
+---
+
 # Preparing the Computer
 
 You only need one computer for the evaluation. A Windows Server 2016, 2019, or 2022 domain

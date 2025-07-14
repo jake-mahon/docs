@@ -1,3 +1,9 @@
+---
+title: "LSASS Guardian Tab"
+description: "LSASS Guardian Tab"
+sidebar_position: 50
+---
+
 # LSASS Guardian Tab
 
 The LSASS Guardian tab allows users to modify settings that were populated with the information

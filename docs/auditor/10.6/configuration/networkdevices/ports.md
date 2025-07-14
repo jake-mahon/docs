@@ -1,3 +1,9 @@
+---
+title: "Network Devices Ports"
+description: "Network Devices Ports"
+sidebar_position: 10
+---
+
 # Network Devices Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Network Devices.

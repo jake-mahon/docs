@@ -1,3 +1,9 @@
+---
+title: "Migrate the Enterprise Manager Server"
+description: "Migrate the Enterprise Manager Server"
+sidebar_position: 100
+---
+
 # Migrate the Enterprise Manager Server
 
 Follow the steps to move the Threat Prevention7.4 Enterprise Manager to a different server when
@@ -79,5 +85,5 @@ Netwrix Threat Prevention server.
 recommended that you uninstall, then re-enroll and re-install all Agents with new certificates. This
 is because customer supplied certificates usually have the FQDN info of the Enterprise Manager and
 the new Enterprise Manager machine would typically have a different DNS name. See the
-[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/install/agent/customcert.md)
+[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/install/agent/manual/customcert.md)
 topic for additional information.

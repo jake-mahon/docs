@@ -1,3 +1,9 @@
+---
+title: "Integration API Ports"
+description: "Integration API Ports"
+sidebar_position: 20
+---
+
 # Integration API Ports
 
 Review a full list of protocols and ports required for add-ons or any queries leveraging Netwrix

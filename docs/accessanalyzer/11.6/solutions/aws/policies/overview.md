@@ -1,3 +1,9 @@
+---
+title: "5.Policies Job Group"
+description: "5.Policies Job Group"
+sidebar_position: 70
+---
+
 # 5.Policies Job Group
 
 The 5.Policies job group provides details on AWS IAM policies including the various types of

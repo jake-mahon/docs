@@ -1,3 +1,9 @@
+---
+title: "Service Account Delegation"
+description: "Service Account Delegation"
+sidebar_position: 10
+---
+
 # Service Account Delegation
 
 Delegation can be used to grant the Active Directory service account the minimal rights necessary to

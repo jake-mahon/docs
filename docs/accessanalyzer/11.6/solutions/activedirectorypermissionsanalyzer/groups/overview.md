@@ -1,3 +1,9 @@
+---
+title: "2.Groups Job Group"
+description: "2.Groups Job Group"
+sidebar_position: 40
+---
+
 # 2.Groups Job Group
 
 The 2.Groups Job Group reports on all Active Directory permissions applied to group objects within

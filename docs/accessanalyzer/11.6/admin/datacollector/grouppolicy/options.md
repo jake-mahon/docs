@@ -1,3 +1,9 @@
+---
+title: "GroupPolicy: Options"
+description: "GroupPolicy: Options"
+sidebar_position: 40
+---
+
 # GroupPolicy: Options
 
 The Options page is used to configure how to return multi-valued properties and how policy results

@@ -1,3 +1,9 @@
+---
+title: "Database & Table Level Reports"
+description: "Database & Table Level Reports"
+sidebar_position: 40
+---
+
 # Database & Table Level Reports
 
 The following reports are available at the database and table levels:

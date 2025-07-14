@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The **5.Domains > 0.Collection** Job Group collects the data which will be further analyzed in order

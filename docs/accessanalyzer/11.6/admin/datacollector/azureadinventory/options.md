@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory: Options"
+description: "AzureADInventory: Options"
+sidebar_position: 40
+---
+
 # AzureADInventory: Options
 
 The Options page provides scan options to use when gathering Microsoft Entra ID information. It is a

@@ -1,3 +1,9 @@
+---
+title: "Teams Ports"
+description: "Teams Ports"
+sidebar_position: 10
+---
+
 # Teams Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Microsoft Teams.

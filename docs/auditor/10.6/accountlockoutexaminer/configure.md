@@ -1,3 +1,9 @@
+---
+title: "Planning and Preparation"
+description: "Planning and Preparation"
+sidebar_position: 10
+---
+
 # Planning and Preparation
 
 Before you start using Netwrix Account Lockout Examiner, check the prerequisites and set up your

@@ -1,3 +1,9 @@
+---
+title: "DiskInfo Data Collector"
+description: "DiskInfo Data Collector"
+sidebar_position: 100
+---
+
 # DiskInfo Data Collector
 
 The DiskInfo Data Collector provides enumeration of disks and their associated properties. When

@@ -1,3 +1,9 @@
+---
+title: "Define Parameters"
+description: "Define Parameters"
+sidebar_position: 20
+---
+
 # Define Parameters
 
 The configuration wizard opens in the default web browser:

@@ -1,3 +1,9 @@
+---
+title: "Deploy the Add-On"
+description: "Deploy the Add-On"
+sidebar_position: 30
+---
+
 # Deploy the Add-On
 
 Follow the step to deploy the Add-On:

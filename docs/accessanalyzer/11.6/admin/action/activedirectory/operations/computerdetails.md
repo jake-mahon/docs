@@ -1,3 +1,9 @@
+---
+title: "Computer Details"
+description: "Computer Details"
+sidebar_position: 20
+---
+
 # Computer Details
 
 Use the Computers Details page to select computer attributes to change.

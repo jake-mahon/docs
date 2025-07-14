@@ -1,3 +1,9 @@
+---
+title: "Configuration Interface Overview"
+description: "Configuration Interface Overview"
+sidebar_position: 40
+---
+
 # Configuration Interface Overview
 
 The Configuration interface is available only to users with the Administrator role. It is opened by

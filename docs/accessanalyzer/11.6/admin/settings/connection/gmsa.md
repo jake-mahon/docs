@@ -1,8 +1,14 @@
+---
+title: "Group Managed Service Accounts (gMSA) Configuration"
+description: "Group Managed Service Accounts (gMSA) Configuration"
+sidebar_position: 30
+---
+
 # Group Managed Service Accounts (gMSA) Configuration
 
 Enterprise Auditor can use a previously-configured Group Managed Service Accounts (gMSA/MSA)
 account. Make sure that Managed Service Account is selected in the User Credentials window. See the
-[Create a Connection Profile](/docs/accessanalyzer/11.6/admin/settings/connection/profile/create.md)
+[Create a Connection Profile](/docs/accessanalyzer/11.6/admin/settings/connection/create/create.md)
 or
 [Create a Schedule Service Account](/docs/accessanalyzer/11.6/admin/settings/schedule.md#create-a-schedule-service-account)
 topic for additional information.

@@ -1,3 +1,9 @@
+---
+title: "Application Server Requirements"
+description: "Application Server Requirements"
+sidebar_position: 10
+---
+
 # Application Server Requirements
 
 This topic lists the requirements for the Threat Prevention server, where Enterprise Manager has to

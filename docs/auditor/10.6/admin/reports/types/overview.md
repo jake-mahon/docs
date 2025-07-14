@@ -1,3 +1,9 @@
+---
+title: "Predefined Reports"
+description: "Predefined Reports"
+sidebar_position: 40
+---
+
 # Predefined Reports
 
 Netwrix Auditor is shipped with 250+ ready-to-use reports designed by Netwrix industry experts. To

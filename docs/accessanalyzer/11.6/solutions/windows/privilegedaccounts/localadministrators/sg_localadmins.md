@@ -1,3 +1,9 @@
+---
+title: "SG_LocalAdmins Job"
+description: "SG_LocalAdmins Job"
+sidebar_position: 10
+---
+
 # SG_LocalAdmins Job
 
 The SG_LocalAdmins job identifies the effective membership for all local administrator groups. The

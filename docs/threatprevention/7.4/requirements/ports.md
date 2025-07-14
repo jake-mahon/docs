@@ -1,3 +1,9 @@
+---
+title: "Firewall Ports"
+description: "Firewall Ports"
+sidebar_position: 70
+---
+
 # Firewall Ports
 
 The following default ports are required for Threat Prevention functionality unless modified as per
@@ -8,7 +14,7 @@ in step 6 of the
 on the Set Options page of the
 [Deploy Agents Wizard](/docs/threatprevention/7.4/admin/agents/deploy/overview.md#deploy-agents-wizard),
 or in step 7 of a
-[Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual.md),
+[Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual/manual.md),
 then Threat Prevention will create the necessary Windows firewall rules. If using a third party
 firewall, it will be necessary to manually set these.
 

@@ -1,3 +1,9 @@
+---
+title: "Get-ReplicationStatus"
+description: "Get-ReplicationStatus"
+sidebar_position: 50
+---
+
 # Get-ReplicationStatus
 
 The **Get-ReplicationStatus** commandlet retrieves the replication status of the connected identity
@@ -29,4 +35,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

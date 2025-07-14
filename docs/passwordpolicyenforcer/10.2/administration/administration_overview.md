@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 20
+---
+
 # Administration
 
 Netwrix Password Policy Enforcer helps you to secure your network by ensuring that users choose

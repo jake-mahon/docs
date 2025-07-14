@@ -1,3 +1,9 @@
+---
+title: "Agent Backup"
+description: "Agent Backup"
+sidebar_position: 10
+---
+
 # Agent Backup
 
 Follow the steps to back up the configuration, passwords, Active Directory event data file, and

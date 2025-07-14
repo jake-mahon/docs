@@ -1,3 +1,9 @@
+---
+title: "SP_Teams"
+description: "SP_Teams"
+sidebar_position: 50
+---
+
 # SP_Teams
 
 The SP_Teams Job identifies activities, sensitive data and a summary of collected data for

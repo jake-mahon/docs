@@ -1,3 +1,9 @@
+---
+title: "Get-SmartGroup"
+description: "Get-SmartGroup"
+sidebar_position: 20
+---
+
 # Get-SmartGroup
 
 Use this commandlet to retrieve Smart Groups and Dynasties that match your given criteria in one or
@@ -56,4 +62,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

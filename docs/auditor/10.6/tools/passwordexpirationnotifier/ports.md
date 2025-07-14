@@ -1,3 +1,9 @@
+---
+title: "Password Expiration Notifier Ports"
+description: "Password Expiration Notifier Ports"
+sidebar_position: 10
+---
+
 # Password Expiration Notifier Ports
 
 Review a protocol and port required for Netwrix Auditor Password Expiration Notifier.

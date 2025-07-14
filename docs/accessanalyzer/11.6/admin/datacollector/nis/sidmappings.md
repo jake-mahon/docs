@@ -1,3 +1,9 @@
+---
+title: "NIS: SID Mappings"
+description: "NIS: SID Mappings"
+sidebar_position: 50
+---
+
 # NIS: SID Mappings
 
 The SID Mappings page is where the Windows-style SID mappings for the Unix User ID and Group ID are

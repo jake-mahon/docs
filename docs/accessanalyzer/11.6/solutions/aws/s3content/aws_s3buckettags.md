@@ -1,3 +1,9 @@
+---
+title: "AWS_S3BucketTags Job"
+description: "AWS_S3BucketTags Job"
+sidebar_position: 20
+---
+
 # AWS_S3BucketTags Job
 
 The AWS_S3BucketTags job identifies tags associated with AWS S3 Buckets. Tagging can be helpful to

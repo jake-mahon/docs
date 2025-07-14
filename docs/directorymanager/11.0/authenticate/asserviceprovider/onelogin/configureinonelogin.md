@@ -1,3 +1,9 @@
+---
+title: "Configure GroupID In OneLogin"
+description: "Configure GroupID In OneLogin"
+sidebar_position: 20
+---
+
 # Configure GroupID In OneLogin
 
 Configuring GroupID in OneLogin involve the following steps:

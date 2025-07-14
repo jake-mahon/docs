@@ -1,3 +1,9 @@
+---
+title: "2-FSAC Bulk Import Job"
+description: "2-FSAC Bulk Import Job"
+sidebar_position: 80
+---
+
 # 2-FSAC Bulk Import Job
 
 The 2-FSAC Bulk Import job is designed to import collected access information from the targeted file

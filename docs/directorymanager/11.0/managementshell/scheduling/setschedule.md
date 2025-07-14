@@ -1,3 +1,9 @@
+---
+title: "Set-Schedule"
+description: "Set-Schedule"
+sidebar_position: 60
+---
+
 # Set-Schedule
 
 The commandlet **Set-Schedule** modifies the attributes and settings of a schedule in the identity
@@ -117,4 +123,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

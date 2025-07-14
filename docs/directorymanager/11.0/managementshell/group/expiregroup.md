@@ -1,3 +1,9 @@
+---
+title: "Expire-Group"
+description: "Expire-Group"
+sidebar_position: 20
+---
+
 # Expire-Group
 
 The **Expire-Group** commandlet expires a group temporarily. All notifications to the expired group
@@ -33,4 +39,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

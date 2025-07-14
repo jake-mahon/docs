@@ -1,3 +1,9 @@
+---
+title: "Data Source Configuration"
+description: "Data Source Configuration"
+sidebar_position: 30
+---
+
 # Data Source Configuration
 
 With the Netwrix Auditor, the following Data Sources can be monitored:

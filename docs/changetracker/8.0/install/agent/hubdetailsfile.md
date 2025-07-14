@@ -1,3 +1,9 @@
+---
+title: "HubDetails.xml File"
+description: "HubDetails.xml File"
+sidebar_position: 100
+---
+
 # HubDetails.xml File
 
 The Agent configuration settings are controlled by the Hub during operations but the initial

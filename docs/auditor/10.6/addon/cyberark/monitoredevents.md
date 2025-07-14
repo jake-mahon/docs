@@ -1,3 +1,9 @@
+---
+title: "Monitored Events"
+description: "Monitored Events"
+sidebar_position: 40
+---
+
 # Monitored Events
 
 The Add-On supports monitoring of the following syslog events from CyberArk PAS:

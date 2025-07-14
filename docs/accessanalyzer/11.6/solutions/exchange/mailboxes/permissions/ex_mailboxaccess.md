@@ -1,3 +1,9 @@
+---
+title: "EX_MailboxAccess Job"
+description: "EX_MailboxAccess Job"
+sidebar_position: 30
+---
+
 # EX_MailboxAccess Job
 
 The EX_MailboxAccess job provides visibility into access granted to each mailbox in the environment

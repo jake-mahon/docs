@@ -1,3 +1,9 @@
+---
+title: "Logon Rights Job Group"
+description: "Logon Rights Job Group"
+sidebar_position: 30
+---
+
 # Logon Rights Job Group
 
 The Logon Rights job group collects local policy information and reports on privileged users.

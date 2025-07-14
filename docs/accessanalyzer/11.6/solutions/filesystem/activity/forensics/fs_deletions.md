@@ -1,3 +1,9 @@
+---
+title: "FS_Deletions Job"
+description: "FS_Deletions Job"
+sidebar_position: 10
+---
+
 # FS_Deletions Job
 
 The FS_Deletions job is designed to report on deletion activity event information from targeted file

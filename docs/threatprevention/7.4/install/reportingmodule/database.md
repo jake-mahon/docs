@@ -1,3 +1,9 @@
+---
+title: "Install the PostgreSQL Database Application"
+description: "Install the PostgreSQL Database Application"
+sidebar_position: 10
+---
+
 # Install the PostgreSQL Database Application
 
 The PostgreSQL database application can be installed on the same server as the application or a

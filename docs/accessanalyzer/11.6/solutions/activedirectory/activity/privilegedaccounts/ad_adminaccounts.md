@@ -1,3 +1,9 @@
+---
+title: "AD_AdminAccounts Job"
+description: "AD_AdminAccounts Job"
+sidebar_position: 10
+---
+
 # AD_AdminAccounts Job
 
 The AD_AdminAccounts Job shows all actions taken by domain administrators within the environment.

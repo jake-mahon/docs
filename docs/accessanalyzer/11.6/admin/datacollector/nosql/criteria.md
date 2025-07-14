@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Criteria"
+description: "NoSQL: Criteria"
+sidebar_position: 40
+---
+
 # NoSQL: Criteria
 
 The Criteria page is where the criteria to be used for discovering sensitive data is configured. It

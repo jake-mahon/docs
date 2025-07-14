@@ -1,3 +1,9 @@
+---
+title: "Enable Remote Registry and Windows Management Instrumentation Services"
+description: "Enable Remote Registry and Windows Management Instrumentation Services"
+sidebar_position: 20
+---
+
 # Enable Remote Registry and Windows Management Instrumentation Services
 
 Follow the steps to enable the Remote Registry service.

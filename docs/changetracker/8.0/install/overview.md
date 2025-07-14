@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 40
+---
+
 # Installation
 
 (missing or bad snippet)

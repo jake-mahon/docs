@@ -1,3 +1,9 @@
+---
+title: "AD_UserRights Job"
+description: "AD_UserRights Job"
+sidebar_position: 70
+---
+
 # AD_UserRights Job
 
 The AD_UserRights Job provides data collection to identify permissions applied to users in Active

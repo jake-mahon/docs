@@ -1,3 +1,9 @@
+---
+title: "2-AAD_Exceptions Job"
+description: "2-AAD_Exceptions Job"
+sidebar_position: 30
+---
+
 # 2-AAD_Exceptions Job
 
 The 2-AAD_Exceptions Job identifies toxic conditions that exist within Microsoft Entra ID which may

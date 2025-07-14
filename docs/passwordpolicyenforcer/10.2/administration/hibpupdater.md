@@ -1,3 +1,9 @@
+---
+title: "HIBP Updater"
+description: "HIBP Updater"
+sidebar_position: 140
+---
+
 # HIBP Updater
 
 Password Policy Enforcer can be configured to use the Have I Been Pwnd (HIBP) database. A copy of
@@ -99,7 +105,7 @@ Compromised rule to read the files from:
 \\127.0.0.1\sysvol\your.domain\filename.db
 
 See the
-[Compromised Rule](/docs/passwordpolicyenforcer/10.2/administration/compromised_rule.md)
+[Compromised Rule](/docs/passwordpolicyenforcer/10.2/administration/rules/compromised_rule.md)
 topic for additional information.
 
 The path above only works if the computer has a Sysvol share. This will not be the case if you are

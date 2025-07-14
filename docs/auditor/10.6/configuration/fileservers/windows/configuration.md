@@ -1,3 +1,9 @@
+---
+title: "Configure the Back up Files and Directories Policy"
+description: "Configure the Back up Files and Directories Policy"
+sidebar_position: 80
+---
+
 # Configure the Back up Files and Directories Policy
 
 Configure this Back up Files and Directories policy via the Local Security Policy Snap-in or using

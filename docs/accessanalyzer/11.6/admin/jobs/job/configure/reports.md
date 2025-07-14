@@ -1,3 +1,9 @@
+---
+title: "Reports Node"
+description: "Reports Node"
+sidebar_position: 50
+---
+
 # Reports Node
 
 The Reports node is for configuring reports to be generated during job execution.

@@ -1,3 +1,9 @@
+---
+title: "Mailbox & Folder Level Reports"
+description: "Mailbox & Folder Level Reports"
+sidebar_position: 40
+---
+
 # Mailbox & Folder Level Reports
 
 The following reports are available at the mailbox and folder level:

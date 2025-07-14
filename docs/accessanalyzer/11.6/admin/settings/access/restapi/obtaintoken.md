@@ -1,3 +1,9 @@
+---
+title: "Use the Client Credentials Grant to Obtain an Access Token"
+description: "Use the Client Credentials Grant to Obtain an Access Token"
+sidebar_position: 20
+---
+
 # Use the Client Credentials Grant to Obtain an Access Token
 
 An access token is a credential that can be used by an application to access an API. To obtain an

@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting Proxy Service"
+description: "Troubleshooting Proxy Service"
+sidebar_position: 60
+---
+
 # Troubleshooting Proxy Service
 
 The following are potential errors that may occur during installation and how to resolve each.

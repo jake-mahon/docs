@@ -1,3 +1,9 @@
+---
+title: "Dynasty Commands"
+description: "Dynasty Commands"
+sidebar_position: 50
+---
+
 # Dynasty Commands
 
 This section covers the following cmdlets for managing Dynasties.
@@ -11,4 +17,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

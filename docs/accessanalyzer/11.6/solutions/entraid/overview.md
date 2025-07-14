@@ -1,3 +1,9 @@
+---
+title: "Entra ID Solution"
+description: "Entra ID Solution"
+sidebar_position: 110
+---
+
 # Entra ID Solution
 
 The Entra ID Solution is a comprehensive set of audit jobs and reports that provide the information
@@ -12,7 +18,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/config/entraid/overview.md)
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for additional information.
 
 Location

@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Results"
+description: "SMARTLog: Results"
+sidebar_position: 40
+---
+
 # SMARTLog: Results
 
 The Results page is where the events to be returned by the query are selected. It is a wizard page

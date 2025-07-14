@@ -1,3 +1,9 @@
+---
+title: "Enterprise Auditor Initial Configuration"
+description: "Enterprise Auditor Initial Configuration"
+sidebar_position: 30
+---
+
 # Enterprise Auditor Initial Configuration
 
 Once the Enterprise Auditor installation process is complete, and before performing actions within
@@ -57,7 +63,7 @@ topic for additional information.
   recommended.
 
 See the
-[Securing the Enterprise Auditor Database](/docs/accessanalyzer/11.6/install/application/database.md#securing-the-enterprise-auditor-database)
+[Securing the Enterprise Auditor Database](/docs/accessanalyzer/11.6/install/application/database/database.md#securing-the-enterprise-auditor-database)
 topic for additional information on creating a SQL Server database for Enterprise Auditor.
 
 **Step 5 –** Click **Next**.

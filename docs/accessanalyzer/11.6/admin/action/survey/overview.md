@@ -1,3 +1,9 @@
+---
+title: "Survey Action Module"
+description: "Survey Action Module"
+sidebar_position: 100
+---
+
 # Survey Action Module
 
 Use this action module to create surveys and make them available to targeted recipients via email.

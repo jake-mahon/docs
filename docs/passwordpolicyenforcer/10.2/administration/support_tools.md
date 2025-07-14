@@ -1,3 +1,9 @@
+---
+title: "Support Tools"
+description: "Support Tools"
+sidebar_position: 70
+---
+
 # Support Tools
 
 Use the Support Tools page to create a Configuration Report that you can send to Netwrix Support, or
@@ -32,7 +38,7 @@ You will need to change the new domain name to match your domain. Your user, gro
 assignments will not be valid in the new domain, so they will need to be updated after the import in
 the new domain. This is easily done after the import from the PPE Management Console in the Policy
 Properties page for each policy. See the
-[Assigning Policies](/docs/passwordpolicyenforcer/10.2/administration/assigning_policies.md)
+[Assigning Policies](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/assigning_policies.md)
 topic for additional information. Your license will also most likely need to be imported into the
 new domain. This is done from the About tab on the PPS Properties page.
 

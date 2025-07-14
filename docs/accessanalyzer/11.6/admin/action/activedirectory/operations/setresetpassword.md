@@ -1,3 +1,9 @@
+---
+title: "Set/Reset Users Password"
+description: "Set/Reset Users Password"
+sidebar_position: 100
+---
+
 # Set/Reset Users Password
 
 Use the Set/Reset Users Password page to set or reset user passwords with the specified value.

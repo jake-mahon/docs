@@ -1,3 +1,9 @@
+---
+title: "Clear Modeled Changes"
+description: "Clear Modeled Changes"
+sidebar_position: 40
+---
+
 # Clear Modeled Changes
 
 Modeled changes remain modeled for as long as the Access Information Center user is logged in unless

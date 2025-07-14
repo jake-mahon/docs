@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 20
+---
+
 # Permissions Report
 
 The Permissions report at the database and table levels shows the permissions for the trustee on the

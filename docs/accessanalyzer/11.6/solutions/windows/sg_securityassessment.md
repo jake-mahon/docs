@@ -1,3 +1,9 @@
+---
+title: "SG_SecurityAssessment Job"
+description: "SG_SecurityAssessment Job"
+sidebar_position: 70
+---
+
 # SG_SecurityAssessment Job
 
 The SG_SecurityAssessment job performs checks against Windows security best practices in order to

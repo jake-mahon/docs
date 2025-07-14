@@ -1,3 +1,9 @@
+---
+title: "SG_LocalUsers Job"
+description: "SG_LocalUsers Job"
+sidebar_position: 30
+---
+
 # SG_LocalUsers Job
 
 The SG_LocalUsers job audits local user accounts from all targeted hosts.

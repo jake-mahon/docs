@@ -1,3 +1,9 @@
+---
+title: "Troubleshooting AzureADInventory Data Collector"
+description: "Troubleshooting AzureADInventory Data Collector"
+sidebar_position: 80
+---
+
 # Troubleshooting AzureADInventory Data Collector
 
 ## Clear AzureADInventory Tables

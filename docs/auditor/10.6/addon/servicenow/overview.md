@@ -1,3 +1,9 @@
+---
+title: "ServiceNow Incident Management"
+description: "ServiceNow Incident Management"
+sidebar_position: 190
+---
+
 # ServiceNow Incident Management
 
 The add-on works in collaboration with Netwrix Auditor, supplying data on suspicious activity or

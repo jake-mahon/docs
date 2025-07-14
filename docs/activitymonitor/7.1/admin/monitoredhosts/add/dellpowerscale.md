@@ -1,3 +1,9 @@
+---
+title: "Dell Isilon/PowerScale"
+description: "Dell Isilon/PowerScale"
+sidebar_position: 20
+---
+
 # Dell Isilon/PowerScale
 
 Understanding File Activity Monitoring
@@ -25,7 +31,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell Isilon/PowerScale host to the Activity Monitor, the prerequisites for the
 target environment must be met. See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/config/dellpowerscale/activity.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_1.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -184,7 +190,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 - Syslog message template – Click the ellipsis (…) to open the Syslog Message Template window. The
@@ -231,7 +237,7 @@ Output page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -240,7 +246,7 @@ Click **Finish**.
 
 The added Dell Isilon/PowerScale host is displayed in the monitored hosts table. Once a host has
 been added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output/output.md)
 topic for additional information.
 
 ## Host Properties for Dell Isilon/PowerScale

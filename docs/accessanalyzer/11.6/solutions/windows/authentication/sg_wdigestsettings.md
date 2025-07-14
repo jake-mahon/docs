@@ -1,3 +1,9 @@
+---
+title: "SG_WDigestSettings Job"
+description: "SG_WDigestSettings Job"
+sidebar_position: 30
+---
+
 # SG_WDigestSettings Job
 
 The SG_WDigestSettings job lists WDigest settings on all targeted hosts. In particular, the

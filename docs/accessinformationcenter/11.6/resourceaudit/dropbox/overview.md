@@ -1,3 +1,9 @@
+---
+title: "Dropbox Reports"
+description: "Dropbox Reports"
+sidebar_position: 60
+---
+
 # Dropbox Reports
 
 Dropbox reports are accessed through the Resource Audit interface. Explore the Dropbox resources by

@@ -1,3 +1,9 @@
+---
+title: "1-SQL_PermissionsScan"
+description: "1-SQL_PermissionsScan"
+sidebar_position: 20
+---
+
 # 1-SQL_PermissionsScan
 
 The 1-SQL_PermissionsScan Job collects SQL server instance and database level permissions from

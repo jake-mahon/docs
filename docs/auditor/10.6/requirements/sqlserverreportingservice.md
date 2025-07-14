@@ -1,3 +1,9 @@
+---
+title: "SQL Server Reporting Services"
+description: "SQL Server Reporting Services"
+sidebar_position: 50
+---
+
 # SQL Server Reporting Services
 
 Netwrix Auditor utilizes SQL Server Reporting Services (SSRS) engine for report generation.

@@ -1,3 +1,9 @@
+---
+title: "Widgets Page"
+description: "Widgets Page"
+sidebar_position: 50
+---
+
 # Widgets Page
 
 The Widgets page of the Report Configuration wizard allows you to configure the tables, charts, and

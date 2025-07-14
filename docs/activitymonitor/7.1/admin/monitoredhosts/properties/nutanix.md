@@ -1,3 +1,9 @@
+---
+title: "Nutanix Tab"
+description: "Nutanix Tab"
+sidebar_position: 110
+---
+
 # Nutanix Tab
 
 The Nutanix tab allows users to modify settings after a Nutanix host has been configured. Once a

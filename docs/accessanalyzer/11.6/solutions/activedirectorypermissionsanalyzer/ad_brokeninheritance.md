@@ -1,3 +1,9 @@
+---
+title: "6.Broken Inheritance > AD_BrokenInheritance Job"
+description: "6.Broken Inheritance > AD_BrokenInheritance Job"
+sidebar_position: 80
+---
+
 # 6.Broken Inheritance > AD_BrokenInheritance Job
 
 The AD_BrokenInheritance Job reports on all locations within Active Directory where inheritance is

@@ -1,3 +1,9 @@
+---
+title: "Set-MessagingServer"
+description: "Set-MessagingServer"
+sidebar_position: 180
+---
+
 # Set-MessagingServer
 
 The commandlet **Set-MessagingServer** configures a messaging system in identity store. The
@@ -57,4 +63,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

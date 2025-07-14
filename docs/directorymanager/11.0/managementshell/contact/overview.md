@@ -1,3 +1,9 @@
+---
+title: "Contact Commands"
+description: "Contact Commands"
+sidebar_position: 40
+---
+
 # Contact Commands
 
 GroupID provides the following cmdlets to perform contact-related tasks, such as:
@@ -15,4 +21,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

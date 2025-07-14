@@ -1,3 +1,9 @@
+---
+title: "AWS_Accounts Job"
+description: "AWS_Accounts Job"
+sidebar_position: 10
+---
+
 # AWS_Accounts Job
 
 The AWS_Accounts job provides detailed information about the accounts that exist in each AWS

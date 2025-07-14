@@ -1,3 +1,9 @@
+---
+title: "Get the Browser Extension"
+description: "Get the Browser Extension"
+sidebar_position: 10
+---
+
 # Get the Browser Extension
 
 First, Netwrix Password Secure is designed to make and keep your passwords more secure. But this

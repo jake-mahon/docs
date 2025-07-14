@@ -1,3 +1,9 @@
+---
+title: "2.High Risk Sites > SP_OpenAccess Job"
+description: "2.High Risk Sites > SP_OpenAccess Job"
+sidebar_position: 40
+---
+
 # 2.High Risk Sites > SP_OpenAccess Job
 
 The 2.High Risk Sites Job Group provides insight into any high risk repositories and high risk data

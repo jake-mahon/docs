@@ -1,3 +1,9 @@
+---
+title: "Scan IP Network"
+description: "Scan IP Network"
+sidebar_position: 10
+---
+
 # Scan IP Network
 
 Follow the steps to create a Host Discovery query using the Scan your IP network source option. This

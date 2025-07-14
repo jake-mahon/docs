@@ -1,3 +1,9 @@
+---
+title: "File System Reports Quick Reference Guide"
+description: "File System Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # File System Reports Quick Reference Guide
 
 The following File System reports are available for selections within the Resources pane.

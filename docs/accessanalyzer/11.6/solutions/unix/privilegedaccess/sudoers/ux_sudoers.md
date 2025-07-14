@@ -1,3 +1,9 @@
+---
+title: "UX_Sudoers Job"
+description: "UX_Sudoers Job"
+sidebar_position: 20
+---
+
 # UX_Sudoers Job
 
 The UX_Sudoers job provides visibility into all rights granted via sudoers within audited Unix and

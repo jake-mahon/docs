@@ -1,3 +1,9 @@
+---
+title: "Export Policies and Templates Window"
+description: "Export Policies and Templates Window"
+sidebar_position: 10
+---
+
 # Export Policies and Templates Window
 
 You may need to export collections, policies, and templates from the Administration Console and them
@@ -32,7 +38,7 @@ Follow the steps to export policies and templates:
   - Export All Event Consumers and Alerts – Exports all event consumers (actions) and alerts
   - Export Only Event Consumers and Alerts Used in Policies and Templates – Exports only event
     consumers (actions) and alerts configured on the
-    [Actions Tab](/docs/threatprevention/7.4/admin/policies/actions/overview.md)
+    [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)
     of enabled policies
 - Options:
   - Notes – Enter any information to be saved with the XML file

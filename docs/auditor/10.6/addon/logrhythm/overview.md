@@ -1,3 +1,9 @@
+---
+title: "LogRhythm"
+description: "LogRhythm"
+sidebar_position: 120
+---
+
 # LogRhythm
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

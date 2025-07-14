@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: Scoping"
+description: "DropboxAccess: Scoping"
+sidebar_position: 50
+---
+
 # DropboxAccess: Scoping
 
 The Scoping page configures the data collector to scan either the entire Dropbox environment or

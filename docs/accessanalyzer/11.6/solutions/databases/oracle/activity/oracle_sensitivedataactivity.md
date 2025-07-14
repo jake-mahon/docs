@@ -1,3 +1,9 @@
+---
+title: "Oracle_SensitiveDataActivity Job"
+description: "Oracle_SensitiveDataActivity Job"
+sidebar_position: 50
+---
+
 # Oracle_SensitiveDataActivity Job
 
 The Oracle_SensitiveDataActivity Job is designed to provide detailed information about DML (UPDATE,

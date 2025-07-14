@@ -1,3 +1,9 @@
+---
+title: "Gen 7 Agent for Linux"
+description: "Gen 7 Agent for Linux"
+sidebar_position: 50
+---
+
 # Gen 7 Agent for Linux
 
 Requirements

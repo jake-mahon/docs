@@ -1,3 +1,9 @@
+---
+title: "Configure the Target OU"
+description: "Configure the Target OU"
+sidebar_position: 60
+---
+
 # Configure the Target OU
 
 Follow the steps to configure the target staging OU.

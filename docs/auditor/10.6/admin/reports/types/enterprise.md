@@ -1,3 +1,9 @@
+---
+title: "Enterprise Overview Dashboard"
+description: "Enterprise Overview Dashboard"
+sidebar_position: 10
+---
+
 # Enterprise Overview Dashboard
 
 Enterprise Overview dashboard provide a high-level overview of activity trends by date, user,

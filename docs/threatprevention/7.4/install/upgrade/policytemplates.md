@@ -1,3 +1,9 @@
+---
+title: "Upgrade Policy Templates"
+description: "Upgrade Policy Templates"
+sidebar_position: 10
+---
+
 # Upgrade Policy Templates
 
 When new or updated policy templates are available with a Threat Prevention upgrade, they are not

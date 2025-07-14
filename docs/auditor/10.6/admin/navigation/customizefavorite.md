@@ -1,3 +1,9 @@
+---
+title: "Customizing Favorite Reports"
+description: "Customizing Favorite Reports"
+sidebar_position: 30
+---
+
 # Customizing Favorite Reports
 
 The Favorite reports tile displays a shortened list of your favorite reports. To view, edit or

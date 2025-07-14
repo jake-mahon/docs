@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory: Category"
+description: "ActiveDirectory: Category"
+sidebar_position: 10
+---
+
 # ActiveDirectory: Category
 
 The ActiveDirectory Data Collector Category page contains the following query categories,

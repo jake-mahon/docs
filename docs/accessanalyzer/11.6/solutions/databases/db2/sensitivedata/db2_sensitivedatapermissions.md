@@ -1,3 +1,9 @@
+---
+title: "Db2_SensitiveDataPermissions Job"
+description: "Db2_SensitiveDataPermissions Job"
+sidebar_position: 20
+---
+
 # Db2_SensitiveDataPermissions Job
 
 This job provides all types of permissions on database objects containing sensitive data across all

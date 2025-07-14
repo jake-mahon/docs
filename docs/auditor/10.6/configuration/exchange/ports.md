@@ -1,3 +1,9 @@
+---
+title: "Exchange Ports"
+description: "Exchange Ports"
+sidebar_position: 10
+---
+
 # Exchange Ports
 
 Review a full list of protocols and ports required for monitoring Exchange.

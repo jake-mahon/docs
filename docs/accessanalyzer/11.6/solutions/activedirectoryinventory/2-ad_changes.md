@@ -1,3 +1,9 @@
+---
+title: "2-AD_Changes Job"
+description: "2-AD_Changes Job"
+sidebar_position: 30
+---
+
 # 2-AD_Changes Job
 
 The 2-AD_Changes Job tracks changes within all scanned domains. Reports in the job highlight Active

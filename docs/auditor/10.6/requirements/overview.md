@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This topic provides the requirements for the server where Netwrix Auditor will be installed. See the

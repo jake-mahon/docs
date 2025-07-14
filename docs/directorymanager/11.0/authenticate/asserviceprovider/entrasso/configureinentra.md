@@ -1,3 +1,9 @@
+---
+title: "Configure GroupID in Microsoft Entra ID for SSO"
+description: "Configure GroupID in Microsoft Entra ID for SSO"
+sidebar_position: 20
+---
+
 # Configure GroupID in Microsoft Entra ID for SSO
 
 Following are the steps to create and configure the GroupID application in Microsoft Entra Admin

@@ -1,3 +1,9 @@
+---
+title: "Configure ONTAPI/RESTAPI Web Access"
+description: "Configure ONTAPI/RESTAPI Web Access"
+sidebar_position: 10
+---
+
 # Configure ONTAPI\RESTAPI Web Access
 
 Netwrix Auditor uses ONTAPI to obtain the current CIFS audit configuration and force the audit data

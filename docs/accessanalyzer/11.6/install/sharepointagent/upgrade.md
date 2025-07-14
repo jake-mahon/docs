@@ -1,3 +1,9 @@
+---
+title: "Upgrade SharePoint Agent"
+description: "Upgrade SharePoint Agent"
+sidebar_position: 20
+---
+
 # Upgrade SharePoint Agent
 
 Follow the steps to upgrade the SharePoint Agent.

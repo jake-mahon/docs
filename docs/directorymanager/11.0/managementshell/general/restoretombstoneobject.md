@@ -1,3 +1,9 @@
+---
+title: "Restore-TombStoneObject"
+description: "Restore-TombStoneObject"
+sidebar_position: 100
+---
+
 # Restore-TombStoneObject
 
 The **Restore-TombStoneObject** commandlet restores tombstone objects from Directory. A tombstone
@@ -23,7 +29,7 @@ Example:
 
 The following command restores the tombstone group Event Management, using the credentials set in
 the $Creds environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -34,4 +40,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreations: Columns"
+description: "SQLViewCreations: Columns"
+sidebar_position: 40
+---
+
 # SQLViewCreations: Columns
 
 The Result Columns page lists the tables selected on the Input Select page.

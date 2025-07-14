@@ -1,3 +1,9 @@
+---
+title: "Action Modules"
+description: "Action Modules"
+sidebar_position: 100
+---
+
 # Action Modules
 
 This guide describes the **Actions** node and the various action modules available for use in

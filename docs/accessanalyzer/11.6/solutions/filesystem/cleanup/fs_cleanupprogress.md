@@ -1,3 +1,9 @@
+---
+title: "FS_CleanupProgress Job"
+description: "FS_CleanupProgress Job"
+sidebar_position: 50
+---
+
 # FS_CleanupProgress Job
 
 The FS_CleanupProgress job summarizes the progress of the cleanup effort and highlights the amount

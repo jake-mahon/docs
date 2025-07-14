@@ -1,3 +1,9 @@
+---
+title: "AAD_GroupDirSync Job"
+description: "AAD_GroupDirSync Job"
+sidebar_position: 40
+---
+
 # AAD_GroupDirSync Job
 
 The AAD_GroupDirSync Job summarizes on-premises Active Directory syncing in the audited Microsoft

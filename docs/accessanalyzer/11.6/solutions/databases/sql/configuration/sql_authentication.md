@@ -1,3 +1,9 @@
+---
+title: "SQL_Authentication Job"
+description: "SQL_Authentication Job"
+sidebar_position: 10
+---
+
 # SQL_Authentication Job
 
 The SQL_Authentication Job identifies authentication settings on targeted SQL and Azure SQL servers

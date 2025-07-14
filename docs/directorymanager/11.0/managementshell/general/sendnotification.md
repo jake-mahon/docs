@@ -1,3 +1,9 @@
+---
+title: "Send-Notification"
+description: "Send-Notification"
+sidebar_position: 110
+---
+
 # Send-Notification
 
 Use the **Send-Notification** commandlet to send notifications to a group or a user. GroupID modules
@@ -57,7 +63,7 @@ Example 2:
 The following command sends a notification to the New Arrivals group. It uses a custom template with
 an in-line image and uses the credentials of the user set in the $Credentials environment variable.
 See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -68,4 +74,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

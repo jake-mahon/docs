@@ -1,3 +1,9 @@
+---
+title: "Unix IDs Tab"
+description: "Unix IDs Tab"
+sidebar_position: 160
+---
+
 # Unix IDs Tab
 
 The Unix IDs tab provides configuration options to translate Unix IDs (UID) to SIDs. This tab

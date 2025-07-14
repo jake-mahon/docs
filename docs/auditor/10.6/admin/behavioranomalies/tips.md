@@ -1,3 +1,9 @@
+---
+title: "Behavior Anomalies Assessment Tips and Tricks"
+description: "Behavior Anomalies Assessment Tips and Tricks"
+sidebar_position: 30
+---
+
 # Behavior Anomalies Assessment Tips and Tricks
 
 This topic contains various frequently asked questions as well as tips and tricks you might find

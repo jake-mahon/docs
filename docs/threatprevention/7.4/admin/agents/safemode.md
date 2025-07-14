@@ -1,3 +1,9 @@
+---
+title: "Agent Safe Mode"
+description: "Agent Safe Mode"
+sidebar_position: 10
+---
+
 # Agent Safe Mode
 
 To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the
@@ -25,7 +31,7 @@ LSASS process. Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
   topic for additional information.
 
   **_RECOMMENDED:_** Activate an email notification for this alert. See the
@@ -42,7 +48,7 @@ instrumentation.
 Active Directory monitoring/blocking will not resume until the pending modules are started. To
 determine if the LSASS changes will conflict with the Agent instrumentation, start the pending
 modules on one domain controller (see the
-[Start Pending Modules](/docs/threatprevention/7.4/admin/agents/management/startpendingmodules.md)
+[Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
 topic). If there are no issues after five minutes, it is unlikely that the changes are conflicting
 with the Agent instrumentation. If there are any concerns about the changes, reach out to
 [](mailto:support@stealthbits.com)[Netwrix Support](https://www.netwrix.com/support.html) for more

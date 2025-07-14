@@ -1,3 +1,9 @@
+---
+title: "SPAA: Summary Page"
+description: "SPAA: Summary Page"
+sidebar_position: 150
+---
+
 # SPAA: Summary Page
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

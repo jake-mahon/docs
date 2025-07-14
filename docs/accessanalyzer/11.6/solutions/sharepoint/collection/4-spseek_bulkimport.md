@@ -1,3 +1,9 @@
+---
+title: "4-SPSEEK_BulkImport Job"
+description: "4-SPSEEK_BulkImport Job"
+sidebar_position: 40
+---
+
 # 4-SPSEEK_BulkImport Job
 
 This job is responsible for retrieving the Tier 2 SPDLP database information and importing it to the

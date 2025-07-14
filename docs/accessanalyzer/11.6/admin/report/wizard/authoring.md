@@ -1,3 +1,9 @@
+---
+title: "Authoring Page"
+description: "Authoring Page"
+sidebar_position: 10
+---
+
 # Authoring Page
 
 On the Authoring page of the Report Configuration wizard, you can configure the name, header
@@ -31,7 +37,7 @@ Publish Options
     - Use default setting – Applies the Global report settings, or the settings configured at the
       job group or job levels if inheritance has been broken. (See the
       [Publish Option](/docs/accessanalyzer/11.6/admin/settings/reporting.md#publish-option),
-      [Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/reporting.md),
+      [Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/settings/reporting.md),
       and
       [Report Settings Tab](/docs/accessanalyzer/11.6/admin/jobs/job/properties/reportsettings.md)
       topics for additional information.)

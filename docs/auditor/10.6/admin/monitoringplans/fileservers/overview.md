@@ -1,3 +1,9 @@
+---
+title: "File Servers"
+description: "File Servers"
+sidebar_position: 90
+---
+
 # File Servers
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

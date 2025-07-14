@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Summary"
+description: "ADInventory: Summary"
+sidebar_position: 80
+---
+
 # ADInventory: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

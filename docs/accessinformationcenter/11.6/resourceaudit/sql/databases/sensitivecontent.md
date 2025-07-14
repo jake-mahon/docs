@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 20
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the Databases node provides a list of tables and a hit count per

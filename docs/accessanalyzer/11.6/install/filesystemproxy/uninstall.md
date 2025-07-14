@@ -1,3 +1,9 @@
+---
+title: "Uninstall Proxy Service Process"
+description: "Uninstall Proxy Service Process"
+sidebar_position: 50
+---
+
 # Uninstall Proxy Service Process
 
 The process to properly uninstall the File System Proxy Service is completed through the

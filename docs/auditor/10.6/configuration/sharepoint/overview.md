@@ -1,3 +1,9 @@
+---
+title: "SharePoint"
+description: "SharePoint"
+sidebar_position: 100
+---
+
 # SharePoint
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,3 +1,9 @@
+---
+title: "Agent Restoration"
+description: "Agent Restoration"
+sidebar_position: 20
+---
+
 # Agent Restoration
 
 Follow the steps to restore the configuration, Active Directory configuration file, and activity log

@@ -1,3 +1,9 @@
+---
+title: "Requirements for SQL Server to Store Audit Data"
+description: "Requirements for SQL Server to Store Audit Data"
+sidebar_position: 40
+---
+
 # Requirements for SQL Server to Store Audit Data
 
 If you plan to generate reports, use alerts and run search queries in Netwrix Auditor, consider that

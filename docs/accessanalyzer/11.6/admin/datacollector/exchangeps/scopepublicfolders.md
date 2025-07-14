@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Scope by Public Folders"
+description: "ExchangePS: Scope by Public Folders"
+sidebar_position: 60
+---
+
 # ExchangePS: Scope by Public Folders
 
 The Scope by Public Folders page is used to define specific public folders to search. This page is

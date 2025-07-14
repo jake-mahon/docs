@@ -1,3 +1,9 @@
+---
+title: "Best Practices and Troubleshooting"
+description: "Best Practices and Troubleshooting"
+sidebar_position: 60
+---
+
 # Best Practices and Troubleshooting
 
 This topic provides general best practices and basic troubleshooting that you should take into

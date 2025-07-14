@@ -1,3 +1,9 @@
+---
+title: "Host Discovery Wizard"
+description: "Host Discovery Wizard"
+sidebar_position: 30
+---
+
 # Host Discovery Wizard
 
 The Host Discovery Wizard gives complete control over how hosts are discovered on the targeted

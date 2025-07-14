@@ -1,3 +1,9 @@
+---
+title: "SG_LSASettings Job"
+description: "SG_LSASettings Job"
+sidebar_position: 20
+---
+
 # SG_LSASettings Job
 
 The SG_LASettings job lists settings on all targeted hosts. In particular, the RunAsPPL,

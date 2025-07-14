@@ -1,3 +1,9 @@
+---
+title: "Linux Agent Server Requirements"
+description: "Linux Agent Server Requirements"
+sidebar_position: 30
+---
+
 # Linux Agent Server Requirements
 
 The server where the agent is deployed can be physical or virtual. The supported operating systems

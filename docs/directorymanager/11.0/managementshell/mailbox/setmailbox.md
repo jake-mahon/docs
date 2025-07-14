@@ -1,3 +1,9 @@
+---
+title: "Set-Mailbox"
+description: "Set-Mailbox"
+sidebar_position: 40
+---
+
 # Set-Mailbox
 
 The **Set-Mailbox** commandlet modifies a mailbox in Directory. Most mailbox properties can be
@@ -74,4 +80,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

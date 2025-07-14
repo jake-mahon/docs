@@ -1,3 +1,9 @@
+---
+title: "ArcSight"
+description: "ArcSight"
+sidebar_position: 30
+---
+
 # ArcSight
 
 Netwrix Auditor helps you extend auditing possibilities and get most from your ArcSight investment.

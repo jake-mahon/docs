@@ -1,3 +1,9 @@
+---
+title: "AD_CleanupProgress Job"
+description: "AD_CleanupProgress Job"
+sidebar_position: 50
+---
+
 # AD_CleanupProgress Job
 
 The AD_CleanupProgress Job performs checks against Active Directory security best practices in order

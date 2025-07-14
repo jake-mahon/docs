@@ -1,3 +1,9 @@
+---
+title: "Compliance Mode"
+description: "Compliance Mode"
+sidebar_position: 30
+---
+
 # Compliance Mode
 
 You can configure your cluster for monitoring in one of the following ways:

@@ -1,3 +1,9 @@
+---
+title: "Configure Cisco Meraki Devices"
+description: "Configure Cisco Meraki Devices"
+sidebar_position: 50
+---
+
 # Configure Cisco Meraki Devices
 
 To configure Cisco Meraki devices, configure the Syslog server for each of your networks.

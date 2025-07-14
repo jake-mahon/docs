@@ -1,3 +1,9 @@
+---
+title: "Backup & Restoration"
+description: "Backup & Restoration"
+sidebar_position: 50
+---
+
 # Backup & Restoration
 
 The Netwrix Activity Monitor is comprised of the following components:
@@ -6,7 +12,7 @@ The Netwrix Activity Monitor is comprised of the following components:
   [Administration](/docs/activitymonitor/7.1/admin/overview.md)topic for
   additional information.
 - Deployed Agents - Monitor targeted servers and domains. See the
-  [Agent Information](/docs/activitymonitor/7.1/install/agents.md) topic
+  [Agent Information](/docs/activitymonitor/7.1/install/agents/agents.md) topic
   for additional information.
 
 The configuration settings are stored on individual agents, and the console stores which agents have

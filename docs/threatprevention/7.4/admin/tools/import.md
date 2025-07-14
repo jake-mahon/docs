@@ -1,3 +1,9 @@
+---
+title: "Import Window"
+description: "Import Window"
+sidebar_position: 20
+---
+
 # Import Window
 
 You may need to export collections, policies, and templates from the Administration Console and them

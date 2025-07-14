@@ -1,3 +1,9 @@
+---
+title: "Presentation Dependencies"
+description: "Presentation Dependencies"
+sidebar_position: 20
+---
+
 # Presentation Dependencies
 
 In the following subsections, each slide is aligned to the jobs that supply its data. The slide

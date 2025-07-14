@@ -1,3 +1,9 @@
+---
+title: "EX_MessageSize Job"
+description: "EX_MessageSize Job"
+sidebar_position: 70
+---
+
 # EX_MessageSize Job
 
 The EX_MessageSize Job provides information around the size of sent and received messages.

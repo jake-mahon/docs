@@ -1,3 +1,9 @@
+---
+title: "SQL Server Monitoring Scope"
+description: "SQL Server Monitoring Scope"
+sidebar_position: 20
+---
+
 # SQL Server Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the SQL Server

@@ -1,3 +1,9 @@
+---
+title: "TextSearch: Source Files"
+description: "TextSearch: Source Files"
+sidebar_position: 10
+---
+
 # TextSearch: Source Files
 
 The Source Files page provides options to specify which files to search.

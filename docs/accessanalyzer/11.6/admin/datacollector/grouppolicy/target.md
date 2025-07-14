@@ -1,3 +1,9 @@
+---
+title: "GroupPolicy: Target"
+description: "GroupPolicy: Target"
+sidebar_position: 20
+---
+
 # GroupPolicy: Target
 
 The Target page is where a host from which to get data (in wizard only) and .admx source are

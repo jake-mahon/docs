@@ -1,3 +1,9 @@
+---
+title: "3-Oracle_ActivityScan Job"
+description: "3-Oracle_ActivityScan Job"
+sidebar_position: 40
+---
+
 # 3-Oracle_ActivityScan Job
 
 The 3-Oracle_ActivityScan Job captures user activity from all the targeted Oracle database servers.

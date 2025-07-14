@@ -1,3 +1,9 @@
+---
+title: "Unix Connection Profile & Host List"
+description: "Unix Connection Profile & Host List"
+sidebar_position: 20
+---
+
 # Unix Connection Profile & Host List
 
 The NIS Data Collector requires a custom Connection Profile and host list be created and assigned to

@@ -1,3 +1,9 @@
+---
+title: "Performance Monitoring"
+description: "Performance Monitoring"
+sidebar_position: 40
+---
+
 # Performance Monitoring
 
 This topic provides a list of Activity Monitor performance counters and standard system-wide

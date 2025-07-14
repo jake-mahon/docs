@@ -1,3 +1,9 @@
+---
+title: "Dell CEE Options Tab"
+description: "Dell CEE Options Tab"
+sidebar_position: 70
+---
+
 # Dell CEE Options Tab
 
 The Dell CEE Options tab provides options to configure Dell Common Event Enabler (CEE) settings for

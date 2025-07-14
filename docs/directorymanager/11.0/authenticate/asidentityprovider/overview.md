@@ -1,3 +1,9 @@
+---
+title: "GroupID as an Identity Provider"
+description: "GroupID as an Identity Provider"
+sidebar_position: 10
+---
+
 # GroupID as an Identity Provider
 
 GroupID can provide the services of an identity provider. You can register a third-party application

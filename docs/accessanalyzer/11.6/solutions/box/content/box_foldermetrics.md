@@ -1,3 +1,9 @@
+---
+title: "Box_FolderMetrics Job"
+description: "Box_FolderMetrics Job"
+sidebar_position: 20
+---
+
 # Box_FolderMetrics Job
 
 The Box_FolderMetrics Job offers insight into content sizing, staleness, and ownership of folders in
@@ -46,5 +52,5 @@ The default values for parameters that can be customized are:
 | Folder Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md) topic
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md) topic
 for instructions on how to modify parameters.

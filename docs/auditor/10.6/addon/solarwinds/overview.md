@@ -1,3 +1,9 @@
+---
+title: "Solarwinds Log and Event Manager"
+description: "Solarwinds Log and Event Manager"
+sidebar_position: 230
+---
+
 # Solarwinds Log and Event Manager
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

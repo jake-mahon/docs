@@ -1,3 +1,9 @@
+---
+title: "AlienVault USM"
+description: "AlienVault USM"
+sidebar_position: 10
+---
+
 # AlienVault USM
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

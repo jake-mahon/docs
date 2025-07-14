@@ -1,3 +1,9 @@
+---
+title: "EPE User Feedback Module"
+description: "EPE User Feedback Module"
+sidebar_position: 60
+---
+
 # EPE User Feedback Module
 
 You can choose to install the optional Enterprise Password Enforcer (EPE) User Feedback module for

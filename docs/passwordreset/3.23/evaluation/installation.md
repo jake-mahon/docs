@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 10
+---
+
 # Installation
 
 Password Reset has two server components, and an optional client. See the

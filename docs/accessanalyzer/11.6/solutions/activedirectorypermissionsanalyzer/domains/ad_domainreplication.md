@@ -1,3 +1,9 @@
+---
+title: "AD_DomainReplication Job"
+description: "AD_DomainReplication Job"
+sidebar_position: 20
+---
+
 # AD_DomainReplication Job
 
 The AD_DomainReplication Job highlights all Active Directory permissions applied to domain objects

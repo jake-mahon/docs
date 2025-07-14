@@ -1,3 +1,9 @@
+---
+title: "Member Of Report"
+description: "Member Of Report"
+sidebar_position: 60
+---
+
 # Member Of Report
 
 The Member Of report for a group object provides a list of all groups of which the audited group is

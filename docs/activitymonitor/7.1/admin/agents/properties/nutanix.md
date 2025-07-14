@@ -1,3 +1,9 @@
+---
+title: "Nutanix Tab"
+description: "Nutanix Tab"
+sidebar_position: 150
+---
+
 # Nutanix Tab
 
 The Nutanix tab provides features to configure settings for monitoring Nutanix devices.

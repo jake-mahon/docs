@@ -1,3 +1,9 @@
+---
+title: "Additional Configuration to Review Changes Made via Exchange Server"
+description: "Additional Configuration to Review Changes Made via Exchange Server"
+sidebar_position: 40
+---
+
 # Additional Configuration to Review Changes Made via Exchange Server
 
 If you have an on-premises Exchange server in your Active Directory domain, consider that some

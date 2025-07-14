@@ -1,3 +1,9 @@
+---
+title: "Exchange Reports"
+description: "Exchange Reports"
+sidebar_position: 70
+---
+
 # Exchange Reports
 
 Exchange reports are accessed through the Resource Audit interface. Explore the Exchange resources

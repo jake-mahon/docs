@@ -1,3 +1,9 @@
+---
+title: "Variables Tab"
+description: "Variables Tab"
+sidebar_position: 20
+---
+
 # Variables Tab
 
 Use the Variables tab to specify values to substitute in the rule logic at run time.

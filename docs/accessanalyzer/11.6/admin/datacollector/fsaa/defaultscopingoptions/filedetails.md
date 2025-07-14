@@ -1,3 +1,9 @@
+---
+title: "File Details Tab"
+description: "File Details Tab"
+sidebar_position: 20
+---
+
 # File Details Tab
 
 The File Details tab allows configuration of settings for file detail collection.

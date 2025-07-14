@@ -1,3 +1,9 @@
+---
+title: "Monitored Hosts Tab"
+description: "Monitored Hosts Tab"
+sidebar_position: 30
+---
+
 # Monitored Hosts Tab
 
 Understanding Monitored Hosts
@@ -12,7 +18,7 @@ Agent:
 - Dell Unity
 - Hitachi
 - Linux – Configuration of a Linux host is done during agent deployment. See the
-  [Linux Agent Deployment](/docs/activitymonitor/7.1/admin/agents/add/linux.md)
+  [Linux Agent Deployment](/docs/activitymonitor/7.1/admin/agents/linux.md)
   topic for additional information.
 - Nasuni
 - NetApp

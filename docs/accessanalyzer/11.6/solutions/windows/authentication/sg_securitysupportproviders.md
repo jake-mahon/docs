@@ -1,3 +1,9 @@
+---
+title: "SG_SecuritySupportProviders Job"
+description: "SG_SecuritySupportProviders Job"
+sidebar_position: 40
+---
+
 # SG_SecuritySupportProviders Job
 
 The SG_SecuritySupportProviders job identifies security support providers on all targeted hosts,

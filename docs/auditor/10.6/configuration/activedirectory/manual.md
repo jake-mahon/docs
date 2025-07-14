@@ -1,3 +1,9 @@
+---
+title: "Active Directory: Manual Configuration"
+description: "Active Directory: Manual Configuration"
+sidebar_position: 30
+---
+
 # Active Directory: Manual Configuration
 
 To configure your domain for monitoring manually, you will need:

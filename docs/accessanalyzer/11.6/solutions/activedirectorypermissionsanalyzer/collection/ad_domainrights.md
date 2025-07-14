@@ -1,3 +1,9 @@
+---
+title: "AD_DomainRights Job"
+description: "AD_DomainRights Job"
+sidebar_position: 30
+---
+
 # AD_DomainRights Job
 
 The AD_DomainRights Job provides data collection to identify permissions applied to Domains in

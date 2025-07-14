@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 20
+---
+
 # Exceptions Report
 
 The Exceptions report at the **Exceptions** node provides a list of exceptions found on the domain.

@@ -1,3 +1,9 @@
+---
+title: "Box: Category"
+description: "Box: Category"
+sidebar_position: 20
+---
+
 # Box: Category
 
 Use the Category page to select the type of scan or import for the Box Enterprise targeted.

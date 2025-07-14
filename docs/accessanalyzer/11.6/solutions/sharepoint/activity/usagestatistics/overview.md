@@ -1,3 +1,9 @@
+---
+title: "Usage Statistics Job Group"
+description: "Usage Statistics Job Group"
+sidebar_position: 20
+---
+
 # Usage Statistics Job Group
 
 The Usage Statistics job group identifies long term trends of activity across your SharePoint

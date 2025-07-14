@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Folders"
+description: "Public Folder: Folders"
+sidebar_position: 30
+---
+
 # Public Folder: Folders
 
 The Folders page identifies which public folders are targeted by this action.

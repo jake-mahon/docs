@@ -1,3 +1,9 @@
+---
+title: "1-AAD_Scan Job"
+description: "1-AAD_Scan Job"
+sidebar_position: 20
+---
+
 # 1-AAD_Scan Job
 
 The **1-AAD_Scan** Job is responsible for collecting data from Microsoft Entra ID. This job requires

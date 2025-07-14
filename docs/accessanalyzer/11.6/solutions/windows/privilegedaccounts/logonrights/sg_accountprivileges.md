@@ -1,3 +1,9 @@
+---
+title: "SG_AccountPrivileges Job"
+description: "SG_AccountPrivileges Job"
+sidebar_position: 20
+---
+
 # SG_AccountPrivileges Job
 
 The SG_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.

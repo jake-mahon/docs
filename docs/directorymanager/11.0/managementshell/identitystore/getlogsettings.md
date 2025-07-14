@@ -1,3 +1,9 @@
+---
+title: "Get-LogSettings"
+description: "Get-LogSettings"
+sidebar_position: 80
+---
+
 # Get-LogSettings
 
 The commandlet **Get-LogSettings** provides information about the global log settings of the
@@ -26,4 +32,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

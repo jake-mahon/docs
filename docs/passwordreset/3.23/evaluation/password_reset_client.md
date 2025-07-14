@@ -1,3 +1,9 @@
+---
+title: "Password Reset Client"
+description: "Password Reset Client"
+sidebar_position: 50
+---
+
 # Password Reset Client
 
 The Password Reset Client allows users to securely reset their password or unlock their account from

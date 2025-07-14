@@ -1,3 +1,9 @@
+---
+title: "5-Oracle_Configuration Job"
+description: "5-Oracle_Configuration Job"
+sidebar_position: 60
+---
+
 # 5-Oracle_Configuration Job
 
 The 5-Oracle_Configuration Job is designed to return additional configuration settings from Oracle

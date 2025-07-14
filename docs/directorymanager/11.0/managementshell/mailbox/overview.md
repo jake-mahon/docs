@@ -1,3 +1,9 @@
+---
+title: "Mailbox Commands"
+description: "Mailbox Commands"
+sidebar_position: 100
+---
+
 # Mailbox Commands
 
 This section covers cmdlets for performing mailbox-specific tasks such as:
@@ -15,4 +21,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

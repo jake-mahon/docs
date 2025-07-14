@@ -1,3 +1,9 @@
+---
+title: "DNS: Category"
+description: "DNS: Category"
+sidebar_position: 10
+---
+
 # DNS: Category
 
 The DNS Data Collector Category page contains the following query categories, sub-divided by

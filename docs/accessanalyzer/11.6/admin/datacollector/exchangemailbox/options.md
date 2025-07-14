@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: Options"
+description: "ExchangeMailbox: Options"
+sidebar_position: 50
+---
+
 # ExchangeMailbox: Options
 
 The Options page provides different configuration options for the search. It is a wizard page for

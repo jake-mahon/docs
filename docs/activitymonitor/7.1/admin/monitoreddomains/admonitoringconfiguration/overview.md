@@ -1,3 +1,9 @@
+---
+title: "AD Monitoring Configuration Window"
+description: "AD Monitoring Configuration Window"
+sidebar_position: 10
+---
+
 # AD Monitoring Configuration Window
 
 On the Monitored Domains tab, select the domain and click **Edit** to open the AD Monitoring
@@ -14,4 +20,4 @@ events:
 - [Authentication Tab](/docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/authentication.md)
 - [Replication Tab](/docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/replication.md)
 - [LSASS Guardian Tab](/docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/lsassguardian.md)
-- [LDAP Monitor Tab](/docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/ldapmonitor.md)
+- [LDAP Monitor Tab](/docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/ldapmonitor/ldapmonitor.md)

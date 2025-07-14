@@ -1,3 +1,9 @@
+---
+title: "Oracle_SensitiveData Job"
+description: "Oracle_SensitiveData Job"
+sidebar_position: 20
+---
+
 # Oracle_SensitiveData Job
 
 The Oracle_SensitveData Job is designed to provide information on all sensitive data that was

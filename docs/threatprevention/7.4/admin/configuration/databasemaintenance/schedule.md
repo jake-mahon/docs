@@ -1,3 +1,9 @@
+---
+title: "Schedule Database Maintenance"
+description: "Schedule Database Maintenance"
+sidebar_position: 30
+---
+
 # Schedule Database Maintenance
 
 You must schedule the database maintenance job, which runs the specified operation on each of the

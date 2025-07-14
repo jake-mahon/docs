@@ -1,3 +1,9 @@
+---
+title: "PgSQL_TablePrivileges Job"
+description: "PgSQL_TablePrivileges Job"
+sidebar_position: 30
+---
+
 # PgSQL_TablePrivileges Job
 
 The PgSQL_TablePrivileges job is designed to collect PostgreSQL table privileges from all the

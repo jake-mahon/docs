@@ -1,3 +1,9 @@
+---
+title: "Extend-User"
+description: "Extend-User"
+sidebar_position: 10
+---
+
 # Extend-User
 
 Use the **Extend-User** commandlet to extend the user lifecycle of an expired user for specified
@@ -32,4 +38,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

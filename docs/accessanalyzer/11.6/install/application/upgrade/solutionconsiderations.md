@@ -1,3 +1,9 @@
+---
+title: "Solution Upgrade Considerations"
+description: "Solution Upgrade Considerations"
+sidebar_position: 10
+---
+
 # Solution Upgrade Considerations
 
 The following items must be taken into consideration for upgrades:

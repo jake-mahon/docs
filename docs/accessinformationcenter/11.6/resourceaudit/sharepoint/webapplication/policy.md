@@ -1,3 +1,9 @@
+---
+title: "Policy Report"
+description: "Policy Report"
+sidebar_position: 20
+---
+
 # Policy Report
 
 The Policy report at the web application and web application URL levels provides a list of web

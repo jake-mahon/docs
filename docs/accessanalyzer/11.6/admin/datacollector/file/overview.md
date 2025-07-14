@@ -1,3 +1,9 @@
+---
+title: "File Data Collector"
+description: "File Data Collector"
+sidebar_position: 210
+---
+
 # File Data Collector
 
 The File Data Collector provides file and folder enumeration, properties, and permissions. It is
@@ -12,7 +18,7 @@ Supported Platforms
 
 This data collector can target the same servers supported for the FileSystemAccess Data Collector.
 See the
-[File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/target/filesystems.md)
+[File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
 topic for a full list of supported platforms.
 
 Protocols

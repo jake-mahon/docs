@@ -1,3 +1,9 @@
+---
+title: "Nasuni Tab"
+description: "Nasuni Tab"
+sidebar_position: 90
+---
+
 # Nasuni Tab
 
 After a Nasuni host is added to the monitored hosts table, the configuration settings are edited

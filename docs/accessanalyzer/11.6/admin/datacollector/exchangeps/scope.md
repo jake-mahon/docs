@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Scope"
+description: "ExchangePS: Scope"
+sidebar_position: 30
+---
+
 # ExchangePS: Scope
 
 The Scope page establishes how mailboxes are scoped. It is a wizard page for all of the categories.

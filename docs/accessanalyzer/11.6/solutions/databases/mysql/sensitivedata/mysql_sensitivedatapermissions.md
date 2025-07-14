@@ -1,3 +1,9 @@
+---
+title: "MySQL_SensitiveDataPermissions Job"
+description: "MySQL_SensitiveDataPermissions Job"
+sidebar_position: 20
+---
+
 # MySQL_SensitiveDataPermissions Job
 
 The MySQL_SensitiveDataPermissions Job is designed to provide information on all types of

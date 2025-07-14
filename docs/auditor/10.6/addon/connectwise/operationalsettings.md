@@ -1,3 +1,9 @@
+---
+title: "Operational Settings"
+description: "Operational Settings"
+sidebar_position: 50
+---
+
 # Operational Settings
 
 This section describes how to configure settings of the main add-on component, Netwrix Auditor

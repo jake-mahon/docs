@@ -1,3 +1,9 @@
+---
+title: "Exchange Solution"
+description: "Exchange Solution"
+sidebar_position: 120
+---
+
 # Exchange Solution
 
 The Exchange Solution provides auditing and reporting on multiple aspects of the Exchange
@@ -17,15 +23,15 @@ Supported Platforms
 - Exchange 2010 (Limited)
 
 See the
-[Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/solutions/exchange/support.md)
+[Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/requirements/exchange/support/support.md)
 topic for additional information.
 
 Requirements, Permissions, and Ports
 
 See the
-[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/exchange.md)
+[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchange_1.md)
 and
-[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/exchangeonline.md)
+[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchangeonline/exchangeonline.md)
 topics for additional information.
 
 Sensitive Data Discovery Considerations

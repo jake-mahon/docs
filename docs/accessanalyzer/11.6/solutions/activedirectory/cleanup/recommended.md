@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for AD Cleanup Job Group"
+description: "Recommended Configurations for AD Cleanup Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for AD Cleanup Job Group
 
 The recommended configurations for the Cleanup Job Group are:

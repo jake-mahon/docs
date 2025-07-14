@@ -1,3 +1,9 @@
+---
+title: "SP_Deletions Job"
+description: "SP_Deletions Job"
+sidebar_position: 10
+---
+
 # SP_Deletions Job
 
 This job identifies SharePoint deletion events which have occurred over the past 30 days.

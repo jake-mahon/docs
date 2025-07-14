@@ -1,3 +1,9 @@
+---
+title: "Logic Tab"
+description: "Logic Tab"
+sidebar_position: 10
+---
+
 # Logic Tab
 
 Use the Logic tab to specify conditions and actions for the Business Rule.

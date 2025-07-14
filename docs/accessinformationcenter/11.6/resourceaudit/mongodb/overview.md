@@ -1,3 +1,9 @@
+---
+title: "MongoDB Reports"
+description: "MongoDB Reports"
+sidebar_position: 80
+---
+
 # MongoDB Reports
 
 MongoDB reports are accessed through the Resource Audit interface. Explore the MongoDB resources by

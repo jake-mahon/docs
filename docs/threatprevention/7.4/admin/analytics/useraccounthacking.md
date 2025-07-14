@@ -1,3 +1,9 @@
+---
+title: "User Account Hacking Analytic Type"
+description: "User Account Hacking Analytic Type"
+sidebar_position: 120
+---
+
 # User Account Hacking Analytic Type
 
 The **User Account Hacking** analytic type identifies multiple bad passwords provided for a given
@@ -72,13 +78,13 @@ Policy Tab
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 - General tab – Configured the same way a regular policy’s
-  [General Tab](/docs/threatprevention/7.4/admin/policies/general.md) is
+  [General Tab](/docs/threatprevention/7.4/admin/policies/configuration/general.md) is
   configured. The only exception is that the Name and Description are hard coded, and cannot be
   modified. The Tags field is disabled for analytics.
 - Event Type tab – Configured the same way a regular policy’s
-  [Event Type Tab](/docs/threatprevention/7.4/admin/policies/eventtype/overview.md)
+  [Event Type Tab](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/overview.md)
   is configured. The only exception is that the
-  [Authentication Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/eventtype/authenticationmonitoring.md)
+  [Authentication Monitoring Event Type](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/authenticationmonitoring.md)
   is hard coded, and the Success filter cannot be modified.
 
   - Scope the accounts to include in or exclude from being monitored on the AD Perpetrator filter.
@@ -100,7 +106,7 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     filter values.
 
 - Actions tab – Configured the same way a regular policy’s
-  [Actions Tab](/docs/threatprevention/7.4/admin/policies/actions/overview.md)
+  [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)
   is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications”
   options are disabled. The event data collected by analytic policies are stored in memory until an
   incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send
@@ -116,7 +122,7 @@ The data grid on the **User Account Hacking** node lists one row per incident id
 ![User Account Hacking Analytic Type window](/img/product_docs/threatprevention/7.4/admin/analytics/useraccounthacking.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
-[Event Tracker Window](/docs/threatprevention/7.4/admin/policies/recentevents/eventtracker.md)
+[Event Tracker Window](/docs/threatprevention/7.4/admin/policies/configuration/recentevents/eventtracker.md)
 topic for additional information.
 
 The top data grid includes the following information for each incident:

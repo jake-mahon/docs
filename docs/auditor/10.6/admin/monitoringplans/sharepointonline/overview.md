@@ -1,3 +1,9 @@
+---
+title: "SharePoint Online"
+description: "SharePoint Online"
+sidebar_position: 160
+---
+
 xml version="1.0" encoding="utf-8"?
 
 # SharePoint Online
