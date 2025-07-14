@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Privilege Manager + Windows Virtual Desktop"
 description: "Endpoint Privilege Manager + Windows Virtual Desktop"
-sidebar_position: 90
+sidebar_position: 100
 ---
 
 # Endpoint Privilege Manager + Windows Virtual Desktop

@@ -57,20 +57,20 @@ See the following Video topics for getting started with Endpoint Policy Manager 
 
 ## Endpoint Policy Manager and FSLogix
 
-- [Endpoint Policy Manager + FSLogix ... Managing your Browsers with App Masking.](/docs/endpointpolicymanager/video/fslogix/appmasking.md)
-- [Endpoint Policy Manager and FSLogix Profiles: Better Together](/docs/endpointpolicymanager/video/fslogix/profiles.md)
-- [Endpoint Policy Manager + FSLogix: Manage the Windows 10 Start Menu](/docs/endpointpolicymanager/video/fslogix/startmenu.md)
-- [Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed](/docs/endpointpolicymanager/video/fslogix/browserdefault.md)
-- [Endpoint Policy Manager + FSLogix: The Right Browser for the Right Website](/docs/endpointpolicymanager/video/fslogix/broswerright.md)
-- [Endpoint Policy Manager + FSLogix: Setting browser configuration based upon which browser you actually have.](/docs/endpointpolicymanager/video/fslogix/browserconfiguration.md)
-- [Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)](/docs/endpointpolicymanager/video/fslogix/elevatingapplications.md)
+- [Endpoint Policy Manager + FSLogix ... Managing your Browsers with App Masking.](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/appmasking.md)
+- [Endpoint Policy Manager and FSLogix Profiles: Better Together](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/profiles.md)
+- [Endpoint Policy Manager + FSLogix: Manage the Windows 10 Start Menu](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/startmenu.md)
+- [Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/browserdefault.md)
+- [Endpoint Policy Manager + FSLogix: The Right Browser for the Right Website](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/broswerright.md)
+- [Endpoint Policy Manager + FSLogix: Setting browser configuration based upon which browser you actually have.](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/browserconfiguration.md)
+- [Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/fslogix/elevatingapplications.md)
 
 ## Endpoint Policy Manager & Cameyo
 
-- [Endpoint Policy Manager + Cameyo: Overcoming UAC prompts for Published Applications](/docs/endpointpolicymanager/video/cameyo/uacprompts.md)
-- [Endpoint Policy Manager Browser Router + Cameyo: Right Browser for the Right Website](/docs/endpointpolicymanager/video/cameyo/browserright.md)
-- [Endpoint Policy Manager and Cameyo: Start Screen and Taskbar Magic Tricks](/docs/endpointpolicymanager/video/cameyo/startscreen.md)
-- [Cameyo and Endpoint Policy Manager Application Settings Manager](/docs/endpointpolicymanager/video/cameyo/applicationsettings.md)
+- [Endpoint Policy Manager + Cameyo: Overcoming UAC prompts for Published Applications](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/cameyo/uacprompts.md)
+- [Endpoint Policy Manager Browser Router + Cameyo: Right Browser for the Right Website](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/cameyo/browserright.md)
+- [Endpoint Policy Manager and Cameyo: Start Screen and Taskbar Magic Tricks](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/cameyo/startscreen.md)
+- [Cameyo and Endpoint Policy Manager Application Settings Manager](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/cameyo/applicationsettings.md)
 
 ## Endpoint Policy Manager & Change Management Utilities
 

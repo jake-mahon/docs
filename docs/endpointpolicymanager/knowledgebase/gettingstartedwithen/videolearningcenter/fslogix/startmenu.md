@@ -1,3 +1,9 @@
+---
+title: "Endpoint Policy Manager + FSLogix: Manage the Windows 10 Start Menu"
+description: "Endpoint Policy Manager + FSLogix: Manage the Windows 10 Start Menu"
+sidebar_position: 30
+---
+
 # Endpoint Policy Manager + FSLogix: Manage the Windows 10 Start Menu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UyL7wJTCgGE" title="Endpoint Policy Manager+FSLogix: Manage the Windows 10 Start Menu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

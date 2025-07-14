@@ -55,7 +55,7 @@ Universal licenses solve a lot of problems around key generation:
   This is not available for Legacy license type.
 - Administrators may disable a specifically licensed component, without having to request Endpoint
   Policy Manager support to re-cut the license.
-  [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentsexclude.md)
+  [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
 - The license may be wrapped up by the admin as a .MSI and re-deployed without contacting Endpoint
   Policy Manager support to make a .MSI.
   [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)

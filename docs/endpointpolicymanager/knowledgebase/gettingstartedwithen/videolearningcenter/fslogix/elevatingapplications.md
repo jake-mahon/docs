@@ -1,3 +1,9 @@
+---
+title: "Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)"
+description: "Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)"
+sidebar_position: 70
+---
+
 # Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a8bq9EejG6U" title="Endpoint Policy Manager + FSLogix: Elevating applications when needed (and available by FSLogix)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

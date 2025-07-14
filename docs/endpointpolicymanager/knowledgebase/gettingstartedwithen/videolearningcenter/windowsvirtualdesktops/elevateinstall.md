@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app"
 description: "Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app"
-sidebar_position: 30
+sidebar_position: 20
 ---
 
 # Endpoint Policy Manager + WVD: Elevate the installation of the Remote Deskop app

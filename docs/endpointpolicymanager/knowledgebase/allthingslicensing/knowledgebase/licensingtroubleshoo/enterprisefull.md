@@ -130,10 +130,10 @@ run.
   component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentscloud.md)
 - Note that Endpoint Policy Manager Preferences 1.0 will still always be "force disabled" by default
   until specifically licensed as per this
-  article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/forceddisabled.md)
+  article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/forceddisabled.md)
 - You can still "hard unlicense" a component inside the XML licensing file. The techniques here
   still work:
-  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentsexclude.md)
+  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
 
 **NOTE:** Only the updated MMC will nicely show this and have it formatted correctly; which is why
 we recommend updating to the latest MMC snap-in.

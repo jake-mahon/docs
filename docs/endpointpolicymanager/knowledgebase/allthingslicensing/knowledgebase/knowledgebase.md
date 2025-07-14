@@ -82,12 +82,12 @@ licensing.
 - [My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/options.md)
 - [What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentscloud.md)
 - [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/fileold.md)
-- [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentsexclude.md)
-- [How can I verify, test and/or reset my Domain Join (aka SecureChannel) from the endpoint to domain controller?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/reset.md)
-- [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/forceddisabled.md)
+- [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
+- [How can I verify, test and/or reset my Domain Join (aka SecureChannel) from the endpoint to domain controller?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/reset.md)
+- [Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/forceddisabled.md)
 
 ## Misc Licensing Questions
 
 - [When and why would I license Endpoint Policy Manager on servers?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/misclicensingquestio/whenwhy.md)
-- [What items and components are licensed, and what components are free?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/components_1.md)
+- [What items and components are licensed, and what components are free?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/misclicensingquestio/components_1.md)
 - [Why must I transition from Legacy to Universal licenses (and what are the differences?)](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/misclicensingquestio/transition.md)

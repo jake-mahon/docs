@@ -1,3 +1,9 @@
+---
+title: "Endpoint Policy Manager + FSLogix: The Right Browser for the Right Website"
+description: "Endpoint Policy Manager + FSLogix: The Right Browser for the Right Website"
+sidebar_position: 50
+---
+
 # Endpoint Policy Manager + FSLogix: The Right Browser for the Right Website
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l9rRkliCd3c?si=xj4_Jk34HXkTiimB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

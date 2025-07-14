@@ -1,3 +1,9 @@
+---
+title: "Endpoint Policy Manager and FSLogix Profiles: Better Together"
+description: "Endpoint Policy Manager and FSLogix Profiles: Better Together"
+sidebar_position: 20
+---
+
 # Endpoint Policy Manager and FSLogix Profiles: Better Together
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xGvWG4JW-WM" title="Endpoint Policy Manager and FSLogix Profiles: Better Together" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

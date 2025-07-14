@@ -56,7 +56,7 @@ Customers must change this value if they wish to enable this component (which th
 explained later.)
 
 See
-[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/licensingtroubleshoo/componentsexclude.md)
+[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
 
 In logs, CSE shows a message:
 
