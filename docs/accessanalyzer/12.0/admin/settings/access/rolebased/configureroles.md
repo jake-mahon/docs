@@ -22,9 +22,12 @@ This is a three-part process:
     - Edit Role Members’ Responsibilities
     - Delete Role Members
 
-**NOTE:** This configuration process is not required if only using Role Based Access to secure
+:::note
+This configuration process is not required if only using Role Based Access to secure
 Published Reports. See the [Securing Published Reports Only](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/securereports.md) topic for additional
 information.
+:::
+
 
 ## Configure the Installation Account
 
@@ -59,9 +62,12 @@ the Access Analyzer roles. This approach involves creating custom database roles
 assigned rights and privileges. Then, individual domain user accounts must be assigned to these
 roles.
 
-**NOTE:** For any SQL Server version prior to 2012, Windows groups cannot be used because SQL Server
+:::note
+For any SQL Server version prior to 2012, Windows groups cannot be used because SQL Server
 does not allow the assignment of default schemas to Windows groups. Access Analyzer requires the
 default schema of [dbo] to function properly.
+:::
+
 
 ### Create SQL Server Database Roles
 
@@ -144,7 +150,10 @@ Right-click on the **Security** > **Users** node and select **New User**.
 
 - User Name – Display name given to the user which is shown under the user’s folder.
 
-    **_RECOMMENDED:_** Use a descriptive name.
+    :::info
+    Use a descriptive name.
+    :::
+
 
 - Login name – Qualified domain name of the user: `[DOMAIN]\[Username]`
 - Default Schema – Should be set to `dbo`

@@ -16,7 +16,7 @@ database environments to collect permissions, sensitive data, and activity event
 - SQL Server 2017
 - SQL Server 2016
 
-Target SQL Server Requirements
+**Target SQL Server Requirements**
 
 The following are requirements for the SQL Server to be scanned:
 
@@ -28,7 +28,10 @@ The following are requirements for the SQL Server to be scanned:
     - Enable Account
     - Remote Enable
 
-        **NOTE:** Restart WMI after applying changes.
+        :::note
+        Restart WMI after applying changes.
+        :::
+
 
 - For Activity Auditing – SQL Server Audit:
 
@@ -38,7 +41,7 @@ The following are requirements for the SQL Server to be scanned:
       [Create a server audit and database audit specification](https://learn.microsoft.com/en-us/sql/relational-databases/security/auditing/create-a-server-audit-and-database-audit-specification)
       article.
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -48,22 +51,25 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
 
-For SMARTLog Data Collection
+
+**For SMARTLog Data Collection**
 
 - Member of the local Administrators group
 
-For SQL Server Data Collection
+**For SQL Server Data Collection**
 
 - For Instance Discovery, local rights on the target SQL Servers:
 
@@ -90,18 +96,18 @@ information.
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For SMARTLog Data Collector
+**For SMARTLog Data Collector**
 
 - TCP 135
 - TCP 445
 - Randomly allocated high TCP ports
 
-For SQL Data Collector
+**For SQL Data Collector**
 
 - Specified by Instances table (default is 1433)

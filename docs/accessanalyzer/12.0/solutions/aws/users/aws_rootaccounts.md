@@ -14,8 +14,11 @@ security practices.
 Navigate to the **AWS** > **2.Users** > **AWS_RootAccounts** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_RootAccounts Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/users/rootaccountsanalysis.webp)
 
@@ -34,6 +37,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_RootAccounts job produces
 the following preconfigured report:
 
-| Report                | Description                                                 | Default Tags | Report Element                                                                                                                                                                                                                                      |
-| --------------------- | ----------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Root Account Security | This report highlights security risks on AWS Root Accounts. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top account security by org - Table – Shows account security by Org - Table – Provides details on risk assessment - Table – Provides details on account security |
+| Report                | Description                                                 | Default Tags | Report Element                                                                                                                                                                                                                                                                        |
+| --------------------- | ----------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Root Account Security | This report highlights security risks on AWS Root Accounts. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top account security by org</li><li>Table – Shows account security by Org</li><li>Table – Provides details on risk assessment</li><li>Table – Provides details on account security</li></ul> |
+

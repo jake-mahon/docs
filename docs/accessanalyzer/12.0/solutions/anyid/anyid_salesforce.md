@@ -31,39 +31,39 @@ The following credentials are required to run the AnyID_Salesforce job:
 
 The following are recommended configurations for the AnyID_Salesforce job:
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 Ensure that a connection profile is configured with the required credentials. See the
 [Prerequisites](#prerequisites) topic for additional information.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
 information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the job as required.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_Salesforce Query](#configure-the-anyid_salesforce-query) topic for additional
 information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the solution with the default analysis configuration for best results.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set up a connection profile with the required credentials.
 
@@ -134,8 +134,11 @@ The query is now ready to run.
 Navigate to the **Jobs** > **AnyID Connectors** > **AnyID_Salesforce** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AnyID_Salesforce Job](/img/product_docs/accessanalyzer/12.0/solutions/anyid/salesforceanalyses.webp)
 
@@ -149,6 +152,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AnyID_Salesforce job produces the
 following preconfigured report:
 
-| Report              | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                                    |
-| ------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Salesforce Contacts | This report highlights Salesforce Contacts and summarizes attribute completion by contact and by attribute. | None         | This report is comprised of four elements: - Table – Contains information on Salesforce contacts - Bar Chart – Provides information on contact types - Table – Contains information on the attributes completion - Table – Contains information on subject details |
+| Report              | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                                                                      |
+| ------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Salesforce Contacts | This report highlights Salesforce Contacts and summarizes attribute completion by contact and by attribute. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on Salesforce contacts</li><li>Bar Chart – Provides information on contact types</li><li>Table – Contains information on the attributes completion</li><li>Table – Contains information on subject details</li></ul> |
+

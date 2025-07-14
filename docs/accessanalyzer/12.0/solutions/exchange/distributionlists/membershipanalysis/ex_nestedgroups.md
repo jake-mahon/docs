@@ -13,8 +13,11 @@ The EX_NestedGroups job identifies where nesting exists within distribution grou
 View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Membership
 Analysis** > **EX_NestedGroups** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_NestedGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/nestedgroupsanalysis.webp)
 

@@ -13,18 +13,18 @@ Analyzer license options, the Windows Solution is only available with a special 
 license. See the [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md) topic for additional
 information.
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

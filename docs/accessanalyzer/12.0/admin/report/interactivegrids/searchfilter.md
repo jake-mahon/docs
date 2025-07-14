@@ -9,8 +9,11 @@ sidebar_position: 20
 When dealing with large sets of data, it may be useful to search for a desired attribute. This can
 be done using the Filter icon.
 
-**NOTE:** Searching and grouping cannot be enabled at the same time. If grouping is enabled, the
+:::note
+Searching and grouping cannot be enabled at the same time. If grouping is enabled, the
 Search icon is disabled in the report.
+:::
+
 
 The following example shows an interactive grid in which searching has been enabled. See the
 [Grid](/docs/accessanalyzer/12.0/admin/report/wizard/widgets.md#grid) topic for additional information.

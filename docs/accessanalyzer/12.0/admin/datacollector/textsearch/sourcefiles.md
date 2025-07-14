@@ -10,7 +10,7 @@ The Source Files page provides options to specify which files to search.
 
 ![Text Search Data Collector Wizard Source Files page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/textsearch/sourcefiles.webp)
 
-Location
+**Location**
 
 The Location section provides options to scope the search.
 
@@ -31,7 +31,7 @@ The Location section provides options to scope the search.
     - Query 32-bit – Select this checkbox to query a 32-bit view
     - Query 64-bit – Select this checkbox to query a 64-bit view
 
-Files
+**Files**
 
 The Files section provides options to define the object or set of objects to find.
 
@@ -50,14 +50,14 @@ The Files section provides options to define the object or set of objects to fin
 
 - First line is header captions line – Enabled when CSV, TSV, or Space Separated Text is selected
 
-Options
+**Options**
 
 The Options section provides options to scope the search.
 
 - Ignore files larger than [number]MB
 - Include subfolders
 
-Last Modification Time Filter
+**Last Modification Time Filter**
 
 The Last Modification Time Filter section provides options to apply time filters to the search.
 

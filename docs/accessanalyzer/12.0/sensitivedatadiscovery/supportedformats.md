@@ -100,12 +100,15 @@ attachment’s file type is a scan-able format, then it can extract text from th
 | Portable Network Graphic                | .webp                                |
 | Tagged Image File Format                | .TIF, .TIFF                          |
 
-**NOTE:** The **FileSystem** > **0.Collection** > **1-SEEK System Scans** job can perform Optical
+:::note
+The **FileSystem** > **0.Collection** > **1-SEEK System Scans** job can perform Optical
 Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit
 Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the
 Sensitive Data Scan category. See the
 [1-SEEK System Scans Job](/docs/accessanalyzer/12.0/solutions/filesystem/collection/1-seek_system_scans.md) topic for
 additional information.
+:::
+
 
 ### Spreadsheet
 

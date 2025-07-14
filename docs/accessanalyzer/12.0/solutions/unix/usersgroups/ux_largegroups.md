@@ -27,8 +27,11 @@ The UX_LargeGroups job has the following customizable parameter:
 Navigate to the **Unix** > **1.Users and Groups** > **UX_LargeGroups** > **Configure** node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_LargeGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/largegroupsanalysis.webp)
 
@@ -44,6 +47,7 @@ The default analysis task is:
 In addition to the table and views created by the analysis tasks, the UX_LargeGroups job produces
 the following pre-configured report:
 
-| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                           |
-| ------------ | -------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Large Groups | This report identifies large groups within the audited domains | None         | This report is comprised of two elements: - Bar Chart – Displays Top 5 Large Groups - Table – Provides information on Large Group Details |
+| Report       | Description                                                    | Default Tags | Report Elements                                                                                                                                                 |
+| ------------ | -------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Large Groups | This report identifies large groups within the audited domains | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays Top 5 Large Groups</li><li>Table – Provides information on Large Group Details</li></ul> |
+

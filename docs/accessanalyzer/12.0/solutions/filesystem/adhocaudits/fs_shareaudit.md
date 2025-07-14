@@ -14,8 +14,11 @@ input.
 View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS_ShareAudit > Configure
 node and select Analysis.
 
-**CAUTION:** Do not modify or deselect the last three selected analysis tasks. The analysis tasks
+:::warning
+Do not modify or deselect the last three selected analysis tasks. The analysis tasks
 are preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 
@@ -43,6 +46,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_ShareAudit Job produces
 the following pre-configured report:
 
-| Report      | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                                                    |
-| ----------- | -------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Share Audit | This report displays permission information for the selected shares. | None         | This report is comprised of four elements: - Table – Provides details on selected shares - Table – Provides details on permissions - Table – Provides details on effective access - Table – Provides details on broken inheritance |
+| Report      | Description                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                      |
+| ----------- | -------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Share Audit | This report displays permission information for the selected shares. | None         | This report is comprised of four elements: <ul><li>Table – Provides details on selected shares</li><li>Table – Provides details on permissions</li><li>Table – Provides details on effective access</li><li>Table – Provides details on broken inheritance</li></ul> |
+

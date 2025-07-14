@@ -14,8 +14,11 @@ granted direct permissions on resources from targeted file servers.
 View the analysis tasks by navigating to the **FileSystem** > **2.Direct Permissions** >
 **FS_LocalUsersAndGroups** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_LocalUsersAndGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/localusersandgroupsanalysis.webp)
 
@@ -32,6 +35,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the FS_LocalUsersAndGroups job
 produces the following pre-configured report:
 
-| Report                 | Description                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                        |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Local Users And Groups | This report identifies at the server level, how many local users and groups have direct ACLs, followed by details at the share level. | None         | This report is comprised of two elements: - Bar Chart – Displays top five servers with local users and groups by affected folders - Table – Provides details on local users and groups |
+| Report                 | Description                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Local Users And Groups | This report identifies at the server level, how many local users and groups have direct ACLs, followed by details at the share level. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top five servers with local users and groups by affected folders</li><li>Table – Provides details on local users and groups</li></ul> |
+

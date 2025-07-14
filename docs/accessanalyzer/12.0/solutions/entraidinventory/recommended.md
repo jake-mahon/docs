@@ -10,15 +10,15 @@ The .Entra ID Inventory Solution is configured to inherit settings from the Glob
 The host list and connection profile must be assigned before job execution. Once these are assigned
 to the job group, it can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 This job group does not have dependencies.
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Microsoft Entra Tenants.
 
-Connection Profile
+**Connection Profile**
 
 The Connection Profile is assigned under **.Entra ID Inventory** > **Settings** > **Connection**. It
 is set to **Use the Default Profile**, as configured at the global **Settings** level. However, if
@@ -28,38 +28,41 @@ appropriate Connection Profile. See the
 [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/configurejob.md)
 topic for information.
 
-History Retention
+**History Retention**
 
 Not supported.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported.
 
-Schedule Frequency
+**Schedule Frequency**
 
-**_RECOMMENDED:_** Schedule the .Entra ID Inventory job group to run once a day. If there are
+:::info
+Schedule the .Entra ID Inventory job group to run once a day. If there are
 frequent Microsoft Entra ID changes within the target environment, then it can be executed more
 often. It is best to rerun it anytime Entra ID changes might have occurred.
+:::
 
-Run at the Solution Level
+
+**Run at the Solution Level**
 
 The jobs in the .Entra ID Inventory Job Group should be run together and in order by running the
 entire solution, instead of the individual jobs.
 
-Query Configuration
+**Query Configuration**
 
 Run the solution with the default query configuration for best results. While it is recommended to
 make no changes to the [1-AAD_Scan Job](/docs/accessanalyzer/12.0/solutions/entraidinventory/1-aad_scan.md), a possible modification might be to scope
 the query to not collect login activity.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the solution with the default analysis configuration for best results. However, a possible
 modification might be to customize exception analysis parameters within the
 [2-AAD_Exceptions Job](/docs/accessanalyzer/12.0/solutions/entraidinventory/2-aad_exceptions.md).
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow:
 

@@ -22,8 +22,11 @@ The 2–AzureSQL_SensitiveDataScan Job uses the SQL Data Collector for the follo
 Navigate to the **Databases** > **0.Collection** > **AzureSQL** > **2–AzureSQL_SensitiveDataScan** >
 **Configure** node and select Analysis to view the analysis task.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/sensitivedatascananalysis.webp)
 

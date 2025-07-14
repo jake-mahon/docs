@@ -58,14 +58,17 @@ function restoreTables(content, tables) {
 
 function convertNoteCaution(content) {
   // NOTE and CAUTION: bold only (**NOTE:**, **CAUTION:**)
+  // Updated regex to match multi-line paragraphs (including hard line breaks)
   return content.replace(
     /(^|\r?\n)([ \t]*)\*\*(NOTE|CAUTION)\:\*\*[ \t]*([\s\S]*?)(?=(\r?\n\s*\r?\n|$))/gi,
     (match, p1, indent, type, text) => {
       const admonition = ADMONITION_MAP[type.toUpperCase()];
-      const cleanedText = text.replace(/^\s+/gm, '');
+      // Remove leading whitespace from all lines in the paragraph
+      const cleanedText = text.replace(/^[ \t]+/gm, '');
+      // Indent every line in the block
       const blockLines = [
         `:::${admonition}`,
-        ...cleanedText.split('\n'),
+        ...cleanedText.split(/\r?\n/),
         ':::'
       ];
       const block = blockLines.map(line => indent + line).join('\n');
@@ -80,10 +83,10 @@ function convertRecommended(content) {
     /(^|\r?\n)([ \t]*)(\*\*|__)(\*|_)(RECOMMENDED:)\4\3[ \t]*([\s\S]*?)(?=(\r?\n\s*\r?\n|$))/gi,
     (match, p1, indent, bold, ital, type, text) => {
       const admonition = ADMONITION_MAP[type.replace(':', '').toUpperCase()];
-      const cleanedText = text.replace(/^\s+/gm, '');
+      const cleanedText = text.replace(/^[ \t]+/gm, '');
       const blockLines = [
         `:::${admonition}`,
-        ...cleanedText.split('\n'),
+        ...cleanedText.split(/\r?\n/),
         ':::'
       ];
       const block = blockLines.map(line => indent + line).join('\n');
@@ -97,10 +100,10 @@ function convertRememberTips(content) {
   return content.replace(
     /(^|\r?\n)([ \t]*)[\*_]Remember,[\*_][ \t]*([\s\S]*?)(?=(\r?\n\s*\r?\n|$))/g,
     (match, p1, indent, text) => {
-      const cleanedText = text.replace(/^\s+/gm, '');
+      const cleanedText = text.replace(/^[ \t]+/gm, '');
       const blockLines = [
         ':::tip',
-        `${indent}Remember,${cleanedText ? ' ' + cleanedText : ''}`.trimEnd(),
+        ...(`${indent}Remember,${cleanedText ? ' ' + cleanedText : ''}`.trimEnd().split(/\r?\n/)),
         ':::'
       ];
       const block = blockLines.map(line => indent + line).join('\n');

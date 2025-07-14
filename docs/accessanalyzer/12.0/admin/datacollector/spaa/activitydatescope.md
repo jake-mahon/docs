@@ -26,5 +26,8 @@ Use the radio buttons to select the **Scan Filters**.
     - End date – Click the down arrow to access the calendar and select the end date for data
       collection
 
-    **NOTE:** Selecting Absolute Timespan will not affect activity data collected during Relative
+    :::note
+    Selecting Absolute Timespan will not affect activity data collected during Relative
     Timespan scans.
+    
+    :::

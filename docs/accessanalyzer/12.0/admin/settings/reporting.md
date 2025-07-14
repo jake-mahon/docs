@@ -41,10 +41,13 @@ secured, this address must be manually updated:
 
 https://[Fully Qualified Domain Name of the StealthAUDIT Console server]:[Port Number]
 
-**NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
+:::note
+Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
 [Configure JavaScript Settings for the Web Console](#configure-javascript-settings-for-the-web-console)
 topic for additional information.
+:::
+
 
 ## Publish Option
 
@@ -67,19 +70,28 @@ inheritance is broken at the job group, job, or report level. Separate multiple 
 semicolon. If commas are used as delimiters for email addresses, they will be converted into
 semicolons when the settings are saved.
 
-**_RECOMMENDED:_** Configure email reporting at a specific level to ensure recipients only receive
+:::info
+Configure email reporting at a specific level to ensure recipients only receive
 reports which apply to them.
+:::
 
-**NOTE:** Email reports does not work unless Access Analyzer has been configured to send email
+
+:::note
+Email reports does not work unless Access Analyzer has been configured to send email
 notifications through the **Notification** node. See the [Notification](/docs/accessanalyzer/12.0/admin/settings/notification.md) topic for
 additional information.
+:::
+
 
 The **Do Not Email Report If Blank** checkbox prevents reports from being sent via email if all
 elements are blank when generated. A blank report can occur if there is an error in data collection
 or if the report is configured for data which might not always be present (for example, new computer
 objects created since last scan).
 
-**_RECOMMENDED:_** Enable the **Do Not Email Report If Blank** option.
+:::info
+Enable the **Do Not Email Report If Blank** option.
+:::
+
 
 The report can be sent using the desired **Email Content** option:
 
@@ -115,7 +127,10 @@ under All permissions.
 **Step 3 –** Click **Add** in the Allow section. On the Add a site window, enter the URL for the Web
 Console and click **Add**.
 
-**NOTE:** If the global Allowed option is selected, you do not need to specifically add the Web
+:::note
+If the global Allowed option is selected, you do not need to specifically add the Web
 Console as an allowed site.
+:::
+
 
 The Web Console's URL is added to the Allow list and JavaScript is enabled for the Web Console.

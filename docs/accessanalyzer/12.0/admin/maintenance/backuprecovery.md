@@ -11,7 +11,10 @@ Analyzer Console server. Rather a standard file level back up of a few key compo
 necessary. This document contains a step-by-step guide for back up and recovery. The choice of back
 up utility is left to the Access Analyzer user.
 
-**NOTE:** This does not cover back up of the Access Analyzer database.
+:::note
+This does not cover back up of the Access Analyzer database.
+:::
+
 
 ## Steps to Back Up the Console Server
 

@@ -38,8 +38,11 @@ executions, analysis history, host query details, and analysis details.
 Navigate to the **Jobs** > **SAS_ExecutionStatistics** > **Configure** node and select **Analysis**
 to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/analysistasks.webp)
 
@@ -55,8 +58,9 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the SAS_ExecutionStatistics Job produces
 the following pre-configured reports.
 
-| Report                   | Description                                                       | Default Tags | Report Elements                                                                                                                                  |
-| ------------------------ | ----------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Analysis Execution       | This report identifies abnormally long analysis times.            | None         | This report is comprised of two elements: - Bar graph – Displays Abnormally Long Analysis Times - Table – Displays details on analysis times     |
-| Collection Statistics    | This report identifies abnormally long collection times.          | None         | This report is comprised of two elements: - Bar graph – Displays Abnormally Long Collection Times - Table – Displays details on collection times |
-| Job Execution Statistics | This report identifies jobs which have abnormally long run times. | None         | This report is comprised of two elements: - Pie chart – Displays Job Status - Table – Displays details on job status                             |
+| Report                   | Description                                                       | Default Tags | Report Elements                                                                                                                                                        |
+| ------------------------ | ----------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Analysis Execution       | This report identifies abnormally long analysis times.            | None         | This report is comprised of two elements: <ul><li>Bar graph – Displays Abnormally Long Analysis Times</li><li>Table – Displays details on analysis times</li></ul>     |
+| Collection Statistics    | This report identifies abnormally long collection times.          | None         | This report is comprised of two elements: <ul><li>Bar graph – Displays Abnormally Long Collection Times</li><li>Table – Displays details on collection times</li></ul> |
+| Job Execution Statistics | This report identifies jobs which have abnormally long run times. | None         | This report is comprised of two elements: <ul><li>Pie chart – Displays Job Status</li><li>Table – Displays details on job status</li></ul>                             |
+

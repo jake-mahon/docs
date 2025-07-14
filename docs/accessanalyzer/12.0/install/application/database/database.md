@@ -28,8 +28,11 @@ The account configured in the storage profile to be used by Access Analyzer to a
 should have the necessary rights to Add, Alter, Create, Drop, Select, and Update. These rights are
 critical to normal Access Analyzer operations and functionality.
 
-**_RECOMMENDED:_** The account used by Access Analyzer should have database owner (DBO) level access
+:::info
+The account used by Access Analyzer should have database owner (DBO) level access
 to the database.
+:::
+
 
 If database owner rights cannot be obtained, the following SQL script can be executed by a database
 administrator (DBA) against the Access Analyzer database to grant the necessary permissions to the
@@ -150,7 +153,10 @@ node and choose **New Database**.
 **Step 2 –** Set the **Database name**. Set any other desired data files configuration per company
 standards. Click **OK** on the New Database window.
 
-**_RECOMMENDED:_** Enter Access Analyzer as the Database name.
+:::info
+Enter Access Analyzer as the Database name.
+:::
+
 
 ![SQL Server Management Studio create New Login](/img/product_docs/accessanalyzer/12.0/install/application/newlogin.webp)
 
@@ -170,8 +176,11 @@ Analyzer database. The available options are Windows authentication and SQL Serv
 - **_RECOMMENDED:_** If **SQL Server authentication** is desired, use a login name called Access
   Analyzer.
 
-**NOTE:** Set the **Default Database** as Access Analyzer (or the desired Access Analyzer database)
+:::note
+Set the **Default Database** as Access Analyzer (or the desired Access Analyzer database)
 and choose English as the **Default Language**.
+:::
+
 
 ![SQL Server Management Studio New Login User Mapping](/img/product_docs/accessanalyzer/12.0/install/application/loginusermapping.webp)
 
@@ -184,8 +193,11 @@ to save new user configuration information and continue on to configure the Acce
 **Step 7 –** Configure the Access Analyzer Console to access the assigned database using the newly
 secured login account.
 
-**NOTE:** This step requires the completion of the Access Analyzer installation. See the
+:::note
+This step requires the completion of the Access Analyzer installation. See the
 [Access Analyzer Core Installation](/docs/accessanalyzer/12.0/install/application/wizard.md) topic for instructions.
+:::
+
 
 ![Storage Profile configuration page](/img/product_docs/accessanalyzer/12.0/install/application/storageprofile.webp)
 
@@ -206,9 +218,12 @@ secured login account.
 
 ![Change storage profile dialog](/img/product_docs/accessanalyzer/12.0/install/application/changestorageprofile.webp)
 
-**NOTE:** If previously connected to another database which already had the Access Analyzer DB
+:::note
+If previously connected to another database which already had the Access Analyzer DB
 schema applied, then a prompt should appear to merge the host management data. Choose the
 appropriate options and then click **OK** to migrate data.
+:::
+
 
 **Step 9 –** Make sure to close and re-open the Access Analyzer Console before continuing to
 configure or use Access Analyzer if a new database Storage Profile was chosen as the default.

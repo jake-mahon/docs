@@ -21,11 +21,14 @@ host:
 This permission grants the credential read access to all target folders and files. The credential
 used within the assigned Connection Profile for these target hosts requires these permissions.
 
-**NOTE:** These permissions are in addition to those needed to either deploy applet scans for
+:::note
+These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
 [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 ## Access & Sensitive Data Auditing Port Requirements
 
@@ -51,7 +54,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Access Analyzer, the credential used by Access
 Analyzer to read the activity log files must have also have this permission.
 
-Hitachi Requirements
+**Hitachi Requirements**
 
 A Hitachi device can host multiple Enterprise Virtual Servers (EVS). Each EVS has multiple file
 systems. Auditing is enabled and configured per file system. HNAS generates the audit log files in
@@ -66,7 +69,7 @@ activity must be provisioned with:
 
 See the [Hitachi Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/hitachi/activity/activity.md) topic for instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Access Analyzer to read the activity log files must also have

@@ -19,7 +19,10 @@ The configurable options are:
     - Each part of each policy on a new row
     - All parts of each policy on the same row
 
-    **_RECOMMENDED:_** Use the Each part of each policy on a new row for best results
+    :::info
+    Use the Each part of each policy on a new row for best results
+    :::
+
 
 - Multi-Valued Properties – Select one of the following options:
 
@@ -27,6 +30,9 @@ The configurable options are:
     - First value only
     - Each value on a new row
 
-    **_RECOMMENDED:_** Use the Each value on a new row option for best results.
+    :::info
+    Use the Each value on a new row option for best results.
+    :::
+
 
 The available options vary based on the category selected.

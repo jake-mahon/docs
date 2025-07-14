@@ -9,7 +9,7 @@ sidebar_position: 10
 The Dropbox Solution requires the host list to be assigned and the Connection Profile configured
 before job execution. Once these are assigned to the job group, it can be run directly or scheduled.
 
-Targeted Hosts
+**Targeted Hosts**
 
 The Dropbox solution has been configured to inherit the host list assignment from the collection job
 group level.
@@ -17,7 +17,7 @@ group level.
 The host list assignment should be assigned under the **Dropbox** > **0.Collection** >
 **Settings** > **Host List Assignment** node. Select the **Local host** option.
 
-Connection Profile
+**Connection Profile**
 
 The DropboxAccess Data Collector requires a specific set of permissions to generate an access token
 which is used to configure the Connection Profile for Dropbox. The access token is generated in the
@@ -41,43 +41,49 @@ requires the same connection profile as used in the corresponding Dropbox scan j
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information
 on creating Connection Profiles.
 
-Schedule Frequency
+**Schedule Frequency**
 
 The Dropbox solution can be scheduled to run as desired.
 
-History Retention
+**History Retention**
 
 Not supported and should be turned off.
 
-Multi Console Support
+**Multi Console Support**
 
 Not supported.
 
-Run Order
+**Run Order**
 
 The 0.Collection jobs must be run first and in order. Run the **1-Dropbox_Permissions Scan** job and
 then the **2-Dropbox_Permissions Bulk Import** job. For the sensitive data jobs, run the
 **1-Dropbox_SDD Scan** job and then the **2-Dropbox_SDD Bulk Import** job.
 
-**_RECOMMENDED:_** When running the sensitive data jobs, disable the permissions jobs, and vice
+:::info
+When running the sensitive data jobs, disable the permissions jobs, and vice
 versa.
+:::
+
 
 After running the 0.Collection jobs, the other Dropbox solution job groups can be run in any order.
 Best practice is to run at the solution level.
 
-Query Configuration
+**Query Configuration**
 
 This solution can be run with the default query configurations. The Scoping page of the Dropbox
 Access Auditor Data Collector Wizard can be customized to target specific user accounts. See the
 [DropboxAccess: Scoping](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scoping.md) topic for additional
 information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 This solution should be run with the default analysis configuration.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this solution.
+:::
+
 
 Though the analysis tasks should not be deselected the time frame used to define staleness can be
 modified:
@@ -88,13 +94,13 @@ modified:
     - **Determines stale data by owner** analysis task
     - See the [4.Content > Dropbox_Content Job](/docs/accessanalyzer/12.0/solutions/dropbox/dropbox_content.md) topic for additional information
 
-Additional Consideration
+**Additional Consideration**
 
 The jobs contained in the solution use custom SQL scripts to render views on collected data. SQL
 views are used to populate report element tables and graphs. Changing or modifying the group, job,
 or table names will result in no data displayed within the Access Information Center.
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow:
 
@@ -106,7 +112,9 @@ Scan** job).
 
 **Step 3 –** Run the desired corresponding analysis and reporting sub-job groups.
 
-_Remember,_ prior to running the Dropbox solution for the first time, it is necessary to generate an
+:::tip
+Remember, prior to running the Dropbox solution for the first time, it is necessary to generate an
 access token to be used in the Connection Profile. This only needs to be done once. See the
 [Configure the Dropbox Access Query](collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
 topic for additional information.
+:::

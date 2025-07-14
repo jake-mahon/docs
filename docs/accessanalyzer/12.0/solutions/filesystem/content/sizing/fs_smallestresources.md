@@ -14,8 +14,11 @@ servers.
 View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **Sizing** >
 **FS_SmallestResources** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_SmallestResources Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/content/sizing/smallestresourcesanalysis.webp)
 
@@ -29,6 +32,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_SmallestResources job
 produces the following pre-configured report:
 
-| Report          | Description                                            | Default Tags | Report Elements                                                                            |
-| --------------- | ------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------ |
-| Smallest Shares | Identifies the smallest shares within the environment. | None         | This report is comprised of one element: - Table – Provides details on the smallest shares |
+| Report          | Description                                            | Default Tags | Report Elements                                                                                            |
+| --------------- | ------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------- |
+| Smallest Shares | Identifies the smallest shares within the environment. | None         | This report is comprised of one element: <ul><li>Table – Provides details on the smallest shares</li></ul> |
+

@@ -106,7 +106,7 @@ for additional information.
 See the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md) topic for other
 Runtime Details.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run [2-SPAA_SystemScans Job](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/2-spaa_systemscans.md).
 
@@ -119,11 +119,14 @@ Workflow
 Please see the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md) topic
 before continuing with this workflow.
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
 information.
+:::
+
 
 ## SharePoint Activity Auditing
 
@@ -156,7 +159,7 @@ See the SharePoint Reports topics in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
 
-Recommended Workflow 1 (for Access & Activity Auditing)
+**Recommended Workflow 1 (for Access & Activity Auditing)**
 
 **Step 1 –** Run [2-SPAA_SystemScans Job](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/2-spaa_systemscans.md).
 
@@ -170,15 +173,21 @@ Recommended Workflow 1 (for Access & Activity Auditing)
 
 **Step 6 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 2-SPAA SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 2-SPAA SystemScans job (scoped to at least 0-level depth) and the
 corresponding 5-SPAA Bulk Import job have been run, then the SPAA Scans can be run concurrently with
 SPAC Scans and Bulk Import jobs as desired.
+:::
+
 
 Recommended Workflow 2 (for Access, Sensitive Data Discovery & Activity Auditing)
 
-**CAUTION:** The jobs must be run in the order shown. It is not possible to disable the
+:::warning
+The jobs must be run in the order shown. It is not possible to disable the
 1-SPAA_SystemScan and 2-SPAA_BulkImport jobs and run the 0.Collection Job Group because the
 remaining jobs are in the wrong order. Renaming the jobs is not an option.
+:::
+
 
 **Step 1 –** Run [1-SPSEEK_SystemScans Job](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/1-spseek_systemscans.md).
 
@@ -192,11 +201,14 @@ remaining jobs are in the wrong order. Renaming the jobs is not an option.
 
 **Step 6 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
 corresponding 4-SPSEEK Bulk Import job have been run, then the SPSEEK Scans jobs can be run
 concurrently with the SPAC Scans and the Bulk Import jobs as desired.
+:::
 
-Optional Workflow (for Activity Auditing Only)
+
+**Optional Workflow (for Activity Auditing Only)**
 
 **Step 1 –** Run [3-SPAC_SystemScans Job](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/3-spac_systemscans.md).
 
@@ -204,14 +216,20 @@ Optional Workflow (for Activity Auditing Only)
 
 **Step 3 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Please see the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md)
+:::note
+Please see the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md)
 topic before continuing with this workflow.
+:::
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
 information.
+:::
+
 
 ## SharePoint Sensitive Data Discovery Auditing (SEEK)
 
@@ -268,9 +286,12 @@ Recommended Workflow 1 (for Access & Sensitive Data Discovery Auditing)
 
 Recommended Workflow 2 (for Access, Sensitive Data Discovery & Activity Auditing)
 
-**CAUTION:** The jobs must be run in the order shown. It is not possible to disable the
+:::warning
+The jobs must be run in the order shown. It is not possible to disable the
 2-SPAA_SystemScan and 5-SPAA_BulkImport jobs and run the 0.Collection Job Group because the
 remaining jobs are in the wrong order. Renaming the jobs is not an option.
+:::
+
 
 **Step 1 –** Run [1-SPSEEK_SystemScans Job](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/1-spseek_systemscans.md).
 
@@ -284,15 +305,24 @@ remaining jobs are in the wrong order. Renaming the jobs is not an option.
 
 **Step 6 –** Run desired corresponding analysis and reporting sub-job groups.
 
-**NOTE:** Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
+:::note
+Once an initial 1-SPSEEK SystemScans job (scoped to at least 0-level depth) and the
 corresponding 4-SPSEEK Bulk Import job have been run, then the SPSEEK Scans can be run concurrently
 with the SPAC Scans and the Bulk Import jobs as desired.
+:::
 
-**NOTE:** Please see the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md)
+
+:::note
+Please see the [Recommended Configuration for the SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/recommended.md)
 topic before continuing with this workflow.
+:::
 
-**_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
+
+:::info
+Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
 [Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
 information.
+
+:::

@@ -16,8 +16,11 @@ Select any desired scan options:
 - Match job host against autodiscovered host – Matches the name of the job host against the host
   name returned from autodiscover
 
-    **_RECOMMENDED:_** Use this option when scanning multiple Exchange environments with a single
+    :::info
+    Use this option when scanning multiple Exchange environments with a single
     job and the Connection Profile has multiple credentials in it.
+    :::
+
 
 - Authentication – Select an Authentication type from the drop down:
 

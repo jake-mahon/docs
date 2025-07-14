@@ -14,8 +14,11 @@ permissions from targeted file servers.
 View the analysis tasks by navigating to the **FileSystem** > **2.Direct Permissions** >
 **FS_NestedShares** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_NestedShares Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/directpermissions/nestedsharesanalysis.webp)
 
@@ -39,6 +42,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_NestedShares job produces
 the following pre-configured report:
 
-| Report        | Description                                                                                                           | Default Tags | Report Elements                                                                                                             |
-| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Nested Shares | This report identifies where folders are exposed through multiple shares. This may cause issues with unwanted access. | None         | This report is comprised of two elements: - Bar Chart – Displays hosts by folder count - Table – Provides details on shares |
+| Report        | Description                                                                                                           | Default Tags | Report Elements                                                                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nested Shares | This report identifies where folders are exposed through multiple shares. This may cause issues with unwanted access. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays hosts by folder count</li><li>Table – Provides details on shares</li></ul> |
+

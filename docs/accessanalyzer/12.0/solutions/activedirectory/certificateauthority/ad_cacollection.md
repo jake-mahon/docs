@@ -10,7 +10,7 @@ The AD_CACollection job collects Certificate Authority details and settings for 
 potential vulnerabilities that exist in Active Directory Certificate Services configurations. This
 job is located in the Collection job group.
 
-Target Host
+**Target Host**
 
 It is recommended to target the **ONE DOMAIN CONTROLLER PER DOMAIN** or **Default domain
 controller** host list.
@@ -38,8 +38,11 @@ The queries for the job are:
 Navigate to the **Active Directory** > **7.Certificate Authority** > **Collection** >
 **AD_CACollection** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_CACollection Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/cacollectionanalysis.webp)
 

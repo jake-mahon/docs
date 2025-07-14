@@ -16,8 +16,14 @@ Analyzer and the host:
 | Between Access Analyzer Console and Windows Server | TCP      | 8767  | FSAA Applet Certificate Exchange         |
 | Between Access Analyzer Console and Windows Server | TCP      | 8766  | FSAA Applet HTTPS communication security |
 
-**NOTE:** The FSAA applet https requests configuration port 8766 and the FSAA Applet Certificate
+:::note
+The FSAA applet https requests configuration port 8766 and the FSAA Applet Certificate
 Exchange port 8767 can be customized on the Applet Settings page of the File System Access Auditor
 Data Collector Wizard.
+:::
 
-**_RECOMMENDED:_** Configure target hosts to respond to ping requests.
+
+:::info
+Configure target hosts to respond to ping requests.
+
+:::

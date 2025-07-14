@@ -14,8 +14,11 @@ accesses to Oracle database objects both at the instance and object level.
 Navigate to the **Oracle** > **3.Permissions** > **Oracle_DomainUserPermissions** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup34.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_DomainUserPermissions
 Job produces the following pre-configured report.
 
-| Report             | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                 |
-| ------------------ | --------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Domain User Access | This report looks at permissions granted to domain users across the audited environment | None         | This report is comprised of three elements: - Bar Chart – Displays top users by instance count - Table – Provides details on access sprawl - Table – Provides information on permission details |
+| Report             | Description                                                                             | Default Tags | Report Elements                                                                                                                                                                                                             |
+| ------------------ | --------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Domain User Access | This report looks at permissions granted to domain users across the audited environment | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by instance count</li><li>Table – Provides details on access sprawl</li><li>Table – Provides information on permission details</li></ul> |
+

@@ -21,10 +21,13 @@ Select one of the following options to choose if and how much data should be ret
       To include only one instance of identical values, do not select this option.. See the
       [With Ties Example](#with-ties-example) topic for additional information.
 
-        **NOTE:** This field is enabled by sorting at least one column in the table by value (for
+        :::note
+        This field is enabled by sorting at least one column in the table by value (for
         SQL, only a sorted column can contain ties). To sort columns, use the **Order By Operation**
         field on the Columns page. See the [SQLViewCreations: Columns](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/columns.md) topic for
         additional information.
+        :::
+
 
 ## With Ties Example
 
@@ -45,5 +48,8 @@ However, if the first three values in the sort column are unique but the fourth 
 fifth, selecting the **With ties** option returns the first three rows as well as both the fourth
 and fifth rows for a total of five rows.
 
-**NOTE:** If sorting multiple columns, **With ties** evaluates all sorted columns to determine ties
+:::note
+If sorting multiple columns, **With ties** evaluates all sorted columns to determine ties
 between columns with the same inputs.
+
+:::

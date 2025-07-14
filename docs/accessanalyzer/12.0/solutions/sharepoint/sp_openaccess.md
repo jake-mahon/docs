@@ -29,8 +29,11 @@ components of the [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/s
 Navigate to the **Jobs** > **SharePoint** > **2.High Risk Sites** > **SP_OpenAccess** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_OpenAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/openaccessanalysis.webp)
 
@@ -44,6 +47,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks which display resources with open access,
 the SP_OpenAccess Job produces the following pre-configured report:
 
-| Report      | Description                                                  | Default Tags | Report Elements                                                                                                                                                                       |
-| ----------- | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Open Access | This report identifies site collections with open resources. | Open Access  | This report is comprised of two elements: - Stacked Bar – Displays top site collections with open access - Table – Provides site collection details - Table – Provides access details |
+| Report      | Description                                                  | Default Tags | Report Elements                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Open Access | This report identifies site collections with open resources. | Open Access  | This report is comprised of two elements: <ul><li>Stacked Bar – Displays top site collections with open access</li><li>Table – Provides site collection details</li><li>Table – Provides access details</li></ul> |
+

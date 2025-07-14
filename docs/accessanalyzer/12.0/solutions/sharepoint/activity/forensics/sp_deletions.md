@@ -13,8 +13,11 @@ This job identifies SharePoint deletion events which have occurred over the past
 Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Forensics** > **SP_Deletions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_Deletions Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/deletionsanalysis.webp)
 
@@ -26,6 +29,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis tasks, the SQL_Deletions Job produces
 the following pre-configured report:
 
-| Report           | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                                            |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Deletion Details | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: - Bar Chart – Displays total number of deletions in the past 30 days - Table – Provides details on deletions in the past 30 days |
+| Report           | Description                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                                                                  |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Deletion Details | This report identifies deletion events for the past 30 days. The detailed report shows all resources that were successfully deleted as well as which users performed those events. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays total number of deletions in the past 30 days</li><li>Table – Provides details on deletions in the past 30 days</li></ul> |
+

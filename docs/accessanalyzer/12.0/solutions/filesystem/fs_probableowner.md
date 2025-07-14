@@ -21,8 +21,11 @@ The 6.Probable Owner Job Group is comprised of:
 View the analysis tasks by navigating to the FileSystem > 6.Probable Owner > FS_ProbableOwner >
 Configure node and select Analysis.
 
-**CAUTION:** Do not modify or deselect the first and third selected analysis tasks. The analysis
+:::warning
+Do not modify or deselect the first and third selected analysis tasks. The analysis
 tasks are preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/probableowneranalysis.webp)
 
@@ -49,6 +52,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_ProbableOwner Job produces
 the following pre-configured report:
 
-| Report                                         | Description                                                                                                                                                                                                                        | Default Tags | Report Elements                                                                        |
-| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| Probable Share Owners (A.K.A. Probable Owners) | This report identifies the number of shares owned by individuals, as determined by a weighted average of ownership of content, management, and level of activity. The top 2 owners per ownership criteria per share are displayed. | None         | This report is comprised of one element: - Table – Provides details on probable owners |
+| Report                                         | Description                                                                                                                                                                                                                        | Default Tags | Report Elements                                                                                        |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------ |
+| Probable Share Owners (A.K.A. Probable Owners) | This report identifies the number of shares owned by individuals, as determined by a weighted average of ownership of content, management, and level of activity. The top 2 owners per ownership criteria per share are displayed. | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul> |
+

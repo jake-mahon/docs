@@ -15,7 +15,10 @@ The 3-SPAC_SystemScans Job has been preconfigured to run with the default settin
 Data Collector category of Scan SharePoint Activity, which is not visible within the SharePoint
 Access Auditor Data Collector Wizard when opened from within this job.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/collection/spacsystemscansquery.webp)
 

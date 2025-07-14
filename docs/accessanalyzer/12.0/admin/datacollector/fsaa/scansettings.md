@@ -83,7 +83,10 @@ columns for all shares in the target environment:
 
 - Host – Name of host where the share resides matching the Host Master table Name field value
 
-    **_RECOMMENDED:_** Use this column but it is not required.
+    :::info
+    Use this column but it is not required.
+    :::
+
 
 - Share – Name of the share
 - Folder – Landing folder path of the share on the host
@@ -100,8 +103,11 @@ in this way:
 - Folder – `C:\Documentation`
 - ShareType – `0`
 
-**CAUTION:** If the FSAA Data Collector has identified a share in a previous scan, but that share is
+:::warning
+If the FSAA Data Collector has identified a share in a previous scan, but that share is
 not in a table targeted by this query, then it is marked as a deleted share.
+:::
+
 
 Enter the SQL query by replacing the sample text in the textbox. The SQL query must target tables
 that have the required columns populated with the list of all shares in the target environment.
@@ -115,8 +121,11 @@ data being retrieved by the query is expected.
 When this option is selected, the data collector runs against the target table to enumerate shares
 in the environment.
 
-_Remember,_ if a share is not in the target table, the data collector assumes that the share does
+:::tip
+Remember, if a share is not in the target table, the data collector assumes that the share does
 not exist and marks it as deleted.
+:::
+
 
 ## HTTPS Encryption Certificate for FSAA & NetApp Communication
 
@@ -128,7 +137,7 @@ certificate to enable HTTPS encryption of Access Analyzer communications.
 The certificate (`cacert.pem`) which is shipped with Access Analyzer is in the DC folder of the
 installation directory. The default location is:
 
-…\STEALTHbits\StealthAUDIT\DC
+**…\STEALTHbits\StealthAUDIT\DC**
 
 If employing remote applet mode or proxy servers, then the certificate (`cacert.pem`) must exist in
 the FSAA folder where the `FSAAAppletServer.exe` process is running (applet/proxy host). Therefore,
@@ -136,11 +145,14 @@ it is necessary to also copy it to the FSAA folder on the target hosts andr prox
 done at runtime when using remote applet mode, but any updates or custom certificates must be copied
 manually. The default location is:
 
-…\STEALTHbits\StealthAUDIT\FSAA
+**…\STEALTHbits\StealthAUDIT\FSAA**
 
-**_RECOMMENDED:_** Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add
+:::info
+Do not overwrite this certificate. It is fully trusted by Netwrix. Instead, add
 an underscore (\_) character to the start of the file name. Then copy the organization’s self-signed
 certificate to this location with the name `cacert.pem`.
+:::
+
 
 There is another `cacert.perm` file within the Access Analyzer installation directory used by the
 Notification SSL encryption options. While these files have the same name, they serve different

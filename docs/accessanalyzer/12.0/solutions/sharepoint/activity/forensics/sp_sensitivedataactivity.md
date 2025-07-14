@@ -15,8 +15,11 @@ Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Forensics** >
 **SP_SensitiveDataActivity** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_SensitiveDataActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/sensitivedataactivityanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_SensitiveDataActivity Job
 produces the following pre-configured report:
 
-| Report                  | Description                                        | Default Tags | Report Elements                                                                                                                                |
-| ----------------------- | -------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitive Data Activity | This Report shows user activity on sensitive data. | None         | This report is comprised of two elements: - Bar Chart – Displays sensitive data activity - Table – Provides details on sensitive data activity |
+| Report                  | Description                                        | Default Tags | Report Elements                                                                                                                                                      |
+| ----------------------- | -------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sensitive Data Activity | This Report shows user activity on sensitive data. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays sensitive data activity</li><li>Table – Provides details on sensitive data activity</li></ul> |
+

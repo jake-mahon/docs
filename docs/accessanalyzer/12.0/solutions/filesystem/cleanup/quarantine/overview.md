@@ -21,7 +21,7 @@ This job group includes the following jobs:
 - [FS_RestoreInheritance_Status Job](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/fs_restoreinheritance_status.md) – Designed to report on
   inheritance that was restored to previously quarantined files
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

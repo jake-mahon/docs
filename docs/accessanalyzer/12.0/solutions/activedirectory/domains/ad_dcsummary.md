@@ -15,8 +15,11 @@ bridgehead server, whether it is a global catalog, and the time server it syncs 
 Navigate to the **Active Directory > 5.Domains > AD_DCSummary > Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/dcsummaryanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the AD_DCSummary Job produces the
 following pre-configured report:
 
-| Report                      | Description                                                                         | Default Tags | Report Elements                                                                                                                                          |
-| --------------------------- | ----------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Domain Controllers Overview | This report identifies domain controllers' roles and attributes within each domain. | None         | This report is comprised of two elements: - Bar Chart – Displays domain controllers by domain - Table – Provides details on domain controllers by domain |
+| Report                      | Description                                                                         | Default Tags | Report Elements                                                                                                                                                                |
+| --------------------------- | ----------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Domain Controllers Overview | This report identifies domain controllers' roles and attributes within each domain. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays domain controllers by domain</li><li>Table – Provides details on domain controllers by domain</li></ul> |
+

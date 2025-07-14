@@ -15,8 +15,11 @@ SharePoint permission configuration.
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_SiteCollectionPerms** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_SiteCollectionPerms Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/sitecollectionpermsanalysis.webp)
 
@@ -36,6 +39,7 @@ In addition to the tables created by the analysis tasks which display direct per
 of the site collections, the SP_SiteCollectionPerms Job produces the following pre-configured
 report:
 
-| Report                             | Description                                                                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                              |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Direct Site Collection Permissions | Most content will inherit the permissions configured at the root of the site collection. Having an understanding of how those permissions are assigned is useful for gaining perspective on the overall SharePoint permission configuration. | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 site collections by direct permissions - Table – Provides details on site collections by direct permissions breakdown |
+| Report                             | Description                                                                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Direct Site Collection Permissions | Most content will inherit the permissions configured at the root of the site collection. Having an understanding of how those permissions are assigned is useful for gaining perspective on the overall SharePoint permission configuration. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 site collections by direct permissions</li><li>Table – Provides details on site collections by direct permissions breakdown</li></ul> |
+

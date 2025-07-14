@@ -3,8 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 function insertBrBeforeNote(cell) {
-  // Insert <br /> before any **NOTE:**, **CAUTION:**, or **_RECOMMENDED:_** not at the start of a line or after <br />
-  // (Don't double-insert if already at start of line or after <br />)
   return cell
     .replace(/([^\n<])\*\*NOTE:\*\*/g, '$1<br />**NOTE:**')
     .replace(/([^\n<])\*\*CAUTION:\*\*/g, '$1<br />**CAUTION:**')
@@ -13,19 +11,16 @@ function insertBrBeforeNote(cell) {
 
 function convertDashListToUl(cell) {
   const trimmed = cell.trim();
-  // If the cell starts with '- ', treat as a list (even if only one item)
   if (trimmed.startsWith('- ')) {
     const items = cell.split(/ - /).filter(Boolean).map(item => item.trim());
     if (items.length === 0) return insertBrBeforeNote(cell);
-    // Remove leading dash from the first item
     items[0] = items[0].replace(/^- /, '').trim();
     let ul = '<ul>' + items.map(item => `<li>${item}</li>`).join('') + '</ul>';
     ul = insertBrBeforeNote(ul);
     return ul;
   }
-  // Otherwise, if there are at least two '- ' items, treat as a list
   const dashCount = (cell.match(/(^| )- /g) || []).length;
-  if (dashCount < 2) return insertBrBeforeNote(cell);
+  if (dashCount < 1) return insertBrBeforeNote(cell);
   let intro = '';
   let listPart = cell;
   const firstDash = cell.indexOf(' - ');
@@ -35,7 +30,6 @@ function convertDashListToUl(cell) {
   }
   const items = listPart.split(/ - /).filter(Boolean).map(item => item.trim()).filter(Boolean);
   if (items.length < 1) return insertBrBeforeNote(cell);
-  // Remove leading dash from the first item if present
   items[0] = items[0].replace(/^- /, '').trim();
   let ul = '<ul>' + items.map(item => `<li>${item}</li>`).join('') + '</ul>';
   let result = intro ? `${intro} ${ul}` : ul;
@@ -59,7 +53,7 @@ function tableHasDashList(rows) {
     for (const cell of rows[i]) {
       const trimmed = cell.trim();
       if (trimmed.startsWith('- ')) return true;
-      if ((cell.match(/(^| )- /g) || []).length >= 2) return true;
+      if ((cell.match(/(^| )- /g) || []).length >= 1) return true;
     }
   }
   return false;
@@ -67,14 +61,37 @@ function tableHasDashList(rows) {
 
 function formatTable(table) {
   const rows = table.trim().split(/\r?\n/).map(splitRow);
-  if (!tableHasDashList(rows)) {
-    // No dash lists, but still apply NOTE br feature
-    return rows.map(row =>
-      '| ' + row.map(cell => insertBrBeforeNote(cell)).join(' | ') + ' |'
-    ).join('\n');
-  }
+  let changed = false;
   for (let i = 2; i < rows.length; i++) {
-    rows[i] = rows[i].map(cell => convertDashListToUl(cell));
+    const origRow = [...rows[i]];
+    rows[i] = rows[i].map((cell, idx) => {
+      const dashConverted = convertDashListToUl(cell);
+      const noteConverted = insertBrBeforeNote(cell);
+      let newCell = dashConverted;
+      // If dash conversion didn't change the cell, check for note conversion
+      if (dashConverted === cell && noteConverted !== cell) {
+        newCell = noteConverted;
+      }
+      if (!changed && newCell !== cell) {
+        changed = true;
+      }
+      return newCell;
+    });
+  }
+  // Also check header and separator rows for notes
+  for (let i = 0; i < 2 && i < rows.length; i++) {
+    const origRow = [...rows[i]];
+    rows[i] = rows[i].map((cell, idx) => {
+      const noteConverted = insertBrBeforeNote(cell);
+      if (!changed && noteConverted !== cell) {
+        changed = true;
+      }
+      return noteConverted;
+    });
+  }
+  if (!changed) {
+    // No actual conversion happened, return null
+    return null;
   }
   const colWidths = [];
   rows.forEach(row => row.forEach((cell, i) => {
@@ -97,13 +114,20 @@ function formatTable(table) {
 }
 
 function formatMarkdownTables(content) {
-  const tableRegex = /((?:^\|.*(?:\r?\n|$))+)/gm;
-  return content.replace(tableRegex, match => {
-    const lines = match.trim().split(/\r?\n/);
-    if (lines.length < 2) return match;
-    const separator = lines[1].replace(/\|/g, '').trim();
-    if (!/^[-: ]+$/.test(separator)) return match;
-    return formatTable(match);
+  // Match tables and only add a blank line if the table was actually modified
+  return content.replace(/((?:^\|.*(?:\r?\n|$))+)/gm, (match) => {
+    // Preserve original trailing newlines
+    const trailingNewlines = match.match(/(\n*)$/)[0] || '';
+    // Remove trailing whitespace/newlines for processing
+    const tableBlock = match.replace(/\s+$/, '');
+    const newTable = formatTable(tableBlock);
+    if (newTable === null) {
+      // No change, return original table block exactly as it was
+      return match;
+    } else {
+      // Table was changed, ensure a single blank line after
+      return newTable + '\n\n';
+    }
   });
 }
 

@@ -27,11 +27,14 @@ these target hosts requires these permissions. See the
 [Dell Celerra & Dell VNX Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/dellcelerravnx/access.md) topic for
 instructions.
 
-**NOTE:** These permissions are in addition to those needed to either deploy applet scans for
+:::note
+These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
 [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 Troubleshooting Dell Celerra & Dell VNX Denied Access Errors
 
@@ -67,12 +70,15 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Access Analyzer, the credential used by Access
 Analyzer to read the activity log files must have also have this permission.
 
-Dell Celerra & Dell VNX Requirements
+**Dell Celerra & Dell VNX Requirements**
 
 Additionally, the EMC Common Event Enabler (CEE) should be installed on the Windows proxy server,
 where the activity agent is deployed.
 
-**_RECOMMENDED:_** Use the latest available CEE version from the Dell Support website.
+:::info
+Use the latest available CEE version from the Dell Support website.
+:::
+
 
 EMC CEE requires .NET Framework 3.5 to be installed on the Windows proxy server in order for the EMC
 CEE service to start.
@@ -80,7 +86,7 @@ CEE service to start.
 See the [Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/dellcelerravnx/activity/activity.md) topic for
 instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Access Analyzer to read the activity log files must also have

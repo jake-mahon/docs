@@ -14,8 +14,11 @@ entire organization.
 View the analysis tasks by navigating to the **Exchange** > **3. Databases** > **EX_DBTrending** >
 **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_DBTrending Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/databases/dbtrendinganalysis.webp)
 
@@ -34,6 +37,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the EX_DBTrending Job produces
 the following pre-configured report:
 
-| Report                        | Description                                                                                                                                                                                                                                                                                         | Default Tags | Report Elements                                                                                                                  |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Capacity Planning - Databases | This report displays the growth rate trend of your private stores and the growth rate trend of your public stores.  The trend is projected for two months. These reports help identify bad trends in growth on Exchange servers for hard drive space usage is key in avoiding running out of space. | None         | This report is comprised of two elements: - Line Chart – Displays private store trend - Line Chart – Displays public store trend |
+| Report                                        | Description                                                                                                                                                                                                                                                                                         | Default Tags | Report Elements                                                                                                                                        |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Capacity Planning <ul><li>Databases</li></ul> | This report displays the growth rate trend of your private stores and the growth rate trend of your public stores.  The trend is projected for two months. These reports help identify bad trends in growth on Exchange servers for hard drive space usage is key in avoiding running out of space. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays private store trend</li><li>Line Chart – Displays public store trend</li></ul> |
+
+

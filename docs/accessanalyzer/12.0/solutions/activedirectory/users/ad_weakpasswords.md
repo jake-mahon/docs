@@ -66,7 +66,10 @@ Collector Wizard opens.
 
 ![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/optionsweakpassword.webp)
 
-**CAUTION:** Read the warning prior to enabling the cleartext password feature.
+:::warning
+Read the warning prior to enabling the cleartext password feature.
+:::
+
 
 **Step 4 –** On the Options page, configure the scan options by enabling communication with the
 Active Directory via SSL or returning cleartext password entries.
@@ -91,8 +94,11 @@ The Weak Passwords query is now configured.
 Navigate to the **Active Directory** > **2.Users** > **AD_WeakPasswords** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/weakpasswordsanalysis.webp)
 
@@ -110,6 +116,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_UserDelegation Job
 produces the following pre-configured report:
 
-| Report                | Description                                                                                                        | Default Tags | Report Elements                                                                                                                                                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Weak Passwords Checks | This job identifies accounts in the organization with weak passwords that can be easily decrypted or brute forced. | None         | This report is comprised of three elements: - Bar Chart – Displays password weaknesses - Table – Provides details on password weaknesses - Table – Provides details on exceptions and user counts |
+| Report                | Description                                                                                                        | Default Tags | Report Elements                                                                                                                                                                                                               |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weak Passwords Checks | This job identifies accounts in the organization with weak passwords that can be easily decrypted or brute forced. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays password weaknesses</li><li>Table – Provides details on password weaknesses</li><li>Table – Provides details on exceptions and user counts</li></ul> |
+

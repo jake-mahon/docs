@@ -9,11 +9,14 @@ sidebar_position: 50
 Access Analyzer 12.0 uses the Upgrade Wizard. For upgrades from versions of Access Analyzer that are
 no longer supported, contact [Netwrix Support](https://www.netwrix.com/support.html) for assistance.
 
-**NOTE:** If any customizations have been done by a Netwrix Engineer, please ensure custom work is
+:::note
+If any customizations have been done by a Netwrix Engineer, please ensure custom work is
 not lost during the upgrade process. While using the Upgrade Wizard, customizations are archived
 prior to solution upgrades. These archives are available after the solution upgrades have been
 completed. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
+:::
+
 
 The purpose of this document is to provide the basic steps needed for upgrading Access Analyzer and
 the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
@@ -23,7 +26,7 @@ See the [What's New](/docs/accessanalyzer/12.0/whatsnew.md) topic for release in
 
 ## Considerations
 
-NEAUsers Group for Role Based Access
+**NEAUsers Group for Role Based Access**
 
 Access Analyzer 12.0 introduces a new NEAUsers local group for Role Based Access (RBA). This
 replaces using the local users group to assign users the necessary permissions on the Access
@@ -35,11 +38,17 @@ following happens:
   required permissions on the Access Analyzer application (StealthAUDIT) folder
 - Existing configured RBA users are added to this new NEAUsers group
 
-    **NOTE:** The Web Administrator and Report Viewer roles do not require access to the Access
+    :::note
+    The Web Administrator and Report Viewer roles do not require access to the Access
     Analyzer console, so users assigned these roles are not added to the NEAUsers group.
+    :::
 
-    **NOTE:** Adding a user to the NEAUsers group does not apply to the Web Service access type, it
+
+    :::note
+    Adding a user to the NEAUsers group does not apply to the Web Service access type, it
     only gives Console access.
+    :::
+
 
 - The local users group is removed from the Access Analyzer application folder permissions
 
@@ -63,7 +72,7 @@ To grant access to additional Solutions in an existing Access Analyzer installat
 key is required. To update the Access Analyzer license key without installing a new version of the
 Access Analyzer Console, see the [Update License Key](/docs/accessanalyzer/12.0/install/application/updatelicense.md) topic for instructions.
 
-License Key Changes
+**License Key Changes**
 
 The following changes in licensing requires the organization needing a new key:
 

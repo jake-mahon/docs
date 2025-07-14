@@ -16,14 +16,20 @@ Configuration**. The SQL Script Editor opens.
 
 **Step 3 –** At the top of the SQL Script Editor, select **Parameters**.
 
-**NOTE:** The image shown is a generic example. Table names and customizable parameters will change
+:::note
+The image shown is a generic example. Table names and customizable parameters will change
 based on the Job.
+:::
+
 
 ![SQL Script Editor](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/customizableparameters.webp)
 
 **Step 4 –** In the parameters section at the bottom of the editor, find the Value column.
 
-**CAUTION:** Do not change any parameters where the Value states **Created during execution**.
+:::warning
+Do not change any parameters where the Value states **Created during execution**.
+:::
+
 
 - Double-click on the customizable value and change as desired
 

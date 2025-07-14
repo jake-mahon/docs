@@ -15,9 +15,12 @@ You can add additional reports by the following methods:
 - [Create a Custom Report](#create-a-custom-report)
 - [Copy an Existing Report](#copy-an-existing-report)
 
-**NOTE:** It is important to consider whether a report should be added to an existing job, or a new
+:::note
+It is important to consider whether a report should be added to an existing job, or a new
 job created to generate the report. Contact [Netwrix Support](https://www.netwrix.com/support.html)
 for additional information on report outputs.
+:::
+
 
 ## Create a Custom Report
 
@@ -62,9 +65,12 @@ vertical ellipsis menu in the header row of the Reports table and select Paste.
 The copy of the report is added to the Reports table. Reports that are copied maintain the same
 configuration settings as the original report.
 
-**NOTE:** If the report copied to the job’s Reports node has the same name as an existing report,
+:::note
+If the report copied to the job’s Reports node has the same name as an existing report,
 the copied report adds a numerical value to the name sequentially. For example if the existing
 report is named Exceptions Summary, then the new report is named `Exceptions Summary1`.
+:::
+
 
 **Step 3 –** (Optional) Click the **Configure** button next to the report. Use the Report
 Configuration wizard to modify the reports settings. See the

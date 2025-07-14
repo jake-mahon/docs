@@ -15,7 +15,10 @@ Customize the folder search conditions using the following options:
 
 - Message Category – Use the drop-down menu to select a message category
 
-    **NOTE:** Each selection may populate various conditions in the Select Conditions section.
+    :::note
+    Each selection may populate various conditions in the Select Conditions section.
+    :::
+
 
 - Select conditions – Select the checkbox next to any desired filter conditions to apply them to the
   search. The selected conditions then show in the Edit conditions box. Message Conditions include:
