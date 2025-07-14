@@ -15,8 +15,11 @@ Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **AD_CertificateVulnerabilities** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_CertificateVulnerabilities Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatevulnerabilitiesanalysis.webp)
 
@@ -37,6 +40,7 @@ The default analysis task is:
 In addition to the tables and views created by the analysis task, the AD_CertificateVulnerabilities
 job produces the following pre-configured report.
 
-| Report                      | Description                                                                                                                                      | Default Tags | Report Elements                                                                                                                         |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Certificate Vulnerabilities | This report highlights Certificate Authority and template configurations and permissions that create vulnerabilities in the audited environment. | None         | This report is comprised of two elements: - Bar Chart – Displays vulnerabilities by count - Table – Provides details on vulnerabilities |
+| Report                      | Description                                                                                                                                      | Default Tags | Report Elements                                                                                                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Certificate Vulnerabilities | This report highlights Certificate Authority and template configurations and permissions that create vulnerabilities in the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays vulnerabilities by count</li><li>Table – Provides details on vulnerabilities</li></ul> |
+

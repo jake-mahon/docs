@@ -19,41 +19,41 @@ The AnyID_Paycom job is located in the **Jobs** > **AnyID Connectors** job gro
 
 The following are recommended configurations for the AnyID_Paycom job:
 
-Dependencies
+**Dependencies**
 
 None
 
-Targeted Host
+**Targeted Host**
 
 Local Host
 
-Connection Profile
+**Connection Profile**
 
 The AnyID_Paycom job does not require a connection profile.
 
-History Retention
+**History Retention**
 
 Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
 information.
 
-Multi-Console Support
+**Multi-Console Support**
 
 Not supported
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job should be run based on the desired frequency of Sensitive Data Scans.
 
-Query Configuration
+**Query Configuration**
 
 This job contains configurable queries. See the
 [Configure the AnyID_Paycom Job](#configure-the-anyid_paycom-job) topic for additional information.
 
-Analysis Configuration
+**Analysis Configuration**
 
 Run the job with the default analysis configuration settings for best results.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prepare a CSV file from Paycom for import.
 
@@ -128,8 +128,11 @@ The query is now ready to run.
 Navigate to the **Jobs** > **AnyID Connectors** > **AnyID_Paycom** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AnyID_Paycom Job](/img/product_docs/accessanalyzer/12.0/solutions/anyid/paycomanalyses.webp)
 
@@ -143,6 +146,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AnyID_Paycom job produces the following
 preconfigured report:
 
-| Report         | Description                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                              |
-| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Paycom Imports | This report highlights subjects imported from the provided Paycom CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: - Table – Contains information on imported subjects - Bar Chart – Provides information on subject types - Table – Contains information on the attribute summary - Table – Contains information on subject details |
+| Report         | Description                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                                                                |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Paycom Imports | This report highlights subjects imported from the provided Paycom CSV file, and summarizes attribute completion. | None         | This report is comprised of four elements: <ul><li>Table – Contains information on imported subjects</li><li>Bar Chart – Provides information on subject types</li><li>Table – Contains information on the attribute summary</li><li>Table – Contains information on subject details</li></ul> |
+

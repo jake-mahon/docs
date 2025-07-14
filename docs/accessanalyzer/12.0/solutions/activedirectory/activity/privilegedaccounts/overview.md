@@ -13,7 +13,10 @@ potential abuses or unused accounts which can be deprovisioned.
 
 The following Jobs make up the Privileged Accounts Job Group:
 
-**_RECOMMENDED:_** Schedule these jobs to run with the 0.Collection job group.
+:::info
+Schedule these jobs to run with the 0.Collection job group.
+:::
+
 
 - [AD_AdminAccounts Job](/docs/accessanalyzer/12.0/solutions/activedirectory/activity/privilegedaccounts/ad_adminaccounts.md) – Shows all actions taken by domain administrators
   within the environment being compromised

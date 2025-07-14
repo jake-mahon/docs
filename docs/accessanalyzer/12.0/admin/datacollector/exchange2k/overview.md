@@ -15,7 +15,7 @@ The Exchange2K Data Collector has been preconfigured within the Exchange Solutio
 collector and the solution are available with a special Access Analyzer license. See the
 [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - LDAP
 - MAPI
@@ -23,14 +23,14 @@ Protocols
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - TCP 389
 - Optional TCP 445
 
-Permissions
+**Permissions**
 
 - Member of the Exchange Administrator group
 - Domain Admin for AD property collection

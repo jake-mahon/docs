@@ -11,10 +11,13 @@ The Connection tab is for configuring the Connection Profile. Choose to use the 
 the system default (the account being used to run Access Analyzer), or to select another Connection
 Profile.
 
-**NOTE:** It is a best practice to set the Connection Profile at the same level where the job’s host
+:::note
+It is a best practice to set the Connection Profile at the same level where the job’s host
 list is set. For example, if the host list is set under the job group’s **Settings** node, then that
 is where the Connection Profile should be configured. If the host list is set under the **[Job]** >
 **Configure** node, then this is where the Connection Profile should be configured.
+:::
+
 
 ![Connection tab of the Jop Properties](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/properties/viewxml.webp)
 

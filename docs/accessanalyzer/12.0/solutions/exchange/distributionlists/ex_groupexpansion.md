@@ -17,8 +17,11 @@ The EX_GroupExpansion job is located in the Effective Membership job group.
 View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Effective
 Membership** > **EX_GroupExpansion** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_GroupExpansion Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/groupexpansionanalysis.webp)
 

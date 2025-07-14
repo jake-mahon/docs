@@ -13,8 +13,11 @@ The EX_LargestGroups job identifies distribution groups with a high member count
 View the analysis task by navigating to the **Exchange** > **6. Distribution Lists** > **Membership
 Analysis** > **EX_LargestGroups** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_LargestGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/largestgroupsanalysis.webp)
 

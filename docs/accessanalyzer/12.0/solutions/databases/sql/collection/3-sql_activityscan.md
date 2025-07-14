@@ -8,7 +8,7 @@ sidebar_position: 40
 
 The 3-SQL_ActivityScan Job captures user activity from targeted SQL server instances and databases.
 
-Special Dependency
+**Special Dependency**
 
 - SQL Server Audit Specifications to be configured on the target databases
     - Audit destination must be a binary file
@@ -40,8 +40,11 @@ appears.
 
 **Step 3 –** Select the Data Source tab, and click Configure. The SQL Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Options Page](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
 
@@ -77,8 +80,11 @@ The 3-SQL_ActivityScan Job is now ready to run with the customized settings.
 Navigate to the **Databases** > 0.Collection > SQL > 3-SQL_ActivityScan > Configure node and select
 Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/sqljobgroup17.webp)
 

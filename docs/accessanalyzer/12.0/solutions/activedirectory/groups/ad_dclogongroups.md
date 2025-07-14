@@ -16,8 +16,11 @@ limited to only those individuals who require this level of administrative privi
 Navigate to the **Active Directory** > **1.Groups** > **AD_DCLogonGroups** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DCLogonGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/dclogongroupsanalysis.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_CircularNesting Job
 produces the following pre-configured report:
 
-| Report                         | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                             |
-| ------------------------------ | --------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Domain Controller Logon Rights | This report displays effective membership for groups with logon rights to domain controllers. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays largest groups - Table – Provides details on membership - Table – Provides summary of membership |
+| Report                         | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                         |
+| ------------------------------ | --------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Domain Controller Logon Rights | This report displays effective membership for groups with logon rights to domain controllers. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays largest groups</li><li>Table – Provides details on membership</li><li>Table – Provides summary of membership</li></ul> |
+

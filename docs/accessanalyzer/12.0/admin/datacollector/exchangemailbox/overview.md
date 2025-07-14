@@ -14,23 +14,23 @@ the [Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) topic for a
 The ExchangeMailbox Data Collector is available with a special Access Analyzer license. See the
 [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - MAPI
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Exchange Administrator group
 - Organization Management
 - Discovery Management
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
@@ -54,7 +54,7 @@ permissions on the Welcome page.
 
 ![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/welcome.webp)
 
-Connection Setting
+**Connection Setting**
 
 Select one of the following options for the connection setting:
 
@@ -72,7 +72,7 @@ Select one of the following options for the connection setting:
     - Client Access Server – A private store server is needed if the Exchange server only has public
       stores
 
-Test Connection Setting
+**Test Connection Setting**
 
 Enter a server to test the connection string:
 

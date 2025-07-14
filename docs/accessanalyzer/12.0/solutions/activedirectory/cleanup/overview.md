@@ -10,12 +10,18 @@ The **Active Directory** > **Cleanup** Job Group identifies potential stale and 
 computers, and groups as well as issues with group membership. Remediation workflows are included to
 deprovision unnecessary objects.
 
-**CAUTION:** Apply changes only to intended target Active Directory objects, and ensure only the
+:::warning
+Apply changes only to intended target Active Directory objects, and ensure only the
 changes required are enabled. Enabling and executing action modules without consideration can
 negatively impact Active Directory.
+:::
 
-**_RECOMMENDED:_** Run the actions in a test environment before making changes to a production
+
+:::info
+Run the actions in a test environment before making changes to a production
 environment.
+:::
+
 
 ![Cleanup Job Group Overview page](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/overviewpage.webp)
 

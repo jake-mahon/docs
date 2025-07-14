@@ -46,8 +46,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The File System Access Auditor
 Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Applet Settings](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsacappletsettings.webp)
 

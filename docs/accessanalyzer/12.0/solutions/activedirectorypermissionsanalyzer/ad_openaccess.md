@@ -19,8 +19,11 @@ The AD_OpenAccess Job is located in the 5.Open Access Job Group.
 Navigate to the **Active Directory Permissions Analyzer** > **5.Open Access** > **AD_OpenAccess** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_OpenAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/openaccessanalysis.webp)
 
@@ -34,6 +37,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_OpenAccess Job produces
 the following pre-configured report.
 
-| Report                | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                        |
-| --------------------- | ---------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Open Access by Domain | This report highlights instances of open access on AD objects, and summarizes open access by domain. | None         | This report is comprised of three elements: - Bar Chart – Displays open access by domain - Table – Provides details on open access - Table – Provides details on open access by domain |
+| Report                | Description                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                    |
+| --------------------- | ---------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Open Access by Domain | This report highlights instances of open access on AD objects, and summarizes open access by domain. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays open access by domain</li><li>Table – Provides details on open access</li><li>Table – Provides details on open access by domain</li></ul> |
+

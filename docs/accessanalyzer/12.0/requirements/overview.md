@@ -15,7 +15,7 @@ exceptions are covered.
 
 The following servers and applications are required for installation of the application:
 
-Core Components
+**Core Components**
 
 - Access Analyzer Console Server – This is where the v12.0 application is installed.
 - SQL Server for Access Analyzer Database – As a data-intensive application, a well-provisioned,
@@ -24,15 +24,18 @@ Core Components
   Access Analyzer Console server and is a browser-based, interactive dashboard for exploring
   permissions, activity, and sensitive data.
 
-    **NOTE:** The Access Information Center is often installed on the same server as the Access
+    :::note
+    The Access Information Center is often installed on the same server as the Access
     Analyzer application, but it can be installed separately.
+    :::
 
-Exchange Solution-Specific Components
+
+**Exchange Solution-Specific Components**
 
 - Access Analyzer MAPI CDO – This application is installed on the Access Analyzer Console server to
   enable the Settings > Exchange global configuration interface within Access Analyzer.
 
-File System Solution-Specific Components
+**File System Solution-Specific Components**
 
 - Access Analyzer File System Proxy Server – In certain environments, a proxy server may be utilized
   to scan hosts in remote or firewalled sites to increase scan capacity in large environments. This
@@ -41,7 +44,7 @@ File System Solution-Specific Components
   the [Proxy Mode as a Service](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md#proxy-mode-as-a-service) topic
   for server requirements.
 
-SharePoint Solution-Specific Components
+**SharePoint Solution-Specific Components**
 
 - Access Analyzer SharePoint Agent Server – For agent-based scans, this application can be installed
   on the SharePoint application server that hosts the “Central Administration” component of the
@@ -49,7 +52,7 @@ SharePoint Solution-Specific Components
   See the [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for server
   requirements.
 
-Activity Event Data Considerations
+**Activity Event Data Considerations**
 
 - Netwrix Activity Monitor – Access Analyzer depends upon integration with the Activity Monitor for
   monitored event data for several solutions. See the
@@ -61,7 +64,7 @@ Activity Event Data Considerations
   [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
   for installation requirements and information on collecting activity data.
 
-Target Environment Considerations
+**Target Environment Considerations**
 
 The target environment encompasses all servers, devices, or infrastructure to be audited by Access
 Analyzer. Most solutions have additional target requirements.
@@ -77,7 +80,7 @@ Additionally the server must meet these requirements:
 - US English language installation
 - Domain member
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment. See the following topics for
 additional:
@@ -95,7 +98,7 @@ additional:
 - [Unix Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/unix/unix.md#unix-solution-requirements-on-the-access-analyzer-console)
 - [Windows Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/windows/windows.md#windows-solution-requirements-on-the-access-analyzer-console)
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the Console server:
 
@@ -105,7 +108,7 @@ The following are additional requirements for the Console server:
 - Microsoft SQL Server supports TLS 1.2, which requires the Access Analyzer Console server to have
   either SQL Server Native Client 11 or Microsoft OleDB 18 installed
 
-Additional Server Considerations
+**Additional Server Considerations**
 
 The following are recommended for the Console server:
 
@@ -113,15 +116,18 @@ The following are recommended for the Console server:
 - SQL Server Management Studio installed (Optional)
 - Font "arial-unicode-ms" installed (Needed for report Unicode character support)
 
-Permissions for Installation
+**Permissions for Installation**
 
 The following permissions are required to install and use the application:
 
 - Membership in the local Administrators group for the Access Analyzer Console server
 
-    **NOTE:** Role based access can be enabled for a least privilege user model.
+    :::note
+    Role based access can be enabled for a least privilege user model.
+    :::
 
-Supported Browsers
+
+**Supported Browsers**
 
 The following is a list of supported browsers for the Web Console and the Access Information Center:
 
@@ -140,7 +146,7 @@ Additionally the server must meet this requirement:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment. See the following topics for
 additional:
@@ -157,14 +163,14 @@ additional:
 - [Unix Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/unix/unix.md#unix-solution-requirements-on-the-sql-server)
 - [Windows Solution Requirements on the SQL Server](/docs/accessanalyzer/12.0/requirements/windows/windows.md#windows-solution-requirements-on-the-sql-server)
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the SQL Server:
 
 - SQL Server must be equal or newer version than the version to be targeted
 - All SQL Server databases configured to use ‘Simple Recovery Model’
 
-Additional Server Considerations
+**Additional Server Considerations**
 
 The following additional considerations are recommended for the SQL Server:
 
@@ -176,7 +182,7 @@ The following additional considerations are recommended for the SQL Server:
   either SQL Server Native Client 11 or Microsoft OleDB 18 installed.
 - _Optional_: SQL Server Management Studio installed on the Access Analyzer Console server
 
-Database Permissions
+**Database Permissions**
 
 The following permissions are required on the databases:
 

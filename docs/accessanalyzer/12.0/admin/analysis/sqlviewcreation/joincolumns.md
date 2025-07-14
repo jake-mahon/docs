@@ -10,10 +10,13 @@ Use the Join Columns page to select a column from each source table to join toge
 resulting table or view. The options on this page are only enabled if two tables are selected on the
 Input Source page.
 
-**NOTE:** The SQLViewCreation analysis module can join two tables, using a simple equi-join
+:::note
+The SQLViewCreation analysis module can join two tables, using a simple equi-join
 condition of two predicates. For composite joins with two or more tables using a conjunction of
 predicates, use the SQLscripting analysis module. See the
 [SQLscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlscripting.md) topic for additional information.
+:::
+
 
 ![View and Table Creation Analysis Module wizard Join Columns page](/img/product_docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/joincolumns.webp)
 
@@ -30,7 +33,10 @@ The following options are available:
 
 - Join Type – Select a join type from the drop-down:
 
-    **NOTE:** Left is the first table referenced, right is the second table.
+    :::note
+    Left is the first table referenced, right is the second table.
+    :::
+
 
     - Inner Join – Returns records that have matching values in both tables
     - Right Outer Join – Returns all records from the left table, and the matched records from the
@@ -39,9 +45,12 @@ The following options are available:
       left table
     - Full Outer Join – Return all records when there is a match in either left or right table
 
-**NOTE:** The join property is the column found within both tables. The two columns can have
+:::note
+The join property is the column found within both tables. The two columns can have
 different names. However, in the results set, everywhere a value in the first column matches the
 value in the second column, rows from the respective tables are joined together.
+:::
+
 
 After selecting a column from each data source to join, click **Next** to select columns to transfer
 to the resulting table or view.

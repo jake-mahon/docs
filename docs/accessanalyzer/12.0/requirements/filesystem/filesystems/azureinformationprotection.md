@@ -15,7 +15,10 @@ Protection labels and scan protected (i.e. encrypted) files for sensitive data.
 This document provides information needed to properly configure access required by Access Analyzer
 to successfully scan for Azure Information Protection labels in a targeted environment.
 
-**NOTE:** Access Analyzer does not scan for AIP Marking labels, only Protection labels.
+:::note
+Access Analyzer does not scan for AIP Marking labels, only Protection labels.
+:::
+
 
 ## Workflow for Scanning AIP Labels
 
@@ -57,14 +60,20 @@ mode.
 
     [https://www.microsoft.com/en-us/download/details.aspx?id=38396](https://www.microsoft.com/en-us/download/details.aspx?id=38396)
 
-**_RECOMMENDED:_** Read the System Requirements and Install Instructions provided by Microsoft to
+:::info
+Read the System Requirements and Install Instructions provided by Microsoft to
 complete the installation.
+:::
+
 
 ## Create a Service Principal Account using PowerShell
 
 Follow the steps to create a service principal account with a symmetric key to connect to AIP:
 
-**NOTE:** All PowerShell commands should be run in order through PowerShell as an Admin.
+:::note
+All PowerShell commands should be run in order through PowerShell as an Admin.
+:::
+
 
 **Step 1 –** Open up PowerShell (Administrator).
 
@@ -90,8 +99,11 @@ New-MsolServicePrincipal
 **Step 5 –** Take note and save the **Symmetric Key** and **AppPrincipalID** to be used in later
 steps.
 
-**CAUTION:** Do not lose the symmetric key. It is not retrievable again once the PowerShell window
+:::warning
+Do not lose the symmetric key. It is not retrievable again once the PowerShell window
 is closed.
+:::
+
 
 The service principal account with the proper key has been created.
 
@@ -99,7 +111,10 @@ The service principal account with the proper key has been created.
 
 Follow the steps to enable the Service Principal Account in AIP as a Super User:
 
-**NOTE:** All PowerShell commands should be run in order through PowerShell as an Admin.
+:::note
+All PowerShell commands should be run in order through PowerShell as an Admin.
+:::
+
 
 **Step 1 –** In PowerShell, install Microsoft Azure Active Directory Rights Manager (AIPService)
 module:
@@ -195,8 +210,11 @@ For FSAA System Scans:
 - Azure Tenant Mapping page – Add the **AppPrincipalID** (App ID) and the **Domain Name** or
   **Tenant ID**
 
-    _Remember,_ the Azure Tenant Mapping page is only visible when the **Enable scanning of files
+    :::tip
+        Remember, the Azure Tenant Mapping page is only visible when the **Enable scanning of files
     protected by Azure Information Protection** checkbox is selected on the Scan Settings page.
+    :::
+
 
 - Default Scoping Options
 
@@ -218,8 +236,11 @@ For SEEK System Scans:
 - Azure Tenant Mapping page – Add the **AppPrincipalID** (App ID) and the **Domain Name** or
   **Tenant ID**
 
-    _Remember,_ the Azure Tenant Mapping page is only visible when the **Enable scanning of files
+    :::tip
+        Remember, the Azure Tenant Mapping page is only visible when the **Enable scanning of files
     protected by Azure Information Protection** checkbox is selected on the Scan Settings page.
+    :::
+
 
 - Scoping Options – if needed, scope to a specific subset of resources on a selected host
 - Sensitive Data Settings – Select **Decrypt Files Protected by Azure Information Protection**. This

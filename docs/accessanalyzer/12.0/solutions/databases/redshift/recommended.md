@@ -11,11 +11,11 @@ is best practice to assign the host list and the Connection Profile at the data 
 the 0.Collection Job Group. Once these are assigned to the job group, it can be run directly or
 scheduled.
 
-Dependencies
+**Dependencies**
 
 This job group does not have dependencies.
 
-Targeted Host(s)
+**Targeted Host(s)**
 
 The Redshift Job Group has been configured to inherit the host list assignment from the collection
 group level.
@@ -23,7 +23,7 @@ group level.
 The host list assignment should be assigned under the **Redshift** > **0.Collection** >
 **Settings** > **Host List Assignment** node. The **Local host** box is checked by default.
 
-Connection Profile
+**Connection Profile**
 
 The SQL Data Collector requires a specific set of permissions. See the Permissions section for
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
@@ -41,13 +41,16 @@ option and select the appropriate Connection Profile drop-down menu.
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional
 information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Run Order
+**Run Order**
 
 The 0.Collection Jobs must be run first and in order. The other Redshift sub-job groups can be run
 in any order, together or individually, after running the 0.Collection Job Group.
 
-**_RECOMMENDED:_** Run the solution at the top level.
+:::info
+Run the solution at the top level.
+
+:::

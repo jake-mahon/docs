@@ -37,8 +37,11 @@ Password Vault, the following prerequisites must be completed:
         ..\CyberArk\ApplicationPasswordProvider\Utils\NETAimGetAppInfo.exe GetHash /AppExecutablesPattern <DevInstall>\PrivateAssemblies\Stealthbits.StealthAUDIT.Console.dll
         ```
 
-        **_RECOMMENDED:_** Pipe the output hash value to a file to easily copy and paste it to the
+        :::info
+        Pipe the output hash value to a file to easily copy and paste it to the
         CyberArk application.
+        :::
+
 
         See the CyberArk
         [Generate an application hash value](https://docs.cyberark.com/credential-providers/Latest/en/Content/CP%20and%20ASCP/Generating-Application-Hash-Value.htm) article
@@ -81,7 +84,10 @@ Follow the steps to customize the CyberArk Application Id within Access Analyzer
 **Step 1 –** Navigate to the `GlobalOptions.xml` file. Open it with a text editor, for example
 Notepad.
 
-**CAUTION:** Ensure Access Analyzer is closed when modifying this file.
+:::warning
+Ensure Access Analyzer is closed when modifying this file.
+:::
+
 
 ![GlobalOptions.xml file in Notepad](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/globaloptions.webp)
 
@@ -162,7 +168,10 @@ should be populated with:
 | Safe            | Safe              | Vault managing the privileged accounts | Test          |
 | Folder          | Folder            | Folder within Safe                     | Root          |
 
-**_RECOMMENDED:_** Only use one Local Windows Account credential with CyberArk password storage in a
+:::info
+Only use one Local Windows Account credential with CyberArk password storage in a
 Connection Profile. As part of the Access Analyzer to CyberArk integration, the Access Analyzer job
 is stopped immediately if the query from Access Analyzer to CyberArk for the credential fails.
 Therefore, a second credential within the Connection Profile would not be queried.
+
+:::

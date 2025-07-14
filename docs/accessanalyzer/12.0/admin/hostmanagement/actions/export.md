@@ -30,14 +30,14 @@ be in the same format as the data grid.
 
 The following examples show the different export format options.
 
-Example HTML File Export
+**Example HTML File Export**
 
 ![Example HTML File Export](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/exportexamplehtml.webp)
 
-Example XML File Export
+**Example XML File Export**
 
 ![Example XML File Export](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/exportexamplexml.webp)
 
-Example CSV File Export
+**Example CSV File Export**
 
 ![Example CSV File Export](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/exportexamplecsv.webp)

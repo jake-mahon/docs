@@ -14,11 +14,17 @@ a column containing the hosts to be targeted.
 Prior to configuring the Registry Action Module Wizard, scope the source data table to ensure the
 actions apply only to the desired hosts.
 
-**CAUTION:** Unexpected values in the registry can cause major system failures when deleting or
+:::warning
+Unexpected values in the registry can cause major system failures when deleting or
 modifying registry items.
+:::
 
-**_RECOMMENDED:_** Backup the system registry before making changes using the Registry action
+
+:::info
+Backup the system registry before making changes using the Registry action
 module.
+:::
+
 
 ## Registry Action Source Table Configuration
 

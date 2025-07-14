@@ -8,7 +8,7 @@ sidebar_position: 10
 
 The recommended configurations for the Cleanup Job Group are:
 
-Dependencies
+**Dependencies**
 
 The Cleanup job group has the following prerequisites:
 
@@ -26,19 +26,19 @@ The Cleanup job group has the following prerequisites:
 Individual jobs and job groups within the Cleanup Job Group may have their own prerequisites and
 dependencies. See the relevant job or job group topic for additional information.
 
-Target Hosts
+**Target Hosts**
 
 None
 
-Schedule Frequency
+**Schedule Frequency**
 
 Most of the jobs in this job group can be scheduled to run as desired. The AD_Cleanup Progress Job
 should be scheduled to run every day.
 
-History Retention
+**History Retention**
 
 Not supported
 
-Multi-console Support
+**Multi-console Support**
 
 Not supported

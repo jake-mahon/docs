@@ -12,15 +12,15 @@ Collector has been preconfigured for the AWS Solution. Both this data collector 
 available with a special Access Analyzer license. See the
 [AWS Solution](/docs/accessanalyzer/12.0/solutions/aws/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - 443
 
-Ports
+**Ports**
 
 - 443
 
-Permissions
+**Permissions**
 
 - To collect details about the AWS Organization, the following permission is required:
 
@@ -42,7 +42,7 @@ Permissions
     - s3:HeadBucket
     - s3:List\*
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job

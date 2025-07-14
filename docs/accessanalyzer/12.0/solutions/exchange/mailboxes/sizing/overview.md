@@ -9,7 +9,10 @@ sidebar_position: 50
 The Sizing job group provides data collection, analyses, and reports which focus on mailbox sizing,
 growth, and trends.
 
-**_RECOMMENDED:_** Schedule the Sizing job group to run daily at 4 AM.
+:::info
+Schedule the Sizing job group to run daily at 4 AM.
+:::
+
 
 ![Sizing Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/sizing/jobstree.webp)
 

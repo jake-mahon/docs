@@ -14,8 +14,11 @@ servers.
 Navigate to the **Jobs** > **SharePoint** > **8.M365** > **SP_OneDrives** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_ExternalUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/m365/externalusersanalysis.webp)
 
@@ -30,7 +33,8 @@ The default analysis task is:
 In addition to the tables created by the analysis tasks, the SP_TeamsExternalUsers Job produces the
 following preconfigured report:
 
-| Report                 | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                  |
-| ---------------------- | --------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| External User Activity | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: - Bar Chart – Provides information on top users by operation count - Table – Provides summary on external users - Table – Provides details on external user activity |
-| External User Summary  | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: - Bar Chart – Provides information on top users by operation count - Table – Provides summary on external users - Table – Provides details on external user activity |
+| Report                 | Description                                                                                   | Default Tags | Report Elements                                                                                                                                                                                                                              |
+| ---------------------- | --------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| External User Activity | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top users by operation count</li><li>Table – Provides summary on external users</li><li>Table – Provides details on external user activity</li></ul> |
+| External User Summary  | This report analyzes activity performed by external users in scanned SharePoint environments. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top users by operation count</li><li>Table – Provides summary on external users</li><li>Table – Provides details on external user activity</li></ul> |
+

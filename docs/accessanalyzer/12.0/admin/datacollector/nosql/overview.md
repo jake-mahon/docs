@@ -15,16 +15,16 @@ collector and the solution are available with a special Access Analyzer license.
 [MongoDB Solution](/docs/accessanalyzer/12.0/solutions/databases/mongodb/overview.md) topic for additional
 information.
 
-Protocols
+**Protocols**
 
 - TCP/IP
 
-Ports
+**Ports**
 
 - MongoDB Cluster
 - Default port is 27017 (A custom port can be configured)
 
-Permissions
+**Permissions**
 
 - Read Only access to ALL databases in the MongoDB Cluster including:
 
@@ -39,7 +39,7 @@ Permissions
   NOSQL instances when using the Scans full rows for sensitive data option on the Options wizard
   page
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job

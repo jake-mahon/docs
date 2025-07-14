@@ -35,8 +35,11 @@ The options in the Parameters Window are:
   [Add/Edit Variable Window](#addedit-variable-window) topic for additional information.
 - Delete – Delete a parameter
 
-**NOTE:** Only user created parameters can be edited or deleted. Pre-configured parameters cannot be
+:::note
+Only user created parameters can be edited or deleted. Pre-configured parameters cannot be
 edited or deleted.
+:::
+
 
 ### Add/Edit Variable Window
 

@@ -20,8 +20,11 @@ The FS_LeastPrivilegedAccess job is located in the Least Privileged Access job g
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Least Privileged
 Access** > **FS_LeastPrivilegedAccess** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_LeastPrivilegedAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/leastprivilegedaccessanalysis.webp)
 
@@ -48,8 +51,10 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_LeastPrivilegedAccess job
 produces the following pre-configured reports:
 
-| Report                         | Description                                                                                                                            | Default Tags                                          | Report Elements                                                                                                                                                |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Overprovisioning Risk by Share | This report identifies shares with the largest amount of unutilized entitlements and assigns a risk rating to each one.                | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: - Pie Chart – Displays shares by overprovisioning risk - Table – Provides details on shares by overprovisioning risk |
-| Overprovisioning Summary       | This report shows the percentage of all entitlements which are being used. An entitlement refers to one user's access to one folder.   | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: - Pie Chart – entitlements by level of usage - Table – Provides details on entitlements                              |
-| Remediation                    | If all members of a group are not using their full access, then modification to group permissions on the share will be suggested here. | None                                                  | This report is comprised of one element: - Table – Provides details on recommended changes to permissions                                                      |
+| Report                         | Description                                                                                                                            | Default Tags                                          | Report Elements                                                                                                                                                                      |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Overprovisioning Risk by Share | This report identifies shares with the largest amount of unutilized entitlements and assigns a risk rating to each one.                | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Pie Chart – Displays shares by overprovisioning risk</li><li>Table – Provides details on shares by overprovisioning risk</li></ul> |
+| Overprovisioning Summary       | This report shows the percentage of all entitlements which are being used. An entitlement refers to one user's access to one folder.   | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Pie Chart – entitlements by level of usage</li><li>Table – Provides details on entitlements</li></ul>                              |
+| Remediation                    | If all members of a group are not using their full access, then modification to group permissions on the share will be suggested here. | None                                                  | This report is comprised of one element: <ul><li>Table – Provides details on recommended changes to permissions</li></ul>                                                            |
+
+

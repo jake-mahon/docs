@@ -9,32 +9,35 @@ sidebar_position: 10
 The Active Directory > **1.Groups** Job Group has been configured by default to run with the default
 settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 The **.Active Directory Inventory** Job Group needs to be successfully executed prior to running
 this job group.
 
-Target Host
+**Target Host**
 
 This job group does not collect data. No target host is required.
 
-Connection Profile
+**Connection Profile**
 
 This job group does not collect data. No specific Connection Profile is required.
 
-Schedule Frequency
+**Schedule Frequency**
 
 The data analyzed by the **1.Groups** Job Group jobs is collected by the **.Active Directory
 Inventory** Job Group. Therefore, it is recommended to schedule these jobs to run after the .Active
 Directory Inventory job group collection has completed. These jobs can be scheduled to run as
 desired.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
-**_RECOMMENDED:_** Run the jobs in the **1.Groups** Job Group together and in order by running the
+:::info
+Run the jobs in the **1.Groups** Job Group together and in order by running the
 entire job group, instead of the individual jobs.
+:::
 
-Analysis Configuration
+
+**Analysis Configuration**
 
 The **1.Groups** Job Group should be run with the default analysis configurations. Most of the
 analysis tasks are preconfigured for this job group.
@@ -46,10 +49,13 @@ Some analysis tasks have customizable parameters:
 
     - Customize within **.Active Directory Inventory** > **3-AD_Exceptions** Job analysis tasks
 
-        **NOTE:** Changes to an exception’s definition will affect all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will affect all jobs dependent upon that
         exception as well as all Access Information Center Exceptions reports.
+        :::
 
-Workflow
+
+**Workflow**
 
 **Step 1 –** Prerequisite: Run the **.Active Directory Inventory** Job Group.
 

@@ -90,7 +90,10 @@ contains the following wizard pages:
 - [ServiceNow Action: Description](/docs/accessanalyzer/12.0/admin/action/servicenow/description.md)
 - [ServiceNow Action: Summary](/docs/accessanalyzer/12.0/admin/action/servicenow/summary.md)
 
-**NOTE:** Not all pages may be accessible unless the user has a configured ServiceNow account.
+:::note
+Not all pages may be accessible unless the user has a configured ServiceNow account.
+:::
+
 
 The Welcome page displays first in the ServiceNow Action Module Wizard. Review the introductory and
 caution information about the ServiceNow Action Module.

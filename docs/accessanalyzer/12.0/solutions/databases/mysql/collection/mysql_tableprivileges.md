@@ -13,7 +13,10 @@ servers.
 
 The MySQL_TablePrivileges Job uses the SQL Data Collector for queries.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/mysql/collection/querytableprivileges.webp)
 
@@ -26,8 +29,11 @@ The query is:
 Navigate to the **Databases** > **0.Collection** > **MySQL** > **MySQL_TablePrivileges** >
 **Configure** node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/mysql/collection/analysistableprivileges.webp)
 

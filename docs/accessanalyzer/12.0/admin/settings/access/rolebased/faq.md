@@ -9,15 +9,18 @@ sidebar_position: 90
 This topic lists some commonly asked questions about Role Based Access functionality in Access
 Analyzer.
 
-How do locked jobs affect the role functionality?
+**How do locked jobs affect the role functionality?**
 
 A lock on a job represents the approval by the Job Approver, and is therefore deemed acceptable to
 execute. Once a job is locked, Job Builders can no longer modify the job configuration. Furthermore,
 only locked jobs can be run. Therefore, the Job Initiator can only run or schedule jobs which have
 already been locked.
 
-**NOTE:** Locked jobs do not affect the functionality of the Administrator role. See the
+:::note
+Locked jobs do not affect the functionality of the Administrator role. See the
 [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) topic for more information.
+:::
+
 
 How can I make sure that a lock on a job will not get tampered with through the associated XML file?
 
@@ -27,9 +30,12 @@ credentials specified in the Scheduling Service Account will be used to apply th
 the Job Approver no longer needs access to the Jobs folder and cannot manually remove or tamper with
 the associated XML file.
 
-**NOTE:** If using a Job Initiator’s credentials for a Schedule Service Account, all jobs must be
+:::note
+If using a Job Initiator’s credentials for a Schedule Service Account, all jobs must be
 locked in order for them to be executed. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) and
 [Roles & the Schedule Service Account](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/scheduleserviceaccount.md) topics for more information.
+:::
+
 
 Why can the Host Management Administrator not manage settings for the Host Discovery and Host
 Inventory nodes under Settings?
@@ -37,9 +43,12 @@ Inventory nodes under Settings?
 The Host Management Administrator role is designed specifically to access the Host Management node.
 Therefore, this role does not grant access to the global settings menu under the Settings node.
 
-**NOTE:** In order to access this node, the user must have either the Administrator or the Global
+:::note
+In order to access this node, the user must have either the Administrator or the Global
 Options Administrator role. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) topic for more
 information.
+:::
+
 
 What rights do I need to give the user on the local machine in order to use Access Analyzer?
 
@@ -60,9 +69,12 @@ is also true if a user has been given an additional role or removed from role me
 capabilities of the new role will not come into effect until the Access Analyzer application has
 been restarted.
 
-**NOTE:** See the
+:::note
+See the
 [Edit Role Members' Responsibilities](assignroles.md#edit-role-members-responsibilities) and
 [Delete Role Member](assignroles.md#delete-role-member) topics for more information.
+:::
+
 
 I locked a job, but when going back to it, it appears to be unlocked. Why?
 
@@ -73,10 +85,13 @@ Role Based Access. Thus, if a locked job is modified by an Administrator, the jo
 unlocked. This event will be logged as a job-change related event by Administrator in the Access
 Analyzer Event Log.
 
-**NOTE:** If using a Job Initiator’s credentials for the Schedule Service Account, all jobs must be
+:::note
+If using a Job Initiator’s credentials for the Schedule Service Account, all jobs must be
 locked in order for them to execute. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md),
 [Workflow with Role Based Access Enabled](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/workflow.md), and [Roles and the Event Log](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/eventlog.md)
 topics for more information.
+:::
+
 
 What should be the group type when assigning Role Based Access to an AD group in a multi-domain
 environment?

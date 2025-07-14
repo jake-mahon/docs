@@ -25,10 +25,13 @@ The 1-SPSEEK_SystemScans Job has been preconfigured to run with the default sett
 Data Collector category of Scan for Sensitive Content, which is not visible within the SharePoint
 Access Auditor Data Collector Wizard when opened from within this job.
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 Follow the steps to set any desired customizations.
 
@@ -73,10 +76,13 @@ setting is to **Don’t process files larger than: 2 MB** and to **Scan typical 
 (recommended, fastest)**. These settings can be customized to adjust for scan time or database size.
 Click **Next**.
 
-**NOTE:** The typical documents for this setting are files with the following extensions: .doc,
+:::note
+The typical documents for this setting are files with the following extensions: .doc,
 .docx, .msg, .odt, .pages, .rtf, .wpd, .wps, .abw, .bib, .dotx, .eml, .fb2, .fdx, .gdoc, .lit, .sig,
 .sty, .wps, .wpt, .yml, .tex, .pdf, .csv, .xlr, .xls, .xlsx, .gsheet, .nb, .numbers, .ods, .qpw,
 .sdc, .wks, .xlsb, .xltm, .xltx, .aws, .fods, .ots, .rdf, .sxc, .uos, .xlsm, .txt
+:::
+
 
 ![Select DLP Criteria Page of the SPAA Data Collector Wizard](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
 
@@ -87,7 +93,10 @@ remove criteria as desired by either manually selecting criteria or using the **
 [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
 for additional information.
 
-**CAUTION:** Do not configure the options on the Results page.
+:::warning
+Do not configure the options on the Results page.
+:::
+
 
 **Step 10 –** On the Results page, all Available Properties are selected by default. Click **Next**.
 

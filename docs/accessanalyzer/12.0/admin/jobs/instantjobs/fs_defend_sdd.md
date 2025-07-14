@@ -66,7 +66,10 @@ The default analysis tasks are:
 Navigate to the **Jobs** > **FS_DEFEND_SDD** > **Configure** node and select **Actions** to view the
 actions.
 
-**CAUTION:** This action is enabled by default.
+:::warning
+This action is enabled by default.
+:::
+
 
 ![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/actiontasks.webp)
 

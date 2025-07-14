@@ -15,7 +15,7 @@ environment requirements.
 
 ## Unix Solution Requirements on the Access Analyzer Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -27,7 +27,7 @@ These are dependent upon the size of the target environment:
 
 ## Unix Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

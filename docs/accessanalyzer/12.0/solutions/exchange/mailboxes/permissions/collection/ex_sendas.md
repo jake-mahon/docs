@@ -24,18 +24,24 @@ The following query is included in the EX_SendAs Job:
       [Scope the ExchangePS Data Collector](/docs/accessanalyzer/12.0/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
-    **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
+    :::note
+    The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
     topic for credential requirements.
+    :::
+
 
 ## Analysis Tasks for the EX_SendAs Job
 
 View the analysis task by navigating to the **Exchange** > **4. Mailboxes** > **Permissions** >
 **0.Collection** > **EX_SendAs** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_SendAs Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/permissions/collection/sendasanalysis.webp)
 

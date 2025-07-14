@@ -20,8 +20,11 @@ The SP_ProbableOwner Job is located in the 5.Probable Owner Job Group.
 Navigate to the **Jobs** > **SharePoint** > **5.Probable Owner** >
 **SP_ProbableOwner** >**Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_ProbableOwner Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/probableowneranalysis.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the table created by the analysis task which displays probable ownership, the
 SP_ProbableOwner Job produces the following pre-configured report:
 
-| Report                        | Description                                                                                         | Default Tags | Report Elements                                                                        |
-| ----------------------------- | --------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| SharePoint Probable Ownership | This report identifies probable owners based on management structure, file ownership, and activity. | None         | This report is comprised of one element: - Table – Provides details on probable owners |
+| Report                        | Description                                                                                         | Default Tags | Report Elements                                                                                        |
+| ----------------------------- | --------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------ |
+| SharePoint Probable Ownership | This report identifies probable owners based on management structure, file ownership, and activity. | None         | This report is comprised of one element: <ul><li>Table – Provides details on probable owners</li></ul> |
+

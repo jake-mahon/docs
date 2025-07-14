@@ -12,20 +12,20 @@ designed to provide essential user and group membership information from a NIS d
 principals to Windows-style SIDs. This provides valuable information to the File Systems Solution
 when auditing NFS shares. This information can also be used in the Unix Solution Set.
 
-Supported Platforms
+**Supported Platforms**
 
 - NIS domains
 
-Permissions
+**Permissions**
 
 - No special permissions are needed aside from access to a NIS server
 
-Ports
+**Ports**
 
 - TCP 111 or UDP 111
 - Randomly allocated high TCP ports
 
-Location
+**Location**
 
 The .NIS Inventory Solution is a core component of all Access Analyzer installations. It can be
 installed from the Access Analyzer Instant Job Wizard..

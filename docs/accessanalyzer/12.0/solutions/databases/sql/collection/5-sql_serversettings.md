@@ -46,8 +46,11 @@ Properties. The Query Properties window will appear.
 **Step 3 –** Select the Data Source tab, and click Configure. The SQL Data Collector Wizard will
 open.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Instance Filters](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
@@ -82,8 +85,11 @@ Query Properties window will appear.
 **Step 3 –** Select the Data Source tab, and click Configure. The SQL Data Collector Wizard will
 open.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![Filter Page](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 

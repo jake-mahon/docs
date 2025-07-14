@@ -24,7 +24,7 @@ See the following topics for target environment requirements:
 
 ## Exchange Solution Requirements on the Access Analyzer Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -35,19 +35,25 @@ These are dependent upon the size of the target environment:
 | Cores       | 8 CPU                     | 4 CPU                   |
 | Disk Space  | 120 GB                    | 120 GB                  |
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For
 example, if the job is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are
 required (8x2=16).
+:::
 
-Sensitive Data Discovery Auditing Requirement
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+**Sensitive Data Discovery Auditing Requirement**
+
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Permissions to Run Exchange Scans
+
+**Permissions to Run Exchange Scans**
 
 The following are additional requirements for the Access Analyzer Console server specific to running
 the Exchange Solution:
@@ -62,7 +68,7 @@ the Exchange Solution:
 - For Targeting Exchange Online – PowerShell Execution Policy set to unrestricted for both 64-bit
   and 32-bit versions
 
-Exchange Online Modern Authentication
+**Exchange Online Modern Authentication**
 
 The following prerequisites are required to use Modern Authentication for Exchange Online in Access
 Analyzer.
@@ -79,7 +85,7 @@ Analyzer.
 
 ## Exchange Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

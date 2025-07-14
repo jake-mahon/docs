@@ -9,29 +9,29 @@ sidebar_position: 40
 There are several special features and functions available for jobs and job components with which
 Access Analyzer users should be familiar.
 
-View XML Files
+**View XML Files**
 
 Job, query, analysis, and action property windows all have the **View XML** option. These provide
 the ability to edit through an XML text window.
 
-Open Explore Folder
+**Open Explore Folder**
 
 Access Analyzer users can directly open a selected job or job group folder from the Jobs tree using
 the **Explore Folder** option in the right-click menu.
 
-Publish Reports after Report Generation
+**Publish Reports after Report Generation**
 
 Reports that have been generated but not published can be sent to the Web Console using the
 **Publish** option in the right-click menu from the selected Jobs tree, job group, or job node. See
 the [Publish Reports Window](#publish-reports-window) topic for additional information.
 
-Job Configuration Change Tracking
+**Job Configuration Change Tracking**
 
 Jobs configuration changes can be tracked using the **Changes** option in the right-click menu from
 the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/accessanalyzer/12.0/admin/jobs/overview.md#changes-window)
 topic for additional information.
 
-Job Export
+**Job Export**
 
 Jobs can be exported to a ZIP file using the **Export** option in the right-click menu from the
 selected job group or job node. See the

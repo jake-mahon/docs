@@ -14,8 +14,11 @@ INSERT, DELETE, TRUNCATE) against objects containing sensitive data.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_SensitiveDataActivity** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup30.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the Oracle_SensitiveDataActivity
 Job produces the following pre-configured report.
 
-| Report                  | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                            |
-| ----------------------- | --------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sensitive Data Activity | This report highlights events in databases containing sensitive data. | None         | This report is comprised of three elements: - Bar Chart – Displays top users by instance - Table – Provides details on user activity by instance - Table – Provides details on sensitive data activity details by database |
+| Report                  | Description                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                        |
+| ----------------------- | --------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sensitive Data Activity | This report highlights events in databases containing sensitive data. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by instance</li><li>Table – Provides details on user activity by instance</li><li>Table – Provides details on sensitive data activity details by database</li></ul> |
+

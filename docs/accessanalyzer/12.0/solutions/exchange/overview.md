@@ -12,7 +12,7 @@ focus include Audit and Compliance, Maintenance and Cleanup, Metrics and Capacit
 Health, Public Folders and Configuration Baseline. Sensitive Data Discovery searches mailboxes and
 public folders to discover where sensitive information of any type exists.
 
-Supported Platforms
+**Supported Platforms**
 
 - Exchange Online (Limited)
 
@@ -25,7 +25,7 @@ See the
 [Exchange Support and Permissions Explained](/docs/accessanalyzer/12.0/requirements/exchange/support/support.md) topic
 for additional information.
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/target.md)
@@ -33,18 +33,21 @@ and
 [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/exchangeonline.md)
 topics for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For example, if the job is
 configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The Exchange Solution requires a special Access Analyzer license. It can be installed from the
 Access Analyzer Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the
@@ -76,7 +79,10 @@ The following job groups comprise the Exchange Solution:
 - [4.Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/overview.md) – Comprised of data collection, analyses, and
   reports around mailbox features, logons, permissions, and sizing
 
-    **CAUTION:** It is not recommended to run this job group at this job group level.
+    :::warning
+    It is not recommended to run this job group at this job group level.
+    :::
+
 
     - See the [Recommended Configurations for the 4. Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/recommended.md)
       topic for this job group. All jobs within this group are compatible with the Office 365

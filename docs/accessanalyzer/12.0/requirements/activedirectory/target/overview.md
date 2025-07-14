@@ -26,11 +26,14 @@ Ports vary based on the data collector being used. See the
 
 ## Activity Auditing Permissions
 
-**NOTE:** Active Directory domain activity events can also be monitored through Netwrix Threat
+:::note
+Active Directory domain activity events can also be monitored through Netwrix Threat
 Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to
 the data for Access Analyzer Active Directory Activity scans. See the
 [Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/threatprevention.md)
 topic for additional information.
+:::
+
 
 Requirements to Deploy the AD Agent on the Domain Controller
 
@@ -42,19 +45,22 @@ server:
 - Membership in the Domain Administrators group
 - READ and WRITE access to the archive location for Archiving feature only
 
-**NOTE:** For monitoring an Active Directory domain, the AD Agent must be installed on all domain
+:::note
+For monitoring an Active Directory domain, the AD Agent must be installed on all domain
 controllers within the domain to be monitored.
+:::
+
 
 For integration between the Activity Monitor and Access Analyzer, the credential used by Access
 Analyzer to read the activity log files must have also have this permission.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Access Analyzer to read the activity log files must also have
 READ and WRITE permissions on the archive location.
 
-Integration with Access Analyzer
+**Integration with Access Analyzer**
 
 See the [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/activity.md) topic for target environment
 requirements.

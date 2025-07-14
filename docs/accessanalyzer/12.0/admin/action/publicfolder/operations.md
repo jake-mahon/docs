@@ -40,7 +40,10 @@ Rename folders using the following options:
 
 - Select a field from the dropdown menu and click **Add** to add it to the list below
 
-    **NOTE:** The available fields vary based on the source table.
+    :::note
+    The available fields vary based on the source table.
+    :::
+
 
 - New name – Enter the name to replace an existing folder name
 
@@ -86,10 +89,13 @@ Change permissions using the following options:
         - Folder visible – User can view the specified public folder but cannot read or edit the
           items within
 
-        **NOTE:** Different permissions become automatically selected based on which permission
+        :::note
+        Different permissions become automatically selected based on which permission
         level is selected. To override this default, select the checkbox of the unwanted permission
         to deselect it. If a desired checkbox is blocked by a black square, click the square to
         unblock the checkbox. The checkbox can then be selected or unselected.
+        :::
+
 
     - Edit items – Use the drop-down menu to determine user editing permissions from the following:
 
@@ -125,8 +131,11 @@ Select attributes using the following options:
 - Select a checkbox to set any custom attribute list
 - Select a Field from the dropdown list and click **Add** to add the field to the custom attribute
 
-    **NOTE:** Multiple fields may be added to a custom attribute. Fields added to a custom attribute
+    :::note
+    Multiple fields may be added to a custom attribute. Fields added to a custom attribute
     can be modified or deleted manually.
+    :::
+
 
 ## Replicas Window
 

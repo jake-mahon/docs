@@ -23,7 +23,7 @@ endpoint, such as Activity Monitor agent.
 Complete the following checklist prior to configuring Activity Monitor to monitor the host.
 Instructions for each item of the checklist are detailed within the following sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Prior to beginning the deployment, gather the following:
 
@@ -34,17 +34,23 @@ Checklist Item 1: Plan Deployment
 
         - [https://www.dell.com/support/home/en-us/](https://www.dell.com/support/home/en-us/)
 
-**_RECOMMENDED:_** You can achieve higher throughput and fault tolerance by monitoring the
+:::info
+You can achieve higher throughput and fault tolerance by monitoring the
 Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monitor Agent. The
 activity will be evenly distributed between the pairs.
+:::
 
-Checklist Item 2: [Install Dell CEE](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/dellpowerscale/activity/installcee.md)
+
+**Checklist Item 2: [Install Dell CEE](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/dellpowerscale/activity/installcee.md)**
 
 - Dell CEE should be installed on a Windows or a Linux server.
 
-    **_RECOMMENDED:_** Dell CEE can be installed on the same server as the Activity Agent, or on a
+    :::info
+    Dell CEE can be installed on the same server as the Activity Agent, or on a
     different Windows or Linux server. If CEE is installed on the same server, the Activity Agent
     can configure it automatically.
+    :::
+
 
 - Important:
 
@@ -106,14 +112,14 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
 
 For automatic configuration, an account needs to be provisioned with the following privileges:
 
-Read-only Privileges
+**Read-only Privileges**
 
 - ISI_PRIV_LOGIN_PAPI
 - ISI_PRIV_AUTH
 - ISI_PRIV_SMB
 - ISI_PRIV_NFS
 
-Read-Write Privilege
+**Read-Write Privilege**
 
 - ISI_PRIV_AUDIT
 

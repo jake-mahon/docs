@@ -17,8 +17,11 @@ The EX_OWATraffic job is located in the Outlook Web Access Job Group.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **Outlook Web
 Access** > **EX_OWATraffic** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified ordeselected.
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified ordeselected.
 There is one that is deselected by default, as it is for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the EX_OWATraffic Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/casmetrics/owatrafficanalysis.webp)
 
@@ -42,8 +45,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete all History** option. This analysis task is for
+:::warning
+Do not select the **00. Delete all History** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 -   0. Deletes all History - LEAVE UNCHECKED – Clears all historical data
     - See the
@@ -53,7 +59,8 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 In addition to the tables and views created by the analysis tasks, the EX_OWATraffic Job produces
 the following pre-configured reports:
 
-| Report                                 | Description                                              | Default Tags | Report Elements                                                                                                                                                                |
-| -------------------------------------- | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Top Servers by Average Load            | This report shows servers with the highest average load. | None         | This report is comprised of two elements: - Bar Chart – Displays top servers by average daily user count - Table – Provides details on top servers by average daily user count |
-| Top Users (Outlook Web Access Traffic) | This report identifies top users of OWA.                 | None         | This report is comprised of two elements: - Bar Chart – Displays top users - Table – Provides details on top users                                                             |
+| Report                                 | Description                                              | Default Tags | Report Elements                                                                                                                                                                                      |
+| -------------------------------------- | -------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top Servers by Average Load            | This report shows servers with the highest average load. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top servers by average daily user count</li><li>Table – Provides details on top servers by average daily user count</li></ul> |
+| Top Users (Outlook Web Access Traffic) | This report identifies top users of OWA.                 | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users</li><li>Table – Provides details on top users</li></ul>                                                             |
+

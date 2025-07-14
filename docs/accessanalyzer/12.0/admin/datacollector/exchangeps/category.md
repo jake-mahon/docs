@@ -52,7 +52,10 @@ focus:
     - Mailbox Permissions – Collects permissions on mailbox folders (Exchange 2010 or later)
     - Mailbox Databases – Collects information on mailbox databases
 
-        **NOTE:** This option is not available for Office 365 target environments
+        :::note
+        This option is not available for Office 365 target environments
+        :::
+
 
     - Mailbox Rights – Collects information on mailbox rights
     - Mailbox AD Rights – Collects information on mailbox Active Directory rights
@@ -94,7 +97,7 @@ Each category has specific requirements and capabilities per auditing focus:
 
 Mailbox Information audit focus contains the following categories:
 
-Mailboxes
+**Mailboxes**
 
 This category gathers high-level statistics about the Mailboxes in the environment. It can be run
 with quick properties or all properties. The quick properties are the first 14 properties and
@@ -116,7 +119,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox Permissions
+**Mailbox Permissions**
 
 This category returns Mailbox Folder permissions and folder level statistics about the mailboxes.
 The PowerShell queries this category runs are as follows:
@@ -137,7 +140,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox Databases
+**Mailbox Databases**
 
 This category returns information about the Mailbox Databases which reside in the organization. The
 PowerShell query this category runs is as follows:
@@ -155,7 +158,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox Rights
+**Mailbox Rights**
 
 This category returns Mailbox Rights assigned to each Mailbox, such as Full Mailbox Access. The
 PowerShell query this category runs is as follows:
@@ -173,7 +176,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox AD Rights
+**Mailbox AD Rights**
 
 This category returns information about the Mailbox Databases which reside in the organization. The
 PowerShell query this category runs is as follows:
@@ -191,7 +194,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox Search
+**Mailbox Search**
 
 This category provides the capability to search the Mailbox for any criteria configured inside the
 data collector. The PowerShell queries this category runs are as follows:
@@ -212,7 +215,7 @@ for configuration:
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Mailbox Access Logons
+**Mailbox Access Logons**
 
 This category returns the Mailbox Access Auditing log details. Mailbox Access Auditing does need to
 be enabled on the Mailboxes in order for this job to return any information. The PowerShell queries
@@ -237,7 +240,7 @@ for configuration:
 
 Exchange Organization audit focus contains the following category:
 
-Exchange Users
+**Exchange Users**
 
 This category returns information about the Mail-Enabled Users in the Exchange environment. The
 PowerShell queries this category runs are as follows:
@@ -262,7 +265,7 @@ for configuration:
 
 Exchange ActiveSync audit focus contains the following category:
 
-Exchange ActiveSync Mobile Devices
+**Exchange ActiveSync Mobile Devices**
 
 This category returns ActiveSync device properties and the Exchange Mailboxes they are associated
 to. The PowerShell queries this category runs are as follows:
@@ -285,7 +288,7 @@ for configuration:
 
 Public Folder Information audit focus contains the following categories:
 
-Public Folder Content
+**Public Folder Content**
 
 This category returns general statistics and sizing for the public folder environment. When it is
 selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
@@ -296,7 +299,7 @@ selected, the following ExchangePS Data Collector Wizard pages are available for
 - [ExchangePS: Error Logging](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/errorlogging.md)
 - [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md)
 
-Public Folder Permissions
+**Public Folder Permissions**
 
 This category returns permissions information for the public folder environment. When it is
 selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
@@ -311,7 +314,7 @@ selected, the following ExchangePS Data Collector Wizard pages are available for
 
 Office 365 audit focus contains the following category:
 
-Mail Flow Metrics
+**Mail Flow Metrics**
 
 This category returns information about mail flow in the target Exchange Online environment. When it
 is selected, the following ExchangePS Data Collector Wizard pages are available for configuration:
@@ -327,7 +330,7 @@ is selected, the following ExchangePS Data Collector Wizard pages are available 
 
 Domain Information audit focus contains the following category:
 
-Domains
+**Domains**
 
 This category returns information about domains in the Exchange environment. When it is selected,
 the following ExchangePS Data Collector Wizard pages are available for configuration:

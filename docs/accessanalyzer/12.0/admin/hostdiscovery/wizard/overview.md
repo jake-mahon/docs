@@ -37,5 +37,8 @@ for hosts. Hosts are discoverable using one of the following options:
 - [Import From a Local CSV File](/docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/csv.md) – Imports a host list from a specified CSV file
 - [Import From a Database](/docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/database.md) – Imports a host list from a specified SQL Server database
 
-**NOTE:** The Advanced Options checkbox in the lower-left corner is a legacy item and should not be
+:::note
+The Advanced Options checkbox in the lower-left corner is a legacy item and should not be
 selected.
+
+:::

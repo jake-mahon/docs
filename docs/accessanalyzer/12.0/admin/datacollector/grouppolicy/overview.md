@@ -20,18 +20,18 @@ Access Analyzer licenses. See the following topics for additional information:
 - [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md)
 - [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md)
 
-Protocols
+**Protocols**
 
 - LDAP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group (if targeting domain controllers)
 - Member of the Local Administrators group

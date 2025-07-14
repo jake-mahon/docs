@@ -126,15 +126,21 @@ vserver cifs share access-control create -share c$ -user-or-group [USER_OR_GROUP
 
 If an existing ACE needs to be modified, the following command should be used:
 
-**CAUTION:** The following command will overwrite an existing ACE. For example, it is possible to
+:::warning
+The following command will overwrite an existing ACE. For example, it is possible to
 downgrade a user with Full_Control to Read, or vice versa.
+:::
+
 
 ```
 vserver cifs share access-control modify -share c$ -user-or-group [USER_OR_GROUP_NAME] -permission Read -vserver [SVM_NAME]
 ```
 
-**NOTE:** If users would prefer to avoid permissioning C$, then there is an alternative. Users can
+:::note
+If users would prefer to avoid permissioning C$, then there is an alternative. Users can
 instead give the SVM's Backup Operators group read-only access to each share to be scanned.
+:::
+
 
 In order to utilize Access Analyzer’s LAT Preservation (Last Access Time) feature during sensitive
 data scans and metadata tag collection, applying ONTAP’s SeRestorePrivilege to the service account
@@ -176,8 +182,11 @@ Use the following commands to give the Service Account Read-only Access to NetAp
 cifs share access-control create ‑vserver [SVM_NAME] ‑share c$ ‑user-or-group [USER_OR_GROUP_NAME] ‑permission Read
 ```
 
-**NOTE:** In the previous command, "create" needs to be replaced with "modify" if the CIFS share ACE
+:::note
+In the previous command, "create" needs to be replaced with "modify" if the CIFS share ACE
 already exists for the share/user combination.
+:::
+
 
 Use the following commands to verify the results from the previous command:
 
@@ -190,10 +199,13 @@ cifs share access-control show ‑vserver [SVM_NAME] ‑share c$
 The following is a list of example commands that can be used to configure a NetApp export policy to
 scan a volume via NFSv3 using the Access Analyzer File System Solution.
 
-**CAUTION:** The export policy for a volume's parent (ex. the SVM's root volume), or the export
+:::warning
+The export policy for a volume's parent (ex. the SVM's root volume), or the export
 policy for a qtree's parent, must have access rights that are equal or wider in scope to the export
 policy for the target volume/qtree. If Access Analyzer cannot access all segments of a target
 volume/qtree's junction path, then NFS access will be denied.
+:::
+
 
 Use the following command to create an export policy:
 

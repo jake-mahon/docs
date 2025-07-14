@@ -18,8 +18,11 @@ The EX_RPCTraffic job is located in the Outlook Anywhere job group.
 View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** > **Outlook
 Anywhere** > **EX_RPCTraffic** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
 
@@ -43,8 +46,11 @@ The following analysis tasks are selected by default:
 The following analysis tasks deletes table data from data collection and analysis jobs. These
 analysis tasks should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete all History** option. This analysis task is for
+:::warning
+Do not select the **00. Delete all History** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 -   0. Delete all History - LEAVE UNCHECKED – Clears all historical data
 
@@ -55,7 +61,8 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 In addition to the tables and views created by the analysis tasks, the EX_RPCTraffic Job produces
 the following pre-configured reports:
 
-| Report                                                                 | Description                                              | Default Tags | Report Elements                                                                                                                                                                        |
-| ---------------------------------------------------------------------- | -------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Top Servers by Average Load ( Top Servers by Average Daily User Count) | This report shows servers with the highest average load. | None         | This report is comprised of two elements: - Stacked Bar Chart – Displays top servers by average daily user count - Table – Provides details on top servers by average daily user count |
-| Top Users (Outlook Anywhere Traffic)                                   | This report identifies top users of Outlook Anywhere.    | None         | This report is comprised of two elements: - Bar Chart – Displays top users - Table – Provides details on top users                                                                     |
+| Report                                                                 | Description                                              | Default Tags | Report Elements                                                                                                                                                                                              |
+| ---------------------------------------------------------------------- | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Top Servers by Average Load ( Top Servers by Average Daily User Count) | This report shows servers with the highest average load. | None         | This report is comprised of two elements: <ul><li>Stacked Bar Chart – Displays top servers by average daily user count</li><li>Table – Provides details on top servers by average daily user count</li></ul> |
+| Top Users (Outlook Anywhere Traffic)                                   | This report identifies top users of Outlook Anywhere.    | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users</li><li>Table – Provides details on top users</li></ul>                                                                     |
+

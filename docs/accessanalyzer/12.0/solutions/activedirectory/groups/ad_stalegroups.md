@@ -15,8 +15,11 @@ days, or are disabled. These group memberships should be reviewed and possibly r
 Navigate to the **Active Directory** > **1.Groups** > **AD_StaleGroups** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_StaleGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/stalegroupsanalysis.webp)
 
@@ -32,6 +35,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_StaleGroups Job produces
 the following pre-configured report:
 
-| Report                                           | Description                                                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                             |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Effective Membership (A.K.A. Stale Groups) | This report identifies groups with stale effective membership. A stale user is defined as someone who has not logged into the domain in over 60 days, is expired, or currently disabled. | None         | This report is comprised of three elements: - Bar Chart – Displays group membership - Table – Provides details on membership - Table – Provides details on group membership |
+| Report                                           | Description                                                                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                         |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Effective Membership (A.K.A. Stale Groups) | This report identifies groups with stale effective membership. A stale user is defined as someone who has not logged into the domain in over 60 days, is expired, or currently disabled. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays group membership</li><li>Table – Provides details on membership</li><li>Table – Provides details on group membership</li></ul> |
+

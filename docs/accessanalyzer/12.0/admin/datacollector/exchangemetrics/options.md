@@ -28,7 +28,10 @@ the category selected. It is a wizard page for the categories of:
 
 Select the checkbox of any of the following options to configure the query:
 
-**NOTE:** Available options vary depending on Category selected.
+:::note
+Available options vary depending on Category selected.
+:::
+
 
 - Host-side Cleanup
 

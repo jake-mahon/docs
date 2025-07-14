@@ -43,9 +43,12 @@ with Sensitive Data Collection category selected.
 **Step 5 –** To modify sensitive data scan options, select the desired scan options. See the
 [SQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/sql/options.md) page for additional information.
 
-**CAUTION:** The Sensitive Data Scan Settings are preconfigured for optimal performance for a
+:::warning
+The Sensitive Data Scan Settings are preconfigured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
+:::
+
 
 **Step 6 –** Click **Next**. The Select Criteria view appears.
 
@@ -54,10 +57,13 @@ may significantly increase scan time.
 **Step 7 –** To modify criteria, click on **Use the following selected criteria:** and select your
 choices. By default, the Sensitive Data Scan job is set to **Use Global Criteria**.
 
-**NOTE:** For more information on adding or deleting criteria, navigate to the
+:::note
+For more information on adding or deleting criteria, navigate to the
 [SQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/sql/criteria.md) page or See the
 [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
+:::
+
 
 **Step 8 –** Click **Next**. The Filters view appears.
 
@@ -65,8 +71,11 @@ topic for additional information.
 
 **Step 9 –** Click **Connections** to open the Manage Connections window.
 
-**NOTE:** SQL databases must be added to the query before they can be scanned. Before you can add a
+:::note
+SQL databases must be added to the query before they can be scanned. Before you can add a
 query, you must establish a connection to the database.
+:::
+
 
 ![Manage Connections](/img/product_docs/accessanalyzer/12.0/solutions/databases/db2/collection/sensitivedataconnection.webp)
 
@@ -86,8 +95,11 @@ the new connection. Once validated, click **Create New Connection** to finalize 
 **Step 12 –** Navigate to the Filter page. Select Only select database objects or **All database
 objects**. Collection queries are configured by default to target Only select database objects.
 
-**NOTE:** For more information on filtering, see the
+:::note
+For more information on filtering, see the
 [SQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/sql/filter.md) page.
+:::
+
 
 **Step 13 –** Click Retrieve. The Available database objects box will populate.
 
@@ -111,8 +123,11 @@ The 1-Db2_SensitsveDataScan Job is now ready to run with the customized settings
 Navigate to the **Databases** > **0.Collection** > **Db2** > **1-Db2_SensitiveDataScan** >
 **Configure** node and select **Analysis** to view the Analysis Tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/db2/collection/sensitivedatascananalysis.webp)
 
