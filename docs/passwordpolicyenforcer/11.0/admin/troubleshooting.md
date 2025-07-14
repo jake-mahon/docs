@@ -35,8 +35,7 @@ later.
 Use the Test Policies page to test a password for the user. Click the **Log** tab to see if a
 password policy is assigned to the user.
 
-Make sure that the Password Policy Server is enabled. See the
-[Configuration Console](/docs/passwordpolicyenforcer/11.0/administration/configconsoleoverview.md) topic for additional information.
+Make sure that the Password Policy Server is enabled.
 
 Make sure that the Password Policy Client is enabled. See
 [Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md) topic for additional information.

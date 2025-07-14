@@ -69,11 +69,7 @@ these messages are customizable.
 
 The Password Policy Client does not modify any Windows system files, and you do not have to install
 it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password
-Policy Enforcer Client are also available. See the
-[Administration](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/administration_overview.md) and
-[](http://www.anixis.com/products/ppeweb/)[Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/web-overview/web_overview.md)
-topics for more information. Password Reset and Password Policy Enforcer/Web are licensed
-separately.
+Policy Enforcer Client are also available.
 
 ## Active Directory Users / Computers Console and local Users and Groups Console
 
