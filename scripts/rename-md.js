@@ -97,9 +97,15 @@ function main() {
     process.exit(1);
   }
 
+  // New check: prevent overwriting if destination exists
+  if (fs.existsSync(resolvedNewPath)) {
+    console.error(`Error: Destination already exists: ${resolvedNewPath}`);
+    process.exit(1);
+  }
+
   try {
     // Move/rename the file or folder
-    fse.moveSync(resolvedOldPath, resolvedNewPath, { overwrite: true });
+    fse.moveSync(resolvedOldPath, resolvedNewPath);
     console.log(`Moved/renamed ${resolvedOldPath} to ${resolvedNewPath}`);
 
     // Update markdown links
