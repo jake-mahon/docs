@@ -18,22 +18,22 @@ audit the following Microsoft 365 data sources:
 **NOTE:** The registered application must be assigned to the Global Administrator or Exchange
 Administrator role for Microsoft Entra ID state collection.
 
-| API                        | Permissions                                                                                                                                                                                                                             |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Graph            | Directory - Directory.Read.All – Read directory data AuditLog - AuditLog.Read.All – Read all audit log data Policy - Policy.Read.All – Read your organization's policies. This permission is required to collect state-in-time reports. |
-| Office 365 Management APIs | ActivityFeed - ActivityFeed.Read – Read activity data for your organization                                                                                                                                                             |
-| Office 365 Exchange Online | Exchange - Exchange.ManageAsApp – Manage Exchange As Application This permission is required to collect state-in-time reports.                                                                                                          |
+| API | Permissions |
+| ---| ---|
+| Microsoft Graph | Directory <br /><ul><li>Directory.Read.All – Read directory data</li></ul> <br /> AuditLog <br /> <ul><li>AuditLog.Read.All – Read all audit log data</li></ul> <br />Policy <br /><ul><li>Policy.Read.All – Read your organization's policies. This permission is required to collect state-in-time reports.</li></ul> |
+| Office 365 Management APIs | ActivityFeed <br /><ul><li>ActivityFeed.Read – Read activity data for your organization</li></ul>                                                                                                                                                            |
+| Office 365 Exchange Online | Exchange<ul><li>Exchange.ManageAsApp – Manage Exchange As Application This permission is required to collect state-in-time reports.</li></ul>                                                                                                          |
 
 **NOTE:** To access the Office 365 Exchange Online API, click the **APIs my organization uses** tab
 on the Request API Permissions pane and search this API by entering its name in the search box.
 
 ## Permissions to Audit SharePoint Online
 
-| API                        | Permissions                                                                                                                                                                           |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Graph            | Sites - Sites.Read.All – Read items in all site collections - Sites.ReadWrite.All – Read and write items in all site collections Directory - Directory.Read.All – Read directory data |
-| SharePoint                 | Sites - Sites.FullControl.All – Have full control of all site collections. This permission is required to collect state-in-time reports.                                              |
-| Office 365 Management APIs | ActivityFeed - ActivityFeed.Read – Read activity data for your organization                                                                                                           |
+| API | Permissions |
+| ---| --- |
+| Microsoft Graph | Sites <br /> <ul><li>Sites.Read.All – Read items in all site collections</li><li>Sites.ReadWrite.All – Read and write items in all site collections</li></ul> <br /> Directory <br /><ul><li>Directory.Read.All – Read directory data</li></ul> |
+| SharePoint | Sites <br /><ul><li>Sites.FullControl.All – Have full control of all site collections. This permission is required to collect state-in-time reports.</li></ul>                                              |
+| Office 365 Management APIs | ActivityFeed <br /><ul><li>ActivityFeed.Read – Read activity data for your organization</li></ul> |
 
 **NOTE:** The Sites.ReadWrite.All permission is only required for SharePoint Online integration (for
 example, when you have to save subscriptions to a SharePoint location).
@@ -42,4 +42,4 @@ example, when you have to save subscriptions to a SharePoint location).
 
 | API                        | Permissions                                                                 |
 | -------------------------- | --------------------------------------------------------------------------- |
-| Office 365 Management APIs | ActivityFeed - ActivityFeed.Read – Read activity data for your organization |
+| Office 365 Management APIs | ActivityFeed <br /> <ul><li>ActivityFeed.Read – Read activity data for your organization</li></ul> |
