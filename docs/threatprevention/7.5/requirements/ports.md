@@ -130,7 +130,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
 article.
 
-Dell Celerra & Dell VNX Devices Additional Firewall Rules
+**Dell Celerra & Dell VNX Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:
@@ -140,7 +140,7 @@ Monitor Activity Agent server and the target Dell device:
 | Dell Device CEE Server                                     | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Dell Isilon/PowerScale Devices Additional Firewall Rules
+**Dell Isilon/PowerScale Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
@@ -150,7 +150,7 @@ Monitor Activity Agent server and the target Dell Isilon/PowerScale device:
 | Dell Isilon/PowerScale to CEE Server                       | TCP      | TCP 12228         | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Dell Unity Devices Additional Firewall Rules
+**Dell Unity Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the CEE server/ Activity
 Monitor Activity Agent server and the target Dell device:
@@ -160,7 +160,7 @@ Monitor Activity Agent server and the target Dell device:
 | Dell Device CEE Server                                     | TCP      | RPC Dynamic Range | CEE Communication |
 | CEE Server to Activity Agent Server (when not same server) | TCP      | RPC Dynamic Range | CEE Event Data    |
 
-Nasuni Edge Appliance Additional Firewall Rules
+**Nasuni Edge Appliance Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Nasuni Edge Appliance:
@@ -170,7 +170,7 @@ Agent server and the target Nasuni Edge Appliance:
 | Agent Server to Nasuni          | HTTPS         | 8443  | Nasuni API calls       |
 | Nasuni to Activity Agent Server | AMQP over TCP | 5671  | Nasuni event reporting |
 
-NetApp Data ONTAP 7-Mode Device Additional Firewall Rules
+**NetApp Data ONTAP 7-Mode Device Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target NetApp Data ONTAP 7-Mode device:
@@ -193,7 +193,7 @@ Activity Monitor.
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
 
-NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules
+**NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target NetApp Data ONTAP Cluster-Mode device:
@@ -211,7 +211,7 @@ Activity Monitor.
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
 
-Panzura Devices Additional Firewall Rules
+**Panzura Devices Additional Firewall Rules**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Panzura device:

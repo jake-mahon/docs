@@ -20,7 +20,7 @@ The server must meet this requirement:
 **_RECOMMENDED:_** It is a best practice and strongly recommended to have a dedicated database
 server.
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These depend on the size of the target environment.
 
@@ -38,14 +38,14 @@ These depend on the size of the target environment.
 The disk sizes for the three SQL Server databases can be reduced if not utilizing all Threat
 Prevention solutions.
 
-Additional SQL Server Requirements
+**Additional SQL Server Requirements**
 
 The following are additional requirements for the SQL Server:
 
 - All SQL Server databases must be configured to use ‘Simple Recovery Model’.
 - SQL Agent Service is needed to use the Database Maintenance feature in Threat Prevention.
 
-Additional SQL Server Considerations
+**Additional SQL Server Considerations**
 
 The following additional considerations are recommended for the SQL Server:
 
@@ -76,7 +76,7 @@ applications of memory. See the
 [Restrict SQL Server Maximum Server Memory](/docs/threatprevention/7.5/troubleshooting/sqlserver.md) topic for additional
 information.
 
-Database Permissions
+**Database Permissions**
 
 The following permissions are required on the databases:
 
