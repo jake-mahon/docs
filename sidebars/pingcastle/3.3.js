@@ -4,11 +4,7 @@ module.exports = {
     {
       type: 'doc',
       id: 'index',
-    },
-    {
-      type: 'doc',
-      id: 'basicuser',
-      label: 'PingCastle Standard',
+      label: 'PingCastle Standard'
     },
     {
       type: 'category',
