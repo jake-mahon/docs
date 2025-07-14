@@ -1,7 +1,7 @@
 ---
 title: "What's New in 5.7"
 description: "What's New in 5.7"
-sidebar_position: 20
+sidebar_position: 3
 ---
 
 # What's New in 5.7
