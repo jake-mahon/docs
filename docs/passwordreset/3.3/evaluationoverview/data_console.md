@@ -6,10 +6,6 @@ sidebar_position: 40
 
 # Data Console
 
-Data Console
-
-# Data Console
-
 The Data Console allows you to view and export data collected by NPR. Click **Start** > **Netwrix
 Password Reset** > **NPRData Console** to open the console.
 

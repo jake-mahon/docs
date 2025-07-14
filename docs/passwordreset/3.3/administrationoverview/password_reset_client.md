@@ -6,17 +6,16 @@ sidebar_position: 80
 
 # Password Reset Client
 
-Password Reset Client
-
-# Password Reset Client
-
 The Password Reset Client allows users to securely reset their password or unlock their account from
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
 ![the_password_reset_client](/img/product_docs/passwordreset/3.3/administration/the_password_reset_client.webp)
 
-**NOTE:** The Password Reset Client does not modify any Windows system files.
+:::note
+The Password Reset Client does not modify any Windows system files.
+:::
+
 
 ## Installing the PRC
 
@@ -54,8 +53,11 @@ access to authorized personnel only.
 
 **Step 4 –** Copy NPRClt330.msi into the distribution point folder.
 
-**NOTE:** NPRClt330.msi is in the Client folder below the Netwrix Server's installation folder.
+:::note
+NPRClt330.msi is in the Client folder below the Netwrix Server's installation folder.
 (`\Program Files\Netwrix Password Reset\` by default).
+:::
+
 
 **Step 5 –** Give the Domain Computers security group read access to the NPRClt330.msi file in the
 distribution point.
@@ -85,8 +87,11 @@ the left pane.
 
 **Step 4 –** Enter the full UNC path to NPRClt330.msi in the Open dialog box.
 
-**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+:::note
+You must enter a UNC path so that other computers can access this file over the network.
 For example, \\file server\distributionpointshare\NPRClt330.msi
+:::
+
 
 **Step 5 –** Click **Open**.
 
@@ -99,18 +104,21 @@ For example, \\file server\distributionpointshare\NPRClt330.msi
 Restart each computer to complete the installation. Windows installs the Password Reset Client
 during startup. The computer may restart itself automatically to complete the installation.
 
-**NOTE:** Computers with Fast Logon Optimization enabled may not install the Password Reset Client
+:::note
+Computers with Fast Logon Optimization enabled may not install the Password Reset Client
 during the first restart. These computers perform a background refresh of Group Policy, and will
 install the client on the first restart after the refresh. See the Microsoft Description of the
 [Windows Fast Logon Optimization feature](https://support.microsoft.com/en-us/topic/description-of-the-windows-fast-logon-optimization-feature-9ca41d24-0210-edd8-08b0-21b772c534b7)
 article for additional information on the Fast Logon Optimization feature.
+:::
+
 
 ## Configuring the PRC
 
 You must install an Active Directory administrative template to configure the Password Reset Client.
 The administrative template only has to be installed once.
 
-Install PRC Administrative Template
+**Install PRC Administrative Template**
 
 Follow the steps below to install the PRC administrative template.
 
@@ -136,7 +144,7 @@ installation folder. (`\Program Files\Netwrix Password Reset\` by default).
 
 **Step 8 –** Click **Close**.
 
-Configure the PRC
+**Configure the PRC**
 
 Follow the steps below to configure the Password Reset Client.
 
@@ -160,21 +168,30 @@ Management Editor.
 
 **Step 6 –** Enter the desired **Width** and **Height** of the PRC browser window.
 
-**NOTE:** Set the Width and Height to 0 to have the PRC calculate an appropriate size.
+:::note
+Set the Width and Height to 0 to have the PRC calculate an appropriate size.
+:::
+
 
 **Step 7 –** Enter the **Start address** (URL) of the Password Reset system. The URL should point to
 the Password Reset menu or reset page.
 
-**NOTE:** The Start address should follow this format:  
+:::note
+The Start address should follow this format:  
 `HTTPS://(your domain or IP address)/pwrest/en_default.htm`  
 This format helps ensure that the URL points to the correct location on your Password Reset server.
+:::
+
 
 **Step 8 –** Enter a **Restricted path** (URL) to stop users from following links to other sites
 from the Password Reset Client browser.
 
-**NOTE:** The Restricted path should follow this format:  
+:::note
+The Restricted path should follow this format:  
 `HTTPS://(your domain or IP address)/pwrest/`  
 This will help prevent users from navigating to untrusted sites within the Password Reset Client.
+:::
+
 
 **Step 9 –** Click **OK**.
 
@@ -191,18 +208,24 @@ ActiveX controls and Java applets. Send an e-mail to
 [support@netwrix.com ](mailto:support@netwrix.com)if you need to change the default filename and
 content restrictions.
 
-**CAUTION:** Users may follow links to untrusted sites if the Password Reset user interface or
+:::warning
+Users may follow links to untrusted sites if the Password Reset user interface or
 server error pages contain external links. This is a security risk because the Password Reset Client
 runs under the context of the local system account. Specify a restricted path to stop users from
 following links to other sites from the Password Reset Client. The start address and restricted path
 should both begin with https://
+:::
 
-**NOTE:** The **Enable Password Reset Client**, **Always show reset link**, and **Dialog attachment
+
+:::note
+The **Enable Password Reset Client**, **Always show reset link**, and **Dialog attachment
 delay** are automatically set by the Password Reset Client, and are normally left in their default
 (Not configured) state.  
 The administrative template contains detailed information about all the PRC configuration settings.
 This information is shown on the **Help** box. The **Help** box is shown after you double-click one
 of the configuration settings in the left pane.
+:::
+
 
 ## Licensing the PRC
 
@@ -215,8 +238,11 @@ Follow the steps below to add a license key to the PRC configuration.
 **Step 3 –** Expand the **HKEY_LOCAL_MACHINE**, **SOFTWARE**, **ANIXIS**, **ANIXIS Password Reset**,
 and **3.0** registry keys.
 
-**NOTE:** The LicenseKey registry value should be located on the Password Reset Server. This is the
+:::note
+The LicenseKey registry value should be located on the Password Reset Server. This is the
 machine where you have installed the Password Reset server component, not the client machines.
+:::
+
 
 **Step 4 –** Double-click the **LicenseKey** value, and then copy the entire license key to the
 clipboard.

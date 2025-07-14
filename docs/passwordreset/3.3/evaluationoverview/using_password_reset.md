@@ -6,10 +6,6 @@ sidebar_position: 20
 
 # Using Password Reset
 
-Using Password Reset
-
-# Using Password Reset
-
 Password Reset is a web application. Open a web browser on the server and go to
 [http://127.0.0.1/pwreset/ ](http://127.0.0.1/pwreset/)to see Password Reset's menu. You can also
 access Password Reset from another computer by replacing 127.0.0.1 in the URL with the IP address or

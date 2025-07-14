@@ -6,15 +6,11 @@ sidebar_position: 2
 
 # What's New
 
-What's New
-
-# What's New
-
-### What's New in this Version?
+## What's New in this Version?
 
 Netwrix Password Reset v3.3 includes the following improvements:
 
-#### Enhancements
+### Enhancements
 
 • **Updated branding** — The product has been updated to reflect the Netwrix brand.
 
@@ -43,7 +39,7 @@ Enforcer, please consider upgrading first to a current and supported version. Se
 always displays the policy or rejection message if it queried a domain controller with more than one
 IP address.
 
-#### Bug Fix List
+### Bug Fix List
 
 See the Netwrix Password Reset v3.3
 [Bug Fix List PDF](https://helpcenter.netwrix.com/bundle/PasswordReset_3.3_ReleaseNotes/resource/Netwrix_PasswordReset_3.3_BugFixList.pdf)

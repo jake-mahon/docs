@@ -6,10 +6,6 @@ sidebar_position: 20
 
 # Filter Editor
 
-Filter Editor
-
-# Filter Editor
-
 Use the Filter Editor to create complex filters, filters for hidden columns, or to save and open
 regularly used filters. Press **CTRL** + **F** to open the Filter Editor, or click the **Filter
 Editor** button in the lower right corner of the Data Console.
