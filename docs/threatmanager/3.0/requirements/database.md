@@ -19,7 +19,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the database server:
 
@@ -28,7 +28,7 @@ The following are additional requirements for the database server:
 - ASP.NET Core 8.0.11
 - VC++ redist v14.28.29914
 
-Additional Considerations
+**Additional Considerations**
 
 The following considerations must be accommodated for:
 

@@ -15,7 +15,7 @@ exceptions are covered.
 
 The following servers are required for installation of the application:
 
-Core Component
+**Core Component**
 
 - Threat Manager Database Server – This is where the Threat Manager PostgreSQL database is
   installed.
@@ -34,7 +34,7 @@ See the following topics for server requirements:
 - [Client Requirements](/docs/threatmanager/3.0/requirements/client.md)
 - [Ports Requirements](/docs/threatmanager/3.0/requirements/ports.md)
 
-Target Environment Considerations
+**Target Environment Considerations**
 
 The target environment encompasses all servers, devices, or infrastructure being monitored by
 Netwrix Threat Prevention or Netwrix Activity Monitor in addition to data collected by Netwrix
