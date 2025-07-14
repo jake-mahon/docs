@@ -1,5 +1,3 @@
-# PingCastle
-
 # PingCastle Standard and Basic User Guide
 
 ## About PingCastle
