@@ -12,12 +12,12 @@ given host.
 **_RECOMMENDED:_** Configure a subset of servers to be monitored in order to avoid the excessive
 volume of event activity from monitoring all servers.
 
-| Brute Force Attacks  |                                                                                                                                                                                                                                   |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition           | Repeated failed authentications against systems and other network assets in a specified time range                                                                                                                                |
+| Brute Force Attacks  |                  |
+| -------------------- | ---------------------- |
+| Definition           | Repeated failed authentications against systems and other network assets in a specified time range     |
 | Example              | Malware or a bad actor on the network is attempting to gain access to a system, application, or data resource such as a file share by sequentially leveraging multiple user accounts and their credentials until they gain access |
-| Trigger              | X failed logins from a single host against a single host in Y minutes                                                                                                                                                             |
-| Recommended Settings | Configure this analytic to trigger a hit if Threat Prevention monitors at least 40 failed logins from a single host against a single host in 3 minutes.                                                                           |
+| Trigger              | X failed logins from a single host against a single host in Y minutes    |
+| Recommended Settings | Configure this analytic to trigger a hit if Threat Prevention monitors at least 40 failed logins from a single host against a single host in 3 minutes.            |
 
 Analytic Workflow
 

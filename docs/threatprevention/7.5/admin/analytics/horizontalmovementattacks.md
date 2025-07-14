@@ -12,12 +12,12 @@ more than the threshold of resources during the specified time interval.
 **_RECOMMENDED:_** Configure a subset of accounts and/or servers to be monitored in order to avoid
 the excessive volume of event activity from monitoring all.
 
-| Horizontal Movement Attacks |                                                                                                                                                                                                                                                                                                                                     |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition                  | User account authentications across multiple network assets in a specified time period                                                                                                                                                                                                                                              |
+| Horizontal Movement Attacks |                     |
+| --------------------------- | ------------------------------- |
+| Definition                  | User account authentications across multiple network assets in a specified time period    |
 | Example                     | Malware uses several techniques to spread its payload during the initial phase of an attack including Pass the Hash, Impersonation, and current session logged on credentials. Regardless of the method, authentication takes place against other targets on the network, triggering a Threat Prevention horizontal movement alert. |
-| Trigger                     | Successful or failed authentications of a given account across X number of resources in Y minutes                                                                                                                                                                                                                                   |
-| Recommended Settings        | Configure this analytic to trigger a hit if Threat Prevention monitors successful or failed authentications of a given account across 10 resources in 3 minutes.                                                                                                                                                                    |
+| Trigger                     | Successful or failed authentications of a given account across X number of resources in Y minutes        |
+| Recommended Settings        | Configure this analytic to trigger a hit if Threat Prevention monitors successful or failed authentications of a given account across 10 resources in 3 minutes.    |
 
 Analytic Workflow
 

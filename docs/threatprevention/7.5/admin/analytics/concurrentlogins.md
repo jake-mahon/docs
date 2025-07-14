@@ -12,12 +12,12 @@ within the specified time frame.
 **_RECOMMENDED:_** Configure a subset of accounts and/or servers to be monitored in order to avoid
 the excessive volume of event activity from monitoring all.
 
-| Concurrent Logins    |                                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition           | Logins from multiple locations simultaneously                                                                                                                                                                                                                                                                                                                                |
+| Concurrent Logins    |                   |
+| -------------------- | ---------------------------- |
+| Definition           | Logins from multiple locations simultaneously        |
 | Example              | A user does not normally login from multiple locations simultaneously within a short time window. If one or more accounts has been compromised by malware, or in the event of an insider attack, one might see a compromised account authenticating from many systems in parallel and a corresponding analytic alert identifying the account and the authenticating systems. |
-| Trigger              | Successful and failed authentications using the same account from at least X hosts in Y minutes                                                                                                                                                                                                                                                                              |
-| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors either successful or failed authentications using the same account from at least 3 hosts in 1 hour.                                                                                                                                                                              |
+| Trigger              | Successful and failed authentications using the same account from at least X hosts in Y minutes              |
+| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors either successful or failed authentications using the same account from at least 3 hosts in 1 hour.     |
 
 Analytic Workflow
 
