@@ -1,5 +1,5 @@
 ---
-title: "Using Group Managed Service Account (gMSA)"
+title: "GMSA"
 description: "Using Group Managed Service Account (gMSA)"
 sidebar_position: 80
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Billable Users Report"
+title: "Billable Users"
 description: "Billable Users Report"
 sidebar_position: 110
 ---
 
-# Billable Users Report
+# Billable Users
 
 A Billable Users report provides information on the billable accounts – the enabled Active
 Directory/Microsoft Entra ID (formerly Azure AD) accounts for your organization. See the
