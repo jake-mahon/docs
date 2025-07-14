@@ -43,10 +43,10 @@ As a result, different roles in an identity store can have different settings fo
 6. On the **Add Policies** pane, click the **Password** tab.  
    The following settings in the **Password Policies** area relate to security questions:
 
-    | Setting               | Description                                                                                                                                                                                                                                                                                                                                                         |
-    | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | Number of Questions   | The number of security questions role members must select while enrolling their accounts in Directory Manager for multifactor authentication or second factor authentication. The default number is 4. Changing the number of security questions for a role has no impact on already enrolled role members unless they update their security questions information. |
-    | Minimum Answer Length | The minimum number of characters that a role member must type when saving the answer to a security question at the time of account enrollment. Answers with less than the specified number of characters will not be saved.                                                                                                                                         |
+    | Setting | Description |
+    | --- | --- |
+    | Number of Questions | The number of security questions role members must select while enrolling their accounts in Directory Manager for multifactor authentication or second factor authentication. The default number is 4. <br />Changing the number of security questions for a role has no impact on already enrolled role members unless they update their security questions information. |
+    | Minimum Answer Length | The minimum number of characters that a role member must type when saving the answer to a security question at the time of account enrollment. Answers with less than the specified number of characters will not be saved. |
 
 7. Click **OK**.
 8. On the **Edit Security Role** page, click **Update Security Role**.
