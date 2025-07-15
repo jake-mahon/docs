@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Dell PowerStore
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -32,8 +32,11 @@ environment must be met. See the
 [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/powerstore-aac/powerstore-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Dell PowerStore Host
 
@@ -52,11 +55,14 @@ Click**Next**.
 **Step 3 –** On the Add Host page, select the Dell PowerStore radio button and enter the file server
 name. Click **Next**.
 
-**NOTE:** All Dell event source types must have the CEE Monitor Service installed on the agent in
+:::note
+All Dell event source types must have the CEE Monitor Service installed on the agent in
 order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and
 display a warning to install the service. If the CEE Monitor service is installed on a remote
 machine, manual configuration is required. See the
 [Dell CEE Options Tab](/docs/activitymonitor/8.0/admin/agents/properties/dellceeoptions.md) topic for additional information.
+:::
+
 
 ![powerstoreaddhost02](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost02.webp)
 
@@ -102,7 +108,10 @@ Click **Next**.
 **Step 7 –** On the Where to log the activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
-**NOTE:** An option must be selected before moving to the next step.
+:::note
+An option must be selected before moving to the next step.
+:::
+
 
 ![powerstoreaddhost06](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/powerstoreaddhost06.webp)
 
@@ -119,15 +128,24 @@ be configured.
 - This log file is for Access Analyzer – Enable this option to have Access Analyzer collect this
   monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Access Analyzer when integration is
+    :::info
+    Identify the configuration to be read by Access Analyzer when integration is
     available.
+    :::
 
-    **NOTE:** While Activity Monitor can have multiple configurations for log file outputs per host,
+
+    :::note
+    While Activity Monitor can have multiple configurations for log file outputs per host,
     Access Analyzer can only read one of them.
+    :::
+
 
 - Add header to Log files – Adds headers to TSV files. This is used to feed data into Splunk.
 
-    **NOTE:** Access Analyzer does not support log files with the header.
+    :::note
+    Access Analyzer does not support log files with the header.
+    :::
+
 
 Click **Next**.
 

@@ -9,10 +9,16 @@ sidebar_position: 10
 Dell CEE should be installed on a Windows or a Linux server. The Dell CEE software is not a Netwrix
 product. Dell customers have a support account with Dell to access the download.
 
-_Remember,_ the latest version is the recommended version of Dell CEE.
+:::tip
+Remember, the latest version is the recommended version of Dell CEE.
+:::
 
-**_RECOMMENDED:_** The Dell CEE package can be installed on the Windows server where the Activity
+
+:::info
+The Dell CEE package can be installed on the Windows server where the Activity
 Monitor agent will be deployed (recommended) or on any other Windows or Linux server.
+:::
+
 
 Follow the steps to install the Dell CEE.
 
@@ -26,8 +32,11 @@ guide to install and configure the CEE. The installation will add two services t
 - EMC Checker Service (Display Name: EMC CAVA)
 - EMC CEE Monitor (Display Name: EMC CEE Monitor)
 
-**_RECOMMENDED:_** The latest version of .NET Framework and Dell CEE is recommended to use with the
+:::info
+The latest version of .NET Framework and Dell CEE is recommended to use with the
 asynchronous bulk delivery (VCAPS) feature.
+:::
+
 
 See the [CEE Debug Logs](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/unity-aac/validate.md#cee-debug-logs) section for information on
 troubleshooting issues related to Dell CEE.
@@ -47,7 +56,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 2 –** Navigate to following location:
 
-HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration
+**HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\AUDIT\Configuration**
 
 **Step 3 –** Right-click on **Enabled** and select Modify. The Edit DWORD Value window opens.
 
@@ -59,11 +68,11 @@ window closes.
 **Step 6 –** In the Value data field, enter the StealthAUDIT value with the IP Address for the
 Windows proxy server hosting the Activity Monitor activity agent. Use the following format:
 
-StealthAUDIT@[IP ADDRESS]
+**StealthAUDIT@[IP ADDRESS]**
 
 Examples:
 
-StealthAUDIT@192.168.30.15
+**StealthAUDIT@192.168.30.15**
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 
@@ -84,7 +93,10 @@ Mover.
 **Step 1 –** Log into the Dell Celerra or VNX server with an administrator account. The
 administrative account should have a $ character in the terminal.
 
-**NOTE:** Do not use a # charter.
+:::note
+Do not use a # charter.
+:::
+
 
 **Step 2 –** Create or retrieve the `cepp.conf` file.
 
@@ -92,20 +104,23 @@ If there is not a `cepp.conf` file on the Data Mover(s), use a text editor to cr
 file in the home directory named `cepp.conf`. The following is an example command if using the text
 editor 'vi' to create a new blank file:
 
-$ vi cepp.conf
+**$ vi cepp.conf**
 
 > If a `cepp.conf` file already exists, it can be retrieved from the Data Movers for modification
 > with the following command:
 
-$ server_file [DATA_MOVER_NAME] -get cepp.conf cepp.conf
+**$ server_file [DATA_MOVER_NAME] -get cepp.conf cepp.conf**
 
 **Step 3 –** Configure the `cepp.conf` file. For information on the `cepp.conf` file, see the Dell
 [Using the Common Event Enabler for Windows Platforms](https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage-3/docu48055.pdf)
 guide instructions on how to add parameters or edit the values or existing parameters.
 
-**NOTE:** The information can be added to the file on one line or separate lines by using a space
+:::note
+The information can be added to the file on one line or separate lines by using a space
 and a "\"" at the end of each line, except for the last line and the lines that contain global
 options: `cifsserver`, `surveytime`, `ft`, and `msrpcuser`.
+:::
+
 
 The Activity Monitor requires the following parameters to be set in the `cepp.conf` file:
 
@@ -132,56 +147,59 @@ The Activity Monitor requires the following parameters to be set in the `cepp.co
 
     Example cepp.conf file format:
 
-    msrpcuser=[DOMAIN\DOMAINUSER]
+**msrpcuser=[DOMAIN\DOMAINUSER]**
 
     pool name=[POOL_NAME] \
 
-    servers=[IP_ADDRESS1]|[IP_ADDRESS2]|... \
+**servers=[IP_ADDRESS1]|[IP_ADDRESS2]|... \**
 
     postevents=[EVENT1]|[EVENT2]|...
 
     Example cepp.conf file format for the Activity Monitor:
 
-    msrpcuser=[DOMAIN\DOMAINUSER running CEE services]
+**msrpcuser=[DOMAIN\DOMAINUSER running CEE services]**
 
     pool name=[POOL_NAME for configuration container] \
 
-    servers=[IP_ADDRESS where CEE is installed]|... \
+**servers=[IP_ADDRESS where CEE is installed]|... \**
 
     postevents=[EVENT1]|[EVENT2]|...
 
     Example of a completed cepp.conf file for the Activity Monitor:
 
-    msrpcuser=example\user1
+**msrpcuser=example\user1**
 
     pool name=pool \
 
-    servers=192.168.30.15 \
+**servers=192.168.30.15 \**
 
     postevents=CloseModified|CloseUnmodified|CreateDir|CreateFile|DeleteDir|DeleteFile|RenameDir|RenameFile|SetAclDir|SetAclFile
 
 **Step 4 –** Move the `cepp.conf` file to the Data Mover(s) root file system. Run the following
 command:
 
-$ server_file [DATA_MOVER_NAME]‑put cepp.conf cepp.conf
+**$ server_file [DATA_MOVER_NAME]‑put cepp.conf cepp.conf**
 
-**NOTE:** Each Data Mover which runs Celerra Event Publishing Agent (CEPA) must have a `cepp.conf`
+:::note
+Each Data Mover which runs Celerra Event Publishing Agent (CEPA) must have a `cepp.conf`
 file, but each configuration file can specify different events.
+:::
+
 
 **Step 5 –** (This step is required only if using the `msrpcuser` parameter) Register the MSRPC user
 (see Step 3 for additional information on this parameter). Before starting CEPA for the first time,
 the administrator must issue the following command from the Control Station and follow the prompts
 for entering information:
 
-/nas/sbin/server_user server_2 -add -md5 -passwd [DOMAIN\DOMAINUSER for msrpcuser]
+**/nas/sbin/server_user server_2 -add -md5 -passwd [DOMAIN\DOMAINUSER for msrpcuser]**
 
 **Step 6 –** Start the CEPA facility on the Data Mover. Use the following command:
 
-server_cepp [DATA_MOVER_NAME] -service –start
+**server_cepp [DATA_MOVER_NAME] -service –start**
 
 Then verify the CEPA status using the following command:
 
-server_cepp [DATA_MOVER_NAME] -service –status
+**server_cepp [DATA_MOVER_NAME] -service –status**
 
 Once the `cepp.config` file has been configured, it is time to configure and enable monitoring with
 the Activity Monitor. See the

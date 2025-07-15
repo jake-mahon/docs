@@ -35,10 +35,13 @@ themselves additional elevated privileges.
 Double-click text box to enter specific **RIDs**. Click OK. The AD agent then compares against the
 PAC and user’s access token for a mismatch to trigger the incident.
 
-**NOTE:** The Forged PAC analytic is monitoring for when the user is not a member of a group that is
+:::note
+The Forged PAC analytic is monitoring for when the user is not a member of a group that is
 listed in the PAC section of the user’s Kerberos ticket. This analytic can be scoped to monitor
 specific groups. To reduce the number of false positives, the AD agent only checks for a mismatch of
 sensitive groups as selected in the policy Settings tab.
+:::
+
 
 ## Host (From)
 
@@ -125,8 +128,11 @@ selected for the policy. Check the box to select the authentication protocol(s) 
 - Kerberos
 - NTLM
 
-**CAUTION:** If Login Type is enabled, authentication events will be received from Domain
+:::warning
+If Login Type is enabled, authentication events will be received from Domain
 Controllers only.
+:::
+
 
 The Login Type options apply only to Domain Controllers. These options provide the choice to monitor
 Local Interactive and/or Remote Interactive logins to the Domain Controllers:

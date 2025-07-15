@@ -6,7 +6,7 @@ sidebar_position: 160
 
 # Windows
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -32,8 +32,11 @@ must be met. See the
 [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/windowsfs-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to the server. It cannot be deployed to a proxy
+:::tip
+Remember, the Activity Agent must be deployed to the server. It cannot be deployed to a proxy
 server.
+:::
+
 
 ## Add Agent's Windows Host
 
@@ -77,8 +80,11 @@ events by operation type by selecting the radio button:
 
 Additional options include:
 
-**CAUTION:** Enabling the Suppress subsequent Read operations in the same folder option can result
+:::warning
+Enabling the Suppress subsequent Read operations in the same folder option can result
 in Read events not being monitored.
+:::
+
 
 - Suppress subsequent Read operations in the same folder – Logs only one Read operation when
   subsequent Read operations occur in the same folder. This option is provided to improve overall
@@ -136,8 +142,11 @@ Output** page can be configured.
 - This log file is for Access Analyzer – Enable this option to have Access Analyzer collect this
   monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Access Analyzer when integration is
+    :::info
+    Identify the configuration to be read by Access Analyzer when integration is
     available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Access Analyzer can only
       read one of them.

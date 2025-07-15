@@ -127,26 +127,35 @@ events. For example, if you want 30 minutes of events to persist in an SVM with 
 events per second and the average event record size of 0.6 KB, the required volume size is
 `5000 * 30 * 60 * 0.6 KB = 5400000 KB ≈ 5 GB`.
 
-**NOTE:** To find the approximate event rate, use the FPolicy counter `requests_dispatched_rate`.
+:::note
+To find the approximate event rate, use the FPolicy counter `requests_dispatched_rate`.
+:::
 
-**NOTE:** For the Persistent Store to automatically create a volume, the SVM must have at least one
+
+:::note
+For the Persistent Store to automatically create a volume, the SVM must have at least one
 local tier (aggregate) assigned.
+:::
+
 
 To check that the SVM has assigned local tiers, use the following command:
 
-vserver show -vserver [SVM_NAME] -fields aggr-list
+**vserver show -vserver [SVM_NAME] -fields aggr-list**
 
 The command shows currently local tiers. If no tiers are assigned, "-" is displayed.
 
 To assign local tiers to the SVM use the following command:
 
-vserver add-aggregates -vserver [SVM_NAME] -aggregates [AGGREGATE_LIST]
+**vserver add-aggregates -vserver [SVM_NAME] -aggregates [AGGREGATE_LIST]**
 
 Example:
 
-vserver add-aggregates -vserver testserver -aggregates aggr1,aggr2
+**vserver add-aggregates -vserver testserver -aggregates aggr1,aggr2**
 
-**NOTE:** This command is available to cluster administrators at the admin privilege level.
+:::note
+This command is available to cluster administrators at the admin privilege level.
+:::
+
 
 It is recommended to allow the volume to be created automatically. In this case, the FPolicy
 subsystem manages the volume, maintains the directory structure, and protects it from accidental
@@ -266,7 +275,10 @@ IMPORTANT:
     - `ssl-option no-auth`
     - `send-buffer-size 6291456`, for ONTAP 9.10+ use `send-buffer-size 8388608`
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the external engine:
 
@@ -361,8 +373,11 @@ IMPORTANT:
           file with the intent to delete it, according to the `FILE_DELETE_ON_CLOSE` flag
           specification
 
-            **NOTE:** File open operations are only supported with the `open-with-delete-intent`
+            :::note
+            File open operations are only supported with the `open-with-delete-intent`
             filter applied.
+            :::
+
 
     - `read` – File read operations
 
@@ -410,7 +425,10 @@ IMPORTANT:
     - NFSv4:
       `open, create, create_dir, read, write, delete, delete_dir, rename, rename_dir, setattr, link`
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the FPolicy event for CIFS protocols:
 
@@ -529,7 +547,10 @@ IMPORTANT:
     - `autosize-mode` – Specifies the auto size behavior for the volume. Options include `off`
       (default), `grow`, or `grow_shrink`.
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the Persistent Store:
 
@@ -592,7 +613,10 @@ IMPORTANT:
     - `privileged-user-name` – Must be a provisioned FPolicy account.
     - `allow-privileged-access` – Set to yes.
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the FPolicy policy to monitor both CIFS and NFS protocols:
 

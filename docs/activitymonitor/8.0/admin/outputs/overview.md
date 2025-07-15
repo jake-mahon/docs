@@ -16,7 +16,10 @@ are three types of outputs:
   receives Active Directory monitoring events from Netwrix Threat Prevention for integration with
   Netwrix Access Analyzer (formerly Enterprise Auditor)
 
-    **NOTE:** This output is only available for Monitored Domains
+    :::note
+    This output is only available for Monitored Domains
+    :::
+
 
 See the [Output for Monitored Domains](/docs/activitymonitor/8.0/admin/monitoreddomains/output/output.md) topic and the
 [Output for Monitored Hosts](/docs/activitymonitor/8.0/admin/monitoredhosts/output/output.md) topic for information on adding an output.

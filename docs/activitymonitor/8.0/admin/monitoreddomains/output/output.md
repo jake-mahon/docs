@@ -15,7 +15,10 @@ domain. The domain event outputs are:
 
 - File – Creates an activity log as a JSON file for every day of activity
 
-    **NOTE:** This is required to search event data for Active Directory within the application.
+    :::note
+    This is required to search event data for Active Directory within the application.
+    :::
+
 
 - Syslog – Sends activity events to the configured SIEM server
 - Netwrix Threat Manager (StealthDEFEND) – Sends activity events to Netwrix Threat Manager or
@@ -60,10 +63,13 @@ information.
 
 ## Add Netwrix Threat Manager Output
 
-**NOTE:** An App Token created by Netwrix Threat Manager is used to authenticate connection between
+:::note
+An App Token created by Netwrix Threat Manager is used to authenticate connection between
 the applications. See the App Tokens Page topic of the
 [Netwrix Threat Manager Documentation](https://helpcenter.netwrix.com/category/stealthdefend) for
 additional information.
+:::
+
 
 Follow the steps to add a Netwrix Threat Manager output.
 

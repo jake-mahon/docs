@@ -35,5 +35,8 @@ verification during a TLS session
   connects and matches the name in the certificate (CN name)
 - Click **OK** to close the window and save the modifications.
 
-**NOTE:** Nutanix Files does not report events for activity originating from a server where the
+:::note
+Nutanix Files does not report events for activity originating from a server where the
 Activity Monitor Agent is installed.
+
+:::

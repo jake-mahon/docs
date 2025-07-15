@@ -25,8 +25,11 @@ The tab contains the following settings:
   [Specify Unix Account Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -50,8 +53,11 @@ The tab contains the following settings:
   [Specify Unix Account Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -75,8 +81,11 @@ The tab contains the following settings:
   [Specify Unix Account Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifyunixaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -100,8 +109,11 @@ The tab contains the following settings:
   [Specify Account Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifysharepointaccount.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -122,8 +134,11 @@ The tab contains the following settings:
   [Specify Sql User Name Window](/docs/activitymonitor/8.0/admin/outputs/accountexclusions/specifysqluser.md) topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -145,8 +160,11 @@ The tab contains the following settings:
   information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts

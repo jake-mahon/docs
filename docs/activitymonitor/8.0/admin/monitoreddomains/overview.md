@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Monitored Domains Tab
 
-Understanding Active Directory Activity Monitoring
+**Understanding Active Directory Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following Active Directory changes:
 
@@ -24,12 +24,12 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 It also provides the ability to feed activity data to SIEM products.
 
-Agents
+**Agents**
 
 For monitoring an Active Directory domain, the AD Agent must be installed on all domain controllers
 within the domain to be monitored.
 
-Tab
+**Tab**
 
 Once the AD Agent(s) installation is complete on a domain controller, the domain appear on the
 Monitored Domains tab. The tab is not visible within the console until at least one AD Agent has
@@ -60,8 +60,11 @@ The table of Domains being monitored provides the following information:
 
 - Domain – Name or IP Address of the domain being monitored
 
-    **NOTE:** The same domain can be monitored for different outputs. Each output is listed under
+    :::note
+    The same domain can be monitored for different outputs. Each output is listed under
     the domain with destination information.
+    :::
+
 
 - Master – Name or IP Address of the domain controller where the AD agent is deployed
 - Last Event – Date timestamp of the last event

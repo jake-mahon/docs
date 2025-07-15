@@ -19,17 +19,23 @@ The Agent Settings allow users to control the AD agent’s properties:
 - Safe Mode – If selected, the AD agent checks LSASS versions upon start up. Any change in LSASS
   since the previous start prevents the monitoring modules from loading.
 
-    **NOTE:** This is a safety measure that disables monitoring if the environment changes as in
+    :::note
+    This is a safety measure that disables monitoring if the environment changes as in
     rare cases the instrumentation may cause LSASS crashes. Should the version change occur, a
     warning will be shown next to the agent on the Agents page. The **Start pending modules** button
     allows you to force the agent to enable monitoring.
+    :::
+
 
 - Enable DNS Host Name Resolution – If selected, the AD agent looks up the missing data (a NetBIOS
   name, a Fully Qualified Domain Name, or an IP Address) that is missing fromthe event
 
-    **NOTE:** This provides more uniform data, but may have a performance impact on the machine
+    :::note
+    This provides more uniform data, but may have a performance impact on the machine
     where the AD agent is deployed, especially if that machine does not handle the name resolution
     locally.
+    :::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The Agent
 Properties window closes.
@@ -48,9 +54,12 @@ See the following sections for additional information:
 To transfer Active Directory Activity Monitoring from the Activity Monitor to Threat Prevention,
 deploy Threat Prevention Agents to targeted domain controllers.
 
-**NOTE:** If Threat Prevention installed SI Agents on domain controllers before the Activity Monitor
+:::note
+If Threat Prevention installed SI Agents on domain controllers before the Activity Monitor
 AD agents were deployed, then skip to the next set of instructions to configure Active Directory
 Monitoring through Threat Prevention.
+:::
+
 
 If Threat Prevention data is not used by other Netwrix products, uninstall the activity agent from
 the domain controllers if you do not plan to receive Active Directory activity in Activity Monitor
