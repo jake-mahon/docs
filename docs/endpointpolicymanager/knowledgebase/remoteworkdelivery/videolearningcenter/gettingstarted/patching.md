@@ -1,3 +1,8 @@
+---
+title: "Automatic Patching and Updates"
+description: "Automatic Patching and Updates"
+sidebar_position: 40
+---
 # Automatic Patching and Updates
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5Z0vb2XXz8A" title="Endpoint Policy Manager Remote Work Delivery Manager: Automatic Patching and Updates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -19,7 +19,7 @@ The **File Box** tab provides access to two features:
 
 Video: You can learn more about external links and Endpoint Policy Manager Remote Work Delivery
 Manager from this video:
-[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/remoteworkdelivery/cloud.md).
+[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/methods/cloud.md).
 
 You can learn more about the external links function in
 [How to use Remote Work Delivery Manager to apply Firewall policies](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/clienttips/remoteworkdeliverymanager.md).

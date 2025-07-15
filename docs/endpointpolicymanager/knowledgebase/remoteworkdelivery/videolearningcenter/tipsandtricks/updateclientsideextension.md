@@ -1,3 +1,8 @@
+---
+title: "Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension"
+description: "Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension"
+sidebar_position: 30
+---
 # Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M3Tm1mbK6wg" title="Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

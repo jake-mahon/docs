@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager: Use Azure Blob Storage to Deploy and Patch your software"
+description: "Endpoint Policy Manager: Use Azure Blob Storage to Deploy and Patch your software"
+sidebar_position: 20
+---
 # Endpoint Policy Manager: Use Azure Blob Storage to Deploy and Patch your software
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GPvAJLQEbVc" title="Endpoint Policy Manager: Use Azure Blob Storage to Deploy and Patch your software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -102,9 +102,9 @@ on your situation. In this process you can create the rings using Active Directo
 other targeting, and then sending a CSE update to specific machines as you see fit.
 
 **NOTE:** See the
-[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/remoteworkdeliveryma/knowledgebase/tipsandtricks/updateclientsideextension.md)
+[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/knowledgebase/tipsandtricks/updateclientsideextension.md)
 topic for additional information.
 
 See the
-[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/video/remoteworkdelivery/updateclientsideextension.md)video for
+[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/tipsandtricks/updateclientsideextension.md)video for
 additional information.

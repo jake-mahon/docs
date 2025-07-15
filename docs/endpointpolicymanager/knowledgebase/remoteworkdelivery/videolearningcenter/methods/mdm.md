@@ -1,3 +1,8 @@
+---
+title: "Copy files and keep them up to date with your MDM service"
+description: "Copy files and keep them up to date with your MDM service"
+sidebar_position: 20
+---
 # Copy files and keep them up to date with your MDM service
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6mSa32FwGf4" title="Endpoint Policy Manager Remote Work Delivery Manager: Copy files and keep them up to date with your MDM service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

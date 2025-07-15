@@ -1,3 +1,8 @@
+---
+title: "Mass copy folders and files (with filters and recursion)"
+description: "Mass copy folders and files (with filters and recursion)"
+sidebar_position: 30
+---
 # Mass copy folders and files (with filters and recursion)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CummC86WfoM" title="Endpoint Policy Manager Remote Work Delivery Manager: Mass copy folders and files (with filters and recursion)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
