@@ -101,7 +101,10 @@ Remove redundant assignments by proceeding as follows:
 **Step 2 –** Click on **Analyze** to tag the manual roles and resource types from all policies
 eligible for conversion to an automatic state.
 
-**NOTE:** Previous tags are cleared at each instance of this tagging process.
+:::note
+Previous tags are cleared at each instance of this tagging process.
+:::
+
 
 **Step 3 –** Click on **Download Excel** to download a dedicated XLSX report which contains one tab
 per entity type representing identities.

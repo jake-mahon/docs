@@ -8,8 +8,11 @@ sidebar_position: 30
 
 This topic shows how to build efficient jobs by minimizing their costs.
 
-**NOTE:** The rules below must be followed when creating a new job, otherwise the frequent launch of
+:::note
+The rules below must be followed when creating a new job, otherwise the frequent launch of
 this scheduled job will trigger errors in a SaaS environment.
+:::
+
 
 ### Prerequisites
 

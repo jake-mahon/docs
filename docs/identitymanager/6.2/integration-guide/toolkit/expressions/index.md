@@ -24,8 +24,11 @@ The expression can either be provided as a built-in function or as a full-fledge
 the list of available C# utility functions and functions predefined by Identity Manager. See the
 [Predefined functions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/predefined-functions/index.md) topic for additional information.
 
-**NOTE:** When changing the value of a property that is part of some expressions in the
+:::note
+When changing the value of a property that is part of some expressions in the
 configuration, do not expect to see all expressions recomputed right away.
+:::
+
 
 In order to ensure the recomputation of all expressions based on the recent change, wait for the
 next run of Update Expressions in the complete job or through the corresponding connector's overview

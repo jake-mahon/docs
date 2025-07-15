@@ -38,8 +38,11 @@ In order to do so you must connect to the Okta administration console
 `https://myexample-admin.okta.com` and create a new Netwrix Identity Manager (formerly Usercube)
 user.
 
-**NOTE:** For some Okta deployments it is possible to create a service account or to Manage an Okta
+:::note
+For some Okta deployments it is possible to create a service account or to Manage an Okta
 user account as a service account.
+:::
+
 
 **Step 2 –** Assign administrator role and permissions to the Netwrix Identity Manager (formerly
 Usercube) user.

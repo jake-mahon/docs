@@ -41,8 +41,11 @@ script in the command line.
 
 ![Example - DisplayTableDesignElement Set to List](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/displaytable/displaytabledesignelement_list_v602.webp)
 
-_Remember,_ for resources to be displayed as a list, the display table must also be configured with
+:::tip
+Remember, for resources to be displayed as a list, the display table must also be configured with
 tiles.
+:::
+
 
 DisplayTableDesignElement resourcetable
 

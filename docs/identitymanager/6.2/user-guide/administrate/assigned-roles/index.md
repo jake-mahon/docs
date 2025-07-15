@@ -8,8 +8,11 @@ sidebar_position: 70
 
 How to review user permissions grouped by categories.
 
-**NOTE:** **Assigned Roles** is currently in a preview state and additional functionality will be
+:::note
+**Assigned Roles** is currently in a preview state and additional functionality will be
 added in a future release.
+:::
+
 
 ## Overview
 

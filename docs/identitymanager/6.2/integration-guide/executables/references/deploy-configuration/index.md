@@ -35,10 +35,13 @@ script in the command line.
 ./identitymanager-Deploy-Configuration.exe -d "C:/identitymanager/Conf" --api-url https://my_usercube_instance.com
 ```
 
-**_RECOMMENDED:_** To be able to deploy a SaaS configuration, you must first provide your Identity
+:::info
+To be able to deploy a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
 [Deploy the Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md) topic for
 additional information.
+:::
+
 
 ## Arguments
 

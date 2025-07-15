@@ -67,7 +67,10 @@ appsettings.agent.json
 }
 ```
 
-**NOTE:** The identifier of the connection and thus the name of the subsection must:
+:::note
+The identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - be unique
 - not begin with a digit
@@ -116,8 +119,11 @@ This connector is meant to generate the following files:
 - `<connectionIdentifier>_directoryobjects.csv` containing the property values from the entity type
   mapping associated with the connection.
 
-    **NOTE:** The values are exported from the entities listed in the attribute `C0` of the
+    :::note
+    The values are exported from the entities listed in the attribute `C0` of the
     `EntityTypeMapping`.
+    :::
+
 
     For example, with the following configuration:
 
@@ -144,10 +150,13 @@ This connector is meant to generate the following files:
     ...
     ```
 
-    _Remember,_ attributes described as "Supported only on the Get `<entity_name>` API" in the
+    :::tip
+        Remember, attributes described as "Supported only on the Get `<entity_name>` API" in the
     [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/overview?view=graph-rest-1.0)
     documentation cannot be retrieved through this connector. The export task will raise an error if
     these attributes are used in your EntityTypeMapping.
+    :::
+
 
     This connector supports
     [Microsoft Entra ID Schema Extensions](https://docs.microsoft.com/en-us/previous-versions/azure/ad/graph/howto/azure-ad-graph-api-directory-schema-extensions)
@@ -168,17 +177,23 @@ This connector is meant to generate the following files:
     Where command can be `insert`, `update` or `delete`; groupId is the id of the group; id is the
     id of the group member (in this context).
 
-    **NOTE:** Only the navigation properties `members` and `owners` are exported. These navigation
+    :::note
+    Only the navigation properties `members` and `owners` are exported. These navigation
     properties are automatically detected according to the data exported.
+    :::
+
 
 - one file `<connectionIdentifier>_cookie_<entity>.bin` per entity, containing an URL with a
   `delta token` useful for incremental export.
 
     > For example `MicrosoftEntraIDExport_cookie_user.bin`
 
-    _Remember,_ most exports can be run in complete mode, where the CSV files will contain all
+    :::tip
+        Remember, most exports can be run in complete mode, where the CSV files will contain all
     entries, or in incremental mode, where CSV files will contain only the entries which have been
     modified since the last synchronization.
+    :::
+
 
     A task can use the IgnoreCookieFile boolean property, and a command line (with an executable)
     can use the option --ignore-cookies.

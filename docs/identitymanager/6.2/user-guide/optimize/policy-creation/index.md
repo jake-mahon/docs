@@ -26,8 +26,11 @@ means, for example, one policy for workers (meaning employees and contractors), 
 partners, another one for clients. But sometimes partners are included in the same policy as
 workers, it depends on the organization.
 
-**NOTE:** Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
+:::note
+Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
 project is mature enough should integrators think about creating additional policies.
+:::
+
 
 ## Participants and Artifacts
 
@@ -88,8 +91,11 @@ The UI elements are identified as follows:
     - Always — The assignment's end date is always locked according to the applicable context rule
     - Dimensions — Criteria that, if met, trigger the membership of given identities to the policy
 
-**NOTE:** What we call another IGA tool can be another application or even another version of
+:::note
+What we call another IGA tool can be another application or even another version of
 Identity Manager.
+:::
+
 
 **Step 4 –** Click on **Create**.
 

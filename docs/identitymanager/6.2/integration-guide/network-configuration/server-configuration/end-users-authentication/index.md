@@ -117,12 +117,15 @@ script in the command line.
 
 ```
 
-**NOTE:** Identity Manager Server won't start if the
+:::note
+Identity Manager Server won't start if the
 [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up during this step is identical to
 the one provided with the SDK. Users must provide their own certificate. Self-signed certificates
 are accepted as valid. See
 the[Install the Server](/docs/identitymanager/6.2/installation-guide/production-ready/server/index.md)topic for
 additional information.
+:::
+
 
 ## Configuration Section Description
 
@@ -182,11 +185,14 @@ to enable Identity Manager's testers to identify which authentication method is 
 in the code, with a mnemonic name. Any name can be used as long as all AuthenticationSchemes are
 different.
 
-**NOTE:** This guide doesn't cover how to set up authorizations within Identity Manager.
+:::note
+This guide doesn't cover how to set up authorizations within Identity Manager.
 Authorization for an end-user to access Identity Manager resources relies on assigning roles to
 profiles. Identity credentials used for authentication must be linked to these profiles in the
 applicative configuration. See the [Various XML Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/settings/index.md)topic for
 additional information.
+:::
+
 
 Authentication-related settings are done through the following sections of the appsettings set:
 
@@ -250,8 +256,11 @@ retrieves identity credentials from the Windows session where the user is logged
 to the domain controller for authentication. The domain controller confirms the user's identity and
 validates it for Identity Manager. The end-user doesn't have to input any credentials.
 
-**NOTE:** If Integrated Windows Authentication is used, internal methods have to be disabled with
+:::note
+If Integrated Windows Authentication is used, internal methods have to be disabled with
 the `"AllowLocalLogin":false` setting.
+:::
+
 
 ### Requirements
 
@@ -346,8 +355,11 @@ Claim names.
 For this reason, the name of the claim that is retrieved by Identity Manager for authorization
 purposes can be set up according to the provider's specifics.
 
-**NOTE:** Users should be able to get a list of the claim names used by their authentication
+:::note
+Users should be able to get a list of the claim names used by their authentication
 providers from their providers' portal website, documentation or administrators.
+:::
+
 
 For example, the following claim provides no meaningful `sub` value.
 
@@ -736,7 +748,10 @@ This information can be set one of two ways:
   identified by SubjectDistinguishedName or by Thumbprint. The Windows certificate also contains
   both the public key certificate and the private key.
 
-_Remember,_ Netwrix recommends using Windows' certificate store.
+:::tip
+Remember, Netwrix recommends using Windows' certificate store.
+:::
+
 
 On the other hand, the PFX file takes priority over Windows' certificate, which means that when
 `File` is specified then the PFX certificate is used, even if the options for Windows' certificate
@@ -744,9 +759,12 @@ are specified too.
 
 In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
 
-_Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
+:::tip
+Remember, the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
 Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and
 EncryptionCertificate are defined at the same level in the configuration file.
+:::
+
 
 #### As a PFX file
 
@@ -817,9 +835,12 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 Vault connection. See the [Azure Key Vault](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 topic for additional information.
 
-_Remember,_ the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
+:::tip
+Remember, the AzureKeyVault section is mandatory when using CertificateAzureKeyVault. Identity
 Manager server loads the encryption certificate from Azure Key Vault only if the AzureKeyVault and
 EncryptionCertificate are defined at the same level in the configuration file.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -990,7 +1011,10 @@ method.
 A Test User Store can be set up under the authentication > TestUserStore section. It allows all
 users to authenticate with their login and the same password.
 
-_Remember,_ this should never be used in a production environment.
+:::tip
+Remember, this should never be used in a production environment.
+:::
+
 
 The following parameters are available under the authentication > TestUserStore section:
 

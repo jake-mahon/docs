@@ -57,7 +57,10 @@ Display tables with other values of `<DisplayTableDesignElement>` cannot display
 See the[Tile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for
 additional information.
 
-_Remember,_ if the display table uses tiles, then you can't use bindings.
+:::tip
+Remember, if the display table uses tiles, then you can't use bindings.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

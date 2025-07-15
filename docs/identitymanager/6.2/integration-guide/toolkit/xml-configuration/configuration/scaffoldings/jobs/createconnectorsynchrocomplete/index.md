@@ -44,9 +44,12 @@ script in the command line.
 
 ### AddTask
 
-**NOTE:** The old algorithm is no longer supported, so manual task addition is no longer required.
+:::note
+The old algorithm is no longer supported, so manual task addition is no longer required.
 If an exceptional situation requres the creation of a task note that the CopyOccurence must be
 deleted from the code.
+:::
+
 
 Example
 

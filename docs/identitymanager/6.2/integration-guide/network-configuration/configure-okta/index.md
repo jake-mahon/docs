@@ -33,8 +33,11 @@ application and add `/signin-oidc`. The Identity Manager disconnection redirecti
 necessary. To construct it, take Identity Manager's URL again and, at the end, add
 `/signout-callback-oidc`.
 
-**NOTE:** The **Logout redirect URLs** section is marked as optional but it is mandatory for
+:::note
+The **Logout redirect URLs** section is marked as optional but it is mandatory for
 Identity Manager.
+:::
+
 
 ![Save Application](/img/product_docs/identitymanager/saas/integration-guide/network-configuration/how-tos/okta/okta_saveapplication.webp)
 

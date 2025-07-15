@@ -23,12 +23,15 @@ information. Thus, each role is linked to one navigation rule per entitlement. S
 [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topic for additional information.
 
-**NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator
+:::note
+For example, imagine that we want to grant unlimited Internet access to the administrator
 profile of an identity. This entitlement won't be assigned directly to the identity but to its AD
 administration account. In our Active Directory, there is a resource called
 `<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group
 membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a
 value of the **memberOf** property.
+:::
+
 
 ## Participants and Artifacts
 
@@ -68,8 +71,11 @@ New** at the top right corner.
   [Schedule a Certification Campaign](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
   topic for additional information.
 
-    **NOTE:** Netwrix recommends using role tags when you want to perform an access certification on
+    :::note
+    Netwrix recommends using role tags when you want to perform an access certification on
     a set of roles that are from several categories.
+    :::
+
 
 - Category: Category which is to contain the created role.
 - Secondary Categories: Other potential categories which are to contain the created role.
@@ -99,8 +105,11 @@ New** at the top right corner.
 - Maximum Duration: Duration (in minutes) after which the role will be automatically revoked, if no
   earlier end date is specified.
 
-    **NOTE:** The maximum duration impacts only the roles which are manually assigned after the
+    :::note
+    The maximum duration impacts only the roles which are manually assigned after the
     maximum duration is set. Pre-assigned roles are not impacted.
+    :::
+
 
     - If no duration is set on the role, the maximum duration of the associated policy is applied.
     - If the duration is set to 0 on the role, it prevents the associated policy from applying its
@@ -110,8 +119,11 @@ New** at the top right corner.
   will be required to validate or decline the entitlement prolongation. Inferred entitlements won't
   be lost unless the end of the grace period is reached or the prolongation is declined.
 
-    **NOTE:** The grace period is only applied if the loss of the entitlement is due to a change in
+    :::note
+    The grace period is only applied if the loss of the entitlement is due to a change in
     the rules, i.e. rule deletion or criteria changes.
+    :::
+
 
     If the grace period is not defined, the value is inherited from the policy.
 
