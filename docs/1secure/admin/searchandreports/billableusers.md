@@ -51,6 +51,6 @@ This table provides a list of filters and descriptions.
 
 | Filter      | Description                                                                                                                                                                             |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Account     | Limits your search to a specific account. Account is an instance of a user, specific to a source. For example: User = John.Smith Account = AD User: John.Smith / Azure User: John.Smith |
+| Account     | Limits your search to a specific account. Account is an instance of a user, specific to a source. For example:<br /> User = John.Smith <br /> Account = AD User: John.Smith / Azure User: John.Smith |
 | User        | Limits your search to a specific user.                                                                                                                                                  |
-| Source Type | Specify the source type of the user: - AD User - Azure User - Windows Local User                                                                                                        |
+| Source Type | Specify the source type of the user: <br /><ul><li>AD User</li><li>Azure User</li><li>Windows Local User</li></ul>                                                                                                        |
