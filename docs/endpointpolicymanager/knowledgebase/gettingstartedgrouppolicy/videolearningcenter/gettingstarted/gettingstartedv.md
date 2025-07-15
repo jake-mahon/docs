@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager with Group Policy Method: Getting Started"
+description: "Endpoint Policy Manager with Group Policy Method: Getting Started"
+sidebar_position: 30
+---
 # Endpoint Policy Manager with Group Policy Method: Getting Started
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5-C4szQA75o" title="PPGP Quick Rundown: Getting Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

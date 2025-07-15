@@ -7,7 +7,7 @@ sidebar_position: 10
 # Group Policy Delivery Quick Start
 
 For an overview of Group Policy Quick Start, the
-[Admin Console And CSE Installation](/docs/endpointpolicymanager/video/grouppolicy/install.md) video.
+[Admin Console And CSE Installation](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/gettingstarted/install.md) video.
 
 **Step 1 –** Install the Endpoint Policy Manager Client on an example endpoint
 

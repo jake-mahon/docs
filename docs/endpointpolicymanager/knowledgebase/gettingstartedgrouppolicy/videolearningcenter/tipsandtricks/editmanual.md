@@ -1,3 +1,8 @@
+---
+title: "Manual editing Item Level Targeting to affect local Admins and other local accounts"
+description: "Manual editing Item Level Targeting to affect local Admins and other local accounts"
+sidebar_position: 10
+---
 # Manual editing Item Level Targeting to affect local Admins and other local accounts
 
 PolicyPak: Manual editing Item Level Targeting to affect local Admins and other local accounts

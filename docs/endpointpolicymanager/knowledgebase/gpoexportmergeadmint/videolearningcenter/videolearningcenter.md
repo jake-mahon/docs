@@ -23,7 +23,7 @@ See the following Video topics for GPO Export Merge, Admin Templates, and Prefe
 
 ## Admin Templates Methods: Cloud, MDM, SCCM, etc.
 
-- [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/mdm/exportgpos.md)
+- [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/tipsandtricks/exportgpos.md)
 - [Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet](/docs/endpointpolicymanager/video/administrativetemplates/deployinternet.md)
 
 ## Admin Templates: Tips & Tricks

@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Explained: In about two minutes"
+description: "Endpoint Policy Manager Explained: In about two minutes"
+sidebar_position: 10
+---
 # Endpoint Policy Manager Explained: In about two minutes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yTcN57wz3Fg" title="PP On Prem &amp; MDM Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

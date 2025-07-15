@@ -20,13 +20,13 @@ See the following Video topics for getting started with MDM.
 
 ## Exporting, Tips, and Tricks
 
-- [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/mdm/exportgpos.md)
+- [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/tipsandtricks/exportgpos.md)
 - [Deliver Group Policy Admin Templates Using Your MDM Service](/docs/endpointpolicymanager/video/mdm/admintemplates.md)
 - [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
 
 ## Troubleshooting
 
-- [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/grouppolicy/renameendpoint.md)
+- [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/gettingstarted/renameendpoint.md)
 
 ## ILT (with Scripts)
 

@@ -1,3 +1,8 @@
+---
+title: "Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)"
+description: "Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)"
+sidebar_position: 20
+---
 # Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a1QE8ljmGFA" title="Endpoint Policy Manager: Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

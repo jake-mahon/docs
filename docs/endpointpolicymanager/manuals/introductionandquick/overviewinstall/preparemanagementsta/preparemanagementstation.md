@@ -55,4 +55,4 @@ you’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 Additional resources you may be interested in:
 
 - [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
-- [Admin Console And CSE Installation](/docs/endpointpolicymanager/video/grouppolicy/install.md)
+- [Admin Console And CSE Installation](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/gettingstarted/install.md)

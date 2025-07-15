@@ -105,7 +105,7 @@ link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)
 
 Most customers want to use Endpoint Policy Manager with Group Policy. You can watch the getting
 started video on how to install and run some initial tests at the following link:
-[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/video/grouppolicy/gettingstarted.md).
+[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/gettingstarted/gettingstartedv.md).
 
 ## GetStarted with the Endpoint Policy Manager Cloud Method
 
