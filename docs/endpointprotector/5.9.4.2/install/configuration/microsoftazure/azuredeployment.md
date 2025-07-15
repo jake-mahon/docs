@@ -67,7 +67,5 @@ allow the Netwrix team to copy the image;
 **Step 10 –** Copy the Blob SAS URL and send it to Netwrix.
 
 :::note
-Netwrixwill copy the Endpoint Protector Virtual Machine to your storage account and notify
-you when the process is over.
-
+Netwrix will copy the Endpoint Protector Virtual Machine to your storage account and notify you when the process is over.
 :::
