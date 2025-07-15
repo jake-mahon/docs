@@ -112,4 +112,7 @@ To view the details of an action, click the plus sign in the respective row to e
 Information includes the object attribute that was affected, the type of change made, and the old
 and new values.
 
-**NOTE:** For objects in the Recycle Bin, the Show activity option is not available.
+:::note
+For objects in the Recycle Bin, the Show activity option is not available.
+
+:::

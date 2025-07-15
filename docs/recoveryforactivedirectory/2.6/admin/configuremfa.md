@@ -9,9 +9,12 @@ sidebar_position: 20
 You can configure multi-factor authentication (MFA) for your Recovery for Active Directory account
 to add an additional layer of security when signing into the application.
 
-**NOTE:** At present, only authenticator apps are supported for MFA. As a prerequisite to enabling
+:::note
+At present, only authenticator apps are supported for MFA. As a prerequisite to enabling
 MFA, install an authenticator app, such as Google Authenticator or Microsoft Authenticator, on your
 phone.
+:::
+
 
 ## Enable Authenticator for MFA
 
