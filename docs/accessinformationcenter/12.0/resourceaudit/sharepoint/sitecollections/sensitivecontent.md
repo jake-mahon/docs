@@ -31,4 +31,7 @@ were found:
 - Suffix – Text just after the sensitive data match in the file
 - Sub File – File name if the sensitive data files reside in a PST file or a ZIP file
 
-**NOTE:** Up to five matches per file can be displayed.
+:::note
+Up to five matches per file can be displayed.
+
+:::

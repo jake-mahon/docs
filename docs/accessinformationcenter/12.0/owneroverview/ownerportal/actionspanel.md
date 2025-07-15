@@ -36,5 +36,8 @@ Requests feature.
   [Your Access Portal Overview](/docs/accessinformationcenter/12.0/youraccessportal/overview.md) topic for
   additional information.
 
-    **NOTE:** If you have an assigned user role, you can access the Your Access portal with the
+    :::note
+    If you have an assigned user role, you can access the Your Access portal with the
     **Manage Your Access** link on the Home page.
+    
+    :::

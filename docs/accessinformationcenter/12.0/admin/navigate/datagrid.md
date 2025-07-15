@@ -26,8 +26,11 @@ filter. You can apply filters to multiple columns simultaneously.
 Click the filter icon for the column you want to filter. Select the values you want to filter for
 from the list, and click **Apply**.
 
-**NOTE:** Hold the **Shift** key and click the first and last values to select a group of adjacent
+:::note
+Hold the **Shift** key and click the first and last values to select a group of adjacent
 values, or hold the **Ctrl** key and click each value to select multiple values individually.
+:::
+
 
 ![tablecolumnfilterclear](/img/product_docs/accessinformationcenter/12.0/general/tablecolumnfilterclear.webp)
 

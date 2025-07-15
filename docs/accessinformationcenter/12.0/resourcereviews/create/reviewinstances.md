@@ -9,8 +9,11 @@ sidebar_position: 10
 After a review has been completed, it can be run again, which creates multiple instances of the
 review. Each instance is identified by date timestamps indicating its start and end times.
 
-**_RECOMMENDED:_** Prior to running another review instance, ensure the most up to date information
+:::info
+Prior to running another review instance, ensure the most up to date information
 is available to owners for review.
+:::
+
 
 ![Manage Reviews page with completed review selected](/img/product_docs/accessinformationcenter/12.0/resourcereviews/interfacerunagain.webp)
 

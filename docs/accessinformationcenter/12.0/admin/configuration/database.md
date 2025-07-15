@@ -47,7 +47,10 @@ Database service account information:
 - Use the following SQL account – Uses SQL Authentication to the database. Provide the properly
   provisioned SQL credentials for the database
 
-_Remember,_ click **Save** when any changes are made to this page.
+:::tip
+Remember, click **Save** when any changes are made to this page.
+:::
+
 
 ## Update the Database Service Account Password
 

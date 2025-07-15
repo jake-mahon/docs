@@ -19,22 +19,31 @@ topic in the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
-**NOTE:** SSL for the Access Information Center can be enabled during installation. See the
+:::note
+SSL for the Access Information Center can be enabled during installation. See the
 [Install the Access Information Center](/docs/accessinformationcenter/12.0/installation/install.md) topic for additional information.
+:::
+
 
 ## Enable SSL for the AIC Website
 
 Enable Secure Sockets Layer (SSL) for secure, remote connections to the application web server.
 
-**NOTE:** These configuration steps are for if you need to manually enable SSL after installing the
+:::note
+These configuration steps are for if you need to manually enable SSL after installing the
 Access Information Center. SSL can also be enabled via the Setup wizard when you first install or
 upgrade the Access Information Center. If SSL was enabled during installation, then this
 configuration is not required.
+:::
 
-**NOTE:** Organizations typically have one or more system administrators responsible for Public Key
+
+:::note
+Organizations typically have one or more system administrators responsible for Public Key
 Infrastructure (PKI) and certificates. To continue with this configuration, it will first be
 necessary to confer with the PKI administrator to determine which certificate method will conform to
 the organization’s security policies.
+:::
+
 
 Follow the steps to enable SSL.
 
@@ -128,9 +137,12 @@ configured for the Web Console. See the Enable Single Sign-On topic of the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
-**NOTE:** The Access Information Center also supports using Microsoft Entra ID single sign-on. See
+:::note
+The Access Information Center also supports using Microsoft Entra ID single sign-on. See
 the [Microsoft Entra ID Single Sign-On](/docs/accessinformationcenter/12.0/admin/additionalconfig/entraidsso.md) topic for
 additional information.
+:::
+
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
@@ -195,5 +207,8 @@ qualified domain name is in the following format: `https://<server>.<domain>.com
 Authentication will now pass through Windows Authentication and bypass SSO configuration Prompts for
 credentials via Browser pop-up
 
-**NOTE:** A list of allowed authentication servers can also be configured using the
+:::note
+A list of allowed authentication servers can also be configured using the
 AuthServerAllowList policy.
+
+:::

@@ -16,7 +16,10 @@ your pending reviews.
 
 Use the **Sign in** link at the bottom to open the Owner portal in the Access Information Center.
 
-_Remember,_ Your company domain credentials are used to log in.
+:::tip
+Remember, Your company domain credentials are used to log in.
+:::
+
 
 ![Reviews link on the Ownership portal](/img/product_docs/accessinformationcenter/12.0/resourcereviews/ownershipportal.webp)
 
@@ -61,8 +64,11 @@ make recommendations for changes. Consider the following examples:
   be removed from its current location, or indicate that the file is not sensitive and flag it as a
   false positive.
 
-_Remember,_ any proposed changes are not committed until the Review Administrator approves the
+:::tip
+Remember, any proposed changes are not committed until the Review Administrator approves the
 recommendation and processes those changes.
+:::
+
 
 ## Resource Review Page
 

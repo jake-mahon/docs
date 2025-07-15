@@ -103,10 +103,13 @@ All group members are listed, including any nested group membership. The **Chang
 button displays any access changes being modeled. This is a primary component of change modeling.
 See the [Change Modeling](/docs/accessinformationcenter/12.0/resourceaudit/changemodeling/overview.md) topic for additional information.
 
-**NOTE:** If the Access Information Center has been configured to commit changes to Active
+:::note
+If the Access Information Center has been configured to commit changes to Active
 Directory, then there is a **Commit** button within the **Changes** window. Click **Commit** to
 commit the modeled changes to Active Directory. Only Access Information Center Administrators can
 configure the Access Information Center to commit changes to Active Directory.
+:::
+
 
 While a resource owner has access to a Resource Audit interface filtered for their resource and can
 model changes, only users with an Administrator or a Security Team role are able to commit modeled

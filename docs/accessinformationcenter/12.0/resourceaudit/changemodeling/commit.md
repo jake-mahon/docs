@@ -19,10 +19,13 @@ The following user roles can commit changes:
 - Security Team Members – This role can commit modeled changes, if the Access Information Center has
   already been configured to do so
 
-**NOTE:** All users with access to the Resource Audit interface can model changes. The **Commit**
+:::note
+All users with access to the Resource Audit interface can model changes. The **Commit**
 button in the Group Membership Changes window is not available to users with the Reader role or
 owners with no assigned role. A resource owner can use the **Change Access** button in the Owner
 portal.
+:::
+
 
 Return to the Group Membership Changes window to view the modeled changes by clicking the **Change
 Group Membership** button on the Group Membership pane.

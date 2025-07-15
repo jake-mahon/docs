@@ -10,8 +10,11 @@ The Access Information Center can be configured to use Microsoft Entra ID Single
 configured, users are directed to the Microsoft Entra ID login page, and can log in using their
 existing Entra credentials.
 
-**NOTE:** If enabled, only Microsoft Entra ID SSO can be used for logging in. Other accounts,
+:::note
+If enabled, only Microsoft Entra ID SSO can be used for logging in. Other accounts,
 including the default administrator account, cannot be used.
+:::
+
 
 The following is required to use Microsoft Entra ID SSO:
 
@@ -81,10 +84,13 @@ Microsoft Entra ID SSO in the Access Information Center config file.
 To enable Microsoft Entra ID SSO for the Access Information Center, the config file needs to be
 updated with values from Microsoft Entra ID. Follow the steps to enable the SSO.
 
-_Remember,_ Enabling Entra ID SSO requires SSL to be enabled. If this was not done during the
+:::tip
+Remember, Enabling Entra ID SSO requires SSL to be enabled. If this was not done during the
 installation, then you must manually configure it. See the
 [Securing the Access Information Center](/docs/accessinformationcenter/12.0/installation/secure.md) topic for additional
 information.
+:::
+
 
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
@@ -103,9 +109,12 @@ as follows:
     <add key="WsFederationReply" value="" />
 ```
 
-**NOTE:** For new installations of the Access Information Center these parameters are already in the
+:::note
+For new installations of the Access Information Center these parameters are already in the
 config file. If you have upgraded from a previous version, then you need to manually add them as the
 config file is retained during an upgrade to maintain the existing settings.
+:::
+
 
 **Step 3 –** Add the required values for the parameters from your Microsoft Entra ID application:
 

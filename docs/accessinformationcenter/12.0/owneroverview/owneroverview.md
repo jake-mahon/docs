@@ -14,9 +14,12 @@ the ability to make ad hoc changes to access of your resources. If your organiza
 Resource Review attestations, you will be expected to complete reviews. If your organization enables
 Self-Service Access Requests, you will be expected to process requests for your resource.
 
-**NOTE:** For the Access Information Center, a “resource” refers to the file system shared folders,
+:::note
+For the Access Information Center, a “resource” refers to the file system shared folders,
 SharePoint sites, Active Directory (AD) groups, AD distribution lists, and/or local Administrators
 groups.
+:::
+
 
 Your Access Information Center Administrator will let you know what URL to use for logging in as
 well as what credentials to use. The URL will require you to be connected to your organization's

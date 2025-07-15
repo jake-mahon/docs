@@ -22,8 +22,11 @@ additional information.
 The .Active Directory Inventory Solution must be successfully executed prior to installing the
 Access Information Center.
 
-**_RECOMMENDED:_** Successfully execute other solutions, like File System or SharePoint, which
+:::info
+Successfully execute other solutions, like File System or SharePoint, which
 supply the data for Resource Audits.
+:::
+
 
 ### Permissions
 
@@ -87,8 +90,11 @@ Analyzer Console, the following minimal server requirements are needed for Acces
 - 20+ GB Disk Space
 - .NET Framework 4.7.2+
 
-**NOTE:** If utilizing any of the Access Information Center workflows (Resource Reviews or
+:::note
+If utilizing any of the Access Information Center workflows (Resource Reviews or
 Self-Service Access Requests), additional CPU cores, memory, and disk space may be needed.
+:::
+
 
 ## Software Compatibility & Versions
 

@@ -23,11 +23,14 @@ configure access groups for those resources in the target environment. An access
 of the following access levels to a specific resource: Read, Modify, or Full Control. See the
 [Access Groups](/docs/accessinformationcenter/12.0/resourceowners/accessgroups.md) topic for additional information.
 
-**NOTE:** The Access Information Center can only commit group membership changes to domains it has
+:::note
+The Access Information Center can only commit group membership changes to domains it has
 access to, that is the domain where it resides or domains with a trust that are known to it. Also,
 the Active Directory service account must have the required permissions for all applicable domains.
 See the [Multiple Domains](/docs/accessinformationcenter/12.0/admin/configuration/activedirectory.md#multiple-domains) topic for
 additional information.
+:::
+
 
 ## Best Practice for Least Privilege
 
@@ -47,8 +50,11 @@ two options for assigning the Active Directory service account:
   option, but can be used as the Active Directory service account. See the
   [Active Directory Page](/docs/accessinformationcenter/12.0/admin/configuration/activedirectory.md) topic for additional information.
 
-**_RECOMMENDED:_** The best practice is to create at least two OUs for ease of organization: a
+:::info
+The best practice is to create at least two OUs for ease of organization: a
 security group OU and a distribution list group OU.
+:::
+
 
 **Step 3 –** Apply delegation to these OUs to grant the minimal rights of **Allow Read Members** and
 **Allow Write Members** to the Active Directory service account.

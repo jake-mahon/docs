@@ -16,7 +16,10 @@ and click **Remove Access**. The Remove Access window opens to confirm the actio
 
 **Step 2 –** Click **Yes** to cancel the remove your access for the selected resource.
 
-**NOTE:** You can click **No** to keep the access and close the Remove Access window.
+:::note
+You can click **No** to keep the access and close the Remove Access window.
+:::
+
 
 ![Remove Access window access removed message](/img/product_docs/accessinformationcenter/12.0/accessrequests/window/removeaccesscomplete.webp)
 

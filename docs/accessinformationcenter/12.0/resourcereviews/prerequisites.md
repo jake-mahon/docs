@@ -61,8 +61,11 @@ node of the Netwrix Access Analyzer (formerly Enterprise Auditor) Console. This 
 from reports on sensitive data until it has been un-flagged or the file has been modified and
 rescanned.
 
-**NOTE:** A false positive is a file which matches the sensitive data criteria but does not contain
+:::note
+A false positive is a file which matches the sensitive data criteria but does not contain
 actual sensitive data.
+:::
+
 
 ## Automation Prerequisites
 
@@ -80,10 +83,13 @@ automation of approved changes.
   modified (Read, Modify, or Full Control)
 - Sensitive Data review — There are no additional prerequisites
 
-    **CAUTION:** Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive
+    :::warning
+    Of the three possible actions of Keep, Remove, and Not Sensitive for a Sensitive
     Data review, the Remove action cannot be automated through the Access Information Center. It
     must be manually done outside of the application. See the Sensitive Data Review Automation topic
     for additional information.
+    :::
+
 
 See the [Access Groups](/docs/accessinformationcenter/12.0/resourceowners/accessgroups.md) topic for additional information.
 

@@ -9,9 +9,12 @@ sidebar_position: 80
 The Members report for a group object provides a list of all trustees, users, and groups with
 membership in the audited group. This report includes a Membership Paths table.
 
-_Remember,_ the Members report for a built-in group contains different information to the other
+:::tip
+Remember, the Members report for a built-in group contains different information to the other
 group types. See the [Members Report for a Built-in Group](/docs/accessinformationcenter/12.0/resourceaudit/group/membersbuiltin.md) topic for additional
 information.
+:::
+
 
 ![Members report](/img/product_docs/accessinformationcenter/12.0/resourceaudit/group/members.webp)
 

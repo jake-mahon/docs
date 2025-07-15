@@ -33,12 +33,15 @@ Probable owners are calculated from the available data:
     - Common Managers – Calculated by looking at the Manager property for the users within the
       selected group
 
-**NOTE:** The Probable Owner categories may or may not be populated with options. For File System or
+:::note
+The Probable Owner categories may or may not be populated with options. For File System or
 SharePoint resources, it depends on content and activity data which has been collected by Access
 Analyzer. If no content or activity information exists, no owner will be recommended. For Active
 Directory resources, it depends on the Managed By property for groups and the Manager property for
 users to be set within Active Directory. If these properties are blank, no owner will be
 recommended.
+:::
+
 
 Select the desired owner from the list and click **OK**. The Add Owner window closes and the
 selected user appears in the Owner list.

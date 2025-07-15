@@ -8,8 +8,11 @@ sidebar_position: 10
 
 The following imported data reports are available for selections within the Resources pane.
 
-**NOTE:** Although the reports are always displayed at the nodes and levels listed, whether they are
+:::note
+Although the reports are always displayed at the nodes and levels listed, whether they are
 populated is determined by what data is imported for the environment.
+:::
+
 
 Environment Node Report
 

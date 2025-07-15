@@ -24,8 +24,11 @@ Additionally you can view license details and upload a new license.
 This interface is available only to users with the Administrator role. See the
 [Configuration Interface Overview](/docs/accessinformationcenter/12.0/admin/configuration/overview.md) topic for additional information.
 
-**NOTE:** Users with the User Access Administrator role have access only to the Console Access page
+:::note
+Users with the User Access Administrator role have access only to the Console Access page
 of the Configuration interface.
+:::
+
 
 For Security Team & Administrator
 
@@ -39,8 +42,11 @@ within the Resource Owners interface. In order for Owners to make ad hoc changes
 Access Information Center must be configured to commit changes in Active Directory. The **Resource
 Owners** button is associated to the Access Requests and Entitlement Reviews license features.
 
-**_RECOMMENDED:_** Enable notifications when managing resources through the Access Information
+:::info
+Enable notifications when managing resources through the Access Information
 Center.
+:::
+
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Resource Owners Interface](/docs/accessinformationcenter/12.0/resourceowners/interface/interface.md) topic for additional information.
@@ -51,8 +57,11 @@ membership, permissions, and sensitive data. This requires the Access Informatio
 configured to send notifications. The **Resource Reviews** button is associated to the Entitlement
 Reviews license feature.
 
-**_RECOMMENDED:_** While not required, enabling the Access Information Center to commit changes in
+:::info
+While not required, enabling the Access Information Center to commit changes in
 Active Directory is an optional component of the Resource Reviews workflow.
+:::
+
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md) topic for additional information.

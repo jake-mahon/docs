@@ -60,8 +60,11 @@ directory:
 
 Follow the steps to customize the email templates.
 
-**NOTE:** To successfully modify these Notifications email templates, a familiarity with basic HTML
+:::note
+To successfully modify these Notifications email templates, a familiarity with basic HTML
 is necessary.
+:::
+
 
 ![Templates Zip file in the Installation Directory](/img/product_docs/accessinformationcenter/12.0/admin/additionalconfig/emailtemplateszipfile.webp)
 
@@ -72,8 +75,11 @@ is necessary.
 **Step 2 –** Unzip the `Templates.zip` file and save the contents to a folder within this directory
 named `Templates`.
 
-**CAUTION:** The customized email templates must be in the `Templates` folder within the
+:::warning
+The customized email templates must be in the `Templates` folder within the
 installation directory to be preserved during future application upgrades.
+:::
+
 
 ![Unzipped Email Templates in Templates Folder](/img/product_docs/accessinformationcenter/12.0/admin/additionalconfig/emailtemplatesunzipped.webp)
 
@@ -81,8 +87,11 @@ installation directory to be preserved during future application upgrades.
 
 **Step 4 –** Open the file with a text editor, e.g. Notepad, and customize the email body.
 
-**NOTE:** Using a tool other than a text editor to edit HTML files, such as a WYSIWYG web page
+:::note
+Using a tool other than a text editor to edit HTML files, such as a WYSIWYG web page
 editor which may drastically alter the underlying HTML code, is not supported.
+:::
+
 
 **Step 5 –** Email subject lines can be edited by changing the text between the opening `<title>`
 tag and the closing `</title>` tag.

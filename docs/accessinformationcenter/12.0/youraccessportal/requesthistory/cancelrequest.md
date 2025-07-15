@@ -18,7 +18,10 @@ click **Cancel**. The Cancel Request window opens to confirm the action.
 
 **Step 2 –** Click **Yes** to cancel the request.
 
-**NOTE:** You can click **No** to keep the pending request and close the Cancel Request window.
+:::note
+You can click **No** to keep the pending request and close the Cancel Request window.
+:::
+
 
 ![Cancel Request window request has been cancelled message](/img/product_docs/accessinformationcenter/12.0/accessrequests/window/cancelrequestcomplete.webp)
 

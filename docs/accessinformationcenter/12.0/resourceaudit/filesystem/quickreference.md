@@ -39,7 +39,10 @@ The following reports are available at the server level:
 
 The following reports are available at the local policy level:
 
-**NOTE:** There are no reports at the Local Policies node level.
+:::note
+There are no reports at the Local Policies node level.
+:::
+
 
 | Report                                                      | Description                                                                                                   |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |

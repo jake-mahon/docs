@@ -19,8 +19,11 @@ click **More Options**. The Select Access window opens.
 **Step 2 –** The drop-down menu provides alternative access levels. Options vary based on how the
 resource was configured for self-service. Select the desired Access Level.
 
-_Remember,_ this is only applicable to file system and SharePoint resources. Group membership only
+:::tip
+Remember, this is only applicable to file system and SharePoint resources. Group membership only
 has one access level, Membership.
+:::
+
 
 **Step 3 –** Optionally select to only grant temporary access, or change a requested expiration
 date:
@@ -32,8 +35,11 @@ date:
 
 **Step 4 –** Click **Accept** to approve the request with the modified Access Level.
 
-**NOTE:** You can click **Cancel** to close the window without changing the Access Level or
+:::note
+You can click **Cancel** to close the window without changing the Access Level or
 approving the request.
+:::
+
 
 ![Saving Request window](/img/product_docs/accessinformationcenter/12.0/accessrequests/window/savingrequest.webp)
 

@@ -58,7 +58,10 @@ Users login with their domain credentials. If only one domain is known to the Ac
 Center, the credentials need only be username and password. If multiple domains are known to the
 Access Information Center, then the username needs to be entered in the `domain\username` format.
 
-**NOTE:** The URL may need to be added to the browser’s list of trusted sites.
+:::note
+The URL may need to be added to the browser’s list of trusted sites.
+:::
+
 
 ![AIC Login page](/img/product_docs/accessinformationcenter/12.0/admin/loginpage.webp)
 
