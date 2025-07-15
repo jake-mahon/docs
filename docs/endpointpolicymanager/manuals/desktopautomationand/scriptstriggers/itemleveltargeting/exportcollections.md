@@ -13,9 +13,9 @@ on, as well as via Endpoint Policy Manager Cloud.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager scripts with Endpoint Policy
 Manager Cloud and an MDM service see
-[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/scriptstriggers/cloud.md)
+[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/withcloud/cloud.md)
 and
-[Endpoint Policy Manager Scripts and YOUR MDM service: Un-real power](/docs/endpointpolicymanager/video/scriptstriggers/mdm.md)
+[Endpoint Policy Manager Scripts and YOUR MDM service: Un-real power](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/methods/mdm.md)
 
 Remember that Endpoint Policy Manager Scripts & Triggers Manager policies can be created and
 exported on the User or Computer side. For instance, in Figure 30, you can see an export from the
