@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Configuring Password Reset
 
-Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console**on the Password Reset
+Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console** on the Password Reset
 Server computer to open the Configuration Console.
 
 ## General Tab
@@ -87,7 +87,7 @@ Password Reset is a configurable password filter that enforces granular password
 advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a
 compliant password.
 
-![configuring_apr_1](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+![configuring_apr_1](/img/product_docs/passwordreset/3.23/administration/change.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for
 their new password, and the Password Policy Enforcer rejection message if the new password does not

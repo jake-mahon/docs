@@ -10,7 +10,7 @@ The Password Reset Client allows users to securely reset their password or unloc
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
-![the_password_reset_client](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client_1.webp)
+![the_password_reset_client](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client.webp)
 
 **NOTE:** The Password Reset Client does not modify any Windows system files.
 

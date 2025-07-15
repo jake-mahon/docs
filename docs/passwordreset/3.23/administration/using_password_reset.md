@@ -18,7 +18,7 @@ example: `http://[server]/pwreset/apr.dll? cmd=enroll&username=maryjones&domain=
 
 Where [server] is the name or IP address of the server hosting the Web Interface.
 
-![using_apr](/img/product_docs/passwordreset/3.23/administration/using_apr_1.webp)
+![using_apr](/img/product_docs/passwordreset/3.23/administration/using_apr.webp)
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are
 explained on the following pages.
