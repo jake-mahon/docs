@@ -120,7 +120,7 @@ deploys Group Policy Preference items over the Internet, even to non-domain-join
 **NOTE:** The license for this policy is not provided unless specifically requested by the customer
 when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on
 why the license is not automatically provided, please see the following link:
-[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/knowledgebase/gpoexportmergeadmint/knowledgebase/exportinggrouppolicy/componentlicense.md).
+[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/componentlicense.md).
 
 **Note**: For more information on this topic, please see this
 video:[Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)

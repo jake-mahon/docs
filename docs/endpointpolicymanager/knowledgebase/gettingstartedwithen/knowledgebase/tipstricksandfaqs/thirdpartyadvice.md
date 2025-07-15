@@ -85,7 +85,7 @@ see if those settings actually applied.
 
 **Step 1 –** Use the Endpoint Policy Manager Merge Utility to locate CIS Benchmark GPOs with ADMX
 settings, and converting them to Endpoint Policy Manager Admin Templates Manager format.
-([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/administrativetemplates/reducegpos.md))
+([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/reducegpos.md))
 
 **Step 2 –** Once in Endpoint Policy Manager Admin Templates Manager format, use the Endpoint Policy
 Manager Group Policy Compliance Reporter (Free Version) to report on those converted settings.
@@ -100,11 +100,11 @@ specific Users or Groups, on specific IP addresses, etc etc.).
 
 **Step 1 –** Use the Endpoint Policy Manager Merge Utility to locate CIS Benchmark GPOs with ADMX
 settings, and converting them to Endpoint Policy Manager Admin Templates Manager format.
-([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/administrativetemplates/reducegpos.md))
+([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/reducegpos.md))
 
 **Step 2 –** Once in Endpoint Policy Manager Admin Templates Manager format, take advantage of Item
 Level Targeting to specifically dictate where settings should be used
-([Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/video/administrativetemplates/collections.md))
+([Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmanager/collections.md))
 
 ### Endpoint Policy Manager + CIS Benchmarks Item #4: Export CIS Benchmarks for use with Endpoint Policy Manager Cloud or Endpoint Policy Manager MDM (for domain joined or non-domain joined machines.)
 
