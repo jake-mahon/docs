@@ -9,7 +9,7 @@ sidebar_position: 20
 The `AccessInformationCenter.Service.exe.config` file is located in the Access Information Center
 installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to modify the log level.
 

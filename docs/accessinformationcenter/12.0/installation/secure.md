@@ -95,7 +95,7 @@ HTTPS.
 **Step 1 –** Open the `AccessInformationCenter.Service.exeWeb.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
-…\Program Files\STEALTHbits\Access Information Center
+**…\Program Files\STEALTHbits\Access Information Center**
 
 ![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilessl.webp)
 
@@ -151,7 +151,7 @@ Follow the steps to enable SSO for accessing the Access Information Center webs
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
-…\Program Files\STEALTHbits\Access Information Center
+**…\Program Files\STEALTHbits\Access Information Center**
 
 ![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/12.0/installation/configfilesso.webp)
 

@@ -15,7 +15,7 @@ The signed in user is displayed in the upper-right corner, along with the **Sign
 options enabled on the Home page change according to what components are licensed as well as the
 role assigned to the user.
 
-For Administrator Only
+**For Administrator Only**
 
 The **Configure Console** link opens the Configuration interface. Configure console access, Active
 Directory service account, notification settings, database access, and diagnostic logging level.
@@ -30,7 +30,7 @@ of the Configuration interface.
 :::
 
 
-For Security Team & Administrator
+**For Security Team & Administrator**
 
 The **Resource Owners** button opens the Resource Owners interface. Manage resource ownership by
 assigning owners to resources and requesting ownership confirmation. Assigned owners can manage
@@ -76,7 +76,7 @@ the target environment for the resources being managed by the Access Information
 This interface is available only to users with either the Security Team or Administrator role. See
 the [Access Requests Interface](/docs/accessinformationcenter/12.0/accessrequests/interface/interface.md) topic for additional information.
 
-For Reader, Data Privacy, Security Team, & Administrator
+**For Reader, Data Privacy, Security Team, & Administrator**
 
 The **Resource Audit** button opens the Resource Audit interface. View reports for resources, users,
 groups, computers, and sensitive content. Reports are available for resources scanned by Netwrix
@@ -90,7 +90,7 @@ features will direct you to the reports for the selected object: resource, user,
 sensitive content. These features are available to all users with an assigned user role. See the
 [Search Features](/docs/accessinformationcenter/12.0/resourceaudit/navigate/search.md) topic for additional information.
 
-For Assigned Owner
+**For Assigned Owner**
 
 The **Manage Your Resources** link opens the Owner portal. It is only visible on the Home page if
 the logged in user is also an assigned owner of at least one resource. Assigned owners without a
@@ -105,7 +105,7 @@ The Owner portal is available to any domain user who has been assigned ownership
 group within the Access Information Center. See the
 [Owner Portal Overview](/docs/accessinformationcenter/12.0/owneroverview/ownerportal/overview.md) topic for additional information.
 
-For All Domain Users
+**For All Domain Users**
 
 The **Manage Your Access** link opens the Your Access portal. Domain users without a user role who
 have not been assigned ownership are directed to the Your Access portal at login. Users can request

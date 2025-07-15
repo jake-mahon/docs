@@ -21,7 +21,7 @@ instructions on modifying its timeout parameter value.
 The timeout parameter is configured within the `AccessInformationCenter.Service.exe.config` file in
 the Access Information Center installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to modify the timeout parameter.
 

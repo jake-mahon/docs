@@ -34,13 +34,13 @@ Group Membership** button on the Group Membership pane.
 
 Additional changes can be modeled using the **Add** and **Remove** buttons.
 
-Manually Commit Changes
+**Manually Commit Changes**
 
 You can export the list of modeled changes as either a CSV or Excel file, which can be sent to your
 organization’s IT team. Select between the **CSV Export** and **Excel Export** buttons above the
 table. See the [Data Grid Features](/docs/accessinformationcenter/12.0/admin/navigate/datagrid.md) topic for additional information.
 
-Access Information Center Automatically Commits Changes
+**Access Information Center Automatically Commits Changes**
 
 If the Access Information Center has been configured to commit changes in Active Directory, then the
 **Commit** button is available at the bottom of the window.

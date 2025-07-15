@@ -56,7 +56,7 @@ may be used.
 Email templates are shipped in a ZIP file and stored in the Access Information Center installation
 directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to customize the email templates.
 
@@ -70,7 +70,7 @@ is necessary.
 
 **Step 1 –** Navigate to the Access Information Center installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 **Step 2 –** Unzip the `Templates.zip` file and save the contents to a folder within this directory
 named `Templates`.

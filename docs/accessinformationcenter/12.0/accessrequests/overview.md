@@ -44,12 +44,12 @@ without an Access Information Center role and who are not assigned resource owne
 to the Your Access portal at login. See the
 [Your Access Portal Overview](/docs/accessinformationcenter/12.0/youraccessportal/overview.md) topic for additional information.
 
-Who Can Manage Self-Service Access Requests (Request Administrators)?
+**Who Can Manage Self-Service Access Requests (Request Administrators)?**
 
 - Access Information Center Administrators
 - Access Information Center Security Team Members
 
-Who Participates in Self-Service Access Requests?
+**Who Participates in Self-Service Access Requests?**
 
 - Domain Users — Submit requests for access to resources or membership in groups
 - Owners — Approve or deny access requests

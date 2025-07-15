@@ -17,7 +17,7 @@ The Response Server Host Name parameter can be modified in the
 `AccessInformationCenter.Service.exe.config` file, which is located in the Access Information Center
 installation directory:
 
-…\STEALTHbits\Access Information Center
+**…\STEALTHbits\Access Information Center**
 
 Follow the steps to supply an alias server host name for notification hyperlinks.
 

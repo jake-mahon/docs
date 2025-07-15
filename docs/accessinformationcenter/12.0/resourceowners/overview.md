@@ -42,7 +42,7 @@ access the Owner portal by clicking the **Manage Your Resources** link in the Yo
 the Home page. See the [Owner Portal Overview](/docs/accessinformationcenter/12.0/owneroverview/ownerportal/overview.md) topic for additional
 information.
 
-Who Can Assign Ownership (Ownership Administrators)?
+**Who Can Assign Ownership (Ownership Administrators)?**
 
 - Console Users with Administrator role
 
@@ -60,7 +60,7 @@ Who Can Assign Ownership (Ownership Administrators)?
 
     - Visibility into only those reviews personally created
 
-What Can Resource Owners Do?
+**What Can Resource Owners Do?**
 
 - View reports on their resources
 - Perform a resource review (when there is a pending review)

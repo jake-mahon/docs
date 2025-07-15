@@ -67,14 +67,14 @@ There are two checkbox options depending on the report selected:
 
 Activity reports contain the following unique features.
 
-Date Range Filter
+**Date Range Filter**
 
 Activity reports display information for a selected date range. To adjust the date range, click the
 **Date Range** filter to open a calendar window. The date range can be changed manually by selecting
 dates in the calendars, using the arrows to change the month. Once the selection is made, click
 **OK**. The report loads data for the new date range.
 
-Trend Graphs
+**Trend Graphs**
 
 Trend graphs are line graphs that provide a visual representation of the activity that occurred over
 the selected date range.

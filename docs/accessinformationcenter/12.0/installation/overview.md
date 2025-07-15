@@ -51,7 +51,7 @@ these will be referred to as the Database service account and the Active Directo
   [Active Directory Page](/docs/accessinformationcenter/12.0/admin/configuration/activedirectory.md) topic for additional
   information.
 
-Commit Active Directory Changes
+**Commit Active Directory Changes**
 
 If configured and enabled, the Access Information Center can commit group membership changes within
 Active Directory. This is an optional component of change modeling, resource owner ad hoc changes,
@@ -103,7 +103,7 @@ compatible with the existing Access Analyzer installation. If necessary,
 [Netwrix Support](https://www.netwrix.com/support.html) can confirm whether the two product versions
 are compatible.
 
-Latest Version Compatibility
+**Latest Version Compatibility**
 
 | Component                                             | Current Version |
 | ----------------------------------------------------- | --------------- |

@@ -29,20 +29,20 @@ The CSV file should list one resource per row using the following format:
 
     - File System Resources – Resource path should be the UNC path to the share or folder.
 
-        \\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner
+**\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner**
 
     - SharePoint Resources – Resource path should be the URL to the site resource.
 
-        http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner
+**http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner**
 
     - Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution
       list
 
-        ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner
+**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner**
 
 - Multiple owners can be added, separated by a semicolon (;)
 
-    ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2
+**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2**
 
 - _(Optional)_ A description for the resource can be added after the last owner
 

@@ -22,7 +22,7 @@ assigned Owners can be included in a Resource Review.
 :::
 
 
-Who Can Run Resource Reviews (Review Administrators)?
+**Who Can Run Resource Reviews (Review Administrators)?**
 
 - Console Users with Administrator role
 
@@ -40,12 +40,12 @@ Who Can Run Resource Reviews (Review Administrators)?
 
     - Visibility into only those reviews personally created
 
-Who Participates in Resource Reviews?
+**Who Participates in Resource Reviews?**
 
 - Review Administrators — Create / start reviews and approve / process owner recommended changes
 - Owners — Perform reviews and recommend changes
 
-Types of Resource Reviews
+**Types of Resource Reviews**
 
 There are four types of reviews:
 
@@ -63,7 +63,7 @@ Administrator roles. This is also required for Sensitive Data reviews.
 
 See the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md) topic for additional information.
 
-Ignored Trustees
+**Ignored Trustees**
 
 Trustees added to the SA_AIC_ResourceReviewIgnoredTrustees database table are excluded from Access,
 Membership, and Permissions reviews. For Membership and Permissions reviews, trustees must be

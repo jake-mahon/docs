@@ -95,7 +95,7 @@ information.
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
-…\Program Files\STEALTHbits\Access Information Center
+**…\Program Files\STEALTHbits\Access Information Center**
 
 ![Parameters in the config file](/img/product_docs/accessinformationcenter/12.0/admin/additionalconfig/configfileentrasso.webp)
 
