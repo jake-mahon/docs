@@ -31,7 +31,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell Isilon/PowerScale host to the Activity Monitor, the prerequisites for the
 target environment must be met. See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_1.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/isilon-powerscale-aac/isilon-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for

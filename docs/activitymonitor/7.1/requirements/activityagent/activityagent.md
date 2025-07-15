@@ -105,7 +105,7 @@ Dell Isilon/PowerScale
 - 7.0+
 
 See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_1.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/isilon-powerscale-aac/isilon-activity.md)
 topic for target environment requirements.
 
 Dell PowerStore®
