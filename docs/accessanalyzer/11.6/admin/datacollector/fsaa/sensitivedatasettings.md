@@ -1,3 +1,9 @@
+---
+title: "FSAA: Sensitive Data Settings"
+description: "FSAA: Sensitive Data Settings"
+sidebar_position: 110
+---
+
 # FSAA: Sensitive Data Settings
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a

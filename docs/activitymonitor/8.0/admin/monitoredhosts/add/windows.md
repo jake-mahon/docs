@@ -29,7 +29,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_5.md)
+[Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/windowsfs-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the server. It cannot be deployed to a proxy

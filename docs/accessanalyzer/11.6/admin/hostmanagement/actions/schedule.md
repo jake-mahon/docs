@@ -1,3 +1,9 @@
+---
+title: "Schedule (Activities Pane Option)"
+description: "Schedule (Activities Pane Option)"
+sidebar_position: 130
+---
+
 # Schedule (Activities Pane Option)
 
 Use the **Schedule** option in the Activities pane to schedule a host inventory query to run for any

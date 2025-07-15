@@ -63,8 +63,7 @@ right. Resource strings are always inside a range called RESOURCE_STRINGS. Passw
 Web deletes this range before sending the page to the user's web browser.
 
 **CAUTION:** You may rebrand the Password Policy Enforcer Web user interface, but it is a violation
-of the License Agreement to modify, remove or obscure any copyright notice. See the
-[License Agreement](/docs/passwordpolicyenforcer/11.0/web/license_agreement.md) topic for additional information.
+of the License Agreement to modify, remove or obscure any copyright notice.
 
 ## Examples
 

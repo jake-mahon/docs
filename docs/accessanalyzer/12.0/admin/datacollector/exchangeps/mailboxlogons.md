@@ -22,6 +22,9 @@ Specify the date range for the logons:
 
 - Last – Select the number and time units
 
-    **NOTE:** Available units are **Days**, **Months**, or **Years**.
+    :::note
+    Available units are **Days**, **Months**, or **Years**.
+    :::
+
 
 - Between (Date) – Use the drop-down menus to open calendars to select the start and end dates

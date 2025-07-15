@@ -1,3 +1,9 @@
+---
+title: "SAP Netweaver"
+description: "SAP Netweaver"
+sidebar_position: 240
+---
+
 # SAP Netweaver
 
 This connector exports and fulfills users and roles from/to an
@@ -81,8 +87,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the
-following CSV files:
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 - `sap_users.csv` with the following columns:
 
@@ -174,7 +180,7 @@ Data protection can be ensured through:
 | Login     | `Connections--<identifier>--Login`               |
 | Password  | `Connections--<identifier>--Password`            |
 
-- a [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

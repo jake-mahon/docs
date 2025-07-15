@@ -1,3 +1,9 @@
+---
+title: "Apache Directory"
+description: "Apache Directory"
+sidebar_position: 20
+---
+
 # Apache Directory
 
 Manages users and groups in Apache Directory.

@@ -1,3 +1,9 @@
+---
+title: "What's New"
+description: "What's New"
+sidebar_position: 3
+---
+
 # What's New
 
 ## New Netwrix Community!

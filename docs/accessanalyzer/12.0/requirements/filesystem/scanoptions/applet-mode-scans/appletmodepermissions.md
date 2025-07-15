@@ -28,12 +28,18 @@ server. This is required by either the user account running the Access Analyzer 
 manually executing jobs within the console, or the Schedule Service Account assigned within Access
 Analyzer, when running jobs as a scheduled tasks.
 
-_Remember,_ Remote Registry Service must be enabled on the host where the applet is deployed (for
+:::tip
+Remember, Remote Registry Service must be enabled on the host where the applet is deployed (for
 Applet Mode or Proxy Mode with Applet scans) to determine the system platform and where to deploy
 the applet.
+:::
 
-**CAUTION:** The local policy, “Network access: Do not allow storage of passwords and credentials
+
+:::warning
+The local policy, “Network access: Do not allow storage of passwords and credentials
 for network authentication” must be disabled in order for the applet to start.
+:::
+
 
 Sensitive Data Discovery Auditing scans require .NET Framework 4.7.2 or later to be installed on the
 server where the applet is to be deployed in order for Sensitive Data Discovery collections to

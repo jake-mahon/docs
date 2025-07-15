@@ -30,10 +30,13 @@ grant_type=client_credentials
 &client_secret=xxxxxxxxxx
 ```
 
-**_RECOMMENDED:_** Tokens contain sensitive information and should be stored securely. See the
+:::info
+Tokens contain sensitive information and should be stored securely. See the
 Microsoft
 [ConvertTo-SecureString](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.4)
 article for additional information.
+:::
+
 
 If the token does not have the ability to perform this request, is invalid, or the specific resource
 has been blocked from access remotely, an HTTP status code of 401 is returned.

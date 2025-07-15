@@ -1,3 +1,9 @@
+---
+title: "Install the Production Agent"
+description: "Install the Production Agent"
+sidebar_position: 20
+---
+
 # Install the Production Agent
 
 This guide shows how to install an agent separated from the server, for production environment. See
@@ -9,7 +15,8 @@ information.
 Like all agents, the production agent aims to extract data from a given managed system, and transmit
 said data to the Identity Manager server. If necessary, the agent also enables the managed system's
 provisioning according to the orders computed by the Identity Manager server. See the
-[ Architecture ](/docs/identitymanager/6.2/introduction-guide/architecture/index.md)topic for additional information.
+[ Architecture ](/docs/identitymanager/6.2/introduction-guide/architecture/index.md) topic for additional
+information.
 
 Identity Manager solution can use several agents, each of them manages a given system. This section
 is about installing the agent managing the production environment.
@@ -41,16 +48,16 @@ Ensure that the device used for the installation has the Server Manager program.
 
 Integrators should have all the elements they need to operate.
 
-| Input                                                                                                   | Output           |
-| ------------------------------------------------------------------------------------------------------- | ---------------- |
-| [ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md)prerequisites (required) | Production agent |
+| Input                                                                                                    | Output           |
+| -------------------------------------------------------------------------------------------------------- | ---------------- |
+| [ Agent ](/docs/identitymanager/6.2/installation-guide/requirements/agent-requirements/index.md) prerequisites (required) | Production agent |
 
 ## Install the Production Agent
 
 Install the production agent by proceeding as follows:
 
-1. [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)and
-   make sure it contains the folders: `Mails`; `Sources`; `Temp`; `Work`.
+1. [ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md)
+   and make sure it contains the folders: `Mails`; `Sources`; `Temp`; `Work`.
 2. [ Configure the Agent's Settings ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/settings-files/index.md) via the `web.config`,
    `appsettings.json` and `appsettings.agent.json` files.
 3. Configure the local server to [ Install IIS via Server Manager ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-installation/index.md).

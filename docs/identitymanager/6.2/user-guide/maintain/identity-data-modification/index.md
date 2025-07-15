@@ -1,3 +1,9 @@
+---
+title: "Update Identity Data"
+description: "Update Identity Data"
+sidebar_position: 10
+---
+
 # Update Identity Data
 
 How to perform modifications in the identity repository, to manage onboarding, offboarding and

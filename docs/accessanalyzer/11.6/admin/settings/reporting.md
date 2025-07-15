@@ -1,3 +1,9 @@
+---
+title: "Reporting"
+description: "Reporting"
+sidebar_position: 90
+---
+
 # Reporting
 
 The Reporting node is for configuring the global settings for publishing Enterprise Auditor reports.

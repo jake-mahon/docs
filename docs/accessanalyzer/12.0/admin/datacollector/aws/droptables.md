@@ -23,8 +23,14 @@ tables from the Access Analyzer database. Follow the steps to configure a job to
 **Step 5 –** Click **Next** and then click **Finish** to close the Amazon Web Services Data
 Collector Wizard. Click **OK** to close the Query Properties window.
 
-**CAUTION:** When the job is run, all of the AWS DC data and tables are removed from the database.
+:::warning
+When the job is run, all of the AWS DC data and tables are removed from the database.
+:::
+
 
 The job is now configured and ready to run.
 
-**NOTE:** An AWS connection profile is not required for the Drop AWS DC Tables task.
+:::note
+An AWS connection profile is not required for the Drop AWS DC Tables task.
+
+:::

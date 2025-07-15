@@ -1,3 +1,9 @@
+---
+title: "Usercube-Export-EasyVista"
+description: "Usercube-Export-EasyVista"
+sidebar_position: 130
+---
+
 # Usercube-Export-EasyVista
 
 This tool is made to export entities from an EasyVista instance to CSV files.

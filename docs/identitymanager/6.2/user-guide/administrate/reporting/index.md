@@ -1,3 +1,9 @@
+---
+title: "Generate Reports"
+description: "Generate Reports"
+sidebar_position: 10
+---
+
 # Generate Reports
 
 How to use Identity Manager's reporting modules to produce IGA reports for auditing and governance
@@ -53,8 +59,9 @@ This operation can be performed by any user interested in producing IGA reports.
 Identity Manager provides a selection of predefined reports available in the solution. They
 represent the most common use cases.
 
-The accessibility of these predefined reports was configured during
-[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md).
+The accessibility of these predefined reports was configured during profile configuration. See the
+[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md)topic for additional
+information.
 
 Download predefined reports by proceeding as follows:
 
@@ -77,10 +84,10 @@ information.
 ## Create Customized Reports
 
 When facing a one-time need for producing specific reports, Identity Manager's Query module helps
-display attributes chosen from the data which is already
+display attributes chosen from the data which is already synchronized and classified. See the
 [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) and
-[ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md). This module offers the
-possibility to customize reports and download them.
+[ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) topics for additional
+information. This module offers the possibility to customize reports and download them.
 
 The Query module is based on predefined
 [ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)

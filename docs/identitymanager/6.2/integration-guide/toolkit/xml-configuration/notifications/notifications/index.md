@@ -1,3 +1,9 @@
+---
+title: "Notifications (Typed)"
+description: "Notifications (Typed)"
+sidebar_position: 20
+---
+
 # Notifications (Typed)
 
 - [ Access Certification Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/accesscertificationnotification/index.md)

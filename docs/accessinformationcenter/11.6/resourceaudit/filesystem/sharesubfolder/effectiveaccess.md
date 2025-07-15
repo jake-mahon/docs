@@ -1,3 +1,9 @@
+---
+title: "Effective Access Report"
+description: "Effective Access Report"
+sidebar_position: 30
+---
+
 # Effective Access Report
 
 The Effective Access report at the share and subfolder levels provides insight into who has what

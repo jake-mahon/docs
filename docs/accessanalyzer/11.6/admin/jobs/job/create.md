@@ -1,3 +1,9 @@
+---
+title: "Create a New Job"
+description: "Create a New Job"
+sidebar_position: 50
+---
+
 # Create a New Job
 
 Follow the steps to create a new job.

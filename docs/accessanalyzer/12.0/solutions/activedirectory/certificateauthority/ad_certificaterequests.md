@@ -29,8 +29,11 @@ days. The default is 60 days.
 Navigate to the **Active Directory** > **7.Certificate Authority** > **AD_CertificateRequests** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
 
@@ -50,6 +53,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_CertificateRequests job
 produces the following pre-configured report:
 
-| Report                        | Description                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                               |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Expiring Certificate Requests | Certificate hygiene is another aspect of a Certificate Authority that should be monitored. This report shows you all certificate information on certificate requests, expired, and expiring certificates. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays expiring certificates by Certificate Authority - Table –Provides a summary of expired and expiring certificates - Table –Provides details on expiring certificates |
+| Report                        | Description                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                                           |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Expiring Certificate Requests | Certificate hygiene is another aspect of a Certificate Authority that should be monitored. This report shows you all certificate information on certificate requests, expired, and expiring certificates. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays expiring certificates by Certificate Authority</li><li>Table –Provides a summary of expired and expiring certificates</li><li>Table –Provides details on expiring certificates</li></ul> |
+

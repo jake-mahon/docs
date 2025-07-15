@@ -1,3 +1,9 @@
+---
+title: "Exchange Monitoring Scope"
+description: "Exchange Monitoring Scope"
+sidebar_position: 10
+---
+
 # Exchange Monitoring Scope
 
 You can fine-tune Auditor by specifying data that you want to exclude from the Exchange monitoring

@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Filter"
+description: "EWSPublicFolder: Filter"
+sidebar_position: 50
+---
+
 # EWSPublicFolder: Filter
 
 The Filter settings page provides options to filter folders and attachments. It is a wizard page for

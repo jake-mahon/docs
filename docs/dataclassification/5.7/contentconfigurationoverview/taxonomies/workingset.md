@@ -20,5 +20,5 @@ Set links:
 
 The following facilities are available:
 
-- [Classifications](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/classifications.md)
-- [Calculations](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/calculations.md)
+- [Classifications](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/classifications.md)
+- [Calculations](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/calculations.md)

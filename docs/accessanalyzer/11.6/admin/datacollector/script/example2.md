@@ -1,3 +1,9 @@
+---
+title: "Script Example 2: Command Query"
+description: "Script Example 2: Command Query"
+sidebar_position: 80
+---
+
 # Script Example 2: Command Query
 
 The following example illustrates the use of scripts within Enterprise Auditor. This script reads a

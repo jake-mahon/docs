@@ -1,3 +1,9 @@
+---
+title: "Permissions for Exchange Auditing"
+description: "Permissions for Exchange Auditing"
+sidebar_position: 60
+---
+
 # Permissions for Exchange Auditing
 
 Before creating a monitoring plan to audit your Exchange server, you need to plan for the account

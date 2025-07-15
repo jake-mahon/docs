@@ -1,3 +1,9 @@
+---
+title: "Bulk Role Reconciliation Access Control Rules"
+description: "Bulk Role Reconciliation Access Control Rules"
+sidebar_position: 50
+---
+
 # Bulk Role Reconciliation Access Control Rules
 
 Generates the permissions to perform bulk validations on the **Role Reconciliation** page.

@@ -1,3 +1,9 @@
+---
+title: "Server Summary Report"
+description: "Server Summary Report"
+sidebar_position: 50
+---
+
 # Server Summary Report
 
 The Server Summary report at the **File System** node provides a top-level view of servers that have

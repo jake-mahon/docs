@@ -1,3 +1,9 @@
+---
+title: "SP_TrusteeAudit Job"
+description: "SP_TrusteeAudit Job"
+sidebar_position: 20
+---
+
 # SP_TrusteeAudit Job
 
 The SP_TrusteeAudit Job runs analysis tasks and generates a report on effective access of specified

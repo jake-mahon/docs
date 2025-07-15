@@ -14,7 +14,7 @@ These settings are exclusive to the Access Analyzer for Exchange Solution.
 The Exchange node is grayed-out by default. In order for these settings to be enabled, it is
 necessary to install both Access Analyzer MAPI CDO and Microsoft Exchange MAPI CDO on the Access
 Analyzer Console server. See the
-[StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+[StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/install/mapicdo/installation.md)
 topic for additional information.
 
 Once the requirements have been met, the Exchange node is enabled for configuration. These settings
@@ -51,8 +51,11 @@ on which version of Exchange is audited.
           Exchange CAS where both Remote PowerShell and Windows Authentication on the PowerShell
           Virtual Directory have been enabled.
 
-**_RECOMMENDED:_** Once the Exchange Connection Settings have been properly configured for the
+:::info
+Once the Exchange Connection Settings have been properly configured for the
 version of Exchange to be audited, it is strongly recommended that the settings be tested.
+:::
+
 
 In the Test Exchange Connection Settings section:
 

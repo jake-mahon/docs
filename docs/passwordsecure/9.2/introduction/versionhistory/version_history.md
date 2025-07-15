@@ -28,12 +28,3 @@ sections.
 - [Version 9.0.1.30479](/docs/passwordsecure/9.2/introduction/versionhistory/version_9.0.1.30479.md)
 
 - [Version 9.0.0.30423](/docs/passwordsecure/9.2/introduction/versionhistory/version_9.0.0.30423.md)
-
-- [Version 8.16.6.30233](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.6.30233.md)
-
-- [Version 8.16.5.30226](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.5.30226.md)
-- [Version 8.16.4.30125](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.4.30125.md)
-- [Version 8.16.3.29968](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.3.29968.md)
-- [Version 8.16.3.29968](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.3.29968.md)
-- [Version 8.16.1.29875](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.1.29875.md)
-- [Version 8.16.0.29823](/docs/passwordsecure/9.2/welcome/version_history/version_8.16.0.29823.md)

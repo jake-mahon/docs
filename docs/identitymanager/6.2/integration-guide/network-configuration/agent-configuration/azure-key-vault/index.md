@@ -1,3 +1,9 @@
+---
+title: "Azure Key Vault"
+description: "Azure Key Vault"
+sidebar_position: 40
+---
+
 # Azure Key Vault
 
 ## Prerequisites
@@ -10,7 +16,7 @@ First, Identity Manager recommends reading:
   [sign in to Azure and create a vault](https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#sign-in-to-azure-and-create-a-vault);
 - About
   [Azure Key Vault's secrets](https://docs.microsoft.com/en-us/azure/key-vault/secrets/about-secrets)
-  because secrets are the data that Identity Manager needs to collect.
+  because secrets are the data that Identity Manager needs to collect.
 
 ## Compatible Settings
 
@@ -72,7 +78,7 @@ To save the login to Azure Key Vault, create a secret whose name and value are r
 To save the second server, create a secret whose name and value are respectively
 `<Connections--ADExport--Servers--1--Server>` and `<marseille.contoso.com>`.
 
-_Remember,_ the index of the first element is `<0>`.
+_Remember,_ the index of the first element is `0`.
 
 This way, values from the Azure Key Vault take priority over the values from the appsettings files.
 
@@ -86,6 +92,6 @@ vault. Since the implementation of default Azure credential is controlled by Mic
 [Default Azure Credential](https://learn.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet)
 page additional information.
 
-| Name           | Type   | Description                                                                                                                             |
-| -------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Vault required | String | DNS Name found on the page of the vault in Azure's portal. _Remember,_ usually in the format is `<https://yourVault.vault.azure.net/.>` |
+| Name           | Type   | Description                                                                                                                           |
+| -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Vault required | String | DNS Name found on the page of the vault in Azure's portal. _Remember,_ usually in the format is `https://yourVault.vault.azure.net/`. |

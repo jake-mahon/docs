@@ -25,10 +25,16 @@ In the Groups section, select from the following options:
 In the Additional Properties section, select the **What rights does this group have?** checkbox to
 return rights for the selected groups.
 
-**CAUTION:** The number of offline Groups can significantly increase the time for a scan.
+:::warning
+The number of offline Groups can significantly increase the time for a scan.
+:::
 
-**_RECOMMENDED:_** For large networks, configure the length of time for a scan when Groups are
+
+:::info
+For large networks, configure the length of time for a scan when Groups are
 offline.
+:::
+
 
 - Retry Attempts [number]
 - Retry Interval [number] seconds

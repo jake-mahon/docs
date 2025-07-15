@@ -1,3 +1,9 @@
+---
+title: "Move-Group"
+description: "Move-Group"
+sidebar_position: 40
+---
+
 # Move-Group
 
 The **Move-Group** commandlet enables you to move a group to a different container in the same
@@ -38,7 +44,7 @@ Example 2:
 The following command moves the group _Training_ to the _OffShore Recruiting_ organizational unit.
 The command uses the credentials set in the $Credentials environment variable for moving a group.
 See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -49,4 +55,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -1,3 +1,9 @@
+---
+title: "General Commands"
+description: "General Commands"
+sidebar_position: 60
+---
+
 # General Commands
 
 You can use the following Management Shell cmdlets to perform tasks such as:
@@ -31,4 +37,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

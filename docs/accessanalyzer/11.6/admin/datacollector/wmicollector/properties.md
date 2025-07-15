@@ -1,3 +1,9 @@
+---
+title: "WMICollector: Properties"
+description: "WMICollector: Properties"
+sidebar_position: 30
+---
+
 # WMICollector: Properties
 
 On the Properties page, select the properties to extract.

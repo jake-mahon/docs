@@ -31,7 +31,7 @@ The jobs in the 1.Groups Job Group are:
       for all security groups to show where the group is provisioned inside the environment. This
       overwrites the Notes field with data from Access Analyzer.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure the following prerequisites are met:
 

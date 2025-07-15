@@ -27,12 +27,12 @@ be enhanced with the Netwrix Activity Monitor to also conduct Activity Auditing 
 Additionally, the Sensitive Data Discovery Add-On enables the solution to search file content for
 sensitive data, or Sensitive Data Discovery Auditing (SEEK).
 
-Supported Platforms
+**Supported Platforms**
 
 - See the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for a
   full list of supported platforms.
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 - Permissions vary based on the Scan Mode Option selected. See the
   [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for additional
@@ -42,18 +42,21 @@ Requirements, Permissions, and Ports
   [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic for
   additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
 is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The File System Solution requires a special Access Analyzer license. It can be installed from the
 Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution:
@@ -63,9 +66,12 @@ The [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/coll
 analysis on the collected data. The [FileSystemOverview Job](/docs/accessanalyzer/12.0/solutions/filesystem/filesystemoverview.md) generates a
 statistical overview report of the targeted file systems.
 
-**NOTE:** The [Cleanup Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/overview.md) and the
+:::note
+The [Cleanup Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/overview.md) and the
 [Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview.md) require additional licenses to
 function. See the [Job Groups](#job-groups) topic for additional information.
+:::
+
 
 ## Job Groups
 

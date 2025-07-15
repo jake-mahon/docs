@@ -1,3 +1,9 @@
+---
+title: "Exchange"
+description: "Exchange"
+sidebar_position: 40
+---
+
 # Exchange
 
 The Exchange node is for configuring the settings needed to query Microsoft® Exchange Servers.
@@ -8,7 +14,7 @@ These settings are exclusive to the Enterprise Auditor for Exchange Solution.
 The Exchange node is grayed-out by default. In order for these settings to be enabled, it is
 necessary to install both Enterprise Auditor MAPI CDO and Microsoft Exchange MAPI CDO on the
 Enterprise Auditor Console server. See the
-[StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+[StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/11.6/install/stealthauditmapicdoinstallation/stealthaudit_mapi_cdo_installation.md)
 topic for additional information.
 
 ![exchange_2](/img/product_docs/accessanalyzer/11.6/admin/settings/exchange_2.webp)

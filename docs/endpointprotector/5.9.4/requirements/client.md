@@ -1,3 +1,9 @@
+---
+title: "Client"
+description: "Client"
+sidebar_position: 20
+---
+
 # Client
 
 The Endpoint Protector Client has one of the smallest footprints of any similar solution on the

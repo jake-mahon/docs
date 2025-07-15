@@ -1,3 +1,9 @@
+---
+title: "GroupID Management Shell"
+description: "GroupID Management Shell"
+sidebar_position: 100
+---
+
 # GroupID Management Shell
 
 GroupID Management Shell is a command-line interface for managing objects like users, contacts,
@@ -151,4 +157,4 @@ through PowerShell 7 without the need of signing into the GroupID server.
 See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

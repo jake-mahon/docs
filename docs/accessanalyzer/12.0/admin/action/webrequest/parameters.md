@@ -14,7 +14,10 @@ Enter parameter values using the following options:
 
 - Insert Field – Select a field to include in the request from the drop-down menu.
 
-    **NOTE:** The fields available varies based on the source table.
+    :::note
+    The fields available varies based on the source table.
+    :::
+
 
 - Green circle with plus sign – Add a custom attribute. This opens the Custom Attribute Editor
   Window. See the [Custom Attribute Editor Window](#custom-attribute-editor-window) topic for

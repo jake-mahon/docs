@@ -13,10 +13,16 @@ The FS_QuarantineData job is designed to quarantine files subject to be cleaned 
 Navigate to the **FileSystem** > **Cleanup** > **3. Quarantine** > **FS_QuarantineData** >
 **Configure** node and select **Actions** to view the action tasks.
 
-**CAUTION:** Do not enable the actions unless they are required. Disable the actions after execution
+:::warning
+Do not enable the actions unless they are required. Disable the actions after execution
 to prevent making unintended and potentially harmful changes to Active Directory.
+:::
 
-**CAUTION:** Do not modify the action tasks. The action tasks are preconfigured for this job.
+
+:::warning
+Do not modify the action tasks. The action tasks are preconfigured for this job.
+:::
+
 
 ![Action Tasks for the FS_QuarantineData Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/quarantine/quarantinedataactions.webp)
 

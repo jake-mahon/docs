@@ -1,3 +1,9 @@
+---
+title: "Box Solution"
+description: "Box Solution"
+sidebar_position: 80
+---
+
 # Box Solution
 
 The Box solution set contains jobs to provide visibility into Box access rights, policies,
@@ -11,7 +17,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/box.md)
+[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/box/box_1.md)
 topic for additional information.
 
 Location

@@ -1,3 +1,9 @@
+---
+title: "Permissions for AD FS Auditing"
+description: "Permissions for AD FS Auditing"
+sidebar_position: 20
+---
+
 # Permissions for AD FS Auditing
 
 Before you start creating a monitoring plan to audit your AD FS federation servers, plan for the

@@ -1,3 +1,9 @@
+---
+title: "WMICollector: Sample Host"
+description: "WMICollector: Sample Host"
+sidebar_position: 10
+---
+
 # WMICollector: Sample Host
 
 On the Sample Host page, enter a sample host to populate options for the query.

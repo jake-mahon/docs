@@ -1,3 +1,9 @@
+---
+title: "Thresholds"
+description: "Thresholds"
+sidebar_position: 10
+---
+
 # Thresholds
 
 Thresholds are essential safety guards controlling all changes, for example preventing the
@@ -30,5 +36,5 @@ the generation of provisioning orders. They are configured with:
 All thresholds are active. Therefore, the lowest threshold (according to the specific situation)
 would be the first to stop the generation of provisioning orders.
 
-Distinct [ Thresholds ](/docs/identitymanager/6.2/integration-guide/synchronization/synchro-thresholds/index.md)are configurable for
+Distinct [ Thresholds ](/docs/identitymanager/6.2/integration-guide/synchronization/synchro-thresholds/index.md) are configurable for
 synchronization.

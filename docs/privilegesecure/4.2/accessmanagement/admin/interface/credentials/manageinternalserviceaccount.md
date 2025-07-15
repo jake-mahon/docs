@@ -31,7 +31,7 @@ Try the following possible solutions to resolve:
 - Check the user is added to the Privilege Secure console. See the
   [Users & Groups Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/usersgroups/usersgroups.md) topic for additional information.
 - Check the spelling of the Username associated with the service account. See the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
   information.
 - Make sure the user is in Active Directory in the expected domain
 

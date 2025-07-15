@@ -1,3 +1,9 @@
+---
+title: "Installing Express Agent for AIX"
+description: "Installing Express Agent for AIX"
+sidebar_position: 50
+---
+
 # Installing Express Agent for AIX
 
 Note: In order for the Change Tracker Express Agent for AIX to identify the who made the change

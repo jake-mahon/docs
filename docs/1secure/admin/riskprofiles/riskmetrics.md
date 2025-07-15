@@ -1,5 +1,5 @@
 ---
-title: "Manage Risk Metrics"
+title: "Risk Metrics"
 description: "Manage Risk Metrics"
 sidebar_position: 10
 ---

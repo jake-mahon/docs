@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the .Active Directory Inventory Solution"
+description: "Recommended Configurations for the .Active Directory Inventory Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the .Active Directory Inventory Solution
 
 The .Active Directory Inventory Solution has been configured by default to run with the

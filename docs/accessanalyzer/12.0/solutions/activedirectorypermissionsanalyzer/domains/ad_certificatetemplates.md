@@ -13,8 +13,11 @@ The AD_CertificateTemplates job provides details on certificate template setting
 Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **AD_CertificateTemplates** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_CertificateTemplates Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificatetemplatesanalysis.webp)
 
@@ -28,6 +31,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_CertificateTemplates job
 produces the following pre-configured report.
 
-| Report                             | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Certificate Template Configuration | This report highlights certificate templates and their configurations in the audited Certificate Authority. | None         | This report is comprised of three elements: - Bar Chart – Displays templates by Certificate Authority - Pie Chart – Displays templates by permission count - Table – Provides details on certificate templates |
+| Report                             | Description                                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                            |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Certificate Template Configuration | This report highlights certificate templates and their configurations in the audited Certificate Authority. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays templates by Certificate Authority</li><li>Pie Chart – Displays templates by permission count</li><li>Table – Provides details on certificate templates</li></ul> |
+

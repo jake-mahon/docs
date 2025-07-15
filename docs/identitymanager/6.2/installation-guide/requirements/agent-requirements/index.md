@@ -1,3 +1,9 @@
+---
+title: "Agent"
+description: "Agent"
+sidebar_position: 40
+---
+
 # Agent
 
 This section identifies the requirements for an Identity Manager agent.
@@ -51,8 +57,8 @@ or a custom
 
 ### Working directory permissions
 
-The agent's service account needs specific permissions on the
-[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md):
+The agent's service account needs specific permissions presented in the
+[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_, _Modify_, and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the `Runtime` directory, usually

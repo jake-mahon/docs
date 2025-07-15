@@ -1,3 +1,9 @@
+---
+title: "AWS_CustomManagedPolicies Job"
+description: "AWS_CustomManagedPolicies Job"
+sidebar_position: 10
+---
+
 # AWS_CustomManagedPolicies Job
 
 The AWS_CustomManagedPolicies job provides details on customer managed policies created in the AWS

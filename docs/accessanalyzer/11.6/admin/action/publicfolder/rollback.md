@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Rollback"
+description: "Public Folder: Rollback"
+sidebar_position: 60
+---
+
 # Public Folder: Rollback
 
 Use the Rollback page to enable rollback capabilities for the action. If rollback isn’t selected at

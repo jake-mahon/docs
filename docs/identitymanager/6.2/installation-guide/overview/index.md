@@ -1,3 +1,9 @@
+---
+title: "Overview"
+description: "Overview"
+sidebar_position: 10
+---
+
 # Overview
 
 This section will give you an overview of Identity Manager's components, their requirements and

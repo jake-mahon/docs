@@ -101,8 +101,7 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Write a script
 
-See how to
-[ Write a PowerShell Script for Provisioning ](/docs/identitymanager/saas/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)to
+See how to [Write a PowerShell Script for Provisioning](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/write-fulfill-powershell-script/index.md) to
 allow provisioning with this connector.
 
 ## Authentication
@@ -115,7 +114,7 @@ The PowerShell script manages password reset.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
 - An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 

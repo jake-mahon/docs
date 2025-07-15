@@ -1,17 +1,21 @@
+---
+title: "Connect to a Managed System"
+description: "Connect to a Managed System"
+sidebar_position: 60
+---
+
 # Connect to a Managed System
 
 How to create a new
-[ Connector ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[Connector](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 using the provided SaaS agent. See the
 [ Architecture ](/docs/identitymanager/6.2/introduction-guide/architecture/index.md) topic for additional
 information.
 
 Identity Manager provides demo applications
-([Run the Banking Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/demoapp-banking/index.md)
+[Run the Banking Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/demoapp-banking/index.md)
 and
-[Run the HR Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/how-tos/demoapp-hr/index.md)) to
-help set up connectors, test them, and understand Identity Manager's abilities towards external
-systems.
+[Run the HR Demo Application](/docs/identitymanager/6.2/integration-guide/connectors/configuration-details/demoapp-hr/index.md) to help set up connectors, test them, and understand Identity Manager's abilities towards external systems.
 
 ## Overview
 
@@ -89,7 +93,7 @@ Identity Manager's connectors all operate on the same basic principles. Technica
   and the managed system;
 
     > We want to use a connection `Directory/Active Directory` to perform synchronization and
-    > automated provisioning, and a second connection `Ticket/Usercube` to perform manual
+    > automated provisioning, and a second connection `Ticket/identitymanager` to perform manual
     > provisioning through Identity Manager.
 
     You can find standard connections dedicated to one application (AD, Microsoft Entra ID, etc.),
@@ -134,17 +138,17 @@ functional and technical details of the application.
 | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Administrator account for the Development Environment (required) Identity repository (required) User Profile (required) | Connector Connected System |
 
-See the [Install the Development Environment,](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+See the [Install the Development Environment](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md), and
-[ Configure a User Profile ](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topics for additional
+[Configure a User Profile](/docs/identitymanager/6.2/user-guide/set-up/user-profile-configuration/index.md) topics for additional
 information.
 
 ## Create a Target Connector
 
 For one managed system, create a connector by proceeding as follows:
 
-1. Outside Identity Manager, [ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md).
-2. [ Create the Connector ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-declaration/index.md) for said managed system.
+1. Outside Identity Manager, [Model the Data](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md).
+2. [Create the Connector](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-declaration/index.md) for said managed system.
 3. Enable the technical transfer of data by creating and configuring
    [Create a Connection](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connection-creation/index.md).
 4. Set up [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) to represent the data model decided

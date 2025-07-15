@@ -1,3 +1,9 @@
+---
+title: "Oracle_PasswordIssues Job"
+description: "Oracle_PasswordIssues Job"
+sidebar_position: 10
+---
+
 # Oracle_PasswordIssues Job
 
 The Oracle_PasswordIssues Job is designed to analyze the Oracle user passwords and evaluate if they

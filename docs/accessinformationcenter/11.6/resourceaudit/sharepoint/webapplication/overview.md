@@ -1,3 +1,9 @@
+---
+title: "Web Application & Web Application URL Levels Reports"
+description: "Web Application & Web Application URL Levels Reports"
+sidebar_position: 60
+---
+
 # Web Application & Web Application URL Levels Reports
 
 The following reports are available at the web application and web application URL levels and

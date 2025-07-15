@@ -14,8 +14,11 @@ SIDs can be safely cleaned up without affecting user access.
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_UnresolvedSIDs** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_UnresolvedSIDs Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/unresolvedsidsanalysis.webp)
 
@@ -33,6 +36,7 @@ They need to remain in the default order:
 In addition to the tables created by the analysis tasks which display direct permissions for
 unresolved SIDs, the SP_UnresolvedSIDs Job produces the following pre-configured report:
 
-| Report                     | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                                                         |
-| -------------------------- | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unresolved SID Permissions | Unresolved SIDs can be safely cleaned up without affecting user access. | None         | This report is comprised of three elements: - Bar Chart – Displays top 5 unresolved SIDs by affected resources - Table – Provides details on resources with unresolved SIDs applied - Table – Provides details on unresolved SIDs by affected resources |
+| Report                     | Description                                                             | Default Tags | Report Elements                                                                                                                                                                                                                                                                     |
+| -------------------------- | ----------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unresolved SID Permissions | Unresolved SIDs can be safely cleaned up without affecting user access. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top 5 unresolved SIDs by affected resources</li><li>Table – Provides details on resources with unresolved SIDs applied</li><li>Table – Provides details on unresolved SIDs by affected resources</li></ul> |
+

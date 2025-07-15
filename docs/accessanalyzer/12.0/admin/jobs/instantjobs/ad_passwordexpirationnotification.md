@@ -39,22 +39,22 @@ Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure**
 
 The default analysis tasks are:
 
--   1. User Password Information – Creates the PasswordExpirationNotification_Details table
+-   **1. User Password Information** – Creates the PasswordExpirationNotification_Details table
        accessible under the job’s Results node
     - Contains a configurable parameter for the number of days until a password expires to be
       identified
     - See the
       [Customizable Analysis Tasks for the AD_PasswordExpirationNotification Job](#customizable-analysis-tasks-for-the-ad_passwordexpirationnotification-job)
       topic for additional information.
--   2. Domain Summary – Creates an interim processing table in the database for use by downstream
+-   **2. Domain Summary** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   3. Passwords Set to Expire Within 15 Days – Creates the
+-   **3. Passwords Set to Expire Within 15 Days** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days table accessible under the job’s Results
        node
--   4. Notification Data Table – Creates the
+-   **4. Notification Data Table** – Creates the
        PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table accessible under
        the job’s Results node
--   5. Help Desk Notification – Sends notification of users with passwords set to expire in X days
+-   **5. Help Desk Notification** – Sends notification of users with passwords set to expire in X days
     - See the
       [Notification Analysis Task in the AD_PasswordExpirationNotification Job](#notification-analysis-task-in-the-ad_passwordexpirationnotification-job)
       topic for additional information.
@@ -64,13 +64,16 @@ The default analysis tasks are:
 Navigate to the **Jobs** > **AD_PasswordExpirationNotification** > **Configure** node and select
 **Actions** to view the action modules.
 
-**CAUTION:** This action is enabled by default.
+:::warning
+This action is enabled by default.
+:::
+
 
 ![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/12.0/admin/jobs/instantjobs/actiontasks.webp)
 
 The default actions are:
 
--   1. User Notification – Uses the SendMail Action Module to send notifications to users on
+-   **1. User Notification** – Uses the SendMail Action Module to send notifications to users on
        password expiration
     - Requires the Notification Actions license feature
     - See the
@@ -80,9 +83,10 @@ The default actions are:
 In addition to the tables created by the analysis and action tasks, the
 AD_PasswordExpirationNotification Job produces the following pre-configured report.
 
-| Report                            | Description                                                                      | Default Tags | Report Elements                                                                                          |
-| --------------------------------- | -------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
-| Passwords Expiring Within 15 Days | This report displays users accounts with passwords set to expire within 15 days. | None         | This report is comprised of one element: - Table – Displays details on passwords expiring within 15 days |
+| Report                            | Description                                                                      | Default Tags | Report Elements                                                                                                          |
+| --------------------------------- | -------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Passwords Expiring Within 15 Days | This report displays users accounts with passwords set to expire within 15 days. | None         | This report is comprised of one element: <ul><li>Table – Displays details on passwords expiring within 15 days</li></ul> |
+
 
 ## Customizable Analysis Tasks for the AD_PasswordExpirationNotification Job
 
@@ -91,9 +95,12 @@ group objects during this job’s analysis. The parameters can be customized and
 section at the bottom of the SQL Script Editor. Follow the steps to customize an analysis task’s
 parameters.
 
-**CAUTION:** Do not change the table names or report name to align with a different value supplied
+:::warning
+Do not change the table names or report name to align with a different value supplied
 for this parameter. Modifying the table names will result in analysis and report errors downstream.
 Only the report title and descriptions can be modified within the report configuration.
+:::
+
 
 | Analysis Task                | Customizable Parameter Name | Default Value | Value Indicates                                                                                   |
 | ---------------------------- | --------------------------- | ------------- | ------------------------------------------------------------------------------------------------- |
@@ -113,7 +120,10 @@ Task and click on **Analysis Configuration**. The SQL Script Editor opens.
 **Step 3 –** In the parameters section at the bottom of the editor, find the Value column.
 Double-click on the current value and change as desired.
 
-**CAUTION:** Do not change any parameters where the Value states **Created during execution**.
+:::warning
+Do not change any parameters where the Value states **Created during execution**.
+:::
+
 
 **Step 4 –** Click **Save and Close** to finalize the customization and close the SQL Script Editor.
 
@@ -129,7 +139,7 @@ recipient, such as the organization’s help desk, with information from the ass
 
 _Subject:_ Users with Passwords About To Expire
 
-Support Team,
+**Support Team,**
 
 Heads-up.  The following users are facing password expiration in seven days or less:
 
@@ -139,9 +149,12 @@ Heads-up.  The following users are facing password expiration in seven days or 
 
 Thank you,
 
-Netwrix
+**Netwrix**
 
-**CAUTION:** Do not modify the tags, highlighted in bold text above.
+:::warning
+Do not modify the tags, highlighted in bold text above.
+:::
+
 
 The Subject or message body can be modified, for example to replace `Netwrix` with the
 organization’s name. Follow the steps to configure the 5. Help Desk Notification Analysis Task.
@@ -205,20 +218,26 @@ The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Pl
 password prior to the expiration date.  If account profiles are used on mobile devices, please
 remember to update the password on each device used.
 
-Thank you,
+**Thank you,**
 
 Netwrix
 
-**CAUTION:** Do not change the recipient for the action task. While the tags can be moved, do not
+:::warning
+Do not change the recipient for the action task. While the tags can be moved, do not
 remove or modify the tags, which are highlighted in bold text above.
+:::
+
 
 The subject or message body can be modified, for example to replace `Netwrix` with the
 organization’s name. Follow the steps to modify the Subject or message body within the 1. User
 Notification Action Task.
 
-**NOTE:** It is necessary for the
+:::note
+It is necessary for the
 PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table to exist in the database
 before this action task can be modified.
+:::
+
 
 **Step 1 –** Navigate to the **AD_PasswordExpirationNotification** > **Configure** node and select
 **Actions**.
@@ -226,7 +245,10 @@ before this action task can be modified.
 **Step 2 –** In the Action Selection view, select the **1. User Notification** Action Task and click
 on **Action Properties** to view the actions.
 
-**CAUTION:** Do not modify the action task properties.
+:::warning
+Do not modify the action task properties.
+:::
+
 
 **Step 3 –** In the Action Properties view, the action properties and a preview of the users from
 the associated table are displayed. Click **Configure Action**. The Send Mail Action Module Wizard

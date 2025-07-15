@@ -1,3 +1,9 @@
+---
+title: "Backup and Recovery Solutions"
+description: "Backup and Recovery Solutions"
+sidebar_position: 10
+---
+
 # Backup and Recovery Solutions
 
 Implementing effective backup and recovery solutions is essential for safeguarding your system data

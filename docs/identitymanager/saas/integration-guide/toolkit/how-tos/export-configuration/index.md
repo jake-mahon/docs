@@ -1,9 +1,3 @@
----
-title: "Export the Configuration"
-description: "Export the Configuration"
-sidebar_position: 100
----
-
 # Export the Configuration
 
 This guide shows how to export the configuration as XML files to a given folder.
@@ -39,12 +33,12 @@ executable and declaring at least:
 Export a SaaS configuration by proceeding as follows:
 
 1.  Log in for configuration deployment/export with the
-    [ Usercube-Login ](/docs/identitymanager/saas/integration-guide/executables/references/login/index.md) executable.
+    [ Usercube-Login ](/docs/identitymanager/saas/integration-guide/executables/references/login/index.md).
 
     Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure
     strong security, visibility and ease of use.
 
-    Netwrix Identity Manager (formerly Usercube) recommends using Identity Manager's dedicated
+    Netwrix Identity Manager (formerly Usercube)recommends using Identity Manager's dedicated
     in-house OIDC Identity Provider (IDP), but you can also use your own IDP if you want to manage
     authentication yourself.
 

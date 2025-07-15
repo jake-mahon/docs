@@ -1,3 +1,9 @@
+---
+title: "AD_MachineOwners Job"
+description: "AD_MachineOwners Job"
+sidebar_position: 50
+---
+
 # AD_MachineOwners Job
 
 The AD_MachineOwners Job helps to identify the owner of a particular host.

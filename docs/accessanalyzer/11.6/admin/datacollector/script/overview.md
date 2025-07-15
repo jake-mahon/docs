@@ -1,3 +1,9 @@
+---
+title: "Script Data Collector"
+description: "Script Data Collector"
+sidebar_position: 310
+---
+
 # Script Data Collector
 
 The Script Data Collector provides VB Script exit from Enterprise Auditor. Static queries are

@@ -63,5 +63,5 @@ The default roles provide users with the following permissions:
 - Users — Creates sessions based on assigned access policy. This role is automatically assigned when
   a user is onboarded.
 - Reviewers — Grants ability to review access entitlement. See the
-  [Access Certification Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/accesscertification/accesscertification.md) topic for
+  [Access Certification Page](/docs/privilegesecure/4.2/accessmanagement/admin/AuditReporting/accesscertification/accesscertification.md) topic for
   additional information.

@@ -1,3 +1,9 @@
+---
+title: "Results Pane"
+description: "Results Pane"
+sidebar_position: 30
+---
+
 # Results Pane
 
 The Results pane displays all views for the selected console section.

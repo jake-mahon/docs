@@ -1,3 +1,9 @@
+---
+title: "Activity Summary Email"
+description: "Activity Summary Email"
+sidebar_position: 220
+---
+
 # Activity Summary Email
 
 Activity Summary email is generated automatically by Netwrix Auditor and lists all changes /

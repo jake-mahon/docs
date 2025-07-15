@@ -1,3 +1,9 @@
+---
+title: "Anonymous Access Links Report"
+description: "Anonymous Access Links Report"
+sidebar_position: 20
+---
+
 # Anonymous Access Links Report
 
 The Anonymous Access Links report at the online instance level displays files that have access links

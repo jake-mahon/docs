@@ -1,3 +1,9 @@
+---
+title: "Update Resources Template"
+description: "Update Resources Template"
+sidebar_position: 80
+---
+
 # Update Resources Template
 
 The scaffolding generates the following scaffoldings:

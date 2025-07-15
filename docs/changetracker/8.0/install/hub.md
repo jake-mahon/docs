@@ -1,3 +1,9 @@
+---
+title: "Hub"
+description: "Hub"
+sidebar_position: 10
+---
+
 # Hub
 
 **NOTE:** Ensure the Hub's requirements are met and that the server has had any OS updates applied

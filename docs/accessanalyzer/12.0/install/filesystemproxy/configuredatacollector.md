@@ -27,6 +27,9 @@ See the
 [FSAA Query Configuration](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/overview.md#fsaa-query-configuration)
 topic for additional information.
 
-**_RECOMMENDED:_** When choosing to use proxy mode as a service for any of the File System Solution
+:::info
+When choosing to use proxy mode as a service for any of the File System Solution
 **…System Scans** jobs, set proxy mode as a service for all of the **…System Scans** jobs that are
 scheduled to run together.
+
+:::

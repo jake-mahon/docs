@@ -1,9 +1,3 @@
----
-title: "Configure Okta"
-description: "Configure Okta"
-sidebar_position: 70
----
-
 # Configure Okta
 
 This guide shows how to configure the OIDC to set up the authentication to Identity Manager.
@@ -68,20 +62,20 @@ script in the command line.
 
 ```
 appsettings.json
-{
-  ...
-  "OpenId": {
-    "Enabled": true,
-    "Okta": {
-      "AuthenticationScheme": "Okta Authentication",
-      "Authority": "https://your-domain.okta.com/oauth2/default",
-      "ClientId": "Your Client ID",
-      "ClientSecret": "Your Client Secret",
-      "DisplayName": "Okta Display Name",
-      "NameClaimType": "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",
-      "SaveToken": true
-    }
-  }
-}
-
+                {
+                ...
+                "OpenId": {
+                "Enabled": true,
+                "Okta": {
+                "AuthenticationScheme": "Okta Authentication",
+                "Authority": "https://your-domain.okta.com/oauth2/default",
+                "ClientId": "Your Client ID",
+                "ClientSecret": "Your Client Secret",
+                "DisplayName": "Okta Display Name",
+                "NameClaimType": "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",
+                "SaveToken": true
+                }
+                }
+                }
+            
 ```

@@ -1,3 +1,9 @@
+---
+title: "FS_SensitiveDataActivity Job"
+description: "FS_SensitiveDataActivity Job"
+sidebar_position: 70
+---
+
 # FS_SensitiveDataActivity Job
 
 The FS_SensitiveDataActivity job is designed to report on activity event information on resources

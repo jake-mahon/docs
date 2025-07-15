@@ -1,3 +1,9 @@
+---
+title: "5-SQL_ServerSettings Job"
+description: "5-SQL_ServerSettings Job"
+sidebar_position: 60
+---
+
 # 5-SQL_ServerSettings Job
 
 The 5-SQL_ServerSettings Job collects SQL server instance and database configuration settings for

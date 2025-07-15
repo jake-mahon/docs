@@ -1,3 +1,9 @@
+---
+title: "Production-Ready Installation Guide"
+description: "Production-Ready Installation Guide"
+sidebar_position: 40
+---
+
 # Production-Ready Installation
 
 This guide leads the reader through the steps to install Identity Manager for production purposes.

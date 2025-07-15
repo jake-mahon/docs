@@ -16,7 +16,7 @@ Resources can be onboarded via a CSV import process. Create a CSV file with the 
   [Platforms Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/platforms/overview.md).
 - Credential — Displays the service account associated with the resource. This is an optional value,
   but it must be an exact match to known service accounts on the
-  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md).
+  [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md).
 
 The CSV file must contain one resource per row. Each resource must be identified by either a DNS
 Host Name or an IP Address. All other values are optional.
@@ -38,6 +38,7 @@ The `nps-resource-import-template.csv` file is downloaded to your browser's defa
 
 ## Example CSV File
 
+```csv
 DNS Host Name,Operating System,IP Address,Platform,Credential
 
 NewYork10.nwxtech.com,Windows Server 2019,192.168.13.150,Windows,Windows Demo
@@ -53,3 +54,4 @@ Oregon50.nwxtech.com,,,,
 ,,192.168.13.15,Linux,Linux Demo
 
 Texas70.nwxtech.com,,,,
+```

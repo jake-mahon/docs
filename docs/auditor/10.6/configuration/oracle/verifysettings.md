@@ -1,3 +1,9 @@
+---
+title: "Verify Your Oracle Database Audit Settings"
+description: "Verify Your Oracle Database Audit Settings"
+sidebar_position: 60
+---
+
 # Verify Your Oracle Database Audit Settings
 
 You can verify your Oracle Database audit settings manually. Do one of the following, depending on

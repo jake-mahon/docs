@@ -1,3 +1,9 @@
+---
+title: "Configure Windows Registry Audit Settings"
+description: "Configure Windows Registry Audit Settings"
+sidebar_position: 30
+---
+
 # Configure Windows Registry Audit Settings
 
 Windows Registry audit permissions must be configured on each Windows server you want to audit so

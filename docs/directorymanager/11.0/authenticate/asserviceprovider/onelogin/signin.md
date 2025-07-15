@@ -1,3 +1,9 @@
+---
+title: "Sign In Using OneLogin"
+description: "Sign In Using OneLogin"
+sidebar_position: 30
+---
+
 # Sign In Using OneLogin
 
 We configured OneLogin with a GroupID client, that is the GroupID portal _Wizard_ in our example. We

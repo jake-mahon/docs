@@ -1,3 +1,9 @@
+---
+title: "RSA Encryption"
+description: "RSA Encryption"
+sidebar_position: 20
+---
+
 # RSA Encryption
 
 Identity Manager provides a few options to protect sensitive data via RSA encryption.
@@ -8,8 +14,8 @@ Sensitive data can be RSA encrypted by using Netwrix Identity Manager (formerly 
 
 - [ Usercube-Protect-X509JsonValue ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonvalue/index.md)
   to encrypt given values;
-- [ Usercube-Protect-X509JsonFile ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonfile/index.md)to
-  encrypt a whole file.
+- [ Usercube-Protect-X509JsonFile ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonfile/index.md)
+  to encrypt a whole file.
 
     The file encryption tool should be used only on files that contain only plain text values, not
     already encrypted ones.
@@ -46,7 +52,7 @@ appsettings.json and/or appsettings.agent.json
 {
     ...
     "EncryptionCertificate": {
-        "File": "./Usercube.pfx",
+        "File": "./identitymanager.pfx",
         "Password": "secret",
         "UseEncryptedAppsettings": true
     }

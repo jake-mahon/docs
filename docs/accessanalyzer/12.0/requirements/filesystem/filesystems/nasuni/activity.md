@@ -11,12 +11,12 @@ Appliance generates its own audit trail. An API Access Key is used by the Activi
 network connection to the appliance. Nasuni will then stream event data to the activity agent. See
 [Nasuni Support Documentation](https://www.nasuni.com/support/) for additional information.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of Nasuni Edge Appliances.
 Instructions for each item of the checklist are detailed within the following topics.
 
-Checklist Item 1: Generate Nasuni API Access Key
+**Checklist Item 1: Generate Nasuni API Access Key**
 
 - Generate an API Access Key for each Nasuni Edge Appliance to be monitored through one of the
   following:
@@ -24,7 +24,7 @@ Checklist Item 1: Generate Nasuni API Access Key
     - Nasuni Filer Management Interface
     - Nasuni Management Console
 
-Checklist Item 2: Activity Monitor Configuration
+**Checklist Item 2: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor activity agent to a Windows proxy server
 
@@ -47,8 +47,11 @@ Both the Key Name and the Key Passcode are required by the Activity Monitor in o
 the Nasuni Edge Appliance. Once the API Key has been generated, it is time to configure and enable
 monitoring with the Activity Monitor console.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+:::
+
 
 ## Nasuni Management Console
 
@@ -70,5 +73,8 @@ Both the Key Name and the Key Passcode are required by the Activity Monitor in o
 the Nasuni Edge Appliance. Once the API Key has been generated, it is time to configure and enable
 monitoring with the Activity Monitor console.
 
-**NOTE:** Nasuni API key names are case sensitive. When providing them, ensure they are entered in
+:::note
+Nasuni API key names are case sensitive. When providing them, ensure they are entered in
 the exact same case as generated.
+
+:::

@@ -1,3 +1,9 @@
+---
+title: "Install for SharePoint Core Service"
+description: "Install for SharePoint Core Service"
+sidebar_position: 50
+---
+
 # Install for SharePoint Core Service
 
 This section contains instructions on how to install Netwrix Auditor for SharePoint Core Service.

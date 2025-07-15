@@ -1,3 +1,9 @@
+---
+title: "Configure Unique Property Generation"
+description: "Configure Unique Property Generation"
+sidebar_position: 10
+---
+
 # Configure Unique Property Generation
 
 How to configure Identity Manager to generate unique identifiers, mails and logins for any user who
@@ -29,11 +35,11 @@ For example, `john.doe@acme.com` and `john.doe-ext@acme.com` cannot exist simult
 Integrators may need the help of the HR department to understand the actual approach of the
 organization to compute these unique properties.
 
-| Input                              | Output                                 |
-| ---------------------------------- | -------------------------------------- |
-| Identity Manager Server (required) | Generation rules for unique properties |
+| Input                            | Output                                 |
+| -------------------------------- | -------------------------------------- |
+| IdentityManagerServer (required) | Generation rules for unique properties |
 
-See the [Install the Development Environment](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
+See the [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information.
 
 ## Configure Unique Property Generation

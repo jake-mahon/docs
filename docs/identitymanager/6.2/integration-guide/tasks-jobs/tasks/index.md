@@ -1,3 +1,9 @@
+---
+title: "Tasks"
+description: "Tasks"
+sidebar_position: 10
+---
+
 # Tasks
 
 A task is Identity Manager's way to configure and use a given executable that performs a given IGA

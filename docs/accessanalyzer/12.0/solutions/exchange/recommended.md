@@ -44,8 +44,11 @@ opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The ExchangePS Data Collector
 Wizard opens.
 
-**CAUTION:** Unless otherwise indicated within the job group section, do not make changes to other
+:::warning
+Unless otherwise indicated within the job group section, do not make changes to other
 wizard pages as they have been pre-configured for the purpose of the job.
+:::
+
 
 ![CAS name on ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/12.0/solutions/exchange/exchangepscas.webp)
 

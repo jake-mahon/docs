@@ -1,3 +1,9 @@
+---
+title: "Notifications"
+description: "Notifications"
+sidebar_position: 70
+---
+
 # Notifications
 
 - [ Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notification/index.md)

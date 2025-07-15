@@ -1,3 +1,9 @@
+---
+title: "AD_DCSummary Job"
+description: "AD_DCSummary Job"
+sidebar_position: 30
+---
+
 # AD_DCSummary Job
 
 The AD_DCSummary Job provides operational reporting related to the details collected for each domain

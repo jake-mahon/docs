@@ -1,3 +1,9 @@
+---
+title: "FSAA: Scan Settings"
+description: "FSAA: Scan Settings"
+sidebar_position: 60
+---
+
 # FSAA: Scan Settings
 
 The Scan Settings page is where additional scan protocols and settings are configured. It is a
@@ -22,7 +28,7 @@ In the middle section, select the desired checkboxes for additional settings:
   this wizard to scan for protection labels and encrypted files for sensitive data
 
     - See the
-      [Azure Information Protection Target Requirements](/docs/accessanalyzer/11.6/requirements/target/config/azureinformationprotection.md)
+      [Azure Information Protection Target Requirements](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/azureinformationprotection.md)
       for additional information.
 
 - Use SQL query to manually specify shares – For advanced SQL users. This option provides a least

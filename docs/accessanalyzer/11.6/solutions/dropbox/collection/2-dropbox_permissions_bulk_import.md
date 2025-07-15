@@ -1,3 +1,9 @@
+---
+title: "2-Dropbox_Permissions Bulk Import Job"
+description: "2-Dropbox_Permissions Bulk Import Job"
+sidebar_position: 30
+---
+
 # 2-Dropbox_Permissions Bulk Import Job
 
 The 2-Dropbox_Permissions Bulk Import job imports the data collected by the 1-Dropbox _Permissions

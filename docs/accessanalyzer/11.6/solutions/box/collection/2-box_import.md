@@ -1,3 +1,9 @@
+---
+title: "2-Box_Import Job"
+description: "2-Box_Import Job"
+sidebar_position: 30
+---
+
 # 2-Box_Import Job
 
 The 2-Box_Import Job takes the data that has been collected from the 1-Box_Access Scans Job and the

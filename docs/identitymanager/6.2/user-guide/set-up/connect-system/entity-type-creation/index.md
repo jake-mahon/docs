@@ -1,3 +1,9 @@
+---
+title: "Create an Entity Type"
+description: "Create an Entity Type"
+sidebar_position: 40
+---
+
 # Create an Entity Type
 
 How to create an

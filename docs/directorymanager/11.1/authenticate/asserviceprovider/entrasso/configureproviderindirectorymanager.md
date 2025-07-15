@@ -1,3 +1,9 @@
+---
+title: "Configure the Microsoft Entra SSO in Directory Manager"
+description: "Configure Directory Manager in Microsoft Entra ID for SSO"
+sidebar_position: 30
+---
+
 # Configure the Microsoft Entra SSO Application in Directory Manager
 
 To configure a SAML provider in Directory Manager, you have to specify the following:

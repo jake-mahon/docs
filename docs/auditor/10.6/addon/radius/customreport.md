@@ -1,3 +1,9 @@
+---
+title: "Create Custom Report"
+description: "Create Custom Report"
+sidebar_position: 60
+---
+
 # Create Custom Report
 
 To speed up data review process and help you find the latest logons faster, Netwrix created an

@@ -1,3 +1,9 @@
+---
+title: "AWS_UserPolicies Job"
+description: "AWS_UserPolicies Job"
+sidebar_position: 60
+---
+
 # AWS_UserPolicies Job
 
 The AWS_UserPolicies job provides details outlining user policy assignment. This includes where the

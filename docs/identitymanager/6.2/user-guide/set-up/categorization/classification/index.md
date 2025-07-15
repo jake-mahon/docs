@@ -1,3 +1,9 @@
+---
+title: "Classify Resources"
+description: "Classify Resources"
+sidebar_position: 30
+---
+
 # Classify Resources
 
 How to define

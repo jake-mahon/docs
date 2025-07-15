@@ -1,3 +1,9 @@
+---
+title: "Mobile devices"
+description: "Mobile devices"
+sidebar_position: 70
+---
+
 # Mobile devices
 
 ## The new Netwrix Password Secure Mobile App – mobile and simple!

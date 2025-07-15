@@ -17,12 +17,12 @@ the
 [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
 for installation requirements and information on collecting activity data.
 
-See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/overview.md)
+See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/requirements/activedirectory/target/overview.md)
 topic for target environment requirements.
 
 ## Active Directory Solution Requirements on the Access Analyzer Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -35,7 +35,7 @@ These are dependent upon the size of the target environment:
 
 ## Active Directory Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

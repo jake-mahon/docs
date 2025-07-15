@@ -122,8 +122,11 @@ for advanced features to manipulate the query. The **+** and **–** buttons man
 individual properties from the query. The script button opens the VBScript Editor window for query
 manipulation scripts.
 
-**_RECOMMENDED:_** Use the Data Collector Configuration wizards for basic query modifications. For
+:::info
+Use the Data Collector Configuration wizards for basic query modifications. For
 more complex modifications, contact [Netwrix Support](https://www.netwrix.com/support.html).
+:::
+
 
 See the individual data collector section for configuration wizard page information.
 
@@ -143,9 +146,12 @@ The Filter tab has the following items:
 - Value – When applicable, add a new value to the filter using the dropdown menu. Otherwise, create
   a new one by typing in the desired value.
 
-**_RECOMMENDED:_** Use the default settings for filters. Filters can be used to substitute or delete
+:::info
+Use the default settings for filters. Filters can be used to substitute or delete
 data values during data collection. For more information on the impacts of adding filters to
 queries, contact [Netwrix Support](https://www.netwrix.com/support.html).
+:::
+
 
 Click **OK** to save changes and exist the Query Properties window. If no changes were made or
 intended, it is best practice to click **Cancel** to exit the Query Properties window to ensure

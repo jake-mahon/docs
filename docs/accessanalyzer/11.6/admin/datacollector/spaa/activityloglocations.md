@@ -1,3 +1,9 @@
+---
+title: "SPAA: Activity Log Locations"
+description: "SPAA: Activity Log Locations"
+sidebar_position: 120
+---
+
 # SPAA: Activity Log Locations
 
 The Activity Log Locations page is where to manually configure log locations to avoid requiring

@@ -1,3 +1,9 @@
+---
+title: "Sql"
+description: "Sql"
+sidebar_position: 300
+---
+
 # Sql
 
 This connector exports data from one of various
@@ -156,7 +162,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
         >     ...
         >     "SqlExport": {
         >       "ConnectionString" : "Server=localhost;Database=MyDb;Uid=root;Pwd=secret",
-        >       "SqlFile": "C:/UsercubeDemo/Conf/Sql/mySql.sql",
+        >       "SqlFile": "C:/identitymanagerDemo/Conf/Sql/mySql.sql",
         >       "ProviderClassFullName": "MySql.Data.MySqlClient.MySqlClientFactory",
         >       "ProviderDllName": "MySql.Data.dll"
         >     }
@@ -186,9 +192,9 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV
-file, named `<connectionIdentifier>.csv` whose columns correspond to the columns returned by the SQL
-query.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one CSV file, named `<connectionIdentifier>.csv` whose columns correspond to the
+columns returned by the SQL query.
 
 ## Fulfill
 

@@ -1,3 +1,9 @@
+---
+title: "Search Bar"
+description: "Search Bar"
+sidebar_position: 80
+---
+
 # Search Bar
 
 The SearchBar is an element of the user interface that allows you to search from a list of

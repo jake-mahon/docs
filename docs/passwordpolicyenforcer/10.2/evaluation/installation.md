@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 20
+---
+
 # Installation
 
 You can install Password Policy Enforcer manually, or you can automate the installation with a
@@ -38,7 +44,7 @@ Server** check box to install the Password Policy Client on a client computer.
 
 You may need to create a firewall port exception on the domain controllers if you are evaluating the
 Password Policy Client on a domain with client computers. See the
-[Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/passwordpolicyclient/password_policy_client.md)
 topic for additional information.
 
 **NOTE:** The Password Policy Client does not replace or modify any Windows system files. You can

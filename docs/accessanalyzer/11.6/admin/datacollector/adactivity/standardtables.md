@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the ADActivity Data Collector"
+description: "Standard Reference Tables & Views for the ADActivity Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the ADActivity Data Collector
 
 The ADActivity Data Collector gathers essential user and group activity information into standard

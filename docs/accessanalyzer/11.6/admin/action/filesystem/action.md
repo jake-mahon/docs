@@ -1,3 +1,9 @@
+---
+title: "File System Action: Action"
+description: "File System Action: Action"
+sidebar_position: 10
+---
+
 # File System Action: Action
 
 On the Action page, select the type of action to be configured, define a new action, and additional

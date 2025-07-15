@@ -1,3 +1,9 @@
+---
+title: "Global Filters Tab"
+description: "Global Filters Tab"
+sidebar_position: 10
+---
+
 # Global Filters Tab
 
 The Global Filters options are for excluding specific Active Directory and Authentication events

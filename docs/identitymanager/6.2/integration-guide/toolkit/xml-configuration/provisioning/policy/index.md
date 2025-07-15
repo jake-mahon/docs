@@ -1,3 +1,9 @@
+---
+title: "Policy"
+description: "Policy"
+sidebar_position: 90
+---
+
 # Policy
 
 A policy is a next generation access control (NGAC) which works by assigning permissions to users

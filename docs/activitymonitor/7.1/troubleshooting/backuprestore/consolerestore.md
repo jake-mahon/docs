@@ -1,3 +1,9 @@
+---
+title: "Console Restoration"
+description: "Console Restoration"
+sidebar_position: 40
+---
+
 # Console Restoration
 
 Follow the steps to restore the list of agents managed on the Activity Monitor Console.

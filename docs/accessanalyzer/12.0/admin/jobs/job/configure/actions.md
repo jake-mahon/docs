@@ -10,7 +10,10 @@ The Actions node uses Access Analyzer action modules to take action on collected
 Action can be taken on objects leveraging collected data or analyzed data, for example from a
 listing of locked-out accounts, an action can be executed to unlock those accounts.
 
-**NOTE:** Action modules are available with a special Access Analyzer license.
+:::note
+Action modules are available with a special Access Analyzer license.
+:::
+
 
 ![Action Selection page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/actionselection.webp)
 
@@ -38,8 +41,11 @@ The Actions section at the top has five options:
       additional information
     - See the [Action Modules](/docs/accessanalyzer/12.0/admin/action/overview.md) topic for additional information
 
-    **NOTE:** The AutoAction task appears in the Analysis Selection view, not in the Action
+    :::note
+    The AutoAction task appears in the Analysis Selection view, not in the Action
     Selection view.
+    :::
+
 
 - Execute Action – Opens the Action Execution window and starts executing the selected action
 

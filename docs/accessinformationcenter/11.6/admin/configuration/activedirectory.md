@@ -1,3 +1,9 @@
+---
+title: "Active Directory Page"
+description: "Active Directory Page"
+sidebar_position: 20
+---
+
 # Active Directory Page
 
 The Access Information Centerneeds to be connected to Active Directory for user authentication and

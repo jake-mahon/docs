@@ -1,3 +1,9 @@
+---
+title: "Delete List"
+description: "Delete List"
+sidebar_position: 40
+---
+
 # Delete List
 
 Use the **Delete List** option to remove the selected list. This option is available only at an

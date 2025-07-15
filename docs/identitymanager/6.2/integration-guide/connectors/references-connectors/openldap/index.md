@@ -1,3 +1,9 @@
+---
+title: "OpenLDAP"
+description: "OpenLDAP"
+sidebar_position: 180
+---
+
 # OpenLDAP
 
 This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/)
@@ -94,8 +100,9 @@ The identifier of the connection and thus the name of the subsection must:
 
 ### Output details
 
-This connector is meant to generate to
-the[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder:
+This connector is meant to generate to the
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder:
 
 - a CSV file, named `<connectionIdentifier>_entry.csv`, with one column for each property having a
   `ConnectionColumn` and each property without it but used in an entity association;
@@ -122,8 +129,8 @@ the[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-config
     can use the option `--ignore-cookies`.
 
 The CSV files are stored in the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder, and the
-cookie file in the Export Cookies folder.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder, and the cookie file in the Export Cookies folder.
 
 > For example, with the following configuration:
 >
@@ -133,7 +140,7 @@ cookie file in the Export Cookies folder.
 >
 > ```
 >
-> We would have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport.csv` like:
+> We would have `C:/identitymanagerContoso/Temp/ExportOutput/OpenLDAPExport.csv` like:
 >
 > ```
 > entry.csv
@@ -141,7 +148,7 @@ cookie file in the Export Cookies folder.
 > Insert,value1,value2,...,valueN
 > ```
 >
-> And we would also have `C:/UsercubeContoso/Temp/ExportOutput/OpenLDAPExport_member.csv` like:
+> And we would also have `C:/identitymanagerContoso/Temp/ExportOutput/OpenLDAPExport_member.csv` like:
 >
 > ```
 > LDAPExport_member.csv

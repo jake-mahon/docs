@@ -1,3 +1,9 @@
+---
+title: "Summary Folders"
+description: "Summary Folders"
+sidebar_position: 20
+---
+
 # Summary Folders
 
 The EPE Summary and LDAP Summary folders under Investigate in the navigation pane are pre-defined

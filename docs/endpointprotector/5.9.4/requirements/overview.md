@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This document provides an in-depth overview of the Netwrix Endpoint Protector solution, designed for

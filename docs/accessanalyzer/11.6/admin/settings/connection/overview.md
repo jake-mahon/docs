@@ -1,3 +1,9 @@
+---
+title: "Connection"
+description: "Connection"
+sidebar_position: 30
+---
+
 # Connection
 
 The Connection node contains objects referred to as Connection Profiles. A Connection Profile houses

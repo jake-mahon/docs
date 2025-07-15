@@ -1,3 +1,9 @@
+---
+title: "Registry: Operations"
+description: "Registry: Operations"
+sidebar_position: 20
+---
+
 # Registry: Operations
 
 Use the Operations page to select the operations to apply to the target hosts. See the

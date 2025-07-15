@@ -1,3 +1,9 @@
+---
+title: "NoSQL: Summary"
+description: "NoSQL: Summary"
+sidebar_position: 70
+---
+
 # NoSQL: Summary
 
 The Summary page is where the configuration settings are summarized. It is a wizard page for all of

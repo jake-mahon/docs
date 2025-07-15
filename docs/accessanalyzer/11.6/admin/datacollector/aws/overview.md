@@ -1,3 +1,9 @@
+---
+title: "AWS Data Collector"
+description: "AWS Data Collector"
+sidebar_position: 60
+---
+
 # AWS Data Collector
 
 The AWS Data Collector collects IAM users, groups, roles, and policies, as well as S3 permissions,

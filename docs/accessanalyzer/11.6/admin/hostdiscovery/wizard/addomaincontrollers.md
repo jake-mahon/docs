@@ -1,3 +1,9 @@
+---
+title: "Query an Active Directory server (Discover Domain Controllers)"
+description: "Query an Active Directory server (Discover Domain Controllers)"
+sidebar_position: 40
+---
+
 # Query an Active Directory server (Discover Domain Controllers)
 
 Follow the steps to create a Host Discovery query using the **Query an Active Directory server

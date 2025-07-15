@@ -56,10 +56,10 @@ The Type section displays the threat types which can be selected for filtering. 
 to filter by is dynamic, depending upon the type of threats detected. See the following topics for
 additional information:
 
-- [Active Directory Threats](/docs/threatmanager/3.0/overview/threats/activedirectory.md)
-- [Entra ID Threats](/docs/threatmanager/3.0/overview/threats/entraid.md)
-- [File System Threats](/docs/threatmanager/3.0/overview/threats/filesystem.md)
-- [General Threats](/docs/threatmanager/3.0/overview/threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/3.0/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/3.0/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/3.0/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/3.0/threats/general.md)
 
 ### Level
 

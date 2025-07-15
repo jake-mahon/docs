@@ -1,7 +1,7 @@
 ---
 title: "Sign In Using Okta"
 description: "Sign In Using Okta"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Sign In Using Okta

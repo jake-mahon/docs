@@ -1,3 +1,9 @@
+---
+title: "Db2 Solution"
+description: "Db2 Solution"
+sidebar_position: 10
+---
+
 # Db2 Solution
 
 The Enterprise Auditor Db2 Solution Set is a comprehensive set of pre-configured audit jobs and
@@ -11,7 +17,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/databasedb2.md)
+[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasedb2.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

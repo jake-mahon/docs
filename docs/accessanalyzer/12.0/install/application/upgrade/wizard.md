@@ -6,23 +6,32 @@ sidebar_position: 20
 
 # Access Analyzer Core Upgrade Instructions
 
-**CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform
+:::warning
+If Role Based Access has been enabled, a user with the Administrator role must perform
 the upgrade. Other user roles do not have the necessary permissions to perform upgrades.
+:::
+
 
 Follow the steps to upgrade to Access Analyzer 12.0 on the same server where an older version of
 Access Analyzer is installed.
 
-**NOTE:** If any customizations have been done by a Netwrix Engineer, please ensure the custom work
+:::note
+If any customizations have been done by a Netwrix Engineer, please ensure the custom work
 is not lost during the upgrade process. While using the Upgrade Wizard, customizations are archived
 prior to solution upgrades. These archives are available after the solution upgrades have been
 completed. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
+:::
 
-**CAUTION:** The new global Settings will overwrite any previously configured Sensitive Data
+
+:::warning
+The new global Settings will overwrite any previously configured Sensitive Data
 criteria. Make a note of any configured Sensitive Data Criteria before upgrading Access Analyzer.
 Sensitive Data Criteria must be reconfigured after an upgrade. See the
 [Configure Global Sensitive Data Settings](solutionconsiderations.md#configure-global-sensitive-data-settings)
 topic for additional information.
+:::
+
 
 ![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/12.0/install/application/controlpaneluninstall.webp)
 
@@ -30,15 +39,18 @@ topic for additional information.
 Features**), uninstall the previous version of Access Analyzer. Jobs, application configuration
 files, and reports remain in the installation directory after the uninstall process.
 
-**NOTE:** If you have the old Netwrix Sensitive Data Discovery Add-On installed, you must uninstall
+:::note
+If you have the old Netwrix Sensitive Data Discovery Add-On installed, you must uninstall
 it before continuing with this upgrade. For Access Analyzer 12.0, Sensitive Data Discovery is
 installed as part of the main installation if your license includes it.
+:::
+
 
 - The `WebServer.exe.config` file is automatically retained in a Backup folder created under the Web
   folder of the installation directory. Any custom application settings contained in this file are
   kept as part of this upgrade process.
 
-![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/install/application/upgrade/welcome.webp)
+![Setup Wizard Welcome page](/img/product_docs/accessanalyzer/12.0/install/application/welcome.webp)
 
 **Step 2 –** Install Access Analyzer 12.0. See the [Access Analyzer Core Installation](/docs/accessanalyzer/12.0/install/application/wizard.md)
 topic for detailed instructions.
@@ -90,8 +102,11 @@ upgrade is complete. Conflict resolution can be done on the Changes window by un
 customization. However, if the conflict is undone prior to a solution upgrade, then the
 customization will not be archived.
 
-**CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform
+:::warning
+If Role Based Access has been enabled, a user with the Administrator role must perform
 the upgrade. Other user roles do not have the necessary permissions to perform upgrades.
+:::
+
 
 Follow the steps to use the Upgrade Wizard.
 
@@ -102,14 +117,20 @@ Analyzer icon on the desktop.
 
 **Step 2 –** The Access Analyzer Configuration Wizard opens. Click **Next** to continue.
 
-**NOTE:** When Access Analyzer12.0 is installed on a server where a previous version of Access
+:::note
+When Access Analyzer12.0 is installed on a server where a previous version of Access
 Analyzer had been installed, the Version Selection page of the Configuration Wizard will not appear.
+:::
+
 
 ![Configuration Wizard Solution Set Files page with conflicts](/img/product_docs/accessanalyzer/12.0/install/application/upgrade/solutionsetfiles.webp)
 
 **Step 3 –** On the Solution Set Files page, only upgrade conflicts are displayed by default.
 
-**_RECOMMENDED:_** Investigate the changes where conflicts have been identified before proceeding.
+:::info
+Investigate the changes where conflicts have been identified before proceeding.
+:::
+
 
 **Step 4 –** (Optional) Select an item with the Conflict State and click **View conflicts** to open
 the Changes window.

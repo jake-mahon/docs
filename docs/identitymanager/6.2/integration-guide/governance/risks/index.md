@@ -1,3 +1,9 @@
+---
+title: "Risk Management"
+description: "Risk Management"
+sidebar_position: 40
+---
+
 # Risk Management
 
 The Risk Management module provides tools for identifying assignments of entitlement that pose a
@@ -39,8 +45,8 @@ A risk is always:
 - part of a [Policy](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
 - assigned to identities belonging to a specific entity type that was decided during the risk
   creation;
-- organized inside a [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md);
-- linked to an [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md).
+- organized inside a type;
+- linked to an exemption policy.
 
 ## Risk Type
 
@@ -129,8 +135,9 @@ Automatic assignment of risks is based on
 fine-grained assignment on a resource, risk rules are applied. If one of the rules matches the
 resource state, the related risks are assigned to the resource. Those rules are themselves based on
 fine-grained entitlements, such as an Active Directory account or group membership, modeled by the
-[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) within Identity
-Manager.
+navigation rules within Identity Manager. See the
+[Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for
+additional information.
 
 A risk rule states that a risk is assigned to a resource if the resource has one or several specific
 fine-grained entitlements. The number of triggering entitlements depends on the risk type. For

@@ -63,7 +63,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Exchange Online
 
-See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity.md)
+See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/exchange-activity.md)
 topic for target environment requirements.
 
 ## Supported Microsoft Entra ID
@@ -75,7 +75,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Microsoft Entra ID (formerly Azure AD)
 
-See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_1.md) topic
+See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/entraid-activity.md) topic
 for target environment requirements.
 
 ## Supported Network Attached Storage Devices
@@ -90,7 +90,7 @@ CTERA Edge Filter
 - CTERA Portal 7.5.x+
 - CTERA Edge Filer 7.5.x+
 
-See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity.md) topic for target
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ctera-activity.md) topic for target
 environment requirements.
 
 Dell Celerra® & VNX
@@ -100,7 +100,7 @@ Dell Celerra® & VNX
 - VNX 8.1
 
 See the
-[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity.md)
+[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/celerra-vnx-aac/celerra-vnx-activity.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
@@ -108,31 +108,31 @@ Dell Isilon/PowerScale
 - 7.0+
 
 See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_1.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/isilon-powerscale-aac/isilon-activity.md)
 topic for target environment requirements.
 
 Dell PowerStore®
 
-See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_2.md)
+See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/powerstore-aac/powerstore-activity.md)
 topic for target environment requirements.
 
 Dell Unity
 
-See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_3.md) topic for
+See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/unity-aac/unity-activity.md) topic for
 target environment requirements.
 
 Hitachi
 
 - 11.2+
 
-See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_4.md) topic for target
+See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/hitachi-aac/hitachi-activity.md) topic for target
 environment requirements.
 
 Nasuni Nasuni Edge Appliances
 
 - 8.0+
 
-See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_1.md)
+See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/nasuni-activity.md)
 topic for target environment requirements.
 
 NetApp Data ONTAP
@@ -142,24 +142,24 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_5.md)
-- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_6.md)
+- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/ontap7-activity.md)
+- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/ontap-cluster-activity.md)
 
 Nutanix
 
-See the [Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_2.md) topic for
+See the [Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/nutanix-activity.md) topic for
 target environment requirements.
 
 Panzura
 
-See the [Panzura CloudFS Monitoring](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_3.md) topic for target environment
+See the [Panzura CloudFS Monitoring](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/panzura-activity.md) topic for target environment
 requirements.
 
 Qumulo
 
 - Qumulo Core 5.0.0.1B+
 
-See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity_4.md) topic for target
+See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/qumulo-activity.md) topic for target
 environment requirements.
 
 ## Supported SharePoint Farms Platforms
@@ -175,7 +175,7 @@ Application server that hosts the "Central Administration" component of the Shar
 
 - SharePoint® Server Subscription Edition
 
-See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_2.md)
+See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sharepoint-onprem-activity.md)
 topic for target environment requirements.
 
 ## Supported SharePoint Online
@@ -188,7 +188,7 @@ that acts as a proxy for monitoring the target environment.
 - SharePoint Online®
 
 See the
-[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_3.md) topic
+[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sharepoint-online-activity.md) topic
 for target environment requirements.
 
 ## Supported SQL Server Platforms
@@ -205,7 +205,7 @@ deployed to a Windows server that acts as a proxy for monitoring the target envi
 - SQL Server 2017
 - SQL Server 2016
 
-See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_4.md) topic for
+See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/sqlserver-activity.md) topic for
 target environment requirements.
 
 ## Supported Windows File Servers Platforms
@@ -219,5 +219,5 @@ It cannot be deployed to a proxy server.
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/activity_5.md)
+See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/windowsfs-activity.md)
 topic for target environment requirements.

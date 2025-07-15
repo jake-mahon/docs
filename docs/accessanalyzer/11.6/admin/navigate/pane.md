@@ -1,3 +1,9 @@
+---
+title: "Navigation Pane"
+description: "Navigation Pane"
+sidebar_position: 20
+---
+
 # Navigation Pane
 
 The Navigation Pane, located on the left-hand side of the Enterprise Auditor Console, lists all the

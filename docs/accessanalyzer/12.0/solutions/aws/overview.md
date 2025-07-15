@@ -23,29 +23,32 @@ data from target AWS accounts. The solution requires a special Access Analyzer l
 focused to only conduct auditing of AWS IAM. Additionally, the Sensitive Data Discovery Add-On
 enables the solution to search AWS S3 content for sensitive data.
 
-Supported Platforms
+**Supported Platforms**
 
 - Amazon AWS IAM
 - Amazon AWS S3
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/aws/aws_1.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/aws/target.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
 is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The AWS Solution requires a special Access Analyzer license. It can be installed from the Access
 Analyzer Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md)

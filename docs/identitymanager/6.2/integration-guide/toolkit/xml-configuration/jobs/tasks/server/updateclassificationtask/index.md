@@ -1,3 +1,9 @@
+---
+title: "Update Classification Task"
+description: "Update Classification Task"
+sidebar_position: 240
+---
+
 # Update Classification Task
 
 Classifies a list of resources that are part of the resourceType data targets as an argument to this

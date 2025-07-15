@@ -1,3 +1,9 @@
+---
+title: "Results Node"
+description: "Results Node"
+sidebar_position: 20
+---
+
 # Results Node
 
 Once a job has been executed, the query populated native data tables, the analysis and action

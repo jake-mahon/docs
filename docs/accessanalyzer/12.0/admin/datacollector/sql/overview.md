@@ -23,11 +23,11 @@ additional information:
 - [Redshift Solution](/docs/accessanalyzer/12.0/solutions/databases/redshift/overview.md)
 - [SQL Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/overview.md)
 
-Protocols
+**Protocols**
 
 TCP
 
-Ports
+**Ports**
 
 For Db2:
 
@@ -49,7 +49,7 @@ For SQL:
 
 - Specified by Instances table (default is 1433)
 
-Permissions
+**Permissions**
 
 For MySQL:
 
@@ -94,12 +94,12 @@ For SQL:
     - Grant View server state to [DOMAIN\USER]
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
-See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/databases/databasesql/azuresqlaccess.md)
+See the [Azure SQL Auditing Configuration](/docs/accessanalyzer/12.0/requirements/databases/sql/azuresqlaccess.md)
 topic and the
-[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/databases/databasesql/databaseazuresql.md)
+[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/12.0/requirements/databases/sql/azuresql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
@@ -110,8 +110,11 @@ is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are require
 The SQL Data Collector is configured through the SQL Data Collector Wizard. The wizard contains the
 following pages, which change based upon the query category selected:
 
-**NOTE:** The SQL Data Collector is used in multiple Access Analyzer Solutions, and the query
+:::note
+The SQL Data Collector is used in multiple Access Analyzer Solutions, and the query
 categories used are dependent on the solution.
+:::
+
 
 - [SQL: Category](/docs/accessanalyzer/12.0/admin/datacollector/sql/category.md)
 - [SQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/sql/options.md)

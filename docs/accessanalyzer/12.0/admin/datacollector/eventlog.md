@@ -10,17 +10,17 @@ The EventLog Data Collector provides search and extraction of details from event
 systems. This data collector is a core component of Access Analyzer and is available with all Access
 Analyzer licenses.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 - Member of the Domain Administrators group (if targeting domain controllers)
@@ -31,7 +31,7 @@ The EventLog Data Collector is configured through the Event Log Browser window.
 
 ![Event Log Browser window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/eventlogbrowser.webp)
 
-Sample
+**Sample**
 
 In the Sample section, select from the following options:
 
@@ -50,11 +50,14 @@ In the Sample section, select from the following options:
 - Show – Click to preview the elements in the event log file for log paths manually entered in the
   File path box
 
-    **NOTE:** A preview displays automatically if the folder icons is used to navigate to the log.
+    :::note
+    A preview displays automatically if the folder icons is used to navigate to the log.
+    :::
+
 
 - Lookup user name – Select this checkbox to resolve SID or GUID values to friendly display values
 
-Search Criteria
+**Search Criteria**
 
 In the Search Criteria section, add a search filter to the table by configuring the following
 criteria:
@@ -78,7 +81,7 @@ remove search criteria from the filters.
 
 Click **Apply Filter** to filter the list of sample events to the search criteria.
 
-Options
+**Options**
 
 In the Options section, select the desired processing options:
 
@@ -88,7 +91,7 @@ In the Options section, select the desired processing options:
   **Process offline logs if required** checkboxes are selected. Specify the path and name of the
   archive.
 
-Available Properties
+**Available Properties**
 
 In the Available Properties section, select which properties will be collected by the browser.
 

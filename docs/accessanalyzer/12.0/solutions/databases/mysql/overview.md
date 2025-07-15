@@ -32,7 +32,7 @@ Discovery enables the solution to search database content for sensitive data.
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Access Analyzer server.
 
-Supported Platforms
+**Supported Platforms**
 
 - MySQL 5.x
 - MySQL 8.x
@@ -40,24 +40,27 @@ Supported Platforms
 - Amazon Aurora MySQL Engine
 - MariaDB 10.x
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
-[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databasemysql.md)
+[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/mysql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For example, if the job is
 configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The Structured Sensitive Data Discovery License is required to run the MySQL Solution. It can be
 installed from the Access Analyzer Instant Job Wizard. Once it has been installed into the Jobs

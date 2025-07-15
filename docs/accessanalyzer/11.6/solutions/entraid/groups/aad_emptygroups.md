@@ -1,3 +1,9 @@
+---
+title: "AAD_EmptyGroups Job"
+description: "AAD_EmptyGroups Job"
+sidebar_position: 30
+---
+
 # AAD_EmptyGroups Job
 
 The AAD_EmptyGroups Job identifies empty groups within Microsoft Entra ID which are suitable

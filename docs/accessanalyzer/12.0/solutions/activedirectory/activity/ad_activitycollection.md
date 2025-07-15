@@ -35,11 +35,14 @@ The AD_ActivityCollection page has the following configurable parameters:
 - Enable to import AD events into the AIC
 - Enable to import authentication events into the AIC
 
-    **NOTE:** The import of AD events and authentication events is disabled by default. You must
+    :::note
+    The import of AD events and authentication events is disabled by default. You must
     enable these parameters for the activity data to be imported into the Netwrix Access Information
     Center. See the
-    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
+    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
     topic for instructions.
+    :::
+
 
 - List of attributes to track for Object Modified changes
 - Number of days to retain activity data in the AIC
@@ -53,8 +56,11 @@ topic for additional information.
 The AD Activity Collection query uses the ADActivity Data Collector to target the Activity Monitor
 archive logs for AD Activity.
 
-**NOTE:** The query can be configured to connect directly to the network share where the archive
+:::note
+The query can be configured to connect directly to the network share where the archive
 logs are stored or the API Server.
+:::
+
 
 ![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/queries.webp)
 
@@ -68,10 +74,13 @@ The AD_ActivityCollection Job requires configuration to collect data. Follow the
 query configuration when Netwrix Activity Monitor is configured to host domain activity logs on an
 API server.
 
-**NOTE:** Ensure the Activity Monitor API Server and the required Connection Profile are
+:::note
+Ensure the Activity Monitor API Server and the required Connection Profile are
 successfully set up. See the
-[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/activity.md)
+[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/activity.md)
 topic for additional information.
+:::
+
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
@@ -106,10 +115,13 @@ last step.
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+:::info
+The threshold should be set to ensure the logs are collected before the Activity
 Monitor domain output log retention expires. For example, if Access Analyzer runs the
 **AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
 configured to retain at least 10 days of log files.
+:::
+
 
 **Step 10 –** Set the Retention period as desired. This is the number of days Access Analyzer keeps
 the collected data in the SQL Server database.
@@ -136,10 +148,13 @@ The AD_ActivityCollection Job requires configuration to collect data. Follow the
 query configuration when Netwrix Activity Monitor is configured to store activity logs on a network
 share.
 
-**NOTE:** Ensure the Activity Monitor domain output and the required Connection Profile are
+:::note
+Ensure the Activity Monitor domain output and the required Connection Profile are
 successfully set up. See the
-[File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/activedirectory/activity/filearchive.md) topic for
+[File Archive Repository Option](/docs/accessanalyzer/12.0/requirements/activedirectory/target/activity/filearchive.md) topic for
 additional information.
+:::
+
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
@@ -166,10 +181,13 @@ Click **Next**.
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+:::info
+The threshold should be set to ensure the logs are collected before the Activity
 Monitor domain output log retention expires. For example, if Access Analyzer runs the
 **AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
 configured to retain at least 10 days of log files.
+:::
+
 
 **Step 7 –** Set the Retention period as desired. This is the number of days Access Analyzer keeps
 the collected data in the SQL Server database.
@@ -186,8 +204,11 @@ logs are archived.
 Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Analysis** node.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/analysis.webp)
 
@@ -211,12 +232,14 @@ The following analysis tasks are selected by default:
 The customizable parameters for this job allow you to configure importing of AD activity data into
 the Netwrix Access Information Center.
 
-| Analysis Task                   | Customizable Parameter Name | Default Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Value Indicates                                         |
-| ------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| AIC Import - AD Activity Events | #modifiedAttributeList      | Default attributes: - givenName - sn - displayName - description - userPrincipalName - sAMAccountName - initials - title - department - company - manager - location - streetAddress - currentLocation - st - postalCode - c - otherTelephone - homePhone - ipPhone - mobile - facsimileTelephoneNumber - otherFacsimileTelephoneNumber - mail - wWWHomePage - employeeID - employeeType - employeeNumber - extensionAttribute1 - extensionAttribute2 - extensionAttribute3 - extensionAttribute4 - extensionAttribute5 - extensionAttribute6 - extensionAttribute7 - extensionAttribute8 - extensionAttribute9 - extensionAttribute10 - extensionAttribute11 - extensionAttribute12 - extensionAttribute13 - extensionAttribute14 - extensionAttribute15 | List of attributes to track for Object Modified changes |
-| AIC Import - AD Activity Events | @ADEvents                   | False                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Enable to import AD events into the AIC                 |
-| AIC Import - AD Activity Events | @AuthEvents                 | False                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Enable to import authentication events into the AIC     |
-| AIC Import - Activity Retention | @Days                       | 120                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Number of days to retain activity data in the AIC       |
+| Analysis Task                                   | Customizable Parameter Name | Default Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Value Indicates                                         |
+| ----------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| AIC Import <ul><li>AD Activity Events</li></ul> | #modifiedAttributeList      | Default attributes: <ul><li>givenName</li><li>sn</li><li>displayName</li><li>description</li><li>userPrincipalName</li><li>sAMAccountName</li><li>initials</li><li>title</li><li>department</li><li>company</li><li>manager</li><li>location</li><li>streetAddress</li><li>currentLocation</li><li>st</li><li>postalCode</li><li>c</li><li>otherTelephone</li><li>homePhone</li><li>ipPhone</li><li>mobile</li><li>facsimileTelephoneNumber</li><li>otherFacsimileTelephoneNumber</li><li>mail</li><li>wWWHomePage</li><li>employeeID</li><li>employeeType</li><li>employeeNumber</li><li>extensionAttribute1</li><li>extensionAttribute2</li><li>extensionAttribute3</li><li>extensionAttribute4</li><li>extensionAttribute5</li><li>extensionAttribute6</li><li>extensionAttribute7</li><li>extensionAttribute8</li><li>extensionAttribute9</li><li>extensionAttribute10</li><li>extensionAttribute11</li><li>extensionAttribute12</li><li>extensionAttribute13</li><li>extensionAttribute14</li><li>extensionAttribute15</li></ul> | List of attributes to track for Object Modified changes |
+| AIC Import <ul><li>AD Activity Events</li></ul> | @ADEvents                   | False                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Enable to import AD events into the AIC                 |
+| AIC Import <ul><li>AD Activity Events</li></ul> | @AuthEvents                 | False                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Enable to import authentication events into the AIC     |
+| AIC Import <ul><li>Activity Retention</li></ul> | @Days                       | 120                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Number of days to retain activity data in the AIC       |
+
+
 
 See the
 [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)

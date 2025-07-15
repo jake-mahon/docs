@@ -14,8 +14,11 @@ past 30 days.
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_PermissionChanges** > **Configure**
 node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_PermissionChanges Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/forensics/permissionchangesanalysis.webp)
 
@@ -29,6 +32,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_PermissionChanges Job produces the
 following pre-configured report:
 
-| Report             | Description                                                                                                                                  | Default Tags | Report Elements                                                                                                                                       |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Permission Changes | This report identifies all resources where successful permission changes have occurred. The line chart shows data for the past 30 days only. | None         | This report is comprised of two elements: - Line Chart – Displays last 30 days of permission changes - Table – Provides details on permission changes |
+| Report             | Description                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                             |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Permission Changes | This report identifies all resources where successful permission changes have occurred. The line chart shows data for the past 30 days only. | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays last 30 days of permission changes</li><li>Table – Provides details on permission changes</li></ul> |
+

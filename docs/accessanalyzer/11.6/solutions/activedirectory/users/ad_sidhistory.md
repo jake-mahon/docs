@@ -1,3 +1,9 @@
+---
+title: "AD_SIDHistory Job"
+description: "AD_SIDHistory Job"
+sidebar_position: 70
+---
+
 # AD_SIDHistory Job
 
 The AD_SIDHistory Job enumerates historical SIDs in the audited environment and highlights

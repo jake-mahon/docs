@@ -1,3 +1,9 @@
+---
+title: "Clear ADActivity Tables"
+description: "Clear ADActivity Tables"
+sidebar_position: 80
+---
+
 # Clear ADActivity Tables
 
 Sometimes when troubleshooting an ADActivity issue, it becomes necessary to clear the standard

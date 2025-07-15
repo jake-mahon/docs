@@ -1,3 +1,9 @@
+---
+title: "RACF"
+description: "RACF"
+sidebar_position: 210
+---
+
 # RACF
 
 This connector exports users and profiles from a
@@ -56,7 +62,7 @@ The identifier of the connection and thus the name of the subsection must:
 - not begin with a digit.
 - not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
-> The following example reads RACF data from the `C:/UsercubeContoso/RacfFile.csv` iso-8859-1 file
+> The following example reads RACF data from the `C:/identitymanagerContoso/RacfFile.csv` iso-8859-1 file
 > and exports it to CSV files in Identity Manager format:
 >
 > ```
@@ -66,7 +72,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "RACF": {
->       "Path": "C:/UsercubeContoso/RacfFile.csv",
+>       "Path": "C:/identitymanagerContoso/RacfFile.csv",
 >       "Encoding": "iso-8859-1",
 >     }
 >   }
@@ -85,8 +91,9 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder one CSV
-file per record type (0100, 0200, etc.), named `<connectionIdentifier>_<type>.csv`.
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder one CSV file per record type (0100, 0200, etc.), named
+`<connectionIdentifier>_<type>.csv`.
 
 > For example, consider an export with a connection named `ExportRacf`, and a source file containing
 > the record types 0100, 0120, 0203. Then we will have three output files named

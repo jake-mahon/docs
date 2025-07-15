@@ -72,7 +72,10 @@ These windows contain the following options for the data series:
   currently selected in a series for the chart. Select the checkbox for column that contains the
   data for the series. You can use the search bar to filter the list of columns.
 
-    **NOTE:** The other options on the window are disabled until a column is selected.
+    :::note
+    The other options on the window are disabled until a column is selected.
+    :::
+
 
 - Select a function to aggregate the column by – Use the drop-down to select an aggregation
   function. The available options vary depending on the column selected. The possible options are:
@@ -103,11 +106,12 @@ If the configuration is incomplete or invalid, a message with instructions to fi
 is displayed in the preview window instead. The following are possible messages and scenarios that
 would cause them:
 
-| Message                                                                                                                                                                                                                                                           | Scenario                                                                                                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Following is the minimum requirement to generate preview: - From columns(left side) above, select at least one label column. - From series(right side) above, configure at least one series column.                                                               | - Series column not configured - Series with function and no label selected - None selected                                                                                                                      |
-| Following is the minimum requirement to generate preview with the transformation function: - From columns(left side) above, select only one column of type Datetime. - From series(right side) above, configure all the series column with an aggregate function. | - Transformation function enabled with multiple label columns selected - Transformation function enabled but no aggregate function configured - Transformation function enabled, but no Datetime column selected |
-| Following series should be configured with a function                                                                                                                                                                                                             | - The transformation function is enabled but no aggregate function is configured for the series                                                                                                                  |
+| Message                                                                                                                                                                                                                                                                                 | Scenario                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Following is the minimum requirement to generate preview: <ul><li>From columns(left side) above, select at least one label column.</li><li>From series(right side) above, configure at least one series column.</li></ul>                                                               | <ul><li>Series column not configured</li><li>Series with function and no label selected</li><li>None selected</li></ul>                                                                                                                      |
+| Following is the minimum requirement to generate preview with the transformation function: <ul><li>From columns(left side) above, select only one column of type Datetime.</li><li>From series(right side) above, configure all the series column with an aggregate function.</li></ul> | <ul><li>Transformation function enabled with multiple label columns selected</li><li>Transformation function enabled but no aggregate function configured</li><li>Transformation function enabled, but no Datetime column selected</li></ul> |
+| Following series should be configured with a function                                                                                                                                                                                                                                   | <ul><li>The transformation function is enabled but no aggregate function is configured for the series</li></ul>                                                                                                                              |
+
 
 ## Data Preview
 

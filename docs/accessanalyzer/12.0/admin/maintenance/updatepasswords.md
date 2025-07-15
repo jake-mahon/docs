@@ -23,10 +23,13 @@ updated:
 - [ServiceNow (if enabled)](#servicenow-if-enabled)
 - [Services](#services)
 
-**NOTE:** When updating passwords in Access Analyzer, you should also check the passwords in Netwrix
+:::note
+When updating passwords in Access Analyzer, you should also check the passwords in Netwrix
 Activity Monitor. See the Update Credential Passwords topic in the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for additional information.
+:::
+
 
 ## Storage Profiles
 

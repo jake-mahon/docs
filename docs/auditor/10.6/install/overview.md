@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 40
+---
+
 # Installation
 
 This chapter provides step-by-step instructions on how to install Netwrix Auditor and its

@@ -15,8 +15,11 @@ permissions on database objects.
 Navigate to the **Oracle** > **2.Activity** > **Oracle_PermissionChanges** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/activity/jobgroup28.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_PermissionsChanges Job
 produces the following pre-configured report.
 
-| Report                             | Description                                                                                     | Default Tags | Report Elements                                                                                                                                                                                                                               |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Permission Change Activity Summary | This report lists all permission change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by permission change activity - Table –  Provides details on instances by permission change activity - Table – Provides details on permission change details |
+| Report                             | Description                                                                                     | Default Tags | Report Elements                                                                                                                                                                                                                                                           |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Permission Change Activity Summary | This report lists all permission change related Oracle events, and summarizes them by instance. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by permission change activity</li><li>Table –  Provides details on instances by permission change activity</li><li>Table – Provides details on permission change details</li></ul> |
+

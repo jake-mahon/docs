@@ -10,15 +10,15 @@ The PowerShell Data Collector provides PowerShell script exit from Access Analyz
 configuration options for creating and configuring a PowerShell query. This data collector is a core
 component of Access Analyzer and is available with all Access Analyzer licenses.
 
-Protocols
+**Protocols**
 
 - PowerShell
 
-Ports
+**Ports**
 
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group (if targeting domain controllers)
 - Member of the Local Administrators group

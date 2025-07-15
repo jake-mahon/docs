@@ -10,16 +10,16 @@ The Box solution set contains jobs to provide visibility into Box access rights,
 configurations, activities, and more, ensuring you never lose sight or control of your critical
 assets residing in Box.
 
-Supported Platforms
+**Supported Platforms**
 
 - Box for Business
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
-See the [Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/box/box_1.md) topic
+See the [Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/box/target.md) topic
 for additional information.
 
-Location
+**Location**
 
 The Box Solution requires a special Access Analyzer license. It can be installed from the Instant
 Job Wizard. Once it has been installed into the Jobs tree, navigate to the solution: **Jobs** >

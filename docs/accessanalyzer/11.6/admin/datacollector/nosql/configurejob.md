@@ -1,3 +1,9 @@
+---
+title: "NoSQL Custom Connection Profile & Host List"
+description: "NoSQL Custom Connection Profile & Host List"
+sidebar_position: 10
+---
+
 # NoSQL Custom Connection Profile & Host List
 
 The NoSQL Data Collector requires a custom connection profile and host list.

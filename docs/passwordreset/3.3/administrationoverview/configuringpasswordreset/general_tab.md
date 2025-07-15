@@ -14,7 +14,7 @@ Use the General tab to maintain the list of managed domains, set the database op
 the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for
 additional information.
 
-![configuring_npr](/img/product_docs/passwordreset/3.3/administration/configuring_npr_3.webp)
+![configuring_npr](/img/product_docs/passwordreset/3.3/administration/configuring_npr.webp)
 
 ### Domain List
 
@@ -107,9 +107,7 @@ more detailed Rejection message when this registry value is set. Users may also 
 policy, or no policy enforced if the queried server is not a domain controller in the user's
 domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
-firewall rules to open this port. See the
-[Password Policy Client](/docs/passwordreset/3.3/passwordpolicyenforcer/administration/password_policy_client.md)
-topic for more information.
+firewall rules to open this port. See the Password Policy Enforcer documentation for additional information.
 
 **NOTE:** Due to a protocol upgrade, it is now recommended to enable protocol encryption for
 clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer

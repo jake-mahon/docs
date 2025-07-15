@@ -35,7 +35,7 @@ Both tables have the following columns:
       additional information.
     - Manual — Credential rotation must be initiated manually with the Rotate Service Account
       button, or the credential must be manually updated on both the resource and in Privilege
-      Secure. See the [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md)
+      Secure. See the [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md)
       section for information on updating credentials for Internal service accounts.
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
@@ -47,7 +47,7 @@ Both tables have the following columns:
 
     - Standard — Local or domain user account, including managed users created by activity sessions
     - Internal — Internal service account used by Privilege Secure with no dependencies. See the
-      [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/interface/serviceaccounts/serviceaccounts.md) topic for additional
+      [Service Accounts Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/serviceaccounts/serviceaccounts.md) topic for additional
       information.
     - Service — Local or domain service account with one or more dependencies. Includes Internal
       service accounts with one or more dependencies.

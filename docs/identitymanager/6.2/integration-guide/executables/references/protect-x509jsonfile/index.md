@@ -1,3 +1,9 @@
+---
+title: "Usercube-Protect-X509JsonFile"
+description: "Usercube-Protect-X509JsonFile"
+sidebar_position: 310
+---
+
 # Usercube-Protect-X509JsonFile
 
 This tool is used to encrypt a JSON file containing sensitive connection data, for example the
@@ -15,12 +21,12 @@ lines to encrypt.
 
 ## Examples
 
-The command below encrypts the `appsettings.agent.json` file from the `C:/UsercubeTraining` folder
+The command below encrypts the `appsettings.agent.json` file from the `C:/identitymanagerTraining` folder
 and creates the `appsettings.encrypted.agent.json` file in the same folder.
 
 ```
 
-./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/UsercubeTraining/appsettings.agent.json" --output-json-file-path "C:/UsercubeTraining/appsettings.encrypted.agent.json"
+./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"
 
 ```
 
@@ -108,7 +114,7 @@ appsettings.beforeEncryption.json
 ```
 
 This command writes encrypted values from `appsettings.agent.json` to
-`C:/UsercubeTraining/appsettings.encrypted.agent.json` following the
+`C:/identitymanagerTraining/appsettings.encrypted.agent.json` following the
 [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).json
 structure:
 

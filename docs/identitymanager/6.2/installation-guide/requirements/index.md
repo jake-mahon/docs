@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This section identifies hardware and software requirements for each Identity Manager component:

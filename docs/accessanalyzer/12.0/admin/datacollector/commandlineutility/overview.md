@@ -11,17 +11,17 @@ data provided by a Microsoft native or third-party command line utility. It allo
 execute a command line utility and capture its output as Access Analyzer data. This data collector
 is a core component of Access Analyzer and is available with all Access Analyzer licenses.
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the local Administrators group
 

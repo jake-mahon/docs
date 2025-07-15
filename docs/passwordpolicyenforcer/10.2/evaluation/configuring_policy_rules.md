@@ -1,3 +1,9 @@
+---
+title: "Configuring Policy Rules"
+description: "Configuring Policy Rules"
+sidebar_position: 40
+---
+
 # Configuring Policy Rules
 
 The policy you just created does not enforce any password requirements yet. You can now configure

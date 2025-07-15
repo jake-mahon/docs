@@ -1,3 +1,9 @@
+---
+title: "SP_StaleFiles Job"
+description: "SP_StaleFiles Job"
+sidebar_position: 20
+---
+
 # SP_StaleFiles Job
 
 The SP_StaleFiles Job identifies files that have not been modified in at least a year across

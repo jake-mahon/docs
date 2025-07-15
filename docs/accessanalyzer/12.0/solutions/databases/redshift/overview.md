@@ -13,18 +13,18 @@ and Sensitive Data.
 The Redshift Solution requires a special Access Analyzer license. Additionally, Sensitive Data
 Discovery enables the solution to search Redshift and AWS content for sensitive data.
 
-Supported Platforms
+**Supported Platforms**
 
 - Amazon AWS Redshift
 - AWS Redshift Cluster
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/redshift.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
@@ -33,12 +33,15 @@ is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are require
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Access Analyzer server.
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The Redshift Solution requires a special Access Analyzer license. It can be installed from the
 Access Analyzer Instant Job Wizard. Once it has been installed in the **Jobs** tree, navigate to the

@@ -1,3 +1,9 @@
+---
+title: "EX_RegisterAzureAppAuth Job"
+description: "EX_RegisterAzureAppAuth Job"
+sidebar_position: 20
+---
+
 # EX_RegisterAzureAppAuth Job
 
 EX_RegisterAzureAppAuth will register an Microsoft Entra ID (formerly Azure AD) application for
@@ -87,5 +93,5 @@ Online scans. There will be a new Connection Profile for this Application. Resta
 Auditor Console and enter a password to use this Connection Profile.
 
 _Remember,_ the required rights and roles for Exchange Online still need to be configured. See the
-[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/exchangeonline.md)
+[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/exchange/exchangeonline/exchangeonline.md)
 topic for additional information.

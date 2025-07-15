@@ -1,3 +1,9 @@
+---
+title: "Edit List"
+description: "Edit List"
+sidebar_position: 50
+---
+
 # Edit List
 
 Use the **Edit List** option to edit properties for the selected host list. This option is available

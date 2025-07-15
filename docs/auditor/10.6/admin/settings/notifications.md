@@ -1,3 +1,9 @@
+---
+title: "Notifications"
+description: "Notifications"
+sidebar_position: 50
+---
+
 # Notifications
 
 SMTP settings are configured when you create the first monitoring plan in the New monitoring plan

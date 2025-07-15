@@ -1,3 +1,9 @@
+---
+title: "ActiveSync > EX_ActiveSync Job"
+description: "ActiveSync > EX_ActiveSync Job"
+sidebar_position: 30
+---
+
 # ActiveSync > EX_ActiveSync Job
 
 The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.

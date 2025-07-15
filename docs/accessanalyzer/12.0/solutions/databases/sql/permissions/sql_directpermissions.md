@@ -14,8 +14,11 @@ database, and server level.
 Navigate to the **Databases** > SQL > 3.Permissions > SQL_DirectPermissions > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup38.webp)
 
@@ -31,8 +34,9 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_DirectPermissions Job
 produces the following pre-configured reports.
 
-| Report               | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                                    |
-| -------------------- | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Database Permissions | This report highlights SQL permissions granted at the database level.     | None         | This report is comprised of three elements: - Bar Chart – Displays database permission summary - Table – Provides details on database permission summary - Table – Provides details on database permission details |
-| Schema Permissions   | This report lists all SQL permissions granted at the schema level.        | None         | This report is comprised of three elements: - Bar Chart – Displays top schema by permission count - Table – Provides details on permission summary - Table – Provides details on schema permission details         |
-| Server Permissions   | This report highlights SQL permissions being granted at the server level. | None         | This report is comprised of three elements: - Bar Chart – Displays server permission summary - Table – Provides details on server permission summary - Table – Provides details on server permission details       |
+| Report               | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Database Permissions | This report highlights SQL permissions granted at the database level.     | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays database permission summary</li><li>Table – Provides details on database permission summary</li><li>Table – Provides details on database permission details</li></ul> |
+| Schema Permissions   | This report lists all SQL permissions granted at the schema level.        | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top schema by permission count</li><li>Table – Provides details on permission summary</li><li>Table – Provides details on schema permission details</li></ul>         |
+| Server Permissions   | This report highlights SQL permissions being granted at the server level. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays server permission summary</li><li>Table – Provides details on server permission summary</li><li>Table – Provides details on server permission details</li></ul>       |
+

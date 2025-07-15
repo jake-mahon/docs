@@ -1,6 +1,6 @@
 ---
-title: "A software solution to match your IGA needs"
-description: "A software solution to match your IGA needs"
+title: "Netwrix Identity Manager SaaS"
+description: "Netwrix Identity Manager SaaS"
 sidebar_position: 10
 ---
 

@@ -1,3 +1,9 @@
+---
+title: "General Tab"
+description: "General Tab"
+sidebar_position: 10
+---
+
 # General Tab
 
 The General tab is for changing the job name and description.

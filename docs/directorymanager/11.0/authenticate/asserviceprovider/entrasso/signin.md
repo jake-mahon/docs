@@ -1,3 +1,9 @@
+---
+title: "Sign In Using Microsoft Entra ID SSO"
+description: "Sign In Using Microsoft Entra ID SSO"
+sidebar_position: 30
+---
+
 # Sign In Using Microsoft Entra ID SSO
 
 We configured Microsoft Entra ID SSO with a GroupID client, that is the GroupID portal _Wizard_ in

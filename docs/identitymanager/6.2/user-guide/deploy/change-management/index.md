@@ -1,3 +1,9 @@
+---
+title: "Plan Change Management"
+description: "Plan Change Management"
+sidebar_position: 10
+---
+
 # Plan Change Management
 
 How to anticipate the deep changes in the organization's applications and processes due to Identity
@@ -76,18 +82,18 @@ Run change management by proceeding as follows:
     ![Usual Populations](/img/product_docs/identitymanager/saas/user-guide/deploy/change-management/changemanagement_populations.webp)
 
 2. For all listed populations, estimate their size and the expected impact on them, through
-   indicators like the frequency of their future use of the solution. Use Plan Change Management to
-   represent key population members, such as VIP users that don't use the application much, or users
-   not feeling comfortable with computers.
+   indicators like the frequency of their future use of the solution. Use personas to represent key
+   population members, such as VIP users that don't use the application much, or users not feeling
+   comfortable with computers.
 3. According to the previous impact analysis, implement adjusted change management methods. You can
    get inspiration from the following examples.
 
-|                   | Population  | Size | Impact                 | Possible Actions                                                                                             |
-| ----------------- | ----------- | ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [1](#example-1)   | All         | 500  | Low                    | Introduction email Public video Information article                                                          |
-| [2](#example-2)   | End-Users   | 50   | High                   | Coffee corner: coffee break with the local support team offering tutorials and exercises on Identity Manager |
-| [3a](#example-3a) | HR/Managers | 10   | High (daily use)       | Tutorials and exercises with a support team to get started quickly with Identity Manager                     |
-| [3b](#example-3b) | HR/Managers | 10   | Medium (bimonthly use) | Step-by-step procedure video or flyer                                                                        |
+|     | Population  | Size | Impact                 | Possible Actions                                                                                             |
+| --- | ----------- | ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 1   | All         | 500  | Low                    | Introduction email Public video Information article                                                          |
+| 2   | End-Users   | 50   | High                   | Coffee corner: coffee break with the local support team offering tutorials and exercises on Identity Manager |
+| 3a  | HR/Managers | 10   | High (daily use)       | Tutorials and exercises with a support team to get started quickly with Identity Manager                     |
+| 3b  | HR/Managers | 10   | Medium (bimonthly use) | Step-by-step procedure video or flyer                                                                        |
 
 ##### Example 1
 

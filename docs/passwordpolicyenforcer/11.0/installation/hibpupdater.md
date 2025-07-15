@@ -10,7 +10,7 @@ Password Policy Enforcer can be configured to use the Have I Been Pwnd (HIBP) da
 this database is hosted on the Netwrix website. The HIBP database contains a list of the hashes of
 known compromised passwords. During password change operations, the application can be configured to
 reject passwords with a hash that matches a hash in the HIBP database. See the Password Policy
-Enforcer [Compromised Password Check](/docs/passwordpolicyenforcer/11.0/administration-overview/compromisedpasswordcheck.md) topic for HIBP database
+Enforcer [Compromised Password Check](/docs/passwordpolicyenforcer/11.0/admin/compromisedpasswordcheck.md) topic for HIBP database
 information and configuration options.
 
 The HIBP database must be initially deployed to a server or workstation with an internet connection
@@ -104,7 +104,7 @@ Compromised rule to read the files from:
 
 \\127.0.0.1\sysvol\your.domain\filename.db
 
-See the [Compromised Rule](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/compromised_rule.md) topic for additional information.
+See the [Compromised Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/compromised_rule.md) topic for additional information.
 
 The path above only works if the computer has a Sysvol share. This will not be the case if you are
 using a workstation for policy testing, or if you are using Password Policy Enforcer to enforce

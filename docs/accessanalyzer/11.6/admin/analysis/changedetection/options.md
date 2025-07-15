@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Options"
+description: "Change Detection: Options"
+sidebar_position: 60
+---
+
 # Change Detection: Options
 
 Use the Options page to specify whether to save history, including a running tally of all changes

@@ -17,7 +17,7 @@ tab and configure search settings.
     - Clue type - select the required value from the **Type** list.
     - Clue itself (clue body) - enter the required keyword or phrase in the **Find** field.
 
-    **NOTE:** [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/clues/clues.md)
+    **NOTE:** [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md)
 
 2. To restrict the search further, you can either add a **URL** filter, or add a custom filter by
    clicking **Add custom filter** link. This can be helpful when evaluating the usefulness of a clue

@@ -1,3 +1,9 @@
+---
+title: "Entity Association Mapping"
+description: "Entity Association Mapping"
+sidebar_position: 60
+---
+
 # Entity Association Mapping
 
 Contains all the [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md) that can be

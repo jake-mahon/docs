@@ -1,3 +1,9 @@
+---
+title: "Features > EX_Features Job"
+description: "Features > EX_Features Job"
+sidebar_position: 20
+---
+
 # Features > EX_Features Job
 
 The EX_Features job is comprised of data collection and a report that provides information around
@@ -26,7 +32,7 @@ The following query is included with the EX_Features Job:
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.
 
 In addition to the table created by the query, the EX_Features Job produces the following

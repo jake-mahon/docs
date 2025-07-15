@@ -1,3 +1,9 @@
+---
+title: "Dell Isilon/PowerScale Ports"
+description: "Dell Isilon/PowerScale Ports"
+sidebar_position: 10
+---
+
 # Dell Isilon/PowerScale Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Dell Isilon/PowerScale:

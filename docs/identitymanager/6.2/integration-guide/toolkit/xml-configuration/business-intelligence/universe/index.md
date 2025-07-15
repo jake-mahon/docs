@@ -1,3 +1,9 @@
+---
+title: "Universe"
+description: "Universe"
+sidebar_position: 10
+---
+
 # Universe
 
 Universes constitute the basis for the configuration of a new model that we will call universe
@@ -55,7 +61,7 @@ we see the following:
 
 ## Child Element: Association Instance
 
-An association instance represents, within a Universe, the occurrence in the model of an
+An association instance represents, within a Universe , the occurrence in the model of an
 [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
@@ -69,7 +75,7 @@ An association instance represents, within a Universe, the occurrence in the mod
 
 ## Child Element: Entity Instance
 
-An entity instance represents, within a Universe, the occurrence in the model of an
+An entity instance represents, within a Universe , the occurrence in the model of an
 [ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties

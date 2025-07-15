@@ -1,3 +1,9 @@
+---
+title: "Editing False Positive Exclusion Filters"
+description: "Editing False Positive Exclusion Filters"
+sidebar_position: 20
+---
+
 # Editing False Positive Exclusion Filters
 
 Follow the steps to edit a False Positive Exclusion Filter.

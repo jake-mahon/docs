@@ -1,3 +1,9 @@
+---
+title: "Agents"
+description: "Agents"
+sidebar_position: 10
+---
+
 # Agents
 
 To pull data on agent statues, configurations and group memberships, use the agentsRanked endpoint.

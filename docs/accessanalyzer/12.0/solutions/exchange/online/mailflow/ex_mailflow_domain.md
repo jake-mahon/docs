@@ -29,8 +29,11 @@ topic for additional information.
 View the analysis task by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_Mailflow_Domain** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow_Domain Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/online/mailflow/mailflowdomainanalysis.webp)
 
@@ -49,6 +52,7 @@ The following analysis task is selected by default:
 In addition to the tables and views created by the analysis task, the EX_Mailflow_Domain job
 produces the following pre-configured report:
 
-| Report               | Description                              | Default Tags | Report Elements                                                                                                        |
-| -------------------- | ---------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| Top Domains By Count | Displays top domains by recipient count. | None         | This report is comprised of two elements: - Bar Chart – Displays top domains - Table – Provides details on top domains |
+| Report               | Description                              | Default Tags | Report Elements                                                                                                                              |
+| -------------------- | ---------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top Domains By Count | Displays top domains by recipient count. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top domains</li><li>Table – Provides details on top domains</li></ul> |
+

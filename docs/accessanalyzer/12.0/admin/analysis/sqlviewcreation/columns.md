@@ -50,9 +50,12 @@ The grid provides the following options for formatting the resulting table or vi
     - Ascending
     - Descending
 
-**NOTE:** If at least one columns is sorted by value, the **With ties** option is enabled on the
+:::note
+If at least one columns is sorted by value, the **With ties** option is enabled on the
 Result Constraints page. See the [SQLViewCreation: Result Constraints](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/resultconstraints.md) topic
 for additional information.
+:::
+
 
 After selecting the columns to include in the resulting table or view, click **Next** to further
 filter the sourced data.

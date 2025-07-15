@@ -1,3 +1,9 @@
+---
+title: "Modify the Identity Data Model"
+description: "Modify the Identity Data Model"
+sidebar_position: 10
+---
+
 # Modify the Identity Data Model
 
 How to make data model properties evolve according to the organization's needs.

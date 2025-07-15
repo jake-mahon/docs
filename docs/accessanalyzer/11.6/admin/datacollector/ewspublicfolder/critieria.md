@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Critieria"
+description: "EWSPublicFolder: Critieria"
+sidebar_position: 40
+---
+
 # EWSPublicFolder: Critieria
 
 Use the Select DLP criteria for this scan page to select criteria for the sensitive data scan. It is

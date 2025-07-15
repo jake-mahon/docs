@@ -1,3 +1,9 @@
+---
+title: "Configure Security Event Log Size and Retention Settings"
+description: "Configure Security Event Log Size and Retention Settings"
+sidebar_position: 40
+---
+
 # Configure Security Event Log Size and Retention Settings
 
 Follow the steps to configure Security Event Log settings:

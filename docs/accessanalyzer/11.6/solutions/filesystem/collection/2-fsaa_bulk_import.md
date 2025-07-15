@@ -1,3 +1,9 @@
+---
+title: "2-FSAA Bulk Import Job"
+description: "2-FSAA Bulk Import Job"
+sidebar_position: 70
+---
+
 # 2-FSAA Bulk Import Job
 
 The 2-FSAA Bulk Import job is designed to import collected access information from the targeted file

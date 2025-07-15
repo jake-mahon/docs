@@ -14,8 +14,11 @@ effective database level permissions across all audited Oracle database servers.
 Navigate to the **Oracle** > **3.Permissions** > **Oracle_ServerPermissions** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup37.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_ServerPermissions Job
 produces the following pre-configured report.
 
-| Report             | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                                            |
-| ------------------ | ------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Server Permissions | This report highlights server permissions and summarizes them by instance | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by server permissions - Table – Provides details on instances by server permission count - Table – Provides details on server permissions |
+| Report             | Description                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                        |
+| ------------------ | ------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Server Permissions | This report highlights server permissions and summarizes them by instance | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by server permissions</li><li>Table – Provides details on instances by server permission count</li><li>Table – Provides details on server permissions</li></ul> |
+

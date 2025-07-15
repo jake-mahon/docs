@@ -14,8 +14,11 @@ data that is located within Exchange mailboxes and public folders within the env
 View the analysis tasks by navigating to the **Exchange** > **7. Sensitive Data** >
 **EX_SDDResults** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_SDDResults Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
@@ -37,8 +40,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **Deletes all Stored Data** option. This analysis task is for
+:::warning
+Do not select the **Deletes all Stored Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 
@@ -49,8 +55,9 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 In addition to the tables and views created by the analysis tasks, the EX_SDDResults Job produces
 the following pre-configured reports.
 
-| Report                                                        | Description                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                        |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enterprise Summary (Sensitive Content)                        | This report identifies the type and amount of sensitive content found in scanned mailboxes. | None         | This report is comprised of two elements: - Bar Chart – Displays exceptions by item count - Table – Provides a criteria summary                                                                                        |
-| Mailbox Details (Mailboxes with Sensitive Content)            | This report identifies the mailboxes containing sensitive data.                             | None         | This report is comprised of three elements: - Bar Chart – Displays top mailboxes by sensitive item count - Table – Provides mailbox details - Table – Provides details on top mailboxes by sensitive item count        |
-| Public Folder Details (Public Folders with Sensitive Content) | This report identifies the public folders containing sensitive data.                        | None         | This report is comprised of three elements: - Bar Chart – Displays top folders by sensitive data item count - Table – Provides public folder details - Table – Provides details on top folders by sensitive item count |
+| Report                                                        | Description                                                                                 | Default Tags | Report Elements                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enterprise Summary (Sensitive Content)                        | This report identifies the type and amount of sensitive content found in scanned mailboxes. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays exceptions by item count</li><li>Table – Provides a criteria summary</li></ul>                                                                                              |
+| Mailbox Details (Mailboxes with Sensitive Content)            | This report identifies the mailboxes containing sensitive data.                             | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top mailboxes by sensitive item count</li><li>Table – Provides mailbox details</li><li>Table – Provides details on top mailboxes by sensitive item count</li></ul>        |
+| Public Folder Details (Public Folders with Sensitive Content) | This report identifies the public folders containing sensitive data.                        | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top folders by sensitive data item count</li><li>Table – Provides public folder details</li><li>Table – Provides details on top folders by sensitive item count</li></ul> |
+

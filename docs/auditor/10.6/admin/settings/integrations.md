@@ -1,3 +1,9 @@
+---
+title: "Integrations"
+description: "Integrations"
+sidebar_position: 60
+---
+
 # Integrations
 
 Netwrix Auditor Integration API—endless integration, auditing and reporting capabilities.

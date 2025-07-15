@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Scope by Mailboxes"
+description: "ExchangePS: Scope by Mailboxes"
+sidebar_position: 50
+---
+
 # ExchangePS: Scope by Mailboxes
 
 The Scope by Mailboxes page is used to define specific mailboxes to search. This page is enabled

@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the .NIS Inventory Solution"
+description: "Recommended Configuration for the .NIS Inventory Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the .NIS Inventory Solution
 
 The .NIS Inventory Solution requires some configuration for the target environment. It can be run

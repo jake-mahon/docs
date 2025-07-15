@@ -32,9 +32,12 @@ A new connection profile will need to be created to be leveraged in the AWS Solu
 **Step 3 –** Input the Access Key ID into the Username section, and the Secret Access Key into the
 Access Token section.
 
-_Remember,_ these are obtained from AWS when the permissions are configured. See the
-[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/aws/aws_2.md) topic for additional
+:::tip
+Remember, these are obtained from AWS when the permissions are configured. See the
+[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/aws/configurescans.md) topic for additional
 information.
+:::
+
 
 **Step 4 –** Click OK in the User Credentials modal, name the Connection Profile, and click Save.
 

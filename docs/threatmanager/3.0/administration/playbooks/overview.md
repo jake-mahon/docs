@@ -155,7 +155,7 @@ The Action Log window contains a Logs tab and a Step Details tab.
 
 The Logs tab displays logs for the playbook execution.
 
-![This screenshot displays the Logs tab on the Action Log window.](/img/product_docs/threatmanager/3.0/administration/playbooks/logstab.webp)
+![This screenshot displays the Logs tab on the Action Log window.](/img/product_docs/threatmanager/3.0/administration/playbooks/action/logstab.webp)
 
 The Logs tab displays a table with the following columns:
 

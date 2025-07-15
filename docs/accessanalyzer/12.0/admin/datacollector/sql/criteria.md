@@ -34,6 +34,9 @@ The table contains the following types of criteria:
     [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
-**NOTE:** Adding unnecessary criteria can adversely impact the scanner performance and can cause the
+:::note
+Adding unnecessary criteria can adversely impact the scanner performance and can cause the
 scanning job to take a long time. If performance is adversely affected, revisit the sensitive data
 scanning criteria and remove criteria that is not required.
+
+:::

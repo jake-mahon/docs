@@ -1,9 +1,3 @@
----
-title: "Import Product Translations into Identity Manager"
-description: "Import Product Translations into Identity Manager"
-sidebar_position: 10
----
-
 # Import Product Translations into Identity Manager
 
 This topic shows how to import product translations into Identity Manager. A product translation
@@ -70,7 +64,7 @@ script in the command line.
 <Language Code="en-US" IndicatorNumber="1" JsonPath="translation.en-US.json" />
 ```
 
-A translation file must be named: translation.`<language code>`.json.
+A translation file must be named: translation.`language code`.json.
 
 For example, for en-US, the translation file must be named translation.en-US.json.
 

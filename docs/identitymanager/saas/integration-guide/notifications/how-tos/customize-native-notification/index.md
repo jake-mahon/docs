@@ -1,9 +1,3 @@
----
-title: "Customize a Native Notification"
-description: "Customize a Native Notification"
-sidebar_position: 70
----
-
 # Customize a Native Notification
 
 This guide shows how to set a template other than the default one for native notifications.
@@ -23,9 +17,7 @@ Customize a native notification by proceeding as follows:
 
 1. Among the
    [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md),
-   get the identifier of the notification whose templates are to be replaced. See the
-   [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md)
-   topic for additional information.
+   get the identifier of the notification whose templates are to be replaced.
 
     > For example, to customize the notification for one-way password reset: `OneWayPasswordReset`.
 

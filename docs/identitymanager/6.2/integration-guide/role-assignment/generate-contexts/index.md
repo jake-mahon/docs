@@ -1,3 +1,9 @@
+---
+title: "Generate Contexts"
+description: "Generate Contexts"
+sidebar_position: 50
+---
+
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the
@@ -12,9 +18,8 @@ dimension-value pairs meet the role criteria.
 ## Basic Context Generation
 
 When using only a context rule without a record section, the context generation is straightforward:
-a set of dimension-value pairs is created by computing the value of the
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) on the context
-rule.
+a set of dimension-value pairs is created by computing the value of the dimension bindings on the
+[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 > For example, the following context rule defines guests' contexts based on their start date, end
 > date, and company.
@@ -117,18 +122,18 @@ they must be in the same `Location`. So it is safe to configure the record secti
 
 Here is the configuration needed to apply this policy.
 
-```
+````
 
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate">
 </RecordSection>
 
 Position record section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    <Property Property="Department" ExtensionKind="None" />
-    <Property Property="Location" />
-    <Property Property="JobTitle" ExtensionKind="None" /></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    ```<Property Property="Department" ExtensionKind="None" />```
+    ```<Property Property="Location" />```
+    ```<Property Property="JobTitle" ExtensionKind="None" />```</RecordSection>
 
-```
+````
 
 The `ExtensionKind="None"` was removed for the `Location` property.
 
@@ -141,12 +146,12 @@ Any rules targeting identities working in `London` will be assigned to `Mark Bar
 
 #### Extension of a whole position
 
-The [property value copy](#extension-of-a-property) can be leveraged to extend a chosen position
-when for some time the identity does not have one. The following configuration and the identity of
-`Phoebe Buffay` will be used to showcase a position extension. It is done by removing the
-`ExtensionKind="None"` of the position properties.
+The property value copy can be leveraged to extend a chosen position when for some time the identity
+does not have one. See the Generate Contexts topic for additional information. The following
+configuration and the identity of `Phoebe Buffay` will be used to showcase a position extension. It
+is done by removing the `ExtensionKind="None"` of the position properties.
 
-```
+````
 
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate">
@@ -154,10 +159,10 @@ Default section:
 
 Position record section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">
-    <Property Property="Department" />    <Property Property="Location" />    <Property Property="JobTitle" />
+    ```<Property Property="Department" />```    ```<Property Property="Location" />```    ```<Property Property="JobTitle" />```
 </RecordSection>
 
-```
+````
 
 ![positionextension-identity](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/positionextension-identity.webp)
 

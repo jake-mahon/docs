@@ -9,8 +9,11 @@ sidebar_position: 90
 Sometimes when troubleshooting an ADInventory issue, it becomes necessary to clear the standard
 reference tables. Follow the steps.
 
-**CAUTION:** Be careful when using this query task. It will result in the deletion of collected
+:::warning
+Be careful when using this query task. It will result in the deletion of collected
 data.
+:::
+
 
 **Step 1 –** Create a new job and assign a query using the **ADInventory** Data Collector.
 
@@ -24,8 +27,13 @@ Click **OK** to close the Query Properties window.
 
 When the job is run, all of the ADInventory standard reference tables are removed from the database.
 
-**CAUTION:** Never leave the query task selected after job execution. Accidental data loss can
+:::warning
+Never leave the query task selected after job execution. Accidental data loss can
 occur.
+:::
 
-_Remember,_ this job deletes data from the Access Analyzer database. Check the job has been
+
+:::tip
+Remember, this job deletes data from the Access Analyzer database. Check the job has been
 configured correctly prior to job execution.
+:::

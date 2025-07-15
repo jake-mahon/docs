@@ -1,9 +1,3 @@
----
-title: "Infer Single Roles with a Composite Role"
-description: "Infer Single Roles with a Composite Role"
-sidebar_position: 70
----
-
 # Infer Single Roles with a Composite Role
 
 This guide shows how to assign several single roles via the assignment of one composite role.
@@ -16,7 +10,7 @@ are verified.
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-a [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
+[ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
 EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType

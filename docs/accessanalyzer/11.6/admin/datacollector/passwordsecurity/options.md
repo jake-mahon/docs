@@ -1,3 +1,9 @@
+---
+title: "PasswordSecurity: Options"
+description: "PasswordSecurity: Options"
+sidebar_position: 20
+---
+
 # PasswordSecurity: Options
 
 The Options page provides format options for returned data.

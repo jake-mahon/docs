@@ -1,3 +1,9 @@
+---
+title: "Exceptions by Type Report"
+description: "Exceptions by Type Report"
+sidebar_position: 10
+---
+
 # Exceptions by Type Report
 
 The Exceptions report at the exception type level provides details on the selected exception type.

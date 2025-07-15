@@ -12,17 +12,17 @@ within the Windows Solution. While the data collector is available with all Acce
 options, the Windows Solution is only available with a special Access Analyzer license. See the
 [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

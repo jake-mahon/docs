@@ -1,3 +1,9 @@
+---
+title: "Simulation"
+description: "Simulation"
+sidebar_position: 110
+---
+
 # Simulation
 
 Simulations aim to assess the impact of a modification in the role model, i.e. any modification of a
@@ -12,17 +18,16 @@ involve:
 - [ Resource Correlation Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
   and
   [ Resource Classification Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
-- [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) and
-  [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- Scalar rules and navigation rules;
 - [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules;
 - [ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and
   [ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
 - [Single Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)and
   [Composite Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
-A simulation can also be created by the
-[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) for
-the automation of role assignments.
+A simulation can also be created by the role mining tool for the automation of role assignments. See
+the [ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md)
+topic for additional information.
 
 Through simulation, integrators can:
 

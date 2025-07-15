@@ -17,15 +17,15 @@ Access Analyzer license. See the
 [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
-Protocols
+**Protocols**
 
 - LDAP
 
-Ports
+**Ports**
 
 - TCP 389/636
 
-Permissions
+**Permissions**
 
 - At the domain level:
 

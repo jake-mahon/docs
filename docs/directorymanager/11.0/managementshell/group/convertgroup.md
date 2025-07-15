@@ -1,3 +1,9 @@
+---
+title: "Convert-Group"
+description: "Convert-Group"
+sidebar_position: 10
+---
+
 # Convert-Group
 
 The **Convert-Group** commandlet converts an unmanaged group to a Smart Group.
@@ -129,4 +135,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

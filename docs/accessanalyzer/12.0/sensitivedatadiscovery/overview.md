@@ -10,9 +10,12 @@ Sensitive Data Discovery (SDD) allows Access Analyzer to scan file content for m
 sensitive data criteria. There are several pre-defined criteria, but you can also customize existing
 criteria or create new criteria.
 
-**NOTE:** Sensitive Data Discovery requires a special license. If your license includes Sensitive
+:::note
+Sensitive Data Discovery requires a special license. If your license includes Sensitive
 Data Discovery, then the necessary components for Sensitive Data Discovery are installed during the
 Access Analyzer, FSAA Proxy, and SPAA Agent installations.
+:::
+
 
 Sensitive Data Discovery can be used with any of the following Access Analyzer solutions:
 
@@ -38,11 +41,17 @@ Sensitive Data Discovery can be used with any of the following Access Analyzer s
 - File System Solution
 - SharePoint Solution
 
-**NOTE:** Changes made in the Sensitive Data Criteria Editor are global for Sensitive Data Discovery
+:::note
+Changes made in the Sensitive Data Criteria Editor are global for Sensitive Data Discovery
 in Access Analyzer. In other words, any changes to criteria affects all solutions using Sensitive
 Data Discovery.
+:::
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+
+:::

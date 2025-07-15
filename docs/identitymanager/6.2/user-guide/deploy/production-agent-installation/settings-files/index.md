@@ -1,3 +1,9 @@
+---
+title: "Configure the Agent's Settings"
+description: "Configure the Agent's Settings"
+sidebar_position: 10
+---
+
 # Configure the Agent's Settings
 
 This guide shows how to configure the agent's application settings via the `web.config`,
@@ -49,7 +55,7 @@ Configure the agent's settings by proceeding as follows:
         > appsettings.json
         >
         > "IdentityServer": {
-        >   "X509KeyFilePath": "./Usercube.pfx",
+        >   "X509KeyFilePath": "./identitymanager.pfx",
         >   "X509KeyFilePassword": "secret"
         > }
         >
@@ -212,7 +218,7 @@ Configure the agent's settings by proceeding as follows:
         >       "ApplicationUri": "http://localhost:5000"
         >   },
         >   "EncryptionCertificate": {
-        >       "File": "../Usercube.pfx",
+        >       "File": "../identitymanager.pfx",
         >       "Password": "secret"
         >   }
         > }
@@ -233,7 +239,7 @@ Configure the agent's settings by proceeding as follows:
         >       "ApplicationUri": "http://localhost:5000"
         >   },
         >   "EncryptionCertificate": {
-        >       "File": "../Usercube.pfx",
+        >       "File": "../identitymanager.pfx",
         >       "Password": "secret"
         >   },
         >   "MailSettings": {

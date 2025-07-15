@@ -1,3 +1,9 @@
+---
+title: "Get-Group"
+description: "Get-Group"
+sidebar_position: 30
+---
+
 # Get-Group
 
 This **Get-Group** commandlet retrieves both managed and unmanaged groups that are in one or more
@@ -42,7 +48,7 @@ The following command retrieves all groups with a display name beginning with S 
 containers specified by the SearchContainer parameter including sub-containers of the first base
 container and excluding sub-containers of the second one using the credentials set in the
 $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -63,4 +69,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

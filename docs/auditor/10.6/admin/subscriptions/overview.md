@@ -1,3 +1,9 @@
+---
+title: "Subscriptions"
+description: "Subscriptions"
+sidebar_position: 60
+---
+
 # Subscriptions
 
 Subscriptions enable you to schedule email delivery of a variety of reports or set of specific

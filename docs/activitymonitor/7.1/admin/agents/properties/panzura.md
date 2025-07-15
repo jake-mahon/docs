@@ -1,3 +1,9 @@
+---
+title: "Panzura Tab"
+description: "Panzura Tab"
+sidebar_position: 160
+---
+
 # Panzura Tab
 
 The Panzura Tab provides features to configure settings for monitoring Panzura devices.

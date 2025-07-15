@@ -1,3 +1,9 @@
+---
+title: "AD_GroupPermissions Job"
+description: "AD_GroupPermissions Job"
+sidebar_position: 20
+---
+
 # AD_GroupPermissions Job
 
 The AD_Permissions Job reports on all Active Directory permissions applied to group objects within

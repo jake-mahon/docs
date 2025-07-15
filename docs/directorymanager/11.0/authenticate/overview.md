@@ -1,3 +1,9 @@
+---
+title: "Authenticate"
+description: "Authenticate"
+sidebar_position: 70
+---
+
 # Authenticate
 
 Authenticate is a federation service that verifies a user's identity in an identity store before

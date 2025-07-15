@@ -1,3 +1,9 @@
+---
+title: "EasyVista Ticket"
+description: "EasyVista Ticket"
+sidebar_position: 60
+---
+
 # EasyVista Ticket
 
 This connector opens tickets in
@@ -38,9 +44,10 @@ create, update or delete a resource. It does not create a resource directly.
 
 Once created, the ticket is managed in EasyVista, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the
-[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) of the
-resource accordingly.
+When the ticket is closed or canceled, Identity Manager updates the provisioning state of the
+resource accordingly. See the
+[Entitlement Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic to
+find out more on how to configure password reset settings.
 
 See the fulfill capabilities of the [ EasyVista ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/easyvista/index.md) connector.
 

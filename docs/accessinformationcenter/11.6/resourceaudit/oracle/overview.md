@@ -1,3 +1,9 @@
+---
+title: "Oracle Reports"
+description: "Oracle Reports"
+sidebar_position: 100
+---
+
 # Oracle Reports
 
 Oracle reports are accessed through the Resource Audit interface. Explore the Oracle resources by

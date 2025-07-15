@@ -1,3 +1,9 @@
+---
+title: "Certificate for Modern Authentication"
+description: "Certificate for Modern Authentication"
+sidebar_position: 30
+---
+
 # Certificate for Modern Authentication
 
 While configuring GroupID application in Microsoft Entra ID you must provide a certificate. You can

@@ -1,3 +1,9 @@
+---
+title: "0-Oracle_Servers Job"
+description: "0-Oracle_Servers Job"
+sidebar_position: 10
+---
+
 # 0-Oracle_Servers Job
 
 The 0-Oracle_Servers job is designed to enumerate and store the list of Oracle Database Instances

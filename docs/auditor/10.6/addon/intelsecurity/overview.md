@@ -1,3 +1,9 @@
+---
+title: "Intel Security"
+description: "Intel Security"
+sidebar_position: 100
+---
+
 # Intel Security
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

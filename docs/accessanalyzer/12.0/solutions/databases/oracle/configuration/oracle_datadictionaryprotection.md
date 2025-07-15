@@ -16,8 +16,11 @@ needed.
 Navigate to the **Jobs >  Databases > Oracle > 4.Configuration > Oracle_DataDictionaryProtection >
 Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisddprotection.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the
 **Oracle_DataDictionaryProtection Job** produces the following pre-configured report.
 
-| Report                        | Description                                                                                            | Default Tags | Report Elements                                                                                                                                                   |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Data Dictionary Accessibility | The report highlights the number of instances with either accessible or inaccessible data dictionaries | None         | This report is comprised of two elements: - Pie Chart – Displays data dictionary accessibility - Table – Provides information on dictionary accessibility details |
+| Report                        | Description                                                                                            | Default Tags | Report Elements                                                                                                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data Dictionary Accessibility | The report highlights the number of instances with either accessible or inaccessible data dictionaries | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays data dictionary accessibility</li><li>Table – Provides information on dictionary accessibility details</li></ul> |
+

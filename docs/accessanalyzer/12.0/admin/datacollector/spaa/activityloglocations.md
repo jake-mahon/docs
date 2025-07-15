@@ -30,14 +30,20 @@ The options in the Customize Activity Log UNC Paths Window are:
 - Activity log UNC path – UNC path to the location of the **SBTFileMon_Logs** folder containing the
   Activity Logs (as configured in **Activity Monitor** > **Monitored Hosts**)
 
-    **NOTE:** For On-Premises environments you do not need to specify an Activity Log UNC path as
+    :::note
+    For On-Premises environments you do not need to specify an Activity Log UNC path as
     the Data Collector will default to finding the log locations via the registry.
+    :::
+
 
 - Activity archive UNC path – UNC path to the archive location of Activity Logs (as configured in
   **Activity Monitor** > **Agents**). If archiving is not enabled in Activity Monitor this can be
   left blank.
 
-**NOTE:** In any UNC paths, `%HOST%` will be replaced with the host name.
+:::note
+In any UNC paths, `%HOST%` will be replaced with the host name.
+:::
+
 
 See the Getting Started with SharePoint & SharePoint Online Activity Monitor topic in the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)

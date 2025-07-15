@@ -1,3 +1,9 @@
+---
+title: "Set a Default Storage Profile"
+description: "Set a Default Storage Profile"
+sidebar_position: 30
+---
+
 # Set a Default Storage Profile
 
 While multiple Storage Profiles can exist, only one profile can be set as the default. A green

@@ -1,3 +1,9 @@
+---
+title: "AD_ShadowAccess Job"
+description: "AD_ShadowAccess Job"
+sidebar_position: 120
+---
+
 # AD_ShadowAccess Job
 
 This job finds shadow access that leads to compromise of a domain or sensitive data. Attackers can

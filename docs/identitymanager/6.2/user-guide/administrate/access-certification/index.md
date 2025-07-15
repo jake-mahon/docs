@@ -1,3 +1,9 @@
+---
+title: "Perform Access Certification"
+description: "Perform Access Certification"
+sidebar_position: 50
+---
+
 # Perform Access Certification
 
 How to certify existing access by reviewing a specific range of assigned permissions for auditing
@@ -20,16 +26,21 @@ you can choose to focus on:
 
 Certification campaigns can be
 [Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md) but the
-UI described in this guide can be enough on its own.
+UI described in this guide can be enough on its own. See the
+[Access Certification](/docs/identitymanager/6.2/integration-guide/governance/accesscertification/index.md) topic for
+additional information.
 
 ## Participants and Artifacts
 
 This operation should be performed in cooperation with the staff in charge of auditing because they
 know which entitlements need to be reviewed.
 
-| Input                                                                                                                                                                                                                                                                    | Output           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) (required) [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)(optional) [ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md)(optional) | Certified access |
+| Input                                                                                                                                                                                                  | Output           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| Identity repository (required) [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md)(optional) [ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md)(optional) | Certified access |
+
+See the[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)topic
+for additional information.
 
 ## Perform Access Certification
 

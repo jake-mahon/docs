@@ -1,3 +1,9 @@
+---
+title: "Proxy Server"
+description: "Proxy Server"
+sidebar_position: 30
+---
+
 # Proxy Server
 
 Identity Manager server or agent can be configured to go through a proxy server to access internal
@@ -23,7 +29,7 @@ above-mentioned environment variables to configure the proxy.
 
 The `HTTPS_PROXY` environment variable may be the hostname or IP address, optionally followed by a
 colon and port number, or it may be an http URL, optionally including a username and password for
-[ Proxy Server ](/docs/identitymanager/6.2/integration-guide/network-configuration/proxy/index.md)authentication.
+Proxy Server authentication.
 
 The URL must start with `http`, **not https**, and cannot include any text after the hostname, IP,
 or port.
@@ -210,7 +216,7 @@ ignored.
 When testing the proxy configuration, if you get one of the following error message:
 
 - ` No such host is known.`
-- `H�te inconnu`
+- `Hote inconnu`
 
 It means that the `HTTPS_PROXY` is not set or does not match the expected format. The HTTP client
 tries to directly resolve the public hostname instead of resolving the proxy hostname.

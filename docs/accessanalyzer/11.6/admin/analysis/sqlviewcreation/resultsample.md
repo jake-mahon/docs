@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Result Sample"
+description: "SQLViewCreation: Result Sample"
+sidebar_position: 90
+---
+
 # SQLViewCreation: Result Sample
 
 Use this page to preview a sampling of the completed data manipulation.

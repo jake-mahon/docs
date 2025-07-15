@@ -1,7 +1,7 @@
 ---
 title: "Sign In Using PingOne"
 description: "Sign In Using PingOne"
-sidebar_position: 30
+sidebar_position: 40
 ---
 
 # Sign In Using PingOne

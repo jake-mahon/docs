@@ -17,22 +17,25 @@ The Active Directory Permissions Analyzer Solution is located within the **Jobs*
 Directory Permissions Analyzer** Job Group, which identifies permissions applied to computers,
 groups, organizational units, and users.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
 
-**NOTE:** See the Microsoft
+:::note
+See the Microsoft
 [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support)
 article for additional information.
+:::
 
-Requirements, Permissions, and Ports
+
+**Requirements, Permissions, and Ports**
 
 See the
-[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/activedirectorypermissionsanalyzer_1.md)
+[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/activedirectorypermissionsanalyzer/target.md)
 topic for additional information.
 
-Location
+**Location**
 
 The Active Directory Permissions Analyzer requires a special Access Analyzer license. It can be
 installed from the Instant Job Wizard, see the

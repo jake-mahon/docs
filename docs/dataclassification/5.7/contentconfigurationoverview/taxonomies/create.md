@@ -142,5 +142,5 @@ Then you can work with the tabs you need, including Search, Browse and Working S
 
 Review the following for additional information:
 
-- [Classifications](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/classifications.md)
-- [Calculations](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/calculations.md)
+- [Classifications](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/classifications.md)
+- [Calculations](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/calculations.md)

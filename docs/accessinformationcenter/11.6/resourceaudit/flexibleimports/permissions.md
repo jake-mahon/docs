@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 30
+---
+
 # Permissions Report
 
 The Permissions report for imported data shows the permissions for trustees on the resource.

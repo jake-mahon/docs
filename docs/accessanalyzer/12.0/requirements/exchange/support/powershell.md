@@ -10,7 +10,7 @@ The ExchangePS Data Collector utilizes PowerShell to collect various information
 environment. This data collector utilizes Remote PowerShell to collect information about Exchange
 Users Configuration, Mailboxes, Public Folders, and Exchange Online Mail-Flow.
 
-Job Group Requirements in Addition to ExchangePS
+**Job Group Requirements in Addition to ExchangePS**
 
 In addition to the permissions required by the ExchangePS Data Collector, the Connection Profile
 assigned to these job groups requires the following permissions:
@@ -45,7 +45,7 @@ assigned to these job groups requires the following permissions:
 
 ## Permissions Explained
 
-Remote PowerShell and Windows Authentication Enabled
+**Remote PowerShell and Windows Authentication Enabled**
 
 The Remote PowerShell and Windows Authentication configurations for Exchanges servers are required
 to be enabled on at least one Exchange server running the Client Access Service so that the
@@ -60,12 +60,12 @@ topic and the
 [Enable Windows Authentication for PowerShell Virtual Directory](#enable-windows-authentication-for-powershell-virtual-directory)
 topic for additional information.
 
-View-Only Organization Management Role Group
+**View-Only Organization Management Role Group**
 
 This is required so the ExchangePS Data Collector is able to run the various Exchange PowerShell
 cmdlets.
 
-Public Folder Management
+**Public Folder Management**
 
 This permission is only required if utilizing the ExchangePublicFolder Data Collector or
 ExchangeMailbox Data Collector, as well as the PublicFolder or Mailbox Action Modules. This is
@@ -76,14 +76,14 @@ the Public Folder Management Role Group:
 
 If not running this collection, then this permission is not required.
 
-Mailbox Search Role
+**Mailbox Search Role**
 
 This is required to collect Mailbox Access Audit logs and run Mailbox Search queries through the
 ExchangePS Data Collector. The following job group requires the Mailbox Search Role:
 
 -   4. Mailboxes > Logons
 
-Application Impersonation Role
+**Application Impersonation Role**
 
 The Application Impersonation Role is a customer role you need to create. See the
 [Create Custom Application Impersonation Role in Exchange](#create-custom-application-impersonation-role-in-exchange)
@@ -96,7 +96,7 @@ support all scoping options, No Scoping is an option. If there are no scoping op
 then the data collector should be run against the host specified in the Summary page of the data
 collector wizard.
 
-No Scoping
+**No Scoping**
 
 This option will gather information about the entire Exchange Organization. When using the applet,
 the data collector will gather information about the Exchange Forest in which the Access Analyzer
@@ -107,7 +107,7 @@ server entered in the Client Access Server (CAS) field of the global configurati
 [ExchangePS: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scope.md) topic for additional
 information.
 
-Scope by Database
+**Scope by Database**
 
 This option will gather information about any databases which are chosen. When using the applet, the
 data collector will return databases in the Scope by DB page of the data collector wizard for the
@@ -118,7 +118,7 @@ only return information about those databases. See the
 [ExchangePS: Scope by DB](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopedatabases.md) topic for
 additional information.
 
-Scope by Mailbox
+**Scope by Mailbox**
 
 This option will gather information about any mailboxes which are chosen. When using the applet, the
 data collector will return mailboxes in the Scope by Mailboxes page of the data collector wizard for
@@ -129,7 +129,7 @@ only return information about those mailboxes. See the
 [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopemailboxes.md) topic
 for additional information.
 
-Scope by Server
+**Scope by Server**
 
 This option will gather information about objects which reside on the chosen server. When choosing
 this option, the data collector will then use the Host List applied to the job’s **Configure** >
@@ -138,7 +138,7 @@ process to the targeted host to run the PowerShell on that server. For Remote Po
 collector will deploy no applet and utilize the WinRM protocol to gather information about the
 objects on that server.
 
-Scope by Public Folder
+**Scope by Public Folder**
 
 This option will gather information about any public folders which are chosen. When using the
 applet, the data collector will return public folders in the Scope by Public Folders page of the

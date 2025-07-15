@@ -1,3 +1,9 @@
+---
+title: "RSA Encryption"
+description: "RSA Encryption"
+sidebar_position: 30
+---
+
 # RSA Encryption
 
 Identity Manager provides a few options to protect sensitive data via RSA encryption.
@@ -47,7 +53,7 @@ appsettings.json and/or appsettings.agent.json
 {
     ...
     "EncryptionCertificate": {
-        "File": "./Usercube.pfx",
+        "File": "./identitymanager.pfx",
         "Password": "secret",
         "UseEncryptedAppsettings": true
     }

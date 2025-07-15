@@ -14,8 +14,11 @@ logon of the members. These groups should be reviewed and cleaned up.
 View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Membership
 Analysis** > **EX_StaleGroups** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_StaleGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/stalegroupsanalysis.webp)
 

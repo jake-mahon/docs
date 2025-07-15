@@ -1,3 +1,9 @@
+---
+title: "Permissions for SharePoint Auditing"
+description: "Permissions for SharePoint Auditing"
+sidebar_position: 20
+---
+
 # Permissions for SharePoint Auditing
 
 Before you start creating a monitoring plan to audit your SharePoint farm, plan for the account that

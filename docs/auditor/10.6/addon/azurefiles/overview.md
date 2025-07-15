@@ -1,3 +1,9 @@
+---
+title: "Azure Files"
+description: "Azure Files"
+sidebar_position: 40
+---
+
 # Azure Files
 
 Azure Files is a Microsoft service that offers file shares in the cloud that are accessible via the

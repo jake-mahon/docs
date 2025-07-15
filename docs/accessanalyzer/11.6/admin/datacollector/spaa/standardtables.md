@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the SPAA Data Collector"
+description: "Standard Reference Tables & Views for the SPAA Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the SPAA Data Collector
 
 The SPAA Data Collector gathers essential SharePoint on-premises and SharePoint Online information

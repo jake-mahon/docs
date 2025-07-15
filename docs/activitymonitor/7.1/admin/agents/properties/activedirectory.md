@@ -1,3 +1,9 @@
+---
+title: "Active Directory Tab"
+description: "Active Directory Tab"
+sidebar_position: 10
+---
+
 # Active Directory Tab
 
 The Active Directory tab provides options to configure the agent settings for monitoring an Active
@@ -64,7 +70,7 @@ used for Active Directory Activity Monitoring from the Threat Prevention Admin C
 
 **Step 1 –** Configure the File, Syslog, or Threat Manager outputs on the Monitored Domains Tab in
 the Activity Monitor Console. See the
-[Output for Monitored Domains](/docs/activitymonitor/7.1/admin/monitoreddomains/output.md)
+[Output for Monitored Domains](/docs/activitymonitor/7.1/admin/monitoreddomains/output/output.md)
 topic for additional information.
 
 **Step 2 –** Within the Threat Prevention Admin Console, select the Threat Manager Event Sink

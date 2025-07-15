@@ -1,3 +1,9 @@
+---
+title: "Dell Data Storage"
+description: "Dell Data Storage"
+sidebar_position: 10
+---
+
 # Dell Data Storage
 
 **NOTE:** Dell VNX, VNXe, Celerra, and Unity NAS devices are collectively referred to as Dell Data

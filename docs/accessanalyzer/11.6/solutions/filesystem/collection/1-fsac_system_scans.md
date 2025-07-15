@@ -1,3 +1,9 @@
+---
+title: "1-FSAC System Scans Job"
+description: "1-FSAC System Scans Job"
+sidebar_position: 50
+---
+
 # 1-FSAC System Scans Job
 
 The 1-FSAC System Scans job is designed to collect activity events from the targeted file servers.

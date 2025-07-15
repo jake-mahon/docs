@@ -1,3 +1,9 @@
+---
+title: "EX_CircularNesting Job"
+description: "EX_CircularNesting Job"
+sidebar_position: 10
+---
+
 # EX_CircularNesting Job
 
 The EX_CircularNesting job identifies where circular nesting exists within distribution groups.

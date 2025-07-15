@@ -1,3 +1,9 @@
+---
+title: "Job"
+description: "Job"
+sidebar_position: 10
+---
+
 # Job
 
 A job is a succession of tasks, to be launched and potentially scheduled.
@@ -62,7 +68,7 @@ The following example shows a typical configuration of the complete job.
 
                     ```
 
-<Job Identifier="SynchroAllConnectorComplete" DisplayName_L1="Synchronization Daily (Complete Mode)" Agent="Local">  <Step Identifier="ExportADWithIgnoreCookie"/>  <Step Identifier="AD_PrepareSynchronizationComplete"/>  <Step Identifier="AD_Synchronization"/>  <Step Identifier="Export_AzureADWithIgnoreCookie"/>  <Step Identifier="AzureAD_PrepareSynchronization"/>  <Step Identifier="AzureAD_Synchronization"/>  <Step Identifier="Export_LDAPEntry"/>  <Step Identifier="Export_LDAPMember"/>  <Step Identifier="LDAP_PrepareSynchronization"/>  <Step Identifier="LDAP_Synchronization"/>  <Step Identifier="SAB_PrepareSynchronization"/>  <Step Identifier="SAB_Synchronization"/>  <Step Identifier="HR_PrepareSynchronization"/>  <Step Identifier="HR_Synchronization"/>  <Step Identifier="Directory_PrepareSynchronizationChange"/>  <Step Identifier="Directory_SynchronizationChange"/>  <Step Identifier="Job_Recertification_Start"/>  <Step Identifier="Recertification_MarkDirty"/>  <Step Identifier="ComputeRoleModelSynchroDaily"/>  <Step Identifier="LDAP_Provisioning"/>  <Step Identifier="AzureAD_Provisioning"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="LDAP_Fulfill"/>  <Step Identifier="AzureAD_Fulfill"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="Fulfill_Workflow_Directory"/>  <Step Identifier="All_ComputeAllAssignedProfiles"/></Job>
+<Job Identifier="SynchroAllConnectorComplete" DisplayName_L1="Synchronization Daily (Complete Mode)" Agent="Local">  <Step Identifier="ExportADWithIgnoreCookie"/>  <Step Identifier="AD_PrepareSynchronizationComplete"/>  <Step Identifier="AD_Synchronization"/>  <Step Identifier="Export_MicrosoftEntraIDWithIgnoreCookie"/>  <Step Identifier="MicrosoftEntraID_PrepareSynchronization"/>  <Step Identifier="MicrosoftEntraID_Synchronization"/>  <Step Identifier="Export_LDAPEntry"/>  <Step Identifier="Export_LDAPMember"/>  <Step Identifier="LDAP_PrepareSynchronization"/>  <Step Identifier="LDAP_Synchronization"/>  <Step Identifier="SAB_PrepareSynchronization"/>  <Step Identifier="SAB_Synchronization"/>  <Step Identifier="HR_PrepareSynchronization"/>  <Step Identifier="HR_Synchronization"/>  <Step Identifier="Directory_PrepareSynchronizationChange"/>  <Step Identifier="Directory_SynchronizationChange"/>  <Step Identifier="Job_Recertification_Start"/>  <Step Identifier="Recertification_MarkDirty"/>  <Step Identifier="ComputeRoleModelSynchroDaily"/>  <Step Identifier="LDAP_Provisioning"/>  <Step Identifier="MicrosoftEntraID_Provisioning"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="LDAP_Fulfill"/>  <Step Identifier="MicrosoftEntraID_Fulfill"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="Fulfill_Workflow_Directory"/>  <Step Identifier="All_ComputeAllAssignedProfiles"/></Job>
 
 ````
 

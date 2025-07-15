@@ -1,3 +1,9 @@
+---
+title: "Google Workspace"
+description: "Google Workspace"
+sidebar_position: 70
+---
+
 # Google Workspace
 
 This connector exports and fulfills users and groups from/to a
@@ -71,7 +77,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     "Connections": {
 >         ...
 >         "GoogleExportFulfillment": {
->             "CredentialsFilePath": "C:/UsercubeDemo/GoogleCredentials.json",
+>             "CredentialsFilePath": "C:/identitymanagerDemo/GoogleCredentials.json",
 >             "User": "B29607@acme.internal",
 >             "PageSize": "100"
 >         }
@@ -93,8 +99,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder the
-following CSV files:
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder the following CSV files:
 
 - `GoogleExportFulfillment_Users.csv` and `GoogleExportFulfillment_Groups.csv` whose headers come
   from the entity type mapping's `ConnectionColumn` and from the entity association mappings'
@@ -124,7 +130,7 @@ memberships.
 
 ### Configuration
 
-[Same as for export](#export), fulfill is configured through connections.
+Same as for export, fulfill is configured through connections.
 
 > For example:
 >
@@ -136,7 +142,7 @@ memberships.
 >     "Connections": {
 >         ...
 >         "GoogleExportFulfillment": {
->             "CredentialsFilePath": "C:/UsercubeDemo/GoogleCredentials.json",
+>             "CredentialsFilePath": "C:/identitymanagerDemo/GoogleCredentials.json",
 >             "User": "B29607@acme.internal"
 >         }
 >     }

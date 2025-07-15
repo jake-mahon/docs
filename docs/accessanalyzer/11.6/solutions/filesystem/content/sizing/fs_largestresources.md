@@ -1,3 +1,9 @@
+---
+title: "FS_LargestResources Job"
+description: "FS_LargestResources Job"
+sidebar_position: 20
+---
+
 # FS_LargestResources Job
 
 The FS_LargestResources job is designed to report on the largest resources from targeted file

@@ -16,8 +16,11 @@ Follow the steps to import physical location data for hosts.
 **Step 1 –** Ensure the import source file has columns for both the host name as it is identified
 within Access Analyzer and the location.
 
-**NOTE:** When a host name does not match any existing hosts within the Host Master Table, it can be
+:::note
+When a host name does not match any existing hosts within the Host Master Table, it can be
 added as a new host.
+:::
+
 
 ![Import Location option on Activities pane](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/importlocation.webp)
 
@@ -47,8 +50,11 @@ step.
       [Import From a Database](/docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/database.md) topic for additional
       information.
 
-        **NOTE:** The Provider, Advanced, and All tabs of the Data Link Properties window should not
+        :::note
+        The Provider, Advanced, and All tabs of the Data Link Properties window should not
         be modified.
+        :::
+
 
     - Table – Use the dropdown to select the table that contains the hosts to be imported. A preview
       of the selected table is displayed in the preview box.
@@ -70,5 +76,8 @@ import file are not already in the Host Master Table, Access Analyzer prompts fo
 whether or not to import the host. Selecting **Yes** or **Yes to All** adds the new hosts to the
 Host Master Table but not to any individual host lists.
 
-**NOTE:** Any new hosts that match dynamic host list criteria will be added to the appropriate
+:::note
+Any new hosts that match dynamic host list criteria will be added to the appropriate
 dynamic host lists.
+
+:::

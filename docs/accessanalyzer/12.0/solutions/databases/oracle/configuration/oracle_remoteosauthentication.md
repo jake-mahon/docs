@@ -14,8 +14,11 @@ for the targeted Oracle database servers.
 Navigate to the **Jobs > Databases > Oracle > 4.Configuration > Oracle_RemoteOSAuthentication >
 Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisremoteosauth.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_RemoteOSAuthentication
 Job produces the following pre-configured report.
 
-| Report                          | Description                                                                                | Default Tags | Report Elements                                                                                                                                              |
-| ------------------------------- | ------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Oracle Remote OS Authentication | This report shows the number of instances that have remote_os_auth parameter set to “TRUE” | None         | This report is comprised of two elements: - Pie Chart – Displays remote OS authentication - Table – Provides information on remote OS authentication details |
+| Report                          | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Oracle Remote OS Authentication | This report shows the number of instances that have remote_os_auth parameter set to “TRUE” | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays remote OS authentication</li><li>Table – Provides information on remote OS authentication details</li></ul> |
+

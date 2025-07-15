@@ -11,10 +11,13 @@ SharePoint environment. You can also accomplish this by looking users up in the 
 Center, however you want to utilize this job in scenarios where you want to generate a report on
 multiple users’ effective access at once.
 
-**NOTE:** Trustees can be specified in the `UserScoping.csv` file for the SP_TrusteeAccess Job. See
+:::note
+Trustees can be specified in the `UserScoping.csv` file for the SP_TrusteeAccess Job. See
 the
 [Configure CSV File for the Query for the SP_TrusteeAccess Job](#configure-csv-file-for-the-query-for-the-sp_trusteeaccess-job)
 topic for additional information.
+:::
+
 
 ![Scoping > SP_TrusteeAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/effectiveaccessaudits/scopingjobstree.webp)
 

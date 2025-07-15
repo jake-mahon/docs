@@ -10,7 +10,7 @@ The Unix Solution reports on areas of administrative concern for Unix and Linux 
 is given to users and group details, privileged access rights, and NFS and Samba sharing
 configurations.
 
-Supported Platforms
+**Supported Platforms**
 
 - AIX® 4+
 - Solaris™ 8+
@@ -20,12 +20,12 @@ Supported Platforms
 - CentOS® 7+
 - SUSE® 10+
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
-See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/unix/unix_1.md) topic
+See the [Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/unix/target.md) topic
 for additional information.
 
-Location
+**Location**
 
 The Unix Solution requires a special Access Analyzer license. It can be installed from the Access
 Analyzer Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the

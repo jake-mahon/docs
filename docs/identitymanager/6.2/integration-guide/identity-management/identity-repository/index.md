@@ -1,3 +1,9 @@
+---
+title: "Identity Repository"
+description: "Identity Repository"
+sidebar_position: 10
+---
+
 # Identity Repository
 
 One of the main purposes of an IGA tool is to build a comprehensive repository containing all
@@ -32,11 +38,12 @@ downloading the provided Excel file, filling it with HR information, and uploadi
 [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
 topic to learn how to create the workforce repository.
 
-Then
+Then perform mass updates with the same kind of process, and update an Individual Identity via
+Identity Manager's workflows. See the
 [ Update Identities in Bulk ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md)
-with the same kind of process, and
-[ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)
-via Identity Manager's workflows.
+and
+[ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)topics
+for additional information.
 
 ### Useful data
 

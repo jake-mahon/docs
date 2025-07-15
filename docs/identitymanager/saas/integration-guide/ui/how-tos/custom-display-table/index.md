@@ -1,9 +1,3 @@
----
-title: "Customize Display Tables"
-description: "Customize Display Tables"
-sidebar_position: 30
----
-
 # Customize Display Tables
 
 This part shows how to define a custom way to display entity types' data.
@@ -26,7 +20,7 @@ Here is the visualization of this display table on the interface:
 
 Ergonomically, it is recommended to hide the search symbol in a column header (in a list displayed
 like a table) if a criterion linked to this column is already displayed in a search bar. This avoids
-filter duplication. Thus, the `<CanBeFiltered>` property can be deleted in the `<Column>` argument.
+filter duplication. Thus, the `CanBeFiltered` property can be deleted in the `Column` argument.
 
 ## Resource Table
 
@@ -51,8 +45,8 @@ Here is the visualization of this resource table on the interface:
 
 Instead of creating a table, it is possible to create tiles to give another rendering of the user
 interface. It is therefore necessary to create the different tiles first. After creating the tiles,
-they must be imported into the display table with `<DisplayTableDesignElement>` set to `<list>`.
-Display tables with other values of `<DisplayTableDesignElement>` cannot display tiles.
+they must be imported into the display table with `DisplayTableDesignElement` set to `list`. Display
+tables with other values of `DisplayTableDesignElement` cannot display tiles.
 
 See the[ Tile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for
 additional information.

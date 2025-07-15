@@ -1,3 +1,9 @@
+---
+title: "Share Activity Summary Report"
+description: "Share Activity Summary Report"
+sidebar_position: 70
+---
+
 # Share Activity Summary Report
 
 The Share Activity Summary report at the server level provides statistical activity event

@@ -1,3 +1,9 @@
+---
+title: "Connect to a Configuration"
+description: "Connect to a Configuration"
+sidebar_position: 60
+---
+
 # Connect to a Configuration
 
 Password Policy Enforcer's configuration settings are stored in Active Directory or the registry. An

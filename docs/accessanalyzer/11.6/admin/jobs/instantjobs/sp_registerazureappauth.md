@@ -1,3 +1,9 @@
+---
+title: "SP_RegisterAzureAppAuth Job"
+description: "SP_RegisterAzureAppAuth Job"
+sidebar_position: 60
+---
+
 # SP_RegisterAzureAppAuth Job
 
 SP_RegisterAzureAppAuth will register an Microsoft Entra ID (formerly Azure AD) application for

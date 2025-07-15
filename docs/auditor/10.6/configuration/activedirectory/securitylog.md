@@ -1,3 +1,9 @@
+---
+title: "Adjust Security Event Log Size and Retention"
+description: "Adjust Security Event Log Size and Retention"
+sidebar_position: 80
+---
+
 # Adjust Security Event Log Size and Retention
 
 Defining the Security event log size is essential for change auditing. If the log size is

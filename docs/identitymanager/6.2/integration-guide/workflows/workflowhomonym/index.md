@@ -1,3 +1,9 @@
+---
+title: "Workflow Homonym"
+description: "Workflow Homonym"
+sidebar_position: 40
+---
+
 # Workflow Homonym
 
 In this section we configure the homonym detection that checks if a resource already exists in the
@@ -11,7 +17,7 @@ system, preventing duplicates.
 
 ## Create a Homonym Entity Link
 
-A [ Homonym Entity Link ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
+A [Homonym Entity Link](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
 defines a new homonym detection to be performed in a workflow form. It can be defined in different
 ways.
 
@@ -27,7 +33,7 @@ according to the homonym control form. See section below.
 
 ### With customized filters
 
-[ Homonym Entity Link ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
+[Homonym Entity Link](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
 allow to define customized filters for a homonym detection.
 
 #### Simple filter

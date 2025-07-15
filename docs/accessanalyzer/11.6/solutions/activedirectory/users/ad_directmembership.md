@@ -1,3 +1,9 @@
+---
+title: "AD_DirectMembership Job"
+description: "AD_DirectMembership Job"
+sidebar_position: 20
+---
+
 # AD_DirectMembership Job
 
 The AD_DirectMembership Job identifies users who do not have any group membership. This condition

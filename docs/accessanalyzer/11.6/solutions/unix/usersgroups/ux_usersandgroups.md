@@ -1,3 +1,9 @@
+---
+title: "0.Collection > UX_UsersAndGroups Job"
+description: "0.Collection > UX_UsersAndGroups Job"
+sidebar_position: 10
+---
+
 # 0.Collection > UX_UsersAndGroups Job
 
 The UX_UsersAndGroups job collects user and group information from /etc/passwd, /etc/shadow, and

@@ -1,3 +1,9 @@
+---
+title: "Getting Started"
+description: "Getting Started"
+sidebar_position: 2
+---
+
 # Getting Started
 
 Once Enterprise Auditor is installed, the following workflow will quickly enable users to begin

@@ -54,7 +54,7 @@ Your Netwrix Representative will provide the appropriate binaries.
   Solution
 
     - See the
-      [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+      [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/install/mapicdo/installation.md)
       topic for additional information.
 
 - Access Analyzer Reporting Services binary – Installation package for Survey Action Module

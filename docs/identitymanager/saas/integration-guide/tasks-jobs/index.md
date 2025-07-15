@@ -16,7 +16,7 @@ See the [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/in
 See the [ Tasks ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
 information.
 
-Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.md).
+Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/build-efficient-jobs/index.md).
 
 ## Overview
 

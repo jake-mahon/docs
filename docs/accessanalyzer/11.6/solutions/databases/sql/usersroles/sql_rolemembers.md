@@ -1,3 +1,9 @@
+---
+title: "SQL_RoleMembers Job"
+description: "SQL_RoleMembers Job"
+sidebar_position: 30
+---
+
 # SQL_RoleMembers Job
 
 The SQL_RoleMembers Job analyzes and provides information on role members in each SQL server role

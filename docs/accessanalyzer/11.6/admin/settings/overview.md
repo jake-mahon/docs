@@ -1,3 +1,9 @@
+---
+title: "Global Settings"
+description: "Global Settings"
+sidebar_position: 20
+---
+
 # Global Settings
 
 The global settings have an overall impact on the running ofEnterprise Auditor jobs. Settings are

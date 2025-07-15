@@ -1,3 +1,9 @@
+---
+title: "Deployment Scenarios"
+description: "Deployment Scenarios"
+sidebar_position: 20
+---
+
 # Deployment Scenarios
 
 The Add-On can run on any computer in your environment, except for the machine where your Nutanix

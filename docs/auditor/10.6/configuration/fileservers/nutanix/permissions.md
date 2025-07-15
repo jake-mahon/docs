@@ -1,3 +1,9 @@
+---
+title: "Permissions for Nutanix Files Auditing"
+description: "Permissions for Nutanix Files Auditing"
+sidebar_position: 50
+---
+
 # Permissions for Nutanix Files Auditing
 
 Before you start creating a monitoring plan to audit Nutanix Files, plan for the accounts that will

@@ -1,3 +1,9 @@
+---
+title: "ADActivity: Category"
+description: "ADActivity: Category"
+sidebar_position: 20
+---
+
 # ADActivity: Category
 
 Use the Category page to identify how activity data is retrieved or removed.

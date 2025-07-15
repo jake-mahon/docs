@@ -1,3 +1,9 @@
+---
+title: "Categorize Resources"
+description: "Categorize Resources"
+sidebar_position: 80
+---
+
 # Categorize Resources
 
 How to correlate managed systems' resources with identities, classifying resources into

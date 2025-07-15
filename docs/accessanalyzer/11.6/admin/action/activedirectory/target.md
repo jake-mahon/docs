@@ -1,3 +1,9 @@
+---
+title: "Active Directory Action Target"
+description: "Active Directory Action Target"
+sidebar_position: 10
+---
+
 # Active Directory Action Target
 
 Use the Target (Identification Criteria) page to select one or more fields (columns) in the

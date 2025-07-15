@@ -1,3 +1,9 @@
+---
+title: "Invoke-Replication"
+description: "Invoke-Replication"
+sidebar_position: 70
+---
+
 # Invoke-Replication
 
 The **Invoke-Replication** commandlet starts replication process for all the identity stores or a
@@ -47,4 +53,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -11,21 +11,21 @@ UNIX & Linux platforms. The Unix Data Collector has been preconfigured within th
 Both this data collector and the solution are available with a special Access Analyzer license. See
 the [Unix Solution](/docs/accessanalyzer/12.0/solutions/unix/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - SSH
 
-Ports
+**Ports**
 
 - TCP 22
 - User configurable
 
-Permissions
+**Permissions**
 
 - Root permissions in Unix/Linux
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/12.0/requirements/unix/unix_1.md#least-privilege-model) topic additional
+[Least Privilege Model](/docs/accessanalyzer/12.0/requirements/unix/target.md#least-privilege-model) topic additional
 information.
 
 ## Unix Query Configuration

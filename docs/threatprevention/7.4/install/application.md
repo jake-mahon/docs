@@ -1,3 +1,9 @@
+---
+title: "Application Server Install"
+description: "Application Server Install"
+sidebar_position: 10
+---
+
 # Application Server Install
 
 Follow the steps to install Threat Prevention.
@@ -145,5 +151,5 @@ installation is complete, click **Finish**.
 
 The selected components have been installed, and the Threat Prevention Console icon is now on the
 desktop. See the
-[First Launch](/docs/threatprevention/7.4/install/firstlaunch.md) topic
+[First Launch](/docs/threatprevention/7.4/install/firstlaunch/firstlaunch.md) topic
 for the next steps.

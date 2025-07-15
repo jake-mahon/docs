@@ -1,9 +1,3 @@
----
-title: "Customize Search Bars"
-description: "Customize Search Bars"
-sidebar_position: 40
----
-
 # Customize Search Bars
 
 This guide shows how to define a custom way to search from a list of a given entity type's
@@ -33,7 +27,8 @@ in the display table.
 
 ## Create Default Filters
 
-To add a default filter, you must add both of the following properties to a criterion:
+To add a default filter, you must add both of the following properties to a
+[Search Bar](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
 
 - DefaultValue
 - Operator

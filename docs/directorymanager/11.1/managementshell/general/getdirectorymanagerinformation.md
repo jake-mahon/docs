@@ -1,4 +1,10 @@
-# Get-GroupIdInformation
+---
+title: "Get-DirectoryManagerInformation"
+description: "Get-ConnectedUser"
+sidebar_position: 30
+---
+
+# Get-DirectoryManagerInformation
 
 The Get-GroupIdInformation commandlet retrieves general information about Directory Manager.
 

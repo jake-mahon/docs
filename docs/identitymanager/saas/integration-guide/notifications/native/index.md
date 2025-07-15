@@ -43,5 +43,5 @@ found in `/Runtime/NotificationTemplates`.
 The templates for native notifications can be adjusted to specific needs through the XML tag
 [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md).
 
-See the [ Customize a Native Notification ](/docs/identitymanager/saas/integration-guide/notifications/how-tos/customize-native-notification/index.md) for
+See the [ Customize a Native Notification ](/docs/identitymanager/saas/integration-guide/notifications/native/customize-native-notification/index.md) for
 additional information on how to customize native notifications.

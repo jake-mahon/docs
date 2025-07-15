@@ -1,9 +1,3 @@
----
-title: "Restrict the Assignment"
-description: "Restrict the Assignment"
-sidebar_position: 60
----
-
 # Restrict the Assignment
 
 This guide shows how to use filters on dimensions and/or roles to restrict the assignment of a role
@@ -12,7 +6,7 @@ or resource type.
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-a [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
+[ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
 EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType

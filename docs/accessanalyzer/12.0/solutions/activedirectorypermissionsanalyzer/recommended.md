@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Recommended Configurations for AD Permissions Analyzer Solution
 
-Dependencies
+**Dependencies**
 
 The following Access Analyzer job groups need to be successfully run:
 
@@ -30,14 +30,14 @@ The following jobs can be optionally run to enhance reporting in the
 - Windows > Privileged Accounts > Local Administrators > SG_Sessions
 - Windows > Privileged Accounts > Local Administrators > SG_LocalAdmins
 
-Targeted Hosts
+**Targeted Hosts**
 
 The **Active Directory Permissions Analyzer** > **0. Collection** Job Group has been set to run
 against the following default host list:
 
 - One Domain Controller Per Domain
 
-Connection Profile
+**Connection Profile**
 
 Assign a Connection Profile at the **Active Directory Permissions Analyzer** > **0. Collection** >
 **Settings** > **Connection** node with local Administrator privileges on the target host, or Domain
@@ -45,11 +45,11 @@ Administrator privileges if the target host is a domain controller.
 
 See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Prerequisite: Successful execution of the .Active Directory Inventory Job Group.
 

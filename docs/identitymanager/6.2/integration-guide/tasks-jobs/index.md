@@ -1,3 +1,9 @@
+---
+title: "Tasks & Jobs"
+description: "Tasks & Jobs"
+sidebar_position: 190
+---
+
 # Tasks & Jobs
 
 Identity Manager provides tasks to orchestrate together the executable files that perform IGA
@@ -10,7 +16,7 @@ See the [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/ind
 See the [ Tasks ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md) topic for additional
 information.
 
-Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.md).
+Make sure to read how to [Build Efficient Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/build-efficient-jobs/index.md).
 
 ## Overview
 

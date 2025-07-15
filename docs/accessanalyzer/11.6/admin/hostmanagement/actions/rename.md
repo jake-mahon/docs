@@ -1,3 +1,9 @@
+---
+title: "Rename List"
+description: "Rename List"
+sidebar_position: 100
+---
+
 # Rename List
 
 Use the Rename List option to change the name of a selected host list. This option is available only

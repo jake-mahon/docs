@@ -1,3 +1,9 @@
+---
+title: "Identity Management"
+description: "Identity Management"
+sidebar_position: 10
+---
+
 # Identity Management
 
 Identity management is about creating a repository of identities (all kinds of identities) along
@@ -18,7 +24,7 @@ be applications, bots, service accounts, or anything.
 
 Identities are stored in the database as [ Resources ](/docs/identitymanager/6.2/integration-guide/resources/index.md), which helps with
 Identity Manager's internal mechanisms, for example to modelize identities with
-[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md).
+[Entity Model](/docs/identitymanager/6.2/integration-guide/entity-model/index.md) types.
 
 Additional interesting parts of identity management are:
 

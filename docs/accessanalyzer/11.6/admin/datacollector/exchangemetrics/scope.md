@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Scope"
+description: "ExchangeMetrics: Scope"
+sidebar_position: 20
+---
+
 # ExchangeMetrics: Scope
 
 The Scope page is used to define where to search. It is a wizard page for the categories of:

@@ -1,3 +1,9 @@
+---
+title: "Hierarchy in Configuration Files"
+description: "Hierarchy in Configuration Files"
+sidebar_position: 20
+---
+
 # Hierarchy in Configuration Files
 
 Every configuration's element falls under the ` urn:schemas-usercube-com:configuration` namespace.

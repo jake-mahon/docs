@@ -17,7 +17,7 @@ Configure the following settings as required:
 
 - Name – The name used for the report in the Access Analyzer console and Web Console.
 
-Header Options
+**Header Options**
 
 ![header](/img/product_docs/accessanalyzer/12.0/admin/report/wizard/header.webp)
 
@@ -30,7 +30,7 @@ Header Options
 - Description – A description of the report content. It is displayed beneath the report Title in the
   generated report.
 
-Publish Options
+**Publish Options**
 
 - Publish Report – Select an option to configure if the report should be published to the Web
   Console when it is generated.

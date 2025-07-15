@@ -1,9 +1,3 @@
----
-title: "Analyze Identity Manager's Data with Power BI"
-description: "Analyze Identity Manager's Data with Power BI"
-sidebar_position: 20
----
-
 # Analyze Identity Manager's Data with Power BI
 
 This topic explains how to prepare Identity Manager's data and use it in Power BI, with the final

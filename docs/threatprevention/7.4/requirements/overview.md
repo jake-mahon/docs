@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 20
+---
+
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the Threat
@@ -28,8 +34,8 @@ Core Component
 See the following topics for additional information:
 
 - [Application Server Requirements](/docs/threatprevention/7.4/requirements/application.md)
-- [SQL Server Requirements](/docs/threatprevention/7.4/requirements/sqlserver.md)
-- [Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent.md)
+- [SQL Server Requirements](/docs/threatprevention/7.4/requirements/sqlserver/sqlserver.md)
+- [Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent/agent.md)
 - [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
 
 Optional Components

@@ -1,3 +1,9 @@
+---
+title: "Agent Information"
+description: "Agent Information"
+sidebar_position: 30
+---
+
 # Agent Information
 
 The Threat Prevention Agent performs real-time monitoring of the events occurring across supported
@@ -50,9 +56,9 @@ the Agent configuration files are located (install path). Next, WMI is used to s
 service, modify the configuration files, and restart the Agent.
 
 Remember to check
-[Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent.md)
+[Agent Server Requirements](/docs/threatprevention/7.4/requirements/agent/agent.md)
 before deploying an Agent, including the
-[Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/7.4/requirements/agent.md#agent-compatibility-with-non-netwrix-security-products)
+[Agent Compatibility with Non-Netwrix Security Products](/docs/threatprevention/7.4/requirements/agent/agent.md#agent-compatibility-with-non-netwrix-security-products)
 list.
 
 ## Domain Controllers
@@ -76,7 +82,7 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/config/activedirectory/threatprevention.md)
+[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/threatprevention.md)
 topic for additional information.
 
 ## Exchange Servers
@@ -117,5 +123,5 @@ control the configuration for that monitored host. However, Activity Monitor can
 provide multiple outputs for a host, e.g. for Netwrix Access Analyzer (formerly Enterprise Auditor),
 Netwrix Threat Manager, or SIEM products. Add a new output for the same host to the Monitored Host
 tab in the Activity Monitor console to be used by the other product. See the
-[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/config/activedirectory/threatprevention.md)
+[Getting Data from NTP for AD Activity Reporting](/docs/threatprevention/7.4/requirements/agent/threatprevention.md)
 topic for additional information.

@@ -1,3 +1,9 @@
+---
+title: "Update-Group"
+description: "Update-Group"
+sidebar_position: 50
+---
+
 # Update-Group
 
 The **Update-Group** commandlet modifies the membership of a Smart Group or Dynasty according to the
@@ -38,7 +44,7 @@ Example 2:
 
 The following command updates all Smart Groups and Dynasties present in the container Training,
 using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -49,4 +55,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

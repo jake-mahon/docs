@@ -14,8 +14,11 @@ group, both at the instance and database level, across all targeted SQL servers.
 Navigate to the **Databases** > SQL > 3.Users and Roles > SQL_RoleMembers > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/usersroles/sqljobgroup26.webp)
 
@@ -35,6 +38,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_RoleMembers Job produces
 the following pre-configured report.
 
-| Report          | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                      |
-| --------------- | ------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Role Membership | This report shows details on the roles and role membership in the audited SQL environment. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays top instances by server and database role membership - Table – Provides details on instances by server and database role membership - Table – Provides details on role membership details |
+| Report          | Description                                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Role Membership | This report shows details on the roles and role membership in the audited SQL environment. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top instances by server and database role membership</li><li>Table – Provides details on instances by server and database role membership</li><li>Table – Provides details on role membership details</li></ul> |
+

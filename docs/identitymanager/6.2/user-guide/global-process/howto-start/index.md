@@ -1,3 +1,9 @@
+---
+title: "How to Start"
+description: "How to Start"
+sidebar_position: 10
+---
+
 # How to Start
 
 How to start integrating Identity Manager with your own needs.
@@ -42,7 +48,7 @@ simultaneously.
 
 ### Common starting steps
 
-1. [Install the Development Environment](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md).
+1. [ Install the Development Environment ](/docs/identitymanager/6.2/user-guide/set-up/development-environment-installation/index.md).
 2. [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md): configure
    the generation of unique properties; load workforce identities to Identity Manager; adjust the
    data model.

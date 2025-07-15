@@ -1,3 +1,9 @@
+---
+title: "Permissions for NetApp Auditing"
+description: "Permissions for NetApp Auditing"
+sidebar_position: 60
+---
+
 # Permissions for NetApp Auditing
 
 Before you start creating a monitoring plan to audit your NetApp file storage system, plan for the

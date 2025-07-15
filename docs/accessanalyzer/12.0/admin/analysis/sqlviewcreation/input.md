@@ -16,8 +16,11 @@ selection made on the Input Scope page. To join or aggregate data from two table
 table at the second drop-down menu. To remove the second table from the field, click the **X**
 button.
 
-**NOTE:** It is important to choose tables that are compatible with one another or share similar
+:::note
+It is important to choose tables that are compatible with one another or share similar
 columns.
+:::
+
 
 When the two sources of data are selected, click **Next** to create a joint column within the
 resulting table or view.

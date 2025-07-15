@@ -1,3 +1,9 @@
+---
+title: "Unix Data Collector"
+description: "Unix Data Collector"
+sidebar_position: 380
+---
+
 # Unix Data Collector
 
 The Unix Data collector provides host inventory, software inventory, and logical volume inventory on
@@ -21,7 +27,7 @@ Permissions
 - Root permissions in Unix/Linux
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/target/unix.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md#least-privilege-model)
 topic additional information.
 
 ## Unix Query Configuration

@@ -29,7 +29,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell PowerStore host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/activity/activity_2.md)
+[Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/powerstore-aac/powerstore-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for

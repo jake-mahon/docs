@@ -1,3 +1,9 @@
+---
+title: "Perform Manual Provisioning Access Control Rules"
+description: "Perform Manual Provisioning Access Control Rules"
+sidebar_position: 70
+---
+
 # Perform Manual Provisioning Access Control Rules
 
 Generates the rights to access the access manual provisioning pages for a given entity type and

@@ -1,3 +1,9 @@
+---
+title: "Automate Sign-in to the Client"
+description: "Automate Sign-in to the Client"
+sidebar_position: 40
+---
+
 # Automate Sign-in to the Client
 
 When you launch Netwrix Auditor client installed on the same machine as Netwrix Auditor server,

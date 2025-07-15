@@ -6,7 +6,10 @@ sidebar_position: 70
 
 # Entra ID Solution
 
-**NOTE:** The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::note
+The Entra ID solution is for scanning Microsoft Entra ID, formerly Azure Active Directory.
+:::
+
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
@@ -17,7 +20,7 @@ for target environment requirements.
 
 ## Entra ID Solution Requirements on the Access Analyzer Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -30,7 +33,7 @@ These are dependent upon the size of the target environment:
 
 ## Entra ID Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 

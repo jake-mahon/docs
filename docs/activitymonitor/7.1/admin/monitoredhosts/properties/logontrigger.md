@@ -1,3 +1,9 @@
+---
+title: "Logon Trigger Tab"
+description: "Logon Trigger Tab"
+sidebar_position: 70
+---
+
 # Logon Trigger Tab
 
 The Logon trigger tab on a SQL Server host's properties window is used to configure logon triggers

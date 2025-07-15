@@ -14,8 +14,11 @@ within the targeted domains.
 Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **AD_DomainPermissions** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DomainPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/domainpermissionsanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DomainPermissions Job
 produces the following pre-configured report.
 
-| Report             | Description                                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                   |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Domain Permissions | This report highlights instances where permissions are applied to Active Directory domain objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: - Bar Chart – Displays permissions by domain - Pie Chart – Provides details on enterprise domain permissions by type - Table – Provides details on domain permissions |
+| Report             | Description                                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                               |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Domain Permissions | This report highlights instances where permissions are applied to Active Directory domain objects. This information is summarized at the domain and enterprise levels. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays permissions by domain</li><li>Pie Chart – Provides details on enterprise domain permissions by type</li><li>Table – Provides details on domain permissions</li></ul> |
+

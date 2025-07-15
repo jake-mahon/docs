@@ -1,6 +1,6 @@
 ---
-title: "Production-Ready Installation"
-description: "Production-Ready Installation"
+title: "Production-Ready Installation Guide"
+description: "Production-Ready Installation Guide"
 sidebar_position: 40
 ---
 

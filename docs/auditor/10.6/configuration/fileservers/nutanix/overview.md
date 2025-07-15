@@ -1,3 +1,9 @@
+---
+title: "Nutanix"
+description: "Nutanix"
+sidebar_position: 40
+---
+
 # Nutanix
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

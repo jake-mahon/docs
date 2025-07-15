@@ -1,3 +1,9 @@
+---
+title: "Securing Password Policy Enforcer Web"
+description: "Securing Password Policy Enforcer Web"
+sidebar_position: 50
+---
+
 # Securing Password Policy Enforcer Web
 
 Password Policy Enforcer/Web is designed to operate securely, but you must ensure that the web

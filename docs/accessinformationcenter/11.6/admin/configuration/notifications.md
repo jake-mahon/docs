@@ -1,3 +1,9 @@
+---
+title: "Notifications Page"
+description: "Notifications Page"
+sidebar_position: 30
+---
+
 # Notifications Page
 
 The Access Information Center uses the Simple Mail Transfer Protocol (SMTP) to send email messages.

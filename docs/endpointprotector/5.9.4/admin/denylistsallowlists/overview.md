@@ -1,3 +1,9 @@
+---
+title: "Denylists and Allowlists"
+description: "Denylists and Allowlists"
+sidebar_position: 60
+---
+
 # Denylists and Allowlists
 
 From this section, you can create Denylists and Allowlists that can be used in both the Content

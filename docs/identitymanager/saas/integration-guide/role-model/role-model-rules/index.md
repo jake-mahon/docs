@@ -1,9 +1,3 @@
----
-title: "Assignment Policy"
-description: "Assignment Policy"
-sidebar_position: 30
----
-
 # Assignment Policy
 
 The assignment policy is the set of rules enforced on the resources to compute automatic assignments
@@ -11,10 +5,9 @@ and risks. It contains the role model and risks definition.
 
 ## The Role Model
 
-The Introduction Guide introduced the role model and how it influences assigning entitlements to
-identities. Let's sum up the key principles here. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
-topic for additional information.
+The Introduction Guide introduced the
+[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) and
+how it influences assigning entitlements to identities. Let's sum up the key principles here.
 
 1. Identities are resources.
 2. Assignments of entitlements are materialized by resources, their values and associations.
@@ -62,13 +55,13 @@ knowledgeable member of the target organization, to define key criteria on which
 of entitlements decisions. Those key criteria are called dimensions.
 
 The integration team defines
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the
+[Context Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) and
+[Record Section](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)in the
 applicative configuration that assigns, for every identity, a context as a set of dimension-value
 pair.
 
 The details of how contexts are generated can be found in
-[ Generate Contexts ](/docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/index.md).
+[Generate Contexts](/docs/identitymanager/saas/integration-guide/role-assignment/generate-contexts/index.md).
 
 Every dimension is associated with a finite set of possible values. That means there is a finite set
 of possible context. Hence, typical contexts within which an identity operates are modeled.
@@ -104,8 +97,7 @@ integration team, in collaboration with the target organization, to match the or
 and rules in security.
 
 The role model is built iteratively, together with the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md),
-as they closely influence one another. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) topic for
-additional information.
+as they closely influence one another.
 
 The role model evolves and lives during the whole IGA project's lifecycle. Organization rules
 change, roles and assignment rules are updated, deleted, added.
@@ -116,8 +108,8 @@ The following gives a few ideas about how a to approach the writing of a role mo
 
 The first iteration of building of the organization reference model starts to reveal the archetypal
 responsibilities and positions of the members of the organization. A
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for
-every fine-grained organization-level responsibility or position.
+[Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is defined for every
+fine-grained organization-level responsibility or position.
 
 ##### Example
 
@@ -147,7 +139,7 @@ The project manager needs access to the `data0` and `data1` servers with client 
 
 ### 2. Identify navigation rules and ownership
 
-For every [ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned
+For every [Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) assigned
 to an identity, fine-grained entitlements need to be granted. Those are the resource values in a
 managed system.
 
@@ -156,10 +148,10 @@ fulfill are identified.
 
 They are materialized by:
 
-- Provisioning rules, such as Resource Type rules that decide what resources should be found in the
+- Provisioning rules, such as resource type rules that decide what resources should be found in the
   managed systems; and navigation rules or scalar rules, that identify actual values to be fulfilled
   from the identity to which the single role is assigned;
-- [ Resource Correlation Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+- [Resource Correlation Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md),
   that identify for an identity, the target resources to fulfill;
 - Resource type that organize resources and describe a source/target (or owner/resource)
   relationship.
@@ -193,13 +185,11 @@ that define the ownership of an Active Directory entry resource by an identity r
 ### 3. Write assignment rules
 
 [Single Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md) describe
-criteria for which a
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) is assigned to a
-resource. The main criterion is a dimension value. For a given resource, the single role is assigned
-if the resource's context matches the given dimension value. The second criterion is the assignment
-of a specific
-[ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see
-further).
+criteria for which a [Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+is assigned to a resource. The main criterion is a dimension value. For a given resource, the single
+role is assigned if the resource's context matches the given dimension value. The second criterion
+is the assignment of a specific
+[Composite Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md) (see further).
 
 A navigation rule describes a fine-grained entitlement in the form of resource association such as a
 group membership. Its enforcement is also conditioned by a single role assignment to the relevant
@@ -224,10 +214,10 @@ Active Directory entry resource should be set to the AD group named `Internet Ac
 
 ### 4. Use Composite Roles To Organize Single Roles (optional)
 
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged
-into [ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md).
-Assigning a composite role to an identity immediately assigns the packaged single role to that
-identity. Single roles assigned this way are said to be inferred.
+[Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) can be packaged into
+[Composite Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). Assigning a
+composite role to an identity immediately assigns the packaged single role to that identity. Single
+roles assigned this way are said to be inferred.
 
 The [Composite Role Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)
 (see composite role rules describe criteria for which a composite role is assigned to an identity.

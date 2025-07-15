@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID State-In-Time Reports"
+description: "Microsoft Entra ID State-In-Time Reports"
+sidebar_position: 20
+---
+
 # Microsoft Entra ID State-In-Time Reports
 
 To instruct Netwrix Auditor to collect data needed for the report, make sure that Collect data for

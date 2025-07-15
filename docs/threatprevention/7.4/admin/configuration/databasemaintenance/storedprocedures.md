@@ -1,3 +1,9 @@
+---
+title: "Stored Procedures"
+description: "Stored Procedures"
+sidebar_position: 40
+---
+
 # Stored Procedures
 
 The table contains a list of the stored procedures Threat Prevention uses on its SQL Server

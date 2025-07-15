@@ -1,3 +1,9 @@
+---
+title: "Settings Access Control Rules"
+description: "Settings Access Control Rules"
+sidebar_position: 20
+---
+
 # Settings Access Control Rules
 
 Generates the permissions to configure the Workforce Core Solution module and connector settings.

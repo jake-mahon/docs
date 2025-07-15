@@ -1,3 +1,9 @@
+---
+title: "Manage Data Sources"
+description: "Manage Data Sources"
+sidebar_position: 20
+---
+
 # Manage Data Sources
 
 You can fine-tune data collection for each data source. Settings that you configure for the data
@@ -44,7 +50,7 @@ Review the following for additional information:
 - [SharePoint](/docs/auditor/10.6/admin/monitoringplans/sharepoint/overview.md)
 - [SharePoint Online](/docs/auditor/10.6/admin/monitoringplans/sharepointonline/overview.md)
 - [SQL Server](/docs/auditor/10.6/admin/monitoringplans/sqlserver/overview.md)
-- [User Activity](/docs/auditor/10.6/admin/monitoringplans/useractivity/overview.md)
+- [User Activity](/docs/auditor/10.6/admin/monitoringplans/overview_1.md)
 - [VMware](/docs/auditor/10.6/admin/monitoringplans/vmware/overview.md)
 - [Windows File Share](/docs/auditor/10.6/admin/monitoringplans/fileservers/scope.md#windows-file-share)
 

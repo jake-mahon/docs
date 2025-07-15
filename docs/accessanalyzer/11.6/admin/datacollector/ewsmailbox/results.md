@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Results"
+description: "EWSMailbox: Results"
+sidebar_position: 90
+---
+
 # EWSMailbox: Results
 
 Use the Results page to select which properties are gathered out of those available for the

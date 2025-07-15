@@ -22,5 +22,5 @@ following areas
 See next:
 
 - [Content Sources](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/introduction.md)
-- [Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/introduction_1.md)
+- [Taxonomies](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/introduction.md)
 - [Understanding Workflows](/docs/dataclassification/5.7/contentconfigurationoverview/workflows/overview.md)

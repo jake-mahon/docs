@@ -1,3 +1,9 @@
+---
+title: "Monitoring Plans"
+description: "Monitoring Plans"
+sidebar_position: 30
+---
+
 # Monitoring Plans
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

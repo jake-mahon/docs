@@ -1,3 +1,9 @@
+---
+title: "Target Resource Report Access Control Rules"
+description: "Target Resource Report Access Control Rules"
+sidebar_position: 30
+---
+
 # Target Resource Report Access Control Rules
 
 Generates the right to apply a report for a profile on a given entity.

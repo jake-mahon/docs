@@ -1,3 +1,9 @@
+---
+title: "Notification: Command Line"
+description: "Notification: Command Line"
+sidebar_position: 80
+---
+
 # Notification: Command Line
 
 The Command Line properties page is available when the Command-line Executable notification type is

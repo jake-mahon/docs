@@ -23,10 +23,10 @@ Help link and the User Menu:
       See the [ Policy Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface.md) topic for additional information.
     - Configuration — Contains several pages to configure and manage authentication, integration
       connectors, service accounts, services, and other settings. See the
-      [Configuration Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface_1.md) topic for additional information.
+      [Configuration Interface](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/interface_1.md) topic for additional information.
     - Audit & Reporting Interface — Audit user access entitlement (Access Certification) and view
       activity statistics and reports. See the
-      [Audit & Reporting Interface](/docs/privilegesecure/4.2/accessmanagement/admin/interface/interface_2.md) topic for additional information.
+      [Audit & Reporting Interface](/docs/privilegesecure/4.2/accessmanagement/admin/AuditReporting/interface_2.md) topic for additional information.
 
 - Help — Opens the Netwrix Privilege Secure documentation in the in another browser tab
 - User Menu — Click to open the drop-down menu:
@@ -52,13 +52,13 @@ Interface Icons
 
 | Icon                                                                                                                                         | Interface           |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
-| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
-| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
-| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
-| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
-| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
-| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/policy.webp)      | Policy              |
+| ![users](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activities.webp)                   | Activities          |
 | ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |

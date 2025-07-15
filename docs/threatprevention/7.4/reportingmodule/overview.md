@@ -1,3 +1,9 @@
+---
+title: "Reporting Module"
+description: "Reporting Module"
+sidebar_position: 70
+---
+
 # Reporting Module
 
 Threat Prevention leverages the user-friendly, HTML-5 based Netwrix Threat Manager Reporting Module
@@ -11,7 +17,7 @@ Threat Manager Reporting Module, configure the integration, and grant access to 
 following topics:
 
 - [Reporting Module Server Requirements](/docs/threatprevention/7.4/requirements/reportingserver.md)
-- [Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+- [Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/overview/gettingstarted.md#set-up-the-threat-manager-reporting-module)
 - [Reporting Module Installation](/docs/threatprevention/7.4/install/reportingmodule/overview.md)
 - [Configuration Menu ](/docs/threatprevention/7.4/reportingmodule/configuration/overview.md)
 - [Investigations Interface](/docs/threatprevention/7.4/reportingmodule/investigations/overview.md)

@@ -1,3 +1,9 @@
+---
+title: "Active Directory Reports Quick Reference"
+description: "Active Directory Reports Quick Reference"
+sidebar_position: 10
+---
+
 # Active Directory Reports Quick Reference
 
 The following Active Directory reports are available for selection within the Resources pane.

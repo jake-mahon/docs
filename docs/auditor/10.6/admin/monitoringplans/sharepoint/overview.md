@@ -1,3 +1,9 @@
+---
+title: "SharePoint"
+description: "SharePoint"
+sidebar_position: 150
+---
+
 # SharePoint
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

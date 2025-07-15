@@ -176,8 +176,7 @@ A homonym search checks if a resource already exists in the system before creati
 preventing duplicates. It is configured through a
 [Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-See the [Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/how-to/configure-homonym-test/index.md)topic for additional
-information.
+See the [Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
 
 ## Display Tables (Optional)
 

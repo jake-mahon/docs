@@ -1,3 +1,9 @@
+---
+title: "Restrict SQL Server Maximum Server Memory"
+description: "Restrict SQL Server Maximum Server Memory"
+sidebar_position: 60
+---
+
 # Restrict SQL Server Maximum Server Memory
 
 For SQL Server 2012+, it is necessary to restrict the maximum server memory value to 60-70% of the

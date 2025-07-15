@@ -1,9 +1,3 @@
----
-title: "Configure Indirect Permissions"
-description: "Configure Indirect Permissions"
-sidebar_position: 80
----
-
 # Configure Indirect Permissions
 
 The following how-to assumes that you have already read the topic on
@@ -95,7 +89,7 @@ You can also directly display the Assigned Resource Navigations by clicking on `
 We can follow the same steps to configure this new rule:
 
 - What is the target Entity Type?
-  Once again, we will configure a rule for nominative users. The Entity Type is ```MicrosoftEntraID_DirectoryObject_NominativeUser```.
+  Once again, we will configure a rule for nominative users. The Entity Type is ```AzureAD_DirectoryObject_NominativeUser```.
 - Which permissions can be obtained transitively in the Microsoft Entra ID (formerly Microsoft Azure AD)?
   Users get permissions by being members of a group. The property is ```memberOf```.
 - Do we want to look for correspondences in another system?
@@ -107,7 +101,7 @@ Finally, if we compile all this information and using the naming of the standard
                     ```
 
 <IndirectResourceRule
-    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    />
+    ResourceType="AzureAD_DirectoryObject_NominativeUser"    Property="memberOf"    />
 
 ````
 
@@ -118,7 +112,7 @@ correspondence feature:
 
 - What is the target Entity Type? We first start in the Microsoft Entra ID. Once again, we will
   configure a rule for nominative users. The Entity Type is
-  `MicrosoftEntraID_DirectoryObject_NominativeUser`.
+  `AzureAD_DirectoryObject_NominativeUser`.
 - Which permissions can be obtained transitively in the Microsoft Entra ID? Users get permissions by
   being members of a group. The property is `memberOf`.
 - Do we want to look for correspondences in another system? Yes, we want to find correspondences in
@@ -136,7 +130,7 @@ Manager Demo, we get the following Indirect Resource Rule:
                     ```
 
 <IndirectResourceRule
-    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
+    ResourceType="AzureAD_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
 
 ```
 

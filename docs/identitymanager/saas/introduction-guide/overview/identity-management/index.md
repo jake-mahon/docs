@@ -21,13 +21,9 @@ the data necessary to manage all identities throughout their whole lifecycle.
 
 ![Usercube's Repository](/img/product_docs/identitymanager/saas/introduction-guide/overview/identity-management/identities_repository.webp)
 
-Identity Manager's central repository acts as an intermediary between the systems that provide data,
-for example the HR system, and those that receive data, for example the Active Directory. This
-greatly reduces the complexity in the links between all systems.
+Identity Manager's central repository acts as an intermediary between the systems that provide data, for example the HR system, and those that receive data, for example the Active Directory. This greatly reduces the complexity in the links between all systems.
 
-Without an intermediary, adding one system to a set of n systems requires up to n sets of rules, one
-for each reading/writing relationship that this system has with the others. The complexity is
-quadratic.
+Without an intermediary, adding one system to a set of n systems requires up to n sets of rules, one for each reading/writing relationship that this system has with the others. The complexity is quadratic.
 
 Now with the central repository as an intermediary, implementing a new system requires only one more
 set of rules. The complexity becomes linear.
@@ -88,11 +84,9 @@ an [extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_
 
 ![Synchronization](/img/product_docs/identitymanager/saas/introduction-guide/overview/overview_synchronization.webp)
 
-> A typical example is the synchronization of the HR system's data to retrieve employees' personal
-> information.
+> A typical example is the synchronization of the HR system's data to retrieve employees' personal > information.
 
-It also enables provisioning, i.e. Identity Manager writing to a managed system, but that is
-something we will dig into later.
+It also enables provisioning, i.e. Identity Manager writing to a managed system, but that is something we will dig into later.
 
 ![Provisioning](/img/product_docs/identitymanager/saas/introduction-guide/overview/overview_provisioning.webp)
 
@@ -109,24 +103,24 @@ constitute a different topic), changes can be made to the repository through:
 - the policy's rules that trigger changes to the repository directly, and those that trigger changes
   to managed systems and impact the repository indirectly after the next synchronization.
 
-See the [ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional
+See the [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) topic for additional
 information.
 
 ## Next Steps
 
-Let's learn about [ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md).
+Let's learn about [Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md).
 
 ## Learn More
 
-Learn more on Identity Management .
+Learn more on Identity Management.
 
 See how to
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md).
+[Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md).
 
 Learn more on [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md).
 
 See how to create a
-[ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md).
+[Connect to a Managed System](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md).
 
 Learn more on [Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/index.md).
 

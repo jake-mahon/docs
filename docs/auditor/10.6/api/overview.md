@@ -1,3 +1,9 @@
+---
+title: "Integration API"
+description: "Integration API"
+sidebar_position: 70
+---
+
 # Integration API
 
 Netwrix Auditor Netwrix Risk Insights leverages Netwrix Auditor Integration API. Although you can

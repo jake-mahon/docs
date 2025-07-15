@@ -1,3 +1,9 @@
+---
+title: "Script Reference"
+description: "Script Reference"
+sidebar_position: 50
+---
+
 # Script Reference
 
 Enterprise Auditor provides extensions to standard Visual Basic Script. These extensions allow

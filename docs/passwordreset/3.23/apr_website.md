@@ -1,3 +1,9 @@
+---
+title: "Netwrix Password Reset"
+description: "Netwrix Password Reset"
+sidebar_position: 10
+---
+
 # Netwrix Password Reset
 
 Netwrix Password Reset is a self-service password management system that helps you to reduce the

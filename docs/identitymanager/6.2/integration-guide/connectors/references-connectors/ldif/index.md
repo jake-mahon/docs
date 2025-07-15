@@ -1,3 +1,9 @@
+---
+title: "LDIF"
+description: "LDIF"
+sidebar_position: 130
+---
+
 # LDIF
 
 This connector exports entries from an
@@ -57,7 +63,7 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "LdifExport": {
->         "LDIFFile": "C:/UsercubeContoso/Contoso/contoso.ldif",
+>         "LDIFFile": "C:/identitymanagerContoso/Contoso/contoso.ldif",
 >         "FilterAttribute": "objectClass",
 >         "FilterValues": "user organizationalUnit",
 >         "Attributes": [ "dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname" ],
@@ -80,8 +86,8 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) folder a CSV file
-named `LdifExport.csv`, with the following columns:
+[Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings/index.md)Export
+Output folder a CSV file named `LdifExport.csv`, with the following columns:
 
 ```
 LdifExport.csv

@@ -1,9 +1,3 @@
----
-title: "Customize Forms"
-description: "Customize Forms"
-sidebar_position: 50
----
-
 # Customize Forms
 
 This guide shows how to define a custom way to display the input fields to be filled in a given

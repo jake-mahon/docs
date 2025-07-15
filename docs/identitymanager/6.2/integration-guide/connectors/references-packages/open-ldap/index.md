@@ -1,3 +1,9 @@
+---
+title: "Open LDAP"
+description: "Open LDAP"
+sidebar_position: 230
+---
+
 # Open LDAP
 
 Manages entries in Open LDAP. This package supports incremental synchronization with the sysrepl

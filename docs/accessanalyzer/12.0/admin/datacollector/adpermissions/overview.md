@@ -12,19 +12,19 @@ and the solution are available with a special Access Analyzer license. See the
 [Active Directory Permissions Analyzer Solution](/docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/overview.md)
 topic for additional information.
 
-Protocols
+**Protocols**
 
 - ADSI
 - LDAP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 389
 - TCP 135 – 139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - LDAP Read permissions
 - Read on all AD objects

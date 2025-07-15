@@ -1,3 +1,9 @@
+---
+title: "Display Property Group"
+description: "Display Property Group"
+sidebar_position: 30
+---
+
 # Display Property Group
 
 A display property group bundles a list of entity properties together in a fieldset in the UI.

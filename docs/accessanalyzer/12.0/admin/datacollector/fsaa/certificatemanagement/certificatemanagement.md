@@ -14,11 +14,14 @@ certificate store managed by the FSAA Data Collector. These three certificates a
 - The server certificate (stored in the FSAA Server Certificate Store)
 - The client certificate (stored in the FSAA Client Certificate Store)
 
-**NOTE:** The FSAA Data Collector and Applet server support certificates in both the user’s
+:::note
+The FSAA Data Collector and Applet server support certificates in both the user’s
 certificate store and the computer’s certificate store. It is recommended to store certificates in
 the user's certificate store that is running the FSAA Data Collector or Applet server because
 administrative access is required for the computer's certificate store. When certificates are
 generated using the Automatic option below, they are stored in the user’s certificate store.
+:::
+
 
 ![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
@@ -46,21 +49,30 @@ There are three Certificate Exchange Options provided by the FSAA Data collector
         instructions and examples on how to use the tool, run `FSAACertificateExchangeManager.exe`
         with the `-help` command.
 
-    **NOTE:** If the FSAA Data Collector and Applet are on separate domains without a trust, this
+    :::note
+    If the FSAA Data Collector and Applet are on separate domains without a trust, this
     option must be used.
+    :::
+
 
 - Provide Certificate Authority – The certificate exchange process is the same as with the Automatic
   option. However, instead of creating a self-signed certificate, the FSAA Data Collector uses a
   certificate you provide through the FSAA Data Collector Wizard. The provided certificate is stored
   in the FSAA Certificate Authority Store.
 
-    **NOTE:** If the provided certificate is not self-signed as the Certificate Authority, the root
+    :::note
+    If the provided certificate is not self-signed as the Certificate Authority, the root
     certificate and the Certificate Authority’s certificate chain must also be stored in the FSAA
     Certificate Authority Store on both the client and server hosts.
+    :::
 
-    **CAUTION:** The FSAA Applet does not support password-protected certificates. Certificates
+
+    :::warning
+    The FSAA Applet does not support password-protected certificates. Certificates
     generated when the Automatic option is selected have no password. When manually creating a
     certificate for use with the FSAA Applet the password parameter should be omitted.
+    :::
+
 
 Additionally, the port used for secure certificate exchange can be configured by selecting the
 Specify certificate exchange port checkbox on the Applet Settings page of the FSAA Data Collector

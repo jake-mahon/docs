@@ -24,7 +24,7 @@ The secure communication is configured during the installation of the service on
 The credential provided for the secure communications in the installation wizard is also added to
 the Access Analyzer Connection Profile assigned to the File System Solution.
 
-File System Proxy Service Credentials
+**File System Proxy Service Credentials**
 
 The service can be run either as LocalSystem or with a domain account supplied during the
 installation of the File System Proxy Service with the following permission on the proxy server:
@@ -38,7 +38,7 @@ installation of the File System Proxy Service with the following permission on t
 Additionally, the credential must have `WRITE` access to the `…\StealthAUDIT\FSAA` folder in the
 installation directory.
 
-Windows File Server Target Host Credentials
+**Windows File Server Target Host Credentials**
 
 Configure the credential(s) with the following rights on the Windows host(s):
 
@@ -55,7 +55,7 @@ For Windows Server target hosts, the credential also requires:
 In order to collect data on administrative shares and local policies (logon policies) for a Windows
 target, the credential must have group membership in the local Administrators group.
 
-Sensitive Data Discovery Auditing Consideration
+**Sensitive Data Discovery Auditing Consideration**
 
 Sensitive Data Discovery Auditing scans require .NET Framework 4.7.2 or later. If running Sensitive
 Data Discovery (SDD) scans, it will be necessary to increase the minimum amount of RAM. Each thread
@@ -63,7 +63,7 @@ requires a minimum of 2 additional GB of RAM per host.. By default, SDD scans ar
 two concurrent threads. For example, if the job is configured to scan 8 hosts at a time with two
 concurrent SDD threads, then an extra 32 GB of RAM are required (8x2x2=32).
 
-Secure Proxy Communication Considerations
+**Secure Proxy Communication Considerations**
 
 For secure proxy communication via https, a credential is supplied during installation to provide
 secure communications between the Access Analyzer server and the proxy server. This credential must
@@ -71,7 +71,7 @@ be a domain account, but no additional permissions are required. It is recommend
 domain account configured to run the proxy service as a credential in the Connection Profile to be
 used by the File System Solution
 
-Secure Proxy Communication and Certificate Exchange
+**Secure Proxy Communication and Certificate Exchange**
 
 For Proxy Mode as a Service Scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a
@@ -79,7 +79,7 @@ scan. See the
 [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement/certificatemanagement.md)
 topic for additional information.
 
-Access Analyzer Connection Profile
+**Access Analyzer Connection Profile**
 
 When running Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, the credentials
 within the Connection Profile assigned to the File System scans must be properly configured as

@@ -16,7 +16,10 @@ Select and configure the operations using the following options:
 - Add operation – Use the drop-down menu to select an operation to perform on the target host. This
   opens a corresponding window for configuration. Operations include:
 
-    **NOTE:** Window options vary based on the operation selected from the drop-down menu.
+    :::note
+    Window options vary based on the operation selected from the drop-down menu.
+    :::
+
 
     - New Registry Value – Used to add a new registry value to the list
     - Modify registry value – Used to modify an existing registry value in the list

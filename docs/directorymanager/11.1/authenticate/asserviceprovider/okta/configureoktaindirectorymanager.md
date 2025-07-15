@@ -1,3 +1,9 @@
+---
+title: "Configure Okta in Directory Manager"
+description: "Configure Directory Manager In Okta"
+sidebar_position: 30
+---
+
 # Configure the Okta Provider In Directory Manager
 
 While creating the Okta provider in Directory Manager, you simply have to import the Okta metadata

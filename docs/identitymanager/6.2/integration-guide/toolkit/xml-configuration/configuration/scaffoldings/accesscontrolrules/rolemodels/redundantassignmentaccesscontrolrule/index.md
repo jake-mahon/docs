@@ -1,3 +1,9 @@
+---
+title: "Redundant Assignment Access Control Rule"
+description: "Redundant Assignment Access Control Rule"
+sidebar_position: 100
+---
+
 # Redundant Assignment Access Control Rule
 
 Generates the permissions to access the **Redundant Assignment** page, to analyze and remove

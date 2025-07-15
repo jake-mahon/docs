@@ -1,4 +1,10 @@
-# Workflow Add Record Entity Form
+---
+title: "WorkflowAddRecordEntityForm"
+description: "WorkflowAddRecordEntityForm"
+sidebar_position: 20
+---
+
+# WorkflowAddRecordEntityForm
 
 Displays a form to add a new record for an existing resource, by duplicating and adjusting an
 existing record.

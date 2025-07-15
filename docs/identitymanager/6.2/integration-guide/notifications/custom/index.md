@@ -1,3 +1,9 @@
+---
+title: "Custom Notifications"
+description: "Custom Notifications"
+sidebar_position: 20
+---
+
 # Custom Notifications
 
 Custom notifications can be configured for specific needs, to be triggered by a workflow, or
@@ -6,7 +12,7 @@ periodically via a task.
 ## Workflow-Triggered Notifications
 
 A notification can be configured to be sent to one or several users right after the execution of a
-given activity in a [Workflows](/docs/identitymanager/6.2/integration-guide/workflows/index.md).
+given activity in [Workflows](/docs/identitymanager/6.2/integration-guide/workflows/index.md).
 
 > For example, when a user is created in Identity Manager through a workflow, a notification can be
 > sent to the user's manager. A notification can also be sent when someone must process an action

@@ -17,9 +17,12 @@ Follow the steps to create a Connection Profile.
 **Step 2 –** A new profile displays in the list with a generic name. Provide a unique, descriptive
 name in the Connection profile name textbox.
 
-**NOTE:** A good profile name should be chosen so that it does not need to be changed at a later
+:::note
+A good profile name should be chosen so that it does not need to be changed at a later
 time. If the profile name is changed after being applied to job groups or jobs, it requires the user
 to go back through all of those job groups or jobs and re-apply the Connection Profile.
+:::
+
 
 ![Add User Credential](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/addusercredential.webp)
 
@@ -47,8 +50,11 @@ See the individual account type sections for information on the fields. Then cli
 
 ![Error Message for Password](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/passworddifferserror.webp)
 
-**NOTE:** If the entered passwords are not the same, an error message will pop-up after clicking OK
+:::note
+If the entered passwords are not the same, an error message will pop-up after clicking OK
 on the User Credentials window. Click OK on the error message and re-type the passwords.
+:::
+
 
 ![User Credentials](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/usercredentialslist.webp)
 
@@ -61,9 +67,12 @@ through the User Credentials list. It will first match to all credentials listed
 domain, and then proceed through all other credentials until authentication is successful or there
 are no more credentials to try.
 
-**_RECOMMENDED:_** Limit the User Credentials list to a minimal number per profile, especially when
+:::info
+Limit the User Credentials list to a minimal number per profile, especially when
 considering that a successful authentication does not automatically mean that particular credential
 has the appropriate level of permissions in order for the data collection to occur.
+:::
+
 
 ![Arrange Priority](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/moveupdown.webp)
 
@@ -76,7 +85,10 @@ Access Analyzer runs with before trying the user credentials above option. This 
 Connection Profile. If checked, Access Analyzer applies the local login credentials prior to any of
 the credentials saved to the Connection Profile.
 
-**NOTE:** If a data collector utilizes an applet, this option must be unchecked.
+:::note
+If a data collector utilizes an applet, this option must be unchecked.
+:::
+
 
 **Step 7 –** When the user credentials have been added and ordered, click Save and then OK to
 confirm the changes to the Connection Profile.

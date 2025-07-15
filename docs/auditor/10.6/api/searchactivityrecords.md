@@ -1,3 +1,9 @@
+---
+title: "Search Activity Records"
+description: "Search Activity Records"
+sidebar_position: 50
+---
+
 # Search Activity Records
 
 The search functionality in the Netwrix Auditor Integration API reproduces interactive search

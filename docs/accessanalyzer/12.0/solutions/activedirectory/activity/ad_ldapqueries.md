@@ -12,15 +12,21 @@ can be used to troubleshoot performance issues, load balancing, and poorly confi
 
 ![AD_LDAPQueries Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/ldapjobstree.webp)
 
-**_RECOMMENDED:_** Schedule this job to run with the 0.Collection job group.
+:::info
+Schedule this job to run with the 0.Collection job group.
+:::
+
 
 ## Analysis Tasks for the AD_LDAPQueries Job
 
 Navigate to the **Active Directory** > **6.Activity** > **LDAP** > **AD_LDAPQueries** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Except for the **Largest Queries** task, do not modify or deselect the remaining
+:::warning
+Except for the **Largest Queries** task, do not modify or deselect the remaining
 selected analysis tasks. The remaining analysis tasks are preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_LDAPQueries Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/ldapqueriesanalysis.webp)
 
@@ -40,10 +46,11 @@ The following configurable analysis task can be optionally enabled:
 In addition to the tables created by the analysis tasks, the AD_LDAPQueries Job produces the follow
 pre-configured reports:
 
-| Report               | Description                                                         | Default Tags                                               | Report Elements                                                                                                                                                                                                       |
-| -------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Largest LDAP Queries | Shows LDAP queries returning the most objects, and their source.    | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: - Bar – Displays top users by LDAP traffic - Table – Displays top users by LDAP traffic - Table – Displays Expensive LDAP Queries                                         |
-| LDAP Overview        | Overview of hosts and users performing queries, and query security. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of four elements: - Pie – Displays SSL query events view results - Pie – Displays query security flags - Table – Displays users performing LDAP queries - Table – Displays originating hosts |
+| Report               | Description                                                         | Default Tags                                               | Report Elements                                                                                                                                                                                                                                         |
+| -------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Largest LDAP Queries | Shows LDAP queries returning the most objects, and their source.    | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of three elements: <ul><li>Bar – Displays top users by LDAP traffic</li><li>Table – Displays top users by LDAP traffic</li><li>Table – Displays Expensive LDAP Queries</li></ul>                                               |
+| LDAP Overview        | Overview of hosts and users performing queries, and query security. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of four elements: <ul><li>Pie – Displays SSL query events view results</li><li>Pie – Displays query security flags</li><li>Table – Displays users performing LDAP queries</li><li>Table – Displays originating hosts</li></ul> |
+
 
 ### Configure the Largest Queries Analysis Task
 
@@ -60,7 +67,10 @@ analysis task’s parameters.
 **Step 2 –** In the Analysis Selection view, select the **Largest Queries** analysis task and click
 **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Largest Queries analysis task in the SQL Script Editor](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/ldapsqlscripteditor.webp)
 

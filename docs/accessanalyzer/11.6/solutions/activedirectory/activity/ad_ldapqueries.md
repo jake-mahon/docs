@@ -1,3 +1,9 @@
+---
+title: "LDAP > AD_LDAPQueries Job"
+description: "LDAP > AD_LDAPQueries Job"
+sidebar_position: 50
+---
+
 # LDAP > AD_LDAPQueries Job
 
 The **LDAP** > **AD_LDAPQueries** Job analyzes LDAP traffic to determine trends such as most

@@ -1,4 +1,10 @@
-# Workflow Update Several Records Entity Form
+---
+title: "WorkflowUpdateSeveralRecordsEntityForm"
+description: "WorkflowUpdateSeveralRecordsEntityForm"
+sidebar_position: 90
+---
+
+# WorkflowUpdateSeveralRecordsEntityForm
 
 Displays a form to create, update or delete one or several records.
 
@@ -67,7 +73,7 @@ And with the following form for the data that groups records together:
 The contents of `MainControl`, `RecordControl`, `RecordSlaveUniqueItemControl` and
 `RecordSlaveControl` are visible during the workflow's execution:
 
-![Form Example - Manage a User's Positions](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdateseveralrecordsentityform/formexample_workflowupdateseveralrecordsentityform_v603.webp)
+![Summary Form Example - Update Data](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/forms/workflowupdaterecordentityform/formexample_workflowupdaterecordentityform_summary_v603.webp)
 
 When adding a new position, we decide to make `Title` available, in addition to the fields used to
 update existing records:

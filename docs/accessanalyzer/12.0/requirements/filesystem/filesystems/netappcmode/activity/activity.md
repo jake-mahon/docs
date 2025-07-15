@@ -34,8 +34,11 @@ server or mutual authentication.
 FPolicy may have a significant impact on file system throughput, and it is always a best practice to
 monitor performance when enabling FPolicy.
 
-**_RECOMMENDED:_** Create a tailored FPolicy which only collects the desired activity from the
+:::info
+Create a tailored FPolicy which only collects the desired activity from the
 environment to limit the scope and impact.
+:::
+
 
 For scale-out and fault tolerance purposes, the product supports a range of deployment options. A
 single agent can receive events from multiple SVMs. Or events from a single SVM can be distributed
@@ -48,8 +51,11 @@ during scenarios such as network delays or bursts of activity. The feature uses 
 for each SVM as a staging buffer before events are sent to the agent. FPolicy will automatically
 create a volume if one does not already exist.
 
-**_RECOMMENDED:_** Enable the Persistent Store feature and allow it to create a volume
+:::info
+Enable the Persistent Store feature and allow it to create a volume
 automatically.
+:::
+
 
 ## Configuration Checklist
 
@@ -57,7 +63,7 @@ Complete the following checklist prior to configuring the activity monitoring of
 Cluster-Mode devices. Instructions for each item of the checklist are detailed within the following
 sections.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Gather the following information:
 
@@ -105,7 +111,7 @@ bursts of activity events.
 It uses a dedicated volume for each SVM as a staging buffer before the events are sent to Activity
 Monitor Agent.
 
-Checklist Item 2: [Provision ONTAP Account](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/provisionactivity.md)
+**Checklist Item 2: [Provision ONTAP Account](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/provisionactivity.md)**
 
 - Permission names depend on the API used, ONTAPI/ZAPI or REST API.
 - The case of domain and username created during the account provisioning process must match exactly
@@ -175,7 +181,7 @@ Checklist Item 2: [Provision ONTAP Account](/docs/accessanalyzer/12.0/requiremen
 
         - `security login role show-ontapi` – Readonly access
 
-Checklist Item 3: [Configure Network](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/configurefirewall.md)
+**Checklist Item 3: [Configure Network](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/configurefirewall.md)**
 
 - Agent must be able to connect to ONTAP API via a management LIF on ports HTTP (80) or HTTPS (443)
 
@@ -190,7 +196,7 @@ Checklist Item 3: [Configure Network](/docs/accessanalyzer/12.0/requirements/fil
     - Each data serving node should have its own LIF with the `data-fpolicy-client` service.
     - The default port 9999 can be changed in the agent's settings.
 
-Checklist Item 4: [Configure FPolicy](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/configurefpolicy.md)
+**Checklist Item 4: [Configure FPolicy](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netappcmode/activity/configurefpolicy.md)**
 
 - Remember: all FPolicy objects and SVM names are case sensitive.
 - FPolicy must be configured for each SVM to be monitored.
@@ -217,7 +223,7 @@ Checklist Item 4: [Configure FPolicy](/docs/accessanalyzer/12.0/requirements/fil
 - Enable the Persistent Store to increase the resilience and control the latency in case of network
   outages or bursts of activity
 
-Checklist Item 5: Activity Monitor Configuration
+**Checklist Item 5: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Agent to a Windows server.
 - Configure the Agent to monitor the SVM.

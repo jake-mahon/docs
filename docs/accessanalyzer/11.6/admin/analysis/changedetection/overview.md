@@ -1,3 +1,9 @@
+---
+title: "Change Detection Analysis Module"
+description: "Change Detection Analysis Module"
+sidebar_position: 30
+---
+
 # Change Detection Analysis Module
 
 Use the Change Detection analysis module to track changes within a specific Enterprise Auditor view

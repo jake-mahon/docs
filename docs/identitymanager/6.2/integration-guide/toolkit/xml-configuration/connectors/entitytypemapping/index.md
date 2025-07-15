@@ -1,3 +1,9 @@
+---
+title: "Entity Type Mapping"
+description: "Entity Type Mapping"
+sidebar_position: 70
+---
+
 # Entity Type Mapping
 
 An entity type mapping links a given [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s

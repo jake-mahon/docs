@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Open Access Job Group"
+description: "Recommended Configurations for the Open Access Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Open Access Job Group
 
 Dependencies

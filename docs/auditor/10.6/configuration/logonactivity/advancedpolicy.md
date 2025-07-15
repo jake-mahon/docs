@@ -1,3 +1,9 @@
+---
+title: "Configure Advanced Audit Policies"
+description: "Configure Advanced Audit Policies"
+sidebar_position: 30
+---
+
 # Configure Advanced Audit Policies
 
 You can configure advanced audit policies instead of basic domain policies to collect Logon Activity

@@ -1,3 +1,9 @@
+---
+title: "Remove-Container"
+description: "Remove-Container"
+sidebar_position: 90
+---
+
 # Remove-Container
 
 Use the **Remove-Container** commandlet to delete organizational units from Directory. The
@@ -33,7 +39,7 @@ Example 2:
 
 The following command first shows the changes that result from executing the command. The command
 uses the credentials set in the $Credentials environment variable to perform the deletion. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in the environment variable.
 
 ```
@@ -44,4 +50,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

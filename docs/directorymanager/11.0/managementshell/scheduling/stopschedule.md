@@ -1,3 +1,9 @@
+---
+title: "Stop-Schedule"
+description: "Stop-Schedule"
+sidebar_position: 70
+---
+
 # Stop-Schedule
 
 The commandlet **Stop-Schedule** stops a specified schedule if it is already running.
@@ -51,4 +57,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

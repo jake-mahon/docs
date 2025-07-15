@@ -1,3 +1,9 @@
+---
+title: "Cisco Meraki Dashboard"
+description: "Cisco Meraki Dashboard"
+sidebar_position: 40
+---
+
 # Cisco Meraki Dashboard
 
 Before creating a monitoring plan to audit your Cisco Meraki devices, plan for the account that will

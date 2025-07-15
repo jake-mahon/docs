@@ -1,3 +1,9 @@
+---
+title: "SIEM"
+description: "SIEM"
+sidebar_position: 200
+---
+
 # SIEM
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

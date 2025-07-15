@@ -1,4 +1,10 @@
-# Job Administration Access Control Rules
+---
+title: "JobAdministrationAccessControlRules"
+description: "JobAdministrationAccessControlRules"
+sidebar_position: 20
+---
+
+# JobAdministrationAccessControlRules
 
 Scaffolding to access the job administration page. This page is accessible from the administration
 part in dashboard of the user interface.

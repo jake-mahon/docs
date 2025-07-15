@@ -1,3 +1,9 @@
+---
+title: "Build Unique Value Aspect"
+description: "Build Unique Value Aspect"
+sidebar_position: 40
+---
+
 # Build Unique Value Aspect
 
 Computes a unique value for a given property.
@@ -53,7 +59,8 @@ A unicity check rule ensures that the expression computed by a `BuildUniqueValue
 property is unique, i.e. not yet used by another resource, in a given entity type.
 
 The comparison performed by these rules to check unicity can be configured in SQL instead of C# via
-the [```SqlCheckExpression```](() property of the aspect.
+the `SqlCheckExpression` property of the aspect. See the Build Unique Value Aspect topic for
+additional information.
 
 The value of the source binding/expression is computed based on the properties of the source
 resource which is the resource whose property we compute via the `BuildUniqueValue` aspect.
@@ -82,8 +89,8 @@ The unicity check rules linked to a same aspect are combined with the AND operat
 the aspect's iteration goes up when at least one of the rules detects non-unicity.
 
 When creating or updating a unicity check rule, launch the
-[ Compute Correlation Keys Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)before
-applying the role model and launching workflows.
+[ Compute Correlation Keys Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+before applying the role model and launching workflows.
 
 **For information:** Identity Manager needs to store the correlation keys linked to the expressions
 defined in the unicity check rule, such as the return value, the entity type, etc. That's why the

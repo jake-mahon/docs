@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 The following sections provide instructions for installing and upgrading Enterprise Auditor and

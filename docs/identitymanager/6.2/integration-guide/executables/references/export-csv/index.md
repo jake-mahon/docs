@@ -1,37 +1,43 @@
+---
+title: "Usercube-Export-Csv"
+description: "Usercube-Export-Csv"
+sidebar_position: 120
+---
+
 # Usercube-Export-Csv
 
 ## Examples
 
 ### Exporting a file respecting the default parameters
 
-Consider the file `C:/UsercubeContoso/Sources/hr_example.csv` with `,` as separator and `UTF8`
+Consider the file `C:/identitymanagerContoso/Sources/hr_example.csv` with `,` as separator and `UTF8`
 encoding, it can be exported with the command:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput`
 
-The output file will be located in `C:/UsercubeContoso/Temp/ExportOutput/HREXAMPLE.csv` and the
+The output file will be located in `C:/identitymanagerContoso/Temp/ExportOutput/HREXAMPLE.csv` and the
 content will be a copy of `hr_example.csv`'s one and an `UTF8` encoding.
 
 ### Define a separator
 
-Consider the file `C:/UsercubeContoso/Sources/hr_example.csv` with `;` as separator.
+Consider the file `C:/identitymanagerContoso/Sources/hr_example.csv` with `;` as separator.
 
 As `,` is considered to be the default separator, we must set it:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example.csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --separator ;`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example.csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --separator ;`
 
 The result's content will be the same but with `,` as separator.
 
 ### Use a regex file name
 
 Consider that you deal with a generated file that follows the regex:
-`C:/UsercubeContoso/Sources/hr_example(.*?).csv`, for example
-`C:/UsercubeContoso/Sources/hr_example5fH8g1.csv`. If several files match with the regex, the
+`C:/identitymanagerContoso/Sources/hr_example(.*?).csv`, for example
+`C:/identitymanagerContoso/Sources/hr_example5fH8g1.csv`. If several files match with the regex, the
 executable uses the last one that was generated.
 
 You can put your regex and precise that it is one with the `--regex` argument:
 
-`--raw-files-path C:/UsercubeContoso/Sources/hr_example(.*?).csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/UsercubeContoso/Temp/ExportOutput --regex`
+`--raw-files-path C:/identitymanagerContoso/Sources/hr_example(.*?).csv --ignore-cookies --connection-identifier HREXAMPLE --output-path C:/identitymanagerContoso/Temp/ExportOutput --regex`
 
 ## Use the Path Duality and the Not-Launch-Export System
 

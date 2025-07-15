@@ -70,4 +70,7 @@ The jobs in the AnyID Connectors Solution are:
   Address, Email, and Date of birth. This job requires API access to Salesforce in order to collect
   this information.
 
-**NOTE:** See the individual job topics for information on recommended configurations.
+:::note
+See the individual job topics for information on recommended configurations.
+
+:::

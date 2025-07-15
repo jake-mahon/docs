@@ -359,12 +359,13 @@ export const PRODUCTS = [
     icon: '',
     versions: [
       {
-        version: 'current',
-        label: 'Current',
+        version: '3.3',
+        label: '3.3',
         isLatest: true,
-        sidebarFile: './sidebars/pingcastle.js',
+        sidebarFile: './sidebars/pingcastle/3.3.js',
       },
     ],
+    defaultVersion: '3.3',
   },
   {
     id: 'platgovnetsuite',
@@ -454,6 +455,22 @@ export const PRODUCTS = [
     defaultVersion: '4.2',
   },
   {
+    id: 'privilegesecurediscovery',
+    name: 'Privilege Secure for Discovery',
+    description: 'Privileged access management',
+    path: 'docs/privilegesecurediscovery',
+    categories: ['Privileged Access Management (PAM)'],
+    icon: '',
+    versions: [
+      {
+        version: 'current',
+        label: 'current',
+        isLatest: true,
+        sidebarFile: './sidebars/privilegesecurediscovery.js',
+      },
+    ],
+  },
+  {
     id: 'recoveryforactivedirectory',
     name: 'Recovery for Active Directory',
     description: 'Active Directory backup and recovery',
@@ -499,13 +516,13 @@ export const PRODUCTS = [
         version: '7.5',
         label: '7.5',
         isLatest: true,
-        sidebarFile: './sidebars/threatprevention-7.5-sidebar.js',
+        sidebarFile: './sidebars/threatprevention/7.5.js',
       },
       {
         version: '7.4',
         label: '7.4',
         isLatest: false,
-        sidebarFile: './sidebars/threatprevention-7.4-sidebar.js',
+        sidebarFile: './sidebars/threatprevention/7.4.js',
       },
     ],
     defaultVersion: '7.5',
