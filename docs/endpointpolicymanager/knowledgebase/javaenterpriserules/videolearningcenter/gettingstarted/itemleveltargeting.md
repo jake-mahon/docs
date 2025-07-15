@@ -1,3 +1,8 @@
+---
+title: "Using item Level Targeting to Specify which version of Java to use"
+description: "Using item Level Targeting to Specify which version of Java to use"
+sidebar_position: 40
+---
 # Using item Level Targeting to Specify which version of Java to use
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A3Tf2zudnd8" title="Endpoint Policy Manager Java Rules Manager: Using item Level Targeting to Specify which version of Java to use" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

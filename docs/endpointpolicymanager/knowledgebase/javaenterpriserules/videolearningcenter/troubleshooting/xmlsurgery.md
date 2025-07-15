@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Java Rules Manager: XML Surgery"
+description: "Endpoint Policy Manager Java Rules Manager: XML Surgery"
+sidebar_position: 10
+---
 # Endpoint Policy Manager Java Rules Manager: XML Surgery
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMoI_0BR4qg" title="Endpoint Policy Manager Java Rules Manager: XML Surgery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

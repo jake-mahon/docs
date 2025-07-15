@@ -1,3 +1,8 @@
+---
+title: "Use Group Policy to dictate which version of Java for what website"
+description: "Use Group Policy to dictate which version of Java for what website"
+sidebar_position: 10
+---
 # Use Group Policy to dictate which version of Java for what website
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fZaAqIjhpj8" title="Endpoint Policy Manager Java Rules Manager: Use Group Policy to dictate which version of Java for what website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -32,7 +32,7 @@ will be explained later). PolicyPak is not reinventing the wheel or tricking Jav
 alongside Oracle's sanctioned method for the mapping of Java versions to Java applets.
 
 **NOTE:** See this video
-[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/video/javaenterpriserules/cloud.md) for
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/knowledgebase/javaenterpriserules/videolearningcenter/methods/cloud.md) for
 an overview of Endpoint Policy Manager Java Rules Manager.
 
 For instance, you might want to ensure that the following policies are running on your machine:

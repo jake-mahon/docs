@@ -1,3 +1,8 @@
+---
+title: "Deploy and Manage Java with PDQ Deploy and Endpoint Policy Manager"
+description: "Deploy and Manage Java with PDQ Deploy and Endpoint Policy Manager"
+sidebar_position: 10
+---
 # Deploy and Manage Java with PDQ Deploy and Endpoint Policy Manager
 
 Microsoft MVP Jeremy Moskowitz and Shane from Admin Arsenal show how to deploy Java with PDQ Deploy

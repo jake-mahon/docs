@@ -1,3 +1,8 @@
+---
+title: "Use Endpoint Policy Manager Cloud to choose which version of Java for what website"
+description: "Use Endpoint Policy Manager Cloud to choose which version of Java for what website"
+sidebar_position: 30
+---
 # Use Endpoint Policy Manager Cloud to choose which version of Java for what website
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/85lzyp5oTmg" title="Use Endpoint Policy Manager Cloud to choose which version of Java for what website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

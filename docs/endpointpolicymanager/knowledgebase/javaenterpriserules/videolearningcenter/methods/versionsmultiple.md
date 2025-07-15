@@ -1,3 +1,8 @@
+---
+title: "Deploying Multiple Versions of Java to the Same Endpoint Using Endpoint Policy Manager and PDQ Deploy"
+description: "Deploying Multiple Versions of Java to the Same Endpoint Using Endpoint Policy Manager and PDQ Deploy"
+sidebar_position: 20
+---
 # Deploying Multiple Versions of Java to the Same Endpoint Using Endpoint Policy Manager and PDQ Deploy
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YFbWuREaXJc" title="Deploying Multiple Versions of Java to the Same Endpoint Using Endpoint Policy Manager and PDQ Deploy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

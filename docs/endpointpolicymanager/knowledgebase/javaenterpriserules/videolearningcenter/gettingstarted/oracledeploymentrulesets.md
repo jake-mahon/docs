@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets"
+description: "Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets"
+sidebar_position: 50
+---
 # Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D1FaES1a9sY" title="Endpoint Policy Manager Java Rules Manager... Import from Oracle's Deployment Rule Sets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
