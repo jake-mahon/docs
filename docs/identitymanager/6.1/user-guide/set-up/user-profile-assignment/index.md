@@ -12,9 +12,9 @@ How to assign Usercube's access permissions to users through profiles.
 
 All the permissions to access items in Usercube, and to perform given actions, are managed by
 assigning profiles to users and permissions to profiles. See the
-[ AssignedProfile ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md)
+[AssignedProfile](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md)
 and
-[ References: Permissions ](/docs/identitymanager/6.1/integration-guide/profiles-permissions/permissions/index.md)
+[References: Permissions](/docs/identitymanager/6.1/integration-guide/profiles-permissions/permissions/index.md)
 topics for additional information.
 
 ![Schema - Profile Assignment](/img/product_docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
@@ -23,7 +23,7 @@ For example, the access to the list of users with their personal data is usually
 people, and the possibility to modify personal data restricted to HR managers.
 
 We define here a permission as an entitlement within Usercube. See the
-[ Configure a User Profile ](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
+[Configure a User Profile](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
 topic for additional information.
 
 Users are assigned profiles according to the permissions they need to work, at least one profile per
@@ -48,7 +48,7 @@ Integrators must have the knowledge of who must be able to access what within Us
 | Configured profiles (required) | Assigned profiles |
 
 See the
-[ Configure a User Profile ](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
+[Configure a User Profile](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
 topic for additional information.
 
 ## Assign a Profile to an Account
@@ -124,7 +124,7 @@ ensured by preventing unwanted entitlement delegation.
 
 In order to verify both profile configuration and assignment, check that a sample of users can
 effectively perform the actions allowed by their profiles. See the
-[ Configure a User Profile ](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
+[Configure a User Profile](/docs/identitymanager/6.1/user-guide/set-up/user-profile-configuration/index.md)
 topic for additional information.
 
 A functioning and well-assigned profile must not trigger 403 errors in the server logs, nor in the

@@ -7,7 +7,7 @@ sidebar_position: 50
 # Automate the Review of Non-conforming Assignments
 
 How to automate the review of non-conforming assignments through automation rules. See the
-[ Review Non-conforming Assignments ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/index.md)
+[Review Non-conforming Assignments](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/index.md)
 and
 [Automation Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 topics for additional information.
@@ -41,8 +41,8 @@ team's entitlements.
 | Mastered non-conforming assignment review (required) Categorized accounts (optional) | Automated assignment review |
 
 See the
-[ Review Non-conforming Assignments ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/index.md)
-and [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topics for additional
+[Review Non-conforming Assignments](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/index.md)
+and [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topics for additional
 information.
 
 ## Create an Automation Rule

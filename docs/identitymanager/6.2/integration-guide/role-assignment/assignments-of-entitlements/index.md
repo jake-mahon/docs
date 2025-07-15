@@ -12,7 +12,7 @@ Assigning entitlements means giving users specific permissions, or access rights
 
 As Identity Manager relies on a
 [role-based](https://en.wikipedia.org/wiki/Role-based_access_control) assignment policy, entitlement
-assignment is simply role assignment. See the [ Role Model ](/docs/identitymanager/6.2/integration-guide/role-model/index.md)topic for
+assignment is simply role assignment. See the [Role Model](/docs/identitymanager/6.2/integration-guide/role-model/index.md)topic for
 additional information.
 
 So once a user is assigned a role, Identity Manager must make the right changes in the managed
@@ -33,7 +33,7 @@ computing expected assignments based on existing users and the policy's roles an
 assignments can:
 
 - Result directly from the application of assignment rules on identities. See the
-  [ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
+  [Assignment Policy](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md)topic for additional information.
 - Be inferred and cascading from another assignment.
 
 Manual assignments and degradations are on the other hand, need to be requested individually through
@@ -45,7 +45,7 @@ Some entitlements require the approval of one or several knowledgeable users bef
 assigned. This is standard procedure in many security-concerned organizations.
 
 **NOTE:** This is configurable through the role's or resource type's approval workflow type. See the
-[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
+[Single Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
 additional information.
 
 Each step of the approval workflow is associated with a workflow state, so that all assignments can
@@ -165,7 +165,7 @@ resource type materializes:
 - The categorization of the created resource, which means both the correlation of the resource to an
   owner, and the classification of the resource into a specific type with specific rules between
   owner and owned resources. See the
-  [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional
+  [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional
   information.
 
 ### Reconciliation

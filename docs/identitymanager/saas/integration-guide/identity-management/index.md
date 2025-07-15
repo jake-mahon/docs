@@ -14,15 +14,15 @@ company.
 "Identities' lifecycles" mean any Joiners, Movers and Leavers (JML) process, i.e. staff changes,
 i.e. any user's onboarding, position modification and offboarding.
 
-See the [ Identity Repository ](/docs/identitymanager/saas/integration-guide/identity-management/identity-repository/index.md) topic for additional information.  
-See the [ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/index.md) topic
+See the [Identity Repository](/docs/identitymanager/saas/integration-guide/identity-management/identity-repository/index.md) topic for additional information.  
+See the [Identity Lifecycle: Joiners, Movers and Leavers](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/index.md) topic
 for additional information on how Identity Manager handles the Joiners, Movers and Leavers (JML)
 process.
 
 Identities in Identity Manager are mostly humans, both internal and external workers, but can also
 be applications, bots, service accounts, or anything.
 
-Identities are stored in the database as [ Resources ](/docs/identitymanager/saas/integration-guide/resources/index.md), which helps with Identity Manager's internal mechanisms, for example to modelize identities with [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types.
+Identities are stored in the database as [Resources](/docs/identitymanager/saas/integration-guide/resources/index.md), which helps with Identity Manager's internal mechanisms, for example to modelize identities with [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) types.
 
 Additional interesting parts of identity management are:
 

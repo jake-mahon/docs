@@ -101,8 +101,7 @@ script in the command line.
 ```
 
 {
-  "Result": [
-    {
+  "Result": [{
       "Id": "2147483653",
       "Properties": [
         {
@@ -129,14 +128,12 @@ script in the command line.
         {
           "Id": "-9223372015379939312",
           "Identifier": "WorkflowInstanceId"
-        }
-      ],
+        }],
       "Identifier": "AssignedCompositeRole"
     },
     {
       "Id": "2147483654",
-      "Properties": [
-        {
+      "Properties": [{
           "Id": "-9223372011084972031",
           "Association1": {
             "Id": "-9223372011084972031",
@@ -160,8 +157,7 @@ script in the command line.
         {
           "Id": "-9223372011084972025",
           "Identifier": "StartDate"
-        }
-      ],
+        }],
       "Identifier": "AssignedResourceNavigation"
     }
   ]

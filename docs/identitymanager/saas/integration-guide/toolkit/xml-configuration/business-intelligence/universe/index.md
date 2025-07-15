@@ -62,7 +62,7 @@ we see the following:
 ## Child Element: Association Instance
 
 An association instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -76,7 +76,7 @@ An association instance represents, within a Universe , the occurrence in the mo
 ## Child Element: Entity Instance
 
 An entity instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 

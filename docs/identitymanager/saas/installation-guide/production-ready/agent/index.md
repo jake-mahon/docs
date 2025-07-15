@@ -12,12 +12,12 @@ need separate agents, or if you are installing Identity Manager's agents within 
 SaaS offering, this is the way to go.
 
 **NOTE:** Please make sure that Identity Manager's agent requirements are met before going further.
-See the[ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+See the[Agent](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 ## Agent Working Directory
 
 The agent runtime content should be extracted from the runtime archive following the instructions
-provided in the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic.
+provided in the [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic.
 
 In the separate agent setup, the agent is usually installed on a different workstation from the
 server.
@@ -31,7 +31,7 @@ topic for additional information.
 It is recommended to run the Identity Manager agent as an IIS website.
 
 _Remember,_ to install Identity Manager's agent as a Windows service, see the
-[ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+[Agent](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
 
 Adding Identity Manager's agent as an IIS website can be achieved with the
 [Internet Information Services (IIS) Manager](https://www.iis.net/) which can be launched with the
@@ -109,7 +109,7 @@ higher) to be able to run dotnet application.
 ## Select an Agent Identity
 
 The agent, through Identity Manager's server IIS Website, should be assigned a service account with
-the relevant permissions. See the [ Agent ](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic
+the relevant permissions. See the [Agent](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic
 for additional information.
 
 You can either:
@@ -204,7 +204,7 @@ Up to four folders have to be considered:
 - the provisioning orders directory, usually `C:/identitymanager<Organization>/Temp` (same as for the data
   collection directory).
 
-See the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+See the[Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -251,7 +251,7 @@ information.
 The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders
-directories. See the[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+directories. See the[Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -307,12 +307,10 @@ appsettings.agent.json
   ...
   "Connections": {
     "ADExport": {
-        "Servers": [
-          {
+        "Servers": [{
            "Server": "<paris.contoso.com>",
            "BaseDN": "<DC=paris,DC=com>"
-          }
-        ],
+          }],
         "AuthType": "<Basic>",
         "Login": "<Login>",
         "Password": "<Password>",
@@ -395,7 +393,7 @@ hence the X509KeyFilePassword attribute.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
 should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -444,12 +442,12 @@ The connection to Identity Manager's server can be configured through:
 - OpenIdClients and DefaultOpenIdClient must be used to set the agent's credentials to connect to
   the server; See the
   [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-  and[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+  and[OpenIdClient](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
   topics for additional information.
 
 Their content should be provided by the integration team, in relation to the OpenIdClient tag in the
 applicative configuration. See
-the[ OpenIdClient ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+the[OpenIdClient](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
 topic for additional information.
 
 The following example shows an appsettings.agent.json file that sets an agent to connect to Identity
@@ -534,4 +532,4 @@ from being launched.
 ## What's Next?
 
 The last step in the installation process is setting up an Email server. See the
-[ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md) topic for additional information.
+[Send Notifications](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md) topic for additional information.

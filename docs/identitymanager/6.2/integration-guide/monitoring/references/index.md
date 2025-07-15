@@ -26,7 +26,7 @@ Arguments:
 - argument3 (string): description3 (string)
 
 The EventId id must be unique so we could use it to filter the logs we send. See the
-[ Monitoring ](/docs/identitymanager/6.2/integration-guide/monitoring/index.md) topic for additional information.
+[Monitoring](/docs/identitymanager/6.2/integration-guide/monitoring/index.md) topic for additional information.
 
 #### 500
 

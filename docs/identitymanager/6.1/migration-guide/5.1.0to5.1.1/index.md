@@ -144,7 +144,7 @@ Old Settings:
                     ```
 
 "Logging": { "IncludeScopes": false, "LogLevel": { "Default": "Error", "Usercube": "Information" },
-"Serilog": { "WriteTo": [ { "Name": "Console" } ] } }
+"Serilog": { "WriteTo": [{ "Name": "Console" }] } }
 
 ````
 

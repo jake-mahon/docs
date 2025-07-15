@@ -25,7 +25,7 @@ Microsoft Entra ID (formerly Azure AD) Key Vault. See the
 [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic for additional information.
 
 Check the examples in connectors' credential protection sections. See the
-[ ServiceNow ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) topic
+[ServiceNow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md) topic
 for additional information.
 
 ## Write Settings to the Vault
@@ -51,16 +51,14 @@ script in the command line.
   "Connections": {
     ...
     "ADExport": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "<paris.contoso.com>",
           "BaseDN": "<DC=paris,DC=com>"
         },
         {
           "Server": "<marseille.contoso.com>",
           "BaseDN": "<DC=defense,DC=marseille,DC=com>"
-        }
-      ],
+        }],
       "AuthType": "<Basic>",
       "Login": "<login123>",
       "Password": "<password123>",

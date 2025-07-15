@@ -44,20 +44,20 @@ This is the end of the introduction guide, so you should now be able to dive int
 ## Learn More
 
 Learn more on how to
-[ Create a Working Directory ](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md).
+[Create a Working Directory](/docs/identitymanager/6.2/installation-guide/production-ready/working-directory/index.md).
 
 See the [User Guide](/docs/identitymanager/6.2/user-guide/index.md) topic to learn how to configure Identity Manager
 from scratch via the UI.
 
 See how to
-[ Export the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/export-configuration/index.md)
+[Export the Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/export-configuration/index.md)
 to XML files.
 
 See how to
-[ Deploy the Configuration ](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md).
+[Deploy the Configuration](/docs/identitymanager/6.2/integration-guide/toolkit/deploy-configuration/index.md).
 
 Learn more about the
-[ XML Configuration Schema ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md).
+[XML Configuration Schema](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md).
 
 Learn more about the
 [Network Configuration](/docs/identitymanager/6.2/integration-guide/network-configuration/index.md).

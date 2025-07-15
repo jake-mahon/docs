@@ -48,4 +48,4 @@ Here is the visualization of this criterion on the interface:
 Each menu item is a link to an entity's workflow displayed under the search bar on the visualization
 page of the entity's resource list.
 
-See the [ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information
+See the [Create Menu Items](/docs/identitymanager/6.2/integration-guide/ui/how-tos/create-menu-items/index.md)topic for additional information

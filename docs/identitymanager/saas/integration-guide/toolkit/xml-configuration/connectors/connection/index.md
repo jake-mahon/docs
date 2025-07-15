@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Connection
 
-A connection represents a link between a [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection
+A connection represents a link between a [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) and a connection
 package.
 
 ## Examples
@@ -30,12 +30,10 @@ appsettings.agent.json
   "Connections": {
     ...
     "ADExportFulfillment": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "contoso.server.com",
           "BaseDN": "DC=contoso,DC=com"
-        }
-      ],
+        }],
       "AuthType": "Basic",
       "Login": "Contoso",
       "Password": "ContOso$123456789",
@@ -63,8 +61,8 @@ Details about these settings can be found in Identity Manager's
 ## Child Element: Transformation
 
 A connection transformation is optional, but can be needed to adjust the Excel files, output of
-[ Export Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) from Excel export connections, before
-[ Prepare Synchronization Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md). The
+[Export Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) from Excel export connections, before
+[Prepare Synchronization Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md). The
 following operations are possible:
 
 - filtering out given rows;

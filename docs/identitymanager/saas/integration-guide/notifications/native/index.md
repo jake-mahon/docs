@@ -15,7 +15,7 @@ Identity Manager natively sends notifications for:
 
 - Password reset to the users whose passwords are reset;
 - Access certification to the users selected as reviewers;
-- [ Manual Provisioning ](/docs/identitymanager/saas/integration-guide/notifications/native/manual-provisioning/index.md), provisioning review and role review to the
+- [Manual Provisioning](/docs/identitymanager/saas/integration-guide/notifications/native/manual-provisioning/index.md), provisioning review and role review to the
   users who own a profile with the permissions to perform the corresponding actions;
 - Jobs that finished in state completed/errored/aborted/blocked/warning to the users who own a
   profile with the corresponding permissions.
@@ -43,5 +43,5 @@ found in `/Runtime/NotificationTemplates`.
 The templates for native notifications can be adjusted to specific needs through the XML tag
 [Notification Template](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/notifications/notificationtemplate/index.md).
 
-See the [ Customize a Native Notification ](/docs/identitymanager/saas/integration-guide/notifications/native/customize-native-notification/index.md) for
+See the [Customize a Native Notification](/docs/identitymanager/saas/integration-guide/notifications/native/customize-native-notification/index.md) for
 additional information on how to customize native notifications.

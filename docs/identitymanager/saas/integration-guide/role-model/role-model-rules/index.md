@@ -6,7 +6,7 @@ and risks. It contains the role model and risks definition.
 ## The Role Model
 
 The Introduction Guide introduced the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) and
+[Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md) and
 how it influences assigning entitlements to identities. Let's sum up the key principles here.
 
 1. Identities are resources.
@@ -15,13 +15,13 @@ how it influences assigning entitlements to identities. Let's sum up the key pri
    assignment policy to grant entitlements to identities, i.e. granting a role entails granting
    entitlements.
 4. The role model is first a catalog of available roles
-   ([ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and
-   [ Composite Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)),
+   ([Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) and
+   [Composite Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)),
    identified by meaningful names aimed at non-technical end-users. These roles represent status of
    trust and privileges, to be assigned to identities, manually or automatically.
 5. The role model is also a set of rules aiming at assign automatically roles to identities, based
    on relevant criteria, namely
-   [ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
+   [Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
 6. The role model classifies resources by security concerns thanks to resource types.
 7. The role model contains correlation rules identifying ownership of target resource by an
    identity.
@@ -29,7 +29,7 @@ how it influences assigning entitlements to identities. Let's sum up the key pri
    values should be computed from source resource values.
 
 Resource types, single roles and composite roles can be grouped into
-[ Category ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/category/index.md). They are used in the
+[Category](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/category/index.md). They are used in the
 UI to organize the Roles catalog display. Categories are organized in a hierarchical tree structure.
 
 ### Policy
@@ -179,7 +179,7 @@ account, used to login to work, must be known.
 To modelize that need within the role model, every identity with `Internet Access` single role is
 associated with an Active Directory account. We can find the Active Directory for an identity by
 comparing the identity email with the Active Directory entry e-mail. That's an example of
-[ Resource Correlation Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[Resource Correlation Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 that define the ownership of an Active Directory entry resource by an identity resource.
 
 ### 3. Write assignment rules

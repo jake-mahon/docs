@@ -39,7 +39,7 @@ organization to compute these unique properties.
 | -------------------------------- | -------------------------------------- |
 | IdentityManagerServer (required) | Generation rules for unique properties |
 
-See the [ Install the Development Environment ](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
+See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
 topic for additional information.
 
 ## Configure Unique Property Generation

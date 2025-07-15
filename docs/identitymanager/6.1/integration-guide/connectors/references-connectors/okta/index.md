@@ -25,7 +25,7 @@ Implementing this connector requires:
 - An Okta Token with specific permissions on the target instance
 
 See the
-[ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Configuration
@@ -267,7 +267,7 @@ appsettings.agent.json
 ### Password reset
 
 The password reset settings configuration is described in the appsettings.agent.json file. See the
-[ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Credential protection

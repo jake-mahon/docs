@@ -46,7 +46,7 @@ the list of configured attributes in the associated entity type mapping to a CSV
 ### Configuration
 
 This process is configured through a connection in the UI and/or the XML configuration. See the
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 Or in the `appsettings.agent.json > Connections` section:
@@ -255,7 +255,7 @@ Credential protection
 
 Data protection can be ensured through:
 
-- [ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file
 - An [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;

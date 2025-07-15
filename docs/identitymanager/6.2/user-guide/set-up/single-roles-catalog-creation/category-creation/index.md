@@ -7,7 +7,7 @@ sidebar_position: 20
 # Create a Category
 
 How to structure roles into categories. See the
-[ Category ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
+[Category](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
 topic for additional information.
 
 ## Overview
@@ -37,7 +37,7 @@ application's users, entitlements and data model.
 | ----------------------- | ---------- |
 | Role Catalog (optional) | Categories |
 
-See the [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
+See the [Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
 
 ## Create a Category
 

@@ -7,7 +7,7 @@ sidebar_position: 20
 # Perform Role Mining
 
 How to use role mining to suggest role assignment rules based on existing assignments, in order to
-push the [ Automate Assignments ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/index.md) wall further.
+push the [Automate Assignments](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/index.md) wall further.
 
 ## Overview
 
@@ -17,7 +17,7 @@ roles to users according to their attributes which are used as assignment criter
 > For example, in the AD, entitlements are given through group membership. Integrators create a
 > navigation rule to assign each group to the users who have the corresponding single role. Then,
 > the
-> [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+> [Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 > is able to assign single roles to users according to their existing group membership.
 >
 > In addition to group membership, the assignment of an entitlement to users could also depend on
@@ -42,15 +42,15 @@ assignment rules.
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if
 the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the Role
 Catalog. See
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
+the[Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ### Technical Principles
 
 Role mining works through
-[ Mining Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
+[Mining Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
 that Identity Manager applies with the
-[ Get Role Mining Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
+[Get Role Mining Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
 
 ### Entitlement differentiation with rule types
 
@@ -94,7 +94,7 @@ At this point, integrators should have all the elements they need to operate.
 | ----------------------- | ----------------- |
 | Role Catalog (required) | Single role rules |
 
-See the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
+See the[Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Create a Mining Rule
@@ -119,7 +119,7 @@ Create a mining rule by proceeding as follows:
       the mining rule is applied, i.e. the entity type targeted by role mining's entitlement
       analysis.
     - `Category`:
-      [ Create a Category ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
+      [Create a Category](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
       containing the roles targeted by role mining's analysis.
     - `Include roles with specific validations`: includes in role mining's analysis the roles
       requiring zero and/or one and/or two and/or three validations.
@@ -162,7 +162,7 @@ Create a mining rule by proceeding as follows:
 
 3. Click on **Create** and see a line added on the rules page.
 4. Click on **Simulate** to perfom role mining in a simulation. See
-   the[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
+   the[Perform a Simulation](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
 
     ![Role Mining Jobs](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/rolemining_launchjob_v602.webp)
 

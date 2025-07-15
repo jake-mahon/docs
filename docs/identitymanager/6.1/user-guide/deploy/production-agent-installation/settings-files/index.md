@@ -255,9 +255,8 @@ Configure the agent's settings by proceeding as follows:
         >
         > appsettings.agent.json
         >
-        > "SourcesRootPaths": [
-        >   "C:/identitymanager/Sources"
-        > ]
+        > "SourcesRootPaths": [>   "C:/identitymanager/Sources"
+        >]
         >
         > ```
 

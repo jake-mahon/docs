@@ -144,7 +144,7 @@ The configuration of the Salesforce connector is completed.
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the
 **appsettings.agent.json** > **Connections** section.  
-See the [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
+See the [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) topic for
 additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -231,7 +231,7 @@ This connector is meant to generate to the ExportOutput folder the following CSV
 
 See the
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md) and
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 topics for additional information.
 
 For the connector to work properly, the connection tables must follow the naming conventions too:
@@ -342,7 +342,7 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md), and
 [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.

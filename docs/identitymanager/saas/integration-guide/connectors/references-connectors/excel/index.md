@@ -9,7 +9,7 @@ sidebar_position: 140
 This connector exports datasheets from a
 [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) (XLSX) file.
 
-This page is about [ Excel ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
+This page is about [Excel](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
 
 ![Package: File/Microsoft Excel](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
 
@@ -29,7 +29,7 @@ filtering out spreadsheets and trimming values if needed.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -63,19 +63,17 @@ The identifier of the connection and thus the name of the subsection must:
 >       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).xlsx",
 >       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).xlsx",
 >       "IsFileNameRegex": "true",
->       "SheetOptions": [
->         {
+>       "SheetOptions": [>         {
 >           "SheetIgnored": "false",
 >           "NumberOfLinesToSkip": 1
 >         },
 >         {
 >           "SheetIgnored": "true"
 >         }
->       ],
->       "ValuesToTrim": [
->         "$",
+>],
+>       "ValuesToTrim": [>         "$",
 >         "%"
->       ]
+>]
 >     }
 >   }
 > }
@@ -133,7 +131,7 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
+[RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md), nor
 a
 [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)Vault.
 

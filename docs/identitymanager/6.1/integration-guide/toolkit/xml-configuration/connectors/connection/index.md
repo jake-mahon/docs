@@ -31,12 +31,10 @@ appsettings.agent.json
   "Connections": {
     ...
     "ADExportFulfillment": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "contoso.server.com",
           "BaseDN": "DC=contoso,DC=com"
-        }
-      ],
+        }],
       "AuthType": "Basic",
       "Login": "Contoso",
       "Password": "ContOso$123456789",

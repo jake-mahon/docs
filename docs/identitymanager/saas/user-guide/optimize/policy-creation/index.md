@@ -15,8 +15,8 @@ for additional information.
 A policy is a subgroup of the role model. It defines an ensemble of roles and assignment rules that
 apply to specific identities. So policies are used to handle separately several sets of identities,
 based on dimensions with different permissions and workflows. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) and
-[ Conforming Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics
+[Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) and
+[Conforming Assignments](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics
 for additional information.
 
 Integrators must minimize the number of policies because it segments identities, and segmentation
@@ -37,7 +37,7 @@ Integrators must have the knowledge of the organization strategy towards identit
 | ------------------------ | ------ |
 | Resource type (optional) | Policy |
 
-See the [ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md)
+See the [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md)
 topic for additional information.
 
 ## Create a Policy

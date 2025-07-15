@@ -12,7 +12,7 @@ How to create single roles manually.
 
 A single role is a way to represent an entitlement that is to be assigned to an identity. It brings
 a layer of abstraction through a user-friendly name, close to the business view. See the
-[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[Single Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 topic for additional information.
 
 To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity
@@ -39,7 +39,7 @@ application's users, entitlements and data model.
 | ------------------------- | ------------ |
 | Classification (required) | Single roles |
 
-See the[ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) topic for additional
+See the[Classify Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) topic for additional
 information.
 
 ## Create a Single Role
@@ -65,7 +65,7 @@ New** at the top right corner.
 - Description: Description of the role.
 - Tags: Label(s) that can later be used to filter the target roles of access certification
   campaigns. See the
-  [ Schedule a Certification Campaign ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
+  [Schedule a Certification Campaign](/docs/identitymanager/6.2/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
   topic for additional information.
 
     **NOTE:** Netwrix recommends using role tags when you want to perform an access certification on

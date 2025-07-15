@@ -51,7 +51,7 @@ contribute to a same goal.
 
 While some activities must be carried out before others for technical and/or functional reasons, the
 order is not absolute. Please follow the instructions and recommendations detailed with the
-[ Global Process ](/docs/identitymanager/saas/user-guide/global-process/index.md).
+[Global Process](/docs/identitymanager/saas/user-guide/global-process/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional
 intent: set up; administrate; optimize; deploy and maintain.

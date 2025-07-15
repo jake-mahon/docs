@@ -6,8 +6,7 @@ sidebar_position: 20
 
 # Create the Connector
 
-How to declare the technical container of a
-[ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md).
+How to declare the technical container of a [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md).
 
 ## Overview
 
@@ -17,14 +16,11 @@ related to a single managed system.
 Keep in mind that a Identity Manager installation can have more than one agent. Connectors should be
 created with a specific agent in mind since the agent needs to physically connect to the managed
 system's data. Fortunately, you don't need to worry about that right now, since you are starting
-with the agent provided with Identity Manager's SaaS environment. See the
-[ Architecture ](/docs/identitymanager/saas/introduction-guide/architecture/index.md) topic for additional
-information.
+with the agent provided with Identity Manager's SaaS environment. See the [Architecture](/docs/identitymanager/saas/introduction-guide/architecture/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
-For a given managed system, integrators may need the help of the application owner who knows the
-purpose of the application.
+For a given managed system, integrators may need the help of the application owner who knows the purpose of the application.
 
 | Input | Output          |
 | ----- | --------------- |
@@ -53,10 +49,10 @@ Create a connector container by proceeding as follows:
 
         Netwrix Identity Manager (formerly Usercube)recommends choosing the provided SaaS agent.
 
-    - `Complete Job`: [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) scheduled to
+    - `Complete Job`: [Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) scheduled to
       perform a set of tasks, including completesynchronization and/or provisioning for all the
       connectors, for which you selected the corresponding checkbox.
-    - `Incremental Job`: [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) scheduled
+    - `Incremental Job`: [Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) scheduled
       to perform frequently a set of tasks, including incrementalsynchronization and/or provisioning
       for all the connectors, for which you selected the corresponding checkbox.
 

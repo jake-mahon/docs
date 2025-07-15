@@ -8,13 +8,13 @@ sidebar_position: 100
 
 Role mining aims to reduce the cost of entitlement management by automating entitlement assignments,
 via the analysis of existing assignments. See the
-[ Automate Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/index.md) topic for
+[Automate Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/index.md) topic for
 additional information.
 
 ## Overview
 
 After the role catalog is established, the
-[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute Role Model Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 is able to assign single roles to users according to their attributes which are used as assignment
 criteria.
 
@@ -34,7 +34,7 @@ assign single roles to certain users matching given criteria.
 
 Role mining is a Machine Learning process. It is a statistic tool used to emphasize the dimensions
 that constitute the key criteria for existing role assignments. See the
-[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topic for
+[Conforming Assignments](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topic for
 additional information. It detects the most probable links between identities dimensions and their
 roles in order to suggest the appropriate entitlement assignment rules.
 
@@ -45,14 +45,14 @@ roles in order to suggest the appropriate entitlement assignment rules.
 
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if
 the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).
 
 ### Technical Principles
 
 Role mining works through
-[ Mining Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md) that Identity Manager
+[Mining Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md) that Identity Manager
 applies with the
-[ Get Role Mining Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
+[Get Role Mining Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
 
 ### Entitlement differentiation with rule types
 
@@ -123,13 +123,13 @@ remain unchanged:
 ## Perform Role Mining
 
 See the
-[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) for
+[Perform Role Mining](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) for
 additional information.
 
 ### Simulation
 
 Be aware that you can configure the
-[ Get Role Mining Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
+[Get Role Mining Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
 to generate role assignment rules either directly or in a [Simulation](/docs/identitymanager/6.2/integration-guide/simulation/index.md).
 
 Simulating the results of role mining allows a knowledgeable user to analyze the impact of role

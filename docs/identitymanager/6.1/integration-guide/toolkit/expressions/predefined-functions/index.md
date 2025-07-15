@@ -8,14 +8,14 @@ sidebar_position: 20
 
 Usercube provides a set of predefined functions that simplify the configuration of entity property
 expressions and scalar rules. See the
-[ EntityType ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[EntityType](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 and
 [Resource Type](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topics for additional information.
 
 Unlike C# expressions, Usercube's predefined functions do not need any prefix. They can be used as
 such. See the
-[ C# utility functions ](/docs/identitymanager/6.1/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
+[C# utility functions](/docs/identitymanager/6.1/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
 topic for additional information.
 
 ### Examples

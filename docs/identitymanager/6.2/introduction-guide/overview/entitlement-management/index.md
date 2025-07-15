@@ -63,7 +63,7 @@ automatically assign roles to users, or to categorize users and accounts, etc.
 ### Provisioning rules
 
 Just like identities, accounts are represented in Identity Manager by an
-[ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) entity-relationship model. So Identity
+[Identity Management](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) entity-relationship model. So Identity
 Manager manages entitlements as resources' attribute values.
 
 > For example, giving specific Active Directory permissions to a new user means not only creating a
@@ -138,7 +138,7 @@ assignments that do not comply with the configured rules.
 
 Rules can be triggered based on users' assigned roles, but also based on user data.
 
-The [ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) model can be refined by configuring
+The [Identity Management](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) model can be refined by configuring
 dimensions: criteria from among resources'
 [attributes](https://en.wikipedia.org/wiki/Attribute-based_access_control) that will trigger the
 application of the rules. Then Identity Manager applies the rule for any resource whose value for a
@@ -174,10 +174,10 @@ See the [Governance](/docs/identitymanager/6.2/introduction-guide/overview/gover
 
 ## Learn More
 
-Learn more on the [ Role Model ](/docs/identitymanager/6.2/integration-guide/role-model/index.md).
+Learn more on the [Role Model](/docs/identitymanager/6.2/integration-guide/role-model/index.md).
 
 Learn how to
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).
 
 Learn more on hoe to
 [Create a Composite Role](/docs/identitymanager/6.2/user-guide/optimize/composite-role-creation/index.md).
@@ -185,11 +185,11 @@ Learn more on hoe to
 Learn more on [Role Assignment](/docs/identitymanager/6.2/integration-guide/role-assignment/index.md).
 
 Learn more on
-[ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md).
+[Create a Provisioning Rule](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Learn more on
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[Automate Role Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
 rules.
 
 Learn more on the rules of
-[ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md).
+[Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md).

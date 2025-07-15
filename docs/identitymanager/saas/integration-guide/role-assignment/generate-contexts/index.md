@@ -7,9 +7,9 @@ sidebar_position: 50
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
+[Context Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) or the
 combination of a context rule and the
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
+[Record Section](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) if record
 sections are configured.
 
 A context is used to compute the role assignments for an identity by verifying that the
@@ -19,7 +19,7 @@ dimension-value pairs meet the role criteria.
 
 When using only a context rule without a record section, the context generation is straightforward:
 a set of dimension-value pairs is created by computing the value of the dimension bindings on the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
+[Context Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 > For example, the following context rule defines guests' contexts based on their start date, end
 > date, and company.
@@ -36,7 +36,7 @@ As described in the [Identity Management](/docs/identitymanager/saas/integration
 complex to model. Records were introduced to tackle this complexity by allowing multiple positions
 for the same identity.
 
-[ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
+[Record Section](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) go further
 by modeling the relationship between positions. Indeed with record sections, it is possible to
 define:
 
@@ -174,4 +174,4 @@ By default, the previous position is extended when there is a gap. If there isn'
 position then the next position will be anticipated.
 
 The choice of the position to extend can be configured by leveraging the `SortKeyExpression` in the
-position [ Record Section ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).
+position [Record Section](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).

@@ -7,12 +7,12 @@ sidebar_position: 20
 # How To Create a Workflow
 
 This guide shows how to create a
-[ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) through the XML
+[Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) through the XML
 configuration.
 
 ## Process
 
-1. Declare a new [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) with
+1. Declare a new [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) with
    given activities following Identity Manager's activity templates.
 2. Configure the input [Form](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/index.md) with the
    right output type according to the purpose of the workflow.

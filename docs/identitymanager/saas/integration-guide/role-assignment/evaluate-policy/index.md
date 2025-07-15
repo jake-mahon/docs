@@ -7,7 +7,7 @@ sidebar_position: 40
 # Evaluate Policy
 
 Evaluate Policy is the core algorithm of the assignment policy. See the
-[ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
+[Assignment Policy](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
 
 The algorithm is applied by the server to a resource. It has the following responsibilities:
 
@@ -17,7 +17,7 @@ The algorithm is applied by the server to a resource. It has the following respo
 - Managing assignment lifecycle: updating provisioning states
 - Purging expired assignments
 
-See the [ Risk Management ](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) topic for additional information.
+See the [Risk Management](/docs/identitymanager/saas/integration-guide/governance/risks/index.md) topic for additional information.
 
 ## Overview
 
@@ -46,8 +46,8 @@ Evaluate Policy is executed by the task `Usercube-Compute-RoleModel`, usually in
 regularly scheduled provisioning job.
 
 See the [Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md),
-[ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
-and [ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) topics for additional information.
+[Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
+and [Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md) topics for additional information.
 
 ## The Algorithm Steps
 
@@ -80,13 +80,13 @@ To improve execution time, two optimizations are used:
 - Identity Manager only selects resources for which a new assignment computation is needed. They are
   resources updated during the last incremental synchronization, and resources that depend on them.
   They are identified by the dirty flag, set during incremental synchronization. See the
-  [ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) topic for
+  [Upward Data Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md) topic for
   additional information.
 
 **NOTE:** For very few edge cases, dependencies between resource values can be difficult to identify
 within Identity Manager. An example involves entity property expressions using
 [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) syntax. See
-the [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for
+the [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for
 additional information. A second- or third-order binding used in such an expression actually defines
 a dependency. But Identity Manager does not account for it, because of performance-reliability
 trade-offs. That means a resource `R1`, using such an expression to compute one of its properties
@@ -135,7 +135,7 @@ Let's detail the rule enforcement mechanisms.
 Match context rules
 
 Dimensions are really the basis of an assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Before starting, a context rule is applied, giving for the input resource:
@@ -148,7 +148,7 @@ Before starting, a context rule is applied, giving for the input resource:
 Computing expected role assignments
 
 Role assignments, on the other hand, are the outcome of the assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Role assignments are the output of composite role rules and single role rules enforcement. The
@@ -200,7 +200,7 @@ Then automation rules are enforced on assigned single roles.
 Expected provisioning assignments
 
 Fulfillment is just the consequence of the role assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/saas/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules.

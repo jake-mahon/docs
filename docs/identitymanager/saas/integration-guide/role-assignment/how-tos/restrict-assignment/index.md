@@ -6,7 +6,7 @@ or resource type.
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-[ Dimension ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
+[Dimension](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
 EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType
@@ -21,7 +21,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 ## Create a Single Role
 
 To be able to filter with the dimensions previously created, it is necessary to first create
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will
+[Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) which will
 serve as a restriction to the assignment of ResourceTypes for a given source.
 
 The example below creates a SingleRole for the EntityType Directory_User (source of the

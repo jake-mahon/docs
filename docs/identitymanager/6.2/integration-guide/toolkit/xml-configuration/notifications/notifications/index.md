@@ -6,15 +6,15 @@ sidebar_position: 20
 
 # Notifications (Typed)
 
-- [ Access Certification Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/accesscertificationnotification/index.md)
+- [Access Certification Notification](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/accesscertificationnotification/index.md)
 
     Reminder notification concerning access certification.
 
-- [ Manual Provisioning Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/manualprovisioningnotification/index.md)
+- [Manual Provisioning Notification](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/manualprovisioningnotification/index.md)
 
     Reminder notification concerning manual provisioning.
 
-- [ Provisioning Review Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/provisioningreviewnotification/index.md)
+- [Provisioning Review Notification](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/provisioningreviewnotification/index.md)
 
     Reminder notification concerning provisioning review.
 
@@ -22,6 +22,6 @@ sidebar_position: 20
 
     Reminder notification concerning role model tasks.
 
-- [ Role Review Notification ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/rolereviewnotification/index.md)
+- [Role Review Notification](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/notifications/notifications/rolereviewnotification/index.md)
 
     Reminder notification concerning role review.

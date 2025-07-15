@@ -8,7 +8,7 @@ sidebar_position: 40
 
 This guide leads the reader through the steps to install Identity Manager for production purposes.
 
-**1.\_\_**Before proceeding\_\_, you should go through the [ Overview ](/docs/identitymanager/saas/installation-guide/overview/index.md) and
+**1.\_\_**Before proceeding\_\_, you should go through the [Overview](/docs/identitymanager/saas/installation-guide/overview/index.md) and
 [Requirements](/docs/identitymanager/saas/installation-guide/requirements/index.md) sections to make fundamental decisions about Identity
 Manager setup, including:
 
@@ -38,4 +38,4 @@ as target organization.
 
 ## What's Next?
 
-The first step consists in [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md).
+The first step consists in [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md).

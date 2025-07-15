@@ -18,12 +18,12 @@ by more than one context over time, even simultaneously. This means that users c
 one contract, or position, at a time, and that data changes can be anticipated.
 
 See the
-[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)for
+[Position Change via Records](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)for
 additional information on identity modeling.
 
 **Configuration recommendations:**
 
-As record sections cannot be configured without a [ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md), Netwrix
+As record sections cannot be configured without a [Context Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md), Netwrix
 Identity Manager (formerly Usercube) recommends starting with the configuration of the context rule
 before configuring record sections.
 
@@ -97,7 +97,7 @@ positions.
 
 The following example uses the contract start/end dates as default boundaries in users' validity
 period, instead of those from the default section. See the
-[ Onboarding and Offboarding ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md)
+[Onboarding and Offboarding](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/index.md)
 topic for additional information. It may be because, for example, HR services do not enter an end
 date for the personal data of users on permanent contracts. So we prefer to use the start and end
 dates of their contracts.

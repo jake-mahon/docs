@@ -35,29 +35,29 @@ The **metadata** of a resource is the description of the resources' shape. Using
 _Entity-Relationship_ vocabulary, it's a list of property names and types for a resource.
 
 The metadata is written using
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md),
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md),
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 #### Entity types
 
 Every resource is assigned an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that describes its shape.
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) that describes its shape.
 
 It's a description of the resource: it can be a managed system's resource or a real world entity
 such as an identity or a department.
 
-An [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) includes:
+An [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) includes:
 
-- One or more [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+- One or more [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 - Zero or more
-  [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+  [Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 
 #### Entity properties
 
 Properties are key-value pairs, with a name and type that describes the nature of the value held by
 the property. They are described by
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties.
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties.
 
 There are two kind of properties: **Scalar Properties** and **Navigation Properties**.
 
@@ -87,7 +87,7 @@ of the link.
 
 #### Entity association
 
-An [ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+An [Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 describes a link between entity types. It connects a pair of navigation properties, from two
 **Entity Types**.
 
@@ -128,7 +128,7 @@ named \_`InternalDisplayName___L{Index}`_ where \_Index_ reference the
 #### Computed property
 
 A property can be calculated from other properties. The
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression
 element allows the expression of a computed property. It references the property (specifying the
 entity type's identifier and the property's identifier) and expresses the calculation based on a
 given entity using the calculation [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md) syntax.
@@ -145,7 +145,7 @@ explicitly declared in the applicative configuration.
 It represents a user-friendly name for **EntityType** that is used in the UI if needed.
 
 Its value can be explicitly computed by an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression.
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property expression.
 Otherwise, a default value is automatically computed by Identity Manager using the first property of
 the **EntityType** where `identifier` contains the string _"name"_. If no such property is found,
 the first declared property of the **EntityType** is used instead.
@@ -172,32 +172,32 @@ Binary property values (such as pictures or files) are stored in the UR_Resource
 ### Mapping
 
 Identity Manager's Entity Model also contains **a mapping** between the external data and
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties or
-[](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) properties or
+[](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 That's why entity types are organized into **connectors**. The **mapping\_**connects\_ entity types
 to external sources of truth.
 
 This information is provided by the
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and
-[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and
+[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 To build Identity Manager resources from external data found in the managed system, the entity model
 provides a mapping between the external data (often in the form of CSV files, see
-[ Upward Data Synchronization ](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)) and entity
+[Upward Data Synchronization](/docs/identitymanager/saas/integration-guide/synchronization/upward-data-sync/index.md)) and entity
 properties. This information is provided by the
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)and
-[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), their
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)and
+[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 Every
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)maps a
-CSV column to a scalar [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)maps a
+CSV column to a scalar [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 Every
-[ Entity Association Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 maps a CSV column to a navigation
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 #### Format
 
@@ -217,9 +217,9 @@ something readable by the external system.
 ![Export and Fulfill Data transformation](/img/product_docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)
 
 The format used in the external system can be provided through the
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) using
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) using
 the
-[ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
+[References: Format for the EntityPropertyMapping](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
 attribute to help Identity Manager to convert data appropriately.
 
 If the field in the external system is not forced to a specific value type, but is free-form
@@ -230,7 +230,7 @@ external system.
 #### Primary key
 
 When writing an
-[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), one of
+[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md), one of
 the _scalar properties_ should be chosen as primary key. This property will be used by Identity
 Manager to [uniquely identify a resource](https://en.wikipedia.org/wiki/Primary_key). It is hence
 crucial to choose carefully as many of Identity Manager's processes and optimizations depend on this
@@ -245,7 +245,7 @@ the database. The views are useful to understand how Identity Manager works or 
 configuration.
 
 SQL Views are built by the
-[ Create Database Views Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/createdatabaseviewstask/index.md).
+[Create Database Views Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/createdatabaseviewstask/index.md).
 
 SQL Views created by this tool are identified in the database by a `zz_` prefix.
 

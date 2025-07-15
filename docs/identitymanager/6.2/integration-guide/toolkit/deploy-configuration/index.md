@@ -36,7 +36,7 @@ executable and declaring at least:
 Deploy a SaaS XML configuration by proceeding as follows:
 
 1.  Log in for configuration deployment/export with the
-    [ Usercube-Login ](/docs/identitymanager/6.2/integration-guide/executables/references/login/index.md) executable.
+    [Usercube-Login](/docs/identitymanager/6.2/integration-guide/executables/references/login/index.md) executable.
 
     Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure
     strong security, visibility and ease of use.

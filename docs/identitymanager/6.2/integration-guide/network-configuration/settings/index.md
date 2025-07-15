@@ -7,7 +7,7 @@ sidebar_position: 60
 # Various XML Settings
 
 This section describes Identity Manager's
-[ Settings ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the
+[Settings](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/settings/index.md) available in the
 applicative configuration. Those are mandatory.
 
 ## ConfigurationVersion
@@ -123,7 +123,7 @@ The max number of links to display is 5.
 _This attribute matches an end-user with a resource from the unified resource repository._
 
 Authorization mechanisms within Identity Manager rely on assigning
-[ Profiles ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
+[Profiles](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
 to an identity-resource that stands for the end-user digital identity.
 
 To that end, and end-user authentication credentials are linked to such an identity-resource using

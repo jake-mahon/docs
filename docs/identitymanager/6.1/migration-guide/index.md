@@ -15,7 +15,7 @@ For example from 6.0.215 to 6.0.216.
 For a migration between versions with major changes, check this guide's subsections.
 
 For example see the
-[ 5.2.X to 6.0 ](/docs/identitymanager/6.1/migration-guide/5.2.xto6.0/index.md) topic
+[5.2.X to 6.0](/docs/identitymanager/6.1/migration-guide/5.2.xto6.0/index.md) topic
 for additional information on migration.
 
 ## Upgrade the Server Only for a Minor Migration

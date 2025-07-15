@@ -156,17 +156,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Destination1",
         "Args": {
           "uri": "192.168.13.110",
@@ -181,14 +178,11 @@ appsettings.json
           "port": "514",
           "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
         }
-      }
-    ],
-    "Filter": [
-      {
+      }],
+    "Filter": [{
         "Name": "ByIncludingOnly",
         "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-      }
-    ]
+      }]
   }
 }
 ```
@@ -202,17 +196,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Logger1",
         "Args": {
           "configureLogger": {
@@ -227,14 +218,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-              }
-            ]
+              }]
           }
         }
       },
@@ -245,8 +233,7 @@ appsettings.json
             "MinimumLevel": {
                 "Default": "Information"
             },
-            "WriteTo": [
-              {
+            "WriteTo": [{
                 "Name": "Destination2",
                 "Args": {
                   "uri": "192.168.13.100",
@@ -261,14 +248,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Test') and EventId.Id >= 800" }
-              }
-            ]
+              }]
           }
         }
       }
@@ -292,15 +276,13 @@ can have both Serilog writing to the log file and Usercube reading it to display
 {
   ...
   "Serilog": {
-    "WriteTo": [
-        {
+    "WriteTo": [{
           "Name": "File",
           "Args": {
             "path": "../Temp/Server/identitymanager-log.txt",
             "shared": true,
           }
-        }
-    ]
+        }]
   }
 }
 ```
@@ -330,17 +312,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Logger",
         "Args": {
           "configureLogger": {
@@ -355,14 +334,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-              }
-            ]
+              }]
           }
         }
       }
@@ -383,9 +359,7 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Syslog"
-    ],
+    "Using": ["Serilog.Sinks.Syslog"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
@@ -459,15 +433,13 @@ appsettings.json
 {
   ...
   "Serilog": {
-    "WriteTo": [
-        {
+    "WriteTo": [{
           "Name": "File",
           "Args": {
             "path": "../Temp/Server/identitymanager-log.txt",
             "shared": true,
           }
-        }
-    ]
+        }]
   }
 }
 ```
@@ -483,7 +455,7 @@ appsettings.json
 {
   ...
   "Serilog": {
-    "WriteTo": [ "Console" ],
+    "WriteTo": ["Console"],
     },
   "LogsPath": "C:/inetpub/logs/LogFiles"
 }
@@ -500,18 +472,16 @@ appsettings.json
 {
   ...
 "Serilog": {
-  "WriteTo": [ "Console" ],
-  "Using": [ "Serilog.Sinks.File" ],
+  "WriteTo": ["Console"],
+  "Using": ["Serilog.Sinks.File"],
   "MinimumLevel": "Error",
-  "WriteTo": [
-      {
+  "WriteTo": [{
         "Name": "File",
         "Args": {
           "path": "../Temp/Server/identitymanager-log.txt",
           "shared": true
         }
-      }
-  ]
+      }]
 }
 }
 ```
@@ -528,18 +498,16 @@ appsettings.json
 {
   ...
 "Serilog": {
-  "WriteTo": [ "Console" ],
-  "Using": [ "Serilog.Sinks.File" ],
+  "WriteTo": ["Console"],
+  "Using": ["Serilog.Sinks.File"],
   "MinimumLevel": "Error",
-  "WriteTo": [
-      {
+  "WriteTo": [{
         "Name": "File",
         "Args": {
           "path": "../Temp/Server/identitymanager-log.txt",
           "shared": true
         }
-      }
-  ]
+      }]
 }
 }
 ```
@@ -560,8 +528,7 @@ appsettings.json
         "Usercube": "Debug"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Async",
         "Args": {
           "configure": [
@@ -572,8 +539,7 @@ appsettings.json
                 "shared: true,
                 "buffered": "true"
               }
-            }
-          ]
+            }]
         }
       },
       {

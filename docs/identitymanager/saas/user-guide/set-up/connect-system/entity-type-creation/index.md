@@ -14,7 +14,7 @@ An entity type is a model of a managed system's data. It defines the shape of th
 resources (instances of said model) and not the intent (that would be a resource type). See the [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information. It defines a set of properties describing said resources and linking them together.
 
 In other words, an entity type is supposed to model the representation of a certain group of
-resources inside Identity Manager. It is a relational model, made of properties ([Define Scalar Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)) and links between entity types ([ Define Navigation Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)), both described later.
+resources inside Identity Manager. It is a relational model, made of properties ([Define Scalar Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)) and links between entity types ([Define Navigation Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)), both described later.
 
 ![Entity Type - Schema](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entitytypecreation_schema.webp)
 

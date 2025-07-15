@@ -18,8 +18,8 @@ for additional information.
 The following actions are performed on the _CSV source files_:
 
 1. Remove columns that are not used in
-   [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or
-   [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+   [Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or
+   [Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 2. Remove entries that have a null primary key.
 3. Remove duplicates.
 4. Sort entries according to the primary key.
@@ -29,8 +29,8 @@ The result of the _Prepare-Synchronization_ is stored in the
 as three files:
 
 - For every entity type of the relevant _Connector_ involved in an
-  [ Entity Type Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)> or an
-  [ Entity Association Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), a
+  [Entity Type Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)> or an
+  [Entity Association Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md), a
   `.sorted.csv` file is generated, containing the final, cleansed and sorted result.
 - Duplicates are kept in a separate `.duplicates.csv` file.
 - Null primary key entries are kept in a separate `.nullpk.csv` file.

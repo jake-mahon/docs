@@ -37,7 +37,7 @@ Configure a job to be incremental by proceeding as follows:
     > ```
 
 2. Tag all changed resources by running
-   [ Set Recently Modified Flag Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
+   [Set Recently Modified Flag Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
    after SynchronizeTask.
 
     > For example, following the synchronization task for the Active Directory:

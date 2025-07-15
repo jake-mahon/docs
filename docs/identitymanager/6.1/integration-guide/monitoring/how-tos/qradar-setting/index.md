@@ -73,9 +73,8 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
+    >     "Using": [>       "Serilog.Sinks.Network"
+    >],
     >     ...
     >   }
     >   ...
@@ -92,10 +91,9 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Console",
+    >     "Using": [>       "Serilog.Sinks.Console",
     >       "Serilog.Sinks.Splunk.Durable"
-    >     ],
+    >],
     >     ...
     >   }
     >   ...
@@ -121,9 +119,8 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
+    >       "Using": [>           "Serilog.Sinks.Network"
+    >],
     >       "MinimumLevel": {
     >           "Default": "Error",
     >           "Override": {
@@ -151,17 +148,15 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
+    >       "Using": [>           "Serilog.Sinks.Network"
+    >],
     >       "MinimumLevel": {
     >           "Default": "Error",
     >           "Override": {
     >               "Usercube": "Information"
     >           }
     >       },
-    >       "WriteTo": [
-    >           {
+    >       "WriteTo": [>           {
     >               "Name": "UDPSink",
     >               "Args": {
     >                   "uri": "192.168.13.110",
@@ -169,7 +164,7 @@ Export logs to a log management system by proceeding as follows:
     >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
     >               }
     >           }
-    >       ]
+    >]
     >   }
     > }
     >
@@ -185,9 +180,8 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
+    >       "Using": [>           "Serilog.Sinks.Network"
+    >],
     >       "MinimumLevel": {
     >           "Default": "Error",
     >           "Override": {
@@ -222,17 +216,15 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >       "Using": [
-    >           "Serilog.Sinks.Network"
-    >       ],
+    >       "Using": [>           "Serilog.Sinks.Network"
+    >],
     >       "MinimumLevel": {
     >           "Default": "Error",
     >           "Override": {
     >               "Usercube": "Information"
     >           }
     >       },
-    >       "WriteTo": [
-    >           {
+    >       "WriteTo": [>           {
     >               "Name": "SplunkEventCollector",
     >               "Args": {
     >                   "splunkHost": <Host>,
@@ -240,7 +232,7 @@ Export logs to a log management system by proceeding as follows:
     >                   "bufferFileFullName": "log-buffer.txt"
     >               }
     >           }
-    >       ]
+    >]
     >   }
     > }
     >
@@ -272,17 +264,15 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
+    >     "Using": [>       "Serilog.Sinks.Network"
+    >],
     >     "MinimumLevel": {
     >       "Default": "Error",
     >       "Override": {
     >         "Usercube": "Information"
     >       }
     >     },
-    >     "WriteTo": [
-    >       {
+    >     "WriteTo": [>       {
     >         "Name": "Logger",
     >         "Args": {
     >           "configureLogger": {
@@ -295,13 +285,12 @@ Export logs to a log management system by proceeding as follows:
     >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
     >                 }
     >               }
-    >             ],
-    >             "Filter": [
-    >               {
+    >],
+    >             "Filter": [>               {
     >                 "Name": "ByIncludingOnly",
     >                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
     >               }
-    >             ]
+    >]
     >           }
     >         }
     >       }
@@ -327,17 +316,15 @@ Export logs to a log management system by proceeding as follows:
     > {
     >   ...
     >   "Serilog": {
-    >     "Using": [
-    >       "Serilog.Sinks.Network"
-    >     ],
+    >     "Using": [>       "Serilog.Sinks.Network"
+    >],
     >     "MinimumLevel": {
     >       "Default": "Error",
     >       "Override": {
     >         "Usercube": "Information"
     >       }
     >     },
-    >     "WriteTo": [
-    >       {
+    >     "WriteTo": [>       {
     >         "Name": "Logger",
     >         "Args": {
     >           "configureLogger": {
@@ -353,13 +340,12 @@ Export logs to a log management system by proceeding as follows:
     >                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
     >                 }
     >               }
-    >             ],
-    >             "Filter": [
-    >               {
+    >],
+    >             "Filter": [>               {
     >                 "Name": "ByIncludingOnly",
     >                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
     >               }
-    >             ]
+    >]
     >           }
     >         }
     >       }

@@ -37,7 +37,7 @@ script in the command line.
 
 **_RECOMMENDED:_** To be able to deploy a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
-[ Deploy the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md) topic for
+[Deploy the Configuration](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md) topic for
 additional information.
 
 ## Arguments

@@ -11,11 +11,11 @@ in an adaptable table, and give the permissions to view the resources.
 
 The scaffolding generates the following scaffoldings:
 
-- [ Entity Type Display Name ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md):
+- [Entity Type Display Name](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md):
   Computes a default value for resources' internal display names.
-- [ Entity Type Display Table Adaptable ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytableadaptable/index.md):
+- [Entity Type Display Table Adaptable](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytableadaptable/index.md):
   Creates an adaptable display table for a given entity type.
-- [ View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md):
+- [View Access Control Rules](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md):
   Generates the permissions to view an entity type's resources.
 
 ## Examples

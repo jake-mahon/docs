@@ -9,7 +9,7 @@ sidebar_position: 200
 This connector exports data from an external system via a
 [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview) script.
 
-This page is about [ PowerShellSync ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/powershellsync/index.md).
+This page is about [PowerShellSync](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/powershellsync/index.md).
 
 ![Package: Custom/PowerShellSync](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
@@ -57,7 +57,7 @@ prompt.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```

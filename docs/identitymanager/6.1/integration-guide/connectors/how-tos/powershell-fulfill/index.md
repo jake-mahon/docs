@@ -70,8 +70,7 @@ and
 >     "Connections": {
 >     ...
 >     "ADFulfillment": {
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "...",
 >           "BaseDN": "..."
 >         },
@@ -79,7 +78,7 @@ and
 >           "Server": "paris.contoso.com",
 >           "BaseDN": "DC=defense,DC=paris,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "Login": "...",
 >       "Password": "...",

@@ -7,7 +7,7 @@ sidebar_position: 20
 # Correlate Resources
 
 How to define the
-[ Resource Correlation Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[Resource Correlation Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 to match up resources across systems, usually accounts with their owner.
 
 ## Overview

@@ -20,7 +20,7 @@ Please make sure that the server requirements are met before going further. See 
 
 The server executable is beeing been extracted to the working directory as `Usercube-Server.exe` and
 `Usercube-Server.dll` and will enable a user or IIS to run the Identity Manager Server. See the
-[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic for additional information.
+[Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic for additional information.
 
 ## Set up the License Key
 
@@ -219,7 +219,7 @@ Up to four folders have to be considered:
 - The provisioning orders directory, usually `C:/identitymanager<Organization>/Temp` (same as for the data
   collection directory).
 
-See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+See the [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -254,7 +254,7 @@ The Identity Manager Server service account that was chosen previously:
 The working directory permissions are all set.
 
 The same steps have to be performed on the runtime, the data collection and the provisioning orders
-directories. See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+directories. See the [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -336,7 +336,7 @@ section.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged.
 The password should always be encrypted using the Usercube-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -383,9 +383,9 @@ permissions, let's finalize the setup.
 The connection between the Server and the Database requires choosing an authentication method:
 [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication)
 or SQL Server authentication. See the
-[ Connection to the Database ](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md)
+[Connection to the Database](/docs/identitymanager/saas/integration-guide/network-configuration/server-configuration/database-connection/index.md)
 and
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topics for additional information. Windows authentication will require the IIS identity to be set to
 the custom Windows service account used to log in to the Identity Manager's Windows Server session.
 SQL authentication will work with both the _built-in_ app pool identity and a custom service

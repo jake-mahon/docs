@@ -10,10 +10,10 @@ This connector exports and fulfills entries from/to an [LDAP](https://ldap.com/)
 
 This page is about:
 
-- [ Generic LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/generic-ldap/index.md);
-- [ Oracle LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/oracle-ldap/index.md);
-- [ Apache Directory ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/apache-directory/index.md);
-- [ Red Hat Directory Server ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
+- [Generic LDAP](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/generic-ldap/index.md);
+- [Oracle LDAP](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/oracle-ldap/index.md);
+- [Apache Directory](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/apache-directory/index.md);
+- [Red Hat Directory Server](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
 
 ![Package: Directory/Generic LDAP](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
 
@@ -41,7 +41,7 @@ connector's configuration.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -71,8 +71,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     "Connections": {
 >         ...
 >         "LDAPExport": {
->             "Servers": [
->                 {
+>             "Servers": [>                 {
 >                     "Server": "contoso.server.com",
 >                     "AuthType": "Basic",
 >                     "Login": "Contoso",
@@ -80,13 +79,12 @@ The identifier of the connection and thus the name of the subsection must:
 >                     "Controls": [
 >                         "PagedResult",
 >                         "DomainScope"
->                     ],
+>],
 >                     "NoSigning": false,
 >                     "EnableSSL": true
 >                 }
 >             ],
->             "Tables": [
->                 {
+>             "Tables": [>                 {
 >                     "Table": "entries",
 >                     "BaseDN": "DC=contoso,DC=com",
 >                     "Filter": "(objectclass=*)",
@@ -98,7 +96,7 @@ The identifier of the connection and thus the name of the subsection must:
 >                     "Filter": "(&(member=*)(objectclass=groupOfEntries))",
 >                     "Scope": "Subtree"
 >                 }
->             ],
+>],
 >             "SizeLimit": 5000,
 >             "TimeLimit": 5,
 >             "TimeOut": 30
@@ -153,7 +151,7 @@ with one column for each property having a `ConnectionColumn` and each property 
 in an entity association.
 
 Any property can be exported in a specific format when specified. See the
-[ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
+[References: Format for the EntityPropertyMapping](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
 topic for additional information.
 
 > With the previous example and the following entity type mapping:
@@ -202,20 +200,18 @@ Same as for export, fulfill is configured through connections.
 >     "Connections": {
 >         ...
 >         "LDAPFulfillment": {
->             "Servers": [
->                 {
+>             "Servers": [>                 {
 >                     "Server": "contoso.server.com",
 >                     "AuthType": "Basic",
 >                     "Login": "Contoso",
 >                     "Password": "ContOso$123456789"
 >                 }
->             ],
->             "Tables": [
->                 {
+>],
+>             "Tables": [>                 {
 >                     "Table": "entries",
 >                     "BaseDN": "DC=contoso,DC=com"
 >                 }
->             ],
+>],
 >             "IsLdapPasswordReset": true,
 >             "AsAdLds": false
 >         }
@@ -285,9 +281,9 @@ topic to learn how to configure password reset settings.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
-- [ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- [Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   LDAP's `Login`, `Password` and `Server`.

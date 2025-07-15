@@ -9,7 +9,7 @@ sidebar_position: 150
 Identity Manager uses [Serilog](https://github.com/serilog/), a highly customizable logging tool, to
 provide monitoring capabilities.
 
-See the [ References: Logs ](/docs/identitymanager/saas/integration-guide/monitoring/references/index.md) topic for additional information on the list of
+See the [References: Logs](/docs/identitymanager/saas/integration-guide/monitoring/references/index.md) topic for additional information on the list of
 existing logs.
 
 ## Introduction
@@ -159,17 +159,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Destination1",
         "Args": {
           "uri": "192.168.13.110",
@@ -184,14 +181,11 @@ appsettings.json
           "port": "514",
           "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
         }
-      }
-    ],
-    "Filter": [
-      {
+      }],
+    "Filter": [{
         "Name": "ByIncludingOnly",
         "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-      }
-    ]
+      }]
   }
 }
 ```
@@ -205,17 +199,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Logger1",
         "Args": {
           "configureLogger": {
@@ -230,14 +221,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-              }
-            ]
+              }]
           }
         }
       },
@@ -248,8 +236,7 @@ appsettings.json
             "MinimumLevel": {
                 "Default": "Information"
             },
-            "WriteTo": [
-              {
+            "WriteTo": [{
                 "Name": "Destination2",
                 "Args": {
                   "uri": "192.168.13.100",
@@ -264,14 +251,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Test') and EventId.Id >= 800" }
-              }
-            ]
+              }]
           }
         }
       }
@@ -295,15 +279,13 @@ on the **Monitoring** screen.
 {
   ...
   "Serilog": {
-    "WriteTo": [
-        {
+    "WriteTo": [{
           "Name": "File",
           "Args": {
             "path": "../Temp/Server/identitymanager-log.txt",
             "shared": true,
           }
-        }
-    ]
+        }]
   }
 }
 ```
@@ -312,7 +294,7 @@ on the **Monitoring** screen.
 
 QRadar is a supported destination for Identity Manager's logs.
 
-See the [ Export Logs to a Log Management System ](/docs/identitymanager/saas/integration-guide/monitoring/qradar-setting/index.md) topic to learn
+See the [Export Logs to a Log Management System](/docs/identitymanager/saas/integration-guide/monitoring/qradar-setting/index.md) topic to learn
 how to send Identity Manager's logs to your QRadar system.
 
 Three output formats are available for QRadar-routed logs:
@@ -332,17 +314,14 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Network"
-    ],
+    "Using": ["Serilog.Sinks.Network"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
           "Usercube": "Information"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Logger",
         "Args": {
           "configureLogger": {
@@ -357,14 +336,11 @@ appsettings.json
                   "port": "514",
                   "textFormatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact"
                 }
-              }
-            ],
-            "Filter": [
-              {
+              }],
+            "Filter": [{
                 "Name": "ByIncludingOnly",
                 "Args": { "expression": "StartsWith(SourceContext, 'Usercube') and EventId.Id >= 500" }
-              }
-            ]
+              }]
           }
         }
       }
@@ -385,9 +361,7 @@ appsettings.json
 {
   ...
 "Serilog": {
-    "Using": [
-      "Serilog.Sinks.Syslog"
-    ],
+    "Using": ["Serilog.Sinks.Syslog"],
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
@@ -461,15 +435,13 @@ appsettings.json
 {
   ...
   "Serilog": {
-    "WriteTo": [
-        {
+    "WriteTo": [{
           "Name": "File",
           "Args": {
             "path": "../Temp/Server/identitymanager-log.txt",
             "shared": true,
           }
-        }
-    ]
+        }]
   }
 }
 ```
@@ -486,7 +458,7 @@ appsettings.json
 {
   ...
   "Serilog": {
-    "WriteTo": [ "Console" ],
+    "WriteTo": ["Console"],
     },
   "LogsPath": "C:/inetpub/logs/LogFiles"
 }
@@ -503,18 +475,16 @@ appsettings.json
 {
   ...
 "Serilog": {
-  "WriteTo": [ "Console" ],
-  "Using": [ "Serilog.Sinks.File" ],
+  "WriteTo": ["Console"],
+  "Using": ["Serilog.Sinks.File"],
   "MinimumLevel": "Error",
-  "WriteTo": [
-      {
+  "WriteTo": [{
         "Name": "File",
         "Args": {
           "path": "../Temp/Server/identitymanager-log.txt",
           "shared": true
         }
-      }
-  ]
+      }]
 }
 }
 ```
@@ -531,18 +501,16 @@ appsettings.json
 {
   ...
 "Serilog": {
-  "WriteTo": [ "Console" ],
-  "Using": [ "Serilog.Sinks.File" ],
+  "WriteTo": ["Console"],
+  "Using": ["Serilog.Sinks.File"],
   "MinimumLevel": "Error",
-  "WriteTo": [
-      {
+  "WriteTo": [{
         "Name": "File",
         "Args": {
           "path": "../Temp/Server/identitymanager-log.txt",
           "shared": true
         }
-      }
-  ]
+      }]
 }
 }
 ```
@@ -563,8 +531,7 @@ appsettings.json
         "Usercube": "Debug"
       }
     },
-    "WriteTo": [
-      {
+    "WriteTo": [{
         "Name": "Async",
         "Args": {
           "configure": [
@@ -575,8 +542,7 @@ appsettings.json
                 "shared: true,
                 "buffered": "true"
               }
-            }
-          ]
+            }]
         }
       },
       {

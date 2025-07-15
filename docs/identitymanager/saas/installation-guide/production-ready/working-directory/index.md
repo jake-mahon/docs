@@ -60,4 +60,4 @@ The working directory structure should now resemble the following:
 ## What's Next?
 
 Next section shows how to install the Identity Manager Database. See the
-[ Install the Database ](/docs/identitymanager/saas/installation-guide/production-ready/database/index.md)topic for additional information.
+[Install the Database](/docs/identitymanager/saas/installation-guide/production-ready/database/index.md)topic for additional information.

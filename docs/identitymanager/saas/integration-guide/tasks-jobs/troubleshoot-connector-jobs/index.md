@@ -27,7 +27,7 @@ In order to spot what was exported or not for the next incremental export, cooki
 in `Temp/ExportCookies`.
 
 See the
-[ Usercube-Export-Configuration ](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
+[Usercube-Export-Configuration](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
 topic for additional information.
 
 ### Prepare synchronization
@@ -42,7 +42,7 @@ is prepared for synchronization.
 The output is stored in `Work/Collect`, and sent to the server to queue in `Work/Synchronization`.
 
 See the
-[ Usercube-Export-Configuration ](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
+[Usercube-Export-Configuration](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
 topic for additional information on how to prepare the synchronization executable
 `Usercube-Prepare-Synchronization`.
 
@@ -64,7 +64,7 @@ The output is stored in `UR_ResourceChanges`.
 #### Synchronization: finalize
 
 When at least one synchronization
-[ Thresholds ](/docs/identitymanager/saas/integration-guide/synchronization/synchro-thresholds/index.md) is exceeded, the change list
+[Thresholds](/docs/identitymanager/saas/integration-guide/synchronization/synchro-thresholds/index.md) is exceeded, the change list
 can be seen in the **Synchronization Changes** tab, accessible from the job progress screen.
 
 When the synchronization thresholds are not exceeded, or they are bypassed, the potential

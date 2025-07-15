@@ -34,7 +34,7 @@ owner's name with the expression:
 return person.LastName + " " + person.FirstName;
 
 The application of a scalar rule can depend on the assignment of a single role. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
 additional information.
 
 Sometimes we create in Identity Manager properties which are not directly linked to any real
@@ -104,7 +104,7 @@ application users, entitlements and data model.
 | ------------------------- | ------------ |
 | Categorization (required) | Scalar rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create a Scalar Rule
 
@@ -190,7 +190,7 @@ system.
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in scalar rules. See the
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
+[Perform a Simulation](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Verify Rule Creation
 
@@ -204,7 +204,7 @@ on **Jobs** > **Compute Role Model** to apply all rules.
 **Step 2 –** Review unreconciled properties on the **Resource Reconciliation** screen to help check
 scalar rules: if there are numerous properties to be reconciled following the same pattern, then
 there may be a rule that needs to be changed. See the
-[ Reconcile a Property ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+[Reconcile a Property](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
 topic for additional information.
 
 Once the steps completed the process is verified.

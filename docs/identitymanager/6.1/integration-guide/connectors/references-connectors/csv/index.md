@@ -66,10 +66,9 @@ The identifier of the connection and thus the name of the subsection must:
 >       "Separator": ";",
 >       "IsFileNameRegex": true,
 >       "NumberOfLinesToSkip": 1,
->       "ValuesToTrim": [
->         "*",
+>       "ValuesToTrim": [>         "*",
 >         "%"
->       ]
+>]
 >     }
 >   }
 > }

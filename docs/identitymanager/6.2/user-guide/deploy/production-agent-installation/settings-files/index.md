@@ -258,13 +258,12 @@ Configure the agent's settings by proceeding as follows:
         >
         > appsettings.agent.json
         >
-        > "SourcesRootPaths": [
-        >   "C:/identitymanager/Sources"
-        > ]
+        > "SourcesRootPaths": [>   "C:/identitymanager/Sources"
+        >]
         >
         > ```
 
 ## Next Steps
 
 To continue,see the local server to
-[ Install IIS via Server Manager ](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-installation/index.md).
+[Install IIS via Server Manager](/docs/identitymanager/6.2/user-guide/deploy/production-agent-installation/iis-installation/index.md).

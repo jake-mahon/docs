@@ -60,8 +60,7 @@ and [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/r
 >     "Connections": {
 >     ...
 >     "ADFulfillment": {
->       "Servers": [
->         {
+>       "Servers": [>         {
 >           "Server": "...",
 >           "BaseDN": "..."
 >         },
@@ -69,7 +68,7 @@ and [Active Directory](/docs/identitymanager/saas/integration-guide/connectors/r
 >           "Server": "paris.contoso.com",
 >           "BaseDN": "DC=defense,DC=paris,DC=com"
 >         }
->       ],
+>],
 >       "AuthType": "Basic",
 >       "Login": "...",
 >       "Password": "...",
@@ -468,7 +467,7 @@ This example configures the following list display:
 #### Internal Display Name
 
 An `InternalDisplayName` can also be declared as an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) property
 expression. The `InternalDisplayName` is used in several UI screens to identify a resource for the
 user.
 

@@ -25,7 +25,7 @@ an organization, such as finance, production, supply chain services, procurement
 Implementing this connector requires:
 
 - Reading first the appsettings documentation; See the
-  [ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic
+  [appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md) topic
   for additional information.
 - An ASE or HANA database with a service account, as a database administrator
 - A service account, as a SAP user with at least the roles for user management
@@ -133,7 +133,7 @@ from an SAP ERP instance, and writes the output to CSV files.
 
 This process is configured through a connection in the UI and/or the XML configuration, and in the
 **appsettings.agent.json** > **Connections** section. See the
-[ Connection ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[Connection](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 topic for additional information.
 
 Code attributes enclosed with `< >` need to be replaced with a custom value before entering the
@@ -255,12 +255,12 @@ appsettings.agent.json
 ### Password reset
 
 See the
-[ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information on how to configure password reset settings.
 
 When setting a password for an SAP ERP user, the password attribute is defined by the password
 specified in the corresponding RessourceTypeMapping. See the
-[ SapResourceTypeMapping ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md)
+[SapResourceTypeMapping](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md)
 topic for additional information.
 
 ### Credential protection
@@ -286,10 +286,10 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store Active Directory's Login, Password, and Server.
 
 See the
-[ RSA Encryption ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
-[ Azure Key Vault ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
+[RSA Encryption](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[Azure Key Vault](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
 and
-[ CyberArk's AAM Credential Providers ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
+[CyberArk's AAM Credential Providers](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

@@ -185,7 +185,7 @@ different.
 **NOTE:** This guide doesn't cover how to set up authorizations within Identity Manager.
 Authorization for an end-user to access Identity Manager resources relies on assigning roles to
 profiles. Identity credentials used for authentication must be linked to these profiles in the
-applicative configuration. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)topic for
+applicative configuration. See the [Various XML Settings](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)topic for
 additional information.
 
 Authentication-related settings are done through the following sections of the appsettings set:
@@ -193,7 +193,7 @@ Authentication-related settings are done through the following sections of the a
 - IdentityServer
 - Authentication
 
-See the[ Architecture ](/docs/identitymanager/saas/integration-guide/architecture/index.md)topic for additional information.
+See the[Architecture](/docs/identitymanager/saas/integration-guide/architecture/index.md)topic for additional information.
 
 ### Identity Server
 
@@ -335,7 +335,7 @@ To authorize an end-user, Identity Manager Server retrieves a specific claim (a 
 transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource
 that matches this claim's value. The comparison is carried out according to the resource and
 property set as the end-user's identity in the applicative configuration. See the
-[ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
+[Select User by Identity Query Handler Setting](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)
 
 The name of the claim that is retrieved for this purpose defaults to `sub` which is one of the
 standard
@@ -399,7 +399,7 @@ Under the new subsection, the following parameters are used to configure the aut
 | ClientId required                        | String  | Is the Client ID issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ClientSecret required                    | String  | Is the Client Secret issued during the registration of Identity Manager to the chosen OpenID Connect provider.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Authority required                       | String  | This URL identifies the OpenID Connect provider for Identity Manager according to the [OpenID Connect specifications](https://openid.net/connect/). It can be retrieved from the target OpenID Connect provider documentation. For example, [Microsoft's documentation ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)indicates the Microsoft Identity Platform OpenID Connect[ ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)authority. |
-| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [ Select User by Identity Query Handler Setting ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
+| NameClaimType optional                   | String  | Sets the type of the claim that will be retrieved by Identity Manager to identify the end-user. The retrieved claim will be compared against the resource and property set as the end-user's identity in the applicative configuration. See the [Select User by Identity Query Handler Setting](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md)topic for additional information.                                                                           |
 | Scopes optional                          | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes). By default, the requested scopes are: openid, profile and email.                                                                                                                                                                                                                                                                                                                                                      |
 | SaveTokens default value: false          | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/saas/integration-guide/network-configuration/how-tos/okta/index.md)topic for additional information.                                                                                                                                                                                                                                                                                                                                               |
 | MetadataAddress optional                 | String  | URL address of a copy of the metadata, used when the authority metadata cannot be accessed from the Identity Manager server, for example because of a firewall.                                                                                                                                                                                                                                                                                                                                                     |
@@ -774,7 +774,7 @@ The archive is set using the following attributes:
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged. It
 should always be encrypted using the Identity Manager-Protect-CertificatePassword tool. See the
-[ Usercube-Protect-CertificatePassword ](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
+[Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
 
 The archive is set using the following attributes:
@@ -849,7 +849,7 @@ script in the command line.
 
 When Internal Methods is enabled, the end-user is prompted via a form to input a login and a
 password. The login to be used is defined within the applicative configuration's Select User By
-Identity Query Handler Setting element. See the [ Various XML Settings ](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)
+Identity Query Handler Setting element. See the [Various XML Settings](/docs/identitymanager/saas/integration-guide/network-configuration/settings/index.md)
 topic for additional information.
 
 First, the AllowLocalLogin parameter needs to be set to true in the Authentication section.

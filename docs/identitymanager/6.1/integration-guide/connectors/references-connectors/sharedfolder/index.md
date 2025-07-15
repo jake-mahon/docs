@@ -71,10 +71,10 @@ The identifier of the connection and thus the name of the subsection must:
 >   "Connections": {
 >     ...
 >     "SharedFolderExport": {
->         "InputDirectories": [ "OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/" ],
+>         "InputDirectories": ["OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/"],
 >         "OnlyDirectoryScan": "true",
 >         "LevelOfScan": "12",
->         "ListOfSIDToAvoid": [ "S-1-3-2-4", "S-5-7-6-8" ],
+>         "ListOfSIDToAvoid": ["S-1-3-2-4", "S-5-7-6-8"],
 >         "Login": "account@example.com",
 >         "Password": "accountexamplepassword",
 >         "Domain": "Example",

@@ -18,7 +18,7 @@ must be created with the following names:
 
 The scaffolding generates the following scaffoldings:
 
-- [ View Access Control Rules ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the
+- [View Access Control Rules](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md): Generates the
   permissions to view an entity type's resources.
 
 ## Examples

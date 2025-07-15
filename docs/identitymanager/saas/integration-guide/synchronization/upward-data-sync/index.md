@@ -16,14 +16,14 @@ Performing a _Sync Up_ allows the user to:
   the assignment computation;
 - check that previously edited provisioning orders have been accurately executed;
 - ascertains differences between the real managed system state and the
-  [ Assignment Policy ](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) theoretical state.
+  [Assignment Policy](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md) theoretical state.
 
 ## Overview
 
 ### A scheduled sync up per managed system
 
 _Sync Up_ is performed regularly, at least every day, as a set of
-[ Tasks & Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/index.md).
+[Tasks & Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/index.md).
 
 A _Sync Up_ is planned for every managed system that interact with Identity Manager.
 
@@ -116,12 +116,12 @@ writing a custom _Export_ process.
 If the managed system has built-in export capabilities, Identity Manager can simply rely on exports
 scheduled by the source managed system. Regularly, the managed system generates reports, in whatever
 format. A custom task, such as a
-[ Invoke Expression Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md),
+[Invoke Expression Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md),
 can then be used to retrieve the generated exports, adapt them to the _CSV source files_ format
 expected by Identity Manager and copy them to the
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export
 directory. The whole can be scheduled and orchestrated by a
-[ Jobs ](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md).
+[Jobs](/docs/identitymanager/saas/integration-guide/tasks-jobs/jobs/index.md).
 
 **For example**, a common scenario is to configure an HR management system to perform daily extracts
 of its data to CSV files for the _Agent_ to find. This usually can be set up without any Identity
@@ -130,11 +130,11 @@ Manager's task, just by using the managed system and the organization's network 
 If the managed system does not provide built-in export features but provides an API or an exposed
 database, it's possible to write a custom _export_ process based on that API or direct requests to
 the managed system's database. This process can then be used as an _export task_ wrapped in a
-[ Invoke Expression Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
+[Invoke Expression Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
 or an
-[ Invoke Sql Command Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md).
+[Invoke Sql Command Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/invokesqlcommandtask/index.md).
 See the
-[ Invoke Expression Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
+[Invoke Expression Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokeexpressiontask/index.md)
 topic for additional information. Any Windows process that can be called from a PowerShell script
 and generate a CSV file can serve as an export process.
 
@@ -195,7 +195,7 @@ work together to find the best compromise between reliability and execution time
 The following example demonstrates the native Active Directory export process.
 
 Exporting data from an Active Directory can be achieved by using the
-[ Export Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) task within a
+[Export Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md) task within a
 Job.
 
 The Tasks requests from the source Active Directory all entries that match a configured filter. It
@@ -242,19 +242,11 @@ CN=SG_APP_AG002,DC=internal;CN=U51630,DC=internal
 
 The aim of the _Sync Up_ is to load managed systems' data into the resource repository. As such, it requires Identity Manager to translate data from the managed system format (or, more accurately, the _export task_'s output format) into the resource repository format, that is, the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md).
 
-The translation rules are described in the applicative configuration by [
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements.
+The translation rules are described in the applicative configuration by [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements.
 
 Entity Type Mapping elements map the resources _CSV source files_ columns to [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) properties. Each mapping also identifies one column as the _primary key_ for this Entity Type. The _primary key_ is used to uniquely identify a resource in the _Sync Up_ process. It's mandatory to be able to perform _incremental__Sync Up_, as it allows to identify a resource on which an _update_ or a _delete_ has to be performed.
 
-[
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
+[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) elements translate the _CSV source files_ into [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md). They describe rules identifying associations between resources loaded thanks to the [](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md).
 
 ## Prepare Synchro
 
@@ -268,22 +260,14 @@ It's performed on the _Agent_-side.
 
 The following actions are performed on the _CSV source files._
 
-1. Removing columns that are not used in [
-   Entity Type Mapping
-   ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or [
-   Entity Association Mapping
-   ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+1. Removing columns that are not used in [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 2. Entries that have a null primary key
 3. Removing duplicates
 4. Sorting entries according to the primary key
 
 The result of the _Prepare-Synchronization_ is stored in the [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md) export directory as three files:
 
-For every entity type of the relevant _Connector_ involved in an[
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or an[
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) ```<EntityAssociationMapping>``` , a ```.sorted.csv``` file is generated, containing the final, cleaned, sorted result.
+For every entity type of the relevant _Connector_ involved in an[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) or an[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) ```<EntityAssociationMapping>``` , a ```.sorted.csv``` file is generated, containing the final, cleaned, sorted result.
 
 Duplicates are kept in a separate ```.duplicates.csv``` file.
 
@@ -327,9 +311,7 @@ Of course, any notification of a _complete__Prepare-Synchronization_ would cance
 
 ### Prepare synchronization tasks
 
-- [
-  Prepare Synchronization Task
-  ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md) is the standard _prepare-synchronization_ task.
+- [Prepare Synchronization Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md) is the standard _prepare-synchronization_ task.
 - PrepareSynchronization Change Task is used to process data source files containing changes.
 - PrepareSynchronization ActiveDirectory Task is specialized for Active Directory. This task handles Active Directory _incremental_ prepare-synchronization by using Active Directory _cookies_.
 
@@ -345,11 +327,7 @@ _Synchronization_ is the last step. It loads data into the resource repository f
 
 ### Translating
 
-Before writing to the Identity Manager's database, the _Server_ uses [
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and[
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to translate _CSV source files_ into _Entity Model compliant_ resources and resolve association links.
+Before writing to the Identity Manager's database, the _Server_ uses [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md) to translate _CSV source files_ into _Entity Model compliant_ resources and resolve association links.
 
 ### Tables
 
@@ -364,9 +342,7 @@ The _Synchronization_ step involves four tables from Identity Manager's database
 
 _Complete__synchronization_ starts with a ```.sorted.csv``` file that contains cleaned data, as in whole data, not mere changes.
 
-_Complete synchronization_ replaces entirely the database resources. That means that all resource, for that [
-Connector
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), that are in the database but not in the _CSV source files_ will be deleted. That means no change made to the database from outside of the connectors or the UI are persistent.
+_Complete synchronization_ replaces entirely the database resources. That means that all resource, for that [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), that are in the database but not in the _CSV source files_ will be deleted. That means no change made to the database from outside of the connectors or the UI are persistent.
 
 _Complete synchronization_ does not blindly insert data into Identity Manager database. Its aim is to update Identity Manager database to match the ```.sorted``` files received.
 
@@ -396,9 +372,7 @@ Then, changes according to the _command_ column are applied to UR_Resources and 
 
 ### Synchronization tasks
 
-- [
-  Synchronize Task
-  ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) is the standard _synchronization_ task.
+- [Synchronize Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md) is the standard _synchronization_ task.
 - SynchronizeChanges Task is used to handle changes together with PrepareSynchronization Change Task.
 - SynchronizeActive Directory Task is specialized for Active Directory. To be used with PrepareSynchronizationActiveDirectory Task.
 
@@ -428,13 +402,7 @@ _Incremental_ mode also offers another optimization that will be described in th
 
 A introduced earlier, to mitigate the risk of data loss in the case of abnormal data source files, the _synchronization Job_ is locked if the number of changes to apply goes over a specific threshold.
 
-Thresholds can be configured by the user in the applicative configuration and be specific to a [
-Connector
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), an [
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and/or an[
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md). They are expressed as number of lines (ex: ```MaximumInsertedLines```) or as a rate (ex: ```MaxPercentageDeletedLines```).
+Thresholds can be configured by the user in the applicative configuration and be specific to a [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md), an [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and/or an[Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md). They are expressed as number of lines (ex: ```MaximumInsertedLines```) or as a rate (ex: ```MaxPercentageDeletedLines```).
 
 A synchronization task locked by a threshold can be unlocked by executing the Synchronization Validation task.
 
@@ -444,7 +412,5 @@ The task's argument ```-force``` can be used to ignore thresholds.
 
 ---
 
-Next, a word about the [
-Assignment Policy
-](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md).
+Next, a word about the [Assignment Policy](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md).
 ````

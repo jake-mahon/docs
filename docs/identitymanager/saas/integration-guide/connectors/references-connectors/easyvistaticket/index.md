@@ -10,7 +10,7 @@ This connector opens tickets in
 [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en) for manual
 provisioning.
 
-This page is about [ EasyVista Ticket ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/easyvistaticket/index.md).
+This page is about [EasyVista Ticket](/docs/identitymanager/saas/integration-guide/connectors/references-packages/easyvistaticket/index.md).
 
 ![Package: Ticket/EasyVista](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/easyvistaticket/packages_easyvistaticket_v603.webp)
 
@@ -34,7 +34,7 @@ Implementing this connector requires:
 ## Export
 
 This connector exports some of EasyVista entities, see the export capabilities of the
-[ EasyVista ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/easyvista/index.md) connector. Some entities cannot be
+[EasyVista](/docs/identitymanager/saas/integration-guide/connectors/references-packages/easyvista/index.md) connector. Some entities cannot be
 exported.
 
 ## Fulfill
@@ -49,7 +49,7 @@ resource accordingly. See the
 [Entitlement Assignment](/docs/identitymanager/saas/integration-guide/role-assignment/assignments-of-entitlements/index.md) topic to
 find out more on how to configure password reset settings.
 
-See the fulfill capabilities of the [ EasyVista ](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/easyvista/index.md) connector.
+See the fulfill capabilities of the [EasyVista](/docs/identitymanager/saas/integration-guide/connectors/references-connectors/easyvista/index.md) connector.
 
 > For example:
 >
@@ -76,9 +76,9 @@ topic to find out more on how to configure password reset settings.
 
 Data protection can be ensured through:
 
-- [ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 - a
   [CyberArk's AAM Credential Providers ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)

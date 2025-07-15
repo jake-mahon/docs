@@ -14,7 +14,7 @@ attributes.
 In Identity Manager's XML configuration, some attributes are defined with expressions. Expression
 attributes do not take a plain string value, but rather an expression that computes a value based on
 a given input. See the
-[ Entity Property Expression ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
+[Entity Property Expression](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md) and
 [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional
 information.
 

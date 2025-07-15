@@ -97,7 +97,7 @@ Usercube to access the SQL Server database:
 
     Granting `bulkadmin` role to the server's service account requires access to an account member
     of the `sysadmin` or `securityadmin` server-level role on the target SQL Server. See the
-    [ Install the Server ](/docs/identitymanager/6.1/installation-guide/production-ready/server/index.md)
+    [Install the Server](/docs/identitymanager/6.1/installation-guide/production-ready/server/index.md)
     topic for additional information.
 
 For more information about identity and permission management in SQL Server, see
@@ -122,5 +122,5 @@ must be set to 1 in the SQL database.
 ## What's Next?
 
 Let's move on to the requirements for Usercube's server. See the
-[ Server ](/docs/identitymanager/6.1/installation-guide/requirements/server-requirements/index.md)
+[Server](/docs/identitymanager/6.1/installation-guide/requirements/server-requirements/index.md)
 topic for additional information.

@@ -54,7 +54,7 @@ interface. It is therefore necessary to create the different tiles first. After 
 they must be imported into the display table with `<DisplayTableDesignElement>` set to `<list>`.
 Display tables with other values of `<DisplayTableDesignElement>` cannot display tiles.
 
-See the[ Tile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for
+See the[Tile](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) topic for
 additional information.
 
 _Remember,_ if the display table uses tiles, then you can't use bindings.

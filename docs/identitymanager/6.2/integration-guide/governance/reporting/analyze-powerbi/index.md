@@ -49,12 +49,12 @@ only current data, i.e. nothing from the history.
 Build the universe model by proceeding as follows:
 
 **Step 1 –** Define the appropriate universes using scaffoldings. See the
-[ Queries ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic
+[Queries](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md) topic
 for additional information.
 
 _Remember,_ in order to understand business intelligence, with its universes, entity instances and
 association instances. See the
-[ Universe ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic
+[Universe](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md) topic
 for additional information.  
 Also note that XML objects that automatically generate XML snippets that would be complex and/or
 tedious to write manually. See
@@ -128,5 +128,5 @@ particular actions on the universe model.
 A change in an association requires making the corresponding change in the universe model, as
 association instances (in the universe model) are based on entity associations in Identity Manager's
 data model. See the
-[ Entity Association ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[Entity Association](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 topic for additional information.

@@ -27,5 +27,5 @@ its end date equal to the records' latest end date.
 ## For Automatic Assignments
 
 The start and end dates of any automatic assignment are based on the dates from the
-[ Context Rule ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the
+[Context Rule](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)defined for the
 identities.

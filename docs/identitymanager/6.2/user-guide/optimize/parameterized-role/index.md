@@ -12,7 +12,7 @@ How to reduce the number of roles in the model by configuring roles with paramet
 
 The assignment of a role to a user gives them an entitlement, usually a group membership, thanks to
 a navigation rule. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
 additional information.
 
 ![Simple Role](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.webp)
@@ -46,7 +46,7 @@ types instead of entitlements.
 Configure a parametrized role by proceeding as follows:
 
 **Step 1 –** Create in XML a dimension corresponding to the parameter that will affect the role. See
-the [ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
+the [Dimension](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
 topic for additional information.
 
 For example, let's consider that we have many roles available on three different time slots: 8 hours
@@ -115,7 +115,7 @@ script in the command line.
 
 In order to verify the process, request manually the parametrized role for a test user. Some
 additional pop-ups are displayed to set a value for the role's parameter. See the
-[ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) topic for
+[Request Entitlement Assignment](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) topic for
 additional information.
 
 In our example:

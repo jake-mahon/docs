@@ -17,7 +17,7 @@ Element `<ConfigurationFile>` is the root element of each configuration file.
 ```
 
 Each configuration element matches to an entry in the database. Detailed description of the element
-can be found in the Data model. See the [ XML Configuration Schema ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md)
+can be found in the Data model. See the [XML Configuration Schema](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/index.md)
 topic for additional information.
 
 For example, the structure of the `<Connector>` element can be found in the

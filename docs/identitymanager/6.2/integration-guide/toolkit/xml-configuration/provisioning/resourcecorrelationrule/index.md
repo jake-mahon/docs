@@ -7,7 +7,7 @@ sidebar_position: 120
 # Resource Correlation Rule
 
 A correlation rule is used to correlate the resources, i.e. link resources to their owners. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 ## Examples

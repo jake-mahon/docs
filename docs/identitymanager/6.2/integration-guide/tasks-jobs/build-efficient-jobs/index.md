@@ -33,7 +33,7 @@ additional information.
 
 Most jobs are included in job scaffoldings, thus configured in the most optimal way. So start by
 using scaffoldings to build jobs. See the
-[ Jobs ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for
+[Jobs](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md) topic for
 additional information.
 
 For example, the creation from scratch of a job to perform a complete synchronization for a
@@ -102,7 +102,7 @@ Identity Manager's tasks are all linked together by a logical chain that implies
 supposed to be executed after some others.
 
 Make sure to understand the tasks' logical chain to launch only the relevant tasks. See the
-[ Troubleshoot Connector Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/troubleshoot-connector-jobs/index.md) topic for additional information.
+[Troubleshoot Connector Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/troubleshoot-connector-jobs/index.md) topic for additional information.
 
 For example, there is no use computing expressions or correlations if there was beforehand no change
 in the database. Thus, there should not be UpdateEntityPropertyExpressionsTask or

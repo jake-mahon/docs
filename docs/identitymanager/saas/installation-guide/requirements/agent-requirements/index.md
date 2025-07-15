@@ -58,7 +58,7 @@ or a custom
 ### Working directory permissions
 
 The agent's service account needs specific permissions presented in the
-[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic as:
+[Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) topic as:
 
 - _Read_, _Modify_, and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the `Runtime` directory, usually
@@ -68,7 +68,7 @@ The agent's service account needs specific permissions presented in the
 - _Read_, _Modify_, _List folder contents_, and _Write_ on the directory for data collection, whose
   path depends on the `Work` folder's path.
 
-See the [ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
+See the [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md) and
 [Application Settings](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 topics for additional information.
 
@@ -98,7 +98,7 @@ Before going further, make sure the integration team has provided:
 Managed systems credentials are stored in the `appsettings.agent` configuration set and can be
 protected. See the
 [appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-and [ Modules ](/docs/identitymanager/saas/integration-guide/modules/index.md) topics for additional information.
+and [Modules](/docs/identitymanager/saas/integration-guide/modules/index.md) topics for additional information.
 
 ### Database permissions
 
@@ -123,7 +123,7 @@ communication with the server.
 ## Emails
 
 The agent needs access to an SMTP server to
-[ Send Notifications ](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md).
+[Send Notifications](/docs/identitymanager/saas/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption Key Pair
 

@@ -20,9 +20,7 @@ Usercube-New-OpenIDSecret.exe'.
 ````
 
 
-The output shows the client secret and its hashed version. It must be entered in the [
-OpenIdClient
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
+The output shows the client secret and its hashed version. It must be entered in the [OpenIdClient](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md) configuration.
 
 ## Arguments
 

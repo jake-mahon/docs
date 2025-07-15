@@ -46,7 +46,7 @@ appsettings.agent.json
 
 ## Build the Connector
 
-See the [ Connect to a Managed System ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md)
+See the [Connect to a Managed System](/docs/identitymanager/6.2/user-guide/set-up/connect-system/index.md)
 topic for additional information on how to build a connector via the UI, with its connections,
 entity types and mappings.
 
@@ -299,7 +299,7 @@ Conf/MicrosoftEntraID/MicrosoftEntraID Nav.xml
 Displayed resources
 
 See the
-[ Organize Resources' Datasheets ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
+[Organize Resources' Datasheets](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md)
 topic for additional information on how to set the display properties via the UI.
 
 For example:
@@ -342,7 +342,7 @@ This is how the resources are displayed on the UI.
 Resources' display names
 
 See the
-[ Set Resources' Display Names ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
+[Set Resources' Display Names](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md)
 topic for additional information on how to set resources' display names via the UI.
 
 For example:

@@ -17,20 +17,20 @@ Gives access to shortcuts on the dashboard to access these pages.
 
 The scaffolding generates the following scaffoldings:
 
-- [ Connector Resource Type Access Control ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
+- [Connector Resource Type Access Control](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/connectors/connectorresourcetypeaccesscontrol/index.md):
   Gives the rights to create and update resource types, generate provisioning orders and fulfill
   from the connector screen.
-- [ Job View Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md): Scaffolding to generate
+- [Job View Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md): Scaffolding to generate
   a set of rights to view all JobInstances, TaskInstances and logs.
-- [ ResourceTypeMappingControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
+- [ResourceTypeMappingControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcetypemappingcontrolrules/index.md):
   Generate rights to launch agent fulfillment.
-- [ Role Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
+- [Role Administration Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/roleadministrationaccesscontrolrules/index.md):
   Generates the permissions to access the configuration pages and create, update, delete the
   elements of the role model.
-- [ RunJobRepairAdministrationAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md):
+- [RunJobRepairAdministrationAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md):
   Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or
   a synchronization for a given profile.
-- [ TaskAdministrationAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
+- [TaskAdministrationAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/taskadministrationaccesscontrolrules/index.md):
   Generates all rights to have the access to job administration page.
 
 ## Examples

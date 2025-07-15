@@ -11,7 +11,7 @@ resource through its several records.
 
 ## Declare a Workflow
 
-This [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of three
+This [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of three
 activities:
 
 1. `Action With Refine`: sends the resource's records update request with a possibility of
@@ -20,7 +20,7 @@ activities:
    another user.
 3. `Persist`: saves the collected data and triggers provisioning.
 
-See the [ Activity Templates ](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+See the [Activity Templates](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to update the records of an existing user:
 
@@ -134,7 +134,7 @@ copies part of the main record to pre-fill the fields of `RecordUniqueControl`.
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
-users. Read about [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
+users. Read about [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
 permissions.
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
@@ -148,7 +148,7 @@ for the whole update request from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+[Menu Item](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
 to make the workflow accessible in the UI.
 
 Updating an existing resource, this workflow manages one given resource at a time. Hence an
@@ -174,7 +174,7 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 ## Homonym Detection (Optional)
 
 To perform a homonymy check on a workflow and thus prevent user duplicates,see the
-[ Configure a Homonym Detection ](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
+[Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
 
 When using records, the homonym detection displays the list of records and not just the list of
 users.

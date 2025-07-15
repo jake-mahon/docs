@@ -117,7 +117,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     ...
 >     "SqlServerEntitlementsExport": {
 >       "ConnectionString": "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;",
->       "Databases": [ "UsercubeDemo", "AdventureWorks2017" ]
+>       "Databases": ["UsercubeDemo", "AdventureWorks2017"]
 >     }
 >   }
 > }

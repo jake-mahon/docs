@@ -54,7 +54,7 @@ the future command lines.
 **Step 7 –** Execute the Runtime/identitymanager.sql file in the database.
 
 **Step 8 –** Open a command prompt and deploy the configuration. See
-the[ Usercube-Deploy-Configuration ](/docs/identitymanager/6.1/integration-guide/executables/references/deploy-configuration/index.md)topic
+the[Usercube-Deploy-Configuration](/docs/identitymanager/6.1/integration-guide/executables/references/deploy-configuration/index.md)topic
 for additional information.
 
 In our example, the command would be, in the Runtime folder:
@@ -67,7 +67,7 @@ script in the command line.
 ```
 
 **Step 9 –** Launch the server. See
-the[ Usercube-Server ](/docs/identitymanager/6.1/integration-guide/executables/references/server/index.md)topic
+the[Usercube-Server](/docs/identitymanager/6.1/integration-guide/executables/references/server/index.md)topic
 for additional information.
 
 In our example, the command would be, still in the Runtime folder:

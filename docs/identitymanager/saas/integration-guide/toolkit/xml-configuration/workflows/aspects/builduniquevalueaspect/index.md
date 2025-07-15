@@ -89,7 +89,7 @@ The unicity check rules linked to a same aspect are combined with the AND operat
 the aspect's iteration goes up when at least one of the rules detects non-unicity.
 
 When creating or updating a unicity check rule, launch the
-[ Compute Correlation Keys Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+[Compute Correlation Keys Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
 before applying the role model and launching workflows.
 
 **For information:** Identity Manager needs to store the correlation keys linked to the expressions

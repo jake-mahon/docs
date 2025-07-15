@@ -11,7 +11,7 @@ uses aspects to perform some specific actions at given workflow steps.
 
 For example, an aspect can assert a given user's input is valid.
 
-- [ Add Change Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/index.md)
+- [Add Change Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/addchangeaspect/index.md)
 
     Modifies a given property value.
 
@@ -19,11 +19,11 @@ For example, an aspect can assert a given user's input is valid.
 
     Checks whether the value of a given property satisfies a given condition.
 
-- [ Assert Value Required Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/assertvaluerequiredaspect/index.md)
+- [Assert Value Required Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/assertvaluerequiredaspect/index.md)
 
     Checks whether a given property has a non-null value.
 
-- [ Build Unique Value Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
+- [Build Unique Value Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
 
     Computes a unique value for a given property.
 
@@ -31,10 +31,10 @@ For example, an aspect can assert a given user's input is valid.
 
     Executes a customized script.
 
-- [ Invoke Workflow Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/invokeworkflowaspect/index.md)
+- [Invoke Workflow Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/invokeworkflowaspect/index.md)
 
     Launches a workflow.
 
-- [ Notification Aspect ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/notificationaspect/index.md)
+- [Notification Aspect](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/aspects/notificationaspect/index.md)
 
     Sends a notification email to one or several users.

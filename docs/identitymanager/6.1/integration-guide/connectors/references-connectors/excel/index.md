@@ -64,19 +64,17 @@ The identifier of the connection and thus the name of the subsection must:
 >       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).xlsx",
 >       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).xlsx",
 >       "IsFileNameRegex": "true",
->       "SheetOptions": [
->         {
+>       "SheetOptions": [>         {
 >           "SheetIgnored": "false",
 >           "NumberOfLinesToSkip": 1
 >         },
 >         {
 >           "SheetIgnored": "true"
 >         }
->       ],
->       "ValuesToTrim": [
->         "$",
+>],
+>       "ValuesToTrim": [>         "$",
 >         "%"
->       ]
+>]
 >     }
 >   }
 > }

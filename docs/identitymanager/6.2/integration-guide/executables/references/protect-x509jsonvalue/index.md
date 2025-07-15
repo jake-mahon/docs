@@ -8,7 +8,7 @@ sidebar_position: 320
 
 This tool is used to encrypt sensitive connection data, for example data from the
 `appsettings.agent.json` file, with
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
+[RSA Encryption](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
 encryption is based on the information given in your `appsettings.json` file about either a PFX file
 or the location of the encryption certificate in the Microsoft store. See the
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)

@@ -36,7 +36,7 @@ application users, entitlements and data model.
 | ------------------------- | ------------------- |
 | Categorization (required) | Resource type rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create a Resource Type Rule
 
@@ -122,5 +122,5 @@ Then, you can:
 
     If the type rule uses a single role as a criterion, and the user has said role, then both the
     resource type and the role will be displayed in the user's permissions, but only if the role is
-    related to a [ Compute a Navigation Property ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
+    related to a [Compute a Navigation Property](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
     Otherwise, only the resource type will be visible.
