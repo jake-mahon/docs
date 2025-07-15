@@ -111,7 +111,7 @@ topic for target environment requirements.
 Dell PowerStore®
 
 See the
-[Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_2.md)
+[Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/powerstore-aac/powerstore-activity.md)
 topic for target environment requirements.
 
 Dell Unity
