@@ -6,8 +6,11 @@ sidebar_position: 50
 
 # Reporting Module Server Requirements
 
-**CAUTION:** Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager
+:::warning
+Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager
 Reporting Module.
+:::
+
 
 The Windows server can be physical or virtual. The following Windows server operating systems are
 supported:

@@ -22,13 +22,19 @@ check that can fail or succeed.
   of prior to the next attempt.
 - Success – Click **Next** to begin hardening the Agent.
 
-**NOTE:** The wizard does not block access to the Administration Console and can be minimized while
+:::note
+The wizard does not block access to the Administration Console and can be minimized while
 actions are in progress. If this wizard is hidden by clicking outside of the dialog box, a flashing
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
+:::
 
-**NOTE:** Closing the Administration Console while this action is in process causes problems with
+
+:::note
+Closing the Administration Console while this action is in process causes problems with
 data collection.
+:::
+
 
 **Step 4 –** The Harden Agent window displays the task in progress and then its status as either:
 

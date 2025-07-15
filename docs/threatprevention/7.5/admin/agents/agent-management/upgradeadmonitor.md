@@ -11,9 +11,12 @@ DLL), in LSASS without having to upgrade the entire Agent. To facilitate this, t
 [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md) displays the currently installed versions of the Agent and the
 ADMonitor DLL.
 
-**NOTE:** The Agent and the ADMonitor DLL should have the same major/minor version, such as 7.5.x.x,
+:::note
+The Agent and the ADMonitor DLL should have the same major/minor version, such as 7.5.x.x,
 where x.x for the DLL can be equal or higher than that of the Agent. Example: Agent 7.5.0.123 and
 DLL 7.5.0.777
+:::
+
 
 In previous Threat Prevention versions, you had to uninstall the Agent and then reinstall it just to
 update the ADMonitor DLL. With Threat Prevention 7.5, the _Upgrade ADMonitor_ feature enables you to

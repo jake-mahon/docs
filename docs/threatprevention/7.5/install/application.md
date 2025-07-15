@@ -11,9 +11,12 @@ Follow the steps to install Threat Prevention.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.5.x.xxx.msi). The Netwrix Threat Prevention Server Setup wizard opens.
 
-**NOTE:** Run the msi via the command prompt with elevated privileges (domain admin rights) on a
+:::note
+Run the msi via the command prompt with elevated privileges (domain admin rights) on a
 domain-joined machine. Else the installer runs and completes without errors, though no components
 are installed.
+:::
+
 
 ![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/threatprevention/7.5/install/welcome.webp)
 
@@ -42,8 +45,11 @@ Agreement** checkbox and click **Next**.
 **Step 4 –** The Custom Setup page displays the Threat Prevention components that are available to
 install.
 
-**NOTE:** EPE Rest Site is available if Internet Information Services (IIS) is installed on the
+:::note
+EPE Rest Site is available if Internet Information Services (IIS) is installed on the
 machine.
+:::
+
 
 By default, Enterprise Manager and Administration Console are selected for installation. However,
 you can choose to select or deselect a component for installation.
@@ -85,9 +91,12 @@ to communicate with the other Threat Prevention components.
 - Enterprise Manager port for Agent Communications – 3741
 - Enterprise Manager port for Console and PowerShell API Communications – 3740
 
-**NOTE:** As a requirement for using custom managed certificates, you must provide the Enterprise
+:::note
+As a requirement for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing the
 following:
+:::
+
 
 - Threat Prevention server
 - Remote instance of the Administration Console
@@ -120,8 +129,11 @@ connection.
   - For SQL Server authentication, provide SQL credentials in the **Login ID** and **Password**
     boxes.
 
-  **NOTE:** The account used for authentication, either a Windows or SQL account, requires a
+  :::note
+  The account used for authentication, either a Windows or SQL account, requires a
   minimum of the following permissions on the SQL Server:
+  :::
+
 
   - Create schema
   - Read
@@ -132,9 +144,12 @@ connection.
   - If using Windows authentication, continue with the next step.
   - If using SQL Server authentication, skip the next step.
 
-    **NOTE:** In case of SQL Server authentication, the credentials are tested on clicking
+    :::note
+    In case of SQL Server authentication, the credentials are tested on clicking
     **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
     window displays failure details.
+    :::
+
 
 ![Threat Prevention Server Setup wizard – Logon page](/img/product_docs/threatprevention/7.5/install/logon.webp)
 
@@ -144,14 +159,20 @@ connection.
   Manager service will impersonate when connecting to the database. These credentials must have
   elevated privileges with rights to create and modify the database.
 
-  **NOTE:** Windows authentication uses an Active Directory account. Local Windows accounts are
+  :::note
+  Windows authentication uses an Active Directory account. Local Windows accounts are
   not supported.
+  :::
+
 
 - Click **Next**.
 
-  **NOTE:** For Windows authentication, the credentials are tested on clicking **Next**. If the
+  :::note
+  For Windows authentication, the credentials are tested on clicking **Next**. If the
   credential authentication fails, the setup does not proceed and a pop-up window displays failure
   details.
+  :::
+
 
 ![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/threatprevention/7.5/install/readytoinstall.webp)
 

@@ -68,9 +68,12 @@ menu. Then select **Integrations** to open the Integrations interface.
 - URL – Enter the URL to the application console to be included in the email as a link. By default,
   this is set to `http://localhost:8080/`.
 
-**_RECOMMENDED:_** When first configuring email notification, enter your email in the Send Alerts To
+:::info
+When first configuring email notification, enter your email in the Send Alerts To
 field for the connection test completed in Step 4. Once the test is successful, replace your email
 with the desired recipients.
+:::
+
 
 **Step 5 –** Click **Send Test Email** to send a test notification to the configured email
 address(es). Validate the email was sent by checking that the recipient received the email.

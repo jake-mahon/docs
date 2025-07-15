@@ -168,9 +168,12 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Rule Preview Filter
 

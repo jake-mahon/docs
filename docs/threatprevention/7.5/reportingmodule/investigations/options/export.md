@@ -24,11 +24,17 @@ drop-down menu:
 - Export as JSON – Generates and downloads the report as a JSON file to your Downloads folder
 - Send as Email – Opens the Send as Email window to send the report to recipients
 
-  **NOTE:** This option requires an email server to be configured.
+  :::note
+  This option requires an email server to be configured.
+  :::
+
 
 - Schedule Export – Opens the Schedule export window to save a copy of the report to a shared folder
 
-  **NOTE:** This option requires a shared folder to be configured.
+  :::note
+  This option requires a shared folder to be configured.
+  :::
+
 
 Reports will be downloaded to the Downloads folder on your local machine, according to your browser
 settings. You can configure a folder on the application server to place copies of all exported
@@ -39,9 +45,12 @@ additional information.
 
 ## Send as Email
 
-**NOTE:** This option requires an email server to be configured. If this requirement is not met, a
+:::note
+This option requires an email server to be configured. If this requirement is not met, a
 message will appear in the window. See the[Email Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/email.md)
 topic for additional information.
+:::
+
 
 You can send the report data of an investigation as an attachment to an email. The attachment can be
 any of the file formats available for download. Follow the steps to send a report as an email
@@ -73,10 +82,13 @@ The recipients will receive the report as an attachment to an email.
 
 ## Scheduled Export
 
-**NOTE:** This option requires a shared folder to be configured.If this requirement is not met, a
+:::note
+This option requires a shared folder to be configured.If this requirement is not met, a
 message will appear in the window. See the
 [Folder Settings Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/foldersettings.md) section for additional
 information.
+:::
+
 
 You can schedule to save the report data of an investigation to a shared folder. The file format can
 be any of the formats available for download. Follow the steps to schedule a report export.

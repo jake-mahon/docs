@@ -64,14 +64,20 @@ The following permission is required to install the Agent:
 
 - Membership in the local Administrators group
 
-  **NOTE:** Membership in the Domain Administrators group for a domain controller.
+  :::note
+  Membership in the Domain Administrators group for a domain controller.
+  :::
+
 
 ## Agent Compatibility with Non-Netwrix Security Products
 
 The following products conflict with the agent:
 
-**CAUTION:** Do not install these products on a server where an agent is deployed. Do NOT install an
+:::warning
+Do not install these products on a server where an agent is deployed. Do NOT install an
 agent on a server where these products are installed.
+:::
+
 
 - Quest Change Auditor (aka Dell ChangeAuditor)
 - PowerBroker Auditor for Active Directory by BeyondTrust
@@ -84,5 +90,8 @@ thereby prevent monitoring Active Directory events:
 
   - Specifically the “Avast self-defense module”
 
-**NOTE:** These products and other similar products can be configured via a whitelist to allow the
+:::note
+These products and other similar products can be configured via a whitelist to allow the
 agent to operate.
+
+:::

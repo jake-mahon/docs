@@ -48,18 +48,27 @@ enable policies to begin monitoring your organization’s environment. Do either
 On enabling and saving a policy configuration, the Agent is automatically sent the necessary
 information to begin monitoring.
 
-**CAUTION:** Use extreme caution when enabling lockdown policies to ensure that the required events
+:::warning
+Use extreme caution when enabling lockdown policies to ensure that the required events
 do not unintentionally get blocked.
+:::
 
-**_RECOMMENDED:_** Start with monitoring the environment before enabling lockdown policies. For
+
+:::info
+Start with monitoring the environment before enabling lockdown policies. For
 example, first configure a monitoring policy for the events to be blocked. Watch the captured events
 to ensure the filters are returning the expected events. Once assured, create the lockdown policy to
 block those events.
+:::
 
-**_RECOMMENDED:_** After configuring a new policy, navigate to either the
+
+:::info
+After configuring a new policy, navigate to either the
 [Recent Events Tab](/docs/threatprevention/7.5/admin/policies/configuration/recentevents/overview.md) in the policy's configuration or to the
 [Investigate Interface](/docs/threatprevention/7.5/admin/investigate/overview.md) to confirm that the intended events being
 monitored are intended. Refresh the data to view the recent events.
+:::
+
 
 ### View Event Data
 

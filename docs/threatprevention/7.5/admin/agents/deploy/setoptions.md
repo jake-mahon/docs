@@ -37,9 +37,12 @@ The Set Options window provides the following options:
     Enterprise Manager to the Agent(s) as long as the Agent service is enabled.
   - Start Agent Service – Starts the Threat Prevention Agent service on host after installation
 
-    **NOTE:** If the Agent Service is not started at the time of deployment, the Agent requires
+    :::note
+    If the Agent Service is not started at the time of deployment, the Agent requires
     a manual start or will be started automatically after a server reboot. Until the Agent is
     started, no activity is monitored or blocked.
+    :::
+
 
 - Create Windows Firewall Rules – Creates firewall rules on the selected computers for Agent
   communication
@@ -87,9 +90,12 @@ option on the [Right-Click Menu](/docs/threatprevention/7.5/admin/agents/overvie
 This window displays the default selections in the Modules to Set and Additional Options areas; they
 do not represent the actual current state of the Agent.
 
-**NOTE:** To view the current state and configured options for an Agent, hover over the Version
+:::note
+To view the current state and configured options for an Agent, hover over the Version
 String column on the [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md) data grid for the tool tip. The AD Agent
 column indicates the Agent’s mode.
+:::
+
 
 This Set Options window is the same as discussed above, with the exception of the following:
 
@@ -102,6 +108,9 @@ This Set Options window is the same as discussed above, with the exception of th
 
   This setting has no impact on the Use These Credentials and Enterprise Manager areas.
 
-**CAUTION:** Make sure you select the desired settings for the Agent on this window, such as the
+:::warning
+Make sure you select the desired settings for the Agent on this window, such as the
 Enable DNS Host Name Resolution and Safe Mode options, even when they are currently enabled for the
 Agent. Leaving them unchecked will disable those settings when the wizard completes.
+
+:::

@@ -99,7 +99,10 @@ This page provides the following information:
 
 On the tag details window, click the Type drop-down menu to apply a filter.
 
-**_RECOMMENDED:_** Apply the desired Type filters when searching for objects to tag.
+:::info
+Apply the desired Type filters when searching for objects to tag.
+:::
+
 
 ![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/typefilters.webp)
 

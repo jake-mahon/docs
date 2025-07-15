@@ -99,8 +99,11 @@ window. The location of the default templates is:
 **Step 4 –** The Import window auto-fills with the import file details. Do not change the defaults
 settings. Click **Import**.
 
-**NOTE:** The import process can take a few minutes to complete as there are several hundred
+:::note
+The import process can take a few minutes to complete as there are several hundred
 templates to import and configure.
+:::
+
 
 **Step 5 –** When the operation is complete, click **OK**.
 

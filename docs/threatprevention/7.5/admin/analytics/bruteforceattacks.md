@@ -9,8 +9,11 @@ sidebar_position: 40
 The **Brute Force Attacks** analytic type identifies failed attempts from a single host to access a
 given host.
 
-**_RECOMMENDED:_** Configure a subset of servers to be monitored in order to avoid the excessive
+:::info
+Configure a subset of servers to be monitored in order to avoid the excessive
 volume of event activity from monitoring all servers.
+:::
+
 
 | Brute Force Attacks  |                  |
 | -------------------- | ---------------------- |
@@ -80,18 +83,24 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - Scope the servers to be included in or excluded from monitoring on the IP Addresses (from)
     filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
   - *Alternatively:* Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
   - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD
     Perpetrator filter.

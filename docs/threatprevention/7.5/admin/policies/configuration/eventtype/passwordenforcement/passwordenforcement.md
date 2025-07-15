@@ -24,12 +24,18 @@ The event filters for the Password Enforcement event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** Lockdown/blocking policies with blank filters result in everything being locked down or
+:::warning
+Lockdown/blocking policies with blank filters result in everything being locked down or
 blocked.
+:::
 
-**NOTE:** Blocking mode requires the Password Enforcement license that comes with the for Enterprise
+
+:::note
+Blocking mode requires the Password Enforcement license that comes with the for Enterprise
 Password Enforcer solution. See the [License Manager Window](/docs/threatprevention/7.5/admin/navigation/licensemanager.md)
 topic for additional information.
+:::
+
 
 The Password Enforcement event type locks down or monitors password creation/modification so that
 known, compromised passwords are not accepted.
@@ -92,9 +98,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Account Filter
 
@@ -108,8 +117,11 @@ Select the **Block** or **Allow** option button and then edit the list.
 - Allow – The list will not have new passwords validated by this policy
 - Block – The list will have new passwords validated by this policy
 
-**CAUTION:** Selecting Block with no accounts, groups, or containers specified applies the filter
+:::warning
+Selecting Block with no accounts, groups, or containers specified applies the filter
 rule to all accounts, groups, and organizational units in the environment.
+:::
+
 
 Use the buttons in the Accounts, Account Collections, Containers, and Groups areas to edit the
 lists. The following windows are displayed when you click the Add (+) button:
@@ -127,9 +139,12 @@ lists. The following windows are displayed when you click the Add (+) button:
 
 The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 
@@ -158,9 +173,12 @@ from being locked down.
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the Password Enforcement Event Type, selecting **Allow** means that this policy will
+:::note
+For the Password Enforcement Event Type, selecting **Allow** means that this policy will
 not validate the new passwords for the accounts listed here. Selecting **Block** means that this
 policy will validate the new passwords for the accounts listed here.
+:::
+
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
@@ -171,9 +189,12 @@ Use the buttons in the Perpetrators and Collections of Perpetrators areas to edi
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -201,9 +222,12 @@ Use the Password Rules filter to set the scope of the policy to check user enter
 against custom rules. These rules apply to the account, configured in the AD Account filter, whose
 password is being changed.
 
-**NOTE:** These password rules are only applied to passwords that pass the Windows password
+:::note
+These password rules are only applied to passwords that pass the Windows password
 policies. Password values that fail to meet the Windows complexity checks are rejected by Windows
 before Threat Prevention Enterprise Password Enforcer can evaluate them.
+:::
+
 
 ![Policy window - Password Rules filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/passwordrules.webp)
 
@@ -220,11 +244,14 @@ You can enforce all or specific rules that you enable on this filter.
 - If you enable both the Paraphrase setting and the Optional Rules setting, then the Paraphrase
   setting takes precedence.
 
-**NOTE:** If you want to enforce some rules and set others as optional, then you must add the
+:::note
+If you want to enforce some rules and set others as optional, then you must add the
 "Password Enforcement" event type twice to the same policy and apply the rules accordingly.  
 **Example**  
 You want to apply the "Username in Password" and "Pwned DB" rules always but you also want 4 of 8 of
 the 13 possible "Character Rules" enforced. Here is how you handle this.
+:::
+
 
 - Add the "Password Enforcement" event type to the policy. On the Password Rule filter, enable the
   "Pwned DB" and "Username in Password" settings, and ensure that "Optional Rules" is set to "All
@@ -243,8 +270,11 @@ any of the checked criteria of the Password Rules filter.
 - Monitoring – Only reports the password that failed the criteria check
 - Blocking – Blocks the failed password from being used
 
-**_RECOMMENDED:_** Use the Test Password Rules button to open the
+:::info
+Use the Test Password Rules button to open the
 [Test Passwords Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/testpasswords.md), where you can test your set of rules.
+:::
+
 
 Passwords Section
 
@@ -257,11 +287,14 @@ password in the Password Dictionary list. See the
 [Substitutions Editor Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#substitutions-editor-window) topics
 for additional information.
 
-_Remember,_ the
+:::tip
+Remember, the
 [Password Dictionary Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#password-dictionary-window) is
 always used to validate the password, so there is no 'check box' for it on the Password Rules
 filter. Hence, matched passwords will always be blocked. You must have at least one line in the
 dictionary but you can remove all others if you do not want the default entries to be used.
+:::
+
 
 - Capture Rejected Password – Collects the password value which triggered the event. You can view
   the rejected password values in the Attributes section of the data grids on the Recent Events tab
@@ -275,9 +308,12 @@ I Been Pwned? database, which contains compromised password hashes from world-wi
 - Block if password hash in Pwned DB – If the pending password matches a password hash from the
   Pwned database, the user is blocked from using the password
 
-_Remember,_ the Pwned database must be initially deployed to the Enterprise Manager. Once it is
+:::tip
+Remember, the Pwned database must be initially deployed to the Enterprise Manager. Once it is
 stored, Agent(s) can be configured to obtain and use a local copy of this database. See the
 [EPE Settings Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md) topic for additional information.
+:::
+
 
 Paraphrase section
 
@@ -289,9 +325,12 @@ is a number you can specify). Any other rules enabled on the Password Rules filt
   enabled on this filter. By default, this threshold value is set to 32 characters. If the password
   length is less than or equal to the threshold value, then all other rules will also apply.
 
-_Remember,_ when evaluating a candidate password, the Paraphrase setting is checked first (if
+:::tip
+Remember, when evaluating a candidate password, the Paraphrase setting is checked first (if
 enabled). All other rules on this filter are only evaluated if the password length is lesser than or
 equal to the minimum number of required characters.
+:::
+
 
 Character Substitution Section
 
@@ -304,7 +343,10 @@ scoping can be enabled:
   [Words List Dictionary Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#words-list-dictionary-window)
   topic for additional information.
 
-  _Remember,_ the substitutions themselves are kept in the Character Substitution list.
+  :::tip
+    Remember, the substitutions themselves are kept in the Character Substitution list.
+  :::
+
 
   - Case sensitive – Differentiates between lowercase and capital text
   - Reversed text also – Password patterns typed in backwards is blocked
@@ -382,10 +424,13 @@ Defined Text Section
 These settings block passwords that contain the string(s) specified in the text box. For multiple
 strings, add one entry per line.
 
-**NOTE:** This filter blocks passwords that contain the text box content anywhere within the
+:::note
+This filter blocks passwords that contain the text box content anywhere within the
 password length. The list in the
 [Password Dictionary Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#password-dictionary-window) blocks
 the entire password as entered or uploaded.
+:::
+
 
 Additional scoping can be enabled:
 

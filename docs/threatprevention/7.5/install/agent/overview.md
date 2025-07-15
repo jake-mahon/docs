@@ -105,9 +105,12 @@ Supported Platforms for Microsoft Exchange
 - Exchange Server 2013
 - Exchange Server 2010
 
-**NOTE:** The Exchange Server Monitoring module is not started on an Agent if newer Exchange Server
+:::note
+The Exchange Server Monitoring module is not started on an Agent if newer Exchange Server
 updates are detected at run time, and a corresponding message displays in the Agent log file and the
 Agents interface.
+:::
+
 
 ## Windows File Servers
 

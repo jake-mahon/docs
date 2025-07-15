@@ -27,8 +27,11 @@ target file system. The policy monitors the path/collection from the Agent used 
 Agent is indicated in the parenthesis after the path/collection. The path/collection can be
 monitored by other Agents that you can select on the Additional Agents filter.
 
-**NOTE:** Any files or folders to be excluded need to be a subset of a folder identified in the
+:::note
+Any files or folders to be excluded need to be a subset of a folder identified in the
 Include Paths section.
+:::
+
 
 If no path is provided, an error message is displayed when the policy is enabled: The policy must
 have at least one path defined.
@@ -118,10 +121,13 @@ The **Wildcards** boxes are to scope the policy using an asterisk (\*) or questi
 wildcard. Files that match the wildcard in the include box are monitored. Files that match the
 wildcard in the exclude box are ignored.
 
-_Remember,_ adding an include filter scopes the policy to monitor only matching files. Adding an
+:::tip
+Remember, adding an include filter scopes the policy to monitor only matching files. Adding an
 exclude filter scopes the policy to monitor all files that do not match. If both include and exclude
 filters are applied to a single policy, the exclude filter takes precedence. If the boxes are left
 blank, all files are monitored according to all the policy filter selections.
+:::
+
 
 Enable Automatic Lockdown option
 
@@ -160,9 +166,12 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Folder
 
@@ -187,7 +196,10 @@ Agents/Domains list on the right displays Agents and domains included in the pol
   - The single arrow buttons will move the selected item to the other list.
   - The double arrows will move all items to the other list.
 
-**NOTE:** There is no impact if a selected path does not exist on the server where an Agent resides.
+:::note
+There is no impact if a selected path does not exist on the server where an Agent resides.
+:::
+
 
 When a domain is added to the Selected Agents\Domains list, all Agents deployed in that domain are
 included in the policy. If a domain is specified, then any Agent later installed in that domain is
@@ -211,9 +223,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 

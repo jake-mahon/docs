@@ -45,8 +45,11 @@ Groups Folder
 
 Lockdown Folder
 
-**CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
+:::warning
+Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
 being locked down or blocked.
+:::
+
 
 | Template              | Description       | TAGS |
 | --------------------- | ------------------ | ---- |

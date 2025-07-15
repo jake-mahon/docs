@@ -16,8 +16,11 @@ If you choose to archive data instead of deleting it, then you have to specify a
 archiving. For this database, you can also define settings to delete data aged beyond a specified
 threshold.
 
-_Remember,_ See the Database Maintenance Permission details in the
+:::tip
+Remember, See the Database Maintenance Permission details in the
 [Database Maintenance Feature Requirements](/docs/threatprevention/7.5/requirements/sqlserver/dbmaintenance.md) topic.
+:::
+
 
 See the [Stored Procedures](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/storedprocedures.md) topic for additional information on stored
 procedures Threat Prevention uses on its SQL Server databases.
@@ -75,11 +78,14 @@ the [Archive Data](/docs/threatprevention/7.5/admin/configuration/databasemainte
 
 **Step 5 –** Click **Save** to save the changes.
 
-**_RECOMMENDED:_** The SQL Server databases should be configured to use 'Simple Recovery Mode' in
+:::info
+The SQL Server databases should be configured to use 'Simple Recovery Mode' in
 the [SQL Server Requirements](/docs/threatprevention/7.5/requirements/sqlserver/sqlserver.md). This configuration has a direct
 impact on the size of the transaction log during database maintenance delete tasks. If Simple
 Recovery Mode is not configured on the databases, the transaction log may get quite large during
 delete tasks.
+:::
+
 
 ## Event Type Tab
 

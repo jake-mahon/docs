@@ -56,9 +56,12 @@ From a Folder node, the right-click menu contains these commands.
 | Remove                  | Deletes the selected folder                                                                           |
 | Paste                   | Pastes a copied policy/template into the selected folder                                              |
 
-**NOTE:** If the logged in user does not have the **Manage Policies** permissions for a protected
+:::note
+If the logged in user does not have the **Manage Policies** permissions for a protected
 policy, these options are grayed-out. See the [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md) topic
 for additional information on protection.
+:::
+
 
 `<Policy Name>` and `<Template Name>` Nodes
 
@@ -75,9 +78,12 @@ From the node for a specific policy or template, the right-click menu contains t
 | Copy                | Copies the selected policy/template                                                                                        |
 | Cut                 | Copies the selected policy/template. Then it deletes the selected policy/template when the copy is pasted to a new folder. |
 
-**NOTE:** If the logged in user does not have the Manage Policies permissions for a protected
+:::note
+If the logged in user does not have the Manage Policies permissions for a protected
 policy, these options are grayed-out. See the [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md) topic
 for additional information on protection.
+:::
+
 
 Tags Node
 

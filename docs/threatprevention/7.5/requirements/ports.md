@@ -15,9 +15,12 @@ network requirements. If choosing the Create Windows Firewall Rules option eithe
 necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually
 set these.
 
-**NOTE:** SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the
+:::note
+SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md) topic for additional
 information.
+:::
+
 
 ## Enterprise Manager Firewall Rules
 
@@ -41,8 +44,11 @@ The following firewall settings are required for communication with the Agent:
 | Outbound Netwrix Threat Prevention Windows Agent to Enterprise Manager | gRPC / TCP | 3741         | Outbound Enterprise Manager Communication |
 | Outbound Netwrix Threat Prevention Windows Agent to Threat Manager     | TCP        | 10000, 10001 | Outbound Threat Manager Communication     |
 
-**NOTE:** For NAS device file activity monitoring, additional ports are required. See the Ports for
+:::note
+For NAS device file activity monitoring, additional ports are required. See the Ports for
 NAS Device Activity Monitoring topic for additional information.
+:::
+
 
 ## Admin Console Firewall Rules
 
@@ -65,8 +71,11 @@ Console:
 
 The following firewall settings are required for communication with the SQL Server:
 
-**NOTE:** This port requirement is specifically needed when the SQL Server is on a separate box from
+:::note
+This port requirement is specifically needed when the SQL Server is on a separate box from
 the Enterprise Manager and/or the Administration Console.
+:::
+
 
 | Communication Direction          | Protocol         | Ports | Description                              |
 | -------------------------------- | ---------------- | ----- | ---------------------------------------- |
@@ -87,10 +96,13 @@ console:
 | ----------------------- | -------- | ----- | ---------------------------------------- |
 | Bidirectional           | TCP      | 8080  | Remote access to the application console |
 
-**NOTE:** Threat Manager requires the default dynamic port range specified by Microsoft (49152
+:::note
+Threat Manager requires the default dynamic port range specified by Microsoft (49152
 through 65535) for Windows Server client/server operations. If a firewall or other appliance is
 blocking these ports, this server will no longer properly respond to client requests and no longer
 support standard IP Stack operations that are required for the operation of this product.
+:::
+
 
 Active Directory Domain Controllers Firewall Rules
 
@@ -189,9 +201,12 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
+
 
 **NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules**
 
@@ -207,9 +222,12 @@ Agent server and the target NetApp Data ONTAP Cluster-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
+
 
 **Panzura Devices Additional Firewall Rules**
 

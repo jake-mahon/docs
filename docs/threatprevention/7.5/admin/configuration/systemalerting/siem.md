@@ -89,7 +89,10 @@ Alerting window opens.
 **Step 2 –** In the SIEM Profiles area, click the Add (+) button to create a new SIEM profile. To
 rename the default text, select the name string and enter the new profile name.
 
-**_RECOMMENDED:_** For each profile, use a unique name for easy identification.
+:::info
+For each profile, use a unique name for easy identification.
+:::
+
 
 **Step 3 –** Use the Protocol drop-down menu to select either protocol:
 

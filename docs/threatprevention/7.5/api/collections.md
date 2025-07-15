@@ -80,10 +80,16 @@ against the GUIDs in the XML file. One of the following actions occur:
   XML parameters. It is created with a Threat Prevention system generated GUID and Collection ID;
   the system discards the GUID and Collection ID from the source XML.
 
-**NOTE:** If an existing collection and a new collection in the pending XML import file share the
+:::note
+If an existing collection and a new collection in the pending XML import file share the
 same collection name, an error is displayed and the existing collection remains unchanged.
+:::
 
-**_RECOMMENDED:_** Provide a unique, descriptive name for any new collections.
+
+:::info
+Provide a unique, descriptive name for any new collections.
+:::
+
 
 The following parameter is required:
 
@@ -98,6 +104,8 @@ been updated or created. If a new collection was created, it is up to the user t
 Collection ID and Collection GUID assigned by Threat Prevention in order to later access that
 collection.
 
-_Remember,_ the Collection ID and Collection GUID are not the same as those in the source XML file.
+:::tip
+Remember, the Collection ID and Collection GUID are not the same as those in the source XML file.
 Use the `Get-SICollection` API call to find the newly created collection and its associated GUID and
 Collection ID by name.
+:::

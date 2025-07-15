@@ -52,9 +52,12 @@ Command Line Configuration Examples
 
 The following examples show some standard scenarios for Agent installations.
 
-**NOTE:** Parameters with TRUE or FALSE are case sensitive. In the examples, EMCERTIFICATE and
+:::note
+Parameters with TRUE or FALSE are case sensitive. In the examples, EMCERTIFICATE and
 ENROLLMENTSECRET have been generated and are unique to each install. These need to be retrieved from
 the Administration Console.
+:::
+
 
 Installing a new Agent to monitor Active Directory and File Events Example
 

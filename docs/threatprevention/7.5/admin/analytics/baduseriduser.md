@@ -15,7 +15,10 @@ expires. After the time expires, any additional attempt will generate a new inci
 for a report on the number of times a particular bad user account tried to login during the time
 frame.
 
-**_RECOMMENDED:_** Configure the day limit to 30 days.
+:::info
+Configure the day limit to 30 days.
+:::
+
 
 | Bad User ID (by user) |                      |
 | --------------------- | ---------------------- |
@@ -76,9 +79,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - *Optional:* Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -86,9 +92,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the

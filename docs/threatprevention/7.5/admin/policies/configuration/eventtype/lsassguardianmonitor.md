@@ -22,8 +22,11 @@ The event filters for the LSASS Guardian – Monitor event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**_RECOMMENDED:_** Add exclusion process filters for undesired processes that make changes to LSASS,
+:::info
+Add exclusion process filters for undesired processes that make changes to LSASS,
 e.g. third-party malware applications.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -43,9 +46,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 
@@ -69,17 +75,23 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Processes Filter
 
 magUse the Processes filter to set the scope of the policy to only monitor specific processes or
 exclude specific processes from being monitored.
 
-**_RECOMMENDED:_** Add undesired processes that make changes to LSASS, e.g. third-party malware
+:::info
+Add undesired processes that make changes to LSASS, e.g. third-party malware
 applications, to the Exclude Process list.
+:::
+
 
 ![Processes Monitoring filter](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/processesmonitoring.webp)
 
@@ -89,12 +101,15 @@ buttons in the respective areas to edit the lists.
 - The Process **Add** (+) button adds a textbox to the list to add an additional process.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**CAUTION:** In a production environment, only exclude processes using the Exclude Process area.
+:::warning
+In a production environment, only exclude processes using the Exclude Process area.
 While there is an option to include processes, it is NOT recommended in a policy that is monitoring
 a production environment. Adding a process in the Include Process area limits the policy to only
 monitoring that process. Unknown malicious processes would not be monitored by the policy. In a
 sandbox environment, the Include Process option can be useful for testing/capturing the LSASS
 activity for specific processes to see what access they are requesting.
+:::
+
 
 ## Open Process Flags Filter
 
@@ -115,4 +130,7 @@ request for an LSASS handle contains one or more of the selected process flags.
   - Uncheck this checkbox to not generate an event if the calling process, such as an application,
     requests LSASS memory read access.
 
-**_RECOMMENDED:_** Leave these filters enabled. Do not deselect these options.
+:::info
+Leave these filters enabled. Do not deselect these options.
+
+:::

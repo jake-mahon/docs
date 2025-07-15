@@ -91,14 +91,20 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     Multiple paths and/or collections can be included and excluded, along with the option to
     monitor sub-folders.
 
-    _Remember,_ if no path is provided, an error message displays when the analytic policy is
+    :::tip
+        Remember, if no path is provided, an error message displays when the analytic policy is
     enabled: The “File System Analytic” policy must have at least one path to monitor defined.
+    :::
+
 
   - _Optional:_ Scope the operations being monitored on the File System filter. The default is to
     monitor Write and Rename operations.
 
-    **_RECOMMENDED:_** Do not scope to include Read operations due to the quantity of files read
+    :::info
+    Do not scope to include Read operations due to the quantity of files read
     within an organization.
+    :::
+
 
   - _Optional:_ Scope the monitoring Agents to use for monitoring on the Additional Agents filter.
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD
@@ -140,8 +146,11 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     - _Optional:_ Scope the accounts to block additional perpetrators.
     - _Optional:_ Remove accounts that are being blocked from the list.
 
-      **NOTE:** Perpetrators manually removed from the list may be automatically re-added if
+      :::note
+      Perpetrators manually removed from the list may be automatically re-added if
       they trigger another incident
+      :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
@@ -165,7 +174,10 @@ The top data grid includes the following information for each incident:
 
 - Attacking Account Name – Security principal of the account that triggered the incident
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacking Account SID – Security Identifier of the account used in the event
 - First Attempt – Date timestamp of the first monitored event Hover over the data in this column to

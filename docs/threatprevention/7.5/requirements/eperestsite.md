@@ -30,7 +30,10 @@ The EPE Rest Site database can reside on the same instance of the SQL Server as 
 Prevention database or a separate instance (such as a free instance of SQL Express) that can be
 installed locally on the machine where the EPE Rest Site is installed.
 
-**NOTE:** The “EpeUsers” database is not created during the installation, but when you create the
+:::note
+The “EpeUsers” database is not created during the installation, but when you create the
 first “internal” account.
+:::
+
 
 The database is not deleted when you uninstall the EPE Rest Site.

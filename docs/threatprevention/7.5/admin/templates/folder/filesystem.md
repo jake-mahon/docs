@@ -9,8 +9,11 @@ sidebar_position: 60
 The **Templates** > **Microsoft** > **File System** folder in the Navigation pane contains the
 following templates:
 
-**CAUTION:** ‘Reads’ are left out due to the potential high volume of data that could be gathered;
+:::warning
+‘Reads’ are left out due to the potential high volume of data that could be gathered;
 recommended only for highly sensitive content.
+:::
+
 
 | Subfolder  | Template        | Description             | TAGS |
 | ---------- | ----------------- | ------------------ | ---- |

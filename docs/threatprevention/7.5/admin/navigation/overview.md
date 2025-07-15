@@ -81,8 +81,11 @@ interface. The following interface options are available:
 
 Several right-click menus and additional features are available within these interfaces.
 
-_Remember,_ the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
+:::tip
+Remember, the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
 can be expanded and collapsed.
+:::
+
 
 Agents
 

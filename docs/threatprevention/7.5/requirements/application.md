@@ -35,10 +35,16 @@ These depend on the size of the target environment and whether Analytics will be
 | Cores       | 4+ CPU                         | 4 CPU                          | 4 CPU                       | 4 CPU                       |
 | Disk Space  | 67 GB                          | 67 GB                          | 67 GB                       | 35 GB                       |
 
-**_RECOMMENDED:_** For large environments with Analytics, a physical machine is strongly
+:::info
+For large environments with Analytics, a physical machine is strongly
 recommended.
+:::
 
-**NOTE:** The disk space calculation formula is: Enterprise Manager GBs + 2(RAM size):
+
+:::note
+The disk space calculation formula is: Enterprise Manager GBs + 2(RAM size):
+:::
+
 
 - 1 GB minimum for the Enterprise Manager / Administration Console
 - Double the RAM size for log files (e.g. if 64 GB RAM, then 124 GB disk space)
@@ -68,8 +74,11 @@ The following are recommended for the Administration Console server:
   Manager can generate a high volume of SQL activity, which is directly proportional to the volume
   of events the Enterprise Manager receives from all Agents.
 
-  **_RECOMMENDED:_** Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
+  :::info
+  Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
   different machines.
+  :::
+
 
 **Permissions for Installation and Application Use**
 

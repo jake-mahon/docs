@@ -56,8 +56,11 @@ Example table entry for server:
 
 ExampleServer
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Objects Collection Table Requirements
 
@@ -76,8 +79,11 @@ Example table entry:
 
 CN=User,DC=Domain,DC=Local
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Perpetrators Collections Table Requirements
 
@@ -99,8 +105,11 @@ Example table entry:
 
 CN=User,DC=Domain,DC=Local | S-1-5-21-1004336348-1177238915-682003330-500 | 3 | 0
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic IP Addresses Collection Table Requirements
 
@@ -119,8 +128,11 @@ Example table entry:
 
 192.168.1.3
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Hosts Collection Table Requirements
 
@@ -152,8 +164,11 @@ Example table entry that excludes IP v4 Address:
 
 host | host.dc.com | [null]  | fe80::4d72:80e9:72cf:425f%10
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic File Paths Collection Table Requirements
 
@@ -174,8 +189,11 @@ Example table entry:
 
 c:\Windows | 0 | ExampleFSserver
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 Two tables are created during the installation/upgrade process for the File Path collections:
 

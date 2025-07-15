@@ -10,7 +10,10 @@ The Event Filtering Configuration window enables you to exclude specific Active 
 Authentication events from being monitored. A latency threshold can be set to generate alerts for AD
 events.
 
-**NOTE:** This window is only available to Threat Prevention administrators.
+:::note
+This window is only available to Threat Prevention administrators.
+:::
+
 
 Follow the steps to enable event filtering.
 
@@ -27,11 +30,17 @@ To disable a filter for diagnostic purposes, simply uncheck its checkbox and cli
 Click the Help icon (?) for an option in the AD Global Pre Filters area to view the type of “noise”
 events being filtered.
 
-**NOTE:** All Authentication Global Pre Filters options require configuration before they can be
+:::note
+All Authentication Global Pre Filters options require configuration before they can be
 enabled.
+:::
 
-**_RECOMMENDED:_** Enable all the AD Global Pre Filters options as well as the Exclude Logins from
+
+:::info
+Enable all the AD Global Pre Filters options as well as the Exclude Logins from
 Machine Accounts option in the Authentication Global Pre Filters section.
+:::
+
 
 When activated, the Agent filters out the event data according to configurations defined in the
 filters.json file located in the installation directory of the Enterprise Manager.

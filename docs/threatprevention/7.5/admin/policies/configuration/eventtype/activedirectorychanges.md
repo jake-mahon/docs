@@ -60,9 +60,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Context Filter
 
@@ -151,10 +154,13 @@ When you select another attribute, a new row is added, where you can specify an 
 for that attribute. Each row is treated as an “OR” statement. If any event matches any of the
 attribute filters, then the event data includes all attributes in the list.
 
-**NOTE:** You cannot specify more than one value for an attribute and you cannot select the same
+:::note
+You cannot specify more than one value for an attribute and you cannot select the same
 attribute twice. To use the same attribute again, you have to add the same event type again to the
 policy, select that event type and then select a previously used attribute to include in the Add
 Attributes filter.
+:::
+
 
 When the userAccountControl attribute is included or excluded in the filter, selecting the Any Value
 dropdown opens the [User Account Control Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/window/useraccountcontrol.md) with additional UAC
@@ -176,9 +182,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Perpetrator Filter
 
@@ -198,9 +207,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 
@@ -225,9 +237,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -245,9 +260,12 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Success Filter
 
@@ -330,8 +348,11 @@ Value
 The value box is displayed in green. Click in it to type a value, then press Enter. The value is
 displayed in green text in the box below.
 
-**NOTE:** The Value box only accepts a single string except when the “Attributes: New” or
+:::note
+The Value box only accepts a single string except when the “Attributes: New” or
 “Attributes: Old” option is selected in the Event Data drop-down menu.
+:::
+
 
 In case of “Attributes: New” and “Attributes: Old”, type three comma separated values (parameters)
 in the Value box in the following format:

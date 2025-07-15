@@ -47,8 +47,11 @@ See the following topics for additional information:
   to submit a candidate password to check whether it complies with the current EPE rules defined on
   the [EPE Settings Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md).
 
-  **NOTE:** This interface does not change the password; it only validates it against the EPE
+  :::note
+  This interface does not change the password; it only validates it against the EPE
   rules.
+  :::
+
 
 See the following topics for additional information:
 

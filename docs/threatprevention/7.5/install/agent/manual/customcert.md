@@ -10,9 +10,12 @@ If "custom-managed" is selected for the CA certificate configuration during
 [Manual Agent Deployment](/docs/threatprevention/7.5/install/agent/manual/manual.md), use the `SIAgentCert.exe` command line utility to facilitate
 the creation of certificates for each Agent.
 
-**NOTE:** As a requirement for using custom managed certificates, you must provide the Enterprise
+:::note
+As a requirement for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing the
 following:
+:::
+
 
 - Threat Prevention server
 - Remote instance of the Administration Console
@@ -42,8 +45,11 @@ generates an `agent-key.pem` file and an `agent-csr.pem` and places them in the 
 **Step 2 –** The `SIAgentCert.exe` utility prompts you to sign the certificate using the generated
 `agent-csr.pem` file.
 
-**NOTE:** It is the customer's responsibility to supply the `agent-csr.pem` file to their
+:::note
+It is the customer's responsibility to supply the `agent-csr.pem` file to their
 certificate authority to create a signed file.
+:::
+
 
 **Step 3 –** Copy the `agent-crt.pem` file created and signed by the customer's certificate
 authority to the CertsInfo folder on the machine where the Agent is deployed:
@@ -58,8 +64,11 @@ is deployed, which will enroll the `agent-crt.pem` file.
 **Step 6 –** Start the Agent service. This service has display name as _Netwrix Threat Prevention
 Windows Agent_ and service name as _SIWindowsAgent_.
 
-**NOTE:** After Agent deployment, you can configure and upgrade the Agent through the Administration
+:::note
+After Agent deployment, you can configure and upgrade the Agent through the Administration
 Console. Upgrades and configuration changes will continue to use the existing certificate.
+:::
+
 
 See the [Upgrade Procedure](/docs/threatprevention/7.5/install/upgrade/overview.md) topic for upgrade considerations. See the
 [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) topic for instructions on upgrading an Agent from the

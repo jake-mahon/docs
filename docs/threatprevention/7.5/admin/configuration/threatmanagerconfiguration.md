@@ -42,7 +42,10 @@ and port in the following format. The default port for Threat Manager is **10001
   - For an example with the host name – amqp://ExampleHost:10001
   - For an example with the host address – amqp://192.168.9.52:10001
 
-**CAUTION:** Do not use localhost for the hostname or 127.0.0.1 for the IP address.
+:::warning
+Do not use localhost for the hostname or 127.0.0.1 for the IP address.
+:::
+
 
 **Step 4 –** You can enable SSL for the AMQP event stream.
 
@@ -75,9 +78,12 @@ The following is displayed for each policy:
 All real-time event data from the selected Threat Prevention policies is now being sent to Threat
 Manager.
 
-**NOTE:** The Threat Manager URI configuration can also be used to send Threat Prevention policy
+:::note
+The Threat Manager URI configuration can also be used to send Threat Prevention policy
 data to the Activity Monitor host and port (example: amqp://localhost:4499). Threat Prevention can
 only send to either Threat Manager or the Activity Monitor.
+:::
+
 
 ## Honey Token Tab
 

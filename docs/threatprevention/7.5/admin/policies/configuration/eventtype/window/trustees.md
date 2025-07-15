@@ -26,5 +26,8 @@ See the [Selection Windows](/docs/threatprevention/7.5/admin/policies/configurat
 
 The selection is displayed in the appropriate box of the Exchange Trustees filter.
 
-**NOTE:** For information on the well-known SID types, see the Microsoft article
+:::note
+For information on the well-known SID types, see the Microsoft article
 [Well-known SIDs](https://learn.microsoft.com/en-us/windows/win32/secauthz/well-known-sids).
+
+:::
