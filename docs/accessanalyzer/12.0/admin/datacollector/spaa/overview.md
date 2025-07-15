@@ -13,7 +13,7 @@ available with a special Access Analyzer license. See the
 [SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/overview.md) topic for additional information.
 The SPAA Data Collector has the following requirements:
 
-Protocols
+**Protocols**
 
 - MS SQL
 - Remote Registry
@@ -21,18 +21,18 @@ Protocols
 - SP Server API
 - WCF AUTH via TCP (configurable)
 
-Ports
+**Ports**
 
 - Ports vary based on the Scan Mode selected and target environment. See the
   [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for
   additional information.
 
-Permissions
+**Permissions**
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
   [SharePoint Support](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint/sharepoint.md) topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job

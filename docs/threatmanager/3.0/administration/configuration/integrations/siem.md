@@ -32,7 +32,10 @@ Follow the instructions to enable SIEM notifications.
     - CEF template – Threat data is sent to the SIEM application in the standard CEF format
     - Custom template – Threat data is sent to the SIEM application in a customized format
 
-        **NOTE:** Only one custom template can be implemented.
+        :::note
+        Only one custom template can be implemented.
+        :::
+
 
     - Notification template – Threat data is sent to the SIEM application in a basic notification
       format:

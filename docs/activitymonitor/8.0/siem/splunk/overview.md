@@ -30,10 +30,13 @@ Activity Monitor App for Splunk, follow the
 [guide](http://docs.splunk.com/Documentation/AddOns/released/Overview/Installingadd-ons) provided by
 Splunk to install the app.
 
-**NOTE:** In order to use the Ransomware dashboard within the app, install
+:::note
+In order to use the Ransomware dashboard within the app, install
 [Splunk User Behavior Analytics](https://www.splunk.com/en_us/products/premium-solutions/user-behavior-analytics.html)
 (any version) and the [Machine Learning Toolkit](https://splunkbase.splunk.com/app/2890/) app for
 Splunk (version 2.0.0+).
+:::
+
 
 The Stealthbits: File Activity Monitor tab will appear within the Splunk web interface. Once
 installation of the  Stealthbits File Activity Monitor App for Splunk is complete, it must be

@@ -1,3 +1,9 @@
+---
+title: "Sizing Job Group"
+description: "Sizing Job Group"
+sidebar_position: 20
+---
+
 # Sizing Job Group
 
 The Sizing job group is designed to report on file sizing information from targeted file servers.

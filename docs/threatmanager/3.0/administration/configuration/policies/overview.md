@@ -39,9 +39,12 @@ A Honeytoken-type policy adds Honeytokens, which are fake credentials stored in 
 attack scans memory they may try to authenticate or query the domain for information about the
 account. Policies for Honeytokens are added on the Policies page.
 
-**NOTE:** When a Honeytoken name is specified and the policy is enabled, this policy becomes
+:::note
+When a Honeytoken name is specified and the policy is enabled, this policy becomes
 immediately valid for Honeytoken threat detection. Please refer to
 [Configure Honeytoken Threats](/docs/threatmanager/3.0/administration/configuration/policies/honeytoken.md) for Honeytoken naming best practices.
+:::
+
 
 Follow the steps to add a policy.
 
@@ -55,8 +58,11 @@ Follow the steps to add a policy.
 
 - Name – The name for the policy
 
-    **NOTE:** See [Configure Honeytoken Threats](/docs/threatmanager/3.0/administration/configuration/policies/honeytoken.md) for best practices for naming a
+    :::note
+    See [Configure Honeytoken Threats](/docs/threatmanager/3.0/administration/configuration/policies/honeytoken.md) for best practices for naming a
     Honeytoken.
+    :::
+
 
 - Description – The description for the policy
 - Enabled – The policy is set to OFF or disabled by default. Click the red X to set the Honeytoken

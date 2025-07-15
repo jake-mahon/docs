@@ -18,10 +18,13 @@ the field manually. The Preview field updates based on the contents of the Tag f
     - Append to existing tags - Adds new tags to the existing list of tags
     - Overwrite existing tags - Removes all existing tags before adding newly configured tags
 
-**NOTE:** If choosing the option to overwrite tags, the action module will clear out both normal
+:::note
+If choosing the option to overwrite tags, the action module will clear out both normal
 tags and Boldon James tags and then proceed to apply the tags configured for overwrite. If choosing
 the option to remove all tags, the action module will clear out both normal tags and Boldon James
 tags.
+:::
+
 
 - Fields – Use the drop-down list to select a field (column) from the source table, then click the
   blue arrow to insert the item into the **Tag** field
@@ -38,8 +41,11 @@ tags.
     - Regular - Configure new tag as a regular tag
     - Boldon James - Configure new tag as a Boldon James tag
 
-        **NOTE:** The Boldon James column indicates whether a file tag is a regular tag or a Boldon
+        :::note
+        The Boldon James column indicates whether a file tag is a regular tag or a Boldon
         James tag. Regular tags will be identified with **0**. Boldon James tags will be identified
         with **1**.
+        :::
+
 
 A list of supported file types appears at the bottom of the page.

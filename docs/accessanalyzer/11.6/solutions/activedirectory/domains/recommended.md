@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 5.Domains Job Group"
+description: "Recommended Configurations for the 5.Domains Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 5.Domains Job Group
 
 The **Active Directory > 5.Domains** job group has been configured by default to run with the

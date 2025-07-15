@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Options"
+description: "EWSMailbox: Options"
+sidebar_position: 20
+---
+
 # EWSMailbox: Options
 
 The Scan options page provides general scan options. It is a wizard page for all categories.

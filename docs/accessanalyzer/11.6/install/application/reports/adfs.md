@@ -1,3 +1,9 @@
+---
+title: "Configuring the Web Console to use ADFS"
+description: "Configuring the Web Console to use ADFS"
+sidebar_position: 80
+---
+
 # Configuring the Web Console to use ADFS
 
 The Enterprise Auditor Webserver and Access Information Center are able to support Single-Sign-On

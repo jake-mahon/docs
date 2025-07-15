@@ -31,7 +31,7 @@ Retrieve the Values to Paste into the Access Analyzer WebServer.exe.config File
 **Step 2 –** Right click on the **Identity Provider metadata** link and select **Copy Link Address**
 to get the value for the WSFederationMetadata URL.
 
-<add key="WsFederationMetadata" value="INSERT URL HERE" />
+**<add key="WsFederationMetadata" value="INSERT URL HERE" />**
 
 **Step 3 –** Click on the General tab to copy the value for the **Realm**. This value will be unique
 per tenant.
@@ -40,7 +40,7 @@ per tenant.
 
 **Step 4 –** Construct the ReplytoURL using the FQDN of your Access Analyzer server:
 
-https://FQDNofaccessanalyzerserver.com:8082/federation
+**https://FQDNofaccessanalyzerserver.com:8082/federation**
 
 Edit the WebServer.exe.config File
 
@@ -60,8 +60,11 @@ located in the Web folder within the Access Analyzer installation.
 **Step 3 –** Update the following values in the **WebServer.exe.config** file with the values
 retrieved from the Access Analyzer Okta application.
 
-**CAUTION:** These values are case sensitive. The values used here must match the values in the
+:::warning
+These values are case sensitive. The values used here must match the values in the
 Access Analyzer Okta application.
+:::
+
 
 - `WSFederationMetadata` – Paste the copied link address into the **WebServer.exe.config** file as:
 
@@ -84,7 +87,7 @@ Access Analyzer Okta application.
 
 **Step 4 –** Restart the Access Analyzer Web Server.
 
-Configure the App Settings for the StealthAUDIT Application
+**Configure the App Settings for the StealthAUDIT Application**
 
 **Step 1 –** In the Access Analyzer application, navigate to the General Tab and click **Edit** to
 populate the following fields.
@@ -124,7 +127,10 @@ Click the **Edit Profile** button for the Access Analyzer application.
 - upn
 - department
 
-**NOTE:** The case of the attributes in bold must match the case used in the custom attribute.
+:::note
+The case of the attributes in bold must match the case used in the custom attribute.
+:::
+
 
 Click **Save** to save the attribute details and close the Add Attribute window. To add another
 attribute, click **Save and Add Another**.

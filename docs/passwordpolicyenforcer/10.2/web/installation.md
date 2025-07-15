@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 20
+---
+
 # Installation
 
 Password Policy Enforcer/Web V7.11 is designed to run on Windows 2003, 2008, and 2012. Users access

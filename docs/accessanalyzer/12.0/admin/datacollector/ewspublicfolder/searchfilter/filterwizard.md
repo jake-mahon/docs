@@ -21,7 +21,10 @@ Customize folder search conditions using the following options:
 - Edit Conditions – Click an underlined value, if present, in the Edit Conditions box to modify any
   of the template conditions
 
-    **NOTE:** The values present depends on the selections made in the Select conditions box.
+    :::note
+    The values present depends on the selections made in the Select conditions box.
+    :::
+
 
     - Click either **IPM.Note** or **IPM.Appointment**, to open the MessageClasses Window with
       IPM.Note or IPM.Appointment class populated, respectively. See the

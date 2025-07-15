@@ -1,3 +1,9 @@
+---
+title: "Installation & Configuration Overview"
+description: "Installation & Configuration Overview"
+sidebar_position: 10
+---
+
 # Installation & Configuration Overview
 
 This section provides instructions for installing Enterprise Auditor and the initial configuration
@@ -53,7 +59,7 @@ Your Netwrix Representative will provide the appropriate binaries.
   Solution
 
     - See the
-      [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+      [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/11.6/install/stealthauditmapicdoinstallation/stealthaudit_mapi_cdo_installation.md)
       topic for additional information.
 
 - Enterprise Auditor Reporting Services binary – Installation package for Survey Action Module

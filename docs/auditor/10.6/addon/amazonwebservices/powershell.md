@@ -1,3 +1,9 @@
+---
+title: "Run the Add-On with PowerShell"
+description: "Run the Add-On with PowerShell"
+sidebar_position: 30
+---
+
 # Run the Add-On with PowerShell
 
 Follow the steps to run add-on with PowerShell:

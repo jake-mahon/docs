@@ -1,6 +1,10 @@
 {
-  "label": "Datacollection",
+  "label": "Data collection",
   "position": 50,
   "collapsed": true,
-  "collapsible": true
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
 }

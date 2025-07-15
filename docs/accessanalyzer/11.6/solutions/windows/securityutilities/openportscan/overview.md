@@ -1,3 +1,9 @@
+---
+title: "OpenPortScan Job Group"
+description: "OpenPortScan Job Group"
+sidebar_position: 20
+---
+
 # OpenPortScan Job Group
 
 The OpenPortScan job group reveals all open ports along with the associated executable on the

@@ -1,3 +1,9 @@
+---
+title: "Monitoring Scope"
+description: "Monitoring Scope"
+sidebar_position: 40
+---
+
 # Monitoring Scope
 
 Review a full list of object types and activities monitored on Nutanix Prism with the add-on.

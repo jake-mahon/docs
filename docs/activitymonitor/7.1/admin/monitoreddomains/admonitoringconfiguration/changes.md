@@ -1,3 +1,9 @@
+---
+title: "Changes Tab"
+description: "Changes Tab"
+sidebar_position: 20
+---
+
 # Changes Tab
 
 The Changes tab for AD Monitoring Configuration window provides additional options to monitor

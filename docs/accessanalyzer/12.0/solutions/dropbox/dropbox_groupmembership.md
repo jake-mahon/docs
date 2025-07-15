@@ -19,8 +19,11 @@ The Dropbox_GroupMembership job is located in the 3.Group Membership job group.
 View the analysis tasks by navigating to the **Jobs** > **Dropbox** > **3.Group Membership** >
 **Dropbox_GroupMembership** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Dropbox_GroupMembership Job](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/groupmembershipanalysis.webp)
 
@@ -32,6 +35,7 @@ preconfigured for this job.
 In addition to the tables created by the analysis tasks which display group membership details, the
 Dropbox_GroupMembership job produces the following pre-configured report.
 
-| Report           | Description                                                            | Default Tags | Report Elements                                                                                                                                                           |
-| ---------------- | ---------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Membership | This report lists membership and owners for all groups within Dropbox. | None         | This report is comprised of three elements: - Bar Chart – Displays largest groups - Table – Provides summary of group membership - Table – Provides details on membership |
+| Report           | Description                                                            | Default Tags | Report Elements                                                                                                                                                                                       |
+| ---------------- | ---------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Membership | This report lists membership and owners for all groups within Dropbox. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays largest groups</li><li>Table – Provides summary of group membership</li><li>Table – Provides details on membership</li></ul> |
+

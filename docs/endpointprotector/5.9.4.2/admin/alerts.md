@@ -9,9 +9,12 @@ sidebar_position: 100
 From this section, you can deﬁne E-mail Alerts for the main events detected by Endpoint Protector:
 System Alerts, Device Control Alerts, Content Aware Alerts, and Enforced Encryption Alerts.
 
-**NOTE:** Before creating alerts, make sure the Endpoint Protector E-mail Server Settings have been
+:::note
+Before creating alerts, make sure the Endpoint Protector E-mail Server Settings have been
 conﬁgured from the System Conﬁguration, System Settings section. You also have the option to verify
 these settings by sending a test E-mail.
+:::
+
 
 For each Administrator to appear in the list of recipients for the Alerts, this has to be provided
 under the Administrator details from the System Conﬁguration, System Administrators section.
@@ -35,8 +38,11 @@ Follow the steps to add a new Alert.
 - Updates and Support – set an alert regarding each module’s maintenance status (Device Control,
   Content Aware Protection, and eDiscovery)
 
-    **NOTE:** You can disable the Update and Support system alert from General Dashboard, System
+    :::note
+    You can disable the Update and Support system alert from General Dashboard, System
     Status.
+    :::
+
 
 - Endpoint Licenses – set an alert to be notiﬁed of the percentage of used Endpoint Licenses and
   eliminate the risks of having unprotected endpoints as each network is constantly growing. Deﬁne
@@ -136,8 +142,11 @@ Follow the steps to create a content aware alert.
 
 The alert sent on the email will also include a CSV ﬁle with a report of the threats found.
 
-**NOTE:** Before creating the alert, ensure the selected Content Aware Policy is enabled on the
+:::note
+Before creating the alert, ensure the selected Content Aware Policy is enabled on the
 chosen Computer, User, Group, or Department.
+:::
+
 
 ![Creating a Content Aware Alert](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/creatingcontentawarealertinfo.webp)
 

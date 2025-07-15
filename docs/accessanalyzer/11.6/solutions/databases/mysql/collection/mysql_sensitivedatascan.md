@@ -1,3 +1,9 @@
+---
+title: "MySQL_SensitiveDataScan Job"
+description: "MySQL_SensitiveDataScan Job"
+sidebar_position: 20
+---
+
 # MySQL_SensitiveDataScan Job
 
 The MySQL_SensitiveDataScan Job is designed to discover sensitive data in MySQL databases based on

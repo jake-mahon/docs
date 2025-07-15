@@ -17,7 +17,10 @@ article for more information.
 The SG_WDigestSettings job uses the Registry and WMICollector Data Collectors for the following
 queries:
 
-**CAUTION:** The queries are preconfigured for this job. Never modify the queries.
+:::warning
+The queries are preconfigured for this job. Never modify the queries.
+:::
+
 
 ![Queries for the SG_WDigestSettings Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/authentication/wdigestsettingsqueries.webp)
 
@@ -32,8 +35,11 @@ The queries for the SG_WDigestSettings job are:
 Navigate to the **Windows** > **Authentication** > **SG_WDigestSettings** > **Configure** node and
 select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SG_WDigestSettings Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/authentication/wdigestsettingsanalysis.webp)
 
@@ -49,6 +55,7 @@ The default analysis tasks are:
 In addition to the tables created by the data collector, the SG_WDigestSettings job produces the
 following pre-configured report.
 
-| Report           | Description                                                                                                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| WDigest Settings | This report summarizes WDigest registry settings on targeted hosts. See the [Microsoft Security Advisory](https://support.microsoft.com/en-us/help/2871997/microsoft-security-advisory-update-to-improve-credentials-protection-a) article for additional details. | None         | This report is comprised of two elements: - Pie Chart – Displays WDigest settings by host - Table – Provides WDigest setting details |
+| Report           | Description                                                                                                                                                                                                                                                        | Default Tags | Report Elements                                                                                                                                            |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WDigest Settings | This report summarizes WDigest registry settings on targeted hosts. See the [Microsoft Security Advisory](https://support.microsoft.com/en-us/help/2871997/microsoft-security-advisory-update-to-improve-credentials-protection-a) article for additional details. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays WDigest settings by host</li><li>Table – Provides WDigest setting details</li></ul> |
+

@@ -1,3 +1,9 @@
+---
+title: "SystemInfo Data Collector"
+description: "SystemInfo Data Collector"
+sidebar_position: 360
+---
+
 # SystemInfo Data Collector
 
 The SystemInfo Data Collector extracts information from the target system based on the selected

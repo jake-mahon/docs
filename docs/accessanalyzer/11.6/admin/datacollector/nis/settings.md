@@ -1,3 +1,9 @@
+---
+title: "NIS: NIS Settings"
+description: "NIS: NIS Settings"
+sidebar_position: 40
+---
+
 # NIS: NIS Settings
 
 The NIS Settings page is where the NIS domain and a NIS server are configured for testing. It is a

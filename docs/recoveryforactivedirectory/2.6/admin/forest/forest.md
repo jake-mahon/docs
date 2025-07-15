@@ -93,10 +93,13 @@ You can also expand a forest to view the domains under it.
 When you configure backup settings for a domain controller, the system automatically installs the
 Netwrix Server Backup Configuration agent on that domain controller.
 
-**NOTE:** Ensure that the domain controller has the firewall rules configured before configuring
+:::note
+Ensure that the domain controller has the firewall rules configured before configuring
 backup settings for it. See the
 [Firewall Rules for Forest Server Backups](/docs/recoveryforactivedirectory/2.6/requirements/firewallrules.md) topic for additional
 information.
+:::
+
 
 Follow the steps to specify backup settings for a domain controller.
 
@@ -121,8 +124,11 @@ on the Options page of this wizard.)
   controller to the network share of the destination server in the following format: domain\account.
 - Enter the password for the account in the Password field.
 
-**NOTE:** The backup data is first stored locally on the server and copied to the storage location
+:::note
+The backup data is first stored locally on the server and copied to the storage location
 using this account.
+:::
+
 
 **Step 4 –** Click **Next**.
 
@@ -141,8 +147,11 @@ default time is 12:00 AM.
 **Step 8 –** In the Specify where you would like to store the backup data field, enter a path to a
 network share on the domain controller to store the backup data.
 
-**NOTE:** The path must be a network share. Do not provide the path to a local drive for storing the
+:::note
+The path must be a network share. Do not provide the path to a local drive for storing the
 backup. Doing so will prevent the system from restoring the domain using the playbook mechanism.
+:::
+
 
 **Step 9 –** The file can be encrypted by selecting the **Encrypt the generated backup data**
 checkbox and entering a password.

@@ -1,3 +1,9 @@
+---
+title: "Remove-Schedule"
+description: "Remove-Schedule"
+sidebar_position: 50
+---
+
 # Remove-Schedule
 
 The commandlet **Remove-Schedule** removes a schedule (by its name or ID) from the identity store
@@ -51,4 +57,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

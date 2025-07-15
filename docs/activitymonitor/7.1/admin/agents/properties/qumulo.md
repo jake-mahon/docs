@@ -1,3 +1,9 @@
+---
+title: "Qumulo Tab"
+description: "Qumulo Tab"
+sidebar_position: 170
+---
+
 # Qumulo Tab
 
 The Qumulo tab provides features to configure settings for monitoring Qumulo devices.

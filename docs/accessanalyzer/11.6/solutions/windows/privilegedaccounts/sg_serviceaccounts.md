@@ -1,3 +1,9 @@
+---
+title: "Service Accounts > SG_ServiceAccounts Job"
+description: "Service Accounts > SG_ServiceAccounts Job"
+sidebar_position: 40
+---
+
 # Service Accounts > SG_ServiceAccounts Job
 
 The SG_ServiceAccounts job determines which domain accounts are being used to run services on member

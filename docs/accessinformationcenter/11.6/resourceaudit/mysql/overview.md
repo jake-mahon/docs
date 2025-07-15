@@ -1,3 +1,9 @@
+---
+title: "MySQL Reports"
+description: "MySQL Reports"
+sidebar_position: 90
+---
+
 # MySQL Reports
 
 MySQL reports are accessed through the Resource Audit interface. Explore the MySQL resources by

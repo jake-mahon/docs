@@ -1,3 +1,9 @@
+---
+title: "Amazon (AWS) Reports"
+description: "Amazon (AWS) Reports"
+sidebar_position: 50
+---
+
 # Amazon (AWS) Reports
 
 Amazon (AWS) reports are accessed through the Resource Audit interface. Explore the Amazon (AWS)

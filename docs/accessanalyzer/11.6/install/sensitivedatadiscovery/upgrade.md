@@ -1,3 +1,9 @@
+---
+title: "Upgrade Sensitive Data Discovery Add-on"
+description: "Upgrade Sensitive Data Discovery Add-on"
+sidebar_position: 20
+---
+
 # Upgrade Sensitive Data Discovery Add-on
 
 When the Enterprise Auditor Console and applicable solutions are upgraded, it is necessary to also

@@ -1,3 +1,9 @@
+---
+title: "UsersGroups: Summary"
+description: "UsersGroups: Summary"
+sidebar_position: 20
+---
+
 # UsersGroups: Summary
 
 The Summary page displays a summary of the configured query.

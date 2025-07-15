@@ -13,7 +13,10 @@ systems.
 
 The RetrieveNetstat job is uses the TextSearch Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/remoteopenportquery.webp)
 
@@ -27,8 +30,11 @@ The query for the RetrieveNetstat job is:
 Navigate to the **Windows** > **Security Utilities** > **OpenPortScan** > **RetrieveNetstat** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the RetrieveNetstat Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/securityutilities/openportscan/retrievenetstatanalysis.webp)
 
@@ -40,6 +46,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes job produces
 the following pre-configured report.
 
-| Report                            | Description                                                                                                                      | Default Tags | Report Elements                                                                   |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------- |
-| Network Ports (Open Ports Report) | This job is designed to report on all available ports on the targeted host. It will bring back the results of a `Netstat -b -a`. | None         | This report is comprised of one element: - Table – Provides details on open ports |
+| Report                            | Description                                                                                                                      | Default Tags | Report Elements                                                                                   |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------- |
+| Network Ports (Open Ports Report) | This job is designed to report on all available ports on the targeted host. It will bring back the results of a `Netstat -b -a`. | None         | This report is comprised of one element: <ul><li>Table – Provides details on open ports</li></ul> |
+

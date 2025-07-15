@@ -1,3 +1,9 @@
+---
+title: "PowerShell Action: Summary"
+description: "PowerShell Action: Summary"
+sidebar_position: 30
+---
+
 # PowerShell Action: Summary
 
 View a summary of configured options on the Summary page.

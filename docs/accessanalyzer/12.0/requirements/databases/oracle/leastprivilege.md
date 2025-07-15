@@ -20,9 +20,12 @@ Oracle environment (SQL Plus or SQL Developer):
 GRANT CREATE SESSION TO %USERNAME%;         
 ```
 
-**NOTE:** The above command will grant the privilege only in the current container. To follow the
+:::note
+The above command will grant the privilege only in the current container. To follow the
 least privilege model, only grant the privilege on the containers (or pluggable databases) that you
 will be scanning with Access Analyzer.
+:::
+
 
 However, if you target all of your pluggable databases, then to grant the **Create Session**
 privilege on all of those containers at once, run the following command:
@@ -55,8 +58,11 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted          
 In case of Linux and UNIX hosts, the `plink` command needs to be executed on the Access Analyzer
 Console server to update the local file with the SSH keys.
 
-**NOTE:** The plink utility in the Access Analyzer installation directory has to be used. A version
+:::note
+The plink utility in the Access Analyzer installation directory has to be used. A version
 of plink gets installed with the Nmap utility.
+:::
+
 
 The syntax is as follows:
 
@@ -93,7 +99,10 @@ or SQL\*Plus:
 GRANT SELECT ON DUAL TO %USERNAME%;
 ```
 
-**NOTE:** Replace `%USERNAME%` with the actual username of the user.
+:::note
+Replace `%USERNAME%` with the actual username of the user.
+:::
+
 
 ```
 CONTAINER_DATA=ALL FOR %NAME_OF_PLUGGABLE_DATABASE% CONTAINER = CURRENT;

@@ -1,3 +1,9 @@
+---
+title: "Reporting Module Installation"
+description: "Reporting Module Installation"
+sidebar_position: 40
+---
+
 # Reporting Module Installation
 
 Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the
@@ -87,5 +93,5 @@ launcher opens. You can now install the following components on the same server:
 topic for additional information.
 
 After completing the first launch, it is time to complete the initial configuration. See the
-[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/overview/gettingstarted.md#set-up-the-threat-manager-reporting-module)
 topic for additional information.

@@ -1,3 +1,9 @@
+---
+title: "EX_DLMetrics Job"
+description: "EX_DLMetrics Job"
+sidebar_position: 40
+---
+
 # EX_DLMetrics Job
 
 The EX_DLMetrics Job provides information around distribution list usage.

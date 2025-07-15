@@ -1,3 +1,9 @@
+---
+title: "Permissions Job Group"
+description: "Permissions Job Group"
+sidebar_position: 40
+---
+
 # Permissions Job Group
 
 The Permissions job group is comprised of data collection, analysis and reports that focus on access

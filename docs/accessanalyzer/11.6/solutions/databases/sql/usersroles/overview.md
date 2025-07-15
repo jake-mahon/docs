@@ -1,3 +1,9 @@
+---
+title: "1.Users and Roles Job Group"
+description: "1.Users and Roles Job Group"
+sidebar_position: 40
+---
+
 # 1.Users and Roles Job Group
 
 The 1.Users and Roles Job Group is designed to provide insight into user security, roles, and object

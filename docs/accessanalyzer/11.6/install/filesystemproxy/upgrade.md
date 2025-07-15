@@ -1,3 +1,9 @@
+---
+title: "Upgrade Proxy Service Procedure"
+description: "Upgrade Proxy Service Procedure"
+sidebar_position: 40
+---
+
 # Upgrade Proxy Service Procedure
 
 When the Enterprise Auditor Console and File System Solution are upgraded, it is necessary to also

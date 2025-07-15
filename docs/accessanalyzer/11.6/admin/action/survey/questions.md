@@ -1,3 +1,9 @@
+---
+title: "Survey: Questions"
+description: "Survey: Questions"
+sidebar_position: 30
+---
+
 # Survey: Questions
 
 Use this page to specify the questions on the survey. Configure the following for each question:

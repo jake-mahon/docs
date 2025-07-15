@@ -1,3 +1,9 @@
+---
+title: "AAD_DuplicateGroups Job"
+description: "AAD_DuplicateGroups Job"
+sidebar_position: 20
+---
+
 # AAD_DuplicateGroups Job
 
 The AAD_DuplicateGroups Job identifies duplicate groups within Microsoft Entra ID. Duplicate groups

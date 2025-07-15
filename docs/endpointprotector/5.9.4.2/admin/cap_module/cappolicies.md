@@ -27,9 +27,12 @@ reports sent via E-mail or to report all transfers of ﬁles containing personal
 ﬁnancial information (e.g., credit card numbers, E-mail, phone numbers, social security numbers
 etc.).
 
-**NOTE:** Content Aware Policies also apply to the File Allowlist. As a result, all files that were
+:::note
+Content Aware Policies also apply to the File Allowlist. As a result, all files that were
 previously allowed will now be inspected for sensitive content and, depending on the policy
 configuration, either reported, blocked, or allowed.
+:::
+
 
 Similar to Device Control policies, Content Aware policies remain enforced on a computer even after
 it is disconnected from the company network.
@@ -55,7 +58,10 @@ Protection policies, an increase from the previous limit of 48.
 
 To create a Content Aware Policy, provide the following information:
 
-**NOTE:** Depending on the speciﬁc application and OS, some limitations may apply.
+:::note
+Depending on the speciﬁc application and OS, some limitations may apply.
+:::
+
 
 - OS Type - select the operating system to which the policy applies, Windows, macOS, or Linux
 - Policy Name – add a name for the policy
@@ -71,13 +77,19 @@ To create a Content Aware Policy, provide the following information:
     - Block and Remediate - this policy will deny all transfers of data that include sensitive
       content but allow the user to remediate the action by using a justiﬁcation
 
-**NOTE:** Initially, we recommend using the Report only action to gain a better view of data use
+:::note
+Initially, we recommend using the Report only action to gain a better view of data use
 across your network and not interrupt your activity.
+:::
+
 
 - Policy Type - select the policy type, Standard, Outside Hous, or Outside Network
 
-**NOTE:** To enforce the Outside Hours and Outside Network options, after you save the policy,
+:::note
+To enforce the Outside Hours and Outside Network options, after you save the policy,
 enable the setting on the speciﬁc device from Device Control, Global settings, Group or Computers.
+:::
+
 
 - Policy Template – select a custom notiﬁcation from the drop-down list or create one from System
   Parameters, Device Types and Notiﬁcation,
@@ -90,19 +102,28 @@ enable the setting on the speciﬁc device from Device Control, Global settings,
 - File size threshold – enter the ﬁle size (in MB) starting from which the ﬁle transfer is either
   blocked or reported
 
-**NOTE:** If a File Size Threshold is set, it will be applied to the whole policy, regardless of
+:::note
+If a File Size Threshold is set, it will be applied to the whole policy, regardless of
 what ﬁle types or custom contents are checked inside the policy. The value used in the File Size
 Threshold must be a positive, whole number.
+:::
+
 
 - Apply Policy if File Size Threshold is Matched – enable this setting to apply the policy in
   combination with the threshold. The content selected from the Denylist will be blocked taking into
   consideration the threshold.
 
-**NOTE:** This setting does not apply for File Name and File Location.
+:::note
+This setting does not apply for File Name and File Location.
+:::
 
-**NOTE:** The Threshold option applies only to multiple ﬁlters, including Predeﬁned Content, Custom
+
+:::note
+The Threshold option applies only to multiple ﬁlters, including Predeﬁned Content, Custom
 Content, and Regular Expressions. As a general rule, it is recommended that Block & Report policies
 that use the Threshold should be placed with higher priority than Report Only policies.
+:::
+
 
 ### Regular and Global Threshold Use Cases
 
@@ -133,18 +154,27 @@ platforms and channels. The following exit points are available for monitoring.
 - Web Browsers (e.g., Internet Explorer, Chrome, Firefox, Safari, etc.)
 - E-mail (e.g., Outlook, Thunderbird, Lotus Notes, etc.)
 
-**CAUTION:** Universal Windows Platform applications, including the Windows 10 Mail application, run
+:::warning
+Universal Windows Platform applications, including the Windows 10 Mail application, run
 in an isolated environment, restraining the use of add-ons. This will prevent Content Aware policies
 with Windows Mail set as Exit Point to block restricted ﬁle transfers.
+:::
+
 
 - Instant Messaging (e.g., Skype, Pidgin, Google Talk, etc.)
 - Cloud Services / File Sharing (e.g., Google Drive Client, iCloud, Dropbox, DC++, etc.)
 - Social Media / Others (e.g., iTunes, Total Commander, GoToMeeting, etc.)
 
-**NOTE:** Select Adobe Flash Player from the Web Browser category to block sites that use Adobe
+:::note
+Select Adobe Flash Player from the Web Browser category to block sites that use Adobe
 Flash Active X.
+:::
 
-**NOTE:** To distinguish OneDrive for Business from OneDrive, enable Deep Packet Inspection (DPI).
+
+:::note
+To distinguish OneDrive for Business from OneDrive, enable Deep Packet Inspection (DPI).
+:::
+
 
 ![Monitor transfers from the following exit points](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/policyexistpoints.webp)
 
@@ -156,15 +186,24 @@ From the storage devices tab, you can select to monitor transfers:
 - for all Storage Devices - enable the **Apply policy to all storage devices** setting to enforce
   content policies on all storage devices, regardless of Custom Classes.
 
-**NOTE:** For Windows, ﬁle transfers will be monitored both to and from removable media.
+:::note
+For Windows, ﬁle transfers will be monitored both to and from removable media.
+:::
 
-**CAUTION:** On Linux the paste functionality only works when the default gnome session is Xorg. On
+
+:::warning
+On Linux the paste functionality only works when the default gnome session is Xorg. On
 other gnome sessions the paste functionality is disabled (ex: wayland).
+:::
+
 
 ![From the storage devices tab, you can select to monitor transfers](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/policyexitstoragedevices.webp)
 
-**NOTE:** The **Block CD/DVD Burning** feature is only available for Windows, built-in or
+:::note
+The **Block CD/DVD Burning** feature is only available for Windows, built-in or
 third-party burning features.
+:::
+
 
 To restrict the user from saving sensitive content on a CD or DVD using the built-in Windows
 features, follow these steps:
@@ -192,24 +231,33 @@ policy to all storage devices setting**
 
 **Step 4 –** From the Policy Denylist section, select the threats you want the policy to detect
 
-**NOTE:** The feature will apply to CD/DVD burning options Like a USB ﬂash drive and With a CD/DVD
+:::note
+The feature will apply to CD/DVD burning options Like a USB ﬂash drive and With a CD/DVD
 player, using either Drag and Drop or Copy and Paste actions.
+:::
+
 
 ### Clipboard
 
 The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut
 & Paste operations.
 
-**NOTE:** The Clipboard functionality applies only to conﬁdential content that is deﬁned inside the
+:::note
+The Clipboard functionality applies only to conﬁdential content that is deﬁned inside the
 Policy Denylists section for the Source Code tab, Predeﬁned Content, Custom Content, or Regular
 Expressions.
+:::
+
 
 The Clipboard functionality provides a certain degree of granularity and can be enabled:
 
 - Clipboard – enable this setting to monitor all content from a computer, regardless of the deﬁned
   exit points.
 
-    **NOTE:** This setting only applies to Copy operations.
+    :::note
+    This setting only applies to Copy operations.
+    :::
+
 
 When performing a Copy operation, the Endpoint Protector Client will inspect the clipboard content
 and if conﬁdential information is detected, the content will be deleted. As such, the Paste
@@ -217,7 +265,10 @@ operation will not work because the clipboard content was deleted.
 
 - Source code – enable this setting to detect the deﬁned in the policy.
 
-    **NOTE:** This setting applies to Copy or Paste operations.
+    :::note
+    This setting applies to Copy or Paste operations.
+    :::
+
 
 The Endpoint Protector Client will inspect the clipboard content for source codes and if source code
 is detected and monitored in a Content Aware policy (e.g., C++ is selected in a Content Aware
@@ -232,8 +283,11 @@ enabled)
     2. image ﬁles copied with CTRL+C shortcut and pasted to clipboard (this will paste the ﬁle URL
        to clipboard)
 
-    **NOTE:** If multiple ﬁles are copied and the content contains at least one image, the ﬁle
+    :::note
+    If multiple ﬁles are copied and the content contains at least one image, the ﬁle
     content will be blocked.
+    :::
+
 
 Similar to code source detection, the Detect images setting applies if the ﬁle type is blocked in
 Content Aware Protection policy (if the user will copy a PNG ﬁle, the ﬁle will be blocked if the PNG
@@ -245,13 +299,19 @@ be moved if shadow is enabled or deleted if not after scan.
 - To inspect certain applications and set Paste restrictions, enable the **Apply Paste restrictions
   to all monitored applications** setting
 
-    **NOTE:** This setting restricts the Paste operations for the deﬁned Policy Exit Points.
+    :::note
+    This setting restricts the Paste operations for the deﬁned Policy Exit Points.
+    :::
+
 
 When performing a Copy operation, the Endpoint Protector Client will inspect the clipboard content
 and if conﬁdential information is detected, the content will be allowed, instead, it will block a
 Paste operation if the application is monitored in a Content Aware policy.
 
-**CAUTION:** The Paste operation is allowed when the user changes the window to other applications.
+:::warning
+The Paste operation is allowed when the user changes the window to other applications.
+:::
+
 
 For example; in a Content Aware policy, Firefox is monitored, Chrome is not monitored and the Apply
 Paste restrictions to all monitored applications setting is enabled. The user performs a Copy
@@ -261,7 +321,10 @@ is blocked, and the Paste operation on Chrome is allowed
 - To inspect extended applications and set Paste restrictions, enable the **Extend Paste
   restrictions to below applications** setting
 
-    **NOTE:** This setting restricts the Paste operation for the deﬁned applications.
+    :::note
+    This setting restricts the Paste operation for the deﬁned applications.
+    :::
+
 
 Use this setting to extend the applications not listed in a Content Aware policy and block the Paste
 operations.
@@ -271,9 +334,12 @@ application from the list to monitor the Paste operation on the Microsoft Word a
 
 On-demand, Endpoint Protector can add other applications.
 
-**CAUTION:** On certain Linux environments, like those utilizing Wayland protocol by default, paste
+:::warning
+On certain Linux environments, like those utilizing Wayland protocol by default, paste
 control is limited due to Wayland's lack of support for detecting the focused window. To ensure
 security, content blocking occurs during the copy operation.
+:::
+
 
 ![The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut & Paste operations](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/policyexitclipboard.webp)
 
@@ -292,5 +358,8 @@ Below are additional setting found under Policy Exit Points:
 3. **Print Screen** applies to the screen capture options.
 4. **Printers** apply to both local and network shared printers.
 
-**_RECOMMENDED:_** When enabled, it is recommended to enable the **Advanced Printer** and **MTP
+:::info
+When enabled, it is recommended to enable the **Advanced Printer** and **MTP
 Scanning** option in Settings (Global, Groups, Computers, etc.)
+
+:::

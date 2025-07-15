@@ -1,3 +1,9 @@
+---
+title: "Box: Authenticate"
+description: "Box: Authenticate"
+sidebar_position: 80
+---
+
 # Box: Authenticate
 
 The Authenticate page is where connection to the Box environment is configured. It is a wizard page

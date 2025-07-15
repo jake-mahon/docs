@@ -1,3 +1,9 @@
+---
+title: "Shared Folders Node Report"
+description: "Shared Folders Node Report"
+sidebar_position: 100
+---
+
 # Shared Folders Node Report
 
 The following report is available at the **Shared Folder** node:

@@ -4,7 +4,7 @@ description: "Configure IT Infrastructure for Auditing and Monitoring"
 sidebar_position: 30
 ---
 
-# Configure IT Infrastructure for Auditing and Monitoring
+# Overview
 
 Netwrix 1Secure relies on native logs for collecting audit data. Therefore, successful change and
 access auditing requires a certain configuration of native audit settings in the audited environment

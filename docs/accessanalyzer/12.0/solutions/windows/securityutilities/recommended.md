@@ -6,26 +6,26 @@ sidebar_position: 10
 
 # Recommended Configurations for the Security Utilities Job Group
 
-Dependencies
+**Dependencies**
 
 The RemoteOpenPort job must be must be successfully run prior to running the RetrieveNetstat job.
 
-Targeted Hosts
+**Targeted Hosts**
 
 - OpenPortScan Job Group – There is no assigned host list for this job group. Configure a host list
   with any desired systems to be audited prior to running this job group. Both jobs in the
   OpenPortScan job group need to be assigned the same target host list.
 - SG_PowerShellCommands – All Windows Servers (No DCs)
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-History Retention
+**History Retention**
 
 - SG_PowerShellCommands job – History is required and is turned on by default
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure that the configured Connection Profile has local administrator privileges and
 Domain Admin privileges if targeting domain controllers.

@@ -14,8 +14,11 @@ their risk level.
 View the analysis tasks by navigating to the **Unix** > **3.Sharing** > **UX_Samba** > **Configure**
 node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_Samba Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/sharing/sambaanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the UX_NFS job produces the
 following pre-configured report:
 
-| Report                                                | Description                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
-| ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Samba Shares with Potentially Insecure Configurations | This report identifies Samba shares with parameters which may lead to open access | None         | This report is comprised of three elements: - Bar Chart – Displays Top Hosts by Potentially Insecure Shares - Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart - Table – Provides details on List of Potentially Insecure Share Configurations |
+| Report                                                | Description                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                                                                                          |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Samba Shares with Potentially Insecure Configurations | This report identifies Samba shares with parameters which may lead to open access | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays Top Hosts by Potentially Insecure Shares</li><li>Table – Provides details on Top Hosts by Potentially Insecure Shares bar chart</li><li>Table – Provides details on List of Potentially Insecure Share Configurations</li></ul> |
+

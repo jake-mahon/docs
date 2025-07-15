@@ -1,3 +1,9 @@
+---
+title: "AAD_DisabledUsers Job"
+description: "AAD_DisabledUsers Job"
+sidebar_position: 20
+---
+
 # AAD_DisabledUsers Job
 
 The AAD_DisabledUsers Job identifies disabled user accounts within Microsoft Entra ID. These

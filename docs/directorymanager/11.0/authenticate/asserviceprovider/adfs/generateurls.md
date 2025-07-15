@@ -1,3 +1,9 @@
+---
+title: "Generate URLs"
+description: "Generate URLs"
+sidebar_position: 10
+---
+
 # Generate URLs
 
 Generate the consumer URL and audience URL for the GroupID client with which you want to configure

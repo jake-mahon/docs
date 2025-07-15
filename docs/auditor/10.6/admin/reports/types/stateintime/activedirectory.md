@@ -1,3 +1,9 @@
+---
+title: "Active Directory State-In-Time Reports"
+description: "Active Directory State-In-Time Reports"
+sidebar_position: 10
+---
+
 # Active Directory State-In-Time Reports
 
 Examine the Active Directory state-in-time data on the user account attributes:

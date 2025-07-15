@@ -37,7 +37,10 @@ Double-click the text box beneath Value to enter the desired attribute value to 
 the Operation to relate the Name and Value with. Press the **Enter** or **Tab** key to add another
 textbox.
 
-**NOTE:** Name field must contain Active Directory attribute name.
+:::note
+Name field must contain Active Directory attribute name.
+:::
+
 
 Scoping the filter captures events when the new value matches with the supplied value. To scope the
 filter based on the new value of the attribute, use the Operation drop-down menu.
@@ -63,9 +66,12 @@ Directory or to exclude specific classes from being monitored.
 Double-click the text box beneath Name to enter the desired classes to include or exclude. Press the
 **Enter** or **Tab** key to add another text box.
 
-**NOTE:** Class must be specified in the form of `objectClass` attribute syntax but must contain
+:::note
+Class must be specified in the form of `objectClass` attribute syntax but must contain
 only last value of this multi-valued attribute. For example, for
 `top; person; organizationalPerson; user` it must have 'user' value.
+:::
+
 
 ## Context
 

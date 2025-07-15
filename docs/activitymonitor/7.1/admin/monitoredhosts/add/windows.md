@@ -1,3 +1,9 @@
+---
+title: "Windows"
+description: "Windows"
+sidebar_position: 160
+---
+
 # Windows
 
 Understanding File Activity Monitoring
@@ -24,7 +30,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Windows File Server Activity Auditing Configuration](/docs/activitymonitor/7.1/config/windowsfile/activity.md)
+[Windows File Server Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity_5.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the server. It cannot be deployed to a proxy
@@ -157,7 +163,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -169,7 +175,7 @@ Output page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -178,7 +184,7 @@ Click **Finish**.
 
 The added Windows file server host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output/output.md)
 topic for additional information.
 
 ## Host Properties for Windows File Server

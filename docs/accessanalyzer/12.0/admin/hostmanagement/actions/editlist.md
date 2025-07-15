@@ -18,8 +18,11 @@ the Specify Host List Properties page where you can modify the following:
 
 - Host List Name
 
-    **CAUTION:** Changing the name of a host list that has been assigned to a job can cause the job
+    :::warning
+    Changing the name of a host list that has been assigned to a job can cause the job
     to fail.
+    :::
+
 
 - Refresh inventory setting
 - Credentials used for host inventory

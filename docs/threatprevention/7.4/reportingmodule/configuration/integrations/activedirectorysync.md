@@ -1,3 +1,9 @@
+---
+title: "Active Directory Sync Page"
+description: "Active Directory Sync Page"
+sidebar_position: 10
+---
+
 # Active Directory Sync Page
 
 The Active Directory Sync page within the Integrations interface lists the domains that are synced

@@ -1,3 +1,9 @@
+---
+title: "Set-Group"
+description: "Set-Group"
+sidebar_position: 80
+---
+
 # Set-Group
 
 The **Set-Group** commandlet modifies an unmanaged group in directory. However, you can use this
@@ -93,7 +99,7 @@ Example 2:
 
 The following command expires the group **Training**, using the credentials set in the
 **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -123,4 +129,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

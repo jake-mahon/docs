@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Results"
+description: "ADInventory: Results"
+sidebar_position: 30
+---
+
 # ADInventory: Results
 
 The Results page is where properties from Active Directory to be gathered are selected. It is a

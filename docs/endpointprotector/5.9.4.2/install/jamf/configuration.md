@@ -22,7 +22,10 @@ available configuration profiles, click **+New**.
 On the New macOS Configuration Profile section, you can manage profile settings and select the
 devices and users to which you want to deploy the profile.
 
-**NOTE:** Click **Save** only once you have managed all settings and the profile scope.
+:::note
+Click **Save** only once you have managed all settings and the profile scope.
+:::
+
 
 ## General Settings
 
@@ -39,8 +42,11 @@ You can continue with the default settings for the category, level, and distribu
 
 You will add the Client CA Certificate in .cer format on the Certificate settings section.
 
-**NOTE:** This step is not required if you are not using Deep Package Inspection. To continue the
+:::note
+This step is not required if you are not using Deep Package Inspection. To continue the
 process, go to the Privacy Preferences Policy Control section.
+:::
+
 
 **Step 1 –** Log in to Endpoint Protector Server, go to the System Configuration section, and then
 select **System Settings**.
@@ -69,8 +75,11 @@ information:
 
 `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TV3T7A76P4`.
 
-**NOTE:** Use the Terminal Editor to verify there are no formatting alterations before executing
+:::note
+Use the Terminal Editor to verify there are no formatting alterations before executing
 this command line.
+:::
+
 
 - Select the **Validate the Static Code Requirement** check-box.
 - Click **Add** and **Save** to allow access to SystemPolicyAllFiles and Accessibility services.
@@ -90,8 +99,11 @@ Code Requirement
 
 `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TV3T7A76P4`.
 
-**NOTE:** Use the Terminal Editor to verify there are no formatting alterations before executing
+:::note
+Use the Terminal Editor to verify there are no formatting alterations before executing
 this command line.
+:::
+
 
 - Select the **Validate the Static Code Requirement** check-box.
 - Click **Add** and then **Save** to allow access to Accessibility services.
@@ -111,8 +123,11 @@ Code Requirement
 
 `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TV3T7A76P4`.
 
-**NOTE:** Use the Terminal Editor to verify there are no formatting alterations before executing
+:::note
+Use the Terminal Editor to verify there are no formatting alterations before executing
 this command line.
+:::
+
 
 - Select the **Validate the Static Code Requirement** check-box.
 - Click **Add** and then **Save** to allow access to SystemPolicyAllFiles and Accessibility
@@ -134,9 +149,12 @@ On the System Extension section, click **Configure** and then enter the followin
 
 ![Allowing System Extensions ](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/systemextensions.webp)
 
-**NOTE:** For operating systems lower than macOS 11 (Big Sur), manage settings from the Approved
+:::note
+For operating systems lower than macOS 11 (Big Sur), manage settings from the Approved
 Kernel Extensions section instead of System Extensions. Define the Team ID (enter TV3T7A76P4) and
 proceed to the next step.
+:::
+
 
 ### Removable System Extensions
 
@@ -149,7 +167,10 @@ system extensions without a pop-up, and then enter the following information:
 - Allowed System Extensions – click **Add**, enter `com.cososys.eppclient`, and then **Save** the
   changes.
 
-**NOTE:** This setting will be applied starting with MacOS 12 version (Monterey).
+:::note
+This setting will be applied starting with MacOS 12 version (Monterey).
+:::
+
 
 ![Adding a new policy that will allow the removing of system extensions](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/removeableextensions.webp)
 
@@ -172,14 +193,20 @@ Endpoint Protector Items can be simply disabled in your Jamf Configuration Profi
 Simply uncheck the box next to the Endpoint ProtectorItem(s) you want to disable, and then click
 **Save** to save your changes.
 
-**NOTE:** Disabling Endpoint Protector Items may have an impact on the security of your system. Only
+:::note
+Disabling Endpoint Protector Items may have an impact on the security of your system. Only
 disable these items if you are positive it is essential and you have taken every precaution
 necessary to keep your system secure.
+:::
+
 
 ## VPN Settings
 
-**NOTE:** This step is not required if you are not using VPN services. To continue the process, go
+:::note
+This step is not required if you are not using VPN services. To continue the process, go
 to the Scope section.
+:::
+
 
 On the VPN section, click **Configure** and then enter the following information:
 
@@ -195,8 +222,11 @@ On the VPN section, click **Configure** and then enter the following information
 
 `anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = TV3T7A76P4`
 
-**NOTE:** Use the Terminal Editor to verify there are no formatting alterations before executing
+:::note
+Use the Terminal Editor to verify there are no formatting alterations before executing
 this command line.
+:::
+
 
 - Select the **Prohibit users from disabling on-demand VPN settings** check-box.
 
@@ -206,7 +236,10 @@ this command line.
 
 ## Notifications Settings
 
-**NOTE:** This step is optional. To continue the process, go to the Scope section.
+:::note
+This step is optional. To continue the process, go to the Scope section.
+:::
+
 
 On the Notifications section, click **Configure** and then enter the following information:
 
@@ -224,7 +257,10 @@ profile.
 
 Click **Save** to apply all settings to the new configuration profile.
 
-**NOTE:** To confirm that the new configuration profile is saved successfully, reboot your computer
+:::note
+To confirm that the new configuration profile is saved successfully, reboot your computer
 at this point.
+:::
+
 
 ![Selecting Devices and Users to deploy to the new profile.](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/scope.webp)

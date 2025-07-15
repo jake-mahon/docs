@@ -1,3 +1,9 @@
+---
+title: "FS_TraverseGroups Job"
+description: "FS_TraverseGroups Job"
+sidebar_position: 30
+---
+
 # FS_TraverseGroups Job
 
 The **FS_TraverseGroups** Job can be used to create and apply permissions for traverse groups based

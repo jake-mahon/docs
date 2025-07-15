@@ -34,7 +34,10 @@ Follow the steps to generate an app token.
 **Step 3 –** Enter a Name for the token in the Name field, and a Description for the token in the
 Description field.
 
-**_RECOMMENDED:_** Identify the data source for this app in either the Name or Description fields.
+:::info
+Identify the data source for this app in either the Name or Description fields.
+:::
+
 
 **Step 4 –** Click Add to generate the app token.
 

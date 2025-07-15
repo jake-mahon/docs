@@ -1,3 +1,9 @@
+---
+title: "PowerShell Action: Script"
+description: "PowerShell Action: Script"
+sidebar_position: 10
+---
+
 # PowerShell Action: Script
 
 The Script page enables you to input the PowerShell script that will be used to perform the

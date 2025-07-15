@@ -1,3 +1,9 @@
+---
+title: "Survey: Summary"
+description: "Survey: Summary"
+sidebar_position: 90
+---
+
 # Survey: Summary
 
 A summary of the survey configuration displays.

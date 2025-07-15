@@ -1,3 +1,9 @@
+---
+title: ".AppletStatusCheck Job"
+description: ".AppletStatusCheck Job"
+sidebar_position: 10
+---
+
 # .AppletStatusCheck Job
 
 The .AppletStatusCheck Job checks the health and status of the applet deployed to the target

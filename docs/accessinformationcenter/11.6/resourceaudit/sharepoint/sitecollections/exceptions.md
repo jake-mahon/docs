@@ -1,3 +1,9 @@
+---
+title: "Exceptions Report"
+description: "Exceptions Report"
+sidebar_position: 30
+---
+
 # Exceptions Report
 
 The Exceptions report at the site collection, site, list, library, and folder levels provides a list

@@ -1,3 +1,9 @@
+---
+title: "Output Types"
+description: "Output Types"
+sidebar_position: 40
+---
+
 # Output Types
 
 Once a domain or a host is being monitored the event stream can be sent to multiple outputs. There
@@ -13,9 +19,9 @@ are three types of outputs:
     **NOTE:** This output is only available for Monitored Domains
 
 See the
-[Output for Monitored Domains](/docs/activitymonitor/7.1/admin/monitoreddomains/output.md)
+[Output for Monitored Domains](/docs/activitymonitor/7.1/admin/monitoreddomains/output/output.md)
 topic and the
-[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output/output.md)
 topic for information on adding an output.
 
 Output configurations vary based on the type of domain/host selected.
@@ -26,7 +32,7 @@ Output Properties window has the following tabs:
 
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 - [Threat Manager Tab](/docs/activitymonitor/7.1/admin/outputs/threatmanager.md),
   Netwrix Threat Manageroutput only
@@ -35,56 +41,56 @@ Output Properties window has the following tabs:
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Exchange Online Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - Application Exclusions Tab
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
 - Mailbox Exclusions Tab
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Hitachi Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Linux Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
-- [GID Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/gidexclusions.md)
+- [GID Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/gidexclusions/gidexclusions.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Microsoft Entra ID Hosts
@@ -94,90 +100,90 @@ Output Properties window has the following tabs:
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Nasuni Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For NetApp Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Nutanix Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Panzura Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Qumulo Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For SharePoint Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For SharePoint Online Hosts
@@ -187,34 +193,34 @@ Output Properties window has the following tabs:
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For SQL Server Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
 - [Objects Tab](/docs/activitymonitor/7.1/admin/outputs/objects.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only
 
 ## For Windows File Server Hosts
 
 Output Properties window has the following tabs:
 
-- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions.md)
+- [Account Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/accountexclusions/accountexclusions.md)
 - [Additional Properties Tab](/docs/activitymonitor/7.1/admin/outputs/additionalproperties.md)
 - [Log Files Tab](/docs/activitymonitor/7.1/admin/outputs/logfiles.md),
   File output only
-- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations.md)
-- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering.md)
+- [Operations Tab](/docs/activitymonitor/7.1/admin/outputs/operations/operations.md)
+- [Path Filtering Tab](/docs/activitymonitor/7.1/admin/outputs/pathfiltering/pathfiltering.md)
 - [Protocols Tab](/docs/activitymonitor/7.1/admin/outputs/protocols.md)
-- [Process Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/processexclusions.md)
-- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog.md), Syslog
+- [Process Exclusions Tab](/docs/activitymonitor/7.1/admin/outputs/processexclusions/processexclusions.md)
+- [Syslog Tab](/docs/activitymonitor/7.1/admin/outputs/syslog/syslog.md), Syslog
   output only

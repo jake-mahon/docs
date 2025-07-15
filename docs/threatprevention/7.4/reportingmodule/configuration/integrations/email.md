@@ -1,3 +1,9 @@
+---
+title: "Email Page"
+description: "Email Page"
+sidebar_position: 40
+---
+
 # Email Page
 
 The Email page within the Integrations interface allows users to configure the application to send

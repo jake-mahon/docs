@@ -1,3 +1,9 @@
+---
+title: "Forensics Job Group"
+description: "Forensics Job Group"
+sidebar_position: 10
+---
+
 # Forensics Job Group
 
 The Forensics Job Group highlights deletions, file downloads, permissions changes, external user

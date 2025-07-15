@@ -1,3 +1,9 @@
+---
+title: "Review User Profiles and Process Anomalies"
+description: "Review User Profiles and Process Anomalies"
+sidebar_position: 20
+---
+
 # Review User Profiles and Process Anomalies
 
 The user profile enables you to investigate user behavior and take a closer look at anomalies.

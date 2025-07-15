@@ -18,8 +18,11 @@ You can view the right for each device based on the color code from the Status c
 - Green indicates the device is allowed on computers or for users
 - Yellow indicates the device is allowed for some users or computers with restrictions
 
-**NOTE:** Any new device connected to a protected computer is automatically added to the database
+:::note
+Any new device connected to a protected computer is automatically added to the database
 and assigned to its ﬁrst user which can be changed later.
+:::
+
 
 ![View, sort, and export in Excel, PDF or CSV format any devices from the system](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/devices.webp)
 
@@ -40,8 +43,11 @@ Endpoint Protector Server to another and aims to correlate the device rights and
 
 You can also import the devices directly from Active Directory.
 
-**NOTE:** For detailed information on Active Directory, refer to the
+:::note
+For detailed information on Active Directory, refer to the
 [Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic.
+:::
+
 
 ### Priority order
 
@@ -49,8 +55,11 @@ If you do not conﬁgure the devices, the rights are inherited from the default 
 set per Device Types (USB Storage Device, Digital Camera, iPod, Thunderbolt, Chip Card Device,
 etc.).
 
-**NOTE:** For detailed information, refer to the
+:::note
+For detailed information, refer to the
 [Directory Services](/docs/endpointprotector/5.9.4.2/admin/directoryserv.md) topic.
+:::
+
 
 If you conﬁgure device rights granularly for all entities, the priority order will be the following,
 starting with the highest:
@@ -108,9 +117,12 @@ Client software is installed on a client computer. The Client will then communic
 its existence in the system. The Server will store the information regarding the Computer in the
 database and it will assign a License.
 
-**NOTE:** The self-registration mechanism acts whenever a change in the Computer licensing module is
+:::note
+The self-registration mechanism acts whenever a change in the Computer licensing module is
 made, and also each time the application Client is reinstalled. The owner of the computer is not
 saved in the process of self-registration.
+:::
+
 
 For more details about Licensing, go to the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
@@ -122,7 +134,10 @@ essential.
 By default, the computer is assigned to the ﬁrst user that handles the computer. This can later be
 changed and is updated automatically based on whoever logs into the computer.
 
-**NOTE:** Computer MachineUUID may not be taken for Virtual Machines due to System Limitations.
+:::note
+Computer MachineUUID may not be taken for Virtual Machines due to System Limitations.
+:::
+
 
 You can manually create a new computer at any time by providing the computer parameters and
 information mentioned above or import computers from Active Directory.
@@ -151,9 +166,12 @@ create fallback policies for Outside Network and Outside Hours circumstances.
 For detailed information on Device Types and Speciﬁc Devices (Standard, Outside Network, and Outside
 Hours), refer to the Devices and Computers topic.
 
-**NOTE:** Use Restore Global Rights to revert to a lower level of rights. Once enabled, all rights
+:::note
+Use Restore Global Rights to revert to a lower level of rights. Once enabled, all rights
 on that level will be set to preserve global settings and the system will use the next level of
 rights.
+:::
+
 
 All Existing Devices that were added on that level will be deleted when the restore is used.
 
@@ -194,8 +212,11 @@ of identiﬁcation, as seen below:
 
 ![Displays List of computers](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/computers.webp)
 
-**NOTE:** The computers that can be targeted by this action are strictly Windows Servers with
+:::note
+The computers that can be targeted by this action are strictly Windows Servers with
 Terminal Server roles properly conﬁgured
+:::
+
 
 Make sure that there is at least one Terminal Server license available when the action Mark as
 Terminal Server is performed. If the Terminal Server is successfully marked, a new device type will
@@ -214,8 +235,11 @@ By contrast, a Deny Access right set to the RDP Storage will not allow any user 
 Terminal Server by RDP to transfer ﬁles to and from their local disk volume or shared storage
 devices such as USBs.
 
-**NOTE:** Enable **Use User Rights** in the settings bar from System Conﬁguration, System Settings,
+:::note
+Enable **Use User Rights** in the settings bar from System Conﬁguration, System Settings,
 Endpoint Rights Functionality for the rights policy to apply on user logins with user priority.
+:::
+
 
 Secondly, the menu from Device Control > Users > Rights will present an additional device type for
 all the users in Endpoint Protector, namely Thin Client Storage (RDP Storage).

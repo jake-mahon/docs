@@ -1,3 +1,9 @@
+---
+title: "File System Action: Options"
+description: "File System Action: Options"
+sidebar_position: 90
+---
+
 # File System Action: Options
 
 The Options page provides access to additional options for the action. Based on the selection on the

@@ -1,3 +1,9 @@
+---
+title: "AWS: Category"
+description: "AWS: Category"
+sidebar_position: 10
+---
+
 # AWS: Category
 
 Use the Category page to select the type of scan for the targeted AWS instance or maintenance task

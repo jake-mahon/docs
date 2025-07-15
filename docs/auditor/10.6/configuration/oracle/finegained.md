@@ -1,3 +1,9 @@
+---
+title: "Configure Fine Grained Auditing"
+description: "Configure Fine Grained Auditing"
+sidebar_position: 40
+---
+
 # Configure Fine Grained Auditing
 
 When configuring Fine Grained Auditing, you need to create an audit policy with required parameters

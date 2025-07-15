@@ -18,8 +18,11 @@ is necessary to:
 - [Create Empty FPolicy Scope](#create-empty-fpolicy-scope)
 - [Enable the Empty FPolicy](#enable-the-empty-fpolicy)
 
-**NOTE:** The commands in the following sections have been verified for NetApp Data ONTAP 9.6+.
+:::note
+The commands in the following sections have been verified for NetApp Data ONTAP 9.6+.
 Users of older versions should consult the NetApp documentation to find the appropriate syntax.
+:::
+
 
 ## Create Security Role for FSAA Scans
 
@@ -101,13 +104,19 @@ article.
 
 Once the access control role has been created, apply it to a domain account.
 
-**CAUTION:**
+**:::warning**
+
+:::
+
 
 - The SVM used in the following command must be the same SVM used when creating the role. See the
   [Create Security Role for FSAA Scans](#create-security-role-for-fsaa-scans) topic for additional
   information.
 
-    **CAUTION:** Cluster-Mode is case sensitive.
+    :::warning
+    Cluster-Mode is case sensitive.
+    :::
+
 
 - It is recommended to use lowercase for both domain and username. The case of domain and username
   created during the account provisioning process must match exactly to the credentials provided to
@@ -171,7 +180,10 @@ IMPORTANT:
     - `extern-engine-type asynchronous`
     - `ssl-option no-auth`
 
-**CAUTION:** Cluster-Mode is case sensitive.
+:::warning
+Cluster-Mode is case sensitive.
+:::
+
 
 Use the following command to create the external engine:
 
@@ -216,7 +228,10 @@ IMPORTANT:
     - `event-name StealthAUDITScreening`
     - `volume-operation true`
 
-**CAUTION:** Cluster-Mode is case sensitive.
+:::warning
+Cluster-Mode is case sensitive.
+:::
+
 
 Use the following command to create the FPolicy event:
 
@@ -269,7 +284,10 @@ IMPORTANT:
       additional information.
     - `policy-name StealthAUDIT`
 
-**CAUTION:** Cluster-Mode is case sensitive.
+:::warning
+Cluster-Mode is case sensitive.
+:::
+
 
 Use the following command to create the FPolicy policy:
 

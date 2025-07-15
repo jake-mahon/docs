@@ -1,3 +1,9 @@
+---
+title: "Using Password Reset"
+description: "Using Password Reset"
+sidebar_position: 30
+---
+
 # Using Password Reset
 
 Netwrix Password Policy Enforcer is a web application. Users can access it from a web browser, or

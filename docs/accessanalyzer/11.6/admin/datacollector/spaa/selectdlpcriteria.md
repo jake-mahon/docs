@@ -1,3 +1,9 @@
+---
+title: "SPAA: Select DLP Criteria"
+description: "SPAA: Select DLP Criteria"
+sidebar_position: 100
+---
+
 # SPAA: Select DLP Criteria
 
 The Select Criteria page is where criteria to be used for discovering sensitive data are configured.

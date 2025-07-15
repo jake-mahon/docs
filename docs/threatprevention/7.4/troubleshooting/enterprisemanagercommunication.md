@@ -1,3 +1,9 @@
+---
+title: "Administration Console and Agent Not Communicating with the Enterprise Manager"
+description: "Administration Console and Agent Not Communicating with the Enterprise Manager"
+sidebar_position: 20
+---
+
 # Administration Console and Agent Not Communicating with the Enterprise Manager
 
 As a requirement for configuring custom managed certificates, the Threat Prevention Administration
@@ -11,7 +17,7 @@ Agent, the console and Agent will fail to connect to Enterprise Manager.
 **NOTE:** To configure custom managed certificates for the Enterprise Manager and the Agent, see the
 [Certificate Management Wizard](/docs/threatprevention/7.4/install/certificatemanagementwizard.md)
 and
-[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/install/agent/customcert.md)
+[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/install/agent/manual/customcert.md)
 topics respectively.
 
 You must provide the Enterprise Manager server DNS name when you install the following:
@@ -20,7 +26,7 @@ You must provide the Enterprise Manager server DNS name when you install the fol
   [Application Server Install](/docs/threatprevention/7.4/install/application.md)
   topic)
 - Threat Prevention Agent (see the
-  [Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual.md)
+  [Manual Agent Deployment](/docs/threatprevention/7.4/install/agent/manual/manual.md)
   topic)
 - Remote instance of the Administration Console (see the
   [Administration Console Remote Install](/docs/threatprevention/7.4/install/adminconsole.md)

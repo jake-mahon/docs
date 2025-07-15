@@ -1,3 +1,9 @@
+---
+title: "Permissions for Windows File Server Auditing"
+description: "Permissions for Windows File Server Auditing"
+sidebar_position: 70
+---
+
 # Permissions for Windows File Server Auditing
 
 Before creating a monitoring plan to audit your Windows file servers, plan for the account that will

@@ -1,3 +1,9 @@
+---
+title: "0.Collection > EX_IISLogs Job"
+description: "0.Collection > EX_IISLogs Job"
+sidebar_position: 20
+---
+
 # 0.Collection > EX_IISLogs Job
 
 The 0.Collection > EX_IISLogs Job provides data collection to be utilized in the ActiveSync, Outlook
@@ -46,7 +52,7 @@ job.
 ![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/11.6/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
 **Step 4 –** Navigate to the Target Log page, and configure the time frame as required. See the
-[SMARTLog: Target Log](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/targetlog.md)
+[SMARTLog: Target Log](/docs/accessanalyzer/11.6/admin/datacollector/smartlog/targetlog/targetlog.md)
 topic for additional information.
 
 _Remember,_ if the date range configuration includes data older than the last scan, the **Persist

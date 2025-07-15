@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Additional Fields"
+description: "Change Detection: Additional Fields"
+sidebar_position: 50
+---
+
 # Change Detection: Additional Fields
 
 Use the Additional Fields page to choose any additional fields to include with the change analysis.

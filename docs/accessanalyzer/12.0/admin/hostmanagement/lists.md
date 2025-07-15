@@ -47,8 +47,11 @@ Custom dynamic host lists are created by filtering the data grid and using the
 be done at the Host Management node with the Host Master Table or at any host list node. See the
 [Filter](/docs/accessanalyzer/12.0/admin/navigate/datagrid.md#filter) topic for additional information on filtering data grids.
 
-**_RECOMMENDED:_** Do not modify the criteria once a dynamic based list has been created. It is
+:::info
+Do not modify the criteria once a dynamic based list has been created. It is
 better to delete and recreate the list in order to modify a dynamic-based list.
+:::
+
 
 ## Static Host Lists
 

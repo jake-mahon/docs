@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: Properties"
+description: "ExchangeMailbox: Properties"
+sidebar_position: 30
+---
+
 # ExchangeMailbox: Properties
 
 The Properties page is where properties that will be gathered are selected. The available properties

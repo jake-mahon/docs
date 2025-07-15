@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Details Report"
+description: "Sensitive Content Details Report"
+sidebar_position: 50
+---
+
 # Sensitive Content Details Report
 
 The Sensitive Content Details report at the server level provides details of files where criteria

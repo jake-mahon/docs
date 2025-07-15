@@ -1,3 +1,9 @@
+---
+title: "Installing the Sensitive Data Discovery Add-On"
+description: "Installing the Sensitive Data Discovery Add-On"
+sidebar_position: 10
+---
+
 # Installing the Sensitive Data Discovery Add-On
 
 Remember, the following additional considerations:

@@ -28,8 +28,11 @@ Navigate to the **Databases** > **0.Collection** > **Azure SQL** >
 **4–AzureSQL_ServerSettings** > **Configure** node and select **Analysis** to view the analysis
 task.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/serversettingsanalysis.webp)
 

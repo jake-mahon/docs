@@ -14,8 +14,11 @@ Organization.
 Navigate to the **AWS** > **5.Policies** > **AWS_CustomManagedPolicies** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_CustomManagedPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/policies/custommanagedpoliciesanalysis.webp)
 
@@ -32,6 +35,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_CustomManagedPolicies job
 produces the following preconfigured report:
 
-| Report                  | Description                                                       | Default Tags | Report Element                                                                                                                                                                                                                            |
-| ----------------------- | ----------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Custom Managed Policies | This report analyzes AWS Custom Managed Policies and their usage. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays custom managed policies by account - Table – Shows custom managed policies by account - Table – Provides details on custom managed policies by account |
+| Report                  | Description                                                       | Default Tags | Report Element                                                                                                                                                                                                                                                        |
+| ----------------------- | ----------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Custom Managed Policies | This report analyzes AWS Custom Managed Policies and their usage. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays custom managed policies by account</li><li>Table – Shows custom managed policies by account</li><li>Table – Provides details on custom managed policies by account</li></ul> |
+

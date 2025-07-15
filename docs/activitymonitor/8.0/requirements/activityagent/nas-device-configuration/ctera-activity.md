@@ -54,9 +54,12 @@ Follow the steps to enable SMB audit logs.
 **Step 3 –** Specify a share to save the audit logs in the Save log files option. If a share does
 not exist, create a new one first.
 
-**NOTE:** CTERA recommends that SMB Audit logging is saved to a folder that is local on the Edge
+:::note
+CTERA recommends that SMB Audit logging is saved to a folder that is local on the Edge
 Filer and not synced to the cloud. For example, in the root of vol1, which can then be used to
 create a share.
+:::
+
 
 **Step 4 –** Adjust the **Keep closed files for** parameter. Otherwise, use the default value.
 
@@ -96,7 +99,7 @@ and recommendations for production and POC environments.
 **Step 1 –** Before setting up the Messaging Service in the web interface, first initialize the
 messaging components with the following CLI command:
 
-set /settings/platformServicesSetting/enabled true
+**set /settings/platformServicesSetting/enabled true**
 
 Initialization takes a few minutes.
 
@@ -106,21 +109,27 @@ Initialization takes a few minutes.
 **Step 3 –** To add a new messaging server, click **Add Messaging Servers**. Select the servers to
 use as messaging servers. Click **Save**.
 
-**NOTE:** In a production environment, designate three servers as messaging servers. In a small or
+:::note
+In a production environment, designate three servers as messaging servers. In a small or
 test environment, CTERA supports using a single messaging server, typically the main database
 server. However, in all other cases, exactly three servers must be assigned as messaging servers.  
 See the
 [Managing the CTERA Messaging Service](https://kb.ctera.com/docs/managing-the-ctera-messaging-service-2)
 article for additional information.
+:::
+
 
 **Step 4 –** Deploying the messaging service takes a few minutes. The status will change to STARTING
 and then to ACTIVE. Wait until the status is ACTIVE before proceeding to the next step.
 
-**NOTE:** If the status does not change to ACTIVE, the log files need to be collected from
+:::note
+If the status does not change to ACTIVE, the log files need to be collected from
 `/usr/local/lib/ctera/work/logs/services` directory.  
 See the
 [CTERA Messaging Service Logs](https://kb.ctera.com/docs/setting-up-the-ctera-messaging-service-2#ctera-messaging-service-logs)
 article for additional information.
+:::
+
 
 ### Enable the Edge Filer Syslog Service
 
@@ -158,7 +167,10 @@ username, password, and complete the wizard.
 
 **Step 8 –** Specify 4488 in the Port field.
 
-**NOTE:** The default port can be changed in the properties of the agent on the CTERA page.
+:::note
+The default port can be changed in the properties of the agent on the CTERA page.
+:::
+
 
 **Step 9 –** Change the protocol to **TCP/TLS**.
 

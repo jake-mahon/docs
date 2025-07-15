@@ -1,3 +1,9 @@
+---
+title: "Get-UserEnrollment"
+description: "Get-UserEnrollment"
+sidebar_position: 20
+---
+
 # Get-UserEnrollment
 
 The commandlet **Get-UserEnrollment** retrieves enrollment information of a user.
@@ -43,4 +49,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

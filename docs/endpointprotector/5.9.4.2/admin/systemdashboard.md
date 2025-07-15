@@ -11,7 +11,10 @@ Interface from the assigned IP address.
 
 The default Endpoint Protector Appliance IP address is https://192.168.0.201
 
-**NOTE:** Always use the IP address with HTTPS (Hypertext Transfer Protocol Secure).
+:::note
+Always use the IP address with HTTPS (Hypertext Transfer Protocol Secure).
+:::
+
 
 Use the default login credentials for the root account. To obtain the password, submit a support
 ticket through the
@@ -36,8 +39,11 @@ As an additional security measure, a session timeout is implemented for 300 seco
 inactivity. If you are not active for this amount of time, you are notiﬁed the session will expire
 and logged out unless you select to continue the session.
 
-**NOTE:** You can customize the session timeout and timeout counter from the
+:::note
+You can customize the session timeout and timeout counter from the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
+:::
+
 
 ![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/configwizard.webp)
 
@@ -65,8 +71,11 @@ modules (Device Control, Content Aware Protection, or eDiscovery).
 
 From the System Status subsection, you can enable the HDD Disk Space and Log Rotation.
 
-**NOTE:** If this setting is enabled, when the Server’s disk space reaches a certain percentage
+:::note
+If this setting is enabled, when the Server’s disk space reaches a certain percentage
 (starting from 50% up to 90%), old logs will be automatically overwritten by the new ones.
+:::
+
 
 ![Enable the HDD Disk Space and Log Rotation.](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/diskspace.webp)
 
@@ -84,8 +93,11 @@ From the System Backup subsection, you can enable the System Backup.
 From this section, you can check and apply the latest security and Endpoint Protector Server
 updates.
 
-**NOTE:** This feature communicates through port 80. Whitelist the liveupdate.endpointprotector.com
+:::note
+This feature communicates through port 80. Whitelist the liveupdate.endpointprotector.com
 (IP: 178.63.3.86) domain.
+:::
+
 
 ![Check and apply the latest security and  Server updates](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/liveupdate.webp)
 
@@ -110,25 +122,37 @@ update** and then use the calendar to select the date and conﬁrm your selectio
 Use the Oﬄine Patch upload option to select the oﬄine patches from your computer and successively
 install them to the latest Endpoint Protector version.
 
-**NOTE:** To request the Offline Patch, submit a support ticket through the
+:::note
+To request the Offline Patch, submit a support ticket through the
 [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
+:::
+
 
 ![Select the oﬄine patches from your computer and successively install them to the latest](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/offlinepatch.webp)
 
-**CAUTION:** Before upgrading your Endpoint Protector server to the 5.7.0.0 server version from a
+:::warning
+Before upgrading your Endpoint Protector server to the 5.7.0.0 server version from a
 pre-5206 version and adjacent OS image, you need to enable database partitions. For assistance,
 submit a support ticket through the
 [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).[](https://support.endpointprotector.com/hc/en-us/requests/new)
+:::
+
 
 ### Security Updates
 
 You can use this section to check and apply different types of security updates, view information on
 recent updates checked or installed, and a list of updates available.
 
-**NOTE:** The security update options will only be available for customer-hosted instances (e.g.
+:::note
+The security update options will only be available for customer-hosted instances (e.g.
 AWS, Goggle, etc.) with the exception for Operating System and Kernel upgrades.
+:::
 
-**NOTE:** Updates are not tested beforehand but are pulled from the oﬃcial Linux repository.
+
+:::note
+Updates are not tested beforehand but are pulled from the oﬃcial Linux repository.
+:::
+
 
 To ensure the updates will not harm the system, follow these actions:
 
@@ -147,11 +171,17 @@ If there are updates available, click **Apply Updates**.
 
 ![Applying Backend Security Updates](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/backendsecurityupdates.webp)
 
-**NOTE:** For history of applied Backend Updates go to admin action report and choose **Apply
+:::note
+For history of applied Backend Updates go to admin action report and choose **Apply
 Updates** under Activity ﬁlter.
+:::
 
-**NOTE:** Due to patching nature, some updates may automatically restart the Endpoint Protector
+
+:::note
+Due to patching nature, some updates may automatically restart the Endpoint Protector
 server or other sub-services in the background
+:::
+
 
 ## Effective Rights
 

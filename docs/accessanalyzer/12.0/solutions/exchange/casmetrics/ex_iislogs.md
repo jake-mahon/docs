@@ -46,8 +46,11 @@ opens.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The SMART Log DC Wizard opens.
 
-**CAUTION:** Do not modify other wizard pages. The other wizard pages are pre-configured for this
+:::warning
+Do not modify other wizard pages. The other wizard pages are pre-configured for this
 job.
+:::
+
 
 ![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/12.0/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
@@ -55,8 +58,11 @@ job.
 [SMARTLog: Target Log](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlog/targetlog.md) topic for additional
 information.
 
-_Remember,_ if the date range configuration includes data older than the last scan, the **Persist
+:::tip
+Remember, if the date range configuration includes data older than the last scan, the **Persist
 Log State** checkbox on the Log State page must be disabled.
+:::
+
 
 **Step 5 –** Navigate to the Summary page. Click **Finish**.
 

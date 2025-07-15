@@ -29,7 +29,10 @@ that is required of the user for HNAS activity collection is the following:
     - The Activity Monitor minimizes IO by remembering a file offset where it stopped reading and
       continuing from that offset next time.
 
-**CAUTION:** The following disclaimer is provided by Hitachi:
+:::warning
+The following disclaimer is provided by Hitachi:
+:::
+
 
 “Because CIFS defines open and close operations, auditing file system object access performed by
 clients using other protocols would be costly in terms of system performance, because each I/O
@@ -38,21 +41,24 @@ enabled, by default, only clients connecting through the CIFS protocol are allow
 file system.** Access by clients using other protocols, like NFS, can, however, be allowed. When
 such access is allowed, access to file system objects through these protocols is not audited.”
 
-**NOTE:** File system auditing can be configured to deny access to clients connecting with protocols
+:::note
+File system auditing can be configured to deny access to clients connecting with protocols
 that cannot be audited (NFS). Please see the Hitachi
 [Server and Cluster Administration Guide](https://support.hds.com/download/epcra/hnas0106.pdf) for
 additional information.
+:::
 
-Configuration Checklist
+
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of Hitachi devices.
 Instructions for each item of the checklist are detailed within the following topics.
 
-Checklist Item 1: [Configure Audit Logs on HNAS](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/hitachi-aac/configurelogs.md)
+**Checklist Item 1: [Configure Audit Logs on HNAS](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/hitachi-aac/configurelogs.md)**
 
 Checklist Item 2:
 [Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/hitachi-aac/configureaccesstologs.md)
 
-Checklist Item 3: Activity Monitor Configuration
+**Checklist Item 3: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Activity Agent to a Windows proxy server

@@ -1,3 +1,9 @@
+---
+title: "SQL_DatabasePrinciples Job"
+description: "SQL_DatabasePrinciples Job"
+sidebar_position: 10
+---
+
 # SQL_DatabasePrinciples Job
 
 The SQL_DatabasePrinciplesJob provides detailed information on database principals across all

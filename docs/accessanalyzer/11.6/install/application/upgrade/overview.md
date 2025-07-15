@@ -1,3 +1,9 @@
+---
+title: "Enterprise Auditor Console Upgrade"
+description: "Enterprise Auditor Console Upgrade"
+sidebar_position: 50
+---
+
 # Enterprise Auditor Console Upgrade
 
 Enterprise Auditor 11.6 uses the Upgrade Wizard. For upgrades from versions of Enterprise Auditor

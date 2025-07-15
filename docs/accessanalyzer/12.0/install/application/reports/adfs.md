@@ -12,8 +12,11 @@ Active Directory Federation Services (ADFS).
 
 Follow the steps to configure the Web Console to use ADFS authentication:
 
-**NOTE:** A certificate from the ADFS server is required. Confer with a PKI administrator to
+:::note
+A certificate from the ADFS server is required. Confer with a PKI administrator to
 determine which certificate method will conform to the organization's security policies.
+:::
+
 
 **Step 1 –** Import the certificate for the ADFS server onto the hosting server using the
 Certificate Management MMC snap-in.

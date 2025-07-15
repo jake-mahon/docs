@@ -28,7 +28,10 @@ The following query is included in the EX_MBSize Job:
       [Scope the ExchangePS Data Collector](/docs/accessanalyzer/12.0/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
-    **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
+    :::note
+    The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
     [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
     topic for credential requirements.
+    
+    :::

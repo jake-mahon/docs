@@ -12,7 +12,10 @@ The UX_ParseSudoers job parses all rights granted via sudoers in the audited env
 
 The UX_ParseSudoers job uses the Unix Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the UX_ParseSudoers Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/privilegedaccess/sudoers/collection/parsesudoersquery.webp)
 

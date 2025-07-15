@@ -1,3 +1,9 @@
+---
+title: "Configuring Password Reset"
+description: "Configuring Password Reset"
+sidebar_position: 40
+---
+
 # Configuring Password Reset
 
 Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console**on the Password Reset

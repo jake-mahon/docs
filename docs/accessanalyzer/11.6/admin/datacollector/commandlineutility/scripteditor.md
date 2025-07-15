@@ -1,3 +1,9 @@
+---
+title: "CLU: Script Editor"
+description: "CLU: Script Editor"
+sidebar_position: 50
+---
+
 # CLU: Script Editor
 
 The Script Editor page provides options to create or edit a Visual Basic script that is used to

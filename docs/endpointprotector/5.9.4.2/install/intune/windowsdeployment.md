@@ -15,8 +15,11 @@ Protector MSI package;
 
 ![Downloading the Windows Endpoint Protector MSI Package](/img/product_docs/endpointprotector/5.9.4.2/install/agent/intune/msipackagedownload.webp)
 
-**CAUTION:** When deploying the .msi package, delete the information contained in the brackets as
+:::warning
+When deploying the .msi package, delete the information contained in the brackets as
 well as the underscore that precedes it - EPPClientSetup.5.6.3.1_x86_64.msi
+:::
+
 
 ![A black text on a white background
 

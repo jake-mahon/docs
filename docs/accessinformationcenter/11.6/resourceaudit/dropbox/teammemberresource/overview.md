@@ -1,3 +1,9 @@
+---
+title: "Team Member, Resource & Subfolder Level Reports"
+description: "Team Member, Resource & Subfolder Level Reports"
+sidebar_position: 40
+---
+
 # Team Member, Resource & Subfolder Level Reports
 
 The following reports are available at the Team Member, Resource, and Subfolder level:

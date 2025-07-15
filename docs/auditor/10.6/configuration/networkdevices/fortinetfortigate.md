@@ -1,3 +1,9 @@
+---
+title: "Configure Fortinet FortiGate Devices"
+description: "Configure Fortinet FortiGate Devices"
+sidebar_position: 60
+---
+
 # Configure Fortinet FortiGate Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,3 +1,9 @@
+---
+title: "Health Summary Email"
+description: "Health Summary Email"
+sidebar_position: 30
+---
+
 # Health Summary Email
 
 Auditor Health Summary email includes all statistics on the product operations and health for the

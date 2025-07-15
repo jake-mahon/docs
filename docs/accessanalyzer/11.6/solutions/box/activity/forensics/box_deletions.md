@@ -1,3 +1,9 @@
+---
+title: "Box_Deletions Job"
+description: "Box_Deletions Job"
+sidebar_position: 10
+---
+
 # Box_Deletions Job
 
 The Box_Deletions Job is comprised of analysis and reports, which use the data collected by the

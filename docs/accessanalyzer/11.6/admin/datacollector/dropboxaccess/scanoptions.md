@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: Scan Options"
+description: "DropboxAccess: Scan Options"
+sidebar_position: 40
+---
+
 # DropboxAccess: Scan Options
 
 Use the Scan Options page to authorize Enterprise Auditor to generate an Access Token allowing the

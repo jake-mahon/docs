@@ -16,7 +16,10 @@ the endpoint’s hardware configuration. In an idle state, the base requirements
 - Bandwidth: Less than 1 Kbs (Kilobit per second) when idle. This may increase depending on usage
   when sending logs or uploading shadow files.
 
-**NOTE:** For Content Aware Protection and eDiscovery scanning, more CPU and RAM are required.
+:::note
+For Content Aware Protection and eDiscovery scanning, more CPU and RAM are required.
+:::
+
 
 Below is a closer look at the resource consumption when all modules are enabled , function are
 active, and policies are configured for a stress test:

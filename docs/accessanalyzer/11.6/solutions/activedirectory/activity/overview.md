@@ -1,3 +1,9 @@
+---
+title: "6.Activity Job Group"
+description: "6.Activity Job Group"
+sidebar_position: 60
+---
+
 # 6.Activity Job Group
 
 The 6.Activity Job Group provides insights into access sprawl, privileged account usage, and

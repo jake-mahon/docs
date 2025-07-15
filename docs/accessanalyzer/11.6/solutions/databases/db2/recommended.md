@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the Db2 Solution"
+description: "Recommended Configuration for the Db2 Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the Db2 Solution
 
 The Db2 Solution has been configured to inherit down from the **Db2** > **Settings** node. However,

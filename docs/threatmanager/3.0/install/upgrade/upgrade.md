@@ -23,15 +23,18 @@ Manager:
 If Netwrix Activity Monitor is used to send data to Threat Manager, the versions of both products
 must be compatible.
 
-**NOTE:** It is not required to upgrade the Activity Monitor to the latest version when upgrading
+:::note
+It is not required to upgrade the Activity Monitor to the latest version when upgrading
 Threat Manager, but it is recommended to upgrade it in order to take full advantage of the new
 features.
+:::
 
-| Netwrix Activity Monitor Version | Compatibility with Threat Manager v3.0                                                                                                                                                                                                                                                       |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7.1                              | Fully compatible for monitoring of: - File System Data - Active Directory Data - Microsoft Entra ID Data Threat Manager also supports file copy event type and file size information. **NOTE:** SharePoint, SharePoint Online, Exchange Online, Linux, and SQL monitoring are not supported  |
-| 7.0                              | Fully compatible for monitoring of: - File System Data - Active Directory Data - Microsoft Entra ID Data Threat Manager also supports file copy event type and file size information. **NOTE:** SharePoint, SharePoint Online, Exchange Online, Linux, and SQL monitoring are not supported. |
-| 6.0                              | Fully compatible for monitoring of: - File system Data - Active Directory Data Threat Manager also supports file copy event type and file size information. **NOTE:** SharePoint, SharePoint Online, Exchange Online, Microsoft Entra ID, Linux, and SQL monitoring are not supported        |
+
+| Netwrix Activity Monitor Version | Compatibility with Threat Manager v3.0  |
+| --- | --- |
+| 7.1 | Fully compatible for monitoring of: <br /><ul><li>File System Data</li><li>Active Directory Data</li><li>Microsoft Entra ID Data</li></ul> Threat Manager also supports file copy event type and file size information. <br />**NOTE:** SharePoint, SharePoint Online, Exchange Online, Linux, and SQL monitoring are not supported  |
+| 7.0 | Fully compatible for monitoring of: <br /><ul><li>File System Data</li><li>Active Directory Data</li><li>Microsoft Entra ID Data</li></ul> Threat Manager also supports file copy event type and file size information. <br />**NOTE:** SharePoint, SharePoint Online, Exchange Online, Linux, and SQL monitoring are not supported. |
+| 6.0 | Fully compatible for monitoring of: <br /><ul><li>File system Data</li><li>Active Directory Data</li></ul> Threat Manager also supports file copy event type and file size information. <br />**NOTE:** SharePoint, SharePoint Online, Exchange Online, Microsoft Entra ID, Linux, and SQL monitoring are not supported |
 
 ## Threat Manager Services
 

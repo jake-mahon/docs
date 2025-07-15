@@ -1,3 +1,9 @@
+---
+title: "Set-SmartGroup"
+description: "Set-SmartGroup"
+sidebar_position: 40
+---
+
 # Set-SmartGroup
 
 The **Set-SmartGroup** commandlet modifies a Smart Group in Directory. Attributes that are common to
@@ -175,4 +181,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

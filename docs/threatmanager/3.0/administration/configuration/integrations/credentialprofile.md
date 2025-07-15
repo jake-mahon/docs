@@ -17,7 +17,7 @@ select a profile from the table or under Credential Profile in the navigation pa
 See the [Application Server Requirements](/docs/threatmanager/3.0/requirements/server.md) topic for information on
 permission requirements for each type of task.
 
-Best Practice Recommendation
+**Best Practice Recommendation**
 
 It is a best practice to:
 

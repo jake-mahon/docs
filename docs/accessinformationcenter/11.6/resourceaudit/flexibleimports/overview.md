@@ -1,3 +1,9 @@
+---
+title: "Flexible Imports Feature"
+description: "Flexible Imports Feature"
+sidebar_position: 170
+---
+
 # Flexible Imports Feature
 
 Flexible imports allow an Access Information Center user to view reports on permissions, activity,

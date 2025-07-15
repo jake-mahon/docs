@@ -1,3 +1,9 @@
+---
+title: "ExchangePS Data Collector"
+description: "ExchangePS Data Collector"
+sidebar_position: 190
+---
+
 # ExchangePS Data Collector
 
 The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange
@@ -31,7 +37,7 @@ Permissions
 - Organization Management Role
 
 See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
 topic for additional information.
 
 ## Remote PowerShell
@@ -51,7 +57,7 @@ Import-PSSession $sess
 ```
 
 See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
 topic for instructions on enabling Remote PowerShell.
 
 ## The Exchange Applet

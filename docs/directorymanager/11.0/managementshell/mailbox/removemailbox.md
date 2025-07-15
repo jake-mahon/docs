@@ -1,3 +1,9 @@
+---
+title: "Remove-Mailbox"
+description: "Remove-Mailbox"
+sidebar_position: 30
+---
+
 # Remove-Mailbox
 
 Use the **Remove-Mailbox** commandlet to delete mailbox from the connected identifty store.
@@ -29,4 +35,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -30,17 +30,26 @@ _Prerequisite_ – Ensure console and agent servers have .NET Framework 4.7.2 in
 **Step 1 –** Install the Activity Monitor 8.0 on the same machine where the V7.1 console resides
 following the instructions in the [Install Application](/docs/activitymonitor/8.0/install/application.md) section.
 
-**CAUTION:** Launch the Activity Monitor Console and navigate to the Agents tab.
+:::warning
+Launch the Activity Monitor Console and navigate to the Agents tab.
+:::
 
-**_RECOMMENDED:_** Update the activity agents in batches to ensure continuity of monitoring.
+
+:::info
+Update the activity agents in batches to ensure continuity of monitoring.
+:::
+
 
 **Step 2 –** Select the activity agent(s) to be upgraded. The Windows Ctrl-select option can be used
 to select multiple activity agents. Then click Upgrade.
 
 **Step 3 –** (_Optional_) Deploy AD agents to monitor domains.
 
-**NOTE:** Upgraded licenses are required to monitor SharePoint and Active Directory search events
+:::note
+Upgraded licenses are required to monitor SharePoint and Active Directory search events
 when upgrading to Activity Monitor 8.0.
+:::
+
 
 The selected activity agents are updated to V8.0. If a Threat Prevention Agent is also installed on
 the Windows server for monitoring file systems, the Monitored Hosts tab identifies the host as being

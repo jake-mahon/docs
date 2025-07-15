@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for GroupID using AD FS"
+description: "SAML Configuration for GroupID using AD FS"
+sidebar_position: 10
+---
+
 # SAML Configuration for GroupID using AD FS
 
 Active Directory Federation Services (AD FS) provides users with single sign-on access to systems

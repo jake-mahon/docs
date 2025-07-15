@@ -1,3 +1,9 @@
+---
+title: "AD_DomainInfo Job"
+description: "AD_DomainInfo Job"
+sidebar_position: 40
+---
+
 # AD_DomainInfo Job
 
 The AD_DomainInfo Job provides operational reporting related to the collected domains, sites, and

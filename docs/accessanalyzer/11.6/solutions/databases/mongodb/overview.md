@@ -1,3 +1,9 @@
+---
+title: "MongoDB Solution"
+description: "MongoDB Solution"
+sidebar_position: 20
+---
+
 # MongoDB Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security
@@ -30,7 +36,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/databasemongodb.md)
+[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasemongodb.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

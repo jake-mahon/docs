@@ -1,3 +1,9 @@
+---
+title: "Using the Data Console"
+description: "Using the Data Console"
+sidebar_position: 50
+---
+
 # Using the Data Console
 
 The Data Console allows you to view and export data collected by Password Reset. Click **Start** >

@@ -1,3 +1,9 @@
+---
+title: "ActiveDirectory: Summary"
+description: "ActiveDirectory: Summary"
+sidebar_position: 50
+---
+
 # ActiveDirectory: Summary
 
 The Summary page displays a summary of the configured query. It wizard page for all categories.

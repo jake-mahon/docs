@@ -1,3 +1,9 @@
+---
+title: "Configure Oracle Database for Auditing"
+description: "Configure Oracle Database for Auditing"
+sidebar_position: 20
+---
+
 # Configure Oracle Database for Auditing
 
 This topic explains how to configure Oracle Database for the following versions of the Oracle

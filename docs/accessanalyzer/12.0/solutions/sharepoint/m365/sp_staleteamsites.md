@@ -43,9 +43,10 @@ The default analysis task is:
 In addition to the table created by the analysis task, the SP_StaleTeamSites Job produces the
 following preconfigured report:
 
-| Report      | Description                                                                                                                              | Default Tags | Report Elements                                                                                                                                                 |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stale Teams | This report identifies Teams that have not had activity for a number of days that can be set in the analysis (Set at 30 Days by Default) | None         | This report is comprised of two elements: - Bar Chart – Provides information on the top five least active sites - Table – Provides details on stale Teams sites |
+| Report      | Description                                                                                                                              | Default Tags | Report Elements                                                                                                                                                                       |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Stale Teams | This report identifies Teams that have not had activity for a number of days that can be set in the analysis (Set at 30 Days by Default) | None         | This report is comprised of two elements: <ul><li>Bar Chart – Provides information on the top five least active sites</li><li>Table – Provides details on stale Teams sites</li></ul> |
+
 
 ### Customizable Analysis Tasks for the SP_StaleTeamSites Job
 

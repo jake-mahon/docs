@@ -1,3 +1,9 @@
+---
+title: "Get-TargetSchedules"
+description: "Get-TargetSchedules"
+sidebar_position: 20
+---
+
 # Get-TargetSchedules
 
 The commandlet **Get-TargetSchedules** retrieves the scheduled jobs of the given target (group/OU).
@@ -52,4 +58,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

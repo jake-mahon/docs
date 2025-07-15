@@ -56,9 +56,12 @@ storing imported virtual hard disk. Click **Next**.
 
 ![ Setting the desired path for storing the  imported virtual hard disk](/img/product_docs/endpointprotector/5.9.4.2/install/storagefolders.webp)
 
-**CAUTION:** If you get to the Get Memory step, it means you have insuﬃcient memory on the Hyper-V
+:::warning
+If you get to the Get Memory step, it means you have insuﬃcient memory on the Hyper-V
 Host. Please abort the process here and either increase memory on the Host or choose another Host to
 import the Endpoint Protector Virtual Appliance on.
+:::
+
 
 ![Insuﬃcient memory on the Hyper-V Host](/img/product_docs/endpointprotector/5.9.4.2/install/configurememory.webp)
 

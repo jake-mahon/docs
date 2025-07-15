@@ -1,3 +1,9 @@
+---
+title: "Vault"
+description: "Vault"
+sidebar_position: 10
+---
+
 # Vault
 
 The Enterprise Auditor vault provides additional security through enhanced encryption to various

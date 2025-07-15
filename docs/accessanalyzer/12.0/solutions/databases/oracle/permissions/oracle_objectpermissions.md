@@ -14,8 +14,11 @@ in targeted Oracle database servers.
 Navigate to the **Oracle** > **3.Permissions** > **Oracle_ObjectPermissions** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/permissions/jobgroup35.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the Oracle_ObjectPermissions Job
 produces the following pre-configured report.
 
-| Report                    | Description                                                                               | Default Tags | Report Elements                                                                                                                                                                                                             |
-| ------------------------- | ----------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Oracle Object Permissions | This report highlights Object permissions and summarizes them by instance and domain user | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by object permissions - Table –  Provides details on instances by object permission count - Table – Provides details on object permissions |
+| Report                    | Description                                                                               | Default Tags | Report Elements                                                                                                                                                                                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Oracle Object Permissions | This report highlights Object permissions and summarizes them by instance and domain user | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by object permissions</li><li>Table –  Provides details on instances by object permission count</li><li>Table – Provides details on object permissions</li></ul> |
+

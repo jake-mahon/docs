@@ -1,3 +1,9 @@
+---
+title: "2-SPAA_SystemScans Job"
+description: "2-SPAA_SystemScans Job"
+sidebar_position: 20
+---
+
 # 2-SPAA_SystemScans Job
 
 The job collects information on permissions, users, and groups to determine who has access to each

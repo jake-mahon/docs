@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: Filter"
+description: "EWSMailbox: Filter"
+sidebar_position: 70
+---
+
 # EWSMailbox: Filter
 
 The Filter settings page provides options to filter folders and attachments. It is a wizard page for

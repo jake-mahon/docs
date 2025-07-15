@@ -35,8 +35,11 @@ on the Google Cloud Platform Console and create a bucket.
 **Step 4 –** Once the bucket is created, upload the Endpoint Protector image file received from
 Endpoint Protector.
 
-**NOTE:** The upload can take several hours, depending on the size of the compressed image and the
+:::note
+The upload can take several hours, depending on the size of the compressed image and the
 speed of the network connection.
+:::
+
 
 ![Uploading Endpoint Protector image to the bucket](/img/product_docs/endpointprotector/5.9.4.2/configuration/googlecloudplatform/uploadimage.webp)
 

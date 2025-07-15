@@ -1,3 +1,9 @@
+---
+title: "Creating an Application and Attributes in Okta"
+description: "Creating an Application and Attributes in Okta"
+sidebar_position: 90
+---
+
 # Creating an Application and Attributes in Okta
 
 Create an Enterprise Auditor Application in Okta Using the WS-Fed Template

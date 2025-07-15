@@ -1,3 +1,9 @@
+---
+title: "Scan Summary Report"
+description: "Scan Summary Report"
+sidebar_position: 40
+---
+
 # Scan Summary Report
 
 The Scan Summary report at the server level provides a summary view of all shares on the selected

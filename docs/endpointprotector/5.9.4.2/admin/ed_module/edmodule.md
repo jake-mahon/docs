@@ -24,11 +24,17 @@ eDiscovery comes as the third level of data protection available in Endpoint Pro
 is displayed but requires a simple activation by pressing the Enable button. If not previously
 provided, the contact details of the Main Administrator will be required.
 
-**NOTE:** Any details provided will only be used to ensure the Live Update Server is conﬁgured
+:::note
+Any details provided will only be used to ensure the Live Update Server is conﬁgured
 correctly and that the eDiscovery module was enabled successfully.
+:::
 
-**CAUTION:** The eDiscovery module is separate from Device Control or Content Aware Protection
+
+:::warning
+The eDiscovery module is separate from Device Control or Content Aware Protection
 modules, and requires separate licensing.
+:::
+
 
 ![eDiscovery Activation](/img/product_docs/endpointprotector/5.9.4.2/admin/ediscovery/activation.webp)
 
@@ -52,7 +58,10 @@ An eDiscovery Policy is made up of ﬁve main elements:
 - Policy Allowlists – the content that can be ignored
 - Entities – the departments, groups, or computers it applies to
 
-**NOTE:** Once the eDiscovery Policies are created, select the type of eDiscovery Scan.
+:::note
+Once the eDiscovery Policies are created, select the type of eDiscovery Scan.
+:::
+
 
 eDiscovery Scans are sets of rules for Policies, deﬁning when to start the data discovery. There are
 several types of scans:
@@ -74,8 +83,11 @@ be done by using:
 - Stop scan: stops the scan (but does not affect the logs)
 - Stop scan and clear scan: stops the scan and clears the logs
 
-**NOTE:** Use Global Stop and Clear in situations where all the eDiscovery Scans need to be stopped
+:::note
+Use Global Stop and Clear in situations where all the eDiscovery Scans need to be stopped
 and all the Logs cleared.
+:::
+
 
 ### Creating an eDiscovery Policy and Scan
 
@@ -110,10 +122,13 @@ For detailed information on Denylists and Allowlist, refer to the
 After the eDiscovery Policy has been created, Scanning Actions can be assigned. These include Start
 clean scan, Start incremental scan, Stop scan, and Clear logs.
 
-**NOTE:** Exactly like Content Aware Protection Policies, the eDiscovery Policies and Scans continue
+:::note
+Exactly like Content Aware Protection Policies, the eDiscovery Policies and Scans continue
 to detect sensitive data stored on protected computers even after they are disconnected from the
 company network. Logs will be saved within the Endpoint Protector Client and will be sent to the
 Server once the connection has been reestablished.
+:::
+
 
 ## eDiscovery Scan Result and Actions
 

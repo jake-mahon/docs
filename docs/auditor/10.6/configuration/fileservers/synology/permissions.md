@@ -1,3 +1,9 @@
+---
+title: "Permissions for Synology Auditing"
+description: "Permissions for Synology Auditing"
+sidebar_position: 30
+---
+
 # Permissions for Synology Auditing
 
 Before you start creating a monitoring plan to audit your Qumulo or Synology file servers, plan for

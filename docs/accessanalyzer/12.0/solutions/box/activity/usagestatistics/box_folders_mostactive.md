@@ -14,8 +14,11 @@ your Box environment, highlighting conditions such as most active or stale folde
 Navigate to **Box** > **1.Activity** > **Usage Statistics** > **Box_Folders_MostActive** >
 **Configure** node and select **Analysis** to view analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Folders_MostActive Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/usagestatistics/foldersmostactiveanalysis.webp)
 
@@ -27,6 +30,7 @@ The following analysis task is selected by default:
 In addition to the tables created by the analysis tasks, the Box_Folders_MostActive Job produces the
 following pre-configured report:
 
-| Report              | Description                                                                                       | Default Tags | Report Elements                                                                                                                                        |
-| ------------------- | ------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Most Active Folders | This report highlights the most active folder in the target Box environment over the last 30 days | None         | This report is comprised of two elements: - Bar Chart – Displays last 30 days of most active folders - Table – Provides summary of most active folders |
+| Report              | Description                                                                                       | Default Tags | Report Elements                                                                                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Most Active Folders | This report highlights the most active folder in the target Box environment over the last 30 days | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays last 30 days of most active folders</li><li>Table – Provides summary of most active folders</li></ul> |
+

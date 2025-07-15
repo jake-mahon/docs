@@ -1,3 +1,9 @@
+---
+title: "Effective Access Report"
+description: "Effective Access Report"
+sidebar_position: 50
+---
+
 # Effective Access Report
 
 The Effective Access report for a computer object provides insight into every resource the audited

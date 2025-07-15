@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views"
+description: "Standard Reference Tables & Views"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views
 
 The ADPermissions Data Collector gathers essential user and group inventory information into

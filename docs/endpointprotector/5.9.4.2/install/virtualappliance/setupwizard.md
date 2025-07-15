@@ -29,7 +29,10 @@ Follow the steps to conﬁgure the Endpoint Protector Appliance for the ﬁrst t
 
 **Step 4 –** The conﬁguration methods are now available.
 
-**CAUTION:** We recommend a manual conﬁguration of the network settings.
+:::warning
+We recommend a manual conﬁguration of the network settings.
+:::
+
 
 ![Automatic Network configuration for Endpoint Protector Appliance](/img/product_docs/endpointprotector/5.9.4.2/install/autonetworkconfig.webp)
 

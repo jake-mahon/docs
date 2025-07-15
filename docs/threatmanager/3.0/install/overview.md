@@ -13,20 +13,23 @@ configured to send data to Threat Manager.
 
 The Threat Manager installer is packaged with four executable files.
 
-**CAUTION:** The PostgreSQL database must be installed before installing Threat Manager.
+:::warning
+The PostgreSQL database must be installed before installing Threat Manager.
+:::
 
-Netwrix_Setup.exe
+
+**Netwrix_Setup.exe**
 
 This executable starts a setup launcher containing buttons to install the PostgreSQL database and
 the application. The launcher installs these components on the same server. See the installation
 details for each components below.
 
-NetwrixPostgreSQL14.exe
+**NetwrixPostgreSQL14.exe**
 
 This executable is for installing the PostgreSQL database on a different server from the
 application.
 
-NetwrixThreatManager.exe
+**NetwrixThreatManager.exe**
 
 This executable is for installing the application and its services:
 
@@ -48,7 +51,7 @@ The following prerequisites will be installed if they are not present:
 - VC++ redist v14.28.29914
 - Python v3.10.8x64
 
-NetwrixThreatManager.ActionService.exe
+**NetwrixThreatManager.ActionService.exe**
 
 This executable is for installing the Netwrix Threat Manager Action Service on additional servers.
 

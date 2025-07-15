@@ -51,8 +51,11 @@ green checkmark to indicate the credential has been provided.
 **Step 4 –** Repeat Steps 1 to 3 for each credential that needs updating. Once all the credentials
 show a green checkmark, click **Next**.
 
-**NOTE:** At this stage you can click **Cancel** to close the wizard and the task will not be
+:::note
+At this stage you can click **Cancel** to close the wizard and the task will not be
 renamed.
+:::
+
 
 ![Rename Scheduled Task wizard Progress page](/img/product_docs/accessanalyzer/12.0/admin/schedule/progress.webp)
 

@@ -19,7 +19,10 @@ password. If you are logging in for the first time, use the default credentials:
 - Username: root
 - Password: epp2011
 
-**NOTE:** Please ensure to update your login credentials after the first login to enhance security.
+:::note
+Please ensure to update your login credentials after the first login to enhance security.
+:::
+
 
 ![ Input your assigned username and password to log in to the Server](/img/product_docs/endpointprotector/5.9.4.2/admin/serverlogin.webp)
 

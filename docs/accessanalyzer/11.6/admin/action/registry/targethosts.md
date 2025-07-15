@@ -1,3 +1,9 @@
+---
+title: "Registry: Target Hosts"
+description: "Registry: Target Hosts"
+sidebar_position: 10
+---
+
 # Registry: Target Hosts
 
 Use the Target Hosts page to identify the target hosts whose registries the action examines or

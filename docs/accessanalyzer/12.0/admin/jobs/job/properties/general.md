@@ -29,8 +29,11 @@ The log level feature includes the following options:
 
 - Use global setting – use the Application log level feature, configured at the global level.
 
-    **NOTE:** By selecting the another option from the drop-down list, you break inheritance for
+    :::note
+    By selecting the another option from the drop-down list, you break inheritance for
     this job.
+    :::
+
 
 - Debug – Records everything that happens during job execution, most verbose level of logging
     - Records all Info level information
@@ -48,8 +51,11 @@ The log level feature includes the following options:
     - Records errors and the time of occurrence
     - Records job completion time
 
-**NOTE:** You can switch between log levels. All the levels, including the one that you choose,
+:::note
+You can switch between log levels. All the levels, including the one that you choose,
 shall be set for messaging in the application.
+:::
+
 
 ![Log Level Options](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/properties/generalloglevel.webp)
 

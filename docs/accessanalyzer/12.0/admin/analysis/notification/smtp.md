@@ -23,8 +23,11 @@ The following options are available:
 
 - Subject – Specify a subject for the email. The subject can include field variables.
 
-    **_RECOMMENDED:_** If configuring a Notification analysis module for a pre-configured job, it is
+    :::info
+    If configuring a Notification analysis module for a pre-configured job, it is
     recommended not to change the existing field variables.
+    :::
+
 
 - Insert Field – Select a source data column to add to the message body or subject line. Click the
   drop-down to see a list of columns. Once the column displays in the field, click an arrow to
@@ -41,7 +44,10 @@ The following options are available:
   overwritten through manual configuration
 - Preview – Displays a preview of the email.
 
-    **NOTE:** The preview may not show any or all of the filters applied in previous steps.
+    :::note
+    The preview may not show any or all of the filters applied in previous steps.
+    :::
+
 
 - Clear Template – Clears all data from the subject and message boxes. Does not clear e-mail
   addresses.

@@ -23,10 +23,13 @@ The Status node tables are:
   global configuration set in the **Settings** > **Application** node. By default, this is set to
   filter to the most recent data.
 
-    **NOTE:** The Job Statistics Retention settings in the **Settings** > **Application** node
+    :::note
+    The Job Statistics Retention settings in the **Settings** > **Application** node
     control how long the job statistics history is kept in the database and displayed Job Stats and
     Task Stats tables. See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for
     additional information.
+    :::
+
 
 - Messages table – Provides a list of any warning or error messages that occurred during the
   execution of the job. For example, a frequently generated message is

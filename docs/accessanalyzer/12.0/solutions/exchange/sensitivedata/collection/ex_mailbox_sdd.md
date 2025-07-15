@@ -47,8 +47,11 @@ click **Query Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The EWS Mailbox Data Collector
 Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
+:::
+
 
 ![EWS Mailbox Data Collector Wizard Mailbox scope settings page](/img/product_docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/collection/mailboxscopesettings.webp)
 
@@ -72,8 +75,11 @@ Sensitive data matches can be limited to reduce storage space. See the
 [EWSMailbox: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/sddoptions.md) topic for
 additional information.
 
-**NOTE:** By default, discovered sensitive data strings are not stored in the Access Analyzer
+:::note
+By default, discovered sensitive data strings are not stored in the Access Analyzer
 database.
+:::
+
 
 ![EWS Mailbox Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/criteria.webp)
 
@@ -103,7 +109,10 @@ additional information.
 See the [EWSMailbox: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/results.md) topic for
 additional information.
 
-**NOTE:** By default, all categories are selected under sensitive data.
+:::note
+By default, all categories are selected under sensitive data.
+:::
+
 
 **Step 10 –** Navigate to the Summary page, click **Finish** to save any setting modifications or
 click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window
@@ -115,8 +124,11 @@ The job now applies the modification to future job executions.
 View the analysis task by navigating to the **Exchange** > **7.Sensitive Data** >
 **EX_Mailbox_SDD** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailbox_SDD Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/collection/mailboxsddanalysis.webp)
 

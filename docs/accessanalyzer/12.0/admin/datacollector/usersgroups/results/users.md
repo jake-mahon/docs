@@ -43,10 +43,16 @@ information on user objects:
 
 Click **Select all** to select all properties. Click **Clear all** to deselect all properties
 
-**CAUTION:** The number of offline Users can significantly increase the time for a scan.
+:::warning
+The number of offline Users can significantly increase the time for a scan.
+:::
 
-**_RECOMMENDED:_** For large networks, configure the length of time for a scan when Users are
+
+:::info
+For large networks, configure the length of time for a scan when Users are
 offline.
+:::
+
 
 - Retry Attempts [number]
 - Retry Interval [number] seconds

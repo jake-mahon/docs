@@ -1,3 +1,9 @@
+---
+title: "All Commands"
+description: "All Commands"
+sidebar_position: 10
+---
+
 # All Commands
 
 You can get a list of all GroupID Management Shell cmdlets using the _Get-ImanamiCommand_ cmdlet.
@@ -126,4 +132,4 @@ You can get a list of all GroupID Management Shell cmdlets using the _Get-Imanam
 See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -1,3 +1,9 @@
+---
+title: "Commit Active Directory Changes"
+description: "Commit Active Directory Changes"
+sidebar_position: 30
+---
+
 # Commit Active Directory Changes
 
 The Access Information Center can be configured to commit changes to Active Directory (AD) group

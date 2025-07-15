@@ -1,3 +1,9 @@
+---
+title: "EX_StaleMailboxes Job"
+description: "EX_StaleMailboxes Job"
+sidebar_position: 30
+---
+
 # EX_StaleMailboxes Job
 
 The EX_StaleMailboxes job provides analysis and reporting around orphaned and stale mailboxes.

@@ -1,3 +1,9 @@
+---
+title: "AD_MailSecurityGroups Job"
+description: "AD_MailSecurityGroups Job"
+sidebar_position: 80
+---
+
 # AD_MailSecurityGroups Job
 
 The AD_MailSecurityGroups Job identifies mail-enabled security groups within Active Directory.

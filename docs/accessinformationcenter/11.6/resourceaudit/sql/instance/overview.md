@@ -1,3 +1,9 @@
+---
+title: "Instance Level Reports"
+description: "Instance Level Reports"
+sidebar_position: 30
+---
+
 # Instance Level Reports
 
 The following reports are available at the instance level:

@@ -1,3 +1,9 @@
+---
+title: "Synology Ports"
+description: "Synology Ports"
+sidebar_position: 20
+---
+
 # Synology Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Synology.

@@ -1,3 +1,9 @@
+---
+title: "SPAA: Results"
+description: "SPAA: Results"
+sidebar_position: 140
+---
+
 # SPAA: Results
 
 The Results page is where properties that will be gathered are selected. It is a wizard page for all

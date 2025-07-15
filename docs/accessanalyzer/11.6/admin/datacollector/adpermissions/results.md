@@ -1,3 +1,9 @@
+---
+title: "ADPermissions: Results"
+description: "ADPermissions: Results"
+sidebar_position: 60
+---
+
 # ADPermissions: Results
 
 The Results page is where properties that will be gathered are selected. It is a wizard page for all

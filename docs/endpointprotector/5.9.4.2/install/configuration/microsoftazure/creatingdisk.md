@@ -75,8 +75,11 @@ generated](/img/product_docs/endpointprotector/5.9.4.2/configuration/azure/newvm
 
 **Step 8 –** Click Review + create and then Create.
 
-**NOTE:** For Additional Features, we recommend selecting HDD instead of SSD to avoid unnecessary
+:::note
+For Additional Features, we recommend selecting HDD instead of SSD to avoid unnecessary
 payments for an unused SSD attached to the Virtual Machine.
+:::
+
 
 ![A screenshot of a computer
 

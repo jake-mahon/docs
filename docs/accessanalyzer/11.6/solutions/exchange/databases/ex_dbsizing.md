@@ -1,3 +1,9 @@
+---
+title: "EX_DBSizing Job"
+description: "EX_DBSizing Job"
+sidebar_position: 30
+---
+
 # EX_DBSizing Job
 
 The EX_DBSizing Job provides visibility into current database sizes, growth statistics, and

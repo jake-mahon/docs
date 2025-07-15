@@ -1,3 +1,9 @@
+---
+title: "Sign In Using GroupID"
+description: "Sign In Using GroupID"
+sidebar_position: 30
+---
+
 # Sign In Using GroupID
 
 Let’s assume that we configured three service providers in GroupID. Users should be able to access

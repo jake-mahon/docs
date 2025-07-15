@@ -1,3 +1,9 @@
+---
+title: "Get-User"
+description: "Get-User"
+sidebar_position: 10
+---
+
 # Get-User
 
 Use the **Get-User** commandlet to retrieve basic information about a user that match your given
@@ -39,4 +45,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -129,8 +129,11 @@ Azure SQL Role.
 **Step 7 –** Click OK on the final screen to complete the custom role creation process. The custom
 role can now be used to register the Access Analyzer application within the Azure portal.
 
-**NOTE:** Depending upon the number of resources in the Azure tenancy, it might take some time for
+:::note
+Depending upon the number of resources in the Azure tenancy, it might take some time for
 the role to be made available to the resources.
+:::
+
 
 ## Register an Azure SQL Application
 
@@ -151,8 +154,11 @@ Supported account types options.
 been registered, the App registration overview blade will appear. Take note of the _Application
 (client) ID_ on this page.
 
-**NOTE:** The _Application (client) ID_ is required to create a Connection Profile within the Access
+:::note
+The _Application (client) ID_ is required to create a Connection Profile within the Access
 Analyzer.
+:::
+
 
 ![Azure SQL - Register and App - Application ID](/img/product_docs/accessanalyzer/12.0/requirements/target/config/azuresqlperm_customrolecreation_8.webp)
 
@@ -162,12 +168,18 @@ secret**.
 **Step 6 –** Enter a unique identifier in the Description field of the Add a client secret window.
 Select a Expiration time frame from the drop down. Click **Add** when finished.
 
-_Remember,_ you will have to update the Access Analyzer Connection Profile once the expiration time
+:::tip
+Remember, you will have to update the Access Analyzer Connection Profile once the expiration time
 frame is reached (within 24 months, for example).
+:::
+
 
 **Step 7 –** Make note of the key under the Value column.
 
-**NOTE:** The Value key on this paged will be used to create the Access Analyzer connection profile.
+:::note
+The Value key on this paged will be used to create the Access Analyzer connection profile.
+:::
+
 
 ![Azure SQL - Access Control (IAM) page](/img/product_docs/accessanalyzer/12.0/requirements/target/config/azuresqlperm_customrolecreation_11z.webp)
 

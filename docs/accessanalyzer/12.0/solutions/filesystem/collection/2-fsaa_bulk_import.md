@@ -27,8 +27,11 @@ access/permission auditing Bulk import category.
 View the analysis tasks by navigating to the **FileSystem** > **0.Collection** > **2-FSAA Bulk
 Import** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the 2-FSAA Bulk Import Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsaabulkimportanalysis.webp)
 

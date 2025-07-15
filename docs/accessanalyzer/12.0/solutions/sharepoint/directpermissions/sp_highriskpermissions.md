@@ -14,8 +14,11 @@ Anonymous Logon, or Domain users have been directly assigned permissions
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_HighRiskPermissions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_HighRiskPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/highriskpermissionsanalysis.webp)
 
@@ -35,6 +38,7 @@ In addition to the tables created by the analysis tasks which display informatio
 from directly applied permissions, the SP_HighRiskPermissions Job produces the following
 pre-configured report:
 
-| Report                | Description                                                                                                                                                           | Default Tags                                                  | Report Elements                                                                                                                                                                                                                                |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| High Risk Permissions | This report shows permissions of Authenticated Users, Anonymous Logon, or Domain users. Applying these trustees to permissions may inadvertently open security holes. | GDPR, SOX, HIPAA, PCI-DSS, GLBA, ITAR, FERPA, FISMA, ISO27001 | This report is comprised of three elements: - Stacked Bar Chart – Displays Open Resources - Table – Provides details on resource counts by permissions and high risk trustees - Table – Provides details top resources with open manage rights |
+| Report                | Description                                                                                                                                                           | Default Tags                                                  | Report Elements                                                                                                                                                                                                                                                            |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| High Risk Permissions | This report shows permissions of Authenticated Users, Anonymous Logon, or Domain users. Applying these trustees to permissions may inadvertently open security holes. | GDPR, SOX, HIPAA, PCI-DSS, GLBA, ITAR, FERPA, FISMA, ISO27001 | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays Open Resources</li><li>Table – Provides details on resource counts by permissions and high risk trustees</li><li>Table – Provides details top resources with open manage rights</li></ul> |
+

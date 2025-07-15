@@ -1,3 +1,9 @@
+---
+title: "FS_StaleShares Job"
+description: "FS_StaleShares Job"
+sidebar_position: 40
+---
+
 # FS_StaleShares Job
 
 The FS_StaleShares job is designed to report on stale shares from targeted file servers.

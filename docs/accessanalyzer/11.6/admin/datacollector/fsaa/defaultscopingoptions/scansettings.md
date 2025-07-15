@@ -1,3 +1,9 @@
+---
+title: "Scan Settings Tab"
+description: "Scan Settings Tab"
+sidebar_position: 10
+---
+
 # Scan Settings Tab
 
 The Scan Settings tab allows configuration of data collection settings.

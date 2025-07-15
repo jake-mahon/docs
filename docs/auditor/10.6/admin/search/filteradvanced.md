@@ -1,3 +1,9 @@
+---
+title: "Use Filters in Advanced Mode"
+description: "Use Filters in Advanced Mode"
+sidebar_position: 20
+---
+
 # Use Filters in Advanced Mode
 
 Netwrix Auditor provides an advanced set of filters and match type operators that enable you to

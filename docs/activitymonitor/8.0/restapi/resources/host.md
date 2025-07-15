@@ -93,7 +93,7 @@ sidebar_position: 30
 | stats.receivedCount                      | long     |               | Total number of events received by the agent for the Host.                                                                                                                                                                                                                           |
 | stats.lastEventTime                      | DateTime |               | The most recent timestamp among all recent events received for the Host. File servers and other event sources can deliver events out of order. For example, each node of PowerScale cluster has its log and delivery cadence. This field shows the MAX(timestamp) for recent events. |
 
-Response Example
+**Response Example**
 
 ```
 {

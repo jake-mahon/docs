@@ -1,3 +1,9 @@
+---
+title: "3.Broken Inheritance > SP_BrokenInheritance Job"
+description: "3.Broken Inheritance > SP_BrokenInheritance Job"
+sidebar_position: 50
+---
+
 # 3.Broken Inheritance > SP_BrokenInheritance Job
 
 Keeping track of directly applied permissions at mass is not realistic, the SP_BrokenInheritance job

@@ -1,3 +1,9 @@
+---
+title: "Search Feature"
+description: "Search Feature"
+sidebar_position: 50
+---
+
 # Search Feature
 
 The search feature consolidates and compartmentalizes search results based on events, time, objects,

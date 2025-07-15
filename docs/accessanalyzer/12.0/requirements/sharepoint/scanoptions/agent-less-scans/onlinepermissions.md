@@ -14,14 +14,14 @@ Console server across the network.
 
 The SharePoint agent-less scan architecture uses modern authentication in the target environment:
 
-Tenant Global Administrator Role
+**Tenant Global Administrator Role**
 
 - Tenant Global Administrator role is required to provision the application
 
     - Modern authentication enables Access Analyzer to scan SharePoint Online and all OneDrives in
       the target environment
 
-Permissions for Microsoft Graph APIs
+**Permissions for Microsoft Graph APIs**
 
 - Application Permissions:
 
@@ -50,7 +50,7 @@ Permissions for Microsoft Graph APIs
     - Group.Read.All – Read all groups
     - User.Read.All – Read all users' full profiles
 
-Permissions for Office 365 Management APIs
+**Permissions for Office 365 Management APIs**
 
 - Application Permissions:
 
@@ -58,7 +58,7 @@ Permissions for Office 365 Management APIs
     - ActivityFeed.ReadDlp – Read DLP policy events including detected sensitive data
     - ServiceHealth.Read – Read service health information for your organization
 
-Permissions for SharePoint APIs
+**Permissions for SharePoint APIs**
 
 - Application Permissions:
 

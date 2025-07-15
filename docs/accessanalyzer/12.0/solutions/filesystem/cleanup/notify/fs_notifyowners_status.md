@@ -15,8 +15,11 @@ additional information.
 Navigate to the **FileSystem** > **Cleanup** > **2. Notify** > **FS_NotifyOwners_Status** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_NotifyOwners_Status Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/notify/notifyownersstatusanalysis.webp)
 
@@ -28,6 +31,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_NotifyOwners_Status job
 produces the following pre-configured report.
 
-| Report                                          | Description                                                                                    | Default Tags | Report Elements                                                                                                                                                   |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Owner Notifications (Share Owner Notifications) | This report summarizes share owner notifications which have occurred during the Cleanup effort | None         | This report is comprised of two elements: - Line Chart – Displays the historical summary of notify share owners - Table – provides details on notify share owners |
+| Report                                          | Description                                                                                    | Default Tags | Report Elements                                                                                                                                                                         |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Owner Notifications (Share Owner Notifications) | This report summarizes share owner notifications which have occurred during the Cleanup effort | None         | This report is comprised of two elements: <ul><li>Line Chart – Displays the historical summary of notify share owners</li><li>Table – provides details on notify share owners</li></ul> |
+

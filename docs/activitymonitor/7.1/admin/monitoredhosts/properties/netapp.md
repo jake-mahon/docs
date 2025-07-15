@@ -1,3 +1,9 @@
+---
+title: "NetApp Tab"
+description: "NetApp Tab"
+sidebar_position: 100
+---
+
 # NetApp Tab
 
 The NetApp tab on a host’s Properties window allows users to modify settings, which are populated

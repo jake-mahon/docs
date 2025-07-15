@@ -1,3 +1,9 @@
+---
+title: "Authentication Job Group"
+description: "Authentication Job Group"
+sidebar_position: 30
+---
+
 # Authentication Job Group
 
 The Authentication job group provides information on authentication settings within audited systems

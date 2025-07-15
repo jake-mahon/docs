@@ -16,7 +16,10 @@ protocols, user access, and integrations to meet your organization’s needs.
 Select an option to grant access for clients based on the Department Code. You can also view the
 Default Department code - defdep.
 
-**NOTE:** See the System Settings topic for additional information.
+:::note
+See the System Settings topic for additional information.
+:::
+
 
 ![Department Usage](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
 
@@ -53,8 +56,11 @@ or computer rights.
 
 Manage settings related to Smart Groups, Default Groups for Computers or Users.
 
-**NOTE:** Smart Groups are dynamic groups for which membership can be deﬁned based on element name
+:::note
+Smart Groups are dynamic groups for which membership can be deﬁned based on element name
 pattern.
+:::
+
 
 - Enable Smart Groups – when this setting is disabled, it will convert Smart Groups to regular
   groups with no entities assigned and will remove the Default Group for Computers and the Default
@@ -62,12 +68,18 @@ pattern.
 - Enable Default Group for Computers – this will create a default group for computers containing all
   computers that are not part of a Smart Group.
 
-**NOTE:** By disabling this setting, you will delete the Default Group for Computers.
+:::note
+By disabling this setting, you will delete the Default Group for Computers.
+:::
+
 
 - Enable Default Group for Users – this will create a default group for users containing all users
   that are not part of a Smart Group.
 
-**NOTE:** By disabling this setting, you will delete the Default Group for Users.
+:::note
+By disabling this setting, you will delete the Default Group for Users.
+:::
+
 
 ![Smart Groups](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/smartgroups.webp)
 
@@ -80,8 +92,11 @@ and port.
 - Use custom port: Specify a custom port for generating the client update download link, instead of
   using the default port 443.
 
-**NOTE:** Note: Ensure that your specified hostname and port settings comply with your network
+:::note
+Note: Ensure that your specified hostname and port settings comply with your network
 policies and any security requirements.
+:::
+
 
 ![Client Update Mechanism](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/clientupdatemechanism.webp)
 
@@ -103,8 +118,11 @@ Manage the following log settings:
 
 - Set the Maximum number of rows in millions to export the Logs Report in .csv format.
 
-**NOTE:** By setting the maximum number of rows to 1.0, you will export 1 million logs in the Logs
+:::note
+By setting the maximum number of rows to 1.0, you will export 1 million logs in the Logs
 Report .csv export as one row corresponds with one log.
+:::
+
 
 When having partitions for logs on the server, make sure the dates are also selected when making the
 export.
@@ -112,15 +130,21 @@ export.
 - Reporting V2 – enabled by default, use this setting to modify the Content Aware Report log
   structure and display information in Destination details, Email sender, and Email subject columns.
 
-**NOTE:** For Endpoint Protector Server versions older than 5.7.0.0, the Reporting V2 setting is not
+:::note
+For Endpoint Protector Server versions older than 5.7.0.0, the Reporting V2 setting is not
 enabled by default.
+:::
+
 
 The structure enabled by this setting will also be reﬂected in SIEM.
 
 - **NOTE:** Set the Maximum number of reported threats per event that will be displayed in the
   Content Aware Report log structure, the expanded Log Details section, on the Count column.
 
-**NOTE:** You can set a number of reported threats between 100 and 1000.
+:::note
+You can set a number of reported threats between 100 and 1000.
+:::
+
 
 ![Log Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/logsettings.webp)
 
@@ -159,12 +183,18 @@ Enable the Ignore Thresholds setting to allow Endpoint Protector to log all sens
 from scanned ﬁles from 1 to 100 000 threats limit set in the Maximum number of reported threats
 ﬁeld, for the Content Aware Protection Block policies applied.
 
-**NOTE:** This will increase the amount of logging and potentially affect client and server
+:::note
+This will increase the amount of logging and potentially affect client and server
 performance.
+:::
 
-**CAUTION:** The Limit Reporting Content Aware Protection setting has priority over Ignore
+
+:::warning
+The Limit Reporting Content Aware Protection setting has priority over Ignore
 Thresholds setting. If Limit Reporting Content Aware Protection is enabled, the reporting will stop
 when the threshold is reached.
+:::
+
 
 The maximum number of reported threats will be automatically modiﬁed as follows:
 
@@ -225,8 +255,11 @@ Protector Server
 - or 1 E-mail + 3 SSN US + 6 CC Visa
 - Etc.
 
-**NOTE:** Identiﬁers which are not part of the Boolean logic in a Content Aware Protection policy
+:::note
+Identiﬁers which are not part of the Boolean logic in a Content Aware Protection policy
 will not be reported!
+:::
+
 
 Generally, a Content Aware Protection policy (Block & Report) will trigger when the Boolean logic of
 the policy is satisﬁed. However, with ‘Ignore Thresholds’ enabled and with 1+ ‘AND’ operator(s) in
@@ -401,14 +434,23 @@ Certiﬁcate Stack**.
 
 The Server certiﬁcate will be regenerated in a couple of minutes, and the user will be logged out.
 
-**NOTE:** Please download the Deep Packet Inspection certificate again on both macOS and Linux, and
+:::note
+Please download the Deep Packet Inspection certificate again on both macOS and Linux, and
 ensure that it is trusted in the respective keychain on each system.
+:::
 
-**NOTE:** Regenerating the CA certificate requires manually adding it to the macOS keychain, as well
+
+:::note
+Regenerating the CA certificate requires manually adding it to the macOS keychain, as well
 as to Linux systems.
+:::
 
-**CAUTION:** Do not use this setting if no instance of macOS 12.0 (or higher) is registered on the
+
+:::warning
+Do not use this setting if no instance of macOS 12.0 (or higher) is registered on the
 Endpoint Protector server.
+:::
+
 
 ![Server Certiﬁcate Stack](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/servercertstack.webp)
 
@@ -419,15 +461,21 @@ Login User** to use when single sign on is not functional.
 
 ![Single Sign On](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon.webp)
 
-**NOTE:** See the [Single Sign On](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon/singlesignon.md) topic for additional information.
+:::note
+See the [Single Sign On](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/singlesignon/singlesignon.md) topic for additional information.
+:::
+
 
 ## Active Directory Authentication
 
 Enable the **Active Directory Authentication** setting to import an Active Directory group of
 administrators into Endpoint Protector as Super Administrators.
 
-**NOTE:** By enabling the Active Directory Authentication, you allow the administrators to use their
+:::note
+By enabling the Active Directory Authentication, you allow the administrators to use their
 Active Directory credentials to log into Endpoint Protector.
+:::
+
 
 To import an Active Directory group of administrators, follow these steps:
 
@@ -445,10 +493,13 @@ conﬁrm the process was successful.
 
 **Step 4 –** Click **Sync AD Administrators**.
 
-**CAUTION:** Once the Active Directory Administrators Group has been deﬁned, only users that are
+:::warning
+Once the Active Directory Administrators Group has been deﬁned, only users that are
 part of this AD group will be synced and imported as Super Administrators for Endpoint Protector.
 Any additional administrators (with different access control levels) can be created manually from
 the System Administrators section.
+:::
+
 
 ![Active Directory Authentication](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/activedirectoryauthentication.webp)
 
@@ -458,7 +509,10 @@ the System Administrators section.
 
 Manage Email server settings based on the email type you use - native or SMTP.
 
-**NOTE:** To enable this feature, you need an Internet connection.
+:::note
+To enable this feature, you need an Internet connection.
+:::
+
 
 Manage email server settings based on your email type—native or SMTP, with support for TLS 1.3.
 
@@ -477,8 +531,11 @@ Conﬁgure Proxy server settings by managing the following:
 
 Once you provide all the information, click Test to conﬁrm the settings are working successfully.
 
-**NOTE:** If a Proxy Server is not conﬁgured, Endpoint Protector will connect directly to
+:::note
+If a Proxy Server is not conﬁgured, Endpoint Protector will connect directly to
 liveupdate.endpointprotector.com.
+:::
+
 
 ![Proxy Server Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/proxyserversettings.webp)
 

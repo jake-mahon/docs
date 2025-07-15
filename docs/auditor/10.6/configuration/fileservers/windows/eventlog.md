@@ -1,3 +1,9 @@
+---
+title: "Configure Event Log Size and Retention Settings"
+description: "Configure Event Log Size and Retention Settings"
+sidebar_position: 50
+---
+
 # Configure Event Log Size and Retention Settings
 
 The procedure below describes one of the possible ways to adjust event log settings. If you have

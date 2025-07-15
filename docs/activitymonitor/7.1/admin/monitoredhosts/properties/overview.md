@@ -1,3 +1,9 @@
+---
+title: "Host Properties Window"
+description: "Host Properties Window"
+sidebar_position: 20
+---
+
 # Host Properties Window
 
 Once a host has been added to the Monitored Hosts list, the configuration settings can be modified

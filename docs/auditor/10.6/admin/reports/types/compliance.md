@@ -1,3 +1,9 @@
+---
+title: "Compliance Reports"
+description: "Compliance Reports"
+sidebar_position: 70
+---
+
 # Compliance Reports
 
 For your convenience, besides grouping by data source the reports are grouped by compliance

@@ -1,3 +1,9 @@
+---
+title: "ADActivity Data Collector"
+description: "ADActivity Data Collector"
+sidebar_position: 30
+---
+
 # ADActivity Data Collector
 
 The ADActivity Data Collector integrates with the Netwrix Activity Monitor by reading the Active

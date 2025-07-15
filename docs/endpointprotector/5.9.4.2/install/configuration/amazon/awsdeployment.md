@@ -26,9 +26,12 @@ Protector.
 
 **Step 5 –** Select an Instance Type.
 
-**NOTE:** For assistance in selecting the instance type that best suits your needs, customers should
+:::note
+For assistance in selecting the instance type that best suits your needs, customers should
 submit a support ticket through the
 [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
+:::
+
 
 **Step 6 –** Select an available key pair or create a new key pair.
 

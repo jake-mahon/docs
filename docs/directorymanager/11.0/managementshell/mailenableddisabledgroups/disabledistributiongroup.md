@@ -1,3 +1,9 @@
+---
+title: "Disable-DistributionGroup"
+description: "Disable-DistributionGroup"
+sidebar_position: 10
+---
+
 # Disable-DistributionGroup
 
 Use this commandlet to disable the mailing capabilities for a distribution group in Directory.
@@ -33,4 +39,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mail-Enable/Disable Groups Commands](/docs/directorymanager/11.0/managementshell/mailenableddisabledgroups/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

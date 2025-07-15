@@ -18,7 +18,10 @@ select **Create Job**.
 **Step 2 –** Provide a unique, descriptive name for the job. The default name is `NewJob`. Some
 considerations for naming conventions:
 
-**CAUTION:** Do not end a job name with a space.
+:::warning
+Do not end a job name with a space.
+:::
+
 
 - There can never be two jobs with the same name. Access Analyzer automatically appends a numeral to
   the end of a job name to avoid duplicates, for example `NewJob1`.

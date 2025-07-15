@@ -1,3 +1,9 @@
+---
+title: "Securing Published Reports Only"
+description: "Securing Published Reports Only"
+sidebar_position: 60
+---
+
 # Securing Published Reports Only
 
 In order to secure published reports through the Web Console, it is necessary to enable Role Based
@@ -62,7 +68,7 @@ Enterprise Auditor Console.
 When Role Based Access is first enabled, restart the Enterprise Auditor application to ensure all
 roles are properly active. The Report Viewer role can be assigned at the job group, job, and report
 configuration levels. See the
-[Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/reporting.md),
+[Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/settings/reporting.md),
 [Report Roles Tab](/docs/accessanalyzer/11.6/admin/jobs/job/properties/reportroles.md),
 and
 [Publish Security Page](/docs/accessanalyzer/11.6/admin/report/wizard/publishsecurity.md)

@@ -1,3 +1,9 @@
+---
+title: "Troubleshoot Issues"
+description: "Troubleshoot Issues"
+sidebar_position: 70
+---
+
 # Troubleshoot Issues
 
 | Error in PowerShell                                                                                            | Resolution                                                                                                                                                                                                                                                                                                                                              |

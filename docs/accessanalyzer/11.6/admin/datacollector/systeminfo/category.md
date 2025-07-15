@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: Category"
+description: "SystemInfo: Category"
+sidebar_position: 10
+---
+
 # SystemInfo: Category
 
 The Category page contains the following categories:

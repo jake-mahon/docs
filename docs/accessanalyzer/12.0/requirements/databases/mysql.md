@@ -15,13 +15,13 @@ environments to collect permissions and sensitive data. It scans:
 - Amazon Aurora MySQL Engine
 - MariaDB 10.x
 
-Target MySQL Requirements
+**Target MySQL Requirements**
 
 The following are requirements for the MySQL to be scanned:
 
 - WINRM Service installed and enabled — Required only if MySQL is running on Windows
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -41,18 +41,21 @@ This solution employs the following data collector to scan the target environmen
 
 ## Permissions
 
-For .Active Directory Inventory Prerequisite
+**For .Active Directory Inventory Prerequisite**
 
 - Read access to directory tree
 - List Contents & Read Property on the Deleted Objects Container
 
-    **NOTE:** See the Microsoft
+    :::note
+    See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
     [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
+    :::
 
-For MySQL Data Collection
+
+**For MySQL Data Collection**
 
 - Read access to MySQL instance to include all databases contained within each instance
 - Windows Only — Domain Admin or Local Admin privilege
@@ -61,12 +64,12 @@ For MySQL Data Collection
 
 The following firewall ports are needed:
 
-For ADInventory Data Collector
+**For ADInventory Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For SQL Data Collector
+**For SQL Data Collector**
 
 - Specified by Instances table (default is 3306)

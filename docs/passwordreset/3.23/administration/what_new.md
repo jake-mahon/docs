@@ -1,3 +1,9 @@
+---
+title: "What's New"
+description: "What's New"
+sidebar_position: 10
+---
+
 # What's New
 
 ## Netwrix Password Reset Server

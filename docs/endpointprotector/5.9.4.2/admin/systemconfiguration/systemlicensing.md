@@ -13,10 +13,13 @@ flexible license management.
 
 ![System Licensing](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/systemlicensing.webp)
 
-**NOTE:** As of Endpoint Protector Version 5.9.0.0, a new subscription-based licensing system has
+:::note
+As of Endpoint Protector Version 5.9.0.0, a new subscription-based licensing system has
 been introduced. This change removes the licensing restrictions on Premium features, granting
 unrestricted access to features like Contextual Detection for all customers. This adjustment aligns
 with the revised licensing model, categorizing all features as standard and accessible to all users.
+:::
+
 
 Endpoint Protector Licensing is based on two main aspects:
 
@@ -68,7 +71,10 @@ including a checkbox for "Serial Number" (defaulted to 'show'). This resolves is
 computer names and facilitates more effective management via Serial Number integration, reinforced
 by MachineUUIDs.
 
-**NOTE:** If a computer's Serial Number is absent, it will be substituted with MachineUUID to ensure
+:::note
+If a computer's Serial Number is absent, it will be substituted with MachineUUID to ensure
 endpoint machine reliability, now featuring in the license page column across all OS platforms.
+:::
+
 
 ![Licensing Table](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/licensingtable.webp)

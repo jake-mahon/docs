@@ -1,3 +1,9 @@
+---
+title: "Computer Reports Quick Reference Guide"
+description: "Computer Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # Computer Reports Quick Reference Guide
 
 The following reports are available for selection within the Computer Audit interface:

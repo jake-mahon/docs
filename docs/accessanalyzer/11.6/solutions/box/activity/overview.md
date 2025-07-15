@@ -1,3 +1,9 @@
+---
+title: "1.Activity Job Group"
+description: "1.Activity Job Group"
+sidebar_position: 30
+---
+
 # 1.Activity Job Group
 
 The **Box** > **1.Activity** Job Group identifies long term trends of activity providing insight

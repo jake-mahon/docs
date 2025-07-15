@@ -1,3 +1,9 @@
+---
+title: "Securing Password Reset"
+description: "Securing Password Reset"
+sidebar_position: 70
+---
+
 # Securing Password Reset
 
 Password Reset has many inbuilt security features, but there are some things you should do to secure

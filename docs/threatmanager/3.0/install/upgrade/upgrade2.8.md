@@ -12,8 +12,11 @@ Follow the steps to upgrade Threat Manager 2.6/2.7 to 2.8 or to apply a hotfix t
 
 ![postgresql](/img/product_docs/threatmanager/3.0/install/postgresql.webp)
 
-**NOTE:** The migration of PostgreSQL 10 to 14 will require a migration of theThreat Manager
+:::note
+The migration of PostgreSQL 10 to 14 will require a migration of theThreat Manager
 database. You may proceed through the migration process in the following menu.
+:::
+
 
 **Step 2 –** Configure the following settings:
 
@@ -35,8 +38,11 @@ database. You may proceed through the migration process in the following menu.
         - High – Higher level of compression reduces the disk space needed for the migration, but it
           increases the time required for completion
 
-        **NOTE:** The compression algorithm option is used on the exported data. It does not affect
+        :::note
+        The compression algorithm option is used on the exported data. It does not affect
         either the old or the new database.
+        :::
+
 
         ![postgresqlthreads](/img/product_docs/threatmanager/3.0/install/postgresqlthreads.webp)
 
@@ -51,26 +57,35 @@ database. You may proceed through the migration process in the following menu.
     - Reduce Source Databaze Size – This action will lead to the migration dropping the indexes in
       the old databases, prior to performing the migration
 
-        **NOTE:** This setting is not recommended as it will leave the old database in a broken
+        :::note
+        This setting is not recommended as it will leave the old database in a broken
         state, but the data is preserved. Some users may need this option if they do not have enough
         free disk space to perform the migration.
+        :::
+
 
         If the migration fails, it can be re-run from the installer.
 
         This option is also reveals a **Delete Source Database** checkbox. After exporting the data
         from the old database, the old database will be deleted.
 
-        **CAUTION:** The use of **Delete Source Database** is an extreme option that highly not
+        :::warning
+        The use of **Delete Source Database** is an extreme option that highly not
         recommended. It should only be used if you fully understand its purpose and the actions it
         entails.
+        :::
+
 
         If the migration fails, user will need to manually import the data into the new database
         from the export file.
 
 **Step 3 –** Click **Validate** to proceed. Then, click **Next** in the bottom right corner.
 
-**NOTE:** The migration of PostgreSQL 10 to 14 may require significant disk space to perform safely.
+:::note
+The migration of PostgreSQL 10 to 14 may require significant disk space to perform safely.
 The disk space required for the backup does not need to be on the same disk as the database itself.
+:::
+
 
 ![updatentm](/img/product_docs/threatmanager/3.0/install/updatentm.webp)
 
@@ -87,9 +102,12 @@ should see the existing PostgreSQL database and prompt to migrate.
 
 **Step 7 –** Click **Next**.
 
-**NOTE:** Migrating a large database can take about 24 hours or more. During this time Netwrix
+:::note
+Migrating a large database can take about 24 hours or more. During this time Netwrix
 Threat Manager will not work. Installing Netwrix Threat Manager 2.8 with a new database, and
 directing event streams to that server after the installation is complete, will eliminate downtime.
+:::
+
 
 ## Clean up Dependencies
 
@@ -126,8 +144,11 @@ Follow the steps to identify and create new app tokens.
 tokens that have been deprecated during the upgrade. A deprecated app token can be identified by the
 presence of a red warning triangle.
 
-**NOTE:** Non-local action services will need their app tokens updated. Local action services will
+:::note
+Non-local action services will need their app tokens updated. Local action services will
 be automatically updated.
+:::
+
 
 ![apptokensdep](/img/product_docs/threatmanager/3.0/install/apptokensdep.webp)
 

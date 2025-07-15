@@ -22,9 +22,12 @@ task, or executed as part of the job group. Follow the steps to disable a job.
 
 **Step 1 –** Select a job group or job.
 
-**NOTE:** When disabling jobs at the job group level, all jobs contained in the job group are
+:::note
+When disabling jobs at the job group level, all jobs contained in the job group are
 disabled, but the job group is not disabled. Any additional jobs added to that job group at a later
 time will be enabled by default.
+:::
+
 
 ![Disable Job from Jobs Tree](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/disablejob.webp)
 

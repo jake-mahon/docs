@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Sampling Host"
+description: "Mailbox: Sampling Host"
+sidebar_position: 30
+---
+
 # Mailbox: Sampling Host
 
 Use the Sampling Host page to specify the Exchange server to target. It is a wizard page for all

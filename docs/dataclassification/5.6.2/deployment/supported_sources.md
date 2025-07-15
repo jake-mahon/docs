@@ -1,3 +1,9 @@
+---
+title: "Supported Data Sources"
+description: "Supported Data Sources"
+sidebar_position: 10
+---
+
 # Supported Data Sources
 
 The table below lists systems that can be crawled with Netwrix Data Classification:

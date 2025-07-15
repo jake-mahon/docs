@@ -1,3 +1,9 @@
+---
+title: "AD_GroupPolicy Job"
+description: "AD_GroupPolicy Job"
+sidebar_position: 30
+---
+
 # AD_GroupPolicy Job
 
 The AD_GroupPolicy Job audits all Group Policies that are present on the Domain Controller, and

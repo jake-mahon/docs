@@ -13,8 +13,8 @@ password policy for local user accounts.
 If your domain contains some read-only domain controllers, then installation of Password Policy
 Enforcer on these servers is only necessary if you are using the following features:
 
-- [Rules](/docs/passwordpolicyenforcer/11.0/administration-overview/manage-policies/rules/rules.md)
-- [Password Policy Client](/docs/passwordpolicyenforcer/11.0/administration-overview/password-policy-client/password_policy_client.md)
+- [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md)
+- [Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
 - [Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/web-overview/web_overview.md)
 
@@ -31,7 +31,7 @@ The Server installation package includes multiple features selected during insta
 Manager to install Netwrix Password Policy Enforcer, copy the **msi** files to a distribution
 folder. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/11.0/installation/installationgpm.md) topic for additional
 details. You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/administration-overview/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
 
 **NOTE:** Continue with these steps to install one or more features on your current server or domain
 controller. You must repeat these steps for each server where the features are installed.

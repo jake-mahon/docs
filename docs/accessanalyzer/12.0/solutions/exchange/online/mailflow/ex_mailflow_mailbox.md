@@ -30,8 +30,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_Mailflow_Mailbox** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 
@@ -60,9 +63,10 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the EX_Mailflow_Mailbox job
 produces the following pre-configured reports.
 
-| Report                                                                      | Description                                      | Default Tags | Report Elements                                                                                                                                                                      |
-| --------------------------------------------------------------------------- | ------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Top Users Message Count by Message ID (Top User Traffic By Message ID)      | Displays message counts for users by Message ID. | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 users traffic by message ID - Table – Provides details on the last 30 days user traffic by message ID         |
-| Top Users Message Count By Recipient (Top Users Traffic By Recipient)       | Displays message counts for users by recipient.  | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 users traffic by recipient - Table – Provides details on the last 30 days user traffic by recipient           |
-| Top Users Message Size By Message ID (Top Users Traffic Size By Message ID) | Displays message sizes for users by Message ID.  | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 users traffic size by message ID - Table –Details on the last 30 days user traffic size by recipient          |
-| Top Users Message Size By Recipient (Top Users Traffic Size By Recipient)   | Displays message sizes for users by recipient.   | None         | This report is comprised of two elements: - Bar Chart – Displays top 5 users traffic size by recipient - Table – Provides details on the last 30 days user traffic size by recipient |
+| Report                                                                      | Description                                      | Default Tags | Report Elements                                                                                                                                                                                            |
+| --------------------------------------------------------------------------- | ------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top Users Message Count by Message ID (Top User Traffic By Message ID)      | Displays message counts for users by Message ID. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic by message ID</li><li>Table – Provides details on the last 30 days user traffic by message ID</li></ul>         |
+| Top Users Message Count By Recipient (Top Users Traffic By Recipient)       | Displays message counts for users by recipient.  | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic by recipient</li><li>Table – Provides details on the last 30 days user traffic by recipient</li></ul>           |
+| Top Users Message Size By Message ID (Top Users Traffic Size By Message ID) | Displays message sizes for users by Message ID.  | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic size by message ID</li><li>Table –Details on the last 30 days user traffic size by recipient</li></ul>          |
+| Top Users Message Size By Recipient (Top Users Traffic Size By Recipient)   | Displays message sizes for users by recipient.   | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top 5 users traffic size by recipient</li><li>Table – Provides details on the last 30 days user traffic size by recipient</li></ul> |
+

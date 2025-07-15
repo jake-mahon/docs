@@ -1,3 +1,9 @@
+---
+title: "AD FS"
+description: "AD FS"
+sidebar_position: 20
+---
+
 # AD FS
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

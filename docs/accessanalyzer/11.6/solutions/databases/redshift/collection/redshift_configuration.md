@@ -1,3 +1,9 @@
+---
+title: "Redshift_Configuration Job"
+description: "Redshift_Configuration Job"
+sidebar_position: 10
+---
+
 # Redshift_Configuration Job
 
 The Redshift_Configuration job returns additional configuration settings from Redshift servers.

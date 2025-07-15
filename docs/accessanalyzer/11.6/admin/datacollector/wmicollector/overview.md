@@ -1,3 +1,9 @@
+---
+title: "WMICollector Data Collector"
+description: "WMICollector Data Collector"
+sidebar_position: 400
+---
+
 # WMICollector Data Collector
 
 The WMICollector Data Collector identifies data for certain types of WMI classes and namespaces. The

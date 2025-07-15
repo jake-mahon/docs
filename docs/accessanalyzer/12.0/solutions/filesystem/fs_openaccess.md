@@ -19,8 +19,11 @@ The FS_OpenAccess job is located in the 1.Open Access job group.
 View the analysis tasks by navigating to the **FileSystem** > **1.Open Access** >
 **FS_OpenAccess** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_OpenAccess Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/openaccessanalysis.webp)
 
@@ -50,9 +53,11 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_OpenAccess job produces
 the following pre-configured reports:
 
-| Report                               | Description                                                                                                                                                           | Default Tags                                          | Report Elements                                                                                                                                             |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Folder Details (Open Folder Details) | This report identifies all open folders within the targeted environment.                                                                                              | None                                                  | This report is comprised of one element: - Table – Provides details on open folders                                                                         |
-| Hosts with Open Access               | This report identifies hosts with the highest number of open folders.                                                                                                 | None                                                  | This report is comprised of two elements: - Bar Chart – Displays top hosts by open folder count - Table – Provides details on hosts with open folder access |
-| Open Shares                          | This report identifies shares with open resources. The Open Access column shows the highest levels of access given to all users in any one resource inside the share. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: - Bar Chart – Displays largest open shares by folder count - Table – Provides details on open shares              |
-| Remediation Status                   | This report identifies the historical success of the organization's share management effort.                                                                          | None                                                  | This report is comprised of two elements: - Column Chart – Displays the remediation status - Table – Provides details on remediation status                 |
+| Report                               | Description                                                                                                                                                           | Default Tags                                          | Report Elements                                                                                                                                                                   |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Folder Details (Open Folder Details) | This report identifies all open folders within the targeted environment.                                                                                              | None                                                  | This report is comprised of one element: <ul><li>Table – Provides details on open folders</li></ul>                                                                               |
+| Hosts with Open Access               | This report identifies hosts with the highest number of open folders.                                                                                                 | None                                                  | This report is comprised of two elements: <ul><li>Bar Chart – Displays top hosts by open folder count</li><li>Table – Provides details on hosts with open folder access</li></ul> |
+| Open Shares                          | This report identifies shares with open resources. The Open Access column shows the highest levels of access given to all users in any one resource inside the share. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of two elements: <ul><li>Bar Chart – Displays largest open shares by folder count</li><li>Table – Provides details on open shares</li></ul>              |
+| Remediation Status                   | This report identifies the historical success of the organization's share management effort.                                                                          | None                                                  | This report is comprised of two elements: <ul><li>Column Chart – Displays the remediation status</li><li>Table – Provides details on remediation status</li></ul>                 |
+
+

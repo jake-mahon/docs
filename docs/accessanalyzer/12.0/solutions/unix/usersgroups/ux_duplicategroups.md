@@ -15,8 +15,11 @@ cleanup.
 Navigate to the **Unix** > **1.Users and Groups** > **UX_DuplicateGroups** > **Configure** node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_DuplicateGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/duplicategroupsanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the table and views created by the analysis tasks, the UX_DuplicateGroups job
 produces the following pre-configured report:
 
-| Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Duplicate Groups | This report identifies duplicate groups within the audited domains | None         | This report is comprised of two elements: - Bar Chart – Displays Largest Groups with Duplicates - Table – Provides details on Duplicate Group Details |
+| Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                             |
+| ---------------- | ------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duplicate Groups | This report identifies duplicate groups within the audited domains | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays Largest Groups with Duplicates</li><li>Table – Provides details on Duplicate Group Details</li></ul> |
+

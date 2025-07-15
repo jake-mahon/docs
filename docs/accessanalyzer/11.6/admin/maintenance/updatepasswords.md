@@ -1,3 +1,9 @@
+---
+title: "Updating Passwords"
+description: "Updating Passwords"
+sidebar_position: 20
+---
+
 # Updating Passwords
 
 Credential passwords in Enterprise Auditor occasionally need to be updated due to reasons such as
@@ -36,7 +42,7 @@ Connection Profiles are used for scan authentication in the Enterprise Auditor c
 topic for details on how to edit user credentials for a Connection Profile.
 
 For Entra ID, formerly Microsoft Azure Active Directory, accounts, see the
-[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/11.6/config/entraid/access.md)
+[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/11.6/requirements/entraid/entraid/access.md)
 topic for additional information.
 
 ## Schedule Service Accounts

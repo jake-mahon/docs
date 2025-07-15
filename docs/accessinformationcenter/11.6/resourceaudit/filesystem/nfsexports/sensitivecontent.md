@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 50
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the NFS Exports share and subfolder levels provides a list of files

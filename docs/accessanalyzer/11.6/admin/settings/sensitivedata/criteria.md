@@ -1,3 +1,9 @@
+---
+title: "Criteria Tab"
+description: "Criteria Tab"
+sidebar_position: 10
+---
+
 # Criteria Tab
 
 Configure the list of selected sensitive data criteria that will be used within sensitive data scan

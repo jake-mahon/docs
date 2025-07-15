@@ -70,7 +70,7 @@ Dear [ProbableOwner];
 
 You are approaching your Mailbox storage quota. Please clean up any unneeded items.
 
-Thank you,
+**Thank you,**
 
 The Messaging Team
 

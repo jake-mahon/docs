@@ -1,3 +1,9 @@
+---
+title: "Access"
+description: "Access"
+sidebar_position: 10
+---
+
 # Access
 
 Configure what applications, users, and groups have access to Enterprise Auditor using the Access

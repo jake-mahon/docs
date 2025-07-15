@@ -1,3 +1,9 @@
+---
+title: "Dell Data Storage Ports"
+description: "Dell Data Storage Ports"
+sidebar_position: 10
+---
+
 # Dell Data Storage Ports
 
 Review a full list of Dell Data Storage protocols and ports required for Netwrix Auditor for File

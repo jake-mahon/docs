@@ -1,3 +1,9 @@
+---
+title: "Assign User to Role Members"
+description: "Assign User to Role Members"
+sidebar_position: 50
+---
+
 # Assign User to Role Members
 
 Role Based Access becomes enabled within Enterprise Auditor as soon as the first role has been

@@ -1,3 +1,9 @@
+---
+title: "SG_Sessions Job"
+description: "SG_Sessions Job"
+sidebar_position: 30
+---
+
 # SG_Sessions Job
 
 The SG_Sessions job lists sessions and logged on users from all targeted hosts. These active

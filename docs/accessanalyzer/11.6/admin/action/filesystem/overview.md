@@ -1,3 +1,9 @@
+---
+title: "File System Action Module"
+description: "File System Action Module"
+sidebar_position: 30
+---
+
 # File System Action Module
 
 The File System Action Module allows Enterprise Auditor Administrators to automate the process of
@@ -97,7 +103,7 @@ contains the following wizard pages:
 - [File System Action: Prior Actions](/docs/accessanalyzer/11.6/admin/action/filesystem/prioractions.md)
 - [File System Action: Environment](/docs/accessanalyzer/11.6/admin/action/filesystem/environment.md)
 - [File System Action: Target](/docs/accessanalyzer/11.6/admin/action/filesystem/target.md)
-- [File System Action: Parameters](/docs/accessanalyzer/11.6/admin/action/filesystem/parameters.md)
+- [File System Action: Parameters](/docs/accessanalyzer/11.6/admin/action/filesystem/parameters/parameters.md)
 - [File System Action: Destination](/docs/accessanalyzer/11.6/admin/action/filesystem/destination.md)
 - [File System Action: Rollback](/docs/accessanalyzer/11.6/admin/action/filesystem/rollback.md)
 - [File System Action: Options](/docs/accessanalyzer/11.6/admin/action/filesystem/options.md)

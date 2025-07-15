@@ -21,19 +21,22 @@ The Access Analyzer SharePoint Agent needs to be installed on the:
     - SharePoint® 2013 through SharePoint® 2019
     - Windows® Server 2016 through Windows® Server 2022
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the Access Analyzer SharePoint Agent server:
 
 - .NET Framework 4.8 installed
 - Port Sharing network feature
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
+
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
@@ -151,7 +154,10 @@ with the following permissions in order to collect all of the data:
 - WSS_CONTENT_APPLICATION_POOLS on the SharePoint Content databases
 - WSS_CONTENT_APPLICATION_POOLS on the SharePoint Configuration database
 
-**NOTE:** If scans include Web Application scoping, this last permission requirement is already met.
+:::note
+If scans include Web Application scoping, this last permission requirement is already met.
+:::
+
 
 ## SharePoint Agent-Based Least Privilege Permission Model
 
@@ -215,8 +221,11 @@ with the following permissions in order to collect all of the data:
     - `proc_getDependentObjectsByBaseClass`
     - `proc_ReturnWebFeatures`
 
-        **NOTE:** The above four stored procedures would already have the correct permissions if Web
+        :::note
+        The above four stored procedures would already have the correct permissions if Web
         Application scoping is desired.
+        :::
+
 
     - `[dbo].proc_getSiteName`
     - `[dbo].proc_getSiteMap`

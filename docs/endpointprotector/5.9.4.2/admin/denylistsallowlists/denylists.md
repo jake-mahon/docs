@@ -21,8 +21,11 @@ and **description** and then type or paste items at least three characters separ
 comma, or semicolon. You can import content using the sample ﬁle provided on the form and then
 select the option based on the number of uploaded items.
 
-**NOTE:** Dictionaries of under 100 items can be edited, while larger dictionaries have to be
+:::note
+Dictionaries of under 100 items can be edited, while larger dictionaries have to be
 uploaded again.
+:::
+
 
 Once the denylist is created, it will be displayed on the Custom Content list and will be available
 when creating or editing a Content Aware Protection or eDiscovery policy.
@@ -56,8 +59,11 @@ Examples: Matching and Non-Matching for File Extensions like “.epp”:
 Once the denylist is created, it will be displayed on the File Name list and will be available when
 creating or editing a Content Aware Protection or eDiscovery policy.
 
-**CAUTION:** For Content Aware Protection, the File Name Denylists work only for Block & Report type
+:::warning
+For Content Aware Protection, the File Name Denylists work only for Block & Report type
 Policies. The Case Sensitive and Whole Words Only features do not apply.
+:::
+
 
 ![File Name Denylists ](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/filename.webp)
 
@@ -76,8 +82,11 @@ Location Denylists and Allowlists throughout the system. By default, the File Lo
 apply to all ﬁles located in the speciﬁc folder but also to any other ﬁles located in containing
 subfolders.
 
-**NOTE:** In addition to deﬁning the File Location Denylist, the browser or application used to
+:::note
+In addition to deﬁning the File Location Denylist, the browser or application used to
 transfer ﬁles also needs to be selected from within the Content Aware Protection Policy.
+:::
+
 
 From this section, you can view and add ﬁle location denylists and from the Actions column, you can
 edit, delete or export an existing denylist.
@@ -86,8 +95,11 @@ To create a new denylist, under the list of available denylists, click **Add**, 
 and **description**, add the items separated by a new line, comma, or semicolon and then select the
 **groups** and **computers**.
 
-**NOTE:** File Location Denylist will not apply to groups of users, only to groups of computers.
+:::note
+File Location Denylist will not apply to groups of users, only to groups of computers.
 File Location Denylist will only apply for the selected computer groups after 15 minutes.
+:::
+
 
 ![File Location New Denylist](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/filelocationnewdenylists.webp)
 
@@ -132,10 +144,13 @@ You can create a regular expression to ﬁnd a certain recurrence in the data th
 across the protected network. Regex Denylists are available for both the Content Aware Protection
 and eDiscovery modules.
 
-**CAUTION:** If possible, avoid using Regular Expressions, as their complexity typically increases
+:::warning
+If possible, avoid using Regular Expressions, as their complexity typically increases
 the resources usage. Using a large number of regular expressions as ﬁltering criteria typically
 increases CPU usage. Also, improper regular expressions or improper use can have negative
 implications.
+:::
+
 
 From this section, you can view and add regex expressions and from the Actions column, you can edit
 or delete an existing denylist.
@@ -153,9 +168,12 @@ Matched content box, as shown below:
 - To match an IP –
   (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}
 
-**NOTE:** This feature is provided “as is” and requires advanced knowledge of the Regular Expression
+:::note
+This feature is provided “as is” and requires advanced knowledge of the Regular Expression
 syntax. No direct support is offered and it is the responsibility of the customers to learn and
 implement regular expressions and to thoroughly test.
+:::
+
 
 ![You can test a regular expression for accuracy using the right-side option](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/regexnewdenylist.webp)
 
@@ -164,7 +182,10 @@ implement regular expressions and to thoroughly test.
 Domain and URL Denylists are custom-deﬁned lists of web addresses identiﬁed by Endpoint Protector.
 Access to domains and URLs from these lists will be denied.
 
-**NOTE:** Domain and URL Denylists are available only for the Content Aware Protection module.
+:::note
+Domain and URL Denylists are available only for the Content Aware Protection module.
+:::
+
 
 ![Domain and URL Denylists ](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/domainurldenylists.webp)
 
@@ -178,8 +199,11 @@ You can import content using the sample ﬁle provided on the form.
 You can create or import up to 100 lists of dictionaries, each dictionary comprising up to 50000 web
 domains.
 
-**NOTE:** Dictionaries comprising up to 100 web domains can be edited, but for more extensive
+:::note
+Dictionaries comprising up to 100 web domains can be edited, but for more extensive
 dictionaries, you will need to import them again.
+:::
+
 
 You can deﬁne the content by adding the ﬁle name, ﬁle name and extension, or just the extension -
 pdf, test1example.pdf. example.endpointprotector.com, \*example.com, \*example\*example,
@@ -195,13 +219,19 @@ when creating or editing a Content Aware Protection policy.
 E-mail Domain Denylists are custom-deﬁned e-mail addresses and domains applicable to groups and
 computers that block the user from sending emails.
 
-**CAUTION:** This feature blocks the user from sending emails regardless of content and type. As the
+:::warning
+This feature blocks the user from sending emails regardless of content and type. As the
 denylist applies to the computer, not the policy, it blocks emails sent from the applications you
 select that have Report Only or Block and Remediate policies with no remediation possible.
+:::
 
-**NOTE:** This feature is only available for Content Aware Protection when Deep Packet Inspection is
+
+:::note
+This feature is only available for Content Aware Protection when Deep Packet Inspection is
 enabled and only impacts applications that retrieve the email recipients and are selected on Content
 Aware Protection Policy.
+:::
+
 
 ![E-mail Domain Denylists](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/e-maildomaindenylists.webp)
 
@@ -238,13 +268,19 @@ MIP-labeled files.
 MIP labels can be used along other CAP conditions, including content-aware and label-aware data
 scanning. This enable granular control over data protection based on MPIP classifications.
 
-**NOTE:** While Endpoint Protector can currently recognize MIP-encrypted files by their GUID (if
+:::note
+While Endpoint Protector can currently recognize MIP-encrypted files by their GUID (if
 they follow the latest MIP format used by office web tools labeling), content-aware scanning for
 these files is not yet supported.
+:::
 
-**NOTE:** Endpoint Protector Server in Microsoft Entra (formerly Azure AD) applications is
+
+:::note
+Endpoint Protector Server in Microsoft Entra (formerly Azure AD) applications is
 unnecessary. Endpoint Protector relies on information with labeled files. This might change in
 future releases.
+:::
+
 
 ![Confguration for Microsoft Information Protection (MIP) ](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/mipclassification.webp)
 
@@ -266,10 +302,13 @@ application behaviors. This allows you to create CAP policies tailored to your o
 ensuring that the launch and behavior of applications align with your security and compliance
 requirements.
 
-**NOTE:** Certain native command line utilities such as `ls`, `md`, `cd`, which are embedded in the
+:::note
+Certain native command line utilities such as `ls`, `md`, `cd`, which are embedded in the
 Operating System Core, may not be captured by CAP visibility. These commands are integral to the
 functioning of the operating system and are typically excluded from CAP policies, and are not an
 egress channel.
+:::
+
 
 Follow the steps to deﬁne CLI command denylist policies.
 
@@ -286,8 +325,11 @@ control and monitoring of application usage.
 Follow these steps and leverage CLI commands denylists to enhance your organization's security
 posture and ensure that applications are used in compliance with your policies and regulations.
 
-**NOTE:** The Endpoint Protector Client has limited visibility into activity within PowerShell and
+:::note
+The Endpoint Protector Client has limited visibility into activity within PowerShell and
 PowerShell ISE environments, as well as basic command-line operations on macOS and Linux systems
 (actions like `touch`, `cp`, `cd`, `mv`, and `mkdir`). To ensure Denylists entries match processes
 with default parameters, use the wildcard character "\*" at the end of the Application Name field
 (e.g, `notepad.exe *`.
+
+:::

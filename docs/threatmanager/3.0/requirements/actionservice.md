@@ -8,7 +8,10 @@ sidebar_position: 40
 
 The Action Service can be installed on additional servers.
 
-_Remember,_ the Action Service is installed on the Threat Manager Console server.
+:::tip
+Remember, the Action Service is installed on the Threat Manager Console server.
+:::
+
 
 The Windows server can be physical or virtual. The following Windows server operating systems are
 supported:
@@ -21,7 +24,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 Minimum hardware requirements:
 
@@ -29,7 +32,7 @@ Minimum hardware requirements:
 - 1 CPU Core
 - 500 MB Total Disk Space
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the application server:
 

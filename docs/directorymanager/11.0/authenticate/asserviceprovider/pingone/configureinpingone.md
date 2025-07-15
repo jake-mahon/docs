@@ -1,3 +1,9 @@
+---
+title: "Configure GroupID In PingOne"
+description: "Configure GroupID In PingOne"
+sidebar_position: 20
+---
+
 # Configure GroupID In PingOne
 
 To configure GroupID in PingOne, follow these steps:

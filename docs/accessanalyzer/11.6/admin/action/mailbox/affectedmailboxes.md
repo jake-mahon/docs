@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Affected Mailboxes"
+description: "Mailbox: Affected Mailboxes"
+sidebar_position: 100
+---
+
 # Mailbox: Affected Mailboxes
 
 Use the Affected Mailboxes page to select the mailboxes to target for the action. It is a wizard

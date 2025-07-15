@@ -1,3 +1,9 @@
+---
+title: "Configure ConnectWise"
+description: "Configure ConnectWise"
+sidebar_position: 20
+---
+
 # Configure ConnectWise
 
 This section describes how to configure settings of the main add-on component, Netwrix Auditor

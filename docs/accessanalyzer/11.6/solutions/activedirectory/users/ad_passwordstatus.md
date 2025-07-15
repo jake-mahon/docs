@@ -1,3 +1,9 @@
+---
+title: "AD_PasswordStatus Job"
+description: "AD_PasswordStatus Job"
+sidebar_position: 50
+---
+
 # AD_PasswordStatus Job
 
 The AD_PasswordStatus Job highlights potential issues with user password settings that may exploited

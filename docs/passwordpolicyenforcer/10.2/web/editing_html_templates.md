@@ -1,3 +1,9 @@
+---
+title: "Editing HTML Templates"
+description: "Editing HTML Templates"
+sidebar_position: 60
+---
+
 # Editing HTML Templates
 
 Password Policy Enforcer/Web's user interface is built with customizable templates. You can easily

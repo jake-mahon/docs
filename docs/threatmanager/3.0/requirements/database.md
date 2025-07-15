@@ -6,7 +6,10 @@ sidebar_position: 20
 
 # Database Server Requirements
 
-**NOTE:** Use this information when the database server is separate from the application server.
+:::note
+Use this information when the database server is separate from the application server.
+:::
+
 
 The Windows server can be physical or virtual. The following Windows server operating systems are
 supported:
@@ -19,7 +22,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the database server:
 
@@ -28,7 +31,7 @@ The following are additional requirements for the database server:
 - ASP.NET Core 8.0.11
 - VC++ redist v14.28.29914
 
-Additional Considerations
+**Additional Considerations**
 
 The following considerations must be accommodated for:
 

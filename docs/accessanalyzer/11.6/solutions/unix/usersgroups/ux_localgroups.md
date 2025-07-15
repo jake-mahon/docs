@@ -1,3 +1,9 @@
+---
+title: "UX_LocalGroups Job"
+description: "UX_LocalGroups Job"
+sidebar_position: 50
+---
+
 # UX_LocalGroups Job
 
 The UX_LocalGroups job provides an overview of all local groups within the audited Unix and Linux

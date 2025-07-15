@@ -30,8 +30,11 @@ Properties. The Query Properties window appears.
 
 **Step 3 –** Select the Data Source tab and click Configure. The SQL Data Collector Wizard opens.
 
-**CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
+:::warning
+Do not make changes to other wizard pages as they have been pre-configured for this
 job.
+:::
+
 
 ![Filters](/img/product_docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
@@ -67,8 +70,11 @@ The 1-AzureSQL_PermissionsScan Job is now ready to run with the customized setti
 Navigate to the Databases > 0.Collection > **AzureSQL** > 1-AzureSQL_PermissionsScan > Configure
 node and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/jobanalysis.webp)
 

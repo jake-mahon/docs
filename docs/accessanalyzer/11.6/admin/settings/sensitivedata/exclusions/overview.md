@@ -1,3 +1,9 @@
+---
+title: "False Positives Tab"
+description: "False Positives Tab"
+sidebar_position: 20
+---
+
 # False Positives Tab
 
 Configure False Positive exclusion filters using the options in the False Positives tab. False

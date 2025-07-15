@@ -1,3 +1,9 @@
+---
+title: "Survey: Mail – Message"
+description: "Survey: Mail – Message"
+sidebar_position: 70
+---
+
 # Survey: Mail – Message
 
 Use this page to specify the text of the email. When first accessing this page, the cursor appears

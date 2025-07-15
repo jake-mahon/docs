@@ -15,7 +15,10 @@ Run the `NetwrixRecovery_Setup.exe` on the Netwrix Recovery for Active Directory
 to the newer version of the product. See the [Install the Application](/docs/recoveryforactivedirectory/2.6/install/application.md) topic for
 additional information.
 
-**NOTE:** The database does not change between versions, so the same can be used for the new
+:::note
+The database does not change between versions, so the same can be used for the new
 version. Do not uninstall or remove the existing database.
+:::
+
 
 Recovery for Active Directory v2.5 has now been upgraded to v2.6.

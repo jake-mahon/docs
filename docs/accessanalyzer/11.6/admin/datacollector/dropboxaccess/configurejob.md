@@ -1,3 +1,9 @@
+---
+title: "Custom Dropbox Connection Profile & Host List"
+description: "Custom Dropbox Connection Profile & Host List"
+sidebar_position: 20
+---
+
 # Custom Dropbox Connection Profile & Host List
 
 The DropboxAccess Data Collector requires a custom Connection Profile to be created and assigned to

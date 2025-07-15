@@ -54,7 +54,10 @@ package upload.
 **Step 11 –** Go to Devices from the left-hand menu, select macOS, Shell scripts and then click
 **Add**.
 
-**NOTE:** Please contact the Customer Support department to provide the script.
+:::note
+Please contact the Customer Support department to provide the script.
+:::
+
 
 ![Adding scripts on shell scripts page](/img/product_docs/endpointprotector/5.9.4.2/install/agent/intune/shellscripts.webp)
 

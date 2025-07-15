@@ -1,3 +1,9 @@
+---
+title: "Box_GroupMembership Job"
+description: "Box_GroupMembership Job"
+sidebar_position: 60
+---
+
 # Box_GroupMembership Job
 
 The Box_GroupMembership Job provides visibility into group membership within an organization's Box

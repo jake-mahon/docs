@@ -1,3 +1,9 @@
+---
+title: "New-Mailbox"
+description: "New-Mailbox"
+sidebar_position: 20
+---
+
 # New-Mailbox
 
 Use the **New-Mailbox** commandlet to create a new mailbox in Directory. Most mailbox properties can
@@ -72,4 +78,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

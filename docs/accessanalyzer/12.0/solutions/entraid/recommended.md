@@ -10,7 +10,7 @@ The Entra ID Solution has been configured to inherit down from the job group **
 host list must be assigned and the Connection Profile configured before job execution. Once these
 are assigned to the job group, it can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 Running the .Entra ID Inventory Job Group provides essential data to the Entra ID Solution.
 
@@ -19,7 +19,7 @@ syncing information. See the
 [.Active Directory Inventory Solution](/docs/accessanalyzer/12.0/solutions/activedirectoryinventory/overview.md) topic for additional
 information.
 
-Targeted Hosts
+**Targeted Hosts**
 
 The Entra ID Solution does not require a target host because the jobs use data collected from the
 .Entra ID Inventory Job Group and the .Active Directory Inventory Job Group. However, Access
@@ -27,17 +27,17 @@ Analyzer jobs do not execute successfully without a host list assigned. Assign t
 the **Entra ID** > **Settings** > **Host Lists Assignment** node. Check the **Local host** box and
 click **Save**.
 
-Connection Profile
+**Connection Profile**
 
 Since the Entra ID Solution is not collecting any data, a specific connection profile is not
 necessary. Therefore, the default setting **Use the Default Profile** is sufficient for this
 solution.
 
-Schedule Frequency
+**Schedule Frequency**
 
 Schedule the Entra ID Job Group to run on a preferred schedule.
 
-Optional Configuration
+**Optional Configuration**
 
 The Entra ID Solution receives user and group membership information from the .Entra ID Inventory
 Solution. Information received includes manager, email addresses, and direct membership. Customize
@@ -47,7 +47,7 @@ Groups analysis tasks.
 See the [.Entra ID Inventory Solution](/docs/accessanalyzer/12.0/solutions/entraidinventory/overview.md) topic for additional
 information.
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow:
 

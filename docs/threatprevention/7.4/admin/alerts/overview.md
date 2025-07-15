@@ -1,3 +1,9 @@
+---
+title: "Alerts Interface"
+description: "Alerts Interface"
+sidebar_position: 50
+---
+
 # Alerts Interface
 
 The Alerts interface allows you to quickly view recent Security events, Operations events, and
@@ -6,7 +12,7 @@ system-generated and do not require any prior configuration.
 
 You can choose to view alerts related to analytics configuration and monitoring status on the Alerts
 interface. See the
-[Alerts Cleanup Window](/docs/threatprevention/7.4/admin/alerts/window/alertscleanup.md)
+[Alerts Cleanup Window](/docs/threatprevention/7.4/admin/alerts/alertscleanup.md)
 topic for options to display this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
@@ -66,7 +72,7 @@ The data grid displays the following information for each event:
 - Message – Description and details about the event. The **Policy updated on server
   Changeset #[number]** link is displayed for events that represent a change to a policy, be it a
   policy under the Policies node or one defined for analytics. Click it to open the
-  [Policy Comparison Window](/docs/threatprevention/7.4/admin/alerts/window/policycomparison.md)
+  [Policy Comparison Window](/docs/threatprevention/7.4/admin/alerts/policycomparison.md)
   where you can view any changes made to the policy.
 
 This data grid employs features for sorting, filtering, searching, and more. See the
@@ -103,7 +109,7 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
   topic for additional information.
 
   **_RECOMMENDED:_** Activate an email notification for this alert. See the

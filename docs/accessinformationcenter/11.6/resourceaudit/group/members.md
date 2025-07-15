@@ -1,3 +1,9 @@
+---
+title: "Members Report"
+description: "Members Report"
+sidebar_position: 80
+---
+
 # Members Report
 
 The Members report for a group object provides a list of all trustees, users, and groups with

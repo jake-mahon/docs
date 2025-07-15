@@ -1,3 +1,9 @@
+---
+title: "6.S3 Permissions Job Group"
+description: "6.S3 Permissions Job Group"
+sidebar_position: 80
+---
+
 # 6.S3 Permissions Job Group
 
 The 6.S3 Permissions job group provides details on permissions assigned to AWS S3 buckets,

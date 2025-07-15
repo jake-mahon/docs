@@ -10,8 +10,11 @@ To have access to the Virtual Machine, contact your Endpoint Protector Represent
 information such as the access keys to a Container specifically created for the Endpoint Protector
 Virtual Machine.
 
-**NOTE:** We will upload the Endpoint Protector Virtual Machine to your Container as soon as
+:::note
+We will upload the Endpoint Protector Virtual Machine to your Container as soon as
 possible. Once this step is done, we advise regenerating the access key.
+:::
+
 
 ## Creating the Storage Account and Container
 
@@ -51,7 +54,10 @@ access level select Container (anonymous read access for containers and blobs);
 
 **Step 8 –** Select the container you created, and then click Shared access tokens.
 
-**CAUTION:** Make sure you are creating a token on the container level, not the storage account!
+:::warning
+Make sure you are creating a token on the container level, not the storage account!
+:::
+
 
 **Step 9 –** Configure the SAS token with Create, Write and Add Permissions with a 5-day window to
 allow the Netwrix team to copy the image;
@@ -60,5 +66,8 @@ allow the Netwrix team to copy the image;
 
 **Step 10 –** Copy the Blob SAS URL and send it to Netwrix.
 
-**NOTE:** Netwrixwill copy the Endpoint Protector Virtual Machine to your storage account and notify
+:::note
+Netwrixwill copy the Endpoint Protector Virtual Machine to your storage account and notify
 you when the process is over.
+
+:::

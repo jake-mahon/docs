@@ -1,3 +1,9 @@
+---
+title: "Write Activity Records"
+description: "Write Activity Records"
+sidebar_position: 60
+---
+
 # Write Activity Records
 
 ## Endpoint

@@ -1,3 +1,9 @@
+---
+title: "Copying Cells"
+description: "Copying Cells"
+sidebar_position: 40
+---
+
 # Copying Cells
 
 Copying an individual cell within a generated report enables easier searching for information using

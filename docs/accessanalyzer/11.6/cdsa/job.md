@@ -1,3 +1,9 @@
+---
+title: "CDSA Job"
+description: "CDSA Job"
+sidebar_position: 10
+---
+
 # CDSA Job
 
 The CDSA Job is available through the Instant Job Library under the CDSA library. See the

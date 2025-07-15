@@ -58,9 +58,12 @@ the logs on the Endpoint Protector Server or only have them in the SIEM Server.
 The System Snapshots module allows you to save all device control rights and settings in the system
 and restore them later if needed.
 
-**_RECOMMENDED:_** After installing the Endpoint Protector Server, we strongly recommend that you
+:::info
+After installing the Endpoint Protector Server, we strongly recommend that you
 create a System Snapshot before modifying anything. In this case, you can revert back to the
 original settings if you conﬁgure the server incorrectly.
+:::
+
 
 Follow the steps to create a system snapshot.
 

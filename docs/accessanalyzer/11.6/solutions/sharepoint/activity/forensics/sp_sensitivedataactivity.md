@@ -1,3 +1,9 @@
+---
+title: "SP_SensitiveDataActivity Job"
+description: "SP_SensitiveDataActivity Job"
+sidebar_position: 30
+---
+
 # SP_SensitiveDataActivity Job
 
 This job highlights user activity involving sensitive data and provides details on who is

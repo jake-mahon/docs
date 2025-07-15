@@ -28,8 +28,11 @@ the Actions column.
 You can enable or disable messages from the Default Notifications list and edit custom notification
 translations.
 
-**NOTE:** You can enable Custom Client Notiﬁcations globally from Device Control, Global Settings or
+:::note
+You can enable Custom Client Notiﬁcations globally from Device Control, Global Settings or
 individually for computers or groups, from their speciﬁc Settings sections.
+:::
+
 
 ![Enable/disable a message from the list of Default Notiﬁcations or edit the custom notiﬁcations translations](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/listdefaultnotif.webp)
 
@@ -142,10 +145,13 @@ relevant keywords, other related functions, regular expressions, etc.).
 In addition to providing context to the detected sensitive information, this functionality also
 helps decrease false positives.
 
-**NOTE:** This feature applies at a global level, for both Content Aware Protection and eDiscovery
+:::note
+This feature applies at a global level, for both Content Aware Protection and eDiscovery
 Policies. If enabled, the context detection will supersede the content only detection through the
 system. Please ensure the accuracy of the rules and the relevance for your scenarios before enabling
 this functionality.
+:::
+
 
 Once the Contextual Detection feature is enabled, it will apply at a global level, based on the
 rules deﬁned in the Contextual XML (but also linked to the conﬁgured Content Aware Protection and
@@ -156,10 +162,13 @@ There are two options to create the Contextual rules:
 - creating it directly from the Endpoint Protector Server
 - manually editing the Contextual XML and then uploading it to the Endpoint Protector Server
 
-**NOTE:** To address conﬂicts between Global and per-policy Contextual Rules, Endpoint Protector
+:::note
+To address conﬂicts between Global and per-policy Contextual Rules, Endpoint Protector
 Clients no longer receive Global Contextual Rules if at least one policy has its individual
 Contextual Rule set. This marks the deprecation of Global Contextual Rules, emphasizing the
 prioritization of individual policy conﬁgurations.
+:::
+
 
 ### Creating the XML
 
@@ -189,8 +198,11 @@ as:
 - Unrelated File Size (MB) – the unrelated ﬁle size, in megabytes.
 - Maximum Matches – the value above which the rule will not be validated (recommended value is 0).
 
-**CAUTION:** Do not forget to Generate the Contextual XML after creating or making changes to
+:::warning
+Do not forget to Generate the Contextual XML after creating or making changes to
 contextual rules!
+:::
+
 
 ### Uploading the XML
 
@@ -285,8 +297,11 @@ print or copy files to MTP devices do not require the injection of the Endpoint 
 Adding such applications to the exceptions list improves performance and avoids unexpected
 interactions with Endpoint Protector.
 
-**NOTE:** This feature applies at a global level for all Windows endpoints with the Advanced
+:::note
+This feature applies at a global level for all Windows endpoints with the Advanced
 Printing and MTP Scanning features enabled.
+:::
+
 
 ![Advanced Scanning Detection](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/advancedscanningexceptions.webp)
 
@@ -386,7 +401,10 @@ Remediation for Device Control.
 - Display Custom URL – add a URL to direct the end-user to a speciﬁc web page, and then add a label
   for the URL
 
-    **NOTE:** The following URL formats are accepted:
+    :::note
+    The following URL formats are accepted:
+    :::
+
 
     - http://endpointprotector.com
     - https://endpointprotector.com
@@ -396,7 +414,10 @@ Remediation for Device Control.
 - Require Credentials – request the end-user to use their local account or Active Directory
   credentials
 
-    **NOTE:** The following credential formats are accepted for login:
+    :::note
+    The following credential formats are accepted for login:
+    :::
+
 
     - Local user - computer_name\username (John-PC\John)
     - LDAP/AD user
@@ -408,14 +429,20 @@ Remediation for Device Control.
 - Maximum Time Interval – enter the maximum time interval in which the end-user can remediate a
   Block and Remediated threat or restricted-access device
 
-    **NOTE:** The maximum time interval you can enter is 1440 minutes (24 hours).
+    :::note
+    The maximum time interval you can enter is 1440 minutes (24 hours).
+    :::
+
 
 - Enable User Remediation for Device Control – enable the setting to use the user remediation
   feature for the Device Control module.
 
-    **NOTE:** The Enable User Remediation for Device Control setting is disabled by default. By
+    :::note
+    The Enable User Remediation for Device Control setting is disabled by default. By
     enabling this feature, all the settings regarding User Remediation will be applied to both
     Content Aware Protection and Device Control modules.
+    :::
+
 
 ![User Remediation Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/userremediationsettings.webp)
 
@@ -460,8 +487,11 @@ from the User Remediation Notiﬁcation Template drop-down list;
 enable **User Remediation** for devices with limited access – devices that have full access
 permission cannot beneﬁt from the User Remediation feature.
 
-**NOTE:** For built-in devices, such as Webcam and Network share, the User Remediation feature is
+:::note
+For built-in devices, such as Webcam and Network share, the User Remediation feature is
 not available.
+:::
+
 
 ![These are device types that apply in General](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/devicetypes.webp)
 
@@ -491,8 +521,11 @@ Follow these steps to remediate the device.
    number to view the maximum time interval)
 6. Click **Authorize**.
 
-**NOTE:** You can manage more settings for the Self Remediate feature from System Preferences and
+:::note
+You can manage more settings for the Self Remediate feature from System Preferences and
 User Remediation sections.
+:::
+
 
 ![Self Remediate section](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/selfremediatesection.webp)
 

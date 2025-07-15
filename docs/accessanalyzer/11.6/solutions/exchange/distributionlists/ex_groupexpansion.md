@@ -1,3 +1,9 @@
+---
+title: "Effective Membership > EX_GroupExpansion Job"
+description: "Effective Membership > EX_GroupExpansion Job"
+sidebar_position: 20
+---
+
 # Effective Membership > EX_GroupExpansion Job
 
 The EX_GroupExpansion job expands the direct membership of distribution groups in the environment.

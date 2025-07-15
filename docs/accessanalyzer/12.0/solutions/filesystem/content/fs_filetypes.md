@@ -17,8 +17,11 @@ The FS_FileTypes job is located in the File Types job group.
 View the analysis tasks by navigating to the **FileSystem** > **4.Content** > **File Types** >
 **FS_FileTypes** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_FileTypes Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/content/filetypesanalysis.webp)
 
@@ -34,6 +37,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_FileTypes job produces the
 following pre-configured report:
 
-| Report     | Description                                                                                                                                    | Default Tags | Report Elements                                                                                                                                 |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| File Types | This report identifies what types of files are located within your distributed file system and how much space they are taking up in gigabytes. | None         | This report is comprised of two elements: - Pie Chart – Displays file types extensions ranked - Table – Provides details on file types by share |
+| Report     | Description                                                                                                                                    | Default Tags | Report Elements                                                                                                                                                       |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| File Types | This report identifies what types of files are located within your distributed file system and how much space they are taking up in gigabytes. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays file types extensions ranked</li><li>Table – Provides details on file types by share</li></ul> |
+

@@ -50,7 +50,10 @@ location.
 
 **Step 6 –** Keep the default radio button selection, Managed by Threat Prevention.
 
-**NOTE:** The CA Certificate Configuration page is not applicable to the Activity Monitor.
+:::note
+The CA Certificate Configuration page is not applicable to the Activity Monitor.
+:::
+
 
 ![Enterprise Manager Location Information Page](/img/product_docs/activitymonitor/8.0/install/agent/enterprisemanageram.webp)
 
@@ -137,10 +140,13 @@ domain. Click **Next**.
 
 **Step 8 –** Select the domain controller(s) where the agent is installed. Click **Test**.
 
-**NOTE:** When clicking Test while adding the Agent to the Console, the connection may fail. When
+:::note
+When clicking Test while adding the Agent to the Console, the connection may fail. When
 clicking Test, the Activity Monitor verifies not only its ability to manage the agent but the
 console's ability to deploy the agent as well. Errors can be ignored if the agent was manually
 installed.
+:::
+
 
 **Step 9 –** Ignore the warning messages that the agent cannot be installed or upgraded and click
 **Next**.
@@ -149,8 +155,11 @@ installed.
 
 **Step 10 –** Specify the Activity Monitor Agent Management Group (if desired). Click **Finish**.
 
-**NOTE:** The Activity Monitor Agent Management Group allows users in the specified group to manage
+:::note
+The Activity Monitor Agent Management Group allows users in the specified group to manage
 agents, but does not allow users in specified group to install, upgrade, or uninstall agents.
+:::
+
 
 The console will automatically detect the agent as it is already installed.
 

@@ -1,3 +1,9 @@
+---
+title: "Publish Security Page"
+description: "Publish Security Page"
+sidebar_position: 30
+---
+
 # Publish Security Page
 
 The Publish Security page of the Report Configuration wizard contains the account names of users

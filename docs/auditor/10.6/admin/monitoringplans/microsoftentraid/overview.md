@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID"
+description: "Microsoft Entra ID"
+sidebar_position: 60
+---
+
 # Microsoft Entra ID
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
@@ -15,7 +21,7 @@ the following topics:
 ## How to Add Office365 Item
 
 This instruction shows how to collect audit data from the Office365 organization. See the
-[Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
+[Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/modernauth/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
 topic for additional information on how to prepare Microsoft Entra ID app with required permissions.
 Make sure you have the following at hand:
 
@@ -38,7 +44,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
   ID monitoring.
 
 - If you are going to use **Modern authentication**, paste the obtained name. See the
-  [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/modernauth.md)
+  [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/modernauth/modernauth.md)
   topic for additional information.
 
 **Step 2 –** Select authentication method that will be used when accessing Microsoft 365 services:
@@ -50,7 +56,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
       _user@domain.onmicrosoft.com_.
     - The **Tenant name** field then will be filled in automatically.
     - Make sure this user account has sufficient access rights. See
-      [Using Basic Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/basicauth.md)
+      [Using Basic Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/basicauth.md)
       topic for additional information.
 
 - Modern authentication:
@@ -63,7 +69,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
             - **Application secret**.
 
     - See the
-      [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/modernauth.md)
+      [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/modernauth/modernauth.md)
       for additional information.
 
 **Step 3 –** Click the **Add** button.

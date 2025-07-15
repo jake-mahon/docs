@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the ADInventory Data Collector"
+description: "Standard Reference Tables & Views for the ADInventory Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the ADInventory Data Collector
 
 The ADInventory Data Collector gathers essential user and group inventory information into standard

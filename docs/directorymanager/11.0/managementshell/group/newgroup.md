@@ -1,3 +1,9 @@
+---
+title: "New-Group"
+description: "New-Group"
+sidebar_position: 50
+---
+
 # New-Group
 
 Use the **New-Group** commandlet to create a new unmanaged group in a particular container in
@@ -54,7 +60,7 @@ Example 2:
 The command below creates a new mail-enabled, domain-local, semi-private, security group in the
 container specified by the **OrganizationalUnit** parameter, using the credentials set in the
 **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -65,4 +71,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

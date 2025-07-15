@@ -1,3 +1,9 @@
+---
+title: "Configure Cisco ASA Devices"
+description: "Configure Cisco ASA Devices"
+sidebar_position: 20
+---
+
 # Configure Cisco ASA Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

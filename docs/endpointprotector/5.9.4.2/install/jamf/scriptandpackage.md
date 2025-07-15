@@ -9,8 +9,11 @@ sidebar_position: 20
 To deploy the Endpoint Protector Client, upload the `EndpointProtector.pkg` package along with the
 `epp_change_ip.sh` script.
 
-**CAUTION:** To obtain the `epp_change_ip.sh script`, customers should submit a support ticket
+:::warning
+To obtain the `epp_change_ip.sh script`, customers should submit a support ticket
 through the [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
+:::
+
 
 To upload the script and package, follow these steps:
 
@@ -25,8 +28,11 @@ and add the `epp_change_ip.sh` script.
 
 **Step 4 –** Add your Server IP to the EPP_SERVER_ADDRESS field.
 
-**NOTE:** You can edit the EPP_DEPARTMET CODE and EPP_SERVER_PORT fields to deploy the Endpoint
+:::note
+You can edit the EPP_DEPARTMET CODE and EPP_SERVER_PORT fields to deploy the Endpoint
 Protector Client on specific departments or custom ports.
+:::
+
 
 ![Uploading the new Script.](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/newscript.webp)
 

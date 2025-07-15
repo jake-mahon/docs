@@ -41,9 +41,12 @@ when the installation is successful to close the wizard.
 
 PostgreSQL has been upgraded.
 
-**NOTE:** If you have any antivirus or Endpoint Detection and Response (EDR) software installed on
+:::note
+If you have any antivirus or Endpoint Detection and Response (EDR) software installed on
 your machine, make sure you have excluded all of the files from the following directories from all
 antivirus scans:
+:::
+
 
 - \Program Files\Stealthbits\PostgreSQL14
 - \ProgramData\Stealthbits\PostgreSQL14
@@ -73,7 +76,7 @@ then click **Next**.
 
 **Step 5 –** By default, the installation directory is set to:
 
-C:\Program Files\STEALTHbits\StealthDEFEND\
+**C:\Program Files\STEALTHbits\StealthDEFEND\**
 
 Enter a new path or use the Browse button to modify as desired. Click **Next**.
 
@@ -81,9 +84,12 @@ Enter a new path or use the Browse button to modify as desired. Click **Next**.
 
 **Step 6 –** On the database page, ensure the host and port are set correctly.
 
-**NOTE:** If installing on the same server where the PostgreSQL database application was installed,
+:::note
+If installing on the same server where the PostgreSQL database application was installed,
 this information will be accurate by default. The default database name is stealthdefend; however,
 it can be modified as desired.
+:::
+
 
 **Step 7 –** Click **Test** to validate the connection information.
 
@@ -109,5 +115,8 @@ Launcher.
 
 Threat Manager 3.0 is now installed, and the database has been upgraded.
 
-**_RECOMMENDED:_** After successfully upgrading to the latest Threat Manager version, clear your
+:::info
+After successfully upgrading to the latest Threat Manager version, clear your
 browser cache for better performance and user experience.
+
+:::

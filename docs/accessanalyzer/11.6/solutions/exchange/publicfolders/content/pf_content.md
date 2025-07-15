@@ -1,3 +1,9 @@
+---
+title: "PF_Content Job"
+description: "PF_Content Job"
+sidebar_position: 20
+---
+
 # PF_Content Job
 
 The PF_Content job is comprised of analyses and reports that focus on public folder sizing and

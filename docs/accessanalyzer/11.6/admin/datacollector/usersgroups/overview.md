@@ -1,3 +1,9 @@
+---
+title: "UsersGroups Data Collector"
+description: "UsersGroups Data Collector"
+sidebar_position: 390
+---
+
 # UsersGroups Data Collector
 
 The UsersGroups Data Collector audits user and group accounts for both local and domain, extracting
@@ -36,7 +42,7 @@ The UsersGroups Data Collector is configured through the Users and Groups Browse
 contains the following wizard pages:
 
 - Welcome
-- [UsersGroups: Results](/docs/accessanalyzer/11.6/admin/datacollector/usersgroups/results.md)
+- [UsersGroups: Results](/docs/accessanalyzer/11.6/admin/datacollector/usersgroups/results/results.md)
 - [UsersGroups: Summary](/docs/accessanalyzer/11.6/admin/datacollector/usersgroups/summary.md)
 
 ![Users and Groups Browser wizard Welcome page](/img/product_docs/accessanalyzer/11.6/admin/datacollector/usersgroups/welcome.webp)

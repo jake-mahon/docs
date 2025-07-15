@@ -1,3 +1,9 @@
+---
+title: "Group Managed Service Account (gMSA) Configuration"
+description: "Group Managed Service Account (gMSA) Configuration"
+sidebar_position: 60
+---
+
 # Group Managed Service Account (gMSA) Configuration
 
 You can use a group Managed Service Account (gMSA) account to run the Netwrix Access Information

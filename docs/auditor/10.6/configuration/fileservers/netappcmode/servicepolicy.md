@@ -1,3 +1,9 @@
+---
+title: "Configure Service Policy"
+description: "Configure Service Policy"
+sidebar_position: 30
+---
+
 # Configure Service Policy
 
 **NOTE:** This paragraph only applies to NetApp ONTAP version 9.10.1 and higher.

@@ -13,7 +13,7 @@ environment.
 
 ![EX_UserOverview Job in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewjobstree.webp)
 
-Dependencies
+**Dependencies**
 
 The following job groups need to be successfully run prior to this job:
 
@@ -25,7 +25,7 @@ The following job groups need to be successfully run prior to this job:
 - **Exchange** > **4.Mailboxes** > **Sizing** Job Group
 - **Exchange** > **5. Public Folders** Job Group
 
-Schedule Frequency
+**Schedule Frequency**
 
 It is recommended to run this job daily after running its dependencies, but it can be scheduled to
 run as desired.
@@ -35,8 +35,11 @@ run as desired.
 View the analysis task by navigating to the **Exchange** > **EX_UserOverview** > **Configure** node
 and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_Mailflow_UserOverview Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailflowuseroverviewanalysis.webp)
 
@@ -70,8 +73,9 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the EX_UserOverview job produces
 the following pre-configured reports:
 
-| Report                                          | Description                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                       |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Top Users by Message Traffic                    | This report shows the top users of Exchange based on the past 30 days of message count.                                  | None         | This report is comprised of two elements: - Bar Chart– Displays top users by 30 day message traffic - Table – Provides details on top users by 30 day message traffic                                                 |
-| Top Users by Message Volume                     | This report shows the top users of Exchange based on the past 30 days of message volume. All statistics are in megabytes | None         | This report is comprised of two elements: - Bar Chart – Displays top users by message volume - Table – Provides details on top users by message volume                                                                |
-| Top Users by Permissions (Exchange User Access) | This report identifies users with a broad range of access across the exchange environment.                               | None         | This report is comprised of three elements: - Bar Chart – Displays top users by permission count - Table – Provides details on top users by permission count - Table – Provides details on permission listing by user |
+| Report                                          | Description                                                                                                              | Default Tags | Report Elements                                                                                                                                                                                                                                   |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Top Users by Message Traffic                    | This report shows the top users of Exchange based on the past 30 days of message count.                                  | None         | This report is comprised of two elements: <ul><li>Bar Chart– Displays top users by 30 day message traffic</li><li>Table – Provides details on top users by 30 day message traffic</li></ul>                                                       |
+| Top Users by Message Volume                     | This report shows the top users of Exchange based on the past 30 days of message volume. All statistics are in megabytes | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users by message volume</li><li>Table – Provides details on top users by message volume</li></ul>                                                                      |
+| Top Users by Permissions (Exchange User Access) | This report identifies users with a broad range of access across the exchange environment.                               | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top users by permission count</li><li>Table – Provides details on top users by permission count</li><li>Table – Provides details on permission listing by user</li></ul> |
+

@@ -1,3 +1,9 @@
+---
+title: "Licenses"
+description: "Licenses"
+sidebar_position: 80
+---
+
 # Licenses
 
 The Licenses tab allows you to review the status of your current licenses, update them and add new

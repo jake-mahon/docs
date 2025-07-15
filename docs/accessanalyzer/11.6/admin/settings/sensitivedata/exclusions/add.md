@@ -1,3 +1,9 @@
+---
+title: "Adding False Positive Exclusion Filters"
+description: "Adding False Positive Exclusion Filters"
+sidebar_position: 10
+---
+
 # Adding False Positive Exclusion Filters
 
 Follow the steps to add a False Positive Exclusion Filter.

@@ -23,7 +23,7 @@ System.Security.SecurityException: The encryption type requested is not supporte
 
 This error will be logged in the following location:
 
-%SAINSTALLDIR%\SADatabase\Logs\Web\service.log
+**%SAINSTALLDIR%\SADatabase\Logs\Web\service.log**
 
 While it is not required to configure these settings, this section provides the locations and steps
 necessary to configure encryption methods in Local and Group policies to allow Kerberos for the

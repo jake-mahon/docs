@@ -1,3 +1,9 @@
+---
+title: "Tags"
+description: "Tags"
+sidebar_position: 50
+---
+
 # Tags
 
 Tags can be added to reports to describe the content of the report and use cases for the report. For

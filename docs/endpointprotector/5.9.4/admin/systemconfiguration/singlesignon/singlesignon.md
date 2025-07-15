@@ -1,3 +1,9 @@
+---
+title: "Single Sign On"
+description: "Single Sign On"
+sidebar_position: 50
+---
+
 # Single Sign On
 
 Single Sign On (SSO) allows you to log in the Endpoint Protector Server with Azure AD and OKTA. This

@@ -1,3 +1,9 @@
+---
+title: "Box_Sharing Job"
+description: "Box_Sharing Job"
+sidebar_position: 60
+---
+
 # Box_Sharing Job
 
 The Box_Sharing Job provides details on sharing activity that has occurred over the past 30 days.

@@ -27,7 +27,7 @@ activity log files and returns the events that match the filters.You can
 [Filter](/docs/activitymonitor/8.0/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/8.0/admin/search/overview.md#sort) the results using the column
 headers. Below the Search button is the [Export](/docs/activitymonitor/8.0/admin/search/overview.md#export) option.
 
-Filter Value Entry
+**Filter Value Entry**
 
 When the drop-down menu is in front of a query filter, it is used to show or hide the filter entry
 field. Field options vary based on the selected query filter:
@@ -58,8 +58,11 @@ This section has the following filters:
 - Source – Filter the data by the source type: All, Admin Audit, Mailbox Access, DLP, Sensitivity
   Label, Other
 
-    **NOTE:** Disabling a source that is also a category will hide that category from the query
+    :::note
+    Disabling a source that is also a category will hide that category from the query
     options.
+    :::
+
 
 - Agent Hosts – Filter the data for a specific agent
 - Search Limit – Set the maximum number of rows returned in the search results. The default is

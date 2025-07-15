@@ -1,3 +1,9 @@
+---
+title: "Cloud Tracker Reports"
+description: "Cloud Tracker Reports"
+sidebar_position: 40
+---
+
 # Cloud Tracker Reports
 
 Full overview of Reports, setup, scheduling, formatting and retention options are all covered in

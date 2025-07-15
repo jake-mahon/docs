@@ -1,3 +1,9 @@
+---
+title: "SP_SiteCollectionPerms Job"
+description: "SP_SiteCollectionPerms Job"
+sidebar_position: 40
+---
+
 # SP_SiteCollectionPerms Job
 
 Most content will inherit the permissions configured at the root of the site collection. Having an

@@ -1,10 +1,10 @@
 ---
-title: "Search and Reports"
+title: "Overview"
 description: "Search and Reports"
 sidebar_position: 40
 ---
 
-# Search and Reports
+# Overview
 
 Netwrix 1Secure provides a convenient search interface for investigating incidents, suspicious
 activities, collected across the entire IT infrastructure. Netwrix 1Secure allows creating flexible

@@ -1,3 +1,9 @@
+---
+title: "Antivirus Exclusions"
+description: "Antivirus Exclusions"
+sidebar_position: 30
+---
+
 # Antivirus Exclusions
 
 Windows activity monitoring and performance of the Activity Agent may be negatively affected by

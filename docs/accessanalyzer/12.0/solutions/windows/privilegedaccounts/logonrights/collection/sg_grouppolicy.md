@@ -18,7 +18,10 @@ assignments are audited:
 
 The SG_GroupPolicy job uses the GroupPolicy Data Collector for the following query:
 
-**CAUTION:** The query is preconfigured for this job. Never modify the query.
+:::warning
+The query is preconfigured for this job. Never modify the query.
+:::
+
 
 ![Queries for the SG_GroupPolicy Job](/img/product_docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/logonrights/collection/grouppolicyquery.webp)
 

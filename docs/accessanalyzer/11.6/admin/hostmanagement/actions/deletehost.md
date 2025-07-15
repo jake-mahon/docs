@@ -1,3 +1,9 @@
+---
+title: "Delete Host(s)"
+description: "Delete Host(s)"
+sidebar_position: 30
+---
+
 # Delete Host(s)
 
 Use the **Delete Host(s)** option at the **Host Management** node to permanently delete a host from

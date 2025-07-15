@@ -1,3 +1,9 @@
+---
+title: "RemoteOpenPort Job"
+description: "RemoteOpenPort Job"
+sidebar_position: 10
+---
+
 # RemoteOpenPort Job
 
 The RemoteOpenPort job remotely executes a `netstat -a -b -n` command to gather information about

@@ -1,3 +1,9 @@
+---
+title: "Data Protection"
+description: "Data Protection"
+sidebar_position: 10
+---
+
 # Data Protection
 
 Under the Policies node, you can protect collected event data at the folder level.
@@ -9,7 +15,7 @@ it:
   the selected folder.
 
   - View Data checkbox – Affects the ability to see events data for these policies in the policy’s
-    [Recent Events Tab](/docs/threatprevention/7.4/admin/policies/recentevents/overview.md)
+    [Recent Events Tab](/docs/threatprevention/7.4/admin/policies/configuration/recentevents/overview.md)
     and the
     [Investigate Interface](/docs/threatprevention/7.4/admin/investigate/overview.md).
 
@@ -23,13 +29,13 @@ it:
     objects.
 
 - Protected Objects – Monitors the selected
-  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/admin/policies/eventtype/window/selectactivedirectory/context.md)
+  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/window/context.md)
   within the policy folder
 
   Protected objects are hidden from the following types of data no matter what policy
   monitored/blocked it:
 
-  - [Recent Events Tab](/docs/threatprevention/7.4/admin/policies/recentevents/overview.md)
+  - [Recent Events Tab](/docs/threatprevention/7.4/admin/policies/configuration/recentevents/overview.md)
     data
   - [Investigate Interface](/docs/threatprevention/7.4/admin/investigate/overview.md)
     data
@@ -95,7 +101,7 @@ is displayed.
 **Step 8 –** On the Select Active Directory Contexts window, select an Agent from the drop-down menu
 and click **Connect**. Expand the domain tree in the Navigation pane. Select an item in the Results
 pane on the right and click **OK**. See the
-[Selection Windows](/docs/threatprevention/7.4/admin/policies/eventtype/window/overview.md)
+[Selection Windows](/docs/threatprevention/7.4/admin/policies/configuration/eventtype/window/overview.md)
 topic for additional information.
 
 **Step 9 –** The window closes and the object is displayed in the Protected Objects list. Only those

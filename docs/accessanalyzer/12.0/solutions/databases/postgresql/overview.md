@@ -26,20 +26,20 @@ prioritize risks to sensitive data. Additionally, organizations can automate man
 and expensive processes associated with compliance, security, and operations to easily adhere to
 best practices that keep PostgreSQL Server safe and operational.
 
-Supported Platforms
+**Supported Platforms**
 
 - Open Source PostgreSQL 9x through 12x
 - Enterprise DB PostgreSQL (10x trhough 12x)
 - Amazon AWS Aurora PostgreSQL Engine (all versions supported by Amazon AWS)
 - Azure PostgreSQL (9.6)
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/postgresql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
@@ -48,12 +48,15 @@ is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are require
 By default, the job is configured to use 10 threads, which can be adjusted based on available
 resources on the Access Analyzer server.
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The Structured Sensitive Data Discovery License is required to run the PostgreSQL Solution. It can
 be installed from theAccess Analyzer Instant Job Wizard. Once it has been installed into the Jobs

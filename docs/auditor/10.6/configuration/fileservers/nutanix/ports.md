@@ -1,3 +1,9 @@
+---
+title: "Nutanix Ports"
+description: "Nutanix Ports"
+sidebar_position: 10
+---
+
 # Nutanix Ports
 
 Follow the steps to open Nutanix port for inbound connections.

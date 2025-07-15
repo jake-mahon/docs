@@ -1,3 +1,9 @@
+---
+title: "Edit or Duplicate an Investigation"
+description: "Edit or Duplicate an Investigation"
+sidebar_position: 20
+---
+
 # Edit or Duplicate an Investigation
 
 An investigation can be edited and even duplicated.

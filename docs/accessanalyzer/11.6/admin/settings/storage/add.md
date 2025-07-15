@@ -1,3 +1,9 @@
+---
+title: "Add a Storage Profile"
+description: "Add a Storage Profile"
+sidebar_position: 10
+---
+
 # Add a Storage Profile
 
 Follow the steps to create a Storage Profile.

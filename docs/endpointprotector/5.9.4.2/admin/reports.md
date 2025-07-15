@@ -23,8 +23,11 @@ included in this section. Additionally, the main Device Control logs can be view
 
 ![Logs Report Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
 
-**NOTE:** Use the Filters option to view and sort different log types and then export the result
+:::note
+Use the Filters option to view and sort different log types and then export the result
 list.
+:::
+
 
 ## File Tracing
 
@@ -49,7 +52,10 @@ tracking local transfers or interactions with removable devices and network shar
 provides a clear overview. It's an essential resource for conﬁguring data protection policies in the
 Endpoint Protector environment, ensuring strong security and compliance.
 
-**NOTE:** This matrix refers to clients from the 5.9.0.0 release and higher.
+:::note
+This matrix refers to clients from the 5.9.0.0 release and higher.
+:::
+
 
 Please see the table below for a detailed view of the events.
 

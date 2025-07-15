@@ -1,3 +1,9 @@
+---
+title: "Use Access Token to Get Data from the Enterprise Auditor Endpoint"
+description: "Use Access Token to Get Data from the Enterprise Auditor Endpoint"
+sidebar_position: 40
+---
+
 # Use Access Token to Get Data from the Enterprise Auditor Endpoint
 
 Use the access token to call the API endpoints using PowerShell and retrieve data. The following
