@@ -365,14 +365,14 @@ Following is how the comparison operator (displayed in blue) works with %value%:
 
 Examples of how the comparison operator (displayed in blue) works with Value
 
-| Comparison Operator | Value (%name%,%suboperation%,%value%)                         | Outcome                                                                                                                   |
-| ------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ContainsValue       | description,Change Attribute,testdescription                  | Matches any attribute where: - name is 'description' - operation is 'Change Attribute' - value contains 'testdescription' |
-| ContainsValue       | ,Change Attribute,testdescription                             | Matches any attribute where: - operation is 'Change Attribute' - value contains 'testdescription'                         |
-| ContainsValue       | description,,testdescription                                  | Matches any attribute where: - name is 'description' - value contains 'testdescription'                                   |
-| ContainsValue       | ,,testdescription                                             | Matches any attribute where: - value contains 'testdescription'                                                           |
-| ContainsValue       | description OR description, OR description,,                  | Matches any attribute where: - name is 'description'                                                                      |
-| ContainsValue       | description,Change Attribute OR description,Change Attribute, | Matches any attribute where: - name is 'description' - operation is 'Change Attribute'                                    |
+| Comparison Operator | Value (%name%,%suboperation%,%value%)        | Outcome      |
+| ------------------- | ----------------------- | ------------------ |
+| ContainsValue       | description,Change Attribute,testdescription      | Matches any attribute where: <ul><li>name is 'description'</li><li>operation is 'Change Attribute'</li><li>value contains 'testdescription'</li></ul> |
+| ContainsValue       | ,Change Attribute,testdescription     | Matches any attribute where: <ul><li>operation is 'Change Attribute'</li><li>value contains 'testdescription'</li></ul>   |
+| ContainsValue       | description,,testdescription    | Matches any attribute where: <ul><li>name is 'description'</li><li>value contains 'testdescription'</li></ul>      |
+| ContainsValue       | ,,testdescription     | Matches any attribute where: <ul><li>value contains 'testdescription'</li></ul>    |
+| ContainsValue       | description <br />OR <br />description, <br />OR <br />description,,       | Matches any attribute where: <ul><li>name is 'description'</li></ul>                                                                      |
+| ContainsValue       | description,Change Attribute <br />OR <br />description,Change Attribute, | Matches any attribute where: <ul><li>name is 'description'</li><li>operation is 'Change Attribute'</li></ul>                                    |
 
 Example of a filter statement with "Attribute New"
 

@@ -10,17 +10,17 @@ The Best Practices folder contains the following templates:
 
 Active Directory Folder
 
-| Template                | Description                                                                                                                                                                                                                                 | TAGS |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| All AD Changes          | Gathers all AD changes. Utilizes the built-in “Exclude Class” – Classes Collection and “Exclude Attribute” – Attributes Collection to restrict unwanted events. Add classes and attributes which will NOT be monitored to these collections | None |
-| All GPO Setting Changes | No customizations required to monitor all GPO setting changes                                                                                                                                                                               | None |
+| Template                | Description     | TAGS |
+| ----------------------- | ------------------ | ---- |
+| All AD Changes          | Gathers all AD changes. <br />Utilizes the built-in “Exclude Class” – Classes Collection and “Exclude Attribute” – Attributes Collection to restrict unwanted events. Add classes and attributes which will NOT be monitored to these collections | None |
+| All GPO Setting Changes | No customizations required to monitor all GPO setting changes      | None |
 
 Exchange Folder
 
 **CAUTION:** Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
 being locked down or blocked!
 
-| Template                 | Description                                                                                                                                                       | TAGS |
+| Template         | Description        | TAGS |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
 | Non-Owner Logon Lockdown | USE CAUTION WITH ALL LOCKDOWN TEMPLATES Specify the Exchange Mailboxes and Containers to lockdown. Optionally, add Exchange Perpetrators to be allowed or denied. | None |
 

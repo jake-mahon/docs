@@ -49,10 +49,10 @@ occurred (Modified on).
 
 The schedule is for setting the time period for an enabled policy to monitor or block events.
 
-| Icon                                                                                                                | Label                     | Represents                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![alwaysactivebutton](/img/product_docs/threatprevention/7.5/admin/policies/alwaysactivebutton.webp)   | Always Active             | Indicates the policy will be active at all times when enabled. This is the default setting                                                                                                                                                                                         |
-| ![specifictimesbutton](/img/product_docs/threatprevention/7.5/admin/policies/specifictimesbutton.webp) | Active at Specified Times | Indicates the policy will be active only at the specified times when enabled. There are two options for setting the specified times: - Local Server Time – Schedule is set according to the local server’s time - UTC Time – Schedule is set according to the Universal Time (UTC) |
+| Icon      | Label       | Represents   |
+| -------------------- | ----------------------- | --------------- |
+| ![alwaysactivebutton](/img/product_docs/threatprevention/7.5/admin/policies/alwaysactivebutton.webp)   | Always Active             | Indicates the policy will be active at all times when enabled. This is the default setting     |
+| ![specifictimesbutton](/img/product_docs/threatprevention/7.5/admin/policies/specifictimesbutton.webp) | Active at Specified Times | Indicates the policy will be active only at the specified times when enabled. There are two options for setting the specified times: <ul><li>Local Server Time – Schedule is set according to the local server’s time</li><li>UTC Time – Schedule is set according to the Universal Time (UTC)</li></ul> |
 
 Any new policy created from a template automatically applies the template’s setting, which can then
 be modified as desired. Schedule details are displayed for a template in the list on the
