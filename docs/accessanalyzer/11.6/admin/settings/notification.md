@@ -1,3 +1,9 @@
+---
+title: "Notification"
+description: "Notification"
+sidebar_position: 80
+---
+
 # Notification
 
 The Notification node is where email notifications are configured. Emails can be sent from the

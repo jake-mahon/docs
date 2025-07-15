@@ -1,3 +1,9 @@
+---
+title: "PowerShell Commands for the REST API"
+description: "PowerShell Commands for the REST API"
+sidebar_position: 50
+---
+
 # PowerShell Commands for the REST API
 
 The following examples show PowerShell commands commonly performed with the REST API.

@@ -1,3 +1,9 @@
+---
+title: "CommandLineUtility Data Collector"
+description: "CommandLineUtility Data Collector"
+sidebar_position: 90
+---
+
 # CommandLineUtility Data Collector
 
 The CommandLineUtility Data Collector provides the ability to remotely spawn, execute, and extract

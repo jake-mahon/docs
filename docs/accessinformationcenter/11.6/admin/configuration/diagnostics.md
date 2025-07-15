@@ -1,3 +1,9 @@
+---
+title: "Diagnostics Page"
+description: "Diagnostics Page"
+sidebar_position: 60
+---
+
 # Diagnostics Page
 
 Download logs and enable debug log level for troubleshooting with Netwrix Support on the Diagnostics

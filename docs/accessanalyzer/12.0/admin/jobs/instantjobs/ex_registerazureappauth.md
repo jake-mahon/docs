@@ -21,7 +21,10 @@ authentication and provision appropriate permissions for Exchange Online scans. 
 
 - Azure AD PowerShell module installed on targeted hosts
 
-    **NOTE:** If the module is not already installed, the job will attempt to install it.
+    :::note
+    If the module is not already installed, the job will attempt to install it.
+    :::
+
 
     - You can install the module with the following command:
 
@@ -91,6 +94,8 @@ The Microsoft Entra ID application is now provisioned with the necessary permiss
 Online scans. There will be a new Connection Profile for this Application. Restart the Access
 Analyzer Console and enter a password to use this Connection Profile.
 
-_Remember,_ the required rights and roles for Exchange Online still need to be configured. See the
+:::tip
+Remember, the required rights and roles for Exchange Online still need to be configured. See the
 [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/exchange/exchangeonline/exchangeonline.md)
 topic for additional information.
+:::

@@ -1,3 +1,9 @@
+---
+title: "6.Sensitive Data > SP_SensitiveData Job"
+description: "6.Sensitive Data > SP_SensitiveData Job"
+sidebar_position: 80
+---
+
 # 6.Sensitive Data > SP_SensitiveData Job
 
 The SP_SensitiveData Job identifies where sensitive data is located inside SharePoint farms. Special

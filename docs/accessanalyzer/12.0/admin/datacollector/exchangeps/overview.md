@@ -12,16 +12,16 @@ and newer. The ExchangePS Data Collector has been preconfigured within the Excha
 this data collector and the solution are available with a special Access Analyzer license. See the
 [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - PowerShell
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Remote PowerShell enabled on a single Exchange server
 - Windows Authentication enabled for the PowerShell Virtual Directory on the same Exchange server

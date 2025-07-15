@@ -1,3 +1,9 @@
+---
+title: "Jobs Tree"
+description: "Jobs Tree"
+sidebar_position: 70
+---
+
 # Jobs Tree
 
 Jobs are the fundamental unit of Enterprise Auditor. It is through jobs that all data collection

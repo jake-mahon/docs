@@ -1,3 +1,9 @@
+---
+title: "Flexible Import Reports Quick Reference"
+description: "Flexible Import Reports Quick Reference"
+sidebar_position: 10
+---
+
 # Flexible Import Reports Quick Reference
 
 The following imported data reports are available for selections within the Resources pane.

@@ -13,8 +13,11 @@ The EX_CircularNesting job identifies where circular nesting exists within distr
 View the analysis tasks by navigating to the **Exchange** > **6. Distribution Lists** > **Membership
 Analysis** > **EX_CircularNesting** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_CircularNesting Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/distributionlists/membershipanalysis/circularnestinganalysis.webp)
 

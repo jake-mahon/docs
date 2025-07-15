@@ -1,3 +1,9 @@
+---
+title: "SQL Server Reports"
+description: "SQL Server Reports"
+sidebar_position: 120
+---
+
 # SQL Server Reports
 
 SQL Server reports are accessed through the Resource Audit interface. Explore the SQL Server

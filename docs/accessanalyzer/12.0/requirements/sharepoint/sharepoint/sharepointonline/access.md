@@ -11,10 +11,13 @@ Auditing (SPAA) and/or Sensitive Data Discovery Auditing scans for the target Sh
 OneDrive for Business environments. This involves creating and defining a Microsoft Entra
 ID application for app–only access to SharePoint Online.
 
-**NOTE:** A user account with the Global Administrator role is required to register an app with
+:::note
+A user account with the Global Administrator role is required to register an app with
 Microsoft Entra ID.
+:::
 
-Configuration Settings from the Registered Application
+
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
@@ -46,7 +49,7 @@ topic for additional information.
 
 The following permissions are required:
 
-Permissions for Microsoft Graph API
+**Permissions for Microsoft Graph API**
 
 - Application Permissions:
 
@@ -75,7 +78,7 @@ Permissions for Microsoft Graph API
     - Group.Read.All – Read all groups
     - User.Read.All – Read all users' full profiles
 
-Permissions for Office 365 Management APIs
+**Permissions for Office 365 Management APIs**
 
 - Application Permissions:
 
@@ -83,7 +86,7 @@ Permissions for Office 365 Management APIs
     - ActivityFeed.ReadDlp – Read DLP policy events including detected sensitive data
     - ServiceHealth.Read – Read service health information for your organization
 
-Permissions for SharePoint
+**Permissions for SharePoint**
 
 - Application Permissions:
 
@@ -126,8 +129,11 @@ $cert=New-SelfSignedCertificate -CertStoreLocation Cert:\CurrentUser\My -DnsName
 Access Analyzer with the Export–Certificate cmdlet using the certificate path stored in the
 $certPath variable (see Step 1).
 
-**NOTE:** The environment variable `SAINSTALLDIR` always points to the base Access Analyzer install
+:::note
+The environment variable `SAINSTALLDIR` always points to the base Access Analyzer install
 directory; simply append the PrivateAssemblies to point to that folder with the following cmdlet:
+:::
+
 
 ```
 Export-Certificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\spaa_cert.cer" -Type CERT
@@ -144,8 +150,11 @@ following cmdlet:
 Export-PfxCertificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\spaa_cert.pfx" -Password (ConvertTo-SecureString -String "PasswordGoesHere" -Force -AsPlainText)
 ```
 
-**_RECOMMENDED:_** Change the string in the Password parameter from "PasswordGoesHere" to something
+:::info
+Change the string in the Password parameter from "PasswordGoesHere" to something
 more secure before running this cmdlet.
+:::
+
 
 - See the Microsoft
   [Export-PfxCertificate](https://docs.microsoft.com/en-us/powershell/module/pki/export-pfxcertificate)
@@ -155,9 +164,12 @@ more secure before running this cmdlet.
 
 Follow the steps to register Access Analyzer with Microsoft Entra ID.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
@@ -181,9 +193,12 @@ application. Now that the application has been registered, permissions need to b
 
 Follow the steps to provision the upload your self-signed certificate.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
@@ -206,9 +221,12 @@ The upload certificate public key .cer file is an application key credential.
 
 Follow the steps to grant permissions to the registered application.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
@@ -287,9 +305,12 @@ Access Analyzer need to be collected.
 
 Follow the steps to find the registered application's Client ID.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**

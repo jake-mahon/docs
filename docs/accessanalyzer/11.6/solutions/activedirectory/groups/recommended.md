@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 1.Groups Job Group"
+description: "Recommended Configurations for the 1.Groups Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 1.Groups Job Group
 
 The Active Directory > **1.Groups** Job Group has been configured by default to run with the default

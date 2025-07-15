@@ -1,3 +1,9 @@
+---
+title: "Self-Audit"
+description: "Self-Audit"
+sidebar_position: 20
+---
+
 # Self-Audit
 
 Built-in Netwrix Auditor self-audit allows you to track changes to the product configuration,

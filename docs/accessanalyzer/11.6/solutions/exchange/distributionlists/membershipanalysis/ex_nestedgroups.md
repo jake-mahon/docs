@@ -1,3 +1,9 @@
+---
+title: "EX_NestedGroups Job"
+description: "EX_NestedGroups Job"
+sidebar_position: 40
+---
+
 # EX_NestedGroups Job
 
 The EX_NestedGroups job identifies where nesting exists within distribution groups.

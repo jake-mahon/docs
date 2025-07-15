@@ -1,3 +1,9 @@
+---
+title: "Recommended Configuration for the SharePoint Solution"
+description: "Recommended Configuration for the SharePoint Solution"
+sidebar_position: 10
+---
+
 # Recommended Configuration for the SharePoint Solution
 
 The SharePoint Solution has been configured to inherit down from the **SharePoint** > **Settings**
@@ -38,9 +44,9 @@ topic for additional information.
 Connection Profile
 
 The SPAA Data Collector requires a specific set of permissions. See the
-[SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/solutions/sharepoint/scanoptions.md)
+[SharePoint Scan Options](/docs/accessanalyzer/11.6/requirements/sharepoint/scanoptions/scanoptions.md)
 and
-[SharePoint Support](/docs/accessanalyzer/11.6/requirements/target/sharepoint.md)
+[SharePoint Support](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepoint.md)
 topics for the necessary permissions for both on-premises and online target environments. Then
 create a custom Connection Profile containing the appropriate credentials for the targeted
 environment. If a single Connection Profile contains both on-premises and online credentials, it is

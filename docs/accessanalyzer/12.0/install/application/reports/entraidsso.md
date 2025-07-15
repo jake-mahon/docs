@@ -79,8 +79,11 @@ Microsoft Entra ID SSO in the web server config file.
 To enable Microsoft Entra ID SSO for the Web Console, the web server config file needs to be updated
 with values from Microsoft Entra ID. Follow the steps to enable the SSO.
 
-_Remember,_ Enabling Entra ID SSO requires SSL to already have been enabled for the web server. See
+:::tip
+Remember, Enabling Entra ID SSO requires SSL to already have been enabled for the web server. See
 the [Securing the Web Console](/docs/accessanalyzer/12.0/install/application/reports/secure.md) topic for additional information.
+:::
+
 
 **Step 1 –** Open the **WebServer.exe.config** file with a text editor, for example Notepad. It is
 located within the Web folder of the Access Analyzer installation directory.

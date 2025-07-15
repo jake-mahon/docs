@@ -1,3 +1,9 @@
+---
+title: "8.Exchange Online Job Group"
+description: "8.Exchange Online Job Group"
+sidebar_position: 90
+---
+
 # 8.Exchange Online Job Group
 
 The 8. Exchange Online job group collects message trace data from Office 365.

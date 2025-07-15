@@ -1,3 +1,9 @@
+---
+title: "Viewing the Status of SendMail Actions"
+description: "Viewing the Status of SendMail Actions"
+sidebar_position: 40
+---
+
 # Viewing the Status of SendMail Actions
 
 Follow the steps to view the status of an executed SendMail action:

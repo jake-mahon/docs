@@ -1,3 +1,9 @@
+---
+title: "Box: Activity Timeframe Scope"
+description: "Box: Activity Timeframe Scope"
+sidebar_position: 60
+---
+
 # Box: Activity Timeframe Scope
 
 The Activity Timespan Scope page (ActivityTimeframeScope) is where Box activity data collection is

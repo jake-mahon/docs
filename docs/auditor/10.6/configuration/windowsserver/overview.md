@@ -1,3 +1,9 @@
+---
+title: "Windows Server"
+description: "Windows Server"
+sidebar_position: 140
+---
+
 # Windows Server
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

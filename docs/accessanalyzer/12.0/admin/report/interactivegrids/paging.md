@@ -12,8 +12,11 @@ Reports provide the ability to navigate to specific pages using arrows at the bo
 Paging is enabled by default. See the [Grid](/docs/accessanalyzer/12.0/admin/report/wizard/widgets.md#grid) topic for additional
 information.
 
-**NOTE:** Paging and grouping cannot be enabled at the same time. When Paging is enabled, the
+:::note
+Paging and grouping cannot be enabled at the same time. When Paging is enabled, the
 Grouping options are disabled for the report.
+:::
+
 
 ![Paging](/img/product_docs/accessanalyzer/12.0/admin/report/interactivegrids/paging.webp)
 

@@ -1,3 +1,9 @@
+---
+title: "AWS_MemberAccountUsers Job"
+description: "AWS_MemberAccountUsers Job"
+sidebar_position: 20
+---
+
 # AWS_MemberAccountUsers Job
 
 The AWS_MemberAccountUsers job highlights users that are not located in the primary AWS Identity

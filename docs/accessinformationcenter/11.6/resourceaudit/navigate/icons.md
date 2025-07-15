@@ -1,3 +1,9 @@
+---
+title: "AIC Icons"
+description: "AIC Icons"
+sidebar_position: 10
+---
+
 # AIC Icons
 
 The following tables show the icons for resources and trustees in the Netwrix Access Information

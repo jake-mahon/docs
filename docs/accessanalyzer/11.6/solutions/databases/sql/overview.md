@@ -1,3 +1,9 @@
+---
+title: "SQL Job Group"
+description: "SQL Job Group"
+sidebar_position: 70
+---
+
 # SQL Job Group
 
 The SQL Job Group reports on SQL Server, AzureSQL, or both depending on which collection jobs were
@@ -17,7 +23,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/databasesql.md)
+[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databasesql/databasesql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -52,7 +58,7 @@ The SQL Job Group includes:
   This information is used by other jobs in the SQL solution set for further analysis and for
   producing respective reports.
 - Databases > 0.Collection > AzureSQL >
-  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/azuresql/collection/overview.md)
+  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/solutions/databases/sql/collection/overview_1.md)
   — This job group is designed to collect high level summary information from targeted Azure SQL
   Instances. This information is used by other jobs in the Azure SQL solution set to provide further
   analysis and for producing respective reports.

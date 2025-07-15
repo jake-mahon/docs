@@ -1,3 +1,9 @@
+---
+title: "1-Oracle_PermissionsScan Job"
+description: "1-Oracle_PermissionsScan Job"
+sidebar_position: 20
+---
+
 # 1-Oracle_PermissionsScan Job
 
 The 1-Oracle_PermissionsScan Job is designed to collect Oracle database level permissions from all

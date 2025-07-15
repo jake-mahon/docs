@@ -1,3 +1,9 @@
+---
+title: "NIS: Summary"
+description: "NIS: Summary"
+sidebar_position: 80
+---
+
 # NIS: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for both

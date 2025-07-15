@@ -1,3 +1,9 @@
+---
+title: "AD_EmptyGroups Job"
+description: "AD_EmptyGroups Job"
+sidebar_position: 50
+---
+
 # AD_EmptyGroups Job
 
 The AD_EmptyGroups Job identifies empty and single member groups which are suitable candidates for

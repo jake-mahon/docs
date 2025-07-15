@@ -1,3 +1,9 @@
+---
+title: "SystemInfo: VIP Membership"
+description: "SystemInfo: VIP Membership"
+sidebar_position: 50
+---
+
 # SystemInfo: VIP Membership
 
 The VIP Membership provides the option to add members to a VIP List and exclude them from contact

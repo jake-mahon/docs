@@ -1,3 +1,9 @@
+---
+title: "Import License Key"
+description: "Import License Key"
+sidebar_position: 40
+---
+
 # Import License Key
 
 The Activity Monitor comes with a temporary 10-day license. Uploading a new license key or importing

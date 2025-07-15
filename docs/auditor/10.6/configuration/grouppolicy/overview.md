@@ -1,3 +1,9 @@
+---
+title: "Group Policy"
+description: "Group Policy"
+sidebar_position: 50
+---
+
 # Group Policy
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

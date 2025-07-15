@@ -1,3 +1,9 @@
+---
+title: "System Alerting Window"
+description: "System Alerting Window"
+sidebar_position: 80
+---
+
 # System Alerting Window
 
 The System Alerting window is only available to administrators and enables them to configure and
@@ -41,10 +47,10 @@ Email and SIEM alert notifications for policy events can be enabled through:
 
 - The System Alerting window
 - The
-  [Actions Tab](/docs/threatprevention/7.4/admin/policies/actions/overview.md)
+  [Actions Tab](/docs/threatprevention/7.4/admin/policies/configuration/actions/overview.md)
   of a policy
 - The
-  [Actions Tab](/docs/threatprevention/7.4/admin/templates/actions.md) of
+  [Actions Tab](/docs/threatprevention/7.4/admin/templates/configuration/actions.md) of
   a policy template
 
 In any case, configuration must first be set through the System Alerting window. The
@@ -94,7 +100,7 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/agentmanagement/startpendingmodules.md)
   topic for additional information.
 
   **_RECOMMENDED:_** Activate an email notification for this alert. See the

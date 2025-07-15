@@ -13,7 +13,7 @@ Access Auditing and Sensitive Data Discovery Auditing components of this solutio
 SharePoint on-premises and SharePoint Online. The Activity Auditing components of this solution can
 only target SharePoint on-premises.
 
-Supported Platforms
+**Supported Platforms**
 
 - SharePoint Online® (Agent-less mode scans only)
 
@@ -24,7 +24,7 @@ Supported Platforms
 - SharePoint® 2016
 - SharePoint® 2013
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
   [SharePoint Support](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint/sharepoint.md) topic for additional information.
@@ -33,24 +33,30 @@ Requirements, Permissions, and Ports
   [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/sharepoint/scanoptions/scanoptions.md) topic for
   additional information.
 
-**NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
+:::note
+You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
 [SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for
 additional information.
+:::
 
-Sensitive Data Discovery Considerations
+
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job
 is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The SharePoint Solution requires a special Access Analyzer license. It can be installed from the
 Access Analyzer Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to the

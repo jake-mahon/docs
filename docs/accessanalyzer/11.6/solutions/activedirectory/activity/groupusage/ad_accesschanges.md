@@ -1,3 +1,9 @@
+---
+title: "AD_AccessChanges Job"
+description: "AD_AccessChanges Job"
+sidebar_position: 10
+---
+
 # AD_AccessChanges Job
 
 The AD_AccessChanges Job highlights the type and number of resources across the environment where

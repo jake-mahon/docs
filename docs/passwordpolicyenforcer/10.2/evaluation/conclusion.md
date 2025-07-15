@@ -1,3 +1,9 @@
+---
+title: "Conclusion"
+description: "Conclusion"
+sidebar_position: 80
+---
+
 # Conclusion
 
 Congratulations! You have successfully installed, configured, and tested Netwrix Password Policy

@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Folder Conditions"
+description: "Mailbox: Folder Conditions"
+sidebar_position: 60
+---
+
 # Mailbox: Folder Conditions
 
 Use the Folder Conditions page to customize folder search filter conditions. It is a wizard page for

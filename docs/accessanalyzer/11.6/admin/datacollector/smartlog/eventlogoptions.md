@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Event Log Options"
+description: "SMARTLog: Event Log Options"
+sidebar_position: 80
+---
+
 # SMARTLog: Event Log Options
 
 The Event Log Options page is used to configure additional options. It is a wizard page for all log

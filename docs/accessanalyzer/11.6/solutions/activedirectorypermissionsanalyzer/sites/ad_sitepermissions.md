@@ -1,3 +1,9 @@
+---
+title: "AD_SitePermissions Job"
+description: "AD_SitePermissions Job"
+sidebar_position: 20
+---
+
 # AD_SitePermissions Job
 
 The AD_SitePermissions Job reports on all Active Directory permissions applied to site objects

@@ -1,3 +1,9 @@
+---
+title: "AWS: Criteria"
+description: "AWS: Criteria"
+sidebar_position: 50
+---
+
 # AWS: Criteria
 
 The Criteria (Select DLP criteria for this scan) page is where criteria to be used for discovering

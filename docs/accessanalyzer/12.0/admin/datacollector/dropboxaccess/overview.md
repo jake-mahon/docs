@@ -13,21 +13,21 @@ preconfigured within the Dropbox Solution. Both this data collector and the solu
 with a special Access Analyzer license. See the
 [Dropbox Solution](/docs/accessanalyzer/12.0/solutions/dropbox/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - HTTP
 - HTTPS
 
-Ports
+**Ports**
 
 - TCP 80
 - TCP443
 
-Permissions
+**Permissions**
 
 - Dropbox Team Administrator
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job

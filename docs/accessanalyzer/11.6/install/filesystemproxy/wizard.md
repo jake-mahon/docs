@@ -1,3 +1,9 @@
+---
+title: "File System Proxy Service Installation"
+description: "File System Proxy Service Installation"
+sidebar_position: 10
+---
+
 # File System Proxy Service Installation
 
 The File System Proxy installer is designed to simplify the process of setting up File System
@@ -60,7 +66,7 @@ of proxy servers should also be created in Netwrix Enterprise Auditor.
 
 Once the File System Proxy Service has been installed on any proxy server, it is necessary to
 configure the File System Solution certificate exchange method for Proxy Mode as a Service. See the
-[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/certificatemanagement/certificatemanagement.md)
 topic for additional information.
 
 ## Custom Parameters for File System Proxy Service

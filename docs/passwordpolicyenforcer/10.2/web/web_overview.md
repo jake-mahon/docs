@@ -1,3 +1,9 @@
+---
+title: "Web"
+description: "Web"
+sidebar_position: 40
+---
+
 # Web
 
 Password Policy Enforcer/Web allows users to change their Windows domain password from a web

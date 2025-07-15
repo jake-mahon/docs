@@ -1,3 +1,9 @@
+---
+title: "NIS Data Collector"
+description: "NIS Data Collector"
+sidebar_position: 260
+---
+
 # NIS Data Collector
 
 The NIS Data Collector inventories a NIS domain for user and group information, mapping to

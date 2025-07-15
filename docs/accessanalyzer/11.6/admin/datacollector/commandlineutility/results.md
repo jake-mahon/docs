@@ -1,3 +1,9 @@
+---
+title: "CLU: Results"
+description: "CLU: Results"
+sidebar_position: 60
+---
+
 # CLU: Results
 
 The Results page is where the properties to be returned as columns in the results table are

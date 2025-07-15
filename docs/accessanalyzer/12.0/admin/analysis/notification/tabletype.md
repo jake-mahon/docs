@@ -19,12 +19,15 @@ The following options are available:
   any) display on the Select Table page. See the [Notification: Select Table](/docs/accessanalyzer/12.0/admin/analysis/notification/selecttable.md) topic
   for additional information.
 
-    **NOTE:** Change Detection Table also locks selections to tables on the Select Table page that
+    :::note
+    Change Detection Table also locks selections to tables on the Select Table page that
     are selected through Other. To select tables outside of **Show only tables for this job**,
     select Other on the Table Type page, then select either **Show All Tables** or **Show All SA
     Tables**, then click back to return to the Table Type page. Now selecting Change Detection Table
     and proceeding defaults the selection on the Select Table page to whichever was previously
     selected through Other.
+    :::
+
 
 - Other – Sends a notification based on a value within a selected table. Selecting this option
   enables the following options on the Select Table page, each of which lists a specific set of

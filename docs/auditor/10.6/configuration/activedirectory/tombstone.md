@@ -1,3 +1,9 @@
+---
+title: "Adjust Active Directory Tombstone Lifetime (optional)"
+description: "Adjust Active Directory Tombstone Lifetime (optional)"
+sidebar_position: 90
+---
+
 # Adjust Active Directory Tombstone Lifetime (optional)
 
 You can restore deleted Active Directory objects and their attributes using the Netwrix Auditor

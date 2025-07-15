@@ -1,3 +1,9 @@
+---
+title: "MySQL_Configuration Job"
+description: "MySQL_Configuration Job"
+sidebar_position: 10
+---
+
 # MySQL_Configuration Job
 
 The MySQL_Configuration Job is designed to collect MySQL server instance and database configuration

@@ -1,3 +1,9 @@
+---
+title: "AD_DomainControllers Job"
+description: "AD_DomainControllers Job"
+sidebar_position: 10
+---
+
 # AD_DomainControllers Job
 
 The 0.Collection > AD_DomainControllers Job collects domain controller details which will be further

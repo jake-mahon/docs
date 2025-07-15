@@ -1,3 +1,9 @@
+---
+title: "Add New Host Window"
+description: "Add New Host Window"
+sidebar_position: 10
+---
+
 # Add New Host Window
 
 Once an agent has been deployed, you can configure a host to be monitored by clicking the Add Host

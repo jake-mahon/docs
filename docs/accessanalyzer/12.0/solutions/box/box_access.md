@@ -15,8 +15,11 @@ that can be revoked.
 Navigate to **Box** > **Box_Access** > **Configure** node and select **Analysis** to view analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the Box_Access Job](/img/product_docs/accessanalyzer/12.0/solutions/box/accessanalysis.webp)
 
@@ -32,7 +35,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the Box_Access Job produces the
 following pre-configured reports.
 
-| Report                             | Description                                                                               | Default Tags | Report Elements                                                                                                                                                                               |
-| ---------------------------------- | ----------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Access (Box Access Overview) | This report highlights groups with access to Box resources, and summarizes them by group. | None         | This report is comprised of three elements: - Bar Chart – Displays top groups by access granted - Table – Provides details on top groups by access - Table – Provides details on group access |
-| User Access                        | This report highlights users with access to Box resources, and summarizes them by group.  | None         | This report is comprised of three elements: - T-Chart – Displays top users by direct access - Table – Provides summary of user access - Table – Provides details on user access               |
+| Report                             | Description                                                                               | Default Tags | Report Elements                                                                                                                                                                                                           |
+| ---------------------------------- | ----------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Access (Box Access Overview) | This report highlights groups with access to Box resources, and summarizes them by group. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top groups by access granted</li><li>Table – Provides details on top groups by access</li><li>Table – Provides details on group access</li></ul> |
+| User Access                        | This report highlights users with access to Box resources, and summarizes them by group.  | None         | This report is comprised of three elements: <ul><li>T-Chart – Displays top users by direct access</li><li>Table – Provides summary of user access</li><li>Table – Provides details on user access</li></ul>               |
+

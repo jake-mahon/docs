@@ -1,3 +1,9 @@
+---
+title: "Domain Object Level Reports"
+description: "Domain Object Level Reports"
+sidebar_position: 50
+---
+
 # Domain Object Level Reports
 
 The following reports are displayed at the Domain Object level:

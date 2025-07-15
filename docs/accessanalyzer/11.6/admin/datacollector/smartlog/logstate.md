@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Log State"
+description: "SMARTLog: Log State"
+sidebar_position: 70
+---
+
 # SMARTLog: Log State
 
 The Log State page is used to configure how to search the log. It is a wizard page for all log

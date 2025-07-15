@@ -16,8 +16,11 @@ control over the content they own and their security settings.
 Navigate to **Box** > **1.Activity** > **Forensics** > **Box_ExternalUserActivity** > **Configure**
 node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis for the Box_ExternalUserActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/box/activity/forensics/externaluseractivityanalysis.webp)
 
@@ -31,6 +34,7 @@ The following analysis tasks are selected by default:
 In addition to the tables created by the analysis tasks, the Box_ExternalUserActivity Job produces
 the following pre-configured report:
 
-| Report                    | Description                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Most Active External User | This report identifies highest resource activity by external users. The bar chart and summary table outline the top 5 most active external users. | None         | This report is comprised of three elements: - Bar Chart – Displays top events by top external users - Table – Provides summary of events by top external user - Table – Provides details on external users |
+| Report                    | Description                                                                                                                                       | Default Tags | Report Elements                                                                                                                                                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Most Active External User | This report identifies highest resource activity by external users. The bar chart and summary table outline the top 5 most active external users. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top events by top external users</li><li>Table – Provides summary of events by top external user</li><li>Table – Provides details on external users</li></ul> |
+

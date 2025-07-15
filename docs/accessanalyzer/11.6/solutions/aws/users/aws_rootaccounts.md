@@ -1,3 +1,9 @@
+---
+title: "AWS_RootAccounts Job"
+description: "AWS_RootAccounts Job"
+sidebar_position: 30
+---
+
 # AWS_RootAccounts Job
 
 The AWS_RootAccounts job provides details on AWS root accounts and how they conform to recommended

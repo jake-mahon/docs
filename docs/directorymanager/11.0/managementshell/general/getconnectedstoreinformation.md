@@ -1,3 +1,9 @@
+---
+title: "Get-ConnectedStoreInformation"
+description: "Get-ConnectedStoreInformation"
+sidebar_position: 20
+---
+
 # Get-ConnectedStoreInformation
 
 The **Get-ConnectedStoreInformation** commandlet retrieves information about the identity store
@@ -27,4 +33,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

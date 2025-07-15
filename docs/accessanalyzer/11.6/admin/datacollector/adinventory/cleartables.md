@@ -1,3 +1,9 @@
+---
+title: "Clear ADInventory Tables"
+description: "Clear ADInventory Tables"
+sidebar_position: 90
+---
+
 # Clear ADInventory Tables
 
 Sometimes when troubleshooting an ADInventory issue, it becomes necessary to clear the standard

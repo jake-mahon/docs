@@ -11,27 +11,30 @@ used to find files and folders on a target host. The File Data Collector finds o
 the target hosts. It can target any file extension. This data collector is a core component of
 Access Analyzer and is available with all Access Analyzer licenses.
 
-**NOTE:** For enhanced file system data collections, use the
+:::note
+For enhanced file system data collections, use the
 [FileSystemAccess Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/overview.md).
+:::
 
-Supported Platforms
+
+**Supported Platforms**
 
 This data collector can target the same servers supported for the FileSystemAccess Data Collector.
 See the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for a
 full list of supported platforms.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - Optional TCP 445
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

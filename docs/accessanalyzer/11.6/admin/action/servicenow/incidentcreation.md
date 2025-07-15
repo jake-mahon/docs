@@ -1,3 +1,9 @@
+---
+title: "ServiceNow Action: Incident Creation"
+description: "ServiceNow Action: Incident Creation"
+sidebar_position: 20
+---
+
 # ServiceNow Action: Incident Creation
 
 The Incident Creation page is available once the ServiceNow credentials are approved. Incidents on

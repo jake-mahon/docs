@@ -1,3 +1,9 @@
+---
+title: "FS_RestoreInheritance_Status Job"
+description: "FS_RestoreInheritance_Status Job"
+sidebar_position: 40
+---
+
 # FS_RestoreInheritance_Status Job
 
 The FS_RestoreInheritance_Status job is designed to report on inheritance that was restored to

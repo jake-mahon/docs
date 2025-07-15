@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Details Report"
+description: "Sensitive Content Details Report"
+sidebar_position: 60
+---
+
 # Sensitive Content Details Report
 
 The Sensitive Content Details report at the on-premise farm and online instance level provides

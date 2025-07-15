@@ -1,3 +1,9 @@
+---
+title: "Protocols Tab"
+description: "Protocols Tab"
+sidebar_position: 90
+---
+
 # Protocols Tab
 
 The Protocols tab on an output Properties window is where monitoring scope by protocol can be

@@ -1,3 +1,9 @@
+---
+title: "SP_PermissionChanges Job"
+description: "SP_PermissionChanges Job"
+sidebar_position: 20
+---
+
 # SP_PermissionChanges Job
 
 This job identifies permission changes which have been performed on all monitored SharePoint sites

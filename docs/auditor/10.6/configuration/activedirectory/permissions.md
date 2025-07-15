@@ -1,3 +1,9 @@
+---
+title: "Permissions for Active Directory Auditing"
+description: "Permissions for Active Directory Auditing"
+sidebar_position: 110
+---
+
 # Permissions for Active Directory Auditing
 
 Before you start creating a monitoring plan to audit your Active Directory, plan for the account
@@ -28,7 +34,7 @@ The account used for data collection must meet the following requirements:
       topic for additional information.
 
 If the account selected for data collection is not a member of the Domain Admins group, see the
-[Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/activedirectory/permissionsregistrykeys.md)
+[Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/exchange/permissionsregistrykeys.md)
 topic.
 
 ## Additional Configuration to Review Changes Made via Exchange Server
@@ -53,7 +59,7 @@ The following is required if auto-backup is enabled for the domain controller ev
 
 - Permissions to access the HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security
   registry key on the domain controllers in the target domain. See the
-  [Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/activedirectory/permissionsregistrykeys.md)
+  [Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/exchange/permissionsregistrykeys.md)
   topic for additional information.
 - Membership in one of the following groups: **Administrators**, **Print Operators**, **Server
   Operators**.
@@ -93,7 +99,7 @@ If auto-backup is _enabled_ for the domain controller event logs:
 
 - Permissions to access the _HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security_
   registry key on the domain controllers in the target domain. See the
-  [Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/activedirectory/permissionsregistrykeys.md)
+  [Assign Permission To Read the Registry Key](/docs/auditor/10.6/configuration/exchange/permissionsregistrykeys.md)
   topic for additional information.
 - Membership in any of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder.

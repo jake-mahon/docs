@@ -1,3 +1,9 @@
+---
+title: "SP_ExternalUsers Job"
+description: "SP_ExternalUsers Job"
+sidebar_position: 10
+---
+
 # SP_ExternalUsers Job
 
 The SP_TeamsExternalUsers Job identifies activity of external users on all monitored SharePoint

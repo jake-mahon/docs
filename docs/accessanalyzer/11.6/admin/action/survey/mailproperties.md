@@ -1,3 +1,9 @@
+---
+title: "Survey: Mail – Properties"
+description: "Survey: Mail – Properties"
+sidebar_position: 60
+---
+
 # Survey: Mail – Properties
 
 Use this page to specify the email recipients.

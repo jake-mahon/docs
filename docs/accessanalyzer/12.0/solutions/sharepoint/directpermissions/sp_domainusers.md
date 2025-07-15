@@ -14,8 +14,11 @@ permissions. Best practices dictate that groups should be used to provide access
 Navigate to the **Jobs** > **SharePoint** > **1.Direct Permissions** > **SP_DomainUsers** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_DomainUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/domainusersanalysis.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the table created by the analysis task which displays all direct user permissions,
 the SP_DomainUsers Job produces the following pre-configured report:
 
-| Report                  | Description                                                                                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                  |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Domain User Permissions | This report identifies locations where there are domain users directly applied on permissions. Best practices dictate that groups should be used to provide access to resources. | None         | This report is comprised of three elements: - Bar chart – Displays the top 5 resources by directly applied users - Table – Provides details on directly applied users by resource - Table – Provides details on direct permission counts by user |
+| Report                  | Description                                                                                                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Domain User Permissions | This report identifies locations where there are domain users directly applied on permissions. Best practices dictate that groups should be used to provide access to resources. | None         | This report is comprised of three elements: <ul><li>Bar chart – Displays the top 5 resources by directly applied users</li><li>Table – Provides details on directly applied users by resource</li><li>Table – Provides details on direct permission counts by user</li></ul> |
+

@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Discovery Add-On"
+description: "Sensitive Data Discovery Add-On"
+sidebar_position: 50
+---
+
 # Sensitive Data Discovery Add-On
 
 The Sensitive Data Discovery Add-On allows Enterprise Auditor to scan file content for matches to

@@ -1,3 +1,9 @@
+---
+title: "SMARTLog: Criteria"
+description: "SMARTLog: Criteria"
+sidebar_position: 50
+---
+
 # SMARTLog: Criteria
 
 The Criteria page is used to specify the search criteria. A test query can be run with the sample

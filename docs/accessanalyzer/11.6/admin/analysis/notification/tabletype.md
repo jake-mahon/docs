@@ -1,3 +1,9 @@
+---
+title: "Notification: Table Type"
+description: "Notification: Table Type"
+sidebar_position: 10
+---
+
 # Notification: Table Type
 
 Use the Source Table Selection page to choose the type of table to use as the data source for

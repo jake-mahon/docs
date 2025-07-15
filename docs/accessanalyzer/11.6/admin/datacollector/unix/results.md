@@ -1,3 +1,9 @@
+---
+title: "Unix: Results"
+description: "Unix: Results"
+sidebar_position: 50
+---
+
 # Unix: Results
 
 On the Results page, select which properties will be gathered out of those available for the query.

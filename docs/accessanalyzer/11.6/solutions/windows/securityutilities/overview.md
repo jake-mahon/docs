@@ -1,3 +1,9 @@
+---
+title: "Security Utilities Job Group"
+description: "Security Utilities Job Group"
+sidebar_position: 60
+---
+
 # Security Utilities Job Group
 
 The Security Utilities job group is designed to reveal all open ports along with the associated

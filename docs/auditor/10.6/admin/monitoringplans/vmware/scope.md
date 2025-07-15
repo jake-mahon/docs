@@ -1,3 +1,9 @@
+---
+title: "VMware Monitoring Scope"
+description: "VMware Monitoring Scope"
+sidebar_position: 10
+---
+
 # VMware Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying various data types that you want to exclude/include

@@ -14,17 +14,17 @@ license options. See the
 [.Entra ID Inventory Solution](/docs/accessanalyzer/12.0/solutions/entraidinventory/overview.md) topic for additional
 information.
 
-Protocols
+**Protocols**
 
 - HTTP
 - HTTPS
 - REST
 
-Ports
+**Ports**
 
 - TCP 80 and 443
 
-Permissions
+**Permissions**
 
 - Microsoft Graph API Application permissions:
 

@@ -1,3 +1,9 @@
+---
+title: "Customize Home Screen"
+description: "Customize Home Screen"
+sidebar_position: 20
+---
+
 # Customize Home Screen
 
 Starting with version 10, you can personalize theHome Screen of Netwrix Auditor to display the tiles

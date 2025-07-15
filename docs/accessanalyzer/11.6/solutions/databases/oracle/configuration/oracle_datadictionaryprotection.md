@@ -1,3 +1,9 @@
+---
+title: "Oracle_DataDictionaryProtection Job"
+description: "Oracle_DataDictionaryProtection Job"
+sidebar_position: 30
+---
+
 # Oracle_DataDictionaryProtection Job
 
 The Oracle_DataDictionaryProtection Job is designed to identify if the Oracle data dictionary views

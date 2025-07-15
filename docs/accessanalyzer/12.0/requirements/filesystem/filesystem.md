@@ -27,7 +27,7 @@ See the following topics for target environment requirements:
 
 ## File System Solution Requirements on the Access Analyzer Console
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment:
 
@@ -56,25 +56,31 @@ permission collection + 1.25 GB for tag collection (10x125 MB) + 100 GB for sens
 collection (200x500 MB) + 600 GB additional for sensitive data collection (10% of 6 TB) = 861.25 GB
 total disk space.
 
-**NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
+:::note
+If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the
 minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. By
 default, SDD scans are configured to run two concurrent threads. For example, if the job is
 configured to scan 8 hosts at a time with two concurrent SDD threads, then an extra 32 GB of RAM are
 required (8x2x2=32).
+:::
 
-Additional Server Considerations for File System Scans
+
+**Additional Server Considerations for File System Scans**
 
 If Data Activity Tracking for NAS is required or if NetApp Filers running Clustered Data ONTAP are
 in scope, reducing latency between the scanning server and the target device is highly recommended.
 Additional hardware may be required, especially if the target NAS devices are not collocated with
 the Access Analyzer Console server.
 
-Sensitive Data Discovery Auditing Requirement
+**Sensitive Data Discovery Auditing Requirement**
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
+
 
 Permissions on the Console Server to Run File System Scans
 
@@ -103,7 +109,7 @@ the environment.
 
 ## File System Solution Requirements on the SQL Server
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the size of the target environment.
 
@@ -118,7 +124,7 @@ These are dependent upon the size of the target environment.
 | SQL Transaction Log Disk | 390 GB                         | 200 GB                              | 170 GB                              | 130 GB                              | 70 GB                               |
 | SQL TEMP DB Disk         | 1 TB                           | 530 GB                              | 400 GB                              | 270 GB                              | 130 GB                              |
 
-Additional SQL Server Requirements for File System Scans
+**Additional SQL Server Requirements for File System Scans**
 
 The following are additional requirements for the SQL Server specifically for the File System
 solution:

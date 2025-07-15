@@ -1,3 +1,9 @@
+---
+title: "Add a Script to an Existing Query"
+description: "Add a Script to an Existing Query"
+sidebar_position: 20
+---
+
 # Add a Script to an Existing Query
 
 The Query Properties window provides the ability to add a script to an existing query. Typically, a

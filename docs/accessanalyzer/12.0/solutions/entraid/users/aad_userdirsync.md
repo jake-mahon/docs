@@ -14,8 +14,11 @@ Entra ID environment.
 Navigate to the **Jobs** > **Entra ID** > **2.Users** > **AAD_UserDirSync** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AAD_UserDirSync Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/users/userdirsyncanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_UserDirSync Job produces the
 following pre-configured report.
 
-| Report       | Description                                                                            | Default Tags | Report Elements                                                                                                                               |
-| ------------ | -------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Syncing | This report indicates the sync status of user accounts within the audited environment. | None         | This report is comprised of two elements: - Bar Chart – Displays enterprise user synchronization summary - Table – Provides user sync details |
+| Report       | Description                                                                            | Default Tags | Report Elements                                                                                                                                                     |
+| ------------ | -------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User Syncing | This report indicates the sync status of user accounts within the audited environment. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays enterprise user synchronization summary</li><li>Table – Provides user sync details</li></ul> |
+

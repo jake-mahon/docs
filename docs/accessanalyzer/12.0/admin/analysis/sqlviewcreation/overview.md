@@ -9,8 +9,11 @@ sidebar_position: 60
 The SQLViewCreation analysis module provides the ability to create new views or tables that are used
 in Access Analyzer actions and reports. These views or tables are re-created during job execution.
 
-**CAUTION:** Consider the impact on storage and performance when choosing to create views versus
+:::warning
+Consider the impact on storage and performance when choosing to create views versus
 tables. Tables require more storage space in the database.
+:::
+
 
 ## Configuration
 

@@ -1,3 +1,9 @@
+---
+title: "Configure Data Collection Settings"
+description: "Configure Data Collection Settings"
+sidebar_position: 20
+---
+
 # Configure Data Collection Settings
 
 To successfully track user activity, make sure that the following settings are configured on the

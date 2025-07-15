@@ -1,3 +1,9 @@
+---
+title: "Cleanup Job Group"
+description: "Cleanup Job Group"
+sidebar_position: 110
+---
+
 # Cleanup Job Group
 
 The Cleanup job group is designed to report on and take action against resources from targeted file
@@ -51,7 +57,7 @@ The Cleanup job group has the following prerequisites:
     - Collect ownership and permission information for files
 
     See the
-    [FSAA: Default Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/defaultscopingoptions.md)
+    [FSAA: Default Scoping Options](/docs/accessanalyzer/11.6/admin/datacollector/fsaa/defaultscopingoptions/defaultscopingoptions.md)
     topic for additional information.
 
 Individual jobs and job groups within the Cleanup job group may have their own prerequisites and

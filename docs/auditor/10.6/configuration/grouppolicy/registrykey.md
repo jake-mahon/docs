@@ -1,3 +1,9 @@
+---
+title: "Group Policy Registry Keys"
+description: "Group Policy Registry Keys"
+sidebar_position: 20
+---
+
 # Group Policy Registry Keys
 
 Review the basic registry keys that you may need to configure for monitoring Group Policy with

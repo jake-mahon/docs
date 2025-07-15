@@ -1,3 +1,9 @@
+---
+title: "Box_UnusualDownloadActivity Job"
+description: "Box_UnusualDownloadActivity Job"
+sidebar_position: 30
+---
+
 # Box_UnusualDownloadActivity Job
 
 The Box_UnusualDownloadActivity Job highlights unusual download activity for a user on a specific

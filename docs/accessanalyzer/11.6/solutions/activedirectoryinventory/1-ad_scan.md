@@ -1,3 +1,9 @@
+---
+title: "1-AD_Scan Job"
+description: "1-AD_Scan Job"
+sidebar_position: 20
+---
+
 # 1-AD_Scan Job
 
 The 1-AD_Scan Job collects data from Active Directory. In most environments, this job requires no

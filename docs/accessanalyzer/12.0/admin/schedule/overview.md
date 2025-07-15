@@ -22,9 +22,12 @@ The following tasks can be scheduled:
   the [Schedule (Activities Pane Option)](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/schedule.md) topic for
   additional information.
 
-**NOTE:** If you attempt to rename a task after a scheduled task using custom credentials has been
+:::note
+If you attempt to rename a task after a scheduled task using custom credentials has been
 created, then the Rename Scheduled Task wizard displays to update the credentials. See the
 [Rename Scheduled Task Wizard](/docs/accessanalyzer/12.0/admin/schedule/renamewizard.md) topic for additional information.
+:::
+
 
 ## Schedule Jobs
 

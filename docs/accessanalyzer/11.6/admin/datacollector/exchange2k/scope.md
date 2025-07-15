@@ -1,3 +1,9 @@
+---
+title: "Exchange2K: Scope"
+description: "Exchange2K: Scope"
+sidebar_position: 20
+---
+
 # Exchange2K: Scope
 
 The Scope page is used to define where to search. It is a wizard page for the categories of:

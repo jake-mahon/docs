@@ -14,5 +14,8 @@ under a column can be selected and copied to the clipboard.
 
 To copy a cell, select the cell, then right-click on it and select **Copy Cell Data**.
 
-**NOTE:** You may need to allow programmatic clipboard access for your browser the first time you
+:::note
+You may need to allow programmatic clipboard access for your browser the first time you
 attempt to copy a cell.
+
+:::

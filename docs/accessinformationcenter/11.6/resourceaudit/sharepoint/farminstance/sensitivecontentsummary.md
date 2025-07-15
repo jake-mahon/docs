@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Summary Report"
+description: "Sensitive Content Summary Report"
+sidebar_position: 70
+---
+
 # Sensitive Content Summary Report
 
 The Sensitive Content Summary report at the on-premise farm and online instance levels provides a

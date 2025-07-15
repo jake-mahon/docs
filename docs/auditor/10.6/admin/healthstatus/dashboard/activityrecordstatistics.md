@@ -1,3 +1,9 @@
+---
+title: "Activity Records Statistics"
+description: "Activity Records Statistics"
+sidebar_position: 10
+---
+
 # Activity Records Statistics
 
 Aggregated statistics on the activity records is provided in the Activity records by date widget.

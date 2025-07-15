@@ -1,3 +1,9 @@
+---
+title: "EX_MailboxLogons Job"
+description: "EX_MailboxLogons Job"
+sidebar_position: 20
+---
+
 # EX_MailboxLogons Job
 
 The EX_MailboxLogons Job provides details around Mailbox logon activity occurring within the

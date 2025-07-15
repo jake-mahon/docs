@@ -8,7 +8,10 @@ sidebar_position: 70
 
 Use the Options page to edit the thread settings.
 
-**CAUTION:** Increasing the thread count increases the processing load on the servers.
+:::warning
+Increasing the thread count increases the processing load on the servers.
+:::
+
 
 ![Public Folder Action Module Wizard Options page](/img/product_docs/accessanalyzer/12.0/admin/action/publicfolder/options.webp)
 

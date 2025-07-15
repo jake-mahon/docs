@@ -1,3 +1,9 @@
+---
+title: "Job Properties"
+description: "Job Properties"
+sidebar_position: 40
+---
+
 # Job Properties
 
 Jobs can be configured to inherit global settings down through parent job groups or to be

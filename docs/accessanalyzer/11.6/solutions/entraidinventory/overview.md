@@ -1,3 +1,9 @@
+---
+title: ".Entra ID Inventory Solution"
+description: ".Entra ID Inventory Solution"
+sidebar_position: 20
+---
+
 # .Entra ID Inventory Solution
 
 The .Entra ID Inventory Solution is designed to inventory, analyze, and report on Microsoft Entra
@@ -15,7 +21,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/config/entraid/overview.md)
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/requirements/entraid/entraid/overview.md)
 topic for additional information.
 
 Location

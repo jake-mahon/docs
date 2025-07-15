@@ -1,3 +1,9 @@
+---
+title: "2.PF > EX_PFInfo Job"
+description: "2.PF > EX_PFInfo Job"
+sidebar_position: 20
+---
+
 # 2.PF > EX_PFInfo Job
 
 The EX_PFInfo job utilizes MAPI to gather Public Folder Database Information focusing on database

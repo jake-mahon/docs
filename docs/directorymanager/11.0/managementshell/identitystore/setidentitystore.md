@@ -1,3 +1,9 @@
+---
+title: "Set-IdentityStore"
+description: "Set-IdentityStore"
+sidebar_position: 160
+---
+
 # Set-IdentityStore
 
 The commandlet **Set-IdentityStore** modifies the identity store settings and configurations.
@@ -371,4 +377,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

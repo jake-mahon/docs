@@ -15,8 +15,11 @@ requests.
 Navigate to the **Active Directory** > **1.Groups** > **AD_GroupProbableOwners** > **Configure**
 node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupProbableOwners Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/groups/groupprobableownersanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_GroupProbableOwner Job
 produces the following pre-configured report:
 
-| Report          | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                       |
-| --------------- | ----------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Probable Owners | This report identifies the most probable manager or department, based on effective member attributes. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays top domains by blank manager field - Table – Provides details on probable ownership - Table – Provides summary of managers |
+| Report          | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                   |
+| --------------- | ----------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Probable Owners | This report identifies the most probable manager or department, based on effective member attributes. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays top domains by blank manager field</li><li>Table – Provides details on probable ownership</li><li>Table – Provides summary of managers</li></ul> |
+

@@ -12,13 +12,13 @@ as targets:
 - Windows 7 and higher
 - Windows Server 2016 and later
 
-Server and Desktop Requirements
+**Server and Desktop Requirements**
 
 The following are requirements for the servers and desktops to be scanned:
 
 - WINRM Service installed
 
-Data Collectors
+**Data Collectors**
 
 This solution employs the following data collector to scan the target environment:
 
@@ -43,53 +43,53 @@ This solution employs the following data collector to scan the target environmen
 
 The following firewall ports are needed:
 
-For GroupPolicy Data Collector
+**For GroupPolicy Data Collector**
 
 - TCP 389
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For PowerShell Data Collector
+**For PowerShell Data Collector**
 
 - Randomly allocated high TCP ports
 
-For Registry Data Collector
+**For Registry Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For Script Data Collector
+**For Script Data Collector**
 
 - Randomly allocated high TCP ports
 
-For Services Data Collector
+**For Services Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For SMARTLog Data Collector
+**For SMARTLog Data Collector**
 
 - TCP 135
 - TCP 445
 - Randomly allocated high TCP ports
 
-For SystemInfo Data Collector
+**For SystemInfo Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For TextSearch Data Collector
+**For TextSearch Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-For UsersGroups Data Collector
+**For UsersGroups Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - 445
 
-For WMICollector Data Collector
+**For WMICollector Data Collector**
 
 - TCP 135-139
 - Randomly allocated high TCP ports

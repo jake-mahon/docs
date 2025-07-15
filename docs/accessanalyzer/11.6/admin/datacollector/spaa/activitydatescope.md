@@ -1,3 +1,9 @@
+---
+title: "SPAA: Activity Date Scope"
+description: "SPAA: Activity Date Scope"
+sidebar_position: 110
+---
+
 # SPAA: Activity Date Scope
 
 The Activity Date Scope page is where the range of dates for which the SharePoint activity scan will

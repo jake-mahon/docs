@@ -13,13 +13,19 @@ upgrade can be done in two ways:
 - Automatically – An instant job within the Access Analyzer Console
 - Manually – On each server hosting the proxy service
 
-**CAUTION:** When upgrading the Proxy Service to 11.6 from a previous version for the first time,
+:::warning
+When upgrading the Proxy Service to 11.6 from a previous version for the first time,
 you must manually uninstall the previous version and follow the [Manual Upgrade](#manual-upgrade)
 steps below. Subsequent 11.6 upgrades can be done using the automatic upgrade option.
+:::
 
-**NOTE:** If you have the old Netwrix Sensitive Data Discovery Add-On installed, you must uninstall
+
+:::note
+If you have the old Netwrix Sensitive Data Discovery Add-On installed, you must uninstall
 it before continuing with this upgrade. For Access Analyzer 12.0, Sensitive Data Discovery is
 installed as part of the main installation if your license includes it.
+:::
+
 
 ## Automatic Upgrade
 

@@ -1,3 +1,9 @@
+---
+title: "Access Report"
+description: "Access Report"
+sidebar_position: 10
+---
+
 # Access Report
 
 The Access report at the domain object level provides information on the level of access trustees

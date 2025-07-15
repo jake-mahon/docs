@@ -1,3 +1,9 @@
+---
+title: "Object Restore for Active Directory"
+description: "Object Restore for Active Directory"
+sidebar_position: 40
+---
+
 # Object Restore for Active Directory
 
 With Netwrix Auditor you can quickly restore deleted and modified objects using the Netwrix Auditor

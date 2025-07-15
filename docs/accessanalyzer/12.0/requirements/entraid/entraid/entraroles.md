@@ -10,27 +10,36 @@ Access Analyzer can scan for Microsoft Entra roles information. It scans:
 
 - Microsoft Entra ID (formerly Azure AD)
 
-**NOTE:** A user account with the Global Administrator role is required to register an app with
+:::note
+A user account with the Global Administrator role is required to register an app with
 Microsoft Entra ID.
+:::
 
-Data Collector
+
+**Data Collector**
 
 - [Entra Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/entra/overview.md)
 
-Configuration Settings from the Registered Application
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
 - Client ID – This is the Application (client) ID for the registered application
 - Key – This is the Client Secret Value generated when a new secret is created
 
-    **CAUTION:** It is not possible to retrieve the value after saving the new key. It must be
+    :::warning
+    It is not possible to retrieve the value after saving the new key. It must be
     copied first.
+    :::
 
-**NOTE:** It is recommended to use the same registered application for the Access and Entra roles
+
+:::note
+It is recommended to use the same registered application for the Access and Entra roles
 auditing configurations. In this case, these values are only needed once for the tenant. See the
 [Microsoft Entra ID Registered Application](#microsoft-entra-id-registered-application) topic for
 additional information.
+:::
+
 
 ## Permissions
 
@@ -110,9 +119,12 @@ Follow the steps to create the required custom role and assign the necessary per
 **Step 2 –** Select the **Tenant Root Group** to navigate to the Overview page of the management
 group.
 
-**_RECOMMENDED:_** It is recommended to create this custom role at the root management group level.
+:::info
+It is recommended to create this custom role at the root management group level.
 This ensures that all of necessary information on the Microsoft Entra environment is collected.
 Creating the custom role on a lower level management group can result in missing data.
+:::
+
 
 **Step 3 –** Navigate to **Access Control (IAM)** on the left side menu.
 
@@ -155,8 +167,11 @@ edit the permissions section of the JSON to be the following:
     }
 ```
 
-**_RECOMMENDED:_** After editing the JSON, go back to the Permissions tab and verify the list of
+:::info
+After editing the JSON, go back to the Permissions tab and verify the list of
 permissions.
+:::
+
 
 **Step 7 –** Once the permissions are configured, click **Create** on the Review + create tab to
 finish creating the custom role.

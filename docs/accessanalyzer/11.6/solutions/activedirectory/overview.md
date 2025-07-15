@@ -1,3 +1,9 @@
+---
+title: "Active Directory Solution"
+description: "Active Directory Solution"
+sidebar_position: 40
+---
+
 # Active Directory Solution
 
 The Active Directory Solution is a comprehensive set of audit jobs and reports that provide the
@@ -17,7 +23,7 @@ article for additional information.
 Requirements, Permissions, and Ports
 
 See the
-[Active Directory Domain Target Requirements](/docs/accessanalyzer/11.6/config/activedirectory/overview.md)
+[Active Directory Domain Target Requirements](/docs/accessanalyzer/11.6/requirements/activedirectory/activedirectory/overview.md)
 topic for additional information.
 
 Location

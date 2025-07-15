@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Unix Job Group"
+description: "Recommended Configurations for the Unix Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Unix Job Group
 
 The Unix job group has been configured by default to run with the default settings. It can be run
@@ -22,7 +28,7 @@ Connection Profile
 Set a Connection Profile on the Unix job group with root permissions for Unix/Linux.
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/target/unix.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/requirements/unix/unix_1.md#least-privilege-model)
 topic for permissions needed to target the supported platforms for data collection.
 
 Schedule Frequency

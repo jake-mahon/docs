@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Filter"
+description: "SQLViewCreation: Filter"
+sidebar_position: 50
+---
+
 # SQLViewCreation: Filter
 
 Use this page to add custom filters to the table using the Filter Builder.

@@ -1,3 +1,9 @@
+---
+title: ".NIS Inventory Solution"
+description: ".NIS Inventory Solution"
+sidebar_position: 30
+---
+
 # .NIS Inventory Solution
 
 Network Information Service (NIS) for Unix provides a central repository for user, group, and other

@@ -1,3 +1,9 @@
+---
+title: "2-Db2_PermissionScan Job"
+description: "2-Db2_PermissionScan Job"
+sidebar_position: 20
+---
+
 # 2-Db2_PermissionScan Job
 
 This job collects Db2 database level permissions from all the targeted Db2 database servers.

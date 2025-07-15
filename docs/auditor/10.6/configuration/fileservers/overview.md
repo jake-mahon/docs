@@ -1,3 +1,9 @@
+---
+title: "File Servers"
+description: "File Servers"
+sidebar_position: 40
+---
+
 # File Servers
 
 Netwrix Auditor can monitor for operations with files and folders on the storage systems, collect

@@ -46,9 +46,12 @@ The Scoping Queries buttons have the following functionality:
             - Requires the 1-FSAA System Scans, 2-FSAA Bulk Import, and 3-FSAA Exceptions jobs to
               have been run as a prerequisite
 
-**NOTE:** These two Scan Resource Filters are both Share Include queries by default. To restrict the
+:::note
+These two Scan Resource Filters are both Share Include queries by default. To restrict the
 scan to only Open Shares or only DFS Shares it is necessary to also configure the Scoping Options on
 the previous page of the wizard to exclude all other shares.
+:::
+
 
 For example, to restrict the scan to only Open Shares and exclude all other shares, the Scoping
 Options page should be configured as shown:
@@ -78,7 +81,10 @@ Configure the following fields:
   [Advanced Scoping Options Query Configuration Window](#advanced-scoping-options-query-configuration-window) topic
   for additional information.
 
-**_RECOMMENDED:_** Provide a descriptive Comment on the Scoping Queries page.
+:::info
+Provide a descriptive Comment on the Scoping Queries page.
+:::
+
 
 ### Advanced Scoping Options Query Configuration Window
 
@@ -92,8 +98,11 @@ Follow the steps to configure a query.
 **Step 1 –** Enter a SQL Query that will return a list of resources to be included in or excluded
 from the scan.
 
-**NOTE:** The target tables must reside within the Access Analyzer database and the result must
+:::note
+The target tables must reside within the Access Analyzer database and the result must
 return at least the following columns:
+:::
+
 
 - Name
 - Priority

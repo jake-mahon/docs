@@ -33,10 +33,13 @@ queries running for that amount of time.
 **Step 5 –** Select the radio button for the appropriate authentication mode. If using **SQL Server
 authentication** , provide a **User name** and **Password** in the textboxes.
 
-**_RECOMMENDED:_** When possible, use Windows Authentication. Windows Authentication is more secure
+:::info
+When possible, use Windows Authentication. Windows Authentication is more secure
 than SQL Server Authentication. See the Microsoft
 [Choose an authentication mode](https://learn.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode) article
 for additional information.
+:::
+
 
 | ![Good connection test](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/addprofilebadconnection.webp) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |

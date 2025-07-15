@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Summary Report"
+description: "Sensitive Content Summary Report"
+sidebar_position: 20
+---
+
 # Sensitive Content Summary Report
 
 The Sensitive Content report at the **SQL Server** node provides a count of tables where criteria

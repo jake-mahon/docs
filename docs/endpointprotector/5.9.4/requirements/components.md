@@ -1,3 +1,9 @@
+---
+title: "Main Components"
+description: "Main Components"
+sidebar_position: 10
+---
+
 # Main Components
 
 Endpoint Protector is designed around several physical entities:

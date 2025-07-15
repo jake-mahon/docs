@@ -14,7 +14,10 @@ Use the following options to determine which data to adult:
 
 - All contents – Collect all contents from the INI file
 
-    **NOTE:** `*` can be used for matching wildcard or single characters.
+    :::note
+    `*` can be used for matching wildcard or single characters.
+    :::
+
 
     - Section name – Collect data matching section name from the INI file
     - Key name – Collect data matching key name from the INI file

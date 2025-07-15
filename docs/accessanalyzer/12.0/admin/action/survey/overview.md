@@ -14,9 +14,12 @@ by the user. Once the survey is defined, a list of recipients can then be specif
 the action, the process simultaneously sends an email to the recipients containing a link to the
 survey and creates a web page to host the survey.
 
-**CAUTION:** This module sends one or more electronic messages to a selected audience. Prior to
+:::warning
+This module sends one or more electronic messages to a selected audience. Prior to
 executing the action, ensure the audience consists of only the desired members. Netwrix recommends
 using this and all other Access Analyzer actions with caution.
+:::
+
 
 ## Survey Action Source Table Configuration
 

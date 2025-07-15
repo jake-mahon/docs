@@ -15,8 +15,11 @@ Navigate to the **Active Directory Permissions Analyzer** > **2.Groups** >
 **AD_GroupMembershipPermissions** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_GroupMembershipPermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/groups/groupmembershippermissionsanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_GroupMembershipPermissions
 Job produces the following pre-configured report.
 
-| Report           | Description                                                                                                                                                                                                                                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Group Membership | This report highlights instances where trustees can change the membership of Active Directory group objects, either by writing the member attribute or via the "Add/Remove self as member" permission. By default, this report excludes members of administrator groups such as Domain Admins, Schema Admins, and Enterprise Admins. | None         | This report is comprised of three elements: - Bar Chart – Displays affected groups by domain - Table – Provides details on membership change permissions - Table – Provides details on top users with group membership change permissions |
+| Report           | Description                                                                                                                                                                                                                                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Group Membership | This report highlights instances where trustees can change the membership of Active Directory group objects, either by writing the member attribute or via the "Add/Remove self as member" permission. By default, this report excludes members of administrator groups such as Domain Admins, Schema Admins, and Enterprise Admins. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays affected groups by domain</li><li>Table – Provides details on membership change permissions</li><li>Table – Provides details on top users with group membership change permissions</li></ul> |
+

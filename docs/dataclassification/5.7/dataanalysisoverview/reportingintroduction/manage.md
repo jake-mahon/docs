@@ -22,7 +22,7 @@ Auto-Classification.
     - **Source**
 4. Finally, click **Generate**.
 
-![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/5.7/admin/reporting/reports_doctagging_thumb_0_48.webp)
+![reports_doctagging_thumb_0_48](/img/product_docs/dataclassification/5.7/admin/reporting/reports_doctagging_thumb_0_0.webp)
 
 The report will be displayed in the preview pane.
 

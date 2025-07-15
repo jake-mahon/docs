@@ -1,3 +1,9 @@
+---
+title: "0-FSDFS System Scans Job"
+description: "0-FSDFS System Scans Job"
+sidebar_position: 20
+---
+
 # 0-FSDFS System Scans Job
 
 The 0-FSDFS System Scans job enumerates a list of all root and link targets in the distributed file

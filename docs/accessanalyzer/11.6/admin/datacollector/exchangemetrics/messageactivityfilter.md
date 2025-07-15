@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Message Activity Filter"
+description: "ExchangeMetrics: Message Activity Filter"
+sidebar_position: 80
+---
+
 # ExchangeMetrics: Message Activity Filter
 
 The Message Activity Filter page configures which domains the data collector should return mail flow

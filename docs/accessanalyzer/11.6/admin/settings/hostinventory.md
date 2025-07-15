@@ -1,3 +1,9 @@
+---
+title: "Host Inventory"
+description: "Host Inventory"
+sidebar_position: 70
+---
+
 # Host Inventory
 
 The Host Inventory node is for selecting what information to collect from the target host during the

@@ -1,3 +1,9 @@
+---
+title: "ExchangeMetrics: Time Frames"
+description: "ExchangeMetrics: Time Frames"
+sidebar_position: 50
+---
+
 # ExchangeMetrics: Time Frames
 
 The Time Frames page is used to configure message delivery time frames for which to return summary

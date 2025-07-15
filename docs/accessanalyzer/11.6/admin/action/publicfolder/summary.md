@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Summary"
+description: "Public Folder: Summary"
+sidebar_position: 80
+---
+
 # Public Folder: Summary
 
 The Summary page summarizes the configuration of the action.

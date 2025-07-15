@@ -1,3 +1,9 @@
+---
+title: "Cloud Tracker"
+description: "Cloud Tracker"
+sidebar_position: 100
+---
+
 # Cloud Tracker
 
 When it comes to Automated Container and Cloud Security Posture Management, in contrast to the

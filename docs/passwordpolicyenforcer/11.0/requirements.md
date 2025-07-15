@@ -1,7 +1,7 @@
 ---
 title: "Requirements"
 description: "Requirements"
-sidebar_position: 20
+sidebar_position: 4
 ---
 
 # Requirements

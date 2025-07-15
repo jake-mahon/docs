@@ -1,3 +1,9 @@
+---
+title: "Standard Reference Tables & Views for the FSAA Data Collector"
+description: "Standard Reference Tables & Views for the FSAA Data Collector"
+sidebar_position: 10
+---
+
 # Standard Reference Tables & Views for the FSAA Data Collector
 
 The FSAA Data Collector gathers essential File System information into standard reference tables.

@@ -1,3 +1,9 @@
+---
+title: "SQL_SensitiveData Job"
+description: "SQL_SensitiveData Job"
+sidebar_position: 10
+---
+
 # SQL_SensitiveData Job
 
 The SQL_SensitiveData Job designed to provide information on all the sensitive data that was

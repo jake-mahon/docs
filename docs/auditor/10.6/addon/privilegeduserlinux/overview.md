@@ -1,3 +1,9 @@
+---
+title: "Privileged User Monitoring on Linux and Unix Systems"
+description: "Privileged User Monitoring on Linux and Unix Systems"
+sidebar_position: 160
+---
+
 # Privileged User Monitoring on Linux and Unix Systems
 
 The add-on works in collaboration with Auditor, supplying data about privileged user activity on

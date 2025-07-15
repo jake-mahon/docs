@@ -1,3 +1,9 @@
+---
+title: "OS Support Matrix"
+description: "OS Support Matrix"
+sidebar_position: 10
+---
+
 # OS Support Matrix
 
 This page lists the platforms and use cases that Netwrix has verified. However, the Express Agent

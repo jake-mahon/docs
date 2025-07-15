@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Summary"
+description: "ExchangePublicFolder: Summary"
+sidebar_position: 60
+---
+
 # ExchangePublicFolder: Summary
 
 The Summary page displays a summary of the configured query. It is a wizard page for all of the

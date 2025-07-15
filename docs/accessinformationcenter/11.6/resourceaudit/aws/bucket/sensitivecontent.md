@@ -1,3 +1,9 @@
+---
+title: "Sensitive Content Report"
+description: "Sensitive Content Report"
+sidebar_position: 20
+---
+
 # Sensitive Content Report
 
 The Sensitive Content report at the Bucket level provides a list of files and a hit count per file

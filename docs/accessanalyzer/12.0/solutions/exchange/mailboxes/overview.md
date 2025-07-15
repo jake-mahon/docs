@@ -13,7 +13,10 @@ features, logons, permissions, and sizing.
 
 The following comprise the 4. Mailboxes job group:
 
-**NOTE:** These jobs are compatible with the Office 365 environment.
+:::note
+These jobs are compatible with the Office 365 environment.
+:::
+
 
 - [Features > EX_Features Job](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/ex_features.md) – Comprised of data collection and a report that
   provides information around which features have been enabled or disabled on mailboxes, such as

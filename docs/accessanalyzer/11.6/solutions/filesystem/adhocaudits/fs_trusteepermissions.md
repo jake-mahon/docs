@@ -1,3 +1,9 @@
+---
+title: "FS_TrusteePermissions Job"
+description: "FS_TrusteePermissions Job"
+sidebar_position: 20
+---
+
 # FS_TrusteePermissions Job
 
 The FS_TrusteePermissions Job is designed to report on trustees from targeted file servers based on

@@ -1,3 +1,9 @@
+---
+title: "Activity Details Report"
+description: "Activity Details Report"
+sidebar_position: 10
+---
+
 # Activity Details Report
 
 The Activity Details report at the on-premise farm and online instance levels provides statistical
@@ -30,7 +36,7 @@ This report is comprised of the following columns:
 - Process Name – Name of the process which performed the operation
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/accessinformationcenter/11.6/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/admin/navigate/datagrid.md) topic
 for additional information.
 
 There is one line graph at the bottom displaying Active Users Trend for the selected resource.

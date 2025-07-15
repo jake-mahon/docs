@@ -12,24 +12,24 @@ preconfigured within the File System Solution. Both this data collector and the 
 available with a special Access Analyzer license. See the
 [File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - WMI
 
-Ports
+**Ports**
 
 - Ports vary based on the Scan Mode Option selected. See the
   [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md) topic for
   additional information.
 
-Permissions
+**Permissions**
 
 - Permissions vary based on the Scan Mode Option selected. See the
   [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/filesystems.md) topic for
   additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. By default, SDD scans are

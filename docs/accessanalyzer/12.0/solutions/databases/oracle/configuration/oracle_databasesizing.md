@@ -14,8 +14,11 @@ sizes.
 Navigate to the **Jobs >  Databases > Oracle > 4.Configuration > Oracle_DatabaseSizing
 Job >Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisdbsizing.webp)
 
@@ -27,6 +30,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the **Oracle_DatabaseSizing Job** produces
 the following preconfigured report:
 
-| Report          | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                |
-| --------------- | -------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Database Sizing | This report highlights the size of tablespace files in Oracle. | None         | This report is comprised of three elements: - Bar Chart – Provides information on top tablespaces by size - Bar Chart – Provides information on size by host (GB) - Table – Provides details on database sizes |
+| Report          | Description                                                    | Default Tags | Report Elements                                                                                                                                                                                                                            |
+| --------------- | -------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Database Sizing | This report highlights the size of tablespace files in Oracle. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top tablespaces by size</li><li>Bar Chart – Provides information on size by host (GB)</li><li>Table – Provides details on database sizes</li></ul> |
+

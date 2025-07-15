@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 20
+---
+
 # Administration
 
 Netwrix Password Reset is a self-service password management system that helps you to reduce the

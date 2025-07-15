@@ -1,3 +1,9 @@
+---
+title: "Membership Analysis Job Group"
+description: "Membership Analysis Job Group"
+sidebar_position: 30
+---
+
 # Membership Analysis Job Group
 
 The Membership Analysis job group provides visibility into toxic conditions contained with the

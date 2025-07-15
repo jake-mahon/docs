@@ -13,10 +13,13 @@ Connection Profile credentials and/or the Custom Attributes Import Wizard page. 
 [Microsoft Support](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites-azure-portal)
 for assistance in configuring the Microsoft Entra ID web application.
 
-**NOTE:** A user account with the Global Administrator role is required to register an app with
+:::note
+A user account with the Global Administrator role is required to register an app with
 Microsoft Entra ID.
+:::
 
-Configuration Settings from the Registered Application
+
+**Configuration Settings from the Registered Application**
 
 The following settings are needed from your tenant once you have registered the application:
 
@@ -44,7 +47,10 @@ configure modern authentication for Exchange Online. It requires:
 
 - Azure AD PowerShell module installed on targeted hosts
 
-    **NOTE:** If the module is not already installed, the job will attempt to install it.
+    :::note
+    If the module is not already installed, the job will attempt to install it.
+    :::
+
 
     - You can install the module with the following command:
 
@@ -90,7 +96,7 @@ Analyzer.
 
 The following permissions are required:
 
-Permissions for Office 365 Exchange Online
+**Permissions for Office 365 Exchange Online**
 
 - Application Permissions:
 
@@ -130,8 +136,11 @@ $cert=New-SelfSignedCertificate -CertStoreLocation Cert:\CurrentUser\My -DnsName
 Access Analyzer with the Export–Certificate cmdlet using the certificate path stored in the
 $certPath variable (see Step 1).
 
-**NOTE:** The environment variable `SAINSTALLDIR` always points to the base Access Analyzer install
+:::note
+The environment variable `SAINSTALLDIR` always points to the base Access Analyzer install
 directory; simply append the PrivateAssemblies to point to that folder with the following cmdlet:
+:::
+
 
 ```
 Export-Certificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\exchange_cert.cer" -Type CERT
@@ -144,8 +153,11 @@ Export-Certificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\
 **Step 3 –** Export the certificate private key as a .pfx file to the same folder by running the
 following cmdlet:
 
-**_RECOMMENDED:_** Change the string in the Password parameter from "PasswordGoesHere" to something
+:::info
+Change the string in the Password parameter from "PasswordGoesHere" to something
 more secure before running this cmdlet.
+:::
+
 
 ```
 Export-PfxCertificate -Cert $cert -FilePath "$($env:SAINSTALLDIR)PrivateAssemblies\exchange_cert.pfx" -Password (ConvertTo-SecureString -String "PasswordGoesHere" -Force -AsPlainText)
@@ -162,9 +174,12 @@ application and then upload this certificate to it.
 
 Follow the steps to register Access Analyzer with Microsoft Entra ID.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
@@ -188,9 +203,12 @@ application. Now that the application has been registered, permissions need to b
 
 Follow the steps upload your self-signed certificate.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
@@ -216,9 +234,12 @@ topic for additional information.
 
 Follow the steps to grant permissions to the registered application.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**
@@ -250,9 +271,12 @@ Access Analyzer need to be collected.
 
 Follow the steps to find the Tenant Name where the registered application resides.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
@@ -271,9 +295,12 @@ topic for additional information. Next identify the application’s Client ID.
 
 Follow the steps to find the registered application's Client ID.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Select the newly-created, registered application. If you left the Overview page, it
 will be listed in the **Identity** > **Applications** > **App registrations** > **All applications**

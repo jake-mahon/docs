@@ -1,3 +1,9 @@
+---
+title: "GroupPolicy: Policies List"
+description: "GroupPolicy: Policies List"
+sidebar_position: 30
+---
+
 # GroupPolicy: Policies List
 
 The Policies List page is where the policies from the desired GPOs to be queried are selected. It is

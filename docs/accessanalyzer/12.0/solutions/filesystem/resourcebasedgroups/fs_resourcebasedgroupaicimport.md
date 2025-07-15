@@ -14,7 +14,7 @@ IAM.
 
 ## Recommended Configurations for the FS_ResourceBasedGroupsAICImport Job
 
-Dependencies
+**Dependencies**
 
 - The **FS_ResourceBasedGroups** job must be successfully run prior to running this job
 - The **.Active Directory Inventory** > **1-AD_Scan** job must be successfully run prior to running
@@ -24,11 +24,11 @@ Dependencies
 - The **File System** > **0.Collection** > **2-FSAA Bulk Import** job must be successfully run prior
   to running this job
 
-Targeted Hosts
+**Targeted Hosts**
 
 None
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired. Throughout this document reference to executing a
 job refers to either manual execution or scheduled execution, according to the needs of the
@@ -36,11 +36,11 @@ organization. See the
 [Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/12.0/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
-History Retention
+**History Retention**
 
 Not supported
 
-Workflow
+**Workflow**
 
 **Step 1 –** Run the following jobs:
 
@@ -66,9 +66,12 @@ Now that the target environment follows a Resource Based Groups model, the new r
 imported into the Access Information Center. Follow the steps to import the new resources into the
 AIC Ownership Workflow.
 
-**CAUTION:** It is important to run the .Active Directory Inventory Job Group and **File System** >
+:::warning
+It is important to run the .Active Directory Inventory Job Group and **File System** >
 **0. Collection** Job Group again so that the AD and permissions changes are captured by Access
 Analyzer.
+:::
+
 
 **Step 1 –** Run the **.Active Directory Inventory** Job Group and **FileSystem** > **0.Collection**
 Job Group again.

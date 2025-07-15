@@ -1,3 +1,9 @@
+---
+title: "Permissions Job Group"
+description: "Permissions Job Group"
+sidebar_position: 40
+---
+
 # Permissions Job Group
 
 This job group provides insight into all types of permissions at the database and object level

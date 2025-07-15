@@ -1,3 +1,9 @@
+---
+title: "UX_DuplicateGroups Job"
+description: "UX_DuplicateGroups Job"
+sidebar_position: 20
+---
+
 # UX_DuplicateGroups Job
 
 The UX_DuplicateGroups job identifies duplicate groups within the audited Unix or Linux environment.

@@ -1,3 +1,9 @@
+---
+title: "Configuration > Redshift_DatabaseSizing Job"
+description: "Configuration > Redshift_DatabaseSizing Job"
+sidebar_position: 30
+---
+
 # Configuration > Redshift_DatabaseSizing Job
 
 This group provides insight into details about the Redshift environment and potential

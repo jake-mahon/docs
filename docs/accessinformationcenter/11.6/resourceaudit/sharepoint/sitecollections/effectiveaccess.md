@@ -1,3 +1,9 @@
+---
+title: "Effective Access Report"
+description: "Effective Access Report"
+sidebar_position: 20
+---
+
 # Effective Access Report
 
 The Effective Access report at the site collection, site, list, library, and folder levels provides

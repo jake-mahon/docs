@@ -1,3 +1,9 @@
+---
+title: "Exchange"
+description: "Exchange"
+sidebar_position: 70
+---
+
 # Exchange
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

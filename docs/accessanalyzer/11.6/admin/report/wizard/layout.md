@@ -1,3 +1,9 @@
+---
+title: "Layout Page"
+description: "Layout Page"
+sidebar_position: 40
+---
+
 # Layout Page
 
 The Layout page allows you to configure the layout of the report's content.

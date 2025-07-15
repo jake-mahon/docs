@@ -44,8 +44,11 @@ The options on the Summary criteria configuration page are:
     - The maximum value is the number of sensitive data sub-criteria that has been added to the
       Required matched criteria list
 
-**CAUTION:** The character distance feature does not account for summaries that are nested within
+:::warning
+The character distance feature does not account for summaries that are nested within
 other summaries.
+:::
+
 
 - Matches should be within this proximity of characters – Adjust the slider to set the default
   character distance required for match hits

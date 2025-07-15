@@ -1,3 +1,9 @@
+---
+title: "Set-Contact"
+description: "Set-Contact"
+sidebar_position: 40
+---
+
 # Set-Contact
 
 The _Set-User_ cmdlet modifies a user in the directory. Most user properties can be directly
@@ -73,4 +79,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Contact Commands](/docs/directorymanager/11.0/managementshell/contact/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

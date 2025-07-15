@@ -1,3 +1,9 @@
+---
+title: "FPolicy Tab"
+description: "FPolicy Tab"
+sidebar_position: 40
+---
+
 # FPolicy Tab
 
 The FPolicy tab allows users to modify FPolicy settings for NetApp devices, privileged access, and
@@ -8,9 +14,9 @@ enabling/connecting to cluster nodes.
 On the **FPolicy** tab, the agent can configure and/or enable FPolicy automatically. The recommended
 setting is dependent on the type of NetApp device being targeted. The permissions required for each
 option are listed. See the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/config/netapp7mode/activity.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_5.md)
 topic or the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/config/netappcmode/activity.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_6.md)
 topic for additional information.
 
 At the bottom are two additional tabs with setting options. On this tab, specify the protocols to

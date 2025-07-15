@@ -1,3 +1,9 @@
+---
+title: "Member Changes Report"
+description: "Member Changes Report"
+sidebar_position: 50
+---
+
 # Member Changes Report
 
 The Member Changes report for a group object provides specific details for any membership changes to

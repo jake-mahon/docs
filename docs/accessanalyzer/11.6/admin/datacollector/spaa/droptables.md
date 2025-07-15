@@ -1,3 +1,9 @@
+---
+title: "SPAA Drop Tables & Views Workflow"
+description: "SPAA Drop Tables & Views Workflow"
+sidebar_position: 160
+---
+
 # SPAA Drop Tables & Views Workflow
 
 If it becomes necessary to clear the SPAA Data Collector tables and views to resolve an issue, the

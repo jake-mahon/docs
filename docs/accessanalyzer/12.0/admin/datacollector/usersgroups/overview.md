@@ -13,19 +13,19 @@ The UsersGroups Data Collector has been preconfigured within the Windows Solutio
 collector and the solution are available with a special Access Analyzer license. See the
 [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md) topic for additional information.
 
-Protocols
+**Protocols**
 
 - RPC
 - SMBV2
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 - 445
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

@@ -1,3 +1,9 @@
+---
+title: "Silent Installer Option for Proxy"
+description: "Silent Installer Option for Proxy"
+sidebar_position: 30
+---
+
 # Silent Installer Option for Proxy
 
 It is possible to use one of the following methods to complete a silent installation of the File

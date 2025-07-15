@@ -1,3 +1,9 @@
+---
+title: "0.Collection Job Group"
+description: "0.Collection Job Group"
+sidebar_position: 20
+---
+
 # 0.Collection Job Group
 
 The 0.Collection job group is designed to collect information from targeted file servers.
@@ -142,7 +148,7 @@ The 0.Collection jobs that comprise the DFS auditing component are:
     - The Connection Profile and required permissions for the 0-FSDFS System Scans job are the same
       as those required for collecting system data from supported Windows operating systems. They
       are dependent on the file system scan option being used. See the
-      [File System Scan Options](/docs/accessanalyzer/11.6/requirements/solutions/filesystem/scanoptions.md) topic
+      [File System Scan Options](/docs/accessanalyzer/11.6/requirements/filesystem/scanoptions/scanoptions.md) topic
       for additional information.
     - The target host you should assign to the 0-FSDFS System Scans job depends on the type of
       DFS namespace being audited:
@@ -519,7 +525,7 @@ This feature works for all scan modes when targeting Windows machines.
 
 For additional information on preserving Last Access Time during SDD scans and Metadata tag
 collection, see the
-[File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/target/filesystems.md)
+[File System Supported Platforms](/docs/accessanalyzer/11.6/requirements/filesystem/filesystems/filesystems.md)
 topic.
 
 File System Sensitive Data Discovery Auditing (SEEK) Jobs

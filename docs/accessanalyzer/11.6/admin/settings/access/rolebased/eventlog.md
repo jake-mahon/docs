@@ -1,3 +1,9 @@
+---
+title: "Roles and the Event Log"
+description: "Roles and the Event Log"
+sidebar_position: 80
+---
+
 # Roles and the Event Log
 
 The Enterprise Auditor Event Log includes a list of the following activities related to Role Based

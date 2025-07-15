@@ -1,3 +1,9 @@
+---
+title: "Configure Event Categories and Log"
+description: "Configure Event Categories and Log"
+sidebar_position: 40
+---
+
 # Configure Event Categories and Log
 
 Perform the following procedures to configure audit:

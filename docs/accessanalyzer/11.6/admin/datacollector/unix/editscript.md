@@ -1,3 +1,9 @@
+---
+title: "Unix: Edit Script"
+description: "Unix: Edit Script"
+sidebar_position: 30
+---
+
 # Unix: Edit Script
 
 The Edit Script page allows the script to be customized.

@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 30
+---
+
 # Upgrade Procedure
 
 It is necessary for Netwrix Enterprise Auditor and the Access Information Center to have compatible

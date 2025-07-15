@@ -22,17 +22,11 @@ can be edited below.
 
 **NOTE:** Use the **Filter Control Panel** to allow focus on just the Devices or Groups of interest.
 
-![Graphical user interface, application
-
-Description automatically
-generated](/img/product_docs/changetracker/8.1/admin/settings/page_guide_24.webp)
+![Graphical user interface, application](/img/product_docs/changetracker/8.1/admin/settings/page_guide_24.webp)
 
 **NOTE:** Click on the ‘burger’ icon alongside any column heading to get a full list of column
 options.
 
-![Graphical user interface, text, application, email
-
-Description automatically
-generated](/img/product_docs/changetracker/8.1/admin/settings/page_guide_25.webp)
+![Graphical user interface, text, application, email](/img/product_docs/changetracker/8.1/admin/settings/page_guide_25.webp)
 
 ![page_guide_26](/img/product_docs/changetracker/8.1/admin/settings/page_guide_26.webp)

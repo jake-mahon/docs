@@ -1,3 +1,9 @@
+---
+title: "SG_PowerShellCommands Job"
+description: "SG_PowerShellCommands Job"
+sidebar_position: 30
+---
+
 # SG_PowerShellCommands Job
 
 The SG_PowerShellCommands job lists suspicious PowerShell commands on all targeted hosts. The list

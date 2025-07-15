@@ -1,3 +1,9 @@
+---
+title: "Load the PowerShell Module"
+description: "Load the PowerShell Module"
+sidebar_position: 10
+---
+
 # Load the PowerShell Module
 
 The following steps are provided to load the Threat Prevention PowerShell module. These steps are

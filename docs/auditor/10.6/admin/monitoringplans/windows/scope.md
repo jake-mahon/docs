@@ -1,3 +1,9 @@
+---
+title: "Windows Server Monitoring Scope"
+description: "Windows Server Monitoring Scope"
+sidebar_position: 10
+---
+
 # Windows Server Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Windows

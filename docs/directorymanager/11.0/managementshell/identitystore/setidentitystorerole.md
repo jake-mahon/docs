@@ -1,3 +1,9 @@
+---
+title: "Set-IdentityStoreRole"
+description: "Set-IdentityStoreRole"
+sidebar_position: 170
+---
+
 # Set-IdentityStoreRole
 
 Use the **Set-IdentityStoreRole** commandlet to modify properties of a security role in an identity
@@ -59,4 +65,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

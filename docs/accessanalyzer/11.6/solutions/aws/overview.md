@@ -1,3 +1,9 @@
+---
+title: "AWS Solution"
+description: "AWS Solution"
+sidebar_position: 70
+---
+
 # AWS Solution
 
 Enterprise Auditor for AWS allows organizations to secure their data residing in Amazon Web Services
@@ -25,7 +31,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/aws.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/aws/aws_1.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

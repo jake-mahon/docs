@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for GroupID using PingOne"
+description: "SAML Configuration for GroupID using PingOne"
+sidebar_position: 50
+---
+
 # SAML Configuration for GroupID using PingOne
 
 PingOne is an Identity as a Service (IDaaS) solution that enables organizations to deliver single

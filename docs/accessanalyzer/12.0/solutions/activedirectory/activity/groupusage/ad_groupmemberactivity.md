@@ -25,9 +25,10 @@ The default analysis task is:
 In addition to the tables created by the analysis tasks, the AD_GroupMemberActivity Job produces the
 follow pre-configured report:
 
-| Report                | Description                                                                                | Default Tags                                               | Report Elements                                                                   |
-| --------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Group Member Activity | This report identifies actions taken by the members of each group within your environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of one element: - Table – Displays group member activity |
+| Report                | Description                                                                                | Default Tags                                               | Report Elements                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Group Member Activity | This report identifies actions taken by the members of each group within your environment. | CCPA GDPR SOX HIPPA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of one element: <ul><li>Table – Displays group member activity</li></ul> |
+
 
 ### Configure the Group Member Activity Analysis Task
 
@@ -43,7 +44,10 @@ bottom of the SQL Script Editor. Follow the steps to customize an analysis task�
 **Step 2 –** In the Analysis Selection view, select the Group Member Activity analysis task and
 click on **Analysis Configuration**. The SQL Script Editor opens.
 
-**CAUTION:** Do not change any parameters where the Value states `Created during execution`.
+:::warning
+Do not change any parameters where the Value states `Created during execution`.
+:::
+
 
 ![Group Member Activity Analysis Task in the SQL Script Editor](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/activity/groupusage/groupmemberactivitysqlscripteditor.webp)
 

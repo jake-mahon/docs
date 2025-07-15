@@ -1,3 +1,9 @@
+---
+title: "1-Box_Activity Scans Job"
+description: "1-Box_Activity Scans Job"
+sidebar_position: 20
+---
+
 # 1-Box_Activity Scans Job
 
 The 1-Box_Activity Scans Job collects the data which will be further analyzed in order to provide

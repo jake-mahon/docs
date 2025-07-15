@@ -1,3 +1,9 @@
+---
+title: "Express Agent Troubleshooting"
+description: "Express Agent Troubleshooting"
+sidebar_position: 90
+---
+
 # Express Agent Troubleshooting
 
 If you experience problem with the Express Agent then please sent the express agent log files found

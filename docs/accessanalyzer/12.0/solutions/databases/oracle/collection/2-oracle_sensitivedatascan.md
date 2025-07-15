@@ -34,8 +34,11 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab and click **Configure**. The SQL Data Collector wizard
 opens.
 
-**CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
+:::warning
+Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
+:::
+
 
 ![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/optionspage.webp)
 
@@ -68,8 +71,11 @@ The 2-Oracle_SensitiveDataScan job is now ready to run with the customized setti
 Navigate to the **Databases** > **0.Collection** > **Oracle** > **2-Oracle_SensitiveDataScan** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/collection/jobgroup13.webp)
 

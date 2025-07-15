@@ -1,3 +1,9 @@
+---
+title: "Investigation Options"
+description: "Investigation Options"
+sidebar_position: 10
+---
+
 # Investigation Options
 
 You can view a saved investigation.
@@ -37,7 +43,7 @@ Every investigation has the following options at the top of the page:
 - Run Query – The Run Query button pulls available activity data that match the set filters and
   timeframe. The data is displayed on the Event Details, Events Over Time, and Top Resources tabs.
   See the
-  [Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports.md)
+  [Investigation Reports](/docs/threatprevention/7.4/reportingmodule/investigations/reports/reports.md)
   topic for additional information.
 - Filters – The Filters section provides options to build a filter statement by selecting the
   Attribute, Operator, and Filter value. A time period for the report data is also configured here.

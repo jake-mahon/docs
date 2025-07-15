@@ -1,3 +1,9 @@
+---
+title: "Get-SchemaAttributes"
+description: "Get-SchemaAttributes"
+sidebar_position: 100
+---
+
 # Get-SchemaAttributes
 
 The commandlet **Get-SchemaAttribute** enables you to retrieve comprehensive list of schema
@@ -31,4 +37,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

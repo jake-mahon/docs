@@ -1,3 +1,9 @@
+---
+title: "SQL_BestPractices Job"
+description: "SQL_BestPractices Job"
+sidebar_position: 20
+---
+
 # SQL_BestPractices Job
 
 The SQL_BestPractices Job analyzes SQL and Azure SQL server configuration settings and reports any

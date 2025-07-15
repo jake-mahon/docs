@@ -1,3 +1,9 @@
+---
+title: "Change and Activity Reports"
+description: "Change and Activity Reports"
+sidebar_position: 50
+---
+
 # Change and Activity Reports
 
 Change and activity reports provide information on changes to different aspects of the audited

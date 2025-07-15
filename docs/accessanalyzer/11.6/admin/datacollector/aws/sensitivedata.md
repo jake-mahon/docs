@@ -1,3 +1,9 @@
+---
+title: "AWS: Sensitive Data Settings"
+description: "AWS: Sensitive Data Settings"
+sidebar_position: 40
+---
+
 # AWS: Sensitive Data Settings
 
 The Sensitive Data Settings page is where sensitive data discovery settings are configured. It is a

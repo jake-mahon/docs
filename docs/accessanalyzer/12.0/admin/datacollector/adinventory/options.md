@@ -32,7 +32,10 @@ The Options page has the following configuration options:
     - Limit Last Logon TimeStamp Changes – When selected, changes to the Last Logon TimeStamp
       Attribute are not recorded
 
-        **_RECOMMENDED:_** If tracking changes, use the Limit Last Logon TimeStamp Changes option.
+        :::info
+        If tracking changes, use the Limit Last Logon TimeStamp Changes option.
+        :::
+
 
     - Number of days you want to keep changes in the database – Use the arrow buttons or manually
       enter a number to set the number of days to keep changes

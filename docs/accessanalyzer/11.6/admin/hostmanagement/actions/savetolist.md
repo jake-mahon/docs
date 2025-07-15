@@ -1,3 +1,9 @@
+---
+title: "Save Selected To List"
+description: "Save Selected To List"
+sidebar_position: 120
+---
+
 # Save Selected To List
 
 Use the **Save Selected To List** option to create a static host list. This option is available from

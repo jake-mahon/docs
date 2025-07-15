@@ -63,17 +63,17 @@ The following jobs comprise the Resource Based Groups Job Group:
 
 ## Recommended Configurations for the Resource Based Groups Job Group
 
-Dependencies
+**Dependencies**
 
 - The **.Active Directory Inventory** Job Group must be successfully run prior to running this job
 - The **FileSystem** > **0.Collection** Job Group must be successfully run prior to running this job
 
-Targeted Hosts
+**Targeted Hosts**
 
 - None – If targeting all file servers known to Access Analyzer
 - Scope the actions to a host list – If targeting specific file servers
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired. Throughout this document reference to executing a
 job refers to either manual execution or scheduled execution, according to the needs of the
@@ -81,7 +81,7 @@ organization. See the
 [Scheduling the Resource Based Groups Job Group](#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
-History Retention
+**History Retention**
 
 Not supported
 

@@ -1,3 +1,9 @@
+---
+title: "ServiceNow Action: Authentication"
+description: "ServiceNow Action: Authentication"
+sidebar_position: 10
+---
+
 # ServiceNow Action: Authentication
 
 The Authentication page implements signing into a ServiceNow account.

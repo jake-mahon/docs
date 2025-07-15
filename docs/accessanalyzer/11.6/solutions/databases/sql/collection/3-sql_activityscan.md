@@ -1,3 +1,9 @@
+---
+title: "3-SQL_ActivityScan Job"
+description: "3-SQL_ActivityScan Job"
+sidebar_position: 40
+---
+
 # 3-SQL_ActivityScan Job
 
 The 3-SQL_ActivityScan Job captures user activity from targeted SQL server instances and databases.

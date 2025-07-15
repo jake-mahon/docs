@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Component Releases
 
-The components listed here are versioned independently of the Hub, therefor each has it's own life
+The components listed here are versioned independently of the Hub, therefore each has its own life
 cycle.
 
 ## End of Support (EOS) Policy

@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 5. Public Folders Job Group"
+description: "Recommended Configurations for the 5. Public Folders Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 5. Public Folders Job Group
 
 Dependencies
@@ -41,7 +47,7 @@ list:
 Connection Profile
 
 A Connection Profile must be set directly on the collection jobs. See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
 topic for credential requirements and assign the Connection Profile to the following jobs:
 
 - **Content** > **Collection** > **PF_ContentScans** Job
@@ -49,7 +55,7 @@ topic for credential requirements and assign the Connection Profile to the follo
 - **Permissions** > **Collection** > **PF_EntitlementScans** Job
 
 See the
-[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/mapi.md)
+[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/mapi.md)
 topic for credential requirements and assign the Connection Profile to the following job:
 
 - **Ownership** > **Collection** > **PF_FolderOwnership** Job

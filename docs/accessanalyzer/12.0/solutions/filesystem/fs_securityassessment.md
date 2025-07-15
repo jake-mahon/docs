@@ -37,8 +37,11 @@ the 0.Collection job group and analyzed by the jobs listed above.
 View the analysis tasks by navigating to the **FileSystem** > **FS_SecurityAssessment** >
 **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Task for the FS_SecurityAssessment Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/securityassessmentanalysis.webp)
 
@@ -52,6 +55,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the FS_SecurityAssessment job
 produces the following pre-configured report:
 
-| Report              | Description                                                                        | Default Tags                                          | Report Elements                                                                                                                                                                                                                                       |
-| ------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Security Assessment | This report identifies common issues and vulnerabilities across your file systems. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of four elements: - Table – Provides details of the scan Scope - Pie Chart – Provides details of findings by risk - Table – Provides details of findings by category - Table – Provides a summary of risk assessment details |
+| Report              | Description                                                                        | Default Tags                                          | Report Elements                                                                                                                                                                                                                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Security Assessment | This report identifies common issues and vulnerabilities across your file systems. | GDPR SOX HIPAA PCI-DSS GLBA ITAR FERPA FISMA ISO27001 | This report is comprised of four elements: <ul><li>Table – Provides details of the scan Scope</li><li>Pie Chart – Provides details of findings by risk</li><li>Table – Provides details of findings by category</li><li>Table – Provides a summary of risk assessment details</li></ul> |
+

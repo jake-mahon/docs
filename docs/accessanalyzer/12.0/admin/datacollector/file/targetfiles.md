@@ -13,9 +13,12 @@ results for the specific folder or file. It is a wizard page for all of the cate
 
 Within the Target files configuration page, select the desired method to refine the query.
 
-**NOTE:** Some options are grayed out depending on the option selected.
+:::note
+Some options are grayed out depending on the option selected.
+:::
 
-Where is the file or folder?
+
+**Where is the file or folder?**
 
 This section supplies options for using a fixed path (wildcards and system variables) or registry
 lookup values that are supported by the data collector. This header is available for all Category
@@ -24,15 +27,21 @@ selections.
 For either option, enter the path in the text box or click the browse button (**…**) to select from
 the popup windows.
 
-**CAUTION:** When selecting a **Fixed path**, avoid using file paths from network drives or from the
+:::warning
+When selecting a **Fixed path**, avoid using file paths from network drives or from the
 network neighborhoods which begin with `\\`.
+:::
+
 
 - Fixed path – Specify a specific path to the target files. Use the following format:
   `drive\filepath` (for example, `C:\WINNT\System32`). The browse button (**…**) opens the Remote
   Folder Explorer window.
 
-    **NOTE:** Further information for the Fixed path option is provided by clicking the tooltip
+    :::note
+    Further information for the Fixed path option is provided by clicking the tooltip
     button (**?**).
+    :::
+
 
 - System environment variables – Supply a traditional system root or previously defined variable
   that maps to a physical path within the file system. This is typically used when the system root
@@ -61,19 +70,25 @@ network neighborhoods which begin with `\\`.
 
 - Include network drives – Includes all mapped shared drives in the network in the query
 
-    **CAUTION:** Including subfolders may result in hundreds of thousands of files being returned
+    :::warning
+    Including subfolders may result in hundreds of thousands of files being returned
     depending on the environment being targeted.
+    :::
+
 
 - Include subfolders – Searches all subfolders within the environment
 
-What is the file or folder name?
+**What is the file or folder name?**
 
 The options in this section limit the search to folders or files with a specified name against the
 targeted host. When the **I am looking for folders** option is selected, more options become
 available for further refinement.
 
-**NOTE:** The **I am looking for folders** option and it's associated options are unavailable
+:::note
+The **I am looking for folders** option and it's associated options are unavailable
 (grayed out) when the **Calculate Group Size (Files Only)** category is selected.
+:::
+
 
 - I am looking for files – Identifies files that exist on the target location and returning property
   information on these files
@@ -88,7 +103,7 @@ available for further refinement.
   to a specific naming convention. When searching for multiple objects, use a semicolon (`;`) to
   separate the objects in the list.
 
-Last Modification Time Filter
+**Last Modification Time Filter**
 
 Last Modification Time Filter is an additional filtration clause. It filters the information
 provided in the **Where is the file or folder** and **What is the file or folder name** criteria by

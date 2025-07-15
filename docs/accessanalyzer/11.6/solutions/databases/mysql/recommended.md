@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the MySQL Solution"
+description: "Recommended Configurations for the MySQL Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the MySQL Solution
 
 The MySQL Solution has been configured to inherit down from the MySQL > Settings node. However, it

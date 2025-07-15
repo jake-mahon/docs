@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 The Enterprise Auditor application is the power behind the solutions. It has the automation,

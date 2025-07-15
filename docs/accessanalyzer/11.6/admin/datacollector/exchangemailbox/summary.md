@@ -1,3 +1,9 @@
+---
+title: "ExchangeMailbox: Summary"
+description: "ExchangeMailbox: Summary"
+sidebar_position: 60
+---
+
 # ExchangeMailbox: Summary
 
 The Summary page displays a summary of the configured query. It wizard page for all categories.

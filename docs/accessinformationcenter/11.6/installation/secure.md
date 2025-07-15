@@ -1,8 +1,14 @@
+---
+title: "Securing the Access Information Center"
+description: "Securing the Access Information Center"
+sidebar_position: 20
+---
+
 # Securing the Access Information Center
 
 There are two options for accessing the Access Information Center. You can either go to the Access
 Information Center website directly or you can access it via the Web Console. See the
-[URL & Login](/docs/accessinformationcenter/11.6/admin/login.md)
+[URL & Login](/docs/accessinformationcenter/11.6/admin/login/login.md)
 topic for additional information.
 
 - Web Console – This console uses an embedded website installed with the Enterprise Auditor Console.

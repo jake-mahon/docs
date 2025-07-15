@@ -1,3 +1,9 @@
+---
+title: "EPE Settings Window"
+description: "EPE Settings Window"
+sidebar_position: 30
+---
+
 # EPE Settings Window
 
 Threat Prevention can be configured with Enterprise Password Enforcer (EPE) to use the Have I Been

@@ -1,3 +1,9 @@
+---
+title: "Exchange2K: MAPI Settings"
+description: "Exchange2K: MAPI Settings"
+sidebar_position: 40
+---
+
 # Exchange2K: MAPI Settings
 
 The MAPI Settings page is used to enter configurations to connect to target Exchange servers. By

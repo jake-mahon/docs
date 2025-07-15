@@ -1,3 +1,9 @@
+---
+title: "AnyID Connectors Solution"
+description: "AnyID Connectors Solution"
+sidebar_position: 60
+---
+
 # AnyID Connectors Solution
 
 The AnyID Connectors Solution allows you to quickly find where data for identities are stored,

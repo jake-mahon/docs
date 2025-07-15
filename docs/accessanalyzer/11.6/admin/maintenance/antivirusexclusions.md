@@ -1,3 +1,9 @@
+---
+title: "Antivirus Exclusions"
+description: "Antivirus Exclusions"
+sidebar_position: 10
+---
+
 # Antivirus Exclusions
 
 Your antivirus suite can slow down or even prevent correct operation. The following items are

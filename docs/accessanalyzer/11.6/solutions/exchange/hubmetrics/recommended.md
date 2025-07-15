@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 1. HUB Metrics Job Group"
+description: "Recommended Configurations for the 1. HUB Metrics Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 1. HUB Metrics Job Group
 
 Dependencies
@@ -24,7 +30,7 @@ Connection Profile
 
 A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails
 Job. See the
-[Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/mailflow.md)
+[Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/mailflow.md)
 topic for required permissions.
 
 See the

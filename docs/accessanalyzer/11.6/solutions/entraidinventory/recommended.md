@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the .Entra ID Inventory Job Group"
+description: "Recommended Configurations for the .Entra ID Inventory Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the .Entra ID Inventory Job Group
 
 The .Entra ID Inventory Solution is configured to inherit settings from the Global Settings node.

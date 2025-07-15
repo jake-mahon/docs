@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for GroupID using OneLogin"
+description: "SAML Configuration for GroupID using OneLogin"
+sidebar_position: 40
+---
+
 # SAML Configuration for GroupID using OneLogin
 
 OneLogin provides single sign-on and identity management for organizations that embrace cloud

@@ -1,3 +1,9 @@
+---
+title: "TextSearch: Results"
+description: "TextSearch: Results"
+sidebar_position: 40
+---
+
 # TextSearch: Results
 
 The Results page is where properties that will be gathered are selected.

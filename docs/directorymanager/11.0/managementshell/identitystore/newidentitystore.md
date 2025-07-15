@@ -1,3 +1,9 @@
+---
+title: "New-IdentityStore"
+description: "New-IdentityStore"
+sidebar_position: 130
+---
+
 # New-IdentityStore
 
 The commandlet **New-IdentityStore** creates a new identity store. This commandlet requires valid
@@ -117,4 +123,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

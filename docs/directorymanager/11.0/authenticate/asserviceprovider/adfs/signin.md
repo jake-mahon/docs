@@ -1,3 +1,9 @@
+---
+title: "Sign In Using AD FS"
+description: "Sign In Using AD FS"
+sidebar_position: 30
+---
+
 # Sign In Using AD FS
 
 We configured the ADS FS provider with a GroupID client, that is the GroupID portal _Wizard_ in our

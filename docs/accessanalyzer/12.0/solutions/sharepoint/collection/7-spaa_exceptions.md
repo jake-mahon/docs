@@ -20,8 +20,11 @@ The 7-SPAA_Exceptions page has the following configurable parameters:
 
 - #opengroups – High-risk groups such as those known to be sensitive or open can be added
 
-    **NOTE:** Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste
+    :::note
+    Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste
     the Group name as it appears in the Name Column.
+    :::
+
 
 See the
 [Customizable Analysis Tasks for the 7-SPAA_Exceptions Job](#customizable-analysis-tasks-for-the-7-spaa_exceptions-job)
@@ -34,8 +37,11 @@ returned by the 2-SPAA_BulkImport Job. View the analysis tasks by navigating to 
 **SharePoint** > **0.Collection** > **3-SPAA_Exceptions** > **Configure** node and select
 **Analysis**.
 
-**CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
+:::warning
+The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
 

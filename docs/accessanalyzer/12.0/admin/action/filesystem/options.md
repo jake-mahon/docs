@@ -46,14 +46,17 @@ Select from the following additional operations:
 
     - Batch size – Specify the batch size.
 
-Start Process
+**Start Process**
 
 Select the desired start process.
 
-**CAUTION:** Due to system security limitations, some applications and programs cannot be restarted
+:::warning
+Due to system security limitations, some applications and programs cannot be restarted
 or run remotely using this option. Additionally, starting interactive processes (such as Word,
 Excel, and so on) will load them into memory, but may not make them available for interaction by the
 end user.
+:::
+
 
 Use the fields provided to select target items and hosts from the drop-down lists and populate the
 Set working directory field, or edit the field manually. The Preview field updates based on the

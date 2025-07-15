@@ -1,3 +1,9 @@
+---
+title: "Configuration > PgSQL_DatabaseSizing Job"
+description: "Configuration > PgSQL_DatabaseSizing Job"
+sidebar_position: 30
+---
+
 # Configuration > PgSQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into details about the

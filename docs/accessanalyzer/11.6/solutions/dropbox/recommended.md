@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the Dropbox Solution"
+description: "Recommended Configurations for the Dropbox Solution"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the Dropbox Solution
 
 The Dropbox Solution requires the host list to be assigned and the Connection Profile configured

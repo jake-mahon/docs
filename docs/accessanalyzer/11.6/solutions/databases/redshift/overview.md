@@ -1,3 +1,9 @@
+---
+title: "Redshift Solution"
+description: "Redshift Solution"
+sidebar_position: 60
+---
+
 # Redshift Solution
 
 The Enterprise Auditor Redshift Solution Set is a comprehensive set of pre-configured audit jobs and
@@ -15,7 +21,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/target/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/requirements/databases/databaseredshift.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -70,9 +76,9 @@ The following job groups comprise the Redshift Job Group:
   — Provides insight into details about the Redshift environment and potential vulnerabilities
   relating to instance configuration settings.
 
-- [Sensitive Data Job Group](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/overview.md)
+- [Sensitive Data Job Group](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitivedata/overview.md)
   — Provides insight into where sensitive data exists and who has access to it across all the
   targeted Redshift databases.This Job Group is comprised of the following job(s):
 
-    - [Redshift_SensitiveData Job](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/redshift_sensitivedata.md)
-    - [Redshift_SensitiveDataPermissions Job](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitive_data/redshift_sensitivedatapermissions.md)
+    - [Redshift_SensitiveData Job](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitivedata/redshift_sensitivedata.md)
+    - [Redshift_SensitiveDataPermissions Job](/docs/accessanalyzer/11.6/solutions/databases/redshift/sensitivedata/redshift_sensitivedatapermissions.md)

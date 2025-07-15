@@ -1,3 +1,9 @@
+---
+title: "Get-Mailbox"
+description: "Get-Mailbox"
+sidebar_position: 10
+---
+
 # Get-Mailbox
 
 Use the **Get-Mailbox** commandlet to retrieve basic information about a mailbox that match your
@@ -40,4 +46,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

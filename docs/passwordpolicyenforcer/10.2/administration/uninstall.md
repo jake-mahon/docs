@@ -1,3 +1,9 @@
+---
+title: "Uninstall Netwrix Password Policy Enforcer"
+description: "Uninstall Netwrix Password Policy Enforcer"
+sidebar_position: 40
+---
+
 # Uninstall Netwrix Password Policy Enforcer
 
 **NOTE:** Uninstalling the product does not remove system files as the PPE.DLL from the System32

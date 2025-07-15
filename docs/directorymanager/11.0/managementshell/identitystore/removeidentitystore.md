@@ -1,3 +1,9 @@
+---
+title: "Remove-IdentityStore"
+description: "Remove-IdentityStore"
+sidebar_position: 140
+---
+
 # Remove-IdentityStore
 
 The commandlet **Remove-IdentityStore** removes an identity store from GroupID.
@@ -43,4 +49,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

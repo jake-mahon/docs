@@ -1,3 +1,9 @@
+---
+title: "DNS: Summary"
+description: "DNS: Summary"
+sidebar_position: 30
+---
+
 # DNS: Summary
 
 The Summary page displays a summary of the configured query. It is a wizard page for all categories.

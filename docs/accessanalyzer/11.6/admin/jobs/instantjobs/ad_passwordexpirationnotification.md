@@ -1,3 +1,9 @@
+---
+title: "AD_PasswordExpirationNotification Job"
+description: "AD_PasswordExpirationNotification Job"
+sidebar_position: 10
+---
+
 # AD_PasswordExpirationNotification Job
 
 The AD_PasswordExpirationNotification Job determines when Active Directory user passwords are about

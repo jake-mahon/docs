@@ -1,3 +1,9 @@
+---
+title: "EWSMailbox: SDD Options"
+description: "EWSMailbox: SDD Options"
+sidebar_position: 50
+---
+
 # EWSMailbox: SDD Options
 
 The Sensitive data scan options page is where options to be used for discovering sensitive data are

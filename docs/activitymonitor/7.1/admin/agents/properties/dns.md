@@ -1,3 +1,9 @@
+---
+title: "DNS Tab"
+description: "DNS Tab"
+sidebar_position: 90
+---
+
 # DNS Tab
 
 Use the DNS tab to customize how the agent queries and caches DNS results.

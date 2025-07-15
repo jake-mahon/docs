@@ -1,3 +1,9 @@
+---
+title: "Server Level Reports"
+description: "Server Level Reports"
+sidebar_position: 30
+---
+
 # Server Level Reports
 
 The following reports are available at the server level:

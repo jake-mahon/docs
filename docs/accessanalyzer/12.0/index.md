@@ -169,7 +169,10 @@ integration with Identity & Access Management (IAM) processes.
 
 See the [Dropbox Solution](/docs/accessanalyzer/12.0/solutions/dropbox/overview.md) topic for additional information.
 
-**NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::note
+Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::
+
 
 ### Exchange Solution
 
@@ -180,7 +183,10 @@ Health, Public Folders and Configuration Baseline.
 
 See the [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
-**NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::note
+Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::
+
 
 ### File Systems Solution
 
@@ -192,8 +198,11 @@ transformation, and file activity monitoring.
 
 See the [File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional information.
 
-**NOTE:** Activity auditing requires the Activity Monitor. Sensitive data auditing requires the
+:::note
+Activity auditing requires the Activity Monitor. Sensitive data auditing requires the
 Sensitive Data Discovery Add-on.
+:::
+
 
 ### SharePoint Solution
 
@@ -203,7 +212,10 @@ infrastructure, configuration, performance, permissions, required ports, and eff
 
 See the [SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/overview.md) topic for additional information.
 
-**NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::note
+Sensitive data auditing requires the Sensitive Data Discovery Add-on.
+:::
+
 
 ### Unix Solution
 

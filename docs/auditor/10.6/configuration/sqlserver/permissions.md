@@ -1,3 +1,9 @@
+---
+title: "Permissions for SQL Server Auditing"
+description: "Permissions for SQL Server Auditing"
+sidebar_position: 20
+---
+
 # Permissions for SQL Server Auditing
 
 Before you start creating a monitoring plan to audit your SQL Server, plan for the account that will

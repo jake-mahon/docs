@@ -11,7 +11,7 @@ run. The SQL Job Group is a comprehensive set of pre-configured audit jobs and r
 information on users and roles, activity, permissions, configuration, sensitive data, and overall
 security assessment.
 
-Supported Platforms
+**Supported Platforms**
 
 - Azure SQL
 
@@ -20,24 +20,27 @@ Supported Platforms
 - SQL Server 2017
 - SQL Server 2016
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the
 [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/databases/sql/sql.md)
 topic for additional information.
 
-Sensitive Data Discovery Considerations
+**Sensitive Data Discovery Considerations**
 
 If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the minimum amount
 of RAM. Each thread requires a minimum of 2 additional GB of RAM per host.For example, if the job is
 configured to scan 8 hosts at a time , then an extra 16 GB of RAM are required (8x2=16).
 
-**NOTE:** The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
+:::note
+The appropriate JDK (Java) version for Sensitive Data Discovery is installed on the
 server. The JDK deployed is prepackaged and does not require any configuration; it has been
 preconfigured to work with Access Analyzer and should never be customized through Java. It will not
 conflict with other JDKs or Java Runtimes in the same environment.
+:::
 
-Location
+
+**Location**
 
 The SQL Job Group within the Jobs tree, as part of the Database Solution: Jobs > Database > SQL.
 

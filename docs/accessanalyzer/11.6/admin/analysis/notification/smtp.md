@@ -1,3 +1,9 @@
+---
+title: "Notification: SMTP"
+description: "Notification: SMTP"
+sidebar_position: 70
+---
+
 # Notification: SMTP
 
 The SMTP properties page is available when the Email notification type is selected on the Type page.

@@ -1,3 +1,9 @@
+---
+title: "Change Log Level"
+description: "Change Log Level"
+sidebar_position: 20
+---
+
 # Change Log Level
 
 The `AccessInformationCenter.Service.exe.config` file is located in the Access Information Center

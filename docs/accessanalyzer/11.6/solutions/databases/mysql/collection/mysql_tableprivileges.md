@@ -1,3 +1,9 @@
+---
+title: "MySQL_TablePrivileges Job"
+description: "MySQL_TablePrivileges Job"
+sidebar_position: 30
+---
+
 # MySQL_TablePrivileges Job
 
 The MySQL_TablePrivileges job is designed to collect MySQL table privileges from all the targeted

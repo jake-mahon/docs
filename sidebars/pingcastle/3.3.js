@@ -2,13 +2,9 @@
 module.exports = {
   pingcastle33: [
     {
-      type: 'doc',
+      type: 'doc',  
       id: 'index',
-    },
-    {
-      type: 'doc',
-      id: 'basicuser',
-      label: 'PingCastle Standard',
+      label: 'PingCastle Standard'
     },
     {
       type: 'category',

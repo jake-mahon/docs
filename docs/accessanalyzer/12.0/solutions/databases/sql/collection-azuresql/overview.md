@@ -27,7 +27,7 @@ The jobs in 0.Collection Jobs Group are:
 - [4-AzureSQL_ServerSettings Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection-azuresql/4-azuresql_serversettings.md) — Collects Azure SQL instances and
   database configuration settings to evaluate them against recommended best practices
 
-Workflow
+**Workflow**
 
 1. Prerequisite:
     1. Successful execution of the .Active Directory Inventory Job Group
@@ -36,5 +36,8 @@ Workflow
 2. (Optional) Configure the queries for the jobs in the 0.Collection Job Group
 3. Schedule the 0.Collection Job Group to run daily or as desired
 
-    **NOTE:** Running the 0.Collection Job Group is a prerequisite for the other job groups in the
+    :::note
+    Running the 0.Collection Job Group is a prerequisite for the other job groups in the
     Azure SQL solution
+    
+    :::

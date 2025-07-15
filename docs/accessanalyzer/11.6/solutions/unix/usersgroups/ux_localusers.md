@@ -1,3 +1,9 @@
+---
+title: "UX_LocalUsers Job"
+description: "UX_LocalUsers Job"
+sidebar_position: 60
+---
+
 # UX_LocalUsers Job
 
 The UX_LocalUsers job provides an overview of all local users within the audited Unix and Linux

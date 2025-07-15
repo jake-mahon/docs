@@ -1,3 +1,9 @@
+---
+title: "AD_ComputerPermissions Job"
+description: "AD_ComputerPermissions Job"
+sidebar_position: 10
+---
+
 # AD_ComputerPermissions Job
 
 The AD_ComputerPermissions Job reports on all Active Directory permissions applied to computer

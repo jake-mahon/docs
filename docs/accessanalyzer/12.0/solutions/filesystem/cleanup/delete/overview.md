@@ -18,7 +18,7 @@ This job group includes the following jobs:
 - [FS_DeleteFiles_Status Job](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/fs_deletefiles_status.md) – Designed to report on deleted resources
   from targeted file servers that were deleted from the DeleteFiles job
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Category"
+description: "ADInventory: Category"
+sidebar_position: 20
+---
+
 # ADInventory: Category
 
 Use the category page to identify which Active Directory task to perform.

@@ -20,7 +20,10 @@ Customize folder search conditions using the following options:
 - Edit Conditions – Click an underlined value, if present, in the Edit Conditions box to modify any
   of the template conditions
 
-    **NOTE:** The values present depends on the selections made in the Select conditions box.
+    :::note
+    The values present depends on the selections made in the Select conditions box.
+    :::
+
 
     - Click **specific** in the Edit conditions box to open the Folder Type Window. See the
       [Folder Type Window](#folder-type-window) topic for additional information.

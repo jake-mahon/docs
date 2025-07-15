@@ -1,3 +1,9 @@
+---
+title: "SQL_SensitiveDataActivity Job"
+description: "SQL_SensitiveDataActivity Job"
+sidebar_position: 40
+---
+
 # SQL_SensitiveDataActivity Job
 
 The SQL_SensitiveDataActivity Job provides detailed information on DML (UPDATE, INSERT, DELETE,

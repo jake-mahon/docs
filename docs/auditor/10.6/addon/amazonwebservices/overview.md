@@ -1,3 +1,9 @@
+---
+title: "Amazon Web Services"
+description: "Amazon Web Services"
+sidebar_position: 20
+---
+
 # Amazon Web Services
 
 Amazon Web Services (AWS) provides a wide range of cloud-based services, including solutions and

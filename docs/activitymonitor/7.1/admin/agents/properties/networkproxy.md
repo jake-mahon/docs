@@ -1,3 +1,9 @@
+---
+title: "Network Proxy Tab"
+description: "Network Proxy Tab"
+sidebar_position: 140
+---
+
 # Network Proxy Tab
 
 Use the Network Proxy tab to set the proxy for connection to Microsoft Entra ID (formerly Azure AD)

@@ -1,3 +1,9 @@
+---
+title: "Install Client via Group Policy"
+description: "Install Client via Group Policy"
+sidebar_position: 10
+---
+
 # Install Client via Group Policy
 
 The Netwrix Auditor client can be deployed on multiple computers via Group Policy. This can be

@@ -1,3 +1,9 @@
+---
+title: "SharePoint Online Ports"
+description: "SharePoint Online Ports"
+sidebar_position: 10
+---
+
 # SharePoint Online Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Microsoft 365.

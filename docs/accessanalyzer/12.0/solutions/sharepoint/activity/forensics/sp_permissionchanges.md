@@ -14,8 +14,11 @@ over the past 30 days.
 Navigate to the **Jobs** > **SharePoint** > **7.Activity** > **Forensics** >
 **SP_PermissionChanges** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_PermissionChanges Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/permissionchangesanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the SQL_PermissionChanges Job
 produces the following pre-configured report:
 
-| Report             | Description                                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                 |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Permission Changes | This report identifies SharePoint permission changes based on activity events and determines whether or not that permission change is considered a high security risk. | None         | This report is comprised of two elements: - Bar Chart – Displays permission change activity in the past seven days - Table – Provides permission change details |
+| Report             | Description                                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                       |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Permission Changes | This report identifies SharePoint permission changes based on activity events and determines whether or not that permission change is considered a high security risk. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays permission change activity in the past seven days</li><li>Table – Provides permission change details</li></ul> |
+

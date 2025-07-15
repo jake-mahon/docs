@@ -1,3 +1,9 @@
+---
+title: "Integrate Alerts with Add-On"
+description: "Integrate Alerts with Add-On"
+sidebar_position: 30
+---
+
 # Integrate Alerts with Add-On
 
 The add-on is shipped with a special set of alerts developed by Netwrixindustry experts. These

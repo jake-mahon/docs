@@ -30,10 +30,13 @@ Use the horizontal scrollbar at the bottom to view the host inventory data, whic
 - InventoryState – Last known status of the host inventory query (**Idle**, **In progress**, or **In
   queue**)
 
-    **NOTE:** If the Access Analyzer application is stopped during host inventory collection, hosts
+    :::note
+    If the Access Analyzer application is stopped during host inventory collection, hosts
     queued for inventory retain the **InventoryState** of **In queue** within the Host Management
     node data grid, as this is the last known state of inventory. It retains that state until the
     next host inventory collection is executed against the host.
+    :::
+
 
 - IPAddress – Last known IP Address for the host from host inventory collection
 - Subnet – Subnet mask for the host’s IP Address

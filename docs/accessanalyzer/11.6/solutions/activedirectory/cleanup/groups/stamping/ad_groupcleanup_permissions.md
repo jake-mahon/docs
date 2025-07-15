@@ -1,3 +1,9 @@
+---
+title: "AD_GroupCleanup_Permissions Job"
+description: "AD_GroupCleanup_Permissions Job"
+sidebar_position: 10
+---
+
 # AD_GroupCleanup_Permissions Job
 
 The AD_GroupCleanup_Permissions Job reports on where security groups are being used to assign

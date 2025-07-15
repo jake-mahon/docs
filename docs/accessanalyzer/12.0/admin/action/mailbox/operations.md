@@ -19,4 +19,7 @@ Select from the following operations:
 - Remove Delegates
 - Remove Stale SIDS
 
-**NOTE:** The Operation selected alters the subsequent steps displayed by the wizard.
+:::note
+The Operation selected alters the subsequent steps displayed by the wizard.
+
+:::

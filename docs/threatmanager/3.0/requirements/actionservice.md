@@ -21,7 +21,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 Minimum hardware requirements:
 
@@ -29,7 +29,7 @@ Minimum hardware requirements:
 - 1 CPU Core
 - 500 MB Total Disk Space
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the application server:
 

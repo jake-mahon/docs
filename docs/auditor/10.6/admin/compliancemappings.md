@@ -1,3 +1,9 @@
+---
+title: "Compliance Mappings"
+description: "Compliance Mappings"
+sidebar_position: 100
+---
+
 # Compliance Mappings
 
 This tile contains links to the practical guides on how to comply with different standards using

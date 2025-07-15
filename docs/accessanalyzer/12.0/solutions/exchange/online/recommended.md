@@ -6,14 +6,14 @@ sidebar_position: 10
 
 # Recommended Configurations for the 8. Exchange Online Job Group
 
-Dependencies
+**Dependencies**
 
 The following Access Analyzer job groups need to be successfully run:
 
 - .Active Directory Inventory
 - .Entra ID Inventory
 
-Targeted Hosts
+**Targeted Hosts**
 
 The Mailflow job group uses Remote PowerShell through the ExchangePS Data Collector and the
 PowerShell Data Collector. The host list needs to be set to one of the following:
@@ -26,7 +26,7 @@ PowerShell Data Collector. The host list needs to be set to one of the following
       [Exchange Online Host List](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/configurejob.md#exchange-online-host-list)
       topic for additional information.
 
-Connection Profile
+**Connection Profile**
 
 See the [Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/exchange/support/powershell.md)
 topic for the EX_Mailflow job requirements.
@@ -42,13 +42,16 @@ See the
 [Exchange Custom Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/configurejob.md)
 topic for additional information.
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group has been designed to run daily.
 
-**_RECOMMENDED:_** Run this job group at 1:00 AM.
+:::info
+Run this job group at 1:00 AM.
+:::
 
-Query Configuration
+
+**Query Configuration**
 
 The 8. Exchange Online job group is designed to be run with the default query configurations.
 However, the following queries can be modified:
@@ -58,7 +61,7 @@ However, the following queries can be modified:
 
 No other queries should be modified.
 
-Analysis Configuration
+**Analysis Configuration**
 
 The 8. Exchange Online job group should be run with the default analysis configurations. Most of
 these analysis tasks are preconfigured and should never be modified or deselected. There are some
@@ -73,7 +76,7 @@ The following analysis tasks should not be deselected, but their parameters can 
 - **Mailflow** > **EX_Mailflow_Mailbox** Job – **User Mailboxes by Message Size** Analysis Task
 - **Mailflow** > **EX_Mailflow_OrgOverview** Job – **Organization Overview** Analysis Task
 
-Workflow
+**Workflow**
 
 **Step 1 –** Set the host on the EX_Mailflow job.
 

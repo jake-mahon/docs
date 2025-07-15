@@ -11,7 +11,7 @@ This page is enabled when the **Probable Owner** property is selected on the Res
 
 ![System Info Data Collector Wizard Probable Owner page](/img/product_docs/accessanalyzer/12.0/admin/datacollector/systeminfo/probableowner.webp)
 
-Determine owner
+**Determine owner**
 
 In the Determine owner section, select from the following options:
 
@@ -27,7 +27,7 @@ In the Determine owner section, select from the following options:
 
 The Result weights box displays the custom weights set in the Probable Owner Settings window.
 
-Exclude users list
+**Exclude users list**
 
 In the Exclude users list section, select from the following checkboxes:
 
@@ -48,7 +48,7 @@ Click **Set Users to Exclude** to open the Probable Owner Settings window:
 - Import from file – Select **Import from file** to open the Import File Dialog and import files to
   add to the excluded users list
 
-Output options
+**Output options**
 
 In the Output options section, select from the following options:
 

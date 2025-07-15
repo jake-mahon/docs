@@ -1,3 +1,9 @@
+---
+title: "EX_Mailflow_Mailbox Job"
+description: "EX_Mailflow_Mailbox Job"
+sidebar_position: 40
+---
+
 # EX_Mailflow_Mailbox Job
 
 The EX_Mailflow_Mailbox job provides information around each user’s mail flow in the organization.
@@ -39,7 +45,7 @@ The following analysis tasks are selected by default:
     - By default, counts are collected for the last 30 days. The number of days can be modified with
       the `@Days` parameter.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information
 
 - User Mailboxes by Message Size – Creates the EX_MailFlow_UserBySize table, accessible under the
@@ -48,7 +54,7 @@ The following analysis tasks are selected by default:
     - By default, sizes are selected for the last 30 days. The number of days can be modified with
       the `@Days` parameter.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_Mailflow_Mailbox job

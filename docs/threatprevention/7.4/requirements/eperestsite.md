@@ -1,3 +1,9 @@
+---
+title: "EPE Rest Site Requirements"
+description: "EPE Rest Site Requirements"
+sidebar_position: 60
+---
+
 # EPE Rest Site Requirements
 
 Requirements for the EPE Rest Site are the same as documented for the Netwrix Threat Manager

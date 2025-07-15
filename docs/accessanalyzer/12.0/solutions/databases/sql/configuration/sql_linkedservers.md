@@ -16,8 +16,11 @@ handle distributed queries in SQL and Azure SQL server .
 Navigate to the **Databases** > Jobs > SQL > 4.Configuration > SQL_LinkedServers Job >Configure node
 and select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 pre-configured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/configuration/analysistasks.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the **SQL_DatabaseSizing Job** produces the
 following preconfigured report:
 
-| Report         | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                             |
-| -------------- | ----------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Linked Servers | This report highlights Linked Servers where the listed SQL Server is able to execute remote commands. | None         | This report is comprised of three elements: - Bar Chart – Provides information on top five linked servers by instance - Table – Provides details on linked servers by instance - Table – Provides details on linked servers |
+| Report         | Description                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                         |
+| -------------- | ----------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Linked Servers | This report highlights Linked Servers where the listed SQL Server is able to execute remote commands. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Provides information on top five linked servers by instance</li><li>Table – Provides details on linked servers by instance</li><li>Table – Provides details on linked servers</li></ul> |
+

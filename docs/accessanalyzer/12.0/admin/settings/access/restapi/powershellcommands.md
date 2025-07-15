@@ -24,10 +24,13 @@ $access_token = $content.access_token;
 $refresh_token = $content.refresh_token;
 ```
 
-**_RECOMMENDED:_** Tokens contain sensitive information and should be stored securely. See the
+:::info
+Tokens contain sensitive information and should be stored securely. See the
 Microsoft
 [ConvertTo-SecureString](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/convertto-securestring?view=powershell-7.4)
 article for additional information.
+:::
+
 
 ## Retrieve Data from a Table or View
 

@@ -1,3 +1,9 @@
+---
+title: "Requirements"
+description: "Requirements"
+sidebar_position: 30
+---
+
 # Requirements
 
 (missing or bad snippet)

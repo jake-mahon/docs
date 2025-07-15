@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Prior Actions"
+description: "Public Folder: Prior Actions"
+sidebar_position: 20
+---
+
 # Public Folder: Prior Actions
 
 The Prior Actions page selects previously executed actions for rollback. It is a wizard page when

@@ -1,3 +1,9 @@
+---
+title: "File System Action: Environment"
+description: "File System Action: Environment"
+sidebar_position: 40
+---
+
 # File System Action: Environment
 
 The Environment (Environment Variables) page is available only if the selected operation requires

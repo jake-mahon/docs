@@ -20,17 +20,17 @@ special Access Analyzer licenses. See the following topics for additional inform
 - [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md)
 - [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md)
 
-Protocols
+**Protocols**
 
 - Remote Registry
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Local Administrators group
 

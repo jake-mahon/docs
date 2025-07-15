@@ -1,3 +1,9 @@
+---
+title: "FSAA: FSAA Update Service Setting"
+description: "FSAA: FSAA Update Service Setting"
+sidebar_position: 140
+---
+
 # FSAA: FSAA Update Service Setting
 
 The FSAA Update Service Setting page is where the File System Proxy Service can be automatically

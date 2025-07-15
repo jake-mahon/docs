@@ -1,3 +1,9 @@
+---
+title: "2.CAS Metrics Job Group"
+description: "2.CAS Metrics Job Group"
+sidebar_position: 30
+---
+
 # 2.CAS Metrics Job Group
 
 The 2. CAS Metrics Job Group is comprised of data collection, analysis and reports that focus on

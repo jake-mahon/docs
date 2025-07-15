@@ -1,3 +1,9 @@
+---
+title: "Transfer-DirectReports"
+description: "Transfer-DirectReports"
+sidebar_position: 50
+---
+
 # Transfer-DirectReports
 
 Use the **Transfer-DirectReports** commandlet to transfer direct report(s) in the connected identity
@@ -34,4 +40,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -109,5 +109,8 @@ the Access Analyzer pop-up window to confirm the merge.
 
 Changes between releases are tracked. Only jobs that are locked can be upgraded.
 
-**NOTE:** Jobs that are included in Access Analyzer are locked and changes cannot be made to those
+:::note
+Jobs that are included in Access Analyzer are locked and changes cannot be made to those
 jobs.
+
+:::
