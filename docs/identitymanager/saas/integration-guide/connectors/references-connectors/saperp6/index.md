@@ -107,7 +107,10 @@ variables.
 
 Set up the prerequisites for writing
 
-**NOTE:** Make sure the Read prerequisites are configured first.
+:::note
+Make sure the Read prerequisites are configured first.
+:::
+
 
 **Step 1 –** Copy the provided DLL `sapnwrfc.dl` into the Runtime of Identity Manager.
 
@@ -153,7 +156,10 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ the identifier of the connection and thus the name of the subsection must:
+:::tip
+Remember, the identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - Be unique
 - Not begin with a digit.

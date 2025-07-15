@@ -86,7 +86,95 @@ The identifier of the connection and thus the name of the subsection must:
 | Path Required if PathIncremental is not defined. | **Type** String **Description** Path of the input file to be used for complete synchronization.                                                                                                                                                                                                                                                                        |
 | PathIncremental Required if Path is not defined. | **Type** String **Description** Path of the input file to be used for incremental synchronization.                                                                                                                                                                                                                                                                     |
 | IsFileNameRegex optional                         | **Type** Boolean **Description** `True` to enter a regex instead of a normal string for `Path` and `PathIncremental`. **Note:** if several files correspond to the regex, then the export will use the last created file. **Info:** useful when the filename is only partially known, for example when using a generated file.                                         |
-| ValuesToTrim optional                            | **Type** String List **Description** Ordered list of the characters to trim at the beginning and at the end of the headers and values of the input file. **Note:** the second value will be trimmed after the first, the order is important. **Example** When writing `$` first and then `%` in `ValuesToTrim`, then "$%I am an example$%" becomes "I am an example$". |
+| ValuesToTrim optional                            | **Type** String List **Description** Ordered list of the characters to trim at the beginning and at the end of the headers and values of the input file. **Note:** the second value will be trimmed after the first, the order is important. **Example** When writing `---
+title: "Microsoft Excel"
+description: "Microsoft Excel"
+sidebar_position: 140
+---
+
+# Microsoft Excel
+
+This connector exports datasheets from a
+[Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) (XLSX) file.
+
+This page is about [Excel](/docs/identitymanager/saas/integration-guide/connectors/references-packages/excel/index.md).
+
+![Package: File/Microsoft Excel](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/excel/packages_excel_v603.webp)
+
+## Overview
+
+Microsoft Excel files using the XLSX file format are commonly used to store information.
+
+## Prerequisites
+
+Implementing this connector requires the input file to be in the XLSX format.
+
+## Export
+
+This connector copies the information from an XLSX file into CSV files, one per spreadsheet, while
+filtering out spreadsheets and trimming values if needed.
+
+### Configuration
+
+This process is configured through a
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+the XML configuration, and in the `appsettings.agent.json > Connections` section:
+
+```
+appsettings.agent.json
+{
+  ...
+  "Connections": {
+    ...
+    "<ConnectionIdentifier>": {
+      ...
+    }
+  }
+}
+```
+
+The identifier of the connection and thus the name of the subsection must:
+
+- be unique.
+- not begin with a digit.
+- not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
+
+> For example:
+>
+> ```
+> appsettings.agent.json
+> {
+>   ...
+>   "Connections": {
+>     ...
+>     "HRContoso": {
+>       "Path": "C:/identitymanagerContoso/Contoso/hr_conto(.*?).xlsx",
+>       "PathIncremental": "C:/identitymanagerContoso/Contoso/hr_delta_conto(.*?).xlsx",
+>       "IsFileNameRegex": "true",
+>       "SheetOptions": [>         {
+>           "SheetIgnored": "false",
+>           "NumberOfLinesToSkip": 1
+>         },
+>         {
+>           "SheetIgnored": "true"
+>         }
+>],
+>       "ValuesToTrim": [>         "$",
+>         "%"
+>]
+>     }
+>   }
+> }
+> ```
+
+#### Setting attributes
+
+| Name                                             | Details                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Path Required if PathIncremental is not defined. | **Type** String **Description** Path of the input file to be used for complete synchronization.                                                                                                                                                                                                                                                                        |
+| PathIncremental Required if Path is not defined. | **Type** String **Description** Path of the input file to be used for incremental synchronization.                                                                                                                                                                                                                                                                     |
+| IsFileNameRegex optional                         | **Type** Boolean **Description** `True` to enter a regex instead of a normal string for `Path` and `PathIncremental`. **Note:** if several files correspond to the regex, then the export will use the last created file. **Info:** useful when the filename is only partially known, for example when using a generated file.                                         |
+ first and then `%` in `ValuesToTrim`, then "$%I am an example$%" becomes "I am an example$". |
 |                                                  |                                                                                                                                                                                                                                                                                                                                                                        |
 | ---                                              | ---                                                                                                                                                                                                                                                                                                                                                                    |
 | SheetOptions optional                            | **Type** Sheet Option List **Description** List of options for each sheet of the input file. The first element of the list sets the options for the first sheet, the second element for the second sheet, etc.                                                                                                                                                         |

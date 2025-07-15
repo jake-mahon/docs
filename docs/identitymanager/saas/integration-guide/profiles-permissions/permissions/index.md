@@ -330,8 +330,11 @@ Here is a list of permissions required for different user profiles:
 
 - The permission's recipient will receive a notification email.
 
-    **NOTE:** In order to receive the notifications, a profile must have the full permission path.
+    :::note
+    In order to receive the notifications, a profile must have the full permission path.
     Having a (great-)parent permission will not enable notifications for all child entities.
+    :::
+
 
     For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows
     a profile to perform manual provisioning with Directory_User as the source entity type, and
@@ -350,8 +353,11 @@ Here is a list of permissions required for different user profiles:
 
     The permission's recipient will receive a notification email.
 
-    **NOTE:** In order to receive the notifications, a profile must have the full permission path.
+    :::note
+    In order to receive the notifications, a profile must have the full permission path.
     Having a (great-)parent permission will not enable notifications for all child entities.
+    :::
+
 
     For example, the permission /ProvisioningPolicy/PerformManualProvisioning/Directory_User allows
     a profile to perform manual provisioning with Directory_User as the source entity type, and

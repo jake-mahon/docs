@@ -44,9 +44,12 @@ the UI.
 Some entitlements require the approval of one or several knowledgeable users before actually being
 assigned. This is standard procedure in many security-concerned organizations.
 
-**NOTE:** This is configurable through the role's or resource type's approval workflow type. See the
+:::note
+This is configurable through the role's or resource type's approval workflow type. See the
 [Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for
 additional information.
+:::
+
 
 Each step of the approval workflow is associated with a workflow state, so that all assignments can
 be tracked and it is clear what step they are at.
@@ -69,8 +72,11 @@ In addition to the workflow state that represents an assignment's progress in th
 any assignment also has a provisioning state to represent its progress in its lifetime from creation
 in the database to provisioning to the managed system and to its eventual deletion.
 
-**NOTE:** Contrary to the workflow state that concerns all assignments, the provisioning state is
+:::note
+Contrary to the workflow state that concerns all assignments, the provisioning state is
 only about the assignments that need provisioning.
+:::
+
 
 For example, roles exist only in Identity Manager and not in the managed systems, so assigned roles
 do not have a provisioning state, unlike assigned resource types, scalars and navigation, etc.
@@ -120,9 +126,12 @@ therefore:
   permission;
 - Kept as an exception if the configured rules do not apply to this particular case.
 
-**NOTE:** Non-conforming assignments are to be reviewed on the **Role Reconciliation** and/or
+:::note
+Non-conforming assignments are to be reviewed on the **Role Reconciliation** and/or
 **Resource Reconciliation** screens. See the [Evaluate Policy](/docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/index.md) topic
 for additional information.
+:::
+
 
 Non-conforming assignments can still be split into two categories:
 
@@ -176,8 +185,11 @@ existence or its values do not comply with the policy.
 For example, a SAP account is found for a user who should not have one according to the role model's
 rules.
 
-**NOTE:** An account can also be an orphan when it is found in the managed system, but no owner
+:::note
+An account can also be an orphan when it is found in the managed system, but no owner
 could be correlated.
+:::
+
 
 ### Consolidated states
 
@@ -193,8 +205,11 @@ together with its nested scalar/navigation assignments, and it is described by t
 - ConsolidatedWorkflowReviewState represents the progress in the approval workflow for a manual
   assignment;
 
-    **NOTE:** Except for very technical use cases, resource types should not be requested manually,
+    :::note
+    Except for very technical use cases, resource types should not be requested manually,
     they should only be inferred by a role and thus assigned automatically.
+    :::
+
 
 - ConsolidatedWorkflowBlockedState indicates whether one or more of the nested scalars/navigations
   are blocked;

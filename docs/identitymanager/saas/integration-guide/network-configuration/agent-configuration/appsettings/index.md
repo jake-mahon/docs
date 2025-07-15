@@ -9,8 +9,11 @@ sidebar_position: 10
 This section describes the settings available in the agent's appsettings.json file, located in the
 agent's working directory or in environment variables.
 
-**NOTE:** JSON files can contain any additional information that you might find useful. See the
+:::note
+JSON files can contain any additional information that you might find useful. See the
 example below.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -107,7 +110,10 @@ This information can be set one of two ways:
   identified by SubjectDistinguishedName or by Thumbprint. The Windows certificate also contains
   both the public key certificate and the private key.
 
-    **NOTE:** Netwrix recommends using Windows' certificate store.
+    :::note
+    Netwrix recommends using Windows' certificate store.
+    :::
+
 
     On the other hand, the PFX file takes priority over Windows' certificate, which means that when
     File is specified then the PFX certificate is used, even if the options for Windows' certificate
@@ -139,11 +145,14 @@ The archive is set using the following attributes:
 | File (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system. |
 | Password (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.                     |
 
-**NOTE:** Storing a .pfx file password in plain text in a production environment is strongly
+:::note
+Storing a .pfx file password in plain text in a production environment is strongly
 discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword tool. See
 the
 [Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
+:::
+
 
 The archive is set using the following attributes:
 
@@ -223,11 +232,14 @@ The archive is set using the following attributes:
 | X509KeyFilePath (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the agent's host file system. |
 | X509KeyFilePassword (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.                             |
 
-**NOTE:** Storing a .pfx file password in plain text in a production environment is strongly
+:::note
+Storing a .pfx file password in plain text in a production environment is strongly
 discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword tool. See
 the
 [Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md)
 topic for additional information.
+:::
+
 
 As a Certificate in the Windows Store
 
@@ -254,8 +266,11 @@ The certificate is set using these attributes:
 | X509SubjectDistinguishedName (optional) | String | SubjectDistinguishedName of the certificate. It is required when X509Thumbprint is not defined. |
 | X509Thumbprint (optional)               | String | Thumbprint of the certificate. It is required when X509SubjectDistinguishedName is not defined. |
 
-**NOTE:** If you are using the certificate provided in the SDK, the agent will fail when launching.
+:::note
+If you are using the certificate provided in the SDK, the agent will fail when launching.
 You must create your own certificate.
+:::
+
 
 You can get the DistinguishedName of the certificate using OpenSSL:
 
@@ -335,5 +350,8 @@ The application insights details are:
 | -------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | InstrumentationKey default value: null | String | Key linked to the AppInsights instance to which the server's logs, requests, dependencies and performance are to be sent. See Microsoft's documentation to create an[ instrumentation key](https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource). |
 
-**NOTE:** The logs sent to AppInsights are configured through the Logger properties. See the
+:::note
+The logs sent to AppInsights are configured through the Logger properties. See the
 [Monitoring](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+
+:::

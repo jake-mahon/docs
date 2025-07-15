@@ -74,10 +74,14 @@ Here we have three navigation rules, one for each distinct time slot (dimension 
 
 ![Example - Rule](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedrole_examplerule_v603.webp)
 
-**NOTE:** Make sure that the corresponding dimension is specified in the right `DisplayEntityType`
+:::note
+Make sure that the corresponding dimension is specified in the right `DisplayEntityType`
 in XML to be displayed in the UI.
+:::
 
-**NOTE:** It is important to note that for manually assigned roles, if a new dimension is added to
+
+:::note
+It is important to note that for manually assigned roles, if a new dimension is added to
 the definition of the role, the assignment's dimension will not be re-calculated, and will therefore
 not be propagated to calculate automatic assignments.  
 Example Scenario — Role A was created as a composite role with no parameters a long time ago. Role A
@@ -89,6 +93,8 @@ not get the role B. Since the modification occurred after the assignment, it is 
 role was assigned voluntarily with dimension X unset.  
 However, if a user got role A assigned after the modification, and its dimension X was equal to
 value Y, then that user would get the role B.
+:::
+
 
 ![Example - Role Parameter Required](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedrole_exampleroleparameter_v603.webp)
 

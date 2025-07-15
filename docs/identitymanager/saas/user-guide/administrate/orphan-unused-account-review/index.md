@@ -35,9 +35,12 @@ In addition, filters can be configured in the reporting module to list orphaned 
 [Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display
 **User** and **AD User** (nominative) with a filter on void user's display names.
 
-**NOTE:** Some accounts are considered orphaned because of an error in the account data or assignment rule.  
+:::note
+Some accounts are considered orphaned because of an error in the account data or assignment rule.  
 For an entity that is never the target of a resource type, the concept of an orphan does not apply because the **Owner / Resource Type** column will be hidden.  
 When using a display table to display these entities, use DisplayTableDesignElement``({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"`` or `"adaptable"`.
+:::
+
 
 ### Unused accounts list
 
@@ -141,10 +144,13 @@ You can **Select owner** from the list by clicking on the check box.
     - If the owner is still in the organization, the account must be connected to its owner. Is
       there a rule to change?
 
-**NOTE:** We said that useful service accounts must be connected to their owners due to the fact that an orphaned account cannot be certified. See the [Perform Access Certification](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md) topic for additional information.
+:::note
+We said that useful service accounts must be connected to their owners due to the fact that an orphaned account cannot be certified. See the [Perform Access Certification](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md) topic for additional information.
 But a service account must not be linked to a person, for the departure of said person from the company may trigger the loss of the service account.  
 This is why we create identities with **Application** as their **UserType**, each application-identity linked to a person supposed to manage it. Thus,service accounts must be connected to application identities, themselves owned by people. That way, if the owner of the application leaves, the application-identity is not deleted, and the service accounts it owns are
 not deprovisioned.
+:::
+
 
 See the schema below this note.
 
@@ -152,9 +158,15 @@ See the schema below this note.
 
 **Step 6 –** Select the appropriate owner or no owner at all, according to the previous analysis.
 
-_Remember,_ decisions must be made with caution as they cannot be undone.
+:::tip
+Remember, decisions must be made with caution as they cannot be undone.
+:::
 
-**NOTE:** When binding an orphaned account to an existing owner, properties might need to be reconciled.
+
+:::note
+When binding an orphaned account to an existing owner, properties might need to be reconciled.
+:::
+
 
 **Step 7 –** Click on **Confirm Account Deletion** or **Authorize Account** according to the previous decision.
 

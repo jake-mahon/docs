@@ -76,7 +76,10 @@ To save the login to Azure Key Vault, create a secret whose name and value are r
 To save the second server, create a secret whose name and value are respectively
 `<Connections--ADExport--Servers--1--Server>` and `<marseille.contoso.com>`.
 
-_Remember,_ the index of the first element is `0`.
+:::tip
+Remember, the index of the first element is `0`.
+:::
+
 
 This way, values from the Azure Key Vault take priority over the values from the appsettings files.
 

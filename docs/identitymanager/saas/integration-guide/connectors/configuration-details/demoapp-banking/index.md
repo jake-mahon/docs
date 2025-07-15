@@ -49,15 +49,21 @@ This API provides:
 - Operations on users, including: Get list, Get by ID, Create, Update, and Delete (CRUD)
 - Operations on groups, limited to Get list only
 
-**NOTE:** In the Banking Demo Application appsettings two parameters are available:
+:::note
+In the Banking Demo Application appsettings two parameters are available:
+:::
+
 
 - `RequireAuthorization` (default: true) — When enabled, the system checks whether a token is
   present in the request headers
 - `RequireSecureHeader` (default: false) — When enabled, the system verifies that the
   SecureHeaderparameter is included in the request headers
 
-_Remember,_ a Postman collection is provided in the same folder as the executable (.exe) to
+:::tip
+Remember, a Postman collection is provided in the same folder as the executable (.exe) to
 facilitate API testing.
+:::
+
 
 ## Running the Banking Application
 

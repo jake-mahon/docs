@@ -164,9 +164,12 @@ This connector is meant to generate:
 - A cookie file named `<connectionIdentifier>`\_cookie.bin, containing the time of the last export
   in order to perform incremental exports.
 
-    **NOTE:** Most exports can be run in complete mode, where the CSV files will contain all
+    :::note
+    Most exports can be run in complete mode, where the CSV files will contain all
     entries, or in incremental mode, where CSV files will contain only the entries which have been
     modified since the last synchronization.
+    :::
+
 
     A task can use the IgnoreCookieFile boolean property, and a command line (with an executable)
     can use the option --ignore-cookies.

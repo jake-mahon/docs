@@ -11,8 +11,11 @@ your case, and the server is already installed, no need to go further. If, on th
 need separate agents, or if you are installing Identity Manager's agents within Identity Manager's
 SaaS offering, this is the way to go.
 
-**NOTE:** Please make sure that Identity Manager's agent requirements are met before going further.
+:::note
+Please make sure that Identity Manager's agent requirements are met before going further.
 See the[Agent](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+:::
+
 
 ## Agent Working Directory
 
@@ -30,8 +33,11 @@ topic for additional information.
 
 It is recommended to run the Identity Manager agent as an IIS website.
 
-_Remember,_ to install Identity Manager's agent as a Windows service, see the
+:::tip
+Remember, to install Identity Manager's agent as a Windows service, see the
 [Agent](/docs/identitymanager/saas/installation-guide/requirements/agent-requirements/index.md) topic for additional information.
+:::
+
 
 Adding Identity Manager's agent as an IIS website can be achieved with the
 [Internet Information Services (IIS) Manager](https://www.iis.net/) which can be launched with the
@@ -326,10 +332,13 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ storing sensitive managed system data in configuration files, such as login/password
+:::tip
+Remember, storing sensitive managed system data in configuration files, such as login/password
 pairs, is strongly discouraged. Sensitive data should be protected by one of the credentials
 protection methods. See the[Connectors](/docs/identitymanager/saas/integration-guide/connectors/index.md) topic for
 additional information.
+:::
+
 
 ## Encryption Key Pair
 
@@ -470,8 +479,11 @@ script in the command line.
 }
 ```
 
-_Remember,_ storing plain text passwords in configuration files is strongly discouraged. Sensitive
+:::tip
+Remember, storing plain text passwords in configuration files is strongly discouraged. Sensitive
 passwords should be encrypted.
+:::
+
 
 ## Install the Agent as a Windows Service
 
@@ -488,8 +500,11 @@ script in the command line.
 sc.exe create Usercube binpath= "<Usercube-Agent.exe --service>" displayname= "<Usercube Agent>" start= auto obj= "<DOMAIN\USER>" password= "<PASSWORD>"
 ```
 
-_Remember,_ make sure to include a space between each parameter's equal sign (=) and the parameter
+:::tip
+Remember, make sure to include a space between each parameter's equal sign (=) and the parameter
 value.
+:::
+
 
 ## Configure the Starting Mode in IIS (optional)
 

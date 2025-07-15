@@ -34,8 +34,11 @@ Implementing this connector requires:
     [Google's documentation](https://developers.google.com/workspace/guides/create-credentials#googles-documentation)
     Google's documentation to create the service account with the right impersonation.
 
-    _Remember,_ Google's documentation describes this procedure as optional, while the Google
+    :::tip
+        Remember, Google's documentation describes this procedure as optional, while the Google
     Workspace connector requires it.
+    :::
+
 
 ## Export
 

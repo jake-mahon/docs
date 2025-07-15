@@ -93,7 +93,10 @@ Encryption certificate information can be set in one of two ways:
 | StoreName required                                | String | Name of the relevant Windows certificate. Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line. `{     …     "PasswordResetSettings": {       …       "StoreName": "<AuthRoot>"     }   }`                       |
 | Thumbprint Required if DistinguishedName is empty | String | Thumbprint of the certificate. Code attributes enclosed with `<>` need to be replaced with a custom value before entering the script in the command line. `{     …     "PasswordResetSettings": {       "Thumbprint": "<6261A70E599642A21A57A605A73B6D2AE7C5C450>"       …     }   }` |
 
-_Remember,_ Netwrix recommends using Windows' certificate store.
+:::tip
+Remember, Netwrix recommends using Windows' certificate store.
+:::
+
 
 On the other hand, the PFX file takes priority over Windows' certificate, which means that when
 `File` is specified then the PFX certificate is used, even if the options for Windows' certificate

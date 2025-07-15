@@ -31,11 +31,14 @@ REST API with specific endpoints to get and set data in a web application for IG
 allows an identity provider to manage the web application's accounts. For more details about SCIM
 and RFC, see the [IETF document](https://tools.ietf.org/html/rfc7644).
 
-**NOTE:** Similarly to the Salesforce REST-based API, SCIM for Salesforce enables reading and
+:::note
+Similarly to the Salesforce REST-based API, SCIM for Salesforce enables reading and
 writing attributes, but writes to a smaller subset. For example, the following properties are
 manageable by the Salesforce REST-based API but not SCIM: `PermissionSetGroup`,
 `PermissionSetLicense`, `UserPermissionsKnowledgeUser`, `UserPermissionsInteractionUser`,
 `UserPermissionsSupportUser`, `CallCenterId`, `SenderEmail`.
+:::
+
 
 See the
 [Salesforce's documentation](https://help.salesforce.com/s/articleView?id=sf.identity_scim_rest_api.htm&type=5)
@@ -163,7 +166,10 @@ appsettings.agent.json
 }
 ```
 
-_Remember,_ the identifier of the connection and thus the name of the subsection must:
+:::tip
+Remember, the identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - Be unique
 - Not begin with a digit

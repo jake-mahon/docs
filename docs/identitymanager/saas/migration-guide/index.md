@@ -9,9 +9,12 @@ sidebar_position: 50
 This guide is designed to provide step-by-step procedures in order to migrate Identity Manager from
 your current version to the latest one.
 
-**NOTE:** For the latest SaaS versions, if you are using the administrator scaffolding the necessary
+:::note
+For the latest SaaS versions, if you are using the administrator scaffolding the necessary
 permissions for the update are added to the administrator scaffolding and they will be taken into
 account the next time the configuration is deployed.
+:::
+
 
 ## General Upgrade Instructions for the Server with Integrated Agent
 

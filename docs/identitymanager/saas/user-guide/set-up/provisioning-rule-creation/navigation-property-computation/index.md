@@ -102,8 +102,11 @@ accounts.
 A navigation rule will trigger the creation of a target resource for all impacted source resources
 (so all users), which are not yet correlated with a resource of this resource type.
 
-**NOTE:** A query rule does not create resources, and only computes the navigation properties of
+:::note
+A query rule does not create resources, and only computes the navigation properties of
 existing resources.
+:::
+
 
 ## Guidelines
 

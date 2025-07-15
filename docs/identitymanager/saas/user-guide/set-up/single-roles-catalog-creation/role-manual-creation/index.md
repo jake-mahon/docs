@@ -15,7 +15,10 @@ A single role is a way to represent an entitlement that is to be assigned to an 
 To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity Manager, an entitlement assigned to an identity is in fact represented by the value of a given navigation property, in a resource owned by said identity. See the [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional information. Thus, each role is linked to one navigation rule per entitlement. See the
 [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
-**NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called `<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a value of the **memberOf** property.
+:::note
+For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called `<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a value of the **memberOf** property.
+:::
+
 
 ## Participants and Artifacts
 
@@ -49,8 +52,11 @@ Create a single role by proceeding as follows:
   campaigns. See the [Schedule a Certification Campaign](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
   topic for additional information.
 
-    **NOTE:** Netwrix recommends using role tags when you want to perform an access certification on
+    :::note
+    Netwrix recommends using role tags when you want to perform an access certification on
     a set of roles that are from several categories.
+    :::
+
 
 - Category: Category which is to contain the created role.
 - Secondary Categories: Other potential categories which are to contain the created role.
@@ -76,7 +82,10 @@ Create a single role by proceeding as follows:
 - Hide in Simplified View: Hides the role from the users' **Simplified View** in **View Permissions** dialog. This setting does not apply to roles which are either inferred or have workflow states which require manual action.
 - Maximum Duration: Duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified.
 
-    **NOTE:** The maximum duration impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted.
+    :::note
+    The maximum duration impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted.
+    :::
+
 
     - If no duration is set on the role, the maximum duration of the associated policy is applied.
     - If the duration is set to 0 on the role, it prevents the associated policy from applying its
@@ -86,8 +95,11 @@ Create a single role by proceeding as follows:
   will be required to validate or decline the entitlement prolongation. Inferred entitlements won't
   be lost unless the end of the grace period is reached or the prolongation is declined.
 
-    **NOTE:** The grace period is only applied if the loss of the entitlement is due to a change in
+    :::note
+    The grace period is only applied if the loss of the entitlement is due to a change in
     the rules, i.e. rule deletion or criteria changes.
+    :::
+
 
     If the grace period is not defined, the value is inherited from the policy.
 

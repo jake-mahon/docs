@@ -232,8 +232,11 @@ The application insights details are:
 | -------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | InstrumentationKey default value: null | String | Key linked to the AppInsights instance to which the server's logs, requests, dependencies and performance are to be sent. See the Microsoft [Create an Application Insights resource](https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource) article for information on creating an instrumentation key. |
 
-**NOTE:** The logs sent to AppInsights are configured through the Logger properties. See the
+:::note
+The logs sent to AppInsights are configured through the Logger properties. See the
 [Monitoring](/docs/identitymanager/saas/integration-guide/monitoring/index.md) topic for additional information.
+:::
+
 
 ## PowerBI Settings
 
