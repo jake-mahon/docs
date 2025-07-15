@@ -45,7 +45,10 @@ The Windows Event Viewer shows a log of application and system messages, includi
 information messages, and warnings. It is a useful tool for troubleshooting all kinds of Windows
 problems.
 
-NOTE: Windows logging is not available for a portal instance deployed in Docker.
+:::note
+Windows logging is not available for a portal instance deployed in Docker.
+:::
+
 
 #### View Windows Logs
 
