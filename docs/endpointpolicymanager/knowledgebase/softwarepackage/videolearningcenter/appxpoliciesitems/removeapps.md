@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager: Remove built-in Windows 10 / 11 apps (including those in-the-box) included with Windows!"
+description: "Endpoint Policy Manager: Remove built-in Windows 10 / 11 apps (including those in-the-box) included with Windows!"
+sidebar_position: 20
+---
 # Endpoint Policy Manager: Remove built-in Windows 10 / 11 apps (including those in-the-box) included with Windows!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uerxcfe7FJU" title="Endpoint Policy Manager: Remove built-in Windows 10 / 11 apps (including those in-the-box) included with Windows!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

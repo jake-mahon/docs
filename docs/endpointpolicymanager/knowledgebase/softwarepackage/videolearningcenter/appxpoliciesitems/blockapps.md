@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Software Package Manager PLUS Least Privilege Manager: Block any unwanted store apps !"
+description: "Endpoint Policy Manager Software Package Manager PLUS Least Privilege Manager: Block any unwanted store apps !"
+sidebar_position: 30
+---
 # Endpoint Policy Manager Software Package Manager PLUS Least Privilege Manager: Block any unwanted store apps !
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NT07ngb0aJM" title="Endpoint Policy Manager Software Package Manager: AppX Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

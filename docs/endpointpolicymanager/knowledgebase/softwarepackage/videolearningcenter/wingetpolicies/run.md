@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager and WinGet-Run"
+description: "Endpoint Policy Manager and WinGet-Run"
+sidebar_position: 20
+---
 # Endpoint Policy Manager and WinGet-Run
 
 You'll want to try out some packages before you deliver them to your endpoints. Use winget.run to

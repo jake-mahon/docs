@@ -1,3 +1,8 @@
+---
+title: "Software Package Manager + Deploying Applications via WinGet"
+description: "Software Package Manager + Deploying Applications via WinGet"
+sidebar_position: 10
+---
 # Software Package Manager + Deploying Applications via WinGet
 
 WinGet is built into Windows. But how do you mass deploy applications and keep them updated? With
