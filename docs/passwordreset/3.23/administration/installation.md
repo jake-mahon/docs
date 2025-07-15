@@ -38,12 +38,15 @@ the credentials are valid.
 
 ![installing_apr](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
 
-**NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
+:::note
+Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
 it. See the
 [Working with the Database](/docs/passwordreset/3.23/administration/working_with_the_database.md)
 topic for additional information.
+:::
+
 
 ## Installation Types
 
@@ -60,9 +63,12 @@ the two servers to communicate.
 
 You choose the installation type when installing Password Reset, but you can change it later.
 
-**NOTE:** An Password Reset Server can accept requests from more than one Web Interface. Having
+:::note
+An Password Reset Server can accept requests from more than one Web Interface. Having
 multiple Web Interfaces allows for load balancing and failover, but you should only consider this
 option if you already have redundant web servers. Most organizations only need one Web Interface.
+:::
+
 
 Password Reset can share server resources with other applications. It is normally not necessary to
 dedicate a server exclusively to Password Reset. The Web Interface can be installed on an existing
@@ -90,26 +96,35 @@ then click **Next** if you accept all the terms.
 **Step 7 –** Enter a **User Name**, **Domain**, and **Password** for the Password Reset service
 account. The account will be created and added to the Domain Admins group if it does not exist.
 
-**NOTE:** You can remove the account from the Domain Admins group later. If using an existing
+:::note
+You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
 [Securing Password Reset](/docs/passwordreset/3.23/administration/securing_password_reset.md)
 topic for additional information.
+:::
+
 
 **Step 8 –** Click **Next**.
 
 **Step 9 –** Select an **IIS Web Site** from the drop-down list, and optionally change the default
 **Virtual Directory** for the Web Interface.
 
-**NOTE:** The Web Interface should be installed in its own virtual directory.
+:::note
+The Web Interface should be installed in its own virtual directory.
+:::
+
 
 **Step 10 –** Click **Next** twice.
 
 **Step 11 –** Wait for Password Reset to install, and then click **Finish**.
 
-**NOTE:** The Password Reset Setup wizard installs the Password Reset Server and associated files
+:::note
+The Password Reset Setup wizard installs the Password Reset Server and associated files
 into the `\Program Files\ANIXIS Password Reset\` folder by default. Use the SERVERDIR parameter to
 install the Password Reset Server to a different folder. For example, APR323.exe
 SERVERDIR="D:\Programs\APR\"
+:::
+
 
 ### Multiple Server Installation
 
@@ -154,23 +169,29 @@ then click **Next** if you accept all the terms.
 **Step 6 –** Type a **User Name**, **Domain**, and **Password** for the Password Reset service
 account. The account will be created and added to the Domain Admins group if it does not exist.
 
-**NOTE:** You can remove the account from the Domain Admins group later. If using an existing
+:::note
+You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
 [Securing Password Reset](/docs/passwordreset/3.23/administration/securing_password_reset.md)
 topic for additional information.
+:::
+
 
 **Step 7 –** Make sure the **Create Windows Firewall Exception for the APR Server service** check
 box is selected, and then click **Next** twice.
 
 **Step 8 –** Wait for the Password Reset Server to install, and then click **Finish**.
 
-**NOTE:** Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
+:::note
+Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
 than the Windows Firewall is installed. This is needed in addition to the DMZ firewall rules
 above.  
 The Password Reset Setup wizard installs the Password Reset Server and associated files into the
 `\Program Files\ANIXIS Password Reset\` folder by default. Use the SERVERDIR parameter to install
 the Password Reset Server to a different folder. For example, APR323.exe
 SERVERDIR="D:\Programs\APR\"
+:::
+
 
 Install Web Interface Server in DMZ
 
@@ -247,9 +268,12 @@ topic for additional information.
 Interface files before upgrading**. The Web Interface files are installed in the
 `\Inetpub\wwwroot\pwreset\` folder by default.
 
-**NOTE:** A full backup of the APR server(s) is recommended. This allows you to roll back to the
+:::note
+A full backup of the APR server(s) is recommended. This allows you to roll back to the
 previous version if the upgrade cannot be completed.  
 You may need to restart Windows after upgrading.
+:::
+
 
 If Password Reset was originally installed by someone else and you do not have their installation
 notes, then read this Installation topic before you begin. Also make sure you know the password for
@@ -283,7 +307,8 @@ the
 [Editing the HTML Templates](/docs/passwordreset/3.23/administration/editing_the_html_templates.md)
 topic for additional information.
 
-**CAUTION:** APR V3.23 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade PPE
+:::warning
+APR V3.23 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade PPE
 to a compatible version if you have enabled Password Policy Enforcer integration. See the
 [Configuring Password Reset](/docs/passwordreset/3.23/administration/configuring_password_reset.md)
 topic for additional information.  
@@ -297,6 +322,8 @@ the Password Reset Client on Windows XP and Server 2003. Send an e-mail to
 [support@netwrix.com ](mailto:support@anixis.com)before upgrading if you still have computers
 running Internet Explorer 8.  
 APR V3.23 server components have not been tested on, and are not supported on Windows 2003.
+:::
+
 
 ### Before You Begin
 

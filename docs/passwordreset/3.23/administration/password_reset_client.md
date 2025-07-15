@@ -12,7 +12,10 @@ Reset system.
 
 ![the_password_reset_client](/img/product_docs/passwordreset/3.23/administration/the_password_reset_client.webp)
 
-**NOTE:** The Password Reset Client does not modify any Windows system files.
+:::note
+The Password Reset Client does not modify any Windows system files.
+:::
+
 
 ## Installing the PRC
 
@@ -50,8 +53,11 @@ access to authorized personnel only.
 
 **Step 4 –** Copy APRClt323.msi into the distribution point folder.
 
-**NOTE:** APRClt323.msi is in the Client folder below the APR Server's installation folder.
+:::note
+APRClt323.msi is in the Client folder below the APR Server's installation folder.
 (`\Program Files\ANIXIS Password Reset\` by default).
+:::
+
 
 **Step 5 –** Give the Domain Computers security group read access to the APRClt323.msi file in the
 distribution point.
@@ -81,8 +87,11 @@ the left pane.
 
 **Step 4 –** Enter the full UNC path to APRClt323.msi in the Open dialog box.
 
-**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+:::note
+You must enter a UNC path so that other computers can access this file over the network.
 For example, \\file server\distributionpointshare\APRClt323.msi
+:::
+
 
 **Step 5 –** Click **Open**.
 
@@ -95,11 +104,14 @@ For example, \\file server\distributionpointshare\APRClt323.msi
 Restart each computer to complete the installation. Windows installs the Password Reset Client
 during startup. The computer may restart itself automatically to complete the installation.
 
-**NOTE:** Computers with Fast Logon Optimization enabled may not install the Password Reset Client
+:::note
+Computers with Fast Logon Optimization enabled may not install the Password Reset Client
 during the first restart. These computers perform a background refresh of Group Policy, and will
 install the client on the first restart after the refresh. Microsoft article
 [305293](http://support.microsoft.com/kb/305293) has more information about the Fast Logon
 Optimization feature.
+:::
+
 
 ## Configuring the PRC
 
@@ -156,12 +168,18 @@ Management Editor.
 
 **Step 6 –** Enter the desired **Width** and **Height** of the PRC browser window.
 
-**NOTE:** Set the Width and Height to 0 to have the PRC calculate an appropriate size.
+:::note
+Set the Width and Height to 0 to have the PRC calculate an appropriate size.
+:::
+
 
 **Step 7 –** Enter the **Start address** (URL) of the Password Reset system. The URL should point to
 the Password Reset menu or reset page.
 
-**NOTE:** See the **Help** box for more information.
+:::note
+See the **Help** box for more information.
+:::
+
 
 **Step 8 –** Enter a **Restricted path** (URL) to stop users from following links to other sites
 from the Password Reset Client browser.
@@ -181,18 +199,24 @@ ActiveX controls and Java applets. Send an e-mail to
 [support@netwrix.com ](mailto:support@anixis.com)if you need to change the default filename and
 content restrictions.
 
-**CAUTION:** Users may follow links to untrusted sites if the Password Reset user interface or
+:::warning
+Users may follow links to untrusted sites if the Password Reset user interface or
 server error pages contain external links. This is a security risk because the Password Reset Client
 runs under the context of the local system account. Specify a restricted path to stop users from
 following links to other sites from the Password Reset Client. The start address and restricted path
 should both begin with https://
+:::
 
-**NOTE:** The **Enable Password Reset Client**, **Always show reset link**, and **Dialog attachment
+
+:::note
+The **Enable Password Reset Client**, **Always show reset link**, and **Dialog attachment
 delay** are automatically set by the Password Reset Client, and are normally left in their default
 (Not configured) state.  
 The administrative template contains detailed information about all the PRC configuration settings.
 This information is shown on the **Help** box. The **Help** box is shown after you double-click one
 of the configuration settings in the right pane.
+:::
+
 
 ## Licensing the PRC
 

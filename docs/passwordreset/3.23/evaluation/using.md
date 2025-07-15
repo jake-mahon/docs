@@ -24,6 +24,4 @@ Reset Configuration Console if you have installed and configured Password Policy
 Password Policy Enforcer Evaluator's Guide will help you to install and configure Password Policy
 Enforcer if you are not currently using it.
 
-An Password Reset license does not include a Password Policy Enforcer license. See
-[Administration](/docs/passwordreset/3.23/password_policy_enforcer/administration/administration_overview.md)
-in Password Policy Enforcer topic for additional information.
+An Password Reset license does not include a Password Policy Enforcer license. 
