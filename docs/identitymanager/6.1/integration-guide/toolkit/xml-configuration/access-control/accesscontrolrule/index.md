@@ -36,9 +36,12 @@ script in the command line.
 AccessControlEntry grants or denies a permission to a user. Access Control Entries are part of an
 Access Control Rule that defines the users scope of responsibility in the Usercube UI/Workflows.
 
-**NOTE:** If your configuration contains an access control entry with `Permission="/"` and
+:::note
+If your configuration contains an access control entry with `Permission="/"` and
 `CanExecute="true"` then an error will occur during the configuration deployment, as a profile
 should not possess such a big permission.
+:::
+
 
 ### Properties
 
@@ -59,8 +62,11 @@ An access control filter restricts the application of the access control rule to
 the data set. The rule will give the specified permissions to the profile only on the parts of the
 rule's data set for which the filter's condition is met.
 
-_Remember,_ the ViewHistory permission (/Custom/Resources/Entity_Type/ViewHistory) does not work if
+:::tip
+Remember, the ViewHistory permission (/Custom/Resources/Entity_Type/ViewHistory) does not work if
 a filter is added.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

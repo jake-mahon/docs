@@ -78,7 +78,8 @@ section.
 - **Deny this Profile**: Option that forbids the profile assignment instead of applying it.
 - **Start Date** and **End Date**: Particularly useful for profile delegation.
 
-**NOTE:** If filters are defined in the Access Rules, and are assigned to the profile, a
+:::note
+If filters are defined in the Access Rules, and are assigned to the profile, a
 **Criteria** section will appear containing them. Filters are conditions that, if met, trigger the
 Access Control Rule Application.  
 The only filters which can be displayed in this section are filters related to dimensions or hard
@@ -87,6 +88,8 @@ The filters are defined in the XML configuration on the access control rules. Th
 are a fusion of the filters of all the rules associated with the profile. See the
 [AccessControlRule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 topic for additional information.
+:::
+
 
 Automatic assignment
 
@@ -101,9 +104,12 @@ topic for additional information.
 
 Click on **Launch** to apply these profile rules.
 
-**NOTE:** Profile rules can also be applied through the same button on the **Profiles** page, by
+:::note
+Profile rules can also be applied through the same button on the **Profiles** page, by
 clicking on **Settings** in the **Configuration** section, then on **General** > **Profiles** in the
 left menu.
+:::
+
 
 ## Delegate a Profile
 

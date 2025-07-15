@@ -86,7 +86,8 @@ To improve execution time, two optimizations are used:
   [Upward Data Synchronization](/docs/identitymanager/6.1/integration-guide/synchronization/upward-data-sync/index.md)
   topic for additional information.
 
-**NOTE:** For very few edge cases, dependencies between resource values can be difficult to identify
+:::note
+For very few edge cases, dependencies between resource values can be difficult to identify
 within Usercube. An example involves entity property expressions using
 [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) syntax. See
 the
@@ -96,6 +97,8 @@ defines a dependency. But Usercube does not account for it, because of performan
 trade-offs. That means a resource `R1`, using such an expression to compute one of its properties
 values from another resource `R2` property value, might not be updated even if `R2` has been updated
 by incremental synchronization. This too can be fixed by using complete synchronization once a day.
+:::
+
 
 **Step 2 –** **Compute expected assignments**
 
@@ -181,10 +184,13 @@ Then automation rules are enforced on assigned composite roles. See the
 [Automation Rule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 topic for additional information.
 
-**NOTE:** Enforcing automation rules on an assignment means to find, for each assignment, the
+:::note
+Enforcing automation rules on an assignment means to find, for each assignment, the
 matching automation rule, looking at the last review or the creation date, comparing it to the time
 defined in the rule and, if needed, apply the rule decision that may approve or decline the
 assignment.
+:::
+
 
 Enforcing single role rules
 
@@ -457,8 +463,11 @@ Differences are displayed in the following screens:
 - **Redundant Assignments** displays `Approved` assigned roles and assigned resource types tagged as
   eligible to be turned into `Calculated`.
 
-_Remember,_ **Role Review** is a little bit different as it displays manually requested assignments
+:::tip
+Remember, **Role Review** is a little bit different as it displays manually requested assignments
 waiting for manual approval.
+:::
+
 
 ### A target value to update
 

@@ -167,9 +167,12 @@ The following example includes in certification campaigns only the resources tha
 
 ```
 
-**Note:** must be configured together with the other `ResourceCertificationComparison` properties.
+:::note
+must be configured together with the other `ResourceCertificationComparison` properties.
 **Note:** when not specified, certification items are defined by `ResourcesStartBinding` and
 `ResourcesStartBinding`.
+:::
+
 
 ## Properties
 

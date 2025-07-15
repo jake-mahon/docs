@@ -40,16 +40,22 @@ When extracting UsercubeBootstrap to the root of the computer, it looks like:
 
 **Step 5 –** Create a Sources folder in UsercubeBootstrap.
 
-_Remember,_ if you don't have the UsercubeBootstrap folder or if you don't create the Sources
+:::tip
+Remember, if you don't have the UsercubeBootstrap folder or if you don't create the Sources
 folder, the Path in the Directory connection in the Runtime/appsettings.agent.json must be adapted.
 Note that you don't need to have a Directory.xlsx file at the location described by this Path for
 now.
+:::
+
 
 **Step 6 –** Create a database named Usercube, using the default options.
 
-**NOTE:** When using a database server other than Microsoft SQL Server or a different database name,
+:::note
+When using a database server other than Microsoft SQL Server or a different database name,
 remember to change the connection string accordingly, in the Runtime/appsettings.json file and in
 the future command lines.
+:::
+
 
 **Step 7 –** Execute the Runtime/identitymanager.sql file in the database.
 

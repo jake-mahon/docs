@@ -66,7 +66,10 @@ appsettings.agent.json
 }
 ```
 
-**NOTE:** The identifier of the connection and thus the name of the subsection must:
+:::note
+The identifier of the connection and thus the name of the subsection must:
+:::
+
 
 - be unique
 - not begin with a digit
@@ -155,8 +158,11 @@ FulfillInternalWorkflow.json
 
 ```
 
-_Remember,_ as workflows' aspects are computed during the fulfill process, all the required
+:::tip
+Remember, as workflows' aspects are computed during the fulfill process, all the required
 properties must be present in the provisioning order and in this JSON file.
+:::
+
 
 Setting attributes
 

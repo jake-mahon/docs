@@ -41,7 +41,10 @@ There are distinct types of automation rules:
     `PolicyAutomationRule` is equivalent to `AutomationRule` with its `Type` set to `Policy`, and
     requires specifying the `Policy` and `EntityType` properties.
 
-_Remember,_ Netwrix recommends always using the typed syntax.
+:::tip
+Remember, Netwrix recommends always using the typed syntax.
+:::
+
 
 For example, you should always use `SingleRoleAutomationRule`, rather than `AutomationRule` with
 `Type` set to `CompositeRole`.

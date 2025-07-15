@@ -81,8 +81,11 @@ will be applied.
 - Workflow State — Workflow state of the assignments that need a decision.
 - Waiting Period — Time period since the last change in the assignments' workflow states.
 
-_Remember,_ in a nutshell, this rule applies Decision to all assignments of Type (and matching all
+:::tip
+Remember, in a nutshell, this rule applies Decision to all assignments of Type (and matching all
 criteria), whose workflow state has been set to Workflow State for more than Waiting Period.
+:::
+
 
 ## Impact of Modifications
 

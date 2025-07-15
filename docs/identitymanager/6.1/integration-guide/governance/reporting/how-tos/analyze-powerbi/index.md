@@ -41,8 +41,11 @@ Integrators need to know:
   etc. from both Usercube-hard-coded and customized parts
 - what data needs to be displayed in the end
 
-**NOTE:** Power BI is able to analyze all Usercube's data, hard-coded and customized, but only
+:::note
+Power BI is able to analyze all Usercube's data, hard-coded and customized, but only
 current data, i.e. nothing from the history.
+:::
+
 
 ## Analyze Usercube's Data with Power BI
 
@@ -51,7 +54,8 @@ Build the universe model by proceeding as follows:
 **Step 1 –** Define the appropriate universes using scaffoldings. See
 the[queries](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md)
 
-_Remember,_ in order to understand business intelligence, with its universes, entity instances and
+:::tip
+Remember, in order to understand business intelligence, with its universes, entity instances and
 association instances. See
 the[Universe](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)topic
 for additional information.  
@@ -59,6 +63,8 @@ Also note that XML objects that automatically generate XML snippets that would b
 tedious to write manually. See
 the[Scaffoldings](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md)topic
 for additional information.
+:::
+
 
 Netwrix recommends creating no more than one universe to generate one report, to prevent issues
 about name uniqueness.

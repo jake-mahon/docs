@@ -73,7 +73,10 @@ If select is not specified, API will just return queried elements' Ids.
 
 Last 100 started job's instances' Ids.
 
-_Remember,_ The `Top` in the API queries had been deprecated and `PageSize`should be used instead.
+:::tip
+Remember, The `Top` in the API queries had been deprecated and `PageSize`should be used instead.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

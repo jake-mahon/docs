@@ -118,8 +118,11 @@ provisioning to ServiceNow. Then it requires the random identifier computed by S
 In this case, we want to configure the AD_Entry_AdministrationUser resource type so that a user
 cannot own an AD administrator account when they do not have an identifier in ServiceNow.
 
-**NOTE:** The DependsOnOwnerProperty of a resource type should only refer to scalar values that are
+:::note
+The DependsOnOwnerProperty of a resource type should only refer to scalar values that are
 part of the properties of the SourceEntityType.
+:::
+
 
 The following example is meant to perform an automatic check to prevent the execution of any
 provisioning order for the creation of an AD administrator account when the user does not have an
@@ -174,14 +177,20 @@ data is changed, the scalar rule computes a new value for sn. There are two opti
 
     ![Example - State 3](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
 
-    **NOTE:** No change in the source data can affect the property's value. However, any manual
+    :::note
+    No change in the source data can affect the property's value. However, any manual
     change made in the managed system will trigger a non-conforming assignment. Then, reconciling
     the property by choosing to keep Usercube's suggested value will make the property's value go
     back to Calculated and thus follow the changes in the source data.
+    :::
 
-    **NOTE:** If DiscardManualAssignments is changed from False to True, then the state of the
+
+    :::note
+    If DiscardManualAssignments is changed from False to True, then the state of the
     property's value does not matter. Usercube applies the rules of the role model, and generates a
     provisioning order to overwrite the manual change White with the newly computed value Black.
+    :::
+
 
     ![Example - State 4](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
 
@@ -326,8 +335,11 @@ resources regardless of the attributes of source resources.
 A navigation rule is defined by the child element `<NavigationRule>` of the `<ResourceType>`
 element.
 
-**NOTE:** Both navigation and query rules compute navigation properties. The value of one navigation
+:::note
+Both navigation and query rules compute navigation properties. The value of one navigation
 property should be computed by either navigation or query rules, not both.
+:::
+
 
 See the
 [Compute a Navigation Property](/docs/identitymanager/6.1/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md)
@@ -611,8 +623,11 @@ resources are to be provisioned, i.e. written to the managed system.
 
 A resource type rule is defined by the child element `<TypeRule>` of the `<ResourceType>` element.
 
-**NOTE:** The specification of several resource type rules for one resource type implies the union
+:::note
+The specification of several resource type rules for one resource type implies the union
 of all rules, i.e. the combination of all rules (and all sets of criteria) with an OR operator.
+:::
+
 
 ### Examples
 
