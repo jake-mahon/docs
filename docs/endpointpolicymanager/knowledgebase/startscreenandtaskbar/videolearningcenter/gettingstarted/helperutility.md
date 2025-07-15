@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility"
+description: "Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility"
+sidebar_position: 10
+---
 # Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WD4OaEoM6KQ" title="Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

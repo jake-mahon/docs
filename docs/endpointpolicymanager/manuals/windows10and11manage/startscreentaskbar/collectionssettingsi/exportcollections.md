@@ -20,7 +20,7 @@ Screen & Taskbar Manager.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with Endpoint Policy
 Manager Start Screen & Taskbar Manager, see
-[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/startscreentaskbar/nondomainjoined.md).
+[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/methods/nondomainjoined.md).
 
 To export a policy for later use with Endpoint Policy Manager Exporter or Endpoint Policy Manager
 Cloud, right-click the Start Screen Manager node, or a collection, and select "Export Collections as

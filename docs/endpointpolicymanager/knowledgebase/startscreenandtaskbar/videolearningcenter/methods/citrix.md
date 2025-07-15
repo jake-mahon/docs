@@ -1,3 +1,8 @@
+---
+title: "PP Start Screen and Taskbar manager with Citrix XenApp and XenDesktop"
+description: "PP Start Screen and Taskbar manager with Citrix XenApp and XenDesktop"
+sidebar_position: 40
+---
 # PP Start Screen and Taskbar manager with Citrix XenApp and XenDesktop
 
 Got icons from Citrix, and want to dynamically get them onto your REAL and VIRTUAL desktop Start

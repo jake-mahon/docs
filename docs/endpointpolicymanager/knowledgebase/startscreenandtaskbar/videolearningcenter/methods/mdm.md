@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 Start Screen & Taskbar with your MDM service (Basics with MDM)"
+description: "Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 Start Screen & Taskbar with your MDM service (Basics with MDM)"
+sidebar_position: 20
+---
 # Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 Start Screen & Taskbar with your MDM service (Basics with MDM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2PJdBeDKdFg" title="Endpoint Policy Manager MDM: Manage the Windows 10 Start Screen Like a Boss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

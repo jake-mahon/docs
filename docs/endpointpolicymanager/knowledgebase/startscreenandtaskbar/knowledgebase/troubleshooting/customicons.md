@@ -17,7 +17,7 @@ a manifest file which overrides the ability for Endpoint Policy Manager Start Sc
 Manager to deliver the icon as expected.
 
 Watch this video first:
-[Endpoint Policy Manager Start Screen Manager and Special Custom Icons](/docs/endpointpolicymanager/video/startscreentaskbar/customicons.md).
+[Endpoint Policy Manager Start Screen Manager and Special Custom Icons](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/troubleshooting/customicons.md).
 
 ## Problem 2: You are attempting to use UNC paths for icons
 

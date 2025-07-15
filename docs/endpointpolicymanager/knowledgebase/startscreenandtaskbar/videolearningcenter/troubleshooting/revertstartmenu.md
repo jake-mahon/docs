@@ -1,3 +1,8 @@
+---
+title: "Using PP SCRIPTS to Revert Start Menu"
+description: "Using PP SCRIPTS to Revert Start Menu"
+sidebar_position: 20
+---
 # Using PP SCRIPTS to Revert Start Menu
 
 If your Start Menu is a little unhappy, use these scripts to make it right.

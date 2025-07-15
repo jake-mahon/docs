@@ -1,3 +1,8 @@
+---
+title: "Taking Control of Your Taskbar and Start Menu with Endpoint Policy Manager and PDQ Deploy"
+description: "Taking Control of Your Taskbar and Start Menu with Endpoint Policy Manager and PDQ Deploy"
+sidebar_position: 50
+---
 # Taking Control of Your Taskbar and Start Menu with Endpoint Policy Manager and PDQ Deploy
 
 When you use PDQ Deploy to get your apps "out there", then how can you automatically and nicely
