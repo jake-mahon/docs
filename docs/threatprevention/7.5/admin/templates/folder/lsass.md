@@ -8,7 +8,8 @@ sidebar_position: 80
 
 The **Templates** > **Microsoft** > **LSASS** folder contains the following templates:
 
-| Template                 | Description                                                                                 | TAGS |
-| ------------------------ | ------------------------------------------------------------------------------------------- | ---- |
+| Template          | Description        | TAGS |
+| ----------- | ------------------- | ---- |
 | LSASS Guardian - Monitor | No customizations required. Detects attempts by other processes to alter the LSASS process  | None |
 | LSASS Guardian - Protect | No customizations required. Prevents attempts by other processes to alter the LSASS process | None |
+

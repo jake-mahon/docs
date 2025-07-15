@@ -9,5 +9,5 @@ sidebar_position: 45
 The **Templates** > **Microsoft** > **DNS** folder contains the following template:
 
 | Template           | Description                | TAGS |
-| ------------------ | -------------------------- | ---- |
+| ------------------ | ------------- | ---- |
 | DNS Record Changes | No customizations required | None |
