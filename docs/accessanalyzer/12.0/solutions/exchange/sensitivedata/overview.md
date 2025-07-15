@@ -13,7 +13,10 @@ and public folders in the Exchange environment.
 
 The following comprise the 7. Sensitive Data job group:
 
-**NOTE:** These jobs are compatible with the Office 365 environment.
+:::note
+These jobs are compatible with the Office 365 environment.
+:::
+
 
 - [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/collection/overview.md) – Locates sensitive data found in mailboxes and
   public folders in the Exchange environment

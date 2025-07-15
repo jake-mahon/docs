@@ -1,3 +1,9 @@
+---
+title: "Set-Object"
+description: "Set-Object"
+sidebar_position: 50
+---
+
 # Set-Object
 
 The **Set-Object** commandlet modifies any object such as a user, contact, group (managed or
@@ -57,4 +63,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

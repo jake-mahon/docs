@@ -1,3 +1,9 @@
+---
+title: "EX_Mailflow_OrgOverview Job"
+description: "EX_Mailflow_OrgOverview Job"
+sidebar_position: 50
+---
+
 # EX_Mailflow_OrgOverview Job
 
 The EX_Mailflow_OrgOverview job provides information around overall traffic in the organization.
@@ -33,7 +39,7 @@ The following analysis task is selected by default:
     - By default, data for 30 days is displayed. This number of days can be modified by a parameter.
       See the [Parameter Configuration](#parameter-configuration) topic for additional information.
     - Alternatively, the `@Days` parameter can be modified in the SQL Script Editor. See the
-      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 
 In addition to the tables and views created by the analysis task, the EX_Mailflow_OrgOverview job

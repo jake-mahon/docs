@@ -20,7 +20,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 These are dependent upon the total number of daily events sent to Threat Manager. It is suggested to
 use the total events for a peak day of the week, by activity.
@@ -60,7 +60,7 @@ Minimum hardware requirements:
 
 - 150 GB Disk Space
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the application server:
 
@@ -70,7 +70,7 @@ The following are additional requirements for the application server:
 - VC++ redist v14.28.29914
 - Python v3.10.8x64
 
-Additional Considerations when Database is on the Application Server
+**Additional Considerations when Database is on the Application Server**
 
 The following considerations must be accommodated for:
 
@@ -81,7 +81,7 @@ The following considerations must be accommodated for:
 - Disk Defragmentation jobs should never be performed on the drive containing Threat Manager
   PostgreSQL database. This can cause operational issues with the PostgreSQL database.
 
-Permissions for Installation and Application Use
+**Permissions for Installation and Application Use**
 
 The following permissions are required to install and use the application:
 

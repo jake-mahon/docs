@@ -1,3 +1,9 @@
+---
+title: "Permissions for VMware Server Auditing"
+description: "Permissions for VMware Server Auditing"
+sidebar_position: 20
+---
+
 # Permissions for VMware Server Auditing
 
 Before you start creating a monitoring plan to audit your VMware hosts, plan for the account that

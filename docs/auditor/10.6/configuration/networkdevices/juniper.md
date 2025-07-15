@@ -1,3 +1,9 @@
+---
+title: "Configure Juniper Devices"
+description: "Configure Juniper Devices"
+sidebar_position: 80
+---
+
 # Configure Juniper Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

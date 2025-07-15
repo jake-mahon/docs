@@ -14,7 +14,7 @@ The credential used for MongoDB Server auditing can be either an Active Director
 account. Create a Connection Profile and set the following information on the User Credentials
 window.
 
-Active Directory
+**Active Directory**
 
 For an Active Directory account, set the following on the User Credentials window:
 
@@ -34,7 +34,7 @@ For an Active Directory account, set the following on the User Credentials windo
 - Password – Type the password
 - Confirm – Re-type the password
 
-SQL
+**SQL**
 
 For a SQL account, set the following on the User Credentials window:
 

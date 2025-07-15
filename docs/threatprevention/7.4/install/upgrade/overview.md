@@ -1,3 +1,9 @@
+---
+title: "Upgrade Procedure"
+description: "Upgrade Procedure"
+sidebar_position: 110
+---
+
 # Upgrade Procedure
 
 This topic provides the basic steps needed to upgrade StealthINTERCEPT 7.3.7+. For older versions,
@@ -14,7 +20,7 @@ Templates?” Click **Yes** to import or **No** to skip. See the
 topic for instructions on importing these templates if you selected **No** during the upgrade
 process.
 
-See the [What's New](/docs/threatprevention/7.4/whatsnew.md) topic for
+See the [What's New](/docs/threatprevention/7.4/overview/whatsnew.md) topic for
 details on new and improved features included with each release.
 
 ## Considerations
@@ -29,7 +35,7 @@ upgrade.
 
 For NAS file system monitoring, Threat Prevention works in conjunction with the Activity Monitor.
 Hence, the agent versions for the two products must be compatible. See the
-[NAS Device Support](/docs/threatprevention/7.4/requirements/agentnas.md)
+[NAS Device Support](/docs/threatprevention/7.4/requirements/agent/agentnas.md)
 topic for information on version compatibility.
 
 ## Infrastructure Upgrade Procedure for 7.4.x to 7.4.x

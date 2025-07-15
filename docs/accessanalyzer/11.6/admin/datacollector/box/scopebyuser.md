@@ -1,3 +1,9 @@
+---
+title: "Box: Scope by User Page"
+description: "Box: Scope by User Page"
+sidebar_position: 40
+---
+
 # Box: Scope by User Page
 
 The User Scope Settings page (ScopeByUserPage) is where the scope of the scan can be limited to

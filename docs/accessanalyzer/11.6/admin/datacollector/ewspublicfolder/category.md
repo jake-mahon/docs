@@ -1,3 +1,9 @@
+---
+title: "EWSPublicFolder: Category"
+description: "EWSPublicFolder: Category"
+sidebar_position: 10
+---
+
 # EWSPublicFolder: Category
 
 The Category page contains the following Exchange Web Service categories to search:

@@ -1,3 +1,9 @@
+---
+title: "INIFile: Properties"
+description: "INIFile: Properties"
+sidebar_position: 20
+---
+
 # INIFile: Properties
 
 The Properties page identifies data about the INI file for auditing.

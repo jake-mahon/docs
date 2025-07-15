@@ -1,3 +1,9 @@
+---
+title: "Audit Configuration Assistant"
+description: "Audit Configuration Assistant"
+sidebar_position: 10
+---
+
 # Audit Configuration Assistant
 
 Auditor **Audit Configuration Assistant** utility helps you to assess your environment readiness to

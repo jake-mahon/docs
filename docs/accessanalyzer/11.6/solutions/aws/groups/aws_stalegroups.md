@@ -1,3 +1,9 @@
+---
+title: "AWS_StaleGroups Job"
+description: "AWS_StaleGroups Job"
+sidebar_position: 30
+---
+
 # AWS_StaleGroups Job
 
 The AWS_StaleGroups job highlights groups that have members that are considered stale. The
@@ -51,7 +57,7 @@ The default values for parameters that can be customized are:
 | Stale Group Details | @StaleThreshold             | 60            | Days without login to consider an account stale |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleGroups Job

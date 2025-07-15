@@ -1,3 +1,9 @@
+---
+title: "File Types > FS_FileTypes Job"
+description: "File Types > FS_FileTypes Job"
+sidebar_position: 10
+---
+
 # File Types > FS_FileTypes Job
 
 The FS_FileTypes job is designed to report on file type information from targeted file servers.

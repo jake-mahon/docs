@@ -1,3 +1,9 @@
+---
+title: "2-SQL_SensitiveDataScan Job"
+description: "2-SQL_SensitiveDataScan Job"
+sidebar_position: 30
+---
+
 # 2-SQL_SensitiveDataScan Job
 
 The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and

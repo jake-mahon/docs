@@ -1,3 +1,9 @@
+---
+title: "Group Details"
+description: "Group Details"
+sidebar_position: 70
+---
+
 # Group Details
 
 Use Groups Details page to edit selected group attributes.

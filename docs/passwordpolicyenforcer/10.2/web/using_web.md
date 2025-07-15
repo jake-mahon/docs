@@ -1,3 +1,9 @@
+---
+title: "Using Password Policy Enforcer Web"
+description: "Using Password Policy Enforcer Web"
+sidebar_position: 30
+---
+
 # Using Password Policy Enforcer Web
 
 The default URL for Password Policy Enforcer/Web is: `http://[server]/ppeweb/`

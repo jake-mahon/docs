@@ -1,3 +1,9 @@
+---
+title: "File: Results"
+description: "File: Results"
+sidebar_position: 30
+---
+
 # File: Results
 
 The Results page provides a list of available properties to be searched for and returned by the job

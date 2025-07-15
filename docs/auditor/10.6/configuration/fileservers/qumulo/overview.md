@@ -1,3 +1,9 @@
+---
+title: "Qumulo"
+description: "Qumulo"
+sidebar_position: 50
+---
+
 # Qumulo
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

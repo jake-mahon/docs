@@ -1,3 +1,9 @@
+---
+title: "Public Folder: Operations"
+description: "Public Folder: Operations"
+sidebar_position: 50
+---
+
 # Public Folder: Operations
 
 Use the Operations page to specify the operations to perform as part of the action.

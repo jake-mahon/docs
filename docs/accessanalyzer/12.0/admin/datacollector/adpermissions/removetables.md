@@ -11,7 +11,10 @@ issue, create a new job using it as the query source and select the Remove Table
 Connection Profile applied should be the same as the one used for the associated **Active Directory
 Permissions Analyzer** > **0.Collection** Job. Follow the steps.
 
-**CAUTION:** Using this query task results in the deletion of collected data.
+:::warning
+Using this query task results in the deletion of collected data.
+:::
+
 
 **Step 1 –** Create a new job and assign a query using the **ADPermissions** Data Collector.
 
@@ -27,8 +30,14 @@ the **Remove Tables** category and click **Next**.
 When the job is run, all of the ADPermissions standard reference tables are removed from the
 database.
 
-_Remember,_ this job deletes data from the Access Analyzer database. Ensure the job has been
+:::tip
+Remember, this job deletes data from the Access Analyzer database. Ensure the job has been
 configured correctly prior to executing the job.
+:::
 
-**CAUTION:** Never leave the query task selected after the job has been executed. Accidental data
+
+:::warning
+Never leave the query task selected after the job has been executed. Accidental data
 loss can occur.
+
+:::

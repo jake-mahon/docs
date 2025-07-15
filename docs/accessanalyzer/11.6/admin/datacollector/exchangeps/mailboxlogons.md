@@ -1,3 +1,9 @@
+---
+title: "ExchangePS: Mailbox Logons"
+description: "ExchangePS: Mailbox Logons"
+sidebar_position: 80
+---
+
 # ExchangePS: Mailbox Logons
 
 The Mailbox Logons page is used to define the type of mailbox logon events to return, as well as the

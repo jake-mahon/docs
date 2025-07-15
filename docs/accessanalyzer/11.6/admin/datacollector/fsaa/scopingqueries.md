@@ -1,3 +1,9 @@
+---
+title: "FSAA: Scoping Queries"
+description: "FSAA: Scoping Queries"
+sidebar_position: 100
+---
+
 # FSAA: Scoping Queries
 
 Use the Scoping Queries page to query the SQL database and return exclude and include resources from

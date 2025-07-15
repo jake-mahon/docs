@@ -1,3 +1,9 @@
+---
+title: "Collection > PF_ContentScans Job"
+description: "Collection > PF_ContentScans Job"
+sidebar_position: 10
+---
+
 # Collection > PF_ContentScans Job
 
 The PF_ContentScans job is comprised of data collection that focuses on public folder content aging

@@ -1,3 +1,9 @@
+---
+title: "Set-SmtpServer"
+description: "Set-SmtpServer"
+sidebar_position: 200
+---
+
 # Set-SmtpServer
 
 The **Set-SmtpServer** commandlet configures an SMTP server for an identity store.
@@ -49,4 +55,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

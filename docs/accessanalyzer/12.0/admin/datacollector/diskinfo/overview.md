@@ -11,17 +11,17 @@ targeting the local host for a DiskInfo query, it is necessary to select the **S
 option as the connection profile. This data collector is a core component of Access Analyzer and is
 available with all Access Analyzer licenses.
 
-Protocols
+**Protocols**
 
 - RPC
 - WMI
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the local Administrators group
 

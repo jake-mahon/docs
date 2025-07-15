@@ -1,3 +1,9 @@
+---
+title: "SendMail Action: Message"
+description: "SendMail Action: Message"
+sidebar_position: 20
+---
+
 # SendMail Action: Message
 
 Use the Message page to specify the text of the email.

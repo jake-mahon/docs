@@ -1,3 +1,9 @@
+---
+title: "Clear-MessagingServer"
+description: "Clear-MessagingServer"
+sidebar_position: 10
+---
+
 # Clear-MessagingServer
 
 The commandlet **Clear-MessagingServer** removes the configured messaging server from the specified
@@ -31,4 +37,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

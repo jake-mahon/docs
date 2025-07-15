@@ -15,8 +15,11 @@ access than their normal account.
 Navigate to the **Active Directory** > **2.Users** > **AD_DuplicateUsers** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_DuplicateUsers Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/users/duplicateusersanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_DuplicateUsers Job
 produces the following pre-configured report:
 
-| Report                  | Description                                                                                                          | Default Tags | Report Elements                                                                                                                                                                           |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Duplicate User Accounts | This report identifies user accounts which may belong to a single employee, based on a variety of common attributes. | None         | This report is comprised of three elements: - Bar Chart – Displays a domain summary - Table – Provides details on matches - Table – Provides details on duplicate user accounts by domain |
+| Report                  | Description                                                                                                          | Default Tags | Report Elements                                                                                                                                                                                                       |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duplicate User Accounts | This report identifies user accounts which may belong to a single employee, based on a variety of common attributes. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays a domain summary</li><li>Table – Provides details on matches</li><li>Table – Provides details on duplicate user accounts by domain</li></ul> |
+

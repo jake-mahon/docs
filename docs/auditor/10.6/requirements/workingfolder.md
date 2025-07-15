@@ -1,3 +1,9 @@
+---
+title: "Working Folder"
+description: "Working Folder"
+sidebar_position: 70
+---
+
 # Working Folder
 
 The working folder is a file-based storage that also keeps operational information (configuration

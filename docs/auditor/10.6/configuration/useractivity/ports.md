@@ -1,3 +1,9 @@
+---
+title: "User Activity Ports"
+description: "User Activity Ports"
+sidebar_position: 10
+---
+
 # User Activity Ports
 
 Review a full list of protocols and ports required for monitoring User Activity.

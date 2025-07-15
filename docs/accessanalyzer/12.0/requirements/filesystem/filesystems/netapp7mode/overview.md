@@ -26,11 +26,14 @@ these target hosts requires these permissions. See the
 [NetApp Data ONTAP 7-Mode Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netapp7mode/access/access.md) topic for
 instructions.
 
-**NOTE:** These permissions are in addition to those needed to either deploy applet scans for
+:::note
+These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
 [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 ## Access & Sensitive Data Auditing Port Requirements
 
@@ -56,7 +59,7 @@ It is also necessary to enable the Remote Registry Service on the Activity Agent
 For integration between the Activity Monitor and Access Analyzer, the credential used by Access
 Analyzer to read the activity log files must have also have this permission.
 
-NetApp Data ONTAP 7-Mode Device Requirements
+**NetApp Data ONTAP 7-Mode Device Requirements**
 
 An FPolicy must be configured on the target device for Activity Auditing (FSAC) scans. A tailored
 FPolicy is recommended as it decreases the impact on the NetApp device. The credential associated
@@ -95,7 +98,7 @@ The credential must also have the following permissions on the target device:
 See the [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/accessanalyzer/12.0/requirements/filesystem/filesystems/netapp7mode/activity/activity.md) topic for
 instructions.
 
-Activity Monitor Archive Location
+**Activity Monitor Archive Location**
 
 If the activity log files are being archived, configurable within the Netwrix Activity Monitor
 Console, then the credential used by Access Analyzer to read the activity log files must also have
@@ -135,9 +138,12 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
+
 
 Additional Firewall Rules for Integration between Access Analyzer and Activity Monitor
 

@@ -10,16 +10,16 @@ The DNS Data Collector provides information regarding DNS configuration and reco
 with the Active Directory Solution. Both this data collector and the solution are available with a
 special Access Analyzer license.
 
-Protocols
+**Protocols**
 
 - RPC
 
-Ports
+**Ports**
 
 - TCP 135
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group
 

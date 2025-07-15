@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreations: Join Columns"
+description: "SQLViewCreations: Join Columns"
+sidebar_position: 30
+---
+
 # SQLViewCreations: Join Columns
 
 Use the Join Columns page to select a column from each source table to join together on the

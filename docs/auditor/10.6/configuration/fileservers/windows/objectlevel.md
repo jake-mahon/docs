@@ -1,3 +1,9 @@
+---
+title: "Configure Object-Level Access Auditing"
+description: "Configure Object-Level Access Auditing"
+sidebar_position: 20
+---
+
 # Configure Object-Level Access Auditing
 
 Netwrix Auditor can be configured to audit all access types, review the table below and select

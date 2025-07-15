@@ -24,8 +24,11 @@ The 0-AzureSQL_InstanceDiscovery job uses the SQL Data Collector for the followi
 Navigate to the **Databases** > **0.Collection** > **AzureSQL** > **0-AzureSQL_InstanceDiscovery** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/instancediscanalysis.webp)
 

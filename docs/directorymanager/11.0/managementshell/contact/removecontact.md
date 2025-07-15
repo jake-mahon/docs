@@ -1,3 +1,9 @@
+---
+title: "Remove-Contact"
+description: "Remove-Contact"
+sidebar_position: 30
+---
+
 # Remove-Contact
 
 Use the **Remove-Contact** cmdlet to delete a contact from the directory.
@@ -29,4 +35,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Contact Commands](/docs/directorymanager/11.0/managementshell/contact/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

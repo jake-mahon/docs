@@ -1,3 +1,9 @@
+---
+title: "Adjusting Event Log Size and Retention Settings"
+description: "Adjusting Event Log Size and Retention Settings"
+sidebar_position: 60
+---
+
 # Adjusting Event Log Size and Retention Settings
 
 Consider that if the event log size is insufficient, overwrites may occur before data is written to

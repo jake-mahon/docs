@@ -1,3 +1,9 @@
+---
+title: "FS_UnresolvedSIDs Job"
+description: "FS_UnresolvedSIDs Job"
+sidebar_position: 70
+---
+
 # FS_UnresolvedSIDs Job
 
 The FS_UnresolvedSIDs job is designed to report on unresolved SIDs that have been granted direct

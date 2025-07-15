@@ -1,3 +1,9 @@
+---
+title: "Get-Client"
+description: "Get-Client"
+sidebar_position: 50
+---
+
 # Get-Client
 
 The commandlet **Get-Client** gets information about the GroupID clients such as Admin center,
@@ -54,4 +60,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

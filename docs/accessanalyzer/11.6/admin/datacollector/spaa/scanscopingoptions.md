@@ -1,3 +1,9 @@
+---
+title: "SPAA: Scan Scoping Options"
+description: "SPAA: Scan Scoping Options"
+sidebar_position: 50
+---
+
 # SPAA: Scan Scoping Options
 
 The Scan Scoping Options page provides scoping options to specify the list of URLs to be scanned. It

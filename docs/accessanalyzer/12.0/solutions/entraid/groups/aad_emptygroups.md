@@ -14,8 +14,11 @@ candidates for consolidation or cleanup.
 Navigate to the **Jobs** > **Entra ID** > **1.Groups** > **AAD_EmptyGroups** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis tasks for AAD_EmptyGroups Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/groups/emptygroupsanalysis.webp)
 
@@ -32,7 +35,8 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_EmptyGroups Job produces the
 following pre-configured reports.
 
-| Report             | Description                                                     | Default Tags | Report Elements                                                                                                                                                                                                                        |
-| ------------------ | --------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Empty Groups       | This report identifies all groups without any members.          | None         | This report is comprised of three elements: - Bar Chart – Displays domains by number of empty groups - Table – Provides details on empty groups - Table – Provides details on number of empty groups by domain                         |
-| Single User Groups | This report identifies groups which only contain a single user. |              | This report is comprised of three elements: - Bar Chart – Displays top domains by single user group count - Table – Provides details on top domains by single user group count - Table – Provides details on single user group details |
+| Report             | Description                                                     | Default Tags | Report Elements                                                                                                                                                                                                                                                    |
+| ------------------ | --------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Empty Groups       | This report identifies all groups without any members.          | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays domains by number of empty groups</li><li>Table – Provides details on empty groups</li><li>Table – Provides details on number of empty groups by domain</li></ul>                         |
+| Single User Groups | This report identifies groups which only contain a single user. |              | This report is comprised of three elements: <ul><li>Bar Chart – Displays top domains by single user group count</li><li>Table – Provides details on top domains by single user group count</li><li>Table – Provides details on single user group details</li></ul> |
+

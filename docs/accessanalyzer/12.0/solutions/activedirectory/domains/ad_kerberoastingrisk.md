@@ -42,8 +42,11 @@ All of these parameters are disabled by default.
 Navigate to the **Active Directory** > **5.Domains** > **AD_KerberoastingRisk** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
 
@@ -61,6 +64,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_KerberoastingRisk job
 produces the following pre-configured report:
 
-| Report             | Description                                                                                                                                                                                                         | Default Tags | Report Elements                                                                                                                                                                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Kerberoasting Risk | An account is vulnerable to kerberoasting if it has an SPN assigned and one of the following is true: - RC4 or DES (or AES-128 if enabled) - Weak password exception - Trusted for delegation - Is an administrator | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays vulnerable accounts - Table – Provides a summary of accounts vulnerable to kerberoasting - Table – Provides details on the accounts vulnerabilities to kerberoasting |
+| Report             | Description                                                                                                                                                                                                                                           | Default Tags | Report Elements                                                                                                                                                                                                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kerberoasting Risk | An account is vulnerable to kerberoasting if it has an SPN assigned and one of the following is true: <ul><li>RC4 or DES (or AES-128 if enabled)</li><li>Weak password exception</li><li>Trusted for delegation</li><li>Is an administrator</li></ul> | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays vulnerable accounts</li><li>Table – Provides a summary of accounts vulnerable to kerberoasting</li><li>Table – Provides details on the accounts vulnerabilities to kerberoasting</li></ul> |
+

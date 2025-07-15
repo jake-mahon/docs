@@ -15,8 +15,11 @@ within Microsoft Entra ID which are lacking appropriate information.
 Navigate to the **Jobs** > **Entra ID** > **2.Users** > **AAD_UserAttributeCompletion** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AAD_UserAttributeCompletion Job](/img/product_docs/accessanalyzer/12.0/solutions/entraid/users/userattributecompletionanalysis.webp)
 
@@ -30,6 +33,7 @@ The default analysis tasks are:
 In addition to the tables created by the analysis tasks, the AAD_UserAttributeCompletion Job
 produces the following pre-configured report.
 
-| Report                    | Description                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                         |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| User Attribute Completion | This report identifies which attributes are present within User fields in Microsoft Entra ID, and which ones are blank for a majority of User objects. | None         | This report is comprised of three elements: - Stacked Bar Chart – Displays completeness by attribute - Table – Provides details on users with blank attributes - Tables – Provides details om completeness by attribute |
+| Report                    | Description                                                                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User Attribute Completion | This report identifies which attributes are present within User fields in Microsoft Entra ID, and which ones are blank for a majority of User objects. | None         | This report is comprised of three elements: <ul><li>Stacked Bar Chart – Displays completeness by attribute</li><li>Table – Provides details on users with blank attributes</li><li>Tables – Provides details om completeness by attribute</li></ul> |
+

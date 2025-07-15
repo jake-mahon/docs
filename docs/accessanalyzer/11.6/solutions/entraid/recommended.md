@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for Entra ID Job Group"
+description: "Recommended Configurations for Entra ID Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for Entra ID Job Group
 
 The Entra ID Solution has been configured to inherit down from the job group **Settings** node. The

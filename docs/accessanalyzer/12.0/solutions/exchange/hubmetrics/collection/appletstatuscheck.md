@@ -13,7 +13,10 @@ Exchange servers.
 
 The .AppletStatusCheck Job uses the Script Data Collector.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Queries for the .AppletStatusCheck Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/appletstatuscheckquery.webp)
 

@@ -1,3 +1,9 @@
+---
+title: "Sensitive Data Discovery"
+description: "Sensitive Data Discovery"
+sidebar_position: 70
+---
+
 # Sensitive Data Discovery
 
 Sensitive Data Discovery is an integration module between Auditor and Netwrix Data Classification.

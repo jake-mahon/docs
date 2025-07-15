@@ -1,3 +1,9 @@
+---
+title: "Data Console"
+description: "Data Console"
+sidebar_position: 40
+---
+
 # Data Console
 
 The Data Console allows you to view and export data collected by APR. Click **Start** > **ANIXIS

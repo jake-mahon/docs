@@ -1,3 +1,9 @@
+---
+title: "AD_CircularNesting Job"
+description: "AD_CircularNesting Job"
+sidebar_position: 20
+---
+
 # AD_CircularNesting Job
 
 The AD_CircularNesting Job identifies circularly nested groups within Active Directory which can

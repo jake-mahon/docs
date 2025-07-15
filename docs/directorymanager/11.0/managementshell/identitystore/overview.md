@@ -1,3 +1,9 @@
+---
+title: "Identity Store Commands"
+description: "Identity Store Commands"
+sidebar_position: 80
+---
+
 # Identity Store Commands
 
 This section covers cmdlets for performing identity store-related tasks such as:
@@ -47,4 +53,4 @@ See Also
 
 - [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

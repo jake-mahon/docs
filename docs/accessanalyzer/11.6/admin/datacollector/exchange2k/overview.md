@@ -1,3 +1,9 @@
+---
+title: "Exchange2K Data Collector"
+description: "Exchange2K Data Collector"
+sidebar_position: 160
+---
+
 # Exchange2K Data Collector
 
 The Exchange2K Data Collector extracts configuration details from Exchange organizations for

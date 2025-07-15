@@ -1,3 +1,9 @@
+---
+title: "Rolling Log File"
+description: "Rolling Log File"
+sidebar_position: 110
+---
+
 # Rolling Log File
 
 Finally, the Agent will maintain a rolling-log of its activity.

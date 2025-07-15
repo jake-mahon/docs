@@ -20,7 +20,10 @@ once this policy has been removed.
 
 The AD_CPassword Job uses the PowerShell Data Collector for the following query:
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job
+:::warning
+Do not modify the query. The query is preconfigured for this job
+:::
+
 
 ![Query for the AD_CPassword Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/cpasswordquery.webp)
 
@@ -35,6 +38,7 @@ The queries for this job are:
 In addition to the tables created by the data collector, the AD_CPassword Job produces the following
 pre-configured report:
 
-| Report                        | Description                                                                                                                  | Default Tags | Report Elements                                                                                       |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
-| Potential Plaintext Passwords | This report highlights domain contollers where this vulnerability exists, and provides the path of the XML file in question. | None         | This report is comprised of one elements: - Table – Provides details on potential plaintext passwords |
+| Report                        | Description                                                                                                                  | Default Tags | Report Elements                                                                                                       |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Potential Plaintext Passwords | This report highlights domain contollers where this vulnerability exists, and provides the path of the XML file in question. | None         | This report is comprised of one elements: <ul><li>Table – Provides details on potential plaintext passwords</li></ul> |
+

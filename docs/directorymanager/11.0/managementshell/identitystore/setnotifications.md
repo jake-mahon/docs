@@ -1,3 +1,9 @@
+---
+title: "Set-Notifications"
+description: "Set-Notifications"
+sidebar_position: 190
+---
+
 # Set-Notifications
 
 Use the **Set-Notifications** commandlet to modify the notification settings of an identity store.
@@ -51,4 +57,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

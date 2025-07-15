@@ -32,5 +32,8 @@ The maximum number of elements allowed by the correctly selected layout is speci
 the editor. Select the checkboxes next to the title of all the configured widgets you want to keep
 up to this limit, then click **OK**. Any widgets not selected will be removed from the report.
 
-**NOTE:** You can click **Cancel** to return to the layout page to select a different layout with
+:::note
+You can click **Cancel** to return to the layout page to select a different layout with
 more elements.
+
+:::

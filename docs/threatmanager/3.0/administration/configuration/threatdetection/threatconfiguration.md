@@ -20,7 +20,7 @@ The Processing tab contains the configuration options for processing the threat.
 
 ![This screenshot displays the Processing tab.](/img/product_docs/threatmanager/3.0/administration/configuration/processingtab.webp)
 
-General:
+**General:**
 
 - Status – When set to ON, this threat will be detected by Threat Manager. When set to OFF, this
   threat will not be detected by Threat Manager. When a threat status is **OFF**and then set to
@@ -45,7 +45,7 @@ General:
     - Informational – Indicates first-time client use or first-time host use, which can be common
       events but may also indicate a threat
 
-Threat Response:
+**Threat Response:**
 
 Assigning a threat response designates a playbook to automatically be executed immediately when a
 threat of this type is detected.
@@ -56,7 +56,7 @@ threat of this type is detected.
   detected. Select Off to turn off forwarding threat information to a SIEM service.
 - Run Playbook – Select the playbook that will be used to respond to the threat.
 
-Rollup:
+**Rollup:**
 
 **NOTE:** Rollup is not available for all threat types.
 

@@ -71,7 +71,10 @@ The selected user or group is now added to the table with the specified role.
 
 Follow the steps to change the role assigned to an account.
 
-**NOTE:** This action is only available for manually added accounts and not for the default account.
+:::note
+This action is only available for manually added accounts and not for the default account.
+:::
+
 
 **Step 1 –** On the Users and Roles page, click the row for an account to make it editable.
 
@@ -82,7 +85,10 @@ account.
 
 Follow the steps below to remove a user's or group's access to the Recovery Console.
 
-**NOTE:** This action is only available for manually added accounts and not for the default account.
+:::note
+This action is only available for manually added accounts and not for the default account.
+:::
+
 
 **Step 1 –** On the Users and Roles page, locate the user or group for whom to remove access.
 

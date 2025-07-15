@@ -1,3 +1,9 @@
+---
+title: "Organization Level Reports"
+description: "Organization Level Reports"
+sidebar_position: 30
+---
+
 # Organization Level Reports
 
 The following reports are available at the Organization level:

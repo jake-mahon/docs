@@ -1,3 +1,9 @@
+---
+title: "1-Dropbox_Permissions Scan Job"
+description: "1-Dropbox_Permissions Scan Job"
+sidebar_position: 10
+---
+
 # 1-Dropbox_Permissions Scan Job
 
 The 1-Dropbox_Permissions Scan job collects data from the Dropbox environment on access rights,

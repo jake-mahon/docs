@@ -21,8 +21,11 @@ Additional configuration options for enhanced security include:
   requires domain users to login each time the Web Console is accessed. See the
   [Enable Single Sign-On](/docs/accessanalyzer/12.0/install/application/reports/sso.md) topic for additional information.
 
-    **NOTE:** The Web Console also supports using Microsoft Entra ID single sign-on. See the
+    :::note
+    The Web Console also supports using Microsoft Entra ID single sign-on. See the
     [Microsoft Entra ID Single Sign-On](/docs/accessanalyzer/12.0/install/application/reports/entraidsso.md) topic for additional information.
+    :::
+
 
 These parameters can be configured within the **WebServer.exe.config** file in the Web folder of the
 Access Analyzer installation directory `…\STEALTHbits\StealthAUDIT\Web`.
@@ -35,24 +38,33 @@ necessary to bind a certificate to the port. See the
 information. Follow the steps on the server where Access Analyzer is installed to enable SSL for the
 Web Console.
 
-**NOTE:** The following steps require a certificate to be available. Organizations typically have
+:::note
+The following steps require a certificate to be available. Organizations typically have
 one or more system administrators responsible for Public Key Infrastructure (PKI) and certificates.
 To continue with this configuration it will first be necessary to confer with the PKI administrator
 to determine which certificate method will conform to the organization’s security policies.
 Optionally, see [Use a Self-Signed Certificate for SSL](#use-a-self-signed-certificate-for-ssl) for
 an Administrator PowerShell command which will both create and import a self-signed certificate.
+:::
+
 
 **Step 1 –** Import the certificate to the hosting server using the Certificate Management MMC
 snap-in.
 
-**NOTE:** If using a self-signed certificate, it will also need to be imported.
+:::note
+If using a self-signed certificate, it will also need to be imported.
+:::
+
 
 **Step 2 –** Create an SSL binding. It is necessary to use the certificate’s **Hash** value for the
 `$certHash` value:
 
-**NOTE:** The following Administrator PowerShell dir command can be run on the certificate's “drive”
+:::note
+The following Administrator PowerShell dir command can be run on the certificate's “drive”
 to find the **Hash** value of a certificate which was already created and the output will include
 the Thumbprint (**Hash**) value and the certificate name:
+:::
+
 
 ```
 dir cert:\localmachine\my
@@ -91,10 +103,13 @@ located within the Web folder of the Access Analyzer installation directory.
 **Step 6 –** Navigate to Services (`services.msc`). Restart the Netwrix Access Analyzer (formerly
 Enterprise Auditor) Web Server service.
 
-**NOTE:** If also using the AIC, then SSL needs to be enabled for the AIC using this certificate.
+:::note
+If also using the AIC, then SSL needs to be enabled for the AIC using this certificate.
 See the Securing the AIC section of the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
+:::
+
 
 The Web Console has been enabled for SSL communication. Access it using the server’s fully qualified
 domain name and the HTTPS port (`https://[hostname.domain.com]:8082`). If a self-signed certificate
@@ -110,7 +125,7 @@ URL must be updated to match the new value in the following places:
 - Access Analyzer's Reporting node (**Settings** > **Reporting**)
 - Access Analyzer's Published Reports Desktop icon properties
 
-Update the Website URL in the Reporting Node
+**Update the Website URL in the Reporting Node**
 
 Follow the steps to update the Website URL in the **Settings** > **Reporting** node.
 

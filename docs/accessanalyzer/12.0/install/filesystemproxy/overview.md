@@ -49,8 +49,11 @@ completed. Proxy scanning architecture supports large deployments or widely disp
 
 A proxy server is any server that can be leveraged to process data collection against target hosts.
 
-**CAUTION:** The File System Proxy Service cannot be installed on the same server as Access
+:::warning
+The File System Proxy Service cannot be installed on the same server as Access
 Analyzer.
+:::
+
 
 Two options are available for implementing the proxy scanning architecture:
 
@@ -116,11 +119,14 @@ possible without proxy servers. This provides a clear benefit in scalability and
 
 The proxy functionality for the FSAA Data Collector provides security and reliability.
 
-_Remember,_ It is recommended that the File System Proxy Service is installed on the proxy server
+:::tip
+Remember, It is recommended that the File System Proxy Service is installed on the proxy server
 before running File System scans in proxy mode as a service. Once installed, the FileSystemAccess
 (FSAA) Data Collector must be configured to use the service. See the
 [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/12.0/install/filesystemproxy/configuredatacollector.md) topic
 for additional information.
+:::
+
 
 ## Sensitive Data Discovery Auditing Consideration
 

@@ -14,8 +14,11 @@ file servers.
 View the analysis tasks by navigating to the **FileSystem** > **5.Activity** > **Suspicious
 Activity** > **FS_DeniedActivity** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the FS_DeniedActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/suspiciousactivity/deniedactivityanalysis.webp)
 
@@ -27,6 +30,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the FS_DeniedActivity job produces
 the following pre-configured report:
 
-| Report          | Description                                                                          | Default Tags | Report Elements                                                                                                                                        |
-| --------------- | ------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Denied Activity | This report highlights high periods of denied user activity during the past 30 days. | None         | This report is comprised of two elements: - Bar Chart – Displays top denied periods for the last 30 days - Table – Provides details on denied activity |
+| Report          | Description                                                                          | Default Tags | Report Elements                                                                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Denied Activity | This report highlights high periods of denied user activity during the past 30 days. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top denied periods for the last 30 days</li><li>Table – Provides details on denied activity</li></ul> |
+

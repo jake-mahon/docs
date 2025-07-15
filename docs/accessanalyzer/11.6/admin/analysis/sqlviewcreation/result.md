@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation: Result Type"
+description: "SQLViewCreation: Result Type"
+sidebar_position: 80
+---
+
 # SQLViewCreation: Result Type
 
 Use the Result Type page to choose a SQL database table or view for the result’s output.

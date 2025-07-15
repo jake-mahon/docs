@@ -1,3 +1,9 @@
+---
+title: "Configuration"
+description: "Configuration"
+sidebar_position: 40
+---
+
 # Configuration
 
 Click **Start** >**[All] Programs** > **PPE Web Configuration Console** to open the Password Policy

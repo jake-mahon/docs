@@ -1,3 +1,9 @@
+---
+title: "Effective Access Audits Job Group"
+description: "Effective Access Audits Job Group"
+sidebar_position: 110
+---
+
 # Effective Access Audits Job Group
 
 This group returns reports identifying specific trustees’ effective access across the entire

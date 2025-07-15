@@ -1,3 +1,9 @@
+---
+title: "Installation"
+description: "Installation"
+sidebar_position: 30
+---
+
 # Installation
 
 Threat Prevention consists of a number of components that work together to monitor activity on a

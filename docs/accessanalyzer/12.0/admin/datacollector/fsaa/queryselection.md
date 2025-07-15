@@ -33,8 +33,11 @@ auditing focus:
 
     - Scan and import – Collects Distributed File System information
 
-        **NOTE:** Starting with v8.1, DFS Audits are completed with a streaming method and do not
+        :::note
+        Starting with v8.1, DFS Audits are completed with a streaming method and do not
         require a bulk import query following the scan query.
+        :::
+
 
 - The Azure options collects Azure Files storage account information, and there is one category:
 
@@ -50,22 +53,31 @@ auditing focus:
       the remote server
     - Upgrade proxy service – Update FSAA binaries for hosts running the File System Proxy Service
 
-        **NOTE:** The Upgrade proxy service category only applies to updating a v8.0+ File System
+        :::note
+        The Upgrade proxy service category only applies to updating a v8.0+ File System
         Proxy installation to a newer version. Manual updating is necessary for v7.x File System
         Proxy installations.
+        :::
+
 
     - Remove Host Data – Removes host from all SQL tables created by the FSAA Data Collector and
       deletes StrucMap (removes host assigned to job where query exists)
 
-_Remember,_ the Sensitive Data category options require the Sensitive Data Discovery Add-On to be
+:::tip
+Remember, the Sensitive Data category options require the Sensitive Data Discovery Add-On to be
 installed on the Access Analyzer Console before the FSAA Data Collector can collect sensitive data.
+:::
+
 
 Once a query scan using the FSAA DC has been executed, the **Maintenance** button is enabled to
 allow troubleshooting of scan errors that may have occurred.
 
-**CAUTION:** Do not use the Maintenance button unless instructed by
+:::warning
+Do not use the Maintenance button unless instructed by
 [Netwrix Support](https://www.netwrix.com/support.html). It is possible to cause corruption of the
 database and loss of data to occur.
+:::
+
 
 ## Maintenance Wizard
 

@@ -1,3 +1,9 @@
+---
+title: "Sudoers Job Group"
+description: "Sudoers Job Group"
+sidebar_position: 10
+---
+
 # Sudoers Job Group
 
 The Sudoers job group provides visibility into all rights granted via sudoers within audited Unix

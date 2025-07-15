@@ -1,3 +1,9 @@
+---
+title: "Search Features"
+description: "Search Features"
+sidebar_position: 30
+---
+
 # Search Features
 
 The Search features consist of the search bar and the Recent Searches box on the home page.

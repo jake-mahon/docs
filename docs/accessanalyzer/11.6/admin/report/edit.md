@@ -1,3 +1,9 @@
+---
+title: "Editing Existing Reports"
+description: "Editing Existing Reports"
+sidebar_position: 20
+---
+
 # Editing Existing Reports
 
 It is not recommended to edit existing reports unless there are changes to a job’s settings at the

@@ -18,11 +18,14 @@ host:
 
 - Group membership in the Data-Administrators role
 
-**NOTE:** These permissions are in addition to those needed to either deploy applet scans for
+:::note
+These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
 [File System Scan Options](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/scanoptions.md)
 topic for additional information.
+:::
+
 
 ## Access & Sensitive Data Auditing Port Requirements
 
@@ -51,7 +54,7 @@ port range, which cannot be specified via an inbound rule. For more information,
 [Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
-Additional Firewall Rules for Qumulo Devices
+**Additional Firewall Rules for Qumulo Devices**
 
 The following firewall settings are required for communication between the Activity Monitor Activity
 Agent server and the target Qumulo device:

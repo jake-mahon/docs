@@ -1,3 +1,9 @@
+---
+title: "3.Permissions Job Group"
+description: "3.Permissions Job Group"
+sidebar_position: 60
+---
+
 # 3.Permissions Job Group
 
 The 3.Permissions Job Group provides insight into permissions at the instance, database, and object

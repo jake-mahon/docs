@@ -6,10 +6,6 @@ sidebar_position: 10
 
 # Moving to SQL Server
 
-Moving to SQL Server
-
-# Moving to SQL Server
-
 Some planning is needed before moving the database to SQL Server. A trial run on a lab network is
 recommended. You can run the Data Copy wizard more than once if you cannot complete the move on the
 first attempt. A move back to SQL Server Compact is also possible.

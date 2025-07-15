@@ -1,3 +1,9 @@
+---
+title: "4. Delete Job Group"
+description: "4. Delete Job Group"
+sidebar_position: 40
+---
+
 # 4. Delete Job Group
 
 The 4. Delete job group is designed to report on and take action against resources from targeted

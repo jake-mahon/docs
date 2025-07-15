@@ -1,3 +1,9 @@
+---
+title: "EX_StaleGroups Job"
+description: "EX_StaleGroups Job"
+sidebar_position: 50
+---
+
 # EX_StaleGroups Job
 
 The EX_StaleGroups job identifies potentially stale distribution groups based on the last domain

@@ -1,3 +1,9 @@
+---
+title: "Group Policy Ports"
+description: "Group Policy Ports"
+sidebar_position: 10
+---
+
 # Group Policy Ports
 
 Review a full list of protocols and ports required for monitoring Active Directory, Exchange, and

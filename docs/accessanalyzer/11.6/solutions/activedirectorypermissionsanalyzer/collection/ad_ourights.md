@@ -1,3 +1,9 @@
+---
+title: "AD_OURights Job"
+description: "AD_OURights Job"
+sidebar_position: 50
+---
+
 # AD_OURights Job
 
 The AD_OURights Job provides data collection to identify permissions applied to organizational units

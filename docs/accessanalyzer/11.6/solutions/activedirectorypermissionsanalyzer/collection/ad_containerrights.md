@@ -1,3 +1,9 @@
+---
+title: "AD_ContainerRights Job"
+description: "AD_ContainerRights Job"
+sidebar_position: 20
+---
+
 # AD_ContainerRights Job
 
 The AD_ContainerRights Job provides data collection to identify permissions applied to Containers in

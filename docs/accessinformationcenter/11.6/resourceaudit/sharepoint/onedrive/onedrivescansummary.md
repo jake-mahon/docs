@@ -1,3 +1,9 @@
+---
+title: "OneDrive Scan Summary Report"
+description: "OneDrive Scan Summary Report"
+sidebar_position: 20
+---
+
 # OneDrive Scan Summary Report
 
 The OneDrive Scan Summary report at the **OneDrive for Business** node provides an overview of

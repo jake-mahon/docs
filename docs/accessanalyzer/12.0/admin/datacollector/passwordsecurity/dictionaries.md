@@ -34,7 +34,10 @@ The configurable dictionary options are:
       [Download and Configure the Have I Been Pwnd (HIBP) Hash List](#download-and-configure-the-have-i-been-pwnd-hibp-hash-list)
       topic for additional information.
 
-        **_RECOMMENDED:_** Use the sorted hash dictionary if adding an NLTM format
+        :::info
+        Use the sorted hash dictionary if adding an NLTM format
+        :::
+
 
 - Remove – Removes a custom dictionary file from the query scope
 
@@ -71,13 +74,16 @@ The Pwnd Passwords Downloader is a Dotnet tool used to download all Pwned Passwo
 save them offline so they can be used without a dependency on the k-anonymity API. Use this tool to
 get the latest breached hashes from the Have I Been Pwnd (HIBP) database.
 
-**NOTE:** The
+:::note
+The
 [](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader)[Pwnd Passwords Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader)
 is a third party, open source tool, created by the HaveIBeenPwned team and distributed under a BSD
 3-Clause License. You might experience issues during the hash download process, depending on your
 threading settings or the load on the CloudFlare backend. The Pwnd Passwords Downloader tool will
 automatically retry to continue downloading the hashes until it fully completes the download
 process.
+:::
+
 
 ### Prerequisites
 

@@ -6,10 +6,6 @@ sidebar_position: 60
 
 # Using Password Reset with Password Policy Enforcer
 
-Using Password Reset with Password Policy Enforcer
-
-# Using Password Reset with Password Policy Enforcer
-
 Password Policy Enforcer is a configurable password filter that enforces granular password policies
 with many advanced features. Password Policy Enforcer helps to secure your network by ensuring that
 users choose strong passwords.

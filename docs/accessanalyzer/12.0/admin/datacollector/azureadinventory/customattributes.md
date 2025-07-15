@@ -20,7 +20,10 @@ Configuration options for Custom Attributes include:
       scan. Disabling this option will configure the data collector run a differential scan, which
       will only scan changes since the last scan was performed.
 
-    **CAUTION:** A full scan is required when new attributes are added or removed.
+    :::warning
+    A full scan is required when new attributes are added or removed.
+    :::
+
 
 - Add – Adds a manually entered attribute that is included in the scan. This option opens the Custom
   Attribute window.
@@ -78,9 +81,12 @@ be targeted, and then select the method of supplying credentials for the specifi
     - App Id –Client ID
     - App key – Client Secret Key
 
-**_RECOMMENDED:_** Add a valid Azure Connection Profile to the **Jobs** > **.Entra ID Inventory** >
+:::info
+Add a valid Azure Connection Profile to the **Jobs** > **.Entra ID Inventory** >
 **Settings** > **Connection** settings as a user defined profile. This ensures the connection
 profile displays in the dropdown menu.
+:::
+
 
 See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/requirements/entraid/entraid/access.md) or the
 [Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/configurejob.md) topics for additional

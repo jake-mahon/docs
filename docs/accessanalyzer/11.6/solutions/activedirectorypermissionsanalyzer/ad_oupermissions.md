@@ -1,3 +1,9 @@
+---
+title: "3.OUs > AD_OUPermissions Job"
+description: "3.OUs > AD_OUPermissions Job"
+sidebar_position: 50
+---
+
 # 3.OUs > AD_OUPermissions Job
 
 The AD_OUPermissions Job reports on all Active Directory permissions applied to organizational unit

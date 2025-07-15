@@ -1,3 +1,9 @@
+---
+title: "Activity Summary Report"
+description: "Activity Summary Report"
+sidebar_position: 20
+---
+
 # Activity Summary Report
 
 The Activity Summary report at the **File System** node provides an overview of activity performed

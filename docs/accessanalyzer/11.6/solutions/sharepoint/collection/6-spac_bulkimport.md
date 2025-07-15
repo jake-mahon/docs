@@ -1,3 +1,9 @@
+---
+title: "6-SPAC_BulkImport Job"
+description: "6-SPAC_BulkImport Job"
+sidebar_position: 60
+---
+
 # 6-SPAC_BulkImport Job
 
 This job is responsible for retrieving the SPAC Tier 2 database information and import it to the

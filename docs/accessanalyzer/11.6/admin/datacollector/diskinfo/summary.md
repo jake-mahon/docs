@@ -1,3 +1,9 @@
+---
+title: "DiskInfo: Summary"
+description: "DiskInfo: Summary"
+sidebar_position: 30
+---
+
 # DiskInfo: Summary
 
 The Summary page displays a summary of the configured query.

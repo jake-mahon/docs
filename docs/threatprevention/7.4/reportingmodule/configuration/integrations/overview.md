@@ -1,3 +1,9 @@
+---
+title: "Integrations Interface"
+description: "Integrations Interface"
+sidebar_position: 10
+---
+
 # Integrations Interface
 
 The Integrations interface allows you to configure integrations with a variety of Netwrix products
@@ -11,7 +17,7 @@ select **Integrations** to open the Integrations interface.
 It contains the following integration pages:
 
 - [Active Directory Sync Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/activedirectorysync.md)
-- [Authentication Provider Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/authenticationprovider/page.md)
+- [Authentication Provider Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/page/page.md)
 - [Credential Profile Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/credentialprofile.md)
 - [Email Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/email.md)
 - [Folder Settings Page](/docs/threatprevention/7.4/reportingmodule/configuration/integrations/foldersettings.md)

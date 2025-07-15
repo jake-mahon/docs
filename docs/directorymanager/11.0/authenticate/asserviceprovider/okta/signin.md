@@ -1,3 +1,9 @@
+---
+title: "Sign In Using Okta"
+description: "Sign In Using Okta"
+sidebar_position: 30
+---
+
 # Sign In Using Okta
 
 We configured Okta with a GroupID client, that is the GroupID portal _Wizard_ in our example. For

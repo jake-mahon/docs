@@ -14,8 +14,11 @@ within the targeted domains.
 Navigate to the **Active Directory Permissions Analyzer** > **9.Sites** > **AD_SitePermissions** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_SitePermissions Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/sites/sitepermissionsanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_SitePermissions Job
 produces the following pre-configured report.
 
-| Report           | Description                                                                                      | Default Tags | Report Elements                                                                                                                                                                                             |
-| ---------------- | ------------------------------------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Site Permissions | This report highlights instances where permissions are applied to Active Directory Site objects. | None         | This report is comprised of three elements: - Bar Chart – Displays permissions by site - Pie chart – Provides details on enterprise site permissions by type - Table – Provides details on site permissions |
+| Report           | Description                                                                                      | Default Tags | Report Elements                                                                                                                                                                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Site Permissions | This report highlights instances where permissions are applied to Active Directory Site objects. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays permissions by site</li><li>Pie chart – Provides details on enterprise site permissions by type</li><li>Table – Provides details on site permissions</li></ul> |
+

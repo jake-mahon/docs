@@ -1,3 +1,9 @@
+---
+title: "Operations and Health Dashboards"
+description: "Operations and Health Dashboards"
+sidebar_position: 130
+---
+
 # Operations and Health Dashboards
 
 The Dashboard administration area provides a selection of tools to review application health.

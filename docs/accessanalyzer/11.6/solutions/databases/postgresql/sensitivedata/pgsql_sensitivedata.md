@@ -1,3 +1,9 @@
+---
+title: "PgSQL_SensitiveData Job"
+description: "PgSQL_SensitiveData Job"
+sidebar_position: 10
+---
+
 # PgSQL_SensitiveData Job
 
 The PsSQL_SensitiveData Job is designed to provide information on all the sensitive data that was

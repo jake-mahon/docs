@@ -20,10 +20,13 @@ Configure the following options:
 - Perform Optical Character Recognition for image files – Enables the data collector to scan for
   sensitive data within digital images of physical documents
 
-    **NOTE:** The OCR option is intended to work for clear scanned physical documents or documents
+    :::note
+    The OCR option is intended to work for clear scanned physical documents or documents
     directly converted to images, with standard fonts. It will not work for scanning photos of
     documents and may not be able to recognize text on images of credit cards, driver's licenses, or
     other identity cards.
+    :::
+
 
 - Store discovered sensitive data – Stores discovered sensitive data in the database
 - Limit stored matches per criteria to [number] – Limits database storage of matches per criteria

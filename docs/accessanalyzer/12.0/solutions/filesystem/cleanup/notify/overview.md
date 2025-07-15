@@ -9,9 +9,12 @@ sidebar_position: 20
 The 2. Notify job group is designed to report on and notify owners of resources of target file
 servers that data is pending cleanup.
 
-**NOTE:** The SendMail action module requires configuration of the Notification Settings in the
+:::note
+The SendMail action module requires configuration of the Notification Settings in the
 Global Settings. See the [Notification](/docs/accessanalyzer/12.0/admin/settings/notification.md) topic for
 additional information.
+:::
+
 
 ![2. Notify Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/cleanup/notify/jobstree.webp)
 
@@ -22,7 +25,7 @@ This job group includes the following jobs:
 - [FS_NotifyOwners_Status Job](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md) – Designed to summarize the actions taken
   by the NotifyOwners job
 
-Workflow
+**Workflow**
 
 The following is the recommended workflow for using the job group:
 

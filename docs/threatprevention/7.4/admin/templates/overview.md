@@ -1,3 +1,9 @@
+---
+title: "Templates Interface"
+description: "Templates Interface"
+sidebar_position: 90
+---
+
 # Templates Interface
 
 The Templates interface provides a list of all the pre-created policy templates in Threat
@@ -24,7 +30,7 @@ for organizing templates. The pre-created templates are organized into multiple 
 topic for additional information.
 
 - Click a template to open it and view its configurations. See the
-  [Template Configuration](/docs/threatprevention/7.4/admin/templates/configuration.md)
+  [Template Configuration](/docs/threatprevention/7.4/admin/templates/configuration/configuration.md)
   topic for additional information.
 - You can move a templates from one folder to another by dragging-and-dropping. This is a Move
   action.

@@ -72,7 +72,10 @@ Both the Resource Name and Host Name textboxes support regular expressions and p
   Regular Expression: To provide an expression that would include all shares or files that start
   with the letter `A`:
 
-    **NOTE:** This option is case sensitive.
+    :::note
+    This option is case sensitive.
+    :::
+
 
     - `RE:\\\\[^\\[+\\A`
 
@@ -88,9 +91,12 @@ Then set Scoping Type and Priority:
     - Folder Exclude – Provided folder is excluded from the scan. All scoping options must match or
       it is excluded.
 
-    **NOTE:** Any included files or folders inherit all options previously checked in the
+    :::note
+    Any included files or folders inherit all options previously checked in the
     [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/defaultscopingoptions.md) page. Manually apply new options if
     the default ones are not desired in this scan.
+    :::
+
 
 - Priority – Numerical value that determines which options are used in the case of more than one
   scoping option overlaps for a particular resource. Lower numerical values have a higher priority
@@ -112,7 +118,7 @@ on these scoping options.
 
 The following examples show some common configurations of scoping options and the expected results.
 
-Scenario 1
+**Scenario 1**
 
 Scan for all shares except one.
 
@@ -120,7 +126,7 @@ Scan for all shares except one.
 
 All shares included except for the ProbableOwner share.
 
-Scenario 2
+**Scenario 2**
 
 Scan for one share and exclude all others.
 
@@ -129,7 +135,7 @@ Scan for one share and exclude all others.
 The ProbableOwner Share is included. All other shares are excluded. Share Inclusion must have a
 priority that is greater than or equal to the Share Exclusion.
 
-Scenario 3
+**Scenario 3**
 
 Scan all folders except one.
 
@@ -137,7 +143,7 @@ Scan all folders except one.
 
 All Shares are scanned and all folders are included except for C:\ProbableOwner\DifferentOwner.
 
-Scenario 4
+**Scenario 4**
 
 Scan one folder and exclude all others.
 
@@ -146,7 +152,7 @@ Scan one folder and exclude all others.
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included. All other folder paths are excluded.
 
-Scenario 5
+**Scenario 5**
 
 Scan one folder and all of its children and exclude all others.
 
@@ -156,7 +162,7 @@ The ProbableOwner Share is included and all other shares are excluded. Within th
 Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of its children
 (Notice the \\\* at the end of folder include path). All other folder paths are excluded.
 
-Scenario 6
+**Scenario 6**
 
 Scan for all content within a folder except one sub-folder.
 
@@ -168,7 +174,7 @@ Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of
 C:\ProbableOwner\DifferentOwner\Test2 is excluded (Notice the higher priority for the exclusion).
 All other folder paths are excluded.
 
-Additional Considerations
+**Additional Considerations**
 
 The scoping options listed above can be used to scope for SMB shares and NFS exports but NFS exports
 are enumerated differently. The include/exclude logic outlined above should be the same for both,

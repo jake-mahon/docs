@@ -1,3 +1,9 @@
+---
+title: "Privileged Accounts Job Group"
+description: "Privileged Accounts Job Group"
+sidebar_position: 50
+---
+
 # Privileged Accounts Job Group
 
 Vital to security is the ability to accurately assess who has administrative privileges to each

@@ -1,3 +1,9 @@
+---
+title: "NFS Exports Reports"
+description: "NFS Exports Reports"
+sidebar_position: 80
+---
+
 # NFS Exports Reports
 
 NFS share data can be imported into the Access Information Center through configuration of

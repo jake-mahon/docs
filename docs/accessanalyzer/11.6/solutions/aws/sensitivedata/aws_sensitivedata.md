@@ -1,3 +1,9 @@
+---
+title: "AWS_SensitiveData Job"
+description: "AWS_SensitiveData Job"
+sidebar_position: 10
+---
+
 # AWS_SensitiveData Job
 
 The AWS_SensitiveData job provides details on AWS S3 buckets and the objects in them which contain

@@ -14,8 +14,11 @@ Exchange environment.
 View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > **Logons** >
 **EX_MailboxLogons** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the EX_MailboxLogons Job](/img/product_docs/accessanalyzer/12.0/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
 
@@ -41,8 +44,11 @@ The following analysis tasks are selected by default:
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain cleared unless specifically needed:
 
-**CAUTION:** Do not select the **00. Delete All Historical Data** option. This analysis task is for
+:::warning
+Do not select the **00. Delete All Historical Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
+:::
+
 
 - 00.Delete All Historical Data
 
@@ -53,8 +59,9 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 In addition to the tables and views created by the analysis tasks, the EX_MailboxLogons Job produces
 the following pre-configured reports:
 
-| Report                                                                        | Description                                                                                                                   | Default Tags | Report Elements                                                                                                                                                            |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Non Owner Mailbox Logons – Last Week (Top Users Logging into Other Mailboxes) | Lists the number of distinct non-owner mailboxes accessed by each user and counts of non-owner logons in the last seven days. | None         | This report is comprised of two elements: - Bar Chart – Displays top users for non-owner activity – last week - Table – Provides details on all mailbox logons             |
-| Top Hourly Activity (By IP) (Top Hourly Activity)                             | This report shows periods where there was large amounts of traffic coming from a single machine.                              | None         | This report is comprised of two elements: - Bar Chart – Displays top machines by user account activity - Table – Provides details on top machines by user account activity |
-| Top Hourly Activity (By User) (Top Hourly Activity)                           | This report shows periods when users are most active.                                                                         | None         | This report is comprised of two elements: - Bar Chart – Displays top machines by non-owner logons - Table – Provides details on top users by non-owner logons              |
+| Report                                                                        | Description                                                                                                                   | Default Tags | Report Elements                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Non Owner Mailbox Logons – Last Week (Top Users Logging into Other Mailboxes) | Lists the number of distinct non-owner mailboxes accessed by each user and counts of non-owner logons in the last seven days. | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top users for non-owner activity – last week</li><li>Table – Provides details on all mailbox logons</li></ul>             |
+| Top Hourly Activity (By IP) (Top Hourly Activity)                             | This report shows periods where there was large amounts of traffic coming from a single machine.                              | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top machines by user account activity</li><li>Table – Provides details on top machines by user account activity</li></ul> |
+| Top Hourly Activity (By User) (Top Hourly Activity)                           | This report shows periods when users are most active.                                                                         | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays top machines by non-owner logons</li><li>Table – Provides details on top users by non-owner logons</li></ul>              |
+

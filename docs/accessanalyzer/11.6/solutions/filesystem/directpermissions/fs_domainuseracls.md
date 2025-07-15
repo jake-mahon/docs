@@ -1,3 +1,9 @@
+---
+title: "FS_DomainUserACLs Job"
+description: "FS_DomainUserACLs Job"
+sidebar_position: 10
+---
+
 # FS_DomainUserACLs Job
 
 The FS_DomainUserACLs job is designed to report on domain users that have been granted direct

@@ -1,3 +1,9 @@
+---
+title: "SIEM Folder Templates"
+description: "SIEM Folder Templates"
+sidebar_position: 100
+---
+
 # SIEM Folder Templates
 
 The SIEM folder contains the following templates:

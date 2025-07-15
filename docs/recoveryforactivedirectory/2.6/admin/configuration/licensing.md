@@ -21,7 +21,10 @@ You can view whether the license is valid and when it will expire.
 Recovery for Active Directory comes with a temporary 14-day trial license. Follow the steps to
 import a license key file to continue using the product.
 
-**NOTE:** Only accounts with administrator role can add a license key.
+:::note
+Only accounts with administrator role can add a license key.
+:::
+
 
 **Step 1 –** Contact your Netwrix Sales Representative to obtain a license key.
 

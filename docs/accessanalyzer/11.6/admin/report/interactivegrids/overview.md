@@ -1,3 +1,9 @@
+---
+title: "Interactive Grids"
+description: "Interactive Grids"
+sidebar_position: 60
+---
+
 # Interactive Grids
 
 Interactive grids in the table section of a report provide the ability to interact with the data and

@@ -6,10 +6,6 @@ sidebar_position: 40
 
 # Using the Data Console
 
-Using the Data Console
-
-# Using the Data Console
-
 The Data Console allows you to view and export data collected by Password Reset. Click **Start** >
 **Netwrix Password Reset** > **NPR Data Console** to open the console.
 
@@ -57,5 +53,8 @@ The **Users** tab has seven columns:
 - Last Unlock — Date and time of last successful account unlock
 - Last Change — Date and time of last successful password change
 
-**NOTE:** The Data Console does not automatically display new information as it is added to the
+:::note
+The Data Console does not automatically display new information as it is added to the
 database. Press F5 to refresh the view.
+
+:::

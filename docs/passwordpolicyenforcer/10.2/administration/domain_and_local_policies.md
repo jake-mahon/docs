@@ -1,3 +1,9 @@
+---
+title: "Domain and Local Policies"
+description: "Domain and Local Policies"
+sidebar_position: 10
+---
+
 # Domain and Local Policies
 
 Netwrix Password Policy Enforcer V7.5 and later can enforce password policies for both domain and
@@ -20,8 +26,8 @@ policies for the domain accounts.
 To enforce password policies for domain user accounts, you should install Password Policy Enforcer
 onto all the domain controllers in the domain. If you have read-only domain controllers and aren't
 using the
-[Rules](/docs/passwordpolicyenforcer/10.2/administration/rules.md),
-[Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/password_policy_client.md),
+[Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md),
+[Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/passwordpolicyclient/password_policy_client.md),
 or other software (such as
 [Netwrix Password Reset](https://www.netwrix.com/active_directory_password_reset_tool.html)) that
 uses the Password Policy Enforcer Client protocol, then you do not need to install Password Policy
@@ -47,10 +53,10 @@ limitations, the following rules and features cannot be used with local password
 
 - The Minimum Age and Maximum Age rules (you can use the Windows version of these rules with
   Password Policy Enforcer). See the
-  [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules.md)
+  [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
   topic for additional information.
 - Policy assignments by groups and containers. See the
-  [Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managing_policies.md)
+  [Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/managing_policies.md)
   topic for additional information.
 
 Password Policy Enforcer's configuration is stored in Active Directory for domain password policies,

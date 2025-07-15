@@ -1,3 +1,9 @@
+---
+title: "Secure the Reporting Module Console"
+description: "Secure the Reporting Module Console"
+sidebar_position: 30
+---
+
 # Secure the Reporting Module Console
 
 To support HTTPS, do the following:

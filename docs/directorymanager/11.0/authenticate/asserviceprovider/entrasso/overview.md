@@ -1,3 +1,9 @@
+---
+title: "SAML Configuration for GroupID using Microsoft Entra ID SSO"
+description: "SAML Configuration for GroupID using Microsoft Entra ID SSO"
+sidebar_position: 20
+---
+
 # SAML Configuration for GroupID using Microsoft Entra ID SSO
 
 Microsoft Entra ID SSO enables users to conveniently access all their apps from any location, on any

@@ -1,3 +1,9 @@
+---
+title: "Configure System Service Firewall Policies"
+description: "Configure System Service Firewall Policies"
+sidebar_position: 20
+---
+
 # Configure System Service Firewall Policies
 
 Configure firewall to make file shares and Clustered Data ONTAP HTTP/HTTPS ports accessible from the

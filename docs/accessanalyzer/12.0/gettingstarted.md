@@ -56,15 +56,21 @@ The other global Settings provide additional options for impacting how Access An
 - [Access](/docs/accessanalyzer/12.0/admin/settings/access/overview.md) – Enable and configure Role Based Access for a least
   privileged application of Access Analyzer and report viewing or the enable the REST API
 
-    **NOTE:** If Role Based Access is enabled by accident, contact
+    :::note
+    If Role Based Access is enabled by accident, contact
     [Netwrix Support](https://www.netwrix.com/support.html) for assistance in disabling it.
+    :::
+
 
 - [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) – Configure additional settings not included
   in the other nodes
 - [Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) – Configure Microsoft® Exchange Server connections
 
-**CAUTION:** Do not configure data retention at the global level without ensuring History is
+:::warning
+Do not configure data retention at the global level without ensuring History is
 supported by ALL solutions to be run.
+:::
+
 
 - [History](/docs/accessanalyzer/12.0/admin/settings/history.md) – Configure data retention and log retention settings
 - [Host Discovery](/docs/accessanalyzer/12.0/admin/settings/hostdiscovery.md) – Configure Host Discovery task settings

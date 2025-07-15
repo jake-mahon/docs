@@ -6,10 +6,6 @@ sidebar_position: 50
 
 # Working with the Database
 
-Working with the Database
-
-# Working with the Database
-
 The NPR Server stores user and event information in a database. The default database is Microsoft
 SQL Server Compact, an embedded version of SQL Server. The benefits of using SQL Server Compact
 include:
@@ -50,7 +46,7 @@ The database files (apr.sdf and aprlog.sdf) are in the Password Reset Server's i
 by default, but the location is configurable. The following commands create copies of the files with
 a .bak extension. Copy the .bak files to another device, and run the backup script daily.
 
-net stop "Netwrix Password Reset"
+**net stop "Netwrix Password Reset"**
 
 copy /Y "c:\program files\netwrix password reset\apr.sdf" "c:\program files\netwrix password
 reset\apr.bak"
@@ -58,10 +54,13 @@ reset\apr.bak"
 copy /Y "c:\program files\netwrix password reset\aprlog.sdf" "c:\program files\netwrix password
 reset\aprlog.bak"
 
-net start "Netwrix Password Reset"
+**net start "Netwrix Password Reset"**
 
-**NOTE:** Change the paths above if the database files are in a different folder. See the
+:::note
+Change the paths above if the database files are in a different folder. See the
 [Database](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/general_tab.md#database) topic for more information.
+:::
+
 
 **Restoring database from backup**
 
@@ -77,6 +76,9 @@ Follow the steps below to restore the database files from a backup.
 
 **Step 5 –** Start .
 
-**CAUTION:** apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to
+:::warning
+apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to
 protect them from attack, but you should still ensure that this file and all backup copies are
 stored securely.
+
+:::

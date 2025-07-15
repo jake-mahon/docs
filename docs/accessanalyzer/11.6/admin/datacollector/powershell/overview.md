@@ -1,3 +1,9 @@
+---
+title: "PowerShell Data Collector"
+description: "PowerShell Data Collector"
+sidebar_position: 290
+---
+
 # PowerShell Data Collector
 
 The PowerShell Data Collector provides PowerShell script exit from Enterprise Auditor. It has

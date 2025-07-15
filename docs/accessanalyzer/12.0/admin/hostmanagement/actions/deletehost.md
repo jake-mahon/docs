@@ -18,9 +18,12 @@ Host(s)** on the Activities pane.
 
 ![Confirm dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletehost.webp)
 
-**CAUTION:** A deletion from the host master table at the Host Management node cannot be undone, as
+:::warning
+A deletion from the host master table at the Host Management node cannot be undone, as
 it deletes it from the host management database tables. It also removes the host from any host list
 to which it has been assigned. Click **Cancel** to stop the deletion.
+:::
+
 
 **Step 2 –** A dialog box asks for confirmation of the action. Click **OK** to proceed with the
 deletion.
@@ -44,8 +47,11 @@ is limited to removing the selected host from the current host list.
 
 ![Confirm deletion from master host table dialog box](/img/product_docs/accessanalyzer/12.0/admin/hostmanagement/actions/confirmdeletehostmaster.webp)
 
-**CAUTION:** A deletion from the host master table cannot be undone, as it deletes it from the host
+:::warning
+A deletion from the host master table cannot be undone, as it deletes it from the host
 management database tables.
+:::
+
 
 **Step 3 –** If the host is not found in another static host list, Access Analyzer asks if you also
 want to remove the host from the Host Master Table. On the Confirm dialog, select the desired

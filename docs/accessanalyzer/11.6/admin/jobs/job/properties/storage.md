@@ -1,3 +1,9 @@
+---
+title: "Storage Tab"
+description: "Storage Tab"
+sidebar_position: 60
+---
+
 # Storage Tab
 
 The Storage tab is for configuring the Storage Profile. Choose either to use the default settings,

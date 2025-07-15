@@ -1,3 +1,9 @@
+---
+title: "FSAA: Activity Settings"
+description: "FSAA: Activity Settings"
+sidebar_position: 50
+---
+
 # FSAA: Activity Settings
 
 The File System Activity Auditor Scan Filter Settings page is where activity scan filter settings

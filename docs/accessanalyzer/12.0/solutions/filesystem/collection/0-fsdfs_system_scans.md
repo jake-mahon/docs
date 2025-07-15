@@ -14,7 +14,10 @@ system and creating a dynamic host list that will be used by the components.
 The DFS System Scan Query uses the FSAA Data Collector and has been preconfigured to use the DFS
 Scan Category.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query for the 0-FSDFS System Scans Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsdfssystemscansquery.webp)
 
@@ -25,8 +28,11 @@ Scan Category.
 View the analysis tasks by navigating to the **FileSystem** > **0.Collection** > **0-FSDFS System
 Scans** > **Configure** node and selecting **Analysis**.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the 0-FSDFS System Scans Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/fsdfssystemscansanalysis.webp)
 

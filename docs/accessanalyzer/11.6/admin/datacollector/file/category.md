@@ -1,3 +1,9 @@
+---
+title: "File: Category"
+description: "File: Category"
+sidebar_position: 10
+---
+
 # File: Category
 
 Use the Category page to identify the type of information to retrieve in this query.

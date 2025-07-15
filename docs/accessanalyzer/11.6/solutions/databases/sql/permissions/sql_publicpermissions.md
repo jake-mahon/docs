@@ -1,3 +1,9 @@
+---
+title: "SQL_PublicPermissions Job"
+description: "SQL_PublicPermissions Job"
+sidebar_position: 40
+---
+
 # SQL_PublicPermissions Job
 
 The SQL_PublicPermissions Job provides the list of SQL server logins that have the PUBLIC roles

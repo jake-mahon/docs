@@ -1,3 +1,9 @@
+---
+title: "SQLViewCreation Analysis Module"
+description: "SQLViewCreation Analysis Module"
+sidebar_position: 60
+---
+
 # SQLViewCreation Analysis Module
 
 The SQLViewCreation analysis module provides the ability to create new views or tables that are used

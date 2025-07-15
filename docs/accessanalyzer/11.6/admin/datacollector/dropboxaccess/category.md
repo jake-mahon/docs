@@ -1,3 +1,9 @@
+---
+title: "DropboxAccess: Category"
+description: "DropboxAccess: Category"
+sidebar_position: 30
+---
+
 # DropboxAccess: Category
 
 Use the Category Selection Page to identify the type of information to retrieve. The DropboxAccess

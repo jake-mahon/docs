@@ -1,3 +1,9 @@
+---
+title: "1-Db2_SensitiveDataScan"
+description: "1-Db2_SensitiveDataScan"
+sidebar_position: 10
+---
+
 # 1-Db2_SensitiveDataScan
 
 This job discovers sensitive data in the Db2 databases across all the targeted Db2 database servers

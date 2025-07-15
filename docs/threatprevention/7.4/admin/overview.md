@@ -1,3 +1,9 @@
+---
+title: "Administration"
+description: "Administration"
+sidebar_position: 40
+---
+
 # Administration
 
 Threat Prevention monitors events in real‐time, gathers and processes event data, then outputs that
@@ -87,7 +93,7 @@ Administrators group.
 
 A Threat Prevention Policy has many attributes which define the activities and objects it monitors,
 where on a network that policy applies, and when it is active. See the
-[Policy Configuration](/docs/threatprevention/7.4/admin/policies/configuration.md)
+[Policy Configuration](/docs/threatprevention/7.4/admin/policies/configuration/configuration.md)
 topic for additional information.
 
 General
@@ -132,7 +138,7 @@ for a local SMTP server, etc.
 See the
 [Pre-Created Templates](/docs/threatprevention/7.4/admin/templates/folder/overview.md)
 and
-[Template Configuration](/docs/threatprevention/7.4/admin/templates/configuration.md)
+[Template Configuration](/docs/threatprevention/7.4/admin/templates/configuration/configuration.md)
 topics for additional information.
 
 ## Database Components

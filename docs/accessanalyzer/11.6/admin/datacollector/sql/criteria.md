@@ -1,3 +1,9 @@
+---
+title: "SQL: Criteria"
+description: "SQL: Criteria"
+sidebar_position: 40
+---
+
 # SQL: Criteria
 
 The Criteria page is where criteria to be used for discovering sensitive data are configured. It is

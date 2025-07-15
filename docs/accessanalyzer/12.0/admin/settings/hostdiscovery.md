@@ -55,9 +55,12 @@ The log levels are:
 
 - Error – Records all errors which occur during the host discovery process
 
-    **_RECOMMENDED:_** Set the Log Level to Error. The default setting is Info, but it is
+    :::info
+    Set the Log Level to Error. The default setting is Info, but it is
     recommended that the setting for daily use be set to Error. The other log levels are designed to
     assist with troubleshooting host discovery and host inventory issues.
+    :::
+
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Host Discovery view. These
 buttons become enabled when modifications are made to the Host Discovery global settings. Whenever

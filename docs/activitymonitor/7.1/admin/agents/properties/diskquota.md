@@ -1,3 +1,9 @@
+---
+title: "Disk Quota Tab"
+description: "Disk Quota Tab"
+sidebar_position: 80
+---
+
 # Disk Quota Tab
 
 The **Disk Quota Tab** is used to limit the size of logs to save disk space.

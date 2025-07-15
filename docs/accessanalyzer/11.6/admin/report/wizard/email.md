@@ -1,3 +1,9 @@
+---
+title: "E-mail Page"
+description: "E-mail Page"
+sidebar_position: 20
+---
+
 # E-mail Page
 
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and
@@ -8,7 +14,7 @@ select report specific settings for emailing the report.
 The default setting for new and included reports is **Use default setting**, which keeps the
 inheritance from the global, job group, or job settings (see the
 [Email Report Options](/docs/accessanalyzer/11.6/admin/settings/reporting.md#email-report-options),
-[Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/reporting.md),
+[Reporting Node](/docs/accessanalyzer/11.6/admin/jobs/group/settings/reporting.md),
 and
 [Report Settings Tab](/docs/accessanalyzer/11.6/admin/jobs/job/properties/reportsettings.md)
 topics for additional information). If you want to keep the default, then you can skip this page of

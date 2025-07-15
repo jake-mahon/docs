@@ -1,3 +1,9 @@
+---
+title: "Clear-Notifications"
+description: "Clear-Notifications"
+sidebar_position: 20
+---
+
 # Clear-Notifications
 
 The commandlet **Clear-Notifications** removes notifications settings from an identity store. The
@@ -55,4 +61,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

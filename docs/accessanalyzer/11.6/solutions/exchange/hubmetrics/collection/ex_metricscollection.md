@@ -1,3 +1,9 @@
+---
+title: "EX_MetricsCollection Job"
+description: "EX_MetricsCollection Job"
+sidebar_position: 20
+---
+
 # EX_MetricsCollection Job
 
 The EX_MetricsCollection Job is comprised of multiple queries that utilize the ExchangeMetrics Data

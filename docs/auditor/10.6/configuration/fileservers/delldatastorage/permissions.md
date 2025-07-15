@@ -1,3 +1,9 @@
+---
+title: "Permissions for Dell Data Storage Auditing"
+description: "Permissions for Dell Data Storage Auditing"
+sidebar_position: 50
+---
+
 # Permissions for Dell Data Storage Auditing
 
 Dell VNX, VNXe, Celerra, and Unity NAS devices are collectively referred to as Dell Data Storage.

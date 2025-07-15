@@ -1,3 +1,9 @@
+---
+title: "DNS: Results"
+description: "DNS: Results"
+sidebar_position: 20
+---
+
 # DNS: Results
 
 The Results page is where DNS properties to be gathered are selected. It is a wizard page for all

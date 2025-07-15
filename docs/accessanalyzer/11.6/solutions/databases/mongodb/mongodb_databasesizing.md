@@ -1,3 +1,9 @@
+---
+title: "mongodb_databasesizing"
+description: "mongodb_databasesizing"
+sidebar_position: 30
+---
+
 ### Analysis Tasks for the MongoDB_Database_Sizing Job
 
 Navigate to the **Jobs > Databases > MongoDB > Configuration > MongoDB_DatabaseSizing > Configure**

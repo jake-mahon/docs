@@ -1,3 +1,9 @@
+---
+title: "GroupPolicy: Category"
+description: "GroupPolicy: Category"
+sidebar_position: 10
+---
+
 # GroupPolicy: Category
 
 On the GroupPolicy Data Collector Category page, select the required query category to be executed.

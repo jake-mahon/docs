@@ -1,3 +1,9 @@
+---
+title: "ADInventory: Custom Attributes"
+description: "ADInventory: Custom Attributes"
+sidebar_position: 70
+---
+
 # ADInventory: Custom Attributes
 
 The Custom Attributes page provides ability to add Active Directory attributes that are unique to

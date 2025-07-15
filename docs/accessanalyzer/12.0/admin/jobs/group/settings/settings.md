@@ -21,11 +21,14 @@ group or a job level.
 - [Host Lists Assignment](/docs/accessanalyzer/12.0/admin/jobs/group/settings/hostlistsassignment.md) – Use the default host list configured on a parent
   job group or break inheritance on assigned host lists for this job group
 
-    **NOTE:** Host List Assignments is not a global setting. The pre-configured solutions may
+    :::note
+    Host List Assignments is not a global setting. The pre-configured solutions may
     contain Host List Assignments configured to use Global Default Host Lists, for example All
     Domain Controllers. See the
     [Default Host Lists](/docs/accessanalyzer/12.0/admin/settings/hostinventory.md#default-host-lists) topic for additional
     information.
+    :::
+
 
 - [Reporting Node](/docs/accessanalyzer/12.0/admin/jobs/group/settings/reporting.md) – Use the default report settings or break inheritance on Published
   Report settings, Email settings, and Report role assignment for this job group

@@ -11,21 +11,24 @@ information administrators need for Active Directory configuration, operational 
 troubleshooting, analyzing effective permissions, and tracking who is making what changes within an
 organization.
 
-Supported Platforms
+**Supported Platforms**
 
 - Windows Server 2016 and later
 - Windows 2003 Forest level or higher
 
-**NOTE:** See the Microsoft
+:::note
+See the Microsoft
 [Windows Server end of support and Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/windows-server-support)
 article for additional information.
+:::
 
-Requirements, Permissions, and Ports
+
+**Requirements, Permissions, and Ports**
 
 See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/requirements/activedirectory/target/overview.md)
 topic for additional information.
 
-Location
+**Location**
 
 The Active Directory Solution requires a special Access Analyzer license. It can be installed from
 the Access Analyzer Instant Job Wizard. See the
@@ -40,8 +43,11 @@ for example the 1.Groups job group. Other job groups run both data collection an
 generate reports. The AD_SecurityAssessment job summarizes security related results from both the
 Active Directory solution and the Active Directory Permissions Analyzer solution.
 
-**NOTE:** The Cleanup job group requires additional licenses to function. See the
+:::note
+The Cleanup job group requires additional licenses to function. See the
 [Active Directory Job Groups](#active-directory-job-groups) topic for additional information.
+:::
+
 
 ## Active Directory Job Groups
 

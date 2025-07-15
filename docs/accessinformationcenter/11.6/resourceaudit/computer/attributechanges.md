@@ -1,3 +1,9 @@
+---
+title: "Attribute Changes Report"
+description: "Attribute Changes Report"
+sidebar_position: 40
+---
+
 # Attribute Changes Report
 
 The Attribute Changes report for a computer object provides specific details for every attribute

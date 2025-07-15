@@ -1,3 +1,9 @@
+---
+title: "Improving the Password Policy"
+description: "Improving the Password Policy"
+sidebar_position: 60
+---
+
 # Improving the Password Policy
 
 Password Policy Enforcer rules have properties that control how rules are enforced. You can improve

@@ -10,11 +10,17 @@ Save the organization’s Access Analyzer license key, received from your Netwri
 Representative, to the server where Access Analyzer is to be installed. Then follow the steps to
 install Access Analyzer.
 
-**NOTE:** The process explained in this topic assumes that both the downloaded binary and the
+:::note
+The process explained in this topic assumes that both the downloaded binary and the
 license (.lic) file are located on the server which will become the Access Analyzer Console.
+:::
 
-**CAUTION:** If User Account Control (UAC) is enabled on the server, ensure the installation package
+
+:::warning
+If User Account Control (UAC) is enabled on the server, ensure the installation package
 is run in Administrative/privilege mode.
+:::
+
 
 **Step 1 –** Run the **Netwrixaccessanalyzer.exe** executable to open the Access Analyzer Setup
 Wizard.
@@ -42,8 +48,11 @@ install Access Analyzer. The default destination folder is
 **Step 5 –** On the License File page, click **Browse** and navigate to your **StealthAUDIT.lic**
 file. When the path to the file is visible in the textbox, click **Next**.
 
-**NOTE:** The license file must be stored on the Access Analyzer Console server before the
+:::note
+The license file must be stored on the Access Analyzer Console server before the
 installation begins.
+:::
+
 
 ![License Features page](/img/product_docs/accessanalyzer/12.0/install/application/licensefeatures.webp)
 

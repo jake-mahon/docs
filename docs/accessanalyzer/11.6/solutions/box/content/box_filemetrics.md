@@ -1,3 +1,9 @@
+---
+title: "Box_FileMetrics Job"
+description: "Box_FileMetrics Job"
+sidebar_position: 10
+---
+
 # Box_FileMetrics Job
 
 The Box_FileMetrics Job offers insight into content sizing, staleness, and ownership of files in the
@@ -48,5 +54,5 @@ The default values for parameters that can be customized are:
 | File Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.

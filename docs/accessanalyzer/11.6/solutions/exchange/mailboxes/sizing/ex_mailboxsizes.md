@@ -1,3 +1,9 @@
+---
+title: "EX_MailboxSizes Job"
+description: "EX_MailboxSizes Job"
+sidebar_position: 20
+---
+
 # EX_MailboxSizes Job
 
 The EX_MailboxSizes job provides analysis and reporting around mailbox sizing and growth.

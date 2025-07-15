@@ -1,3 +1,9 @@
+---
+title: "Manage Tab"
+description: "Manage Tab"
+sidebar_position: 60
+---
+
 # Manage Tab
 
 A word about remediation and change control when operating a Baseline Configuration Policy…
@@ -52,7 +58,7 @@ Baseline Exceptions
 Exceptions include any failures according the Baseline Policy used in the report, together with any
 new changes affecting the Baseline Policy referenced from the Source device (or if you have chosen
 to include changes from Member Devices too, these will also appear here – see the
-[Baseline Policy Wizard](/docs/changetracker/8.0/baseline/policywizard.md) regarding the Baseline Setup Wizard and the step where you
+[Baseline Policy Wizard](/docs/changetracker/8.0/baseline/policywizard/policywizard.md) regarding the Baseline Setup Wizard and the step where you
 are asked to 'Specify Source'.
 
 In this example we are using the default operation of only including changes originating from the

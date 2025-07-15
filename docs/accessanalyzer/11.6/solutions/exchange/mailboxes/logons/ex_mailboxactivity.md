@@ -1,3 +1,9 @@
+---
+title: "0.Collection > EX_MailboxActivity Job"
+description: "0.Collection > EX_MailboxActivity Job"
+sidebar_position: 10
+---
+
 # 0.Collection > EX_MailboxActivity Job
 
 The EX_MailboxActivity job collects logs of Native Mailbox Access Auditing from Exchange to provide
@@ -26,5 +32,5 @@ The following query is included with the EX_MailboxActivity job:
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.

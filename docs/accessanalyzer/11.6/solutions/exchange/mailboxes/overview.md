@@ -1,3 +1,9 @@
+---
+title: "4.Mailboxes Job Group"
+description: "4.Mailboxes Job Group"
+sidebar_position: 50
+---
+
 # 4.Mailboxes Job Group
 
 The 4. Mailboxes job group is comprised of data collection, analysis, and reports around mailbox

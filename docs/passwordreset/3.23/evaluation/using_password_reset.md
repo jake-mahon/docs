@@ -1,3 +1,9 @@
+---
+title: "Using Password Reset"
+description: "Using Password Reset"
+sidebar_position: 20
+---
+
 # Using Password Reset
 
 Password Reset is a web application. Open a web browser on the server and go to

@@ -1,3 +1,9 @@
+---
+title: "Getting Started for End Users"
+description: "Getting Started for End Users"
+sidebar_position: 70
+---
+
 # Getting Started for End Users
 
 It is time to set up your new password management solution Netwrix Password Secure! The process

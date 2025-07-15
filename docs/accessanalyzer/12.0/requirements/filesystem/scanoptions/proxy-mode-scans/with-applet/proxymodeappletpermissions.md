@@ -33,12 +33,18 @@ required by either the user account running the Access Analyzer application, whe
 jobs within the console, or the Schedule Service Account assigned within Access Analyzer, when
 running jobs as a scheduled tasks.
 
-_Remember,_ Remote Registry Service must be enabled on the host where the applet is deployed (for
+:::tip
+Remember, Remote Registry Service must be enabled on the host where the applet is deployed (for
 Applet Mode or Proxy Mode with Applet scans) to determine the system platform and where to deploy
 the applet.
+:::
 
-**CAUTION:** The local policy, “Network access: Do not allow storage of passwords and credentials
+
+:::warning
+The local policy, “Network access: Do not allow storage of passwords and credentials
 for network authentication” must be disabled in order for the applet to start.
+:::
+
 
 Configure the credential(s) with the following rights on the Windows host(s):
 
@@ -64,7 +70,7 @@ applicable servers.
 See the [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/12.0/requirements/filesystem/scanoptions/proxy-mode-scans/with-applet/proxymodeappletports.md) topic for firewall rule
 information.
 
-Secure Proxy Communication Considerations
+**Secure Proxy Communication Considerations**
 
 For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a

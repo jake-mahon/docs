@@ -1,3 +1,9 @@
+---
+title: "SQL_ControlServer Job"
+description: "SQL_ControlServer Job"
+sidebar_position: 10
+---
+
 # SQL_ControlServer Job
 
 The SQL_ControlServer Job provides information on control server permissions. Users with control

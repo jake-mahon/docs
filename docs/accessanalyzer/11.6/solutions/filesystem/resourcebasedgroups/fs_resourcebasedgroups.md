@@ -1,3 +1,9 @@
+---
+title: "FS_ResourceBasedGroups Job"
+description: "FS_ResourceBasedGroups Job"
+sidebar_position: 10
+---
+
 # FS_ResourceBasedGroups Job
 
 The FS_ResourceBasedGroups Job is designed to report on and take action against resources from

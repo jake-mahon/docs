@@ -1,3 +1,9 @@
+---
+title: "Box_FailedLogins Job"
+description: "Box_FailedLogins Job"
+sidebar_position: 10
+---
+
 # Box_FailedLogins Job
 
 The Box_FailedLogins Job identifies failed logon events that have occurred over the last 30 days. A

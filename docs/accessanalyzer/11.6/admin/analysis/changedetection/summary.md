@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Summary"
+description: "Change Detection: Summary"
+sidebar_position: 80
+---
+
 # Change Detection: Summary
 
 The Summary page summarizes the configuration of the action.

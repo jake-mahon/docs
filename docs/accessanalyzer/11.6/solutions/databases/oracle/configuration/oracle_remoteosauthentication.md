@@ -1,3 +1,9 @@
+---
+title: "Oracle_RemoteOSAuthentication Job"
+description: "Oracle_RemoteOSAuthentication Job"
+sidebar_position: 50
+---
+
 # Oracle_RemoteOSAuthentication Job
 
 The Oracle_RemoteOSAuthentication Job is designed to discover if remote OS authentication is enabled

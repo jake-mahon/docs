@@ -1,3 +1,9 @@
+---
+title: "Get-ConnectedUser"
+description: "Get-ConnectedUser"
+sidebar_position: 30
+---
+
 # Get-ConnectedUser
 
 The **Get-ConnectedUser** commandlet retrieves the general information about the user connected to
@@ -35,4 +41,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

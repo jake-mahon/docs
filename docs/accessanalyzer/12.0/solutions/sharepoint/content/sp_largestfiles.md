@@ -16,8 +16,11 @@ versions, and version size, along with file owner and file editor information.
 Navigate to the **Jobs** > **SharePoint** > **4.Content** > **SP_LargestFiles** > **Configure** node
 and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the SP_LargestFiles Job](/img/product_docs/accessanalyzer/12.0/solutions/sharepoint/content/largestfilesanalysis.webp)
 
@@ -29,6 +32,7 @@ The default analysis task is:
 In addition to the table created by the analysis task which displays the largest file resources, the
 SP_LargestFiles Job produces the following pre-configured report:
 
-| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                                |
-| ------------- | ------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Largest Files | This report identifies where the largest files, including versions, are stored. | None         | This report is comprised of three elements: - Bar Chart – Displays largest files - Table – Provides a summary of the largest sites - Table – Provides details on largest files |
+| Report        | Description                                                                     | Default Tags | Report Elements                                                                                                                                                                                            |
+| ------------- | ------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Largest Files | This report identifies where the largest files, including versions, are stored. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays largest files</li><li>Table – Provides a summary of the largest sites</li><li>Table – Provides details on largest files</li></ul> |
+

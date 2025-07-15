@@ -1,3 +1,9 @@
+---
+title: "Exchange2K: Results"
+description: "Exchange2K: Results"
+sidebar_position: 30
+---
+
 # Exchange2K: Results
 
 The Results page is where properties that will be gathered are selected. It is a wizard page for

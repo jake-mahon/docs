@@ -1,3 +1,9 @@
+---
+title: "Box: Exclusions Page"
+description: "Box: Exclusions Page"
+sidebar_position: 30
+---
+
 # Box: Exclusions Page
 
 The Exclude or Include folders page (ExclusionsPage) is where the scan can be limited to include or

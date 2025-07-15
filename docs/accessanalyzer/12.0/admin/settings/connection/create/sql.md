@@ -9,8 +9,11 @@ sidebar_position: 40
 This information applies to **Select Account Type** > **SQL Authentication** in the User Credentials
 window.
 
-**NOTE:** SQL Authentication credentials are used in the Connection Profiles for the SQL, MySQL, and
+:::note
+SQL Authentication credentials are used in the Connection Profiles for the SQL, MySQL, and
 PostgreSQL Solutions.
+:::
+
 
 ![User Credentials - SQL Authentication](/img/product_docs/accessanalyzer/12.0/admin/settings/connection/profile/sqlauthentication.webp)
 

@@ -1,3 +1,9 @@
+---
+title: "FS_DeleteFiles_Status Job"
+description: "FS_DeleteFiles_Status Job"
+sidebar_position: 20
+---
+
 # FS_DeleteFiles_Status Job
 
 The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers

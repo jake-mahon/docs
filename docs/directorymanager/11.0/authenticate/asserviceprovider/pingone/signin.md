@@ -1,3 +1,9 @@
+---
+title: "Sign In Using PingOne"
+description: "Sign In Using PingOne"
+sidebar_position: 30
+---
+
 # Sign In Using PingOne
 
 We configured PingOne with a GroupID client, that is the GroupID portal _Wizard_ in our example. We

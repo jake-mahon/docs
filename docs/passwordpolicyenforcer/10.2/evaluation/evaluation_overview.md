@@ -1,3 +1,9 @@
+---
+title: "Evaluation"
+description: "Evaluation"
+sidebar_position: 30
+---
+
 # Evaluation
 
 Netwrix Password Policy Enforcer is an advanced password filter for Windows. This Evaluator's Guide

@@ -1,3 +1,9 @@
+---
+title: "Enable-DistributionGroup"
+description: "Enable-DistributionGroup"
+sidebar_position: 20
+---
+
 # Enable-DistributionGroup
 
 This commandlet makes a distribution group in directory mail-enabled.
@@ -33,4 +39,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Mail-Enable/Disable Groups Commands](/docs/directorymanager/11.0/managementshell/mailenableddisabledgroups/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

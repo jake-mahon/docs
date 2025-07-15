@@ -1,3 +1,9 @@
+---
+title: "Group Membership"
+description: "Group Membership"
+sidebar_position: 80
+---
+
 # Group Membership
 
 Use the Groups Membership page to add or remove group members. Values from the source table can also

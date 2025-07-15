@@ -1,3 +1,9 @@
+---
+title: "SharePoint Custom Connection Profile & Host List"
+description: "SharePoint Custom Connection Profile & Host List"
+sidebar_position: 20
+---
+
 # SharePoint Custom Connection Profile & Host List
 
 The SPAA Data Collector requires a custom Connection Profile and a custom host list to be created
@@ -52,7 +58,7 @@ scanning SharePoint Online using Modern Authentication.
 ### SharePoint Online Credential for a Connection Profile using Modern Authentication
 
 The provisioned credential should be an Microsoft Entra ID Application. See the
-[SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/sharepointonline/access.md)
+[SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/requirements/sharepoint/sharepoint/sharepointonline/access.md)
 topic for instructions on registering and provisioning the Microsoft Entra ID Application manually
 or via the SP_RegisterAzureAppAuth Instant Job.
 

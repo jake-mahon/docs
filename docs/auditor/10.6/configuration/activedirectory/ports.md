@@ -1,3 +1,9 @@
+---
+title: "Active Directory Ports"
+description: "Active Directory Ports"
+sidebar_position: 10
+---
+
 # Active Directory Ports
 
 Review a full list of protocols and ports required for monitoring Active Directory.

@@ -1,3 +1,9 @@
+---
+title: "Group Policy Monitoring Scope"
+description: "Group Policy Monitoring Scope"
+sidebar_position: 10
+---
+
 # Group Policy Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Group Policy

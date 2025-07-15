@@ -1,3 +1,9 @@
+---
+title: "Change Attributes"
+description: "Change Attributes"
+sidebar_position: 10
+---
+
 # Change Attributes
 
 Use the Change File Attributes Parameters page to change the attribute for one or more of the target

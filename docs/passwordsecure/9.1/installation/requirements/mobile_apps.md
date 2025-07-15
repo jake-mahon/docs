@@ -1,3 +1,9 @@
+---
+title: "Mobile Apps"
+description: "Mobile Apps"
+sidebar_position: 50
+---
+
 # Mobile Apps
 
 #### Required Version

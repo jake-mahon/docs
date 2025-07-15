@@ -9,7 +9,7 @@ sidebar_position: 10
 The **Active Directory** > **2.Users** Job Group has been configured by default to run with the
 out-of-the-box settings. It can be run directly or scheduled.
 
-Dependencies
+**Dependencies**
 
 - The **.Active Directory Inventory** Job Group needs to be successfully executed prior to running
   this job group
@@ -25,40 +25,49 @@ Dependencies
       [PasswordSecurity: Dictionaries](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/dictionaries.md)
       topic for additional information.
 
-    **_RECOMMENDED:_** If this job is not to be used, disable the job to prevent execution when the
+    :::info
+    If this job is not to be used, disable the job to prevent execution when the
     job group is executed.
+    :::
 
-Targeted Host(s)
+
+**Targeted Host(s)**
 
 Only the **AD_WeakPasswords** Job requires a host list. The host list assignment has been configured
 under the **2. Users** > **AD_WeakPasswords** > **Configure** > **Hosts** node. It is set to target
 the **ONE DOMAIN CONTROLLER PER DOMAIN** host list. This host list is a dynamic host list based on
 the host inventory value in the **isDomainController** field in the Host Master Table.
 
-Connection Profile
+**Connection Profile**
 
 Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set directly on the
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
-**NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
+:::note
+The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
 [Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/requirements/activedirectory/target/access.md) topic for
 additional information.
+:::
 
-Schedule Frequency
+
+**Schedule Frequency**
 
 The data analyzed by the **2.Users** Job Group jobs is collected by the **.Active Directory
 Inventory** Job Group. Therefore, it is recommended to schedule these jobs to run after the
 **.Active Directory Inventory** job group collection has completed. These jobs can be scheduled to
 run as desired.
 
-Run at the Job Group Level
+**Run at the Job Group Level**
 
 Run the jobs in the **2.Users** Job Group together and in order by running the entire job group,
 instead of the individual jobs.
 
-_Remember,_ if the **AD_WeakPassword** Job is not to be executed, it can be disabled.
+:::tip
+Remember, if the **AD_WeakPassword** Job is not to be executed, it can be disabled.
+:::
 
-Analysis Configuration
+
+**Analysis Configuration**
 
 The **2.Users** Job Group should be run with the default analysis configurations. Most of the
 analysis tasks are preconfigured for this Job Group.
@@ -70,10 +79,13 @@ Some analysis tasks have customizable parameters:
 
     - Customize within **.Active Directory Inventory** > **3-AD_Exceptions** Job analysis tasks
 
-        **NOTE:** Changes to an exception’s definition will affect all jobs dependent upon that
+        :::note
+        Changes to an exception’s definition will affect all jobs dependent upon that
         exception as well as all Access Information Center Exceptions reports.
+        :::
 
-Workflow
+
+**Workflow**
 
 **Step 1 –** Prerequisite: Ensure the **.Active Directory Inventory** Job Group has been
 successfully run.
@@ -84,9 +96,12 @@ successfully run.
 
     - ONE DOMAIN CONTROLLER PER DOMAIN
 
-    **NOTE:** Default dynamic host lists are populated from hosts in the Host Master Table that meet
+    :::note
+    Default dynamic host lists are populated from hosts in the Host Master Table that meet
     the host inventory criteria for the list. Ensure the appropriate host lists have been populated
     through host inventory results.
+    :::
+
 
 **Step 3 –** Set a Connection Profile on the job that runs the data collection.
 

@@ -1,3 +1,9 @@
+---
+title: "Resource Audit Interface"
+description: "Resource Audit Interface"
+sidebar_position: 20
+---
+
 # Resource Audit Interface
 
 The Resource Audit interface is where resource reports are located. Summary and detail reports are

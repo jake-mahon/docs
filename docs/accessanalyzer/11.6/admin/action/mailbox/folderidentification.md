@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Folder Identification"
+description: "Mailbox: Folder Identification"
+sidebar_position: 50
+---
+
 # Mailbox: Folder Identification
 
 Use the Folder Identification page to specify folders to target. It is a wizard page for the Delete

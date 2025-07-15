@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Fields"
+description: "Change Detection: Fields"
+sidebar_position: 40
+---
+
 # Change Detection: Fields
 
 Use the Change Detection Fields page to select the columns on which to report changes.

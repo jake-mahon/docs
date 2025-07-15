@@ -1,3 +1,9 @@
+---
+title: "Remove-GroupMember"
+description: "Remove-GroupMember"
+sidebar_position: 40
+---
+
 # Remove-GroupMember
 
 Use this commandlet to remove one or more members from a group membership.
@@ -29,7 +35,7 @@ Example:
 
 The following command removes the user Brian Regan from the membership of the group Event Management
 using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -40,4 +46,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

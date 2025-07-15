@@ -1,3 +1,9 @@
+---
+title: "Add-GroupMember"
+description: "Add-GroupMember"
+sidebar_position: 10
+---
+
 # Add-GroupMember
 
 The **Add-GroupMember** commandlet helps you to add one or more objects to the membership of a group
@@ -36,7 +42,7 @@ Example 1:
 
 The following command adds the user **Brian Regan** to the membership of the **Event Management**
 group using the credentials set in the **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -60,4 +66,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

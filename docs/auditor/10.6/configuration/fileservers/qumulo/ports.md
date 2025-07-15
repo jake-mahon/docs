@@ -1,3 +1,9 @@
+---
+title: "Qumulo Ports"
+description: "Qumulo Ports"
+sidebar_position: 10
+---
+
 # Qumulo Ports
 
 Review a full list of protocols and ports required for Netwrix Auditor for Qumulo.

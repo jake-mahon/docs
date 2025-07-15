@@ -1,3 +1,9 @@
+---
+title: "PowerShell: Results"
+description: "PowerShell: Results"
+sidebar_position: 40
+---
+
 # PowerShell: Results
 
 The Results page provides configuration settings for the Properties to return and ROWKEY's

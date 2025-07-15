@@ -1,3 +1,9 @@
+---
+title: "1-FSAA System Scans Job"
+description: "1-FSAA System Scans Job"
+sidebar_position: 40
+---
+
 # 1-FSAA System Scans Job
 
 The 1-FSAA System Scans job is designed to collect access information from the targeted file

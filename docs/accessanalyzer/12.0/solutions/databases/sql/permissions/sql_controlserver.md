@@ -14,8 +14,11 @@ server permissions can command full control of a SQL and Azure SQL server instan
 Navigate to the **Databases** > SQL > 3.Permissions > SQL_ControlServer > Configure node and select
 Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup37.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the SQL_ControlServer Job produces
 the following pre-configured report.
 
-| Report                     | Description                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Control Server Permissions | This report highlights control server permissions, and summarizes them by instance and by domain user. | None         | This report is comprised of three elements: - Bar Chart – Displays top instances by control server permissions - Table – Provides details on instances by control server permission count - Table – Provides details on control server permissions |
+| Report                     | Description                                                                                            | Default Tags | Report Elements                                                                                                                                                                                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Control Server Permissions | This report highlights control server permissions, and summarizes them by instance and by domain user. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top instances by control server permissions</li><li>Table – Provides details on instances by control server permission count</li><li>Table – Provides details on control server permissions</li></ul> |
+

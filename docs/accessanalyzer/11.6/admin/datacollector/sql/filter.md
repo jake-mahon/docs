@@ -1,3 +1,9 @@
+---
+title: "SQL: Filter"
+description: "SQL: Filter"
+sidebar_position: 50
+---
+
 # SQL: Filter
 
 The Filter page is where the query can be scoped to target specific databases or instances. It is a

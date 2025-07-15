@@ -1,3 +1,9 @@
+---
+title: "Oracle_ObjectPermissions Job"
+description: "Oracle_ObjectPermissions Job"
+sidebar_position: 20
+---
+
 # Oracle_ObjectPermissions Job
 
 The Oracle_ObjectPermissions Job provides insight into user and role permissions to database objects

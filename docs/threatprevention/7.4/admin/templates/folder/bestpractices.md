@@ -1,3 +1,9 @@
+---
+title: "Best Practices Folder Templates"
+description: "Best Practices Folder Templates"
+sidebar_position: 20
+---
+
 # Best Practices Folder Templates
 
 The Best Practices folder contains the following templates:

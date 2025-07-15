@@ -51,8 +51,11 @@ on which version of Exchange is audited.
           Exchange CAS where both Remote PowerShell and Windows Authentication on the PowerShell
           Virtual Directory have been enabled.
 
-**_RECOMMENDED:_** Once the Exchange Connection Settings have been properly configured for the
+:::info
+Once the Exchange Connection Settings have been properly configured for the
 version of Exchange to be audited, it is strongly recommended that the settings be tested.
+:::
+
 
 In the Test Exchange Connection Settings section:
 

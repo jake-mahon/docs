@@ -1,3 +1,9 @@
+---
+title: "SharePoint Reports"
+description: "SharePoint Reports"
+sidebar_position: 30
+---
+
 # SharePoint Reports
 
 SharePoint reports are accessed through the Resource Audit interface. Explore the SharePoint

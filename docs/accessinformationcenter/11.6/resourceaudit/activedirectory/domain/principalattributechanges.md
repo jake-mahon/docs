@@ -1,3 +1,9 @@
+---
+title: "Principal Attribute Changes Report"
+description: "Principal Attribute Changes Report"
+sidebar_position: 30
+---
+
 # Principal Attribute Changes Report
 
 The Principal Attribute Changes report at the domain level provides change event information by

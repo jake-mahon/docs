@@ -1,3 +1,9 @@
+---
+title: "ExchangePublicFolder: Properties"
+description: "ExchangePublicFolder: Properties"
+sidebar_position: 30
+---
+
 # ExchangePublicFolder: Properties
 
 The Properties page is where properties that will be gathered are selected. It is a wizard page for

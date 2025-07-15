@@ -14,8 +14,11 @@ policy is assigned, directly or at a group level, and if the policy assignment h
 Navigate to the **AWS** > **5.Policies** > **AWS_UserPolicies** > **Configure** node and select
 **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AWS_UserPolicies Job](/img/product_docs/accessanalyzer/12.0/solutions/aws/policies/userpoliciesanalysis.webp)
 
@@ -33,7 +36,8 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis task, the AWS_UserPolicies job produces
 the following preconfigured report:
 
-| Report                       | Description                                                                                                          | Default Tags | Report Element                                                                                                                                                                                                                                                     |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Duplicate Policy Assignments | This report highlights policies that have been both assigned directly and inherited from a group to a user identity. | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays top accounts by assigned managed policies - Table – Provides details on managed policy assignments                                                                              |
-| Managed Policy Assignments   | This report details managed policy assignments in the AWS Organization.                                              | None         | This report is comprised of the following elements: - Stacked Bar Chart – Displays duplicate policy assignment summary by account - Table – Shows duplicate policy assignment summary by account - Table – Provides details on duplicate policy assignment summary |
+| Report                       | Description                                                                                                          | Default Tags | Report Element                                                                                                                                                                                                                                                                                 |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Duplicate Policy Assignments | This report highlights policies that have been both assigned directly and inherited from a group to a user identity. | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays top accounts by assigned managed policies</li><li>Table – Provides details on managed policy assignments</li></ul>                                                                                    |
+| Managed Policy Assignments   | This report details managed policy assignments in the AWS Organization.                                              | None         | This report is comprised of the following elements: <ul><li>Stacked Bar Chart – Displays duplicate policy assignment summary by account</li><li>Table – Shows duplicate policy assignment summary by account</li><li>Table – Provides details on duplicate policy assignment summary</li></ul> |
+

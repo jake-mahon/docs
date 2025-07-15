@@ -1,3 +1,9 @@
+---
+title: "Change Permissions and Auditing"
+description: "Change Permissions and Auditing"
+sidebar_position: 20
+---
+
 # Change Permissions and Auditing
 
 Use the Change Permissions and Auditing Parameters page to specify the permissions and auditing

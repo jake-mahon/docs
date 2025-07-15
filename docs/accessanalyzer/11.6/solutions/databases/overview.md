@@ -1,3 +1,9 @@
+---
+title: "Databases Solutions"
+description: "Databases Solutions"
+sidebar_position: 90
+---
+
 # Databases Solutions
 
 Enterprise Auditor Databases Solution Set is a comprehensive set of pre-configured audit jobs and

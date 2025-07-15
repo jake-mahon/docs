@@ -1,3 +1,9 @@
+---
+title: "Register an Application (Service Provider) in GroupID"
+description: "Register an Application (Service Provider) in GroupID"
+sidebar_position: 10
+---
+
 # Register an Application (Service Provider) in GroupID
 
 To register a service provider in GroupID, you have to create an application for the provider in

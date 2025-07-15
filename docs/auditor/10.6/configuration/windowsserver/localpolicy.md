@@ -1,3 +1,9 @@
+---
+title: "Configure Local Audit Policies"
+description: "Configure Local Audit Policies"
+sidebar_position: 40
+---
+
 # Configure Local Audit Policies
 
 Local audit policies must be configured on the target servers to get the "Who" and "When" values for

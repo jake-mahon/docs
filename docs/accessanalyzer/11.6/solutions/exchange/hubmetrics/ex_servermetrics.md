@@ -1,3 +1,9 @@
+---
+title: "EX_ServerMetrics Job"
+description: "EX_ServerMetrics Job"
+sidebar_position: 80
+---
+
 # EX_ServerMetrics Job
 
 The EX_ServerMetrics Job provides visibility into server mail flow statistics, such as, sent,

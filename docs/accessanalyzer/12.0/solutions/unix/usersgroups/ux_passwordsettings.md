@@ -14,8 +14,11 @@ configurations within audited Unix and Linux environments.
 Navigate to the **Unix** > **1.Users and Groups** > **UX_PasswordSettings** > **Configure** node and
 select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the UX_PasswordSettings Job](/img/product_docs/accessanalyzer/12.0/solutions/unix/usersgroups/passwordsettingsanalysis.webp)
 
@@ -29,7 +32,8 @@ The default analysis tasks are:
 In addition to the table and views created by the analysis tasks, the UX_PasswordSettings job
 produces the following pre-configured reports:
 
-| Report                    | Description                                                                | Default Tags | Report Elements                                                                               |
-| ------------------------- | -------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------- |
-| Local User Passwords      | This report outlines password information for each local user on each host | None         | This report is comprised of one element: - Table – Provides details on User Password Settings |
-| Password Security Setting | This report lists password security settings for each audited host         | None         | This report is comprised of one element: - Table – Provides details on Password Settings      |
+| Report                    | Description                                                                | Default Tags | Report Elements                                                                                               |
+| ------------------------- | -------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| Local User Passwords      | This report outlines password information for each local user on each host | None         | This report is comprised of one element: <ul><li>Table – Provides details on User Password Settings</li></ul> |
+| Password Security Setting | This report lists password security settings for each audited host         | None         | This report is comprised of one element: <ul><li>Table – Provides details on Password Settings</li></ul>      |
+

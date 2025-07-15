@@ -31,8 +31,11 @@ The FS_AzureTenantScan job has the following prerequisites:
     - Resource Group
     - Storage Account
 
-        **NOTE:** The custom role cannot be created at the storage account level via the web UI, but
+        :::note
+        The custom role cannot be created at the storage account level via the web UI, but
         it can be assigned here.
+        :::
+
 
 Follow the steps to create the role assignment.
 
@@ -75,7 +78,10 @@ information.
 The Azure Tenant Scan query uses the FSAA Data Collector and has been preconfigured to use the Azure
 Scan and import category.
 
-**CAUTION:** Do not modify the query. The query is preconfigured for this job.
+:::warning
+Do not modify the query. The query is preconfigured for this job.
+:::
+
 
 ![Query for the FS_AzureTenantScan Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/collection/azuretenantscanquery.webp)
 

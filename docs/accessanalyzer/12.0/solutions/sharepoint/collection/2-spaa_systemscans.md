@@ -25,10 +25,13 @@ The 2-SPAA_SystemScans Job has been preconfigured to run with the default settin
 Data Collector category of Scan SharePoint Access, which is not visible within the SharePoint Access
 Auditor Data Collector Wizard when opened from within this job.
 
-**CAUTION:** Users should not change scans in a way that would result in less data being returned on
+:::warning
+Users should not change scans in a way that would result in less data being returned on
 a subsequent scan (i.e. scanning fewer web applications, scanning fewer site collections, or a
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
+:::
+
 
 Follow the steps to set any desired customizations.
 
@@ -65,7 +68,10 @@ desired and click **Next**.
 **Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/agentsettings.md) page,
 use the default settings unless an agent scan mode is desired. Click **Next**.
 
-**CAUTION:** Do not configure the options on the Results page.
+:::warning
+Do not configure the options on the Results page.
+:::
+
 
 **Step 8 –** On the Results page, all Available Properties are selected by default. Click **Next**.
 

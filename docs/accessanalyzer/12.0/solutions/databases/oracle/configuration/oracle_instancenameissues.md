@@ -15,8 +15,11 @@ V-61413 – Oracle instance name or SID should not contain Oracle version number
 Navigate to the **Jobs > Databases > Oracle > 4.Configuration > Oracle_InstanceNameIssues >
 Configure** node and select **Analysis** to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/oracle/configuration/analysisinstancenameissues.webp)
 
@@ -31,6 +34,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the **Oracle_InstanceNameIssues
 Job** produces the following pre-configured report.
 
-| Report               | Description                                                                        | Default Tags | Report Elements                                                                                                                                         |
-| -------------------- | ---------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Instance Name Issues | This report highlights default instance names or those containing version numbers. | None         | This report is comprised of two elements: - Pie Chart – Displays percentage of instance names with issues - Table – Provides details of instance issues |
+| Report               | Description                                                                        | Default Tags | Report Elements                                                                                                                                                               |
+| -------------------- | ---------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Instance Name Issues | This report highlights default instance names or those containing version numbers. | None         | This report is comprised of two elements: <ul><li>Pie Chart – Displays percentage of instance names with issues</li><li>Table – Provides details of instance issues</li></ul> |
+

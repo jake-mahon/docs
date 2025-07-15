@@ -1,3 +1,9 @@
+---
+title: "Unix: Parsing"
+description: "Unix: Parsing"
+sidebar_position: 40
+---
+
 # Unix: Parsing
 
 The Parsing Configuration page configures the columns to return from the remote command and the

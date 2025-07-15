@@ -11,8 +11,11 @@ in the Access Role wizard. When saving the first role or set of roles added to t
 list in the Roles view, the Administrator role must be included for a least one user or an error
 message displays.
 
-**NOTE:** You must have local administrator rights on the Access Analyzer Console server to assign
+:::note
+You must have local administrator rights on the Access Analyzer Console server to assign
 roles and enable Role Based Access.
+:::
+
 
 Follow the steps to assign roles in the Access Analyzer Console.
 
@@ -63,8 +66,11 @@ Access Analyzer Console server with permissions to the Access Analyzer applicati
 users are assigned roles, they are added to this NEAUsers group to give them the necessary
 permissions. This allows roles to be leveraged without requiring local Administrator rights.
 
-**NOTE:** The Web Administrator and Report Viewer roles do not require access to the Access Analyzer
+:::note
+The Web Administrator and Report Viewer roles do not require access to the Access Analyzer
 console, so users assigned these roles are not added to the NEAUsers group.
+:::
+
 
 ![NEAUsers group](/img/product_docs/accessanalyzer/12.0/admin/settings/access/rolebased/neausersgroup.webp)
 
@@ -105,8 +111,11 @@ Follow the steps to delete a user from having access to the Access Analyzer Cons
 **Step 1 –** On the Access page, select the desired user and click **Delete Role Member**. The
 selected user will be removed from the list.
 
-**NOTE:** No confirmation will be requested. However the changes will not be finalized until Step 3
+:::note
+No confirmation will be requested. However the changes will not be finalized until Step 3
 is completed.
+:::
+
 
 **Step 2 –** Repeat Step 1 to remove other users as desired.
 

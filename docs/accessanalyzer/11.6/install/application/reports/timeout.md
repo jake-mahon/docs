@@ -1,3 +1,9 @@
+---
+title: "Timeout Parameter for the Web Console"
+description: "Timeout Parameter for the Web Console"
+sidebar_position: 60
+---
+
 # Timeout Parameter for the Web Console
 
 The Web Console is configured with a default timeout parameter of 15 minutes. This can be configured

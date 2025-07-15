@@ -1,3 +1,9 @@
+---
+title: "Box_ExternalUserCollaborations Job"
+description: "Box_ExternalUserCollaborations Job"
+sidebar_position: 40
+---
+
 # Box_ExternalUserCollaborations Job
 
 The Box_ExternalUserCollaborations Job External Users are collaborators from outside your

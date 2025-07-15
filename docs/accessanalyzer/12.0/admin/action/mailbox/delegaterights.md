@@ -30,8 +30,11 @@ Set delegate rights using the following options:
 
     - Calendar
 
-        **NOTE:** If Editor or a higher rights level is selected, the **Delegate receives copies of
+        :::note
+        If Editor or a higher rights level is selected, the **Delegate receives copies of
         meeting-related messages sent to me** option is enabled for selection.
+        :::
+
 
     - Tasks
     - Inbox

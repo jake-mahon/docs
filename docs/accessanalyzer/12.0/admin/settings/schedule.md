@@ -18,11 +18,14 @@ Schedule Service Accounts are configured at the global level, and this account c
 schedule jobs in the Schedule Wizard. See the [Schedules](/docs/accessanalyzer/12.0/admin/schedule/overview.md) topic for
 additional information.
 
-**CAUTION:** On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
+:::warning
+On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
 session when the time comes for a scheduled task to start. Windows blocks the starting or running of
 scheduled tasks using an account that is logged into the server.
+:::
 
-Password Storage Options
+
+**Password Storage Options**
 
 The password for the credential provided can be stored in the Access Analyzer application or the
 Access Analyzer Vault.
@@ -31,7 +34,7 @@ Choosing between the Access Analyzer application and Access Analyzer Vault is a 
 configured in the **Settings** > **Application** node. See the
 [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for additional information.
 
-Permissions
+**Permissions**
 
 Regardless of the account type, any account used to schedule tasks must have credentials with at
 least the following to meet Least Privileged specifications:
@@ -88,17 +91,23 @@ Use one of the following options for the Schedule Service Account:
     - The account can be either a domain account or a local Windows account
     - A local Windows account is a specific account and not the default local system account
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Access
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Access
 Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ## Create a Schedule Service Account
 
 Follow the steps to create a Schedule Service Account.
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Access
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Access
 Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/12.0/admin/settings/addusercredential.webp)
 
@@ -185,9 +194,12 @@ Access Analyzer can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to edit a Schedule Service Account credentials.
 
-_Remember,_ the Schedule Service Account cannot be signed into an active session on the Access
+:::tip
+Remember, the Schedule Service Account cannot be signed into an active session on the Access
 Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
+:::
+
 
 ![Edit option in the Schedule view](/img/product_docs/accessanalyzer/12.0/admin/settings/edit.webp)
 

@@ -1,3 +1,9 @@
+---
+title: "Microsoft Entra ID"
+description: "Microsoft Entra ID"
+sidebar_position: 10
+---
+
 # Microsoft Entra ID
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and
@@ -26,7 +32,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - While no special settings are required. Remember to do the following:
 
         - Prepare a Data Collecting Account as described in
-          [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions.md)
+          [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/permissions.md)
           topic
         - Configure required protocols and ports, as described in the
           [Microsoft Entra ID Ports](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/ports.md)

@@ -1,3 +1,9 @@
+---
+title: "Change Detection: Result Sample"
+description: "Change Detection: Result Sample"
+sidebar_position: 70
+---
+
 # Change Detection: Result Sample
 
 The Result Sample page generates a preview of the output based on the configurations selected on the

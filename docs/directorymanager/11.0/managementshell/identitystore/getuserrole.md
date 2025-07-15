@@ -1,3 +1,9 @@
+---
+title: "Get-UserRole"
+description: "Get-UserRole"
+sidebar_position: 120
+---
+
 # Get-UserRole
 
 The commandlet **Get-UserRole** displays information about the role of the specified user in an
@@ -81,4 +87,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

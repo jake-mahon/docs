@@ -1,3 +1,9 @@
+---
+title: "Web Request: Settings"
+description: "Web Request: Settings"
+sidebar_position: 40
+---
+
 # Web Request: Settings
 
 Use the settings page to specify the settings for the web request.

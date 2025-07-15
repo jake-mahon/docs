@@ -1,3 +1,9 @@
+---
+title: "Registration and Permissions Assignment"
+description: "Registration and Permissions Assignment"
+sidebar_position: 10
+---
+
 # Registration and Permissions Assignment
 
 This section discusses the GroupID application registration and permission assignment procedure.

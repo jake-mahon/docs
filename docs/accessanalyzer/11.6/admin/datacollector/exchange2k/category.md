@@ -1,3 +1,9 @@
+---
+title: "Exchange2K: Category"
+description: "Exchange2K: Category"
+sidebar_position: 10
+---
+
 # Exchange2K: Category
 
 The Exchange2K Data Collector contains the following query categories, sub-divided by auditing

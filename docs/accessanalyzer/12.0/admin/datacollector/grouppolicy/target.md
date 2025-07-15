@@ -24,8 +24,11 @@ In the Connect to section of the page, select from the following options:
 In the Use these job credentials to browse section of the page, if multiple credentials are set up,
 select the credentials to use for the query from the dropdown menu.
 
-**NOTE:** If the Default Connection profile has only one set of credentials, the dropdown will be
+:::note
+If the Default Connection profile has only one set of credentials, the dropdown will be
 grayed out and will only display the default credentials for that profile.
+:::
+
 
 In the Get .admx policy definitions from section of the page, select from the following options:
 

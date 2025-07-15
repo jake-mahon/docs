@@ -1,3 +1,9 @@
+---
+title: "Add Subscription"
+description: "Add Subscription"
+sidebar_position: 30
+---
+
 # Add Subscription
 
 A subscription sends the report results for an investigation to recipients via email as an

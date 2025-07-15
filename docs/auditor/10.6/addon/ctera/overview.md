@@ -1,3 +1,9 @@
+---
+title: "Ctera"
+description: "Ctera"
+sidebar_position: 60
+---
+
 # Ctera
 
 The add-on works in collaboration with Netwrix Auditor, supplying data about activity on your

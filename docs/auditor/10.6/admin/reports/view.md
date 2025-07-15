@@ -1,3 +1,9 @@
+---
+title: "View Reports"
+description: "View Reports"
+sidebar_position: 10
+---
+
 # View Reports
 
 To view reports, users need the following:

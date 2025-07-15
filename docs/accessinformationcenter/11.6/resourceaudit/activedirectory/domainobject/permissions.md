@@ -1,3 +1,9 @@
+---
+title: "Permissions Report"
+description: "Permissions Report"
+sidebar_position: 20
+---
+
 # Permissions Report
 
 The Permissions report at the domain object level provides the trustees that have rights on the

@@ -1,3 +1,9 @@
+---
+title: "VMware"
+description: "VMware"
+sidebar_position: 130
+---
+
 # VMware
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

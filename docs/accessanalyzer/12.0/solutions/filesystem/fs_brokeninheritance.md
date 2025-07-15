@@ -37,8 +37,11 @@ topic for additional information.
 View the analysis tasks by navigating to the **FileSystem** > **3.Broken Inheritance** >
 **FS_BrokenInheritance** > **Configure** node and select **Analysis**.
 
-**CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
+:::warning
+Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
+:::
+
 
 ![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/brokeninheritanceanalysis.webp)
 
@@ -84,7 +87,9 @@ The following analysis tasks are deselected by default:
 In addition to the tables and views created by the analysis tasks, the FS_BrokenInheritance job
 produces the following pre-configured reports:
 
-| Report                                                   | Description                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                     |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Broken Inheritance by Share (Broken Inheritance Details) | Broken inheritance between resources can lead to incorrect access for users, either overprovisioning them, or locking them out of critical data. This report identifies the shares and folders with the most permission changes from the parent resource. | None         | This report is comprised of three elements: - Bar Chart – Displays top five shares by permission changes - Table – Provides details on folders - Table – Provides details on shares |
-| Unique Trustees                                          | This report identifies permission changes between folders. These trustees have been either removed, added, or had their rights adjusted.                                                                                                                  | None         | This report is comprised of one element: - Table – Provides details on unique trustees                                                                                              |
+| Report                                                   | Description                                                                                                                                                                                                                                               | Default Tags | Report Elements                                                                                                                                                                                                 |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Broken Inheritance by Share (Broken Inheritance Details) | Broken inheritance between resources can lead to incorrect access for users, either overprovisioning them, or locking them out of critical data. This report identifies the shares and folders with the most permission changes from the parent resource. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top five shares by permission changes</li><li>Table – Provides details on folders</li><li>Table – Provides details on shares</li></ul> |
+| Unique Trustees                                          | This report identifies permission changes between folders. These trustees have been either removed, added, or had their rights adjusted.                                                                                                                  | None         | This report is comprised of one element: <ul><li>Table – Provides details on unique trustees</li></ul>                                                                                                          |
+
+

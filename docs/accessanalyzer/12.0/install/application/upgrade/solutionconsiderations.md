@@ -8,17 +8,20 @@ sidebar_position: 10
 
 The following items must be taken into consideration for upgrades:
 
-Access Information Center
+**Access Information Center**
 
 - Should be upgraded at the same time as Access Analyzer.
 
-    **NOTE:** The Access Analyzer upgrade should be completed first.
+    :::note
+    The Access Analyzer upgrade should be completed first.
+    :::
+
 
 See the Upgrade Procedure for Access Analyzer topic in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)[ ](https://www.stealthbits.com/jdownloads/Documentation%20User%20Guides%20PDF/Stealthbits_AIC_InstallConfigGuide.pdf)for
 instructions.
 
-Sensitive Data Discovery
+**Sensitive Data Discovery**
 
 - In Access Analyzer 12.0 the Sensitive Data Discovery features are included in the standard
   installations when your license includes it. If you have the old Sensitive Data Discovery Add-On
@@ -26,15 +29,18 @@ Sensitive Data Discovery
   Access Analyzer Console server, and any File System proxy and SharePoint Agent servers where it is
   installed, before proceeding with the upgrade.
 
-    **CAUTION:** The new global settings will overwrite any previously configured criteria. Make a
+    :::warning
+    The new global settings will overwrite any previously configured criteria. Make a
     note of any configured Sensitive Data Criteria before upgrading Access Analyzer. Sensitive Data
     Criteria must be reconfigured after an upgrade.
+    :::
+
 
 - Sensitive Data Criteria selection is configured globally and used by default in all solution sets.
   See the [Configure Global Sensitive Data Settings](#configure-global-sensitive-data-settings) for
   additional information.
 
-Active Directory Solution Considerations
+**Active Directory Solution Considerations**
 
 - The Active Directory solution by default upgrades as **Upgrade in Place**. Do not change this
   upgrade option. After completing the upgrade, you need to manually add the new **Active
@@ -44,7 +50,7 @@ Active Directory Solution Considerations
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-File System Solution Considerations
+**File System Solution Considerations**
 
 - For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers.
   See the [Upgrade Proxy Service Procedure](/docs/accessanalyzer/12.0/install/filesystemproxy/upgrade.md) topic for
@@ -54,7 +60,7 @@ File System Solution Considerations
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-SharePoint Solution Considerations
+**SharePoint Solution Considerations**
 
 - For SharePoint Agent – Access Analyzer SharePoint Agent needs to be updated on the SharePoint
   server where it was installed. See the
@@ -87,9 +93,12 @@ information.
 
 ## Configure Global Sensitive Data Settings
 
-**CAUTION:** The new global Settings will overwrite any previously configured criteria. Make a note
+:::warning
+The new global Settings will overwrite any previously configured criteria. Make a note
 of any configured Sensitive Data Criteria before commencing the upgrade Access Analyzer. Sensitive
 Data Criteria must be reconfigured after an upgrade.
+:::
+
 
 If Sensitive Data Criteria are configured differently for each solution, re-configure the criteria
 selection at the solution level. See the topic for the applicable solution for additional

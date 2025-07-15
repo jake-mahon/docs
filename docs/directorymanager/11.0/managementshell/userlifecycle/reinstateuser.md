@@ -1,3 +1,9 @@
+---
+title: "Reinstate-User"
+description: "Reinstate-User"
+sidebar_position: 30
+---
+
 # Reinstate-User
 
 Use the **Reinstate-User** command to activate or disable a user. Users can be disabled for any of
@@ -36,4 +42,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

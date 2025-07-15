@@ -1,3 +1,9 @@
+---
+title: "Running Job Details"
+description: "Running Job Details"
+sidebar_position: 10
+---
+
 # Running Job Details
 
 Both the Process ID and the View Details links open the running job's Details page. The path of the

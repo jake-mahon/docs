@@ -1,3 +1,9 @@
+---
+title: "Lockouts > AD_Lockouts Job"
+description: "Lockouts > AD_Lockouts Job"
+sidebar_position: 60
+---
+
 # Lockouts > AD_Lockouts Job
 
 The **Lockouts** > **AD_Lockouts** Job provides a listing of all account lockouts. For any lockout

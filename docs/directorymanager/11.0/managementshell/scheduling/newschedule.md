@@ -1,3 +1,9 @@
+---
+title: "New-Schedule"
+description: "New-Schedule"
+sidebar_position: 40
+---
+
 # New-Schedule
 
 The commandlet **New-Schedule** creates a new schedule in the identity store connected to the
@@ -101,4 +107,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

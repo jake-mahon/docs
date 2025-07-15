@@ -1,3 +1,9 @@
+---
+title: "Recommended Configurations for the 8. Exchange Online Job Group"
+description: "Recommended Configurations for the 8. Exchange Online Job Group"
+sidebar_position: 10
+---
+
 # Recommended Configurations for the 8. Exchange Online Job Group
 
 Dependencies
@@ -23,7 +29,7 @@ PowerShell Data Collector. The host list needs to be set to one of the following
 Connection Profile
 
 See the
-[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
 topic for the EX_Mailflow job requirements.
 
 Additionally, the Exchange Online job group needs access to the following Exchange Online URLs to

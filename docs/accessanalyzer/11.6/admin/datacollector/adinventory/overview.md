@@ -1,3 +1,9 @@
+---
+title: "ADInventory Data Collector"
+description: "ADInventory Data Collector"
+sidebar_position: 40
+---
+
 # ADInventory Data Collector
 
 The extraction and correlation of user, group, and computer attributes drastically transforms the

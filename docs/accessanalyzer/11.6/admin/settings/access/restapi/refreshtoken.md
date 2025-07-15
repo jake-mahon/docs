@@ -1,3 +1,9 @@
+---
+title: "Use the Client Credentials to Grant a Refesh Token"
+description: "Use the Client Credentials to Grant a Refesh Token"
+sidebar_position: 30
+---
+
 # Use the Client Credentials to Grant a Refesh Token
 
 A refresh token contains the information required to obtain a renewed access token. Request a

@@ -14,8 +14,11 @@ user input.
 View the analysis tasks by navigating to the FileSystem > Ad Hoc Audits > FS_TrusteePermissions >
 Configure node and select Analysis.
 
-**CAUTION:** Do not modify or deselect the second selected analysis task. The analysis task is
+:::warning
+Do not modify or deselect the second selected analysis task. The analysis task is
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/adhocaudits/trusteepermissionsanalysis.webp)
 
@@ -33,6 +36,7 @@ The following analysis tasks are selected by default:
 In addition to the tables and views created by the analysis tasks, the FS_TrusteePermissions Job
 produces the following pre-configured report:
 
-| Report                    | Description                                                                                             | Default Tags | Report Elements                                                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Trustee Permissions Audit | This report provides an overview of the access sprawl across the environment for the select trustee(s). | None         | This report is comprised of two elements: - Bar Chart – Displays summary of trustees - Table – Provides details on trustee permissions |
+| Report                    | Description                                                                                             | Default Tags | Report Elements                                                                                                                                              |
+| ------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Trustee Permissions Audit | This report provides an overview of the access sprawl across the environment for the select trustee(s). | None         | This report is comprised of two elements: <ul><li>Bar Chart – Displays summary of trustees</li><li>Table – Provides details on trustee permissions</li></ul> |
+

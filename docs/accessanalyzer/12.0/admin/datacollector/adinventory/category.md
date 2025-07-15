@@ -22,6 +22,9 @@ The categories include the following tasks:
   [Clear ADInventory Tables](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/cleartables.md) topic for more information.
 - Drop Domain – Remove host domain related data from SQL server
 
-**NOTE:** The Scan Active Directory category is the pre-configured setting for the .Active Directory
+:::note
+The Scan Active Directory category is the pre-configured setting for the .Active Directory
 Inventory Job Group. Therefore, accessing the Active Directory Inventory DC Wizard from the query
 within that job group does not display the Category wizard page.
+
+:::

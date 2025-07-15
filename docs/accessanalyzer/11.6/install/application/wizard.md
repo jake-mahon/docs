@@ -1,3 +1,9 @@
+---
+title: "Enterprise Auditor Core Installation"
+description: "Enterprise Auditor Core Installation"
+sidebar_position: 20
+---
+
 # Enterprise Auditor Core Installation
 
 Save the organization’s Enterprise Auditor license key, received from your Netwrix Sales

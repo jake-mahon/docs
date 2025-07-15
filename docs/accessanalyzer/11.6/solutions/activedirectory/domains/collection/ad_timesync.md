@@ -1,3 +1,9 @@
+---
+title: "AD_TimeSync Job"
+description: "AD_TimeSync Job"
+sidebar_position: 30
+---
+
 # AD_TimeSync Job
 
 The 0.**Collection > AD_TimeSync** Job collects TimeSync information from the registry for each

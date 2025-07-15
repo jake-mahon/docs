@@ -15,8 +15,11 @@ Navigate to the **Active Directory Permissions Analyzer** > **8.Domains** >
 **AD_CertificateAuthorityRights** > **Configure** node and select **Analysis** to view the analysis
 tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
+:::warning
+Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
+:::
+
 
 ![Analysis Tasks for the AD_CertificateAuthorityRights Job](/img/product_docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/domains/certificateauthorityrightsanalysis.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis tasks, the AD_CertificateAuthorityRights
 job produces the following pre-configured report.
 
-| Report                 | Description                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                     |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enrollment Permissions | This report highlights vulnerable Access control Lists (ACLs) with permissions or owners assigned to open groups and non-standard ACLs with owners that are not domain or enterprise admins. | None         | This report is comprised of three elements: - Bar Chart – Displays risky permissions by principal - Pie Chart – Displays risky permissions by count - Table – Provides details on risky permissions |
+| Report                 | Description                                                                                                                                                                                  | Default Tags | Report Elements                                                                                                                                                                                                                 |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enrollment Permissions | This report highlights vulnerable Access control Lists (ACLs) with permissions or owners assigned to open groups and non-standard ACLs with owners that are not domain or enterprise admins. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays risky permissions by principal</li><li>Pie Chart – Displays risky permissions by count</li><li>Table – Provides details on risky permissions</li></ul> |
+

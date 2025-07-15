@@ -1,3 +1,9 @@
+---
+title: "AD_GroupMemberActivity Job"
+description: "AD_GroupMemberActivity Job"
+sidebar_position: 30
+---
+
 # AD_GroupMemberActivity Job
 
 The AD_GroupMemberActivity Job analyzes the AD actions taken by the effective members of a group.

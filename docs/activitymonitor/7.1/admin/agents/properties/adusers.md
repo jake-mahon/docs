@@ -1,3 +1,9 @@
+---
+title: "AD Users Tab"
+description: "AD Users Tab"
+sidebar_position: 30
+---
+
 # AD Users Tab
 
 Use the AD Users tab to customize Active Directory service queries and caching behavior.

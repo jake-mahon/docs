@@ -28,8 +28,11 @@ The Menu Bar options are:
       [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) section for information on installing
       instant solutions from the Access Analyzer Library.
 
-        **CAUTION:** Delete Job will also delete all data tables with the job’s base naming
+        :::warning
+        Delete Job will also delete all data tables with the job’s base naming
         convention from the SQL database.
+        :::
+
 
     - Delete Job – Deletes the selected job from the Jobs tree
     - Properties – Opens the Job Properties window for the selected job. See the
@@ -44,8 +47,11 @@ The Menu Bar options are:
     - Paste – Pastes (Ctrl+V) a copied job group or job to the selected job group folder (or into
       the Jobs tree)
 
-        **CAUTION:** Delete will also delete all data tables with the job’s base naming convention
+        :::warning
+        Delete will also delete all data tables with the job’s base naming convention
         from the SQL database.
+        :::
+
 
     - Delete – Deletes the job group or job at the selected location within the Jobs tree
 
@@ -64,13 +70,19 @@ The Menu Bar options are:
       instant solutions from the Access Analyzer Library.
     - Create Job – Creates a new job (Ctrl + Alt + A) at the selected location within the Jobs tree
 
-        **CAUTION:** Delete Job will also delete all data tables with the job’s base naming
+        :::warning
+        Delete Job will also delete all data tables with the job’s base naming
         convention from the SQL database.
+        :::
+
 
     - Delete Job – Deletes the selected job from the Jobs tree
 
-        **CAUTION:** Rename Job will also rename all data tables with the job’s base naming
+        :::warning
+        Rename Job will also rename all data tables with the job’s base naming
         convention within the SQL database.
+        :::
+
 
     - Rename Job – Renames the selected job
     - Properties – Opens the Job Properties window for the selected job. See the

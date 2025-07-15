@@ -52,7 +52,10 @@ download data as a CSV file, which can be enabled for grid elements. This expor
 tables, both interactive grid and plain HTML tables. See the [Grid](wizard/widgets.md#grid) topic
 for additional information.
 
-**NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
+:::note
+Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
 [Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/12.0/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.
+
+:::

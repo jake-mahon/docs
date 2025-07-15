@@ -1,3 +1,9 @@
+---
+title: "4.Configuration Job Group"
+description: "4.Configuration Job Group"
+sidebar_position: 60
+---
+
 # 4.Configuration Job Group
 
 The SQL > 4.Configuration Job Group Is designed to provide insight into potential vulnerabilities

@@ -1,3 +1,9 @@
+---
+title: "File and Folder Match Filters for Inclusion and Exclusion Rules"
+description: "File and Folder Match Filters for Inclusion and Exclusion Rules"
+sidebar_position: 10
+---
+
 # File and Folder Match Filters for Inclusion and Exclusion Rules
 
 There are a range of prebuilt Match Filters provided with Netwrix Change Tracker. Enterprise which

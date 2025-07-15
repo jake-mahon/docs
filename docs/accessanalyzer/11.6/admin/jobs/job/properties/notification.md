@@ -1,3 +1,9 @@
+---
+title: "Notification Tab"
+description: "Notification Tab"
+sidebar_position: 30
+---
+
 # Notification Tab
 
 The Notification tab is where email notifications are configured at the job level. Choose either to

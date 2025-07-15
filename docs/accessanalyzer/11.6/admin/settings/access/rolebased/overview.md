@@ -1,3 +1,9 @@
+---
+title: "Role Based Access"
+description: "Role Based Access"
+sidebar_position: 10
+---
+
 # Role Based Access
 
 Role Based Access allows Enterprise Auditor users to not have local Administrator rights on the

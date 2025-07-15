@@ -1,3 +1,9 @@
+---
+title: "Query an Active Directory Server (Discover Exchange servers)"
+description: "Query an Active Directory Server (Discover Exchange servers)"
+sidebar_position: 30
+---
+
 # Query an Active Directory Server (Discover Exchange servers)
 
 Follow the steps to create a Host Discovery query using the Query an Active Directory server

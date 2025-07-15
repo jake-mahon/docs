@@ -1,3 +1,9 @@
+---
+title: "SG_InstalledApplications Job"
+description: "SG_InstalledApplications Job"
+sidebar_position: 20
+---
+
 # SG_InstalledApplications Job
 
 The SG_InstalledApplications job identifies installed applications on all targeted hosts.

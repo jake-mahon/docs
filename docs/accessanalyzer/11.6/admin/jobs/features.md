@@ -1,3 +1,9 @@
+---
+title: "Special Features & Functions"
+description: "Special Features & Functions"
+sidebar_position: 40
+---
+
 # Special Features & Functions
 
 There are several special features and functions available for jobs and job components with which

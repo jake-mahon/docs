@@ -1,3 +1,9 @@
+---
+title: "Oracle_InstanceNameIssues Job"
+description: "Oracle_InstanceNameIssues Job"
+sidebar_position: 40
+---
+
 # Oracle_InstanceNameIssues Job
 
 The Oracle_InstanceNameIssues Job discovers if names used for Oracle database instances conform to

@@ -1,3 +1,9 @@
+---
+title: "MongoDB_SensitiveDataScan Job"
+description: "MongoDB_SensitiveDataScan Job"
+sidebar_position: 20
+---
+
 # MongoDB_SensitiveDataScan Job
 
 The MongoDB_SensitiveDataScan Job is designed to discover sensitive data in MongoDB databases based

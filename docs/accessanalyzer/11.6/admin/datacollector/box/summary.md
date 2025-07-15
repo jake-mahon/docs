@@ -1,3 +1,9 @@
+---
+title: "Box: Summary"
+description: "Box: Summary"
+sidebar_position: 100
+---
+
 # Box: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for all of the

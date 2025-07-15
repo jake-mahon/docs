@@ -1,3 +1,9 @@
+---
+title: "AWS_UnusedManagedPolicies Job"
+description: "AWS_UnusedManagedPolicies Job"
+sidebar_position: 50
+---
+
 # AWS_UnusedManagedPolicies Job
 
 The AWS_UnusedManagedPolicies job provides details on customer managed policies that exist in the
@@ -50,7 +56,7 @@ The default values for parameters that can be customized are:
 | Unused Managed Policies | @IncludeAWSManaged          | False         | True or False value to include policies managed by AWS. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_UnusedManagedPolicies Job

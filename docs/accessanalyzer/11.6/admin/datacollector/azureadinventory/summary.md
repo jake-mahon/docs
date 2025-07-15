@@ -1,3 +1,9 @@
+---
+title: "AzureADInventory: Summary"
+description: "AzureADInventory: Summary"
+sidebar_position: 70
+---
+
 # AzureADInventory: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for both of the

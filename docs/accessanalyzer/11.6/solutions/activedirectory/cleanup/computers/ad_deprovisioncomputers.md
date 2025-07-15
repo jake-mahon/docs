@@ -1,3 +1,9 @@
+---
+title: "AD_DeprovisionComputers Job"
+description: "AD_DeprovisionComputers Job"
+sidebar_position: 10
+---
+
 # AD_DeprovisionComputers Job
 
 The AD_DeprovisionComputers Job provides a simple automated workflow deprovision stale computers.
@@ -54,7 +60,7 @@ this job’s analysis.
 | Computer Accounts to Delete | @days_before_deleting       | 365           | Days in the staging OU before deleting account |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DeprovisionComputers Job

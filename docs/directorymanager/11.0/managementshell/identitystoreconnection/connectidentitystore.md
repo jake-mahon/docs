@@ -1,3 +1,9 @@
+---
+title: "Connect-IdentityStore"
+description: "Connect-IdentityStore"
+sidebar_position: 10
+---
+
 # Connect-IdentityStore
 
 If an identity store of the connected domain is available, then GroupID Management Shell gets
@@ -27,7 +33,7 @@ Example:
 The following command connects you to the identity store specified by the IdentityStoreId parameter
 using the specified authentication mode and credentials that you set in the $Credentials environment
 variable. See the
-[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/directorymanager/11.0/managementshell/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -38,4 +44,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Connection Commands](/docs/directorymanager/11.0/managementshell/identitystoreconnection/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

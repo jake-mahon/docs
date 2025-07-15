@@ -1,3 +1,9 @@
+---
+title: "SQLscripting Analysis Module"
+description: "SQLscripting Analysis Module"
+sidebar_position: 50
+---
+
 # SQLscripting Analysis Module
 
 Use the SQLscripting analysis module to apply SQL scripting to the selected job.

@@ -1,3 +1,9 @@
+---
+title: "Mailbox: Summary"
+description: "Mailbox: Summary"
+sidebar_position: 130
+---
+
 # Mailbox: Summary
 
 The Summary page summarizes the configuration of the action.

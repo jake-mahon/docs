@@ -14,8 +14,11 @@ assigned. In addition, it also provides the list of permissions assigned to the 
 Navigate to the **Databases** > SQL > 5.Permissions > SQL_PublicPermissions > Configure node and
 select Analysis to view the analysis tasks.
 
-**CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
+:::warning
+Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
+:::
+
 
 ![Analysis Selection](/img/product_docs/accessanalyzer/12.0/solutions/databases/sql/permissions/sqljobgroup40.webp)
 
@@ -33,6 +36,7 @@ The default analysis tasks are:
 In addition to the tables and views created by the analysis task, the SQL_PublicPermissions Job
 produces the following pre-configured report.
 
-| Report             | Description                                                                | Default Tags | Report Elements                                                                                                                                                                                                                        |
-| ------------------ | -------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Public Permissions | This report determines highlights objects with public permissions applied. | None         | This report is comprised of three elements: - Bar Chart – Displays top databases by public permission count - Table – Provides details on databases by public permission count - Table – Provides details on public permission details |
+| Report             | Description                                                                | Default Tags | Report Elements                                                                                                                                                                                                                                                    |
+| ------------------ | -------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Public Permissions | This report determines highlights objects with public permissions applied. | None         | This report is comprised of three elements: <ul><li>Bar Chart – Displays top databases by public permission count</li><li>Table – Provides details on databases by public permission count</li><li>Table – Provides details on public permission details</li></ul> |
+

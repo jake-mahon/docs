@@ -1,3 +1,9 @@
+---
+title: "Invoke-Schedule"
+description: "Invoke-Schedule"
+sidebar_position: 30
+---
+
 # Invoke-Schedule
 
 The commandlet **Invoke-Schedule** executes the specified schedule job.
@@ -51,4 +57,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

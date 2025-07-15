@@ -12,19 +12,19 @@ available with a special Access Analyzer license. See the
 [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
-Protocols
+**Protocols**
 
 - ADSI
 - LDAP
 - RPC
 
-Ports
+**Ports**
 
 - TCP 389/636
 - TCP 135-139
 - Randomly allocated high TCP ports
 
-Permissions
+**Permissions**
 
 - Member of the Domain Administrators group
 

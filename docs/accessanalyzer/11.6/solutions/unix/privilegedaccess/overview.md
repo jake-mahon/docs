@@ -1,3 +1,9 @@
+---
+title: "2.Privileged Access Job Group"
+description: "2.Privileged Access Job Group"
+sidebar_position: 30
+---
+
 # 2.Privileged Access Job Group
 
 The 2.Privileged Access job group contains jobs that provide visibility into privileged users within

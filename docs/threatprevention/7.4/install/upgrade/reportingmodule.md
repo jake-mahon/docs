@@ -1,3 +1,9 @@
+---
+title: "Upgrade the Reporting Module"
+description: "Upgrade the Reporting Module"
+sidebar_position: 40
+---
+
 # Upgrade the Reporting Module
 
 This topic provides the steps needed to upgrade the Netwrix Threat Manager Reporting Module from

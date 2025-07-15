@@ -1,3 +1,9 @@
+---
+title: "Data Collection & Automation Prerequisites"
+description: "Data Collection & Automation Prerequisites"
+sidebar_position: 10
+---
+
 # Data Collection & Automation Prerequisites
 
 Resource Reviews have the following prerequisites:

@@ -1,3 +1,9 @@
+---
+title: "EX_MBRights Job"
+description: "EX_MBRights Job"
+sidebar_position: 20
+---
+
 # EX_MBRights Job
 
 The EX_MBRights job collects data from Active Directory to identify the mailbox rights applied to a
@@ -20,5 +26,5 @@ The following query is included in the EX_MBRights Job:
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/requirements/exchange/support/powershell.md)
     topic for credential requirements.

@@ -1,3 +1,9 @@
+---
+title: "PostgreSQL Reports Quick Reference Guide"
+description: "PostgreSQL Reports Quick Reference Guide"
+sidebar_position: 10
+---
+
 # PostgreSQL Reports Quick Reference Guide
 
 The following PostgreSQL reports are available for selections within the Resources pane.

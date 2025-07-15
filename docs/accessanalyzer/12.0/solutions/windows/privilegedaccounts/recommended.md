@@ -6,14 +6,14 @@ sidebar_position: 10
 
 # Recommended Configurations for the Privileged Accounts Job Group
 
-Dependencies
+**Dependencies**
 
 - SG_AccountPrivileges – To populate the Local Administrator column, which is hidden by default, the
   SG_LocalAdmins job must be run prior to running this job
 - The **Logon Rights** > **Collection** job group must be run prior to running the SG_LocalPolicies
   job
 
-Targeted Hosts
+**Targeted Hosts**
 
 All Windows Servers (No DCs) for:
 
@@ -24,11 +24,11 @@ All Window Hosts for:
 
 - Service Accounts job group
 
-Schedule Frequency
+**Schedule Frequency**
 
 This job group can be scheduled to run as desired.
 
-Workflow
+**Workflow**
 
 **Step 1 –** Ensure that the configured Connection Profile has local administrator privileges and
 Domain Admin privileges if targeting domain controllers.

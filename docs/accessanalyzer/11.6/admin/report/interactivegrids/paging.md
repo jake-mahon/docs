@@ -1,3 +1,9 @@
+---
+title: "Paging"
+description: "Paging"
+sidebar_position: 30
+---
+
 # Paging
 
 Paging allows users to interact with large sets of data more efficiently when viewing, filtering,

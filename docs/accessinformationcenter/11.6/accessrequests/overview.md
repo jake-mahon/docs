@@ -1,3 +1,9 @@
+---
+title: "Access Requests Overview"
+description: "Access Requests Overview"
+sidebar_position: 70
+---
+
 # Access Requests Overview
 
 The Access Requests interface is where Access Information Center users with either the Security Team
@@ -19,7 +25,7 @@ also have the Allow access requests option selected.
 **_RECOMMENDED:_** When deploying the Access Information Center in an organization to enable
 Self-Service Access Requests, notifications should be sent to assigned owners as well as domain
 users. See the
-[Owner Confirmation Request Email](/docs/accessinformationcenter/11.6/resourceowners/email/confirmationrequest.md)
+[Owner Confirmation Request Email](/docs/accessinformationcenter/11.6/owneroverview/confirmationrequest.md)
 topic for additional information.
 
 The Your Access portal provides domain users with the ability to view current access to managed
@@ -31,7 +37,7 @@ Home page. Domain users without an Access Information Center user role who are a
 owners navigate to the Your Access portal with the My Access link in the Owner portal. Domain users
 without an Access Information Center role and who are not assigned resource ownership are directed
 to the Your Access portal at login. See the
-[Your Access Portal Overview](/docs/accessinformationcenter/11.6/accessrequests/youraccessportal/overview.md)
+[Your Access Portal Overview](/docs/accessinformationcenter/11.6/youraccessportal/overview.md)
 topic for additional information.
 
 Who Can Manage Self-Service Access Requests (Request Administrators)?
@@ -46,7 +52,7 @@ Who Participates in Self-Service Access Requests?
 - Request Administrators — Manage requests and nudge owners to respond to pending requests
 
 See the
-[Access Requests Interface](/docs/accessinformationcenter/11.6/accessrequests/interface.md)
+[Access Requests Interface](/docs/accessinformationcenter/11.6/accessrequests/interface/interface.md)
 section for information.
 
 ## Workflow of Self-Service Access Requests
@@ -71,9 +77,9 @@ Prerequisites:
   [Resource Owners Overview](/docs/accessinformationcenter/11.6/resourceowners/overview.md)
   topic for additional information.
 - Resource is configured to Allow access requests when it is assigned an owner. See the
-  [Add New Resource Wizard](/docs/accessinformationcenter/11.6/resourceowners/wizard/add.md)
+  [Add New Resource Wizard](/docs/accessinformationcenter/11.6/resourceowners/interface/add.md)
   and
-  [Update Resource Wizard](/docs/accessinformationcenter/11.6/resourceowners/wizard/update.md)
+  [Update Resource Wizard](/docs/accessinformationcenter/11.6/resourceowners/interface/update.md)
   topics for additional information.
 - Access groups configured within the environment for resources to be managed through the Access
   Information Center. See the
@@ -105,6 +111,6 @@ groups. Netwrix recommends notifying them with the following information:
       or directly to the Access Information Center website.
 
 - How to access the instructions on how to submit access requests. You can link to the
-  [Your Access Portal Overview](/docs/accessinformationcenter/11.6/accessrequests/youraccessportal/overview.md)
+  [Your Access Portal Overview](/docs/accessinformationcenter/11.6/youraccessportal/overview.md)
   topic or download that topic and its subtopics as a PDF and make it available within your
   corporate resources

@@ -1,3 +1,9 @@
+---
+title: "Configure PaloAlto Devices"
+description: "Configure PaloAlto Devices"
+sidebar_position: 90
+---
+
 # Configure PaloAlto Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

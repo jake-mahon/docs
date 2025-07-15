@@ -51,9 +51,12 @@ The wizard returns to the Destination Folder page. Click **Next** to proceed.
 **Step 6 –** In the Server name field, enter the name or IP address of the Recovery Application
 Server, so the RSAT Extension identifies it in the environment.
 
-**NOTE:** 9001 is the default port. If a different port is specified on the Netwrix Recovery Server
+:::note
+9001 is the default port. If a different port is specified on the Netwrix Recovery Server
 Configuration page of the Recovery for Active Directory Setup wizard while installing the
 application, then that specific port is applicable here.
+:::
+
 
 Click **Next**.
 

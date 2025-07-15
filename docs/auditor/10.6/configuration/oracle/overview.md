@@ -1,3 +1,9 @@
+---
+title: "Oracle Database"
+description: "Oracle Database"
+sidebar_position: 90
+---
+
 # Oracle Database
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

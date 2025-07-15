@@ -1,3 +1,9 @@
+---
+title: "Upgrade to the Latest Version"
+description: "Upgrade to the Latest Version"
+sidebar_position: 80
+---
+
 # Upgrade to the Latest Version
 
 Netwrix recommends that you upgrade from the older versions of Netwrix Auditor to the latest version
@@ -61,20 +67,20 @@ operation. The issues listed below apply to upgrade from 9.96 and 10.
   rights and permissions to perform initial data collection and upgrade. Review the following for
   more information about required rights and permissions:
 
-    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions.md)
+    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/permissions.md)
     - [Permissions for Exchange Online Auditing](/docs/auditor/10.6/configuration/microsoft365/exchangeonline/permissions.md)
-    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions.md)
-    - [Permissions for Teams Auditing](/docs/auditor/10.6/configuration/microsoft365/teams/permissions.md)
+    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions/permissions.md)
+    - [Permissions for Teams Auditing](/docs/auditor/10.6/configuration/microsoft365/teams/permissions/permissions.md)
 
 - For auditing cloud-based applications (Microsoft Entra ID, Exchange Online, SharePoint Online, and
   MS Teams) with Netwrix Auditor using modern authentication: additional configuration of the Entra
   ID app permissions is required. Review the following for more information about required rights
   and permissions:
 
-    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions.md)
+    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/configuration/microsoft365/microsoftentraid/permissions/permissions.md)
     - [Permissions for Exchange Online Auditing](/docs/auditor/10.6/configuration/microsoft365/exchangeonline/permissions.md)
-    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions.md)
-    - [Permissions for Teams Auditing](/docs/auditor/10.6/configuration/microsoft365/teams/permissions.md)
+    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/configuration/microsoft365/sharepointonline/permissions/permissions.md)
+    - [Permissions for Teams Auditing](/docs/auditor/10.6/configuration/microsoft365/teams/permissions/permissions.md)
 
 - Netwrix Auditor for Oracle Database. If you use the following combination of the audit settings:
   Mixed Mode + Fine Grained Auditing, please check your configuration. You may need to re-configure

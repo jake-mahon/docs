@@ -1,3 +1,9 @@
+---
+title: "Get-IdentityStore"
+description: "Get-IdentityStore"
+sidebar_position: 60
+---
+
 # Get-IdentityStore
 
 The commandlet **Get-IdentityStore** retrieves information about the specified identity store or
@@ -137,4 +143,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

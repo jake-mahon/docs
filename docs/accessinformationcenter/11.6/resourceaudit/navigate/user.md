@@ -1,3 +1,9 @@
+---
+title: "User Audit Interface"
+description: "User Audit Interface"
+sidebar_position: 40
+---
+
 # User Audit Interface
 
 The User Audit interface is opened by searching for a particular Active Directory or Entra ID user.

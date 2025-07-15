@@ -18,16 +18,16 @@ This solution also provides information on Microsoft Entra roles. This includes 
 role assignments, security principals, scope (management groups, subscriptions, and resources), and
 effective role permissions.
 
-Supported Platforms
+**Supported Platforms**
 
 - Microsoft Entra ID (formerly Azure AD)
 
-Requirements, Permissions, and Ports
+**Requirements, Permissions, and Ports**
 
 See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/requirements/entraid/entraid/overview.md) topic
 for additional information.
 
-Location
+**Location**
 
 The .Entra ID Inventory Solution is a core component of all Access Analyzer installations. It can be
 installed from the Access Analyzer Instant Job Wizard. See the
@@ -52,5 +52,8 @@ The data collection is conducted by the AzureADInventory and Entra data collecto
 [Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/standardtables.md)
 topic for database table information.
 
-**NOTE:** This solution is required for SharePoint Online reports in the Netwrix Access Information
+:::note
+This solution is required for SharePoint Online reports in the Netwrix Access Information
 Center.
+
+:::

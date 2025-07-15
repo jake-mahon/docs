@@ -1,3 +1,9 @@
+---
+title: "UX_NFS Job"
+description: "UX_NFS Job"
+sidebar_position: 20
+---
+
 # UX_NFS Job
 
 The UX_NFS job identifies potentially insecure NFS share options which are categorized by their risk

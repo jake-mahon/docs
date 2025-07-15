@@ -6,10 +6,6 @@ sidebar_position: 50
 
 # Security Tab
 
-Security Tab
-
-# Security Tab
-
 Use the **Security** tab to configure the inactivity timeout, password reset policies, and the
 lockout threshold.
 
@@ -43,11 +39,14 @@ them from resetting a recently changed password.
 Users whose passwords are set to never expire in Active Directory will not be forced to change their
 password during logon, even if this check box is selected.
 
-**NOTE:** Password Policy Enforcer's History rule is enforced for password resets if the **Enforce
+:::note
+Password Policy Enforcer's History rule is enforced for password resets if the **Enforce
 policy when password is reset** check box is selected in the PPS properties page, and if the
 **Enforce this rule when a password is reset** check box is selected in the History rule's
 properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password
 resets. See the Security Tab topic for additional information.
+:::
+
 
 Users may try to evade the password history policy by resetting their password several times in
 quick succession to push a password off the password history list. Select a value from the
@@ -70,6 +69,9 @@ the lockout feature. Incorrect verification codes are counted as incorrect answe
 users if they enter too many incorrect verification codes** check box is selected on the
 **Verification** tab.
 
-**NOTE:** Locked out users must re-enroll before they can use Password Reset to reset their password
+:::note
+Locked out users must re-enroll before they can use Password Reset to reset their password
 or unlock their account. The incorrect answer count is reset when a user enrolls, or answers all
 questions during a reset or unlock.
+
+:::

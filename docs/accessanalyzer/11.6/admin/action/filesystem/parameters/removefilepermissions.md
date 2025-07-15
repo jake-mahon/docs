@@ -1,3 +1,9 @@
+---
+title: "Remove File Permissions"
+description: "Remove File Permissions"
+sidebar_position: 50
+---
+
 # Remove File Permissions
 
 Use the Remove File Permissions Parameters page to specify whose file permissions the action

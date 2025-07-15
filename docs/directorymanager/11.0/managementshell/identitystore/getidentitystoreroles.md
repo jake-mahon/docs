@@ -1,3 +1,9 @@
+---
+title: "Get-IdentityStoreRoles"
+description: "Get-IdentityStoreRoles"
+sidebar_position: 70
+---
+
 # Get-IdentityStoreRoles
 
 The commandlet **Get-IdentityStoreRoles** retrieves information about the security roles associated
@@ -54,4 +60,4 @@ See Also
 
 - [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
 - [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters/parameters.md)
+- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

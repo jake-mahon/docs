@@ -36,7 +36,10 @@ provided.
 
 Provide the following information to enable notifications from Access Analyzer.
 
-**NOTE:** Check with your Messaging Team if you are unsure of this information.
+:::note
+Check with your Messaging Team if you are unsure of this information.
+:::
+
 
 - Mail Server – Enter the organization’s SMTP Server name
 - Encryption – Allows Access Analyzer users to enable notification encryption according to the
@@ -111,9 +114,12 @@ A message displays stating that the test e-mail was sent successfully.
 
 ![Test email error message example](/img/product_docs/accessanalyzer/12.0/admin/settings/testerror.webp)
 
-**NOTE:** If there are any problems with the information, an error message will appear during the
+:::note
+If there are any problems with the information, an error message will appear during the
 Test Email settings process. Correct the Notification settings until the test email is sent
 successfully.
+:::
+
 
 ![Netwrix Enterprise Auditor test e-mail](/img/product_docs/accessanalyzer/12.0/admin/settings/testemail.webp)
 
