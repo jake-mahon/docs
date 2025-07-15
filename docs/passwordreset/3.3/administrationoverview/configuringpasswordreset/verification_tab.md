@@ -6,10 +6,6 @@ sidebar_position: 40
 
 # Verification Tab
 
-Verification Tab
-
-# Verification Tab
-
 Use the **Verification** tab to enable verification codes for resets and unlocks. Verification codes
 are used for two-factor authentication, and to authenticate users that have not manually enrolled. A
 verification code is sent to the user's mobile phone by e-mail and/or SMS, and the user enters the
@@ -115,9 +111,12 @@ The user's Active Directory mobile phone number is read from the mobile attribut
 **AD Attribute** if you want to use a phone number from a different attribute. Type the name of the
 attribute, and then click **OK**.
 
-**NOTE:** Use a script to perform additional processing before sending the SMS. For example, a
+:::note
+Use a script to perform additional processing before sending the SMS. For example, a
 script could read the user's phone number from a database, or send a language-specific SMS based on
 the value of the [LANG] macro. Put the path of the scripting engine executable in the **Command**
 text box, and the path to the script file and other parameters in the **Parameters** text box.
+:::
+
 
 ![configuring_npr_7](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_7.webp)

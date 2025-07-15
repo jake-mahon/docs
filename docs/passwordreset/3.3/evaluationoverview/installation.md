@@ -6,10 +6,6 @@ sidebar_position: 10
 
 # Installation
 
-Installation
-
-# Installation
-
 Password Reset has two server components, and an optional client. See the
 [Password Reset Client](/docs/passwordreset/3.3/evaluationoverview/password_reset_client.md) topic for additional information. Both server
 components can be installed on one server, or they may be installed on separate servers if your web
@@ -45,7 +41,10 @@ Click **Next** if you accept all terms.
 
 **Step 8 –** Wait for Password Reset to install, then click **Finish**.
 
-**NOTE:** The Setup wizard creates the aprsvc account and adds it to the Domain Admins group. You
+:::note
+The Setup wizard creates the aprsvc account and adds it to the Domain Admins group. You
 can remove the account from the Domain Admins group and grant the required permissions later. See
 the [Securing Password Reset](/docs/passwordreset/3.3/administrationoverview/securing_password_reset.md) topic of the Password
 Reset Administrator's Guide for additional information.
+
+:::
