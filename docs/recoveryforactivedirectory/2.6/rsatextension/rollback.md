@@ -25,7 +25,10 @@ The following prerequisites must be met before you can rollback or recover an ob
 Follow the steps to roll back an Active Directory object, including user accounts, groups, and
 organizational units.
 
-**NOTE:** Repeat these steps as needed after a multi-select for rolling back multiple objects.
+:::note
+Repeat these steps as needed after a multi-select for rolling back multiple objects.
+:::
+
 
 **Step 1 –** Open ADUC and select one or more objects to rollback. Right-click on the object(s) and
 select **Rollback** on the menu.

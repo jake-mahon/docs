@@ -21,12 +21,15 @@ During a fresh installation, it is possible to modify both or either the applica
 directory and the SQL Server database location. The application installation directory can be
 modified through the Destination Folder page in the Recovery for Active Directory Setup Wizard.
 
-**NOTE:** The `msoledbsql.msi` must be installed on the machine the Recovery Application Server will
+:::note
+The `msoledbsql.msi` must be installed on the machine the Recovery Application Server will
 be installed on, prior to installing the Recovery Application Server. This allows the Recovery
 Application Server to connect with the SQL Server. If it is not installed, the installer fails on
 the SQL Server Configuration page. The
 [Microsoft OLE DB Driver for SQL Server](https://www.microsoft.com/en-us/download/details.aspx?id=56730)
 can be downloaded directly from Microsoft.
+:::
+
 
 Follow the steps to install Recovery for Active Directory.
 
@@ -85,10 +88,13 @@ database communication.
   this account has access to read and write to the tables with permissions to execute stored
   procedures.
 
-**NOTE:** Windows authentication will use the credentials of the account running the installer. Once
+:::note
+Windows authentication will use the credentials of the account running the installer. Once
 the database is created, Windows authentication will use the credentials of the account used for the
 Recovery for Active Directory service., specified on the Netwrix Recovery Server Configuration page
 of the wizard.
+:::
+
 
 Click **Next**.
 

@@ -62,8 +62,11 @@ Multi-valued String Editor listing known GUIDs. In the list, the RSAT Extension 
 
 `{50fb3a3c-5700-4232-ae3b-c6d49a6a97ab}`
 
-**NOTE:** The adminContextMenu attribute of every object in the active locale (i.e. CN=409 for US
+:::note
+The adminContextMenu attribute of every object in the active locale (i.e. CN=409 for US
 English), should have the GUID above.
+:::
+
 
 **Step 7 –** Verify the GUID.
 

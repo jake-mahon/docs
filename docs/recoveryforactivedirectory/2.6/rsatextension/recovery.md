@@ -50,8 +50,11 @@ recovery process.
       its immediate children
     - Restore the entire sub-tree – Restores the container object and all children
 
-    **NOTE:** Selecting the Restore the container object and the immediate children or the Restore
+    :::note
+    Selecting the Restore the container object and the immediate children or the Restore
     the entire sub-tree option enables the User Options page.
+    :::
+
 
 - Naming Conflict – A naming conflict can occur if an object was created post-deletion that has
   identical values to the original object. From the drop-down menu, select an option to implement if
@@ -82,8 +85,11 @@ Select the desired checkboxes relating to the state of a user password upon rest
   deletion is still active.
 - Set new password – Implement a new password upon recovery. Type the new password in the text box.
 
-    _Remember,_ when a new password is created, the user needs it to login the first time. The
+    :::tip
+        Remember, when a new password is created, the user needs it to login the first time. The
     password should be copied and given to the restored user.
+    :::
+
 
 Click **Next**.
 

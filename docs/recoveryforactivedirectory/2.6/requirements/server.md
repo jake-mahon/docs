@@ -37,8 +37,11 @@ Additional Server Requirements
 - Install the `msoledbsql.msi` to enable the application server to connect to the SQL Server prior
   to starting installation
 
-    **NOTE:** The latest `msoledbsql.msi` can be obtained from Microsoft's website. Netwrix does not
+    :::note
+    The latest `msoledbsql.msi` can be obtained from Microsoft's website. Netwrix does not
     redistribute this file.
+    :::
+
 
 - Group Policy Management Console (required to backup and to recover GPOs)
 - _Optional_: SQL Server Management Studio installed on the application server

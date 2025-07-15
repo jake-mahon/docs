@@ -53,7 +53,8 @@ recoveries in the Account field.
 
 **Step 4 –** Enter the password for the account in the Password field.
 
-**NOTE:** The account must have Domain Admin privileged access to read and write object data in
+:::note
+The account must have Domain Admin privileged access to read and write object data in
 order to back up, rollback, and restore objects in Active Directory. If the account has read rights
 only, it will be able to back up the domain but unable to rollback and restore objects. In this
 case, alternate credentials with read and write access to objects will have to be provided on the
@@ -61,6 +62,8 @@ Credentials page of the Object Rollback and Object Restore wizards. See the
 [Rollback Objects](/docs/recoveryforactivedirectory/2.6/admin/activedirectory/rollback.md) and
 [Recover an Object](/docs/recoveryforactivedirectory/2.6/admin/activedirectory/recover.md#recover-an-object) topics for information on the
 wizards.
+:::
+
 
 For a Least Privilege Access Model to provision an Active Directory security group with the
 permissions that are necessary to perform backups, rollbacks and recovery, see the
@@ -81,9 +84,12 @@ default time is 12:00 AM.
 start of each domain backup. Keep in mind the size of the environment when configuring this option.
 Click **Next**.
 
-**NOTE:** If the start time is changed from the default and a frequency is selected (in minutes),
+:::note
+If the start time is changed from the default and a frequency is selected (in minutes),
 the backups will run at the desired frequency but will skip from midnight until the selected start
 time.
+:::
+
 
 ![Add Domain Configuration wizard - Options page](/img/product_docs/recoveryforactivedirectory/2.6/admin/configuration/options.webp)
 
@@ -94,8 +100,11 @@ to Step 9.
 **Step 10 –** If the Collect GPOs checkbox is selected, the Store the Group Policy Object backups in
 the following location field is enabled. Specify the save location for the GPO backup here.
 
-**NOTE:** The path must be a network share. Do not provide the path to a local drive for storing the
+:::note
+The path must be a network share. Do not provide the path to a local drive for storing the
 backup.
+:::
+
 
 **Step 11 –** Click **Next**.
 
@@ -153,9 +162,12 @@ needed.
 the start of each domain backup. Keep in mind the size of the environment when configuring this
 option.
 
-**NOTE:** If the start time is changed from the default and a frequency is selected (in minutes),
+:::note
+If the start time is changed from the default and a frequency is selected (in minutes),
 the backups will run at the desired frequency but will skip from midnight until the selected start
 time.
+:::
+
 
 **Step 9 –** Click **Next**.
 
@@ -169,8 +181,11 @@ collection is not desired, skip to Step 12.
 the following location field is enabled. Modify the save location for the GPO backup here, as
 needed.
 
-**NOTE:** The path must be a network share. Do not provide the path to a local drive for storing the
+:::note
+The path must be a network share. Do not provide the path to a local drive for storing the
 backup.
+:::
+
 
 **Step 12 –** Click **Next**.
 

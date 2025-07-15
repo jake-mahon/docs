@@ -9,8 +9,11 @@ sidebar_position: 20
 This topic describes the recommended configuration of the servers needed to install Recovery for
 Active Directory in a production environment.
 
-**_RECOMMENDED:_** Review your environment and requirements with a Netwrixsupport engineer prior to
+:::info
+Review your environment and requirements with a Netwrixsupport engineer prior to
 deployment to ensure all exceptions are covered.
+:::
+
 
 ## Architecture Overview
 
