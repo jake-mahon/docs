@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager File Associations Manager: Use our preconfigured advice"
+description: "Endpoint Policy Manager File Associations Manager: Use our preconfigured advice"
+sidebar_position: 50
+---
 # Endpoint Policy Manager File Associations Manager: Use our preconfigured advice
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pukkx08jYPw" title="Endpoint Policy Manager File Associations Manager: Use our preconfigured advice" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

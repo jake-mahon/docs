@@ -1,3 +1,8 @@
+---
+title: "Managing File Associations with an MDM service"
+description: "Managing File Associations with an MDM service"
+sidebar_position: 10
+---
 # Managing File Associations with an MDM service
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7OM2EJkUvsI" title="Endpoint Policy Manager: File Associations Manager ... and Microsoft Endpoint Manager (or any MDM service)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

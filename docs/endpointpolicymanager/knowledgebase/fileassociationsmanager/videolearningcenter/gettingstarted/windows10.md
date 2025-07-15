@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations"
+description: "Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations"
+sidebar_position: 10
+---
 # Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUCLWJ3VVNg" title="Endpoint Policy Manager File Associations Manager: Manage User and Computer File Associations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -1,3 +1,8 @@
+---
+title: "Windows 10 File Associations: Set, Change and Remove Easily"
+description: "Windows 10 File Associations: Set, Change and Remove Easily"
+sidebar_position: 30
+---
 # Windows 10 File Associations: Set, Change and Remove Easily
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUCLWJ3VVNg" title="Endpoint Policy Manager File Associations Manager: Manage User and Computer File Associations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

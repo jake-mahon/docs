@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)"
+description: "Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)"
+sidebar_position: 80
+---
 # Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMioz4JQPYI" title="Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

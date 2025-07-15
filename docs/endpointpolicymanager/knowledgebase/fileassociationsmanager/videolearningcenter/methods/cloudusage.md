@@ -1,3 +1,8 @@
+---
+title: "Using File Association Manager in the Endpoint Policy Manager Cloud environment"
+description: "Using File Association Manager in the Endpoint Policy Manager Cloud environment"
+sidebar_position: 40
+---
 # Using File Association Manager in the Endpoint Policy Manager Cloud environment
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DQt5Dkv2YBc" title="Using File Association Manager in the Endpoint Policy Manager Cloud environment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

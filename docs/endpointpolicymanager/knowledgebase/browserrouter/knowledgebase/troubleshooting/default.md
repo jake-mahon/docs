@@ -37,7 +37,7 @@ What won’t work:
 
 You will also get the same experience if you attempt to use PolicyPak File Associations Manager to
 change HTTP or HTTPS, even if you’re not using PolicyPak Browser Router. See the
-[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/knowledgebase/fileassociationsmana/knowledgebase/troubleshooting/defaultbrowser.md)
+[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/knowledgebase/troubleshooting/defaultbrowser.md)
 topic for additional information.
 
 Troubleshooting:

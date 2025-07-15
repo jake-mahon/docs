@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager File Associations Manager: Helper Application"
+description: "Endpoint Policy Manager File Associations Manager: Helper Application"
+sidebar_position: 60
+---
 # Endpoint Policy Manager File Associations Manager: Helper Application
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0cL1kLhb1K8" title="PPFAM: Helper Application" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

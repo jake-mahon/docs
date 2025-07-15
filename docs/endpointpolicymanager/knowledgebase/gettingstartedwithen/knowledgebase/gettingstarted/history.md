@@ -53,7 +53,7 @@ Before 2017
 - Browser Router Apply Once then Drift
   [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/video/browserrouter/defaultwindows10.md)
 - File Associations Manager Apply Once then Drift
-  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/video/fileassociations/applyonce.md)
+  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md)
 - File Associations Manager Apply settings on USER side
 - Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many
   other events

@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Cloud: Managing File Assocations"
+description: "Endpoint Policy Manager Cloud: Managing File Assocations"
+sidebar_position: 20
+---
 # Endpoint Policy Manager Cloud: Managing File Assocations
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wDQX54Omoz4" title="Endpoint Policy Manager File Associations Manager: Use it with Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

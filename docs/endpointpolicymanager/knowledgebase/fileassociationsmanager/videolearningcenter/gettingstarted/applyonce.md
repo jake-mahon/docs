@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager File Associations Manager: Apply once (and drift)"
+description: "Endpoint Policy Manager File Associations Manager: Apply once (and drift)"
+sidebar_position: 20
+---
 # Endpoint Policy Manager File Associations Manager: Apply once (and drift)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KkiHMOv97Ms" title="Endpoint Policy Manager File Associations Manager: Apply once (and drift)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

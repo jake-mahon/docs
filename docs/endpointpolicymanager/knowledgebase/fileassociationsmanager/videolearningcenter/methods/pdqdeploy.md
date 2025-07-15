@@ -1,3 +1,8 @@
+---
+title: "Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy"
+description: "Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy"
+sidebar_position: 30
+---
 # Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sEErDOmFNuk" title="Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
