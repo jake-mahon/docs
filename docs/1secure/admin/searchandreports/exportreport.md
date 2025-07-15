@@ -32,8 +32,11 @@ you open them. Click **Search** to generate reports with a predefined filter set
 
 ![Roports - Export option](/img/product_docs/1secure/admin/searchandreports/exportreport.webp)
 
-**NOTE:** A report cannot be exported if no data is available for it. In this case, the Export
+:::note
+A report cannot be exported if no data is available for it. In this case, the Export
 button remains disabled.
+:::
+
 
 ## Export an Investigation
 

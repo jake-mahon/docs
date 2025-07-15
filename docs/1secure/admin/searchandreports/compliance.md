@@ -71,13 +71,13 @@ A list of the available Compliance reports(category-wise) is given below.
 | Sensitive Documents              | Lists the documents that are classified according to the sensitive data types enabled in the SharePoint Online Data Classification connector. See step 7 in the [Add a Source and Connectors for SharePoint Online](/docs/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md) topic for addition information.                                                                                                             |
 | Sharing Links                    | Provides an overview of all the active sharing links within your SharePoint Online site. For each record, it displays the site collection, URL of the shared resource, name of the shared object, link creation and expiration dates, link type, assigned permissions, and more. Click the "Shared with" link to see exactly who or which groups have access.                                                              |
 
-Sort a Report
+**Sort a Report**
 
 Click a column header to sort data in a report by that column in ascending order. An arrow appears
 next to the column name to indicate the sort order. Click the column header again to sort the data
 in descending order.
 
-Filter a Report
+**Filter a Report**
 
 You can filter the data displayed in a report. Select a filter, operator, and value from the Filter,
 Operator, and Value drop-down menus, then click **Search**.

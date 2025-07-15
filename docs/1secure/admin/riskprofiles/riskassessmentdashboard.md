@@ -23,9 +23,12 @@ On the Risk Assessment dashboard, you can check:
   worsened compared to the previous week, month, or quarter?
 - Does your organization's security posture aligns with security frameworks like NIST?
 
-_Remember,_ each organization has a risk profile associated with it and the risk analysis of an
+:::tip
+Remember, each organization has a risk profile associated with it and the risk analysis of an
 organization is based on the metrics included in the risk profile. See the
 [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/riskprofiles.md) topic for additional information.
+:::
+
 
 ## View the Risk Assessment Dashboard
 
@@ -59,7 +62,7 @@ one or more filters at a time.
 
 - Risk profile preview – Select a risk profile from the Risk profile preview drop-down menu
 
-Card Filters
+**Card Filters**
 
 The following cards are available for filtering data:
 
@@ -93,7 +96,7 @@ The following cards are available for filtering data:
     - No change so far – Indicates that there has been no change to the risk data during the time
       period selected in the Trend since drop-down menu
 
-Drop-down Menu Filters
+**Drop-down Menu Filters**
 
 The following drop-down menus are available for filtering data:
 
@@ -144,9 +147,12 @@ The following drop-down menus are available for filtering data:
 The Risk Assessment dashboard provides a list of risks detected for an organization based on the
 applied filters.
 
-_Remember,_ each risk is basically a metric included in the risk profile associated with the
+:::tip
+Remember, each risk is basically a metric included in the risk profile associated with the
 organization. See the [Risk Metrics List](/docs/1secure/admin/riskprofiles/metrics_list.md) topic for details on each of the risk
 metrics.
+:::
+
 
 Risks are categorized into two types:
 
@@ -161,7 +167,7 @@ or Boolean.
 
 ![Risks List](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskslist.webp)
 
-Enumerated Risks
+**Enumerated Risks**
 
 The Risks list displays the following information for enumerated risks:
 
@@ -178,7 +184,7 @@ The Risks list displays the following information for enumerated risks:
   and the percentage of inactive user accounts is 83.87%.
 - Tags – Displays the tags that indicate the risk's category, MITRE tactics, and MITRE techniques
 
-Boolean Risks
+**Boolean Risks**
 
 The Risks list displays the following information for Boolean risks:
 
@@ -195,7 +201,7 @@ also review the measure of the risk - "%" (percentage) or "k" (thousands).
 On the Risk Assessment dashboard, click a risk in the Risks list; its details are displayed in the
 left pane.
 
-Enumerated Risk Details
+**Enumerated Risk Details**
 
 ![Enumerated Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskdetails.webp)
 
@@ -236,7 +242,7 @@ The left pane displays the following details for an enumerated risk:
   the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/riskprofiles.md) topic for additional
   information.
 
-Boolean Risk Details
+**Boolean Risk Details**
 
 ![Boolean Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/booleanriskdetails.webp)
 
@@ -248,7 +254,7 @@ The left pane displays the following details for a Boolean risk:
 - Trend – Indicates how the risk level has changed over the selected time period. The trend can be
   Rising, Falling, or No change.
 
-    Description – A description of the risk metric
+**Description – A description of the risk metric**
 
 - NIST Regulations – Displays the NIST regulation names associated with the risk metric
 - Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides

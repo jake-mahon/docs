@@ -19,8 +19,11 @@ Data Collection Accounts should meet the following policies and permissions:
 - The **Read** share permission on the audited shared folders.
 - The **Read** NTFS permission on all objects in the audited folders.
 
-**NOTE:** If you want to use network traffic compression, data collecting account on the target
+:::note
+If you want to use network traffic compression, data collecting account on the target
 server must be a member of the local Administrators group.
+:::
+
 
 You can also use group Managed Service Accounts (gMSA) as a data collecting account. For more
 information on gMSA, see the following:

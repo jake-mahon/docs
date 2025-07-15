@@ -48,10 +48,13 @@ its reports. An organization is selected by default, but you can choose a differ
 **Step 3 –** Click the **Risks** tab to access the state-in-time reports. This opens the Risks page
 with the High Risk Permissions on Documents report displayed by default.
 
-**NOTE:** Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk
+:::note
+Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk
 Assessment page, where you can monitor the risks for the selected organization. See the
 [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
+:::
+
 
 ![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
 
@@ -110,13 +113,13 @@ State In Time reports are available under the following categories.
 | Disabled Computer Accounts | Lists the disabled computer accounts within an environment. For each account, it displays the name, location, and more.                                                                                                    |
 | Inactive Computer Accounts | Lists inactive computer accounts within an environment. For each account, it displays the name, location, last logon, and more. By default, computer accounts that have been inactive for 35 days or longer are displayed. |
 
-Sort a Report
+**Sort a Report**
 
 Click a column header to sort data in a report by that column in ascending order. An arrow appears
 next to the column name to indicate the sort order. Click the column header again to sort the data
 in descending order.
 
-Filter a Report
+**Filter a Report**
 
 You can filter the data displayed in a report. Select a filter, operator, and value from the Filter,
 Operator, and Value drop-down menus, then click **Search**.
@@ -126,7 +129,7 @@ You can select more than one filter.
 For options displayed in the Operator drop-down menu, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
-Filter Descriptions
+**Filter Descriptions**
 
 This table provides a list of filters and descriptions.
 

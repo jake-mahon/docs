@@ -22,7 +22,7 @@ Follow the steps to review the Billable Users report.
 This report lists the number of Active Directory and Microsoft Entra ID users contributing to the
 billing counter.
 
-Filter a Report
+**Filter a Report**
 
 You can filter the data displayed in a report. Select a filter, operator, and value from the Filter,
 Operator, and Value drop-down menus, then click **Search**.

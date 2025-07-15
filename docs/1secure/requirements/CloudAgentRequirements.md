@@ -6,10 +6,13 @@ sidebar_position: 20
 
 # Netwrix Cloud Agent Requirements
 
-**CAUTION:** You would generally need only one Netwrix Cloud Agent per audited on-premises AD
+:::warning
+You would generally need only one Netwrix Cloud Agent per audited on-premises AD
 domain. In case you have both Netwrix Auditor and Netwrix 1Secure auditing the same domain, make
 sure that only one or none of the products has network traffic compression service enabled for any
 of the audited sources.
+:::
+
 
 For its correct installation Netwrix Cloud Agent needs the following software requirements:
 

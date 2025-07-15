@@ -78,7 +78,10 @@ generate logon reports on SQL Server data. See the
   To specify an account, enter its name and click the Add icon. To audit multiple accounts, add them
   one by one.
 
-    **NOTE:** To include all accounts in a domain, use the format: _MYDOMAIN\\\*_.
+    :::note
+    To include all accounts in a domain, use the format: _MYDOMAIN\\\*_.
+    :::
+
 
 - Audit all accounts except – Select this option to audit all accounts within the connector, except
   for specific ones you want to exclude. After selecting this option, specify the accounts to be
@@ -86,7 +89,10 @@ generate logon reports on SQL Server data. See the
   To specify an account, enter its name and click the Add icon. To exclude multiple accounts, add
   them one by one.
 
-    **NOTE:** To exclude all accounts in a domain, use the format: _MYDOMAIN\\\*_.
+    :::note
+    To exclude all accounts in a domain, use the format: _MYDOMAIN\\\*_.
+    :::
+
 
 **Step 11 –** Click **Finish**.
 

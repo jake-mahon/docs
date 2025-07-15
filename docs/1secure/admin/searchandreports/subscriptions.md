@@ -28,8 +28,11 @@ its reports. An organization is selected by default, but you can choose a differ
 **Step 4 –** Click a report to open it. Reports without a filter are automatically generated when
 you open them. Click **Search** to generate reports with a predefined filter set.
 
-**NOTE:** You cannot subscribe to a report if no data is available for it. In this case, the
+:::note
+You cannot subscribe to a report if no data is available for it. In this case, the
 Subscribe button remains disabled.
+:::
+
 
 **Step 5 –** Click **Subscribe** on the top right of the page. The Subscription to
 `<name of the report>` pane is displayed.
@@ -84,17 +87,23 @@ Email Settings section expands to display the following:
 
     ![Email Subject](/img/product_docs/1secure/admin/searchandreports/subscriptions_2.webp)
 
-    **NOTE:** The End Customer Organization has the Organization Name variable instead of the
+    :::note
+    The End Customer Organization has the Organization Name variable instead of the
     Managed Organization and Managing Organization variables.
+    :::
+
 
 - Message – Enter the information to be included in the body of the email.
 
 **Step 12 –** Click the **Upload reports to a designated folder in SharePoint Online** check box to
 specify the settings for SharePoint Online delivery.
 
-**NOTE:** If you encounter the message, Integration required, you must first configure your
+:::note
+If you encounter the message, Integration required, you must first configure your
 integration for SharePoint Online. See the
 [SharePoint Online](/docs/1secure/integration/sharepointonline.md) topic for additional information.
+:::
+
 
 Expand the SharePoint Online Settings section and specify the following settings for saving the
 report:
@@ -104,8 +113,11 @@ report:
 - SharePoint Online Folder Path – The folder path in SharePoint, relative to the site URL (e.g.
   /Shared Documents/FolderName)
 
-    **NOTE:** For MSP organizations, reports will always be saved to the location in a sub-folder
+    :::note
+    For MSP organizations, reports will always be saved to the location in a sub-folder
     named after the child organization.
+    :::
+
 
 **Step 13 –** Click **Save Subscription**.
 

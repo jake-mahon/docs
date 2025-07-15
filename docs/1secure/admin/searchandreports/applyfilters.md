@@ -19,10 +19,13 @@ reports with the predefined filters. To create a unique set of filters, you can:
 
 ![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
 
-**NOTE:** All reports on the **Reports** > **Activity** tab are associated with the respective
+:::note
+All reports on the **Reports** > **Activity** tab are associated with the respective
 alerts. Click the **Alerts Timeline Dashboard** in the upper left corner of the page to view the
 alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/alerts.md) topic for additional
 information.
+:::
+
 
 | Icon                                                                                                | Description                                                          |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -34,32 +37,44 @@ Follow the steps to apply filters to your search.
 
 ![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
 
-**NOTE:** You can also access the **Reports** > **Activity** page from your organization's page. On
+:::note
+You can also access the **Reports** > **Activity** page from your organization's page. On
 your Home screen, click **Configure** > **Reports** in the right upper corner of the page.
+:::
+
 
 ![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
 
 **Step 2 –** Select a filter from the Filter drop-down menu. See the
 [Filter Descriptions](#filter-descriptions) topic for additional information.
 
-**NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
+:::note
+You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information. To review the Filter
 values, see the Filter Values topic for additional information.
+:::
+
 
 **Step 3 –** If required, specify the property change filters.
 
-**NOTE:** Netwrix 1Secure comes with the advanced filtering options. Not all the activity records
+:::note
+Netwrix 1Secure comes with the advanced filtering options. Not all the activity records
 have the property changes, but only those with the property change on that record. For example, if
 the permission on the Active Directory has been added or resource ID in AzureAD has been removed.
+:::
+
 
 ![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
 
-**NOTE:** The drop-down list in the **Property** field shows all the properties retrieved in your
+:::note
+The drop-down list in the **Property** field shows all the properties retrieved in your
 records' list below the Search bar. It varies depending on the displayed records. You can filter the
 required Property, Action, Value operator, and Value within the list. The property changes are
 dynamic and are not related to a given report directly but the activity records. If the query
 changes, the shown property changes may also change.
+:::
+
 
 ![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
 
@@ -73,11 +88,17 @@ can see who, when, or where was the activity made.
 
 ![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
 
-**NOTE:** Navigate from one report to another by selecting **Prev** or **Next**. This will directly
+:::note
+Navigate from one report to another by selecting **Prev** or **Next**. This will directly
 upload the details of the selected report.
+:::
 
-**NOTE:** You can also create your own reports with custom filters. See the
+
+:::note
+You can also create your own reports with custom filters. See the
 [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional information.
+:::
+
 
 ## Filter Descriptions
 

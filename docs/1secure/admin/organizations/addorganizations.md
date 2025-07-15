@@ -40,15 +40,21 @@ organization:
 - Exchange Online
 - SharePoint Online
 
-**NOTE:** See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for detailed
+:::note
+See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for detailed
 information.
+:::
+
 
 ![addorganizationssites](/img/product_docs/1secure/admin/organizations/addorganizationssites.webp)
 
 **Step 4 –** On the Configure source details (Step 3 of 4) window, add a site for your organization.
 Sites are used to signify physical groupings within the organization. Click **Next**.
 
-**NOTE:** This step is displayed only when adding Active Directory and Computer sources.
+:::note
+This step is displayed only when adding Active Directory and Computer sources.
+:::
+
 
 See the [Add Sites to an Organization](/docs/1secure/admin/organizations/addsites.md) topic for additional information.
 
@@ -58,8 +64,11 @@ See the [Add Sites to an Organization](/docs/1secure/admin/organizations/addsite
 install the agent. Please go to the [Install Agent](/docs/1secure/install/installagent.md) topic of the
 online help. Click **Next**.
 
-**NOTE:** Install the agent only for on-prem sources - Active Directory and Computer. This step is
+:::note
+Install the agent only for on-prem sources - Active Directory and Computer. This step is
 displayed only when adding these sources.
+:::
+
 
 ![addorganizationssourcedetails](/img/product_docs/1secure/admin/organizations/addorganizationssourcedetails.webp)
 

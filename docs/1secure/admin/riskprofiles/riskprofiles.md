@@ -25,7 +25,10 @@ can do the following:
 - Analyze risks for your managed organizations on the Risk Assessment Dashboard page. See the
   [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional information.
 
-**NOTE:** An organization can have only one risk profile assigned to it at a time.
+:::note
+An organization can have only one risk profile assigned to it at a time.
+:::
+
 
 ## View Risk Profiles
 
@@ -50,10 +53,13 @@ Click a column header to sort data in the list by that column in ascending order
 next to the column name to indicate the sort order. Click the column header again to sort the data
 in descending order.
 
-**NOTE:** The risk profile named Default Profile is available by default and is automatically
+:::note
+The risk profile named Default Profile is available by default and is automatically
 applied to all managed organizations. You can assign a different risk profile to an organization if
 needed. You can do this when creating a new organization or editing an organization. See the
 [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional information.
+:::
+
 
 ## Add a Risk Profile
 
@@ -83,7 +89,10 @@ The risk profile is added to the list on the Risk profiles page. You can:
 
 Follow the steps to modify the name of a risk profile.
 
-**NOTE:** The risk profile named Default Profile cannot be modified.
+:::note
+The risk profile named Default Profile cannot be modified.
+:::
+
 
 **Step 1 –** Click **Configuration** in the top bar. The Managed organizations page is displayed,
 that lists the managed organizations defined in 1Secure.
@@ -98,9 +107,12 @@ that lists the managed organizations defined in 1Secure.
 
 ## Delete a Risk Profile
 
-**NOTE:** (1) The risk profile named Default Profile cannot be deleted. (2) When a risk profile is
+:::note
+(1) The risk profile named Default Profile cannot be deleted. (2) When a risk profile is
 deleted, the Default Profile is automatically assigned to the organizations that were previously
 assigned the deleted profile.
+:::
+
 
 Follow the steps to delete a risk profile.
 

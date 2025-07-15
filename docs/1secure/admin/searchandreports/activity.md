@@ -141,7 +141,7 @@ Activity reports are available under the following categories.
 | All SQL Logons    | Lists all login attempts on the SQL Server. Use this report to analyze user activity on production databases.                       |
 | SQL Failed Logons | Lists the failed login attempts on the SQL Server. Use this report to identify potential security threats and analyze login issues. |
 
-Filter a Report
+**Filter a Report**
 
 You can filter the data displayed in a report. Select a filter, operator, and value from the Filter,
 Operator, and Value drop-down menus, then click **Search**.
@@ -151,7 +151,7 @@ You can select more than one filter.
 For options displayed in the Operator drop-down menu, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
-Subscribe to Activity Reports
+**Subscribe to Activity Reports**
 
 You can subscribe to Activity reports to receive them automatically via email, or have them uploaded
 to a specified folder in SharePoint Online. See the [Subscriptions](/docs/1secure/admin/searchandreports/subscriptions.md) topic for

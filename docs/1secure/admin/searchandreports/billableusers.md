@@ -29,21 +29,30 @@ Users** page opens. By default, it populates the data with the Users of your org
 
 ![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
-**NOTE:** You can also access the report by navigating to the **Reports** > **System** page.
+:::note
+You can also access the report by navigating to the **Reports** > **System** page.
+:::
+
 
 ![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
 
 **Step 2 –** If necessary, you can filter the provided data. Select a filter, operator, and value
 from the Filter, Operator, and Value drop-down menus respectively.
 
-**NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
+:::note
+You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
 [Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information.
+:::
+
 
 **Step 3 –** Click **Search**.
 
-**NOTE:** You can also export a report to your email by clicking **Export** in the upper right
+:::note
+You can also export a report to your email by clicking **Export** in the upper right
 corner of the page. You shall receive a report in XLSX to your login email.
+:::
+
 
 ## Filter Descriptions
 

@@ -25,11 +25,14 @@ Follow the steps to add a site to your organization.
 **Step 1 –** Add your organization or add a source to the created organization. See the
 [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional information.
 
-**NOTE:** You can add sites only for on-prem sources - Active Directory and Computer. These sources
+:::note
+You can add sites only for on-prem sources - Active Directory and Computer. These sources
 require an installation of the agent. See the
 [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or
 [Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional
 information.
+:::
+
 
 ![addsourcessite](/img/product_docs/1secure/admin/organizations/addsourcessite.webp)
 
@@ -37,8 +40,11 @@ information.
 "New site name" field, specify the name for your site. This could be a geographical location like
 'Barcelona' or a cluster of servers from which a single agent collects data. Click **Next**.
 
-**NOTE:** You can add multiple sites and then add it to your source. A managed organization can have
+:::note
+You can add multiple sites and then add it to your source. A managed organization can have
 multiple sites and each site can be associated with multiple sources.
+:::
+
 
 **Step 3 –** Finish adding a source for your organization. See the
 [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or

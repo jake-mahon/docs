@@ -15,8 +15,11 @@ audit the following Microsoft 365 data sources:
 
 ## Permissions to Audit Microsoft Entra ID
 
-**NOTE:** The registered application must be assigned to the Global Administrator or Exchange
+:::note
+The registered application must be assigned to the Global Administrator or Exchange
 Administrator role for Microsoft Entra ID state collection.
+:::
+
 
 | API | Permissions |
 | ---| ---|
@@ -24,8 +27,11 @@ Administrator role for Microsoft Entra ID state collection.
 | Office 365 Management APIs | ActivityFeed <br /><ul><li>ActivityFeed.Read – Read activity data for your organization</li></ul>                                                                                                                                                            |
 | Office 365 Exchange Online | Exchange<ul><li>Exchange.ManageAsApp – Manage Exchange As Application This permission is required to collect state-in-time reports.</li></ul>                                                                                                          |
 
-**NOTE:** To access the Office 365 Exchange Online API, click the **APIs my organization uses** tab
+:::note
+To access the Office 365 Exchange Online API, click the **APIs my organization uses** tab
 on the Request API Permissions pane and search this API by entering its name in the search box.
+:::
+
 
 ## Permissions to Audit SharePoint Online
 
@@ -35,8 +41,11 @@ on the Request API Permissions pane and search this API by entering its name in 
 | SharePoint | Sites <br /><ul><li>Sites.FullControl.All – Have full control of all site collections. This permission is required to collect state-in-time reports.</li></ul>                                              |
 | Office 365 Management APIs | ActivityFeed <br /><ul><li>ActivityFeed.Read – Read activity data for your organization</li></ul> |
 
-**NOTE:** The Sites.ReadWrite.All permission is only required for SharePoint Online integration (for
+:::note
+The Sites.ReadWrite.All permission is only required for SharePoint Online integration (for
 example, when you have to save subscriptions to a SharePoint location).
+:::
+
 
 ## Permissions to Audit Exchange Online
 
