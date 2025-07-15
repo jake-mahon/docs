@@ -1,3 +1,8 @@
+---
+title: "Internet Explorer to Endpoint Policy Manager Browser Router Site lists"
+description: "Internet Explorer to Endpoint Policy Manager Browser Router Site lists"
+sidebar_position: 70
+---
 # Internet Explorer to Endpoint Policy Manager Browser Router Site lists
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UNvGz-fdJ3M" title="Endpoint Policy Manager: Internet Explorer to Endpoint Policy Manager Browser Router Site lists" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

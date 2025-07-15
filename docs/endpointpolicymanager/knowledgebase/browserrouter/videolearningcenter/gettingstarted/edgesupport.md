@@ -1,3 +1,8 @@
+---
+title: "Browser Router now with support for MS Edge"
+description: "Browser Router now with support for MS Edge"
+sidebar_position: 20
+---
 # Browser Router now with support for MS Edge
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1GStIc-hjhw" title="Endpoint Policy Manager: Browser Router now with support for MS Edge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

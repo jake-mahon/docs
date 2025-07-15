@@ -8,7 +8,7 @@ sidebar_position: 10
 
 **NOTE:** To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge
 Mode, please see:
-[Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/video/browserrouter/ieedgemode.md).
+[Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md).
 
 If you want to stay with a Microsoft browser, you want your user to use Edge rather than IE. But
 some intranet sites don't support Edge, so you are forced to use IE. However, instead of forcing
@@ -39,7 +39,7 @@ see that the Endpoint Policy Manager website now appears in IE mode within the E
 ### Converting Existing IE Site List XMLs
 
 **NOTE:** To get an overview on how to convert existing IE site lists, please see
-[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/video/browserrouter/iesitelists.md).
+[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
 
 See how you can take a Microsoft Enterprise Mode Internet Explorer site list and quickly convert it
 to be used in Endpoint Policy Manager Browser Router. This saves you the time and trouble of
@@ -78,7 +78,7 @@ the Windows 10 Edge browser functions alongside Internet Explorer 11.
 
 **NOTE:** To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
-[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/video/browserrouter/edgespecial.md).
+[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to I**E policy.
 

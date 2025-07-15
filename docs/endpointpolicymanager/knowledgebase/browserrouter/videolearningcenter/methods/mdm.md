@@ -1,3 +1,8 @@
+---
+title: "Map the Right Website to the Right Browser using your MDM service"
+description: "Map the Right Website to the Right Browser using your MDM service"
+sidebar_position: 10
+---
 # Map the Right Website to the Right Browser using your MDM service
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D6mVGE4GH5k" title="Map the Right Website to the Right Browser using your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

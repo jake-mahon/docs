@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift"
+description: "Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift"
+sidebar_position: 10
+---
 # Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HJbn69MS6WM" title="Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

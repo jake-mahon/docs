@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager and Edge ‘Special' policies"
+description: "Endpoint Policy Manager and Edge ‘Special' policies"
+sidebar_position: 40
+---
 # Endpoint Policy Manager and Edge ‘Special' policies
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hJB0LOFtXSs" title="Endpoint Policy Manager and Edge ‘Special' policies" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

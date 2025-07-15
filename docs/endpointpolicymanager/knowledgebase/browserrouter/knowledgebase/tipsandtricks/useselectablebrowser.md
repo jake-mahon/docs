@@ -14,7 +14,7 @@ this KB.
 Endpoint Policy Manager Browser Router has a function called **User Selectable browser**. Learn more
 about this feature first here:
 
-[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/video/browserrouter/userselecteddefault.md)
+[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/userselecteddefault.md)
 
 [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/tipsandtricks/defined.md)
 

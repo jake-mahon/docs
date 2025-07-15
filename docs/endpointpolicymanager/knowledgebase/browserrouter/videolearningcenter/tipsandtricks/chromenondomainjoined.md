@@ -1,3 +1,8 @@
+---
+title: "Browser Router now supports Chrome on Non-Domain Joined machines"
+description: "Browser Router now supports Chrome on Non-Domain Joined machines"
+sidebar_position: 20
+---
 # Browser Router now supports Chrome on Non-Domain Joined machines
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CGsKr4_aBFs" title="Endpoint Policy Manager: Browser Router now supports Chrome on Non-Domain Joined machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

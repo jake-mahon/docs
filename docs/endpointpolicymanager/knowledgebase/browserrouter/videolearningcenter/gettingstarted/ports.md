@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager Browser Router and Ports"
+description: "Endpoint Policy Manager Browser Router and Ports"
+sidebar_position: 50
+---
 # Endpoint Policy Manager Browser Router and Ports
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zy08Oi7e0ak" title="Endpoint Policy Manager: Browser Router and Ports" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
