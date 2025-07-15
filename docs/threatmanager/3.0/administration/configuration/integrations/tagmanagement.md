@@ -31,8 +31,11 @@ The out-of-the-box tags include:
 - Stale – An Active Directory user account marked as stale
 - Watchlist – Watchlist users
 
-**NOTE:** Any users with the Watchlist tag will be displayed on the Threat Manager
+:::note
+Any users with the Watchlist tag will be displayed on the Threat Manager
 [Home Page](/docs/threatmanager/3.0/administration/home.md) Watchlist.
+:::
+
 
 The table displays the following information for available tags:
 
@@ -97,7 +100,10 @@ This page provides the following information:
 
 On the tag details window, click the Type drop-down menu to apply a filter.
 
-**_RECOMMENDED:_** Apply the desired Type filters when searching for objects to tag.
+:::info
+Apply the desired Type filters when searching for objects to tag.
+:::
+
 
 ![Honeypot tag with the Types drop-down menu open](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/typefilters.webp)
 

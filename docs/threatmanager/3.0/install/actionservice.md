@@ -57,7 +57,10 @@ configure the Action Service:
 - URL or Server – The web address for the Threat Manager console (e.g.,
   https://ThreatManagerServer.Domain.com:8080).
 
-    **NOTE:** Include http:// or https:// if configured and web port if not using 80 or 443
+    :::note
+    Include http:// or https:// if configured and web port if not using 80 or 443
+    :::
+
 
 - User Name – Specify the user name to connect to the Threat Manager console. It is recommended to
   use the Admin account for the user name.
@@ -80,10 +83,13 @@ account. In this scenario, any actions run by Threat Manager will be executed as
 Account. This, typically, is a simple way to ensure that Playbooks executed by Threat Manager have
 the proper permissions required to complete successfully.
 
-**NOTE:** If an Action Step has been configured to use a specific Credential Profile, the Action
+:::note
+If an Action Step has been configured to use a specific Credential Profile, the Action
 Step will utilize those credentials in the Action Step Script. See the
 [Credential Profile Page](/docs/threatmanager/3.0/administration/configuration/integrations/credentialprofile.md) topic
 for additional information.
+:::
+
 
 Follow the steps to configure the Action Service to run as a service account.
 

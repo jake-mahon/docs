@@ -58,7 +58,10 @@ threat of this type is detected.
 
 **Rollup:**
 
-**NOTE:** Rollup is not available for all threat types.
+:::note
+Rollup is not available for all threat types.
+:::
+
 
 - Enabled – Enables rollups when set to ON. The default state is dependent on the threat type.
 - Rollup Time – The timeframe for the rollup. Select a timeframe from the drop-down list:
@@ -148,7 +151,10 @@ excluded from threat detection for the threat type.
 
 The Settings Tab provides additional threat-specific settings that are required for some threats.
 
-**NOTE:** The Settings tab is only displayed for threats that require additional settings.
+:::note
+The Settings tab is only displayed for threats that require additional settings.
+:::
+
 
 ![This screenshot displays the Settings tab.](/img/product_docs/threatmanager/3.0/administration/configuration/settingstab.webp)
 

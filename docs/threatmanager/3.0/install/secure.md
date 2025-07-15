@@ -21,9 +21,12 @@ Complete the steps to create or obtain a certificate and import it.
 import it into the Windows Certificate LocalMachine Personal store on the Netwrix Threat Manager
 server machine.
 
-**CAUTION:** Be very careful with the encoding of the thumbprint especially when copy/pasting the
+:::warning
+Be very careful with the encoding of the thumbprint especially when copy/pasting the
 thumbprint from certmgr.msc. This can often cause encoding issues so ensure ANSI encoding when
 editing the configuration files discussed in this topic.
+:::
+
 
 **Step 2 –**   Copy the thumbprint of the certificate as you will need to utilize it while editing
 the configuration files.
@@ -34,7 +37,7 @@ Follow the steps to configure the Web Service Configuration file.
 
 **Step 1 –**   Open the Web Service configuration file on the Netwrix Threat Manager server.
 
-C:\Program Files\STEALTHbits\StealthDEFEND\WebService\appsettings.json
+**C:\Program Files\STEALTHbits\StealthDEFEND\WebService\appsettings.json**
 
 **Step 2 –**   Append the **WebService** and **ADService** sections to the end of the file. Remember
 to add a trailing comma after the `“EncryptRecording”:false` line.
@@ -62,7 +65,10 @@ to add a trailing comma after the `“EncryptRecording”:false` line.
 }
 ```
 
-**CAUTION:** Do not modify the Jwt section of the appsettings.json file.
+:::warning
+Do not modify the Jwt section of the appsettings.json file.
+:::
+
 
 **Step 3 –**   In the WebService and ADService sections, ports are set to 8080 and 55556
 respectively. Make sure these ports are available on your machine.
@@ -91,7 +97,7 @@ Follow the steps to configure the Active Directory Service Configuration file.
 **Step 1 –**   Open the Active Directory Service configuration file on the Netwrix Threat Manager
 server:
 
-C:\Program Files\STEALTHbits\StealthDEFEND\ActiveDirectoryService\appsettings.json
+**C:\Program Files\STEALTHbits\StealthDEFEND\ActiveDirectoryService\appsettings.json**
 
 **Step 2 –**   Append the **WebService** section to the end of the file. Remember to add a trailing
 comma after the `“EncryptRecording”:false` line in the file.
@@ -113,7 +119,10 @@ comma after the `“EncryptRecording”:false` line in the file.
 }
 ```
 
-**CAUTION:** Do not modify the Jwt section of the appsettings.json file.
+:::warning
+Do not modify the Jwt section of the appsettings.json file.
+:::
+
 
 **Step 3 –**   In the WebService section, the port is set to 55556. Make sure it is available on
 your machine.
@@ -151,7 +160,10 @@ configure the Action Service:
 - URL or Server – The web address for the Threat Manager console (e.g.,
   https://ThreatManagerServer.Domain.com:8080).
 
-    **NOTE:** Include http:// or https:// if configured and web port if not using 80 or 443
+    :::note
+    Include http:// or https:// if configured and web port if not using 80 or 443
+    :::
+
 
 - User Name – Specify the user name to connect to the Threat Manager console. It is recommended to
   use the Admin account for the user name.

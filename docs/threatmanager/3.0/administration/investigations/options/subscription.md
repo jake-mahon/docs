@@ -12,9 +12,12 @@ recipients to receive this report as an email attachment in a specified format.
 
 ![Subscription window](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/subscription.webp)
 
-**NOTE:** This option requires an email server to be configured.If this requirement is not met, a
+:::note
+This option requires an email server to be configured.If this requirement is not met, a
 message will appear in the window. See the[Email Page](/docs/threatmanager/3.0/administration/configuration/integrations/email.md)
 section for additional information.
+:::
+
 
 ## Subscribe to an Investigation
 

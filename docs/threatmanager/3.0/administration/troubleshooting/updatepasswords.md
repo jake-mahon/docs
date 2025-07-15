@@ -9,9 +9,12 @@ sidebar_position: 20
 This section describes how to update passwords in the Threat Manager console. Passwords in Threat
 Manager are configured within Credential Profiles.
 
-**NOTE:** If an Administrator needs to update passwords in their environment due to password
+:::note
+If an Administrator needs to update passwords in their environment due to password
 expiration or for security reasons, all relevant Credential Profiles on the Integrations page must
 be updated.
+:::
+
 
 ## Updating a Credential Profile Password
 

@@ -8,8 +8,11 @@ sidebar_position: 10
 
 The Policy Details page displays information about the Honeytoken configuration.
 
-**NOTE:** Policies for Honeytokens must be enabled by configuring the settings on the Configuration
+:::note
+Policies for Honeytokens must be enabled by configuring the settings on the Configuration
 tab.
+:::
+
 
 ![detailspage](/img/product_docs/threatmanager/3.0/administration/configuration/policies/detailspage.webp)
 
@@ -38,18 +41,27 @@ The Configuration tab contains the following configuration options:
 - Token Username – The username that is used by the Honeytoken deployment process and threat
   detection. This is a static username that will be used for all deployments for this policy.
 
-    **NOTE:** The token username can be changed post-deployment, however tokens under the previous
+    :::note
+    The token username can be changed post-deployment, however tokens under the previous
     username will no longer bedetected.
+    :::
 
-    **_RECOMMENDED:_** Do not change the username of a Honeytoken after a successful deployment of
+
+    :::info
+    Do not change the username of a Honeytoken after a successful deployment of
     the token to a host.
+    :::
+
 
 - Token Password – Specify a password string to be used for the Honeytoken deployment. Passwords
   require at minimum one wildcard character. Use '@' to specify random letters and '#" to specify
   random numbers.
 
-    **NOTE:** If the Honeytoken script cannot reach the Threat Manager URL, the Honeytoken will
+    :::note
+    If the Honeytoken script cannot reach the Threat Manager URL, the Honeytoken will
     still be deployed but Threat Manager will be unaware of the Honeytoken deployment status.
+    :::
+
 
 - Threat Manager URL – Specify the Threat Manager address to be used by the Honeytoken script to
   communicate with Threat Manager. Honeytoken hosts must be able to communicate via HTTP REST to
@@ -73,7 +85,8 @@ The Configuration tab contains the following configuration options:
   and sent to Threat Manager. If the event is received by Threat Manager within three minutes, the
   button displays Test Succeeded.
 
-    **NOTE:** If Threat Prevention is used for Active Directory event monitoring, then an LDAP
+    :::note
+    If Threat Prevention is used for Active Directory event monitoring, then an LDAP
     monitoring policy must be enabled and configured to capture LDAP events for Honeytoken users for
     the test to be successful. See the
     [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
@@ -82,16 +95,24 @@ The Configuration tab contains the following configuration options:
     capture LDAP events for Honeytoken users for the test to be successful. See the
     [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
     for additional information.
+    :::
 
-**_RECOMMENDED:_** Use the Copy LDAP Filter button to ensure that the LDAP Filter Policy string is
+
+:::info
+Use the Copy LDAP Filter button to ensure that the LDAP Filter Policy string is
 properly configured to capture LDAP events for the Honeytoken policy.
+:::
+
 
 - Copy LDAP Filter Button– Clicking the Copy LDAP Filter button will automatically copy to the
   clipboard the exact string that is required for Activity Monitor or Threat Prevention to configure
   the LDAP events for this Honeytoken. The copied string should then be pasted into the LDAP filter
   policy settings for Activity Monitor or Threat Prevention.
 
-    **NOTE:** This is a required configuration in order to detect LDAP-based Honeytoken threats.
+    :::note
+    This is a required configuration in order to detect LDAP-based Honeytoken threats.
+    :::
+
 
 Click Save to update the policy settings. Once saved, threats are detected for this Honeytoken user.
 
@@ -126,9 +147,12 @@ the Honeytokens.
       this script will deploy a Honeytoken and report the status of the deployment to Threat
       Manager.
 
-        **NOTE:** The token's current username, domain, and password are automatically injected into
+        :::note
+        The token's current username, domain, and password are automatically injected into
         the script as a backup in case the Threat Manager address cannot be accessed by the
         Honeytoken script.
+        :::
+
 
 - Host Deployment:
     - Hosts – Type in the box to search for and select a host. Alternatively, a comma-separated list

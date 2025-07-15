@@ -6,7 +6,10 @@ sidebar_position: 20
 
 # Database Server Requirements
 
-**NOTE:** Use this information when the database server is separate from the application server.
+:::note
+Use this information when the database server is separate from the application server.
+:::
+
 
 The Windows server can be physical or virtual. The following Windows server operating systems are
 supported:

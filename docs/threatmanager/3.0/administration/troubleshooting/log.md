@@ -11,7 +11,7 @@ information depending on the logging level.
 
 The log location for Threat Manager logs is:
 
-C:\ProgramData\Stealthbits\StealthDEFEND
+**C:\ProgramData\Stealthbits\StealthDEFEND**
 
 Threat Manager has the following logs:
 

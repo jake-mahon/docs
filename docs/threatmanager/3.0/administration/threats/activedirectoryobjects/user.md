@@ -49,7 +49,7 @@ include, Average Activity by Day, and Events by Type.
 The Activity by Host, Activity by Client, and Activity Details tables are displayed below the
 charts.
 
-Activity by Host Table
+**Activity by Host Table**
 
 The Activity by Host table displays the user's activity by host.
 
@@ -63,7 +63,7 @@ The Activity by Host table displays the user's activity by host.
 Use the Search icon to search for data contained in any column. Click the Export CSV button to
 export the current rows displayed on the page into a CSV file.
 
-Activity by Client Table
+**Activity by Client Table**
 
 The Activity by Client table displays the user's activity by host.
 

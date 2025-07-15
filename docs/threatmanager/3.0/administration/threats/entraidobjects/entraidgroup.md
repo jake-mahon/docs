@@ -110,7 +110,7 @@ The Roles tab displays two tables:
 
 - Active Assignments – Lists roles that are currently active and usable to the group
 
-The eligible assignments table has the following columns
+**The eligible assignments table has the following columns**
 
 - Role - Roles the group is eligible for
 - Scope - Defines the boundary within which the assigned role permissions are valid
@@ -120,7 +120,7 @@ The eligible assignments table has the following columns
 - Privileged - If the role is privileged or not. A privileged role in Microsoft Entra ID grants
   elevated permissions for high-level administrative tasks.
 
-The active assignments table has the following columns
+**The active assignments table has the following columns**
 
 ![Roles Active Assignment Page](/img/product_docs/threatmanager/3.0/administration/threatdetails/groupmembershiprolesactiveassignment.webp)
 

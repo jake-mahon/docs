@@ -15,13 +15,19 @@ Roles are assigned by the following methods:
 
 - Group Membership – Members of the group will be given the role assigned
 
-    **NOTE:** If a user is a member of multiple assigned groups, the group with the highest level of
+    :::note
+    If a user is a member of multiple assigned groups, the group with the highest level of
     privilege is assigned
+    :::
+
 
 - Direct User Assignment – Assigns a role directly to a user
 
-    **NOTE:** If a user is assigned a role directly, it takes priority over any group membership
+    :::note
+    If a user is assigned a role directly, it takes priority over any group membership
     roles that have been assigned
+    :::
+
 
 The User Access page includes the following sections:
 
@@ -43,8 +49,11 @@ The table displays the following information:
 - Access rule type – Indicates the access type as _Allow_, which enables console access, or _Deny_,
   which disables console access
 
-    **NOTE:** Disabling a user or group disables that level of access. It does not block the user or
+    :::note
+    Disabling a user or group disables that level of access. It does not block the user or
     group from logging into the console if they have access through another role assignment.
+    :::
+
 
 - Login name – The NTStyle domain name for the user or group account
 - Display name – The display name for the user or group account
@@ -137,9 +146,12 @@ additional information.
 
 ### Add Console Access
 
-**NOTE:** Verify that an Active Directory Sync has completed to ensure that user and group
+:::note
+Verify that an Active Directory Sync has completed to ensure that user and group
 information is updated. See the [Active Directory Sync Page](/docs/threatmanager/3.0/administration/configuration/integrations/activedirectorysync.md)
 for additional information.
+:::
+
 
 Follow the steps to add console access for a user or group.
 
@@ -156,8 +168,11 @@ populate as you type with available options. Select a user or group from the men
 
 **Step 4 –** Select an authentication type from the **Authentication Type** drop-down menu.
 
-_Remember,_ authentication provider profile types are displayed after an integration has been
+:::tip
+Remember, authentication provider profile types are displayed after an integration has been
 configured on the Authentication Provider page of the Integrations interface.
+:::
+
 
 **Step 5 –** Select a role to assign it to the user or group from the **Role** drop-down menu.
 

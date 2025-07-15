@@ -39,8 +39,11 @@ The following firewall settings are required for communication for the Threat Ma
 The following firewall settings are required for communication between the Threat Manager server and
 the database server, when it is installed on a separate server:
 
-**NOTE:** These firewall rules are only needed if using a remote PostgreSQL database. That is not
+:::note
+These firewall rules are only needed if using a remote PostgreSQL database. That is not
 recommended or the default.
+:::
+
 
 | Communication Direction | Protocol | Ports | Description                                                                           |
 | ----------------------- | -------- | ----- | ------------------------------------------------------------------------------------- |
@@ -54,10 +57,13 @@ The following firewall settings are required for accessing the Threat Manager co
 | ----------------------- | -------- | ----- | ---------------------------------------- |
 | Bidirectional           | TCP      | 8080  | Remote access to the application console |
 
-**NOTE:** Threat Manager requires the default dynamic port range specified by Microsoft (49152
+:::note
+Threat Manager requires the default dynamic port range specified by Microsoft (49152
 through 65535) for Windows Server client/server operations. If a firewall or other appliance is
 blocking these ports, this server will no longer properly respond to client requests and no longer
 support standard IP Stack operations that are required for the operation of this product.
+:::
+
 
 ## Active Directory Domain Controllers Firewall Rules
 
