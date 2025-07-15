@@ -46,8 +46,11 @@ information.
 
 **Step 7 –** Description – Description of the threat.
 
-**NOTE:** Click the + sign in the description box to insert the `{{userName}}` macro. The macro will
+:::note
+Click the + sign in the description box to insert the `{{userName}}` macro. The macro will
 associate the user that committed the threat.
+:::
+
 
 **Step 8 –** Definition – The threat definition is a detailed explanation of the threat providing
 insight into why the incident is a potential risk. It appears at the top of the Threat Details page.
@@ -75,7 +78,7 @@ information.
       This means that each perpetrating user's individual activity must match the investigation
       criteria in order to generate a threat. The default is unchecked.
 
-Exclusions Tab
+**Exclusions Tab**
 
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions
 to be defined for specific criteria to be excluded from threat detection for the threat type.

@@ -12,12 +12,18 @@ while installing the application.
 
 Follow the steps to install the application.
 
-**CAUTION:** The PostgreSQL database application must be installed before the application is
+:::warning
+The PostgreSQL database application must be installed before the application is
 installed.
+:::
 
-**NOTE:** These steps assume you have launched the installer through the Netwrix Setup Launcher
+
+:::note
+These steps assume you have launched the installer through the Netwrix Setup Launcher
 (`Netwrix_Setup.exe`). If you are not using it, right-click on `NetwrixThreatManager.exe` and select
 Run as administrator. Then skip to Step 2.
+:::
+
 
 ![Netwrix Setup Launcher showing PostgreSQL Setup completed](/img/product_docs/threatmanager/3.0/install/postgresqlcheck.webp)
 
@@ -58,8 +64,11 @@ does not exist and you want to create it. Click **OK** and the window closes.
 **Step 7 –** A "Ready for installation" message appears on the Database page of the wizard and the
 Next button is enabled. Click **Next**.
 
-**NOTE:** If PostgreSQL is installed on a different host, then the connection details should be
+:::note
+If PostgreSQL is installed on a different host, then the connection details should be
 updated accordingly.
+:::
+
 
 ![Netwrix Threat Manager Setup wizard Firewall Rules page](/img/product_docs/threatmanager/3.0/install/firewallrules.webp)
 

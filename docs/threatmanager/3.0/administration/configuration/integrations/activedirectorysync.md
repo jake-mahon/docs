@@ -40,11 +40,14 @@ Directory Sync in the navigation pane.
 
 ## Add an Active Directory Sync Policy
 
-**NOTE:** Prior to adding an Active Directory Sync policy, you must first configure a Credential
+:::note
+Prior to adding an Active Directory Sync policy, you must first configure a Credential
 Profile with credentials properly provisioned for running the sync operation for the domain. See the
 [Application Server Requirements](/docs/threatmanager/3.0/requirements/server.md) topic for the permissions. See
 the [Credential Profile Page](/docs/threatmanager/3.0/administration/configuration/integrations/credentialprofile.md) topic for additional information on creating a
 profile.
+:::
+
 
 Follow the steps to add a domain/Active Directory sync policy.
 
@@ -137,14 +140,20 @@ The Domain Configuration tab displays the following settings:
   [Max-Renew-Age attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-maxrenewage)
   article for additional information.
 
-    **NOTE:** This value is required to accurately evaluate the Golden Ticket threat.
+    :::note
+    This value is required to accurately evaluate the Golden Ticket threat.
+    :::
+
 
 - Max Ticket Age (hours) – Displays the value indicates the maximum number of hours of the Ticket
   Age for the domain. This value must match the domain configuration. See the Microsoft
   [Max-Ticket-Age attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-maxticketage)
   article for additional information.
 
-    **NOTE:** This value is required to accurately evaluate the Golden Ticket threat.
+    :::note
+    This value is required to accurately evaluate the Golden Ticket threat.
+    :::
+
 
 - Use SSL – Indicates whether you have enabled SSL for secure communication with the domain. See the
   Microsoft
@@ -197,16 +206,22 @@ represented by the domain for which it is created.
 
 **Step 2 –** The Domain Configuration tab opens, where you can make the desired modification.
 
-_Remember,_ the domain cannot be modified.
+:::tip
+Remember, the domain cannot be modified.
+:::
+
 
 ![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/domainconfigurationtab.webp)
 
 **Step 3 –** To modify the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.
 
-**NOTE:** If you modify the Credential Profile for a domain, click **Test Connection** to ensure
+:::note
+If you modify the Credential Profile for a domain, click **Test Connection** to ensure
 connection to the domain. This will take a moment. Then a message will appear in the upper right
 corner of the console indicating a successful or failed connection.
+:::
+
 
 **Step 4 –** Click the toggle to change the Enabled/Disabled state of the policy.
 

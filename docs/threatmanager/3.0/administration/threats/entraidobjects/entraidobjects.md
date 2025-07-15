@@ -23,7 +23,7 @@ about the various resources related to threats and events in Threat Manager. Pag
 The [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md) contains a threats list with hyperlinks which can be clicked to
 access these pages.
 
-Common Details Page Elements
+**Common Details Page Elements**
 
 The User Details, Group Details, Application details and Role details pages contain some common page
 elements.
@@ -73,7 +73,7 @@ Depending on the selected user, group, application or role, the following tabs m
 The Add Tag button can be used to assign existing tags to a user, group, or host computer. It also
 provides the option to create new tags.
 
-Add an Existing Tag
+**Add an Existing Tag**
 
 Follow the steps to add a tag to a user, group, or computer
 

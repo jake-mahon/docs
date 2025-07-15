@@ -23,7 +23,7 @@ preconfigured action steps.
   PowerShell action step with a PowerShell credential object, based upon the Threat Manager
   credential specified for use in the script. For example:
 
-    $Session = New-PSSession -ComputerName "Computer01" -Credential $Credential
+**$Session = New-PSSession -ComputerName "Computer01" -Credential $Credential**
 
     Invoke-Command -Session $Session -ScriptBlock `{Write-Host "Hello World"}`
 

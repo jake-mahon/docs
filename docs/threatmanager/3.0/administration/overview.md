@@ -14,7 +14,10 @@ The navigation header contains the following links on the top left side of the p
 - Threats – Opens the [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md)
 - Investigate – Opens the [Investigations Interface](/docs/threatmanager/3.0/administration/investigations/overview.md)
 
-**NOTE:** For mobile users, only the icons are displayed for the Threats and Investigate links.
+:::note
+For mobile users, only the icons are displayed for the Threats and Investigate links.
+:::
+
 
 The header bar contains the following links on the top right side of the page:
 

@@ -18,8 +18,11 @@ Threat Manager Administrator when a threat is detected.
 
 ![threatresponse](/img/product_docs/threatmanager/3.0/administration/configuration/threatresponse.webp)
 
-**NOTE:** Custom playbooks can be created using the PowerShell Script action. However, this feature
+:::note
+Custom playbooks can be created using the PowerShell Script action. However, this feature
 requires advanced scripting knowledge.
+:::
+
 
 ## Preconfigured Actions
 

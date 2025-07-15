@@ -23,9 +23,12 @@ Manager:
 If Netwrix Activity Monitor is used to send data to Threat Manager, the versions of both products
 must be compatible.
 
-**NOTE:** It is not required to upgrade the Activity Monitor to the latest version when upgrading
+:::note
+It is not required to upgrade the Activity Monitor to the latest version when upgrading
 Threat Manager, but it is recommended to upgrade it in order to take full advantage of the new
 features.
+:::
+
 
 | Netwrix Activity Monitor Version | Compatibility with Threat Manager v3.0  |
 | --- | --- |

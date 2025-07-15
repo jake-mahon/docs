@@ -32,12 +32,15 @@ navigation pane from the Microsoft Entra ID Sync drop-down.
 
 ## Add an Entra ID Sync Policy
 
-**NOTE:** Prior to adding a Microsoft Entra ID Sync policy, you must first configure a Credential
+:::note
+Prior to adding a Microsoft Entra ID Sync policy, you must first configure a Credential
 Profile with a credential properly provisioned for running Microsoft Entra ID Sync within the
 Microsoft Entra ID tenant. See the
 [Application Server Requirements](/docs/threatmanager/3.0/requirements/server.md) topic for the permissions. See
 the [Credential Profile Page](/docs/threatmanager/3.0/administration/configuration/integrations/credentialprofile.md) topic for additional information on creating a
 profile.
+:::
+
 
 Follow the steps to add a policy Microsoft Entra ID Sync.
 
@@ -145,16 +148,22 @@ Follow the steps to modify the Entra ID Sync policy for the selected Microsoft 
 
 **Step 2 –** On the Tenant Configuration tab, make the desired modification.
 
-_Remember,_ the Tenant and Azure Cloud fields cannot be modified.
+:::tip
+Remember, the Tenant and Azure Cloud fields cannot be modified.
+:::
+
 
 ![tenantconfigurationtab](/img/product_docs/threatmanager/3.0/administration/configuration/integrations/tenantconfigurationtab.webp)
 
 **Step 3 –** To modify the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.
 
-**NOTE:** If you modify the Credential Profile for a Microsoft Entra ID tenant, click **Test
+:::note
+If you modify the Credential Profile for a Microsoft Entra ID tenant, click **Test
 Connection** to ensure connection to the tenant. This will take a moment. Then a message will appear
 in the upper right corner of the console indicating a successful or failed connection.
+:::
+
 
 **Step 4 –** Click the toggle to change the Enabled/Disabled state of the policy.
 
