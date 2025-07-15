@@ -24,9 +24,12 @@ The following threats are monitored for Active Directory. definition of each thr
 
  Replication from a non-domain controller account can be evidence of a Mimikatz DCSync attack. Performing a DCSync remotely extracts the NTLM password hash for the account that is the target of the attack. 
 
-**NOTE:** The domain monitoring policy must be configured to exclude domain controllers. See the
+:::note
+The domain monitoring policy must be configured to exclude domain controllers. See the
 [Integration with Other Netwrix Products](/docs/threatmanager/3.0/install/integration/overview.md) topic for additional
 information.
+:::
+
 
 ## Domain Backup Key Compromise
 

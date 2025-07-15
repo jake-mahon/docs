@@ -13,7 +13,10 @@ configured to send data to Threat Manager.
 
 The Threat Manager installer is packaged with four executable files.
 
-**CAUTION:** The PostgreSQL database must be installed before installing Threat Manager.
+:::warning
+The PostgreSQL database must be installed before installing Threat Manager.
+:::
+
 
 **Netwrix_Setup.exe**
 

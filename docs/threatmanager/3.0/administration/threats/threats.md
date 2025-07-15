@@ -95,17 +95,17 @@ The following tables contain a Sensitive Data column:
 - Related Activity
 - Activity Details
 
-Host
+**Host**
 
 Filter on a host by selecting the checkbox next to the host or entering a host name in the search
 box.
 
-User
+**User**
 
 Filter on a user by selecting the checkbox next to the user or entering a user name in the search
 box.
 
-Status
+**Status**
 
 The Status section may contain the following filters:
 
@@ -116,11 +116,14 @@ The Status section may contain the following filters:
 - Closed - False Positive – Behavior that has been incorrectly identified by Threat Manager as a
   threat
 
-    **NOTE:** Abnormal behavior threat detection will be influenced by false positives. Marking
+    :::note
+    Abnormal behavior threat detection will be influenced by false positives. Marking
     abnormal behavior threats as False Positive will reduce the sensitivity of the abnormality
     detection for this perpetrator.
+    :::
 
-Assignee
+
+**Assignee**
 
 The Assignee section provides the ability to filter by user. Select one or more users.
 
@@ -152,9 +155,12 @@ Follow the steps to edit a threat.
     - Closed - False Positive – Behavior that has been incorrectly identified by Threat Manager as a
       threat
 
-        **NOTE:** Abnormal behavior threat detection will be influenced by false positives. Marking
+        :::note
+        Abnormal behavior threat detection will be influenced by false positives. Marking
         abnormal behavior threats as False Positive will reduce the sensitivity of the abnormality
         detection for this perpetrator.
+        :::
+
 
 - (Optional) Comment – Add a comment to the threat
 - Ignore future threats of this type by [domain\user]

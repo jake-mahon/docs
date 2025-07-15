@@ -26,7 +26,7 @@ health details.
 
 ![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/reportsettings.webp)
 
-Settings Tab
+**Settings Tab**
 
 The Settings tab has the following configurable settings:
 
@@ -42,7 +42,7 @@ The Settings tab has the following configurable settings:
   happening at the currently configured interval. By default, this is set to midnight, 12:00 AM. Use
   the clock menu to select the desired time.
 
-Health Tab
+**Health Tab**
 
 The Health tab displays the following information:
 
@@ -58,7 +58,7 @@ health details.
 
 ![System Settings interface on the System Jobs page showing the Database Maintenance job Settings tab](/img/product_docs/threatmanager/3.0/administration/configuration/systemsettings/databasesettings.webp)
 
-Settings Tab
+**Settings Tab**
 
 The settings tab has the following configurable settings:
 
@@ -87,7 +87,7 @@ This job is essential for maintaining a healthy and efficient Threat Manager da
 choose to store certain data types for longer periods of time. Longer periods will require larger
 disk storage space and disk access speeds.
 
-Health Tab
+**Health Tab**
 
 The Health tab displays the following information:
 

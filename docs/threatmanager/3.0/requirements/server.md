@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Application Server Requirements
 
-**CAUTION:** Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager
+:::warning
+Netwrix Threat Manager cannot be installed on the same server as Netwrix Threat Manager
 Reporting Module.
+:::
+
 
 The Windows server can be physical or virtual. The following Windows server operating systems are
 supported:
@@ -34,7 +37,10 @@ use the total events for a peak day of the week, by activity.
 | Total Disk Space | 4 TB       | 3 TB        | 2 TB   | 1 TB   | 1 TB  | 1 TB        |
 | IOPS             | 8,000      | 5,000       | 3,000  | 2,000  | 1,000 | 500         |
 
-**NOTE:** All values are based upon a seven day event retention period in Threat Manager.
+:::note
+All values are based upon a seven day event retention period in Threat Manager.
+:::
+
 
 Daily events to be monitored by Threat Manager can typically be discovered by using Netwrix Threat
 Prevention or Netwrix Activity Monitor. When planning a deployment where there is currently no
@@ -53,7 +59,7 @@ estimations based on organization size can be used:
 
     - Generally assume at minimum 100 million daily events (Extra Large-Enterprise environment)
 
-Minimum hardware requirements:
+**Minimum hardware requirements**
 
 - 8 GB RAM
 - 4 CPU Cores

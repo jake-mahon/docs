@@ -12,8 +12,11 @@ A threat response can be assigned to a playbook on the
 [Threat Detection Page](/docs/threatmanager/3.0/administration/configuration/threatdetection/threatdetection.md). Once a playbook has been created,
 steps that specify the desired action for the threat response are then added.
 
-**_RECOMMENDED:_** Execute playbooks in a test environment and review the results prior to executing
+:::info
+Execute playbooks in a test environment and review the results prior to executing
 them in the production environment.
+:::
+
 
 When testing or just getting started with playbooks in Threat Manager, trigger playbooks manually
 instead of automatically. Once the playbooks have been manually tested and you have familiarity with

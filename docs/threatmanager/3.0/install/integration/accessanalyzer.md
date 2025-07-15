@@ -12,8 +12,11 @@ See the File System Solution section of the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
-**NOTE:** The Access Analyzer Sensitive Data Discovery Add-On is required for sensitive data
+:::note
+The Access Analyzer Sensitive Data Discovery Add-On is required for sensitive data
 collection.
+:::
+
 
 ## Instantiate the FS_DEFEND_SDD Job in Access Analyzer
 
@@ -59,16 +62,22 @@ See the FS_DEFEND_SDD Job section of the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
-**_RECOMMENDED:_** Schedule the FS_DEFEND_SDD Job to run as part of the FileSystem Job, after the
+:::info
+Schedule the FS_DEFEND_SDD Job to run as part of the FileSystem Job, after the
 FileSystemOverview Job. The FS_DEFEND_SDD Job should be run after each subsequent sensitive data
 collection.
+:::
+
 
 ## Custom Connection Profile for FS_DEFEND_SDD Job
 
 The FS_DEFEND_SDD Job requires a custom Connection Profile to authenticate to Threat Manager. The
 credential for the Connection Profile must be created with the Web Services (JWT) account type.
 
-_Remember,_ , the Threat Manager App Token is generated within Threat Manager.
+:::tip
+Remember, , the Threat Manager App Token is generated within Threat Manager.
+:::
+
 
 Create a Connection Profile and set the following information on the User Credentials window:
 

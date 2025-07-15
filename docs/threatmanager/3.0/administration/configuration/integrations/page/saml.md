@@ -19,7 +19,7 @@ The details page for a SAML authentication provider has two tabs:
 - Configuration
 - Users/Groups
 
-Prerequisites
+**Prerequisites**
 
 For users to be able to use SAML, "SMTP" must be set up and an email address must be stored with the
 respective users.

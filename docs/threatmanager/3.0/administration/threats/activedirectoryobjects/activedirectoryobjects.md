@@ -19,7 +19,7 @@ various resources related to threats and events in Threat Manager. Pages include
 The [Threats Page](/docs/threatmanager/3.0/administration/threats/threats.md) contains a threats list with hyperlinks which can be clicked to
 access these pages.
 
-Common Details Page Elements
+**Common Details Page Elements**
 
 The User Details, Group Details, and Host Details pages contain some common page elements.
 
@@ -39,7 +39,7 @@ The profile card displays information about the selected user, group, or host.
 
 The type information displayed depends on the information available for the user, group, or host.
 
-Profile Card Icons
+**Profile Card Icons**
 
 The following icons may be displayed in the profile card for user accounts and computers:
 
@@ -75,7 +75,7 @@ Depending on the selected user, group, or host, the following tabs may be displa
 The Add Tag button can be used to assign existing tags to a user, group, or host computer. It also
 provides the option to create new tags.
 
-Add an Existing Tag
+**Add an Existing Tag**
 
 Follow the steps to add a tag to a user, group, or computer.
 

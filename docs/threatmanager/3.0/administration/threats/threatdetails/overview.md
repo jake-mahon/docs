@@ -50,7 +50,10 @@ threat.
 
 The Workflow window contains the following configuration settings:
 
-**NOTE:** The information displayed on this page is dependent upon the type of threat selected.
+:::note
+The information displayed on this page is dependent upon the type of threat selected.
+:::
+
 
 - _(Optional)_ Assigned To – Displays the user currently assigned to the threat. Assign or edit the
   Assigned User using the drop-down list. The list populates with users granted access to the
@@ -65,9 +68,12 @@ The Workflow window contains the following configuration settings:
     - Closed - False Positive – Behavior that has been incorrectly identified by Threat Manager as a
       threat
 
-        **NOTE:** Abnormal behavior threat detection will be influenced by false positives. Marking
+        :::note
+        Abnormal behavior threat detection will be influenced by false positives. Marking
         abnormal behavior threats as False Positive will reduce the sensitivity of the abnormality
         detection for this perpetrator.
+        :::
+
 
 - _(Optional)_ Comment – Add a comment to the threat
 - Ignore future threats of this type by (user) – Select this checkbox to ignore threats of this type
@@ -77,7 +83,7 @@ The Workflow window contains the following configuration settings:
 In the Threat Activity Diagram, click the user to view the [User Details Page](/docs/threatmanager/3.0/administration/threats/activedirectoryobjects/user.md) page. Click
 the host to view the [Host Details Page](/docs/threatmanager/3.0/administration/threats/activedirectoryobjects/host.md) page.
 
-hhhhh
+**hhhhh**
 
 ## Threat Response Window
 
