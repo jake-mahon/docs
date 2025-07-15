@@ -1,3 +1,8 @@
+---
+title: "Block and Allow USB and CD-ROMs with your MDM solution"
+description: "Block and Allow USB and CD-ROMs with your MDM solution"
+sidebar_position: 20
+---
 # Block and Allow USB and CD-ROMs with your MDM solution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JR3r_i7scrg" title="Endpoint Policy Device Manager: Block and Allow USB and CD-ROMs with your MDM solution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

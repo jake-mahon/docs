@@ -1,3 +1,8 @@
+---
+title: "Authorize USB Sticks by VENDOR type"
+description: "Authorize USB Sticks by VENDOR type"
+sidebar_position: 30
+---
 # Authorize USB Sticks by VENDOR type
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/78p9CKfdJdU" title="Endpoint Policy Device Manager: Authorize USB Sticks by VENDOR type" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

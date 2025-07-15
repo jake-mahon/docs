@@ -1,3 +1,8 @@
+---
+title: "Block USB sticks using Endpoint Policy Manager Cloud"
+description: "Block USB sticks using Endpoint Policy Manager Cloud"
+sidebar_position: 10
+---
 # Block USB sticks using Endpoint Policy Manager Cloud
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zvFFLDv7D4w" title="Endpoint Policy Device Manager: Block USB sticks using Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

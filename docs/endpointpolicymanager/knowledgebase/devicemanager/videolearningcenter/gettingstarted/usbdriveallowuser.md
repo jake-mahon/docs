@@ -1,3 +1,8 @@
+---
+title: "Allow ONE user (or group) access to USB and/or CD-ROM and DVDs"
+description: "Allow ONE user (or group) access to USB and/or CD-ROM and DVDs"
+sidebar_position: 20
+---
 # Allow ONE user (or group) access to USB and/or CD-ROM and DVDs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sSb0M1trCrA" title="Endpoint Policy Device Manager: Allow ONE user (or group) access to USB and/or CD-ROM and DVDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
