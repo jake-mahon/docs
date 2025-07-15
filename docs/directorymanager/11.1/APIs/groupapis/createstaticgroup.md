@@ -11,11 +11,11 @@ in the given identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/StaticGroup
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/StaticGroup**
 
 ## HTTP Method
 
-POST
+**POST**
 
 ## Sample Request Syntax
 

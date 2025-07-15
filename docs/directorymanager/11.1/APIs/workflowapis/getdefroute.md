@@ -14,11 +14,11 @@ See the [System Workflows](/docs/directorymanager/11.1/admincenter/workflow/over
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/Default
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/Default**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

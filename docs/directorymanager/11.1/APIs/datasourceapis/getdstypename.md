@@ -11,11 +11,11 @@ data source, with a specific name.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV_API
+**https://machinename:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV_API**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

@@ -13,7 +13,7 @@ Follow the steps to upgrade.
 Step 1 – To launch the Upgrade wizard, click **Next** on the GroupID Successfully Configured page of
 the Configuration Tool.
 
-OR
+**OR**
 
 Click **Start** > **Imanami** > **GroupID Upgrade Tool 11.0**.
 

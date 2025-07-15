@@ -83,7 +83,7 @@ these servers.
 2. Select the check boxes for the messaging servers that the Group Usage Service schedule should
    process.
 
-    Or
+**Or**
 
     Select the Server Name check box if you want this job to read the expansion logs of all
     messaging servers in the identity store.

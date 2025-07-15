@@ -10,11 +10,11 @@ Use this API to update information of a job collection.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 

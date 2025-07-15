@@ -57,7 +57,7 @@ NOTE: A few fields for group attestation are specified in the default portal tem
 more fields, edit the existing fields, or remove them. However, the _Members_ grid can neither be
 edited nor removed.
 
-What do you want to do?
+**What do you want to do?**
 
 - Add a Property Validation Field
 - Update a Field

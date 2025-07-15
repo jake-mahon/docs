@@ -79,7 +79,7 @@ store, except the Microsoft Entra ID store.
 SigningKeyUtility.exe UpdateSchedulers -u “<DB username>” -s “<SQLServer name>” -d “<DB name>” -i
 ```
 
-Parameters
+**Parameters**
 
 - Use the same parameters given in the Generate a SigningKey section.
 
@@ -93,7 +93,7 @@ Windows Command prompt to export the signing key in .pfx. encrypted format with 
 SigningKeyUtility.exe ExportSigningKey -o “<Folder location for signingkey export>”
 ```
 
-Parameters
+**Parameters**
 
 - -o — provide folder location where the utility will export the signing key
 
@@ -111,7 +111,7 @@ SigningKeyUtility.exe ImportSigningKey -n “<Folder location of encryption key>
 
 Provide the password for SQL server authentication.
 
-Parameters
+**Parameters**
 
 - -n — provide folder location to import the encrypted signing key from
 

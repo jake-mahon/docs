@@ -15,11 +15,11 @@ for additional information on job collection.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections?jobids=1&jobids=2
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections?jobids=1&jobids=2**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 

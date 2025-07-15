@@ -10,11 +10,11 @@ Using this API you can update information of an already created data source.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/Update
+**https://machinename:4443/GroupIDDataService/api/DataSource/Update**
 
 ## HTTP Method
 
-PUT
+**PUT**
 
 #### Sample Request Syntax
 

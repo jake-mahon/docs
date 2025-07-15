@@ -8,13 +8,13 @@ sidebar_position: 30
 
 Use this tab to view the addresses assigned to this object.
 
-Addresses
+**Addresses**
 
 In case of a mail-enabled object, the messaging provider (such as Microsoft Exchange) assigns
 different addresses to it for communication with different repositories (such as Address Book, SIP,
 Outlook). These addresses are displayed in this box.
 
-Subscriptions
+**Subscriptions**
 
 Displays the subscriptions assigned to the mailbox.
 

@@ -130,7 +130,7 @@ are not supported.
 The Windows Hello authentication type can be used on devices running Windows 10 with specialized
 hardware installed, such as fingerprint reader and 3D camera.
 
-Enable Windows Hello on Windows 10
+**Enable Windows Hello on Windows 10**
 
 Step 1 – Go to the **Start** menu and select **Settings**.
 

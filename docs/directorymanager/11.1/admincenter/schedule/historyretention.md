@@ -30,7 +30,7 @@ These files are available at the following location on the Directory Manager ser
 
 `X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\GroupIDDataService\Web\HistoryBin\`
 
-(X is the Directory Manager installation drive)
+**(X is the Directory Manager installation drive)**
 
 History data moved to these files is not longer displayed in Directory Manager.
 

@@ -32,7 +32,7 @@ which you can link other identity store accounts that you may have.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 
@@ -74,7 +74,7 @@ ID portal for logging into multiple accounts.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page
 
@@ -118,7 +118,7 @@ On the Directory Manager Authenticate page, sign in with your master account.
 - In the Directory Manager portal, click **Users** in the left pane and select **Linked Account** to
   view your linked accounts.
 
-    OR
+**OR**
 
 - In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 
@@ -127,7 +127,7 @@ On the Directory Manager Authenticate page, sign in with your master account.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 

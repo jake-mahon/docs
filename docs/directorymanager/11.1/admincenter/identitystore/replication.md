@@ -99,7 +99,7 @@ Replication page. See the
 
 You can force run the Replication service for an identity store in any of the following ways:
 
-Method 1
+**Method 1**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -108,7 +108,7 @@ Step 2 – On the Identity Stores page, click the ellipsis button for an identit
 Any changes made to the values of attributes during the last and current run of the Replication
 service are replicated to Elasticsearch.
 
-Method 2
+**Method 2**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -136,7 +136,7 @@ topic.
 For an identity store, you can force run the Replication service (for deleting objects) in any of
 the following ways:
 
-Method 1
+**Method 1**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -144,7 +144,7 @@ Step 2 – On the Identity Stores page, click the ellipsis button for an identit
 **Replicate Deleted Objects**. Any objects deleted in the directory between the last and current run
 of the Replication service will be removed from Elasticsearch.
 
-Method 2
+**Method 2**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

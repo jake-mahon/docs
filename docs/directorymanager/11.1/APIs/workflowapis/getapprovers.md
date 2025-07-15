@@ -10,11 +10,11 @@ This API provides information about the approver(s) of a workflow request.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Approvers
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Approvers**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

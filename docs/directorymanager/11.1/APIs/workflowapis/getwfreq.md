@@ -11,11 +11,11 @@ the end point URL.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows?ids=1
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows?ids=1**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

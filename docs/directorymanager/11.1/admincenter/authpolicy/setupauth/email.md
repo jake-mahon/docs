@@ -17,12 +17,6 @@ these languages.
 NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the
 identity store. See the [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
 
-What do you want to do?
-
-- Enable Email Authentication for an Identity Store
-- Modify the Email Template
-- Enforce Email Authentication for a Role in an Identity Store
-
 ## Enable Email Authentication for an Identity Store
 
 The email authentication type must be enabled for an identity store before users can use it for
@@ -76,8 +70,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Customize Notifications](/docs/directorymanager/11.1/admincenter/notification/customize.md)

@@ -41,7 +41,7 @@ You can customize the following:
 - Rearrange the fields on a tab
 - Remove a field from a tab
 
-What do you want to do?
+**What do you want to do?**
 
 - Add a Tab (Category)
 - Update Tab Details

@@ -127,7 +127,7 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 
     ![CCreate a GPO in this domain and link it here option](/img/product_docs/directorymanager/11.1/portal/user/manage/new_gpo.webp)
 
-    Or
+**Or**
 
     Right-click the Select **Default Domain Policy** and select **Edit**:
 

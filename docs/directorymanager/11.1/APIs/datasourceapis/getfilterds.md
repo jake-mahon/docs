@@ -12,11 +12,11 @@ otherwise it will not.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetFilteredDataSources?isSource=true
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetFilteredDataSources?isSource=true**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

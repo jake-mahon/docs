@@ -11,11 +11,11 @@ specified identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

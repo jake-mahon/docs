@@ -13,7 +13,7 @@ the required permissions to manage all requests. See the
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Pending
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Pending**
 
 ## HTTP Methods
 

@@ -13,10 +13,10 @@ Directory Manager supports the following versions of SQL Servers:
 
 | Database Servers          | Editions                                                                                                                                                       |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft SQL Server 2016 | Express, Standard, Enterprise Express edition available at: [SQL Server 2016 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=56840)  |
-| Microsoft SQL Server 2017 | Express, Standard, Enterprise Express edition available at: [SQL Server 2017 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=55994)  |
-| Microsoft SQL Server 2019 | Express, Standard, Enterprise Express edition available at: [SQL Server 2019 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=101064) |
-| Microsoft SQL Server 2022 | Express, Standard, Enterprise Express edition available at: [SQL Server 2022 Express edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) |
+| Microsoft SQL Server 2016 | Express, Standard, Enterprise <br />Express edition available at: <br />[SQL Server 2016 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=56840)  |
+| Microsoft SQL Server 2017 | Express, Standard, Enterprise <br />Express edition available at: <br />[SQL Server 2017 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=55994)  |
+| Microsoft SQL Server 2019 | Express, Standard, Enterprise <br />Express edition available at: <br />[SQL Server 2019 Express edition](https://www.microsoft.com/en-us/download/details.aspx?id=101064) |
+| Microsoft SQL Server 2022 | Express, Standard, Enterprise <br />Express edition available at: <br />[SQL Server 2022 Express edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) |
 
 The SQL Server Browser service is required and during the installation of SQL Server, you can set
 its start mode either as Automatic, Disabled or Manual. If it is disabled, SQL Servers are not

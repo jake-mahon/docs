@@ -10,11 +10,11 @@ Use this API to search members of a specified group using the member attribute.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Searches
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Searches**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

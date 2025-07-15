@@ -100,4 +100,4 @@ another approver if the current approver does not act on it for a certain number
 The administrator can enable and configure workflow approver acceleration for an identity store in
 Directory Manager Admin Center.
 
-See [Workflow Approver Acceleration](/docs/directorymanager/11.1/admincenter/workflow/approveracceleration.md)
+**See [Workflow Approver Acceleration](/docs/directorymanager/11.1/admincenter/workflow/approveracceleration.md)**

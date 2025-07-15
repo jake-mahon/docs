@@ -67,7 +67,7 @@ Step 9 – On the **Field Map(s)** page, click the **Transform** button against:
     2. Click **Edit Script** to edit the script to append the user logon name with Google
        Workspace domain name.
 
-        By default, it displays: DTM.Result = ""
+**By default, it displays: DTM.Result = ""**
 
         Modify it with the attributes you want to form email address of the mailbox-enabled user.
         For example:

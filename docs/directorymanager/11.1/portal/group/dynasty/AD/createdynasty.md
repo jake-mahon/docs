@@ -30,7 +30,7 @@ NOTE: You cannot create mail-enabled Dynasties of the Office 365 group type in a
 based identity store, since an Office 365 group cannot have groups as its members. Only non
 mail-enabled Dynasties of the security group type are supported.
 
-Naming conventions for Child Dynasties
+**Naming conventions for Child Dynasties**
 
 Dynasty names help you group a parent Dynasty with its respective child Dynasties.
 

@@ -95,7 +95,7 @@ the View History in Helpdesk topic for a discussion of the dialog box.
 
 Use the pagination options at the bottom of the listing to navigate through records.
 
-Sort the Listing
+**Sort the Listing**
 
 History records on the **History** tab of the **Helpdesk** page are sorted in chronological order,
 with the latest action at the top.

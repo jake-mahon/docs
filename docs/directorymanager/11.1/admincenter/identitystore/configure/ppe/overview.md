@@ -28,7 +28,7 @@ Directory Manager Password policy or PPE policies. See the
 [Directory Manage Password Policy ](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md)for additional
 information.
 
-In Directory Manager, you can
+**In Directory Manager, you can**
 
 - Add a PPE Policy
 - Edit a PPE Policy
@@ -36,7 +36,7 @@ In Directory Manager, you can
 
 ## Add a PPE Policy
 
-Follow these steps to add a new policy
+**Follow these steps to add a new policy**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -110,7 +110,7 @@ settings of the applied PPE policy.
 
 If a PPE policy is no longer needed, you can delete it.
 
-Follow the steps to delete a PPE policy
+**Follow the steps to delete a PPE policy**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

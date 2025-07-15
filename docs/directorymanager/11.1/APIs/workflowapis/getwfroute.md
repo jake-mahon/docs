@@ -10,11 +10,11 @@ Use this API to get workflow route id of which is specified in the end point UR
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/{WorkflowRouteID}
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/{WorkflowRouteID}**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

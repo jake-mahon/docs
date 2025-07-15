@@ -12,11 +12,11 @@ on Scheduler service.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDSchedulerService/api/Logs/Download
+**https://demomachine:4443/GroupIDSchedulerService/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

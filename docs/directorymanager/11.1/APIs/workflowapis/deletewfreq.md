@@ -11,11 +11,11 @@ URL.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/{WorkflowRequestID}
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/{WorkflowRequestID}**
 
 ## HTTP Methods
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 

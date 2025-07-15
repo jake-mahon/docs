@@ -18,7 +18,7 @@ additional information.
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

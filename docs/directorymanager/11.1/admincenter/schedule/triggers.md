@@ -20,7 +20,7 @@ start the schedule.
 
     - GroupIDSchedulerService starts. This is a Directory Manager service created in native IIS.
 
-        or
+**or**
 
     - The Directory Manager server starts. See the At Startup table for information about the
       settings available for this option.

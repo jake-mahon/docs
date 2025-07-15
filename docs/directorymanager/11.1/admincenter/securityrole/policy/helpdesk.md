@@ -123,7 +123,7 @@ interaction** check box, and then select one of the following options:
   [Enforce Authentication Types for Multifactor Authentication](authentication.md#enforce-authentication-types-for-multifactor-authentication)
   topic.
 
-    Or
+**Or**
 
 - **Enforce at least selected level of multifactor authentication:** to force helpdesk role members
   to authenticate end-users with x number of authentication types. Specify the number of

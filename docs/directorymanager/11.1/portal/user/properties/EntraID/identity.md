@@ -9,23 +9,23 @@ sidebar_position: 30
 Use this tab to view or update the general information for a user and mailbox in a Microsoft Entra
 ID based identity store.
 
-Display name
+**Display name**
 
 The name of the user as it is displayed in the Directory Managerportal.
 
-Username
+**Username**
 
 The login ID of the user.
 
-First name
+**First name**
 
 The first name of the user.
 
-Last name
+**Last name**
 
 The last name of the user.
 
-User type
+**User type**
 
 The user type assigned to the user in Microsoft Entra ID, such as _Member_ or _Guest_.
 
@@ -40,25 +40,25 @@ NOTE: The User Type has no link to the user login function, the directory role o
 on. It simply indicates the user's relationship to the host organization and allows the organization
 to enforce policies that depend on this property.
 
-Object ID
+**Object ID**
 
 The unique ID assigned to the object in Microsoft Entra ID.
 
-Alias
+**Alias**
 
 The email alias of the user.
 
-Email
+**Email**
 
 The email address of the user.
 
-Account is enabled
+**Account is enabled**
 
 This check box is selected by default, indicating that the user account is enabled.
 
 Clear it to disable the user account, so that the user cannot log-on with it.
 
-Usage Location
+**Usage Location**
 
 The country where the user is located.
 
@@ -66,7 +66,7 @@ The usage location is mandatory for a mailbox and displays the object's geograph
 determines what Office 365 licenses and associated features can be assigned to a mailbox based on
 geographic availability and laws.
 
-Photo
+**Photo**
 
 The user's photo.
 

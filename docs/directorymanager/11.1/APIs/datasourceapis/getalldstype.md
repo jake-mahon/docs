@@ -11,11 +11,11 @@ data sources or all MS Excel type data sources.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetAllByType/{type}
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetAllByType/{type}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

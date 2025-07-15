@@ -10,11 +10,11 @@ Use this API to retrieve information about the provider of a specified data sour
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetDataSourceProviderOptions/{id}
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetDataSourceProviderOptions/{id}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

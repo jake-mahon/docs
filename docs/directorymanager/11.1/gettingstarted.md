@@ -28,7 +28,7 @@ This is the user-facing portal that enables administrators and users to create a
 objects, sync data between providers, manage entitlements for file servers and SharePoint sites, and
 generate reports to analyze the directory.
 
-Self-Service Password Reset portal (SSPR)
+**Self-Service Password Reset portal (SSPR)**
 
 This portal enables users to manage their directory account passwords, i.e., the password for the
 account they use to access their workstations and other Microsoft services. Users can change and

@@ -11,11 +11,11 @@ membership type, start date, and end date.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/Leave
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/Leave**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

@@ -88,7 +88,7 @@ nodes, you will notice that for each node in a cluster the following are created
 - A Scheduler service
 - An Email service
 
-Cluster syncing
+**Cluster syncing**
 
 To sync data between clusters, Directory Manager uses the Replication service. You have to enable
 data sync for at least one Replication service within a cluster to sync the cluster's data to other

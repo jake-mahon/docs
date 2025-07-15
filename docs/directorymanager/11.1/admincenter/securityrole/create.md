@@ -25,7 +25,7 @@ or container specified as role criteria.
 
 ## Create a Security Role from Scratch
 
-Follow the steps to create a security role
+**Follow the steps to create a security role**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -63,7 +63,7 @@ topic.
 You can use a security role as a template to create a new role. In this case, the criteria,
 permissions, and policies of the template role are copied to the new role.
 
-Follow the steps to copy a role
+**Follow the steps to copy a role**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

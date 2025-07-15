@@ -37,7 +37,7 @@ Next, you may have to pass second factor authentication, depending on whether it
 role in the identity store. You can perform tasks in the Admin Center in keeping with your role and
 permissions in the identity store.
 
-To Sign In
+**To Sign In**
 
 Use one of the following methods to sign in.
 
@@ -107,7 +107,7 @@ You can view the Directory Manager version deployed in your environment.
 In the Admin Center, click your name in the top right corner; the menu displays the running
 Directory Manager version.
 
-See Also
+**See Also**
 
 - [Getting Started](/docs/directorymanager/11.1/gettingstarted.md)
 - [Dashboard](/docs/directorymanager/11.1/admincenter/general/dashboard.md)

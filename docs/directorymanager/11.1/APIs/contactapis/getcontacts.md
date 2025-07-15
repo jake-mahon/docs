@@ -12,11 +12,11 @@ NOTE: The contact object type is not supported in a Microsoft Entra ID based ide
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

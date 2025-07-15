@@ -14,11 +14,11 @@ additional information on the Job collection.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Collections**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

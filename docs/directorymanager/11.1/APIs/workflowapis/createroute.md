@@ -26,11 +26,11 @@ information.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

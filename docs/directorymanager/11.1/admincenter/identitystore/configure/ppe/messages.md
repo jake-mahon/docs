@@ -31,7 +31,7 @@ PPE Policies page is displayed.
 
 Step 4 – Click the **three vertical dots** icon next to the policy , click **Edit**.
 
-Or
+**Or**
 
 Click on a policy name to open the policy configuration page.
 

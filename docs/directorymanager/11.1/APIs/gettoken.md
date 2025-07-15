@@ -11,11 +11,11 @@ get a valid token in case the token expires in a session.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDSecurityService/connect/token
+**https://machinename:4443/GroupIDSecurityService/connect/token**
 
 ## HTTP Method
 
-POST
+**POST**
 
 ### Parameters Values and Description
 

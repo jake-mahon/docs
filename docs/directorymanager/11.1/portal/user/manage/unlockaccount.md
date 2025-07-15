@@ -201,7 +201,7 @@ This type of account unlock can be resolved in one of the following two ways:
 
 - While logging on to the portal, you provide the correct password for your account.
 
-    OR
+**OR**
 
 - You wait for the specified duration, after which the account will be unlocked automatically.
 

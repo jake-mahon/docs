@@ -10,11 +10,11 @@ This Get Group API retrieves details of a specified group.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

@@ -10,11 +10,11 @@ If you want to deny a workflow request in a specified identity store, you can us
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Deny
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Deny**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

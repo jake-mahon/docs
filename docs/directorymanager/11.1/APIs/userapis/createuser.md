@@ -12,11 +12,11 @@ created, given name, display name and so on.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

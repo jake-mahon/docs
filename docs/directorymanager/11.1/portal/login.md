@@ -45,7 +45,7 @@ Step 2 – You can sign in using any of the following methods:
 - With your Identity Store Account
 - With a SAML Provider
 
-With your Identity Store Account
+**With your Identity Store Account**
 
 Step 1 – Click **Log in to continue** on the portal to Directory Manager page.
 
@@ -60,7 +60,7 @@ Step 4 – After providing your credentials, click **Sign In**.
 NOTE: Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their username
 and password. They will be authenticated through the SAML provider configured in Directory Manager.
 
-With a SAML Provider
+**With a SAML Provider**
 
 You can opt for single sign-on across all Directory Manager clients by configuring a SAML provider
 but for an Microsoft Entra ID identity store you must configure a SAML provider. See the following

@@ -26,7 +26,7 @@ You can also specify notification recipients, that can be:
 - an object that is added to the membership of a group
 - an object that is removed from the membership of a group
 
-What do you want to do?
+**What do you want to do?**
 
 - Configure an SMTP Server
 - Specify Notification Recipients

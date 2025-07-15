@@ -27,7 +27,7 @@ In Directory Manager, history is tracked for:
 
     See the [History](/docs/directorymanager/11.1/portal/history/overview.md) topic to view this history.
 
-Enable History Tracking
+**Enable History Tracking**
 
 History for Admin Center and helpdesk is tracked by default and you cannot disable it.
 
@@ -35,13 +35,13 @@ However, history for identity store configurations and objects is disabled by de
 enable it for an identity store as well as choose to track all or specific actions. See the
 [Configure History Tracking](/docs/directorymanager/11.1/admincenter/identitystore/configure/historytracking.md) topic.
 
-Where is History Displayed?
+**Where is History Displayed?**
 
 - History for Admin Center, helpdeak, and identity store configurations is displayed in Admin
   Center, each displayed on separate pages.
 - History for identity store objects is displayed in the Directory Manager portal.
 
-History Retention
+**History Retention**
 
 The _history retention_ setting for an identity store enables you to choose whether you want to keep
 history data forever or for a specific period. See the
@@ -60,7 +60,7 @@ Manager portal. Both actions are logged in Admin Center history. However, histor
 of IdentityStoreA will apply to the SMS gateway account creation action and that of IdentityStoreB
 will apply to the Directory Manager portal creation action.
 
-Event Logging
+**Event Logging**
 
 In addition to history tracking, Directory Manager provides event logging, which includes file
 logging and Windows logging for Directory Manager clients and services. See the

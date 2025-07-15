@@ -10,11 +10,11 @@ Using this API, you can update multiple groups.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 

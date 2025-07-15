@@ -58,19 +58,19 @@ existing groups as well.
 
         Let's say the following policy is defined for a user role:
 
-        Start In Container: Users
+**Start In Container: Users**
 
         Enforce Start In Containers: Enabled
 
-        Objects: Users with Mailboxes
+**Objects: Users with Mailboxes**
 
         Users with External Email-Address
 
-        Objects: Users
+**Objects: Users**
 
         Enforce Objects: Enabled
 
-        Default filter Criteria: Department is exactly HR
+**Default filter Criteria: Department is exactly HR**
 
         When a user of this role creates a new group the policy is applied on it.
 

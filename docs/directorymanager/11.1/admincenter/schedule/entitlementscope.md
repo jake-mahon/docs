@@ -12,7 +12,7 @@ An Entitlement Scope schedule is automatically created for an identity store whe
   store. See the [Manage File Servers](/docs/directorymanager/11.1/admincenter/entitlement/managefs.md) for additional information on
   adding a server.
 
-    Or
+**Or**
 
 - A SharePoint site is added for permission analysis on the Entitlement page in a Microsoft Entra ID
   identity store. See the [Manage SharePoint Sites](/docs/directorymanager/11.1/admincenter/entitlement/managesp.md) topic for

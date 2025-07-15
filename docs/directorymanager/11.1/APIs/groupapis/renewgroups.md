@@ -10,11 +10,11 @@ This API renews multiple groups, identities of which are provided in the request
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Renew
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Renew**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

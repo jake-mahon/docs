@@ -10,11 +10,11 @@ Using this API you can get a list of job names both predefined and user created
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Names
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs/Names**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

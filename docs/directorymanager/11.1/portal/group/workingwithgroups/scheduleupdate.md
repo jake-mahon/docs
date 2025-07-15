@@ -50,7 +50,7 @@ In Directory Manager portal, you can perform the following functions for Smart G
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group you want to modify the query for.
 
@@ -79,7 +79,7 @@ membership update.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group you want to associate a Smart Group Update
     job with.

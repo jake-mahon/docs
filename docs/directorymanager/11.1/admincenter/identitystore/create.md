@@ -133,7 +133,7 @@ Create a Generic LDAP identity store to connect to any LDAP version 3-compliant 
 such as Sun ONE directory server. This provider does not support dynamic schema detection. The
 schema included for this provider mostly contains commonly used fields.
 
-Follow the steps to create an identity store
+**Follow the steps to create an identity store**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

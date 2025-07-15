@@ -36,7 +36,7 @@ showcasing the following information:
 
 - The date and time the library was last created.
 
-    NOTE: Date format: mm/dd/yyyy
+**NOTE: Date format: mm/dd/yyyy**
 
 - You can view the files and folders within a document library till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
@@ -113,7 +113,7 @@ access type with respect to the specified permission(s).
 
 User: Administrator
 
-Access type: Allow
+**Access type: Allow**
 
 Permission: WriteAttributes, ExecuteFile, Read
 

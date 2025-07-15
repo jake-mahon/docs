@@ -118,7 +118,7 @@ Follow the steps to import additional owners for a group.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) a group to import its additional owners from an
     external file.
@@ -141,7 +141,7 @@ You can export additional owners of a group to an external file.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) a group to export its additional owners to an
     external file.

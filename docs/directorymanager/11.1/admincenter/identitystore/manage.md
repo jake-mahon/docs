@@ -9,7 +9,7 @@ sidebar_position: 20
 Once you create and configure an identity store, you can perform group and identity management
 operations in the identity provider using Directory Manager.
 
-What do you want to do?
+**What do you want to do?**
 
 - View Identity Store Details
 - Enable or Disable an Identity Store
@@ -123,7 +123,7 @@ When the Data service restarts for reasons such as IIS restart, it does the foll
   the priority list, i.e., DC_S.
 - If DC_S is not available either, the Data service will resort to the normal lookup process.
 
-Normal lookup process for Data service
+**Normal lookup process for Data service**
 
 Data service makes a connection with a domain controller through the System.DirectoryServices API.
 It sends a request to the API, which, in turn, connects to any domain controller in the domain. In
@@ -132,7 +132,7 @@ this way, Data Service communicates with the domain controller to perform the re
 System.DirectoryServices does not evaluate the domain controller in the DC priority list for
 creating a connection. Hence, in the above example, the API will connect to DC_N or DC_W.
 
-“Server Not Operational” error
+**“Server Not Operational” error**
 
 When Data service connects to a domain controller (say DC_E), it caches the domain logon information
 and uses it to create all subsequent sessions with the domain controller. Hence it does not iterate
@@ -147,14 +147,14 @@ process discussed above. It will connect to a different domain controller and ca
 information (and continue to make a session with this domain controller unless Data service is
 restarted).
 
-DC priority and Replication
+**DC priority and Replication**
 
 Every time the Replication service is triggered, it consults the DC priority list to connect to a
 domain controller for replication. If it is unable to connect to any domain controller in the
 priority list, it reverts to the normal lookup process to connect to a domain controller in the
 domain.
 
-In a nutshell
+**In a nutshell**
 
 - If DC priority is defined for a domain, Data service and Replication service will connect to a
   domain controller in the domain using the defined DC priority list. If no domain controller in the
