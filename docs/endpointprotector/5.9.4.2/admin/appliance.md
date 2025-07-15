@@ -370,7 +370,7 @@ The standard format for the E-Discovery fields is as follows:
 
 #### Other SIEM Logs
 
-User Login/User Logout
+**User Login/User Logout**
 
 The standard format for the Other SIEM Logs fields is as follows:
 

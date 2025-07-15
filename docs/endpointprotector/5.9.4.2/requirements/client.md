@@ -54,7 +54,7 @@ below.
 
 #### Recommended Exclusions for Windows
 
-Service Level Exclusions
+**Service Level Exclusions**
 
 - CssDcFlt
 - cssdlp20
@@ -63,7 +63,7 @@ Service Level Exclusions
 - cssguard
 - Endpoint Protector
 
-Folder Level Exclusions
+**Folder Level Exclusions**
 
 - C:\Program Files\CoSoSys\Endpoint Protector\\\*
 
@@ -76,7 +76,7 @@ Folder Level Exclusions
 
 - C:\Windows\System32\config\systemprofile\AppData\Local\CoSoSys\EPP\*
 
-File Level Exclusions
+**File Level Exclusions**
 
 - C:\ProgramFiles\CoSoSys\EndpointProtector\EPPservice.exe
 - C:\ProgramFiles\CoSoSys\EndpointProtector\sslsplit.exe
@@ -94,13 +94,13 @@ File Level Exclusions
 - C:\eppclient.log
 - C:\eppsslsplit.log
 
-Process Level Exclusions
+**Process Level Exclusions**
 
 - cssguard.exe
 - EPPNotifier.exe
 - EPPservice.exe
 
-Registry Level Exclusions
+**Registry Level Exclusions**
 
 - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\CssDcFlt
 - HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cssdlp20
@@ -110,13 +110,13 @@ Registry Level Exclusions
 
 #### Recommended Exclusions for macOS
 
-Folder Level Exclusions
+**Folder Level Exclusions**
 
 - /Applications/EndpointProtectorClient.app/\*
 - /private/etc/epp/\*
 - /private/var/tmp/epp/\*
 
-File Level Exclusions
+**File Level Exclusions**
 
 - /Applications/EndpointProtectorClient.app/Contents/MacOS/EppClient
 - /Applications/EndpointProtectorClient.app/Contents/MacOS/sslsplit
@@ -126,7 +126,7 @@ File Level Exclusions
 - /var/log/eppclient.log
 - /var/log/eppsslsplit.log
 
-Process Level Exclusions
+**Process Level Exclusions**
 
 - EppClient
 - sslsplit
@@ -135,12 +135,12 @@ Process Level Exclusions
 
 #### Recommended Exclusions for Linux
 
-Folder Level Exclusions
+**Folder Level Exclusions**
 
 - /opt/cososys/\*
 - /var/log/epp-client/\*
 
-File Level Exclusions
+**File Level Exclusions**
 
 - /opt/cososys/sbin/epp-client-daemon
 - /opt/cososys/sbin/epp_sslsplit
@@ -150,7 +150,7 @@ File Level Exclusions
 - /var/log/epp-client/epp_client_daemon.log
 - /var/log/epp-client/eppsslsplit.log
 
-Process Level Exclusions
+**Process Level Exclusions**
 
 - epp-client-daemon
 - epp-client

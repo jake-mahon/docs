@@ -17,7 +17,7 @@ the TLS protocol.
 
 ## Endpoint Protector Client
 
-TLS 1.3 Compatibility
+**TLS 1.3 Compatibility**
 
 | OS      | Older version                                                    | Newer version                                  | Endpoint Protector Client Features                                                |
 | ------- | ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -27,7 +27,7 @@ TLS 1.3 Compatibility
 
 ## Endpoint Protector Server
 
-TLS 1.3 Compatibility
+**TLS 1.3 Compatibility**
 
 | Older than 5.7.0.0        |                                                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------------------- |

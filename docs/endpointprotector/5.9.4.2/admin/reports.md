@@ -59,7 +59,7 @@ This matrix refers to clients from the 5.9.0.0 release and higher.
 
 Please see the table below for a detailed view of the events.
 
-File Tracing Events Matrix by Direction
+**File Tracing Events Matrix by Direction**
 
 | Direction                            | Windows    | macOS      | Linux      |
 | ------------------------------------ | ---------- | ---------- | ---------- |

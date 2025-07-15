@@ -130,7 +130,7 @@ transfers to be allowed, regardless of content or other policy restrictions deÔ¨
 If Git is selected from Restricted Apps, no Endpoint Protector client notiÔ¨Åcations and logs will be
 generated for the Git-related actions (fetch, clone, push, pull).
 
-Italian SSN and ID Usage
+**Italian SSN and ID Usage**
 
 Starting with Endpoint Protector server version 5.7.0.0, Italian SSN was added to the PII list.
 Similar to Italian ID, if selected from the list of PIIs, the SSN will detect the same entity.

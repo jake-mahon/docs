@@ -20,12 +20,12 @@ From this section you can view, create, manage and delete administrators.
 To create a new Administrator, under the table with existing administrators, click Create and then
 provide the following information:
 
-Administrator Details
+**Administrator Details**
 
 - Add the username and password, email, ﬁrst and last name, phone number and then select the UI
   language
 
-Account Settings
+**Account Settings**
 
 - Account is active – manage the account status
 - Login Attempt Restrictions – enforce a 5 to 10 minutes timeout for 5 to 10 unsuccessful login
@@ -50,7 +50,7 @@ situations:
 - Schedule Exports Alert – receive alerts on any scheduled exports
 - Ignore AD Authentication – allow using AD credentials to login Endpoint Protector
 
-Super Administrator Details
+**Super Administrator Details**
 
 - Super Administrator – enable this section to grant the Administrator access to all Departments and
   Endpoint Protector sections

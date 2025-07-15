@@ -59,7 +59,7 @@ You can create and manage connections from the Directory Services, Microsoft Ent
 section, Groups from the Microsoft Entra ID will have their users synchronized with the Endpoint
 Protector Server. Group membership will be retrieved recursively by the API platform itself.
 
-Example
+**Example**
 
 - Group 1 - User 1, User 2, User 3
 - Group 2 - Group 1, User 4

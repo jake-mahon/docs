@@ -127,7 +127,7 @@ migration process, make sure both Servers have the same version (e.g.: update th
 System Backup v2 does not include logs, Audits or System Backups. If needed, these should be
 downloaded before proceeding.
 
-Example
+**Example**
 
 The initial Endpoint Protector deployed was version 4.4.0.7. Over time, updates were applied though
 the Live Update section, bringing the appliance to Endpoint Protector version 5.2.0.6. While these

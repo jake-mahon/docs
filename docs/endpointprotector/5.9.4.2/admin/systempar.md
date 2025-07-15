@@ -124,7 +124,7 @@ Follow the steps to add a new custom notiﬁcation.
 
 **Step 3 –** Click **Save**.
 
-Example: USB Driver(deviceName) is blocked(action)
+**Example: USB Driver(deviceName) is blocked(action)**
 
 Once the notiﬁcation was created, you can select the custom notiﬁcation from the User Remediation
 Notiﬁcation Template drop-down located in the Device Control section, Global Setting, Users,
@@ -219,7 +219,7 @@ Conﬁdence Level, additional Functions to consider when determining the Main Fu
 Study the examples provided within Endpoint Protector Server to understand the syntax needed in the
 Contextual XML.
 
-Example
+**Example**
 
 ```
 <Rules>
@@ -243,7 +243,7 @@ same with the one on the client -->
 should be the same with the one on the client -->
 ```
 
-Example
+**Example**
 
 ```
 <Keyword id="keywords_Canada_SSN_1">
@@ -340,10 +340,10 @@ For a detailed view of all events and their descriptions, please see the table b
 | File Read-Write                              | File read and write from device                                                                                                 |
 | File Rename                                  | File from device renamed                                                                                                        |
 | File Delete                                  | File deleted from device                                                                                                        |
-| Device TD                                    | Trusted Device™ connected                                                                                                      |
+| Device TD                                    | Trusted Device™ connected                                                                                                       |
 | Deleted                                      | File deleted from device                                                                                                        |
 | Enable Read-Only                             | Device Read-Only Enabled                                                                                                        |
-| Enable if TD Level 1                         | Allows access when a Trusted Device™ is connected (e.g., a USB stick with EasyLock installed, which is automatically launched) |
+| Enable if TD Level 1                         | Allows access when a Trusted Device™ is connected (e.g., a USB stick with EasyLock installed, which is automatically launched)  |
 | Enable if TD Level 2                         | Allows access when Trust Level 2 device is connected                                                                            |
 | Enable if TD Level 3                         | Allows access when Trust Level 3 device is connected                                                                            |
 | Enable if TD Level 4                         | Allows access when Trust Level 4 device is connected                                                                            |
@@ -356,27 +356,27 @@ For a detailed view of all events and their descriptions, please see the table b
 | File Decrypt                                 | File decrypted using EasyLock                                                                                                   |
 | File Encrypt (oﬄine)                         | File encrypted using EasyLock when not communicating with the Endpoint Protector Server                                         |
 | File Decrypt (oﬄine)                         | File decrypted using EasyLock when not communicating with the Endpoint Protector Server                                         |
-| Content Threat Detected                      | Content Aware Protection - Threat Detected                                                                                      |
-| Content Threat Blocked                       | Content Aware Protection - Threat Blocked                                                                                       |
+| Content Threat Detected                      | Content Aware Protection <ul><li>Threat Detected</li></ul>                                                                      |
+| Content Threat Blocked                       | Content Aware Protection <ul><li>Threat Blocked</li></ul>                                                                       |
 | File Copy                                    | A ﬁle was copied to or from a removable device                                                                                  |
-| Content Threat Discovered                    | eDiscovery - Threat Discovered                                                                                                  |
-| eDiscovery Client Action                     | eDiscovery - Action received successfully                                                                                       |
+| Content Threat Discovered                    | eDiscovery <ul><li>Threat Discovered</li></ul>                                                                                  |
+| eDiscovery Client Action                     | eDiscovery <ul><li>Action received successfully</li></ul>                                                                       |
 | User Logout                                  | User Logout                                                                                                                     |
 | Client Integrity OK                          | Endpoint Protector Client Integrity ok                                                                                          |
 | Client Integrity Fail                        | Endpoint Protector Client Integrity failed                                                                                      |
 | Policies Received                            | Endpoint Protector Client received policy successfully                                                                          |
 | Uninstall Attempt                            | Endpoint Protector Client uninstall attempt                                                                                     |
-| EasyLock – successfully deployed             | EasyLock - successfully deployed                                                                                                |
-| EasyLock - deployment failed                 | EasyLock - deployment failed                                                                                                    |
+| EasyLock – successfully deployed             | EasyLock <ul><li>successfully deployed</li></ul>                                                                                |
+| EasyLock <ul><li>deployment failed</li></ul> | EasyLock <ul><li>deployment failed</li></ul>                                                                                    |
 | File Printed                                 | File sent to printer successfully                                                                                               |
 | User Information Updated                     | User information updated successfully                                                                                           |
 | Transfer Limit Reached                       | Transfer Limit Reached                                                                                                          |
 | External Repository Upload                   | File Shadow uploaded to Repository successfully                                                                                 |
 | External Repository Upload Fail              | File Shadow uploaded to Repository failed                                                                                       |
-| Content Remediation Session Active           | Content Aware Protection - Threat Remediated                                                                                    |
-| Content Remediation Request Canceled by User | Content Aware Protection - User Remediation dialog was closed by the user                                                       |
+| Content Remediation Session Active           | Content Aware Protection <ul><li>Threat Remediated</li></ul>                                                                    |
+| Content Remediation Request Canceled by User | Content Aware Protection <ul><li>User Remediation dialog was closed by the user</li></ul>                                       |
 | Forced Uninstall Attempt                     | Endpoint Protector Client forced uninstall attempt                                                                              |
-| Device Remediation Request Canceled by User  | Device Control - User Remediation dialog was closed by the user                                                                 |
+| Device Remediation Request Canceled by User  | Device Control <ul><li>User Remediation dialog was closed by the user</li></ul>                                                 |
 | Device Remediation Session Canceled          | Device Temporarily Unlock with User Remediation canceled                                                                        |
 | Device Remediation Session Active            | Device Temporarily Unlocked with User Remediation                                                                               |
 | Device Remediation Session Ended             | Device Temporarily Unlock with User Remediation ended                                                                           |
@@ -384,6 +384,7 @@ For a detailed view of all events and their descriptions, please see the table b
 | Unplanned Client Termination                 | Unplanned Client Termination                                                                                                    |
 | Artifact Received                            | Artifact Received                                                                                                               |
 | DPI Bypassed Traﬃc                           | DPI Bypassed Traﬃc                                                                                                              |
+
 
 ## User Remediation
 

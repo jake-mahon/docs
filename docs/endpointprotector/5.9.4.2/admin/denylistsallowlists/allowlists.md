@@ -74,7 +74,7 @@ transfer ﬁles also needs to be selected from within the Content Aware Protecti
 You can use wildcard patterns in the ﬁle location allow list, to specify wildcard matching. To match
 a desktop folder on Windows use the pattern "?:\Users\\\*\Desktop\".
 
-Wildcards Usage Examples for File Location
+**Wildcards Usage Examples for File Location**
 
 | Wildcards Type | File Location      | Results matched                                                                    | Results not matched                                                     |
 | -------------- | ------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -162,7 +162,7 @@ when creating or editing a Content Aware Protection policy.
 You can use wildcard patterns in the e-mail domain to specify wildcard matching as displayed in the
 following example.
 
-Wildcards Usage Examples for E-mail Domain
+**Wildcards Usage Examples for E-mail Domain**
 
 | E-mail Domain name | Results matched                              | Results not matched       |
 | ------------------ | -------------------------------------------- | ------------------------- |
@@ -212,7 +212,7 @@ available when creating or editing a Content Aware Protection policy.
 
 ![New Deep Packet Inspection Allowlists](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/newdpiallowlists.webp)
 
-Wildcards Usage Examples for Deep Packet Inspection
+**Wildcards Usage Examples for Deep Packet Inspection**
 
 | Domain name         | Results matched                                                        | Results not matched                                                      |
 | ------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |

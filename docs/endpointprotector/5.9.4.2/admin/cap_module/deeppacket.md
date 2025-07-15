@@ -125,21 +125,21 @@ properly configured for your Linux distribution.
 
 Follow the steps below, specific to your Linux distribution, to configure the certificate manually.
 
-Debian-based Systems (e.g., Ubuntu)
+**Debian-based Systems (e.g., Ubuntu)**
 
 **Step 1 –** Download the archived certificates from the Endpoint Protector Server.
 
 **Step 2 –** Unzip the certificate file:
 
-unzip ClientCerts.zip
+**unzip ClientCerts.zip**
 
 **Step 3 –** Copy the cacert.pem file to the trusted certificate directory and rename it to .crt:
 
-sudo cp cacert.pem /usr/local/share/ca-certificates/cacert.crt
+**sudo cp cacert.pem /usr/local/share/ca-certificates/cacert.crt**
 
 **Step 4 –** Update the system's certificate store:
 
-sudo update-ca-certificates
+**sudo update-ca-certificates**
 
 Red Hat-based Systems (e.g., RHEL, Fedora)
 
@@ -147,15 +147,15 @@ Red Hat-based Systems (e.g., RHEL, Fedora)
 
 **Step 2 –** Unzip the certificate file:
 
-unzip ClientCerts.zip
+**unzip ClientCerts.zip**
 
 **Step 3 –** Copy the cacert.pem file to the appropriate directory for trusted anchors:
 
-sudo cp cacert.pem /etc/pki/ca-trust/source/anchors/
+**sudo cp cacert.pem /etc/pki/ca-trust/source/anchors/**
 
 **Step 4 –** Update the system's certificate store:
 
-sudo update-ca-trust
+**sudo update-ca-trust**
 
 Additional Resources
 

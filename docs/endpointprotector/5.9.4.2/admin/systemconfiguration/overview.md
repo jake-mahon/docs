@@ -65,7 +65,7 @@ You have the ability to bypass proxy settings for all operating systems.
 
 #### Windows and macOS
 
-Endpoint Protector Wizard Installer
+**Endpoint Protector Wizard Installer**
 
 Select the option to **Use Manual Proxy Settings** from the Endpoint Protector Wizard installer and
 then provide the following information:
@@ -76,7 +76,7 @@ then provide the following information:
 - Username – add proxy server username
 - Password – add proxy server password
 
-CLI commands
+**CLI commands**
 
 You can also apply manual proxy settings using CLI commands:
 
@@ -136,7 +136,7 @@ follow these steps:
 **Step 6 –** For the ﬁrst proxy setup, EPPCLIENT_HTTPS_PROXY, add the proxy server information in
 the address:port:user:password format.
 
-Example: EPPCLIENT_HTTPS_PROXY=address:port:user:password
+**Example: EPPCLIENT_HTTPS_PROXY=address:port:user:password**
 
 **Step 7 –** Save the changes, and then run the installation without having a VPN connection:
 

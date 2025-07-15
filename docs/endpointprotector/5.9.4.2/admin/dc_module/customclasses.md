@@ -111,7 +111,7 @@ You can choose to log out or continue your session, resetting the session timeou
 
 ![Choose to log out or continue your session, resetting the session timeout interval](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/sessiontimeout.webp)
 
-Endpoint Protector Rights Functionality
+**Endpoint Protector Rights Functionality**
 
 ![Rights Functionality ](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/rightsfunctionality.webp)
 

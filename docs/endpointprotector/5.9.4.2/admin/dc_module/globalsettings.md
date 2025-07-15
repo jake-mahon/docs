@@ -70,7 +70,6 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
     determining an appropriate policy refresh interval.
     :::
 
-
 - Log Interval (min) – enter the time interval at which the Client attempts to re-send the Logs to
   the Server.
 - Shadow Interval (min) – enter a time interval between 0-720 minutes at which the Endpoint
@@ -885,7 +884,7 @@ information.
 
 To use the debug feature and collect logs, follow these steps:
 
-Manual Logging
+**Manual Logging**
 
 On the Global > Computer > User Settings page, configure the following settings:
 
@@ -918,7 +917,7 @@ Read the [Data Obfuscation Rules](#data-obfuscation-rules) section for more info
 
 ![Netwrix Endpoint Protector Client Debug Mode](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/clientdebugmode.webp)
 
-Automatic Logging
+**Automatic Logging**
 
 You can also substitute the user action from the Manual Logging procedure by using the automatic
 logging option.

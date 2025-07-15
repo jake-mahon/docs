@@ -10,7 +10,7 @@ From this section, you can create Denylists and Allowlists that can be used in b
 Aware Protection and eDiscovery modules. Once deﬁned, these lists can be enabled for a speciﬁc
 policy.
 
-Denylists and Allowlists Availability
+**Denylists and Allowlists Availability**
 
 | Type           | Name                   | Windows Platform                | macOS Platform | Linux Platform | Content Aware Protection Module | eDiscovery Module |
 | -------------- | ---------------------- | ------------------------------- | -------------- | -------------- | ------------------------------- | ----------------- |

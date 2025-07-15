@@ -226,7 +226,7 @@ below) is met with one or more matches per identiﬁer.
 
 Eg. ( E-mail AND SSN US) OR CC Visa
 
-Example - Scenario 1
+**Example - Scenario 1**
 
 - Content Aware Protection Policy:
 
@@ -280,7 +280,7 @@ DEVICE CONTROL - Global Settings) is disabled, the scan engine will continue the
 entire ﬁle is scanned, but will only report 10 threats, set with ‘Maximum number of reported
 threats’ under ‘Ignore Thresholds’.
 
-Example - Scenario 2
+**Example - Scenario 2**
 
 - Content Aware Protection Policy:
 
@@ -328,7 +328,7 @@ DEVICE CONTROL - Global Settings) is disabled, the scan engine will continue the
 entire ﬁle is scanned, but will only report 4 threats, set with ‘Maximum number of reported threats’
 under ‘Ignore Thresholds’.
 
-Example - Scenario 3
+**Example - Scenario 3**
 
 - Content Aware Protection Policy:
 
@@ -368,7 +368,7 @@ scan engine will consider the ‘Maximum number of reported threats’ under ‘
 “Limit Reporting” (under DEVICE CONTROL - Global Settings) is disabled. Reporting stops when 10
 threats are found.
 
-Example - Scenario 4
+**Example - Scenario 4**
 
 - Content Aware Protection Policy:
 

@@ -112,7 +112,7 @@ information:
 
 Select the artifacts retrieval method:
 
-Indirect Artefact Retrieval
+**Indirect Artefact Retrieval**
 
 This is the recommended and most secure option to retrieve artifacts via the Endpoint Protector
 Server.
@@ -142,7 +142,7 @@ You can download or delete an object using SDK, which limits the regions availab
 - us-gov1-west-1 - United States GovCloud
 - ﬁps-us-gov-west-1 - United States GovCloud FIPS 140-2
 
-Direct Artifact Retrieval
+**Direct Artifact Retrieval**
 
 This option is dedicated to globally distributed Endpoint Protector deployment. This method will
 establish a direct connection from the system administrator’s computer to the S3 Bucket Repository
@@ -289,37 +289,37 @@ in the following situations:
 
 ### File naming and structure
 
-File name convention
+**File name convention**
 
 The ﬁle names will be uploaded to the S3 Bucket with URLs encoded to avoid issues with special
 characters. The Endpoint Protector Server will then decode to display the original name.
 
 Example:
 
-File name
+**File name**
 
 ```
 canada_&$@=;/+ ,?{^}%`]>[~<#|_山人é口ŏ刀ā木ù日ì月è女ǚ子ĭ馬/马鳥/鸟niǎ目ù水 .txt
 ```
 
-File name displayed in AWS S3 Bucket
+**File name displayed in AWS S3 Bucket**
 
 ln4w7yuqax-dev-client-bucket/2022-11-23/ComputerName/canada*%26%24%40%3D%3B%3
 A%2B%20%2C%3F%5C%7B%5E%7D%25%60%5D%3E%5B~%3C%23%7C*%E5%B1%B1%E4%B
 A%BAe%CC%81%E5%8F%A3o%CC%86%E5%88%80a%CC%84%E6%9C%A8u%CC%80%E6%9
 7%A5i%CC%80%E6%9C%88e%CC%80%E5%A5%B3u%CC%88%CC%8C%E5%AD%90i%CC%86
 
-%E9%A6%AC%3A%E9%A9%AC%E9%B3%A5%3A%E9%B8%9Fnia%CC%8C%E7%9B%AEu%CC
+**%E9%A6%AC%3A%E9%A9%AC%E9%B3%A5%3A%E9%B8%9Fnia%CC%8C%E7%9B%AEu%CC**
 
 %80%E6%B0%B4%20.txt
 
 File name and special characters from the computer name and location will also be encoded.
 
-File name structure
+**File name structure**
 
 Default ﬁle name structure:
 
-bucketName/CurrentDate/ComputerName
+**bucketName/CurrentDate/ComputerName**
 
 - bucket name (ln4w7yuqax-dev-client-bucket)
 - current date in YYYY-MM-DD format (2022-11-23)
@@ -327,4 +327,4 @@ bucketName/CurrentDate/ComputerName
 
 File name structure with S3 Bucket location ﬁeld speciﬁed:
 
-bucketName/location/CurrentDate/ComputerName
+**bucketName/location/CurrentDate/ComputerName**

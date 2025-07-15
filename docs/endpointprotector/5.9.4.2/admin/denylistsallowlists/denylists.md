@@ -106,7 +106,7 @@ File Location Denylist will only apply for the selected computer groups after 15
 You can use wildcard patterns in the File Location Denylists to specify wildcard matching. To match
 a desktop folder on Windows, use the pattern "?:\Users\\\*\Desktop\".
 
-Wildcards Usage Examples for File Location
+**Wildcards Usage Examples for File Location**
 
 | Wildcards Type | File Location  | Results matched                                        | Results not matched                                            |
 | -------------- | -------------- | ------------------------------------------------------ | -------------------------------------------------------------- |
@@ -295,7 +295,7 @@ to gain visibility and control over the usage of particular applications.
 Example: Consider the scenario of controlling the startup mode of an application, as illustrated by
 the example below for Google Chrome:
 
-chrome.exe --incognito
+**chrome.exe --incognito**
 
 With CLI commands denylists, you can deﬁne criteria for command line arguments that match speciﬁc
 application behaviors. This allows you to create CAP policies tailored to your organization's needs,
