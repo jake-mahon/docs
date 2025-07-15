@@ -21,7 +21,7 @@ Exchange Folder
 being locked down or blocked!
 
 | Template         | Description        | TAGS |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| ------------------------ | ------------- | ---- |
 | Non-Owner Logon Lockdown | USE CAUTION WITH ALL LOCKDOWN TEMPLATES Specify the Exchange Mailboxes and Containers to lockdown. Optionally, add Exchange Perpetrators to be allowed or denied. | None |
 
 File System Folder

@@ -8,8 +8,8 @@ sidebar_position: 10
 
 The Actions folder contains the following templates:
 
-| Template                                                                                 | Description                                                         | TAGS              |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------- |
+| Template         | Description       | TAGS        |
+| -------------------- | ---------- | ----------------- |
 | AD Changes: Notify Admin about sensitive group membership changes for sensitive accounts | Notify Admin about group membership changes for sensitive accounts. | NEW 6.0 TEMPLATES |
 | AD Changes: Notify Admin about sensitive group membership changes                        | Notify Admin about sensitive group membership changes               | NEW 6.0 TEMPLATES |
 | AD Changes: Notify Admin that account is now enabled                                     | Notify Admin that account is now enabled                            | NEW 5.2 TEMPLATES |
