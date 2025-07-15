@@ -35,7 +35,7 @@ monitoring the target environment.
 
 Prior to adding a Panzura host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Panzura CloudFS Monitoring](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity_2.md) topic
+[Panzura CloudFS Monitoring](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/panzura-activity.md) topic
 for additional information.
 
 Follow the steps to add a Panzura host to be monitored.

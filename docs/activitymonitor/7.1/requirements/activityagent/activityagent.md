@@ -133,7 +133,7 @@ Nasuni Nasuni Edge Appliances
 - 8.0+
 
 See the
-[Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity.md)
+[Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/nasuni-activity.md)
 topic for target environment requirements.
 
 NetApp Data ONTAP
@@ -151,12 +151,12 @@ See the following topics for target environment requirements:
 Nutanix
 
 See the
-[Nutanix Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity_1.md)
+[Nutanix Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/nutanix-activity.md)
 topic for target environment requirements.
 
 Panzura
 
-See the [Panzura CloudFS Monitoring](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity_2.md)
+See the [Panzura CloudFS Monitoring](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/panzura-activity.md)
 topic for target environment requirements.
 
 Qumulo
@@ -164,7 +164,7 @@ Qumulo
 - Qumulo Core 5.0.0.1B+
 
 See the
-[Qumulo Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity_3.md)
+[Qumulo Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/qumulo-activity.md)
 topic for target environment requirements.
 
 ## Supported SharePoint Farms Platforms
