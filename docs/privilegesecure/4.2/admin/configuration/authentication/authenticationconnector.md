@@ -20,8 +20,11 @@ Follow the steps to add an authentication connector to the console.
 - Connector Description (Optional) – Enter a brief description to identify the service account
 - Connection Type – Indicates the type of authentication
 
-**NOTE:** Once the Connection Type is selected, additional fields become available. The available
+:::note
+Once the Connection Type is selected, additional fields become available. The available
 fields will change depending on the selection.
+:::
+
 
 **Step 4 –** Enter the information from the applicable authentication connector provider. See the
 [Authentication Page](/docs/privilegesecure/4.2/admin/configuration/authentication/authentication.md) section for detailed descriptions of the fields.

@@ -88,7 +88,7 @@ Service to find all service accounts with dependencies.
 
 **Step 3 –** Select the checkbox for the service account for the rotation.
 
-**Step 4 –** Click Rotate Service Account to open the Account Dependencies window.
+**Step 4 –** Click **Rotate Service Account** to open the Account Dependencies window.
 
 **Step 5 –** Click **Change Now** to initiate credential rotation.
 

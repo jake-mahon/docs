@@ -14,7 +14,7 @@ information.
 
 Follow the steps below to reset a user's MFA.
 
-**Step 1 –** Navigate to the Policy > **Users & Groups** page.
+**Step 1 –** Navigate to the **Policy** > **Users & Groups** page.
 
 **Step 2 –** Select the desired user or group account.
 

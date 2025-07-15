@@ -8,11 +8,14 @@ sidebar_position: 50
 
 This chapter describes the basic steps needed to upgrade Netwrix Privilege Secure.
 
-**NOTE:** As part of the upgrade process, the Privilege Secure installer will complete a mandatory
+:::note
+As part of the upgrade process, the Privilege Secure installer will complete a mandatory
 encryption key rotation. Customers who are running Privilege Secure in high-availability mode or use
 distributed Action Service or Proxy components should refer to
 the[ Upgrading to Privilege Secure (fomerly SbPAM) 3.6 or Higher - High Availability and Remote Services Configurations](https://kb.netwrix.com/8422)
 knowledge base article before beginning an upgrade.
+:::
+
 
 ## Considerations
 
@@ -30,25 +33,37 @@ knowledge base article before beginning an upgrade.
     - Microsoft SQL — The Advanced checkbox provides the option to switch the database to Microsoft
       SQL Server.
 
-        **CAUTION:** This is an advanced configuration and requires additional support from Netwrix.
+        :::warning
+        This is an advanced configuration and requires additional support from Netwrix.
+        :::
+
 
 ## Upgrade Procedure
 
 Follow the steps to upgrade Netwrix Privilege Secure from an existing version.
 
-**NOTE:** Prior to upgrading Privilege Secure, the installer will scan for the current version
+:::note
+Prior to upgrading Privilege Secure, the installer will scan for the current version
 PostgreSQL and prompt you to upgrade if needed.
+:::
 
-**CAUTION:** During an upgrade, the process updates both the application and the database. This
+
+:::warning
+During an upgrade, the process updates both the application and the database. This
 process can take a significant amount of time, depending on the volume of data stored in the
 database. Canceling, exiting, or otherwise halting the installer during this step may result in
 irreparable damage to the Privilege Secure database and loss of data.
+:::
+
 
 **Step 1 –** Install the new version of Privilege Secure by running the NPS_Setup.exe as an
 administrator.
 
-**NOTE:** A server restart will be required after the installer in complete. A notification in the
+:::note
+A server restart will be required after the installer in complete. A notification in the
 installer will display after the upgrade procedure is complete.
+:::
+
 
 **Step 2 –** Clear the browser cache after the upgrade procedure. This helps to prevent conflicts
 when logging in to the new version of Privilege Secure.

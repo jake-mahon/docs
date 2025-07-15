@@ -13,9 +13,9 @@ Secret Vaults can be used to provide Privilege Secure users with access to vault
 
 Follow the steps below to add a new Secret Vault.
 
-**Step 1 –** Navigate to the Policy > Resources page.
+**Step 1 –** Navigate to the **Policy** > **Resources** page.
 
-**Step 2 –** Click the Plus icon and select New Secret Vault from the drop-down list.
+**Step 2 –** Click the **Plus** icon and select New Secret Vault from the drop-down list.
 
 ![Add secrete Vault Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addsecretvault.webp)
 
@@ -43,7 +43,10 @@ A secret vault has been created, and a secret added to the vault. See the
 [Secret Vault Details Page](/docs/privilegesecure/4.2/admin/interface/resources/detailspages/secretvault/secretvault.md) topic for additional
 information.
 
-**NOTE:** Vaulted credentials must be manually entered and updated.
+:::note
+Vaulted credentials must be manually entered and updated.
+:::
+
 
 See the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/credentialbasedpolic/credentials/credentials.md)
@@ -53,13 +56,16 @@ topic for additional information.
 
 Follow these steps to add a credential-based access policy to Privilege Secure.
 
-_Remember,_ a connection profile is required to create an access policy. You can create one ahead of
+:::tip
+Remember, a connection profile is required to create an access policy. You can create one ahead of
 time on the [Connection Profiles Page](/docs/privilegesecure/4.2/admin/interface/accesspolicy/connectionprofiles/connectionprofiles.md) page or use the
 arrow button to create one during these steps.
+:::
 
-**Step 1 –** Navigate to the Policy > Access Policies page.
 
-**Step 2 –** In the Access Policy list, click the Plus icon.
+**Step 1 –** Navigate to the **Policy** > **Access Policies** page.
+
+**Step 2 –** In the Access Policy list, click the **Plus** icon.
 
 ![Add Access Policy](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
@@ -70,7 +76,7 @@ arrow button to create one during these steps.
 - Type – Classification of the access policy. Select **Credential Based**.
 - Connection Profile – Displays the name of the connection profile associated to the access policy
 
-**Step 4 –** Click Save to create the new access policy.
+**Step 4 –** Click **Save** to create the new access policy.
 
 **Step 5 –** On the new access policy, select the **Users** tab.
 

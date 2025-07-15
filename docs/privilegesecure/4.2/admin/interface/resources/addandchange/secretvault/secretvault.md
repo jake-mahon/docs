@@ -8,9 +8,9 @@ sidebar_position: 50
 
 Follow the steps below to add a new secret vault to the console.
 
-**Step 1 –** Navigate to the Policy > Resources page.
+**Step 1 –** Navigate to the **Policy** > **Resources** page.
 
-**Step 2 –** Click the Plus icon and select New Secret Vault from the drop-down list.
+**Step 2 –** Click the **Plus** icon and select New Secret Vault from the drop-down list.
 
 ![Add secrete Vault Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addsecretvault.webp)
 
@@ -25,7 +25,10 @@ Follow the steps below to add a new secret vault to the console.
 A secret vault has been onboarded. See the
 [Secret Vault Details Page](/docs/privilegesecure/4.2/admin/interface/resources/detailspages/secretvault/secretvault.md) topic for additional information.
 
-**CAUTION:** Next, you will have to manually enter and update credentials for each applicable user.
+:::warning
+Next, you will have to manually enter and update credentials for each applicable user.
 Credentials are assigned through the Credential-based Access Policy for password release. See the
 [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/credentialbasedpolic/credentials/credentials.md)
 topic for additional information.
+
+:::

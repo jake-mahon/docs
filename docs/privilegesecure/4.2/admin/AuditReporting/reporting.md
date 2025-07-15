@@ -133,8 +133,11 @@ following attributes for a given user account:
 - Name
 - Privilege
 
-**NOTE:** The Subscriptions tab will not be enabled until saving the report. See the Subscriptions
+:::note
+The Subscriptions tab will not be enabled until saving the report. See the Subscriptions
 Tab topic for additional information.
+:::
+
 
 ## Customize an Existing Report
 

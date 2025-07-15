@@ -21,8 +21,11 @@ Begin by setting up an Integration Connector for using Netwrix Privilege Secure 
 Ensure that the account you wish to use for your activity is managed by Privilege Secure or is
 contained within a Secret Vault resource in Privilege Secure.
 
-**NOTE:** For managed accounts, ensure that the account has been rotated at least once since being
+:::note
+For managed accounts, ensure that the account has been rotated at least once since being
 managed. Otherwise, there will be no vaulted password in the Netwrix Privilege Secure database.
+:::
+
 
 ### Configure the Activity Connector
 
@@ -191,7 +194,10 @@ next to the account name.
 **Step 3 –** Click on the **Manage** button that becomes available above the list, and select
 **Manual**.
 
-**NOTE:** Ensure the user is not already managed or added into Privilege Secure.
+:::note
+Ensure the user is not already managed or added into Privilege Secure.
+:::
+
 
 See the [Credentials Dashboard](/docs/privilegesecure/4.2/admin/dashboard/credentials.md) topic for additional information on
 creating a managed account.
@@ -215,8 +221,11 @@ account.
 
 **Step 3 –** Enter a password to match the AD password, then click **Save**.
 
-**NOTE:** For versions before Privilege Secure 4.1, a support ticket will be needed as the Set
+:::note
+For versions before Privilege Secure 4.1, a support ticket will be needed as the Set
 Password feature is not available.
+:::
+
 
 See the
 [Manage Internal Service Accounts](/docs/privilegesecure/4.2/admin/interface/credentials/manageinternalserviceaccount.md)
@@ -244,16 +253,22 @@ Follow the steps to create an activity.
 - Vault Connector — Displays a list of previously configured vault connectors. Select the vault
   connector created from the steps above.
 
-**NOTE:** You may use accounts stored in a Vault and added as a resource once the integration is
+:::note
+You may use accounts stored in a Vault and added as a resource once the integration is
 created. Also, you may apply domain or other local accounts managed by Netwrix Privilege Secure, but
 the password must be rotated once prior to use with an activity.
+:::
+
 
 ![BYOV create an Activity](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/byovconnectoractivity.webp)
 
 **Step 4 –** Click Save to create the Activity.
 
-**NOTE:** Ensure the Login Account Template uses the format DOMAIN\samAccountName (e.g.,
+:::note
+Ensure the Login Account Template uses the format DOMAIN\samAccountName (e.g.,
 NWXTECH\dgrayson).
+:::
+
 
 See the [Add Activity](/docs/privilegesecure/4.2/admin/interface/activities/activity/activity.md) topic for additional information on creating an
 Activity.
@@ -298,5 +313,7 @@ management.
 
 ![My Activities BYOV Connector](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/byovconnectormyactivities.webp)
 
-_Remember,_ Always verify configurations and permissions, especially when integrating with systems
+:::tip
+Remember, Always verify configurations and permissions, especially when integrating with systems
 like AD and using specific user accounts for critical operations.
+:::

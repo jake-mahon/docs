@@ -24,9 +24,12 @@ information.
 Follow the steps to install the NPS Proxy Service on another server that will run services for the
 application.
 
-_Remember,_ You must configure the Antivirus exclusions according to the
+:::tip
+Remember, You must configure the Antivirus exclusions according to the
 [Exclusions for Antivirus (AV) & Endpoint Software](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000Hi8CAE.html)
 knowledge base article.
+:::
+
 
 **Step 1 –** Copy the `NPS.ProxyService.exe` file to the desktop of the remote server.
 
@@ -38,7 +41,10 @@ Secure Proxy Service Setup wizard opens.
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
 
-_Remember,_ it is a best practice to read the agreement before accepting it.
+:::tip
+Remember, it is a best practice to read the agreement before accepting it.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/setupoptions.webp)
 
@@ -51,8 +57,11 @@ _Remember,_ it is a best practice to read the agreement before accepting it.
 
 **Step 5 –** You will return to the End User License Agreement page. Click Install.
 
-**NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
+:::note
+The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
+:::
+
 
 ![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/completed_2.webp)
 
@@ -66,41 +75,50 @@ to run automatically in the Services app (`services.msc`).
 When the NPS Proxy Service is installed on a remote machine, it must be registered with the proxy
 server.
 
-Example Values
+**Example Values**
 
 When referring to the NPS Application server, we will use the following example values in our
 configuration. Replace these values with values that are specific for your environment.
 
-NPS Application Server
+**NPS Application Server**
 
 - DNS FQDN: nps-app.example.com
 - IP Address: 192.168.99.1
 
-NPS Remote Proxy Server
+**NPS Remote Proxy Server**
 
 - DNS FQDN: nps-remote.example.com
 - IP Address: 192.168.99.2
 
-NPS Application Server
+**NPS Application Server**
 
 Follow the steps to register the NPS Proxy Service.
 
-**NOTE:** All commands are executed on the NPS Application Server as administrator.
+:::note
+All commands are executed on the NPS Application Server as administrator.
+:::
+
 
 **Step 1 –** Validate the existence of the `sbpam_node.json` file in the installation directory of
 both servers. The default location is:
 
 `C:\ProgramData\Stealthbits\PAM\ProxyService`
 
-**NOTE:** If you are going to use the DNS FQDN to connect from your remote server, you will need to
+:::note
+If you are going to use the DNS FQDN to connect from your remote server, you will need to
 make sure that the FQDN is listed in the `sbpam_node.json` file.
+:::
+
 
 **Step 2 –** Open the JSON file as an administrator (via administrator command prompt) on both
 servers. The JSON file can be located at
 `C:\ProgramData\Stealthbits\PAM\ProxyService\sbpam_node.json`
 
-**CAUTION:** If this is not the first remote service, do not change the name of your NPS Application
+:::warning
+If this is not the first remote service, do not change the name of your NPS Application
 Server. If you do, you will need to re-register all the remote proxy servers.
+:::
+
 
 **Step 3 –** Ensure that the `"advertise"` value of the JSON file on each server has the NPS Proxy
 Server information, if changes are made, ensure they are saved:
@@ -121,8 +139,11 @@ For example:
 }
 ```
 
-**NOTE:** This file references the `IP`, `FQDN`, and `hostname` of the server you are on, not all
+:::note
+This file references the `IP`, `FQDN`, and `hostname` of the server you are on, not all
 servers.
+:::
+
 
 **Step 4 –** If edits were made, remove the `sbpam-node.crt` file from the following location on
 both servers using the command below as an administrator:
@@ -131,8 +152,11 @@ both servers using the command below as an administrator:
 del C:\ProgramData\Stealthbits\PAM\tls\certs\sbpam-node.crt
 ```
 
-**NOTE:** If you are adding the proxy to an existing mesh, only delete the `sbpam-node.crt file` on
+:::note
+If you are adding the proxy to an existing mesh, only delete the `sbpam-node.crt file` on
 the new proxy service server.
+:::
+
 
 **Step 5 –** On the NPS Application Server, run the following command:
 
@@ -143,11 +167,14 @@ the new proxy service server.
 **Step 6 –** Copy the returned hash value and save it for later, you will need this value when you
 register your remote service..
 
-Remote NPS Proxy Server
+**Remote NPS Proxy Server**
 
 Follow the steps to register the Remote NPS Proxy Service.
 
-**NOTE:** All commands are executed on the Remote NPS Proxy Server as an administrator.
+:::note
+All commands are executed on the Remote NPS Proxy Server as an administrator.
+:::
+
 
 **Step 1 –** Validate the existence of the `sbpam_node.json` file in the installation directory. The
 default location is `C:\ProgramData\Stealthbits\PAM\ProxyService`.

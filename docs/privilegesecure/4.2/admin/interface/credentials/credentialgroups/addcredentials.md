@@ -40,8 +40,11 @@ Both tables have the following columns:
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
 
-    **NOTE:** See the [Rotation Methods](/docs/privilegesecure/4.2/admin/interface/credentials/credentialrotationmethod.md) topic for additional
+    :::note
+    See the [Rotation Methods](/docs/privilegesecure/4.2/admin/interface/credentials/credentialrotationmethod.md) topic for additional
     information.
+    :::
+
 
 - Managed Type — Type of managed account:
 
@@ -76,11 +79,11 @@ Both tables have the following columns:
 
 Follow the steps to add credentials to a credential group.
 
-**Step 1 –** Navigate to the **Policy** > **Credentials** > Credential Groups page.
+**Step 1 –** Navigate to the **Policy** > **Credentials** > **Credential Groups** page.
 
 **Step 2 –** In the Credential Groups list, select the name of the credential group.
 
-**Step 3 –** In the Credential Groups table, click Add Credentials.
+**Step 3 –** In the Credential Groups table, click **Add Credentials**.
 
 **Step 4 –** Filter by **Internal**, **Standard**, or **Service**, and use the Search feature.
 
@@ -90,7 +93,7 @@ table.
 **Step 6 –** (Optional) Click the checkbox in the Credentials to Add table to move it back to the
 Available Credentials table.
 
-**Step 7 –** Click Add to add the credential(s) to the group.
+**Step 7 –** Click **Add** to add the credential(s) to the group.
 
 The new credentials are added to the applicable group.
 
@@ -102,11 +105,11 @@ one account can be added to a Credential Policy Override at a time. See the
 [Manage Internal Service Accounts](/docs/privilegesecure/4.2/admin/interface/credentials/manageinternalserviceaccount.md) topic for additional
 information.
 
-**Step 1 –** Navigate to the **Policy** > **Credentials** > Credential Groups page.
+**Step 1 –** Navigate to the **Policy** > **Credentials** > **Credential Groups** page.
 
 **Step 2 –** In the Credential Groups list, select the name of the credential policy override.
 
-**Step 3 –** In the Credential Policy Override table, click Add Credentials.
+**Step 3 –** In the Credential Policy Override table, click **Add Credentials**.
 
 **Step 4 –** To add a credential to the policy override, click the checkbox in the Available
 Credentials table.
@@ -114,6 +117,6 @@ Credentials table.
 **Step 5 –** (Optional) Click the checkbox in the Credentials to Add table to move it back to the
 Available Credentials table.
 
-**Step 6 –** Click Add to add the credential(s) to the policy override.
+**Step 6 –** Click **Add** to add the credential(s) to the policy override.
 
 The new credentials are added to the applicable Credential Policy Override.

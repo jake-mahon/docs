@@ -40,6 +40,6 @@ Follow the steps to add a policy to a custom role.
 
 **Step 5 –** Select the checkbox for the desired Policies in the Available Policies table.
 
-**Step 6 –** Click Add to add one or more policies to the custom role.
+**Step 6 –** Click **Add** to add one or more policies to the custom role.
 
 The new policies are added to the applicable custom role.

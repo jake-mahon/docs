@@ -26,8 +26,11 @@ The page has the following features:
   the user's MFA will generate a new TOTP secret for the user to register an authenticator. See
   [Reset User MFA](/docs/privilegesecure/4.2/admin/interface/usersgroups/usergroupapplication/resetmfa.md) topic for additional information.
 
-    **NOTE:** This button will not be visible if the present user has their Authentication Connector
+    :::note
+    This button will not be visible if the present user has their Authentication Connector
     set to Not Required
+    :::
+
 
 The content within the tabs change based on the type of object. See the following topics for
 additional information:

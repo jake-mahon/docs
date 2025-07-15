@@ -15,9 +15,9 @@ the same manner as domain users.
 
 Follow these steps to add a New Local Users.
 
-**Step 1 –** Navigate to the Policy > Users & Groups page.
+**Step 1 –** Navigate to the **Policy** > **Users & Groups** page.
 
-**Step 2 –** Click the Add button and select New Local User from the drop-down list.
+**Step 2 –** Click the **Add** button and select New Local User from the drop-down list.
 
 **Step 3 –** In the New Local User textbox, enter the name that will be assigned to the local user
 account.
@@ -27,6 +27,6 @@ account.
 **Step 5 –** The Change Password Next Login option is selected by default. Optionally uncheck it to
 maintain the password entered in step 4.
 
-**Step 6 –** Click the Save button when finished.
+**Step 6 –** Click the **Save** button when finished.
 
 Once saved, users can view the new Local User on the [Users & Groups Page](/docs/privilegesecure/4.2/admin/interface/usersgroups/usersgroups.md).

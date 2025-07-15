@@ -29,9 +29,12 @@ Follow the steps to install the Enablement Toolkit.
 **Step 1 –** Once the Privilege Secure Installer file has been downloaded, unzip and open the
 Enablement Toolkit.exe from the **Privilege Secure Installer Package** > **Extras Folder**.
 
-**NOTE:** The Enablement Toolkit application should be run as a local Administrator. If the user
+:::note
+The Enablement Toolkit application should be run as a local Administrator. If the user
 account running the toolkit is not a local administrator, Windows will request administrator
 credentials.
+:::
+
 
 ![SbPAM Enablement Toolkit - EULA Agreement window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/sbpamenablementtoolkit_-_1_-_eula_agreement.webp)
 
@@ -64,8 +67,11 @@ following fields for all operations:
 
 - Operation Menu – The operation menu drop-down list contains the following operations:
 
-    **NOTE:** See the Enablement Toolkit Operations topic for additional information about each
+    :::note
+    See the Enablement Toolkit Operations topic for additional information about each
     operation.
+    :::
+
 
     - Enumerate Active Directory Objects
     - Verify Domain Group Membership for Credential
@@ -92,10 +98,13 @@ Follow the steps to execute an operation.
 
 ![Stealthbits Enablement Toolkit - Help Menu](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/sbpamenablementtoolkit_-_3_-_help_window.webp)
 
-**NOTE:** The Help menu displays key information regarding the selected operation. The Help menu for
+:::note
+The Help menu displays key information regarding the selected operation. The Help menu for
 the Enumerate Active Directory Objects operation displays the operation name, required fields,
 notes, and a brief description of the selected operation. It is recommended to view the Help menu
 for each operation you intend to execute.
+:::
+
 
 **Step 3 –** Configure the fields for the selected operation.
 
@@ -165,7 +174,10 @@ ensure the unknown publisher warning disappears completely.
 **Step 2 –** Navigate to **Computer Configuration** > **Administrative Templates** > **Windows
 Components** > **Remote Desktop Services** > **Remote Desktop Connection Client**.
 
-**NOTE:** Do not expand the Remote Desktop Connection Client folder.
+:::note
+Do not expand the Remote Desktop Connection Client folder.
+:::
+
 
 ![Troubleshooting - GPO Settings](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/troubleshootinggposettings.webp)
 
@@ -186,9 +198,12 @@ certificate thumbprints** field.
 The RDP file has been certified and will be trusted by Windows computers that are part of this
 policy.
 
-**NOTE:** IIS_IUSRS account must have read permissions to the certificate used by Privilege Secure
+:::note
+IIS_IUSRS account must have read permissions to the certificate used by Privilege Secure
 in certlm.msc. Otherwise, in the PAM-WebService log the "Could not sign RDP file with certificate
 for RDP Session: Keyset does not exist" error will appear and the RDP file won't be signed.
+:::
+
 
 ## Update InsecureSkipVerify and RestURL
 

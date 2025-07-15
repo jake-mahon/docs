@@ -40,7 +40,10 @@ profile that allow a session to be extended by the user, in increments.
 If Session Extension is enabled, the session extension option appears for users when the remaining
 time is 5 minutes or less.
 
-**NOTE:** For NPS users with the Administrator role, session extension is always enabled.
+:::note
+For NPS users with the Administrator role, session extension is always enabled.
+:::
+
 
 ![Extend Activity Session](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsession.webp)
 

@@ -16,9 +16,9 @@ combination of certificate serial number and API key.
 
 Follow the steps to add an Application to an Access Policy.
 
-**Step 1 –** Navigate to the Users & Groups page.
+**Step 1 –** Navigate to the **Users & Groups** page.
 
-**Step 2 –** Click Add Application.
+**Step 2 –** Click **Add Application**.
 
 **Step 3 –** Enter a new Application Name in the provided field. This will be displayed to represent
 the application.
@@ -30,6 +30,6 @@ certificate to the Trusted Root Certification Authorities on the Privilege Secur
 
 **Step 5 –** Enter the API Key. This is the unique key used as part of Application authentication.
 
-**Step 6 –** Click the Save button when finished.
+**Step 6 –** Click the **Save** button when finished.
 
 The new Applicationhas been added to the the Users & Groups page.

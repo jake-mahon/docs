@@ -12,7 +12,10 @@ the Activity. See the [Activities Page](/docs/privilegesecure/4.2/admin/interfac
 
 Follow the steps to add or edit a managed user account for the resource.
 
-**NOTE:** Only applicable to Website resources.
+:::note
+Only applicable to Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 

@@ -10,7 +10,7 @@ Follow the steps to add a Website Resource to the Privilege Secure Console.
 
 **Step 1 –** Navigate to the **Policy** > **Resources** page.
 
-**Step 2 –** Click the Plus icon and select New Website from the drop-down list.
+**Step 2 –** Click the **Plus** icon and select New Website from the drop-down list.
 
 ![Add New Website Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addnewwebsite.webp)
 

@@ -51,7 +51,10 @@ the ‘KMS’ service.
 
 **Step 7 –** Under the Resources dropdown menu, select the **Any in this account** checkbox.
 
-**NOTE:** This can be limited to a specific key when the key has been created.
+:::note
+This can be limited to a specific key when the key has been created.
+:::
+
 
 ![Review and Create the Policy](/img/product_docs/privilegesecure/4.2/accessmanagement/requirements/reviewandcreate.webp)
 
@@ -111,7 +114,10 @@ functionality.
 
 **Step 12 –** Click **Done** when finished.
 
-**CAUTION:** Do not delete the AWS user Access Key without rotating the NPS key first.
+:::warning
+Do not delete the AWS user Access Key without rotating the NPS key first.
+:::
+
 
 The best practice for use of access keys is to rotate them regularly. Follow these steps when
 rotating access keys.
@@ -148,8 +154,11 @@ continue.
 
 **Step 6 –** Add a Key Administrator if required.
 
-**NOTE:** The NPS Key user created earlier does not require administrative permissions at this
+:::note
+The NPS Key user created earlier does not require administrative permissions at this
 level.
+:::
+
 
 ![Add Key User](/img/product_docs/privilegesecure/4.2/accessmanagement/requirements/addkeyuser.webp)
 
