@@ -16,10 +16,13 @@ The key tags within the file are as follows:
 
 ![AgentHubDetailsFile](/img/product_docs/changetracker/8.0/install/agent/agenthubdetailsfile.webp)
 
-_Remember,_ an unencrypted password means the Agent didn’t initialize and suggests a bad
+:::tip
+Remember, an unencrypted password means the Agent didn’t initialize and suggests a bad
 installation or .NET Framework issue – remember the Agent on Windows requires .NET Framework V3.5,
 Linux/Solaris requires the latest NNT Mono runtime. Gen 7 Agent also supports additional nodes –
 NamePrefix, NameSuffix.
+:::
+
 
 \*The Thumbprint uniquely identifies the Web Server certificate, see the Microsoft
 [How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx)
@@ -42,5 +45,8 @@ file.
 
 The next step is to check that there is network connectivity to the Hub URL from the Agent’s host.
 
-**NOTE:** Where the Change Tracker Hub has been installed on a Windows/IIS platform then the Hub URL
+:::note
+Where the Change Tracker Hub has been installed on a Windows/IIS platform then the Hub URL
 will be https://192.168.1.36.
+
+:::

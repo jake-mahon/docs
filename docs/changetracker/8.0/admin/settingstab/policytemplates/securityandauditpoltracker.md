@@ -6,7 +6,10 @@ sidebar_position: 90
 
 # Policy Templates: Security and Audit Policy Tracker
 
-**NOTE:** This template applicable to Windows OS only.
+:::note
+This template applicable to Windows OS only.
+:::
+
 
 Netwrix Change Tracker can be used to track changes to an extended range of **Security Settings**
 covered by the **Audit** and **Security** policies.

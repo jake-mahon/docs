@@ -32,8 +32,11 @@ Common minifilter drivers that are installed on a given Windows server are those
 Virus Scanning, Encryption and/or Continuous Backup. Many of these can lock files whilst processing
 the request and in some cases, such as Encryption, modify the request.
 
-**NOTE:** The Gen 7 Agent minifilter driver does not lock files or modify the I/O request, it simply
+:::note
+The Gen 7 Agent minifilter driver does not lock files or modify the I/O request, it simply
 monitors change.
+:::
+
 
 Logging of changes is only done for those files that meet the filter requirements of the Change
 Tracker Policy Tracking Template applied to the running Gen 7 Agent.

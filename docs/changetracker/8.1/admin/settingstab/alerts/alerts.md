@@ -16,6 +16,9 @@ event options for each Device Group.
 Access the **User Notification Email** page via **Settings** -> **User Notification Emails** and
 select a user, then dial in **Notification Types** for the selected Device Group.
 
-**NOTE:** Core system settings such as the Syslog Server and SMTP details will also need to be
+:::note
+Core system settings such as the Syslog Server and SMTP details will also need to be
 defined via **Settings** -> **System Settings** in the Change Tracker . See the
 [System Settings](/docs/changetracker/8.1/admin/settingstab/systemsettings/systemsettings.md) topic for additional information.
+
+:::

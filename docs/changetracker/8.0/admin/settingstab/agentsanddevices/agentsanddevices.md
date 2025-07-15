@@ -20,15 +20,21 @@ can be edited below.
 - Event Send Block allows events to be temporarily blocked for a Device, for example, in case a
   misconfigured template is generating too much noise.
 
-**NOTE:** Use the **Filter Control Panel** to allow focus on just the Devices or Groups of interest.
+:::note
+Use the **Filter Control Panel** to allow focus on just the Devices or Groups of interest.
+:::
+
 
 ![Graphical user interface, application
 
 Description automatically
 generated](/img/product_docs/changetracker/8.0/admin/settings/page_guide_24.webp)
 
-**NOTE:** Click on the ‘burger’ icon alongside any column heading to get a full list of column
+:::note
+Click on the ‘burger’ icon alongside any column heading to get a full list of column
 options.
+:::
+
 
 ![Graphical user interface, text, application, email
 

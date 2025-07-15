@@ -47,7 +47,10 @@ C:\Users\Administrator\Downloads>nnt-changeTracker™-gen7agent-7.0.0.15-68.exe 
 You can also use these parameters in the command line: NameSuffix, Thumbprint, Proxy, ProxyDomain,
 ProxyUser, ProxyPassword.
 
-**NOTE:** These parameters are not case sensitive.
+:::note
+These parameters are not case sensitive.
+:::
+
 
 For more information on the **HubDetails.xml** nodes and settings see the
 [First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)

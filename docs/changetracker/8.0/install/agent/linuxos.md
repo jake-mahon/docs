@@ -66,7 +66,10 @@ The entire process outlined above can be completed using a single command as fol
 /opt/nnt/gen7agentcore/configure-gen7agentcore.sh https://192.168.1.107/api agent passWord121
 /opt/nnt/agent/bin GenVII- ; /sbin/service nntgen7agent start
 
-**NOTE:** Remove `rpm -evv nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch`
+:::note
+Remove `rpm -evv nnt-changetracker-gen7agentcore-7.0.1.9-252.noarch`
+:::
+
 
 ### For Debian Linux
 
@@ -78,7 +81,10 @@ package then install using:
 You can then use the same steps for configuring your **HubDetails.xml** file as in the previous
 section.
 
-**NOTE:** To uninstall the Gen 7 Agent on Debian, use:
+:::note
+To uninstall the Gen 7 Agent on Debian, use:
+:::
+
 
 # apt-get remove nnt-gen7agentcore
 
@@ -92,7 +98,10 @@ You’ll then want to remove the Gen 7 Agent files which will be found at:
 
 # sudo installer -pkg /tmp/nnt-gen7agentcore-7.0.0.19-34-x64.pkg -target /
 
-**NOTE:** To uninstall the Gen 7 Agent on MACOSX, use the following command:
+:::note
+To uninstall the Gen 7 Agent on MACOSX, use the following command:
+:::
+
 
 sudo pkgutil --forget nnt-gen7agentcore-7.0.0.19-34-x64.pkg
 

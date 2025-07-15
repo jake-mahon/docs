@@ -53,7 +53,10 @@ The key tags within the file are as follows:
 [How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx)
 Microsoft article for additional information.
 
-**NOTE:** Agent also supports additional nodes – **NamePrefix** and **NameSuffix**.
+:::note
+Agent also supports additional nodes – **NamePrefix** and **NameSuffix**.
+:::
+
 
 Agent does not need the **UseNewHub** node to be defined – this will default to true.
 

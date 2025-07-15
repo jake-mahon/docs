@@ -34,7 +34,10 @@ Files(x86)\Nmap), Linux: /usr/bin/)
 The **Network Port Tracker** is configured by specifying port ranges to include and exclude from the
 scan. In addition, the protocol used for each range can also be selected, either TCP, UDP or both.
 
-**NOTE:** As with any UDP scan, the non-acknowledged nature of UDP requires a more intensive, slower
+:::note
+As with any UDP scan, the non-acknowledged nature of UDP requires a more intensive, slower
 approach which may result in scan times exceeding 24 hours.
+:::
+
 
 ![PolicyTemplatesNetworkPortTrackerTab](/img/product_docs/changetracker/8.0/admin/settings/policytemplates/policytemplatesnetworkporttrackertab.webp)

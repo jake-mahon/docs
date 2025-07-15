@@ -26,16 +26,25 @@ name of the config file used for agents.
 
 **Step 3 –** Select the devices or groups of devices to configure and then enter the desired values.
 
-**CAUTION:** Altering the URL could cause the agent to be unable to communicate with the Hub and
+:::warning
+Altering the URL could cause the agent to be unable to communicate with the Hub and
 require direct manual intervention to resolve.
+:::
 
-**CAUTION:** Altering the agent username or password could cause the agent to be unable to
+
+:::warning
+Altering the agent username or password could cause the agent to be unable to
 communicate with the Hub if a matching user account does not exist. This too would require direct
 manual intervention to resolve.
+:::
 
-**CAUTION:** Altering the username or password of the user account used by any agent will render
+
+:::warning
+Altering the username or password of the user account used by any agent will render
 those agents incapable of communicating with the Hub. A corrective password will not be able to be
 broadcast to the now offline agents. Direct manual intervention would be required to resolve.
+:::
+
 
 For most fields, leaving a blank value will ensure that the current values for those fields in the
 target agent's configuration files will remain as they are. Leaving the Name prefix field blank will
