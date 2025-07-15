@@ -10,25 +10,12 @@ How to create single roles manually.
 
 ## Overview
 
-A single role is a way to represent an entitlement that is to be assigned to an identity. It brings
-a layer of abstraction through a user-friendly name, close to the business view. See the
-[ Single Role ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
-topic for additional information.
+A single role is a way to represent an entitlement that is to be assigned to an identity. It brings a layer of abstraction through a user-friendly name, close to the business view. See the [Single Role](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.
 
-To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity
-Manager, an entitlement assigned to an identity is in fact represented by the value of a given
-navigation property, in a resource owned by said identity. See the
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional
-information. Thus, each role is linked to one navigation rule per entitlement. See the
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
-topic for additional information.
+To be effective, roles must be linked to actual entitlements in the managed systems. Within Identity Manager, an entitlement assigned to an identity is in fact represented by the value of a given navigation property, in a resource owned by said identity. See the [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md)topic for additional information. Thus, each role is linked to one navigation rule per entitlement. See the
+[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
-**NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator
-profile of an identity. This entitlement won't be assigned directly to the identity but to its AD
-administration account. In our Active Directory, there is a resource called
-`<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group
-membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a
-value of the **memberOf** property.
+**NOTE:** For example, imagine that we want to grant unlimited Internet access to the administrator profile of an identity. This entitlement won't be assigned directly to the identity but to its AD administration account. In our Active Directory, there is a resource called `<DL-INTERNET-Restricted>` identified from among AD entries as a group. So we need to add this group membership to the properties of the identity's AD account, using `<DL-INTERNET-Restricted>` as a value of the **memberOf** property.
 
 ## Participants and Artifacts
 
@@ -37,10 +24,7 @@ application's users, entitlements and data model.
 
 | Input                     | Output       |
 | ------------------------- | ------------ |
-| Classification (required) | Single roles |
-
-See the[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
-information.
+| [Classification](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) (required) | Single roles |
 
 ## Create a Single Role
 
@@ -48,13 +32,11 @@ Create a single role by proceeding as follows:
 
 ![Home Page - Access Roles](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
-**Step 1 –** On the home page in the **Configuration** section, click on **Access Roles** to access
-the roles page.
+**Step 1 –** On the home page in the **Configuration** section, click on **Access Roles** to access the roles page.
 
 ![createsinglerole](/img/product_docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/createsinglerole.webp)
 
-**Step 2 –** On the roles page, click on the adequate category and create a role by clicking on **+
-New** at the top right corner.
+**Step 2 –** On the roles page, click on the adequate category and create a role by clicking on **+New** at the top right corner.
 
 **Step 3 –** Fill in the fields.
 
@@ -64,8 +46,7 @@ New** at the top right corner.
 - Entity Type: Entity type targeted by the role.
 - Description: Description of the role.
 - Tags: Label(s) that can later be used to filter the target roles of access certification
-  campaigns. See the
-  [ Schedule a Certification Campaign ](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
+  campaigns. See the [Schedule a Certification Campaign](/docs/identitymanager/saas/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md)
   topic for additional information.
 
     **NOTE:** Netwrix recommends using role tags when you want to perform an access certification on
@@ -90,17 +71,12 @@ New** at the top right corner.
 - Approve Role Implicitly: Needs at least the simple approval workflow. **Implicit** mode bypasses
   the approval step(s) if the person who makes the role request is also the role officer.
   **Explicit** refuses said bypass. **Inherited** follows the policy decision to approve roles
-  implicitly or not. See the [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for
-  additional information.
+  implicitly or not. See the [Create a Policy](/docs/identitymanager/saas/user-guide/optimize/policy-creation/index.md) topic for additional information.
 - Prolongation without a new approval workflow
-- Hide in Simplified View: Hides the role from the users' **Simplified View** in **View
-  Permissions** dialog. This setting does not apply to roles which are either inferred or have
-  workflow states which require manual action.
-- Maximum Duration: Duration (in minutes) after which the role will be automatically revoked, if no
-  earlier end date is specified.
+- Hide in Simplified View: Hides the role from the users' **Simplified View** in **View Permissions** dialog. This setting does not apply to roles which are either inferred or have workflow states which require manual action.
+- Maximum Duration: Duration (in minutes) after which the role will be automatically revoked, if no earlier end date is specified.
 
-    **NOTE:** The maximum duration impacts only the roles which are manually assigned after the
-    maximum duration is set. Pre-assigned roles are not impacted.
+    **NOTE:** The maximum duration impacts only the roles which are manually assigned after the maximum duration is set. Pre-assigned roles are not impacted.
 
     - If no duration is set on the role, the maximum duration of the associated policy is applied.
     - If the duration is set to 0 on the role, it prevents the associated policy from applying its

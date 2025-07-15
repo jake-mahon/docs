@@ -41,7 +41,7 @@ Let's learn about Identity Manager [Configuration](/docs/identitymanager/saas/in
 
 ## Learn More
 
-Learn more on Identity Manager's Architecture .
+Learn more on Identity Manager's Architecture.
 
 See the [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md) topic for
 additional information.

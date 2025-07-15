@@ -6,20 +6,13 @@ sidebar_position: 20
 
 # Compute a Scalar Property
 
-How to define scalar rules to compute and provision the values of scalar properties for target
-resources based on source resources. See the
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic
-for additional information.
+How to define scalar rules to compute and provision the values of scalar properties for target resources based on source resources. See the [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 ## Overview
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
-Here, we are going to compute the values of scalar properties for the target resources used in
-entitlement management, based on source resources. See the
-[Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
-information. We are going to provision these properties, i.e. write them to the managed system. See
-the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md)topic for additional information.
+Here, we are going to compute the values of scalar properties for the target resources used in entitlement management, based on source resources. See the [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional information. We are going to provision these properties, i.e. write them to the managed system. See the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md)topic for additional information.
 
 The right tools for the job are scalar rules.
 
@@ -28,14 +21,11 @@ from the source entity type, possibly writing a C# expression.
 
 ![Schema - Scalar Rule](/img/product_docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/provrules_schemascalar.webp)
 
-A scalar rule could define the scalar property displayName of nominative AD accounts based on its
-owner's name with the expression:
+A scalar rule could define the scalar property displayName of nominative AD accounts based on its owner's name with the expression:
 
 return person.LastName + " " + person.FirstName;
 
-The application of a scalar rule can depend on the assignment of a single role. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
-additional information.
+The application of a scalar rule can depend on the assignment of a single role. See the [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic for additional information.
 
 Sometimes we create in Identity Manager properties which are not directly linked to any real
 property in the managed system. A scalar rule on this kind of property will not find a property to
@@ -104,7 +94,7 @@ application users, entitlements and data model.
 | ------------------------- | ------------ |
 | Categorization (required) | Scalar rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create a Scalar Rule
 
@@ -188,9 +178,7 @@ A modification in a provisioning rule can trigger the removal of a resource only
 Manager side. There are several barriers to cross before said resource is removed from the managed
 system.
 
-Simulations are available in order to anticipate the changes induced by a
-creation/modification/deletion in scalar rules. See the
-[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
+Simulations are available in order to anticipate the changes induced by a creation/modification/deletion in scalar rules. See the [Perform a Simulation](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Verify Rule Creation
 
@@ -198,13 +186,9 @@ In order to verify the process:
 
 ![Resource Type Jobs](/img/product_docs/identitymanager/saas/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
-**Step 1 –** On the corresponding connector's overview page, in the **Resource Types** frame click
-on **Jobs** > **Compute Role Model** to apply all rules.
+**Step 1 –** On the corresponding connector's overview page, in the **Resource Types** frame click on **Jobs** > **Compute Role Model** to apply all rules.
 
 **Step 2 –** Review unreconciled properties on the **Resource Reconciliation** screen to help check
-scalar rules: if there are numerous properties to be reconciled following the same pattern, then
-there may be a rule that needs to be changed. See the
-[ Reconcile a Property ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
-topic for additional information.
+scalar rules: if there are numerous properties to be reconciled following the same pattern, then there may be a rule that needs to be changed. See the [Reconcile a Property](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md) topic for additional information.
 
 Once the steps completed the process is verified.

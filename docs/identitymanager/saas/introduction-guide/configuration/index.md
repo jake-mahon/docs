@@ -43,21 +43,16 @@ This is the end of the introduction guide, so you should now be able to dive int
 
 ## Learn More
 
-Learn more on how to
-[ Create a Working Directory ](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md).
+Learn more on how to [Create a Working Directory](/docs/identitymanager/saas/installation-guide/production-ready/working-directory/index.md).
 
 See the [User Guide](/docs/identitymanager/saas/user-guide/index.md) topic to learn how to configure Identity Manager
 from scratch via the UI.
 
-See how to
-[ Export the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md)
+See how to [Export the Configuration](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md)
 to XML files.
 
-See how to
-[ Deploy the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md).
+See how to [Deploy the Configuration](/docs/identitymanager/saas/integration-guide/toolkit/deploy-configuration/index.md).
 
-Learn more about the
-[ XML Configuration Schema ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/index.md).
+Learn more about the [XML Configuration Schema](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/index.md).
 
-Learn more about the
-[Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md).
+Learn more about the [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md).

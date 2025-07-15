@@ -6,15 +6,11 @@ sidebar_position: 10
 
 # Create the Entity Type
 
-How to create the technical container of an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+How to create the technical container of an [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ## Overview
 
-Here, you will learn how to create an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
-the shell that harbors the (scalar and navigation) properties which describe a given set of
-resources related to one managed system.
+Here, you will learn how to create an [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md): the shell that harbors the (scalar and navigation) properties which describe a given set of resources related to one managed system.
 
 ## Create the Entity Type
 
@@ -58,8 +54,7 @@ Create the entity type by proceeding as follows:
 
 ## Next Steps
 
-To continue,[ Define Scalar Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity
-type.
+To continue, [Define Scalar Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)for this entity type.
 
 ## Troubleshooting
 
@@ -70,18 +65,13 @@ If there are no connection tables available in the **Source** dropdown list of a
 Ensure that there are existing connections:
 
 - if this is the case, then click on **Refresh all schemas** on the connector page, and verify that
-  there is no error. See the [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) topic for
-  additional information.
+  there is no error. See the [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md) topic for  additional information.
 - if not, then you must create at least one connection.
 
 If there is a message stating to refresh the connection's schema, then:
 
 ![No Connection Table Error](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.webp)
 
-Start by making sure that the connection's schema is refreshed by clicking on **Refresh all
-schemas** on the connector page, and verify that there is no error.
+Start by making sure that the connection's schema is refreshed by clicking on **Refresh all schemas** on the connector page, and verify that there is no error.
 
-If the message is still displayed, then it means that the previously selected connection table no
-longer exists in the managed system. In this case, either the table's name simply changed, or the
-table is not relevant anymore. Then you should find a relevant table in the **Source** dropdown
-list.
+If the message is still displayed, then it means that the previously selected connection table no longer exists in the managed system. In this case, either the table's name simply changed, or the table is not relevant anymore. Then you should find a relevant table in the **Source** dropdown list.
