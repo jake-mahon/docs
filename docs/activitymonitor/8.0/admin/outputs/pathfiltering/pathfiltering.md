@@ -23,7 +23,10 @@ The tab contains the following settings and features:
   [Add or Edit Path Window](/docs/activitymonitor/8.0/admin/outputs/pathfiltering/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
-    **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::warning
+    If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::
+
 
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
@@ -44,12 +47,18 @@ The table lists paths that are being filtered, displaying columns for Type, indi
 being Included or Excluded, and Pattern. The order of the list determines what paths are included
 and what paths are excluded.
 
-**CAUTION:** Exclude takes precedence over the Include. For example, if the C:\OpenShare is
+:::warning
+Exclude takes precedence over the Include. For example, if the C:\OpenShare is
 excluded, but the C:\OpenShare\Edward is included, the ‘OpenShare’ parent exclusion takes
 precedence, and the ‘Edward’ child folder will not be monitored.
+:::
 
-**NOTE:** If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
+
+:::note
+If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
 added), then all current and new discovered drives will be monitored.
+:::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The output
 Properties window closes.
@@ -64,7 +73,10 @@ The tab contains the following settings and features:
   [Add or Edit Path Window](/docs/activitymonitor/8.0/admin/outputs/pathfiltering/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
-    **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::warning
+    If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::
+
 
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
@@ -85,12 +97,18 @@ The table lists paths that are being filtered, displaying columns for Type, indi
 being Included or Excluded, and Pattern. The order of the list determines what paths are included
 and what paths are excluded.
 
-**CAUTION:** Exclude takes precedence over the Include. For example, if the C:\OpenShare is
+:::warning
+Exclude takes precedence over the Include. For example, if the C:\OpenShare is
 excluded, but the C:\OpenShare\Edward is included, the ‘OpenShare’ parent exclusion takes
 precedence, and the ‘Edward’ child folder will not be monitored.
+:::
 
-**NOTE:** If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
+
+:::note
+If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
 added), then all current and new discovered drives will be monitored.
+:::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The output
 Properties window closes.
@@ -107,7 +125,7 @@ the following settings and features:
 - To exclude a specific site, enter the URL but add a minus sign (-) as a prefix to the URL, for
   example:
 
--http://sharepoint.local/sites/marketing
+**-http://sharepoint.local/sites/marketing**
 
 Use a semicolon (;) to separate multiple URLs.
 
@@ -119,7 +137,10 @@ The tab contains the following settings and features:
   [Add or Edit Path Window](/docs/activitymonitor/8.0/admin/outputs/pathfiltering/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
-    **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::warning
+    If a path is removed by accident, use the **Cancel** button to discard the change.
+    :::
+
 
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
@@ -142,12 +163,18 @@ The table lists paths that are being filtered, displaying columns for Type, indi
 being Included or Excluded, and Pattern. The order of the list determines what paths are included
 and what paths are excluded.
 
-**CAUTION:** Exclude takes precedence over the Include. For example, if the C:\OpenShare is
+:::warning
+Exclude takes precedence over the Include. For example, if the C:\OpenShare is
 excluded, but the C:\OpenShare\Edward is included, the ‘OpenShare’ parent exclusion takes
 precedence, and the ‘Edward’ child folder will not be monitored.
+:::
 
-**NOTE:** If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
+
+:::note
+If ‘Include’ is not listed under the Filter Type column (or no Include filter paths are
 added), then all current and new discovered drives will be monitored.
+:::
+
 
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The output
 Properties window closes.

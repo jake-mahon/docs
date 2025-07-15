@@ -27,19 +27,19 @@ The NetApp FPolicy uses a “push” mechanism such that notification will only 
 agent when a transaction occurs. Daily activity log files are created only if activity is performed.
 No activity log file will be created if there is no activity for the day.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of NetApp Data ONTAP
 7-Mode devices. Instructions for each item of the checklist are detailed within the following
 topics.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Gather the following information:
     - Names of the vFiler™(s) to be monitored
     - DNS name of the CIFS shares(s) to be monitored
 
-Checklist Item 2: [Provision FPolicy Account](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/provisionactivity.md)
+**Checklist Item 2: [Provision FPolicy Account](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/provisionactivity.md)**
 
 - Group membership with a role granting access to the following commands:
 
@@ -70,7 +70,7 @@ Checklist Item 2: [Provision FPolicy Account](/docs/activitymonitor/8.0/requirem
     - ONTAP Power Users
     - ONTAP Backup Operators
 
-Checklist Item 3: Firewall Configuration
+**Checklist Item 3: Firewall Configuration**
 
 - HTTP (80) or HTTPS (443)
 - HTTP or HTTPS protocols need to be enabled on the NetApp filer
@@ -79,24 +79,30 @@ Checklist Item 3: Firewall Configuration
 - Dynamic port range: TCP/UDP 137-139
 - See the [Enable HTTP or HTTPS](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/enablehttp.md) topic for instructions.
 
-Checklist Item 4: [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/configurefpolicy.md)
+**Checklist Item 4: [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap7-aac/configurefpolicy.md)**
 
 - If using vFilers:
 
     - FPolicy operates on the vFiler so the FPolicy must be created on the vFiler
 
-        **NOTE:** Activity Monitor must target the vFiler
+        :::note
+        Activity Monitor must target the vFiler
+        :::
+
 
 - Select method:
 
-    **_RECOMMENDED:_** Configure FPolicy Manually – A tailored FPolicy
+    :::info
+    Configure FPolicy Manually – A tailored FPolicy
+    :::
+
 
     - Allow the Activity Monitor to create an FPolicy automatically
         - This option is enabled when the Activity Monitor agent is configured to monitor the NetApp
           device on the NetApp FPolicy Configuration page of the Add New Hosts window.
         - It monitors all file system activity.
 
-Checklist Item 5: Activity Monitor Configuration
+**Checklist Item 5: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor Activity Agent to a Windows proxy server
 - Configure the Activity Agent to monitor the NetApp device

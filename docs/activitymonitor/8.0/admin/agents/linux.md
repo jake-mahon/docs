@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Linux Agent Deployment
 
-Understanding Linux File Activity Monitoring
+**Understanding Linux File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -80,10 +80,13 @@ Netwrix Activity Monitor requires to generate ECDSA Key with a blank passphrase
 cat ~/.ssh/id_ecdsa.pub >> ~/.ssh/authorized_keys
 ```
 
-**NOTE:** It is required to add public key to authorized keys for Activity Monitor. By default, a
+:::note
+It is required to add public key to authorized keys for Activity Monitor. By default, a
 private key is generated at ~/.ssh/id_ecdsa location along with the public key (.pub file). A user
 can use a different file location. Copy the following command into a command prompt to generate a
 private key for Activity Monitorto use:
+:::
+
 
 ```
 cat ~/.ssh/id_ecdsa

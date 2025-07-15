@@ -45,8 +45,11 @@ configured interval. The alert is sent to the Syslog configured on the **Syslog 
     - TCP
     - TLS
 
-        **NOTE:** The TCP and TLS protocols add the **Message framing** drop-down menu. **Message
+        :::note
+        The TCP and TLS protocols add the **Message framing** drop-down menu. **Message
         framing** options include:
+        :::
+
 
         - LS (ASCII 10) delimiter
         - CR (ASCII 13) delimiter

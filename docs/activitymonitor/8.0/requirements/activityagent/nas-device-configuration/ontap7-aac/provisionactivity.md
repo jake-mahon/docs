@@ -35,9 +35,12 @@ api-fpolicy*
 cli-fpolicy*
 ```
 
-**NOTE:** The `api-fpolicy*` command is required for automatic configuration of FPolicy. The
+:::note
+The `api-fpolicy*` command is required for automatic configuration of FPolicy. The
 `cli-fpolicy*` command is required to use the “Enable and connect FPolicy” option for a Monitored
 Host configuration.
+:::
+
 
 The following command needs to be run to create the role.
 

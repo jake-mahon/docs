@@ -35,8 +35,11 @@ expiration periods do not make the protocol less secure.
 
 A client is expected to pass the access token in the `Authorization` request header.
 
-**NOTE:** **Use a client library that is secure and fully implements the OAuth 2.0 protocol.** The
+:::note
+**Use a client library that is secure and fully implements the OAuth 2.0 protocol.** The
 sample below shows just a piece of OAuth 2 interaction.
+:::
+
 
 ```
 curl -X POST -d "client_id=<CLIENT_ID>&client_secret=<CLIENT_SECRET>&grant_type=client_credentials" https://<AGENT_SERVER>:4494/api/v1/token --insecure

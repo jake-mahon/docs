@@ -102,9 +102,12 @@ security login rest-role create -role enterpriseauditorrest -api "/api/storage/v
 security login rest-role create -role enterpriseauditorrest -api "/api/svm/svms" -access readonly -vserver testserver
 ```
 
-**NOTE:** If the FPolicy account is configured with these permissions, it is necessary to manually
+:::note
+If the FPolicy account is configured with these permissions, it is necessary to manually
 configure the FPolicy. See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md) topic for additional
 information.
+:::
+
 
 ### Less Privileged: Enable/Connect FPolicy & Collect Events
 
@@ -122,11 +125,14 @@ permissions to collect events:
 - `vserver fpolicy disable` – All access
 - `vserver fpolicy enable` – All access
 
-    _Remember,_ this permission permits the Activity Monitor to enable the FPolicy. If the “Enable
+    :::tip
+        Remember, this permission permits the Activity Monitor to enable the FPolicy. If the “Enable
     and connect FPolicy” option is employed but the permission is not provided, the agent will
     encounter “Failed to enable policy” errors, but it will still be able to connect to the FPolicy.
     Since this permission model requires a manual configuration of the FPolicy, then the need to
     manually enable the FPolicy will be met.
+    :::
+
 
 - `vserver fpolicy engine-connect` – All access
 
@@ -185,9 +191,12 @@ security login rest-role create -role enterpriseauditorrest -api "/api/network/i
 security login rest-role create -role enterpriseauditorrest -api "/api/protocols/fpolicy" -access all -vserver testserver
 ```
 
-**NOTE:** If the FPolicy account is configured with these permissions, it is necessary to manually
+:::note
+If the FPolicy account is configured with these permissions, it is necessary to manually
 configure the FPolicy. See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md) topic for additional
 information.
+:::
+
 
 ### Automatically Configure the FPolicy
 
@@ -205,7 +214,10 @@ requires the following permissions:
 - `vserver fpolicy` – All access
 - `security certificate install` – All access
 
-    _Remember,_ this permission is only needed for FPolicy TLS connections.
+    :::tip
+        Remember, this permission is only needed for FPolicy TLS connections.
+    :::
+
 
 Use the following command to provision access to all required commands:
 
@@ -265,9 +277,12 @@ security login rest-role create -role enterpriseauditorrest -api "/api/protocols
 security login rest-role create -role enterpriseauditorrest -api "/api/security/certificates" -access all -vserver testserver
 ```
 
-**NOTE:** If the FPolicy account is configured with these permissions, the Activity Monitor can
+:::note
+If the FPolicy account is configured with these permissions, the Activity Monitor can
 automatically configure the FPolicy. See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md) topic for
 additional information.
+:::
+
 
 ### Access Analyzer Integration
 

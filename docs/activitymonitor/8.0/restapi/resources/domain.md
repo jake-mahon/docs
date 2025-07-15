@@ -19,7 +19,7 @@ sidebar_position: 20
 | masterAgentUrl | string   |               | URL to the Master agent.                                                                                                                                                                                              |
 | policies       | policy[] |               | Domain Policies. The list of policies for the domain.                                                                                                                                                                 |
 
-Response Example
+**Response Example**
 
 ```
 {

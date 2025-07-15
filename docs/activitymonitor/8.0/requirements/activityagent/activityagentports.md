@@ -118,9 +118,12 @@ Agent server and the target NetApp Data ONTAP 7-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
+
 
 ## NetApp Data ONTAP Cluster-Mode Device Additional Firewall Rules
 
@@ -136,9 +139,12 @@ Agent server and the target NetApp Data ONTAP Cluster-Mode device:
 \*Only required if using the FPolicy Configuration and FPolicy Enable and Connect options in
 Activity Monitor.
 
-**NOTE:** If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
+:::note
+If either HTTP or HTTPS are not enabled, the FPolicy on the NetApp Data ONTAP 7-Mode
 device must be configured manually. Also, the External Engine will not reconnect automatically in
 the case of a server reboot or service restart.
+:::
+
 
 ## Nutanix Devices Additional Firewall Rules
 

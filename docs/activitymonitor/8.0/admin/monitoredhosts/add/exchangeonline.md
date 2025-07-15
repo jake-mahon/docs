@@ -11,8 +11,11 @@ environment must be met. See the
 [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/exchange-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Exchange Online Host
 
@@ -81,8 +84,11 @@ Output** page can be configured. The configurable options are:
   this option to have Netwrix Access Analyzer (formerly Enterprise Auditor) collect this monitored
   host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Access Analyzer (formerly
+    :::info
+    Identify the configuration to be read by Netwrix Access Analyzer (formerly
     Enterprise Auditor) when integration is available.
+    :::
+
 
     - While the Activity Monitor can have multiple outputs per host, Netwrix Access Analyzer
       (formerly Enterprise Auditor) can only read one of them.
