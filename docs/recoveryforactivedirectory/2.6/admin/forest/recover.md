@@ -67,9 +67,12 @@ Azure or AWS, and isolated from the rest of the domain.
 Once the desired domain controllers have at least one backup to choose from, you can start the
 forest recovery playbook by adding the domain controllers to it.
 
-**NOTE:** You only need one backup of a domain controller for each domain in the forest. Any other
+:::note
+You only need one backup of a domain controller for each domain in the forest. Any other
 domains can then be added via the playbook or you should handle them manually using the "add DC to
 the domain, let replication happen" model.
+:::
+
 
 Follow the steps to create a recovery playbook.
 
@@ -107,9 +110,12 @@ topic for additional information.
 **Step 6 –** From the **Backup** drop-down menu, select the backup to use for restoring the domain
 controller. The drop-down menu lists the backups available for the domain controller.
 
-**NOTE:** If you do not choose a backup for a domain controller, an attempt will be made to join the
+:::note
+If you do not choose a backup for a domain controller, an attempt will be made to join the
 domain controller to the existing domain that was restored previously in the playbook using a backup
 of another domain controller.
+:::
+
 
 **Step 7 –** If the backup is encrypted, provide the password used for encryption in the Encryption
 Password field. This would allow the recovery process to decrypt the backup.

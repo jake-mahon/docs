@@ -142,7 +142,7 @@ sidebar_position: 40
 | discardReorderedAcl | bool |               |             |
 | discardInheritedAcl | bool |               |             |
 
-Response Example
+**Response Example**
 
 ```
 {
@@ -335,7 +335,7 @@ Response Example
 | outputId     | string   |               | ID of the output that produced the file.                                                        |
 | contentUrl   | string   |               | Link to the file content. MIME type `application/x-msdownload`                                  |
 
-Response Example
+**Response Example**
 
 ```
 [
@@ -396,7 +396,7 @@ Response Example
 | updatedAt   | DateTime |               | X         | When the policy was last modified.                                                    |
 | xml         | string   |               |           | Policy body in XML format. It's the same format used by Threat Prevention Powershell. |
 
-Response Example
+**Response Example**
 
 ```
 [

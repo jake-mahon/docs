@@ -18,8 +18,11 @@ Directory server using either of the following methods:
 - Click the desktop icon
 - Type `http:/localhost:3005` in a web browser and press Enter
 
-**NOTE:** If the port number and web protocol was changed from default during the installation
+:::note
+If the port number and web protocol was changed from default during the installation
 process, use the port and protocol configured from the install.
+:::
+
 
 ## Access the Recovery Console Remotely
 
@@ -29,8 +32,11 @@ bar. For example:
 
 - http://[ServerName]:3005
 
-**NOTE:** If the port number and web protocol was changed from default during the installation
+:::note
+If the port number and web protocol was changed from default during the installation
 process, use the port and protocol configured from the install.
+:::
+
 
 ## Sign In
 
@@ -41,7 +47,10 @@ Follow the steps to sign into the Recovery Console.
 
 **Step 1 –** Launch the Recovery Console.
 
-**NOTE:** The URL may need to be added to the browser's list of trusted sites.
+:::note
+The URL may need to be added to the browser's list of trusted sites.
+:::
+
 
 ![Recovery for Active Directory - Login page](/img/product_docs/recoveryforactivedirectory/2.6/install/login.webp)
 

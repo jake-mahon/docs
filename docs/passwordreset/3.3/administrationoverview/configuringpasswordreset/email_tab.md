@@ -6,10 +6,6 @@ sidebar_position: 30
 
 # E-mail Tab
 
-E-mail Tab
-
-# E-mail Tab
-
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit
 the e-mail templates.
 
@@ -25,8 +21,11 @@ Select the **Save e-mail to a pickup folder** option if NPR should save e-mails 
 delivery by a mail server. Click **Browse...** to select a folder. The mail server must monitor this
 folder for new e-mail.
 
-**NOTE:** Saving e-mail to a pickup folder is the fastest and most reliable delivery method. Use
+:::note
+Saving e-mail to a pickup folder is the fastest and most reliable delivery method. Use
 this option if your mail server supports pickup folders.
+:::
+
 
 ### Triggers
 
@@ -50,9 +49,12 @@ macros.
 | [AD_OR_NPR_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank   |
 | [NPR_OR_AD_EMAIL] | The e-mail address in NPR, or the e-mail address in AD if the Password Reset address is blank |
 
-**NOTE:** Use [NPR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail
+:::note
+Use [NPR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail
 addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is
 only sent to the invalid address.
+:::
+
 
 Type additional recipient e-mail addresses in the **Bcc** text box if you want to send any blind
 carbon copies. Separate multiple recipients with a semicolon.
@@ -82,9 +84,12 @@ understand their e-mail alerts.
 
 ![configuring_npr_5](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr_5.webp)
 
-**CAUTION:** An attacker may choose a specific language to avoid detection. E-mail alerts are sent
+:::warning
+An attacker may choose a specific language to avoid detection. E-mail alerts are sent
 in the Web Interface language chosen by the attacker if the target user has not enrolled or changed
 their password with Password Reset. The target user will receive the e-mail alerts, but they may not
 understand them. Use the Rest API to remind new users to enroll so their preferred language is known
 to Password Reset. See the [Enroll Tab](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/enroll_tab.md) topic
 for additional information.
+
+:::

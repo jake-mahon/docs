@@ -30,8 +30,14 @@ user**.
 
 **Step 6 –** Click **Close** to close the Manage roles dialog box.
 
-**NOTE:** The user credentials created here are used when adding a Nutanix file server in Activity
+:::note
+The user credentials created here are used when adding a Nutanix file server in Activity
 Monitor.
+:::
 
-**NOTE:** Nutanix Files does not report events for activity originating from a server where the
+
+:::note
+Nutanix Files does not report events for activity originating from a server where the
 Activity Monitor Agent is installed.
+
+:::

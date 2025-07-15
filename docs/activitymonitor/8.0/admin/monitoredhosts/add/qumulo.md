@@ -6,7 +6,7 @@ sidebar_position: 120
 
 # Qumulo
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -32,8 +32,11 @@ Prior to adding a Qumulo host to the Activity Monitor, the prerequisites for the
 must be met. See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/qumulo-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Qumulo Host
 
@@ -76,7 +79,10 @@ Click **Next**.
 **Step 5 –** On the Where To Log The Activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
-**NOTE:** An option must be selected before moving to the next step.
+:::note
+An option must be selected before moving to the next step.
+:::
+
 
 ![addhostqumulo04](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/addhostqumulo04.webp)
 
@@ -92,15 +98,24 @@ Output page.
 - This log file is for Access Analyzer – Enable this option to have Access Analyzer collect this
   monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Access Analyzer when integration is
+    :::info
+    Identify the configuration to be read by Access Analyzer when integration is
     available.
+    :::
 
-    **NOTE:** While Activity Monitor can have multiple configurations for log file outputs per host,
+
+    :::note
+    While Activity Monitor can have multiple configurations for log file outputs per host,
     Access Analyzer can only read one of them.
+    :::
+
 
 - Add header to Log files – Adds headers to TSV files. This is used to feed data into Splunk.
 
-    **NOTE:** Access Analyzer does not support log files with the header.
+    :::note
+    Access Analyzer does not support log files with the header.
+    :::
+
 
 Click **Next**.
 

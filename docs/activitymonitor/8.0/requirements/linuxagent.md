@@ -18,8 +18,11 @@ are:
 
 ## Target Requirements
 
-**NOTE:** For monitoring a Linux file server, the The Linux Agent is deployed to Linux servers to be
+:::note
+For monitoring a Linux file server, the The Linux Agent is deployed to Linux servers to be
 monitored. It cannot be deployed to a proxy server.
+:::
+
 
 ## Supported Protocols
 
@@ -29,7 +32,10 @@ The following protocols are supported for the Linux agent:
 - Common Internet File System (CIFS) / Server Message Block (SMB)
 - Network File System (Mounted Client-Side)
 
-**NOTE:** Server-Side NFS protocol is not supported.
+:::note
+Server-Side NFS protocol is not supported.
+:::
+
 
 ## Permissions for Installation
 

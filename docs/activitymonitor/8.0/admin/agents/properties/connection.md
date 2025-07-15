@@ -14,7 +14,10 @@ installation and communication. The tab varies based on the type of agent select
 The server name can be modified in the text box. Modifying the name value does not move the activity
 agent to a new server. The credentials can be updated or modified as well.
 
-_Remember,_ **Test** the credentials before clicking OK to ensure a successful connection.
+:::tip
+Remember, **Test** the credentials before clicking OK to ensure a successful connection.
+:::
+
 
 ![Connection Tab for Agent Properties](/img/product_docs/activitymonitor/8.0/admin/agents/properties/connectiontab.webp)
 
@@ -28,7 +31,7 @@ Credential fields:
 - User name – Account provisioned for use by the agent
 - Password – Password for the supplied User name
 
-Permissions
+**Permissions**
 
 This account must be:
 
@@ -36,7 +39,7 @@ This account must be:
 
 If the user name is not specified, the currently logged in user's account will be used.
 
-Less Privileged Permissions Option
+**Less Privileged Permissions Option**
 
 By default, the agent accepts commands only from members of the local Administrators group. You can
 allow less privileged accounts to manage the agent with the **Management Group** option. Keep in
@@ -75,7 +78,10 @@ Properties window closes.
 The server name can be modified in the text box. Modifying the name value does not move the Linux
 agent to a new server. The credentials can be updated or modified as well.
 
-_Remember,_ **Test** the credentials before clicking OK to ensure a successful connection.
+:::tip
+Remember, **Test** the credentials before clicking OK to ensure a successful connection.
+:::
+
 
 ![linuxconnectiontab](/img/product_docs/activitymonitor/8.0/admin/agents/properties/linuxconnectiontab.webp)
 
@@ -89,7 +95,7 @@ Credential fields:
 - User name – Account provisioned for use by the agent
 - Password – Password for the supplied User name
 
-Permissions
+**Permissions**
 
 This account must be:
 
@@ -100,8 +106,11 @@ The **Trace level** option configures the level for the agent log it includes th
 - Same Level as the Console (uses the global level selected in the console)
 - Trace (the most verbose) many collection points and can slow down
 
-    **CAUTION:** Selecting the **Trace** option can slow down collection due to the large amount of
+    :::warning
+    Selecting the **Trace** option can slow down collection due to the large amount of
     data points
+    :::
+
 
 - Debug
 - Info (recommended)

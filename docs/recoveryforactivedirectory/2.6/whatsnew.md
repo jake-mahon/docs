@@ -23,7 +23,10 @@ recovery. If your domain controllers get corrupted, encrypted due to ransomware,
 wiped out either intentionally or accidentally, you can always recover your Active Directory forest
 from a secure backup.
 
-**NOTE:** The dashboard has been deprecated in this version.
+:::note
+The dashboard has been deprecated in this version.
+:::
+
 
 New: Automated AD Forest Recovery
 

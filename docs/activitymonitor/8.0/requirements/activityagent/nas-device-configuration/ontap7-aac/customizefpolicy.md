@@ -12,7 +12,7 @@ file. After the monitoring agent has been deployed, follow the steps.
 
 **Step 1 –** Open to the `sbtfilemon.ini` file on the agent server in a text editor:
 
-…\STEALTHbits\StealthAUDIT\FSAC
+**…\STEALTHbits\StealthAUDIT\FSAC**
 
 **Step 2 –** Add the following parameter:
 

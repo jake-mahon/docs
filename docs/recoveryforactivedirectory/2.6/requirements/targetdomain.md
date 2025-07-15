@@ -74,5 +74,8 @@ following permissions:
     - MODIFY PERMISSIONS
     - MODIFY OWNER
 
-**CAUTION:** Additional permissions may be necessary to allow Recovery for Active Directory to
+:::warning
+Additional permissions may be necessary to allow Recovery for Active Directory to
 function properly in an organization’s environment.
+
+:::

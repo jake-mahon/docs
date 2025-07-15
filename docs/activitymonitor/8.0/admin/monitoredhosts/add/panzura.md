@@ -6,7 +6,7 @@ sidebar_position: 110
 
 # Panzura
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -33,8 +33,11 @@ Prior to adding a Panzura host to the Activity Monitor, the prerequisites for th
 must be met. See the [Panzura CloudFS Monitoring](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/panzura-activity.md) topic for
 additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 Follow the steps to add a Panzura host to be monitored.
 
@@ -119,7 +122,10 @@ Click **Next**.
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-**NOTE:** An option must be selected before moving to the next step.
+:::note
+An option must be selected before moving to the next step.
+:::
+
 
 ![fileoutput](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/fileoutput.webp)
 
@@ -135,8 +141,11 @@ Output** page can be configured.
 - This log file is for Access Analyzer – Enable this option to have Access Analyzer collect this
   monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Access Analyzer when integration is
+    :::info
+    Identify the configuration to be read by Access Analyzer when integration is
     available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Access Analyzer can only
       read one of them.

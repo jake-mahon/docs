@@ -52,10 +52,13 @@ The following performance counters are provided by Activity Monitor.
 | Outputs            | ✔          | Activity Monitor - Outputs\DNS Queries Avg Time      | The moving average length of time, in microseconds, per a DNS query                                                                                                                                                                                                                                                                                                |
 | Outputs            | ✔          | Activity Monitor - Outputs\DNS Queries Max Time      | The moving maximum length of time, in microseconds, per a DNS query                                                                                                                                                                                                                                                                                                |
 
-**NOTE:** DNS and AD queries typically contribute the most to the processing time. Since the
+:::note
+DNS and AD queries typically contribute the most to the processing time. Since the
 resolution occurs in real time, slow responses can affect throughput (A 100ms DNS response limits
 the throughput to 10 events per second). Observing average and maximum values of DNS Queries Time,
 Resolved SIDs Time, and Translated UIDs Time allows you to estimate the response time.
+:::
+
 
 ## Recommended System Performance Counters
 
@@ -138,42 +141,45 @@ Follow the steps to register the Activity Monitor performance counters on each S
 **Step 2 –** Change current directory to the agent installation folder
 (`C:\Program Files\Netwrix\Activity Monitor\Agent`).
 
-cd "C:\Program Files\Netwrix\Activity Monitor\Agent"
+**cd "C:\Program Files\Netwrix\Activity Monitor\Agent"**
 
 **Step 3 –** Register the performance counters manifest file.
 
-lodctr /M:PerfCounters.man
+**lodctr /M:PerfCounters.man**
 
 Expected output: Info: Successfully installed performance counters in
 `C:\Program Files\Netwrix\Activity Monitor\Agent\PerfCounters.man`
 
 **Step 4 –** Restart the services:
 
-sc stop SBFileMonAgentSvc
+**sc stop SBFileMonAgentSvc**
 
 sc stop FPolicyServerSvc
 
-sc stop CelerraServerSvc
+**sc stop CelerraServerSvc**
 
 sc stop SBTLoggingSvc
 
-sc start SBFileMonAgentSvc
+**sc start SBFileMonAgentSvc**
 
 ## Collect Performance Data
 
 The performance data can be observed or saved using any tool capable of collecting performance
 counters. For example, Performance Monitor.
 
-**NOTE:** The following script is only compatible with PowerShell 5.X and previous versions. Using
+:::note
+The following script is only compatible with PowerShell 5.X and previous versions. Using
 PowerShell 7.X requires Windows Performance Monitor to be configured to collect performance
 counters.
+:::
+
 
 Below is a PowerShell script that collects the counters every second and stores them in
 `perfcounters_SERVERNAME_TIMESTAMP.csv` files. The expected file size per day is about 50MB.
 
 Run the script on each agent server using the following command:
 
-powershell -file AM.PerfCollect.ps1
+**powershell -file AM.PerfCollect.ps1**
 
 To stop the script press **Ctrl+C**.
 
@@ -182,123 +188,123 @@ Script (save it to AM.PerfCollect.ps1):
 ```powershell
 $sampleInterval = 1
 
-$maxSamples = 0
+**$maxSamples = 0**
 
 $outputFile = "perfcounters_$($env:COMPUTERNAME)_$(Get-Date -Format "yyyy_MM_dd_HH_mm_ss").csv"
 
-$counters =
+**$counters =**
 
 @(
 
-"\Processor(_Total)\% Processor Time"
+**"\Processor(_Total)\% Processor Time"**
 
 ,"\Memory\Available MBytes"
 
-,"\Paging File(_Total)\% Usage"
+**,"\Paging File(_Total)\% Usage"**
 
 ,"\TCPv4\Connections Reset"
 
-,"\TCPv4\Segments Received/sec"
+**,"\TCPv4\Segments Received/sec"**
 
 ,"\TCPv4\Segments Retransmitted/Sec"
 
-,"\TCPv6\Connections Reset"
+**,"\TCPv6\Connections Reset"**
 
 ,"\TCPv6\Segments Received/sec"
 
-,"\TCPv6\Segments Retransmitted/Sec"
+**,"\TCPv6\Segments Retransmitted/Sec"**
 
 ,"\Network Interface(*)\Bytes Received/sec"
 
-,"\Network Interface(*)\Bytes Sent/sec"
+**,"\Network Interface(*)\Bytes Sent/sec"**
 
 ,"\Network Interface(*)\Output Queue Length"
 
-,"\Network Interface(*)\Packets Received Discarded"
+**,"\Network Interface(*)\Packets Received Discarded"**
 
 ,"\Network Interface(*)\Packets Received Errors"
 
-,"\Activity Monitor - NetApp\Events Received"
+**,"\Activity Monitor - NetApp\Events Received"**
 
 ,"\Activity Monitor - NetApp\Events Received/sec"
 
-,"\Activity Monitor - NetApp\Events Reported"
+**,"\Activity Monitor - NetApp\Events Reported"**
 
 ,"\Activity Monitor - NetApp\Events Reported/sec"
 
-,"\Activity Monitor - NetApp\Session Negotiated"
+**,"\Activity Monitor - NetApp\Session Negotiated"**
 
 ,"\Activity Monitor - NetApp\Active Connections"
 
-,"\Activity Monitor - NetApp\Outage Files"
+**,"\Activity Monitor - NetApp\Outage Files"**
 
 ,"\Activity Monitor - Dell\Events Received"
 
-,"\Activity Monitor - Dell\Events Received/sec"
+**,"\Activity Monitor - Dell\Events Received/sec"**
 
 ,"\Activity Monitor - Dell\Events Reported"
 
-,"\Activity Monitor - Dell\Events Reported/sec"
+**,"\Activity Monitor - Dell\Events Reported/sec"**
 
 ,"\Activity Monitor - Dell\Queue Size"
 
-,"\Activity Monitor - Dell\Receive Throttling"
+**,"\Activity Monitor - Dell\Receive Throttling"**
 
 ,"\Process(FPolicyServerSvc)\% Processor Time"
 
-,"\Process(FPolicyServerSvc)\Elapsed Time"
+**,"\Process(FPolicyServerSvc)\Elapsed Time"**
 
 ,"\Process(FPolicyServerSvc)\Handle Count"
 
-,"\Process(FPolicyServerSvc)\Thread Count"
+**,"\Process(FPolicyServerSvc)\Thread Count"**
 
 ,"\Process(FPolicyServerSvc)\Private Bytes"
 
-,"\Process(FPolicyServerSvc)\Working Set"
+**,"\Process(FPolicyServerSvc)\Working Set"**
 
 ,"\Process(FSACLoggingSvc)\% Processor Time"
 
-,"\Process(FSACLoggingSvc)\Elapsed Time"
+**,"\Process(FSACLoggingSvc)\Elapsed Time"**
 
 ,"\Process(FSACLoggingSvc)\Handle Count"
 
-,"\Process(FSACLoggingSvc)\Thread Count"
+**,"\Process(FSACLoggingSvc)\Thread Count"**
 
 ,"\Process(FSACLoggingSvc)\Private Bytes"
 
-,"\Process(FSACLoggingSvc)\Working Set"
+**,"\Process(FSACLoggingSvc)\Working Set"**
 
 ,"\Process(CelerraServerSvc)\% Processor Time"
 
-,"\Process(CelerraServerSvc)\Elapsed Time"
+**,"\Process(CelerraServerSvc)\Elapsed Time"**
 
 ,"\Process(CelerraServerSvc)\Handle Count"
 
-,"\Process(CelerraServerSvc)\Thread Count"
+**,"\Process(CelerraServerSvc)\Thread Count"**
 
 ,"\Process(CelerraServerSvc)\Private Bytes"
 
-,"\Process(CelerraServerSvc)\Working Set"
+**,"\Process(CelerraServerSvc)\Working Set"**
 
 )
 
-$variables = @{
+**$variables = @{**
 
 SampleInterval = $sampleInterval
 
-Counter = $counters
+**Counter = $counters**
 
 }
 
-if ($maxSamples -eq 0) {
+**if ($maxSamples -eq 0) {**
 
 $variables.Add("Continuous", 1)}
 
-else {
+**else {**
 
 $variables.Add("MaxSamples", "$maxSamples")
 
-}
+**}**
 
 Write-Host "Collecting performance counters to $outputFile... Press Ctrl+C to stop."
 
@@ -316,25 +322,25 @@ Follow the steps to unregister the Activity Monitor performance counters on each
 
 **Step 2 –** Change current directory to the agent installation folder.
 
-cd "C:\Program Files\Netwrix\Activity Monitor\Agent"
+**cd "C:\Program Files\Netwrix\Activity Monitor\Agent"**
 
 **Step 3 –** Unregister the performance counters manifest file.
 
-unlodctr /M:PerfCounters.man
+**unlodctr /M:PerfCounters.man**
 
 Expected output: Info: Successfully uninstalled the performance counters from the counter definition
 XML file PerfCounters.man.
 
 **Step 4 –** Restart the services:
 
-sc stop SBFileMonAgentSvc
+**sc stop SBFileMonAgentSvc**
 
 sc stop FPolicyServerSvc
 
-sc stop CelerraServerSvc
+**sc stop CelerraServerSvc**
 
 sc stop SBTLoggingSvc
 
-sc start SBFileMonAgentSvc
+**sc start SBFileMonAgentSvc**
 
 Once the services have been restarted, the Activity Monitor performance counters are unregistered.

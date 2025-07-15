@@ -28,8 +28,11 @@ default is 60 days.
 objects container** checkbox to delete data from the database for tombstone objects that have been
 purged.
 
-**NOTE:** The 'deleted objects container' is represented by the Recycle Bin in Recovery for Active
+:::note
+The 'deleted objects container' is represented by the Recycle Bin in Recovery for Active
 Directory.
+:::
+
 
 When an object is deleted in Active Directory, it has _tombstone_ as its state. The object is not
 physically deleted but is stripped off most of its attributes and is flagged as _deleted_. The
@@ -38,8 +41,11 @@ from Active Directory. Selecting the **Delete backup data for objects that have 
 deleted objects container** checkbox deletes data for permanently deleted objects from Recovery for
 Active Directory.
 
-**_RECOMMENDED:_** As permanently deleted objects cannot be rolled back or recovered using Recovery
+:::info
+As permanently deleted objects cannot be rolled back or recovered using Recovery
 for Active Directory, it is recommended to enable this setting.
+:::
+
 
 **Step 4 –** Click **Save**.
 

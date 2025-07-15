@@ -43,7 +43,10 @@ The navigation pane contains the following links:
   to configure the domains, users and roles, notifications, integrations, data retention policy, and
   licensing for Recovery for Active Directory.
 
-    **NOTE:** Only users with Administrator rights have access to the Configuration interface.
+    :::note
+    Only users with Administrator rights have access to the Configuration interface.
+    :::
+
 
     - [Domains Page](/docs/recoveryforactivedirectory/2.6/admin/configuration/domain.md) – The Domains page provides a list of the domains
       backed up by Recovery for Active Directory. It displays the backup schedule settings for each

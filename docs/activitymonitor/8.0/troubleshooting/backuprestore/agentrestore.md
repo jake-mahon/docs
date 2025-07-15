@@ -10,8 +10,11 @@ Follow the steps to restore the configuration, Active Directory configuration fi
 files for Activity Monitor Agents deployed on file system servers, SharePoint servers, and domain
 controllers.
 
-**CAUTION:** Restore the agent before restoring the console to ensure connectivity and monitoring
+:::warning
+Restore the agent before restoring the console to ensure connectivity and monitoring
 functionality
+:::
+
 
 **Step 1 –** Reinstall the Activity Monitor Agents.
 

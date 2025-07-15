@@ -10,7 +10,10 @@ This topic lists the requirements for the target servers where you want to resto
 controllers for performing a forest recovery. See the [Recover a Forest](/docs/recoveryforactivedirectory/2.6/admin/forest/recover.md)
 topic for additional information.
 
-_Remember,_ target server refers to a server where you intent to restore a domain controller.
+:::tip
+Remember, target server refers to a server where you intent to restore a domain controller.
+:::
+
 
 ## Target Server and Operating System Requirements
 

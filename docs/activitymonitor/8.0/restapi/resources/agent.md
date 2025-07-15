@@ -120,7 +120,7 @@ sidebar_position: 10
 | ctera.port                               | int      | X             | Agent port used for Ctera.                                                                                                                                                                          |
 | ctera.ipWhitelist                        | string[] | X             | Whitelist of IP addresses of CTERA portals that are allowed to connect to the Agent's CTERA port. If blank, connections from any host are accepted.                                                 |
 
-Response Example
+**Response Example**
 
 ```
 {

@@ -21,7 +21,10 @@ Installation
 Install and configure Recovery for Active Directory. See the
 [Install the Application](/docs/recoveryforactivedirectory/2.6/install/application.md) topic for additional information.
 
-**NOTE:** Installing the server automatically installs the RSAT Extension locally.
+:::note
+Installing the server automatically installs the RSAT Extension locally.
+:::
+
 
 First Launch
 

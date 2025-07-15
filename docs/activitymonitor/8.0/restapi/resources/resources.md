@@ -65,7 +65,7 @@ The API supports the following:
   `application/merge-patch+json`. A successful response returns a `200 OK` status.
 - DELETE – Deletes the resource. A successful response returns a `204 No Content status.`
 
-GET /api/v1/agents
+**GET /api/v1/agents**
 
 Lists all the agents managed by the API server. If the client has no `Read` permission, returns only
 the current agent.
@@ -73,7 +73,7 @@ the current agent.
 - Permission – Read or Access activity data
 - Response – Array of Agent
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Agent
 
@@ -268,7 +268,7 @@ Response Example:
 
 ```
 
-POST /api/v1/agents
+**POST /api/v1/agents**
 
 Adds a new agent but does not install it. The host attribute must be unique.
 
@@ -276,11 +276,11 @@ Adds a new agent but does not install it. The host attribute must be unique.
 - Response Body – Agent
 - Response – 201, Agent
 
-Permission: Modify agents
+**Permission: Modify agents**
 
 Response Body: Agent
 
-Response: 201, Agent
+**Response: 201, Agent**
 
 Required attributes:
 
@@ -316,7 +316,7 @@ Request Body Example:
 }
 ```
 
-POST /api/v1/agents/«agentId»/deploy
+**POST /api/v1/agents/«agentId»/deploy**
 
 Installs, upgrades, or uninstalls a single agent that is already added to the console.
 
@@ -328,11 +328,11 @@ Installs, upgrades, or uninstalls a single agent that is already added to the co
 
 Permission: `Modify agents`
 
-Response: 200
+**Response: 200**
 
 Required attributes:
 
-operation
+**operation**
 
 The following attributes can be set:
 
@@ -374,18 +374,18 @@ Request Body Structure:
 }
 ```
 
-POST /api/v1/agents/deploy
+**POST /api/v1/agents/deploy**
 
 Installs, upgrades, or uninstalls a set of agents that are already added to the console.
 
 - Permission – Modify agents
 - Response – 200
 
-Permission: Modify agents
+**Permission: Modify agents**
 
 Response: 200
 
-Required attributes
+**Required attributes**
 
 - operation
 - agentsIds
@@ -432,18 +432,18 @@ Request Body Structure:
 }
 ```
 
-GET /api/v1/agents/«agentId»
+**GET /api/v1/agents/«agentId»**
 
 Returns the agent by ID. If not found or no rights - 404.
 
 - Permission – Read or Access activity data
 - Response – Agent (with or without details)
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Agent (with or without details)
 
-PATCH /api/v1/agents/«agentId»
+**PATCH /api/v1/agents/«agentId»**
 
 Modifies a subset of attributes of the specified agent.
 
@@ -452,12 +452,12 @@ Modifies a subset of attributes of the specified agent.
   format
 - Response – 200, Agent
 
-Permission: Modify agents
+**Permission: Modify agents**
 
 Body: Content type: `application/merge-patch+json`, changes to the Agent in the JSON Merge Patch
 format
 
-Response: 200, Agent
+**Response: 200, Agent**
 
 The following attributes can be modified:
 
@@ -548,18 +548,18 @@ The following attributes can be modified:
 - `traceLevel` – `Trace`, `Debug`, `Info`, `Warning`, or `Error`
 - `externaNicName` – Must be a valid NIC name of the agent. Use an empty string for auto detect.
 
-DELETE /api/v1/agents/«AgentId»
+**DELETE /api/v1/agents/«AgentId»**
 
 Removes the agent without uninstalling it.
 
 - Permission – Modify agents
 - Response – 204
 
-Permission: Modify agents
+**Permission: Modify agents**
 
 Response: 204
 
-GET /api/v1/domains
+**GET /api/v1/domains**
 
 Returns an array of monitored domains, or only the current domain if the client has no `Read`
 permission.
@@ -567,7 +567,7 @@ permission.
 - Permission – Read or Access activity data
 - Response – Array of Domain
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Domain
 
@@ -640,7 +640,7 @@ Response Example:
 
 ```
 
-GET /api/v1/domains/«domainId»
+**GET /api/v1/domains/«domainId»**
 
 Returns the domain by its ID, or a 404 error if it is not found or the client lacks sufficient
 permissions.
@@ -648,11 +648,11 @@ permissions.
 - Permission – Read or Access activity data
 - Response – Domain
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Domain
 
-GET /api/v1/agents/«agentId»/domain
+**GET /api/v1/agents/«agentId»/domain**
 
 Returns a domain monitored by the specified agent, or a 404 error if the domain is not found, the
 client lacks the necessary permissions, or the agent is not monitoring AD activity.
@@ -665,11 +665,11 @@ messages. However, there are some output fields that are different on each agent
 - Permission – Read or Access activity data
 - Response – Domain
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Domain
 
-GET /api/v1/domains/«domainId»/agents
+**GET /api/v1/domains/«domainId»/agents**
 
 Returns the domain controllers (agents) monitoring the specified domain, or a 404 error if the
 domain is not found or the client lacks the necessary permissions.
@@ -677,11 +677,11 @@ domain is not found or the client lacks the necessary permissions.
 - Permission – Read or Access activity data
 - Response – Array of Agent
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Agent
 
-GET /api/v1/domains/«domainId»/outputs
+**GET /api/v1/domains/«domainId»/outputs**
 
 Returns the configured outputs for the specified domain, or 404 if no rights for the domain or the
 domain was not found.
@@ -689,7 +689,7 @@ domain was not found.
 - Permission – Read or Access activity data
 - Response – Array of Output
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Output
 
@@ -750,7 +750,7 @@ Response Example:
 
 ```
 
-GET /api/v1/domains/«domainId»/outputs/«outputId»
+**GET /api/v1/domains/«domainId»/outputs/«outputId»**
 
 Returns the output for the specified domain, or a 404 error if the domain is not found or the client
 lacks the necessary permissions.
@@ -758,7 +758,7 @@ lacks the necessary permissions.
 - Permission –Read or Access activity data
 - Response – Output
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Output
 
@@ -795,14 +795,14 @@ Response Example:
 
 ```
 
-POST /api/v1/domains/«domainId»/outputs
+**POST /api/v1/domains/«domainId»/outputs**
 
 Adds a new output for the specified domain.
 
 - Permission – Modify hosts
 - Response – 201, Output
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response: 201, Output
 
@@ -830,7 +830,7 @@ Request Body Structure:
 }
 ```
 
-GET /api/v1/hosts
+**GET /api/v1/hosts**
 
 Returns a combined list of hosts monitored by all agents. If the client lacks Read permission, only
 the hosts of the current agent are returned.
@@ -838,18 +838,18 @@ the hosts of the current agent are returned.
 - Permission – Read or Access activity data
 - Response – Array of Host
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Host
 
-GET /api/v1/hosts/«hostId»
+**GET /api/v1/hosts/«hostId»**
 
 Returns the specified host. If not found or no rights - 404.
 
 - Permission – Read or Access activity data
 - Response – Host
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Host
 
@@ -1093,18 +1093,18 @@ Response Example:
 
 ```
 
-GET /api/v1/hosts/«hostId»/statusHistory
+**GET /api/v1/hosts/«hostId»/statusHistory**
 
 Returns a journal of status changes for the host, ordered by time in descending order.
 
 - Permission – Read
 - Response – Array of Status
 
-Permission: Read
+**Permission: Read**
 
 Response: Array of Status
 
-GET /api/v1/agents/«agentId»/hosts
+**GET /api/v1/agents/«agentId»/hosts**
 
 Returns a list of hosts for the specified agent. If the agent is not found or the client lacks the
 necessary permissions, a 404 error is returned.
@@ -1112,11 +1112,11 @@ necessary permissions, a 404 error is returned.
 - Permission – Read or Access activity data
 - Response – Array of Host
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Host
 
-POST /api/v1/agents/«agentId»/hosts
+**POST /api/v1/agents/«agentId»/hosts**
 
 Adds a new Host to be monitored by the specified agent. A host is added with at least one output.
 
@@ -1124,11 +1124,11 @@ Adds a new Host to be monitored by the specified agent. A host is added with at 
 - Response Body – Host
 - Response – 201, Host
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response Body: Host
 
-Response: 201, Host
+**Response: 201, Host**
 
 Required Attributes:
 
@@ -1169,7 +1169,7 @@ Request Body Example:
 }
 ```
 
-PATCH /api/v1/hosts/«hostId»
+**PATCH /api/v1/hosts/«hostId»**
 
 Modifies the host on all the agents that monitor the host.
 
@@ -1178,12 +1178,12 @@ Modifies the host on all the agents that monitor the host.
   Merge Patch format
 - Response – 200, Host
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Body: Content type: `application/merge-patch+json`, changes to the Host resource in the JSON Merge
 Patch format
 
-Response: 200, Host
+**Response: 200, Host**
 
 The following attributes can be modified:
 
@@ -1257,7 +1257,7 @@ The following attributes can be modified:
 - `netapp.policyName`
 - `netapp.externalEngineName`
 
-PATCH /api/v1/agents/«agentId»/hosts/«hostId»
+**PATCH /api/v1/agents/«agentId»/hosts/«hostId»**
 
 Modifies the host on the specified agent only. The method is useful to set agent-specific settings.
 
@@ -1266,12 +1266,12 @@ Modifies the host on the specified agent only. The method is useful to set agent
   Merge Patch format
 - Response – 200, Host
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Body: Content type: `application/merge-patch+json`, changes to the Host resource in the JSON Merge
 Patch format
 
-Response: 200, Host
+**Response: 200, Host**
 
 The following attributes can be modified:
 
@@ -1345,29 +1345,29 @@ The following attributes can be modified:
 - `netapp.policyName`
 - `netapp.externalEngineName`
 
-DELETE /api/v1/hosts/«hostId»
+**DELETE /api/v1/hosts/«hostId»**
 
 Removes the host from being monitored from all the agents.
 
 - Permission – Modify hosts
 - Response – 204
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response: 204
 
-DELETE /api/v1/agents/«agentId»/hosts/«hostId»
+**DELETE /api/v1/agents/«agentId»/hosts/«hostId»**
 
 Removes the host from being monitored from the specified agent.
 
 - Permission – Modify hosts
 - Response – 204
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response: 204
 
-GET /api/v1/hosts/«hostId»/outputs
+**GET /api/v1/hosts/«hostId»/outputs**
 
 Returns a list of outputs for the specified host. If the host is not found or the client lacks the
 necessary permissions, a 404 error is returned.
@@ -1375,18 +1375,18 @@ necessary permissions, a 404 error is returned.
 - Permission – Read or Access activity data
 - Response – Array of Output
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Output
 
-POST /api/v1/hosts/«hostId»/outputs
+**POST /api/v1/hosts/«hostId»/outputs**
 
 Adds a new output for the specified host on all agents that monitor the host.
 
 - Permission – Modify hosts
 - Response – 201, Output
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response: 201, Output
 
@@ -1414,7 +1414,7 @@ Request Body Structure:
 }
 ```
 
-POST /api/v1/agents/«agentId»/hosts/«hostId»/outputs
+**POST /api/v1/agents/«agentId»/hosts/«hostId»/outputs**
 
 Adds a new output for the specified host on the specified agent only. The method may be useful to
 have agent-specific outputs but is not recommended.
@@ -1422,7 +1422,7 @@ have agent-specific outputs but is not recommended.
 - Permission – Modify hosts
 - Response – 201, Output
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Response: 201, Output
 
@@ -1450,7 +1450,7 @@ Request Body Structure:
 }
 ```
 
-GET /api/v1/hosts/«hostId»/outputs/«outputId»
+**GET /api/v1/hosts/«hostId»/outputs/«outputId»**
 
 Returns the specified output of the host. If the host or output is not found, or the client lacks
 the necessary permissions, a 404 error is returned.
@@ -1458,7 +1458,7 @@ the necessary permissions, a 404 error is returned.
 - Permission – Read or Access activity data
 - Response – Output
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Output
 
@@ -1549,18 +1549,18 @@ Response Example:
 
 ```
 
-GET /api/v1/hosts/«hostId»/outputs/«outputId»/statusHistory
+**GET /api/v1/hosts/«hostId»/outputs/«outputId»/statusHistory**
 
 Returns a journal of status changes for the output, ordered by time in descending order.
 
 - Permission – Read
 - Response – Array of Status
 
-Permission: Read
+**Permission: Read**
 
 Response: Array of Status
 
-PATCH /api/v1/hosts/«hostId»/outputs/«outputId»
+**PATCH /api/v1/hosts/«hostId»/outputs/«outputId»**
 
 Modifies the specified output on all the agents that monitor the host.
 
@@ -1568,12 +1568,12 @@ Modifies the specified output on all the agents that monitor the host.
 - Body – content type: `application/merge-patch+json`, changes to the Output resource in the JSON
   Merge Patch format
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Body: content type: `application/merge-patch+json`, changes to the Output resource in the JSON Merge
 Patch format
 
-Response: 200, Output
+**Response: 200, Output**
 
 The following attributes can be modified:
 
@@ -1646,7 +1646,7 @@ For SharePoint hosts:
   `SecRoleDefModify`, `SecRoleDefBreakInherit`, `SecRoleBindUpdate`, `SecRoleBindInherit`,
   `SecRoleBindBreakInherit`, `EventsDeleted`, `AppPermissionGrant`, `AppPermissionDelete`, `Custom`
 
-PATCH /api/v1/agents/«agentId»/hosts/«hostId»/outputs/«outputId»
+**PATCH /api/v1/agents/«agentId»/hosts/«hostId»/outputs/«outputId»**
 
 Modifies the specified output on the specified agent only. The method may be useful to set
 agent-specific attributes.
@@ -1656,12 +1656,12 @@ agent-specific attributes.
   Merge Patch format
 - Response – 200, Output
 
-Permission: Modify hosts
+**Permission: Modify hosts**
 
 Body: content type: `application/merge-patch+json`, changes to the Output resource in the JSON Merge
 Patch format
 
-Response: 200, Output
+**Response: 200, Output**
 
 The following attributes can be modified:
 
@@ -1734,18 +1734,18 @@ For SharePoint hosts:
   `SecRoleDefModify`, `SecRoleDefBreakInherit`, `SecRoleBindUpdate`, `SecRoleBindInherit`,
   `SecRoleBindBreakInherit`, `EventsDeleted`, `AppPermissionGrant`, `AppPermissionDelete`, `Custom`
 
-GET /api/v1/hosts/«hostId»/agents
+**GET /api/v1/hosts/«hostId»/agents**
 
 Returns a list of agents monitoring the specified host.
 
 - Permission – Read or Access activity data
 - Response – Array of Agent
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of Agent
 
-GET /api/v1/logs/«outputId»?includeLocal=true&includeArchived=false
+**GET /api/v1/logs/«outputId»?includeLocal=true&includeArchived=false**
 
 Returns a list of files produced by the specified output.
 
@@ -1759,7 +1759,7 @@ Returns a list of files produced by the specified output.
 - Permission – Read or Access activity data
 - Response – Array of File
 
-Permission: Read or Access activity data
+**Permission: Read or Access activity data**
 
 Response: Array of File
 
@@ -1810,14 +1810,14 @@ Response Example:
 
 ```
 
-GET /api/v1/domains/«domainId»/policies
+**GET /api/v1/domains/«domainId»/policies**
 
 Returns an array of existing policies for the specified domain.
 
 - Permission – Read
 - Response – Array of Policies
 
-Permission: Read
+**Permission: Read**
 
 Response: Array of Policies
 
@@ -1849,12 +1849,12 @@ Response Example:
 
 ```
 
-POST /api/v1/domains/«domainId»/policies
+**POST /api/v1/domains/«domainId»/policies**
 
 Creates a new policy for the specified domain using the provided XML. ID and GUID attributes in the
 XML are ignored, and new values are assigned.
 
-Permission: Policy change
+**Permission: Policy change**
 
 Input:
 
@@ -1862,24 +1862,24 @@ Input:
   values in XML.
 - Content type ¬ application/xml, Body: XML of the policy to be created
 
-Response: 201, Policy
+**Response: 201, Policy**
 
 Required attributes:
 
 - xml
 
-PATCH /api/v1/domains/«domainId»/policies/«policyId»
+**PATCH /api/v1/domains/«domainId»/policies/«policyId»**
 
 Modifies attributes of the policy. If XML is updated, ID and GUID attributes in the XML are ignored,
 and existing values are preserved.
 
-Permission: Policy change
+**Permission: Policy change**
 
 Input:
 
 - Content type: application/merge-patch+json, Body: JSON Merge Patch of Policy.
 
-Response: 200, Policy
+**Response: 200, Policy**
 
 Response Example:
 
@@ -1906,13 +1906,13 @@ Request Bbody Eexample:
 }
 ```
 
-DELETE /api/v1/domains/«domainId»/policies/«policyId»
+**DELETE /api/v1/domains/«domainId»/policies/«policyId»**
 
 Deletes the specified policy.
 
 - Permission – Policy change
 - Response – 204
 
-Permission: Policy change
+**Permission: Policy change**
 
 Response: 204

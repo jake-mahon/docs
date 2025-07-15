@@ -11,7 +11,7 @@ Activity Monitor8.0.
 
 ## Activity Monitor v8.0
 
-New: Platform Support for CTERA
+**New: Platform Support for CTERA**
 
 - CTERA Edge Filer Integration — Expands security monitoring with enhanced visibility to CTERA Edge
   Filer systems, now supported in Netwrix Activity Monitor.
@@ -28,10 +28,13 @@ New: Platform Support for CTERA
 See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ctera-activity.md) topic for additional
 information.
 
-**NOTE:** For Netwrix Access Analyzer (formerly Enterprise Auditor) users, these capabilities will
+:::note
+For Netwrix Access Analyzer (formerly Enterprise Auditor) users, these capabilities will
 be integrated in a future release.
+:::
 
-New: FPolicy Persistent Store Enhancements
+
+**New: FPolicy Persistent Store Enhancements**
 
 - FPolicy Persistent Store for Performance Boost — Enhances performance and resilience by decoupling
   client IO from FPolicy reporting. Events are stored on disk before transmission, reducing latency
@@ -43,14 +46,14 @@ New: FPolicy Persistent Store Enhancements
 See the [Configure FPolicy](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy.md) topic for additional
 information.
 
-New: Improved Microsoft Office Filtering Accuracy
+**New: Improved Microsoft Office Filtering Accuracy**
 
 - Enhanced Monitoring Capabilities — Provides precise insights into activity on the latest Microsoft
   Office versions.
 - Optimize Threat Detection — Eliminates irrelevant noise while focusing on potential threats across
   Windows, NetApp ONTAP, Dell Isilon/PowerScale, Dell PowerStore, and now CTERA Edge Filer systems.
 
-New: REST API Enhancements
+**New: REST API Enhancements**
 
 - Expand Integration Capabilities — Unlocks enhanced integrations by leveraging access to a broader
   range of performance counters and statistics for hosts and outputs.
