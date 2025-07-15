@@ -16,7 +16,7 @@ package `Usercube.AD@0000001` with only the export task and not the fulfill task
 
 ```
 
-<Connection Connector="AD" DisplayName_L1="Connection Active Directory" Identifier="ADExportFulfillment" Package="Usercube.AD@0000001" DeactivationExportFulfill="Fulfill"/>
+**<Connection Connector="AD" DisplayName_L1="Connection Active Directory" Identifier="ADExportFulfillment" Package="Usercube.AD@0000001" DeactivationExportFulfill="Fulfill"/>**
 
 ```
 

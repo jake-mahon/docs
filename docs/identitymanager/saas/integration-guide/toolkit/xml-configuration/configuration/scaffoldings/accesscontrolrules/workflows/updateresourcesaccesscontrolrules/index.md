@@ -10,7 +10,7 @@ sidebar_position: 20
 
 ```
 
-  <UpdateResourcesAccessControlRules EntityType="HR_Person" Profile="Administrator"/>
+**<UpdateResourcesAccessControlRules EntityType="HR_Person" Profile="Administrator"/>**
 
 ```
 

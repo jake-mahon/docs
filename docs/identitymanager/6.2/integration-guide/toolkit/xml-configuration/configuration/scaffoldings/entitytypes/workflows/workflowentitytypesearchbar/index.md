@@ -15,7 +15,7 @@ this scaffolding.
 
 ```
 
-  <WorkflowEntityTypeSearchBar EntityType="Directory_User"/>
+**<WorkflowEntityTypeSearchBar EntityType="Directory_User"/>**
 
 ```
 

@@ -116,7 +116,7 @@ This is how you analyze Usercube data through Power BI.
 
 In order to maintain the model you must remenber the ones listed below.
 
-Refresh data
+**Refresh data**
 
 You must define, in Power BI Service or Report Server, a frequency for data refresh so that reports
 display up-to-date data. See
@@ -125,7 +125,7 @@ additional information.
 
 Data is often refreshed once a day. Define the refresh frequency according to your needs.
 
-Foresee the Impact of Model Modifications
+**Foresee the Impact of Model Modifications**
 
 A change inside an existing entity, for example adding a scalar field, does not require any
 particular actions on the universe model.

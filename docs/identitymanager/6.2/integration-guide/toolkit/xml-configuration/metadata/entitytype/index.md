@@ -55,7 +55,7 @@ For example, the below `Dimension1` attribute references a _Title_ entity by its
 
 ```
 
-<SingleRoleRule Role="InternetAccess" Dimension1="TITLE0000" Policy="Default" />
+**<SingleRoleRule Role="InternetAccess" Dimension1="TITLE0000" Policy="Default" />**
 
 ```
 

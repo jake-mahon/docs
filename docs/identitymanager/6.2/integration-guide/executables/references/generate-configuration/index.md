@@ -31,7 +31,7 @@ From a list of CSV files, generates the configuration of the entities representi
 complex connector requires as an argument an xml file containing all the CSV files to be processed
 as well as the primary keys of these files.
 
-Example of xml file
+**Example of xml file**
 
 ```
 
@@ -54,7 +54,7 @@ Example of xml file
 
 ```
 
-./identitymanager-Generate-Configuration.exe simpleconnector -g "C:/GeneratedFile/file" -f "C:/SourceFile/confFile.csv"
+**./identitymanager-Generate-Configuration.exe simpleconnector -g "C:/GeneratedFile/file" -f "C:/SourceFile/confFile.csv"**
 
 ```
 
@@ -62,7 +62,7 @@ Example of xml file
 
 ```
 
-./identitymanager-Generate-Configuration.exe complexconnector -g "C:/GeneratedFile/file" "C:/SourceFile/confFile.xml"
+**./identitymanager-Generate-Configuration.exe complexconnector -g "C:/GeneratedFile/file" "C:/SourceFile/confFile.xml"**
 
 ```
 

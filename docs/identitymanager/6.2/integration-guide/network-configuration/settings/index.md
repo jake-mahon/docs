@@ -16,7 +16,7 @@ This setting is used to track the current configuration version.
 
 ```
 
-    <ConfigurationVersionSetting Version="5.0.0" Description="Demo IdentityManager" />
+**<ConfigurationVersionSetting Version="5.0.0" Description="Demo IdentityManager" />**
 
 ```
 
@@ -30,7 +30,7 @@ This setting is used to customize the application display.
 
 ```
 
-    <AppDisplaySetting PrimaryColor="#009597" SecondaryColor="#00553F" ApplicationName="Usercube" LogoFile="Images/logo.webp" FaviconFile="Images/favicon.ico" />
+**<AppDisplaySetting PrimaryColor="#009597" SecondaryColor="#00553F" ApplicationName="Usercube" LogoFile="Images/logo.webp" FaviconFile="Images/favicon.ico" />**
 
 ```
 
@@ -103,7 +103,7 @@ The max number of links to display is 5.
 
 ```
 
-<DashboardItemNumberSetting RoleReviewSection="2" ProvisioningReviewSection="5" RoleReconciliationSection="2" ResourceReconciliationSection="2" MyTasksSection="4" ManualProvisioningSection="2" />
+**<DashboardItemNumberSetting RoleReviewSection="2" ProvisioningReviewSection="5" RoleReconciliationSection="2" ResourceReconciliationSection="2" MyTasksSection="4" ManualProvisioningSection="2" />**
 
 ```
 
@@ -188,7 +188,7 @@ This setting is used to filter the entity type used by authentication mechanism.
 
 ```
 
-    <SelectPersonasByFilterQueryHanderSetting ResourceDisplayNameProperty="AD_Entry:displayName" PersonTypeFilterProperty="AD_Entry:objectCategory" PersonTypeFilter="Person" />
+**<SelectPersonasByFilterQueryHanderSetting ResourceDisplayNameProperty="AD_Entry:displayName" PersonTypeFilterProperty="AD_Entry:objectCategory" PersonTypeFilter="Person" />**
 
 ```
 
@@ -204,7 +204,7 @@ This setting enables task delegation to a group of people.
 
 ```
 
- <SelectAllPerformedByAssociationQueryHandlerSetting RootEntityType="AD_Entry" Binding="member" />
+**<SelectAllPerformedByAssociationQueryHandlerSetting RootEntityType="AD_Entry" Binding="member" />**
 
 ```
 
@@ -234,7 +234,7 @@ using the following setting:
 
 ```
 
-    <PasswordGenerationSetting AllowedSymbolChars="*@!^-_" />
+**<PasswordGenerationSetting AllowedSymbolChars="*@!^-_" />**
 
 ```
 

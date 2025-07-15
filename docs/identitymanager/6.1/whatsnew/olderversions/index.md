@@ -8,7 +8,7 @@ sidebar_position: 10
 
 ## Version 5.2.3.19
 
-Release date 10-Oct-2022
+**Release date 10-Oct-2022**
 
 #### Enhancements
 
@@ -35,7 +35,7 @@ Release date 10-Oct-2022
 
 ## Version 5.2.3.17
 
-Release date 27-Sep-2022
+**Release date 27-Sep-2022**
 
 #### Fixed Bugs:
 
@@ -66,7 +66,7 @@ Release date 27-Sep-2022
 
 ## Version 5.2.3.16
 
-Release date 12-Sep-2022
+**Release date 12-Sep-2022**
 
 #### Enhancements:
 
@@ -123,7 +123,7 @@ Release date 12-Sep-2022
 
 ## Version 5.2.3.12
 
-Release date 28-Jul-2022
+**Release date 28-Jul-2022**
 
 #### Enhancements:
 
@@ -224,7 +224,7 @@ Release date 28-Jul-2022
 
 ## Version 5.2.3.03
 
-Release date 3-Jun-2022
+**Release date 3-Jun-2022**
 
 #### Fixed Bugs:
 
@@ -241,7 +241,7 @@ Release date 3-Jun-2022
 
 ## Version 5.2.3.02
 
-Release date 31-May-2022
+**Release date 31-May-2022**
 
 ### **Compatibility notice:**
 
@@ -301,7 +301,7 @@ for more information.
 
 ## Version 5.2.3.01 - Release Candidate
 
-Release date 17-May-2022
+**Release date 17-May-2022**
 
 ### **Compatibility notice:**
 
@@ -461,7 +461,7 @@ for more information.
 
 ## Version 5.2.2.7
 
-Release date 12-Apr-2022
+**Release date 12-Apr-2022**
 
 #### Fixed bugs:
 
@@ -522,7 +522,7 @@ Release date 12-Apr-2022
 
 ## Version 5.2.2.1 - Commercial Release
 
-Release date 24-Feb-2022
+**Release date 24-Feb-2022**
 
 ### **Compatibility notice:**
 
@@ -559,7 +559,7 @@ be followed.
 
 ## Version 5.2.2.0 - Release Candidate
 
-Release date 10-Feb-2022
+**Release date 10-Feb-2022**
 
 #### Enhancements:
 
@@ -766,7 +766,7 @@ Release date 10-Feb-2022
 
 ## Version 5.2.1.3
 
-Release date 26-Jan-2022
+**Release date 26-Jan-2022**
 
 #### Fixed bugs:
 
@@ -798,7 +798,7 @@ Release date 26-Jan-2022
 
 ## Version 5.2.1.1
 
-Release date 14-Jan-2022
+**Release date 14-Jan-2022**
 
 #### Fixed bugs:
 
@@ -875,7 +875,7 @@ Release date 14-Jan-2022
 
 ## Version 5.1.7.17
 
-Release date 22-Dec-2021
+**Release date 22-Dec-2021**
 
 #### Fixed Bugs:
 
@@ -885,7 +885,7 @@ Release date 22-Dec-2021
 
 ## Version 5.1.7.16
 
-Release date 09-Dec-2021
+**Release date 09-Dec-2021**
 
 #### Fixed Bugs:
 
@@ -894,7 +894,7 @@ Release date 09-Dec-2021
 
 ## Version 5.1.7.15
 
-Release date 06-Dec-2021
+**Release date 06-Dec-2021**
 
 #### Fixed Bugs:
 
@@ -904,7 +904,7 @@ Release date 06-Dec-2021
 
 ## Version 5.1.7.14
 
-Release date 29-Nov-2021
+**Release date 29-Nov-2021**
 
 #### Fixed Bugs:
 
@@ -925,7 +925,7 @@ Release date 29-Nov-2021
 
 ## Version 5.1.7.13
 
-Release date 10-Nov-2021
+**Release date 10-Nov-2021**
 
 #### Fixed Bugs:
 
@@ -944,7 +944,7 @@ Release date 10-Nov-2021
 
 ## Version 5.1.7.12
 
-Release date 27-Oct-2021
+**Release date 27-Oct-2021**
 
 #### Fixed Bugs:
 
@@ -958,7 +958,7 @@ Release date 27-Oct-2021
 
 ## Version 5.2.1.0
 
-Release date 21-Oct-2021
+**Release date 21-Oct-2021**
 
 ### **Compatibility notice:**
 
@@ -1115,7 +1115,7 @@ be followed.
 
 ## Version 5.2.0.8
 
-Release date 12-Oct-2021
+**Release date 12-Oct-2021**
 
 #### Fixed Bugs:
 
@@ -1165,7 +1165,7 @@ Release date 12-Oct-2021
 
 ## Version 5.1.7.11
 
-Release date 24-Sep-2021
+**Release date 24-Sep-2021**
 
 #### Fixed Bugs:
 
@@ -1201,7 +1201,7 @@ Release date 24-Sep-2021
 
 ## Version 5.2.0.6
 
-Release date 30-Aug-2021
+**Release date 30-Aug-2021**
 
 ### **Migration notice:**
 
@@ -1265,7 +1265,7 @@ There is no migration to be done from version 5.2.0.2.
 
 ## Version 5.1.7.10
 
-Release date 4-Aug-2021
+**Release date 4-Aug-2021**
 
 #### Fixed Bugs:
 
@@ -1336,7 +1336,7 @@ Release date 4-Aug-2021
 
 ## Version 5.2.0.2
 
-Release date 23-Jul-21
+**Release date 23-Jul-21**
 
 ### **Compatibility notice:**
 
@@ -1646,7 +1646,7 @@ be followed.
 
 ## Version 5.1.7.9
 
-Release date 24-Jun-2021
+**Release date 24-Jun-2021**
 
 #### Fixed Bugs:
 
@@ -1684,7 +1684,7 @@ Release date 24-Jun-2021
 
 ## Version 5.1.7.8
 
-Release date 7-Jun-2021
+**Release date 7-Jun-2021**
 
 #### Mini migration:
 
@@ -1694,12 +1694,12 @@ configured in the appsettings, no change is necessary. See the first bug below f
 
 #### Enhancements:
 
-Connectors and Integrations
+**Connectors and Integrations**
 
 - The Usercube-Discover-ActiveDirectory tool has been enhanced to determine the domain controller
   closest to the agent.
 
-Logs/Performance/Security
+**Logs/Performance/Security**
 
 - Certain, less important, "Warning" messages displayed in the logs have been downgraded to the
   debug level.
@@ -1757,7 +1757,7 @@ Logs/Performance/Security
 
 ## Version 5.1.7.7
 
-Release date: 18-May-2021
+**Release date: 18-May-2021**
 
 #### Fixed Bugs:
 
@@ -1801,7 +1801,7 @@ Release date: 18-May-2021
 
 ## Version 5.1.7.6
 
-Release date: 20-Apr-2021
+**Release date: 20-Apr-2021**
 
 #### Fixed Bugs:
 
@@ -1832,7 +1832,7 @@ Release date: 20-Apr-2021
 
 ## Version 5.1.7.5
 
-Release date: 30-Mar-2021
+**Release date: 30-Mar-2021**
 
 #### Enhancements:
 
@@ -1901,7 +1901,7 @@ Whenever the value of this property changes for a resource used in the defined n
 
 ## Version 5.1.7.4
 
-Release date: 16-Mar-2021
+**Release date: 16-Mar-2021**
 
 #### Fixed bugs:
 
@@ -1909,7 +1909,7 @@ Release date: 16-Mar-2021
 
 ## Version 5.1.7.3
 
-Release date: 12-Mar-2021
+**Release date: 12-Mar-2021**
 
 #### Fixed bugs:
 
@@ -1953,7 +1953,7 @@ Release date: 12-Mar-2021
 
 ## Version 5.1.7.2
 
-Release date: 26-Feb-2021
+**Release date: 26-Feb-2021**
 
 #### Fixed bugs:
 
@@ -1974,7 +1974,7 @@ Release date: 26-Feb-2021
 
 ## Version 5.1.7.1
 
-Release date: 19-Feb-2021
+**Release date: 19-Feb-2021**
 
 #### Fixed bugs:
 
@@ -2064,7 +2064,7 @@ Release date: 19-Feb-2021
         }
           }
 
-          return arguments;" >
+**return arguments;" >**
 
         ```
 
@@ -2077,7 +2077,7 @@ Release date: 19-Feb-2021
 
 ## Version 5.1.7
 
-Release date: 14-Jan-2021
+**Release date: 14-Jan-2021**
 
 ### **Compatibility notice:**
 
@@ -2139,7 +2139,7 @@ therefore be followed IN THE ORDER INDICATED.
 
         ```
 
-        and / or
+**and / or**
 
         ```
           <Job Identifier="InvokeAspects" DisplayName_L1="00: Invoke Aspects" Agent="Local">    <InvokeAspectsTask Agent="Local" DisplayName_L1="Execute Powershell for aspects" OutputPath="C:/identitymanagerDemo/Temp" OpenIdClient="Job" />  </Job>
@@ -2303,7 +2303,7 @@ therefore be followed IN THE ORDER INDICATED.
 
 ## Version 5.1.6.2
 
-Release date: 9-Feb-2021
+**Release date: 9-Feb-2021**
 
 #### Fixed bugs:
 
@@ -2316,7 +2316,7 @@ Release date: 9-Feb-2021
 
 ## Version 5.1.6.1
 
-Release date: 8-Jan-2021
+**Release date: 8-Jan-2021**
 
 #### Fixed bugs:
 
@@ -2337,7 +2337,7 @@ Release date: 8-Jan-2021
 
 ## Version 5.1.6
 
-Release date: 16-Nov-2020
+**Release date: 16-Nov-2020**
 
 ### **Compatibility notice:**
 
@@ -2626,7 +2626,7 @@ To continue to use the Usercube certificate in non-production environments, add
 
 ## Version 5.1.5.1
 
-Release date 2020-10-05
+**Release date 2020-10-05**
 
 #### Fixed bugs:
 
@@ -2649,7 +2649,7 @@ Release date 2020-10-05
 
 ## Version 5.1.5
 
-Release date: 2020-09-15
+**Release date: 2020-09-15**
 
 ### **Compatibility notice:**
 
@@ -2687,7 +2687,7 @@ therefore be followed IN THE ORDER INDICATED.
 
 #### Enhancements:
 
-New UI features
+**New UI features**
 
 - New display indicators are available to indicate certain resource attributes (for example: VIP,
   External, High Risk etc).
@@ -2739,7 +2739,7 @@ New UI features
 - On the Resource Reconciliation page, when the resource type is changed and parameters are needed,
   Usercube now prompts for parameter values.
 
-New Job features
+**New Job features**
 
 - Within a job, multiple tasks with the same level indication can now be executed at the same time.
   See the documentation for more information Home > Integration Guide > References > Data model >
@@ -2755,7 +2755,7 @@ New Job features
   Configure Usercube Jobs > Synchronization Complete or search for the attribute `TaskDependsOnTask`
   for more information.
 
-Other new items
+**Other new items**
 
 - Because mail settings are unique to each environment, mailSettings have been moved from the
   database to the appsettings configuration. In order to migrate and preserve existing mailSettings,
@@ -2783,7 +2783,7 @@ Other new items
 
 #### Fixed bugs:
 
-UI Corrections
+**UI Corrections**
 
 - In email notifications, the password font has been changed so the characters are clearer.
 - When a login is incorrect, better error messages are now shown.
@@ -2838,7 +2838,7 @@ UI Corrections
 - Composite and single role metadata have been added to the access review module which permits,
   among other things, the filtering of access review items.
 
-Security and performance corrections
+**Security and performance corrections**
 
 - The InvokeSQLCommandTask now correctly interprets the LogLevel that has been indicated.
 - A series of optimizations have been made for connector synchronizations.
@@ -2851,7 +2851,7 @@ Security and performance corrections
 - Change the default value for the BlockProvisioning attribute of ComputeRoleModelTask, from false
   to true in order to prevent unexpected fulfillments.
 
-Configuration Deployment
+**Configuration Deployment**
 
 - When deploying the conf, if the arguments �configuration-directory and �database-connection-string
   are missing, the exception is now thrown correctly.
@@ -2863,7 +2863,7 @@ Configuration Deployment
 - Harmonization of similar attributes: FilesAreEncrypted in the MappingPath scaffolding argument has
   been switched to FilesAreNotEncrypted.
 
-Other corrections
+**Other corrections**
 
 - Correction for regression in Windows SSO authentication
 - The InvokeSQLServer jobs now correctly abort when the user clicks on the �Stop' button during a
@@ -2917,7 +2917,7 @@ Reconcilation. They will be back in version 5.1.6.
 
 ## Version 5.1.4.2
 
-Release date: 2020-08-12
+**Release date: 2020-08-12**
 
 #### Fixed bugs:
 
@@ -2928,7 +2928,7 @@ Release date: 2020-08-12
 
 ## Version 5.1.4.1
 
-Release date: 2020-07-31
+**Release date: 2020-07-31**
 
 #### Fixed bugs:
 
@@ -2939,7 +2939,7 @@ Release date: 2020-07-31
 
 ## Version 5.1.4
 
-Release date: 2020-07-24
+**Release date: 2020-07-24**
 
 ### **Compatibility notice:**
 
@@ -3166,7 +3166,7 @@ therefore be followed.
 
 ## Version 5.1.3.1
 
-Release date: 2020-06-15
+**Release date: 2020-06-15**
 
 #### Fixed bugs:
 
@@ -3185,7 +3185,7 @@ Release date: 2020-06-15
 - Several ResourceTypes can now be provisioned at the same time.
 - Solution for an intermittent problem where encrypted logs were truncated, preventing decryption.
 
-Release date: 2020-06-02
+**Release date: 2020-06-02**
 
 ### **Compatibility notice:**
 
@@ -3433,7 +3433,7 @@ therefore be followed.
 
 ## Version 5.1.2
 
-Release date: 2020-04-10
+**Release date: 2020-04-10**
 
 ### **Compatibility notice:**
 
@@ -3647,7 +3647,7 @@ therefore be followed.
 
 ## Version 5.1.1
 
-Release date: 2020-03-03
+**Release date: 2020-03-03**
 
 ### **Compatibility notice:**
 
@@ -3744,7 +3744,7 @@ therefore be followed.
 
 ## Version 5.1.0
 
-Release date: 2020-01-20
+**Release date: 2020-01-20**
 
 ### **Compatibility notice:**
 

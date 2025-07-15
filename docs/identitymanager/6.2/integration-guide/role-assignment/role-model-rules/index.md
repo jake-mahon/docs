@@ -256,7 +256,7 @@ This series of steps is actually a very simplified version of the
 
 ![Cascading From Dimensions To Roles To Provisioning Orders](/img/product_docs/identitymanager/saas/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.webp)
 
----
+**---**
 
 ## Evaluate Policy
 

@@ -410,7 +410,7 @@ Thresholds are ignored in _initial_ mode.
 
 The task's argument ```-force``` can be used to ignore thresholds.
 
----
+**---**
 
 Next, a word about the [Assignment Policy](/docs/identitymanager/saas/integration-guide/role-model/role-model-rules/index.md).
 ````

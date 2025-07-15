@@ -27,7 +27,7 @@ the `appsettings.agent.json` file.
 
 ```
 
-./identitymanager-Protect-X509JsonValue.exe --values "0" "secret"
+**./identitymanager-Protect-X509JsonValue.exe --values "0" "secret"**
 
 ```
 
@@ -74,7 +74,7 @@ The output, in the console, shows the encrypted value for the _charlotte2028_ st
 
 ```
 
-kxABABJR7wYaQIqNjHT/rhYVMp5Vmsao7/eBLb7JCIiHMOKbi2sC0dY0SAJgj50NQ0kEH5LS3Y3TYso98+IdnxAzpURrtNu/LUWCJo1kTLM/taygebc0MK4XbkFmWzEgzLcVhAIy8GyFgEWqgNhOx7vwSPXFRrhQTVqIjwO0QNqxlZ5s6uyQm5fk9es2o6aLL0xwbvqspReFxZwuHrguAoIvkBnaKSsDfTLSuheP6VN7yOglLHvZ8Sn9R42M2BpG/dKIHXG6i1LkxkKoVKS9gFO7Hx8VUmYgxG+qIKTRVHdpMctqWKNUJTsQkmRKs+S3qiA2mgK/iC/dp923TfigAnBLWtyXw8eKDJjZ+s6n878BIf55iEjpgOrbm5FLzj8dfqPhQw==
+**kxABABJR7wYaQIqNjHT/rhYVMp5Vmsao7/eBLb7JCIiHMOKbi2sC0dY0SAJgj50NQ0kEH5LS3Y3TYso98+IdnxAzpURrtNu/LUWCJo1kTLM/taygebc0MK4XbkFmWzEgzLcVhAIy8GyFgEWqgNhOx7vwSPXFRrhQTVqIjwO0QNqxlZ5s6uyQm5fk9es2o6aLL0xwbvqspReFxZwuHrguAoIvkBnaKSsDfTLSuheP6VN7yOglLHvZ8Sn9R42M2BpG/dKIHXG6i1LkxkKoVKS9gFO7Hx8VUmYgxG+qIKTRVHdpMctqWKNUJTsQkmRKs+S3qiA2mgK/iC/dp923TfigAnBLWtyXw8eKDJjZ+s6n878BIf55iEjpgOrbm5FLzj8dfqPhQw==**
 
 ```
 

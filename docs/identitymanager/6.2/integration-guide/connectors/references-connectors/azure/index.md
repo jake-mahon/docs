@@ -33,7 +33,7 @@ the XML configuration, and in the `appsettings.agent.json > Connections` section
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
 

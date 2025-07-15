@@ -140,7 +140,7 @@ with the assignment rules, and are displayed in the Resource Reconciliation scre
 
 Let's detail the rule enforcement mechanisms.
 
-Match context rules
+**Match context rules**
 
 Dimensions are really the basis of an assignment process. See the
 [Entitlement Management](/docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/index.md)
@@ -153,7 +153,7 @@ Before starting, a context rule is applied, giving for the input resource:
 
 ![Computing Context For Input Resource](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/evaluate-policy/enforce-context.webp)
 
-Computing expected role assignments
+**Computing expected role assignments**
 
 Role assignments, on the other hand, are the outcome of the assignment process. See the
 [Entitlement Management](/docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/index.md)
@@ -166,7 +166,7 @@ resource-identity.
 
 ![Computing Expected Role Assignments](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/evaluate-policy/compute-expected-1.webp)
 
-Enforcing composite role rules
+**Enforcing composite role rules**
 
 The first rules that are enforced are the composite role rules. See the
 [CompositeRoleRule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic
@@ -192,7 +192,7 @@ assignment.
 :::
 
 
-Enforcing single role rules
+**Enforcing single role rules**
 
 Then, single role rules are enforced. That means assigning a specific single role to the input
 resource based on its context and existing assigned composite roles, i.e. the composite roles
@@ -208,7 +208,7 @@ expected assignments list.
 
 Then automation rules are enforced on assigned single roles.
 
-Expected provisioning assignments
+**Expected provisioning assignments**
 
 Fulfillment is just the consequence of the role assignment process. See the
 [Entitlement Management](/docs/identitymanager/6.1/introduction-guide/overview/entitlement-management/index.md)
@@ -225,7 +225,7 @@ topic for additional information.
 
 ![Computing Expected Provisioning Assignments](/img/product_docs/identitymanager/6.1/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)
 
-Enforcing resource type rules
+**Enforcing resource type rules**
 
 Resource type rules are enforced. This means creating and adding assigned resource types to the
 expected assignments list. This means enforcing the need for a resource of that type to be created
@@ -241,7 +241,7 @@ act of assigning a resource to an owner almost always is the consequence of a ro
 cases for which a single, isolated resource, is "assigned" (i.e. created with specific values) is
 rare and is more of a solution to a specific technical problem.
 
-Enforcing navigation rules
+**Enforcing navigation rules**
 
 Finally, navigation rules are enforced. They aim to complete the information about the resource to
 be created because of the assigned resource types. If the type rule is the what, this is the how.
@@ -260,7 +260,7 @@ provisioning-order-to-be, of assigning a role to a resource.
 This means also no assigned resource type, no navigation assignment. Resource type rules are a
 prerequisite for the associated navigation rules to be enforced.
 
-Enforcing scalar rules
+**Enforcing scalar rules**
 
 Finally, the scalar rules associated with the target's resource type are enforced and become
 assigned resource scalars that will also result in a provisioning order.
@@ -374,7 +374,7 @@ non conforming values in the managed systems that need to be fixed.
 
 That list will eventually become provisioning orders that will be sent to the agent for fulfillment.
 
-What constitutes a difference?
+**What constitutes a difference?**
 
 Expected resource and their values not matching the existing resource and their value, for an
 existing assignment with an `Applied` or `Executed` provisioning state.

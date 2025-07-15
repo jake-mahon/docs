@@ -34,7 +34,7 @@ Configure the agent's settings by proceeding as follows:
 
     ```
 
-     web.config
+**web.config**
 
      ...
      <aspNetCore processPath="dotnet" arguments="./identitymanager-Agent.dll" stdoutLogEnabled="true" stdoutLogFile="../Temp/stdout-server.log" hostingModel="inprocess">     ...
@@ -103,7 +103,7 @@ Configure the agent's settings by proceeding as follows:
 
         ```
 
-          appsettings.json
+**appsettings.json**
 
           "Cors": {
               "AllowAnyHeader": "true",

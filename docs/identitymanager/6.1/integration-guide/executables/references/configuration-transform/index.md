@@ -21,11 +21,11 @@ The resulting files are saved in `C:/identitymanagerDemo/ConfTransformed`.
 
 ```
 
-./identitymanager-Configuration-Transform.exe --input "C:/identitymanagerDemo/Conf" --output "C:/identitymanagerDemo/ConfTransformed" --transformation-file "C:/identitymanagerDemo/transformations.json"
+**./identitymanager-Configuration-Transform.exe --input "C:/identitymanagerDemo/Conf" --output "C:/identitymanagerDemo/ConfTransformed" --transformation-file "C:/identitymanagerDemo/transformations.json"**
 
 ```
 
-transformations.json
+**transformations.json**
 
 ```json
 {

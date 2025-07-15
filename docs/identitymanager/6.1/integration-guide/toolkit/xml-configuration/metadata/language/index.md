@@ -14,7 +14,7 @@ The following example declares a new language.
 
 ```
 
-<Language Code="en-US" IndicatorNumber="1" />
+**<Language Code="en-US" IndicatorNumber="1" />**
 
 ```
 

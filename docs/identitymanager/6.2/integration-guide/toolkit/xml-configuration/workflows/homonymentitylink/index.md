@@ -12,7 +12,7 @@ This entity is used to configure the homonym workflow.
 
 ```
 
-<HomonymEntityLink FormEntityType="Referentiel_UserRecord" Identifier="Homonym_Referentiel_UserRecord"/>
+**<HomonymEntityLink FormEntityType="Referentiel_UserRecord" Identifier="Homonym_Referentiel_UserRecord"/>**
 
 ```
 

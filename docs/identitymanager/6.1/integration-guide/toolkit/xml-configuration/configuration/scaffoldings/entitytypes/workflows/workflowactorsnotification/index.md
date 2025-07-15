@@ -10,7 +10,7 @@ sidebar_position: 50
 
 ```
 
-  <WorkflowActorsNotification Workflow="Directory_User_StartInternal"/>
+**<WorkflowActorsNotification Workflow="Directory_User_StartInternal"/>**
 
 ```
 

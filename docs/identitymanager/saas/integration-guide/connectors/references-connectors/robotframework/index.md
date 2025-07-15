@@ -9,7 +9,7 @@ sidebar_position: 220
 This connector writes to an external system via a [Robot Framework](https://robotframework.org)
 script.
 
-This page is about [Robot Framework](/docs/identitymanager/saas/integration-guide/connectors/references-packages/robot-framework/index.md)
+**This page is about [Robot Framework](/docs/identitymanager/saas/integration-guide/connectors/references-packages/robot-framework/index.md)**
 
 ![Package: Custom/Robot Framework](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 

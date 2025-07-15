@@ -193,7 +193,7 @@ The following example creates a new policy named `Manager`.
 
 ```
 
-<AccessCertificationCampaignPolicy Id="-2" Identifier="Manager" DisplayName_L1="Manager" DisplayName_L2="Responsable"/>
+**<AccessCertificationCampaignPolicy Id="-2" Identifier="Manager" DisplayName_L1="Manager" DisplayName_L2="Responsable"/>**
 
 ```
 
@@ -233,7 +233,7 @@ The user needs to have the correct permission to launch the item processing:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
+**<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>**
 
 ```
 

@@ -98,7 +98,7 @@ appsettings.agent.json
 }
 ```
 
-Setting attributes
+**Setting attributes**
 
 The table below summarizes the setting attributes of Microsoft Entra ID connector.
 
@@ -239,7 +239,7 @@ appsettings.agent.json
 }
 ```
 
-Setting attributes
+**Setting attributes**
 
 The table below summarizes the setting attributes.
 
@@ -260,13 +260,13 @@ groups' memberships via the UI.
 
 See the following to figure out authentication.
 
-Password reset
+**Password reset**
 
 See
 the[appsettings.agent](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information on how to configure password reset settings.
 
-Credential protection
+**Credential protection**
 
 Data protection can be ensured through:
 

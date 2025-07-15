@@ -163,7 +163,7 @@ Notice the `*` that separates the entities.
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "SCIMCyberArkExport": { "Server": "https://host:port/CyberArk/scim",
 "Login": "Usercube-user", "Password": "Cyberark1", "Filter":
@@ -313,7 +313,7 @@ Declaring an Entity Type is achieved with the `<EntityType>` tag and the followi
 
                     ```
 
-                        Conf/SCIMCyberArk/CyberArk Connector.xml
+**Conf/SCIMCyberArk/CyberArk Connector.xml**
 
 ... <EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk - User"> ... </EntityType>...
 
@@ -367,7 +367,7 @@ of this **Group**.
 
                     ```
 
-                        Conf/SCIMCyberArk/CyberArk Connector.xml
+**Conf/SCIMCyberArk/CyberArk Connector.xml**
 
 ...
 <EntityAssociation Identifier="CyberArk_Group_Members" DisplayName_L1="Group Members" IsProperty1Collection="true" Property1="CyberArk_Group:Users" IsProperty2Collection="true" Property2="CyberArk_User:groups" />...
@@ -409,7 +409,7 @@ EntityType property which is written to the **Identifier** attribute.
 
                     ```
 
-                        Conf/SCIMCyberArk/CyberArk Connector.xml
+**Conf/SCIMCyberArk/CyberArk Connector.xml**
 
 ...
 <EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >
@@ -519,7 +519,7 @@ usually declared in the configuration root folder `Nav.xml` file.
 
                     ```
 
-                        Conf/Nav.xml
+**Conf/Nav.xml**
 
 ...
 
@@ -562,7 +562,7 @@ describes how a single resource should be displayed.
 
                     ```
 
-                        Conf/SCIMCyberArk/CyberArk UI.xml
+**Conf/SCIMCyberArk/CyberArk UI.xml**
 
 ... <DisplayEntityType Identifier="CyberArk_User">
 <Property OutputType="BasicCollection" Identifier="groups" />
@@ -612,7 +612,7 @@ of the entity type is used.
 
                     ```
 
-                        Conf/SCIMCyberArk/CyberArk UI.xml
+**Conf/SCIMCyberArk/CyberArk UI.xml**
 
 ...
 <EntityPropertyExpression Identifier="CyberArk_User_InternalDisplayName" Expression="C#:resource:return resource.userPrincipalName ?? resource.mail ?? resource.displayName ?? resource.Id.ToString();" EntityType="CyberArk_User" Property="InternalDisplayName" />...
@@ -663,7 +663,7 @@ scaffolding.
 
                     ```
 
-                        Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml
+**Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml**
 
 ...
 <CreateConnectorSynchroComplete Connector="CyberArk" DisplayName_L1="01: CyberArk - Synchronization Complete (scaffolding)" JobIdentifier="CyberArk_Synchronize_Complete_Scaffolding">
@@ -778,7 +778,7 @@ scaffolding.
 
                     ```
 
-                        Conf/Profile AgentSychro.xml
+**Conf/Profile AgentSychro.xml**
 
 ... <JobExecutionAccessControlRules Profile="AgentProfileForSynchro"/>...
 

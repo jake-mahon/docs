@@ -10,7 +10,7 @@ sidebar_position: 100
 
 ```
 
-  <WorkflowPerformerNotification Workflow="Directory_User_ChangeName"/>
+**<WorkflowPerformerNotification Workflow="Directory_User_ChangeName"/>**
 
 ```
 

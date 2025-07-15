@@ -12,7 +12,7 @@ Creates the Initialization Job for the given agent.
 
 ```
 
-  <CreateInitializationJob DisplayName_L1="ZZ Administration/Initialization" OldAlgorithm="false"/>
+**<CreateInitializationJob DisplayName_L1="ZZ Administration/Initialization" OldAlgorithm="false"/>**
 
 ```
 

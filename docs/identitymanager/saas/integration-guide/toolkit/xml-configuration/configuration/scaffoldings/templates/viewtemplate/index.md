@@ -25,7 +25,7 @@ The following example implements a default display name for resources from the
 
 ```
 
-<ViewTemplate EntityType="Directory_UserCategory" Profile="Administrator"/>
+**<ViewTemplate EntityType="Directory_UserCategory" Profile="Administrator"/>**
 
 ```
 

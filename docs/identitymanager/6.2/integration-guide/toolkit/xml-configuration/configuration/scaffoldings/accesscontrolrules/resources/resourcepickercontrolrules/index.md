@@ -12,7 +12,7 @@ Creates the reading right of the resource picker.
 
 ```
 
-  <ResourcePickerControlRules Profile="Administrator"/>
+**<ResourcePickerControlRules Profile="Administrator"/>**
 
 ```
 

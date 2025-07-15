@@ -13,7 +13,7 @@ the email addresses contained by the `Email` property.
 
 ```
 
-<MailSetting MailProperty="Directory_User:Email"/>
+**<MailSetting MailProperty="Directory_User:Email"/>**
 
 ```
 

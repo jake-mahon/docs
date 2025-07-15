@@ -23,7 +23,7 @@ In the following example the Synchronization job for the Connector "AD" will be 
 
 ```
 
-<Connector Identifier="AD" DisplayName_L1="AD" Agent="Local" />
+**<Connector Identifier="AD" DisplayName_L1="AD" Agent="Local" />**
 
 ```
 

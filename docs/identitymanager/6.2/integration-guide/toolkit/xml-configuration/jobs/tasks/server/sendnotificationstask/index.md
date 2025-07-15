@@ -17,7 +17,7 @@ notifications concerning the `Directory_User` entity type.
 
 ```
 
-<SendNotificationsTask Identifier="SendNotifications" DisplayName_L1="Send notifications">	<TaskEntityType EntityType="Directory_User" /></SendNotificationsTask>
+**<SendNotificationsTask Identifier="SendNotifications" DisplayName_L1="Send notifications">	<TaskEntityType EntityType="Directory_User" /></SendNotificationsTask>**
 
 Knowing that we have for example:
 <Notification Identifier="New_Directory_User" OwnerEntityType="Directory_User" RazorTemplate="./Template/Notification.cshtml" CssTemplate="./Template/Notification.css" TitleExpression="C#:user:return &quot;New Employee&quot;;" QueryFilterExpression="C#:user:return $&quot;join MainRecord r where r.ContractStartDate > \&quot;{DateTime.UtcNow.ToString(&quot;yyyy-MM-ddTHH:mm:ssZ&quot;)}\&quot;&quot;;" RecipientMailBinding="Directory_User:MainRecord.Organization.Manager.MainRecord.Email" ReminderInterval="10080" />

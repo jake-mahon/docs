@@ -10,7 +10,7 @@ The translations are given to Identity Manager in a JSON file, through the confi
 tool. This section first explains how to write the JSON file, then how to use it with the deployment
 tool.
 
-JSON translation file format
+**JSON translation file format**
 
 Example with the translation keys`accessCertificationReview.recommendation.manuallyAuthorized`,
 `app.common.button.create.label` and `app.common.labels.whenCreated`:
@@ -30,7 +30,7 @@ The JSON file must only contain string properties: no object, array or number.
 
 The properties' name must match the wanted translation keys.
 
-Find the translation keys
+**Find the translation keys**
 
 A translation key is an identifier for a given translation: Identity Manager uses those keys to find
 the translation it needs in the interface.

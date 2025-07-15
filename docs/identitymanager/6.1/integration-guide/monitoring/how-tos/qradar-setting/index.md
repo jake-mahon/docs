@@ -45,7 +45,7 @@ Export logs to a log management system by proceeding as follows:
 
     ```
 
-        appsettings.json
+**appsettings.json**
 
         {
           ...

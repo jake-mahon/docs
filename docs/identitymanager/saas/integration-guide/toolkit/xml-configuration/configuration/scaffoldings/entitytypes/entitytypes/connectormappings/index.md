@@ -24,7 +24,7 @@ If you are using a CSV connector with files in incremental mode, you must specif
 
 ```
 
-  <ConnectorMappings Connector="Directory" EntityType="Directory_UserRecord" IsIncremental="true" Package="Usercube.Excel@0000001"/>
+**<ConnectorMappings Connector="Directory" EntityType="Directory_UserRecord" IsIncremental="true" Package="Usercube.Excel@0000001"/>**
 
 ```
 

@@ -26,7 +26,7 @@ and creates the `appsettings.encrypted.agent.json` file in the same folder.
 
 ```
 
-./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"
+**./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"**
 
 ```
 
@@ -93,7 +93,7 @@ agent during the synchronization process.
 The login to encrypt is stored in the following format, compliant with the
 [appsettings.agent.json structure](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
-appsettings.beforeEncryption.json
+**appsettings.beforeEncryption.json**
 
 ```
 

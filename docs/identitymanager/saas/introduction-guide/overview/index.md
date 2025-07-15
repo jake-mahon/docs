@@ -27,7 +27,7 @@ We could explain Identity Manager's purpose like this:
 Typically, Identity Manager manages entitlements automatically according to a user's needs, for
 example Active Directory group memberships.
 
----
+**---**
 
 **First, we need to manage identities.**
 
@@ -49,7 +49,7 @@ technology required for IGA-related data flows.
 See more details on [Identity Management](/docs/identitymanager/saas/introduction-guide/overview/identity-management/index.md) and connection between
 systems.
 
----
+**---**
 
 **Then, we need to manage entitlements, in other words access rights, or permissions.**
 
@@ -67,7 +67,7 @@ rules.
 
 ![Calculation](/img/product_docs/identitymanager/saas/introduction-guide/overview/overview_calculation.webp)
 
----
+**---**
 
 **Finally, we need to actually give identities their entitlements and then govern them.**
 

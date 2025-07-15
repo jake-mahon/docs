@@ -11,7 +11,7 @@ review of multiple errored provisioning orders for the `Directory_User` entity t
 
 ```
 
-  <BulkReviewProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
+**<BulkReviewProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>**
 
 ```
 

@@ -99,7 +99,7 @@ Thus, no matter the kind of system that you are working with, if the system uses
 conventions, then you should start by creating some. They will be the basis for role structure in
 Identity Manager, and will really simplify role creation.
 
-One system for one application
+**One system for one application**
 
 A common and intuitive case is when a system is simply one application. Then, integrators can create
 one role per entitlement in said application, and one category for the application.

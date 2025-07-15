@@ -64,7 +64,7 @@ messages can be shown if several changes meet the condition.
 
 Please create a resource "{{ResourceType}}" for user {{Username}}.
 
-For more information on the user, see: {{UsercubeProfileLink}}
+**For more information on the user, see: {{UsercubeProfileLink}}**
 
 {{#ifCond ProvisioningOrder.ChangeType '==' 'Deleted'}}
   To delete the account, please contact the IT team.

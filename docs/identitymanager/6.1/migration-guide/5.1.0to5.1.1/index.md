@@ -127,13 +127,13 @@ New Settings:
 
 #### [Optional Settings](/docs/identitymanager/6.1/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 
-All working directories are optional in 5.1.1
+**All working directories are optional in 5.1.1**
 
 ## Agent Settings
 
 #### [Optional Settings](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 
-All working directories are optional in 5.1.1
+**All working directories are optional in 5.1.1**
 
 ## [Logger Settings](/docs/identitymanager/6.1/integration-guide/monitoring/index.md)
 

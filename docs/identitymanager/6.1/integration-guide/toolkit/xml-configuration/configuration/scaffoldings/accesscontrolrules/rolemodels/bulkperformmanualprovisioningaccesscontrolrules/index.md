@@ -11,7 +11,7 @@ review of multiple manual provisioning items for the `Directory_User` entity typ
 
 ```
 
-  <BulkPerformManualProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>
+**<BulkPerformManualProvisioningAccessControlRules Profile="Administrator" EntityType="Directory_User"/>**
 
 ```
 

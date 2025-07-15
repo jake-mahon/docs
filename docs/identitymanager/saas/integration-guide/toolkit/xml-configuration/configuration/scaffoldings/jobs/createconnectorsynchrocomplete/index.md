@@ -51,7 +51,7 @@ deleted from the code.
 :::
 
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

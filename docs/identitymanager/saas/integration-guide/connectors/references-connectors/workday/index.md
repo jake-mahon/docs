@@ -134,7 +134,7 @@ Output folder:
       columns.
       [See Workday's documentation to compute XPaths](https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/v34.2/samples/Get_Workers_Response.xml).``` `<connectionIdentifier>\_<entityName>.csv`
 
-    Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N Add,value1,value2,...,valueN
+**Command,Key_XPath_1,Key_XPath_2,...,Key_XPath_N Add,value1,value2,...,valueN**
 
     ```
 

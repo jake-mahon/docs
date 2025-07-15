@@ -20,7 +20,7 @@ otherwise the information of the entity type cannot be displayed on this screen.
 
 ```
 
-  <PerformManualProvisioningAccessControlRules EntityType="Directory_User" Profile="Administrator"/>
+**<PerformManualProvisioningAccessControlRules EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

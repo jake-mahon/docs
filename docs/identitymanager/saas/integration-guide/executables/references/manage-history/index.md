@@ -17,7 +17,7 @@ which are the tables actually purged: `ur_resources`; `ur_resourcelinks`;
 
 ## Examples
 
-Purge before a period
+**Purge before a period**
 
 To clean the database periodically, it can be purged of all the history older than a given period of
 time.
@@ -31,7 +31,7 @@ script in the command line.
 ./identitymanager-Manage-History.exe --purge-before-months 12 --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
 ```
 
-Purge before a date
+**Purge before a date**
 
 The database can be purged of all history older than a given date.
 
@@ -44,7 +44,7 @@ script in the command line.
 ./identitymanager-Manage-History.exe --purge-before-date 19930526 --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
 ```
 
-Optimize
+**Optimize**
 
 The database's history can be optimized by removing intermediate versions based on their age, for
 example keeping only one version the last week, one per month the last 6 months and then one per
@@ -78,7 +78,7 @@ you can specify a short duration that allows a single change, for example only o
 following example copies the previous one, in addition we want to keep all changes of the last 6
 hours (360 minutes): `--optimize 1:360 1440:7 43920:6 525960:2`.
 
-Clean duplicates
+**Clean duplicates**
 
 As given data can have several versions in the database, redundant rows can be deleted and replaced
 with one row that covers the consolidated time range.
@@ -90,7 +90,7 @@ script in the command line.
 
 ```
 
-./identitymanager-Manage-History.exe --clean-duplicates --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"
+**./identitymanager-Manage-History.exe --clean-duplicates --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false;"**
 
 ```
 
@@ -105,7 +105,7 @@ script in the command line.
 
 ```
 
-Solicit memory rather than the database
+**Solicit memory rather than the database**
 
 To reduce the database load, the tool's optimizations can be made via the local device's memory.
 

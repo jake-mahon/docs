@@ -31,7 +31,7 @@ total, at least 8 lowercase characters, 4 uppercase characters, 2 digits and 2 s
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" GeneratedLength="12" GeneratedLowerCaseCharsCount="8" GeneratedUpperCaseCharsCount="4" GeneratedDigitCharsCount="2" GeneratedSymbolCharsCount="2"/>
+**<PasswordResetSettings AutoGenerate="true" GeneratedLength="12" GeneratedLowerCaseCharsCount="8" GeneratedUpperCaseCharsCount="4" GeneratedDigitCharsCount="2" GeneratedSymbolCharsCount="2"/>**
 
 ```
 
@@ -43,7 +43,7 @@ total, at least 8 lowercase characters, 4 uppercase characters, 2 digits and 2 s
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" GeneratedLength="8" GeneratedLowerCaseCharsCount="1" GeneratedUpperCaseCharsCount="1" GeneratedDigitCharsCount="1" GeneratedSymbolCharsCount="1"/>
+**<PasswordResetSettings AutoGenerate="true" GeneratedLength="8" GeneratedLowerCaseCharsCount="1" GeneratedUpperCaseCharsCount="1" GeneratedDigitCharsCount="1" GeneratedSymbolCharsCount="1"/>**
 
 ```
 
@@ -58,7 +58,7 @@ character.
 
 ```
 
-<PasswordResetSettings AutoGenerate="true" StrengthCheck="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>
+**<PasswordResetSettings AutoGenerate="true" StrengthCheck="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>**
 
 ```
 

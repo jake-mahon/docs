@@ -64,7 +64,7 @@ connectors too before importing configuration.
 
 ```
 
-    <Job DisplayName_L1="HR - Synchronization" Identifier="HR_Synchronization" Connector="HR" OpenIdClient="Job" JobType="Synchronization"/>
+**<Job DisplayName_L1="HR - Synchronization" Identifier="HR_Synchronization" Connector="HR" OpenIdClient="Job" JobType="Synchronization"/>**
 
 ```
 

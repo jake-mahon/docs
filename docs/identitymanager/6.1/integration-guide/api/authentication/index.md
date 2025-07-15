@@ -17,11 +17,11 @@ configuration element.
 The `client_id` parameter to use in calls to the OpenIdConnect protocol endpoints must be the
 concatenation of `clientId`, `@` and the domain of the application.
 
-For example, client defined by
+**For example, client defined by**
 
 ```
 
-<OpenIdClient Identifier="MyApplication" .../>
+**<OpenIdClient Identifier="MyApplication" .../>**
 
 ```
 

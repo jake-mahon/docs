@@ -175,14 +175,14 @@ C#:resource:logger.LogDebug("Name={0}", resource.Name); return resource.Name;
 
 The following .NET libraries from the white list can be used.
 
-Authorized Namespaces
+**Authorized Namespaces**
 
 Every class and function from the following namespaces is allowed:
 
 - `System.Linq`
 - `System.Text.RegularExpressions`
 
-Authorized Classes
+**Authorized Classes**
 
 Beyond the authorized namespaces, the following classes can be used:
 
@@ -200,7 +200,7 @@ Beyond the authorized namespaces, the following classes can be used:
 - `System.Int32`
 - `System.Random`
 
-Authorized Methods
+**Authorized Methods**
 
 Beyond the authorized classes, the following methods can be used:
 
@@ -307,7 +307,7 @@ Literal expressions are not available for QueryRuleTargetExpression attribute, o
 SourceExpression. Literal expressions are not available for rules targeting a DateTime or Binary
 property.
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

@@ -10,7 +10,7 @@ sidebar_position: 70
 
 ```
 
-  <WorkflowEntityTypeDisplayEntityType EntityType="Directory_Country"/>
+**<WorkflowEntityTypeDisplayEntityType EntityType="Directory_Country"/>**
 
 ```
 
@@ -26,6 +26,6 @@ Our example generates the following configuration:
 
 ```
 
-<DisplayEntityType Identifier="Workflow_Directory_Country" />
+**<DisplayEntityType Identifier="Workflow_Directory_Country" />**
 
 ```

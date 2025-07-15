@@ -12,7 +12,7 @@ Generates the rights to read task and job instances logs in UI for a given profi
 
 ```
 
-  <RunJobRepairAdministrationAccessControlRules Profile="Administrator"/>
+**<RunJobRepairAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

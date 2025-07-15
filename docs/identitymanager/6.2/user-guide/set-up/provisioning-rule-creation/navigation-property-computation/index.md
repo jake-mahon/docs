@@ -112,7 +112,7 @@ existing resources.
 
 Follow these guidelines when configuring navigation properties.
 
-Expression code must not contain too much data
+**Expression code must not contain too much data**
 
 Once configured, a rule is a complicated object to modify. Therefore, you must keep business data in
 the resource and out of the expression. It is easier to change data than to change a rule.
@@ -130,7 +130,7 @@ the resource and out of the expression. It is easier to change data than to chan
 > expression remains simple by using the new objects, for example
 > `Email = FirstName + "." + LastName + "@" + Company + "." + DomainName`.
 
-Priority between navigation/query rules
+**Priority between navigation/query rules**
 
 When creating navigation and query priorities, follow these rules:
 

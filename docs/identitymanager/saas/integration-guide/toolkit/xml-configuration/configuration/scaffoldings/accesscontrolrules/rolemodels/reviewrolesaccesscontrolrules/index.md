@@ -16,7 +16,7 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ```
 
-  <ReviewRolesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>
+**<ReviewRolesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

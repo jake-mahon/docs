@@ -10,7 +10,7 @@ sidebar_position: 20
 
 ```
 
-  <RoleAndSimulationControlRules Profile="Administrator"/>
+**<RoleAndSimulationControlRules Profile="Administrator"/>**
 
 ```
 

@@ -105,7 +105,7 @@ The target path for these files can be set up using the following settings:
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "SharePointExportContoso": { "Server": "https://contoso.sharepoint.com/",
 "Login": "usercube.service@contoso.com", "Password": "19f23f48379d50a9a50b8c" } } }
@@ -264,7 +264,7 @@ and the following attributes:
 
                     ```
 
-                        Conf/SharePoint/SharePoint Connector.xml
+**Conf/SharePoint/SharePoint Connector.xml**
 
 ... <EntityType Identifier="SharePoint_Entity" DisplayName_L1="SharePoint_Entity"></EntityType>...
 
@@ -306,7 +306,7 @@ elements.
 
                     ```
 
-                        Conf/SharePoint/SharePoint Connector.xml
+**Conf/SharePoint/SharePoint Connector.xml**
 
 ...
 <EntityAssociation Identifier="SharePoint_Object_Parent" DisplayName_L1="Parent object" IsProperty1Collection="true" Property1="SharePoint_Object:Objects" Property2="SharePoint_Object:ParentKey" />
@@ -354,7 +354,7 @@ EntityType property which is written to the **Identifier** attribute.
 
                     ```
 
-                        Conf/SharePoint/SharePoint Connector.xml
+**Conf/SharePoint/SharePoint Connector.xml**
 
 ...
 <EntityTypeMapping Identifier="SharePoint_Entity" Connector="SharePoint" ConnectionTable="SharePointExportContoso_Entity">
@@ -427,7 +427,7 @@ items. This is usually declared in the `Nav.xml` file in the configuration root 
 
                     ```
 
-                        Conf/Nav.xml
+**Conf/Nav.xml**
 
 ...
 
@@ -468,7 +468,7 @@ describes how a single resource should be displayed.
 
                     ```
 
-                        Conf/SharePoint/SharePoint UI.xml
+**Conf/SharePoint/SharePoint UI.xml**
 
 ... <DisplayEntityType Identifier="SharePoint_Entity">
 <Property OutputType="BasicCollection" Identifier="Member" />
@@ -518,7 +518,7 @@ of the entity type is used.
 
                     ```
 
-                        Conf/SharePoint/SharePoint Connector.xml
+**Conf/SharePoint/SharePoint Connector.xml**
 
 ...
 <EntityPropertyExpression Identifier="SharePointObject_Entity_InternalDisplayName" Expression="C#:resource:return resource.Name ?? resource.Email ?? resource.Id.ToString();" EntityType="SharePoint_Entity" Property="InternalDisplayName" />
@@ -571,7 +571,7 @@ other related operations.
 
                     ```
 
-                        Conf/SharePoint/SharePoint Jobs.xml
+**Conf/SharePoint/SharePoint Jobs.xml**
 
 ...
 <Job Identifier="SharePoint_Synchronization_Delta" DisplayName_L1="10: SharePoint- Synchronization (delta)" DisplayName_L2="10: SharePoint - Synchronisation (delta)" Agent="Local">
@@ -629,7 +629,7 @@ Here, we focus on creating one profile, used by the Job and every Task of the Jo
 
                     ```
 
-                        Conf/Profile AgentJob.xml
+**Conf/Profile AgentJob.xml**
 
 ... <Profile Identifier="AgentSynchro" DisplayName_L1="Agent Synchro" />...
 
@@ -721,7 +721,7 @@ The following example creates a ```ClientId/Secret``` pair to be used by the Age
 
                     ```
 
-                        Conf/OpenIdClients.xml
+**Conf/OpenIdClients.xml**
 
 ...
 <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+Op8wNhqoVWhr5v6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" DisplayName_L2="ClientId pour les jobs" Profile="Administrator" />

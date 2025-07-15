@@ -53,7 +53,7 @@ information.
 
 In the following section you will read about how to assign a profile to an account.
 
-Manual assignment
+**Manual assignment**
 
 Assign manually a profile to a user by proceeding as follows:
 
@@ -89,7 +89,7 @@ topic for additional information.
 :::
 
 
-Automatic assignment
+**Automatic assignment**
 
 The largest profiles with the most basic permissions (like a simple access to the application)
 concern many identities and are low-privileged. Thus integrators can set up profile assignment rules

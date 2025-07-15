@@ -23,7 +23,7 @@ DashBoard shortcut:
 
 ```
 
-  <WorkflowAccessControlRules Profile="Administrator" EntityType="Workflow_Directory_User"/>
+**<WorkflowAccessControlRules Profile="Administrator" EntityType="Workflow_Directory_User"/>**
 
 ```
 

@@ -16,7 +16,7 @@ task insert a new line in this table:
 
 ```
 
-<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" AllEntityType="true" />
+**<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" AllEntityType="true" />**
 
 ```
 

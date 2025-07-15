@@ -37,7 +37,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <ConnectorsAccessControlRules Profile="Administrator"/>
+**<ConnectorsAccessControlRules Profile="Administrator"/>**
 
 ```
 

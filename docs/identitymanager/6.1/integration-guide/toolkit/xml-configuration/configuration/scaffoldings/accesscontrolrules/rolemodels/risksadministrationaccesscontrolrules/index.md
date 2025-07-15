@@ -10,7 +10,7 @@ sidebar_position: 130
 
 ```
 
-  <RisksAdministrationAccessControlRules Profile="Administrator"/>
+**<RisksAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

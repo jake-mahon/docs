@@ -56,7 +56,7 @@ The implementation of the Salesforce connector requires the completion of the fo
 - Reset the user token
 - Configure the Salesforce connection
 
-Connect the application
+**Connect the application**
 
 To connect to the Salesforce application do the following:
 
@@ -90,7 +90,7 @@ Scopes.
 
 **Step 8 –** Copy the Consumer Key and Consumer Secret in your Keypass.
 
-Enable OAuth authentication
+**Enable OAuth authentication**
 
 To enable the OAuth authentication do the following:
 
@@ -105,7 +105,7 @@ To enable the OAuth authentication do the following:
 **Step 3 –** Go to **OAuth** and **OpenID Connect Settings** in the **Identity** drop-down menu,
 enable the option to **Allow OAuth Username-Password Flows**.
 
-Reset the user token
+**Reset the user token**
 
 To reset the user token do the following:
 
@@ -123,7 +123,7 @@ To reset the user token do the following:
 
 **Step 4 –** An email containing the new token will be sent.
 
-Configure the Salesforce connection
+**Configure the Salesforce connection**
 
 To configure the Salesforce connection do the following:
 

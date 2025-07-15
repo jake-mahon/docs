@@ -126,7 +126,7 @@ This information can be set one of two ways:
     are specified too.  
      In both ways, missing and/or incorrect settings trigger an error and no certificate is loaded.
 
-As a PFX file
+**As a PFX file**
 
 For example:
 
@@ -166,7 +166,7 @@ The archive is set using the following attributes:
 | File (required)     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                                                                                                                                              |
 | Password (optional) | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. storing a .pfx file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe tool. See the [Usercube-Protect-CertificatePassword](/docs/identitymanager/6.1/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information. |
 
-As a Certificate in the Windows Store
+**As a Certificate in the Windows Store**
 
 For example:
 
@@ -194,7 +194,7 @@ The Windows certificate is set using these attributes:
 | StoreLocation (required)     | String | Location of the relevant Windows certificate store: LocalMachine or CurrentUser.                    |
 | StoreName (required)         | String | Name of the relevant Windows certificate store.                                                     |
 
-Using Azure Key Vault
+**Using Azure Key Vault**
 
 If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the
 Vault connection. See the
@@ -215,7 +215,7 @@ script in the command line.
 
 Just like the Encryption Certificate, this information can be set one of two ways.
 
-As a PFX file
+**As a PFX file**
 
 For example:
 
@@ -247,7 +247,7 @@ topic for additional information.
 :::
 
 
-As a Certificate in the Windows Store
+**As a Certificate in the Windows Store**
 
 For example:
 

@@ -28,7 +28,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <ViewTargetResourceTemplate EntityType="SAB_User Profile="Administrator"/>
+**<ViewTargetResourceTemplate EntityType="SAB_User Profile="Administrator"/>**
 
 ```
 

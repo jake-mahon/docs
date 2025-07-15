@@ -13,7 +13,7 @@ profile.
 
 ```
 
-  <SynchronizationAccessControlRules Profile="Administrator"/>
+**<SynchronizationAccessControlRules Profile="Administrator"/>**
 
 ```
 

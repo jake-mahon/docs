@@ -13,7 +13,7 @@ modified incrementally
 
 ```
 
-  <CreateResourceIncrementalAccessControlRules Profile="Administrator"/>
+**<CreateResourceIncrementalAccessControlRules Profile="Administrator"/>**
 
 ```
 

@@ -16,7 +16,7 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ```
 
-  <WorkflowOverviewControlRules Profile="Administrator" EntityType="Directory_User"/>
+**<WorkflowOverviewControlRules Profile="Administrator" EntityType="Directory_User"/>**
 
 ```
 

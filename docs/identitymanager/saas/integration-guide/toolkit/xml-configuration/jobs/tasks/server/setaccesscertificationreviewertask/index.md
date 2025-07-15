@@ -12,7 +12,7 @@ Assign access certification items to users according to their profiles and the a
 
 ```
 
-  <SetAccessCertificationReviewerTask Identifier="SetAccessCertificationReviewer" DisplayName_L1="Assign access certification items"/>
+**<SetAccessCertificationReviewerTask Identifier="SetAccessCertificationReviewer" DisplayName_L1="Assign access certification items"/>**
 
 ```
 

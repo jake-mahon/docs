@@ -30,7 +30,7 @@ job instances, task instances and logs:
 
 ```
 
-<JobExecutionAccessControlRules Profile="Administrator"/>
+**<JobExecutionAccessControlRules Profile="Administrator"/>**
 
 ```
 

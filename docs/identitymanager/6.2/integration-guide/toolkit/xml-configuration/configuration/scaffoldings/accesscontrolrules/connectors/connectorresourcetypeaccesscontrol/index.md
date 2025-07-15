@@ -13,7 +13,7 @@ resource types, and launch generate provisioning orders and fulfillment from the
 
 ```
 
-  <ConnectorResourceTypeAccessControl Profile="Administrator"/>
+**<ConnectorResourceTypeAccessControl Profile="Administrator"/>**
 
 ```
 

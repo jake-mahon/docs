@@ -18,7 +18,7 @@ To know the task launch orders in job use the following exe: Usercube-Get-Job St
 
 ```
 
-.\Usercube-Invoke-ServerJob.exe -g "CleanDatabase" -s secret
+**.\Usercube-Invoke-ServerJob.exe -g "CleanDatabase" -s secret**
 
 ```
 

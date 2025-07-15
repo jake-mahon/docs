@@ -23,7 +23,7 @@ elements.
 
 ```
 
-  <Language Code="en-US" IndicatorNumber="1" />  <Language Code="fr-FR" IndicatorNumber="2" />
+**<Language Code="en-US" IndicatorNumber="1" />  <Language Code="fr-FR" IndicatorNumber="2" />**
 
 ```
 

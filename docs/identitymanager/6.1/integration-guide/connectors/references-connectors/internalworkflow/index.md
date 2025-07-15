@@ -99,7 +99,7 @@ The configuration setting must have the following attributes:
 | ------------------------- | ------ | ------------------------------------------------------- |
 | WorkflowJsonPath required | String | Path of the JSON file used to configure this connector. |
 
-WorkflowJsonPath
+**WorkflowJsonPath**
 
 The file specified in WorkflowJsonPath must have a specific structure.
 
@@ -164,7 +164,7 @@ properties must be present in the provisioning order and in this JSON file.
 :::
 
 
-Setting attributes
+**Setting attributes**
 
 The table below summarizes the setting attributes.
 
@@ -199,11 +199,11 @@ Internal Workflow.
 
 See the following to figure out authentication.
 
-Password reset
+**Password reset**
 
 This connector does not reset passwords.
 
-Credential protection
+**Credential protection**
 
 This connector has no credential attributes, and therefore does not use RSA encryption, nor a
 CyberArk Vault. See the

@@ -40,7 +40,7 @@ Integrators must have the knowledge of who must be able to access what within Id
 
 In the following section you will read about how to assign a profile to an account.
 
-Manual assignment
+**Manual assignment**
 
 Assign manually a profile to a user by proceeding as follows:
 
@@ -70,7 +70,7 @@ The filters are defined in the XML configuration on the access control rules. Th
 :::
 
 
-Automatic assignment
+**Automatic assignment**
 
 The largest profiles with the most basic permissions (like a simple access to the application) concern many identities and are low-privileged. Thus integrators can set up profile assignment rules through the XML configuration in order to assign profiles automatically, based on accounts' resource type and potentially specific criteria. See the [Profile Rule Context](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md) topic for additional information.
 

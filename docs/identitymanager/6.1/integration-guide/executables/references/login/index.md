@@ -19,7 +19,7 @@ IDP that will provide you with the authentication token.
 
 ```
 
-./identitymanager-Login.exe
+**./identitymanager-Login.exe**
 
 ```
 
@@ -30,7 +30,7 @@ redirected to the IDP that will provide you with the authentication token.
 
 ```
 
-./identitymanager-Login.exe --authority https://my_oidc_authentication_server.com --client-id 34b3c-fb45da-3ed32
+**./identitymanager-Login.exe --authority https://my_oidc_authentication_server.com --client-id 34b3c-fb45da-3ed32**
 
 ```
 
@@ -40,7 +40,7 @@ redirected to Usercube's IDP. that will provide you with the authentication toke
 
 ```
 
-./identitymanager-Login.exe --port 5050
+**./identitymanager-Login.exe --port 5050**
 
 ```
 

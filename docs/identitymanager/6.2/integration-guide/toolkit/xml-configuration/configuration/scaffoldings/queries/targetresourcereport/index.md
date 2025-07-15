@@ -14,7 +14,7 @@ The entity must have a displayTable to be able to use this scaffolding.
 
 ```
 
-  <TargetResourceReport EntityType="LDAP_Entry"/>
+**<TargetResourceReport EntityType="LDAP_Entry"/>**
 
 ```
 

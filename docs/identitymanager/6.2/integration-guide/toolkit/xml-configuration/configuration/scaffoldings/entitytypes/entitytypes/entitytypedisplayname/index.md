@@ -15,7 +15,7 @@ no display name is defined.
 
 ```
 
-<EntityTypeDisplayName EntityType="Directory_Country"/>
+**<EntityTypeDisplayName EntityType="Directory_Country"/>**
 
 ```
 
@@ -26,7 +26,7 @@ in `Directory_Country`, when no display name is defined.
 
 ```
 
-<EntityTypeDisplayName EntityType="Directory_Country" Property="DisplayName"/>
+**<EntityTypeDisplayName EntityType="Directory_Country" Property="DisplayName"/>**
 
 ```
 

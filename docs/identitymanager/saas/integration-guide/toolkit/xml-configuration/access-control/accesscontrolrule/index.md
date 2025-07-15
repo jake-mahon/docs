@@ -87,7 +87,7 @@ This condition is actually a comparison expression between two elements:
 
 ### Examples
 
-Filter on a constant value
+**Filter on a constant value**
 
 The following example gives to the `Administrator` profile certain permissions on user data, but
 only concerning users working in the marketing department.
@@ -107,7 +107,7 @@ script in the command line.
 Technically speaking, the filter here says that the rule's permissions apply only on users from
 `Directory_User` whose `Code` of `MainOrganization` is `Marketing`.
 
-Filter on the account of the current user
+**Filter on the account of the current user**
 
 The following example gives to the `Manager` profile certain permissions on user data, but only
 concerning users from the team managed by the current user.
@@ -176,7 +176,7 @@ Technically speaking, the filter here says that the rule's permissions apply onl
 single roles whose `Id` of the `Category` of the `SingleRole` is the same identifier as the value
 set for the `Category` property of the current user, in at least one of their assigned profiles.
 
-Multiple filters
+**Multiple filters**
 
 The following example gives to the `RoleOfficerByCategory` profile the permission to review the
 roles of users from `Directory_User`, but only the roles of a category assigned to the current user,

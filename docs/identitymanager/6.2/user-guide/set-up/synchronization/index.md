@@ -65,7 +65,7 @@ must have defined keys during Entity Type creation. See the
 [Create an Entity Type](/docs/identitymanager/6.2/user-guide/set-up/connect-system/entity-type-creation/index.md) topic for additional
 information.
 
-Extractions must not be modified before synchronization
+**Extractions must not be modified before synchronization**
 
 Extractions must not be modified manually, for it may induce synchronization issues.
 
@@ -74,7 +74,7 @@ Extractions must not be modified manually, for it may induce synchronization iss
 Also, synchronization must not be disturbed by a change in the source format, such as the deletion
 of a column in the middle of the file.
 
-Thresholds must never be deactivated
+**Thresholds must never be deactivated**
 
 Thresholds are essential safety guards that control all changes, for example preventing the
 overwriting of important data by mistake. Thresholds are by default activated to warn users when

@@ -14,7 +14,7 @@ An activity Instance can have at most 20 actors.
 
 ```
 
-<ActivityInstanceActorTask Agent="Local" OpenIdClient="Job" DisplayName_L1="Update Actors for workflows instances"/>
+**<ActivityInstanceActorTask Agent="Local" OpenIdClient="Job" DisplayName_L1="Update Actors for workflows instances"/>**
 
 ```
 

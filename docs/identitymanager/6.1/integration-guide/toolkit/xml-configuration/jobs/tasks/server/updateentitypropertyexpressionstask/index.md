@@ -13,7 +13,7 @@ in the database.
 
 ```
 
-<UpdateEntityPropertyExpressionsTask Identifier="ComputeAllProperties" DisplayName_L1="Compute All Properties " AllEntityType="true"/>
+**<UpdateEntityPropertyExpressionsTask Identifier="ComputeAllProperties" DisplayName_L1="Compute All Properties " AllEntityType="true"/>**
 
 ```
 

@@ -18,7 +18,7 @@ script in the command line.
 
 ```
 
-  <CreateAgentSynchroComplete DisplayName_L1="94: Complete Job" JobIdentifier="Job_Daily"/>
+**<CreateAgentSynchroComplete DisplayName_L1="94: Complete Job" JobIdentifier="Job_Daily"/>**
 
 ```
 

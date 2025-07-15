@@ -68,7 +68,7 @@ If a property doesn’t exist in the source system, you can still create it usin
 property**.  
 This is useful for storing internal-use data that the connected system can’t read or write.
 
----
+**---**
 
 ## Define the Entity Type's Navigation Properties
 
@@ -126,7 +126,7 @@ Define navigation properties by following these steps:
 > `Entries`, `assistant`, `assistantOf`, `manager`, `directReports`, `memberOf`, `member`,
 > `parentdn`, `children`
 
-> ![AD Entity Type - Navigation Properties](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)
+**> ![AD Entity Type - Navigation Properties](/img/product_docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_examplead3_v603.webp)**
 
 5. Click the gear icon to access advanced settings:
 
@@ -149,7 +149,7 @@ Define navigation properties by following these steps:
 
 Clicking **Continue** closes the window but **does not save** the configuration.
 
----
+**---**
 
 ## Reload
 
@@ -161,7 +161,7 @@ It’s not necessary after every step—but is **required after the final step**
 The **Reload** button ensures updates appear in the menu links on the UI home page.  
 You’ll find it either in the banner or on the connector dashboard.
 
----
+**---**
 
 ## Next Steps
 

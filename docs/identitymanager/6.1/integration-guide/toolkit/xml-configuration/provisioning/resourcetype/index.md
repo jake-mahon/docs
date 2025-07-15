@@ -347,7 +347,7 @@ topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example declares a new rule to give the SG_APP_SharePoint_HR_Owner group to all users
 who had the SharePoint_HR_Owner role.
@@ -372,7 +372,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Parametrized roles
+**Parametrized roles**
 
 The role catalog can be optimized by reducing the number of roles, by configuring parametrized
 roles. See the
@@ -434,7 +434,7 @@ topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example declares a new rule to compute the parent distinguished name for guest users.
 Here we do not use source properties, but a literal expression for all guest users.
@@ -477,7 +477,7 @@ topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example shows two scalar rules. The first one computes users' emails based on AD
 values. The other one contains a C# expression to compute AccountExpires.
@@ -504,7 +504,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Computation via a literal expression
+**Computation via a literal expression**
 
 The following example translates to "the userAccountControl property of a App1_Account of resource
 type App1_Standard_Account must be equal to 66048. It uses a literal expression. See the
@@ -520,7 +520,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Binding
+**Binding**
 
 The Binding attribute complies with the binding expression syntax or the calculation expression
 syntax. So, it can use the C# language to specify a more complex binding. See the
@@ -535,7 +535,7 @@ script in the command line.
 <ScalarRule Property="email" Binding="C#:user:user.firstName+"."+user.lastName+"@acme.com"" />
 ```
 
-IsMapped
+**IsMapped**
 
 Consider a system that we want to connect to Usercube , let's call it SYST, using a title property.
 Consider also that SYST needs to be provisioned with the value of title, but does not allow any
@@ -557,7 +557,7 @@ script in the command line.
 <ScalarRule Property="title" Binding="PersonalTitle" IsMapped="false" />
 ```
 
-TimeOffset
+**TimeOffset**
 
 A scalar rule is applied according to reference start and end dates (configured through record
 sections and context rules), usually users' arrival and departure days. It means that, for a user
@@ -631,7 +631,7 @@ of all rules, i.e. the combination of all rules (and all sets of criteria) with 
 
 ### Examples
 
-With a dimension criterion
+**With a dimension criterion**
 
 The following rule will assign an App1_Standard_Account resource (resource of type App1_Account) to
 any User whose organization dimension (dimension binded to column 0) identifier is Marketing.
@@ -646,7 +646,7 @@ script in the command line.
 </ResourceType>
 ```
 
-With a single role criterion
+**With a single role criterion**
 
 In addition to dimensions, a single role can be used as a criterion for a rule.
 
@@ -663,7 +663,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Without any criterion
+**Without any criterion**
 
 Di and SingleRole conditions are not mandatory. A type rule with no condition entails the creation
 of an AssignedResourceType, and hence of a target resource (from the target entity type), for every

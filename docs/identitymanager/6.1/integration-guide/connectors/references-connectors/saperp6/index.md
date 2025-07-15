@@ -89,7 +89,7 @@ ABA.SAPSR3.USR11 to usercube grant select on ABA.SAPSR3.AGR_AGRS to usercube gra
 ABA.SAPSR3.USGRP to usercube grant select on ABA.SAPSR3.UST04 to usercube grant select on
 ABA.SAPSR3.AGR_TCODES to user grant select on ABA.SAPSR3.T002 to usercube Go
 
-Set up the prerequisites for reading
+**Set up the prerequisites for reading**
 
 To set up the prerequisites for reading follow the steps below.
 
@@ -105,7 +105,7 @@ variables.
 **Step 3 –** Create environment variables: `HDBADOTNET=C:\hdbclient\ado.net` and
 `HDBADOTNETCORE=C:\hdbclient\dotnetcore`.
 
-Set up the prerequisites for writing
+**Set up the prerequisites for writing**
 
 :::note
 Make sure the Read prerequisites are configured first.

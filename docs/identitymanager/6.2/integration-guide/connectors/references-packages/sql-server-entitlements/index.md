@@ -6,7 +6,7 @@ sidebar_position: 360
 
 # SQL Server Entitlements
 
-Exports SQL Server Entitlements
+**Exports SQL Server Entitlements**
 
 | Package Characteristics | Value                                      |
 | ----------------------- | ------------------------------------------ |

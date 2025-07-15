@@ -16,7 +16,7 @@ methods and External methods.
 It is highly recommended that you use an External method. Internal methods are mostly used for
 debug, test and development purposes.
 
-Internal methods
+**Internal methods**
 
 The Internal methods use Identity Manager Server's internal authentication server. They rely on one
 of these Identity Server User Stores:
@@ -24,7 +24,7 @@ of these Identity Server User Stores:
 - Test User Store, used in development environments.
 - Active Directory User Store, using an Active Directory to authenticate.
 
-External methods
+**External methods**
 
 External methods use external authentication providers.
 
@@ -39,7 +39,7 @@ The types of authentication providers supported by Identity Manager are:
 - [SAML2](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html)
 - [Integrated Windows Authentication (IWA)](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication)
 
-Using more than one provider
+**Using more than one provider**
 
 For each authentication method, one or several authentication providers can be set up. If several
 authentication providers are set up, end-users will be prompted to choose their preferred method of
@@ -78,7 +78,7 @@ The archive is set using the following attributes on the appsettings > IdentityS
 - X509KeyFilePassword (optional) is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive
   password.
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -103,7 +103,7 @@ appsettings > IdentityServer section:
 | X509StoreLocation required                                         | Sets the Relevant Windows certificate store's location: `LocalMachine` or `CurrentUser`. |
 | X509StoreName required                                             | Sets the relevant Windows certificate store's name.                                      |
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -308,11 +308,11 @@ Integrated Windows Authentication is configured using the following sections:
 One or several OpenID Connect authentication providers can be set up under the Authentication >
 OpenId section.
 
-Multiple providers
+**Multiple providers**
 
 One or several OpenID Connect authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using an OpenID Connect authentication requires the Identity Manager Server to be registered to the
 provider. A ClientID and a ClientSecret are issued as a result of the registration process. They
@@ -321,7 +321,7 @@ both allow Identity Manager to identify itself to the authentication provider.
 of how to register Identity Manager to an Microsoft Entra ID (formerly Microsoft Azure AD) used as
 OpenID Connect provider.
 
-Callback URL
+**Callback URL**
 
 The target OpenID Connect provider needs to be aware of the URI where to send the authentication
 token if the authentication succeeds. Depending on the provider, it is called a callback URL, a
@@ -333,12 +333,12 @@ Identity Manager's callback URL for OpenID Connect is `<usercube-server-address>
 `<usercube-server-address>` is the address of your Identity Manager Server such as
 `https://identitymanager.contoso.com`.
 
-Authority
+**Authority**
 
 An OpenID Connect provider is identified by its Authority, according to the
 [OpenID ](https://openid.net/connect/)Connect specifications.
 
-NameClaimType
+**NameClaimType**
 
 To authorize an end-user, Identity Manager Server retrieves a specific claim (a key-value pair,
 transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource
@@ -419,7 +419,7 @@ Under the new subsection, the following parameters are used to configure the aut
 | ResponseMode optional                    | String  | Response mode for OpenIdConnect. - Query - FormPost - Fragment [See OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html).                                                                                                                                                                                                                                                                                                                                                                   |
 | ResponseType optional                    | String  | Response type for OpenIdConnect. - Code - CodeIdToken - CodeIdTokenToken - CodeToken - IdToken - IdTokenToken - None - Token See examples in the [OpenId documentation.](https://openid.net/specs/openid-connect-core-1_0.html#openid-documentation)                                                                                                                                                                                                                                                                |
 
-Example
+**Example**
 
 This example configures an OpenId Connect authority located at
 [https://login.microsoftonline.com/bbd35166-7c13-49f3-8041-9551f2847b69](https://login.microsoftonline.com/bbd35166-7c13-49f3-8041-9551f2847b69).
@@ -462,11 +462,11 @@ script in the command line.
 One or several OAuth authentication providers can be set up under the authentication > OAuth
 section.
 
-Multiple providers
+**Multiple providers**
 
 One or several OAuth authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using an OAuth authentication requires Identity Manager Server to be registered to the provider. A
 ClientID and a ClientSecret are issued as a result of the registration process. They both allow
@@ -513,7 +513,7 @@ Each section is configured with the following settings:
 | SaveTokens default value: false | Boolean | Only for Okta providers. Set to `true if authentication uses an Okta provider. See the [Configure Okta](/docs/identitymanager/6.2/integration-guide/network-configuration/configure-okta/index.md)topic for additional information.                                                                                                                                                                                                                              |
 | Scope optional                  | String  | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes).                                                                                                                                                                                                                                                                                                      |
 
-Example
+**Example**
 
 The following example configures an OAuth-based authentication provider identified as
 OAuthContoso_Washington in the configuration file.
@@ -560,11 +560,11 @@ One or several WS-Federation authentication providers can be set up under the au
 WsFederation subsection. Examples of WS-Federation providers include Active Directory Federation
 Services (ADFS) and Microsoft Entra ID (AAD).
 
-Multiple providers
+**Multiple providers**
 
 One or several WS-Federation authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using a WS-Federation authentication requires Identity ManagerServer to be registered to the
 provider. A Wtrealm value is set up during the registration process. The value can be generated by
@@ -578,7 +578,7 @@ itself to the authentication provider. Here are two examples of registration pro
   [Microsoft Entra ID](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-5.0#microsoft-entra-id)
   provider
 
-Callback URL
+**Callback URL**
 
 The target WS-Federation provider needs to be aware of the URI where to send the authentication
 token if the authentication succeeds. Depending on the provider, it is called a callback URL, a
@@ -590,7 +590,7 @@ Identity Manager's callback URL for WS-Federation is
 `<Identity Manager-server-address>`/signin-wsfed where `<usercube-server-address>` is the address of
 your Identity Manager Server such as https://identitymanager.contoso.com.
 
-Encryption algorithm
+**Encryption algorithm**
 
 The nature of the encryption algorithm used for exchanging the sign-in key with the provider is
 automatically negotiated between Identity Manager Server and the authentication server. The most
@@ -617,7 +617,7 @@ Each section is configured with the following settings:
 | DisplayName optional          | Is the provider display name. Chosen by the user, it is used in the UI to identify the authentication method.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | AuthenticationScheme required | Is the unique identifier of this authentication method within Identity Manager. Any string value can be used, unique among all authentication methods.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-Example
+**Example**
 
 This example configures a WS-Federation-based authentication provider identified as
 WsFederationContoso_LA in the configuration file.
@@ -655,11 +655,11 @@ section.
 
 Identity Manager does not provide a signature for SAML2 authentication.
 
-Multiple providers
+**Multiple providers**
 
 One or several **SAML2** authentication providers can be set up.
 
-Registration process
+**Registration process**
 
 Using a **SAML2** authentication requires Identity Manager Server to be registered to the provider.
 An **Entity ID URI** value is set up for Identity Manager during the registration process. It is
@@ -667,7 +667,7 @@ used as the prefix for scopes and as the value of the audience claim in access t
 be generated by the provider, or set manually as a URL-shaped string value. This allows Identity
 Manager to identify itself to the authentication provider.
 
-Reply URL
+**Reply URL**
 
 The target **SAML2** provider needs to be aware of the URI where to send the authentication token if
 the authentication succeeds. This URI is called **Reply URL** or **Assertion Consumer Service (ACS)
@@ -681,7 +681,7 @@ https://identitymanager.contoso.com.
 
 Make sure to enter this exact URL which is treated case sensitively.
 
-Configuration
+**Configuration**
 
 First, the SAML2 method must be enabled under the authentication > SAML2 section.
 
@@ -1023,7 +1023,7 @@ The following parameters are available under the authentication > TestUserStore 
 | Enabled required  | Boolean | Enables or disables the OpenId Connection.                      |
 | Password required | String  | Is the password for all users to authenticate Identity Manager. |
 
-Example
+**Example**
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.

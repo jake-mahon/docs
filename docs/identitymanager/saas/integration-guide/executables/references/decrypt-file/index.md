@@ -19,7 +19,7 @@ using the agent side certificate defined in the agent's `appsettings.json`.
 
 ```
 
-$decryptFile = & ./identitymanager-Decrypt-File.exe --files $ordersFile
+**$decryptFile = & ./identitymanager-Decrypt-File.exe --files $ordersFile**
 
 ```
 

@@ -36,11 +36,11 @@ The following example sets:
 
 The following example disables the counters that are usually visible on the dashboard:
 
-> ![AppDisplay - Without Counters](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)
+**> ![AppDisplay - Without Counters](/img/product_docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/metadata/settings/appdisplaysetting/appdisplaysetting_counters_v603.webp)**
 
 ```
 
-<AppDisplaySetting DisableProvisioningCounters="true" />
+**<AppDisplaySetting DisableProvisioningCounters="true" />**
 
 ```
 

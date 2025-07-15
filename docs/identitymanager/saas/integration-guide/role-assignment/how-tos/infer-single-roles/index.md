@@ -28,7 +28,7 @@ A CompositeRole is created in the same way as a SingleRole.
 
 ```
 
-    <CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="Developpeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />
+**<CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="Developpeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />**
 
 ```
 
@@ -41,7 +41,7 @@ The CompositeRoleRule can be limited with the use of dimensions.
 
 ```
 
-    <CompositeRoleRule Role="FCT0720" D1="FCT0720" Policy="Default" />
+**<CompositeRoleRule Role="FCT0720" D1="FCT0720" Policy="Default" />**
 
 ```
 

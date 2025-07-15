@@ -16,7 +16,7 @@ string, for all entity types.
 
 ```
 
-./identitymanager-Update-EntityPropertyExpressions.exe --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false" -a
+**./identitymanager-Update-EntityPropertyExpressions.exe --database-connection-string "data source=.;Database=Usercube;Integrated Security=SSPI;Min Pool Size=10;encrypt=false" -a**
 
 ```
 

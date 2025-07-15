@@ -13,7 +13,7 @@ latest version.
 
 ```
 
-./identitymanager-Upgrade-ConfigurationVersion.exe --version "5.1.0" --xml-path "C:/identitymanagerDemo/Conf" --output "C:/identitymanagerDemo/Conf2"
+**./identitymanager-Upgrade-ConfigurationVersion.exe --version "5.1.0" --xml-path "C:/identitymanagerDemo/Conf" --output "C:/identitymanagerDemo/Conf2"**
 
 ```
 

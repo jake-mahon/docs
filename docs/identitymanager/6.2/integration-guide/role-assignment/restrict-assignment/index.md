@@ -47,7 +47,7 @@ We will define a
 
 ```
 
-    <SingleRoleRule Role="DL-INTERNET-Restricted" D1="FCT0402" Policy="Default" />
+**<SingleRoleRule Role="DL-INTERNET-Restricted" D1="FCT0402" Policy="Default" />**
 
 ```
 
@@ -55,7 +55,7 @@ D1 represents the dimension whose ColumnMapping="1".
 
 ```
 
-  <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
+**<Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />**
 
 ```
 

@@ -26,7 +26,7 @@ the `Administrator` profile the permissions to view the resources.
 
 ```
 
-<ViewTemplateAdaptable EntityType="Directory_PresenceState" Profile="Administrator" />
+**<ViewTemplateAdaptable EntityType="Directory_PresenceState" Profile="Administrator" />**
 
 ```
 

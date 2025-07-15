@@ -25,7 +25,7 @@ In the following example the Synchronization job for the Connector "AD" will be 
 
 ```
 
-<Connector Identifier="AD" DisplayName_L1="AD" Agent="Local" />
+**<Connector Identifier="AD" DisplayName_L1="AD" Agent="Local" />**
 
 ```
 
@@ -117,7 +117,7 @@ Example :
 
 ```
 
-<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" >	<TaskEntityType Identifier="AD_Entry"/></ComputeCorrelationKeysTask>
+**<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" >	<TaskEntityType Identifier="AD_Entry"/></ComputeCorrelationKeysTask>**
 
 ```
 

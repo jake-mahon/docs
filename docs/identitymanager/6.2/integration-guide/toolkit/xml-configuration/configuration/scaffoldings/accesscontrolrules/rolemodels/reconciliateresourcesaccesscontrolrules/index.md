@@ -19,7 +19,7 @@ EntityType to be filled in the Scaffolding.
 
 ```
 
-  <ReconciliateResourcesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>
+**<ReconciliateResourcesAccessControlRules EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

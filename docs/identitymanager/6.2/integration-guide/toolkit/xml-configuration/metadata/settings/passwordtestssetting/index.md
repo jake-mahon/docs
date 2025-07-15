@@ -18,7 +18,7 @@ including at least one digit, one lowercase letter, one uppercase and one specia
 
 ```
 
-<PasswordTestsSetting PasswordRegex="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>
+**<PasswordTestsSetting PasswordRegex="'^..........*$','^.*[0-9].*$', '^.*[a-z].*$', '^.*[A-Z].*$', '^.*[^A-Za-z0-9].*$'"/>**
 
 ```
 

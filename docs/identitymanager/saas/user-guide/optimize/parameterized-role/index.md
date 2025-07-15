@@ -22,7 +22,7 @@ roles.
 
 For example, the SAP role can be given with slight differences according to the users' subsidiaries:
 
-> ![Role Matrix](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)
+**> ![Role Matrix](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)**
 
 In order to reduce the number of roles, we can configure roles with parameters by inserting a
 criterion in the navigation rules. Thus, instead of having as many roles as entitlements (left on

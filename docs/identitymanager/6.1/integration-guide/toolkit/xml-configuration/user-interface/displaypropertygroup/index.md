@@ -14,7 +14,7 @@ The following example will group a specific set of properties together, when dis
 
 ```
 
-<DisplayPropertyGroup Identifier="AD_General" DisplayName_L1="General" />
+**<DisplayPropertyGroup Identifier="AD_General" DisplayName_L1="General" />**
 
 Knowing that we have the following properties:
 <DisplayEntityType Identifier="AD_Entry">    <Property Identifier="displayName" Group="AD_General" DisplayOrder="100" />    <Property Identifier="givenName" Group="AD_General" DisplayOrder="101" />    <Property Identifier="initials" Group="AD_General" DisplayOrder="102" />    <Property Identifier="sn" Group="AD_General" DisplayOrder="103" />    <Property Identifier="description" Group="AD_General" DisplayOrder="104" />    <Property Identifier="thumbnailPhoto" Group="AD_General" DisplayOrder="105" />    <Property Identifier="telephoneNumber" Group="AD_General" DisplayOrder="106" />    <Property Identifier="mobile" Group="AD_General" DisplayOrder="107" />    <Property Identifier="mail" Group="AD_General" DisplayOrder="108" />    ...

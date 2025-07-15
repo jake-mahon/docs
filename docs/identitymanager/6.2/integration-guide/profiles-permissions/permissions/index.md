@@ -74,7 +74,7 @@ Here is a list of permissions required for different user profiles:
 
 - /AccessControl/AccessControlRule/Delete
 
-    Permission to delete objects of type AccessControlRule
+**Permission to delete objects of type AccessControlRule**
 
 - /AccessControl/AccessControlRule/Query
 
@@ -198,11 +198,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Connectors/EntityAssociationMapping/Create
 
-    Permission to create objects of type EntityAssociationMapping
+**Permission to create objects of type EntityAssociationMapping**
 
 - /Connectors/EntityAssociationMapping/Delete
 
-    Permission to delete objects of type EntityAssociationMapping
+**Permission to delete objects of type EntityAssociationMapping**
 
 - /Connectors/EntityAssociationMapping/Query
 - Permission to query and read objects of type EntityAssociationMapping.
@@ -224,15 +224,15 @@ Here is a list of permissions required for different user profiles:
 
 - /Connectors/EntityPropertyMapping/Update
 
-    Permission to update objects of type EntityPropertyMapping
+**Permission to update objects of type EntityPropertyMapping**
 
 - /Connectors/EntityTypeMapping/Create
 
-    Permission to create objects of type EntityTypeMapping
+**Permission to create objects of type EntityTypeMapping**
 
 - /Connectors/EntityTypeMapping/Delete
 
-    Permission to delete objects of type EntityTypeMapping
+**Permission to delete objects of type EntityTypeMapping**
 
 - /Connectors/EntityTypeMapping/Query
 
@@ -240,7 +240,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Connectors/EntityTypeMapping/Update
 
-    Permission to update objects of type EntityTypeMapping
+**Permission to update objects of type EntityTypeMapping**
 
 - /Connectors/EntityTypeMappingByConnectorIdQuery/Query
 
@@ -500,7 +500,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Jobs/JobStep/Delete
 
-    Permission to delete objects of type JobStep
+**Permission to delete objects of type JobStep**
 
 - /Jobs/JobStep/Query
 
@@ -568,7 +568,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Jobs/Task/Update
 
-    Permission to update objects of type Task
+**Permission to update objects of type Task**
 
 - /Jobs/TaskDependOnTask/Create
 
@@ -616,7 +616,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Jobs/TaskEntityType/Update
 
-    Permission to update objects of type TaskEntityType
+**Permission to update objects of type TaskEntityType**
 
 - /Jobs/TaskIdByIdentifiersQuery/Query
 
@@ -744,11 +744,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Metadata/Setting/Create
 
-    Permission to create objects of type Setting
+**Permission to create objects of type Setting**
 
 - /Metadata/Setting/Delete
 
-    Permission to delete objects of type Setting
+**Permission to delete objects of type Setting**
 
 - /Metadata/Setting/Query
 
@@ -756,7 +756,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Metadata/Setting/Update
 
-    Permission to update objects of type Setting
+**Permission to update objects of type Setting**
 
 - /Monitoring
 
@@ -764,15 +764,15 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedCompositeRole/Comment
 
-    Permission to comment objects of type AssignedCompositeRole
+**Permission to comment objects of type AssignedCompositeRole**
 
 - /ProvisioningPolicy/AssignedCompositeRole/Create
 
-    Permission to create objects of type AssignedCompositeRole
+**Permission to create objects of type AssignedCompositeRole**
 
 - /ProvisioningPolicy/AssignedCompositeRole/Delete
 
-    Permission to delete objects of type AssignedCompositeRole
+**Permission to delete objects of type AssignedCompositeRole**
 
 - /ProvisioningPolicy/AssignedCompositeRole/Query
 
@@ -780,15 +780,15 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedCompositeRole/Update
 
-    Permission to update objects of type AssignedCompositeRole
+**Permission to update objects of type AssignedCompositeRole**
 
 - /ProvisioningPolicy/AssignedResourceBinary/Create
 
-    Permission to create objects of type AssignedResourceBinary
+**Permission to create objects of type AssignedResourceBinary**
 
 - /ProvisioningPolicy/AssignedResourceBinary/Delete
 
-    Permission to delete objects of type AssignedResourceBinary
+**Permission to delete objects of type AssignedResourceBinary**
 
 - /ProvisioningPolicy/AssignedResourceBinary/Query
 
@@ -796,15 +796,15 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedResourceBinary/Update
 
-    Permission to update objects of type AssignedResourceBinary
+**Permission to update objects of type AssignedResourceBinary**
 
 - /ProvisioningPolicy/AssignedResourceNavigation/Create
 
-    Permission to create objects of type AssignedResourceNavigation
+**Permission to create objects of type AssignedResourceNavigation**
 
 - /ProvisioningPolicy/AssignedResourceNavigation/Delete
 
-    Permission to delete objects of type AssignedResourceNavigation
+**Permission to delete objects of type AssignedResourceNavigation**
 
 - /ProvisioningPolicy/AssignedResourceNavigation/Query
 
@@ -812,15 +812,15 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedResourceNavigation/Update
 
-    Permission to update objects of type AssignedResourceNavigation
+**Permission to update objects of type AssignedResourceNavigation**
 
 - /ProvisioningPolicy/AssignedResourceScalar/Create
 
-    Permission to create objects of type AssignedResourceScalar
+**Permission to create objects of type AssignedResourceScalar**
 
 - /ProvisioningPolicy/AssignedResourceScalar/Delete
 
-    Permission to delete objects of type AssignedResourceScalar
+**Permission to delete objects of type AssignedResourceScalar**
 
 - /ProvisioningPolicy/AssignedResourceScalar/Query
 
@@ -828,19 +828,19 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedResourceScalar/Update
 
-    Permission to update objects of type AssignedResourceScalar
+**Permission to update objects of type AssignedResourceScalar**
 
 - /ProvisioningPolicy/AssignedResourceType/Comment
 
-    Permission to comment objects of type AssignedResourceType
+**Permission to comment objects of type AssignedResourceType**
 
 - /ProvisioningPolicy/AssignedResourceType/Create
 
-    Permission to create objects of type AssignedResourceType
+**Permission to create objects of type AssignedResourceType**
 
 - /ProvisioningPolicy/AssignedResourceType/Delete
 
-    Permission to delete objects of type AssignedResourceType
+**Permission to delete objects of type AssignedResourceType**
 
 - /ProvisioningPolicy/AssignedResourceType/ManualProvisioningReview
 
@@ -852,19 +852,19 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedResourceType/Update
 
-    Permission to update objects of type AssignedResourceType
+**Permission to update objects of type AssignedResourceType**
 
 - /ProvisioningPolicy/AssignedSingleRole/Comment
 
-    Permission to comment objects of type AssignedSingleRole
+**Permission to comment objects of type AssignedSingleRole**
 
 - /ProvisioningPolicy/AssignedSingleRole/Create
 
-    Permission to create objects of type AssignedSingleRole
+**Permission to create objects of type AssignedSingleRole**
 
 - /ProvisioningPolicy/AssignedSingleRole/Delete
 
-    Permission to delete objects of type AssignedSingleRole
+**Permission to delete objects of type AssignedSingleRole**
 
 - /ProvisioningPolicy/AssignedSingleRole/Query
 
@@ -872,11 +872,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AssignedSingleRole/Update
 
-    Permission to update objects of type AssignedSingleRole
+**Permission to update objects of type AssignedSingleRole**
 
 - /ProvisioningPolicy/AutomationRule/Create
 
-    Permission to create objects of type AutomationRule
+**Permission to create objects of type AutomationRule**
 
 - /ProvisioningPolicy/AutomationRule/CreateSimulation
 
@@ -884,7 +884,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AutomationRule/Delete
 
-    Permission to delete objects of type AutomationRule
+**Permission to delete objects of type AutomationRule**
 
 - /ProvisioningPolicy/AutomationRule/DeleteSimulation
 
@@ -904,7 +904,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/AutomationRule/Updat
 
-    Permission to update objects of type AutomationRule
+**Permission to update objects of type AutomationRule**
 
 - /ProvisioningPolicy/AutomationRule/UpdateSimulation
 
@@ -912,11 +912,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Category/Create
 
-    Permission to create objects of type Category
+**Permission to create objects of type Category**
 
 - /ProvisioningPolicy/Category/Delete
 
-    Permission to delete objects of type Category
+**Permission to delete objects of type Category**
 
 - /ProvisioningPolicy/Category/Query
 
@@ -924,11 +924,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Category/Update
 
-    Permission to update objects of type Category
+**Permission to update objects of type Category**
 
 - /ProvisioningPolicy/CompositeRole/Create
 
-    Permission to create objects of type CompositeRole
+**Permission to create objects of type CompositeRole**
 
 - /ProvisioningPolicy/CompositeRole/CreateSimulation
 
@@ -936,7 +936,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/CompositeRole/Delete
 
-    Permission to delete objects of type CompositeRole
+**Permission to delete objects of type CompositeRole**
 
 - /ProvisioningPolicy/CompositeRole/DeleteSimulation
 
@@ -956,7 +956,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/CompositeRole/Update
 
-    Permission to update objects of type CompositeRole
+**Permission to update objects of type CompositeRole**
 
 - /ProvisioningPolicy/CompositeRole/UpdateSimulation
 
@@ -964,7 +964,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/CompositeRoleRule/Create
 
-    Permission to create objects of type CompositeRoleRule
+**Permission to create objects of type CompositeRoleRule**
 
 - /ProvisioningPolicy/CompositeRoleRule/CreateSimulation
 
@@ -972,7 +972,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/CompositeRoleRule/Delete
 
-    Permission to delete objects of type CompositeRoleRule
+**Permission to delete objects of type CompositeRoleRule**
 
 - /ProvisioningPolicy/CompositeRoleRule/DeleteSimulation
 
@@ -992,7 +992,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/CompositeRoleRule/Update
 
-    Permission to update objects of type CompositeRoleRule
+**Permission to update objects of type CompositeRoleRule**
 
 - /ProvisioningPolicy/CompositeRoleRule/UpdateSimulation
 
@@ -1000,7 +1000,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ContextRule/Create
 
-    Permission to create objects of type ContextRule
+**Permission to create objects of type ContextRule**
 
 - /ProvisioningPolicy/ContextRule/CreateSimulation
 
@@ -1008,7 +1008,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ContextRule/Delete
 
-    Permission to delete objects of type ContextRule
+**Permission to delete objects of type ContextRule**
 
 - /ProvisioningPolicy/ContextRule/DeleteSimulation
 
@@ -1028,7 +1028,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ContextRule/Update
 
-    Permission to update objects of type ContextRule
+**Permission to update objects of type ContextRule**
 
 - /ProvisioningPolicy/ContextRule/UpdateSimulation
 
@@ -1040,11 +1040,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/MiningRule/Create
 
-    Permission to create objects of type MiningRule
+**Permission to create objects of type MiningRule**
 
 - /ProvisioningPolicy/MiningRule/Delete
 
-    Permission to delete objects of type MiningRule
+**Permission to delete objects of type MiningRule**
 
 - /ProvisioningPolicy/MiningRule/Query
 
@@ -1052,11 +1052,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/MiningRule/Update
 
-    Permission to update objects of type MiningRule
+**Permission to update objects of type MiningRule**
 
 - /ProvisioningPolicy/Policy/Create
 
-    Permission to create objects of type Policy
+**Permission to create objects of type Policy**
 
 - /ProvisioningPolicy/Policy/CreateSimulation
 
@@ -1064,7 +1064,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Policy/Delete
 
-    Permission to delete objects of type Policy
+**Permission to delete objects of type Policy**
 
 - /ProvisioningPolicy/Policy/DeleteSimulation
 
@@ -1084,7 +1084,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Policy/Update
 
-    Permission to update objects of type Policy
+**Permission to update objects of type Policy**
 
 - /ProvisioningPolicy/Policy/UpdateSimulation
 
@@ -1092,11 +1092,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/PolicySimulation/Create
 
-    Permission to create objects of type PolicySimulation
+**Permission to create objects of type PolicySimulation**
 
 - /ProvisioningPolicy/PolicySimulation/Delete
 
-    Permission to delete objects of type PolicySimulation
+**Permission to delete objects of type PolicySimulation**
 
 - /ProvisioningPolicy/PolicySimulation/Query
 
@@ -1104,7 +1104,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/PolicySimulation/Start
 
-    Permission to start a simulation of a policy
+**Permission to start a simulation of a policy**
 
 - /ProvisioningPolicy/PolicySimulation/Update
 
@@ -1176,7 +1176,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceClassificationRule/Delete
 
-    Permission to delete objects of type ResourceClassificationRule
+**Permission to delete objects of type ResourceClassificationRule**
 
 - /ProvisioningPolicy/ResourceClassificationRule/DeleteSimulation
 
@@ -1197,7 +1197,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceClassificationRule/Update
 
-    Permission to update objects of type ResourceClassificationRule
+**Permission to update objects of type ResourceClassificationRule**
 
 - /ProvisioningPolicy/ResourceClassificationRule/UpdateSimulation
 
@@ -1205,7 +1205,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceCorrelationRule/Create
 
-    Permission to create objects of type ResourceCorrelationRule
+**Permission to create objects of type ResourceCorrelationRule**
 
 - /ProvisioningPolicy/ResourceCorrelationRule/CreateSimulation
 
@@ -1213,7 +1213,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceCorrelationRule/Delete
 
-    Permission to delete objects of type ResourceCorrelationRule
+**Permission to delete objects of type ResourceCorrelationRule**
 
 - /ProvisioningPolicy/ResourceCorrelationRule/DeleteSimulation
 
@@ -1234,7 +1234,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceCorrelationRule/Update
 
-    Permission to update objects of type ResourceCorrelationRule
+**Permission to update objects of type ResourceCorrelationRule**
 
 - /ProvisioningPolicy/ResourceCorrelationRule/UpdateSimulation
 
@@ -1248,7 +1248,7 @@ Here is a list of permissions required for different user profiles:
 
     Permission to query and read objects of type ResourceManageableAccounts
 
-    /ProvisioningPolicy/ResourceNavigationRule/Create
+**/ProvisioningPolicy/ResourceNavigationRule/Create**
 
 - Permission to create objects of type ResourceNavigationRule
 - /ProvisioningPolicy/ResourceNavigationRule/CreateSimulation
@@ -1257,7 +1257,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceNavigationRule/Delete
 
-    Permission to delete objects of type ResourceNavigationRule
+**Permission to delete objects of type ResourceNavigationRule**
 
 - /ProvisioningPolicy/ResourceNavigationRule/DeleteSimulation
 
@@ -1278,7 +1278,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceNavigationRule/Update
 
-    Permission to update objects of type ResourceNavigationRule
+**Permission to update objects of type ResourceNavigationRule**
 
 - /ProvisioningPolicy/ResourceNavigationRule/UpdateSimulation
 
@@ -1286,7 +1286,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceQueryRule/Create
 
-    Permission to create objects of type ResourceQueryRule
+**Permission to create objects of type ResourceQueryRule**
 
 - /ProvisioningPolicy/ResourceQueryRule/CreateSimulation
 
@@ -1294,7 +1294,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceQueryRule/Delete
 
-    Permission to delete objects of type ResourceQueryRule
+**Permission to delete objects of type ResourceQueryRule**
 
 - /ProvisioningPolicy/ResourceQueryRule/DeleteSimulation
 
@@ -1314,7 +1314,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceQueryRule/Update
 
-    Permission to update objects of type ResourceQueryRule
+**Permission to update objects of type ResourceQueryRule**
 
 - /ProvisioningPolicy/ResourceQueryRule/UpdateSimulation
 
@@ -1322,7 +1322,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceScalarRule/Create
 
-    Permission to create objects of type ResourceScalarRule
+**Permission to create objects of type ResourceScalarRule**
 
 - /ProvisioningPolicy/ResourceScalarRule/CreateSimulation
 
@@ -1330,7 +1330,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceScalarRule/Delete
 
-    Permission to delete objects of type ResourceScalarRule
+**Permission to delete objects of type ResourceScalarRule**
 
 - /ProvisioningPolicy/ResourceScalarRule/DeleteSimulation
 
@@ -1350,7 +1350,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceScalarRule/Update
 
-    Permission to update objects of type ResourceScalarRule
+**Permission to update objects of type ResourceScalarRule**
 
 - /ProvisioningPolicy/ResourceScalarRule/UpdateSimulation
 
@@ -1358,7 +1358,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceType/Create
 
-    Permission to create objects of type ResourceType
+**Permission to create objects of type ResourceType**
 
 - /ProvisioningPolicy/ResourceType/CreateSimulation
 
@@ -1366,7 +1366,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceType/Delete
 
-    Permission to delete objects of type ResourceType
+**Permission to delete objects of type ResourceType**
 
 - /ProvisioningPolicy/ResourceType/DeleteSimulation
 
@@ -1386,7 +1386,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceType/Update
 
-    Permission to update objects of type ResourceType
+**Permission to update objects of type ResourceType**
 
 - /ProvisioningPolicy/ResourceType/UpdateSimulation
 
@@ -1394,7 +1394,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceTypeRule/Create
 
-    Permission to create objects of type ResourceTypeRule
+**Permission to create objects of type ResourceTypeRule**
 
 - /ProvisioningPolicy/ResourceTypeRule/CreateSimulation
 
@@ -1402,7 +1402,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceTypeRule/Delete
 
-    Permission to delete objects of type ResourceTypeRule
+**Permission to delete objects of type ResourceTypeRule**
 
 - /ProvisioningPolicy/ResourceTypeRule/DeleteSimulation
 
@@ -1422,7 +1422,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/ResourceTypeRule/Update
 
-    Permission to update objects of type ResourceTypeRule
+**Permission to update objects of type ResourceTypeRule**
 
 - /ProvisioningPolicy/ResourceTypeRule/UpdateSimulation
 
@@ -1430,11 +1430,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Risk/Create
 
-    Permission to create objects of type Risk
+**Permission to create objects of type Risk**
 
 - /ProvisioningPolicy/Risk/Delete
 
-    Permission to delete objects of type Risk
+**Permission to delete objects of type Risk**
 
 - /ProvisioningPolicy/Risk/OverrideApproval
 
@@ -1450,15 +1450,15 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/Risk/Update
 
-    Permission to update objects of type Risk
+**Permission to update objects of type Risk**
 
 - /ProvisioningPolicy/RoleMapping/Create
 
-    Permission to create objects of type RoleMapping
+**Permission to create objects of type RoleMapping**
 
 - /ProvisioningPolicy/RoleMapping/Delete
 
-    Permission to delete objects of type RoleMapping
+**Permission to delete objects of type RoleMapping**
 
 - /ProvisioningPolicy/RoleMapping/Query
 
@@ -1466,11 +1466,11 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/RoleMapping/Update
 
-    Permission to update objects of type RoleMapping
+**Permission to update objects of type RoleMapping**
 
 - /ProvisioningPolicy/SingleRole/Create
 
-    Permission to create objects of type SingleRole
+**Permission to create objects of type SingleRole**
 
 - /ProvisioningPolicy/SingleRole/CreateSimulation
 
@@ -1478,7 +1478,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/SingleRole/Delete
 
-    Permission to delete objects of type SingleRole
+**Permission to delete objects of type SingleRole**
 
 - /ProvisioningPolicy/SingleRole/DeleteSimulation
 
@@ -1498,7 +1498,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/SingleRole/Update
 
-    Permission to update objects of type SingleRole
+**Permission to update objects of type SingleRole**
 
 - /ProvisioningPolicy/SingleRole/UpdateSimulation
 
@@ -1506,7 +1506,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/SingleRoleRule/Create
 
-    Permission to create objects of type SingleRoleRule
+**Permission to create objects of type SingleRoleRule**
 
 - /ProvisioningPolicy/SingleRoleRule/CreateSimulation
 
@@ -1514,7 +1514,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/SingleRoleRule/Delete
 
-    Permission to delete objects of type SingleRoleRule
+**Permission to delete objects of type SingleRoleRule**
 
 - /ProvisioningPolicy/SingleRoleRule/DeleteSimulation
 
@@ -1534,7 +1534,7 @@ Here is a list of permissions required for different user profiles:
 
 - /ProvisioningPolicy/SingleRoleRule/Update
 
-    Permission to update objects of type SingleRoleRule
+**Permission to update objects of type SingleRoleRule**
 
 - /ProvisioningPolicy/SingleRoleRule/UpdateSimulation
 
@@ -1550,11 +1550,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Report/ReportQuery/Create
 
-    Permission to create objects of type ReportQuery
+**Permission to create objects of type ReportQuery**
 
 - /Report/ReportQuery/Delete
 
-    Permission to delete objects of type ReportQuery
+**Permission to delete objects of type ReportQuery**
 
 - /Report/ReportQuery/Query
 
@@ -1562,7 +1562,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Report/ReportQuery/Update
 
-    Permission to update objects of type ReportQuery
+**Permission to update objects of type ReportQuery**
 
 - /Resources/Incremental/Query
 
@@ -1570,11 +1570,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Resources/Resource/Create
 
-    Permission to create objects of type Resource
+**Permission to create objects of type Resource**
 
 - /Resources/Resource/Delete
 
-    Permission to delete objects of type Resource
+**Permission to delete objects of type Resource**
 
 - /Resources/Resource/Query
 
@@ -1582,7 +1582,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Resources/Resource/Update
 
-    Permission to update objects of type Resource
+**Permission to update objects of type Resource**
 
 - /Settings/Manage
 - /Universes/EntityInstance/Query
@@ -1607,23 +1607,23 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/ConnectorResourceType/Create
 
-    Permission to create objects of type ConnectorResourceType
+**Permission to create objects of type ConnectorResourceType**
 
 - /UserInterface/ConnectorResourceType/Delete
 
-    Permission to delete objects of type ConnectorResourceType
+**Permission to delete objects of type ConnectorResourceType**
 
 - /UserInterface/ConnectorResourceType/Update
 
-    Permission to update objects of type ConnectorResourceType
+**Permission to update objects of type ConnectorResourceType**
 
 - /UserInterface/DisplayEntityAssociation/Create
 
-    Permission to create objects of type DisplayEntityAssociation
+**Permission to create objects of type DisplayEntityAssociation**
 
 - /UserInterface/DisplayEntityAssociation/Delete
 
-    Permission to delete objects of type DisplayEntityAssociation
+**Permission to delete objects of type DisplayEntityAssociation**
 
 - /UserInterface/DisplayEntityAssociation/Query
 
@@ -1631,15 +1631,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayEntityAssociation/Update
 
-    Permission to update objects of type DisplayEntityAssociation
+**Permission to update objects of type DisplayEntityAssociation**
 
 - /UserInterface/DisplayEntityProperty/Create
 
-    Permission to create objects of type DisplayEntityProperty
+**Permission to create objects of type DisplayEntityProperty**
 
 - /UserInterface/DisplayEntityProperty/Delete
 
-    Permission to delete objects of type DisplayEntityProperty
+**Permission to delete objects of type DisplayEntityProperty**
 
 - /UserInterface/DisplayEntityProperty/Query
 
@@ -1647,15 +1647,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayEntityProperty/Update
 
-    Permission to update objects of type DisplayEntityProperty
+**Permission to update objects of type DisplayEntityProperty**
 
 - /UserInterface/DisplayEntityType/Create
 
-    Permission to create objects of type DisplayEntityType
+**Permission to create objects of type DisplayEntityType**
 
 - /UserInterface/DisplayEntityType/Delete
 
-    Permission to delete objects of type DisplayEntityType
+**Permission to delete objects of type DisplayEntityType**
 
 - /UserInterface/DisplayEntityType/Query
 
@@ -1663,15 +1663,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayEntityType/Update
 
-    Permission to update objects of type DisplayEntityType
+**Permission to update objects of type DisplayEntityType**
 
 - /UserInterface/DisplayPropertyGroup/Create
 
-    Permission to create objects of type DisplayPropertyGroup
+**Permission to create objects of type DisplayPropertyGroup**
 
 - /UserInterface/DisplayPropertyGroup/Delete
 
-    Permission to delete objects of type DisplayPropertyGroup
+**Permission to delete objects of type DisplayPropertyGroup**
 
 - /UserInterface/DisplayPropertyGroup/Query
 
@@ -1679,15 +1679,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayPropertyGroup/Update
 
-    Permission to update objects of type DisplayPropertyGroup
+**Permission to update objects of type DisplayPropertyGroup**
 
 - /UserInterface/DisplayTable/Create
 
-    Permission to create objects of type DisplayTable
+**Permission to create objects of type DisplayTable**
 
 - /UserInterface/DisplayTable/Delete
 
-    Permission to delete objects of type DisplayTable
+**Permission to delete objects of type DisplayTable**
 
 - /UserInterface/DisplayTable/Query
 
@@ -1695,15 +1695,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayTable/Update
 
-    Permission to update objects of type DisplayTable
+**Permission to update objects of type DisplayTable**
 
 - /UserInterface/DisplayTableColumn/Create
 
-    Permission to create objects of type DisplayTableColumn
+**Permission to create objects of type DisplayTableColumn**
 
 - /UserInterface/DisplayTableColumn/Delete
 
-    Permission to delete objects of type DisplayTableColumn
+**Permission to delete objects of type DisplayTableColumn**
 
 - /UserInterface/DisplayTableColumn/Query
 
@@ -1711,7 +1711,7 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/DisplayTableColumn/Update
 
-    Permission to update objects of type DisplayTableColumn
+**Permission to update objects of type DisplayTableColumn**
 
 - /UserInterface/DisplayTableDesignElement/Query
 
@@ -1723,11 +1723,11 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/Form/Create
 
-    Permission to create objects of type Form
+**Permission to create objects of type Form**
 
 - /UserInterface/Form/Delete
 
-    Permission to delete objects of type Form
+**Permission to delete objects of type Form**
 
 - /UserInterface/Form/Query
 
@@ -1735,15 +1735,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/Form/Updat
 
-    Permission to update objects of type Form
+**Permission to update objects of type Form**
 
 - /UserInterface/FormControl/Create
 
-    Permission to create objects of type FormControl
+**Permission to create objects of type FormControl**
 
 - /UserInterface/FormControl/Delete
 
-    Permission to delete objects of type FormControl
+**Permission to delete objects of type FormControl**
 
 - /UserInterface/FormControl/Query
 
@@ -1751,7 +1751,7 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/FormControl/Update
 
-    Permission to update objects of type FormControl
+**Permission to update objects of type FormControl**
 
 - /UserInterface/HierarchyDataByEntityTypeIdQuery/Query
 
@@ -1759,11 +1759,11 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/Indicator/Create
 
-    Permission to create objects of type Indicator
+**Permission to create objects of type Indicator**
 
 - /UserInterface/Indicator/Delete
 
-    Permission to delete objects of type Indicator
+**Permission to delete objects of type Indicator**
 
 - /UserInterface/Indicator/Query
 
@@ -1771,15 +1771,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/Indicator/Update
 
-    Permission to update objects of type Indicator
+**Permission to update objects of type Indicator**
 
 - /UserInterface/IndicatorItem/Create
 
-    Permission to create objects of type IndicatorItem
+**Permission to create objects of type IndicatorItem**
 
 - /UserInterface/IndicatorItem/Delete
 
-    Permission to delete objects of type IndicatorItem
+**Permission to delete objects of type IndicatorItem**
 
 - /UserInterface/IndicatorItem/Query
 
@@ -1787,7 +1787,7 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/IndicatorItem/Update
 
-    Permission to update objects of type IndicatorItem
+**Permission to update objects of type IndicatorItem**
 
 - /UserInterface/PersonasByFilterQuery/Query
 
@@ -1816,11 +1816,11 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/SearchBar/Create
 
-    Permission to create objects of type SearchBar
+**Permission to create objects of type SearchBar**
 
 - /UserInterface/SearchBar/Delete
 
-    Permission to delete objects of type SearchBar
+**Permission to delete objects of type SearchBar**
 
 - /UserInterface/SearchBar/Query
 
@@ -1828,15 +1828,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/SearchBar/Update
 
-    Permission to update objects of type SearchBar
+**Permission to update objects of type SearchBar**
 
 - /UserInterface/SearchBarCriterion/Create
 
-    Permission to create objects of type SearchBarCriterion
+**Permission to create objects of type SearchBarCriterion**
 
 - /UserInterface/SearchBarCriterion/Delete
 
-    Permission to delete objects of type SearchBarCriterion
+**Permission to delete objects of type SearchBarCriterion**
 
 - /UserInterface/SearchBarCriterion/Query
 
@@ -1844,15 +1844,15 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/SearchBarCriterion/Update
 
-    Permission to update objects of type SearchBarCriterion
+**Permission to update objects of type SearchBarCriterion**
 
 - /UserInterface/Tile/Create
 
-    Permission to create objects of type Tile
+**Permission to create objects of type Tile**
 
 - /UserInterface/Tile/Delete
 
-    Permission to delete objects of type Tile
+**Permission to delete objects of type Tile**
 
 - /UserInterface/Tile/Query
 
@@ -1860,7 +1860,7 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/Tile/Update
 
-    Permission to update objects of type Tile
+**Permission to update objects of type Tile**
 
 - /UserInterface/TileDesignElement/Query
 
@@ -1868,11 +1868,11 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/TileItem/Create
 
-    Permission to create objects of type TileItem
+**Permission to create objects of type TileItem**
 
 - /UserInterface/TileItem/Delete
 
-    Permission to delete objects of type TileItem
+**Permission to delete objects of type TileItem**
 
 - /UserInterface/TileItem/Query
 
@@ -1880,7 +1880,7 @@ Here is a list of permissions required for different user profiles:
 
 - /UserInterface/TileItem/Update
 
-    Permission to update objects of type TileItem
+**Permission to update objects of type TileItem**
 
 - /UserInterface/UserByIdentityQuery/Query
 
@@ -1896,11 +1896,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/Activity/Create
 
-    Permission to create objects of type Activity
+**Permission to create objects of type Activity**
 
 - /Workflows/Activity/Delete
 
-    Permission to delete objects of type Activity
+**Permission to delete objects of type Activity**
 
 - /Workflows/Activity/Query
 
@@ -1908,7 +1908,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/Activity/Update
 
-    Permission to update objects of type Activity
+**Permission to update objects of type Activity**
 
 - /Workflows/ActivityInstance/Query
 
@@ -1936,11 +1936,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/HomonymEntityLink/Create
 
-    Permission to create objects of type HomonymEntityLink
+**Permission to create objects of type HomonymEntityLink**
 
 - /Workflows/HomonymEntityLink/Delete
 
-    Permission to delete objects of type HomonymEntityLink
+**Permission to delete objects of type HomonymEntityLink**
 
 - /Workflows/HomonymEntityLink/Query
 
@@ -1948,7 +1948,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/HomonymEntityLink/Update
 
-    Permission to update objects of type HomonymEntityLink
+**Permission to update objects of type HomonymEntityLink**
 
 - /Workflows/UserActivityInstance/AssignedTo
 
@@ -1968,11 +1968,11 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/Workflow/Create
 
-    Permission to create objects of type Workflow
+**Permission to create objects of type Workflow**
 
 - /Workflows/Workflow/Delete
 
-    Permission to delete objects of type Workflow
+**Permission to delete objects of type Workflow**
 
 - /Workflows/Workflow/Query
 
@@ -1980,7 +1980,7 @@ Here is a list of permissions required for different user profiles:
 
 - /Workflows/Workflow/Update
 
-    Permission to update objects of type Workflow
+**Permission to update objects of type Workflow**
 
 - /Workflows/WorkflowInstance/Query
 
@@ -1990,7 +1990,7 @@ Here is a list of permissions required for different user profiles:
 - /Workflows/WorkflowInstance/Start
 - /Workflows/WorkflowInstance/Supervise
 
-    Permission to supervise objects of type WorkflowInstance
+**Permission to supervise objects of type WorkflowInstance**
 
 - /Workflows/WorkflowInstanceData/Query
 

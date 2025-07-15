@@ -355,7 +355,7 @@ The password should always be encrypted using the
 
                     ```
 
-                        appsettings.json
+**appsettings.json**
 
 { ... "IdentityServer": { "X509KeyFilePath": "./identitymanagerContoso.pfx", "X509KeyFilePassword":
 "eff@�%fmel/" } ... }
@@ -422,7 +422,7 @@ The service account used by the Server to access the Database is either:
 - A Windows account if the connection string was set up using `Integrated Security=SSPI`.
 - A SQL Server account if the connection string was set up with a login/password.
 
-appsettings.json
+**appsettings.json**
 
 ```
 
@@ -437,7 +437,7 @@ appsettings.json
 The **second example** sets a connection string using the SQL Server authentication.
 `CONTOSO/identitymanagerContosoServer` has been set as the Usercube Server IIS website identity.
 
-appsettings.json
+**appsettings.json**
 
 ```
 

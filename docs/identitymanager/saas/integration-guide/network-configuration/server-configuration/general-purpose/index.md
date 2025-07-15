@@ -79,7 +79,7 @@ This information can be set one of two ways:
   certificate will be loaded first. The thumprint is unique among the certificates so it can help
   with for the certificate identification.
 
-As a PFX file
+**As a PFX file**
 
 For example:
 
@@ -116,7 +116,7 @@ The archive is set using the following attributes:
 | File required     | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                                                                                               |
 | Password optional | String | [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. Storing a .pfx file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the Usercube-Protect-CertificatePassword.exe tool. See the [Usercube-Protect-CertificatePassword](/docs/identitymanager/saas/integration-guide/executables/references/protect-certificatepassword/index.md) topic for additional information. |
 
-As a Certificate in the Windows Store
+**As a Certificate in the Windows Store**
 
 For example:
 
@@ -143,7 +143,7 @@ The Windows certificate is set using these attributes:
 | StoreLocation required     | String | Location of the relevant Windows certificate store: LocalMachine or CurrentUser.                    |
 | StoreName required         | String | Name of the relevant Windows certificate store.                                                     |
 
-Using Azure Key Vault
+**Using Azure Key Vault**
 
 If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the
 Vault connection. See the [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
@@ -158,7 +158,7 @@ script in the command line.
 }    
 ```
 
-Disabling file encryption
+**Disabling file encryption**
 
 The encryption of specific files can be disabled via the following attribute:
 

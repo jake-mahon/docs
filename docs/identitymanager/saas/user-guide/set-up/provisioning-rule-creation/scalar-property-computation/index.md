@@ -50,7 +50,7 @@ properties of existing resources.
 
 ## Guidelines
 
-Expression code must not contain too much data
+**Expression code must not contain too much data**
 
 Once configured, a rule is a complicated object to modify. Therefore, you must keep business data in
 the resource and out of the expression. It is easier to change data than to change a rule.
@@ -68,7 +68,7 @@ then a new field is added in the data model for Site and Domain Name. Thus, the 
 remains simple by using the new objects, for example
 `Email = FirstName + "." + LastName + "@" + Company + "." + DomainName`.
 
-Priority between scalar rules
+**Priority between scalar rules**
 
 A scalar rule with a role as a criterion has a higher priority than a rule without a role criterion.
 

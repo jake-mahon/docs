@@ -20,7 +20,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <SimulationAccessControlRules Profile="Administrator"/>
+**<SimulationAccessControlRules Profile="Administrator"/>**
 
 ```
 
@@ -36,6 +36,6 @@ Our example generates the following configuration:
 
 ```
 
-<PolicySimulationControlRules Id="7" Profile="Administrator" /><RoleAndSimulationControlRules Id="9" Profile="Administrator" />
+**<PolicySimulationControlRules Id="7" Profile="Administrator" /><RoleAndSimulationControlRules Id="9" Profile="Administrator" />**
 
 ```

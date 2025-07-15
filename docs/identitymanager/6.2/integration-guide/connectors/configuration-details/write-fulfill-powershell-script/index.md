@@ -183,7 +183,7 @@ This is the last part of the function:
 
 ```
 
-Define how to send logs to Identity Manager
+**Define how to send logs to Identity Manager**
 
 The three methods to log in Identity Manager are:
 
@@ -197,7 +197,7 @@ Now that the function has been defined, the main code of the script can be writt
 
 ### Write the main code of the script
 
-Read the options parameter from the standard input
+**Read the options parameter from the standard input**
 
 The options parameter isn't mandatory in the JSON file. If it isn't provided, don't perform this
 step.
@@ -211,7 +211,7 @@ $options.Message # -> Hello
 
 ```
 
-Rest of the main script
+**Rest of the main script**
 
 In general, this part contains the code to connect to the external system and executes the
 `Usercube-Visit-Orders` script.

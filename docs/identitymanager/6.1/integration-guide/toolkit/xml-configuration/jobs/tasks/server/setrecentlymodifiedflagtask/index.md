@@ -25,7 +25,7 @@ tables** (option `DoNotDeleteChanges` set to `true`).
 
 ```
 
-  <SetRecentlyModifiedFlagTask Identifier="Update_Dirty" DisplayName_L1="Update Dirty"/>
+**<SetRecentlyModifiedFlagTask Identifier="Update_Dirty" DisplayName_L1="Update Dirty"/>**
 
 ```
 
