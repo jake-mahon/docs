@@ -12,7 +12,7 @@ Follow theses steps in order for support to troubleshoot most issues.
 concerns and issues on the latest CSE. If you haven’t verified your problem exists with the latest
 CSE (and latest MMC or with Cloud), ensure to download the latest CSE before opening a support
 ticket. See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/bestpracticeskeeping/rings.md)
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md)
 topic for additional information.
 
 **Step 2 –** After the problem is reproduced on the latest CSE, open a
@@ -32,13 +32,13 @@ the problem statement:
 **Step 4 –** Provide the logs from the affected machine.
 
 **CAUTION:** Support cannot assist without the correctly generated logs. See the
-[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md) topic on how to gather logs
+[Gathering and Uploading Logs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/logs.md) topic on how to gather logs
 properly and use the ticket ID generated in Step 2.
 
 ## Gathering and Uploading Logs
 
 This section provides a summary of the steps for gathering and uploading logs. See the
-[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md) topic for additional information.
+[Gathering and Uploading Logs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/logs.md) topic for additional information.
 
 **NOTE:** If you do not see the GUI version of pplogs, you are not using the latest CSE. Endpoint
 Policy Manager support only accepts logs from machines with the latest CSE and latest pplogs zip
@@ -102,13 +102,13 @@ the problem statement:
 **Step 3 –** Your PPLOGS from an affected machine.
 
 **CAUTION:** Support cannot assist without the correctly generated logs. See the
-[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md) topic on how to gather logs
+[Gathering and Uploading Logs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/logs.md) topic on how to gather logs
 properly.
 
 ## Gathering and Uploading Logs
 
 This section provides a summary of the steps for gathering and uploading logs. See the
-[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md) topic for additional information.
+[Gathering and Uploading Logs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/logs.md) topic for additional information.
 
 **Step 1 –** On an affected endpoint, run `PPLogs` twice.
 

@@ -72,7 +72,7 @@ an older Client Side Extension, we won't ever fix that one. We only ever fix the
 sure BEFORE YOU CONTINUE that you've tested the problem out with the LATEST Client Side Extension.
 
 **Step 2 –** Perform an exclusion to your AntiVirus/Antimalware using
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/antivirusandothersys/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
 
 **Step 3 –** Uninstall (not just disable) your AntiVirus/Antimalware. Does that clear it up?
 
@@ -98,7 +98,7 @@ One thing to TRY (but this is not a solution, this just narrows it down for us) 
 Policy Manager DRIVER. Sometimes the DRIVER can get in the way of things. Knowing the DRIVER is a
 problem can be helpful. Only test this out if installing the LATEST Client Side Extension doesn't
 clear up the
-problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/installandupgradetro/newversionissues.md).
+problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/installandupgrade/newversionissues.md).
 
 ## Troubleshooting Scenario 1 (best): Bring up a new machine and triangulate where the problem is
 

@@ -209,7 +209,7 @@ of the CSE Auto-Updater. The CSE Auto-Updater will honor one of two types of rin
   you will set your rings apart with number of hours between updates.
 
 See the
-[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/updatingendpointpoli/ringsupgrade.md) topic
+[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/updating/ringsupgrade.md) topic
 for additional information.
 
 ### Active Directory Option 3: Using the Built-in Endpoint Policy Manager CSE Update mechanism in an alternate manner.

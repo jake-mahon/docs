@@ -1,3 +1,8 @@
+---
+title: "Auto-updating the CSE"
+description: "Auto-updating the CSE"
+sidebar_position: 10
+---
 # Auto-updating the CSE
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_aC6D9hnTeQ" title="Endpoint Policy Manager: Auto-updating the CSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

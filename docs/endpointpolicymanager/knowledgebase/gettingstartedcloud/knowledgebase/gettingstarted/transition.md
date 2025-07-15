@@ -263,7 +263,7 @@ Policy Manager Cloud Client version to ensure safety before you roll it out to e
 group.
 
 See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/bestpracticeskeeping/rings.md) topic
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md) topic
 for additional information on the Microsoft Ring methodology, which aligns to Endpoint Policy
 Manager best practices.
 

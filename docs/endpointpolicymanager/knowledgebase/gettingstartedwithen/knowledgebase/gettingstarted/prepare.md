@@ -40,7 +40,7 @@ is access to a Domain Controller necessary.. If you happen to use a DC for the G
 but not mandatory.
 
 **NOTE:** Check this link on how to install the GPMC on your Admin / GPMC machine:
-[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/methodgpoinitialinst/methods.md)
+[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/gpoinitialinstall/methods.md)
 
 Here are the options for remote viewing of the Admin/GPMC machine:
 
@@ -103,7 +103,7 @@ first tests.
 
 - If you can do without a special Antivirus or special security software on this example machine,
   that will be best. If you MUST use A/V or security software, please perform these steps:
-  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/antivirusandothersys/antivirus.md)
+  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
 
 For Endpoint Policy Manager Group Policy Edition:
 
@@ -123,7 +123,7 @@ For Endpoint Policy Manager Cloud and Endpoint Policy Manager MDM:
 
 First, know that Endpoint Policy Manager and other security software may not play nicely together
 right away. As such, please review and follow these guidelines first:
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/antivirusandothersys/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
 
 Second, please install all of the following software on your example endpoint(s):
 

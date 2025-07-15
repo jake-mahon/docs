@@ -158,7 +158,7 @@ we recommend updating to the latest MMC snap-in.
 
 - Please honor the philosophy of RINGS and don't "blast out" an upgrade CSE to all of your computers
   at once, so you can control a rollout or a rollback. Use
-  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/allthingsinstallatio/knowledgebase/bestpracticeskeeping/rings.md)
+  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md)
 
 ## What will happen if I do nothing?
 
