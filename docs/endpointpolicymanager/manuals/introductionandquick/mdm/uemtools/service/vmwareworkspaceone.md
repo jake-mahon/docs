@@ -7,7 +7,7 @@ sidebar_position: 20
 # Endpoint Policy Manager and VMware Workspace ONE MDM
 
 **NOTE:** See
-[Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today](/docs/endpointpolicymanager/video/mdm/workspaceone.md)
+[Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/workspaceone.md)
 for a video overview of Endpoint Policy Manager and VMware Workspace ONE MDM
 
 **Step 1 –** To use VMware Workspace ONE (formerly known as AirWatch) with Endpoint Policy Manager,

@@ -1,3 +1,8 @@
+---
+title: "Determine the Azure AAD Group Membership for User or Computers"
+description: "Determine the Azure AAD Group Membership for User or Computers"
+sidebar_position: 10
+---
 # Determine the Azure AAD Group Membership for User or Computers
 
 If you want to know which GROUPS your Users or Computers are in within Azure AD, then use Netwrix

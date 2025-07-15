@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Endpoint Policy Manager and MobileIron MDM
 
-**NOTE:** [Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/video/mdm/mobileiron.md) for a video
+**NOTE:** [Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/mobileiron.md) for a video
 overview of Endpoint Policy Manager and MobileIron.
 
 **Step 1 –** To use MobileIron with Endpoint Policy Manager, go to the Apps section within

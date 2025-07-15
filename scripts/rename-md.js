@@ -69,12 +69,58 @@ function updateMarkdownLinks(filePath, oldPath, newPath) {
   return updatedLinks.length > 0;
 }
 
+// Helper to recursively merge directories, skipping files that exist in the destination
+function mergeDirectories(src, dest) {
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  entries.forEach(entry => {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      if (!fs.existsSync(destPath)) {
+        fs.mkdirSync(destPath);
+      }
+      mergeDirectories(srcPath, destPath);
+    } else {
+      if (!fs.existsSync(destPath)) {
+        fs.copyFileSync(srcPath, destPath);
+        fs.unlinkSync(srcPath);
+      } else {
+        // Skip conflicting file
+        console.log(`  Skipped (exists): ${destPath}`);
+      }
+    }
+  });
+}
+
+// Helper to recursively remove a directory if it is empty
+function removeEmptyDirs(dir) {
+  if (!fs.existsSync(dir)) return;
+  const files = fs.readdirSync(dir);
+  if (files.length === 0) {
+    fs.rmdirSync(dir);
+    return;
+  }
+  files.forEach(file => {
+    const fullPath = path.join(dir, file);
+    if (fs.statSync(fullPath).isDirectory()) {
+      removeEmptyDirs(fullPath);
+    }
+  });
+  // After removing subdirs, check again
+  if (fs.existsSync(dir) && fs.readdirSync(dir).length === 0) {
+    fs.rmdirSync(dir);
+  }
+}
+
 // Main function
 function main() {
   // Parse command line arguments
   const args = process.argv.slice(2);
+  const mergeFlagIndex = args.indexOf('--merge');
+  const mergeMode = mergeFlagIndex !== -1;
+  if (mergeMode) args.splice(mergeFlagIndex, 1);
   if (args.length !== 2) {
-    console.error('Usage: node scripts/rename-md.js <old_path> <new_path>');
+    console.error('Usage: node scripts/rename-md.js <old_path> <new_path> [--merge]');
     process.exit(1);
   }
 
@@ -97,29 +143,46 @@ function main() {
     process.exit(1);
   }
 
-  try {
-    // Move/rename the file or folder
-    fse.moveSync(resolvedOldPath, resolvedNewPath, { overwrite: true });
-    console.log(`Moved/renamed ${resolvedOldPath} to ${resolvedNewPath}`);
-
-    // Update markdown links
-    console.log('Updating markdown links...');
-    const markdownFiles = getAllMarkdownFiles(docsDir);
-    console.log(`Found ${markdownFiles.length} markdown files to check`);
-
-    let updatedFilesCount = 0;
-    markdownFiles.forEach(filePath => {
-      if (updateMarkdownLinks(filePath, oldPath, newPath)) {
-        updatedFilesCount++;
+  if (fs.existsSync(resolvedNewPath)) {
+    if (mergeMode) {
+      // Only merge if both are directories
+      if (!fs.statSync(resolvedOldPath).isDirectory() || !fs.statSync(resolvedNewPath).isDirectory()) {
+        console.error('Error: --merge can only be used when both source and destination are directories');
+        process.exit(1);
       }
-    });
-
-    console.log(`Updated markdown links in ${updatedFilesCount} files under docs/.`);
-
-  } catch (error) {
-    console.error('Error:', error.message);
-    process.exit(1);
+      console.log(`Merging ${resolvedOldPath} into ${resolvedNewPath} (skipping conflicts)...`);
+      mergeDirectories(resolvedOldPath, resolvedNewPath);
+      // Remove the source directory only if empty (after merge)
+      removeEmptyDirs(resolvedOldPath);
+      console.log(`Merge complete. Skipped files remain in source if any conflicts occurred.`);
+    } else {
+      console.error(`Error: Destination already exists: ${resolvedNewPath}`);
+      process.exit(1);
+    }
+  } else {
+    try {
+      // Move/rename the file or folder
+      fse.moveSync(resolvedOldPath, resolvedNewPath);
+      console.log(`Moved/renamed ${resolvedOldPath} to ${resolvedNewPath}`);
+    } catch (error) {
+      console.error('Error:', error.message);
+      process.exit(1);
+    }
   }
+
+  // Update markdown links
+  console.log('Updating markdown links...');
+  const markdownFiles = getAllMarkdownFiles(docsDir);
+  console.log(`Found ${markdownFiles.length} markdown files to check`);
+
+  let updatedFilesCount = 0;
+  markdownFiles.forEach(filePath => {
+    if (updateMarkdownLinks(filePath, oldPath, newPath)) {
+      updatedFilesCount++;
+    }
+  });
+
+  console.log(`Updated markdown links in ${updatedFilesCount} files under docs/.`);
 }
 
 // Run the script

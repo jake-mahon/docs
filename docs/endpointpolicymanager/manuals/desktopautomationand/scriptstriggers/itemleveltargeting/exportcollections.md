@@ -47,7 +47,7 @@ Cloud, right-click the collection or the policy and select "Export as XML," as d
 Figure 32.
 
 **NOTE:** For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md).
 
 ![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_8.webp)
 

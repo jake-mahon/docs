@@ -58,7 +58,7 @@ For this method, you are not licensing Azure Active Directory, but rather your M
   [When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesmd/setup.md)for
   additional information on how to express the UPN and number of licenses needed for licensing your
   MDM service
-- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md)
+- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/testsample.md)
 - See Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/video/index.md)
 
 2 — Azure AD with no MDM service

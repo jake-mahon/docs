@@ -233,7 +233,7 @@ Endpoint Policy Manager MDM Licensing can be a little tricky.
 - If you rename the computer to have COMPUTER in the name, the computer will act fully licensed.
 - If we supplied a license file to you, we'd like for you to pre-test that out. Here's the video to
   demonstrate exactly how to verify the MDM license file (sent as an MSI file) will work.
-  [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md)
+  [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/testsample.md)
 
 ## Part 8: Final thoughts for Endpoint Policy Manager Cloud and Endpoint Policy Manager MDM
 

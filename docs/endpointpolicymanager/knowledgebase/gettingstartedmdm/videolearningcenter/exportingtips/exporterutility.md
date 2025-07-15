@@ -1,7 +1,7 @@
 ---
 title: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
 description: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
-sidebar_position: 10
+sidebar_position: 30
 ---
 
 # Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)

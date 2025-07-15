@@ -43,7 +43,7 @@ Here are some helpful tips to decide which side to use:
   switched mode).
 
 **NOTE:** See
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md)
 for additional information on how to export policies and use Endpoint Policy Manager Exporter
 
 Note that exported collections or policies maintain any Item-Level Targeting set within them. If

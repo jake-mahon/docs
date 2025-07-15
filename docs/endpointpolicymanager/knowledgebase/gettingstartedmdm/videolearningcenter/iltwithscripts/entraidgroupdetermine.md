@@ -1,3 +1,8 @@
+---
+title: "Use PP MDM to determine the Azure AAD Group Membership for User or Computers"
+description: "Use PP MDM to determine the Azure AAD Group Membership for User or Computers"
+sidebar_position: 30
+---
 # Use PP MDM to determine the Azure AAD Group Membership for User or Computers
 
 If you want to know which GROUPS your Users or Computers are in within Azure AD, then use Netwrix

@@ -28,7 +28,7 @@ XML," as demonstrated in Figure 51 and Figure 52.
 
 **NOTE:** For a video of exporting Endpoint Policy Manager Start Screen & Taskbar Manager and using
 Endpoint Policy Manager Exporter with an MDM service, watch
-[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md).
+[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/testsample.md).
 
 ![collections_policy_settings_18](/img/product_docs/endpointpolicymanager/startscreentaskbar/collections_policy_settings_18.webp)
 
