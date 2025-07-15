@@ -39,7 +39,7 @@ licensing.
 - [Why do I have to run the licensing tool / what information is gathered and sent to Endpoint Policy Manager for my trial (or becoming a customer?)](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/tool.md)
 - [What Logs do I need to send for troubleshooting LT (License Tool) or other MMC / .Net related functions?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/logs.md)
 - [How do I manually count the number of computers in Intune, and manually acquire the Intune "Company Name?"](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/intune.md)
-- [What are the most common questions about editing policies using the Endpoint Policy ManagerCloud policy editor (instead of using the MMC to upload to Endpoint Policy Manager Cloud?)](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithcl/knowledgebase/clienttipstricksandf/edit.md)
+- [What are the most common questions about editing policies using the Endpoint Policy ManagerCloud policy editor (instead of using the MMC to upload to Endpoint Policy Manager Cloud?)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/clienttips/edit.md)
 
 ## Requesting Licenses FAQ and Troubleshooting (Virtualization, Citrix, WVD, etc.)
 

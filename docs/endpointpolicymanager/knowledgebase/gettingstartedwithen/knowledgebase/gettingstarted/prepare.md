@@ -88,7 +88,7 @@ do anything.
 [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016/](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016/)
 
 **Step 2 –** Then be sure to run these steps on this video to make your first domain controller in a
-new domain: [How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md)
+new domain: [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
 
 **NOTE:** The domain controller name and domain name do no matter.
 
@@ -144,7 +144,7 @@ on the endpoint.
 **Step 5 –** (Recommended): Endpoint Policy Manager's engine can be controlled via ADMX settings and
 having these pre-staged and ready to go can help us workaround issues from time to time. To
 pre-install the ADMX settings please watch this video:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/admxfiles.md)
 
 **Step 6 –** (Recommended): If you want to perform some Endpoint Policy Manager Least Privilege base
 hits: Install any software you want to see magically work with Endpoint Policy Manager Least
@@ -203,7 +203,7 @@ To run Endpoint Policy Manager Un-licensed (any version):
 
     **NOTE:** When a computer has COMPUTER in the name it pretends to be fully licensed for
     trial purposes. More details on this topic:
-    [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/troubleshooting/mdm.md)
+    [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md)
 
 Example machine renamed to work UN-licensed:
 
@@ -253,10 +253,10 @@ Endpoint Policy Manager MDM.
 
 If you do not have a “real” or “not real domain” please see and perform these steps:
 
-**Step 1 –** [How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md)
+**Step 1 –** [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
 
 **Step 2 –**
-[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/cloud/testlab/renameendpoint.md)
+[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/renameendpoint.md)
 
 ## Part 9: Converting from another least-privilege tool to Endpoint Privilege Manager
 

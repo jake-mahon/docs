@@ -115,7 +115,7 @@ APPLICATIONS AT ALL.. Warning /
 - If YES, then the problem is likely something in Group Policy; some security setting which is
   preventing Endpoint Policy Manager from performing it's function. Provide us with PPLOGS and
   GPRESULT reports from
-  [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/import.md). Do not miss any
+  [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/import.md). Do not miss any
   steps
 - If NO.. then you need to BUILD UP the machine until you find the cause.
 - Remember: If this was a problem / bug affecting all customers, we would know it immediately. So

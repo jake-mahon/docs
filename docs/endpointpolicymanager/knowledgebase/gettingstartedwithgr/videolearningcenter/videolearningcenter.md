@@ -11,7 +11,7 @@ See the following Video topics for getting started with Group Policy.
 ## Getting Started
 
 - [Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/video/grouppolicy/explained.md)
-- [How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md)
+- [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
 - [Admin Console And CSE Installation](/docs/endpointpolicymanager/video/grouppolicy/install.md)
 - [Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/video/grouppolicy/gettingstarted.md)
 - [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/grouppolicy/renameendpoint.md)

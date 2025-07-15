@@ -123,7 +123,7 @@ MDM.
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager Cloud
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/deploy/grouppolicysettings.md).
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/grouppolicysettings.md).
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager MDM can be found

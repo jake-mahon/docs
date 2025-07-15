@@ -21,7 +21,7 @@ using Endpoint Policy Manager Cloud.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with domain-joined
 machines. See the
-[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/video/cloud/integration/onpremise.md)
+[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/onpremise.md)
 topic for additional information.
 
 To export a policy for later use with Endpoint Policy Manager Exporter or Endpoint Policy Manager

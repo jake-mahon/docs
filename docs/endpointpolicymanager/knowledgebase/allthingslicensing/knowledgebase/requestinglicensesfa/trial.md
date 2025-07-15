@@ -46,7 +46,7 @@ Simply rename a computer to have Computer in the name, and that's it. You're don
 methods of how to do that in Windows.
 
 Here's a video showing what happens when you rename a computer and how Endpoint Policy Manager
-reacts:[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/cloud/testlab/renameendpoint.md)
+reacts:[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/renameendpoint.md)
 
 ![812_1_image001](/img/product_docs/endpointpolicymanager/license/812_1_image001.webp)
 

@@ -25,8 +25,8 @@ In this case, you can license Endpoint Policy Manager with Endpoint Policy Manag
 Edition or Endpoint Policy Manager Cloud Edition.
 
 - See All Things Licensing > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md)
-- See Cloud edition: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md)
-- See[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/video/cloud/integration/onpremise.md)
+- See Cloud edition: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md)
+- See[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/onpremise.md)
 
 ## Azure Active Directory (also known as AAD) with or without an MDM service.
 
@@ -70,7 +70,7 @@ cost and moving parts.
 To do this, you would need to add Endpoint Policy Manager Cloud to your Azure AD by installing the
 Endpoint Policy Manager Cloud client on your .
 
-See [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md) for additional
+See [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md) for additional
 information on getting started and licensing with Endpoint Policy Manager Cloud edition
 
 ## AD Domain Controllers as VMs in Azure
@@ -88,9 +88,9 @@ You would typically use Group Policy edition and license a whole domain, OU or O
 Alternatively, you can use Endpoint Policy Manager Cloud edition and license each machine.
 
 - See All Things Licensing > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md)
-- [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md)
+- [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md)
 - See
-  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/video/cloud/integration/onpremise.md)
+  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/onpremise.md)
 
 ## Azure AD Domain Services (AS DS)
 

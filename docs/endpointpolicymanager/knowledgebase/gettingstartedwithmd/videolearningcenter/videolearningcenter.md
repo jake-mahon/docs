@@ -11,7 +11,7 @@ See the following Video topics for getting started with MDM.
 ## Getting Started
 
 - [Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/endpointpolicymanager/video/mdm/realgrouppolicy.md)
-- [How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md)
+- [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md)
 - [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md)
 - [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/video/mdm/microsoftintune.md)
 - [Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/video/mdm/mobileiron.md)

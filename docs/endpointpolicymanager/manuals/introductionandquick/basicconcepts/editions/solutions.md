@@ -119,7 +119,7 @@ You can use the Endpoint Policy Manager Cloud service to create Microsoft Group 
 Policy Manager directives and deliver them through the Internet.
 
 **NOTE:** For a video overview of Endpoint Policy Manager Cloud, see
-[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md).
+[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md).
 
 The diagram below shows how Endpoint Policy Manager Cloud works to deliver directives. Computers can
 be domain-joined or non-domain-joined. When you are a Endpoint Policy Manager SaaS customer, the
@@ -141,7 +141,7 @@ on how to do this can be found in the quick start topic:
 
 **NOTE:** For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
 the Endpoint Policy Manager Cloud installer, see:
-[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/video/cloud/mdm.md).
+[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md).
 
 ## Unified Endpoint Management Method
 

@@ -110,7 +110,7 @@ started video on how to install and run some initial tests at the following link
 ## GetStarted with the Endpoint Policy Manager Cloud Method
 
 If you want to get started right away with Endpoint Policy Manager Cloud, watch this video for a
-quick overview: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md).
+quick overview: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md).
 
 ## Get Started with Your MDM Provider or UEM Tool
 

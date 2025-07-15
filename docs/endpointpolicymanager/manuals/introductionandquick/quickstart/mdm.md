@@ -23,7 +23,7 @@ In the download, find the **Admin Console MSI** and install it manually on your
 machine needs to also have the GPMC pre-installed from Microsoft. It is recommended that you have
 both the Endpoint Policy Manager Admin Console and the GPMC installed on a “fake DC” exclusively for
 editing purposes. See the
-[How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md) video for details
+[How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md) video for details
 and how to do this.
 
 **Step 3 –** Install your license key or rename your example endpoint to have computer in the name.
