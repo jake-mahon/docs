@@ -16,7 +16,7 @@ either within the Netwrix Privilege Secure download, or the Netwrix Endpoint Pol
 (formerly PolicyPak) CSE found in the Netwrix Endpoint Policy Manager (formerly PolicyPak) download.
 
 **NOTE:** See the
-[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/video/leastprivilege/integration/privilegesecure.md)video
+[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/netwrixprivilegesecure/privilegesecure.md)video
 for a demo on the relationship of the Netwrix Privilege Secure and Netwrix Endpoint Policy Manager
 (formerly PolicyPak) downloads and their moving parts.
 

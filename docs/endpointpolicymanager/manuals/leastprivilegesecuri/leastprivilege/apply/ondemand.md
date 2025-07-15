@@ -7,7 +7,7 @@ sidebar_position: 10
 # Apply on Demand Rules
 
 **NOTE:** See the
-[Least Privilege Manager: Apply On Demand](/docs/endpointpolicymanager/video/leastprivilege/applyondemand.md) video for
+[Least Privilege Manager: Apply On Demand](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/applyondemand.md) video for
 information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
 
 The Apply on Demand feature enables advanced users to know when they should self-elevate their own

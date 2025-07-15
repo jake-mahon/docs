@@ -26,5 +26,5 @@ article.
 
 SecureRun will automatically try to block such attempts. For more information on how to deal wit
 this issue, please see
-[Why does Endpoint Policy Manager SecureRun block "inline commands" and what can I do to overcome or revert the behavior ?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/knowledgebase/troubleshooting/inlinecommands.md)
+[Why does Endpoint Policy Manager SecureRun block "inline commands" and what can I do to overcome or revert the behavior ?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/troubleshooting/inlinecommands.md)
 for guidance and details.

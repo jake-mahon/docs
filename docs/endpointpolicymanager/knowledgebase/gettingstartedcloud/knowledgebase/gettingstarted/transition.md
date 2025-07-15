@@ -73,7 +73,7 @@ Or you can export a whole category like this:
 
 You can also export settings en-mass across multiple GPOs using the Endpoint Policy Manager Exporter
 Utility. The steps to do that are here
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/methods/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/methodssccmandothero/exporterutility.md)
 
 Then you can upload them straight into Endpoint Policy Manager cloud using the Upload and link a new
 XML here. Or you can go to the XML Settings tab (not shown) and also upload them there for later
@@ -116,7 +116,7 @@ edit Endpoint Policy Manager Least Privilege Manager items.
 ![941_7_image-20230521113923-7_950x1063](/img/product_docs/endpointpolicymanager/cloud/941_7_image-20230521113923-7_950x1063.webp)
 
 See the
-[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/video/leastprivilege/cloudrules.md) topic
+[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/cloudrules.md) topic
 for additional information.
 
 You are advised to maintain a Windows based MMC editing station for testing because not every

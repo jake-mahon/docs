@@ -10,7 +10,7 @@ You might find that end users report that the Admin Approval pop-up appears even
 click on anything.
 
 **NOTE:** See the
-[Understand "Enforce Admin Approval for all installers" behavior](/docs/endpointpolicymanager/video/leastprivilege/adminapproval/enforce.md)
+[Understand "Enforce Admin Approval for all installers" behavior](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/enforce.md)
 video to learn how to avoid pop-ups with Admin Approval.
 
 This will generally happen when two things are true:

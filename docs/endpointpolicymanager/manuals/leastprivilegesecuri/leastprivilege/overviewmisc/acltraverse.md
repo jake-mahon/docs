@@ -34,18 +34,18 @@ As a result, when Notepadis run from the specified location it can edit the
 `c:\windows\system32\drivers\etc\hosts` file.
 
 **NOTE:** See the
-[Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](/docs/endpointpolicymanager/video/leastprivilege/acltraverse/modifyhosts.md)
+[Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/acltraverse/modifyhosts.md)
 video for a demo on how to use ACL Traverse to modify the hosts file.
 
 **NOTE:** See the
-[Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](/docs/endpointpolicymanager/video/leastprivilege/acltraverse/deleteicons.md)
+[Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/acltraverse/deleteicons.md)
 video for a demo on how to use ACL Traverse to delete icons on the desktop.
 
 **NOTE:** See the
-[Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](/docs/endpointpolicymanager/video/leastprivilege/acltraverse/ntfspermissions.md)
+[Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/acltraverse/ntfspermissions.md)
 video for a demo on how to use ACL Traverse to let any application in Programfiles overcome NTFS
 permissions.
 
 **NOTE:** See the
-[Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](/docs/endpointpolicymanager/video/leastprivilege/acltraverse/registry.md)
+[Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/acltraverse/registry.md)
 video for a demo of ACL Traverse and Registry.

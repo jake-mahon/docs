@@ -46,7 +46,7 @@ endpoint data
   For example Endpoint Policy Manager Least Privilege Manager events which can be stored for a time
   in Endpoint Policy Manager Cloud Service (not enabled for all customers.) Details of this feature
   can be seen
-  at[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/video/leastprivilege/cloudevents.md)
+  at[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/cloudevents.md)
   and details about specific event types (for example) can be found here:
   [List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/tipstricksandfaqs/eventcategories.md)
 

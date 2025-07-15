@@ -8,7 +8,7 @@ sidebar_position: 40
 
 **NOTE:** For an overview on elevating scripts and preventing scripts from running, which could need
 admin rights, see the
-[Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/video/leastprivilege/elevate/scripts.md)
+[Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/scripts.md)
 video.
 
 You might need to elevate a script that has contents that would perform admin-only functions, like

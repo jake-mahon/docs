@@ -12,9 +12,9 @@ event logs, and maybe you already know about on-prem Event Forwarding.
 
 **NOTE:** If you want to learn more about on-prem Event Forwarding, you can see my Walkthrough of
 that here
-[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/video/leastprivilege/windowseventforwarding.md)
+[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/windowseventforwarding.md)
 and
-[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/knowledgebase/eventing/windowseventforwarding.md).
+[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/eventing/windowseventforwarding.md).
 
 But how do we take on-prem events from Windows 10 (or Windows Server) and get the up to the cloud
 for later analysis? If you have 24, 250, or 25,000 domain joined (or even NON-domain joined)
