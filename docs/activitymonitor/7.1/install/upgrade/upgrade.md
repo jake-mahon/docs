@@ -8,7 +8,7 @@ sidebar_position: 30
 
 The purpose of this chapter is to provide the basic steps needed for upgrading Activity Monitor. See
 the
-[Software Compatibility & Versions](/docs/activitymonitor/7.1/install/overview.md#software-compatibility--versions)
+[Software Compatibility & Versions](/docs/activitymonitor/7.1/install/overview.md#software-compatibility-versions)
 section for information on integration with other Netwrix products.
 
 ## Considerations

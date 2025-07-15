@@ -1834,8 +1834,6 @@ Response: array of Policy
 
 Example:
 
-[Copy](javascript:void(0);)
-
 ```json
 [
     {
