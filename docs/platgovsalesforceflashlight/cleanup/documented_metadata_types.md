@@ -1,4 +1,8 @@
-# Documented Metadata Types
+---
+title: "Documented Metadata Types"
+description: "Documented Metadata Types"
+sidebar_position: 40
+---
 
 You can view the documented Metadata by **Type** or by Category.
 
