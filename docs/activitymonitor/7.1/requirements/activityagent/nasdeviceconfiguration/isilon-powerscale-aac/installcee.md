@@ -30,7 +30,7 @@ guide to install and configure the CEE. The installation will add two services t
 asynchronous bulk delivery (VCAPS) feature.
 
 After installation, open MS-RPC ports between the Dell device and the Dell CEE server. See the
-[Dell CEE Debug Logs](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/validate.md#dell-cee-debug-logs)
+[Dell CEE Debug Logs](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/celerra-vnx-aac/validate.md#dell-cee-debug-logs)
 section for information on troubleshooting issues related to Dell CEE.
 
 ## Configure Dell Registry Key Settings

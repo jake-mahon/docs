@@ -97,7 +97,7 @@ Dell Celerra® & VNX
 - VNX 8.1
 
 See the
-[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity.md)
+[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/celerra-vnx-aac/activity.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
