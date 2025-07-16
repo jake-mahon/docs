@@ -207,16 +207,22 @@ domain.
 
 5. Click **Save**.
 
-NOTE: When you change the DC priority for a domain or a child domain, it takes effect instantly.
+:::note
+When you change the DC priority for a domain or a child domain, it takes effect instantly.
 Data service reestablishes a connection with a DC based on new priority.
+:::
+
 
 ## Delete an Identity Store
 
 You can delete an identity store with all its configurations. As a result, Directory Manager cannot
 be connected to that identity store, nor can it be used in a Synchronize job.
 
-NOTE: You cannot delete an identity store that has been linked to another identity store. You must
+:::note
+You cannot delete an identity store that has been linked to another identity store. You must
 first delete the link(s) before deleting the identity store.
+:::
+
 
 **To delete an identity store:**
 

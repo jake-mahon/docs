@@ -146,7 +146,10 @@ For details on file logging and Windows logging, see the
 [Windows Logging](/docs/directorymanager/11.1/admincenter/applications/portal/server/log.md#windows-logging) topics. Replace references to the
 portal with the respective service.
 
-NOTE: Windows logging is not available for Data service and Security service.
+:::note
+Windows logging is not available for Data service and Security service.
+:::
+
 
 ### Change the File Logging Level for a Service
 
@@ -275,5 +278,8 @@ Step 2 – On the **Applications** page, click the **Data Service** tab.
 Step 3 – On the **Data Service** tab page, click the ellipsis button for a Data service and select
 **Delete**.
 
-NOTE: You cannot delete the default Data service. You cannot also delete a Data service that has
+:::note
+You cannot delete the default Data service. You cannot also delete a Data service that has
 been linked with a Directory Manager client, such as the Directory Manager portal.
+
+:::

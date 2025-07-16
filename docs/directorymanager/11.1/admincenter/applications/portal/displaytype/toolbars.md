@@ -48,8 +48,11 @@ You can customize the following toolbars:
 | Direct Reports Grid                                    | The **Organization** tab in user properties                                                                                                                                                                                                                                                                                                                  |
 
 
-NOTE: The **Computer Members of Grid** and **Contact Member of Grid** toolbars are not available for
+:::note
+The **Computer Members of Grid** and **Contact Member of Grid** toolbars are not available for
 a Microsoft Entra ID identity store.
+:::
+
 
 The buttons available on these toolbars are predefined. You cannot add or remove a button, but you
 can update a few details for a button, such as its name and image.

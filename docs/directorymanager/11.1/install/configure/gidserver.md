@@ -85,7 +85,10 @@ Select the relevant option:
     3. TCP Port: the default port for communication between nodes within the cluster. Modify the
        port number if the mentioned default port is not available.
 
-        NOTE: Make sure that the specified ports are available and unblocked.
+        :::note
+        Make sure that the specified ports are available and unblocked.
+        :::
+
 
     I will install and manage Elasticsearch myself: If you select this option, the following page is
     displayed:
@@ -133,14 +136,20 @@ Select the relevant option:
 
     ![Service Account Setting page](/img/product_docs/directorymanager/11.1/install/configure/serviceaccount.webp)
 
-    NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account
+    :::note
+    If you configure a Group Managed Service Account (gMSA) as an App Pool service account
     then the Directory Manager Configuration tool will add this account in the local administrators
     and IIS_IUSRS groups.
+    :::
 
-    NOTE: If you configure a normal user account as an App Pool service account and an AD identity
+
+    :::note
+    If you configure a normal user account as an App Pool service account and an AD identity
     store is created with a gMSA service account, then the App Pool service account must have the
     _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be
     a member of Backup Operators and IIS_IUSRS groups.
+    :::
+
 
     Step 15 – Directory Manager enables you to specify the service accounts to use for the Directory
     Manager App Pool and a default Administrative account for Directory Manager Admin Center.
@@ -150,10 +159,16 @@ Select the relevant option:
     | Directory Manager App Pool      | Use a domain account or a Group Managed Service Account (gMSA). The account must be a member of the Administrators group or both the Backup Operators and IIS_IUSRS groups. The account you specify will be used to manage the Directory Manager app pool in IIS. Directory Manager Data Service, Security Service, and the portals run under the app pool. By default, a local account, GroupIDSSuser, is set for the Directory Manager app pool, but you cannot proceed unless you change it to a domain account or gMSA. You can specify a local account (with local administrator rights) in app pool for a machine that is not joined to any domain (this applies to an Microsoft Entra ID identity store only). |
     | Directory Manager Administrator | Use this account as default Administrative account for first time login to Directory Manager Admin Center. This account is not associated with any identity store, but one that is specific to Directory Manager. This account works as an Admin of all Admin accounts of defined identity stores in Admin Center.                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-    NOTE: For Directory Manager App Pool, a domain account can be used for a machine joined to a
+    :::note
+    For Directory Manager App Pool, a domain account can be used for a machine joined to a
     domain.
+    :::
 
-    NOTE: Before you use a Group Managed Service Account, make sure that:
+
+    :::note
+    Before you use a Group Managed Service Account, make sure that:
+    :::
+
 
     - Key Distribution Service (KDS) is enabled on the Directory Manager machine.
     - Microsoft AD module for PowerShell is installed on the machine.
@@ -174,10 +189,16 @@ Create a new service account: Click the **Create New** button on the Service Acc
 On the Create Service Account dialog box, select the kind of account you want to create. Enter a
 name, container and password for the account. Click **Create**.
 
-NOTE: The logged-in user must have appropriate rights to create a new account.
+:::note
+The logged-in user must have appropriate rights to create a new account.
+:::
 
-NOTE: If Key Distribution Service (KDS) is not configured in the environment, a warning will be
+
+:::note
+If Key Distribution Service (KDS) is not configured in the environment, a warning will be
 displayed that you cannot use a Group Managed Service Account.
+:::
+
 
 Step 17 – Provide password for the App Pool service account (except for a Group Managed Service
 Account) in the Password box.

@@ -42,4 +42,7 @@ The table below displays the major functions that users can perform in Directory
 | Validate Your Profile         | Validate your profile after a particular time in order to ensure the user information in the directory.                                                                            |
 | User Account Settings         | Modify your profile information. Administrators can manage the user information, enable/disable the user, or expire a user.                                                        |
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+
+:::

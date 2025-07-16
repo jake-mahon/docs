@@ -29,9 +29,12 @@ You can specify the schema attributes (fields) for user profile validation. Thes
 (fields) are displayed on the **Validate Profile Properties** window of the portal, where users can
 validate and update the values for these attributes.
 
-NOTE: A few fields for profile validation are specified in the default portal template. You can add
+:::note
+A few fields for profile validation are specified in the default portal template. You can add
 more fields, edit the existing fields, or remove them. However, the **My Direct Reports** field can
 neither be edited nor removed.
+:::
+
 
 ### Property Validation for Groups
 
@@ -53,9 +56,12 @@ You can specify the schema attributes (fields) for group attestation. These attr
 displayed on the **Attest & Renew Group** wizard in the portal, where group owners can validate and
 update the values for these attributes.
 
-NOTE: A few fields for group attestation are specified in the default portal template. You can add
+:::note
+A few fields for group attestation are specified in the default portal template. You can add
 more fields, edit the existing fields, or remove them. However, the _Members_ grid can neither be
 edited nor removed.
+:::
+
 
 **What do you want to do?**
 

@@ -45,8 +45,11 @@ i.e., the password for the account they use to access their workstations and oth
 services. Users can change and reset their passwords, as well as unlock their accounts. They can
 also enroll their accounts in Directory Manager and link accounts in different identity stores.
 
-NOTE: Directory Manager does not support the upgrade of a Password Center portal (from a previous
+:::note
+Directory Manager does not support the upgrade of a Password Center portal (from a previous
 version) to an SSPR portal. You have to create the SSPR portal as a new portal.
+:::
+
 
 ## Linked Identity Stores and the Portal
 

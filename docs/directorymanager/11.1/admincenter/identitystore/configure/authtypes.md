@@ -46,6 +46,8 @@ Moreover, you must also enable enrollment for an identity store, so users can en
    factor authentication in Directory Manager.
 5. Click **Save**.
 
-NOTE: For second factor authentication and multifactor authentication to work in Directory Manager,
+:::note
+For second factor authentication and multifactor authentication to work in Directory Manager,
 the **Enrollment Enabled** check box must be selected. Else, users will not be able to enroll, which
 will prevent them from using Directory Manager.
+:::

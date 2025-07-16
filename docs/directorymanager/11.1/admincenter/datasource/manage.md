@@ -45,8 +45,11 @@ Step 4 – Click **Update Data Source**.
 You can delete a data source to prevent users from using it as source and destination in Synchronize
 jobs.
 
-NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
+:::note
+Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
 using that data source.
+:::
+
 
 Follow the steps to delete a data source.
 

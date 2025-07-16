@@ -43,13 +43,22 @@ _msExchangecoManagedby_ attribute.
 Directory Manager sends group expiry, deletion, and renewal notifications to all Exchange additional
 owners along with the group’s primary owner and additional owners.
 
-NOTE: For email notifications to be sent, an SMTP server must be configured for the connected
+:::note
+For email notifications to be sent, an SMTP server must be configured for the connected
 identity store.
+:::
 
-NOTE: Only users, contacts and security groups can be set as the primary and additional owners of a
+
+:::note
+Only users, contacts and security groups can be set as the primary and additional owners of a
 group. Moreover, only mail-enabled users can be set as Exchange additional owners.
+:::
 
-NOTE: Note the following for a Microsoft Entra ID based identity store:
+
+:::note
+Note the following for a Microsoft Entra ID based identity store:
+:::
+
 
 - Only users can be set as primary owners.
 - Microsoft Entra ID supports multiple primary owners for a group.
@@ -80,10 +89,16 @@ You can add and remove additional owners for a group.
 
 Additional owners have the same privileges as the primary owner to manage the group.
 
-NOTE: Only users, contacts and security groups can be set as the additional owners of a group.  
- If you specify a group, all its members are considered additional owners.
+:::note
+Only users, contacts and security groups can be set as the additional owners of a group.  
+If you specify a group, all its members are considered additional owners.
+:::
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 If the administrator has specified the Group Owner policy for the identity store, it may have an
 impact on the number of additional owners the group can have.
@@ -102,7 +117,10 @@ impact on the number of additional owners the group can have.
    notifications) are sent to the primary owner and all additional owners. To exclude an additional
    owner from receiving notifications, select the **Do not notify** check box.
 
-    NOTE: When a Smart Group Update job runs on a group, the notification behavior is as follows:
+    :::note
+    When a Smart Group Update job runs on a group, the notification behavior is as follows:
+    :::
+
 
     Even with the **Do not Notify** check box selected, the additional owner will receive the
     notifications if the administrator has included its email address for job-specific
@@ -257,6 +275,9 @@ Exchange additional group owners.
 5. Enter a search string to locate the object to add as an Exchange additional owner, or click
    **Advance** to use the [Find Dialog Box](/docs/directorymanager/11.1/portal/generalfeatures/find.md) for performing a search.
 
-    NOTE: Only mail-enabled users can be set as Exchange additional owners.
+    :::note
+    Only mail-enabled users can be set as Exchange additional owners.
+    :::
+
 
 6. Save the changes on the **Email** tab.

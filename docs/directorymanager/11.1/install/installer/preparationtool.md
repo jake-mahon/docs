@@ -71,7 +71,10 @@ below is installed, otherwise uninstall them manually:
 
 - Microsoft Edge Webview2 Rnntime
 
-    NOTE: If you need to re-run the preparation tool, uninstall this component first.
+    :::note
+    If you need to re-run the preparation tool, uninstall this component first.
+    :::
+
 
 After uninstalling the prerequisites, follow the steps given in the Run the Preparation Tool first
 time on a fresh machine section above.

@@ -82,9 +82,12 @@ attribute, it triggers the workflow.
 7. In the **Events** drop-down list, select the event (Create, Edit, Delete) that will trigger the
    workflow.
 
-    NOTE: (1) For the Create event, you can define only one workflow for an object.  
-     (2) A workflow for the Group object with the Delete event will be triggered when the group is
+    :::note
+    (1) For the Create event, you can define only one workflow for an object.  
+    (2) A workflow for the Group object with the Delete event will be triggered when the group is
     manually deleted.
+    :::
+
 
 8. Select the **Mail Approval** check box to enable the approver to approve or deny a workflow
    request from within the workflow email notification. These notifications contain the **Accept**
@@ -164,8 +167,11 @@ attribute, it triggers the workflow.
     2. On the **Add Fields** dialog box, select the check box for a field to add it to the workflow
        and click **Add**.
 
-    NOTE: The **Field(s)** section is not available when _Create_ is selected in the **Events**
+    :::note
+    The **Field(s)** section is not available when _Create_ is selected in the **Events**
     drop-down list.
+    :::
+
 
 15. By default, the workflow is enabled, as indicated by the **Enabled** toggle button at the top of
     the page. If required, use the toggle button to disable it.

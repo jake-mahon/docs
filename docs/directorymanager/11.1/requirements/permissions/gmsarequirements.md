@@ -55,7 +55,10 @@ used effectively, verify the following:
       'PrincipalsAllowedToRetrieveManagedPassword' parameter of the Set-ADServiceAccount cmdlet to
       add the missing principals (Directory Manager server and/or app pool account).
 
-NOTE: Restart the Directory Manager server if you apply any of the above.
+:::note
+Restart the Directory Manager server if you apply any of the above.
+:::
+
 
 **See Also**
 

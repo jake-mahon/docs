@@ -20,11 +20,14 @@ Use this page to specify basic information about the group.
 2. In the **Group Name** box, provide a name for the group by selecting a prefix and then entering a
    name for the group.
 
-    NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the
+    :::note
+    The prefix box is displayed if the administrator has defined the prefixes. See the
     [Group Name Prefixes](/docs/directorymanager/11.1/admincenter/identitystore/configure/prefixes.md)
     topic.  
-     These prefixes, when appended to group names, help standardize the group naming convention
+    These prefixes, when appended to group names, help standardize the group naming convention
     across the enterprise.
+    :::
+
 
 3. In the **Security** list, select a security type for the group.
 4. Set the group type by selecting an option for **Group Type**.
@@ -36,7 +39,10 @@ Use this page to specify basic information about the group.
     - **Microsoft 365** - this group will be used to select a set of people to collaborate and use a
       collection of resources.
 
-    NOTE: If the administrator has predefined a group type, you cannot change it.
+    :::note
+    If the administrator has predefined a group type, you cannot change it.
+    :::
+
 
 5. Enter a description for the group in the **Description** box.
 6. Click **Next**.

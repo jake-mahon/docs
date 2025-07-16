@@ -22,8 +22,11 @@ The following table lists the options available on the **General** tab for each 
 | Users, Contacts and Groups  | <ul><li>Users – Includes users</li><li>Contacts – Includes contacts</li><li>Groups – Includes groups</li></ul>                                                                                                                                                                                                                                                                                                                                                      |
 
 
-NOTE: The Computer and Contact object types are not supported in a Microsoft Entra ID identity
+:::note
+The Computer and Contact object types are not supported in a Microsoft Entra ID identity
 store.
+:::
+
 
 **Preview**
 

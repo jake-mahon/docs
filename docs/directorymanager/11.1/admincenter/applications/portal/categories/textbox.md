@@ -141,4 +141,6 @@ The API returns the following parameters:
 | message   | (Optional) For the ‘false’ status, you can return an error message in this parameter, that is displayed to the user. |
 | data      | Not in use                                                                                                           |
 
-NOTE: Data should be in JSON format.
+:::note
+Data should be in JSON format.
+:::

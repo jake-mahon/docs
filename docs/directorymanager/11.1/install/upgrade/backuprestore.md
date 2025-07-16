@@ -122,8 +122,11 @@ Step 2 – Copy the Jobs folder.
 
 Step 3 – Create a new folder (ideally on a different drive) and paste the **Jobs** folder into it.
 
-NOTE: If some scheduled tasks are defined for Synchronize jobs, you do not need to create their
+:::note
+If some scheduled tasks are defined for Synchronize jobs, you do not need to create their
 backup. On restoring, the scheduled tasks remain functional for Synchronize jobs.
+:::
+
 
 ### Restore
 
@@ -155,8 +158,11 @@ Step 2 – Copy all data at the location.
 Step 3 – Create a new folder (ideally on a different drive) and paste the copied data into that
 folder.
 
-NOTE: Note: You do not need to create a backup of scheduled tasks that include report criteria. On
+:::note
+Note: You do not need to create a backup of scheduled tasks that include report criteria. On
 restoring, the scheduled tasks remain functional for these reports.
+:::
+
 
 ### Restore
 

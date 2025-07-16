@@ -24,11 +24,14 @@ By default, or when no OU is set for an object type, role members can select any
 store to create objects of that type. For example, when no OU is specified for the User object, role
 members can create user objects in any OU in the identity store.
 
-NOTE: (1) When a user has multiple roles in an identity store with a different New Object policy for
+:::note
+(1) When a user has multiple roles in an identity store with a different New Object policy for
 each role, then the policies configured for all roles apply to the user. Hence, a user with three
 roles - where a different OU for the Group object is specified for each role - can create groups in
 any of the three OUs.  
 (2( The New Object policy does not apply to a Microsoft Entra ID identity store.
+:::
+
 
 ## Limit Object Creation to the OU the User Resides in
 
@@ -47,8 +50,11 @@ any of the three OUs.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: When role members create a new object, the _Container_ option shows the distinguished name of
+:::note
+When role members create a new object, the _Container_ option shows the distinguished name of
 the OU the logged-in user resides in as read-only.
+:::
+
 
 ## Restrict Role Members to Create Objects in Specific OUs
 
@@ -76,10 +82,13 @@ create group objects in those container(s) only.
 11. On the **Edit Security Role** page, click **Update Security Role**.
 12. On the **Security Roles** page, click **Save**.
 
-NOTE: When role members create a new object, the _Container_ option shows the containers specified
+:::note
+When role members create a new object, the _Container_ option shows the containers specified
 for the respective object type. The user can select the desired container to create the object
 there. When one container is specified, the _Container_ option displays its distinguished name as
 read-only.
+:::
+
 
 ## Remove an OU
 

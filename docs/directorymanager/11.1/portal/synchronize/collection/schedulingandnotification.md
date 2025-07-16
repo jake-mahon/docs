@@ -30,7 +30,10 @@ Step 3 – Enter the email address of notification recipients in the given box.
 
 Step 4 – From the **Send notification** list, select the notification trigger event. Options are:
 
-NOTE: This step requires that the identity store of the destination should be configured.
+:::note
+This step requires that the identity store of the destination should be configured.
+:::
+
 
 - **Always**: Send a notification every time the job collection is run, regardless of outcome.
 - **Records are updated**: Send a notification only when one or more records have been updated.

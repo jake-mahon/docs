@@ -21,6 +21,9 @@ email address to send email notifications to the user.
 
 Step 5 – Click **Next**.
 
-NOTE: To create a mail-enabled user, a messaging provider (such as Microsoft Exchange) must be
+:::note
+To create a mail-enabled user, a messaging provider (such as Microsoft Exchange) must be
 configured for the identity store.  
- If it is not configured, the Messaging page is disabled.
+If it is not configured, the Messaging page is disabled.
+
+:::

@@ -14,8 +14,11 @@ in Directory Manager. Moreover, they can view the actions that users perform in 
 such as password change/reset, account enrollment/unenrollment, and the date and time they logged
 into Directory Manager.
 
-NOTE: The helpdesk role must be granted the following permissions in an identity store to enable
+:::note
+The helpdesk role must be granted the following permissions in an identity store to enable
 them to perform their job:
+:::
+
 
 - Reset Any Password
 - Unlock Any Account
@@ -130,8 +133,11 @@ interaction** check box, and then select one of the following options:
   authentication types in the box (say, 2). Suppose an end-user is enrolled with 4 authentication
   types. A helpdesk user can choose any 2 of these types to authenticate that user.
 
-NOTE: Helpdesk users cannot authenticate end-users with the Linked account, Windows Hello, and
+:::note
+Helpdesk users cannot authenticate end-users with the Linked account, Windows Hello, and
 YubiKey authentication types.
+:::
+
 
 Step 9 – Click **OK**.
 
@@ -144,10 +150,13 @@ Step 11 – On the Security Roles page, click **Save**.
 You can specify the minimum number of security questions helpdesk role members must use to
 authenticate end-users before unlocking their identity store accounts or resetting their passwords.
 
-RECOMMENDED: As a prerequisite to applying this setting, make sure that the Security Questions
+:::info
+As a prerequisite to applying this setting, make sure that the Security Questions
 authentication type is enabled and configured for the identity store, as well as enforced as an
 account enrollment method for security roles. See the
 [Set up Authentication via Security Questions](/docs/directorymanager/11.1/admincenter/authpolicy/setupauth/securityquestions.md) topic.
+:::
+
 
 Follow the steps to enforce security questions for authentication.
 
@@ -173,9 +182,12 @@ number that indicates the number of questions to be answered.
 For security and privacy concerns, answers to security questions are not visible to helpdesk users.
 Helpdesk users have to type in the answers that end-users provide over phone for verification.
 
-NOTE: If a user has not enrolled his or her account using security questions, the helpdesk user will
+:::note
+If a user has not enrolled his or her account using security questions, the helpdesk user will
 get an error message when he or she attempts to authenticate this user for password reset/account
 unlock.
+:::
+
 
 Step 9 – Click **OK**.
 
@@ -228,8 +240,11 @@ As part of the Helpdesk policy, you can:
   and communicate it to the end-users.
 - Force end-users to change the password the next time they sign to their workstations.
 
+:::tip
 Remember, These settings are available if the _Reset Any Password_ permission is granted to the
 Helpdesk role in the identity store.
+:::
+
 
 ### Specify a Password Reset Method
 
@@ -276,12 +291,15 @@ Step 9 – On the Edit Security Role page, click **Update Security Role**.
 
 Step 10 – On the Security Roles page, click **Save**.
 
-NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
+:::note
+(1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
 end-users’ mobile phones. See the
 [Link an SMS Gateway Account to an Identity Store](/docs/directorymanager/11.1/admincenter/identitystore/configure/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.  
- (2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
+(2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
 the [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
+:::
+
 
 ### Force Users to Change Password on Next Logon
 

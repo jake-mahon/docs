@@ -109,10 +109,13 @@ If the server is not listed, click **Sync Again**.
 
 Step 12 – Click **Save**.
 
-NOTE: When Office 365 is configured as the messaging provider for an Active Directory identity
+:::note
+When Office 365 is configured as the messaging provider for an Active Directory identity
 store, Directory Manager creates distribution groups but does not populate their membership in
 Office 365. Use AD Connect or any directory synchronize tool to replicate information (such as
 membership info) between on-premises AD and Office 365.
+:::
+
 
 ## Set Google Workspace as Messaging Provider
 

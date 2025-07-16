@@ -37,9 +37,12 @@ run in future and set the notifications settings for the job.
         4. **Job fails**: Send a notification only when a fatal error occurs causing the job to
            fail.
 
-            RECOMMENDED: This step requires that notification settings are already configured in the
+            :::info
+            This step requires that notification settings are already configured in the
             connected identity store. Click Configure Notifications if notifications are not
             configured.
+            :::
+
 
 3. Click on **Advanced Settings** to go to **Advanced Setting For the Job** page:
 
@@ -78,10 +81,13 @@ run in future and set the notifications settings for the job.
         **Update only records that have changed** option. From here, select the attribute or field
         in the source that would contain a value for the time stamp.
 
-        NOTE: Synchronizing all fields every time the job runs can be inefficient. If your data
+        :::note
+        Synchronizing all fields every time the job runs can be inefficient. If your data
         source has a time stamp field that indicates the last time the row was updated or modified,
         Synchronize can use it to selectively update only the rows that have changed since the last
         time the job was run.
+        :::
+
 
    4. Click **Save**.
 

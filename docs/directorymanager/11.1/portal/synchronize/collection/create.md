@@ -34,8 +34,11 @@ collection. You can either add existing jobs or create new jobs to add them to t
 Step 6 – On the [Scheduling and Notifications](/docs/directorymanager/11.1/portal/synchronize/collection/schedulingandnotification.md) page, choose a schedule
 for a job collection and set up notification settings.
 
-NOTE: After creating the job collection, you can modify the schedule for the job collection and you
+:::note
+After creating the job collection, you can modify the schedule for the job collection and you
 can also create a new schedule.
+:::
+
 
 Step 7 – Select **Preview job collection when finished** checkbox to preview the job collection
 before executing it.

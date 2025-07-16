@@ -47,8 +47,11 @@ Permissions are discussed in the following table:
 | 8.  | Manage Any Profile               | Enables role members to update the profiles of other users.                                                                                      |
 | 9.  | Manage My Profile                | Enables role members to update their directory profiles.                                                                                         |
 
+:::tip
 Remember, Generalized permissions override limited permissions. Hence, if Manage My Profile is
 denied and Manage Any Profile allowed, role members can manage their own profiles as well.
+:::
+
 
 ## Groups
 
@@ -66,8 +69,11 @@ Permissions are discussed in the following table:
 | 3.  | Create Smart Group  | Enables role members to create Smart Groups and Dynasties (managed groups). |
 | 4.  | Manage Any Group | Enables role members to update the properties of any group, delete any group, expire any group, and more. |
 
+:::tip
 Remember, Generalized permissions override limited permissions. So, if Manage My Groups is denied
 and Manage Any Group allowed, role members can manage all groups, including their own groups.
+:::
+
 
 ## Admin Center
 
@@ -136,8 +142,11 @@ Permissions are discussed in the following table:
 | 6.  | Unenroll              | Enables helpdesk users to unenroll a user’s identity store account in Directory Manager. |
 | 7.  | Unlock Any Account    | Enables helpdesk users to unlock the identity store account for any user.                |
 
+:::tip
 Remember, Generalized permissions override limited permissions. For example, if Unlock My Account is
 denied and Unlock Any Account allowed, role members can unlock all accounts, including their own.
+:::
+
 
 ## Miscellaneous
 
@@ -197,6 +206,9 @@ Permissions are discussed in the following table:
 | 5.  | Remove user / group                  | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site.                                                                                                                                                                                                                                                                          |
 
 
-NOTE: For more information on role permissions, see the
+:::note
+For more information on role permissions, see the
 [User Roles in Microsoft Entra ID and Directory Manager ](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#user-roles-in-microsoft-entra-id-and-directory-manager)
 topic.
+
+:::

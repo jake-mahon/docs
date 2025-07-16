@@ -9,8 +9,11 @@ sidebar_position: 30
 Use this tab to view or modify the members of a group. By default, the primary owner is also a
 member of the group.
 
-NOTE: In a Microsoft Entra ID based identity store, only user objects can be added as members of an
+:::note
+In a Microsoft Entra ID based identity store, only user objects can be added as members of an
 Office 365 group.
+:::
+
 
 **Members**
 
@@ -25,9 +28,12 @@ Displays a list of member objects in this group.
 | Beginning    | Shows the beginning date of the temporary addition or removal. |
 | Ending       | Shows the ending date of the temporary addition or removal. |
 
-**NOTE:** For each column, an item level filter is also available that lets you filter records based on
+:::note
+For each column, an item level filter is also available that lets you filter records based on
 a particular criterion. For example; to show objects whose display names start with D, type **D** in
 the box under the **Display Name** header and press Enter.
+:::
+
 
 The Membership Life Cycle job updates the temporary membership of groups. It adds and removes
 temporary members from group membership on the specified dates.
@@ -45,10 +51,13 @@ search.
 
 The selected members get listed in the **Members** grid.
 
-**NOTE:** This button is disabled for Smart Groups and Dynasties since their memberships is determined
+:::note
+This button is disabled for Smart Groups and Dynasties since their memberships is determined
 by the query set on the [Group properties - Smart Group/Query Designer tab](/docs/directorymanager/11.1/portal/group/properties/smartgroup.md).  
- See
+See
 [Schedule periodic membership updates for Smart Groups/Dynasties](/docs/directorymanager/11.1/portal/group/workingwithgroups/scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties).
+:::
+
 
 **Import**
 

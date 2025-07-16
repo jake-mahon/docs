@@ -17,8 +17,11 @@ A workflow triggers when a certain operation, performed by a user, meets the cri
 that workflow. Designated users can approve or deny workflow requests using the Directory Manager
 portal.
 
-NOTE: Workflows require an SMTP server to be configured for the identity store. See the
+:::note
+Workflows require an SMTP server to be configured for the identity store. See the
 [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
+:::
+
 
 ## System Workflows
 
@@ -38,8 +41,11 @@ trigger when their associated events occur:
 
 You can also define new workflows for an identity store.
 
-NOTE: You cannot delete a system workflow, but you can disable it. You can also modify it to a
+:::note
+You cannot delete a system workflow, but you can disable it. You can also modify it to a
 limited extent.
+:::
+
 
 ## Synchronize Jobs and Workflows
 

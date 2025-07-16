@@ -13,11 +13,17 @@ You can define a membership policy for groups and OUs. In case of an OU, the pol
 groups in that OU. The Membership Life Cycle schedule is responsible for applying membership
 lifecycle policies to groups.
 
-NOTE: Membership lifecycle policies apply to static groups only. You cannot specify system critical
+:::note
+Membership lifecycle policies apply to static groups only. You cannot specify system critical
 objects, Smart Groups, and Dynasties as target groups in a policy.
+:::
 
-NOTE: When Smart Groups and Dynasties reside in a target OU, Directory Manager does not process
+
+:::note
+When Smart Groups and Dynasties reside in a target OU, Directory Manager does not process
 them.
+:::
+
 
 ## Types of Membership Lifecycle Policies
 
@@ -228,9 +234,12 @@ Consider the following:
   **Example:** Let’s assume a policy is active from Jan. 20-31. Reapplying it on Feb 1 will have no
   impact.\
 
-NOTE: When you move a group from a target OU in a policy (OUA) to an OU that is not the target of
+:::note
+When you move a group from a target OU in a policy (OUA) to an OU that is not the target of
 any policy (OUB), the policy applied to the group in OUA will continue to apply to till its end
 date.
+:::
+
 
 **To reapply a policy:**
 

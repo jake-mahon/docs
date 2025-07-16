@@ -16,7 +16,10 @@ The following events are logged on this page:
 - When a direct report is removed from your direct reports.
 - When you or any other user makes certain changes to the properties of a direct report.
 
-NOTE: When any of your direct reports is deleted, its history is also deleted.
+:::note
+When any of your direct reports is deleted, its history is also deleted.
+:::
+
 
 ## History view modes
 

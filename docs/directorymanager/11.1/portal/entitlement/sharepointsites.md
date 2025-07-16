@@ -72,8 +72,11 @@ Information includes:
 
     You can view and update properties, depending on your rights and privileges.
 
-    NOTE: For groups, this functionality is available for domain groups only; SharePoint groups are
+    :::note
+    For groups, this functionality is available for domain groups only; SharePoint groups are
     not linked.
+    :::
+
 
 - Clicking a level for a user displays the effective permissions assigned to this user on the
   file/folder.

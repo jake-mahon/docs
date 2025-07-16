@@ -96,5 +96,8 @@ Follow these steps to remove Directory Manager certificates from IIS:
     - GroupIDSecurityService
     - Imanami GroupID Certificate
 
-NOTE: Do not remove these certificates if another Directory Manager version is installed on the
+:::note
+Do not remove these certificates if another Directory Manager version is installed on the
 machine.
+
+:::

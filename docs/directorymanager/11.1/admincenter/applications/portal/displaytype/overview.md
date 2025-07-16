@@ -51,5 +51,7 @@ You can customize the following for a portal:
   Groups** tab in group properties. See the
   [Specify Attributes for Object List View](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/objectlist.md) topic.
 
-NOTE: Design settings are available for a standard Directory Manager portal, and not for a
+:::note
+Design settings are available for a standard Directory Manager portal, and not for a
 Self-Service Password Reset portal.
+:::

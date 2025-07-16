@@ -19,8 +19,11 @@ update process:
   Update command, Directory Manager obtains the query results, adds the objects to include, and then
   removes the objects to exclude.
 
-NOTE: For best performance, use query criteria to include or exclude objects as opposed to
+:::note
+For best performance, use query criteria to include or exclude objects as opposed to
 statically selecting the objects using this tab.
+:::
+
 
 **Include**
 

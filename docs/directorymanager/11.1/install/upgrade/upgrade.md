@@ -26,8 +26,11 @@ Step 2 – Read the welcome message and click **Next**.
 Step 3 – From the Select the previous version to upgrade list, select the Directory Manager version
 to upgrade from.
 
-NOTE: The following steps discuss the upgrade process with Directory Manager 10 as the source
+:::note
+The following steps discuss the upgrade process with Directory Manager 10 as the source
 version. The process may vary for different source versions.
+:::
+
 
 Step 4 – Click **Next**.
 
@@ -42,13 +45,16 @@ can choose to upgrade all or selective data of the previous version. Options are
 
     ![3-select_modules-custom](/img/product_docs/directorymanager/11.1/install/upgrade/3-select_modules-custom.webp)
 
-    NOTE: If later on, you wish to upgrade specific groups and their history via the Upgrade-Group
+    :::note
+    If later on, you wish to upgrade specific groups and their history via the Upgrade-Group
     commandlet, then you must upgrade the Configuration and History in the first upgrade run. This
     will upgrade the history in the database as per Directory Manager 11.1 format and replicates it
     to Elasticsearch. Later on, when you upgrade specific groups and their history using the
     Upgrade-Group commandlet, that will be done successfully. See the
     [Upgrade-Group](/docs/directorymanager/11.1/managementshell/smartgroup/upgradegroup.md) commandlet for additional
     information.
+    :::
+
 
     If you want to upgrade configurations, history and all groups using the Directory Manager
     Upgrade wizard , then you must select the Configurations, History, and Groups checkboxes.
@@ -103,8 +109,11 @@ messaging providers.
 
     ![synchronize_upgrade](/img/product_docs/directorymanager/11.1/install/upgrade/synchronize_upgrade.webp)
 
-    NOTE: The service account you provide here should have at least _read_ permission in the entire
+    :::note
+    The service account you provide here should have at least _read_ permission in the entire
     forest, so that all objects from the forest can be replicated to Elasticsearch.
+    :::
+
 
     The wizard does not create a separate identity store for each child domain in the same forest.
     In case it cannot determine a forest structure, it creates separate identity stores for each
@@ -140,15 +149,21 @@ for that domain exists or not.
   Directory Manager 11.1.  
   ![reports_upgrade](/img/product_docs/directorymanager/11.1/install/upgrade/reports_upgrade.webp)
 
-NOTE: If no report has been generated in Directory Manager 10, the page related to reports upgrade
+:::note
+If no report has been generated in Directory Manager 10, the page related to reports upgrade
 will not be displayed.
+:::
+
 
 Step 13 – During upgrade, Synchronize schedules are also moved to identity stores.  
 The Upgrade wizard will check the jobs added to a schedule. If the destination in a job is a
 directory provider, it will automatically move the schedule to the respective identity store.
 
+:::tip
 Remember, during upgrade, identity stores are created for destination directory providers of
 Synchronize jobs (i.e., for providers that do not have an identity store in the source version).
+:::
+
 
 Consider the following:
 
@@ -170,9 +185,12 @@ Step 14 – Click **Next**.
 This page displays a complete summary of the data to be copied/upgraded for your selected options.
 These options were selected on the Select modules to upgrade page..
 
-NOTE: If there are any disabled identity store(s) in the source Directory Manager version, Directory
+:::note
+If there are any disabled identity store(s) in the source Directory Manager version, Directory
 Manager will not upgrade those identity store(s). However, data of those identity store(s) will
 remain intact in the source Directory Manager version.
+:::
+
 
 Step 15 – Review the summary and click **Next**.
 

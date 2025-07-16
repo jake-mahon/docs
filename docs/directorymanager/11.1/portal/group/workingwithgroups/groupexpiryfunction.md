@@ -20,7 +20,10 @@ Follow the steps to expire a group manually.
 
 2. On the page displayed, select the required group and click **Expire** on the toolbar.
 
-NOTE: Note the following:
+:::note
+Note the following:
+:::
+
 
 - When you try to manually expire a group with the expiry policy set to ‘Never Expire’, an error
   message is displayed, informing you that the group cannot be expired.
@@ -67,8 +70,11 @@ to the [My Expired Groups](/docs/directorymanager/11.1/portal/group/mygroups/mye
 
 4. Click **Save**.
 
-NOTE: If the Directory Manager administrator has specified this action for review, your changes will
+:::note
+If the Directory Manager administrator has specified this action for review, your changes will
 not take effect until verified by an approver. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Attest an expiring group
 

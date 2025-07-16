@@ -10,8 +10,11 @@ You can standardize group names in the directory by defining prefixes. When user
 using the Directory Manager portal, they must select a prefix, which is added to the group’s name
 and display name.
 
-NOTE: The Group Name Prefixes policy does not apply when a user creates a group using Directory
+:::note
+The Group Name Prefixes policy does not apply when a user creates a group using Directory
 Manager Management Shell.
+:::
+
 
 You can define group name prefixes (a) for an identity store, (b) for security roles in an identity
 store, or (c) both at the identity store and role levels.
@@ -26,12 +29,15 @@ store, or (c) both at the identity store and role levels.
   a group’s name. However, when prefixes are enforced at the role level, role members can only
   select a role-specific prefix to append a group’s name.
 
-NOTE: (1) For a user with multiple roles, prefixes for all roles are displayed when creating or
+:::note
+(1) For a user with multiple roles, prefixes for all roles are displayed when creating or
 updating groups.  
 (2) If prefixes are enforced for the highest priority role of a user, he or she must select a prefix
 from the list of prefixes defined for this highest priority role.  
 (3) If prefixes are enforced for a role other than the highest priority role of a user, enforcement
 does not apply to him or her.
+:::
+
 
 Consider the following:
 

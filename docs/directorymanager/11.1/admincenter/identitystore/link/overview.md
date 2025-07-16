@@ -16,8 +16,11 @@ For example, you can create a link between the following types of identity store
 - Two Microsoft Entra ID identity stores
 - An Active Directory identity store and a Google Workspace identity store
 
-NOTE: (1) Two identity stores built on the same domain cannot be linked.  
+:::note
+(1) Two identity stores built on the same domain cannot be linked.  
 (2) An identity store must be replicated in Directory Manager before it can be linked.
+:::
+
 
 ## Linked Identity Stores and the Directory Manager Portal
 
@@ -102,7 +105,10 @@ value for the distinguishedname attribute in dentityStoreA and an object has _Ma
 for the cn attribute in dentityStoreB, Directory Manager identifies them as identical objects
 existing in two distinct directories, and links them.
 
-RECOMMENDED: For mapping, always use attributes that store unique values.
+:::info
+For mapping, always use attributes that store unique values.
+:::
+
 
 ## How to Link Multiple Identity Stores
 

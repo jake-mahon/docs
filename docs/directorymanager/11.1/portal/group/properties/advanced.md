@@ -22,8 +22,11 @@ Set a mail-enabled group (Group A) to send out-of-office auto-replies to the mes
 (sender), when the group (Group A) receives a message and one or more group members have
 out-of-office status.
 
-NOTE: This setting applies if Microsoft Exchange is configured as the messaging system for the
+:::note
+This setting applies if Microsoft Exchange is configured as the messaging system for the
 identity store.
+:::
+
 
 **Hide membership**
 
@@ -45,4 +48,7 @@ Options are:
   a message sent to the group was not delivered to group members.
 - **Do not send delivery report** - Non-delivery reports are not sent to anyone.
 
-NOTE: Non-delivery reports are sent if an SMTP server is configured for the identity store.
+:::note
+Non-delivery reports are sent if an SMTP server is configured for the identity store.
+
+:::

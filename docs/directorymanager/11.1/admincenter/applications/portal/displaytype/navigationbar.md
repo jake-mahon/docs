@@ -97,8 +97,11 @@ Note the following:
     - If an image has been uploaded, the very image is displayed. Click the icon below the image to
       replace the existing image with a new one.
 
-        NOTE: Image dimensions: 30 x 30 pixels  
-         Supported formats: .webp, .jpg, .jpe, .jpeg
+        :::note
+        Image dimensions: 30 x 30 pixels  
+        Supported formats: .webp, .jpg, .jpe, .jpeg
+        :::
+
 
 11. Click **OK**.
 12. Click **Save** on the **Navigation Bar** page.

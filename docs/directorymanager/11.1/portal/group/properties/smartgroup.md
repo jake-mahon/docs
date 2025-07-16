@@ -11,8 +11,11 @@ updates.
 
 The group’s membership is updated with the records fetched by the query.
 
-NOTE: In case of an Office 365 group in a Microsoft Entra ID based identity store, group membership
+:::note
+In case of an Office 365 group in a Microsoft Entra ID based identity store, group membership
 is updated with user objects only.
+:::
+
 
 Membership update settings defined for the identity store also impact Smart Group and Dynasty
 membership update.
@@ -56,8 +59,11 @@ From the **Scheduled Job** list, select a Smart Group Update job to associate wi
 
 This list contains Smart Group Update jobs define for the identity store.
 
-NOTE: If the administrator has enforced the job selection option, you cannot save any changes unless
+:::note
+If the administrator has enforced the job selection option, you cannot save any changes unless
 you associate a scheduled job with this group.
+:::
+
 
 **Updated On**
 

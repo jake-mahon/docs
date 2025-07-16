@@ -16,9 +16,12 @@ In such a situation as this, helpdesk users can unlock user accounts in an ident
 Helpdesk may have to authenticate users before unlocking their accounts. See the
 [Helpdesk Policy ](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
 
-NOTE: You can unlock the account of unenrolled users if (a) the **Unlock Any Account** permission
+:::note
+You can unlock the account of unenrolled users if (a) the **Unlock Any Account** permission
 has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted
 mode.
+:::
+
 
 ## Unlock User Accounts in Unrestricted Mode
 

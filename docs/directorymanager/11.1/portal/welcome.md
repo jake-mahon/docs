@@ -36,5 +36,8 @@ that users enter correct data before changes are committed to the directory.
 A Directory Manager portal can be linked with multiple identity stores, thus eliminating the need to
 create a separate portal for each identity store. Users can select an identity store to log in.
 
-NOTE: Since the administrator can customize the portal for different identity stores and for
+:::note
+Since the administrator can customize the portal for different identity stores and for
 different user roles within an identity stores, you may not have access to all portal features.
+
+:::

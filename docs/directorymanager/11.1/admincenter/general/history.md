@@ -51,7 +51,8 @@ and
 topics. Your desired setting applies to all history tracked for the respective identity store,
 including that tracked for helpdesk and Admin Center.
 
-NOTE: Actions tracked under Admin Center history are independent of an identity store. In this case,
+:::note
+Actions tracked under Admin Center history are independent of an identity store. In this case,
 history retention settings apply to a history item in the context of the identity store selected by
 the user to log into Admin Center to perform that action.  
 **Example:** UserA selects IdentityStoreA to sign into Admin Center and creates an SMS gateway
@@ -59,6 +60,8 @@ account. This user then selects IdentityStoreB to sign into Admin Center and cre
 Manager portal. Both actions are logged in Admin Center history. However, history retention setting
 of IdentityStoreA will apply to the SMS gateway account creation action and that of IdentityStoreB
 will apply to the Directory Manager portal creation action.
+:::
+
 
 **Event Logging**
 

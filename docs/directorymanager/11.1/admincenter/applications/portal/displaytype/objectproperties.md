@@ -20,8 +20,11 @@ directory objects:
 - Computer (Only available for adding to group memberships in the portal. Its properties are
   read-only.)
 
-NOTE: A Microsoft Entra ID identity store does not support the _computer_ and _contact_ object
+:::note
+A Microsoft Entra ID identity store does not support the _computer_ and _contact_ object
 types.
+:::
+
 
 In the Directory Manager portal, the properties page of an object has multiple tabs, where each tab
 groups similar attributes. These tabs are referred to as categories.

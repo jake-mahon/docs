@@ -50,7 +50,10 @@ a user must select an identity store to connect to, for performing password mana
 
 4. Click **Save.**
 
-NOTE: You may observe the following message on the **Server Settings – General** page:
+:::note
+You may observe the following message on the **Server Settings – General** page:
+:::
+
 
 ![linked_message](/img/product_docs/directorymanager/11.1/admincenter/portal/linked_message.webp)
 

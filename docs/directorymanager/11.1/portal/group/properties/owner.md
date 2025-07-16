@@ -14,17 +14,23 @@ depending on the Group Owner policy.
 
 Additional owners have the same privileges as the primary owner to manage the group.
 
-NOTE: Only users, contacts and security groups can be set as the primary and additional owners of a
+:::note
+Only users, contacts and security groups can be set as the primary and additional owners of a
 group.  
- If you specify a group, all its members are considered additional owners.
+If you specify a group, all its members are considered additional owners.
+:::
+
 
 You can also specify Exchange additional owners for the group. See the
 [Group properties - Email tab](/docs/directorymanager/11.1/portal/group/properties/email.md) in group properties.
 
-NOTE: 1. For groups in an Microsoft Entra ID based identity store, only users can be set as primary
+:::note
+1. For groups in an Microsoft Entra ID based identity store, only users can be set as primary
 owners. Moreover, Microsoft Entra ID supports multiple primary owners for a group. Exchange
 additional owners are not supported.  
 2. A group must have at least one primary owner.
+:::
+
 
 **Owner**
 
@@ -37,8 +43,11 @@ If the administrator has not enforced the selection of a primary owner in the Gr
 you can also remove the primary owner. Click the **Remove** button next to the **Owner** box to
 remove the primary owner.
 
-NOTE: In a Microsoft Entra ID based identity store, use the **Add** and **Remove** buttons to update
+:::note
+In a Microsoft Entra ID based identity store, use the **Add** and **Remove** buttons to update
 the group's primary owners.
+:::
+
 
 **Suggested Owners**
 
@@ -72,11 +81,14 @@ The **Additional Owners** grid displays the following information:
 | Do not notify | By default, all group-related notifications (such as expiry, deletion, and renewal notifications) are sent to the primary owner and all additional owners, so they can take the necessary action indicated. <br />To exclude an additional owner from receiving notifications, select the **Do not notify** check box. <br />**NOTE:** When a Smart Group Update job runs on a group, the notification behavior is as follows: Even when the **Do not Notify** check box is selected, the additional owner will receive the notifications if the administrator has included its email address for job-specific notifications. |
 
 
-**NOTE:** For each column, a filter is also available that lets you filter records based on a criterion.
+:::note
+For each column, a filter is also available that lets you filter records based on a criterion.
 For example; to show objects whose display names start with D, type D in the box under the **Name**
 header and press **Enter**.  
 The Managed By Life Cycle job updates the temporary ownership of groups by adding and removing
 temporary owners on the specified dates.
+:::
+
 
 Consider a scenario where the Managed By Life Cycle job is scheduled to run once a week, say
 Mondays. If an object is to be added as a group’s temporary additional owner for three days -
@@ -109,7 +121,10 @@ Select the attributes you want to export. For information and instructions, see
 
 To remove an object from the additional owners list, select it and click **Remove**.
 
-NOTE: On saving group properties, you may observe a message, asking you to select X number of
+:::note
+On saving group properties, you may observe a message, asking you to select X number of
 additional owners. It occurs because the Group Owner policy defined for your role at the identity
 store level requires that the group must have at least x number of additional owners. Do the needful
 and then save the information.
+
+:::

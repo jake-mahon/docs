@@ -94,9 +94,12 @@ take if the data or object being exported from the source does not exist at the 
    Select the required Active Directory attribute from it to search matching group members in the
    destination.
 
-    NOTE: A Synchronize job can only create groups at the destination. In order to sync group
+    :::note
+    A Synchronize job can only create groups at the destination. In order to sync group
     members, it searches Active Directory for the matching objects based on the Member Key field and
     adds them to the group membership.
+    :::
+
 
 6. To select all the fields, check the **All Fields** checkbox below.
 7. Click **Save**.

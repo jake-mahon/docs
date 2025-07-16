@@ -28,9 +28,12 @@ process the groups that reside therein. Groups that reside outside of the target
 be processed by the schedule; hence, the group life cycle policy is not applied to them. See the
 [Group Life Cycle Schedule](/docs/directorymanager/11.1/admincenter/schedule/grouplifecycle.md) topic.
 
-NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the
+:::note
+Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the
 [Group Expiration Policy](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#group-expiration-policy) section in the
 [Microsoft Entra ID vs. Active Directory Identity Stores](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md) topic.
+:::
+
 
 ## Set a Default Expiry Policy for Groups
 
@@ -97,10 +100,13 @@ those containers.
 
 5. Click **Save**.
 
-NOTE: If a container is set as target in a Group Life Cycle schedule while it is also listed as an
+:::note
+If a container is set as target in a Group Life Cycle schedule while it is also listed as an
 exempted container in the Group Lifecycle policy, the schedule does not process it. As a result,
 different aspects of the Group Lifecycle policy, such as group expiry and group attestation does not
 apply to groups in the container.
+:::
+
 
 ## Exempt Security Groups from Expiry
 
@@ -111,8 +117,11 @@ expire security groups.
 When a security group expires, its membership is cleared. However, Directory Manager keeps a backup
 of its membership in the database.
 
-NOTE: In a Microsoft Entra ID identity store, the security group expiry option also applies to
+:::note
+In a Microsoft Entra ID identity store, the security group expiry option also applies to
 Office 365 groups.
+:::
+
 
 **The security group expiration paradox**
 

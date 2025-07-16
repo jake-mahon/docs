@@ -45,7 +45,10 @@ to link to the master account. A message, _Account has been successfully linked_
 If the master account is not enrolled yet, it automatically gets enrolled when an account is linked
 to it.
 
-NOTE: An already enrolled or linked account cannot be linked to a master account.
+:::note
+An already enrolled or linked account cannot be linked to a master account.
+:::
+
 
 Step 4 – Select the **Allow Authentication** option for the account(s) you want to use to
 authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.
@@ -93,7 +96,10 @@ displayed.
 If the master account is not enrolled yet, it automatically gets enrolled when an account is linked
 to it.
 
-NOTE: An already enrolled or linked account cannot be linked to a master account.
+:::note
+An already enrolled or linked account cannot be linked to a master account.
+:::
+
 
 Step 5 – Turn on the **Allow Authentication** button against the account(s) you want to use to
 authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.

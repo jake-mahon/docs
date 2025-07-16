@@ -40,8 +40,11 @@ group can change the primary owner, but cannot remove it.
    If this check box is clear, role members can choose to remove the primary owner while creating or
    updating groups.
 
-    NOTE: In a Microsoft Entra ID identity store, a primary owner must be specified for groups,
+    :::note
+    In a Microsoft Entra ID identity store, a primary owner must be specified for groups,
     regardless of whether the Group Owners policy enforces it or not.
+    :::
+
 
 7. Click **OK**.
 8. On the **Edit Security Role** page, click **Update Security Role**.
@@ -76,6 +79,8 @@ role members can have any number of additional owners and even no additional own
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: When additional owners have been added using an earlier version of Directory Manager, and
+:::note
+When additional owners have been added using an earlier version of Directory Manager, and
 their number exceeds the value of this setting, Directory Manager will retain them. However, more
 additional owners cannot be added.
+:::

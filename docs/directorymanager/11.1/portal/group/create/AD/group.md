@@ -9,9 +9,12 @@ sidebar_position: 20
 Using Directory Manager portal, you can create static groups and Smart Groups in an Active Directory
 identity store.
 
-NOTE: If the Directory Manager administrator has specified the group creation action for review, the
+:::note
+If the Directory Manager administrator has specified the group creation action for review, the
 new group will be created after it is verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md)topic for additional information.
+:::
+
 
 ## Create a Static Group
 
@@ -73,7 +76,10 @@ A password expiry group is a Smart Group whose membership contains users whose i
 account passwords are approaching their expiry dates. Members of this group are notified by email to
 reset their passwords. When they do so, they are automatically removed from the group membership.
 
-NOTE: Password Expiry group is not supported in Microsoft Entra ID.
+:::note
+Password Expiry group is not supported in Microsoft Entra ID.
+:::
+
 
 Follow the steps to create a Password Expiry Group:
 

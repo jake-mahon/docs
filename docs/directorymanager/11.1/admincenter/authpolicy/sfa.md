@@ -15,7 +15,10 @@ Once enrolled, role members must authenticate their accounts using an authentica
 enrolled with, while signing into Admin Center or theDirectory Manager portal. Users enrolled with
 multiple authentication types can use any one type to authenticate.
 
-NOTE: Directory Manager SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::note
+Directory Manager SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::
+
 
 ## Configure Second Factor Authentication
 

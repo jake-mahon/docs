@@ -15,8 +15,11 @@ You can use an existing account, provided it has the required permissions, or yo
 one. Instructions for both options are discussed in the following sections, although it is
 recommended that you create a new service account rather than using an existing account.
 
-NOTE: You must add the service account to the membership of the Local Administrator group of the
+:::note
+You must add the service account to the membership of the Local Administrator group of the
 member server on which Directory Manager is installed.
+:::
+
 
 ## Use an Existing Account as a Service Account
 

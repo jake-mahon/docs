@@ -109,13 +109,19 @@ The Authentication dialog box displays your accounts in the respective identity 
 used for signing in. Select an account to authenticate with it or click **Login with a different
 user** to provide the credentials of another account to run the schedule in the identity store.
 
-NOTE: Make sure this account falls under a high priority security role that has elevated permissions
+:::note
+Make sure this account falls under a high priority security role that has elevated permissions
 in the identity store (for example, Administrator).
+:::
 
-NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify
+
+:::note
+If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify
 the logged-in user's account. See the
 [Schedules for Microsoft Entra ID Identity Store](overview.md#schedules-for-microsoft-entra-id-identity-store)
 section of the [Schedules](/docs/directorymanager/11.1/admincenter/schedule/overview.md) topic for additional information.
+:::
+
 
 Step 14 – On the Create Schedule page, click **Create Schedule**.
 

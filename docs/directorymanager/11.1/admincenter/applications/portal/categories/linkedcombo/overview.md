@@ -29,7 +29,10 @@ Before creating a linked combo, you must create and maintain an external data fi
 data and relationships for the required fields. The data source file is used to populate the linked
 combo and the fields linked to it.
 
-NOTE: When defining a linked combo, consider the following:
+:::note
+When defining a linked combo, consider the following:
+:::
+
 
 - You can define multiple linked combos for an object, provided that different attributes are used
   for the combos. For example, you define a linked combo for the user object using the company,
@@ -46,7 +49,10 @@ be in a specific format for Directory Manager to process it.
 
 For information about the Excel file format, see the [Excel Data File Format](/docs/directorymanager/11.1/admincenter/applications/portal/categories/linkedcombo/fileformat.md) topic.
 
-NOTE: If data in the source file is updated, you must reload the file for changes to take effect.
+:::note
+If data in the source file is updated, you must reload the file for changes to take effect.
+:::
+
 
 ## Define a Linked Combo Display Type
 

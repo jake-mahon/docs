@@ -26,8 +26,11 @@ Step 2 – On the **Advanced Search** page, click **Or use the new query based s
 
 The **Queries** page is displayed.
 
-NOTE: If you are creating a search query for the first time the **Query Designer** dialog box opens
+:::note
+If you are creating a search query for the first time the **Query Designer** dialog box opens
 automatically.
+:::
+
 
 Step 3 – Click **Query Designer** to create queries to search directory objects.
 

@@ -77,9 +77,12 @@ launch the **Import Members** wizard.
     2. In the **Map Field** area, map a field in the source file (**Source Field**) with a directory
        attribute (**Destination**).
 
-        NOTE: While establishing mapping between a source field and a destination directory
+        :::note
+        While establishing mapping between a source field and a destination directory
         attribute, select a source field that has unique values, such as email address or
         sAMAccountName.
+        :::
+
 
         The value in the selected source field is compared to the value of the selected destination
         field, and records with matching values are added to the group as members.

@@ -9,7 +9,10 @@ sidebar_position: 50
 The Windows Hello authentication type can be used on Windows 10 devices only with specialized
 hardware installed, such as fingerprint reader and 3D camera.
 
-NOTE: Windows Hello supports the Microsoft Edge browser only.
+:::note
+Windows Hello supports the Microsoft Edge browser only.
+:::
+
 
 ## Enable Windows Hello on Windows 10
 

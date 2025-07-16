@@ -21,10 +21,13 @@ Using a portal, users can create different directory objects, namely:
 The portal provides a separate wizard for creating each of these objects. You can customize a wizard
 as needed.
 
-NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
+:::note
+In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
 select the type of group they want to create. Options on this page vary, depending on the
 permissions assigned to the user in the identity store. (See the
 [Security Role – Permissions](/docs/directorymanager/11.1/admincenter/securityrole/permissions.md) topic.)
+:::
+
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_
   permission, only the _Static Group_ option is displayed on the _Group Type_ page.
@@ -32,8 +35,11 @@ permissions assigned to the user in the identity store. (See the
   permission, all options except _Static Group_ are displayed on the _Group Type_ page.
   ![group_type](/img/product_docs/directorymanager/11.1/admincenter/portal/design/group_type.webp)
 
-NOTE: You can customize the _Group Type_ page individually for static group, Smart Group, and each
+:::note
+You can customize the _Group Type_ page individually for static group, Smart Group, and each
 of the Dynasty types. However:
+:::
+
 
 - If a user has permissions to create both static groups and Smart Groups, the _Group Type_ page
   created for _Static Group_ would be displayed to the user in the portal.

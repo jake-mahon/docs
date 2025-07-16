@@ -185,8 +185,11 @@ The Query Designer has multiple tabs, where each tab groups similar settings. Th
 
 You can hide any of these tabs from role members.
 
-NOTE: The General tab is displayed to all users and cannot be hidden. However, you can hide the
+:::note
+The General tab is displayed to all users and cannot be hidden. However, you can hide the
 objects displayed on it, as discussed in the Limit the Objects for Use in a Query topic.
+:::
+
 
 **To hide a tab:**
 
@@ -241,9 +244,12 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
    ‘Contains’ and ‘Equals’ operators for the ‘cn’ attribute, then only these operators will be
    displayed when role members select the ‘cn’ attribute.
 
-    NOTE: This schema attribute setting will override the schema attribute setting specified on the
+    :::note
+    This schema attribute setting will override the schema attribute setting specified on the
     Smart Group Attribute page in portal's design settings. See the
     [ Specify Smart Group Query Attributes](/docs/directorymanager/11.1/admincenter/applications/portal/displaytype/queryattributes.md) topic.
+    :::
+
 
 9. Click **Save Selection** on the **Allowed Attributes** dialog box. The **Attributes** area
    displays the allowed attributes count.  
@@ -268,8 +274,11 @@ Value: Human Resources
 You can specify a default criteria, that will be displayed to role members on the **Filter
 Criteria** tab. They can change it as required
 
-NOTE: If you have limited the attributes and operators for role members, then only the allowed
+:::note
+If you have limited the attributes and operators for role members, then only the allowed
 attributes and operators are available to create a default filter criteria.
+:::
+
 
 **To specify a default filter criteria:**
 

@@ -56,7 +56,10 @@ You can manage the following advanced settings for a portal:
 | Display Additional Manager Direct Reports | Controls whether to display the direct reports for whom the logged-on user is an additional manager, on the portal’s **My Direct Reports** tab. By default, the tab displays the direct reports that the logged-on user is the primary manager. Enable this setting to include direct reports for whom the logged-on user is an additional manager. |
 
 
-NOTE: Individual users can personalize all except the _Display Nested Ownership_ setting from the **Settings** panel in the portal.
+:::note
+Individual users can personalize all except the _Display Nested Ownership_ setting from the **Settings** panel in the portal.
+:::
+
 
 ## Miscellaneous
 

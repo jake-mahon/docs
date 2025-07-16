@@ -90,8 +90,11 @@ in the
 [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
-NOTE: Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups are
+:::note
+Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups are
 set in the respective policy.
+:::
+
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
