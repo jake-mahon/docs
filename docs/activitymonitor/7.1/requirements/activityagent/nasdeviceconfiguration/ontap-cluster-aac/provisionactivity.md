@@ -106,7 +106,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/svm/svms"
 
 **NOTE:** If the FPolicy account is configured with these permissions, it is necessary to manually
 configure the FPolicy. See the
-[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configurefpolicy_1.md)
+[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/configurefpolicy.md)
 topic for additional information.
 
 ### Less Privileged: Enable/Connect FPolicy & Collect Events
@@ -190,7 +190,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/protocols
 
 **NOTE:** If the FPolicy account is configured with these permissions, it is necessary to manually
 configure the FPolicy. See the
-[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configurefpolicy_1.md)
+[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/configurefpolicy.md)
 topic for additional information.
 
 ### Automatically Configure the FPolicy
@@ -271,7 +271,7 @@ security login rest-role create -role enterpriseauditorrest -api "/api/security/
 
 **NOTE:** If the FPolicy account is configured with these permissions, the Activity Monitor can
 automatically configure the FPolicy. See the
-[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configurefpolicy_1.md)
+[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/configurefpolicy.md)
 topic for additional information.
 
 ### Enterprise Auditor Integration

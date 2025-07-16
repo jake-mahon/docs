@@ -31,7 +31,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a NetApp Data ONTAP host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_6.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/ontap-cluster-activity.md)
 topic or the
 [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap7-aac/ontap7-activity.md)
 topic in the for additional information.

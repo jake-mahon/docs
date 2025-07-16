@@ -89,7 +89,7 @@ Checklist Item 1: Plan Deployment
         - TLS, mutual authentication (both the SVM and the agent authenticate each other)
 
 Checklist Item 2:
-[Provision ONTAP Account](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/provisionactivity_1.md)
+[Provision ONTAP Account](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/provisionactivity.md)
 
 - Permission names depend on the API used, ONTAPI/ZAPI or REST API.
 - The case of domain and username created during the account provisioning process must match exactly
@@ -160,7 +160,7 @@ Checklist Item 2:
         - `security login role show-ontapi` – Readonly access
 
 Checklist Item 3:
-[Configure Network](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configurefirewall.md)
+[Configure Network](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/configurefirewall.md)
 
 - Agent must be able to connect to ONTAP API via a management LIF on ports HTTP (80) or HTTPS (443)
 
@@ -176,7 +176,7 @@ Checklist Item 3:
     - The default port 9999 can be changed in the agent's settings.
 
 Checklist Item 4:
-[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configurefpolicy_1.md)
+[Configure FPolicy](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/configurefpolicy.md)
 
 - Remember: all FPolicy objects and SVM names are case sensitive.
 - FPolicy must be configured for each SVM to be monitored.
