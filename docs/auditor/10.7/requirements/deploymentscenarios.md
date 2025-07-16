@@ -38,13 +38,18 @@ periods (e.g., to provide for investigations, compliance audit, etc.) - SSD
 Recommendations below refer to deployment in the evaluation lab or small infrastructure (up to 500
 users):
 
-1. Prepare a virtual machine meeting the following requirements: | Hardware component | Requirement
-   | | --- | --- | | Processor | 2 cores | | RAM | 4 GB minimum, 8 GB recommended | | Disk space |
-   100 GB on system drive 100 GB on data drive (capacity required for SQL Server and Long-Term
-   Archive) | | Screen resolution | Minimum 1280x1024 Recommended 1920x1080 or higher |
-2. Download and install Netwrix Auditor on that VM, selecting Full installation to deploy both
+1. Prepare a virtual machine meeting the following requirements: 
+   
+| Hardware Component  | Requirement                                                                                   |
+|---------------------|-----------------------------------------------------------------------------------------------|
+| Processor           | 2 cores                                                                                       |
+| RAM                 | 4 GB minimum, 8 GB recommended                                                                |
+| Disk space          | 100 GB on system drive and 100 GB on data drive (capacity required for SQL Server and Long-Term Archive)|
+| Screen resolution   | Minimum 1280x1024; Recommended 1920x1080 or higher                                  |
+
+1. Download and install Netwrix Auditor on that VM, selecting Full installation to deploy both
    server and client components.
-3. When prompted to configure the Audit database settings, proceed with installing SQL Server
+2. When prompted to configure the Audit database settings, proceed with installing SQL Server
    Express Edition with Advanced Services on the same VM. See the
    [SQL Server Reporting Services](/docs/auditor/10.7/requirements/sqlserverreportingservice.md) topic for additional information.
 
@@ -68,10 +73,15 @@ Hyper-V virtualization server. For more information on this deployment option, r
 Recommendations below refer to the product deployment in a in a regular environment (500 — 1000
 users, approximately up to 1 million of activity records generated per day):
 
-1. Prepare a physical or a virtual machine meeting the following requirements: | Hardware component
-   | Requirement | | --- | --- | | Processor | 4 cores | | RAM | 16 - 32 GB | | Disk space | 200 GB
-   on system drive 0.5 - 1 TB or more on data drive (capacity required for SQL Server and Long-Term
-   Archive) | | Screen resolution | Minimum 1280x1024 Recommended 1920x1080 or higher |
+1. Prepare a physical or a virtual machine meeting the following requirements:
+   
+| Hardware Component  | Requirement                                                                                          |
+|---------------------|------------------------------------------------------------------------------------------------------|
+| Processor           | 4 cores                                                                                              |
+| RAM                 | 16 - 32 GB                                                                                           |
+| Disk space          | 200 GB on system drive, 0.5 - 1 TB or more on data drive (capacity required for SQL Server and Long-Term Archive) |
+| Screen resolution   | Minimum 1280x1024; Recommended 1920x1080 or higher                                                   |
+
 2. Download and install Netwrix Auditor on that machine. Deploy the required number of Netwrix
    Auditor clients on the remote Windows machines.
 
@@ -92,21 +102,37 @@ Recommendations below refer to the product deployment in a large environment (up
 approximately 1+ million of activity records generated per day):
 
 1. Prepare a physical or a virtual machine for Netwrix Auditor server, meeting the following
-   requirements: | Hardware component | Requirement | | --- | --- | | Processor | 8 cores | | RAM |
-   16 - 32 GB | | Disk space | - 200-500 GB on system drive - 0.5 - 1 TB on data drive | | Screen
-   resolution | Minimum 1280 x 1024 Recommended 1920 x 1080 or higher |
+   requirements: 
+
+| Hardware Component  | Requirement                                                                                          |
+|---------------------|------------------------------------------------------------------------------------------------------|
+| Processor           | 8 cores                                                                                              |
+| RAM                 | 16 - 32 GB                                                                                           |
+| Disk space          | - 200-500 GB on system drive                                                                         |
+|                     | - 0.5 - 1 TB on data drive                                                                           |
+| Screen resolution   | Minimum 1280 x 1024, Recommended 1920 x 1080 or higher                                               |
+
 2. Download and install Netwrix Auditor on that machine. Deploy the required number of Netwrix
    Auditor clients on the remote Windows machines.
 
     Client-server connection requires user sign-in. You can automate this process, as described in
     the [Automate Sign-in to the Client](/docs/auditor/10.7/install/automatelogin.md) section of Online Help.
 
-3. Prepare Microsoft SQL Server meeting the following requirements: | Hardware component |
-   Requirement | | --- | --- | | Processor | 2-4 cores | | RAM | 16-32 GB | | Disk space | - 100 GB
-   on system drive - 200-400 GB on data drive | | Software component | Requirement | | --- | --- | |
-   Microsoft SQL Server 2012 or later | Standard or Enterprise edition (Express cannot be used due
-   to its database size limitation) | | Dedicated SQL Server instance or cluster is recommended | |
-   | SQL Server Reporting Services for reporting | |
+3. Prepare Microsoft SQL Server meeting the following requirements: 
+   
+| Hardware Component  | Requirement                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Processor           | 2-4 cores                                                                   |            
+| RAM                 | 16-32 GB                                                                    |           
+| Disk space          | - 100 GB on system drive                                                    |           
+|                     | - 200-400 GB on data drive                                                  |
+
+| Software Component                    | Requirement                                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------------------|
+| Microsoft SQL Server 2012 or later    | Standard or Enterprise edition (Express cannot be used due to its database size limitation) |
+| Dedicated SQL Server instance or cluster is recommended |                                                                                   |
+| SQL Server Reporting Services for reporting |                                                                                   |
+   
 4. When prompted to configure the Audit database settings, proceed using the dedicated SQL Server
    with Reporting Services.
 
@@ -115,24 +141,45 @@ approximately 1+ million of activity records generated per day):
 Recommendations below refer to the product deployment in an extra-large environment, that is, with
 more than 20 000 users (10+ million of activity records generated per day):
 
-1. Prepare a physical or a virtual machine for Auditor Server, meeting the following requirements: |
-   Hardware component | Requirement | | --- | --- | | Processor | 16 cores (recommended) | | RAM |
-   32 - 64 GB | | Disk space | - 300-500 GB on system drive - 1+ TB on data drive | | Screen
-   resolution | Minimum 1280 x 1024 Recommended 1920 x 1080 or higher |
+1. Prepare a physical or a virtual machine for Auditor Server, meeting the following requirements:
+   
+| Hardware Component  | Requirement                                                                     |
+|---------------------|----------------------------------------------------------------------------------|
+| Processor           | 16 cores (recommended)                                                           |
+| RAM                 | 32 - 64 GB                                                                       |
+| Disk space          | - 300-500 GB on system drive                                                     |
+|                     | - 1+ TB on data drive                                                            |
+| Screen resolution   | Minimum 1280 x 1024, Recommended 1920 x 1080 or higher                           |
+
 2. Download and install Netwrix Auditor on that machine. Deploy the required number of Netwrix
    Auditor clients on the remote Windows machines.
 
     Client-server connection requires user sign-in. You can automate this process, as described in
     the [Automate Sign-in to the Client](/docs/auditor/10.7/install/automatelogin.md) section.
 
-3. Prepare a machine for Microsoft SQL Server meeting the following requirements: | Hardware
-   component | Requirement | | --- | --- | | Processor | 4 cores | | RAM | 32 - 64 GB | | Disk space
-   | - 100 GB on system drive - 1 TB on data drive | | Software component | Requirement | | --- |
-   --- | | Microsoft SQL Server 2012 or later | Standard or Enterprise edition (Express cannot be
-   used due to its database size limitation) | | Dedicated SQL Server instance or cluster is
-   recommended | | | SQL Server Reporting Services for reporting | |
+3. Prepare a machine for Microsoft SQL Server meeting the following requirements:
+
+| Hardware Component  | Requirement                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Processor           | 4 cores                                                                     |            
+| RAM                 | 32 - 64 GB                                                                  |           
+| Disk space          | - 100 GB on system drive                                                    |           
+|                     | - 1 TB on data drive                                                        |
+
+| Software Component                      | Requirement                                                                                          |
+|-----------------------------------------|------------------------------------------------------------------------------------------------------|
+| Microsoft SQL Server 2012 or later      | Standard or Enterprise edition (Express cannot be used due to its database size limitation)          |
+| Dedicated SQL Server instance or cluster| Recommended                                                                                         |
+| SQL Server Reporting Services           | For reporting                                                                                       |
+
 4. As an option, you can install Reporting Services on a dedicated machine. The following hardware
-   configuration is recommended: | Hardware component | Requirement | | --- | --- | | Processor | 4
-   cores | | RAM | 32 GB | | Disk space | - 100 GB on system drive |
+   configuration is recommended: 
+
+| Hardware Component  | Requirement                |
+|---------------------|-----------------------------|
+| Processor           | 4 cores                     |
+| RAM                 | 32 GB                       |
+| Disk space          | 100 GB on system drive      |
+
 5. When prompted to configure the Audit database settings, proceed using the dedicated SQL Server
    and Reporting Services.
