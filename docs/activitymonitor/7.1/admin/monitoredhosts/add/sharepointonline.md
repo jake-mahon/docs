@@ -29,7 +29,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a SharePoint Online host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity_3.md)
+[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-online-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -68,7 +68,7 @@ Instruction...** for steps on registering the Activity Monitor with Microsoft En
     API access using the Client ID and Secret.
 
 - See the
-  [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity_3.md)
+  [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-online-activity.md)
   topic for additional information.
 
 Click **Next**.

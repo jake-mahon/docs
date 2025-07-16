@@ -29,7 +29,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a SharePoint host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity_2.md)
+[SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-onprem-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the SharePoint Application server that hosts the

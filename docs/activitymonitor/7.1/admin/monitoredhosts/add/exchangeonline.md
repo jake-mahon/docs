@@ -8,7 +8,7 @@ sidebar_position: 50
 
 Prior to adding an Exchange Online host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Exchange Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/activity.md)
+[Exchange Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/exchange-activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
