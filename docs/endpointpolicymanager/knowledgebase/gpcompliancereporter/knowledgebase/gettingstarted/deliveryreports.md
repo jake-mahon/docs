@@ -36,7 +36,7 @@ Policy Compliance reporter?
 
 When you acquire a Endpoint Policy Manager Cloud license, you can get directives from Endpoint
 Policy Manager Cloud -or- Group Policy (or both.)
-[[Can I use both Endpoint Policy ManagerOn Premise mode and Endpoint Policy Manager Cloud simultaneously? Do they clash?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/tipstricksandfaqs/onpremisecloud.md)]
+[[Can I use both Endpoint Policy ManagerOn Premise mode and Endpoint Policy Manager Cloud simultaneously? Do they clash?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/onpremisecloud.md)]
 
 As such, you might want to deliver some settings via Endpoint Policy Manager Cloud and other
 settings using Group

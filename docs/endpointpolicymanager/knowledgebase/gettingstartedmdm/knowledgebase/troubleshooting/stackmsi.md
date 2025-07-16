@@ -11,7 +11,7 @@ MSI.
 
 Please get familiar with this tool before continuing to read this article.
 
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/methodssccmandothero/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/exporterutility.md)
 
 From time to time you might want a precise processing order of the XML items. You can do this in TWO
 ways.

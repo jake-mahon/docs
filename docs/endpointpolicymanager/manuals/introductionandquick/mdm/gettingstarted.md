@@ -65,7 +65,7 @@ than if you try other items, so we suggest you start with these examples.
 Below are two videos you can use to get familiar with how to export settings and then use them with
 a UEM tool.
 
-- [Deploy Real Group Policy using SCCM or Other Management System!](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/methodssccmandothero/sccmgrouppolicy.md)
+- [Deploy Real Group Policy using SCCM or Other Management System!](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/sccmgrouppolicy.md)
 - Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System!
 
 ## Quick Start with MSI files and an MDM Tool

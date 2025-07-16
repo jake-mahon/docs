@@ -200,7 +200,7 @@ with your sales team to declare the number of Windows 10 machines you want to li
 you would use the MDM reporting system to express how many Windows 10 machines you have enrolled and
 the number you plan add in the current year. All the details on exactly how to perform a count and
 what to send back to Endpoint Policy Manager Sales can be found here:
-[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesmd/setup.md).
+[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/requestingmdm/setup.md).
 
 An example of an MDM system account with a very low number of machines can be seen in Figure 14.
 Note that the company information is obscured in this demonstration, but you would have to provide

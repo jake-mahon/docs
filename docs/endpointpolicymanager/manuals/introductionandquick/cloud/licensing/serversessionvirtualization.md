@@ -17,7 +17,7 @@ your purchase.
   server, instead of handling actual usage to the maximum extent of the server. If you need to do
   this, you must also have a corresponding Endpoint Policy Manager Group Policy Edition license
   where the number of sessions is expressly counted. You can read more about this in this KB:
-  [How do I license my Citrix, RDS, WVD, VDI or other multi-session Windows version with Endpoint Policy Manager Cloud ?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/vertualizationcitrix/multisession.md).
+  [How do I license my Citrix, RDS, WVD, VDI or other multi-session Windows version with Endpoint Policy Manager Cloud ?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/vertualizationcitrix/multisession.md).
 - For Endpoint Policy Manager Enterprise and Endpoint Policy Manager Professional customers, when a
   computer acquires a Endpoint Policy Manager Cloud license, the computer will not process on-prem
   or MDM directives as well, unless a corresponding license for that method is acquired as part of

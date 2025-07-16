@@ -89,7 +89,7 @@ We can take a "first look" at your log files… but there are no guarantees here
 jump out and just tell us what it is. Do NOT attach this to an EMAIL. You must get an SRX first by
 emailing support, then, in the AUTORESPONSE, you'll get directions for how to UPLOAD your log files.
 Here is how to get us log files and results reports (perform EVERY step):
-L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/antivirus.md)
+L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/antivirus.md)
 
 The items above are generally the causes of change and problems. Therefore, to get us close to the
 goal, your team will have to narrow it down.
@@ -145,7 +145,7 @@ extensions).
 result?
 
 **Step 5 –** Here is how to get us log files and results reports (perform EVERY step):
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
 
 ## Troubleshooting Scenario 3 (also less good): Bring up a "deployed" machine and install old Endpoint Policy Manager CSEs to reveal the problem
 
@@ -165,4 +165,4 @@ anymore we can look to see what changed on OUR side and then build a new Client 
 version for you to test.
 
 **Step 4 –** Here is how to get us log files and results reports (perform EVERY
-step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/fastsupport.md)
+step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)

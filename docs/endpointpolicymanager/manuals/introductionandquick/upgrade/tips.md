@@ -48,7 +48,7 @@ distribute those to your admin team. Sometimes the latest helper tool must match
 the MMC editor.
 
 **Step 4 –** Update the Endpoint Policy Manager ADMX (troubleshooting) files. (Video tip:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/admxfiles.md))
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md))
 
 **Step 5 –** Roll out the CSE in a controlled fashion to your endpoints using the ring methodology.
 
@@ -63,7 +63,7 @@ the CSE to endpoint machines gradually.
 be making backups from time to time. Inside the GPMC, find the Group Policy Objects node,
 right-click, select Backup, and then follow the prompts. For additional information on how to
 preform a Group Policy backup, see the
-[Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/upgradingandmaintena/backupoptions.md)
+[Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backupoptions.md)
 and
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/upgradingandmaintena/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
 video demos.

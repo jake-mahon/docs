@@ -36,5 +36,5 @@ Follow the [Endpoint Policy Manager and MDM walk before you run](/docs/endpointp
 video to install an MDM license file.
 
 Check the
-[What is the fastest way to get started in an Endpoint Policy Manager trial, without running the License Request Tool?](/docs/endpointpolicymanager/knowledgebase/allthingslicensing/knowledgebase/requestinglicensesfa/trial.md)
+[What is the fastest way to get started in an Endpoint Policy Manager trial, without running the License Request Tool?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/requestingall/trial.md)
 topic to see how to rename a computer or perform alternative licensing.

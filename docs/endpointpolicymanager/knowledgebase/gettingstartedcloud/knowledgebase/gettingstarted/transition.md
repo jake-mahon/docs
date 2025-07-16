@@ -73,7 +73,7 @@ Or you can export a whole category like this:
 
 You can also export settings en-mass across multiple GPOs using the Endpoint Policy Manager Exporter
 Utility. The steps to do that are here
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/methodssccmandothero/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/exporterutility.md)
 
 Then you can upload them straight into Endpoint Policy Manager cloud using the Upload and link a new
 XML here. Or you can go to the XML Settings tab (not shown) and also upload them there for later
@@ -218,7 +218,7 @@ method of deploying policy.
 - For SCCM and MDM/Intune, perform an uninstall of the wrapped up XMLs / MSIs. You can also verify
   the XML settings are removed from your endpoint from the Users or Groups or Computer folder. See
   the
-  [What is the processing order of all policies and how are conflicts resolved (and how can I see the final RsOP) of those policies (between GPO, Cloud, XML, etc)?](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/troubleshootinggener/conflictresolved.md) topic
+  [What is the processing order of all policies and how are conflicts resolved (and how can I see the final RsOP) of those policies (between GPO, Cloud, XML, etc)?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/conflictresolved.md) topic
   for additional information.
 
 ## Report using Endpoint Policy Manager Cloud to verify expected settings are achieved

@@ -48,7 +48,7 @@ endpoint data
   can be seen
   at[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/cloudevents.md)
   and details about specific event types (for example) can be found here:
-  [List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/knowledgebase/tipstricksandfaqs/eventcategories.md)
+  [List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/eventcategories.md)
 
 #### How is data is stored at rest with Endpoint Policy Manager Cloud:
 
