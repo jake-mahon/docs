@@ -82,12 +82,38 @@ complexity requirements and minimum password length set for the domain.
 
 The following table explains the rules that determine how the minimum value is calculated.
 
-|     | Password Complexity Requirements | Minimum Password Length                         | Minimum Value Displayed in the Range |
-| --- | -------------------------------- | ----------------------------------------------- | ------------------------------------ |
-| 1   | Enabled                          | Less than or equal to 6                         | 6                                    |
-|     | Greater than 6                   | 6                                               |                                      |
-| 2   | Disabled                         | Less than or equal to 6                         | 6                                    |
-|     | Greater than 6                   | The minimum password length set for the domain. |                                      |
+<table>
+	<thead>
+        <tr>
+            <th>&#160;</th>
+            <th>Password Complexity Requirements</th>
+            <th>Minimum Password Length</th>
+            <th>Minimum Value Displayed in the Range</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">Enabled</td>
+            <td>Less than or equal to 6</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Greater than 6</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Disabled</td>
+            <td>Less than or equal to 6</td>
+            <td>6</td>
+        </tr>
+		<tr>
+			<td>Greater than 6</td>
+      <td>The minimum password length set for the domain.</td>
+    </tr>
+  </tbody>
+</table>
 
 For any other destination providers, you can type a value from 6 to 99.
 
