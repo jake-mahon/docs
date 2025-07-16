@@ -74,4 +74,4 @@ on SHAREFILE:
 
 And remember to click the UPLOAD button!
 
-Video KB:[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md)
+Video KB:[Gathering and Uploading Logs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/logs.md)

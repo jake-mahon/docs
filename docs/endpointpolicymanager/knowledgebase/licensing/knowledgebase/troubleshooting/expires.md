@@ -36,7 +36,7 @@ Resolution for the Admin's GPMC editing station:
   [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/fileold.md)
 
 **NOTE:** You can use the LT tool to search through and find OLD licenses so you can be sure you
-only have one license remaining. [Using LT for license cleanup](/docs/endpointpolicymanager/video/license/cleanup.md)/
+only have one license remaining. [Using LT for license cleanup](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/cleanup.md)/
 
 - On an example ENDPOINT computer (one that has the Netwrix Endpoint Policy Manager (formerly
   PolicyPak) CSE; which can also include the Admin's GPMC machine) verify the endpoint got the new

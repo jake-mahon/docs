@@ -34,7 +34,7 @@ In order to minimize conflicts, we have, in the past, suggested that customers u
 Policy Manager Preferences when the machine is domain joined.
 
 See
-[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/license/unlicense.md)/
+[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/unlicense.md)
 for additional information. There is also a video you can watch on
 [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
 

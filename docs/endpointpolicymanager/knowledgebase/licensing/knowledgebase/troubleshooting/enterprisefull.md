@@ -94,7 +94,7 @@ is the same as what we are calling "Enterprise Full" here.
 
 - Upgrade your MMC snap-in to the latest version first.
 - Perform these steps:
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
   **NOTE:** Using the Endpoint Policy Manager "LT" tool to install licenses is not recommended,
   but it should work.

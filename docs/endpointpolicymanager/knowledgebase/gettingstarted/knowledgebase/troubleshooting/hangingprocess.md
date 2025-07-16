@@ -16,7 +16,7 @@ Get the following tools handy:
   [https://docs.microsoft.com/en-us/sysinternals/downloads/procdump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump)
 
 **NOTE:** You can pre-watch this video on PROCMON here:
-[Process Monitor 101](/docs/endpointpolicymanager/video/troubleshooting/processmonitor.md)
+[Process Monitor 101](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/processmonitor.md)
 
 **Step 1 –** Start Procmon. Let it run. It will start to generate a file.
 

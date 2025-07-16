@@ -65,7 +65,7 @@ The following topics can help you getting started with Endpoint Policy Manager (
 - [I see many instances of the Endpoint Policy Manager Watcher service running on my clients, is that normal?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/watcherservice.md)
 - [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/guids.md)
 - [How do I turn on Debug logging if asked?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/debug.md)
-- [How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting/index.md)
+- [How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/knowledgebase/troubleshooting/preferences.md)
 - [How can I increase the depth of what Endpoint Policy Manager reports (minidump files).](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/minidumpfiles.md)
 - [What are the advanced CSE troubleshooting registry debugging items?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/registrydebug.md)
 - [How can I present a custom dialog (or no dialog) if Browser Router (or the CSE) stops working or crashes?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/customdialog.md)
@@ -87,4 +87,4 @@ The following topics can help you getting started with Endpoint Policy Manager (
 
 ## Endpoint Policy Manager & Change Management Utilities
 
-- [Understanding the Difference Between Endpoint Policy Manager and GPO Change Management Tools](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/netwrixauditor/changemanagementtools.md)
+- [Understanding the Difference Between Endpoint Policy Manager and GPO Change Management Tools](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/changemanagementutilities/changemanagementtools.md)

@@ -10,7 +10,7 @@ Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have 
 information about Active Directory and Intune.
 
 **NOTE:** For a video overview of the process, watch this tutorial:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md)
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/requestall/licenserequestkey.md)
 
 Here are the basics:
 
@@ -226,7 +226,7 @@ You may receive multiple license files for Endpoint Policy Manager:
 To deploy your licenses, you can use the following:
 
 Use these key installation instructions (which demonstrate Active Directory, SCCM, and MDM methods):
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
 ## Licensing Endpoint Policy Manager Through Endpoint Policy Manager Cloud
 

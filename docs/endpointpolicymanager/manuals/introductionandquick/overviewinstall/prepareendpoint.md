@@ -66,6 +66,6 @@ be sooner than expected.
 See the
 [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/troubleshooting/components.md)
 topic for further details on validating licensing. See also the
-[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/troubleshooting/mdm.md)
+[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/mdm.md)
 topic for further details showing what happens when you rename a computer and how Endpoint Policy
 Manager reacts.

@@ -58,7 +58,7 @@ Universal licenses solve a lot of problems around key generation:
   [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
 - The license may be wrapped up by the admin as a .MSI and re-deployed without contacting Endpoint
   Policy Manager support to make a .MSI.
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
 ![861_5_hfkb-1130-img-05_950x431](/img/product_docs/endpointpolicymanager/license/861_5_hfkb-1130-img-05_950x431.webp)
 

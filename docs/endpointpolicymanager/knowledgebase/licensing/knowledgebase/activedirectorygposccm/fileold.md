@@ -18,8 +18,8 @@ You have two options:
 - Option 1 — One GPO per component license, the latest license you have.
 - Option 2 — A single GPO with the latest component licenses you have.
 
-See [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md) for
+See [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md) for
 instructions on how to install your new license.
 
-See [Using LT for license cleanup](/docs/endpointpolicymanager/video/license/cleanup.md) for additional information on how
+See [Using LT for license cleanup](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/cleanup.md) for additional information on how
 to use our LT to help you do a Deep search for licenses and help you automatically clean up

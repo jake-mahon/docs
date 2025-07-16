@@ -31,7 +31,7 @@ computers in the locations (scope) you requested. Alternatively, you can merely 
 have the word Computer in the name, and the computer will act fully licensed.
 
 Follow the
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 video to install a license file.
 
 Check the

@@ -17,7 +17,7 @@ TIPS:
 
 - You won’t need a license file because you’re licensed with COMPUTER in the computer name.
 - See the Getting Started with MDM > Video Learning Center >
-  [Getting Started](/docs/endpointpolicymanager/video/index.md#getting-started) topic for additional
+  [Getting Started](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/videolearningcenter.md) topic for additional
   demonstrations using specific MDM services like Intune and VMware Workspace one.
 
 If you want to go beyond the basics and really dive in to each component, like Endpoint Policy

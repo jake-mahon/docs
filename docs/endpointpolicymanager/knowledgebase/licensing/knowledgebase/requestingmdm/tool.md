@@ -115,5 +115,5 @@ Out-Both @($devices).Count
 Disconnect-MgGraph | Out-Null
 ```
 
-See the [MDM Intune company name troubleshooting](/docs/endpointpolicymanager/video/license/mdm.md) video for additional
+See the [MDM Intune company name troubleshooting](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/mdm.md) video for additional
 information.

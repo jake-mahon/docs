@@ -38,7 +38,7 @@ sidebar_position: 60
 
 - Please watch this video to help you determine your position and situation plus some advice on what
   to do.
-- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/endpointpolicymanager/video/license/legacy.md)
+- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/legacy.md)
 
 ## Where can I get UNIVERSAL licenses?
 
@@ -92,7 +92,7 @@ update your CSE.
 - First, upgrade your Admin Console MMC snap in with the latest download from the portal. Only the
   latest Admin Consoles can import Universal licenses.
 - Video:
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
   **NOTE:**   You cannot import both Legacy and Universal licenses into the same GPO. You need
   separate GPOs for both license types. If you try to put both licenses into the same GPO you will

@@ -31,7 +31,7 @@ Connect-MSGraph -AdminConsent
 Get-Organization | Select @{N = 'CompanyName'; E = { $_.displayName } } | out-file INTUNECOMPANYNAME.TXT
 ```
 
-See [MDM Intune company name troubleshooting](/docs/endpointpolicymanager/video/license/mdm.md)
+See [MDM Intune company name troubleshooting](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/mdm.md)
 
 ## Final Thoughts: Number of computers + Company Name
 

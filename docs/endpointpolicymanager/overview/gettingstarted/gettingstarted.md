@@ -95,11 +95,11 @@ the following:
 
 **Step 1 –** Request a license and send that key to Sales for processing. You can watch a video on
 how to request a license at the following link:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md).
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/requestall/licenserequestkey.md).
 
 **Step 2 –** Receive a license and install it. You can watch a video on how to install the license
 you receive at the following
-link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md).
+link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md).
 
 ## Get Started with the GPO Method
 
@@ -120,7 +120,7 @@ of the videos at the links below in order to get prepared to use Endpoint Policy
 MDM provider.
 
 - For video overviews of using Endpoint Policy Manager with an MDM service see: Getting Started with
-  MDM > [Video Learning Center](/docs/endpointpolicymanager/video/index.md).
+  MDM > [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/videolearningcenter.md).
 - For video overviews of using Endpoint Policy Manager with a UEM tool like SCCM see: Getting
   Started with Endpoint Policy Manager (Misc) >
   [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md).

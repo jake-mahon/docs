@@ -182,7 +182,7 @@ To run Endpoint Policy Manager Licensed:
 - Endpoint Policy Manager Group Policy Edition:
 
   - Please pre-install the LICENSE FILES you received. See
-    [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
+    [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
     We generally recommend Way #2.
   - The computer should be placed in one of your licensed OUs ahead of our meeting.
 

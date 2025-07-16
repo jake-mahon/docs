@@ -26,7 +26,7 @@ Endpoint Policy Manager Device Manager directives. If you don't want to use Grou
 [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topic to deploy directives for additional information.
 
 **NOTE:** For an overview of Endpoint Policy Manager Device Manager see the
-[Video Learning Center](/docs/endpointpolicymanager/video/index.md) topic for additional information.
+[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/devicemanager/videolearningcenter/videolearningcenter.md) topic for additional information.
 
 Endpoint Policy Manager Device Manager will manage USB and other removable media devices like
 CD-ROMs, DVD ROMs, and phones which plug in and have storage when attached to Windows.
