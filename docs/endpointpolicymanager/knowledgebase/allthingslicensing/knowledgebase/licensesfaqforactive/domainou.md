@@ -17,5 +17,5 @@ company's Active Directory, you can easily license Endpoint Policy Manager.
 You don not need approval of domain or enterprise admins; you can get started right away.
 
 **NOTE:** See
-[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/video/applicationsettings/shares.md)
+[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
 how PP Application Manager Paks can be stored in a share.

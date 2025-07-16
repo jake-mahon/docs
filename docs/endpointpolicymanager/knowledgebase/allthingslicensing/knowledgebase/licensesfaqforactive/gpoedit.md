@@ -21,5 +21,5 @@ Manager Application Manager and Endpoint Policy Manager Admin Templates Manager.
 regular shares, and don't need to be stored in the Central Store, which would require domain
 controllers.
 
-See[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/video/applicationsettings/shares.md)
+See[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
 for additional information on using shares with Endpoint Policy Manager Admin Templates Manager.

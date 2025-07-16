@@ -39,7 +39,7 @@ See the following Knowledge Base articles for Application Manager.
 
 ## Central Store and Sharing
 
-- [Can I store the DLL extensions in a central location AND locally on the machine I create my Paks on and if so which one is utilized?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/centralstoreandshari/dllstorage.md)
+- [Can I store the DLL extensions in a central location AND locally on the machine I create my Paks on and if so which one is utilized?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/centralstoresharing/dllstorage.md)
 
 ## PreConfigured AppSets
 
@@ -100,12 +100,12 @@ See the following Knowledge Base articles for Application Manager.
 
 ## Virtualized Applications
 
-- [Do I need to do anything special to get Application Manager to deploy settings to Microsoft App-V Sequences?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/appvsequences.md)
-- [A ThinApp throws an "Exception Error". What can I do to fix it?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/exception.md)
-- [Which application virtualization platforms are supported?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/applicationvirtualization.md)
-- [How can I manage a version of Java inside a ThinApp package ?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/thinapp.md)
-- [Are there any additional steps required to integrate Endpoint Policy Manager Software with XenAPP applications?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/xenapp.md)
-- [Can Endpoint Policy Manager deliver settings for applications that are provided by XenAPP?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplicati/xenapp_1.md)
+- [Do I need to do anything special to get Application Manager to deploy settings to Microsoft App-V Sequences?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/appvsequences.md)
+- [A ThinApp throws an "Exception Error". What can I do to fix it?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/exception.md)
+- [Which application virtualization platforms are supported?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/applicationvirtualization.md)
+- [How can I manage a version of Java inside a ThinApp package ?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/thinapp.md)
+- [Are there any additional steps required to integrate Endpoint Policy Manager Software with XenAPP applications?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/xenapp.md)
+- [Can Endpoint Policy Manager deliver settings for applications that are provided by XenAPP?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/virtualizedapplications/xenapp_1.md)
 
 ## Design Studio
 

@@ -26,4 +26,4 @@ Then follow the prompts to specify the source for the latest AppSets that you wa
 Central Storage, Share-Based Storage, Local Store, or All GPOs with the latest AppSets.
 
 **NOTE:** To see an overview of the Endpoint Policy Manager GPOTouch utility, please watch this
-tutorial video: [GPOTouch Utility](/docs/endpointpolicymanager/video/applicationsettings/touchutility.md).
+tutorial video: [GPOTouch Utility](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/touchutility.md).

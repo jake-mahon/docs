@@ -31,4 +31,4 @@ remediate the GPO.
 
 **NOTE:** To see an overview of the Endpoint Policy Manager GPOTouch utility repairing Endpoint
 Policy Manager DLL Orphans, please watch this video:
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/video/applicationsettings/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).

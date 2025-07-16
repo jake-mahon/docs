@@ -62,7 +62,7 @@ wish to mass-configure this value, you may do so via the Endpoint Policy Manager
 Always use the latest Endpoint Policy Manager ` ADMX` files, are available in the Endpoint Policy
 Manager download.
 
-Please see [Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md) to begin
+Please see [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstartedwithen/videolearningcenter/troubleshooting/admxfiles.md) to begin
 using, or update the Endpoint Policy Manager ADMX settings
 
 **Step 2 –** After the ` ADMX` files are in place, create a Group Policy Object and target it for

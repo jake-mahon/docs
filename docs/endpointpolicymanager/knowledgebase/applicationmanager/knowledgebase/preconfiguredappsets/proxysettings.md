@@ -13,4 +13,4 @@ Explorer.
 
 See this video for more details, which will also set the Chrome Pak:
 
-[Manage IE Connections tab](/docs/endpointpolicymanager/video/applicationsettings/internetexplorer/connectionstab.md)
+[Manage IE Connections tab](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/internetexplorer/connectionstab.md)

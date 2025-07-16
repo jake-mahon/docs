@@ -28,7 +28,7 @@ Policy Manager Application Settings Manager directives over the Internet, even t
 machines.
 
 **Note**: For more information on this topic, please see this video:
-[What is Endpoint Policy Application Manager (Cloud Edition)](/docs/endpointpolicymanager/video/applicationsettings/cloud.md).
+[What is Endpoint Policy Application Manager (Cloud Edition)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/whatdoesitdo/cloud.md).
 
 ## Least Privilege Manager
 
