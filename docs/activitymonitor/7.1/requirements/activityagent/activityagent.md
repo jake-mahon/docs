@@ -125,7 +125,7 @@ Hitachi
 - 11.2+
 
 See the
-[Hitachi Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_4.md)
+[Hitachi Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/hitachi-aac/hitachi-activity.md)
 topic for target environment requirements.
 
 Nasuni Nasuni Edge Appliances

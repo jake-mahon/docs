@@ -35,5 +35,5 @@ not support the Wrap policy. Click OK to close.
 
 Once access has been configured on the Hitachi device, it is necessary to configure access to the
 HNAS audit logs on the Windows server. See the
-[Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/configureaccesstologs.md)
+[Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/hitachi-aac/configureaccesstologs.md)
 topic for additional information.
