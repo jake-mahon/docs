@@ -117,7 +117,7 @@ topic for target environment requirements.
 Dell Unity
 
 See the
-[Dell Unity Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_3.md)
+[Dell Unity Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/unity-aac/unity-activity.md)
 topic for target environment requirements.
 
 Hitachi

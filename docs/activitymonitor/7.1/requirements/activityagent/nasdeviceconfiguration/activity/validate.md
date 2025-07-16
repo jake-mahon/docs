@@ -12,7 +12,7 @@ configuration must be validated to ensure events are being monitored.
 ## Validate Dell CEE Registry Key Settings
 
 **NOTE:** See the
-[Configure Dell Registry Key Settings](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/installcee_3.md#configure-dell-registry-key-settings)
+[Configure Dell Registry Key Settings](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/unity-aac/installcee.md#configure-dell-registry-key-settings)
 topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will
