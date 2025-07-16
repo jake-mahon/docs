@@ -11,7 +11,10 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Deploy the Agent to server(s) through the Administration Console – You can deploy the Agent to one
   or multiple servers through the Administration Console
 
-  **_RECOMMENDED:_** This is the recommended method for deploying the Agent.
+  :::info
+  This is the recommended method for deploying the Agent.
+  :::
+
 
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
@@ -26,10 +29,13 @@ the deployment fails. Remember to check server requirements before deploying the
 compatibility with other security products. See the
 [Agent Server Requirements](/docs/threatprevention/7.5/requirements/agent/agent.md) topic for additional information.
 
-**NOTE:** The wizard does not block access to the Administration Console and can be minimized while
+:::note
+The wizard does not block access to the Administration Console and can be minimized while
 actions are in progress. If this wizard is hidden by clicking outside of the dialog box, a flashing
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
+:::
+
 
 The Deploy Agents wizard consists of four windows: Select Computers, Set Options, Prerequisites
 Check, and Installing.
@@ -37,8 +43,11 @@ Check, and Installing.
 Follow the steps to deploy the Agent from the Administration Console to a new or existing machine
 using the Deploy Agents wizard.
 
-**CAUTION:** Closing the Administration Console while this action is in process causes problems with
+:::warning
+Closing the Administration Console while this action is in process causes problems with
 data collection.
+:::
+
 
 **Step 1 –** Click Agents in the left pane to launch the Agents interface.
 
@@ -81,10 +90,13 @@ was successful. See the [Installing Window ](/docs/threatprevention/7.5/admin/ag
 
 The Agent will be listed in the table on the Agents interface.
 
-**NOTE:** If the server where the Agent is deployed has multiple network adapters (multi-homed),
+:::note
+If the server where the Agent is deployed has multiple network adapters (multi-homed),
 then it is necessary to bind the Agent to an adapter that can communicate with the Enterprise
 Manager. See the [Bind To](/docs/threatprevention/7.5/troubleshooting/agentcommunication.md#bind-to) topic for
 additional information.
+:::
+
 
 ## Update Agent Settings
 

@@ -1,5 +1,5 @@
 ---
-title: "Group Details Page"
+title: "Group Details"
 description: "Group Details Page"
 sidebar_position: 10
 ---

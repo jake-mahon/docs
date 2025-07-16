@@ -9,17 +9,23 @@ sidebar_position: 20
 Any Threat Prevention license can use the Password Enforcement Event type to prevent the creation of
 weak passwords in your environment.
 
-**NOTE:** The Threat Prevention Enterprise Password Enforcement solution includes an EPE User
-Feedback module. See the [ Enterprise Password Enforcer](/docs/threatprevention/7.5/overview/solutions/epe.md) topic for
+:::note
+The Threat Prevention Enterprise Password Enforcement solution includes an EPE User
+Feedback module. See the [ Enterprise Password Enforcer](/docs/threatprevention/7.5/solutions/epe.md) topic for
 additional information.
+:::
+
 
 Follow the steps to configure a policy to block the creation of weak passwords.
 
 ![EPE Settings window](/img/product_docs/threatprevention/7.5/admin/configuration/epesettings.webp)
 
-**NOTE:** It is a best practice to create and enable a monitoring policy prior to creating and
+:::note
+It is a best practice to create and enable a monitoring policy prior to creating and
 enabling a blocking policy. See the [Monitor Weak Passwords Use Case](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/passwordenforcement/monitorweakpasswords.md) topic
 for additional information.
+:::
+
 
 **Step 1 –** (Must be completed by an administrator) Configure the global EPE settings for your
 environment.
@@ -46,8 +52,6 @@ environment.
   EPE settings.
 - On the Event Type tab, click the **Add** (+) button and select Password Enforcement on the
   [Event Selection Window](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/overview.md#event-selection-window).
-
-![Policy - Event Type tab with the Password Enforcement event selected](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/usecase/passwordrulesblock.webp)
 
 **Step 3 –** Configure the event filters.
 

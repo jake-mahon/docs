@@ -12,9 +12,12 @@ certificate authority. This provides customers with the option to use certificat
 certificate authority instead of the default certificate authority in Threat Prevention Enterprise
 Manager.
 
-**NOTE:** As a requirement for using custom managed certificates, you must provide the Enterprise
+:::note
+As a requirement for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing the
 following:
+:::
+
 
 - Threat Prevention server
 - Remote instance of the Administration Console
@@ -89,7 +92,10 @@ request has been created. Click **Finish**.
 **Step 8 –** Copy the signed certificates from the SI-CSR-Files folder to your certificate authority
 and generate the signed certificates.
 
-**NOTE:** The procedure to sign the certificates will vary based on the certificate authority used.
+:::note
+The procedure to sign the certificates will vary based on the certificate authority used.
+:::
+
 
 **Step 9 –** Copy the signed certificates from your certificate authority and paste them to any
 folder on the Threat Prevention server.

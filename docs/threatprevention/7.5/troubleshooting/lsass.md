@@ -38,12 +38,15 @@ Administration Console. In this case, the console will first check if the Agent 
 ‘manual start’ mode. If yes, then the Agent service is set back to ‘automatic start’ mode and
 restarted, restoring normal operation.
 
-**NOTE:** It is necessary to register a primary and a secondary technical contact for your
+:::note
+It is necessary to register a primary and a secondary technical contact for your
 orgaization with Netwrix throughout the lifetime of Threat Prevention usage. Netwrix will issue
 notifications to these registered technical contacts related to Microsoft-issued KBs affecting LSASS
 and the counter patch (if one is needed). Contact the organization’s Netwrix Sales Representative or
 [](mailto:support@stealthbits.com)[Netwrix Support](https://www.netwrix.com/support.html) to ensure
 that these contacts have been registered.
+:::
+
 
 Prior to Microsoft releasing a KB that alters the LSASS components in a manner that causes a
 conflict with the Agent, Netwrix will first send a notification informing the registered technical
@@ -54,8 +57,11 @@ or more prior to Microsoft issuing the incompatible KB.
 Since this requires the Threat Prevention administrator to take action, there is an Operations alert
 specific to this event.
 
-**_RECOMMENDED:_** Enable the _LSASS process terminated_ alert under Operations on the
+:::info
+Enable the _LSASS process terminated_ alert under Operations on the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md).
+:::
+
 
 The Agent can be enabled with a safe mode, which would prevent the Active Directory monitoring
 module of the Agent from loading if any LSASS change is detected. See the
@@ -66,10 +72,13 @@ module of the Agent from loading if any LSASS change is detected. See the
 Follow the steps to enable email notifications for the _LSASS process terminated_ alert under
 Operations.
 
-**NOTE:** These steps require the Threat Prevention administrator user role. They also assume that
+:::note
+These steps require the Threat Prevention administrator user role. They also assume that
 the SMTP host information has been configured and email alerts have been enabled. See the
 [Configure SMTP Host Information](/docs/threatprevention/7.5/admin/configuration/systemalerting/email.md#configure-smtp-host-information)
 topic for additional information
+:::
+
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu to open the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md).

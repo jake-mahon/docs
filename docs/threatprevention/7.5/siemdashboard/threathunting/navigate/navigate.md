@@ -1,5 +1,5 @@
 ---
-title: "Navigate the Threat Hunting App for Splunk"
+title: "Navigate the App"
 description: "Navigate the Threat Hunting App for Splunk"
 sidebar_position: 10
 ---

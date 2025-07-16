@@ -96,10 +96,16 @@ GUIDs in the XML file. One of the following actions occur:
   parameters. It is created with a system generated GUID and Policy ID; the system discards the GUID
   and Policy ID from the source XML.
 
-**NOTE:** If an existing policy and a new policy in the pending XML import file share the same
+:::note
+If an existing policy and a new policy in the pending XML import file share the same
 policy name, an error is displayed and the existing policy remains unchanged.
+:::
 
-**_RECOMMENDED:_** Provide a unique, descriptive name for any new policies.
+
+:::info
+Provide a unique, descriptive name for any new policies.
+:::
+
 
 The following parameter is required:
 
@@ -120,6 +126,8 @@ The API returns as output the PolicyID, GUID, and Policy Name of the policy that
 created. If a new policy was created, it is up to the user to capture the Policy ID and Policy GUID
 assigned by Threat Prevention in order to later access that policy.
 
-_Remember,_ the Policy ID and Policy GUID is not the same as those in the source XML file. Use the
+:::tip
+Remember, the Policy ID and Policy GUID is not the same as those in the source XML file. Use the
 `Get-SIPolicy` API call to find the newly created policy and its associated GUID and Policy ID by
 the name.
+:::

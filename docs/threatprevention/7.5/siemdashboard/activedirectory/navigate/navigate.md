@@ -1,5 +1,5 @@
 ---
-title: "Navigate the Active Directory App for Splunk"
+title: "Navigate the App"
 description: "Navigate the Active Directory App for Splunk"
 sidebar_position: 10
 ---

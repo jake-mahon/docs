@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Read Monitoring Event Type"
+title: "Active Directory Read Monitoring"
 description: "Active Directory Read Monitoring Event Type"
 sidebar_position: 30
 ---
@@ -26,10 +26,13 @@ The event filters for the Active Directory Read Monitoring event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**CAUTION:** This event type monitors all specified domain controller Read events. Use this event
+:::warning
+This event type monitors all specified domain controller Read events. Use this event
 type with significant filters or else it can adversely impact overall system performance and
 significantly increase the size of the Event Database. Limit the policy to specific attributes in
 order to avoid overwhelming the database with a high volume of unnecessary events.
+:::
+
 
 ## Domains/Servers Filter
 
@@ -46,9 +49,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Classes Filter
 
@@ -81,9 +87,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## AD Context Filter
 
@@ -128,9 +137,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 
@@ -170,9 +182,12 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Rule Preview Filter
 

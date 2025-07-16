@@ -1,5 +1,5 @@
 ---
-title: "Login to EPE REST Service APIs"
+title: "Login to EPE REST Service"
 description: "Login to EPE REST Service APIs"
 sidebar_position: 20
 ---

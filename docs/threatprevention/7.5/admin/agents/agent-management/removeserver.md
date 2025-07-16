@@ -10,8 +10,11 @@ The Agents Interface displays a list of servers where the Agent has been deploye
 remove a server from this list for any reason, such as when the Agent is no longer required on the
 server.
 
-**NOTE:** If the server has a deployed Agent, it will be added back to the list the next time the
+:::note
+If the server has a deployed Agent, it will be added back to the list the next time the
 Agent sends information to the Enterprise Manager.
+:::
+
 
 Follow the steps to remove a server from the list on the Agents Interface.
 

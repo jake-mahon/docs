@@ -1,5 +1,5 @@
 ---
-title: "User Account Hacking Analytic Type"
+title: "User Account Hacking"
 description: "User Account Hacking Analytic Type"
 sidebar_position: 120
 ---
@@ -9,15 +9,18 @@ sidebar_position: 120
 The **User Account Hacking** analytic type identifies multiple bad passwords provided for a given
 valid user account in the specified time interval.
 
-**_RECOMMENDED:_** Configure a subset of accounts to be monitored in order to avoid the excessive
+:::info
+Configure a subset of accounts to be monitored in order to avoid the excessive
 volume of event activity from monitoring all accounts.
+:::
 
-| User Account Hacking |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Definition           | Repeated failed logins below lockout thresholds and/or over extended periods                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Example              | Malware or a bad actor on the network is attempting to compromise an account by guessing the account’s password repeatedly until access is granted. To circumvent built-in lockout policies in Active Directory, the malware or bad actor will only guess so many times before backing off, making sure not to lockout the account. After a period of time has expired, it will continue its routine until the password is guessed correctly. This type of attack is easily automated using a script. The quiet nature of this type of attack often results in the attack going undetected. \*The Enterprise Admin account (SID ending in -500) in Active Directory cannot be locked out making it vulnerable to hacking and eventual breach. While Active Directory will show the account is locked out on the object itself, as soon as the correct password is supplied, the account will be automatically unlocked, giving the perpetrator “God-rights” to the enterprise. |
-| Trigger              | (X1 failed login attempts from an individual user account in Y1 minutes) OR (X2 failed login attempts from an individual user account in Y3 minutes) OR …                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Recommended Settings | Set the number of attempts 1 or 2 increments below the organization’s Active Directory lockout policy settings.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+| User Account Hacking |                           |
+| -------------------- | ------------------------------- |
+| Definition           | Repeated failed logins below lockout thresholds and/or over extended periods         |
+| Example              | Malware or a bad actor on the network is attempting to compromise an account by guessing the account’s password repeatedly until access is granted. To circumvent built-in lockout policies in Active Directory, the malware or bad actor will only guess so many times before backing off, making sure not to lockout the account. After a period of time has expired, it will continue its routine until the password is guessed correctly. This type of attack is easily automated using a script. The quiet nature of this type of attack often results in the attack going undetected. <br />\*The Enterprise Admin account (SID ending in -500) in Active Directory cannot be locked out making it vulnerable to hacking and eventual breach. While Active Directory will show the account is locked out on the object itself, as soon as the correct password is supplied, the account will be automatically unlocked, giving the perpetrator “God-rights” to the enterprise. |
+| Trigger              | (X1 failed login attempts from an individual user account in Y1 minutes) OR (X2 failed login attempts from an individual user account in Y3 minutes) OR …         |
+| Recommended Settings | Set the number of attempts 1 or 2 increments below the organization’s Active Directory lockout policy settings.    |
 
 Analytic Workflow
 
@@ -89,9 +92,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - _Optional_: Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional_: Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -99,9 +105,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
@@ -125,7 +134,10 @@ The top data grid includes the following information for each incident:
 
 - Attacked Account Name – Security principal of the account that triggered the incident
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacked Account SID – Security Identifier of the account used in the event
 - First Attempt – Date timestamp of the first monitored event that triggered the incident. Hover

@@ -1,5 +1,5 @@
 ---
-title: "Active Directory Sync Page"
+title: "Active Directory Sync"
 description: "Active Directory Sync Page"
 sidebar_position: 10
 ---
@@ -38,11 +38,14 @@ Directory Sync in the navigation pane.
 
 ## Add an Active Directory Sync Policy
 
-**NOTE:** Prior to adding an Active Directory Sync policy, you must first configure a Credential
+:::note
+Prior to adding an Active Directory Sync policy, you must first configure a Credential
 Profile with credentials properly provisioned for running the sync operation for the domain. See the
 [Reporting Module Server Requirements](/docs/threatprevention/7.5/requirements/reportingserver.md) topic for the
 permissions. See the [Credential Profile Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.md) topic for additional
 information on creating a profile.
+:::
+
 
 Follow the steps to add a domain/Active Directory sync policy.
 
@@ -186,16 +189,22 @@ represented by the domain for which it is created. Select a domain.
 
 **Step 2 –** The Domain Configuration tab opens, where you can make the desired modification.
 
-_Remember,_ the domain cannot be modified.
+:::tip
+Remember, the domain cannot be modified.
+:::
+
 
 ![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
 
 **Step 3 –** To change the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.
 
-**NOTE:** If you change the Credential Profile for a domain, click **Test Connection** to ensure
+:::note
+If you change the Credential Profile for a domain, click **Test Connection** to ensure
 connection to the domain. This will take a moment. Then a message will appear in the upper right
 corner of the console indicating a successful or failed connection.
+:::
+
 
 **Step 4 –** Click the toggle to change the Enabled/Disabled state of the policy.
 

@@ -16,7 +16,10 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Deploy the Agent to server(s) through the Administration Console – You can deploy the Agent to one
   or multiple servers through the Administration Console
 
-  **_RECOMMENDED:_** This is the recommended method for deploying the Agent.
+  :::info
+  This is the recommended method for deploying the Agent.
+  :::
+
 
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
@@ -48,21 +51,27 @@ information for an Agent:
   - AD Event Latency – Time difference between when the event was detected by the Agent and when
     the Enterprise Manager received it
 
-    **NOTE:** When the **Send Latency Alerts** option is enabled in the
+    :::note
+    When the **Send Latency Alerts** option is enabled in the
     [Event Filtering Configuration Window](/docs/threatprevention/7.5/admin/configuration/eventfilteringconfiguration.md), a
     warning symbol appears to indicate excessive latency. This warning symbol also appears when
     the Agent fails to load the instrumentation DLL, SI.ActiveDirectoryMonitor.dll (commonly
     known as ADMonitor DLL), into the LSASS process or when it fails to load the instrumentation
     DLL to MS Exchange.
+    :::
+
 
 - FSMO Roles – The FSMO (Flexible Single Master Operation) role(s) currently assigned to the domain
   controller where the Agent is deployed. Role names are displayed as abbreviations. For example,
   'SM' is displayed for the Schema Master role. Hover over data in this column to view the full
   names.
 
-  **NOTE:** You can use the FSMO roles information in combination with a policy created for the
+  :::note
+  You can use the FSMO roles information in combination with a policy created for the
   [FSMO Role Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/fsmorolemonitoring.md) to view events
   about which machine acquired a FSMO role and which machine relinquished it.
+  :::
+
 
 - Operating System – Operating system for the machine where the Agent is deployed with version
   information, including service pack details. For example, Windows Server 2022 Standard.. For
@@ -190,10 +199,13 @@ Below are some considerations:
   SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
   [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md)topic for additional information.
 
-  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  :::info
+  Activate an email notification for the _LSASS process terminated_ alert. See
   the
   [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
   topic for additional information.
+  :::
+
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -208,6 +220,9 @@ Below are some considerations:
   resolve the issue permanently. See the [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md)
   topic for additional information.
 
-  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  :::info
+  Activate an email notification for this alert. See the
   [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
   topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
+  
+  :::

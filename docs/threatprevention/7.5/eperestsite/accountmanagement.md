@@ -1,5 +1,5 @@
 ---
-title: "Site Account Management APIs"
+title: "Site Account Management"
 description: "Site Account Management APIs"
 sidebar_position: 10
 ---

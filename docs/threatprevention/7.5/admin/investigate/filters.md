@@ -100,9 +100,12 @@ To filter by Other, check the box(es) for the desired filter type(s):
 
 Filter criteria can be a partial match.
 
-**CAUTION:** The Full Text Search is not driven by indexes. Unless other indexed criteria are
+:::warning
+The Full Text Search is not driven by indexes. Unless other indexed criteria are
 selected, the full text search could result in a scan of the entire SQL database which could be very
 slow for large databases.
+:::
+
 
 - Full Text Search – Queries the entire SQL database for the entered attribute. If the attribute
   displays anywhere in the event, it is displayed in the data grid.

@@ -37,9 +37,12 @@ window.
   - Comma Delimited (CSV)
 - Adjust the File Size Limit and Minimum disk space required for reporting values as desired
 
-  **NOTE:** Set thresholds for file event consumers to maximize performance and minimize
+  :::note
+  Set thresholds for file event consumers to maximize performance and minimize
   individual file sizes. When a file reaches its maximum size, it continues to record data but the
   oldest data in the file is deleted to make room for the newest.
+  :::
+
 
   The default file size settings are the following:
 

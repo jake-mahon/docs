@@ -56,8 +56,11 @@ Example table entry for server:
 
 ExampleServer
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Objects Collection Table Requirements
 
@@ -69,15 +72,18 @@ requirements:
 - Table Schema – Must have the following column:
 
 | Column Name | Column Type     | Column Description                                                 |
-| ----------- | --------------- | ------------------------------------------------------------------ |
+| ----------- | --------------- | ---------------- |
 | AdObject    | NVARCHAR (1024) | Distinguished name of the Active Directory object. Cannot be null. |
 
 Example table entry:
 
 CN=User,DC=Domain,DC=Local
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Perpetrators Collections Table Requirements
 
@@ -89,18 +95,21 @@ must meet the following requirements:
 - Table Schema – Must have the following columns:
 
 | Column Name    | Column Type     | Column Description                                                                                                                                                                 |
-| -------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------- | --------------- | --------------------- |
 | AccountName    | NVARCHAR (1024) | Distinguished name of the account. Cannot be null.                                                                                                                                 |
 | AccountSid     | NVARCHAR (184)  | SDDL form of the account Security ID. Cannot be null.                                                                                                                              |
-| AccountType    | INT             | Account type using the following values: - 0 = none - 1 = user - 2 = group - 3 = context - 4 = orgRole - 5 = sidtype - 6 = other - 7 = dynamic - 8 = dynamic_group Cannot be null. |
-| IncludeSubtree | INT             | Indicates if child containers should be used: - 0 = Child containers NOT included - 1 = Child containers included Cannot be null.                                                  |
+| AccountType    | INT             | Account type using the following values: <ul><li>0 = none</li><li>1 = user</li><li>2 = group</li><li>3 = context</li><li>4 = orgRole</li><li>5 = sidtype</li><li>6 = other</li><li>7 = dynamic</li><li>8 = dynamic_group</li></ul> Cannot be null. |
+| IncludeSubtree | INT             | Indicates if child containers should be used: <ul><li>0 = Child containers NOT included</li><li>1 = Child containers included</li></ul> Cannot be null.                                                  |
 
 Example table entry:
 
 CN=User,DC=Domain,DC=Local | S-1-5-21-1004336348-1177238915-682003330-500 | 3 | 0
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic IP Addresses Collection Table Requirements
 
@@ -119,8 +128,11 @@ Example table entry:
 
 192.168.1.3
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic Hosts Collection Table Requirements
 
@@ -152,8 +164,11 @@ Example table entry that excludes IP v4 Address:
 
 host | host.dc.com | [null]  | fe80::4d72:80e9:72cf:425f%10
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 ## Dynamic File Paths Collection Table Requirements
 
@@ -165,17 +180,20 @@ requirements:
 - Table Schema – Must have the following columns:
 
 | Column Name    | Column Type     | Column Description                                                                   |
-| -------------- | --------------- | ------------------------------------------------------------------------------------ |
+| -------------- | --------------- | --------------------- |
 | Path           | NVARCHAR (1024) | File path to the desired folder. Cannot be null.                                     |
-| IncludeSubtree | INT             | Indicates whether or not subfolders are processed: - 0 = Not Included - 1 = Included |
+| IncludeSubtree | INT             | Indicates whether or not subfolders are processed: <ul><li>0 = Not Included</li><li>1 = Included</li></ul> |
 | TargetAgent    | NVARCHAR (1024) | Agent that monitors the target server. Cannot be null.                               |
 
 Example table entry:
 
 c:\Windows | 0 | ExampleFSserver
 
-**NOTE:** Threat Prevention creates an empty table with the required prefix and schema if the [Table
+:::note
+Threat Prevention creates an empty table with the required prefix and schema if the [Table
 name] entered does not exist in the NVMonitorConfig database.
+:::
+
 
 Two tables are created during the installation/upgrade process for the File Path collections:
 

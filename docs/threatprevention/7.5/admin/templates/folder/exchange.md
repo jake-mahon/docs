@@ -1,5 +1,5 @@
 ---
-title: "Exchange Folder Templates"
+title: "Exchange Templates"
 description: "Exchange Folder Templates"
 sidebar_position: 50
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Horizontal Movement Attacks Analytic Type"
+title: "Horizontal Movement Attacks"
 description: "Horizontal Movement Attacks Analytic Type"
 sidebar_position: 90
 ---
@@ -9,15 +9,18 @@ sidebar_position: 90
 The **Horizontal Movement Attacks** analytic type identifies security principals that are accessing
 more than the threshold of resources during the specified time interval.
 
-**_RECOMMENDED:_** Configure a subset of accounts and/or servers to be monitored in order to avoid
+:::info
+Configure a subset of accounts and/or servers to be monitored in order to avoid
 the excessive volume of event activity from monitoring all.
+:::
 
-| Horizontal Movement Attacks |                                                                                                                                                                                                                                                                                                                                     |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition                  | User account authentications across multiple network assets in a specified time period                                                                                                                                                                                                                                              |
+
+| Horizontal Movement Attacks |                     |
+| --------------------------- | ------------------------------- |
+| Definition                  | User account authentications across multiple network assets in a specified time period    |
 | Example                     | Malware uses several techniques to spread its payload during the initial phase of an attack including Pass the Hash, Impersonation, and current session logged on credentials. Regardless of the method, authentication takes place against other targets on the network, triggering a Threat Prevention horizontal movement alert. |
-| Trigger                     | Successful or failed authentications of a given account across X number of resources in Y minutes                                                                                                                                                                                                                                   |
-| Recommended Settings        | Configure this analytic to trigger a hit if Threat Prevention monitors successful or failed authentications of a given account across 10 resources in 3 minutes.                                                                                                                                                                    |
+| Trigger                     | Successful or failed authentications of a given account across X number of resources in Y minutes        |
+| Recommended Settings        | Configure this analytic to trigger a hit if Threat Prevention monitors successful or failed authentications of a given account across 10 resources in 3 minutes.    |
 
 Analytic Workflow
 
@@ -79,9 +82,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   - \_Optional:\_Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - \_Optional:\_Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -89,9 +95,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
@@ -115,7 +124,10 @@ The top data grid includes the following information for each incident:
 
 - Attacking Account Name – Security principal of the account that triggered the incident
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacking Account SID – Security Identifier of the account used in the event
 - First Attempt – Date timestamp of the first monitored event that triggered the incident. Hover

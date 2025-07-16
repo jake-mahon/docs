@@ -15,9 +15,12 @@ Enterprise Manager is not located. The following PowerShell APIs can be used:
   - Connect-SIEnterpriseManager
 - Informative APIs
 
-  **NOTE:** These APIs do not require any additional configuration. They display Agent status from
+  :::note
+  These APIs do not require any additional configuration. They display Agent status from
   the [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md) and a list of available PowerShell APIs the
   user can utilize.
+  :::
+
 
   - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
     [Agents Interface](/docs/threatprevention/7.5/admin/agents/overview.md)

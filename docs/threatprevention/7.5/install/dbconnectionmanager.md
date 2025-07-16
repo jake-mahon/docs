@@ -11,12 +11,15 @@ the NVMonitorConfig and NVMonitorData databases. The databases are originally co
 initial install of the Enterprise Manager package. See the
 [Application Server Install](/docs/threatprevention/7.5/install/application.md) topic for additional information.
 
-_Remember,_ the host, port, and user for the NVMonitorConfig and NVMonitorData databases are
+:::tip
+Remember, the host, port, and user for the NVMonitorConfig and NVMonitorData databases are
 displayed on the
 [Events Database Configuration Window](/docs/threatprevention/7.5/admin/configuration/eventsdatabaseconfiguration.md). The
 current Archive Database settings are located on the Archive DB tab of the Database Maintenance
 window. See the [Archive Data](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/archive.md) topic for
 additional information.
+:::
+
 
 Follow the steps to manage database settings on the DB Connection Manager Wizard.
 

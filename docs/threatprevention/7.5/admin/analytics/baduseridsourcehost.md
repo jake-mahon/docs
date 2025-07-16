@@ -1,5 +1,5 @@
 ---
-title: "Bad User ID (by Source Host) Analytic Type"
+title: "Bad User ID (by Source Host)"
 description: "Bad User ID (by Source Host) Analytic Type"
 sidebar_position: 10
 ---
@@ -15,14 +15,17 @@ expires. After the time expires, any additional attempt will generate a new inci
 for a report on the number of times a particular host used bad user accounts to try to login during
 the time frame.
 
-**_RECOMMENDED:_** Configure the day limit to 30 days.
+:::info
+Configure the day limit to 30 days.
+:::
 
-| Bad User ID (by source host) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition                   | Pre-authentication failures using one or more non-existing user IDs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Example                      | Similar to the “Bad User ID (by User)” analytic type, this analytic looks for multiple failed authentications against non-existing accounts, but from a single source host. This analytic identifies a perpetrator that hunts for accounts from a single source computer.                                                                                                                                                                                                                                                                                                                                           |
-| Trigger                      | Any number of failed authentication attempts using non-existing accounts made from a specific host                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Recommended Settings         | Bad User ID (by source host) groups attacks by where failed authentication attempts by non-existing accounts are coming from to trigger analytic hits. The user-configurable parameter is based on time, where time is used to visualize how often an attempt is made to authenticate using a non-existing account from an individual system. Netwrix recommends setting the default value to 30 days. If a failed authentication attempt using a non-existing account occurs from the same host after the 30 day time period, a new analytic hit will be produced rather than incrementing the previous hit count. |
+
+| Bad User ID (by source host) |                       |
+| ---------------------------- | -------------------------- |
+| Definition                   | Pre-authentication failures using one or more non-existing user IDs       |
+| Example                      | Similar to the “Bad User ID (by User)” analytic type, this analytic looks for multiple failed authentications against non-existing accounts, but from a single source host. This analytic identifies a perpetrator that hunts for accounts from a single source computer.         |
+| Trigger                      | Any number of failed authentication attempts using non-existing accounts made from a specific host         |
+| Recommended Settings         | Bad User ID (by source host) groups attacks by where failed authentication attempts by non-existing accounts are coming from to trigger analytic hits. The user-configurable parameter is based on time, where time is used to visualize how often an attempt is made to authenticate using a non-existing account from an individual system. <br />Netwrix recommends setting the default value to 30 days. If a failed authentication attempt using a non-existing account occurs from the same host after the 30 day time period, a new analytic hit will be produced rather than incrementing the previous hit count. |
 
 Analytic Workflow
 
@@ -77,9 +80,12 @@ The Policy tab for configuring analytics consists of three sub-tabs:
   - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - _Optional:_ Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -87,9 +93,12 @@ The Policy tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the

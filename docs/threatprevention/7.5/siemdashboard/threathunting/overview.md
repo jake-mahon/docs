@@ -41,8 +41,11 @@ Threat Prevention or Netwrix File Activity Monitor.
 Follow the steps to configure Splunk to receive data from either Threat Prevention or Netwrix
 Netwrix Activity Monitor.
 
-_Remember,_ prior to using the Netwrix Threat Hunting App for Splunk, the relevant Netwrix product
+:::tip
+Remember, prior to using the Netwrix Threat Hunting App for Splunk, the relevant Netwrix product
 must be configured to send data to Splunk.
+:::
+
 
 **Step 1 –** Determine the IP address of the Splunk console. If Splunk is hosted on a UNIX machine,
 run `ifconfig`. If Splunk is hosted on a Windows machine, run `ipconfig`. This IP address is

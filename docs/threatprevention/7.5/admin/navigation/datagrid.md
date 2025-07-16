@@ -70,8 +70,11 @@ The Auto Filter row is located between the header row and the first event of the
 single attribute in any of these boxes or selecting an attribute from a dropdown menu filters the
 data grid for matches within that column and the selected comparison operator.
 
-**NOTE:** The Alerts grid does not display the Auto Filter Row by default. It must be selected
+:::note
+The Alerts grid does not display the Auto Filter Row by default. It must be selected
 through the grid’s Show Auto Filter Row option from the right-click menu.
+:::
+
 
 Filter Statement Bar
 
@@ -135,7 +138,10 @@ The data grids provide an option to export data.
 - Clicking the Export button from the Investigate interface or the Recent Events tab of a policy
   opens the Export window.
 
-**NOTE:** Ensure that all desired filters are set on the data grid before export.
+:::note
+Ensure that all desired filters are set on the data grid before export.
+:::
+
 
 ![Export window](/img/product_docs/threatprevention/7.5/admin/navigation/export.webp)
 
@@ -156,6 +162,9 @@ Locally and/or Email to and populate the required fields.
   distribution lists, or a combination. Use either a comma (,) or a semi-colon (;) to separate
   multiple recipients. Click Export to export the data.
 
-**NOTE:** The Email to action requires the SMTP host Information to be configured. This can only be
+:::note
+The Email to action requires the SMTP host Information to be configured. This can only be
 done by a Threat Prevention administrator through the
 [Email Tab](/docs/threatprevention/7.5/admin/configuration/systemalerting/email.md) of the System Alerting window.
+
+:::

@@ -18,8 +18,11 @@ An example script has been placed in this folder. The example PowerShell script 
 the _si_eventdata.txt_ file on the C:\ drive. The example script also contains all the parameters
 needed for working with the selected event data.
 
-**NOTE:** For a PowerShell script to reference the selected event data, it is necessary to use the
+:::note
+For a PowerShell script to reference the selected event data, it is necessary to use the
 _$helper.[class]_ with the data parameter. This is Threat Prevention specific. For example:
+:::
+
 
 ```
 $sw.WriteLine(("EventName: " + $helper.EventName))

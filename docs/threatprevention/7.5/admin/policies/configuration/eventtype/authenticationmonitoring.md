@@ -1,5 +1,5 @@
 ---
-title: "Authentication Monitoring Event Type"
+title: "Authentication Monitoring"
 description: "Authentication Monitoring Event Type"
 sidebar_position: 60
 ---
@@ -25,11 +25,14 @@ The event filters for the Authentication Monitoring event type are:
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
 
-**NOTE:** When the Authentication Monitoring or Lockdown event type is assigned to a policy outside
+:::note
+When the Authentication Monitoring or Lockdown event type is assigned to a policy outside
 of the Analytic policies, then all collected authentication event data is stored in the database,
 not in memory as it is for the Analytic policies. However, it does consolidate the authentication
 events which occur every minute, resulting in up to a one minute delay between the event and the
 reporting of the event.
+:::
+
 
 ## Authentication Protocol Filter
 
@@ -88,9 +91,12 @@ Use the buttons in the Include and Exclude areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Success Filter
 
@@ -124,9 +130,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 Sub Tree
 
@@ -151,9 +160,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## IP Addresses (to) Filter
 
@@ -171,9 +183,12 @@ Collections areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (from) Filter
 
@@ -191,9 +206,12 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+:::
+
 
 ## Hosts (to) Filter
 
@@ -211,6 +229,9 @@ areas to edit the lists.
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
-**NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
+:::note
+To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
+
+:::

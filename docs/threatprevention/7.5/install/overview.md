@@ -17,10 +17,13 @@ Active Directory, Exchange, and file systems.
   Password Enforcer (EPE) solution
 - Netwrix Threat Manager Reporting Module that is installed with a separate installation package
 
-**NOTE:** Threat Prevention supports the deployment of remote Administration Console, enabling you
+:::note
+Threat Prevention supports the deployment of remote Administration Console, enabling you
 to install additional consoles on standalone machines, like administrator or user workstations. In
 this way, users can launch the Administration Console on their workstations, as an alternate to
 using it on the Enterprise Manager server only.
+:::
+
 
 The following components are installed by the Threat Prevention installation package:
 

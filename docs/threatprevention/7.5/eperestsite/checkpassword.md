@@ -1,5 +1,5 @@
 ---
-title: "Check Password APIs"
+title: "Check Password"
 description: "Check Password APIs"
 sidebar_position: 30
 ---
@@ -16,7 +16,10 @@ You can use APIs to check a candidate password against the EPE rules defined on 
 Create a JSON file with a request. This file should contain the account name and the password you
 want to test.
 
-**NOTE:** The EPE Rest service only checks the password; it does not change it.
+:::note
+The EPE Rest service only checks the password; it does not change it.
+:::
+
 
 ## POST api/Epe/CheckPassword (Basic)
 

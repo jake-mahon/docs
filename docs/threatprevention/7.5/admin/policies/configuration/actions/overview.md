@@ -61,9 +61,12 @@ selection. This action can also be assigned on the
 All notifications sent to SIEM are also displayed on the
 [SIEM Output Viewer](/docs/threatprevention/7.5/admin/configuration/siemoutputviewer.md) window.
 
-**NOTE:** To enable this feature, a Threat Prevention administrator must first establish a
+:::note
+To enable this feature, a Threat Prevention administrator must first establish a
 connection with the SIEM server and configure the mapping file through the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md).
+:::
+
 
 ## Send to Netwrix Threat Manager
 
@@ -72,15 +75,21 @@ specific to integration with a full version deployment of Netwrix Threat Manager
 Manager Reporting Module uses the NVMonitorData database (Send to Events DB option) for reporting
 purposes.
 
-**NOTE:** To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be
+:::note
+To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be
 created and configured by a Threat Prevention administrator through the
 [Event Sink Tab](/docs/threatprevention/7.5/admin/configuration/threatmanagerconfiguration.md#event-sink-tab) on the Netwrix
 Threat Manager Configuration window.
+:::
+
 
 ## Email Notifications
 
-**CAUTION:** Email notifications should not be used on highly active policies. Please reserve this
+:::warning
+Email notifications should not be used on highly active policies. Please reserve this
 feature for policies where immediate notification of an event is needed.
+:::
+
 
 To enable email notifications, select the desired message profile to be recipient of the email
 notifications from the drop-down menu. Only message profiles previously created are available for
@@ -121,9 +130,12 @@ Two hours later, when another event is captured against that same policy, Threat
 send an email notification for it. If more events are captured within the next five minutes, email
 notifications will not be generated.
 
-**NOTE:** To enable email notifications, the SMTP gateway must first be configured and message
+:::note
+To enable email notifications, the SMTP gateway must first be configured and message
 profiles created by a Threat Prevention  administrator, which is done through the
 [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md).
+:::
+
 
 ## Custom Scripts
 
@@ -145,6 +157,9 @@ See the following topics for additional information:
 
   - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
-**NOTE:** There are custom scripts created by Netwrix Engineers that execute the notification
+:::note
+There are custom scripts created by Netwrix Engineers that execute the notification
 emails. See the [Custom Scripts](/docs/threatprevention/7.5/admin/templates/folder/actions/actions.md#custom-scripts) topic for
 additional information.
+
+:::

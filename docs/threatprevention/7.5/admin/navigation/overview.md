@@ -77,12 +77,15 @@ interface. The following interface options are available:
 - [Analytics Interface](/docs/threatprevention/7.5/admin/analytics/overview.md)
 - [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md)
 - [Templates Interface](/docs/threatprevention/7.5/admin/templates/overview.md)
-- [Tags Node](/docs/threatprevention/7.5/admin/overview_1.md)
+- [Tags Node](/docs/threatprevention/7.5/admin/tags.md)
 
 Several right-click menus and additional features are available within these interfaces.
 
-_Remember,_ the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
+:::tip
+Remember, the Investigate, Analytics, Policies, Templates, and TAGS nodes in the Navigation pane
 can be expanded and collapsed.
+:::
+
 
 Agents
 

@@ -1,32 +1,40 @@
-# Threat Prevention 7.5
+---
+title: "Netwrix Threat Prevention v7.5 Documentation"
+description: "Netwrix Threat Prevention v7.5 Documentation"
+sidebar_position: 1
+---
 
-> Real-time protection layer for critical enterprise systems
+# Netwrix Threat Prevention v7.5 Documentation
 
-Threat Prevention 7.5 strengthens organizational defenses by providing a real-time protective barrier around critical IT infrastructure including Active Directory, Exchange, and file systems. Unlike traditional security solutions that only detect threats after the fact, this solution intercepts and blocks malicious activities at the source, preventing damage before it occurs while maintaining comprehensive audit trails for compliance and forensic analysis.
+Netwrix Threat Prevention strengthens an organization’s defense against internal and external
+threats by acting as a real-time protective layer around critical systems, including Active
+Directory, Exchange, and file systems. Unlike native Windows logging, it intercepts and blocks risky
+activity at the source - before damage occurs - offering greater visibility, control, and response
+capabilities.
 
-## Key Features
+- Active Monitoring — Threat Prevention continuously monitors changes, authentications, and access
+  attempts without relying on native logs. It inspects all critical activities at the point of
+  origin, alerting security teams to policy violations and potentially malicious behavior in real
+  time.
+- Proactive Blocking — Beyond detection, Threat Prevention can automatically block unauthorized or
+  suspicious actions, such as group membership changes, GPO modifications, or logon attempts from
+  compromised accounts. This stops threats like ransomware and privilege escalation before they
+  impact business systems.
+- Real-Time Alerts and Enforcement — It enforces custom security policies with immediate alerts and
+  automated responses, enabling fast remediation and minimizing potential damage or downtime.
+- Comprehensive Audit Trail — Threat Prevention records rich, contextual event details, including
+  pre- and post-change values, helping auditors and admins understand what happened, when, and by
+  whom, without the noise or delay of native logs.
+- Seamless Third-Party Integration — It feeds enriched, real-time data to SIEM platforms and other
+  tools, ensuring security teams receive actionable intelligence instantly, with no need to parse
+  Windows event logs.
+- Modern, Secure Architecture — Built for the evolving security landscape, Threat Prevention uses a
+  FIPS 140-2 compliant architecture to meet modern security and compliance requirements.
 
-- **Real-Time Activity Monitoring**: Continuously track changes, authentications, and access attempts as they happen
-- **Proactive Threat Blocking**: Automatically prevent unauthorized actions before they compromise systems
-- **Policy-Based Enforcement**: Define and enforce custom security policies with automated responses
-- **Enhanced SIEM Integration**: Stream enriched security events to SIEM platforms for centralized monitoring
+Organizations can use Threat Prevention to:
 
-## Benefits
-
-- **Prevent Security Breaches**: Stop attacks in real-time rather than discovering them after damage
-- **Protect Business Operations**: Ensure critical systems remain secure and operational
-- **Accelerate Incident Response**: Immediate alerts and automated blocking reduce response times
-- **Strengthen Compliance**: Detailed audit trails meet regulatory requirements
-
-## What's New in Version 7.5
-
-- New SIEM Output Viewer for real-time data stream monitoring
-- Simplified ADMonitor updates without full agent reinstallation
-- Enhanced reporting capabilities with improved data visualization
-- Performance improvements for high-volume environments
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-```
+- Detect and investigate suspicious authentication behavior
+- Proactively prevent unauthorized changes to critical systems
+- Automatically block the riskiest actions before damage occurs
+- Speed up investigations and reduce response time
+- Strengthen overall security posture and streamline compliance

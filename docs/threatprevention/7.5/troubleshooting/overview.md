@@ -67,9 +67,12 @@ The Agent has been configured to monitor LSASS after a reboot (triggered by the 
 LSASS stops shortly after a reboot (default within five minutes), then the Agent will be stopped and
 the Agent service will be changed to manual start.
 
-**_RECOMMENDED:_** Reach out to [Netwrix Support](https://www.netwrix.com/support.html) prior to
+:::info
+Reach out to [Netwrix Support](https://www.netwrix.com/support.html) prior to
 restarting the Agent, as a hotfix may exist which will prevent future issues with that Microsoft
 Security Bulletin.
+:::
+
 
 Threat Prevention sends the _LSASS process terminated_ alert when the LSASS process stops shortly
 after a reboot. The Agent stops and all monitoring/blocking by that Agent stops. To resolve the
@@ -77,9 +80,12 @@ issue, either upgrade to the latest version of the Agent or simply upgrade
 SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
 [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/agent-management/upgradeadmonitor.md)topic for additional information.
 
-**_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See the
+:::info
+Activate an email notification for the _LSASS process terminated_ alert. See the
 [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
 topic for additional information.
+:::
+
 
 FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?
 

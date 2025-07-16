@@ -1,5 +1,5 @@
 ---
-title: "File System Attacks (by User) Analytic Type"
+title: "File System Attacks (by User)"
 description: "File System Attacks (by User) Analytic Type"
 sidebar_position: 60
 ---
@@ -14,12 +14,12 @@ paths are specific to the server for which they were selected.
 If desired, the analytic can be configured to lockdown the monitored file system resource from
 ‘perpetrators’ who trigger an incident. This feature is only available on Windows file systems.
 
-| File System Attacks (by user) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition                    | Significant number of file changes made by an account in a short time period. Optionally block the perpetrator that triggers an incident by selecting the Enable Automatic Lockdown option.                                                                                                                                                                                                                                                                                                                                                                             |
+| File System Attacks (by user) |                     |
+| ----------------------------- | ------------------------ |
+| Definition                    | Significant number of file changes made by an account in a short time period. Optionally block the perpetrator that triggers an incident by selecting the Enable Automatic Lockdown option.        |
 | Example                       | Malware or a bad actor is attempting to delete/modify (such as encrypt) or copy large numbers of files residing locally or on the network, in order to prevent access to or steal file system data. In the case of a ransomware attack, end user files are typically targeted (such as documents, spreadsheets, presentations, etc.), which is followed by a warning to pay a ransom or the files will be erased. This analytic will identify unusual/abnormally high levels of file activity in a short timeframe, and trigger a file system attack alert as a result. |
-| Trigger                       | X number of files changed by an account in Y minutes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Recommended Settings          | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 500 files affected in 3 minutes.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Trigger                       | X number of files changed by an account in Y minutes     |
+| Recommended Settings          | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 500 files affected in 3 minutes.       |
 
 Analytic Workflow
 
@@ -91,14 +91,20 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     Multiple paths and/or collections can be included and excluded, along with the option to
     monitor sub-folders.
 
-    _Remember,_ if no path is provided, an error message displays when the analytic policy is
+    :::tip
+        Remember, if no path is provided, an error message displays when the analytic policy is
     enabled: The “File System Analytic” policy must have at least one path to monitor defined.
+    :::
+
 
   - _Optional:_ Scope the operations being monitored on the File System filter. The default is to
     monitor Write and Rename operations.
 
-    **_RECOMMENDED:_** Do not scope to include Read operations due to the quantity of files read
+    :::info
+    Do not scope to include Read operations due to the quantity of files read
     within an organization.
+    :::
+
 
   - _Optional:_ Scope the monitoring Agents to use for monitoring on the Additional Agents filter.
   - _Optional:_ Scope the accounts to include in or exclude from being monitored on the AD
@@ -140,8 +146,11 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
     - _Optional:_ Scope the accounts to block additional perpetrators.
     - _Optional:_ Remove accounts that are being blocked from the list.
 
-      **NOTE:** Perpetrators manually removed from the list may be automatically re-added if
+      :::note
+      Perpetrators manually removed from the list may be automatically re-added if
       they trigger another incident
+      :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the
@@ -165,7 +174,10 @@ The top data grid includes the following information for each incident:
 
 - Attacking Account Name – Security principal of the account that triggered the incident
 
-  **NOTE:** The name will be red if the attacking account is the Administrator account.
+  :::note
+  The name will be red if the attacking account is the Administrator account.
+  :::
+
 
 - Attacking Account SID – Security Identifier of the account used in the event
 - First Attempt – Date timestamp of the first monitored event Hover over the data in this column to

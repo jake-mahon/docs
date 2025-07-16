@@ -9,10 +9,13 @@ sidebar_position: 40
 The Log Level Configuration window displays the current log levels for the Agents, Enterprise
 Manager, and Administration Console. It also enables you to set new log levels.
 
-**NOTE:** Since Threat Prevention supports multiple instances of the Administration Console, each
+:::note
+Since Threat Prevention supports multiple instances of the Administration Console, each
 instance has its own settings for log levels. Changing the settings only affect the respective
 console instance. The Enterprise Manager and Agent log settings are global - the most recent changes
 made from any console instance apply.
+:::
+
 
 Follow the steps to set log levels.
 
@@ -99,5 +102,8 @@ The default location is:
 
 …\Netwrix\Netwrix Threat Prevention\SIWinConsole\logs\
 
-**NOTE:** Log files for a remote instance of the Administration Console are available at the same
+:::note
+Log files for a remote instance of the Administration Console are available at the same
 location on the respective machine.
+
+:::

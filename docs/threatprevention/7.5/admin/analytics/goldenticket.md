@@ -1,5 +1,5 @@
 ---
-title: "Golden Ticket Analytic Type"
+title: "Golden Ticket"
 description: "Golden Ticket Analytic Type"
 sidebar_position: 80
 ---
@@ -12,12 +12,12 @@ authenticates, the ticket is checked against the maximum ticket lifetime and max
 configured within this analytic type. Any ticket that exceeds either ‘maximum’ will trigger an
 incident.
 
-| Golden Tickets       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Definition           | Kerberos tickets with modified maximum lifetimes for a user ticket and maximum lifetimes for a user ticket renewal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Example              | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. On TGT expiry, the user account is checked for validity (password, enabled/disabled, group memberships, etc.) and a new TGT is granted. A known vulnerability exists where a domain admin could forge the TGT renewal time, creating an indefinite “golden” ticket. This could be accomplished, and then the underlying account removed, allowing the user to obtain admin access forever with an account that no longer exists. If a user on the network were to attempt to use such a ticket, this analytic would detect the altered ticket and generate an alert. |
-| Trigger              | Maximum lifetime for a user ticket > than X hours OR Maximum lifetime for a user ticket renewal > Y days                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if the maximum lifetime for a user ticket is greater than 24 hours or the maximum lifetime for a user ticket renewal is greater than 30 days.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Golden Tickets       |                                 |
+| -------------------- | ------------------------------ |
+| Definition           | Kerberos tickets with modified maximum lifetimes for a user ticket and maximum lifetimes for a user ticket renewal      |
+| Example              | Kerberos tickets are used as a sort of “pass card” to obtain access to resources. Once a domain controller authenticates a user, a TGT (ticket granting ticket) is granted with a limited lifespan. This is then used to obtain TGS (ticket granting service) and the TGS is what identifies a user to a resource on the network. <br/>On TGT expiry, the user account is checked for validity (password, enabled/disabled, group memberships, etc.) and a new TGT is granted. A known vulnerability exists where a domain admin could forge the TGT renewal time, creating an indefinite “golden” ticket. This could be accomplished, and then the underlying account removed, allowing the user to obtain admin access forever with an account that no longer exists. If a user on the network were to attempt to use such a ticket, this analytic would detect the altered ticket and generate an alert. |
+| Trigger              | Maximum lifetime for a user ticket > than X hours <br />OR <br />Maximum lifetime for a user ticket renewal > Y days       |
+| Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if the maximum lifetime for a user ticket is greater than 24 hours or the maximum lifetime for a user ticket renewal is greater than 30 days.      |
 
 Analytic Workflow
 
@@ -68,14 +68,20 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
   [Authentication Monitoring Event Type](/docs/threatprevention/7.5/admin/policies/configuration/eventtype/authenticationmonitoring.md) is hard
   coded, and the Success filter cannot be modified.
 
-  **_RECOMMENDED:_** Do not configure any filters for this analytic type.
+  :::info
+  Do not configure any filters for this analytic type.
+  :::
+
 
   - _Optional:_ Scope the protocol to be monitored on the Authentication Protocol filter. If
     enabling the analytic on a domain controller, also scope the login type.
 
-    **NOTE:** The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
+    :::note
+    The Exclude failed authentications with ‘N-2’ passwords option requires a GPO
     within the organization be configured to ‘Enforce password history’ with a setting of a
     minimum of ‘3 passwords remembered’ or it will not have an effect.
+    :::
+
 
   - \_Optional:\_Scope the domains to be included in or excluded from monitoring on the
     Domains/Servers filter.
@@ -85,9 +91,12 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
     Addresses (from) filter, the IP Addresses (to) filter, the Hosts (from) filter, or the Hosts
     (to) filter.
 
-    **NOTE:** Some authentication events may return only a host name (NetBIOS or FQDN), others
+    :::note
+    Some authentication events may return only a host name (NetBIOS or FQDN), others
     may return only an IP address. It is recommended to take this into account when entering
     filter values.
+    :::
+
 
 - Actions tab – Configured the same way a regular policy’s
   [Actions Tab](/docs/threatprevention/7.5/admin/policies/configuration/actions/overview.md) is configured. The only exceptions are that the

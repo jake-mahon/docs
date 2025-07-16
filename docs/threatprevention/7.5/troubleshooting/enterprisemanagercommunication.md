@@ -14,10 +14,13 @@ If you use the IP address (localhost IP or corresponding IP) when installing the
 Console or Agent, and then configure custom managed certificates for Enterprise Manager and the
 Agent, the console and Agent will fail to connect to Enterprise Manager.
 
-**NOTE:** To configure custom managed certificates for the Enterprise Manager and the Agent, see the
+:::note
+To configure custom managed certificates for the Enterprise Manager and the Agent, see the
 [Certificate Management Wizard](/docs/threatprevention/7.5/install/certificatemanagementwizard.md) and
 [Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.5/install/agent/manual/customcert.md) topics
 respectively.
+:::
+
 
 You must provide the Enterprise Manager server DNS name when you install the following:
 

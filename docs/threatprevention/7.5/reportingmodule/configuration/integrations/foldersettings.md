@@ -1,5 +1,5 @@
 ---
-title: "Folder Settings Page"
+title: "Folder Settings"
 description: "Folder Settings Page"
 sidebar_position: 50
 ---
@@ -65,9 +65,12 @@ Investigation exports will now be saved to the designated local folder on the ap
 
 ## Add a Shared Folder
 
-**NOTE:** Prior to adding a shared folder, you must first configure a Credential Profile with Write
+:::note
+Prior to adding a shared folder, you must first configure a Credential Profile with Write
 access to the shared folder. See the [Credential Profile Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.md) topic for
 creating a profile.
+:::
+
 
 You can specify a shared folder for exporting investigations data from subscriptions through the
 Integrations menu. Follow the steps to add a shared folder.
