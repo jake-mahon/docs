@@ -20,7 +20,7 @@ tool.` ---> System.Runtime.InteropServices.COMException`: The transaction manage
 support for remote/network transactions. (Exception from HRESULT: 0x8004D024)
 
 To enable diagnostic logging, follow the directions in the article
-[How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/endpointpolicymanager/knowledgebase/endpointpolicymanage/knowledgebase/troubleshooting/logenhanced.md)
+[How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/knowledgebase/troubleshooting/logenhanced.md)
 
 The resulting GPCR Server log can be found in:
 `C:\ProgramData\PolicyPak\PolicyPak Group Policy Compliance Reporter Server\Diagnostics`

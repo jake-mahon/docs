@@ -1,3 +1,8 @@
+---
+title: "7 Minute Technical Overview for IT Pros"
+description: "7 Minute Technical Overview for IT Pros"
+sidebar_position: 20
+---
 # 7 Minute Technical Overview for IT Pros
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2PwlaYfUkmw" title="Endpoint Policy Manager Group Policy Compliance Reporter: 7 Minute Technical Overview for IT Pros" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

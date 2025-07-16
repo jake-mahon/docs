@@ -1,3 +1,8 @@
+---
+title: "Enhanced Security for Server"
+description: "Enhanced Security for Server"
+sidebar_position: 40
+---
 # Enhanced Security for Server
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DH5VIDFDcmQ" title="PPGPCR: Enhanced Security for Server" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

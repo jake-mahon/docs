@@ -1,3 +1,8 @@
+---
+title: "Standalone Mode"
+description: "Standalone Mode"
+sidebar_position: 30
+---
 # Standalone Mode
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RKPVxz8Orw8" title="PPGPCR:  Standalone Mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

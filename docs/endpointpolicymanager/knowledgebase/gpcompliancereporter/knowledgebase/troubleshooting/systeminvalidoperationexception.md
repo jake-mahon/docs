@@ -21,7 +21,7 @@ The MSDTC transaction manager was unable to pull the transaction from the source
 ```
 
 To enable diagnostic logging, follow the directions in the article
-[How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/endpointpolicymanager/knowledgebase/endpointpolicymanage/knowledgebase/troubleshooting/logenhanced.md)g-for-ppgpcr-server-if-asked/
+[How do I turn on enhanced logging for Endpoint Policy Manager Group Policy Compliance Reporter if asked to do so?](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/knowledgebase/troubleshooting/logenhanced.md)g-for-ppgpcr-server-if-asked/
 
 The resulting GPCR Server log can be found in:
 `C:\ProgramData\PolicyPak\PolicyPak Group Policy Compliance Reporter Server\Diagnostics`

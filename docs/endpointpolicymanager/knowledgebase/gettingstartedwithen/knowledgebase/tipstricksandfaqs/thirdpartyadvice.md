@@ -22,12 +22,12 @@ Manager format, so we only convert the ones that make sense.
 ![539_1_image-20200219201318-1_950x682](/img/product_docs/endpointpolicymanager/tips/539_1_image-20200219201318-1_950x682.webp)
 
 You can investigate this whole process end-to-end by watching
-[Import STIG files to make your applications more secure](/docs/endpointpolicymanager/video/gpocompilancereporter/importstig.md)
+[Import STIG files to make your applications more secure](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/using/importstig.md)
 on how to consume the converted STIG information:
 
 Then, you can also use Endpoint Policy Manager Group Policy Compliance Reporter (Free version) to
 verify that your settings delivered via Endpoint Policy Manager Application Manager were delivered
-correctly.[Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test](/docs/endpointpolicymanager/video/gpocompilancereporter/existinggpos.md)
+correctly.[Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/using/existinggpos.md)
 on that process.
 
 As already explained though, STIG conversion from its downloadable form from the DoD into Endpoint

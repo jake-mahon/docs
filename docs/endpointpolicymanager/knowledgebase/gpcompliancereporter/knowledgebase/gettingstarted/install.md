@@ -201,4 +201,4 @@ higher. Select "Yes, I confirm" and "Next >" to continue
 
 For information on completing the GPCR configuration wizard, setting up Auditing and Licensing, and
 for general usage, please refer to the manual. In addition, review the KB video
-[Installing Compliance Reporter Server and Client](/docs/endpointpolicymanager/video/gpocompilancereporter/install.md)
+[Installing Compliance Reporter Server and Client](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/gettingstarted/install.md)

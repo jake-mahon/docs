@@ -1,3 +1,8 @@
+---
+title: "Take existing GPOs and quickly bring them into PPGPCR (and keep them updated)"
+description: "Take existing GPOs and quickly bring them into PPGPCR (and keep them updated)"
+sidebar_position: 20
+---
 # Take existing GPOs and quickly bring them into PPGPCR (and keep them updated)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rg40nLHjZ5E" title="PPGPCR: Take existing GPOs and quickly bring them into PPGPCR (and keep them updated)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

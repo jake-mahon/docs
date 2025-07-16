@@ -1,3 +1,8 @@
+---
+title: "2 Minute Quick Overview for Managers"
+description: "2 Minute Quick Overview for Managers"
+sidebar_position: 10
+---
 # 2 Minute Quick Overview for Managers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gG3s9yEYfVc" title="Endpoint Policy Manager Group Policy Compliance Reporter: 2 Minute Quick Overview for Managers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

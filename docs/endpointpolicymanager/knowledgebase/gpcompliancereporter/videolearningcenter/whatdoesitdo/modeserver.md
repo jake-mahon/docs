@@ -1,3 +1,8 @@
+---
+title: "Server Mode"
+description: "Server Mode"
+sidebar_position: 40
+---
 # Server Mode
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iVIWRr_oxBI" title="PPGPCR: Server Mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

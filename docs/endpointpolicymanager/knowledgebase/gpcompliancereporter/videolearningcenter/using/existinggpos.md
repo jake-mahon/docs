@@ -1,3 +1,8 @@
+---
+title: "Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test"
+description: "Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test"
+sidebar_position: 10
+---
 # Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRhqeiBzt3Q" title="Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -1,3 +1,8 @@
+---
+title: "Using Pull Mode (with or without PPGPCR server)"
+description: "Using Pull Mode (with or without PPGPCR server)"
+sidebar_position: 20
+---
 # Using Pull Mode (with or without PPGPCR server)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tpsjcPEJDn8" title="PPGPCR: Standalone Quickstart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
