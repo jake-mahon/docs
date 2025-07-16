@@ -23,24 +23,24 @@ How to: [Metrics and Alerts](#metrics-and-alerts)
 
 ## Troubleshoot NetSuite
 
-[![Troubleshoot NetSuite](/img/product_docs/platgovnetsuiteflashlight/getting_started/troubleshoot_video.webp)](https://www.youtube.com/watch?v=bLb1-aNR4CQ "Troubleshoot NetSuite")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bLb1-aNR4CQ?si=zRyS8V717VL-hUUK" title="Troubleshoot NetSuite" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Clean Up NetSuite
 
-[![Clean Up NetSuite](/img/product_docs/platgovnetsuiteflashlight/getting_started/cleanup_video.webp)](https://www.youtube.com/watch?v=lK6_pMrfAFY "Clean Up NetSuite")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lK6_pMrfAFY?si=wXeKfLDFDFNt8UQp" title="Clean Up NetSuite" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Spider and Document Your NetSuite Account Automatically
 
-[![Run the Spider](/img/product_docs/platgovnetsuiteflashlight/getting_started/spider_video.webp)](https://www.youtube.com/embed/R0rjruTWcPY "Run the Spider")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R0rjruTWcPY?si=qBJH5nMXKWrqLjMq" title="Documenting your NetSuite Account" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Interpret Your Documentation
 
-[![Interpret Your Documentation](/img/product_docs/platgovnetsuiteflashlight/getting_started/interpret_video.webp)](https://www.youtube.com/embed/GBQ4hFcznMw "Interpret Your Documentation")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GBQ4hFcznMw?si=9P3PmWAPsNKhAkr5" title="Interpret your NetSuite Documentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Analyze Your NetSuite Accounts
 
-[![Analyze Your NetSuite Accounts](/img/product_docs/platgovnetsuiteflashlight/getting_started/analyze_video.webp)](https://www.youtube.com/embed/Vj0A2LTkP6g "Analyze Your NetSuite Accounts")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vj0A2LTkP6g?si=OYKqS5aOUM9X7vA-" title="Analyze Your NetSuite Accounts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Metrics and Alerts
 
-[![Metrics and Alerts](/img/product_docs/platgovnetsuiteflashlight/getting_started/metric_video.webp)](https://www.youtube.com/embed/Qssh8Ekiq44 "Metrics and Alerts")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qssh8Ekiq44?si=B6vGCTzROIrrx6aY" title="NetSuite Account Monitoring" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
