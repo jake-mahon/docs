@@ -9,7 +9,10 @@ sidebar_position: 80
 The Process Exclusions tab on an output Properties window is where monitoring scope by Windows
 processes can be modified. These settings are initially configured when the output is added.
 
-**NOTE:** Netwrix product processes are excluded by default from activity monitoring.
+:::note
+Netwrix product processes are excluded by default from activity monitoring.
+:::
+
 
 Select an output for a Windows file server host on the Monitored Hosts tab and click **Edit** to
 open the output Properties window.
@@ -23,8 +26,11 @@ The tab contains the following settings and features:
   topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
-    **CAUTION:** If a process is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If a process is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Edit – Opens the Add or Edit Process window to modify the selected process. See the
   [Add or Edit Process Window](/docs/activitymonitor/7.1/admin/outputs/processexclusions/addeditprocess.md)

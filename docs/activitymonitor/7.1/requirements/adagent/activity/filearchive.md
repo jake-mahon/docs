@@ -10,7 +10,7 @@ As an alternative to using an API Server, Netwrix Activity Monitor can be confi
 archived logs to a network share. This option requires all of the domain logs to be stored in the
 same share location in order for Enterprise Auditor to collect the AD Activity data.
 
-Prerequisite
+**Prerequisite**
 
 Deploy the AD Agent to each domain controller in the target domain.
 
@@ -18,8 +18,11 @@ Deploy the AD Agent to each domain controller in the target domain.
 
 Follow the steps to configure the agent deployed to the domain controller.
 
-**NOTE:** These steps assume the network share where the activity log files will be archived already
+:::note
+These steps assume the network share where the activity log files will be archived already
 exists.
+:::
+
 
 **Step 1 –** On the Agents tab of the Activity Monitor Console, select an agent deployed to domain
 controller.
@@ -34,10 +37,13 @@ controller.
 - The **User name** and **User password** fields only need to be filled in if the account used to
   install the agent does not have access to this share.
 
-    _Remember,_ The account used to install the agent on a domain controller is a Domain
+    :::tip
+        Remember, The account used to install the agent on a domain controller is a Domain
     Administrator account. This is typically the credential that will be used in the Netwrix
     Enterprise Auditor Connection Profile. However, a least privilege option is a domain user
     account with Read access to this share.
+    :::
+
 
 - Click **Test** to ensure a successful connection to the network share.
 
@@ -116,8 +122,11 @@ The Connection Profile will now be used for AD Activity collection.
 The Enterprise Auditor requires additional configurations in order to collect domain activity data.
 Follow the steps to configure the **AD_ActivityCollection** Job.
 
-**NOTE:** Ensure that the .Active Directory Inventory Job Group has been successfully run against
+:::note
+Ensure that the .Active Directory Inventory Job Group has been successfully run against
 the target domain.
+:::
+
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
 **AD_ActivityCollection** Job. Select the **Configure** > **Queries** node.
@@ -144,10 +153,13 @@ Click **Next**.
 - Relative Timespan – Set the number of days of activity logs to collect when the scan is run
 - Absolute Timespan – Set the date range for activity logs to collect when the scan is run
 
-**_RECOMMENDED:_** The threshold should be set to ensure the logs are collected before the Activity
+:::info
+The threshold should be set to ensure the logs are collected before the Activity
 Monitor domain output log retention expires. For example, if Enterprise Auditor runs the
 **AD_ActivityCollection** Job once a week (every 7 days), then the Activity Monitor output should be
 configured to retain at least 10 days of log files.
+:::
+
 
 **Step 7 –** Set the Retention period as desired. This is the number of days Enterprise Auditor
 keeps the collected data in the SQL Server database.

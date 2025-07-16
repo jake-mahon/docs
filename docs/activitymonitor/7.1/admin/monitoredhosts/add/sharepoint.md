@@ -6,7 +6,7 @@ sidebar_position: 130
 
 # SharePoint
 
-Understanding SharePoint Activity Monitoring
+**Understanding SharePoint Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following SharePoint changes:
 
@@ -32,8 +32,11 @@ environment must be met. See the
 [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-onprem-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to the SharePoint Application server that hosts the
+:::tip
+Remember, the Activity Agent must be deployed to the SharePoint Application server that hosts the
 “Central Administration” component of the SharePoint farm.
+:::
+
 
 ## Add SharePoint Host
 
@@ -99,8 +102,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Enterprise Auditor when integration
+    :::info
+    Identify the configuration to be read by Enterprise Auditor when integration
     is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Enterprise Auditor can only
       read one of them.

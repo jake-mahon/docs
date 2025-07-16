@@ -13,7 +13,10 @@ every domain controller, including the read only domain controllers. However, it
 deploy the agents in batches. Follow the steps to deploy the AD agents to the domain controllers in
 the target domain.
 
-**NOTE:** These steps are specific to deploying AD agents for monitoring Active Directory.
+:::note
+These steps are specific to deploying AD agents for monitoring Active Directory.
+:::
+
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
@@ -22,8 +25,11 @@ the target domain.
 **Step 2 –** Click on the Install agents on Active Directory domain controllers link to deploy
 activity agents to multiple domain controllers.
 
-**NOTE:** The Activity Monitor will validate the entered Host Name or IP Address entered in the
+:::note
+The Activity Monitor will validate the entered Host Name or IP Address entered in the
 **Server Name** text box.
+:::
+
 
 ![Specify Agent Port](/img/product_docs/activitymonitor/7.1/install/agent/portdefault.webp)
 
@@ -33,7 +39,10 @@ activity agents to multiple domain controllers.
 
 **Step 4 –** Select the agent installation path.
 
-**_RECOMMENDED:_** Use the default installation path.
+:::info
+Use the default installation path.
+:::
+
 
 ![Active Directory Connection page with blank text boxes](/img/product_docs/activitymonitor/7.1/admin/agents/add/adconnectionblank.webp)
 
@@ -44,8 +53,11 @@ is a member of BUILTIN\Administrators group on the domain. Then, click **Connect
 
 When the connection is successful, the Next button is enabled. Click Next to continue.
 
-**NOTE:** An Administrator’s credentials are required to test the connection to the server. This is
+:::note
+An Administrator’s credentials are required to test the connection to the server. This is
 the only way to enable the Next button.
+:::
+
 
 ![Domains to Monitor page](/img/product_docs/activitymonitor/7.1/admin/agents/add/domainstomonitorpage.webp)
 
@@ -58,8 +70,11 @@ default. Check/uncheck the boxes as desired to identify the domains to monitor, 
 display in a list, checked by default. Check/uncheck the boxes as desired to identify the domain
 controllers where the AD agent is to be deployed.
 
-**NOTE:** Agents can be gradually deployed, but the AD agent needs to be installed on all domain
+:::note
+Agents can be gradually deployed, but the AD agent needs to be installed on all domain
 controllers to monitor all activity of the domain.
+:::
+
 
 ![Test Connection to Domain Controller](/img/product_docs/activitymonitor/7.1/admin/agents/add/dcsdeployagentconnection.webp)
 

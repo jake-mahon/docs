@@ -6,7 +6,7 @@ sidebar_position: 20
 
 # Dell Isilon/PowerScale
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -34,8 +34,11 @@ target environment must be met. See the
 [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/isilon-powerscale-aac/isilon-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Dell Isilon/PowerScale Host
 
@@ -55,12 +58,15 @@ name or address** and the **CIFS/NFS server name** for the device. The CIFS/NFS 
 left blank to collect activity from the Isilon cluster. If desired, add a **Comment**. Click
 **Next**.
 
-**NOTE:** All Dell event source types must have the CEE Monitor Service installed on the agent in
+:::note
+All Dell event source types must have the CEE Monitor Service installed on the agent in
 order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and
 display a warning to install the service. If the CEE Monitor service is installed on a remote
 machine, manual configuration is required. See the
 [Dell CEE Options Tab](/docs/activitymonitor/7.1/admin/agents/properties/dellceeoptions.md)
 topic for additional information.
+:::
+
 
 ![Isilon Options page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/isilonoptions.webp)
 
@@ -73,7 +79,10 @@ Follow these steps to use this automated option:
 - Check the **Enable Protocol Access Auditing in OneFS if it is disabled** box.
 - Enter the User name and User password to connect to the OneFS Platform API.
 
-    **NOTE:** The User name entered must be an Administrator account on the Dell Isilon device.
+    :::note
+    The User name entered must be an Administrator account on the Dell Isilon device.
+    :::
+
 
 - Click Connect to test the connection. If the connection is successful, discovered access zones is
   displayed in the **Available** box.
@@ -90,10 +99,13 @@ Follow these steps to use this automated option:
       an Isilon host for each access zone, the Dell device name will be the same for each
       configuration, but the **CIFS/NFS server name** must have a unique value.
 
-        **NOTE:** Although the Isilon Options page allows multiple access zones to be placed in the
+        :::note
+        Although the Isilon Options page allows multiple access zones to be placed in the
         Monitored box for a single Isilon host, when generating separate activity log files for each
         access zones, Enterprise Auditor does not support this configuration. Enterprise Auditor
         integration requires all access zones to be monitored from a single configuration.
+        :::
+
 
 Click **Next**.
 
@@ -107,10 +119,13 @@ be monitored are All, CIFS, or NIFS. Click **Next**.
 **Step 6 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** options to be monitored. Additional options include:
 
-**CAUTION:** Suppress Microsoft Office operations on temporary files – Filters out events for
+:::warning
+Suppress Microsoft Office operations on temporary files – Filters out events for
 Microsoft Office temporary files. When Microsoft Office files are saved or edited, many temporary
 files are created. With this option enabled, events for these temporary files are ignored. This
 feature may delay reporting of activity.
+:::
+
 
 Click **Next**.
 
@@ -162,8 +177,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While the Activity Monitor can have multiple configurations per host, Enterprise Auditor can
       only read one of them.

@@ -6,7 +6,7 @@ sidebar_position: 70
 
 # Microsoft Entra ID
 
-Understanding Microsoft Entra ID Activity Monitoring
+**Understanding Microsoft Entra ID Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following Microsoft Entra ID (formerly Azure
 AD) changes:
@@ -45,8 +45,11 @@ environment must be met. See the
 [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/entraid-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Azure Active Directory / Entra ID Host
 
@@ -100,8 +103,11 @@ Output** page can be configured. The configurable options are:
 - This log file is for Netwrix Enterprise Auditor (StealthAUDIT) – Enable this option to have
   Netwrix Enterprise Auditor collect this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While the Activity Monitor can have multiple configurations per host, Netwrix Enterprise
       Auditor can only read one of them.

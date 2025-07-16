@@ -15,12 +15,15 @@ exceptions are covered.
 
 The following servers are required for installation of the application:
 
-Core Component
+**Core Component**
 
 - Activity Monitor Console Server – This is where the v7.1 application is installed.
 
-    **NOTE:** The Activity Monitor Console can be hosted on the same machine as other Netwrix
+    :::note
+    The Activity Monitor Console can be hosted on the same machine as other Netwrix
     products.
+    :::
+
 
 - Agents – There are three types of agents that are deployed in the target environment used to
   monitor activity:
@@ -38,7 +41,7 @@ Core Component
       [Linux Agent Server Requirements](/docs/activitymonitor/7.1/requirements/linuxagent.md)
       topic for additional information.
 
-Target Environment Considerations
+**Target Environment Considerations**
 
 The target environment encompasses all servers, devices, or infrastructure to be monitored by
 Activity Monitor. Most solutions have additional target requirements.
@@ -57,13 +60,13 @@ The following Windows desktop operating systems are supported:
 - Windows 11
 - Windows 10
 
-RAM, Processor, and Disk Space
+**RAM, Processor, and Disk Space**
 
 - RAM – 1 GB minimum
 - Processor – x64
 - Disk Space – 1 GB minimum
 
-Additional Machine Requirements
+**Additional Machine Requirements**
 
 The following are additional requirements for the Console machine:
 
@@ -71,7 +74,7 @@ The following are additional requirements for the Console machine:
   [.NET Framework 4.7.2 offline installer for Windows](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2)
   article
 
-Permissions for Installation
+**Permissions for Installation**
 
 The following permission is required to install and use the application:
 

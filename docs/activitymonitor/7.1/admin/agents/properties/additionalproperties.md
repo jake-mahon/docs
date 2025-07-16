@@ -22,8 +22,11 @@ The Additional Properties tab for the Activity Agent has the following configura
     - Same Level as the Console (uses the global level selected in the console)
     - Trace (the most verbose) many collection points and can slow down
 
-        **CAUTION:** Selecting the **Trace** option can slow down collection due to the large amount
+        :::warning
+        Selecting the **Trace** option can slow down collection due to the large amount
         of data points
+        :::
+
 
     - Debug
     - Info (recommended)
@@ -43,8 +46,11 @@ data (ETW) can be useful for problems related to the following:
 When this is needed, enable the **Collect extended debugging data (ETW) from the Windows driver when
 the Trace level is activated** option to diagnose these problems.
 
-**CAUTION:** Selecting this option collects a large amount of data. Therefore, it is important to
+:::warning
+Selecting this option collects a large amount of data. Therefore, it is important to
 enable it only for short periods of time. Otherwise, the trace file may overflow with data.
+:::
+
 
 In general for troubleshooting, start with trace logs. If the root cause of the problem might be a
 low-level functionality the driver, then the ETW logs must be enabled.
@@ -65,8 +71,11 @@ The Additional Properties tab for the Linux Agent has the following configuratio
     - Same Level as the Console (uses the global level selected in the console)
     - Trace (the most verbose) many collection points and can slow down
 
-        **CAUTION:** Selecting the **Trace** option can slow down collection due to the large amount
+        :::warning
+        Selecting the **Trace** option can slow down collection due to the large amount
         of data points
+        :::
+
 
     - Debug
     - Info (recommended)

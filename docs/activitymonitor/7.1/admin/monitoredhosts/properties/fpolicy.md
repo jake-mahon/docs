@@ -39,8 +39,11 @@ topic for additional information.
 The Enable and Connect settings tab is enabled when the Enable and connect FPolicy checkbox is
 selected.
 
-**NOTE:** Adding nodes are not needed if set user is using a role that has Network Interface
+:::note
+Adding nodes are not needed if set user is using a role that has Network Interface
 permissions.
+:::
+
 
 ![Add or Edit Cluster Node popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.webp)
 
@@ -70,7 +73,7 @@ checks.
 
 **Step 1 –** Using Regedt32 navigate to:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters**
 
 **Step 2 –** Right-click on TimeInterval and select Modify.
 

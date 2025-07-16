@@ -6,7 +6,7 @@ sidebar_position: 110
 
 # Panzura
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -28,8 +28,11 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Prevention
 - Netwrix Threat Manager
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Panzura Host
 
@@ -121,7 +124,10 @@ Click **Next**.
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-**NOTE:** An option must be selected before moving to the next step.
+:::note
+An option must be selected before moving to the next step.
+:::
+
 
 ![fileoutput](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/fileoutput.webp)
 
@@ -137,8 +143,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Enterprise Auditor when integration
+    :::info
+    Identify the configuration to be read by Enterprise Auditor when integration
     is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Enterprise Auditor can only
       read one of them.

@@ -34,7 +34,7 @@ Custom templates can be created. Select the desired template or create a new tem
 an existing template within the Message Template window. The new message template will be named
 Custom. Macro variables are also available to customize the Syslog message template.
 
-Macro Variables for Monitored Domains
+**Macro Variables for Monitored Domains**
 
 Macros are text strings that are replaced with actual values at run time. The following Macro
 variables are available to customize the Syslog message template:
@@ -106,7 +106,7 @@ Custom templates can be created. Select the desired template or create a new tem
 an existing template within the Message Template window. The new message template will be named
 Custom. Macro variables are also available to customize the Syslog message template.
 
-Macro Variables
+**Macro Variables**
 
 Macros are text strings that are replaced with actual values at run time. Not all macro variables
 are applicable to all environment types. The following Macro variables are available to customize

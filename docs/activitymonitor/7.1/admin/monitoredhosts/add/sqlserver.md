@@ -6,7 +6,7 @@ sidebar_position: 150
 
 # SQL Server
 
-Understanding SQL Server Activity Monitoring
+**Understanding SQL Server Activity Monitoring**
 
 The Activity Monitor provides the ability to feed activity data to other Netwrix products:
 
@@ -17,8 +17,11 @@ environment must be met. See the
 [SQL Server Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sqlserver-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add MS SQL Server Host
 
@@ -82,8 +85,11 @@ CREATE TRIGGER SBAudit_LOGON_Trigger ON ALL SERVER FOR LOGON AS BEGIN declare @s
 - Period to keep Log files - Activity logs are deleted after the number of days entered. Default is
   set to 10 days.
 
-    **_RECOMMENDED:_** Keep a minimum of 10 days of activity logs. Raw activity logs should be
+    :::info
+    Keep a minimum of 10 days of activity logs. Raw activity logs should be
     retained to meet an organization’s audit requirements.
+    :::
+
 
 Click **Next**.
 
@@ -106,8 +112,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Enterprise Auditor when integration
+    :::info
+    Identify the configuration to be read by Enterprise Auditor when integration
     is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Enterprise Auditor can only
       read one of them.

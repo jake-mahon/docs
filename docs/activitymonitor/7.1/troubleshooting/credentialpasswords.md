@@ -23,8 +23,11 @@ may be impacted by password changes or security policies:
 The Active Directory Domain / DC User Account is used to run the actions performed by the agent. The
 account can be updated in the agent properties under the **Connection** tab.
 
-**NOTE:** If the AD monitoring account is changed, all accounts on the domain controllers will need
+:::note
+If the AD monitoring account is changed, all accounts on the domain controllers will need
 to be updated as well.
+:::
+
 
 ![Agent User Account Credentials](/img/product_docs/activitymonitor/7.1/troubleshooting/agentuseraccount.webp)
 

@@ -21,7 +21,10 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected group from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by group, use the **Cancel** button to discard the change.
+    :::warning
+    If an account is removed by group, use the **Cancel** button to discard the change.
+    :::
+
 
 - Edit – Opens the Add or Edit GID window to edit a selected group for exclusion. See the
   [Add or Edit GID Window](/docs/activitymonitor/7.1/admin/outputs/gidexclusions/addeditgid.md)

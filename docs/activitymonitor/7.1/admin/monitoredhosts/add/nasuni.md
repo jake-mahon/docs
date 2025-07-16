@@ -6,7 +6,7 @@ sidebar_position: 80
 
 # Nasuni
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -34,8 +34,11 @@ target environment must be met. See the
 [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/nasuni-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Nasuni Host
 
@@ -81,8 +84,11 @@ Click **Next**.
 **Step 5 –** On the Configure Operations page, select the **File Operations, Directory Operations**,
 and **Link Operations** to be monitored. Additional options include:
 
-**CAUTION:** Enabling the Suppress subsequent Read operations in the same folder option can result
+:::warning
+Enabling the Suppress subsequent Read operations in the same folder option can result
 in Read events not being monitored.
+:::
+
 
 - Suppress subsequent Read operations in the same folder – Logs only one Read operation when
   subsequent Read operations occur in the same folder. This option is provided to improve overall
@@ -139,8 +145,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Enterprise Auditor  when integration
+    :::info
+    Identify the configuration to be read by Enterprise Auditor  when integration
     is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Enterprise Auditor can only
       read one of them.

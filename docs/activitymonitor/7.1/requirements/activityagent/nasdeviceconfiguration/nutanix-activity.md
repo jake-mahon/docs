@@ -14,8 +14,14 @@ of this user. In the Nutanix Files server, select **Configuration** > **Manage R
 REST API access users section, click **New User** to create a new user. Specify the username and the
 password.
 
-**NOTE:** The user credentials created here are used when adding a Nutanix file server in Activity
+:::note
+The user credentials created here are used when adding a Nutanix file server in Activity
 Monitor.
+:::
 
-**NOTE:** Nutanix Files does not report events for activity originating from a server where the
+
+:::note
+Nutanix Files does not report events for activity originating from a server where the
 Activity Monitor Agent is installed.
+
+:::

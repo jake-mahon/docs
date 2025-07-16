@@ -28,7 +28,7 @@ advanced features like operation blocking and enhanced monitoring capabilities.
 These methods provide organizations with a choice between basic AD activity monitoring and a more
 versatile, security-enhanced option.
 
-Activity Monitor and Threat Prevention Compatibility Matrix
+**Activity Monitor and Threat Prevention Compatibility Matrix**
 
 | Activity Monitor Version | Threat Prevention (formerly Stealth Intercept) Version | Threat Prevention Version |
 | ------------------------ | ------------------------------------------------------ | ------------------------- |
@@ -44,7 +44,7 @@ can be physical or virtual. The supported operating systems are:
 - Windows Server 2019
 - Windows Server 2016
 
-RAM, Cores, and Disk Space
+**RAM, Cores, and Disk Space**
 
 These depend on the amount of activity expected:
 
@@ -65,7 +65,7 @@ server to a network share. See the
 [Archiving Tab](/docs/activitymonitor/7.1/admin/agents/properties/archiving.md)
 topic for additional information.
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the agent server:
 
@@ -74,7 +74,7 @@ The following are additional requirements for the agent server:
   article
 - WMI enabled on the machine, which is optional but required for centralized Agent maintenance
 
-Permissions for Installation
+**Permissions for Installation**
 
 The following permission is required to install and manage the agent:
 
@@ -85,8 +85,11 @@ The following permission is required to install and manage the agent:
 
 The Activity Monitor provides the ability to monitor Active Directory:
 
-**NOTE:** For monitoring an Active Directory domain, the AD Agent must be installed on all domain
+:::note
+For monitoring an Active Directory domain, the AD Agent must be installed on all domain
 controllers within the domain to be monitored.
+:::
+
 
 - Windows Server 2022
 - Windows Server 2019
@@ -100,8 +103,11 @@ topic for target environment requirements.
 
 The following products conflict with the agent:
 
-**CAUTION:** Do not install these products on a server where an agent is deployed. Do NOT install an
+:::warning
+Do not install these products on a server where an agent is deployed. Do NOT install an
 agent on a server where these products are installed.
+:::
+
 
 - Quest Change Auditor (aka Dell ChangeAuditor)
 - PowerBroker Auditor for Active Directory by BeyondTrust
@@ -114,5 +120,8 @@ thereby prevent monitoring Active Directory events:
 
     - Specifically the “Avast self-defense module”
 
-**NOTE:** These products and other similar products can be configured via a whitelist to allow the
+:::note
+These products and other similar products can be configured via a whitelist to allow the
 agent to operate.
+
+:::

@@ -1,7 +1,7 @@
 ---
 title: "What's New"
 description: "What's New"
-sidebar_position: 20
+sidebar_position: 15
 ---
 
 # What's New
@@ -11,7 +11,7 @@ Activity Monitor 7.1.
 
 ## Activity Monitor v7.1
 
-New: NetApp Enhancements
+**New: NetApp Enhancements**
 
 - Integrated RESTful API support that streamlines interactions with NetApp systems for better
   automation and easier integration with external tools.
@@ -20,14 +20,14 @@ New: NetApp Enhancements
 - Capability to customize FPolicy object names offers easier integration with existing FPolicy
   setups.
 
-New: Linux Enhancements
+**New: Linux Enhancements**
 
 - Support for immutable configurations in audits enhances security posture ensuring tamper-proof
   auditing in Linux environments.
 - Support for configurations compliant with the Federal Information Processing Standards (FIPS),
   ensures high-security standards for cryptographic modules in Linux systems.
 
-New: Qumulo Updates
+**New: Qumulo Updates**
 
 - Improves the signal-to-noise ratio for user actions on Microsoft Office documents, providing a
   more accurate and relevant data overview with the help of the new Advanced Office Document filter.

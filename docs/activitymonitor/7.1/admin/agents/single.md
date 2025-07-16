@@ -11,8 +11,11 @@ Before deploying the activity agent, ensure all
 have been met, including those for NAS devices when applicable. Follow the steps to deploy the
 activity agent to a single Windows server.
 
-**NOTE:** These steps are specific to deploying activity agents for monitoring supported target
+:::note
+These steps are specific to deploying activity agents for monitoring supported target
 environments.
+:::
+
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 

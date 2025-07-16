@@ -78,7 +78,7 @@ del cert.pem key.pem .rnd
 openssl.exe req x509 newkey rsa:2048 keyout key.pem out cert.pem days 365 nodes subj
 "/CN=testagentserver"
 
-copy cert.pem+key.pem agentkey.pem
+**copy cert.pem+key.pem agentkey.pem**
 
 del cert.pem key.pem .rnd
 
@@ -218,7 +218,10 @@ IMPORTANT:
     - `ssl-option no-auth`
     - `send-buffer-size 6291456`, for ONTAP 9.10+ use `send-buffer-size 8388608`
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the external engine:
 
@@ -296,8 +299,11 @@ IMPORTANT:
           file with the intent to delete it, according to the `FILE_DELETE_ON_CLOSE` flag
           specification
 
-            **NOTE:** File open operations are only supported with the `open-with-delete-intent`
+            :::note
+            File open operations are only supported with the `open-with-delete-intent`
             filter applied.
+            :::
+
 
     - `read` – File read operations
 
@@ -345,7 +351,10 @@ IMPORTANT:
     - NFSv4:
       `open, create, create_dir, read, write, delete, delete_dir, rename, rename_dir, setattr, link`
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the FPolicy event for CIFS protocols:
 
@@ -430,7 +439,10 @@ IMPORTANT:
     - `privileged-user-name`, which must be a provisioned FPolicy account
     - `allow-privileged-access yes`
 
-**CAUTION:** All parameters are case sensitive.
+:::warning
+All parameters are case sensitive.
+:::
+
 
 Use the following command to create the FPolicy policy to monitor both CIFS and NFS protocols:
 

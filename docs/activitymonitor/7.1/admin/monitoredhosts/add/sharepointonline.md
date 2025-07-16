@@ -6,7 +6,7 @@ sidebar_position: 140
 
 # SharePoint Online
 
-Understanding SharePoint Activity Monitoring
+**Understanding SharePoint Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following SharePoint changes:
 
@@ -32,8 +32,11 @@ environment must be met. See the
 [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-online-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add SharePoint Online Host
 
@@ -46,8 +49,11 @@ window opens.
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor SharePoint Online.
 
-**CAUTION:** The domain name must match the SharePoint Online host name in order to properly
+:::warning
+The domain name must match the SharePoint Online host name in order to properly
 integrate SharePoint Online activity monitoring with Enterprise Auditor.
+:::
+
 
 ![Add Host page with SharePoint Online selected](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/addhost.webp)
 
@@ -64,8 +70,11 @@ Instruction...** for steps on registering the Activity Monitor with Microsoft En
 - Sign-in with a Global Administrator account.
 - Approve consent for the organization.
 
-    **NOTE:** Activity Monitor does not store credentials. The credentials are used to enable
+    :::note
+    Activity Monitor does not store credentials. The credentials are used to enable
     API access using the Client ID and Secret.
+    :::
+
 
 - See the
   [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/sharepoint-online-activity.md)
@@ -113,8 +122,11 @@ Output** page can be configured. The configurable options are:
 - This log file is for Netwrix Enterprise Auditor (StealthAUDIT) – Enable this option to have
   Enterprise Auditor collect this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While the Activity Monitor can have multiple configurations per host, Netwrix Enterprise
       Auditor can only read one of them.

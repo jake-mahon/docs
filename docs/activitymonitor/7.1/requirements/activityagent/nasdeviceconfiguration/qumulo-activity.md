@@ -44,13 +44,13 @@ The command will ask for the password.
 
 **Step 3 –** Execute the following command to check current format:
 
-qq audit_get_syslog_config
+**qq audit_get_syslog_config**
 
 The format will be shown in the **format** field. The old format is **csv**; the new format is
 **json**.
 
 **Step 4 –** Execute the following command to change the format, if needed:
 
-qq audit_set_syslog_config --json
+**qq audit_set_syslog_config --json**
 
 The change willshould be reflected in the **format** field.

@@ -18,12 +18,12 @@ The Dell CEE Framework uses a “push” mechanism so a notification is sent onl
 when a transaction occurs. Daily activity log files are created only if activity is performed. No
 activity log file is created if there is no activity for the day.
 
-Configuration Checklist
+**Configuration Checklist**
 
 Complete the following checklist prior to configuring activity monitoring of Dell PowerStore
 devices. Instructions for each item of the checklist are detailed within the following topics.
 
-Checklist Item 1: Plan Deployment
+**Checklist Item 1: Plan Deployment**
 
 - Prior to beginning the deployment
 
@@ -40,15 +40,18 @@ Checklist Item 2:
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity
   agent will be deployed
 
-    **_RECOMMENDED:_** The latest version of Dell CEE is the recommended version to use with the
+    :::info
+    The latest version of Dell CEE is the recommended version to use with the
     asynchronous bulk delivery (VCAPS) feature.
+    :::
+
 
 - Important:
 
     Open MS-RPC ports between the Dell device and the Windows proxy server(s) where the Dell CEE is
     installed
 
-Checklist Item 3: Dell PowerStore Device Configuration
+**Checklist Item 3: Dell PowerStore Device Configuration**
 
 - Enable auditing on the PowerStore device
 
@@ -56,7 +59,7 @@ Checklist Item 3: Dell PowerStore Device Configuration
       [Enable Auditing for Dell PowerStore](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/powerstore-aac/auditing.md)
       topic for additional information.
 
-Checklist Item 4: Activity Monitor Configuration
+**Checklist Item 4: Activity Monitor Configuration**
 
 - Deploy the Activity Monitor activity agent to a Windows proxy server where Dell CEE was installed
 
@@ -67,8 +70,11 @@ Checklist Item 4: Activity Monitor Configuration
 
 Checklist Item 5: Configure Dell CEE to Forward Events to the Activity Agent
 
-**NOTE:** When Dell CEE is installed on Windows proxy server(s) where the Activity Monitor activity
+:::note
+When Dell CEE is installed on Windows proxy server(s) where the Activity Monitor activity
 agent will be deployed, the following steps are not needed.
+:::
+
 
 - Ensure the Dell CEE registry key has enabled set to 1 and has an EndPoint set to StealthAUDIT.
 - Ensure the Dell CAVA service and the Dell CEE Monitor service are running.

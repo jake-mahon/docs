@@ -22,29 +22,32 @@ root@123.456.789.123:/tmp/
 
 For example, the following command can be used:
 
-sudo yum localinstall activity-monitor-agentd-7.0.0-1234.rhel.x86_64.rpm
+**sudo yum localinstall activity-monitor-agentd-7.0.0-1234.rhel.x86_64.rpm**
 
 ![Install Linux Agent RPM Package on the Linux server](/img/product_docs/activitymonitor/7.1/install/agent/screen2.webp)
 
 **Step 3 –** Add firewall rules to the Linux server, and restart firewall service.
 
-**NOTE:** This should be the same port number specified in the Activity Monitor console for the
+:::note
+This should be the same port number specified in the Activity Monitor console for the
 Linux agent. Default port is 4498.
+:::
+
 
 For example, the following commands can be used:
 
-sudo firewall-cmd --zone=public --add-port=4498/tcp --permanent
+**sudo firewall-cmd --zone=public --add-port=4498/tcp --permanent**
 
 sudo systemctl restart firewalld
 
-sudo firewall-cmd --list-all
+**sudo firewall-cmd --list-all**
 
 **Step 4 –** Generate the Activity Monitor Agent client certificate on Linux server from the
 Activity Monitor Agent install directory.
 
 The following commands can be used:
 
-cd /usr/bin/activity-monitor-agentd/
+**cd /usr/bin/activity-monitor-agentd/**
 
 sudo ./activity-monitor-agentd create-client-certificate --name amagent
 
@@ -52,7 +55,10 @@ sudo ./activity-monitor-agentd create-client-certificate --name amagent
 
 **Step 5 –** Copy full certificate output from previous command on the Linux server.
 
-**NOTE:** This will be needed to add the agent to the console.
+:::note
+This will be needed to add the agent to the console.
+:::
+
 
 ## Add the Linux Agent to the Console
 
@@ -85,10 +91,13 @@ and paste the full output of the client certificate information (from Step 3 of 
 Activity Monitor Linux Agent’) into the client certificate field. Click **Connect**. Then click
 **Next**.
 
-**NOTE:** When clicking Connect while adding the Agent to the Console, the connection may fail. When
+:::note
+When clicking Connect while adding the Agent to the Console, the connection may fail. When
 clicking Connect, the Activity Monitor verifies not only its ability to manage the agent but the
 console's ability to deploy the agent as well. Errors can be ignored if the agent was manually
 installed.
+:::
+
 
 ![Linux Agent Options](/img/product_docs/activitymonitor/7.1/install/agent/linuxagentoptions.webp)
 
@@ -98,7 +107,10 @@ use root, leave the **Service user name** field blank. Click **Test** to test th
 **Step 7 –** Click **Finish**. The Add New Agent(s) window closes, and the activity agent is
 deployed to and installed on the target host.
 
-**NOTE:** The console will automatically detect the agent as it is already installed.
+:::note
+The console will automatically detect the agent as it is already installed.
+:::
+
 
 The Agent is now added to the Activity Monitor Console.
 

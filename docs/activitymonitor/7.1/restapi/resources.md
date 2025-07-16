@@ -724,14 +724,14 @@ The API supports the following verbs:
   `application/merge-patch+json`. On success returns `200 OK`.
 - `DELETE` - deletes the resource. On success returns `204 No Content`.
 
-GET /api/v1/agents
+**GET /api/v1/agents**
 
 Lists all the agents managed by the API server. If the client has no `Read` permission, returns only
 the current agent.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Agent
+**Response: array of Agent**
 
 Example:
 
@@ -917,23 +917,23 @@ Example:
 ]
 ```
 
-POST /api/v1/agents
+**POST /api/v1/agents**
 
 Adds a new agent (but does not install it). The `host` attribute must be unique.
 
 Permission: `Modify agents`
 
-Body: Agent
+**Body: Agent**
 
 Response: 201, Agent
 
-GET /api/v1/agents/«id»
+**GET /api/v1/agents/«id»**
 
 Returns the agent by ID. If not found or no rights - 404.
 
 Permission: `Read` or `Access activity data`
 
-Response: Agent (with or without details)
+**Response: Agent (with or without details)**
 
 PATCH /api/v1/agents/«id»
 
@@ -944,7 +944,7 @@ Permission: `Modify agents`
 Body: content type: `application/merge-patch+json`, changes to the Agent in the JSON Merge Patch
 format
 
-Response: 200, Agent
+**Response: 200, Agent**
 
 The following attributes can be modified:
 
@@ -995,13 +995,13 @@ The following attributes can be modified:
 - `traceLevel` - `Trace`, `Debug`, `Info`, `Warning`, or `Error`
 - `externaNicName` - Must be a valid NIC name on the agent. Use an empty string for auto detect.
 
-DELETE /api/v1/agents/«id»
+**DELETE /api/v1/agents/«id»**
 
 Removes the agent. Does not uninstall.
 
 Permission: `Modify agents`
 
-Response: 204
+**Response: 204**
 
 GET /api/v1/domains
 
@@ -1010,7 +1010,7 @@ permission.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Domain
+**Response: array of Domain**
 
 Example:
 
@@ -1080,13 +1080,13 @@ Example:
 ]
 ```
 
-GET /api/v1/domains/«id»
+**GET /api/v1/domains/«id»**
 
 Returns the domain by ID. Or 404 if no rights or not found.
 
 Permission: `Read` or `Access activity data`
 
-Response: Domain
+**Response: Domain**
 
 GET /api/v1/agents/«agentId»/domain
 
@@ -1100,7 +1100,7 @@ example, the `archivePath`. If you need such agent-specific fields, use this end
 
 Permission: `Read` or `Access activity data`
 
-Response: Domain
+**Response: Domain**
 
 GET /api/v1/domains/«domainId»/agents
 
@@ -1109,7 +1109,7 @@ domain was not found.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Agent
+**Response: array of Agent**
 
 GET /api/v1/domains/«domainId»/outputs
 
@@ -1118,7 +1118,7 @@ domain was not found.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Output
+**Response: array of Output**
 
 Example:
 
@@ -1176,14 +1176,14 @@ Example:
 ]
 ```
 
-GET /api/v1/domains/«domainId»/outputs/«id»
+**GET /api/v1/domains/«domainId»/outputs/«id»**
 
 Returns the specified domain's output. Or 404 if no rights for the domain or the domain was not
 found.
 
 Permission: `Read` or `Access activity data`
 
-Response: Output
+**Response: Output**
 
 Example:
 
@@ -1217,14 +1217,14 @@ Example:
 }
 ```
 
-GET /api/v1/hosts
+**GET /api/v1/hosts**
 
 Returns the combined list of hosts monitored by all the agents. If no `Read` permission, returns
 only hosts of the current agent.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Host
+**Response: array of Host**
 
 GET /api/v1/hosts/«id»
 
@@ -1232,7 +1232,7 @@ Returns the specified host. If not found or no rights - 404.
 
 Permission: `Read` or `Access activity data`
 
-Response:Host
+**Response:Host**
 
 Example:
 
@@ -1451,13 +1451,13 @@ Example:
 }
 ```
 
-GET /api/v1/agents/«agentId»/hosts
+**GET /api/v1/agents/«agentId»/hosts**
 
 Returns a list of hosts of the specified agent. If the agent was not found or no rights - 404.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Host
+**Response: array of Host**
 
 POST /api/v1/agents/«agentId»/hosts
 
@@ -1465,7 +1465,7 @@ Adds a new Host to be monitored by the specified agent. A host is added with at 
 
 Permission: `Modify hosts`
 
-Body: Host
+**Body: Host**
 
 Response: 201, Host
 
@@ -1475,7 +1475,7 @@ Required attributes:
 - `host`
 - `outputs`
 
-PATCH /api/v1/hosts/«id»
+**PATCH /api/v1/hosts/«id»**
 
 Modifies the host on all the agents that monitor the host.
 
@@ -1484,7 +1484,7 @@ Permission: `Modify hosts`
 Body: content type: `application/merge-patch+json`, changes to the Host resource in the JSON Merge
 Patch format
 
-Response: 200, Host
+**Response: 200, Host**
 
 The following attributes can be modified:
 
@@ -1495,7 +1495,7 @@ The following attributes can be modified:
 - `password`
 - TBD
 
-PATCH /api/v1/agents/«agentId»/hosts/«hostId»
+**PATCH /api/v1/agents/«agentId»/hosts/«hostId»**
 
 Modifies the host on the specified agent only. The method may be useful to set agent-specific
 settings.
@@ -1505,7 +1505,7 @@ Permission: `Modify hosts`
 Body: content type: `application/merge-patch+json`, changes to the Host resource in the JSON Merge
 Patch format
 
-Response: 200, Host
+**Response: 200, Host**
 
 The following attributes can be modified:
 
@@ -1516,13 +1516,13 @@ The following attributes can be modified:
 - `password`
 - TBD
 
-DELETE /api/v1/hosts/«id»
+**DELETE /api/v1/hosts/«id»**
 
 Removes the host from being monitored from all the agents.
 
 Permission: `Modify hosts`
 
-Response: 204
+**Response: 204**
 
 DELETE /api/v1/agents/«agentId»/hosts/«hostId»
 
@@ -1530,7 +1530,7 @@ Removes the host from being monitored from the specified agent only.
 
 Permission: `Modify hosts`
 
-Response: 204
+**Response: 204**
 
 GET /api/v1/hosts/«hostId»/outputs
 
@@ -1538,7 +1538,7 @@ Returns a list of outputs of the specified host. If the host was not found or no
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Output
+**Response: array of Output**
 
 POST /api/v1/hosts/«hostId»/outputs
 
@@ -1546,7 +1546,7 @@ Adds a new output for the specified host on all agents that monitor the host.
 
 Permission: `Modify hosts`
 
-Response: 201, Output
+**Response: 201, Output**
 
 Required attributes:
 
@@ -1554,14 +1554,14 @@ Required attributes:
 - `isEnabled`
 - `logFile` or `syslog` or `amqp`
 
-POST /api/v1/agents/«agentId»/hosts/«hostId»/outputs
+**POST /api/v1/agents/«agentId»/hosts/«hostId»/outputs**
 
 Adds a new output for the specified host on the specified agent only. The method may be useful to
 have agent-specific outputs. Not recommended.
 
 Permission: `Modify hosts`
 
-Response: 201, Output
+**Response: 201, Output**
 
 Required attributes:
 
@@ -1569,14 +1569,14 @@ Required attributes:
 - `isEnabled`
 - `logFile` or `syslog` or `amqp`
 
-GET /api/v1/hosts/«hostId»/outputs/«id»
+**GET /api/v1/hosts/«hostId»/outputs/«id»**
 
 Returns the specified output of the host. If the host was not found or no rights, or the output was
 not found - 404.
 
 Permission: `Read` or `Access activity data`
 
-Response: Output
+**Response: Output**
 
 Example:
 
@@ -1655,7 +1655,7 @@ Example:
 }
 ```
 
-PATCH /api/v1/hosts/«hostId»/outputs/«outputId»
+**PATCH /api/v1/hosts/«hostId»/outputs/«outputId»**
 
 Modifies the specified output on all the agents that monitor the host.
 
@@ -1664,7 +1664,7 @@ Permission: `Modify hosts`
 Body: content type: `application/merge-patch+json`, changes to the Output resource in the JSON Merge
 Patch format
 
-Response: 200, Output
+**Response: 200, Output**
 
 The following attributes can be modified:
 
@@ -1736,7 +1736,7 @@ For SharePoint hosts:
   `SecRoleDefModify`, `SecRoleDefBreakInherit`, `SecRoleBindUpdate`, `SecRoleBindInherit`,
   `SecRoleBindBreakInherit`, `EventsDeleted`, `AppPermissionGrant`, `AppPermissionDelete`, `Custom`
 
-PATCH /api/v1/agents/«agentId»/hosts/«hostId»/outputs/«outputId»
+**PATCH /api/v1/agents/«agentId»/hosts/«hostId»/outputs/«outputId»**
 
 Modifies the specified output on the specified agent only. The method may be useful to set
 agent-specific attributes.
@@ -1746,7 +1746,7 @@ Permission: `Modify hosts`
 Body: content type: `application/merge-patch+json`, changes to the Output resource in the JSON Merge
 Patch format
 
-Response: 200, Output
+**Response: 200, Output**
 
 GET /api/v1/hosts/«hostId»/agents
 
@@ -1754,7 +1754,7 @@ Returns a list of agents monitoring the specified host.
 
 Permission: `Read` or `Access activity data`
 
-Response: array of Agent
+**Response: array of Agent**
 
 GET /api/v1/logs/«outputId»?includeLocal=true&includeArchived=false
 
@@ -1768,7 +1768,7 @@ Parameters:
 
 Permission: ```Read``` or ```Access activity data```
 
-Response: array of File
+**Response: array of File**
 
 Example:
 
@@ -1817,7 +1817,7 @@ Example:
 
 ````
 
-GET /api/v1/domains/«domainId»/policies
+**GET /api/v1/domains/«domainId»/policies**
 
 Returns an array of existing policies for the specified domain.
 
@@ -1830,7 +1830,7 @@ Parameters:
 
 Permission: `Read`
 
-Response: array of Policy
+**Response: array of Policy**
 
 Example:
 
@@ -1859,7 +1859,7 @@ Example:
 ]
 ```
 
-POST /api/v1/domains/«domainId»/policies
+**POST /api/v1/domains/«domainId»/policies**
 
 Creates a new policy for the specified domain using the provided XML. ID and GUID attributes in the
 XML are ignored, new values are assigned.
@@ -1872,7 +1872,7 @@ Input:
   values in XML.
 - Content type: application/xml, Body: XML of the policy to be created
 
-Response: 201, Policy
+**Response: 201, Policy**
 
 PATCH /api/v1/domains/«domainId»/policies/«id»
 
@@ -1885,7 +1885,7 @@ Input:
 
 - Content type: application/merge-patch+json, Body: JSON Merge Patch of Policy.
 
-Reponse: 200, Policy
+**Reponse: 200, Policy**
 
 Example:
 
@@ -1897,7 +1897,7 @@ Body:
 }
 ```
 
-Response: 200
+**Response: 200**
 
 ```json
 {
@@ -1913,10 +1913,10 @@ Response: 200
 }
 ```
 
-DELETE /api/v1/domains/«domainId»/policies/«id»
+**DELETE /api/v1/domains/«domainId»/policies/«id»**
 
 Deletes the specified policy.
 
 Permission: `Policy change`
 
-Response: 204
+**Response: 204**

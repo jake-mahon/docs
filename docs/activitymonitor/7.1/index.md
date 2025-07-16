@@ -15,6 +15,6 @@ to gain deeper visibility into activity associated with the access, use, and mod
 See the [Getting Started](/docs/activitymonitor/7.1/gettingstarted.md)
 topic for additional information.
 
-New Product Name!
+**New Product Name!**
 
 With the v7.0 release, Stealthbits Activity Monitor has been renamed Netwrix Activity Monitor.

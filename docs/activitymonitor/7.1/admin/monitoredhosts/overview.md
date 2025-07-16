@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Monitored Hosts Tab
 
-Understanding Monitored Hosts
+**Understanding Monitored Hosts**
 
 There are many types of hosts or platforms that can be monitored using the Activity Agent or Linux
 Agent:
@@ -35,7 +35,7 @@ See the
 [Add New Host Window](/docs/activitymonitor/7.1/admin/monitoredhosts/add/overview.md)
 topic for additional information.
 
-Agents
+**Agents**
 
 An agent must be deployed to the server to be monitored for:
 
@@ -45,7 +45,7 @@ An agent must be deployed to the server to be monitored for:
 
 For all other hosts, the agent is deployed to a Windows proxy server.
 
-Tab
+**Tab**
 
 Once the agent(s) installation is complete, hosts can be added for monitoring. The tab is not
 visible within the console until at least one agent has been deployed.

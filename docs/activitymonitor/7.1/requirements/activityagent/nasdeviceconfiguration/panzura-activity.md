@@ -36,9 +36,12 @@ The credentials to access the API must be specified when a Panzura host is added
 for monitoring. Additionally, the IP address of the port is 4497 by default and can be customized in
 the properties for the Agent.
 
-**NOTE:** See the
+:::note
+See the
 [Panzura](/docs/activitymonitor/7.1/admin/monitoredhosts/add/panzura.md)
 topic for additional information on Panzura Host.
+:::
+
 
 To prepare Panzura CloudFS for monitoring, auditing must be enabled.
 
@@ -46,8 +49,11 @@ To prepare Panzura CloudFS for monitoring, auditing must be enabled.
 
 Auditing in CloudFS can be enabled either automatically or manually.
 
-**_RECOMMENDED:_** Using the automatic option using the CloudFS API streamlines the configuration
+:::info
+Using the automatic option using the CloudFS API streamlines the configuration
 process and ensures that auditing remains enabled and accurate.
+:::
+
 
 ## Automatic Configuration
 
@@ -92,8 +98,11 @@ Activity Monitor agents register themselves as consumers of audit data via the C
 agents pass their IP address and port along with other AMQP parameters. Panzura nodes use this
 information to establish connections with the Activity Monitor agents.
 
-**NOTE:** The address and port used for registration can be found or modified in the agent’s
+:::note
+The address and port used for registration can be found or modified in the agent’s
 settings.
+:::
+
 
 Follow the steps for network configuration.
 

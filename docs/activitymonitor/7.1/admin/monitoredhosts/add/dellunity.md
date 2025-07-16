@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Dell Unity
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -34,8 +34,11 @@ environment must be met. See the
 [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/unity-aac/unity-activity.md)
 topic for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add Dell VNX/Celerra Host
 
@@ -53,12 +56,15 @@ window opens.
 **Step 3 –** On the Add Host page, select the Dell Unity radio button and enter the **NAS Server
 Name** for the device. If desired, add a **Comment**. Click **Next**.
 
-**NOTE:** All Dell event source types must have the CEE Monitor Service installed on the agent in
+:::note
+All Dell event source types must have the CEE Monitor Service installed on the agent in
 order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and
 display a warning to install the service. If the CEE Monitor service is installed on a remote
 machine, manual configuration is required. See the
 [Dell CEE Options Tab](/docs/activitymonitor/7.1/admin/agents/properties/dellceeoptions.md)
 topic for additional information.
+:::
+
 
 ![Protocol Monitoring Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/isilonprotocols.webp)
 
@@ -70,10 +76,13 @@ monitored are All, CIFS, or NIFS. Click **Next**.
 **Step 5 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** to be monitored. Additional options include:
 
-**CAUTION:** Suppress Microsoft Office operations on temporary files – Filters out events for
+:::warning
+Suppress Microsoft Office operations on temporary files – Filters out events for
 Microsoft Office temporary files. When Microsoft Office files are saved or edited, many temporary
 files are created. With this option enabled, events for these temporary files are ignored. This
 feature may delay reporting of activity.
+:::
+
 
 Click **Next**.
 
@@ -125,8 +134,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Enterprise Auditor collect
   this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While the Activity Monitor can have multiple configurations per host, Enterprise Auditor can
       only read one of them.
