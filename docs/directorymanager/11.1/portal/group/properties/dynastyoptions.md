@@ -6,7 +6,7 @@ sidebar_position: 100
 
 # Dynasty Options tab
 
-Directory Managerprovides advanced options that you can use to enhance the Dynasty structure and its
+Directory Manager provides advanced options that you can use to enhance the Dynasty structure and its
 membership. You can:
 
 - Modify the attributes an Organizational/Geographical/Custom Dynasty is build on
@@ -38,48 +38,8 @@ The following table lists the valid characters the supported messaging systems.
 
 | Messaging System | Valid Characters |
 | --- | --- | 
-| Exchange Server 2013, Exchange Server 2016, Exchange Server 2019 | <ul><li>Uppercase letters (A–Z)</li><li>Lowercase letters (a–z)</li><li>Numeric digits (0–9)</li><li>Special characters: `#`, `---
-title: "Dynasty Options tab"
-description: "Group properties - Dynasty Options tab"
-sidebar_position: 100
----
-
-# Dynasty Options tab
-
-Directory Managerprovides advanced options that you can use to enhance the Dynasty structure and its
-membership. You can:
-
-- Modify the attributes an Organizational/Geographical/Custom Dynasty is build on
-- Modify the structure of a managerial Dynasty
-- Edit the template used to generate the alias and display names of child groups
-- Control the attribute inheritance behavior
-
-Your changes will be reflected on the next update of the Dynasty.
-
-:::note
-Advanced Dynasty options are available for Dynasties of the parent and middle level, but not
-for the leaf level.
-:::
-
-
-## For an Organizational/Geographical/Custom Dynasty
-
-**Alias Template**
-
-This setting generates the alias names of child groups. **%GROUPBY%** is replaced with the actual
-value of the Attributes.
-
-If Exchange Server is the designated messaging system for the identity store, the alias length is
-limited to 64 characters and must be unique to the forest. For other messaging systems, the alias
-length must not exceed the number of characters supported by the respective messaging system.
-
-Also, the alias must not contain characters that are invalid for the configured messaging system.
-The following table lists the valid characters the supported messaging systems.
-
-| Messaging System | Valid Characters |
-| --- | --- | 
-, `%`, `&`, `'`, `*`, `+`, `-`, `/`, `=`, `?`, `^`, `_`, `` ` ``, `\{`, `\|`, `\}`, or `~)`. You can use one or more periods in an alias,, but each must be preceded and followed by at least one other character</li></ul> |
-| All other messaging systems | <ul><li>Uppercase letters (A–Z)</li><li>Lowercase letters (a–z)</li><li>Numeric digits (0–9)</li></ul> |
+| Exchange Server 2013, Exchange Server 2016, Exchange Server 2019 | | Uppercase letters (A–Z)<br />Lowercase letters (a–z)<br />Numeric digits (0–9)<br />Special characters: (`#`, `$`, `%`, `&`, `'`, `*`, `+`, `-`, `/`, `=`, `?`, `^`, `_`, `` ` ``, `{`, `|`, `}` or `~`). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters. |
+| All other messaging systems | <ul><li>Uppercase letters (A–Z)</li><li>Lowercase letters (a–z)</li><li>Numeric digits (0–9)</li></ul> | 
 
 **Display Name Template**
 
