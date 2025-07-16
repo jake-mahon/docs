@@ -9,7 +9,7 @@ sidebar_position: 110
 Roles and Permissions are not a set once and forget about them activity. Both should be reviewed
 regularly to ensure your data is secured and users in your organization have the right access.
 **User Access Review** streamlines this review process, making it easy to manage and review all
-access to your NetSuite data. UAR users must have a [license](/docs/platgovnetsuite/welcome/install_app.md).
+access to your NetSuite data. UAR users must have a [license](/docs/platgovnetsuite/uar/install_app.md).
 
 ## Terminology
 

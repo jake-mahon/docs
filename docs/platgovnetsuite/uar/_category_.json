@@ -1,10 +1,10 @@
 {
-  "label": "Welcome",
-  "position": 10,
+  "label": "User Access Review",
+  "position": 110,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "welcome"
+    "id": "uar_overview"
   }
 }

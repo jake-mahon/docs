@@ -1,7 +1,7 @@
 ---
-title: "Using Process Issues"
-description: "Using Process Issues"
-sidebar_position: 10
+title: "Process Issues"
+description: "Process Issues"
+sidebar_position: 5
 ---
 
 # Using Process Issues

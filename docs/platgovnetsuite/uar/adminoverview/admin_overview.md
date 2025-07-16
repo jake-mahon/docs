@@ -7,7 +7,7 @@ sidebar_position: 30
 # UAR Admin
 
 **UAR Admin**manages the UAR process. Administrators login to NetSuite and open
-[User Access Review](/docs/platgovnetsuite/welcome/access_app.md) to access the dashboard. UAR administrators can:
+[User Access Review](/docs/platgovnetsuite/uar/access_app.md) to access the dashboard. UAR administrators can:
 
 - Assign owners to a role
 - Create Reviews to a Role
@@ -22,8 +22,8 @@ Here is an example of the Admin dashboard displayed when you log in:
 - **Home** icon is your dashboard overview, and the default display when you log in.
 - **Owner List** displays all reviews with an assigned owner.
 - **Pending Role Assignments** displays all reviews without an assigned owner.
-- **UAR List** is your **[User Access Reviews List](/docs/platgovnetsuite/welcome/owneroverview/owner_uar_list.md)**.
-- **UAR History** is your **[User Access Reviews History](/docs/platgovnetsuite/welcome/adminoverview/uar_history.md)**.
+- **UAR List** is your **[User Access Reviews List](/docs/platgovnetsuite/uar/owneroverview/owner_uar_list.md)**.
+- **UAR History** is your **[User Access Reviews History](/docs/platgovnetsuite/uar/adminoverview/uar_history.md)**.
 - **Open Global Reviews** shortcut shows the number of open reviews. Opens your **User Access
   Reviews List**.
 - **Pending Role Assignments** shortcut shows the number of roles without review owners. Opens your

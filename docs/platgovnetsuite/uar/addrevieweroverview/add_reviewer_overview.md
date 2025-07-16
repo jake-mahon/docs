@@ -8,7 +8,7 @@ sidebar_position: 50
 
 Additional Reviewers are assigned by the UAR owners to perform reviews. Additional Reviewers are
 notified with an email message when a new review has been assigned. You can click one of the links
-in the email, or login to NetSuite and open [User Access Review](/docs/platgovnetsuite/welcome/access_app.md) to access the
+in the email, or login to NetSuite and open [User Access Review](/docs/platgovnetsuite/uar/access_app.md) to access the
 dashboard.
 
 1. Open **User Access Review** from NetSuite.
@@ -21,8 +21,8 @@ Here is an example additional reviewer dashboard showing new assignments.
 ## Dashboard Controls
 
 - **Home** icon is your dashboard overview, and the default display when you log in.
-- **UAR List** is your **[User Access Reviews List](/docs/platgovnetsuite/welcome/addrevieweroverview/add_reviewer_uar_list.md)**.
-- **UAR History** is your **[User Access Reviews History](/docs/platgovnetsuite/welcome/adminoverview/uar_history.md)**.
+- **UAR List** is your **[User Access Reviews List](/docs/platgovnetsuite/uar/addrevieweroverview/add_reviewer_uar_list.md)**.
+- **UAR History** is your **[User Access Reviews History](/docs/platgovnetsuite/uar/adminoverview/uar_history.md)**.
 - **User Access Reviews** shortcut shows the number of open reviews. Opens your **User Access
   Reviews List**.
 - **Notifications** is a list of your assignment notifications and reminders:

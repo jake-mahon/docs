@@ -36,8 +36,8 @@ Use **Clear** to reset the Filters.
 ## UAR List
 
 - **Name** is a link. For a **global** review, the link opens the Review list showing all of the
-  associated reviews. For a **single** review the [Membership](/docs/platgovnetsuite/welcome/addrevieweroverview/add_reviewer_membership_reviews.md)
-  or [Permission ](/docs/platgovnetsuite/welcome/adminoverview/owner_permission_reviews.md)**Review** tab is opened. Reviews can
+  associated reviews. For a **single** review the [Membership](/docs/platgovnetsuite/uar/addrevieweroverview/add_reviewer_membership_reviews.md)
+  or [Permission ](/docs/platgovnetsuite/uar/adminoverview/owner_permission_reviews.md)**Review** tab is opened. Reviews can
   also be opened via links in dashboard or email **Notifications**.
 - **Number of Reviews** (global) is the number of single reviews in the global review.
 - **Review Type** is the type of review. Global can be **Both**, **Membership**, or **Permission**.
@@ -75,7 +75,7 @@ showing all of the single reviews associated with the global review.
   details for the reviews.
 - **Extract Permission Detail**creates a CSV file (_Permission_Report.csv_) of the permission
   details for the reviews.
-- **Review Name** is a link to the [Membership](/docs/platgovnetsuite/welcome/addrevieweroverview/add_reviewer_membership_reviews.md) **Review** tab.
+- **Review Name** is a link to the [Membership](/docs/platgovnetsuite/uar/addrevieweroverview/add_reviewer_membership_reviews.md) **Review** tab.
   Reviews can also be opened via links in dashboard or email **Notifications**.
 - **Role Name** the role being reviewed.
 - **Review Type** is the type of review: **Membership** or **Permission**. The review type is set
@@ -102,4 +102,4 @@ showing all of the single reviews associated with the global review.
 - **Complete Date** the date the review was completed.
 
 Continue with the procedures to complete your Additional Reviewer
-[Membership](/docs/platgovnetsuite/welcome/addrevieweroverview/add_reviewer_membership_reviews.md) reviews.
+[Membership](/docs/platgovnetsuite/uar/addrevieweroverview/add_reviewer_membership_reviews.md) reviews.

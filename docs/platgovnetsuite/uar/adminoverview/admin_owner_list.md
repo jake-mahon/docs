@@ -7,7 +7,7 @@ sidebar_position: 10
 # Owner List
 
 Access your **Owner List** from your menu bar. This is where Administrators can add or remove owners
-from reviews. All changes are captured in the [UAR History](/docs/platgovnetsuite/welcome/adminoverview/uar_history.md).
+from reviews. All changes are captured in the [UAR History](/docs/platgovnetsuite/uar/adminoverview/uar_history.md).
 
 Auditors can view the Owner list and Owner notes, but cannot add or remove owners.
 

@@ -1,7 +1,7 @@
 ---
 title: "What is a Spider?"
 description: "What is a Spider?"
-sidebar_position: 30
+sidebar_position: 16
 ---
 
 # What is a Spider?

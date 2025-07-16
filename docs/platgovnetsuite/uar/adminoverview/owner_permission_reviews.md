@@ -115,7 +115,7 @@ be made.
 ![Permission review complete when all rows are complete](/img/product_docs/platgovnetsuite/uar/uar_owner/permission_review_complete.webp)
 
 When you click **Complete Review**, the review status is updated to **Complete**, and the review is
-added to the [UAR History](/docs/platgovnetsuite/welcome/adminoverview/uar_history.md).
+added to the [UAR History](/docs/platgovnetsuite/uar/adminoverview/uar_history.md).
 
 ## Review Notes
 

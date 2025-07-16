@@ -9,7 +9,7 @@ sidebar_position: 60
 When reviews are complete, they are added to the **UAR History**. Click **UAR History** in your menu
 bar to access the list. Completed reviews cannot be modified. You can use **Filters** to narrow down
 your list. Additional reporting for extracting permission and membership data is available from the
-[administrator](/docs/platgovnetsuite/welcome/adminoverview/admin_uar_list.md) and [owner](/docs/platgovnetsuite/welcome/owneroverview/owner_uar_list.md) Review lists.
+[administrator](/docs/platgovnetsuite/uar/adminoverview/admin_uar_list.md) and [owner](/docs/platgovnetsuite/uar/owneroverview/owner_uar_list.md) Review lists.
 
 UAR Administrators and Auditors see all completed reviews.  
 Owners see their assigned, completed reviews.  
