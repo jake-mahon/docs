@@ -18,9 +18,6 @@ The Flashlight **Tools** tab accesses:
 > **Finder**: searches for standard and custom objects.
 >
 > **Export Objects**: exports objects to an Excel file.
->
-> **Automated Report Clean Up**: runs automatically or on demand using custom rules to find and
-> manage reports.
 
 In addition to the menu items, this section contains information fpr
 [Accessing Reports](/docs/platgovsalesforceflashlight/tools/reports_overview.md) from the **Reports / List Views** tab, and an example of
