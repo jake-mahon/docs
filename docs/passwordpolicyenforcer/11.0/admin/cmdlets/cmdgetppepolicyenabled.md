@@ -9,11 +9,11 @@ sidebar_position: 130
 The **Get-PPEPolicyEnabled** cmdlet returns the enabled/disabled status of a Password Policy
 Enforcer policy.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEPolicyEnabled** **-PolicyName** `<_string_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PolicyName** `<_string_>`
 
@@ -25,8 +25,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEPolicyEnabled -PolicyName "Eval Policy"
 
-Policy "Eval Policy" is Enabled
+**Policy "Eval Policy" is Enabled**

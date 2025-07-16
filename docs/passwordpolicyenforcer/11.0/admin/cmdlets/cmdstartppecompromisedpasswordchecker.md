@@ -9,11 +9,11 @@ sidebar_position: 220
 The **Start-PPECompromisedPasswordChecker** cmdlet runs the Password Policy Enforcer Compromised
 Password Checker.
 
-SYNTAX
+**SYNTAX**
 
 **Start-PPECompromisedPasswordChecker** [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 `<_CommonParameters_>`
 
@@ -21,8 +21,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Start-PPECompromisedPasswordChecker
 
-PS C:\>
+**PS C:\>**

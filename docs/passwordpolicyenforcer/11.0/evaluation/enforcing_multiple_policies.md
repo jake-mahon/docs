@@ -70,6 +70,9 @@ Active Directory Users and Computers console, or the Local Users and Groups cons
 changes and resets for the **PPETestUser** and **PPETestAdmin** accounts. Password Policy Enforcer
 should enforce the Eval policy for **PPETestUser**, and the Admins policy for **PPETestAdmin**.
 
-**NOTE:** The [Set Priorities](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/manage_policies.md#set-priorities) topic contains
+:::note
+The [Set Priorities](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/manage_policies.md#set-priorities) topic contains
 more information about policy assignments, and how Password Policy Enforcer resolves policy
 assignment conflicts that occur when more than one policy is assigned to a user.
+
+:::

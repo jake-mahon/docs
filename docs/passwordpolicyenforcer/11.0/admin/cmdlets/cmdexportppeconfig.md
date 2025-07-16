@@ -8,11 +8,11 @@ sidebar_position: 30
 
 The **Export-PPEConfig** cmdlet exports the Password Policy Enforcer configuration to a file.
 
-SYNTAX
+**SYNTAX**
 
 **Export-PPEConfig** [__-File__ `<_string_>`] [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-File** `<_string_>`
 
@@ -24,7 +24,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Export-PPEConfig -file c:\ppe\ppe_config
 

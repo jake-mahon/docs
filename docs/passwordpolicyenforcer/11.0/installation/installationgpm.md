@@ -59,8 +59,11 @@ button.
 
 **Step 4 –** Enter the full **UNC path** to your **msi** files.
 
-**NOTE:** You must enter a UNC path so that other computers can access this file over the network.
+:::note
+You must enter a UNC path so that other computers can access this file over the network.
 For example: \\file server\distribution point share\Netwrix*PPE\_\_version*.msi
+:::
+
 
 **Step 5 –** Click **Open**.
 

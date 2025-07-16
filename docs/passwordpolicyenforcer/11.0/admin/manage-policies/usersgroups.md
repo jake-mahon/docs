@@ -41,8 +41,11 @@ child OUs. If this behavior is not desired, then you can assign a different poli
 
 ![managing_policies_3](/img/product_docs/passwordpolicyenforcer/11.0/administration/managing_policies_3.webp)
 
-**NOTE:** Different assignment types can be used for a single policy. For example, you may assign
+:::note
+Different assignment types can be used for a single policy. For example, you may assign
 users to a policy by both OU and group at the same time.
+:::
+
 
 As you assign users and groups to the policy, they are displayed on the page.
 

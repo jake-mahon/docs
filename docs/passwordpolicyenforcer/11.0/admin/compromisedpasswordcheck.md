@@ -10,8 +10,11 @@ The Compromised Password Checker finds compromised passwords. Users can be notif
 advised or forced to change their password. The check can be scheduled to check existing passwords
 against a compromised hash list at any time.
 
-**NOTE:** Create the **Compromised Passwords Base** file prior to enabling the Compromised Password
+:::note
+Create the **Compromised Passwords Base** file prior to enabling the Compromised Password
 Check. See the [HIBP Updater](/docs/passwordpolicyenforcer/11.0/installation/hibpupdater.md) topic for instructions.
+:::
+
 
 The Compromised Password Checker is launched from the Configuration Console:
 

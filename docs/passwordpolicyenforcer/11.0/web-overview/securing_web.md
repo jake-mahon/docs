@@ -17,7 +17,10 @@ Password Policy Enforcer Web sends passwords to the domain controllers over a se
 you need to set up SSL (Secure Sockets Layer) encryption for the connection between the web browser
 and the web server.
 
-**CAUTION:** Do not use Password Policy Enforcer Web on a production network without SSL encryption.
+:::warning
+Do not use Password Policy Enforcer Web on a production network without SSL encryption.
+:::
+
 
 You can use a self-signed certificate, but most organizations purchase certificates from a
 certificate authority. This is a recurring cost, and you will need to complete forms for the

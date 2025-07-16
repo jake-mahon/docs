@@ -36,6 +36,9 @@ accepts passphrases that comply with all enabled rules, irrespective of the comp
 ensures that passphrases can be used, even if they do not meet the compliance level when Password
 Policy Enforcer is configured to disable one or more rules for passphrases.
 
-**NOTE:** Opinions differ on how long a passphrase needs to be. Even a 30 character passphrase can
+:::note
+Opinions differ on how long a passphrase needs to be. Even a 30 character passphrase can
 be weaker than a well-chosen password. Do not disable too many rules under the assumption that
 length alone makes up for the reduced complexity.
+
+:::

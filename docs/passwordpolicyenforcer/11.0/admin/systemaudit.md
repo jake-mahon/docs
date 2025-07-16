@@ -25,8 +25,11 @@ configuration setting. System Audit and Support opens on the **Version Tracker**
 
 Click **Run test**. The audit reports the discovered domain controllers and versions.
 
-**NOTE:** If you do not see the **Configuration Timestamp**, contact your network administrator to
+:::note
+If you do not see the **Configuration Timestamp**, contact your network administrator to
 set up the firewall to allow Password Policy Enforcer to communicate.
+:::
+
 
 ![System Audit results](/img/product_docs/passwordpolicyenforcer/11.0/administration/systemauditversion.webp)
 
@@ -34,9 +37,12 @@ You can click the export icon to download your results. The file name is
 **Audit\_\_**timestamp**\_.xlxs**, it is downloaded into the default **Downloads** folder. For large
 domains, you can apply filters or use the Search feature to make it easier to navigate your list.
 
-**NOTE:** **Debug logging** should only be enabled when you are actively debugging your system.
+:::note
+**Debug logging** should only be enabled when you are actively debugging your system.
 Leaving it enabled impacts Password Policy Enforcer performance and uses free disk space to create
 the logs.
+:::
+
 
 ## Support Tools
 
@@ -55,7 +61,10 @@ and open the property editor.
       the **PPEExport.xml** file. Click **Open**. A status message is displayed when complete.
 - **Open Property Editor** launches the Property Editor.
 
-    **NOTE:** Properties should only be changed when advised by Netwrix Support.
+    :::note
+    Properties should only be changed when advised by Netwrix Support.
+    :::
+
 
 ### Property Editor
 
@@ -64,7 +73,7 @@ be used instructed by Netwrix Support. It is accessed from the Configuration Con
 
 **Help** > **Open Property Editor**
 
-or
+**or**
 
 **System Audit and Support** > **Support Tools** > **Open editor**
 

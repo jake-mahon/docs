@@ -8,11 +8,11 @@ sidebar_position: 140
 
 The **Get-PPEServerVersion** cmdlet returns the Password Policy Enforcer server version.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEServerVersion** [__-DC__] `<_string_>`] [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-DC** `<_string_>`
 
@@ -29,8 +29,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEServerVersion -DC NT-DC03.NWXTECH.COM
 
-Version: 11.0.0.74
+**Version: 11.0.0.74**

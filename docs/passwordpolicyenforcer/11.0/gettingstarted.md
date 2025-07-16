@@ -42,11 +42,11 @@ Create the **Compromised Passwords Base** prior to enabling the Compromised Pass
 
 ## Exclude PPE Files from AntiVirus Checks
 
-Domain Controller
+**Domain Controller**
 
 **PPE.DLL** if this file does not load, the password policy is not enforced.
 
-Clients
+**Clients**
 
 **PPEClt.dll** and **APRClt.dll** if either of these files are blocked, the client does not run.
 

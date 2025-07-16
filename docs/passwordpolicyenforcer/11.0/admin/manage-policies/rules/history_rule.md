@@ -30,10 +30,13 @@ so a domain controller that can handle 1,000 password changes a minute with SHA-
 to handle 250 password changes a minute with Argon2. All numbers are approximate. Use Argon2 if your
 domain controllers can handle the load.
 
-**NOTE:** Changing the **Hash function** does not modify existing history records. It sets the
+:::note
+Changing the **Hash function** does not modify existing history records. It sets the
 function to be used for new password history records. If a user has Argon2 and SHA-256 hashes in
 their password history, then Password Policy Enforcer calculates both the Argon2 and SHA-256 hashes
 during a password change to ensure the new password is not in the password history.
+:::
+
 
 The History rule is normally not enforced when a password is reset. Select the **Enforce this rule
 when a password is reset** check box to override the default behavior. You must also select the
@@ -42,7 +45,10 @@ when a password is reset.
 
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 
-**NOTE:** The History rule is not enforced when testing passwords from the Test Policies page.
+:::note
+The History rule is not enforced when testing passwords from the Test Policies page.
+:::
+
 
 Password Policy Enforcer updates a user's password history whenever their password changes. The
 password history is updated even if Password Policy Enforcer or the assigned policy is disabled. A
@@ -56,11 +62,14 @@ password history, or configure Password Policy Enforcer to use an existing attri
 Disable Password Policy Enforcer's History rule if you do not want Password Policy Enforcer to store
 the password history.
 
-**NOTE:** Password Policy Enforcer does not store passwords in the password history, it only stores
+:::note
+Password Policy Enforcer does not store passwords in the password history, it only stores
 the Argon2 or SHA-256 hashes. A salt protects the hashes from precomputed attacks, including rainbow
 tables. If you do not want Password Policy Enforcer to store a password history, then leave the
 History rule disabled. You can use the Windows History rule together with Password Policy Enforcer's
 other rules to enforce your password policy.
+:::
+
 
 Password Policy Enforcer can store up to 100 password hashes for each user, but it only stores the
 minimum needed to enforce the current password policy. For example, if Password Policy Enforcer is
@@ -89,13 +98,16 @@ history in a new or existing attribute. A new attribute is recommended, but you 
 attribute if you do not want to extend the AD schema. An AD attribute is only needed for domain user
 accounts because the password history for local user accounts is stored in the registry.
 
-**CAUTION:** Password Policy Enforcer's password history attribute is confidential to stop
+:::warning
+Password Policy Enforcer's password history attribute is confidential to stop
 authenticated users from accessing the password history of other users. See the Microsoft Article
 [Mark an attribute as confidential in Windows Server 2003 Service Pack 1](http://support.microsoft.com/kb/922836)
 Microsoft article for additional information. Confidential attributes have additional protection in
 Active Directory, but they are not as well protected as the Windows password history attributes.
 There is a higher risk of unauthorized access to the password history if it is stored outside the
 Windows password history attributes.
+:::
+
 
 Follow the steps below to create a new Active Directory attribute for the password history.
 
@@ -104,11 +116,11 @@ a member of the Schema Admins group.
 
 **Step 2 –** Open a Command Prompt window to the Password Policy Enforcer installation folder.
 
-(\Program Files (x86)\Password Policy Enforcer\)
+**(\Program Files (x86)\Password Policy Enforcer\)**
 
 **Step 3 –** Type the following command:
 
-: ldifde -i -f History.ldf -c "DC=X" "DC=yourdomain,DC=yourdomain"
+**: ldifde -i -f History.ldf -c "DC=X" "DC=yourdomain,DC=yourdomain"**
 
 Replacing the last parameter with your domain's DN.
 
@@ -133,7 +145,8 @@ administrator accesses the password history they might be able to extract the ha
 but they cannot extract the passwords directly because the password history does not contain any
 passwords.
 
-**CAUTION:** The password history of a local user account is not automatically deleted when the user
+:::warning
+The password history of a local user account is not automatically deleted when the user
 account is deleted. If a local user account is deleted, then another local user account is created
 on the same computer with the same username, the new user will inherit the deleted user's password
 history. The default registry permissions stop users from accessing their own password history, so
@@ -144,3 +157,5 @@ user's current password is validated, and the Windows Minimum Age rule is enforc
 password history is checked, so every compliant and incorrect password guessed will overwrite one
 hash in the password history. This information applies only to local user accounts. The password
 history for domain user accounts is deleted when users are deleted.
+
+:::
