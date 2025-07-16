@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # Elevating Executables
 
-**NOTE:** For an overview of how to elevate applications that need admin rights, see the
+:::note
+For an overview of how to elevate applications that need admin rights, see the
 [Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/localadminrights.md)
 video.
+:::
+
 
 In the previous section, we observed that when a Standard User tries to run Process Monitor, they
 are not allowed because it requires admin rights. Creating a Endpoint Policy Manager Least Privilege

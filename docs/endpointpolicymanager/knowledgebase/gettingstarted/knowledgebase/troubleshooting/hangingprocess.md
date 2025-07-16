@@ -15,8 +15,11 @@ Get the following tools handy:
 - procdump:
   [https://docs.microsoft.com/en-us/sysinternals/downloads/procdump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump)
 
-**NOTE:** You can pre-watch this video on PROCMON here:
+:::note
+You can pre-watch this video on PROCMON here:
 [Process Monitor 101](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/processmonitor.md)
+:::
+
 
 **Step 1 –** Start Procmon. Let it run. It will start to generate a file.
 
@@ -37,9 +40,12 @@ Get the following tools handy:
 3. Next get a procDUMP.. : procdump -ma 1072 ought to do it (recommended). OR.. procdump
    "`PPGPCR auditor.exe`" for a process by name.
 
-   **CAUTION:** If you use the process name for the dump .. Just make sure in Process Explorer,
+   :::warning
+   If you use the process name for the dump .. Just make sure in Process Explorer,
    that there are NO OTHER SAME NAMED tasks or Procdump will not dump them all. And be sure to dump
    the RIGHT process.. hence.. also making sure you got the PID.) The PID is a better bet.
+   :::
+
 
 **Step 4 –** When the DUMP is done.. Now you can Stop procMON. (File | uncheck CAPTURE EVENTS.)
 

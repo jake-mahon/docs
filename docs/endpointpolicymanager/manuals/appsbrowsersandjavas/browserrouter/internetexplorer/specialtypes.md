@@ -10,9 +10,12 @@ There are two special policies that may be used only once per collection (see Fi
 reference). These policies manage how the Windows 10 Edge browser functions alongside Internet
 Explorer 11.
 
-**NOTE:** To get an overview of Endpoint Policy Manager Browser Router's special policies for
+:::note
+To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
 [Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
+:::
+
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to IE** policy.
 

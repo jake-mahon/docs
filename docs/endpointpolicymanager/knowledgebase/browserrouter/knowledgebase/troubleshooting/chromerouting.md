@@ -13,8 +13,11 @@ Q: What's the (business) problem exactly ?
 A:Netwrix Endpoint Policy Manager (formerly PolicyPak) was contacted by Google about theEndpoint
 Policy Manager Browser Router Chrome Extension.
 
-**NOTE:** This is NOT a security concern. They have a policy which basically says … that we're not
+:::note
+This is NOT a security concern. They have a policy which basically says … that we're not
 allowed to have more than one extension which does (essentially) the same thing.
+:::
+
 
 Q: So what's the (technical) problem exactly ?
 

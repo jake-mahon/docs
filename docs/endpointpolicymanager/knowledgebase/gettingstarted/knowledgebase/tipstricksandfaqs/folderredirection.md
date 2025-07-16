@@ -52,7 +52,10 @@ Type: REG_EXPAND_SZ
 
 Data: ` %USERPROFILE%\Start Menu`
 
-**NOTE:** For more details see this article:
+:::note
+For more details see this article:
+:::
+
 
 [https://support.microsoft.com/en-us/help/242557/registry-settings-for-folder-redirection-in-windows](https://support.microsoft.com/en-us/help/242557/registry-settings-for-folder-redirection-in-windows)
 
@@ -62,8 +65,11 @@ Data: ` %USERPROFILE%\Start Menu`
 [https://docs.microsoft.com/en-us/onedrive/redirect-known-folders](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders)
 then use the OneDrive Group Policy settings to perform the work.
 
-**NOTE:** Full, step by step and expert advice in this area can be found in the MDM book at
+:::note
+Full, step by step and expert advice in this area can be found in the MDM book at
 [http://www.mdmandgpanswers.com/book](http://www.mdmandgpanswers.com/book) in the OneDrive chapter.
+:::
+
 
 The latest OneDrive ADMX files are always just installed alongside the OneDrive client.
 
@@ -71,8 +77,11 @@ The latest OneDrive ADMX files are always just installed alongside the OneDrive 
 [https://onedrive.live.com/about/download/](https://onedrive.live.com/about/download/) find the
 download (or reinstall) for Windows 10.
 
-_Remember,_ Even if you think you have it, just… re-download and reinstall it, just so I know you're
+:::tip
+Remember, Even if you think you have it, just… re-download and reinstall it, just so I know you're
 using the latest OneDrive client version.
+:::
+
 
 **Step 3 –** Then, once done, on a Windows 10 machine, you'll look for the files in
 `%localappdata%\Microsoft\OneDrive\BuildNumber\adm` (yes, adm and not ADMX for some reason.)

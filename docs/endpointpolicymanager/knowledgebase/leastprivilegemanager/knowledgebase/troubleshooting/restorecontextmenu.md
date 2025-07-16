@@ -18,9 +18,12 @@ Manager.
 
 Use Endpoint Policy Manager Scripts Manager to perform this action, one time, on the computer side.
 
-**NOTE:** There are two PowerShell scripts. Select the script to use according to the Endpoint
+:::note
+There are two PowerShell scripts. Select the script to use according to the Endpoint
 Policy Manager configuration that is implemented. It is recommended to perform a small-scale test
 before rolling this update out to the entire organization.
+:::
+
 
 Non-domain-Joined Machines
 

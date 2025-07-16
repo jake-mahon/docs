@@ -6,9 +6,12 @@ sidebar_position: 30
 
 # Using MacOS + Admin Approval (aka Application Launch + Challenge)
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager for Mac and Admin Approval](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/adminapproval.md)
 video for an overview of this section.
+:::
+
 
 You might want users to only be able to run applications (normally or those which require admin
 rights) only when approved. With the Admin Approval function you can do just that.
@@ -27,8 +30,11 @@ generated](/img/product_docs/endpointpolicymanager/mac/using_macos_admin_approva
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/mac/using_macos_admin_approval_1.webp)
 
-**NOTE:** The Endpoint Policy Manager Least Privilege Admin Approval tool for Windows must be used
+:::note
+The Endpoint Policy Manager Least Privilege Admin Approval tool for Windows must be used
 to perform approval requests.
+:::
+
 
 The following options are honored in the Mac (and Windows) client:
 

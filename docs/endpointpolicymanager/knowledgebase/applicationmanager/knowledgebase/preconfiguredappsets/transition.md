@@ -34,9 +34,12 @@ items to workaround and fix it:
 - The AppSet itself which needed to be recompiled with some Endpoint Policy Manager DesignStudio
   updates.
 
-**NOTE:** If you are using the Endpoint Policy Manager DesignStudio yourself to make any changes to
+:::note
+If you are using the Endpoint Policy Manager DesignStudio yourself to make any changes to
 the Firefox 23 AppSet, you will need to re-compile with the latest Endpoint Policy Manager
 DesignStudio and then perform the steps listed below.
+:::
+
 
 This document is to help guide you through the required transition.
 
@@ -46,9 +49,12 @@ FF115.
 You can acquire the updated FireFox AppSet 115 in the Endpoint Policy Manager Portal within the
 AppSets downloads.
 
-**NOTE:** It is recommended, though not strictly required that you also update your management
+:::note
+It is recommended, though not strictly required that you also update your management
 station to the latest Endpoint Policy Manager MMC snap-in. In doing so the screenshots shown here
 will match the steps you will be performing.
+:::
+
 
 ## Functional Matrix of Firefox, CSE and AppSet
 
@@ -73,10 +79,13 @@ to the machines with the new 23.10 and later CSE. During this guide you will use
 Targeting to ensure that the older FF23 AppSet cannot work with, and shouldn't be applied to newer
 CSEs; therefore we need to ensure that the newer FF115 AppSet only applies to the newer CSEs.
 
-**NOTE:** This document mostly focuses on Group Policy Object delivery of the Firefox Endpoint
+:::note
+This document mostly focuses on Group Policy Object delivery of the Firefox Endpoint
 Policy Manager AppSet. Note you may have other ways to deliver the FireFox Endpoint Policy Manager
 AppSet like Endpoint Policy Manager Cloud, local GPOs, and/or XML data files (via MSI files.) Be
 sure to perform this same operation using any and all methods.
+:::
+
 
 ## Finding all GPOs with Endpoint Policy Manager Application Settings Manager Data
 
@@ -134,7 +143,10 @@ the file out.
 See the
 [What are the two ways to export AppSet settings and why would I use one over the other?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/troubleshooting/appset.md)
 
-**NOTE:** You will use the resulting XML file in an upcoming step and not only for backup purposes.
+:::note
+You will use the resulting XML file in an upcoming step and not only for backup purposes.
+:::
+
 
 ### Back up 4: Backing up your Firefox 23 AppSet DLL
 
@@ -209,8 +221,11 @@ Item Level Targeting Validation tool to test how ILT will operate. See the
 [Troubleshooting ILT with the ILT Validator Tool](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargeting.md)
 topic for additional information.
 
-**NOTE:** You will have to trim the ILT part of the output to eliminate the `<ILTFilters>` at the
+:::note
+You will have to trim the ILT part of the output to eliminate the `<ILTFilters>` at the
 beginning and `</ILTFilters>` at the end.
+:::
+
 
 ![939_8_image-20231101213809-8_950x453](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_8_image-20231101213809-8_950x453.webp)
 
@@ -238,8 +253,11 @@ Use these instructions to add the AppSet to a Share:
 For example in the Endpoint Policy Manager Central Store you simply add the pp-Mozilla Firefox
 115.DLL.
 
-**NOTE:** You may leave your existing pp-Mozilla Firefox 23 aboutconfig A to I and J to Z.DLL files
+:::note
+You may leave your existing pp-Mozilla Firefox 23 aboutconfig A to I and J to Z.DLL files
 in place without modification.
+:::
+
 
 ![939_12_image-20231101213809-12_950x406](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_12_image-20231101213809-12_950x406.webp)
 

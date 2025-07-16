@@ -27,10 +27,16 @@ Policy Manager directive (where Netwrix Privilege Secure is involved.) You will 
 along but, if you are using Netwrix Privilege Secure and want to try out the power of Endpoint
 Policy Manager, that is included in your Netwrix Privilege Secure license.
 
-**NOTE:** See the
+:::note
+See the
 [Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/netwrixprivilegesecure/privilegesecure.md)video
 for a demo on the relationship of the Netwrix Privilege Secure and Endpoint Policy Manager downloads
 and moving parts.
+:::
 
-**NOTE:** All Netwrix Privilege Secure + Endpoint Policy Manager documentation from Netwrix
+
+:::note
+All Netwrix Privilege Secure + Endpoint Policy Manager documentation from Netwrix
 Privilege Secure can be found in [Netwrix Privilege Secure for Endpoints Documentation](https://helpcenter.netwrix.com/category/privilegesecure_endpoints).
+
+:::

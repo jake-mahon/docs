@@ -29,13 +29,19 @@ Follow these steps to install both MSIs:
 
 **Step 2 –** Download the PPC MSI from the Cloud Portal and install it on the client machines.
 
-**NOTE:** This advice is best suited for computers located in very remote areas where you have a
+:::note
+This advice is best suited for computers located in very remote areas where you have a
 slow internet connection. For those with a moderately good/stable connection, the usual method is
 recommended.
+:::
 
-_Remember,_ Usually the latest CSE is in sync with PPC Service. However, you may have a preference
+
+:::tip
+Remember, Usually the latest CSE is in sync with PPC Service. However, you may have a preference
 for an older version of CSE. In these special cases please reach out to Endpoint Policy Manager
 Support for a download link.
+:::
+
 
 For more details about setting up machines for VDI environments please check the following topics.
 

@@ -25,8 +25,11 @@ The process for receiving information is as follows:
 **Step 2 –** When Group Policy runs (triggers) on the endpoint, the endpoint runs the auditor EXE
 (PPGPCR.Auditor.exe) which lives on a file share.
 
-**NOTE:** This can be any server at all and not necessarily the same server running the Endpoint
+:::note
+This can be any server at all and not necessarily the same server running the Endpoint
 Policy Manager GPCR server.
+:::
+
 
 **Step 3 –** Data (the RSOP report) is generated on the client and processed for delivery.
 
@@ -36,5 +39,8 @@ to the designated server.
 Data is then stored in the database, where Endpoint Policy Manager GPCR clients (admin consoles) can
 see, in real time, the latest settings from across the network.
 
-**NOTE:** The server will only accept data from computers which are specifically enabled to do so
+:::note
+The server will only accept data from computers which are specifically enabled to do so
 via an Active Directory group. This will be discussed in more detail in the next section.
+
+:::

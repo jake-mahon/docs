@@ -19,10 +19,13 @@ because the installation must be performed as a local admin. Here are some strat
 - Over a VPN: If you have a software deployment tool and your Windows machine can connect via VPN,
   Endpoint Policy Manager Cloud will install perfectly fine using remote installation tools via VPN.
 
-**NOTE:** You can also use Endpoint Policy Manager Least Privilege Manager to enable non-Admins to
+:::note
+You can also use Endpoint Policy Manager Least Privilege Manager to enable non-Admins to
 be able to install the Endpoint Policy Manager Cloud client themselves (provided the Endpoint Policy
 Manager CSE is pre-installed.) See this video for more details:
 [Install the PP Cloud client with a PP Least Priv Manager Rule](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/tipsandtricks/leastprivilegemanagerrule.md)
+:::
+
 
 If the user is an admin (Not recommended)
 

@@ -37,7 +37,10 @@ Your options for specifying the file overwrite mode are as follows:
 - Delete destination files and directories that no longer exist in source — This option will
   actively delete files in the destination folder if they are not also present in the source folder.
 
-**NOTE:** Endpoint Policy Manager File Deployment manager cannot determine if the contents of the
+:::note
+Endpoint Policy Manager File Deployment manager cannot determine if the contents of the
 files have been changed. Instead, changed files are identified by changes in file size and/or
 modified date or time stamp. Therefore, if the source and destination file size are unequal, or if
 the source and destination timestamp is unequal, then the file is assumed to have been changed.
+
+:::

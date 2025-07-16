@@ -17,6 +17,9 @@ shown in Figure 57.
 
 Figure 57. Viewing the results for computers within a specific set.
 
-**NOTE:** You do not need to manually run a snapshot of any set when using push mode, since the data
+:::note
+You do not need to manually run a snapshot of any set when using push mode, since the data
 is always flowing from the endpoint to the server. You can manually pull data from a set, however,
 if you wish.
+
+:::

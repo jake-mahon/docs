@@ -24,8 +24,11 @@ The two options to select from are:
   ability to deliver files any time a user logs onto the computer, and specify the context (System
   or User).
 
-**NOTE:** Scripts placed on the Computer side, but run in the User context can be run interactively.
+:::note
+Scripts placed on the Computer side, but run in the User context can be run interactively.
 But scripts run in the System context cannot be run interactively.
+:::
+
 
 The main advantage to delivering files on the Computer side, but running in the User context
 (switched mode), is that you do not need loopback in order to deliver files to each user who logs

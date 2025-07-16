@@ -78,11 +78,17 @@ You can Revert to Legacy methods which have some detractors. Read the Explain/He
 these two policy settings to decide if you want to revert back one or both products to Legacy
 method.
 
-**CAUTION:** The Legacy methods will not work if your endpoints are only using PolicyPak Cloud or
+:::warning
+The Legacy methods will not work if your endpoints are only using PolicyPak Cloud or
 only using an MDM service like Intune. Legacy mode only works when the machine is domain joined.
+:::
 
-**NOTE:** After setting these settings and the policy refresh occurs to get these policies,
+
+:::note
+After setting these settings and the policy refresh occurs to get these policies,
 endpoints may still need two logoffs and/or reboots for this to kick in.
+:::
+
 
 ![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
 
@@ -128,6 +134,9 @@ Workaround 2 using fsLogix (Microsoft Tools)
 You may also use Microsoft fsLogix if already installed on servers or workstations. You may use the
 following redirect rules which should overcome the concern.
 
-**NOTE:** Do not use both Workaround 1 and 2 at the same time.
+:::note
+Do not use both Workaround 1 and 2 at the same time.
+:::
+
 
 ![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)

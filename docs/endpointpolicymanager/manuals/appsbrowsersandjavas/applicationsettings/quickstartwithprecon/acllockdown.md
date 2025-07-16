@@ -12,9 +12,12 @@ again at relaunch.
 
 In addition, Endpoint Policy Manager Application Settings Manager can perform ACL Lockdown™.
 
-**NOTE:** To see Endpoint Policy Manager Application Settings Manager ACL Lockdown™ in action,
+:::note
+To see Endpoint Policy Manager Application Settings Manager ACL Lockdown™ in action,
 watch this video:
 [https://www.endpointpolicymanager.com/video/endpointpolicymanager-acl-lockdown-for-registry-based-applications.html](http://www.endpointpolicymanager.com/videos/bypassing-internal-item-level-targeting-filters.html).
+:::
+
 
 ACL stands for Windows's Access Control List. ACLs are a built-in operating system function that
 performs true lockout on sections of the Registry and files. With Endpoint Policy Manager

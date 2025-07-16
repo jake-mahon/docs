@@ -32,5 +32,8 @@ Policy Manager AppLock™ should function as expected.
 To be safe, you're welcome to fully try out Endpoint Policy Manager Application Manager before you
 purchase to make sure it works as expected.
 
-**NOTE:** Endpoint Policy Manager (the company) will not be able to do this for you; but you are
+:::note
+Endpoint Policy Manager (the company) will not be able to do this for you; but you are
 welcome to use the Endpoint Policy Manager DesignStudio for this purpose.
+
+:::

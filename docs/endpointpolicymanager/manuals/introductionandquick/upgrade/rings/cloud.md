@@ -33,5 +33,8 @@ See the
 [Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/groups.md)
 topic for additional information on this process.
 
-**NOTE:** Update the CSE first or the Cloud Client first in the test groups and let each part of the
+:::note
+Update the CSE first or the Cloud Client first in the test groups and let each part of the
 software update. Upgrading both at the same time is supported but is not recommended.
+
+:::

@@ -13,13 +13,19 @@ When you use AppSets (your own or our pre-created ones) you need two files.
 - Extension DLL—the DLL file that you actually use when you're inside the group policy object (GPO)
   editor. This DLL is the AppSet.
 
-**NOTE:** You can create DLLs from your original source pXML files, but you cannot re-create pXML
+:::note
+You can create DLLs from your original source pXML files, but you cannot re-create pXML
 files from your compiled DLL files. Therefore, the pXML source is very important and should be
 safely backed up.
+:::
+
 
 In this section, we're going to learn how to manage and share extension DLLs and learn how to update
 existing Endpoint Policy Manager XMLs when necessary.
 
-**NOTE:** You can watch an introductory video overview of this section in the tutorial video we
+:::note
+You can watch an introductory video overview of this section in the tutorial video we
 created, which can be found here:
 [https://www.endpointpolicymanager.com/video/working-with-others-and-using-the-central-store.html](https://www.endpointpolicymanager.com/video/endpointpolicymanager-acl-lockdown-for-registry-based-applications.html).
+
+:::

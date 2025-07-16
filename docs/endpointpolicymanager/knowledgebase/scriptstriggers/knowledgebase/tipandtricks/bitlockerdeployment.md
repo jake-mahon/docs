@@ -72,9 +72,12 @@ Server 2008 and Windows Vista)" and set the following configuration
 
 ![66_9_image-20200725154035-5](/img/product_docs/endpointpolicymanager/scriptstriggers/66_9_image-20200725154035-5.webp)
 
-**NOTE:** If deploying different BitLocker configurations for different groups of users or
+:::note
+If deploying different BitLocker configurations for different groups of users or
 computers, repeat steps 4 through 10 for each different configuration, setting the ILT on the
 collection to target your desired groupings.
+:::
+
 
 **Step 11 –** Still under Endpoint Policy Manager, click on Scripts Manager
 

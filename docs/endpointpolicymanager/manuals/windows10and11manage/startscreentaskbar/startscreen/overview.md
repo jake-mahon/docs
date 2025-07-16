@@ -6,8 +6,11 @@ sidebar_position: 30
 
 # Quick Start - Start Screen Manager
 
-**NOTE:** For some video overviews of Start Screen & Taskbar Manager, see Start Screen & Task Bar
+:::note
+For some video overviews of Start Screen & Taskbar Manager, see Start Screen & Task Bar
 Manager > [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/videolearningcenter.md).
+:::
+
 
 If you want to follow along with this Quickstart guide for Start Screen Manager, we suggest you
 first download some applications on your Windows 10 management station and your endpoint. Start

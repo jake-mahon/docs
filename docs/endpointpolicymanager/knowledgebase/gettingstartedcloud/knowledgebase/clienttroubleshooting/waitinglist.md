@@ -19,8 +19,11 @@ interval) 14 days.
   communicate with the cloud service, the license will then transition from WAITING LIST back to
   CONSUMED.
 
-**NOTE:** If you have AVAILABLE licenses, but computers are unexpectedly transitioning to the
+:::note
+If you have AVAILABLE licenses, but computers are unexpectedly transitioning to the
 WAITING LIST, this means that the computers are not able to communicate as expected with the
+:::
+
 
 Endpoint Policy Manager Cloud Service. Again, after about 14 days, a computer loses its license and
 that license becomes AVAILABLE.
@@ -35,8 +38,11 @@ available licenses.
 - You will need to purchase more licenses.
 - When you do, the OVERSUBSCRIBED computers will then consume an AVAILABLE license.
 
-**NOTE:** You can use the REPORTS to quickly discover which computers are on the WAITING LIST like
+:::note
+You can use the REPORTS to quickly discover which computers are on the WAITING LIST like
 what's seen here. Note that the report is "per component" even though we do not license components
 separately.
+:::
+
 
 ![382_1_ppcloud-status1-300x88](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/382_1_ppcloud-status1-300x88.webp)

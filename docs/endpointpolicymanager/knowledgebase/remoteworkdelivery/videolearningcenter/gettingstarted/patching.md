@@ -10,7 +10,10 @@ sidebar_position: 40
 Instead of specifying time and time again which computers should update, instead use the auto-update
 feature. This video shows how to use the "Always" property to always check for updates. Here's how !
 
-**NOTE:** This technique works with SMB and web-based shares.
+:::note
+This technique works with SMB and web-based shares.
+:::
+
 
 Hi, this is Jeremy Moskowitz, and in a previous video, you saw me use Netwrix Endpoint Policy
 Manager (formerly PolicyPak) Remote Work Delivery Manager to deploy new software to endpoints. I did

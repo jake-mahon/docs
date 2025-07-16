@@ -52,8 +52,11 @@ future.
 - JSON: This is a common file format for many applications.
 - Firefox Plugin Registry: This is for Firefox plugins that support a specific standard.
 
-**NOTE:** Endpoint Policy Manager DesignStudio will create new data files for all file types if they
+:::note
+Endpoint Policy Manager DesignStudio will create new data files for all file types if they
 don't already exist on the client computer. This is true for every file type Endpoint Policy Manager
+:::
+
 
 DesignStudio supports, except RDP files. RDP files are not created on the client machine, and they
 must already be present to be modified by Endpoint Policy Manager

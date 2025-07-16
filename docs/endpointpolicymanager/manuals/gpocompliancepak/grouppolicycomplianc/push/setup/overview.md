@@ -9,8 +9,11 @@ sidebar_position: 40
 **Step 1 –** To set up clientless auditing, click the "Audit Setup..." button, as shown in
 Figure 43.
 
-**NOTE:** For a video overview of this section, see the following link: Setup and Clientless
+:::note
+For a video overview of this section, see the following link: Setup and Clientless
 Auditing.
+:::
+
 
 ![gpcr_server_with_push_mode_7](/img/product_docs/endpointpolicymanager/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_7.webp)
 

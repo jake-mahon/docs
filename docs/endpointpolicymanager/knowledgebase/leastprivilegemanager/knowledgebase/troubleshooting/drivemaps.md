@@ -19,8 +19,11 @@ First, let's start with UNC paths.
   - You would also need a rule for` \\fabrikam.com\Share` and also if desired…
   - You would need a rule for `\\192.168.2.10\share….`
 
-**NOTE:** If you want to elevate all files in `\\SERVER\Share` you must use` TARGET = FOLDER` (see
+:::note
+If you want to elevate all files in `\\SERVER\Share` you must use` TARGET = FOLDER` (see
 screenshot below.)
+:::
+
 
 But if you want to elevate all files in `\\Server\Share `AND all files in any subfolders
 (`\\Server\Share\Subfolder1, \\Server\Share\Subfolder2`, etc.) then you must specify
@@ -38,11 +41,17 @@ Therefore if you want to elevate something on the S: drive, you need to ALSO hav
 
 DFS Paths are also supported and honored.
 
-**NOTE:** The UNC paths with the format of `\\example\example`
+:::note
+The UNC paths with the format of `\\example\example`
+:::
 
-**NOTE:** The same DFS target (`DFS.global.fabrikam.com`) may resolve to different names, for
+
+:::note
+The same DFS target (`DFS.global.fabrikam.com`) may resolve to different names, for
 instance `\\london.fabrikam.com\share`,
 `\\paris.fabrikam.com\share`,  `\\nyc.fabrikam.com\share` might all use the exact same DFS path.
+:::
+
 
 - Each rule name is evaluated differently.
 - Therefore, as an example… to make your UNC rules, you would need to cover all the bases:

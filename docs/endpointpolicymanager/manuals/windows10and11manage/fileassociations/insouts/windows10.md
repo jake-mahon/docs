@@ -10,9 +10,12 @@ If you did not 't have Endpoint Policy Manager File Associations Manager, you co
 file associations on Windows 10 and later. However, the process can be difficult and is not
 particularly user-friendly.
 
-**NOTE:** The following steps outline what you could do without Endpoint Policy Manager File
+:::note
+The following steps outline what you could do without Endpoint Policy Manager File
 Associations Manager. Do not perform these steps with Endpoint Policy Manager File Associations
 Manager because this will result in conflicts.
+:::
+
 
 The following is the Microsoft-sanctioned way to establish file associations for Windows 8.1 and
 Windows 10:

@@ -81,7 +81,10 @@ name, then click "Next".
 
 ![639_9_image-20210424015614-9](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/639_9_image-20210424015614-9.webp)
 
-**NOTE:** You should have two policies now:
+:::note
+You should have two policies now:
+:::
+
 
 ![639_10_image-20210424015614-10](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/639_10_image-20210424015614-10.webp)
 

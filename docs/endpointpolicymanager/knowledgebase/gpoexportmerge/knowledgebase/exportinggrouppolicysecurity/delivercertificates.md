@@ -20,8 +20,11 @@ for additional information.
 **Step 3 –** Uplaod it to Endpoint Policy Manager Cloud. This would make the specified cert Trusted
 Root CA on the target machines.
 
-**NOTE:** It is not possible to deploy (example), a `.PFX` file, which is basically a cert + private
+:::note
+It is not possible to deploy (example), a `.PFX` file, which is basically a cert + private
 key. This is also not possible with Group Policy itself.
+:::
+
 
 In summary, anything that's in **GP Security Settings** > **Public Key Policies** is also possible
 once you export, then deploy using PPCloud or Netwrix Endpoint Policy Manager (formerly PolicyPak)

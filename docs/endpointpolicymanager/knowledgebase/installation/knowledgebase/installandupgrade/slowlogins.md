@@ -105,7 +105,10 @@ problem.[What can I do if I installed a new CSE version and it's causing problem
 **Step 1 –** Bring up a new (latest Current Branch) Windows 10 machine.. fully patched and NO
 APPLICATIONS AT ALL.. Warning /
 
-**NOTE:** Do not "image" a machine. Bring it up, totally fresh on new hardware / new VM.
+:::note
+Do not "image" a machine. Bring it up, totally fresh on new hardware / new VM.
+:::
+
 
 **Step 2 –** Add Endpoint Policy Manager … and test.
 

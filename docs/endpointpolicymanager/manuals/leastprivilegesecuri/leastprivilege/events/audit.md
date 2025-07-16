@@ -17,9 +17,12 @@ video for additional information.
 If you have stored Windows events, you can use the details from those events to make rules using the
 MMC snap-in.
 
-**NOTE:** See the
+:::note
+See the
 [Auto-Create Policy from Global Audit event](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/globalauditevent.md)video
 for a demonstration of this.
+:::
+
 
 ![A screenshot of a computer
 

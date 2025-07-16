@@ -42,11 +42,14 @@ The idea of rings (or collections, groups, etc.) varies from tool to tool in the
   for additional information.
 - For other on-prem tools, see your corresponding documentation.
 
-**NOTE:** While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
+:::note
+While it's possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group Policy
 software installation, it is not recommended. The best practice to deploy the Endpoint Policy
 Manager CSE, should you have no on-prem software deployment tool, is the free version of PDQ Deploy.
 For more information, see the video series at
 [https://www.endpointpolicymanager.com/integration/endpointpolicymanager-and-pdq.html](https://www.endpointpolicymanager.com/integration/endpointpolicymanager-and-pdq.html).
+:::
+
 
 ## Endpoint Policy Manager CSE Auto-Updater
 
@@ -54,9 +57,12 @@ The second way to use rings with Endpoint Policy Manager and Active Directory is
 built-in Endpoint Policy Manager CSE update mechanism. This is an excellent choice when using rings
 since not everyone has a third-party software deployment tool.
 
-**NOTE:** While it is possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group
+:::note
+While it is possible to deploy the Endpoint Policy Manager CSE via Microsoft's Group
 Policy software installation, it is not recommended. Our official recommended way to deploy the
 client is via a tool like PDQ Deploy, SCCM, etc.
+:::
+
 
 As an alternative, you can use the Endpoint Policy Manager CSE Auto-Updater. The general idea with
 this process is that if you put the CSE in the Central Store, then the CSE will automatically look
@@ -101,9 +107,12 @@ Delivery Manager to specify an update. This is not strongly recommended, but cou
 on your situation. In this process you can create the rings using Active Directory groups or any
 other targeting, and then sending a CSE update to specific machines as you see fit.
 
-**NOTE:** See the
+:::note
+See the
 [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/knowledgebase/tipsandtricks/updateclientsideextension.md)
 topic for additional information.
+:::
+
 
 See the
 [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/tipsandtricks/updateclientsideextension.md)video for

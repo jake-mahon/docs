@@ -29,9 +29,12 @@ checkbox and select "Grays Wizard," as shown in Figure 187.
 
 Figure 187. Opening the Grays Wizard.
 
-**NOTE:** The Grays Wizard is only available for checkboxes and radio buttons. Additionally, the
+:::note
+The Grays Wizard is only available for checkboxes and radio buttons. Additionally, the
 checkbox or radio button group needs to be configured with the Configuration Wizard before the Grays
 Wizard is run.
+:::
+
 
 When you run the Grays Wizard, you do not need to use the "OK" or "Apply" buttons in your
 application. You are only learning what happens inside your application when you click a checkbox or

@@ -28,8 +28,11 @@ are checked.
 
 ![1318_3_68d25dd7a6203dc388177e40b10e567d](/img/product_docs/endpointpolicymanager/leastprivilege/allow/1318_3_68d25dd7a6203dc388177e40b10e567d.webp)
 
-**NOTE:** You can use services.msc and look at the properties of an individual service to get the
+:::note
+You can use services.msc and look at the properties of an individual service to get the
 ServiceName, or you can use the `sc query` command from CMD to get the ServiceName.
+:::
+
 
 **Step 5 –** Apply the policy to the user(s) or computer(s) that need to receive the policy.
 
@@ -38,8 +41,11 @@ ServiceName, or you can use the `sc query` command from CMD to get the ServiceNa
 **Step 6 –** Test from a CMD prompt as a standard non-admin user to see if you can manage the Remote
 Registry service using the SC.EXE command. `SC Config RemoteRegistry Start=Auto`
 
-**NOTE:** Since the Remote Registry service is disabled by default we need to enable the service and
+:::note
+Since the Remote Registry service is disabled by default we need to enable the service and
 choose its startup type.
+:::
+
 
 ![1318_5_508183dde00c40d462fb07efa2b16d71](/img/product_docs/endpointpolicymanager/leastprivilege/allow/1318_5_508183dde00c40d462fb07efa2b16d71.webp)
 

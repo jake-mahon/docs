@@ -12,9 +12,12 @@ Configuration Wizard detects multiple values and what is meant by a labeled link
 
 ## Multiple Detected Changes
 
-_Remember,_ the Configuration Wizard may find values that are new, changed, or deleted during any
+:::tip
+Remember, the Configuration Wizard may find values that are new, changed, or deleted during any
 given capture. In the example in Figure 121, the "Name" text box field was configured by the wizard.
 A value of "Test" was entered into the application.
+:::
+
 
 ![configuring_elements_using_14](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/configurationwizard/configuring_elements_using_14.webp)
 
@@ -30,10 +33,13 @@ Here, the wizard detected multiple changes. The key to the changes is as follows
 Some elements allow you to make multiple selections (seen in the previous example) and other
 elements force you to decide which change was the most likely candidate.
 
-**NOTE:** Sometimes when an application is first run and anything is changed, it writes a lot of
+:::note
+Sometimes when an application is first run and anything is changed, it writes a lot of
 initial data. To counteract this effect, open your application, check a checkbox, and click "OK" to
 set it. All that initial data will be set. Then revert the checkbox and click "OK." Next, start to
 use the Configuration Wizard to learn about your settings.
+:::
+
 
 The Configuration Wizard might also occasionally ask you to re-try an item. This can happen often
 when an application starts out with no settings, then creates a setting, instead of changing one. In

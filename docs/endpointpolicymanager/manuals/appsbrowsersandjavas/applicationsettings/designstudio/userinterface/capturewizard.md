@@ -22,8 +22,11 @@ you will mostly be capturing options, properties, and configuration pages.
 
 Figure 59. Selecting the target application and window.
 
-**NOTE:** See the section entitled "Special Applications and Project Types" for more information on
+:::note
+See the section entitled "Special Applications and Project Types" for more information on
 how to manage Control Panel items, like the mouse properties shown in Figure 58.
+:::
+
 
 After the first tab of your application is captured, you'll be able to select more tabs using the
 "Capture another tab" button, as shown in Figure 60.

@@ -13,12 +13,18 @@ There are two ways to consume storage with PPGPCR.
 
 Both of these methods will add up when trying to calculate storage.
 
-**NOTE:** PPGPCR has no insights into your actual disk size. Netwrix Endpoint Policy Manager
+:::note
+PPGPCR has no insights into your actual disk size. Netwrix Endpoint Policy Manager
 (formerly PolicyPak) will, however, attempt to internally clean out as per the schedule below. But
 you are advised to plan with extra disk and SQL storage in case you go over.
+:::
 
-**NOTE:** The database doesn't increase in size unless the RSOP changes. Therefore, even if you run
+
+:::note
+The database doesn't increase in size unless the RSOP changes. Therefore, even if you run
 the Auditor (explained later) multiple times, database only records changes (if any.)
+:::
+
 
 ## Estimates for Making snapshots
 

@@ -15,9 +15,12 @@ Screen or Taskbar. That's where the Start Screen & Taskbar Manager Helper utilit
 run the Start Screen & Taskbar Manager utility on an endpoint with the application already
 installed; however, you should make sure it is one you want to associate a policy with later.
 
-**NOTE:** For a video overview demonstrating the use of the Start Screen & Taskbar Manager Helper
+:::note
+For a video overview demonstrating the use of the Start Screen & Taskbar Manager Helper
 utility, watch this video:
 [Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/gettingstarted/helperutility.md)
+:::
+
 
 The Start Screen & Taskbar Manager Helper utility is found in the Netwrix Endpoint Policy Manager
 (formerly PolicyPak) ISO or ZIP download in the PolicyPak Extras folder, as seen in Figure 53.

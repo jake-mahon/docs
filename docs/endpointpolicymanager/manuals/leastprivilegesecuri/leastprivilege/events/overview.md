@@ -9,16 +9,22 @@ sidebar_position: 110
 Endpoint Policy ManagerLeast Privilege Manager uses Windows event logs to generate interesting
 events that you can audit. You can use these events to audit what has occurred.
 
-**NOTE:** See the [Events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/events.md) video for a demo of the Endpoint
+:::note
+See the [Events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/events.md) video for a demo of the Endpoint
 Policy Manager Least Privilege Manager Events in action.
+:::
+
 
 You can also use these events, before you fully roll out Endpoint Policy Manager Least Privilege
 Manager, to discover what rules you would need to make when you transition from local admin rights
 to SecureRun™.
 
-**NOTE:** See the
+:::note
+See the
 [Use Discovery to know what rules to make as you transition from Local Admin rights](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/discovery.md)
 video for a demo of Endpoint Policy Manager Least Privilege Manager Discovery in action.
+:::
+
 
 Events are logged on each endpoint machine and only when the interesting event occurs. You can find
 Endpoint Policy Manager Least Privilege Manager events inside Event Viewer in the Application and

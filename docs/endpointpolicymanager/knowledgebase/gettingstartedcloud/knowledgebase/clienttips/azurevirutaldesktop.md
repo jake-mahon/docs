@@ -16,8 +16,11 @@ Image so that machines created using this image automatically register to the co
 Stage PPC Client on the Master Desktop Image then register PPC Client at Startup and unregister PPC
 Client at Shutdown.
 
-**NOTE:** For Persistent VMs skip the **Unregister PPC Client at shutdown** section (steps 4-7) as
+:::note
+For Persistent VMs skip the **Unregister PPC Client at shutdown** section (steps 4-7) as
 that is not needed for Persistent VMs.
+:::
+
 
 Once logged into the Master Desktop Image, perform the following steps:
 
@@ -48,7 +51,10 @@ For more information on creating and using a JOINTOKEN to automatically assign c
 groups in PPC please see this video KB:
 [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/jointoken.md)
 
-**NOTE:** For Persistent VMs skip steps 4-7 below.
+:::note
+For Persistent VMs skip steps 4-7 below.
+:::
+
 
 Unregister PPC Client at shutdown (required for Non-Persistent VMs):
 
@@ -61,7 +67,10 @@ fileby adding the following commands to the script. When done, save the file.
 
 `PPCloud.exe /sysprep /nextstartwhenuserlogsin /JOINTOKEN:AZAEllLPLTY9XKUA3CYO+ths=`
 
-**NOTE:** To see details on PPCloud.exe switches run "`PPCloud /?`" from CMD.
+:::note
+To see details on PPCloud.exe switches run "`PPCloud /?`" from CMD.
+:::
+
 
 ![332_2_image-20210529214259-2_950x215](/img/product_docs/endpointpolicymanager/integration/332_2_image-20210529214259-2_950x215.webp)
 
@@ -117,8 +126,11 @@ following when I run `PPCloud /sync`.
 
 ![332_5_image-20210529214259-5](/img/product_docs/endpointpolicymanager/integration/332_5_image-20210529214259-5.webp)
 
-**NOTE:** All Computers in PPC will be members of the **All** group in addition to any other groups
+:::note
+All Computers in PPC will be members of the **All** group in addition to any other groups
 they are added to.
+:::
+
 
 **Step 4 –** In the` c:\PPC` Client directory create 2 empty text files, one called `Startup.bat`
 and the other called `shutdown.bat`.

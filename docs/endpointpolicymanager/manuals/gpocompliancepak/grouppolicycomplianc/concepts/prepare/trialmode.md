@@ -16,10 +16,16 @@ Group Policy. Endpoints act fully licensed when they have "computer" in the name
 
 Figure 4. The word "computer" must appear within the name for the test machine.
 
-**CAUTION:** The word "computer" must be in the middle of the name, and not the end of the name.
+:::warning
+The word "computer" must be in the middle of the name, and not the end of the name.
 Win10Computer64 is a valid name but Win7Computer is not.
+:::
 
-**CAUTION:** It is expressly forbidden by the EULA to have more than 99 machines in trial mode.
+
+:::warning
+It is expressly forbidden by the EULA to have more than 99 machines in trial mode.
+:::
+
 
 It should be noted that the naming restriction for trial mode only applies to the target endpoints,
 the ones you want to collect data from. It does not apply to the machine running the Endpoint Policy

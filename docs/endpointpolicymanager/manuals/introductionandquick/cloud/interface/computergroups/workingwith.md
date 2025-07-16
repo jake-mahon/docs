@@ -163,7 +163,10 @@ cannot be avoided, and the rest are inherited (directly) from the group itself. 
 sub-group that has its own policies and then look at the **Policy Forecast/Modeling Report**, you
 see its policies also appear in the report.
 
-**NOTE:** The report shows precedence order, meaning the lowest number will win in a conflict.
+:::note
+The report shows precedence order, meaning the lowest number will win in a conflict.
+:::
+
 
 ![web_interface_and_controls_62_623x298](/img/product_docs/endpointpolicymanager/cloud/interface/computergroups/web_interface_and_controls_62_623x298.webp)
 

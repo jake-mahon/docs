@@ -55,8 +55,11 @@ For user policy settings:
 
 `–HKCU\Software\Microsoft\Windows\CurrentVersion\Policies`
 
-**NOTE:** Some ADMX settings may not be here, because they are delivered to unusual locations. But
+:::note
+Some ADMX settings may not be here, because they are delivered to unusual locations. But
 most of what Microsoft delivers goes here.
+:::
+
 
 An additional technique would be to locate the setting you're after in the Microsoft GP Settings
 Spreadsheet Reference.

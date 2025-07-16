@@ -58,8 +58,11 @@ Additional Approve settings may be:
   - User — Specify specific users (non-Admin) which, with their own password, will perform the
     elevation / installation.
 
-**NOTE:** Users may be specified with wildcards, such as teacher\*, to allow all Teachers (Teacher1,
+:::note
+Users may be specified with wildcards, such as teacher\*, to allow all Teachers (Teacher1,
 Teacher2, etc.) to perform the work.
+:::
+
 
 ![A screenshot of a computer
 

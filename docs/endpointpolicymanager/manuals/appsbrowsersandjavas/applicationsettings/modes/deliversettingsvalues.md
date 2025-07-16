@@ -40,7 +40,9 @@ Settings Manager will forcefully uncheck (clear) the checkbox, as shown in Figur
 
 Figure 26. Action will be taken to uncheck the box.
 
-_Remember,_ if an item is underlined, Endpoint Policy Manager Application Settings Manager will
+:::tip
+Remember, if an item is underlined, Endpoint Policy Manager Application Settings Manager will
 deliver the setting that is specified. Endpoint Policy Manager Application Settings Manager can only
 deliver an element's settings if its actions have been set using Endpoint Policy Manager
 DesignStudio.
+:::

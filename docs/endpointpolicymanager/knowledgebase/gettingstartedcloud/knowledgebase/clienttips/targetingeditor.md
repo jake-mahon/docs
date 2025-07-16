@@ -52,8 +52,11 @@ There are two options available to accomplish this.
 
 ![732_3_image-20200213172020-2](/img/product_docs/endpointpolicymanager/cloud/732_3_image-20200213172020-2.webp)
 
-**NOTE:** All commands in these steps are tested on Microsoft Windows Version 1909 (OS Build
+:::note
+All commands in these steps are tested on Microsoft Windows Version 1909 (OS Build
 18363.592).
+:::
+
 
 ### Getting a SID for a GROUP:
 
@@ -71,7 +74,10 @@ The logged-in user has to be an administrator.
 
 ![732_5_image-20200213172020-3](/img/product_docs/endpointpolicymanager/cloud/732_5_image-20200213172020-3.webp)
 
-**NOTE:** The command in this step is tested on Microsoft Windows Server 2012 R2 (Build 9600).
+:::note
+The command in this step is tested on Microsoft Windows Server 2012 R2 (Build 9600).
+:::
+
 
 #### Option 2: Getting a SID for a Local Group:
 
@@ -83,7 +89,10 @@ The logged-in user has to be an administrator.
 
 ![732_7_image-20200213172020-4](/img/product_docs/endpointpolicymanager/cloud/732_7_image-20200213172020-4.webp)
 
-**NOTE:** The command in this step is on Microsoft Windows Version 1909 (OS Build 18363.592)
+:::note
+The command in this step is on Microsoft Windows Version 1909 (OS Build 18363.592)
+:::
+
 
 ## 2:Inserting the SID inPolicyPakpoli Endpoint Policy Manager Cloud based Internal Item-Level Targeting Filter window
 

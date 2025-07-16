@@ -16,9 +16,12 @@ settings/Environment
 
 `netsh wlan export profile name="Company WiFi" key=clear folder=c:\temp`
 
-**NOTE:** This means the XML file will contain your WiFi password in clear text, please take
+:::note
+This means the XML file will contain your WiFi password in clear text, please take
 whatever measures are needed to protect the contents of this file as dictated by your company's
 policy.
+:::
+
 
 Copy the `C:\temp\Company WiFi.xml` to a share accessible by the users and computers that will need
 the WiFi Profile. i.e.
@@ -44,7 +47,10 @@ Verify that "Run script as user" check box is checked then click "Save"
 
 ![497_3_img-3](/img/product_docs/endpointpolicymanager/scriptstriggers/497_3_img-3.webp)
 
-**NOTE:** If needed you can delete this WLAN profile from a computer using an elevated PowerShell
+:::note
+If needed you can delete this WLAN profile from a computer using an elevated PowerShell
 command prompt.
+:::
+
 
 `netsh wlan delete profile name="Company WiFi"`

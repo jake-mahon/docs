@@ -17,20 +17,29 @@ Internet Explorer 11, when patched to certain levels, will embrace Enterprise Mo
 Modes (DM). Internet Explorer 11 EM and DM enable you to tell Internet Explorer 11 how to render
 certain websites for a more compatible view.
 
-**NOTE:** To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer 11's
+:::note
+To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer 11's
 Enterprise and Document Modes, please see
 [http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-enterprise-and-document-modes.html](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-block-web-sites-from-opening-in-all-browsers.html).
+:::
 
-**NOTE:** To learn more about Internet Explorer 11 Enterprise and Document Modes, see the following
+
+:::note
+To learn more about Internet Explorer 11 Enterprise and Document Modes, see the following
 Microsoft websites: Enterprise Mode is at:
 [Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md)
 and Document Modes is at:
 [https://technet.microsoft.com/en-us/library/dn321432.aspx](http://www.endpointpolicymanager.com/video/endpointpolicymanager-using-pp-browser-router-on-citrix-or-rds-servers-with-published-browser-applications.html).
+:::
 
-**CAUTION:** This Endpoint Policy Manager Browser Router method is meant to replace the Microsoft
+
+:::warning
+This Endpoint Policy Manager Browser Router method is meant to replace the Microsoft
 method of creating Enterprise Mode site lists. Do not try to use Microsoft's list (explained in the
 Microsoft URL above) along with Endpoint Policy Manager Browser Router's function. Only use Endpoint
 Policy Manager Browser Router to perform this function.
+:::
+
 
 Using Endpoint Policy Manager Browser Router, you can require particular websites to use a specific
 Internet Explorer Enterprise Mode or Document Mode.
@@ -43,8 +52,11 @@ machines and write the Enterprise site list based on the correct specification. 
 is not supported in the Internet Explorer EM v1 specification, and as such, is ignored when v1 site
 lists must be used.
 
-**NOTE:** Site lists for v2 are automatically created and used when Windows 10 and Internet Explorer
+:::note
+Site lists for v2 are automatically created and used when Windows 10 and Internet Explorer
 11 (version 11.0.10586.\*) are detected. Site lists for v1 are used in all other circumstances.
+:::
+
 
 Note the checkbox labeled **Don't make a route**. If the user is already using Firefox or Chrome and
 goes to this website, Internet Explorer will always open when **Don't make a route** is unchecked.

@@ -21,13 +21,19 @@ stops working across any Endpoint Policy Manager component.
 
 You need to resolve or understand your licensing issue.
 
-**NOTE:** Please read this KB all the way through since the pop-up expression has changed in more
+:::note
+Please read this KB all the way through since the pop-up expression has changed in more
 recent versions of PolicyPak CSE.
+:::
+
 
 ![895_1_image001](/img/product_docs/endpointpolicymanager/troubleshooting/license/895_1_image001.webp)
 
-**NOTE:** Endpoint Policy Manager plans to update this pop-up in future CSE versions to express what
+:::note
+Endpoint Policy Manager plans to update this pop-up in future CSE versions to express what
 the license concern is.
+:::
+
 
 Again, this pop-up could ALSO occur also if you transition from one type of licensed state to a
 different type of licensed state. For instance, you may encounter the Grace Period or Grace Pop-Up
@@ -68,10 +74,13 @@ the components you expect to be licensed, before performing this step.
 The ADMX setting which applies to CSE versions BEFORE 24.4 is named "Explicitly turn off licensing
 pop-up when Endpoint Policy Manager license transitions to expired."
 
-**NOTE:** This will immediately stop Unlicensed components from operating in CSE versions 24.4 and
+:::note
+This will immediately stop Unlicensed components from operating in CSE versions 24.4 and
 earlier, thus forgoing the grace period for unlicensed components. For versions before 24.4 of the
 CSE, there is NO METHOD where the GRACE PERIOD will continue WHILE turning off the Grace Period
 NOTIFICATION.
+:::
+
 
 ![895_2_image002_950x550](/img/product_docs/endpointpolicymanager/troubleshooting/license/895_2_image002_950x550.webp)
 
@@ -112,10 +121,13 @@ be shown), after that, your options are:
   - If set to ANY LICENSES, the pop-up appears when there is a least ONE expired license among all
     other valid licenses (and a component transitions from LICENSED to UNLICENSED.)
 
-**NOTE:** This setting doesn’t need to be configured for all end-computers if you don’t want to. You
+:::note
+This setting doesn’t need to be configured for all end-computers if you don’t want to. You
 could craft delivery of the policy setting, for instance, such that only a sub-set of computers were
 enabled for a pop-up if desired. So instead of getting 100% of users informing you of a licensing
 concern, maybe you configure and target the Enable pop-up policy for 10% of your computers.
+:::
+
 
 ## Expected Events due to licensing concerns
 
@@ -133,8 +145,11 @@ Therefore, a Endpoint Policy Manager admin must make a decision if to show the p
 older CSEs) or opt-in to a pop-up (for newer CSEs). Or you can rely only upon Events which you can
 forward to some kind of processing system and take action upon.
 
-**NOTE:** There is not yet an Event ID specifically for when a machine transitions to a
+:::note
+There is not yet an Event ID specifically for when a machine transitions to a
 less-licensed state. That will be coming soon.
+:::
+
 
 The event IDs to expect on end-point systems and specific examples can be seen here.
 

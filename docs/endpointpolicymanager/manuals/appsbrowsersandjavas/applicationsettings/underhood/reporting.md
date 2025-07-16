@@ -14,9 +14,12 @@ Endpoint Policy Manager Application Settings Manager's reports are also availabl
 group policy object (GPO) change management tools such as NetIQ GPA, Microsoft AGPM,
 Dell/Quest/Scriptlogic GPOadmin, and Quest ActiveAdministrator.
 
-**NOTE:** Video: For an overview of Endpoint Policy Manager and Change Management utilities like
+:::note
+Video: For an overview of Endpoint Policy Manager and Change Management utilities like
 GPA, AGPM, etc, see
 [https://www.endpointpolicymanager.com/integration/endpointpolicymanager-group-policy-change-management-utilities.html](http://www.endpointpolicymanager.com/videos/endpointpolicymanager-using-shares-to-store-your-paks-share-based-storage.html).
+:::
+
 
 Whenever you add a new AppSet to a GPO and create settings, those settings appear in the GPMC
 reports. In Figure 92, you can see the report generated when one AppSet is listed inside the GPO.

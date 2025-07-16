@@ -9,9 +9,12 @@ sidebar_position: 50
 You might find that end users report that the Admin Approval pop-up appears even if they do not
 click on anything.
 
-**NOTE:** See the
+:::note
+See the
 [Understand "Enforce Admin Approval for all installers" behavior](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/enforce.md)
 video to learn how to avoid pop-ups with Admin Approval.
+:::
+
 
 This will generally happen when two things are true:
 
@@ -53,9 +56,12 @@ Least Privilege Manager, and open ppUser_operational.log.
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
-**NOTE:** Some applications may have different ways to self-update, possibly calling more than one
+:::note
+Some applications may have different ways to self-update, possibly calling more than one
 upgrade application. Thiscould result in more than one pop-up. Be sure you are noting them all
 before you proceed.
+:::
+
 
 ## Using Endpoint Policy Manager Event Logs to Find and Overcome Unwanted Pop-ups
 

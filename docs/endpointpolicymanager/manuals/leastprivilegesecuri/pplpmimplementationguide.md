@@ -16,13 +16,19 @@ You can use this guide if you’re planning to use Endpoint Policy Manager with 
 Directory and GPOs (Group Policy Objects), an MDM service like Intune or with Endpoint Policy
 Manager Cloud.
 
-**NOTE:** Some customers will be starting from a point where many/most end-users are still running
+:::note
+Some customers will be starting from a point where many/most end-users are still running
 with Local Admin Rights. But others customers have already removed Local Admin Rights and working to
 overcome that scenario. This guide will work for either customer type.
+:::
 
-_Remember,_ as the phrase goes, “Rome wasn’t built in a day.” Your Endpoint Policy Manager Least
+
+:::tip
+Remember, as the phrase goes, “Rome wasn’t built in a day.” Your Endpoint Policy Manager Least
 Privilege Manager project is expected to take a little bit of time to gather details, and be
 implemented in a steady manner that everyone can live with, both end-users and the IT team.
+:::
+
 
 ## Installing Endpoint Policy Manager MMC and Endpoint Policy Manager CSE
 
@@ -34,10 +40,13 @@ Manager Portal a little for Endpoint Policy Manager Cloud because you’ll need 
 make your perfect Endpoint Policy Manager Cloud test lab (explained later.) That URL is
 Portal.endpointpolicymanager.com.
 
-**NOTE:** Endpoint Policy Manager Cloud has its own URL, which is Cloud.endpointpolicymanager.com, and is
+:::note
+Endpoint Policy Manager Cloud has its own URL, which is Cloud.endpointpolicymanager.com, and is
 considered the Endpoint Policy Manager Cloud Service. Please see the
 [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) for an overview of what
 is in the download, how to download, unpack, and get organized and quick licensed.
+:::
+
 
 Here’s the Endpoint Policy Manager QuickStart Guide with specific steps and ideas for Endpoint
 Policy Manager with On-Prem Active Directory and GPOs, an MDM service like Intune or with Endpoint
@@ -49,9 +58,12 @@ and be ready to go.
 
 ![poc1](/img/product_docs/endpointpolicymanager/leastprivilege/poc1.webp)
 
-**NOTE:** If you’re confused about which method you want to use to get Endpoint Policy Manager
+:::note
+If you’re confused about which method you want to use to get Endpoint Policy Manager
 policies deployed (GPO, MDM or Cloud) this video can help you make an informed decision:
 [Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared.](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/gettingstartedmisc/solutionmethods.md)
+:::
+
 
 ## Licensing some trial machines (or many machines) for Endpoint Privilege Manager and other Endpoint Policy Manager Components
 
@@ -211,9 +223,12 @@ If you are using Endpoint Policy Manager Cloud, this is enabled automatically fo
 need to turn it on for each Cloud group. For more information on this issue, please see:
 [Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/cloudevents.md)
 
-**NOTE:** Endpoint Policy Manager Cloud Trailers and Customers get 24-hours of rolling logs stored.
+:::note
+Endpoint Policy Manager Cloud Trailers and Customers get 24-hours of rolling logs stored.
 You can talk with Endpoint Policy Manager Sales about how to increase the number of days stored in
 Endpoint Policy Manager Cloud.
+:::
+
 
 If you are already a Netwrix Auditor Customer, you can forward interesting Endpoint Policy Manager
 Least Privilege Manager events from endpoint computers to Netwrix Auditor so you can take action.

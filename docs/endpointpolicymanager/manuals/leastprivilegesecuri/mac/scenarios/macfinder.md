@@ -6,9 +6,12 @@ sidebar_position: 70
 
 # Finder Policy
 
-**NOTE:** See
+:::note
+See
 [Endpoint Policy Manager MacOS: Mac Finder Policies](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/finder.md) video
 for an overview of this section.
+:::
+
 
 ## Finder Install / Uninstall Overview
 

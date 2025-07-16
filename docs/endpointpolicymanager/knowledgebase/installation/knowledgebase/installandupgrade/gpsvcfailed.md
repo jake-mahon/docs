@@ -13,7 +13,10 @@ considered "known behavior."
 
 The error is saying the "Group Policy Service failed at sign-in".
 
-**NOTE:** users never see this message more than once per PC.
+:::note
+users never see this message more than once per PC.
+:::
+
 
 There is more information at the Microsoft website:
 [https://support.microsoft.com/en-us/help/2976660/first-logon-fails-with-the-universal-unique-identifier-uuid-type-is-no](https://support.microsoft.com/en-us/help/2976660/first-logon-fails-with-the-universal-unique-identifier-uuid-type-is-no)

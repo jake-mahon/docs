@@ -10,11 +10,14 @@ In order to safegard license keys and any other potentially sensitive company in
 two-factor authentication (2FA) is enabled for all customer accounts in the Netwrix Netwrix Endpoint
 Policy Manager (formerly PolicyPak) Portal.
 
-**NOTE:** If for some reason you do not want to use 2FA to secure access to your portal, you have
+:::note
+If for some reason you do not want to use 2FA to secure access to your portal, you have
 the option to open a ticket with support, who will assist you in completing that process.  However,
 disabling Portal 2FA is strongly discouraged.  In addition, only the PRIMARY user account has access
 to the 2FA control that is seen below.  This includes controlling which authentication method is
 enabled, resetting 2FA settings, and requesting that it be disabled for every user on the account.
+:::
+
 
 Here's what to expect the first time (as a Primary or Secondary user) you will be prompted for a
 code which will be emailed to the address you used to log in with:
@@ -87,8 +90,11 @@ page above by selecting the **Primary** tab and clicking **Reset App 2FA**.
 
 If you ever need to reset 2FA, you can do this by clicking **Reset 2FA**.
 
-**NOTE:** This will reset the 2FA setting for all users. Everyone will need to re-setup their
+:::note
+This will reset the 2FA setting for all users. Everyone will need to re-setup their
 authenticator app.
+:::
+
 
 ![461_10_image-20220908134312-8_862x390](/img/product_docs/endpointpolicymanager/cloud/461_10_image-20220908134312-8_862x390.webp)
 
@@ -111,5 +117,8 @@ clicking **Apply**.  Since no 2FA is active at this moment you won't be reques
 to re-enable it.  It will just be immediately enabled and everyone will once again be prompted to
 supply a code received via email or from their app.
 
-**NOTE:** In this particular scenario, if anyone had app 2FA previously configured (had scanned the
+:::note
+In this particular scenario, if anyone had app 2FA previously configured (had scanned the
 QR code) then that code will still work.
+
+:::

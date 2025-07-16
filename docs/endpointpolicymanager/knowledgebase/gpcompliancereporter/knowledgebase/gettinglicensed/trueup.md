@@ -21,6 +21,9 @@ We simply ask you to re-count where you want to use Endpoint Policy Manager Grou
 Reporter the next year. You send in your updated license request. You "renew" the computers from
 last year, and "true up" any overage.
 
-**NOTE:** It's possible you have fewer computers than you did last year. In that case, you don't pay
+:::note
+It's possible you have fewer computers than you did last year. In that case, you don't pay
 anything for new licenses. However, you are still bound to pay the maintenance fee for the highest
 amount of computers found in the last three audits.
+
+:::

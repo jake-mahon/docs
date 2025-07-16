@@ -6,9 +6,12 @@ sidebar_position: 20
 
 # Self-Elevation Rules
 
-**NOTE:** See the
+:::note
+See the
 [Endpoint Policy Manager Least Priv Manager: Self Elevate Mode](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/selfelevatemode.md)
 video for information on Endpoint Policy Manager Least Privilege Manager self-elevation rules.
+:::
+
 
 There is a self-elevation mode for special situations as well. Although this mode is normally not
 recommended, as it makes your systems more vulnerable, there may be a special circumstance in which

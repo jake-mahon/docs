@@ -22,7 +22,10 @@ you install fonts by using the either method.
 
 ![467_1_img-1](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/467_1_img-1.webp)
 
-**NOTE:** Consider choosing **Use combo rule** option for extra security.
+:::note
+Consider choosing **Use combo rule** option for extra security.
+:::
+
 
 **Step 4 –** Choose condition as Path, click the **Add** button and select **Add File** option.
 

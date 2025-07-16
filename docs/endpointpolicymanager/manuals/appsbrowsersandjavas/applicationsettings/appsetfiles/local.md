@@ -53,9 +53,12 @@ In this case, you would have created a copy of the extension DLL in the process.
 solo administrator, be sure to keep both the original pXML files and the compiled DLL files in a
 handy backed-up place.
 
-**NOTE:** Solo administrators might choose to leverage another option, which we'll discuss next,
+:::note
+Solo administrators might choose to leverage another option, which we'll discuss next,
 called Endpoint Policy Manager Central Storage. It can help you maintain your extension DLLs
 centrally and easily.
+:::
+
 
 The biggest issue with using Local Storage for the DLL occurs when you decide to use another
 Endpoint Policy Manager management station to deploy new GPOs or manage existing GPOs. Below is a
@@ -74,9 +77,12 @@ Once he or she has done that, the administrator edits the existing GPO and Endpo
 directive that contains WinZip directives and receives a message similar to what is shown in
 Figure 66.
 
-**NOTE:** If you use the Group Policy Editor and don't see the Endpoint Policy Manager node while
+:::note
+If you use the Group Policy Editor and don't see the Endpoint Policy Manager node while
 editing a GPO, you need to install Endpoint Policy Manager Admin Console.msi on machines that use
 the GPMC.
+:::
+
 
 ![policypak_application_settings_3_3](/img/product_docs/endpointpolicymanager/applicationsettings/appsetfiles/storage/endpointpolicymanager_application_settings_3_3.webp)
 

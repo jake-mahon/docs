@@ -6,9 +6,12 @@ sidebar_position: 10
 
 ## Internet Explorer in Edge Mode
 
-**NOTE:** To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge
+:::note
+To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge
 Mode, please see:
 [Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md).
+:::
+
 
 If you want to stay with a Microsoft browser, you want your user to use Edge rather than IE. But
 some intranet sites don't support Edge, so you are forced to use IE. However, instead of forcing
@@ -16,8 +19,11 @@ users to open a dedicated IE session for these sites, you can use Endpoint Polic
 Router to enforce IE in Edge for any site of your choosing. In other words, it tucks IE tabs into
 the Edge browser.
 
-**CAUTION:** Be aware that this is only guaranteed to work in the 2004 version of Windows 10,
+:::warning
+Be aware that this is only guaranteed to work in the 2004 version of Windows 10,
 however, it might work in versions 1909, 1903, and 1809.
+:::
+
 
 Create a rule for
 [www.endpointpolicymanager.com](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-and-ports.html) and
@@ -38,8 +44,11 @@ see that the Endpoint Policy Manager website now appears in IE mode within the E
 
 ### Converting Existing IE Site List XMLs
 
-**NOTE:** To get an overview on how to convert existing IE site lists, please see
+:::note
+To get an overview on how to convert existing IE site lists, please see
 [Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
+:::
+
 
 See how you can take a Microsoft Enterprise Mode Internet Explorer site list and quickly convert it
 to be used in Endpoint Policy Manager Browser Router. This saves you the time and trouble of
@@ -76,9 +85,12 @@ You can review any of the rules to confirm or change their settings.
 There are two special policies that may be used only once per collection . These policies manage how
 the Windows 10 Edge browser functions alongside Internet Explorer 11.
 
-**NOTE:** To get an overview of Endpoint Policy Manager Browser Router's special policies for
+:::note
+To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
 [Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
+:::
+
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to I**E policy.
 

@@ -9,9 +9,12 @@ sidebar_position: 20
 If you have a situation which required Netwrix Endpoint Policy Manager (formerly PolicyPak) Tech
 Support to help you update a AppSet from your own system, these are the instructions.
 
-**NOTE:** To use the Endpoint Policy Manager DesignStudio, you will need the following components
+:::note
+To use the Endpoint Policy Manager DesignStudio, you will need the following components
 pre-installed on your Endpoint Policy Manager Creation Station. The machine you put these components
 on should match the END-POINTS you wish to deploy your AppSet to.
+:::
+
 
 It's best if the Endpoint Policy Manager Creation Station is a machine that you can use and re-use
 again. We suggest you use a virtual machine loaded with the following components, which you can then

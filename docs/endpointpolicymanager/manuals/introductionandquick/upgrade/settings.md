@@ -48,8 +48,11 @@ XML Settings Data**.
 
 ![specific_upgrades_for_application_624x386](/img/product_docs/endpointpolicymanager/install/upgrade/specific_upgrades_for_application_624x386.webp)
 
-**NOTE:** This step is optional but will provide a second backup of your Endpoint Policy Manager
+:::note
+This step is optional but will provide a second backup of your Endpoint Policy Manager
 Application Settings Manager definitions in case of a mishap and is therefore recommended.
+:::
+
 
 ## Updating Each GPO
 

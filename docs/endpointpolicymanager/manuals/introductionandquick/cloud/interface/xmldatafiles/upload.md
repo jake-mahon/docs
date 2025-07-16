@@ -36,6 +36,8 @@ Video: We recommend you watch the following video to understand how to export En
 Manager settings to Endpoint Policy Manager Cloud:
 [Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/endpointpolicymanagersettings.md).
 
-_Remember,_ after XML data files are uploaded, they do not automatically enforce any settings on
+:::tip
+Remember, after XML data files are uploaded, they do not automatically enforce any settings on
 users' PCs. In order for settings to be enforced, those XML files should be linked to appropriate
 computer groups with computers assigned.
+:::

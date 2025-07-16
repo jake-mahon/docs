@@ -16,8 +16,11 @@ the `%programdata%\PolicyPak\XMLdata` directory of the target machine (on Window
 is typically `c:\ProgramData\PolicyPak\XMLdata`. In the directory, you'll see three subdirectories:
 Users, Groups, and Computer.
 
-**NOTE:** There is also a Cloud directory that may or may not be present. It is used in conjunction
+:::note
+There is also a Cloud directory that may or may not be present. It is used in conjunction
 with Endpoint Policy Manager Cloud delivery and is not shown in this example.
+:::
+
 
 Within the Users subdirectory, you will see a subdirectory with the name SID for every domain user
 who has logged on to that machine. Within Groups, you will see a subdirectory with the name SID for

@@ -65,8 +65,11 @@ network connectivity is not needed to run this command.
 
 ## Automatic Reapplication of Settings at Application Launch
 
-**NOTE:** For a demonstration of this feature, please see this video:
+:::note
+For a demonstration of this feature, please see this video:
 [The Superpowers](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/superpowers.md).
+:::
+
 
 When an application is run, its settings are automatically reapplied before the application is
 launched. This feature is turned on for all AppSets by default.
@@ -99,8 +102,11 @@ Note that you also should either reboot the machine to disable or re-enable the 
 Figure 44. Use the following Registry location to fully disable the Endpoint Policy Manager driver,
 which performs reapplication of settings for applications.
 
-**NOTE:** Log files for the automatic reapplication of settings at launch are found
+:::note
+Log files for the automatic reapplication of settings at launch are found
 in` %appdata%\local\PolicyPak` in a file called ppUser_onLaunch.log.
+:::
+
 
 ## Automatic Reapplication of Settings with the Reinforcement Timer
 
@@ -133,5 +139,8 @@ settings even when the enforcement timer is set.
 
 Figure 45. Enabling the "Do not re-apply settings with Reinforcement Timer" setting.
 
-**NOTE:** Log files for the "Automatic reapplication of settings using the timer" can be found
+:::note
+Log files for the "Automatic reapplication of settings using the timer" can be found
 in` %appdata%\local\PolicyPak` in a file called ppUser_onSchedule.log.
+
+:::

@@ -16,7 +16,10 @@ you've installed the Endpoint Policy Manager Cloud client). Then at the end of t
 on the highest number of computers used within the month instead, automatically.  This is billed to
 your credit card.
 
-**NOTE:** You are required to have two credit cards on file to ensure uninterrupted service.
+:::note
+You are required to have two credit cards on file to ensure uninterrupted service.
+:::
+
 
 For new costumers — Note that the first month for new customers is a little unusual because you will
 be billed twice in that first month. After that you will be billed once a month on the last day of

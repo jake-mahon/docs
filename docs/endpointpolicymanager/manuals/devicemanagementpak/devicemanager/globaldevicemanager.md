@@ -39,8 +39,11 @@ unless the user clicks **More Information**.
 If an end user tries to read or write data or execute an application, they will get a variety of
 error messages. The following screenshots are examples of what end-users may expect.
 
-**NOTE:** There is no customization of the errors at this time. Errors may vary depending on how the
+:::note
+There is no customization of the errors at this time. Errors may vary depending on how the
 system responds.
+:::
+
 
 ![read1](/img/product_docs/endpointpolicymanager/device/devicemanager/read1.webp)
 

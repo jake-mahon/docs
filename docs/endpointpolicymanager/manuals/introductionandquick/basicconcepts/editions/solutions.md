@@ -118,8 +118,11 @@ Tools.
 You can use the Endpoint Policy Manager Cloud service to create Microsoft Group Policy and Endpoint
 Policy Manager directives and deliver them through the Internet.
 
-**NOTE:** For a video overview of Endpoint Policy Manager Cloud, see
+:::note
+For a video overview of Endpoint Policy Manager Cloud, see
 [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/quickstart.md).
+:::
+
 
 The diagram below shows how Endpoint Policy Manager Cloud works to deliver directives. Computers can
 be domain-joined or non-domain-joined. When you are a Endpoint Policy Manager SaaS customer, the
@@ -139,18 +142,24 @@ Manager Cloud client using an RMM or MDM tool they already have hooked into the 
 on how to do this can be found in the quick start topic:
 [Setup, Download, Install, and Verify](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/quickstart/quickstart.md)
 
-**NOTE:** For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
+:::note
+For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
 the Endpoint Policy Manager Cloud installer, see:
 [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/mdm.md).
+:::
+
 
 ## Unified Endpoint Management Method
 
 Endpoint Policy Manager can use SCCM, or any other management system that deploys MSI files, instead
 of using Group Policy.
 
-**NOTE:** For a video overview of using Endpoint Policy Manager with SCCM and similar tools (such as
+:::note
+For a video overview of using Endpoint Policy Manager with SCCM and similar tools (such as
 KACE) visit:
 [http://www.endpointpolicymanager.com/video/deploying-endpointpolicymanager-directives-without-group-policy-endpointpolicymanager-exporter-utility.html](http://www.endpointpolicymanager.com/video/deploying-endpointpolicymanager-directives-without-group-policy-endpointpolicymanager-exporter-utility.html)
+:::
+
 
 Below we can see what Endpoint Policy Manager would look like using a tool like SCCM.
 
@@ -172,8 +181,11 @@ Dekstop, Cameyo, and others. Endpoint Policy Manager Enterprise and Professional
 Endpoint Policy Manager with nearly any virtualized technology, like VDI or session-based computing
 systems. However, each session needs to be accounted for.
 
-**NOTE:** To learn more about Citrix and WVD multi-session Windows licensing scenarios,
+:::note
+To learn more about Citrix and WVD multi-session Windows licensing scenarios,
 [https://www.endpointpolicymanager.com/purchasing/vdi-licensing-scenarios/](https://www.endpointpolicymanager.com/purchasing/vdi-licensing-scenarios/).
+:::
+
 
 Endpoint Policy Manager SaaS customers can use Endpoint Policy Manager with full VDI solutions where
 the whole machine is shared, like VMware Horizon, but not shared solutions, like Windows Virtual

@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Using the Endpoint Policy Manager Exporter to Make MSIs
 
-**NOTE:** For an overview of the Endpoint Policy Manager Exporter utility, please watch this video:
+:::note
+For an overview of the Endpoint Policy Manager Exporter utility, please watch this video:
 [](http://www.endpointpolicymanager.com/video/endpointpolicymanager-preferences-with-endpointpolicymanager-exporter.html)[Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/endpointpolicymanager/knowledgebase/archive/preferencesexporter.md)l.
+:::
+
 
 Endpoint Policy Manager Exporter's job is to take Microsoft or Endpoint Policy Manager items and
 wrap them up into an MSI. This MSI can then be deployed using whatever technique you want: Microsoft
@@ -29,11 +32,14 @@ Group Policy Preference settings if you find yourself in the following situation
 - You have a special machine that is domain-joined, but you don't want it to have Group Policy;
   instead, you simply want it to get some Group Policy Preferences directives.
 
-**NOTE:** Non-domain-joined machines are never supported via the Endpoint Policy Manager Preferences
+:::note
+Non-domain-joined machines are never supported via the Endpoint Policy Manager Preferences
 Manager product. That is, the machine must have previously been domain-joined and be in an
 organizational unit that has been licensed (or will be licensed from a licensing file). If you wish
 to get Group Policy Preference items to non-domain-joined machines, you will need to license
 Endpoint Policy Manager Cloud or Endpoint Policy Manager MDM.
+:::
+
 
 **Step 1 –** Run the Endpoint Policy Manager Exporter utility on your management station. You can
 find it on the Start Menu (for pre-Windows 8 systems).

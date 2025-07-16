@@ -13,9 +13,12 @@ Endpoint Policy ManagerLeast Privilege Manager is located within the Netwrix Pri
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/rules_1.webp)
 
-**NOTE:** You will only see all components of Endpoint Policy Manager if you download the Endpoint
+:::note
+You will only see all components of Endpoint Policy Manager if you download the Endpoint
 Policy Manager Admin Console from Portal.endpointpolicymanager.com, but not if you are using only the Netwrix
 Privilege Secure console.
+:::
+
 
 Endpoint Policy ManagerLeast Privilege Manager is within the Netwrix Privilege Secure node and not
 within the Netwrix Endpoint Policy Manager (formerly PolicyPak) node to demonstrate the relationship
@@ -67,7 +70,10 @@ generated](/img/product_docs/endpointpolicymanager/leastprivilege/rules/rules_3.
 To participate in the Quick Start exercises, [download](http://go.skype.com/msi-download) Skype MSI
 for Windows via their website.
 
-**CAUTION:** You may get a warning when downloading in Edge, but it is perfectly safe.
+:::warning
+You may get a warning when downloading in Edge, but it is perfectly safe.
+:::
+
 
 When a Standard User attempts to install Skype MSI installer, they are not allowed.
 

@@ -52,9 +52,12 @@ documentation for MSI deployment best practices.
 
 ## Group Policy Software Installation
 
-**NOTE:** You can also use Microsoft Group Policy Software Installation to deploy the Endpoint
+:::note
+You can also use Microsoft Group Policy Software Installation to deploy the Endpoint
 Policy Manager CSE. However, software delivery (and removal) by Group Policy Software Installation
 can be unreliable, and this method is not recommended.
+:::
+
 
 If you do choose to use it, the process can usually done in four steps:
 
@@ -69,10 +72,13 @@ containing the target computers.
 
 **Step 4 –** Use Group Policy Software Installation to deploy that file to all target computers.
 
-**NOTE:** To see a demonstration of this section, please watch these two tutorial videos:
+:::note
+To see a demonstration of this section, please watch these two tutorial videos:
 [Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/endpointpolicymanager/knowledgebase/archive/massdeploy.md) and
 [Upgrading the CSE using GPSI](/docs/endpointpolicymanager/knowledgebase/archive/upgrading.md). In this example, we've created a GPO named
 Deploy PP Client and linked it to East Sales Desktops.
+:::
+
 
 ![Deploying Client Side](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_350x474.webp)
 
@@ -98,8 +104,11 @@ When you're done, the GPO should look like this:.
 
 ![deploying_the_client_side_5_1200x240](/img/product_docs/endpointpolicymanager/install/deploying_the_client_side_5_1200x240.webp)
 
-**NOTE:** Be sure that the source field is pointing to a network path (e.g., `\\server\share`) and
+:::note
+Be sure that the source field is pointing to a network path (e.g., `\\server\share`) and
 not a local path (e.g., `c:\something\`).
+:::
+
 
 If you have an older version of the Endpoint Policy Manager CSE and wish to update it using Group
 Policy Software Installation, it's easy to do.

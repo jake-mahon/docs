@@ -9,4 +9,7 @@ sidebar_position: 20
 The PPGPCR Server contents are in the following folder. Please ZIP the folder and send to us if
 requested.
 
-**NOTE:** You do not need to STOP the PPGPCR Server service first.
+:::note
+You do not need to STOP the PPGPCR Server service first.
+
+:::

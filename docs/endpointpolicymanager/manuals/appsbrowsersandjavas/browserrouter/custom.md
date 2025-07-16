@@ -11,8 +11,11 @@ wants to route a website to a browser that isn't Internet Explorer, Edge, Chrome
 instance, Opera and Vivaldi are two browsers you may have installed on endpoints that you want to
 route to.
 
-**NOTE:** For an overview of using custom policies, see the following video:
+:::note
+For an overview of using custom policies, see the following video:
 [Browser Router with Custom Browsers](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/citrixvirtualapps/custombrowsers.md).
+:::
+
 
 You might also want to route websites to virtualized browsers. In this example you can see a
 virtualized Firefox. To route to virtualized browsers, simply take the icon's launch target and copy

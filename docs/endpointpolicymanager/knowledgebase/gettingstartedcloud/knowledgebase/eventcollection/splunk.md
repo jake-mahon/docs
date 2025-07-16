@@ -23,9 +23,12 @@ and
 [https://docs.splunk.com/Documentation/Splunk/9.1.1/Security/Setupauthenticationwithtokens](https://docs.splunk.com/Documentation/Splunk/9.1.1/Security/Setupauthenticationwithtokens)
 ). You will need both the URL and API Token during these steps.
 
-**NOTE:** These directions will send data to Splunk Cloud, but the process is similar to on-prem
+:::note
+These directions will send data to Splunk Cloud, but the process is similar to on-prem
 Splunk. Make sure your on-prem Splunk is configured correctly to accept data sources from the
 Internet.
+:::
+
 
 **Configure Event Forwarder in PP Cloud**
 

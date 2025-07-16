@@ -32,6 +32,9 @@ Figure 1.
 
 Figure 1. Copying the `DLL` file to the C: drive.
 
-**NOTE:** If you don't see the `PolicyPak\Extensions` folder, you may not have installed the
+:::note
+If you don't see the `PolicyPak\Extensions` folder, you may not have installed the
 Endpoint Policy Manager Admin Console.MSI (32-bit or 64-bit). This must be done on the machine where
 you manage Group Policy, and you must have the GPMC installed.
+
+:::

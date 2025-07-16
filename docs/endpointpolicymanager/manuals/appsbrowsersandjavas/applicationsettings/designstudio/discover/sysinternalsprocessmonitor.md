@@ -10,8 +10,11 @@ Most applications' data should be easy to find. However, occasionally it is diff
 application's configuration data. When these issues occur, you might want to turn to Microsoft's
 free Sysinternals Process Monitor to help discover where an application stores its data.
 
-**NOTE:** Endpoint Policy Manager DesignStudio is a lite capture tool and needs to be instructed on
+:::note
+Endpoint Policy Manager DesignStudio is a lite capture tool and needs to be instructed on
 where to perform the before and after snapshot (specific file, portion of the registry, etc).
+:::
+
 
 Process Monitor's job is to monitor what an application is doing. When it comes to the applications
 we want to control, we care most about knowing what an application is doing with regard to file
@@ -65,11 +68,14 @@ Figure 106. Applying changes.
 Knowing this, you can use Endpoint Policy Manager DesignStudio to use this location (in this case, a
 file) as the data root and continue to build an AppSet for the application.
 
-**CAUTION:** Be sure to reset the filter the next time you run Process Monitor, since it will be set
+:::warning
+Be sure to reset the filter the next time you run Process Monitor, since it will be set
 to the previous application's process ID (PID). The filter dialog prompt appears only if you had set
 a filter the last time you ran Process Monitor. You'll be asked whether you want to continue using
 the same filter. Note, if you hadn't set the filter or had cleared it, you don't get the filter
 dialog prompt when you re-run Process Monitor.
+:::
+
 
 If you discover a file that stores data for your application, but it isn't a currently supported
 type (INI, XML, JS, .properties, etc.) then let us know by emailing

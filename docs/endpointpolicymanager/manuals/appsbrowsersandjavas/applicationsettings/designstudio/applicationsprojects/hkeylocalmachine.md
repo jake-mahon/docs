@@ -25,8 +25,11 @@ Figure 214. The warning when defining the data root as `HKEY_Local_Machine`.
 If you are sure that the application's value is best suited for `HKEY_Local_Machine`, you can safely
 ignore this warning.
 
-**NOTE:** You'll get the same message for applications that store most of their settings in
+:::note
+You'll get the same message for applications that store most of their settings in
 `HKEY_Current_User`, but have a handful of settings in `HKEY_Local_Machine`.
+:::
+
 
 Acrobat Reader is an example in which most settings are in
 `HKEY_Current_User\Software\Adobe\Acrobat Reader\10.0`, but the updater settings are stored within

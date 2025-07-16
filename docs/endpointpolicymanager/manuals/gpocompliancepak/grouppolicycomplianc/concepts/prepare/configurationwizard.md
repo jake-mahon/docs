@@ -21,7 +21,10 @@ this Quickstart, select standalone mode.
 
 Figure 9. Selecting between "Standalone mode" or "Server mode."
 
-**NOTE:** Server mode is used in conjunction with the Endpoint Policy Manager GPCR server.
+:::note
+Server mode is used in conjunction with the Endpoint Policy Manager GPCR server.
+:::
+
 
 You can also select where you want to store Endpoint Policy Manager GPCR data in the wizard. The
 default is shown in Figure 10.
@@ -30,7 +33,10 @@ default is shown in Figure 10.
 
 Figure 10. Choosing the location for Endpoint Policy Manager GPCR data.
 
-**CAUTION:** You may change the storage folder location to a shared server; however, this will not
+:::warning
+You may change the storage folder location to a shared server; however, this will not
 enable server mode with Endpoint Policy Manager GPCR, even if all administrators are pointing to the
 same shared location. To share Endpoint Policy Manager GPCR data, you must utilize the Endpoint
 Policy Manager GPCR server component.
+
+:::

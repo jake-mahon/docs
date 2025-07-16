@@ -19,7 +19,10 @@ off**.
 Description automatically
 generated](/img/product_docs/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
 
-**NOTE:** At this time, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr
+:::note
+At this time, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr
 Discovery cannot detect some scenarios that may trigger UAC prompts which should be recorded. These
 items are (a) COM elevation, used by network adapters, date & time, etc. (b) Windows Installers, and
 (c) apps that use ShellExecute or RunAs, such as ProcMon or TreeSizeFree.
+
+:::

@@ -15,9 +15,12 @@ most of the components, and most will export in a similar way. All the exception
 however, like Admin Templates Manager, Application Settings Manager, and Security Settings manager,
 which are somewhat different than the others.
 
-**NOTE:** For a video overview of how to wrap up XML data and license files into MSI files, see the
+:::note
+For a video overview of how to wrap up XML data and license files into MSI files, see the
 following link:
 [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md).
+:::
+
 
 Now that you have your XML data files, you're ready to bundle them up and make them into an MSI for
 easy deployment using any software distribution utility, such as Microsoft Endpoint Configuration
@@ -95,14 +98,20 @@ a variety of exported XML settings.
 
 Figure 6. Exported XML settings.
 
-**NOTE:** You cannot add more than one licensing file of the same product type to an MSI project.
+:::note
+You cannot add more than one licensing file of the same product type to an MSI project.
+:::
+
 
 **Step 3 –** Next, you can dictate which files will be delivered to which users, or to Computer (All
 Users).
 
-**NOTE:** For MDM and Endpoint Policy Manager Cloud scenarios, it's common to specify the settings
+:::note
+For MDM and Endpoint Policy Manager Cloud scenarios, it's common to specify the settings
 affecting Computer (All Users), so you can guarantee that whoever is on the machine will get the
 settings.
+:::
+
 
 **Step 4 –** By default, newly added XML data files will be delivered to all users, as shown in
 Figure 7. This means the settings get delivered to the Computer side, and the result is that all
@@ -131,7 +140,10 @@ the Target column will express how many users and how many groups are being targ
 
 Figure 9. The Target column shows how many users and how many groups are being targeted.
 
-**NOTE:** Licensing files are always set to deliver to all users.
+:::note
+Licensing files are always set to deliver to all users.
+:::
+
 
 **Step 6 –** You can repeat the process by clicking on "Create New PPAM XMLdata File" or "Add
 Existing Files" and then specifying which users you want the directives to apply to. When you are

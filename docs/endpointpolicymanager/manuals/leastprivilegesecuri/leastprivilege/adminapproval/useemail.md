@@ -12,8 +12,11 @@ ServiceNow or support personnel, rather than initiating a phone call. Using the 
 policy we created earlier, open the policy up and click on the **Email** tab. Change the **Use of
 email** field to **Enabled** and insert an email address that will handle the admin approvals.
 
-**NOTE:** See the [Using Email / Long Codes](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/longcodes.md) video for
+:::note
+See the [Using Email / Long Codes](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/longcodes.md) video for
 using email for Admin Approval.
+:::
+
 
 ![A screenshot of a computer
 

@@ -10,8 +10,11 @@ Endpoint Policy Manager Browser Router editor is located in the Endpoint Policy 
 Endpoint Policy Manager Browser Router enables you to create a new Endpoint Policy Manager Browser
 Router policy or collection.
 
-**NOTE:** The Browser Router node is only visible with the latest Admin Console MSI installed on
+:::note
+The Browser Router node is only visible with the latest Admin Console MSI installed on
 your management station.
+:::
+
 
 ![about_policypak_browser_router](/img/product_docs/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router.webp)
 

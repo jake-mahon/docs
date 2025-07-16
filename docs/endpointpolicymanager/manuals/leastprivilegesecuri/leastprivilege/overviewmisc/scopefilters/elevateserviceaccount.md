@@ -6,9 +6,12 @@ sidebar_position: 50
 
 # Scenario 4: Elevating a Service Account
 
-**NOTE:** For an overview of this scenario see the
+:::note
+For an overview of this scenario see the
 [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/serviceaccountrights.md)
 video.
+:::
+
 
 You might have a service which requires specific privileges. Maybe your service, by default, uses
 Local System, and you want to give it lessrights.

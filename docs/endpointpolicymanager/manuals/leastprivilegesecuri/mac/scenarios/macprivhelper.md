@@ -6,9 +6,12 @@ sidebar_position: 80
 
 # Privilege Elevation (aka Helper Policies)
 
-**NOTE:** See
+:::note
+See
 [Endpoint Policy Manager LPM for MacOS: Privilege Policies (for Helper Apps)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/privilege.md)
 for a video overview of this section.
+:::
+
 
 ## Privilege Elevation / Helper Policies Overview
 

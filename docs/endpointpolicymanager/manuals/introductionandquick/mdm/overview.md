@@ -28,15 +28,21 @@ Settings Manager, Endpoint Policy Manager Browser Router, Endpoint Policy Manage
 Manager, Endpoint Policy Manager Preferences Manager, Endpoint Policy Manager Security Settings
 Manager, and all the others) without using Group Policy as the delivery mechanism.
 
-**NOTE:** For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager
+:::note
+For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager
 components, please see the following video:
 [Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/exporterutility.md).
+:::
 
-**CAUTION:** Note that non-domain-joined machines are not supported with Endpoint Policy Manager
+
+:::warning
+Note that non-domain-joined machines are not supported with Endpoint Policy Manager
 products, unless you are using the MDM method. That is, the machine must have been previously
 domain-joined and be in an organizational unit (OU) that is licensed (or will be licensed from a
 licensing file). To deliver settings to non-domain-joined machines, you must use Endpoint Policy
 Manager Cloud.
+:::
+
 
 In the next sections, we're going to work through the following procedures:
 

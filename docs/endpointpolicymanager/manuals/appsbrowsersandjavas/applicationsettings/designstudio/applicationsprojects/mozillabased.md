@@ -102,8 +102,11 @@ The "Application name (optional)" field should be "Mozilla Sunbird" (not shown i
 
 Figure 210. The location of the Sunbird `profiles.ini` file.
 
-**NOTE:** Evergreen is a popular system for managing libraries. This application has been verified
+:::note
+Evergreen is a popular system for managing libraries. This application has been verified
 to be a Mozilla-style application and has a `profiles.ini` file that you would point to.
+:::
+
 
 Once Endpoint Policy Manager DesignStudio is pointing toward the profiles.ini file (and not
 the` prefs.js` file), we are ready to perform our normal work in Endpoint Policy Manager

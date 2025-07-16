@@ -18,9 +18,12 @@ blocked.
 
 ![451_3_image-20200210223130-2_950x592](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/451_3_image-20200210223130-2_950x592.webp)
 
-**NOTE:** The more conditions evaluated, the more secure the rule will be. See this video for more
+:::note
+The more conditions evaluated, the more secure the rule will be. See this video for more
 details:
 [Best Practices for Elevating User-Based Installs](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/elevatinguserbasedinstalls.md)
+:::
+
 
 **Step 3 –** Apply the policy and then verify using the Endpoint Policy Manager event log of the
 application being Elevated.
@@ -38,8 +41,11 @@ default:
 
 ![451_7_image-20200210223130-4](/img/product_docs/endpointpolicymanager/leastprivilege/elevate/451_7_image-20200210223130-4.webp)
 
-**NOTE:** The reason to look immediately in the log is so that we know which ppservice().log file to
+:::note
+The reason to look immediately in the log is so that we know which ppservice().log file to
 look in, ppservice.log is the latest log, and ppservice(n).log files are the rolled over logs.
+:::
+
 
 **Step 2 –** Open the ppservice.log in notepad (or any text editor) and scroll all the way to the
 bottom. Start searching from the bottom upwards for the text ".application".
@@ -74,7 +80,10 @@ In this example, the EXE name is **Rundll32.exe**.
 into the **Command-line Arguments** section. Ensure that **Strict Equality** and **Ignore Arguments
 case** are both selected.
 
-**NOTE:** The command-line arguments cannot be empty.
+:::note
+The command-line arguments cannot be empty.
+:::
+
 
 **Step 7 –** Click **Next** then **Finish** to save the rule.
 

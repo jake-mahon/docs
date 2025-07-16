@@ -11,9 +11,12 @@ This isn't a problem with Endpoint Policy Manager File Associations Manager, but
 the behavior of what occurs at very first login. Good news: There's a quick fix; just log out and
 back on, and then.. boom. Problem solved for good!
 
-**NOTE:** This is OLD behavior; Endpoint Policy Manager doesn't require logoff and back on for File
+:::note
+This is OLD behavior; Endpoint Policy Manager doesn't require logoff and back on for File
 Associations unless the old method is specifically enabled. This would only be requested by Endpoint
 Policy Manager support team.
+:::
+
 
 ### Endpoint Policy Manager File Associations Manager: Understanding the First Login
 

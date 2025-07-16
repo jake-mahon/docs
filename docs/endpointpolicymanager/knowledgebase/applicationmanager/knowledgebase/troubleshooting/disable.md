@@ -30,8 +30,11 @@ with security software you might have on your endpoints.
   applications.)
 - AppLock is already turned off by default in newer versions of the CSE (for Win32 applications.)
 
-**NOTE:** AppLock's actions may not be turned off (ever) for Eclipse ISE (aka Java Control Panel
+:::note
+AppLock's actions may not be turned off (ever) for Eclipse ISE (aka Java Control Panel
 applets) or Firefox, but only for Win32 applications.
+:::
+
 
 You can witness PPAppLockLdr64.dll injected into processes by using Process Explorer. An example can
 be seen here with Win32 app NotepadP. Using the Process Explorer Search you may also look for other
@@ -87,5 +90,8 @@ and new state. Here's an example GPO with the old name and old state:
 
 ![applock8](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/applock/applock8.webp)
 
-**NOTE:** You might need to close the GPMC and re-open it to have the GPMC refresh the ADMX / ADML
+:::note
+You might need to close the GPMC and re-open it to have the GPMC refresh the ADMX / ADML
 files and reflect a change. Then re-run the GPO setting report to verify your change.
+
+:::

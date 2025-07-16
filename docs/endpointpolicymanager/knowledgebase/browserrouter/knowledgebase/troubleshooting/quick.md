@@ -51,9 +51,12 @@ In DEFAULT PROGRAMS, verify that PPBRAgent is the Default Browser for HTTP and H
 
 (Will be PPBRAgent32 on 32-bit and PPBRAgent64 on 64-bit).
 
-**CAUTION:** For Non-Domain Joined machines, we (PolicyPak) cannot set this automatically. For more
+:::warning
+For Non-Domain Joined machines, we (PolicyPak) cannot set this automatically. For more
 information on this
 problem, [Which Endpoint Policy Manager items will not work when the computer is non-domain joined (or the computer is NEVER connected to the Internet)?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/nondomainjoined/limitations.md)
+:::
+
 
 For Domain joined Windows 10, Look at Default Programs here,
 
@@ -118,5 +121,8 @@ Then, run `PPLOGS` twice:
 
 ![55_10_image0012-1024x593](/img/product_docs/endpointpolicymanager/troubleshooting/browserrouter/55_10_image0012-1024x593.webp)
 
-**NOTE:** If your email system strips ZIP files, rename it to `.ZIPP` or `.TXT` or whatever you
+:::note
+If your email system strips ZIP files, rename it to `.ZIPP` or `.TXT` or whatever you
 want.
+
+:::

@@ -6,7 +6,10 @@ sidebar_position: 10
 
 # How to use PDQ Deploy to collect PPLOGS from remote computers then save them to a network location
 
-**NOTE:** You need to be running PDQ Deploy in Enterprise mode to use this functionality.
+:::note
+You need to be running PDQ Deploy in Enterprise mode to use this functionality.
+:::
+
 
 **Step 1 –** Create a new PDQ Deploy package and give it a descriptive name.
 

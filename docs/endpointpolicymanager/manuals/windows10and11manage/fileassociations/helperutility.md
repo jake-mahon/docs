@@ -17,9 +17,12 @@ That's where the Endpoint Policy Manager File Associations Manager Helper utilit
 Endpoint Policy Manager File Associations Manager Helper on an example endpoint with the application
 already installed and to which you want to make a policy association with later.
 
-**NOTE:** For a video overview demonstrating how to use the Endpoint Policy Manager File
+:::note
+For a video overview demonstrating how to use the Endpoint Policy Manager File
 Associations Manager Helper utility, watch this video:
 [Endpoint Policy Manager File Associations Manager: Helper Application](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/tipsandtricks/helperapplication.md).
+:::
+
 
 The Endpoint Policy Manager File Associations Manager Helper is found in the Endpoint Policy Manager
 ISO or ZIP download in the Endpoint Policy Manager Extras folder.

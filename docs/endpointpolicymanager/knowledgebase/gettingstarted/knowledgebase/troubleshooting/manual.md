@@ -6,10 +6,13 @@ sidebar_position: 70
 
 # How do I manually collect logs if PPLOGS as User or Admin does not launch?
 
-**NOTE:** PPLOGs does not magically stop working, there is always some underlying cause.  Typically
+:::note
+PPLOGs does not magically stop working, there is always some underlying cause.  Typically
 some sort of barrier which prevents it... pplogs or other tools used in the pplogs process (like
 reg.exe) from working. If there is something in your environment that is blocking the automated
 (pplogs) way of gathering log information you can still fetch this information by hand.
+:::
+
 
 ## First, manually collect the information for the ADMIN Logs:
 
@@ -19,9 +22,12 @@ following:
 - Copy entire `%programdata%\PolicyPak `folder, this folder includes logs, dumps, policy store, and
   xmldata files.
 
-  **NOTE:** Some of these files cannot be accessed without elevation. The easiest UI way to get
+  :::note
+  Some of these files cannot be accessed without elevation. The easiest UI way to get
   them might be to copy the` %programdata%\PolicyPak` folder to Desktop and then approve the
   elevation when prompted.
+  :::
+
 
 **Step 2 –** Run Regedit as Administrator, then export the following registry keys if they are
 present, ignore any keys that do not exist.

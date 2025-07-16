@@ -35,9 +35,12 @@ For instance, you don’t want to block your Standard Users from running applica
 prompt. A Standard User doesn’t have the right permissions, and that’s where Endpoint Policy Manager
 Least Privilege Manager can come in.
 
-**NOTE:** For more information on this issue, watch the
+:::note
+For more information on this issue, watch the
 [Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/localadminrights.md)
 video.
+:::
+
 
 The basic way to use Endpoint Policy Manager Least Privilege Manager is as follows:
 
@@ -66,9 +69,12 @@ The basic way to use Endpoint Policy Manager Least Privilege Manager is as follo
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to
 receive the directives and perform the work.
 
-**NOTE:** If you use an MDM service or Endpoint Policy Manager cloud service, you can deliver
+:::note
+If you use an MDM service or Endpoint Policy Manager cloud service, you can deliver
 Endpoint Policy Manager Least Privilege Manager settings even to non-domain-joined machines over the
 Internet.
+:::
+
 
 ## Endpoint Privilege Manager Moving Parts
 

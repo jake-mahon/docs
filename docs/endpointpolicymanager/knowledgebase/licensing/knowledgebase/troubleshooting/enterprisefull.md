@@ -85,8 +85,11 @@ Enterprise Full license keys.
 - As for the GPMC MMC editor, it's ideal, but not required to be updated with MMC 23.6.3557 or
   later. It will, however, work fine without it.
 
-**NOTE:** See screen shot below where MMC expresses "Enterprise Universal Product Component" which
+:::note
+See screen shot below where MMC expresses "Enterprise Universal Product Component" which
 is the same as what we are calling "Enterprise Full" here.
+:::
+
 
 ![935_4_image-20230713042924-4_950x469](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_4_image-20230713042924-4_950x469.webp)
 
@@ -96,8 +99,11 @@ is the same as what we are calling "Enterprise Full" here.
 - Perform these steps:
   [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/installall/installuniversal.md)
 
-  **NOTE:** Using the Endpoint Policy Manager "LT" tool to install licenses is not recommended,
+  :::note
+  Using the Endpoint Policy Manager "LT" tool to install licenses is not recommended,
   but it should work.
+  :::
+
 
 ## What if some of my endpoints are using OLDER and NEWER CSE versions?
 
@@ -119,8 +125,11 @@ is the same as what we are calling "Enterprise Full" here.
   listed as seen below, including an Expiry date in the future and seeing that all components are
   expressed as Complete.
 
-_Remember,_ Only computers with CSE 23.6.3557 and later can show Enterprise Full when `PPupdate `is
+:::tip
+Remember, Only computers with CSE 23.6.3557 and later can show Enterprise Full when `PPupdate `is
 run.
+:::
+
 
 ![935_6_image-20230713042924-6_950x735](/img/product_docs/endpointpolicymanager/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
@@ -135,8 +144,11 @@ run.
   still work:
   - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/componentsexclude.md)
 
-**NOTE:** Only the updated MMC will nicely show this and have it formatted correctly; which is why
+:::note
+Only the updated MMC will nicely show this and have it formatted correctly; which is why
 we recommend updating to the latest MMC snap-in.
+:::
+
 
 - Get the GUIDs for a license you wish to expressly unlicensed here:
   [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/guids.md)

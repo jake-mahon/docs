@@ -14,13 +14,16 @@ the example below, and you want to use Item Level Targeting (ITM) to do it.
 
 ![139_1_overall-faq-01-img-01](/img/product_docs/endpointpolicymanager/itemleveltargeting/139_1_overall-faq-01-img-01.webp)
 
-**NOTE:** Item Level Targeting is a Microsoft technology provided as part of the their Group Policy
+:::note
+Item Level Targeting is a Microsoft technology provided as part of the their Group Policy
 Preferences CSE for Group Policy.See
 [Apply Item-Level Targeting Outside Domains & GP Preferences](https://www.endpointpolicymanager.com/resources/pp-blog/item-level-targeting/)
 for additional information. Endpoint Policy Manager utilizes this ability to filter based on
 criteria, but the underlying engine is developed by Microsoft. Because this is not our code, What
 that means is that its not our code and so sometimes there are behaviors related to ILT that we
 either are not aware of or have not yet tested.
+:::
+
 
 Here are some facts to help you understand the challenges:
 

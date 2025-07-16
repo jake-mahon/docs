@@ -10,8 +10,11 @@ Using the Azure VPN Client UWP application as an example, this article will cove
 to install the Azure VPN Client using either the Standard Policy (SMB/UNC) Method) or Web Policy
 Method.
 
-**NOTE:** It's up to the customer to ensure the UWP applications being used are legitimate Microsoft
+:::note
+It's up to the customer to ensure the UWP applications being used are legitimate Microsoft
 applications and that the applications are signed by Microsoft.
+:::
+
 
 ## Using the Standard Policy (SMB/UNC) Method
 
@@ -120,10 +123,13 @@ to the computer (switched mode)**, then click **Next**.
 **Step 5 –** At the Specify the copy source window add the direct download link for the UWP
 application, then click **Next**.
 
-**NOTE:** In this example, we are using a temporary link created for Dropbox:
+:::note
+In this example, we are using a temporary link created for Dropbox:
 https://www.dropbox.com/s/gvzushhyu2qz9i/Microsoft.AzureVpn_1.1069.25.0_neutral___8wekyb3d8bbwe.Msixbundle?dl=1.
 Do not use this link, it is provided only as an example and will not work, please create a new link
 to use.
+:::
+
 
 ![722_15_image-20201105183911-15](/img/product_docs/endpointpolicymanager/remoteworkdelivery/722_15_image-20201105183911-15.webp)
 

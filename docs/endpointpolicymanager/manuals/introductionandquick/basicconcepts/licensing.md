@@ -9,8 +9,11 @@ sidebar_position: 20
 Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have one tool to request
 information about Active Directory and Intune.
 
-**NOTE:** For a video overview of the process, watch this tutorial:
+:::note
+For a video overview of the process, watch this tutorial:
 [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/requestall/licenserequestkey.md)
+:::
+
 
 Here are the basics:
 
@@ -24,13 +27,16 @@ Here are the basics:
   Workspace ONE, or MobileIron. This scenario is covered later in this guide and in detail in
   Appendix A: Using Endpoint Policy Manager with MDM and UEM Tools.
 
-**NOTE:** To be in compliance with Endpoint Policy Manager licensing, you must license inbound
+:::note
+To be in compliance with Endpoint Policy Manager licensing, you must license inbound
 Terminal Services (RDS) or Citrix connections. These are simply added to the count of your Endpoint
 Policy Manager licenses. For instance, if you want to use Endpoint Policy Manager with 500 desktops,
 200 laptops, and 100 concurrent Terminal Services or Citrix session connections, then you will need
 800 Endpoint Policy Manager licenses. Full details of how Endpoint Policy Manager licenses Terminal
 Services (RDS) or Citrix inbound connections can be found at the following link:
 [http://www.endpointpolicymanager.com/purchasing/citrix-licensing-scenarios.html](http://www.endpointpolicymanager.com/purchasing/citrix-licensing-scenarios.html).
+:::
+
 
 In other words, to be fully compliant, you must license the number of computers in Active Directory
 plus the inbound Terminal Services (RDS) and/or Citrix connections. If you don't wish to run
@@ -51,11 +57,14 @@ Manager licensing tool (LT) is used with the Active Directory solution method an
 other MDM services like VMware Workspace ONE. In those cases, you'll work with your sales team to
 demonstrate how many machines are MDM-enrolled.
 
-**NOTE:** To be in compliance with Endpoint Policy Manager licensing on Citrix and Terminal Services
+:::note
+To be in compliance with Endpoint Policy Manager licensing on Citrix and Terminal Services
 (RDS), you must run LT on a server. When LT is run on a server, it is usually able to count Terminal
 Services and Citrix connections and report them. Even if LT does not properly count the Citrix and
 Terminal Services licenses, you are still bound by the End User License Agreement to report them for
 licensing purposes.
+:::
+
 
 Endpoint Policy Manager's LT utility can also help you minimize costs by finding and disabling
 unused computers. For instance, many organizations have dozens or hundreds of computers that have
@@ -99,8 +108,11 @@ Note that you can also choose to include computers that no users have ever logge
 computers that you select will be disabled when you click "Next." By doing so, you will have fewer
 computers in your count and thus fewer to pay for.
 
-**NOTE:** Endpoint Policy Manager's LT utility cannot re-enable accounts once they've been disabled.
+:::note
+Endpoint Policy Manager's LT utility cannot re-enable accounts once they've been disabled.
 Also, Endpoint Policy Manager's LT utility cannot move computer accounts after they are disabled.
+:::
+
 
 ## Licensing Modes
 
@@ -216,8 +228,11 @@ Once you have ensured that your license request contains all computers that you 
 save the file, and then deliver this to your Endpoint Policy Manager sales representative to receive
 a license file.
 
-**NOTE:** The resulting XML file is tamper-proof and will be invalid if the number of elements is
+:::note
+The resulting XML file is tamper-proof and will be invalid if the number of elements is
 changed after creation.
+:::
+
 
 ## License Files
 
@@ -278,5 +293,8 @@ Endpoint Policy Manager directives.
 
 Volume licenses and domain-wide licenses for Endpoint Policy Manager are available.
 
-**NOTE:** For an overview and FAQ of the licensing process, please visit:
+:::note
+For an overview and FAQ of the licensing process, please visit:
 [http://www.endpointpolicymanager.com/support-sharing/licensing-faq.html](http://www.endpointpolicymanager.com/support-sharing/licensing-faq.html).
+
+:::

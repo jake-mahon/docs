@@ -44,8 +44,11 @@ Figure 20. Desktop Applications can have two tile sizes.
 The values for "Tile Position" are recommended automatically based on other tiles you might have
 already placed within this same group.
 
-**NOTE:** The automatic recommendation does not take into consideration whether you have created the
+:::note
+The automatic recommendation does not take into consideration whether you have created the
 group already and are updating or changing it.
+:::
+
 
 The position is identified by columns and rows within the group. This will allow you to precisely
 place your tile within the group with a little experimentation.

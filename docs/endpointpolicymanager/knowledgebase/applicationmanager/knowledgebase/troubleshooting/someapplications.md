@@ -55,8 +55,11 @@ the target computer is using non-US English version of the same application.
 
 In this case: Settings should apply, but the AppLock will fail to apply.
 
-**NOTE:**  it IS possible re-capture the UI using the Endpoint Policy Manager DesignStudio and then
+:::note
+ it IS possible re-capture the UI using the Endpoint Policy Manager DesignStudio and then
 get the applications' UI to lockdown.
+:::
+
 
 Alternatively, instead of locking down the UI, you could lock down the application's data store
 using ACL Lockdown.

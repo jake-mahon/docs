@@ -6,10 +6,13 @@ sidebar_position: 20
 
 # Quick Start - Using SecureRun™ to Block Threats and Unknown Software
 
-**NOTE:** For an overview of how to block threats and unknown software like malware and similar
+:::note
+For an overview of how to block threats and unknown software like malware and similar
 applicates, see the
 [Using Least Privilege Manager's SecureRun Feature](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/feature.md)
 video.
+:::
+
 
 In the previous section, we established that users with Standard rights and admin rights can end up
 downloading both safe portable applications or unsafe malware applications. In addition, both Admins
@@ -50,9 +53,12 @@ members:
 The members on this list are the people and system processes that usually install software. For that
 reason, no regular users or groups are listed here because they do not normally install software.
 
-**NOTE:** Add system processes or accounts to the SecureRun Members list that properly install
+:::note
+Add system processes or accounts to the SecureRun Members list that properly install
 software, such as Microsoft Endpoint Manager (SCCM and Intune), etc., to enable the software to
 deliver applications without being prevented.
+:::
+
 
 When SecureRun™ is on, Endpoint Policy ManagerLeast Privilege Manager checks to see who owns the
 file executable, MSI file, script, or Java JAR file. When users download files off the Internet or
@@ -142,13 +148,19 @@ criteria:
 The result is that Endpoint Policy Manager SecureRun™ blocks any executable or MSI that the user
 downloads and tries to run but continues to let properly installed applications run.
 
-**NOTE:** An additional way to use Endpoint Policy Manager SecureRum™ is to also trap for anything
+:::note
+An additional way to use Endpoint Policy Manager SecureRum™ is to also trap for anything
 that is unsigned. See the
 [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/preventunsigned.md)
 video for a demonstration.
+:::
 
-**NOTE:** Remember, all Endpoint Policy Manager Least Privilege Manager rules, including SecureRun,
+
+:::note
+Remember, all Endpoint Policy Manager Least Privilege Manager rules, including SecureRun,
 may be used with an MDM service, or your own management system like PDQ deploy For more information
 on this topic, please see the
 [Blocking Malware with Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/pdqdeployblockmalware.md)
 video demonstration.
+
+:::

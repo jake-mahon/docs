@@ -23,8 +23,11 @@ Endpoint Policy Manager for WinZip.
 
 Figure 3. How to add the Pak for WinZip.
 
-**NOTE:** You can either right-click the word "Application" or right-click inside the white space in
+:::note
+You can either right-click the word "Application" or right-click inside the white space in
 the right-hand pane.
+:::
+
 
 **Step 3 –** Double-click on the entry that is created in the right-hand pane. You will then see
 your compiled AppSet inside the Group Policy Editor. Notice how it looks exactly like the real
@@ -60,8 +63,11 @@ Manager, you'll be given the options shown in Figure 6.
 
 Figure 6. Settings options.
 
-**NOTE:** These modes and options are all explained in detail in the section, "Endpoint Policy
+:::note
+These modes and options are all explained in detail in the section, "Endpoint Policy
 Manager Application Settings Manager Modes."
+:::
+
 
 **Step 8 –** Next, perform the following steps:
 

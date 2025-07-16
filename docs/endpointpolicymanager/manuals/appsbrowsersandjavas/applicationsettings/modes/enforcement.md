@@ -10,8 +10,11 @@ When actions are set for an element (using Endpoint Policy Manager DesignStudio)
 become available after right-clicking on them in the Endpoint Policy Manager Application Settings
 Manager Group Policy interface.
 
-**NOTE:** If you click directly on a setting, the first enforcement mode, "Always reapply this
+:::note
+If you click directly on a setting, the first enforcement mode, "Always reapply this
 setting," is automatically engaged.
+:::
+
 
 The enforcement mode dictates what happens at logon or when you refresh Group Policy. One of the
 following options must be configured, or the configuration will not be processed on the target
@@ -36,8 +39,11 @@ If no enforcement mode option is selected, the known value is maintained on the 
 GPO falls out of scope. Users are then free to change the setting, and Endpoint Policy Manager will
 not deploy or update the values you set.
 
-**NOTE:** If you make a mistake and don't wish to have a value take effect (that is, you want to
+:::note
+If you make a mistake and don't wish to have a value take effect (that is, you want to
 undo an underline), you can also right-click the area and deselect "Always reapply this setting."
 Alternatively, you can CTRL+click the setting to remove an enforcement mode. If no policy
 enforcement options are set, the value is not applied to the client. When the underline is absent,
 the value will not be set.
+
+:::

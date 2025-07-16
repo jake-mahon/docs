@@ -6,9 +6,12 @@ sidebar_position: 10
 
 # How do I create a Secondary (or Accounting) contact within the Portal to enable another person to participate in Endpoint Policy Manager (including downloads, updates, etc.)?
 
-**NOTE:** This article pertains to portal.endpointpolicymanager.com.  If you need to manage users in the Netwrix
+:::note
+This article pertains to portal.endpointpolicymanager.com.  If you need to manage users in the Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Cloud Portal (cloud.endpointpolicymanager.com)
 see [Endpoint Policy Manager Cloud: Adding New Admins](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/security/administrator.md)
+:::
+
 
 There are three steps in the process:
 

@@ -35,8 +35,11 @@ These are the steps to block DLL processing:
 With a Least Privilege Manager DLL block rule in place, this additional vector for executing
 PowerShell commands is now blocked.
 
-**NOTE:** These 2 policies below must be configured on the computer-side of the Group Policy
+:::note
+These 2 policies below must be configured on the computer-side of the Group Policy
 configuration.
+:::
+
 
 Global DLL policy: Enabling the DLL processing.
 

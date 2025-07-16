@@ -12,11 +12,17 @@ Group Policy (or policy) update. There's no point in re-evaluating ILT every tim
 anyway, because the engine (Group Policy engine) doesn't work that way. So we store them after we
 know we have a good value.
 
-**NOTE:** If the ILT evaluation takes more than 2 minutes for any reason, it is assumed the ILT is
+:::note
+If the ILT evaluation takes more than 2 minutes for any reason, it is assumed the ILT is
 true.
+:::
 
-**NOTE:** Cached values are stored permanently until we know they are changed. In other words, until
+
+:::note
+Cached values are stored permanently until we know they are changed. In other words, until
 Group Policy or policy updates occur and ILT re-evaluation succeeds.
+:::
+
 
 When you re-launch an application managed by Endpoint Policy Manager, or do a Endpoint Policy
 Manager action that requires an ILT decision, Endpoint Policy Manager is not evaluating ILT in

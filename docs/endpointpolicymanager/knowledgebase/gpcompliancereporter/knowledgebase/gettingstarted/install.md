@@ -178,8 +178,11 @@ and click "Next >"
 The GPCR Client (Admin Console) can be installed on any computer. It is recommended that it be
 installed on the computer that is used for Group Policy Administration.
 
-**NOTE:** The client itself is not licensed and thereby can be installed on as many computers as
+:::note
+The client itself is not licensed and thereby can be installed on as many computers as
 required.
+:::
+
 
 **Step 1 –** In the downloaded ISO or ZIP, open "Endpoint Policy Manager Group Policy Compliance
 Reporter" folder and run Endpoint Policy Manager GP Compliance Reporter (Admin Console).msi

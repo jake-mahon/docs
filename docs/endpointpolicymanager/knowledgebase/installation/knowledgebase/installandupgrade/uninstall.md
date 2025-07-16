@@ -58,7 +58,10 @@ Once the new CSE is deployed to the remainder of your machines, follow these ste
 **Step 1 –** Download our
 [`MSIZAP` and batch file](https://www.endpointpolicymanager.com/pp-files/ppMSIzapscript-4191.zip).
 
-**NOTE:** `MSIZAP` is a command line version of `MSICUU` that was used in the previous steps..
+:::note
+`MSIZAP` is a command line version of `MSICUU` that was used in the previous steps..
+:::
+
 
 **Step 2 –** Locate the batch file included in the download.
 
@@ -66,8 +69,11 @@ Once the new CSE is deployed to the remainder of your machines, follow these ste
 you put the old versions in another location. You'll see if you open up the batch file, which is
 much clearer.
 
-**NOTE:** If the batch file needs updating and doesn't contain the MSI codes for the version you are
+:::note
+If the batch file needs updating and doesn't contain the MSI codes for the version you are
 trying to uninstall, please work with your Netwrix support rep who can get that updated for you.
+:::
+
 
 After the batch file has been run, follow these steps.
 

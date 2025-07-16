@@ -14,5 +14,8 @@ Compilation, UI Capture, AppV (older versions of DesignStudio only), VirtualStor
 
 Figure 165. DesignStudio Options.
 
-**NOTE:** The AppV tab has not been used since build 605. Only older versions of DesignStudio
+:::note
+The AppV tab has not been used since build 605. Only older versions of DesignStudio
 require the AppV tab.
+
+:::

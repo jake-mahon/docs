@@ -52,9 +52,12 @@ Explorer and verify that you see the new drive mapping.
 
 ![216_7_image-20200220185019-9](/img/product_docs/endpointpolicymanager/scriptstriggers/mappeddrives/216_7_image-20200220185019-9.webp)
 
-**NOTE:** If using Endpoint Policy Manager Scripts Manager VPN Triggers to map drives on VPN connect
+:::note
+If using Endpoint Policy Manager Scripts Manager VPN Triggers to map drives on VPN connect
 you may need to add a delay to allow DNS to be updated before the drives are mapped, (i.e. to wait
 15 seconds use "Start-Sleep -s 15" for PowerShell, or "Timeout /T 15 >nul" for Batch files.
+:::
+
 
 If you do not see the drive mapping in File Explorer but can see the drive mapping when running "Net
 Use" from the CMD prompt try enabling the "Launch folder windows in a separate process" option (see

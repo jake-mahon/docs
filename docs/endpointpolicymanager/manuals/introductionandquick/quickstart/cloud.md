@@ -24,8 +24,11 @@ video of using Intune to bootstrap the PolicyPak cloud client install.
 
 The Endpoint Policy Manager Cloud Client automatically installs the PolicyPak CSE at the same time.
 
-**NOTE:** Each time you install the Endpoint Policy Manager Cloud Client you will consume one of
+:::note
+Each time you install the Endpoint Policy Manager Cloud Client you will consume one of
 your 10 example licenses
+:::
+
 
 **Step 2 –** (optional, recommended): Install the Endpoint Policy Manager Admin Console on a
 management machine with the GPMC pre-installed
@@ -36,8 +39,11 @@ Policy Manager Admin Console and the GPMC installed on a “fake DC” exclusive
 See the [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md) video for
 details and how to do this.
 
-**NOTE:** If you bypass this step, you can still use the Endpoint Policy Manager in-cloud editors,
+:::note
+If you bypass this step, you can still use the Endpoint Policy Manager in-cloud editors,
 but some options may not be available to you for editing without an on-prem editor station.
+:::
+
 
 **Step 3 –** Start creating policies using Endpoint Policy Manager Cloud
 

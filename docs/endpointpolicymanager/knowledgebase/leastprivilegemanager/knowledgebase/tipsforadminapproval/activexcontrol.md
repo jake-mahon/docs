@@ -13,7 +13,10 @@ has a rule for the URL and for the Signature.
 
 ![859_1_image001_950x422](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/859_1_image001_950x422.webp)
 
-_Remember,_ When your ActiveX items are signed, you should have no problem.
+:::tip
+Remember, When your ActiveX items are signed, you should have no problem.
+:::
+
 
 However, if you attempt an ActiveX rule where there the ActiveX item is not signed (see below)…
 
@@ -33,8 +36,11 @@ Go to **User** (or Computer) **Admin templates** > **Windows Components** > **In
 
 Then locate pick the Trusted Sites Zone.
 
-**CAUTION:** Note that you are explicitly telling Internet Explorer to reducethe security here in
+:::warning
+Note that you are explicitly telling Internet Explorer to reducethe security here in
 order to enable your unsigned ActiveX control to be installed.
+:::
+
 
 ![859_5_image007_950x362](/img/product_docs/endpointpolicymanager/leastprivilege/policyeditor/859_5_image007_950x362.webp)
 

@@ -31,8 +31,11 @@ the screenshot below, then paste in the registry path you saved to your clipboar
 above. Edit the path to correct for HKCU or HKLM (see note directly below), then click "Add", and
 then "Ok" to save and apply the filter.
 
-**NOTE:** Edit the reg path and replace the text `"Computer\HKEY_CURRENT_USER"` with `"HKCU"`, or
+:::note
+Edit the reg path and replace the text `"Computer\HKEY_CURRENT_USER"` with `"HKCU"`, or
 `"Computer\HKEY_LOCAL_MACHINE"` with `"HKLM"` as needed. See screenshots below for examples.
+:::
+
 
 ![630_3_image-20220507212307-3](/img/product_docs/endpointpolicymanager/troubleshooting/630_3_image-20220507212307-3.webp)
 

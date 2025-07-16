@@ -80,14 +80,20 @@ Click **View Certificate**.
 **Step 7 –** Finish the export and save the cert file somewhere easily accessible for the next
 steps.
 
-**NOTE:** You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the
+:::note
+You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the
 certificate file at the desired location of the remote computer. For more information on this issue,
 please see  Remote Work Delivery Manager > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md)
+:::
+
 
 Use Endpoint Policy Manager Scripts Manager to deliver the Certificate in Intermediate Certification
 Authorities for a Computer.
 
-**NOTE:** This script must be set up at the Computer Configuration level to work.
+:::note
+This script must be set up at the Computer Configuration level to work.
+:::
+
 
 **Step 1 –** Create a new Endpoint Policy Manager Scripts Manager GPO and use the following
 PowerShell command:

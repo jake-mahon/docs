@@ -56,8 +56,11 @@ user's security context
 
 ![687_4_image-20200219090943-4_674x261](/img/product_docs/endpointpolicymanager/grouppolicy/687_4_image-20200219090943-4_674x261.webp)
 
-**NOTE:** This step lets you access the AD user object attribute for the logged-on user, and turn
+:::note
+This step lets you access the AD user object attribute for the logged-on user, and turn
 them into variables for use within the Registry Preferences.
+:::
+
 
 **Step 7 –** Use both variables to get the user's First and Last name and save them in a Reg Item.
 

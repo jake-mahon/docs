@@ -20,7 +20,10 @@ names.
 
 ![appx_policies_and_settings_12](/img/product_docs/endpointpolicymanager/softwarepackage/appx/appx_policies_and_settings_12.webp)
 
-**NOTE:** You can generate this same list via PowerShell by using the following command.:
+:::note
+You can generate this same list via PowerShell by using the following command.:
+:::
+
 
 Get-AppxPackage | Where-Object -Property 'Publisher' -NE -Value 'CN=Microsoft Windows, O=Microsoft
 Corporation, L=Redmond, S=Washington, C=US' | Where-Object -Property 'Publisher' -NE -Value

@@ -19,8 +19,11 @@ Business Pak. With this pak, you'll be able to deliver lots of Skype client sett
 areas of the Skype client that users can access. So if you want to ensure that users can't "mess up
 their Skype Client settings" then check out this video.
 
-**NOTE:** This video shows Lync 2010, but we also have a pre-configured Paks for Lync 2013 and Skype
+:::note
+This video shows Lync 2010, but we also have a pre-configured Paks for Lync 2013 and Skype
 for Business 2015/2016.
+:::
+
 
 There's simply no way to manage the Lync client using Group Policy any other way. We're more than a
 mere ADM template. PolicyPak is a true management system, which can lock down the Lync client and

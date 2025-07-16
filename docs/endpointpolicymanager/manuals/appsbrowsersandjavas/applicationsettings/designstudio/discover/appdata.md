@@ -38,11 +38,14 @@ Figure 99. DesignStudio detecting the data location.
 
 Figure 100. DesignStudio detecting the data location.
 
-**NOTE:** You will not be able to compile your AppSet to a DLL as standard user unless you change
+:::note
+You will not be able to compile your AppSet to a DLL as standard user unless you change
 the location using Tools | Options. In the Compilation tab, select a writeable location for "Path
 for compiled dlls." By default, Endpoint Policy Manager DesignStudio writes its compiled AppSets to
 `c:\Program Files\PolicyPak` by design so non-administrators cannot utilize Endpoint Policy Manager
 Application Settings Manager .dlls on machines.
+:::
+
 
 Therefore, capture all the data from your application first as a standard user, then test your
 compiling as a standard user. You can see the preview of your AppSet by selecting "Show test

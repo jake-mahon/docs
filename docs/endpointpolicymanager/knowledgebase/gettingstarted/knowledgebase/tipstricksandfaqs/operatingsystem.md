@@ -8,17 +8,26 @@ sidebar_position: 110
 
 The following matrix describes our product compatibility.
 
-**NOTE:** There may be some unusual circumstances where, for instance, you can install the Netwrix
+:::note
+There may be some unusual circumstances where, for instance, you can install the Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Cloud Agent on Windows 8 and later (Core Edition), but
 Endpoint Policy Manager Preferences Manager will not run with it, since Group Policy Preferences is
 not available upon that operating system.
+:::
 
-**NOTE:** Starting with builds later that 732, Windows XP is not supported in any way by Endpoint
+
+:::note
+Starting with builds later that 732, Windows XP is not supported in any way by Endpoint
 Policy Manager. Windows 7 Starter and Windows 8 RT ( and later) are also not supported by Endpoint
 Policy Manager.
+:::
 
-**NOTE:** Some PPSec Manager features may be not available on Pro and lower tier editions. As an
+
+:::note
+Some PPSec Manager features may be not available on Pro and lower tier editions. As an
 example, AppLocker requires Windows Enterprise edition.
+:::
+
 
 |                                                              | Endpoint Policy Manager Application Settings Manager, Endpoint Policy Manager Browser Router, Java Rules Manager, Least Privilege Manager and all other Endpoint Policy Manager Components | Endpoint Policy Manager Admin Templates Manager (deploying Microsoft ADMX settings)" | Endpoint Policy Manager Security Settings Manager (deploying Microsoft Security settings) | Endpoint Policy Manager Preferences Manager (deploying Microsoft Group Policy Preferences settings) | Endpoint Policy Manager Cloud Agent | PPGPCR (Client) [Management Station] | PPGPCR (Endpoint) | PPGPCR (Server) |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------ | ----------------- | --------------- |

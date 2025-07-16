@@ -42,7 +42,10 @@ If you encounter a serious issue which requires that you stop using the Endpoint
 engine and must instead revert back to the Microsoft ILT engine you can use a Endpoint Policy
 Manager ADMX setting to do it.
 
-**NOTE:** Learn how to implement the Endpoint Policy Manager ADMX settings from this KB.
+:::note
+Learn how to implement the Endpoint Policy Manager ADMX settings from this KB.
+:::
+
 
 ADMX Computer Configuration | Policies | Administrative Templates | PolicyPak ADMX Settings |
 Client-Side Extensions | Use Item Level Targeting filters evaluation engine (Preferences vs.

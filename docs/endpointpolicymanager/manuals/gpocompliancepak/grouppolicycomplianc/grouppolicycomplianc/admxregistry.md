@@ -66,10 +66,13 @@ Key:
 
 Values: `DataDirectory`
 
-**NOTE:** You can use this value if you wish to change the location of the file-based database used
+:::note
+You can use this value if you wish to change the location of the file-based database used
 for the Endpoint Policy Manager GPCR server. The target location specified must have network service
 granted full control. This is normally set up during the installation, but if you change the folder,
 you have to do it yourself.
+:::
+
 
 Table 4: Settings to enable diagnostics.
 

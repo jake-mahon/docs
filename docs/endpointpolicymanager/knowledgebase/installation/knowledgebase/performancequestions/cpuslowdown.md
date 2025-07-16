@@ -59,7 +59,10 @@ the screenshot).
 2. Current Disk Queue Length and
 3. Split IO/Sec
 
-**NOTE:** Ensure \_Total selected in the bottom list.
+:::note
+Ensure \_Total selected in the bottom list.
+:::
+
 
 ![369_5_faq-913-05](/img/product_docs/endpointpolicymanager/troubleshooting/369_5_faq-913-05.webp)
 

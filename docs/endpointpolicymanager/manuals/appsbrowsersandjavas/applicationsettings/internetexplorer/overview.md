@@ -9,7 +9,10 @@ sidebar_position: 100
 This document will help you to understand how to use the AppSet named "Microsoft Internet Explorer 8
 and Later for Windows 7 and Later" (IE AppSet).
 
-**NOTE:** There are also some older IE AppSets, which should no longer be used.
+:::note
+There are also some older IE AppSets, which should no longer be used.
+:::
+
 
 This AppSet has some special super powers that you won't find in other AppSets. These super powers
 require that the PolicyPak Application Settings Manager CSE version 707 or later be installed on the

@@ -21,15 +21,24 @@ For a complete list of Chromium command-line switches, see
 For example, if you want to launch a specific URL under an incognito mode, you need to configure the
 PPBR rule as shown below.
 
-**NOTE:** Please note that the syntax `%url%` is case sensitive.
+:::note
+Please note that the syntax `%url%` is case sensitive.
+:::
+
 
 ![881_1_image-20221228073914-1](/img/product_docs/endpointpolicymanager/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
 
-**NOTE:** Please note that Chromium often removes a flag's support or replaces it with ADMX
+:::note
+Please note that Chromium often removes a flag's support or replaces it with ADMX
 settings.
+:::
+
 
 For example, a command-line to disable Google Translate `--disable-translate` is not supported
 anymore and it is replaced with
 [https://chromeenterprise.google/policies/#TranslateEnabled](https://chromeenterprise.google/policies/#httpschromeenterprisegooglepoliciestranslateenabled).
 
-**CAUTION:** Command line arguments don't work when the source and target browsers are the same.
+:::warning
+Command line arguments don't work when the source and target browsers are the same.
+
+:::

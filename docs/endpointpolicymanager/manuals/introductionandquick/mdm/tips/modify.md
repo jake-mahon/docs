@@ -40,9 +40,12 @@ This enables you to perform MSI upgrades using your software deployment tool. Ho
 do this, you will also need to specify a higher number for the product version. This is performed
 automatically for you. You're welcome to change the New Product Version field to whatever you like.
 
-**NOTE:** You can learn more about how the product version attribute is used within MSI files in
+:::note
+You can learn more about how the product version attribute is used within MSI files in
 this technical note from Microsoft:
 [http://msdn.microsoft.com/en-us/library/windows/desktop/aa370579(v=vs.85).aspx](<http://msdn.microsoft.com/en-us/library/windows/desktop/aa370579(v=vs.85).aspx>).
+:::
+
 
 In short, when you open and utilize the MSI, save it again (using the same name or a different
 name), and update the product version, the resulting MSI will correctly remove any old references

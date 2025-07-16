@@ -54,12 +54,16 @@ the MMC editor.
 
 ![upgrading_tips_624x267](/img/product_docs/endpointpolicymanager/install/upgrade/upgrading_tips_624x267.webp)
 
-**CAUTION:** Do not attempt to roll out the CSE to 100% of your computer population at once. If
+:::warning
+Do not attempt to roll out the CSE to 100% of your computer population at once. If
 Endpoint Policy Manager fails to operate in an expected manner and locks up, or otherwise makes your
 machine inaccessible or unavailable, we cannot be responsible since you were directed to roll out
 the CSE to endpoint machines gradually.
+:::
 
-**NOTE:** If you're using Endpoint Policy Manager with Group Policy Objects (GPOs), you should also
+
+:::note
+If you're using Endpoint Policy Manager with Group Policy Objects (GPOs), you should also
 be making backups from time to time. Inside the GPMC, find the Group Policy Objects node,
 right-click, select Backup, and then follow the prompts. For additional information on how to
 preform a Group Policy backup, see the
@@ -67,3 +71,5 @@ preform a Group Policy backup, see the
 and
 [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
 video demos.
+
+:::

@@ -6,8 +6,11 @@ sidebar_position: 10
 
 # Endpoint Policy Manager and Microsoft Intune MDM
 
-**NOTE:** See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/microsoftintune.md) for
+:::note
+See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/microsoftintune.md) for
 an overview video of Endpoint Policy Manager and Microsoft Intune MDM.
+:::
+
 
 To start, log onto your Microsoft Intune instance and select Apps. Add the Endpoint Policy Manager
 CSE, the Endpoint Policy Manager license file, and the Endpoint Policy Manager settings MSI files,
