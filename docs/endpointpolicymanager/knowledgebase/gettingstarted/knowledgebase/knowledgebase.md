@@ -10,7 +10,7 @@ The following topics can help you getting started with Endpoint Policy Manager (
 
 ## Getting Started
 
-- [Endpoint Policy Manager Support and Resources](/docs/endpointpolicymanager/overview/gettingstarted/fastest.md)
+- [Endpoint Policy Manager Support and Resources](/docs/endpointpolicymanager/fastest.md)
 - [Does Endpoint Policy Manager have a Quick Start Guide?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/gettingstarted/guide.md)
 - [Does Endpoint Policy Manager have an Installation Quick Start Guide?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/gettingstarted/guideinstall.md)
 - [How has Endpoint Policy Manager Evolved over the years?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/gettingstarted/history.md)

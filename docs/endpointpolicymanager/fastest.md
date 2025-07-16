@@ -1,7 +1,7 @@
 ---
 title: "Endpoint Policy Manager Support and Resources"
 description: "Endpoint Policy Manager Support and Resources"
-sidebar_position: 10
+sidebar_position: 3
 ---
 
 # Endpoint Policy Manager Support and Resources
