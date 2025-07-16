@@ -14,7 +14,7 @@ You will need to create a Dropbox App and authorize it. Do the following:
 1. Select Create apps.
 2. Generate Access token
 
-To create a new app
+**To create a new app**
 
 To create a new app, you should sign in to Dropbox cloud using a Dropbox Business account with
 administrative rights. Refer to
@@ -28,11 +28,14 @@ more information on the accounts and rights.
 4. On the Choose the type of access you needstep, select Full Dropbox type.
 5. Provide a name for your App. For example, Netwrix Data Classification.
 
-    **NOTE:** Remember to agree with Dropbox API Terms and Conditions.
+    :::note
+    Remember to agree with Dropbox API Terms and Conditions.
+    :::
+
 
 6. Click Create app.
 
-To authorize your app
+**To authorize your app**
 
 1. Once your App has been created, navigate to the Permissions tab.
 2. Select the following permissions and click submit.

@@ -39,11 +39,11 @@ file and delete (or comment out) three lines:
 
 <!-- The following 3 lines are required for Windows Authentication. Remove to allow anonymous access to
 
-the conceptQS -->
+**the conceptQS -->**
 
 <authorization>
 
-<deny users="?"/>
+**<deny users="?"/>**
 
 </authorization>
 

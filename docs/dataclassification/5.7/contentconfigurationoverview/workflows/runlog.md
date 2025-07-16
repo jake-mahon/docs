@@ -22,7 +22,7 @@ writing additional actions using the plugin interfaces.
 Plugins are implemented as DLLs and are placed in the plugins folder, which is typically located
 here:
 
-C:\Program Files\ConceptSearching\Plugins\
+**C:\Program Files\ConceptSearching\Plugins\**
 
 The following sample plugins are provided with the product (complete with code):
 

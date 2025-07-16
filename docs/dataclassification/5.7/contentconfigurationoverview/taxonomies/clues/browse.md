@@ -10,15 +10,21 @@ To view the documents classified for each term, click on the Browse tab. This wi
 documents achieving the minimum score set for classification in the term.
 [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md)
 
-**NOTE:** This list will include the current classification status of each document and any changes
+:::note
+This list will include the current classification status of each document and any changes
 made to the class, since the last classification, are not taken into account.
+:::
+
 
 The document text will be highlighted based upon the clues configured for the term. Highlighting
 will include regular expression matches when configured (Config→Query Server→Enable Regex Browse
 Highlighting (Advanced)).
 
-**NOTE:** If a new class is selected in the treeview menu, the view will remain in "Browse" mode and
+:::note
+If a new class is selected in the treeview menu, the view will remain in "Browse" mode and
 will show the documents for the selected class.
+:::
+
 
 You can use the Browse function to:
 

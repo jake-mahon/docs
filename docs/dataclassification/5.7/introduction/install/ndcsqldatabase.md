@@ -14,15 +14,21 @@ Server Management Studio or Transact-SQL. Refer to the following Microsoft artic
 instructions on how to create a new database:
 [Create a Database](https://docs.microsoft.com/en-us/sql/relational-databases/databases/create-a-database).
 
-**NOTE:** For performance purposes, Netwrix strongly recommends to separate NDC and SQL Server
+:::note
+For performance purposes, Netwrix strongly recommends to separate NDC and SQL Server
 machine.
+:::
+
 
 For certain product features, SQL Server Standard or Enterprise edition is required.
 
-To configure NDC database
+**To configure NDC database**
 
-**NOTE:** The account used to create the NDC SQL database must be granted the dbcreator server-level
+:::note
+The account used to create the NDC SQL database must be granted the dbcreator server-level
 role.
+:::
+
 
 1. On the computer where SQL Server instance with the NDC SQL database resides, navigate to Start →
    All Programs → Microsoft SQL Server → SQL Server Management Studio.
@@ -38,5 +44,8 @@ role.
 
 6. Go to Options page and make sure that the Recovery model parameter is set to "_Simple_".
 
-    **NOTE:** Netwrix recommends that you do not change the recovery model to avoid log files
+    :::note
+    Netwrix recommends that you do not change the recovery model to avoid log files
     growth.
+    
+    :::

@@ -13,8 +13,11 @@ step-by-step instructions in order to configure a whole tenancy for collection.
 1. Add SharePoint Online source as described in the
    [SharePoint Online](/docs/dataclassification/5.7/contentconfigurationoverview/introduction/addsource/sharepointonline.md) section.
 
-    **NOTE:** If this option is not available within the source type selection then it would suggest
+    :::note
+    If this option is not available within the source type selection then it would suggest
     that the source type is not currently licensed, please contact support for more details.
+    :::
+
 
 2. The Source is configured to the tenancy level, therefore we recommend specifying the URL as the
    root site collection URL. This is however not a requirement if you do not have a root site

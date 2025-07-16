@@ -8,8 +8,11 @@ sidebar_position: 40
 
 The table below lists types of content and their default extensions supported out of the box.
 
-**NOTE:** To review the full list of available content types, navigate to Config → Text Processing →
+:::note
+To review the full list of available content types, navigate to Config → Text Processing →
 Content Type Extraction Methods.
+:::
+
 
 | Default extension | Content type     |
 | ----------------- | ---------------- |

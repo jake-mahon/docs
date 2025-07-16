@@ -17,7 +17,10 @@ Select the operation you want to perform:
   from it). Then the program will re-crawl all configured sources and update the search index
   (during that process, search results will be unavailable).
 
-**NOTE:** This option is recommended after setting up DQS configuration.
+:::note
+This option is recommended after setting up DQS configuration.
+:::
+
 
 - Delete Index—Delete all content from both the search index and the NDC SQL database.
 

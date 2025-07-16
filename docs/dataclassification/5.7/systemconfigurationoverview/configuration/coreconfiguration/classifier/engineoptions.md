@@ -13,8 +13,11 @@ Each option has an associated “**i**” which describes the nature of the sett
 
 ![core_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core_thumb_0_0.webp)
 
-**NOTE:** To view a complete list of the **Config** settings, click the Details tab. The list also
+:::note
+To view a complete list of the **Config** settings, click the Details tab. The list also
 has an indication of the values that have been changed from the default setting.
+:::
+
 
 | Option                                 | Description                                                                                                                                                                                                                                                         | Comment                                                                                                                                                                                                                                                                                                                                          |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

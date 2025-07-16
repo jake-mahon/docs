@@ -25,9 +25,12 @@ sidebar_position: 40
     | Password              | Provide your password.                                                                                                   |
     | Database Name         | Enter the name of the SQL Server database. Netwrix recommends using NDC_database name.                                   |
 
-    **NOTE:** The database is created automatically in basic configuration mode. For recommended
+    :::note
+    The database is created automatically in basic configuration mode. For recommended
     configuration (required for crawling optimization in large and extra-large environments), refer
     to [Configure NDC SQL database](/docs/dataclassification/5.7/introduction/install/ndcsqldatabase.md) section.
+    :::
+
 
 7. On the Licensing step, add license. You can add license as follows:
 
@@ -46,8 +49,11 @@ sidebar_position: 40
       Classification's Services files. For example, _C:\Program Files\NDC Services._
     - Provide user name and password for the product services service account.
 
-        **NOTE:** This account is granted the Logon as a service privilege automatically on the
+        :::note
+        This account is granted the Logon as a service privilege automatically on the
         computer where Netwrix Data Classification is going to be installed.
+        :::
+
 
     - Select additional service options, if necessary.
 

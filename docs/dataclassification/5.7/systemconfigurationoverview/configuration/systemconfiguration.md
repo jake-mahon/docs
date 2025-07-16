@@ -23,7 +23,7 @@ access to all domains within the forest.
 
 ![configaddomainsexcluded](/img/product_docs/dataclassification/5.7/configuration/configaddomainsexcluded.webp)
 
-Attachments Excluded
+**Attachments Excluded**
 
 When indexing files from that potentially contain attachments (SharePoint List Items) the list of
 file locations that will be ignored is defined by the Attachments Excluded list. The definitions in
@@ -37,7 +37,7 @@ anywhere in the pattern definition, with:
 - The asterisk character (\*) matching any sequence of characters
 - The question mark character (?) matching any single character
 
-No Index
+**No Index**
 
 Sometimes an application may wish to remove selected documents from all search results. This may be
 implemented by specifying No Index entries.
@@ -50,7 +50,7 @@ results. Wildcards may be used anywhere in the pattern definition, with:
 - The asterisk character (\*) matching any sequence of characters
 - The Question mark character (?) matching any single character
 
-Proxy Server
+**Proxy Server**
 
 The Proxy Server form may be used to define a proxy server to be used when crawling websites, the
 proxy server is not used for SharePoint crawling.
@@ -62,7 +62,7 @@ Set Bypass Local to Yes to bypass the proxy server for local addresses (localhos
 Any other exclusions that should not go through the proxy server should be defined in the Exceptions
 list.
 
-Suspend Services (Scheduler)
+**Suspend Services (Scheduler)**
 
 All Netwrix Data Classification services run as Windows services. They are responsible for building
 the search index and classifying documents against the registered taxonomies.

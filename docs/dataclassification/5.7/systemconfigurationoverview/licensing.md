@@ -19,8 +19,11 @@ into:
 - Netwrix Data Classification for SharePoint - Hybrid License
 - Netwrix Data Classification – All-in-one (for all data sources)
 
-**NOTE:** The Feature Licensing, which includes Redaction, Custom Reporting, Clue Building Reports,
+:::note
+The Feature Licensing, which includes Redaction, Custom Reporting, Clue Building Reports,
 and Workflow capabilities, is available for all the listed licenses.
+:::
+
 
 You can add the required license and review a summary of the current license state in your NDC app.
 
@@ -47,7 +50,10 @@ sources and features. You can review the following details:
 
 **Step 4 –** Click **Save**.
 
-**NOTE:** You can view the list of your licence names, its type, and valid status on the Licences
+:::note
+You can view the list of your licence names, its type, and valid status on the Licences
 page.
+:::
+
 
 ![licencenames](/img/product_docs/dataclassification/5.7/configuration/licencenames.webp)

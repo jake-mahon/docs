@@ -23,7 +23,10 @@ Clues can be suggested for a term via the following methods:
 Once the list of suggested clues has been generated they can be selected and added to the term
 clues:
 
-**NOTE:** Changes made to a class will have no effect unless documents are re-classified.
+:::note
+Changes made to a class will have no effect unless documents are re-classified.
+:::
+
 
 The clue type can be set to one of the following:
 
@@ -32,5 +35,8 @@ The clue type can be set to one of the following:
 - Phonetic
 - Create Tree Node
 
-**NOTE:** If Create Tree Node is selected then these topics shall be added as children of the
+:::note
+If Create Tree Node is selected then these topics shall be added as children of the
 currently selected node in the taxonomy structure.
+
+:::

@@ -9,9 +9,12 @@ sidebar_position: 40
 The **Searches** interface may contain multiple requests. This section contains information on how
 to work with searches to address specific tasks.
 
-**NOTE:** To manage the search requests, users require sufficient access rights that are assigned by
+:::note
+To manage the search requests, users require sufficient access rights that are assigned by
 the **Super User** (DSAR Administrator). See [DSAR Roles](/docs/dataclassification/5.7/dataanalysisoverview/dsar/roles.md) for details on the available
 roles, their rights and permissions.
+:::
+
 
 ## Customize View
 

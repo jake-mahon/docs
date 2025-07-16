@@ -42,7 +42,7 @@ The following options are available:
 
     You can also specify what age this workflow targets by populating the field.
 
-To configure terms
+**To configure terms**
 
 1. In the **Select Term** field, click the tag icon.
 2. In the **Details** dialog, specify filter settings to use when filtering out the documents:
@@ -52,8 +52,11 @@ To configure terms
        this option is cleared, then after selecting the necessary taxonomy, you will be presented
        the list of its terms. Select the one you plan to use for filtering.
 
-    **NOTE:** Multiple selection is not supported: to configure several filter values, you should
+    :::note
+    Multiple selection is not supported: to configure several filter values, you should
     repeat this procedure for each filter value you need.
+    :::
+
 
     3. **Include Children** - select this option if needed.
 

@@ -44,7 +44,7 @@ Supported migration options are described in the table below.
 
 location to migrate to must be added as a source
 
-To configure migration destination
+**To configure migration destination**
 
 Under the **Workflows** menu click **Configs**, then click **Migration Configs** on the right.
 

@@ -1,5 +1,5 @@
 ---
-title: "Features and Benefits"
+sidebar_label: "Netwrix Data Classification v5.7 Documentation"
 description: "Features and Benefits"
 sidebar_position: 1
 ---

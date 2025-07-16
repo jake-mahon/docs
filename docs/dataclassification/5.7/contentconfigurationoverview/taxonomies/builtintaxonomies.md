@@ -19,9 +19,12 @@ requirements of specific data protection regulations:
 
 This section contains the full list of built-in taxonomies supported by Netwrix Data Classification.
 
-**NOTE:** Netwrix Data Classification users can see only the taxonomies they have permissions to
+:::note
+Netwrix Data Classification users can see only the taxonomies they have permissions to
 use. See the [User Management](/docs/dataclassification/5.7/systemconfigurationoverview/users/usermanagement.md) section for more information on
 users' permissions.
+:::
+
 
 ## Core Taxonomies
 
@@ -174,8 +177,11 @@ consumers and businesses.
 While creating your own reports, you can specify whether a taxonomy is sensitive (finance,
 сredentials) or non-sensitive (file size, language).
 
-**NOTE:** This applies only to customized taxonomies, which you add by yourself. You cannot change
+:::note
+This applies only to customized taxonomies, which you add by yourself. You cannot change
 the sensitivity settings for the pre-defined taxonomies.
+:::
+
 
 Follow the steps to specify sensitive taxonomy.
 

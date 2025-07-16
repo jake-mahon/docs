@@ -15,8 +15,11 @@ Prepare application certificate as follows:
 
 1. Create (or load) an IIS certificate on NDC Server (recommended).
 
-**NOTE:** This certificate should be installed for the local machine so that it can be accessed by
+:::note
+This certificate should be installed for the local machine so that it can be accessed by
 Netwrix Data Classification and other services.
+:::
+
 
 2. Export the certificate (.CER file):
 
@@ -24,7 +27,10 @@ Netwrix Data Classification and other services.
     2. Go to the **Details** tab.
     3. Select **Copy to File**.
 
-    **NOTE:** Do not export private key.
+    :::note
+    Do not export private key.
+    :::
+
 
     4. Set file type to _DER-encoded CER_.
 
@@ -46,7 +52,10 @@ To register a new Azure AD application, do the following:
    this organizational directory only** option.
 7. Click the **Register** button.
 
-**NOTE:** Application redirect URl is optional, you can leave it blank on this step.
+:::note
+Application redirect URl is optional, you can leave it blank on this step.
+:::
+
 
 8. . Copy your application ID from the **Overview** section to a safe location.
 
@@ -62,8 +71,11 @@ Azure AD applications can be assigned _Delegated_ or _Application_ permissions:
 
 For the newly created app, you should use _Application_ permissions.
 
-**NOTE:** By default, a new application is granted one delegated permission for **Microsoft Graph
+:::note
+By default, a new application is granted one delegated permission for **Microsoft Graph
 API** – **User.Read**. It is not required and can be removed.
+:::
+
 
 Do the following:
 

@@ -33,8 +33,11 @@ Simply select Add and choose the label you wish to assign from the drop down lis
 
 ![o365labels_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/o365labels_thumb_0_0.webp)
 
-**NOTE:** If the site collection has only recently been added then the label may not yet have been
+:::note
+If the site collection has only recently been added then the label may not yet have been
 synchronized down.
+:::
+
 
 ## Help
 

@@ -14,8 +14,11 @@ source.
 You can instruct the program to write classification attributes back to to the document properties
 in the Google Drive repository. Each taxonomy can be mapped to a single property.
 
-**NOTE:** Custom properties are not exposed to end users and are only available to other
+:::note
+Custom properties are not exposed to end users and are only available to other
 applications using the API.
+:::
+
 
 By design, Google Drive supports custom properties with the following limitations:
 
@@ -23,23 +26,29 @@ By design, Google Drive supports custom properties with the following limitation
 - Maximum of 30 public properties per file, totalled from all sources
 - Maximum 124 characters for both the property name and the list of classifications
 
-**NOTE:** See [this article](https://developers.google.com/drive/api/v3/properties) for details.
+:::note
+See [this article](https://developers.google.com/drive/api/v3/properties) for details.
+:::
+
 
 To overcome these limitations, Google Drive tagging implemented in the solution supports appending a
 counter to the field name. So, it is possible to split classifications across multiple fields if a
 text limit is hit within the source system. For example, you may have classifications written to the
 fields “_Agriculture_” and “_Agriculture_1_”.
 
-**NOTE:** Due to the way Google Drive manages document audit information, writing classifications to
+:::note
+Due to the way Google Drive manages document audit information, writing classifications to
 a document (i.e. tagging) in this source will affect additional document metadata such as modified
 date and/or modified user:
+:::
+
 
 - modified date information will be changed to the time of tagging
 - modified user will be changed to the account that was configured for crawling this source
 
 Related content source settings can be configured at a global level (default), or at a source level.
 
-To configure tagging on a global level
+**To configure tagging on a global level**
 
 1. In the management console, click **Sources** →**Google Drive**, then in the left pane click Write
    Configuration.
@@ -78,7 +87,10 @@ In the management console, click **Sources** →**Google Drive**, then in the le
     - The asterisk character (\*) - matches any sequence of characters
     - The question mark character (?) - matches any single character
 
-**NOTE:** Exclusions are case-insensitive.
+:::note
+Exclusions are case-insensitive.
+:::
+
 
 For example, to exclude all Excel files stored in the _corp/Year2020_ folder, enter
 _gdrive://corp/Year2020/\*.xlsx_

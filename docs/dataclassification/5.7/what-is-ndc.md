@@ -70,14 +70,20 @@ runs on the same server where the NDC Index Database is located.
 
 The Indexer is implemented as a Microsoft Windows Service.
 
-**NOTE:** For file system and SharePoint/OneDrive sources, event handlers/file watchers dynamically
+:::note
+For file system and SharePoint/OneDrive sources, event handlers/file watchers dynamically
 schedule documents for crawling when they are created/modified. You only need to set up reindexing
 for those sources to catch documents that the event handlers miss.
+:::
 
-**NOTE:** For File Share scans, the source watchers will queue up new and updated documents for
+
+:::note
+For File Share scans, the source watchers will queue up new and updated documents for
 crawling automatically. This function even operates when a source is paused. If you want to stop
 adding any content from specific file shares, add the path for those files shares to the Source
 Watcher Exclusions.
+:::
+
 
 ## NDC SQL Database
 

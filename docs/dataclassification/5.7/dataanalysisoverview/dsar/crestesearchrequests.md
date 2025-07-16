@@ -26,7 +26,7 @@ To create a search request:
     | Reference          | Specify additional references to identify an individual. You can add as many additional parameters as needed. For example: Customer reference, Account reference, Claim reference, Account number, etc.                                                                                                                                 |
     | Enable Date Search | Limit your search by specific date range.                                                                                                                                                                                                                                                                                               |
 
-\* - see Example
+**\* - see Example**
 
 **TIP:** After discussion with stakeholders and customers, it has become clear that many subject
 access requests (SARs) are initiated as a means of finding specific information (e.g. former

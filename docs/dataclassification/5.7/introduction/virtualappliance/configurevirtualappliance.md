@@ -30,7 +30,10 @@ Follow the steps below to configure your virtual appliance with Netwrix Data Cla
    appliances joined to domain) or local administrator credentials (for appliances joined to
    workgroup).
 
-    **NOTE:** Wait until virtual appliance configuration completes.
+    :::note
+    Wait until virtual appliance configuration completes.
+    :::
+
 
     For the first time, administrative web console starts automatically. Later, you can always open
     a web browser and navigate to the following URL: _http://localhost/conceptQS_.

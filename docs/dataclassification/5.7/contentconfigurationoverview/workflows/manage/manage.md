@@ -12,9 +12,12 @@ For that, in the administrative web console select Content from the top menu and
 
 ![workflows_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflows_thumb_0_0.webp)
 
-**NOTE:** To manage the automated workflows, users require sufficient access rights that are
+:::note
+To manage the automated workflows, users require sufficient access rights that are
 assigned based on either their Windows identity or using non-Windows based access controls. See
 "Users" for details on rights and permissions.
+:::
+
 
 - Click **Copy** if you want to copy the list content to the clipboard.
 - You can also export the list to **CSV** or **XLSX** file.
@@ -55,12 +58,18 @@ To delete a workflow, follow the steps described in the [Delete Workflow](/docs/
 5. If you want to create a copy of selected workflow, with all associated actions and conditions,
    click **Clone**, then enter the scope (group) and name for the new workflow.
 
-**NOTE:** Workflows within a generic group (scope) are cloned within the same group, source-specific
+:::note
+Workflows within a generic group (scope) are cloned within the same group, source-specific
 workflows can be copied within any groups of the same type. The clone workflow will be disabled by
 default.
+:::
+
 
 ![workflows_category_list_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflows_category_list_thumb_0_0.webp)
 
 To provide another name to a workflow, select it from the list and click **Rename**.
 
-**NOTE:** Workflow names must be unique within the group (scope).
+:::note
+Workflow names must be unique within the group (scope).
+
+:::

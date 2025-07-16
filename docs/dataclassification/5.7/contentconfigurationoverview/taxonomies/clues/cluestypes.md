@@ -59,7 +59,7 @@ The following special metadata fields can be used:
 
     For example:
 
-    text/\*pdf
+**text/\*pdf**
 
     application/pdf
 
@@ -81,7 +81,7 @@ The following special metadata fields can be used:
 
     For example:
 
-    CSE-FOLDERS=http://www.abc.com/jobs/
+**CSE-FOLDERS=http://www.abc.com/jobs/**
 
     matches: http://www.abc.com/jobs/123.txt and also http://www.abc.com/jobs/UK/123.txt
 
@@ -102,7 +102,7 @@ The following special metadata fields can be used:
 
     _CSE-FOLDER=http://www.abc.com/jobs/_
 
-    matches: http://www.abc.com/jobs/123.txt
+**matches: http://www.abc.com/jobs/123.txt**
 
     does not match: http://www.abc.com/jobs/UK/123.txt
 
@@ -123,11 +123,11 @@ The following special metadata fields can be used:
 - **CSE-TEXTLENGTH** - The length of the plain text extracted from the document, in characters. This
   field can only be matched using the equals, greater than or less than operators, for example:
 
-    CSE-TEXTLENGTH = 50000
+**CSE-TEXTLENGTH = 50000**
 
     CSE-TEXTLENGTH > 50000
 
-    CSE-TEXTLENGTH
+**CSE-TEXTLENGTH**
 
 - **CSE-TITLE** - The Title extracted from metadata.
 - **CSE-URL** - The document Url, including the filename (e.g.
@@ -166,7 +166,7 @@ sound similar will be matched. Phonetic clues do not use word stemming in the ma
 
 For example, the following clue:
 
-Intelligence Organisations in the Middle East
+**Intelligence Organisations in the Middle East**
 
 Would match any of the following:
 
@@ -207,7 +207,7 @@ This sample clue ensures that:
 Any regular expression matches found will be extracted and added to the NDC index automatically. For
 example, if we have a document that contains this text:
 
-Here is one SSN: 407-54-8831
+**Here is one SSN: 407-54-8831**
 
 And here is another 407-54-8832 in the middle of this sentence.
 
@@ -216,8 +216,11 @@ Then the following metadata entries will be generated automatically:
 - Regex-SSN:407-54-8831
 - Regex-SSN:407-54-8832
 
-**NOTE:** The example social security numbers above intentionally do not match the regular
+:::note
+The example social security numbers above intentionally do not match the regular
 expression.
+:::
+
 
 These can easily be viewed within the document “Info” popup on the “Metadata” tab (filtered to Regex
 values). The automatically generated metadata field name is a combination of the term name prefixed
@@ -249,7 +252,10 @@ engine includes a number of post match validation steps:
 
     Currently supported checks include: _Mod 97/10_, _Luhn_, _Verhoeff_
 
-    _Remember,_ If any validation check fails, then the regular expression result will be discarded.
+    :::tip
+        Remember, If any validation check fails, then the regular expression result will be discarded.
+    :::
+
 
 _Follow the steps to add a validation check._
 
@@ -278,9 +284,12 @@ Matches can be added by selecting the “Proximity Matches” link. Matches are 
 - Inclusion rules can now optionally apply a static boost to the score when they match. A boost will
   be applied for each matching inclusion rule.
 
-**NOTE:** This functionality is only available when utilising classification Engine v2. The
+:::note
+This functionality is only available when utilising classification Engine v2. The
 additional settings are also not currently available in SharePoint Term Sets (but can be linked via
 Term Boosts).
+:::
+
 
 Follow the steps to use **Proximity Match** feature.
 
@@ -300,8 +309,11 @@ Follow the steps to use **Proximity Match** feature.
   base regex might score 40 and the boost might score an extra 10 making a total of 50 points.
   However if the regex matches but the boost does not, it will still score 40 points.
 
-    **NOTE:** This option applies directly to the term/clue and cannot be used for the Term Boost
+    :::note
+    This option applies directly to the term/clue and cannot be used for the Term Boost
     calculation.
+    :::
+
 
     ![clues_regex_proximity](/img/product_docs/dataclassification/5.7/admin/taxonomies/clues_regex_proximity.webp)
 
