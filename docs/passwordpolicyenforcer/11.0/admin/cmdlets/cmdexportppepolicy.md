@@ -8,14 +8,17 @@ sidebar_position: 40
 
 The **Export-PPEPolicy** exports a Password Policy Enforcer policy to a file.
 
-**NOTE:** This cmdlet calls the **PPE Tool**. You must be an administrator to run this cmdlet. Start
+:::note
+This cmdlet calls the **PPE Tool**. You must be an administrator to run this cmdlet. Start
 PowerShell with the **Run as Administrator** option.
+:::
 
-SYNTAX
+
+**SYNTAX**
 
 **Export-PPEPolicy** -PolicyName `<_string_>` [__-File__ `<_string_>`] [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PolicyName** `<_string_>`
 
@@ -31,7 +34,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Export-PPEPolicy -PolicyName "Eval Policy" -File C:\ppe\EvalPolicy
 

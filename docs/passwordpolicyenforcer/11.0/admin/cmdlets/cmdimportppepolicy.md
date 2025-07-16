@@ -8,14 +8,17 @@ sidebar_position: 170
 
 The **Import-PPEPolicy** cmdlet imports a Password Policy Enforcer policy from a file.
 
-**NOTE:** This cmdlet calls the **PPE Tool**. You must be an administrator to run this cmdlet. Start
+:::note
+This cmdlet calls the **PPE Tool**. You must be an administrator to run this cmdlet. Start
 PowerShell with the **Run as Administrator** option.
+:::
 
-SYNTAX
+
+**SYNTAX**
 
 **Import-PPEPolicy** **-File**] `<_string_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-File** `<_string_>`
 
@@ -27,7 +30,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Import-PPEPolicy -File "C:\PPE\EvalPolicy"
 

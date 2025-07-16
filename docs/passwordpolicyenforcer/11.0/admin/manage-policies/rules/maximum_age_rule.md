@@ -24,7 +24,8 @@ required number of characters do not expire until the second (higher) days value
 values are identical, then passwords will expire after the specified number of days, irrespective of
 length.
 
-**NOTE:** When the Maximum Age rule is configured to delay the expiry of longer passwords, it
+:::note
+When the Maximum Age rule is configured to delay the expiry of longer passwords, it
 creates an Active Directory security group called "PPE Extended Maximum Age Users". Password Policy
 Enforcer uses this group to identify which users are eligible for a delayed password expiry. Users
 are added and removed from the group automatically. You can move and rename this group, but do not
@@ -33,6 +34,8 @@ name. Change a Password Policy Enforcer configuration setting (any setting) afte
 the group to trigger a cache update in Password Policy Enforcer. Password Policy Enforcer recreates
 this group if you delete it. To stop creating a group, make the two days values equal in all
 policies.
+:::
+
 
 Choose a value from the Mode drop-down list to specify how Password Policy Enforcer handles expired
 passwords. The Standard mode forces all users with expired passwords to change their password during
@@ -55,12 +58,15 @@ Users with expired passwords are always prompted to change their password, even 
 and Warning modes. Users can ignore the prompt to change their password unless they are being forced
 to change it.
 
-**NOTE:** The password expiry prompt is a Windows client feature, and is displayed even if the
+:::note
+The password expiry prompt is a Windows client feature, and is displayed even if the
 Password Policy Client is not installed. Windows clients display the prompt 5 days before passwords
 expire by default. You can alter this behavior in the Windows Group Policy security settings. See
 the
 [Interactive logon: Prompt user to change password before expiration](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/interactive-logon-prompt-user-to-change-password-before-expiration)
 Microsoft article for additional information.
+:::
+
 
 Password Policy Enforcer expires passwords at 1:00 AM every day on the domain controller holding the
 PDC emulator operations master role. It sets "User must change password at next logon" for users

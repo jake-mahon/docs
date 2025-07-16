@@ -8,12 +8,12 @@ sidebar_position: 20
 
 The **CopyPPEPolicy** cmdlet makes a copy of a PPE policy.
 
-SYNTAX
+**SYNTAX**
 
 **Copy-PPEPolicy -DestPolicyName** `<_string_>` **-SrcPolicyName** `<_string_>`
 [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-SrcPolicyName** `<_string_>`
 
@@ -29,7 +29,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Copy-PPEPolicy -s "Eval Policy" -d "User Policy"
 

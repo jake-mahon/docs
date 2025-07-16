@@ -10,8 +10,11 @@ The Compromised Password Checker finds compromised passwords. Users can be notif
 advised or forced to change their password. The check can be scheduled to check existing passwords
 against a compromised hash list at any time.
 
-**NOTE:** Create the **Compromised Passwords Base** file prior to enabling the Compromised Password
+:::note
+Create the **Compromised Passwords Base** file prior to enabling the Compromised Password
 Check. See the [HIBP Updater](/docs/passwordpolicyenforcer/11.0/installation/hibpupdater.md) topic for instructions.
+:::
+
 
 The Compromised Password Checker is launched from the Configuration Console:
 
@@ -53,12 +56,10 @@ complete. You can schedule it for off hours instead of running it now.
 
 Here is an example of the compromised passwords list:
 
-|                               |               |                                                |                   |                                                                                    |
-| ----------------------------- | ------------- | ---------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------- |
-| List of compromised passwords |               |                                                |                   |                                                                                    |
-| User                          | Account       | Sid                                            | Email             | Description                                                                        |
-| admin                         | Administrator | S-1-5-21-1006207104-1546379664-2458629591-500  |                   | Sending emails is not possible due to the lack of an email address in the account. |
-| user2                         | user2         | S-1-5-21-1006207104-1546379664-2458629591-1118 | user2@company.com | Email has been sent                                                                |
+|User  |  Account | Sid | Email | Description |
+| --- | --- | --- | --- | --- |
+| admin    | Administrator | S-1-5-21-1006207104-1546379664-2458629591-500  |      | Sending emails is not possible due to the lack of an email address in the account. |
+| user2   | user2  | S-1-5-21-1006207104-1546379664-2458629591-1118 | user2@company.com | Email has been sent  |
 
 #### Schedule the Compromised Password Check
 

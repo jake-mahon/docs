@@ -8,14 +8,14 @@ sidebar_position: 230
 
 The **Start-PPEHibpUpdater** cmdlet starts an update of the Hibp database.
 
-SYNTAX
+**SYNTAX**
 
 **Start-PPEHibpUpdater** [[__-Web__] `<_SwitchParameter_>`] **-Folder** `<_string_>` [__-File__
 `<_string_>`] **[-Inc** `<_SwitchParameter_>`]
 
 [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-Web** `<_SwitchParameter_>`
 
@@ -40,7 +40,7 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Start-PPEHibpUpdater -Folder "C:\HIBP\DB" -File "C:\Users\Administrator\Desktop\db for HIBP
 Updater not real small\stealthintercept-hibp-database-1.0.0.zip

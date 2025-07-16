@@ -8,11 +8,11 @@ sidebar_position: 190
 
 The **Set-PPEDefaultPolicy** cmdlet sets the Password Policy Enforcer policy as the default.
 
-SYNTAX
+**SYNTAX**
 
 **Set-PPEDefaultPolicy** **-PolicyName**] `<_string_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-PolicyName** `<_string_>`
 
@@ -24,8 +24,8 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Set-PPEDefaultPolicy -PolicyName "Eval Policy"
 
-Default policy : Eval Policy
+**Default policy : Eval Policy**

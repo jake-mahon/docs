@@ -8,11 +8,11 @@ sidebar_position: 200
 
 The **Set-PPEEnabled** cmdlet sets the enabled/disabled status for the PPE Server.
 
-SYNTAX
+**SYNTAX**
 
 **Set-PPEEnabled** **-Enable**] `<_int_>` [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-Enable** `<_int_>`
 
@@ -25,12 +25,12 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLES
+**EXAMPLES**
 
 PS C:\> Set-PPEEnabled -Enable 0
 
-Status PPE : Disabled
+**Status PPE : Disabled**
 
 PS C:\> Set-PPEEnabled -Enable 1
 
-Status PPE : Enabled
+**Status PPE : Enabled**

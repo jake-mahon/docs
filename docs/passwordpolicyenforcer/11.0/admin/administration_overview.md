@@ -19,7 +19,10 @@ not jeopardize network security.
 You can also use Password Policy Enforcer to ensure that passwords are compatible with other
 systems, and to synchronize passwords with other networks and applications.
 
-**NOTE:** The [Evaluate Password Policy Enforcer](/docs/passwordpolicyenforcer/11.0/evaluation/evaluation_overview.md) contains
+:::note
+The [Evaluate Password Policy Enforcer](/docs/passwordpolicyenforcer/11.0/evaluation/evaluation_overview.md) contains
 step-by-step instructions to help you quickly install, configure, and evaluate Password Policy
 Enforcer. Consider using the Evaluation Guide if you are using Password Policy Enforcer for the
 first time, prior to installing and deploying on your domains.
+
+:::

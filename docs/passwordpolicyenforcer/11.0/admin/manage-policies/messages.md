@@ -19,9 +19,12 @@ Password Policy Client messages.
 
     ![Messages](/img/product_docs/passwordpolicyenforcer/11.0/administration/mesages2.webp)
 
-    **NOTE:** Start each custom message with two spaces, a hypen, and a space before your message so
+    :::note
+    Start each custom message with two spaces, a hypen, and a space before your message so
     the X and checks can appear for the rule. For example: " **- Include an upper case alpha
     character.**" The quotes are only there to illustrate the message.
+    :::
+
 
 - Rejection Reason – Displays why an intended password was rejected on clients that have the Netwrix
   Password Policy Enforcer Client installed
@@ -56,5 +59,8 @@ Reason, and Generic rejection messages for any of the components you want to use
 **Step 7 –** Click **Save** and review your changes in the Preview area. Click **Save** f you edit
 the message.
 
-**NOTE:** If you do not see the **Preview**, contact your network administrator to set up the
+:::note
+If you do not see the **Preview**, contact your network administrator to set up the
 firewall to allow Password Policy Enforcer to communicate.
+
+:::

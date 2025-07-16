@@ -8,12 +8,12 @@ sidebar_position: 110
 
 The **Get-PPEPasswordTest** cmdlet runs the Password Policy Enforcer password test for a user.
 
-SYNTAX
+**SYNTAX**
 
 **Get-PPEPasswordTest** **-Password** `<_string_>` **-Username** `<_string_>` [__-OldPassword__
 `<_string_>`] [`<_CommonParameters_>`]
 
-PARAMETERS
+**PARAMETERS**
 
 **-Password** `<_string_>`
 
@@ -33,11 +33,11 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 **ErrorVariable**, **WarningAction**, **WarningVariable**, **OutBuffer**, **PipelineVariable**, and
 **OutVariable**. For more information, see [about_CommonParameters](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5).
 
-EXAMPLE
+**EXAMPLE**
 
 PS C:\> Get-PPEPasswordTest -Password qwerty -User PPETestUser
 
-Assigning default policy "Eval Policy"
+**Assigning default policy "Eval Policy"**
 
 Log
 

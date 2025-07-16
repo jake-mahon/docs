@@ -151,8 +151,11 @@ context menu items are also available when you are editing a policy.
 users who do not have a specific policy assigned. **Default** is indicated in the policy list. The
 context menu changes to **Remove Default**.
 
-**NOTE:** If you assign a different policy as the default you are prompted that an existing default
+:::note
+If you assign a different policy as the default you are prompted that an existing default
 is set.
+:::
+
 
 ## Rename
 
@@ -188,8 +191,11 @@ specified.
 **Step 3 –** Assign this policy to the users who do not have to comply with any Password Policy
 Enforcer rules.
 
-**CAUTION:** If Password Policy Enforcer has only one policy and that policy is also the default
+:::warning
+If Password Policy Enforcer has only one policy and that policy is also the default
 policy, then Password Policy Enforcer enforces the policy for all users.
+:::
+
 
 The Password Policy Client and Password Policy Server communicate over UDP port 1333 by default. If
 you need to change the default port, then type the new port number in the **Password Policy Server
