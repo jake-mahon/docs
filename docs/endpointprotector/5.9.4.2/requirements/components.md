@@ -66,7 +66,7 @@ The Data Loss Prevention (DLP) Admin manages the entire Endpoint Protector infra
 configure policies, monitor endpoint activity, and address potential data breaches. The admin uses
 the server’s interface to adjust security rules and respond to incidents as they occur.
 
-DLP Users (LAN and Remote):
+**DLP Users (LAN and Remote):**
 
 - LAN Users – These internal users are connected to the organization’s Local Area Network (LAN), and
   their devices are monitored by the Endpoint Protector server to prevent unauthorized data

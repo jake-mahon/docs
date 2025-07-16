@@ -78,6 +78,4 @@ step. Click **Next**.
 ![Connect network settings](/img/product_docs/endpointprotector/5.9.4.2/install/networkconnect.webp)
 
 **Step 13 –** On the Completing Import Wizard step, check that the settings are the ones wanted.
-Click **Finish**.
-
-The new Virtual Machine will display in the Virtual Machines list.
+Click **Finish**. The new Virtual Machine will display in the Virtual Machines list.
