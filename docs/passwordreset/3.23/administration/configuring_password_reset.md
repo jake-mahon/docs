@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Configuring Password Reset
 
-Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console**on the Password Reset
+Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console** on the Password Reset
 Server computer to open the Configuration Console.
 
 ## General Tab
@@ -33,9 +33,12 @@ Follow the steps below to add a domain to the list.
 
 **Step 3 –** Click **OK**, and then click **Apply**.
 
-**NOTE:** The most frequently used domain should be first in the list as it will be the default. You
+:::note
+The most frequently used domain should be first in the list as it will be the default. You
 can rearrange the domains by dragging them to another position. You can also click Sort to sort them
 alphabetically.
+:::
+
 
 Remove a Domain from the list
 
@@ -87,7 +90,7 @@ Password Reset is a configurable password filter that enforces granular password
 advanced features. Password Reset can integrate with Password Policy Enforcer to help users choose a
 compliant password.
 
-![configuring_apr_1](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+![configuring_apr_1](/img/product_docs/passwordreset/3.23/administration/change.webp)
 
 Password Reset displays the Password Policy Enforcer policy message when users are prompted for
 their new password, and the Password Policy Enforcer rejection message if the new password does not
@@ -105,13 +108,14 @@ more detailed Rejection message when this registry value is set. Users may also 
 policy, or no policy enforced if the queried server is not a domain controller in the user's
 domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
-firewall rules to open this port. See the
-[Creating Firewall Rules for the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#creating-firewall-rules-for-the-ppc)
-topic for more information.
+firewall rules to open this port. 
 
-**NOTE:** Password Policy Enforcer is not included with Password Reset. Go to
+:::note
+Password Policy Enforcer is not included with Password Reset. Go to
 [www.netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to
 learn more about Password Policy Enforcer.
+:::
+
 
 ## Enroll Tab
 
@@ -148,10 +152,13 @@ Follow the steps below to remove a question from the list.
 
 **Step 4 –** Click **Apply**.
 
-**NOTE:** You can rearrange questions by dragging them. You can also replace question lists with
+:::note
+You can rearrange questions by dragging them. You can also replace question lists with
 text boxes so users can enter their own questions. See the
 [Editing the HTML Templates](/docs/passwordreset/3.23/administration/editing_the_html_templates.md)
 document for more information
+:::
+
 
 ### Options
 
@@ -184,8 +191,11 @@ Select the **Save e-mail to a pickup folder** option if APR should save e-mails 
 delivery by a mail server. Click **Browse...** to select a folder. The mail server must monitor this
 folder for new e-mail.
 
-**NOTE:** Saving e-mail to a pickup folder is the fastest and most reliable delivery method. Use
+:::note
+Saving e-mail to a pickup folder is the fastest and most reliable delivery method. Use
 this option if your mail server supports pickup folders.
+:::
+
 
 ### Triggers
 
@@ -209,9 +219,12 @@ use these macros.
 | [AD_OR_APR_EMAIL] | The e-mail address in AD, or the e-mail address in Password Resetif the AD address is blank   |
 | [APR_OR_AD_EMAIL] | The e-mail address in APR, or the e-mail address in AD if the Password Reset address is blank |
 
-**NOTE:** Use [APR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail
+:::note
+Use [APR_OR_AD_EMAIL] with caution as Password Reset does not check the validity of e-mail
 addresses. If the e-mail address in Password Reset's database is no longer valid, then the alert is
 only sent to the invalid address.
+:::
+
 
 Type additional recipient e-mail addresses in the **Bcc** text box if you want to send any blind
 carbon copies. Separate multiple recipients with a semicolon.
@@ -241,13 +254,16 @@ understand their e-mail alerts.
 
 ![configuring_apr_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_5.webp)
 
-**CAUTION:** An attacker may choose a specific language to avoid detection. E-mail alerts are sent
+:::warning
+An attacker may choose a specific language to avoid detection. E-mail alerts are sent
 in the Web Interface language chosen by the attacker if the target user has not enrolled or changed
 their password with Password Reset. The target user will receive the e-mail alerts, but they may not
 understand them. Use the Rest API to remind new users to enroll so their preferred language is known
 to Password Reset. See the
 [Enabling the API](/docs/passwordreset/3.23/administration/persuading_users_to_enroll.md#enabling-the-api)
 topic for additional information.
+:::
+
 
 ## Verification Tab
 
@@ -356,10 +372,13 @@ The user's Active Directory mobile phone number is read from the mobile attribut
 **AD Attribute** if you want to use a phone number from a different attribute. Type the name of the
 attribute, and then click **OK**.
 
-**NOTE:** Use a script to perform additional processing before sending the SMS. For example, a
+:::note
+Use a script to perform additional processing before sending the SMS. For example, a
 script could read the user's phone number from a database, or send a language-specific SMS based on
 the value of the [LANG] macro. Put the path of the scripting engine executable in the **Command**
 text box, and the path to the script file and other parameters in the **Parameters** text box.
+:::
+
 
 ![configuring_apr_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_7.webp)
 
@@ -398,12 +417,15 @@ them from resetting a recently changed password.
 Users whose passwords are set to never expire in Active Directory will not be forced to change their
 password during logon, even if this check box is selected.
 
-**NOTE:** Password Policy Enforcer's History rule is enforced for password resets if the **Enforce
+:::note
+Password Policy Enforcer's History rule is enforced for password resets if the **Enforce
 policy when password is reset** check box is selected in the PPS properties page, and if the
 **Enforce this rule when a password is reset** check box is selected in the History rule's
 properties page. Netwrix Password Policy Enforcer does not enforce the Minimum Age rule for password
 resets. See the [Netwrix Password Policy Enforcer](#netwrix-password-policy-enforcer) topic for
 additional information.
+:::
+
 
 Users may try to evade the password history policy by resetting their password several times in
 quick succession to push a password off the password history list. Select a value from the
@@ -426,9 +448,12 @@ the lockout feature. Incorrect verification codes are counted as incorrect answe
 users if they enter too many incorrect verification codes** check box is selected on the
 **Verification** tab.
 
-**NOTE:** Locked out users must re-enroll before they can use Password Reset to reset their password
+:::note
+Locked out users must re-enroll before they can use Password Reset to reset their password
 or unlock their account. The incorrect answer count is reset when a user enrolls, or answers all
 questions during a reset or unlock.
+:::
+
 
 ## Permissions Tab
 
@@ -466,6 +491,9 @@ key.
 To install a new license key, copy the entire license e-mail to the clipboard, and then click Get
 license from clipboard.
 
-**NOTE:** Password Reset includes a 30-day evaluation license for up to 50 users. Please contact
+:::note
+Password Reset includes a 30-day evaluation license for up to 50 users. Please contact
 Netwrix support[ ](mailto:support@anixis.com)if you would like to evaluate Password Reset with more
 than 50 users.
+
+:::

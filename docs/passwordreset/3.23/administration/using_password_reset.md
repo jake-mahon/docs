@@ -18,16 +18,19 @@ example: `http://[server]/pwreset/apr.dll? cmd=enroll&username=maryjones&domain=
 
 Where [server] is the name or IP address of the server hosting the Web Interface.
 
-![using_apr](/img/product_docs/passwordreset/3.23/administration/using_apr_1.webp)
+![using_apr](/img/product_docs/passwordreset/3.23/administration/using_apr.webp)
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are
 explained on the following pages.
 
-**CAUTION:** The connection between the Web Interface and Password Reset Server is always encrypted.
+:::warning
+The connection between the Web Interface and Password Reset Server is always encrypted.
 Install an SSL certificate on the web server and use HTTPS to encrypt connections from the browser
 to the web server. See the
 [Installing and Using an SSL Certificate](/docs/passwordreset/3.23/administration/securing_password_reset.md#installing-and-using-an-ssl-certificate)
 topic for more information.
+:::
+
 
 ## Enroll
 
@@ -57,9 +60,12 @@ each question in the **Answer** text boxes.
 
 **Step 5 –** Click **Next**, and then click **OK** to return to the menu.
 
-**NOTE:** Windows increments the bad password count in Active Directory when a user tries to enroll
+:::note
+Windows increments the bad password count in Active Directory when a user tries to enroll
 with an incorrect password. This may trigger a lockout if the Windows account lockout policy is
 enabled.
+:::
+
 
 ## Reset
 
@@ -119,10 +125,13 @@ phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
 **Step 5 –** Click **OK** to return to the menu.
 
-**NOTE:** The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
+:::note
+The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
 Password Reset should re-enroll to gain access to Password Reset. See the
 [Lockout](/docs/passwordreset/3.23/administration/configuring_password_reset.md#lockout)
 and [Enroll](#enroll) topics for more information.
+:::
+
 
 ## Change
 
@@ -143,9 +152,12 @@ Follow the steps below to change an account password.
 
 **Step 4 –** Click **OK** to return to the menu.
 
-**NOTE:** Windows increments the bad password count in Active Directory when a user tries to change
+:::note
+Windows increments the bad password count in Active Directory when a user tries to change
 their password with an incorrect password. This may trigger a lockout if the Windows account lockout
 policy is enabled.
+:::
+
 
 ## Error Messages
 

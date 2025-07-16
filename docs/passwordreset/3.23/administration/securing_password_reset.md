@@ -20,7 +20,10 @@ server. See the
 [Password Reset Client](/docs/passwordreset/3.23/administration/password_reset_client.md)
 topic for more information.
 
-**CAUTION:** Do not use Password Reset on a production network without SSL encryption.
+:::warning
+Do not use Password Reset on a production network without SSL encryption.
+:::
+
 
 You can use a self-signed certificate with Password Reset, but most organizations purchase
 certificates from a certificate authority. You can install the Web Interface on a server that
@@ -33,11 +36,14 @@ below.
 - [http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis](http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis)
 - [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx)
 
-**NOTE:** Ensure that users only access Password Reset over an encrypted connection after the SSL
+:::note
+Ensure that users only access Password Reset over an encrypted connection after the SSL
 certificate is installed. The Start address and Restricted path in the Password Reset Client
 configuration should start with https://. Web browsers can be redirected to the secure URL. See the
 [Configuring the PRC](/docs/passwordreset/3.23/administration/password_reset_client.md#configuring-the-prc)
 topic for more information.
+:::
+
 
 ## Delegating Permissions to the Netwrix Password Reset Server Service
 
@@ -110,7 +116,10 @@ name of the service account in user@domain or domain\user format.
 The DN of the AdminSDHolder container for the anixis.net domain is
 CN=AdminSDHolder,CN=System,DC=anixis,DC=net
 
-**NOTE:** Changes to the AdminSDHolder container are not applied to accounts immediately. You may
+:::note
+Changes to the AdminSDHolder container are not applied to accounts immediately. You may
 need to wait up to an hour for Windows to update the DACL for these accounts. You can also start the
 process manually. Search for runProtectAdminGroupsTask or FixUpInheritance in Microsoft's
 documentation or more information.
+
+:::

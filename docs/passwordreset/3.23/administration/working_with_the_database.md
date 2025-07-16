@@ -56,9 +56,12 @@ reset\aprlog.bak"
 
 net start "ANIXIS Password Reset"
 
-**NOTE:** Change the paths above if the database files are in a different folder. See the
+:::note
+Change the paths above if the database files are in a different folder. See the
 [Database](/docs/passwordreset/3.23/administration/configuring_password_reset.md#database)
 topic for more information.
+:::
+
 
 **Restoring database from backup**
 
@@ -74,9 +77,12 @@ Follow the steps below to restore the database files from a backup.
 
 **Step 5 –** Start the **ANIXIS Password Reset** service.
 
-**CAUTION:** apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to
+:::warning
+apr.sdf contains hashes of the user answers. The hashes are salted and encrypted to
 protect them from attack, but you should still ensure that this file and all backup copies are
 stored securely.
+:::
+
 
 ## Moving to SQL Server
 

@@ -19,5 +19,8 @@ page for the current tab.
 Configuration changes are applied when you click **Apply** or **OK**. Clicking **OK** also closes
 the Configuration Console.
 
-**NOTE:** Password Reset includes a 30-day evaluation license for up to 50 users. Please contact
+:::note
+Password Reset includes a 30-day evaluation license for up to 50 users. Please contact
 Netwrix support if you would like to evaluate Netwrix Password Reset with more than 50 users.
+
+:::
