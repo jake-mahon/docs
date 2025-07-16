@@ -21,10 +21,13 @@ It contains five pages:
        provides one of the following access levels to a specific resource: Read, Modify, or Full
        Control.
 
-    **NOTE:** This feature requires the Access Information Center is to be configured to commit
+    :::note
+    This feature requires the Access Information Center is to be configured to commit
     changes in Active Directory. Additionally, resource based groups must be set up on the resource.
     See the [Commit Active Directory Changes](/docs/accessinformationcenter/12.0/admin/additionalconfig/commitchanges.md) topic
     for additional information.
+    :::
+
 
 -   5. Summary — This page provides a preview of the settings selected within the wizard
 

@@ -26,9 +26,12 @@ collection query:
 - SQL – Configure this option for the 3-SQL_SensitiveDataScan job on the Options page of the query
   configuration wizard
 
-**NOTE:** Only Access Information Center users with either the Security Team role or the Console
+:::note
+Only Access Information Center users with either the Security Team role or the Console
 Administrator role will be able to perform Sensitive Data Discovery criteria searches. Reports are
 blank for Access Information Center users with the Reader role.
+:::
+
 
 The Sensitive Content report identifies where potentially sensitive data has been found across the
 scanned targeted environments.

@@ -14,8 +14,11 @@ It contains two pages:
 
 -   1. Select Resource — Select the resource or group
 
-    **NOTE:** Only those resources or groups being managed through the Access Information Center
+    :::note
+    Only those resources or groups being managed through the Access Information Center
     will be available for access requests.
+    :::
+
 
 -   2. Add Notes — Allows you to enter a note explaining why the request is being made
 
@@ -39,9 +42,12 @@ browse options.
     - For groups and distribution lists, enter the group name. To focus on a particular domain or
       filter the search field to groups which reside in a particular domain, enter the domain name.
 
-    _Remember,_ it is possible that the resource may not be managed by the Access Information
+    :::tip
+        Remember, it is possible that the resource may not be managed by the Access Information
     Center. Contact the Request Administrator if the desired resource does not come up with search
     filters.
+    :::
+
 
 - Browse option – Navigate through the table to select the desired resource. The table will display
   the following information:
@@ -58,9 +64,12 @@ browse options.
     - Granted – Indicates your current access
     - Description – Resource description as provided by the resource owner
 
-    **NOTE:** When there are more than 100 rows of resources available for access request, this page
+    :::note
+    When there are more than 100 rows of resources available for access request, this page
     will only load 100 rows of data. You will be able to search for a specific resource that is not
     showing in the current view.
+    :::
+
 
 **Step 3 –** Select the resource in the table. If there are multiple access levels available, as
 indicated by the green plus (+) button, click the button to rotate through and select the desired
@@ -83,9 +92,12 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 - Temporary Access — _(Optional)_ If only temporary access is required, select the checkbox, click
   **Set Date** and select an expiration date. The owner of the resource can modify this date.
 
-    **NOTE:** When a user has temporary access already granted to a resource, and then requests a
+    :::note
+    When a user has temporary access already granted to a resource, and then requests a
     different type of access to the same resource with a different expiration date, once the new
     access is granted, the new expiration date supersedes the old date.
+    :::
+
 
 **Step 7 –** Click **Next** and the Access Information Center starts the action.
 

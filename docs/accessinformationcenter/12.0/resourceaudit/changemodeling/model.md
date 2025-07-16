@@ -65,8 +65,11 @@ window. Skip to Step 12.
 **Step 10 –** On the Remove Members page, the existing group members are listed. Select the desired
 members and click **Select**.
 
-**NOTE:** The number on the **View Removals** button changes to reflect the number of users
+:::note
+The number on the **View Removals** button changes to reflect the number of users
 selected.
+:::
+
 
 ![Members selected for removal window](/img/product_docs/accessinformationcenter/12.0/resourceaudit/changemodeling/membersforremoval.webp)
 

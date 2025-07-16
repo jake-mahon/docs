@@ -39,14 +39,20 @@ Documentation Manage group and grant it full control-access. Scan the host with 
 These groups can now be assigned as access groups for managing the Documentation share through the
 Access Information Center.
 
-_Remember,_ it is a best practice is to create at least two OUs for groups to be managed through the
+:::tip
+Remember, it is a best practice is to create at least two OUs for groups to be managed through the
 Access Information Center: a security group OU and a distribution list group OU. See the
 [Commit Active Directory Changes](/docs/accessinformationcenter/12.0/admin/additionalconfig/commitchanges.md) topic for additional
 information.
+:::
 
-**NOTE:** For SharePoint resources, the access groups must be Active Directory groups, not
+
+:::note
+For SharePoint resources, the access groups must be Active Directory groups, not
 SharePoint groups. The Access Information Center will not have the necessary permissions to make
 changes to the SharePoint groups.
+:::
+
 
 Access Analyzer jobs that must be run to collect data on new access groups:
 

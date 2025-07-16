@@ -16,30 +16,36 @@ folders, SharePoint sites, Active Directory (AD) groups, AD distribution lists, 
 Administrators groups. All data available within the Access Information Center is collected by
 Netwrix Access Analyzer (formerly Enterprise Auditor) according to the targeted environments.
 
-_Remember,_ Owners are assigned to resources in the Resource Owners interface. Only resources with
+:::tip
+Remember, Owners are assigned to resources in the Resource Owners interface. Only resources with
 assigned Owners can be included in a Resource Review.
+:::
 
-Who Can Run Resource Reviews (Review Administrators)?
+
+**Who Can Run Resource Reviews (Review Administrators)?**
 
 - Console Users with Administrator role
 
     - Can complete the Review Administrator's approval process without impacting the visibility into
       the review created by a Review Administrator with the Security Team role
 
-        **CAUTION:** Visibility into a review created by a Review Administrator with the Security
+        :::warning
+        Visibility into a review created by a Review Administrator with the Security
         Team role is blocked if a Review Administrator with the Administrator role starts a new
         instance.
+        :::
+
 
 - Console Users with Security Team role
 
     - Visibility into only those reviews personally created
 
-Who Participates in Resource Reviews?
+**Who Participates in Resource Reviews?**
 
 - Review Administrators — Create / start reviews and approve / process owner recommended changes
 - Owners — Perform reviews and recommend changes
 
-Types of Resource Reviews
+**Types of Resource Reviews**
 
 There are four types of reviews:
 
@@ -48,13 +54,16 @@ There are four types of reviews:
 - Permissions – Review trustee permissions to resources
 - Sensitive Data – Review files containing potentially sensitive data stored within resources
 
-**NOTE:** The Sensitive Data content within reports and reviews is visible to all users and roles.
+:::note
+The Sensitive Data content within reports and reviews is visible to all users and roles.
 The Matches table in the report will only be populated for Console User with Security Team and
 Administrator roles. This is also required for Sensitive Data reviews.
+:::
+
 
 See the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/resourcereviews/interface/interface.md) topic for additional information.
 
-Ignored Trustees
+**Ignored Trustees**
 
 Trustees added to the SA_AIC_ResourceReviewIgnoredTrustees database table are excluded from Access,
 Membership, and Permissions reviews. For Membership and Permissions reviews, trustees must be
@@ -69,9 +78,12 @@ Prerequisites:
 - The Access Information Center is configured to send Notifications. See the
   [Notifications Page](/docs/accessinformationcenter/12.0/admin/configuration/notifications.md) topic for additional information.
 
-    **NOTE:** By default, the application is configured to send notifications only to the primary
+    :::note
+    By default, the application is configured to send notifications only to the primary
     owner. However, this can be customized on the Configuration > Notifications page to send
     notifications to all assigned owners.
+    :::
+
 
 - Owners assigned to resources within the Resource Owners interface. See the
   [Resource Owners Overview](/docs/accessinformationcenter/12.0/resourceowners/overview.md) topic for additional information.
@@ -84,10 +96,13 @@ Prerequisites:
 
 Workflow:
 
-**_RECOMMENDED:_** When deploying the Access Information Center in an organization to process
+:::info
+When deploying the Access Information Center in an organization to process
 reviews, owners should be notified prior to launching the first set of reviews. See the
 [Notification to Owners](/docs/accessinformationcenter/12.0/resourceowners/overview.md#notification-to-owners) topic for additional
 information.
+:::
+
 
 **Step 1 –** Review Administrator creates a review or starts a new review instance. See the
 [Create Review Wizard](/docs/accessinformationcenter/12.0/resourcereviews/create/create.md) topic for additional information.

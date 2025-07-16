@@ -31,9 +31,12 @@ owner-recommended changes. If deselected, all items included in the review are d
 selecting the items with no changes in the grid, the change buttons at the bottom of the page are
 disabled.
 
-**CAUTION:** If the Access Information Center has been configured to commit Active Directory
+:::warning
+If the Access Information Center has been configured to commit Active Directory
 changes, clicking **Accept** will commit the changes if all prerequisite for the review type have
 been met.
+:::
+
 
 If the Access Information Center has been configured to commit Active Directory changes, the icon at
 the front of the Item Reviewed column is yellow. The selected action is automatically committed

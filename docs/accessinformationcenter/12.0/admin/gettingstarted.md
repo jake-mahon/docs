@@ -34,7 +34,10 @@ Next, configure the Access Information Center for your environment:
 
 Access Information Center users granted one of the available roles should be notified.
 
-**_RECOMMENDED:_** The notification should include:
+:::info
+The notification should include:
+:::
+
 
 - Why your organization is using the Access Information Center
 - What they will be doing in the Access Information Center
@@ -82,7 +85,10 @@ workflow consists of:
 - Owner Performs Review — Owners process the review, potentially recommending changes
 - Review Administrator Approval — Review and process owner recommended changes
 
-**_RECOMMENDED:_** Set expectations for response time from owners.
+:::info
+Set expectations for response time from owners.
+:::
+
 
 Reviews can be run multiple times, maintaining a historical record for each instance. See the
 [Resource Reviews Overview](/docs/accessinformationcenter/12.0/resourcereviews/overview.md) topic for additional information.
