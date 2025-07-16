@@ -19,7 +19,7 @@ It contains four pages:
 - Configure Id Mapping
 - Test Logout
 
-## Configure OpenID Connect Authentication Connector
+## Configure SAML Authentication Connector
 
 Follow the steps to verify the SAML configuration:
 

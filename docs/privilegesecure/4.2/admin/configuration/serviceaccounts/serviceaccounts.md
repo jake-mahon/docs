@@ -76,6 +76,6 @@ The selected service account details display at the top of the main pane:
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
 commit the modifications. Click **Cancel** to discard the modifications.
 
-Th "Service Account is Managed by Privilege Secure when the account has been configured to be
+The Service Account is Managed by Privilege Secure when the account has been configured to be
 managed by the application. See the [Credentials Page](/docs/privilegesecure/4.2/admin/interface/credentials/credentials.md) topic for
 additional information.

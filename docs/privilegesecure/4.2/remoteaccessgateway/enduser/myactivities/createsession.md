@@ -20,8 +20,9 @@ Follow the steps to create an activity session.
 - If the Activity is assigned to more than one resource, the Activity card will display the number
   of resources; selecting **Create Session** from the session ribbon will open the Configure Session
   window.
-- **CAUTION:** If your license is expired and you can still log in, you will not be able to create
-  activity sessions.
+:::warning
+If your license is expired and you can still log in, you will not be able to create activity sessions.
+:::
 
 ![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
 

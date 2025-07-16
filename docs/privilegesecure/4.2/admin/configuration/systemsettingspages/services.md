@@ -21,12 +21,6 @@ Netwrix Privilege Secure. It is important to ensure the Binding Hostname in IIS,
 Subject, and the NPS Rest URL value in the Services page exactly match.
 :::
 
-
-:::note
-
-:::
-
-
 The Services Settings page has the following features:
 
 - NPS Rest URL — The full qualified domain name (FQDN) of the new IIS web certificate

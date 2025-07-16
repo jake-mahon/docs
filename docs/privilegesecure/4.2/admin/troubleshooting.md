@@ -136,7 +136,7 @@ To avoid this warning you can set the certificate thumbprint value to identify a
 certificate for Netwrix Privilege Secure. Signing the RDP file with this trusted certificate will
 resolve the trust problem with RDP files.
 
-Obtain a Certificate Thumbprint
+**Obtain a Certificate Thumbprint**
 
 To obtain the certificate thumbprint, open the Certificates snap-in. From there, the certificate
 thumbprint can be found in the local computer's certificates store on the Netwrix Privilege Secure
@@ -164,7 +164,7 @@ additional information.
 The Netwrix Privilege Secure session has been authenticated. Update the GPO to include the SHA1
 thumbprint of the signed certificate to ensure the unknown publisher warning disappears completely.
 
-Update Group Policy settings in Windows
+**Update Group Policy settings in Windows**
 
 Follow the steps below to update the GPO to include the SHA1 thumbprint of the signed certificate to
 ensure the unknown publisher warning disappears completely.

@@ -24,8 +24,8 @@ separated by “+” to the appropriate port on the proxy:
   domain\username, user@domain, user@domain.suffix
 - Activity – The activity to perform
 - Resource – The DNS host name of the resource to run the activity on
-- **Access Policy (optional)** – The Access Policy to invoke (if more than one)
-- **Notes (optional)** – User notes about the session
+- Access Policy (optional) – The Access Policy to invoke (if more than one)
+- Notes (optional) – User notes about the session
 
 Connection String Format:
 
@@ -33,19 +33,19 @@ Connection String Format:
 
 Connection String Example:
 
-Netwrix\JonSmith+Local Admin+SQL1.netwrix.com
+`Netwrix\JonSmith+Local Admin+SQL1.netwrix.com`
 
-JonSmith@netwrix.com+Local_Admin+SQL1.netwrix.com
+`JonSmith@netwrix.com+Local_Admin+SQL1.netwrix.com`
 
 Note that some clients require you to use the _“_”\_ (underscore) character as a replacement for a
 space in Activity names that are made up of multiple words, for example:
 
-Netwrix\JonSmith+Add_to_Local_Administrators+SQL1
+`Netwrix\JonSmith+Add_to_Local_Administrators+SQL1`
 
 If you wish to add notes, make sure to add the appropriate number of “+” delimiters if you are not
 defining an access policy:
 
-Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance
+`Netwrix\JonSmith+Local Admin+SQL1.netwrix.com++Server Maintenance`
 
 ## PuTTY (SSH)
 
@@ -59,7 +59,7 @@ Host Name Format:
 
 Host Name Example:
 
-- Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost
+- `Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost`
 
 Port:
 
@@ -78,7 +78,7 @@ Remote Host Format:
 
 Resource Host Example:
 
-Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost
+`Netwrix\JonSmith+rootAccess+centos1.lab.local@sbpamhost`
 
 Port:
 
@@ -102,7 +102,7 @@ Remote Host:
 
 Example:
 
-sbpamhost
+`sbpamhost`
 
 Username:
 
@@ -110,7 +110,7 @@ Username:
 
 Example:
 
-Netwrix\JonSmith+LocalAdmin+sql1
+`Netwrix\JonSmith+LocalAdmin+sql1`
 
 Port:
 
@@ -134,7 +134,7 @@ Computer:
 
 **Example:**
 
-Sbpamhost:4489
+`Sbpamhost:4489`
 
 User Name Format:
 
@@ -142,7 +142,7 @@ User Name Format:
 
 User Name Example:
 
-- Netwrix\JonSmith+LocalAdmin+sql1
+- `Netwrix\JonSmith+LocalAdmin+sql1`
 
 If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the
 Configure Remote Desktop Connection to Prompt for Password topic for additional information.
@@ -160,7 +160,7 @@ Server name:
 
 Server name example:
 
-Sbpamhost:4489
+`Sbpamhost:4489`
 
 User Name Format:
 
@@ -173,11 +173,11 @@ The user name starts with \_\_ (back slash).
 
 User Name Example:
 
-\Netwrix\JonSmith+LocalAdmin+sql1
+`\Netwrix\JonSmith+LocalAdmin+sql1`
 
 Server Name/Port:
 
-localhost:4489
+`localhost:4489`
 
 If there is no password prompt when executing an RDP shortcut, change the GPO setting. See the
 Configure Remote Desktop Connection to Prompt for Password topic for additional information.
