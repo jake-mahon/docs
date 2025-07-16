@@ -1,7 +1,7 @@
 ---
 title: "What is Documented"
 description: "What is Documented"
-sidebar_position: 20
+sidebar_position: 5
 ---
 
 # What is Documented
