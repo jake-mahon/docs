@@ -72,7 +72,7 @@ to exclude specific file system paths from being locked down.
 
 ![Policy window - File System filter for lockdown](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystemlockdown.webp)
 
-Access Operations area
+**Access Operations area**
 
 In the Access Operations area, check the **All** box at the top to include all operations or select
 specific operations:
@@ -83,13 +83,13 @@ specific operations:
 - Delete
 - Rename
 
-Permissions area
+**Permissions area**
 
 In the Permissions area, select the following option to block changes to the ACL or DACL:
 
 - Security Descriptor
 
-I/O Type area
+**I/O Type area**
 
 In the I/O Type area, check the **All** box at the top to include all types or select specific
 types:
@@ -103,7 +103,7 @@ types:
 
   - Only applies to Read and Create Access Operations
 
-Paths and Path Collections areas
+**Paths and Path Collections areas**
 
 The Paths section defines the top level folder or individual files for lockdown. Use the buttons in
 the Paths and Path Collections areas to edit the lists.
@@ -122,7 +122,7 @@ for additional information.
 :::
 
 
-Sub Folder
+**Sub Folder**
 
 ![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
 

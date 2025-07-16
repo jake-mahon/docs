@@ -15,7 +15,7 @@ Click the gear icon next to the Search box to open the Settings interface.
 The More information link opens the IBM Knowledge Center with information on generating the QRadar
 SEC token. Once the token is generated, copy and paste it here and click Save.
 
-Honey Accounts
+**Honey Accounts**
 
 An additional feature is to add Honey Accounts to be monitored.
 

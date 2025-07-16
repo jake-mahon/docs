@@ -60,7 +60,7 @@ You can add the Password Enforcement event type multiple times to a policy or cr
 policies to define different sets of password rules, and different sets of Active Directory accounts
 and/or Active Directory Perpetrators.
 
-Example
+**Example**
 
 The goal is to create a password enforcement policy for the organization’s users. However, senior
 executives require a different or stronger set of password rules. To achieve this goal, you can
@@ -146,14 +146,14 @@ for additional information.
 :::
 
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
 
-Block if user's group(s) is not resolved checkbox
+**Block if user's group(s) is not resolved checkbox**
 
 When applying EPE rules based on group membership, it may happen that at runtime, Threat Prevention
 cannot determine the groups the user making a password change is a member of. It is here that the
@@ -262,7 +262,7 @@ the 13 possible "Character Rules" enforced. Here is how you handle this.
 
 The different sections on the Password Rules filter are discussed below.
 
-Mode Section
+**Mode Section**
 
 Select the **Monitoring** or **Blocking** button to monitor or block the event when a password fails
 any of the checked criteria of the Password Rules filter.
@@ -276,7 +276,7 @@ Use the Test Password Rules button to open the
 :::
 
 
-Passwords Section
+**Passwords Section**
 
 These settings authenticate passwords against a default `dictionary.dat` file of known weak and/or
 compromised passwords. Additional passwords can be manually added or uploaded via a TXT file.
@@ -300,7 +300,7 @@ dictionary but you can remove all others if you do not want the default entries 
   the rejected password values in the Attributes section of the data grids on the Recent Events tab
   and the Investigate interface.
 
-Pwned DB Section
+**Pwned DB Section**
 
 When a password is changed, this setting authenticates pending user password hashes against the Have
 I Been Pwned? database, which contains compromised password hashes from world-wide data breaches.
@@ -315,7 +315,7 @@ stored, Agent(s) can be configured to obtain and use a local copy of this databa
 :::
 
 
-Paraphrase section
+**Paraphrase section**
 
 This setting passes a candidate password if it is a paraphrase with more than X characters (where X
 is a number you can specify). Any other rules enabled on the Password Rules filter are ignored.
@@ -332,7 +332,7 @@ equal to the minimum number of required characters.
 :::
 
 
-Character Substitution Section
+**Character Substitution Section**
 
 These settings prevent the use of character substitutions in passwords. They ignore or monitor/block
 certain types of characters substitutions from being included in a password string. Additional
@@ -351,7 +351,7 @@ scoping can be enabled:
   - Case sensitive – Differentiates between lowercase and capital text
   - Reversed text also – Password patterns typed in backwards is blocked
 
-Username in Password Section
+**Username in Password Section**
 
 These settings ignore or monitor/block certain types of usernames from being included in a password
 string. If the corresponding string value is less than the number chosen in the “Ignore values less
@@ -378,7 +378,7 @@ When a username format is chosen, additional scoping options are available:
   [Substitutions Editor Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#substitutions-editor-window)
   topic for additional information.
 
-Repeating Patterns Section
+**Repeating Patterns Section**
 
 These settings prevent individual repeating character patterns. Any passwords that contain repeating
 patterns equal or exceeding the chosen minimum pattern length are blocked. Additional scoping can be
@@ -398,7 +398,7 @@ enabled:
     [Substitutions Editor Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#substitutions-editor-window)
     topic for additional information.
 
-Sequential Characters Section
+**Sequential Characters Section**
 
 These settings prevent passwords with numbers or characters that follow each other in sequence. Any
 sequence that equals or exceeds the number chosen in the Minimum sequence size textbox is blocked.
@@ -419,7 +419,7 @@ Additional scoping can be enabled:
     [Substitutions Editor Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#substitutions-editor-window)
     topic for additional information.
 
-Defined Text Section
+**Defined Text Section**
 
 These settings block passwords that contain the string(s) specified in the text box. For multiple
 strings, add one entry per line.
@@ -446,7 +446,7 @@ Additional scoping can be enabled:
     [Substitutions Editor Window](/docs/threatprevention/7.5/admin/configuration/epesettings.md#substitutions-editor-window)
     topic for additional information.
 
-Keyboard Layout Sequence Section
+**Keyboard Layout Sequence Section**
 
 These settings prevent passwords that align with the order of keys on a keyboard. Any sequence that
 equals or exceeds the number chosen in the Minimum sequence size textbox is blocked. Additional
@@ -457,12 +457,12 @@ scoping can be enabled:
 - Minimum sequence size – Type or use the arrows to choose the number of characters the filter will
   count up to. The default is three.
 
-  For Example: “QWERTY” is blocked, “ADGJL” is allowed
+**For Example: “QWERTY” is blocked, “ADGJL” is allowed**
 
   - Reverse order also – Standard order is reversed and blocked in keeping with the minimum
     sequence size.
 
-Character Rules Section
+**Character Rules Section**
 
 These settings work independently of one another. This filter looks for specific rules or
 characteristics within a password to be blocked or allowed. Additional scoping can be enabled:
@@ -503,7 +503,7 @@ meet the range requirements, it is blocked.
 - Symbol characters
 - Special Unicode characters
 
-Optional Rules Section
+**Optional Rules Section**
 
 These settings enable you to enforce all or X number of rules that a candidate password must pass.
 

@@ -68,7 +68,7 @@ for additional information.
 :::
 
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
@@ -85,7 +85,7 @@ Filter statements can be added to the Include condition and Exclude condition bo
 pre-defined logical and comparison operators to create filter criteria for the scan. You can add
 conditions to a filter statement. Conditions can be singular or grouped by a logical operator.
 
-Logical Operator
+**Logical Operator**
 
 The logical operator is displayed as left aligned red text. To change the logical operator, click on
 it to open a menu with the following options:
@@ -95,21 +95,21 @@ it to open a menu with the following options:
 - Not And
 - Not Or
 
-Add icon (+)
+**Add icon (+)**
 
 To apply more filters to the set or start a new group of filters, click the **Add** (+) icon. A new
 row is inserted that displays a column (attribute), a comparison operator, and a Value box.
 
-Column Selection
+**Column Selection**
 
 The selected column is displayed in blue text. Click on it to open a menu with all available columns
 from the GPO Setting Changes Recent Events data grid.
 
-Comparison Operator
+**Comparison Operator**
 
 The comparison operator is displayed in green text. To change it, click on it to open a menu with
 options that associate with the data in the GPO Setting Changes Recent Events data grid.
 
-Filter Criteria
+**Filter Criteria**
 
 Specify a filter criteria into the `<enter a value>` textbox.

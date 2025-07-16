@@ -64,7 +64,7 @@ for additional information.
 :::
 
 
-Sub Folder
+**Sub Folder**
 
 ![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
 

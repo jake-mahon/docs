@@ -8,14 +8,14 @@ sidebar_position: 20
 
 The Best Practices folder contains the following templates:
 
-Active Directory Folder
+**Active Directory Folder**
 
 | Template                | Description     | TAGS |
 | ----------------------- | ------------------ | ---- |
 | All AD Changes          | Gathers all AD changes. <br />Utilizes the built-in “Exclude Class” – Classes Collection and “Exclude Attribute” – Attributes Collection to restrict unwanted events. Add classes and attributes which will NOT be monitored to these collections | None |
 | All GPO Setting Changes | No customizations required to monitor all GPO setting changes      | None |
 
-Exchange Folder
+**Exchange Folder**
 
 :::warning
 Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_
@@ -27,14 +27,14 @@ being locked down or blocked!
 | ------------------------ | ------------- | ---- |
 | Non-Owner Logon Lockdown | USE CAUTION WITH ALL LOCKDOWN TEMPLATES <br />Specify the Exchange Mailboxes and Containers to lockdown. Optionally, add Exchange Perpetrators to be allowed or denied. | None |
 
-File System Folder
+**File System Folder**
 
 | Template               | Description       | TAGS |
 | ---------------------- | ------------------------------- | ---- |
 | File Owner Changes     | Specify the files and/or folders to be monitored. Optionally, add any AD Perpetrators to be included or excluded.        | None |
 | File System Monitoring | Specify the files and/or folders to be monitored. Optionally, add any AD Perpetrators to be included or excluded. <br />Reads are left out due to the potential high volume of data that could be gathered; recommended only for highly sensitive content. | None |
 
-Object Lockdown Folder
+**Object Lockdown Folder**
 
 :::warning
 Use cation with _all Lockdown/Blocking Templates_! Blank filters result in _everything_

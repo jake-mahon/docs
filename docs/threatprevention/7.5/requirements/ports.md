@@ -87,7 +87,7 @@ the Enterprise Manager and/or the Administration Console.
 Configure appropriate firewall rules to allow connections with the Netwrix Threat Manager Reporting
 Module.
 
-Application Console Access Firewall Rules
+**Application Console Access Firewall Rules**
 
 The following firewall settings are required to access the Netwrix Threat Manager Reporting Module
 console:
@@ -104,7 +104,7 @@ support standard IP Stack operations that are required for the operation of this
 :::
 
 
-Active Directory Domain Controllers Firewall Rules
+**Active Directory Domain Controllers Firewall Rules**
 
 The following firewall settings are required for communication between the Netwrix Threat Manager
 Reporting Module server and Active Directory domain controllers:
@@ -117,7 +117,7 @@ Reporting Module server and Active Directory domain controllers:
 | Outbound                | TCP      | 636     | SSL LDAP                                                                                                                      |
 | Outbound                | TCP      | Various | The port that 135 reports. Used to bulk translate AD object names between formats.(Ephemeral Ports)                           |
 
-Database Firewall Rules
+**Database Firewall Rules**
 
 The following firewall settings are required to allow the Netwrix Threat Manager Reporting Module to
 talk to the Threat Prevention SQL database:

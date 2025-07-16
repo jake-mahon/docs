@@ -27,7 +27,7 @@ See the
 [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.5/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
 
-How to use the Certificate Management Wizard
+**How to use the Certificate Management Wizard**
 
 The Certificate Management Wizard must be run twice to perform two actions.
 
@@ -37,12 +37,12 @@ The Certificate Management Wizard must be run twice to perform two actions.
 
 The Certificate Manager Wizard application, `SICertMgr.exe`, is available in the following folder:
 
-...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager**
 
 The Threat Prevention installer generates default certificates, that are located in the following
 folder:
 
-...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\CertsInfo
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\CertsInfo**
 
 ## Create a Certificate Signing Request
 

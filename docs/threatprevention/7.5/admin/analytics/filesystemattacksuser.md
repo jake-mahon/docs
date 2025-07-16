@@ -21,7 +21,7 @@ If desired, the analytic can be configured to lockdown the monitored file system
 | Trigger                       | X number of files changed by an account in Y minutes     |
 | Recommended Settings          | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 500 files affected in 3 minutes.       |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -46,7 +46,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![File System Attacks (by User) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/filesystemattackssettings.webp)
 
@@ -72,7 +72,7 @@ Type: File System Lockdown** > **AD Perpetrator (for Lockdown)** filter. As inci
 perpetrators of the triggering events will be added to the AD Perpetrators (for Lockdown) filter
 list and blocked from initiating future events.
 
-Policy Tab for Monitoring Only
+**Policy Tab for Monitoring Only**
 
 ![File System Attacks (by User) Analytic Type - Policy tab for Monitoring Only](/img/product_docs/threatprevention/7.5/admin/analytics/policytabfsmonitoring.webp)
 
@@ -119,7 +119,7 @@ The **Policy** tab for configuring analytics consists of the following sub-tabs:
   [System Alerting Window](/docs/threatprevention/7.5/admin/configuration/systemalerting/overview.md) to configure Email and SIEM
   alerts.
 
-Policy Tab for Monitoring & Lockdown
+**Policy Tab for Monitoring & Lockdown**
 
 ![File System Attacks (by User) Analytic Type - Policy tab for Monitoring and Lockdown](/img/product_docs/threatprevention/7.5/admin/analytics/policytabfsmonitoringlockdown.webp)
 

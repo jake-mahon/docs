@@ -77,14 +77,14 @@ for additional information.
 :::
 
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
 
-Don’t check object names inside ‘member’ attribute
+**Don’t check object names inside ‘member’ attribute**
 
 This checkbox works with the Block option button. It controls the blocking behavior when the change
 is related to adding members to a group.

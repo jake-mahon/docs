@@ -65,7 +65,7 @@ a new password.
 Edit the Enterprise Password Enforcer GPO to modify the text displayed to the end-users. You can
 change up to ten lines of text.
 
-Access the Enterprise Password Enforcer GPO
+**Access the Enterprise Password Enforcer GPO**
 
 **Step 1 –** Launch the Group Policy Management console (gpmc.msc).
 

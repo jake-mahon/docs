@@ -10,12 +10,12 @@ The General tab is for editing the basic attributes of the template.
 
 ![Template – General Tab](/img/product_docs/threatprevention/7.5/admin/templates/generaltab.webp)
 
-Name
+**Name**
 
 The name should be unique and descriptive. It is displayed for a template in the list on the
 [Templates Interface](/docs/threatprevention/7.5/admin/templates/overview.md).
 
-Description
+**Description**
 
 The description is optional but recommended. Since each policy can be configured to be as broad or
 narrow as desired, the name combined with the description should clearly explain what objects and
@@ -59,7 +59,7 @@ be modified as desired. Schedule details are displayed for a template in the lis
 [Templates Interface](/docs/threatprevention/7.5/admin/templates/overview.md). Active at Specified Times is represented by a clock icon, and
 Always Active is represented with no icon, or blank.
 
-Weekly Calendar
+**Weekly Calendar**
 
 The weekly calendar at the bottom of the schedule section is where the schedule is set.
 

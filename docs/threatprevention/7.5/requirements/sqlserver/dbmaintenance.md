@@ -19,7 +19,7 @@ delete the DBMaintenance SQL Agent Job in the SQL Server Management Studio.
 :::
 
 
-Permissions Summary
+**Permissions Summary**
 
 The database user must have the following rights to run Database Maintenance:
 
@@ -31,7 +31,7 @@ The database user must have the following rights to run Database Maintenance:
 - Execute sp_updatestats for the NVMonitorData database
 - Create Server Link
 
-Database Permissions
+**Database Permissions**
 
 The following rights are required to run database maintenance:
 
@@ -64,7 +64,7 @@ The following rights are required to run database maintenance:
 See the [Database Components](/docs/threatprevention/7.5/admin/overview.md#database-components) topic for a discussion of
 these databases.
 
-Archive Database Permissions
+**Archive Database Permissions**
 
 If the **Move** option is selected on the
 [Archive Data](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/archive.md) tab of the Database

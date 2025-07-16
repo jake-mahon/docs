@@ -35,11 +35,11 @@ the `Get-SIPolicy` command. Both the following parameters are required:
 
 Example of an enable policy command:
 
-Enable-SIPolicy -PolicyID "255" –Enable 1
+**Enable-SIPolicy -PolicyID "255" –Enable 1**
 
 Example of a disable policy command:
 
-Enable-SIPolicy -PolicyID "255" -Enable 0
+**Enable-SIPolicy -PolicyID "255" -Enable 0**
 
 ## Delete a Policy
 
@@ -50,7 +50,7 @@ The `Remove-SIPolicy` command is used to delete a policy using the policy ID ret
 
 Example of a delete policy command:
 
-Remove-SIPolicy -PolicyID "255"
+**Remove-SIPolicy -PolicyID "255"**
 
 ## Add or Modify Policies
 
@@ -74,11 +74,11 @@ The following parameter(s) are required:
 
 Example of multiple policy exports that are displayed in the PowerShell Console:
 
-Export-SIPolicy -PolicyIDs "111,222,33,555"
+**Export-SIPolicy -PolicyIDs "111,222,33,555"**
 
 Example of a single policy export to a file:
 
-Export-SIPolicy -PolicyIDs "255" >>c:\Import\ExampleExport1.xml
+**Export-SIPolicy -PolicyIDs "255" >>c:\Import\ExampleExport1.xml**
 
 ### Import Policies from an XML File
 
@@ -120,7 +120,7 @@ the FileName:
 
 Example of adding an import XML file:
 
-Import-SIPolicy -FileName "c:\Import\ExampleImport2.xml"
+**Import-SIPolicy -FileName "c:\Import\ExampleImport2.xml"**
 
 The API returns as output the PolicyID, GUID, and Policy Name of the policy that has been updated or
 created. If a new policy was created, it is up to the user to capture the Policy ID and Policy GUID

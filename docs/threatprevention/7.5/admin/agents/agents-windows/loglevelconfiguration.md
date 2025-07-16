@@ -86,13 +86,13 @@ Console log files are stored on the machine where the respective console is inst
 
 Log files are stored in the following locations:
 
-Enterprise Manager Log Files
+**Enterprise Manager Log Files**
 
 ![Enterprise Manager Log File Location](/img/product_docs/threatprevention/7.5/admin/agents/window/emlogs.webp)
 
 The default location is:
 
-…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\logs\
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\logs\**
 
 Administration Console Log Files
 
@@ -100,7 +100,7 @@ Administration Console Log Files
 
 The default location is:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole\logs\
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole\logs\**
 
 :::note
 Log files for a remote instance of the Administration Console are available at the same

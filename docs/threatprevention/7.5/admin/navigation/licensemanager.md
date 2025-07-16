@@ -16,7 +16,7 @@ license has expired.
 :::
 
 
-Generate Alerts when the License Nears Expiration
+**Generate Alerts when the License Nears Expiration**
 
 You can configure alerts to be sent when the.Threat Prevention license nears expiration. These
 alerts serve as a reminder for license renewal.
@@ -31,7 +31,7 @@ The first alert is generated 14 days prior to license expiry and then every foll
 AM. You can customize the time by modifying the following entry in the
 SIEnterpriseManager.exe.config file:
 
-<add key="timeOfLicenseChecking" value="9:00"/>
+**<add key="timeOfLicenseChecking" value="9:00"/>**
 
 File path: `...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager`
 

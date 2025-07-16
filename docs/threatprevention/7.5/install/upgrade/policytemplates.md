@@ -22,7 +22,7 @@ Follow the steps to upgrade policy templates and import new templates.
 
 **Step 2 –** In the Select Import File field, use the ellipsis (…) to browse to:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole**
 
 **Step 3 –** To import all new templates, select the **SI_Template_All** XML file. Click **Open**.
 

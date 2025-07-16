@@ -38,7 +38,7 @@ Connection Manager wizard.
   ellipsis (...) to locate the configuration file if it is not available at the default location.
   The default location is:
 
-  ...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config
+**...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config**
 
 The Database Connection Manager application generates a new connection string to either the
 NVMonitorConfig/NVMonitorData database or the Archive database. To update either of these strings,

@@ -39,7 +39,7 @@ The following parameters are required:
 
 Example of a password validation command:
 
-Test-ValidatePassword –Server “domain\server” –User “Username” –Password “Passwordvalue”
+**Test-ValidatePassword –Server “domain\server” –User “Username” –Password “Passwordvalue”**
 
 ## Import Character Substitutions
 
@@ -54,7 +54,7 @@ The following parameter is required:
 
 Example of adding an import xml file:
 
-Import-SICharacterSubstitution -FileName "c:\Import\CharacterSubstitution.txt"
+**Import-SICharacterSubstitution -FileName "c:\Import\CharacterSubstitution.txt"**
 
 ## Export Character Substitutions
 
@@ -64,7 +64,7 @@ used by the Enterprise Manager. The content exported is the same as displayed in
 
 Example:
 
-Export-SICharacterSubstitution
+**Export-SICharacterSubstitution**
 
 ## Import Character Substitution Words
 
@@ -79,7 +79,7 @@ The following parameter is required:
 
 Example of adding an import xml file:
 
-Import-SICharacterSubstitutionWords -FileName "C:\Import\CharacterSubstitutionWords.xml"
+**Import-SICharacterSubstitutionWords -FileName "C:\Import\CharacterSubstitutionWords.xml"**
 
 ## Export Character Substitution Words
 
@@ -90,7 +90,7 @@ displayed in the
 
 Example:
 
-Export-SICharacterSubstitutionWords
+**Export-SICharacterSubstitutionWords**
 
 ## Import Passwords Dictionary
 
@@ -111,7 +111,7 @@ by the Enterprise Manager. The content exported is the same as displayed in the
 
 Example:
 
-Export-SIPasswordsDictionary
+**Export-SIPasswordsDictionary**
 
 ## Set the Pwned Database
 
@@ -124,4 +124,4 @@ The following parameter is required:
 
 Example of adding an import xml file:
 
-Set-SIPwnedDB -FileName "c:\pwned_db.txt"
+**Set-SIPwnedDB -FileName "c:\pwned_db.txt"**
