@@ -22,14 +22,14 @@ Activity Monitor Agent and is the HTTPS access to the log files.
 
 The 7.1 API model consists of the following resources:
 
-Agent
+**Agent**
 
 - Represents an Activity Monitor Agent. API allows you to view existing agents and their statuses;
   register, modify or remove agents. There is no way to install, upgrade, or uninstall agents in the
   6.0 API. You can list all the agents or the agents of a **Domain** (i.e. AD-monitoring agents on
   the domain controllers).
 
-Children: Host, Domain
+**Children: Host, Domain**
 
 - Host – Represents a host or platform monitored by the product (Windows, NetApp, SharePoint, SQL
   Server, etc). It is a Monitored Host in the Console. You can list all the Hosts of the **Agent**,
@@ -38,12 +38,12 @@ Children: Host, Domain
   a hostname, credentials to access API, connection settings. A **Host** has at least one
   **Output**.
 
-Children: Output
+**Children: Output**
 
 - Domain – It is a Monitored Domain in the Console. The API provides summary information about each
   monitored domain.
 
-Children: Output, Agent
+**Children: Output, Agent**
 
 - Output – A log file or Syslog or AMQP (DEFEND) destination for the activity data.
 
@@ -58,7 +58,7 @@ Typical properties of the Output include log file settings (path, retention, ...
 (Write File, Create File, Delete File, Create Share, ...), account filtering (exclude
 DOMAIN\service-account1), protocol (CIFS, NFS), etc.
 
-Children: File
+**Children: File**
 
 - File – Information about the actual .TSV, .JSON, and .ZIP files stored on the agent. A file can be
   downloaded.

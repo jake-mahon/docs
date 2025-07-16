@@ -86,8 +86,11 @@ Edit Accounts window.
 The Exclude Logins from Machine Accounts collection is only accessible for configuration through the
 Global Filters tab.
 
-**NOTE:** Only perpetrators with accounts ending in “$” are considered for this filter. Wild cards
+:::note
+Only perpetrators with accounts ending in “$” are considered for this filter. Wild cards
 (\*) can be used for partial matches to account names.
+:::
+
 
 All machine accounts in the textbox are either included or excluded from event data monitoring by
 the AD Agent. Machine accounts not in the list have the unselected property applied.
@@ -95,7 +98,7 @@ the AD Agent. Machine accounts not in the list have the unselected property appl
 Repeat the process until all machine accounts to be included or excluded from Authentication event
 data have been entered in the list. Then click **OK**.
 
-Usage Tip
+**Usage Tip**
 
 Windows Server 2012 introduced gMSA (Group Managed Service Accounts). The account names for gMSA
 accounts include

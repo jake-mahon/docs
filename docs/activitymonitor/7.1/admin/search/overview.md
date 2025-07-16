@@ -12,7 +12,10 @@ be sorted, filtered, and/or exported into a CSV file or JSON file, depending on 
 
 ![Search Tab](/img/product_docs/activitymonitor/7.1/admin/search/searchtab.webp)
 
-**NOTE:** Search results are pulled from the File output of the monitored host or domain.
+:::note
+Search results are pulled from the File output of the monitored host or domain.
+:::
+
 
 To open the search feature, click the magnifying glass icon and select from the following options:
 
@@ -65,7 +68,10 @@ typing in the search textbox. The Clear filter option removes all filters from t
 A filter icon appears on the header where filters have been applied. Multiple columns can be
 filtered in the search results data grid.
 
-**NOTE:** The columns that can be filtered will vary depending on what results are.
+:::note
+The columns that can be filtered will vary depending on what results are.
+:::
+
 
 ## Sort
 
@@ -78,7 +84,10 @@ descending order.
 The drop-down menu on the column header has options to Sort A to Z or Sort Z to A for the selected
 column. Sorting can only occur for one column at a time.
 
-**NOTE:** The columns that can be sorted will vary depending on what results are.
+:::note
+The columns that can be sorted will vary depending on what results are.
+:::
+
 
 ## Export
 

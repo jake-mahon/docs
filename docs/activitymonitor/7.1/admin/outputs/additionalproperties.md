@@ -30,7 +30,7 @@ and be configured for SIEM notification.
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The output
 Properties window closes.
 
-Integration with Netwrix Threat Prevention for NAS Monitoring
+**Integration with Netwrix Threat Prevention for NAS Monitoring**
 
 If a Threat Prevention Agent has been deployed to the same Windows proxy server where and activity
 agent is deployed to monitor NAS devices, then the **Comment** column in the monitored hosts table

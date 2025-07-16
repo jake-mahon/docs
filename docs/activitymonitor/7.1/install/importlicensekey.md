@@ -37,9 +37,12 @@ explorer opens.
 **Step 5 –** The organization's license key is now imported into the Activity Monitor. The Console
 returns to the Agents tab and is ready to deploy activity agents.
 
-**NOTE:** License keys are crafted for companies based on their preference for Active Directory,
+:::note
+License keys are crafted for companies based on their preference for Active Directory,
 Microsoft Entra ID (formerly Azure AD), File System, SharePoint, and SharePoint Online monitoring.
 Any environment that is omitted from the license has its corresponding features disabled.
+:::
+
 
 Once a key has expired, the Console displays an Open License File… option for importing a new key.
 Once a new key is loaded, the Console returns to the Agents tab.

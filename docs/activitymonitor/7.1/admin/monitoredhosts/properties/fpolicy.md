@@ -14,9 +14,9 @@ enabling/connecting to cluster nodes.
 On the **FPolicy** tab, the agent can configure and/or enable FPolicy automatically. The recommended
 setting is dependent on the type of NetApp device being targeted. The permissions required for each
 option are listed. See the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_5.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap7-aac/ontap7-activity.md)
 topic or the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_6.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/ontap-cluster-activity.md)
 topic for additional information.
 
 At the bottom are two additional tabs with setting options. On this tab, specify the protocols to
@@ -39,8 +39,11 @@ topic for additional information.
 The Enable and Connect settings tab is enabled when the Enable and connect FPolicy checkbox is
 selected.
 
-**NOTE:** Adding nodes are not needed if set user is using a role that has Network Interface
+:::note
+Adding nodes are not needed if set user is using a role that has Network Interface
 permissions.
+:::
+
 
 ![Add or Edit Cluster Node popup window](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/enableorconnectsettingsaddoreditclusternode.webp)
 
@@ -70,7 +73,7 @@ checks.
 
 **Step 1 –** Using Regedt32 navigate to:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters
+**HKEY_LOCAL_MACHINE\SYSTEM\CurrentCotrolSet\Services\FPolicyServerSvc\Parameters**
 
 **Step 2 –** Right-click on TimeInterval and select Modify.
 

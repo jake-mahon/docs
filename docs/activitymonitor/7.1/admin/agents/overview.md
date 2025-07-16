@@ -52,8 +52,11 @@ The table of servers hosting activity agents provides the following information:
 - Server Name – Name or IP Address of the server hosting an activity agent
 - Status – Status of the deployed activity agent(s)
 
-    **NOTE:** If the AD agent has been deployed, a status of “outdated” could apply to either the
+    :::note
+    If the AD agent has been deployed, a status of “outdated” could apply to either the
     activity agent or the AD agent installed on the domain controller.
+    :::
+
 
 - Version – Version of the deployed activity agent
 - AD Module – Version of the deployed AD agent
@@ -68,8 +71,11 @@ The **Agent messages** box displays any error or warning messages from the selec
 These messages are related to deployment/installation, communication between the console and the
 activity/AD agent, and upgrade of an activity/AD agent.
 
-**NOTE:** Activity agents from Activity Monitor v3.1+ can now be controlled by Activity Monitor
+:::note
+Activity agents from Activity Monitor v3.1+ can now be controlled by Activity Monitor
 v4.0+ Console.
+:::
+
 
 For additional information on how to deploy agents manually, see the
 [Agent Information](/docs/activitymonitor/7.1/install/agents/agents.md) topic.

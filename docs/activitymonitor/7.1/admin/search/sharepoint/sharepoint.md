@@ -32,7 +32,7 @@ results using the column headers. Below the Search button is the
 [Export](/docs/activitymonitor/7.1/admin/search/overview.md#export)
 option.
 
-Filter Value Entry
+**Filter Value Entry**
 
 When the drop-down menu is in front of a query filter, it is used to show or hide the filter entry
 field. Field options vary based on the selected query filter:
@@ -68,8 +68,11 @@ This section has the following filters:
   SecRoleBindUpdate, SecRoleBindInherit, SecRoleBindBreakInherit, EventsDeleted, AppPermissionGrant,
   AppPermissionDelete, Custom
 
-    **NOTE:** Disabling an event type that is also a category will hide that category from the query
+    :::note
+    Disabling an event type that is also a category will hide that category from the query
     options.
+    :::
+
 
 - Item Type – Filter the data by the type of SharePoint item: All, Document, ListItem, List, Folder,
   Web, Site

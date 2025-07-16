@@ -27,8 +27,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -54,8 +57,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -81,8 +87,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -108,8 +117,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -131,8 +143,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts
@@ -155,8 +170,11 @@ The tab contains the following settings:
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
-    **CAUTION:** If an account is removed by accident, use the **Cancel** button to discard the
+    :::warning
+    If an account is removed by accident, use the **Cancel** button to discard the
     change.
+    :::
+
 
 - Process group membership when filtering – Indicates if group memberships is processed when
   filtering accounts

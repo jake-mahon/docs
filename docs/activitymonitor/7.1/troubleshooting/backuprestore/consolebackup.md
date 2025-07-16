@@ -10,11 +10,11 @@ Follow the steps to back up the list of agents managed on the Activity Monitor C
 
 **Step 1 –** Back up the configuration file:
 
-%ALLUSERSPROFILE%\Netwrix\Activity Monitor\Console\Agents.ini
+**%ALLUSERSPROFILE%\Netwrix\Activity Monitor\Console\Agents.ini**
 
 **Step 2 –** Back up the license file:
 
-%ALLUSERSPROFILE%\Netwrix\Activity Monitor\Console\FileMonitor.lic
+**%ALLUSERSPROFILE%\Netwrix\Activity Monitor\Console\FileMonitor.lic**
 
 **Step 3 –** Back up passwords.
 

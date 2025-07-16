@@ -1,7 +1,7 @@
 ---
 title: "Exchange Online Activity Auditing Configuration"
 description: "Exchange Online Activity Auditing Configuration"
-sidebar_position: 20
+sidebar_position: 10
 ---
 
 # Exchange Online Activity Auditing Configuration

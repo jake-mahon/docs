@@ -18,8 +18,11 @@ systems and applications. There are three types of agents:
     - Network Attached Storage Devices – Activity Agent must be deployed to a Windows server that
       acts as a proxy for monitoring the target environment
 
-        **_RECOMMENDED:_** The proxy Windows server should be close to the NAS device in the network
+        :::info
+        The proxy Windows server should be close to the NAS device in the network
         to decrease latency
+        :::
+
 
         - For Dell devices – The agent server must have CEE installed
 

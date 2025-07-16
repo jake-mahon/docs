@@ -6,7 +6,7 @@ sidebar_position: 90
 
 # NetApp
 
-Understanding File Activity Monitoring
+**Understanding File Activity Monitoring**
 
 The Activity Monitor can be configured to monitor the following:
 
@@ -31,13 +31,16 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a NetApp Data ONTAP host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_6.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap-cluster-aac/ontap-cluster-activity.md)
 topic or the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/activity/activity_5.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/requirements/activityagent/nasdeviceconfiguration/ontap7-aac/ontap7-activity.md)
 topic in the for additional information.
 
-_Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
+:::tip
+Remember, the Activity Agent must be deployed to a Windows server that acts as a proxy for
 monitoring the target environment.
+:::
+
 
 ## Add NetApp Host
 
@@ -64,8 +67,11 @@ Click **Next**.
 
 ![NetApp Host Connection Page](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/netappconnection.webp)
 
-**CAUTION:** Cluster-Mode is case sensitive. The case of the Filer or SVM name must match exactly to
+:::warning
+Cluster-Mode is case sensitive. The case of the Filer or SVM name must match exactly to
 how it is in NetApp's FPolicy configuration.
+:::
+
 
 **Step 4 –** On the NetApp Connection page, enter the following:
 
@@ -100,9 +106,12 @@ configure FPolicy through Activity Monitor. If that is desired, check the Config
 Any additional permissions required are listed. Be sure to select the appropriate file protocol to
 configure the FPolicy.
 
-**CAUTION:** NetApp FPolicy Enable and Connect requires the provisioned user account to have full
+:::warning
+NetApp FPolicy Enable and Connect requires the provisioned user account to have full
 permissions. For Cluster-mode devices, the credentials are identified as ‘Employing the “Configure
 FPolicy” Option’.
+:::
+
 
 Additional permissions that are required if enabling **Configure FPolicy** are:
 
@@ -111,10 +120,13 @@ Additional permissions that are required if enabling **Configure FPolicy** are:
 
 Click **Next**.
 
-Important Notes
+**Important Notes**
 
-**_RECOMMENDED:_** For NetApp Cluster-Mode, create a tailored FPolicy manually. If manually
+:::info
+For NetApp Cluster-Mode, create a tailored FPolicy manually. If manually
 configuring the FPolicy, do not select the ConfigureFPolicy checkbox.
+:::
+
 
 If automatic configuration is selected, proceed to the
 [Configure Privileged Access](#configure-privileged-access) section after successfully adding the
@@ -126,8 +138,11 @@ The options on the Configure Operations page require the provisioned user accoun
 minimum, the less privileged permissions. For Cluster-mode devices, the credentials are identified
 as ‘Employing the “Enable and connect FPolicy” Option’.
 
-**CAUTION:** On the NetApp FPolicy Enable and Connect page, choose whether or not to Enable and
+:::warning
+On the NetApp FPolicy Enable and Connect page, choose whether or not to Enable and
 connect FPolicy, which will “Ensure everything is active with periodic checks.”
+:::
+
 
 Additional permissions that are required if enabling **Enable and connect FPolicy** are:
 
@@ -136,11 +151,14 @@ Additional permissions that are required if enabling **Enable and connect FPolic
 - Command `vserver fpolicy engine-connect` - Access level `All`
 - Command `network interface` - Access level `readonly`
 
-Important Notes
+**Important Notes**
 
-**_RECOMMENDED:_** Enable this functionality. Without this option enabled, it is necessary to
+:::info
+Enable this functionality. Without this option enabled, it is necessary to
 manually connect the FPolicy every time it is disconnected for any reason. For reliable, high
 availability file monitoring, use this option.
+:::
+
 
 Click **Next**.
 
@@ -160,9 +178,12 @@ Click **Next**.
 **Step 7 –** On the Configure Operations page, select the File Operations and Directory Operations
 to be monitored.
 
-**NOTE:** NetApp Data ONTAP Cluster-Mode Device folders are now readable by checking the Read / List
+:::note
+NetApp Data ONTAP Cluster-Mode Device folders are now readable by checking the Read / List
 option listed under Directory Operations. This option is also accessible within the NetApp server’s
 properties > Operations tab.
+:::
+
 
 If the Configure FPolicy option is enabled, then Activity Monitor updates the FPolicy according to
 these settings. If it was not enabled, then the manually configured FPolicy must be set to monitor
@@ -171,8 +192,11 @@ agent.
 
 Additional options include:
 
-**CAUTION:** Enabling the Suppress subsequent Read operations in the same folder option can result
+:::warning
+Enabling the Suppress subsequent Read operations in the same folder option can result
 in Read events not being monitored.
+:::
+
 
 - Suppress subsequent Read operations in the same folder – Logs only one Read operation when
   subsequent Read operations occur in the same folder. This option is provided to improve overall
@@ -228,8 +252,11 @@ Output** page can be configured.
 - This log file is for Enterprise Auditor – Enable this option to have Netwrix Enterprise Auditor
   collect this monitored host configuration
 
-    **_RECOMMENDED:_** Identify the configuration to be read by Netwrix Enterprise Auditor when
+    :::info
+    Identify the configuration to be read by Netwrix Enterprise Auditor when
     integration is available.
+    :::
+
 
     - While Activity Monitor can have multiple configurations per host, Netwrix Enterprise Auditor
       can only read one of them.
@@ -280,8 +307,11 @@ monitoring, configure the desired ouptuts. See the
 [Output for Monitored Hosts](/docs/activitymonitor/7.1/admin/monitoredhosts/output/output.md)
 topic for additional information.
 
-_Remember,_ if automatic configuration of the FPolicy was selected, it is necessary to Configure
+:::tip
+Remember, if automatic configuration of the FPolicy was selected, it is necessary to Configure
 Privileged Access.
+:::
+
 
 ## Configure Privileged Access
 
@@ -298,7 +328,10 @@ Properties window opens.
 **Step 2 –** On the FPolicy tab, select the **Privileged Access** tab. Select the Allow privileged
 access checkbox and provide the Privileged user name in the textbox.
 
-**NOTE:** This option is only available if the Configure FPolicy option is enabled.
+:::note
+This option is only available if the Configure FPolicy option is enabled.
+:::
+
 
 Privileged access must be allowed and configured with appropriate credentials to leverage Enterprise
 Auditor permission (FSAA) scans for this NetApp device
