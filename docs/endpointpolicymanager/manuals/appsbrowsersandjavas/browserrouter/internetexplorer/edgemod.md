@@ -1,6 +1,6 @@
 ---
-title: "edgemod"
-description: "edgemod"
+title: "Internet Explorer in Edge Mode"
+description: "Internet Explorer in Edge Mode"
 sidebar_position: 10
 ---
 

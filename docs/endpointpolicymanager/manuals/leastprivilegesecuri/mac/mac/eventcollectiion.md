@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Endpoint Policy Manager Cloud Groups for Event Collection"
 description: "Setting Up Endpoint Policy Manager Cloud Groups for Event Collection"
-sidebar_position: 40
+sidebar_position: 30
 ---
 
 # Setting Up Endpoint Policy Manager Cloud Groups for Event Collection

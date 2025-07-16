@@ -1,6 +1,6 @@
 ---
-title: "revertappset"
-description: "revertappset"
+title: "Reverting the AppSet"
+description: "Reverting the AppSet"
 sidebar_position: 60
 ---
 
