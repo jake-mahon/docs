@@ -11,7 +11,7 @@ management, thus improving over time.
 
 # Requirements
 
-System Specifications
+**System Specifications**
 
 The Operating systems supported are:
 
@@ -78,7 +78,7 @@ include subdomains of a forest.
 Enterprise licenses are bundled in packs of 10 domains, up to 60, with
 an unlimited license thereafter.
 
-Example
+**Example**
 
 If you have consto.com with two subdomains called uk.consto.com and
 us.consto.com, then you would require the 10-domain licensing pack.
@@ -175,7 +175,7 @@ to the database to IIS (application pool)
 
 # Various options
 
-Custom login message
+**Custom login message**
 
 You can define a custom message at the login page. You have to use the
 custom option "customLoginMessage".
@@ -195,7 +195,7 @@ JAVASCRIPT.
 
 # Post Installation - Scheduler
 
-Quick installation
+**Quick installation**
 
 PingCastle allows the possibility to the administrator of the
 application to schedule scans. It is useful when the solution is
@@ -228,9 +228,11 @@ the access to the task scheduler cannot be delegated.
 
 ## Custom installation
 
-Note: PingCastle is using behing the hood a folder named "PingCastle" in
+:::note
+PingCastle is using behing the hood a folder named "PingCastle" in
 the task scheduler. We will use the COM api as it exposes the security
 descriptor -- which is not the case of the native PowerShell APIL
+:::
 
 If you want PingCastle to be able to start or stop tasks but not being
 able to edit them (it requires that the account is local admin), you
@@ -240,21 +242,21 @@ the following actions as admin in powershell:
 ```powershell
 # connect to the task scheduler service
 
-$scheduleObject = New-Object -ComObject schedule.service
+**$scheduleObject = New-Object -ComObject schedule.service**
 
 $scheduleObject.connect()
 
-$rootFolder = $scheduleObject.GetFolder("")
+**$rootFolder = $scheduleObject.GetFolder("")**
 
 $PingCastleFolder = $rootFolder.GetFolder("PingCastle")
 
-$PingCastleFolder.GetTasks(1) | Foreach-Object {
+**$PingCastleFolder.GetTasks(1) | Foreach-Object {**
 
 $sddl = $_.GetSecurityDescriptor(1+2+4+8)
 
 # add full control to the task
 
-$sddl += "(A;S-1-XXX-XXX-XXX;FA;;;SY)"
+**$sddl += "(A;S-1-XXX-XXX-XXX;FA;;;SY)"**
 
 $_.SetSecurityDescriptor($sddl, 0)
 
@@ -291,11 +293,11 @@ core 8.0 middleware.
 
 Microsoft has procedures to install the dotnet core 2 framework:
 
-Linux installation
+**Linux installation**
 
 - https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x
 
-Windows installation
+**Windows installation**
 
 - https://docs.microsoft.com/en-us/dotnet/core/windows-prerequisites?tabs=netcore2x
 
@@ -350,13 +352,13 @@ The following SQL can grant these permissions:
 ```sql
 If not Exists (select loginname from master.dbo.syslogins
 
-where loginname = 'IIS APPPOOL\PingCastleEnterprise')
+**where loginname = 'IIS APPPOOL\PingCastleEnterprise')**
 
 Begin
 
 CREATE LOGIN [IIS APPPOOL\PingCastleEnterprise] FROM WINDOWS;
 
-End
+**End**
 
 use PingCastleEnterprise;
 
@@ -373,7 +375,9 @@ sudo apt-get install postgresql postgresql-contrib
 sudo /etc/init.d/postgresql start
 ```
 
-Note: by default no password for the user postgres
+:::note
+By default no password for the user postgres
+:::
 
 ```bash
 sudo -u postgres createuser pingcastle
@@ -390,7 +394,7 @@ sudo -u postgres createdb -O pingcastle pingcastle
 
 ## Using a Database Hosted on Anther Server
 
-Configure SQL Server with a local DB account
+**Configure SQL Server with a local DB account**
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image18.png)
 
@@ -406,7 +410,7 @@ later the password inside the application.Production.json file)
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image20.png)
 
-Then create a database
+**Then create a database**
 
 Do not forget to set the owner as the user you created before.
 
@@ -445,7 +449,7 @@ need to be escaped as they are located inside a json string.
 
 ![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image26.png)
 
-Configure SQL Server with an Active Directory user
+**Configure SQL Server with an Active Directory user**
 
 You need to first create this Windows user.
 
@@ -514,13 +518,13 @@ For the license, the parameter is stored in the \"License\" setting.
 
 Here are some connection string examples:
 
-Sql Local DB
+**Sql Local DB**
 
 ```json
 "Server=(localdb)\\mssqllocaldb;Database=aspnet-PingCastleEnterprise-9521AD04-BA3A-41DC-A454-F2BD464E9391;Trusted_Connection=True;MultipleActiveResultSets=true"
 ```
 
-PostGres
+**PostGres**
 
 ```json
 "DefaultConnection":
@@ -541,7 +545,7 @@ PingCastle supports:
 
 - SAML2 authentication
 
-Configure active directory authentication
+**Configure active directory authentication**
 
 The asp.net core middleware requires IIS to provide the authentication
 layer. As a consequence, the application do not access directly the
@@ -604,7 +608,7 @@ API calls will need in addition to their API key a Windows account.
     directive, as incidated on
     https://docs.microsoft.com/en-us/iis/manage/configuring-security/understanding-iis-url-authorization
 
-Configure OpenID Authentication
+**Configure OpenID Authentication**
 
 PingCastle Enterprise supports natively OpenID authentication. It is using the asp.net core API whose configuration file is [defined here](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.openidconnectoptions?view=aspnetcore-1.1&viewFallbackFrom=aspnetcore-8.0).
 The proxy settings rely on the current user proxy configuration (which
@@ -631,7 +635,7 @@ property in the appsettings.json file.
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image42.png)
 
-Configure AzureAD authentication as OpenID
+**Configure AzureAD authentication as OpenID**
 
 Connect to https://portal.azure.com to go to "App registrations". Then register an application.
 
@@ -649,7 +653,7 @@ Clic on "Grant admin consent for " the application
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image45.png)
 
-After the action, the Status is changed
+**After the action, the Status is changed**
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseinstall/image46.png)
 
@@ -669,16 +673,16 @@ to the following one:
 ```json
 "OpenIdConnect": {
 
-"DisplayName": "AzureAD",
+**"DisplayName": "AzureAD",**
 
 "ClientId": "<ClientID>",
 
-"Authority": "https://login.microsoftonline.com/<tenant-id>/",
+**"Authority": "https://login.microsoftonline.com/<tenant-id>/",**
 
 }
 ```
 
-Configure header authentication
+**Configure header authentication**
 
 You need to edit the appsettings.json file.
 
@@ -700,7 +704,7 @@ property in the appsettings.json file.
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image38.png)
 
-Configure SAML2 authentication
+**Configure SAML2 authentication**
 
 If you want to hide the internal accounts, you can set the following
 property in the appsettings.json file.
@@ -711,7 +715,7 @@ PingCastle Enterprise supports natively SAML2 authentication.
 
 PingCastle is using behind the scenes the component [ITfoxtec Identity SAML 2.0](https://www.itfoxtec.com/IdentitySaml2). The advanced and explicit configuration settings documentation can be [found here](https://github.com/ITfoxtec/ITfoxtec.Identity.Saml2/blob/master/src/ITfoxtec.Identity.Saml2/Configuration/Saml2Configuration.cs). The proxy settings rely on the current user proxy configuration (which can be defined [using netsh for IIS running as SYSTEM](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-proxy-internet?view=o365-worldwide)).
 
-Easy configuration
+**Easy configuration**
 
 This option requires that the IdP can be accessed directly by the
 server. This may conflict with one premise deployment where the server
@@ -747,7 +751,7 @@ Give your app a name and click Next.
 
 ![Config App](/img/product_docs/pingcastle/enterpriseinstall/image55.png)
 
-In Single Sign on URL, enter https://yourPingCastleServer/Saml2/AssertionConsumerService
+**In Single Sign on URL, enter https://yourPingCastleServer/Saml2/AssertionConsumerService**
 
 In Audience URI, enter PingCastle or the value that will be used in the "Issuer" setting.
 
@@ -773,7 +777,7 @@ You are now ready to use SAML2 as authentication.
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image58.png)
 
-Advanced configuration
+**Advanced configuration**
 
 To remove the need for the IdP metadata query to the remote server, the
 saml configuration can be set manually. For this procedure, we follow
@@ -803,14 +807,14 @@ certificate. It can be seen also in the metadata:
 
 The configuration relies on the ITFoxTec SAML2 provider and thus, advanced settings can be seen [here](https://github.com/ITfoxtec/ITfoxtec.Identity.Saml2/blob/ede215bda2fd163367d475ca6104ec8ccb7642d3/src/ITfoxtec.Identity.Saml2/Configuration/Saml2Configuration.cs)
 
-ADFS
+**ADFS**
 
 When using ADFS, the well known configuration is:
 
 ```json
 "Saml2": {
 
-"Issuer": "https://xxx/Saml2/Login",
+**"Issuer": "https://xxx/Saml2/Login",**
 
 "IdPMetadata":
 "https://xxx/FederationMetadata/2007-06/FederationMetadata.xml"
@@ -818,11 +822,13 @@ When using ADFS, the well known configuration is:
 },
 ```
 
-Note: you can customize the "SAML2" name in the login page by setting
+:::note
+You can customize the "SAML2" name in the login page by setting
 the field DisplayName in the Saml2 section in the configuration file to
 the value you want.
+:::
 
-Configure Client certificate authentication
+**Configure Client certificate authentication**
 
 The first step is to configure the webserver to require a client
 certificate when establishing the SSL connection. It requires SSL (aka a
@@ -849,9 +855,11 @@ webserver sent a certificate. Then the certificate will be evaluated to
 verify it is trusted (chain building, online verification) and map it to
 a user account.
 
-Note: if no CRL or OCSP endpoint is available on all certificate, or if
+:::note
+If no CRL or OCSP endpoint is available on all certificate, or if
 they cannot be joined, the verification will have to be turned OFF using
 the setting CertificateAuthNoRevocation.
+:::
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image65.png)
 
@@ -872,7 +880,7 @@ dns form). Please note that no password needs to be submitted.
 
 ![](/img/product_docs/pingcastle/enterpriseinstall/image67.png)
 
-Email
+**Email**
 
 PingCastle requires a configuration to be able to send emails.
 
@@ -980,7 +988,7 @@ shown to create the first user. This user is given the \"Admin\" role.
 
 For more details please see the user documentation.
 
-Entities
+**Entities**
 
 PingCastle configures by default an entity named \"Default\". It is the
 entity where Auto Created domains are assigned.
@@ -995,7 +1003,7 @@ to edit a base hierarchy using an Excel file.
 
 This Excel file is the same used in the PingCastleReporting tool.
 
-Encryption
+**Encryption**
 
 PingCastle Enterprise comes by default with the PingCastle default
 encryption key.
@@ -1003,12 +1011,12 @@ encryption key.
 If you decided to add a custom ciphering key, you can add it in Advanced
 -\> Decryption.
 
-Bulk Import of existing reports
+**Bulk Import of existing reports**
 
 You can import existing report using the bulk import functionality of
 the Advanced -\> Interoperability menu.
 
-Agents
+**Agents**
 
 You can configure PingCastle program to send their report to the
 program.
@@ -1032,7 +1040,7 @@ To avoid any hole in security architecture, it was chosen to not run
 PingCastle scans from the web application. That means that the local
 domains have to push their information into PingCastle Enterprise.
 
-Program
+**Program**
 
 It is recommended to run the latest official version of PingCastle. The
 PingCastle.exe program delivered in the same directory than the
@@ -1043,7 +1051,7 @@ audit program at a higher or lower version. If new features have been
 added, they will not be visible unless the PingCastle Enterprise program
 is updated, but no data will be lost in the mean time.
 
-Schedule
+**Schedule**
 
 The best way to schedule it is to run your own scheduler. Indeed, you
 may have purchase a batch product which is looking for failure or
@@ -1056,7 +1064,7 @@ scheduler.
 The recommended frequency is every week, using a normal user account
 (not privileged) running on a batch server (not a DC).
 
-Command
+**Command**
 
 You need to create an API key with the upload right (the \"Agent\" page
 as admin).
@@ -1078,11 +1086,11 @@ PingCastle Enterprise supports a synchronization mode to implement a
 security zone model (used within the Defense). Ony domains are
 synchronized (no AzureAD).
 
-PingCastle Enterprise high trust
+**PingCastle Enterprise high trust**
 
 PingCastle Enterprise high trust
 
-PingCastle Enterprise low trust
+**PingCastle Enterprise low trust**
 
 PingCastle audits
 
@@ -1205,7 +1213,7 @@ The method to run the application manually is to run the command:
 dotnet.exe PingCastleEnterprise.dll
 ```
 
-(dotnet.exe is stored by default on c:\\program files\\dotnet)
+**(dotnet.exe is stored by default on c:\\program files\\dotnet)**
 
 Additionnally, you can choose to open the application on the network by
 specifying the \--server.urls parameter:
@@ -1221,7 +1229,7 @@ service connect under IIS APPPool\\AppName. We recommend to look at the
 following page to grant right to the application pool account on Sql
 Server:
 
-https://blogs.msdn.microsoft.com/ericparvin/2015/04/14/how-to-add-the-applicationpoolidentity-to-a-sql-server-login
+**https://blogs.msdn.microsoft.com/ericparvin/2015/04/14/how-to-add-the-applicationpoolidentity-to-a-sql-server-login**
 
 Then depending on the platform additional logs can be stored.
 
@@ -1270,7 +1278,9 @@ Solution:
 identify the correct version of the framework and install it. Do not
 forget to install the IIS middleware is you are installing on IIS.
 
-Note: the last error was related to the missing KB KB2533623
+:::note
+The last error was related to the missing KB KB2533623
+:::
 
 ## Missing web.config
 
@@ -1381,7 +1391,7 @@ Follow the steps to enable debug logging.
 5.  From the same directory, open the **web.config** file and edit the
     **aspNetCore** tag so **stdoutLogEnabled=true**.
 
-Example
+**Example**
 
 ```xml
 <aspNetCore processPath="dotnet"

@@ -2,7 +2,7 @@
 
 ## Before proceeding to the upgrade
 
-Version check
+**Version check**
 
 You can check the existing version using the About link at the bottom of
 each page.
@@ -11,7 +11,7 @@ each page.
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseupgrade/rId12.png)
 
-Database backup
+**Database backup**
 
 We highly recommend to backup the data before proceeding to an upgrade.
 
@@ -31,7 +31,7 @@ requirements for versions.
 
 # Performing the upgrade
 
-Download the software
+**Download the software**
 
 You have to download the .zip file of the program.
 
@@ -39,7 +39,7 @@ The .msi file has not been designed for upgrade.
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseupgrade/rId17.png)
 
-Recommended installation on Windows
+**Recommended installation on Windows**
 
 If the program was installed through the MSI, the upgrade path is simple. IIS must be stopped.
 
@@ -49,7 +49,7 @@ Untouched files should be configuration files (appsettings.\* and the web.config
 
 Then IIS must be started.
 
-Other installations
+**Other installations**
 
 You must upgrade the program files and ensure that the library requirements (dotnet version, ...) are fulfilled.
 
