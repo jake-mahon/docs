@@ -39,10 +39,56 @@ templates in the dictionary file. Wildcard templates are specially formatted dic
 Password Policy Enforcer uses to reject a range of passwords. The Dictionary rule supports two
 wildcard template formats:
 
-| Format | Example   | Description                                                                      |
-| ------ | --------- | -------------------------------------------------------------------------------- | --- | --- | --- | --------- | --- | ------- | --- | --- | --- | --- | --- | --- | --------------------------------------------------------------------------------- | --- | ---------------------------------------------------------------------------------------- | --- |
-| Prefix |           |                                                                                  |     | --- |     | !!BAN\*!! |     | !!2\*!! |     |     |     |     | --- |     | Rejects passwords that start with BAN. For example: band, banish, ban, bank, etc. |     | Rejects passwords that start with the numeric character 2. For example: 2ABC, 2123, etc. |     |
-| Suffix | !!\*ING!! | Rejects passwords that end with ING. For example: pushing, howling, trying, etc. |
+<table>
+<thead>
+<tr>
+<th>Format</th>
+			    <th>Example</th>
+			    <th>Description</th>
+		    </tr>
+	  </thead>
+	    <tbody>
+		  <tr>
+			  <td valign="top">Prefix</td>
+			  <td>
+			    <table>
+			      <tbody>
+						  <tr>
+							  <td>!!BAN*!!</td>
+						  </tr>
+						  <tr>
+							  <td>!!2*!!</td>
+						  </tr>
+			      </tbody>
+			    </table>
+			  </td>
+			  <td>
+				  <table>
+				    <tbody>
+					    <tr>
+					      <td>Rejects passwords that start with BAN. For example:&#160;band, banish, ban, bank, etc.</td>
+					    </tr>
+					    <tr>
+						    <td>Rejects passwords that start with the numeric character 2. For example: 2ABC, 2123, etc. </td>
+					    </tr>
+					  </tbody>
+				  </table>
+			  </td>
+		  </tr>
+		<tr>
+			<td valign="Top">
+				Suffix
+			</td>
+			<td valign="Top">
+				!!*ING!!
+			</td>
+			<td>
+				Rejects passwords that end with ING. For example:&#160;pushing, howling, trying, etc.
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 
 Partial matching is performed even if Wildcard analysis is disabled. For example, the dictionary
 word "password" will reject the passwords "My**Password**$", "**Password**100", and
