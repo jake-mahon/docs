@@ -21,7 +21,7 @@ Some examples of use are:
 ## Getting started with Endpoint Policy Manager Network Security Manager
 
 **_RECOMMENDED:_** For an overview of this section, see this video: See
-[Endpoint Policy Manager Network Security Manager - The Basics](/docs/endpointpolicymanager/knowledgebase/networksecuritymanag/videolearningcenter/gettingstarted/basics.md)
+[Endpoint Policy Manager Network Security Manager - The Basics](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/basics.md)
 topic for additional information.
 
 Pick an application you wish to restrict, like a browser (such as Edge, Firefox, PaleMoon, etc) or a
@@ -106,7 +106,7 @@ Microsoft.com, but are restricted to the specific network location you specified
 ## Auditing Events
 
 **_RECOMMENDED:_** See the
-[Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/endpointpolicymanager/knowledgebase/networksecuritymanag/videolearningcenter/gettingstarted/auditingevents.md)
+[Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/auditingevents.md)
 topic for additional information.
 
 Auditing Events can be useful if you want to determine if your rules are working. Each rule may be
@@ -138,6 +138,6 @@ You can learn more about the following additional Endpoint Policy Manager Netwo
 topics via our How-To videos:
 
 - Understanding Applications & Ports:
-  [Endpoint Policy Manager Network Security Manager - Applications and Ports](/docs/endpointpolicymanager/knowledgebase/networksecuritymanag/videolearningcenter/gettingstarted/applicationsports.md)
+  [Endpoint Policy Manager Network Security Manager - Applications and Ports](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/applicationsports.md)
 - Deeper Dive into Customizations & Notifications:
-  [Endpoint Policy Manager Network Security Manager - Global settings](/docs/endpointpolicymanager/knowledgebase/networksecuritymanag/videolearningcenter/gettingstarted/globalsettings.md)
+  [Endpoint Policy Manager Network Security Manager - Global settings](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/gettingstarted/globalsettings.md)

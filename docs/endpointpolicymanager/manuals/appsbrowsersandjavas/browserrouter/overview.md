@@ -21,7 +21,7 @@ in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicyman
 how to deploy your directives.
 
 **NOTE:** Watch this video for an overview of Endpoint Policy Manager Browser Router:
-[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/endpointpolicymanager/video/browserrouter/rightbrowser.md).
+[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/rightbrowser.md).
 
 Let's say you wanted to apply the following routing policies:
 
@@ -77,7 +77,7 @@ settings over the Internet, even to non-domain-joined machines.
 
 **NOTE:** You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers.
 See the following video for more information:
-[Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/endpointpolicymanager/video/browserrouter/citrix.md).
+[Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/citrixvirtualapps/citrix.md).
 
 ## Endpoint Policy Manager Browser Router Moving Parts
 

@@ -7,7 +7,7 @@ sidebar_position: 40
 # Standalone (Pull) Mode Quick Start
 
 **NOTE:** For an overview of Endpoint Policy Manager GPCR in pull mode, watch this video
-[Using Pull Mode (with or without PPGPCR server)](/docs/endpointpolicymanager/video/gpocompilancereporter/modepull.md).
+[Using Pull Mode (with or without PPGPCR server)](/docs/endpointpolicymanager/knowledgebase/gpcompliancereporter/videolearningcenter/gettingstarted/modepull.md).
 
 Endpoint Policy Manager GPCR has three panes in which you can perform work:
 

@@ -17,7 +17,7 @@ you would download the 32-bit or 64-bit versions, or both as a bundled ZIP.
 **CAUTION:** Clients will continue to use the Endpoint Policy Manager Cloud client version they
 started with until you specifically tell them to use a later version. Please watchthe following
 videoto see how to use groups to keep clients updated:
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/video/cloud/groups.md).
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/groups.md).
 
 From time to time you may be asked by Endpoint Policy Manager Support to attempt to use an older
 version of the client. In this case, you can click on Download other versions and select an older

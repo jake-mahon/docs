@@ -7,7 +7,7 @@ sidebar_position: 10
 # Best Practices
 
 **NOTE:** See the
-[Best Practices for Elevating User-Based Installs](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/elevatinguserbasedinstalls.md)
+[Best Practices for Elevating User-Based Installs](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/elevatinguserbasedinstalls.md)
 video for an overview of Endpoint Policy Manager Least Privilege Manager best practices.
 
 Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager’s job is to overcome UAC

@@ -15,5 +15,5 @@ Exporter or Endpoint Policy Manager Cloud, right-click the collection or the pol
 
 **NOTE:** For a video of Endpoint Policy Manager Admin Templates Manager delivering settings using
 Endpoint Policy Manager Exporter and Microsoft Endpoint Manager (SCCM and Intune), see the
-[Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet](/docs/endpointpolicymanager/video/administrativetemplates/deployinternet.md)
+[Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/deployinternet.md)
 topic for additional information.

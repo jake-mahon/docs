@@ -14,7 +14,7 @@ as necessary. This tool operates on one machine at a time, and it is typically u
 representative machines.
 
 **NOTE:** See the
-[Auto Rules Generator Tool (with SecureRun)](/docs/endpointpolicymanager/video/leastprivilege/autorulesgeneratortool.md)
+[Auto Rules Generator Tool (with SecureRun)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/autorulesgeneratortool.md)
 video for a demo of Endpoint Policy Manager Automatic Rules Generator Tool in action.
 
 Following are the basic steps for operating the tool:

@@ -11,14 +11,14 @@ automatically create rules from events.
 
 If you are using Endpoint Policy Manager Cloud you can store events from endpoints and then
 automatically transition those events to rules. See the
-[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/video/leastprivilege/cloudevents.md)
+[Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/cloudevents.md)
 video for additional information.
 
 If you have stored Windows events, you can use the details from those events to make rules using the
 MMC snap-in.
 
 **NOTE:** See the
-[Auto-Create Policy from Global Audit event](/docs/endpointpolicymanager/video/leastprivilege/globalauditevent.md)video
+[Auto-Create Policy from Global Audit event](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/globalauditevent.md)video
 for a demonstration of this.
 
 ![A screenshot of a computer

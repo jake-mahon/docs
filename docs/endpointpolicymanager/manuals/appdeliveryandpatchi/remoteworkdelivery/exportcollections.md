@@ -13,7 +13,7 @@ service, or a non-Group Policy method such as MEMCM, KACE, and so on.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Remote Work Delivery Manager
 with Endpoint Policy Manager MDM see
-[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/video/remoteworkdelivery/mdm.md).
+[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/knowledgebase/remoteworkdelivery/videolearningcenter/methods/mdm.md).
 
 Remember that Endpoint Policy Manager Remote Work Delivery Manager policies can be created and
 exported on the User side or Computer side. In the example below you can see an export from the User
@@ -43,7 +43,7 @@ Here are some helpful tips to decide which side to use:
   switched mode).
 
 **NOTE:** See
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md)
 for additional information on how to export policies and use Endpoint Policy Manager Exporter
 
 Note that exported collections or policies maintain any Item-Level Targeting set within them. If

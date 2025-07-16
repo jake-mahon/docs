@@ -7,7 +7,7 @@ sidebar_position: 10
 # Elevating Executables
 
 **NOTE:** For an overview of how to elevate applications that need admin rights, see the
-[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/video/leastprivilege/localadminrights.md)
+[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/localadminrights.md)
 video.
 
 In the previous section, we observed that when a Standard User tries to run Process Monitor, they

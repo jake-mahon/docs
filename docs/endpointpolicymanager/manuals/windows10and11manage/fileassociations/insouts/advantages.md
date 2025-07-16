@@ -46,5 +46,5 @@ Group Policy update.
 
 **NOTE:** For a video demonstrating how neither Endpoint Policy Manager File Associations Manager
 nor Microsoft's method can affect a user until the second login, see the
-[Endpoint Policy Manager File Associations Manager: Understanding the First Login](/docs/endpointpolicymanager/video/fileassociations/firstlogin.md)
+[Endpoint Policy Manager File Associations Manager: Understanding the First Login](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/tipsandtricks/firstlogin.md)
 topic for additional information..

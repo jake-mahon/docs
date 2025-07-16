@@ -8,7 +8,7 @@ sidebar_position: 70
 
 **NOTE:** For more information on Endpoint Policy Manager Least Privilege Manager and Item Level
 Targeting, please see the
-[Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.](/docs/endpointpolicymanager/video/leastprivilege/itemleveltargeting.md)
+[Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/itemleveltargeting.md)
 video.
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Endpoint
@@ -59,7 +59,7 @@ Not**.
 
 **NOTE:** Additionally, Endpoint Policy Manager Least Privilege Manager allows you to target users
 or user groups, even if the policy is on the computer side. See the
-[Link to Computer, Filter by User](/docs/endpointpolicymanager/video/leastprivilege/userfilter.md) video for details on this
+[Link to Computer, Filter by User](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/userfilter.md) video for details on this
 superpower.
 
 Below are some real-world examples of how you can use Item-Level Targeting.

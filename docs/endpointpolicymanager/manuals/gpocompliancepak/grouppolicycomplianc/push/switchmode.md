@@ -1,6 +1,6 @@
 ---
-title: "switchmode"
-description: "switchmode"
+title: "Switching from Standalone Mode to Server Mode within the Client"
+description: "Switching from Standalone Mode to Server Mode within the Client"
 sidebar_position: 20
 ---
 

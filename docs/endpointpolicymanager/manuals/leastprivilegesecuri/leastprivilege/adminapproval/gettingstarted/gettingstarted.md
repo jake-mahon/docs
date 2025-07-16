@@ -10,7 +10,7 @@ If there’s no Endpoint Policy ManagerLeast Privilege Manager rule to automatic
 application (or allow it to bypass SecureRun™), the user is prompted with a special dialog to
 request access.
 
-**NOTE:** See the [Admin Approval demo](/docs/endpointpolicymanager/video/leastprivilege/adminapproval/demo.md) video for
+**NOTE:** See the [Admin Approval demo](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/demo.md) video for
 Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager Admin Approval mode setup and
 in action.
 

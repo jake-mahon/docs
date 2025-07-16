@@ -11,7 +11,7 @@ choose to provide **Block Text**, which will appear in a pop-up for the user, ex
 cannot visit the website.
 
 **NOTE:** For an overview of using Block policies, see the following video:
-[Block web sites from opening in all browsers.](/docs/endpointpolicymanager/video/browserrouter/blockwebsites.md)
+[Block web sites from opening in all browsers.](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/blockwebsites.md)
 
 ![about_policypak_browser_router_16](/img/product_docs/endpointpolicymanager/browserrouter/policy/about_endpointpolicymanager_browser_router_16.webp)
 

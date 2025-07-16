@@ -21,7 +21,7 @@ UI hiding operation.
 You can learn more about AppLock at:
 
 - [AppLock™ Modes](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/modes/applock.md)
-- [The Superpowers](/docs/endpointpolicymanager/video/applicationsettings/superpowers.md)
+- [The Superpowers](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/superpowers.md)
 
 It is generally advised to turn off AppLock if you are not using this feature as it can interfere
 with security software you might have on your endpoints.
@@ -51,7 +51,7 @@ gone through a rename and a state change.
 
 Before continuing, please get familiar with how to use the Endpoint Policy Manager ADMX settings and
 also how to update them:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
 
 If you're using an older set of ADMX settings, you will find a setting named "Disable Endpoint
 Policy Manager AppLock" (which exists on both User and Computer Side):

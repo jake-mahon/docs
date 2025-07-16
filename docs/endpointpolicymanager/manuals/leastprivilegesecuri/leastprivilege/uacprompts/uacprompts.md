@@ -7,7 +7,7 @@ sidebar_position: 60
 # Overcoming Common UAC Prompts with Helper Tools
 
 **NOTE:** See the
-[Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/video/leastprivilege/uacprompts.md)
+[Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/helperstoolsandtips/uacprompts.md)
 video for an overview of using Endpoint Policy Manager Least Privilege Manager Helper Tools in
 action.
 

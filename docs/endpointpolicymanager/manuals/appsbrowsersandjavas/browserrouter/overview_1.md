@@ -13,7 +13,7 @@ browsers can be the default, but only one can be chosen as the default. Addition
 special browser called **User Selectable**. Below you can see how to select the default browser.
 
 **NOTE:** For an overview of the User Selectable option, see
-[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/video/browserrouter/userselecteddefault.md).
+[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/userselecteddefault.md).
 
 ![about_policypak_browser_router_11](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/about_endpointpolicymanager_browser_router_11.webp)
 

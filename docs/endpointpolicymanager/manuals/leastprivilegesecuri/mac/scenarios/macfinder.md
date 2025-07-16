@@ -7,7 +7,7 @@ sidebar_position: 70
 # Finder Policy
 
 **NOTE:** See
-[Endpoint Policy Manager MacOS: Mac Finder Policies](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/videolearningcenter/macintegration/finder.md) video
+[Endpoint Policy Manager MacOS: Mac Finder Policies](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/finder.md) video
 for an overview of this section.
 
 ## Finder Install / Uninstall Overview
@@ -69,5 +69,5 @@ The three action types on a rule are:
 - Elevate — Perform the overcome action required to perform the task
 
 See the
-[Endpoint Policy Manager MacOS: Mac Finder Policies](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanage/videolearningcenter/macintegration/finder.md) video
+[Endpoint Policy Manager MacOS: Mac Finder Policies](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/macintegration/finder.md) video
 for examples of Action types with Finder policies

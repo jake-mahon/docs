@@ -1,7 +1,7 @@
 ---
 title: "Device Manager Admin Approval and Automatic Rules Creation"
 description: "Device Manager Admin Approval and Automatic Rules Creation"
-sidebar_position: 30
+sidebar_position: 80
 ---
 
 # Device Manager Admin Approval and Automatic Rules Creation

@@ -36,7 +36,7 @@ prompt. A Standard User doesn’t have the right permissions, and that’s where
 Least Privilege Manager can come in.
 
 **NOTE:** For more information on this issue, watch the
-[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/video/leastprivilege/localadminrights.md)
+[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/localadminrights.md)
 video.
 
 The basic way to use Endpoint Policy Manager Least Privilege Manager is as follows:
@@ -54,13 +54,13 @@ The basic way to use Endpoint Policy Manager Least Privilege Manager is as follo
   - Microsoft SCCM (See theDeploy Endpoint Policy Manager Settings Using SCCM or Other Management
     System! video overview for additional information.)
   - Microsoft Intune (See the
-    [Using Least Privilege Manager with your MDM service](/docs/endpointpolicymanager/video/leastprivilege/mdm.md) video
+    [Using Least Privilege Manager with your MDM service](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/mdm.md) video
     overview for additional information.)
   - Your own systems management software (PDQ Deploy or similar) (See the
-    [Deploying Apps that Require Admin Rights Using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/video/leastprivilege/integration/pdqdeploy.md)
+    [Deploying Apps that Require Admin Rights Using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/pdqdeploy.md)
     video overview for additional information.)
   - Endpoint Policy Manager Cloud service (See the
-    [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/video/leastprivilege/cloudrules.md)
+    [Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/cloudrules.md)
     video overview for additional information.)
 
 Then allow the client machine with the Endpoint Policy Manager client-side extension (CSE) to

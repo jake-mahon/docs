@@ -12,7 +12,7 @@ ServiceNow or support personnel, rather than initiating a phone call. Using the 
 policy we created earlier, open the policy up and click on the **Email** tab. Change the **Use of
 email** field to **Enabled** and insert an email address that will handle the admin approvals.
 
-**NOTE:** See the [Using Email / Long Codes](/docs/endpointpolicymanager/video/leastprivilege/longcodes.md) video for
+**NOTE:** See the [Using Email / Long Codes](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/longcodes.md) video for
 using email for Admin Approval.
 
 ![A screenshot of a computer
@@ -26,7 +26,7 @@ The two options are:
 - Open the message in Notepad instead - Instead of opening an email, it will open in Notepad. This
   is useful if you don’t have any locally installed email client and wish to copy / paste the
   details into Gmail, Office 365 Web mail, or similar. See the
-  [Endpoint Privilege Manager: Admin Approval Email method (with Notepad instead)](/docs/endpointpolicymanager/video/leastprivilege/adminapproval/email.md)
+  [Endpoint Privilege Manager: Admin Approval Email method (with Notepad instead)](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/email.md)
   video for a demonstration.
 
 Now when users click on an install or run an application, they receive a slightly different prompt.

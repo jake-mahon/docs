@@ -8,7 +8,7 @@ sidebar_position: 20
 
 **NOTE:** For an overview of how to block threats and unknown software like malware and similar
 applicates, see the
-[Using Least Privilege Manager's SecureRun Feature](/docs/endpointpolicymanager/video/leastprivilege/securerun/feature.md)
+[Using Least Privilege Manager's SecureRun Feature](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/feature.md)
 video.
 
 In the previous section, we established that users with Standard rights and admin rights can end up
@@ -144,11 +144,11 @@ downloads and tries to run but continues to let properly installed applications 
 
 **NOTE:** An additional way to use Endpoint Policy Manager SecureRum™ is to also trap for anything
 that is unsigned. See the
-[Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/video/leastprivilege/securerun/preventunsigned.md)
+[Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/preventunsigned.md)
 video for a demonstration.
 
 **NOTE:** Remember, all Endpoint Policy Manager Least Privilege Manager rules, including SecureRun,
 may be used with an MDM service, or your own management system like PDQ deploy For more information
 on this topic, please see the
-[Blocking Malware with Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/video/leastprivilege/integration/pdqdeployblockmalware.md)
+[Blocking Malware with Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/pdqdeployblockmalware.md)
 video demonstration.

@@ -1,7 +1,7 @@
 ---
 title: "Device Manager Helper Tool"
 description: "Device Manager Helper Tool"
-sidebar_position: 20
+sidebar_position: 70
 ---
 
 # Device Manager Helper Tool
