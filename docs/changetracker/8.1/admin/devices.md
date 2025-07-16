@@ -22,9 +22,12 @@ collated into a single screen.
 
 ![DevicesTab](/img/product_docs/changetracker/8.1/admin/tabs/devicestab.webp)
 
-**NOTE:** Go to **Tracking Configuration** tab to see a ‘read-only’ representation of the tracking
+:::note
+Go to **Tracking Configuration** tab to see a ‘read-only’ representation of the tracking
 template assigned, note that this will be a merged version of all Policy Templates inherited by the
 device.
+:::
+
 
 To view the groups that any asset is a member of, click the group name. See **Settings** ->
 **Groups** and show the additional group members.

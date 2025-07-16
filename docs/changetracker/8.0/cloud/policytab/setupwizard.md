@@ -24,7 +24,10 @@ Google Cloud Platform Credentials example:
 Description automatically
 generated](/img/product_docs/changetracker/8.0/cloud/cloudgoogleplatformcredentials.webp)
 
-**NOTE:** Just click the Query icon to get a quick tip on what the Credential field requires.
+:::note
+Just click the Query icon to get a quick tip on what the Credential field requires.
+:::
+
 
 - Credential Name – Enter a name to uniquely identify these credentials
 - Cloud Platform – Select from the drop-down options presented
@@ -34,8 +37,11 @@ Once Credentials have been entered, Change Tracker will automatically select an 
 Cloud Compliance Report from and then run a test of the Credentials. By default, the Agent selected
 will be the local Agent on the Hub Server.
 
-**NOTE:** This must always be the latest Net Core Gen 7 Agent. See the
+:::note
+This must always be the latest Net Core Gen 7 Agent. See the
 [Netwrix Support](https://www.netwrix.com/support.html) site for more details.
+:::
+
 
 This can be changed using the links displayed once the Credentials test has completed, and in the
 event that the Credentials are not working for any reason, you will now have the opportunity to edit

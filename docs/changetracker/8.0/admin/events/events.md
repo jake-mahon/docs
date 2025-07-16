@@ -26,6 +26,9 @@ additional information.
 create/expand a Planned Change definition – use Resubmit to then review other previous events
 automatically for inclusion within the Planned Change ID.
 
-**NOTE:** Right-click while hovering over an event to invoke the Quick Export, Quick Filter and
+:::note
+Right-click while hovering over an event to invoke the Quick Export, Quick Filter and
 Resubmit options. Using a combination of these functions, you can quickly focus in on exactly the
 event type or period of interest
+
+:::

@@ -45,7 +45,10 @@ are required like column aliases.
 
 ### Create an SPL Query
 
-**_RECOMMENDED:_** It is recommended to develop and test the SPL query in Splunk's Search page.
+:::info
+It is recommended to develop and test the SPL query in Splunk's Search page.
+:::
+
 
 The query must return fields with the following aliases:
 
@@ -95,7 +98,10 @@ Splunk Search Queries tab.
 
 Paste the query, give it a description and click Update. The query will now be listed in the policy.
 
-**NOTE:** Ensure the desired polling frequency is set.
+:::note
+Ensure the desired polling frequency is set.
+:::
+
 
 ![templatecomplete](/img/product_docs/changetracker/8.0/integration/splunk/templatecomplete.webp)
 
@@ -146,8 +152,11 @@ instance.
 
 ![addsplunkdevice](/img/product_docs/changetracker/8.0/integration/splunk/addsplunkdevice.webp)
 
-**NOTE:** Change events coming into Change Tracker (from Splunk or any agentless monitoring) must
+:::note
+Change events coming into Change Tracker (from Splunk or any agentless monitoring) must
 match a device in Change Tracker. Events without a matching device will be ignored
+:::
+
 
 This isn't a problem with agent based monitoring as the agent registers it's device on first contact
 with the Hub. All types of agentless monitoring require devices to be created in Change Tracker.

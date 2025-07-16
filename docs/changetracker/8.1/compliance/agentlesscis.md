@@ -40,7 +40,10 @@ The master proxy and target Windows devices require the remote registry service 
 have remote administration enabled. This can be enabled on each device or on mass with the use of a
 Group Policy Object.
 
-**NOTE:** The remote registry service requires port 445 to be open on the target device.
+:::note
+The remote registry service requires port 445 to be open on the target device.
+:::
+
 
 ## Proxied Windows Device and CIS Windows Server
 

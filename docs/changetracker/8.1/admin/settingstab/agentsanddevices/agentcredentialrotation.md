@@ -32,13 +32,19 @@ The existing agent account can be seen in the Users section of the Hub.
 
 ![agentaccountmanagement](/img/product_docs/changetracker/8.1/admin/settings/agentaccountmanagement.webp)
 
-**CAUTION:** Changing the password of an account used by agents to authenticate will cause the
+:::warning
+Changing the password of an account used by agents to authenticate will cause the
 agents to go offline as they will be attempting to authenticate with the old password.
+:::
 
-**_RECOMMENDED:_** For a smooth transition, it is recommended to create a new account with just the
+
+:::info
+For a smooth transition, it is recommended to create a new account with just the
 **Agent** role. This account will have a different user name and password. Once created, the agent's
 configuration can be updated to use the new account. When all agents have been migrated, the old
 agent account can be removed.
+:::
+
 
 Follow the steps to create the new agent account.
 

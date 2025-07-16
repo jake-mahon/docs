@@ -48,8 +48,11 @@ times. Netwrix Change Tracker makes this process straightforward too, using the 
 
 The Manage tab will show any exceptions identified from the last report run.
 
-**Note:** The Date and Time filters will be fixed and set according to the time window for the last
+:::note
+The Date and Time filters will be fixed and set according to the time window for the last
 Baseline Report run.
+:::
+
 
 ![baselinemanagetab](/img/product_docs/changetracker/8.0/baseline/baselinemanagetab.webp)
 
@@ -80,8 +83,11 @@ functions are largely self-explanatory, but tips are provided if you hover over 
   for this item is overwritten.
 - Delete – Removes the baseline rule so it will no longer check for this item.
 
-    **Note:** Deleting a 'No Others' rule failure will remove all 'No Others' processing for this
+    :::note
+    Deleting a 'No Others' rule failure will remove all 'No Others' processing for this
     Tracker type.
+    :::
+
 
 Once you have decided how you would like to handle the exceptions, you need to apply any changes
 required using the Apply Changes Now button.

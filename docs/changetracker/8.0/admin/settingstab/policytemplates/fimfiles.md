@@ -47,7 +47,10 @@ application hack/modification will be detected and alerted.
 
         - **File Attributes** – Excluding contents only
 
-            **NOTE:** Contents tracking is defined under the **File Contents** tab
+            :::note
+            Contents tracking is defined under the **File Contents** tab
+            :::
+
 
         - **Folder/Directory Attributes** – Only or All File and Folder Attributes. Default is to
           use File Attributes only as tracking changes at the Folder level in Windows may sometimes
@@ -71,6 +74,9 @@ will still be identified as being a changed file.
 
 Exclusions are configured in a similar manner to the inclusive tracking above.
 
-**NOTE:** For Advanced Options: see
+:::note
+For Advanced Options: see
 [File and Folder Match Filters](/docs/changetracker/8.0/admin/matchrules/filefolderrules.md)
 for more information.
+
+:::

@@ -6,7 +6,10 @@ sidebar_position: 60
 
 # Policy Templates: Installed Software and Updates
 
-**NOTE:** This template applicable to Windows OS only.
+:::note
+This template applicable to Windows OS only.
+:::
+
 
 Software installations and updates are critical dimensions of a host’s configuration. It is
 therefore essential that these are tracked and recorded from compliance, security, and configuration

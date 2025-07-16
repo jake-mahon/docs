@@ -37,8 +37,11 @@ architectures upon request.
 
 \* Not officially supported by Microsoft but has been tested internally
 
-**NOTE:** Support for CentOS 7, RHEL 7, Fedora 39 and Oracle Linux 7 is only possible with v7.1.4 of
+:::note
+Support for CentOS 7, RHEL 7, Fedora 39 and Oracle Linux 7 is only possible with v7.1.4 of
 the agent, later versions are not supported on these legacy OS releases.
+:::
+
 
 ## Linux (Debian Based) Operating Systems
 

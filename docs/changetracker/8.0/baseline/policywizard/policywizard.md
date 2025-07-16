@@ -28,10 +28,13 @@ A single device is selected to act as the Source for Baseline Policy data. This 
 be, e.g. a device that has been patched and hardened exactly as you would like every similar device
 to be
 
-**NOTE:** The selected Source device must be enabled as a "Baseline Source". You can do this via the
+:::note
+The selected Source device must be enabled as a "Baseline Source". You can do this via the
 Settings > Agent and Device screen, select the required Device click **Edit**. There are technical
 reasons why this is disabled by default; in the interests of storage and performance efficiency, it
 is not desirable to have every Device sending Baseline Events to the Hub unless needed.
+:::
+
 
 ![baselinesource](/img/product_docs/changetracker/8.0/baseline/baselinesource.webp)
 

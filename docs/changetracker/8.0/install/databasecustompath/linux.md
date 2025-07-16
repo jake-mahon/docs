@@ -60,9 +60,12 @@ Finally, restart the database using:
 
 ## Modify the Database Storage Path after Installing the Product
 
-_Remember,_ if SELinux is enabled then please copy the directory created by the install to the new
+:::tip
+Remember, if SELinux is enabled then please copy the directory created by the install to the new
 location. The copy command (example below), will take all the SELinux labelling with the copied
 directory.
+:::
+
 
 # cp -avr /var/lib/mongo/ /secondpartition/
 

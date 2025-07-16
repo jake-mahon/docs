@@ -18,8 +18,11 @@ required.
 - $$PASSWORD2$$ - the second level (admin / privilege) password
 - $$RESULTS$$ - the variable whose contents are used as the ‘result text’ of the script.
 
-**NOTE:** Using multiple capturing commands with the same variable will result in the data being
+:::note
+Using multiple capturing commands with the same variable will result in the data being
 appended to the existing value.
+:::
+
 
 ### Script Commands
 
