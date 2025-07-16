@@ -93,7 +93,7 @@ The tab contains two tables:
 - Top Perpetrators
 - Top Targets
 
-Top Perpetrators Table
+**Top Perpetrators Table**
 
 The Top Perpetrators table displays information about the perpetrators associated with the events.
 
@@ -106,7 +106,7 @@ It contains the following columns:
 Click the link to view perpetrator details. See the [User Details Page](/docs/threatprevention/7.5/reportingmodule/investigations/reports/user.md) topic for
 additional information.
 
-Top Targets Table
+**Top Targets Table**
 
 The Top Targets table displays information about targets associated with the events.
 

@@ -34,7 +34,7 @@ in the `Get-SICollection` command. The following parameter is required:
 
 Example of a remove collection command:
 
-Remove-SICollection –CollectionID “222”
+**Remove-SICollection –CollectionID “222”**
 
 ## Add or Modify Collections
 
@@ -58,11 +58,11 @@ The following parameter(s) are required:
 
 Example of multiple collection exports that are displayed in the PowerShell Console:
 
-Export-SICollection –CollectionIDs “222,131,44”
+**Export-SICollection –CollectionIDs “222,131,44”**
 
 Example of a single collection export to a file:
 
-Export-SICollection –CollectionIDs “222” >>c:\Import\ExampleExport1.xml
+**Export-SICollection –CollectionIDs “222” >>c:\Import\ExampleExport1.xml**
 
 ### Import Collections from an XML File
 
@@ -97,7 +97,7 @@ The following parameter is required:
 
 Example of adding an import XML file:
 
-Import-SICollection –FileName “c:\Import\ExampleImport2.xml”
+**Import-SICollection –FileName “c:\Import\ExampleImport2.xml”**
 
 The API returns as output the CollectionID, GUID, and Collection Name of the collection that has
 been updated or created. If a new collection was created, it is up to the user to capture the

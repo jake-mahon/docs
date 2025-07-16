@@ -70,7 +70,7 @@ by the policy.
 
 ![Policy window - File System filter for monitoring](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/filesystem.webp)
 
-Access Operations area
+**Access Operations area**
 
 In the Access Operations area, check the **All** box at the top to include all operations or select
 specific operations:
@@ -81,7 +81,7 @@ specific operations:
 - Delete
 - Rename
 
-Property Operations area
+**Property Operations area**
 
 In the Property Operations area, check the **All** box at the top to include all operations or
 select specific operations:
@@ -91,7 +91,7 @@ select specific operations:
 - Audit (SACL)
 - Owner
 
-Share Operations area
+**Share Operations area**
 
 In the Share Operations area, check the **All** box at the top to include all operations or select
 specific operations:
@@ -101,7 +101,7 @@ specific operations:
 - Update
 - Permission change
 
-I/O Type area
+**I/O Type area**
 
 In the I/O Type area, check the **All** box at the top to include all types or select specific
 types:
@@ -115,7 +115,7 @@ types:
 
   - Only applies to Read and Create Access Operations
 
-Wildcards area
+**Wildcards area**
 
 The **Wildcards** boxes are to scope the policy using an asterisk (\*) or question mark (?) as the
 wildcard. Files that match the wildcard in the include box are monitored. Files that match the
@@ -129,7 +129,7 @@ blank, all files are monitored according to all the policy filter selections.
 :::
 
 
-Enable Automatic Lockdown option
+**Enable Automatic Lockdown option**
 
 Adding a wildcard to the policy allows the policy to use the **Enable Automatic Lockdown** option.
 When checked, perpetrators of this policy are locked down, i.e. denied access to files and folders
@@ -173,7 +173,7 @@ for additional information.
 :::
 
 
-Sub Folder
+**Sub Folder**
 
 ![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subfolder.webp)
 
@@ -230,7 +230,7 @@ for additional information.
 :::
 
 
-Sub Tree
+**Sub Tree**
 
 ![Sub-Tree option in event type filters](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/subtree.webp)
 

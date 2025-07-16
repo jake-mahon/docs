@@ -18,7 +18,7 @@ Every install process of Threat Prevention creates several log files:
 Following is an example of an Agent installation console command specifying logging in the current
 directory to a log file called _SIAgentLog.log_:
 
-SI Agent.exe” /L SIAgentLog.log
+**SI Agent.exe” /L SIAgentLog.log**
 
 An installation of the Agent on a 64-bit system where .NET Framework 4.7.2 or higher is not
 installed generates two log files:
@@ -45,7 +45,7 @@ to a log in the `%TEMP%` folder. Although the new log's file name will be random
 three letters will be "MSI" and it will have the “.log” extension. Type the following line at a
 command prompt to locate the Temp folder:
 
-cd %temp%
+**cd %temp%**
 
 When performing remote Agent deployment using the Administration Console, log files can be found in
 the `C:\Windows\Temp` folder on the target Agent machine. See the

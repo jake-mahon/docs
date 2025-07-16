@@ -64,7 +64,7 @@ The following prerequisites must be met before using the APIs:
   PowerShell. This module is stored in the installation directory within the Enterprise Manager
   folder:
 
-  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\**
 
   To disallow the use of the PowerShell module, remove the module from the Enterprise Manager
   folder.

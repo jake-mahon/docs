@@ -22,7 +22,7 @@ the excessive volume of event activity from monitoring all.
 | Trigger              | X different authenticated accounts from a single system in Y hours    |
 | Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors 3 different authenticated accounts from a single system in 2 hours.    |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -47,7 +47,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Impersonation Logins Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/concurrentloginssettings.webp)
 
@@ -61,7 +61,7 @@ triggered, an incident record is saved to the database along with the events tha
 incident. Raw authentication event data that did not contribute to an incident are purged from
 memory once they are more than 24 hours old.
 
-Policy Tab
+**Policy Tab**
 
 ![Impersonation Logins Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

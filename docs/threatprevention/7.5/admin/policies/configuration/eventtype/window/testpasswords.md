@@ -23,10 +23,10 @@ This window has the following options:
 - Results – Displays whether the tested password failed or passed the complexity requirements set on
   the Password Rules filter
 
-Password Test Result - Passed
+**Password Test Result - Passed**
 
 ![passwordtestpassed](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/window/passwordtestpassed.webp)
 
-Password Test Result - Does Not Pass
+**Password Test Result - Does Not Pass**
 
 ![passwordtestfailed](/img/product_docs/threatprevention/7.5/admin/policies/eventtype/window/passwordtestfailed.webp)

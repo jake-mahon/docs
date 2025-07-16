@@ -22,7 +22,7 @@ volume of event activity from monitoring all servers.
 | Trigger              | X failed logins from a single host against a single host in Y minutes    |
 | Recommended Settings | Configure this analytic to trigger a hit if Threat Prevention monitors at least 40 failed logins from a single host against a single host in 3 minutes.            |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -47,7 +47,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Brute Force Attacks Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/bruteforceattackssettings.webp)
 
@@ -66,7 +66,7 @@ Click the **Configure Hosts** link to open the **Policy** > **Event Type** > **H
 If checked, the **Ignore failed logins for unresolved user names** option will exclude bad user IDs
 from contributing to Brute Force Attacks incidents.
 
-Policy Tab
+**Policy Tab**
 
 ![Brute Force Attacks Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

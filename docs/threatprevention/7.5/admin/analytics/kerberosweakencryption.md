@@ -17,7 +17,7 @@ encryption cyphers, including Overpass-the-Hash.
 | Trigger                  | Ticket uses RC4_HMAC_MD5 encryption.        |
 | Recommended Settings     | No additional configuration is needed    |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -41,7 +41,7 @@ The Configure Analytics window has one tab:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Policy Tab
+**Policy Tab**
 
 ![Kerberos Weak Encryption Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

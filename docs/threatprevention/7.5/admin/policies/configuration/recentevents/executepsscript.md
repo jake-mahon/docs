@@ -9,7 +9,7 @@ sidebar_position: 30
 The Execute PS script right-click option in the Recent Events tab of a policy opens a Windows
 Explorer window to the scripts folder within the Threat Preventionfile system.
 
-…\ Netwrix\Netwrix Threat Prevention\SIWinConsole\scripts
+**…\ Netwrix\Netwrix Threat Prevention\SIWinConsole\scripts**
 
 You can execute Windows PowerShell scripts stored in this folder for the selected event. Select a
 script to execute it.

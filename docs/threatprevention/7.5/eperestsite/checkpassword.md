@@ -25,11 +25,11 @@ The EPE Rest service only checks the password; it does not change it.
 
 This API verifies the password value.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic
 
-Input Parameters
+**Input Parameters**
 
 ```
 {
@@ -41,7 +41,7 @@ Input Parameters
 
 The “username” and “password” parameters are required. The “server” parameter is optional.
 
-Example
+**Example**
 
 ![POST api/Epe/CheckPassword (Basic)](/img/product_docs/threatprevention/7.5/eperestsite/basic.webp)
 
@@ -49,11 +49,11 @@ Example
 
 This API verifies the password value.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Digest
 
-Input Parameters
+**Input Parameters**
 
 ```
 {
@@ -65,7 +65,7 @@ Input Parameters
 
 The “username” and “password” parameters are required. The “server” parameter is optional.
 
-Required Header Input Parameters
+**Required Header Input Parameters**
 
 ```
 "User”: <username>
@@ -73,7 +73,7 @@ Required Header Input Parameters
 "Hash": <hashvalue>
 ```
 
-Example
+**Example**
 
 ![POST api/Epe/CheckPassword (Digest)](/img/product_docs/threatprevention/7.5/eperestsite/digest.webp)
 
@@ -81,11 +81,11 @@ Example
 
 This API verifies the password value.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Bearer
 
-Input Parameters
+**Input Parameters**
 
 ```
 {
@@ -97,13 +97,13 @@ Input Parameters
 
 The “username” and “password” parameters are required. The “server” parameter is optional.
 
-Required Header Input Parameters
+**Required Header Input Parameters**
 
 ```
 "User”: <username>
 "Authorization”:”Bearer <access_token>”
 ```
 
-Example
+**Example**
 
 ![POST api/Epe/CheckPassword (Bearer)](/img/product_docs/threatprevention/7.5/eperestsite/bearer.webp)

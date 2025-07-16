@@ -23,7 +23,7 @@ Additionally the server must meet these requirements:
 
 - US English language installation
 
-RAM, CPU, and Disk Space
+**RAM, CPU, and Disk Space**
 
 Minimum hardware requirements:
 
@@ -32,7 +32,7 @@ Minimum hardware requirements:
 
 - 75 GB Disk Space
 
-Additional Server Requirements
+**Additional Server Requirements**
 
 The following are additional requirements for the application server:
 
@@ -42,13 +42,13 @@ The following are additional requirements for the application server:
 - VC++ redist v14.28.29914
 - Python v3.10.8x64
 
-Permissions for Installation and Application Use
+**Permissions for Installation and Application Use**
 
 The following permissions are required to install and use the application:
 
 - Membership in the local Administrators group
 
-Permissions for Active Directory Sync
+**Permissions for Active Directory Sync**
 
 The following permissions are required for the credentials used by Netwrix Threat Manager Reporting
 Module for Active Directory Sync:

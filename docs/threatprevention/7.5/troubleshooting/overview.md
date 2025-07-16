@@ -28,7 +28,7 @@ blocking:
 - C-Level accounts and mailboxes
 - Users and data that may be used or accessed suspiciously, or may be compromised
 
-Best Practice #2 – Database Maintenance? Use It!
+**Best Practice #2 – Database Maintenance? Use It!**
 
 The [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) enables
 you to set options that automatically groom the database to optimize performance.  
@@ -42,7 +42,7 @@ the targeted environment before turning on another. Each environment generates u
 or file system ‘noise’ that can be filtered out by adjusting triggers and filters. Once the analytic
 is in tune with the environment, move to the next one desired.
 
-Best Practice #4 – Monitor before Blocking
+**Best Practice #4 – Monitor before Blocking**
 
 The lockdown event types are used to block events. When configuring a blocking policy, it is always
 a best practice to configure and enable a monitoring policy with the desired filters first as a

@@ -22,7 +22,7 @@ volume of event activity from monitoring all accounts.
 | Trigger              | (X1 failed login attempts from an individual user account in Y1 minutes) OR (X2 failed login attempts from an individual user account in Y3 minutes) OR …         |
 | Recommended Settings | Set the number of attempts 1 or 2 increments below the organization’s Active Directory lockout policy settings.    |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -47,7 +47,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![User Account Hacking Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/accounthackingsettings.webp)
 
@@ -74,7 +74,7 @@ Perpetrator** filter.
 If checked, the **Ignore failed logins for unresolved user names** option will exclude bad user IDs
 from contributing to User Account Hacking incidents.
 
-Policy Tab
+**Policy Tab**
 
 ![User Account Hacking Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

@@ -10,7 +10,7 @@ The Netwrix Threat Manager Configuration window is a global setting to enable in
 Threat Prevention and Threat Manager. This window is only available to Threat Prevention
 administrators.
 
-Threat Manager App Token
+**Threat Manager App Token**
 
 The Threat Manager App Token authenticates connection between Threat Prevention and Threat Manager.
 This token is generated in Threat Manager:

@@ -19,7 +19,7 @@ incident.
 | Trigger              | Maximum lifetime for a user ticket > than X hours <br />OR <br />Maximum lifetime for a user ticket renewal > Y days       |
 | Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if the maximum lifetime for a user ticket is greater than 24 hours or the maximum lifetime for a user ticket renewal is greater than 30 days.      |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -44,7 +44,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Golden Ticket Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/goldenticketsettings.webp)
 
@@ -54,7 +54,7 @@ tickets is ten hours, and the renewal period is seven days. This analytic policy
 ticket that requests authentication against the values set in this analytic policy. Any time a
 ticket exceeds either of these values, an incident is triggered.
 
-Policy Tab
+**Policy Tab**
 
 ![Golden Ticket Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

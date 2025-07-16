@@ -18,7 +18,7 @@ themselves elevated privileges.
 | Trigger              | PAC of the ticket contains RIDs that are not TokenGroups attribute.       |
 | Recommended Settings | No additional configuration needed         |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -42,7 +42,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Forged PAC Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/forgedpacsettings.webp)
 
@@ -60,7 +60,7 @@ for a mismatch to trigger the incident.
   for modifications.
 - The **Remove** (**x**) button removes the selected item(s) from the incident criteria.
 
-Policy Tab
+**Policy Tab**
 
 ![Forged PAC Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

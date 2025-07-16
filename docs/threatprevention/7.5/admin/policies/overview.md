@@ -30,7 +30,7 @@ The columns are (left to right):
 - Path – Folder and sub-folder location of the policy within the Navigation pane
 - Description – The description provided on the General tab of the policy
 
-Policies Node
+**Policies Node**
 
 Under the Policies node in the Navigation pane, folders are used to organize the policies. Folders
 can be created at the top level or as sub-folders. Threat Prevention supports unlimited levels for

@@ -27,7 +27,7 @@ health details.
 
 ![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/reportsettings.webp)
 
-Settings Tab
+**Settings Tab**
 
 The Settings tab has the following configurable settings:
 
@@ -43,7 +43,7 @@ The Settings tab has the following configurable settings:
   happening at the currently configured interval. By default, this is set to midnight, 12:00 AM. Use
   the clock menu to select the desired time.
 
-Health Tab
+**Health Tab**
 
 The Health tab displays the following information:
 

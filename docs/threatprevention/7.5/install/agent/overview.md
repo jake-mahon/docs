@@ -42,7 +42,7 @@ the Threat Prevention solutions:
 
   - Deploy Agents on all domain controllers with the Windows AD Events module
 
-WMI Requirement
+**WMI Requirement**
 
 The Agent server has the following requirement:
 
@@ -65,7 +65,7 @@ list.
 The Agent tracks all events occurring in Active Directory in real-time. The Agent must be installed
 on all domain controllers within the domains to be monitored.
 
-Supported Platforms for Microsoft Active Directory
+**Supported Platforms for Microsoft Active Directory**
 
 - Windows Server 2022
 - Windows Server 2019
@@ -73,7 +73,7 @@ Supported Platforms for Microsoft Active Directory
 
 - Windows Server 2025
 
-Netwrix Activity Monitor Integration
+**Netwrix Activity Monitor Integration**
 
 Both Activity Monitor and Threat Prevention can monitor the same domain controller. Deploy agents
 from both products to the server. Activity Monitor identifies the Windows host as being “Managed by
@@ -98,7 +98,7 @@ on all domain controllers within the domains to be monitored.
 If only gathering Exchange event data for mailbox permission changes and mailbox logins, then the
 Agent must also be installed on one domain controller, which can be read only.
 
-Supported Platforms for Microsoft Exchange
+**Supported Platforms for Microsoft Exchange**
 
 - Exchange Server 2019
 - Exchange Server 2016
@@ -117,7 +117,7 @@ Agents interface.
 The Agent monitors all events occurring in the file system in real-time. The Agent must be installed
 on all Windows file servers within the domains to be monitored.
 
-Netwrix Activity Monitor Integration
+**Netwrix Activity Monitor Integration**
 
 Both Activity Monitor and Threat Prevention can monitor the same Windows server. Deploy agents from
 both products to the server. Activity Monitor identifies the Windows host as being “Managed by

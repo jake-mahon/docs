@@ -43,7 +43,7 @@ policy:
 
   - Block Attributes – publicDelegates
 
-Impact of Lockdown Policies
+**Impact of Lockdown Policies**
 
 When both the Exchange Lockdown policy and the Active Directory Lockdown policy are enabled,
 performing delegation or folder permission changes will result in warnings.

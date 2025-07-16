@@ -29,7 +29,7 @@ The primary use case for LDAP Ping monitoring and blocking is to detect queries
 exist or don't exist in your environment. Since LDAP Ping queries are anonymous, they could come
 from a malicious user.
 
-LDAP Nom Nom Security Threat
+**LDAP Nom Nom Security Threat**
 
 LDAP Nom Nom is a known attack tool that takes advantage of this security weakness. Current versions
 of LDAP Nom Nom will generate a query that begins with:

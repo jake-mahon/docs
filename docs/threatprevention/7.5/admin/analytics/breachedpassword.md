@@ -16,7 +16,7 @@ successful authentication in the specified time frame.
 | Trigger              | X failed authentication attempts from the same account followed by a successful authentication in Y hours       |
 | Recommended Settings | Netwrix recommends configuring this analytic to trigger a hit if Threat Prevention monitors at least 30 failed authentication attempts from the same account followed by a successful authentication in 4 hours.      |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -41,7 +41,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Breached Password Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/breachedpasswordsettings.webp)
 
@@ -55,7 +55,7 @@ triggered, an incident record is saved to the database along with the events tha
 incident. Raw authentication event data that did not contribute to an incident are purged from
 memory once they are more than 24 hours old.
 
-Policy Tab
+**Policy Tab**
 
 ![Breached Password Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

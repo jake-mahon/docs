@@ -23,7 +23,7 @@ select a profile from the table or under Credential Profile in the navigation pa
 See the [Reporting Module Server Requirements](/docs/threatprevention/7.5/requirements/reportingserver.md) topic for a
 list of permission requirements for each type of task.
 
-Best Practice Recommendation
+**Best Practice Recommendation**
 
 It is a best practice to:
 

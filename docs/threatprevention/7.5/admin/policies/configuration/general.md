@@ -10,19 +10,19 @@ The General tab is for editing the basic attributes of the policy.
 
 ![Policy - General tab](/img/product_docs/threatprevention/7.5/admin/policies/generaltab.webp)
 
-Policy Status
+**Policy Status**
 
 It indicates whether or not the policy is enabled. Click the toggle button at the top to enable or
 disable the policy. On the [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md), an enabled policy is represented with
 a green dot and a disabled policy is represented with a gray dot.
 
-Name
+**Name**
 
 The name should be unique and descriptive. This name is displayed for a policy in the list on the
 [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md). Event data can be filtered by policy; therefore, a descriptive
 name can be very useful to users of the Netwrix Threat Manager Reporting Module.
 
-Description
+**Description**
 
 The description is optional but recommended. Since each policy can be configured to be as broad or
 narrow as desired, the name combined with the description should clearly explain what objects and
@@ -56,7 +56,7 @@ be modified as desired. Schedule details are displayed for a policy in the list 
 [Policies Interface](/docs/threatprevention/7.5/admin/policies/overview.md). Active at Specified Times is represented by a clock icon, and
 Always Active is represented with no icon, or blank.
 
-Weekly Calendar
+**Weekly Calendar**
 
 The weekly calendar at the bottom of the schedule section is where the schedule is set.
 

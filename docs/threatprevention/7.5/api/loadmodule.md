@@ -36,11 +36,11 @@ address is required.
 
 Example of `Connect-SIEnterpriseManager` without any parameters (PS and EM are on the same server):
 
-Connect-SIEnterpriseManager
+**Connect-SIEnterpriseManager**
 
 Example of `Connect-SIEnterpriseManager` using two of the above parameters:
 
-Connect-SIEnterpriseManager -A 192.168.189.57 -R 1
+**Connect-SIEnterpriseManager -A 192.168.189.57 -R 1**
 
 PowerShell is now ready to manage Threat Prevention policies, collections, EPE settings, and
 integration settings with Netwrix Threat Manager.

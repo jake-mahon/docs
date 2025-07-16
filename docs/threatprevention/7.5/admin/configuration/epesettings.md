@@ -144,7 +144,7 @@ size of the hash file, this download takes up a significant amount of CPU and do
 - Passwords Hash Database Folder (path on Threat Prevention Server) – Central location of the Pwned
   database on the application server. The default path is:
 
-  …\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore
+**…\Netwrix\Netwrix Treat Prevention\SIEnterpriseManager\PwnedStore**
 
 - Update Type:
 
@@ -369,7 +369,7 @@ process.
 :::
 
 
-Prerequisites
+**Prerequisites**
 
 The Pwnd Passwords Downloader has the following prerequisite:
 
@@ -381,7 +381,7 @@ The Pwnd Passwords Downloader has the following prerequisite:
 The Have I Been Pwnd database (HIBP) hashes can take up to 30 GB. Make sure that you have enough
 free space on your disk.
 
-Install the Pwnd Passwords Downloader
+**Install the Pwnd Passwords Downloader**
 
 Follow the steps to install the Pwnd Passwords Downloader.
 
@@ -398,7 +398,7 @@ dotnet tool install --global haveibeenpwned-downloader
 
 **Step 3 –** Close the command prompt.
 
-Update an Installed Pwnd Passwords Downloader
+**Update an Installed Pwnd Passwords Downloader**
 
 Follow the steps to update an installed Pwnd Passwords Downloader.
 
@@ -412,7 +412,7 @@ dotnet tool update --global haveibeenpwned-downloader
 
 ![hibp_installation_1](/img/product_docs/threatprevention/7.5/admin/configuration/hibp_installation_1.webp)
 
-Download NTML Hashes with the Pwnd Passwords Downloader
+**Download NTML Hashes with the Pwnd Passwords Downloader**
 
 Follow the steps to download NTLM hashes.
 

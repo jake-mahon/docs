@@ -54,7 +54,7 @@ Click **Suppression time** for an event and select an option from the drop-down 
   the duration you selected) even if the event occurs.
 - Disabled – Alerts will not be suppressed
 
-Example
+**Example**
 
 You select a suppression time of 30 minutes for an event. Next, an alert is generated for that
 event. If the event occurs again within the next 30 minutes, an alert will not be generated.

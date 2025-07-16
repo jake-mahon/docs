@@ -50,11 +50,11 @@ following requirements:
 
 Example table entry for domain:
 
-ExampleDomain
+**ExampleDomain**
 
 Example table entry for server:
 
-ExampleServer
+**ExampleServer**
 
 :::note
 Threat Prevention creates an empty table with the required prefix and schema if the [Table
@@ -77,7 +77,7 @@ requirements:
 
 Example table entry:
 
-CN=User,DC=Domain,DC=Local
+**CN=User,DC=Domain,DC=Local**
 
 :::note
 Threat Prevention creates an empty table with the required prefix and schema if the [Table
@@ -103,7 +103,7 @@ must meet the following requirements:
 
 Example table entry:
 
-CN=User,DC=Domain,DC=Local | S-1-5-21-1004336348-1177238915-682003330-500 | 3 | 0
+**CN=User,DC=Domain,DC=Local | S-1-5-21-1004336348-1177238915-682003330-500 | 3 | 0**
 
 :::note
 Threat Prevention creates an empty table with the required prefix and schema if the [Table
@@ -154,15 +154,15 @@ requirements:
 
 Example table entry with all fields populated:
 
-host | host.dc.com | 10.0.10.19 | fe80::4d72:80e9:72cf:425f%10
+**host | host.dc.com | 10.0.10.19 | fe80::4d72:80e9:72cf:425f%10**
 
 Example table entry tjat excludes IP v6 Address:
 
-host | host.dc.com | 10.0.10.19 | [null]
+**host | host.dc.com | 10.0.10.19 | [null]**
 
 Example table entry that excludes IP v4 Address:
 
-host | host.dc.com | [null]  | fe80::4d72:80e9:72cf:425f%10
+**host | host.dc.com | [null]  | fe80::4d72:80e9:72cf:425f%10**
 
 :::note
 Threat Prevention creates an empty table with the required prefix and schema if the [Table
@@ -187,7 +187,7 @@ requirements:
 
 Example table entry:
 
-c:\Windows | 0 | ExampleFSserver
+**c:\Windows | 0 | ExampleFSserver**
 
 :::note
 Threat Prevention creates an empty table with the required prefix and schema if the [Table

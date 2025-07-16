@@ -72,7 +72,7 @@ modified to run a query ad hoc with the same filter statement but a different ti
 :::
 
 
-Configure a Custom Timeframe Range
+**Configure a Custom Timeframe Range**
 
 Follow the steps to configure a custom timeframe range.
 

@@ -19,12 +19,12 @@ Service:
 
 This API returns a list of internal accounts stored in the EpeUsers database.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic authentication. Any valid account such as a local account for this
 machine or a domain account that can be verified on this machine should work.
 
-Example
+**Example**
 
 ![GET api/account/users](/img/product_docs/threatprevention/7.5/eperestsite/users.webp)
 
@@ -32,11 +32,11 @@ Example
 
 This API creates a new internal account in the EpeUsers database.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic authentication
 
-Required Input Parameters
+**Required Input Parameters**
 
 ```
 {
@@ -48,7 +48,7 @@ Required Input Parameters
 }
 ```
 
-Example
+**Example**
 
 ![POST api/account/create](/img/product_docs/threatprevention/7.5/eperestsite/create.webp)
 
@@ -57,11 +57,11 @@ Example
 This API returns information about an internal account stored in the EpeUsers database with the User
 Id value as the input parameter.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic authentication
 
-Example
+**Example**
 
 ![GET api/account/user/userId](/img/product_docs/threatprevention/7.5/eperestsite/userid.webp)
 
@@ -70,11 +70,11 @@ Example
 This API returns information about an internal account stored in the EpeUsers database with the User
 Name value as the input parameter.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic authentication
 
-Example
+**Example**
 
 ![GET api/account/user/userName](/img/product_docs/threatprevention/7.5/eperestsite/username.webp)
 
@@ -83,11 +83,11 @@ Example
 This API deletes an internal account stored in the EpeUsers database with the User Name value as the
 input parameter.
 
-Authentication required – Yes
+**Authentication required – Yes**
 
 Authentication Type – Basic authentication
 
-Example
+**Example**
 
 ![DELETE api/account/delete?userName=username](/img/product_docs/threatprevention/7.5/eperestsite/delete.webp)
 

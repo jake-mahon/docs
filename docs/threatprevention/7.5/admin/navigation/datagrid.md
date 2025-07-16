@@ -64,7 +64,7 @@ per column.
 - Pin Icon [D] – Opens a filtration dialog that provides multiple types of filtration options such
   as  column values, text filters, and date filters associated with the column data
 
-Auto Filter Row
+**Auto Filter Row**
 
 The Auto Filter row is located between the header row and the first event of the data grid. Typing a
 single attribute in any of these boxes or selecting an attribute from a dropdown menu filters the
@@ -76,13 +76,13 @@ through the grid’s Show Auto Filter Row option from the right-click menu.
 :::
 
 
-Filter Statement Bar
+**Filter Statement Bar**
 
 When a filter is enabled, the filter statement bar is displayed at the bottom of the display area.
 The X to the left of the bar clears the filter. The checkbox for the filter on the left affects the
 scoping of the filter.
 
-Filter Editor
+**Filter Editor**
 
 Notice the Edit Filter option on the right side of the filter statement bar. Click it to open the
 Filter Editor window, where you can build complex filter statements. It can employ multiple
@@ -90,7 +90,7 @@ comparison operators and/or multiple column filters.
 
 ![Filter Editor](/img/product_docs/threatprevention/7.5/admin/navigation/filtereditor.webp)
 
-Pin Icon
+**Pin Icon**
 
 A small pin icon is displayed in the upper-right corner while hovering over a column header or if an
 Auto Filter Row filter is enabled.

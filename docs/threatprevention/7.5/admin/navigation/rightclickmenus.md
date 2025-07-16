@@ -9,7 +9,7 @@ sidebar_position: 10
 In the Navigation pane, the Policies node, Templates node, folders, policies, and templates have
 different right-click commands available.
 
-Alerts Node
+**Alerts Node**
 
 From the Agents node, the right-click menu can be used to install the Agent.
 
@@ -19,7 +19,7 @@ From the Agents node, the right-click menu can be used to install the Agent.
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Install Agent       | Opens the [Deploy Agents Wizard](/docs/threatprevention/7.5/admin/agents/deploy/overview.md#deploy-agents-wizard) |
 
-Saved ‘Filtered Investigate’ Nodes
+**Saved ‘Filtered Investigate’ Nodes**
 
 From the node of a saved ‘Filtered Investigate’ view, the right-click menu allows you to delete the
 saved view.
@@ -30,7 +30,7 @@ saved view.
 | ------------------- | --------------------------------------------- |
 | Delete              | Deletes the saved ‘Filtered Investigate’ view |
 
-Policies and Templates Nodes
+**Policies and Templates Nodes**
 
 From the Policies and Templates nodes, the right-click menu is limited to adding new folders to the
 selected section.
@@ -41,7 +41,7 @@ selected section.
 | --------------------- | --------------------------------------------- |
 | New — Folder (Crtl+F) | Creates a new folder in the selected location |
 
-Folder Node
+**Folder Node**
 
 From a Folder node, the right-click menu contains these commands.
 
@@ -85,7 +85,7 @@ for additional information on protection.
 :::
 
 
-Tags Node
+**Tags Node**
 
 From the Tags node, the right-click menu contains these commands.
 

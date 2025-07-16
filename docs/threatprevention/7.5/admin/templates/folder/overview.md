@@ -89,7 +89,7 @@ these steps.
 **Step 2 –** In the **Select Import File** box, click the ellipsis (**…**) to open the browser
 window. The location of the default templates is:
 
-…\Netwrix\Netwrix Threat Prevention\SIWinConsole
+**…\Netwrix\Netwrix Threat Prevention\SIWinConsole**
 
 **Step 3 –** To import all the available Threat Prevention policy templates, select the
 `SI_Templates_All.xml` file. Click **Open**.

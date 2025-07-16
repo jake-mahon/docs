@@ -27,7 +27,7 @@ Configure the day limit to 30 days.
 | Trigger                      | Any number of failed authentication attempts using non-existing accounts made from a specific host         |
 | Recommended Settings         | Bad User ID (by source host) groups attacks by where failed authentication attempts by non-existing accounts are coming from to trigger analytic hits. The user-configurable parameter is based on time, where time is used to visualize how often an attempt is made to authenticate using a non-existing account from an individual system. <br />Netwrix recommends setting the default value to 30 days. If a failed authentication attempt using a non-existing account occurs from the same host after the 30 day time period, a new analytic hit will be produced rather than incrementing the previous hit count. |
 
-Analytic Workflow
+**Analytic Workflow**
 
 1. Configure the analytic policy
 2. Enable the analytic policy
@@ -52,7 +52,7 @@ The Configure Analytics window has two tabs:
 - Policy – Where filters can be added, additional actions configured, a custom schedule set, and the
   policy enabled
 
-Settings Tab
+**Settings Tab**
 
 ![Bad User ID (by Source Host) Analytic Type - Settings tab](/img/product_docs/threatprevention/7.5/admin/analytics/baduseridsettings.webp)
 
@@ -63,7 +63,7 @@ number of attempts through the limit of days set here, e.g. 30 days. After this 
 elapsed from the first attempt, a new incident will be triggered for any additional attempt with a
 new count.
 
-Policy Tab
+**Policy Tab**
 
 ![Bad User ID (by Source Host) Analytic Type - Policy tab](/img/product_docs/threatprevention/7.5/admin/analytics/policytab.webp)
 

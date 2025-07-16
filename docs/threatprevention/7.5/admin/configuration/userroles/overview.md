@@ -39,7 +39,7 @@ information on the new reporting console.
 :::
 
 
-Administration Console Rights
+**Administration Console Rights**
 
 |                                                             | Administrator                   | Console Operator                |
 | ----------------------------------------------------------- | ------------------------------- | ------------------------------- |

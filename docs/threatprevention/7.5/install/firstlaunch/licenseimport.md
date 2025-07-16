@@ -20,7 +20,7 @@ to recognize it and convert it to a .lic file.
 
 **Step 2 –** Save the license key file to the following folder:
 
-…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager**
 
 ![Import License](/img/product_docs/threatprevention/7.5/install/importlicense.webp)
 

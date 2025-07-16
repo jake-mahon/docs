@@ -28,7 +28,7 @@ window.
 
   - By default, the file is created at the following location:
 
-  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file
+**…\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file**
 
   - The name can include a full UNC path to place the file at a desired location.
 

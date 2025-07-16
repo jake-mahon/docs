@@ -37,7 +37,7 @@ Follow the steps to configure the Web Service Configuration file.
 **Step 1 –**   Open the Web Service configuration file on the Netwrix Threat Manager Reporting
 Module server.
 
-C:\Program Files\STEALTHbits\StealthDEFEND\WebService\appsettings.json
+**C:\Program Files\STEALTHbits\StealthDEFEND\WebService\appsettings.json**
 
 **Step 2 –**   Append the **WebService** and **ADService** sections to the end of the file. Remember
 to add a trailing comma after the `“EncryptRecording”:false` line.
@@ -97,7 +97,7 @@ Follow the steps to configure the Active Directory Service Configuration file.
 **Step 1 –**   Open the Active Directory Service configuration file on the Netwrix Threat Manager
 Reporting Module server:
 
-C:\Program Files\STEALTHbits\StealthDEFEND\ActiveDirectoryService\appsettings.json
+**C:\Program Files\STEALTHbits\StealthDEFEND\ActiveDirectoryService\appsettings.json**
 
 **Step 2 –**   Append the **WebService** section to the end of the file. Remember to add a trailing
 comma after the `“EncryptRecording”:false` line in the file.

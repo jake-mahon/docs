@@ -34,7 +34,7 @@ The Shared Folders table has the following columns:
 - Last Time tested – Date timestamp when the the shared folder was tested to ensure it is configured
   correctly
 
-Additional Options
+**Additional Options**
 
 When you hover over a row within the Shared Folders table, three additional options are displayed:
 
