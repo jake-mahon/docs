@@ -68,8 +68,11 @@ The device rights surpass all computer, group, and global rights.
 The user rights are on the same level as the computer rights. The priority can be set from the
 System Settings section.
 
-**NOTE:** For detailed information, refer to the
+:::note
+For detailed information, refer to the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
+:::
+
 
 Select an option to grant access for clients based on the Department Code. You can also view the
 Default Department code – defdep.
@@ -78,8 +81,11 @@ Select an option to grant access for clients based on the Department Code.
 
 You can also view the Default Department code - defdep.
 
-**NOTE:** For detailed information, refer to the
+:::note
+For detailed information, refer to the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
+:::
+
 
 ![Select an option to grant access for clients based on the Department Code](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
 
@@ -105,7 +111,7 @@ You can choose to log out or continue your session, resetting the session timeou
 
 ![Choose to log out or continue your session, resetting the session timeout interval](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/sessiontimeout.webp)
 
-Endpoint Protector Rights Functionality
+**Endpoint Protector Rights Functionality**
 
 ![Rights Functionality ](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/rightsfunctionality.webp)
 

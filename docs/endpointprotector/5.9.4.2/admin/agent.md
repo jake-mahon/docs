@@ -13,13 +13,19 @@ You can download the Endpoint Protector Agent directly from the Endpoint Protect
 information about downloading the Endpoint Protector Agent, refer to the
 [Client Software](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md#client-software) topic.
 
-**NOTE:** You can use tools like Active Directory or JAMF to deploy the Endpoint Protector Agent in
+:::note
+You can use tools like Active Directory or JAMF to deploy the Endpoint Protector Agent in
 large networks.
+:::
 
-**NOTE:** Starting with Endpoint Protector Server version 5.8.0.0, an additional security feature is
+
+:::note
+Starting with Endpoint Protector Server version 5.8.0.0, an additional security feature is
 available to protect the integrity of the Agent. This feature, accessible via Device Control on the
 Global Settings page, is known as the Tamper Mode setting. It is designed to prevent unauthorized
 termination or modification of the Endpoint Protector Agent.
+:::
+
 
 ## Agent Installation
 
@@ -27,11 +33,17 @@ For Windows and Mac, your input in installing the Endpoint Protector Agent is mi
 Installation folder and Server information are already pre-conﬁgured, and downloadable from the
 Endpoint Protector Server.
 
-**NOTE:** For Linux installation instructions, read the readmeLinux.txt ﬁle available under the Read
+:::note
+For Linux installation instructions, read the readmeLinux.txt ﬁle available under the Read
 this before installing link.
+:::
 
-**NOTE:** You can also install the Agent from a repository for Endpoint Protector Linux Agents
+
+:::note
+You can also install the Agent from a repository for Endpoint Protector Linux Agents
 starting with version 1.4.0.4., as described in the topic below.
+:::
+
 
 The following are several examples of supported distributions:
 
@@ -124,11 +136,14 @@ and **allow** the Endpoint Protector Client Extension.
 
 At this point, the macOS Endpoint Protector Client installation is completed.
 
-**NOTE:** If EPPNotiﬁer is not visible or notiﬁcations do not display after the installation or
+:::note
+If EPPNotiﬁer is not visible or notiﬁcations do not display after the installation or
 upgrade of the Endpoint Protector Client on macOS, please resolve this issue by restarting your
 machine. In situations where the Endpoint Protector Client is installed and then uninstalled on
 macOS, you may still see EPPNotiﬁer in the Notiﬁcation settings. To remove it from the list, simply
 right-click and select "Reset notiﬁcations."
+:::
+
 
 ### Debian Based Distributions
 
@@ -210,5 +225,8 @@ This could be:
 - `wsl.exe --help` – This entry will target the specific command `wsl.exe --help`.
 - `wsl --list`– This entry will target the `wsl --list` command.
 
-**NOTE:** Endpoint Protector Client cannot directly control the usage of WSL Bash command-line tools
+:::note
+Endpoint Protector Client cannot directly control the usage of WSL Bash command-line tools
 on Windows.
+
+:::

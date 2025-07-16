@@ -30,7 +30,10 @@ In this section you can set a preferential time zone and/or sync the appliance t
 - How often to synchronize – select from the drop-down a time interval when to synchronize of go
   with the default selection
 
-**NOTE:** The appliances are preﬁgured to sync once a week with pool.ntp.org.
+:::note
+The appliances are preﬁgured to sync once a week with pool.ntp.org.
+:::
+
 
 - Current server time – the ﬁeld displays the current server time
 - Automatic NTP Synchronization – opt in or out to trigger the NTP synchronization automatically
@@ -46,8 +49,11 @@ In this section you can set a preferential time zone and/or sync the appliance t
 In this section you can change the network settings for the appliance to communicate correctly in
 your network.
 
-**NOTE:** Once you change the IP address, close and open again the Internet browser and then access
+:::note
+Once you change the IP address, close and open again the Internet browser and then access
 the Endpoint Protector Administration and Reporting Tool with the new IP address.
+:::
+
 
 ![ Change the network settings for the appliance to communicate correctly in your network](/img/product_docs/endpointprotector/5.9.4.2/admin/appliance/ipconfg.webp)
 
@@ -63,7 +69,10 @@ From this section, you can register and then verify the Endpoint Protector Clien
 signature. The client registration certiﬁcate is an additional security measure enabling
 certiﬁcate-based authentication.
 
-**CAUTION:** The Client Registration Certiﬁcate feature is not available for Linux!
+:::warning
+The Client Registration Certiﬁcate feature is not available for Linux!
+:::
+
 
 **Step 1 –** Enable the custom certiﬁcate setting and then upload the certiﬁcate chain, Root CA and
 Intermediate;
@@ -84,8 +93,11 @@ just for testing the signature (for example the Endpoint Protector Client certi�
 **Step 3 –** Click **Save** and allow 2 minutes for the information to be validated. You will view a
 successful message conﬁrming the custom certiﬁcate was added and the test certiﬁcate is valid.
 
-**NOTE:** The client registration authentication certiﬁcate and the Endpoint Protector server
+:::note
+The client registration authentication certiﬁcate and the Endpoint Protector server
 certiﬁcate must be issued by the same CA.
+:::
+
 
 For this feature to work, there must be cryptographic identities signed by the root CA deployed on
 the endpoints.
@@ -102,16 +114,25 @@ From this section, you can conﬁgure Server Certiﬁcate Validation, which ensu
 used for all communication requests on Endpoint Protector clients are validated. This feature is
 crucial for maintaining secure communication between various Endpoint Protector products.
 
-**NOTE:** All certiﬁcate validation statuses will be reported to the Endpoint Protector Server and
+:::note
+All certiﬁcate validation statuses will be reported to the Endpoint Protector Server and
 stored for debugging purposes in Endpoint Protector Client logs.
+:::
 
-**CAUTION:** Please use this feature responsibly, as improper certiﬁcate usage with certiﬁcation
+
+:::warning
+Please use this feature responsibly, as improper certiﬁcate usage with certiﬁcation
 validation might disrupt Endpoint Protector Client to Endpoint Protector Server communication. For a
 successful connection, both server and client certificate validation must be enabled.
+:::
 
-**NOTE:** Starting from the 5.9.0 or later, enabling this option activates Endpoint Protector Server
+
+:::note
+Starting from the 5.9.0 or later, enabling this option activates Endpoint Protector Server
 Certiﬁcate Validation for all Endpoint Protector Client communication. This strengthens security by
 ensuring trusted and valid certiﬁcates are used.
+:::
+
 
 ### Appliance Operations
 
@@ -123,7 +144,10 @@ In this section you can perform appliance operations such as Reboot or Shutdown.
 
 In this section you can manage user access to the Appliance through the SSH protocol.
 
-**_RECOMMENDED:_** Set this option to **Enable** before requesting Support access.
+:::info
+Set this option to **Enable** before requesting Support access.
+:::
+
 
 ![Manage user access to the Appliance through the SSH protocol](/img/product_docs/endpointprotector/5.9.4.2/admin/appliance/sshserver.webp)
 
@@ -136,7 +160,10 @@ enables Endpoint Protector to transfer activity events to a SIEM server for anal
 In this section, you can add, edit or delete an existing SIEM Server integration. To edit or delete
 a SIEM Server you need to select an available SIEM server integration.
 
-**CAUTION:** You can conﬁgure a maximum number of 4 SIEM Server integrations.
+:::warning
+You can conﬁgure a maximum number of 4 SIEM Server integrations.
+:::
+
 
 ![Add, edit or delete an existing SIEM Server integration](/img/product_docs/endpointprotector/5.9.4.2/admin/appliance/siemserverintegration.webp)
 
@@ -145,30 +172,42 @@ To create a SIEM Server, click **Add New** and provide the following information
 - SIEM Status – toggle switch to enable/disable the SIEM server
 - Disable Logging – toggle switch to enable/disable logging
 
-    **NOTE:** If you disable logging, logs will be stored on the Endpoint Protector server or on the
+    :::note
+    If you disable logging, logs will be stored on the Endpoint Protector server or on the
     SIEM server when SIEM is installed.
+    :::
+
 
 - Server Name – add a server name
 - Server Description – add a description
 - Server IP or DNS – add the IP or DNS
 - Server Protocol – select the UDP or TCP server protocol
 
-    **NOTE:** Based on the protocol you select you can enable [SIEM Encryption](#siem-encryption).
+    :::note
+    Based on the protocol you select you can enable [SIEM Encryption](#siem-encryption).
+    :::
+
 
 - Server Port – add a port
 - Exclude Headers - toggle switch to enable/disable log headers
 
-    **NOTE:** If you disable log headers, you will only export data to SIEM.
+    :::note
+    If you disable log headers, you will only export data to SIEM.
+    :::
+
 
 - Log Types – select from the available options the logs to send to the SIEM Server
 
 ![SIEM Intergration - Adding a New Server](/img/product_docs/endpointprotector/5.9.4.2/admin/appliance/siemintegrationnewserver.webp)
 
-**CAUTION:** Please be aware that the SIEM integration feature in Endpoint Protector comes with
+:::warning
+Please be aware that the SIEM integration feature in Endpoint Protector comes with
 certain limitations. To make use of the latest features of this SIEM integration, your environment
 must meet speciﬁc criteria. It should have been installed from image version 5.6.0.0 or a more
 recent version, and maintain an active HTTPS connection. Please note that SIEM integration is only
 accessible in environments that meet these stringent prerequisites.
+:::
+
 
 ### SIEM Encryption
 
@@ -176,8 +215,11 @@ When using the TCP protocol, you have the option to encrypt communication to eac
 order to do so, enable the Encryption setting and then Upload the root CA that was used to sign the
 server certiﬁcate for the SIEM server in .pem format.
 
-**CAUTION:** The certiﬁcate used on the SIEM server must be signed by the same CA as the one
+:::warning
+The certiﬁcate used on the SIEM server must be signed by the same CA as the one
 uploaded to the Endpoint Protector Server.
+:::
+
 
 Endpoint Protector will check the following:
 
@@ -189,8 +231,11 @@ certiﬁcate; if any certiﬁcate of the chain is invalid, the connection will b
 
 Make sure you update the certiﬁcate ﬁles when they expire.
 
-**NOTE:** If you applied the latest patch using the option, and cannot view the SIEM encryption
+:::note
+If you applied the latest patch using the option, and cannot view the SIEM encryption
 setting, please contact Customer Support.
+:::
+
 
 ### SIEM Export log formats
 
@@ -325,7 +370,7 @@ The standard format for the E-Discovery fields is as follows:
 
 #### Other SIEM Logs
 
-User Login/User Logout
+**User Login/User Logout**
 
 The standard format for the Other SIEM Logs fields is as follows:
 

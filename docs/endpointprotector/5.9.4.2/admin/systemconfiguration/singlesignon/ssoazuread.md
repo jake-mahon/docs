@@ -29,8 +29,11 @@ will be selected by default.
 After the above steps have been completed, a Single Sign On subsection is displayed in the System
 Conﬁguration section.
 
-**NOTE:** The Failover Login User you selected cannot be deleted from Endpoint Protector Server
+:::note
+The Failover Login User you selected cannot be deleted from Endpoint Protector Server
 while it is selected. Single Sign On cannot be activated without a Failover Login User.
+:::
+
 
 **Step 3 –** Select the **Provider** to view Single Sign On subsections.
 

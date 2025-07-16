@@ -17,7 +17,7 @@ Follow the steps to conﬁgure the Endpoint Protector Appliance for the ﬁrst t
 
 **Step 1 –** Select **Continue** when ﬁnished reading the End User License Agreement.
 
-![End User License Agreement](/img/product_docs/endpointprotector/5.9.4.2/install/licenseagreement.webp)
+![End User License Agreement](\img\product_docs\endpointprotector\5.9.4.2\install\LicenseAgreement.webp)
 
 **Step 2 –** Select **Accept**.
 
@@ -29,7 +29,10 @@ Follow the steps to conﬁgure the Endpoint Protector Appliance for the ﬁrst t
 
 **Step 4 –** The conﬁguration methods are now available.
 
-**CAUTION:** We recommend a manual conﬁguration of the network settings.
+:::warning
+We recommend a manual conﬁguration of the network settings.
+:::
+
 
 ![Automatic Network configuration for Endpoint Protector Appliance](/img/product_docs/endpointprotector/5.9.4.2/install/autonetworkconfig.webp)
 
@@ -49,17 +52,15 @@ the appliance is correctly set up and accessible.
 
 **Step 3 –** Press **Tab**.
 
-![Select tab to move to the apply button](/img/product_docs/endpointprotector/5.9.4.2/install/netmask.webp)
+![Select tab to move to the apply button](\img\product_docs\endpointprotector\5.9.4.2\install\setip2.webp)
 
 **Step 4 –** Select **Apply**. The virtual appliance is now accessible from the conﬁgured IP
 Address. (e.g., https:// 192.168.7.94).
-
-![Virtual appliance is now accessible from the conﬁgured IP Address](/img/product_docs/endpointprotector/5.9.4.2/install/dhcpmethod.webp)
 
 ## Automatic Conﬁguration
 
 Select **conﬁgure network automatically**, and click **Enter**.
 
-![ IP Address and Default Gateway conﬁgured automatically](/img/product_docs/endpointprotector/5.9.4.2/install/staticipmethod.webp)
+![ IP Address and Default Gateway conﬁgured automatically](\img\product_docs\endpointprotector\5.9.4.2\install\autonetworkconfig.webp)
 
 The IP Address and Default Gateway will be conﬁgured automatically.

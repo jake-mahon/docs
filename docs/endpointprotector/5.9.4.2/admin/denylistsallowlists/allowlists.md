@@ -23,11 +23,14 @@ inspect them using content ﬁlters.
 MIME Type Allowlists are available for both the Content Aware Protection and eDiscovery modules and
 apply to Custom Content, Predeﬁned Content, and Regular Expressions.
 
-**NOTE:** By default, graphic ﬁles, media ﬁles, some password-protected archive ﬁles and some system
+:::note
+By default, graphic ﬁles, media ﬁles, some password-protected archive ﬁles and some system
 ﬁles are automatically deﬁned within the MIME Type Allowlists. While this can be changed, we
 recommend only doing so after gaining a deeper understanding of the type of data transferred used,
 or stored by the users in your system, and the subsequent logs increase in the Endpoint Protector
 Server.
+:::
+
 
 ![MIME Type Allowlists ](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/mimetypeallowlists.webp)
 
@@ -62,13 +65,16 @@ Location Denylists and Allowlists throughout the system. By default, the File Lo
 apply to all ﬁles located in the speciﬁc folder but also to any other ﬁles located in containing
 subfolders.
 
-**NOTE:** In addition to deﬁning the File Location Allowlist, the browser or application used to
+:::note
+In addition to deﬁning the File Location Allowlist, the browser or application used to
 transfer ﬁles also needs to be selected from within the Content Aware Protection Policy.
+:::
+
 
 You can use wildcard patterns in the ﬁle location allow list, to specify wildcard matching. To match
 a desktop folder on Windows use the pattern "?:\Users\\\*\Desktop\".
 
-Wildcards Usage Examples for File Location
+**Wildcards Usage Examples for File Location**
 
 | Wildcards Type | File Location      | Results matched                                                                    | Results not matched                                                     |
 | -------------- | ------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -96,14 +102,20 @@ Location Allowlists will only apply for the selected computer groups after 15 mi
 Network Share Allowlists are custom-deﬁned lists of network share addresses where transfers of
 conﬁdential information will be allowed by Endpoint Protector.
 
-**NOTE:** Network Share Allowlists are available only for the Content Aware Protection module.
+:::note
+Network Share Allowlists are available only for the Content Aware Protection module.
+:::
+
 
 You can use wildcard patterns in the Network Share Allowlist to specify wildcard matching. The
 Network Share Allowlist can perform matching the whole ﬁle name, not only on the directory name,
 when wildcard patterns are used.
 
-**CAUTION:** The Network Share must be set to Allow Access and Scan Network Share must be checked
+:::warning
+The Network Share must be set to Allow Access and Scan Network Share must be checked
 inside a Content Aware Protection Policy.
+:::
+
 
 ![Network Share Allowlists ](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/networkshareallowlists.webp)
 
@@ -116,8 +128,11 @@ line, comma, or semicolon and then select the **groups** and **computers**.
 Network Share Allowlists will not apply to groups of users, only to groups of computers. Network
 Share Allowlists will only apply for the selected computer groups after 15 minutes.
 
-**CAUTION:** Do not type the network share path with backslashes (\\) 192.168.0.1\public\users\test;
+:::warning
+Do not type the network share path with backslashes (\\) 192.168.0.1\public\users\test;
 ﬁleserver\documents\example
+:::
+
 
 ![New Network Share Allowlists](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/newnetworkshareallowlists.webp)
 
@@ -126,7 +141,10 @@ Share Allowlists will only apply for the selected computer groups after 15 minut
 E-mail Domain Allowlists are custom-deﬁned e-mail addresses to which sending of conﬁdential
 information will be allowed by Endpoint Protector.
 
-**NOTE:** E-mail Domain Allowlists are available only for the Content Aware Protection module.
+:::note
+E-mail Domain Allowlists are available only for the Content Aware Protection module.
+:::
+
 
 ![E-mail Domain Allowlists](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/emaildomainallowlists.webp)
 
@@ -144,7 +162,7 @@ when creating or editing a Content Aware Protection policy.
 You can use wildcard patterns in the e-mail domain to specify wildcard matching as displayed in the
 following example.
 
-Wildcards Usage Examples for E-mail Domain
+**Wildcards Usage Examples for E-mail Domain**
 
 | E-mail Domain name | Results matched                              | Results not matched       |
 | ------------------ | -------------------------------------------- | ------------------------- |
@@ -163,8 +181,11 @@ You can add a new allowlist or edit, delete or export from the Actions column.
 You can create or import up to 100 lists of dictionaries, each dictionary comprising up to 50000 web
 domains.
 
-**NOTE:** Dictionaries comprising up to 100 web domains can be edited, but for more extensive
+:::note
+Dictionaries comprising up to 100 web domains can be edited, but for more extensive
 dictionaries, you will need to import them again.
+:::
+
 
 To create a new allowlist, under the list of available allowlists, click Add, provide a name and
 description and then type or paste items at least three characters separated by a new line, comma,
@@ -172,9 +193,15 @@ or semicolon. You can import content using the sample ﬁle provided on the form
 
 Example: example.endpointprotector, \*example.com, \*example\*, https://website.com, etc.
 
-**CAUTION:** “?” cannot be used to replace a character.
+:::warning
+“?” cannot be used to replace a character.
+:::
 
-**NOTE:** Due to Gmail usage, take the following into consideration:
+
+:::note
+Due to Gmail usage, take the following into consideration:
+:::
+
 
 - You need to allow **mail.google.com** for adding e-mail attachments or ﬁles using the drag and
   drop option
@@ -185,7 +212,7 @@ available when creating or editing a Content Aware Protection policy.
 
 ![New Deep Packet Inspection Allowlists](/img/product_docs/endpointprotector/5.9.4.2/admin/denylistsallowlists/newdpiallowlists.webp)
 
-Wildcards Usage Examples for Deep Packet Inspection
+**Wildcards Usage Examples for Deep Packet Inspection**
 
 | Domain name         | Results matched                                                        | Results not matched                                                      |
 | ------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -196,4 +223,7 @@ Wildcards Usage Examples for Deep Packet Inspection
 | https://cisco.com   | https://cisco.com/drives/downloads/ http://cisco.com/drives/downloads/ | https://sub.cisco.com/drives/download s/ https://cisco.com.ca/downloads/ |
 | https://cisco.com\* | https://cisco.com.ca/downloads/ http://cisco.com.ca/downloads/         | https://sub.cisco.com.ca/downloads/ https://bad.cisco.com/downloads/     |
 
-**NOTE:** Using wildcards will search for domain names, not URLs.
+:::note
+Using wildcards will search for domain names, not URLs.
+
+:::

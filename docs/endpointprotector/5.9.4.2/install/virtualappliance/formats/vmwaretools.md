@@ -143,6 +143,12 @@ the only Endpoint Protector Virtual Appliance in your network).
 
 At this point, the Virtual Machine is ready to be started.
 
-**CAUTION:** Do not suspend the VMware Player while Endpoint Protector Virtual Appliance is running.
+:::warning
+Do not suspend the VMware Player while Endpoint Protector Virtual Appliance is running.
+:::
 
-**CAUTION:** Do not shut down your computer while VMware Player is running.
+
+:::warning
+Do not shut down your computer while VMware Player is running.
+
+:::

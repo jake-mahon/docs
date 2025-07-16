@@ -27,5 +27,8 @@ and then click Associate;
 The Elastic IP is now associated with your Endpoint Protector Instance. After a few minutes, the
 Endpoint Protector Instance will be running associated with the Elastic IP.
 
-**NOTE:** We recommend further securing your Instance by making all possible settings in the AWS
+:::note
+We recommend further securing your Instance by making all possible settings in the AWS
 Interface under the option Security Groups.
+
+:::

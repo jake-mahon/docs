@@ -10,7 +10,7 @@ From this section, you can create Denylists and Allowlists that can be used in b
 Aware Protection and eDiscovery modules. Once deﬁned, these lists can be enabled for a speciﬁc
 policy.
 
-Denylists and Allowlists Availability
+**Denylists and Allowlists Availability**
 
 | Type           | Name                   | Windows Platform                | macOS Platform | Linux Platform | Content Aware Protection Module | eDiscovery Module |
 | -------------- | ---------------------- | ------------------------------- | -------------- | -------------- | ------------------------------- | ----------------- |
@@ -30,8 +30,14 @@ Denylists and Allowlists Availability
 | Allowlists     | Deep Packet Inspection | Yes                             | Yes            | Yes            | Yes                             | No                |
 | URL Categories | URL Categories         | Yes                             | Yes            | Yes            | Yes                             | No                |
 
-**_RECOMMENDED:_** Endpoint Protector 5.9.4+ supports larger lists, but extensive use can impact
+:::info
+Endpoint Protector 5.9.4+ supports larger lists, but extensive use can impact
 performance. Use the minimum number of lists with reasonable entries for optimal performance.
+:::
 
-**NOTE:** The Allowlist/Network Shares retain the old limit of 15 dictionaries, with 10 items per
+
+:::note
+The Allowlist/Network Shares retain the old limit of 15 dictionaries, with 10 items per
 dictionary.
+
+:::

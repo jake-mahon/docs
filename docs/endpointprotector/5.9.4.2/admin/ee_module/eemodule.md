@@ -20,14 +20,20 @@ conﬁgured or via a Master Password set by the Endpoint Protector administrator
 can be opened by any user only after it is decrypted, therefore requiring the user to copy the
 information out of Enforced Encryption.
 
-**CAUTION:** Enforced Encryption is not compatible with devices that have a write-protection
+:::warning
+Enforced Encryption is not compatible with devices that have a write-protection
 mechanism in place, preventing the modiﬁcation or deletion of data. The write-protection mechanism
 can be enforced using a hardware component (for example a switch on the USB device) or a software
 component.
+:::
 
-**NOTE:** While Endpoint Protector can detect any Enforced Encryption USB encrypted device as a
+
+:::note
+While Endpoint Protector can detect any Enforced Encryption USB encrypted device as a
 Trusted Device™ Level 1, to use the Enforced Encryption feature, a speciﬁc Enforced Encryption
 version must be used. This is available for the Endpoint Protector User Interface.
+:::
+
 
 Enforced Encryption works on read-only mode if the device was formatted on Windows, the Enforced
 Encryption conﬁgured on Windows or some ﬁles were encrypted on Windows. On macOS, these ﬁles can be
@@ -49,15 +55,21 @@ executed from the root of the device. Due to extended security features for manu
 Enforced Encryption will have to be redownloaded from the Endpoint Protector interface each time it
 will be used to encrypt a new USB storage device.
 
-**NOTE:** Starting with Endpoint Protector 5.2.0.0, manual deployment can also be made by the user
+:::note
+Starting with Endpoint Protector 5.2.0.0, manual deployment can also be made by the user
 if the device is set on Allow Access, by pressing the small USB icon- Encrypt Device with Enforced
 Encryption.
+:::
+
 
 Both Enforced Encryption deployments are straightforward and require the user only to conﬁgure a
 password.
 
-**NOTE:** On Macs, USB storage devices with multiple partitions are not supported by Enforced
+:::note
+On Macs, USB storage devices with multiple partitions are not supported by Enforced
 Encryption and Trusted Device™ Level 1.
+:::
+
 
 ## Enforced Encryption Settings
 
@@ -101,8 +113,11 @@ Protector Client is present and the File Shadowing option is enabled on the comp
 events occur – through the Device Control module. This is a real-time event and no shadowing
 information is stored on the device at any given time.
 
-**NOTE:** Enabling global File Tracing will not automatically activate the File Tracing option on
+:::note
+Enabling global File Tracing will not automatically activate the File Tracing option on
 Enforced Encryption Trusted Device™ and vice versa.
+:::
+
 
 ### Enforced Encryption Clients
 
@@ -141,8 +156,11 @@ be unusable. There are four levels of security for Trusted Device™:
   will be automatically deployed on USB storage devices plugged into computers where the Endpoint
   ProtectorEndpoint Protector Client is present.
 
-**NOTE:** If a Trusted Device™ Level 1 right is enabled and a Trusted Device™ level 2, 3 or 4 is
+:::note
+If a Trusted Device™ Level 1 right is enabled and a Trusted Device™ level 2, 3 or 4 is
 connected, the right will apply accordingly.
+:::
+
 
 The table below provides a list of Trusted Device™:
 

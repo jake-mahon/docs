@@ -12,8 +12,11 @@ a global level to an externalized location, the File Shadows Repositories.
 You can create multiple File Shadow Repositories and deﬁne how each endpoint manages the File
 Shadows based on department and repository type.
 
-**NOTE:** In Endpoint Protector, the Department deﬁnes a collection of entities with the same
+:::note
+In Endpoint Protector, the Department deﬁnes a collection of entities with the same
 attributes. It should not be confused with the department from an organizational chart.
+:::
+
 
 Starting with Endpoint Protector Server version 5.8.0.0, ﬁle shadowing was made more reliable on
 macOS and Linux by ﬁrst relying on OS features to transfer the ﬁles.
@@ -34,23 +37,35 @@ To create a File Shadow Repository, click **Add** and then provide the following
 - Repository Type – select the type of repository, FTP, Samba (smbv1), Azure File Storage and Samba
   (smbv2) or S3 Bucket
 
-**NOTE:** If you select S3 Bucket type, the information required to create a File Shadow Repository
+:::note
+If you select S3 Bucket type, the information required to create a File Shadow Repository
 will differ. Read more on S3 Buckets File Shadow Repository in the following section.
+:::
 
-**NOTE:** The minimum permissions required for Samba shares is 750 (case owner has full access and
+
+:::note
+The minimum permissions required for Samba shares is 750 (case owner has full access and
 the Group has only Read and Execute).
+:::
+
 
 - Repository IP Address – add the File Shadow Repository IP address
 - Port – add the port used by the File Shadow Repository
 
-**NOTE:** You are not required to deﬁne the port for Samba (smbv1) or Azure File Storage and Samba
+:::note
+You are not required to deﬁne the port for Samba (smbv1) or Azure File Storage and Samba
 (smbv2) repositories.
+:::
+
 
 - Folder Path – add the folder path where File Shadows will be saved
 - Username and Password – add the repository credentials
 
-**NOTE:** If you are using the Samba V1 protocol for File Shadows on Mac, make sure that NTLMv1
+:::note
+If you are using the Samba V1 protocol for File Shadows on Mac, make sure that NTLMv1
 authorization is set on the Samba server.
+:::
+
 
 ![Enable the Endpoint Protector Client to send File Shadows directly](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/fileshadowrepository.webp)
 
@@ -64,9 +79,12 @@ using the provided credentials.
 - S3 Bucket Repository (Indirect Artefact Retrieval) – The "Test" button checks key, secret_key, and
   validates bucket region and name if authentication response was successful.
 
-**NOTE:** The Test Connection for S3 Bucket (Direct Artefact Retrieval), Samba v1, Samba v2, and
+:::note
+The Test Connection for S3 Bucket (Direct Artefact Retrieval), Samba v1, Samba v2, and
 Azure File Storage Repository is not supported due to additional 3rd Party requirements, such as IP
 Whitelisting, smbclient, etc.
+:::
+
 
 This enhancement aims to make the testing process more transparent and eﬃcient for FTP and S3 bucket
 repositories while considering the speciﬁc requirements of each repository type.
@@ -94,7 +112,7 @@ information:
 
 Select the artifacts retrieval method:
 
-Indirect Artefact Retrieval
+**Indirect Artefact Retrieval**
 
 This is the recommended and most secure option to retrieve artifacts via the Endpoint Protector
 Server.
@@ -105,9 +123,12 @@ message: "The object object_name does not exist in the S3 Bucket Repository." In
 ﬁle's existence, a subsequent request to AWS is made to obtain a pre-assigned URL for the shadow,
 which is then used to initiate the shadow download.
 
-**NOTE:** The Endpoint Protector server does not acquire a copy of the shadow at any point during
+:::note
+The Endpoint Protector server does not acquire a copy of the shadow at any point during
 this transaction. It only receives conﬁrmation that the shadow exists in the S3 Bucket repository.
 Users then download the shadows directly from the S3 bucket using a preassigned URL provided by AWS.
+:::
+
 
 You can download or delete an object using SDK, which limits the regions available to the following:
 
@@ -121,15 +142,18 @@ You can download or delete an object using SDK, which limits the regions availab
 - us-gov1-west-1 - United States GovCloud
 - ﬁps-us-gov-west-1 - United States GovCloud FIPS 140-2
 
-Direct Artifact Retrieval
+**Direct Artifact Retrieval**
 
 This option is dedicated to globally distributed Endpoint Protector deployment. This method will
 establish a direct connection from the system administrator’s computer to the S3 Bucket Repository
 and initiate direct artifact download.
 
-**NOTE:** To set up the S3 bucket repository using both the Direct and Indirect methods,
+:::note
+To set up the S3 bucket repository using both the Direct and Indirect methods,
 administrators are required to specify the 'Bucket Name' and generate the 'Access Key ID' and
 'Secret Access Key' through AWS administration.
+:::
+
 
 To use the direct artifact retrieval method, add the Endpoint Protector Server IP in the S3 Bucket
 whitelist as detailed below.
@@ -139,15 +163,21 @@ and the Content Aware Report page using the Actions column.
 
 When a file is uploaded, an External Repository Upload log will be displayed.
 
-**CAUTION:** File shadows contained in the S3 Bucket (File Shadow Repository) will not be included
+:::warning
+File shadows contained in the S3 Bucket (File Shadow Repository) will not be included
 in the Audit.
+:::
+
 
 ![S3 Bucket File Shadow Repository](/img/product_docs/endpointprotector/5.9.4.2/admin/systemmaintenance/fileshadowrepositorytwo.webp)
 
-**NOTE:** In the scenario where there may be an unreliable network, the Client will attempt to
+:::note
+In the scenario where there may be an unreliable network, the Client will attempt to
 upload the artifact 10 times before the guard-rail will stop upload attempts. This will delete the
 File Shadow from the queue to ensure endpoint performance, disk space utilization, and mobile
 transfer limits are not affected.
+:::
+
 
 ### Domain Whitelisting
 
@@ -229,8 +259,11 @@ Explanation:
 - "Resource" – arn:aws:s3:::your-bucket-name/"" designates the ARN (Amazon Resource Name) of objects
   in your bucket. Replace "your-bucket-name" with your actual bucket name.
 
-    **CAUTION:** It is crucial to append / at the end of the bucket ARN, as the AWS generator does
+    :::warning
+    It is crucial to append / at the end of the bucket ARN, as the AWS generator does
     not include it by default.
+    :::
+
 
 - "Condition" is where you specify the IP address condition.
 - For the “GetObject” method (Download action from Endpoint Protector) – this method requires the
@@ -256,37 +289,37 @@ in the following situations:
 
 ### File naming and structure
 
-File name convention
+**File name convention**
 
 The ﬁle names will be uploaded to the S3 Bucket with URLs encoded to avoid issues with special
 characters. The Endpoint Protector Server will then decode to display the original name.
 
 Example:
 
-File name
+**File name**
 
 ```
 canada_&$@=;/+ ,?{^}%`]>[~<#|_山人é口ŏ刀ā木ù日ì月è女ǚ子ĭ馬/马鳥/鸟niǎ目ù水 .txt
 ```
 
-File name displayed in AWS S3 Bucket
+**File name displayed in AWS S3 Bucket**
 
 ln4w7yuqax-dev-client-bucket/2022-11-23/ComputerName/canada*%26%24%40%3D%3B%3
 A%2B%20%2C%3F%5C%7B%5E%7D%25%60%5D%3E%5B~%3C%23%7C*%E5%B1%B1%E4%B
 A%BAe%CC%81%E5%8F%A3o%CC%86%E5%88%80a%CC%84%E6%9C%A8u%CC%80%E6%9
 7%A5i%CC%80%E6%9C%88e%CC%80%E5%A5%B3u%CC%88%CC%8C%E5%AD%90i%CC%86
 
-%E9%A6%AC%3A%E9%A9%AC%E9%B3%A5%3A%E9%B8%9Fnia%CC%8C%E7%9B%AEu%CC
+**%E9%A6%AC%3A%E9%A9%AC%E9%B3%A5%3A%E9%B8%9Fnia%CC%8C%E7%9B%AEu%CC**
 
 %80%E6%B0%B4%20.txt
 
 File name and special characters from the computer name and location will also be encoded.
 
-File name structure
+**File name structure**
 
 Default ﬁle name structure:
 
-bucketName/CurrentDate/ComputerName
+**bucketName/CurrentDate/ComputerName**
 
 - bucket name (ln4w7yuqax-dev-client-bucket)
 - current date in YYYY-MM-DD format (2022-11-23)
@@ -294,4 +327,4 @@ bucketName/CurrentDate/ComputerName
 
 File name structure with S3 Bucket location ﬁeld speciﬁed:
 
-bucketName/location/CurrentDate/ComputerName
+**bucketName/location/CurrentDate/ComputerName**

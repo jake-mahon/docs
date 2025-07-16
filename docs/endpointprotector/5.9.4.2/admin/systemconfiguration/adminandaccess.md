@@ -20,12 +20,12 @@ From this section you can view, create, manage and delete administrators.
 To create a new Administrator, under the table with existing administrators, click Create and then
 provide the following information:
 
-Administrator Details
+**Administrator Details**
 
 - Add the username and password, email, ﬁrst and last name, phone number and then select the UI
   language
 
-Account Settings
+**Account Settings**
 
 - Account is active – manage the account status
 - Login Attempt Restrictions – enforce a 5 to 10 minutes timeout for 5 to 10 unsuccessful login
@@ -34,8 +34,11 @@ Account Settings
 - Require password change at next login – request the administrator to change password at ﬁrst
   login; once the password is changed, this setting is automatically disabled.
 
-**CAUTION:** The Require password change at next login setting is ignored in the following
+:::warning
+The Require password change at next login setting is ignored in the following
 situations:
+:::
+
 
 1. When the Enforce all administrator password security at next login setting is also enabled from
    System Conﬁguration, System Security, then Require password change at next login is ignored and
@@ -47,7 +50,7 @@ situations:
 - Schedule Exports Alert – receive alerts on any scheduled exports
 - Ignore AD Authentication – allow using AD credentials to login Endpoint Protector
 
-Super Administrator Details
+**Super Administrator Details**
 
 - Super Administrator – enable this section to grant the Administrator access to all Departments and
   Endpoint Protector sections
@@ -119,7 +122,10 @@ To create a new Administrators Group, click Create and then provide the followin
 - Name – add a name for the new Administrators Group
 - Roles – select one or more roles from the list
 
-**CAUTION:** The Read Only role cannot be combined with any other roles!
+:::warning
+The Read Only role cannot be combined with any other roles!
+:::
+
 
 - Description – add a description of the new Administrators Group
 - Select Administrators – add one or more Administrators to this group
@@ -127,8 +133,11 @@ To create a new Administrators Group, click Create and then provide the followin
 You can also add Administrators to an Administrator Group when creating an Administrator from System
 Conﬁguration, Systems Administrators section, on the Managed Administrators Groups ﬁeld.
 
-**NOTE:** The Support section will always be available in Endpoint Protector regardless of the role
+:::note
+The Support section will always be available in Endpoint Protector regardless of the role
 you assign to the Administrator Group.
+:::
+
 
 ![Administrators Groups](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/administratorsgroups.webp)
 
@@ -145,9 +154,12 @@ Within the Endpoint Protector, there are several different user roles, each with
 permissions. The Super Administrator role is the most powerful and has access to all features,
 whilst other roles have more restricted access based on their job tasks.
 
-**NOTE:** Each of the aforementioned roles can be assigned to a department. When in read-only mode,
+:::note
+Each of the aforementioned roles can be assigned to a department. When in read-only mode,
 users are only given viewing options. This guarantees that they can obtain essential information but
 are unable to alter the system.
+:::
+
 
 ## Two Factor Authentication
 
@@ -176,15 +188,21 @@ The functionality becomes useful mainly in large installations, with a high numb
 and, where strict regulatory compliance rules are in place. Under these circumstances, departments
 can be created, allowing each Normal Administrators to only manage their own entities.
 
-**CAUTION:** This functionality should not be confused with Groups of computers and users, nor with
+:::warning
+This functionality should not be confused with Groups of computers and users, nor with
 administrators’ roles.
+:::
+
 
 ![System Departments](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/systemdepartments.webp)
 
 To create a new department click Create and then provide a name, description and unique code.
 
-**NOTE:** If you provide a wrong department code or none at all, the department code is considered
+:::note
+If you provide a wrong department code or none at all, the department code is considered
 invalid and that computer will be assigned to the default department (defdep).
+:::
+
 
 ![Create a new department click Create and then provide a name, description and unique code](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/newdepartment.webp)
 

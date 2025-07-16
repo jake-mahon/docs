@@ -17,8 +17,11 @@ accidental or intentional ﬁle transfers of sensitive company data, such as:
 - Conﬁdential ﬁles: sales and marketing reports, technical documents, accounting documents, customer
   databases, etc.
 
-**CAUTION:** Endpoint Protector cannot scan encrypted ﬁles or applications that use encryption to
+:::warning
+Endpoint Protector cannot scan encrypted ﬁles or applications that use encryption to
 secure communication.
+:::
+
 
 To prevent sensitive data leakage, Endpoint Protector closely monitors all activity at various exit
 points:
@@ -39,13 +42,19 @@ Content Aware Protection comes as the second level of data protection available 
 Protector. The module is displayed but requires a simple activation by pressing the Enable button.
 If not previously provided, the contact details of the Main Administrator will be required.
 
-**NOTE:** Any details provided will only be used to ensure the Live Update Server is conﬁgured
+:::note
+Any details provided will only be used to ensure the Live Update Server is conﬁgured
 correctly and that the Content Aware Protection module was enabled successfully.
+:::
+
 
 ![The module is displayed but requires a simple activation by pressing the Enable button](/img/product_docs/endpointprotector/5.9.4.2/admin/contentawareprotection/activation.webp)
 
-**NOTE:** The Content Aware Protection module is separate from Device Control or eDiscovery modules,
+:::note
+The Content Aware Protection module is separate from Device Control or eDiscovery modules,
 and requires separate licensing.
+:::
+
 
 ## Dashboard
 
