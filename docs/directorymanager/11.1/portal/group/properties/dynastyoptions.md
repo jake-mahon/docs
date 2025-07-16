@@ -158,10 +158,10 @@ length must not exceed the number of characters supported by the respective mess
 Also, the alias must not contain characters that are invalid for the configured messaging system.
 The following table lists the valid characters the supported messaging systems.
 
-| Messaging System                                                 | Valid Characters                                                                                                                                                                                                                                                                                                            |
-| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exchange Server 2013, Exchange Server 2016, Exchange Server 2019 | <ul><li>Uppercase letters (`A–Z`)</li><li>Lowercase letters (`a–z`)</li><li>Numeric digits (`0–9`)</li><li>Special characters: `#`, `$`, `%`, `&`, `'`, `*`, `+`, `-`, `/`, `=`, `?`, `^`, `_`, `` ` ``, `\{`, `\</li></ul>                                                                                                 | `, `\}`, `~` <ul><li>Periods (`.`) are allowed in aliases, but each must be preceded and followed by at least one other valid character</li></ul> |
-| All other messaging systems                                      | <ul><li>Uppercase letters (`A–Z`)</li><li>Lowercase letters (`a–z`)</li><li>Numeric digits (`0–9`)</li></ul>                                                                                                                                                                                                                |
+| Messaging System | Valid Characters |
+| --- | --- | ---|
+| Exchange Server 2013, Exchange Server 2016, Exchange Server 2019 | <ul><li>Uppercase letters (`A–Z`)</li><li>Lowercase letters (`a–z`)</li><li>Numeric digits (`0–9`)</li><li>Special characters: `(`#`, `$`, `%`, `&`, `'`, `*`, `+`, `-`, `/`, `=`, `?`, `^`, `_`, `` ` ``, `{`, `|` `}` or `~`). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters</li></ul>  |
+| All other messaging systems | <ul><li>Uppercase letters (`A–Z`)</li><li>Lowercase letters (`a–z`)</li><li>Numeric digits (`0–9`)</li></ul> |
 
 
 **Display Name Template**
