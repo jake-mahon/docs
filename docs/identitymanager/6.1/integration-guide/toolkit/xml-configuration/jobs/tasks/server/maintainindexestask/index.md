@@ -12,7 +12,7 @@ Maintain indexes and update statistics for all database tables. Also cleans up d
 
 ```
 
-  <MaintainIndexesTask Identifier="IndexMaintenance" DisplayName_L1="Index and Statistics maintenance />
+**<MaintainIndexesTask Identifier="IndexMaintenance" DisplayName_L1="Index and Statistics maintenance />**
 
 ```
 

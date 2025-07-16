@@ -13,7 +13,7 @@ screen.
 
 ```
 
-  <MonitoringAdministrationAccessControlRules Profile="Administrator"/>
+**<MonitoringAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

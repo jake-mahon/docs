@@ -18,7 +18,7 @@ The following example builds a universe called `Universe1`:
 
 ```
 
-<Universe Identifier="Universe1" DisplayName_L1="Universe 1" >
+**<Universe Identifier="Universe1" DisplayName_L1="Universe 1" >**
 
     <EntityInstance Identifier="Directory_User" EntityType="Directory_User" DisplayName_L1="Users" />    <EntityInstance Identifier="Directory_UserRecord" EntityType="Directory_UserRecord" DisplayName_L1="UserRecords" />    <AssociationInstance Association="Directory_UserRecord_User_Records" Instance1="Directory_User" Instance2="Directory_UserRecord" Direction="From1To2" /></Universe>
 
@@ -62,7 +62,7 @@ we see the following:
 ## Child Element: Association Instance
 
 An association instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -76,7 +76,7 @@ An association instance represents, within a Universe , the occurrence in the mo
 ## Child Element: Entity Instance
 
 An entity instance represents, within a Universe , the occurrence in the model of an
-[ Entity Association ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 

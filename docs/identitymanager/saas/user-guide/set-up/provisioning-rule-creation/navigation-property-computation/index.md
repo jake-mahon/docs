@@ -17,7 +17,7 @@ Sources are usually identities, and targets are usually accounts from the manage
 
 Here, we are going to compute the values of navigation properties for the target resources used in
 entitlement management, based on source resources. See
-the[ Define Navigation Properties ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)
+the[Define Navigation Properties](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)
 topic for additional information. We are going to provision these properties, i.e. write them to the
 managed system. See the [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) topic for
 additional information.
@@ -67,16 +67,16 @@ entity type itself). Let's call this entity type the "other" one.
 
 The application of a navigation rule can depend on the assignment of a single role, and/or user
 dimensions. See
-the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
+the[Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
 additional information on the assignment of a single role and
-[ Conforming Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
+[Conforming Assignments](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
 topic for additional information on dimensions.
 
 A query rule does not use criteria as it is designed to compute a given navigation property for all
 existing resources in a given resource type. However, in case of several query rules on a same
 property, the application of a query rule depends on its confidence rate and the corresponding
 priority it receives compared to other query rules. See the
-[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
+[Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
 information.
 
 While both navigation and query rules compute navigation properties, the value of one navigation
@@ -102,14 +102,17 @@ accounts.
 A navigation rule will trigger the creation of a target resource for all impacted source resources
 (so all users), which are not yet correlated with a resource of this resource type.
 
-**NOTE:** A query rule does not create resources, and only computes the navigation properties of
+:::note
+A query rule does not create resources, and only computes the navigation properties of
 existing resources.
+:::
+
 
 ## Guidelines
 
 Follow these guidelines when configuring navigation properties.
 
-Expression code must not contain too much data
+**Expression code must not contain too much data**
 
 Once configured, a rule is a complicated object to modify. Therefore, you must keep business data in
 the resource and out of the expression. It is easier to change data than to change a rule.
@@ -127,7 +130,7 @@ the resource and out of the expression. It is easier to change data than to chan
 > expression remains simple by using the new objects, for example
 > `Email = FirstName + "." + LastName + "@" + Company + "." + DomainName`.
 
-Priority between navigation/query rules
+**Priority between navigation/query rules**
 
 When creating navigation and query priorities, follow these rules:
 
@@ -141,7 +144,7 @@ When creating navigation and query priorities, follow these rules:
 
 For a given managed system, integrators may need the help of the application owner who knows the
 application users, entitlements and data model. See the
-[ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+[Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
 
 | Input                     | Output                       |
 | ------------------------- | ---------------------------- |
@@ -229,7 +232,7 @@ Once the `Resource Type` is provided, more fields appear.
   example, account activation and deactivation can be managed according to the start and/or end
   dates.
 - `Confidence Rate`: rate expressing the confidence in this link, and its priority order. See
-  the[ Classify Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
+  the[Classify Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/classification/index.md) topic for additional
   information.
 
 > Our examples would look like:
@@ -260,7 +263,7 @@ system.
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in navigation and query rules. See the
-[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
+[Perform a Simulation](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Verify Rule Creation
 
@@ -283,7 +286,7 @@ the **Role Reconciliation** screen) to help check query rules: if there are nume
 be reconciled following the same pattern, then there may be a rule that needs to be changed.
 
 See
-the[ Review an Unauthorized Account ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md)
+the[Review an Unauthorized Account](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md)
 and
-the[ Reconcile a Role ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+the[Reconcile a Role](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
 topics for additional information.

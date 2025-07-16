@@ -18,7 +18,7 @@ Identity Manager (formerly Usercube) version.
 
 ## Netwrix Identity Manager (formerly Usercube) November 25, 2024
 
-New: Assigned Roles View
+**New: Assigned Roles View**
 
 The new Assigned Roles page provides a role-centric view, displaying the list of users with
 permissions in a specified role category and including a downloadable report. This feature is
@@ -26,7 +26,7 @@ currently in read-only preview, with additional functionality planned for the ne
 [Review Assigned Roles](/docs/identitymanager/6.2/user-guide/administrate/assigned-roles/index.md) topic for additional
 information.
 
-New: Context-Bound Manual Permissions
+**New: Context-Bound Manual Permissions**
 
 Manual permission assignments can now be configured to be tied to a context end date using
 ‘ManualAssignmentEndDateLockedToContext’. For example, a contractor's manual permissions can be
@@ -37,7 +37,7 @@ and
 [Remove Redundant Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md)
 topics for additional information.
 
-New: Suggested Multiple Correlations
+**New: Suggested Multiple Correlations**
 
 A new option allows multi-correlation resource types to propose correlations with less than 100%
 confidence. This behavior is controlled by the new boolean ‘SuggestAllCorrellations’. The default
@@ -46,14 +46,14 @@ lower-confidence suggestions. See the
 [Resource Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topic for additional information.
 
-Enhancement: Access Control and Workflows
+**Enhancement: Access Control and Workflows**
 
 The maximum number of workflow actors is now configurable via the ‘MaxActors’ key in the
 ‘appsettings.json’ file. The default value of 20 can now be increased up to 50. See the
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
-Enhancement: Certifications and Risks
+**Enhancement: Certifications and Risks**
 
 Extra options on certification screens (visible on the "..." button) can now be hidden by setting
 **Only allow approving and refusing on access certifications items** to **Yes**. This will leave
@@ -61,19 +61,19 @@ only the **Approve** and **Deny** buttons visible. The default setting is **No**
 [Configure Global Settings](/docs/identitymanager/6.2/user-guide/set-up/configure-global-settings/index.md) topic for
 additional information.
 
-Enhancement: Connectors and Integrations
+**Enhancement: Connectors and Integrations**
 
 Two new settings, ‘MaxPageSize’ and ‘DefaultPageSize’, have been introduced to control and optimize
 API call sizes. See the
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
-Enhancement: Jobs and Policy
+**Enhancement: Jobs and Policy**
 
 Manual correlations for resources with multiple correlations can now be performed from the Resource
 Reconciliation screen.
 
-Enhancement: Logs / Performance / Security
+**Enhancement: Logs / Performance / Security**
 
 Incompatible C# expressions in the configuration will now be flagged during configuration imports. A
 new tool, ‘Identity Manager-Check-ExpressionsConsistency’, has been introduced to help identify
@@ -89,11 +89,11 @@ of full evaluation modes, evaluating only necessary entity types, and avoiding r
 executions. Existing jobs are whitelisted, but new non-compliant jobs will generate errors during
 configuration imports.
 
-Enhancement: UI / UX
+**Enhancement: UI / UX**
 
 Various user interface improvements, including better tooltips on the Role Review screen.
 
-Enhancement: Other
+**Enhancement: Other**
 
 The ‘Identity Manager-Export-Bacpac’ tool now allows finer control over data extraction and
 anonymization options. See the

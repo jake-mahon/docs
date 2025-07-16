@@ -71,8 +71,11 @@ And with the following form for the data that groups records together:
 
 ```
 
-**NOTE:** `WorkflowUpdateRecordEntity` used in config Delete mode (`IsDelete=True`) will delete
+:::note
+`WorkflowUpdateRecordEntity` used in config Delete mode (`IsDelete=True`) will delete
 systematically the main resource and all the associated records.
+:::
+
 
 The contents of `MainControl` and `RecordControl` are visible during the workflow's execution:
 

@@ -141,7 +141,7 @@ Load identities for the first time by proceeding as follows:
     1. Upload the `Directory.xlsx` file with only recommended data, validate and synchronize as
        explained on this page.
     2. Connect the AD, synchronize AD data, update correlation and classification. See the
-       [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
+       [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
     3. Follow the usual query procedure to request phone numbers from the AD.
     4. Ensure you display a key (for example `EmployeeId` or `email`) to master the order of the
        displayed data.

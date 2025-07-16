@@ -70,4 +70,4 @@ Configure the application pool and site by proceeding as follows:
 
 ## Next Steps
 
-To continue, [ Set the Working Directory's Permissions ](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/directory-permissions/index.md).
+To continue, [Set the Working Directory's Permissions](/docs/identitymanager/saas/user-guide/deploy/production-agent-installation/directory-permissions/index.md).

@@ -11,7 +11,7 @@ resource with several records.
 
 ## Declare a Workflow
 
-This [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of four
+This [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is made of four
 activities:
 
 1. `Action With Refine`: sends the creation request with a possibility of delegation.
@@ -21,7 +21,7 @@ activities:
    from another user.
 4. `Persist`: saves the collected data and triggers provisioning.
 
-See the [ Activity Templates ](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
+See the [Activity Templates](/docs/identitymanager/saas/integration-guide/workflows/activity-templates/index.md) topic for additional information.
 
 The example below creates a workflow to create a new helpdesk worker, with the possibility to create
 several records at once for said worker.
@@ -103,7 +103,7 @@ would be part of the form called by `RecordUniqueItemControl` instead of `Record
 In a situation where positions, contracts and personal data are all configured as records because we
 want to be able to anticipate changes for example, then there would not be any data shared by all
 records. Then `RecordControl` would be empty. See the
-[ Position Change via Records ](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)
+[Position Change via Records](/docs/identitymanager/saas/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)
 topic for additional information.
 
 > ```
@@ -131,7 +131,7 @@ topic for additional information.
 ## Assign the Right Permissions
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
-users. Read about [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
+users. Read about [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)s
 permissions.
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
@@ -139,7 +139,7 @@ for the whole creation request and review from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Helpdesk_Directory_User_New*" DisplayName_L1="Administrator_Workflows_Helpdesk_Directory_User_New*">
+**<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Helpdesk_Directory_User_New*" DisplayName_L1="Administrator_Workflows_Helpdesk_Directory_User_New*">**
 
   Permissions for the Request activity:
   <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Purged" CanExecute="true" />
@@ -151,7 +151,7 @@ for the whole creation request and review from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[ Menu Item ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
+[Menu Item](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md) must be defined
 to make the workflow accessible in the UI.
 
 Creating a new resource, an interesting location for this workflow could be the users list page.

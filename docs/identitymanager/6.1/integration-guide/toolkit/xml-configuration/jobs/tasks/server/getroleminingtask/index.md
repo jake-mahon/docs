@@ -19,7 +19,7 @@ SingleRoles and CompositesRoles and set it up in the system.
 
 ```
 
-<GetRoleMiningTask DisplayName_L1="Apply Mining Rules">  <TaskEntityType EntityType="Directory_User"/></GetRoleMiningTask>
+**<GetRoleMiningTask DisplayName_L1="Apply Mining Rules">  <TaskEntityType EntityType="Directory_User"/></GetRoleMiningTask>**
 
 ```
 

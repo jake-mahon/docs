@@ -13,7 +13,7 @@ topic for additional information.
 
 ## Overview
 
-[ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) led to the grouping of resources into resource
+[Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) led to the grouping of resources into resource
 types (classification), and the establishment of source-to-target relationships between these
 resources (correlation).
 
@@ -38,7 +38,7 @@ resources (identities).
 
 In testing mode, the impacted resource types can be configured to block provisioning, by adding a
 mandatory review before actually writing to the managed system. See the
-[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional
+[Create a Resource Type](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional
 information.
 
 ## Participants and Artifacts
@@ -50,19 +50,19 @@ application users, entitlements and data model.
 | ------------------------- | ----------------------------------------- |
 | Categorization (required) | Scalar rules Navigation rules Query rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create Provisioning Rules
 
-- [ Create Resources ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/resource-creation/index.md)type rules to automatically create resources.
+- [Create Resources](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/resource-creation/index.md)type rules to automatically create resources.
 - [Compute a Scalar Property](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.md) to compute scalar properties;
 - Create navigation and/or query rules to compute navigation properties.
 
 Netwrix Identity Manager (formerly Usercube) recommends creating/modifying/deleting provisioning
 rules using simulations in order to anticipate changes. See the
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
+[Perform a Simulation](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Next Steps
 
 Once provisioning rules are created, integrators can start
-to[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).
+to[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md).

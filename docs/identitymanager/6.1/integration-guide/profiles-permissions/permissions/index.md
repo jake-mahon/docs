@@ -8,15 +8,15 @@ sidebar_position: 10
 
 ### /AccessCertification/AccessCertificationCampaign/Create
 
-Permission to create objects of type AccessCertificationCampaign
+**Permission to create objects of type AccessCertificationCampaign**
 
 ### /AccessCertification/AccessCertificationCampaign/Delete
 
-Permission to delete objects of type AccessCertificationCampaign
+**Permission to delete objects of type AccessCertificationCampaign**
 
 ### /AccessCertification/AccessCertificationCampaign/Process
 
-Permission to process AccessCertificationCampaign decisions
+**Permission to process AccessCertificationCampaign decisions**
 
 ### /AccessCertification/AccessCertificationCampaign/Query
 
@@ -24,7 +24,7 @@ Permission to query and read objects of type AccessCertificationCampaign
 
 ### /AccessCertification/AccessCertificationCampaign/Update
 
-Permission to update objects of type AccessCertificationCampaign
+**Permission to update objects of type AccessCertificationCampaign**
 
 ### /AccessCertification/AccessCertificationCampaignPolicy/Query
 
@@ -32,11 +32,11 @@ Permission to query and read objects of type AccessCertificationCampaignPolicy
 
 ### /AccessControl/AccessControlEntry/Create
 
-Permission to create objects of type AccessControlEntry
+**Permission to create objects of type AccessControlEntry**
 
 ### /AccessControl/AccessControlEntry/Delete
 
-Permission to delete objects of type AccessControlEntry
+**Permission to delete objects of type AccessControlEntry**
 
 ### /AccessControl/AccessControlEntry/Query
 
@@ -44,15 +44,15 @@ Permission to query and read objects of type AccessControlEntry
 
 ### /AccessControl/AccessControlEntry/Update
 
-Permission to update objects of type AccessControlEntry
+**Permission to update objects of type AccessControlEntry**
 
 ### /AccessControl/AccessControlFilter/Create
 
-Permission to create objects of type AccessControlFilter
+**Permission to create objects of type AccessControlFilter**
 
 ### /AccessControl/AccessControlFilter/Delete
 
-Permission to delete objects of type AccessControlFilter
+**Permission to delete objects of type AccessControlFilter**
 
 ### /AccessControl/AccessControlFilter/Query
 
@@ -60,7 +60,7 @@ Permission to query and read objects of type AccessControlFilter
 
 ### /AccessControl/AccessControlFilter/Update
 
-Permission to update objects of type AccessControlFilter
+**Permission to update objects of type AccessControlFilter**
 
 ### /AccessControl/AccessControlPermission/Query
 
@@ -68,11 +68,11 @@ Permission to query and read objects of type AccessControlPermission
 
 ### /AccessControl/AccessControlRule/Create
 
-Permission to create objects of type AccessControlRule
+**Permission to create objects of type AccessControlRule**
 
 ### /AccessControl/AccessControlRule/Delete
 
-Permission to delete objects of type AccessControlRule
+**Permission to delete objects of type AccessControlRule**
 
 ### /AccessControl/AccessControlRule/Query
 
@@ -80,15 +80,15 @@ Permission to query and read objects of type AccessControlRule
 
 ### /AccessControl/AccessControlRule/Update
 
-Permission to update objects of type AccessControlRule
+**Permission to update objects of type AccessControlRule**
 
 ### /AccessControl/AssignedProfile/Create
 
-Permission to create objects of type AssignedProfile
+**Permission to create objects of type AssignedProfile**
 
 ### /AccessControl/AssignedProfile/Delete
 
-Permission to delete objects of type AssignedProfile
+**Permission to delete objects of type AssignedProfile**
 
 ### /AccessControl/AssignedProfile/Query
 
@@ -96,15 +96,15 @@ Permission to query and read objects of type AssignedProfile
 
 ### /AccessControl/AssignedProfile/Update
 
-Permission to update objects of type AssignedProfile
+**Permission to update objects of type AssignedProfile**
 
 ### /AccessControl/OpenIdClient/Create
 
-Permission to create objects of type OpenIdClient
+**Permission to create objects of type OpenIdClient**
 
 ### /AccessControl/OpenIdClient/Delete
 
-Permission to delete objects of type OpenIdClient
+**Permission to delete objects of type OpenIdClient**
 
 ### /AccessControl/OpenIdClient/Query
 
@@ -112,15 +112,15 @@ Permission to query and read objects of type OpenIdClient
 
 ### /AccessControl/OpenIdClient/Update
 
-Permission to update objects of type OpenIdClient
+**Permission to update objects of type OpenIdClient**
 
 ### /AccessControl/Profile/Create
 
-Permission to create objects of type Profile
+**Permission to create objects of type Profile**
 
 ### /AccessControl/Profile/Delete
 
-Permission to delete objects of type Profile
+**Permission to delete objects of type Profile**
 
 ### /AccessControl/Profile/Query
 
@@ -128,7 +128,7 @@ Permission to query and read objects of type Profile
 
 ### /AccessControl/Profile/Update
 
-Permission to update objects of type Profile
+**Permission to update objects of type Profile**
 
 ### /AccessControl/ProfileRuleContext/Query
 
@@ -136,11 +136,11 @@ Permission to query and read objects of type ProfileRuleContext
 
 ### /Connectors/Agent/Create
 
-Permission to create objects of type Agent
+**Permission to create objects of type Agent**
 
 ### /Connectors/Agent/Delete
 
-Permission to delete objects of type Agent
+**Permission to delete objects of type Agent**
 
 ### /Connectors/Agent/Query
 
@@ -148,15 +148,15 @@ Permission to query and read objects of type Agent
 
 ### /Connectors/Agent/Update
 
-Permission to update objects of type Agent
+**Permission to update objects of type Agent**
 
 ### /Connectors/Connection/Create
 
-Permission to create objects of type Connection
+**Permission to create objects of type Connection**
 
 ### /Connectors/Connection/Delete
 
-Permission to delete objects of type Connection
+**Permission to delete objects of type Connection**
 
 ### /Connectors/Connection/Query
 
@@ -164,7 +164,7 @@ Permission to query and read objects of type Connection
 
 ### /Connectors/Connection/Update
 
-Permission to update objects of type Connection
+**Permission to update objects of type Connection**
 
 ### /Connectors/ConnectionColumn/Query
 
@@ -180,11 +180,11 @@ Permission to query and read objects of type ConnectionTable
 
 ### /Connectors/Connector/Create
 
-Permission to create objects of type Connector
+**Permission to create objects of type Connector**
 
 ### /Connectors/Connector/Delete
 
-Permission to delete objects of type Connector
+**Permission to delete objects of type Connector**
 
 ### /Connectors/Connector/Query
 
@@ -192,15 +192,15 @@ Permission to query and read objects of type Connector
 
 ### /Connectors/Connector/Update
 
-Permission to update objects of type Connector
+**Permission to update objects of type Connector**
 
 ### /Connectors/EntityAssociationMapping/Create
 
-Permission to create objects of type EntityAssociationMapping
+**Permission to create objects of type EntityAssociationMapping**
 
 ### /Connectors/EntityAssociationMapping/Delete
 
-Permission to delete objects of type EntityAssociationMapping
+**Permission to delete objects of type EntityAssociationMapping**
 
 ### /Connectors/EntityAssociationMapping/Query
 
@@ -208,15 +208,15 @@ Permission to query and read objects of type EntityAssociationMapping
 
 ### /Connectors/EntityAssociationMapping/Update
 
-Permission to update objects of type EntityAssociationMapping
+**Permission to update objects of type EntityAssociationMapping**
 
 ### /Connectors/EntityPropertyMapping/Create
 
-Permission to create objects of type EntityPropertyMapping
+**Permission to create objects of type EntityPropertyMapping**
 
 ### /Connectors/EntityPropertyMapping/Delete
 
-Permission to delete objects of type EntityPropertyMapping
+**Permission to delete objects of type EntityPropertyMapping**
 
 ### /Connectors/EntityPropertyMapping/Query
 
@@ -224,15 +224,15 @@ Permission to query and read objects of type EntityPropertyMapping
 
 ### /Connectors/EntityPropertyMapping/Update
 
-Permission to update objects of type EntityPropertyMapping
+**Permission to update objects of type EntityPropertyMapping**
 
 ### /Connectors/EntityTypeMapping/Create
 
-Permission to create objects of type EntityTypeMapping
+**Permission to create objects of type EntityTypeMapping**
 
 ### /Connectors/EntityTypeMapping/Delete
 
-Permission to delete objects of type EntityTypeMapping
+**Permission to delete objects of type EntityTypeMapping**
 
 ### /Connectors/EntityTypeMapping/Query
 
@@ -240,7 +240,7 @@ Permission to query and read objects of type EntityTypeMapping
 
 ### /Connectors/EntityTypeMapping/Update
 
-Permission to update objects of type EntityTypeMapping
+**Permission to update objects of type EntityTypeMapping**
 
 ### /Connectors/EntityTypeMappingByConnectorIdQuery/Query
 
@@ -450,11 +450,11 @@ recipient's type: `Profile`.
 
 ### /Jobs/Job/Create
 
-Permission to create objects of type Job
+**Permission to create objects of type Job**
 
 ### /Jobs/Job/Delete
 
-Permission to delete objects of type Job
+**Permission to delete objects of type Job**
 
 ### /Jobs/Job/Query
 
@@ -462,15 +462,15 @@ Permission to query and read objects of type Job
 
 ### /Jobs/Job/Update
 
-Permission to update objects of type Job
+**Permission to update objects of type Job**
 
 ### /Jobs/JobInstance/Create
 
-Permission to create objects of type JobInstance
+**Permission to create objects of type JobInstance**
 
 ### /Jobs/JobInstance/Delete
 
-Permission to delete objects of type JobInstance
+**Permission to delete objects of type JobInstance**
 
 ### /Jobs/JobInstance/Query
 
@@ -478,15 +478,15 @@ Permission to query and read objects of type JobInstance
 
 ### /Jobs/JobInstance/Update
 
-Permission to update objects of type JobInstance
+**Permission to update objects of type JobInstance**
 
 ### /Jobs/JobStep/Create
 
-Permission to create objects of type JobStep
+**Permission to create objects of type JobStep**
 
 ### /Jobs/JobStep/Delete
 
-Permission to delete objects of type JobStep
+**Permission to delete objects of type JobStep**
 
 ### /Jobs/JobStep/Query
 
@@ -494,11 +494,11 @@ Permission to query and read objects of type JobStep
 
 ### /Jobs/JobStep/Update
 
-Permission to update objects of type JobStep
+**Permission to update objects of type JobStep**
 
 ### /Jobs/RunJob/GetLog
 
-Read permission for JobLog
+**Read permission for JobLog**
 
 ### /Jobs/RunJob/Launch/Aborted
 
@@ -542,11 +542,11 @@ Permission to send notification for job relaunched which ends in state Warning
 
 ### /Jobs/Task/Create
 
-Permission to create objects of type Task
+**Permission to create objects of type Task**
 
 ### /Jobs/Task/Delete
 
-Permission to delete objects of type Task
+**Permission to delete objects of type Task**
 
 ### /Jobs/Task/Query
 
@@ -554,15 +554,15 @@ Permission to query and read objects of type Task
 
 ### /Jobs/Task/Update
 
-Permission to update objects of type Task
+**Permission to update objects of type Task**
 
 ### /Jobs/TaskDependOnTask/Create
 
-Permission to create objects of type TaskDependOnTask
+**Permission to create objects of type TaskDependOnTask**
 
 ### /Jobs/TaskDependOnTask/Delete
 
-Permission to delete objects of type TaskDependOnTask
+**Permission to delete objects of type TaskDependOnTask**
 
 ### /Jobs/TaskDependOnTask/Query
 
@@ -570,15 +570,15 @@ Permission to query and read objects of type TaskDependOnTask
 
 ### /Jobs/TaskDependOnTask/Update
 
-Permission to update objects of type TaskDependOnTask
+**Permission to update objects of type TaskDependOnTask**
 
 ### /Jobs/TaskDimension/Create
 
-Permission to create objects of type TaskDimension
+**Permission to create objects of type TaskDimension**
 
 ### /Jobs/TaskDimension/Delete
 
-Permission to delete objects of type TaskDimension
+**Permission to delete objects of type TaskDimension**
 
 ### /Jobs/TaskDimension/Query
 
@@ -586,15 +586,15 @@ Permission to query and read objects of type TaskDimension
 
 ### /Jobs/TaskDimension/Update
 
-Permission to update objects of type TaskDimension
+**Permission to update objects of type TaskDimension**
 
 ### /Jobs/TaskEntityType/Create
 
-Permission to create objects of type TaskEntityType
+**Permission to create objects of type TaskEntityType**
 
 ### /Jobs/TaskEntityType/Delete
 
-Permission to delete objects of type TaskEntityType
+**Permission to delete objects of type TaskEntityType**
 
 ### /Jobs/TaskEntityType/Query
 
@@ -602,7 +602,7 @@ Permission to query and read objects of type TaskEntityType
 
 ### /Jobs/TaskEntityType/Update
 
-Permission to update objects of type TaskEntityType
+**Permission to update objects of type TaskEntityType**
 
 ### /Jobs/TaskIdByIdentifiersQuery/Query
 
@@ -610,11 +610,11 @@ Permission to query and read objects of type TaskIdByIdentifiersQuery
 
 ### /Jobs/TaskInstance/Create
 
-Permission to create objects of type TaskInstance
+**Permission to create objects of type TaskInstance**
 
 ### /Jobs/TaskInstance/Delete
 
-Permission to delete objects of type TaskInstance
+**Permission to delete objects of type TaskInstance**
 
 ### /Jobs/TaskInstance/Query
 
@@ -622,15 +622,15 @@ Permission to query and read objects of type TaskInstance
 
 ### /Jobs/TaskInstance/Update
 
-Permission to update objects of type TaskInstance
+**Permission to update objects of type TaskInstance**
 
 ### /Jobs/TaskResourceType/Create
 
-Permission to create objects of type TaskResourceType
+**Permission to create objects of type TaskResourceType**
 
 ### /Jobs/TaskResourceType/Delete
 
-Permission to delete objects of type TaskResourceType
+**Permission to delete objects of type TaskResourceType**
 
 ### /Jobs/TaskResourceType/Query
 
@@ -638,15 +638,15 @@ Permission to query and read objects of type TaskResourceType
 
 ### /Jobs/TaskResourceType/Update
 
-Permission to update objects of type TaskResourceType
+**Permission to update objects of type TaskResourceType**
 
 ### /Metadata/Binding/Create
 
-Permission to create objects of type Binding
+**Permission to create objects of type Binding**
 
 ### /Metadata/Binding/Delete
 
-Permission to delete objects of type Binding
+**Permission to delete objects of type Binding**
 
 ### /Metadata/Binding/Query
 
@@ -654,7 +654,7 @@ Permission to query and read objects of type Binding
 
 ### /Metadata/Binding/Update
 
-Permission to update objects of type Binding
+**Permission to update objects of type Binding**
 
 ### /Metadata/BindingItem/Query
 
@@ -662,11 +662,11 @@ Permission to query and read objects of type BindingItem
 
 ### /Metadata/Dimension/Create
 
-Permission to create objects of type Dimension
+**Permission to create objects of type Dimension**
 
 ### /Metadata/Dimension/Delete
 
-Permission to delete objects of type Dimension
+**Permission to delete objects of type Dimension**
 
 ### /Metadata/Dimension/Query
 
@@ -674,15 +674,15 @@ Permission to query and read objects of type Dimension
 
 ### /Metadata/Dimension/Update
 
-Permission to update objects of type Dimension
+**Permission to update objects of type Dimension**
 
 ### /Metadata/EntityAssociation/Create
 
-Permission to create objects of type EntityAssociation
+**Permission to create objects of type EntityAssociation**
 
 ### /Metadata/EntityAssociation/Delete
 
-Permission to delete objects of type EntityAssociation
+**Permission to delete objects of type EntityAssociation**
 
 ### /Metadata/EntityAssociation/Query
 
@@ -690,15 +690,15 @@ Permission to query and read objects of type EntityAssociation
 
 ### /Metadata/EntityAssociation/Update
 
-Permission to update objects of type EntityAssociation
+**Permission to update objects of type EntityAssociation**
 
 ### /Metadata/EntityProperty/Create
 
-Permission to create objects of type EntityProperty
+**Permission to create objects of type EntityProperty**
 
 ### /Metadata/EntityProperty/Delete
 
-Permission to delete objects of type EntityProperty
+**Permission to delete objects of type EntityProperty**
 
 ### /Metadata/EntityProperty/Query
 
@@ -706,15 +706,15 @@ Permission to query and read objects of type EntityProperty
 
 ### /Metadata/EntityProperty/Update
 
-Permission to update objects of type EntityProperty
+**Permission to update objects of type EntityProperty**
 
 ### /Metadata/EntityType/Create
 
-Permission to create objects of type EntityType
+**Permission to create objects of type EntityType**
 
 ### /Metadata/EntityType/Delete
 
-Permission to delete objects of type EntityType
+**Permission to delete objects of type EntityType**
 
 ### /Metadata/EntityType/Query
 
@@ -722,7 +722,7 @@ Permission to query and read objects of type EntityType
 
 ### /Metadata/EntityType/Update
 
-Permission to update objects of type EntityType
+**Permission to update objects of type EntityType**
 
 ### /Metadata/Language/Query
 
@@ -730,11 +730,11 @@ Permission to query and read objects of type Language
 
 ### /Metadata/Setting/Create
 
-Permission to create objects of type Setting
+**Permission to create objects of type Setting**
 
 ### /Metadata/Setting/Delete
 
-Permission to delete objects of type Setting
+**Permission to delete objects of type Setting**
 
 ### /Metadata/Setting/Query
 
@@ -742,7 +742,7 @@ Permission to query and read objects of type Setting
 
 ### /Metadata/Setting/Update
 
-Permission to update objects of type Setting
+**Permission to update objects of type Setting**
 
 ### /Monitoring
 
@@ -750,15 +750,15 @@ Permission to download server logs from the User Interface (from the **Monitorin
 
 ### /ProvisioningPolicy/AssignedCompositeRole/Comment
 
-Permission to comment objects of type AssignedCompositeRole
+**Permission to comment objects of type AssignedCompositeRole**
 
 ### /ProvisioningPolicy/AssignedCompositeRole/Create
 
-Permission to create objects of type AssignedCompositeRole
+**Permission to create objects of type AssignedCompositeRole**
 
 ### /ProvisioningPolicy/AssignedCompositeRole/Delete
 
-Permission to delete objects of type AssignedCompositeRole
+**Permission to delete objects of type AssignedCompositeRole**
 
 ### /ProvisioningPolicy/AssignedCompositeRole/Query
 
@@ -766,15 +766,15 @@ Permission to query and read objects of type AssignedCompositeRole
 
 ### /ProvisioningPolicy/AssignedCompositeRole/Update
 
-Permission to update objects of type AssignedCompositeRole
+**Permission to update objects of type AssignedCompositeRole**
 
 ### /ProvisioningPolicy/AssignedResourceBinary/Create
 
-Permission to create objects of type AssignedResourceBinary
+**Permission to create objects of type AssignedResourceBinary**
 
 ### /ProvisioningPolicy/AssignedResourceBinary/Delete
 
-Permission to delete objects of type AssignedResourceBinary
+**Permission to delete objects of type AssignedResourceBinary**
 
 ### /ProvisioningPolicy/AssignedResourceBinary/Query
 
@@ -782,15 +782,15 @@ Permission to query and read objects of type AssignedResourceBinary
 
 ### /ProvisioningPolicy/AssignedResourceBinary/Update
 
-Permission to update objects of type AssignedResourceBinary
+**Permission to update objects of type AssignedResourceBinary**
 
 ### /ProvisioningPolicy/AssignedResourceNavigation/Create
 
-Permission to create objects of type AssignedResourceNavigation
+**Permission to create objects of type AssignedResourceNavigation**
 
 ### /ProvisioningPolicy/AssignedResourceNavigation/Delete
 
-Permission to delete objects of type AssignedResourceNavigation
+**Permission to delete objects of type AssignedResourceNavigation**
 
 ### /ProvisioningPolicy/AssignedResourceNavigation/Query
 
@@ -798,15 +798,15 @@ Permission to query and read objects of type AssignedResourceNavigation
 
 ### /ProvisioningPolicy/AssignedResourceNavigation/Update
 
-Permission to update objects of type AssignedResourceNavigation
+**Permission to update objects of type AssignedResourceNavigation**
 
 ### /ProvisioningPolicy/AssignedResourceScalar/Create
 
-Permission to create objects of type AssignedResourceScalar
+**Permission to create objects of type AssignedResourceScalar**
 
 ### /ProvisioningPolicy/AssignedResourceScalar/Delete
 
-Permission to delete objects of type AssignedResourceScalar
+**Permission to delete objects of type AssignedResourceScalar**
 
 ### /ProvisioningPolicy/AssignedResourceScalar/Query
 
@@ -814,19 +814,19 @@ Permission to query and read objects of type AssignedResourceScalar
 
 ### /ProvisioningPolicy/AssignedResourceScalar/Update
 
-Permission to update objects of type AssignedResourceScalar
+**Permission to update objects of type AssignedResourceScalar**
 
 ### /ProvisioningPolicy/AssignedResourceType/Comment
 
-Permission to comment objects of type AssignedResourceType
+**Permission to comment objects of type AssignedResourceType**
 
 ### /ProvisioningPolicy/AssignedResourceType/Create
 
-Permission to create objects of type AssignedResourceType
+**Permission to create objects of type AssignedResourceType**
 
 ### /ProvisioningPolicy/AssignedResourceType/Delete
 
-Permission to delete objects of type AssignedResourceType
+**Permission to delete objects of type AssignedResourceType**
 
 ### /ProvisioningPolicy/AssignedResourceType/ManualProvisioningReview
 
@@ -838,19 +838,19 @@ Permission to query and read objects of type AssignedResourceType
 
 ### /ProvisioningPolicy/AssignedResourceType/Update
 
-Permission to update objects of type AssignedResourceType
+**Permission to update objects of type AssignedResourceType**
 
 ### /ProvisioningPolicy/AssignedSingleRole/Comment
 
-Permission to comment objects of type AssignedSingleRole
+**Permission to comment objects of type AssignedSingleRole**
 
 ### /ProvisioningPolicy/AssignedSingleRole/Create
 
-Permission to create objects of type AssignedSingleRole
+**Permission to create objects of type AssignedSingleRole**
 
 ### /ProvisioningPolicy/AssignedSingleRole/Delete
 
-Permission to delete objects of type AssignedSingleRole
+**Permission to delete objects of type AssignedSingleRole**
 
 ### /ProvisioningPolicy/AssignedSingleRole/Query
 
@@ -858,11 +858,11 @@ Permission to query and read objects of type AssignedSingleRole
 
 ### /ProvisioningPolicy/AssignedSingleRole/Update
 
-Permission to update objects of type AssignedSingleRole
+**Permission to update objects of type AssignedSingleRole**
 
 ### /ProvisioningPolicy/AutomationRule/Create
 
-Permission to create objects of type AutomationRule
+**Permission to create objects of type AutomationRule**
 
 ### /ProvisioningPolicy/AutomationRule/CreateSimulation
 
@@ -870,7 +870,7 @@ Permission to create objects of type AutomationRule in simulation
 
 ### /ProvisioningPolicy/AutomationRule/Delete
 
-Permission to delete objects of type AutomationRule
+**Permission to delete objects of type AutomationRule**
 
 ### /ProvisioningPolicy/AutomationRule/DeleteSimulation
 
@@ -890,7 +890,7 @@ Permission to query and read objects of type AutomationRule in simulation
 
 ### /ProvisioningPolicy/AutomationRule/Update
 
-Permission to update objects of type AutomationRule
+**Permission to update objects of type AutomationRule**
 
 ### /ProvisioningPolicy/AutomationRule/UpdateSimulation
 
@@ -898,11 +898,11 @@ Permission to update objects of type AutomationRule in simulation
 
 ### /ProvisioningPolicy/Category/Create
 
-Permission to create objects of type Category
+**Permission to create objects of type Category**
 
 ### /ProvisioningPolicy/Category/Delete
 
-Permission to delete objects of type Category
+**Permission to delete objects of type Category**
 
 ### /ProvisioningPolicy/Category/Query
 
@@ -910,11 +910,11 @@ Permission to query and read objects of type Category
 
 ### /ProvisioningPolicy/Category/Update
 
-Permission to update objects of type Category
+**Permission to update objects of type Category**
 
 ### /ProvisioningPolicy/CompositeRole/Create
 
-Permission to create objects of type CompositeRole
+**Permission to create objects of type CompositeRole**
 
 ### /ProvisioningPolicy/CompositeRole/CreateSimulation
 
@@ -922,7 +922,7 @@ Permission to create objects of type CompositeRole in simulation
 
 ### /ProvisioningPolicy/CompositeRole/Delete
 
-Permission to delete objects of type CompositeRole
+**Permission to delete objects of type CompositeRole**
 
 ### /ProvisioningPolicy/CompositeRole/DeleteSimulation
 
@@ -942,7 +942,7 @@ Permission to query and read objects of type CompositeRole in simulation
 
 ### /ProvisioningPolicy/CompositeRole/Update
 
-Permission to update objects of type CompositeRole
+**Permission to update objects of type CompositeRole**
 
 ### /ProvisioningPolicy/CompositeRole/UpdateSimulation
 
@@ -950,7 +950,7 @@ Permission to update objects of type CompositeRole in simulation
 
 ### /ProvisioningPolicy/CompositeRoleRule/Create
 
-Permission to create objects of type CompositeRoleRule
+**Permission to create objects of type CompositeRoleRule**
 
 ### /ProvisioningPolicy/CompositeRoleRule/CreateSimulation
 
@@ -958,7 +958,7 @@ Permission to create objects of type CompositeRoleRule in simulation
 
 ### /ProvisioningPolicy/CompositeRoleRule/Delete
 
-Permission to delete objects of type CompositeRoleRule
+**Permission to delete objects of type CompositeRoleRule**
 
 ### /ProvisioningPolicy/CompositeRoleRule/DeleteSimulation
 
@@ -978,7 +978,7 @@ Permission to query and read objects of type CompositeRoleRule in simulation
 
 ### /ProvisioningPolicy/CompositeRoleRule/Update
 
-Permission to update objects of type CompositeRoleRule
+**Permission to update objects of type CompositeRoleRule**
 
 ### /ProvisioningPolicy/CompositeRoleRule/UpdateSimulation
 
@@ -986,7 +986,7 @@ Permission to update objects of type CompositeRoleRule in simulation
 
 ### /ProvisioningPolicy/ContextRule/Create
 
-Permission to create objects of type ContextRule
+**Permission to create objects of type ContextRule**
 
 ### /ProvisioningPolicy/ContextRule/CreateSimulation
 
@@ -994,7 +994,7 @@ Permission to create objects of type ContextRule in simulation
 
 ### /ProvisioningPolicy/ContextRule/Delete
 
-Permission to delete objects of type ContextRule
+**Permission to delete objects of type ContextRule**
 
 ### /ProvisioningPolicy/ContextRule/DeleteSimulation
 
@@ -1014,7 +1014,7 @@ Permission to query and read objects of type ContextRule in simulation
 
 ### /ProvisioningPolicy/ContextRule/Update
 
-Permission to update objects of type ContextRule
+**Permission to update objects of type ContextRule**
 
 ### /ProvisioningPolicy/ContextRule/UpdateSimulation
 
@@ -1026,11 +1026,11 @@ Permission to query and read objects of type IdentifiedRisk
 
 ### /ProvisioningPolicy/MiningRule/Create
 
-Permission to create objects of type MiningRule
+**Permission to create objects of type MiningRule**
 
 ### /ProvisioningPolicy/MiningRule/Delete
 
-Permission to delete objects of type MiningRule
+**Permission to delete objects of type MiningRule**
 
 ### /ProvisioningPolicy/MiningRule/Query
 
@@ -1038,11 +1038,11 @@ Permission to query and read objects of type MiningRule
 
 ### /ProvisioningPolicy/MiningRule/Update
 
-Permission to update objects of type MiningRule
+**Permission to update objects of type MiningRule**
 
 ### /ProvisioningPolicy/Policy/Create
 
-Permission to create objects of type Policy
+**Permission to create objects of type Policy**
 
 ### /ProvisioningPolicy/Policy/CreateSimulation
 
@@ -1050,7 +1050,7 @@ Permission to create objects of type Policy in simulation
 
 ### /ProvisioningPolicy/Policy/Delete
 
-Permission to delete objects of type Policy
+**Permission to delete objects of type Policy**
 
 ### /ProvisioningPolicy/Policy/DeleteSimulation
 
@@ -1070,7 +1070,7 @@ Permission to query and read objects of type Policy in simulation
 
 ### /ProvisioningPolicy/Policy/Update
 
-Permission to update objects of type Policy
+**Permission to update objects of type Policy**
 
 ### /ProvisioningPolicy/Policy/UpdateSimulation
 
@@ -1078,11 +1078,11 @@ Permission to update objects of type Policy in simulation
 
 ### /ProvisioningPolicy/PolicySimulation/Create
 
-Permission to create objects of type PolicySimulation
+**Permission to create objects of type PolicySimulation**
 
 ### /ProvisioningPolicy/PolicySimulation/Delete
 
-Permission to delete objects of type PolicySimulation
+**Permission to delete objects of type PolicySimulation**
 
 ### /ProvisioningPolicy/PolicySimulation/Query
 
@@ -1090,11 +1090,11 @@ Permission to query and read objects of type PolicySimulation
 
 ### /ProvisioningPolicy/PolicySimulation/Start
 
-Permission to start a simulation of a policy
+**Permission to start a simulation of a policy**
 
 ### /ProvisioningPolicy/PolicySimulation/Update
 
-Permission to update objects of type PolicySimulation
+**Permission to update objects of type PolicySimulation**
 
 ### /ProvisioningPolicy/PredefinedFunctionQuery/Query
 
@@ -1112,7 +1112,7 @@ Permission to compute redundant assignments and remove them.
 
 ### /ProvisioningPolicy/ResourceBinaryRule/Create
 
-Permission to create objects of type ResourceBinaryRule
+**Permission to create objects of type ResourceBinaryRule**
 
 ### /ProvisioningPolicy/ResourceBinaryRule/CreateSimulation
 
@@ -1120,7 +1120,7 @@ Permission to create objects of type ResourceBinaryRule in simulation
 
 ### /ProvisioningPolicy/ResourceBinaryRule/Delete
 
-Permission to delete objects of type ResourceBinaryRule
+**Permission to delete objects of type ResourceBinaryRule**
 
 ### /ProvisioningPolicy/ResourceBinaryRule/DeleteSimulation
 
@@ -1140,7 +1140,7 @@ Permission to query and read objects of type ResourceBinaryRule in simulation
 
 ### /ProvisioningPolicy/ResourceBinaryRule/Update
 
-Permission to update objects of type ResourceBinaryRule
+**Permission to update objects of type ResourceBinaryRule**
 
 ### /ProvisioningPolicy/ResourceBinaryRule/UpdateSimulation
 
@@ -1148,7 +1148,7 @@ Permission to update objects of type ResourceBinaryRule in simulation
 
 ### /ProvisioningPolicy/ResourceClassificationRule/Create
 
-Permission to create objects of type ResourceClassificationRule
+**Permission to create objects of type ResourceClassificationRule**
 
 ### /ProvisioningPolicy/ResourceClassificationRule/CreateSimulation
 
@@ -1156,7 +1156,7 @@ Permission to create objects of type ResourceClassificationRule in simulation
 
 ### /ProvisioningPolicy/ResourceClassificationRule/Delete
 
-Permission to delete objects of type ResourceClassificationRule
+**Permission to delete objects of type ResourceClassificationRule**
 
 ### /ProvisioningPolicy/ResourceClassificationRule/DeleteSimulation
 
@@ -1177,7 +1177,7 @@ Permission to query and read objects of type ResourceClassificationRule in simul
 
 ### /ProvisioningPolicy/ResourceClassificationRule/Update
 
-Permission to update objects of type ResourceClassificationRule
+**Permission to update objects of type ResourceClassificationRule**
 
 ### /ProvisioningPolicy/ResourceClassificationRule/UpdateSimulation
 
@@ -1185,7 +1185,7 @@ Permission to update objects of type ResourceClassificationRule in simulation
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/Create
 
-Permission to create objects of type ResourceCorrelationRule
+**Permission to create objects of type ResourceCorrelationRule**
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/CreateSimulation
 
@@ -1193,7 +1193,7 @@ Permission to create objects of type ResourceCorrelationRule in simulation
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/Delete
 
-Permission to delete objects of type ResourceCorrelationRule
+**Permission to delete objects of type ResourceCorrelationRule**
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/DeleteSimulation
 
@@ -1213,7 +1213,7 @@ Permission to query and read objects of type ResourceCorrelationRule in simulati
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/Update
 
-Permission to update objects of type ResourceCorrelationRule
+**Permission to update objects of type ResourceCorrelationRule**
 
 ### /ProvisioningPolicy/ResourceCorrelationRule/UpdateSimulation
 
@@ -1229,7 +1229,7 @@ Permission to query and read objects of type ResourceManageableAccounts
 
 ### /ProvisioningPolicy/ResourceNavigationRule/Create
 
-Permission to create objects of type ResourceNavigationRule
+**Permission to create objects of type ResourceNavigationRule**
 
 ### /ProvisioningPolicy/ResourceNavigationRule/CreateSimulation
 
@@ -1237,7 +1237,7 @@ Permission to create objects of type ResourceNavigationRule in simulation
 
 ### /ProvisioningPolicy/ResourceNavigationRule/Delete
 
-Permission to delete objects of type ResourceNavigationRule
+**Permission to delete objects of type ResourceNavigationRule**
 
 ### /ProvisioningPolicy/ResourceNavigationRule/DeleteSimulation
 
@@ -1257,7 +1257,7 @@ Permission to query and read objects of type ResourceNavigationRule in simulatio
 
 ### /ProvisioningPolicy/ResourceNavigationRule/Update
 
-Permission to update objects of type ResourceNavigationRule
+**Permission to update objects of type ResourceNavigationRule**
 
 ### /ProvisioningPolicy/ResourceNavigationRule/UpdateSimulation
 
@@ -1265,7 +1265,7 @@ Permission to update objects of type ResourceNavigationRule in simulation
 
 ### /ProvisioningPolicy/ResourceQueryRule/Create
 
-Permission to create objects of type ResourceQueryRule
+**Permission to create objects of type ResourceQueryRule**
 
 ### /ProvisioningPolicy/ResourceQueryRule/CreateSimulation
 
@@ -1273,7 +1273,7 @@ Permission to create objects of type ResourceQueryRule in simulation
 
 ### /ProvisioningPolicy/ResourceQueryRule/Delete
 
-Permission to delete objects of type ResourceQueryRule
+**Permission to delete objects of type ResourceQueryRule**
 
 ### /ProvisioningPolicy/ResourceQueryRule/DeleteSimulation
 
@@ -1293,7 +1293,7 @@ Permission to query and read objects of type ResourceQueryRule in simulation
 
 ### /ProvisioningPolicy/ResourceQueryRule/Update
 
-Permission to update objects of type ResourceQueryRule
+**Permission to update objects of type ResourceQueryRule**
 
 ### /ProvisioningPolicy/ResourceQueryRule/UpdateSimulation
 
@@ -1301,7 +1301,7 @@ Permission to update objects of type ResourceQueryRule in simulation
 
 ### /ProvisioningPolicy/ResourceScalarRule/Create
 
-Permission to create objects of type ResourceScalarRule
+**Permission to create objects of type ResourceScalarRule**
 
 ### /ProvisioningPolicy/ResourceScalarRule/CreateSimulation
 
@@ -1309,7 +1309,7 @@ Permission to create objects of type ResourceScalarRule in simulation
 
 ### /ProvisioningPolicy/ResourceScalarRule/Delete
 
-Permission to delete objects of type ResourceScalarRule
+**Permission to delete objects of type ResourceScalarRule**
 
 ### /ProvisioningPolicy/ResourceScalarRule/DeleteSimulation
 
@@ -1329,7 +1329,7 @@ Permission to query and read objects of type ResourceScalarRule in simulation
 
 ### /ProvisioningPolicy/ResourceScalarRule/Update
 
-Permission to update objects of type ResourceScalarRule
+**Permission to update objects of type ResourceScalarRule**
 
 ### /ProvisioningPolicy/ResourceScalarRule/UpdateSimulation
 
@@ -1337,7 +1337,7 @@ Permission to update objects of type ResourceScalarRule in simulation
 
 ### /ProvisioningPolicy/ResourceType/Create
 
-Permission to create objects of type ResourceType
+**Permission to create objects of type ResourceType**
 
 ### /ProvisioningPolicy/ResourceType/CreateSimulation
 
@@ -1345,7 +1345,7 @@ Permission to create objects of type ResourceType in simulation
 
 ### /ProvisioningPolicy/ResourceType/Delete
 
-Permission to delete objects of type ResourceType
+**Permission to delete objects of type ResourceType**
 
 ### /ProvisioningPolicy/ResourceType/DeleteSimulation
 
@@ -1365,7 +1365,7 @@ Permission to query and read objects of type ResourceType in simulation
 
 ### /ProvisioningPolicy/ResourceType/Update
 
-Permission to update objects of type ResourceType
+**Permission to update objects of type ResourceType**
 
 ### /ProvisioningPolicy/ResourceType/UpdateSimulation
 
@@ -1373,7 +1373,7 @@ Permission to update objects of type ResourceType in simulation
 
 ### /ProvisioningPolicy/ResourceTypeRule/Create
 
-Permission to create objects of type ResourceTypeRule
+**Permission to create objects of type ResourceTypeRule**
 
 ### /ProvisioningPolicy/ResourceTypeRule/CreateSimulation
 
@@ -1381,7 +1381,7 @@ Permission to create objects of type ResourceTypeRule in simulation
 
 ### /ProvisioningPolicy/ResourceTypeRule/Delete
 
-Permission to delete objects of type ResourceTypeRule
+**Permission to delete objects of type ResourceTypeRule**
 
 ### /ProvisioningPolicy/ResourceTypeRule/DeleteSimulation
 
@@ -1401,7 +1401,7 @@ Permission to query and read objects of type ResourceTypeRule in simulation
 
 ### /ProvisioningPolicy/ResourceTypeRule/Update
 
-Permission to update objects of type ResourceTypeRule
+**Permission to update objects of type ResourceTypeRule**
 
 ### /ProvisioningPolicy/ResourceTypeRule/UpdateSimulation
 
@@ -1409,11 +1409,11 @@ Permission to update objects of type ResourceTypeRule in simulation
 
 ### /ProvisioningPolicy/Risk/Create
 
-Permission to create objects of type Risk
+**Permission to create objects of type Risk**
 
 ### /ProvisioningPolicy/Risk/Delete
 
-Permission to delete objects of type Risk
+**Permission to delete objects of type Risk**
 
 ### /ProvisioningPolicy/Risk/OverrideApproval
 
@@ -1429,15 +1429,15 @@ Permission to query and read objects of type Risk
 
 ### /ProvisioningPolicy/Risk/Update
 
-Permission to update objects of type Risk
+**Permission to update objects of type Risk**
 
 ### /ProvisioningPolicy/RoleMapping/Create
 
-Permission to create objects of type RoleMapping
+**Permission to create objects of type RoleMapping**
 
 ### /ProvisioningPolicy/RoleMapping/Delete
 
-Permission to delete objects of type RoleMapping
+**Permission to delete objects of type RoleMapping**
 
 ### /ProvisioningPolicy/RoleMapping/Query
 
@@ -1445,11 +1445,11 @@ Permission to query and read objects of type RoleMapping
 
 ### /ProvisioningPolicy/RoleMapping/Update
 
-Permission to update objects of type RoleMapping
+**Permission to update objects of type RoleMapping**
 
 ### /ProvisioningPolicy/SingleRole/Create
 
-Permission to create objects of type SingleRole
+**Permission to create objects of type SingleRole**
 
 ### /ProvisioningPolicy/SingleRole/CreateSimulation
 
@@ -1457,7 +1457,7 @@ Permission to create objects of type SingleRole in simulation
 
 ### /ProvisioningPolicy/SingleRole/Delete
 
-Permission to delete objects of type SingleRole
+**Permission to delete objects of type SingleRole**
 
 ### /ProvisioningPolicy/SingleRole/DeleteSimulation
 
@@ -1477,7 +1477,7 @@ Permission to query and read objects of type SingleRole in simulation
 
 ### /ProvisioningPolicy/SingleRole/Update
 
-Permission to update objects of type SingleRole
+**Permission to update objects of type SingleRole**
 
 ### /ProvisioningPolicy/SingleRole/UpdateSimulation
 
@@ -1485,7 +1485,7 @@ Permission to update objects of type SingleRole in simulation
 
 ### /ProvisioningPolicy/SingleRoleRule/Create
 
-Permission to create objects of type SingleRoleRule
+**Permission to create objects of type SingleRoleRule**
 
 ### /ProvisioningPolicy/SingleRoleRule/CreateSimulation
 
@@ -1493,7 +1493,7 @@ Permission to create objects of type SingleRoleRule in simulation
 
 ### /ProvisioningPolicy/SingleRoleRule/Delete
 
-Permission to delete objects of type SingleRoleRule
+**Permission to delete objects of type SingleRoleRule**
 
 ### /ProvisioningPolicy/SingleRoleRule/DeleteSimulation
 
@@ -1513,7 +1513,7 @@ Permission to query and read objects of type SingleRoleRule in simulation
 
 ### /ProvisioningPolicy/SingleRoleRule/Update
 
-Permission to update objects of type SingleRoleRule
+**Permission to update objects of type SingleRoleRule**
 
 ### /ProvisioningPolicy/SingleRoleRule/UpdateSimulation
 
@@ -1529,11 +1529,11 @@ Permission to query and read objects of type GenerateReportFileFromReportQuery
 
 ### /Report/ReportQuery/Create
 
-Permission to create objects of type ReportQuery
+**Permission to create objects of type ReportQuery**
 
 ### /Report/ReportQuery/Delete
 
-Permission to delete objects of type ReportQuery
+**Permission to delete objects of type ReportQuery**
 
 ### /Report/ReportQuery/Query
 
@@ -1541,7 +1541,7 @@ Permission to query and read objects of type ReportQuery
 
 ### /Report/ReportQuery/Update
 
-Permission to update objects of type ReportQuery
+**Permission to update objects of type ReportQuery**
 
 ### /Resources/Incremental/Query
 
@@ -1549,11 +1549,11 @@ Permission to query and read objects of type Resource and Resource Link incremen
 
 ### /Resources/Resource/Create
 
-Permission to create objects of type Resource
+**Permission to create objects of type Resource**
 
 ### /Resources/Resource/Delete
 
-Permission to delete objects of type Resource
+**Permission to delete objects of type Resource**
 
 ### /Resources/Resource/Query
 
@@ -1561,7 +1561,7 @@ Permission to query and read objects of type Resource
 
 ### /Resources/Resource/Update
 
-Permission to update objects of type Resource
+**Permission to update objects of type Resource**
 
 ### /Settings/Manage
 
@@ -1587,23 +1587,23 @@ Permission to query and read objects of type ApplicationInformationsQuery
 
 ### /UserInterface/ConnectorResourceType/Create
 
-Permission to create objects of type ConnectorResourceType
+**Permission to create objects of type ConnectorResourceType**
 
 ### /UserInterface/ConnectorResourceType/Delete
 
-Permission to delete objects of type ConnectorResourceType
+**Permission to delete objects of type ConnectorResourceType**
 
 ### /UserInterface/ConnectorResourceType/Update
 
-Permission to update objects of type ConnectorResourceType
+**Permission to update objects of type ConnectorResourceType**
 
 ### /UserInterface/DisplayEntityAssociation/Create
 
-Permission to create objects of type DisplayEntityAssociation
+**Permission to create objects of type DisplayEntityAssociation**
 
 ### /UserInterface/DisplayEntityAssociation/Delete
 
-Permission to delete objects of type DisplayEntityAssociation
+**Permission to delete objects of type DisplayEntityAssociation**
 
 ### /UserInterface/DisplayEntityAssociation/Query
 
@@ -1611,15 +1611,15 @@ Permission to query and read objects of type DisplayEntityAssociation
 
 ### /UserInterface/DisplayEntityAssociation/Update
 
-Permission to update objects of type DisplayEntityAssociation
+**Permission to update objects of type DisplayEntityAssociation**
 
 ### /UserInterface/DisplayEntityProperty/Create
 
-Permission to create objects of type DisplayEntityProperty
+**Permission to create objects of type DisplayEntityProperty**
 
 ### /UserInterface/DisplayEntityProperty/Delete
 
-Permission to delete objects of type DisplayEntityProperty
+**Permission to delete objects of type DisplayEntityProperty**
 
 ### /UserInterface/DisplayEntityProperty/Query
 
@@ -1627,15 +1627,15 @@ Permission to query and read objects of type DisplayEntityProperty
 
 ### /UserInterface/DisplayEntityProperty/Update
 
-Permission to update objects of type DisplayEntityProperty
+**Permission to update objects of type DisplayEntityProperty**
 
 ### /UserInterface/DisplayEntityType/Create
 
-Permission to create objects of type DisplayEntityType
+**Permission to create objects of type DisplayEntityType**
 
 ### /UserInterface/DisplayEntityType/Delete
 
-Permission to delete objects of type DisplayEntityType
+**Permission to delete objects of type DisplayEntityType**
 
 ### /UserInterface/DisplayEntityType/Query
 
@@ -1643,15 +1643,15 @@ Permission to query and read objects of type DisplayEntityType
 
 ### /UserInterface/DisplayEntityType/Update
 
-Permission to update objects of type DisplayEntityType
+**Permission to update objects of type DisplayEntityType**
 
 ### /UserInterface/DisplayPropertyGroup/Create
 
-Permission to create objects of type DisplayPropertyGroup
+**Permission to create objects of type DisplayPropertyGroup**
 
 ### /UserInterface/DisplayPropertyGroup/Delete
 
-Permission to delete objects of type DisplayPropertyGroup
+**Permission to delete objects of type DisplayPropertyGroup**
 
 ### /UserInterface/DisplayPropertyGroup/Query
 
@@ -1659,15 +1659,15 @@ Permission to query and read objects of type DisplayPropertyGroup
 
 ### /UserInterface/DisplayPropertyGroup/Update
 
-Permission to update objects of type DisplayPropertyGroup
+**Permission to update objects of type DisplayPropertyGroup**
 
 ### /UserInterface/DisplayTable/Create
 
-Permission to create objects of type DisplayTable
+**Permission to create objects of type DisplayTable**
 
 ### /UserInterface/DisplayTable/Delete
 
-Permission to delete objects of type DisplayTable
+**Permission to delete objects of type DisplayTable**
 
 ### /UserInterface/DisplayTable/Query
 
@@ -1675,15 +1675,15 @@ Permission to query and read objects of type DisplayTable
 
 ### /UserInterface/DisplayTable/Update
 
-Permission to update objects of type DisplayTable
+**Permission to update objects of type DisplayTable**
 
 ### /UserInterface/DisplayTableColumn/Create
 
-Permission to create objects of type DisplayTableColumn
+**Permission to create objects of type DisplayTableColumn**
 
 ### /UserInterface/DisplayTableColumn/Delete
 
-Permission to delete objects of type DisplayTableColumn
+**Permission to delete objects of type DisplayTableColumn**
 
 ### /UserInterface/DisplayTableColumn/Query
 
@@ -1691,7 +1691,7 @@ Permission to query and read objects of type DisplayTableColumn
 
 ### /UserInterface/DisplayTableColumn/Update
 
-Permission to update objects of type DisplayTableColumn
+**Permission to update objects of type DisplayTableColumn**
 
 ### /UserInterface/DisplayTableDesignElement/Query
 
@@ -1703,11 +1703,11 @@ Permission to query and read objects of type EntityTypeMappingByUiContextQuery
 
 ### /UserInterface/Form/Create
 
-Permission to create objects of type Form
+**Permission to create objects of type Form**
 
 ### /UserInterface/Form/Delete
 
-Permission to delete objects of type Form
+**Permission to delete objects of type Form**
 
 ### /UserInterface/Form/Query
 
@@ -1715,15 +1715,15 @@ Permission to query and read objects of type Form
 
 ### /UserInterface/Form/Update
 
-Permission to update objects of type Form
+**Permission to update objects of type Form**
 
 ### /UserInterface/FormControl/Create
 
-Permission to create objects of type FormControl
+**Permission to create objects of type FormControl**
 
 ### /UserInterface/FormControl/Delete
 
-Permission to delete objects of type FormControl
+**Permission to delete objects of type FormControl**
 
 ### /UserInterface/FormControl/Query
 
@@ -1731,7 +1731,7 @@ Permission to query and read objects of type FormControl
 
 ### /UserInterface/FormControl/Update
 
-Permission to update objects of type FormControl
+**Permission to update objects of type FormControl**
 
 ### /UserInterface/HierarchyDataByEntityTypeIdQuery/Query
 
@@ -1739,11 +1739,11 @@ Permission to query and read objects of type HierarchyDataByEntityTypeIdQuery
 
 ### /UserInterface/Indicator/Create
 
-Permission to create objects of type Indicator
+**Permission to create objects of type Indicator**
 
 ### /UserInterface/Indicator/Delete
 
-Permission to delete objects of type Indicator
+**Permission to delete objects of type Indicator**
 
 ### /UserInterface/Indicator/Query
 
@@ -1751,15 +1751,15 @@ Permission to query and read objects of type Indicator
 
 ### /UserInterface/Indicator/Update
 
-Permission to update objects of type Indicator
+**Permission to update objects of type Indicator**
 
 ### /UserInterface/IndicatorItem/Create
 
-Permission to create objects of type IndicatorItem
+**Permission to create objects of type IndicatorItem**
 
 ### /UserInterface/IndicatorItem/Delete
 
-Permission to delete objects of type IndicatorItem
+**Permission to delete objects of type IndicatorItem**
 
 ### /UserInterface/IndicatorItem/Query
 
@@ -1767,7 +1767,7 @@ Permission to query and read objects of type IndicatorItem
 
 ### /UserInterface/IndicatorItem/Update
 
-Permission to update objects of type IndicatorItem
+**Permission to update objects of type IndicatorItem**
 
 ### /UserInterface/PersonasByFilterQuery/Query
 
@@ -1796,11 +1796,11 @@ Permission to query and read objects of type ResourceSelfForm
 
 ### /UserInterface/SearchBar/Create
 
-Permission to create objects of type SearchBar
+**Permission to create objects of type SearchBar**
 
 ### /UserInterface/SearchBar/Delete
 
-Permission to delete objects of type SearchBar
+**Permission to delete objects of type SearchBar**
 
 ### /UserInterface/SearchBar/Query
 
@@ -1808,15 +1808,15 @@ Permission to query and read objects of type SearchBar
 
 ### /UserInterface/SearchBar/Update
 
-Permission to update objects of type SearchBar
+**Permission to update objects of type SearchBar**
 
 ### /UserInterface/SearchBarCriterion/Create
 
-Permission to create objects of type SearchBarCriterion
+**Permission to create objects of type SearchBarCriterion**
 
 ### /UserInterface/SearchBarCriterion/Delete
 
-Permission to delete objects of type SearchBarCriterion
+**Permission to delete objects of type SearchBarCriterion**
 
 ### /UserInterface/SearchBarCriterion/Query
 
@@ -1824,15 +1824,15 @@ Permission to query and read objects of type SearchBarCriterion
 
 ### /UserInterface/SearchBarCriterion/Update
 
-Permission to update objects of type SearchBarCriterion
+**Permission to update objects of type SearchBarCriterion**
 
 ### /UserInterface/Tile/Create
 
-Permission to create objects of type Tile
+**Permission to create objects of type Tile**
 
 ### /UserInterface/Tile/Delete
 
-Permission to delete objects of type Tile
+**Permission to delete objects of type Tile**
 
 ### /UserInterface/Tile/Query
 
@@ -1840,7 +1840,7 @@ Permission to query and read objects of type Tile
 
 ### /UserInterface/Tile/Update
 
-Permission to update objects of type Tile
+**Permission to update objects of type Tile**
 
 ### /UserInterface/TileDesignElement/Query
 
@@ -1848,11 +1848,11 @@ Permission to query and read objects of type TileDesignElement
 
 ### /UserInterface/TileItem/Create
 
-Permission to create objects of type TileItem
+**Permission to create objects of type TileItem**
 
 ### /UserInterface/TileItem/Delete
 
-Permission to delete objects of type TileItem
+**Permission to delete objects of type TileItem**
 
 ### /UserInterface/TileItem/Query
 
@@ -1860,7 +1860,7 @@ Permission to query and read objects of type TileItem
 
 ### /UserInterface/TileItem/Update
 
-Permission to update objects of type TileItem
+**Permission to update objects of type TileItem**
 
 ### /UserInterface/UserByIdentityQuery/Query
 
@@ -1876,11 +1876,11 @@ Permission to query and read objects of type WorkflowFormByWorkflowIdQuery
 
 ### /Workflows/Activity/Create
 
-Permission to create objects of type Activity
+**Permission to create objects of type Activity**
 
 ### /Workflows/Activity/Delete
 
-Permission to delete objects of type Activity
+**Permission to delete objects of type Activity**
 
 ### /Workflows/Activity/Query
 
@@ -1888,7 +1888,7 @@ Permission to query and read objects of type Activity
 
 ### /Workflows/Activity/Update
 
-Permission to update objects of type Activity
+**Permission to update objects of type Activity**
 
 ### /Workflows/ActivityInstance/Query
 
@@ -1916,11 +1916,11 @@ Permission to query and read objects of type HistorizedResourceFileByWorkflowIns
 
 ### /Workflows/HomonymEntityLink/Create
 
-Permission to create objects of type HomonymEntityLink
+**Permission to create objects of type HomonymEntityLink**
 
 ### /Workflows/HomonymEntityLink/Delete
 
-Permission to delete objects of type HomonymEntityLink
+**Permission to delete objects of type HomonymEntityLink**
 
 ### /Workflows/HomonymEntityLink/Query
 
@@ -1928,7 +1928,7 @@ Permission to query and read objects of type HomonymEntityLink
 
 ### /Workflows/HomonymEntityLink/Update
 
-Permission to update objects of type HomonymEntityLink
+**Permission to update objects of type HomonymEntityLink**
 
 ### /Workflows/UserActivityInstance/AssignedTo
 
@@ -1948,11 +1948,11 @@ Permission to query and read objects of type UserActivityInstanceCountQuery
 
 ### /Workflows/Workflow/Create
 
-Permission to create objects of type Workflow
+**Permission to create objects of type Workflow**
 
 ### /Workflows/Workflow/Delete
 
-Permission to delete objects of type Workflow
+**Permission to delete objects of type Workflow**
 
 ### /Workflows/Workflow/Query
 
@@ -1960,7 +1960,7 @@ Permission to query and read objects of type Workflow
 
 ### /Workflows/Workflow/Update
 
-Permission to update objects of type Workflow
+**Permission to update objects of type Workflow**
 
 ### /Workflows/WorkflowInstance/Query
 
@@ -1972,7 +1972,7 @@ Permission to query and read objects of type WorkflowInstance
 
 ### /Workflows/WorkflowInstance/Supervise
 
-Permission to supervise objects of type WorkflowInstance
+**Permission to supervise objects of type WorkflowInstance**
 
 ### /Workflows/WorkflowInstanceData/Query
 

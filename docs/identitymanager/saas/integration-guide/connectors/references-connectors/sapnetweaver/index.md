@@ -10,7 +10,7 @@ This connector exports and fulfills users and roles from/to an
 [SAP Netweaver](https://www.sap.com/france/products/technology-platform/hana/what-is-sap-hana.html)
 instance.
 
-This page is about [ SAP S/4 HANA ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/saphana/index.md).
+This page is about [SAP S/4 HANA](/docs/identitymanager/saas/integration-guide/connectors/references-packages/saphana/index.md).
 
 ![Package: ERP/SAP S/4 HANA](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sapnetweaver/packages_sap_v603.webp)
 
@@ -37,7 +37,7 @@ output to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -170,9 +170,9 @@ in the corresponding
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
 | --------- | ------------------------------------------------ |
@@ -180,7 +180,7 @@ Data protection can be ensured through:
 | Login     | `Connections--<identifier>--Login`               |
 | Password  | `Connections--<identifier>--Password`            |
 
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
+- A [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) able to store
   Active Directory's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

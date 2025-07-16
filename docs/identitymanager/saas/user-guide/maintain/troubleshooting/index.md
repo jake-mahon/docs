@@ -71,7 +71,7 @@ If a synchronization threshold is exceeded, then check whether the threshold is 
 it means that the warning comes from a change in the managed system, so you should fix the data
 directly in the managed system.
 
-See more details on [ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) thresholds.
+See more details on [Synchronize Data](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md) thresholds.
 
 ## Troubleshoot Provisioning Issues
 
@@ -81,7 +81,7 @@ If provisioning orders are blocked while expected to be automatic, it can come f
 
 - the **Require Provisioning Review** option being enabled in the related resource type;
 - the role model being computed through the
-  [ Compute Role Model Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+  [Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
   or the corresponding executable, with the block provisioning option;
 - a provisioning order being already blocked for the same resource due to a prior operation;
 - a correlation/classification rule with a confidence rate below 100%, which means that either

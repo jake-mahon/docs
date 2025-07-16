@@ -20,7 +20,7 @@ The scaffolding generates the following scaffoldings:
 
 - ReconciliateResourcesAccessControlRules: Generates the permissions to access the resource
   reconciliation pages for a given entity type and profile. See the
-  [ ReconciliateResourcesAccessControlRules ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md)
+  [ReconciliateResourcesAccessControlRules](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliateresourcesaccesscontrolrules/index.md)
   topic for additional information.
 
 ## Properties

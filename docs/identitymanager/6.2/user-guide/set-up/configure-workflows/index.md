@@ -24,7 +24,7 @@ Usually, using one of these workflows means:
 2. if needed, sending the request of user creation for review by a knowledgeable user.
 
 See how to
-[ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)in
+[Update an Individual Identity](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)in
 Identity Manager.
 
 ### User Creation Review
@@ -59,7 +59,7 @@ process and homonym detection during users' onboarding.
 | ------------------------------ | ----------------------------- |
 | Identity repository (required) | Adjusted Onboarding Workflows |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic for
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) topic for
 additional information.
 
 ## Configure Onboarding Workflows

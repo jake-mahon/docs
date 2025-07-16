@@ -17,7 +17,7 @@ system, preventing duplicates.
 
 ## Create a Homonym Entity Link
 
-A [ Homonym Entity Link ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
+A [Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
 defines a new homonym detection to be performed in a workflow form. It can be defined in different
 ways.
 
@@ -33,7 +33,7 @@ according to the homonym control form. See section below.
 
 ### With customized filters
 
-[ Homonym Entity Link ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
+[Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)filters
 allow to define customized filters for a homonym detection.
 
 #### Simple filter
@@ -166,7 +166,7 @@ be checked must contain a layout fieldset control where:
 When the homonym entity link has no filter set and therefore the filter is calculated automatically,
 the homonym control form must only contain up to 5 controls where `Binding` attribute is defined.
 Indeed, a filter can only be defined on up to 5 properties, see filter definition in
-[ Homonym Entity Link ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+[Homonym Entity Link](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
 ```
 <Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">

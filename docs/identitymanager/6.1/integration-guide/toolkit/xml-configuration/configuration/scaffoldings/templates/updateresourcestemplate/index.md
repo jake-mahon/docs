@@ -24,7 +24,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <UpdateResourcesTemplate EntityType="HR_Person" Profile="Administrator"/>
+**<UpdateResourcesTemplate EntityType="HR_Person" Profile="Administrator"/>**
 
 ```
 

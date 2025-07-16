@@ -6,13 +6,13 @@ sidebar_position: 30
 
 # Manage Risks
 
-How to use the [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) module to
+How to use the [Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) module to
 identify entitlement assignments that pose a security risk, especially about segregation of duties
 and high privileges.
 
 ## Overview
 
-A [ Risk ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+A [Risk](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 describes a sensitive situation in which entitlement assignments need to be monitored for security
 purposes. Examples include:
 
@@ -20,12 +20,12 @@ purposes. Examples include:
   the same identity.
 - High privilege: a particularly sensitive entitlement.
 
-[ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) is essential to auditing.
+[Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) is essential to auditing.
 Among other things, it allows auditors to:
 
 - Identify the identities representing the highest security risk.
 - Compute the corresponding risk score.
-- Schedule and [ Perform Access Certification ](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md)
+- Schedule and [Perform Access Certification](/docs/identitymanager/6.2/user-guide/administrate/access-certification/index.md)
   accordingly.
 
 Using risks involves three steps:
@@ -44,8 +44,8 @@ assess risks inherent to entitlements.
 | ------------------------------------------------------ | ------------- |
 | Identity repository (required) Role catalog (required) | Risks catalog |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topics for
 additional information.
 
 ## Create a Risk
@@ -75,7 +75,7 @@ Create a risk by proceeding as follows:
     - `Remediation`: potential alternative solutions that will be displayed with the exemption
       policy message.
     - `Exemption Policy` See the
-      [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
+      [Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
       information.
     - `Type`
     - `Level`: risk level that is used to compute risk scores.
@@ -87,7 +87,7 @@ Create a risk by proceeding as follows:
     When risks are based on the exemption policy called **Approval required**, the corresponding
     role requests appear on the **Role Review** screen with a specific workflow state. See below
     this note. See the
-    [ Reconcile a Role ](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+    [Reconcile a Role](/docs/identitymanager/6.2/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
     topic for additional information.
 
     ![Risk Icon](/img/product_docs/identitymanager/saas/user-guide/optimize/risk-management/riskmanagement_workflowstate_v523.webp)
@@ -110,7 +110,7 @@ Create a risk by proceeding as follows:
     > `DL-INTERNET-Restricted` as a value of the `memberOf` property.
 
 4. Choose the resource type to be targetted by the risk. See the
-   [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
+   [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional information.
 
     > We choose `AD User (administration)` to prevent this situation from happening in our example.
 
@@ -120,7 +120,7 @@ Create a risk by proceeding as follows:
 
 6. Choose a value for this navigation property. The value would be a resource from the unified
    resource repository. See the
-   [ Identity Management ](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) topic
+   [Identity Management](/docs/identitymanager/6.2/introduction-guide/overview/identity-management/index.md) topic
    for additional information.
 
     > The group `DL-INTERNET-Restricted` in our example.
@@ -169,7 +169,7 @@ be blocked.
 
 The deletion of a risk simply triggers the computation of risk scores during the next
 `Compute Risk Scores` task, and removes any exemption policy steps in an assignment request. See the
-[ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
+[Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
 information.
 
 ## Verify Risk Management
@@ -179,6 +179,6 @@ the created risk, and check the consequences:
 
 - The message displayed at the end of the entitlement request must correspond to the configuration
   of the exemption policy. See the
-  [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
+  [Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional
   information.
 - Once the entitlement is assigned, a line must appear on the **Identified Risks** page.

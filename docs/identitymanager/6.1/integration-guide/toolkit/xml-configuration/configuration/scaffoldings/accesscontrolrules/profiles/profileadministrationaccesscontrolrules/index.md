@@ -23,7 +23,7 @@ profiles.
 
 ```
 
-  <ProfileAdministrationAccessControlRules Profile="Administrator"/>
+**<ProfileAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

@@ -15,7 +15,7 @@ part in dashboard of the user interface.
 
 ```
 
-  <JobAdministrationAccessControlRules Profile="Administrator"/>
+**<JobAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

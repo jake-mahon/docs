@@ -24,8 +24,7 @@ main purposes, principles and capabilities of Identity Manager.
 Using this guide does not require any advanced IT skills. All the configuration steps take place
 through Identity Manager's UI or MS Excel files.
 
-Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the
-[Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) to fully benefit from the User Guide's content.
+Netwrix Identity Manager (formerly Usercube)strongly recommends starting from the [Introduction Guide](/docs/identitymanager/saas/introduction-guide/index.md) to fully benefit from the User Guide's content.
 
 ## Overview
 
@@ -52,7 +51,7 @@ contribute to a same goal.
 
 While some activities must be carried out before others for technical and/or functional reasons, the
 order is not absolute. Please follow the instructions and recommendations detailed with the
-[ Global Process ](/docs/identitymanager/saas/user-guide/global-process/index.md).
+[Global Process](/docs/identitymanager/saas/user-guide/global-process/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional
 intent: set up; administrate; optimize; deploy and maintain.
@@ -88,8 +87,7 @@ Identity Manager is already running in production.
 
 ## How to Use this Guide
 
-Start by studying the [ Global Process ](/docs/identitymanager/saas/user-guide/global-process/index.md). that details every activity in
-their respective sections and how they relate to one another. You will get a good view of the steps
+Start by studying the [Global Process](/docs/identitymanager/saas/user-guide/global-process/index.md) that details every activity in their respective sections and how they relate to one another. You will get a good view of the steps
 to take from start to finish.
 
 Follow the path, stop at each activity, and go check out the details on the matching page of the

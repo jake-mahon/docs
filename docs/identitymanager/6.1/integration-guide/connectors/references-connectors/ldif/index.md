@@ -67,7 +67,7 @@ The identifier of the connection and thus the name of the subsection must:
 >         "LDIFFile": "C:/identitymanagerContoso/Contoso/contoso.ldif",
 >         "FilterAttribute": "objectClass",
 >         "FilterValues": "user organizationalUnit",
->         "Attributes": [ "dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname" ],
+>         "Attributes": ["dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname"],
 >         "LdifEncoding": "UTF-8",
 >     }
 >   }

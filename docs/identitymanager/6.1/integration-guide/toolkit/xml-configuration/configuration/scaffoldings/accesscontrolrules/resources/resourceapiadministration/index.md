@@ -16,7 +16,7 @@ query resources from `Directory_User`.
 
 ```
 
-<ResourceApiAdministration EntityType="Directory_User" Profile="Administrator"/>
+**<ResourceApiAdministration EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

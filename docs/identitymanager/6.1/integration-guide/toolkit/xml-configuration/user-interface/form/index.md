@@ -22,7 +22,7 @@ structured fields to fill.
     <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">        <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">            <Control Binding="LastName" />            <Control Binding="FirstName" />        </Control>        <Control Binding="Mail" ColumnSize="8" />    </Control>    <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">        <Control Binding="EmployeeId" />        <Control Binding="ContractStartDate" />        <Control Binding="ContractEndDate" />        ...
     </Control>
 
-</Form>
+**</Form>**
 
 ```
 

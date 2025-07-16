@@ -20,7 +20,7 @@ users from `Directory_User`.
 
 ```
 
-<ManageAccounts EntityType="Directory_User" Profile="Administrator"/>
+**<ManageAccounts EntityType="Directory_User" Profile="Administrator"/>**
 
 In order to see AD accounts once clicking on the button:
 <AccessControlRule Profile="HELPDESK" EntityType="AD_Entry" Identifier="HELPDESK_PWR_AD_Entry" DisplayName_L1="HELPDESK_PWR_AD_Entry">  <Entry Permission="/Custom/Resources/AD_Entry/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/AD_Entry/ResetPassword" CanExecute="true" />  <Entry Permission="/Custom/Resources/AD_Entry/IndirectResetPassword" CanExecute="true" />  <Entry Permission="/Custom/Resources/AD_Entry/ToggleLock" CanExecute="true" />  <Entry Permission="/Custom/Resources/AD_Entry/ChangePassword" CanExecute="true" /></AccessControlRule>

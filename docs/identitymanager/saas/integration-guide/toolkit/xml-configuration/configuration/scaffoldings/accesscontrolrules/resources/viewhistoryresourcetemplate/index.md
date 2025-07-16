@@ -13,7 +13,7 @@ resources history of the specified entity type.
 
 ```
 
-  <ViewHistoryResourceTemplate EntityType="Directory_User" Profile="Administrator"/>
+**<ViewHistoryResourceTemplate EntityType="Directory_User" Profile="Administrator"/>**
 
 ```
 

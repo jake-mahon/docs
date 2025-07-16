@@ -38,8 +38,11 @@ In order to do so you must connect to the Okta administration console
 `https://myexample-admin.okta.com` and create a new Netwrix Identity Manager (formerly Usercube)
 user.
 
-**NOTE:** For some Okta deployments it is possible to create a service account or to Manage an Okta
+:::note
+For some Okta deployments it is possible to create a service account or to Manage an Okta
 user account as a service account.
+:::
+
 
 **Step 2 –** Assign administrator role and permissions to the Netwrix Identity Manager (formerly
 Usercube) user.
@@ -276,8 +279,8 @@ topic for additional information.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the appsettings.encrypted.agent.json file
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
-- A [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault able to
+- An [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+- A [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)Vault able to
   store Okta Login, Password, Account and Server.

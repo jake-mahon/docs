@@ -89,7 +89,7 @@ The unicity check rules linked to a same aspect are combined with the AND operat
 the aspect's iteration goes up when at least one of the rules detects non-unicity.
 
 When creating or updating a unicity check rule, launch the
-[ Compute Correlation Keys Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+[Compute Correlation Keys Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
 before applying the role model and launching workflows.
 
 **For information:** Identity Manager needs to store the correlation keys linked to the expressions
@@ -115,7 +115,7 @@ We want to check the unicity of the new user's login, compared with the logins o
 
 ```
 
-<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Login" TargetEntityType="Directory_UserRecord" TargetBinding="Login" />
+**<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Login" TargetEntityType="Directory_UserRecord" TargetBinding="Login" />**
 
 ```
 
@@ -172,7 +172,7 @@ not add the domain part, and the target expression removes the domain part from 
 
 ```
 
-<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Email"
+**<UnicityCheck Aspect="Directory_UserRecord_UniqueValue_Email"**
 
     SourceBinding="Workflow_Directory_User:Directory_User.Records"
 
@@ -192,7 +192,7 @@ if (iteration &gt; 0)
     result += iteration.ToString();
 }
 
-return result;"
+**return result;"**
 
     TargetEntityType="Directory_UserRecord"
     TargetExpression="C#:record:

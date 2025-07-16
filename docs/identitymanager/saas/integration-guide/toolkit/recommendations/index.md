@@ -44,12 +44,10 @@ Configure auto-completion by proceeding as follows:
     ```
 
         "settings": {
-            "xml.fileAssociations": [
-                {
+            "xml.fileAssociations": [{
                     "systemId": "file:///C:/identitymanagerDemo/identitymanager-configuration.xsd",
                     "pattern": "**/*.xml"
-                }
-            ]
+                }]
         }
 
     ```

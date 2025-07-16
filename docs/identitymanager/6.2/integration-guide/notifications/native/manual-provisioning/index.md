@@ -13,7 +13,7 @@ Identity Manager natively sends notifications concerning manual provisioning.
 ### Notification Trigger
 
 The notifications are sent after a `FulfillTask` with a connection based on the
-[ Manual Ticket ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/manual-ticket/index.md) package.
+[Manual Ticket](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/manual-ticket/index.md) package.
 
 ### Notification Recipients
 

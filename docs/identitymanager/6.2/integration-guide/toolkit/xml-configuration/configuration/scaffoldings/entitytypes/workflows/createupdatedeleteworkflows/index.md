@@ -10,7 +10,7 @@ sidebar_position: 20
 
 ```
 
-  <CreateUpdateDeleteWorkflows EntityType="Directory_Country"/>
+**<CreateUpdateDeleteWorkflows EntityType="Directory_Country"/>**
 
 ```
 

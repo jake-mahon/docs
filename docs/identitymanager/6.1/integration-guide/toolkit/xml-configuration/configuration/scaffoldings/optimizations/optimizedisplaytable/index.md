@@ -33,7 +33,7 @@ The following example optimized the DisplayTable `Directory_User`
 
 ```
 
-  <OptimizeDisplayTable DisplayTableIdentifier="Directory_User" />
+**<OptimizeDisplayTable DisplayTableIdentifier="Directory_User" />**
 
 ```
 

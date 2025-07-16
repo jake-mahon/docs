@@ -9,7 +9,7 @@ sidebar_position: 180
 This connector exports and fulfills entries from/to an [OpenLDAP](https://www.openldap.org/)
 directory.
 
-This page is about [ OData ](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/odata/index.md).
+This page is about [OData](/docs/identitymanager/6.2/integration-guide/connectors/references-packages/odata/index.md).
 
 ![Package: Directory/Open LDAP](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
@@ -27,7 +27,7 @@ Implementing this connector requires:
 - enabling SyncProv Overlay for the OpenLDAP server.
 
     To perform a complete export without the SyncProv Overlay enabled, use rather the
-    [ LDAP ](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/ldap/index.md) connector.
+    [LDAP](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/ldap/index.md) connector.
 
 ## Export
 
@@ -36,7 +36,7 @@ This connector exports to CSV files the content of an OpenLDAP Directory.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -108,7 +108,7 @@ Output folder:
   `ConnectionColumn` and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified. See the
-    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
+    [References: Format for the EntityPropertyMapping](/docs/identitymanager/6.2/integration-guide/connectors/entitypropertymapping-format/index.md)
     topic for additional information.
 
 - a CSV file for each `ConnectionTable` in a related `EntityTypeMapping` or
@@ -243,12 +243,12 @@ provisioning order, through the `ResourceType`'s `ArgumentsExpression`.
 
 Data protection can be ensured through:
 
-- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
+- [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   safe;
 
 - a
-  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[Connection](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   able to store OpenLDAP's `Login`, `Password` and `Server`.

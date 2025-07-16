@@ -17,7 +17,7 @@ Usercube version.
 
 ## Netwrix Usercube v6.1 Released 8-Apr-2024
 
-Major Highlights
+**Major Highlights**
 
 - New bulk features are available for the administration screens listed below. To use, filter to
   select the desired elements, click on the new **Bulk** button, and choose from the presented
@@ -37,7 +37,7 @@ Major Highlights
 - Logs / Performance / Security
     - Improved error messages.
 
-Other Enhancements
+**Other Enhancements**
 
 - The Usercube-Manage-History.exe now handles large databases when the `purge-before-date` and the
   `purge-before-months` parameters are used.

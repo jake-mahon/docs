@@ -17,4 +17,4 @@ logging. To use these integration modules, they just need to be configured in Id
 
 ## Logging
 
-- [ Export Logs to a Log Management System ](/docs/identitymanager/6.2/integration-guide/monitoring/qradar-setting/index.md)
+- [Export Logs to a Log Management System](/docs/identitymanager/6.2/integration-guide/monitoring/qradar-setting/index.md)

@@ -20,7 +20,7 @@ Assignment** page and perform redundant-assignment related actions.
 
 ```
 
-  <RedundantAssignmentAccessControlRule Profile="Administrator"/>
+**<RedundantAssignmentAccessControlRule Profile="Administrator"/>**
 
 ```
 

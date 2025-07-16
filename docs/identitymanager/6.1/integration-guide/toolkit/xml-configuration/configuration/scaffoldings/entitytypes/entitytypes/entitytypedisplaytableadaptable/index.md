@@ -18,7 +18,7 @@ table.
 
 ```
 
-  <EntityTypeDisplayTableAdaptable EntityType="Directory_Country"/>
+**<EntityTypeDisplayTableAdaptable EntityType="Directory_Country"/>**
 
 ```
 

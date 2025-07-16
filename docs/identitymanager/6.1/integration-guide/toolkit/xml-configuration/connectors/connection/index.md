@@ -17,7 +17,7 @@ package `Usercube.AD@0000001` with only the export task and not the fulfill task
 
 ```
 
-<Connection Connector="AD" DisplayName_L1="Connection Active Directory" Identifier="ADExportFulfillment" Package="Usercube.AD@0000001" DeactivationExportFulfill="Fulfill"/>
+**<Connection Connector="AD" DisplayName_L1="Connection Active Directory" Identifier="ADExportFulfillment" Package="Usercube.AD@0000001" DeactivationExportFulfill="Fulfill"/>**
 
 ```
 
@@ -31,12 +31,10 @@ appsettings.agent.json
   "Connections": {
     ...
     "ADExportFulfillment": {
-      "Servers": [
-        {
+      "Servers": [{
           "Server": "contoso.server.com",
           "BaseDN": "DC=contoso,DC=com"
-        }
-      ],
+        }],
       "AuthType": "Basic",
       "Login": "Contoso",
       "Password": "ContOso$123456789",

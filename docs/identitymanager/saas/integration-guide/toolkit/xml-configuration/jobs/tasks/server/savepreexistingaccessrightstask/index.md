@@ -23,7 +23,7 @@ the past. This update affects the following properties:
 
 ```
 
-  <SavePreExistingAccessRightsTask DisplayName_L1="Pre Existing Assignment Default" Identifier="Pre_Existing_Assignment_Default" />
+**<SavePreExistingAccessRightsTask DisplayName_L1="Pre Existing Assignment Default" Identifier="Pre_Existing_Assignment_Default" />**
 
 ```
 

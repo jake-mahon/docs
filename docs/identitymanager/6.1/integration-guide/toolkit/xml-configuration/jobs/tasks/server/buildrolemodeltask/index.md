@@ -20,7 +20,7 @@ The following example applies all role naming rules linked to the AD connector.
 
 ```
 
-<BuildRoleModelTask Identifier="AD_ApplyRoleNamingRules" Connector="AD" DisplayName_L1="AD - Generate Roles/Rules" />
+**<BuildRoleModelTask Identifier="AD_ApplyRoleNamingRules" Connector="AD" DisplayName_L1="AD - Generate Roles/Rules" />**
 
 ```
 

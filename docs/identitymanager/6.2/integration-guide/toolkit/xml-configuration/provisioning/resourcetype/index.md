@@ -32,7 +32,7 @@ available for one type of action. As the configuration JSON file of an InternalW
 cannot contain expressions, a resource type can be configured with the ArgumentsExpression attribute
 to explicit the arguments of provisioning orders, based on conditions and variables. See the
 [InternalWorkflow](/docs/identitymanager/6.2/integration-guide/connectors/references-connectors/internalworkflow/index.md),
-[ Compute a Resource Type's Provisioning Arguments ](/docs/identitymanager/6.2/integration-guide/provisioning/argumentsexpression/index.md),
+[Compute a Resource Type's Provisioning Arguments](/docs/identitymanager/6.2/integration-guide/provisioning/argumentsexpression/index.md),
 and [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topics for additional information.
 
 The following example computes the identifier of the workflow to launch, based on the provisioning
@@ -119,8 +119,11 @@ provisioning to ServiceNow. Then it requires the random identifier computed by S
 In this case, we want to configure the AD_Entry_AdministrationUser resource type so that a user
 cannot own an AD administrator account when they do not have an identifier in ServiceNow.
 
-**NOTE:** The DependsOnOwnerProperty of a resource type should only refer to scalar values that are
+:::note
+The DependsOnOwnerProperty of a resource type should only refer to scalar values that are
 part of the properties of the SourceEntityType.
+:::
+
 
 The following example is meant to perform an automatic check to prevent the execution of any
 provisioning order for the creation of an AD administrator account when the user does not have an
@@ -176,15 +179,21 @@ source data is changed, the scalar rule computes a new value for sn. There are t
 
     ![Example - State 3](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state3_v602.webp)
 
-    **NOTE:** No change in the source data can affect the property's value. However, any manual
+    :::note
+    No change in the source data can affect the property's value. However, any manual
     change made in the managed system will trigger a non-conforming assignment. Then, reconciling
     the property by choosing to keep Identity Manager's suggested value will make the property's
     value go back to Calculated and thus follow the changes in the source data.
+    :::
 
-    **NOTE:** If DiscardManualAssignments is changed from False to True, then the state of the
+
+    :::note
+    If DiscardManualAssignments is changed from False to True, then the state of the
     property's value does not matter. Identity Manager applies the rules of the role model, and
     generates a provisioning order to overwrite the manual change White with the newly computed
     value Black.
+    :::
+
 
     ![Example - State 4](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/discardmanualassignments_state4_v602.webp)
 
@@ -280,10 +289,10 @@ resource type has previously been correlated to the owner or not.
 | MaximumInsertPercent default value: 30                                                     | Int32                                      | Inserted lines threshold in percent.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | MaximumUpdate default value: 0                                                             | Int32                                      | Updated lines threshold. Sets the maximum number of resources that can be modified within the resource type when running the provisioning job.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | MaximumUpdatePercent default value: 30                                                     | Int32                                      | Updated lines threshold in percent.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| P0 default value: false                                                                    | Boolean                                    | True to indicate that the resource type is parametrized, i.e. there is at least one type rule configured to assign the resource type based on the dimension 0 (up to 3V following the base32hex convention). See the [ Base32 Parameter Names ](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| P0 default value: false                                                                    | Boolean                                    | True to indicate that the resource type is parametrized, i.e. there is at least one type rule configured to assign the resource type based on the dimension 0 (up to 3V following the base32hex convention). See the [Base32 Parameter Names](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Policy required                                                                            | Int64                                      | Identifier of the policy that the resource type is part of.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ProlongationWithoutApproval default value: 0                                               | ProlongationWithoutApproval                | Indicates whether the resource type can be extended without any validation. 0 - Inherited: gets the value from the policy. 1 - Enabled. 2 - Disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| R0 default value: false                                                                    | Boolean                                    | True to set the dimension 0 (up to 3V following the base32hex convention) as a required parameter when assigning the resource type. See the [ Base32 Parameter Names ](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| R0 default value: false                                                                    | Boolean                                    | True to set the dimension 0 (up to 3V following the base32hex convention) as a required parameter when assigning the resource type. See the [Base32 Parameter Names](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | RemoveOrphans default value: false                                                         | Boolean                                    | True to authorize the deprovisioning of this resource when it does not have an owner. Can only be true when AllowRemove property is also true.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | SourceEntityType required                                                                  | Int64                                      | Identifier of the source entity type.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | SuggestAllCorrelations optionalAttribute                                                   | Boolean                                    | Allows correlation suggestions for rules with a confidence rate below 100, even if other correlations with a confidence rate above 100 have been found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -314,7 +323,7 @@ script in the command line.
 | Binding optional                           | Int64               | Defines the binding expression to get the file property.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Policy required                            | Int64               | Identifier of the policy that the rule is part of.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Property required                          | Int64               | Identifier of the property used to represent the file on the target EntityType.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| SingleRole optional                        | Int64               | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| SingleRole optional                        | Int64               | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [Single Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | TimeOffsetAfterReference default value: 0  | Int32               | Defines the offset after reference (in minutes).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | TimeOffsetBeforeReference default value: 0 | Int32               | Defines the offset before reference (in minutes).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | TimeOffsetReference default value: 0       | TimeOffsetReference | Offset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly. 0 - Default: the offset inherited from the type rule. 1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date. 2 - Before: the offset before and after reference are both applied from the start date of the resource. 3 - After: the offset before and after reference are both applied from the end date of the resource. **NOTE:** in a situation with several binary rules, the order of application is: After, then Before, then Around, then Default. Each rule is able to overwrite those previously applied in case they overlap. _Remember,_ two offsets of the same mode should never overlap. Resources' start and end dates can be configured through record sections and/or context rules. |
@@ -329,16 +338,19 @@ resources regardless of the attributes of source resources.
 A navigation rule is defined by the child element `<NavigationRule>` of the `<ResourceType>`
 element.
 
-**NOTE:** Both navigation and query rules compute navigation properties. The value of one navigation
+:::note
+Both navigation and query rules compute navigation properties. The value of one navigation
 property should be computed by either navigation or query rules, not both.
+:::
+
 
 See the
-[ Compute a Navigation Property ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md)
+[Compute a Navigation Property](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md)
 topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example declares a new rule to give the SG_APP_SharePoint_HR_Owner group to all users
 who had the SharePoint_HR_Owner role.
@@ -363,7 +375,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Parametrized roles
+**Parametrized roles**
 
 The role catalog can be optimized by reducing the number of roles, by configuring parametrized
 roles. See the
@@ -377,8 +389,8 @@ Supposing that the 10th dimension (dimension A following the base32hex conventio
 time slots, the following example creates a single role Access/A_Brune_HR for all time slots. Each
 time-slot-related entitlement will be assigned to users by configuring one navigation rule per
 entitlement, using the dimension as a required parameter. See the
-[ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and
-[ Base32 Parameter Names ](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md)topics for additional information.
+[Dimension](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and
+[Base32 Parameter Names](/docs/identitymanager/6.2/integration-guide/toolkit/parameter-names/index.md)topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -417,12 +429,12 @@ Both navigation and query rules compute navigation properties. The value of one 
 should be computed by either navigation or query rules, not both.
 
 See the
-[ Compute a Navigation Property ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md)
+[Compute a Navigation Property](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md)
 topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example declares a new rule to compute the parent distinguished name for guest users.
 Here we do not use source properties, but a literal expression for all guest users.
@@ -465,7 +477,7 @@ topic for additional information.
 
 ### Examples
 
-Computation based on other properties
+**Computation based on other properties**
 
 The following example shows two scalar rules. The first one computes users' emails based on AD
 values. The other one contains a C# expression to compute AccountExpires.
@@ -492,7 +504,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Computation via a literal expression
+**Computation via a literal expression**
 
 The following example translates to "the userAccountControl property of a App1_Account of resource
 type App1_Standard_Account must be equal to 66048. It uses a literal expression. See the
@@ -507,11 +519,11 @@ script in the command line.
 </ResourceType>
 ```
 
-Binding
+**Binding**
 
 The Binding attribute complies with the binding expression syntax or the calculation expression
 syntax. So, it can use the C# language to specify a more complex binding. See the
-[ Bindings ](/docs/identitymanager/6.2/integration-guide/toolkit/bindings/index.md) and [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topics for
+[Bindings](/docs/identitymanager/6.2/integration-guide/toolkit/bindings/index.md) and [Expressions](/docs/identitymanager/6.2/integration-guide/toolkit/expressions/index.md) topics for
 additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -521,7 +533,7 @@ script in the command line.
 <ScalarRule Property="email" Binding="C#:user:user.firstName+"."+user.lastName+"@acme.com"" />
 ```
 
-IsMapped
+**IsMapped**
 
 Consider a system that we want to connect to Identity Manager, let's call it SYST, using a title
 property. Consider also that SYST needs to be provisioned with the value of title, but does not
@@ -530,7 +542,7 @@ allow any other system to retrieve the said value.
 In this case, we set `IsMapped` to false so that Identity Manager sends the adequate provisioning
 order when needed, and then is able to change the provisioning state to **Executed** without
 synchronization. See the [Provision](/docs/identitymanager/6.2/user-guide/administrate/provisioning/index.md)
-[ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional
+[Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional
 information.
 
 The following example computes users' title in a given managed system, based on Identity Manager's
@@ -543,13 +555,13 @@ script in the command line.
 <ScalarRule Property="title" Binding="PersonalTitle" IsMapped="false" />
 ```
 
-TimeOffset
+**TimeOffset**
 
 A scalar rule is applied according to reference start and end dates (configured through record
 sections and context rules), usually users' arrival and departure days. It means that, for a user
 matching the rule's criteria, a property is to be computed, by default, from the user's arrival day
-until their departure day. See the [ Record Section ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and
-[ Context Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) topics for additional information.
+until their departure day. See the [Record Section](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md) and
+[Context Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md) topics for additional information.
 
 ![Schema - Default Application Period](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/datamodel_scalarrule_timeoffsetdefault.webp)
 
@@ -606,12 +618,15 @@ resources are to be provisioned, i.e. written to the managed system.
 
 A resource type rule is defined by the child element `<TypeRule>` of the `<ResourceType>` element.
 
-**NOTE:** The specification of several resource type rules for one resource type implies the union
+:::note
+The specification of several resource type rules for one resource type implies the union
 of all rules, i.e. the combination of all rules (and all sets of criteria) with an OR operator.
+:::
+
 
 ### Examples
 
-With a dimension criterion
+**With a dimension criterion**
 
 The following rule will assign an App1_Standard_Account resource (resource of type App1_Account) to
 any User whose organization dimension (dimension binded to column 0) identifier is Marketing.
@@ -626,7 +641,7 @@ script in the command line.
 </ResourceType>
 ```
 
-With a single role criterion
+**With a single role criterion**
 
 In addition to dimensions, a single role can be used as a criterion for a rule.
 
@@ -643,7 +658,7 @@ script in the command line.
 </ResourceType>
 ```
 
-Without any criterion
+**Without any criterion**
 
 Di and SingleRole conditions are not mandatory. A type rule with no condition entails the creation
 of an AssignedResourceType, and hence of a target resource (from the target entity type), for every

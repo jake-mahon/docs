@@ -13,7 +13,7 @@ update or delete.
 
 ```
 
-  <DeployConfigurationTask Identifier="Configuration" DisplayName_L1="Configuration" ConfigurationDirectory="C:/identitymanager/Conf"/>
+**<DeployConfigurationTask Identifier="Configuration" DisplayName_L1="Configuration" ConfigurationDirectory="C:/identitymanager/Conf"/>**
 
 ```
 

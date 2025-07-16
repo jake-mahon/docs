@@ -31,7 +31,7 @@ The scaffolding generates the following scaffoldings:
 
 ```
 
-  <CreateUpdateDeleteTemplate EntityType="Directory_UserType" Profile="Administrator"/>
+**<CreateUpdateDeleteTemplate EntityType="Directory_UserType" Profile="Administrator"/>**
 
 ```
 

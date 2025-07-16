@@ -16,7 +16,7 @@ Gives access to a shortcut on the dashboard to access this page.
 
 ```
 
-  <AccessReviewAdministrationAccessControlRules Profile="Administrator"/>
+**<AccessReviewAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

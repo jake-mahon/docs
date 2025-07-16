@@ -12,7 +12,7 @@ Generates access control to send notification when a relaunch job finish with an
 
 ```
 
-  <RunJobRepairNotificationAccessControlRules Profile="Administrator"/>
+**<RunJobRepairNotificationAccessControlRules Profile="Administrator"/>**
 
 ```
 

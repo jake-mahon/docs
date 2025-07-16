@@ -35,14 +35,14 @@ The identity repository can be created and updated by:
 
 Netwrix Identity Manager (formerly Usercube) recommends creating the identity repository by
 downloading the provided Excel file, filling it with HR information, and uploading it back. See the
-[ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+[Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
 topic to learn how to create the workforce repository.
 
 Then perform mass updates with the same kind of process, and update an Individual Identity via
 Identity Manager's workflows. See the
-[ Update Identities in Bulk ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md)
+[Update Identities in Bulk](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/mass-update/index.md)
 and
-[ Update an Individual Identity ](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)topics
+[Update an Individual Identity](/docs/identitymanager/6.2/user-guide/maintain/identity-data-modification/individual-update/index.md)topics
 for additional information.
 
 ### Useful data

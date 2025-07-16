@@ -12,7 +12,7 @@ Used to track the current configuration version.
 
 ```
 
-    <ConfigurationVersionSetting Version="5.0.0" Description="Demo Usercube" />
+**<ConfigurationVersionSetting Version="5.0.0" Description="Demo Usercube" />**
 
 ```
 

@@ -28,7 +28,7 @@ department.
 | ----------------------------------------------------------- | --------------------------- |
 | Identity repository (required) New identity data (required) | Updated identity repository |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)
+See the [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)
 topic for additional information.
 
 ## Declare a New Identity
@@ -45,7 +45,7 @@ Declare a new worker by proceeding as follows:
 
 3. Follow the workflow's instructions to fill the form with the user's data, choose the user's
    entitlements from your role catalog and send the request. See the
-   [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
+   [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
    topic for additional information.
 
 ## Act on an Existing Identity

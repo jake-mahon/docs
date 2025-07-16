@@ -9,14 +9,14 @@ sidebar_position: 70
 This guide shows how to assign several single roles via the assignment of one composite role.
 
 It is possible to infer SingleRoles with
-[ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). The
+[Composite Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md). The
 SingleRole can only be inferred by the CompositeRole if both the CompositeRole and SingleRole rules
 are verified.
 
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-a [ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
+a [Dimension](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) to define which
 EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType
@@ -34,7 +34,7 @@ A CompositeRole is created in the same way as a SingleRole.
 
 ```
 
-    <CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="Developpeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />
+**<CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="Developpeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />**
 
 ```
 
@@ -47,7 +47,7 @@ The CompositeRoleRule can be limited with the use of dimensions.
 
 ```
 
-    <CompositeRoleRule Role="FCT0720" D1="FCT0720" Policy="Default" />
+**<CompositeRoleRule Role="FCT0720" D1="FCT0720" Policy="Default" />**
 
 ```
 

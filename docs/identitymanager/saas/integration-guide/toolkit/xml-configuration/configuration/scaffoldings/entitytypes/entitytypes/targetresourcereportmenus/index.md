@@ -12,7 +12,7 @@ Creates the Item menu for the entity's report so that it is displayed in the rep
 
 ```
 
-  <TargetResourceReportMenus EntityType="LDAP_Entry"/>
+**<TargetResourceReportMenus EntityType="LDAP_Entry"/>**
 
 ```
 
@@ -28,6 +28,6 @@ Our example generates the following configuration:
 
 ```
 
-<MenuItem Identifier="Reports_Resources_LDAP_Entry" DisplayName_L1="LDAP - Entry" ParentMenuItem="Reports" ReportQuery="Resources_LDAP_Entry" />
+**<MenuItem Identifier="Reports_Resources_LDAP_Entry" DisplayName_L1="LDAP - Entry" ParentMenuItem="Reports" ReportQuery="Resources_LDAP_Entry" />**
 
 ```

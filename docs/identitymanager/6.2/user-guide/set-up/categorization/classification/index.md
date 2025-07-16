@@ -7,9 +7,9 @@ sidebar_position: 30
 # Classify Resources
 
 How to define
-[ Resource Classification Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
+[Resource Classification Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
 in order to classify remaining uncorrelated resources, assigning them resource types. See the
-[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
+[Create a Resource Type](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
 
 ## Overview
 
@@ -17,7 +17,7 @@ in order to classify remaining uncorrelated resources, assigning them resource t
 
 Classification is the process of putting on an existing resource a label called resource type, to
 show its intent and/or purpose within the managed system. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Every resource type can be assigned a set of classification rules.
@@ -103,7 +103,7 @@ application users, entitlements and data model.
 
 | Input                                                                                                                                                                                                    | Output               |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| [ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (required) [ Correlate Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md) (recommended) | Classification rules |
+| [Create a Resource Type](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (required) [Correlate Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/correlation/index.md) (recommended) | Classification rules |
 
 ## Create a Classification Rule
 
@@ -160,7 +160,7 @@ screen) can have their classification questioned and re-computed.
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in classification rules. See the
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
+[Perform a Simulation](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
 
 Any modification in classification rules is taken into account via the classification job: on the
 connector dashboard and in the **Resource Types** frame, click on **Jobs** > **Classify Resource

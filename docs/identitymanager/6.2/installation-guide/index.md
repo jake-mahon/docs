@@ -21,5 +21,5 @@ Required knowledge includes:
 ## Overview
 
 The installation of Identity Manager requires architectural decisions to be made. An
-[ Overview ](/docs/identitymanager/6.2/installation-guide/overview/index.md) of the architecture and available configurations will help you make
+[Overview](/docs/identitymanager/6.2/installation-guide/overview/index.md) of the architecture and available configurations will help you make
 informed decisions.

@@ -25,7 +25,7 @@ Implementing this connector requires:
 - An Okta Token with specific permissions on the target instance
 
 See the
-[ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Configuration
@@ -37,8 +37,11 @@ To configure the Okta connector it is necessary to:
 In order to do so you must connect to the Okta administration console
 `https://myexample-admin.okta.com` and create a new Netwrix Usercube user.
 
-**NOTE:** For some Okta deployments it is possible to create a service account or to Manage an Okta
+:::note
+For some Okta deployments it is possible to create a service account or to Manage an Okta
 user account as a service account.
+:::
+
 
 **Step 2 –** Assign administrator role and permissions to the Netwrix Usercube user.
 
@@ -267,7 +270,7 @@ appsettings.agent.json
 ### Password reset
 
 The password reset settings configuration is described in the appsettings.agent.json file. See the
-[ appsettings.agent ](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Credential protection

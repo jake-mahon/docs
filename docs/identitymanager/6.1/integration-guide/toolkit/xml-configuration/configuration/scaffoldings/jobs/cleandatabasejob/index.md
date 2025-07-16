@@ -12,7 +12,7 @@ Creates the job to clean old tasks and jobs instances with state InProgress
 
 ```
 
-  <CleanDatabaseJob />
+**<CleanDatabaseJob />**
 
 ```
 

@@ -29,7 +29,7 @@ remote configuration:
 
 ```
 
-./identitymanager-Deploy-Configuration.exe -d "C:/identitymanager/Conf" --api-url https://my_usercube_instance.com
+**./identitymanager-Deploy-Configuration.exe -d "C:/identitymanager/Conf" --api-url https://my_usercube_instance.com**
 
 ```
 

@@ -28,7 +28,7 @@ The following example declares a new composite role.
 
 ```
 
-    <CompositeRole Identifier="HR_Accounting" DisplayName_L1="HR:accounting" Category="HR" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default"/>
+**<CompositeRole Identifier="HR_Accounting" DisplayName_L1="HR:accounting" Category="HR" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default"/>**
 
 ```
 

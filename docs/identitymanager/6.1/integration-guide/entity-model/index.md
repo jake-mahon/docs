@@ -110,7 +110,7 @@ Given a navigation property A of EntityType 1, linking EntityType 1 to navigatio
 EntityType 2, then navigation property B is called the reverse property of navigation property A and
 navigation property A is called the reverse property of navigation property B.
 
-For example,
+**For example,**
 
 - The _User_ entity type has the navigational property _Positions_ (a link to **zero or
   more_**Position_ entities);

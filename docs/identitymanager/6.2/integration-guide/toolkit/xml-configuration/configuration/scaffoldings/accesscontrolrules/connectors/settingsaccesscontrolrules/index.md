@@ -12,7 +12,7 @@ Generates the permissions to configure the Workforce Core Solution module and co
 
 ```
 
-  <SettingsAccessControlRules Profile="Administrator"/>
+**<SettingsAccessControlRules Profile="Administrator"/>**
 
 ```
 

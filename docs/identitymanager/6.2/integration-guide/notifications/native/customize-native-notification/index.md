@@ -11,7 +11,7 @@ This guide shows how to set a template other than the default one for native not
 ## Overview
 
 Identity Manager natively sends notifications for usual cases. See the
-[ Native Notifications ](/docs/identitymanager/6.2/integration-guide/notifications/native/index.md) topic for additional information.
+[Native Notifications](/docs/identitymanager/6.2/integration-guide/notifications/native/index.md) topic for additional information.
 
 These native notifications are based on cshtml templates available inside the `Runtime` folder. If
 the provided templates do not meet your exact needs, then they can be replaced by personalized

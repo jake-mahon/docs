@@ -7,22 +7,16 @@ sidebar_position: 90
 # Create a Provisioning Rule
 
 How to define scalar rules, navigation rules and/or query rules to compute and provision target
-resources values from source resources values. See the
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
-topic for additional information.
+resources values from source resources values. See the [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topic for additional information.
 
 ## Overview
 
-[ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) led to the grouping of resources into resource
-types (classification), and the establishment of source-to-target relationships between these
-resources (correlation).
+[Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) led to the grouping of resources into resource types (classification), and the establishment of source-to-target relationships between these resources (correlation).
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
 Here, we are going to compute the values of scalar and navigation properties for the target
-resources used in entitlement management, based on source resources. We are going to
-[Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the
-managed system.
+resources used in entitlement management, based on source resources. We are going to [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) these properties, i.e. write them to the managed system.
 
 The right tools for the job are provisioning rules: scalar rules, navigation rules, query rules.
 
@@ -36,10 +30,7 @@ Another kind of provisioning rule is called resource type rule. Instead of compu
 properties, resource type rules create automatically target resources to be owned by given source
 resources (identities).
 
-In testing mode, the impacted resource types can be configured to block provisioning, by adding a
-mandatory review before actually writing to the managed system. See the
-[ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional
-information.
+In testing mode, the impacted resource types can be configured to block provisioning, by adding a mandatory review before actually writing to the managed system. See the [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md) topic for additional information.
 
 ## Participants and Artifacts
 
@@ -50,19 +41,16 @@ application users, entitlements and data model.
 | ------------------------- | ----------------------------------------- |
 | Categorization (required) | Scalar rules Navigation rules Query rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create Provisioning Rules
 
-- [ Create Resources ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/index.md)type rules to automatically create resources.
+- [Create Resources](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/index.md)type rules to automatically create resources.
 - [Compute a Scalar Property](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/scalar-property-computation/index.md) to compute scalar properties;
 - Create navigation and/or query rules to compute navigation properties.
 
-Netwrix Identity Manager (formerly Usercube) recommends creating/modifying/deleting provisioning
-rules using simulations in order to anticipate changes. See the
-[ Perform a Simulation ](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
+Netwrix Identity Manager (formerly Usercube) recommends creating/modifying/deleting provisioning rules using simulations in order to anticipate changes. See the [Perform a Simulation](/docs/identitymanager/saas/user-guide/optimize/simulation/index.md) topic for additional information.
 
 ## Next Steps
 
-Once provisioning rules are created, integrators can start
-to[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md).
+Once provisioning rules are created, integrators can start to [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md).

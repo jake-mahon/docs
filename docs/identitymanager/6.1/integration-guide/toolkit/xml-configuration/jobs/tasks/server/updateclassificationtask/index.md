@@ -15,7 +15,7 @@ You must set up the ResourceClassificationRule on resourceTypes to be able to us
 
 ```
 
-  <UpdateClassificationTask Identifier="UpdateClassification" DisplayName_L1="Update Classification">    <TaskEntityType EntityType="Referentiel_User"/>  </UpdateClassificationTask>
+**<UpdateClassificationTask Identifier="UpdateClassification" DisplayName_L1="Update Classification">    <TaskEntityType EntityType="Referentiel_User"/>  </UpdateClassificationTask>**
 
 ```
 

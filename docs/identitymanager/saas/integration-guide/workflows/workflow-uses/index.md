@@ -6,13 +6,13 @@ sidebar_position: 30
 
 # Workflow Uses
 
-An Identity Manager [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is the
+An Identity Manager [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md) is the
 sequence of processes that a company has established to manage identities across the organization.
 Workflows makes an approval business process more efficient by managing and tracking all of the
 human tasks involved with the process and by providing a record of the process after it is
 completed.
 
-The identity management [ Workflow ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+The identity management [Workflow](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
 can be broken into four key areas:
 
 ## 1. Onboarding

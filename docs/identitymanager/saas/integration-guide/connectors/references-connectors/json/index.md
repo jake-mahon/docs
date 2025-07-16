@@ -9,7 +9,7 @@ sidebar_position: 110
 This connector generates [JSON](https://www.json.org/json-en.html) files for each provisioning
 order.
 
-This page is about [ JSON ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/json/index.md)
+**This page is about [JSON](/docs/identitymanager/saas/integration-guide/connectors/references-packages/json/index.md)**
 
 ![Package: Custom/JSON](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/json/packages_json_v603.webp)
 

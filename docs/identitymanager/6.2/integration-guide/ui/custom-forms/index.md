@@ -17,9 +17,9 @@ information.
 Two scaffoldings generate the view, the display table and the rights to access the entity's
 resources.
 
-- [ View Template ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplate/index.md):
+- [View Template](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplate/index.md):
   Creates the display table, the default view and access rights to the entity.
-- [ View Template Adaptable ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplateadaptable/index.md):
+- [View Template Adaptable](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtemplateadaptable/index.md):
   Creates the entity view (designElement = ResourceTable), the report and the rights for a given
   profile.
 
@@ -36,8 +36,8 @@ interface.
 
 The following elements must be in place:
 
-- [ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md)
-- [ View Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
+- [Create Menu Items](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md)
+- [View Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
 
 To create the view, you can manipulate one or more forms. The example below shows how to create a
 view from several different forms. This will allow you to reuse some forms in workflows.
@@ -67,8 +67,8 @@ The view form doesn't give access to the view in the interface or the rights to 
 
 The following elements must be in place:
 
-- [ Create Menu Items ](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md)
-- [ View Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
+- [Create Menu Items](/docs/identitymanager/6.2/integration-guide/ui/create-menu-items/index.md)
+- [View Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md)
 
 In the example below, the view form will display all records. To change the filter on the record
 display, you must change the

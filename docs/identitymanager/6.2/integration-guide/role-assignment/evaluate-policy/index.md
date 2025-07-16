@@ -7,7 +7,7 @@ sidebar_position: 40
 # Evaluate Policy
 
 Evaluate Policy is the core algorithm of the assignment policy. See the
-[ Assignment Policy ](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
+[Assignment Policy](/docs/identitymanager/6.2/integration-guide/role-model/role-model-rules/index.md) topic for additional information.
 
 The algorithm is applied by the server to a resource. It has the following responsibilities:
 
@@ -17,7 +17,7 @@ The algorithm is applied by the server to a resource. It has the following respo
 - Managing assignment lifecycle: updating provisioning states
 - Purging expired assignments
 
-See the [ Risk Management ](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional information.
+See the [Risk Management](/docs/identitymanager/6.2/integration-guide/governance/risks/index.md) topic for additional information.
 
 ## Overview
 
@@ -46,8 +46,8 @@ Evaluate Policy is executed by the task `Usercube-Compute-RoleModel`, usually in
 regularly scheduled provisioning job.
 
 See the [Connectors](/docs/identitymanager/6.2/integration-guide/connectors/index.md),
-[ Compute Role Model Task ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
-and [ Jobs ](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) topics for additional information.
+[Compute Role Model Task](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
+and [Jobs](/docs/identitymanager/6.2/integration-guide/tasks-jobs/jobs/index.md) topics for additional information.
 
 ## The Algorithm Steps
 
@@ -80,18 +80,21 @@ To improve execution time, two optimizations are used:
 - Identity Manager only selects resources for which a new assignment computation is needed. They are
   resources updated during the last incremental synchronization, and resources that depend on them.
   They are identified by the dirty flag, set during incremental synchronization. See the
-  [ Upward Data Synchronization ](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) topic for
+  [Upward Data Synchronization](/docs/identitymanager/6.2/integration-guide/synchronization/upward-data-sync/index.md) topic for
   additional information.
 
-**NOTE:** For very few edge cases, dependencies between resource values can be difficult to identify
+:::note
+For very few edge cases, dependencies between resource values can be difficult to identify
 within Identity Manager. An example involves entity property expressions using
 [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) syntax. See
-the [ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for
+the [Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic for
 additional information. A second- or third-order binding used in such an expression actually defines
 a dependency. But Identity Manager does not account for it, because of performance-reliability
 trade-offs. That means a resource `R1`, using such an expression to compute one of its properties
 values from another resource `R2` property value, might not be updated even if `R2` has been updated
 by incremental synchronization. This too can be fixed by using complete synchronization once a day.
+:::
+
 
 **Step 2 –** **Compute expected assignments**
 
@@ -132,10 +135,10 @@ with the assignment rules, and are displayed in the Resource Reconciliation scre
 
 Let's detail the rule enforcement mechanisms.
 
-Match context rules
+**Match context rules**
 
 Dimensions are really the basis of an assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Before starting, a context rule is applied, giving for the input resource:
@@ -145,10 +148,10 @@ Before starting, a context rule is applied, giving for the input resource:
 
 ![Computing Context For Input Resource](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/enforce-context.webp)
 
-Computing expected role assignments
+**Computing expected role assignments**
 
 Role assignments, on the other hand, are the outcome of the assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Role assignments are the output of composite role rules and single role rules enforcement. The
@@ -158,7 +161,7 @@ resource-identity.
 
 ![Computing Expected Role Assignments](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/compute-expected-1.webp)
 
-Enforcing composite role rules
+**Enforcing composite role rules**
 
 The first rules that are enforced are the composite role rules. See the
 [Composite Role Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic
@@ -176,12 +179,15 @@ Then automation rules are enforced on assigned composite roles. See the
 [Automation Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md) topic for
 additional information.
 
-**NOTE:** Enforcing automation rules on an assignment means to find, for each assignment, the
+:::note
+Enforcing automation rules on an assignment means to find, for each assignment, the
 matching automation rule, looking at the last review or the creation date, comparing it to the time
 defined in the rule and, if needed, apply the rule decision that may approve or decline the
 assignment.
+:::
 
-Enforcing single role rules
+
+**Enforcing single role rules**
 
 Then, single role rules are enforced. That means assigning a specific single role to the input
 resource based on its context and existing assigned composite roles, i.e. the composite roles
@@ -197,10 +203,10 @@ expected assignments list.
 
 Then automation rules are enforced on assigned single roles.
 
-Expected provisioning assignments
+**Expected provisioning assignments**
 
 Fulfillment is just the consequence of the role assignment process. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules.
@@ -213,7 +219,7 @@ topic for additional information.
 
 ![Computing Expected Provisioning Assignments](/img/product_docs/identitymanager/saas/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)
 
-Enforcing resource type rules
+**Enforcing resource type rules**
 
 Resource type rules are enforced. This means creating and adding assigned resource types to the
 expected assignments list. This means enforcing the need for a resource of that type to be created
@@ -229,7 +235,7 @@ act of assigning a resource to an owner almost always is the consequence of a ro
 cases for which a single, isolated resource, is "assigned" (i.e. created with specific values) is
 rare and is more of a solution to a specific technical problem.
 
-Enforcing navigation rules
+**Enforcing navigation rules**
 
 Finally, navigation rules are enforced. They aim to complete the information about the resource to
 be created because of the assigned resource types. If the type rule is the what, this is the how.
@@ -248,7 +254,7 @@ provisioning-order-to-be, of assigning a role to a resource.
 This means also no assigned resource type, no navigation assignment. Resource type rules are a
 prerequisite for the associated navigation rules to be enforced.
 
-Enforcing scalar rules
+**Enforcing scalar rules**
 
 Finally, the scalar rules associated with the target's resource type are enforced and become
 assigned resource scalars that will also result in a provisioning order.
@@ -362,7 +368,7 @@ non conforming values in the managed systems that need to be fixed.
 
 That list will eventually become provisioning orders that will be sent to the agent for fulfillment.
 
-What constitutes a difference?
+**What constitutes a difference?**
 
 Expected resource and their values not matching the existing resource and their value, for an
 existing assignment with an `Applied` or `Executed` provisioning state.
@@ -452,8 +458,11 @@ Differences are displayed in the following screens:
 - **Redundant Assignments** displays `Approved` assigned roles and assigned resource types tagged as
   eligible to be turned into `Calculated`.
 
-_Remember,_ **Role Review** is a little bit different as it displays manually requested assignments
+:::tip
+Remember, **Role Review** is a little bit different as it displays manually requested assignments
 waiting for manual approval.
+:::
+
 
 ### A target value to update
 

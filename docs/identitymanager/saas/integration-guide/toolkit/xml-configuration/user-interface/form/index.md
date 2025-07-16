@@ -30,13 +30,13 @@ script in the command line.
 
 The display settings allow you to adjust the display.
 
-Hide the "Access Permissions" tab
+**Hide the "Access Permissions" tab**
 
 When `HideRoles` is set to `true`, then the **Access Permissions** tab is not accessible.
 
 ![Access Permissions](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/form_hideroles_v603.webp)
 
-Adjust the request type
+**Adjust the request type**
 
 When `WorkflowRequestType` is set to `Self`, then the finalization step looks like:
 
@@ -46,11 +46,11 @@ When `WorkflowRequestType` is set to `Helpdesk`, then the finalization step look
 
 ![WorkflowRequestType = Helpdesk](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/form_requesttypehelpdesk_v603.webp)
 
-Display records in a table
+**Display records in a table**
 
 ![RecordTable Example](/img/product_docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/user-interface/form/form_recordtable_v603.webp)
 
-InputType display
+**InputType display**
 
 The InputType represents the type of research property, attribute which supports only a predefined
 set of values listed below:

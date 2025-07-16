@@ -23,7 +23,7 @@ you can choose to focus on:
 - A certain type of assignment
 - Assignments not certified since a certain date
 - Assignments presenting a certain level of risk. See the
-  [ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) topic for additional
+  [Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md) topic for additional
   information.
 
 Identity Manager uses an access certification campaign to define the campaign's scope including:
@@ -58,12 +58,12 @@ At least one Identity Manager profile needs permissions to create campaigns.
 
 Such permission can be granted using the AccessReviewAdministrationAccessControlRules scaffolding.
 See the
-[ Access Review Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
+[Access Review Administration Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
 topic for additional information.
 
 The administrator profile, created with CreateAdministratorProfile scaffolding, already has these
 permissions. See the
-[ Create Administrator Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md)
+[Create Administrator Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md)
 topic for additional information.
 
 If you are not using the AccessReviewAdministrationAccessControlRules scaffolding, the user cannot
@@ -175,7 +175,7 @@ assigned ones.
 
 Scopes of responsibility can also be defined in terms of access certification campaign policy. See
 the
-[ AccessCertificationCampaignPolicy ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md)
+[AccessCertificationCampaignPolicy](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md)
 topic for additional information.
 
 Assigning an access certification campaign policy to an access certification campaign allows the
@@ -239,5 +239,5 @@ topic for additional information.
 
 This permission also is given by the AccessReviewAdministrationAccessControlRules scaffolding. See
 the
-[ Access Review Administration Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
+[Access Review Administration Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
 topic for additional information.

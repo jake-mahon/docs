@@ -12,7 +12,7 @@ Creates all jobs by connector to launched task in the connector page.
 
 ```
 
-  <CreateConnectorsJobs />
+**<CreateConnectorsJobs />**
 
 ```
 

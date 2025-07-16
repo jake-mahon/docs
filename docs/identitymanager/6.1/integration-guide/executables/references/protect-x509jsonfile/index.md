@@ -26,7 +26,7 @@ and creates the `appsettings.encrypted.agent.json` file in the same folder.
 
 ```
 
-./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"
+**./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"**
 
 ```
 
@@ -51,9 +51,7 @@ appsettings.agent.json
       "ApplicationUri": "http://localhost:3000"
     },
     "NotificationSettings": {
-      "Cultures": [
-        "en"
-      ]
+      "Cultures": ["en"]
     }
   },
   ...
@@ -81,9 +79,7 @@ appsettings.encrypted.agent.json
       "ApplicationUri": "kxABAFAEx4fWwG/ANPVTf/WGyccDxoR2xCy+x+U3Ny1KkqnOFw+SizePTgINTzBaYHLTHABQD0GWW6U+4qiG6DpcIcdAD0VVnddqB5a+YIE0reufXYhZTrDU/9yeG6aUWIHkLl9UudC/nnW6zMrjChiJhJvT7csFKdgbqUazZT56hR0i6XS36a5h2/tTWhbZTkk1Dil5JP7xUcu5CMWyXMUvGvK8gfQozYxo/DJTOiLrWjg5ION1yx+ZqPhcIUxgYaBjxSpfT6U9YMy5mE9JGqf7W76baS9fOVr3H1DAL02icX29uJAcsw1r9k1rJQIKEhAuqTNeuqF6C6iPHJAsail+iteOJEYgBSACRz7Te4t6Hp7PBs0FfP0WY1oL+1T+p7X+HaO1jAJhE50J2AKhGNXTZfE="
     },
     "NotificationSettings": {
-      "Cultures": [
-        "kxABAPwTbpFUbP9xT9HyqtTuMLKT9sVD0Qq1kCsI44d12vJEcW2MMy9K5vKakwTPeJpvY6SafELoHc7AjKnh8ZJi0/Yu4dieE5W+5uXY1uaghYJ/2VjimzIsDhvRhm90xUlaMjdFBjx4HAnxBAtEbEjifdGHxZ0L9F305hXSTORj53u76ctCE5D9HPTN3AgLmyIGv5NExwhD4sgppbf6PWjTEZ7yNcoUpkkS4pJ6BMz+PaQo26A2rMP710zQgG72an4XvxSoR3SwSm0fhLCASgYi8YOZw0j/cfxl/LrW1EQ7gyW0/Mw9v1YRNH3DkbWSeHZ3odhDWdaWkzR6yOEt5hO60eM0w8Tjoed30Jwf+enf1rJFStDe/dhg6vjUIaTn6tt1Gw=="
-      ]
+      "Cultures": ["kxABAPwTbpFUbP9xT9HyqtTuMLKT9sVD0Qq1kCsI44d12vJEcW2MMy9K5vKakwTPeJpvY6SafELoHc7AjKnh8ZJi0/Yu4dieE5W+5uXY1uaghYJ/2VjimzIsDhvRhm90xUlaMjdFBjx4HAnxBAtEbEjifdGHxZ0L9F305hXSTORj53u76ctCE5D9HPTN3AgLmyIGv5NExwhD4sgppbf6PWjTEZ7yNcoUpkkS4pJ6BMz+PaQo26A2rMP710zQgG72an4XvxSoR3SwSm0fhLCASgYi8YOZw0j/cfxl/LrW1EQ7gyW0/Mw9v1YRNH3DkbWSeHZ3odhDWdaWkzR6yOEt5hO60eM0w8Tjoed30Jwf+enf1rJFStDe/dhg6vjUIaTn6tt1Gw=="]
     }
   },
   ...
@@ -97,7 +93,7 @@ agent during the synchronization process.
 The login to encrypt is stored in the following format, compliant with the
 [appsettings.agent.json structure](/docs/identitymanager/6.1/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
-appsettings.beforeEncryption.json
+**appsettings.beforeEncryption.json**
 
 ```
 

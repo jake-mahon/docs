@@ -37,9 +37,12 @@ AccessControlEntry grants or denies a permission to a user. Access Control Entri
 Access Control Rule that defines the users scope of responsibility in the Identity Manager
 UI/Workflows.
 
-**NOTE:** If your configuration contains an access control entry with `Permission="/"` and
+:::note
+If your configuration contains an access control entry with `Permission="/"` and
 `CanExecute="true"` then an error will occur during the configuration deployment, as a profile
 should not possess such a big permission.
+:::
+
 
 ### Properties
 
@@ -60,8 +63,11 @@ An access control filter restricts the application of the access control rule to
 the data set. The rule will give the specified permissions to the profile only on the parts of the
 rule's data set for which the filter's condition is met.
 
-_Remember,_ the ViewHistory permission (/Custom/Resources/Entity_Type/ViewHistory) does not work if
+:::tip
+Remember, the ViewHistory permission (/Custom/Resources/Entity_Type/ViewHistory) does not work if
 a filter is added.
+:::
+
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
@@ -81,7 +87,7 @@ This condition is actually a comparison expression between two elements:
 
 ### Examples
 
-Filter on a constant value
+**Filter on a constant value**
 
 The following example gives to the `Administrator` profile certain permissions on user data, but
 only concerning users working in the marketing department.
@@ -101,7 +107,7 @@ script in the command line.
 Technically speaking, the filter here says that the rule's permissions apply only on users from
 `Directory_User` whose `Code` of `MainOrganization` is `Marketing`.
 
-Filter on the account of the current user
+**Filter on the account of the current user**
 
 The following example gives to the `Manager` profile certain permissions on user data, but only
 concerning users from the team managed by the current user.
@@ -170,7 +176,7 @@ Technically speaking, the filter here says that the rule's permissions apply onl
 single roles whose `Id` of the `Category` of the `SingleRole` is the same identifier as the value
 set for the `Category` property of the current user, in at least one of their assigned profiles.
 
-Multiple filters
+**Multiple filters**
 
 The following example gives to the `RoleOfficerByCategory` profile the permission to review the
 roles of users from `Directory_User`, but only the roles of a category assigned to the current user,
@@ -203,11 +209,11 @@ single roles:
 | ---------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Binding required                   | Int64                       | Binding of the property whose value is to be checked to restrict the application of the rule's permissions. **NOTE:** The binding must be based on the entity type defined in the access control rule.                                                                                                                                                                                                  |
 | Category default value: false      | Boolean                     | True to compare the value specified by the binding to the categories of the current user's assigned profiles.                                                                                                                                                                                                                                                                                           |
-| CompositeRole default value: false | Boolean                     | True to compare the value specified by the binding to the composite roles of the current user's assigned profiles. See the [ Assigned Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                          |
+| CompositeRole default value: false | Boolean                     | True to compare the value specified by the binding to the composite roles of the current user's assigned profiles. See the [Assigned Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                          |
 | CurrentUser default value: false   | Boolean                     | True to compare the value specified by the binding to the identifier of the account used by the current user to authenticate to Identity Manager. **NOTE:** The current user is the owner of the profile, allowed by the access control rule to perform an action and/or receive a notification. `CurrentUser` is tightly linked to the configuration of the `SelectUserByIdentityQueryHandlerSetting`. |
-| Dimension optional                 | Int64                       | Identifier of the dimension whose value(s), from the user's assigned profiles, are to be compared to the value specified by the binding. See [ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and [ Assigned Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topics for additional information.                                                                                                                  |
+| Dimension optional                 | Int64                       | Identifier of the dimension whose value(s), from the user's assigned profiles, are to be compared to the value specified by the binding. See [Dimension](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md) and [Assigned Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topics for additional information.                                                                                                                  |
 | Group optional                     | String                      | Group that the filter is part of. The access control rule filters the permissions by using the union (OR) of all filter groups, and the intersection (AND) of all filters within a group. **NOTE:** When not specified, the filter is part of the default group.                                                                                                                                        |
 | Operator default value: 0          | AccessControlFilterOperator | Comparison operator. 0 - Equals. 1 - NotEquals.                                                                                                                                                                                                                                                                                                                                                         |
-| ResourceType default value: false  | Boolean                     | True to compare the value specified by the binding to the resource types of the current user's assigned profiles. See the [ Assigned Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                           |
-| SingleRole default value: false    | Boolean                     | True to compare the value specified by the binding to the single roles of the current user's assigned profiles. See the [ Assigned Profile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                             |
+| ResourceType default value: false  | Boolean                     | True to compare the value specified by the binding to the resource types of the current user's assigned profiles. See the [Assigned Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                           |
+| SingleRole default value: false    | Boolean                     | True to compare the value specified by the binding to the single roles of the current user's assigned profiles. See the [Assigned Profile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md) topic for additional information.                                                                                                                                                                                             |
 | Value optional                     | String                      | Hard coded value to be compared to the value specified by the binding.                                                                                                                                                                                                                                                                                                                                  |

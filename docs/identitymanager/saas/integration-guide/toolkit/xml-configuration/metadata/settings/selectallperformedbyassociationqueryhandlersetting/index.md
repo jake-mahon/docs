@@ -12,7 +12,7 @@ This setting enables task delegation to a group of people.
 
 ```
 
-        <SelectAllPerformedByAssociationQueryHandlerSetting RootEntityType="AD_Entry" Binding="member" />
+**<SelectAllPerformedByAssociationQueryHandlerSetting RootEntityType="AD_Entry" Binding="member" />**
 
 ```
 

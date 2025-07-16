@@ -13,7 +13,7 @@ Initialize historization tables by setting each entity's first record `ValidFrom
 
 ```
 
-<ResetValidFromTask Identifier="ResetValidFrom" DisplayName_L1="Initialize historization" />
+**<ResetValidFromTask Identifier="ResetValidFrom" DisplayName_L1="Initialize historization" />**
 
 ```
 

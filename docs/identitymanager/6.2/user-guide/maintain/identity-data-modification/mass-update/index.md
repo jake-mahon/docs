@@ -30,7 +30,7 @@ Identity data can be updated most often in cooperation with the HR department.
 | ----------------------------------------------------------- | --------------------------- |
 | Identity repository (required) New identity data (required) | Updated identity repository |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
 topic for additional information.
 
 ## Update Data in Complete Mode
@@ -59,7 +59,7 @@ Mass update identity data (in complete mode) by proceeding as follows:
 
 8. Click on **Save & Close**.
 9. Back on the connector's page, launch synchronization. See the
-   [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional information.
+   [Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional information.
 
     Be cautious about thresholds.
 
@@ -88,7 +88,7 @@ Mass update identity data (in incremental mode) by proceeding as follows:
     - `Delete` to remove attributes from the datamodel;
 
         Instead of using `Delete`, you can scan the data model to exclude unused attributes. See the
-        [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
+        [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md)
         topic for additional information.
 
     - `Merge` to input an identity's data and modify the corresponding attributes if said identity
@@ -108,7 +108,7 @@ Mass update identity data (in incremental mode) by proceeding as follows:
 
 8. Click on **Save & Close**.
 9. Back on the connector's page, launch synchronization. See the
-   [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional information.
+   [Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) topic for additional information.
 
     Be cautious about thresholds.
 
@@ -134,4 +134,4 @@ In order to verify the process:
 - Create reports with indicators on the workers number per type or per organization for example
   (through Identity Manager' predefined reports, the Query module or Power BI), in order to ensure
   that Identity Manager's content sticks to reality. See the
-  [ Generate Reports ](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.
+  [Generate Reports](/docs/identitymanager/6.2/user-guide/administrate/reporting/index.md) topic for additional information.

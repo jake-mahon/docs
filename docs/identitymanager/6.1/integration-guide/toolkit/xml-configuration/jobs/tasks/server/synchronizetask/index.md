@@ -20,7 +20,7 @@ Collection must be done by the
 
 ```
 
-  <SynchronizeTask Identifier="HR_Synchronization" Connector="HR" DisplayName_L1="HR Synchro"/>
+**<SynchronizeTask Identifier="HR_Synchronization" Connector="HR" DisplayName_L1="HR Synchro"/>**
 
 ```
 

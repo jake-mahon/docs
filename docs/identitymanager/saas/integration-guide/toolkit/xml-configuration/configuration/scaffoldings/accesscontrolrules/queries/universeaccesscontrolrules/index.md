@@ -15,7 +15,7 @@ The following example gives the permission to access the query page to the admin
 
 ```
 
-  <UniverseAccessControlRules Profile="Administrator"/>
+**<UniverseAccessControlRules Profile="Administrator"/>**
 
 ```
 

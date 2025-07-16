@@ -11,13 +11,13 @@ This connector exports data from one of various
 
 This page is about:
 
-- Database/[ Generic SQL ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/generic-sql/index.md);
-- Database/[ SQL Server ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/sql-server/index.md);
-- Database/[ MySQL ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/mysql/index.md);
-- Database/[ ODBC ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/odbc/index.md);
-- Database[ Oracle Database ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/oracle-database/index.md);
-- Database/[ PostgreSQL ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/postgresql/index.md);
-- [ SAP ASE ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/sapase/index.md).
+- Database/[Generic SQL](/docs/identitymanager/saas/integration-guide/connectors/references-packages/generic-sql/index.md);
+- Database/[SQL Server](/docs/identitymanager/saas/integration-guide/connectors/references-packages/sql-server/index.md);
+- Database/[MySQL](/docs/identitymanager/saas/integration-guide/connectors/references-packages/mysql/index.md);
+- Database/[ODBC](/docs/identitymanager/saas/integration-guide/connectors/references-packages/odbc/index.md);
+- Database[Oracle Database](/docs/identitymanager/saas/integration-guide/connectors/references-packages/oracle-database/index.md);
+- Database/[PostgreSQL](/docs/identitymanager/saas/integration-guide/connectors/references-packages/postgresql/index.md);
+- [SAP ASE](/docs/identitymanager/saas/integration-guide/connectors/references-packages/sapase/index.md).
 
 ![Package: Directory/Database/Generic SQL](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.webp)
 
@@ -66,7 +66,7 @@ This connector exports the content of any table from an SQL database and writes 
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -113,8 +113,8 @@ The identifier of the connection and thus the name of the subsection must:
 | Timeout optional                              | **Type** Int32 **Description** Time period (in seconds) after which the request attempt is terminated and an error is generated.                                                                                                                                                                                                                     |
 |                                               |                                                                                                                                                                                                                                                                                                                                                      |
 | ---                                           | ---                                                                                                                                                                                                                                                                                                                                                  |
-| SqlCommand optional                           | **Type** String **Description** SQL request to be executed. **Note:** when not specified and `SqlFile` neither, then all the[ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported.                                                                                    |
-| SqlFile optional                              | **Type** String **Description** Path of the file containing the SQL request to be executed. **Note:** ignored when `SqlCommand` is specified. **Note:** when not specified and `SqlFile` neither, then all the [ Entity Type Mapping ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
+| SqlCommand optional                           | **Type** String **Description** SQL request to be executed. **Note:** when not specified and `SqlFile` neither, then all the[Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported.                                                                                    |
+| SqlFile optional                              | **Type** String **Description** Path of the file containing the SQL request to be executed. **Note:** ignored when `SqlCommand` is specified. **Note:** when not specified and `SqlFile` neither, then all the [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
 | CsvEncoding default value: UTF-8              | **Type** String **Description** Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).                                                                                                                                                  |
 | ProviderClassFullName optional                | **Type** String **Description** Invariant name to register the provider. **Note:** required when querying a DBMS other than Microsoft SQL Server.                                                                                                                                                                                                    |
 | ProviderDllName optional                      | **Type** String **Description** DLL, i.e. name and extension, to be loaded by the connector. **Note:** the DLL must be in the `Runtime` folder. **Note:** required when querying a DBMS other than Microsoft SQL Server.                                                                                                                             |
@@ -133,7 +133,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 3. Get the value required for `ProviderClassFullName` and `ProviderDllName`:
 
     - for a DBMS handled by Identity Manager's packages, by accessing the
-      [ References: Packages ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/index.md);
+      [References: Packages](/docs/identitymanager/saas/integration-guide/connectors/references-packages/index.md);
 
         > For MySQL:
         >
@@ -210,9 +210,9 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
+- [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md), configured in
   the `appsettings.encrypted.agent.json` file;
-- An [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
+- An [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) safe;
 
 | Attribute             | Naming Convention for the Key in Azure Key Vault   |
 | --------------------- | -------------------------------------------------- |
@@ -224,5 +224,5 @@ Data protection can be ensured through:
 | ProviderDllName       | `Connections--<identifier>--ProviderDllName`       |
 | Timeout               | `Connections--<identifier>--Timeout`               |
 
-[](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 is not available for this connector.

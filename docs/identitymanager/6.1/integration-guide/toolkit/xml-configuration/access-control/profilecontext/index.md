@@ -19,7 +19,7 @@ lower or equal to -2.
 
 ```
 
-<ProfileContext Id="-2" Category="IT Administration" D0="ORG0003" />
+**<ProfileContext Id="-2" Category="IT Administration" D0="ORG0003" />**
 
 ```
 

@@ -13,7 +13,7 @@ create the association between this new entity and the starting entity.
 
 ```
 
-  <WorkflowEntityType EntityType="Directory_Country"/>
+**<WorkflowEntityType EntityType="Directory_Country"/>**
 
 ```
 

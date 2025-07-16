@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Dimension
 
-A dimension is an [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) used to define an organizational filter
+A dimension is an [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) used to define an organizational filter
 for the Identity Manager role model.
 
 ## Examples
@@ -17,7 +17,7 @@ store the dimension value in the assignment rule tables.
 
 ```
 
-<Dimension Identifier="Organization0" DisplayName_L1="Department" EntityType="Directory_Organization" ColumnMapping="0" />
+**<Dimension Identifier="Organization0" DisplayName_L1="Department" EntityType="Directory_Organization" ColumnMapping="0" />**
 
 ```
 

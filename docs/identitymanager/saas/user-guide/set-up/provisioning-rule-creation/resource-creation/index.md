@@ -6,18 +6,13 @@ sidebar_position: 10
 
 # Create Resources
 
-How to define
-[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
-rules to create new (target) resources for given users, computing and provisioning their properties
-based on source resources.
+How to define [Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) rules to create new (target) resources for given users, computing and provisioning their properties based on source resources.
 
 ## Overview
 
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
-Here, we are going to create target resources and assign them to given users. We are going to
-[Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) these resources, i.e. write them to the
-managed system.
+Here, we are going to create target resources and assign them to given users. We are going to [Provision](/docs/identitymanager/saas/user-guide/administrate/provisioning/index.md) these resources, i.e. write them to the managed system.
 
 The right tools for the job are resource type rules.
 
@@ -36,7 +31,7 @@ application users, entitlements and data model.
 | ------------------------- | ------------------- |
 | Categorization (required) | Resource type rules |
 
-See the [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+See the [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
 
 ## Create a Resource Type Rule
 
@@ -120,7 +115,5 @@ Then, you can:
 
     ![View Permissions Tab](/img/product_docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
-    If the type rule uses a single role as a criterion, and the user has said role, then both the
-    resource type and the role will be displayed in the user's permissions, but only if the role is
-    related to a [ Compute a Navigation Property ](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
+    If the type rule uses a single role as a criterion, and the user has said role, then both the resource type and the role will be displayed in the user's permissions, but only if the role is related to a [Compute a Navigation Property](/docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
     Otherwise, only the resource type will be visible.

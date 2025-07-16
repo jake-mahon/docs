@@ -15,7 +15,7 @@ _Item Value_ according to the _Comparison operator_, as can be seen on the examp
 The banner is displayed wherever the associated resource appears.
 
 For example, if we create an indicator pointing out the risk score of a user, the banner will show
-on the left-side of the user [ Tile ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) and the user [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). If we
+on the left-side of the user [Tile](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md) and the user [Form](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/user-interface/form/index.md). If we
 create an indicator pointing out whether an AD account is unused or disabled, the banner will show
 on the left-side of the AD Entries tile and form.
 

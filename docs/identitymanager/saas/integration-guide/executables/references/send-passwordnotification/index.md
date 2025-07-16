@@ -27,7 +27,7 @@ For the notification to be sent, the server set at **appsettings** > **Applicati
 running.  
 The [Resource Type Mappings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
 should have an associated
-[ Password Reset Settings ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md).  
+[Password Reset Settings](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md).  
 For
 the notification to be sent, the password reset settings should at least contain a notified email
 binding.  

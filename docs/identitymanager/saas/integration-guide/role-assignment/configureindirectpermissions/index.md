@@ -7,7 +7,7 @@ sidebar_position: 80
 # Configure Indirect Permissions
 
 The following how-to assumes that you have already read the topic on
-[ Indirect Permissions ](/docs/identitymanager/saas/integration-guide/role-assignment/indirectpermissions/index.md).
+[Indirect Permissions](/docs/identitymanager/saas/integration-guide/role-assignment/indirectpermissions/index.md).
 
 ## Configure Indirect Permissions in an Active Directory
 
@@ -72,9 +72,7 @@ Even if two rules of a kind are needed, only one is pictured. Do not forget the 
 
 #### Indirect permission display
 
-After running a [
-Compute Role Model Task
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), Indirect Permissions should now appear for your test user.
+After running a [Compute Role Model Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md), Indirect Permissions should now appear for your test user.
 
 The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as ```Non-conforming```.
 

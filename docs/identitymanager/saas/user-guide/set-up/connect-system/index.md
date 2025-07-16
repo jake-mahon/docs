@@ -6,16 +6,9 @@ sidebar_position: 60
 
 # Connect to a Managed System
 
-How to create a new
-[Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
-using the provided SaaS agent. See the
-[ Architecture ](/docs/identitymanager/saas/introduction-guide/architecture/index.md) topic for additional
-information.
+How to create a new [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md) using the provided SaaS agent. See the [Architecture](/docs/identitymanager/saas/introduction-guide/architecture/index.md) topic for additional information.
 
-Identity Manager provides demo applications
-[Run the Banking Demo Application](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/demoapp-banking/index.md)
-and
-[Run the HR Demo Application](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/demoapp-hr/index.md) to help set up connectors, test them, and understand Identity Manager's abilities towards external systems.
+Identity Manager provides demo applications [Run the Banking Demo Application](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/demoapp-banking/index.md) and [Run the HR Demo Application](/docs/identitymanager/saas/integration-guide/connectors/configuration-details/demoapp-hr/index.md) to help set up connectors, test them, and understand Identity Manager's abilities towards external systems.
 
 ## Overview
 
@@ -62,12 +55,9 @@ provisioning.
 
 > For example, we can use the data from Identity Manager's Identity repository to fill in later the
 > AD's fields, such as users' display names based on their first names and last names from the
-> repository. See the [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md)
-> topic for additional information.
+> repository. See the [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic for additional information.
 
-Identity Manager can also benefit from inbound connectors, that will write data to Identity
-Manager's central identity repository. While both inbound and outbound connectors allow data to flow
-both ways, they do not work in the same manner.
+Identity Manager can also benefit from inbound connectors, that will write data to Identity Manager's central identity repository. While both inbound and outbound connectors allow data to flow both ways, they do not work in the same manner.
 
 ### Technical principles
 
@@ -80,17 +70,14 @@ Identity Manager's connectors all operate on the same basic principles. Technica
 
     > We create a connector named `AD` (so far, an empty shell).
 
-- a
-  [ Connector ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+- A [Connector](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
   is linked to an agent which acts as the go-between for Identity Manager's server and the managed
   system;
 
     > Our `AD` connector uses the provided SaaS agent.
 
-- a
-  [ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
-  describes the technology used that enables data to flow back and forth between Identity Manager
-  and the managed system;
+- A  [Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  describes the technology used that enables data to flow back and forth between Identity Manager and the managed system;
 
     > We want to use a connection `Directory/Active Directory` to perform synchronization and
     > automated provisioning, and a second connection `Ticket/identitymanager` to perform manual
@@ -100,18 +87,14 @@ Identity Manager's connectors all operate on the same basic principles. Technica
     and generic connections to communicate with any application (CSV, Powershell, RobotFramework,
     SQL, etc.).
 
-- the shape of the extracted managed system's data is modeled by
-  [ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
-  (we will use the term resource to refer to an entity type that has been instantiated);
+- the shape of the extracted managed system's data is modeled by [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) (we will use the term resource to refer to an entity type that has been instantiated);
 
     > We create a single entity type `AD - Entry` which contains all the attributes that will
     > describe its resources, i.e. AD groups and users. The attributes include the department, the
     > employee identifier, the manager, the group membership (`member`/`memberOf`), the dn, the
     > parent dn, etc.
 
-- the intent of resources within the managed system is made clear by categorizing resources into
-  [ Create a Resource Type ](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md). See the
-  [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
+- The intent of resources within the managed system is made clear by categorizing resources into [Create a Resource Type](/docs/identitymanager/saas/user-guide/set-up/categorization/resource-type-creation/index.md). See the [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) topic for additional information.
 
     > We categorize AD resources into distinct resource types: `AD User (nominative)` for basic
     > accounts, which we want Identity Manager to provision automatically;
@@ -138,10 +121,7 @@ functional and technical details of the application.
 | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | Administrator account for the Development Environment (required) Identity repository (required) User Profile (required) | Connector Connected System |
 
-See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md)
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md), and
-[Configure a User Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topics for additional
-information.
+See the [Install the Development Environment](/docs/identitymanager/saas/user-guide/set-up/development-environment-installation/index.md), [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md), and [Configure a User Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/index.md) topics for additional information.
 
 ## Create a Target Connector
 
@@ -149,10 +129,8 @@ For one managed system, create a connector by proceeding as follows:
 
 1. Outside Identity Manager, [Model the Data](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-modeling/index.md).
 2. [Create the Connector](/docs/identitymanager/saas/user-guide/set-up/connect-system/connector-declaration/index.md) for said managed system.
-3. Enable the technical transfer of data by creating and configuring
-   [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md).
-4. Set up [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) to represent the data model decided
-   upon in step 1.
+3. Enable the technical transfer of data by creating and configuring [Create a Connection](/docs/identitymanager/saas/user-guide/set-up/connect-system/connection-creation/index.md).
+4. Set up [Create an Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/index.md) to represent the data model decided upon in step 1.
 
 **Connector modification:** The process for modifying a connector is not so different from the
 process for creating a connector, as you mainly modify the fields specified during creation.
@@ -165,5 +143,4 @@ You can activate the connector again at any time using the same button.
 
 ## Next Steps
 
-Once the connector has been created, you can start
-to[ Synchronize Data ](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md).
+Once the connector has been created, you can start to [Synchronize Data](/docs/identitymanager/saas/user-guide/set-up/synchronization/index.md).

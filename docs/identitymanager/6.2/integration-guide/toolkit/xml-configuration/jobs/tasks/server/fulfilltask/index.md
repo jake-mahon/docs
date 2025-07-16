@@ -17,7 +17,7 @@ changes in ServiceNow.
 
 ```
 
-<FulfillTask Identifier="FulfillTestServiceNowConnector" Agent="Local" DisplayName_L1="Fulfill ServiceNow" OpenIdClient="Job" Connector="ServiceNow"/>
+**<FulfillTask Identifier="FulfillTestServiceNowConnector" Agent="Local" DisplayName_L1="Fulfill ServiceNow" OpenIdClient="Job" Connector="ServiceNow"/>**
 
 ```
 

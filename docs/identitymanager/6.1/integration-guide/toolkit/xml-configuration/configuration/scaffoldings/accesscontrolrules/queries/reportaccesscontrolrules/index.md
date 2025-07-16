@@ -16,7 +16,7 @@ Gives access to a shortcut on the navigation to access this page.
 
 ```
 
-  <ReportAccessControlRules Profile="Administrator"/>
+**<ReportAccessControlRules Profile="Administrator"/>**
 
 ```
 

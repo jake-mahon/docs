@@ -15,8 +15,8 @@ for additional information.
 A policy is a subgroup of the role model. It defines an ensemble of roles and assignment rules that
 apply to specific identities. So policies are used to handle separately several sets of identities,
 based on dimensions with different permissions and workflows. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) and
-[ Conforming Assignments ](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) and
+[Conforming Assignments](/docs/identitymanager/6.2/integration-guide/role-assignment/conformingassignmentcomputation/index.md)topics
 for additional information.
 
 Integrators must minimize the number of policies because it segments identities, and segmentation
@@ -26,8 +26,11 @@ means, for example, one policy for workers (meaning employees and contractors), 
 partners, another one for clients. But sometimes partners are included in the same policy as
 workers, it depends on the organization.
 
-**NOTE:** Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
+:::note
+Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
 project is mature enough should integrators think about creating additional policies.
+:::
+
 
 ## Participants and Artifacts
 
@@ -37,7 +40,7 @@ Integrators must have the knowledge of the organization strategy towards identit
 | ------------------------ | ------ |
 | Resource type (optional) | Policy |
 
-See the [ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md)
+See the [Create a Resource Type](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md)
 topic for additional information.
 
 ## Create a Policy
@@ -88,8 +91,11 @@ The UI elements are identified as follows:
     - Always — The assignment's end date is always locked according to the applicable context rule
     - Dimensions — Criteria that, if met, trigger the membership of given identities to the policy
 
-**NOTE:** What we call another IGA tool can be another application or even another version of
+:::note
+What we call another IGA tool can be another application or even another version of
 Identity Manager.
+:::
+
 
 **Step 4 –** Click on **Create**.
 

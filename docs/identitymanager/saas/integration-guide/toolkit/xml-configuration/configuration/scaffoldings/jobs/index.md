@@ -24,7 +24,7 @@ sidebar_position: 30
     Creates for the given agent the synchronization job of all connectors present in the agent in
     incremental mode.
 
-- [ Create Connectors Jobs ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md)
+- [Create Connectors Jobs](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsjobs/index.md)
 
     Creates all jobs by connector to launched task in the connector page.
 

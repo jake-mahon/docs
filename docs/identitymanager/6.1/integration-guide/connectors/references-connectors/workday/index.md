@@ -99,14 +99,13 @@ to be exported.
 > ```
 > bodies.json
 > {
->   "Requests": [
->     {
+>   "Requests": [>     {
 >       "XmlBody": "<soapenv:Body> <bsvc:Get_Workers_Request> </bsvc:Get_Workers_Request> </soapenv:Body>",
 >       "EntityName": "workers",
 >       "IncrementalTag": "Transaction_Log_Criteria_Data",
 >       "WebService": "Human_Resources/v34.2"
 >     }
->   ]
+>]
 > }
 > ```
 

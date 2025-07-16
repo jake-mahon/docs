@@ -12,7 +12,7 @@ How to reduce the number of roles in the model by configuring roles with paramet
 
 The assignment of a role to a user gives them an entitlement, usually a group membership, thanks to
 a navigation rule. See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md) topic for
 additional information.
 
 ![Simple Role](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.webp)
@@ -22,7 +22,7 @@ roles.
 
 For example, the SAP role can be given with slight differences according to the users' subsidiaries:
 
-> ![Role Matrix](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)
+**> ![Role Matrix](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedroles_numerousroles.webp)**
 
 In order to reduce the number of roles, we can configure roles with parameters by inserting a
 criterion in the navigation rules. Thus, instead of having as many roles as entitlements (left on
@@ -46,7 +46,7 @@ types instead of entitlements.
 Configure a parametrized role by proceeding as follows:
 
 **Step 1 –** Create in XML a dimension corresponding to the parameter that will affect the role. See
-the [ Dimension ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
+the [Dimension](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
 topic for additional information.
 
 For example, let's consider that we have many roles available on three different time slots: 8 hours
@@ -74,10 +74,14 @@ Here we have three navigation rules, one for each distinct time slot (dimension 
 
 ![Example - Rule](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedrole_examplerule_v603.webp)
 
-**NOTE:** Make sure that the corresponding dimension is specified in the right `DisplayEntityType`
+:::note
+Make sure that the corresponding dimension is specified in the right `DisplayEntityType`
 in XML to be displayed in the UI.
+:::
 
-**NOTE:** It is important to note that for manually assigned roles, if a new dimension is added to
+
+:::note
+It is important to note that for manually assigned roles, if a new dimension is added to
 the definition of the role, the assignment's dimension will not be re-calculated, and will therefore
 not be propagated to calculate automatic assignments.  
 Example Scenario — Role A was created as a composite role with no parameters a long time ago. Role A
@@ -89,6 +93,8 @@ not get the role B. Since the modification occurred after the assignment, it is 
 role was assigned voluntarily with dimension X unset.  
 However, if a user got role A assigned after the modification, and its dimension X was equal to
 value Y, then that user would get the role B.
+:::
+
 
 ![Example - Role Parameter Required](/img/product_docs/identitymanager/saas/user-guide/optimize/parameterized-role/parameterizedrole_exampleroleparameter_v603.webp)
 
@@ -115,7 +121,7 @@ script in the command line.
 
 In order to verify the process, request manually the parametrized role for a test user. Some
 additional pop-ups are displayed to set a value for the role's parameter. See the
-[ Request Entitlement Assignment ](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) topic for
+[Request Entitlement Assignment](/docs/identitymanager/6.2/user-guide/administrate/manual-assignment-request/index.md) topic for
 additional information.
 
 In our example:

@@ -8,14 +8,14 @@ sidebar_position: 310
 
 This tool is used to encrypt a JSON file containing sensitive connection data, for example the
 `appsettings-agent.json` file, with
-[ RSA Encryption ](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
+[RSA Encryption](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md). The
 encryption is based on the information given in your `appsettings.json` file about either a PFX file
 or the location of the encryption certificate in the Microsoft store. See the
 [Application Settings](/docs/identitymanager/6.2/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topic for additional information.
 
 This tool `Usercube-Protect-X509JsonFile` is used to encrypt a whole file, in comparison to the
-[ Usercube-Protect-X509JsonValue ](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonvalue/index.md) tool that encrypts only a
+[Usercube-Protect-X509JsonValue](/docs/identitymanager/6.2/integration-guide/executables/references/protect-x509jsonvalue/index.md) tool that encrypts only a
 given value. This tool is more appropriate than `Usercube-Protect-X509JsonValue` when you have many
 lines to encrypt.
 
@@ -26,7 +26,7 @@ and creates the `appsettings.encrypted.agent.json` file in the same folder.
 
 ```
 
-./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"
+**./identitymanager-Protect-X509JsonFile.exe --input-json-file-path "C:/identitymanagerTraining/appsettings.agent.json" --output-json-file-path "C:/identitymanagerTraining/appsettings.encrypted.agent.json"**
 
 ```
 
@@ -51,9 +51,7 @@ appsettings.agent.json
       "ApplicationUri": "http://localhost:3000"
     },
     "NotificationSettings": {
-      "Cultures": [
-        "en"
-      ]
+      "Cultures": ["en"]
     }
   },
   ...
@@ -81,9 +79,7 @@ appsettings.encrypted.agent.json
       "ApplicationUri": "kxABAFAEx4fWwG/ANPVTf/WGyccDxoR2xCy+x+U3Ny1KkqnOFw+SizePTgINTzBaYHLTHABQD0GWW6U+4qiG6DpcIcdAD0VVnddqB5a+YIE0reufXYhZTrDU/9yeG6aUWIHkLl9UudC/nnW6zMrjChiJhJvT7csFKdgbqUazZT56hR0i6XS36a5h2/tTWhbZTkk1Dil5JP7xUcu5CMWyXMUvGvK8gfQozYxo/DJTOiLrWjg5ION1yx+ZqPhcIUxgYaBjxSpfT6U9YMy5mE9JGqf7W76baS9fOVr3H1DAL02icX29uJAcsw1r9k1rJQIKEhAuqTNeuqF6C6iPHJAsail+iteOJEYgBSACRz7Te4t6Hp7PBs0FfP0WY1oL+1T+p7X+HaO1jAJhE50J2AKhGNXTZfE="
     },
     "NotificationSettings": {
-      "Cultures": [
-        "kxABAPwTbpFUbP9xT9HyqtTuMLKT9sVD0Qq1kCsI44d12vJEcW2MMy9K5vKakwTPeJpvY6SafELoHc7AjKnh8ZJi0/Yu4dieE5W+5uXY1uaghYJ/2VjimzIsDhvRhm90xUlaMjdFBjx4HAnxBAtEbEjifdGHxZ0L9F305hXSTORj53u76ctCE5D9HPTN3AgLmyIGv5NExwhD4sgppbf6PWjTEZ7yNcoUpkkS4pJ6BMz+PaQo26A2rMP710zQgG72an4XvxSoR3SwSm0fhLCASgYi8YOZw0j/cfxl/LrW1EQ7gyW0/Mw9v1YRNH3DkbWSeHZ3odhDWdaWkzR6yOEt5hO60eM0w8Tjoed30Jwf+enf1rJFStDe/dhg6vjUIaTn6tt1Gw=="
-      ]
+      "Cultures": ["kxABAPwTbpFUbP9xT9HyqtTuMLKT9sVD0Qq1kCsI44d12vJEcW2MMy9K5vKakwTPeJpvY6SafELoHc7AjKnh8ZJi0/Yu4dieE5W+5uXY1uaghYJ/2VjimzIsDhvRhm90xUlaMjdFBjx4HAnxBAtEbEjifdGHxZ0L9F305hXSTORj53u76ctCE5D9HPTN3AgLmyIGv5NExwhD4sgppbf6PWjTEZ7yNcoUpkkS4pJ6BMz+PaQo26A2rMP710zQgG72an4XvxSoR3SwSm0fhLCASgYi8YOZw0j/cfxl/LrW1EQ7gyW0/Mw9v1YRNH3DkbWSeHZ3odhDWdaWkzR6yOEt5hO60eM0w8Tjoed30Jwf+enf1rJFStDe/dhg6vjUIaTn6tt1Gw=="]
     }
   },
   ...
@@ -98,7 +94,7 @@ The login to encrypt is stored in the following format, compliant with the
 [appsettings.agent](/docs/identitymanager/6.2/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).json
 structure:
 
-appsettings.beforeEncryption.json
+**appsettings.beforeEncryption.json**
 
 ```
 

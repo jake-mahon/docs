@@ -75,7 +75,7 @@ The following command outputs the anonymized data in STDOUT.
 
 ```
 
-./identitymanager-Anonymize.exe -n C:/Projects/identitymanager/Documentation/exampleSources/Anonymizer/users.csv -s "," --columns first_name,last_name,mail:email,number:phone
+**./identitymanager-Anonymize.exe -n C:/Projects/identitymanager/Documentation/exampleSources/Anonymizer/users.csv -s "," --columns first_name,last_name,mail:email,number:phone**
 
 ```
 

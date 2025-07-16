@@ -13,7 +13,7 @@ synchronization for a given profile.
 
 ```
 
-    <RunJobAdministrationAccessControlRules Profile="Administrator"/>
+**<RunJobAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

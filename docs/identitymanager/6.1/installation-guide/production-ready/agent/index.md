@@ -291,12 +291,10 @@ appsettings.agent.json
   ...
   "Connections": {
     "ADExport": {
-        "Servers": [
-          {
+        "Servers": [{
            "Server": "paris.contoso.com",
            "BaseDN": "DC=paris,DC=com"
-          }
-        ],
+          }],
         "AuthType": "Basic",
         "Login": "Login",
         "Password": "Password",

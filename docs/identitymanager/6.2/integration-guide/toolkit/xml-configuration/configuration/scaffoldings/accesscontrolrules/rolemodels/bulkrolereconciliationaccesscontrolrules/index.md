@@ -10,7 +10,7 @@ Generates the permissions to perform bulk validations on the **Role Reconciliati
 
 The scaffolding generates the following scaffoldings:
 
-- [ Reconciliate Roles Access Control Rules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+- [Reconciliate Roles Access Control Rules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
   Generates the permissions to access the role reconciliation pages for a given entity type and
   profile.
 

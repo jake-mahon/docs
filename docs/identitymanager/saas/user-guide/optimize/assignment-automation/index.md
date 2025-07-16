@@ -18,16 +18,10 @@ The strategy for the automation of entitlement assignment lies in the automatic 
 decisions, based on several automation levels provided by Identity Manager:
 
 1. Automation of the creation of the role model, i.e. both roles and navigation rules that represent
-   entitlements in the managed systems, through
-   [ Create Roles in Bulk ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md)
-   based on resources' naming conventions in the managed systems.
-2. Automation of entitlement assignment through assignment rules, which use identity criteria
-   (called dimensions, like identities' department or work location, etc.) to decide what
-   entitlements to assign automatically to identities. See the
-   [ Conforming Assignments ](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
-   topic for additional information.
-3. Automation of the creation of said assignment rules through
-   [ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md), based on existing data analysis.
+   entitlements in the managed systems, through [Create Roles in Bulk](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) based on resources' naming conventions in the managed systems.
+2. Automation of entitlement assignment through assignment rules, which use identity criteria (called dimensions, like identities' department or work location, etc.) to decide what entitlements to assign automatically to identities. See the
+   [Conforming Assignments](/docs/identitymanager/saas/integration-guide/role-assignment/conformingassignmentcomputation/index.md) topic for additional information.
+3. Automation of the creation of said assignment rules through [Perform Role Mining](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md), based on existing data analysis.
 
 ![Automation Concept](/img/product_docs/identitymanager/saas/user-guide/optimize/assignment-automation/automation_schema.webp)
 
@@ -35,12 +29,9 @@ Assignment rules can sometimes give to users an entitlement that they had alread
 Hence, new assignment rules can imply redundancies between the entitlements assigned manually and
 approved, and those calculated by a rule and assigned automatically.
 
-Netwrix Identity Manager (formerly Usercube) recommends
-[Remove Redundant Assignments](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) after any assignment rule is
-created or updated.
+Netwrix Identity Manager (formerly Usercube) recommends [Remove Redundant Assignments](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md) after any assignment rule is created or updated.
 
-The main goal of automation is to reach the optimal cost, playing on assignment efficiency, quality
-and quantity.
+The main goal of automation is to reach the optimal cost, playing on assignment efficiency, quality and quantity.
 
 ### Assessment of manual assignment
 
@@ -52,11 +43,11 @@ assignment poses the following risks:
 - Delay can happen: on the day a worker joins an organization, they rely on a manual action to get
   all the entitlements required for them to start working. Even with roles aiming to help managers
   to understand actual entitlements, delay happens. See
-  the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic
+  the [Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md) topic
   for additional information.Errors can happen: human mistakes are expected in role distribution,
   even though largely mitigated by the role review process and
-  [ Perform Access Certification ](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md). See the
-  [ Reconcile a Role ](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+  [Perform Access Certification](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md). See the
+  [Reconcile a Role](/docs/identitymanager/saas/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
   topic for additional information.
 - It is time-consuming.
 
@@ -139,14 +130,14 @@ At this point, integrators should have all the elements they need to operate.
 | ----------------------- | ---------------------------- |
 | Role Catalog (required) | Ideally automated role model |
 
-See the[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
+See the[Create Roles in the Role Catalog](/docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/index.md)
 topic for additional information.
 
 ## Automate Entitlement Assignment
 
 The process of assignment automation is the following:
 
-1. [ Perform Role Mining ](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md) to approach the automation wall.
+1. [Perform Role Mining](/docs/identitymanager/saas/user-guide/optimize/assignment-automation/role-mining/index.md) to approach the automation wall.
 
     Role Mining covers more use cases than writing assignment rules manually. It diminishes the
     error rate and implies a lower execution cost. And thus, it brings the optimal cost closer to
@@ -170,7 +161,7 @@ The process of assignment automation is the following:
     the error rate allows Identity Manager to "ignore" one of the departments in the organization,
     and optimize automation.
 
-2. [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md)and analyze them with tools like Power
+2. [Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md)and analyze them with tools like Power
    BI to assess the automation wall and identify improvement areas.
 
     > For example in the following Power BI chart, automation is, on average, highly implemented
@@ -213,7 +204,7 @@ The process of assignment automation is the following:
     > in this direction to enhance automation.
 
     Moreover, focus must be directed on actual and correct entitlements, using Identity Manager's
-    [ Perform Access Certification ](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md).
+    [Perform Access Certification](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md).
 
     Data reliability prevents integrators from easy extrapolation mistakes.
 

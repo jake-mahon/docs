@@ -12,7 +12,7 @@ these profiles automatically.
 ## Create a Profile
 
 Here is the xml configuration to create a profile in Usercube. See the
-[ Profile ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
+[Profile](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -42,7 +42,7 @@ script in the command line.
 
 The Usercube-Set-InternalUserProfiles task is mandatory to automatically assign the profile. The
 task can be selected from the Job provisioning list. See the
-[ SetInternalUserProfilesTask ](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
+[SetInternalUserProfilesTask](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the

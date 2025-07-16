@@ -34,7 +34,7 @@ in the UI and/or the XML configuration, and in the `appsettings.agent.json > Con
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
 

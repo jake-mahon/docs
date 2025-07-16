@@ -23,7 +23,7 @@ See the [Set Up Incremental Synchronization](/docs/identitymanager/saas/integrat
 Configure a job to be incremental by proceeding as follows:
 
 1. Configure the synchronization task
-   ([ Synchronize Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md))
+   ([Synchronize Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md))
    with `DoNotDeleteChanges` set to `true`.
 
     This way, Identity Manager keeps the list of all changed resources.
@@ -38,7 +38,7 @@ Configure a job to be incremental by proceeding as follows:
     > ```
 
 2. Tag all changed resources by running
-   [ Set Recently Modified Flag Task ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
+   [Set Recently Modified Flag Task](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setrecentlymodifiedflagtask/index.md)
    after SynchronizeTask.
 
     > For example, following the synchronization task for the Active Directory:

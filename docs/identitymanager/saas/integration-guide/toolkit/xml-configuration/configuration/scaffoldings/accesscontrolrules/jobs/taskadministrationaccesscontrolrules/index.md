@@ -12,7 +12,7 @@ Generates all rights to have the access to job administration page.
 
 ```
 
-  <TaskAdministrationAccessControlRules Profile="Administrator"/>
+**<TaskAdministrationAccessControlRules Profile="Administrator"/>**
 
 ```
 

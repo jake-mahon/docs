@@ -7,9 +7,9 @@ sidebar_position: 100
 # Create Roles in the Role Catalog
 
 How to define
-[ Single Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[Single Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 to model entitlements, and organize them in the role catalog, basis of the role model. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 The creation of the role catalog is a time-consuming part, with an important workload concerning the
@@ -19,7 +19,7 @@ the useful permissions within managed applications.
 ## Overview
 
 The aim here is to establish and create the exhaustive list of
-[ Role Model ](/docs/identitymanager/6.2/integration-guide/role-model/index.md) needed by the organization. Roles are
+[Role Model](/docs/identitymanager/6.2/integration-guide/role-model/index.md) needed by the organization. Roles are
 a way to represent entitlements which are assigned to identities, so that said identities are able
 to work with the managed systems.
 
@@ -42,7 +42,7 @@ connector modeling.
 Identity Manager's roles are all built the same way. Technically speaking:
 
 - a role is part of a policy which is a subgroup of the role model. See the
-  [ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+  [Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
   topic for additional information.
 
     > Let's take the example of the unlimited Internet access, part of the default policy.
@@ -60,7 +60,7 @@ Identity Manager's roles are all built the same way. Technically speaking:
     requirements.
 
     Then single roles can be grouped together through
-    [ Composite Role ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+    [Composite Role](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
     for applicative purposes, allowing users to be assigned several entitlements simultaneously.
     Leave composite roles for later, when the system runs as is and would benefit from an additional
     layer in the role model.
@@ -77,7 +77,7 @@ Identity Manager's roles are all built the same way. Technically speaking:
 - to be effective, roles must be linked to actual entitlements in the managed systems. Technically
   speaking, this means that for each entitlement that you want to assign through a given role, you
   must create a navigation rule to build said link. A navigation rule is specific to one resource
-  type. See the [ Categorize Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional
+  type. See the [Categorize Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/index.md) topic for additional
   information.
 
     ![Schema - Single Role with Navigation Rule](/img/product_docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolerule.webp)
@@ -105,7 +105,7 @@ Functionally speaking, the main benefit of roles is to give entitlements user-fr
 understandable by managers. And to be understandable, roles must be structured.
 
 The strategy for role creation and structuring varies according to the
-[ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) established for a given system.
+[Model the Data](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) established for a given system.
 Here, we will take as example the common use-case that organizes and categorizes roles by
 application. Then, the strategy varies whether the system hosts a single application (like SAB or
 SAP) or several (like the AD or LDAP).
@@ -115,7 +115,7 @@ Thus, no matter the kind of system that you are working with, if the system uses
 conventions, then you should start by creating some. They will be the basis for role structure in
 Identity Manager, and will really simplify role creation.
 
-One system for one application
+**One system for one application**
 
 A common and intuitive case is when a system is simply one application. Then, integrators can create
 one role per entitlement in said application, and one category for the application.
@@ -182,7 +182,7 @@ Roles can also be created bottom-up via role naming rules. Instead of the previo
 use the name of said entitlement in your managed system to create automatically the corresponding
 single role and rule (and category if it does not already exist). In other words, Identity Manager's
 naming rules are to be based on your existing naming conventions for entitlements. See the
-[ Create Roles in Bulk ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
+[Create Roles in Bulk](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) topic for additional information.
 
 ![Schema - Role Creation Top-Down](/img/product_docs/identitymanager/saas/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemabottomup.webp)
 
@@ -202,23 +202,23 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                        | Output              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
-| Connector's data [ Model the Data ](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) (required) [ Create a Provisioning Rule ](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) (required) [ Classify Resources ](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
+| Connector's data [Model the Data](/docs/identitymanager/6.2/user-guide/set-up/connect-system/connector-modeling/index.md) (required) [Create a Provisioning Rule](/docs/identitymanager/6.2/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Classify Resources](/docs/identitymanager/6.2/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
 
 ## Create the Single Role Catalog
 
 Create the single role catalog by proceeding as follows:
 
 1. Create as many single roles as possible (with their navigation rules and categories) via the
-   [ Create Roles in Bulk ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) naming rules.
+   [Create Roles in Bulk](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md) naming rules.
 2. Complete the role catalog if needed by creating manually additional
-   [ Create a Category ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) and single roles with their navigation rules.
+   [Create a Category](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md) and single roles with their navigation rules.
 3. Add [Create a Composite Role](/docs/identitymanager/6.2/user-guide/optimize/composite-role-creation/index.md) to the single role
    catalog only if the project is mature enough. Composite roles are more complex than single roles
    and they are not mandatory.
 
 ## Impact of Modifications
 
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) are available in order to anticipate
+[Perform a Simulation](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) are available in order to anticipate
 the changes induced by a creation/modification/deletion in roles and navigation rules.
 
 ## Next Steps
@@ -226,4 +226,4 @@ the changes induced by a creation/modification/deletion in roles and navigation 
 Once the role catalog is established, integrators can start role officer management.
 
 The role catalog is also a prerequisite for
-[ Manage Risks ](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md)management.
+[Manage Risks](/docs/identitymanager/6.2/user-guide/optimize/risk-management/index.md)management.

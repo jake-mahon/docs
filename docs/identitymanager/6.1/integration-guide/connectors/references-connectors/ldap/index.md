@@ -71,8 +71,7 @@ The identifier of the connection and thus the name of the subsection must:
 >     "Connections": {
 >         ...
 >         "LDAPExport": {
->             "Servers": [
->                 {
+>             "Servers": [>                 {
 >                     "Server": "contoso.server.com",
 >                     "AuthType": "Basic",
 >                     "Login": "Contoso",
@@ -80,13 +79,12 @@ The identifier of the connection and thus the name of the subsection must:
 >                     "Controls": [
 >                         "PagedResult",
 >                         "DomainScope"
->                     ],
+>],
 >                     "NoSigning": false,
 >                     "EnableSSL": true
 >                 }
 >             ],
->             "Tables": [
->                 {
+>             "Tables": [>                 {
 >                     "Table": "entries",
 >                     "BaseDN": "DC=contoso,DC=com",
 >                     "Filter": "(objectclass=*)",
@@ -98,7 +96,7 @@ The identifier of the connection and thus the name of the subsection must:
 >                     "Filter": "(&(member=*)(objectclass=groupOfEntries))",
 >                     "Scope": "Subtree"
 >                 }
->             ],
+>],
 >             "SizeLimit": 5000,
 >             "TimeLimit": 5,
 >             "TimeOut": 30
@@ -200,20 +198,18 @@ Same as for export, fulfill is configured through connections.
 >     "Connections": {
 >         ...
 >         "LDAPFulfillment": {
->             "Servers": [
->                 {
+>             "Servers": [>                 {
 >                     "Server": "contoso.server.com",
 >                     "AuthType": "Basic",
 >                     "Login": "Contoso",
 >                     "Password": "ContOso$123456789"
 >                 }
->             ],
->             "Tables": [
->                 {
+>],
+>             "Tables": [>                 {
 >                     "Table": "entries",
 >                     "BaseDN": "DC=contoso,DC=com"
 >                 }
->             ],
+>],
 >             "IsLdapPasswordReset": true,
 >             "AsAdLds": false
 >         }

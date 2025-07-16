@@ -6,9 +6,7 @@ sidebar_position: 20
 
 # Define Scalar Properties
 
-How to define the simple, or scalar, properties of an
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
-resources.
+How to define the simple, or scalar, properties of an [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s resources.
 
 ## Overview
 
@@ -42,7 +40,7 @@ any property from the AD, but will be recalculated based on the other properties
 
 Define the entity type's scalar properties by proceeding as follows:
 
-1. Start by declaring the [ Create the Entity Type ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+1. Start by declaring the [Create the Entity Type](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
 2. In the entity type's **Properties** section, click on **Map scalar properties** to display
    existing columns from the external source, and select the properties to be used in the entity
    type.
@@ -69,8 +67,7 @@ Define the entity type's scalar properties by proceeding as follows:
         - `Format`: format used for the property's display in Identity Manager, for search tools and
           computation based on said property. Do not keep the default string format if the property
           is not a string. See the
-          [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
-          topic for additional information.
+          [References: Format for the EntityPropertyMapping](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md) topic for additional information.
 
             > For example, dates, booleans, integers, etc.
 
@@ -111,8 +108,7 @@ Define the entity type's scalar properties by proceeding as follows:
     - `Icon`: can be chosen from [Microsoft's list](https://uifabricicons.azurewebsites.net/) and
       will be displayed with the property among users' data.
     - **Source Expression**: expression that defines the property based on at least one source
-      object. Can be defined by a property path and/or
-      [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md).
+      object. Can be defined by a property path and/or [Expressions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/index.md).
 
         > For example, `isUnused` is created to spot unused accounts via a combination of
         > `accountExpires` and `lastLogonTimestamp`:
@@ -151,7 +147,7 @@ You can find the **Reload** button either on the green warning, or on the connec
 
 ## Next Steps
 
-Before saving, you must first[ Select Primary Keys ](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md)for the entity type.
+Before saving, you must first [Select Primary Keys](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md)for the entity type.
 
 ## Troubleshooting
 

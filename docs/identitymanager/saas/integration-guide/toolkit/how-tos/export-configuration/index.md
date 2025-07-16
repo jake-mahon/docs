@@ -10,13 +10,13 @@ The process for configuration export varies according to the situation:
 - when working SaaS, the configuration must be exported remotely;
 
 See the
-[ Usercube-Export-Configuration ](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
+[Usercube-Export-Configuration](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
 topic for additional information.
 
 ## Export the Configuration Locally
 
 Export your configuration by using the
-[ Usercube-Export-Configuration ](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
+[Usercube-Export-Configuration](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
 executable and declaring at least:
 
 - the directory where the configuration is to be exported to;
@@ -33,7 +33,7 @@ executable and declaring at least:
 Export a SaaS configuration by proceeding as follows:
 
 1.  Log in for configuration deployment/export with the
-    [ Usercube-Login ](/docs/identitymanager/saas/integration-guide/executables/references/login/index.md).
+    [Usercube-Login](/docs/identitymanager/saas/integration-guide/executables/references/login/index.md).
 
     Identity Manager provides an OpenID Connect (OIDC) authentication process in order to ensure
     strong security, visibility and ease of use.
@@ -92,7 +92,7 @@ Export a SaaS configuration by proceeding as follows:
     Manager instance, to allow the configuration deployment/export.
 
 4.  Export the configuration by using the
-    [ Usercube-Export-Configuration ](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
+    [Usercube-Export-Configuration](/docs/identitymanager/saas/integration-guide/executables/references/export-configuration/index.md)
     and declaring at least:
 
     - the configuration directory;

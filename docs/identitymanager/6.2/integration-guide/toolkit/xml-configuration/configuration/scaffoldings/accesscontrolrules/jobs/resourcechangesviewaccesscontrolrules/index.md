@@ -16,7 +16,7 @@ retrieved by these APIs.
 
 ```
 
-  <ResourceChangesViewAccessControlRules Profile="Administrator"/>
+**<ResourceChangesViewAccessControlRules Profile="Administrator"/>**
 
 ```
 

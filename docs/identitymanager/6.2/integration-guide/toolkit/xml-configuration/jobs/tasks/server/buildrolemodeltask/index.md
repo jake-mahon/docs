@@ -6,8 +6,8 @@ sidebar_position: 10
 
 # Build Role Model Task
 
-Applies the [ Role Mapping ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md), also named
-[ Create Roles in Bulk ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md),
+Applies the [Role Mapping](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md), also named
+[Create Roles in Bulk](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md),
 i.e. generates single roles and navigation rules based on resources matching a given pattern.
 
 > For example, this task can transform AD groups with a special naming convention into roles.
@@ -18,7 +18,7 @@ The following example applies all role naming rules linked to the AD connector.
 
 ```
 
-<BuildRoleModelTask Identifier="AD_ApplyRoleNamingRules" Connector="AD" DisplayName_L1="AD - Generate Roles/Rules" />
+**<BuildRoleModelTask Identifier="AD_ApplyRoleNamingRules" Connector="AD" DisplayName_L1="AD - Generate Roles/Rules" />**
 
 ```
 

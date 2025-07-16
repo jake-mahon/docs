@@ -10,13 +10,13 @@ Generates the right to apply a report for a profile on a given entity.
 
 The existence of a report for this entity must exist in order to use this scaffolding. A scaffolding
 allows to generate a default report for an entity:
-[ Target Resource Report Menus ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
+[Target Resource Report Menus](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
 
 ## Examples
 
 ```
 
-  <TargetResourceReportAccessControlRules EntityType="LDAP_Entry" Profile="Administrator"/>
+**<TargetResourceReportAccessControlRules EntityType="LDAP_Entry" Profile="Administrator"/>**
 
 ```
 

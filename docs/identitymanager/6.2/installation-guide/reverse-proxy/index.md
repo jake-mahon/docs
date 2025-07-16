@@ -76,11 +76,11 @@ at `<Usercube-server-url>` on network 2.
 
 ```
 
-nginx.conf
+**nginx.conf**
 
 worker_processes auto;
 
-http {
+**http {**
 
 	##
 	# Basic Settings
@@ -203,6 +203,6 @@ server {
 		    proxy_set_header   X-Real-IP $remote_addr;
 	   }
 
-	}
+**}**
 
 ```

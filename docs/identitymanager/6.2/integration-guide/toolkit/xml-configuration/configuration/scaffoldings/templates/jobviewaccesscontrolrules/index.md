@@ -11,14 +11,14 @@ Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
 
 The scaffolding generates the following scaffoldings:
 
-- [ GetJobLogAdministrationAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
+- [GetJobLogAdministrationAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
   Generates the permissions to read task and job instances logs in UI for a given profile.
-- [ JobAdministrationAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
+- [JobAdministrationAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
   Scaffolding to access the job administration page.
-- [ PendingAssignedResourceTypesAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
+- [PendingAssignedResourceTypesAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
   Generates the access control rules which give to a profile the permissions to call the API Pending
   AssignedResourceTypes.
-- [ ResourceChangesViewAccessControlRules ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
+- [ResourceChangesViewAccessControlRules](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
   Generates the access control rules which gives to a profile the permissions to call the API
   ResourceChange, ResourceFileChange and ResourceLinkChange.
 

@@ -8,12 +8,12 @@ sidebar_position: 20
 
 Identity Manager provides a set of predefined functions that simplify the configuration of entity
 property expressions and scalar rules. See the
-[ Entity Type ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 and[Resource Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md) topics for additional
 information.
 
 Unlike C# expressions, Identity Manager's predefined functions do not need any prefix. They can be
-used as such. See the [ C# utility functions ](/docs/identitymanager/saas/integration-guide/toolkit/expressions/csharp-utility-functions/index.md) topic for
+used as such. See the [C# utility functions](/docs/identitymanager/saas/integration-guide/toolkit/expressions/csharp-utility-functions/index.md) topic for
 additional information.
 
 ### Examples

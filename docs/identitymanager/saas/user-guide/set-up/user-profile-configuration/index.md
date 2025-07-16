@@ -6,15 +6,11 @@ sidebar_position: 50
 
 # Configure a User Profile
 
-How to tweak the
-[References: Permissions](/docs/identitymanager/saas/integration-guide/profiles-permissions/permissions/index.md) for
-actions within Identity Manager, for a set of basic
-[ Assigned Profile ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
+How to tweak the [References: Permissions](/docs/identitymanager/saas/integration-guide/profiles-permissions/permissions/index.md) for actions within Identity Manager, for a set of basic [Assigned Profile](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
 
 ## Overview
 
-All the permissions for accessing items and performing actions in Identity Manager are managed by
-assigning profiles to users and permissions to profiles.
+All the permissions for accessing items and performing actions in Identity Manager are managed by assigning profiles to users and permissions to profiles.
 
 ![Schema - Profile Assignment](/img/product_docs/identitymanager/saas/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
 
@@ -32,7 +28,7 @@ Permissions can be about:
 - workflows, which gives access to actions for users' lifecycle (onboarding-movement-offboarding),
   through the workflows provided by Identity Manager within the **Directory** pages;
 - reports, which gives access to Identity Manager's predefined reports about workforce. See the
-  [ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
+  [Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
 - notifications, which enables notification reception when specific workflows are launched.
 
 Netwrix Identity Manager (formerly Usercube) recommends creating and using the following profiles:
@@ -50,15 +46,12 @@ Netwrix Identity Manager (formerly Usercube) recommends creating and using the f
 A user can have up to 10 assigned profiles.
 
 The goal here is to create profiles and link specific permissions to the profiles, in order to build
-a set of typical profiles that will later be assigned to users. See the
-[Assign Users a Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/index.md) topic for additional information.
-Instead of assigning permissions one by one to users, you will assign them sets of permissions (i.e.
-profiles).
+a set of typical profiles that will later be assigned to users. See the [Assign Users a Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/index.md) topic for additional information.
+Instead of assigning permissions one by one to users, you will assign them sets of permissions (i.e. profiles).
 
 ### Responsibility scopes
 
-Each permission can be assigned a responsibility scope, which represents the scope of action of
-users with said permission.
+Each permission can be assigned a responsibility scope, which represents the scope of action of users with said permission.
 
 > For example, managers can be assigned the `View Requests` and `Manage Accounts` permissions, but
 > only for the teams in which they have the manager title. In this case they will handle the
@@ -72,7 +65,7 @@ Integrators must have the knowledge of the organization strategy towards the IGA
 
 | Input                                                                                  | Output        |
 | -------------------------------------------------------------------------------------- | ------------- |
-| [ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
+| [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
 
 ## Configure a User Profile
 
@@ -110,11 +103,8 @@ Configure a user profile by proceeding as follows:
 
 Before you can see the profile in action, it needs to be assigned to a user.
 
-See the [Assign Users a Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/index.md) topic for additional
-information.
+See the [Assign Users a Profile](/docs/identitymanager/saas/user-guide/set-up/user-profile-assignment/index.md) topic for additional information.
 
 ## Next Steps
 
-Once user profiles are configured, integrators can start configuring onboarding workflows. See the
-[ Create the Workforce Repository ](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic for additional
-information.
+Once user profiles are configured, integrators can start configuring onboarding workflows. See the [Create the Workforce Repository](/docs/identitymanager/saas/user-guide/set-up/initial-identities-loading/index.md) topic for additional information.

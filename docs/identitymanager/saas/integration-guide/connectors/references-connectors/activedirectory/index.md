@@ -116,12 +116,11 @@ The identifier of the connection and thus the name of the subsection must:
 >                     "Connections": {
 >                     "ADExport": {
 >                     "Filter": "(objectclass=*)",
->                     "Servers": [
->                     {
+>                     "Servers": [>                     {
 >                     "Server": "contoso.server.com",
 >                     "BaseDN": "DC=contoso,DC=com"
 >                     }
->                     ],
+>],
 >                     "AuthType": "Basic",
 >                     "AsAdLds": false,
 >                     "EnableSSL": true,
@@ -158,16 +157,19 @@ This connector is meant to generate:
   ConnectionColumn and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified. See the
-    [ References: Format for the EntityPropertyMapping ](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
+    [References: Format for the EntityPropertyMapping](/docs/identitymanager/saas/integration-guide/connectors/entitypropertymapping-format/index.md)
     topic for additional information.
 
 - An additional file for each related table other than entries;
 - A cookie file named `<connectionIdentifier>`\_cookie.bin, containing the time of the last export
   in order to perform incremental exports.
 
-    **NOTE:** Most exports can be run in complete mode, where the CSV files will contain all
+    :::note
+    Most exports can be run in complete mode, where the CSV files will contain all
     entries, or in incremental mode, where CSV files will contain only the entries which have been
     modified since the last synchronization.
+    :::
+
 
     A task can use the IgnoreCookieFile boolean property, and a command line (with an executable)
     can use the option --ignore-cookies.
@@ -235,8 +237,7 @@ written to the same CSV file.
 >                     ...
 >                     "Connections": {
 >                     "ADExport": {
->                     "Servers": [
->                     {
+>                     "Servers": [>                     {
 >                     "Server": "<contoso.server.com>",
 >                     "BaseDN": "<DC=contoso,DC=com>"
 >                     },
@@ -244,7 +245,7 @@ written to the same CSV file.
 >                     "Server": "<contoso.server.com>",
 >                     "BaseDN": "<DC=defense,DC=contoso,DC=com>"
 >                     }
->                     ],
+>],
 >                     "AuthType": "<Basic>",
 >                     "Login": "<Contoso>",
 >                     "Password": "<ContOso$123456789>",
@@ -282,12 +283,11 @@ Same as for export, fulfill is configured through connections.
 >                     "Connections": {
 >                     ...
 >                     "ADFulfillment": {
->                     "Servers": [
->                     {
+>                     "Servers": [>                     {
 >                     "Server": "<contoso.server.com>",
 >                     "BaseDN": "<DC=contoso,DC=com>"
 >                     }
->                     ],
+>],
 >                     "AuthType": "Basic",
 >                     "AsAdLds": "true",
 >                     "EnableSSL": true,
@@ -337,16 +337,14 @@ appsettings.agent.json
                 "Connections": {
                 ...
                 "ADFulfillment": {
-                "Servers": [
-                {
+                "Servers": [{
                 "Server": "<contoso.server.com>",
                 "BaseDN": "<DC=contoso,DC=com>"
                 },
                 {
                 "Server": "<contoso.server.com>",
                 "BaseDN": "<DC=defense,DC=contoso,DC=com>"
-                }
-                ],
+                }],
                 "AuthType": "Basic",
                 "Login": "<Contoso>",
                 "Password": "<ContOso$123456789>",
@@ -400,7 +398,7 @@ topic for additional information on how to configure password reset settings.
 Data protection can be ensured through:
 
 - RSA encryption, configured in the appsettings.encrypted.agent.json file. See the
-  [ RSA Encryption ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+  [RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
   topic for additional information.
 - An Azure Key Vault safe; See the
   [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)

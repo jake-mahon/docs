@@ -15,7 +15,7 @@ displays the resources of the `Directory_UserType` entity type, as well as its s
 
 ```
 
-  <ViewAccessControlRules EntityType="Directory_UserType" Profile="Administrator"/>
+**<ViewAccessControlRules EntityType="Directory_UserType" Profile="Administrator"/>**
 
 ```
 

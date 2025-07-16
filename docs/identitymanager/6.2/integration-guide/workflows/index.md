@@ -40,7 +40,7 @@ A workflow is made of several elements:
 ### Technical principles
 
 - A workflow is linked to
-  one[ Entity Type ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only
+  one[Entity Type](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) and concerns only
   resources from said entity type. For example, a workflow can be linked to `Directory_User` or
   `Directory_Department` according to the workflow's purpose, but not both together.
 - The aim of a workflow is to get input data (either a form or just an approval) from users involved

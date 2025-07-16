@@ -14,7 +14,7 @@ _Applied_ (4).
 
 ```
 
-  <ProcessAccessCertificationItemsTask Identifier="ProcessAccessCertificationItems" DisplayName_L1="Process access certification items decisions"/>
+**<ProcessAccessCertificationItemsTask Identifier="ProcessAccessCertificationItems" DisplayName_L1="Process access certification items decisions"/>**
 
 ```
 

@@ -24,7 +24,7 @@ through the menu items on the left of the home page, in the **Connectors** secti
 These entity type pages can be configured via XML to customize all displayed columns and available
 filters, especially the **Orphan** filter that spots uncorrelated resources, and the **Owner /
 Resource Type** column that shows the owner of each resource. See
-the[ Create Menu Items ](/docs/identitymanager/saas/integration-guide/ui/create-menu-items/index.md) topic for
+the[Create Menu Items](/docs/identitymanager/saas/integration-guide/ui/create-menu-items/index.md) topic for
 additional information on customization.
 
 ![Owner / Resource Type Column](/img/product_docs/identitymanager/saas/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
@@ -32,16 +32,15 @@ additional information on customization.
 In the **Orphan** field, select **Yes** to see all existing resources without an owner.
 
 In addition, filters can be configured in the reporting module to list orphaned accounts. See the
-[ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display
+[Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information. Choose to display
 **User** and **AD User** (nominative) with a filter on void user's display names.
 
-**NOTE:** Some accounts are considered orphaned because of an error in the account data or
-assignment rule.  
-For an entity that is never the target of a resource type, the concept of an orphan does not apply
-because the **Owner / Resource Type** column will be hidden.  
-When using a display table to display these entities, use
-DisplayTableDesignElement``({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"``
-or `"adaptable"`.
+:::note
+Some accounts are considered orphaned because of an error in the account data or assignment rule.  
+For an entity that is never the target of a resource type, the concept of an orphan does not apply because the **Owner / Resource Type** column will be hidden.  
+When using a display table to display these entities, use DisplayTableDesignElement``({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"`` or `"adaptable"`.
+:::
+
 
 ### Unused accounts list
 
@@ -83,7 +82,7 @@ return ((resource.lastLogonTimestamp == null) ||
 
 Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the
 filters in the query module, based on said property. See the
-[ Generate Reports ](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
+[Generate Reports](/docs/identitymanager/saas/user-guide/administrate/reporting/index.md) topic for additional information.
 
 The previous example about the AD's **isUnused** property can be complemented in the query module by
 displaying this property alongside users' **EmployeeId**.
@@ -97,7 +96,7 @@ table below.
 
 | Input                                                                     | Output                               |
 | ------------------------------------------------------------------------- | ------------------------------------ |
-| [ Categorize Resources ](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
+| [Categorize Resources](/docs/identitymanager/saas/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
 
 ## Review an Orphaned Account
 
@@ -145,16 +144,13 @@ You can **Select owner** from the list by clicking on the check box.
     - If the owner is still in the organization, the account must be connected to its owner. Is
       there a rule to change?
 
-**NOTE:** We said that useful service accounts must be connected to their owners due to the fact
-that an orphaned account cannot be certified. .See the
-[ Perform Access Certification ](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md) topic for additional information.
-But a service account must not be linked to a person, for the departure of said person from the
-company may trigger the loss of the service account.  
-This is why we create identities with **Application** as their **UserType**, each
-application-identity linked to a person supposed to manage it. Thus,service accounts must be
-connected to application identities, themselves owned by people. That way, if the owner of the
-application leaves, the application-identity is not deleted, and the service accounts it owns are
+:::note
+We said that useful service accounts must be connected to their owners due to the fact that an orphaned account cannot be certified. See the [Perform Access Certification](/docs/identitymanager/saas/user-guide/administrate/access-certification/index.md) topic for additional information.
+But a service account must not be linked to a person, for the departure of said person from the company may trigger the loss of the service account.  
+This is why we create identities with **Application** as their **UserType**, each application-identity linked to a person supposed to manage it. Thus,service accounts must be connected to application identities, themselves owned by people. That way, if the owner of the application leaves, the application-identity is not deleted, and the service accounts it owns are
 not deprovisioned.
+:::
+
 
 See the schema below this note.
 
@@ -162,30 +158,29 @@ See the schema below this note.
 
 **Step 6 –** Select the appropriate owner or no owner at all, according to the previous analysis.
 
-_Remember,_ decisions must be made with caution as they cannot be undone.
+:::tip
+Remember, decisions must be made with caution as they cannot be undone.
+:::
 
-**NOTE:** When binding an orphaned account to an existing owner, properties might need to be
-reconciled.
 
-**Step 7 –** Click on **Confirm Account Deletion** or **Authorize Account** according to the
-previous decision.
+:::note
+When binding an orphaned account to an existing owner, properties might need to be reconciled.
+:::
+
+
+**Step 7 –** Click on **Confirm Account Deletion** or **Authorize Account** according to the previous decision.
 
 By taking the necessary steps the orphan account will be delete or authorized.
 
 ### Use property view
 
-By default, non-conforming assignments are listed by resource. It is possible to click on a resource
-and then access the list of all unreconciled properties for said resource.
+By default, non-conforming assignments are listed by resource. It is possible to click on a resource and then access the list of all unreconciled properties for said resource.
 
 ![Resource View](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_resourceview_v523.webp)
 
-It can be helpful to have the non-conforming assignments regrouped by property, as some of the
-changes can be similar, so very likely to be validated by the same user. This is why a property view
-can be enabled by clicking on the **Property View** toggle at the top right corner.
+It can be helpful to have the non-conforming assignments regrouped by property, as some of the changes can be similar, so very likely to be validated by the same user. This is why a property view can be enabled by clicking on the **Property View** toggle at the top right corner.
 
-Once enabled, select a resource type to display all unreconciled properties linked to said resource
-type. In addition, select a property to display only the unreconciled properties linked to said
-resource type and property.
+Once enabled, select a resource type to display all unreconciled properties linked to said resource type. In addition, select a property to display only the unreconciled properties linked to said resource type and property.
 
 ![Property View](/img/product_docs/identitymanager/saas/user-guide/administrate/orphan-unused-account-review/orphan_propertyview_v603.webp)
 
@@ -204,5 +199,4 @@ In order to verify the process, check that the line for your reviewed item has b
 
 ![View Permissions Tab](/img/product_docs/identitymanager/saas/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
 
-In addition, if you reconciled an orphaned account with an owner, check the user's permissions to
-see said account.
+In addition, if you reconciled an orphaned account with an owner, check the user's permissions to see said account.

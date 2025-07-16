@@ -10,7 +10,7 @@ sidebar_position: 40
 
 ```
 
-  <UpdateResourcesWorkflows EntityType="HR_Person"/>
+**<UpdateResourcesWorkflows EntityType="HR_Person"/>**
 
 ```
 

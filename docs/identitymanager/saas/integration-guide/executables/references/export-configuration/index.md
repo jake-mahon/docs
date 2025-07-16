@@ -76,13 +76,13 @@ remote configuration:
 
 ```
 
-./identitymanager-Export-Configuration.exe -d "C:/identitymanager/ExportedConf" --api-url https://my_usercube_instance.com
+**./identitymanager-Export-Configuration.exe -d "C:/identitymanager/ExportedConf" --api-url https://my_usercube_instance.com**
 
 ```
 
 To be able to export a SaaS configuration, you must first provide your Identity
 Manager administrator with identity information. See the
-[ Export the Configuration ](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md) topic for
+[Export the Configuration](/docs/identitymanager/saas/integration-guide/toolkit/export-configuration/index.md) topic for
 additional information.
 
 ### Basic export for a change of environment

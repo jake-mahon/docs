@@ -7,7 +7,7 @@ sidebar_position: 20
 # Correlate Resources
 
 How to define the
-[ Resource Correlation Rule ](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[Resource Correlation Rule](/docs/identitymanager/6.2/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 to match up resources across systems, usually accounts with their owner.
 
 ## Overview
@@ -17,7 +17,7 @@ to match up resources across systems, usually accounts with their owner.
 Correlation is the process of establishing an ownership relationship between a source resource
 (usually an identity) and a target resource (usually an account). It is the basis of the link
 between an identity and their fine-grained entitlements. See the
-[ Entitlement Management ](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
+[Entitlement Management](/docs/identitymanager/6.2/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Every resource type can be assigned a set of correlation rules.
@@ -119,10 +119,10 @@ application users, entitlements and data model.
 
 | Input                                                                                                                      | Output            |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Identity repository ( (required) Resource types (required) [ Synchronize Data ](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
+| Identity repository ( (required) Resource types (required) [Synchronize Data](/docs/identitymanager/6.2/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
 
-See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
-[ Create a Resource Type ](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
+See the [Create the Workforce Repository](/docs/identitymanager/6.2/user-guide/set-up/initial-identities-loading/index.md) and
+[Create a Resource Type](/docs/identitymanager/6.2/user-guide/set-up/categorization/resource-type-creation/index.md) topics for additional information.
 
 ## Create a Correlation Rule
 
@@ -180,7 +180,7 @@ screen "blocks" correlation and classification "as is". Neither will be re-compu
 
 Simulations are available in order to anticipate the changes induced by a
 creation/modification/deletion in correlation rules. See the
-[ Perform a Simulation ](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
+[Perform a Simulation](/docs/identitymanager/6.2/user-guide/optimize/simulation/index.md) topic for additional information.
 
 Any modification in correlation rules is taken into account via the following jobs: on the connector
 dashboard and in the **Resource Types** frame, click on **Jobs** > **Prepare Correlation Keys**, and

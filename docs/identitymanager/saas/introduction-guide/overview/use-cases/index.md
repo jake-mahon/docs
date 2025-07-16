@@ -62,4 +62,4 @@ entitlements he needs in order to work, but not more to prevent security breache
 
 ## Next Steps
 
-Let's learn about Identity Manager [ Architecture ](/docs/identitymanager/saas/introduction-guide/architecture/index.md).
+Let's learn about Identity Manager [Architecture](/docs/identitymanager/saas/introduction-guide/architecture/index.md).

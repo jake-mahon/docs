@@ -10,7 +10,7 @@ This connector exports
 [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure)
 resources, role definitions and assignments.
 
-This page is about [ Azure ](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure/index.md).
+This page is about [Azure](/docs/identitymanager/saas/integration-guide/connectors/references-packages/azure/index.md).
 
 ![Package: Cloud/Azure](/img/product_docs/identitymanager/saas/integration-guide/connectors/references-connectors/azure/packages_azure_v603.webp)
 
@@ -28,12 +28,12 @@ and role assignments to CSV files.
 ### Configuration
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
 
@@ -130,9 +130,7 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [
-  RSA Encryption
-  ](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
+- [RSA Encryption](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md) configured in the ```appsettings.encrypted.agent.json``` file;
 - An [Azure Key Vault](/docs/identitymanager/saas/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md) safe;
 
 - A [CyberArk's AAM Credential Providers

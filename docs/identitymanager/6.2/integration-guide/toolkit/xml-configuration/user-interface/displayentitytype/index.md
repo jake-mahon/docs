@@ -46,7 +46,7 @@ Entity Types for which a priority isn't set by a `<DisplayEntityType>` configura
 assigned an equally less important priority than the least important priority set by a
 `<DisplayEntityType>` element.
 
-Example
+**Example**
 
 This example shows how to define priorities between the main Entity Types of the organizational
 model. The highest priority is assigned to `Directory_User` and the lowest priority to
@@ -73,7 +73,7 @@ To configure the priority order for elements in the dropdown in these screens, t
 remember to take the workflow-entity types in the `<DisplayEntityType` elements, not just the
 entities themselves.
 
-Example
+**Example**
 
 Let's take the following organizational model:
 

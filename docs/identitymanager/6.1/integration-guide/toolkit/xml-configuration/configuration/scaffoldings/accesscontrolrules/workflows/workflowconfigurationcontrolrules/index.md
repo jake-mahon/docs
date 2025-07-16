@@ -10,7 +10,7 @@ sidebar_position: 40
 
 ```
 
-  <WorkflowConfigurationControlRules Profile="Administrator"/>
+**<WorkflowConfigurationControlRules Profile="Administrator"/>**
 
 ```
 

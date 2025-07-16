@@ -12,7 +12,7 @@ See an example on how to register [For Microsoft Entra ID](/docs/identitymanager
 
 Netwrix Identity Manager (formerly Usercube) strongly recommends configuring as much as possible via
 the UI instead of XML files. See the
-[ Connect to a Managed System ](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md) topic to
+[Connect to a Managed System](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md) topic to
 learn how to create a connector via the UI.
 
 ## Prerequisites
@@ -31,12 +31,12 @@ settings can also be input through environment variables. See the
 [Network Configuration](/docs/identitymanager/saas/integration-guide/network-configuration/index.md) topic for additional information.
 
 This process is configured through a
-[ Connection ](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
+[Connection](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/connection/index.md) in the UI and/or
 the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
                     ```
 
-                        appsettings.agent.json
+**appsettings.agent.json**
 
 { ... "Connections": { ... "<ConnectionIdentifier>": { ... } } }
 
@@ -58,9 +58,7 @@ Microsoft Entra ID](/docs/identitymanager/saas/integration-guide/connectors/refe
 
 ## Build the Connector
 
-See the [
-Connect to a Managed System
-](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md) topic to learn how to build a connector via the UI, with its connections, entity types and mappings.
+See the [Connect to a Managed System](/docs/identitymanager/saas/user-guide/set-up/connect-system/index.md) topic to learn how to build a connector via the UI, with its connections, entity types and mappings.
 
 When exporting the configuration, a ```<connectorName>``` connector should be found in the ```Conf/<connectorName>/<connectorName> Connector.xml``` file.
 
@@ -70,11 +68,7 @@ All XML files must start with the ```<?xml>``` and ```<ConfigurationFile>``` ele
 
 The [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md) of the connector defines how the exported data will be written to Identity Manager's repository. It should match as closely as possible the structure of the relevant data from the external system, and be aligned with Identity Manager's repository.
 
-The entity model is configured by entity type and entity association containing scalar and navigation properties. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md)[
-Entity Association
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md), and [
-Entity Type
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) topics for additional information.
+The entity model is configured by entity type and entity association containing scalar and navigation properties. See the [Entity Model](/docs/identitymanager/saas/integration-guide/entity-model/index.md)[Entity Association](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md), and [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md) topics for additional information.
 
 The entity model can be refined later in the project.
 
@@ -82,11 +76,7 @@ The entity model can be refined later in the project.
 
 Each property of the entity type must be mapped to an attribute from among those exported from the system.
 
-Entity mapping is configured through [
-Entity Type Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [
-Entity Association Mapping
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
+Entity mapping is configured through [Entity Type Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) and [Entity Association Mapping](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md).
 
 So each element of an entity type mapping is meant to link a property from the result of the CSV export file containing the exported attributes to a property from the entity type.
 
@@ -116,9 +106,7 @@ Then each connector should be configured with a menu item, which is created auto
 
 ### Displayed resources
 
-See the [
-Organize Resources' Datasheets
-](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md) to learn more on how to set the display properties via the UI.
+See the [Organize Resources' Datasheets](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/datasheet-organization/index.md) to learn more on how to set the display properties via the UI.
 
 In the XML configuration, scalar properties are automatically displayed in the datasheets of the connector's resources. But navigation properties must be declared explicitly.
 
@@ -130,15 +118,11 @@ The resources are displayed in a table configurable through a [Display Table](/d
 
 ### Resources' display names
 
-See the [
-Set Resources' Display Names
-](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md) to learn how to set resources' display names via the UI.
+See the [Set Resources' Display Names](/docs/identitymanager/saas/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md) to learn how to set resources' display names via the UI.
 
 Each resource is displayed in the UI with a display name.
 
-Resources' display names are customizable through [
-Entity Type
-](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+Resources' display names are customizable through [Entity Type](/docs/identitymanager/saas/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 property expression.
 
 ### Permissions

@@ -18,7 +18,7 @@ query assigned profiles.
 
 ```
 
-  <AssignProfileAccessControlRules Profile="Administrator"/>
+**<AssignProfileAccessControlRules Profile="Administrator"/>**
 
 ```
 

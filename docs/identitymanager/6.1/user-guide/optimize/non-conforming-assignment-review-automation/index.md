@@ -7,7 +7,7 @@ sidebar_position: 50
 # Automate the Review of Non-conforming Assignments
 
 How to automate the review of non-conforming assignments through automation rules. See the
-[ Review Non-conforming Assignments ](/docs/identitymanager/6.1/user-guide/administrate/non-conforming-assignment-review/index.md)
+[Review Non-conforming Assignments](/docs/identitymanager/6.1/user-guide/administrate/non-conforming-assignment-review/index.md)
 and
 [Automation Rule](/docs/identitymanager/6.1/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 topics for additional information.
@@ -41,9 +41,9 @@ team's entitlements.
 | Mastered non-conforming assignment review (required) Categorized accounts (optional) | Automated assignment review |
 
 See the
-[ Review Non-conforming Assignments ](/docs/identitymanager/6.1/user-guide/administrate/non-conforming-assignment-review/index.md)
+[Review Non-conforming Assignments](/docs/identitymanager/6.1/user-guide/administrate/non-conforming-assignment-review/index.md)
 and
-[ Categorize Resources ](/docs/identitymanager/6.1/user-guide/set-up/categorization/index.md)
+[Categorize Resources](/docs/identitymanager/6.1/user-guide/set-up/categorization/index.md)
 topics for additional information.
 
 ## Create an Automation Rule
@@ -81,8 +81,11 @@ will be applied.
 - Workflow State — Workflow state of the assignments that need a decision.
 - Waiting Period — Time period since the last change in the assignments' workflow states.
 
-_Remember,_ in a nutshell, this rule applies Decision to all assignments of Type (and matching all
+:::tip
+Remember, in a nutshell, this rule applies Decision to all assignments of Type (and matching all
 criteria), whose workflow state has been set to Workflow State for more than Waiting Period.
+:::
+
 
 ## Impact of Modifications
 

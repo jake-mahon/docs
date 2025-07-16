@@ -40,7 +40,7 @@ To add a default filter, you must add both of the following properties to a
 
 ```
 
-  <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" />
+**<Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" />**
 
 ```
 

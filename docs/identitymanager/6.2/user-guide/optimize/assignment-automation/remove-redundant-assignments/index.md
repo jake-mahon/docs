@@ -16,7 +16,7 @@ topic for additional information.
 Assignment rules can sometimes give to users an entitlement that they had already received manually.
 Hence, new assignment rules can imply redundancies between the entitlements assigned manually and
 approved, and those calculated by a rule and assigned automatically. See the
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional
+[Automate Role Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) topic for additional
 information.
 
 Netwrix recommends removing redundant assignments after any assignment rule is created or updated.
@@ -84,9 +84,9 @@ application's users, entitlements and data model.
 | Role catalog (required) Role assignment rules (required) Role mining (optional) | Minimized derogation’s |
 
 See the
-[ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md),
-[ Automate Role Assignments ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
-[ Perform Role Mining ](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
+[Create Roles in the Role Catalog](/docs/identitymanager/6.2/user-guide/set-up/single-roles-catalog-creation/index.md),
+[Automate Role Assignments](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/automate-role-assignment/index.md), and
+[Perform Role Mining](/docs/identitymanager/6.2/user-guide/optimize/assignment-automation/role-mining/index.md) topics for additional information.
 
 ## Remove Redundant Assignments
 
@@ -101,7 +101,10 @@ Remove redundant assignments by proceeding as follows:
 **Step 2 –** Click on **Analyze** to tag the manual roles and resource types from all policies
 eligible for conversion to an automatic state.
 
-**NOTE:** Previous tags are cleared at each instance of this tagging process.
+:::note
+Previous tags are cleared at each instance of this tagging process.
+:::
+
 
 **Step 3 –** Click on **Download Excel** to download a dedicated XLSX report which contains one tab
 per entity type representing identities.
