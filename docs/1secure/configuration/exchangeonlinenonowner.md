@@ -13,22 +13,31 @@ and instructing this app to automatically apply the necessary audit settings.
 These settings shall provide configuration for the All Exchange Online Non-Owner Mailbox Access
 Events report. See the Filters topic for additional information.
 
-**NOTE:** To start auditing the data for the report, you need to select the **Collect non-owner
+:::note
+To start auditing the data for the report, you need to select the **Collect non-owner
 mailbox audit data** check box when adding the Exchange Online source. See the
 [Add a Source and Connectors for Exchange Online](/docs/1secure/admin/organizations/sourcesandconnectors/exchangeonline.md)topic
 for additional information.
+:::
 
-**NOTE:** Unified audit log must be enabled for a tenant. See the Microsoft
+
+:::note
+Unified audit log must be enabled for a tenant. See the Microsoft
 [Turn auditing on or off](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable?view=o365-worldwide&tabs=microsoft-purview-portal)
 article for additional information.
+:::
+
 
 ## Grant Permissions to the Application
 
 Follow the steps to grant permissions to the Microsoft Entra ID application.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** In the Microsoft Entra admin center, create and register a Microsoft Entra ID app. See
 the
@@ -58,9 +67,12 @@ The application is granted the required API permissions.
 
 Follow the steps to grant roles to the registered application.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** From the **Identity** > **Roles & admins** blade, click > **Roles & admins**.
 
@@ -144,5 +156,8 @@ Get-ExoMailbox -PropertySets Minimum -RecipientTypeDetails UserMailbox,SharedMai
 Disconnect-ExchangeOnline -Confim:$False
 ```
 
-**NOTE:** To automate steps 8-9, you can create a script comprising the corresponding commands and
+:::note
+To automate steps 8-9, you can create a script comprising the corresponding commands and
 schedule its launch.
+
+:::

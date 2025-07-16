@@ -47,9 +47,12 @@ topic for additional information.
 
 **Step 4 –** Click **Finish**.
 
-**NOTE:** You must firstly add a Sites.ReadWrite.All permission in your Microsoft Entra admin
+:::note
+You must firstly add a Sites.ReadWrite.All permission in your Microsoft Entra admin
 center. See the [ Microsoft 365 Permissions](/docs/1secure/configuration/registerconfig/permissions.md) topic for
 additional information.
+:::
+
 
 The SharePoint Online integration is added now. The status displays "Ok" in green.
 

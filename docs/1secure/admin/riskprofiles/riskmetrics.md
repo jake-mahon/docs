@@ -130,7 +130,10 @@ displayed.
 - High – Set the risk severity level to High
 - Medium – Set the risk severity level to Medium
 
-**NOTE:** When the risk is not detected, the severity level is automatically set to Low.
+:::note
+When the risk is not detected, the severity level is automatically set to Low.
+:::
+
 
 For example, if a third party application is not allowed and the system does not detect any, the
 risk level will be low. However, if the system detects one, the severity level will be set to medium
@@ -145,8 +148,11 @@ The risk thresholds have been modified for the metric.
 
 ## Remove a Risk Metric From a Risk Profile
 
-**NOTE:** When you remove a risk metric from a profile, organizations using that risk profile will
+:::note
+When you remove a risk metric from a profile, organizations using that risk profile will
 no longer be assessed against this metric.
+:::
+
 
 Follow the steps to remove a risk metric from a risk profile.
 
@@ -219,7 +225,10 @@ that lists the managed organizations defined in 1Secure.
 - High – Set the risk severity level to High
 - Medium – Set the risk severity level to Medium
 
-**NOTE:** When the risk is not detected, the severity level is automatically set to Low.
+:::note
+When the risk is not detected, the severity level is automatically set to Low.
+:::
+
 
 **Step 7 –** (Optional) Click the **Restore default** button to reset the risk metric to its default
 settings. This button is enabled if the default settings have been modified.

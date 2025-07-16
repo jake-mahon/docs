@@ -14,30 +14,42 @@ cloud-based infrastructure via Microsoft Graph and other modern APIs.
 You have to configure the app in Microsoft Entra ID once, as it can be used to audit multiple
 Microsoft 365 data sources, including SharePoint Online, Microsoft Entra ID, and Exchange Online.
 
-**NOTE:** It is recommended to register a dedicated app in Microsoft Entra ID for each data source
+:::note
+It is recommended to register a dedicated app in Microsoft Entra ID for each data source
 that you want to audit in Netwrix 1Secure. While sharing a single app across multiple data sources
 is allowed, it may lead to issues such as throttling. For example, if there are too many connections
 to Microsoft Graph, some connections may be temporarily stopped. Additionally, different data
 sources may require different permissions and you might not grant all permissions to a single app.
+:::
+
 
 To begin auditing Microsoft 365 data sources, manually register the app for Netwrix 1Secure in
 Microsoft Entra ID and provide its settings while adding a data source in Netwrix 1Secure.
 
-**NOTE:** A user account with the Global Administrator, Application Administrator, or Cloud
+:::note
+A user account with the Global Administrator, Application Administrator, or Cloud
 Application Administrator role is required to grant admin consent for certain permissions to the
 registered application.
+:::
 
-**NOTE:** Unified audit log must be enabled for a tenant. See the Microsoft
+
+:::note
+Unified audit log must be enabled for a tenant. See the Microsoft
 [Turn auditing on or off](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable?view=o365-worldwide&tabs=microsoft-purview-portal)
 article for additional information.
+:::
+
 
 ## Register an App in Microsoft Entra ID
 
 Follow the steps to register an application in Microsoft Entra ID.
 
-**NOTE:** The steps below are for registering an app through the Microsoft Entra admin center. These
+:::note
+The steps below are for registering an app through the Microsoft Entra admin center. These
 steps may vary slightly if you use a different Microsoft portal. See the relevant Microsoft
 documentation for additional information.
+:::
+
 
 **Step 1 –** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 
@@ -179,8 +191,11 @@ The client secret value is required while adding a data source in Netwrix 1Secu
 [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/overview.md) topic for
 additional information on adding a data source.
 
-**CAUTION:** If you leave this page before copying the key, it cannot be retrieved, and you will
+:::warning
+If you leave this page before copying the key, it cannot be retrieved, and you will
 need to repeat the process.
+:::
+
 
 ## Upload a Certificate
 

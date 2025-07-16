@@ -85,7 +85,10 @@ user** drop-down menu. To specify multiple groups, select them one by one from t
 
 The user can only view and/or manage the organizations assigned to the group(s) you select here.
 
-**NOTE:** Administrators have access to all tenancies regardless of the organization group(s).
+:::note
+Administrators have access to all tenancies regardless of the organization group(s).
+:::
+
 
 **Step 5 –** Click Add.
 
@@ -112,7 +115,10 @@ When logging in, the users see the Home screen, on which they can do the followi
 
 ## Add the Business Viewer Role
 
-**NOTE:** This option is not available for End Customer Organizations.
+:::note
+This option is not available for End Customer Organizations.
+:::
+
 
 Add a Business Viewer role using the Managed Organizations page. The Business viewer is the
 organization user, which can be added by the System Administrator to access the reports and other
@@ -149,13 +155,19 @@ option.
 
 **Step 5 –** Click **Send Invite**.
 
-**NOTE:** The Business viewer role provides access to the Home screen, which displays the logged in
+:::note
+The Business viewer role provides access to the Home screen, which displays the logged in
 organization.
+:::
+
 
 ![Home page](/img/product_docs/1secure/admin/organizations/homescreen_2.webp)
 
-**NOTE:** When logging in, if the Business Viewer account is registered with multiple organizations,
+:::note
+When logging in, if the Business Viewer account is registered with multiple organizations,
 select the one you wish to access.
+:::
+
 
 ## Add the Co-Managing Administrator Role
 
@@ -191,15 +203,21 @@ tile.
 
 **Step 5 –** Click **Send Invite**.
 
-**NOTE:** The Co-managing Administrator role provides access to the Home screen, which displays the
+:::note
+The Co-managing Administrator role provides access to the Home screen, which displays the
 logged in organization.
+:::
+
 
 ## Delete a Managed Organization User
 
 Follow the steps to delete a user from a managed organization.
 
-**NOTE:** User(s) can only be deleted from a managed organization by tenant administrators or
+:::note
+User(s) can only be deleted from a managed organization by tenant administrators or
 co-managing administrators.
+:::
+
 
 **Step 1 –** Click **Configuration** in the top bar. The Managed organizations page is displayed,
 that lists the managed organizations defined in 1Secure.

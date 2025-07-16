@@ -44,7 +44,10 @@ details by selecting Copy Connection String. This information will be used for a
 **Step 7 –** Paste the information in the Netwrix Cloud Agent Configuration that you copied earlier
 and save settings.
 
-**NOTE:** The agent status has changed to **Connected** (green).
+:::note
+The agent status has changed to **Connected** (green).
+:::
+
 
 **Step 8 –** Go back to the Netwrix 1Secure configuration panel and select **Retry connecting to the
 client**. The agent status shall change to Healthy.

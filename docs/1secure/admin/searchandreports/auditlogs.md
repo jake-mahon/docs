@@ -12,7 +12,10 @@ ensures that the monitoring scope covers all major aspects of your organization.
 
 The self-audit report lists all changes made to an organization since its creation.
 
-**NOTE:** Only a Managed Service Provider can generate this report.
+:::note
+Only a Managed Service Provider can generate this report.
+:::
+
 
 Follow the steps to generate the self-audit report.
 

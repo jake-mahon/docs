@@ -68,10 +68,13 @@ Specify the following:
       [Exchange Online](/docs/1secure/admin/searchandreports/activity.md#exchange-online) topic for additional
       information.
 
-        **NOTE:** To collect the data for this report, you need to set up non-owner mailbox access
+        :::note
+        To collect the data for this report, you need to set up non-owner mailbox access
         auditing. See the
         [Settings for Non-Owner Mailbox Access Audit: Using Application](/docs/1secure/configuration/exchangeonlinenonowner.md)
         topic for additional information.
+        :::
+
 
 **Step 8 –** Click **Finish**.
 

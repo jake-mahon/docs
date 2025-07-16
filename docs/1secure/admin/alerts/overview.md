@@ -22,8 +22,11 @@ Alert profiles are displayed in the list with the following information:
 - Used in organizations – The number of organizations the alert profile is applied to
 - Notification delivery – Indicates whether email notifications are configured for the profile
 
-**NOTE:** The alert profile named _Netwrix Profile (Default)_ is available by default and is
+:::note
+The alert profile named _Netwrix Profile (Default)_ is available by default and is
 automatically applied to all managed organizations.
+:::
+
 
 ## Add an Alert Profile
 
@@ -60,9 +63,12 @@ Follow the steps to modify the name of an alert profile.
 
 ## Delete an Alert Profile
 
-**NOTE:** (1) The alert profile named _Netwrix Profile (Default)_ cannot be deleted.  
+:::note
+(1) The alert profile named _Netwrix Profile (Default)_ cannot be deleted.  
 (2) When an alert profile is deleted, the _Netwrix Profile (Default)_ is automatically assigned to
 the organizations that were previously assigned the deleted profile.
+:::
+
 
 Follow the steps to delete an alert profile.
 

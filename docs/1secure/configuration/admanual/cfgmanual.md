@@ -11,7 +11,7 @@ To configure your domain for monitoring manually, you will need:
 - **Group Policy Management Console** — if you plan to perform configuration steps from a domain
   controller
 
-    -OR-
+**-OR-**
 
 - **ADSI Edit** — if you plan to perform configuration steps from a server other than domain
   controller

@@ -34,10 +34,13 @@ ConnectWise company.
 
 **Step 3 –** In the Configure Connection window, enter information in the required fields.
 
-**NOTE:** First, you need to configure your account at
+:::note
+First, you need to configure your account at
 [https://www.connectwise.com/](https://www.connectwise.com/). See the
 [ConnectWise Help/FAQs](https://virtualcommunity.connectwise.com/helphome/faq) page for additional
 information.
+:::
+
 
 - Company URL – Enter when setting the public keys for the company at https://www.connectwise.com/
 - Company ID – Company ID at [https://www.connectwise.com/](https://www.connectwise.com/)

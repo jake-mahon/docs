@@ -50,10 +50,13 @@ following authentication services:
 - [Configure SSO with Microsoft Entra ID Authentication](#configure-sso-with-microsoft-entra-id-authentication)
 - [Configure SSO with OpenID Connect Authentication](#configure-sso-with-openid-connect-authentication)
 
-**NOTE:** When you first log in to 1Secure, SSO is not enabled, and 1Secure Authentication is
+:::note
+When you first log in to 1Secure, SSO is not enabled, and 1Secure Authentication is
 applied by default. This method requires Multi-factor authentication (MFA) to verify your identity
 for secure access. See the [Log In](/docs/1secure/admin/overview.md) topic for additional information on
 Multi-factor authentication.
+:::
+
 
 ### Configure SSO with Microsoft Entra ID Authentication
 

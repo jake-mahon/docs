@@ -18,6 +18,9 @@ the **Edit** or **Delete** icon.
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![alert_icon](/img/product_docs/1secure/admin/organizations/alert_icon.webp) | Alert Icon. Click the Alert Icon to notify that the credentials have expired or been lost after reinstallation of the Netwrix Cloud Agent and must be entered again before they can be used. |
 
-**NOTE:** You can delete a credential if no sources are using those credentials.
+:::note
+You can delete a credential if no sources are using those credentials.
+:::
+
 
 ![credentials](/img/product_docs/1secure/admin/organizations/credentials.webp)

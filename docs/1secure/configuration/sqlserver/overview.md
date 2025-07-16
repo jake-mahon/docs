@@ -22,8 +22,8 @@ The product collects successful and failed logon attempts for Windows and SQL lo
 
 | Logon Type    | Action                            |
 | ------------- | --------------------------------- |
-| SQL logon     | - Successful logon - Failed logon |
-| Windows logon | - Successful logon - Failed logon |
+| SQL logon     | <ul><li>Successful logon</li><li>Failed logon</li></ul> |
+| Windows logon | <ul><li>Successful logon</li><li>Failed logon</li></ul> |
 
 ## Next Steps
 

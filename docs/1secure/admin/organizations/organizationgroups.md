@@ -10,7 +10,10 @@ An organization group allows designated users to access and manage only the spec
 assigned to it. Each group consists of assigned organizations and the users responsible for managing
 them.
 
-**NOTE:** Administrators have access to all tenancies regardless of the organization group(s).
+:::note
+Administrators have access to all tenancies regardless of the organization group(s).
+:::
+
 
 ## Add an Organization Group
 
@@ -42,7 +45,7 @@ The organization group is added in the list. You can view the following for it:
 - Organizations – The number of organizations assigned to the group
 - Users – The number of users who are managing the organizations in the group
 
-Filter Organization Groups
+**Filter Organization Groups**
 
 On the Organization groups page, enter a search string in the Search field on the top right of the
 page. Group names containing the string are displayed as you type.
