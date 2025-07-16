@@ -67,16 +67,22 @@ The selected activity details display at the top of the main pane:
   activity session. This option is only visible when the Login Account is set to Activity Token or
   Managed. It cannot be disabled for Activity Token.
 
-    **NOTE:** A built-in administrator account cannot be deleted or disabled at the end of a
+    :::note
+    A built-in administrator account cannot be deleted or disabled at the end of a
     session.
+    :::
+
 
 - Valut Connector — Displays the name of the assigned vault connector. This option is only visible
   when the Login Account is set to Vault. Additional fields may appear based on the selected vault.
 
-    **NOTE:** To view the password fetched from the vault, the Allow User to View Password checkbox
+    :::note
+    To view the password fetched from the vault, the Allow User to View Password checkbox
     must be selected in the connection profile associated with the access policy that gives the
     requester rights to the activity. See the [Connection Profiles Page](/docs/privilegesecure/4.2/admin/interface/accesspolicy/connectionprofiles/connectionprofiles.md)
     topic for additional information.
+    :::
+
 
 - Application to Launch — Indicates the application that will be launched on the RDS server that the
   user is connected to by Privilege Secure. This option is only visible when the Activity Type is
@@ -116,8 +122,11 @@ A Link icon shows actions that are linked. Deleting a linked action will delete 
 action it is paired with. See the [Add Action Window](/docs/privilegesecure/4.2/admin/interface/activities/addaction/addaction.md) topic for
 additional information.
 
-**NOTE:** It is not possible to edit the Action Type. Delete the existing action and then create a
+:::note
+It is not possible to edit the Action Type. Delete the existing action and then create a
 new action to get a new Action Type.
+:::
+
 
 ## Login Account Types
 

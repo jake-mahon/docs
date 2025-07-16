@@ -32,12 +32,11 @@ Both tables have the following columns:
 
 Follow the steps to add resources and resource groups to the selected access policy.
 
-**Step 1 –** Navigate to the Policy > Access Policies page.
+**Step 1 –** Navigate to the **Policy** > **Access Policies** page.
 
-**Step 2 –** In the Access Policy list, select the name of the access policy and select the
-Resources tab
+**Step 2 –** In the Access Policy list, select the name of the access policy and select the **Resources** tab
 
-**Step 3 –** Click Add to open the Add Resources and Resource Groups window.
+**Step 3 –** Click **Add** to open the Add Resources and Resource Groups window.
 
 The Add Resources and Resource Groups window has the following features:
 
@@ -59,7 +58,7 @@ to Add table.
 **Step 6 –** (Optional) Click a row in the Resources and Resource Groups to Add table to move it
 back to the Available Resources / Resource Groups table.
 
-**Step 7 –** Click Add to add the resource(s) and resource group(s) to the access policy.
+**Step 7 –** Click **Add** to add the resource(s) and resource group(s) to the access policy.
 
 The new resource(s) and resource group(s) are added to the access policy and are shown in the
 [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/4.2/admin/interface/accesspolicy/resourcebasedpolicyt/resources/resources.md).

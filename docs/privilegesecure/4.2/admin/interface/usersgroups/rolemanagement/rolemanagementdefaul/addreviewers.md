@@ -38,14 +38,14 @@ Follow the steps to grant users the Reviewer role. See the
 [Role Management Page](/docs/privilegesecure/4.2/admin/interface/usersgroups/rolemanagement/rolemanagement.md) section for a list of roles and their
 functions.
 
-**Step 1 –** Navigate to the **Users & Groups** > Role Management page.
+**Step 1 –** Navigate to the **Users & Groups** > **Role Management** page.
 
-**Step 2 –** In the Role list, select the Reviewers role.
+**Step 2 –** In the Role list, select the **Reviewers** role.
 
-**Step 3 –** Click Add User to open the Add Reviewers window.
+**Step 3 –** Click **Add User** to open the Add Reviewers window.
 
 **Step 4 –** Select the checkbox for the desired account from the Available Accounts table.
 
-**Step 5 –** Click Add to add the account to the role.
+**Step 5 –** Click **Add** to add the account to the role.
 
 The selected users are now Privilege Secure Reviewers.

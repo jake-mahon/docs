@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Follow the steps to add a schedule policy to the console.
 
-**Step 1 –** Navigate to the Policy > **Platforms** > **Schedule Policies** page.
+**Step 1 –** Navigate to the **Policy** > **Platforms** > **Schedule Policies** page.
 
 **Step 2 –** In the Schedule Polices list, click the **Plus** icon.
 
@@ -16,7 +16,10 @@ Follow the steps to add a schedule policy to the console.
 
 **Step 3 –** Enter the following information:
 
-**NOTE:** The fields will change depending on the selected frequency.
+:::note
+The fields will change depending on the selected frequency.
+:::
+
 
 - Select the desired frequency:
 

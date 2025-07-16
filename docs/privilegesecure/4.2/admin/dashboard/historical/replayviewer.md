@@ -31,13 +31,13 @@ The Replay Viewer window for RDP sessions is applicable to all resources except 
 
 The Replay Viewer for RDP Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play, pause, rewind, or fast forward the recording
 - Playback bar — Click to jump to a specific place in the recording
 - Speed slider — Use the slider to adjust the playback speed
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 
@@ -51,35 +51,41 @@ Recording Details
 - Duration — Indicates how long the Activity ran for until it either reached its scheduled end time
   or was manually canceled by the user or an Privilege Secure administrator
 
-Activity Details:
+**Activity Details**
 
 - Time line — Displays recorded activity that occurred during the session in the pane to the left of
   the player. By default this time line will include keystroke activity.
 
-    **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
+    :::note
+    If RDP Session Monitoring is enabled, then it will also include Windows metadata
     activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
     Monitor service to be installed on the target host. See the
     [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/install/servicesonadditional/rdpmonitor.md)
     topic for additional information.
+    :::
+
 
 ## Replay Viewer for SSH Sessions
 
 The Replay Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
-**NOTE:** When a user enters input into a password prompt during an SSH session, the keystrokes will
+:::note
+When a user enters input into a password prompt during an SSH session, the keystrokes will
 be obscured in the Replay Viewer.
+:::
+
 
 ![replayviewerssh](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/dashboard/window/replayviewerssh.webp)
 
 The Replay Viewer for SSH Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play, pause, rewind, or fast forward the recording
 - Playback bar — Click to jump to a specific place in the recording
 - Speed slider — Use the slider to adjust the playback speed
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 
@@ -93,7 +99,7 @@ Recording Details
 - Duration — Indicates how long the Activity ran for until it either reached its scheduled end time
   or was manually canceled by the user or an Privilege Secure administrator
 
-Activity Details:
+**Activity Details**
 
 - Time line — Displays recorded activity that occurred during the session in the pane to the left of
   the player. By default this time line will include keystroke activity.
@@ -106,7 +112,7 @@ The Replay Viewer window for Website host sessions is applicable only to Website
 
 The Replay Viewer for Website Host Sessions window has the following features:
 
-Play options
+**Play options**
 
 - Control buttons — Play or pause the recording
 - Playback bar — Click to jump to a specific place in the recording
@@ -115,7 +121,7 @@ Play options
 - Playback speed — Select Playback speed from the Options menu to adjust player speed
 - Picture in picture — Select Picture in picture from the Options menu to enable feature
 
-Recording Details
+**Recording Details**
 
 - User— Displays the account used to log onto the resource
 

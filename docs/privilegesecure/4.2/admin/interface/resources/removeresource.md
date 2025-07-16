@@ -10,19 +10,22 @@ Use the Remove Resources window to remove a selected resource from the database.
 
 Follow the steps to remove a resource.
 
-**Step 1 –** Navigate to the Resources page.
+**Step 1 –** Navigate to the **Resources** page.
 
 **Step 2 –** Select the resource(s) to modify.
 
-**Step 3 –** Click Remove to open the Remove Resource window.
+**Step 3 –** Click **Remove** to open the Remove Resource window.
 
 ![Remove Resource Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/removeresource.webp)
 
 **Step 4 –** Select the **Remove from Database** checkbox to remove the selected resource(s) from
 the database.
 
-**NOTE:** Selecting this checkbox will remove all records of the resource(s) from the database. It
+:::note
+Selecting this checkbox will remove all records of the resource(s) from the database. It
 will not prevent the resource from being synced or added again.
+:::
+
 
 **Step 5 –** Click **Remove** to confirm that you want to remove the selected resource(s).
 

@@ -28,8 +28,11 @@ Select the method of authentication for the user or group:
   name and password. Intended for users who access Privilege Secure over a VPN where MFA has already
   been leveraged.
 
-    **CAUTION:** Disabling multi-factor authentication can create a significant security
+    :::warning
+    Disabling multi-factor authentication can create a significant security
     vulnerability.
+    :::
+
 
 The following information determines which MFA method has priority:
 

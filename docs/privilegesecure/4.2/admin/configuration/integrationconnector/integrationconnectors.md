@@ -39,7 +39,10 @@ The selected connector details display at the top of the main pane:
       Auditor). See the [Enterprise Auditor Integration](/docs/privilegesecure/4.2/admin/configuration/integrationconnector/integrationaccessanalyzer.md)
       topic for additional information.
 
-    **NOTE:** The remaining fields vary based on the type selected.
+    :::note
+    The remaining fields vary based on the type selected.
+    :::
+
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
 commit the modifications. Click **Cancel** to discard the modifications.

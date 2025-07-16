@@ -38,14 +38,14 @@ Follow the steps to grant users the Administrator role. See the
 [Role Management Page](/docs/privilegesecure/4.2/admin/interface/usersgroups/rolemanagement/rolemanagement.md) section for a list of roles and their
 functions.
 
-**Step 1 –** Navigate to the **Users & Groups** > Role Management page.
+**Step 1 –** Navigate to the **Users & Groups** > **Role Management** page.
 
-**Step 2 –** In the Role list, select the Administrators role.
+**Step 2 –** In the Role list, select the **Administrators** role.
 
-**Step 3 –** Click Add User to open the Add Administrators window.
+**Step 3 –** Click **Add User** to open the Add Administrators window.
 
 **Step 4 –** Select the checkbox for the desired accounts in the Available Accounts table..
 
-**Step 5 –** Click Add to add the accounts to the role.
+**Step 5 –** Click **Add** to add the accounts to the role.
 
 The selected users are now Privilege Secure Administrators.

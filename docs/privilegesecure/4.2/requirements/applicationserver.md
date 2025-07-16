@@ -10,7 +10,10 @@ The requirements for the (Privilege Secure) application server are:
 
 - Windows Server 2016 R2 through Windows Server 2022
 
-    **_RECOMMENDED:_** Windows Server 2022, non-domain-joined for security
+    :::info
+    Windows Server 2022, non-domain-joined for security
+    :::
+
 
 - US English language installation
 - Hardened / dedicated to Netwrix Privilege Secure (recommended)

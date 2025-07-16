@@ -41,11 +41,14 @@ values in the Privilege Secure system.
 The tool will take a few minutes to run (especially on larger systems) and the log window will show
 the results of the rotation.
 
-**NOTE:** If the AWS KMS key is rotated, there is no need to rotate the NPS key. Encrypted values
+:::note
+If the AWS KMS key is rotated, there is no need to rotate the NPS key. Encrypted values
 will continue to be decrypted and any new encryption will use the updated AWS KMS key. If the AWS
 user Access Key is rotated it will be necessary to rotate the NPS key to update it to use the new
 Ids. Best practice for use of access keys is to rotate them regularly. **Do not** delete the AWS
 user Access Key without rotating the NPS key first.
+:::
+
 
 - **Step 1 –** Create a new access key.
 - **Step 2 –** Rotate the NPS protect key to use the new access key.

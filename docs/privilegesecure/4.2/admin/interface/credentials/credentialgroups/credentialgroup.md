@@ -8,9 +8,9 @@ sidebar_position: 10
 
 Follow the steps to add credential groups to the Privilege Secure Console.
 
-**Step 1 –** Navigate to the Policy > Credentials > Credential Groups page.
+**Step 1 –** Navigate to the **Policy** > **Credentials** > **Credential Groups** page.
 
-**Step 2 –** In the Credential Groups list, click the Plus icon.
+**Step 2 –** In the Credential Groups list, click the **Plus** icon.
 
 ![Add credential group](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addcredentialgroup.webp)
 
@@ -19,7 +19,7 @@ Follow the steps to add credential groups to the Privilege Secure Console.
 - Name — Displays the name of the credential
 - Description — Description of the policy
 
-**Step 4 –** Click Save to create the new credential group.
+**Step 4 –** Click **Save** to create the new credential group.
 
 ![Credential Group add credentials button](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addcredentialstogroup.webp)
 

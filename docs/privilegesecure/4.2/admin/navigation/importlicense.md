@@ -20,8 +20,11 @@ login.
 Licensing is done according to user count. Any user who has provisioned access will consume a
 license after their first login. This is true for all users, regardless of role.
 
-**CAUTION:** If your license is expired, and you can still log in, you will not be able to create
+:::warning
+If your license is expired, and you can still log in, you will not be able to create
 activity sessions or add new users.
+:::
+
 
 Follow the steps to import the license key file.
 

@@ -39,8 +39,11 @@ Select Tables and click Add to open the Select Database Objects window.
     - SA_ADInventory_ComputersView
     - SA ADInventory_UsersView
 
-    **NOTE:** Type in the Filter Objects by Name box to filter the list of objects by the characters
+    :::note
+    Type in the Filter Objects by Name box to filter the list of objects by the characters
     entered.
+    :::
+
 
 **Step 5 –** Click OK to return to the Application Access page.
 
@@ -61,7 +64,10 @@ app token:
 
 **Step 8 –** Click Finish to close the wizard and click Save in the Access view accept the changes.
 
-**NOTE:** Access Analyzer must be restarted after a new access role is configured.
+:::note
+Access Analyzer must be restarted after a new access role is configured.
+:::
+
 
 The next step is to use the Client ID and Client Secret to obtain an access token. This token is
 used to get data from the Access Analyzer endpoint.

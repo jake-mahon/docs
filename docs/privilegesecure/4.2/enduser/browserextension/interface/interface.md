@@ -28,7 +28,7 @@ additional information.
 
 The Activities tab has the following features:
 
--   - / - buttons (top right) — Expand or collapse all Resource Activities
+- Plus and Minus buttons (top right) — Expand or collapse all Resource Activities
 - Resources list — Shows all resources mapped to the user via an access policy. Click a Resource to
   expand it and show associated Activities.
 

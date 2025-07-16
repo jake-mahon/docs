@@ -8,9 +8,9 @@ sidebar_position: 10
 
 Follow the steps to add Credential Policy Override to the Privilege Secure Console.
 
-**Step 1 –** Navigate to the Policy > Credentials > Credential Policy Overrides page.
+**Step 1 –** Navigate to the **Policy** > **Credentials** > **Credential Policy Overrides** page.
 
-**Step 2 –** In the Credential Policy Overrides list, click the Plus icon.
+**Step 2 –** In the Credential Policy Overrides list, click the **Plus** icon.
 
 ![Adding a credential policy override](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addcredentialpolicyoverride.webp)
 
@@ -26,7 +26,7 @@ Follow the steps to add Credential Policy Override to the Privilege Secure Conso
   defined by the selected platform. See the [Credentials Dashboard](/docs/privilegesecure/4.2/admin/dashboard/credentials.md)
   topic for additional information on managed accounts.
 
-**Step 4 –** Click Save to create the new credential policy override.
+**Step 4 –** Click **Save** to create the new credential policy override.
 
 ![cpopageaddcredentials](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/cpopageaddcredentials.webp)
 
@@ -40,10 +40,13 @@ topic for additional information.
 **Step 6 –** Select the checkbox for the credential and click **Add** to save the credential to the
 Credential Policy Override.
 
-**NOTE:** In order for an account to be added to add credentials window, a credential must be
+:::note
+In order for an account to be added to add credentials window, a credential must be
 managed with a method of **Automatic**. Only one account can be added to a Credential Policy
 Override at a time. See the
 [Manage Internal Service Accounts](/docs/privilegesecure/4.2/admin/interface/credentials/manageinternalserviceaccount.md) topic for
 additional information.
+:::
+
 
 The account is added to the console and is shown in the Credential Policy Overrides list.

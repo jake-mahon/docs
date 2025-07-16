@@ -8,7 +8,10 @@ sidebar_position: 10
 
 Follow the steps to add or edit a Website URL used by a resource.
 
-**NOTE:** Only applicable to Microsoft Entra ID and Website resources.
+:::note
+Only applicable to Microsoft Entra ID and Website resources.
+:::
+
 
 **Step 1 –** Navigate to the **Resources** page.
 
@@ -33,6 +36,6 @@ Follow the steps to add or edit a Website URL used by a resource.
     - Regex — Match based upon valid regex string
     - Host — Match based upon host name (FQDN)
 
-**Step 5 –** Click Save to accept changes.
+**Step 5 –** Click **Save** to accept changes.
 
 The URL is added to the resource and shown on the URLs tab.
