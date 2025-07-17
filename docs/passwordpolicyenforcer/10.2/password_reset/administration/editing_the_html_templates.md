@@ -24,24 +24,27 @@ code. The files for the US English language are:
 The formatting information is in `apr.css`, and the image files are in the images folder. These
 files are installed into the `\Inetpub\wwwroot\pwreset\` folder by default.
 
-**NOTE:** Always backup the user interface files before and after editing them. Your changes may be
+:::note
+Always backup the user interface files before and after editing them. Your changes may be
 overwritten when Password Reset is upgraded, and some changes could stop Password Reset from working
 correctly. Having a backup allows you to quickly revert to a working setup.  
 Web browsers display pages differently, so test your changes with several versions of the most
 popular browsers to ensure compatibility.
+:::
+
 
 ### Ranges and Fields
 
 `en_default.htm` contains static HTML, but the other .htm files contain special comment tags that
 are used to prepare the pages. Some of these comments define ranges. A range looks like this:
 
-<!--RANGE_NAME-->Some text or HTML<!--/RANGE_NAME-->
+**<!--RANGE_NAME-->Some text or HTML<!--/RANGE_NAME-->**
 
 The Web Interface deletes ranges (and the text inside them) when they are not needed. Some ranges
 span only one word, while others span several lines. The other type of comment tag is called a
 field.
 
-<!--USERNAME-->
+**<!--USERNAME-->**
 
 Fields are replaced by some other information. For example, the field above is replaced with a
 username.
@@ -50,12 +53,12 @@ username.
 
 Each template ends with a resource string section.
 
-<!--RESOURCE_STRINGS--><!--
+**<!--RESOURCE_STRINGS-->**
 
 @RES_EMPTY_FIELD_USERNAME: Enter your username in the Username box. @RES_EMPTY_FIELD_DOMAIN: Enter
 your domain name in the Domain box.
 
---><!--/RESOURCE_STRINGS-->
+**--><!--/RESOURCE_STRINGS-->**
 
 Resource strings are mostly validation error messages, but they can contain any text Password Reset
 may need to build the page. Do not modify the identifiers on the left, only edit the text on the
@@ -72,8 +75,11 @@ text_short and text_long classes are used to display different content depending
 text_short elements are shown on small screens (up to 420 pixels wide). text_long elements are shown
 on larger screens.
 
-**CAUTION:** You may rebrand the Password Reset user interface, but it is a violation of the License
+:::warning
+You may rebrand the Password Reset user interface, but it is a violation of the License
 Agreement to modify, remove or obscure any copyright notice.
+:::
+
 
 ## Examples
 
@@ -207,8 +213,11 @@ Change the three question numbers on each line so they match the original number
 Password Reset will not work correctly. You should also edit the validation error messages in
 `en_enroll.htm` as some of them make reference to selecting questions from a list.
 
-**NOTE:** Users may not choose appropriate security questions, so it is advisable to leave the
+:::note
+Users may not choose appropriate security questions, so it is advisable to leave the
 question lists for some of the enrollment questions.
+:::
+
 
 ### Change Font Sizes and Colors
 
@@ -235,12 +244,15 @@ The Web Interface icons are in Scalable Vector Graphics (SVG) format. Vector gra
 sharpness when resized. You can easily change the colors of the icons with a text editor. Open the
 SVG file with a text editor like Notepad, and edit this section of the file:
 
-fill="#FF7F00"
+**fill="#FF7F00"**
 
 Replace the hexadecimal color code with your desired color code. You can use a color picker like
 this one to generate the color code:
 [https://www.w3schools.com/colors/colors_picker.asp](https://www.w3schools.com/colors/colors_picker.asp)
 
-**NOTE:** Some old web browsers with basic HTML5 support cannot display SVG images. Password Reset
+:::note
+Some old web browsers with basic HTML5 support cannot display SVG images. Password Reset
 works with these browsers, but the SVG images are not shown. You can convert the icons to GIF or PNG
 format if you want them shown on these older browsers.
+
+:::

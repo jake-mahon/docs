@@ -53,8 +53,14 @@ Password Policy Enforcer management console.
 
 ![configuring_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_1.webp)
 
-**NOTE:** If you are opening the management console for the first time, click **Yes** when asked if
+:::note
+If you are opening the management console for the first time, click **Yes** when asked if
 you would like to create a new Password Policy Enforcer configuration.
+:::
 
-**NOTE:** Press F1 while using the management console to display help information for the current
+
+:::note
+Press F1 while using the management console to display help information for the current
 window.
+
+:::

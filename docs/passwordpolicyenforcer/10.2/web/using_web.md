@@ -22,14 +22,20 @@ You can also include the username and/or domain in the URL:
 
 `http://[server]/ppeweb/ppeweb.dll?username=maryjones&domain=ANIXIS`
 
-**_RECOMMENDED:_** Install the SSL Certificate the web server and use the HTTPS protocol if Password
+:::info
+Install the SSL Certificate the web server and use the HTTPS protocol if Password
 Policy Enforcer/Web will be used on an unencrypted network. See the
 [Installing and Using an SSL Certificate](/docs/passwordpolicyenforcer/10.2/web/securing_web.md#installing-and-using-an-sslcertificate)
 topic for additional information.
+:::
 
-**NOTE:** A license reminder message is shown occasionally when Password Policy Enforcer/Web is used
+
+:::note
+A license reminder message is shown occasionally when Password Policy Enforcer/Web is used
 without a license key. Contact Netwrix support if you would like to evaluate Password Policy
 Enforcer/Web without the reminder message.
+:::
+
 
 ## Changing a Password
 
@@ -46,9 +52,12 @@ Follow the steps below to change a password with Password Policy Enforcer/Web.
 **Step 3 –** Enter the **Old Password**, **New Password**, and **Confirm Password**, then click
 **Next**.
 
-**NOTE:** Windows increments the bad password count in Active Directory every time a user enters
+:::note
+Windows increments the bad password count in Active Directory every time a user enters
 their old password incorrectly. This may trigger a lockout if the Windows account lockout policy is
 enabled.
+:::
+
 
 ## Error Messages
 

@@ -29,5 +29,8 @@ topic for additional information.
 
 Click the Messages tab to customize the Password Policy Client rule inserts.
 
-**NOTE:** The Complexity rule uses custom character set definitions from the Character rules, even
+:::note
+The Complexity rule uses custom character set definitions from the Character rules, even
 if the Character rules are disabled.
+
+:::

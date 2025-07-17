@@ -37,9 +37,12 @@ it is a
 
 **Step 6 –** Edit the rule inserts in the Policy and Reason text boxes.
 
-**NOTE:** Use the \n escape sequence to start a new line in a message template or rule insert
+:::note
+Use the \n escape sequence to start a new line in a message template or rule insert
 (Password Policy Client V5.1 and later). Inserts and lines starting with two or more spaces, a
 minus, and a space are shown with a bullet to the left (Password Policy Client V8.0 and later).
+:::
+
 
 ## Customizing Password Policy Client Messages
 

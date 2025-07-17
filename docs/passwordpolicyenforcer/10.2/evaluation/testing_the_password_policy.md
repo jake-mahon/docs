@@ -42,10 +42,13 @@ password complied with.
 Click the Log tab to view Password Policy Enforcer's internal event log. The information in the
 event log can help you to understand why Password Policy Enforcer accepted or rejected a password.
 
-**NOTE:** Policy testing simulates a password change, but it may not always reflect what happens
+:::note
+Policy testing simulates a password change, but it may not always reflect what happens
 when a user changes their password. See the
 [Managing Policies](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/managing_policies.md)
 topic for more information.
+:::
+
 
 ## Windows Change Password Screen
 
@@ -108,9 +111,12 @@ Follow the steps below to test password policies from these consoles.
 
 **Step 4 –** Click **OK**.
 
-**NOTE:** These consoles do not explain why a password was rejected. Use the Password Policy
+:::note
+These consoles do not explain why a password was rejected. Use the Password Policy
 Enforcer management console, or the Change Password screen with the Password Policy Enforcer Client
 installed to see this information.
+:::
+
 
 The table below contains some sample passwords and expected test results when the Users policy is
 enforced. Try to change the password for the PPETestUser account to confirm that Password Policy
@@ -138,5 +144,8 @@ These three passwords are only marginally stronger than the rejected passwords. 
 shows you how to improve the password policy so Password Policy Enforcer will reject these
 passwords.
 
-**NOTE:** Contact Netwrix support[ ](mailto:support@anixis.com)if Password Policy Enforcer is not
+:::note
+Contact Netwrix support[ ](mailto:support@anixis.com)if Password Policy Enforcer is not
 working as expected, and we will help you to resolve the problem.
+
+:::

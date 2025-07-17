@@ -62,7 +62,10 @@ Directory Users and Computers console, or the Local Users and Groups console to 
 changes and resets for the PPETestUser and PPETestAdmin accounts. Password Policy Enforcer should
 enforce the Users policy for PPETestUser, and the Admins policy for PPETestAdmin.
 
-**NOTE:** The
+:::note
+The
 [Administration](/docs/passwordpolicyenforcer/10.2/administration/administration_overview.md)
 topic contains more information about policy assignments, and how Password Policy Enforcer resolves
 policy assignment conflicts that occur when more than one policy is assigned to a user.
+
+:::

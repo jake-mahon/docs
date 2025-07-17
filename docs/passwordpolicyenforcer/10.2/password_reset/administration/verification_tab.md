@@ -105,9 +105,12 @@ The user's Active Directory mobile phone number is read from the mobile attribut
 **AD Attribute** if you want to use a phone number from a different attribute. Type the name of the
 attribute, and then click **OK**.
 
-**NOTE:** Use a script to perform additional processing before sending the SMS. For example, a
+:::note
+Use a script to perform additional processing before sending the SMS. For example, a
 script could read the user's phone number from a database, or send a language-specific SMS based on
 the value of the [LANG] macro. Put the path of the scripting engine executable in the **Command**
 text box, and the path to the script file and other parameters in the **Parameters** text box.
+:::
+
 
 ![configuring_npr_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_7.webp)

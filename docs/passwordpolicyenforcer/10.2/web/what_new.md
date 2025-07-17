@@ -6,20 +6,20 @@ sidebar_position: 10
 
 # What's New
 
-User Interface
+**User Interface**
 
 - Displays a diagnostic message if the Password Policy Enforcer does not respond to a request. This
   is likely to happen if a domain controller is not running Password Policy Enforcer, or if a
   firewall is blocking access to the PPS port.
 
-Compatibility
+**Compatibility**
 
 - Compatible with Windows Server 2012 and 2012 R2 (as well as Windows Server 2003, 2003 R2, 2008,
   and 2008 R2).
 - Improved Setup Wizard to ensure that PPEWeb.dll is always added to the list of Web Service
   Extensions on Windows 2003 and 2003 R2 64-bit editions.
 
-Other
+**Other**
 
 - Uses the Password Policy Enforcer V7.x libraries for improved compatibility with new features in
   recent version of Password Policy Enforcer.
@@ -29,13 +29,16 @@ Other
   [Upgrading from PPW/Web V6.x](/docs/passwordpolicyenforcer/10.2/web/installation.md#upgrading-from-ppwweb-v6x)
   topic for additional information.
 
-**NOTE:** PPE/Web V7.11 integrates with Password Policy Enforcer V7.0 or later. Disable Password
+:::note
+PPE/Web V7.11 integrates with Password Policy Enforcer V7.0 or later. Disable Password
 Policy Enforcer integration in the PPE/Web Configuration console if you need to use PPE/Web with an
 older version of Password Policy Enforcer.
+:::
+
 
 #### New in PPE/Web V6.x (Previous Version)
 
-User Interface
+**User Interface**
 
 - Updated HTML Templates allow customization of all user interface elements including error
   messages.
@@ -45,12 +48,12 @@ User Interface
 - The Setup Wizard installs and configures PPE/Web without the manual setup steps from earlier
   versions.
 
-Compatibility
+**Compatibility**
 
 - Compatible with Windows Server 2008 and 2008 R2 (as well as Windows Server 2003 and 2003 R2).
 - Compatible with 64-bit and 32-bit Windows editions.
 
-Other
+**Other**
 
 - Additional validation of all user input to improve security.
 - Can get user and domain names from URL parameters.
@@ -59,4 +62,7 @@ Other
 - Can be used without Password Policy Enforcer if Password Policy Enforcer's additional password
   policy controls are not needed.
 
-**NOTE:** PPE/Web V6.0 integrates with Password Policy Enforcer V6.0 or later.
+:::note
+PPE/Web V6.0 integrates with Password Policy Enforcer V6.0 or later.
+
+:::

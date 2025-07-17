@@ -10,11 +10,14 @@ You can install Password Policy Enforcer manually, or you can automate the insta
 software distribution tool. Installing Password Policy Enforcer does not extend the Active Directory
 schema.
 
-**NOTE:** Refer to the
+:::note
+Refer to the
 [Administration](/docs/passwordpolicyenforcer/10.2/administration/administration_overview.md)
 topic to learn how to install Password Policy Enforcer with Group Policy. You can also use other
 software distribution tools like Microsoft's System Center Configuration Manager to install Password
 Policy Enforcer.
+:::
+
 
 Follow the steps below to manually install Password Policy Enforcer.
 
@@ -47,5 +50,8 @@ Password Policy Client on a domain with client computers. See the
 [Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/passwordpolicyclient/password_policy_client.md)
 topic for additional information.
 
-**NOTE:** The Password Policy Client does not replace or modify any Windows system files. You can
+:::note
+The Password Policy Client does not replace or modify any Windows system files. You can
 install it with Group Policy, or some other software distribution tool in your production network.
+
+:::

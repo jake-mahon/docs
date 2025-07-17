@@ -1,7 +1,7 @@
 ---
 title: "Netwrix Password Policy Enforcer v10.2"
 description: "Netwrix Password Policy Enforcer v10.2"
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Netwrix Password Policy Enforcer v10.2

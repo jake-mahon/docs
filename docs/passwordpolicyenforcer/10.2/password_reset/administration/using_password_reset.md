@@ -17,11 +17,14 @@ Where [server] is the name or IP address of the server hosting the Web Interface
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are
 explained on the following pages.
 
-**CAUTION:** The connection between the Web Interface and Password Reset Server is always encrypted.
+:::warning
+The connection between the Web Interface and Password Reset Server is always encrypted.
 Install an SSL certificate on the web server and use HTTPS to encrypt connections from the browser
 to the web server. See the
 [Installing and Using an SSL Certificate](/docs/passwordpolicyenforcer/10.2/password_reset/administration/securing_password_reset.md#installing-and-using-an-ssl-certificate)
 topic for more information.
+:::
+
 
 ## Enroll
 
@@ -51,9 +54,12 @@ each question in the **Answer** text boxes.
 
 **Step 5 –** Click **Next**, and then click **OK** to return to the menu.
 
-**NOTE:** Windows increments the bad password count in Active Directory when a user tries to enroll
+:::note
+Windows increments the bad password count in Active Directory when a user tries to enroll
 with an incorrect password. This may trigger a lockout if the Windows account lockout policy is
 enabled.
+:::
+
 
 ## Reset
 
@@ -113,10 +119,13 @@ phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
 **Step 5 –** Click **OK** to return to the menu.
 
-**NOTE:** The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
+:::note
+The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
 Password Reset should re-enroll to gain access to Password Reset. See the
 [Verification Codes](/docs/passwordpolicyenforcer/10.2/password_reset/administration/verification_tab.md#verification-codes)
 topic for more information.
+:::
+
 
 ## Change
 
@@ -137,9 +146,12 @@ Follow the steps below to change an account password.
 
 **Step 4 –** Click **OK** to return to the menu.
 
-**NOTE:** Windows increments the bad password count in Active Directory when a user tries to change
+:::note
+Windows increments the bad password count in Active Directory when a user tries to change
 their password with an incorrect password. This may trigger a lockout if the Windows account lockout
 policy is enabled.
+:::
+
 
 ## Error Messages
 

@@ -33,8 +33,11 @@ Select the **Save email to a pickup folder** option to have the Password Policy 
 emails to a folder for later delivery by a mail server. Click the **Browse** button to select a
 folder. The mail server must monitor this folder for new email.
 
-**NOTE:** Saving email to a pickup folder is the fastest and most reliable delivery method. Use this
+:::note
+Saving email to a pickup folder is the fastest and most reliable delivery method. Use this
 option if your mail server supports pickup folders.
+:::
+
 
 The Password Policy Enforcer Mailer sends emails at 2:00 AM every day. Check the Windows Application
 Event Log to monitor its progress. You can also run the Password Policy Enforcer Mailer from the

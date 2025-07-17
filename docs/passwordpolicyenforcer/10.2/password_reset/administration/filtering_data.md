@@ -30,8 +30,11 @@ The image above shows a filter on the Date, Source, and Source IP columns. Only 
 events on 2/5/2015 originating from IP addresses starting with 192.168.115 are shown. The small blue
 icons in the column headers show which columns have active filters.
 
-**NOTE:** Rows are shown only if they match all filter values (logical AND). Use the custom filter
+:::note
+Rows are shown only if they match all filter values (logical AND). Use the custom filter
 or the filter editor windows for a logical OR filter.
+:::
+
 
 ### Filtering by Column Values
 
@@ -80,8 +83,11 @@ that meet either condition.
 Select an operator and value for the second condition, or leave them blank if your filter only has
 one condition. Click **OK** to close the Custom Filter window and apply the filter.
 
-**NOTE:** The Filter Editor is shown instead of the Custom Filter window if the current filter is
+:::note
+The Filter Editor is shown instead of the Custom Filter window if the current filter is
 too complex for the Custom Filter window.
+:::
+
 
 ### The Filter and Status Bars
 
@@ -112,8 +118,11 @@ Follow the steps below to export the visible rows in the current tab.
 
 **Step 3 –** Type a filename, and then click **Save**.
 
-**NOTE:** When exporting to Excel, you can choose the file type from the **Export to Excel** window.
+:::note
+When exporting to Excel, you can choose the file type from the **Export to Excel** window.
 The default file type is .xlsx.
+:::
+
 
 ## Deleting Users
 
@@ -128,5 +137,8 @@ Follow the steps below to delete a user.
 
 **Step 3 –** Press the **DELETE** key, and then click **OK**.
 
-**NOTE:** You can still view a user's event history in the **Audit Log** tab after they are deleted
+:::note
+You can still view a user's event history in the **Audit Log** tab after they are deleted
 from the **Users** tab.
+
+:::

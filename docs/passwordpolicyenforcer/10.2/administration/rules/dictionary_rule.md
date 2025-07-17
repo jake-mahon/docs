@@ -62,9 +62,12 @@ can contain environment variables like %SystemRoot%. A sample dictionary is inst
 \Program Files (x86)\Password Policy Enforcer\ folder. The dictionary file should be read from a
 local disk. Using a shared dictionary degrades performance, and could jeopardize security.
 
-**NOTE:** The `\Program Files (x86)\` folder does not exist on 32-bit Windows, so move the
+:::note
+The `\Program Files (x86)\` folder does not exist on 32-bit Windows, so move the
 dictionary into the `\Program Files\Password Policy Enforcer\` folder if you have 32-bit and 64-bit
 computers sharing a common Password Policy Enforcer configuration.
+:::
+
 
 Click the **Sort** button if the dictionary file is being used with Password Policy Enforcer for the
 first time, or if words have been added to the file since it was last sorted. The Password Policy
@@ -94,8 +97,11 @@ The custom dictionary should meet the following requirements:
 2. All words are capitalized.
 3. The sort button is pressed after pointing to a file in the dictionary rule.
 
-**NOTE:** If you are using a custom dictionary, please provide a different filename. The default
+:::note
+If you are using a custom dictionary, please provide a different filename. The default
 dictionary file (dict.txt) may be replaced during an upgrade.
+:::
+
 
 ## Dictionary File Replication
 

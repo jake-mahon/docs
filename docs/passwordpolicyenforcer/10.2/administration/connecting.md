@@ -29,8 +29,11 @@ Enforcer view.
 
 **Step 4 –** Enter the **name** or **IP address** of a domain controller, then click **OK**.
 
-**NOTE:** You cannot make changes to the Password Policy Enforcer configuration while the management
+:::note
+You cannot make changes to the Password Policy Enforcer configuration while the management
 console is connected to a read-only domain controller.
+:::
+
 
 ## Connecting to a Local Configuration
 
@@ -50,9 +53,18 @@ Enforcer view.
 
 **Step 3 –** Select the **Local** option, then click **OK**.
 
-**NOTE:** Domain configurations are stored in the CN=Password Policy Enforcer 10.0,CN=System object.
+:::note
+Domain configurations are stored in the CN=Password Policy Enforcer 10.0,CN=System object.
+:::
 
-**NOTE:** Local configurations are stored in the HKLM\SOFTWARE\ANIXIS\Password Policy Enforcer 10.0\
+
+:::note
+Local configurations are stored in the HKLM\SOFTWARE\ANIXIS\Password Policy Enforcer 10.0\
 registry key.
+:::
 
-**NOTE:** Users with write permission to these objects can configure Password Policy Enforcer.
+
+:::note
+Users with write permission to these objects can configure Password Policy Enforcer.
+
+:::

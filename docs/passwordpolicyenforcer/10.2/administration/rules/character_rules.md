@@ -19,9 +19,12 @@ Password Policy Enforcer will select the Password Policy Enforcer character on t
 [Policy Priorities](/docs/passwordpolicyenforcer/10.2/administration/managingpolicies/policy_priorities.md)
 page.
 
-**NOTE:** Only Password Policy Enforcer 10.2 and higher will contain the Windows character set.
+:::note
+Only Password Policy Enforcer 10.2 and higher will contain the Windows character set.
 Password Policy Enforcer 9, Netwrix Password Reset3 and Password Policy Enforcer/Web 7 (and older
 for all products) will always use the Password Policy Enforcer character set.
+:::
+
 
 This default character set contains the following:
 
@@ -64,9 +67,12 @@ set to replace the default. For example, enter "AaEeIiOoUu" to create a vowel ch
 
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 
-**NOTE:** The First Character, Last Character, and Complexity rules are easier to configure, and
+:::note
+The First Character, Last Character, and Complexity rules are easier to configure, and
 easier for users to understand. Use these rules instead of the Character rules if they can enforce
 your desired policy.
+:::
+
 
 ### Enforcing Complex Character Requirements
 

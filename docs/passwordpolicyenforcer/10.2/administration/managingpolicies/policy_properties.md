@@ -24,10 +24,13 @@ Password Policy Enforcer should enforce this policy, or deselect it to disable t
 policy's icon in the left pane of the management console changes to an X icon when a policy is
 disabled.
 
-**NOTE:** A user's password history may be updated even when the policy assigned to the user is
+:::note
+A user's password history may be updated even when the policy assigned to the user is
 disabled. See the
 [Rules](/docs/passwordpolicyenforcer/10.2/administration/rules/rules.md)
 topic for additional information.
+:::
+
 
 The **Default character set** drop-down list specifies which character set Password Policy
 Enforcer will use to enforce its rules. The default value (Netwrix Password Policy
@@ -35,15 +38,21 @@ Enforcer) requires users to comply with rules that use the Password Policy Enfo
 Choose the alternate option (Windows) to have users comply with rules that use the Windows character
 set.
 
-**NOTE:** Only Password Policy Enforcer 10.0 and higher will contain the Windows character set.
+:::note
+Only Password Policy Enforcer 10.0 and higher will contain the Windows character set.
 Password Policy Enforcer 9, Netwrix Password Reset and Password Policy Enforcer/Web 7 (and older for
 all products) will always use the Password Policy Enforcer character set.
+:::
 
-**CAUTION:** This value should not be changed while using PPE9.x clients, APR 3.x and Password
+
+:::warning
+This value should not be changed while using PPE9.x clients, APR 3.x and Password
 Policy Enforcer/Web 7.x (and older for all above). These clients only support the Password Policy
 Enforcer character set. They will work if Password Policy Enforcer is configured to use the Windows
 character sets, but they will still continue to use the Password Policy Enforcer character set as
 that is all they know.
+:::
+
 
 - Some languages such as Japanese do not distinguish between uppercase and lowercase. These
   characters will be in the Windows Alpha set, but not in the Upper or Lower sets.
@@ -79,17 +88,23 @@ The user logon name and new password are sent to the program as command-line par
 example, if you add the commands below to a batch file, Password Policy Enforcer will record each
 user's logon name and new password in a text file called passwords.txt:
 
-echo Username: %1 >> c:\passwords.txt
+**echo Username: %1 >> c:\passwords.txt**
 
 echo Password: %2 >> c:\passwords.txt
 
-**CAUTION:** This script is shown as an example only. You should not store user passwords.
+:::warning
+This script is shown as an example only. You should not store user passwords.
+:::
+
 
 The command can now include the [USERNAME] and [PASSWORD] macros. If neither is specified, then the
 command is executed with both parameters to maintain compatibility with existing programs/scripts.
 
-**_RECOMMENDED:_** Use the [USERNAME] parameter if the password is not needed by the program/script
+:::info
+Use the [USERNAME] parameter if the password is not needed by the program/script
 so that the password is not unnecessarily sent to the change notification command/script.
+:::
+
 
 Record any configuration notes about this policy in the Notes text box.
 

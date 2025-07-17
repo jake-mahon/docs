@@ -70,7 +70,10 @@ the policy set by the organization. The image below illustrates an example of a 
 
 ![livepolicymessageexample](/img/product_docs/passwordpolicyenforcer/10.2/administration/livepolicymessageexample.webp)
 
-**NOTE:** The password client needs to be at version 10.2+ to support this capability.
+:::note
+The password client needs to be at version 10.2+ to support this capability.
+:::
+
 
 To support password live messages the password policy message must include the [Live_Policy]
 declaration in the Password Policy Message.

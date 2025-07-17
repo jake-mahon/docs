@@ -9,7 +9,7 @@ Use the **Enroll** tab to maintain the list of enrollment questions and options.
 Users must answer some questions about themselves when they manually enroll. They choose their
 questions from the Question List.
 
-Add a question
+**Add a question**
 
 Follow the steps below to add a question to the list.
 
@@ -21,7 +21,7 @@ Follow the steps below to add a question to the list.
 
 **Step 4 –** Click **OK**, and then click **Apply**.
 
-Remove a question
+**Remove a question**
 
 Follow the steps below to remove a question from the list.
 
@@ -33,10 +33,13 @@ Follow the steps below to remove a question from the list.
 
 **Step 4 –** Click **Apply**.
 
-**NOTE:** You can rearrange questions by dragging them. You can also replace question lists with
+:::note
+You can rearrange questions by dragging them. You can also replace question lists with
 text boxes so users can enter their own questions. See the
 [Editing the HTML Templates](/docs/passwordpolicyenforcer/10.2/password_reset/administration/editing_the_html_templates.md)
 document for more information
+:::
+
 
 ### Options
 

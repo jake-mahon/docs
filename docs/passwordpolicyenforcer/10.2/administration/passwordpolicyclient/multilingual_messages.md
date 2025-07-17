@@ -23,5 +23,8 @@ above).
 The Password Policy Client uses the Windows client language settings to determine which language to
 display.
 
-**NOTE:** You do not have to create a Password Policy Enforcer policy for each language. Each policy
+:::note
+You do not have to create a Password Policy Enforcer policy for each language. Each policy
 can have messages defined in multiple languages.
+
+:::

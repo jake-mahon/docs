@@ -32,12 +32,15 @@ the credentials are valid.
 
 ![installing_npr_624x193](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/installing_npr_624x193.webp)
 
-**NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
+:::note
+Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
 it. See the
 [Working with the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md)
 topic for additional information.
+:::
+
 
 ## Installation Types
 
@@ -54,9 +57,12 @@ the two servers to communicate.
 
 You choose the installation type when installing Password Reset, but you can change it later.
 
-**NOTE:** An Password Reset Server can accept requests from more than one Web Interface. Having
+:::note
+An Password Reset Server can accept requests from more than one Web Interface. Having
 multiple Web Interfaces allows for load balancing and failover, but you should only consider this
 option if you already have redundant web servers. Most organizations only need one Web Interface.
+:::
+
 
 Password Reset can share server resources with other applications. It is normally not necessary to
 dedicate a server exclusively to Password Reset. The Web Interface can be installed on an existing
@@ -84,26 +90,35 @@ then click **Next** if you accept all the terms.
 **Step 7 –** Enter a **User Name**, **Domain**, and **Password** for the Password Reset service
 account. The account will be created and added to the Domain Admins group if it does not exist.
 
-**NOTE:** You can remove the account from the Domain Admins group later. If using an existing
+:::note
+You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
 [Securing Password Reset](/docs/passwordpolicyenforcer/10.2/password_reset/administration/securing_password_reset.md)
 topic for additional information.
+:::
+
 
 **Step 8 –** Click **Next**.
 
 **Step 9 –** Select an **IIS Web Site** from the drop-down list, and optionally change the default
 **Virtual Directory** for the Web Interface.
 
-**NOTE:** The Web Interface should be installed in its own virtual directory.
+:::note
+The Web Interface should be installed in its own virtual directory.
+:::
+
 
 **Step 10 –** Click **Next** twice.
 
 **Step 11 –** Wait for Password Reset to install, and then click **Finish**.
 
-**NOTE:** The Password Reset Setup wizard installs the Password Reset Server and associated files
+:::note
+The Password Reset Setup wizard installs the Password Reset Server and associated files
 into the `\Program Files\NetwrixPassword Reset\` folder by default. Use the SERVERDIR parameter to
 install the Password Reset Server to a different folder. For example, APR330.exe
 SERVERDIR="D:\Programs\NPR\"
+:::
+
 
 ### Multiple Server Installation
 
@@ -129,7 +144,7 @@ The Password Reset Server responds with a datagram that has the following proper
 | Destination address | Web Interface server's IP address  |
 | Destination Port    | Any                                |
 
-Install Password Reset Server on an Internal Network
+**Install Password Reset Server on an Internal Network**
 
 Follow the steps below to install the Password Reset Server on a server in the internal network.
 
@@ -148,25 +163,31 @@ then click **Next** if you accept all the terms.
 **Step 6 –** Type a **User Name**, **Domain**, and **Password** for the Password Reset service
 account. The account will be created and added to the Domain Admins group if it does not exist.
 
-**NOTE:** You can remove the account from the Domain Admins group later. If using an existing
+:::note
+You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
 [Securing Password Reset](/docs/passwordpolicyenforcer/10.2/password_reset/administration/securing_password_reset.md)
 topic for additional information.
+:::
+
 
 **Step 7 –** Make sure the **Create Windows Firewall Exception for the NPR Server service** check
 box is selected, and then click **Next** twice.
 
 **Step 8 –** Wait for the Password Reset Server to install, and then click **Finish**.
 
-**NOTE:** Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
+:::note
+Open UDP port 5100 on the Password Reset Server computer if a host-based firewall other
 than the Windows Firewall is installed. This is needed in addition to the DMZ firewall rules
 above.  
 The Password Reset Setup wizard installs the Password Reset Server and associated files into the
 `\Program Files\Netwrix Password Reset\` folder by default. Use the SERVERDIR parameter to install
 the Password Reset Server to a different folder. For example, APR330.exe
 SERVERDIR="D:\Programs\NPR\"
+:::
 
-Install Web Interface Server in DMZ
+
+**Install Web Interface Server in DMZ**
 
 Follow the steps below to install the Web Interface on a server in the DMZ.
 
@@ -241,9 +262,12 @@ topic for additional information.
 Interface files before upgrading**. The Web Interface files are installed in the
 `\Inetpub\wwwroot\pwreset\` folder by default.
 
-**NOTE:** A full backup of the NPR server(s) is recommended. This allows you to roll back to the
+:::note
+A full backup of the NPR server(s) is recommended. This allows you to roll back to the
 previous version if the upgrade cannot be completed.  
 You may need to restart Windows after upgrading.
+:::
+
 
 If Password Reset was originally installed by someone else and you do not have their installation
 notes, then read the installation instructions above before you begin. Also make sure you know the
@@ -277,11 +301,14 @@ the
 [Editing the HTML Templates](/docs/passwordpolicyenforcer/10.2/password_reset/administration/editing_the_html_templates.md)
 topic for additional information.
 
-**CAUTION:** Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
+:::warning
+Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
 Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any
 of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password
 Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or
 later).
+:::
+
 
 ### Before You Begin
 
@@ -310,7 +337,7 @@ imported.
 
 ## Other Tasks
 
-Move Database files
+**Move Database files**
 
 The database files are created in the installation folder when NPR is first installed. The default
 installation folder for NPR V2.x was below the Program Files (x86) folder, but in NPR V3.3 it is

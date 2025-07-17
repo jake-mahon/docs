@@ -32,11 +32,14 @@ location.
 
 The HIBP Updater is installed when you install the Password Policy Enforcer Management Server.
 
-**_RECOMMENDED:_** Only run this from one server.
+:::info
+Only run this from one server.
+:::
+
 
 **Step 1 –** To access the HIBP Updater, navigate to the installation location:
 
-...\Program Files (x86)\Password Policy Enforcer\HIBP\
+**...\Program Files (x86)\Password Policy Enforcer\HIBP\**
 
 ![hibpfolder](/img/product_docs/passwordpolicyenforcer/10.2/administration/hibpfolder.webp)
 
@@ -48,18 +51,24 @@ Password Policy Enforcer utilizes the Passwords Hash database to check if users�
 password (i.e. during a password reset) matches the hash of a compromised password from a data
 breach.
 
-**NOTE:** First-time configuration of this window requires downloading the HIBP database from the
+:::note
+First-time configuration of this window requires downloading the HIBP database from the
 Netwrix website.
+:::
+
 
 ![passwordhashdatabase](/img/product_docs/passwordpolicyenforcer/10.2/administration/passwordhashdatabase.webp)
 
-**CAUTION:** Ensure the initial update of the database occurs during non-office hours. Due to the
+:::warning
+Ensure the initial update of the database occurs during non-office hours. Due to the
 size of the hash file, this download takes up a significant amount of CPU and download time.
+:::
+
 
 - Passwords Hash Database Folder – Central location of the Pwned database on the application server.
   The default path is:
 
-    …\HIBP\DB
+**…\HIBP\DB**
 
 - Update Type:
 
@@ -68,10 +77,13 @@ size of the hash file, this download takes up a significant amount of CPU and do
       instead of downloading the full HIBP database. This option is enabled after a full download of
       the HIBP database has completed.
 
-        **NOTE:** Only the full HIBP database file obtained from the Netwrix website has version
+        :::note
+        Only the full HIBP database file obtained from the Netwrix website has version
         information. That full HIBP database file can be obtained using the Website option.
         Alternately, the HIBP database can be obtained outside of the application by downloading it
         directly from the Netwrix website using an FTP connection:
+        :::
+
 
         - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip)
         - [https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt](https://releases.netwrix.com/resources/stealthintercept/stealthintercept-hibp-database-1.0.0.zip.sha256.txt)
@@ -102,7 +114,7 @@ files. Copy the hash files into the Sysvol share on one domain controller, and t
 System will copy the files into the Sysvol share of all other domain controllers. Configure the
 Compromised rule to read the files from:
 
-\\127.0.0.1\sysvol\your.domain\filename.db
+**\\127.0.0.1\sysvol\your.domain\filename.db**
 
 See the
 [Compromised Rule](/docs/passwordpolicyenforcer/10.2/administration/rules/compromised_rule.md)
@@ -114,8 +126,11 @@ local policies. If you are using Password Policy Enforcer for local policies and
 to receive hash file updates, then use the Sysvol share for file replication and a script or
 scheduled task to copy the file to a local folder.
 
-**CAUTION:** %SystemRoot%. hash files should only be read from a local disk. Using shared hash files
+:::warning
+%SystemRoot%. hash files should only be read from a local disk. Using shared hash files
 degrades performance, and could jeopardize security.
+:::
+
 
 ## Scheduler
 

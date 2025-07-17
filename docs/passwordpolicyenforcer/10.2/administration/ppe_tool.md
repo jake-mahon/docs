@@ -26,16 +26,22 @@ The PPE Tool installs with the default installation of Password Policy Enforcer
 allows users to perform a number of operations related to Password Policy Enforcer functionality
 which are described in the table below.
 
-**NOTE:** All PPE Tool operations can be executed from the Command Prompt, if run with administrator
+:::note
+All PPE Tool operations can be executed from the Command Prompt, if run with administrator
 rights.
+:::
+
 
 ### PPE Tool Operations
 
-**_RECOMMENDED:_** PPE Tool operations should only be executed one at a time. For example, you
+:::info
+PPE Tool operations should only be executed one at a time. For example, you
 should not execute the /e (Export) and /i (Import) operations simultaneously; you should not run /e
 (Export) and /r (Report) operations simultaneously.
+:::
 
-Common PPE Tool Operations
+
+**Common PPE Tool Operations**
 
 | Operation | Operation Name         | Operation Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | --------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -96,13 +102,13 @@ The `<tag>` tag can also contain the child `<FLAGS>` tag. This tag can have an o
 
 #### Example of 'value' mode
 
-Original configuration
+**Original configuration**
 
 ```xml
 <MAILMODE>1</MAILMODE>
 ```
 
-Transform configuration
+**Transform configuration**
 
 ```xml
 <tag name="MAILMODE" DisplayName="Mail delivery method">
@@ -114,7 +120,7 @@ Transform configuration
 </tag>
 ```
 
-Transformation result
+**Transformation result**
 
 ```xml
 <MAILMODE DisplayName="Mail delivery method">
@@ -128,13 +134,13 @@ Transformation result
 
 #### Example of 'combined' mode
 
-Original configuration
+**Original configuration**
 
 ```xml
 <FLAGS>25</FLAGS>
 ```
 
-Transformation configuration
+**Transformation configuration**
 
 ```xml
 <tag name="FLAGS" DisplayName="Common settings">
@@ -150,7 +156,7 @@ Transformation configuration
 </tag>
 ```
 
-Result human-readable report
+**Result human-readable report**
 
 ```xml
 <FLAGS DisplayName="Common settings">

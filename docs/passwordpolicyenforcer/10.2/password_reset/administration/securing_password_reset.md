@@ -14,7 +14,10 @@ server. See the
 [Password Reset Client](/docs/passwordpolicyenforcer/10.2/password_reset/administration/password_reset_client.md)
 topic for more information.
 
-**CAUTION:** Do not use Password Reset on a production network without SSL encryption.
+:::warning
+Do not use Password Reset on a production network without SSL encryption.
+:::
+
 
 You can use a self-signed certificate with Password Reset, but most organizations purchase
 certificates from a certificate authority. You can install the Web Interface on a server that
@@ -27,11 +30,14 @@ below.
 - [http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis](http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis)
 - [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx)
 
-**NOTE:** Ensure that users only access Password Reset over an encrypted connection after the SSL
+:::note
+Ensure that users only access Password Reset over an encrypted connection after the SSL
 certificate is installed. The Start address and Restricted path in the Password Reset Client
 configuration should start with https://. Web browsers can be redirected to the secure URL. See the
 [Configuring the PRC](/docs/passwordpolicyenforcer/10.2/password_reset/administration/password_reset_client.md#configuring-the-prc)
 topic for more information.
+:::
+
 
 ## Delegating Permissions to the Netwrix Password Reset Server Service
 
@@ -45,11 +51,11 @@ You can grant Active Directory permissions from the command-line with dsacls.exe
 graphical user interface. The examples below use the command-line, but you can use either method.
 The commands you need to execute are:
 
-dsacls "[object]" /I:S /G "[account]:CA;Reset Password;user"
+**dsacls "[object]" /I:S /G "[account]:CA;Reset Password;user"**
 
 dsacls "[object]" /I:S /G "[account]:RPWP;lockoutTime;user"
 
-dsacls "[object]" /I:S /G "[account]:RPWP;pwdLastSet;user"
+**dsacls "[object]" /I:S /G "[account]:RPWP;pwdLastSet;user"**
 
 Where [object] is the distinguished name of the domain or OU containing the user accounts, and
 [account] is the name of the service account in user@domain or domain\user format.
@@ -63,7 +69,7 @@ after a reset** option is enabled in the Configuration Console's **Security** ta
 For example, the following command grants the axs\apr account permission to reset passwords for
 users in the axs.net domain:
 
-dsacls "dc=axs,dc=net" /I:S /G "axs\apr:CA;Reset Password;user"
+**dsacls "dc=axs,dc=net" /I:S /G "axs\apr:CA;Reset Password;user"**
 
 If Password Reset is configured to use an SQL Server Compact database, then give the service account
 read and write permissions to the database files. See the
@@ -93,18 +99,21 @@ If you want to allow these users to reset their password and unlock their accoun
 Reset, then you need to change the permissions for the AdminSDHolder container. The commands you
 need to execute are:
 
-dsacls "[AdminSDHolder]" /G "[account]:CA;Reset Password"
+**dsacls "[AdminSDHolder]" /G "[account]:CA;Reset Password"**
 
 dsacls "[AdminSDHolder]" /G "[account]:RPWP;lockoutTime"
 
-dsacls "[AdminSDHolder]" /G "[account]:RPWP;pwdLastSet"
+**dsacls "[AdminSDHolder]" /G "[account]:RPWP;pwdLastSet"**
 
 Where [AdminSDHolder] is the distinguished name of the AdminSDHolder container, and [account] is the
 name of the service account in user@domain or domain\user format.  
 The DN of the AdminSDHolder container for the netwrix.com domain is
 CN=AdminSDHolder,CN=System,DC=netwrix,DC=com
 
-**NOTE:** Changes to the AdminSDHolder container are not applied to accounts immediately. You may
+:::note
+Changes to the AdminSDHolder container are not applied to accounts immediately. You may
 need to wait up to an hour for Windows to update the DACL for these accounts. You can also start the
 process manually. Search for runProtectAdminGroupsTask or FixUpInheritance in Microsoft's
 documentation or more information.
+
+:::

@@ -12,7 +12,7 @@ information.
 The Domain List is empty when Password Reset is first installed, and users must type their domain
 name. You can configure Password Reset to display a list of domains instead of an empty text box.
 
-Add a Domain to the list
+**Add a Domain to the list**
 
 Follow the steps below to add a domain to the list.
 
@@ -22,11 +22,14 @@ Follow the steps below to add a domain to the list.
 
 **Step 3 –** Click **OK**, and then click **Apply**.
 
-**NOTE:** The most frequently used domain should be first in the list as it will be the default. You
+:::note
+The most frequently used domain should be first in the list as it will be the default. You
 can rearrange the domains by dragging them to another position. You can also click Sort to sort them
 alphabetically.
+:::
 
-Remove a Domain from the list
+
+**Remove a Domain from the list**
 
 Follow the steps below to remove a domain from the list:
 
@@ -89,11 +92,14 @@ Enforcer queries to a specific IP address by setting the `PPEIPAddress` registry
 address of a Password Policy Server. The `PPEIPAddress` value is in
 `HKEY_LOCAL_MACHINE\SOFTWARE\ANIXIS\ANIXIS Password Reset\3.0`.
 
-**NOTE:** Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
+:::note
+Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
 Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any
 of those older Netwrix Password Policy Enforcer versions, please consider upgrading Netwrix Password
 Policy Enforcer first to a current version, and only then upgrade Netwrix Password Reset to v3.3 (or
 later).
+:::
+
 
 Users are more likely to see the Password Policy Enforcer Generic Rejection message rather than the
 more detailed Rejection message when this registry value is set. Users may also have the wrong
@@ -104,9 +110,12 @@ firewall rules to open this port. See the
 [Password Policy Client](/docs/passwordpolicyenforcer/10.2/administration/passwordpolicyclient/password_policy_client.md)
 topic for more information.
 
-**NOTE:** Due to a protocol upgrade, it is now recommended to enable protocol encryption for
+:::note
+Due to a protocol upgrade, it is now recommended to enable protocol encryption for
 clients. To do so, please navigate to the PPS Properties in your Netwrix Password Policy Enforcer
 server configuration, and enable "Only accept encrypted client request".
+:::
+
 
 ![using_ppe_with_npr](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_ppe_with_npr.webp)
 
@@ -115,6 +124,9 @@ Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforc
 using Netwrix Password Reset v3.3 with any of those older versions of Netwrix Password Policy
 Enforcer, please consider upgrading first to a current and supported version.
 
-**NOTE:** Password Policy Enforcer is not included with Password Reset. Go to
+:::note
+Password Policy Enforcer is not included with Password Reset. Go to
 [www.netwrix.com/password_policy_enforcer](https://www.netwrix.com/password_policy_enforcer.html) to
 learn more about Password Policy Enforcer.
+
+:::

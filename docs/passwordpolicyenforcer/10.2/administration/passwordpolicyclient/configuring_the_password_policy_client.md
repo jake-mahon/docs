@@ -20,7 +20,7 @@ Client. You can use Active Directory GPOs to configure many computers, or the Lo
 Editor to configure one computer. The Password Policy Client configuration is stored in the
 HKLM\SOFTWARE\Policies\ANIXIS\Password Policy Client\ registry key.
 
-Install the Password Policy Client Administrative Template
+**Install the Password Policy Client Administrative Template**
 
 **Step 1 –** Connect to any Domain Controller where you have Password Policy Enforcer installed and
 have the group policy management console available.
@@ -91,8 +91,11 @@ Windows 10 and 11.
 **Step 1 –** Use the **Group Policy Management Console** (gpmc.msc) to display the GPOs linked at
 the domain level.
 
-**NOTE:** If you are not using Active Directory, then open the Local Group Policy Editor
+:::note
+If you are not using Active Directory, then open the Local Group Policy Editor
 (gpedit.msc) and skip step 2.
+:::
+
 
 **Step 2 –** Right-click the **Password Policy Client GPO**, then click the **Edit...** button.
 
@@ -103,4 +106,7 @@ Templates**, **Classic Administrative Templates** (**ADM**), **Password Policy E
 **Step 4 –** Double-click the **Display settings (Windows 10)** setting in the right pane of the
 Group Policy Management Editor.
 
-**NOTE:** Information about each option is shown in the Help box.
+:::note
+Information about each option is shown in the Help box.
+
+:::
