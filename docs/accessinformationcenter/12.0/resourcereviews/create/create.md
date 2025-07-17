@@ -13,7 +13,7 @@ the [Manage Reviews Page](/docs/accessinformationcenter/12.0/resourcereviews/int
 
 It contains four pages:
 
--   1. Review Type
+-   **1. Review Type**
 
     - Review Name — Visible only to Review Administrators
     - Select the type of review to be created:
@@ -45,10 +45,10 @@ It contains four pages:
     - For Sensitive Data reviews, select if child resources that contain sensitive content should be
       included.
 
--   2. Criteria — Only applies to Sensitive Data reviews. Select the type of sensitive criteria to
+-   **2. Criteria** — Only applies to Sensitive Data reviews. Select the type of sensitive criteria to
        be reviewed.
--   3. Resources — Select resources to be included in the review
--   4. Summary — Preview of the review selections
+-   **3. Resources** — Select resources to be included in the review
+-   **4. Summary** — Preview of the review selections
 
 See the Create a Review topic for additional information.
 

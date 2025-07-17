@@ -13,7 +13,7 @@ Owners interface. It can be opened for one or multiple resources.
 
 It contains one page:
 
--   1. Select Owners — Lists the current owner(s) for each selected resource and confirmation status
+-   **1. Select Owners** — Lists the current owner(s) for each selected resource and confirmation status
 
 See the Request Ownership Confirmation topic for additional information.
 

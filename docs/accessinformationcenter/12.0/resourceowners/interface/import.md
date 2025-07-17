@@ -12,10 +12,10 @@ The Import Owners wizard is opened with the **Import** button in the Resource Ow
 
 It contains two pages:
 
--   1. Select File — Select the CSV file with the resource or group to be managed through the Access
+-   **1. Select File** — Select the CSV file with the resource or group to be managed through the Access
        Information Center and the assigned owner. A preview of the selected file displays on this
        page.
--   2. Options — Provides the option for marking all imported resources as having confirmed
+-   **2. Options** — Provides the option for marking all imported resources as having confirmed
        ownership. If the CSV file only contains Groups, you can additionally select to enable Access
        Requests and Owner Ad Hoc changes for them.
 
@@ -29,20 +29,20 @@ The CSV file should list one resource per row using the following format:
 
     - File System Resources – Resource path should be the UNC path to the share or folder.
 
-**\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner**
+`\\ExampleServer\ExampleShare,ExampleDomain\ExampleOwner`
 
     - SharePoint Resources – Resource path should be the URL to the site resource.
 
-**http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner**
+`http://ExampleFarm/ExampleSiteCollection/ExampleSite,ExampleDomain\ExampleOwner`
 
     - Groups – Resource path should be the NTAccount [DOMAIN\NAME] for the group or distribution
       list
 
-**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner**
+`ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner`
 
 - Multiple owners can be added, separated by a semicolon (;)
 
-**ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2**
+`ExampleDomain\ExampleGroup,ExampleDomain\ExampleOwner1;ExampleDomain\ExampleOwner2`
 
 - _(Optional)_ A description for the resource can be added after the last owner
 

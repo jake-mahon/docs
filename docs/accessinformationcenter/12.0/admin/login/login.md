@@ -8,9 +8,9 @@ sidebar_position: 60
 
 The Access Information Center can be accessed through a supported browser from a machine within your
 company's network. The URL is the hosting machine's name and the
-port, http://[HOSTNAME.DOMAIN.COM]:81. For example, if the application was installed on a server
+port, `http://[HOSTNAME.DOMAIN.COM]:81`. For example, if the application was installed on a server
 named NEWYORKSRV10.NWXTech.com with the default port of 81, the URL would be
-http://NEWYORKSRV10.NWXTech.com:81.
+`http://NEWYORKSRV10.NWXTech.com:81`.
 
 **Administrators**
 
@@ -19,11 +19,11 @@ the application in their default browser. Alternatively, the localhost URL can b
 
 - HTTP URL
 
-    - http://localhost:81
+    - `http://localhost:81`
 
 - HTTPS URL
 
-    - https://localhost:481
+    - `https://localhost:481`
 
 **Access Analyzer Web Console**
 
@@ -33,11 +33,11 @@ icon can be used to launch the Web Console. This provides access to both Netwrix
 a default port of 8082, which can also be customized. Alternatively, the URL can be used:
 
 - HTTP URL
-    - (on hosting server) http://localhost:8082
-    - (remote access) http://[HOSTNAME.DOMAIN.COM]:8082
+    - (on hosting server) `http://localhost:8082`
+    - (remote access) `http://[HOSTNAME.DOMAIN.COM]:8082`
 - HTTPS URL
-    - (on hosting server) https://localhost:8082
-    - (remote access) https://[HOSTNAME.DOMAIN.COM]:8082
+    - (on hosting server) `https://localhost:8082`
+    - (remote access) `https://[HOSTNAME.DOMAIN.COM]:8082`
 
 **Remote Access**
 

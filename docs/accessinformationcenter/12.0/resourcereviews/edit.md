@@ -13,12 +13,12 @@ The Edit Review wizard is opened with the **Edit** button on the Resource Review
 
 It contains four pages:
 
--   1. Review Type — Select whether to notify the review creator when the resources have been
+-   **1. Review Type** — Select whether to notify the review creator when the resources have been
        reviewed. The review type and name cannot be changed.
--   2. Criteria — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
+-   **2. Criteria** — Only applies to Sensitive Data reviews. Update the sensitive criteria to be
        reviewed.
--   3. Resources — Modify the list of resources included in the review
--   4. Summary — Preview of the review selections
+-   **3. Resources** — Modify the list of resources included in the review
+-   **4. Summary** — Preview of the review selections
 
 See the Edit a Review topic for additional information.
 

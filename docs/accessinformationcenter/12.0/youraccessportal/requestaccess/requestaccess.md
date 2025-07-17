@@ -12,7 +12,7 @@ The Request Access wizard is opened with the **Request Access** button in the Yo
 
 It contains two pages:
 
--   1. Select Resource — Select the resource or group
+-   **1. Select Resource** — Select the resource or group
 
     :::note
     Only those resources or groups being managed through the Access Information Center
@@ -20,7 +20,7 @@ It contains two pages:
     :::
 
 
--   2. Add Notes — Allows you to enter a note explaining why the request is being made
+-   **2. Add Notes** — Allows you to enter a note explaining why the request is being made
 
 See the Submit a Request topic for additional information.
 
