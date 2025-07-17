@@ -1,8 +1,5 @@
 ---
 title: "Endpoint Policy Manager + Windows Virtual Desktop .. Better Together Tour"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r_HqIoGHy8U" title="Endpoint Policy Manager + Windows Virtual Desktop .. Better Together Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager + Windows Virtual Desktop .. Better Together Tour"
 sidebar_position: 80
 ---
@@ -14,3 +11,5 @@ Manager (formerly PolicyPak) to add visibility to your icons on the Start Screen
 Additionally, if you have multiple browsers with WVD then we have you covered! See how to get the
 RIGHT browser for the RIGHT website with Endpoint Policy Manager Browser Router and Windows Virtual
 Desktop!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r_HqIoGHy8U" title="Endpoint Policy Manager + Windows Virtual Desktop .. Better Together Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

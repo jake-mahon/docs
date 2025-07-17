@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i2EUI7wU0aY" title="Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting"
 sidebar_position: 10
 ---
 # Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i2EUI7wU0aY" title="Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Are you driven to despair by the sheer number of GPOs in your environment? Do you wish you could
 consolidate them into something more manageable? Your dreams have come true--Netwrix Endpoint Policy

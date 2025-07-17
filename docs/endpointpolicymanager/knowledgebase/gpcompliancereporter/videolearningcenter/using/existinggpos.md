@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRhqeiBzt3Q" title="Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test"
 sidebar_position: 10
 ---
 # Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRhqeiBzt3Q" title="Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 The Netwrix Endpoint Policy Manager (formerly PolicyPak) Group Policy Compliance Reporter can help
 you know if your existing settings (from a GPO) have -made it- to a target machine. Watch this video

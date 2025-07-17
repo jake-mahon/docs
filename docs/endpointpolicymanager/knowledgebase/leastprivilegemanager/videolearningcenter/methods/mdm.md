@@ -1,14 +1,11 @@
 ---
 title: "Using Least Privilege Manager with your MDM service"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J6_Bg9ZkqPM" title="Endpoint Privilege Manager + Your MDM Service!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Using Least Privilege Manager with your MDM service"
 sidebar_position: 20
 ---
 # Using Least Privilege Manager with your MDM service
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J6_Bg9ZkqPM" title="Endpoint Privilege Manager + Your MDM Service!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Use your own MDM solution to deploy rules which enable Standard Users to do things that only admins
 can!

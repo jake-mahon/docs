@@ -1,14 +1,11 @@
 ---
 title: "PPGP Quick Rundown: Application Manager"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yYNeVOKtO-s" title="PPGP Quick Rundown: Application Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "PPGP Quick Rundown: Application Manager"
 sidebar_position: 30
 ---
 # PPGP Quick Rundown: Application Manager
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yYNeVOKtO-s" title="PPGP Quick Rundown: Application Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Learn how to get started with Application Settings Manager quickly and easily with this video.
 

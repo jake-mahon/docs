@@ -1,14 +1,11 @@
 ---
 title: "Use Discovery to know what rules to make as you transition from Local Admin rights"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u0S-A4l_TQ8" title="Endpoint Policy Manager: Use Discovery to know what rules to make as you transition from Local Admin rights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Use Discovery to know what rules to make as you transition from Local Admin rights"
 sidebar_position: 20
 ---
 # Use Discovery to know what rules to make as you transition from Local Admin rights
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0S-A4l_TQ8" title="Endpoint Policy Manager: Use Discovery to know what rules to make as you transition from Local Admin rights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Got Local Admin rights? Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Discovery to figure
 out what users are doing with those admin rights, so you can transition from Local Admin to Standard

@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Application Control with PP Least Privilege Manager"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hy7Nnd_GeJk" title="Endpoint Policy Manager Application Control with PP Least Privilege Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Application Control with PP Least Privilege Manager"
 sidebar_position: 60
 ---
 # Endpoint Policy Manager Application Control with PP Least Privilege Manager
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hy7Nnd_GeJk" title="Endpoint Policy Manager Application Control with PP Least Privilege Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 You want Secure Application Control and to block malware and exploits. Endpoint Policy Manager
 [https://www.endpointpolicymanager.com/products/endpointpolicymanager-least-privilege-manager.html](https://www.endpointpolicymanager.com/products/endpointpolicymanager-least-privilege-manager.html)

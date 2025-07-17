@@ -1,14 +1,11 @@
 ---
 title: "Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a1QE8ljmGFA" title="Endpoint Policy Manager: Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)"
 sidebar_position: 10
 ---
 # Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a1QE8ljmGFA" title="Endpoint Policy Manager: Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Want to reduce the number of GPOs you have? Then use Netwrix Endpoint Policy Manager (formerly
 PolicyPak)'s PP Merge Utility to take entire GPOs, or portions of GPOs and merge them into PP Admin

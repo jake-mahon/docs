@@ -1,14 +1,11 @@
 ---
 title: "Installing applications-and-Preconfigured-Rules"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vo2TF48DLX4" title="PPLPM: Installing applications-and-Preconfigured-Rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Installing applications-and-Preconfigured-Rules"
 sidebar_position: 40
 ---
 # Installing applications-and-Preconfigured-Rules
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vo2TF48DLX4" title="PPLPM: Installing applications-and-Preconfigured-Rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Need Standard Users to install their own applications? We've got some preconfigured knowledge for
 that, and it's a simple drag and drop to get started. Let users install iTunes or any software you

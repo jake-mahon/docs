@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y14Q4qUndxM" title="Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !"
 sidebar_position: 10
 ---
 # Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y14Q4qUndxM" title="Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 No login scripts in MDM and Intune got your down? Looking to have something faster and more reliable
 (and something that works offline) for GPO and Netwrix Endpoint Policy Manager (formerly PolicyPak)

@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy."
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QwdIlz0VjZM" title="Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy."
 sidebar_position: 10
 ---
 # Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QwdIlz0VjZM" title="Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 You can use your existing MDM to deliver the Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Cloud client, which will then automatically download the PP Client Side Extension. Then the machine

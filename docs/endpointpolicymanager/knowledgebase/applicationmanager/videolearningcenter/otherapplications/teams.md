@@ -1,14 +1,11 @@
 ---
 title: "Managing Teams Settings"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/namIG4Br1Kw" title="Endpoint Policy Manager Application Settings Manager: Managing Teams Settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Managing Teams Settings"
 sidebar_position: 20
 ---
 # Managing Teams Settings
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/namIG4Br1Kw" title="Endpoint Policy Manager Application Settings Manager: Managing Teams Settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Want to manage the settings WITHIN Microsoft Teams? Like Auto-start application, Open in background,
 On close keep the application running, Register Teams as chat app, and other various settings? Then

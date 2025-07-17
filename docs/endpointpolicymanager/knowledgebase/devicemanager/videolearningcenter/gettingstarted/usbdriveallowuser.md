@@ -1,14 +1,11 @@
 ---
 title: "Allow ONE user (or group) access to USB and/or CD-ROM and DVDs"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sSb0M1trCrA" title="Endpoint Policy Device Manager: Allow ONE user (or group) access to USB and/or CD-ROM and DVDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Allow ONE user (or group) access to USB and/or CD-ROM and DVDs"
 sidebar_position: 20
 ---
 # Allow ONE user (or group) access to USB and/or CD-ROM and DVDs
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sSb0M1trCrA" title="Endpoint Policy Device Manager: Allow ONE user (or group) access to USB and/or CD-ROM and DVDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 If you trust one person, like a doctor or consultant, etc. then you can grant the one person (or
 group) READ, READ/WRITE, FULL access to all device.

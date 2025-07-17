@@ -1,14 +1,11 @@
 ---
 title: "Manage Firefox Plug-ins using Endpoint Policy Managerand the Endpoint Policy Manager DesignStudio"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fGhbeVQGPqI" title="Endpoint Policy Manager: Manage Firefox Plug-ins Per Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Manage Firefox Plug-ins using Endpoint Policy Managerand the Endpoint Policy Manager DesignStudio"
 sidebar_position: 70
 ---
 # Manage Firefox Plug-ins using Endpoint Policy Managerand the Endpoint Policy Manager DesignStudio
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fGhbeVQGPqI" title="Endpoint Policy Manager: Manage Firefox Plug-ins Per Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) can manage your Firefox plugins. And we start
 you off with an example Pak. This video shows you how to take this example Pak and make settings for

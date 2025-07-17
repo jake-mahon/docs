@@ -1,14 +1,11 @@
 ---
 title: "SecureCopy(TM). Empower users to copy then elevate items"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bg--i4NtNxY" title="Endpoint Policy Manager Least Priv Manager: SecureCopy(TM). Empower users to copy then elevate items." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "SecureCopy(TM). Empower users to copy then elevate items"
 sidebar_position: 130
 ---
 # SecureCopy(TM). Empower users to copy then elevate items
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bg--i4NtNxY" title="Endpoint Policy Manager Least Priv Manager: SecureCopy(TM). Empower users to copy then elevate items." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) SecureCopy™ enables you to specify a specific
 UNC share (or shares) for users from which to copy .EXEs, .MSIs, and Scripts. Users can then

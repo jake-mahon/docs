@@ -1,14 +1,11 @@
 ---
 title: "Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gypENX30waY" title="Endpoint Policy Manager MDM Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview"
 sidebar_position: 10
 ---
 # Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gypENX30waY" title="Endpoint Policy Manager MDM Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Your MDM service is awesome… but it doesn't have real group policy, or extra Windows 10 desktop
 management features. Watch this video and learn how to use Netwrix Endpoint Policy Manager (formerly

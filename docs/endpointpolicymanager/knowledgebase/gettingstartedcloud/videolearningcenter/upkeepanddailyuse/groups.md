@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0FdczHYKNh4" title="Endpoint Policy Manager Cloud: Perform Small Scale Testing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates"
 sidebar_position: 30
 ---
 # Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0FdczHYKNh4" title="Endpoint Policy Manager Cloud: Perform Small Scale Testing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 How do PP Cloud Groups work with regard to CSE versions? Here's how to use them.
 

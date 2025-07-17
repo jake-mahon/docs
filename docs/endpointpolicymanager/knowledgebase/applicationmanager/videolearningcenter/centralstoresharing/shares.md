@@ -1,14 +1,11 @@
 ---
 title: "Using Shares to Store Your Paks (Share-Based Storage)"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCIbaY1TmQ" title="Endpoint Policy Manager: Using Shares to Store Your Paks (Share-Based Storage)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Using Shares to Store Your Paks (Share-Based Storage)"
 sidebar_position: 30
 ---
 # Using Shares to Store Your Paks (Share-Based Storage)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aqCIbaY1TmQ" title="Endpoint Policy Manager: Using Shares to Store Your Paks (Share-Based Storage)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Starting in build 601 of the Netwrix Endpoint Policy Manager (formerly PolicyPak) MMC snap in,
 you've got the ability to store Pak files on shares — as well as the traditional Local and Central

@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager for Microsoft Skype for Business (formerly Lync)"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpakwb0a-d8" title="Endpoint Policy Manager: Manage Microsoft Lync using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager for Microsoft Skype for Business (formerly Lync)"
 sidebar_position: 70
 ---
 # Endpoint Policy Manager for Microsoft Skype for Business (formerly Lync)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpakwb0a-d8" title="Endpoint Policy Manager: Manage Microsoft Lync using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Skype for Business is awesome! And lots of organizations are using it. And, let me guess, you're
 using it (or are about to be) using it too.

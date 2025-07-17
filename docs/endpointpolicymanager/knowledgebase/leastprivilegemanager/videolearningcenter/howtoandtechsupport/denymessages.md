@@ -1,14 +1,11 @@
 ---
 title: "Least Privilege Manager: Deny Messages"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c2LmzLuuXtc" title="Endpoint Policy Manager: Least Privilege Manager Deny Messages" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Least Privilege Manager: Deny Messages"
 sidebar_position: 50
 ---
 # Least Privilege Manager: Deny Messages
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c2LmzLuuXtc" title="Endpoint Policy Manager: Least Privilege Manager Deny Messages" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 If you're blocking a desktop or UWP application, you can now choose to display a standard blocked
 message, a custom message, or just block the application silently with no message at all!

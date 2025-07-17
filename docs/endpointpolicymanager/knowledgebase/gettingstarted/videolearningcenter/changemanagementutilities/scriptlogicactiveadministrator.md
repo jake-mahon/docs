@@ -1,15 +1,12 @@
 ---
 title: "Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F3AsAgu2wDs" title="Endpoint Policy Manager and Quest ActiveAdministrator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator"
 sidebar_position: 50
 ---
 
 # Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F3AsAgu2wDs" title="Endpoint Policy Manager and Quest ActiveAdministrator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 ActiveAdministrator by ScriptLogic is a great tool for managing your GPOs. The good news is, Netwrix
 Endpoint Policy Manager (formerly PolicyPak) is fully compatible with ActiveAdministrator, and works

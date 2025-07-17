@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager Browser Router User-Selected Default"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xk9rJpb98mM" title="Endpoint Policy Manager: Endpoint Policy Manager Browser Router User-Selected Default" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Browser Router User-Selected Default"
 sidebar_position: 60
 ---
 # Endpoint Policy Manager Browser Router User-Selected Default
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xk9rJpb98mM" title="Endpoint Policy Manager: Endpoint Policy Manager Browser Router User-Selected Default" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router now lets you give some power
 back to your end-users. They can specify their browser of choice, and Endpoint Policy Manager will

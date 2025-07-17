@@ -1,8 +1,5 @@
 ---
 title: "Endpoint Policy Manager Cloud: Immutable Log"
-
-<iframe width="560" height="315" src="https://youtu.be/YMJSE16Bu6I" title="Endpoint Policy Manager Cloud: Immutable Log" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager Cloud: Immutable Log"
 sidebar_position: 20
 ---

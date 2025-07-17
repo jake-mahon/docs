@@ -1,14 +1,11 @@
 ---
 title: "Permit specific devices by serial number"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O8qGAIpor54" title="Endpoint Policy Device Manager (Complete): Permit specific devices by serial number" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Permit specific devices by serial number"
 sidebar_position: 40
 ---
 # Permit specific devices by serial number
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O8qGAIpor54" title="Endpoint Policy Device Manager (Complete): Permit specific devices by serial number" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Device Manager to specify exactly which
 users can use which serial numbers of USB sticks and DVD devices. This way, you issue the device,

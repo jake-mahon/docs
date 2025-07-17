@@ -1,14 +1,11 @@
 ---
 title: "Admin Console And CSE Installation"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GLU2bihX354" title="PPGP: Admin Console And CSE Installation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Admin Console And CSE Installation"
 sidebar_position: 20
 ---
 # Admin Console And CSE Installation
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GLU2bihX354" title="PPGP: Admin Console And CSE Installation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Learn where to download and how to install the Bits that you'll need to get started with PolicyPak
 Group Policy Edition!

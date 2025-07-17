@@ -1,14 +1,11 @@
 ---
 title: "Link to Computer, Filter by User"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x9OwtL7-LrQ" title="Endpoint Privilege Manager: Link to Computer, Filter by User" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Link to Computer, Filter by User"
 sidebar_position: 30
 ---
 # Link to Computer, Filter by User
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x9OwtL7-LrQ" title="Endpoint Privilege Manager: Link to Computer, Filter by User" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 You might want to link policies to a gaggle of computers, but then dole out elevations by USER or by
 USER GROUP. See how in this video. (PP CSE 1434 and later).

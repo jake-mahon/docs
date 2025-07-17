@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager for Adobe Flash Player"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UEHHthW_YZY" title="Endpoint Policy Manager:  Manage Flash Player using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager for Adobe Flash Player"
 sidebar_position: 40
 ---
 # Endpoint Policy Manager for Adobe Flash Player
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UEHHthW_YZY" title="Endpoint Policy Manager:  Manage Flash Player using Group Policy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 Got Super cookies? I bet you do – and, no, it's not your Aunt Edna's latest diet craze. It's your
 latest security threat. And it lives on your corporate Windows machines.

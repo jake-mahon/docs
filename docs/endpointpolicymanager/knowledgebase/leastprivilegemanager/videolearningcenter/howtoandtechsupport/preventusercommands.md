@@ -1,14 +1,11 @@
 ---
 title: "Prevent Users Running some commands with command lines"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ew6cdP0oAzM" title="Endpoint Policy Manager: Prevent Users Running some commands with command lines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Prevent Users Running some commands with command lines"
 sidebar_position: 70
 ---
 # Prevent Users Running some commands with command lines
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ew6cdP0oAzM" title="Endpoint Policy Manager: Prevent Users Running some commands with command lines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Customer requested demo to show how to block users from running Chrome or Firefox with specific
 command line options.

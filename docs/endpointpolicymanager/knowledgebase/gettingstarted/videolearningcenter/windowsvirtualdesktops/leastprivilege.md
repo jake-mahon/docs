@@ -1,8 +1,5 @@
 ---
 title: "Endpoint Privilege Manager + Windows Virtual Desktop"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VFn8yISYp6M" title="Endpoint Privilege Manager + Windows Virtual Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Endpoint Privilege Manager + Windows Virtual Desktop"
 sidebar_position: 100
 ---
@@ -15,3 +12,5 @@ applications when needed, and keep Standard Users just that... users and NOT adm
 users cannot auto-update the Remote Desktop app for Windows Virtual Desktop. With Endpoint Policy
 Manager though, this is a slam-dunk. See how users on their own laptops can keep the WVD Remote
 Desktop app updated themselves.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VFn8yISYp6M" title="Endpoint Privilege Manager + Windows Virtual Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

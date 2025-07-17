@@ -1,14 +1,11 @@
 ---
 title: "Block and Allow USB and CD-ROMs with your MDM solution"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JR3r_i7scrg" title="Endpoint Policy Device Manager: Block and Allow USB and CD-ROMs with your MDM solution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Block and Allow USB and CD-ROMs with your MDM solution"
 sidebar_position: 20
 ---
 # Block and Allow USB and CD-ROMs with your MDM solution
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JR3r_i7scrg" title="Endpoint Policy Device Manager: Block and Allow USB and CD-ROMs with your MDM solution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Got Intune or another MDM service, and users plugging in USB sticks... walking out the door with
 data, or worse, introducing malware? Specify exactly WHO can use WHAT USB sticks ... so you don't

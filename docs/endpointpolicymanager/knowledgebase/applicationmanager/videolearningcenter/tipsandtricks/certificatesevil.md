@@ -1,14 +1,11 @@
 ---
 title: "Wipe Privdog (and other evil certificates) off your network using Group Policy and Endpoint Policy Manager."
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K40cLgikAt8" title="Wipe Privdog and other evil certificates off your network using Group Policy and PolicyPak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Wipe Privdog (and other evil certificates) off your network using Group Policy and Endpoint Policy Manager."
 sidebar_position: 20
 ---
 # Wipe Privdog (and other evil certificates) off your network using Group Policy and Endpoint Policy Manager.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K40cLgikAt8" title="Wipe Privdog and other evil certificates off your network using Group Policy and PolicyPak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 You might want to deliver settings based upon Windows' environment variables. There are several
 types of Env variables, and in this demo, we show you how to find them and some use cases.

@@ -1,14 +1,11 @@
 ---
 title: "Expand Modular View of Endpoint Policy Manager Components in the GPMC back to the Flat Legacy View"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2XcK6glUK30" title="Expand Modular View of Endpoint Policy Manager Components in the GPMC back to the Flat Legacy View" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Expand Modular View of Endpoint Policy Manager Components in the GPMC back to the Flat Legacy View"
 sidebar_position: 30
 ---
 # Expand Modular View of Endpoint Policy Manager Components in the GPMC back to the Flat Legacy View
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2XcK6glUK30" title="Expand Modular View of Endpoint Policy Manager Components in the GPMC back to the Flat Legacy View" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Adjust the view style of the PolicyPak Components in the GPMC to suite your preference.
 

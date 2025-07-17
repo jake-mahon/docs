@@ -1,8 +1,5 @@
 ---
 title: "Managing Group Policy using Endpoint Policy Manager and PDQ Deploy"
-
-<iframe width="560" height="315" src="https://youtu.be/IKtI-apx1RY" title="Managing Group Policy using Endpoint Policy Manager and PDQ Deploy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Managing Group Policy using Endpoint Policy Manager and PDQ Deploy"
 sidebar_position: 10
 ---
@@ -12,8 +9,6 @@ sidebar_position: 10
 Microsoft MVP Jeremy Moskowitz and Shane from Admin Arsenal demonstrate the setup and advantages of
 using Netwrix Endpoint Policy Manager (formerly PolicyPak) and PDQ Deploy together to manage the
 heck out of your group policy.
-
-
 
 ### Managing Group Policy using PolicyPak and PDQ Deploy
 

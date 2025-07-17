@@ -1,14 +1,11 @@
 ---
 title: "Trim the MMC console for OU admins"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5mJe4XBghFY" title="Endpoint Policy Manager: Trim the MMC console for OU admins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Trim the MMC console for OU admins"
 sidebar_position: 40
 ---
 # Trim the MMC console for OU admins
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mJe4XBghFY" title="Endpoint Policy Manager: Trim the MMC console for OU admins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 If you want to hide some of the PolicyPak MMC items for your OU admins, this is how to do it.
 

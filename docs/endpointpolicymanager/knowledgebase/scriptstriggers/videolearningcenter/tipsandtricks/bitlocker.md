@@ -1,14 +1,11 @@
 ---
 title: "Implementing BitLocker through Group Policy Using Endpoint Policy Scripts Manager and Administrative Templates Manager"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yqZbDBzH7e8" title="Implementing BitLocker through GP Using  Scripts Manager and Administrative Templates Manger" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Implementing BitLocker through Group Policy Using Endpoint Policy Scripts Manager and Administrative Templates Manager"
 sidebar_position: 60
 ---
 # Implementing BitLocker through Group Policy Using Endpoint Policy Scripts Manager and Administrative Templates Manager
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yqZbDBzH7e8" title="Implementing BitLocker through GP Using  Scripts Manager and Administrative Templates Manger" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 If you need to encrypt your company data to protect it against prying eyes, Netwrix Endpoint Policy
 Manager (formerly PolicyPak) can help configure and implement BitLocker into your existing

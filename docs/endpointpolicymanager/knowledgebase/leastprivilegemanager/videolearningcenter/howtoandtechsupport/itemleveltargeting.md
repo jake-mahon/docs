@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply."
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TFpiq04E75U" title="Endpoint Privilege Manager:  Use Item Level Targeting to hone in when rules apply." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply."
 sidebar_position: 100
 ---
 # Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TFpiq04E75U" title="Endpoint Privilege Manager:  Use Item Level Targeting to hone in when rules apply." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Maybe you don't want a Least Privilege rule to apply everywhere the GPO is linked. No problem. Use
 the power of Item Level Targeting and filter who gets it based upon computer, group membership, IP

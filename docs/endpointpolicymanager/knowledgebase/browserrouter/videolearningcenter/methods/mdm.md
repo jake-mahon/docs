@@ -1,14 +1,11 @@
 ---
 title: "Map the Right Website to the Right Browser using your MDM service"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D6mVGE4GH5k" title="Map the Right Website to the Right Browser using your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Map the Right Website to the Right Browser using your MDM service"
 sidebar_position: 10
 ---
 # Map the Right Website to the Right Browser using your MDM service
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D6mVGE4GH5k" title="Map the Right Website to the Right Browser using your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Everyone knows that not every browser is the right one for all websites. Problem is, users end up
 using the WRONG website most of the time. With PP Browser Router, you create policies (or ROUTES)

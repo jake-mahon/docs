@@ -1,14 +1,11 @@
 ---
 title: "Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cMioz4JQPYI" title="Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 description: "Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)"
 sidebar_position: 80
 ---
 # Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cMioz4JQPYI" title="Endpoint Policy Manager File Associations: Don't ask questions (even when you did it right)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 How do I get Windows 10 to stop asking me to open PDFs in Microsoft Edge? When you use Endpoint
 Policy Manager File Associations Manager, you might have done "everything right" but even then, it

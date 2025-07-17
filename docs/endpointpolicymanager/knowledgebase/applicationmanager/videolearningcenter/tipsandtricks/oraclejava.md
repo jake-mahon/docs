@@ -1,14 +1,11 @@
 ---
 title: "Transitioning to the Universal Oracle Java AppSet (7 thru 9)"
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aa8pFCFqnM0" title="Endpoint Policy Manager: Transitioning to the Universal Oracle Java Pak (7 thru 9)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 description: "Transitioning to the Universal Oracle Java AppSet (7 thru 9)"
 sidebar_position: 70
 ---
 # Transitioning to the Universal Oracle Java AppSet (7 thru 9)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aa8pFCFqnM0" title="Endpoint Policy Manager: Transitioning to the Universal Oracle Java Pak (7 thru 9)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 For years, we here at Netwrix Endpoint Policy Manager (formerly PolicyPak) have been making
 AppSet whenever Java has gotten incrementally updated. This is a huge pain in the butt. So now we
