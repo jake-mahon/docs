@@ -24,13 +24,13 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Find Trustee Information – Creates the SA_FS_TrusteePermissions_TrusteeSummary table
+-   **1. Find Trustee Information** – Creates the SA_FS_TrusteePermissions_TrusteeSummary table
        accessible under the job’s Results node.
     - Parameter is blank by default.
     - `#Trustees` parameter must be configured using the Edit Table option.
     - List one trustee per row, using the format: DOMAIN\Name.
     - See the Customize Analysis Parameters topic for additional information.
--   2. Find Permission Source – Creates the SA_FS_ShareAudit_TrusteePermissions table accessible
+-   **2. Find Permission Source** – Creates the SA_FS_ShareAudit_TrusteePermissions table accessible
        under the job’s Results node.
 
 In addition to the tables and views created by the analysis tasks, the FS_TrusteePermissions Job

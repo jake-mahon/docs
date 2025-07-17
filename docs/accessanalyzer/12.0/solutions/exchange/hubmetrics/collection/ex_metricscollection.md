@@ -54,21 +54,21 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Delivery Times History – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
+-   **1. Delivery Times History** – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
        the job’s Results node
--   2. DL History – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
+-   **2. DL History** – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
        job’s Results node
--   3. Internet Traffic History – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
+-   **3. Internet Traffic History** – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
        under the job’s Results node
--   4. Hourly Traffic History – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
+-   **4. Hourly Traffic History** – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
        under the job’s Results node
--   5. User Traffic History – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
+-   **5. User Traffic History** – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
        the job’s Results node
--   6. Message Size History – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
+-   **6. Message Size History** – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
        the job’s Results node
--   7. Server Traffic History – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
+-   **7. Server Traffic History** – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
        under the job’s Results node
--   8. SET HISTORY RETENTION – Sets retention period in months
+-   **8. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default set to retain **6 months**
     - This retention period can be modified. See the
@@ -83,7 +83,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 :::
 
 
--   0. Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical data
+-   **0. Deletes all Stored Data - LEAVE UNCHECKED** – Clears all historical data
 
     - See the [Troubleshooting Data Collection](#troubleshooting-data-collection) topic for
       additional information

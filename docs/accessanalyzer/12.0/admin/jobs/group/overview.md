@@ -25,9 +25,9 @@ The Job Group Description page displays shortcuts, links, and important informat
 and the jobs contained within the Job Group. Depending on the type of job group, the description
 page will appear different and display information specific to the job group selected.
 
-| ![Job Group Description page for a pre-configured job group](/img/product_docs/accessanalyzer/12.0/admin/jobs/group/descriptionpagenewgroup.webp) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Pre-Configured Job Group                                                                                                                                                       | User-Created Job Group                                                                                                                                                               |
+| ![Job Group Description page for a pre-configured job group](/img/product_docs/accessanalyzer/12.0/admin/jobs/group/descriptionpage.webp)         | ![Job Group Description page for a user-created job group](/img/product_docs/accessanalyzer/12.0/admin/jobs/group/descriptionpagenewgroup.webp)     |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|
+| *Pre-Configured Job Group*                                                                                                                        | *User-Created Job Group*                                                                                                                            |
 
 The two types of job groups in Access Analyzer are:
 

@@ -39,14 +39,14 @@ task is preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Identify Stale Computers
+-   **1. Identify Stale Computers**
 
     - Identifies computer objects that are disabled or have exceeded the defined threshold of
       inactivity
     - Creates the SA_AD_StaleComputers_Details table accessible under the job’s Results node
     - Definition of a stale computer can be customized
 
--   2. Summarize by Domain – Creates the SA_AD_StaleComputers_DomainSummay table accessible under
+-   **2. Summarize by Domain** – Creates the SA_AD_StaleComputers_DomainSummay table accessible under
        the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the AD_StaleComputers Job

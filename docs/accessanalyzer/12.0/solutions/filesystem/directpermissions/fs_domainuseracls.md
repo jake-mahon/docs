@@ -24,14 +24,14 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   0. Drop tables – Drops tables from previous runs
--   1. Direct User Resource Details – Creates the SA_FS_DomainUserACLs_DirectUserResourceDetails
+-   **0. Drop tables** – Drops tables from previous runs
+-   **1. Direct User Resource Details** – Creates the SA_FS_DomainUserACLs_DirectUserResourceDetails
        table accessible under the job’s Results node
--   2. Direct Users: Top 5 Servers – Creates an interim processing table in the database for use by
+-   **2. Direct Users: Top 5 Servers** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   3. Direct Users – Creates an interim processing table in the database for use by downstream
+-   **3. Direct Users** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   4. Direct Resources – Creates an interim processing table in the database for use by downstream
+-   **4. Direct Resources** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
 
 In addition to the tables and views created by the analysis tasks which displays all direct user

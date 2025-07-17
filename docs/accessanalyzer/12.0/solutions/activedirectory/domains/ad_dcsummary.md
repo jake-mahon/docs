@@ -25,7 +25,7 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. List DCs
+-   **1. List DCs**
     - Creates the AD_DCSummary_List table accessible under the job’s Results node
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation

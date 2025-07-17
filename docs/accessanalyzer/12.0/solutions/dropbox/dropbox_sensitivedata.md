@@ -29,15 +29,15 @@ preconfigured for this job.
 
 ![Analysis Tasks for the Dropbox_SensitiveData Job](/img/product_docs/accessanalyzer/12.0/solutions/dropbox/sensitivedataanalysis.webp)
 
--   1. Enterprise Summary – Creates the SA_Dropbox_SensitiveData_EnterpriseSummary table accessible
+-   **1. Enterprise Summary** – Creates the SA_Dropbox_SensitiveData_EnterpriseSummary table accessible
        under the job’s Results node
--   2. Folder Details – Creates the SA*Dropbox* SensitiveData_FolderDetails table accessible under
+-   **2. Folder Details** – Creates the SA*Dropbox* SensitiveData_FolderDetails table accessible under
        the job’s Results node
--   3. Folder Summary – Creates the SA*Dropbox* SensitiveData_FolderSummary table accessible under
+-   **3. Folder Summary** – Creates the SA*Dropbox* SensitiveData_FolderSummary table accessible under
        the job’s Results node
--   4. Permission Details – Creates the SA*Dropbox* SensitiveData_PermissionDetails table accessible
+-   **4. Permission Details** – Creates the SA*Dropbox* SensitiveData_PermissionDetails table accessible
        under the job’s Results node
--   5. Permission Summary – Creates the SA*Dropbox* SensitiveData_PermissionSummary table accessible
+-   **5. Permission Summary** – Creates the SA*Dropbox* SensitiveData_PermissionSummary table accessible
        under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display effective access to resources,

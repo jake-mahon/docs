@@ -41,9 +41,9 @@ for additional information.
 :::
 
 
-| ![Good connection test](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/addprofilebadconnection.webp) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Good Connection Test                                                                                                                                     | Bad Connection Test                                                                                                                                    |
+| ![Good connection test](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/addprofilegoodconnection.webp) | ![Bad connection test](/img/product_docs/accessanalyzer/12.0/admin/settings/storage/addprofilebadconnection.webp)         |
+|:-------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|
+| *Good Connection Test*                                                                                              | *Bad Connection Test*                                                                                                     |
 
 **Step 6 –** It is recommended to test the credentials provided at this point. The radio button for
 **Use existing database** should be selected by default. Test the SQL Server connection by clicking

@@ -23,15 +23,15 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Server SLA – Creates the SA_EX_DeliveryTimes_ServerSLA table, accessible under the job’s
+-   **1. Server SLA** – Creates the SA_EX_DeliveryTimes_ServerSLA table, accessible under the job’s
        Results node
--   2. Org SLA – Creates the SA_EX_DeliveryTimes_OrgSLA table, accessible under the job’s Results
+-   **2. Org SLA** – Creates the SA_EX_DeliveryTimes_OrgSLA table, accessible under the job’s Results
        node
--   3. Org pivot – Creates the SA_EX_DeliveryTimes_OrgDeliveryByCount table, accessible under the
+-   **3. Org pivot** – Creates the SA_EX_DeliveryTimes_OrgDeliveryByCount table, accessible under the
        job’s Results node
--   4. Org By Volume – Creates the SA_EX_DeliveryTimes_OrgDeliveryByVolume table, accessible under
+-   **4. Org By Volume** – Creates the SA_EX_DeliveryTimes_OrgDeliveryByVolume table, accessible under
        the job’s Results node
--   5. Org Delivery By Count Last 30 Days – Creates the SA_EX_DeliveryTimes_OrgDeliveryByCountLast30
+-   **5. Org Delivery By Count Last 30 Days** – Creates the SA_EX_DeliveryTimes_OrgDeliveryByCountLast30
        table, accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_DeliveryTimes Job produces

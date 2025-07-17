@@ -28,13 +28,13 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Create Aging View – Creates the SA_ENG_FSAA_FolderAging table accessible under the job’s
+-   **1. Create Aging View** – Creates the SA_ENG_FSAA_FolderAging table accessible under the job’s
        Results node
--   2. Enterprise Summary – Creates the SA_FS_StaleContent_EnterpriseSummary table accessible under
+-   **2. Enterprise Summary** – Creates the SA_FS_StaleContent_EnterpriseSummary table accessible under
        the job’s Results node
--   3. Share Summary – Creates the SA_FS_StaleContent_ShareSummary table accessible under the job’s
+-   **3. Share Summary** – Creates the SA_FS_StaleContent_ShareSummary table accessible under the job’s
        Results node
--   4. Host Summary – Creates the SA_FS_StaleContent_HostSummary table accessible under the job’s
+-   **4. Host Summary** – Creates the SA_FS_StaleContent_HostSummary table accessible under the job’s
        Results node
 
 In addition to the tables created by the analysis tasks, the FS_StaleContent job produces the

@@ -24,18 +24,18 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Transport – Creates the SA_EX_ServerMetrics_Transport table, accessible under the job’s
+-   **1. Transport** – Creates the SA_EX_ServerMetrics_Transport table, accessible under the job’s
        Results node
--   2. NDRs – Creates the SA_EX_ServerMetrics_NDRs table, accessible under the job’s Results node
--   3. Journaling – Creates the SA_EX_ServerMetrics_Journaling table, accessible under the job’s
+-   **2. NDRs** – Creates the SA_EX_ServerMetrics_NDRs table, accessible under the job’s Results node
+-   **3. Journaling** – Creates the SA_EX_ServerMetrics_Journaling table, accessible under the job’s
        Results node
--   4. Yesterday – Creates the SA_EX_ServerMetrics_Yesterday table, accessible under the job’s
+-   **4. Yesterday** – Creates the SA_EX_ServerMetrics_Yesterday table, accessible under the job’s
        Results node
--   5. Last 7 Days – Creates the SA_EX_ServerMetrics_Last7Days table, accessible under the job’s
+-   **5. Last 7 Days** – Creates the SA_EX_ServerMetrics_Last7Days table, accessible under the job’s
        Results node
--   6. Last 30 Days – Creates the SA_EX_ServerMetrics_Last30Days table, accessible under the job’s
+-   **6. Last 30 Days** – Creates the SA_EX_ServerMetrics_Last30Days table, accessible under the job’s
        Results node
--   7. Historical Statistics – Creates the SA_EX_ServerMetrics_HistoricalStatistics table,
+-   **7. Historical Statistics** – Creates the SA_EX_ServerMetrics_HistoricalStatistics table,
        accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_ServerMetrics Job produces

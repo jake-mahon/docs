@@ -22,14 +22,14 @@ preconfigured for this job.
 
 ![Analysis Tasks for the FS_HighRiskActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/security/highriskactivityanalysis.webp)
 
--   0. Drop Tables – Drops tables from previous runs
--   1. Analyze for High Risk Activity – Creates the SA_FS_HighRiskActivity_HighRiskUserActivity
+-   **0. Drop Tables** – Drops tables from previous runs
+-   **1. Analyze for High Risk Activity** – Creates the SA_FS_HighRiskActivity_HighRiskUserActivity
        table accessible under the job’s Results node
--   2. Pivot High Risk Activity – Creates the SA_FS_HighRiskActivity_HighRiskDetails table
+-   **2. Pivot High Risk Activity** – Creates the SA_FS_HighRiskActivity_HighRiskDetails table
        accessible under the job’s Results node
--   3. Summarize Share Activity – Creates the SA_FS_HighRiskActivity_ShareSummary table accessible
+-   **3. Summarize Share Activity** – Creates the SA_FS_HighRiskActivity_ShareSummary table accessible
        under the job’s Results node
--   4. Global User Activity – Creates an interim processing table in the database for use by
+-   **4. Global User Activity** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 In addition to the tables and views created by the analysis tasks, the FS_HighRiskActivity job

@@ -104,9 +104,10 @@ populate the following fields.
 
 - Custom Attribute Statement – This value must match the following format, including case and bold
   areas:
-
-    http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname|${user.__samaccountname__}|,
-    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sid|${user.__SID__}|,http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn|${user.__upn__}|
+    `http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname|${user.`**samaccountname**`}|,`
+    `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sid|${user.`**SID**`}|,`
+    `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn|${user.`**upn**`}|`
+  
 
 ![oktaprofileeditor](/img/product_docs/accessanalyzer/12.0/install/application/reports/oktaprofileeditor.webp)
 

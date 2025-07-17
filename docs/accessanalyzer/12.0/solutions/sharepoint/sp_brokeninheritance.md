@@ -31,13 +31,13 @@ preconfigured for this job.
 
 They need to remain in the default order:
 
--   1. Create Inheritance View – Creates the SA_ENG_SPAA_Inheritance view accessible under the job’s
+-   **1. Create Inheritance View** – Creates the SA_ENG_SPAA_Inheritance view accessible under the job’s
        Results node
--   2. Unique Trustees Table. Identifies where Trustees have been Added/Removed – Creates the
+-   **2. Unique Trustees Table. Identifies where Trustees have been Added/Removed** – Creates the
        SA_SP_BrokenInheritance_UniqueTrustees table accessible under the job’s Results node
--   3. Pivot Unique Trustees Table – Creates the SA_SP_BrokenInheritance_UniqueTrusteesPivot table
+-   **3. Pivot Unique Trustees Table** – Creates the SA_SP_BrokenInheritance_UniqueTrusteesPivot table
        accessible under the job’s Results node
--   4. Summarize by Site Collection – Creates an interim processing table in the database for use by
+-   **4. Summarize by Site Collection** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 In addition to the tables created by the analysis tasks which display resources with broken

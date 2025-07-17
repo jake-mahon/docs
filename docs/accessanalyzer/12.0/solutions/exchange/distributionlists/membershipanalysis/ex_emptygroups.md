@@ -23,12 +23,12 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   0. Drop tables – Drops tables from previous runs
--   1. Empty Groups – Creates the SA_EX_EmptyGroups_Empty table, accessible under the job’s Results
+-   **0. Drop tables** – Drops tables from previous runs
+-   **1. Empty Groups** – Creates the SA_EX_EmptyGroups_Empty table, accessible under the job’s Results
        node
--   2. Single User Groups – Creates the SA_EX_EmptyGroups_SingleUser table, accessible under the
+-   **2. Single User Groups** – Creates the SA_EX_EmptyGroups_SingleUser table, accessible under the
        job’s Results node
--   3. Summarize Empty Groups – Creates the SA_EX_EmptyGroups_EmptySummary table, accessible under
+-   **3. Summarize Empty Groups** – Creates the SA_EX_EmptyGroups_EmptySummary table, accessible under
        the job’s Results node
--   4. Summarize Single User Groups – Creates the SA_EX_EmptyGroups_SingleUserSummary table,
+-   **4. Summarize Single User Groups** – Creates the SA_EX_EmptyGroups_SingleUserSummary table,
        accessible under the job’s Results node

@@ -74,9 +74,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. User to User Traffic History – Creates the SA_EX_ExhangeMetrics_MessageTraffic table
+-   **1. User to User Traffic History** – Creates the SA_EX_ExhangeMetrics_MessageTraffic table
        accessible under the job’s Results node
--   2. SET HISTORY RETENTION – Sets retention period in months
+-   **2. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default set to retain **6 months**
     - This retention period can be modified. See the
@@ -92,7 +92,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 :::
 
 
--   0. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
+-   **0. DROP HISTORY - LEAVE UNCHECKED** – Clears all historical data
 
     - See the
       [Troubleshooting Data Collection](ex_metricscollection.md#troubleshooting-data-collection)

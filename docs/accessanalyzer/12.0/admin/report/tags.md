@@ -16,9 +16,9 @@ supported in reports in the Jobs tree.
 If Reports from solutions that have been run have tags added to them, those tags can be found under
 the Tags tab in the Navigation section on the right-hand side of the Published Reports homepage.
 
-| ![Tags tab on Web Console homepage](/img/product_docs/accessanalyzer/12.0/admin/report/privilegedaccountstag.webp) |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Privileged Accounts Tag on Published Reports homepage                                                                                  | Privileged Accounts Tag page                                                                                                                     |
+| ![Tags tab on Web Console homepage](/img/product_docs/accessanalyzer/12.0/admin/report/tagstab.webp)  | ![Privileged Accounts Tag page](/img/product_docs/accessanalyzer/12.0/admin/report/privilegedaccountstag.webp)  |
+|:-----------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
+| *Privileged Accounts Tag on Published Reports homepage*                                               | *Privileged Accounts Tag page*                                                                                 |
 
 Click on a tag to view all reports that contain the selected tag.
 

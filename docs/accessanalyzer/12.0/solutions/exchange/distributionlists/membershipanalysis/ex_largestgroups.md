@@ -23,5 +23,5 @@ preconfigured for this job.
 
 The following analysis task is selected by default:
 
--   1. Group Details – Creates the SA_EX_LargestGroups_Details table, accessible under the job’s
+-   **1. Group Details** – Creates the SA_EX_LargestGroups_Details table, accessible under the job’s
        Results node

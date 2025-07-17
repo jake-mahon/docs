@@ -27,11 +27,11 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Create File Types View – Creates the SA_ENG_FSAA_FileTypeView view accessible under the job’s
+-   **1. Create File Types View** – Creates the SA_ENG_FSAA_FileTypeView view accessible under the job’s
        Results node
--   2. Ranked File Extensions – Creates the SA_FS_FileTypes_ExtensionsRanked table accessible under
+-   **2. Ranked File Extensions** – Creates the SA_FS_FileTypes_ExtensionsRanked table accessible under
        the job’s Results node
--   3. File Types by Share – Creates the SA_FS_FileTypes_TypesByShare table accessible under the
+-   **3. File Types by Share** – Creates the SA_FS_FileTypes_TypesByShare table accessible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_FileTypes job produces the

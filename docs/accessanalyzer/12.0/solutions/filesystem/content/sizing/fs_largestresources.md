@@ -24,9 +24,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Largest Folders Ranked – Creates the SA_FS_LargestResources_Ranked table accessible under the
+-   **1. Largest Folders Ranked** – Creates the SA_FS_LargestResources_Ranked table accessible under the
        job’s Results node
--   2. Largest Shares – Creates the SA_FS_LargestResources_SharesRanked table accessible under the
+-   **2. Largest Shares** – Creates the SA_FS_LargestResources_SharesRanked table accessible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_LargestResources job

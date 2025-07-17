@@ -148,7 +148,7 @@ permissions:
 Alternatively, you can edit the JSON to assign the permissions. To do so, go to the JSON tab and
 edit the permissions section of the JSON to be the following:
 
-```
+```json
 "permissions": [
     {
         "actions": [

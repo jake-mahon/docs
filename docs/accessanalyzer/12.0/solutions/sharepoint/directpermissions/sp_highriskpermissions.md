@@ -24,14 +24,14 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Detailed View – Creates the SA_SP_HighRiskPermissions_Details table accessible under the
+-   **1. Detailed View** – Creates the SA_SP_HighRiskPermissions_Details table accessible under the
        job’s Results node
--   2. Permissions Matrix. Resource counts by Permission Level and Trustee – Creates the
+-   **2. Permissions Matrix. Resource counts by Permission Level and Trustee** – Creates the
        SA_SP_HighRiskPermissions_Details table (SP_HighRiskPermissions_Matrix) accessible under the
        job’s Results node
-- 3.Open Manage Rights – Creates the SA_SP_HighRiskPermissions_ManageRights table accessible under
+-   **3.Open Manage Rights** – Creates the SA_SP_HighRiskPermissions_ManageRights table accessible under
   the job’s Results node
--   4. Pivot Permissions by Resource Type – Creates the
+-   **4. Pivot Permissions by Resource Type** – Creates the
        SA_SP_HighRiskPermissions_SiteCollectionSummary table accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display information on open resources

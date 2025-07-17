@@ -24,7 +24,7 @@ are preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Identify Selected Shares – Creates the SA_FS_ShareAudit_ShareSummary table accessible under
+-   **1. Identify Selected Shares** – Creates the SA_FS_ShareAudit_ShareSummary table accessible under
        the job’s Results node
     - Parameter is blank by default.
     - #UNC parameter must be configured by clicking Analysis Configuration with this task selected
@@ -34,11 +34,11 @@ The following analysis tasks are selected by default:
           See the [SQLscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlscripting.md) section
           for additional information.
     - List one shared folder per row, using the format: \\HOST\SHARE.
--   2. Direct Permissions – Creates the SA_FS_ShareAudit_DirectPermissions table accessible under
+-   **2. Direct Permissions** – Creates the SA_FS_ShareAudit_DirectPermissions table accessible under
        the job’s Results node
--   3. Calculate Effective Access – Creates the SA_FS_ShareAudit_ShareAccess table accessible under
+-   **3. Calculate Effective Access** – Creates the SA_FS_ShareAudit_ShareAccess table accessible under
        the job’s Results node
--   4. Identify Broken Inheritance
+-   **4. Identify Broken Inheritance**
     - Creates a temporary table in the database for use by downstream analysis and report
       generation.
     - Creates the SA_FS_ShareAudit_UniqueTrustees table accessible under the job’s Results node.

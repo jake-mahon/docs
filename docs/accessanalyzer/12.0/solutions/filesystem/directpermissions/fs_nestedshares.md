@@ -24,19 +24,19 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Identify Nested Shares
+-   **1. Identify Nested Shares**
 
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation
     - Creates the SA_FS_NestedShares_ShareDetails table accessible under the job’s Results node
 
--   2. Create function to compare permissions
--   3. Analyze Permission Details
+-   **2. Create function to compare permissions**
+-   **3. Analyze Permission Details**
 
     - Creates the SA_FS_NestedShares_SharePermissions table accessible under the job’s Results node
     - Updates the SA_FS_NestedShares_ShareDetails table accessible under the job’s Results node
 
--   4. Host Summary – Creates the SA_FS_NestedShares_HostSummary table accessible under the job’s
+-   **4. Host Summary** – Creates the SA_FS_NestedShares_HostSummary table accessible under the job’s
        Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_NestedShares job produces

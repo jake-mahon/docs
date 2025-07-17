@@ -22,9 +22,9 @@ preconfigured for this job.
 
 ![Analysis Tasks for the LocalUserActivity Job](/img/product_docs/accessanalyzer/12.0/solutions/filesystem/activity/security/localuseractivityanalysis.webp)
 
--   1. Local User Activity Details – Creates the SA_FS_LocalUserActivity_Details table accessible
+-   **1. Local User Activity Details** – Creates the SA_FS_LocalUserActivity_Details table accessible
        under the job’s Results node
--   2. Top Local User Accounts – Creates the SA_FS_LocalUserActivity_TopUsers table accessible under
+-   **2. Top Local User Accounts** – Creates the SA_FS_LocalUserActivity_TopUsers table accessible under
        the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_LocalUserActivity job

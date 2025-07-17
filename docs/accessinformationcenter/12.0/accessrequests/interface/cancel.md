@@ -13,7 +13,7 @@ The Cancel Request wizard is opened with the **Cancel** button on the
 
 It contains one page:
 
--   1. Add Notes — Allows Request Administrator to enter a note explaining why the request is being
+-   **1. Add Notes** — Allows Request Administrator to enter a note explaining why the request is being
        canceled
 
 See the Cancel an Access Request topic for additional information.
