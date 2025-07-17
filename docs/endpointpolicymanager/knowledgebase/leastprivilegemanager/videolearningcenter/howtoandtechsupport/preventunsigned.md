@@ -8,6 +8,8 @@ sidebar_position: 90
 Unsigned apps? Bah. If they're not signed, make sure they don't run. Use one checkbox and PolicyPak
 SecureRun makes it happen.
 
+<iframe width="560" height="315" src="https://youtu.be/aComODiEzDk" title="Least Privilege Manager: Block All Unsigned with SecureRun" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Hi, this is Jeremy Moskowitz, and in this video, we're going to talk about an increased security
 feature to PolicyPak SecureRun. In other videos, you saw me turn on PolicyPak SecureRun, which will
 automatically block items that are unknown of origin, so for instance, when a standard user tries to

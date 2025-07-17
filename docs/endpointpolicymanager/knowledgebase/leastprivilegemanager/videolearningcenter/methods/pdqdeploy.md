@@ -13,6 +13,8 @@ Manager. With the Endpoint Policy Manager Least Privilege Manager, the applicati
 PDQ can then run with admin rights. See this video to learn how to elevate applications, the
 operating system, and also let users occasionally install their own specialty software when needed.
 
+<iframe width="560" height="315" src="https://youtu.be/P9wnfQrEDvY" title="Deploying Apps that Require Admin Rights Using Endpoint Policy Manager and PDQ Deploy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 ### Deploying Apps that Require Admin Rights Using PolicyPak and PDQ Deploy
 
 Brigg: Hi. My name is Brigg, and I'm with PDQ.com.

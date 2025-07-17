@@ -8,6 +8,8 @@ sidebar_position: 70
 Most services run under Local System which is WAY too much privileges. Instead, use PPLPM to specify
 exactly the right permissions for your services, including the token and access your service needs.
 
+<iframe width="560" height="315" src="https://youtu.be/waVSO6KAoPw" title="Reduce or specify Service Account Rights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Hi. This is Jeremy Moskowitz. In this video, I'm going to show you how you can manipulate a service
 account to have reduced privileges for exactly the right things you need instead of having maybe
 overblown privileges.

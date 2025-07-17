@@ -9,6 +9,8 @@ If you're in charge of your domain, you can block local and other domain admins 
 applications you want to be elevated via Netwrix Endpoint Policy Manager (formerly PolicyPak) Least
 Priv manager. See the video for details.
 
+<iframe width="560" height="315" src="https://youtu.be/ZnjRd9NjMws" title="Elevate apps as standard user, BLOCK other Admins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Hi. This is Jeremy Moskowitz. In this video, I'm going to show you how you can enable your users to
 double click on items to install them in their context but elevated but prevent other admins like
 local admins or domain admins to right click over these applications and select "Run as

@@ -5,6 +5,8 @@ sidebar_position: 40
 ---
 # Security and Child Processes
 
+<iframe width="560" height="315" src="https://youtu.be/GsydgID-lo4" title="Security and Child Processes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 ### Transcript:Security and Child Processes
 
 Hi. This is Jeremy Moskowitz. In this video, we're going to talk about best practices with regards
