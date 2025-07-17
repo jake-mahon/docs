@@ -242,21 +242,21 @@ the following actions as admin in powershell:
 ```powershell
 # connect to the task scheduler service
 
-**$scheduleObject = New-Object -ComObject schedule.service**
+$scheduleObject = New-Object -ComObject schedule.service
 
 $scheduleObject.connect()
 
-**$rootFolder = $scheduleObject.GetFolder("")**
+$rootFolder = $scheduleObject.GetFolder("")
 
 $PingCastleFolder = $rootFolder.GetFolder("PingCastle")
 
-**$PingCastleFolder.GetTasks(1) | Foreach-Object {**
+$PingCastleFolder.GetTasks(1) | Foreach-Object {
 
 $sddl = $_.GetSecurityDescriptor(1+2+4+8)
 
 # add full control to the task
 
-**$sddl += "(A;S-1-XXX-XXX-XXX;FA;;;SY)"**
+$sddl += "(A;S-1-XXX-XXX-XXX;FA;;;SY)"
 
 $_.SetSecurityDescriptor($sddl, 0)
 
@@ -352,13 +352,13 @@ The following SQL can grant these permissions:
 ```sql
 If not Exists (select loginname from master.dbo.syslogins
 
-**where loginname = 'IIS APPPOOL\PingCastleEnterprise')**
+where loginname = 'IIS APPPOOL\PingCastleEnterprise')
 
 Begin
 
 CREATE LOGIN [IIS APPPOOL\PingCastleEnterprise] FROM WINDOWS;
 
-**End**
+End
 
 use PingCastleEnterprise;
 
@@ -673,11 +673,11 @@ to the following one:
 ```json
 "OpenIdConnect": {
 
-**"DisplayName": "AzureAD",**
+"DisplayName": "AzureAD",
 
 "ClientId": "<ClientID>",
 
-**"Authority": "https://login.microsoftonline.com/<tenant-id>/",**
+"Authority": "https://login.microsoftonline.com/<tenant-id>/",
 
 }
 ```
@@ -814,7 +814,7 @@ When using ADFS, the well known configuration is:
 ```json
 "Saml2": {
 
-**"Issuer": "https://xxx/Saml2/Login",**
+"Issuer": "https://xxx/Saml2/Login",
 
 "IdPMetadata":
 "https://xxx/FederationMetadata/2007-06/FederationMetadata.xml"
