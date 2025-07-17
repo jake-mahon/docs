@@ -4,7 +4,7 @@ description: "Remote Administration Console Requirements"
 sidebar_position: 40
 ---
 
-# Remote Administration Console Machine Requirements
+# Remote Administration Console Requirements
 
 This topic lists the requirements for the machine where you want to install a remote instance of the
 Threat Prevention Administration Console.
