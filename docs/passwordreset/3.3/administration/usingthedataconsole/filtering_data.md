@@ -11,7 +11,7 @@ any time. Filters let you focus on the important information.
 
 You can create simple filters by typing values directly into the filter row, or by selecting values
 from Filtering by Column Values. More complex filters are created with the Custom Filters and
-[Filter Editor](/docs/passwordreset/3.3/administrationoverview/usingthedataconsole/filter_editor.md) windows.
+[Filter Editor](/docs/passwordreset/3.3/administration/usingthedataconsole/filter_editor.md) windows.
 
 ### The Filter Row
 

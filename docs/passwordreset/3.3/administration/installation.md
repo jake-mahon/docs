@@ -42,7 +42,7 @@ the credentials are valid.
 Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
-it. See the [Working with the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md) topic for additional
+it. See the [Working with the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md) topic for additional
 information.
 :::
 
@@ -98,7 +98,7 @@ account. The account will be created and added to the Domain Admins group if it 
 :::note
 You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/docs/passwordreset/3.3/administrationoverview/securing_password_reset.md) topic for additional information.
+[Securing Password Reset](/docs/passwordreset/3.3/administration/securing_password_reset.md) topic for additional information.
 :::
 
 
@@ -170,7 +170,7 @@ account. The account will be created and added to the Domain Admins group if it 
 :::note
 You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/docs/passwordreset/3.3/administrationoverview/securing_password_reset.md) topic for additional information.
+[Securing Password Reset](/docs/passwordreset/3.3/administration/securing_password_reset.md) topic for additional information.
 :::
 
 
@@ -258,7 +258,7 @@ recommended if you have not installed NPR before.
 
 The database files are not overwritten during an upgrade, but you should still create a backup
 before upgrading. See the
-[Backing up the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 **The Web Interface files are overwritten during an upgrade. You must backup any customized Web
@@ -293,13 +293,13 @@ between versions should be merged into your customized files.
 The Password Reset V3.30 data console does not read the VerificationCode or EnrollRecord columns
 from the User table on SQL Server. Access to these columns can be denied for Data Console users
 after upgrading all instances of the Data Console. See the
-[Using the Data Console](/docs/passwordreset/3.3/administrationoverview/usingthedataconsole/using_the_data_console.md) topic for additional information.
+[Using the Data Console](/docs/passwordreset/3.3/administration/usingthedataconsole/using_the_data_console.md) topic for additional information.
 
 ## Upgrading From NPR V2.x
 
 As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A
 trial run on a lab network is recommended, especially if you are customizing the user interface. See
-the [Editing the HTML Templates](/docs/passwordreset/3.3/administrationoverview/editing_the_html_templates.md) topic for additional information.
+the [Editing the HTML Templates](/docs/passwordreset/3.3/administration/editing_the_html_templates.md) topic for additional information.
 
 :::warning
 Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
@@ -317,7 +317,7 @@ later).
 **Step 2 –** Close the Data Console if it is open.
 
 **Step 3 –** Stop the Netwrix Password Reset service and backing up the database. See the
-[Backing up the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 ### Upgrading to V3.23
@@ -367,7 +367,7 @@ folder.
 **Step 9 –** Start the Netwrix Password Reset service.
 
 **Step 10 –** Update the backup script to copy from the new folder. See the
-[Backing up the Database](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/administration/workingwiththedatabase/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 Configure Password Reset Client to use IE11 emulation mode

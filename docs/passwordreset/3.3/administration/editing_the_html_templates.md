@@ -195,7 +195,7 @@ message invites the user to enroll so they can also use the reset and unlock fea
 
 When users enroll into Password Reset, they choose their questions from the Question List. You can
 replace some or all of the question lists with text boxes so users can enter their own questions.
-See the [Question List](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/enroll_tab.md#question-list) topic for additional information.
+See the [Question List](/docs/passwordreset/3.3/administration/configuringpasswordreset/enroll_tab.md#question-list) topic for additional information.
 
 The lines you need to edit in en_enroll.htm look like this:
 

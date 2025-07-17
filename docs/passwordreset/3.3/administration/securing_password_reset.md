@@ -16,7 +16,7 @@ Server.
 The Web Interface and Password Reset Server always communicate over a secure channel. You do not
 have to configure the encryption for this connection, but you do need to set up SSL (Secure Sockets
 Layer) encryption for the connection between the web browser (or Password Reset Client) and the web
-server. See the [Password Reset Client](/docs/passwordreset/3.3/administrationoverview/password_reset_client.md) topic for more information.
+server. See the [Password Reset Client](/docs/passwordreset/3.3/administration/password_reset_client.md) topic for more information.
 
 :::warning
 Do not use Password Reset on a production network without SSL encryption.
@@ -76,7 +76,7 @@ users in the axs.net domain:
 
 If Password Reset is configured to use an SQL Server Compact database, then give the service account
 read and write permissions to the database files. See the
-[Moving to SQL Server](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/moving_to_sql_server.md) topic for more information.
+[Moving to SQL Server](/docs/passwordreset/3.3/administration/workingwiththedatabase/moving_to_sql_server.md) topic for more information.
 
 Remove the service account from the Domain Admins group and restart the Password Reset service after
 executing these commands. Check the Windows Application event log if the service does not start.

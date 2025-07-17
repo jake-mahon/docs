@@ -23,7 +23,7 @@ using SQL Server include:
 - Improved availability if SQL Server is configured for high availability.
 - Increased security.
 
-See solutions to these disadvantages in the [Moving to SQL Server](/docs/passwordreset/3.3/administrationoverview/workingwiththedatabase/moving_to_sql_server.md) topic.
+See solutions to these disadvantages in the [Moving to SQL Server](/docs/passwordreset/3.3/administration/workingwiththedatabase/moving_to_sql_server.md) topic.
 
 ## Backing up the Database
 
@@ -58,7 +58,7 @@ reset\aprlog.bak"
 
 :::note
 Change the paths above if the database files are in a different folder. See the
-[Database](/docs/passwordreset/3.3/administrationoverview/configuringpasswordreset/general_tab.md#database) topic for more information.
+[Database](/docs/passwordreset/3.3/administration/configuringpasswordreset/general_tab.md#database) topic for more information.
 :::
 
 
