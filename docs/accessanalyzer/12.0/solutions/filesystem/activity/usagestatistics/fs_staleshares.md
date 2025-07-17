@@ -23,13 +23,13 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Find Date of last Activity
+-   **1. Find Date of last Activity**
 
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation
     - Creates the SA_FS_StaleShares_LastActivityPivot view accessible under the job’s Results node
 
--   2. Find Shares with no Recorded Activity – Creates the SA_FS_StaleShares_NoRecordedActivity
+-   **2. Find Shares with no Recorded Activity** – Creates the SA_FS_StaleShares_NoRecordedActivity
        table accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_StaleShares job produces

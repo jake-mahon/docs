@@ -47,7 +47,7 @@ deselected. There are some that are deselected by default, as they are for troub
 
 The following analysis tasks are selected by default:
 
--   1. Analyze Broken Inheritance
+-   **1. Analyze Broken Inheritance**
 
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation
@@ -56,7 +56,7 @@ The following analysis tasks are selected by default:
     - Creates the SA_FS_BrokenInheritance_UniqueTrusteesPivot table accessible under the job’s
       Results node
 
--   2. Choose to analyze only folders with modified permissions – Creates an interim processing
+-   **2. Choose to analyze only folders with modified permissions** – Creates an interim processing
        table in the database for use by downstream analysis and report generation
 
     - By default set to only analyze resources with changed permissions from parent
@@ -68,20 +68,20 @@ The following analysis tasks are selected by default:
       [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis/analysiscustomizableparameters.md)
       topic for additional information.
 
--   3. Determine Permission Changes – Creates an interim processing table in the database for use by
+-   **3. Determine Permission Changes** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   4. Analyze Trustee Differences – Creates an interim processing table in the database for use by
+-   **4. Analyze Trustee Differences** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   5. Inheritance Types. Categorizes Permission Changes – Creates an interim processing table in
+-   **5. Inheritance Types. Categorizes Permission Changes** – Creates an interim processing table in
        the database for use by downstream analysis and report generation
--   6. Summarize by Share – Creates an interim processing table in the database for use by
+-   **6. Summarize by Share** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 The following analysis tasks are deselected by default:
 
--   7. Bring Table to Console - Unique trustees – Restores the
+-   **7. Bring Table to Console - Unique trustees** – Restores the
        SA_FS_BrokenInheritance_UniqueTrustees table to be visible under the job’s Results node
--   8. Bring Table to Console - Trustees pivot – Restores the
+-   **8. Bring Table to Console - Trustees pivot** – Restores the
        SA_FS_BrokenInheritance_UniqueTrusteesPivot table to be visible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_BrokenInheritance job

@@ -23,7 +23,7 @@ preconfigured for this job.
 
 The following analysis task is selected by default:
 
--   1. Message Size by Server – Creates the SA_EX_MessageSize_HostSummary table accessible under the
+-   **1. Message Size by Server** – Creates the SA_EX_MessageSize_HostSummary table accessible under the
        job’s Results node
 
 In addition to the tables and views created by the analysis task, the EX_MessageSize Job produces

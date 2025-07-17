@@ -23,7 +23,7 @@ preconfigured for this job.
 
 The following analysis task is selected by default:
 
--   1. Identify Last Time a Group was used for Access
+-   **1. Identify Last Time a Group was used for Access**
 
     - Creates an interim processing table in the database for use by downstream analysis and report
       generation

@@ -29,5 +29,5 @@ The following analysis tasks are selected by default:
 
 - Drop Tables – Drops all previously-created tables and creates the group expansion function
 - 1a. Expand Distribution Groups – Expands the distribution group’s direct members
--   2. Create Group Membership View – Creates an interim processing table in the database for use by
+-   **2. Create Group Membership View** – Creates an interim processing table in the database for use by
        downstream analysis and report generation

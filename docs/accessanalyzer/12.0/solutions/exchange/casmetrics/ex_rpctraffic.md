@@ -28,15 +28,15 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. RPC View – Creates the SA_EX_RPCTraffic_Details table, accessible under the job’s Results
+-   **1. RPC View** – Creates the SA_EX_RPCTraffic_Details table, accessible under the job’s Results
        node
--   2. User Summary – Creates the SA_EX_RPCTraffic_UserSummary table, accessible under the job’s
+-   **2. User Summary** – Creates the SA_EX_RPCTraffic_UserSummary table, accessible under the job’s
        Results node
--   3. Server View – Creates the SA_EX_RPCTraffic_ServerSummary table, accessible under the job’s
+-   **3. Server View** – Creates the SA_EX_RPCTraffic_ServerSummary table, accessible under the job’s
        Results node
--   4. Servers Ranked – Creates the SA_EX_RPCTraffic_ServerRanked table, accessible under the job’s
+-   **4. Servers Ranked** – Creates the SA_EX_RPCTraffic_ServerRanked table, accessible under the job’s
        Results node
--   5. SET HISTORY RETENTION – Sets retention period in months
+-   **5. SET HISTORY RETENTION** – Sets retention period in months
 
     - The default is 6 months. It can be modified.
     - See the

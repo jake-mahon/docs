@@ -23,7 +23,7 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Circular Nesting Details – Creates the SA_EX_CircularNesting_Details table, accessible under
+-   **1. Circular Nesting Details** – Creates the SA_EX_CircularNesting_Details table, accessible under
        the job’s Results node
--   2. Domain Summary – Creates the SA_EX_CircularNesting_DomainSummary table, accessible under the
+-   **2. Domain Summary** – Creates the SA_EX_CircularNesting_DomainSummary table, accessible under the
        job’s Results node

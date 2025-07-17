@@ -23,7 +23,7 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Details – Creates the SA_EX_NestedGroups_Details table, accessible under the job’s Results
+-   **1. Details** – Creates the SA_EX_NestedGroups_Details table, accessible under the job’s Results
        node
--   2. Summarize by Domain – Creates the SA_EX_NestedGroups_DomainSummary table, accessible under
+-   **2. Summarize by Domain** – Creates the SA_EX_NestedGroups_DomainSummary table, accessible under
        the job’s Results node

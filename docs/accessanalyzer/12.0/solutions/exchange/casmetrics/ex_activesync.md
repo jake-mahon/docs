@@ -29,17 +29,17 @@ The following analysis tasks are selected by default:
 
 - 01b. Active Sync Data – Creates the SA_EX_ActiveSync_Details table, accessible under the job’s
   Results node
--   2. Last Week Summary – Creates an interim processing table in the database for use by downstream
+-   **2. Last Week Summary** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   3. User Device History – Creates the SA_EX_ActiveSync_UserDeviceHistory table, accessible under
+-   **3. User Device History** – Creates the SA_EX_ActiveSync_UserDeviceHistory table, accessible under
        the job’s Results node
--   4. Device Population – Creates the SA_EX_ActiveSync_DevicePopulation table, accessible under the
+-   **4. Device Population** – Creates the SA_EX_ActiveSync_DevicePopulation table, accessible under the
        job’s Results node
--   5. Users Ranked – Creates the SA_EX_ActiveSync_UsersRanked table accessible, under the job’s
+-   **5. Users Ranked** – Creates the SA_EX_ActiveSync_UsersRanked table accessible, under the job’s
        Results node
--   6. Servers Ranked – Creates the SA_EX_ActiveSync_ServersRanked table accessible, under the job’s
+-   **6. Servers Ranked** – Creates the SA_EX_ActiveSync_ServersRanked table accessible, under the job’s
        Results node
--   7. SET HISTORY RETENTION – Sets retention period in months
+-   **7. SET HISTORY RETENTION** – Sets retention period in months
 
     - The default is **6 months**. It can be modified.
     - See the

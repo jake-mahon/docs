@@ -27,15 +27,15 @@ There is one that is deselected by default, as it is for troubleshooting purpose
 
 The following analysis tasks are selected by default:
 
--   1. OWA Traffic – Creates the SA_EX_OWATraffic_Details table, accessible under the job’s Results
+-   **1. OWA Traffic** – Creates the SA_EX_OWATraffic_Details table, accessible under the job’s Results
        node
--   2. User Summary – Creates the SA_EX_OWATraffic_UserSummary table, accessible under the job’s
+-   **2. User Summary** – Creates the SA_EX_OWATraffic_UserSummary table, accessible under the job’s
        Results node
--   3. Server View – Creates the SA_EX_OWATraffic_ServerSummary table, accessible under the job’s
+-   **3. Server View** – Creates the SA_EX_OWATraffic_ServerSummary table, accessible under the job’s
        Results node
--   4. Server View – Creates the SA_EX_OWATraffic_ServerRanked table, accessible under the job’s
+-   **4. Server View** – Creates the SA_EX_OWATraffic_ServerRanked table, accessible under the job’s
        Results node
--   5. SET HISTORY RETENTION – Sets retention period in months
+-   **5. SET HISTORY RETENTION** – Sets retention period in months
 
     - By default it is set to retain 6 months. This can be modified.
     - See the

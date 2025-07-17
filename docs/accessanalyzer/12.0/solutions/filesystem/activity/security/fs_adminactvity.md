@@ -24,17 +24,17 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Create Admin Activity View – Creates an interim processing view in the database for use by
+-   **1. Create Admin Activity View** – Creates an interim processing view in the database for use by
        downstream analysis and report generation
--   2. Effective Access to Locations with Admin Activity – Creates an interim processing table in
+-   **2. Effective Access to Locations with Admin Activity** – Creates an interim processing table in
        the database for use by downstream analysis and report generation
--   3. Suspicious Admin Activity – Creates the SA_FS_AdminActivity_SuspiciousActivity table
+-   **3. Suspicious Admin Activity** – Creates the SA_FS_AdminActivity_SuspiciousActivity table
        accessible under the job’s Results node
--   4. Operations Overview – Creates an interim processing table in the database for use by
+-   **4. Operations Overview** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   5. Rank admins by activity – Creates an interim processing table in the database for use by
+-   **5. Rank admins by activity** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
--   6. Pivot Admin Activity for Details Report – Creates an interim processing table in the database
+-   **6. Pivot Admin Activity for Details Report** – Creates an interim processing table in the database
        for use by downstream analysis and report generation
 
 In addition to the tables and views created by the analysis tasks, the FS_AdminActivity job produces

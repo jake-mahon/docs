@@ -29,25 +29,25 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Find Open Access – Creates the SA_FS_OpenAccess_OpenResources table accessible under the
+-   **1. Find Open Access** – Creates the SA_FS_OpenAccess_OpenResources table accessible under the
        job’s Results node
--   2. Sum by Host - Summarized Access Sprawl – Creates the SA_FS_OpenAccess_HostsRanked table
+-   **2. Sum by Host - Summarized Access Sprawl** – Creates the SA_FS_OpenAccess_HostsRanked table
        accessible under the job’s Results node
--   3. Sum by Share – Creates the SA_FS_OpenAccess_SharesRanked table accessible under the job’s
+-   **3. Sum by Share** – Creates the SA_FS_OpenAccess_SharesRanked table accessible under the job’s
        Results node
--   4. Content Type in Share - Categorizes shared content:
+-   **4. Content Type in Share - Categorizes shared content:**
 
     - Creates an interim processing view in the database for use by downstream analysis and report
       generation
     - Creates the SA_FS_OpenAccess_ShareContent view accessible under the job’s Results node
 
--   5. Content by Host – Updates the SA_FS_OpenAccess_HostsRanked table accessible under the job’s
+-   **5. Content by Host** – Updates the SA_FS_OpenAccess_HostsRanked table accessible under the job’s
        Results node
--   6. Remediation Tracking - Track Status of Shares Throughout Time – Creates an interim processing
+-   **6. Remediation Tracking - Track Status of Shares Throughout Time** – Creates an interim processing
        view in the database for use by downstream analysis and report generation
--   7. Track Remediation by Months - Track Status of Shares Throughout Time – Creates an interim
+-   **7. Track Remediation by Months - Track Status of Shares Throughout Time** – Creates an interim
        processing view in the database for use by downstream analysis and report generation
--   8. Assign Risk Ratings to Hosts and Shares – Updates the SA_FS_OpenAccess_HostsRanked and the
+-   **8. Assign Risk Ratings to Hosts and Shares** – Updates the SA_FS_OpenAccess_HostsRanked and the
        SA_FS_OpenAccess_SharesRanked tables accessible under the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the FS_OpenAccess job produces

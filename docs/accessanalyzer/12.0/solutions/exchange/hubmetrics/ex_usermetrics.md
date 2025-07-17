@@ -23,9 +23,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. User Metrics - Volume – Creates the SA_EX_UserMetrics_Volume table, accessible under the
+-   **1. User Metrics - Volume** – Creates the SA_EX_UserMetrics_Volume table, accessible under the
        job’s Results node
--   2. User Metrics - Count – Creates the SA_EX_UserMetrics_Count table, accessible under the job’s
+-   **2. User Metrics - Count** – Creates the SA_EX_UserMetrics_Count table, accessible under the job’s
        Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_UserMetrics Job produces

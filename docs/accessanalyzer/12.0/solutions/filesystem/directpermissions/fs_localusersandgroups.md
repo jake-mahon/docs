@@ -24,12 +24,12 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Local Groups Resource Details – Creates the
+-   **1. Local Groups Resource Details** – Creates the
        SA_FS_LocalUsersAndGroups_LocalGroupResourceDetails table accessible under the job’s Results
        node
--   2. Local Groups – Creates an interim processing table in the database for use by downstream
+-   **2. Local Groups** – Creates an interim processing table in the database for use by downstream
        analysis and report generation
--   3. Local Group Details – Creates an interim processing table in the database for use by
+-   **3. Local Group Details** – Creates an interim processing table in the database for use by
        downstream analysis and report generation
 
 In addition to the tables and views created by the analysis task, the FS_LocalUsersAndGroups job
