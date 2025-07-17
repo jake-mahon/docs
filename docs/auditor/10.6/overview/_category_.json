@@ -1,10 +1,10 @@
 {
-  "label": "Netwrix Auditor v10.6 Documentation",
+  "label": "Getting Started",
   "position": 10,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "gettingstarted"
   }
 }

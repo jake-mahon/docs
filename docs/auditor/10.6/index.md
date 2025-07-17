@@ -1,7 +1,7 @@
 ---
 title: "Netwrix Auditor v10.6 Documentation"
 description: "Netwrix Auditor v10.6 Documentation"
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Netwrix Auditor v10.6 Documentation
