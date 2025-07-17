@@ -1,6 +1,6 @@
 ---
-title: "Remote Administration Console Machine Requirements"
-description: "Remote Administration Console Machine Requirements"
+title: "Remote Administration Console Requirements"
+description: "Remote Administration Console Requirements"
 sidebar_position: 40
 ---
 
