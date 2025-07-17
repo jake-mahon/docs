@@ -15,7 +15,7 @@ the Users: User Administration topic for additional information.
 
 By default the Agent will register using the Name of the server but there is an opportunity to
 customize this during installation or post-installation via an edit of the Hub Details file. See the
-[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run-hubdetailsxml-file)
+[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)
 topic for additional information.
 
 :::info

@@ -83,7 +83,7 @@ After successful authorization, You are redirected to the dashboard. See the
 
 Once the initial login is completed, an MSP can configure Single Sign On (SSO) using supported
 authentication services, including Entra ID, 1Secure Authentication, or OpenID Connect. See the
-[SSO Configuration with Authentication Services](#sso-configuration-with-authentication-services)
+[SSO Configuration with Authentication Services](/docs/1secure/admin/login/sso.md#sso-configuration-with-authentication-services)
 topic for additional information.
 
 ### Reset Password
