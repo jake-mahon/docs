@@ -6,12 +6,12 @@ sidebar_position: 20
 
 # Endpoint Policy Manager and FSLogix Profiles: Better Together
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xGvWG4JW-WM" title="Endpoint Policy Manager and FSLogix Profiles: Better Together" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
-
 Want to get out of the roaming profile business? FSLogix is awesome. Then Netwrix Endpoint Policy
 Manager (formerly PolicyPak) helps you go beyond additional Group Policy to manage Start Screen,
 Taskbar, File Associations, Least Privilege, applications, browsers and more ! This isn't a short
 video, but it does show the better together story !
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xGvWG4JW-WM" title="Endpoint Policy Manager and FSLogix Profiles: Better Together" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
 
 ### PolicyPak and FSLogix Profiles: Better Together
 

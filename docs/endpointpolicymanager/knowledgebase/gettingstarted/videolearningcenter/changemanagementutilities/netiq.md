@@ -6,10 +6,10 @@ sidebar_position: 40
 
 # Endpoint Policy Manager Integrates with NetIQ GPA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q9q8SXLgHkE?si=ZWlTFjCB6nTHhtRi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 LLearn how NetIQ’s Group Policy Administrator (GPA) utility adds change management capability to
 Group Policy and how Endpoint Policy Manager seamlessly integrates with it!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q9q8SXLgHkE?si=ZWlTFjCB6nTHhtRi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### PolicyPak works with NetIQ Group Policy Administrator video transcript
 

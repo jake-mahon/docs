@@ -5,12 +5,12 @@ sidebar_position: 40
 ---
 # Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZspZfEbu3Ic" title="Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 Want to deploy Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud client machines directly
 to one or more specific groups? With the JOINTOKEN flag you simply pick one or more groups, get your
 token, and... just pass it on the command line. Use Intune or another MDM service if you want to do
 deploy the PP Cloud client and get those machines to join the groups you want... instantly!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZspZfEbu3Ic" title="Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is Jeremy Moskowitz. In this video, I'm going to show you how you can automatically join
 your computers to specific computer groups using PolicyPak Cloud and this thing called Join Token.

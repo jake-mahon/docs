@@ -6,13 +6,13 @@ sidebar_position: 40
 
 # Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_ivWHTrUo8M?si=iL5ayk3KsjRn-Rqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 Using Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud? Great. Now you'll get 100%
 coverage of your real GPOs to all your machines. Here's the quickstart on how to do that: By
 creating policies with the in-cloud editors, and also creating a directive inside the console and
 uploading. Remember: There's also the method to import a whole GPO and make PP Cloud policies, but
 that's another video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ivWHTrUo8M?si=iL5ayk3KsjRn-Rqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Hi, this is Jeremy Moskowitz. In this video I'm going to show you how you can use PolicyPak Cloud to
 deliver real Microsoft Group Policy settings through PolicyPak Cloud. We have another video
