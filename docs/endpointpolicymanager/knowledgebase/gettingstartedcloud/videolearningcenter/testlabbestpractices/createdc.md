@@ -8,6 +8,8 @@ sidebar_position: 20
 In this video, learn how to create a DC in order to build GPOs that you can export then upload to
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud or your MDM provider.
 
+<iframe width="560" height="315" src="https://youtu.be/0P33KNFBNsY" title="How to create a DC for editing purposes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 ### Endpoint Policy Manager (all versions): How to create a DC for editing purposes
 
 Hi. This is Whitney with Endpoint Policy Manager Software. In this video, we're going to talk about

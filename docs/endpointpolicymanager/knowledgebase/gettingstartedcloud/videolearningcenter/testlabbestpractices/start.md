@@ -5,9 +5,9 @@ sidebar_position: 10
 ---
 # Endpoint Policy Manager Cloud: What you need to get Started
 
-Lets get you set up right. Watch this Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud
-orientation video to make sure you have everything you need to rock and roll with Endpoint Policy
-Manager Cloud.
+Lets get you set up right. Watch this Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud orientation video to make sure you have everything you need to rock and roll with Endpoint Policy Manager Cloud.
+
+<iframe width="560" height="315" src="https://youtu.be/aapXBfVyAME" title="Endpoint Policy Manager Cloud: What you need to get Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak Cloud: What you need to get Started
 

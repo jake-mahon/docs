@@ -45,8 +45,7 @@ This section provides a summary of the steps for gathering and uploading logs. S
 
 :::note
 If you do not see the GUI version of pplogs, you are not using the latest CSE. Endpoint
-Policy Manager support only accepts logs from machines with the latest CSE and latest pplogs zip
-files.
+Policy Manager support only accepts logs from machines with the latest CSE and latest pplogs zip files.
 :::
 
 
@@ -84,19 +83,14 @@ v25.4.
 Follow theses steps in order for support to troubleshoot most issues.
 
 :::note
-
-:::
-
-
 - Everything around your case involves the SRX number. Support case emails have SRX IDs like
   SRX01234. It is very important to include this SRX case number on the subject line.
 - In these examples, you will also collect log files and rename them and pre-pend file names with
   the case number as shown in the examples below.
-- Do not attach the log files to your email. Log files are uploaded to our support system. The URL
-  is provided when you initiate a case.
+- Do not attach the log files to your email. Log files are uploaded to our support system. The URL is provided when you initiate a case.
+:::
 
-**Step 1 –** Provide a detailed problem statement, including screenshots. Include the following in
-the problem statement:
+**Step 1 –** Provide a detailed problem statement, including screenshots. Include the following in the problem statement:
 
 - The PAK name and compiled with value.
 - The Client Side Extension (CSE) version you are using.
