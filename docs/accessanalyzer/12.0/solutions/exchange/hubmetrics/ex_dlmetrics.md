@@ -23,9 +23,9 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. DL Metrics – Creates the SA_EX_DLMetrics_Details table, accessible under the job’s Results
+-   **1. DL Metrics** – Creates the SA_EX_DLMetrics_Details table, accessible under the job’s Results
        node
--   2. Historical Metrics – Creates the SA_EX_DLMetrics_HistoricalStatistics table, accessible under
+-   **2. Historical Metrics** – Creates the SA_EX_DLMetrics_HistoricalStatistics table, accessible under
        the job’s Results node
 
 In addition to the tables and views created by the analysis tasks, the EX_DLMetrics Job produces the

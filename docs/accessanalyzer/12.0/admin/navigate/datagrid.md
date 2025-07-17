@@ -108,9 +108,9 @@ feature only works on one column at a time.
 
 Users can interact and search through data grids in the Results Pane.
 
-| ![Default Group By View](/img/product_docs/accessanalyzer/12.0/admin/navigate/datagridfunctionality9.webp) |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Default view                                                                                                                                 | Organized by Column Header                                                                                                                        |
+| ![Default Group By View](/img/product_docs/accessanalyzer/12.0/admin/navigate/datagridfunctionality8.webp) | ![Organized by Column Header](/img/product_docs/accessanalyzer/12.0/admin/navigate/datagridfunctionality9.webp)   |
+|:----------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
+| *Default view*                                                                                             | *Organized by Column Header*                                                                                      |
 
 To use this feature, drag a column header into the “Drag a column header here to group by that
 column” area. The data grid groups according to the data within that column. The sub-header provides

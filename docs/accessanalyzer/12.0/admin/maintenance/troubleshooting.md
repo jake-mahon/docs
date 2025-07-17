@@ -46,8 +46,8 @@ level to Debug** and restart the application.
 
 | Log Name                                            | Log Location                                                                                                                                                               |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SADebug (Access Analyzer Console)                   | `%sainstalldir%SADatabase\Logs\Application` SADebug Logs will be saved in the format: SADebug-[timestamp]-[PID].tsv                                                        |
-| Job Log (Access Analyzer Console)                   | Windows File Explorer Shortcut: `%sainstalldir%Jobs\Group_Name\Job_Name\Output\nameofjob.tsv` Console Shortcut: **Right click job** > **Explore folder** > `nameofjob.tsv` |
+| SADebug (Access Analyzer Console)                   | `%sainstalldir%SADatabase\Logs\Application`<br /> SADebug Logs will be saved in the format:<br /> SADebug-[timestamp]-[PID].tsv                                                        |
+| Job Log (Access Analyzer Console)                   | Windows File Explorer Shortcut:<br /> `%sainstalldir%Jobs\Group_Name\Job_Name\Output\nameofjob.tsv`<br /> Console Shortcut:<br /> **Right click job** > **Explore folder** > `nameofjob.tsv` |
 | ExchangePS logs (Access Analyzer Console)           | `%sainstalldir%PrivateAssemblies\GUID`                                                                                                                                     |
 | PowerShell Logs (Access Analyzer Console)           | `%sainstalldir%Jobs\SA_CommonData\PowerShell`                                                                                                                              |
 | PowerShell logs (Remote Host):                      | ` C:\Program Files(x86)\STEALTHbits\StealthAUDIT\Applet\Powershell\GUID`                                                                                                   |

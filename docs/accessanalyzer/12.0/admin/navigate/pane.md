@@ -119,9 +119,9 @@ selection, some menu items are grayed out.
 :::
 
 
-| ![Jobs Tree Primary Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane6.webp) |
-| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Jobs Tree Node                                                                                                                          | A Job Group Node                                                                                                                        | A Job Node                                                                                                                              |
+| ![Jobs Tree Primary Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane4.webp)  | ![Jobs Group Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane5.webp)  | ![Jobs Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane6.webp) |
+|:------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
+| *Jobs Tree Node*                                                                                         | *A Job Group Node*                                                                                       | *A Job Node*                                                                                            |
 
 Menu items include:
 
@@ -192,9 +192,9 @@ The Status node right-click menu items are:
 
 The [Job] > Status > [Table/View] nodes have the following right-click menu items:
 
-| ![Table/View Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane10.webp) |
-| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| ConnectStatus Table                                                                                                              | Job Stats & Task Stats Tables                                                                                                    | Messages Table                                                                                                                    |
+| ![Table/View Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane8.webp) | ![Table/View Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane9.webp)   | ![Table/View Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane10.webp) |
+|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
+| *ConnectStatus Table*                                                                           | *Job Stats & Task Stats Tables*                                                                   | *Messages Table*                                                                                |                                         
 
 These menu items apply to the ConnectStatus Tables, Job Stats and Task Stats Tables, and the
 Messages Table. Depending on the chosen selection, some menu items are grayed out. The menu items
@@ -272,9 +272,9 @@ The [Job] > Configure node right-click menu items are:
 The right-click menu items for the [Job] > Configure > [Configuration] node are the same right-click
 menus as those available within the job’s individual configuration views:
 
-| ![Configure-Configuration Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane16.webp) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Queries Node                                                                                                                                   | Analysis Node                                                                                                                                  | Actions Node                                                                                                                                   |
+| ![Queries Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane14.webp)   | ![Analysis Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane15.webp)     | ![Actions Nodes](/img/product_docs/accessanalyzer/12.0/admin/navigate/navigationpane16.webp)     |
+|:----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+| *Queries Node*                                                                                 | *Analysis Node*                                                                                   | *Actions Node*                                                                                   |
 
 Each configuration node has a different right-click menu. For additional information on each:
 

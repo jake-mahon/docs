@@ -103,9 +103,9 @@ information displays in the table on the Query Selection view. See the
 
 Use the Data Source tab to configure the data collector and query.
 
-| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourceexisting.webp) |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| New Query                                                                                                                                                                           | Existing Query                                                                                                                                                                                |
+| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourcenew.webp) | ![Data Source tab of Query Properties for existing Query](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatasourceexisting.webp)         |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| *New Query*                                                                                                                                       | *Existing Query*                                                                                                                                                    |
 
 The Data Source tab displays:
 
@@ -134,9 +134,9 @@ See the individual data collector section for configuration wizard page informat
 
 Use the Filters tab to include filters into the data collection process.
 
-| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilterswithfilter.webp) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| No FIlter                                                                                                                                                              | With FIlter                                                                                                                                                                                        |
+| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilters.webp) | ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/12.0/admin/datacollector/querypropertiesdatafilterswithfilter.webp)  |
+|:------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|
+| *No FIlter*                                                                                                                          | *With FIlter*                                                                                                                                   |
 
 The Filter tab has the following items:
 

@@ -10,10 +10,9 @@ Changes to configurations for the job’s assigned Host Lists, Queries, Analyses
 are created through the **[Job]** > **Configure** node or through the Configure shortcut on the
 job’s Description page.
 
-|                                                                                                                                              |                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Configure Node](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurelinkjobpage.webp) |
-| Configure Node                                                                                                                               | Configure link on job description page                                                                                                                                      |
+| ![Configure Node](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurenode.webp)    | ![Configure link on job description page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/configure/configurelinkjobpage.webp) | 
+|:-------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
+| *Configure Node*                                                                                        | *Configure link on job description page*                                                                                            |
 
 The sub-nodes under the **[Job]** > **Configure** node are:
 

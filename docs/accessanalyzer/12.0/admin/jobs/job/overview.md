@@ -47,9 +47,9 @@ profiles, job properties, SQL analysis parameters, and PowerShell parameters. D
 of job, the description page will appear different and display information specific to the job
 selected.
 
-| ![Pre-Configured Job Description page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/descriptionpagenewjob.webp) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pre-Configured Job                                                                                                                                                  | User-Created Job                                                                                                                                           |
+| ![Pre-Configured Job Description page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/descriptionpagepreconfigured.webp) | ![User-Created Job Description page](/img/product_docs/accessanalyzer/12.0/admin/jobs/job/descriptionpagenewjob.webp)   |
+|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
+| *Pre-Configured Job*                                                                                                           | *User-Created Job*                                                                                                      |
 
 The two types of Job Groups in Access Analyzer are:
 

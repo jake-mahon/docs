@@ -137,19 +137,17 @@ listed in the PasswordExpirationNotification_ExpiresWithin15Days table. The anal
 default. Therefore, when the job is executed the following message is sent to the specified
 recipient, such as the organization’s help desk, with information from the associated table:
 
-_Subject:_ Users with Passwords About To Expire
-
-**Support Team,**
-
-Heads-up.  The following users are facing password expiration in seven days or less:
-
-**[[ -- Password for [User] ([NTAccount]) expires in [DaysUntilExpiration] days**
-
-**]**
-
-Thank you,
-
-**Netwrix**
+> *Subject:* Users with Passwords About To Expire
+>
+> Support Team,
+>
+> Heads-up.  The following users are facing password expiration in seven days or less:
+>
+>**[ -- Password for [User] ([NTAccount]) expires in [DaysUntilExpiration] days]**
+>
+> Thank you,
+>
+> Netwrix
 
 :::warning
 Do not modify the tags, highlighted in bold text above.
@@ -210,17 +208,17 @@ PasswordExpirationNotification_ExpiresWithin15Days_UserNotifications table. The 
 default. Therefore, when the job is executed the following message is sent to all users in the
 associated table:
 
-_Subject:_ Attention **[User]** - Your Password Expires in **[DaysUntilExpiration]** Days
-
-Hello **[User]**,
-
-The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Please change the
-password prior to the expiration date.  If account profiles are used on mobile devices, please
-remember to update the password on each device used.
-
-**Thank you,**
-
-Netwrix
+> *Subject:* Attention **[User]** - Your Password Expires in **[DaysUntilExpiration]** Days
+>
+> Hello **[User]**,
+>
+> The password for the account **[NTAccount]** expires on **[ExpirationDate]**. Please change the
+> password prior to the expiration date.  If account profiles are used on mobile devices, please
+> remember to update the password on each device used.
+>
+> Thank you,
+>
+> Netwrix
 
 :::warning
 Do not change the recipient for the action task. While the tags can be moved, do not
