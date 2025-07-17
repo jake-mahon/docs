@@ -18,7 +18,7 @@ For that, configure **Update Field** as the automated action, using the Advanced
 3. In the Add Action dialog, from the Action Type list select **Update Field** in the **Content
    Server**.
 
-Then specify the following action parameters
+**Then specify the following action parameters**
 
 | Action parameter | Description                                                                                       | Comments                                                                                                 |
 | ---------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |

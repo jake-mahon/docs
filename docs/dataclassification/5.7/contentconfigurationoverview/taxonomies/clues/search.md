@@ -17,7 +17,10 @@ tab and configure search settings.
     - Clue type - select the required value from the **Type** list.
     - Clue itself (clue body) - enter the required keyword or phrase in the **Find** field.
 
-    **NOTE:** [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md)
+    :::note
+    [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/clues.md)
+    :::
+
 
 2. To restrict the search further, you can either add a **URL** filter, or add a custom filter by
    clicking **Add custom filter** link. This can be helpful when evaluating the usefulness of a clue
@@ -26,7 +29,10 @@ tab and configure search settings.
     - The URL filter must end on a folder boundary.
     - Use custom filter to specify a number of complex filters: boolean, datetime and numeric.
 
-    **NOTE:** Full description of all filters can be found in the API Reference Guide.
+    :::note
+    Full description of all filters can be found in the API Reference Guide.
+    :::
+
 
 3. To view how recent changes to the term will affect the document classifications, select Show
    document movements. As a result, the “movement” of the document since the last classification
@@ -34,6 +40,6 @@ tab and configure search settings.
 
 ![movementskey](/img/product_docs/dataclassification/5.7/admin/taxonomies/movementskey.webp)
 
-OR
+**OR**
 
 ![documentmovements_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/taxonomies/documentmovements_thumb_0_0.webp)

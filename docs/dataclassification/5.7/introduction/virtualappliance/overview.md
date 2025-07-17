@@ -19,10 +19,13 @@ The following configuration options available:
 - Generalized Windows Server 2022, 180-day evaluation version.
 - Generalized Windows Server 2019, 180-day evaluation version.
 
-**NOTE:** Consider Microsoft limits for evaluation versions of Windows Server. Provide a valid
+:::note
+Consider Microsoft limits for evaluation versions of Windows Server. Provide a valid
 license for Windows Server or ensure Internet connection to connect to Microsoft Licensing
 Activation Center and register your license. Refer to Microsoft article for more information:
 [Upgrade and conversion options for Windows Server](https://docs.microsoft.com/en-us/windows-server/get-started/supported-upgrade-paths).
+:::
+
 
 Furthermore, you can register your license by phone. See
 [Microsoft Licensing Activation Centers worldwide telephone numbers](https://www.microsoft.com/en-us/licensing/existing-customer/activation-centers)

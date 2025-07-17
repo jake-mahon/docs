@@ -13,7 +13,10 @@ On this step, you are prompted to restrict access to administrative web console 
 - Enable user management – select to add super users and prevent unauthorized access to
   administrative web console. By default, any authenticated users have access to the console.
 
-    **NOTE:** Netwrix recommends enabling this option.
+    :::note
+    Netwrix recommends enabling this option.
+    :::
+
 
     When selected, you are prompted to add super users. Type the name of the new user and click + on
     the right.

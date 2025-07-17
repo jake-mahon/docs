@@ -15,8 +15,11 @@ workflow (to start immediate processing). Do the following:
    **Enabled** option. Otherwise, you can select **Disabled** and change this settings later on
    using the UI.
 
-    **NOTE:** Documents that have already been classified will be re-classified before applying this
+    :::note
+    Documents that have already been classified will be re-classified before applying this
     automated workflow.
+    :::
+
 
     ![workflow_step4_name_settings_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/workflows/workflow_step4_name_settings_thumb_0_0.webp)
 

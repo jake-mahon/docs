@@ -29,7 +29,7 @@ See [this article](https://helpx.adobe.com/acrobat/using/pdf-properties-metadata
 
 Related content source settings can be configured at a global level (default), or at a source level.
 
-To configure tagging on a global level
+**To configure tagging on a global level**
 
 1. In the management console, click **Sources** →**File**, then in the left pane click Write
    Configuration.
@@ -47,7 +47,7 @@ To configure tagging on a global level
 | **Name/ID** or **Class** | Depending on the format, take the term labels, IDs or a combination of both                        | The corresponding Delimiter must be a string or array type, with a maximum length of 3. |
 | **Prefix/** **Suffix**   | Will be appended to the formatted string of classifications.                                       |                                                                                         |
 
-Example
+**Example**
 
 Assume you selected the _Agriculture_ taxonomy; it has _Farming_ (_ClassID: 11_) and _Produce_
 (_ClassID: 32_) properties.
@@ -58,7 +58,7 @@ classifications attributes to the classified documents:
 - Property Name: _Agriculture_
 - Property Value: _[Farming|11;Produce|32]_
 
-To configure tagging on a source level
+**To configure tagging on a source level**
 
 1. Go to **Sources** → **General**, highlight the source you need and click the "pencil" symbol on
    the right.
@@ -86,7 +86,10 @@ To specify inclusions, do the following:
 3. To modify an extension (for example, add a wildcard), click **Edit**. To add a new one, click
    **Add**.
 
-**NOTE:** Inclusions are case-insensitive. A wildcard (\*) is supported.
+:::note
+Inclusions are case-insensitive. A wildcard (\*) is supported.
+:::
+
 
 ![nfs_inclusions_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/nfs_inclusions_thumb_0_0.webp)
 
@@ -110,7 +113,10 @@ You can also configure the list of file locations to exclude from processing.
 
     - _\*/Restricted Folder/\*_ will exclude specific folder in any File source
 
-**NOTE:** Exclusions are case-insensitive.
+:::note
+Exclusions are case-insensitive.
+:::
+
 
 ![file_exclusion_filter_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/filesystem/file_exclusion_filter_thumb_0_0.webp)
 

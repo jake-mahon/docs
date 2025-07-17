@@ -95,7 +95,10 @@ The mandatory clue selector is denoted by the \* icon:
 In some cases, a further option will be available per clue: “**Is Local?**”. This option allows the
 user to restrict a clue purely to the current Term Set.
 
-**NOTE:** This option is only available for reused terms (SharePoint Term Sets).
+:::note
+This option is only available for reused terms (SharePoint Term Sets).
+:::
+
 
 ![localclue](/img/product_docs/dataclassification/5.7/admin/taxonomies/localclue.webp)
 
@@ -106,7 +109,10 @@ user to restrict a clue purely to the current Term Set.
 
 ## Using Synonyms (SQL taxonomies only)
 
-**NOTE:** The **Synonyms** link is only available for the clues in SQL taxonomies.
+:::note
+The **Synonyms** link is only available for the clues in SQL taxonomies.
+:::
+
 
 The Synonyms link can be used to enter synonym definitions.
 

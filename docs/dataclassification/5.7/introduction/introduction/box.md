@@ -29,9 +29,12 @@ Box management portal.
    custom apps and Box API, refer to
    [this article](https://developer.box.com/guides/authentication/sso/).
 
-**NOTE:** Account with multi-factor authentication will be required for private/public keys creation
+:::note
+Account with multi-factor authentication will be required for private/public keys creation
 and usage, so if such authentication is not enabled, the program will display a warning message and
 suggest to configure the necessary settings.
+:::
+
 
 ## Procedure Steps
 
@@ -69,12 +72,15 @@ on the Netwrix Data Classification side and described in the
 11. Then you should create a public/private key pair to authenticate the JWT requests made by your
     app. Navigate to Add and Manage Public Keys and select Generate a Public/Private Keypair.
 
-    **NOTE:** If you have not enabled two-factor authentication for the app account in advance, you
+    :::note
+    If you have not enabled two-factor authentication for the app account in advance, you
     will be prompted to do it. Click **Settings**, then in the **Account Settings**, navigate to
     **Authentication**. Select **Require 2-step verification to protect your account**, then provide
     the necessary information in the **Enable Login Verification** dialog and complete the
     verification. When finished, get back to the **Configuration** section, clicking the related
     item in the left pane.
+    :::
+
 
     ![box_keys](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/box_keys.webp)
 
@@ -89,7 +95,10 @@ on the Netwrix Data Classification side and described in the
 2. Navigate to **App Authorization** and click **Submit for Authorization**. In the dialog
    displayed, review the settings.
 
-**NOTE:** If you are a Box administrator, copy the **Client ID** and store it to a safe location.
+:::note
+If you are a Box administrator, copy the **Client ID** and store it to a safe location.
+:::
+
 
 3. Click **Submit** to send a request to Box administrator.
 

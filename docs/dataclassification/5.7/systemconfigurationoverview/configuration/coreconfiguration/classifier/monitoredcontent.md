@@ -12,8 +12,11 @@ conditions are met, or with a minimum time period between runs.
 
 ![core_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/core_thumb_0_0.webp)
 
-**NOTE:** Each option in this section has an associated “**i**” which describes the nature of the
+:::note
+Each option in this section has an associated “**i**” which describes the nature of the
 setting.
+:::
+
 
 | Option                                     | Description                                                                                                                | Comment                                                                                                         |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |

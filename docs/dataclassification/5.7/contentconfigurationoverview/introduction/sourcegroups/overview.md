@@ -51,8 +51,11 @@ By going to the Settings of the Source Group, you can:
   these options for all sources in this group using the "Apply changes to all sources in Source
   Group" option.
 
-    **NOTE:** The Apply changes to all sources in Source Group option is available when you have
+    :::note
+    The Apply changes to all sources in Source Group option is available when you have
     more than one source in a source group.
+    :::
+
 
     ![source_groups_settings](/img/product_docs/dataclassification/5.7/admin/sources/sourcegroups/source_groups_settings.webp)
 

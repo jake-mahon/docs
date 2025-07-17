@@ -22,8 +22,11 @@ processing. Do the following:
     - Wrapping the exclusion in wildcard indicators (e.g. “\*Deleted\*”) will match any folder/email
       with “Deleted” somewhere in the title.
 
-    **NOTE:** You can optionally enter exclusion location in the **Test Path** field to verify the
+    :::note
+    You can optionally enter exclusion location in the **Test Path** field to verify the
     new filter, and click **Test**.
+    :::
+
 
 5. If needed, you can use metadata conditions to restrict when an exclusion filter should be
    applied. For that, click **Condition** tab and click **Add**. Then select how the exclusion

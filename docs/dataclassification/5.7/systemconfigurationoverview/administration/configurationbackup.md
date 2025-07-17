@@ -6,7 +6,10 @@ sidebar_position: 20
 
 # Configuration Backup
 
-**NOTE:** Only available for ‘Superusers’
+:::note
+Only available for ‘Superusers’
+:::
+
 
 The Backup utility allows for the migration of complex Netwrix Data Classification instance
 configurations.
@@ -44,8 +47,11 @@ Follow the steps to create configuration backup.
 **Step 3 –** Click **Create Backup** and select the elements that you wish to include (sources,
 SharePoint taxonomies, or workflows).
 
-**NOTE:** The backup password will be required if you export a backup to XML and re-import to a
+:::note
+The backup password will be required if you export a backup to XML and re-import to a
 different environment. This option is required on **Upload Backup** step.
+:::
+
 
 **Step 4 –** Click **Save**.
 

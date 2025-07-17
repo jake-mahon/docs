@@ -27,8 +27,6 @@ To deploy Remote Event Receivers:
 
 3. Select **Save**.
 
-**NOTE:** You can select **Test** to validate and compare the correctness of the path you enter.
-
-d
-
-**NOTE:** d
+:::note
+You can select **Test** to validate and compare the correctness of the path you enter.
+:::

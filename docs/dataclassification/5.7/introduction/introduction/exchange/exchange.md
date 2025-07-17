@@ -64,8 +64,11 @@ this Role as well.
     New-ManagementRoleAssignment –Name "NetwrixCrawlerSearch" –Role "Mailbox Search" –User
     ADMINUSERNAME
 
-**NOTE:** If crawling Microsoft Office 365 for Small Business or many hosted Exchange systems, then
+:::note
+If crawling Microsoft Office 365 for Small Business or many hosted Exchange systems, then
 it is not possible to setup Application Impersonation.
+:::
+
 
 ## Modern Authentication
 
@@ -73,7 +76,10 @@ Starting with version 5.5.3, Netwrix Data Classification allows for crawling Mic
 Online organization mailboxes using Modern authentication. For that, it uses an Azure AD application
 which can leverage Microsoft API to connect to Exchange Online organization.
 
-**NOTE:** To access via Modern Authentication, you need to use an admin username.
+:::note
+To access via Modern Authentication, you need to use an admin username.
+:::
+
 
 You should configure sufficient permissions that will allow the crawling account to impersonate the
 mailboxes that you wish to crawl. This requires the setup of two permissions:

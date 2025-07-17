@@ -92,11 +92,11 @@ without, these characters.
 
 Therefore, a search for:
 
-"fleur de lys"
+**"fleur de lys"**
 
 will always match with a document containing:
 
-"fleur-de-lys"
+**"fleur-de-lys"**
 
 but not vice versa.
 
@@ -112,11 +112,11 @@ Netwrix Data Classification provides full support for diacritics (aka accented c
 In all cases the accented characters are mapped to their closest standard letter and searches are
 always insensitive to diacritics, so that a search for:
 
-"fitchée"
+**"fitchée"**
 
 will match with:
 
-"fitchee"
+**"fitchee"**
 
 and vice versa.
 
@@ -144,7 +144,7 @@ duplicated consonants. The advantage of this technique is that is improves recal
 of precision since duplicated consonants are largely redundant in word matching. Enabling this
 option (set StemmingMode=1 in the Config table) will cause the following words to match:
 
-accelerate with
+**accelerate with**
 
 - accellerate
 - acelerate
