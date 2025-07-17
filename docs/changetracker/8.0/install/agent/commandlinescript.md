@@ -53,5 +53,5 @@ These parameters are not case sensitive.
 
 
 For more information on the **HubDetails.xml** nodes and settings see the
-[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run-hubdetailsxml-file)
+[First Run – HubDetails.xml File](/docs/changetracker/8.0/admin/settingstab/devicegroups.md#first-run--hubdetailsxml-file)
 topic for additional information.
