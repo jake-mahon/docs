@@ -5,10 +5,10 @@ sidebar_position: 20
 ---
 # Browser Router now supports Chrome on Non-Domain Joined machines
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CGsKr4_aBFs" title="Endpoint Policy Manager: Browser Router now supports Chrome on Non-Domain Joined machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 If you are using PP Cloud and PP Browser router, this is the video to see how to enable Chrome to
 "Other" browser routing. (Chrome to FF, Chrome to IE, Chrome to Edge, etc.)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CGsKr4_aBFs" title="Endpoint Policy Manager: Browser Router now supports Chrome on Non-Domain Joined machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 ### PolicyPak: Browser Router now supports Chrome on Non-Domain Joined machines
 

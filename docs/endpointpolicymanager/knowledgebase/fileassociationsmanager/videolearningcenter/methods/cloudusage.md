@@ -5,11 +5,11 @@ sidebar_position: 40
 ---
 # Using File Association Manager in the Endpoint Policy Manager Cloud environment
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DQt5Dkv2YBc" title="Using File Association Manager in the Endpoint Policy Manager Cloud environment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
-
 When you don't have a "Fake DC" to create file association policies on-prem to export to the cloud,
 Endpoint Policy Manager's File Association Manager Helper utility can be used to create the desired
 associations on a sample workstation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DQt5Dkv2YBc" title="Using File Association Manager in the Endpoint Policy Manager Cloud environment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
 
 Hi, this is John at Endpoint Policy Manager, and in this video, we're going to take a look at
 setting up File Association Manager in the cloud. I have here my non-domain joined machine here, and
