@@ -10,11 +10,11 @@ Using this API, you can join a group as per the specified membership type.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/Join
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/Join**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

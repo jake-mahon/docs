@@ -155,7 +155,7 @@ in the context of the account specified here.
 - The User name and Password boxes display the credentials of the account used to connect to the
   site. You can connect using a different account by providing the credentials of that account.
 
-    Or
+**Or**
 
 - Select the **Use Identity Store Service Account** check box to use the service account specified
   for the identity store to connect to the site.

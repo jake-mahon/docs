@@ -10,11 +10,11 @@ This API updates multiple Smart Groups whose identities are provided in the requ
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/SmartGroups/Update
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/SmartGroups/Update**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

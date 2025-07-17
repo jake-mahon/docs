@@ -21,16 +21,25 @@ custom group-by attributes to expand the Dynasty levels to suit your organizatio
 also combine an external data source with the templates to provide extended criteria for determining
 group membership.
 
-NOTE: Settings related to Dynasty membership are configured at the identity store level.
+:::note
+Settings related to Dynasty membership are configured at the identity store level.
+:::
 
-NOTE: Do not move a Dynasty from one domain to another. Child Dynasties would get orphaned and
+
+:::note
+Do not move a Dynasty from one domain to another. Child Dynasties would get orphaned and
 subsequently deleted.
+:::
 
-NOTE: You cannot create mail-enabled Dynasties of the Office 365 group type in a Microsoft Entra ID
+
+:::note
+You cannot create mail-enabled Dynasties of the Office 365 group type in a Microsoft Entra ID
 based identity store, since an Office 365 group cannot have groups as its members. Only non
 mail-enabled Dynasties of the security group type are supported.
+:::
 
-Naming conventions for Child Dynasties
+
+**Naming conventions for Child Dynasties**
 
 Dynasty names help you group a parent Dynasty with its respective child Dynasties.
 
@@ -47,12 +56,15 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
 To modify the display name template for child Dynasties, see
 [Modify alias and display name templates](/docs/directorymanager/11.1/portal/group/workingwithgroups/dynastyfunction.md#modify-alias-and-display-name-templates).
 
-NOTE: In the Dynasty creation/update process, a child Dynasty will not be created if it bears the
+:::note
+In the Dynasty creation/update process, a child Dynasty will not be created if it bears the
 same name as that of an existing object in the directory. For example, when you create a custom
 Dynasty, test1, on one attribute, SamAccountName, it’s child Dynasties would be named as
 test1-Robert, test1-John, and so on. However, if test1-Robert already exists as a user object,
 Directory Manager will skip the test1-Robert child Dynasty and continue to create the rest of the
 Dynasty.
+:::
+
 
 ## Create a Dynasty using the Organizational/Geographical/Custom template
 
@@ -63,8 +75,11 @@ Follow the steps to create a dynasty using the the Organizational/Geographical/C
 
     The **Create Group** wizard opens to the **Group Type** page.
 
-    NOTE: Pages and fields on the wizard may vary, since the administrator can customize the wizard
+    :::note
+    Pages and fields on the wizard may vary, since the administrator can customize the wizard
     by adding or removing pages and fields.
+    :::
+
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Organizational Dynasty**,
    **Geographical Dynasty**, or **Custom Dynasty** option button and click **Next**.
@@ -90,12 +105,15 @@ Follow the steps to create a dynasty using the the Organizational/Geographical/C
 6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
    owners for the Dynasty.
 
-    NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
+    :::note
+    (1) Additional owners are only set for the parent and are not inherited by child Dynasties
     during update.  
-     (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
-     Even when the **Do not Notify** check box is selected, the additional owner will receive the
+    (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
+    Even when the **Do not Notify** check box is selected, the additional owner will receive the
     notifications if the administrator has included its email address for job-specific
     notifications.
+    :::
+
 
 7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click Finish to complete the wizard.
@@ -109,8 +127,11 @@ Follow the steps to create a Dynasty using the Managerial template.
 
     The **Create Group** wizard opens to the **Group Type** page.
 
-    NOTE: Pages and fields on the wizard may vary, since the administrator can customize the wizard
+    :::note
+    Pages and fields on the wizard may vary, since the administrator can customize the wizard
     by adding or removing pages and fields.
+    :::
+
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Managerial Dynasty** option
    button and click **Next**.
@@ -137,16 +158,19 @@ Follow the steps to create a Dynasty using the Managerial template.
 6. On the [Owners page](/docs/directorymanager/11.1/portal/group/create/AD/owners.md), specify primary and additional
    owners for the Dynasty.
 
-    NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
+    :::note
+    (1) Additional owners are only set for the parent and are not inherited by child Dynasties
     during update.  
-     (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
-     Even when the **Do not Notify** check box is selected, the additional owner will receive the
+    (2) When a Smart Group Update job runs on a group, the notification behavior is as follows:  
+    Even when the **Do not Notify** check box is selected, the additional owner will receive the
     notifications if the administrator has included its email address for job-specific
     notifications.  
-     (3) If you have selected the **Set Manager as owner** option on the **Dynasty Options** page,
+    (3) If you have selected the **Set Manager as owner** option on the **Dynasty Options** page,
     the top manager would be displayed as the primary owner instead of the logged-in user.  
-     In case you change the owner, the new recipient would be the Dynasty’s primary owner even if
+    In case you change the owner, the new recipient would be the Dynasty’s primary owner even if
     the **Set Manager as owner** check box is selected.
+    :::
+
 
 7. On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and
    then click Finish to complete the wizard.

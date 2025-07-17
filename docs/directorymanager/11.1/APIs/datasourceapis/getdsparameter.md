@@ -10,11 +10,11 @@ Using this API, you can retrieve parameters information of a data source specifi
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetDataSourceParameter/{DatasourceId}
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetDataSourceParameter/{DatasourceId}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

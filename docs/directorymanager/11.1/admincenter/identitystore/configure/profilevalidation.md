@@ -32,16 +32,22 @@ When performing profile validation, a user can:
   the request. If any of them accepts it, the user’s manager is changed. If any approver rejects it,
   the user remains with Manager A.
 
-    NOTE: This is the default flow of the _change manage_ workflow for the identity store. If the
+    :::note
+    This is the default flow of the _change manage_ workflow for the identity store. If the
     administrator disables the workflow or changes the approver, the flow changes accordingly.
+    :::
+
 
 - Transfer his or her direct reports to another manager - When a user transfers his or her direct
   report, the new manager is notified by email to accept or reject the transfer. If the manager
   accepts it, the direct report is transferred to him or her. If the manager rejects the transfer,
   the direct report remains with the old manager.
 
-    NOTE: This is the default flow of the _transfer a user_ workflow for the identity store. If the
+    :::note
+    This is the default flow of the _transfer a user_ workflow for the identity store. If the
     administrator disables the workflow or changes the approver, the flow changes accordingly.
+    :::
+
 
 - Terminate his or her direct reports - When a user terminates his or her direct report, it takes
   effect immediately when the _terminate a user_ workflow is disabled. If enabled, a request is sent
@@ -78,16 +84,6 @@ function in Directory Manager. It:
 - Deletes the profile validation date if it is x number of days old, provided that the ‘Clear the
   validation data for disabled users, x number of days after they are disabled’ setting is applied.
 
-What do you want to do?
-
-- Specify a Group for Profile Validation
-- Set a Profile Validation Life Cycle Period
-- Specify a Profile Validation Period for New Users
-- Specify a Duration for the Extension Period
-- Specify Reminder Notification Settings
-- Identify User Accounts Expired due to Non-Profile Validation
-- Apply Settings to Clear the Validation Date
-
 ## Specify a Group for Profile Validation
 
 By default, profile validation is not enabled for an identity store, and therefore does not apply to
@@ -108,7 +104,7 @@ required to validate their profiles. Only one group can be specified at a time.
     - Type a search string in the box. Directory Manager displays all groups with names that start
       with the string. Click **Select** for a group to select it for profile validation.
 
-        Or
+**Or**
 
     - Click **Advanced** to search a group by different parameters, such as name, display name, and
       description. Enter a search string and click **Search**. Groups matching the string are

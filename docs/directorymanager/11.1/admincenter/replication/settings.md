@@ -18,9 +18,12 @@ On every successful run of the Replication service, Directory Manager generates 
 status of object types for each domain in an identity store and alerts you to any errors that may
 have occurred during the replication process.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the
+:::note
+The Replication service does not replicate excluded domains for an identity store. See the
 [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.1/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
+:::
+
 
 ### How to Resolve Replication Errors
 

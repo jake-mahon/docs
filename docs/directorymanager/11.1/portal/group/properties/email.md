@@ -35,4 +35,7 @@ along with the group’s primary owner and additional owners. See
   search.
 - To remove an Exchange additional owner, select it and click **Remove**.
 
-NOTE: Only mail-enabled users can be designated as Exchange additional owners.
+:::note
+Only mail-enabled users can be designated as Exchange additional owners.
+
+:::

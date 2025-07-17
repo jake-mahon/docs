@@ -24,7 +24,10 @@ can choose the object attributes you actually want to use in an identity store. 
 [Specify Object Attributes to Replicate](/docs/directorymanager/11.1/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate)
 topic for details.
 
-NOTE: For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
+:::note
+For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
+:::
+
 
 The Schema Replication schedule runs in the context of the super admin account in the Directory
 Manager provider. You cannot create or delete a Schema Replication schedule; only update the
@@ -65,8 +68,11 @@ Please note the following while selecting a Scheduler service:
 - If a schedule is run manually on the Admin Center, then the Scheduler service of that instance
   will be used.
 
-**CAUTION:** In case of multiple Scheduler services, you must bind the same service with the Schema
+:::warning
+In case of multiple Scheduler services, you must bind the same service with the Schema
 Replication schedules in all the identity stores.
+:::
+
 
 Step 7 – The Triggers area displays the default triggering frequency for the schedule.
 

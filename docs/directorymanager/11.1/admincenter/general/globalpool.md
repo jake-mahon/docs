@@ -12,11 +12,6 @@ authentication. You can update this list by adding or removing questions.
 When an identity store is created, four questions from this global pool are automatically added to
 the identity store's local question pool. This pool is not shared with other identity stores.
 
-What do you want to do?
-
-- Add a Question to the Question Pool
-- Remove a Question from the Question Pool
-
 ## Add a Question to the Question Pool
 
 1. In Admin Center, click **Settings** at the bottom of the left navigation pane.
@@ -38,9 +33,3 @@ To search for a security question in the list, enter a search string in the sear
 3. On the **Question Pool** tab, click **Delete** for a question to delete it.
 4. Click **Delete** on the **Delete Question** dialog box.  
    Deleting a question does not impact the users currently enrolled with the question.
-
-**See Also**
-
-- [Set up Authentication via Security Questions](/docs/directorymanager/11.1/admincenter/authpolicy/setupauth/securityquestions.md)
-- [Directory Manage Password Policy ](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md)
-- [Manage the Local Question Pool](/docs/directorymanager/11.1/admincenter/identitystore/configure/securityquestions.md)

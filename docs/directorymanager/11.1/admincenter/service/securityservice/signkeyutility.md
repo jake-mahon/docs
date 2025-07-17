@@ -45,7 +45,10 @@ folder.
 Using Netwrix Directory Manager (formerly GroupID) Signing Key Utility you can generate a new
 signing key.
 
-RECOMMENDED: Generate the new signing key on your Directory Manager server machine.
+:::info
+Generate the new signing key on your Directory Manager server machine.
+:::
+
 
 Follow the steps to generate a new signing key.
 
@@ -79,7 +82,7 @@ store, except the Microsoft Entra ID store.
 SigningKeyUtility.exe UpdateSchedulers -u “<DB username>” -s “<SQLServer name>” -d “<DB name>” -i
 ```
 
-Parameters
+**Parameters**
 
 - Use the same parameters given in the Generate a SigningKey section.
 
@@ -93,7 +96,7 @@ Windows Command prompt to export the signing key in .pfx. encrypted format with 
 SigningKeyUtility.exe ExportSigningKey -o “<Folder location for signingkey export>”
 ```
 
-Parameters
+**Parameters**
 
 - -o — provide folder location where the utility will export the signing key
 
@@ -111,7 +114,7 @@ SigningKeyUtility.exe ImportSigningKey -n “<Folder location of encryption key>
 
 Provide the password for SQL server authentication.
 
-Parameters
+**Parameters**
 
 - -n — provide folder location to import the encrypted signing key from
 

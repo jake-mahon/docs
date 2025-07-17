@@ -10,11 +10,11 @@ Use this API to get information of a single user.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users/{userIdentity}
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users/{userIdentity}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

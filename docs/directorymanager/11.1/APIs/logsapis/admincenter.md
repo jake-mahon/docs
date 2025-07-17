@@ -11,11 +11,11 @@ for additional information.
 
 ## Endpoint
 
-https://machinename:4443/AdminCenter/api/Logs/Download
+**https://machinename:4443/AdminCenter/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

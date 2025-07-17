@@ -59,13 +59,19 @@ You can license Directory Manager under one or more of these license types:
 
 A license is valid for a period of 12 months.
 
-NOTE: All the above licenses are also available for a trial period.
+:::note
+All the above licenses are also available for a trial period.
+:::
 
-NOTE: Licenses for certain add-ons are dependent on other licenses, such as the Group Attestation
+
+:::note
+Licenses for certain add-ons are dependent on other licenses, such as the Group Attestation
 license is dependent on the Group Usage Service license, which in turn is dependent on the Group
 Management license.
+:::
 
-What happens when your license expires
+
+**What happens when your license expires**
 
 When a license expires, its respective functions get read-only but you can configure certain
 settings, such as create identity stores, create data sources, and define replication settings.
@@ -108,7 +114,10 @@ licenses.
 
 On removing a license, users lose all access to the functionality covered under the license.
 
-NOTE: A dependent license is rendered ineffective when you remove its parent license.
+:::note
+A dependent license is rendered ineffective when you remove its parent license.
+:::
+
 
 To remove a license:
 

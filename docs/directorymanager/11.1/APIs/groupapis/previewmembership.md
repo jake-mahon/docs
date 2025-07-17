@@ -11,11 +11,11 @@ per the query given in the body.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/SmartGroups/Members?sortOrder=1&pageNo=1&pageSize=2
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/SmartGroups/Members?sortOrder=1&pageNo=1&pageSize=2**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

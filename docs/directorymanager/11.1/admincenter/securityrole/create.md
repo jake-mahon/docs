@@ -19,13 +19,16 @@ To create a security role for an identity store, you have to specify the followi
 You can create a role from scratch or by copying an existing role. See the
 [Security Roles](/docs/directorymanager/11.1/admincenter/securityrole/overview.md) topic for additional information on security roles.
 
-NOTE: You can disable a role to prevent its members from accessing Directory Manager. To prevent an
+:::note
+You can disable a role to prevent its members from accessing Directory Manager. To prevent an
 individual role member from accessing Directory Manager, you must remove him or her from the group
 or container specified as role criteria.
+:::
+
 
 ## Create a Security Role from Scratch
 
-Follow the steps to create a security role
+**Follow the steps to create a security role**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -63,7 +66,7 @@ topic.
 You can use a security role as a template to create a new role. In this case, the criteria,
 permissions, and policies of the template role are copied to the new role.
 
-Follow the steps to copy a role
+**Follow the steps to copy a role**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

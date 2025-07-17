@@ -12,11 +12,11 @@ information on Replication service.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDReplicationService/api/Logs/Download
+**https://demomachine:4443/GroupIDReplicationService/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

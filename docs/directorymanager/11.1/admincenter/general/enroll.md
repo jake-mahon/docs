@@ -119,6 +119,9 @@ Step 3 – Select an authentication type to enroll your account with.
     2. Enter a name for your authentication device in the box and click **Start Registration**. You
        will be prompted to provide your biometric information using the configured biometric device.
 
-NOTE: YubiKey and Windows Hello have issues with enrollment in browsers. To resolve this issue,
+:::note
+YubiKey and Windows Hello have issues with enrollment in browsers. To resolve this issue,
 configure a TLS certificate on your machine. Without a TLS certificate, YubiKey and Windows Hello
 will only work with the Firefox browser, as only Firefox allows WebAuthn without a TLS certificate.
+
+:::

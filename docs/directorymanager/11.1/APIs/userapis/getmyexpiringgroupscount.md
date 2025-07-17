@@ -10,11 +10,11 @@ This API retrieves the number of expiring groups of the authenticate user.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/Expiring/count?includeAdditionalOwnershipGroups=true&includeNestedOwnershipGroups=true&searchMode=0
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/Expiring/count?includeAdditionalOwnershipGroups=true&includeNestedOwnershipGroups=true&searchMode=0**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

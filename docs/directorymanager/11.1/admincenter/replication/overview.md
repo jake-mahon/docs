@@ -36,8 +36,11 @@ Synchronize history is saved to Elasticsearch when Active Directory, Microsoft E
 LDAP, or Google Workspace is the destination provider in the respective Synchronize job. This
 history is replicated to the Directory Manager database by the Data s ervice.
 
-NOTE: The **Recycle Bin** in the Directory Manager portal fetches data from the directory server and
+:::note
+The **Recycle Bin** in the Directory Manager portal fetches data from the directory server and
 not from Elasticsearch.
+:::
+
 
 ## Replication Settings
 
@@ -51,9 +54,12 @@ specific to an identity store.
 - For an identity store, you can specify the object attributes the service should replicate to
   Elasticsearch. See the [Manage Local Replication Settings](/docs/directorymanager/11.1/admincenter/identitystore/replication.md) topic.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the
+:::note
+The Replication service does not replicate excluded domains for an identity store. See the
 [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.1/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
+:::
+
 
 ## Replication Service Logs
 

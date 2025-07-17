@@ -11,11 +11,11 @@ Use this API to get Directory Manager portal logs. See the
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDPortal/api/Logs/Download
+**https://demomachine:4443/GroupIDPortal/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

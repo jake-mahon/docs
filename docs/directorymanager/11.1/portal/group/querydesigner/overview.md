@@ -61,29 +61,32 @@ Select an option to specify the type of object to include in the membership of t
 
 - **Users, Contacts, and Groups** - Any user, contact, or group, whether mail-enabled or not.
 
-NOTE: The _Computers_ and _Contact_ object types are not supported in a Microsoft Entra ID identity
+:::note
+The _Computers_ and _Contact_ object types are not supported in a Microsoft Entra ID identity
 store.
+:::
+
 
 **Start in**
 
 Click this button to select the containers to search in. The query would search for objects only in
 this container and its sub-containers to determine a group’s membership.
 
-Preview
+**Preview**
 
 Enables you to preview the results returned with the criteria specified on all tabs of the Query
 Designer dialog box. This is a check to ensure the accuracy of data before changes are committed to
 the directory.
 
-OK
+**OK**
 
 Saves settings and closes the dialog box.
 
-Cancel
+**Cancel**
 
 Discards settings and closes the dialog box.
 
-LDAP Query
+**LDAP Query**
 
 View the provider query in the LDAP Query box.
 
@@ -100,5 +103,8 @@ The Query Designer has the following tabs:
 - [Query Designer - Password Expiry Options tab](/docs/directorymanager/11.1/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/docs/directorymanager/11.1/portal/group/querydesigner/passwordexpiryoptions.md)
   (only available for Smart Groups with a password expiry condition)
 
-NOTE: The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID
+:::note
+The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID
 identity store.
+
+:::

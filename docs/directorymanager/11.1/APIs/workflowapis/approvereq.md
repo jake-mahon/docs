@@ -10,11 +10,11 @@ Using this API you can approve a specified workflow request.
 
 ## Endpoint
 
-https://machinename4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Approve
+**https://machinename4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Approve**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

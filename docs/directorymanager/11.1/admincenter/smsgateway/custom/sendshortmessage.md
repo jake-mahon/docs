@@ -18,7 +18,7 @@ Sends text messages to the target mobile phone numbers.
 SendSmsMessageResult SendShortMessage(ShortMessage shortMessage);
 ```
 
-Parameters
+**Parameters**
 
 **ShortMessage**
 

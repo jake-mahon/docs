@@ -11,11 +11,11 @@ SQL data source with a specific id.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetByType/{dataSourceTypeId}
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetByType/{dataSourceTypeId}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

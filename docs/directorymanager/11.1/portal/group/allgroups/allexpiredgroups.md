@@ -10,7 +10,7 @@ This page lists expired groups. A group expires when:
 
 - Its validity period, as defined in its expiration policy, ends.
 
-    OR
+**OR**
 
 - The administrator manually designates a group as expired.
 

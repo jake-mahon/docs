@@ -19,8 +19,11 @@ update process:
   Update command, Directory Manager obtains the query results, adds the objects to include, and then
   removes the objects to exclude.
 
-NOTE: For best performance, use query criteria to include or exclude objects as opposed to
+:::note
+For best performance, use query criteria to include or exclude objects as opposed to
 statically selecting the objects using this tab.
+:::
+
 
 **Include**
 
@@ -33,20 +36,20 @@ are imported to the membership of this group using the portal's import feature. 
 Displays the list of objects to exclude from group membership. Use the **Add** and **Remove**
 buttons to modify this list.
 
-Preview
+**Preview**
 
 Enables you to preview the results returned with the criteria specified on all tabs of the Query
 Designer dialog box. This is a check to ensure the accuracy of data before changes are committed to
 the directory.
 
-OK
+**OK**
 
 Saves settings and closes the dialog box.
 
-Cancel
+**Cancel**
 
 Discards settings and closes the dialog box.
 
-LDAP Query
+**LDAP Query**
 
 View the provider query in the LDAP Query box.

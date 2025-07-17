@@ -9,8 +9,11 @@ sidebar_position: 10
 Admin Center provides a variety of options to helpdesk users for resetting passwords and then
 communicating them to users.
 
-NOTE: You can reset passwords of unenrolled users if (a) the **Reset Any Password** permission has
+:::note
+You can reset passwords of unenrolled users if (a) the **Reset Any Password** permission has
 been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
+:::
+
 
 Helpdesk users may have to authenticate end users before resetting their passwords. See the
 [Helpdesk Policy ](/docs/directorymanager/11.1/admincenter/helpdesk/overview.md#helpdesk-policy) topic.
@@ -107,8 +110,11 @@ See the [Helpdesk Policy](/docs/directorymanager/11.1/admincenter/securityrole/p
            app and enter it in the box.
         2. Click **Verify**.
 
-    NOTE: Helpdesk cannot authenticate users with the Link Account, YubiKey, and Windows Hello
+    :::note
+    Helpdesk cannot authenticate users with the Link Account, YubiKey, and Windows Hello
     authentication types.
+    :::
+
 
 5. Click **Next**.
 6. On the **Reset** page, you can reset the password. Follow step 4 and onwards in the Reset

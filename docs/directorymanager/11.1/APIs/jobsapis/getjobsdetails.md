@@ -10,11 +10,11 @@ Use this API to get details of a job specified in endpoint URL.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs/{jobId}/Details
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs/{jobId}/Details**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

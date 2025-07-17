@@ -51,8 +51,11 @@ schedule:
 - Directory Manager takes a backup of the group’s membership.
 - It empties out the group’s membership in Office 365.
 
-    NOTE: When an Office 365 group is expired, its member list is backed up in the database and
+    :::note
+    When an Office 365 group is expired, its member list is backed up in the database and
     cleared from Office 365.
+    :::
+
 
 On renewing an expired distribution group, the following happens:
 
@@ -76,10 +79,16 @@ deleted groups as:
 
 Both types are locked for further operations until restored.
 
-NOTE: While all searches in Directory Manager are catered through Elasticsearch, the Recycle Bin is
+:::note
+While all searches in Directory Manager are catered through Elasticsearch, the Recycle Bin is
 an exception; it fetches data from the directory.
+:::
 
-NOTE: The Recycle Bin does not display data for a Microsoft Entra ID identity store.
+
+:::note
+The Recycle Bin does not display data for a Microsoft Entra ID identity store.
+:::
+
 
 ### Physical Deletion
 

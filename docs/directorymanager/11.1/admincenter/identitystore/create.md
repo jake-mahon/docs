@@ -58,9 +58,12 @@ Skip this box for a gMSA.
 
 Step 8 – Select the **SSL Enabled** check box if the directory server is LDAP over SSL enabled.
 
-NOTE: Directory Manager 11 supports LDAPS; however, the Replication Service will still connect to
+:::note
+Directory Manager 11 supports LDAPS; however, the Replication Service will still connect to
 the domain controller via the LDAP 389 port. Hence, both LDAP and LDAPS protocols must be enabled on
 the domain controller.
+:::
+
 
 Step 9 – Click **Create Identity Store**. The **Replicate Identity Store** message is displayed.
 Select:
@@ -122,10 +125,13 @@ Select:
 The identity store is available on the Identify Stores page. You can specify different
 configurations for it.
 
-NOTE: Microsoft’s throttling policy restricts an application (such as Directory Manager) to create a
+:::note
+Microsoft’s throttling policy restricts an application (such as Directory Manager) to create a
 maximum of 3 concurrent sessions with Microsoft Entra ID. With this in view, Directory Manager
 allows only one active session at any given time, which is used by Data service and Replication
 service.
+:::
+
 
 ## Create an Identity Store for Generic LDAP
 
@@ -133,7 +139,7 @@ Create a Generic LDAP identity store to connect to any LDAP version 3-compliant 
 such as Sun ONE directory server. This provider does not support dynamic schema detection. The
 schema included for this provider mostly contains commonly used fields.
 
-Follow the steps to create an identity store
+**Follow the steps to create an identity store**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

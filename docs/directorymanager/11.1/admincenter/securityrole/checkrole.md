@@ -37,7 +37,7 @@ Directory Manager fetches the highest priority role of the user with respect to 
     - Enter a search string and press **Enter**. User names starting with the string are displayed.
       Select the required user.
 
-        OR
+**OR**
 
     - Click **Advanced** to search a user by different parameters, such as name, department,
       company, and email. Enter a search string and click **Search**. Users matching the string are

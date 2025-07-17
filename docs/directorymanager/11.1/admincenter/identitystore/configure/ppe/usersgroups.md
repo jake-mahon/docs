@@ -19,13 +19,13 @@ PPE Policies page is displayed.
 
 Step 4 – Click the **three vertical dots** icon next to the policy , click **Edit**.
 
-Or
+**Or**
 
 Click on a policy name to open the policy configuration page.
 
 Step 5 – Open the **Users & Groups** tab.
 
-Assign Policies to Users
+**Assign Policies to Users**
 
 Step 6 – When a domain policy is assigned to a user, Password Policy Enforcer stores the user's
 information in the configuration. The assignment remains valid even if the user is renamed.
@@ -43,7 +43,7 @@ information in the configuration. The assignment remains valid even if the user 
 8. The selected users get listed in the Users box. You can remove a user from the list by clicking
    the cross (x) icon next to its name.
 
-Assign Policies to Groups
+**Assign Policies to Groups**
 
 Step 7 – When a domain policy is assigned to a group, Password Policy Enforcer stores the group's
 information in the configuration. The assignment remains valid even if the group is renamed.
@@ -64,7 +64,7 @@ is not desired, then you can assign a different policy to the Helpdesk group.
 8. The selected groups get listed in the Groups box. You can remove a group from the list by
    clicking the cross (x) icon next to its name.
 
-Assign Policies to Containers
+**Assign Policies to Containers**
 
 Step 8 – When a policy is assigned to a container, Password Policy Enforcer enforces the policy for
 all users in the container as well as any child containers. For example, if the Helpdesk and
@@ -72,8 +72,11 @@ Managers OUs are children of the Info Tech OU, then any policy assigned to the I
 applies to the two child OUs. If this behavior is not desired, then you can assign a different
 policy to a child OU.
 
-NOTE: Different assignment types can be used for a single policy. For example, you may assign users
+:::note
+Different assignment types can be used for a single policy. For example, you may assign users
 to a policy by both OU and group at the same time.
+:::
+
 
 1. Click **+Add Container** to add groups for the policy assignment.
 2. On the Add Container (s) dialog box, click **+** to expand the Entire Directory.

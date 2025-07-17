@@ -15,8 +15,11 @@ You can use an existing account, provided it has the required permissions, or yo
 one. Instructions for both options are discussed in the following sections, although it is
 recommended that you create a new service account rather than using an existing account.
 
-NOTE: You must add the service account to the membership of the Local Administrator group of the
+:::note
+You must add the service account to the membership of the Local Administrator group of the
 member server on which Directory Manager is installed.
+:::
+
 
 ## Use an Existing Account as a Service Account
 
@@ -26,10 +29,11 @@ and Exchange permissions:
 Exchange permissions are required if Microsoft Exchange is configured as the messaging provider for
 the identity store.
 
-|    |    |
-| --- | --- |
-| Active Directory | Recommended: **Domain Admins** Minimum permissions: - Grant permissions to create and delete users, contacts, and groups. - Grant permissions to modify users, contacts, and groups. See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
-| Exchange 2013/2016/2019 | Recipient Management                                                                                                                                                                                                                                                                                                 |
+|                         |                                                                                                                                                                                                                                                                                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Active Directory        | Recommended: **Domain Admins** Minimum permissions: <ul><li>Grant permissions to create and delete users, contacts, and groups.</li><li>Grant permissions to modify users, contacts, and groups.</li></ul> See the Create a New Service Account topic for instructions on modifying the service account to grant the required permissions. |
+| Exchange 2013/2016/2019 | Recipient Management                                                                                                                                                                                                                                                                                                                       |
+
 
 ## Create a New Service Account
 
@@ -48,11 +52,11 @@ in this section to:
 
     - **Server Manager** from the Windows Start screen.
 
-        Or
+**Or**
 
     - **Server Manager** from the Quick Launch toolbar available by default on the Windows taskbar.
 
-        Or
+**Or**
 
     - **Administrative Tools** from the Windows Start screen.
 

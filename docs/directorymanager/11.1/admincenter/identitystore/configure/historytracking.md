@@ -41,20 +41,15 @@ By default, history tracking is disabled. You can:
 - Specify a period for retaining history data in the Directory Manager database. When the period is
   over, data is exported to CSV files and deleted from the database.
 
-RECOMMENDED: History tracking can slow down system performance. For optimal performance, it is
+:::info
+History tracking can slow down system performance. For optimal performance, it is
 recommended that you track only specific, more important actions and limit Directory Manager history
 data storage to the most recent records.
+:::
+
 
 See the [History in Directory Manager](/docs/directorymanager/11.1/admincenter/general/history.md) and
 [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md) topics for additional information.
-
-What do you want to do?
-
-- Enable History Tracking for All Actions
-- Track Specific Actions for an Identity Store
-- Retain Complete History Data
-- Retain History for a Specific Period
-- Disable History Tracking
 
 ## Enable History Tracking for All Actions
 
@@ -128,8 +123,11 @@ database forever.
 4. On the **History** page, select _All_ in the **History Options** drop-down list to retain all
    tracked history data in the database.
 
-    NOTE: This setting may result in a massive increase in the database size and may affect
+    :::note
+    This setting may result in a massive increase in the database size and may affect
     Directory Manager performance.
+    :::
+
 
 5. Click **Save**.
 

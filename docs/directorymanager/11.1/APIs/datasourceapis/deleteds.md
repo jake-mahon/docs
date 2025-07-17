@@ -13,11 +13,11 @@ using that data source.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/{dataSourceId}
+**https://machinename:4443/GroupIDDataService/api/DataSource/{dataSourceId}**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 

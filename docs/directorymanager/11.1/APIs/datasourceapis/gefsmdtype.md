@@ -11,11 +11,11 @@ Excel data source(s) defined so far in Directory Manager that have their source 
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetFileServerMetaDataByType??fileServerType=OneDrive
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetFileServerMetaDataByType??fileServerType=OneDrive**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

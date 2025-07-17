@@ -20,24 +20,30 @@ Use any of the following methods to connect and sign in:
 
 - Select an identity store and enter the username and password of your identity store account.
 
-    NOTE: To sign in using the Directory Manager provider, enter the username and password you
+    :::note
+    To sign in using the Directory Manager provider, enter the username and password you
     provided for the _GroupID administrator_ on the Service Account Settings page of the
     Configuration Tool. See the
     [Configure a New Directory Manager Server with a New or an Existing Database](/docs/directorymanager/11.1/install/configure/gidserver.md)
     topic.
+    :::
+
 
 - Select an identity store and sign in using a SAML provider. This option is available if a SAML
   provider is configured with the selected identity store.
 
-    NOTE: Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their
+    :::note
+    Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their
     username and password. They will be authenticated through the SAML provider configured for in
     Directory Manager.
+    :::
+
 
 Next, you may have to pass second factor authentication, depending on whether it is enabled for your
 role in the identity store. You can perform tasks in the Admin Center in keeping with your role and
 permissions in the identity store.
 
-To Sign In
+**To Sign In**
 
 Use one of the following methods to sign in.
 
@@ -76,8 +82,11 @@ SAML provider configuration:
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
 
-NOTE: For Microsoft Entra ID MFA enabled users, a SAML provider must be configured for signing into
+:::note
+For Microsoft Entra ID MFA enabled users, a SAML provider must be configured for signing into
 Directory Manager.
+:::
+
 
 ### Pass Second Factor Authentication
 
@@ -107,7 +116,7 @@ You can view the Directory Manager version deployed in your environment.
 In the Admin Center, click your name in the top right corner; the menu displays the running
 Directory Manager version.
 
-See Also
+**See Also**
 
 - [Getting Started](/docs/directorymanager/11.1/gettingstarted.md)
 - [Dashboard](/docs/directorymanager/11.1/admincenter/general/dashboard.md)

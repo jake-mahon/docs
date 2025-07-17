@@ -14,11 +14,11 @@ source using Directory Manager.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetMetaData
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetMetaData**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

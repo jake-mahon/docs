@@ -6,7 +6,7 @@ sidebar_position: 30
 
 # Account page
 
-(of Microsoft Entra ID User and Mailbox wizards)
+**(of Microsoft Entra ID User and Mailbox wizards)**
 
 Use this page to specify basic account info, such as the user's first name, last name, login ID and
 the UPN suffix.

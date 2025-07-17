@@ -11,11 +11,11 @@ Power Automate setting using this API.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

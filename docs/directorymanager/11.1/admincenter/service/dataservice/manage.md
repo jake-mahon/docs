@@ -33,13 +33,13 @@ topic.
 
 Step 3 – The card for a Data service displays the following information:
 
-| Info                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                 | The name given to the service.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Deployment Instances | Displays the deployment name of the service and the web server where it is deployed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Status               | A service has one of the following statuses: - Running – Indicates that the service is up and running. - Stopped – Indicates that Directory Manager is unable to communicate with the service. To troubleshoot, go to the web server where the service is deployed (IIS, remote IIS, or Docker) and make sure the service is running. - Error – Any issue other than _stopped_ is categorized as _error_. Contact your system administrator to resolve it.                                                                                              |
-| Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/directorymanager/11.1/admincenter/general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. |
-| Ellipsis             | Click it to launch a shortcut menu with the following options: - Settings – launches the service settings page, where you can manage deployment settings and log settings. - Delete – deletes the service. This option is not available for the default services.                                                                                                                                                                                                                                                                                       |
+| Info | Description |
+| --- | --- |
+| Name  | The name given to the service. |
+| Deployment Instances | Displays the deployment name of the service and the web server where it is deployed. |
+| Status | A service has one of the following statuses: <br /><ul><li>Running – Indicates that the service is up and running.</li><li>Stopped – Indicates that Directory Manager is unable to communicate with the service. To troubleshoot, go to the web server where the service is deployed (IIS, remote IIS, or Docker) and make sure the service is running.</li><li>Error – Any issue other than _stopped_ is categorized as _error_. Contact your system administrator to resolve it.</li></ul> |
+| Launch Application | Click it to launch the service page. <br /><ul><li>For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_.</li><li>For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/directorymanager/11.1/admincenter/general/accessapplications.md) topic. </li><li>For Admin Center, this link launches the Admin Center application.</li></ul> |
+| Ellipsis | Click it to launch a shortcut menu with the following options: <br /><ul><li>Settings – launches the service settings page, where you can manage deployment settings and log settings.</li><li>Delete – deletes the service. This option is not available for the default services.</li></ul> |
 
 ## Change a Service’s Display Name
 
@@ -146,7 +146,10 @@ For details on file logging and Windows logging, see the
 [Windows Logging](/docs/directorymanager/11.1/admincenter/applications/portal/server/log.md#windows-logging) topics. Replace references to the
 portal with the respective service.
 
-NOTE: Windows logging is not available for Data service and Security service.
+:::note
+Windows logging is not available for Data service and Security service.
+:::
+
 
 ### Change the File Logging Level for a Service
 
@@ -275,5 +278,8 @@ Step 2 – On the **Applications** page, click the **Data Service** tab.
 Step 3 – On the **Data Service** tab page, click the ellipsis button for a Data service and select
 **Delete**.
 
-NOTE: You cannot delete the default Data service. You cannot also delete a Data service that has
+:::note
+You cannot delete the default Data service. You cannot also delete a Data service that has
 been linked with a Directory Manager client, such as the Directory Manager portal.
+
+:::

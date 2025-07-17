@@ -10,11 +10,11 @@ Use this API to retrieve information of multiple users from the specified ident
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

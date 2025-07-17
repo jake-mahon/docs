@@ -71,11 +71,14 @@ Step 9 – You can specify containers as targets for the schedule. To do so, fol
 topic. The schedule will process all groups in the containers and their sub-containers listed in the
 Target(s) area in keeping with the Group Lifecycle settings for the identity store.
 
-NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively
+:::note
+In Group Lifecycle settings, the administrator can specify container(s) for exclusively
 applying or not applying the Group Life cycle policy. See the
 [Apply Policy on Specific Containers](/docs/directorymanager/11.1/admincenter/identitystore/configure/grouplifecycle.md#apply-policy-on-specific-containers)
 topic. With containers specified in the Target(s) area, there may be a conflict or overlapping of
 containers, in which case, the Group Lifecycle settings take precedence.
+:::
+
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the

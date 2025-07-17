@@ -95,20 +95,20 @@ options that are available when you right-click an object. Options are:
 | Export                       | Export the selected object's information to a comma-separated value (csv) or XML file. The export action exports only the attributes displayed on the tab.                       |
 | Export All                   | Export the information of all objects on the **Directory** tab to a comma-separated value (csv) or XML file. The export action exports only the attributes displayed on the tab. |
 
-Preview
+**Preview**
 
 Enables you to preview the results returned with the criteria specified on all tabs of the Query
 Designer dialog box. This is a check to ensure the accuracy of data before changes are committed to
 the directory.
 
-OK
+**OK**
 
 Saves settings and closes the dialog box.
 
-Cancel
+**Cancel**
 
 Discards settings and closes the dialog box.
 
-LDAP Query
+**LDAP Query**
 
 View the provider query in the LDAP Query box.

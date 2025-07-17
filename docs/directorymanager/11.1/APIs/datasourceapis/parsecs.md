@@ -10,11 +10,11 @@ This API parses the connection string given in one line format.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/ParseConnectionString
+**https://machinename:4443/GroupIDDataService/api/DataSource/ParseConnectionString**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

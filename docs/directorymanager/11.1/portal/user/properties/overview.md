@@ -62,7 +62,10 @@ ID based identity store.
 Following is the list of all the properties that Contacts have in Active Directory based identity
 store.
 
-NOTE: Contact object is not supported in Microsoft Entra ID.
+:::note
+Contact object is not supported in Microsoft Entra ID.
+:::
+
 
 - [Object properties - General tab](/docs/directorymanager/11.1/portal/user/properties/AD/useroverview/general.md)
 - [Object properties - Organization tab](/docs/directorymanager/11.1/portal/user/properties/AD/useroverview/organization.md)

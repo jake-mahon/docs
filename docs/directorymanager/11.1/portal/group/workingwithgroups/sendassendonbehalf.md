@@ -29,5 +29,8 @@ The administrator can provide the Send As and Send on Behalf features on any tab
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As and Send on Behalf
 lists.
 
-NOTE: Only mailboxes and mail-enabled groups can add objects to their Send As and Send on Behalf
+:::note
+Only mailboxes and mail-enabled groups can add objects to their Send As and Send on Behalf
 lists.
+
+:::

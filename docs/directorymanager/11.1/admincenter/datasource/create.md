@@ -55,8 +55,11 @@ Step 6 – In the File Path box, provide the path to the MS Excel file you want 
 source for. This path should be complete with the file name and extension. For example:  
 D:\Employee Records\Sheets\EmployeeMedical Records.xlsx
 
-NOTE: The MS Excel file must be placed either on the machine that Data service is installed on, or a
+:::note
+The MS Excel file must be placed either on the machine that Data service is installed on, or a
 location that Data service can access.
+:::
+
 
 Step 7 – In case the file is placed on a network path, enter the network domain or hostname in the
 Domain/Hostname box.
@@ -88,7 +91,10 @@ Step 7 – In the Registered Application ID on Azure Active Directory box, enter
 assigned to the Directory Manager application when you registered it in Microsoft Entra Admin
 Center.
 
-NOTE: The registered app must have the following API permissions to access files on OneDrive:
+:::note
+The registered app must have the following API permissions to access files on OneDrive:
+:::
+
 
 ![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 
@@ -139,8 +145,11 @@ Step 6 – In the File Path box, provide the path to the MS Access database you 
 data source for. This path should be complete with the file name and extension. For example:  
 D:\Employee Records\Databases\Employee Medical Records.accdb
 
-NOTE: The Access database must be located either on the machine that Data service is installed on,
+:::note
+The Access database must be located either on the machine that Data service is installed on,
 or a location that Data service can access.
+:::
+
 
 Step 7 – If the database file is password protected, enter the password in the File Password box.
 
@@ -176,7 +185,10 @@ Step 8 – In the Registered Application ID on Azure Active Directory box, enter
 assigned to the Directory Manager application when you registered it in Microsoft Entra Admin
 Center.
 
-NOTE: The registered app must have the following API permissions to access files on OneDrive:
+:::note
+The registered app must have the following API permissions to access files on OneDrive:
+:::
+
 
 ![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 
@@ -195,8 +207,11 @@ You can create a data source for an Oracle server or a specific database on a se
 source can be used in queries and as source and destination provider in Synchronize jobs. This
 provider supports dynamic schema detection.
 
-NOTE: Oracle client must be installed to use this provider. Make sure you reboot your computer after
+:::note
+Oracle client must be installed to use this provider. Make sure you reboot your computer after
 installing the Oracle client.
+:::
+
 
 Follow the steps to create a data source.
 
@@ -299,8 +314,11 @@ Step 6 – In the File Path box, provide the path to the text file you want to c
 for. This path should be complete with the file name and extension. For example:  
 D:\Employee Records\Sheets\Employee Medical Records.csv
 
-NOTE: The text file must be placed either on the machine that Data service is installed on, or a
+:::note
+The text file must be placed either on the machine that Data service is installed on, or a
 location that Data service can access.
+:::
+
 
 Step 7 – In the Delimiter box, specify the character that is used to separate values in the file.
 You can also enter a space as a character.
@@ -338,7 +356,10 @@ Step 8 – In the Registered Application ID on Azure Active Directory box, enter
 assigned to the Directory Manager application when you registered it in Microsoft Entra Admin
 Center.
 
-NOTE: The registered app must have the following API permissions to access files on OneDrive:
+:::note
+The registered app must have the following API permissions to access files on OneDrive:
+:::
+
 
 ![API permissions](/img/product_docs/directorymanager/11.1/admincenter/datasource/apipermissions.webp)
 

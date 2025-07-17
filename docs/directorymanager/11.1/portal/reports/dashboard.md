@@ -16,8 +16,11 @@ Directory Manager reports are organized into four categories:
 - [Computer Reports](/docs/directorymanager/11.1/portal/reports/computer.md)
 - [Contact Reports](/docs/directorymanager/11.1/portal/reports/contact.md)
 
-NOTE: A Microsoft Entra ID based identity store does not support the computer and contact object
+:::note
+A Microsoft Entra ID based identity store does not support the computer and contact object
 types.
+:::
+
 
 You can view, edit, and delete the created reports. You can also download them in Excel and PDF
 formats.

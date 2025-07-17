@@ -28,7 +28,7 @@ Transfer-DirectReports
 - DirectReports
 - Manager
 
-Example
+**Example**
 
 The following command transfers two direct reports to Manager Robin.
 

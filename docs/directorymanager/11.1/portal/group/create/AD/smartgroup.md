@@ -41,7 +41,10 @@ From the **Scheduled Job** list, select a Smart Group Update job to associate wi
 
 This list contains Smart Group Update jobs defined in the identity store.
 
-NOTE: If the administrator has enforced the job selection option, you cannot proceed unless you
+:::note
+If the administrator has enforced the job selection option, you cannot proceed unless you
 select a scheduled job for this group.
+:::
+
 
 Step 3 – Click **Next**.

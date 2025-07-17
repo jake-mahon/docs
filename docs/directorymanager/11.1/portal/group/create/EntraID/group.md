@@ -9,9 +9,12 @@ sidebar_position: 30
 Using Directory Manager portal, you can create static groups and Smart Groups in an Microsoft Entra
 ID identity store.
 
-NOTE: If the Directory Manager administrator has specified the group creation action for review, the
+:::note
+If the Directory Manager administrator has specified the group creation action for review, the
 new group will be created after it is verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic for additional information.
+:::
+
 
 ## Create a Static Group
 
@@ -22,8 +25,11 @@ Follow the steps to create a static group.
 
     The **Create Group** wizard opens to the **Group Type** page.
 
-    NOTE: Pages and fields on the Create Group wizard may vary, since the administrator can
+    :::note
+    Pages and fields on the Create Group wizard may vary, since the administrator can
     customize the wizard by adding or removing tabs and fields.
+    :::
+
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md), select the **Static Group** option button and click
    **Next**.
@@ -50,8 +56,11 @@ Follow the steps to create a Smart Group.
 
     The **Create Group** wizard opens to the **Group Type** page.
 
-    Remember, pages and fields on the Create Group wizard may vary, since the administrator can
+    :::tip
+        Remember, pages and fields on the Create Group wizard may vary, since the administrator can
     customize the wizard by adding or removing tabs and fields.
+    :::
+
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md) page, select the **Smart Group** option button and
    click **Next**.

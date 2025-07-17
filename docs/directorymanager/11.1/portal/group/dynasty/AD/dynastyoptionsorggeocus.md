@@ -36,11 +36,11 @@ On the Dynasty Options page:
 
     Attribute value:
 
-    Custom Attribute 1 = MacArthur Plaza
+**Custom Attribute 1 = MacArthur Plaza**
 
     Sample groups created by Directory Manager:
 
-    Everyone in MacArthur Plaza
+**Everyone in MacArthur Plaza**
 
     However, if you were to create a Dynasty that groups by the Office field (which contains both
     the building name and office number), Directory Manager will create a group for each distinct
@@ -49,11 +49,11 @@ On the Dynasty Options page:
 
     Attribute value:
 
-    Office = MacArthur Plaza/1256C
+**Office = MacArthur Plaza/1256C**
 
     Sample groups created by Directory Manager:
 
-    Everyone in MacArthur Plaza/1256C
+**Everyone in MacArthur Plaza/1256C**
 
     The filter option solves this problem by enabling you to filter out unwanted permutations of
     values.

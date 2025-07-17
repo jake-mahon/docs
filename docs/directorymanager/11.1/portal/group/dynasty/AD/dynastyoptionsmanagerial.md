@@ -44,19 +44,19 @@ On the Dynasty Options page:
 
         - Direct reports of Paul
 
-            Members: Sam, Eric, Don
+**Members: Sam, Eric, Don**
 
         - Direct reports of Sam
 
-            Members: Peter, Sean
+**Members: Peter, Sean**
 
         - Direct reports of Don
 
-            Members: Ashley, Jason, Tanya
+**Members: Ashley, Jason, Tanya**
 
         - Direct reports of Jason
 
-            Members: April
+**Members: April**
 
     - **Flat Managerial List**
 
@@ -85,15 +85,15 @@ On the Dynasty Options page:
 
         - Direct reports of Sam
 
-            Members: Peter, Sean
+**Members: Peter, Sean**
 
         - Direct reports of Don
 
-            Members: Ashley, Jason, Tanya, April
+**Members: Ashley, Jason, Tanya, April**
 
         - Direct reports of Jason
 
-            Members: April
+**Members: April**
 
         On the [Query Designer](/docs/directorymanager/11.1/portal/group/querydesigner/overview.md) page, you can also specify a criterion
         to filter the managers for whom you want to create child groups in the Dynasty.
@@ -150,11 +150,11 @@ On the Dynasty Options page:
         You select a top manager to create the Dynasty. The managerial hierarchy for this manager in
         a provider (such as Active Directory) is as follows:
 
-        Top manager: Alan
+**Top manager: Alan**
 
         Alan is the manager of John, Jane, and Josephine
 
-        John is the manager of Mark and Martin
+**John is the manager of Mark and Martin**
 
         Mark is the manager of Sophia and Martin is the manager of Sarah
 
@@ -184,7 +184,7 @@ On the Dynasty Options page:
         Suppose the managerial hierarchy for the top manager in a provider (such as Active
         Directory) is as follows:
 
-        Top manager: Alan
+**Top manager: Alan**
 
         Alan is the additional manager of John, Jane, and Josephine
 
@@ -206,7 +206,7 @@ On the Dynasty Options page:
 
         Let’s take employeeID as the custom attribute. Data will be as:
 
-        Top manager: Alan with EmployeeId 1
+**Top manager: Alan with EmployeeId 1**
 
         John (EmpID: 2, CA: 1); Jane (EmpID: 3, CA: 1); Josephine (EmpID: 4, CA: 1)
 

@@ -12,8 +12,11 @@ server deployed in your environment or an external SMTP server; for example, Gma
 When configuring a provider that supports modern authentication, such as Exchange Online and Office
 365, you have the option to use OAuth for modern authentication.
 
-NOTE: With Microsoft Entra ID's mandatory multifactor authentication policy, basic authentication
+:::note
+With Microsoft Entra ID's mandatory multifactor authentication policy, basic authentication
 cannot be used for an Office 365 SMTP server. You can only use OAuth for modern authentication.
+:::
+
 
 You can also specify notification recipients, that can be:
 
@@ -26,7 +29,7 @@ You can also specify notification recipients, that can be:
 - an object that is added to the membership of a group
 - an object that is removed from the membership of a group
 
-What do you want to do?
+**What do you want to do?**
 
 - Configure an SMTP Server
 - Specify Notification Recipients
@@ -77,15 +80,21 @@ server.
     OAuth settings are available when you specify a provider that supports modern authentication,
     such as Exchange Online and Office 365.
 
-    NOTE: For OAuth to work, you must enable the Graph API’s ‘SMTP.Send’ permission for the
+    :::note
+    For OAuth to work, you must enable the Graph API’s ‘SMTP.Send’ permission for the
     Directory Manager app in Microsoft Entra Admin Center:
+    :::
+
 
     1. Click the **OAuth 2.0** tile.
     2. In the **Token Endpoint** box, provide the following URL:  
        https://login.microsoftonline.com/organizations/oauth2/v2.0/token
 
-        NOTE: In case of Office 365 provider, you need to provide Graph Endpoint of your CloudType
+        :::note
+        In case of Office 365 provider, you need to provide Graph Endpoint of your CloudType
         in the **Token Endpoint** box, for example, https://graph.microsoft.com/v1.0
+        :::
+
 
     3. In the **Client ID** box, provide the client ID assigned to the Directory Manager application
        when you registered it in Microsoft Entra Admin Center.
@@ -95,14 +104,20 @@ server.
     5. In the **Scope** box, provide the following URL:  
        https://outlook.office365.com/SMTP.Send
 
-        NOTE: In case of Office 365 provider, provide name of the tenant the **Scope** box, for
+        :::note
+        In case of Office 365 provider, provide name of the tenant the **Scope** box, for
         example, abcd.onmicrosoft.com
+        :::
+
 
     6. In the **Username** and **Password** boxes, provide the credentials to connect to the SMTP
        server.
 
-    NOTE: The user account used for SMTP Authentication for OAuth should have no MFA applied to it
+    :::note
+    The user account used for SMTP Authentication for OAuth should have no MFA applied to it
     or have a conditional bypass for GraphAPI requests.
+    :::
+
 
 **Test the connection**
 
@@ -179,7 +194,10 @@ The list contains URLs of all Directory Manager portals linked with the identity
 
 Step 5 – Click **Save** on the **Notifications** page.
 
-NOTE: Password expiry Smart Groups cannot be created in a Microsoft Entra ID identity store.
+:::note
+Password expiry Smart Groups cannot be created in a Microsoft Entra ID identity store.
+:::
+
 
 ## Manage Membership Life Cycle Notifications
 

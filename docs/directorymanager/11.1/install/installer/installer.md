@@ -28,9 +28,12 @@ The Directory Manager installation package consists of:
 Before installing Directory Manager, make sure that the logged-in user is a member of the local
 Administrators group on that machine.
 
-NOTE: (1) There should be a dedicated server for Directory Manager.  
+:::note
+(1) There should be a dedicated server for Directory Manager.  
 (2) Do not install Directory Manager on the domain controller.  
 (3) Do not install Directory Manager and Microsoft Exchange Server on the same machine.
+:::
+
 
 ## Installation Cases
 
@@ -51,7 +54,13 @@ Next, run the Upgrade wizard to make the copied database compatible with Directo
 upgraded, the database schema changes, making it incompatible with the previous Directory Manager
 version.
 
-NOTE: When Directory Manager 11 co-exists with a previous Directory Manager version (case # 1 and
+:::note
+When Directory Manager 11 co-exists with a previous Directory Manager version (case # 1 and
 2), the two must have separate databases. Data is not replicated between these databases.
+:::
 
-NOTE: This section does not apply to a fresh Directory Manager installation.
+
+:::note
+This section does not apply to a fresh Directory Manager installation.
+
+:::

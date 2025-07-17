@@ -11,11 +11,11 @@ Directory Manager. Use this API to connect an identity tore to Power Automate.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

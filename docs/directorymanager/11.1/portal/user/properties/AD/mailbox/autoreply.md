@@ -14,20 +14,20 @@ Use this tab to configure automatic replies for the emails sent to a mailbox obj
   your organization and for those from other organizations.
 - Specify the time period during which automatic replies must be sent.
 
-Don't send automatic replies
+**Don't send automatic replies**
 
 Select this option button to disable the out-of-office replies feature.
 
-Send automatic replies
+**Send automatic replies**
 
 Select this option button to send out-of-office replies to senders.
 
-Send replies only during this time period
+**Send replies only during this time period**
 
 Select this check box if you want to specify a time frame during which the automatic replies should
 be sent.
 
-Start Time, End Time
+**Start Time, End Time**
 
 Specify the date and time between which the replies will be sent.
 
@@ -44,7 +44,7 @@ Send replies only to senders in my contact list
 
 Select this option button to send replies to those external senders that are on your contact list.
 
-Send replies to all external senders
+**Send replies to all external senders**
 
 Select this option button to send replies to all external senders.
 

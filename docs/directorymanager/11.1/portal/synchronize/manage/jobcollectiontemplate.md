@@ -94,7 +94,7 @@ contains.
 Step 3 – On the Job Collection Templates page, click the **three vertical dots** icon on the
 template in the list and select **Create from Template**.
 
-OR
+**OR**
 
 Double-click the job collection template you want to use for the new job collection.
 

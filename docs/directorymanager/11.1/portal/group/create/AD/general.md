@@ -20,10 +20,13 @@ Use this page to specify basic information about the group.
 2. In the **Group Name** box, provide a name for the group by selecting a prefix and then entering a
    name for the group.
 
-    NOTE: The prefix box is displayed if the administrator has defined the prefixes. See Group name
+    :::note
+    The prefix box is displayed if the administrator has defined the prefixes. See Group name
     prefixes.  
-     These prefixes, when appended to group names, help standardize the group naming convention
+    These prefixes, when appended to group names, help standardize the group naming convention
     across the enterprise.
+    :::
+
 
 3. The **Name Preview** is displayed if the prefix list is available and displays a preview of the
    prefix combined with the group name.
@@ -50,7 +53,10 @@ Use this page to specify basic information about the group.
       resources.
     - **Distribution** - this group will only be used for email distribution.
 
-    NOTE: If the administrator has predefined a group type, you cannot change it.
+    :::note
+    If the administrator has predefined a group type, you cannot change it.
+    :::
+
 
 8. In the **Group Scope** list, select a scope for the group.
 
@@ -60,9 +66,12 @@ Use this page to specify basic information about the group.
     - **Universal Group** - if the group is to contain users and groups from any domain and be
       visible in the Global Catalog.
 
-    NOTE: (1) If the administrator has predefined a group scope, you cannot change it.  
+    :::note
+    (1) If the administrator has predefined a group scope, you cannot change it.  
     (2) To create a mail-enabled group (with Exchange 2013/2016/2019 as the messaging provider), you
     must select **Universal** as the group scope.
+    :::
+
 
 9. In the **Security** list, select a security type for the group.
 10. Enter a description for the group in the **Description** box.

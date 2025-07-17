@@ -13,7 +13,10 @@ You can customize the search forms for a portal. You can:
 - Remove fields
 - Change the arrangement of fields on a page
 
-NOTE: You can only customize existing search forms; you cannot add new ones.
+:::note
+You can only customize existing search forms; you cannot add new ones.
+:::
+
 
 ### Customizable Search Forms
 
@@ -24,7 +27,7 @@ The following table lists the search forms that you can customize:
 | Default          | Manage the search fields on the _Advanced Search_ page, where users can search directory objects (user, group, contact) by different attributes. This page is displayed when users click the _Advanced Search_ link.                                                                                                                |
 | Find Dialog      | Manage the search fields on the _Find_ dialog box. The _Find_ dialog box can be launched from various portal pages, for example, from the **Owner** tab, **Members** tab, and **Member Of** tab in group properties. It is used to search for objects to designate as owners, managers, additional owners, group members, and more. |
 
-What do you want to do?
+**What do you want to do?**
 
 - Add a Field to a Search Form
 - Update a Field on a Search Form

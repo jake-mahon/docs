@@ -56,12 +56,15 @@ schema attribute you link this display type with.
         The **Accessibility** drop-down list displays all predefined and user-defined security
        roles.
 
-        NOTE: (1) If a user has visibility on a value but not accessibility, and that value is set
+        :::note
+        (1) If a user has visibility on a value but not accessibility, and that value is set
         as default (see Step 9), then in the portal, the value will be displayed as selected to the
         user. Once the user removes it, he or she cannot select it again from the multi-valued
         drop-down list.  
-         (2) If a user has accessibility on a value but not visibility, the value will not be
+        (2) If a user has accessibility on a value but not visibility, the value will not be
         displayed to the user. Hence, accessibility will have no impact.
+        :::
+
 
     5. Click **OK**. The value is listed in the **Values** area, represented by its display text.
 

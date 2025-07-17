@@ -32,7 +32,10 @@ value for the linked attribute.
 
 You can delete custom display types, including linked combos.
 
-NOTE: You cannot delete a custom display type that has been linked to a field in the portal.
+:::note
+You cannot delete a custom display type that has been linked to a field in the portal.
+:::
+
 
 To delete a custom display type:
 

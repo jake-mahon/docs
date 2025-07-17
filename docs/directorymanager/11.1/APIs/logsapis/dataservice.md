@@ -12,11 +12,11 @@ service.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/Logs/Download
+**https://machinename:4443/GroupIDDataService/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

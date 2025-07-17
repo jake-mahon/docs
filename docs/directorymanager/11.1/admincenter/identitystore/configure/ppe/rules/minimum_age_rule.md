@@ -13,5 +13,8 @@ evade the History and Similarity rules. This rule can only be enforced by domain
 
 - Select the number of days before a user can change their password.
 
-NOTE: The Minimum Age rule is unique because users cannot comply with it by choosing a different
+:::note
+The Minimum Age rule is unique because users cannot comply with it by choosing a different
 password; they must wait until the required number of days has elapsed.
+
+:::

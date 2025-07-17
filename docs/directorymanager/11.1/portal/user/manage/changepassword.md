@@ -15,8 +15,11 @@ Administrator can either enable
 [Directory Manage Password Policy ](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md) or Netwrix
 Password Policy Enforcer policies for the identity store.
 
-NOTE: MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If
+:::note
+MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If
 they try to do so, the following message is displayed:
+:::
+
 
 ![Change Password error message for Entra ID user](/img/product_docs/directorymanager/11.1/portal/user/manage/changepasswordentraiduser.webp)
 

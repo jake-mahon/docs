@@ -32,7 +32,7 @@ which you can link other identity store accounts that you may have.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 
@@ -45,7 +45,10 @@ to link to the master account. A message, _Account has been successfully linked_
 If the master account is not enrolled yet, it automatically gets enrolled when an account is linked
 to it.
 
-NOTE: An already enrolled or linked account cannot be linked to a master account.
+:::note
+An already enrolled or linked account cannot be linked to a master account.
+:::
+
 
 Step 4 – Select the **Allow Authentication** option for the account(s) you want to use to
 authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.
@@ -74,7 +77,7 @@ ID portal for logging into multiple accounts.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page
 
@@ -93,7 +96,10 @@ displayed.
 If the master account is not enrolled yet, it automatically gets enrolled when an account is linked
 to it.
 
-NOTE: An already enrolled or linked account cannot be linked to a master account.
+:::note
+An already enrolled or linked account cannot be linked to a master account.
+:::
+
 
 Step 5 – Turn on the **Allow Authentication** button against the account(s) you want to use to
 authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.
@@ -118,7 +124,7 @@ On the Directory Manager Authenticate page, sign in with your master account.
 - In the Directory Manager portal, click **Users** in the left pane and select **Linked Account** to
   view your linked accounts.
 
-    OR
+**OR**
 
 - In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 
@@ -127,7 +133,7 @@ On the Directory Manager Authenticate page, sign in with your master account.
 Step 1 – In the Directory Manager portal, click **Users** in the left pane and select **Linked
 Account**.
 
-OR
+**OR**
 
 In the SSPR portal, click the **Linked Accounts** tile on the main portal page.
 

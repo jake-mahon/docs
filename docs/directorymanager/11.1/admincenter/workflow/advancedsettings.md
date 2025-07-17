@@ -9,8 +9,11 @@ sidebar_position: 20
 You can specify advanced settings for workflow, such as set a default approver for workflow requests
 and define approver acceleration settings.
 
-NOTE: Functions discussed in this topic are licensed under different add-ons. See the
+:::note
+Functions discussed in this topic are licensed under different add-ons. See the
 [ Licensing ](/docs/directorymanager/11.1/admincenter/general/licensing.md) topic.
+:::
+
 
 ## Specify a Default Approver
 
@@ -44,7 +47,7 @@ owners.
     - Enter a search string in the box. Group and user names starting with the string are displayed
       as you type. Select a user or group to set as the default approver.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, department,
       company, and email.  

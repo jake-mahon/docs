@@ -14,8 +14,11 @@ store. Use the Search policy to:
 - Limit the search scope to one container for role members.
 - Designate a criterion to limit the objects that role members can search.
 
-NOTE: Microsoft Entra ID supports a single container only, so the search scope cannot be restricted
+:::note
+Microsoft Entra ID supports a single container only, so the search scope cannot be restricted
 container-wise in a Microsoft Entra ID identity store.
+:::
+
 
 ## How does the Search Policy Work?
 
@@ -57,10 +60,13 @@ The Search policy has the following impact on the Directory Manager portal:
 10. On the **Edit Security Role** page, click **Update Security Role**.
 11. On the **Security Roles** page, click **Save**.
 
-NOTE: An advanced setting for the Directory Manager portal, _Search Default_, controls the search
+:::note
+An advanced setting for the Directory Manager portal, _Search Default_, controls the search
 scope of the portal. If its value is "Global Catalog", the container specified here is ignored and
 the portal shows objects from the entire directory. See the
 [Manage Advanced Settings](/docs/directorymanager/11.1/admincenter/applications/portal/server/advanced.md) topic.
+:::
+
 
 ## Set the Search Scope to all Containers in the Identity Store
 
@@ -107,7 +113,7 @@ criteria.
     With this filter, search performed by role members will display objects with email addresses
     created on the netwrix.com domain.
 
-Advanced Filter
+**Advanced Filter**
 
 You can also define a query by adding more rows and applying the **AND** or **OR** operator to group
 them.

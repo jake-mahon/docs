@@ -22,8 +22,11 @@ Step 1 – Make the required changes to your profile on the My Profile page.
 
 Step 2 – Click **Save**.
 
-NOTE: If the administrator has specified this action for review, your changes will not take effect
+:::note
+If the administrator has specified this action for review, your changes will not take effect
 until verified by an approver.
+:::
+
 
 ## Add a photo to your profile
 
@@ -47,8 +50,11 @@ Step 5 – Click **OK** to close the **Manage Photo** dialog box.
 
 Step 6 – Click **Save.**
 
-NOTE: If the administrator has specified this action for review, your changes will not take effect
+:::note
+If the administrator has specified this action for review, your changes will not take effect
 until verified by an approver.
+:::
+
 
 ## Set a user account to never expire
 

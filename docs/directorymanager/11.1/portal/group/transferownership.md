@@ -41,9 +41,12 @@ Follow the steps to transfer the ownership of a group.
     | Domain              | Includes all organizational units and their sub-trees in the search for required groups. |
     | Entire Directory    | Searches the entire forest.                                                              |
 
-    NOTE: For Active Directory, if the search container is set to Global Catalog and Extension Data
+    :::note
+    For Active Directory, if the search container is set to Global Catalog and Extension Data
     is not replicated to the Global Catalog, additional ownership of the groups will not be
     transferred.
+    :::
+
 
 3. Click **Next**.
 4. On the **Existing Owner** page, select one of the following:

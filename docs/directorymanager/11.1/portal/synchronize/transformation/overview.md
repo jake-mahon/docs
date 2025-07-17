@@ -69,8 +69,11 @@ fields.
 destination: The target location to which to copy data. Destinations must be Exchange 5.5, Active
 Directory, SQL Server, or Excel.
 
-NOTE: This transformation can adversely affect performance, as it adds an additional query to each
+:::note
+This transformation can adversely affect performance, as it adds an additional query to each
 record. It applies to Active Directory and Exchange only.
+:::
+
 
 ## Join
 

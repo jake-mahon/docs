@@ -81,7 +81,10 @@ You can do the following in the Source Code view:
 - Replace the tags with other relevant tags. By using a tag, you can display an attribute’s value in
   the notification.
 
-NOTE: Do not insert tables or custom photos in a notification template.
+:::note
+Do not insert tables or custom photos in a notification template.
+:::
+
 
 After making the required changes, click **Save** on the menu bar.
 
@@ -137,7 +140,7 @@ recommended. By using a tag, you can display an attribute’s value in the notif
 Following is a list of all attributes that can be used with tags in the notification templates: You
 can also use any custom attributes.
 
-| Attributes            |
+| Attributes            |                                |                             |                        |
 | --------------------- | ------------------------------ | --------------------------- | ---------------------- |
 | Owner                 | Member                         | MemberOf                    | Manager                |
 | Name                  | DisplayName                    | FirstName                   | LastName               |

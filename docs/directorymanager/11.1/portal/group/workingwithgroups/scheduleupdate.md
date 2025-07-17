@@ -16,8 +16,11 @@ When a Smart Group or Dynasty is updated using a scheduled job, it involves the 
     [ Query Designer Policy](/docs/directorymanager/11.1/admincenter/securityrole/policy/querydesigner.md)topic for
     additional information.
 
-    NOTE: Whatever the records returned by the query, the membership of an Office 365 group is
+    :::note
+    Whatever the records returned by the query, the membership of an Office 365 group is
     updated with user objects only.
+    :::
+
 
 - The values of certain attribute(s) is updated.
 
@@ -50,7 +53,7 @@ In Directory Manager portal, you can perform the following functions for Smart G
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group you want to modify the query for.
 
@@ -63,8 +66,11 @@ In Directory Manager portal, you can perform the following functions for Smart G
 
 4. Save the changes.
 
-NOTE: For an Office 365 group in a Microsoft Entra ID based identity store, group membership is
+:::note
+For an Office 365 group in a Microsoft Entra ID based identity store, group membership is
 updated with user objects only.
+:::
+
 
 ## Schedule periodic membership updates for Smart Groups/Dynasties
 
@@ -79,7 +85,7 @@ membership update.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group you want to associate a Smart Group Update
     job with.
@@ -93,8 +99,11 @@ membership update.
 
     When this job runs, it updates the group's membership.
 
-    NOTE: The schedule job will update the group taking into account Query Designer policy of group
+    :::note
+    The schedule job will update the group taking into account Query Designer policy of group
     owner role, if defined.
+    :::
+
 
 4. Save the changes.
 

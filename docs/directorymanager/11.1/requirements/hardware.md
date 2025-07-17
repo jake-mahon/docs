@@ -13,10 +13,13 @@ Minimum hardware requirements for Directory Manager are:
 
     6 GB of RAM in case of self-managed Elasticsearch
 
-    RECOMMENDED: We recommend a dedicated server for Directory Manager. If you install any other
+    :::info
+    We recommend a dedicated server for Directory Manager. If you install any other
     application on the Directory Manager server, then adjust RAM requirements accordingly. For
     example, if you install SQL Server, you may need to add 2-4 GB RAM depending on the edition of
     the SQL Server.
+    :::
+
 
     Different editions of SQL Server have varying resource requirements. For example:
 

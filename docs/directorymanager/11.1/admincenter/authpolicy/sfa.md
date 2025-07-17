@@ -15,11 +15,10 @@ Once enrolled, role members must authenticate their accounts using an authentica
 enrolled with, while signing into Admin Center or theDirectory Manager portal. Users enrolled with
 multiple authentication types can use any one type to authenticate.
 
-NOTE: Directory Manager SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::note
+Directory Manager SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::
 
-What do you want to do?
-
-- Configure Second Factor Authentication
 
 ## Configure Second Factor Authentication
 
@@ -31,12 +30,3 @@ Step 1 – Enable one or more authentication types for the identity store.
 See the [Enable Authentication Types](/docs/directorymanager/11.1/admincenter/identitystore/configure/authtypes.md) topic for details.
 
 Step 2 – Enable second factor authentication for a security role in an identity store.
-
-See the
-[Enable Second Factor Authentication](/docs/directorymanager/11.1/admincenter/securityrole/policy/authentication.md#enable-second-factor-authentication)
-topic for details.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Configure Multifactor Authentication](/docs/directorymanager/11.1/admincenter/authpolicy/mfa.md)

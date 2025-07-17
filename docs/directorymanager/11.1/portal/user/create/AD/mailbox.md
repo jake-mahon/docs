@@ -11,8 +11,11 @@ configured for the identity store.
 
 A mailbox is a user with a mailbox, such as an Exchange mailbox.
 
-NOTE: Pages and fields on the Create Mailbox wizard may vary from those discussed here, since the
+:::note
+Pages and fields on the Create Mailbox wizard may vary from those discussed here, since the
 administrator can customize the wizard by adding or removing pages and fields.
+:::
+
 
 ## Create a mailbox in Active Directory
 
@@ -32,6 +35,9 @@ Step 4 – On the [Exchange page](/docs/directorymanager/11.1/portal/user/create
 Step 5 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and then click **Finish** to
 complete the wizard.
 
-NOTE: If the Directory Manager administrator has specified the mailbox creation action for review,
+:::note
+If the Directory Manager administrator has specified the mailbox creation action for review,
 your changes will not take effect until verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic for additional information.
+
+:::

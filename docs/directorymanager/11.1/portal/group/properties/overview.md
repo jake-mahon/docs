@@ -68,5 +68,8 @@ displayed.
   only)
 - [Group properties - Dynasty Options tab](/docs/directorymanager/11.1/portal/group/properties/dynastyoptions.md) (for Dynasties only)
 
-NOTE: The **Delivery Restrictions**, **Attributes**, **Email**, and **Advanced** tabs are not
+:::note
+The **Delivery Restrictions**, **Attributes**, **Email**, and **Advanced** tabs are not
 available for groups in a Microsoft Entra IDbased identity store.
+
+:::

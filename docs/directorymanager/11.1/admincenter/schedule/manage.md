@@ -24,14 +24,14 @@ Step 4 – On the Schedules page, click the plus sign next to a job name to view
 for it.  
 The following is displayed for a schedule:
 
-| Label     | Description                                                                                                                                                                                                                                                                                                                                                                                            |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Enable    | Shows whether a schedule is enabled or disabled. Use the toggle button next to a schedule to disable an enabled schedule and vice versa. Directory Manager does not execute a disabled schedule.                                                                                                                                                                                                       |
-| Job Name  | The name of a schedule.                                                                                                                                                                                                                                                                                                                                                                                |
-| Target(s) | The group(s) and container(s) that a schedule processes.                                                                                                                                                                                                                                                                                                                                               |
-| Last Run  | The date and time a schedule last ran.                                                                                                                                                                                                                                                                                                                                                                 |
-| Next Run  | The next date and time a schedule will run.                                                                                                                                                                                                                                                                                                                                                            |
-| Actions   | Click the ellipsis button for a schedule in the **Actions** column and select an option: - Edit – To update the schedule's settings, such as targets, triggers, and notifications. - Delete – To delete a schedule. - Run – To manually run a schedule instantly. - Terminate – To manually terminate a running schedule instantly. This option is available for schedules that are currently running. |
+| Label | Description |
+| --- | --- |
+| Enable | Shows whether a schedule is enabled or disabled. Use the toggle button next to a schedule to disable an enabled schedule and vice versa. Directory Manager does not execute a disabled schedule. |
+| Job Name | The name of a schedule. |
+| Target(s) | The group(s) and container(s) that a schedule processes. |
+| Last Run  | The date and time a schedule last ran. |
+| Next Run  | The next date and time a schedule will run. |
+| Actions   | Click the ellipsis button for a schedule in the **Actions** column and select an option: <br /><ul><li>Edit – To update the schedule's settings, such as targets, triggers, and notifications.</li><li>Delete – To delete a schedule.</li><li>Run – To manually run a schedule instantly.</li><li>Terminate – To manually terminate a running schedule instantly. This option is available for schedules that are currently running.</li></ul> |
 
 ### Search a Schedule
 
@@ -49,20 +49,20 @@ Step 3 – In the _Select an Operator_ drop-down list, select an operator to app
 attribute. This drop-down displays the operators on the basis of the selected attribute. Available
 operators are:
 
-| Condition           | Description                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Starts with         | Returns everything that starts with the value.                                                                              |
-| Does not start with | Returns everything that does not start with the value.                                                                      |
-| Ends with           | Returns everything that ends with the value. Searching with this condition is resource-intensive for the directory.         |
-| Does not end with   | Returns everything that does not end with the value. Searching with this condition is resource-intensive for the directory. |
-| Is exactly          | Returns everything that matches the value.                                                                                  |
-| Is not              | Returns everything that does not match the value.                                                                           |
-| Contains            | Returns everything that contains the value. Searching with this condition is resource-intensive for the directory.          |
-| Not contain         | Returns everything that does not contain the value. Searching with this condition is resource-intensive for the directory.  |
-| Present             | Returns everything that has a value.                                                                                        |
-| Not present         | Returns everything that does not have a value.                                                                              |
-| Greater or equal    | Returns everything with a value greater than or equal to the given value.                                                   |
-| Less or equal       | Returns everything with a value lesser than or equal to the given value.                                                    |
+| Condition | Description |
+| --- | --- |
+| Starts with | Returns everything that starts with the value. |
+| Does not start with | Returns everything that does not start with the value. |
+| Ends with | Returns everything that ends with the value. <br />Searching with this condition is resource-intensive for the directory. |
+| Does not end with   | Returns everything that does not end with the value. <br />Searching with this condition is resource-intensive for the directory. |
+| Is exactly | Returns everything that matches the value. |
+| Is not | Returns everything that does not match the value. |
+| Contains | Returns everything that contains the value. <br />Searching with this condition is resource-intensive for the directory. |
+| Not contain | Returns everything that does not contain the value. <br />Searching with this condition is resource-intensive for the directory.  |
+| Present | Returns everything that has a value. |
+| Not present | Returns everything that does not have a value. |
+| Greater or equal | Returns everything with a value greater than or equal to the given value. |
+| Less or equal | Returns everything with a value lesser than or equal to the given value. |
 
 Step 4 – In the _Select a Value_ box, specify a value for the attribute. The selected attribute and
 operator determine the kind of value that can be entered in this box. For some operators, such as

@@ -82,12 +82,38 @@ complexity requirements and minimum password length set for the domain.
 
 The following table explains the rules that determine how the minimum value is calculated.
 
-|     | Password Complexity Requirements | Minimum Password Length                         | Minimum Value Displayed in the Range |
-| --- | -------------------------------- | ----------------------------------------------- | ------------------------------------ |
-| 1   | Enabled                          | Less than or equal to 6                         | 6                                    |
-|     | Greater than 6                   | 6                                               |                                      |
-| 2   | Disabled                         | Less than or equal to 6                         | 6                                    |
-|     | Greater than 6                   | The minimum password length set for the domain. |                                      |
+<table>
+	<thead>
+        <tr>
+            <th>&#160;</th>
+            <th>Password Complexity Requirements</th>
+            <th>Minimum Password Length</th>
+            <th>Minimum Value Displayed in the Range</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">Enabled</td>
+            <td>Less than or equal to 6</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Greater than 6</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Disabled</td>
+            <td>Less than or equal to 6</td>
+            <td>6</td>
+        </tr>
+		<tr>
+			<td>Greater than 6</td>
+      <td>The minimum password length set for the domain.</td>
+    </tr>
+  </tbody>
+</table>
 
 For any other destination providers, you can type a value from 6 to 99.
 
@@ -104,8 +130,11 @@ Step 13 – Select the Special Symbols check box if you want the password to con
 characters. When the check box is selected, the box next to it becomes available. You can specify
 special characters in the box that you want the password to contain.
 
-NOTE: For Active Directory destinations, if password complexity requirements are enabled for the
+:::note
+For Active Directory destinations, if password complexity requirements are enabled for the
 domain, then you must select three of the preceding four settings.
+:::
+
 
 Step 14 – Select the **Exclude similar symbols** check box if you do not want a special character to
 appear more than once in the password.
@@ -130,5 +159,8 @@ Use unique password generated dynamically against each row option on the Transfo
 dialog box, then the new password for each object is sent to the administrator by email when the job
 runs.
 
-NOTE: Notifications will be sent if an SMTP server and notification recipients have been configured
+:::note
+Notifications will be sent if an SMTP server and notification recipients have been configured
 for the destination identity store.
+
+:::

@@ -34,11 +34,17 @@ example, the manager is granted the following permissions:
 - Create, delete and manage groups.
 - Modify the membership of a group.
 
-NOTE: Do not update Smart Group membership manually; changes might be reversed when the Smart Group
+:::note
+Do not update Smart Group membership manually; changes might be reversed when the Smart Group
 Update job runs.
+:::
 
-NOTE: The _manager can update membership_ feature is not available for groups in a Microsoft Entra
+
+:::note
+The _manager can update membership_ feature is not available for groups in a Microsoft Entra
 ID based identity store.
+:::
+
 
 **Description**
 
@@ -73,10 +79,16 @@ The scope set for this group.
 - **Universal Group** - Can contain users and groups from any domain and is visible in the Global
   Catalog.
 
-NOTE: With Exchange 2013/2016/2019 configured as the messaging provider for the identity store, the
+:::note
+With Exchange 2013/2016/2019 configured as the messaging provider for the identity store, the
 group scope must be set to _Universal_ for mail-enabled groups.
+:::
 
-NOTE: In a Microsoft Entra ID based identity store, the group scope does not apply.
+
+:::note
+In a Microsoft Entra ID based identity store, the group scope does not apply.
+:::
+
 
 **Group Type**
 
@@ -86,8 +98,11 @@ The group type set for the group.
   resources.
 - **Distribution** - this group will only be used for email distribution.
 
-NOTE: In a Microsoft Entra ID based identity store, the group type is set to 'security' by default
+:::note
+In a Microsoft Entra ID based identity store, the group type is set to 'security' by default
 and this option is not displayed.
+:::
+
 
 **Security**
 

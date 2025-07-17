@@ -10,8 +10,11 @@ You can standardize group names in the directory by defining prefixes. When user
 using the Directory Manager portal, they must select a prefix, which is added to the group’s name
 and display name.
 
-NOTE: The Group Name Prefixes policy does not apply when a user creates a group using Directory
+:::note
+The Group Name Prefixes policy does not apply when a user creates a group using Directory
 Manager Management Shell.
+:::
+
 
 You can define group name prefixes (a) for an identity store, (b) for security roles in an identity
 store, or (c) both at the identity store and role levels.
@@ -26,12 +29,15 @@ store, or (c) both at the identity store and role levels.
   a group’s name. However, when prefixes are enforced at the role level, role members can only
   select a role-specific prefix to append a group’s name.
 
-NOTE: (1) For a user with multiple roles, prefixes for all roles are displayed when creating or
+:::note
+(1) For a user with multiple roles, prefixes for all roles are displayed when creating or
 updating groups.  
 (2) If prefixes are enforced for the highest priority role of a user, he or she must select a prefix
 from the list of prefixes defined for this highest priority role.  
 (3) If prefixes are enforced for a role other than the highest priority role of a user, enforcement
 does not apply to him or her.
+:::
+
 
 Consider the following:
 
@@ -44,11 +50,6 @@ Consider the following:
 A group naming policy defined in Microsoft Entra Admin Center has no impact in Directory Manager.
 For details, see the [Group Naming Policy](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#group-naming-policy) topic.
 
-What do you want to do?
-
-- Add a Prefix for an Identity Store
-- Add a Prefix for a Security Role in an Identity Store
-
 ## Add a Prefix for an Identity Store
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -59,14 +60,14 @@ What do you want to do?
    **Add**. The prefix is displayed in the **Group Name Prefix** area.
 5. Click **Save**.
 
-Edit a Prefix
+**Edit a Prefix**
 
 1. On the **Group Name Prefixes** page, click **Edit** for a prefix and update it. Then click the
    check mark icon to save or the cross icon to discard your changes.
 2. Click **Save**.  
    The change does not propagate to group names that have already been created with the prefix.
 
-Delete a Prefix
+**Delete a Prefix**
 
 1. On the **Group Name Prefixes** page, click **Remove** for a prefix to delete it.
 2. Click **Save**.  

@@ -30,14 +30,17 @@ These files are available at the following location on the Directory Manager ser
 
 `X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\GroupIDDataService\Web\HistoryBin\`
 
-(X is the Directory Manager installation drive)
+**(X is the Directory Manager installation drive)**
 
 History data moved to these files is not longer displayed in Directory Manager.
 
-NOTE: Admin Center history does not fall in a specific identity store, so its retention mechanism is
+:::note
+Admin Center history does not fall in a specific identity store, so its retention mechanism is
 different. Directory Manager checks the identity store of the user who performed an action logged in
 Admin Center history, and archives that record according to the history retention setting of the
 identity store that user belongs to.
+:::
+
 
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:

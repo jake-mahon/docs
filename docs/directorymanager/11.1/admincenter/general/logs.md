@@ -40,8 +40,3 @@ folders, you can collect and dump your required logs to a desired location.
 4. Click **Download**.  
    Directory Manager creates a zipped file containing the selected logs and saves it to the download
    location set in browser settings.
-
-**See Also**
-
-- [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md)
-- For a Portal - [Manage Log Settings](/docs/directorymanager/11.1/admincenter/applications/portal/server/log.md)

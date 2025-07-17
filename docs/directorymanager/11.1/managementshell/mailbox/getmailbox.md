@@ -42,7 +42,7 @@ The following command retrieves the specified mailbox from the connected identit
 Get-MailBox -Identity "OsamaMailBox"
 ```
 
-See Also
+**See Also**
 
 - [All Commands](/docs/directorymanager/11.1/managementshell/commands.md)
 - [Mailbox Commands](/docs/directorymanager/11.1/managementshell/mailbox/overview.md)

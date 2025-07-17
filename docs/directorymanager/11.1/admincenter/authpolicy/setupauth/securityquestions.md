@@ -49,8 +49,3 @@ and authentication.
 
 See the
 [Define Security Question Settings for a Security Role](/docs/directorymanager/11.1/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role) topic.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Manage the Local Question Pool](/docs/directorymanager/11.1/admincenter/identitystore/configure/securityquestions.md)

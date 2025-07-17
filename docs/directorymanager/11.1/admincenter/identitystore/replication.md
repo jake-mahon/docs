@@ -44,13 +44,16 @@ Step 6 – The Select Replication Attributes dialog box displays a list of the s
 the provider. Select the check boxes for the attributes you want to replicate for the identity store
 and click **Save**. The attributes are added to the Attribute Name column on the Replication page.
 
-NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, Directory
+:::note
+If in a Microsoft Entra ID based identity store extension attributes are added, Directory
 Manager Schema Replication schedule fetches the latest schema at its next run and add the newly
 added extension attributes to the Select Replication Attributes list. See the
 [Schema Replication Schedule](/docs/directorymanager/11.1/admincenter/schedule/schemareplication.md) for additional information.  
 Select the required extension attributes from the Select Replication Attributes list and add them to
 the attribute to replicate list. See the Specify Object Attributes to Replicate section of the
 Manage Local Replication Settings topic.
+:::
+
 
 Step 7 – Click **Save**.
 
@@ -84,9 +87,12 @@ Step 6 – Click **Save** on the Replication page.
 Step 7 – Click **Restore** on the **Restore Data** card to restore object data to Elasticsearch for
 the identity store.
 
-NOTE: When a Smart Group, created with a custom attribute in a previous Directory Manager version,
+:::note
+When a Smart Group, created with a custom attribute in a previous Directory Manager version,
 is upgraded using the Upgrade wizard, you will have to replicate the respective object type from
 scratch.
+:::
+
 
 ## Force Run the Replication Service (for Object Replication)
 
@@ -99,7 +105,7 @@ Replication page. See the
 
 You can force run the Replication service for an identity store in any of the following ways:
 
-Method 1
+**Method 1**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -108,7 +114,7 @@ Step 2 – On the Identity Stores page, click the ellipsis button for an identit
 Any changes made to the values of attributes during the last and current run of the Replication
 service are replicated to Elasticsearch.
 
-Method 2
+**Method 2**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -136,7 +142,7 @@ topic.
 For an identity store, you can force run the Replication service (for deleting objects) in any of
 the following ways:
 
-Method 1
+**Method 1**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 
@@ -144,7 +150,7 @@ Step 2 – On the Identity Stores page, click the ellipsis button for an identit
 **Replicate Deleted Objects**. Any objects deleted in the directory between the last and current run
 of the Replication service will be removed from Elasticsearch.
 
-Method 2
+**Method 2**
 
 Step 1 – In Admin Center, click **Identity Stores** in the left pane.
 

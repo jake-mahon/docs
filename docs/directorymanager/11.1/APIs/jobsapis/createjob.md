@@ -14,11 +14,11 @@ creating a job.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

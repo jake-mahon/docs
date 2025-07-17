@@ -109,18 +109,24 @@ dialog box, specify an event for triggering notifications for the schedule and a
    notification recipients, using a semicolon to separate multiple addresses. These recipients will
    get a report on the event you select for **Send Notification**.
 
-    NOTE: If the email ID of a target group’s additional owner is specified in this box, the
+    :::note
+    If the email ID of a target group’s additional owner is specified in this box, the
     additional owner will receive notifications even if the Do not Notify check box is selected for
     it in the respective group’s properties.
+    :::
+
 
 3. Select the **Send Report to group owner(s)** check box to send a report to each unique group
    owner of the groups processed by the schedule. A Dynasty owner receives a notification for its
    groups and direct child Dynasties.  
    Group owners include the primary owner, additional owner(s), and Exchange additional owner(s).
 
-    NOTE: An additional owner of a target group will not receive notifications when the Do not
+    :::note
+    An additional owner of a target group will not receive notifications when the Do not
     Notify check box is selected for it in the respective group’s properties, even with the Send
     Report to group owner(s) check box selected.
+    :::
+
 
 4. In the Send Notification area, select one of the following options:
 
@@ -135,11 +141,14 @@ dialog box, specify an event for triggering notifications for the schedule and a
 
 5. Click **Save**.
 
-    NOTE: When a Smart Group Update schedule is bound to a single OU that contains all expired Smart
+    :::note
+    When a Smart Group Update schedule is bound to a single OU that contains all expired Smart
     Groups/Dynasties, notifications will not be sent, even if the _Always_ option is selected.
     Expired Smart Groups and Dynasties are not evaluated for the update process. However, even if
     one group in the OU is not expired, notifications will be sent for all objects with _failed_
     status for expired objects.
+    :::
+
 
 Step 13 – On the Create Schedule page, click **Create Schedule**.
 

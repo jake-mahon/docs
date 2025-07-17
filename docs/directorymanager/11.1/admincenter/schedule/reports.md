@@ -54,9 +54,12 @@ Please note the following while selecting a Scheduler service:
 Step 8 – To add reports to the schedule, click **Add Report(s)** in the Reports area. The Add
 Reports to Schedule dialog box is displayed.
 
-NOTE: You can only add reports that have been generated in the Directory Manager portal, since the
+:::note
+You can only add reports that have been generated in the Directory Manager portal, since the
 schedule uses the settings provided there to generate the report. Moreover, you cannot change the
 settings here, such as the container and filter settings.
+:::
+
 
 1. In the Object Category drop-down list, select a report category. Available categories are: _All
    Categories, Users, Groups, Contacts and Computers_. In the Directory Manager portal, reports are

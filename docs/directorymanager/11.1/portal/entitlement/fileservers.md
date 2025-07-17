@@ -40,7 +40,7 @@ displayed, showcasing the following information:
 
     ![fileservercard](/img/product_docs/directorymanager/11.1/portal/entitlement/fileservercard.webp)
 
-NOTE: Date format: mm/dd/yyyy
+**NOTE: Date format: mm/dd/yyyy**
 
 - For child folders, the path is as: servername.parentsharedfoldername.
 
@@ -118,7 +118,7 @@ access type with respect to the specified permission(s).
 
 User: Administrator
 
-Access type: Allow
+**Access type: Allow**
 
 Permission: WriteAttributes, ExecuteFile, Read
 

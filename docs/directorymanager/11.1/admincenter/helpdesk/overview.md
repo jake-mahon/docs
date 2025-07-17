@@ -16,10 +16,13 @@ helpdesk-specific tasks, such as:
   functions. Toast notifications and history tracking are also enabled for these actions. See the
   [Helpdesk Operations](/docs/directorymanager/11.1/admincenter/helpdesk/operation/overview.md) topic for additional information.
 
-NOTE: The Admin Center for helpdesk role is available in Helpdesk mode only. By default, only the
+:::note
+The Admin Center for helpdesk role is available in Helpdesk mode only. By default, only the
 Helpdesk node of Admin Center is visible to the Helpdesk role members. The administrator can also
 restrict access of a security role by selecting the Helpdesk Role check box on the Security Role
 page. See the [Create a Security Role](/docs/directorymanager/11.1/admincenter/securityrole/create.md) topic for additional information.
+:::
+
 
 ## Helpdesk Permissions
 
@@ -39,8 +42,11 @@ The administrator can define a Helpdesk policy for a user role in an identity st
 mainly defines whether helpdesk role members should operate under the restricted or unrestricted
 mode to perform the account unlock and reset password functions.
 
-NOTE: In unrestricted mode, helpdesk can unlock accounts and reset passwords of both enrolled and
+:::note
+In unrestricted mode, helpdesk can unlock accounts and reset passwords of both enrolled and
 unenrolled users. In restricted mode, helpdesk can perform these functions for enrolled users only.
+:::
+
 
 See the [Helpdesk Policy](/docs/directorymanager/11.1/admincenter/securityrole/policy/helpdesk.md) topic.
 

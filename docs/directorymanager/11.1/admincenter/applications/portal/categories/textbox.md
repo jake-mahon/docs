@@ -30,13 +30,54 @@ To learn about regular expressions and their syntax, see
 
 A few text box display types used in the default portal template are:
 
-|     | Display Type Name  | Default Value | Regular Expression                                             | Regex Example                        |
-| --- | ------------------ | ------------- | -------------------------------------------------------------- | ------------------------------------ | ----------------- | ------------------- |
-| 1.  | maskPhoneUSwithExt | None          | ^\(\d\d\d\) \d\d\d-\d\d\d\d x\d\d\d$                           | (555) 123-4567 x890                  |
-| 2.  | SmtpEmail          | None          | ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]+\.[0-9]+\.[0-9]+\.)             | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]+     | [0-9]+)(\]?)$     | someone@netwrix.com |
-| 3.  | maskPhoneUS        | None          | ^\(\d\d\d\) \d\d\d-\d\d\d\d$                                   | (555) 123-4567                       |
-| 4.  | maskEmailAddress   | None          | ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4} | [0-9]{1,3})(\]?)$ | user@domain.com     |
-| 5.  | maskZipCode        | None          | \d{5}(-\d{4})?                                                 | NNNNN-NNNN                           |
+<table>
+	<thead>
+    <tr>
+        <th>&#160;</th>
+        <th>Display Type Name</th>
+        <th>Default Value</th>
+        <th>Regular Expression</th>
+        <th>Regex Example</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>maskPhoneUSwithExt</td>
+            <td>None</td>
+            <td>^\(\d\d\d\) \d\d\d-\d\d\d\d x\d\d\d$</td>
+            <td>(555) 123-4567 x890</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>SmtpEmail</td>
+            <td>None</td>
+            <td>^([a-zA-Z0-9_\-\.]+)@((\[[0-9]+\.[0-9]+\.[0-9]+\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]+|[0-9]+)(\]?)$</td>
+            <td>`someone@netwrix.com`</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>maskPhoneUS</td>
+            <td>None</td>
+            <td>^\(\d\d\d\) \d\d\d-\d\d\d\d$</td>
+            <td class="TableStyle-Sb_Table_1-BodyD-Column1-Body1">(555) 123-4567</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>maskEmailAddress</td>
+            <td>None</td>
+            <td>^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$</td>
+            <td>`user@domain.com`</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>maskZipCode</td>
+            <td>None</td>
+            <td>\d{5}(-\d{4})?</td>
+            <td>NNNNN-NNNN</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Define a Text Box Display Type
 
@@ -100,4 +141,6 @@ The API returns the following parameters:
 | message   | (Optional) For the ‘false’ status, you can return an error message in this parameter, that is displayed to the user. |
 | data      | Not in use                                                                                                           |
 
-NOTE: Data should be in JSON format.
+:::note
+Data should be in JSON format.
+:::

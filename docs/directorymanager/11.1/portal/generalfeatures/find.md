@@ -45,7 +45,10 @@ Step 4 – Click the **Advanced Search** link to display additional search field
 description, first name, last name, and company) to search for objects using attributes other than
 the object's display name.
 
-NOTE: The fields available for Advanced Search may vary, depending on the portal's configuration.
+:::note
+The fields available for Advanced Search may vary, depending on the portal's configuration.
+:::
+
 
 Step 5 – Click the **Search** button to display the search results.
 

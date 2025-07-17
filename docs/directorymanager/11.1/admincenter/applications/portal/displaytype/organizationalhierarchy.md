@@ -14,7 +14,7 @@ By default, the organizational hierarchy chart displays four attributes of a use
 name_, _email_, and _picture_. You can replace an attribute with another one but you cannot add or
 remove attributes. Hence the attribute count remains ‘four’.
 
-What do you want to do?
+**What do you want to do?**
 
 - Replace an Attribute on the Organizational Hierarchy Tree
 

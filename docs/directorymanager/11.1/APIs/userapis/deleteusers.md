@@ -10,11 +10,11 @@ This API deletes multiple users from the identity store given in the endpoint UR
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Request Syntax
 

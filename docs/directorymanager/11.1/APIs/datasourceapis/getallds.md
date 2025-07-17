@@ -10,11 +10,11 @@ Using this API you can get information of all data source defined so far in Dire
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetAll
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetAll**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
