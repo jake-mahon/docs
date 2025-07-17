@@ -15,8 +15,11 @@ Directory Manager 11 supports upgrade from the following:
 
 The following must be in place before you run the Upgrade wizard.
 
-NOTE: In the following text, the term ‘source version’ refers to the GroupID version you are
+:::note
+In the following text, the term ‘source version’ refers to the GroupID version you are
 upgrading from.
+:::
+
 
 Step 1 – For upgrade on a different box, the source version file system must be present on the
 Directory Manager 11 server. For that, do the following:

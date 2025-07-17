@@ -205,5 +205,8 @@ This type of account unlock can be resolved in one of the following two ways:
 
 - You wait for the specified duration, after which the account will be unlocked automatically.
 
-NOTE: Helpdesk cannot unlock accounts that get locked out on providing a wrong response to the
+:::note
+Helpdesk cannot unlock accounts that get locked out on providing a wrong response to the
 authentication type(s).
+
+:::

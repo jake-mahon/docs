@@ -58,7 +58,10 @@ insecure password.
 New-Schedule -ScheduleName SmuTest1 -IdentityStoreName AdStore8 -UserName user -Password password1 -Targets 'OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local', 'OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local' -JobType SmartGroup -TriggerType Daily -StartTime '16:56'
 ```
 
-NOTE: This example uses insecure credentials.
+:::note
+This example uses insecure credentials.
+:::
+
 
 Example 2:
 

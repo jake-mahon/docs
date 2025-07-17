@@ -10,8 +10,17 @@ Netwrix Password Policy Enforcer (PPE) helps secure your network by ensuring use
 passwords. You can now enforce PPE policies to Active Directory domain accounts when they change and
 reset their passwords in Directory Manager.
 
+:::tip
+:::tip
+:::tip
 Remember, You can only use PPE policies in Directory Manager when Password Policy Enforcer 11 is
 deployed on your domain controller.
+:::
+:::
+:::
+
+
+
 
 The PPE policies use rules to decide if it should accept or reject a password. You can assign these
 policies to users, groups, and containers (Organizational Units). You can also:

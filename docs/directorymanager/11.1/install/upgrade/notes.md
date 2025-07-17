@@ -8,8 +8,11 @@ sidebar_position: 20
 
 Consider the following when upgrading to Directory Manager 11 from GroupID 9 and 10.
 
-NOTE: In the following text, the term ‘source version’ refers to the GroupID version you are
+:::note
+In the following text, the term ‘source version’ refers to the GroupID version you are
 upgrading from.
+:::
+
 
 **Notes**
 

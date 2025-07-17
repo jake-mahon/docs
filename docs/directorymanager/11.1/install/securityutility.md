@@ -57,8 +57,11 @@ comma.
 
 ![Restrict IP Addresses](/img/product_docs/directorymanager/11.1/install/iprestrict.webp)
 
-RECOMMENDED: Use a static IP address for the Directory Manager server and the additional IP
+:::info
+Use a static IP address for the Directory Manager server and the additional IP
 addresses you specify here to include in the IP security rules.
+:::
+
 
 Step 3 – After successful configuration, the following message is displayed.
 
@@ -67,12 +70,15 @@ Step 3 – After successful configuration, the following message is displayed.
 In the event of a Directory Manager multi-instance deployment, execute the above steps on each
 Directory Manager server in your environment.
 
-NOTE: In case you deploy a new Directory Manager server/instance, add the IP address of the new
+:::note
+In case you deploy a new Directory Manager server/instance, add the IP address of the new
 server to the primary server's IP security rule allowed list. Run the NDM11-ADV-2025-014 utility on
 the primary server to add the additional IP. This should be done before the new server connects to
 the Data service on the primary server (this connection is required while configuring the new
 server). Once the new server is configured, you can remove the IP from the allowed list of the
 primary server.
+:::
+
 
 ## Generate a Secure Password
 

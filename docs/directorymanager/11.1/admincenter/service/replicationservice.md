@@ -52,9 +52,12 @@ You can manage the following settings for a Replication service.
 In an environment with multiple Elasticsearch clusters, you can choose to sync data between
 clusters. You can also specify an interval for syncing.
 
-NOTE: In Directory Manager, a separate Replication service is created for each node in a cluster. To
+:::note
+In Directory Manager, a separate Replication service is created for each node in a cluster. To
 enable data syncing between clusters, simply enable the sync option for one Replications service
 within each cluster.
+:::
+
 
 Follow the steps to sync data between clusters.
 

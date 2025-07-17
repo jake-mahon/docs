@@ -25,8 +25,11 @@ When a user joins a Smart Group or Dynasty, he or she is added to the **Include*
 [Query Designer - Include/Exclude tab](/docs/directorymanager/11.1/portal/group/querydesigner/includeexclude.md) of the Query Designer. As
 a result, the user remains a group member even when it does not fall in the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Join a group temporarily
 
@@ -54,8 +57,11 @@ When a user joins a Smart Group or Dynasty, he or she is added to the **Include*
 [Query Designer - Include/Exclude tab](/docs/directorymanager/11.1/portal/group/querydesigner/includeexclude.md) of the Query Designer. As
 a result, the user remains a group member even when it does not fall in the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Leave a group permanently
 
@@ -80,8 +86,11 @@ When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude
 [Query Designer - Include/Exclude tab](/docs/directorymanager/11.1/portal/group/querydesigner/includeexclude.md) of the Query Designer. As
 a result, the user is not added to group membership even when it falls in the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Leave a group temporarily
 
@@ -116,8 +125,11 @@ When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude
 [Query Designer - Include/Exclude tab](/docs/directorymanager/11.1/portal/group/querydesigner/includeexclude.md) of the Query Designer. As
 a result, the user is not added to group membership even when it falls in the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Join or leave a group on behalf of a direct report or peer
 
@@ -198,6 +210,9 @@ When a user is removed on behalf from a Smart Group or Dynasty, he or she is add
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
-NOTE: For a semi-private group, workflow is triggered and a notification is sent to the group’s
+:::note
+For a semi-private group, workflow is triggered and a notification is sent to the group’s
 primary owner for approval. If the requester is the default approver, the request is auto approved.
 Else, the request must be approved by an authorized user for changes to take effect.
+
+:::

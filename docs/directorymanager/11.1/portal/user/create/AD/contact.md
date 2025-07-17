@@ -8,10 +8,16 @@ sidebar_position: 20
 
 The Directory Manager portal enables you to create the contact object in the directory.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
 
-NOTE: Pages and fields on the Create Contact wizard may vary from those discussed here, since the
+
+:::note
+Pages and fields on the Create Contact wizard may vary from those discussed here, since the
 administrator can customize the wizard by adding or removing pages and fields.
+:::
+
 
 ## Create a contact
 
@@ -39,6 +45,9 @@ Step 4 – Use the Exchange page to mail-enable the contact.
 
 Step 5 – On the Summary page, review the settings and then click Finish to complete the wizard.
 
-NOTE: If the Directory Manager administrator has specified the contact creation action for review,
+:::note
+If the Directory Manager administrator has specified the contact creation action for review,
 your changes will not take effect until verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic for additional information.
+
+:::

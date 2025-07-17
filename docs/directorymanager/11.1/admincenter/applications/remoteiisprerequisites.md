@@ -117,8 +117,17 @@ The next step is to assign permissions on the physical folder that binds to your
 
     ```
 
-    Remember, to provide values for alias "site name" and path "physical folder location of the
-    site", created in the section Create a Site in Remote IIS.
+    :::tip
+        :::tip
+                :::tip
+                                Remember, to provide values for alias "site name" and path "physical folder location of the
+                site", created in the section Create a Site in Remote IIS.
+                :::
+                :::
+                :::
+
+
+
 
 ## Generate an Access Key
 

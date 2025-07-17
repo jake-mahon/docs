@@ -47,8 +47,11 @@ You can customize the following toolbars:
 | Group Member Of Grid                   | The **Member Of** tab in group properties                                                                                                                                                                                                                                                                                                                    |
 | Direct Reports Grid                    | The **Organization** tab in user properties                                                                                                                                                                                                                                                                                                                  |
 
-NOTE: The **Computer Members of Grid** and **Contact Member of Grid** toolbars are not available for
+:::note
+The **Computer Members of Grid** and **Contact Member of Grid** toolbars are not available for
 a Microsoft Entra ID identity store.
+:::
+
 
 The buttons available on these toolbars are predefined. You cannot add or remove a button, but you
 can update a few details for a button, such as its name and image.
@@ -81,7 +84,10 @@ can update a few details for a button, such as its name and image.
         - If an image has been uploaded, the very image is displayed. Click **Upload** to replace
           the existing image with a new one.
 
-            NOTE: Image dimensions: 30 x 30 pixels
+            :::note
+            Image dimensions: 30 x 30 pixels
+            :::
+
 
             Supported formats: .webp, .jpg, .jpe, .jpeg
 

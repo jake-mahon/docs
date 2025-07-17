@@ -27,8 +27,11 @@ manually.
 To enable the SQL Server Browser service, see
 [How to: Start and Stop the SQL Server Browser Service](http://technet.microsoft.com/en-us/library/ms189093(v=sql.105).aspx).
 
-NOTE: Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access database
+:::note
+Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access database
 using Windows Authentication. Therefore, if you want to access the Directory Manager database using
 Windows Authentication, then a SQL certificate must be added to the Trusted Root Certification
 Authorities certificate store on connecting clients or servers such as Directory Manager. See the
 [SQL Certificate for Windows Authentication](/docs/directorymanager/11.1/requirements/sqlcertificate.md) topic for additional information.
+
+:::

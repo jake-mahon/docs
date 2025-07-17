@@ -49,8 +49,11 @@ Step 5 – Depending on the authentication mode selected, do the following:
 Step 6 – In the SQL Database box, specify name of the SQL database being used by the master
 Directory Manager node. This new Directory Manager instance will use the same database.
 
-NOTE: While configuring a new Directory Manager machine with an existing database option, the Copy
+:::note
+While configuring a new Directory Manager machine with an existing database option, the Copy
 Database button has no relevance here.
+:::
+
 
 Step 7 – Click **Next**.
 
@@ -87,7 +90,10 @@ Step 10 – Directory Manager requires two services:
 - Admin Center: Admin Center is a web-based application that can be accessed over the Internet and
   Intranet.
 
-NOTE: This Directory Manager instance will use Email and Scheduler services of the selected cluster.
+:::note
+This Directory Manager instance will use Email and Scheduler services of the selected cluster.
+:::
+
 
 Step 11 – Click **Next**.
 
@@ -109,7 +115,10 @@ Select the relevant option:
     3. TCP Port: the default port for communication between nodes within the cluster. Modify the
        port number if the mentioned default port is not available.
 
-        NOTE: Make sure that the specified ports are available and unblocked.
+        :::note
+        Make sure that the specified ports are available and unblocked.
+        :::
+
 
     I will install and manage Elasticsearch myself: If you select this option, the following page is
     displayed:
@@ -126,14 +135,20 @@ Step 13 – Click **Next**.
 
 ![Service Account Settings page](/img/product_docs/directorymanager/11.1/install/configure/service_account_settings_w_existing_db.webp)
 
-NOTE: If you configure a Group Managed Service Account (gMSA) as an App Pool service account then
+:::note
+If you configure a Group Managed Service Account (gMSA) as an App Pool service account then
 the Directory ManagerConfiguration tool will add this account in the local administrators and
 IIS_IUSRS groups.
+:::
 
-NOTE: If you configure a normal user account as an App Pool service account and an AD identity store
+
+:::note
+If you configure a normal user account as an App Pool service account and an AD identity store
 is created with a gMSA service account, then the App Pool service account must have the
 _PrincipalsAllowedToRetrieveManagedPassword_ property. The App Pool service account also must be a
 member of Backup Operators and IIS_IUSRS groups.
+:::
+
 
 Step 14 – On the Service Account Settings page, specify the service account to use for the Directory
 Manager app pool in IIS and Windows services.
@@ -148,10 +163,16 @@ Manager app pool in IIS and Windows services.
 - You can specify a local account (with local administrator rights) in app pool for a machine that
   is not joined to any domain (this applies to an Microsoft Entra ID identity store only).
 
-    NOTE: For Directory Manager App Pool, a domain account can be used for a machine joined to a
+    :::note
+    For Directory Manager App Pool, a domain account can be used for a machine joined to a
     domain.
+    :::
 
-    NOTE: Before you use a Group Managed Service Account, make sure that:
+
+    :::note
+    Before you use a Group Managed Service Account, make sure that:
+    :::
+
 
     - Key Distribution Service (KDS) is enabled on the Directory Manager machine.
     - Microsoft AD module for PowerShell is installed on the machine.
@@ -171,10 +192,16 @@ Step 15 – You can specify a service accounts for the app pool in any of the fo
     On the Create Service Account dialog box, select the kind of account you want to create. Enter a
     name, container and password for the account. Click **Create**.
 
-    NOTE: The logged-in user must have appropriate rights to create a new account.
+    :::note
+    The logged-in user must have appropriate rights to create a new account.
+    :::
 
-    NOTE: If Key Distribution Service (KDS) is not configured in the environment, a warning will be
+
+    :::note
+    If Key Distribution Service (KDS) is not configured in the environment, a warning will be
     displayed that you cannot use a Group Managed Service Account.
+    :::
+
 
 Step 16 – Provide password for the App Pool service account (except for a Group Managed Service
 Account) in the Password box.

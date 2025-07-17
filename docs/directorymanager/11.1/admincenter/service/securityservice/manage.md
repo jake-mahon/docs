@@ -94,5 +94,8 @@ Step 2 – On the **Applications** page, click the **Security Service** tab.
 
 Step 3 – Click the ellipsis button for a Security service and select **Delete**.
 
-NOTE: You cannot delete the default Security service. You cannot also delete a Security service that
+:::note
+You cannot delete the default Security service. You cannot also delete a Security service that
 has been linked with a Directory Manager client, such as the Directory Manager portal.
+
+:::

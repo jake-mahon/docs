@@ -42,9 +42,12 @@ auto approve requests, and send notifications. See the
 3. Click **Workflows** under **Settings** in the left pane.
 4. On the **Workflows** page, click the **Advanced Workflow Settings** tab.
 
-    NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings
+    :::note
+    When an SMTP server is not defined for the identity store, approver acceleration settings
     are disabled and a message is displayed with a **Configure Now** link to redirect you to the
     **Notifications** page.
+    :::
+
 
 5. Use the **Approver Acceleration** toggle button to apply the approver acceleration settings and
    rules to all workflows defined for the identity store.  
@@ -65,9 +68,12 @@ Directory Manager applies certain rules to forward it to another approver.
 
 On acceleration, the new approver receives an email notification to approve/deny the request.
 
-NOTE: Even after acceleration, all previous approvers are authorized to approve/deny the requests.
+:::note
+Even after acceleration, all previous approvers are authorized to approve/deny the requests.
 Administrators can also approve or deny these requests at any given time from the _All Requests_
 node in the Directory Manager portal.
+:::
+
 
 Workflow acceleration rules are discussed below, with these assumed acceleration settings:
 
@@ -90,7 +96,10 @@ Acceleration rules for a user approver are:
    for 5 days, the request goes to the default approver. If the default approver is not specified,
    the request becomes static.
 
-NOTE: Consider the following:
+:::note
+Consider the following:
+:::
+
 
 1.  If, in the acceleration chain, any approver is disabled, the workflow request is directly sent
     to the primary manager of the disabled approver in the same acceleration hop. Referring to the

@@ -126,8 +126,11 @@ located on disk.
     - The **Import Design** option for identity stores in the Select Identity Stores area
     - The Advanced Settings area
 
-    NOTE: Directory Manager does not support the upgrade of a Password Center portal (from a
+    :::note
+    Directory Manager does not support the upgrade of a Password Center portal (from a
     previous version) to an SSPR portal. You have to create the SSPR portal as a new portal.
+    :::
+
 
 12. In the **Select Identity Stores** area, select the check boxes for the identity stores you want
     to associate with the portal. Users in the associated identity stores can sign into the portal
@@ -288,7 +291,10 @@ the portal there and run the portal from within that container.
 For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.1/admincenter/applications/dockerprerequisites.md) topic.
 
-NOTE: To host the portal, Docker daemon should be configured to run Windows containers.
+:::note
+To host the portal, Docker daemon should be configured to run Windows containers.
+:::
+
 
 **To create a portal:**
 
@@ -327,8 +333,11 @@ Creating an SSPR portal is similar to creating a standard Directory Manager port
 select the **Password Center Mode** check box on the Create GroupID Application page. For details,
 see Step 11 in the he Create a Portal in Native IIS topic.
 
-NOTE: Directory Manager does not support the upgrade of a Password Center portal (from a previous
+:::note
+Directory Manager does not support the upgrade of a Password Center portal (from a previous
 version) to an SSPR portal. You have to create the SSPR portal as a new portal.
+:::
+
 
 ## Deploy Another Instance of a Portal
 
@@ -341,8 +350,11 @@ server and design configurations, while only deployment details differ. For exam
 serve the same identity stores and have the same display and search-related configurations. Changing
 a shared setting propagates to all deployment instances of the portal.
 
-NOTE: A SSPR portal does not have design settings. Hence, only server settings are shared across
+:::note
+A SSPR portal does not have design settings. Hence, only server settings are shared across
 multiple instances.
+:::
+
 
 **To deploy an instance:**
 

@@ -21,8 +21,11 @@ The following table lists the options available on the **General** tab for each 
 | Custom                      | By default, it includes all object options for Messaging System Recipients, Computers, and Users, Contact, and Groups. For this reason, the General tab does not display any option for this object type.                                                                                                                                                                                                                   |
 | Users, Contacts and Groups  | - Users – Includes users - Contacts – Includes contacts - Groups – Includes groups                                                                                                                                                                                                                                                                                                                                          |
 
-NOTE: The Computer and Contact object types are not supported in a Microsoft Entra ID identity
+:::note
+The Computer and Contact object types are not supported in a Microsoft Entra ID identity
 store.
+:::
+
 
 Preview
 

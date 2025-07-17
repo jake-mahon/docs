@@ -8,7 +8,10 @@ sidebar_position: 10
 
 Using this API you can create a contact in the specified identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 

@@ -40,7 +40,10 @@ displayed, showcasing the following information:
 
     ![fileservercard](/img/product_docs/directorymanager/11.1/portal/entitlement/fileservercard.webp)
 
-NOTE: Date format: mm/dd/yyyy
+:::note
+Date format: mm/dd/yyyy
+:::
+
 
 - For child folders, the path is as: servername.parentsharedfoldername.
 

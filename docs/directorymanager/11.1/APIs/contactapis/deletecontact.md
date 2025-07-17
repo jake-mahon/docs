@@ -8,7 +8,10 @@ sidebar_position: 20
 
 Using this API you can delete a specified contact from the specified identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 

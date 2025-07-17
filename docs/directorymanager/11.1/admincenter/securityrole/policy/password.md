@@ -64,8 +64,11 @@ following:
 
 With authentication disabled, role members cannot sign into Directory Manager.
 
-NOTE: The authentication lockout policy only disables the user account in Directory Manager. It does
+:::note
+The authentication lockout policy only disables the user account in Directory Manager. It does
 not disable it in the provider, such as Active Directory.
+:::
+
 
 **To specify an authentication lockout policy:**
 

@@ -22,7 +22,10 @@ restored.
 
 A Smart Group and Dynasty is restored as a static group with no members and no query.
 
-NOTE: Tombstone groups are not available in Microsoft Entra ID.
+:::note
+Tombstone groups are not available in Microsoft Entra ID.
+:::
+
 
 ## Logical Deletion
 
@@ -87,10 +90,19 @@ Follow the steps to restore a deleted group.
 
 The group / groups will be restored in the directory.
 
-NOTE: You can only restore a physically deleted group from the Recycle Bin if the service account
+:::note
+You can only restore a physically deleted group from the Recycle Bin if the service account
 for the connected identity store has the ‘Reanimate Tombstone’ permissions.
+:::
 
-NOTE: While all searches in Directory Manager are catered through Elasticsearch, the Recycle Bin is
+
+:::note
+While all searches in Directory Manager are catered through Elasticsearch, the Recycle Bin is
 an exception, as it fetches data from the directory.
+:::
 
-NOTE: The Recycle Bin does not display data for a Microsoft Entra ID based identity store.
+
+:::note
+The Recycle Bin does not display data for a Microsoft Entra ID based identity store.
+
+:::

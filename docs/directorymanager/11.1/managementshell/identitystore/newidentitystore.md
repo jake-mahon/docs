@@ -66,7 +66,10 @@ credentials for the new identity store.
 New-IdentityStore -IdentityStoreType ActiveDirectory -IdentityStoreName DemoAdStore2 -Credential $cred -Domain pucit.local
 ```
 
-NOTE: For an Active Directory based identity store, Domain parameter is mandatory.
+:::note
+For an Active Directory based identity store, Domain parameter is mandatory.
+:::
+
 
 Example 2:
 
@@ -86,8 +89,11 @@ This example creates an Microsoft Entra ID based identity store.
 New-IdentityStore -IdentityStoreType MicrosoftAzure -IdentityStoreName DemoAzStore1 -UserName admin@mydomain.onmicrosoft.com -Password password123 -Domain mydomain.onmicrosoft.com -AppId 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
 ```
 
-NOTE: In case of an Microsoft Entra ID based identity store, Domain and AppId parameters are
+:::note
+In case of an Microsoft Entra ID based identity store, Domain and AppId parameters are
 mandatory.
+:::
+
 
 Example 4:
 
@@ -97,8 +103,11 @@ This example creates a Google Apps (Google Workspace) based identity store.
 New-IdentityStore -IdentityStoreType GoogleWorkspace -IdentityStoreName DemoGStore1 -UserName svcacc@myproject-111222.iam.gserviceaccount.com -AdminUsername admin@mydomain.com -P12CertificatePath 'C:\Keys\gsuite\key.p12'
 ```
 
-NOTE: For Google Apps based identity store, AdminUserName and P12CertificatePath parameters are
+:::note
+For Google Apps based identity store, AdminUserName and P12CertificatePath parameters are
 mandatory. However, ‘Password’ parameter is ignored.
+:::
+
 
 Example 5:
 

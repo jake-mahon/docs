@@ -29,8 +29,11 @@ password must conform to the rules of the applied password policy for the identi
 
 Step 4 – Click **Change Password**.
 
-NOTE: MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If
+:::note
+MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If
 they try to use the option, the following message is displayed:.
+:::
+
 
 ![Admin Center Change Password error message for an Entra ID user](/img/product_docs/directorymanager/11.1/admincenter/general/changepassword.webp)
 

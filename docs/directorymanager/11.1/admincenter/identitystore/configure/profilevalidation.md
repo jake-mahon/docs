@@ -32,16 +32,22 @@ When performing profile validation, a user can:
   the request. If any of them accepts it, the user’s manager is changed. If any approver rejects it,
   the user remains with Manager A.
 
-    NOTE: This is the default flow of the _change manage_ workflow for the identity store. If the
+    :::note
+    This is the default flow of the _change manage_ workflow for the identity store. If the
     administrator disables the workflow or changes the approver, the flow changes accordingly.
+    :::
+
 
 - Transfer his or her direct reports to another manager - When a user transfers his or her direct
   report, the new manager is notified by email to accept or reject the transfer. If the manager
   accepts it, the direct report is transferred to him or her. If the manager rejects the transfer,
   the direct report remains with the old manager.
 
-    NOTE: This is the default flow of the _transfer a user_ workflow for the identity store. If the
+    :::note
+    This is the default flow of the _transfer a user_ workflow for the identity store. If the
     administrator disables the workflow or changes the approver, the flow changes accordingly.
+    :::
+
 
 - Terminate his or her direct reports - When a user terminates his or her direct report, it takes
   effect immediately when the _terminate a user_ workflow is disabled. If enabled, a request is sent

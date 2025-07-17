@@ -32,8 +32,11 @@ You can disable a role to prevent its members from signing into Directory Manage
 enable a disabled role to allow its members to access Directory Manager. By default, all new roles
 created for an identity store are enabled.
 
-NOTE: To prevent an individual role member from accessing Directory Manager, you must remove him or
+:::note
+To prevent an individual role member from accessing Directory Manager, you must remove him or
 her from the group or container specified as role criteria.
+:::
+
 
 **To enable or disable a security role:**
 

@@ -14,8 +14,11 @@ Directory Manager provides a default notification template for enrollment/authen
 in various languages. You can change the subject line and the body text in the template for any of
 these languages.
 
-NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the
+:::note
+Before configuring Email authentication, make sure that an SMTP server is configured for the
 identity store. See the [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
+:::
+
 
 What do you want to do?
 

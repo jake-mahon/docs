@@ -72,8 +72,11 @@ Managers OUs are children of the Info Tech OU, then any policy assigned to the I
 applies to the two child OUs. If this behavior is not desired, then you can assign a different
 policy to a child OU.
 
-NOTE: Different assignment types can be used for a single policy. For example, you may assign users
+:::note
+Different assignment types can be used for a single policy. For example, you may assign users
 to a policy by both OU and group at the same time.
+:::
+
 
 1. Click **+Add Container** to add groups for the policy assignment.
 2. On the Add Container (s) dialog box, click **+** to expand the Entire Directory.

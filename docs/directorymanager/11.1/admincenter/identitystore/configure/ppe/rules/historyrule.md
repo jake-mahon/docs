@@ -30,10 +30,13 @@ number of days.
     minute with Argon2. All numbers are approximate. Use Argon2 if your domain controllers can
     handle the load.
 
-    NOTE: Changing the **Hash function** does not modify existing history records. It sets the
+    :::note
+    Changing the **Hash function** does not modify existing history records. It sets the
     function to be used for new password history records. If a user has Argon2 and SHA-256 hashes in
     their password history, then Password Policy Enforcer calculates both the Argon2 and SHA-256
     hashes during a password change to ensure the new password is not in the password history.
+    :::
+
 
 - Enforce this rule when a password is reset – The History rule is normally not enforced when a
   password is reset. Select the check box to override the default behavior.

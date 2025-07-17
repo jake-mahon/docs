@@ -23,9 +23,15 @@ Definition Language) and DML (Data Manipulation Language) commands. However, unl
 Authentication mode setup, you do not need to add the account to the _db_owner_ role because SQL
 Server _db_creator_ is mapped to the _db_owner_ database role by default.
 
-NOTE: Note: For SQL Server 2016, 2017, 2019 and 2022 families, every SQL Server account is assigned
+:::note
+:::note
+For SQL Server 2016, 2017, 2019 and 2022 families, every SQL Server account is assigned
 the _public_ role. Therefore, the Directory Manager SQL account belongs to two server roles:
 _db_creator_ and _public_.
+:::
+:::
+
+
 
 To add the Directory Manager SQL account to the db_creator role:
 

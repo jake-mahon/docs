@@ -8,7 +8,10 @@ sidebar_position: 50
 
 You can use this API to delete a user-defined workflow route.
 
-NOTE: You cannot delete a system workflow.
+:::note
+You cannot delete a system workflow.
+:::
+
 
 ## Endpoint
 

@@ -16,9 +16,12 @@ Furthermore, this tab shows the direct reports of this user or contact. Direct r
 users or contacts that report directly to the user or contact. You can add direct reports as well as
 transfer or terminate a direct report.
 
-NOTE: A user can also manage his/her direct reports and change his/her primary manager while
+:::note
+A user can also manage his/her direct reports and change his/her primary manager while
 validating his/her profile in the portal. See the
 [Validate your profile](/docs/directorymanager/11.1/portal/user/manage/validateprofile.md) topic.
+:::
+
 
 ## Dotted line management
 
@@ -30,9 +33,12 @@ When a user changes his or her primary or additional manager, the primary manage
 through email to accept or reject the request. If the primary manager accepts, the user’s manager is
 changed. If the primary manager rejects the request, the user remains with the manager.
 
-NOTE: This is the default flow for the ‘Workflow to Change Manager’ workflow, with the primary
+:::note
+This is the default flow for the ‘Workflow to Change Manager’ workflow, with the primary
 manager set as the approver. If the administrator disables the workflow or changes the workflow
 approver, the flow changes accordingly. See the [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic.
+:::
+
 
 Manager
 
@@ -57,9 +63,12 @@ groups and contacts.
     primary manager and validate his or her profile. If the direct report rejects the transfer, he
     or she is transferred back to the old manager, i.e., you.
 
-    NOTE: This is the default flow for the ‘Workflow to Transfer a User’ workflow, with the direct
+    :::note
+    This is the default flow for the ‘Workflow to Transfer a User’ workflow, with the direct
     report set as the approver. If the administrator disables the workflow or changes the approver,
     the flow changes accordingly. See the [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic.
+    :::
+
 
 - To terminate a direct report, select it and click **Terminate**.
 
@@ -86,9 +95,12 @@ This section displays a list of the additional managers of the user or contact.
 | Beginning    | Shows the beginning date of the temporary addition or removal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Ending       | Shows the ending date of the temporary addition or removal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-NOTE: For each column, a filter is also available that lets you filter records based on a criterion.
+:::note
+For each column, a filter is also available that lets you filter records based on a criterion.
 For example; to show objects whose display names start with D, type D in the box under the Name
 header and press Enter.
+:::
+
 
 The Managed By Life Cycle job updates the temporary managers of users/contacts by adding and
 removing temporary additional managers on the specified dates.

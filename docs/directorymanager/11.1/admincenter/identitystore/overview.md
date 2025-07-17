@@ -32,5 +32,7 @@ Synchronize jobs for bulk user management tasks.
 You can also link Active Directory and Microsoft Entra ID identity stores to sync identical objects
 there.
 
-NOTE: You can define a custom identity store for non-supported identity providers in Directory
+:::note
+You can define a custom identity store for non-supported identity providers in Directory
 Manager. Contact Netwrix Client Services for support.
+:::

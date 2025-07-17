@@ -77,10 +77,13 @@ Step 10 – On the **All roles** page, add your registered application to a dire
         Administrators can change passwords for users, Helpdesk administrators, and other User
         Account Administrators only.
 
-        NOTE: By default, the Directory Manager Administrator security role in a Microsoft Entra
+        :::note
+        By default, the Directory Manager Administrator security role in a Microsoft Entra
         IDidentity store binds to Global Administrator. If minimum role assignment for the service
         account is used, the default Admin Security role criteria should also be changed to the
         _User Account Administrators_ group.
+        :::
+
 
 Step 11 – Click **Add**.
 

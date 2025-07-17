@@ -24,9 +24,12 @@ be linked to flows.
 
 Consequently, when the identity store workflow is triggered, the linked flow is auto triggered.
 
-NOTE: When the flow is approved in Power Automate, the identity store workflow request is auto
+:::note
+When the flow is approved in Power Automate, the identity store workflow request is auto
 approved. However, if the identity store workflow request is approved first, the flow would not be
 auto approved.
+:::
+
 
 ### Connect an Identity Store to Power Automate
 
@@ -34,9 +37,12 @@ To connect an identity tore to Power Automate, you must configure a Power Automa
 identity store. This will establish a communication channel between the Directory Manager Data
 service and the Power Automate platform.
 
-NOTE: Make sure the Directory Manager server is deployed on a machine that is exposed over the
+:::note
+Make sure the Directory Manager server is deployed on a machine that is exposed over the
 Internet, as Power Automate needs to communicate with the Directory Manager server for processing
 requests. Power Automate cannot communicate with a server deployed on a machine behind NAT.
+:::
+
 
 **To configure a Power Automate client for an identity store:**
 
@@ -60,9 +66,12 @@ requests. Power Automate cannot communicate with a server deployed on a machine 
     - **Client ID** - the application ID assigned to the Directory Manager application when you
       registered it in Microsoft Entra Admin Center.
 
-    NOTE: The Directory Manager application in Microsoft Entra Admin Center must have the following
+    :::note
+    The Directory Manager application in Microsoft Entra Admin Center must have the following
     permissions for Power Automate:  
-     ![pa_permissions](/img/product_docs/directorymanager/11.1/admincenter/workflow/pa_permissions.webp)
+    ![pa_permissions](/img/product_docs/directorymanager/11.1/admincenter/workflow/pa_permissions.webp)
+    :::
+
 
 7. Click **Save** on the **Advanced Workflow Settings** page.
 

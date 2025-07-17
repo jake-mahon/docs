@@ -59,7 +59,10 @@ the parent OU as well as from its child OUs as well.
 Upgrade-Group -SearchContainerScopeList "1" -SearchContainer "GIDsmart1""OU=Jobs,DC=Demo1,DC=com" GroupType "3"
 ```
 
-NOTE: The group types 4 and 5 which are for middle and leaf dynasties are not supported in this
+:::note
+The group types 4 and 5 which are for middle and leaf dynasties are not supported in this
 commandlet. See the [Parameters](/docs/directorymanager/11.1/managementshell/parameters.md) topic for additional information on
 the supported parameters. See the [Parameters](/docs/directorymanager/11.1/managementshell/parameters.md) topic to get information
 about the parameters which you can use in the Directory Manager Management Shell commandlets.
+
+:::

@@ -36,9 +36,12 @@ The user type assigned to the user in Microsoft Entra ID, such as _Member_ or _G
   external collaborator, partner, customer, or similar user. Such a user wouldn't be expected to
   receive a CEO's internal memo, or receive company benefits, for example.
 
-NOTE: The User Type has no link to the user login function, the directory role of the user, and so
+:::note
+The User Type has no link to the user login function, the directory role of the user, and so
 on. It simply indicates the user's relationship to the host organization and allows the organization
 to enforce policies that depend on this property.
+:::
+
 
 Object ID
 

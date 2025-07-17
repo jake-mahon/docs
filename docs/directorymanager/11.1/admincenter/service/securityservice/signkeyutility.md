@@ -45,7 +45,10 @@ folder.
 Using Netwrix Directory Manager (formerly GroupID) Signing Key Utility you can generate a new
 signing key.
 
-RECOMMENDED: Generate the new signing key on your Directory Manager server machine.
+:::info
+Generate the new signing key on your Directory Manager server machine.
+:::
+
 
 Follow the steps to generate a new signing key.
 

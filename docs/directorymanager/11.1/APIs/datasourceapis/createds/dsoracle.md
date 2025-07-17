@@ -28,8 +28,11 @@ Oracle server or a specific database on a server. This data source can be used i
 source and destination provider in Synchronize jobs. This provider supports dynamic schema
 detection.
 
-NOTE: Oracle client must be installed to use this provider. Make sure you reboot your computer after
+:::note
+Oracle client must be installed to use this provider. Make sure you reboot your computer after
 installing the Oracle client.
+:::
+
 
 ```
 {

@@ -150,9 +150,12 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
        creating a new object. Fields that are not selected are continually updated. Key fields are
        selected by default as New Only fields as a requirement; you cannot change this selection.
 
-        NOTE: For Microsoft Entra ID objects, primary key fields are:  
-         (1) UserPrincipleName attribute for “User/Mailbox” object  
-         (2) DisplayName attribute for “Group” object.
+        :::note
+        For Microsoft Entra ID objects, primary key fields are:  
+        (1) UserPrincipleName attribute for “User/Mailbox” object  
+        (2) DisplayName attribute for “Group” object.
+        :::
+
 
     4. Select **Show field reference** check box to view a list of attributes from the schema of the
        source provider.

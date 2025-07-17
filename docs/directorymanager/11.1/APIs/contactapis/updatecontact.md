@@ -9,7 +9,10 @@ sidebar_position: 60
 Use this API if you want to update a contact's attribute(s) and their value(s) in a specified
 identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 

@@ -40,8 +40,11 @@ Houston, select the City attribute from this list.
 From here, select the condition that identifies search results. The following table lists the
 available conditions:
 
-NOTE: Depending on configurations made by the GroupID administrator for the portal, all of the
+:::note
+Depending on configurations made by the GroupID administrator for the portal, all of the
 following or specific conditions will be displayed in the list.
+:::
+
 
 The condition list for query based searches may vary.
 

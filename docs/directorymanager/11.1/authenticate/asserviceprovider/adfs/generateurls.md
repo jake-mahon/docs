@@ -35,8 +35,11 @@ Step 3 – The URL displayed in the Consumer URL box is a unique identifier for 
 It is used to set up relying party trust in AD FS. Click **Copy** to copy it. Then paste it in a
 file, preferably a text file, to save it.
 
-NOTE: On upgrade to Directory Manager 11, you must generate the consumer URL again for the Directory
+:::note
+On upgrade to Directory Manager 11, you must generate the consumer URL again for the Directory
 Manager client configured with AD FS, and update it in AD FS.
+:::
+
 
 ## Generate Entity ID/Audience URL
 

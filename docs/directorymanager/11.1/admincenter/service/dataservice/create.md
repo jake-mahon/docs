@@ -129,7 +129,10 @@ container for the service there and run the service from within that container.
 For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.1/admincenter/applications/dockerprerequisites.md) topic.
 
-NOTE: To host the Data service, Docker daemon should be configured to run Windows containers.
+:::note
+To host the Data service, Docker daemon should be configured to run Windows containers.
+:::
+
 
 Follow the steps to create a Data service.
 

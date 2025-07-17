@@ -57,8 +57,11 @@ account, or click **Edit** next to the identity store name to connect to a diffe
 
 Step 4 – After providing your credentials, click **Sign In**.
 
-NOTE: Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their username
+:::note
+Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their username
 and password. They will be authenticated through the SAML provider configured in Directory Manager.
+:::
+
 
 With a SAML Provider
 

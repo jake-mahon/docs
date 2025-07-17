@@ -59,8 +59,11 @@ destination fields and apply transformations.
 Step 8 – On the [Schedule Job and Notifications](/docs/directorymanager/11.1/portal/synchronize/create/scheduleandnotification.md) page, choose a schedule
 for a job and set up notification settings.
 
-NOTE: After creating the job, you can modify the schedule for the job and you can also create a new
+:::note
+After creating the job, you can modify the schedule for the job and you can also create a new
 schedule.
+:::
+
 
 Step 9 – Select **Preview job when finished** checkbox to preview the job.
 

@@ -15,7 +15,10 @@ assume a user links his or her accounts in Identity Store A and Identity Store B
 Account authentication type, the user can unlock the Identity Store A account by providing the
 credentials of the Identity Store B account and vice versa.
 
-NOTE: The Linked Account authentication type is available for multifactor authentication only.
+:::note
+The Linked Account authentication type is available for multifactor authentication only.
+:::
+
 
 What do you want to do?
 

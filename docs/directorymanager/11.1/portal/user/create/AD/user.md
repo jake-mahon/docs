@@ -8,11 +8,17 @@ sidebar_position: 10
 
 In Directory Manager portal, you can create mail-enabled and non mail-enabled users.
 
-NOTE: In a Microsoft Entra ID based identity store, users can only be created as non mail-enabled.
+:::note
+In a Microsoft Entra ID based identity store, users can only be created as non mail-enabled.
 Create a mailbox as an alternative to a mail-enabled user.
+:::
 
-NOTE: Pages and fields on the Create User wizard may vary from those discussed here, since the
+
+:::note
+Pages and fields on the Create User wizard may vary from those discussed here, since the
 administrator can customize the wizard by adding or removing pages and fields.
+:::
+
 
 ## Create a mail-enabled user in Active Directory
 
@@ -32,9 +38,12 @@ Step 4 – Use the [Exchange page](/docs/directorymanager/11.1/portal/user/creat
 Step 5 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and then click Finish to complete
 the wizard.
 
-NOTE: If the Directory Manager administrator has specified the user creation action for review, your
+:::note
+If the Directory Manager administrator has specified the user creation action for review, your
 changes will not take effect until verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic for additional information.
+:::
+
 
 ## Create a non mail-enabled user in Active Directory
 
@@ -57,6 +66,9 @@ A non mail-enabled user does not have an email address.
 Step 5 – On the [Summary Page](/docs/directorymanager/11.1/portal/user/create/AD/summary.md), review the settings and then click Finish to complete
 the wizard.
 
-NOTE: If the Directory Manager administrator has specified the user creation action for review, your
+:::note
+If the Directory Manager administrator has specified the user creation action for review, your
 changes will not take effect until verified by an approver. See the
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md) topic for additional information.
+
+:::

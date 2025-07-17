@@ -13,7 +13,10 @@ You can customize the search forms for a portal. You can:
 - Remove fields
 - Change the arrangement of fields on a page
 
-NOTE: You can only customize existing search forms; you cannot add new ones.
+:::note
+You can only customize existing search forms; you cannot add new ones.
+:::
+
 
 ### Customizable Search Forms
 

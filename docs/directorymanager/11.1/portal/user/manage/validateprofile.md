@@ -32,7 +32,10 @@ these accounts, users’ managers must send a request to the administrator or He
 administrator or Helpdesk user can extend the profile validation period on the
 [Disabled Users](/docs/directorymanager/11.1/portal/user/manage/disableduser.md) page of the portal.
 
-NOTE: For notifications to be sent, an SMTP server must be configured for the identity store.
+:::note
+For notifications to be sent, an SMTP server must be configured for the identity store.
+:::
+
 
 ### Profile Validation for New Users
 
@@ -79,8 +82,11 @@ options for each of your direct reports:
 Step 5 – After verifying and updating the information, click the **Validate Now** button. Your
 profile is validated and a message is displayed that your changes have been saved.
 
-NOTE: You can also manage your direct reports and managers on the Organization tab of the my profile
+:::note
+You can also manage your direct reports and managers on the Organization tab of the my profile
 window.
+:::
+
 
 ## Change your primary manager
 
@@ -93,9 +99,12 @@ When you change your primary manager (Manager A), then Manager A is notified by 
 reject the request. If Manager A accepts, your manager is changed. If Manager A rejects the request,
 you remain with Manager A and a notification is sent to you and Manager A.
 
-NOTE: This is the default flow of the ‘Workflow to Change Manager’ workflow. If the administrator
+:::note
+This is the default flow of the ‘Workflow to Change Manager’ workflow. If the administrator
 disables the workflow or changes the approver, the flow changes accordingly. See
 [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Transfer your direct report
 
@@ -104,9 +113,12 @@ transfer. If the direct report accepts the transfer, he or she has to select ano
 and validate his or her profile. If the direct report rejects the transfer, he or she is transferred
 back to the old manager, i.e., you.
 
-NOTE: This is the default flow of the ‘Workflow to Transfer a User’ workflow, with the direct report
+:::note
+This is the default flow of the ‘Workflow to Transfer a User’ workflow, with the direct report
 set as the workflow approver. If the administrator disables the workflow or changes the approver,
 the flow changes accordingly. See [Requests](/docs/directorymanager/11.1/portal/request/overview.md).
+:::
+
 
 ## Terminate your direct report
 

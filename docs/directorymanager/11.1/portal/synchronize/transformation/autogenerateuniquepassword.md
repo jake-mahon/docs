@@ -104,8 +104,11 @@ Step 13 – Select the Special Symbols check box if you want the password to con
 characters. When the check box is selected, the box next to it becomes available. You can specify
 special characters in the box that you want the password to contain.
 
-NOTE: For Active Directory destinations, if password complexity requirements are enabled for the
+:::note
+For Active Directory destinations, if password complexity requirements are enabled for the
 domain, then you must select three of the preceding four settings.
+:::
+
 
 Step 14 – Select the **Exclude similar symbols** check box if you do not want a special character to
 appear more than once in the password.
@@ -130,5 +133,8 @@ Use unique password generated dynamically against each row option on the Transfo
 dialog box, then the new password for each object is sent to the administrator by email when the job
 runs.
 
-NOTE: Notifications will be sent if an SMTP server and notification recipients have been configured
+:::note
+Notifications will be sent if an SMTP server and notification recipients have been configured
 for the destination identity store.
+
+:::

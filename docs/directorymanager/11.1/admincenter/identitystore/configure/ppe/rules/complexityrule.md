@@ -24,8 +24,11 @@ sets. Using several character types can make passwords more difficult to crack.
   mandatory rule can still be disabled when a passphrase is used. See the Passphrases topic for
   additional information.
 
-NOTE: The Complexity rule uses custom character set definitions from the Character rules, even if
+:::note
+The Complexity rule uses custom character set definitions from the Character rules, even if
 the Character rules are disabled.
+:::
+
 
 This default character set contains the following:
 

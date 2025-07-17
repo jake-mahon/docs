@@ -31,8 +31,11 @@ stores for creating an identity store:
 - Generic LDAP
 - Google Workspace
 
-NOTE: The commandlets covered in this section are for Active Directory and Microsoft Entra ID based
+:::note
+The commandlets covered in this section are for Active Directory and Microsoft Entra ID based
 identity stores.
+:::
+
 
 ## Access Directory Manager Management Shell
 
@@ -48,14 +51,20 @@ connect to.
 
 ![Login page](/img/product_docs/directorymanager/11.1/managementshell/login.webp)
 
-NOTE: If your required identity store is not listed, contact the Directory Manager administrator.
+:::note
+If your required identity store is not listed, contact the Directory Manager administrator.
+:::
+
 
 Step 3 – In the **Username** and **Password** boxes, provide the user name and password of your
 identity store account and click **Sign In**.
 
 ![Login page](/img/product_docs/directorymanager/11.1/managementshell/login-2.webp)
 
-NOTE: Click the **Edit** icon if you want to select another identity store to connect to.
+:::note
+Click the **Edit** icon if you want to select another identity store to connect to.
+:::
+
 
 The Management Shell window appears as follows:
 
@@ -100,8 +109,11 @@ enable-psremoting
 
 ![powershellwindow](/img/product_docs/directorymanager/11.1/managementshell/powershellwindow.webp)
 
-NOTE: By default, on Windows Server 2016, Windows PowerShell remoting is enabled. Use this command
+:::note
+By default, on Windows Server 2016, Windows PowerShell remoting is enabled. Use this command
 to re-enable remoting on Windows Server 2016 if it becomes disabled.
+:::
+
 
 You have to run this command only one time on each computer that will receive commands. You do not
 have to run it on computers that only send commands. Because the configuration starts listeners, it

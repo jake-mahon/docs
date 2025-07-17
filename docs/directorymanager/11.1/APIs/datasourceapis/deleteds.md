@@ -8,8 +8,11 @@ sidebar_position: 20
 
 This API can be used for deleting a specified data source.
 
-NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
+:::note
+Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
 using that data source.
+:::
+
 
 ## Endpoint
 

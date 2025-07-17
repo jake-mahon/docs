@@ -52,7 +52,10 @@ required.
 
 You can allow or restrict a group from receiving emails from specified recipients.
 
-NOTE: This feature is not available for groups in a Microsoft Entra ID based identity store.
+:::note
+This feature is not available for groups in a Microsoft Entra ID based identity store.
+:::
+
 
 1. In Directory Manager portal, click **Groups** in the left navigation pane, select **My Groups**.
 

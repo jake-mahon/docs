@@ -21,10 +21,13 @@ Helpdesk users with restricted access also use authentication type(s) to authent
 before resetting their password or unlocking their identity store account. See the
 [Set Restricted Mode](/docs/directorymanager/11.1/admincenter/securityrole/policy/helpdesk.md#set-restricted-mode) topic.
 
-NOTE: Multifactor authentication defined in Microsoft Entra Admin Center does not integrate with MFA
+:::note
+Multifactor authentication defined in Microsoft Entra Admin Center does not integrate with MFA
 in Directory Manager. See the
 [Multifactor Authentication Policy](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#multifactor-authentication-policy)
 topic.
+:::
+
 
 What do you want to do?
 
