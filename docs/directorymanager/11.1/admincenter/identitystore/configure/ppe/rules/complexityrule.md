@@ -32,12 +32,13 @@ the Character rules are disabled.
 
 This default character set contains the following:
 
-| Rule        | Default character set                              |
-| ----------- | -------------------------------------------------- |
-| Alpha Lower | Lowercase alphabetic (a - z)                       |
-| Alpha Upper | Uppercase alphabetic (A - Z)                       |
+| Rule        | Default character set |
+| ----------- | --- |
+| Alpha Lower | Lowercase alphabetic (a - z) |
+| Alpha Upper | Uppercase alphabetic (A - Z) |
 | Alpha       | Uppercase and lowercase alphabetic (a - z & A - Z) |
-| Numeric     | Numerals (0 - 9)                                   |
-| Special     | All characters not included above                  |
-| High        | All characters above ANSI 126                      |
-| Custom      | No default characters                              |
+| Numeric     | Numerals (0 - 9) |
+| Special     | All characters not included above |
+| High        | All characters above ANSI 126 |
+| Custom      | No default characters |
+

@@ -9,7 +9,10 @@ sidebar_position: 80
 The taxonomies are displayed in a hierarchical structure on the left hand side of the page, allowing
 for specific terms to be selected and managed. The dropdown list shows all available taxonomies.
 
-**NOTE:** For the SharePoint Terms, they will be grouped by the SharePoint Term Group.
+:::note
+For the SharePoint Terms, they will be grouped by the SharePoint Term Group.
+:::
+
 
 ![treeview](/img/product_docs/dataclassification/5.7/admin/taxonomies/treeview.webp)
 

@@ -16,11 +16,11 @@ The contact object type is not supported in a Microsoft Entra ID based identity 
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 

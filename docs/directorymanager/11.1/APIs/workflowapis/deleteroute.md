@@ -15,11 +15,11 @@ You cannot delete a system workflow.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes?ids=1
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes?ids=1**
 
 ## HTTP Methods
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 

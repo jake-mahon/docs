@@ -84,16 +84,6 @@ function in Directory Manager. It:
 - Deletes the profile validation date if it is x number of days old, provided that the ‘Clear the
   validation data for disabled users, x number of days after they are disabled’ setting is applied.
 
-What do you want to do?
-
-- Specify a Group for Profile Validation
-- Set a Profile Validation Life Cycle Period
-- Specify a Profile Validation Period for New Users
-- Specify a Duration for the Extension Period
-- Specify Reminder Notification Settings
-- Identify User Accounts Expired due to Non-Profile Validation
-- Apply Settings to Clear the Validation Date
-
 ## Specify a Group for Profile Validation
 
 By default, profile validation is not enabled for an identity store, and therefore does not apply to
@@ -114,7 +104,7 @@ required to validate their profiles. Only one group can be specified at a time.
     - Type a search string in the box. Directory Manager displays all groups with names that start
       with the string. Click **Select** for a group to select it for profile validation.
 
-        Or
+**Or**
 
     - Click **Advanced** to search a group by different parameters, such as name, display name, and
       description. Enter a search string and click **Search**. Groups matching the string are

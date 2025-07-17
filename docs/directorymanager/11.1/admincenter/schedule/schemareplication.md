@@ -68,8 +68,11 @@ Please note the following while selecting a Scheduler service:
 - If a schedule is run manually on the Admin Center, then the Scheduler service of that instance
   will be used.
 
-**CAUTION:** In case of multiple Scheduler services, you must bind the same service with the Schema
+:::warning
+In case of multiple Scheduler services, you must bind the same service with the Schema
 Replication schedules in all the identity stores.
+:::
+
 
 Step 7 – The Triggers area displays the default triggering frequency for the schedule.
 

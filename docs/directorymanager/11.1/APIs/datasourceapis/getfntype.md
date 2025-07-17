@@ -11,11 +11,11 @@ of a data source(s), let's say source file name(s) residing in OneDrive for Exce
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetFilesNameByType
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetFilesNameByType**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

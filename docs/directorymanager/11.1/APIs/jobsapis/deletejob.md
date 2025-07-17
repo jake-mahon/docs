@@ -14,11 +14,11 @@ See the [Deleting a Job](/docs/directorymanager/11.1/portal/synchronize/manage/j
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs?jobids=1&jobids=2
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs?jobids=1&jobids=2**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 

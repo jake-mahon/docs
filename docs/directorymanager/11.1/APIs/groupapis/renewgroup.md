@@ -10,11 +10,11 @@ It renews a group, identity of which is provided in the endpoint URL.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}/Renew?ReplicationRequired=true
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}/Renew?ReplicationRequired=true**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Response Syntax
 

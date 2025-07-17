@@ -10,11 +10,11 @@ This API updates a user's information in the specified identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 

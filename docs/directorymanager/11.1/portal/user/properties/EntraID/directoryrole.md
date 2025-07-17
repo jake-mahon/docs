@@ -11,7 +11,7 @@ change the role or modify the permissions assigned to the current role.
 
 Roles are: Global Administrator, Limited Administrator, and User.
 
-Directory Roles
+**Directory Roles**
 
 Displays the role assigned to the user on the Microsoft Entra Admin Center.
 

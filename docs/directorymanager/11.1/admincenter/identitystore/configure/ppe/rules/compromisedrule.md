@@ -14,4 +14,7 @@ they are vulnerable to credential stuffing attacks.
 - Type path to your compromised passwords base files into the text box. The path can contain
   environment variables like %SystemRoot%.
 
-    **CAUTION:** Using shared hash files degrades performance, and could jeopardize security.
+    :::warning
+    Using shared hash files degrades performance, and could jeopardize security.
+    
+    :::

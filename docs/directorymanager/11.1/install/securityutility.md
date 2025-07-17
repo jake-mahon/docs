@@ -13,7 +13,7 @@ The NDM11-ADV-2025-014 utility is used to:
   hidden from end-users. This account is used to authenticate from Security Service for the
   Replication service, Email service, and Scheduler service.
 
-Downloads
+**Downloads**
 
 - Click [here](https://releases.netwrix.com/products/directorymanager/11.1/NDM11-ADV-2025-014-Utility.zip) to
   download NDM11-ADV-2025-014-Utility.

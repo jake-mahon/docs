@@ -23,7 +23,7 @@ the role members only.
 
 Let's say the administrator has defined the following default criteria in the policy:
 
-department is exactly HR
+**department is exactly HR**
 
 You can add another row of filter criteria in the portal query designer window, if need be.
 
@@ -95,20 +95,20 @@ To select a record, click the arrow icon next to it and click **Select Row**.
 
 Use this button to clear the given criteria.
 
-Preview
+**Preview**
 
 Enables you to preview the results returned with the criteria specified on all tabs of the Query
 Designer dialog box. This is a check to ensure the accuracy of data before changes are committed to
 the directory.
 
-OK
+**OK**
 
 Saves settings and closes the dialog box.
 
-Cancel
+**Cancel**
 
 Discards settings and closes the dialog box.
 
-LDAP Query
+**LDAP Query**
 
 View the provider query in the LDAP Query box.

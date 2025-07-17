@@ -69,9 +69,13 @@ Licenses for certain add-ons are dependent on other licenses, such as the Group 
 license is dependent on the Group Usage Service license, which in turn is dependent on the Group
 Management license.
 :::
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/dev
 
 
-What happens when your license expires
+**What happens when your license expires**
 
 When a license expires, its respective functions get read-only but you can configure certain
 settings, such as create identity stores, create data sources, and define replication settings.

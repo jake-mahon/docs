@@ -72,21 +72,21 @@ store.
 Click this button to select the containers to search in. The query would search for objects only in
 this container and its sub-containers to determine a group’s membership.
 
-Preview
+**Preview**
 
 Enables you to preview the results returned with the criteria specified on all tabs of the Query
 Designer dialog box. This is a check to ensure the accuracy of data before changes are committed to
 the directory.
 
-OK
+**OK**
 
 Saves settings and closes the dialog box.
 
-Cancel
+**Cancel**
 
 Discards settings and closes the dialog box.
 
-LDAP Query
+**LDAP Query**
 
 View the provider query in the LDAP Query box.
 

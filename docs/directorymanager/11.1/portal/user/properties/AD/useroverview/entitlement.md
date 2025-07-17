@@ -28,7 +28,7 @@ An Entitlement schedule is automatically created for an identity store when:
 - A server is added for permission analysis on the **Entitlement** page in an Active Directory
   identity store.
 
-    Or
+**Or**
 
 - A SharePoint site is added for permission analysis on the **Entitlement** page in a Microsoft
   Entra ID identity store.

@@ -11,7 +11,7 @@ portal or Management Shell. Use this policy to:
 
 - Limit role members to create new directory objects in the OUs they reside in respectively.
 
-    OR
+**OR**
 
 - Specify one or more OUs to limit object creation to those. Separate OUs can be specified for
   different object types.

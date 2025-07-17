@@ -21,9 +21,12 @@ following actions are available for the **SharePoint** content source type:
       retention label as document metadata. These labels are typically used to automatically apply
       data protection policies to your documents.
 
-    **NOTE:** These actions require Microsoft Office 365 retention labels to be configured. See
+    :::note
+    These actions require Microsoft Office 365 retention labels to be configured. See
     [this Microsoft article](https://docs.microsoft.com/en-us/microsoft-365/compliance/labels) for
     details.
+    :::
+
 
     - **Filtered Targeted Meta Update** — this advanced action can be used to update a SharePoint
       property based on rules embedded in the taxonomy clues. Enter the document property to update

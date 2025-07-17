@@ -10,11 +10,11 @@ Use this API to create a user in a Microsoft Entra ID based identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

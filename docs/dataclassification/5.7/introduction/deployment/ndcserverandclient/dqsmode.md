@@ -18,7 +18,10 @@ distribution, as described below. Each clustered NDC Server will store its own s
 that is, **NDC Index** will be a distributed index. To assemble and combine data required for the
 search results, each NDC Server will automatically communicate with the other clustered servers.
 
-**NOTE:** All NDC Servers in the cluster will share a single NDC SQL database.
+:::note
+All NDC Servers in the cluster will share a single NDC SQL database.
+:::
+
 
 This functionality is implemented through the _QueryServer_ application installed together with NDC
 Server.
@@ -46,9 +49,12 @@ To arrange NDC Servers cluster and apply DQS mode
 3. Navigate to Settings → Utilities → DQS.
 4. Select Enable DQS.
 
-    **NOTE:** Once the DQS mode is enabled, you cannot roll back your configuration. Netwrix
+    :::note
+    Once the DQS mode is enabled, you cannot roll back your configuration. Netwrix
     strongly recommends to ensure that you have taken a full backup of your environment. If ready,
     confirm the DOS enablement operation when prompted.
+    :::
+
 
 5. On the DQS tab, click Add to add servers you prepared, one by one.
 
@@ -75,7 +81,10 @@ To arrange NDC Servers cluster and apply DQS mode
 9. On the SQL Database step, provide the name of the SQL Server instance that hosts NDC SQL database
    you configured for the first NDC Server.
 
-**NOTE:** Ignore the confirmation dialog on the existing schema in the selected SQL database.
+:::note
+Ignore the confirmation dialog on the existing schema in the selected SQL database.
+:::
+
 
 10. Complete the installation.
 11. Repeat steps 2 - 6 for every NDC Server, then review the list of servers to make sure the new
@@ -87,8 +96,11 @@ To arrange NDC Servers cluster and apply DQS mode
     re-collect data from the data sources —in order to re-distribute the content index across all
     NDC Servers in the cluster.
 
-**NOTE:** To force re-distribution when necessary, you can use the Re-Collect command available
+:::note
+To force re-distribution when necessary, you can use the Re-Collect command available
 after clicking **Run Cleaner** button on the **Settings > Core > Collector** tab.
+:::
+
 
 To review system health and check your configuration, use the product dashboards.
 [See Operations and Health Dashboards for more information.](/docs/dataclassification/5.7/dashboards.md)

@@ -81,7 +81,7 @@ Follow these steps to configure the settings for the providers:
 
         In **Table Name** box, enter the name of the table you want to use.
 
-        Souldn't user select instead of entering the name?
+**Souldn't user select instead of entering the name?**
 
     - Microsoft SQL Server
 

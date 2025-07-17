@@ -14,7 +14,7 @@ can do the following and more:
 - Associate a scheduled job for membership update with Smart Groups
 - Expire groups instantly or set an expiry policy to auto expire them later
 
-General
+**General**
 
 - [Search for groups](generalfunction.md#search-for-groups)
 - [View object properties](generalfunction.md#view-object-properties)
@@ -23,7 +23,7 @@ General
 - [Set email delivery restrictions](generalfunction.md#set-email-delivery-restrictions)
 - [The Send As and Send on Behalf features](/docs/directorymanager/11.1/portal/group/workingwithgroups/sendassendonbehalf.md)
 
-Group Membership
+**Group Membership**
 
 - [Add members to a group](groupmembershipfunction.md#add-members-to-a-group)
 - [Change the membership type of a group member ](groupmembershipfunction.md#change-the-membership-type-of-a-group-member)
@@ -33,14 +33,14 @@ Group Membership
 - [Export group members](groupmembershipfunction.md#export-group-members)
 - [Invite a guest user](groupmembershipfunction.md#invite-a-guest-user)
 
-Scheduled Updates
+**Scheduled Updates**
 
 - [Modify the query for a Smart Group/Dynasty](scheduleupdate.md#modify-the-query-for-a-smart-groupdynasty)
 - [Schedule periodic membership updates for Smart Groups/Dynasties](scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties)
 - [Update the membership of a Smart Group/Dynasty using the Update command](scheduleupdate.md#update-the-membership-of-a-smart-groupdynasty-using-the-update-command)
 - [View Smart Group Update job status](scheduleupdate.md#view-smart-group-update-job-status)
 
-Group Ownership
+**Group Ownership**
 
 - [Change a group's primary owner](groupownershipfunction.md#change-a-groups-primary-owner)
 - [Set additional owners for a group](groupownershipfunction.md#set-additional-owners-for-a-group)
@@ -49,7 +49,7 @@ Group Ownership
 - [Change an additional owner’s ownership type](groupownershipfunction.md#change-an-additional-owners-ownership-type)
 - [Set Exchange additional owners](groupownershipfunction.md#set-exchange-additional-owners)
 
-Join/Leave a Group
+**Join/Leave a Group**
 
 - [Join a group permanently](groupjoinleave.md#join-a-group-permanently)
 - [Join a group temporarily](groupjoinleave.md#join-a-group-temporarily)
@@ -57,14 +57,14 @@ Join/Leave a Group
 - [Leave a group temporarily](groupjoinleave.md#leave-a-group-temporarily)
 - [Join or leave a group on behalf of a direct report or peer](groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)
 
-Dynasties
+**Dynasties**
 
 - [Manage attributes for an Organizational/Geographical/Custom Dynasty](dynastyfunction.md#manage-attributes-for-an-organizationalgeographicalcustom-dynasty)
 - [Manage Managerial Dynasty structure](dynastyfunction.md#manage-managerial-dynasty-structure)
 - [Set attribute inheritance](dynastyfunction.md#set-attribute-inheritance)
 - [Modify alias and display name templates](dynastyfunction.md#modify-alias-and-display-name-templates)
 
-Group Expiry and Deletion
+**Group Expiry and Deletion**
 
 - [Group Expiry](/docs/directorymanager/11.1/portal/group/workingwithgroups/groupexpiry.md)
 - [Expire a group manually ](groupexpiryfunction.md#expire-a-group-manually)
@@ -73,7 +73,7 @@ Group Expiry and Deletion
 - [Renew an expired group](groupexpiryfunction.md#renew-an-expired-group)
 - [ Group Deletion](/docs/directorymanager/11.1/portal/group/workingwithgroups/groupdeletion.md)
 
-Query Designer Policy for Groups
+**Query Designer Policy for Groups**
 
 - [Modify the query for a Smart Group/Dynasty created by other role members](scheduleupdate.md#modify-the-query-for-a-smart-groupdynasty-created-by-other-role-members)
 - [Schedule periodic membership updates for Smart Groups/Dynasties](scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties)

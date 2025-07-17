@@ -84,7 +84,7 @@ provider.
 Step 3 – On the Job Templates page, click the **three vertical dots** icon on the template in the
 list and select **Create from Template**.
 
-OR
+**OR**
 
 Click the job template you want to use for the new job.
 

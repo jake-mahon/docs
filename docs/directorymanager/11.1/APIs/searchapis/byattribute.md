@@ -11,11 +11,11 @@ example, search a group based on the displayname attribute.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Searches
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Searches**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

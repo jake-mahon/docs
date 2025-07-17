@@ -158,13 +158,9 @@ Step 2 – Copy all data at the location.
 Step 3 – Create a new folder (ideally on a different drive) and paste the copied data into that
 folder.
 
-:::note
-:::note
-You do not need to create a backup of scheduled tasks that include report criteria. On
+Note: You do not need to create a backup of scheduled tasks that include report criteria. On
 restoring, the scheduled tasks remain functional for these reports.
 :::
-:::
-
 
 
 ### Restore

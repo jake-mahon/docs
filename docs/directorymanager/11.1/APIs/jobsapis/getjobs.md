@@ -10,11 +10,11 @@ Use this API to get information about jobs based on the filters provided in the 
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSyncJobs
+**https://machinename:4443/GroupIDDataService/api/DataSyncJobs**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

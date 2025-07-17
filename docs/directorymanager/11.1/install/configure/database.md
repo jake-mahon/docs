@@ -224,6 +224,6 @@ Click **Launch GroupID** to start using Directory Manager. The Sign In pa ge ope
 To login in to Directory Manager Admin Center for the first time, provide Directory Manager
 Administrator user name and password.
 
-or
+**or**
 
 click **Next** to launch the Upgrade wizard for upgrading Directory Manager.

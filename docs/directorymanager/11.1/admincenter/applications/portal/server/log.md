@@ -57,7 +57,7 @@ Windows logging is not available for a portal instance deployed in Docker.
 2. Click **Applications and Service Logs > Imanami GroupID** in the left pane to view the event logs
    for Directory Manager.
 
-What do you want to do?
+**What do you want to do?**
 
 - Change the File Logging Level for a Portal Instance
 - Turn Off File Logging for a Portal Instance

@@ -12,13 +12,11 @@ hardware installed, such as fingerprint reader and 3D camera.
 :::note
 Windows Hello supports the Microsoft Edge browser only.
 :::
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 
-What do you want to do?
-
-- Enable Windows Hello on Windows 10
-- Enable Windows Hello Authentication for an Identity Store
-- Enforce Windows Hello Authentication for a Role in an Identity Store
 
 ## Enable Windows Hello on Windows 10
 
@@ -45,7 +43,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)

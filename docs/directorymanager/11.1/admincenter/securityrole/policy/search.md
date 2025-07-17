@@ -113,7 +113,7 @@ criteria.
     With this filter, search performed by role members will display objects with email addresses
     created on the netwrix.com domain.
 
-Advanced Filter
+**Advanced Filter**
 
 You can also define a query by adding more rows and applying the **AND** or **OR** operator to group
 them.

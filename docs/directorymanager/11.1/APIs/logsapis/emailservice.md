@@ -11,11 +11,11 @@ Use this API to get Email service logs. See the
 
 ## Endpoint
 
-https://machinename:4443/GroupIDEmailService/api/Logs/Download
+**https://machinename:4443/GroupIDEmailService/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

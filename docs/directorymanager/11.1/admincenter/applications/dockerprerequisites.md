@@ -25,7 +25,7 @@ create a container for that application in Docker. Your application runs within 
 For example, you can pull a Data service image from Docker Hub to Docker deamon and create a
 container to deploy and run the service.
 
-Image as template
+**Image as template**
 
 Think of an image as a template. Run an image as many times as needed. On every run, a new container
 is created in Docker, representing a new deployment of the same application.

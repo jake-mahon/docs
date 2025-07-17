@@ -23,17 +23,10 @@ Manager is successfully configured page as follows:
 ![GroupID is successfully configured page with Signing Key Disclaimer](/img/product_docs/directorymanager/11.1/install/configure/signkeydisclaimer.webp)
 
 :::tip
-:::tip
-:::tip
 Remember, after the Signing Key update, your existing schedules will not work as their
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
 must be updated for schedules using one of the following way:
 :::
-:::
-:::
-
-
-
 
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.
@@ -75,17 +68,10 @@ without the disclaimer.
 ![GroupID is successfully configured page](/img/product_docs/directorymanager/11.1/install/configure/success.webp)
 
 :::tip
-:::tip
-:::tip
 Remember, after the Signing Key update, your existing schedules will not work as their
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
 must be updated for schedules using one of the following way:
 :::
-:::
-:::
-
-
-
 
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.
@@ -141,17 +127,10 @@ of the [Signing Key Utility](/docs/directorymanager/11.1/admincenter/service/sec
 information on how to import the Signing Key.
 
 :::tip
-:::tip
-:::tip
 Remember, after the Signing Key update, your existing schedules will not work as their
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
 must be updated for schedules using one of the following way:
 :::
-:::
-:::
-
-
-
 
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.

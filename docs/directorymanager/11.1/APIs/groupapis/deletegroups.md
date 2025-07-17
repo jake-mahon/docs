@@ -10,11 +10,11 @@ The Delete Groups API deletes multiple groups from an identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Request Syntax
 

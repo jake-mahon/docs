@@ -10,10 +10,10 @@ The Job Info tab is similar to the
 [Object properties - Organization tab](/docs/directorymanager/11.1/portal/user/properties/AD/useroverview/organization.md) in user properties, with
 the addition of two fields: Title and Department.
 
-Title
+**Title**
 
 The job title of the user/mailbox.
 
-Department
+**Department**
 
 The department in the organization that the user/mailbox works in.

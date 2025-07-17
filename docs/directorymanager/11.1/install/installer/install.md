@@ -41,7 +41,7 @@ Manageris installed. On successful installation, the Run Configuration Tool page
 
 Step 6 – Click **Next** to proceed with configuring Directory Manager.
 
-or
+**or**
 
 Click **Close** on the title bar to close the Directory ManagerInstaller and configure Directory
 Managerlater.

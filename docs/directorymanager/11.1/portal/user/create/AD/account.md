@@ -6,7 +6,7 @@ sidebar_position: 40
 
 # Account page
 
-(of Create User and Create Mailbox wizards)
+**(of Create User and Create Mailbox wizards)**
 
 Use this page to specify basic account info, such as the user's first name, last name, login ID and
 the UPN suffix.

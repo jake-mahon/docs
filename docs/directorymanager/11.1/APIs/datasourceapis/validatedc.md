@@ -10,11 +10,11 @@ Use this API to validate connection of a data source with the provider or with a
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/ValidateServerConnectivity
+**https://machinename:4443/GroupIDDataService/api/DataSource/ValidateServerConnectivity**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

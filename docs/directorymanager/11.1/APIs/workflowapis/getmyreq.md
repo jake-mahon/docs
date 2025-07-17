@@ -10,11 +10,11 @@ Using this API the logged in user can get information about his/her workflow re
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/MyRequests
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/MyRequests**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

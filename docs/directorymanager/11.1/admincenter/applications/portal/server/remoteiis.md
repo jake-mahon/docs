@@ -8,7 +8,7 @@ sidebar_position: 30
 
 You can manage various settings for a portal instance deployed in remote IIS.
 
-What do you want to do?
+**What do you want to do?**
 
 ## Start or Stop an Instance
 

@@ -18,7 +18,7 @@ When you deploy a Data service in native IIS, Directory Manager does the followi
 
     `X:\Program Files\Imanami\GroupID 11.0\GroupIDDataService\Inetpub\`
 
-    (X represents the Directory Manager installation drive)
+**(X represents the Directory Manager installation drive)**
 
 - It also creates a virtual directory for the service in your desired IIS site.
 

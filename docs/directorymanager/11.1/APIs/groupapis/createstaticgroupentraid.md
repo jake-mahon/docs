@@ -21,11 +21,11 @@ value in the Value attribute of the GroupType parameter.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/StaticGroup
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/StaticGroup**
 
 ## HTTP Method
 
-POST
+**POST**
 
 ## Sample Request Syntax
 

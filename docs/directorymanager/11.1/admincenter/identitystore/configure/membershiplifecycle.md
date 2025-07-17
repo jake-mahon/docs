@@ -59,7 +59,7 @@ Some main features of the membership lifecycle policies are:
   [Manage Membership Life Cycle Notifications](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
   topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - Specify an ‘Add Temporary’ Membership Policy
 - Specify a ‘Remove Temporary’ Membership Policy
@@ -96,7 +96,7 @@ certain period will be temporary. When the period ends, they will be removed fro
       and OU names starting with the string are displayed as you type. Click **Add** for an object
       to add it to the policy.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, display name,
       and email.
@@ -153,7 +153,7 @@ added back as permanent members.
       and OU names starting with the string are displayed as you type. Click **Add** for an object
       to add it to the policy.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, display name,
       and email.

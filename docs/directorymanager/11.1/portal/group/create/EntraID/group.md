@@ -57,6 +57,7 @@ Follow the steps to create a Smart Group.
     The **Create Group** wizard opens to the **Group Type** page.
 
     :::tip
+<<<<<<< HEAD
         :::tip
                 :::tip
                                 Remember, pages and fields on the Create Group wizard may vary, since the administrator can
@@ -66,6 +67,11 @@ Follow the steps to create a Smart Group.
                 :::
 
 
+=======
+        Remember, pages and fields on the Create Group wizard may vary, since the administrator can
+    customize the wizard by adding or removing tabs and fields.
+    :::
+>>>>>>> origin/dev
 
 
 2. On the [Group Type page](/docs/directorymanager/11.1/portal/group/create/grouptype.md) page, select the **Smart Group** option button and

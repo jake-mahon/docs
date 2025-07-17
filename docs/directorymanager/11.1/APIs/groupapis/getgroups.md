@@ -10,11 +10,11 @@ Using this API, you can fetch multiple groups from an identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 

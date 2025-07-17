@@ -26,7 +26,7 @@ page that contains tabs under that sub-node. It is as:
 
 Directory Manager enables you to customize the nodes, sub-nodes, and their respective tabs.
 
-What do you want to do?
+**What do you want to do?**
 
 **At the node level:**
 

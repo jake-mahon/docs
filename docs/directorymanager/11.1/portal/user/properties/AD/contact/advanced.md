@@ -8,20 +8,20 @@ sidebar_position: 10
 
 Use this tab to specify advanced settings for a contact.
 
-Home Page
+**Home Page**
 
 The URL of the contact's website.
 
 Use the **Add** and **Remove** buttons to add and remove the URL.
 
-Emp Type
+**Emp Type**
 
 The job category of the contact.
 
-Emp #
+**Emp #**
 
 The employee ID of the contact.
 
-Admin Notes
+**Admin Notes**
 
 Notes by the administrator.

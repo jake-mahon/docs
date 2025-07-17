@@ -44,7 +44,6 @@ displayed, showcasing the following information:
 Date format: mm/dd/yyyy
 :::
 
-
 - For child folders, the path is as: servername.parentsharedfoldername.
 
     ![fileserverpath](/img/product_docs/directorymanager/11.1/portal/entitlement/fileserverpath.webp)
@@ -121,7 +120,7 @@ access type with respect to the specified permission(s).
 
 User: Administrator
 
-Access type: Allow
+**Access type: Allow**
 
 Permission: WriteAttributes, ExecuteFile, Read
 

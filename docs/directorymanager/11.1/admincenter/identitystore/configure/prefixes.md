@@ -50,11 +50,6 @@ Consider the following:
 A group naming policy defined in Microsoft Entra Admin Center has no impact in Directory Manager.
 For details, see the [Group Naming Policy](/docs/directorymanager/11.1/admincenter/identitystore/advsentraid.md#group-naming-policy) topic.
 
-What do you want to do?
-
-- Add a Prefix for an Identity Store
-- Add a Prefix for a Security Role in an Identity Store
-
 ## Add a Prefix for an Identity Store
 
 1. In Admin Center, click **Identity Stores** in the left pane.
@@ -65,14 +60,14 @@ What do you want to do?
    **Add**. The prefix is displayed in the **Group Name Prefix** area.
 5. Click **Save**.
 
-Edit a Prefix
+**Edit a Prefix**
 
 1. On the **Group Name Prefixes** page, click **Edit** for a prefix and update it. Then click the
    check mark icon to save or the cross icon to discard your changes.
 2. Click **Save**.  
    The change does not propagate to group names that have already been created with the prefix.
 
-Delete a Prefix
+**Delete a Prefix**
 
 1. On the **Group Name Prefixes** page, click **Remove** for a prefix to delete it.
 2. Click **Save**.  

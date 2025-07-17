@@ -51,14 +51,6 @@ data storage to the most recent records.
 See the [History in Directory Manager](/docs/directorymanager/11.1/admincenter/general/history.md) and
 [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md) topics for additional information.
 
-What do you want to do?
-
-- Enable History Tracking for All Actions
-- Track Specific Actions for an Identity Store
-- Retain Complete History Data
-- Retain History for a Specific Period
-- Disable History Tracking
-
 ## Enable History Tracking for All Actions
 
 You can choose to enable or disable history tracking for an identity store. When enabled, all

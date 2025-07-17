@@ -32,8 +32,11 @@ Typically, to use tagging, you need to take the following steps:
 4. Configure the source-specific settings to map the classifications results back to the source
    properties, as described in the related section.
 
-**NOTE:** If you are unsure of the correct source specific settings to use, then we recommend
+:::note
+If you are unsure of the correct source specific settings to use, then we recommend
 initially working with some sandbox data.
+:::
+
 
 You can **Pause** source processing while you are configuring the correct settings to ensure that no
 tagging will occur with partial/incorrect configuration settings.

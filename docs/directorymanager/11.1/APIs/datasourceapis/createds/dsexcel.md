@@ -15,11 +15,11 @@ information on creating an Excel data source using Directory Manager.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/Create
+**https://machinename:4443/GroupIDDataService/api/DataSource/Create**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

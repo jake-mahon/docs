@@ -27,7 +27,7 @@ following when an update to a group breaches this limit.
 
 - Not to update the group membership, thereby retaining the old membership.
 
-    Or
+**Or**
 
 - Create nested groups to accommodate membership. Nested groups are created as sub-groups of the
   group being updated. This simplifies permissions by allowing sub-groups to inherit permissions

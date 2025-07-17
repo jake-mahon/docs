@@ -8,73 +8,73 @@ sidebar_position: 50
 
 Use this tab to view or update the general information for a user, mailbox, or contact.
 
-First name
+**First name**
 
 The first name of the contact or user.
 
-Last name
+**Last name**
 
 The last name of the contact or user.
 
-Initials
+**Initials**
 
 The initials of the user or contact.
 
-Alias
+**Alias**
 
 The email alias of the user or contact.
 
-Display name
+**Display name**
 
 The name of the contact or user as it is displayed in the portal.
 
-Address
+**Address**
 
 The office address of the user or contact.
 
-Title
+**Title**
 
 The job title of the contact or user.
 
-Company
+**Company**
 
 The name of the organization where the user or contact works.
 
-City
+**City**
 
 The city, state, zip code, and country where the organization of this user or contact is located.
 
 The **State** list is populated based on the selection made in the **Country** list.
 
-Department
+**Department**
 
 The department in the organization that the user or contact works in.
 
-State
+**State**
 
 The State list is populated based on the selection made in the Country list.
 
-Office
+**Office**
 
 The office number of the user or contact.
 
-Zip
+**Zip**
 
 The zip code of the location where the organization of this user or contact resides.
 
-Country
+**Country**
 
 The country where the organization of this user or contact is located.
 
-Business
+**Business**
 
 The type of business the contact or user's organization conducts.
 
-Home page
+**Home page**
 
 The URL of the web page of the user. This field is not available for a contact.
 
-Exchange Assistant
+**Exchange Assistant**
 
 The name of the Exchange assistant for the mailbox/contact. Any email sent to the mailbox/contact is
 also forwarded to this assistant.
@@ -84,11 +84,11 @@ use the [Find Dialog Box](/docs/directorymanager/11.1/portal/generalfeatures/fin
 
 This field is not available for a user.
 
-Email
+**Email**
 
 The email address of the user or contact.
 
-Photo
+**Photo**
 
 The photo of the user or contact.
 

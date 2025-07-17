@@ -12,11 +12,11 @@ group, and membership type details.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/LeaveOnBehalf
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/LeaveOnBehalf**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 

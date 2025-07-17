@@ -47,7 +47,7 @@ owners.
     - Enter a search string in the box. Group and user names starting with the string are displayed
       as you type. Select a user or group to set as the default approver.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, department,
       company, and email.  

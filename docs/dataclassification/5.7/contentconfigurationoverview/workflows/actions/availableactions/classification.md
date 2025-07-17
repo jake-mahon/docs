@@ -20,14 +20,17 @@ To apply additional classification:
 In the **Add Action** dialog, from the **Action Type** list select **Manually Classify** under
 **Classification**, then configure the necessary terms as described below.
 
-**NOTE:** The terms you select must belong to a single taxonomy / termset.
+:::note
+The terms you select must belong to a single taxonomy / termset.
+:::
+
 
 To remove all classifications:
 
 In the **Add Action** dialog, from the **Action Type** list select **Remove Classifications** under
 **Classification**.
 
-To configure terms
+**To configure terms**
 
 1. In the **Select Term** field, click the tag icon.
 2. In the **Details** dialog, specify filter settings to use when filtering out the documents:
@@ -37,12 +40,18 @@ To configure terms
        this option is cleared, then after selecting the necessary taxonomy, you will be presented
        the list of its terms. Select the one you plan to use for filtering.
 
-    **NOTE:** Multiple selection is not supported: to configure several filter values, you should
+    :::note
+    Multiple selection is not supported: to configure several filter values, you should
     repeat this procedure for each filter value you need.
+    :::
+
 
     3. **Include Children** - select this option if needed.
 
 3. Finally, click **OK** to save the settings and close the dialog.
 
-**NOTE:** The additional classification will not trigger other workflows or affect the source
+:::note
+The additional classification will not trigger other workflows or affect the source
 item[See Classifications for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/classifications.md)
+
+:::

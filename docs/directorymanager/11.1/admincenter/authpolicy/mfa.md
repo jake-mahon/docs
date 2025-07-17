@@ -29,10 +29,6 @@ topic.
 :::
 
 
-What do you want to do?
-
-- Configure Multifactor Authentication
-
 ## Configure Multifactor Authentication
 
 To configure multifactor authentication for a security role in an identity store, do the following:
@@ -43,8 +39,3 @@ To configure multifactor authentication for a security role in an identity store
    See the
    [Enforce Authentication Types for Multifactor Authentication](/docs/directorymanager/11.1/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
    topic for details.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md)
-- [Configure Second Factor Authentication](/docs/directorymanager/11.1/admincenter/authpolicy/sfa.md)

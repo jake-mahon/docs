@@ -126,7 +126,7 @@ interaction** check box, and then select one of the following options:
   [Enforce Authentication Types for Multifactor Authentication](authentication.md#enforce-authentication-types-for-multifactor-authentication)
   topic.
 
-    Or
+**Or**
 
 - **Enforce at least selected level of multifactor authentication:** to force helpdesk role members
   to authenticate end-users with x number of authentication types. Specify the number of
@@ -241,6 +241,7 @@ As part of the Helpdesk policy, you can:
 - Force end-users to change the password the next time they sign to their workstations.
 
 :::tip
+<<<<<<< HEAD
 :::tip
 :::tip
 Remember, These settings are available if the _Reset Any Password_ permission is granted to the
@@ -250,6 +251,11 @@ Helpdesk role in the identity store.
 :::
 
 
+=======
+Remember, These settings are available if the _Reset Any Password_ permission is granted to the
+Helpdesk role in the identity store.
+:::
+>>>>>>> origin/dev
 
 
 ### Specify a Password Reset Method

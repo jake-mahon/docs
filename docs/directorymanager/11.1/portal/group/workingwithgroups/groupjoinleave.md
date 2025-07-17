@@ -71,7 +71,7 @@ The logged-in user can permanently leave the membership of a semi-private or pub
 
     Select the **My Groups**/**My Memberships** tab.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group(s) you want to leave.
 
@@ -100,7 +100,7 @@ The logged-in user can leave the membership of a semi-private or public group on
 
     Select the **My Groups**/**My Memberships** tab.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group(s) you want to leave.
 

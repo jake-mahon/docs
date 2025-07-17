@@ -255,7 +255,7 @@ Microsoft Entra ID tenant to the membership of a group in your domain.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.1/portal/generalfeatures/search.md) the group you want to invite a guest user to.
 

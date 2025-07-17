@@ -12,11 +12,11 @@ Excel or Text/CSV or MS Access or SQL server).
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/DataSource/GetMetaDataByType/{serverType}/{datasourceType}
+**https://machinename:4443/GroupIDDataService/api/DataSource/GetMetaDataByType/{serverType}/{datasourceType}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 

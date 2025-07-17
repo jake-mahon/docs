@@ -18,16 +18,19 @@ the subsites/lists to configure their settings.
 - The **Exclude** link in the last column allows you to exclude the selected list / subsite from
   crowling. For excluded entities, this column contains the **Include** link.
 
-**NOTE:** Excluding the entity will not automatically remove content from the index. If content has
+:::note
+Excluding the entity will not automatically remove content from the index. If content has
 already been crawled, then it should be manually deleted via the QS; alternatively, you can
 re-collect content source data.
+:::
+
 
 When new content is defined for crawling (i.e. included), a re-index operation should be performed.
 
 - The **Edit** link allows you to modify settings for the selected list or subsite. See below for
   details.
 
-List Configuration
+**List Configuration**
 
 1. To modify list/library settings, select it and click Edit.
 2. In the properties window, configure **Content Fields** and **Special Field mapping** as needed.
@@ -41,7 +44,7 @@ Consider the following:
 - In the absence of a list level configuration the appropriate source defaults will automatically be
   used.
 
-Subsite Configuration
+**Subsite Configuration**
 
 1. To modify subsite settings, select the subsite and click Edit.
 2. In the properties window, configure **Content Fields** and **Special Field mapping** as needed.

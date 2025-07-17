@@ -13,7 +13,7 @@ Follow the steps to upgrade.
 Step 1 – To launch the Upgrade wizard, click **Next** on the GroupID Successfully Configured page of
 the Configuration Tool.
 
-OR
+**OR**
 
 Click **Start** > **Imanami** > **GroupID Upgrade Tool 11.0**.
 
@@ -160,15 +160,9 @@ The Upgrade wizard will check the jobs added to a schedule. If the destination i
 directory provider, it will automatically move the schedule to the respective identity store.
 
 :::tip
-:::tip
-:::tip
 Remember, during upgrade, identity stores are created for destination directory providers of
 Synchronize jobs (i.e., for providers that do not have an identity store in the source version).
 :::
-:::
-:::
-
-
 
 
 Consider the following:

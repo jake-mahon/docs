@@ -42,7 +42,7 @@ When a Dynasty is updated, the following happens:
   values of these attributes are updated when the Dynasty is updated. See the Specify Attributes for
   Inheritance topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - Auto Update Dynasty Children When Parent Changes
 - Auto Delete Empty and Orphan Dynasty Children

@@ -10,11 +10,11 @@ You can use this API to update a workflow route in a specified identity store.
 
 ## Endpoint
 
-https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Route
+**https://machinename:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Route**
 
 ## HTTP Methods
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 

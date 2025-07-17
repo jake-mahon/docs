@@ -15,7 +15,7 @@ following for additional information:
 - To browse classification results
 - To review the Document Tagging report
 
-To browse classification results
+**To browse classification results**
 
 1. In administrative web console, navigate to Taxonomies → Term Management.
 2. Select Taxonomy in the dropdown on the left and then expand specific term you are interested in.
@@ -26,7 +26,7 @@ To browse classification results
 4. Click Filter to start browsing your documents.
    [See Browse for more information.](/docs/dataclassification/5.7/contentconfigurationoverview/taxonomies/clues/browse.md)
 
-To review the Document Tagging report
+**To review the Document Tagging report**
 
 1. In administrative web console, navigate to Reports and expand the Document Reports set.
 2. Select the Document Tagging report and click Show filters to narrow report scope.

@@ -27,12 +27,6 @@ History can be viewed using the **History** node in Admin Center. You can:
 See the [History in Directory Manager](/docs/directorymanager/11.1/admincenter/general/history.md) and
 [Event Logging](/docs/directorymanager/11.1/admincenter/identitystore/view/eventlogging.md) topics for additional information.
 
-What do you want to do?
-
-- View Admin Center History
-- Annotate History Items
-- Export Admin Center History
-
 ## View Admin Center History
 
 You can view the history data that Directory Manager auto tracks for high level actions performed in

@@ -17,7 +17,7 @@ You can choose to:
   would apply to all groups that role members can create and manage in that container and its
   sub-containers. All other groups would be exempt, except those specified.
 
-Impact on the Directory Manager portal
+**Impact on the Directory Manager portal**
 
 The policy has the following impact on the Directory Manager portal:
 
@@ -28,7 +28,7 @@ The policy has the following impact on the Directory Manager portal:
 - When a role member uses the Add to Group icon on the portal toolbar to add a disallowed object to
   a group, a message is displayed that this is not permitted.
 
-Limitations
+**Limitations**
 
 - The Membership Object Type Enforcement policy does not apply to critical system objects (such as
   domain controllers and computers). Therefore, even if the policy allows these objects to be added
@@ -49,7 +49,7 @@ Limitations
   membership, a conflict may arise. To avoid these, make sure the settings in the policy and the
   group properties design align with each other.
 
-What do you want to do?
+**What do you want to do?**
 
 - Membership Object Type Enforcement Policy
 - Apply the Membership Object Type Enforcement Policy to Specific Groups and Containers

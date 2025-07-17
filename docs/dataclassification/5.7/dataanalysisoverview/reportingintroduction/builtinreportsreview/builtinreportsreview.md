@@ -10,10 +10,13 @@ Netwrix Data Classification offers a number of built-in reports and charts that 
 and classification process and results, as well to the system operation. They can be run in browser,
 as well as exported to Excel or CSV files. [See Manage Reports for more information.](/docs/dataclassification/5.7/dataanalysisoverview/reportingintroduction/manage.md)
 
-**NOTE:** For some reports, **Auto-classification change logging** must be enabled to supply the
+:::note
+For some reports, **Auto-classification change logging** must be enabled to supply the
 reports with the required data.
+:::
 
-To enable Auto-Classification change logging
+
+**To enable Auto-Classification change logging**
 
 1. In the management console, select **System
    Configuration**→**Config**→**Settings**→**System**→**Classifier**.

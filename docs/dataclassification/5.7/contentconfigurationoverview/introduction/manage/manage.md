@@ -11,7 +11,10 @@ The following commands are available on the **General** tab of the **Sources** s
 - Delete—Removes the source from processing. Its content will not appear in the search results in
   due course.
 
-**NOTE:** This does not delete content from the external system
+:::note
+This does not delete content from the external system
+:::
+
 
 - Re-Collect—Queues the source for re-processing. Crawled items will be deleted, and the entire
   source re-crawled
@@ -26,8 +29,11 @@ The following commands are available on the **General** tab of the **Sources** s
 - Re-Classify—Queues a source or item to be re-classified against the latest configured
   classification rules
 
-**NOTE:** See [Index Maintenance](/docs/dataclassification/5.7/systemconfigurationoverview/administration/indexmaintenance/indexmaintenance.md) for more information on these
+:::note
+See [Index Maintenance](/docs/dataclassification/5.7/systemconfigurationoverview/administration/indexmaintenance/indexmaintenance.md) for more information on these
 operations.
+:::
+
 
 - Pause—Temporarily pauses source content processing
 - Resume—Resumes a source from a temporary pause
@@ -44,11 +50,14 @@ Besides, in the source list on the **General** tab you can do the following for 
 
 ![sources](/img/product_docs/dataclassification/5.7/admin/sources/sources.webp)
 
-**NOTE:** When adding a source or managing source configuration, the most commonly used source
+:::note
+When adding a source or managing source configuration, the most commonly used source
 settings are displayed by default. However, some source types have additional configuration options
 that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these
 advanced settings to be always shown to authorized users.
 [See Users and Security Settings for more information.](/docs/dataclassification/5.7/systemconfigurationoverview/users/users.md)
+:::
+
 
 ## Modify Source Settings
 
