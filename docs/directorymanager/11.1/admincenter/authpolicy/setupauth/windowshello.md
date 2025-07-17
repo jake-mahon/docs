@@ -13,7 +13,6 @@ hardware installed, such as fingerprint reader and 3D camera.
 Windows Hello supports the Microsoft Edge browser only.
 :::
 
-
 ## Enable Windows Hello on Windows 10
 
 1. On the Windows Start menu, select **Settings**.

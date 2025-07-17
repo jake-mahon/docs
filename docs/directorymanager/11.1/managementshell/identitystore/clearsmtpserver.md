@@ -8,9 +8,12 @@ sidebar_position: 30
 
 The commandlet Clear-SmtpServer removes the SMTP server configurations from an identity store.
 
-NOTE: This cmdlet will also clear the notification settings for the identity store recipients,
+:::note
+This cmdlet will also clear the notification settings for the identity store recipients,
 password expiry group notifications, membership lifecycle notifications, and managed by notification
 options for the specified identity store.
+:::
+
 
 ## Syntax
 

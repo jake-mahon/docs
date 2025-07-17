@@ -47,7 +47,6 @@ You can customize the following toolbars:
 | Group Member Of Grid                                   | The **Member Of** tab in group properties                                                                                                                                                                                                                                                                                                                    |
 | Direct Reports Grid                                    | The **Organization** tab in user properties                                                                                                                                                                                                                                                                                                                  |
 
-
 :::note
 The **Computer Members of Grid** and **Contact Member of Grid** toolbars are not available for
 a Microsoft Entra ID identity store.
@@ -64,7 +63,7 @@ can update a few details for a button, such as its name and image.
 2. Click the ellipsis button for a portal and select **Settings**.
 3. Select an identity store under **Design Settings** to customize the portal for it.  
    All identity stores linked with the portal are listed under **Design Setting**s. You can design a
-   different portal for each of these.
+different portal for each of these.
 4. Click **Toolbars** in the left pane; the **Toolbars** page is displayed.
 5. In the **Select Toolbar Type** drop-down list, select the toolbar you want to update.  
    The **Name** area lists all buttons on this toolbar.
@@ -85,9 +84,11 @@ can update a few details for a button, such as its name and image.
         - If an image has been uploaded, the very image is displayed. Click **Upload** to replace
           the existing image with a new one.
 
-**NOTE: Image dimensions: 30 x 30 pixels**
+:::note
+Image dimensions: 30 x 30 pixels
+:::
 
-            Supported formats: .webp, .jpg, .jpe, .jpeg
+        Supported formats: .webp, .jpg, .jpe, .jpeg
 
     8. **Visibility Level** – Select a security role. The toolbar button would be visible to users
        of this role and roles with a priority value higher than this role. See
@@ -104,7 +105,7 @@ can update a few details for a button, such as its name and image.
 2. Click the ellipsis button for a portal and select **Settings**.
 3. Select an identity store under **Design Settings** to customize the portal for it.  
    All identity stores linked with the portal are listed under **Design Settings**. You can design a
-   different portal for each of these.
+different portal for each of these.
 4. Click **Toolbars** in the left pane.
 5. On the **Toolbars** page, select a toolbar in the **Select Toolbar Type** drop-down list.  
    The **Name** area lists all buttons on this toolbar.

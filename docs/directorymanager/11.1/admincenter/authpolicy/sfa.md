@@ -12,7 +12,7 @@ authentication types. Supported authentication types are discussed in the
 [Authentication Policies - A Comparison](/docs/directorymanager/11.1/admincenter/authpolicy/authpolicy.md) topic.
 
 Once enrolled, role members must authenticate their accounts using an authentication type they
-enrolled with, while signing into Admin Center or theDirectory Manager portal. Users enrolled with
+enrolled with, while signing into Admin Center or the Directory Manager portal. Users enrolled with
 multiple authentication types can use any one type to authenticate.
 
 :::note

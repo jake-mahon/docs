@@ -36,7 +36,9 @@ showcasing the following information:
 
 - The date and time the library was last created.
 
-**NOTE: Date format: mm/dd/yyyy**
+:::note
+Date format: mm/dd/yyyy
+:::
 
 - You can view the files and folders within a document library till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
@@ -53,7 +55,7 @@ are listed in the right pane.
 Information includes:
 
 - The date and time the file/folder was created and the number of files and folders that reside
-  directly in the selected folder.
+directly in the selected folder.
 
     For example, if the folder contains a folder, ABC, that further contains 3 folders, the direct
     sub file/folder count will be 1, not 4.
@@ -64,7 +66,7 @@ Information includes:
     Use the search box to filter the listing.
 
 - Add new users who can have permissions on the file/folder in a site. You can permanently or
-  temporarily add users.
+temporarily add users.
 
     You can select multiple users and collectively assign them the same permissions.
 

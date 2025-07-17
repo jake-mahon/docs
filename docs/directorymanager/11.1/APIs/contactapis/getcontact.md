@@ -8,7 +8,10 @@ sidebar_position: 40
 
 Use this API to retrieve information about a contact in a specified identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 

@@ -245,7 +245,6 @@ Remember, These settings are available if the _Reset Any Password_ permission is
 Helpdesk role in the identity store.
 :::
 
-
 ### Specify a Password Reset Method
 
 You can enable helpdesk role members to reset user account passwords by any of the following

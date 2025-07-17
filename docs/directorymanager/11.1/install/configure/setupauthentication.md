@@ -29,7 +29,6 @@ the _public_ role. Therefore, the Directory Manager SQL account belongs to two s
 _db_creator_ and _public_.
 :::
 
-
 To add the Directory Manager SQL account to the db_creator role:
 
 Step 1 – Launch SQL Server Management Console.

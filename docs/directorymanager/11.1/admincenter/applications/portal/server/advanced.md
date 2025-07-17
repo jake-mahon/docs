@@ -55,7 +55,6 @@ You can manage the following advanced settings for a portal:
 | Display Groups in My Dynasties | Controls whether to display the Dynasties for which the logged-on user is an additional owner, on the portal’s **My Dynasties** tab. By default, the tab displays the Dynasties that the logged-on user is the primary owner. Enable this setting to include Dynasties for which the logged-on user is an additional owner. Note that this setting applies individually to parent, middle, and leaf Dynasties. |
 | Display Additional Manager Direct Reports | Controls whether to display the direct reports for whom the logged-on user is an additional manager, on the portal’s **My Direct Reports** tab. By default, the tab displays the direct reports that the logged-on user is the primary manager. Enable this setting to include direct reports for whom the logged-on user is an additional manager. |
 
-
 :::note
 Individual users can personalize all except the _Display Nested Ownership_ setting from the **Settings** panel in the portal.
 :::

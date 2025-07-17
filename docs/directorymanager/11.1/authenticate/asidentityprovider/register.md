@@ -42,8 +42,11 @@ store for authentication.
 Step 7 – Click **Browse** under Identity Provider Image to upload an image for the application, such
 as the application logo.
 
-NOTE: Supported image formats: .jpg, .bmp, .webp, and .gif  
+:::note
+Supported image formats: .jpg, .bmp, .webp, and .gif  
 Image file dimensions: 210 x 60 pixels
+:::
+
 
 Step 8 – Expand the Advanced section by clicking the down arrow head to specify advanced settings
 for the application.

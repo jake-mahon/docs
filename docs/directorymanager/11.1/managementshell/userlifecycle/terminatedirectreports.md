@@ -9,7 +9,10 @@ sidebar_position: 40
 Use the Terminate-DirectRreports command to terminate user(s). Specify manager of the user you want
 to terminate.
 
-NOTE: You can perform this function in directory as per your role and permissions.
+:::note
+You can perform this function in directory as per your role and permissions.
+:::
+
 
 ## Syntax
 

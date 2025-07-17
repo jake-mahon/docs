@@ -42,7 +42,6 @@ on. It simply indicates the user's relationship to the host organization and all
 to enforce policies that depend on this property.
 :::
 
-
 **Object ID**
 
 The unique ID assigned to the object in Microsoft Entra ID.

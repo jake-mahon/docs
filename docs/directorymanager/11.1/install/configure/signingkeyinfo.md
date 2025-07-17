@@ -28,7 +28,6 @@ authentication mechanism will no longer be considered valid. Therefore, the auth
 must be updated for schedules using one of the following way:
 :::
 
-
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.
 - Admin Center – See the Schedules topic and go to the respective schedule page to update its
@@ -73,7 +72,6 @@ Remember, after the Signing Key update, your existing schedules will not work as
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
 must be updated for schedules using one of the following way:
 :::
-
 
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.
@@ -133,7 +131,6 @@ Remember, after the Signing Key update, your existing schedules will not work as
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
 must be updated for schedules using one of the following way:
 :::
-
 
 - Signing Key Utility – See the Signing Key utility guide for information on how to download the
   utility and update the schedules.

@@ -119,8 +119,11 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 
     ![Group Policy Management console](/img/product_docs/directorymanager/11.1/portal/user/manage/gp_policy.webp)
 
-    NOTE: Group Policy Management console is available if the Group Policy Management feature has
+    :::note
+    Group Policy Management console is available if the Group Policy Management feature has
     been installed.
+    :::
+
 
 2. Right-click the domain or organizational unit for the computers that you want the Credential
    Provider installed on. Select **Create a GPO in this domain, and link it here...**:
@@ -138,7 +141,10 @@ Having Orca successfully installed, follow these steps to deploy Credential Prov
 
     ![New Package option](/img/product_docs/directorymanager/11.1/portal/user/manage/software_installation.webp)
 
-    NOTE: This documentation describes steps for editing the default policy.
+    :::note
+    This documentation describes steps for editing the default policy.
+    :::
+
 
 4. Browse to the shared folder. The folder must have the following files in it:
 

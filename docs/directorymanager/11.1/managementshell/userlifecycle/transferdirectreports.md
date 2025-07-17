@@ -9,7 +9,10 @@ sidebar_position: 50
 Use the Transfer-DirectReports commandlet to transfer direct report(s) in the connected identity
 store. Specify manager who will approve this transfer.
 
-NOTE: You can perform this function in directory as per your role and permissions.
+:::note
+You can perform this function in directory as per your role and permissions.
+:::
+
 
 ## Syntax
 

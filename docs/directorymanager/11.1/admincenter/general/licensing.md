@@ -70,7 +70,6 @@ license is dependent on the Group Usage Service license, which in turn is depend
 Management license.
 :::
 
-
 **What happens when your license expires**
 
 When a license expires, its respective functions get read-only but you can configure certain

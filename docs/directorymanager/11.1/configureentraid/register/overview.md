@@ -18,7 +18,8 @@ Directory Manager requires:
 - A Microsoft Entra ID Directory Role for the service account for the Microsoft Entra ID identity
   store.
 
-    NOTE: See the
+    :::note
+    See the
     [All Role](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#all-role)
     section for
     [User Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#user-administrator)
@@ -26,3 +27,5 @@ Directory Manager requires:
     [Exchange Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#exchange-administrator)
     role permissions in
     [Microsoft Entra built-in roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#microsoft-entra-built-in-roles).
+    
+    :::

@@ -62,7 +62,6 @@ of IdentityStoreA will apply to the SMS gateway account creation action and that
 will apply to the Directory Manager portal creation action.
 :::
 
-
 **Event Logging**
 
 In addition to history tracking, Directory Manager provides event logging, which includes file

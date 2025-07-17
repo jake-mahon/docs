@@ -19,7 +19,6 @@ Before configuring Email authentication, make sure that an SMTP server is config
 identity store. See the [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
 :::
 
-
 ## Enable Email Authentication for an Identity Store
 
 The email authentication type must be enabled for an identity store before users can use it for

@@ -144,7 +144,7 @@ Permissions are discussed in the following table:
 
 :::tip
 Remember, Generalized permissions override limited permissions. For example, if Unlock My Account is
-denied and Unlock Any Account allowed, role members can unlock all accounts, including their own.
+dened and Unlock Any Account allowed, role members can unlock all accounts, including their own.
 :::
 
 
@@ -204,7 +204,6 @@ Permissions are discussed in the following table:
 | 3.  | Add new user                         | Enables role members to search and select users from the directory and grant permissions to them on one or more document libraries in the site. The facility to search and select groups is not available. Groups have to be added from SharePoint. Using Directory Manager, role members can manage group permissions. The Type column lists the effective permissions. While adding users, role members will be able to grant permissions that you enable here.                     |
 | 4.  | Modify user / group                  | Enables role members to update the permissions assigned to users and groups on document libraries in the site. The Type column lists the effective permissions. Role members will only be able to modify the permissions that you enable here.                                                                                                                                                                                                                                        |
 | 5.  | Remove user / group                  | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site.                                                                                                                                                                                                                                                                          |
-
 
 :::note
 For more information on role permissions, see the
