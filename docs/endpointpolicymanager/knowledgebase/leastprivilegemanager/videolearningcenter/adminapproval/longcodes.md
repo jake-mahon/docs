@@ -1,11 +1,14 @@
 ---
 title: "Using Email / Long Codes"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s6qzARZnVGQ" title="Endpoint Privilege Admin Approval: Using Email / Long Codes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Using Email / Long Codes"
 sidebar_position: 30
 ---
 # Using Email / Long Codes
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s6qzARZnVGQ" title="Endpoint Privilege Admin Approval: Using Email / Long Codes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Want more details about what processes users are attempting to launch? Then use Netwrix Endpoint
 Policy Manager (formerly PolicyPak)'s Email / Long codes function. Users send emails. Admins

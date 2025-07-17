@@ -1,12 +1,15 @@
 ---
 title: "Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QE76FuIjlp0" title="Endpoint Policy Manager &amp; WVD (Windows Virtual Desktop) Getting Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started"
 sidebar_position: 10
 ---
 
 # Endpoint Policy Manager & WVD (Windows Virtual Desktop) Getting Started
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QE76FuIjlp0" title="Endpoint Policy Manager &amp; WVD (Windows Virtual Desktop) Getting Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 Before you RUN with Netwrix Endpoint Policy Manager (formerly PolicyPak) & WVD, here's a walk around
 our internal test lab, so you can see how Endpoint Policy Manager + WVD followup videos will fit in.

@@ -1,11 +1,14 @@
 ---
 title: "ACL Lockdown for Registry Based Applications"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bSuxXH10vSA" title="Endpoint Policy Manager: ACL Lockdown for Registry Based Applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "ACL Lockdown for Registry Based Applications"
 sidebar_position: 30
 ---
 # ACL Lockdown for Registry Based Applications
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bSuxXH10vSA" title="Endpoint Policy Manager: ACL Lockdown for Registry Based Applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 When ACL Lockdown™ mode on a Netwrix Endpoint Policy Manager (formerly PolicyPak) element is
 selected, Endpoint Policy Manager will "take ownership" of the portion of the user's registry (or

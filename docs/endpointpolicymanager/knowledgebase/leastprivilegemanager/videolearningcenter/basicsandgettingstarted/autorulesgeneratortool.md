@@ -1,11 +1,14 @@
 ---
 title: "Auto Rules Generator Tool (with SecureRun)"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jju3eIdqq08" title="PPLPM: Auto Rules Generator Utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Auto Rules Generator Tool (with SecureRun)"
 sidebar_position: 50
 ---
 # Auto Rules Generator Tool (with SecureRun)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jju3eIdqq08" title="PPLPM: Auto Rules Generator Utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Once PPLPM and SecureRun are on, users are blocked from running unwanted stuff. But how can you
 create some rules automatically to ALLOW or ELEVATE applications and installations? Check out this

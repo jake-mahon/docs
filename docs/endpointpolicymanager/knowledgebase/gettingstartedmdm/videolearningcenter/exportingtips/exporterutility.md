@@ -1,5 +1,8 @@
 ---
 title: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1yXhbpAz8uI" title="PolicyPak: Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)"
 sidebar_position: 30
 ---
@@ -11,7 +14,7 @@ PolicyPak) directives if you are using Intune, SCCM, LanDesk, KACE or similar so
 deployment, and your team doesn't want to use Group Policy but wants to use Endpoint Policy Manager.
 See this video to see how it's done.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1yXhbpAz8uI" title="PolicyPak: Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 ### PolicyPak: Deploying PolicyPak directives without Group Policy(PolicyPak Exporter Utility)
 

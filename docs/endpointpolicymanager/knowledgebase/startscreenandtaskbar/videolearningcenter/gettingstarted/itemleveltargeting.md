@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager Start Screen Manager: Using Item Level Targeting"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9CIdIDhAZQ" title="Endpoint Policy Manager Start Screen Manager: Using Item Level Targeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Start Screen Manager: Using Item Level Targeting"
 sidebar_position: 40
 ---
 # Endpoint Policy Manager Start Screen Manager: Using Item Level Targeting
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9CIdIDhAZQ" title="Endpoint Policy Manager Start Screen Manager: Using Item Level Targeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Automatically specify "who should get what" settings based upon conditions like security group,
 Laptop vs. Not laptop and so on.

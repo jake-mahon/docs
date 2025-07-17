@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yXL35FnSpqg" title="Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode"
 sidebar_position: 80
 ---
 # Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yXL35FnSpqg" title="Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 You've heard about Internet Explorer tabs tucked into Edge. But how can you quickly use Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Browser Router to make it happen? Here you'll learn

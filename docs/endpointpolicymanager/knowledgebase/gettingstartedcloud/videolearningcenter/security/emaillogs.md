@@ -1,5 +1,8 @@
 ---
 title: "Endpoint Policy Manager Cloud Logs and Automatically Pushing via Email"
+
+<iframe width="560" height="315" src="https://youtu.be/3l2dRpZQ8vw" title="Endpoint Policy Manager Cloud Logs and Automatically Pushing via Email" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Cloud Logs and Automatically Pushing via Email"
 sidebar_position: 30
 ---
@@ -7,6 +10,8 @@ sidebar_position: 30
 
 Want to take your Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud log files and get them
 into your own SEIM or similar system? Here's how to do it.
+
+
 
 Hi, this is Jeremy Moskowitz. In this video I'm going to show you how you can push the PolicyPak
 Cloud Immutable Log Data to your own system for further processing. The idea is here you are in the

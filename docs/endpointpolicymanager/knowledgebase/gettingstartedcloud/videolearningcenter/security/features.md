@@ -1,5 +1,8 @@
 ---
 title: "Endpoint Policy Manager Cloud: Security Features"
+
+<iframe width="560" height="315" src="hhttps://youtu.be/7pu_UKWx6sc" title="Endpoint Policy Manager Cloud: Security Features" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Cloud: Security Features"
 sidebar_position: 10
 ---
@@ -7,6 +10,8 @@ sidebar_position: 10
 
 If you've ever wondered how to keep your cloud service secure, watch this video and learn about how
 all our features work together to keep you safe.
+
+
 
 Hi, this is Whitney with PolicyPak Software. Recently, we have added a whole lot of new security
 features to our PolicyPak Cloud edition. This video here is going to be a multi-part guide to

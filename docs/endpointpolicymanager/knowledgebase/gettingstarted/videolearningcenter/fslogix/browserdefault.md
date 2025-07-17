@@ -1,12 +1,15 @@
 ---
 title: "Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d-nhpXHv_IM" title="Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed"
 sidebar_position: 40
 ---
 
 # Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d-nhpXHv_IM" title="Endpoint Policy Manager + FSLogix: Set default browser based upon if the browser is masked or revealed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) + FSLogix: Set default browser based upon if
 the browser is masked or revealed

@@ -1,11 +1,14 @@
 ---
 title: "Using Environment Variables in Paks"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOOKQY-QrfQ" title="Endpoint Policy Manager: Using Environment Variables in Paks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Using Environment Variables in Paks"
 sidebar_position: 60
 ---
 # Using Environment Variables in Paks
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xOOKQY-QrfQ" title="Endpoint Policy Manager: Using Environment Variables in Paks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 You might want to deliver settings based upon Windows' environment variables. There are several
 types of Env variables, and in this demo, we show you how to find them and some use cases.

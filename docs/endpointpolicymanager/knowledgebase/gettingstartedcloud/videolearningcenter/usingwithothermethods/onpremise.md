@@ -1,5 +1,8 @@
 ---
 title: "Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses"
+
+<iframe width="560" height="315" src="https://youtu.be/aOtOCkB1aqw" title=" Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses"
 sidebar_position: 20
 ---
@@ -8,6 +11,8 @@ sidebar_position: 20
 You get a free "on premise" license when you consume a Netwrix Endpoint Policy Manager (formerly
 PolicyPak) Cloud license. Here is a demonstration video to show you a best practice way to set up
 Endpoint Policy Manager cloud AND Endpoint Policy Manager on-premise together.
+
+
 
 Hi, this is Whitney with PolicyPak software, and in this video I'm going to show you how you can use
 your PolicyPak cloud licenses with your existing PolicyPak on-premise machines. It is super easy.

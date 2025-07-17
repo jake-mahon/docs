@@ -1,11 +1,16 @@
 ---
 title: "Manual editing Item Level Targeting to affect local Admins and other local accounts"
+
+<iframe width="560" height="315" src="https://youtu.be/KTKunCi0uY0" title="Manual editing Item Level Targeting to affect local Admins and other local accounts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Manual editing Item Level Targeting to affect local Admins and other local accounts"
 sidebar_position: 10
 ---
 # Manual editing Item Level Targeting to affect local Admins and other local accounts
 
 PolicyPak: Manual editing Item Level Targeting to affect local Admins and other local accounts
+
+
 
 ### Endpoint Policy Manager: Manual editing Item Level Targeting to affect local Admins and other local accounts
 

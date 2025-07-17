@@ -1,5 +1,8 @@
 ---
 title: "Endpoint Policy Manager Cloud: Adding New Admins"
+
+<iframe width="560" height="315" src="https://youtu.be/2ssafepckjk" title="Endpoint Policy Manager Cloud: Adding New Admins" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Cloud: Adding New Admins"
 sidebar_position: 40
 ---
@@ -10,6 +13,8 @@ out how.
 
 See
 also:  [Endpoint Policy Manager Cloud Portal - Adding new company admins - Quickstart](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/knowledgebase/cloudportalsecurity/administrator.md)
+
+
 
 Hi, this is Whitney with PolicyPak Software. In this video, we are talking about adding a new admin
 to your cloud service. There are a few different scenarios in which this could happen, so we'll walk

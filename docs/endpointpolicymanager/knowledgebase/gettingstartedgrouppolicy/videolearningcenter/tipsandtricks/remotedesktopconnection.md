@@ -1,5 +1,8 @@
 ---
 title: "Prevent a Remote Desktop Connection Drop During GP Update"
+
+<iframe width="560" height="315" src="https://youtu.be/VXeylj9vqss" title="Prevent a Remote Desktop Connection Drop During GP Update" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Prevent a Remote Desktop Connection Drop During GP Update"
 sidebar_position: 50
 ---
@@ -7,6 +10,8 @@ sidebar_position: 50
 
 Microsoft MVP Jeremy Moskowitz shows you how to prevent disconnect during GP update / force using
 registry settings.
+
+
 
 ### How to Prevent a Remote Desktop Connection Drop During GP Update
 

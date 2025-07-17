@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager and MobileIron MDM"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I3LNSCPlvms" title="Endpoint Policy Manager and MobileIron MDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager and MobileIron MDM"
 sidebar_position: 40
 ---
 # Endpoint Policy Manager and MobileIron MDM
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I3LNSCPlvms" title="Endpoint Policy Manager and MobileIron MDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 MobileIron is awesome, but it doesn't have real group policy or extra Windows 10 desktop management
 features. Watch this video and learn how to use Netwrix Endpoint Policy Manager (formerly PolicyPak)

@@ -1,11 +1,14 @@
 ---
 title: "Deliver Group Policy Admin Templates Using Your MDM Service"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXp4gGKYgO0" title="Deliver Group Policy Admin Templates Using Your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Deliver Group Policy Admin Templates Using Your MDM Service"
 sidebar_position: 20
 ---
 # Deliver Group Policy Admin Templates Using Your MDM Service
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXp4gGKYgO0" title="Deliver Group Policy Admin Templates Using Your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 MDM solutions are awesome, but they don't have real group policy, or extra Windows 10 desktop
 management features. Watch this video and learn how to use Netwrix Endpoint Policy Manager (formerly

@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager for Thunderbird"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nEIoUqY0wvE" title="Endpoint Policy Manager: Manage Thunderbird using Group Policy or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager for Thunderbird"
 sidebar_position: 80
 ---
 # Endpoint Policy Manager for Thunderbird
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nEIoUqY0wvE" title="Endpoint Policy Manager: Manage Thunderbird using Group Policy or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 If you've got zillions of desktops, how are you going manage things like: Update behavior (turning
 it off, so users aren't prompted) Ensure Thunderbird is always the default mail client? Ensure that

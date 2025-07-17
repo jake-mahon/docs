@@ -1,11 +1,14 @@
 ---
 title: "Keeping Application Settings Manager and Paks up to date"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DvjjDh38_7Y" title="Endpoint Policy Manager: Upgrading from a previous version of PolicyPak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Keeping Application Settings Manager and Paks up to date"
 sidebar_position: 40
 ---
 # Keeping Application Settings Manager and Paks up to date
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DvjjDh38_7Y" title="Endpoint Policy Manager: Upgrading from a previous version of PolicyPak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 Upgrading from a previous version of Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy.
 Here are the basic steps involved.

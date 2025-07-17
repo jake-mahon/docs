@@ -1,11 +1,14 @@
 ---
 title: "Manage all File Associations with the PPFAM Wizard"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U50ytFXMWoQ" title="Endpoint Policy Manager: Manage all File Associations with the PPFAM Wizard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Manage all File Associations with the PPFAM Wizard"
 sidebar_position: 40
 ---
 # Manage all File Associations with the PPFAM Wizard
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U50ytFXMWoQ" title="Endpoint Policy Manager: Manage all File Associations with the PPFAM Wizard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 If an application has a LOT of file extensions, this built-in PPFAM Wizard enables you to quickly
 find them all, and make them a collection. Couldn't be simpler !

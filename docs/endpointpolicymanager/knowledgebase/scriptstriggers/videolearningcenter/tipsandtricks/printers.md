@@ -1,11 +1,14 @@
 ---
 title: "Shared Printers without Loopback: Use Endpoint Policy Manager Scripts and PowerShell to deploy and remove printers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2B-cc1W2WTU" title="Shared Printers without Loopback: Use Endpoint Policy Manager Scripts and PowerShell to deploy and remove printers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Shared Printers without Loopback: Use Endpoint Policy Manager Scripts and PowerShell to deploy and remove printers"
 sidebar_position: 50
 ---
 # Shared Printers without Loopback: Use Endpoint Policy Manager Scripts and PowerShell to deploy and remove printers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2B-cc1W2WTU" title="Shared Printers without Loopback: Use Endpoint Policy Manager Scripts and PowerShell to deploy and remove printers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Hate using loopback for printers? Then DONT. Use Netwrix Endpoint Policy Manager (formerly
 PolicyPak) Scripts manager to do "loopback without loopback." In this demonstration we'll show you

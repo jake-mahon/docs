@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager Cloud and Security Settings (More examples)"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UsglBSa-oRg" title="Endpoint Policy Manager Cloud and Security Settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager Cloud and Security Settings (More examples)"
 sidebar_position: 90
 ---
 # Endpoint Policy Manager Cloud and Security Settings (More examples)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UsglBSa-oRg" title="Endpoint Policy Manager Cloud and Security Settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Use the in-cloud editors to manage Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud
 settings. This couldn't be easier. Set the password, account settings, and other security settings

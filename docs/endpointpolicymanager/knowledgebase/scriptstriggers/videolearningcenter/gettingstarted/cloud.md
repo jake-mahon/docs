@@ -1,11 +1,14 @@
 ---
 title: "Deploy any script via the Cloud to domain joined and non-domain joined machines"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1j-_J0FTh50" title="Endpoint Policy Manager Scripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Deploy any script via the Cloud to domain joined and non-domain joined machines"
 sidebar_position: 20
 ---
 # Deploy any script via the Cloud to domain joined and non-domain joined machines
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1j-_J0FTh50" title="Endpoint Policy Manager Scripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts whenever you need to deliver
 something that in-box Policy, Preference or Endpoint Policy Manager cannot normally do. Find your

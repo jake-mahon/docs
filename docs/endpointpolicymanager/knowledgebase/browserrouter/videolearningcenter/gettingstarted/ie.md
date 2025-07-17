@@ -1,11 +1,14 @@
 ---
 title: "Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QwQF3a5Dqb0" title="IE 11 Compatibility (Enterprise and Document modes) + IE in Edge mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode"
 sidebar_position: 70
 ---
 # Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QwQF3a5Dqb0" title="IE 11 Compatibility (Enterprise and Document modes) + IE in Edge mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) to dynamically set Enterprise and Document
 modes, as well as force an Internet Explorer tab to open--inside Edge!

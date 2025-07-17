@@ -1,11 +1,14 @@
 ---
 title: "Using PP Browser Router on Citrix or RDS servers with published browser applications"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wVAuIOwAUrs" title="Endpoint Policy Manager: Using PP Browser Router on Citrix or RDS servers with published browser applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Using PP Browser Router on Citrix or RDS servers with published browser applications"
 sidebar_position: 10
 ---
 # Using PP Browser Router on Citrix or RDS servers with published browser applications
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wVAuIOwAUrs" title="Endpoint Policy Manager: Using PP Browser Router on Citrix or RDS servers with published browser applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 In this video, learn the best practice for using PPBR and Citrix / RDS servers. Route from browser
 to browser very quickly using this technique.

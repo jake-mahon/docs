@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Manager for IrfanView"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evQsOAGTczo" title="Endpoint Policy Manager: Manage InfranView using Group Policy, SCCM or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Manager for IrfanView"
 sidebar_position: 50
 ---
 # Endpoint Policy Manager for IrfanView
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/evQsOAGTczo" title="Endpoint Policy Manager: Manage InfranView using Group Policy, SCCM or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 You use applications such as IrfanView so you can see all of the wonderful images on your computer.
 What you don't want to see is your helpdesk phones light up because their applications don't run

@@ -1,11 +1,14 @@
 ---
 title: "Ensure users utilize the RIGHT browser for the right website !"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ACQOzjQcT6A" title="Ensure users utilize the RIGHT browser for the right website !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Ensure users utilize the RIGHT browser for the right website !"
 sidebar_position: 10
 ---
 # Ensure users utilize the RIGHT browser for the right website !
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ACQOzjQcT6A" title="Ensure users utilize the RIGHT browser for the right website !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Everyone knows that not every browser is the right one for all websites. Problem is, users end up
 using the WRONG website most of the time. With PP Browser Router, you create policies (or ROUTES)

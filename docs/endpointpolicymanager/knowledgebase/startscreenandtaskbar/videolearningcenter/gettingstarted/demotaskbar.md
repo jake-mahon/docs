@@ -1,11 +1,14 @@
 ---
 title: "Endpoint Policy Taskbar Manager: Quick Demo"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JPLm1OCqKpo" title="Endpoint Policy Taskbar Manager: Quick Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Endpoint Policy Taskbar Manager: Quick Demo"
 sidebar_position: 30
 ---
 # Endpoint Policy Taskbar Manager: Quick Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JPLm1OCqKpo" title="Endpoint Policy Taskbar Manager: Quick Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Quickly and easily manage what icons are pinned to the Windows 10 Taskbar. Use Group Policy, SCCM or
 your MDM service. It couldn't be easier.

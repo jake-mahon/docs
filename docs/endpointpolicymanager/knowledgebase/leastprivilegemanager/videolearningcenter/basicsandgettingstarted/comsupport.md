@@ -1,11 +1,14 @@
 ---
 title: "COM Support"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f3iZivnslZc" title="Endpoint Privilege Manager: COM Support" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "COM Support"
 sidebar_position: 80
 ---
 # COM Support
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f3iZivnslZc" title="Endpoint Privilege Manager: COM Support" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Do you have UAC prompts with "well known" or "custom" COM / CSLIDs you need to overcome? In this
 video you'll see how to overcome COM based UAC prompts by finding the GUID and using GPOs or

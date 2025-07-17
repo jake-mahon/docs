@@ -1,11 +1,14 @@
 ---
 title: "Server Mode"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iVIWRr_oxBI" title="PPGPCR: Server Mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Server Mode"
 sidebar_position: 40
 ---
 # Server Mode
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iVIWRr_oxBI" title="PPGPCR: Server Mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Why do you need PPGPCR Server mode? Because all your computers' GP Results will be stored in one
 place, and you can quickly test to see if you are in compliance or not. Without PPGPCR Server, you

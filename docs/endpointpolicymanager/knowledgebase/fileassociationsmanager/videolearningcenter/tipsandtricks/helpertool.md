@@ -1,11 +1,14 @@
 ---
 title: "File Associations Manager Helper Tool"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4lutKddiiHs" title="Endpoint Policy Manager MDM: File Associations Manager Helper Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "File Associations Manager Helper Tool"
 sidebar_position: 40
 ---
 # File Associations Manager Helper Tool
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4lutKddiiHs" title="Endpoint Policy Manager MDM: File Associations Manager Helper Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 What happens if you're using the Netwrix Endpoint Policy Manager (formerly PolicyPak) File
 Associations Manager, and you want to associate a file to a program that's not on your management

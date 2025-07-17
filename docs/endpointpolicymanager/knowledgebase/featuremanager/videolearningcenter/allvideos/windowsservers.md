@@ -1,11 +1,14 @@
 ---
 title: "Feature Manager For Windows Servers"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AdriVS33SnY" title="Endpoint Policy Feature Manager for Windows - For Servers!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 description: "Feature Manager For Windows Servers"
 sidebar_position: 20
 ---
 # Feature Manager For Windows Servers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AdriVS33SnY" title="Endpoint Policy Feature Manager for Windows - For Servers!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak)'s Feature Manager for Windows works just as
 well for servers as it does for endpoints. Watch this video to see it in action!

@@ -1,11 +1,14 @@
 ---
 title: "Use Firefox as default for ALL pages, except some pages"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dz3vVMsi7x0" title="Endpoint Policy Manager Browser Router: Use Firefox as default for ALL pages, except some pages" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Use Firefox as default for ALL pages, except some pages"
 sidebar_position: 40
 ---
 # Use Firefox as default for ALL pages, except some pages
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dz3vVMsi7x0" title="Endpoint Policy Manager Browser Router: Use Firefox as default for ALL pages, except some pages" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 If you want to force Firefox to be the default browser for EVERYTHING, except some sites, then we
 have a special XML file and video to help you out.

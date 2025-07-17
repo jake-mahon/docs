@@ -1,11 +1,14 @@
 ---
 title: "Import STIG files to make your applications more secure"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A5mq2IpU19g" title="Endpoint Policy Manager: Import STIG files to make your applications more secure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 description: "Import STIG files to make your applications more secure"
 sidebar_position: 30
 ---
 # Import STIG files to make your applications more secure
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A5mq2IpU19g" title="Endpoint Policy Manager: Import STIG files to make your applications more secure" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) can import collections settings (STIGs) to make
 applications like Java, Firefox, Internet Explorer and more … and make them more secure. These are
