@@ -59,5 +59,5 @@ manage the Agent.
   topic.
 
 See the
-[Getting Started ](/docs/threatprevention/7.4/overview/gettingstarted.md)topic for
+[Getting Started ](/docs/threatprevention/7.4/gettingstarted.md)topic for
 the next steps.

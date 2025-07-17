@@ -1,7 +1,7 @@
 ---
 title: "Netwrix Threat Prevention v7.4 Documentation"
 description: "Netwrix Threat Prevention v7.4 Documentation"
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Netwrix Threat Prevention v7.4 Documentation
