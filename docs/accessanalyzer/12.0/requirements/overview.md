@@ -91,7 +91,7 @@ additional:
 - [Box Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/box/box.md#box-solution-requirements-on-the-access-analyzer-console)
 - [Databases Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/databases/databases.md#databases-solution-requirements-on-the-access-analyzer-console)
 - [Dropbox Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/dropbox/dropbox.md#dropbox-solution-requirements-on-the-access-analyzer-console)
-- [Entra ID Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/entraid/entraid.md#entra-idsolution-requirements-on-the-access-analyzer-console)
+- [Entra ID Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/entraid/entraid.md#entra-id-solution-requirements-on-the-access-analyzer-console)
 - [Exchange Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/exchange/exchange.md#exchange-solution-requirements-on-the-access-analyzer-console)
 - [File System Solution Requirements on the Access Analyzer Console ](/docs/accessanalyzer/12.0/requirements/filesystem/filesystem.md#file-system-solution-requirements-on-the-access-analyzer-console)
 - [SharePoint Solution Requirements on the Access Analyzer Console](/docs/accessanalyzer/12.0/requirements/sharepoint/sharepoint.md#sharepoint-solution-requirements-on-the-access-analyzer-console)
