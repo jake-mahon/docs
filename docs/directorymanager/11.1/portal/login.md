@@ -61,11 +61,6 @@ Step 4 – After providing your credentials, click **Sign In**.
 Microsoft Entra ID MFA enabled users cannot log into Directory Manager using their username
 and password. They will be authenticated through the SAML provider configured in Directory Manager.
 :::
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
-
 
 **With a SAML Provider**
 

@@ -41,11 +41,6 @@ The User Type has no link to the user login function, the directory role of the 
 on. It simply indicates the user's relationship to the host organization and allows the organization
 to enforce policies that depend on this property.
 :::
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
-
 
 **Object ID**
 

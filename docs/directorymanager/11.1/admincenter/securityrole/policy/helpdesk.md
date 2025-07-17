@@ -241,22 +241,9 @@ As part of the Helpdesk policy, you can:
 - Force end-users to change the password the next time they sign to their workstations.
 
 :::tip
-<<<<<<< HEAD
-:::tip
-:::tip
 Remember, These settings are available if the _Reset Any Password_ permission is granted to the
 Helpdesk role in the identity store.
 :::
-:::
-:::
-
-
-=======
-Remember, These settings are available if the _Reset Any Password_ permission is granted to the
-Helpdesk role in the identity store.
-:::
->>>>>>> origin/dev
-
 
 ### Specify a Password Reset Method
 

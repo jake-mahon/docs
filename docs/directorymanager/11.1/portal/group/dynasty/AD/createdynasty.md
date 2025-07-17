@@ -37,11 +37,6 @@ You cannot create mail-enabled Dynasties of the Office 365 group type in a Micro
 based identity store, since an Office 365 group cannot have groups as its members. Only non
 mail-enabled Dynasties of the security group type are supported.
 :::
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
-
 
 **Naming conventions for Child Dynasties**
 

@@ -61,11 +61,6 @@ Manager portal. Both actions are logged in Admin Center history. However, histor
 of IdentityStoreA will apply to the SMS gateway account creation action and that of IdentityStoreB
 will apply to the Directory Manager portal creation action.
 :::
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
-
 
 **Event Logging**
 

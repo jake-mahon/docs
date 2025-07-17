@@ -80,10 +80,6 @@ The **Additional Owners** grid displays the following information:
 | Ending | Displays the ending date of the temporary addition or removal. |
 | Do not notify | By default, all group-related notifications (such as expiry, deletion, and renewal notifications) are sent to the primary owner and all additional owners, so they can take the necessary action indicated. <br />To exclude an additional owner from receiving notifications, select the **Do not notify** check box. <br />**NOTE:** When a Smart Group Update job runs on a group, the notification behavior is as follows: Even when the **Do not Notify** check box is selected, the additional owner will receive the notifications if the administrator has included its email address for job-specific notifications. |
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/dev
 :::note
 For each column, a filter is also available that lets you filter records based on a criterion.
 For example; to show objects whose display names start with D, type D in the box under the **Name**

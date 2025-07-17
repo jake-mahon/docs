@@ -18,11 +18,6 @@ these languages.
 Before configuring Email authentication, make sure that an SMTP server is configured for the
 identity store. See the [Configure an SMTP Server](/docs/directorymanager/11.1/admincenter/identitystore/configure/smtpserver.md) topic.
 :::
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
-
 
 ## Enable Email Authentication for an Identity Store
 
