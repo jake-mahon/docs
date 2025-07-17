@@ -129,7 +129,7 @@ For each workflow, it is possible to add aspects according to the workflow's pur
 ## Homonym Detection (Optional)
 
 To perform a homonymy check on a workflow and thus prevent user duplicates, see the
-[Configure a Homonym Detection](/docs/identitymanager/saas/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
+[Configure a Homonym Detection](/docs/identitymanager/6.2/integration-guide/workflows/create-workflow/configure-homonym-test/index.md) topic for additional information.
 
 When using records, the homonym detection displays the list of records and not just the list of
 users.
