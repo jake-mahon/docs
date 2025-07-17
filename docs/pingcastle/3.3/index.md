@@ -2,7 +2,7 @@
 
 ## About PingCastle
 
-"For CISO, by CISO"
+**"For CISO, by CISO"**
 
 PingCastle was born based on a finding: security based only on
 technology does not work. That\'s why the company focuses on process and
@@ -17,7 +17,7 @@ PingCastle\'s objective is not to reach a perfect security but to
 impulse changes using the management. And with low effort, I think
 you\'ll get support to change the situation !
 
-Vincent LE TOUX
+**Vincent LE TOUX**
 
 ## License
 
@@ -32,7 +32,7 @@ Software License ("Non-Profit OSL") 3.0.
 The program is allowed to run only during its support date. Support can
 be extended by purchasing additional support.
 
-Methodology
+**Methodology**
 
 The PingCastle tool is just one part of a global methodology aiming at
 securing Active Directories.
@@ -50,7 +50,7 @@ The following sections describe how to use PingCastle.
 
 ## Requirements
 
-Active Directory Account
+**Active Directory Account**
 
 The PingCastle program needs an Active Directory account to connect to
 the AD to audit. No requirements is needed for this account. It can be
@@ -58,7 +58,7 @@ an account without any privileges or even an account from a trusted
 domain. This account doesn't require to be part of the local
 administrators group.
 
-Server Side
+**Server Side**
 
 There is no requirement on the server side.
 
@@ -72,7 +72,7 @@ to compute the report by a factor of 10.
 ADWS can be installed manually on [Windows 2003 and Windows 2008](http://www.microsoft.com/fr-fr/download/details.aspx?id=2852) [require .NET Framework 3.5SP1](https://www.microsoft.com/en-us/download/details.aspx?id=25150).
 The hot fix that may be needed for these OS is located [here](http://hotfixv4.microsoft.com/.NET%20Framework%203.5%20-%20Windows%202000,%20Windows%20Server%202003,%20Windows%20XP,%20Windows%20Vista,%20Windows%20Server%202008%20%28MSI%29/sp1/DevDiv758402/30729.4174/free/392858_intl_x64_zip.exe).
 
-Client side
+**Client side**
 
 1.  PingCastle requires .Net 4, available on all modern OS. However it
     can be compiled to run manually on .Net2. It fulfill then the
@@ -108,7 +108,7 @@ produces reports for human or machine.
 PingCastle reads its own machine readable reports to build analysis or
 dashboard.
 
-Installation
+**Installation**
 
 PingCastle Basic Edition is provided in a zip file. You need a program
 such as 7zip or the native unzip program to decompress the file.
@@ -158,7 +158,7 @@ twitter \@mysmartlogon
 
 ## Generating log file for support requests
 
-PingCastle can collect logs with the \--log switch
+**PingCastle can collect logs with the \--log switch**
 
 However when a command line argument is submitted, the interactive mode
 is disabled and the module has to be launched manually. To avoid that,
@@ -182,7 +182,7 @@ It can be run using the command:
 PingCastle --healthcheck --server mydomain.com
 ```
 
-Active Directory risk level analysis
+**Active Directory risk level analysis**
 
 When the health check is run, an html file and an xml file are
 generated. The html file represent the report of the active directory.
@@ -197,7 +197,7 @@ active directories. It is designed to be computer read (PingCastle).
 
 The report is divided in 3 parts:
 
-1 -- Scores
+**1 -- Scores**
 
 The Score is computed by the maximum of the 4 sub scores:
 
@@ -224,11 +224,11 @@ some indication on how to solve the situation.
 
 ![](/img/product_docs/pingcastle/basicuser/image12.png)
 
-2 -- General information
+**2 -- General information**
 
 - Contains the generated date, domain
 
-3 -- Details
+**3 -- Details**
 
 - The Detail zone shows general information about users, computers,
   trusts, group policies, ...
@@ -242,7 +242,7 @@ link. It contains data to help identify the underlying objects.
 
 # Perform domain discovery
 
-Option 1: performing multiple health check reports (recommended)
+**Option 1: performing multiple health check reports (recommended)**
 
 If you want to get a quick status of your infrastructure, [run the program](#run-the-program) with the "healthcheck" mode (just press enter) and enter as domain the asterisk (*).
 
@@ -256,7 +256,7 @@ Then open the cartography reports (see below).
 
 3.  Xml reports generated from multiple point of view can be used to have a consolidated map. Do not forget to check the [Getting an overview](#getting-an-overview-with-multiple-reports) or [dashboard](#performing-an-active-directory-health-check) section.
 
-Option 2: when having existing health check reports
+**Option 2: when having existing health check reports**
 
 **The map can be generated in the interactive mode by choosing
 "conso".** This mode performs the consolidation report and build the
@@ -298,7 +298,7 @@ state.
 The full domain map is represented by the files xxx_full_node_map.html.
 Each map is a dynamic map. Each node can be moved.
 
-Example of graph produced by the tool
+**Example of graph produced by the tool**
 
 ![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/img3.png](/img/product_docs/pingcastle/basicuser/image19.png)
 
@@ -403,7 +403,7 @@ kind of project:
 - The tool returns anomalies which 80% of them can be fixed within 5
   minutes
 
-Decision to take
+**Decision to take**
 
 We recommend that the decision made by the management is about:
 
@@ -423,7 +423,7 @@ We recommend that the decision made by the management is about:
   - For example set a monthly follow up meeting with the people
     involved.
 
-Getting to 100%
+**Getting to 100%**
 
 Below is a list of reasons an entity can invoke (or remain silent) to be
 excepted:
@@ -460,7 +460,7 @@ Then for domains without a trust, you can formally transfer the
 responsibility of the Active Directory compromise and put the domain
 status to "Out Of Scope".
 
-Deploying PingCastle in decentralized locations
+**Deploying PingCastle in decentralized locations**
 
 PingCastle can be run on every domain of a company using the command:
 
@@ -531,7 +531,7 @@ least X days
 
 ## Centralizing reports
 
-Encryption
+**Encryption**
 
 Sometimes, domains are unconnected or it is not possible to make the
 schedule tasks centralize in a single share all the reports. To deal
@@ -550,29 +550,29 @@ public key in the .config file to be deployed.
 PingCastle.exe --generate-key
 ```
 
-Starting the task: Generate Key
+**Starting the task: Generate Key**
 
 Public Key (used on the encryption side):
 
 ```xml
 <encryptionSettings encryptionKey="default">
 
-<RSAKeys>
+**<RSAKeys>**
 
 <!-- encryption key -->
 
 <KeySettings name="default"
 publicKey="<RSAKeyValue><Modulus>h
 
-4smrLAZZ30QwWXHcT1oNz3hH3Ax2R9T75DlioGFCIdLb0QhUn3N8NWgJ2ZgyUNXn4qU1b0DslOIhK+Cq
+**4smrLAZZ30QwWXHcT1oNz3hH3Ax2R9T75DlioGFCIdLb0QhUn3N8NWgJ2ZgyUNXn4qU1b0DslOIhK+Cq**
 
 oqCPvXuHjK6TGrMyphtcbZvvgbLxfyalJemczx1+pOuBlqqVdalE94rnnnBr761WIJJnkJdZ0rzYsebn
 
-DwGuk9kiw8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue
+**DwGuk9kiw8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue**
 
 >"/>
 
-<!-- end -->
+**<!-- end -->**
 
 </RSAKeys>
 
@@ -584,47 +584,47 @@ Private Key (used on the decryption side):
 ```xml
 <encryptionSettings encryptionKey="default">
 
-<RSAKeys>
+**<RSAKeys>**
 
 <!-- decryption key -->
 
 <KeySettings name="39b5d076-17be-4999-b43e-b894a55446a1"
 privateKey="<R
 
-SAKeyValue><Modulus>h4smrLAZZ30QwWXHcT1oNz3hH3Ax2R9T75DlioGFCIdLb0QhUn3
+**SAKeyValue><Modulus>h4smrLAZZ30QwWXHcT1oNz3hH3Ax2R9T75DlioGFCIdLb0QhUn3**
 
 N8NWgJ2ZgyUNXn4qU1b0DslOIhK+CqoqCPvXuHjK6TGrMyphtcbZvvgbLxfyalJemczx1+pOuBlqqVda
 
-lE94rnnnBr761WIJJnkJdZ0rzYsebnDwGuk9kiw8=</Modulus><Exponent>AQAB<
+**lE94rnnnBr761WIJJnkJdZ0rzYsebnDwGuk9kiw8=</Modulus><Exponent>AQAB<**
 
 /Exponent><P>uwgX794pe7O3vIiQR5v03WK3Ug5LUAbXpPF6Xq4qGb3TGprZaJQq5rZ2u
 
-J4qwRanOa5pI/zv7RhG/4ItesBuAw==</P><Q>uYaNLEp9Vh8F29tSH+M4z+OjxPl+UL
+**J4qwRanOa5pI/zv7RhG/4ItesBuAw==</P><Q>uYaNLEp9Vh8F29tSH+M4z+OjxPl+UL**
 
 LRjLrssFLTTNsdnrHgAtdJ1lxfIm/gTUa0qPLa9Y/xkUb1khK/+tV3BQ==</Q><DP>Fd
 
-feI8+IfMACh2xTnWljca+jxVuSBCioasUhC4m/tP3sd8D5/zK+x+8rcmhWifKBWUU7Vk6mHsSlFhY4BY
+**feI8+IfMACh2xTnWljca+jxVuSBCioasUhC4m/tP3sd8D5/zK+x+8rcmhWifKBWUU7Vk6mHsSlFhY4BY**
 
 wPzQ==</DP><DQ>gzfwh8AT0CLXEP6ZomYi257lST8xoUAoyEG5gKjEPJrJ42Fp0HiXB
 
-9+Dhibc3atBwjEqvv5VXGx06iEK2g27RQ==</DQ><InverseQ>HRKFjYwrXqgO4v8Q+J
+**9+Dhibc3atBwjEqvv5VXGx06iEK2g27RQ==</DQ><InverseQ>HRKFjYwrXqgO4v8Q+J**
 
 SOqR6lSvQ15Z6V4AE23i4xfeuIYWwVf0t8AwgkDfFRQnEyh24byuh5PPzUbDOsUY+eYg==</Inver
 
-seQ><D>QQ6pIXnkt6dvw2P2toOi4eDxjQVs56oBv5rske5YzB8kNeOdmtqHXnEqzb519iQ8
+**seQ><D>QQ6pIXnkt6dvw2P2toOi4eDxjQVs56oBv5rske5YzB8kNeOdmtqHXnEqzb519iQ8**
 
 incZuP1gKNevTwBu1yxkFuFh0dzjS3iBjHvYGtDo5mARiZ1nN8QNI2zKE+Q6qXF8Z+wN3Fv3oBDQXATI
 
-6IQbgkAxLTMo4CUmtUQ6GvjwFwE=</D></RSAKeyValue>"/>
+**6IQbgkAxLTMo4CUmtUQ6GvjwFwE=</D></RSAKeyValue>"/>**
 
 <!-- end -->
 
-</RSAKeys>
+**</RSAKeys>**
 
 </encryptionSettings>
 ```
 
-Done
+**Done**
 
 Task Generate Key completed
 
@@ -642,8 +642,10 @@ PingCastle --reload-report report.xml --encrypt
 PingCastle --reload-report encrypted-report.xml
 ```
 
-Note: Only one key can be specified for encryption but multiple keys can
+:::note
+Only one key can be specified for encryption but multiple keys can
 be used for decryption. Their selection is automatic.
+:::
 
 ### Email
 
@@ -677,7 +679,7 @@ This is the kind of questions you can answer with the simplest
 consolidation. Indeed, the program can be used to aggregate the report
 results.
 
-Operations to perform
+**Operations to perform**
 
 The consolidation process is working on the xml files generated by the
 consolidation report. By default, the files are picked in the directory
@@ -699,7 +701,7 @@ PingCastle --hc-conso
 4.  This report is generated automatically when the healthcheck is
     performed with the server "\*"
 
-Consolidation report
+**Consolidation report**
 
 The consolidation report is a concatenation of all data contained in the
 report, without the detail. It follows the same plan than a simple
@@ -709,7 +711,7 @@ report.
 
 When the consolidation is made, 3 html files are generated.
 
-File ad_hc_summary.html
+**File ad_hc_summary.html**
 
 The first one contains the summary of all the reports: It keeps the same
 structure than the detailed reports but with a higher level of detail.
@@ -739,7 +741,7 @@ a scanner description is shown.
 
 ![](/img/product_docs/pingcastle/basicuser/image29.png)
 
-Here are the main scanners
+**Here are the main scanners**
 
 Check for specific user in global permissions
 
@@ -751,7 +753,7 @@ objects on a domain. It is default to the \"authenticated users\",
 PingCastle --scanner aclcheck --server <domainToExplore>
 ```
 
-Local administrators
+**Local administrators**
 
 The local administrator accounts can be used in an attack to recover
 passwords in memory with tools like mimikatz. You can enumerate most of
@@ -761,7 +763,7 @@ them without any privilege with PingCastle with the following command:
 PingCastle --scanner localadmin --server <domainToExplore>
 ```
 
-Local shares
+**Local shares**
 
 Local shares can be opened to everyone and be storing confidential
 information like login and passwords or backups. PingCastle can do a
@@ -772,7 +774,7 @@ following command:
 PingCastle --scanner share --server <domainToExplore>
 ```
 
-Start time
+**Start time**
 
 Any authenticated users can get the start time of a computer in the
 domain and even unauthenticated ones if SMB v2 is activated. PingCastle
@@ -783,7 +785,7 @@ all computers of the domain:
 PingCastle --scanner startup --server <domainToExplore>
 ```
 
-SMB version
+**SMB version**
 
 PingCastle can do a quick scan without any privilege to know which
 version is supported as server for each computer of a domain:
@@ -792,7 +794,7 @@ version is supported as server for each computer of a domain:
 PingCastle --scanner smb --server <domainToExplore>
 ```
 
-Null sessions
+**Null sessions**
 
 Null sessions are an old Windows NT4 problem. It should have been
 disappears but is still present on 20-30% of the domains. When it is
@@ -808,7 +810,7 @@ using this functionality. Run the following command:
 PingCastle --scanner nullsession --server <servertotest>
 ```
 
-foreignusers
+**foreignusers**
 
 A inbound trust ( an unidirectional trust) is understood as a diode.
 Nothing is supposed to be extracted. But this is not true. PingCastle
@@ -828,11 +830,11 @@ PingCastle --scanner foreignusers --foreigndomain <remote domain or sid> --serve
 
 # Annex
 
-Command line reference
+**Command line reference**
 
 Here is a short description of the main tasks performed by the program.
 
-Health check
+**Health check**
 
 run the health check :
 
@@ -913,14 +915,14 @@ switch:
 ```
 --help : display this message
 
---interactive : force the interactive mode
+**--interactive : force the interactive mode**
 
 --log : generate a log file
 
 --log-console : add log to the console
 ```
 
-Common options when connecting to the AD
+**Common options when connecting to the AD**
 
 ```
 --server <server> : use this server (default: current domain
@@ -939,11 +941,11 @@ prompt)
 --protocol <proto> : selection the protocol to use among LDAP or ADWS
 (fastest)
 
-: ADWSThenLDAP (default), ADWSOnly, LDAPOnly, LDAPThenADWS
+**: ADWSThenLDAP (default), ADWSOnly, LDAPOnly, LDAPThenADWS**
 
 --carto : perform a quick cartography with domains surrounding
 
---healthcheck : perform the healthcheck (step1)
+**--healthcheck : perform the healthcheck (step1)**
 
 --api-endpoint <> : upload report via api call eg: http://server
 
@@ -955,7 +957,7 @@ hc on all trusted domains except domains of the forest and forest trusts
 --explore-forest-trust : on root domain of a forest, after the
 healthcheck, do the hc on all forest trusts discovered
 
---explore-trust and --explore-forest-trust can be run together
+**--explore-trust and --explore-forest-trust can be run together**
 
 --explore-exception <domains> : comma separated values of domains
 that will not be explored automatically
@@ -965,7 +967,7 @@ content of the xml report
 
 --level <level> : specify the amount of data found in the xml file
 
-: level: Full, Normal, Light
+**: level: Full, Normal, Light**
 
 --no-enum-limit : remove the max 100 users limitation in html report
 
@@ -974,7 +976,7 @@ content of the xml report
 --sendXmlTo <emails>: send xml reports to a mailbox (comma separated
 email)
 
---sendHtmlTo <emails>: send html reports to a mailbox
+**--sendHtmlTo <emails>: send html reports to a mailbox**
 
 --sendAllTo <emails>: send html reports to a mailbox
 
@@ -988,11 +990,11 @@ received
 --smtptls : enable TLS/SSL in SMTP if used on other port than 465 and
 587
 
---skip-null-session: do not test for null session
+**--skip-null-session: do not test for null session**
 
 --webdirectory <dir>: upload the xml report to a webdav server
 
---webuser <user> : optional user and password
+**--webuser <user> : optional user and password**
 
 --webpassword <password>
 
@@ -1002,11 +1004,11 @@ Do not forget PingCastleReporting includes a similar option but for
 
 --generate-key : generate and display a new RSA key for encryption
 
---hc-conso : consolidate multiple healthcheck xml reports (step2)
+**--hc-conso : consolidate multiple healthcheck xml reports (step2)**
 
 --center-on <domain> : center the simplified graph on this domain
 
-default is the domain with the most links
+**default is the domain with the most links**
 
 --xmls <path> : specify the path containing xml (default: current
 directory)
@@ -1021,7 +1023,7 @@ any healthcheck switches (send email, ..) can be reused
 
 --level <level> : specify the amount of data found in the xml file
 
-: level: Full, Normal, Light (default: Normal)
+**: level: Full, Normal, Light (default: Normal)**
 
 --encrypt : use an RSA key stored in the .config file to crypt the
 content of the xml report
@@ -1041,68 +1043,68 @@ content of the xml report
 
 --node <node> : create a report based on a object
 
-: example: "cn=name" or "name"
+**: example: "cn=name" or "name"**
 
 --nodes <file> : create x report based on the nodes listed on a file
 
 --scanner <type> : perform a scan on one of all computers of the
 domain (using --server)
 
-aclcheck
+**aclcheck**
 
 Check authorization related to users or groups. Default to everyone,
 authenticated users and domain users
 
-antivirus
+**antivirus**
 
 Check for computers without known antivirus installed. It is used to
 detect unprotected computers but may also report computers with unknown
 antivirus.
 
-corruptADDatabase
+**corruptADDatabase**
 
 Try to detect corrupted AD database. To run only when requested by
 PingCastle support.
 
-foreignusers
+**foreignusers**
 
 Use trusts to enumerate users located in domain denied such as bastion
 or domains too far away.
 
-laps_bitlocker
+**laps_bitlocker**
 
 Check on the AD if LAPS and/or BitLocker has been enabled for all
 computers on the domain.
 
-localadmin
+**localadmin**
 
 Enumerate the local administrators of a computer.
 
-nullsession
+**nullsession**
 
 Check if null sessions are enabled and provide example(s).
 
-nullsession-trust
+**nullsession-trust**
 
 Dump the trusts of a domain via null session if possible
 
-share
+**share**
 
 List all shares published on a computer and determine if the share can
 be accessed by anyone
 
-smb
+**smb**
 
 Scan a computer and determine the smb version available. Also if SMB
 signing is active.
 
-spooler
+**spooler**
 
 Check if the spooler service is remotely active. The spooler can be
 abused to get computer tokens when unconstrained delegations are
 exploited.
 
-startup
+**startup**
 
 Get the last startup date of a computer. Can be used to determine if
 latest patches have been applied.
@@ -1117,7 +1119,7 @@ options for scanners:
 --foreigndomain <sid> : foreign domain targeted using its FQDN or
 sids
 
-Example of SID: S-1-5-21-4005144719-3948538632-2546531719
+**Example of SID: S-1-5-21-4005144719-3948538632-2546531719**
 
 --upload-all-reports: use the API to upload all reports in the current
 directory
@@ -1125,10 +1127,13 @@ directory
 --api-endpoint <> : upload report via api call eg: http://server
 
 --api-key <key> : and using the api key as registered
-
-Note: do not forget to set --level Full to send all the information
-available
 ```
+
+:::note
+Do not forget to set --level Full to send all the information
+available
+:::
+
 
 ## List of open source software used
 
@@ -1186,7 +1191,7 @@ This can be modified in the security policies:
 
 ![](/img/product_docs/pingcastle/basicuser/image37.png)
 
-Select \"Local Policies\" in MSC snap in
+**Select \"Local Policies\" in MSC snap in**
 
 Select \"User Rights Assignment\"
 

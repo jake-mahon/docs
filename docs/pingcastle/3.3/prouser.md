@@ -60,7 +60,7 @@ PingCastle Pro provides authentication through:
 
 # Ping Castle Pro features
 
-Main pages overview
+**Main pages overview**
 
 The application is divided is 2 different areas:
 
@@ -78,7 +78,7 @@ and its data.
 
 ## Domains
 
-Detail information on a domain
+**Detail information on a domain**
 
 This view displays detailed information on the domain, as well as many
 other information such the results of the last report, some history,
@@ -149,7 +149,7 @@ perimeter.
 
 ![](/img/product_docs/pingcastle/prouser/image9.png)
 
-Rule exceptions
+**Rule exceptions**
 
 \"Rule exceptions\" can be set in order to completely disable a rule
 within a specific domain. It means that this rule will not be applied
@@ -159,7 +159,7 @@ your organization. Do not hesitate to contact the PingCastle editors if
 you have doubts or require extra assistance regarding how the exceptions
 are managed.
 
-Migration
+**Migration**
 
 In the same idea you can set exceptions for specific domain, you can
 inform it in the application when one of your domains is migrating. It
@@ -225,8 +225,10 @@ pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key>
 
 ![](/img/product_docs/pingcastle/prouser/image14.png)
 
-Important note: By default, all detailed information will be filtered.
-To avoid this behavior, the command line can to be changed to:
+:::note
+By default, all detailed information will be filtered.
+To avoid this behavior, the command line can to be changed as follows.
+:::
 
 ```bash
 pingcastle --healthcheck --api-endpoint <endpoint> --api-key <key> --level Full

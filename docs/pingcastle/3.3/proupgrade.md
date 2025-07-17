@@ -2,7 +2,7 @@
 
 ## Before proceeding to the upgrade
 
-Version check
+**Version check**
 
 You can check the existing version using the About link at the bottom of
 each page.

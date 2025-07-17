@@ -11,7 +11,7 @@ improving over time.
 
 # Requirements
 
-System Specifications
+**System Specifications**
 
 The Operating systems supported are:
 
@@ -76,7 +76,7 @@ domains include subdomains of a forest.
 2.  The number of Domain Controllers are not used for licensing, only
     domains.
 
-Example
+**Example**
 
 If you have consto.com with two subdomains called uk.consto.com and
 us.consto.com, then you would require three licenses.
@@ -107,7 +107,7 @@ it in the database.
 
 Add the end of the procedure, you will get "Tenant ID" and "Client ID".
 
-Connect to \"Azure Portal\" located at https://portal.azure.com
+**Connect to \"Azure Portal\" located at https://portal.azure.com**
 
 ![](/img/product_docs/pingcastle/proinstall/image4.png)
 
@@ -138,8 +138,10 @@ ClientID and TenantID and keep it with you.
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image9.png)
 
-Note: the permission can be granted implicitly by the first user
+:::note
+The permission can be granted implicitly by the first user
 connecting to the application.
+:::
 
 # SQL Express installation
 
@@ -148,7 +150,7 @@ any edition of SQL Server is working.
 
 Download SQL Express 2019 here:
 
-https://www.microsoft.com/en-us/Download/details.aspx?id=101064
+**https://www.microsoft.com/en-us/Download/details.aspx?id=101064**
 
 Select "Basic"and let the installation proceed.
 
@@ -386,7 +388,9 @@ sudo apt-get install postgresql postgresql-contrib
 sudo /etc/init.d/postgresql start
 ```
 
-Note: by default no password for the user postgres
+:::note
+By default no password for the user postgres
+:::
 
 ```bash
 sudo -u postgres createuser pingcastle
@@ -401,7 +405,7 @@ sudo -u postgres createdb -O pingcastle pingcastle
 
 ## Using a Database hosted on another server
 
-Configure SQL Server with a local DB account
+**Configure SQL Server with a local DB account**
 
 You first need to create a local account inside Sql Server.
 
@@ -419,7 +423,7 @@ Then create a database.
 
 ![](/img/product_docs/pingcastle/proinstall/image37.png)
 
-Then create a database
+**Then create a database**
 
 ![](/img/product_docs/pingcastle/proinstall/image38.png)
 
@@ -458,7 +462,7 @@ need to be escaped as they are located inside a json string.
 
 ![Une image contenant texte, Police, nombre, logiciel Description générée automatiquement](/img/product_docs/pingcastle/proinstall/image43.png)
 
-Configure SQL Server with an Active Directory user
+**Configure SQL Server with an Active Directory user**
 
 You need to first create this Windows user.
 
@@ -527,13 +531,13 @@ For the license, the parameter is stored in the \"License\" setting.
 
 Here are some connection string examples:
 
-Sql Local DB
+**Sql Local DB**
 
 ```json
 "Server=(localdb)\\mssqllocaldb;Database=aspnet-PingCastlePro-9521AD04-BA3A-41DC-A454-F2BD464E9391;Trusted_Connection=True;MultipleActiveResultSets=true"
 ```
 
-PostGres
+**PostGres**
 
 ```json
 "DefaultConnection": "Server=localhost;username=pingcastle;password=pingcastle;database=pingcastle"
@@ -581,7 +585,7 @@ Azure.
 
 ![](/img/product_docs/pingcastle/proinstall/image51.png)
 
-It then display the welcome screen
+**It then display the welcome screen**
 
 ![](/img/product_docs/pingcastle/proinstall/image52.png)
 
@@ -623,7 +627,7 @@ pingcastle.exe --upload-all-reports --api-endpoint https://endpoint.com --api-ke
 
 # Post Installation - Scheduler
 
-Quick installation
+**Quick installation**
 
 PingCastle allows the possibility to the administrator of the
 application to schedule scans. It is useful when the solution is
@@ -656,9 +660,11 @@ the access to the task scheduler cannot be delegated.
 
 ## Custom installation
 
-Note: PingCastle is using behing the hood a folder named "PingCastle" in
+:::note 
+PingCastle is using behing the hood a folder named "PingCastle" in
 the task scheduler. We will use the COM api as it exposes the security
 descriptor -- which is not the case of the native PowerShell APIL
+:::
 
 If you want PingCastle to be able to start or stop tasks but not being
 able to edit them (it requires that the account is local admin), you
@@ -725,7 +731,7 @@ scheduler.
 The recommended frequency is every week, using a normal user account
 (not privileged) running on a batch server (not a DC).
 
-Command
+**Command**
 
 You need to create an API key with the upload right (the \"Agent\" page
 as admin).
@@ -756,7 +762,7 @@ The method to run the application manually is to run the command:
 dotnet.exe PingCastlePro.dll
 ```
 
-(dotnet.exe is stored by default on c:\\program files\\dotnet)
+**(dotnet.exe is stored by default on c:\\program files\\dotnet)**
 
 Additionnally, you can choose to open the application on the network by
 specifying the \--server.urls parameter:
@@ -772,7 +778,7 @@ service connect under IIS APPPool\\AppName. We recommend to look at the
 following page to grant right to the application pool account on Sql
 Server:
 
-https://blogs.msdn.microsoft.com/ericparvin/2015/04/14/how-to-add-the-applicationpoolidentity-to-a-sql-server-login
+**https://blogs.msdn.microsoft.com/ericparvin/2015/04/14/how-to-add-the-applicationpoolidentity-to-a-sql-server-login**
 
 Then depending on the platform additional logs can be stored.
 
@@ -815,7 +821,9 @@ And the message when running on the command line:
 identify the correct version of the framework and install it. Do not
 forget to install the IIS middleware is you are installing on IIS.
 
-Note: the last error was related to the missing KB KB2533623
+:::note
+The last error was related to the missing KB KB2533623
+:::
 
 ## Error at the application startup
 
@@ -911,7 +919,7 @@ Follow the steps to enable debug logging.
 5.  From the same directory, open the **web.config** file and edit the
     **aspNetCore** tag so **stdoutLogEnabled=true**.
 
-Example
+**Example**
 
 ```xml
 <aspNetCore processPath="dotnet" arguments=".\PingCastlePro.dll" stdoutLogEnabled="true" stdoutLogFile=".\logs\stdout" hostingModel="InProcess" />

@@ -77,9 +77,11 @@ Authentication using login/password:
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image4.png)
 
-Note: When the login / password method is configured (by default), a
+:::note
+When the login / password method is configured (by default), a
 password recovery mechanism by email and a two-factor authentication
 method are provided.
+:::
 
 ## Authorization
 
@@ -90,7 +92,7 @@ The permissions can be set on the detail of the Entities
 
 ![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image5.png)
 
-And on the Domain / AzureAD objects
+**And on the Domain / AzureAD objects**
 
 ![Une image contenant texte, capture d'écran, logiciel, Page web Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image6.png)
 
@@ -117,7 +119,7 @@ see what claims have been pushed to Ping Castle.
 
 # Ping Castle Enterprise features
 
-Main pages overview
+**Main pages overview**
 
 The application is divided is 4 different areas:
 
@@ -132,11 +134,11 @@ The application is divided is 4 different areas:
 ![A logo with a triangle and dots Description automatically
 generated](/img/product_docs/pingcastle/enterpriseuser/image10.png)![](/img/product_docs/pingcastle/enterpriseuser/image11.png)
 
-Configuration
+**Configuration**
 
 Account / User management
 
-Technical view
+**Technical view**
 
 Management view
 
@@ -243,7 +245,7 @@ Indeed, a lot of detailed analysis can be performed through the
 
 ## Maturity Assessment
 
-Global view
+**Global view**
 
 The \"Maturity Assessment\" is based on a maturity evaluation divided in
 several steps. To summarize, it consists 5 main areas, each containing 4
@@ -257,7 +259,7 @@ total, ending in a score on 20 that can be viewed in a radar chart.
 To go into more details, this score is computed on the 2 first levels of
 the CMMI methodology applied to the AD:
 
-Initial
+**Initial**
 
 - Domain Coverage - ensure all domains have been reviewed
 
@@ -267,7 +269,7 @@ Initial
 - External Trusts - ensure all domains are not connected to external
   companies
 
-Repeatable
+**Repeatable**
 
 - Internal trusts - ensure that the risk of cross domain contamination
   is limited
@@ -312,7 +314,7 @@ This section covers the following pages:
 It can be used to have an idea of the work performed as well as the work
 remaining to be done regarding the AD securing.
 
-Detailed view per area
+**Detailed view per area**
 
 Each area has its dedicated page, with a lot of information regarding
 what is being well done and what can be improved.
@@ -424,14 +426,14 @@ of AD security as well as how to improve it
 
 It consists of the following pages:
 
-Report Analysis
+**Report Analysis**
 
 Consolidation of all the possible reports that PingCastle Enterprise can
 generate with the information it has in the selected perimeter. There
 are a lot of features enabling the user to filter data if needed.
 Additional reports may be added in the future or if requested.
 
-Staled Objects
+**Staled Objects**
 
 The \"Staled Objects\" are one of the 4 main components of the Risk
 Score (the 2.2 area)
@@ -440,7 +442,7 @@ This section will give a lot of details on how the Stale Objects
 influence your overall Risk Score, as well as guidelines on how to
 reduce the risk and improve the overall Risk Score.
 
-Privileged accounts
+**Privileged accounts**
 
 The \"Privileged accounts\" are one of the 4 main components of the Risk
 Score (the 2.2 area)
@@ -449,7 +451,7 @@ This section will give a lot of details on how the Stale Objects
 influence your overall Risk Score, as well as guidelines on how to
 reduce the risk and improve the overall Risk Score.
 
-Trusts
+**Trusts**
 
 The \"Trusts\" are one of the 4 main components of the Risk Score (the
 2.2 area)
@@ -458,7 +460,7 @@ This section will give a lot of details on how the Stale Objects
 influence your overall Risk Score, as well as guidelines on how to
 reduce the risk and improve the overall Risk Score.
 
-Anomalies
+**Anomalies**
 
 The \"Anomalies\" are one of the 4 main components of the Risk Score
 (the 2.2 area)
@@ -486,7 +488,7 @@ monitored.
 
 ## Domains
 
-List of domains
+**List of domains**
 
 The objective of this page is to display the list of all the domains in
 the perimeter. This list can be filtered based on parameter to switch
@@ -502,7 +504,7 @@ filtered by default.
 A click on the domain open the domain view and a click on the entity
 full name open the management view for the entity.
 
-Detail information on a domain
+**Detail information on a domain**
 
 This view displays detailed information on the domain, as well as many
 other information such the results of the last report, some history,
@@ -551,7 +553,7 @@ Cartography tab:
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image40.png)
 
-Creation and suppression of a domain
+**Creation and suppression of a domain**
 
 There are two ways to create a Domain in PingCastle Enterprise:
 
@@ -590,7 +592,7 @@ mistake, meaning that it is in no way connected to any other existing
 domain or report). Though, it is possible to soft delete a domain by
 changing its status.
 
-Status of a domain
+**Status of a domain**
 
 The status of the domain is managed using a basic lifecycle, as shown in
 the graph below.
@@ -632,7 +634,7 @@ discovered is displayed and a special view is available.
 
 ## Cartography
 
-Navigation
+**Navigation**
 
 Each cartography can be used to navigate between domain. A mouse over on
 a domain displays a tooltip containing many information regarding the
@@ -643,7 +645,7 @@ The cartography is domain relative, which means that one cartography is
 created for each report. Doing so, PingCastle Enterprise can display the
 list of all the domains that a specific domain can see.
 
-Methodology used to build the maps
+**Methodology used to build the maps**
 
 PingCastle is using the data included in the report from the most
 reliable source to the less reliable source, in the following order:
@@ -674,14 +676,14 @@ reliable source to the less reliable source, in the following order:
     service](https://technet.microsoft.com/en-us/library/cc961830.aspx) and
     guess forest trusts.
 
-Detailed Cartography
+**Detailed Cartography**
 
 A general cartography is available. It displays all the domains and its
 trust relationship that the user can see in its scope.
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image44.png)
 
-Simplified Cartography
+**Simplified Cartography**
 
 Because the general cartography can be difficult to read, a simplified
 view exists. The program identifies by default the domain with the most
@@ -750,13 +752,13 @@ configuration.
     administrator for specific perimeter, meaning that these
     administrators will be operating on defined domains.
 
-Add new entity
+**Add new entity**
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image47.png)
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image48.png)
 
-Reorganize the tree view of entities
+**Reorganize the tree view of entities**
 
 The PingCastle Enterprise solution proposes an ergonomic view to
 reorganize the various entities that may compose your Company. This view
@@ -766,7 +768,7 @@ Example to show how to reorganize entities:
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image49.png)
 
-Details of an Entity
+**Details of an Entity**
 
 Each entity has a dedicated \"Details\" page that contains information.
 It is on this page that you can have access to all the information of
@@ -799,7 +801,7 @@ the projected evolution of the maturity level based on the action items.
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image53.png)
 
-Exceptions management
+**Exceptions management**
 
 This part enables administrator to configure PingCastle Enterprise so
 that it adapts to the company specific context. It is indeed possible to
@@ -808,7 +810,7 @@ perimeter.
 
 ![](/img/product_docs/pingcastle/enterpriseuser/image54.png)
 
-Rule exceptions
+**Rule exceptions**
 
 \"Rule exceptions\" can be set in order to completely disable a rule
 within a specific domain. It means that this rule will not be applied
@@ -826,14 +828,14 @@ end date, the exception is applied starting the start date. Same for the
 opposite case. When both start and end date are defined, the exception
 is applied only during a limited moment.
 
-Migration
+**Migration**
 
 In the same idea you can set exceptions for specific domain, you can
 inform it in the application when one of your domains is migrating. It
 will automatically put in place a set of exceptions during the timetable
 the migration is happening.
 
-Bulk actions
+**Bulk actions**
 
 If many exceptions needs to be created or removed, there is an option
 available to create or remove exceptions in bulk. Please note that if an
@@ -841,9 +843,11 @@ exception already exists, it will not be created again.
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image55.png)
 
-Note: Since PingCastle 2.11, all exceptions, migration or action plans
+:::note
+Since PingCastle 2.11, all exceptions, migration or action plans
 are tracked with their creation or last modification date and the user
 which performed this change.
+:::
 
 ![Une image contenant texte Description générée automatiquement](/img/product_docs/pingcastle/enterpriseuser/image56.png)
 
@@ -860,7 +864,7 @@ take decisions and such.
 
 There are two way for doing so:
 
-Option 1: Importing the file manually
+**Option 1: Importing the file manually**
 
 From the \"Configuration\" tab, open \"Import one or more report(s).
 Once you are on the page, you can simply drag and drop any file produced
